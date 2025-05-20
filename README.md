@@ -58,7 +58,7 @@ Of the set we parsed, these are applications. This was not a random sample (the 
 
 This is comparing the shellmetrics complexity to the LLM derived one, which I asked it to come up with based on criteria (see prompt in generation script). What I would guess here is that our result sample is biased to those with lower complexity.
 
-![img/gemini-jobspec-complexity.png](img/gemini-jobspec-applications.png)
+![img/gemini-jobspec-complexity.png](img/gemini-jobspec-complexity.png)
 
 That said, I bet we could separate the resources part of the script from the rest, and just have the resources get parsed for the conversion (and then the script plopped in) and then use the shellmetrics complexity.
 

@@ -1,0 +1,22 @@
+```json
+{
+  "job_manager": "slurm",
+  "application": "python run_pretraining_hvd.py (launched via mpirun for Horovod)",
+  "resources": {
+    "nodes": 4,
+    "tasks_per_node": 4,
+    "cpus_per_task": 8,
+    "gpus_per_node": 4,
+    "gpu_type": "dcu",
+    "total_tasks": 16,
+    "total_cpus": 128,
+    "total_gpus": 16,
+    "partition": "normal",
+    "exclusive_nodes": true,
+    "walltime": "not specified"
+  },
+  "software": {
+    "environment_variables": [
+      "MIOPEN_USER_DB_PATH=/tmp/tensorflow-miopen-${USER}-2.8",
+      "MIOPEN_DEBUG_DISABLE_FIND_DB=1",
+      "HOROVOD_HIERARCHICAL

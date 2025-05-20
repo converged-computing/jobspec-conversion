@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "bash run_all.sh",
+  "resources": {
+    "nodes": 1,
+    "tasks": 1,
+    "cpus_per_task": 1,
+    "walltime": "150:30:00",
+    "partition_queue": "azad",
+    "job_name": "FusedMM4DGL",
+    "output_file_pattern": "FusedMM4DGL.o%j"
+  },
+  "software": [
+    "module unload gcc",
+    "module load gcc"
+  ],
+  "complexity_score": 3
+}

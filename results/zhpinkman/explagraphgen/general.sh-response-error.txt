@@ -1,0 +1,21 @@
+```json
+{
+  "job_manager": "slurm",
+  "application": "bash scripts/train_graph_contrastive.sh",
+  "resources": {
+    "job_name": "general",
+    "walltime": "3-00:00:00",
+    "nodes": 1,
+    "tasks": 1,
+    "cpus_per_task": 8,
+    "memory_per_node": "30480MB",
+    "gpus_per_task": 1,
+    "gpu_type": "a100",
+    "partition": "nodes",
+    "working_directory": "/cluster/raid/home/zhivar.sourati/ExplagraphGen"
+  },
+  "software": {
+    "conda_environment": "explagraphgen",
+    "commands": [
+      "eval \"$(conda shell.bash hook)\"",
+      "conda

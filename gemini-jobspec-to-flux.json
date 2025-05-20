@@ -1,0 +1,2197 @@
+[
+    {
+        "correct": 7,
+        "wrong_args": 3,
+        "total_args": 10,
+        "filename": "/data/results/RealRui/FL_partial_personalization/scripts/finetune/generalization_L2/gldv2.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python train_finetune.py",
+            "resources": {
+                "job_array_tasks": 5,
+                "nodes_per_task": 1,
+                "cpus_per_task": 10,
+                "memory_per_task": "40G",
+                "gpus_per_task": 1,
+                "walltime": "2:00:00",
+                "partition": "learnfair"
+            },
+            "software": [
+                "source ~/.bashrc",
+                "source activate pyt19"
+            ],
+            "complexity_score": 8
+        },
+        "cyclomatic_complexity": 5
+    },
+    {
+        "correct": 7,
+        "wrong_args": 2,
+        "total_args": 9,
+        "filename": "/data/results/RealRui/FL_partial_personalization/scripts/federated/generalization_L2/gldv2.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python -u train_pfl.py",
+            "resources": {
+                "job_array_tasks": 25,
+                "nodes_per_task": 1,
+                "cpus_per_task": 10,
+                "memory_per_task_node": "40G",
+                "gpus_per_task": 1,
+                "walltime": "10:00:00",
+                "partition": "learnfair"
+            },
+            "software": [
+                "source ~/.bashrc",
+                "source activate pyt19"
+            ],
+            "complexity_score": 8
+        },
+        "cyclomatic_complexity": 4
+    },
+    {
+        "correct": 4,
+        "wrong_args": 5,
+        "total_args": 9,
+        "filename": "/data/results/RealRui/FL_partial_personalization/scripts/federated/pfedme/emnist.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python train_pfl.py",
+            "resources": {
+                "nodes_per_array_task": 1,
+                "cpus_per_task": 10,
+                "memory_per_task": "40G",
+                "gpus_per_task": 1,
+                "walltime": "3:30:00",
+                "partition": "learnfair",
+                "job_array_indices": "0-4"
+            },
+            "software": [
+                "source ~/.bashrc",
+                "source activate pyt19"
+            ],
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 3
+    },
+    {
+        "correct": 6,
+        "wrong_args": 2,
+        "total_args": 8,
+        "filename": "/data/results/twillis209/gps_paper_pipeline/submit_with_scheduling.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "snakemake --profile profile",
+            "resources": {
+                "job_name": "gps_paper_pipeline_scheduler",
+                "account": "MRC-BSU-SL2-CPU",
+                "nodes": 1,
+                "tasks": 1,
+                "cpus_per_task": 4,
+                "walltime": "6:00:00",
+                "partition": "cclake",
+                "mail_type": "FAIL",
+                "output_file": "logs/gps_paper_pipeline_scheduler/%j.out"
+            },
+            "software": {
+                "modules_purged": true,
+                "modules_loaded": [
+                    "rhel7/default-peta4"
+                ],
+                "conda_env_activated": "snakemake_env",
+                "conda_path_initialization": "/rds/project/rds-csoP2nj6Y6Y/tw395/mambaforge/",
+                "environment_variables_set": [
+                    "OMP_NUM_THREADS=5",
+                    "I_MPI_PIN_DOMAIN=omp:compact",
+                    "I_MPI_PIN_ORDER=scatter"
+                ],
+                "other_env_setup": [
+                    ". /etc/profile.d/modules.sh",
+                    "unset R_LIBS"
+                ]
+            },
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 5
+    },
+    {
+        "correct": 0,
+        "wrong_args": 0,
+        "total_args": 0,
+        "filename": "/data/results/aejensen1/Large-Scale-Matrix-Multiplication/create-batch-job.sh-flux-batch.sh",
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 5,
+        "wrong_args": 2,
+        "total_args": 7,
+        "deletions": [
+            {
+                "line": "# #FLUX: --account=xe2",
+                "reason": "sentinel changed"
+            }
+        ],
+        "filename": "/data/results/borevitzlab/brachy-genotyping/raijin/runit.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "snakemake",
+            "resources": {
+                "project": "xe2",
+                "queue": "hugemem",
+                "cores": 28,
+                "walltime_hhmmss": "24:00:00",
+                "memory": "800G",
+                "generic_resources": {
+                    "other": "gdata1"
+                },
+                "working_directory": "current",
+                "mail_user": "kevin.murray@anu.edu.au",
+                "mail_events": "abe"
+            },
+            "software": [
+                ". raijin/modules.sh"
+            ],
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 0,
+        "total_args": 5,
+        "filename": "/data/results/DAS-RCN/mldas/scripts/probmap/mpi4py_cori.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python $HOME/mldas/mldas/assess.py probmap",
+            "resources": {
+                "nodes": 3,
+                "queue": "regular",
+                "walltime": "05:00:00",
+                "constraint": "haswell",
+                "tasks": 96,
+                "cpus_per_task": 2
+            },
+            "software": {
+                "modules_loaded": [
+                    "pytorch/v1.6.0"
+                ],
+                "environment_setup_commands": []
+            },
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 7,
+        "wrong_args": 1,
+        "total_args": 8,
+        "filename": "/data/results/rachelmoran28/PopGenMiscScripts/ASTRAL/run_busco.sh-flux-batch.sh",
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 0,
+        "total_args": 5,
+        "filename": "/data/results/rachelmoran28/PopGenMiscScripts/diploSHIC/array_run_fvecVCF_chr.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "diploSHIC (feature vector generation from VCF files, executing commands from HardFiltered_All_Commands_fvecVCF.txt)",
+            "resources": {
+                "nodes": 1,
+                "tasks_per_node": 1,
+                "cpus_per_task": 1,
+                "memory_per_task": "62gb",
+                "walltime": "2:00:00",
+                "job_array": "0-26 (27 tasks)",
+                "partitions_or_queues": "small,amdsmall",
+                "job_name": "fvecVCF"
+            },
+            "software": {
+                "conda_init_script": "/home/mcgaughs/rmoran/miniconda3/etc/profile.d/conda.sh",
+                "conda_environment": "diplo",
+                "working_directory_change": "/home/mcgaughs/shared/Software/diploSHIC"
+            },
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 0,
+        "total_args": 5,
+        "deletions": [
+            {
+                "line": "# #FLUX: --requires=haswell  (if 'small' partition means Haswell nodes)",
+                "reason": "sentinel changed"
+            },
+            {
+                "line": "# #FLUX: --requires=cpu_vendor:amd (if 'amdsmall' means AMD CPUs)",
+                "reason": "sentinel changed"
+            }
+        ],
+        "filename": "/data/results/rachelmoran28/PopGenMiscScripts/diploSHIC/array_discoal_surface.sh-flux-batch.sh",
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 3,
+        "wrong_args": 0,
+        "total_args": 3,
+        "filename": "/data/results/rachelmoran28/cavefish_2019_pipeline/array_map.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "bwa (via commands in a file, processed as a job array)",
+            "resources": {
+                "nodes": 1,
+                "cores_per_node": 16,
+                "memory": "126gb",
+                "walltime": "96:00:00",
+                "queue": "sb128",
+                "job_array_tasks": "Determined by number of lines in CMD_LIST file"
+            },
+            "software": [
+                "module load zlib/1.2.8",
+                "module load xz-utils/5.2.2_intel2015update3",
+                "module load parallel/20160822",
+                "module load bwa/0.7.4",
+                "module load samtools/1.7"
+            ],
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 4,
+        "wrong_args": 0,
+        "total_args": 4,
+        "filename": "/data/results/rachelmoran28/cavefish_2019_pipeline/par_combine_unpair.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "GNU parallel executing a custom shell function ('parcomb') which uses 'cat' to combine files",
+            "resources": {
+                "nodes": 1,
+                "cores_per_node": 1,
+                "walltime": "2:00:00",
+                "queue": "mesabi"
+            },
+            "software": [
+                "export HOME=/home/mcgaughs/shared/Datasets/Reads_ready_to_align/Jineo",
+                "module load parallel",
+                "export -f parcomb"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 4,
+        "wrong_args": 2,
+        "total_args": 6,
+        "deletions": [
+            {
+                "line": "#flux: --output=bamg_cov_depth.%J.out # Merges stdout and stderr by default if --error is not specified.",
+                "reason": "orphan flux"
+            }
+        ],
+        "filename": "/data/results/rachelmoran28/cavefish_2019_pipeline/get_cov_depth.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "Parallel calculation of genome coverage depth using samtools and awk",
+            "resources": {
+                "memory_total": "22gb",
+                "nodes": 1,
+                "cores_per_node": 12,
+                "walltime": "24:00:00",
+                "queue": "mesabi"
+            },
+            "software": {
+                "modules_loaded": [
+                    "parallel/20160822",
+                    "samtools/1.7"
+                ],
+                "environment_setup": [
+                    "CAVE_GENOME_SIZE calculation using samtools, grep, cut, awk",
+                    "Redefinition of HOME environment variable to control output path"
+                ]
+            },
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 3,
+        "wrong_args": 5,
+        "total_args": 8,
+        "filename": "/data/results/LeoWood/bert-horovod/Sbatch2_pre_cscd_r_128_from_bert.sbatch-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python run_pretraining_hvd.py",
+            "resources": {
+                "nodes": 4,
+                "tasks_per_node": 4,
+                "cpus_per_task": 8,
+                "gpus_per_node": 4,
+                "gpu_type": "dcu",
+                "partition": "normal",
+                "job_name": "pre_bert",
+                "output_file": "pre_cscd_r_128_from_bert.out",
+                "walltime": "partition default"
+            },
+            "software": {
+                "modules_loaded": [],
+                "environment_setup": [
+                    "export MIOPEN_USER_DB_PATH=/tmp/tensorflow-miopen-${USER}-2.8",
+                    "export MIOPEN_DEBUG_DISABLE_FIND_DB=1",
+                    "export HOROVOD_HIERARCHICAL_ALLREDUCE=1",
+                    "mpirun MCA parameters: -mca pml ucx -x UCX_TLS=sm,rc,rocm_cpy,rocm_gdr,rocm_ipc -x LD_LIBRARY_PATH -mca coll_hcoll_enable 0 --bind-to none"
+                ],
+                "dependencies": [
+                    "python",
+                    "mpirun (likely OpenMPI)",
+                    "Horovod",
+                    "TensorFlow (implied by MIOPEN)",
+                    "ROCm (implied by dcu, rocm_cpy, rocm_gdr)"
+                ]
+            },
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 7,
+        "wrong_args": 0,
+        "total_args": 7,
+        "filename": "/data/results/LeoWood/bert-horovod/Sbatch1_pre_cscd_r_128_from_scrach.sbatch-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python run_pretraining_hvd.py",
+            "resources": {
+                "nodes": 4,
+                "tasks_per_node": 4,
+                "cpus_per_task": 8,
+                "gpus_per_node": 4,
+                "gpu_type": "dcu",
+                "total_tasks": 16,
+                "total_cpus": 128,
+                "total_gpus": 16,
+                "partition": "normal",
+                "job_name": "pre_scrach",
+                "output_file": "pre_cscd_r_128_from_scrach.out"
+            },
+            "software": {
+                "modules_loaded": [],
+                "environment_setup": [
+                    "export MIOPEN_USER_DB_PATH=/tmp/tensorflow-miopen-${USER}-2.8",
+                    "export MIOPEN_DEBUG_DISABLE_FIND_DB=1",
+                    "export HOROVOD_HIERARCHICAL_ALLREDUCE=1",
+                    "mpirun options: -mca pml ucx",
+                    "mpirun options: -x UCX_TLS=sm,rc,rocm_cpy,rocm_gdr,rocm_ipc",
+                    "mpirun options: -x LD_LIBRARY_PATH",
+                    "mpirun options: -mca coll_hcoll_enable 0",
+                    "mpirun options: --bind-to none"
+                ]
+            },
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 3,
+        "total_args": 8,
+        "filename": "/data/results/LeoWood/bert-horovod/Pre2_cscd_all_512_from_scratch.sbatch-flux-batch.sh",
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 2,
+        "wrong_args": 1,
+        "total_args": 3,
+        "deletions": [
+            {
+                "line": "                         # #FLUX: --requires=gpu_model==titanrtx ",
+                "reason": "orphan flux"
+            }
+        ],
+        "filename": "/data/results/Larsterbraak/TimeGAN-short-rates/LISA/run.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 $HOME/main.py",
+            "resources": {
+                "nodes": 1,
+                "cores_per_node": "default (not specified, Slurm uses partition defaults)",
+                "memory_per_node": "default (not specified, Slurm uses partition defaults)",
+                "gpus_per_node": "Implied by partition 'gpu_titanrtx'. Assumed at least 1 GPU per node. Specific type 'Titan RTX' also implied by partition name, but not explicitly requested via --gres in Slurm.",
+                "walltime": "48:30:00",
+                "partition": "gpu_titanrtx"
+            },
+            "software": [
+                "module purge",
+                "module load 2019",
+                "module load TensorFlow"
+            ],
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 1,
+        "total_args": 6,
+        "filename": "/data/results/parklab/mutagenesis_tools/neoantigen_simulation_from_maf/generate_sequence_around_lesion_from_exons.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "custom bioinformatics pipeline (bedtools, python, shell utilities)",
+            "resources": {
+                "nodes": 1,
+                "tasks_total": 1,
+                "cores_total": 1,
+                "memory_total": "12G",
+                "gpus_total": 0,
+                "walltime": "12:00:00",
+                "partition_queue": "park",
+                "account_project": "park_contrib"
+            },
+            "software": {
+                "modules": [
+                    "bedtools/2.27.1",
+                    "samtools/1.9",
+                    "python/3.6.0"
+                ],
+                "environment_setup": [
+                    "Reads configuration from a file specified by the second command-line argument ($config). This config file provides paths for genegtf, exongtf, fasta, genomefile, and other parameters like coord_sys and mhcI_neoa_dist_limit."
+                ]
+            },
+            "complexity_score": 9
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 0,
+        "wrong_args": 0,
+        "total_args": 0,
+        "filename": "/data/results/parklab/HiScanner/scripts_for_snakemake/run_bicseqnorm.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "samtools, perl, /n/data1/hms/dbmi/park/yifan/tools/NBICseq-norm_v0.2.4/NBICseq-norm.pl",
+            "resources": {
+                "tasks": 8,
+                "walltime": "12:00:00",
+                "partition": "park",
+                "account": "park_contrib",
+                "memory_total": "16G"
+            },
+            "software": [
+                "module load gcc conda2/4.2.13 bedtools gatk python/3.7.4 R/4.0.1",
+                "module load perl/5.30.0",
+                "module load samtools"
+            ],
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 4
+    },
+    {
+        "correct": 2,
+        "wrong_args": 2,
+        "total_args": 4,
+        "deletions": [
+            {
+                "line": "# FLUX: --job-name=scansnv_job # Optional: sets a job name",
+                "reason": "sentinel changed"
+            }
+        ],
+        "filename": "/data/results/parklab/SCAN2_PTA_paper_2022/scan2_runscripts/5823/run.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "/n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv",
+            "resources": {
+                "main_job": {
+                    "partition": "priopark",
+                    "account": "park_contrib",
+                    "walltime": "120:00:00",
+                    "memory": "4000MB",
+                    "nodes": 1,
+                    "tasks": 1,
+                    "cpus_per_task": 1
+                },
+                "sub_jobs_via_drmaa": {
+                    "notes": "These resources are requested by the scansnv application for its sub-jobs, likely using Snakemake with DRMAA. The arguments are Slurm-specific.",
+                    "original_slurm_args": "-p park -A park_contrib --mem={resources.mem} -t 8:00:00 -o %logdir/slurm-%A.log",
+                    "partition": "park",
+                    "account": "park_contrib",
+                    "memory": "{resources.mem} (placeholder filled by scansnv/Snakemake)",
+                    "walltime": "8:00:00",
+                    "log_pattern": "%logdir/slurm-%A.log"
+                }
+            },
+            "software": {
+                "modules_loaded": [],
+                "environment_setup": []
+            },
+            "complexity_score": 5
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 2,
+        "total_args": 7,
+        "filename": "/data/results/parklab/SCAN2_PTA_paper_2022/scan2_runscripts/5657/run.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "/n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv",
+            "resources": {
+                "nodes": 1,
+                "tasks": 1,
+                "cpus_per_task": 1,
+                "memory_mb_per_task": 4000,
+                "walltime": "120:00:00",
+                "partition": "priopark",
+                "account": "park_contrib"
+            },
+            "software": {
+                "modules_loaded": [],
+                "environment_setup": []
+            },
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 5,
+        "wrong_args": 2,
+        "total_args": 7,
+        "filename": "/data/results/parklab/SCAN2_PTA_paper_2022/scan2_runscripts/936/run.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "/n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv",
+            "resources": {
+                "nodes": 1,
+                "tasks": 1,
+                "cpus_per_task": 1,
+                "memory": "4000MB",
+                "walltime": "120:00:00",
+                "partition": "priopark",
+                "account": "park_contrib",
+                "gpus": 0
+            },
+            "software": "None",
+            "complexity_score": 5
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 8,
+        "wrong_args": 2,
+        "total_args": 10,
+        "filename": "/data/results/parklab/code-share/tcga_wgs/script_TCGA.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "Sentieon TNScope and Hartwig PURPLE bioinformatics pipeline (includes gdc-client download, VCF splitting)",
+            "resources": {
+                "cores_requested": 8,
+                "memory_requested": "64G",
+                "walltime": "1-00:00",
+                "job_array_range": "2-8",
+                "queue_partition": "medium",
+                "project_account": "park"
+            },
+            "software": [
+                "Sentieon environment setup (LD_LIBRARY_PATH, SENTIEON_LICENSE, SENTIEON_INSTALL_DIR)",
+                "conda deactivate",
+                "LD_LIBRARY_PATH modification for python 3.8.12",
+                "module load gcc/9.2.0",
+                "module load python/3.10.11",
+                "module load samtools/1.15.1",
+                "Python virtual environment activation (/home/dg204/jupytervenv3.10/bin/activate)"
+            ],
+            "complexity_score": 8
+        },
+        "cyclomatic_complexity": 6
+    },
+    {
+        "correct": 8,
+        "wrong_args": 1,
+        "total_args": 9,
+        "filename": "/data/results/parklab/code-share/tcga_wgs/script_gridss.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "gridss (via singularity)",
+            "resources": {
+                "nodes": 1,
+                "cores_cpus": 8,
+                "memory": "48G",
+                "gpus": 0,
+                "walltime": "5-00:00:00",
+                "partition_or_queue": "medium",
+                "job_array_details": "array=2-2 (effectively a single task run, array index not used in script logic)"
+            },
+            "software": {
+                "modules_loaded": [],
+                "significant_environment_setup": [
+                    "Defines multiple paths and parameters as environment variables (e.g., GRIDSS_JAR_PATH, TUMOR_ID, REFERENCE_ID, OUT_PATH, TEMP_FOLDER, reference BAMs, JVM heap sizes).",
+                    "Creates output and working directories using 'mkdir -p'.",
+                    "Executes 'gridss' tool within a Singularity container ('gridss_cgap.sif') with specific bind mounts ('-B /n/scratch,/n/data1')."
+                ]
+            },
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 2,
+        "total_args": 7,
+        "filename": "/data/results/wcukier/Phaethon_Meteoroids/distr.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python main.py $SLURM_ARRAY_TASK_ID 2 100 2000",
+            "resources": {
+                "job_name": "distr",
+                "job_array": {
+                    "indices": "0-999",
+                    "num_tasks": 1000
+                },
+                "per_array_task": {
+                    "nodes": 1,
+                    "tasks": 1,
+                    "cpus_per_task": 1,
+                    "mem_per_cpu": "1000M",
+                    "mem_per_task": "1000M",
+                    "walltime": "03:59:00"
+                },
+                "estimated_total_resources_for_array": {
+                    "cores": 1000,
+                    "memory": "1000GB"
+                },
+                "output_path_pattern": "logs/R-%x.%j.out",
+                "error_path_pattern": "logs/R-%x.%j.err",
+                "notifications": {
+                    "user": "****",
+                    "events": [
+                        "begin",
+                        "end",
+                        "fail"
+                    ]
+                }
+            },
+            "software": {
+                "environment_setup_commands": [
+                    "module purge",
+                    "module load anaconda3/2021.5"
+                ],
+                "significant_environment_variables": [
+                    "SLURM_ARRAY_TASK_ID"
+                ]
+            },
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 6,
+        "wrong_args": 2,
+        "total_args": 8,
+        "filename": "/data/results/wcukier/Phaethon_Meteoroids/novel.slurm-flux-batch.sh",
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 4,
+        "wrong_args": 4,
+        "total_args": 8,
+        "filename": "/data/results/GillesJ/Pref_Suff_Span_NN/jobs_tensorflow_singularity.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "lsf",
+            "application": "python /extra/vikasy/4chars_Prefix_Suffix_Experiments/Spanish/main.py (executed via Singularity using image tf_gpu-1.2.0-cp35-cuda8-cudnn51.img)",
+            "resources": {
+                "nodes": 1,
+                "tasks": 16,
+                "tasks_per_node": 16,
+                "gpus": "Node with GPU(s) required (specific count not requested, all node GPUs made available to container via --nv)",
+                "queue": "standard",
+                "walltime": "Default for queue",
+                "memory": "Default for queue",
+                "stdout_file": "sing_tf.out",
+                "stderr_file": "sing_tf.err",
+                "job_name": "sing_tf"
+            },
+            "software": {
+                "modules": [
+                    "singularity"
+                ],
+                "environment_setup": [
+                    "cd /extra/vikasy"
+                ],
+                "container": {
+                    "engine": "singularity",
+                    "image": "tf_gpu-1.2.0-cp35-cuda8-cudnn51.img",
+                    "options": "--nv"
+                }
+            },
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 4,
+        "wrong_args": 3,
+        "total_args": 7,
+        "filename": "/data/results/kyleliang919/Long-context-transformers/slurm.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "deepspeed finetune.py --model_name_or_path=\"EleutherAI/gpt-neox-20b\"",
+            "resources": {
+                "nodes": 2,
+                "tasks_per_node": 8,
+                "cpus_per_task": 12,
+                "gpus_per_task": 1,
+                "partition": "g80n140",
+                "exclusive_nodes": true,
+                "output_file": "gpt_neox_20.out",
+                "job_name": "testlongcontext"
+            },
+            "software": [
+                "module load openmpi",
+                "module load cuda/11.7",
+                "source /fsx/home-kaizhaol/long-context-transformers/venv/bin/activate",
+                "export PYTHONFAULTHANDLER=1",
+                "export CUDA_LAUNCH_BLOCKING=0",
+                "HF_MODULES_CACHE=./cache/",
+                "HF_DATASETS_CACHE=./cache/",
+                "TRANSFORMERS_CACHE=./cache/"
+            ],
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 7,
+        "wrong_args": 1,
+        "total_args": 8,
+        "filename": "/data/results/zuzannad2/PixelSum/infer.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 -m scripts.training.run_inference",
+            "resources": {
+                "job_name": "infer-pixelsum",
+                "tasks": 1,
+                "cpus_per_task": 48,
+                "memory": "70000M",
+                "partition": "gpu",
+                "gpus_per_node": "1",
+                "gpu_type": "a100",
+                "walltime": "3:00:00"
+            },
+            "software": [
+                "nvidia-smi",
+                "export ENCODER=\"Team-PIXEL/pixel-base\"",
+                "export DECODER=\"gpt2\"",
+                "export DATASET=\"xsum\"",
+                "export EXPERIMENT_DIR=\"experiments/inference/$DECODER/`date +%Y-%m-%d_%H-%M-%S`\"",
+                "mkdir -p ${EXPERIMENT_DIR}"
+            ],
+            "complexity_score": 5
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 8,
+        "wrong_args": 0,
+        "total_args": 8,
+        "deletions": [
+            {
+                "line": "# flux: job-name=pretrain-pixel-gpt2large",
+                "reason": "unknown directive"
+            }
+        ],
+        "filename": "/data/results/zuzannad2/PixelSum/pretrain_no_trainer.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "scripts/training/run_pretraining_no_trainer.py (launched via accelerate)",
+            "resources": {
+                "job_name": "pretrain-pixel-gpt2large",
+                "nodes": 1,
+                "tasks": 1,
+                "cpus_per_task": 48,
+                "memory_per_job": "70000M",
+                "gpus_per_job": 1,
+                "gpu_type": "a100",
+                "walltime": "75:00:00",
+                "queue_partition": "gpu"
+            },
+            "software": [
+                "nvidia-smi (GPU diagnostic utility)",
+                "accelerate (Hugging Face library for distributed training)",
+                "Python (implied by .py script and accelerate)",
+                "Environment variables set: ENCODER, DECODER, DATASET, EXPERIMENT_DIR"
+            ],
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 7,
+        "wrong_args": 1,
+        "total_args": 8,
+        "filename": "/data/results/zuzannad2/PixelSum/pretrain.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 -m scripts.training.run_pretraining",
+            "resources": {
+                "job_name": "pretrain-pixel",
+                "nodes": 1,
+                "cores": 48,
+                "memory": "70000M",
+                "gpus": "1 (type: a100)",
+                "walltime": "75:00:00",
+                "partition": "gpu"
+            },
+            "software": [
+                "nvidia-smi",
+                "export ENCODER=\"Team-PIXEL/pixel-base\"",
+                "export DECODER=\"gpt2-large\"",
+                "export DATASET=\"zuzannad1/pixelsum_wiki\"",
+                "export EXPERIMENT_DIR=\"experiments/pretraining/$DECODER/`date +%Y-%m-%d_%H-%M-%S`\"",
+                "mkdir -p ${EXPERIMENT_DIR}"
+            ],
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 6,
+        "wrong_args": 2,
+        "total_args": 8,
+        "deletions": [
+            {
+                "line": "# #flux: option account=c24 (syntax depends on site configuration)",
+                "reason": "sentinel changed"
+            }
+        ],
+        "filename": "/data/results/stefanosimao/Bachelors-Thesis/code/other/old/scratch.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python main.py",
+            "resources": {
+                "nodes": 10,
+                "tasks_per_node": 1,
+                "cpus_per_task": 12,
+                "gpus_per_task": 1,
+                "walltime": "00:30:00",
+                "memory": "not specified",
+                "account": "c24",
+                "additional_properties": [
+                    "constraint:gpu",
+                    "hint:nomultithread",
+                    "ntasks-per-core:1"
+                ]
+            },
+            "software": {
+                "modules_loaded": [
+                    "daint-gpu",
+                    "PyTorch"
+                ],
+                "environment_setup_commands": [
+                    "export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK",
+                    "export NCCL_DEBUG=INFO",
+                    "export NCCL_IB_HCA=ipogif0",
+                    "export NCCL_IB_CUDA_SUPPORT=1"
+                ]
+            },
+            "complexity_score": 5
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 0,
+        "wrong_args": 0,
+        "total_args": 0,
+        "filename": "/data/results/stefanosimao/Bachelors-Thesis/code/other/history/scratch.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python main.py",
+            "resources": {
+                "job_name": "cnn",
+                "walltime": "00:30:00",
+                "nodes": 10,
+                "tasks_per_node": 1,
+                "cpus_per_task": 12,
+                "tasks_total": 10,
+                "hint_nomultithread": true,
+                "constraint_gpu": true,
+                "account": "c24",
+                "stdout_file": "m10.out",
+                "stderr_file": "m10.err",
+                "slurm_directive_ntasks_per_core": 1
+            },
+            "software": {
+                "modules_loaded": [
+                    "daint-gpu",
+                    "PyTorch"
+                ],
+                "environment_variables_set": {
+                    "OMP_NUM_THREADS": "$SLURM_CPUS_PER_TASK",
+                    "NCCL_DEBUG": "INFO",
+                    "NCCL_IB_HCA": "ipogif0",
+                    "NCCL_IB_CUDA_SUPPORT": "1"
+                }
+            },
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 5,
+        "wrong_args": 0,
+        "total_args": 5,
+        "filename": "/data/results/khaled-rahman/FusedMM4DGL/examples/pytorch/gat/batch_run.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "bash run_all.sh",
+            "resources": {
+                "nodes": 1,
+                "tasks": 1,
+                "cpus_per_task": 1,
+                "walltime": "150:30:00",
+                "partition_queue": "azad",
+                "job_name": "FusedMM4DGL",
+                "output_file_pattern": "FusedMM4DGL.o%j"
+            },
+            "software": [
+                "module unload gcc",
+                "module load gcc"
+            ],
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 7,
+        "wrong_args": 1,
+        "total_args": 8,
+        "filename": "/data/results/chengstark/SiamAF/proposed/run_main.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python main.py",
+            "resources": {
+                "walltime": "240:00:00",
+                "memory_request": "200G",
+                "gpus_per_task": 1,
+                "tasks": 1,
+                "nodes": 1,
+                "partition": "overflow",
+                "output_file": "/home/zguo30/ppg_ecg_proj/proposed/slurm_outputs/%j.out"
+            },
+            "software": [
+                "source /labs/hulab/stark_conda/bin/activate",
+                "conda activate base_pytorch"
+            ],
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 1,
+        "total_args": 6,
+        "filename": "/data/results/chengstark/SiamAF/data_processing/run_make_whole_data.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python make_whole_data.py",
+            "resources": {
+                "walltime": "4:00:00",
+                "memory_total": "650G",
+                "cpus_per_task": 16,
+                "tasks": 1,
+                "nodes": 1,
+                "partition": "overflow",
+                "gpus_requested": "0 (nvidia-smi is called, suggesting potential implicit use or diagnostic check)"
+            },
+            "software": [
+                "source /labs/hulab/stark_conda/bin/activate",
+                "conda activate base_pytorch"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 3,
+        "total_args": 8,
+        "filename": "/data/results/chengstark/SiamAF/ecg_only_baseline/run_main.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python main.py",
+            "resources": {
+                "nodes": 1,
+                "cores_cpus": "unspecified",
+                "memory": "220G (per node)",
+                "gpus": "2 (type: volta)",
+                "walltime": "240:00:00",
+                "partition": "overflow"
+            },
+            "software": [
+                "source /labs/hulab/stark_conda/bin/activate",
+                "conda activate base_pytorch"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 4,
+        "total_args": 9,
+        "filename": "/data/results/chengstark/SiamAF/ecg_only_baseline_limited_labeled/run_main.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python main.py",
+            "resources": {
+                "walltime": "240:00:00",
+                "memory": "230G",
+                "gpus": 1,
+                "partition": "overflow",
+                "nodes": 1,
+                "tasks": 1,
+                "cpus_per_task": 1
+            },
+            "software": [
+                "source /labs/hulab/stark_conda/bin/activate",
+                "conda activate base_pytorch"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 7,
+        "wrong_args": 2,
+        "total_args": 9,
+        "filename": "/data/results/chengstark/SiamAF/deepmi/run_main.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "Slurm",
+            "application": "python main.py",
+            "resources": {
+                "walltime": "240:00:00 (240 hours)",
+                "memory": "240G (total for job)",
+                "gpus": 2,
+                "partition": "overflow",
+                "nodes": "Implicitly 1 (to satisfy 2 GPUs and memory, common Slurm behavior if not specified)",
+                "cores_tasks": "Implicitly 1 task for the python script"
+            },
+            "software": [
+                "source /labs/hulab/stark_conda/bin/activate",
+                "conda activate base_pytorch"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 0,
+        "wrong_args": 0,
+        "total_args": 0,
+        "filename": "/data/results/chengstark/SiamAF/proposed_limited_labeled/run_main.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python main.py",
+            "resources": {
+                "walltime": "240:00:00",
+                "memory_total": "230G",
+                "gpus_total": 2,
+                "nodes": "1 (implicitly, as Slurm typically allocates a single node for such requests unless specified otherwise)",
+                "tasks": "1 (for the batch script itself, by Slurm default)",
+                "cpus_per_task": "1 (by Slurm default for the batch script task)",
+                "partition": "overflow"
+            },
+            "software": [
+                "source /labs/hulab/stark_conda/bin/activate",
+                "conda activate base_pytorch"
+            ],
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 2
+    },
+    {
+        "correct": 5,
+        "wrong_args": 0,
+        "total_args": 5,
+        "filename": "/data/results/ZhengPeng7/GCoNet_plus/gco.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "Python-based ML training, testing, and evaluation pipeline (train.py, test.py, main.py, etc.)",
+            "resources": {
+                "nodes": 1,
+                "tasks": 10,
+                "gpus": 1,
+                "gpu_type": "v100",
+                "walltime": "48:00:00"
+            },
+            "software": {
+                "dependencies": [
+                    "python"
+                ],
+                "environment_setup": [
+                    "CUDA_VISIBLE_DEVICES=0"
+                ]
+            },
+            "complexity_score": 5
+        },
+        "cyclomatic_complexity": 2
+    },
+    {
+        "correct": 8,
+        "wrong_args": 0,
+        "total_args": 8,
+        "filename": "/data/results/mayanagarwal/yolov5/runfs.slurm-flux-batch.sh",
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 4,
+        "wrong_args": 0,
+        "total_args": 4,
+        "filename": "/data/results/mayanagarwal/yolov5/run_final.slurm-flux-batch.sh",
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 5,
+        "wrong_args": 0,
+        "total_args": 5,
+        "filename": "/data/results/mayanagarwal/yolov5/2015tensor_flow.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python tensor_flow.py",
+            "resources": {
+                "nodes": 1,
+                "account": "hpcadmingpgpu",
+                "partition": "shortgpgpu",
+                "gpus": "1 (type p100)",
+                "walltime": "00:05:00",
+                "cpus_per_task": 1
+            },
+            "software": [
+                "module purge",
+                "source /usr/local/module/spartan_old.sh",
+                "module load Tensorflow/1.8.0-intel-2017.u2-GCC-6.2.0-CUDA9-Python-3.5.2-GPU"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 4,
+        "wrong_args": 2,
+        "total_args": 6,
+        "filename": "/data/results/mayanagarwal/yolov5/rundf.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 -m torch.distributed.launch train.py",
+            "resources": {
+                "nodes": 1,
+                "gpus_total": 4,
+                "tasks_slurm_directive": 8,
+                "processes_torch_launch": 4,
+                "walltime": "72:00:00",
+                "partition": "gpgpu",
+                "qos": "gpgpumse"
+            },
+            "software": {
+                "modules_purged": true,
+                "modules_loaded": [
+                    "fosscuda/2019b",
+                    "cuda/10.1.243",
+                    "gcccore/8.3.0",
+                    "gcc/8.3.0 openmpi/3.1.4",
+                    "python/3.7.4",
+                    "opencv",
+                    "pillow",
+                    "torch/20200428",
+                    "scipy-bundle",
+                    "pyyaml",
+                    "numpy/1.17.3-python-3.7.4",
+                    "torchvision",
+                    "matplotlib/3.1.1-python-3.7.4",
+                    "scikit-learn",
+                    "torchvision/0.5.0-python-3.7.4",
+                    "tqdm",
+                    "pytorch-geometric/1.6.1-python-3.7.4-pytorch-1.6.0",
+                    "tensorflow/2.3.1-python-3.7.4"
+                ],
+                "modules_unloaded": [
+                    "pytorch/1.4.0-python-3.7.4"
+                ],
+                "environment_setup_commands": []
+            },
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 6,
+        "wrong_args": 0,
+        "total_args": 6,
+        "filename": "/data/results/mayanagarwal/Deepfake-Detection-YOLOv5/MesoNet-Pytorch/run_MesoInception.slurn-flux-batch.sh",
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 2,
+        "wrong_args": 2,
+        "total_args": 4,
+        "filename": "/data/results/mayanagarwal/Deepfake-Detection-YOLOv5/MesoNet-Pytorch/run_individual.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 train_Meso.py -n 'Mesonet' -tp './extracted_ff' -vp './extracted_val_ff' -bz 64 -e 50 -mn 'meso4_ff.pkl'",
+            "resources": {
+                "nodes": 1,
+                "tasks": 8,
+                "tasks_per_node": 8,
+                "gpus_per_node": 4,
+                "gpu_type": "p100",
+                "walltime": "48:00:00",
+                "partition": "gpgpu",
+                "qos": "gpgpumse"
+            },
+            "software": {
+                "modules_loaded": [
+                    "fosscuda/2019b",
+                    "cuda/10.1.243",
+                    "gcccore/8.3.0",
+                    "gcc/8.3.0 openmpi/3.1.4",
+                    "python/3.7.4",
+                    "opencv",
+                    "pillow",
+                    "torch/20200428",
+                    "scipy-bundle",
+                    "pyyaml",
+                    "numpy/1.17.3-python-3.7.4",
+                    "torchvision",
+                    "matplotlib/3.1.1-python-3.7.4",
+                    "scikit-learn",
+                    "torchvision/0.5.0-python-3.7.4",
+                    "tqdm",
+                    "pytorch-geometric/1.6.1-python-3.7.4-pytorch-1.6.0",
+                    "tensorflow/2.3.1-python-3.7.4"
+                ],
+                "modules_unloaded": [
+                    "pytorch/1.4.0-python-3.7.4"
+                ],
+                "environment_setup_commands": [
+                    "module purge"
+                ]
+            },
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 4,
+        "wrong_args": 1,
+        "total_args": 5,
+        "filename": "/data/results/mayanagarwal/Deepfake-Detection-YOLOv5/MesoNet-Pytorch/run_cpu.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 train_Meso.py -n 'Mesonet' -tp './data/train' -vp './data/val' -bz 64 -e 100 -mn 'meso4.pkl'",
+            "resources": {
+                "nodes": 1,
+                "slurm_tasks": 8,
+                "effective_cores": 8,
+                "gpus_implied_type": "CUDA-enabled",
+                "gpus_implied_count": ">=1",
+                "walltime": "48:00:00"
+            },
+            "software": [
+                "module purge",
+                "module load fosscuda/2019b",
+                "module load cuda/10.1.243",
+                "module load gcccore/8.3.0",
+                "module load gcc/8.3.0 openmpi/3.1.4",
+                "module load python/3.7.4",
+                "module load opencv",
+                "module load pillow",
+                "module load torch/20200428",
+                "module load scipy-bundle",
+                "module load pyyaml",
+                "module load numpy/1.17.3-python-3.7.4",
+                "module load torchvision",
+                "module load matplotlib/3.1.1-python-3.7.4",
+                "module load scikit-learn",
+                "module load torchvision/0.5.0-python-3.7.4",
+                "module load tqdm",
+                "module unload pytorch/1.4.0-python-3.7.4",
+                "module load pytorch-geometric/1.6.1-python-3.7.4-pytorch-1.6.0",
+                "module load tensorflow/2.3.1-python-3.7.4"
+            ],
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 0,
+        "wrong_args": 0,
+        "total_args": 0,
+        "deletions": [
+            {
+                "line": "#flux: batch --nodes=1",
+                "reason": "unknown directive"
+            },
+            {
+                "line": "#flux: batch --ntasks=8",
+                "reason": "unknown directive"
+            },
+            {
+                "line": "#flux: batch --gpus-per-node=4",
+                "reason": "unknown directive"
+            },
+            {
+                "line": "#flux: batch --time-limit=48:00:00",
+                "reason": "unknown directive"
+            },
+            {
+                "line": "#flux: batch --queue=gpgpu",
+                "reason": "unknown directive"
+            },
+            {
+                "line": "#flux: batch --setattr=system.qos=gpgpumse",
+                "reason": "unknown directive"
+            }
+        ],
+        "filename": "/data/results/mayanagarwal/Deepfake-Detection-YOLOv5/MesoNet-Pytorch/run_final.slurn-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 train_Meso.py -n 'Mesonet' -tp './Extracted' -vp './Extracted_val' -bz 256 -e 150 -mn 'meso4.pkl'",
+            "resources": {
+                "nodes": 1,
+                "tasks": 8,
+                "gpus_per_node": 4,
+                "gpu_type": "p100",
+                "walltime": "48:00:00",
+                "partition": "gpgpu",
+                "qos": "gpgpumse"
+            },
+            "software": [
+                "module purge",
+                "module load fosscuda/2019b",
+                "module load cuda/10.1.243",
+                "module load gcccore/8.3.0",
+                "module load gcc/8.3.0 openmpi/3.1.4",
+                "module load python/3.7.4",
+                "module load opencv",
+                "module load pillow",
+                "module load torch/20200428",
+                "module load scipy-bundle",
+                "module load pyyaml",
+                "module load numpy/1.17.3-python-3.7.4",
+                "module load torchvision",
+                "module load matplotlib/3.1.1-python-3.7.4",
+                "module load scikit-learn",
+                "module load torchvision/0.5.0-python-3.7.4",
+                "module load tqdm",
+                "module unload pytorch/1.4.0-python-3.7.4",
+                "module load pytorch-geometric/1.6.1-python-3.7.4-pytorch-1.6.0",
+                "module load tensorflow/2.3.1-python-3.7.4"
+            ],
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 0,
+        "wrong_args": 0,
+        "total_args": 0,
+        "filename": "/data/results/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/ci-neb/ts2-old/dft_leads-sz_tip-dzvp_surf-dzvp_kpoints-2-4-20_replicas-5/run.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "cp2k",
+            "resources": {
+                "walltime": "24:00:00",
+                "nodes": 5,
+                "cores_per_node": 64,
+                "mpi_procs_per_node": 64,
+                "memory_per_node": "200gb",
+                "total_cores": 320,
+                "total_mpi_procs": 320
+            },
+            "software": {
+                "modules_purged": true,
+                "modules_loaded": [
+                    "CP2K/2022.1-foss-2022a"
+                ],
+                "environment_variables": [
+                    "OMP_NUM_THREADS=1",
+                    "MKL_NUM_THREADS=1"
+                ],
+                "custom_executable_path": "/gpfs/home/cahart/software/smeagol/cp2k-smeagol/cp2k-private-external-blas/exe/local/cp2k.psmp"
+            },
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 6,
+        "wrong_args": 2,
+        "total_args": 8,
+        "filename": "/data/results/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/ci-neb/ts1/dft_leads-sz_tip-dzvp_surf-dzvp_kpoints-2-4-20_replicas-7/run.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "cp2k.psmp",
+            "resources": {
+                "walltime": "24:00:00",
+                "nodes": 7,
+                "cores_per_node": 64,
+                "mpi_procs_per_node": 64,
+                "memory_per_node": "200gb",
+                "ompthreads_per_task": 1
+            },
+            "software": {
+                "modules_purged": true,
+                "modules_loaded": [
+                    "CP2K/2022.1-foss-2022a"
+                ],
+                "environment_variables": {
+                    "OMP_NUM_THREADS": "1",
+                    "MKL_NUM_THREADS": "1"
+                },
+                "custom_executable_path": "/gpfs/home/cahart/software/smeagol/cp2k-smeagol/cp2k-private-external-blas/exe/local/cp2k.psmp"
+            },
+            "complexity_score": 8
+        },
+        "cyclomatic_complexity": 2
+    },
+    {
+        "correct": 4,
+        "wrong_args": 3,
+        "total_args": 7,
+        "filename": "/data/results/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/geo_opt/dft/c2/dft_leads-sz_tip-dzvp_surf-dzvp_kpoints-2-4-20/run.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "CP2K",
+            "resources": {
+                "walltime": "01:00:00",
+                "nodes": 8,
+                "cores_per_node": 64,
+                "mpi_processes_per_node": 64,
+                "memory_per_node": "200gb",
+                "total_cores": 512,
+                "total_mpi_processes": 512,
+                "total_memory": "1600gb",
+                "gpus": 0
+            },
+            "software": [
+                "module purge",
+                "export OMP_NUM_THREADS=1",
+                "export MKL_NUM_THREADS=1",
+                "module load CP2K/2022.1-foss-2022a"
+            ],
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 3,
+        "wrong_args": 5,
+        "total_args": 8,
+        "filename": "/data/results/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/geo_opt/dft/gs/dft_leads-sz_tip-dzvp_surf-dzvp_kpoints-2-4-20/run.slurm-flux-batch.sh",
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 1,
+        "total_args": 6,
+        "filename": "/data/results/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/iv-curve/single-point/gs/iv_curve/V_-0.5/run.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "cp2k",
+            "resources": {
+                "walltime": "06:00:00",
+                "nodes": 8,
+                "cores_per_node": 64,
+                "mpiprocs_per_node": 32,
+                "ompthreads_per_mpi_process": 2,
+                "memory_per_node": "200gb",
+                "total_mpi_processes": 256,
+                "total_cores_allocated": 512
+            },
+            "software": [
+                "module purge",
+                "export OMP_NUM_THREADS=2",
+                "export MKL_NUM_THREADS=2",
+                "module load CP2K/2022.1-foss-2022a",
+                "Selected cp2k executable: /gpfs/home/cahart/software/smeagol/cp2k-smeagol/cp2k-private-external-blas/exe/local/cp2k.psmp"
+            ],
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 2
+    },
+    {
+        "correct": 5,
+        "wrong_args": 2,
+        "total_args": 7,
+        "filename": "/data/results/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/iv-curve/single-point/c1/iv_curve/V_2.0/run.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "cp2k.psmp",
+            "resources": {
+                "nodes": 8,
+                "cores_per_node": 64,
+                "mpi_procs_per_node": 32,
+                "omp_threads_per_mpi_proc": 2,
+                "memory_per_node": "200gb",
+                "walltime": "06:00:00",
+                "total_mpi_procs": 256,
+                "total_cores_used": 512
+            },
+            "software": {
+                "modules_purged": true,
+                "modules_loaded": [
+                    "CP2K/2022.1-foss-2022a"
+                ],
+                "environment_variables_set": [
+                    "OMP_NUM_THREADS=2",
+                    "MKL_NUM_THREADS=2"
+                ],
+                "executable_path": "/gpfs/home/cahart/software/smeagol/cp2k-smeagol/cp2k-private-external-blas/exe/local/cp2k.psmp"
+            },
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 2,
+        "total_args": 7,
+        "filename": "/data/results/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/iv-curve/single-point/c2-3A/iv_curve/V_-0.5/run.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "CP2K (cp2k.psmp from a custom path, executed via mpirun)",
+            "resources": {
+                "nodes": 8,
+                "cores_per_node": 64,
+                "mpi_processes_per_node": 32,
+                "omp_threads_per_mpi_process": 2,
+                "total_mpi_processes": 256,
+                "total_cores_utilized": 512,
+                "memory_per_node": "200gb (likely GiB)",
+                "memory_per_cpu_on_node": "approx 3.125gb (assuming 200GiB/node / 64cpus/node = 3200MiB/cpu)",
+                "total_memory": "1600gb (likely GiB)",
+                "walltime": "01:00:00"
+            },
+            "software": {
+                "modules_purged": true,
+                "modules_loaded": [
+                    "CP2K/2022.1-foss-2022a"
+                ],
+                "environment_variables": [
+                    "OMP_NUM_THREADS=2",
+                    "MKL_NUM_THREADS=2"
+                ],
+                "custom_executable_path": "/gpfs/home/cahart/software/smeagol/cp2k-smeagol/cp2k-private-external-blas/exe/local/cp2k.psmp"
+            },
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 4,
+        "wrong_args": 4,
+        "total_args": 8,
+        "filename": "/data/results/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/capacitor/sz_kpoints-1-1-20-cu/run.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "CP2K (specifically /gpfs/home/cahart/software/smeagol/cp2k-smeagol/cp2k-private-external-blas/exe/local/cp2k.psmp, launched via mpirun)",
+            "resources": {
+                "nodes": 8,
+                "cores_per_node": 64,
+                "mpi_processes_per_node": 8,
+                "omp_threads_per_mpi_process": 8,
+                "memory_per_node": "200gb",
+                "total_mpi_processes": 64,
+                "total_cores_used": 512,
+                "walltime": "06:00:00"
+            },
+            "software": [
+                "module purge",
+                "export OMP_NUM_THREADS=8",
+                "export MKL_NUM_THREADS=8",
+                "module load CP2K/2022.1-foss-2022a",
+                "Explicit path to cp2k: /gpfs/home/cahart/software/smeagol/cp2k-smeagol/cp2k-private-external-blas/exe/local/cp2k.psmp"
+            ],
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 2,
+        "total_args": 7,
+        "filename": "/data/results/TuAnh23/E2EG/run_bert.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python -u baseline_models/bert_classifier.py",
+            "resources": {
+                "partition": "gpu_shared",
+                "gpus": 1,
+                "tasks": 1,
+                "cpus_per_task": 3,
+                "nodes": 1,
+                "walltime": "12:00:00"
+            },
+            "software": {
+                "modules": [
+                    "purge",
+                    "2021",
+                    "Anaconda3/2021.05"
+                ],
+                "conda_env": "giant-xrt",
+                "environment_variables": [
+                    "WANDB_DIR=$HOME"
+                ]
+            },
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 6
+    },
+    {
+        "correct": 5,
+        "wrong_args": 0,
+        "total_args": 5,
+        "filename": "/data/results/PaulBautin/tpil_bundle_segmentation/run_bundle_segmentation_cc.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "nextflow (running TPIL Bundle Segmentation and dmriqc_flow pipelines)",
+            "resources": {
+                "nodes": 1,
+                "cores_per_task": 32,
+                "tasks": 1,
+                "memory": "all per node",
+                "walltime": "06:00:00"
+            },
+            "software": [
+                "StdEnv/2020",
+                "java/14.0.2",
+                "nextflow/22.04.3",
+                "singularity/3.8",
+                "nextflow/21.10.3"
+            ],
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 2,
+        "wrong_args": 0,
+        "total_args": 2,
+        "deletions": [
+            {
+                "line": "#FLUX: -t 6h00m00             # Set walltime to 6 hours",
+                "reason": "orphan flux"
+            },
+            {
+                "line": "#FLUX: --output=tpil_pipeline.out    # Standard output file",
+                "reason": "orphan flux"
+            },
+            {
+                "line": "#FLUX: --error=tpil_pipeline.err     # Standard error file",
+                "reason": "orphan flux"
+            }
+        ],
+        "filename": "/data/results/PaulBautin/tpil_connectivity_prep/run_connectivity_prep_cc.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "nextflow run /home/pabaua/projects/def-pascalt-ab/pabaua/dev_tpil/tpil_connectivity_prep/main_accumbofrontal.nf",
+            "resources": {
+                "nodes": 1,
+                "cores": 32,
+                "memory": "all memory on the allocated node",
+                "walltime": "6:00:00",
+                "mail_user": "paul.bautin@polymtl.ca",
+                "mail_type": "ALL"
+            },
+            "software": [
+                "StdEnv/2020",
+                "java/14.0.2",
+                "nextflow/22.10.8",
+                "apptainer/1.1.8"
+            ],
+            "complexity_score": 8
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 0,
+        "total_args": 5,
+        "filename": "/data/results/PaulBautin/tpil_dmri/bundle_segmentation/original/run_new_bundle_cc.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "nextflow run $my_main_nf",
+            "resources": {
+                "nodes": 1,
+                "cpus": 32,
+                "memory": "all memory on the node (requested via --mem=0)",
+                "walltime": "6:00:00"
+            },
+            "software": {
+                "modules_loaded": [
+                    "StdEnv/2020",
+                    "java/14.0.2",
+                    "nextflow/22.04.3",
+                    "singularity/3.8"
+                ],
+                "environment_variables_set": [
+                    "my_singularity_img",
+                    "my_main_nf",
+                    "my_input",
+                    "my_atlas",
+                    "my_template"
+                ]
+            },
+            "complexity_score": 5
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 3,
+        "wrong_args": 0,
+        "total_args": 3,
+        "filename": "/data/results/PaulBautin/tpil_dmri/tractometry/run_tractometry_cc.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "nextflow run /home/pabaua/projects/def-pascalt-ab/pabaua/dev_tpil/tpil_dmri/tractometry/main.nf",
+            "resources": {
+                "nodes": 1,
+                "cores": 32,
+                "memory": "all available on the allocated node (Slurm --mem=0)",
+                "walltime": "3:00:00"
+            },
+            "software": [
+                "StdEnv/2020",
+                "java/14.0.2",
+                "nextflow/22.04.3",
+                "singularity/3.8"
+            ],
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 1,
+        "total_args": 6,
+        "filename": "/data/results/PaulBautin/tpil_dmri/script_cc/run_noddi_cc.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "nextflow run /home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/noddi_flow/main.nf",
+            "resources": {
+                "nodes": 1,
+                "cpus_per_task": 32,
+                "memory": "250G",
+                "walltime": "48:00:00"
+            },
+            "software": [
+                "StdEnv/2020",
+                "java/14.0.2",
+                "nextflow/22.10.8",
+                "apptainer/1.1.8"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 3,
+        "wrong_args": 0,
+        "total_args": 3,
+        "filename": "/data/results/PaulBautin/tpil_dmri/script_cc/run_connectflow_cc.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "Nextflow pipeline (connectoflow/main.nf) with Apptainer",
+            "resources": {
+                "nodes": 1,
+                "cores_per_node": 32,
+                "memory_per_node": "all",
+                "walltime": "24:00:00"
+            },
+            "software": [
+                "module load StdEnv/2020",
+                "module load java/14.0.2",
+                "module load nextflow/21.10.3",
+                "module load apptainer/1.1.8",
+                "NXF_DEFAULT_DSL=1 (environment variable for nextflow command)"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 6,
+        "wrong_args": 0,
+        "total_args": 6,
+        "filename": "/data/results/PaulBautin/tpil_dmri/script_cc/run_qc_input_cc.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "nextflow run /home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/dmriqc_flow/main.nf",
+            "resources": {
+                "nodes": 1,
+                "cpus_per_task": 32,
+                "memory_per_node": "all",
+                "walltime": "01:00:00"
+            },
+            "software": {
+                "modules": [
+                    "StdEnv/2020",
+                    "java/14.0.2",
+                    "nextflow/21.10.3",
+                    "singularity/3.8"
+                ],
+                "environment_variables": [
+                    "my_singularity_img=/home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/containers/scilus_1.3.0.sif",
+                    "my_main_nf=/home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/dmriqc_flow/main.nf",
+                    "my_input=/home/pabaua/scratch/tpil_dev/results/clbp/22-11-25_bundle_seg/results_bundle/"
+                ],
+                "container": "/home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/containers/scilus_1.3.0.sif (used with singularity via nextflow)"
+            },
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 3,
+        "wrong_args": 0,
+        "total_args": 3,
+        "deletions": [
+            {
+                "line": "#FLUX: -t 48:00:00                     # Walltime of 48 hours",
+                "reason": "orphan flux"
+            },
+            {
+                "line": "#FLUX: --output=freewater_flow_job.%J.out # Standard output file, %J is job ID",
+                "reason": "orphan flux"
+            },
+            {
+                "line": "#FLUX: --error=freewater_flow_job.%J.err  # Standard error file, %J is job ID",
+                "reason": "orphan flux"
+            },
+            {
+                "line": "#FLUX: --job-name=freewater_flow       # Optional: Job name for easier identification",
+                "reason": "orphan flux"
+            }
+        ],
+        "filename": "/data/results/PaulBautin/tpil_dmri/script_cc/run_freewater_cc.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "nextflow run /home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/freewater_flow/main.nf",
+            "resources": {
+                "nodes": 1,
+                "cpus_per_task": 32,
+                "memory_per_node": "all",
+                "walltime": "48:00:00"
+            },
+            "software": {
+                "modules": [
+                    "StdEnv/2020",
+                    "java/14.0.2",
+                    "nextflow/22.10.8",
+                    "apptainer/1.1.8"
+                ],
+                "container_image": "/home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/containers/scilus_1.6.0.sif"
+            },
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 6,
+        "wrong_args": 0,
+        "total_args": 6,
+        "filename": "/data/results/PaulBautin/tpil_dmri/script_cc/run_qc_tractoflow_cc.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "nextflow run /home/pabaua/scratch/scil_dev/dmriqc_flow/main.nf -profile tractoflow_qc_all --input /home/pabaua/scratch/tpil_dev/results/sub-DCL/22-07-07_tractoflow/results -with-singularity /home/pabaua/scratch/scil_dev/containers/scilus_1.3.0.sif -resume",
+            "resources": {
+                "nodes": 1,
+                "cpus_per_task": 32,
+                "memory": "all per node",
+                "walltime": "1:00:00"
+            },
+            "software": [
+                "module load StdEnv/2020",
+                "module load java/14.0.2",
+                "module load nextflow/21.10.3",
+                "module load singularity/3.8",
+                "Environment variable set: NXF_VER=nextflow/21.10.3 for the nextflow command"
+            ],
+            "complexity_score": 7
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 7,
+        "wrong_args": 0,
+        "total_args": 7,
+        "filename": "/data/results/PaulBautin/tpil_dmri/script_cc/run_rbx_cc_22.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "nextflow run /home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/rbx_flow/main.nf",
+            "resources": {
+                "nodes": 1,
+                "cpus_per_task": 32,
+                "memory": "all memory of the node",
+                "walltime": "24:00:00",
+                "gpus": null
+            },
+            "software": [
+                "module load StdEnv/2020",
+                "module load java/14.0.2",
+                "module load nextflow/22.04.3",
+                "module load apptainer/1.1",
+                "git -C /home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/rbx_flow checkout 1.2.0",
+                "NXF_DEFAULT_DSL=1 (environment variable for nextflow)"
+            ],
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 4
+    },
+    {
+        "correct": 7,
+        "wrong_args": 0,
+        "total_args": 7,
+        "filename": "/data/results/PaulBautin/tpil_dmri/preparation_connectflow/registration/run_connectflow_prep_cc.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "nextflow run $my_main_nf (TPIL Bundle Segmentation Pipeline)",
+            "resources": {
+                "nodes": 1,
+                "cpus_per_task": 32,
+                "memory_per_node": "all (requested as 0 in Slurm)",
+                "walltime": "02:00:00"
+            },
+            "software": {
+                "modules_loaded": [
+                    "StdEnv/2020",
+                    "java/14.0.2",
+                    "nextflow/22.04.3",
+                    "singularity/3.8"
+                ],
+                "singularity_image_path": "$my_singularity_img"
+            },
+            "complexity_score": 5
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 7,
+        "wrong_args": 2,
+        "total_args": 9,
+        "filename": "/data/results/hafs-community/hafs_graphics/run/jobhafsatmos_jet.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "driverAtmos.sh (parallel execution of multiple Python-based plotting tasks for HAFS graphics generation, orchestrated via a dynamically generated command file)",
+            "resources": {
+                "nodes": 10,
+                "tasks_per_node": 12,
+                "cpus_per_task": 1,
+                "total_tasks": 120,
+                "walltime": "01:00:00",
+                "memory_per_node": "all (requested via --mem=0)",
+                "gpus": null,
+                "partition": "xjet",
+                "qos": "batch",
+                "account": "hwrfv3",
+                "exclusive_nodes": true
+            },
+            "software": [
+                "source ${USHgraph}/graph_pre_job.sh.inc",
+                "source ${USHgraph}/graph_runcmd.sh.inc",
+                "Environment variable YMDH (default 2021082800)",
+                "Environment variable STORM (default IDA)",
+                "Environment variable STORMID (default 09L)",
+                "Environment variable stormModel (default HFSA)",
+                "Environment variable HOMEgraph (default /mnt/lfs4/HFIP/hwrfv3/${USER}/hafs_graphics)",
+                "Environment variable USHgraph (default ${HOMEgraph}/ush)",
+                "Environment variable DRIVERSH (default ${USHgraph}/driverAtmos.sh)",
+                "Environment variable COMhafs (default /hafs/com/${YMDH}/${STORMID})",
+                "Environment variable WORKgraph (default ${COMhafs}/../../../${YMDH}/${STORMID}/emc_graphics)",
+                "Environment variable COMgraph (default ${COMhafs}/emc_graphics)",
+                "Environment variable machine (default wcoss2, platform-dependent)",
+                "Environment variable cartopyDataDir (platform-dependent path)",
+                "Environment variable TOTAL_TASKS (default SLURM_NTASKS or 480, effectively 120 in this job)",
+                "Environment variable NCTSK (default 10)",
+                "Environment variable NCNODE (default 10)",
+                "Environment variable OMP_NUM_THREADS (default 1)"
+            ],
+            "complexity_score": 8
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 7,
+        "wrong_args": 3,
+        "total_args": 10,
+        "filename": "/data/results/hafs-community/ufs-hafs-model/tests/fv3_conf/compile_bsub.IN_wcoss_dell_p3-flux-batch.sh",
+        "metadata": {
+            "job_manager": "lsf",
+            "application": "@[PATHRT]/compile_cmake.sh @[PATHTR] @[MACHINE_ID] \"@[MAKE_OPT]\" @[COMPILE_NR]",
+            "resources": {
+                "nodes": "1 (implied by -n 1 and affinity[core(1)])",
+                "cores_cpus_tasks": "1 core for 1 task",
+                "memory": "8192 MB",
+                "gpus": "Not requested",
+                "walltime": "00:45 (45 minutes)",
+                "queue": "@[QUEUE]",
+                "project_account": "GFS-DEV"
+            },
+            "software": {
+                "modules_loaded": [],
+                "environment_setup": [
+                    "set -eux"
+                ]
+            },
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 0,
+        "wrong_args": 0,
+        "total_args": 0,
+        "filename": "/data/results/RationalityEnhancement/StrategyDiscovery/Journal/julia/run-regression.sbatch-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "julia regression.jl",
+            "resources": {
+                "nodes": 1,
+                "tasks": 1,
+                "cpus_per_task": 40,
+                "walltime": "1400m"
+            },
+            "software": {
+                "modules": [
+                    "julia"
+                ],
+                "environment_setup": []
+            },
+            "complexity_score": 2
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 2,
+        "wrong_args": 1,
+        "total_args": 3,
+        "filename": "/data/results/GCAP-Private/forward/sbatches/sherlock/gpu_jlab.sbatch-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "jupyter lab",
+            "resources": {
+                "gpus": 1,
+                "nodes": "1 (implicit, as typical for a single GPU request unless specified otherwise with -N)",
+                "cores_cpus": "Not explicitly requested (Slurm default, typically 1 core per task, 1 task)",
+                "memory": "Not explicitly requested (Slurm default)",
+                "walltime": "Not explicitly requested (Slurm default)"
+            },
+            "software": [
+                "module load system",
+                "module load x11",
+                "module load stata",
+                "ml py-tensorflow/2.1.0_py36",
+                "export STATATMP=\"/scratch/groups/maggiori/stata_tmp\""
+            ],
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 1,
+        "total_args": 6,
+        "filename": "/data/results/jschueths/MPI-Gaussian-Elimination/Gaussian.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "/nethome/users/jpm2t4/gaussian/gaussian /nethome/users/jpm2t4/gaussian/matrix.800.txt",
+            "resources": {
+                "job_name": "GAUSSIAN-800-16",
+                "walltime_limit": "00:15:00",
+                "nodes": 16,
+                "tasks_implicit": 16,
+                "tasks_per_node_implicit": 1,
+                "queue": "@nic-cluster.srv.mst.edu",
+                "output_error_handling": "combined into one file"
+            },
+            "software": {
+                "prerun_script": "/share/apps/job_data_prerun.py",
+                "mpi_launcher": "mpirun"
+            },
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 2,
+        "wrong_args": 1,
+        "total_args": 3,
+        "deletions": [
+            {
+                "line": "#flux: option(\"walltime\", \"00:05:00\")",
+                "reason": "unknown directive"
+            },
+            {
+                "line": "#flux: job-name=small_test",
+                "reason": "unknown directive"
+            }
+        ],
+        "filename": "/data/results/notesquare/plexsim-initializer/apptainer/slurm_run.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "mpirun apptainer/plexsim_initializer.sif",
+            "resources": {
+                "job_name": "small_test",
+                "walltime": "00:05:00",
+                "partition": "debug1",
+                "nodes": 2,
+                "tasks_per_node": 5,
+                "total_tasks_requested": 10,
+                "gpus_hinted": "2 per node (via PLEXSIM_N_SUBSETS_PER_NODE variable/comment, not a direct SBATCH request)"
+            },
+            "software": [
+                "Apptainer container: apptainer/plexsim_initializer.sif",
+                "OpenMPI (version implied by MPI_HOME default /shared/lib/ompi-4.1.1, mpirun, OMPI_MCA_PARAM_FILES_PATH)",
+                "UCX (UCX_POSIX_USE_PROC_LINK=n set)",
+                "OpenMPI runtime arguments set via MPIRUN_ARGS: --bind-to core --map-by slot:PE=3",
+                "Environment variable SLURM_HOME set (default: /shared/lib/slurm-21.08.8)",
+                "Environment variable MPI_HOME set (default: /shared/lib/ompi-4.1.1)",
+                "Environment variable OMPI_MCA_PARAM_FILES_PATH set (/etc/openmpi)",
+                "Environment variable APPTAINER_BIND set for container volume mounts (includes host MPI, Slurm libs, /usr/lib)",
+                "Environment variable MPI4PY_RC_THREAD_LEVEL=serialized passed to mpirun"
+            ],
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 0,
+        "wrong_args": 1,
+        "total_args": 1,
+        "filename": "/data/results/Tycharis/football-project/sbatch.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "${PROTEIN_PROJECT_DIR}/program.o",
+            "resources": {
+                "partitions": [
+                    "ksu-chem-mri.q",
+                    "ksu-gen-gpu.q"
+                ],
+                "nodes": "unspecified (uses Slurm defaults)",
+                "cores_cpus": "unspecified (uses Slurm defaults)",
+                "memory": "unspecified (uses Slurm defaults)",
+                "gpus": "unspecified (potentially implied by ksu-gen-gpu.q, but not explicitly requested)",
+                "walltime": "unspecified (uses Slurm defaults)",
+                "array_job_hint": "SLURM_ARRAY_TASK_ID usage suggests it's intended for job arrays"
+            },
+            "software": [
+                "module load icc",
+                "Environment variable PROTEIN_PROJECT_DIR must be set"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 3
+    }
+]

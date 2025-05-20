@@ -1,0 +1,22 @@
+{
+  "job_manager": "slurm",
+  "application": "gridss (via singularity)",
+  "resources": {
+    "nodes": 1,
+    "cores_cpus": 8,
+    "memory": "48G",
+    "gpus": 0,
+    "walltime": "5-00:00:00",
+    "partition_or_queue": "medium",
+    "job_array_details": "array=2-2 (effectively a single task run, array index not used in script logic)"
+  },
+  "software": {
+    "modules_loaded": [],
+    "significant_environment_setup": [
+      "Defines multiple paths and parameters as environment variables (e.g., GRIDSS_JAR_PATH, TUMOR_ID, REFERENCE_ID, OUT_PATH, TEMP_FOLDER, reference BAMs, JVM heap sizes).",
+      "Creates output and working directories using 'mkdir -p'.",
+      "Executes 'gridss' tool within a Singularity container ('gridss_cgap.sif') with specific bind mounts ('-B /n/scratch,/n/data1')."
+    ]
+  },
+  "complexity_score": 6
+}

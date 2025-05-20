@@ -1,0 +1,25 @@
+{
+  "job_manager": "slurm",
+  "application": "mpirun apptainer/plexsim_initializer.sif",
+  "resources": {
+    "job_name": "small_test",
+    "walltime": "00:05:00",
+    "partition": "debug1",
+    "nodes": 2,
+    "tasks_per_node": 5,
+    "total_tasks_requested": 10,
+    "gpus_hinted": "2 per node (via PLEXSIM_N_SUBSETS_PER_NODE variable/comment, not a direct SBATCH request)"
+  },
+  "software": [
+    "Apptainer container: apptainer/plexsim_initializer.sif",
+    "OpenMPI (version implied by MPI_HOME default /shared/lib/ompi-4.1.1, mpirun, OMPI_MCA_PARAM_FILES_PATH)",
+    "UCX (UCX_POSIX_USE_PROC_LINK=n set)",
+    "OpenMPI runtime arguments set via MPIRUN_ARGS: --bind-to core --map-by slot:PE=3",
+    "Environment variable SLURM_HOME set (default: /shared/lib/slurm-21.08.8)",
+    "Environment variable MPI_HOME set (default: /shared/lib/ompi-4.1.1)",
+    "Environment variable OMPI_MCA_PARAM_FILES_PATH set (/etc/openmpi)",
+    "Environment variable APPTAINER_BIND set for container volume mounts (includes host MPI, Slurm libs, /usr/lib)",
+    "Environment variable MPI4PY_RC_THREAD_LEVEL=serialized passed to mpirun"
+  ],
+  "complexity_score": 6
+}

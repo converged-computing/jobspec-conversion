@@ -1,0 +1,22 @@
+{
+  "job_manager": "pbs",
+  "application": "CP2K",
+  "resources": {
+    "walltime": "01:00:00",
+    "nodes": 8,
+    "cores_per_node": 64,
+    "mpi_processes_per_node": 64,
+    "memory_per_node": "200gb",
+    "total_cores": 512,
+    "total_mpi_processes": 512,
+    "total_memory": "1600gb",
+    "gpus": 0
+  },
+  "software": [
+    "module purge",
+    "export OMP_NUM_THREADS=1",
+    "export MKL_NUM_THREADS=1",
+    "module load CP2K/2022.1-foss-2022a"
+  ],
+  "complexity_score": 6
+}

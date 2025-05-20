@@ -1,0 +1,31 @@
+{
+  "job_manager": "slurm",
+  "application": "python run_pretraining_hvd.py",
+  "resources": {
+    "nodes": 4,
+    "tasks_per_node": 4,
+    "cpus_per_task": 8,
+    "gpus_per_node": 4,
+    "gpu_type": "dcu",
+    "total_tasks": 16,
+    "total_cpus": 128,
+    "total_gpus": 16,
+    "partition": "normal",
+    "job_name": "pre_scrach",
+    "output_file": "pre_cscd_r_128_from_scrach.out"
+  },
+  "software": {
+    "modules_loaded": [],
+    "environment_setup": [
+      "export MIOPEN_USER_DB_PATH=/tmp/tensorflow-miopen-${USER}-2.8",
+      "export MIOPEN_DEBUG_DISABLE_FIND_DB=1",
+      "export HOROVOD_HIERARCHICAL_ALLREDUCE=1",
+      "mpirun options: -mca pml ucx",
+      "mpirun options: -x UCX_TLS=sm,rc,rocm_cpy,rocm_gdr,rocm_ipc",
+      "mpirun options: -x LD_LIBRARY_PATH",
+      "mpirun options: -mca coll_hcoll_enable 0",
+      "mpirun options: --bind-to none"
+    ]
+  },
+  "complexity_score": 6
+}

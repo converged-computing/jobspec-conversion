@@ -1,0 +1,22 @@
+{
+  "job_manager": "pbs",
+  "application": "CP2K (specifically /gpfs/home/cahart/software/smeagol/cp2k-smeagol/cp2k-private-external-blas/exe/local/cp2k.psmp, launched via mpirun)",
+  "resources": {
+    "nodes": 8,
+    "cores_per_node": 64,
+    "mpi_processes_per_node": 8,
+    "omp_threads_per_mpi_process": 8,
+    "memory_per_node": "200gb",
+    "total_mpi_processes": 64,
+    "total_cores_used": 512,
+    "walltime": "06:00:00"
+  },
+  "software": [
+    "module purge",
+    "export OMP_NUM_THREADS=8",
+    "export MKL_NUM_THREADS=8",
+    "module load CP2K/2022.1-foss-2022a",
+    "Explicit path to cp2k: /gpfs/home/cahart/software/smeagol/cp2k-smeagol/cp2k-private-external-blas/exe/local/cp2k.psmp"
+  ],
+  "complexity_score": 7
+}

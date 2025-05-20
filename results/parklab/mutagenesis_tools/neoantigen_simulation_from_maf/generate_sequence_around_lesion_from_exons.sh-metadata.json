@@ -1,0 +1,25 @@
+{
+  "job_manager": "slurm",
+  "application": "custom bioinformatics pipeline (bedtools, python, shell utilities)",
+  "resources": {
+    "nodes": 1,
+    "tasks_total": 1,
+    "cores_total": 1,
+    "memory_total": "12G",
+    "gpus_total": 0,
+    "walltime": "12:00:00",
+    "partition_queue": "park",
+    "account_project": "park_contrib"
+  },
+  "software": {
+    "modules": [
+      "bedtools/2.27.1",
+      "samtools/1.9",
+      "python/3.6.0"
+    ],
+    "environment_setup": [
+      "Reads configuration from a file specified by the second command-line argument ($config). This config file provides paths for genegtf, exongtf, fasta, genomefile, and other parameters like coord_sys and mhcI_neoa_dist_limit."
+    ]
+  },
+  "complexity_score": 9
+}

@@ -1,0 +1,22 @@
+{
+  "job_manager": "slurm",
+  "application": "python3 -m scripts.training.run_pretraining",
+  "resources": {
+    "job_name": "pretrain-pixel",
+    "nodes": 1,
+    "cores": 48,
+    "memory": "70000M",
+    "gpus": "1 (type: a100)",
+    "walltime": "75:00:00",
+    "partition": "gpu"
+  },
+  "software": [
+    "nvidia-smi",
+    "export ENCODER=\"Team-PIXEL/pixel-base\"",
+    "export DECODER=\"gpt2-large\"",
+    "export DATASET=\"zuzannad1/pixelsum_wiki\"",
+    "export EXPERIMENT_DIR=\"experiments/pretraining/$DECODER/`date +%Y-%m-%d_%H-%M-%S`\"",
+    "mkdir -p ${EXPERIMENT_DIR}"
+  ],
+  "complexity_score": 6
+}

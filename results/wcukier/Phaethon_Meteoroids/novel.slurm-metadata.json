@@ -1,0 +1,24 @@
+{
+  "job_manager": "slurm",
+  "application": "python main.py $SLURM_ARRAY_TASK_ID 0 100 2000",
+  "resources": {
+    "job_name": "novel",
+    "array_tasks": "0-99",
+    "nodes_per_array_element": 1,
+    "tasks_per_array_element": 1,
+    "cpus_per_task": 1,
+    "mem_per_cpu": "300M",
+    "total_memory_per_array_element": "300M",
+    "walltime": "03:02:00",
+    "output_pattern": "logs/R-%x.%j.out",
+    "error_pattern": "logs/R-%x.%j.err",
+    "mail_events": ["begin", "end", "fail"],
+    "mail_user": "****"
+  },
+  "software_setup": {
+    "commands": [
+      "module purge",
+      "module load anaconda3/2021.5"
+    ]
+  },
+  "complexity_score":

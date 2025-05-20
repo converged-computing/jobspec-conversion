@@ -1,0 +1,17 @@
+{
+  "job_manager": "slurm",
+  "application": "nextflow run /home/pabaua/projects/def-pascalt-ab/pabaua/dev_tpil/tpil_dmri/tractometry/main.nf",
+  "resources": {
+    "nodes": 1,
+    "cores": 32,
+    "memory": "all available on the allocated node (Slurm --mem=0)",
+    "walltime": "3:00:00"
+  },
+  "software": [
+    "StdEnv/2020",
+    "java/14.0.2",
+    "nextflow/22.04.3",
+    "singularity/3.8"
+  ],
+  "complexity_score": 6
+}

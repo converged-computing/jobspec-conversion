@@ -1,0 +1,16 @@
+{
+  "job_manager": "pbs",
+  "application": "GNU parallel executing a custom shell function ('parcomb') which uses 'cat' to combine files",
+  "resources": {
+    "nodes": 1,
+    "cores_per_node": 1,
+    "walltime": "2:00:00",
+    "queue": "mesabi"
+  },
+  "software": [
+    "export HOME=/home/mcgaughs/shared/Datasets/Reads_ready_to_align/Jineo",
+    "module load parallel",
+    "export -f parcomb"
+  ],
+  "complexity_score": 4
+}

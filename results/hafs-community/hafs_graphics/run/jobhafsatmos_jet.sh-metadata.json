@@ -1,0 +1,38 @@
+{
+  "job_manager": "slurm",
+  "application": "driverAtmos.sh (parallel execution of multiple Python-based plotting tasks for HAFS graphics generation, orchestrated via a dynamically generated command file)",
+  "resources": {
+    "nodes": 10,
+    "tasks_per_node": 12,
+    "cpus_per_task": 1,
+    "total_tasks": 120,
+    "walltime": "01:00:00",
+    "memory_per_node": "all (requested via --mem=0)",
+    "gpus": null,
+    "partition": "xjet",
+    "qos": "batch",
+    "account": "hwrfv3",
+    "exclusive_nodes": true
+  },
+  "software": [
+    "source ${USHgraph}/graph_pre_job.sh.inc",
+    "source ${USHgraph}/graph_runcmd.sh.inc",
+    "Environment variable YMDH (default 2021082800)",
+    "Environment variable STORM (default IDA)",
+    "Environment variable STORMID (default 09L)",
+    "Environment variable stormModel (default HFSA)",
+    "Environment variable HOMEgraph (default /mnt/lfs4/HFIP/hwrfv3/${USER}/hafs_graphics)",
+    "Environment variable USHgraph (default ${HOMEgraph}/ush)",
+    "Environment variable DRIVERSH (default ${USHgraph}/driverAtmos.sh)",
+    "Environment variable COMhafs (default /hafs/com/${YMDH}/${STORMID})",
+    "Environment variable WORKgraph (default ${COMhafs}/../../../${YMDH}/${STORMID}/emc_graphics)",
+    "Environment variable COMgraph (default ${COMhafs}/emc_graphics)",
+    "Environment variable machine (default wcoss2, platform-dependent)",
+    "Environment variable cartopyDataDir (platform-dependent path)",
+    "Environment variable TOTAL_TASKS (default SLURM_NTASKS or 480, effectively 120 in this job)",
+    "Environment variable NCTSK (default 10)",
+    "Environment variable NCNODE (default 10)",
+    "Environment variable OMP_NUM_THREADS (default 1)"
+  ],
+  "complexity_score": 8
+}

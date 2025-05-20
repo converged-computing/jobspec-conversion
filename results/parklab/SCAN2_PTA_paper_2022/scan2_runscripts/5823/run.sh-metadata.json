@@ -1,0 +1,29 @@
+{
+  "job_manager": "slurm",
+  "application": "/n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv",
+  "resources": {
+    "main_job": {
+      "partition": "priopark",
+      "account": "park_contrib",
+      "walltime": "120:00:00",
+      "memory": "4000MB",
+      "nodes": 1,
+      "tasks": 1,
+      "cpus_per_task": 1
+    },
+    "sub_jobs_via_drmaa": {
+      "notes": "These resources are requested by the scansnv application for its sub-jobs, likely using Snakemake with DRMAA. The arguments are Slurm-specific.",
+      "original_slurm_args": "-p park -A park_contrib --mem={resources.mem} -t 8:00:00 -o %logdir/slurm-%A.log",
+      "partition": "park",
+      "account": "park_contrib",
+      "memory": "{resources.mem} (placeholder filled by scansnv/Snakemake)",
+      "walltime": "8:00:00",
+      "log_pattern": "%logdir/slurm-%A.log"
+    }
+  },
+  "software": {
+    "modules_loaded": [],
+    "environment_setup": []
+  },
+  "complexity_score": 5
+}

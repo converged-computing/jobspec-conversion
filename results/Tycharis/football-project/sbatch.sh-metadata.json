@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "${PROTEIN_PROJECT_DIR}/program.o",
+  "resources": {
+    "partitions": ["ksu-chem-mri.q", "ksu-gen-gpu.q"],
+    "nodes": "unspecified (uses Slurm defaults)",
+    "cores_cpus": "unspecified (uses Slurm defaults)",
+    "memory": "unspecified (uses Slurm defaults)",
+    "gpus": "unspecified (potentially implied by ksu-gen-gpu.q, but not explicitly requested)",
+    "walltime": "unspecified (uses Slurm defaults)",
+    "array_job_hint": "SLURM_ARRAY_TASK_ID usage suggests it's intended for job arrays"
+  },
+  "software": [
+    "module load icc",
+    "Environment variable PROTEIN_PROJECT_DIR must be set"
+  ],
+  "complexity_score": 4
+}

@@ -1,0 +1,37 @@
+{
+  "job_manager": "slurm",
+  "application": "python main.py $SLURM_ARRAY_TASK_ID 2 100 2000",
+  "resources": {
+    "job_name": "distr",
+    "job_array": {
+      "indices": "0-999",
+      "num_tasks": 1000
+    },
+    "per_array_task": {
+      "nodes": 1,
+      "tasks": 1,
+      "cpus_per_task": 1,
+      "mem_per_cpu": "1000M",
+      "mem_per_task": "1000M",
+      "walltime": "03:59:00"
+    },
+    "estimated_total_resources_for_array": {
+      "cores": 1000,
+      "memory": "1000GB"
+    },
+    "output_path_pattern": "logs/R-%x.%j.out",
+    "error_path_pattern": "logs/R-%x.%j.err",
+    "notifications": {
+      "user": "****",
+      "events": ["begin", "end", "fail"]
+    }
+  },
+  "software": {
+    "environment_setup_commands": [
+      "module purge",
+      "module load anaconda3/2021.5"
+    ],
+    "significant_environment_variables": ["SLURM_ARRAY_TASK_ID"]
+  },
+  "complexity_score": 4
+}

@@ -1,0 +1,26 @@
+{
+  "job_manager": "slurm",
+  "application": "User-specified C (compiled via gcc) or Python program. Examples: cNoThread, cPThread, cOpenMP, pythonNoThreads, pythonWithThreads. The specific program is determined by the first command-line argument to the wrapper script.",
+  "resources": {
+    "nodes": "$num_nodes (user-provided integer)",
+    "tasks_per_node": "$ntasks_per_node (user-provided integer)",
+    "cpus_per_task": "$num_threads (user-provided integer; the wrapper script calculates num_cores = num_threads due to integer arithmetic in `num_threads + 1 / 2`, and this value is used for Slurm's --cpus-per-task)",
+    "gpus": "Not requested",
+    "memory": "Not specified (default system allocation per core/task)",
+    "walltime": "4:00:00"
+  },
+  "software": {
+    "modules_loaded_in_job_script": [
+      "gcc (conditionally, if a C program is specified)",
+      "python (conditionally, if a Python program is specified)"
+    ],
+    "environment_setup_by_wrapper": [
+      "Parses 6 command-line arguments: file_type, array_size, num_threads, job_name, num_nodes, ntasks_per_node.",
+      "Validates numeric inputs and file_type.",
+      "Calculates num_cores (effectively num_cores = num_threads).",
+      "Conditionally compiles C source files (cNoThread.c, cPThread.c, cOpenMP.c) using gcc if a C-related file_type is specified. For example: `gcc -o \"./compiled-programs/${job_name}_cOpenMP.c\" cOpenMP.c -fopenmp`. Compiled executables are stored in the `./compiled-programs/` directory.",
+      "Dynamically generates a Slurm batch script (`job_${job_name}.sbatch`) in the `./batch-jobs/` directory.",
+      "Submits the generated Slurm script using `sbatch`."
+    ]
+  },
+  "complexity_score":

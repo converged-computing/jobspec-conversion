@@ -1,0 +1,17 @@
+{
+  "job_manager": "slurm",
+  "application": "samtools, perl, /n/data1/hms/dbmi/park/yifan/tools/NBICseq-norm_v0.2.4/NBICseq-norm.pl",
+  "resources": {
+    "tasks": 8,
+    "walltime": "12:00:00",
+    "partition": "park",
+    "account": "park_contrib",
+    "memory_total": "16G"
+  },
+  "software": [
+    "module load gcc conda2/4.2.13 bedtools gatk python/3.7.4 R/4.0.1",
+    "module load perl/5.30.0",
+    "module load samtools"
+  ],
+  "complexity_score": 7
+}

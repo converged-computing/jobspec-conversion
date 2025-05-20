@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "Nextflow pipeline (connectoflow/main.nf) with Apptainer",
+  "resources": {
+    "nodes": 1,
+    "cores_per_node": 32,
+    "memory_per_node": "all",
+    "walltime": "24:00:00"
+  },
+  "software": [
+    "module load StdEnv/2020",
+    "module load java/14.0.2",
+    "module load nextflow/21.10.3",
+    "module load apptainer/1.1.8",
+    "NXF_DEFAULT_DSL=1 (environment variable for nextflow command)"
+  ],
+  "complexity_score": 4
+}

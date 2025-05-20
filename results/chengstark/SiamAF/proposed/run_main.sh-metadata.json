@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "python main.py",
+  "resources": {
+    "walltime": "240:00:00",
+    "memory_request": "200G",
+    "gpus_per_task": 1,
+    "tasks": 1,
+    "nodes": 1,
+    "partition": "overflow",
+    "output_file": "/home/zguo30/ppg_ecg_proj/proposed/slurm_outputs/%j.out"
+  },
+  "software": [
+    "source /labs/hulab/stark_conda/bin/activate",
+    "conda activate base_pytorch"
+  ],
+  "complexity_score": 3
+}

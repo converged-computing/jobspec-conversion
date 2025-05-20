@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "python tensor_flow.py",
+  "resources": {
+    "nodes": 1,
+    "account": "hpcadmingpgpu",
+    "partition": "shortgpgpu",
+    "gpus": "1 (type p100)",
+    "walltime": "00:05:00",
+    "cpus_per_task": 1
+  },
+  "software": [
+    "module purge",
+    "source /usr/local/module/spartan_old.sh",
+    "module load Tensorflow/1.8.0-intel-2017.u2-GCC-6.2.0-CUDA9-Python-3.5.2-GPU"
+  ],
+  "complexity_score": 4
+}

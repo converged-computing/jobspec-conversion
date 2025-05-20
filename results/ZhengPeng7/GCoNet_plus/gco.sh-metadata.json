@@ -1,0 +1,16 @@
+{
+  "job_manager": "slurm",
+  "application": "Python-based ML training, testing, and evaluation pipeline (train.py, test.py, main.py, etc.)",
+  "resources": {
+    "nodes": 1,
+    "tasks": 10,
+    "gpus": 1,
+    "gpu_type": "v100",
+    "walltime": "48:00:00"
+  },
+  "software": {
+    "dependencies": ["python"],
+    "environment_setup": ["CUDA_VISIBLE_DEVICES=0"]
+  },
+  "complexity_score": 5
+}

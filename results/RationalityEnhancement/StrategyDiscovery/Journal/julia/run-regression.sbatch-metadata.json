@@ -1,0 +1,15 @@
+{
+  "job_manager": "slurm",
+  "application": "julia regression.jl",
+  "resources": {
+    "nodes": 1,
+    "tasks": 1,
+    "cpus_per_task": 40,
+    "walltime": "1400m"
+  },
+  "software": {
+    "modules": ["julia"],
+    "environment_setup": []
+  },
+  "complexity_score": 2
+}

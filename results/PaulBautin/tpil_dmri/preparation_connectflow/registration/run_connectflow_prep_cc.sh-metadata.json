@@ -1,0 +1,20 @@
+{
+  "job_manager": "slurm",
+  "application": "nextflow run $my_main_nf (TPIL Bundle Segmentation Pipeline)",
+  "resources": {
+    "nodes": 1,
+    "cpus_per_task": 32,
+    "memory_per_node": "all (requested as 0 in Slurm)",
+    "walltime": "02:00:00"
+  },
+  "software": {
+    "modules_loaded": [
+      "StdEnv/2020",
+      "java/14.0.2",
+      "nextflow/22.04.3",
+      "singularity/3.8"
+    ],
+    "singularity_image_path": "$my_singularity_img"
+  },
+  "complexity_score": 5
+}

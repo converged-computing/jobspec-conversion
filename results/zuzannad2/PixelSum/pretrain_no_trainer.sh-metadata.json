@@ -1,0 +1,22 @@
+{
+  "job_manager": "slurm",
+  "application": "scripts/training/run_pretraining_no_trainer.py (launched via accelerate)",
+  "resources": {
+    "job_name": "pretrain-pixel-gpt2large",
+    "nodes": 1,
+    "tasks": 1,
+    "cpus_per_task": 48,
+    "memory_per_job": "70000M",
+    "gpus_per_job": 1,
+    "gpu_type": "a100",
+    "walltime": "75:00:00",
+    "queue_partition": "gpu"
+  },
+  "software": [
+    "nvidia-smi (GPU diagnostic utility)",
+    "accelerate (Hugging Face library for distributed training)",
+    "Python (implied by .py script and accelerate)",
+    "Environment variables set: ENCODER, DECODER, DATASET, EXPERIMENT_DIR"
+  ],
+  "complexity_score": 7
+}

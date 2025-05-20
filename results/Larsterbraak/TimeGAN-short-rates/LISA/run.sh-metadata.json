@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "python3 $HOME/main.py",
+  "resources": {
+    "nodes": 1,
+    "cores_per_node": "default (not specified, Slurm uses partition defaults)",
+    "memory_per_node": "default (not specified, Slurm uses partition defaults)",
+    "gpus_per_node": "Implied by partition 'gpu_titanrtx'. Assumed at least 1 GPU per node. Specific type 'Titan RTX' also implied by partition name, but not explicitly requested via --gres in Slurm.",
+    "walltime": "48:30:00",
+    "partition": "gpu_titanrtx"
+  },
+  "software": [
+    "module purge",
+    "module load 2019",
+    "module load TensorFlow"
+  ],
+  "complexity_score": 3
+}

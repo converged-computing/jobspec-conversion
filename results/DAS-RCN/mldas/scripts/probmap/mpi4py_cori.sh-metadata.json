@@ -1,0 +1,19 @@
+{
+  "job_manager": "slurm",
+  "application": "python $HOME/mldas/mldas/assess.py probmap",
+  "resources": {
+    "nodes": 3,
+    "queue": "regular",
+    "walltime": "05:00:00",
+    "constraint": "haswell",
+    "tasks": 96,
+    "cpus_per_task": 2
+  },
+  "software": {
+    "modules_loaded": [
+      "pytorch/v1.6.0"
+    ],
+    "environment_setup_commands": []
+  },
+  "complexity_score": 3
+}

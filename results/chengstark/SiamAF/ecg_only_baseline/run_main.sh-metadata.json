@@ -1,0 +1,17 @@
+{
+  "job_manager": "slurm",
+  "application": "python main.py",
+  "resources": {
+    "nodes": 1,
+    "cores_cpus": "unspecified",
+    "memory": "220G (per node)",
+    "gpus": "2 (type: volta)",
+    "walltime": "240:00:00",
+    "partition": "overflow"
+  },
+  "software": [
+    "source /labs/hulab/stark_conda/bin/activate",
+    "conda activate base_pytorch"
+  ],
+  "complexity_score": 4
+}

@@ -1,0 +1,22 @@
+{
+  "job_manager": "pbs",
+  "application": "Parallel calculation of genome coverage depth using samtools and awk",
+  "resources": {
+    "memory_total": "22gb",
+    "nodes": 1,
+    "cores_per_node": 12,
+    "walltime": "24:00:00",
+    "queue": "mesabi"
+  },
+  "software": {
+    "modules_loaded": [
+      "parallel/20160822",
+      "samtools/1.7"
+    ],
+    "environment_setup": [
+      "CAVE_GENOME_SIZE calculation using samtools, grep, cut, awk",
+      "Redefinition of HOME environment variable to control output path"
+    ]
+  },
+  "complexity_score": 7
+}

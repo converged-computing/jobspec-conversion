@@ -1,0 +1,42 @@
+#!/bin/bash
+#FLUX: -N 1
+#FLUX: -n 8
+#FLUX: -g 4
+#FLUX: -t 72h
+#FLUX: --queue=gpgpu
+# Note: Slurm's QoS (-q gpgpumse) does not have a direct standard Flux equivalent.
+# This may be handled by queue configuration or site policies in Flux.
+#
+#FLUX: --output=job.{id}.out
+#FLUX: --error=job.{id}.err
+#FLUX: --job-name=pytorch_train
+
+# Environment Setup
+module purge
+module load fosscuda/2019b
+module load cuda/10.1.243
+module load gcccore/8.3.0
+module load gcc/8.3.0 openmpi/3.1.4
+module load python/3.7.4
+module load opencv
+module load pillow
+module load torch/20200428
+module load scipy-bundle
+module load pyyaml
+module load numpy/1.17.3-python-3.7.4
+module load torchvision
+module load matplotlib/3.1.1-python-3.7.4
+module load scikit-learn
+module load torchvision/0.5.0-python-3.7.4
+module load tqdm
+module unload pytorch/1.4.0-python-3.7.4
+module load pytorch-geometric/1.6.1-python-3.7.4-pytorch-1.6.0
+module load tensorflow/2.3.1-python-3.7.4
+
+# Execute the application
+# The `torch.distributed.launch` utility will start 4 processes on this node,
+# each ideally utilizing one of the 4 requested GPUs.
+# The job is allocated 8 tasks (cores), 4 of which will be used by these processes.
+time python3 -m torch.distributed.launch --nproc_per_node 4 train.py --batch-size 64 --epochs 100 --data custom_train/dataset_fs.yaml --weights weights/yolov5l.pt
+
+```

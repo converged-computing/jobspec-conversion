@@ -1,0 +1,26 @@
+{
+  "job_manager": "slurm",
+  "application": "python run_pretraining_hvd.py",
+  "resources": {
+    "nodes": 4,
+    "tasks_per_node": 4,
+    "cpus_per_task": 8,
+    "gpus_per_node": 4,
+    "gpu_type": "dcu",
+    "partition": "normal",
+    "job_name": "pre_bert",
+    "output_file": "pre_cscd_r_128_from_bert.out",
+    "walltime": "partition default"
+  },
+  "software": {
+    "modules_loaded": [],
+    "environment_setup": [
+      "export MIOPEN_USER_DB_PATH=/tmp/tensorflow-miopen-${USER}-2.8",
+      "export MIOPEN_DEBUG_DISABLE_FIND_DB=1",
+      "export HOROVOD_HIERARCHICAL_ALLREDUCE=1",
+      "mpirun MCA parameters: -mca pml ucx -x UCX_TLS=sm,rc,rocm_cpy,rocm_gdr,rocm_ipc -x LD_LIBRARY_PATH -mca coll_hcoll_enable 0 --bind-to none"
+    ],
+    "dependencies": ["python", "mpirun (likely OpenMPI)", "Horovod", "TensorFlow (implied by MIOPEN)", "ROCm (implied by dcu, rocm_cpy, rocm_gdr)"]
+  },
+  "complexity_score": 7
+}

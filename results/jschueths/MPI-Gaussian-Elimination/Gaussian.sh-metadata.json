@@ -1,0 +1,18 @@
+{
+  "job_manager": "pbs",
+  "application": "/nethome/users/jpm2t4/gaussian/gaussian /nethome/users/jpm2t4/gaussian/matrix.800.txt",
+  "resources": {
+    "job_name": "GAUSSIAN-800-16",
+    "walltime_limit": "00:15:00",
+    "nodes": 16,
+    "tasks_implicit": 16,
+    "tasks_per_node_implicit": 1,
+    "queue": "@nic-cluster.srv.mst.edu",
+    "output_error_handling": "combined into one file"
+  },
+  "software": {
+    "prerun_script": "/share/apps/job_data_prerun.py",
+    "mpi_launcher": "mpirun"
+  },
+  "complexity_score": 3
+}

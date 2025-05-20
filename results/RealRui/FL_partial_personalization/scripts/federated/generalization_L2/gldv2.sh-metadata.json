@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "python -u train_pfl.py",
+  "resources": {
+    "job_array_tasks": 25,
+    "nodes_per_task": 1,
+    "cpus_per_task": 10,
+    "memory_per_task_node": "40G",
+    "gpus_per_task": 1,
+    "walltime": "10:00:00",
+    "partition": "learnfair"
+  },
+  "software": [
+    "source ~/.bashrc",
+    "source activate pyt19"
+  ],
+  "complexity_score": 8
+}

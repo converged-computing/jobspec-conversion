@@ -1,0 +1,11 @@
+```json
+{
+  "job_manager": "Slurm",
+  "application": "snakemake",
+  "resources": {
+    "main_script": {
+      "partition_queue": "priopark",
+      "account": "park_contrib",
+      "walltime": "120:00:00",
+      "memory": "32G",
+      "cores_for_local_execution": "Implicitly 1 core for the script itself, but snakemake in local mode is configured with `--max-threads=12` and up to `-j=6` jobs, suggesting up to 12

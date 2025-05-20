@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "python -u baseline_models/bert_classifier.py",
+  "resources": {
+    "partition": "gpu_shared",
+    "gpus": 1,
+    "tasks": 1,
+    "cpus_per_task": 3,
+    "nodes": 1,
+    "walltime": "12:00:00"
+  },
+  "software": {
+    "modules": ["purge", "2021", "Anaconda3/2021.05"],
+    "conda_env": "giant-xrt",
+    "environment_variables": ["WANDB_DIR=$HOME"]
+  },
+  "complexity_score": 7
+}

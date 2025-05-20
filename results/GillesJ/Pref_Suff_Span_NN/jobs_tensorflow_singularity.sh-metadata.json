@@ -1,0 +1,30 @@
+{
+  "job_manager": "lsf",
+  "application": "python /extra/vikasy/4chars_Prefix_Suffix_Experiments/Spanish/main.py (executed via Singularity using image tf_gpu-1.2.0-cp35-cuda8-cudnn51.img)",
+  "resources": {
+    "nodes": 1,
+    "tasks": 16,
+    "tasks_per_node": 16,
+    "gpus": "Node with GPU(s) required (specific count not requested, all node GPUs made available to container via --nv)",
+    "queue": "standard",
+    "walltime": "Default for queue",
+    "memory": "Default for queue",
+    "stdout_file": "sing_tf.out",
+    "stderr_file": "sing_tf.err",
+    "job_name": "sing_tf"
+  },
+  "software": {
+    "modules": [
+      "singularity"
+    ],
+    "environment_setup": [
+      "cd /extra/vikasy"
+    ],
+    "container": {
+      "engine": "singularity",
+      "image": "tf_gpu-1.2.0-cp35-cuda8-cudnn51.img",
+      "options": "--nv"
+    }
+  },
+  "complexity_score": 4
+}

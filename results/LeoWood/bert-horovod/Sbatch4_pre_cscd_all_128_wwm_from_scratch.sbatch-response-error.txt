@@ -1,0 +1,12 @@
+```json
+{
+  "job_manager": "slurm",
+  "application": "python run_pretraining_hvd.py",
+  "resources": {
+    "nodes": 4,
+    "tasks_per_node": 4,
+    "cpus_per_task": 8,
+    "gpus_per_node": 4,
+    "gpu_type": "dcu",
+    "total_tasks": 16,
+    "total_cp

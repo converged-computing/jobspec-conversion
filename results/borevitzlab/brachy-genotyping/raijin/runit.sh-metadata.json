@@ -1,0 +1,21 @@
+{
+  "job_manager": "pbs",
+  "application": "snakemake",
+  "resources": {
+    "project": "xe2",
+    "queue": "hugemem",
+    "cores": 28,
+    "walltime_hhmmss": "24:00:00",
+    "memory": "800G",
+    "generic_resources": {
+      "other": "gdata1"
+    },
+    "working_directory": "current",
+    "mail_user": "kevin.murray@anu.edu.au",
+    "mail_events": "abe"
+  },
+  "software": [
+    ". raijin/modules.sh"
+  ],
+  "complexity_score": 6
+}

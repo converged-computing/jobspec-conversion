@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "python make_whole_data.py",
+  "resources": {
+    "walltime": "4:00:00",
+    "memory_total": "650G",
+    "cpus_per_task": 16,
+    "tasks": 1,
+    "nodes": 1,
+    "partition": "overflow",
+    "gpus_requested": "0 (nvidia-smi is called, suggesting potential implicit use or diagnostic check)"
+  },
+  "software": [
+    "source /labs/hulab/stark_conda/bin/activate",
+    "conda activate base_pytorch"
+  ],
+  "complexity_score": 4
+}

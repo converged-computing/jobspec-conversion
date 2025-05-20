@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "python main.py",
+  "resources": {
+    "walltime": "240:00:00",
+    "memory_total": "230G",
+    "gpus_total": 2,
+    "nodes": "1 (implicitly, as Slurm typically allocates a single node for such requests unless specified otherwise)",
+    "tasks": "1 (for the batch script itself, by Slurm default)",
+    "cpus_per_task": "1 (by Slurm default for the batch script task)",
+    "partition": "overflow"
+  },
+  "software": [
+    "source /labs/hulab/stark_conda/bin/activate",
+    "conda activate base_pytorch"
+  ],
+  "complexity_score": 3
+}

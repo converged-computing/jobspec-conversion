@@ -1,0 +1,20 @@
+{
+  "job_manager": "pbs",
+  "application": "bwa (via commands in a file, processed as a job array)",
+  "resources": {
+    "nodes": 1,
+    "cores_per_node": 16,
+    "memory": "126gb",
+    "walltime": "96:00:00",
+    "queue": "sb128",
+    "job_array_tasks": "Determined by number of lines in CMD_LIST file"
+  },
+  "software": [
+    "module load zlib/1.2.8",
+    "module load xz-utils/5.2.2_intel2015update3",
+    "module load parallel/20160822",
+    "module load bwa/0.7.4",
+    "module load samtools/1.7"
+  ],
+  "complexity_score": 6
+}

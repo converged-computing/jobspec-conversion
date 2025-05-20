@@ -1,0 +1,17 @@
+{
+  "job_manager": "Slurm",
+  "application": "python main.py",
+  "resources": {
+    "walltime": "240:00:00 (240 hours)",
+    "memory": "240G (total for job)",
+    "gpus": 2,
+    "partition": "overflow",
+    "nodes": "Implicitly 1 (to satisfy 2 GPUs and memory, common Slurm behavior if not specified)",
+    "cores_tasks": "Implicitly 1 task for the python script"
+  },
+  "software": [
+    "source /labs/hulab/stark_conda/bin/activate",
+    "conda activate base_pytorch"
+  ],
+  "complexity_score": 4
+}

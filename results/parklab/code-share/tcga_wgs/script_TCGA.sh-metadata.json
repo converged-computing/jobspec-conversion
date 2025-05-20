@@ -1,0 +1,22 @@
+{
+  "job_manager": "slurm",
+  "application": "Sentieon TNScope and Hartwig PURPLE bioinformatics pipeline (includes gdc-client download, VCF splitting)",
+  "resources": {
+    "cores_requested": 8,
+    "memory_requested": "64G",
+    "walltime": "1-00:00",
+    "job_array_range": "2-8",
+    "queue_partition": "medium",
+    "project_account": "park"
+  },
+  "software": [
+    "Sentieon environment setup (LD_LIBRARY_PATH, SENTIEON_LICENSE, SENTIEON_INSTALL_DIR)",
+    "conda deactivate",
+    "LD_LIBRARY_PATH modification for python 3.8.12",
+    "module load gcc/9.2.0",
+    "module load python/3.10.11",
+    "module load samtools/1.15.1",
+    "Python virtual environment activation (/home/dg204/jupytervenv3.10/bin/activate)"
+  ],
+  "complexity_score": 8
+}

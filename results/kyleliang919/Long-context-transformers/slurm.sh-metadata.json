@@ -1,0 +1,25 @@
+{
+  "job_manager": "slurm",
+  "application": "deepspeed finetune.py --model_name_or_path=\"EleutherAI/gpt-neox-20b\"",
+  "resources": {
+    "nodes": 2,
+    "tasks_per_node": 8,
+    "cpus_per_task": 12,
+    "gpus_per_task": 1,
+    "partition": "g80n140",
+    "exclusive_nodes": true,
+    "output_file": "gpt_neox_20.out",
+    "job_name": "testlongcontext"
+  },
+  "software": [
+    "module load openmpi",
+    "module load cuda/11.7",
+    "source /fsx/home-kaizhaol/long-context-transformers/venv/bin/activate",
+    "export PYTHONFAULTHANDLER=1",
+    "export CUDA_LAUNCH_BLOCKING=0",
+    "HF_MODULES_CACHE=./cache/",
+    "HF_DATASETS_CACHE=./cache/",
+    "TRANSFORMERS_CACHE=./cache/"
+  ],
+  "complexity_score": 7
+}

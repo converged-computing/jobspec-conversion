@@ -1,0 +1,20 @@
+{
+  "job_manager": "lsf",
+  "application": "@[PATHRT]/compile_cmake.sh @[PATHTR] @[MACHINE_ID] \"@[MAKE_OPT]\" @[COMPILE_NR]",
+  "resources": {
+    "nodes": "1 (implied by -n 1 and affinity[core(1)])",
+    "cores_cpus_tasks": "1 core for 1 task",
+    "memory": "8192 MB",
+    "gpus": "Not requested",
+    "walltime": "00:45 (45 minutes)",
+    "queue": "@[QUEUE]",
+    "project_account": "GFS-DEV"
+  },
+  "software": {
+    "modules_loaded": [],
+    "environment_setup": [
+      "set -eux"
+    ]
+  },
+  "complexity_score": 4
+}

@@ -1,0 +1,4 @@
+```json
+{
+  "job_manager": "slurm",
+  "application": "python run_pretraining_hvd

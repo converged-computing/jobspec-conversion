@@ -1,0 +1,20 @@
+{
+  "job_manager": "slurm",
+  "application": "nextflow run /home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/rbx_flow/main.nf",
+  "resources": {
+    "nodes": 1,
+    "cpus_per_task": 32,
+    "memory": "all memory of the node",
+    "walltime": "24:00:00",
+    "gpus": null
+  },
+  "software": [
+    "module load StdEnv/2020",
+    "module load java/14.0.2",
+    "module load nextflow/22.04.3",
+    "module load apptainer/1.1",
+    "git -C /home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/rbx_flow checkout 1.2.0",
+    "NXF_DEFAULT_DSL=1 (environment variable for nextflow)"
+  ],
+  "complexity_score": 6
+}

@@ -1,0 +1,20 @@
+{
+  "job_manager": "slurm",
+  "application": "diploSHIC (feature vector generation from VCF files, executing commands from HardFiltered_All_Commands_fvecVCF.txt)",
+  "resources": {
+    "nodes": 1,
+    "tasks_per_node": 1,
+    "cpus_per_task": 1,
+    "memory_per_task": "62gb",
+    "walltime": "2:00:00",
+    "job_array": "0-26 (27 tasks)",
+    "partitions_or_queues": "small,amdsmall",
+    "job_name": "fvecVCF"
+  },
+  "software": {
+    "conda_init_script": "/home/mcgaughs/rmoran/miniconda3/etc/profile.d/conda.sh",
+    "conda_environment": "diplo",
+    "working_directory_change": "/home/mcgaughs/shared/Software/diploSHIC"
+  },
+  "complexity_score": 6
+}

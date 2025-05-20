@@ -1,0 +1,25 @@
+{
+  "job_manager": "slurm",
+  "application": "nextflow run /home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/dmriqc_flow/main.nf",
+  "resources": {
+    "nodes": 1,
+    "cpus_per_task": 32,
+    "memory_per_node": "all",
+    "walltime": "01:00:00"
+  },
+  "software": {
+    "modules": [
+      "StdEnv/2020",
+      "java/14.0.2",
+      "nextflow/21.10.3",
+      "singularity/3.8"
+    ],
+    "environment_variables": [
+      "my_singularity_img=/home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/containers/scilus_1.3.0.sif",
+      "my_main_nf=/home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/dmriqc_flow/main.nf",
+      "my_input=/home/pabaua/scratch/tpil_dev/results/clbp/22-11-25_bundle_seg/results_bundle/"
+    ],
+    "container": "/home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/containers/scilus_1.3.0.sif (used with singularity via nextflow)"
+  },
+  "complexity_score": 4
+}

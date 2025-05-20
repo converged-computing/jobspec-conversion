@@ -1,0 +1,26 @@
+{
+  "job_manager": "slurm",
+  "application": "nextflow run $my_main_nf",
+  "resources": {
+    "nodes": 1,
+    "cpus": 32,
+    "memory": "all memory on the node (requested via --mem=0)",
+    "walltime": "6:00:00"
+  },
+  "software": {
+    "modules_loaded": [
+      "StdEnv/2020",
+      "java/14.0.2",
+      "nextflow/22.04.3",
+      "singularity/3.8"
+    ],
+    "environment_variables_set": [
+      "my_singularity_img",
+      "my_main_nf",
+      "my_input",
+      "my_atlas",
+      "my_template"
+    ]
+  },
+  "complexity_score": 5
+}

@@ -1,0 +1,22 @@
+{
+  "job_manager": "slurm",
+  "application": "python2 /home/software/busco/2.0/bin/BUSCO.py",
+  "resources": {
+    "nodes": 1,
+    "cpus_per_task": 4,
+    "total_tasks": 1,
+    "memory_per_node": "62gb",
+    "walltime": "80:00:00",
+    "partitions": ["small", "amdsmall"],
+    "job_name": "BUSCO"
+  },
+  "software": {
+    "modules": ["python/2"],
+    "environment_setup": [
+      "src=/home/research/genome/assemblies_configs/",
+      "input=/home/research/genome/final_assembly/pilon_final_122418.fa",
+      "lineage=/home/research/genome/assemblies_configs/lineage/actinopterygii_odb9",
+      "busco=/home/software/busco/2.0/bin/BUSCO.py"
+    ]
+  },
+  "complexity_score":

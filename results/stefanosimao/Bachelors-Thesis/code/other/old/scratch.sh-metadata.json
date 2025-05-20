@@ -1,0 +1,31 @@
+{
+  "job_manager": "slurm",
+  "application": "python main.py",
+  "resources": {
+    "nodes": 10,
+    "tasks_per_node": 1,
+    "cpus_per_task": 12,
+    "gpus_per_task": 1,
+    "walltime": "00:30:00",
+    "memory": "not specified",
+    "account": "c24",
+    "additional_properties": [
+      "constraint:gpu",
+      "hint:nomultithread",
+      "ntasks-per-core:1"
+    ]
+  },
+  "software": {
+    "modules_loaded": [
+      "daint-gpu",
+      "PyTorch"
+    ],
+    "environment_setup_commands": [
+      "export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK",
+      "export NCCL_DEBUG=INFO",
+      "export NCCL_IB_HCA=ipogif0",
+      "export NCCL_IB_CUDA_SUPPORT=1"
+    ]
+  },
+  "complexity_score": 5
+}

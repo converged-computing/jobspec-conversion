@@ -1,0 +1,22 @@
+```json
+{
+  "job_manager": "slurm",
+  "application": "nextflow run /home/pabaua/dev_scil/tpil_bundle_segmentation/main.nf",
+  "resources": {
+    "nodes": 1,
+    "cpus_per_task": 32,
+    "memory": "all memory of the node (requested via --mem=0 in Slurm)",
+    "walltime": "1:00:00"
+  },
+  "software": {
+    "modules": [
+      "StdEnv/2020",
+      "java/14.0.2",
+      "nextflow/22.04.3",
+      "singularity/3.8"
+    ],
+    "environment_variables": [
+      "my_singularity_img=/home/pabaua/dev_scil/containers/scilus_1_3_0.img",
+      "my_main_nf=/home/pabaua/dev_scil/tpil_bundle_segmentation/main.nf",
+      "my_input=/home/pabaua/dev_tpil/data/data_new_bundle",
+      "my_atlas=/

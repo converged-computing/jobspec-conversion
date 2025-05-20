@@ -1,0 +1,43 @@
+{
+  "job_manager": "slurm",
+  "application": "python3 train_Meso.py -n 'Mesonet' -tp './extracted_ff' -vp './extracted_val_ff' -bz 64 -e 50 -mn 'meso4_ff.pkl'",
+  "resources": {
+    "nodes": 1,
+    "tasks": 8,
+    "tasks_per_node": 8,
+    "gpus_per_node": 4,
+    "gpu_type": "p100",
+    "walltime": "48:00:00",
+    "partition": "gpgpu",
+    "qos": "gpgpumse"
+  },
+  "software": {
+    "modules_loaded": [
+      "fosscuda/2019b",
+      "cuda/10.1.243",
+      "gcccore/8.3.0",
+      "gcc/8.3.0 openmpi/3.1.4",
+      "python/3.7.4",
+      "opencv",
+      "pillow",
+      "torch/20200428",
+      "scipy-bundle",
+      "pyyaml",
+      "numpy/1.17.3-python-3.7.4",
+      "torchvision",
+      "matplotlib/3.1.1-python-3.7.4",
+      "scikit-learn",
+      "torchvision/0.5.0-python-3.7.4",
+      "tqdm",
+      "pytorch-geometric/1.6.1-python-3.7.4-pytorch-1.6.0",
+      "tensorflow/2.3.1-python-3.7.4"
+    ],
+    "modules_unloaded": [
+      "pytorch/1.4.0-python-3.7.4"
+    ],
+    "environment_setup_commands": [
+      "module purge"
+    ]
+  },
+  "complexity_score": 7
+}

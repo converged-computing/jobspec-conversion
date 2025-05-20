@@ -1,0 +1,33 @@
+{
+  "job_manager": "slurm",
+  "application": "snakemake --profile profile",
+  "resources": {
+    "job_name": "gps_paper_pipeline_scheduler",
+    "account": "MRC-BSU-SL2-CPU",
+    "nodes": 1,
+    "tasks": 1,
+    "cpus_per_task": 4,
+    "walltime": "6:00:00",
+    "partition": "cclake",
+    "mail_type": "FAIL",
+    "output_file": "logs/gps_paper_pipeline_scheduler/%j.out"
+  },
+  "software": {
+    "modules_purged": true,
+    "modules_loaded": [
+      "rhel7/default-peta4"
+    ],
+    "conda_env_activated": "snakemake_env",
+    "conda_path_initialization": "/rds/project/rds-csoP2nj6Y6Y/tw395/mambaforge/",
+    "environment_variables_set": [
+      "OMP_NUM_THREADS=5",
+      "I_MPI_PIN_DOMAIN=omp:compact",
+      "I_MPI_PIN_ORDER=scatter"
+    ],
+    "other_env_setup": [
+      ". /etc/profile.d/modules.sh",
+      "unset R_LIBS"
+    ]
+  },
+  "complexity_score": 6
+}

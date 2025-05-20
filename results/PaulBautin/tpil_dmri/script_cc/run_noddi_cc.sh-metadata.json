@@ -1,0 +1,17 @@
+{
+  "job_manager": "slurm",
+  "application": "nextflow run /home/pabaua/projects/def-pascalt-ab/pabaua/dev_scil/noddi_flow/main.nf",
+  "resources": {
+    "nodes": 1,
+    "cpus_per_task": 32,
+    "memory": "250G",
+    "walltime": "48:00:00"
+  },
+  "software": [
+    "StdEnv/2020",
+    "java/14.0.2",
+    "nextflow/22.10.8",
+    "apptainer/1.1.8"
+  ],
+  "complexity_score": 4
+}

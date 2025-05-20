@@ -1,0 +1,17 @@
+{
+  "job_manager": "slurm",
+  "application": "snakemake",
+  "resources": {
+    "partition": "priopark",
+    "account": "park_contrib",
+    "walltime": "120:00:00",
+    "memory": "32G",
+    "cores": "up to 1000 (variable based on flags)",
+    "gpus": "none"
+  },
+  "software": [
+    "slurm-drmaa",
+    "sentieon (environment setup required)"
+  ],
+  "complexity_score": 7
+}

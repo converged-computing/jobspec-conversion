@@ -68,9 +68,6 @@ safety_settings = [
     {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
 ]
 
-global model
-
-
 def construct_prompt(content):
     """
     Constructs the detailed prompt for Gemini.
@@ -102,11 +99,10 @@ Here is the batch script:
     return prompt
 
 
-def process_batch_script(filename, script_content):
+def process_batch_script(model, filename, script_content):
     """
     Sends a batch script to Gemini for analysis and conversion, then parses the response.
     """
-    global model
     prompt = construct_prompt(script_content)
     try:
         # It's good practice to handle potential API errors
@@ -142,7 +138,7 @@ def process_batch_script(filename, script_content):
 
     # And for the bash script too
     script = script.strip()
-    if script.startswith("```bash"):
+    if script.startswith("```bash") or script.startswith("```flux"):
         script = script.strip()[7:-3].strip()
     elif script.startswith("```"):
         script = script.strip()[3:-3].strip()
@@ -215,18 +211,16 @@ def main():
 
     print(f"⭐️ Found {len(files)} unique job scripts")
     print("\nPre-processing complete.")
-    import IPython
 
-    IPython.embed()
-    sys.exit()
-
-    global model
     model = genai.GenerativeModel(
         model_name=args.model,
         generation_config=generation_config,
         safety_settings=safety_settings,
     )
 
+    import IPython
+    IPython.embed()
+    sys.exit()
     count = 0
     total = args.limit
     for i, filename in enumerate(files):
@@ -250,7 +244,7 @@ def main():
         )
 
         # Read script into string to process
-        metadata, flux_script = process_batch_script(filename, read_file(filename))
+        metadata, flux_script = process_batch_script(model, filename, read_file(filename))
         if not metadata and not flux_script:
             print(
                 Fore.LIGHTRED_EX + f"Issue with {filename} no output" + Style.RESET_ALL

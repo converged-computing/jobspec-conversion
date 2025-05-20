@@ -1,0 +1,17 @@
+{
+  "job_manager": "PBS/Torque",
+  "application": "python2 Remove_indels_for_VCFtools.py",
+  "resources": {
+    "nodes": 1,
+    "cores": 1,
+    "memory": "126gb",
+    "walltime": "96:00:00",
+    "queue": "mangi"
+  },
+  "software": [
+    "bcftools",
+    "python2",
+    "tabix-0.2.6"
+  ],
+  "complexity_score": 6
+}

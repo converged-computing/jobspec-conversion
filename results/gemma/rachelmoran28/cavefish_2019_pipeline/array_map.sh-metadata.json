@@ -1,0 +1,18 @@
+{
+  "job_manager": "PBS/Torque",
+  "application": "bwa (via command list)",
+  "resources": {
+    "nodes": 1,
+    "cores": 16,
+    "memory": "126gb",
+    "walltime": "96:00:00"
+  },
+  "software": [
+    "zlib/1.2.8",
+    "xz-utils/5.2.2_intel2015update3",
+    "parallel/20160822",
+    "bwa/0.7.4",
+    "samtools/1.7"
+  ],
+  "complexity_score": 6
+}

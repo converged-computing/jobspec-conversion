@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "python ../main_dpvit.py",
+  "resources": {
+    "nodes": 3,
+    "gpus": "a100:2 per node",
+    "cpus": 24,
+    "memory": "64G per node",
+    "walltime": "11:50:00"
+  },
+  "software": {
+    "environment": "env_dpl/bin/activate",
+    "nvidia_smi": "used for GPU status",
+    "NCCL": "NCCL_BLOCKING_WAIT=1",
+    "wandb": "potentially used for logging (commented out)"
+  },
+  "complexity_score": 8
+}

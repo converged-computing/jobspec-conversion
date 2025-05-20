@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "python train_pfl.py",
+  "resources": {
+    "nodes": 1,
+    "cores": 10,
+    "memory": "40G",
+    "gpus": 1,
+    "walltime": "10:00:00"
+  },
+  "software": {
+    "modules": [
+      "~/.bashrc",
+      "pyt19"
+    ]
+  },
+  "complexity_score": 7
+}

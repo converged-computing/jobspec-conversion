@@ -1,0 +1,15 @@
+{
+  "job_manager": "slurm",
+  "application": "python main.py",
+  "resources": {
+    "nodes": 1,
+    "cores": 1,
+    "memory": "1000M per CPU",
+    "walltime": "03:59:00",
+    "array_size": 1000
+  },
+  "software": [
+    "anaconda3/2021.5"
+  ],
+  "complexity_score": 6
+}

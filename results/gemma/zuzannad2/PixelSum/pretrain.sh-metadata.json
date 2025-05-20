@@ -1,0 +1,21 @@
+{
+  "job_manager": "slurm",
+  "application": "python3 -m scripts.training.run_pretraining ...",
+  "resources": {
+    "nodes": 1,
+    "cores": 48,
+    "memory": "70000M",
+    "gpu": "1x A100",
+    "walltime": "75:00:00"
+  },
+  "software": {
+    "modules": [],
+    "environment": [
+      "ENCODER=\"Team-PIXEL/pixel-base\"",
+      "DECODER=\"gpt2-large\"",
+      "DATASET=\"zuzannad1/pixelsum_wiki\"",
+      "EXPERIMENT_DIR=\"experiments/pretraining/$DECODER/`date +%Y-%m-%d_%H-%M-%S`\""
+    ]
+  },
+  "complexity_score": 7
+}

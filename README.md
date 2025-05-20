@@ -10,7 +10,7 @@ Run the generation for some number (defaults to 100):
 export GEMINI_API_KEY=xxxxxxxxxxxxxxx
 # Default Gemini Pro
 python generate-jobspecs.py --limit 100 --outdir ./results/gemini
-python generate-jobspecs.py --limit 100 --model 'models/gemma-3-27b-it' --outdir ./results/gemma
+python generate-jobspecs.py --limit 100 --model 'models/gemma-3-27b-it' --output ./results/gemma
 ```
 
 This will generate the contents of [results](results). Then validate. For validation, we basically:

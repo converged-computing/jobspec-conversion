@@ -1,0 +1,17 @@
+{
+  "job_manager": "slurm",
+  "application": "python run_pretraining_hvd.py",
+  "resources": {
+    "nodes": 4,
+    "cores": 32,
+    "memory": "unknown",
+    "gpus": 4,
+    "walltime": "unknown"
+  },
+  "software": [
+    "MIOPEN",
+    "HOROVOD",
+    "UCX"
+  ],
+  "complexity_score": 8
+}

@@ -240,6 +240,7 @@ def main():
             "complexity_score",
             "application",
             "cyclomatic_complexity",
+            "model",
         ]
     )
     idx = 0
@@ -249,6 +250,10 @@ def main():
 
         # Complexity
         complexity = calculate_complexity(res["filename"])
+
+        model = "gemini"
+        if "/gemma/" in res['filename']:
+            model = "gemma"
 
         # Add in the metadata about complexity, etc.
         try:
@@ -276,6 +281,7 @@ def main():
             score,
             command,
             complexity,
+            model,
         ]
         idx += 1
 
@@ -283,7 +289,9 @@ def main():
     accuracies = []
     for i, row in df.iterrows():
         denominator = row.total_directives + row.line_deletions
-        if denominator == 0:
+        if denominator == 0 and row.total_directives == 0:
+            accuracies.append(0)        
+        elif denominator == 0:
             accuracies.append(1)
         else:
             accuracies.append(row.correct_directives / denominator)
@@ -301,6 +309,7 @@ def main():
         df,
         ax=axes[0],
         x="accuracies",
+        hue="model"
     )
     axes[0].set_title(
         f"JobSpec Conversion to Flux Accuracy (N={df.shape[0]})", fontsize=12
@@ -323,7 +332,7 @@ def main():
     axes.append(fig.add_subplot(gs[0, 1]))
     order = df["application"].value_counts().index.tolist()
     df["apps"] = pandas.Categorical(df["application"], categories=order, ordered=True)
-    sns.histplot(df, ax=axes[0], x="apps")
+    sns.histplot(df, ax=axes[0], x="apps", hue="model")
     axes[0].set_title(f"JobSpec Applications (N={df.shape[0]})", fontsize=12)
     axes[0].set_xlabel("Application", fontsize=12)
     axes[0].tick_params(axis="x", rotation=90)

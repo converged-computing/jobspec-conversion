@@ -1,0 +1,17 @@
+{
+  "job_manager": "slurm",
+  "application": "C programs (compiled from cNoThread.c, cPThread.c, cOpenMP.c) or Python scripts (pythonNoThreads.py, pythonWithThreads.py)",
+  "resources": {
+    "nodes": "Variable, specified by user",
+    "cores": "Variable, calculated from num_threads (num_threads + 1/2)",
+    "memory": "Not explicitly specified",
+    "gpus": "Not requested",
+    "walltime": "4 hours"
+  },
+  "software": [
+    "gcc",
+    "python",
+    "openmp (if cOpenMP is selected)"
+  ],
+  "complexity_score": 8
+}

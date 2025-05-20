@@ -1,0 +1,15 @@
+{
+  "job_manager": "slurm",
+  "application": "discoal",
+  "resources": {
+    "nodes": 1,
+    "cores": 1,
+    "memory": "120gb",
+    "walltime": "12:00:00"
+  },
+  "software": [
+    "discoal (path specified)",
+    "diploSHIC (working directory)"
+  ],
+  "complexity_score": 6
+}

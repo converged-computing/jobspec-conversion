@@ -1,0 +1,16 @@
+{
+  "job_manager": "pbs",
+  "application": "snakemake",
+  "resources": {
+    "nodes": "implied (based on ncpus)",
+    "cores/cpus": "28",
+    "memory": "800G",
+    "walltime": "24:00:00",
+    "storage": "gdata1",
+    "working_directory": "wd"
+  },
+  "software": [
+    "raijin/modules.sh (likely loads environment for snakemake and dependencies)"
+  ],
+  "complexity_score": 6
+}

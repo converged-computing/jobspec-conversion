@@ -1,0 +1,12 @@
+{
+  "job_manager": "slurm",
+  "application": "fvecSim (via command list)",
+  "resources": {
+    "nodes": 1,
+    "cores": 1,
+    "memory": "60gb",
+    "walltime": "3:00:00"
+  },
+  "software": [],
+  "complexity_score": 6
+}

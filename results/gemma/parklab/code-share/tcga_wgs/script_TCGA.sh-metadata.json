@@ -1,0 +1,20 @@
+{
+  "job_manager": "slurm",
+  "application": "/home/dg204/projects/somagenome/src/script_purple2_args.sh",
+  "resources": {
+    "nodes": "unknown (implicitly 1)",
+    "cores": 8,
+    "memory": "64GB",
+    "gpus": "none",
+    "walltime": "1 day"
+  },
+  "software": [
+    "gdc-client",
+    "sentieon",
+    "samtools",
+    "python 3.8.12/3.10.11",
+    "conda",
+    "cgap-somatic-utils"
+  ],
+  "complexity_score": 8
+}

@@ -1,0 +1,15 @@
+{
+  "job_manager": "lsf",
+  "application": "/extra/vikasy/4chars_Prefix_Suffix_Experiments/Spanish/main.py (via Singularity)",
+  "resources": {
+    "nodes": "1 (implied by -n 16 and span)",
+    "cores/cpus": "16",
+    "memory": "Not specified, defaults to queue limits",
+    "GPUs": "1 (requested with -R gpu)",
+    "walltime": "Not specified, defaults to queue limits"
+  },
+  "software": [
+    "singularity"
+  ],
+  "complexity_score": 4
+}

@@ -1,0 +1,16 @@
+{
+  "job_manager": "slurm",
+  "application": "eval ${CMD}",
+  "resources": {
+    "nodes": 1,
+    "cores": 1,
+    "memory": "230gb",
+    "walltime": "28:00:00",
+    "partitions": ["ram256g", "ram1t", "amd2tb", "amdlarge", "amdsmall", "small", "astyanax", "cavefish"]
+  },
+  "software": {
+    "conda": "diplo",
+    "environment_setup": "source /home/mcgaughs/rmoran/miniconda3/etc/profile.d/conda.sh; conda activate diplo"
+  },
+  "complexity_score": 7
+}

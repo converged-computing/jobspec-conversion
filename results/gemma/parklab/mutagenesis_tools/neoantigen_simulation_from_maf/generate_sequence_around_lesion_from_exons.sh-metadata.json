@@ -1,0 +1,17 @@
+{
+  "job_manager": "slurm",
+  "application": "bash script with bedtools, grep, awk, and python",
+  "resources": {
+    "nodes": 1,
+    "cores": "unspecified (likely 1)",
+    "memory": "12G",
+    "gpus": 0,
+    "walltime": "12:00"
+  },
+  "software": [
+    "bedtools/2.27.1",
+    "samtools/1.9",
+    "python/3.6.0"
+  ],
+  "complexity_score": 8
+}

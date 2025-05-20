@@ -1,0 +1,17 @@
+{
+  "job_manager": "PBS/Torque",
+  "application": "snakemake",
+  "resources": {
+    "nodes": "Not explicitly requested, inferred from ncpus",
+    "cores/cpus": "28",
+    "memory": "126G",
+    "walltime": "24:00:00",
+    "jobfs": "100G",
+    "other": "gdata1, wd"
+  },
+  "software": [
+    "raijin/modules.sh (contents unknown, but likely loads environment)",
+    "snakemake"
+  ],
+  "complexity_score": 7
+}

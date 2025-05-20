@@ -1,0 +1,16 @@
+{
+  "job_manager": "slurm",
+  "application": "python train_pfl.py",
+  "resources": {
+    "nodes": 1,
+    "cores": 10,
+    "memory": "40G",
+    "gpus": 1,
+    "walltime": "3:30:00"
+  },
+  "software": [
+    "~/.bashrc",
+    "pyt19 (conda environment)"
+  ],
+  "complexity_score": 7
+}

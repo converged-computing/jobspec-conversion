@@ -1,0 +1,16 @@
+{
+  "job_manager": "PBS",
+  "application": "samtools depth (via parallel and a bash function)",
+  "resources": {
+    "nodes": 1,
+    "cores": 12,
+    "memory": "22gb",
+    "walltime": "24:00:00",
+    "queue": "mesabi"
+  },
+  "software": [
+    "parallel/20160822",
+    "samtools/1.7"
+  ],
+  "complexity_score": 6
+}

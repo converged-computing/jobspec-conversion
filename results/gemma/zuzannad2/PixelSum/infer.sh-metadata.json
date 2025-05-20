@@ -1,0 +1,21 @@
+{
+  "job_manager": "slurm",
+  "application": "python3 -m scripts.training.run_inference",
+  "resources": {
+    "nodes": 1,
+    "cores": 48,
+    "memory": "70000M",
+    "gpus": 1,
+    "gpu_type": "a100",
+    "walltime": "3:00:00"
+  },
+  "software": {
+    "environment_variables": [
+      "ENCODER=\"Team-PIXEL/pixel-base\"",
+      "DECODER=\"gpt2\"",
+      "DATASET=\"xsum\"",
+      "EXPERIMENT_DIR=\"experiments/inference/$DECODER/`date +%Y-%m-%d_%H-%M-%S`\""
+    ]
+  },
+  "complexity_score": 6
+}

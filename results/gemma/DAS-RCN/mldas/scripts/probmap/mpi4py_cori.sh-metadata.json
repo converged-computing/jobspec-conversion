@@ -1,0 +1,16 @@
+{
+  "job_manager": "slurm",
+  "application": "python $HOME/mldas/mldas/assess.py",
+  "resources": {
+    "nodes": 3,
+    "cores": 96,
+    "memory": "unknown",
+    "gpus": 0,
+    "walltime": "05:00:00",
+    "architecture": "haswell"
+  },
+  "software": [
+    "pytorch/v1.6.0"
+  ],
+  "complexity_score": 4
+}

@@ -1,0 +1,16 @@
+{
+  "job_manager": "slurm",
+  "application": "gridss",
+  "resources": {
+    "nodes": "unknown (implied by cores)",
+    "cores": 8,
+    "memory": "48GB",
+    "gpus": 0,
+    "walltime": "5:00:00"
+  },
+  "software": [
+    "gridss-2.13.2.jar",
+    "singularity"
+  ],
+  "complexity_score": 7
+}

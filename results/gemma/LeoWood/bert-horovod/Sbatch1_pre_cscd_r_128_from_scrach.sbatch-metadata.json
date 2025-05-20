@@ -1,0 +1,18 @@
+{
+  "job_manager": "slurm",
+  "application": "python run_pretraining_hvd.py",
+  "resources": {
+    "nodes": 4,
+    "cores": 16,
+    "gpus": 4,
+    "walltime": "unknown"
+  },
+  "software": [
+    "MIOPEN_USER_DB_PATH",
+    "MIOPEN_DEBUG_DISABLE_FIND_DB",
+    "HOROVOD_HIERARCHICAL_ALLREDUCE",
+    "ucx",
+    "LD_LIBRARY_PATH"
+  ],
+  "complexity_score": 7
+}

@@ -1,0 +1,16 @@
+{
+  "job_manager": "slurm",
+  "application": "eval ${CMD}",
+  "resources": {
+    "nodes": 1,
+    "cores": 1,
+    "memory": "62gb",
+    "walltime": "2:00:00",
+    "partition": "small,amdsmall"
+  },
+  "software": [
+    "conda",
+    "diplo environment"
+  ],
+  "complexity_score": 7
+}

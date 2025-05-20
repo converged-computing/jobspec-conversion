@@ -1,0 +1,17 @@
+{
+  "job_manager": "slurm",
+  "application": "deepspeed finetune.py",
+  "resources": {
+    "nodes": 2,
+    "cores": 96,
+    "memory": "unknown",
+    "gpus": "unknown",
+    "walltime": "unknown"
+  },
+  "software": [
+    "openmpi",
+    "cuda/11.7",
+    "python (venv activated)"
+  ],
+  "complexity_score": 7
+}

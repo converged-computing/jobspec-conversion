@@ -2218,5 +2218,676 @@
             "complexity_score": 6
         },
         "cyclomatic_complexity": 7
+    },
+    {
+        "correct": 5,
+        "wrong_args": 0,
+        "total_args": 5,
+        "filename": "/data/results/UoM-ResPlat-DevOps/SpartanAdvanced/Resources/NAMD/Examples/pbs_script_sequential-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "namd2 (via mpiexec)",
+            "resources": {
+                "nodes": 8,
+                "walltime": "24:0:0",
+                "account": "pMelbxxxxxx"
+            },
+            "software": [
+                "module load namd/2.7b2-openmpi-gcc",
+                "CONV_RSH=ssh (Note: original script had 'set CONV_RSH = ssh', which is csh syntax; corrected to bash)"
+            ],
+            "complexity_score": 5
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 5,
+        "wrong_args": 1,
+        "total_args": 6,
+        "filename": "/data/results/UoM-ResPlat-DevOps/SpartanAdvanced/Resources/NAMD/Examples/pbs_script_sequential_check-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "namd2",
+            "resources": {
+                "nodes": 2,
+                "account": "VR0021",
+                "walltime": "00:15:00",
+                "queue": "sque",
+                "cores_per_node": "unspecified (typically all available)",
+                "memory": "unspecified"
+            },
+            "software": [
+                "module load namd-intel/2.7b3"
+            ],
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 15
+    },
+    {
+        "correct": 5,
+        "wrong_args": 1,
+        "total_args": 6,
+        "filename": "/data/results/UoM-ResPlat-DevOps/SpartanAdvanced/Resources/NAMD/Examples/sbatch_script_sequential-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "/usr/local/namd/2.7-xl-dcmf/bin/namd2",
+            "resources": {
+                "nodes": 64,
+                "walltime": "96:00:00",
+                "account": "VR0030",
+                "tasks_implicit": 256,
+                "tasks_per_node_implicit": 4
+            },
+            "software": {
+                "modules_loaded": [],
+                "environment_setup": [
+                    "jobname variable set for file naming",
+                    "date variables set for file naming",
+                    "qstat -f $SLURM_JOBID (Slurm job information logging)",
+                    "Hardcoded path to NAMD: /usr/local/namd/2.7-xl-dcmf/bin/namd2",
+                    "mpirun with specific options (-mode VN, -exe, -args) suggesting a specialized MPI environment (e.g., Blue Gene)",
+                    "sbatch sbatch_aspirin_continue (submission of a subsequent Slurm job for workflow continuation)"
+                ]
+            },
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 0,
+        "wrong_args": 0,
+        "total_args": 0,
+        "filename": "/data/results/GauriPhatak/Sunbelt23/Code/bashScripts/simulation.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "Rscript ../NWSimulation.R",
+            "resources": {
+                "job_name": "helloWorld",
+                "output_file": "helloWorld.out",
+                "error_file": "helloWorld.err",
+                "nodes": "Implicitly 1 (Slurm default for underspecified job)",
+                "cores_per_task": "Implicitly 1 (Slurm default for underspecified job)",
+                "tasks": "Implicitly 1 (Slurm default for underspecified job)",
+                "memory": "Default for partition/queue",
+                "gpus": "None requested",
+                "walltime": "Default for partition/queue"
+            },
+            "software": [
+                "module load gcc/12.2",
+                "module load R/4.2.2"
+            ],
+            "complexity_score": 2
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 0,
+        "wrong_args": 0,
+        "total_args": 0,
+        "filename": "/data/results/rpartsey/pointgoal-navigation/odometry/experiments/run_experiment_rn50_8n_sim2real.sh-flux-batch.sh",
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 5,
+        "wrong_args": 4,
+        "total_args": 9,
+        "filename": "/data/results/rpartsey/pointgoal-navigation/odometry/experiments/run_experiment_rn50_8n.sh-flux-batch.sh",
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 5,
+        "wrong_args": 4,
+        "total_args": 9,
+        "deletions": [
+            {
+                "line": "# FLUX: --job-option=comment=\"CVPR 2021\" # Flux way to add a comment, if supported as a generic option",
+                "reason": "sentinel changed"
+            }
+        ],
+        "filename": "/data/results/rpartsey/pointgoal-navigation/navigation/experiments/run_experiment.sh-flux-batch.sh",
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 0,
+        "wrong_args": 0,
+        "total_args": 0,
+        "filename": "/data/results/rpartsey/pointgoal-navigation/navigation/experiments/run_experiment_eval.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python run_ddppo.py",
+            "resources": {
+                "nodes": 1,
+                "cpus_per_task": 10,
+                "ntasks_per_node": 1,
+                "total_tasks": 1,
+                "memory_per_node": "450GB",
+                "gpus_per_job": 1,
+                "gpu_type": "volta32gb",
+                "walltime": "72:00:00",
+                "partition": "devlab",
+                "signal": "USR1@600",
+                "mail_user": "maksymets@gmail.com",
+                "mail_type": "ALL"
+            },
+            "software": {
+                "modules": [
+                    "cuda/10.1",
+                    "cudnn/v7.6.5.32-cuda.10.1",
+                    "anaconda3/5.0.1",
+                    "gcc/7.1.0",
+                    "cmake/3.10.1/gcc.5.4.0"
+                ],
+                "conda_env": "challenge_2021",
+                "environment_variables": [
+                    "MASTER_ADDR (dynamically set using srun hostname)",
+                    "GLOG_minloglevel=2",
+                    "MAGNUM_LOG=quiet",
+                    "CUDA_HOME=/public/apps/cuda/10.1",
+                    "CUDA_NVCC_EXECUTABLE=/public/apps/cuda/10.1/bin/nvcc",
+                    "CUDNN_INCLUDE_PATH=/public/apps/cuda/10.1/include/",
+                    "CUDNN_LIBRARY_PATH=/public/apps/cuda/10.1/lib64/",
+                    "LIBRARY_PATH=/public/apps/cuda/10.1/lib64",
+                    "CMAKE_PREFIX_PATH=${CONDA_PREFIX:-...}",
+                    "USE_CUDA=1",
+                    "USE_CUDNN=1",
+                    "USE_MKLDNN=1",
+                    "CMD_OPTS_FILE (expected from submission environment)"
+                ],
+                "sources": [
+                    "~/.bash_profile",
+                    "~/.profile",
+                    "/etc/bash.bashrc",
+                    "/etc/profile"
+                ]
+            },
+            "complexity_score": 8
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 6,
+        "wrong_args": 1,
+        "total_args": 7,
+        "deletions": [
+            {
+                "line": "# FLUX: Account/Project: CSC322 (In Flux, this is typically set via `flux submit --flags=account=CSC322` or queue configuration)",
+                "reason": "sentinel changed"
+            }
+        ],
+        "filename": "/data/results/jdoerfert/hpctoolkit-gpu-samples/Laghos/scripts/summit-cuda-hpcrun.lsf-flux-batch.sh",
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 1,
+        "total_args": 6,
+        "filename": "/data/results/jdoerfert/hpctoolkit-gpu-samples/Laghos/scripts/summit-raja-hpcrun.lsf-flux-batch.sh",
+        "metadata": {
+            "job_manager": "lsf",
+            "application": "./laghos",
+            "resources": {
+                "project_account": "CSC322",
+                "job_name": "laghos",
+                "output_file": "laghos.log%J",
+                "walltime": "1:00",
+                "nodes": 1,
+                "total_tasks": 1,
+                "total_gpus": 1
+            },
+            "software": [
+                "hpcrun -e nvidia-cuda (profiler for CUDA application)",
+                "jsrun (IBM job step manager, implies IBM HPC environment)",
+                "Implicit: CUDA toolkit (due to '-cuda' flag for laghos and 'nvidia-cuda' for hpcrun)"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 6,
+        "wrong_args": 2,
+        "total_args": 8,
+        "filename": "/data/results/hhau/melding-multiple-phi/aam71_slurm_submit.txt-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "make",
+            "resources": {
+                "nodes": 1,
+                "cores_per_task": 30,
+                "tasks": 1,
+                "cpus_total": 30,
+                "memory_per_task": "5980M (default for skylake partition for a single task, as per script comments; explicit --mem not set in original)",
+                "gpus": 0,
+                "walltime": "34:00:00",
+                "partition": "skylake",
+                "account": "mrc-bsu-sl2-cpu"
+            },
+            "software": [
+                ". /etc/profile.d/modules.sh",
+                "module purge",
+                "module load rhel7/default-peta4",
+                "module load r-3.6.0-gcc-5.4.0-bzuuksv",
+                "module load jags-4.3.0-gcc-5.4.0-4z5shby"
+            ],
+            "complexity_score": 5
+        },
+        "cyclomatic_complexity": 3
+    },
+    {
+        "correct": 7,
+        "wrong_args": 2,
+        "total_args": 9,
+        "filename": "/data/results/UKPLab/tacl2020-interactive-ranking/scripts/SLURM/run_inter_cqa_bert.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python -u stage1_coala.py GPPLHH 0 cqa_bert_imp_gpplhh_4 \"[imp]\" . 4 4 BERT",
+            "resources": {
+                "nodes": 1,
+                "tasks": 1,
+                "cpus_per_task": 24,
+                "memory_per_job": "128G",
+                "walltime": "72:00:00",
+                "exclusive_node_access": true
+            },
+            "software": [
+                "module load lang/python/anaconda/pytorch",
+                "export OMP_NUM_THREADS=24"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 5,
+        "wrong_args": 3,
+        "total_args": 8,
+        "filename": "/data/results/UKPLab/tacl2020-interactive-ranking/scripts/PBSPro/run_inter_sum_supert_2001_75.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "python stage1_active_pref_learning.py",
+            "resources": {
+                "nodes": 1,
+                "cores_per_node": 24,
+                "memory_per_node": "128GB",
+                "walltime": "72:00:00",
+                "ompthreads_hint": 24
+            },
+            "software": {
+                "modules": [
+                    "lang/python/anaconda/pytorch"
+                ],
+                "environment_setup": [
+                    "cd /work/es1595/text_ranking_bayesian_optimisation"
+                ]
+            },
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 4,
+        "wrong_args": 5,
+        "total_args": 9,
+        "filename": "/data/results/UKPLab/tacl2020-interactive-ranking/scripts/PBSPro/run_supert.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "python -u obtain_supert_scores.py",
+            "resources": {
+                "nodes": 1,
+                "cpus_per_node": 8,
+                "gpus_per_node": 4,
+                "memory_per_node": "24GB",
+                "walltime": "72:00:00"
+            },
+            "software": [
+                "module load lang/python/anaconda/pytorch lang/cuda",
+                "cd /work/es1595/text_ranking_bayesian_optimisation"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 7,
+        "wrong_args": 1,
+        "total_args": 8,
+        "filename": "/data/results/UKPLab/tacl2020-interactive-ranking/scripts/PBSPro/run_inter_sum_supert_2004.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "python stage1_active_pref_learning.py",
+            "resources": {
+                "nodes": 1,
+                "cores_per_node": 24,
+                "memory_per_node": "128GB",
+                "gpus_per_node": 0,
+                "walltime": "72:00:00"
+            },
+            "software": {
+                "modules_loaded": [
+                    "lang/python/anaconda/pytorch"
+                ],
+                "environment_setup": [
+                    "cd /work/es1595/text_ranking_bayesian_optimisation"
+                ]
+            },
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 4,
+        "wrong_args": 5,
+        "total_args": 9,
+        "filename": "/data/results/UKPLab/tacl2020-interactive-ranking/scripts/PBSPro/run_bert_cqa.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "pbs",
+            "application": "python -u BERT_cQA.py travel",
+            "resources": {
+                "nodes": 1,
+                "cores_per_node": 8,
+                "gpus_per_node": 4,
+                "memory_per_node": "32GB",
+                "walltime": "72:00:00"
+            },
+            "software": [
+                "module load lang/python/anaconda/pytorch lang/cuda",
+                "cd /work/es1595/text_ranking_bayesian_optimisation"
+            ],
+            "complexity_score": 4
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 3,
+        "wrong_args": 0,
+        "total_args": 3,
+        "deletions": [
+            {
+                "line": "#flux: version=1",
+                "reason": "unknown directive"
+            },
+            {
+                "line": "#flux: job-name=Act_tanh_1",
+                "reason": "unknown directive"
+            },
+            {
+                "line": "#flux: output=/work/scratch/se55gyhe/log/output.out.%j",
+                "reason": "unknown directive"
+            },
+            {
+                "line": "#flux: error=/work/scratch/se55gyhe/log/output.err.%j",
+                "reason": "unknown directive"
+            }
+        ],
+        "filename": "/data/results/UKPLab/naacl2019-like-humans-visual-attacks/code/G2P/allvsall_odd/3_0.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py",
+            "resources": {
+                "job_name": "Act_tanh_1",
+                "cores": 1,
+                "memory_per_cpu": "6000MB",
+                "walltime": "23:59:00",
+                "output_file": "/work/scratch/se55gyhe/log/output.out.%j",
+                "error_file": "/work/scratch/se55gyhe/log/output.err.%j",
+                "mail_user": "eger@ukp.informatik.tu-darmstadt.de",
+                "mail_type": "FAIL"
+            },
+            "software": {
+                "modules_loaded": [],
+                "environment_setup": [
+                    "Uses python3 directly, assumes it's in PATH."
+                ],
+                "commented_modules": [
+                    "module load intel python/3.5"
+                ]
+            },
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 6,
+        "wrong_args": 1,
+        "total_args": 7,
+        "filename": "/data/results/UKPLab/naacl2019-like-humans-visual-attacks/code/G2P/allvsall_odd/0_5.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py tanh 50 Adamax 1 0.32873413360732373 0.002314007172161447 orth 1.0 efile.norm.0_5 odd_G2P_0_5/",
+            "resources": {
+                "job_name": "Act_tanh_1",
+                "num_tasks": 1,
+                "cpus_per_task": 1,
+                "memory_per_cpu": "6000MB",
+                "total_memory": "6000MB",
+                "walltime": "23:59:00",
+                "stdout_file": "/work/scratch/se55gyhe/log/output.out.%j",
+                "stderr_file": "/work/scratch/se55gyhe/log/output.err.%j",
+                "mail_user": "eger@ukp.informatik.tu-darmstadt.de",
+                "mail_type": "FAIL"
+            },
+            "software": [
+                "commented out: module load intel python/3.5"
+            ],
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 6,
+        "wrong_args": 2,
+        "total_args": 8,
+        "filename": "/data/results/UKPLab/naacl2019-like-humans-visual-attacks/code/G2P/allvsall_odd/4_4.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py tanh 50 Adamax 1 0.32873413360732373 0.002314007172161447 orth 1.0 efile.norm.4_4 odd_G2P_4_4/",
+            "resources": {
+                "job_name": "Act_tanh_1",
+                "tasks": 1,
+                "cpus_per_task": 1,
+                "memory_per_cpu": "6000MB",
+                "total_job_memory": "6000MB",
+                "walltime": "23:59:00",
+                "output_file": "/work/scratch/se55gyhe/log/output.out.%j",
+                "error_file": "/work/scratch/se55gyhe/log/output.err.%j",
+                "mail_user": "eger@ukp.informatik.tu-darmstadt.de",
+                "mail_type": "FAIL"
+            },
+            "software": {
+                "modules_loaded": [],
+                "modules_commented_out": [
+                    "module load intel python/3.5"
+                ],
+                "environment_setup_commands": []
+            },
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 5,
+        "wrong_args": 1,
+        "total_args": 6,
+        "filename": "/data/results/UKPLab/naacl2019-like-humans-visual-attacks/code/G2P/allvsall_odd/7_4.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py",
+            "resources": {
+                "job_name": "Act_tanh_1",
+                "cores": 1,
+                "memory_per_core_mb": 6000,
+                "walltime_hhmmss": "23:59:00",
+                "stdout_path": "/work/scratch/se55gyhe/log/output.out.%j",
+                "stderr_path": "/work/scratch/se55gyhe/log/output.err.%j",
+                "mail_user": "eger@ukp.informatik.tu-darmstadt.de",
+                "mail_type": "FAIL"
+            },
+            "software": {
+                "modules_loaded": [],
+                "commented_module_lines": [
+                    "module load intel python/3.5"
+                ],
+                "notes": "The script directly executes 'python3', assuming it is available in the environment PATH."
+            },
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 6,
+        "wrong_args": 3,
+        "total_args": 9,
+        "filename": "/data/results/UKPLab/naacl2019-like-humans-visual-attacks/code/G2P/allvsall_odd/6_0.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py",
+            "resources": {
+                "job_name": "Act_tanh_1",
+                "cores": 1,
+                "memory_per_cpu": "6000MB",
+                "walltime": "23:59:00",
+                "nodes": 1,
+                "gpus": 0
+            },
+            "software": {
+                "modules_intended": [
+                    "intel",
+                    "python/3.5"
+                ],
+                "execution_environment": "python3 assumed in PATH"
+            },
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 6,
+        "wrong_args": 2,
+        "total_args": 8,
+        "filename": "/data/results/UKPLab/naacl2019-like-humans-visual-attacks/code/G2P/allvsall_odd/2_1.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py tanh 50 Adamax 1 0.32873413360732373 0.002314007172161447 orth 1.0 efile.norm.2_1 odd_G2P_2_1/",
+            "resources": {
+                "job_name": "Act_tanh_1",
+                "num_tasks": 1,
+                "memory_per_cpu": "6000MB",
+                "walltime": "23:59:00",
+                "output_file": "/work/scratch/se55gyhe/log/output.out.%j",
+                "error_file": "/work/scratch/se55gyhe/log/output.err.%j",
+                "mail_user": "eger@ukp.informatik.tu-darmstadt.de",
+                "mail_type": "FAIL"
+            },
+            "software": [
+                "python3 (invoked directly)",
+                "#module load intel python/3.5 (commented out)"
+            ],
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 4,
+        "wrong_args": 3,
+        "total_args": 7,
+        "filename": "/data/results/UKPLab/naacl2019-like-humans-visual-attacks/code/G2P/allvsall_odd/7_0.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py",
+            "resources": {
+                "job_name": "Act_tanh_1",
+                "tasks": 1,
+                "cores_per_task": 1,
+                "memory_per_cpu": "6000MB",
+                "total_memory": "6000MB",
+                "walltime": "23:59:00",
+                "stdout_file": "/work/scratch/se55gyhe/log/output.out.%j",
+                "stderr_file": "/work/scratch/se55gyhe/log/output.err.%j"
+            },
+            "software": {
+                "modules_loaded": [],
+                "environment_setup": "Relies on python3 being in PATH. A 'module load intel python/3.5' command is commented out."
+            },
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 0,
+        "wrong_args": 0,
+        "total_args": 0,
+        "filename": "/data/results/UKPLab/naacl2019-like-humans-visual-attacks/code/G2P/allvsall_odd/9_0.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py tanh 50 Adamax 1 0.32873413360732373 0.002314007172161447 orth 1.0 efile.norm.9_0 odd_G2P_9_0/",
+            "resources": {
+                "job_name": "Act_tanh_1",
+                "cores": 1,
+                "memory_per_cpu": "6000MB",
+                "walltime": "23:59:00",
+                "stdout_file": "/work/scratch/se55gyhe/log/output.out.%j",
+                "stderr_file": "/work/scratch/se55gyhe/log/output.err.%j",
+                "mail_user": "eger@ukp.informatik.tu-darmstadt.de",
+                "mail_type": "FAIL"
+            },
+            "software": {
+                "modules_loaded": [],
+                "environment_setup_commands": []
+            },
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 0
+    },
+    {
+        "correct": 5,
+        "wrong_args": 0,
+        "total_args": 5,
+        "filename": "/data/results/UKPLab/naacl2019-like-humans-visual-attacks/code/G2P/allvsall_odd/3_5.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py",
+            "resources": {
+                "job_name": "Act_tanh_1",
+                "cores_requested": 1,
+                "memory_per_cpu": "6000MB",
+                "walltime": "23:59:00",
+                "stdout_path_template": "/work/scratch/se55gyhe/log/output.out.%j",
+                "stderr_path_template": "/work/scratch/se55gyhe/log/output.err.%j",
+                "mail_user": "eger@ukp.informatik.tu-darmstadt.de",
+                "mail_type": "FAIL"
+            },
+            "software": {
+                "application_executable": "python3",
+                "modules_commented_out": [
+                    "intel",
+                    "python/3.5"
+                ]
+            },
+            "complexity_score": 3
+        },
+        "cyclomatic_complexity": 1
+    },
+    {
+        "correct": 8,
+        "wrong_args": 0,
+        "total_args": 8,
+        "filename": "/data/results/UKPLab/naacl2019-like-humans-visual-attacks/code/G2P/allvsall_odd/1_8.sh-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py",
+            "resources": {
+                "job_name": "Act_tanh_1",
+                "tasks": 1,
+                "cpus_per_task": 1,
+                "memory_per_cpu_mb": 6000,
+                "walltime_hhmmss": "23:59:00"
+            },
+            "software": {
+                "modules_loaded": [],
+                "environment_setup_commands": []
+            },
+            "complexity_score": 2
+        },
+        "cyclomatic_complexity": 0
     }
 ]

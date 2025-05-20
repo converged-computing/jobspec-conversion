@@ -1,0 +1,23 @@
+{
+  "job_manager": "slurm",
+  "application": "make",
+  "resources": {
+    "nodes": 1,
+    "cores_per_task": 30,
+    "tasks": 1,
+    "cpus_total": 30,
+    "memory_per_task": "5980M (default for skylake partition for a single task, as per script comments; explicit --mem not set in original)",
+    "gpus": 0,
+    "walltime": "34:00:00",
+    "partition": "skylake",
+    "account": "mrc-bsu-sl2-cpu"
+  },
+  "software": [
+    ". /etc/profile.d/modules.sh",
+    "module purge",
+    "module load rhel7/default-peta4",
+    "module load r-3.6.0-gcc-5.4.0-bzuuksv",
+    "module load jags-4.3.0-gcc-5.4.0-4z5shby"
+  ],
+  "complexity_score": 5
+}

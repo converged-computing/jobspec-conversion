@@ -1,0 +1,20 @@
+{
+  "job_manager": "pbs",
+  "application": "python stage1_active_pref_learning.py",
+  "resources": {
+    "nodes": 1,
+    "cores_per_node": 24,
+    "memory_per_node": "128GB",
+    "walltime": "72:00:00",
+    "ompthreads_hint": 24
+  },
+  "software": {
+    "modules": [
+      "lang/python/anaconda/pytorch"
+    ],
+    "environment_setup": [
+      "cd /work/es1595/text_ranking_bayesian_optimisation"
+    ]
+  },
+  "complexity_score": 4
+}

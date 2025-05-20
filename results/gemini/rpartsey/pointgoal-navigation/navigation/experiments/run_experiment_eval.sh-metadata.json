@@ -1,0 +1,50 @@
+{
+  "job_manager": "slurm",
+  "application": "python run_ddppo.py",
+  "resources": {
+    "nodes": 1,
+    "cpus_per_task": 10,
+    "ntasks_per_node": 1,
+    "total_tasks": 1,
+    "memory_per_node": "450GB",
+    "gpus_per_job": 1,
+    "gpu_type": "volta32gb",
+    "walltime": "72:00:00",
+    "partition": "devlab",
+    "signal": "USR1@600",
+    "mail_user": "maksymets@gmail.com",
+    "mail_type": "ALL"
+  },
+  "software": {
+    "modules": [
+      "cuda/10.1",
+      "cudnn/v7.6.5.32-cuda.10.1",
+      "anaconda3/5.0.1",
+      "gcc/7.1.0",
+      "cmake/3.10.1/gcc.5.4.0"
+    ],
+    "conda_env": "challenge_2021",
+    "environment_variables": [
+      "MASTER_ADDR (dynamically set using srun hostname)",
+      "GLOG_minloglevel=2",
+      "MAGNUM_LOG=quiet",
+      "CUDA_HOME=/public/apps/cuda/10.1",
+      "CUDA_NVCC_EXECUTABLE=/public/apps/cuda/10.1/bin/nvcc",
+      "CUDNN_INCLUDE_PATH=/public/apps/cuda/10.1/include/",
+      "CUDNN_LIBRARY_PATH=/public/apps/cuda/10.1/lib64/",
+      "LIBRARY_PATH=/public/apps/cuda/10.1/lib64",
+      "CMAKE_PREFIX_PATH=${CONDA_PREFIX:-...}",
+      "USE_CUDA=1",
+      "USE_CUDNN=1",
+      "USE_MKLDNN=1",
+      "CMD_OPTS_FILE (expected from submission environment)"
+    ],
+    "sources": [
+      "~/.bash_profile",
+      "~/.profile",
+      "/etc/bash.bashrc",
+      "/etc/profile"
+    ]
+  },
+  "complexity_score": 8
+}

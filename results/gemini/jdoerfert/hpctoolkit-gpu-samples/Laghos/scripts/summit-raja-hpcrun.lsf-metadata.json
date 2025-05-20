@@ -1,0 +1,19 @@
+{
+  "job_manager": "lsf",
+  "application": "./laghos",
+  "resources": {
+    "project_account": "CSC322",
+    "job_name": "laghos",
+    "output_file": "laghos.log%J",
+    "walltime": "1:00",
+    "nodes": 1,
+    "total_tasks": 1,
+    "total_gpus": 1
+  },
+  "software": [
+    "hpcrun -e nvidia-cuda (profiler for CUDA application)",
+    "jsrun (IBM job step manager, implies IBM HPC environment)",
+    "Implicit: CUDA toolkit (due to '-cuda' flag for laghos and 'nvidia-cuda' for hpcrun)"
+  ],
+  "complexity_score": 4
+}

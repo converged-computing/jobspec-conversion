@@ -1,0 +1,16 @@
+{
+  "job_manager": "pbs",
+  "application": "namd2",
+  "resources": {
+    "nodes": 2,
+    "account": "VR0021",
+    "walltime": "00:15:00",
+    "queue": "sque",
+    "cores_per_node": "unspecified (typically all available)",
+    "memory": "unspecified"
+  },
+  "software": [
+    "module load namd-intel/2.7b3"
+  ],
+  "complexity_score": 6
+}

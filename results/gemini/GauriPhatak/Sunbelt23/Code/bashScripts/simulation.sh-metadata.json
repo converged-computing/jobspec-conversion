@@ -1,0 +1,20 @@
+{
+  "job_manager": "slurm",
+  "application": "Rscript ../NWSimulation.R",
+  "resources": {
+    "job_name": "helloWorld",
+    "output_file": "helloWorld.out",
+    "error_file": "helloWorld.err",
+    "nodes": "Implicitly 1 (Slurm default for underspecified job)",
+    "cores_per_task": "Implicitly 1 (Slurm default for underspecified job)",
+    "tasks": "Implicitly 1 (Slurm default for underspecified job)",
+    "memory": "Default for partition/queue",
+    "gpus": "None requested",
+    "walltime": "Default for partition/queue"
+  },
+  "software": [
+    "module load gcc/12.2",
+    "module load R/4.2.2"
+  ],
+  "complexity_score": 2
+}

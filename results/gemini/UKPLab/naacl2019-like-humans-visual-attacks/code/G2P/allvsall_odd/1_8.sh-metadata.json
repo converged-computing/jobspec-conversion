@@ -1,0 +1,16 @@
+{
+  "job_manager": "slurm",
+  "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py",
+  "resources": {
+    "job_name": "Act_tanh_1",
+    "tasks": 1,
+    "cpus_per_task": 1,
+    "memory_per_cpu_mb": 6000,
+    "walltime_hhmmss": "23:59:00"
+  },
+  "software": {
+    "modules_loaded": [],
+    "environment_setup_commands": []
+  },
+  "complexity_score": 2
+}

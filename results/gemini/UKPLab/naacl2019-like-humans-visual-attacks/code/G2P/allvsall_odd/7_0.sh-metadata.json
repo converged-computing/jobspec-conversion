@@ -1,0 +1,19 @@
+{
+  "job_manager": "slurm",
+  "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py",
+  "resources": {
+    "job_name": "Act_tanh_1",
+    "tasks": 1,
+    "cores_per_task": 1,
+    "memory_per_cpu": "6000MB",
+    "total_memory": "6000MB",
+    "walltime": "23:59:00",
+    "stdout_file": "/work/scratch/se55gyhe/log/output.out.%j",
+    "stderr_file": "/work/scratch/se55gyhe/log/output.err.%j"
+  },
+  "software": {
+    "modules_loaded": [],
+    "environment_setup": "Relies on python3 being in PATH. A 'module load intel python/3.5' command is commented out."
+  },
+  "complexity_score": 3
+}

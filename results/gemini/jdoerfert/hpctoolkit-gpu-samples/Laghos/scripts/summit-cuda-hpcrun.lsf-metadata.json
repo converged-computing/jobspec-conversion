@@ -1,0 +1,16 @@
+{
+  "job_manager": "LSF",
+  "application": "./laghos (profiled by hpcrun)",
+  "resources": {
+    "nodes": 4,
+    "tasks": 1,
+    "gpus_per_task": 1,
+    "cores_per_task": 1,
+    "walltime": "1:00:00"
+  },
+  "software": [
+    "jsrun (IBM Job Step Runner)",
+    "hpcrun (HPCToolkit)",
+    "Environment variable: $MEMBERWORK"
+  ],
+  "complexity_score":

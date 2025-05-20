@@ -1,0 +1,16 @@
+{
+  "job_manager": "pbs",
+  "application": "python -u BERT_cQA.py travel",
+  "resources": {
+    "nodes": 1,
+    "cores_per_node": 8,
+    "gpus_per_node": 4,
+    "memory_per_node": "32GB",
+    "walltime": "72:00:00"
+  },
+  "software": [
+    "module load lang/python/anaconda/pytorch lang/cuda",
+    "cd /work/es1595/text_ranking_bayesian_optimisation"
+  ],
+  "complexity_score": 4
+}

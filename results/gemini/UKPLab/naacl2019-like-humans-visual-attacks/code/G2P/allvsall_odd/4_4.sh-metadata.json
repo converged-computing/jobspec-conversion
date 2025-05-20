@@ -1,0 +1,22 @@
+{
+  "job_manager": "slurm",
+  "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py tanh 50 Adamax 1 0.32873413360732373 0.002314007172161447 orth 1.0 efile.norm.4_4 odd_G2P_4_4/",
+  "resources": {
+    "job_name": "Act_tanh_1",
+    "tasks": 1,
+    "cpus_per_task": 1,
+    "memory_per_cpu": "6000MB",
+    "total_job_memory": "6000MB",
+    "walltime": "23:59:00",
+    "output_file": "/work/scratch/se55gyhe/log/output.out.%j",
+    "error_file": "/work/scratch/se55gyhe/log/output.err.%j",
+    "mail_user": "eger@ukp.informatik.tu-darmstadt.de",
+    "mail_type": "FAIL"
+  },
+  "software": {
+    "modules_loaded": [],
+    "modules_commented_out": ["module load intel python/3.5"],
+    "environment_setup_commands": []
+  },
+  "complexity_score": 3
+}

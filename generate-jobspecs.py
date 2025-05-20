@@ -20,7 +20,8 @@ if not GEMINI_API_KEY:
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Models
-print([x.name for x in list(genai.list_models())])
+model_names = [x.name for x in list(genai.list_models())]
+print(model_names)
 
 
 # Helper functions
@@ -67,13 +68,7 @@ safety_settings = [
     {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
 ]
 
-# Or "gemini-1.5-flash-latest" for potentially faster/cheaper with good quality
-MODEL_NAME = "models/gemini-2.5-pro-preview-05-06"
-model = genai.GenerativeModel(
-    model_name=MODEL_NAME,
-    generation_config=generation_config,
-    safety_settings=safety_settings,
-)
+global model
 
 
 def construct_prompt(content):
@@ -111,6 +106,7 @@ def process_batch_script(filename, script_content):
     """
     Sends a batch script to Gemini for analysis and conversion, then parses the response.
     """
+    global model
     prompt = construct_prompt(script_content)
     try:
         # It's good practice to handle potential API errors
@@ -179,6 +175,13 @@ def get_parser():
         type=int,
     )
     parser.add_argument(
+        "--model",
+        help="Model name",
+        default="models/gemini-2.5-pro-preview-05-06",
+        choices=model_names,
+    )
+
+    parser.add_argument(
         "--output",
         help="Output data directory",
         default=os.path.join(here, "results"),
@@ -216,6 +219,13 @@ def main():
 
     IPython.embed()
     sys.exit()
+
+    global model
+    model = genai.GenerativeModel(
+        model_name=args.model,
+        generation_config=generation_config,
+        safety_settings=safety_settings,
+    )
 
     count = 0
     total = args.limit

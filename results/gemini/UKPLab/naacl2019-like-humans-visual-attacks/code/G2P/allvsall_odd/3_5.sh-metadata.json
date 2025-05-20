@@ -1,0 +1,19 @@
+{
+  "job_manager": "slurm",
+  "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py",
+  "resources": {
+    "job_name": "Act_tanh_1",
+    "cores_requested": 1,
+    "memory_per_cpu": "6000MB",
+    "walltime": "23:59:00",
+    "stdout_path_template": "/work/scratch/se55gyhe/log/output.out.%j",
+    "stderr_path_template": "/work/scratch/se55gyhe/log/output.err.%j",
+    "mail_user": "eger@ukp.informatik.tu-darmstadt.de",
+    "mail_type": "FAIL"
+  },
+  "software": {
+    "application_executable": "python3",
+    "modules_commented_out": ["intel", "python/3.5"]
+  },
+  "complexity_score": 3
+}

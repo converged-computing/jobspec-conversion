@@ -1,0 +1,14 @@
+{
+  "job_manager": "pbs",
+  "application": "namd2 (via mpiexec)",
+  "resources": {
+    "nodes": 8,
+    "walltime": "24:0:0",
+    "account": "pMelbxxxxxx"
+  },
+  "software": [
+    "module load namd/2.7b2-openmpi-gcc",
+    "CONV_RSH=ssh (Note: original script had 'set CONV_RSH = ssh', which is csh syntax; corrected to bash)"
+  ],
+  "complexity_score": 5
+}

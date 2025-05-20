@@ -1,0 +1,17 @@
+{
+  "job_manager": "slurm",
+  "application": "python -u stage1_coala.py GPPLHH 0 cqa_bert_imp_gpplhh_4 \"[imp]\" . 4 4 BERT",
+  "resources": {
+    "nodes": 1,
+    "tasks": 1,
+    "cpus_per_task": 24,
+    "memory_per_job": "128G",
+    "walltime": "72:00:00",
+    "exclusive_node_access": true
+  },
+  "software": [
+    "module load lang/python/anaconda/pytorch",
+    "export OMP_NUM_THREADS=24"
+  ],
+  "complexity_score": 4
+}

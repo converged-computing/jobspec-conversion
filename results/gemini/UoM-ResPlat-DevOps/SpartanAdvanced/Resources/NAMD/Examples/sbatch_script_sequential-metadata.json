@@ -1,0 +1,23 @@
+{
+  "job_manager": "slurm",
+  "application": "/usr/local/namd/2.7-xl-dcmf/bin/namd2",
+  "resources": {
+    "nodes": 64,
+    "walltime": "96:00:00",
+    "account": "VR0030",
+    "tasks_implicit": 256,
+    "tasks_per_node_implicit": 4
+  },
+  "software": {
+    "modules_loaded": [],
+    "environment_setup": [
+      "jobname variable set for file naming",
+      "date variables set for file naming",
+      "qstat -f $SLURM_JOBID (Slurm job information logging)",
+      "Hardcoded path to NAMD: /usr/local/namd/2.7-xl-dcmf/bin/namd2",
+      "mpirun with specific options (-mode VN, -exe, -args) suggesting a specialized MPI environment (e.g., Blue Gene)",
+      "sbatch sbatch_aspirin_continue (submission of a subsequent Slurm job for workflow continuation)"
+    ]
+  },
+  "complexity_score": 6
+}

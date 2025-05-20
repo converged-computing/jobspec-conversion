@@ -1,0 +1,22 @@
+{
+  "job_manager": "slurm",
+  "application": "python3 /home/se55gyhe/Act_func/sequence_tagging/arg_min/G2P-my_LSTM-act1_save_new_odd.py",
+  "resources": {
+    "job_name": "Act_tanh_1",
+    "cores": 1,
+    "memory_per_core_mb": 6000,
+    "walltime_hhmmss": "23:59:00",
+    "stdout_path": "/work/scratch/se55gyhe/log/output.out.%j",
+    "stderr_path": "/work/scratch/se55gyhe/log/output.err.%j",
+    "mail_user": "eger@ukp.informatik.tu-darmstadt.de",
+    "mail_type": "FAIL"
+  },
+  "software": {
+    "modules_loaded": [],
+    "commented_module_lines": [
+      "module load intel python/3.5"
+    ],
+    "notes": "The script directly executes 'python3', assuming it is available in the environment PATH."
+  },
+  "complexity_score": 3
+}

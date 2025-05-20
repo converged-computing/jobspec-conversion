@@ -2193,5 +2193,30 @@
             "complexity_score": 4
         },
         "cyclomatic_complexity": 3
+    },
+    {
+        "correct": 4,
+        "wrong_args": 2,
+        "total_args": 6,
+        "filename": "/data/results/UoM-ResPlat-DevOps/SpartanAdvanced/Resources/NAMD/drugdock.slurm-flux-batch.sh",
+        "metadata": {
+            "job_manager": "slurm",
+            "application": "namd2",
+            "resources": {
+                "nodes": 2,
+                "tasks_per_node": 8,
+                "total_tasks": 16,
+                "walltime": "24:00:00"
+            },
+            "software": [
+                "module purge",
+                "module load spartan_2019",
+                "module load foss/2019b",
+                "module load namd/2.13-mpi",
+                "set CONV_RSH = ssh"
+            ],
+            "complexity_score": 6
+        },
+        "cyclomatic_complexity": 7
     }
 ]

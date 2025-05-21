@@ -16,15 +16,13 @@ transformers = ">=4.52.0,<5"
 mistral-common = ">=1.5.4,<2"
 protobuf = ">=5.29.3,<6"
 
+# Extras? Maybe?
+# I read this could speed things up, we might try it
+# accelerate = ">=0.29"
+# This is for newer tokens, I didn't see we needed it
+# tiktoken = "*"          
+
 [tasks]
 # Task to install PyTorch, torchvision, torchaudio for ROCm 6.2 using your specific pip command.
 # This should be run AFTER `pixi install` has set up the base Python environment and other dependencies.
 install-pytorch-rocm62 = "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.2"
-
-# --- Hugging Face & Mistral Libraries ---
-transformers = ">=4.40"
-accelerate = ">=0.29"
-sentencepiece = "*"     
-protobuf = "*"          
-tiktoken = "*"          
-mistral-common = ">=0.1.3"

@@ -1,0 +1,41 @@
+#!/bin/bash
+#FLUX: --job-name=TFTest
+#FLUX: -N=2
+#FLUX: -c=32
+#FLUX: --exclusive
+#FLUX: --queue=batch
+#FLUX: -t=900
+#FLUX: --priority=16
+
+export TF_USE_LEGACY_KERAS='1'
+export CUDA_VISIBLE_DEVICES='0,1,2,3'
+export OMP_NUM_THREADS='1'
+
+set -x
+unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY
+ml --force purge
+ml Stages/2024 GCC/12.3.0 OpenMPI CUDA/12 MPI-settings/CUDA Python HDF5 PnetCDF libaio mpi4py CMake cuDNN/8.9.5.29-CUDA-12
+source itwinai/envAItf_hdfml/bin/activate
+export TF_USE_LEGACY_KERAS=1
+sleep 1
+echo "DEBUG: TIME: $(date)"
+echo "DEBUG: EXECUTE: $EXEC"
+echo "DEBUG: SLURM_SUBMIT_DIR: $SLURM_SUBMIT_DIR"
+echo "DEBUG: SLURM_JOB_ID: $SLURM_JOB_ID"
+echo "DEBUG: SLURM_JOB_NODELIST: $SLURM_JOB_NODELIST"
+echo "DEBUG: SLURM_NNODES: $SLURM_NNODES"
+echo "DEBUG: SLURM_NTASKS: $SLURM_NTASKS"
+echo "DEBUG: SLURM_TASKS_PER_NODE: $SLURM_TASKS_PER_NODE"
+echo "DEBUG: SLURM_SUBMIT_HOST: $SLURM_SUBMIT_HOST"
+echo "DEBUG: SLURMD_NODENAME: $SLURMD_NODENAME"
+echo "DEBUG: CUDA_VISIBLE_DEVICES: $CUDA_VISIBLE_DEVICES"
+echo "DEBUG: SLURM_NODELIST: $SLURM_NODELIST"
+echo
+export CUDA_VISIBLE_DEVICES="0,1,2,3"
+export OMP_NUM_THREADS=1
+if [ "$SLURM_CPUS_PER_TASK" -gt 0 ] ; then
+  export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+fi
+COMMAND="train.py"
+EXEC="$COMMAND "
+srun python -u $EXEC

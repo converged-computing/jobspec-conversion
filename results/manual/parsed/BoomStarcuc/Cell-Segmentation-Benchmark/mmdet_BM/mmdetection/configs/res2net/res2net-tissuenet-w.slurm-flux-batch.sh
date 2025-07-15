@@ -1,0 +1,9 @@
+#!/bin/bash
+#FLUX: --job-name=sticky-bike-7558
+#FLUX: -t=432000
+#FLUX: --priority=16
+
+spack load cuda@11.0.2%gcc@9.3.0/lrd2rcw
+cd mmdetection
+nvidia-smi
+sh mmdetection/tools/dist_train.sh mmdetection/configs/res2net/cascade_mask_rcnn_r2_101_fpn_20e_coco_livecell.py 4 --work-dir /shared/rc/spl/mmdet_output/All_to_all/wholecell_oc/cascade_mask_rcnn_r2_101_fpn_20e_coco_tissuenet_w

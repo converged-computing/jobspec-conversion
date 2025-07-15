@@ -1,0 +1,17 @@
+#!/bin/bash
+#FLUX: --job-name=hello-cattywampus-6362
+#FLUX: -c=2
+#FLUX: --queue=savio2_gpu
+#FLUX: --priority=16
+
+export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
+
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+echo "Starting analysis on host ${HOSTNAME} with job ID ${SLURM_JOB_ID}..."
+echo "Loading modules..."
+module purge
+module load gcc/4.8.5 cmake python/3.6 tensorflow/1.12.0-py36-pip-gpu blas
+echo "Starting execution..."
+python3 -u run.py -o ${SLURM_JOB_ID} -f 1MeV_50MeV_flat.p1.inc18166611.id1.sim.gz
+echo "Waiting for all processes to end..."
+wait

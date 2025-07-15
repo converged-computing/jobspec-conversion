@@ -1,0 +1,53 @@
+#!/bin/bash
+#FLUX: --job-name=red-puppy-8577
+#FLUX: -n=32
+#FLUX: -t=1200
+#FLUX: --priority=16
+
+export OMP_NUM_THREADS='1'
+export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'
+export I_MPI_PIN_ORDER='scatter # Adjacent domains have minimal sharing of caches/sockets'
+
+numnodes=$SLURM_JOB_NUM_NODES
+numtasks=$SLURM_NTASKS
+mpi_tasks_per_node=$(echo "$SLURM_TASKS_PER_NODE" | sed -e  's/^\([0-9][0-9]*\).*$/\1/')
+. /etc/profile.d/modules.sh                # Leave this line (enables the module command)
+module purge                               # Removes all modules still loaded
+module load rhel7/default-peta4                   # REQUIRED - loads the basic environment
+application="/home/auser/software/ior/src"
+options=""
+workdir="$SLURM_SUBMIT_DIR"  # The value of SLURM_SUBMIT_DIR sets workdir to the directory
+                             # in which sbatch is run.
+export OMP_NUM_THREADS=1
+np=$[${numnodes}*${mpi_tasks_per_node}]
+export I_MPI_PIN_DOMAIN=omp:compact # Domains are $OMP_NUM_THREADS cores in size
+export I_MPI_PIN_ORDER=scatter # Adjacent domains have minimal sharing of caches/sockets
+CMD="mpirun -ppn $mpi_tasks_per_node -np $np $application $options"
+cd $workdir
+echo -e "Changed directory to `pwd`.\n"
+JOBID=$SLURM_JOB_ID
+echo -e "JobID: $JOBID\n======"
+echo "Time: `date`"
+echo "Running on master node: `hostname`"
+echo "Current directory: `pwd`"
+if [ "$SLURM_JOB_NODELIST" ]; then
+        #! Create a machine file:
+        export NODEFILE=`generate_pbs_nodefile`
+        cat $NODEFILE | uniq > machine.file.$JOBID
+        echo -e "\nNodes allocated:\n================"
+        echo `cat machine.file.$JOBID | sed -e 's/\..*$//g'`
+fi
+echo -e "\nnumtasks=$numtasks, numnodes=$numnodes, mpi_tasks_per_node=$mpi_tasks_per_node (OMP_NUM_THREADS=$OMP_NUM_THREADS)"
+echo -e "\nExecuting command:\n==================\n$CMD\n"
+mdtest="/home/auser/software/ior/src/mdtest"
+testdir="/home/auser/rds/hpc-work/benchmarks/ARCHER/mdtest/tmpdir"
+nfile=1048576
+cpn=32
+cores=$(( numnodes * cpn ))
+filespercore=$(( nfile / cores ))
+timestamp=$(date '+%Y%m%d%H%M')
+mpirun -ppn $mpi_tasks_per_node -np $np $mdtest -n ${filespercore} -F -C -T -r -N $cpn -d ${testdir} > mdtest_mp-mf-sd_${nfile}_${numnodes}nodes_${timestamp}.log
+mpirun -ppn $mpi_tasks_per_node -np $np $mdtest -n ${filespercore} -u -F -C -T -r -N $cpn -d ${testdir} > mdtest_mp-mf-md_${nfile}_${numnodes}nodes_${timestamp}.log
+rm -r $testdir
+mpirun -ppn $mpi_tasks_per_node -np $np $mdtest -n 1 -S -F -C -T -r -d ${testdir} > mdtest_mp-sf-sd_${nfile}_${numnodes}nodes_${timestamp}.log
+rm -r $testdir

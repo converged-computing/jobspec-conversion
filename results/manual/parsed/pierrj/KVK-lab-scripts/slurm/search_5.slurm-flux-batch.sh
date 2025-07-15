@@ -1,0 +1,14 @@
+#!/bin/bash
+#FLUX: --job-name=search_5
+#FLUX: -N=20
+#FLUX: -c=10
+#FLUX: --queue=savio
+#FLUX: -t=259200
+#FLUX: --priority=16
+
+module purge
+module load gcc/7.4.0
+module load openmpi
+module load cmake
+cd /global/scratch/users/pierrj/PAV_SV/PAV/raxml_ng_test
+mpirun /global/scratch/users/pierrj/raxml_ng_savio1/bin/raxml-ng-mpi --msa savio1_T1.raxml.rba --prefix search_5 --threads 10 --extra thread-pin --seed 55555

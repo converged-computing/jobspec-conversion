@@ -1,0 +1,14 @@
+#!/bin/bash
+#FLUX: --job-name=OMC_yyy_U_zzz
+#FLUX: -t=172800
+#FLUX: --priority=16
+
+export OMP_NUM_THREADS='1'
+export LD_LIBRARY_PATH='/sulis/easybuild/software/imkl/2019.5.281-gompi-2019b/mkl/lib/intel64:$LD_LIBRARY_PATH'
+
+module purge
+module load intel/2019b
+export OMP_NUM_THREADS=1
+export LD_LIBRARY_PATH=/sulis/easybuild/software/imkl/2019.5.281-gompi-2019b/mkl/lib/intel64:$LD_LIBRARY_PATH
+EXE="/home/d/dcriveanu/VASP/vasp.5.4.4_2019bCompiler/vasp.5.4.4/bin/vasp_std"
+time srun $EXE

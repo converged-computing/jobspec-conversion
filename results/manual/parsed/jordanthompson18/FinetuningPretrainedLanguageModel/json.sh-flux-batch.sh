@@ -1,0 +1,10 @@
+#!/bin/bash
+#FLUX: --job-name=milky-lemur-0223
+#FLUX: --queue=soc-gpu-np
+#FLUX: -t=28800
+#FLUX: --priority=16
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate TrainingPLM
+pip install jsonlines
+python create_json.py

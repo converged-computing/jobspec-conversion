@@ -1,0 +1,55 @@
+#!/bin/bash
+#FLUX: --job-name=rainbow-milkshake-9360
+#FLUX: --priority=16
+
+if [ $# -eq 3 ]; then
+    NUM_NODES=$1
+    APP=$2
+    EXP_DIR=$3
+    EXP_TYPE=$3
+elif [ $# -eq 4 ]; then
+    NUM_NODES=$1
+    APP=$2
+    EXP_DIR=$3
+    EXP_TYPE=$4
+else
+    echo "Usage:"
+    echo "       $0 NUM_NODES APP EXPERIMENT_DIR [EXPERIMENT_TYPE]"
+    echo
+    echo "  EXPERIMENT_TYPE: Optional, required when the directory name does not match"
+    echo "                   the Python experiment file."
+    echo
+    echo "Examples:"
+    echo "  $ ./gen_slurm.sh 1 nekbone monitor"
+    echo "  $ ./gen_slurm.sh 1 nekbone energy_efficiency power_balancer_energy"
+    echo
+    exit 1
+fi
+if [ -f $HOME/.geopmrc ]; then
+    source ~/.geopmrc
+fi
+GEOPM_SOURCE=${GEOPM_SOURCE:?"Please define GEOPM_SOURCE in your environment"}
+GEOPM_WORKDIR=${GEOPM_WORKDIR:?"Please define GEOPM_WORKDIR in your environment"}
+if [ ! -z ${GEOPM_SYSTEM_ENV} ]; then
+    source ${GEOPM_SYSTEM_ENV}
+fi
+if [ ! -z ${GEOPM_SLURM_ACCOUNT} ]; then
+    SBATCH_ACCOUNT_LINE="#SBATCH -A ${GEOPM_USER_ACCOUNT}"
+fi
+if [ ! -z ${GEOPM_SLURM_DEFAULT_QUEUE} ]; then
+   SBATCH_QUEUE_LINE="#SBATCH -p ${GEOPM_SYSTEM_DEFAULT_QUEUE}"
+fi
+SCRIPT_NAME=test.sbatch
+cat > ${SCRIPT_NAME} << EOF
+${SBATCH_QUEUE_LINE}
+${SBATCH_ACCOUNT_LINE}
+${GEOPM_SBATCH_EXTRA_LINES}
+source ${GEOPM_SOURCE}/integration/config/run_env.sh
+OUTPUT_DIR=\${GEOPM_WORKDIR}/\${SLURM_JOB_NAME}_\${SLURM_JOBID}
+${GEOPM_SOURCE}/integration/experiment/${EXP_DIR}/run_${EXP_TYPE}_${APP}.py \\
+    --node-count=\${SLURM_NNODES} \\
+    --output-dir=\${OUTPUT_DIR} \\
+    # end
+EOF
+uniq ${SCRIPT_NAME} .${SCRIPT_NAME}
+mv .${SCRIPT_NAME} ${SCRIPT_NAME}

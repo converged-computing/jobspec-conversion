@@ -1,0 +1,12 @@
+#!/bin/bash
+#FLUX: --job-name=buttery-motorcycle-0080
+#FLUX: --priority=16
+
+module purge
+module load julia-1_8_5
+cd //dfs6/pub/igoldst1/ww_paper
+sim_num=1
+if [ $SLURM_ARRAY_TASK_ID == 1 ]; then
+sbatch --depend=afterany:$SLURM_ARRAY_JOB_ID slurm_submissions/process_results_array_seirr.sh
+fi
+julia --project --threads 4 scripts/generate_quantities/seirr_student_generate_pp_and_gq.jl $sim_num $SLURM_ARRAY_TASK_ID

@@ -1,0 +1,30 @@
+#!/bin/bash
+#FLUX: --job-name=apoa1benchmark
+#FLUX: -N=2
+#FLUX: -t=1800
+#FLUX: --priority=16
+
+declare -r SCRATCH_DIR=__SCRATCHSPACE__
+declare -r NAMD_BINARY=__NAMDBINARY__
+declare -r NAMD_RESULTS_DIR=__NAMDRESULTSDIR__
+declare -r INPUT_FILES_PARENT_DIR=__APOA1_INPUT_FILES_PARENT_DIR__
+declare -ri number_physical_nodes=${SLURM_JOB_NUM_NODES}
+declare -ri max_number_charm_logical_nodes_per_physical_node=4
+declare -r pe_com_map="+commap 0,16,32,48 +pemap 1-15+16+32+48"
+cp ${NAMD_BINARY} ${SCRATCH_DIR}/
+input_files=( "apoa1.namd" 
+              "apoa1.pdb"
+              "apoa1.psf"
+              "par_all22_popc.xplor"
+              "par_all22_prot_lipid.xplor" ) 
+for tmp_input_file in "${input_files[@]}";do
+    cp -f "${INPUT_FILES_PARENT_DIR}/${tmp_input_file}" "${SCRATCH_DIR}"
+done
+cd ${SCRATCH_DIR}/
+declare -r nm_charm_process=2
+declare -r charm_process_per_node=2
+declare -r max_tasks_per_core=2
+declare -r ntasks=4
+echo 'charmrun ++mpiexec ++remote-shell "srun" ./namd2 ++n 6 ++ppn 2 ${pe_com_map} ./apoa1.namd ' 
+charmrun ++mpiexec ++remote-shell "srun" ./namd2 ++n 6 ++ppn 2 ${pe_com_map} ./apoa1.namd  
+cp -rf ${SCRATCH_DIR}/* ${NAMD_RESULTS_DIR}/ 

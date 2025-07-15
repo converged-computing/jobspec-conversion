@@ -4,6 +4,8 @@ Was interested this weekend to try converting our open source [jobspec database]
 
 ## Usage
 
+### Gemini or Gemma
+
 Run the generation for some number (defaults to 100):
 
 ```bash
@@ -11,6 +13,12 @@ export GEMINI_API_KEY=xxxxxxxxxxxxxxx
 # Default Gemini Pro
 python generate-jobspecs.py --limit 100 --outdir ./results/gemini
 python generate-jobspecs.py --limit 100 --model 'models/gemma-3-27b-it' --output ./results/gemma
+```
+
+### Fractale (Manual)
+
+```bash
+python manual-generate-jobspecs.py
 ```
 
 This will generate the contents of [results](results). Then validate. For validation, we basically:
@@ -28,6 +36,7 @@ docker run -it -v $PWD/:/data fluxrm/flux-sched:jammy
 cd /data
 sudo apt-get update && apt-get install -y python3-pandas python3-seaborn
 ```
+
 You'll need this installed
 
 ```bash

@@ -1,0 +1,12 @@
+#!/bin/bash
+#FLUX: --job-name="valss"
+#FLUX: --queue=gpu
+#FLUX: -t=18000
+#FLUX: --priority=16
+
+module load 2022r1
+module load gpu
+module load python/3.8.12-bohr45d
+module load openmpi
+module load py-tensorflow
+srun python VALIDATE_SEDENTARY_SUBJECT.py

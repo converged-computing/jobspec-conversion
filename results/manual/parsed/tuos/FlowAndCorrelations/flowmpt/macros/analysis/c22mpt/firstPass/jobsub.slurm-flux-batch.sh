@@ -1,0 +1,18 @@
+#!/bin/bash
+#FLUX: --job-name=dinosaur-mango-4277
+#FLUX: -t=244800
+#FLUX: --priority=16
+
+export SCRAM_ARCH='slc7_amd64_gcc900'
+
+echo $SLURM_JOB_ID
+echo $SLURM_JOB_NAME
+echo $SLURM_JOB_NODELIST
+source /cvmfs/cms.cern.ch/cmsset_default.sh
+export SCRAM_ARCH=slc7_amd64_gcc900
+cd /scratch/tuos/i_ana2021/pbpb/miniAOD/CMSSW_11_2_2/src
+eval `scramv1 runtime -sh`
+cd /scratch/tuos/i_ana2021/pbpb/miniAOD/CMSSW_11_2_2/src/treeInput/oct22/c22/slurm/jb0
+root -l meanpt_vs_Nch.C
+echo "Done!"
+exit 0

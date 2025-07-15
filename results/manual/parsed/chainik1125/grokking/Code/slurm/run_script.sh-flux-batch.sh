@@ -1,0 +1,12 @@
+#!/bin/bash
+#FLUX: --job-name=test
+#FLUX: --queue=eng-research-gpu
+#FLUX: -t=14400
+#FLUX: --priority=16
+
+module load anaconda/2023-Mar/3
+module load cuda/11.7
+nvcc --version
+nvidia-smi
+source activate pytorch_one
+python ../Ising_seed2.py ${SLURM_ARRAY_TASK_ID}

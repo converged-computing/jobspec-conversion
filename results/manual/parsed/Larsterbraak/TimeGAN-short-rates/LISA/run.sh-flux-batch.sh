@@ -1,0 +1,9 @@
+#!/bin/bash
+#FLUX: --job-name=chunky-onion-7614
+#FLUX: --priority=16
+
+module purge #Unload all loaded modules
+module load 2019
+module load TensorFlow
+echo Running on Lisa System
+python3 $HOME/main.py

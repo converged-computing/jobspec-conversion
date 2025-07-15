@@ -1,0 +1,15 @@
+#!/bin/bash
+#FLUX: --job-name=CUDA_Run_base_4
+#FLUX: -c=24
+#FLUX: --exclusive
+#FLUX: --queue=gpu
+#FLUX: -t=3600
+#FLUX: --priority=16
+
+export alpaka_DIR='/home/schenk24/workspace/alpaka/'
+
+set -x
+export alpaka_DIR=/home/schenk24/workspace/alpaka/
+module load git gcc cmake cuda boost python
+cd build_cuda_4
+python ../run_multiple_detectors.py $SLURM_ARRAY_TASK_ID

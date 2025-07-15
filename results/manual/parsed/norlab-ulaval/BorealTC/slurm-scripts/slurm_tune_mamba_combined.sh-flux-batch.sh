@@ -1,0 +1,14 @@
+#!/bin/bash
+#FLUX: --job-name=TuneMambaCombined
+#FLUX: -c=16
+#FLUX: -t=1209600
+#FLUX: --priority=16
+
+cd ~/Vulpi2021-terrain-deep-learning
+docker build -t terrain-gpu -f DockerfileGPU .
+container_id=$(
+  docker run --gpus all -e CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES -e DATASET='combined' -e MODEL='Mamba' --rm --ipc host \
+    --mount type=bind,source=.,target=/code/ \
+    --mount type=bind,source=/dev/shm,target=/dev/shm \
+    terrain-gpu python3 optuna_tuning.py
+)

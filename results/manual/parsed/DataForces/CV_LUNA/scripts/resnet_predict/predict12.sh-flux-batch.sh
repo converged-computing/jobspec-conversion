@@ -1,0 +1,16 @@
+#!/bin/bash
+#FLUX: --job-name=adorable-hippo-4279
+#FLUX: --priority=16
+
+export PYTHONPATH='$HOME/pythonpackages/lib/python2.7/site-packages:$PYTHONPATH'
+export THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1'
+
+export PYTHONPATH=$HOME/pythonpackages/lib/python:$PYTHONPATH
+export PYTHONPATH=$HOME/pythonpackages/lib/python2.7/site-packages:$PYTHONPATH
+module load python/2.7.9
+module load cuda
+module load cudnn
+cd $HOME/luna16/src/deep
+echo "starting python"
+export THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1'
+srun -u python predict_resnet_cartesius.py 1466562267_OWN_resnet32_12 168 12

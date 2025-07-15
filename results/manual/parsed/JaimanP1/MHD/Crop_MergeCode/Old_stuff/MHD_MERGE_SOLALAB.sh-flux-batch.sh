@@ -1,0 +1,13 @@
+#!/bin/bash
+#FLUX: --job-name=bumfuzzled-plant-7408
+#FLUX: --exclusive
+#FLUX: --priority=16
+
+module purge > /dev/null 2>&1
+module use /opt/site/easybuild/modules/all/Core
+module load GCC/9.3.0 OpenMPI/4.0.3
+echo "Starting job at: "
+date
+srun ./MergeCode
+echo "Finished"
+date

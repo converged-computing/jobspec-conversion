@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-bits-1709
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-bicycle-6378
+#FLUX: --urgency=16
 
 export PATH='$PATH:$HOME/apps/valgrind/bin'
 

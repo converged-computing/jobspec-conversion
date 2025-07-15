@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=learnfair
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module load anaconda3/5.0.1 cuda/10.1 cudnn/v7.6-cuda.10.0

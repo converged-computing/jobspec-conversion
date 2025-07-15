@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=abcd
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load MATLAB/R2018b

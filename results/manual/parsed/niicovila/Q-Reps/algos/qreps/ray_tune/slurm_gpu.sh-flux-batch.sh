@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: -c=6
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 [ ! -e "nccl-tests" ] && git clone https://github.com/NVIDIA/nccl-tests.git
 module load foss/2020b

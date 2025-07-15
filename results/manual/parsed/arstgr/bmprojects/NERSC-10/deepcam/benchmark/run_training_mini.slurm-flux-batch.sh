@@ -2,7 +2,7 @@
 #FLUX: --job-name=deepcam-mini
 #FLUX: -c=12
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export N10_DEEPCAM='/mnt/resource_nvme/deepcam'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-animal-4109
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-general-1886
+#FLUX: --urgency=16
 
 IDFILE=$APPS"/prospector_alpha/data/gama.ids"
 OBJID=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$IDFILE")

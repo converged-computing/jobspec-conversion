@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-onion-8210
-#FLUX: --priority=16
+#FLUX: --job-name=placid-spoon-6448
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

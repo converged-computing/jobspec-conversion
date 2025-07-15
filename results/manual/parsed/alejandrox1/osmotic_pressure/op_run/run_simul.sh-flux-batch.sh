@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-egg-4642
+#FLUX: --job-name=quirky-noodle-3603
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cluster=$1
 n=$2

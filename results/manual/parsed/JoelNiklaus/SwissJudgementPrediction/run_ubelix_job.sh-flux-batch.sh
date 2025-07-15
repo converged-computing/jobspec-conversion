@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="SJP"
+#FLUX: --job-name=SJP
 #FLUX: --queue=gpu-invest
 #FLUX: -t=1728000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate sjp

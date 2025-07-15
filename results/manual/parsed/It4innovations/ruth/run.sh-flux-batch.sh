@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=qcpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml purge
 ml Python/3.10.8-GCCcore-12.2.0

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-leader-1068
-#FLUX: --priority=16
+#FLUX: --job-name=angry-signal-0957
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='11'
 export KMP_SETTINGS='True'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-buttface-8039
+#FLUX: --job-name=reclusive-punk-3407
 #FLUX: --queue=alpha
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export taurus='0'
 export train='0'

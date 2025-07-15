@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-malarkey-8953
+#FLUX: --job-name=milky-chip-0814
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

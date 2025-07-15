@@ -2,7 +2,7 @@
 #FLUX: --job-name=Meta
 #FLUX: -c=4
 #FLUX: -t=104400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "== Starting run at $(date)"
 echo "== Job ID: ${SLURM_JOBID}"

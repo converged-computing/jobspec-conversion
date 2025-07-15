@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-peanut-1494
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-arm-5557
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export CRAY_ACCEL_TARGET='nvidia80'

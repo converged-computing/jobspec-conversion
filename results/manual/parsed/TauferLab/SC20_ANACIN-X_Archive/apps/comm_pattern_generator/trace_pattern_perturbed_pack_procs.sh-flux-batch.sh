@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-peanut-butter-5592
-#FLUX: --priority=16
+#FLUX: --job-name=blue-itch-6037
+#FLUX: --urgency=16
 
 n_procs=$1
 app=$2

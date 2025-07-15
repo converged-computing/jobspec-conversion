@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-fudge-4702
+#FLUX: --job-name=lovable-house-4429
 #FLUX: -c=4
 #FLUX: --queue=defq
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 	# Removed LOOSE DP/GQ thresholds
 	# Added SPLICEAI

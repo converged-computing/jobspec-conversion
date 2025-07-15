@@ -2,7 +2,7 @@
 #FLUX: --job-name=mostest
 #FLUX: -c=16
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -o errexit
 source ../settings.sh

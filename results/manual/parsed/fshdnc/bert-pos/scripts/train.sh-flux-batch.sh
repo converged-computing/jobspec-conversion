@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=bert-pos
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ "$#" -ne 2 ]; then
     echo "Usage: sbatch $0 MODEL_NAME LR"

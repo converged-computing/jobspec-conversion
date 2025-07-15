@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-despacito-2348
+#FLUX: --job-name=milky-pastry-6746
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/3.10 scipy-stack

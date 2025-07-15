@@ -2,7 +2,7 @@
 #FLUX: --job-name=kimmust
 #FLUX: --queue=long
 #FLUX: -t=1206000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load easybuild
 module load GCC/6.3.0-2.27  OpenMPI/2.0.2

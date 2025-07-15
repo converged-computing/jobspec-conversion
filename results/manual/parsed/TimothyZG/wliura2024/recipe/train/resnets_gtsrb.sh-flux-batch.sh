@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-puppy-3535
+#FLUX: --job-name=peachy-parsnip-0669
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/3.10 scipy-stack

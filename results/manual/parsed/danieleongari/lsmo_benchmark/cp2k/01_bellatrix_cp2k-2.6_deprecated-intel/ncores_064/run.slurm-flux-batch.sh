@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-hope-0009
+#FLUX: --job-name=goodbye-fork-0893
 #FLUX: -N=4
 #FLUX: -n=64
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated 
 module load cp2k/2.6.0/intel-15.0.0

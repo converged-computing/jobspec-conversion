@@ -3,7 +3,7 @@
 #FLUX: -N=10
 #FLUX: --queue=shas
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load R/3.3.0

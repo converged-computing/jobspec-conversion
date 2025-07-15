@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=c16s
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KMP_TASK_STEALING_CONSTRAINT='0'
 export OMP_PLACES='cores'

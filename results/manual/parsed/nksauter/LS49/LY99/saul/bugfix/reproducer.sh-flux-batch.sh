@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-gato-1873
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-snack-2394
+#FLUX: --urgency=16
 
 export WORK='$CFS/m3562/nks/LY99'
 export OUT_DIR='${PWD}'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="ior"
+#FLUX: --job-name=ior
 #FLUX: --exclusive
 #FLUX: --queue=debug
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODULEPATH='/nopt/nrel/apps/220525b/level01/modules/lmod/linux-centos7-x86_64/gcc/12.1.0'
 

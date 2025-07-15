@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-fork-5809
+#FLUX: --job-name=anxious-destiny-0419
 #FLUX: --queue=gputest
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SING_IMAGE='/appl/soft/ai/singularity/images/pytorch_1.9.0_csc_custom.sif'
 export SING_FLAGS='$SING_FLAGS -B /appl/spack/v014/install-tree/gcc-4.8.5/pdsh-2.31-cdzt5w/bin:/usr/local/sbin'

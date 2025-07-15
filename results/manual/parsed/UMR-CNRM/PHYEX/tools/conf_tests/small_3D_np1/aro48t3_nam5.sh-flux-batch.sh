@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-soup-7348
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-leg-7099
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

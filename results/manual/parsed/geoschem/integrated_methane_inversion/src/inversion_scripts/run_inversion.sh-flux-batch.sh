@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-signal-9806
-#FLUX: --priority=16
+#FLUX: --job-name=angry-pancake-2769
+#FLUX: --urgency=16
 
 printf "\n=== PARSING CONFIG FILE ===\n"
 invPath={INVERSION_PATH}

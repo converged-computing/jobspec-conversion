@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=do_tasks
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MATPLOTLIBRC='$HOME/.config/matplotlib'
 export TERM='xterm-256color'

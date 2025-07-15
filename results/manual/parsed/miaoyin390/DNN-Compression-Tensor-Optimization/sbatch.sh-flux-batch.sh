@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-banana-4659
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-car-6318
+#FLUX: --urgency=16
 
 echo 'use bridges-2'
 RC=1

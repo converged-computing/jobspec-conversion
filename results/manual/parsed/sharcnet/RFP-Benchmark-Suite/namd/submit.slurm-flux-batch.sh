@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-avocado-6303
+#FLUX: --job-name=chocolate-malarkey-7294
 #FLUX: -N=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NAMD_BIN='/home/ppomorsk/projects/def-ppomorsk/benchmarks/stmv/Linux-x86_64-g++-memopt'
 

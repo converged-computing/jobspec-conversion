@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-parrot-9369
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-blackbean-0672
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alexmlamb/ImportanceSamplingSGD/integration_distributed_training/config_files/helios/12_repeat20x030/launch_00080.sh

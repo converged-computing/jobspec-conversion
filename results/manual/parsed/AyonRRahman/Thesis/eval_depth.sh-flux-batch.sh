@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=eval_depth
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 which python
 echo $HOSTNAME

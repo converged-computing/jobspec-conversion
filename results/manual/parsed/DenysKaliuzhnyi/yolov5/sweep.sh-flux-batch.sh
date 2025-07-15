@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-citrus-4386
+#FLUX: --job-name=pusheena-milkshake-7262
 #FLUX: -c=8
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SWEEP_ID="5grn31dl"
 module load any/python/3.8.3-conda

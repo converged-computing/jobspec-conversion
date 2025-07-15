@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=milky-kerfuffle-2064
+#FLUX: --job-name=quirky-eagle-7852
 #FLUX: -N=4
 #FLUX: -n=64
 #FLUX: --exclusive
 #FLUX: --queue=serc
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MATSIZE=20240
 echo;

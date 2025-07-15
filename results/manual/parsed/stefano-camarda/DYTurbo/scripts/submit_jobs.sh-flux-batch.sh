@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-chip-6849
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-plant-5268
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/stefano-camarda/DYTurbo/scripts/submit_jobs.sh

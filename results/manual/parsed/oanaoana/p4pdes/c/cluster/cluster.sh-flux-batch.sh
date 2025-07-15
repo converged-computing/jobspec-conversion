@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-fudge-1595
+#FLUX: --job-name=wobbly-puppy-2761
 #FLUX: -n=12
 #FLUX: --queue=debug
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 ulimit -s unlimited

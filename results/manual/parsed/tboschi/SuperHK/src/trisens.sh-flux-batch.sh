@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-hobbit-0275
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-poodle-6282
+#FLUX: --urgency=16
 
 usage="
 usage: $0 -r <root> -d <sample> -1 <mh1> -2 <mh2> [-x] [<options>]

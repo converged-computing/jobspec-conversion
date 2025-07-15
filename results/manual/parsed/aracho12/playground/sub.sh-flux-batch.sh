@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-omelette-1765
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-caramel-1147
+#FLUX: --urgency=16
 
 IFS='/' read -r -a scratch <<< "$SCRATCH"
 len=${#scratch[@]}

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="jobname"
-#FLUX: --priority=16
+#FLUX: --job-name=jobname
+#FLUX: --urgency=16
 
 module purge all
 module load namd

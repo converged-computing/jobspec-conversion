@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lemon-5323
+#FLUX: --job-name=bricky-leg-8693
 #FLUX: -c=2
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 workers=0
 REMAINING_ARGS=()

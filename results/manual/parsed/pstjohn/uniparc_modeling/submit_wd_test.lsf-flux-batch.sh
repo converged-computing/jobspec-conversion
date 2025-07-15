@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-fudge-3715
-#FLUX: --priority=16
+#FLUX: --job-name=tart-squidward-1009
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pstjohn/uniparc_modeling/submit_wd_test.lsf

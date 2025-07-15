@@ -4,7 +4,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
 #FLUX: --queue=gpuA40x4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/sw/spack/delta-2022-03/apps/fftw/3.3.10-gcc-11.2.0-ipxfmko/lib'
 export C_INCLUDE_PATH='$C_INCLUDE_PATH:/sw/spack/delta-2022-03/apps/fftw/3.3.10-gcc-11.2.0-ipxfmko/include'

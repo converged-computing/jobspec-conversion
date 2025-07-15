@@ -2,7 +2,7 @@
 #FLUX: --job-name=imagenet
 #FLUX: -c=8
 #FLUX: -t=64800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SCALE_FACTOR=('0.25' '0.5' '1' '2' '4')
 module load openmind/singularity/older_versions/2.4

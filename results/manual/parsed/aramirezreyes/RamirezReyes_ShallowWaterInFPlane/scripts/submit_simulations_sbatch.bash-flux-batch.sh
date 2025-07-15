@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-itch-3079
+#FLUX: --job-name=scruptious-butter-3893
 #FLUX: --gpus-per-task=1
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

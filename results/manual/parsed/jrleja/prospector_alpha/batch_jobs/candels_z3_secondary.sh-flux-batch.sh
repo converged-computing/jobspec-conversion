@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-punk-5487
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-hippo-3979
+#FLUX: --urgency=16
 
 IDFILE=$APPS"/prospector_alpha/data/CANDELS_GDSS_workshop_z1.dat"
 n1=`expr $SLURM_ARRAY_TASK_ID + 1`

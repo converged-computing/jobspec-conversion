@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-parrot-9519
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-citrus-7399
+#FLUX: --urgency=16
 
 echo "TACC: job $SLURM_JOB_ID execution at: `date`"
 NODE_HOSTNAME=`hostname -s`

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-train-4619
-#FLUX: --priority=16
+#FLUX: --job-name=blank-lentil-6412
+#FLUX: --urgency=16
 
 INPUTDECK="main.k"
 if ls d3dump* 1>/dev/null 2>&1; then

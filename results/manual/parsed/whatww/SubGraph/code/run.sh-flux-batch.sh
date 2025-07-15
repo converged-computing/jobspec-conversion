@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-bike-7628
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-car-1568
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/whatww/SubGraph/code/run.sh

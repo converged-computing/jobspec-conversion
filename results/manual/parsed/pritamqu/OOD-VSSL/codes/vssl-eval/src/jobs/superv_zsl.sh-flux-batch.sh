@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-truffle-1114
+#FLUX: --job-name=faux-kitty-7612
 #FLUX: --queue=v100_full_node
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MASTER=`/bin/hostname -s`
 MPORT=$(shuf -i 6000-9999 -n 1)

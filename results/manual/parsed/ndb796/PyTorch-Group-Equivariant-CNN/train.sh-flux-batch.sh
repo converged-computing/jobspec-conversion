@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-animal-7799
+#FLUX: --job-name=joyous-blackbean-0189
 #FLUX: -n=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd  $SLURM_SUBMIT_DIR
 echo "SLURM_SUBMIT_DIR=$SLURM_SUBMIT_DIR"

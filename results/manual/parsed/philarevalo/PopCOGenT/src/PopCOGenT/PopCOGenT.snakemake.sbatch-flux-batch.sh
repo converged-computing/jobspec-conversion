@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-salad-4702
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-lentil-2497
+#FLUX: --urgency=16
 
 source activate PopCOGenT
 source /home/parevalo/apps/mugsy_trunk/mugsyenv.sh

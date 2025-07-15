@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-nunchucks-4598
-#FLUX: --priority=16
+#FLUX: --job-name=placid-hippo-2899
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/architvasan/MLDocking_Dragon/Training/polaris_sub.sh

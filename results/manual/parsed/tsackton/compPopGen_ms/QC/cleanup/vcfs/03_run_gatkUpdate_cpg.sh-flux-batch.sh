@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-knife-2383
-#FLUX: --priority=16
+#FLUX: --job-name=salted-rabbit-5006
+#FLUX: --urgency=16
 
 set -o errexit
 source activate gatk

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-salad-0120
-#FLUX: --priority=16
+#FLUX: --job-name=purple-leader-4489
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jxnl/nyu-twipsy/run

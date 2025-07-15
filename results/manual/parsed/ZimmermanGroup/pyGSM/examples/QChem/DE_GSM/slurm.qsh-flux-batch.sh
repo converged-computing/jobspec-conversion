@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-egg-7587
+#FLUX: --job-name=DE_GSM
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/slurm.sh
 module load qchem

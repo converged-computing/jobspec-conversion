@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-toaster-9311
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-peanut-0019
+#FLUX: --urgency=16
 
 export SCR='/scr/$SLURM_JOB_USER/$SLURM_JOB_ID'
 

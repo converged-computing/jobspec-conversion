@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-rabbit-8643
+#FLUX: --job-name=tart-bike-1516
 #FLUX: -c=48
 #FLUX: --queue=general
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load  gromacs/2021.3-foss-2021a
 module list

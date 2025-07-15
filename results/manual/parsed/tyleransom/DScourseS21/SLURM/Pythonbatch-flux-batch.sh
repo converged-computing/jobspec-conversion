@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-toaster-5020
-#FLUX: --priority=16
+#FLUX: --job-name=blue-peanut-butter-5760
+#FLUX: --urgency=16
 
 if [ "$#" -gt 4  -o  "$#" -eq 0 ]; then
     echo "********************************************************************"

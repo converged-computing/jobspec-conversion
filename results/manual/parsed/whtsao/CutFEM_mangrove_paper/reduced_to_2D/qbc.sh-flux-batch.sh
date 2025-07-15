@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-latke-3095
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-leader-1593
+#FLUX: --urgency=16
 
 date
 module purge

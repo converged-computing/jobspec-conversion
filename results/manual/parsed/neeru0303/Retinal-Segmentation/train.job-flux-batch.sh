@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-noodle-4913
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-banana-6273
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1'
 export TENSORFLOW_ENV='$TF_ENV'

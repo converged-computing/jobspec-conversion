@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-squidward-1904
+#FLUX: --job-name=strawberry-malarkey-4941
 #FLUX: -c=80
 #FLUX: --gpus-per-task=1
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 numHparams=4
 numGPU=1

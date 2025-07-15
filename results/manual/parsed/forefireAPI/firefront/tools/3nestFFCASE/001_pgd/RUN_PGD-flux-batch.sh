@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-destiny-1110
+#FLUX: --job-name=gassy-lemur-9865
 #FLUX: -n=4
 #FLUX: --exclusive
 #FLUX: --queue=intel
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPIRUN='mpirun -np 4'
 

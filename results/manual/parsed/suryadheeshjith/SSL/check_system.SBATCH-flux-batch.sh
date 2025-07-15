@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-fork-5585
+#FLUX: --job-name=butterscotch-cupcake-4010
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=n1s8-v100-1
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularity exec --nv --overlay overlay-15GB-500K.ext3:ro\
     -B data/dataset_v2.sqsh:/dataset:image-src=/\

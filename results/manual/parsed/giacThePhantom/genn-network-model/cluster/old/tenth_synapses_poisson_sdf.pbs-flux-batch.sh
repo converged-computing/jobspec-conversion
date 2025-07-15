@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-itch-8296
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-frito-0783
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/old/tenth_synapses_poisson_sdf.pbs

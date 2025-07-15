@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-nunchucks-7313
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-caramel-3105
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GustavAls/PartialNLP/hpc/SUB_SA_Laplace.bsub

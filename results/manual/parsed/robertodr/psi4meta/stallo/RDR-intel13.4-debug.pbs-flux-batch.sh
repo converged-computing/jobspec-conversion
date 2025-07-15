@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-snack-0957
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-motorcycle-7977
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/robertodr/psi4meta/stallo/RDR-intel13.4-debug.pbs

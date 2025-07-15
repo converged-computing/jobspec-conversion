@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mcb_bert
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/crhf63/kable_management/python_venvs/mk8-tvqa/bin/activate
 python -W ignore /home/crhf63/kable_management/blp_paper/tvqa/main.py \

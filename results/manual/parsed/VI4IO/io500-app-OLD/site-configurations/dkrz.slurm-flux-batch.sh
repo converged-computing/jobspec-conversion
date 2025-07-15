@@ -2,7 +2,7 @@
 #FLUX: --job-name=IO-500
 #FLUX: -N=100
 #FLUX: -t=28200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel mxm/3.4.3082 fca/2.5.2431 bullxmpi_mlx/bullxmpi_mlx-1.2.9.2 cmake/3.2.3 gcc/7.1.0
 dir=/home/dkrz/k202079/work/io-500/io-500-dev/utilities/io500-app/

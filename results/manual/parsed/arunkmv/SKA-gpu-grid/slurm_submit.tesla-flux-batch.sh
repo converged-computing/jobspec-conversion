@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-banana-3714
+#FLUX: --job-name=bloated-fudge-4448
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

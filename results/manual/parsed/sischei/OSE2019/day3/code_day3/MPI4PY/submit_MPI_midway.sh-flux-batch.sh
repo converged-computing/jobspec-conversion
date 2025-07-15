@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-caramel-4308
+#FLUX: --job-name=arid-cat-3699
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda2
 mpirun python bcast.py

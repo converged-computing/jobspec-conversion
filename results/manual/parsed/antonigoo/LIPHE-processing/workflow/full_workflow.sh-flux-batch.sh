@@ -2,7 +2,7 @@
 #FLUX: --job-name=full_workflow
 #FLUX: --queue=small
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/projappl/project_2003180/samantha/bin:$PATH'
 

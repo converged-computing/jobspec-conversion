@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-puppy-9478
+#FLUX: --job-name=outstanding-gato-3164
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intelFPGA_pro/20.3.0
 module load bittware_520n_mx/19.4.0_hpc

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=arid-hobbit-4356
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-hobbit-5568
+#FLUX: --urgency=16
 

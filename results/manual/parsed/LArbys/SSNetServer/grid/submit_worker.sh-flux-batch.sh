@@ -4,7 +4,7 @@
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONTAINER=/cluster/kappa/90-days-archive/wongjiradlab/larbys/images/singularity-ssnetserver/singularity-ssnetserver-caffelarbys-cuda8.0.img
 WORKDIR=/usr/local/ssnetserver

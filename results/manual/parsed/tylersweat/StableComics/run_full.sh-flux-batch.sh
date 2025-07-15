@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-fork-3179
+#FLUX: --job-name=evasive-general-2135
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/tysweat0/.conda/envs/img2img/lib/python3.9/site-packages/nvidia/cublas/lib'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-toaster-5157
+#FLUX: --job-name=spicy-cattywampus-1820
 #FLUX: -c=8
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CC='${GCC_ROOT}/bin/gcc'
 export CXX='${GCC_ROOT}/bin/g++'

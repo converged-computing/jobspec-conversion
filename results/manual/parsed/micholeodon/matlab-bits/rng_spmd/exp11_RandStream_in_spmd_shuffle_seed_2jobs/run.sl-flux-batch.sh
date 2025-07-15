@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-signal-8801
+#FLUX: --job-name=strawberry-pot-0536
 #FLUX: -t=180
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 folder=`pwd`
 tstamp=`date +%d-%m-%Y_%H%M`

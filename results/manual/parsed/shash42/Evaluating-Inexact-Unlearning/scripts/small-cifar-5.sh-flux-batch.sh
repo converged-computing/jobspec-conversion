@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leopard-6207
+#FLUX: --job-name=delicious-puppy-9183
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 logdir='logs/smallcifar5-resnet20-debug'
 dataset='small_cifar5'

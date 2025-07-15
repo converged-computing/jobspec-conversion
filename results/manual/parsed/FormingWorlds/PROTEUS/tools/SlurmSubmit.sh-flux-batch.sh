@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Slurm_GridPROTEUS
 #FLUX: -c=19
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Running slurm dispatcher"
 source ~/.bashrc

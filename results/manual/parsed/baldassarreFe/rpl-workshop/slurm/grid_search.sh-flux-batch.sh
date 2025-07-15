@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-hobbit-7368
+#FLUX: --job-name=chunky-underoos-6346
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SOURCE_PATH="${HOME}/rpl-workshop"
 RUNS_PATH="${HOME}/rpl-workshop/runs"

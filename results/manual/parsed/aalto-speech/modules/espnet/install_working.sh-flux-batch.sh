@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-despacito-8879
+#FLUX: --job-name=gloopy-leader-6049
 #FLUX: -c=5
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$CUDAROOT/bin:$PATH'
 export LD_LIBRARY_PATH='$CUDAROOT/lib64:$LD_LIBRARY_PATH'

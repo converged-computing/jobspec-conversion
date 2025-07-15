@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-ricecake-8670
+#FLUX: --job-name=ornery-rabbit-6022
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 APPTAINER_IMAGE_PATH=/mnt/parscratch/users/$USER/pytorch-transformers-wikitext2-benchmark/transformers-benchmark-23.07.sif 
 echo "HOSTNAME=${HOSTNAME}"

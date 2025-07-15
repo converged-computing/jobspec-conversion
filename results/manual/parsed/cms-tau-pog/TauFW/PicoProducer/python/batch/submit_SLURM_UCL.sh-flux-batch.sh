@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-eagle-7530
+#FLUX: --job-name=expressive-nunchucks-5942
 #FLUX: --queue=cp3
 #FLUX: -t=4800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JOBID='$SLURM_ARRAY_JOB_ID'
 export TASKID='$SLURM_ARRAY_TASK_ID'

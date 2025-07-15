@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=$1
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sbatch <<EOT
 source ${HOME}/.bashrc

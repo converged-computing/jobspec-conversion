@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-signal-4542
+#FLUX: --job-name=reclusive-platanos-2192
 #FLUX: --queue=priority
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $SLURMD_NODENAME  # display the node name
 module load matlab

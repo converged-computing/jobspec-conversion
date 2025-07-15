@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-leg-3859
+#FLUX: --job-name=misunderstood-earthworm-6241
 #FLUX: -n=20
 #FLUX: --exclusive
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh  
 function load_modules() {

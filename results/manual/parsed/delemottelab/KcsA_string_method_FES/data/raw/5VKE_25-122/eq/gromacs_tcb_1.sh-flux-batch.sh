@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-car-5036
-#FLUX: --priority=16
+#FLUX: --job-name=angry-squidward-1520
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-kitty-9750
+#FLUX: --job-name=chocolate-underoos-7909
 #FLUX: --queue=XAS
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OCR_INSTALL='/home/rsalmon/dhome/fastfw/src/ocr/ocr/install'
 export APPS_ROOT='/home/rsalmon/dhome/fastfw/src/apps/apps'

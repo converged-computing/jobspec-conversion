@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-puppy-9598
-#FLUX: --priority=16
+#FLUX: --job-name=angry-animal-6925
+#FLUX: --urgency=16
 
 lam=$1
 b=$2

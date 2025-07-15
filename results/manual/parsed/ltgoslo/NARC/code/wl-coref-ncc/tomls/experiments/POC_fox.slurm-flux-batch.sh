@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=narc
-#FLUX: --queue=accel    # To use the accelerator nodes
+#FLUX: --queue=accel
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -o errexit  # Recommended for easier debugging
 source /etc/profile

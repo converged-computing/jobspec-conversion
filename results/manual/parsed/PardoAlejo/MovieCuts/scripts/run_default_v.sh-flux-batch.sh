@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MCe2eV
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo `hostname`
 module load cuda/11.1.1

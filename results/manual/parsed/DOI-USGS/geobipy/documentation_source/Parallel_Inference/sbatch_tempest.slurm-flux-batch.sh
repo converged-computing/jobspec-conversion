@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=tempest_synth
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export NUMBA_CPU_NAME='skylake'

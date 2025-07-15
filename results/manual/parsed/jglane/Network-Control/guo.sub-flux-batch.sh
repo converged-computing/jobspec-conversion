@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-snack-4382
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-squidward-8987
+#FLUX: --urgency=16
 
 module purge
 module load anaconda

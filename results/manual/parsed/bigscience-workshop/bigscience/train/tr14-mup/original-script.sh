@@ -1,85 +1,53 @@
 #!/bin/bash
-#SBATCH --job-name=tr14-2B7-mup
-#SBATCH --partition=production-cluster
-#SBATCH --nodes=8
-#SBATCH --cpus-per-task=12
-#SBATCH --ntasks-per-node=1
-#SBATCH --gres=gpu:a100:8
-#SBATCH --hint=nomultithread
-#SBATCH --time 100:00:00
-#SBATCH --output=/fsx/teven/mup/tr14-2B7-%j.out
-#SBATCH --exclude=ip-26-0-159-215,ip-26-0-153-238
+#SBATCH --qos=qos_gpu-t3
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=1          # crucial - only 1 task per dist per node!
+#SBATCH --cpus-per-task=40           # number of cores per tasks
+#SBATCH --hint=nomultithread         # we get physical cores not logical
+#SBATCH --gres=gpu:8                 # number of gpus
+#SBATCH --time 04:00:00             # maximum execution time (HH:MM:SS)
+#SBATCH --output=%x.out           # output file name
+#SBATCH --partition=gpu_p5
+#SBATCH --account=ajs@a100
+#SBATCH -C a100
+
+set -x -e
+
+#source $ajs_ALL_CCFRWORK/start-py38-pt110
+#source $ajs_ALL_CCFRWORK/start-py38-pt111
+source $six_ALL_CCFRWORK/code/tr11-176B-ml/bigscience/train/tr11-176B-ml/start-tr11-176B-ml
 
 echo "START TIME: $(date)"
 
+variant=main
+
+DATA_PATH=$ajs_ALL_CCFRSCRATCH/datasets/c4/gpt2tok_c4_text_document
+DATA_OUTPUT_PATH=$ajs_ALL_CCFRSCRATCH/checkpoints/tr14-2B7-mup-lr$1-init$2-inpm$3-outm$4-atnm$5-mup
+CHECKPOINT_PATH=$DATA_OUTPUT_PATH/checkpoints/$variant
+REPO_PATH=$DATA_OUTPUT_PATH/tr14-2B7-mup-lr$1-init$2-inpm$3-outm$4-atnm$5-mup-logs
+TENSORBOARD_PATH=$REPO_PATH/tensorboard/$variant
+LOGS_PATH=$REPO_PATH/logs/$variant
 mkdir -p $LOGS_PATH
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/admin/home/teven/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/admin/home/teven/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/admin/home/teven/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/admin/home/teven/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-# Proper env variables
-conda activate tvn_dev
-export PATH=/usr/local/cuda-11.4/bin:$PATH
-export NCCL_PROTO=simple
-export PATH=/opt/amazon/efa/bin:$PATH
-
-export FI_EFA_FORK_SAFE=1
-export FI_LOG_LEVEL=1
-export FI_EFA_USE_DEVICE_RDMA=1 # use for p4dn
-
-#export NCCL_ALGO=ring
-#export NCCL_DEBUG=info
-#export NCCL_DEBUG_SUBSYS=INIT,ENV,GRAPH,COLL
-
-export PYTHONFAULTHANDLER=1
-
-export CUDA_LAUNCH_BLOCKING=0
-export OMPI_MCA_mtl_base_verbose=1
-export FI_EFA_ENABLE_SHM_TRANSFER=0
-export FI_PROVIDER=efa
-export FI_EFA_TX_MIN_CREDITS=64
-export NCCL_TREE_THRESHOLD=0
-#export TORCH_CPP_LOG_LEVEL=INFO
-#export TORCH_DISTRIBUTED_DEBUG=INFO
-
-export NCCL_ASYNC_ERROR_HANDLING=1
-#export NCCL_P2P_DISABLE=1
-#export NCCL_IBEXT_DISABLE=1
-#export NCCL_SOCKET_IFNAME="eth0,en,eth,em,bond"
-
-# testing for potential faulty nodes
-srun --jobid $SLURM_JOBID bash -c 'python -c "import torch, socket; print(socket.gethostname(), torch.cuda.is_available())"'
-
-# so processes know who to talk to
-export MASTER_ADDR=$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)
-export MASTER_PORT=12802
-
-
-MEGATRON_DEEPSPEED_REPO=/fsx/teven/Megatron-DeepSpeed
+MEGATRON_DEEPSPEED_REPO=$ajs_ALL_CCFRWORK/code/Megatron-DeepSpeed
 cd $MEGATRON_DEEPSPEED_REPO
 
 TOKENIZER_NAME_OR_PATH=t5-small
 
-variant=main
+# defining the right environment variables
+export TRANSFORMERS_CACHE=$ajs_ALL_CCFRWORK/models
+export HF_DATASETS_CACHE=$ajs_ALL_CCFRWORK/datasets
+export HF_MODULES_CACHE=$ajs_ALL_CCFRWORK/modules
+export HF_METRICS_CACHE=$ajs_ALL_CCFRWORK/metrics
+export HF_DATASETS_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
 
-DATA_PATH=/fsx/data/gpt2tok_c4_text_document
-DATA_OUTPUT_PATH=/fsx/mup_exps/checkpoints/tr14-2B7-lr$1-init0.1-inpm10-outm10-atnm10-mup
-CHECKPOINT_PATH=$DATA_OUTPUT_PATH/checkpoints/$variant
-REPO_PATH=$DATA_OUTPUT_PATH/tr14-2B7-test-lr$1-init0.1-inpm10-outm10-atnm10-mup
-TENSORBOARD_PATH=$REPO_PATH/tensorboard/$variant
-LOGS_PATH=$REPO_PATH/logs/$variant
+# testing for potential faulty nodes
+# srun --jobid $SLURM_JOBID bash -c 'python -c "import torch, socket; print(socket.gethostname(), torch.cuda.is_available())"'
+
+# so processes know who to talk to
+MASTER_ADDR=$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)
+MASTER_PORT=6000
 
 GPUS_PER_NODE=8
 NNODES=$SLURM_NNODES
@@ -87,7 +55,7 @@ NNODES=$SLURM_NNODES
 PP_SIZE=1
 TP_SIZE=2
 
-MICRO_BATCH_SIZE=16
+MICRO_BATCH_SIZE=1
 GLOBAL_BATCH_SIZE=512
 
 NLAYERS=32
@@ -97,19 +65,19 @@ SEQ_LEN=2048
 
 SAVE_INTERVAL=250
 
-TRAIN_SAMPLES=1_953_125  # 50B tokens
-LR_DECAY_SAMPLES=1_953_125  # Decay in the same amount
+TRAIN_SAMPLES=25_000_000  # 51.2B tokens
+LR_DECAY_SAMPLES=25_000_000  # Decay in the same amount
 LR_WARMUP_SAMPLES=183_105  # 375M tokens
 
 
 MUP_ARGS=" \
     --lr $1 \
     --min-lr `bc <<< "scale=3; $1/10"` \
-    --init-method-std 0.1 \
+    --init-method-std $2 \
     --mup \
-    --mup-input-mult 10 \
-    --mup-output-mult 10 \
-    --mup-attn-mult 10 \
+    --mup-input-mult $3 \
+    --mup-output-mult $4 \
+    --mup-attn-mult $5 \
 "
 
 
@@ -137,6 +105,7 @@ GPT_ARGS=" \
     --seq-length $SEQ_LEN \
     --max-position-embeddings $SEQ_LEN \
     --micro-batch-size $MICRO_BATCH_SIZE \
+    --rampup-batch-size 192 32 9_765_625 \
     --global-batch-size $GLOBAL_BATCH_SIZE \
     --train-samples $TRAIN_SAMPLES \
     --tokenizer-type PretrainedFromHF \

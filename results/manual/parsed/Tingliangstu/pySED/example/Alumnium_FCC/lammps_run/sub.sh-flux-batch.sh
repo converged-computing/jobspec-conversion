@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-omelette-8183
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-noodle-3662
+#FLUX: --urgency=16
 
 export PATH='/public3/home/scg5426/lammps/new/lammps-3Aug2022/src:$PATH'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cinnamonbun-2372
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-leg-8912
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'
 export KMP_BLOCKTIME='0'

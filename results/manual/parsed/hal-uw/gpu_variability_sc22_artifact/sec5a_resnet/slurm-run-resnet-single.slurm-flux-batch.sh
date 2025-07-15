@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-chip-3880
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-diablo-5589
+#FLUX: --urgency=16
 
 node=$SLURM_JOB_NODELIST
 module load tacc-apptainer

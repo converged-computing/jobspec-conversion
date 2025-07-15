@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-bits-1065
+#FLUX: --job-name=expensive-snack-8030
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MERIC_MODE='1'
 export MERIC_COUNTERS='perfevent'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-dog-0403
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-buttface-7298
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cbc-group/pbs/launch-dask-worker.sh

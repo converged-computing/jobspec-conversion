@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=creg_diag
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load jupyter-kernels/py2.7

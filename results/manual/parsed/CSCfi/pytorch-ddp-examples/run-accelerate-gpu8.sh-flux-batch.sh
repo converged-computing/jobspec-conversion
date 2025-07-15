@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-ricecake-5301
+#FLUX: --job-name=red-onion-8365
 #FLUX: -N=2
 #FLUX: -c=40
 #FLUX: --queue=gputest
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load pytorch

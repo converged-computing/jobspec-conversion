@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-latke-3612
+#FLUX: --job-name=bloated-latke-5927
 #FLUX: -N=2
 #FLUX: -n=6
 #FLUX: --queue=debugq
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='/group:/group,/scratch:/scratch,/run:/run,$HOME:$HOME'
 export SINGULARITYENV_PREPEND_PATH='/srv/conda/envs/notebook/bin:/srv/conda/condabin:/srv/conda/bin'

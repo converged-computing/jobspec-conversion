@@ -3,7 +3,7 @@
 #FLUX: -n=64
 #FLUX: --queue=MAIN
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc openmpi vtk/latest felicia/latest mtc/tsv eigen/latest hdf5/latest cmake/latest git/latest petsc/latest mtc/latest
 module load cimlibxx/master

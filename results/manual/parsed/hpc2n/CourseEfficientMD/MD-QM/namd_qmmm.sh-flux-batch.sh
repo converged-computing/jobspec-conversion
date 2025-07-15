@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-sundae-7589
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-frito-6844
+#FLUX: --urgency=16
 
 ml gaussian/16.C.01-AVX2
 ml GCC/9.3.0  OpenMPI/4.0.3

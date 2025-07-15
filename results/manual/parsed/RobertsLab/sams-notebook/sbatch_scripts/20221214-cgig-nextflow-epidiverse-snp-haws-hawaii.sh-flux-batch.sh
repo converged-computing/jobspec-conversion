@@ -2,7 +2,7 @@
 #FLUX: --job-name=20221214-cgig-nextflow-epidiverse-snp-haws-hawaii
 #FLUX: --queue=srlab
 #FLUX: -t=1036800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 bams_dir="/gscratch/scrubbed/samwhite/data/C_gigas/BSseq"
 epi_snp="/gscratch/srlab/programs/epidiverse-pipelines/snp"

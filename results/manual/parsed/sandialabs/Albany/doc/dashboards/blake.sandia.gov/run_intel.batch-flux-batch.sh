@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-ricecake-3758
+#FLUX: --job-name=creamy-bicycle-0378
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ X"$SLURM_STEP_ID" = "X" -a X"$SLURM_PROCID" = "X"0 ]
 then

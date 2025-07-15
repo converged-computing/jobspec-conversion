@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bits-2672
+#FLUX: --job-name=sticky-fork-8370
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load cuda@11.0.2%gcc@9.3.0/lrd2rcw
 cd mmdetection

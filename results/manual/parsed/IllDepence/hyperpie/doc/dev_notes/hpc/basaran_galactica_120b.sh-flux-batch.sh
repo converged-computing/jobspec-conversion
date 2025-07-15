@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=basaran_galactica
 #FLUX: -t=25200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load devel/python/3.8.6_intel_19.1
 module load devel/cuda/11.6

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="tex8192"
+#FLUX: --job-name=tex8192
 #FLUX: --queue=gpu-shared
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab
 matlab -nodisplay -nosplash -nojvm -r "exp_texture_8192()"

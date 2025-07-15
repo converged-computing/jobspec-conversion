@@ -2,7 +2,7 @@
 #FLUX: --job-name=vcontact
 #FLUX: --queue=standard
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $SLURM_JOB_NODELIST
 if [ -n "$SLURM_SUBMIT_DIR" ]; then cd $SLURM_SUBMIT_DIR; fi

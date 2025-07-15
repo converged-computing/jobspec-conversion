@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-caramel-6283
-#FLUX: --priority=16
+#FLUX: --job-name=phat-taco-9237
+#FLUX: --urgency=16
 
 module load Java/15.0.1 # For working on biocluster- change for AWS
 echo "Analysis done on: "

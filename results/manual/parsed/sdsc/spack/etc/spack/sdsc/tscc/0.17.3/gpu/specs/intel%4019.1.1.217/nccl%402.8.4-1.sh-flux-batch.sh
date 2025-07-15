@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=hotel-gpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='${gccpath}:${PATH}'
 

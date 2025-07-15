@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-leader-6041
+#FLUX: --job-name=red-kerfuffle-8144
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PROJ_DIR="$HOME/projects/1a"
 BIN_DIR="$PROJ_DIR/bin"

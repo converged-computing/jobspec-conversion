@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-taco-0374
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-train-8359
+#FLUX: --urgency=16
 
 module load math/matlab-R2014b
 matlab -nojvm -nodisplay -nodesktop -r \

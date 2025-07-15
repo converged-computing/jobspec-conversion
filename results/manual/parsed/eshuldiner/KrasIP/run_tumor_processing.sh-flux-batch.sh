@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-peanut-butter-1466
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-cattywampus-2058
+#FLUX: --urgency=16
 
 ml python/3.6.4
 module load miniconda/3

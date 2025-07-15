@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-butter-0758
-#FLUX: --priority=16
+#FLUX: --job-name=arid-peas-7584
+#FLUX: --urgency=16
 
 python run_retrieval.py \
     --mode image_to_text  \

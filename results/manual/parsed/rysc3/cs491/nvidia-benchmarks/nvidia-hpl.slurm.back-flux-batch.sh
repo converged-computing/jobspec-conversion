@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nvidia-hpl
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 module load openmpi

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-pancake-5107
+#FLUX: --job-name=reclusive-lamp-2431
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

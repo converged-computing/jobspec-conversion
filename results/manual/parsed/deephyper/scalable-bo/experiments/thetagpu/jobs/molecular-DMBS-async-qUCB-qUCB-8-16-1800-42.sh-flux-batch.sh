@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-signal-3536
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-staircase-0241
+#FLUX: --urgency=16
 

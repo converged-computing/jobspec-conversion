@@ -2,7 +2,7 @@
 #FLUX: --job-name=generation-unconditional
 #FLUX: -c=8
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME='<path to your new home>'
 

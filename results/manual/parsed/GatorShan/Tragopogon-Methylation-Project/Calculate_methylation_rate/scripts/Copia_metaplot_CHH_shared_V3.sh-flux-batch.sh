@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Copia_metaplot_CHH_shared_V3
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 module purge

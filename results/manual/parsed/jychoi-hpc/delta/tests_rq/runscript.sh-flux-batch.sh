@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-onion-4320
+#FLUX: --job-name=loopy-buttface-4545
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /global/homes/r/rkube/repos/delta/rq_tests
 conda activate delta

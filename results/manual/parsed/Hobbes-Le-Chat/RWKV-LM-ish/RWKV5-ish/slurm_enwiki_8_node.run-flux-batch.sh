@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-peanut-butter-1350
+#FLUX: --job-name=blue-buttface-6066
 #FLUX: -N=8
 #FLUX: -c=3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ROCM_HOME='/opt/rocm-5.6.0'
 export TRANSFORMERS_OFFLINE='1'

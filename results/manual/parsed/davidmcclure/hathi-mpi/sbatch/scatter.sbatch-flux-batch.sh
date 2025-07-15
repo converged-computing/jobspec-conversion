@@ -2,7 +2,7 @@
 #FLUX: --job-name=scatter
 #FLUX: -N=16
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/home/dclure/hathi-mpi'
 

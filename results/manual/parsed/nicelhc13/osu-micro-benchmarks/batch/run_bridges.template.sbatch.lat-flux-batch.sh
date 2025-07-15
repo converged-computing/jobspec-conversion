@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-car-9567
+#FLUX: --job-name=faux-truffle-0028
 #FLUX: -N=2
 #FLUX: -n=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HFILE='`generate_pbs_nodefile`'
 export OMP_NUM_THREADS='1'

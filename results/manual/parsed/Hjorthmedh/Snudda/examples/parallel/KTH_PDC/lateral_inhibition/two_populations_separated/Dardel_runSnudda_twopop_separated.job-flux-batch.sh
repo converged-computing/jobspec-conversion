@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-house-6582
+#FLUX: --job-name=expensive-cupcake-7882
 #FLUX: -c=2
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IPNWORKERS='$NWORKERS'
 export IPYTHONDIR='/cfs/klemming/scratch/${USER:0:1}/$USER/.ipython'

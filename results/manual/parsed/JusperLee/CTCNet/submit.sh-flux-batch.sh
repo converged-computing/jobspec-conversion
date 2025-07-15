@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-citrus-8028
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-bits-8003
+#FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='eth0'
 export NCCL_IB_DISABLE='1'

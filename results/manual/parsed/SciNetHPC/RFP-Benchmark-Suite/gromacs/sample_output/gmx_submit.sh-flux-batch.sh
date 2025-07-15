@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-chip-4301
+#FLUX: --job-name=creamy-hippo-0708
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export gmx='/scratch/s/scinet/rzon/gmxb/gromacs-2024/gmx_install/bin/gmx'
 export GMX_ENABLE_DIRECT_GPU_COMM='1'

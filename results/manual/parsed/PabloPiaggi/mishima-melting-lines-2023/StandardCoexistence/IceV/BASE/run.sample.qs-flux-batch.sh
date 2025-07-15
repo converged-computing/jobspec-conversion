@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-leopard-0261
+#FLUX: --job-name=expressive-parrot-9481
 #FLUX: -c=7
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cudatoolkit/10.0
 module load cudnn/cuda-10.0/7.6.3

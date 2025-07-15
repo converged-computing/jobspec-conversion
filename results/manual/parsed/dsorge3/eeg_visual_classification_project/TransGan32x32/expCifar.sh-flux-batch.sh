@@ -2,7 +2,7 @@
 #FLUX: --job-name=VisualImagCifarLstm
 #FLUX: -c=8
 #FLUX: --queue=xgpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/3
 module load cuda/10.1

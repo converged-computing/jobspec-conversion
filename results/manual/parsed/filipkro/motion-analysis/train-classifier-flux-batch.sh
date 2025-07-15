@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-dog-1535
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-cat-2545
+#FLUX: --urgency=16
 
 data_set="data_Octavio-Paz.npz"
 archive="VA-classification"

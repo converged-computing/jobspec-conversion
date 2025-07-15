@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="{{ id }}"
+#FLUX: --job-name={{ id }}
 #FLUX: -n=8
 #FLUX: --queue=48hr-long-std
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 {% extends "slurm.sh" %}
 {% block header %}

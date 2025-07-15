@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-train-5845
+#FLUX: --job-name=hanky-house-9590
 #FLUX: -N=16
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo Using nodes: $SLURM_NODELIST
 source $WRKDIR/miniconda3/etc/profile.d/conda.sh

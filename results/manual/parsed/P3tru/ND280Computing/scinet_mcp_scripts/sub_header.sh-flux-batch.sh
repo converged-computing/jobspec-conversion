@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-fork-6403
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-house-6127
+#FLUX: --urgency=16
 

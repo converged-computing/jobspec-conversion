@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-mango-2206
-#FLUX: --priority=16
+#FLUX: --job-name=fat-earthworm-7635
+#FLUX: --urgency=16
 
 export MATLABPATH='${MATLABPATH}:../../matlab'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hippo-1650
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-latke-3167
+#FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/psii/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='8'

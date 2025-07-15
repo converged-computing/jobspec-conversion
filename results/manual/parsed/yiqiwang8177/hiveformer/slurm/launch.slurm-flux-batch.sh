@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=hiveformer
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XDG_RUNTIME_DIR='$SCRATCH/tmp/runtime-$SLURM_JOBID'
 

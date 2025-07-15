@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-destiny-2688
+#FLUX: --job-name=astute-omelette-5711
 #FLUX: --queue=cortex
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda
 module unload intel

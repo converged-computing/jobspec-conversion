@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-general-7586
+#FLUX: --job-name=moolicious-egg-7642
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dir_output=.
 use_spark=0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-avocado-6845
-#FLUX: --priority=16
+#FLUX: --job-name=salted-leg-9153
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/whenUC_edFlex_ops.sh

@@ -2,7 +2,7 @@
 #FLUX: --job-name=hi-c_hydrad
 #FLUX: --queue=commons
 #FLUX: -t=28799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 printf -v LOOP_NUM "%06d" $SLURM_ARRAY_TASK_ID
 RESULTS_DIR=$SHARED_SCRATCH/wtb2/hi_c_simulation

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peanut-4314
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-animal-1298
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MinHanLiWesley/MACHINE_LEARNING_2021_SPRING/Hw11.sh

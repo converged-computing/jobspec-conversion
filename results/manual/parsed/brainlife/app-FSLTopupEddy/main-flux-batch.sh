@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-leg-0731
-#FLUX: --priority=16
+#FLUX: --job-name=placid-chair-3253
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-FSLTopupEddy/main

@@ -2,7 +2,7 @@
 #FLUX: --job-name=TTA
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export CUDA_LAUNCH_BLOCKING='1'

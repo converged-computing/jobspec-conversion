@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lemon-2180
+#FLUX: --job-name=creamy-house-3177
 #FLUX: -t=288000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load baskerville

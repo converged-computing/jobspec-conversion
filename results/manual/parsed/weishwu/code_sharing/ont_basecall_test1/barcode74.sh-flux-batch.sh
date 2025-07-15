@@ -4,7 +4,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='${pjdir}/env/nextflow_singularity_images/'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Nextflow_WGS
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_JAVA_HOME='$workflow_path/tools/java/jdk'
 

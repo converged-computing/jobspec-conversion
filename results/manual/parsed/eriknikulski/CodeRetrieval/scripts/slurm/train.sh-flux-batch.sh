@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=alpha
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 while getopts dpl: flag
 do

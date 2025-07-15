@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-noodle-7929
+#FLUX: --job-name=strawberry-animal-7336
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=1
 module load cuda

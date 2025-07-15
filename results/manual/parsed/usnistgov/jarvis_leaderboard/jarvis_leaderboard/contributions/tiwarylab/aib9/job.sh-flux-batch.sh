@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=AIB9
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda
 module load gcc

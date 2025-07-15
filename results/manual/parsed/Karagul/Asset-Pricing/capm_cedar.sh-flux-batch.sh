@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-lemon-2658
+#FLUX: --job-name=crusty-soup-5180
 #FLUX: -n=10
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python27-mpi4py/2.0.0
 module load miniconda2

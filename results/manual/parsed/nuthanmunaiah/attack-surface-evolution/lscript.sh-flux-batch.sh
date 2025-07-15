@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-kitty-7880
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-citrus-1705
+#FLUX: --urgency=16
 
 subject=$1
 cpus=$2

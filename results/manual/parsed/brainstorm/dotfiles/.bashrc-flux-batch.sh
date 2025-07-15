@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-banana-0467
+#FLUX: --job-name=pusheena-hippo-2660
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GPG_TTY='$(tty)'
 export LANG='en_US.UTF-8'

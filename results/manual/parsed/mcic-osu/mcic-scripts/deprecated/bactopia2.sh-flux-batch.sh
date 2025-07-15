@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bactopia
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DESCRIPTION="Run the Bactopia workflow (up to version 2, there's a separate script for version 3)"
 MODULE=miniconda3/4.12.0-py39

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-pastry-9391
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-bike-5648
+#FLUX: -n=2
+#FLUX: --urgency=16
 
 hostname
 MEM=24g

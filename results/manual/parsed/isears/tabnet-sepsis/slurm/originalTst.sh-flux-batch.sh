@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-kerfuffle-0794
+#FLUX: --job-name=goodbye-poo-2385
 #FLUX: -c=16
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

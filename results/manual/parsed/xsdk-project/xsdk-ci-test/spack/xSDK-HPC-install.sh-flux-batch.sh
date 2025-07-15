@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=XSDK_TEST
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 XSDKINSTALL="#!/bin/bash
 spack install xsdk<COMPILERS>"

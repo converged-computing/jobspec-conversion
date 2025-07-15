@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-fudge-2851
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-cattywampus-4607
+#FLUX: --urgency=16
 
 export bell='$repo_path/Clusters/xCAT-Bell-Configuration/puppet/modules/common/files/opt/spack/modulefiles'
 export negishi='$repo_path/Clusters/Negishi-Modulefiles'

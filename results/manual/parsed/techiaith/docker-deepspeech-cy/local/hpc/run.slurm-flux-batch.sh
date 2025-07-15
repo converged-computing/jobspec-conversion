@@ -2,7 +2,7 @@
 #FLUX: --job-name=cy_deepspeech
 #FLUX: -c=8
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load singularity

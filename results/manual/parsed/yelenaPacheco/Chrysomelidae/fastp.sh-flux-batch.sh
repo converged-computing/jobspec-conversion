@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-cat-8378
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-bits-1100
+#FLUX: --urgency=16
 
 if [ ! -d trimmed_reads ]
 then

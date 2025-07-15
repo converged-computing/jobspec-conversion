@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-nalgas-4513
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-parsnip-4844
+#FLUX: --urgency=16
 
 pwd
 date

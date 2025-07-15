@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leopard-0339
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-frito-9809
+#FLUX: --urgency=16
 
 module use /share/bpotter/modulefiles/
 module load rocshmem/1.6.3

@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=standard-g
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_SOCKET_IFNAME='hsn'

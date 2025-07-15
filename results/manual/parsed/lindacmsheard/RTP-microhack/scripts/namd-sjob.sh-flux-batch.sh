@@ -2,7 +2,7 @@
 #FLUX: --job-name=namd
 #FLUX: -n=120
 #FLUX: --queue=hpc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_PATH='${PATH}'
 export SINGULARITYENV_LD_LIBRARY_PATH='${LD_LIBRARY_PATH}'

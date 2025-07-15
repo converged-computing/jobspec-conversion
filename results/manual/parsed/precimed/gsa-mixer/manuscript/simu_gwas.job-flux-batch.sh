@@ -2,7 +2,7 @@
 #FLUX: --job-name=simugwa5
 #FLUX: -c=16
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export THREADS='16'
 export FOLDER='/ess/p697/cluster/users/ofrei/2023_02_06_GSA_MiXeR_natgen_revisions/simu_snps'

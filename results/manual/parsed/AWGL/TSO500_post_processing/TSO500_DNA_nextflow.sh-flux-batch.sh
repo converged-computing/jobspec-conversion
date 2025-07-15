@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-squidward-2585
+#FLUX: --job-name=delicious-car-5175
 #FLUX: --queue=high
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 FASTQ_PATH=$1
 SAMPLES_ORDER=$2

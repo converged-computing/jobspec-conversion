@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-butter-5614
+#FLUX: --job-name=fuzzy-cupcake-7947
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='32'
 

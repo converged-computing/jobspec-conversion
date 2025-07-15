@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cat-6018
+#FLUX: --job-name=dinosaur-peanut-butter-8215
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/mnt/sw/nix/store/3xpm36w2kcri3j1m5j15hg025my1p4kx-cuda-11.8.0/extras/CUPTI/lib64/'
 export TF_GPU_THREAD_MODE='gpu_private'

@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=gpu-a100
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load foss/2022a
 module load GCCcore/11.3.0; module load Python/3.10.4

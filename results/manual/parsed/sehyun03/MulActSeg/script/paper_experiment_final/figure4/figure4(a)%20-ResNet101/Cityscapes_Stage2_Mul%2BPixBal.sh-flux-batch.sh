@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-soup-9853
+#FLUX: --job-name=bumfuzzled-platanos-3375
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_SPAWN_METHOD='fork'
 

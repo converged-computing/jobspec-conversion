@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-rabbit-4480
+#FLUX: --job-name=anxious-cat-3761
 #FLUX: --queue=LongJobs
 #FLUX: -t=288000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='/opt/cuda-9.0.176.1/'
 export CUDNN_HOME='/opt/cuDNN-7.0/'

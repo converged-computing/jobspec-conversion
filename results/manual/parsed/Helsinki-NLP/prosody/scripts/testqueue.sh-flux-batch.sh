@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-punk-2384
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-lentil-3404
+#FLUX: --urgency=16
 
 module purge
 module load gcc cuda python-env/3.6.3-ml

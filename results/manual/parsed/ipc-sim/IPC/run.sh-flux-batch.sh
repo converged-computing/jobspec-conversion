@@ -2,7 +2,7 @@
 #FLUX: --job-name=IPC_run
 #FLUX: -c=12
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if type "module" > /dev/null 2>&1; then
     # Load modules

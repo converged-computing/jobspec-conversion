@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-arm-5004
+#FLUX: --job-name=goodbye-puppy-4846
 #FLUX: -N=5
 #FLUX: -n=5
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nodes=($( scontrol show hostnames $SLURM_NODELIST ))
 nnodes=${#nodes[@]}

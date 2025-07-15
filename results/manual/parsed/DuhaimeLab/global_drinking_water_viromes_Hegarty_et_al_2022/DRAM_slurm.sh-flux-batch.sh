@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=standard
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $SLURM_JOB_NODELIST
 echo ${SLURM_ARRAY_TASK_ID}

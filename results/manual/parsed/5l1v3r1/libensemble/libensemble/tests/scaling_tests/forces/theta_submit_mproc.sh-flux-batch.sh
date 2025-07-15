@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leg-1139
-#FLUX: --priority=16
+#FLUX: --job-name=fat-caramel-6663
+#FLUX: --urgency=16
 

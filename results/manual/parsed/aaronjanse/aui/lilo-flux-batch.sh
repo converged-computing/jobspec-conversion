@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-lamp-6600
-#FLUX: --priority=16
+#FLUX: --job-name=tart-sundae-3835
+#FLUX: --urgency=16
 

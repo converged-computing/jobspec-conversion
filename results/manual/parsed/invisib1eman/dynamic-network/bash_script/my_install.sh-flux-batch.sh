@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="install_lammps"     ## When you run squeue -u NETID this is how you can identify the job
-#FLUX: --priority=16
+#FLUX: --job-name=install_lammps
+#FLUX: --urgency=16
 
 export dir='/projects/b1021/Jianshe/codes/lammps/lammps-stable/lammps-29Sep2021/cmake'
 export indir='/projects/b1021/Jianshe/codes/lammps/lammps-stable/install2'

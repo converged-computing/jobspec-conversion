@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-peanut-6687
+#FLUX: --job-name=phat-eagle-2512
 #FLUX: --exclusive
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set +x
 mkdir -p ${HOME}/repos/nvstdpar/build-fft-gpu

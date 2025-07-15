@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-onion-8972
-#FLUX: --priority=16
+#FLUX: --job-name=grated-pot-0988
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

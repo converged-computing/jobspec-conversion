@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-underoos-8084
+#FLUX: --job-name=conspicuous-motorcycle-2173
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

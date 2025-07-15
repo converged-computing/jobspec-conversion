@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-onion-3000
+#FLUX: --job-name=grated-noodle-5317
 #FLUX: -c=128
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 : "${APPS_PATH:=/fsx}"
 : "${MODEL_PATH:=/fsx}"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-bicycle-9177
+#FLUX: --job-name=frigid-bits-8810
 #FLUX: --queue=mhealth,...
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IFS=';'
 

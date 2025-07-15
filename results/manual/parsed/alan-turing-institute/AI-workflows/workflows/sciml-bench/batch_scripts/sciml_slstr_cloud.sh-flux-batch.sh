@@ -2,7 +2,7 @@
 #FLUX: --job-name=sciml_slstr_cloud
 #FLUX: --queue=%partition
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load %modules

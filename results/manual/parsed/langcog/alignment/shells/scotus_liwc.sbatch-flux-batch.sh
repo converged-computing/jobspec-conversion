@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=SCOTUS79
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~gdoyle/seetweet/alignment/alignment/
 module load python/3.3.2

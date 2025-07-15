@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="blastx_RVDB_array"
+#FLUX: --job-name=blastx_RVDB_array
 #FLUX: --queue=work
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export library_run='${myarray["$SLURM_ARRAY_TASK_ID"]}'
 

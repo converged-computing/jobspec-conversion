@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-staircase-5424
+#FLUX: --job-name=goodbye-lamp-7745
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODULEPATH='/opt/apps/resif/iris/2019b/gpu/modules/all/'
 export ANACONDA='/opt/apps/resif/iris/2019b/default/modules/all/lang/Anaconda3/'

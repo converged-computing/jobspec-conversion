@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=jupyter-notebook
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

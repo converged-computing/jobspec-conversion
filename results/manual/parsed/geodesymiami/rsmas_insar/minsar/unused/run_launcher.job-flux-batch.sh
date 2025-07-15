@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-poo-8168
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-toaster-2356
+#FLUX: --urgency=16
 
 export LD_PRELOAD='/home1/apps/tacc-patches/python_cacher/myopen.so'
 export PATH='/home1/05861/tg851601/test/operations/rsmas_insar/sources/isce2/contrib/stack/topsStack:$PATH'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=""
+#FLUX: --job-name=phat-rabbit-0379
 #FLUX: -c=8
 #FLUX: --queue=iris-hi
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate cs330

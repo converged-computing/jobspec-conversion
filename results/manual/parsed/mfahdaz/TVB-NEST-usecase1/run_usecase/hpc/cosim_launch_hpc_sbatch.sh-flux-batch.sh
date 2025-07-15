@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hobbit-4462
+#FLUX: --job-name=milky-bits-0408
 #FLUX: -N=2
 #FLUX: --queue=develgpus
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CO_SIM_ROOT_PATH='${PROJECT_cslns}/${LOGNAME}/multiscale-cosim'
 export CO_SIM_MODULES_ROOT_PATH='${CO_SIM_ROOT_PATH}/TVB-NEST-usecase1'

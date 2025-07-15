@@ -2,7 +2,7 @@
 #FLUX: --job-name=Myb_ChIP_macs2_hg19
 #FLUX: -c=10
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /cluster/bin/jobsetup
 set -o errexit

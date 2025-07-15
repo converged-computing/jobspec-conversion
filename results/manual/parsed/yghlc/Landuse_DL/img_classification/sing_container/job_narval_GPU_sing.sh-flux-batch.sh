@@ -2,7 +2,7 @@
 #FLUX: --job-name=testGPU
 #FLUX: -n=4
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load StdEnv/2020 apptainer/1.1.8

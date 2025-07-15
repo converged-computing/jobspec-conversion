@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="vscode"
+#FLUX: --job-name=vscode
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CRAY_CUDA_MPS='1'
 export HV_WORKSPACE='$SCRATCH/gt4py_vscode_workspace # TODO make unique'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-hobbit-2930
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-plant-9640
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bremond/faf/compile/siconos_compile

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-punk-0041
+#FLUX: --job-name=ornery-toaster-8495
 #FLUX: --queue=overcap
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 log_id=$1
 echo "On node ${HOSTNAME}"

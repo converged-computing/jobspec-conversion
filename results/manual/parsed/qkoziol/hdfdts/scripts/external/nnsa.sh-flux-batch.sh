@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-blackbean-4678
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-chair-9112
+#FLUX: --urgency=16
 
 NO_COLOR="\033[0m"
 OK_COLOR="\033[32;01m"

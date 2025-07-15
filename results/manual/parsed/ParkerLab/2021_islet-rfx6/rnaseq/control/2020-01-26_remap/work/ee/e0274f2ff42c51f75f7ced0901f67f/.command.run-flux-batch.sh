@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lamp-0110
-#FLUX: --priority=16
+#FLUX: --job-name=milky-hippo-0598
+#FLUX: --urgency=16
 
 set -e
 set -u

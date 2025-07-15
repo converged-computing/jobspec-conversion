@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: --queue=debugq
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euxo pipefail
 module load slurm

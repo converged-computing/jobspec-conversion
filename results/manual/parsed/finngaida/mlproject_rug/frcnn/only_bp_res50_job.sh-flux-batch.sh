@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Train tf FRCNN Keras model with only bp data resnet50 as backbone not training shared layers"
+#FLUX: --job-name=Train tf FRCNN Keras model with only bp data resnet50 as backbone not training shared layers
 #FLUX: --queue=gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python/3.6.4-foss-2018a
 module load tensorflow/1.5.0-foss-2016a-Python-3.5.2-CUDA-9.1.85

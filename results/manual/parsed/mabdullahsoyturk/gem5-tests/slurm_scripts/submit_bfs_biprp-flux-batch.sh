@@ -2,7 +2,7 @@
 #FLUX: --job-name=gem5-bfs-biprp
 #FLUX: -n=4
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Running gem5 command..."
 date

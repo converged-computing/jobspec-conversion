@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-squidward-7263
-#FLUX: --priority=16
+#FLUX: --job-name=hello-toaster-1551
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/caskorg/cask/lib/sparse-bench/src/cpu/petsc/run.sh

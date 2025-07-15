@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=coupled
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_CXI_RX_MATCH_MODE='software'
 export OMP_PROC_BIND='true'

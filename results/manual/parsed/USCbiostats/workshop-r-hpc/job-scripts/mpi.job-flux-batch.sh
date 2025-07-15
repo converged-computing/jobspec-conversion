@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-onion-2431
+#FLUX: --job-name=dinosaur-fudge-2689
 #FLUX: -N=2
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/8.3.0

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-frito-3757
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-bicycle-6244
+#FLUX: --urgency=16
 
 echo NODELIST: $SLURM_NODELIST
 echo TASKS-PER-NODE: $SLURM_TASKS_PER_NODE

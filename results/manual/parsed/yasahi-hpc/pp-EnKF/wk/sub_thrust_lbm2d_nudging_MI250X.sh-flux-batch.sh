@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-ricecake-0714
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-punk-2708
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 

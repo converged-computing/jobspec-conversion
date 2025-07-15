@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-truffle-1746
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-muffin-1090
+#FLUX: --urgency=16
 
 module load python/3.7.4
 source ChromAge_venv/bin/activate

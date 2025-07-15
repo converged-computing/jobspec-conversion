@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nextflow_rnaseq_trial
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/izkf/nextflow/miniconda2/bin:/home/izkf/nextflow/miniconda2/envs/nf-core-rnaseq-1.4.2/bin:$PATH'
 export PYTHONPATH='/home/izkf/nextflow/miniconda2/envs/nf-core-rnaseq-1.4.2/lib/python2.7/site-packages:$PYTHONPATH'

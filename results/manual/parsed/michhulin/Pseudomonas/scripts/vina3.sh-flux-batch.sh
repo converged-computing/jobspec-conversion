@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-salad-2287
+#FLUX: --job-name=goodbye-punk-4533
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 Usage='vina.sh <input pdbqt> <config> <output dir> <ligand directory>'
 f=$1

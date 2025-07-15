@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-squidward-6693
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-onion-2278
+#FLUX: --urgency=16
 
 myiter=antbe6 #name (APPL) of this iteration
 previter=antbe5 #name of previous iteration

@@ -2,7 +2,7 @@
 #FLUX: --job-name=13_get_S4
 #FLUX: -c=64
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load StdEnv/2020
 module load julia/1.9.1

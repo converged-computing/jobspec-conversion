@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=gpu_p1
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate clinicadl_env_py37

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="structure"
-#FLUX: --priority=16
+#FLUX: --job-name=structure
+#FLUX: --urgency=16
 
 export PATH='/home1/02572/scychon/program/gmx-4.6.5_knl/bin:$PATH'
 export OMP_NUM_THREADS='8'

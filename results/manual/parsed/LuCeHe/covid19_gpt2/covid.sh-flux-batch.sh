@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-soup-8793
+#FLUX: --job-name=pusheena-fork-5387
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.6
 source ~/projects/def-jrouat/lucacehe/denv2/bin/activate

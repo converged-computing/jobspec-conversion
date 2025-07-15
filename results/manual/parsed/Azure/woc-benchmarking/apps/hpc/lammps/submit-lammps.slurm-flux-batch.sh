@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=hbv3
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMIX_INSTALL_PREFIX='$OPAL_PREFIX'
 export NPCS='$((SLURM_NNODES * 40))'

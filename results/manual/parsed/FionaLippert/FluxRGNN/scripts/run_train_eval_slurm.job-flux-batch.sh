@@ -2,7 +2,7 @@
 #FLUX: --job-name=train_eval
 #FLUX: --queue=gpu_shared
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate fluxrgnn
 module load 2020

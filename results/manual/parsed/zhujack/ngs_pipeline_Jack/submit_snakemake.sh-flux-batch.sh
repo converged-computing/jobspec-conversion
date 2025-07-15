@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="1s"
-#FLUX: --queue="unlimited"
-#FLUX: --priority=16
+#FLUX: --job-name=1s
+#FLUX: --queue=unlimited
+#FLUX: --urgency=16
 
 export NGS_PIPELINE='/data/Clinomics/Tools/ngs-pipeline'
 export WORK_DIR='`pwd`'

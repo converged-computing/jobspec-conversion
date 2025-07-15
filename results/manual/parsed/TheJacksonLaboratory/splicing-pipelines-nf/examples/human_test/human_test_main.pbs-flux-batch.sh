@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-blackbean-4374
+#FLUX: --job-name=red-itch-4543
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_VER='20.04.1'
 

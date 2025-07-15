@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-puppy-5010
+#FLUX: --job-name=placid-caramel-0115
 #FLUX: --queue=small
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load pytorch/1.13
 . ./env.sh

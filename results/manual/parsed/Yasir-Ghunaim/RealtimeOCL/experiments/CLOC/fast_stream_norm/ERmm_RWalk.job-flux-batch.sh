@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-parsnip-5063
+#FLUX: --job-name=eccentric-dog-3349
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.1.0

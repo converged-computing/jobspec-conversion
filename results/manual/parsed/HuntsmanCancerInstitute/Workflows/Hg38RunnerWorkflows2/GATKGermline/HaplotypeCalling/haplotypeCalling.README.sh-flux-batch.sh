@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-snack-1395
+#FLUX: --job-name=wobbly-motorcycle-5659
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 which singularity &> /dev/null || module load singularity

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-muffin-0013
+#FLUX: --job-name=placid-frito-2749
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$here:$PATH'
 

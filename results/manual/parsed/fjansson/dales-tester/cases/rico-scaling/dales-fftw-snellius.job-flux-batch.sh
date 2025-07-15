@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-mango-7949
+#FLUX: --job-name=creamy-eagle-7187
 #FLUX: --queue=rome
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2022
 module load foss/2022a

@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=shas
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load intel/17.4

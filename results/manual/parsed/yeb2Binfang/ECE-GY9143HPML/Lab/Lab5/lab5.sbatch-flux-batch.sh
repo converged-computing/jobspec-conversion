@@ -2,7 +2,7 @@
 #FLUX: --job-name=dp2
 #FLUX: -c=12
 #FLUX: -t=19200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/intel/3.8.6

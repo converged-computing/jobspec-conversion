@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-malarkey-7820
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-car-3080
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

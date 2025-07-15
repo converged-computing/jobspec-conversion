@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-general-9820
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-eagle-6004
+#FLUX: --urgency=16
 
 export CC='$(which gcc)'
 export CXX='$(which g++)'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-destiny-4340
+#FLUX: --job-name=creamy-spoon-7086
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow
 NXF_SINGULARITY_CACHEDIR=/data/CCBR_Pipeliner/SIFS

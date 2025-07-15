@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-nalgas-1048
-#FLUX: --priority=16
+#FLUX: --job-name=red-egg-9937
+#FLUX: --urgency=16
 
 module load userspace/all
 module load python3/3.6.3

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fMRI-PrePro
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WhichMASSIVE=$1
 WhichProject=$2

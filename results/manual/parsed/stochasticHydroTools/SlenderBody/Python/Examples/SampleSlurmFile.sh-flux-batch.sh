@@ -2,7 +2,7 @@
 #FLUX: --job-name=BundleRigFl
 #FLUX: -c=16
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/intel/3.8.6

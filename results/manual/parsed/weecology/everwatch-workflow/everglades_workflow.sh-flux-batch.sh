@@ -3,7 +3,7 @@
 #FLUX: -c=60
 #FLUX: --queue=gpu
 #FLUX: -t=288000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "INFO: [$(date "+%Y-%m-%d %H:%M:%S")] Starting everglades workflow on $(hostname) in $(pwd)"
 echo "INFO [$(date "+%Y-%m-%d %H:%M:%S")] Loading required modules"

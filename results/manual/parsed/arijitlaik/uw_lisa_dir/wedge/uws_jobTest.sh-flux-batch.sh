@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-chip-2573
+#FLUX: --job-name=astute-general-7441
 #FLUX: -N=3
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "********** CPU-INFO**********"
 lscpu

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-avocado-1456
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-despacito-4776
+#FLUX: --urgency=16
 
 read INPUTPRECOMPUTEDFILE < <( sed -n ${SLURM_ARRAY_TASK_ID}p $1 )
 echo "... Loading software"

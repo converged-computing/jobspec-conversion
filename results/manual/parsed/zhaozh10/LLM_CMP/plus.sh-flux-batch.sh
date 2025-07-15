@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=LLM_CMP_${TIME_SUFFIX}
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 set -x

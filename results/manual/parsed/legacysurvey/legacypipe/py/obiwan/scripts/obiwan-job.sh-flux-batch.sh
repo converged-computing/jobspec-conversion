@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-parsnip-3990
-#FLUX: --priority=16
+#FLUX: --job-name=grated-hippo-9047
+#FLUX: --urgency=16
 
 export runwhat='lrg'
 export outdir='$DECALS_SIM_DIR'

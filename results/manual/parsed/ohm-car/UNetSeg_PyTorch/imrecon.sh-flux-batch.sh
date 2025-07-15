@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mlrseg
 #FLUX: -t=907200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'
 

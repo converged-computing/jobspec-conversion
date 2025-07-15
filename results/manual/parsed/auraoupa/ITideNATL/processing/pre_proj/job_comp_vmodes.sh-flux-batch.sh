@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-diablo-1817
+#FLUX: --job-name=placid-house-6209
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module purge

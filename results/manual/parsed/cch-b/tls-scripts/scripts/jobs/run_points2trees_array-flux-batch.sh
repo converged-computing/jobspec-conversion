@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-butter-0422
+#FLUX: --job-name=adorable-frito-0483
 #FLUX: --queue=high-mem
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export N='$(printf %03d $SLURM_ARRAY_TASK_ID)'
 

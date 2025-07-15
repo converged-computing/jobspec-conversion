@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-staircase-8258
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-motorcycle-2393
+#FLUX: --urgency=16
 
 id -a
 module purge

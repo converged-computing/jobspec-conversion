@@ -1,584 +1,619 @@
-# This shell script is executed at the beginning of create_*.sh, launch.sh, cancel.sh and check.sh
+#!/bin/bash
 
-. common.sh
+source ensembles.sh
 
-ensembles="ensemble0"
-
-ensemble0() {
-	# Tasks to run
-	run_eigs="nop"
-	run_props="yes"
-	run_gprops="yes"
-	run_baryons="yes"
-	run_mesons="nop"
-	run_discos="nop"
-	run_redstar="yes"
-
-	run_onthefly="yes"
-	onthefly_chroma_minutes=120
-	max_moms_per_job=100
-
-	# Ensemble properties
-	confsprefix="cl21_32_64_b6p3_m0p2350_m0p2050"
-	ensemble="cl21_32_64_b6p3_m0p2350_m0p2050"
-	confsname="cl21_32_64_b6p3_m0p2350_m0p2050"
-	tag="cl21_32_64_b6p3_m0p2350_m0p2050"
-	confs="`seq 1000 10 4500`"
-	s_size=32 # lattice spatial size
-	t_size=64 # lattice temporal size
-
-	# configuration filename
-	lime_file_name() { echo "${confspath}/${confsprefix}/cfgs/${confsname}_cfg_${cfg}.lime"; }
-	lime_transfer_from_jlab="yes"
-
-	# Colorvecs options
-	max_nvec=128  # colorvecs to compute
-	nvec=64  # colorvecs to use
-	eigs_smear_rho=0.08 # smearing factor
-	eigs_smear_steps=10 # smearing steps
-	# colorvec filename
-	colorvec_file_name() { echo "${confspath}/${confsprefix}/eigs_mod/${confsname}.3d.eigs.mod${cfg}"; }
-	eigs_slurm_nodes=2
-	eigs_chroma_geometry="1 2 2 4"
-	eigs_chroma_minutes=600
-	eigs_transfer_back="nop"
-	eigs_delete_after_transfer_back="nop"
-	eigs_transfer_from_jlab="yes"
-
-	# Props options
-	prop_t_sources="0 16 32 48"
-	prop_t_fwd=16
-	prop_t_back=0
-	prop_nvec=96
-	prop_zphases="0.00 2.00 -2.00"
-	prop_mass="-0.2350"
-	prop_clov="1.20536588031793"
-	prop_mass_label="U${prop_mass}"
-	prop_slurm_nodes=2
-	prop_chroma_geometry="1 2 2 4"
-	prop_chroma_minutes=600
-	prop_inv="
-              <invType>QUDA_MULTIGRID_CLOVER_INVERTER</invType>
-              <CloverParams>
-                <Mass>${prop_mass}</Mass>
-                <clovCoeff>${prop_clov}</clovCoeff>
-                <AnisoParam>
-                  <anisoP>false</anisoP>
-                  <t_dir>3</t_dir>
-                  <xi_0>1</xi_0>
-                  <nu>1</nu>
-                </AnisoParam>
-              </CloverParams>
-              <RsdTarget>1e-07</RsdTarget>
-              <Delta>0.1</Delta>
-              <Pipeline>4</Pipeline>
-              <MaxIter>500</MaxIter>
-              <RsdToleranceFactor>8.0</RsdToleranceFactor>
-              <AntiPeriodicT>true</AntiPeriodicT>
-              <SolverType>GCR</SolverType>
-              <Verbose>true</Verbose>
-              <AsymmetricLinop>true</AsymmetricLinop>
-              <CudaReconstruct>RECONS_12</CudaReconstruct>
-              <CudaSloppyPrecision>SINGLE</CudaSloppyPrecision>
-              <CudaSloppyReconstruct>RECONS_8</CudaSloppyReconstruct>
-              <AxialGaugeFix>false</AxialGaugeFix>
-              <AutotuneDslash>true</AutotuneDslash>
-              <MULTIGRIDParams>
-                <Verbosity>true</Verbosity>
-                <Precision>HALF</Precision>
-                <Reconstruct>RECONS_8</Reconstruct>
-                <Blocking>
-                  <elem>4 4 4 4</elem>
-                  <elem>2 2 2 2</elem>
-                </Blocking>
-                <CoarseSolverType>
-                  <elem>GCR</elem>
-                  <elem>CA_GCR</elem>
-                </CoarseSolverType>
-                <CoarseResidual>0.1 0.1 0.1</CoarseResidual>
-                <MaxCoarseIterations>12 12 8</MaxCoarseIterations>
-                <RelaxationOmegaMG>1.0 1.0 1.0</RelaxationOmegaMG>
-                <SmootherType>
-                  <elem>CA_GCR</elem>
-                  <elem>CA_GCR</elem>
-                  <elem>CA_GCR</elem>
-                </SmootherType>
-                <SmootherTol>0.25 0.25 0.25</SmootherTol>
-                <NullVectors>24 32</NullVectors>
-                <Pre-SmootherApplications>0 0</Pre-SmootherApplications>
-                <Post-SmootherApplications>8 8</Post-SmootherApplications>
-                <SubspaceSolver>
-                  <elem>CG</elem>
-                  <elem>CG</elem>
-                </SubspaceSolver>
-                <RsdTargetSubspaceCreate>5e-06 5e-06</RsdTargetSubspaceCreate>
-                <MaxIterSubspaceCreate>500 500</MaxIterSubspaceCreate>
-                <MaxIterSubspaceRefresh>500 500</MaxIterSubspaceRefresh>
-                <OuterGCRNKrylov>20</OuterGCRNKrylov>
-                <PrecondGCRNKrylov>10</PrecondGCRNKrylov>
-                <GenerateNullspace>true</GenerateNullspace>
-                <GenerateAllLevels>true</GenerateAllLevels>
-                <CheckMultigridSetup>false</CheckMultigridSetup>
-                <CycleType>MG_RECURSIVE</CycleType>
-                <SchwarzType>ADDITIVE_SCHWARZ</SchwarzType>
-                <RelaxationOmegaOuter>1.0</RelaxationOmegaOuter>
-                <SetupOnGPU>1 1</SetupOnGPU>
-              </MULTIGRIDParams>
-              <SubspaceID>mg_subspace</SubspaceID>
-              <SolutionCheckP>true</SolutionCheckP>
- "
-
-	# propagator filename
-	prop_file_name() {
-		local n node
-		if [ ${zphase} == 0.00 ]; then
-			n="${confspath}/${confsprefix}/prop_db/${confsname}.prop.n${prop_nvec}.light.t0_${t_source}.sdb${cfg}"
-		else
-			n="${confspath}/${confsprefix}/phased/prop_db/d001_${zphase}/${cfg}/${confsname}.phased_${zphase}.prop.n${prop_nvec}.light.t0_${t_source}.sdb${cfg}"
-		fi
-		if [ $run_onthefly == yes -a $run_props == yes ] ; then
-			n="${localpath}/${n//\//_}"
-			if [ x$1 == xsingle ] ; then
-				echo $n
-			else
-				for (( node=0 ; node<gprop_slurm_nodes*slurm_procs_per_node ; ++node )) ; do
-					echo "${n}.part_$node"
-				done
-			fi
-		else
-			echo $n
-		fi
-		if [ $run_onthefly == yes -a $run_props == yes ] ; then
-			prot=""
-			[ x$1 != xsingle ] && prot="afs:"
-			n="${prot}${localpath}/${n//\//_}"
-		fi
-		echo $n
-	}
-	prop_transfer_back="nop"
-	prop_delete_after_transfer_back="nop"
-	prop_transfer_from_jlab="nop"
-
-	# Genprops options
-	gprop_t_sources="${prop_t_sources}"
-	gprop_t_seps="4 6 8 10 12 14"
-	gprop_zphases="${prop_zphases}"
-	gprop_nvec=$nvec
-	gprop_moms="0 0 0"
-	gprop_moms="`echo "$gprop_moms" | while read mx my mz; do echo "$mx $my $mz"; echo "$(( -mx )) $(( -my )) $(( -mz ))"; done | sort -u`"
-	gprop_max_tslices_in_contraction=1
-	gprop_max_mom_in_contraction=1
-	gprop_slurm_nodes=1
-	gprop_chroma_geometry="1 1 2 4"
-	gprop_chroma_minutes=120
-	localpath="/tmp"
-	gprop_file_name() {
-		local t_seps_commas="`echo $gprop_t_seps | xargs | tr ' ' ,`"
-		local n node
-		if [ $zphase == 0.00 ]; then
-			n="${confspath}/${confsprefix}/unsmeared_meson_dbs/t0_${t_source}/unsmeared_meson.n${gprop_nvec}.${t_source}.tsnk_${t_seps_commas}.sdb${cfg}"
-		else
-			n="${confspath}/${confsprefix}/phased/unsmeared_meson_dbs/d001_${zphase}/t0_${t_source}/unsmeared_meson.phased_d001_${zphase}.n${gprop_nvec}.${t_source}.tsnk_${t_seps_commas}.sdb${cfg}"
-		fi
-		if [ $run_onthefly == yes -a $run_gprops == yes ] ; then
-			n="${localpath}/${n//\//_}"
-			if [ x$1 == xsingle ] ; then
-				echo $n
-			else
-				for (( node=0 ; node<gprop_slurm_nodes*slurm_procs_per_node ; ++node )) ; do
-					echo "afs:${n}.part_$node"
-				done
-			fi
-		else
-			echo $n
-		fi
-	}
-	gprop_transfer_back="nop"
-	gprop_delete_after_transfer_back="nop"
-	gprop_transfer_from_jlab="nop"
-
-	# Meson options
-	meson_nvec=$nvec
-	meson_zphases="0.00 2.00"
-	meson_slurm_nodes=2
-	meson_chroma_max_tslices_in_contraction="1" # as large as possible
-	meson_chroma_geometry="1 2 2 4"
-	meson_chroma_minutes=600
-	meson_chroma_parts=4 # split the time slices into this many different files
-	meson_file_name() {
-		if [ ${zphase} == 0.00 ]; then
-			n="${confspath}/${confsprefix}/meson_db/${confsname}.n${meson_nvec}.m2_0_0.meson.colorvec.t_0_$((t_size-1)).sdb${cfg}"
-		else
-			n="${confspath}/${confsprefix}/meson_db/${confsname}.n${meson_nvec}.m2_0_0.meson.colorvec.t_0_$((t_size-1)).phased_${zphase}.sdb${cfg}"
-		fi
-		if [ $meson_chroma_parts == 1 ]; then
-			echo $n
-		else
-			for i in `seq 1 $meson_chroma_parts`; do
-				echo $n.part_$i
-			done
-		fi
-	}
-	meson_transfer_from_jlab="nop"
-	meson_extra_xml="
-        <mom_list>
-                <elem>0 0 0</elem>
-                <elem>1 0 0</elem>
-                <elem>-1 0 0</elem>
-                <elem>0 1 0</elem>
-                <elem>0 -1 0</elem>
-                <elem>0 0 1</elem>
-                <elem>0 0 -1</elem>
-                <elem>2 0 0</elem>
-                <elem>-2 0 0</elem>
-                <elem>0 2 0</elem>
-                <elem>0 -2 0</elem>
-                <elem>0 0 2</elem>
-                <elem>0 0 -2</elem>
-                <elem>3 0 0</elem>
-                <elem>-3 0 0</elem>
-                <elem>0 3 0</elem>
-                <elem>0 -3 0</elem>
-                <elem>0 0 3</elem>
-                <elem>0 0 -3</elem>
-        </mom_list>
-        <!-- List of displacement arrays -->
-        <displacement_list>
-          <elem></elem>
-          <elem>1</elem>
-          <elem>2</elem>
-          <elem>3</elem>
-          <elem>1 1</elem>
-          <elem>2 2</elem>
-          <elem>3 3</elem>
-          <elem>1 2</elem>
-          <elem>1 3</elem>
-          <elem>2 1</elem>
-          <elem>2 3</elem>
-          <elem>3 1</elem>
-          <elem>3 2</elem>
-        </displacement_list>
-"
-
-	# Baryon options
-	baryon_nvec=$nvec
-	baryon_zphases="${prop_zphases}"
-	baryon_chroma_max_tslices_in_contraction=1 # as large as possible
-	baryon_chroma_max_moms_in_contraction=1 # as large as possible (zero means do all momenta at once)
-	baryon_chroma_max_vecs=2 # as large as possible (zero means do all eigenvectors are contracted at once)
-	baryon_slurm_nodes=1
-	baryon_chroma_geometry="1 1 1 8"
-	baryon_chroma_minutes=120
-	baryon_file_name() {
-		local n node
-		if [ ${zphase} == 0.00 ]; then
-			n="${confspath}/${confsprefix}/baryon_db/${confsname}.n${baryon_nvec}.m2_0_0.baryon.colorvec.t_0_$((t_size-1)).sdb${cfg}"
-		else
-			n="${confspath}/${confsprefix}/baryon_db/${confsname}.n${baryon_nvec}.m2_0_0.baryon.colorvec.t_0_$((t_size-1)).phased_${zphase}.sdb${cfg}"
-		fi
-		if [ $run_onthefly == yes -a $run_baryons == yes ] ; then
-			n="${localpath}/${n//\//_}"
-			if [ x$1 == xsingle ] ; then
-				echo $n
-			else
-				for (( node=0 ; node<baryon_slurm_nodes*slurm_procs_per_node ; ++node )) ; do
-					echo "afs:${n}.part_$node"
-				done
-			fi
-		else
-			echo $n
-		fi
-	}
-	baryon_transfer_back="nop"
-	baryon_delete_after_transfer_back="nop"
-	baryon_transfer_from_jlab="nop"
-	baryon_extra_xml="
-        <!-- List of displacement arrays -->
-        <displacement_list>
-          <elem><left>0</left><middle>0</middle><right>0</right></elem>
-          <!-- elem><left>0</left><middle>0</middle><right>1</right></elem>
-          <elem><left>0</left><middle>0</middle><right>2</right></elem>
-          <elem><left>0</left><middle>0</middle><right>3</right></elem>
-          <elem><left>0</left><middle>0</middle><right>1 1</right></elem>
-          <elem><left>0</left><middle>0</middle><right>2 2</right></elem>
-          <elem><left>0</left><middle>0</middle><right>3 3</right></elem>
-          <elem><left>0</left><middle>0</middle><right>1 2</right></elem>
-          <elem><left>0</left><middle>0</middle><right>1 3</right></elem>
-          <elem><left>0</left><middle>0</middle><right>2 1</right></elem>
-          <elem><left>0</left><middle>0</middle><right>2 3</right></elem>
-          <elem><left>0</left><middle>0</middle><right>3 1</right></elem>
-          <elem><left>0</left><middle>0</middle><right>3 2</right></elem>
-          <elem><left>0</left><middle>1</middle><right>1</right></elem>
-          <elem><left>0</left><middle>1</middle><right>2</right></elem>
-          <elem><left>0</left><middle>1</middle><right>3</right></elem>
-          <elem><left>0</left><middle>2</middle><right>2</right></elem>
-          <elem><left>0</left><middle>2</middle><right>3</right></elem>
-          <elem><left>0</left><middle>3</middle><right>3</right></elem -->
-        </displacement_list>
-"
-
-	# Disco options
-	disco_max_z_displacement=8
-	disco_probing_displacement=6
-	disco_probing_power=10
-	disco_noise_vectors=1
-	disco_slurm_nodes=2
-	disco_chroma_geometry="1 2 2 4"
-	disco_chroma_minutes=600
-	disco_file_name() {
-		echo "${confspath}/${confsprefix}/disco/${confsname}.disco.sdb${cfg}"
-	}
-	disco_transfer_back="yes"
-	disco_delete_after_transfer_back="nop"
-	disco_transfer_from_jlab="nop"
-
-	# Redstar options
-	redstar_t_corr=16 # Number of time slices
-	redstar_nvec=$nvec
-	redstar_tag="."
-	redstar_use_meson="nop"
-	redstar_use_baryon="yes"
-	redstar_use_disco="nop"
-	redstar_2pt="nop"
-	redstar_2pt_moms="\
--2 0 2
-0 2 -2
--1 2 2
-2 2 1
--1 0 3
--3 0 1
-0 -1 3
-3 0 1
-1 1 1
--1 -1 1
--1 1 1
-0 1 -2
--2 0 1
--1 0 2
-0 -1 2
-1 -2 0
--1 1 2
--1 -2 1
--1 0 0
-0 -1 0
-0 1 1
--1 0 1
-0 -1 1
--2 0 0
-1 3 1
--2 -1 1
-1 -1 0
--2 -2 1
-2 -2 0
-1 -1 2
--1 3 1
-0 -2 -2
--2 1 -1
-0 -1 -1
--1 -2 -1
--3 -1 -1
--2 -2 0
-2 -1 2
--1 1 0
-1 3 -1
--3 0 -1
-1 -2 -2
-1 3 0
-0 -3 0
--2 2 0
-1 -1 -1
--1 3 -1
--1 -3 1
-1 -3 -1
-1 -1 -3
-0 2 0
-2 2 0
--1 1 -1
--1 -1 -1
-1 -1 1
-0 -2 0
-0 -2 2 "
-	redstar_3pt="yes"
-	redstar_3pt_snkmom_srcmom="\
-1 0 5   0 0 5   
-0 1 4   0 0 4   
-0 1 5   0 0 5   
-0 1 6   0 0 6   
-1 0 4   0 0 4   
-1 1 5   0 0 5   
-1 0 6   0 0 6   
-1 1 4   0 0 4   
-1 1 4   0 1 4   
-1 1 4   1 0 4   
-1 1 6   1 0 6   
-1 1 5   0 1 5   
-1 1 5   1 0 5   
-1 1 6   0 0 6   
-1 1 6   0 1 6   
-2 0 4   1 0 4   
-2 0 5   1 0 5   
-2 0 6   1 0 6"
-	redstar_2pt_moms="$(
-		echo $redstar_3pt_snkmom_srcmom | while read m0 m1 m2 m3 m4 m5 ; do
-			echo $m0 $m1 $m2
-			echo $m3 $m4 $m5
-		done | sort -u
-)"
-	redstar_000="NucleonMG1g1MxD0J0S_J1o2_G1g1"
-	redstar_n00="NucleonMG1g1MxD0J0S_J1o2_H1o2D4E1"
-	redstar_nn0="NucleonMG1g1MxD0J0S_J1o2_H1o2D2E"
-	redstar_nnn="NucleonMG1g1MxD0J0S_J1o2_H1o2D3E1"
-	redstar_nm0="NucleonMG1g1MxD0J0S_J1o2_H1o2C4nm0E"
-	redstar_nnm="NucleonMG1g1MxD0J0S_J1o2_H1o2C4nnmE"
-	redstar_insertion_operators="\
-pion_pionxDX__J0_A1
-pion_pion_2xDX__J0_A1
-rho_rhoxDX__J1_T1
-rho_rho_2xDX__J1_T1
-b_b1xDX__J1_T1
-b_b0xDX__J0_A1
-a_a1xDX__J1_T1
-a_a0xDX__J0_A1
-" # use for 3pt correlation functions
-	redstar_insertion_disps="\
-z0 
-z1 3
-z2 3 3
-z3 3 3 3
-z4 3 3 3 3
-z5 3 3 3 3 3
-z6 3 3 3 3 3 3
-z7 3 3 3 3 3 3 3
-z8 3 3 3 3 3 3 3 3
-zn1 -3
-zn2 -3 -3
-zn3 -3 -3 -3
-zn4 -3 -3 -3 -3
-zn5 -3 -3 -3 -3 -3
-zn6 -3 -3 -3 -3 -3 -3
-zn7 -3 -3 -3 -3 -3 -3 -3
-zn8 -3 -3 -3 -3 -3 -3 -3 -3"
-	gprop_insertion_disps="${redstar_insertion_disps}"
-	rename_moms() {
-		[ $# == 3 ] && echo "mom$1.$2.$3"
-		[ $# == 6 ] && echo "snk$1.$2.$3src$4.$5.$6"
-	}
-	corr_file_name() {
-		if [ ${zphase} == 0.00 ]; then
-			if [ $t_source == avg ]; then
-				echo "${confspath}/${confsprefix}/corr/unphased/t0_${t_source}/$( rename_moms $mom )/${confsname}.nuc_local.n${redstar_nvec}.tsrc_${t_source}_ins${insertion_op}${redstar_tag}.mom_${mom// /_}_z${zphase}.sdb${cfg}"
-			else
-				echo "${confspath}/${confsprefix}/corr/unphased/t0_${t_source}/ins_${insertion_op}/$( rename_moms $mom )/${confsname}.nuc_local.n${redstar_nvec}.tsrc_${t_source}_ins${insertion_op}${redstar_tag}.mom_${mom// /_}_z${zphase}.sdb${cfg}"
-			fi
-		else
-			if [ $t_source == avg ]; then
-				echo "${confspath}/${confsprefix}/corr/z${zphase}/t0_${t_source}/$( rename_moms $mom )/${confsname}.nuc_local.n${redstar_nvec}.tsrc_${t_source}_ins${insertion_op}${redstar_tag}.mom_${mom// /_}_z${zphase}.sdb${cfg}"
-			else
-				echo "${confspath}/${confsprefix}/corr/z${zphase}/t0_${t_source}/ins_${insertion_op}/$( rename_moms $mom )/${confsname}.nuc_local.n${redstar_nvec}.tsrc_${t_source}_ins${insertion_op}${redstar_tag}.mom_${mom// /_}_z${zphase}.sdb${cfg}"
-			fi
-		fi
-	}
-	redstar_slurm_nodes=1
-	redstar_minutes=30
-	redstar_jobs_per_node=8 # use for computing corr graphs
-	redstar_max_concurrent_jobs=24000
-	redstar_transfer_back="nop"
-	redstar_delete_after_transfer_back="nop"
-	redstar_transfer_from_jlab="nop"
-
-	globus_check_dirs="${confspath}/${confsprefix}/corr/z2.00"
+momtype() {
+	for i in $@; do echo $i; done | tr -d '-' | sort -nr | tr '\n' ' '
 }
 
-chroma_python="$PWD/chroma_python"
-PYTHON=python3
+num_zeros_mom() {
+	local n=0
+	for i in $@; do
+		[ "$i" == 0 ] && n="$(( n+1 ))"
+	done
+	echo $n
+}
 
-#
-# SLURM configuration for eigs, props, genprops, baryons and mesons
-#
+mom_letters() {
+	if [ $# != 3 ]; then
+		echo "mom_letters should get three args"  >&2
+		exit 1
+	fi
+	echo "`momtype $@`" | while read momx momy momz; do
+		if [ $momx == 0 -a $momy == 0 -a $momz == 0 ]; then
+			echo 000
+		elif [ $momx != 0 -a $momy == 0 -a $momz == 0 ]; then
+			echo n00
+		elif [ $momx == $momy -a $momz == 0 ]; then
+			echo nn0
+		elif [ $momx != $momy -a $momz == 0 ]; then
+			echo nm0
+		elif [ $momx == $momy -a $momx == $momz ]; then
+			echo nnn
+		elif [ $momx == $momy -o $momy == $momz ]; then
+			echo nnm
+		else
+			echo nmk
+		fi
+	done
+}
 
-chromaform="$HOME/chromaform_frontier_rocm5.4"
-chroma="$chromaform/install/chroma-sp-quda-qdp-jit-double-nd4-cmake-superbblas-hip-next/bin/chroma"
-chromaform="$HOME/scratch/chromaform_rocm5.5"
-chroma="$chromaform/install-rocm5.4/chroma-sp-quda-qdp-jit-double-nd4-cmake-superbblas-hip-next/bin/chroma"
-chroma_extra_args="-pool-max-alloc 0 -pool-max-alignment 512"
+insertion_mom() {
+	echo "$@" | while read momix momiy momiz momjx momjy momjz; do
+		echo "$(( momix - momjx )) $(( momiy - momjy )) $(( momiz - momjz ))"
+	done
+}
 
-redstar="$chromaform/install/redstar-pdf-colorvec-pdf-hadron-hip-adat-pdf-superbblas-sp"
-redstar_corr_graph="$redstar/bin/redstar_corr_graph"
-redstar_npt="$redstar/bin/redstar_npt"
+get_ops() {
+	varname="redstar_`mom_letters $@`"
+	echo "${!varname}"
+}
 
-adat="$chromaform/install/adat-pdf-superbblas-sp"
-dbavg="$adat/bin/dbavg"
-dbmerge="$adat/bin/dbmerge"
-dbutil="$adat/bin/dbutil"
+operator_rows() {
+	case $1 in
+		pion*|b_b0*|a_a0*) echo 1 ;;
+		rho_rho*|b_b1*|a_a1*) echo 1 2 3 ;;
+		*) echo "operator_rows: $1 ?" >&2; exit 1;;
+	esac
+}
 
-slurm_procs_per_node=8
-slurm_cores_per_node=56
-slurm_gpus_per_node=8
-slurm_sbatch_prologue="#!/bin/bash
-#SBATCH -A NPH122
-#SBATCH -p batch
-#SBATCH --gpu-bind=none
-#SBATCH -C nvme"
+npoint_2pt() {
+	local mom="$1"
+	local operators="$2"
+	for operatori in $operators; do
+		for operatorj in $operators; do
+			echo "
+        <elem>
+           <NPoint>
+             <annotation>Sink</annotation>
+             <elem>
+               <t_slice>-2</t_slice>
+               <Irrep>
+                 <smearedP>true</smearedP>
+                 <creation_op>false</creation_op>
+                 <flavor>
+                   <twoI>1</twoI>
+                   <threeY>3</threeY>
+                   <twoI_z>1</twoI_z>
+                 </flavor>
+                 <irmom>
+                   <mom>$mom</mom>
+                   <row>1</row>
+                 </irmom>
+                 <Op>
+                   <Operators>
+                     <elem>
+                       <name>$operatori</name>
+                       <mom_type>$( momtype $mom )</mom_type>
+                     </elem>
+                   </Operators>
+                   <CGs>
+                   </CGs>
+                 </Op>
+               </Irrep>
+             </elem>
 
-slurm_script_prologue="
-. $chromaform/env.sh
-. $chromaform/env_extra.sh
-. $chromaform/env_extra_rocm5.4_0.sh
-export OPENBLAS_NUM_THREADS=1
-export OMP_NUM_THREADS=7
-#export SLURM_CPU_BIND=\"cores\"
-export SB_MPI_GPU=1
-export MPICH_GPU_SUPPORT_ENABLED=1
+             <annotation>Source</annotation>
+             <elem>
+               <t_slice>0</t_slice>
+               <Irrep>
+                 <smearedP>true</smearedP>
+                 <creation_op>true</creation_op>
+                 <flavor>
+                   <twoI>1</twoI>
+                   <threeY>3</threeY>
+                   <twoI_z>1</twoI_z>
+                 </flavor>
+                  <irmom>
+                   <row>1</row>
+                   <mom>$mom</mom>
+                 </irmom>
+                 <Op>
+                   <Operators>
+                     <elem>
+                       <name>$operatorj</name>
+                       <mom_type>$( momtype $mom )</mom_type>
+                     </elem>
+                   </Operators>
+                   <CGs>
+                   </CGs>
+                 </Op>
+               </Irrep>
+             </elem>
+           </NPoint>
+         </elem>"
+		done #operatorj
+	done #operatori
+}
+
+npoint_3pt() {
+	local momi="$1"
+	local operatorsi="$2"
+	local momj="$3"
+	local operatorsj="$4"
+	local momk="$5"
+	local operatorsk="$6"
+	local t_seps="$7"
+	local disps="$8"
+	local momtypei="$( momtype $momi )"
+	local momtypej="$( momtype $momj )"
+	local momtypek="$( momtype $momk )"
+	for operatork in $operatorsk; do
+		echo "
+         <elem>
+           <NPoint>
+             <annotation>Sink</annotation>
+             <elem>
+               <t_slice> $( for t_sep in $t_seps; do echo -n "<alt>$t_sep</alt>"; done ) </t_slice>
+               <Irrep>
+                 <creation_op>false</creation_op>
+                 <smearedP>true</smearedP>
+                 <flavor>
+                   <twoI>1</twoI>
+                   <threeY>3</threeY>
+                   <twoI_z>1</twoI_z>
+                 </flavor>
+                 <irmom>
+                   <row> $( for rowi in 1 2; do echo -n "<alt>$rowi</alt>"; done ) </row>
+                   <mom>$momi</mom>
+                 </irmom>
+                 <Op>
+                   <Operators>
+                     <elem>
+                       <name> $( for operatori in $operatorsi; do echo "<alt>$operatori</alt>"; done ) </name>
+                       <mom_type>$momtypei</mom_type>
+                     </elem>
+                   </Operators>
+                   <CGs>
+                   </CGs>
+                 </Op>
+               </Irrep>
+             </elem>
+
+             <annotation>Insertion</annotation>
+             <elem>
+               <t_slice>-3</t_slice>
+               <Irrep>
+                 <creation_op>true</creation_op>
+                 <smearedP>false</smearedP>
+                 <flavor>
+                   <twoI>2</twoI>
+                   <threeY>0</threeY>
+                   <twoI_z>0</twoI_z>
+                 </flavor>
+                 <irmom>
+                   <row> $( for rowk in $( operator_rows $operatork ); do echo -n "<alt>$rowk</alt>"; done ) </row>
+                   <mom>$momk</mom>
+                 </irmom>
+                 <Op>
+                   <Operators>
+                     <elem>
+                       <name>${operatork}</name>
+                       <mom_type>$momtypek</mom_type>
+                       <disp_list>$( echo "$disps" | while read disp_prefix disp_list; do [ x${disp_prefix}x != xx ] && echo "<alt>$disp_list</alt>"; done ) </disp_list>
+                     </elem>
+                   </Operators>
+                   <CGs>
+                   </CGs>
+                 </Op>
+               </Irrep>
+             </elem>
+
+             <annotation>Source</annotation>
+             <elem>
+               <t_slice>0</t_slice>
+               <Irrep>
+                 <creation_op>true</creation_op>
+                 <smearedP>true</smearedP>
+                 <flavor>
+                   <twoI>1</twoI>
+                   <threeY>3</threeY>
+                   <twoI_z>1</twoI_z>
+                 </flavor>
+                 <irmom>
+                   <row> $( for rowj in 1 2; do echo -n "<alt>$rowj</alt>"; done ) </row>
+                   <mom>$momj</mom>
+                 </irmom>
+                 <Op>
+                   <Operators>
+                     <elem>
+                       <name> $( for operatorj in $operatorsj; do echo "<alt>$operatorj</alt>"; done ) </name>
+                       <mom_type>$momtypej</mom_type>
+                     </elem>
+                   </Operators>
+                   <CGs>
+                   </CGs>
+                 </Op>
+               </Irrep>
+             </elem>
+           </NPoint>
+         </elem>"
+	done #operatork
+}
+
+corr_graph() {
+	local corr_graph_file="$1"
+	local corr_file="$2"
+	local t_origin="$3"
+	shift 3
+	echo "<?xml version=\"1.0\"?>
+<RedstarNPt>
+  <Param>
+    <version>12</version>
+    <diagnostic_level>0</diagnostic_level>
+    <autoIrrepCG>false</autoIrrepCG>
+    <rephaseIrrepCG>false</rephaseIrrepCG>
+    <Nt_corr>${redstar_t_corr}</Nt_corr>
+    <convertUDtoL>true</convertUDtoL>
+    <convertUDtoS>false</convertUDtoS>
+    <average_1pt_diagrams>true</average_1pt_diagrams>
+    <zeroUnsmearedGraphsP>false</zeroUnsmearedGraphsP>
+    <t_origin>$t_origin</t_origin>
+    <bc_spec>-1</bc_spec>
+    <Layout>
+      <lattSize>$s_size $s_size $s_size $t_size</lattSize>
+      <decayDir>3</decayDir>
+    </Layout>
+    <ensemble>${confsname}</ensemble>
+
+    <NPointList>
+`
+	if [ $t_origin == -1 ]; then
+		for insert_op_mom_combo in "$@" ; do
+			local insert_op_mom_array=( ${insert_op_mom_combo/\~/ } )
+			local insertion_op="${insert_op_mom_array[0]}"
+			local mom="${insert_op_mom_array[1]//_/ }"
+			if [ ${redstar_2pt} == yes ] ; then
+				local operators="$( get_ops $mom )"
+				npoint_2pt "$mom" "$operators"
+			else
+				local momarray=( $mom )
+				local momi="${momarray[0]} ${momarray[1]} ${momarray[2]}"
+				local momj="${momarray[3]} ${momarray[4]} ${momarray[5]}"
+				local operatorsi="$( get_ops $momi )"
+				local operatorsj="$( get_ops $momj )"
+				local momk="$( insertion_mom $momi $momj )"
+				npoint_3pt "$momi" "$operatorsi" "$momj" "$operatorsj" "$momk" "$insertion_op" "$gprop_t_seps" "$redstar_insertion_disps"
+			fi
+		done
+	fi
+`
+    </NPointList>
+  </Param> 
+  <DBFiles>
+    <proj_op_xmls></proj_op_xmls>
+    <corr_graph_bin>${corr_graph_file}</corr_graph_bin>
+    <output_db>${corr_file}</output_db>
+  </DBFiles> 
+  <ColorVec>
+    <Param>
+      <version>1</version>
+      <num_vecs>${redstar_nvec}</num_vecs>
+      <use_derivP>false</use_derivP>
+      <use_genprop4>true</use_genprop4>
+      <use_FSq>false</use_FSq>
+      <fake_data_modeP>false</fake_data_modeP>
+      <ensemble>${confsname}</ensemble>
+      <FlavorToMass>
+        <elem>
+          <flavor>c</flavor>
+          <mass>U0.20</mass>
+        </elem>
+        <elem>
+          <flavor>e</flavor>
+          <mass>U0.20</mass>
+        </elem>
+        <elem>
+          <flavor>l</flavor>
+          <mass>U${prop_mass}</mass>
+        </elem>
+        <elem>
+          <flavor>s</flavor>
+          <mass>U-0.2050</mass>
+        </elem>
+        <elem>
+          <flavor>y</flavor>
+          <mass>U0.05</mass>
+        </elem>
+        <elem>
+          <flavor>x</flavor>
+          <mass>U0.05</mass>
+        </elem>
+      </FlavorToMass>
+    </Param>"
+	if [ $t_origin != -1 ]; then
+		echo "
+    <DBFiles>
+      <smeared_glue_dbs>
+      </smeared_glue_dbs>
+      <prop_dbs>
+`
+		for i in $( prop_file_name ); do
+			echo "<elem>$i</elem>"
+		done
+`
+      </prop_dbs>
+      <twoquark_discoblock_dbs>
+`
+	if [ $redstar_use_disco == yes ]; then
+		for i in $( disco_file_name ) ; do
+			echo "<elem>$i</elem>"
+		done
+	fi
+`
+      </twoquark_discoblock_dbs>
+      <smeared_baryon_dbs>
+`
+	if [ $redstar_use_baryon == yes ]; then
+		for i in $( baryon_file_name ); do
+			echo "<elem>$i</elem>"
+		done
+	fi
+`
+      </smeared_baryon_dbs>
+      <unsmeared_meson_dbs>
+      </unsmeared_meson_dbs>
+      <smeared_meson_dbs>
+`
+	if [ $redstar_use_meson == yes ]; then
+		for i in $( meson_file_name ); do
+			echo "<elem>$i</elem>"
+		done
+	fi
+`
+      </smeared_meson_dbs>
+      <fsq_discoblock_dbs>
+      </fsq_discoblock_dbs>
+      <smeared_tetra_dbs>
+      </smeared_tetra_dbs>
+      <hadron2pt_discoblock_dbs>
+      </hadron2pt_discoblock_dbs>
+      <unsmeared_genprop4_dbs>
+`
+	if [ $redstar_3pt == yes ]; then
+		for i in $( gprop_file_name ); do
+			echo "<elem>$i</elem>"
+		done
+	fi
+`
+      </unsmeared_genprop4_dbs>
+    </DBFiles>
 "
-
-#
-# SLURM configuration for disco
-#
-
-chromaform_cpu="$SCRATCH/chromaform-perlmutter-cpu-sp"
-chroma_cpu="$chromaform_cpu/install/chroma-sp-mgproto-qphix-qdpxx-double-nd4-avx512-superbblas-cpu-next/bin/chroma"
-slurm_threads_per_proc_cpu=10
-chroma_extra_args_cpu="-by 4 -bz 4 -pxy 0 -pxyz 0 -c $slurm_threads_per_proc_cpu -sy 1 -sz 1 -minct 1 -poolsize 1"
-
-slurm_procs_per_node_cpu=4
-slurm_sbatch_prologue_cpu="#!/bin/bash
-#SBATCH --account=qjs@cpu
-#SBATCH --ntasks-per-node=$slurm_procs_per_node_cpu # number of tasks per node"
-
-slurm_script_prologue_cpu="
-. $chromaform_cpu/env.sh
-export OPENBLAS_NUM_THREADS=1
-export OMP_NUM_THREADS=$slurm_threads_per_proc_cpu
+	fi
+	echo "
+  </ColorVec>
+</RedstarNPt>
 "
+}
 
-#
-# SLURM configuration for redstar
-#
+redstar_files="`mktemp`"
 
-slurm_script_prologue_redstar="
-. $chromaform/env.sh
-. $chromaform/env_extra.sh
-export OPENBLAS_NUM_THREADS=1
-export OMP_NUM_THREADS=$(( slurm_cores_per_node/slurm_gpus_per_node - 1))
-export MPICH_GPU_SUPPORT_ENABLED=0 # gpu-are MPI produces segfaults
-"
+for ens in $ensembles; do
+	# Load the variables from the function
+	eval "$ens"
 
-#
-# Options for launch
-#
+	# Check for running redstar
+	[ $run_redstar != yes ] && continue
 
-max_jobs=25 # maximum jobs to be launched
-max_hours=2 # maximum hours for a single job
+	if [ ${redstar_2pt} == yes -a ${redstar_3pt} == yes ] ; then
+		echo "Unsupported to compute 2pt and 3pt on the fly at once"
+		exit 1
+	fi
+	mom_groups="`
+		(
+			[ ${redstar_2pt} == yes ] && echo "$redstar_2pt_moms"
+			[ ${redstar_3pt} == yes ] && echo "$redstar_3pt_snkmom_srcmom"
+		) | while read momij; do
+			[ $(num_args $momij) -gt 0 ] && mom_word $( mom_fly $momij )
+		done | sort -u
+	`"
 
-#
-# Path options
-#
-# NOTE: we try to recreate locally the directory structure at jlab; please give consistent paths
+	[ ${run_onthefly} != yes ] && max_moms_per_job=1
 
-confspath="$HOME/scratch"
-this_ep="36d521b3-c182-4071-b7d5-91db5d380d42:scratch/"  # frontier
-jlab_ep="a2f9c453-2bb6-4336-919d-f195efcf327b:~/qcd/cache/isoClover/b6p3/" # jlab#gw2
-jlab_local="/cache/isoClover/b6p3"
-jlab_tape_registry="/mss/lattice/isoClover/b6p3"
-jlab_user="$USER"
-jlab_ssh="ssh qcdi1402.jlab.org"
+	corr_runpath="$PWD/${tag}/redstar_corr_graph"
+	mkdir -p $corr_runpath
+
+	template_runpath="$PWD/${tag}/redstar_template"
+	mkdir -p ${template_runpath}
+	cfg="@CFG"
+	runpath="$PWD/${tag}/conf_${cfg}"
+	rm -f ${redstar_files}*
+
+	k_split $max_moms_per_job $mom_groups | while read mom_group ; do
+		mom_leader="`take_first $mom_group`"
+		if [ ${redstar_2pt} == yes ]; then
+			all_insert_ops="_2pt_"
+		else
+			all_insert_ops="$redstar_insertion_operators"
+		fi
+		this_all_moms="$(
+			if [ ${redstar_2pt} == yes ] ; then
+				echo "$redstar_2pt_moms" | while read momij; do
+					for this_momij in $mom_group ; do
+						[ $( mom_word $( mom_fly $momij ) ) == $this_momij ] && mom_word $momij
+					done
+				done
+			else
+				echo "$redstar_3pt_snkmom_srcmom" | while read momij; do
+					for this_momij in $mom_group ; do
+						[ $( mom_word $( mom_fly $momij ) ) == $this_momij ] && mom_word $momij
+					done
+				done
+			fi | sort -u | while read mom ; do
+				for insert_op in $all_insert_ops ; do
+					echo ${insert_op}~${mom}
+				done
+			done
+		)"
+		combo_line=0
+		k_split_lines $(( slurm_procs_per_node*redstar_slurm_nodes )) $this_all_moms | while read insert_op_mom_combos ; do
+			corr_graph_bin="${corr_runpath}/corr_graph_insop${combo_line}_m${mom_leader}.bin"
+			output="${corr_graph_bin}.out"
+			cat << EOF > ${corr_graph_bin}.sh
+$slurm_sbatch_prologue
+#SBATCH -o ${output}0
+#SBATCH -t $redstar_minutes
+#SBATCH --nodes=1
+#SBATCH -J r-corr-graph
+
+environ() {
+	$slurm_script_prologue_redstar
+}
+
+run() {
+	tmp_runpath="${localpath}/${corr_graph_bin//\//_}"
+	mkdir -p \$tmp_runpath
+	cd \$tmp_runpath
+	rm -f ${corr_graph_bin}
+	cat << EOFeof > corr_graph.xml
+$( corr_graph "${corr_graph_bin}" "none" "-1" $insert_op_mom_combos )
+EOFeof
+	echo Starting $redstar_corr_graph corr_graph.xml output_xml > $output
+	$redstar_corr_graph corr_graph.xml output_xml &>> $output
+	rm -r \$tmp_runpath
+}
+
+check() {
+	grep -q "REDSTAR_CORR_GRAPH: total time" 2>&1 ${output} > /dev/null && exit 0
+	exit 1
+}
+
+deps() { echo -n; }
+
+outs() {
+	echo $corr_graph_bin
+}
+
+class() {
+	# class max_minutes nodes jobs_per_node max_concurrent_jobs
+	echo c $redstar_minutes 1 $redstar_jobs_per_node 0
+}
+
+globus() { echo -n; }
+
+eval "\${1:-run}"
+EOF
+
+			for t_source in $prop_t_sources; do
+				for zphase in $prop_zphases; do
+					corr_file="`mom="${mom_leader//_/ }" insertion_op=${combo_line} corr_file_name`"
+					mkdir -p `dirname ${corr_file}`
+					prefix="t${t_source}_insop${combo_line}_z${zphase}_mf${mom_leader}"
+					redstar_xml="redstar_${prefix}.xml"
+					output_xml="redstar_xml_out_${prefix}.out"
+					output="$runpath/redstar_${prefix}.out"
+					redstar_sh="redstar_${prefix}.sh"
+					[ $run_onthefly == yes ] && redstar_sh+=".future"
+					redstar_sh+=".template"
+					echo ${redstar_sh} >> ${redstar_files}.tsrc$t_source
+					cat << EOF > $template_runpath/${redstar_sh}
+$slurm_sbatch_prologue
+#SBATCH -o ${output}0
+#SBATCH -t $redstar_minutes
+#SBATCH --nodes=1
+#SBATCH -J redstar-${prefix}
+
+environ() {
+	$slurm_script_prologue_redstar
+}
+
+run() {
+	tmp_runpath="${localpath}/${runpath//\//_}_$prefix"
+	mkdir -p \$tmp_runpath
+	cd \$tmp_runpath
+	rm -f ${corr_file}
+	cat << EOFeof > redstar.xml
+$( corr_graph "${corr_graph_bin}" "$corr_file" "@T_ORIGIN" )
+EOFeof
+	mkdir -p `dirname ${corr_file}`
+	echo Starting $redstar_npt redstar.xml output.xml > $output
+	$redstar_npt redstar.xml output.xml &>> $output
+	rm -rf \$tmp_runpath
+}
+
+check() {
+	tail -n 10 ${output} 2> /dev/null | grep -q "REDSTAR_NPT: total time" && exit 0
+	exit 1
+}
+
+deps() {
+	echo ${corr_graph_bin}
+`
+	[ $redstar_use_meson == yes ] && echo echo $( meson_file_name | tr '\n' ' ' )
+	[ $redstar_use_baryon == yes ] && [ $run_onthefly != yes -o $run_baryons != yes ] && echo echo $( baryon_file_name | tr '\n' ' ' )
+	[ $run_onthefly != yes -o $run_props != yes ] && echo echo $( prop_file_name | tr '\n' ' ' )
+	[ $redstar_3pt == yes ] && [ $run_onthefly != yes -o $run_baryons != yes ] && echo echo $( gprop_file_name | tr '\n' ' ' )
+	[ $redstar_use_disco == yes ] && echo echo $( disco_file_name | tr '\n' ' ' )
+`
+}
+
+outs() {
+	echo $corr_file
+}
+
+class() {
+	# class max_minutes nodes jobs_per_node max_concurrent_jobs
+	echo d $redstar_minutes 1 $redstar_jobs_per_node $redstar_max_concurrent_jobs
+}
+
+globus() {
+	[ $redstar_transfer_back == yes ] && echo ${corr_file}.globus ${this_ep}${corr_file#${confspath}} ${jlab_ep}${corr_file#${confspath}} ${redstar_delete_after_transfer_back}
+}
+
+eval "\${1:-run}"
+EOF
+				done # zphase
+			done # t_source
+
+			combo_line="$(( combo_line+1 ))"
+		done # insert_op_mom_combos
+	done # mom_group
+
+	for cfg in $confs; do
+		lime_file="`lime_file_name`"
+		[ -f $lime_file ] || continue
+
+		runpath="$PWD/${tag}/conf_${cfg}"
+		mkdir -p ${runpath}
+
+		for t_source in $prop_t_sources; do
+
+			# Find t_origin
+			t_offset="`shuffle_t_source $cfg $t_size $t_source`"
+
+			cat ${redstar_files}.tsrc$t_source | while read template_file; do
+				cat << EOF > $runpath/${template_file%.template}
+$slurm_sbatch_prologue
+#SBATCH -o $runpath/${template_file%.sh.template}.out0
+#SBATCH -t $redstar_minutes
+#SBATCH --nodes=1
+#SBATCH -J redstar-${prefix}
+
+t="\$(mktemp)"
+sed 's/@CFG/${cfg}/g; s/@T_ORIGIN/$t_offset/g' ${template_runpath}/${template_file} > \$t
+if [ x\$1 == x ]; then
+	. \$t environ
+	bash -l \$t
+	r="\$?"
+	rm -f \$t
+	exit \$r
+elif [ x\$1 == xenviron ]; then
+	. \$t \$@
+	rm -f \$t
+elif [ x\$1 == xrun ]; then
+	bash -l \$t \$@
+	r="\$?"
+	rm -f \$t
+	exit \$r
+else
+	bash \$t \$@
+	r="\$?"
+	rm -f \$t
+	exit \$r
+fi
+EOF
+
+			done # template_file
+		done # t_source
+	done # cfg
+done # ens

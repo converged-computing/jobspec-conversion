@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-toaster-2729
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-cinnamonbun-0196
+#FLUX: --urgency=16
 
 export GTIMER_DISABLE='1'
 

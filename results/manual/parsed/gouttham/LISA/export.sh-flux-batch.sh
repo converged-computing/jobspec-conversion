@@ -3,7 +3,7 @@
 #FLUX: -c=32
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/$projects/projects/def-amahdavi/gna23/LISA/
 source ./lisa_env/bin/activate

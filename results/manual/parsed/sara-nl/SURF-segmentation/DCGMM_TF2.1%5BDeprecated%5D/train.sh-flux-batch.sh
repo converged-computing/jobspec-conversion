@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-signal-4606
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-peanut-4944
+#FLUX: --urgency=16
 
 module purge
 module load 2020

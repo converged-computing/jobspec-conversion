@@ -2,7 +2,7 @@
 #FLUX: --job-name=orthoRes
 #FLUX: --queue=gpux2
 #FLUX: -t=1440
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo Running
 module load opence/1.5.1

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=counts
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/mouse-rnaseq-2020/
 module load Subread/2.0.0-IGB-gcc-8.2.0

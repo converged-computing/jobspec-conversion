@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=preproc-fourcastnet
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export N_WORKERS='32'
 export N_THREADS_PER='2'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-onion-9310
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-noodle-7881
+#FLUX: --urgency=16
 
 module load openmpi/3.0.0
 PYTHON_PROGRAM=${PYTHON_PROGRAM:-python3}

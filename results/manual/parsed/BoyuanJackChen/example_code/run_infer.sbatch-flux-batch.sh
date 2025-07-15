@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=run_infer
 #FLUX: -t=7199
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='/scratch/[your NetID]/huggingface_cache'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-milkshake-5924
+#FLUX: --job-name=cowy-pot-7626
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.2.89-2fkd
 source ../torchenv/bin/activate

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-kitty-8177
+#FLUX: --job-name=frigid-animal-1591
 #FLUX: -c=24
 #FLUX: --queue=gpu
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PROJECT_ROOT="${SLURM_SUBMIT_DIR}/../.."
 APPTAINER_IMAGE_PATH=${PROJECT_ROOT}/flamegpu2-circles-benchmark-11.8.sif

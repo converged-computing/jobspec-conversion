@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-leader-7978
+#FLUX: --job-name=scruptious-milkshake-1723
 #FLUX: -c=68
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel/17.0.4
 module load gnuparallel

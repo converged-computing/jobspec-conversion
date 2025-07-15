@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-house-2430
+#FLUX: --job-name=muffled-puppy-7835
 #FLUX: -c=10
 #FLUX: --queue=tenenbaum
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dirs=(
     # "codellama-7b"

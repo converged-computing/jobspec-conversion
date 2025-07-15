@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-peanut-0723
+#FLUX: --job-name=dinosaur-malarkey-6051
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LANG='C.UTF-8'
 

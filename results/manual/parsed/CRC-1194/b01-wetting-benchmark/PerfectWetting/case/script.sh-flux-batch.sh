@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-punk-9050
-#FLUX: --priority=16
+#FLUX: --job-name=purple-peanut-butter-4512
+#FLUX: --urgency=16
 
 module load git
 module load gcc/9.2.0

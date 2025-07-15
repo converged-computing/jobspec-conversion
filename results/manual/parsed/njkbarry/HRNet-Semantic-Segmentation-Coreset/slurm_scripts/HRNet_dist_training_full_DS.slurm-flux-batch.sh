@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="HRNet-dist-training-full-DS"
+#FLUX: --job-name=HRNet-dist-training-full-DS
 #FLUX: -c=16
 #FLUX: --queue=gpu-a100
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

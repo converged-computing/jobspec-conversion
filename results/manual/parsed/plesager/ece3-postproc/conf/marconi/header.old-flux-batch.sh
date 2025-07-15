@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lamp-1694
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-onion-3352
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/plesager/ece3-postproc/conf/marconi/header.old

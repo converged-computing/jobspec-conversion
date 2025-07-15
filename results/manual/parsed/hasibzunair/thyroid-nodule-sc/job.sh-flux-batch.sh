@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-animal-8546
+#FLUX: --job-name=delicious-train-1000
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda cudnn 
 nvidia-smi

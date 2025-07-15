@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-motorcycle-8996
+#FLUX: --job-name=doopy-gato-9418
 #FLUX: -c=4
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda activate gpu
 python main.py \

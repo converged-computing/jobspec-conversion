@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-banana-1028
-#FLUX: --priority=16
+#FLUX: --job-name=placid-banana-5131
+#FLUX: --urgency=16
 
 train_batch=256
 nodes=1

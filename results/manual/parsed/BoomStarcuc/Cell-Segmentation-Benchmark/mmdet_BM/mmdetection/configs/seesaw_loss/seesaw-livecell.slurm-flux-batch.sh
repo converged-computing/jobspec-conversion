@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-fork-9596
+#FLUX: --job-name=conspicuous-pancake-8350
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load cuda@11.0.2%gcc@9.3.0/lrd2rcw
 cd mmdetection

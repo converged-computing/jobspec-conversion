@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gpucode              ### Job Name
-#FLUX: --queue=short-gpu           ### do not change this parameter
-#FLUX: --priority=16
+#FLUX: --job-name=gpucode
+#FLUX: --queue=short-gpu
+#FLUX: --urgency=16
 
 /usr/local/cuda-8.0/bin/nvprof ./lu "$@"
 echo '=====================JOB DIAGNOTICS========================'

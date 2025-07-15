@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-destiny-8435
-#FLUX: --priority=16
+#FLUX: --job-name=milky-destiny-8842
+#FLUX: --urgency=16
 
 export LANG='en_US.UTF-8'
 export LC_ALL='en_US.UTF-8'

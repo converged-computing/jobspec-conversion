@@ -2,7 +2,7 @@
 #FLUX: --job-name=xlig-bonded-at-base
 #FLUX: --queue=shared
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 prefix=xlig-bonded-at-base
 rtemp=298

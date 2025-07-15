@@ -2,7 +2,7 @@
 #FLUX: --job-name=evolve-cma
 #FLUX: --exclusive
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load plgrid/tools/python/3.9
 source venv/bin/activate

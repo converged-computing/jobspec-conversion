@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=Conus2.5 Download
+#FLUX: --job-name=spicy-lettuce-9739
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KMP_AFFINITY='compact'
 export PATH='$PATH:/pfs/work6/workspace/scratch/ov0392-KeShi_Prak-0/cuda90/bin'

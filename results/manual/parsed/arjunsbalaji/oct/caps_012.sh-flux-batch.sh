@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-chip-8719
+#FLUX: --job-name=hanky-lemur-7708
 #FLUX: --queue=gpuq
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export myRep='$MYGROUP/singularity/oct_ca '
 export containerImage='$myRep/oct_ca_latest-fastai-skl-ski-mlflow-d2-opencv-coco.sif'

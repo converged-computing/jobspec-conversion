@@ -2,7 +2,7 @@
 #FLUX: --job-name=llm_evaluation
 #FLUX: --exclusive
 #FLUX: --queue=a5000ada
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='.'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-knife-8839
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-lentil-8404
+#FLUX: --urgency=16
 
 export PYTHONPATH='$HOME/pythonpackages/lib/python2.7/site-packages:$PYTHONPATH'
 export THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1'

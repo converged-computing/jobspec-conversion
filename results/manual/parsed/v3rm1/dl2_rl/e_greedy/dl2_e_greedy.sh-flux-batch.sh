@@ -2,7 +2,7 @@
 #FLUX: --job-name=dl2_e_greedy_pong
 #FLUX: --queue=gpu
 #FLUX: -t=252000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python/3.6.4-foss-2018a
 module load CUDA/9.1.85

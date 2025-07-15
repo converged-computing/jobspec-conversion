@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-signal-2417
-#FLUX: --priority=16
+#FLUX: --job-name=salted-signal-9587
+#FLUX: --urgency=16
 
 source activate varaedes
 cd ${aedes_path}data/output/

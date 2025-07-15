@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=%A_%a
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/pkgs/cuda-9.2/lib64:$LD_LIBRARY_PATH'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-buttface-2133
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-parrot-0320
+#FLUX: --urgency=16
 
 """
 For this script to initialize a conda environment, a version of python that supports

@@ -2,7 +2,7 @@
 #FLUX: --job-name=proc_wrf
 #FLUX: --queue=savio
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WRFPROCMODE='$mode'
 export JLL_WRFSCRIPT_DIR='$scriptdir'

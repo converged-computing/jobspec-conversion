@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=lu_c_16
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module swap PrgEnv-cray/5.2.82 PrgEnv-intel
 module load advisor/2018.1.1.535164

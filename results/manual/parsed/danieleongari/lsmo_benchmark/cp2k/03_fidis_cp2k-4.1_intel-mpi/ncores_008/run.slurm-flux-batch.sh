@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lettuce-9302
+#FLUX: --job-name=lovable-buttface-6644
 #FLUX: -n=8
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r stable             
 module purge

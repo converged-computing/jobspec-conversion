@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-leader-6776
+#FLUX: --job-name=blue-cat-8221
 #FLUX: --exclusive
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$PWD"/../../core:"$PWD"/../../tensorflow/ops:"$LD_LIBRARY_PATH'
 

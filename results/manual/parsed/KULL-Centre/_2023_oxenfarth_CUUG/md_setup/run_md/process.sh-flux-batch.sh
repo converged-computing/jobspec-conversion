@@ -2,7 +2,7 @@
 #FLUX: --job-name=pro
 #FLUX: --queue=qgpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /comm/specialstacks/gromacs-volta/bin/modules.sh
 module load plumed2-gcc-8.2.0-openmpi-4.0.3/2.7.3

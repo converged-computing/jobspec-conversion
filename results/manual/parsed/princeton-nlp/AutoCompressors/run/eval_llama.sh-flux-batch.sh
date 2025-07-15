@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-bits-5382
+#FLUX: --job-name=pusheena-onion-3425
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'
 

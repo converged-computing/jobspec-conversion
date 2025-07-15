@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-citrus-6354
-#FLUX: --priority=16
+#FLUX: --job-name=blue-bike-6593
+#FLUX: --urgency=16
 
 module load gcc/6.4.0 samtools/1.8
 declare -A BARCODEID

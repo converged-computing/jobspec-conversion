@@ -4,7 +4,7 @@
 #FLUX: -n=20
 #FLUX: --queue=fuchs
 #FLUX: -t=288000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 modus="run"
 reffasta="/scratch/fuchs/agchiocchetti/public/refdata/hg38.fa"

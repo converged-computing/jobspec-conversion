@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ezCGP_simgan
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Started on `/bin/hostname`" # prints name of compute node job was started on
 nvidia-smi

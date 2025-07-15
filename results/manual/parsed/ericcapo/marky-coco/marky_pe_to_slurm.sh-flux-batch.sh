@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cinnamonbun-2432
+#FLUX: --job-name=gloopy-toaster-9594
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 chmod +x workflow/genesearch.sh
 sample="$1"

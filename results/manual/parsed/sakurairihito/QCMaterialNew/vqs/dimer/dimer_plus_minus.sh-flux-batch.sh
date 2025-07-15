@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-kerfuffle-5458
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-onion-8908
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

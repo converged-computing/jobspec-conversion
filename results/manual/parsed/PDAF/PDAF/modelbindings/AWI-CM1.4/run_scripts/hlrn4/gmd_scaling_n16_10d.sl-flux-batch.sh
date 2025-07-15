@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-bits-8810
+#FLUX: --job-name=strawberry-omelette-2050
 #FLUX: -N=48
 #FLUX: -n=4608
 #FLUX: --queue=standard96
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NOPP='1'
 export OMP_NUM_THREADS='1'

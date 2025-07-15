@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-puppy-4009
-#FLUX: --priority=16
+#FLUX: --job-name=blue-caramel-9566
+#FLUX: --urgency=16
 
 CURDIR=`pwd`
 for ENV in swimmer swimmer_large block block_large wheeled wheeled_large waypoint waypoint_large; do

@@ -4,7 +4,7 @@
 #FLUX: -c=12
 #FLUX: --exclusive
 #FLUX: --queue=g40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='`hostname`'
 export MASTER_PORT='12802'

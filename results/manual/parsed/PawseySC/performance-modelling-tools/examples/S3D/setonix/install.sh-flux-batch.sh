@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bike-9224
+#FLUX: --job-name=swampy-lamp-9546
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu-dev
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CODENAME="S3D"
 REPO="git@github.com:unsw-edu-au/S3D_JICF.git"

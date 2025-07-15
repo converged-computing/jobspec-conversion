@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lettuce-3023
+#FLUX: --job-name=wobbly-cinnamonbun-0414
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 
 module load anaconda/3/2020.02

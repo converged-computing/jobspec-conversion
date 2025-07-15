@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lemon-3305
-#FLUX: --priority=16
+#FLUX: --job-name=phat-peanut-9224
+#FLUX: --urgency=16
 

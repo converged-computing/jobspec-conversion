@@ -2,7 +2,7 @@
 #FLUX: --job-name=cobra
 #FLUX: --queue=compute
 #FLUX: -t=356400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OPENBLAS_NUM_THREADS='1'
 export OMP_NUM_THREADS='1'

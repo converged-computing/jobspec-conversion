@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-rabbit-5231
+#FLUX: --job-name=quirky-frito-2135
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load singularity/3.3.0

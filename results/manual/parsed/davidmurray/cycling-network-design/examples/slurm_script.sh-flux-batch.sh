@@ -2,7 +2,7 @@
 #FLUX: --job-name=genetic_algo
 #FLUX: -N=8
 #FLUX: -t=42600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 module load cmake/3.23.1

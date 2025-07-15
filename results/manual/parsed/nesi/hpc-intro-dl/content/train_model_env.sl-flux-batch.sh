@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-poodle-5352
+#FLUX: --job-name=confused-lizard-4805
 #FLUX: -c=2
 #FLUX: --queue=hgx
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 echo "CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES}"

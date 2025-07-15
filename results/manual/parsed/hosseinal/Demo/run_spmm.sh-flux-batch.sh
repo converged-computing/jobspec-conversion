@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="swbench"
+#FLUX: --job-name=swbench
 #FLUX: -c=40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 THREADS=20
 module load NiaEnv/.2022a

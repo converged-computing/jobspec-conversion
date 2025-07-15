@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bam_index
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval $(spack load --sh samtools@1.13)
 lookup="$1"

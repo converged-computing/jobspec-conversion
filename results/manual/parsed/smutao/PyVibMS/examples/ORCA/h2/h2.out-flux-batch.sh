@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-parrot-8975
+#FLUX: --job-name=conspicuous-peanut-9817
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cat ${0}
 inpf="h2.inp"

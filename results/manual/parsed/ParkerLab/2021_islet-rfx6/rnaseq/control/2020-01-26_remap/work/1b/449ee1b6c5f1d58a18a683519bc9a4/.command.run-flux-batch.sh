@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-despacito-8703
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-butter-1219
+#FLUX: --urgency=16
 
 set -e
 set -u

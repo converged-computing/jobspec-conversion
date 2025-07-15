@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-nalgas-3843
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-latke-4364
+#FLUX: --urgency=16
 
 python task_a.py \
     --mode text_to_image \

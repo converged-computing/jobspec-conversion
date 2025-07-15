@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-muffin-6870
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-kitty-9261
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$SURFSARA_LIBRARY_PATH'
 

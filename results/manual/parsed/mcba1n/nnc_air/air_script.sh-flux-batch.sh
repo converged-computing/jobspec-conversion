@@ -2,7 +2,7 @@
 #FLUX: --job-name=air_sim
 #FLUX: --queue=gpu
 #FLUX: -t=576000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda
 nvidia-smi

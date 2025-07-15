@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-itch-2079
+#FLUX: --job-name=blue-blackbean-7187
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

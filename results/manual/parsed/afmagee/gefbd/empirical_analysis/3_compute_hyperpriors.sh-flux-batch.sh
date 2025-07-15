@@ -2,7 +2,7 @@
 #FLUX: --job-name=BDSTP_crocs_CRBDP_hyperpriors
 #FLUX: -n=2
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load R
 for ds in "Wilberg" "Stubbs";

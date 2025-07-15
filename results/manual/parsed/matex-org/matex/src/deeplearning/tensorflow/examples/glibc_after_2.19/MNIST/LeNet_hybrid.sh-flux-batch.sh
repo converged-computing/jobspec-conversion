@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lettuce-7169
-#FLUX: --priority=16
+#FLUX: --job-name=blue-fudge-3951
+#FLUX: --urgency=16
 
 train_batch=64
 nodes=1

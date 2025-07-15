@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cherry-7261
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-cattywampus-3120
+#FLUX: --urgency=16
 
 export DYLD_LIBRARY_PATH='/home/cmalaviy/dynet/build/dynet/:$DYLD_LIBRARY_PATH'
 export LD_LIBRARY_PATH='/opt/cudnn-8.0/lib64:$LD_LIBRARY_PATH'

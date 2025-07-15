@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-animal-8996
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-knife-9649
+#FLUX: --urgency=16
 
 SIMG=/work/06634/eho/singularity_images/deeplabcut_2_1_10.sif
 while getopts "i" opt

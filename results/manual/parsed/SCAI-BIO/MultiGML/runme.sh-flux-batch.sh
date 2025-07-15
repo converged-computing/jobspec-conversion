@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lemon-4175
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-cat-5905
+#FLUX: --urgency=16
 
 module load Anaconda3
 conda activate /home/skrix/virtualenv_nodgltorch

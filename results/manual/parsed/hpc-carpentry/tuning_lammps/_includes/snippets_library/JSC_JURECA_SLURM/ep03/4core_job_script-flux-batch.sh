@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-onion-1547
+#FLUX: --job-name=ornery-pedo-0368
 #FLUX: --queue=devel
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module use /usr/local/software/jureca/OtherStages

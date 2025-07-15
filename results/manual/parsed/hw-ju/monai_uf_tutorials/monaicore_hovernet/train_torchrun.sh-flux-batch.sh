@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-carrot-4201
+#FLUX: --job-name=tart-car-5978
 #FLUX: -c=4
 #FLUX: --gpus-per-task=8
 #FLUX: --exclusive
 #FLUX: --queue=hpg-ai
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export TORCH_DISTRIBUTED_DEBUG='DETAIL'

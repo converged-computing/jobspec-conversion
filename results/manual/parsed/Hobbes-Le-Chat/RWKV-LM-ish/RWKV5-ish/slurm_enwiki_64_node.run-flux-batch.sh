@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-nunchucks-4062
+#FLUX: --job-name=phat-muffin-1739
 #FLUX: -N=64
 #FLUX: -c=3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ROCM_HOME='/opt/rocm-5.6.0'
 export TRANSFORMERS_OFFLINE='1'

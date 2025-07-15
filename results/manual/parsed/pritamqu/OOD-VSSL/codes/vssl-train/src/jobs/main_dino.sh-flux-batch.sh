@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-eagle-0177
+#FLUX: --job-name=salted-house-3687
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: --queue=v100_full_node
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MASTER=`/bin/hostname -s`
 MPORT=$(shuf -i 6000-9999 -n 1)

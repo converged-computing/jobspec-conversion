@@ -3,7 +3,7 @@
 #FLUX: -n=8
 #FLUX: --queue=iob_p
 #FLUX: -t=1800000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONDA_BASE=$(conda info --base)
 source ${CONDA_BASE}/etc/profile.d/conda.sh

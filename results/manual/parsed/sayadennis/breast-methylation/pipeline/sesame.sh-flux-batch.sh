@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nfsesame
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge all
 module load nextflow/23.04.3

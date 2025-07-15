@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-peas-8594
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-milkshake-1234
+#FLUX: --urgency=16
 
 echo "bootstrap_batch ...." >> bootstrap_log
 echo $1 >> bootstrap_log

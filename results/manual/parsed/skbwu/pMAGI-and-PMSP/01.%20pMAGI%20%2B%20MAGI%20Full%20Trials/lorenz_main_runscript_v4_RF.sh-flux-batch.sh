@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-motorcycle-3300
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-motorcycle-5832
+#FLUX: --urgency=16
 
 export R_LIBS_USER='/n/home11/skbwu/apps/R_422 # tell R where to look for locally installed packages'
 

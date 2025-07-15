@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-motorcycle-3554
-#FLUX: --priority=16
+#FLUX: --job-name=blank-chip-1922
+#FLUX: --urgency=16
 
 module purge
 module use /software/spack_v20d1/spack/share/spack/modules/linux-rhel7-x86_64/

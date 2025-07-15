@@ -2,7 +2,7 @@
 #FLUX: --job-name=vulchecker_setup
 #FLUX: -c=2
 #FLUX: --queue=gpu-tk
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME='/ukp-storage-1/schroeder_e/'
 

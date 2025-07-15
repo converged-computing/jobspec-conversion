@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-hobbit-7623
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-chip-0767
+#FLUX: --urgency=16
 
 module load miniconda/22.11.1-1
 module load gcc/11.2.0

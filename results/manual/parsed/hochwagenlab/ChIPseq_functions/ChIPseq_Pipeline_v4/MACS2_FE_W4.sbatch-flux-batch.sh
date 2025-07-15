@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MACS2_FE
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load macs2/intel/2.1.1

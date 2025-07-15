@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bits-7421
+#FLUX: --job-name=hairy-bike-4956
 #FLUX: -n=13
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

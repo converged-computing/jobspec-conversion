@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-despacito-7712
+#FLUX: --job-name=loopy-poo-3276
 #FLUX: -n=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load fosscuda/2019b

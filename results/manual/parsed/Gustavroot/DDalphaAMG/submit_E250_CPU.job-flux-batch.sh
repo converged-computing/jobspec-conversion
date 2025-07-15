@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-arm-2418
+#FLUX: --job-name=adorable-cattywampus-4529
 #FLUX: -N=72
 #FLUX: --queue=batch
 #FLUX: -t=3540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

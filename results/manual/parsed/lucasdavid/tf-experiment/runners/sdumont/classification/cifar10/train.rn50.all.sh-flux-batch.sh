@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-fudge-0421
+#FLUX: --job-name=lovable-latke-7613
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "[cifar/train.rn50.all.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 nodeset -e $SLURM_JOB_NODELIST

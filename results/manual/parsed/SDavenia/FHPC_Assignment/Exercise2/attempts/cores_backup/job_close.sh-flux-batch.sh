@@ -3,7 +3,7 @@
 #FLUX: -c=128
 #FLUX: --queue=EPYC
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/u/dssc/sdaven00/myblis/lib:$LD_LIBRARY_PATH'
 export OMP_PLACES='cores'

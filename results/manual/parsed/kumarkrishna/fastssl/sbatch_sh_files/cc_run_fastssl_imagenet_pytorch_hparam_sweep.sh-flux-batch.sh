@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=exp_run_imagenet_hparam_sweep
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cluster_name=beluga
 compute_node_data_dir=$SLURM_TMPDIR/ImageNet

@@ -2,7 +2,7 @@
 #FLUX: --job-name=dnabert2
 #FLUX: --queue=soc-gpu-np
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 nvidia-smi 

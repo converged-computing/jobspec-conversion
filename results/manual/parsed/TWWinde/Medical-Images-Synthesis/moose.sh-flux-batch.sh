@@ -2,7 +2,7 @@
 #FLUX: --job-name=medical
 #FLUX: -c=4
 #FLUX: -t=601200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pyenv activate moose_env
 module load cuda

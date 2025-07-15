@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-earthworm-6139
-#FLUX: --priority=16
+#FLUX: --job-name=confused-fork-2316
+#FLUX: --urgency=16
 
 log="gchp.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="EMMA model run slurm_sing.sh"
+#FLUX: --job-name=EMMA model run slurm_sing.sh
 #FLUX: --queue=adamw
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
   export PROJECT_FOLDER="/panasas/scratch/grp-adamw/"
   export APPTAINER_CACHEDIR="/panasas/scratch/grp-adamw/"$USER"/singularity"

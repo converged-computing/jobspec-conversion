@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lettuce-2511
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-earthworm-1418
+#FLUX: --urgency=16
 
 cd ~/2023-DynPTOModelDesignStudies
 module load matlab

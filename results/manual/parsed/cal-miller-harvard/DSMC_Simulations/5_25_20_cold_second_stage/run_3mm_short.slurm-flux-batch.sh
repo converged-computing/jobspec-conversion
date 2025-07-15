@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-poo-3254
-#FLUX: --priority=16
+#FLUX: --job-name=placid-citrus-1929
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

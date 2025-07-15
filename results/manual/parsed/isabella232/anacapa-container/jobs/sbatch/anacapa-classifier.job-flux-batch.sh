@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=anacapa-12S-classifier
 #FLUX: -t=4200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SINGULARITY=$(which singularity)
 module load singularity # may not need this on your system

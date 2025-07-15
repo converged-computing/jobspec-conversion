@@ -2,7 +2,7 @@
 #FLUX: --job-name=cfq_train_docker
 #FLUX: -c=40
 #FLUX: -t=450000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CFQ_DIR='data/cfq'
 export DATA_CACHE='/data/$USER/data_cache/cfq'

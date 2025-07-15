@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-muffin-5479
+#FLUX: --job-name=crusty-general-8558
 #FLUX: -c=15
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/somedirwhereis3ddna/3d-dna:$PATH'
 

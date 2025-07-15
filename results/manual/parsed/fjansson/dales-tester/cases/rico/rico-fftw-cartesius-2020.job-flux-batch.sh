@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-taco-5430
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-snack-3297
+#FLUX: --urgency=16
 
 ID=$SLURM_ARRAY_TASK_ID
 if [ -z "$TAG" ] 

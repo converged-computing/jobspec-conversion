@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=phat-lamp-0496
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-lemon-2338
+#FLUX: --urgency=16
 

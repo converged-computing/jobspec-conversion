@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-train-7476
+#FLUX: --job-name=expensive-knife-4076
 #FLUX: -c=18
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2021
 module load TensorFlow/2.6.0-foss-2021a-CUDA-11.3.1

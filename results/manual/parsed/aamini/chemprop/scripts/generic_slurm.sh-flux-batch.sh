@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-noodle-3953
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-puppy-8026
+#FLUX: --urgency=16
 
 source /etc/profile 
 module load anaconda/2020b

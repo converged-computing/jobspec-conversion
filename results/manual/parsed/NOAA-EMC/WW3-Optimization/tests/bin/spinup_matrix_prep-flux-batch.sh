@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pastry-2151
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-car-9474
+#FLUX: --urgency=16
 
 export HOME_PATH='${HOME}'
 export OPTDIR='${MAIN}'

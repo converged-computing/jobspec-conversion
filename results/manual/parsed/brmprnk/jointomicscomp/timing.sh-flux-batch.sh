@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=timer
 #FLUX: -c=2
-#FLUX: --queue=general --qos=medium
+#FLUX: --queue=general
 #FLUX: -t=28799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml use /opt/insy/modulefiles;
 ml load cuda/11.0;

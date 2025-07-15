@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-peanut-4850
-#FLUX: --priority=16
+#FLUX: --job-name=hello-knife-4695
+#FLUX: --urgency=16
 
 SPLIT=10000  # Size of job chunks
 ROOT=/asap3/petra3/gpfs/p09/2023/data/11016752/processed/rodria

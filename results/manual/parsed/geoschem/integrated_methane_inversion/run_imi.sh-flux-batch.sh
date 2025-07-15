@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-milkshake-6099
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-poo-5926
+#FLUX: --urgency=16
 
 source src/utilities/common.sh
 source src/components/setup_component/setup.sh

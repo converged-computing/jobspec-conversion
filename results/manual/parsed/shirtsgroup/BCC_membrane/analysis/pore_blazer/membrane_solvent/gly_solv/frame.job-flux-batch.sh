@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-peas-8697
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-hope-6015
+#FLUX: --urgency=16
 
 module load gcc
 module load cuda/11.1.1

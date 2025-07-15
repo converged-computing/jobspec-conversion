@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=mlperf
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOGDIR='${LOGDIR}/${SLURM_JOB_ID}'
 export MLPERF_HOST_OS='Apollo6500_Gen10plus'

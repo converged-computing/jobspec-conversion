@@ -2,7 +2,7 @@
 #FLUX: --job-name=nlm_gpu
 #FLUX: --queue=gpu
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module load cuda/10.1.243

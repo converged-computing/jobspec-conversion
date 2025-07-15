@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-sundae-1978
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-soup-0213
+#FLUX: --urgency=16
 
 set -eu
 source ${SLURM_SUBMIT_DIR:-$(pwd)}/../UPSCb-common/src/bash/functions.sh

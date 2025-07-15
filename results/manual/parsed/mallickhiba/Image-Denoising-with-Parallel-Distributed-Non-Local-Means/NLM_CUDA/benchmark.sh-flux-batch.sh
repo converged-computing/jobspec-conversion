@@ -2,7 +2,7 @@
 #FLUX: --job-name=non-local-means
 #FLUX: --queue=gpu
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module load cuda

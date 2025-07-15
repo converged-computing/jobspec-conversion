@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-sundae-1267
-#FLUX: --priority=16
+#FLUX: --job-name=purple-truffle-7410
+#FLUX: --urgency=16
 
 export SCW_TPN_OVERRIDE='1'
 

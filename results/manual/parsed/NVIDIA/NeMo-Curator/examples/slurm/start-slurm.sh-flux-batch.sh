@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BASE_JOB_DIR='`pwd`/nemo-curator-jobs'
 export JOB_DIR='$BASE_JOB_DIR/$SLURM_JOB_ID'

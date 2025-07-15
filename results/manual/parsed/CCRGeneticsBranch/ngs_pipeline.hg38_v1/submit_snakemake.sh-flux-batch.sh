@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-kitty-8537
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-peanut-4418
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CCRGeneticsBranch/ngs_pipeline.hg38_v1/submit_snakemake.sh

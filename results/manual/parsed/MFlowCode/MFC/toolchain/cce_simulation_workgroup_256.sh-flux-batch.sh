@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-destiny-2178
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-frito-2198
+#FLUX: --urgency=16
 
 CCE_LLVM_PATH=${CRAY_CCE_CLANGSHARE}/../
 WGSIZE=256

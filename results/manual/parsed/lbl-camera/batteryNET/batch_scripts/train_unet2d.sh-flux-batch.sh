@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-nunchucks-9372
+#FLUX: --job-name=tart-punk-2967
 #FLUX: -c=32
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

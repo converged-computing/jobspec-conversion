@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-butter-4298
+#FLUX: --job-name=nerdy-avocado-7819
 #FLUX: -c=16
 #FLUX: --queue=gpu_short
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ ! "$HOSTNAME" == "frontend*" ]; then
  export https_proxy="http://frontend01:3128/"

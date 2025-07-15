@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-destiny-6951
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-peanut-butter-6091
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ExaFEL/minifel/scripts/bsub_gpu.sh

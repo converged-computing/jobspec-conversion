@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cherry-8816
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-lentil-5870
+#FLUX: --urgency=16
 
 export PYTHONPATH='/work2/noaa/da/ytang/py39/lib/python3.9/site-packages'
 export __LMOD_REF_COUNT_PYTHONPATH='$PYTHONPATH'

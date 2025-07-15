@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=nodes
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate llm

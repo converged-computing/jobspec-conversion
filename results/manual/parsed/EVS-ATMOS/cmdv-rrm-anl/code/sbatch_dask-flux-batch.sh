@@ -2,7 +2,7 @@
 #FLUX: --job-name=dask_cluster
 #FLUX: -c=36
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$CPUS_ON_NODE'
 export MPLBACKEND='agg'

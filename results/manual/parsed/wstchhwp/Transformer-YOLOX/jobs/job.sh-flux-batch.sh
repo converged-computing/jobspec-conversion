@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gpujob
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export YOLOX_DATADIR='~/scratch/'
 

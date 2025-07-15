@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-staircase-3071
+#FLUX: --job-name=lovable-avocado-8213
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/p/ppowell/miniconda3/envs/EEG_Vis_CL/lib/'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=paralleleMD
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load fftw2/intel/float/2.1.5  #Not sure about that one  
 module load cuda/10.2                   

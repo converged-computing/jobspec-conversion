@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-house-1318
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-fudge-0855
+#FLUX: --urgency=16
 
 export FASTBPE='../../fastBPE/fastBPE'
 export MOSES='../../mosesdecoder'

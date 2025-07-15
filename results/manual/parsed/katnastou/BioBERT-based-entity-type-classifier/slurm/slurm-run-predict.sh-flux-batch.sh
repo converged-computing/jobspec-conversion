@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-bicycle-5150
+#FLUX: --job-name=astute-pastry-8378
 #FLUX: -c=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='${HOME}/openmpi/bin:$PATH'
 export LD_LIBRARY_PATH='${HOME}/openmpi/lib:$LD_LIBRARY_PATH'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-buttface-1156
+#FLUX: --job-name=expensive-punk-4763
 #FLUX: --exclusive
 #FLUX: --queue=genoa
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

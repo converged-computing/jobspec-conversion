@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-snack-4485
+#FLUX: --job-name=blue-diablo-4006
 #FLUX: --exclusive
-#FLUX: --queue=<add your partition>
+#FLUX: --queue=<add
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_TIMEOUT='30'
 export SHARP_COLL_LOG_LEVEL='3'

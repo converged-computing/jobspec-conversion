@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-snack-0789
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-bicycle-9582
+#FLUX: --urgency=16
 
 pwd
 module restore PrgEnv-cray

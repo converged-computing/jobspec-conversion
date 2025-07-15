@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ae_vctk
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 tag_name="autoencoder/symAD_vctk_48000_hop300"
 stage=0

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=orchestra-executor
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MAESTRO_LOGPLACE='$pwd'
 export LOGURO_LEVEL='INFO'

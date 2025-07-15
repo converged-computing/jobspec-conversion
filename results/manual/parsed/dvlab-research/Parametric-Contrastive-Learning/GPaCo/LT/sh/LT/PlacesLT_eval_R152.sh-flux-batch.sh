@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=gpaco_placeslt_r152
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PORT=$[$RANDOM + 10000]
 source activate py3.8_pt1.8.1 

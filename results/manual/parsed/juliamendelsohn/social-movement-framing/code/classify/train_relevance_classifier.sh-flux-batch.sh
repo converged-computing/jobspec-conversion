@@ -3,7 +3,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 categories="Task1:relevance"
 epochs=20

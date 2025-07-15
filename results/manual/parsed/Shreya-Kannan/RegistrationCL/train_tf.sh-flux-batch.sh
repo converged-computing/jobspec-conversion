@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bike-7647
+#FLUX: --job-name=doopy-parsnip-8234
 #FLUX: -N=2
 #FLUX: -n=32
 #FLUX: -t=126000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python
 virtualenv --no-download $SLURM_TMPDIR/env

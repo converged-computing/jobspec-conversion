@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-noodle-3642
+#FLUX: --job-name=adorable-kerfuffle-9178
 #FLUX: -c=24
 #FLUX: --queue=demultiplexing
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 app_version=2.2.0
 app_dir=/data/diagnostics/pipelines/TSO500/illumina_app/TSO500_RUO_LocalApp-"$app_version"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Extract driving data from bagfile"
+#FLUX: --job-name=Extract driving data from bagfile
 #FLUX: --queue=main
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 BAGS=(
     '2022-01-25-15-25-15_e2e_rec_vahi_forward.bag' \

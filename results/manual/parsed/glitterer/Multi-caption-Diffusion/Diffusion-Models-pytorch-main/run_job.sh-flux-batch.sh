@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="class"
+#FLUX: --job-name=class
 #FLUX: -c=4
 #FLUX: --queue=gpus
 #FLUX: -t=381600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="qrennd-train-test"
+#FLUX: --job-name=qrennd-train-test
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2022r2
 module load python

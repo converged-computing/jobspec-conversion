@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-chip-5577
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-despacito-4727
+#FLUX: --urgency=16
 
 export MASTER_PORT='$MASTER_PORT'
 export MASTER_ADDR='$MASTER_ADDR'

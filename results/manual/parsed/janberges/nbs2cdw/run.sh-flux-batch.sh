@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-rabbit-2658
+#FLUX: --job-name=stanky-diablo-8335
 #FLUX: --queue=standard96
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='none'
 

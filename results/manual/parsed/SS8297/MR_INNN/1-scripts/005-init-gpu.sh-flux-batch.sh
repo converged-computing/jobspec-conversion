@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-citrus-2487
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-train-4213
+#FLUX: --urgency=16
 
 cd /proj/sens2022521/MindReader
 julia --project "/proj/sens2022521/MindReader/src/ReadMind.jl" \

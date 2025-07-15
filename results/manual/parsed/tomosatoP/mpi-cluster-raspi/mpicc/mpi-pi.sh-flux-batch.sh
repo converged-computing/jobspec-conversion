@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-car-9352
-#FLUX: --priority=16
+#FLUX: --job-name=salted-punk-0668
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PMIX_MCA_gds='hash'

@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=chromatin
 #FLUX: -n=8
-#FLUX: --queue=#partition name here
+#FLUX: --queue=
 #FLUX: -t=86100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

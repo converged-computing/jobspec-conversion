@@ -3,7 +3,7 @@
 #FLUX: -c=24
 #FLUX: --queue=ampere
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$ntomp'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-arm-5312
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-destiny-0907
+#FLUX: --urgency=16
 
 export which='sim'
 export bricks_fn='${CSCRATCH}/obiwan_out/elg_dr5_coadds/partially_done_bricks.txt'

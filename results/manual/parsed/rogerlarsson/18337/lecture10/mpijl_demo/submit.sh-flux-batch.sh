@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-eagle-7334
-#FLUX: --priority=16
+#FLUX: --job-name=purple-chip-1144
+#FLUX: --urgency=16
 
 source /etc/profile
 module load julia

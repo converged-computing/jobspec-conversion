@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-caramel-9893
+#FLUX: --job-name=angry-cat-3355
 #FLUX: -n=4
 #FLUX: -t=46799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export COMPUTERNAME='EULER'
 

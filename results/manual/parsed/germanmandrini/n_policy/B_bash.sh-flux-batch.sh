@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pot-7975
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-earthworm-1048
+#FLUX: --urgency=16
 
 cd /projects/aces
 module load singularity ## Load the singularity runtime to your environment

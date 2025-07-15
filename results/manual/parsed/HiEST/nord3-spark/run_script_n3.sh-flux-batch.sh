@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-bicycle-6131
-#FLUX: --priority=16
+#FLUX: --job-name=arid-blackbean-4451
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/HiEST/nord3-spark/run_script_n3.sh

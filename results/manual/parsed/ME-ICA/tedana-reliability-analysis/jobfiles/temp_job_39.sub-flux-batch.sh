@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-fudge-8969
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-sundae-3202
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ME-ICA/tedana-reliability-analysis/jobfiles/temp_job_39.sub

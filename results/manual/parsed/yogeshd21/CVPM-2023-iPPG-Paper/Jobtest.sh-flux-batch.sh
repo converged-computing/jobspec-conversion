@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-sundae-9498
-#FLUX: --priority=16
+#FLUX: --job-name=blank-malarkey-5635
+#FLUX: -c=16
+#FLUX: --urgency=16
 
 export MASTER_PORT='21621'
 export WORLD_SIZE='4'

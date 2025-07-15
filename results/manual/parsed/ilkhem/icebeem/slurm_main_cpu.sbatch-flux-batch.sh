@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ice_cpu
 #FLUX: -t=720
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_DEVICE_ORDER='PCI_BUS_ID'
 export CUDA_VISIBLE_DEVICES='0,1,2'

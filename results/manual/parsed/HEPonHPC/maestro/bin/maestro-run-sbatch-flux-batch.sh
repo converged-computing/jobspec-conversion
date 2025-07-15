@@ -3,7 +3,7 @@
 #FLUX: -N=5
 #FLUX: --queue=bdw
 #FLUX: -t=576000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 source /home/oyildiz/mohan/pythia/pythia8-diy-master/install/bin/latest-160522/rivetenv.sh

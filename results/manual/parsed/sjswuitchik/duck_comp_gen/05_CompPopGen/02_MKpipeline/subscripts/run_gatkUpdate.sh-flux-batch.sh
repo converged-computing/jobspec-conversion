@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-parrot-9244
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-egg-3475
+#FLUX: --urgency=16
 
 set -o errexit
 source activate gatk

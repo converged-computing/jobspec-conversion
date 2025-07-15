@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lizard-4744
+#FLUX: --job-name=hairy-onion-6238
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 
 module load anaconda/3/2020.02

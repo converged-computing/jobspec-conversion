@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-buttface-6412
+#FLUX: --job-name=tart-peanut-6605
 #FLUX: -c=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $HOME/miniconda3/etc/profile.d/conda.sh
 conda activate fmri_env

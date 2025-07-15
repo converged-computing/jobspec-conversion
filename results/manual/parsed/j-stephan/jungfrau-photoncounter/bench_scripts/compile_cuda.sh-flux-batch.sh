@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --queue=fwkt_v100
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/install/'
 

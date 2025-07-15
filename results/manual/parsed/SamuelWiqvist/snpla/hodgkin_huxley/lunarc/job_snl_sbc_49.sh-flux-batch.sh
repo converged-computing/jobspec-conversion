@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-animal-1948
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-chair-2709
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

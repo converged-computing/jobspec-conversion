@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-peas-3957
-#FLUX: --priority=16
+#FLUX: --job-name=confused-earthworm-6224
+#FLUX: --urgency=16
 
 module load trinity-rnaseq/2.13.2
 MEM=128G

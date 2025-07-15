@@ -2,7 +2,7 @@
 #FLUX: --job-name=visdrone_train
 #FLUX: -c=4
 #FLUX: -t=42600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export COMET_DISABLE_AUTO_LOGGING='1'
 

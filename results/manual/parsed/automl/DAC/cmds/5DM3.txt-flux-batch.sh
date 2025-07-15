@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-nalgas-4968
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-onion-7895
+#FLUX: --urgency=16
 
 source activate dac
 steps=1000000

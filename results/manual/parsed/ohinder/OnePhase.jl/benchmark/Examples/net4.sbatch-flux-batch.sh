@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=net4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load CUTEst/linux-cutest
 ml load julia/precompiled/0.5.0

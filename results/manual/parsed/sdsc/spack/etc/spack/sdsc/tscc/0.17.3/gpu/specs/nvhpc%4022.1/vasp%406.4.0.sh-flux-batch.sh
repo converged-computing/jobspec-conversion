@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=hotel-gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/cm/shared/apps/spack/0.17.3/gpu/opt/spack/linux-rocky9-broadwell/gcc-11.2.0/nvhpc-22.1-rsks4ptuwyfjjxigybva7k53ihgacw3y/Linux_x86_64/22.1/compilers/lib:$LD_LIBRARY_PATH'
 

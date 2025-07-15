@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-platanos-2001
+#FLUX: --job-name=reclusive-pancake-6853
 #FLUX: -N=2
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge > /dev/null 2>&1
 module use /opt/site/easybuild/modules/all/Core

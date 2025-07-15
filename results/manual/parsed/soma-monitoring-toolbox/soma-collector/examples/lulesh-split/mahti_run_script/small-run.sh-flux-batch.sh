@@ -2,7 +2,7 @@
 #FLUX: --job-name=soma-lulesh
 #FLUX: --queue=medium
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu
 echo "Setting up spack and modules"

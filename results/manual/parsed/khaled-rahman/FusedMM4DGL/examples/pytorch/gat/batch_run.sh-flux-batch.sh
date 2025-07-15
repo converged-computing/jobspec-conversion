@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-animal-5131
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-caramel-3104
+#FLUX: --urgency=16
 
 module unload gcc
 module load gcc

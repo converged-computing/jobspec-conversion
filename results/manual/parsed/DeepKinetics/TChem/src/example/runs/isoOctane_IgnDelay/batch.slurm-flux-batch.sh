@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-plant-7875
+#FLUX: --job-name=bloated-pastry-5980
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='48'
 

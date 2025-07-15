@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lemur-2973
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-pastry-1738
+#FLUX: --urgency=16
 
 export HOME='/om2/user/dapello/'
 

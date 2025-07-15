@@ -2,7 +2,7 @@
 #FLUX: --job-name=genedisco_special_acquisition
 #FLUX: --queue=long
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUBLAS_WORKSPACE_CONFIG=':4096:8'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/mila/c/chris.emezue/genedisco/genv/lib'

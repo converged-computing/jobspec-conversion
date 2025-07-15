@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-nunchucks-4800
+#FLUX: --job-name=psycho-blackbean-9750
 #FLUX: -t=180000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='1'

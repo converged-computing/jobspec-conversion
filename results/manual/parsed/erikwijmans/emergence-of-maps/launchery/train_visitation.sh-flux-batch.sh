@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-nunchucks-6497
+#FLUX: --job-name=ornery-animal-3318
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=learnfair
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'
 

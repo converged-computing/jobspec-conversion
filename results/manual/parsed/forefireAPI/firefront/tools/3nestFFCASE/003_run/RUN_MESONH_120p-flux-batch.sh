@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-kerfuffle-3335
+#FLUX: --job-name=placid-hope-6862
 #FLUX: --queue=intel
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPIRUN='mpirun -np 120'
 

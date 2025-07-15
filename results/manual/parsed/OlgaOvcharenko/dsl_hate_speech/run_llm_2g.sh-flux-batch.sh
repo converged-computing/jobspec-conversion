@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-animal-5850
+#FLUX: --job-name=ornery-carrot-0693
 #FLUX: -c=10
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB__SERVICE_WAIT='300'
 export TRANSFORMERS_CACHE='/cluster/scratch/oovcharenko/dsl_hate_speech/cache/'

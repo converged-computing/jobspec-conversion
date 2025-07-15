@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-staircase-1220
+#FLUX: --job-name=frigid-house-3772
 #FLUX: -N=18
 #FLUX: --exclusive
 #FLUX: --queue=haswell64
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODULEPATH='~s9951545/.modules:$MODULEPATH'
 export CORRT_GOSSIP_SEEDS='$RANDOM'

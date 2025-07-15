@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-plant-6706
-#FLUX: --priority=16
+#FLUX: --job-name=arid-lettuce-6432
+#FLUX: --urgency=16
 
 nvidia-smi
 ml purge

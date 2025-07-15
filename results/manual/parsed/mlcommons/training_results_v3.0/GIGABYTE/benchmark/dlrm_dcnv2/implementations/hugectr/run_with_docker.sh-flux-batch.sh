@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=dlrm.hugectr
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

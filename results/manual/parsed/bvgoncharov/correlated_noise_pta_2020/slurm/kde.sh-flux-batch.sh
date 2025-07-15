@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=kde_ppta
 #FLUX: -t=720
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pyv="$(python -c 'import sys; print(sys.version_info[0])')"
 if [ "$pyv" == 2 ]

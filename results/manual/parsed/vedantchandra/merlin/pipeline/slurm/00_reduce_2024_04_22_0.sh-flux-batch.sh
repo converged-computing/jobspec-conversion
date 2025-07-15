@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-fudge-1444
-#FLUX: --priority=16
+#FLUX: --job-name=arid-toaster-5169
+#FLUX: --urgency=16
 
 source activate pypeit2
 cd /n/home03/vchandra/outerhalo/08_mage/pipeline/

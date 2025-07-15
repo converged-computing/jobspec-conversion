@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-latke-9867
-#FLUX: --priority=16
+#FLUX: --job-name=red-nunchucks-6214
+#FLUX: --urgency=16
 
 module load python/3.8.5-fasrc01
 source activate pt38

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-blackbean-5357
+#FLUX: --job-name=tart-dog-4810
 #FLUX: --queue=batch
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load openmpi/4.0.3
 module load gcc/11.1.0

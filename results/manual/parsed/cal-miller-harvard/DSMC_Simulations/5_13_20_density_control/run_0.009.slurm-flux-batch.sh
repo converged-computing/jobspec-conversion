@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-avocado-0002
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-bike-5850
+#FLUX: --urgency=16
 
 echo "running...."
 julia RunCells.jl -l 0.009

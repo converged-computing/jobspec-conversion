@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pancake-7889
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-signal-0397
+#FLUX: --urgency=16
 
 module load intel/compiler
 module load intel/mkl

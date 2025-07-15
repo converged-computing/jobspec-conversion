@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-knife-4004
+#FLUX: --job-name=fugly-hobbit-6068
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 
 module load anaconda/3/2020.02

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-pastry-5905
+#FLUX: --job-name=evasive-nalgas-8027
 #FLUX: -c=16
 #FLUX: --queue=boost_usr_prod
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$master_addr'
 export WORLD_SIZE='$((GPUS_PER_NODE * SLURM_NNODES))'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-muffin-0778
+#FLUX: --job-name=peachy-onion-1502
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_EVALUATE_OFFLINE='1'
 export HF_DATASETS_OFFLINE='1'

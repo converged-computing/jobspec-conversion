@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=complextests
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SLURM_CPU_BIND='cores'
 OMP_NUM_THREADS=1

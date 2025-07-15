@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-hope-8155
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-parsnip-1018
+#FLUX: --urgency=16
 
 echo "SCRATCH_DIR: $SCRATCH_DIR"
 BATCHSIZE=2000

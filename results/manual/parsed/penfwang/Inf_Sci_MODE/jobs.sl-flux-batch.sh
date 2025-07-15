@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-buttface-6445
+#FLUX: --job-name=expensive-pastry-6722
 #FLUX: -c=2
 #FLUX: --queue=large
 #FLUX: -t=218100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 file_path=/nesi/project/vuw03334/binary_DE/algorithms1
 module load Python/3.8.1-gimkl-2018b

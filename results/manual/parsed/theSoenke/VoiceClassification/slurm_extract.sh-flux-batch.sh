@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=extract
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e # Good Idea to stop operation on first error.
 source /sw/batch/init.sh

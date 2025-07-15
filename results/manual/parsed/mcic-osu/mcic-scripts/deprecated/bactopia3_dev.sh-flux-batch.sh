@@ -2,7 +2,7 @@
 #FLUX: --job-name=bactopia3
 #FLUX: -c=10
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DESCRIPTION="Run the Bactopia v3 workflow"
 MODULE=miniconda3

@@ -3,7 +3,7 @@
 #FLUX: -c=18
 #FLUX: --queue=gpu_mig
 #FLUX: -t=129540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2022

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cherry-3066
+#FLUX: --job-name=chocolate-noodle-7506
 #FLUX: -t=41400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATA_DIR='ANERCorp-CamelLabSplits/'
 export MAX_LENGTH='512'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=get_logits
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 overlay_ext3=/scratch/xl3119/tf_icd/overlay-10GB-400K.ext3
 model_name=bert_base

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="buildstuff"
+#FLUX: --job-name=buildstuff
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export STARTDIR='`pwd`'
 export MDY='`date +%m%d%y_$LETTER`'

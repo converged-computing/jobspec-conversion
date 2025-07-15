@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=huggingface
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 if [ -e /dev/nvidia0 ]; then nv="--nv"; fi

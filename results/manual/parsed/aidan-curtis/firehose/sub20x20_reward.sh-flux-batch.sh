@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-rabbit-3671
+#FLUX: --job-name=red-poo-3833
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 i=1
 for algo in "ppo-maskable"

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blue-latke-8563
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-pot-8251
+#FLUX: --urgency=16
 

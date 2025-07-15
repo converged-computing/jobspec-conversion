@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-chip-0248
-#FLUX: --priority=16
+#FLUX: --job-name=tart-earthworm-1420
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

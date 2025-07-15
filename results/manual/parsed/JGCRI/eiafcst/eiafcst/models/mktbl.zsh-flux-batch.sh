@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-general-5083
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-pancake-0400
+#FLUX: --urgency=16
 
 module purge
 module load cuda/9.2.148

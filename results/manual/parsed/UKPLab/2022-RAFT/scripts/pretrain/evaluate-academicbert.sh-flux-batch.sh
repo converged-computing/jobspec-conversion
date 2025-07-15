@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-frito-2784
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-parsnip-9001
+#FLUX: --urgency=16
 
 export CXX='g++'
 export CUDA_LAUNCH_BLOCKING='1'

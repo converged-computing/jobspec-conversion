@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=p2
 #FLUX: -t=3600
-#FLUX: --priority=15
+#FLUX: --urgency=15
 
 export WANDB_PROJECT='invvis'
 export WANDB_NAME='${SLURM_JOB_NAME}'

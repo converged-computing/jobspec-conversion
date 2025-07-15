@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-bike-5523
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-kerfuffle-0998
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bernardoct/SharedDistributedParallelizationExamples/hybrid_python.sh

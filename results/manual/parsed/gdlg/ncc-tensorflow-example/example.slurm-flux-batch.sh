@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=example # Name of the job
-#FLUX: --priority=16
+#FLUX: --job-name=example
+#FLUX: --urgency=16
 
 source /etc/profile
 source env/bin/activate

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chip-8435
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-toaster-6235
+#FLUX: --urgency=16
 
 OPTIMIZER=sgd
 NPROC_PER_NODE=4

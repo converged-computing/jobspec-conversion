@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-rabbit-7948
+#FLUX: --job-name=angry-signal-5000
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ./GLOBAL_VAR.sh
 group="$1"

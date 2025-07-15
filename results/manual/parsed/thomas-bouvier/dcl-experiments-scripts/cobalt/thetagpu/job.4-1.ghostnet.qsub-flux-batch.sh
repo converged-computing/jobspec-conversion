@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=confused-general-2831
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-soup-4914
+#FLUX: --urgency=16
 

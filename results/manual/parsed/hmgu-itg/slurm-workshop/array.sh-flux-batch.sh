@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cat-9634
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-gato-1317
+#FLUX: --urgency=16
 
 echo SLURM_JOB_ID $SLURM_JOB_ID
 echo SLURM_ARRAY_JOB_ID $SLURM_ARRAY_JOB_ID

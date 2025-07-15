@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=GPU
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 singularity exec --nv nvidia.sif bash -c "$(cat $JOB_NAME.sh)"

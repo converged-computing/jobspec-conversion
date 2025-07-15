@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-parsnip-6991
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-earthworm-8723
+#FLUX: --urgency=16
 
 export AF_PATH='/usr/projects/p18_ebhlight3d/arrayfire/arrayfire_install          '
 export PETSC_DIR='/usr/projects/p18_ebhlight3d/petsc_3.10.0_install               '

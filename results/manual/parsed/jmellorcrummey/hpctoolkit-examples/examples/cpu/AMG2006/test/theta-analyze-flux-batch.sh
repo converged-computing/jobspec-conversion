@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-truffle-6361
-#FLUX: --priority=16
+#FLUX: --job-name=tart-mango-3279
+#FLUX: --urgency=16
 

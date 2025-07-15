@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-frito-6854
+#FLUX: --job-name=lovable-plant-1295
 #FLUX: -t=2700
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

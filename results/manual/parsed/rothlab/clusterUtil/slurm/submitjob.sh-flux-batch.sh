@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-hope-9743
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-lettuce-4561
+#FLUX: --urgency=16
 
 set -eEuo pipefail +H
 function handle_error {

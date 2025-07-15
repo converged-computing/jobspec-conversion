@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-hippo-4512
-#FLUX: --priority=16
+#FLUX: --job-name=placid-bits-3843
+#FLUX: --urgency=16
 
 threads=$(nproc --all --ignore=1)
 mem="128"

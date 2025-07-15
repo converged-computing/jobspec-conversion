@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lizard-1423
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-knife-6007
+#FLUX: --urgency=16
 
 module load cuda/10.0.130
 nvidia-smi

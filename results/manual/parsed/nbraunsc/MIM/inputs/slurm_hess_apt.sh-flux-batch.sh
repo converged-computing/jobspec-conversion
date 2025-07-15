@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-frito-2519
+#FLUX: --job-name=pusheena-chair-4845
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ERROR='${OUTFILE%%.*}.error'
 export TEMP='$LEVEL/"$OUTFILE.reap'

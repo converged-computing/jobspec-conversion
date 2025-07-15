@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-cat-1696
+#FLUX: --job-name=ornery-kitty-2921
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 jar=damds-1.1-jar-with-dependencies.jar
 x='x'

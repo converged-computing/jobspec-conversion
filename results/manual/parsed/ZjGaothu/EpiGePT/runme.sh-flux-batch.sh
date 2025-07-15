@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lemon-4137
+#FLUX: --job-name=bricky-onion-5299
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load cuda/10.1.105
 ml load cudnn/7.6.5

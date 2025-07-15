@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-hobbit-6980
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-leg-5238
+#FLUX: --urgency=16
 
 SUBMIT=0
 PARTITION=nodes

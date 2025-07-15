@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-general-2126
+#FLUX: --job-name=red-butter-8399
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=19200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module unload intel-mpi/2019-intel

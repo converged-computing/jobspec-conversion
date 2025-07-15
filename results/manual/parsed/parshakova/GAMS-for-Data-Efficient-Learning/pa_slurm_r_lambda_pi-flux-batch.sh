@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-butter-9062
+#FLUX: --job-name=pusheena-lettuce-4228
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 srun hostname

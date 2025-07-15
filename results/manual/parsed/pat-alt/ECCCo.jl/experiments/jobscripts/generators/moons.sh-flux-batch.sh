@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="Moons (ECCCo)"
+#FLUX: --job-name=Moons (ECCCo)
 #FLUX: -n=30
 #FLUX: -c=10
 #FLUX: --queue=compute
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2023r1 openmpi
 source experiments/slurm_header.sh

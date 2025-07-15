@@ -1,27 +1,34 @@
 #!/bin/bash
-#BSUB -nnodes 4                   # number of nodes
-#BSUB -W 30                       # walltime in minutes
-#BSUB -q pbatch                   # queue to use
+#SBATCH --nodes=1                # number of nodes
+#SBATCH -t 00:30:00              # walltime (hh:mm:ss)
+#SBATCH --partition=gpuA40x4
+#SBATCH --ntasks-per-node=4      # change this if running on a partition with other than 4 GPUs per node
+#SBATCH --gpus-per-node=4        # change this if running on a partition with other than 4 GPUs per node
+#SBATCH --gpu-bind=single:1
+#SBATCH --account=bbkf-delta-gpu
+#SBATCH --exclusive              # dedicated node for this job
+#SBATCH --no-requeue
+#SBATCH --gpus-per-task=1
 
-# Run this script with 'bsub lassen.bsub.sh'
+# Run this script with 'sbatch delta.sbatch.sh'
+
+# Delta user guide:
+# - https://wiki.ncsa.illinois.edu/display/DSC/Delta+User+Guide
+# - https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/
 
 # Put any environment activation here, e.g.:
 # source ../../config/activate_env.sh
 
 # OpenCL device selection:
-export PYOPENCL_CTX="port:tesla"      # Run on Nvidia GPU with pocl
+export PYOPENCL_CTX="port:nvidia"     # Run on Nvidia GPU with pocl
 # export PYOPENCL_CTX="port:pthread"  # Run on CPU with pocl
 
-nnodes=$(echo $LSB_MCPU_HOSTS | wc -w)
-nnodes=$((nnodes/2-1))
-nproc=$((4*nnodes)) # 4 ranks per node, 1 per GPU
+nnodes=$SLURM_JOB_NUM_NODES
+nproc=$SLURM_NTASKS
 
 echo nnodes=$nnodes nproc=$nproc
 
-# -a 1: 1 task per resource set
-# -g 1: 1 GPU per resource set
-# -n $nproc: $nproc resource sets
-jsrun_cmd="jsrun -g 1 -a 1 -n $nproc"
+srun_cmd="srun -N $nnodes -n $nproc"
 
 # See
 # https://mirgecom.readthedocs.io/en/latest/running.html#avoiding-overheads-due-to-caching-of-kernels
@@ -29,14 +36,5 @@ jsrun_cmd="jsrun -g 1 -a 1 -n $nproc"
 MIRGE_CACHE_ROOT=${MIRGE_CACHE_ROOT:-"$(pwd)/.mirge-cache/"}
 export XDG_CACHE_HOME_ROOT="${MIRGE_CACHE_ROOT}/xdg-cache/rank"
 
-# Reenable CUDA cache
-export CUDA_CACHE_DISABLE=0
-export CUDA_CACHE_PATH_ROOT="${MIRGE_CACHE_ROOT}/cuda-cache/rank"
-
-# Print task allocation
-$jsrun_cmd js_task_info
-
-echo "----------------------------"
-
 # Run application
-$jsrun_cmd bash -c 'CUDA_CACHE_PATH=$CUDA_CACHE_PATH_ROOT$OMPI_COMM_WORLD_RANK XDG_CACHE_HOME=$XDG_CACHE_HOME_ROOT$OMPI_COMM_WORLD_RANK python -m mpi4py ../examples/pulse.py --lazy'
+$srun_cmd bash -c 'XDG_CACHE_HOME=$XDG_CACHE_HOME_ROOT$SLURM_PROCID python -u -O -m mpi4py ./pulse.py'

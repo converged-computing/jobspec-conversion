@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-soup-6968
+#FLUX: --job-name=fuzzy-bike-5788
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

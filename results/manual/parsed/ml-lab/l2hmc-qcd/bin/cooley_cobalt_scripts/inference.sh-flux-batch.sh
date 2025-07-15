@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=faux-avocado-2742
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-lettuce-1476
+#FLUX: --urgency=16
 

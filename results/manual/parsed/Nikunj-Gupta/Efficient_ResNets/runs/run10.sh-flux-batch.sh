@@ -2,7 +2,7 @@
 #FLUX: --job-name=se_fulldrop_good_ResNet4_num_blocks1x1x1x1_squeeze_and_excitation1_drop0.8
 #FLUX: -c=16
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/intel/3.8.6
 module load openmpi/intel/4.0.5

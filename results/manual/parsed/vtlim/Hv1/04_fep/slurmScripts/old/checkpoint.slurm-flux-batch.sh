@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="ref_F150A_RS"
+#FLUX: --job-name=ref_F150A_RS
 #FLUX: --queue=mf_ilg2.3
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 lambda=$SLURM_ARRAY_TASK_ID
 printf "Start Time:$( date )\n"

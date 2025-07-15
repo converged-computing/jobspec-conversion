@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=lammps_test_job
 #FLUX: -t=720000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 conda --version

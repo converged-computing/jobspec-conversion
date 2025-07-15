@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=vqvae-preact-embed-128-256-512-pre50-post50-catproj-postup3-symmetricpad-restart-restart
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='6'
 export NCCL_DEBUG='INFO'

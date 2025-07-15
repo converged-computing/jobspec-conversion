@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-muffin-0774
+#FLUX: --job-name=reclusive-omelette-5918
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.3.0

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-itch-4087
+#FLUX: --job-name=gassy-fudge-6457
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export nnUNet_raw='/projects/0/nwo2021061/uls23/nnUNet_raw'
 export nnUNet_preprocessed='/home/ljulius/algorithm/nnunet/nnUNet_preprocessed'

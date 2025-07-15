@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-car-9873
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-lamp-6348
+#FLUX: --urgency=16
 
 source ~/.bash_profile
 init_conda

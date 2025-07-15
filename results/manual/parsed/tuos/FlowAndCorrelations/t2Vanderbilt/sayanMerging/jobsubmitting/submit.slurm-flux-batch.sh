@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-avocado-8474
+#FLUX: --job-name=dirty-citrus-7265
 #FLUX: -t=244800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRAM_ARCH='slc7_amd64_gcc630'
 

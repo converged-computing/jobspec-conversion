@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-poodle-5488
+#FLUX: --job-name=fuzzy-puppy-3120
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

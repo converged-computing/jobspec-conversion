@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-fudge-6430
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-gato-3289
+#FLUX: -t=691200
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'
 

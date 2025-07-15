@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-leopard-4705
-#FLUX: --priority=16
+#FLUX: --job-name=blue-bike-3519
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='48'
 

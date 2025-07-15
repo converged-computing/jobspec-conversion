@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-nalgas-5759
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-punk-6715
+#FLUX: --urgency=16
 
 SECONDS=0
 echo -e "~~~   ***   ~~~"

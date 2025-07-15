@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-pastry-8096
-#FLUX: --queue=general-compute  --qos=general-compute
+#FLUX: --job-name=cowy-leader-0690
+#FLUX: --queue=general-compute
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST="$SLURM_JOB_NODELIST

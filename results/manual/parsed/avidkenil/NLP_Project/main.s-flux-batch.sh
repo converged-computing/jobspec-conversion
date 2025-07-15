@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_MT
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python3/intel/3.6.3
 source /home/dam740/pytorch_venv/bin/activate

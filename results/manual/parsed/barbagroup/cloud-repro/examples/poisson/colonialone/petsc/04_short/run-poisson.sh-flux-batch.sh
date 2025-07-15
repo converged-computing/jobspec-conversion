@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="04petsc"
+#FLUX: --job-name=04petsc
 #FLUX: -N=4
 #FLUX: --queue=short
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$AMGXWRAPPER_DIR/example/poisson/bin":$PATH'
 export LD_LIBRARY_PATH='$AMGX_DIR/lib":$LD_LIBRARY_PATH'

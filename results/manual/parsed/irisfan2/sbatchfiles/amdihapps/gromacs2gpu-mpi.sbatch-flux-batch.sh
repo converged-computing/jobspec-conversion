@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-arm-8786
+#FLUX: --job-name=rainbow-bicycle-9951
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

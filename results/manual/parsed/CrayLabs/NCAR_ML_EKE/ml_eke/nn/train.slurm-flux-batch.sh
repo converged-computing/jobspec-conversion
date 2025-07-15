@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-spoon-3721
+#FLUX: --job-name=stinky-animal-9594
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LR='0.0005 # CNN'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-gato-7195
-#FLUX: --priority=16
+#FLUX: --job-name=faux-pot-2651
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SKA-INAF/caesar/scripts/RunCASASimulation.sh

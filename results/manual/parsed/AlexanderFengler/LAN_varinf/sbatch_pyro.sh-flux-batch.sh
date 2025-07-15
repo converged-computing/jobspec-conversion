@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-parsnip-9167
+#FLUX: --job-name=dirty-cherry-0366
 #FLUX: -t=115200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=shuffle_pixels
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euxo pipefail
 ${SLURM_ARRAY_TASK_ID:=3}

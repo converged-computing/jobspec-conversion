@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-gato-2150
+#FLUX: --job-name=frigid-pedo-4483
 #FLUX: -N=2
 #FLUX: -n=40
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 echo $SLURM_JOB_NODELIST

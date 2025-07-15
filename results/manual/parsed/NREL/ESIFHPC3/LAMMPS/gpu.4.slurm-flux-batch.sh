@@ -2,7 +2,7 @@
 #FLUX: --job-name=lmp.gpu4
 #FLUX: -N=4
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

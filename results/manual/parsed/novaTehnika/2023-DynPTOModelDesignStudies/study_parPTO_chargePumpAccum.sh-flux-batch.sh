@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bicycle-3116
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-punk-4291
+#FLUX: --urgency=16
 
 cd ~/2023-DynPTOModelDesignStudies
 module load matlab

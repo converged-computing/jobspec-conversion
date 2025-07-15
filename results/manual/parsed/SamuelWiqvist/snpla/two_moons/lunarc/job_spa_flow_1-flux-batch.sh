@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lizard-5899
+#FLUX: --job-name=fugly-peanut-butter-5728
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

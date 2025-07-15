@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-muffin-4747
+#FLUX: --job-name=fuzzy-chip-3575
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load StdEnv/2020
 module load gcc/9.3.0

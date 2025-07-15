@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-spoon-3067
+#FLUX: --job-name=adorable-kerfuffle-6082
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add cudnn/5.1-cuda-8.0
 module load anaconda/py35/4.2.0

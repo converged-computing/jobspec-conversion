@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-dog-0905
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-carrot-4224
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Saric-Group/amyloid-simulations/job_templates/lemon/micelles

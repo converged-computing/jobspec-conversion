@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-sundae-1773
-#FLUX: --priority=16
+#FLUX: --job-name=confused-eagle-3078
+#FLUX: --urgency=16
 
 export DATASET='mnli_matched'
 export MODEL='distilbert-base-uncased'

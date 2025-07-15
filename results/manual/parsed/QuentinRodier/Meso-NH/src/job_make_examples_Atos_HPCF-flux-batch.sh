@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-egg-9092
-#FLUX: --priority=16
+#FLUX: --job-name=astute-kitty-9004
+#FLUX: --urgency=16
 
 export MONORUN='Mpirun -np 1 '
 export MPIRUN='Mpirun -np 2 '

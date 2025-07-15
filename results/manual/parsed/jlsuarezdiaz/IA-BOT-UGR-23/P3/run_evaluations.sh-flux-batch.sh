@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-carrot-1697
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-animal-1149
+#FLUX: --urgency=16
 
 export PATH='/home/profesia/anaconda/condabin:$PATH'
 

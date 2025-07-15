@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-kerfuffle-6010
+#FLUX: --job-name=anxious-cinnamonbun-3429
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eux
 readonly docker_image=${DOCKER_IMAGE:-"lddl:latest"}

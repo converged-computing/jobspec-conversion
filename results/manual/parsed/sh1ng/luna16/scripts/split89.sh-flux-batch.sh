@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-truffle-0479
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-lamp-9667
+#FLUX: --urgency=16
 
 export PYTHONPATH='$HOME/pythonpackages/lib/python:$PYTHONPATH'
 export THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1' '

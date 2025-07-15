@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blue-pedo-2977
-#FLUX: --priority=16
+#FLUX: --job-name=phat-cupcake-7942
+#FLUX: --urgency=16
 

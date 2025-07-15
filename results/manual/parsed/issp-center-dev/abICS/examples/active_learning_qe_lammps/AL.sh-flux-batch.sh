@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-chair-2191
+#FLUX: --job-name=carnivorous-spoon-7153
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo start AL sample
 srun -n 8 abics_mlref input.toml >> abics_mlref.out

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-kitty-6161
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-kerfuffle-3181
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tekpinar/CMB-Scripts/pbs_scripts/pbsNAMD_mt~

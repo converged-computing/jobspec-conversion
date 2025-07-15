@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-destiny-6183
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-snack-9901
+#FLUX: --urgency=16
 
 echo "Activating python environment"
 module load Anaconda3/5.0.1-fasrc01

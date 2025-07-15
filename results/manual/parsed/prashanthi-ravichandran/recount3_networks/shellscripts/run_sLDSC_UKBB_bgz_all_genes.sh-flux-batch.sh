@@ -2,7 +2,7 @@
 #FLUX: --job-name=run_ldsc_UKBB_bgz_all_genes
 #FLUX: --queue=defq
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda
 conda activate ldsc 

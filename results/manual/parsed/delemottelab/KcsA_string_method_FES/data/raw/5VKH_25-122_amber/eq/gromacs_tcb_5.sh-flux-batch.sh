@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-peanut-butter-9220
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-leopard-4257
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.2

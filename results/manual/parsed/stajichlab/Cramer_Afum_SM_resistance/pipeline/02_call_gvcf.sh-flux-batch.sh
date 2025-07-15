@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lettuce-8348
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-cat-5510
+#FLUX: --urgency=16
 
 module load picard
 module load gatk/4

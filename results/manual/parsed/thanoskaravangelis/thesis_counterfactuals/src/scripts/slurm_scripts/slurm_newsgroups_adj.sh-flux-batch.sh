@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adj_newsgroups_run_gradient # Όνομα για διαχωρισμό μεταξύ jobs
+#FLUX: --job-name=adj_newsgroups_run_gradient
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /users/pa21/ptzouv/tkaravangelis/mice_newsgroups
 module purge

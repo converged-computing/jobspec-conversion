@@ -2,7 +2,7 @@
 #FLUX: --job-name=SbatchJob
 #FLUX: --queue=bluemoon
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}
 echo "Starting sbatch script myscript.sh at:`date`"

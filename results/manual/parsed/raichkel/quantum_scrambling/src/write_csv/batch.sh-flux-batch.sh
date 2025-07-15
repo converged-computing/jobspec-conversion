@@ -2,7 +2,7 @@
 #FLUX: --job-name=write_csv
 #FLUX: --queue=QuamNESS
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load lang/julia/1.8.5

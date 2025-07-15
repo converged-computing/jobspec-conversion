@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-eagle-9430
-#FLUX: --priority=16
+#FLUX: --job-name=red-leader-9703
+#FLUX: --urgency=16
 
 module purge
 module load cuda/9.2.148

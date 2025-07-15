@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lemon-1125
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-lizard-2755
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load singularity

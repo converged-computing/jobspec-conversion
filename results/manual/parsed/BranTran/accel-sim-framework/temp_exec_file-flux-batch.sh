@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-caramel-9606
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-fudge-5262
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BranTran/accel-sim-framework/temp_exec_file

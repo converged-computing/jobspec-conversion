@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-punk-2696
-#FLUX: --priority=16
+#FLUX: --job-name=arid-pot-0211
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

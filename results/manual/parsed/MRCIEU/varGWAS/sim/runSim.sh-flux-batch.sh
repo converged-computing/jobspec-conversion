@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-noodle-6746
+#FLUX: --job-name=arid-spoon-0036
 #FLUX: -c=3
 #FLUX: --queue=cpu,mrcieu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euo pipefail
 module load apps/singularity/3.8.3

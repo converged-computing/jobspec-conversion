@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-kitty-1986
+#FLUX: --job-name=rainbow-kitty-5031
 #FLUX: --queue=mono
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.modules
 module load gcc

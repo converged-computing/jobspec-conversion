@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=gpuq
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 theImage="docker://nvcr.io/nvidia/tensorflow:22.04-tf2-py3"
 module load singularity

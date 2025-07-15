@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-parrot-2591
+#FLUX: --job-name=outstanding-pedo-8260
 #FLUX: --queue=multi
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='64'
 export SLURM_HINT='multithread '

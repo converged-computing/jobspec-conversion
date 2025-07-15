@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-latke-8059
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-parrot-9433
+#FLUX: --urgency=16
 
 export PATH='/work/05622/lhq/stampede2/bin:$PATH'
 export PYTHONPATH='/tmp/test_{env_dir_random}/envs/schicluster/lib/python3.8/site-packages'

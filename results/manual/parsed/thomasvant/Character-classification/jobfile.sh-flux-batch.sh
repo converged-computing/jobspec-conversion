@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=elmo
-#FLUX: --queue=general --qos=short
+#FLUX: --queue=general
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.1 cudnn/10.1-7.6.0.64

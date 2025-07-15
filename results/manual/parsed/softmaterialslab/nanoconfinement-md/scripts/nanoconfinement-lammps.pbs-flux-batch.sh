@@ -2,7 +2,7 @@
 #FLUX: --job-name=IONS_LAMMPS
 #FLUX: --queue=general
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 

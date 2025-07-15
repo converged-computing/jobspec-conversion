@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-carrot-4355
+#FLUX: --job-name=doopy-ricecake-9030
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel
 module load impi

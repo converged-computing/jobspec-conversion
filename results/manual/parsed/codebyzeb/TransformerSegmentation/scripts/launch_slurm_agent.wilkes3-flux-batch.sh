@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-milkshake-5994
+#FLUX: --job-name=buttery-leg-3880
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export LOGLEVEL='INFO'

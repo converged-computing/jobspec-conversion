@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-cinnamonbun-6688
+#FLUX: --job-name=rainbow-cupcake-1642
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 srun -l -u --mpi=pmi2 shifter \

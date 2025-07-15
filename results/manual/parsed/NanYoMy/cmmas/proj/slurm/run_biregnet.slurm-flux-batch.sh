@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-carrot-3820
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-destiny-3274
+#FLUX: --urgency=16
 
 nvidia-smi -L
 echo $CUDA_VISIBLE_DEVICES

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-earthworm-0258
-#FLUX: --priority=16
+#FLUX: --job-name=confused-cinnamonbun-5038
+#FLUX: --urgency=16
 
 module load python3
 module load cuda/12.0

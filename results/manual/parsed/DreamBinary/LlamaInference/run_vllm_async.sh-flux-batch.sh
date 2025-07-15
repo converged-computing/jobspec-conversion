@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-parrot-9832
+#FLUX: --job-name=bloated-pancake-2468
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='0'

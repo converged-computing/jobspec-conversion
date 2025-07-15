@@ -2,7 +2,7 @@
 #FLUX: --job-name=cnn-extr_rnd_seed
 #FLUX: --queue=plgrid-testing
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 TSTAMP=$(date '+%m%d')
 PROJECT=PROCESS_UC1

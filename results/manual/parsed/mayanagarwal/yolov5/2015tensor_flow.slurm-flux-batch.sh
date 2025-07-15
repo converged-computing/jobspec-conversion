@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-staircase-6818
+#FLUX: --job-name=moolicious-platanos-3552
 #FLUX: --queue=shortgpgpu
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 source /usr/local/module/spartan_old.sh

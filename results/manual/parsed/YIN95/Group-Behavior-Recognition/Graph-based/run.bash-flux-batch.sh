@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-egg-6954
+#FLUX: --job-name=blank-arm-2853
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 printenv $SLURM_STEP_GPUS
 nvidia-smi

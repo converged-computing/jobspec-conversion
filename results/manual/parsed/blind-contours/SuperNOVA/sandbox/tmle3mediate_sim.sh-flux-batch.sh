@@ -2,7 +2,7 @@
 #FLUX: --job-name=tmle3mediate-simulation
 #FLUX: --queue=savio2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load r/3.6.3
 module load r-packages

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-punk-2154
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-parsnip-5427
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

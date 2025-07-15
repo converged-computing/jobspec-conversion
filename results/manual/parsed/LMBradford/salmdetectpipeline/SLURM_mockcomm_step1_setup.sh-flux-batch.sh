@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-nunchucks-1625
+#FLUX: --job-name=delicious-leader-9933
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export R_LIBS='~/.local/R/$EBVERSIONR/'
 

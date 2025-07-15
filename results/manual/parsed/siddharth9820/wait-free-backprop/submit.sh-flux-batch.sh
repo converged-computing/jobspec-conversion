@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-itch-4374
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-rabbit-4829
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CUDNN_ROOT/lib64:$CUDA_HOME/lib64:/lustre/ssingh37/Acads/CMSC818x/nccl/build/lib'
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=bergamot
 #FLUX: -c=4
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e # exit on error
 set -x # echo commands

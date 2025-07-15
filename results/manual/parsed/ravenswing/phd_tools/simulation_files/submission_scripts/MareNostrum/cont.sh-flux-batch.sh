@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-dog-7926
+#FLUX: --job-name=chunky-fork-3545
 #FLUX: -N=2
 #FLUX: -c=2
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GMX='gmx_mpi'
 

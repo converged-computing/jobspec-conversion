@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-buttface-4695
+#FLUX: --job-name=frigid-truffle-7615
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add cuda/8.0
 module add cudnn/7-cuda-8.0

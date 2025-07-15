@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-leg-8230
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-train-5453
+#FLUX: --urgency=16
 
 module purge
 module load TensorFlow/2.11.0-foss-2022a-CUDA-11.7.0

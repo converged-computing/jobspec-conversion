@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-ricecake-3867
-#FLUX: --priority=16
+#FLUX: --job-name=tart-punk-8659
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ttestgcn
 #FLUX: --queue=msfea-ai
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/3.8.2

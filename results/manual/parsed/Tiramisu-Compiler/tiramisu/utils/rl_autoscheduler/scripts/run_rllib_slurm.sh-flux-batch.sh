@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hippo-0811
+#FLUX: --job-name=loopy-pastry-5525
 #FLUX: -N=4
 #FLUX: -c=28
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . scripts/env.sh
 . $CONDA_DIR/bin/activate

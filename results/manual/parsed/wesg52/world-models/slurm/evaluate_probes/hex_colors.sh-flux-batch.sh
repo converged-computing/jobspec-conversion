@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-destiny-6751
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-frito-5760
+#FLUX: --urgency=16
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'
 export HF_DATASETS_OFFLINE='1'

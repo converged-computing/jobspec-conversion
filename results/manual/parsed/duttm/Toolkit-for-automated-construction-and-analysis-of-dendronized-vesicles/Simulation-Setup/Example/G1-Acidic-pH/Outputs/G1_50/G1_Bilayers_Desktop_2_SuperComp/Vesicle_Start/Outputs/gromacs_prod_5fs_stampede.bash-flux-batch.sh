@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-poo-0392
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-underoos-4488
+#FLUX: --urgency=16
 
 tar xvf package.tar.gz
 module load gromacs

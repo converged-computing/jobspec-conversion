@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=3Adj-EGNNA
 #FLUX: --queue=prod
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:/homes/svincenzi/.conda/envs/py_env2/bin/python'
 

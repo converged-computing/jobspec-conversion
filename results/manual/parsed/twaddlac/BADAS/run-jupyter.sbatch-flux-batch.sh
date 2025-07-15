@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-poo-1020
+#FLUX: --job-name=dinosaur-frito-4034
 #FLUX: -c=2
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load biopython/intel/1.70

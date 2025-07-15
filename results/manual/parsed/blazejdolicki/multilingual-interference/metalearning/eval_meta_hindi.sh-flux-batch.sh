@@ -2,7 +2,7 @@
 #FLUX: --job-name=meta_experiment
 #FLUX: --queue=gpu_titanrtx_shared_course
 #FLUX: -t=172740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2019

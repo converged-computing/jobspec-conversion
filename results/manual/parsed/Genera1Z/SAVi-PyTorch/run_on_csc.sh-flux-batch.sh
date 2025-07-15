@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=gpusmall
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load pytorch tensorflow vim
 pip install -r requirements.txt

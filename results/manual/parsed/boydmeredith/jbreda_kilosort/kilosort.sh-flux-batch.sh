@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-hobbit-0461
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-dog-2660
+#FLUX: --urgency=16
 
 input_path="/scratch/gpfs/jbreda/ephys/kilosort/data_sdb_20190724_193007_fromSD_firstbundle_T5_W10000_forkilosort" 
 repo_path="/scratch/gpfs/jbreda/ephys/kilosort/Brody_Lab_Ephys"

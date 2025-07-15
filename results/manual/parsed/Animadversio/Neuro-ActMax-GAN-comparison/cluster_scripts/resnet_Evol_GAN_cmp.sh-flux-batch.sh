@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-chip-4413
-#FLUX: --priority=16
+#FLUX: --job-name=phat-blackbean-8230
+#FLUX: --urgency=16
 
 export unit_name='$(echo "$param_list" | head -n $SLURM_ARRAY_TASK_ID | tail -1)'
 

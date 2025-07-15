@@ -3,7 +3,7 @@
 #FLUX: -n=8
 #FLUX: -c=8
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.8.0-fasrc01
 module load cudnn/8.9.2.26_cuda11-fasrc01

@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=savio3_gpu
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='$BASE_DIR/.singularity/cache'
 export SINGULARITY_TEMPDIR='$BASE_DIR/tmp'

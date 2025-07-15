@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name='lesion'
+#FLUX: --job-name=lesion
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SORT_TASK_INDEX=$1
 NONSORT_TASK_INDEX=$2

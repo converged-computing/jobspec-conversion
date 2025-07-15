@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-egg-0966
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-itch-5917
+#FLUX: --exclusive
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='false'
 

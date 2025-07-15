@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-parrot-5135
+#FLUX: --job-name=pusheena-latke-1465
 #FLUX: --exclusive
 #FLUX: --queue=cclake,skylake
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euxo pipefail
 . $HOME/src/cirrus-scripts/env/init.sh

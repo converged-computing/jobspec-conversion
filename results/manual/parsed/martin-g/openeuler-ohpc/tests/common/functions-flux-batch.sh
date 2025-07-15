@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bits-4971
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-signal-2202
+#FLUX: --urgency=16
 
 ERROR () {
     echo "[OHPC-TEST:ERROR]: $1" >&2

@@ -2,7 +2,7 @@
 #FLUX: --job-name=org_ddmd_n2t12i5_100ps_pfs1
 #FLUX: --queue=dlt
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SKIP_OPENMM=false
 SHORTENED_PIPELINE=false

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-plant-7206
-#FLUX: --priority=16
+#FLUX: --job-name=placid-eagle-4499
+#FLUX: --urgency=16
 
 source pre_processing_config.sh
 MSK_IN=${MSK_ROOT}/lat-lon

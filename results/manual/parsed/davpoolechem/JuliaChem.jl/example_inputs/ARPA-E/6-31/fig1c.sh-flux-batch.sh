@@ -2,7 +2,7 @@
 #FLUX: --job-name=example_inputs/ARPA-E/6-31/fig1c
 #FLUX: -c=8
 #FLUX: --queue=haswell
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='8'
 export OMP_NUM_THREADS='8'

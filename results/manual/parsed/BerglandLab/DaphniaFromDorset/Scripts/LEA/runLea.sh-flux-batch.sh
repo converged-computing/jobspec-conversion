@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-poo-3029
-#FLUX: --priority=16
+#FLUX: --job-name=arid-leader-5348
+#FLUX: --urgency=16
 
 module load intel/18.0 intelmpi/18.0 R/3.6.3
 wd=/scratch/aob2x/daphnia_hwe_sims/

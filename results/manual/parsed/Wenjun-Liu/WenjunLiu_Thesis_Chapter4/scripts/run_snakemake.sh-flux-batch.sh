@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lettuce-8849
+#FLUX: --job-name=dinosaur-pedo-7927
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CORES=32
 PROJ= /hpcfs/users/a1680844/20131906_HickeyT_JC_NormalBreast

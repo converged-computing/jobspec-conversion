@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-snack-9699
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-avocado-7794
+#FLUX: --urgency=16
 
 spack unload python
 spack load py-scikit-learn@0.22 arch=linux-rhel7-x86_64

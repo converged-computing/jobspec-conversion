@@ -3,7 +3,7 @@
 #FLUX: -n=20
 #FLUX: --queue=prod_med
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_LIBRARYDIR='/scratch/users/hholze/BARtab/singularity/"    # your singularity storage dir'
 

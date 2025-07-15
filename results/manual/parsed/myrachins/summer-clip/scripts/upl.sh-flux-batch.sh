@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-nunchucks-2329
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-diablo-0632
+#FLUX: --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${SUMMER_CLIP_PATH}'
 export TRANSFORMERS_OFFLINE='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="ITER_SOLVERS"
+#FLUX: --job-name=ITER_SOLVERS
 #FLUX: --exclusive
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${NTH} '
 

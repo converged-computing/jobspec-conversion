@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-milkshake-2945
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-latke-7064
+#FLUX: --urgency=16
 
 module load intel/18.0.2 cmake/3.7.1 gsl boost hdf5 eigen impi python3
 source ../prepare_compilation_stampede2_2.sh

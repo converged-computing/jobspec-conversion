@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-fork-0165
+#FLUX: --job-name=peachy-soup-9319
 #FLUX: -N=32
 #FLUX: -n=32
 #FLUX: -c=2
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 for np in 4 8 12 16 20 24 28 32; do
     for rep in {1..5}; do

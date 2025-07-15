@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="CS 601.471/671 final project"
+#FLUX: --job-name=CS 601.471/671 final project
 #FLUX: --queue=ica100
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='/scratch4/danielk/schaud31'
 

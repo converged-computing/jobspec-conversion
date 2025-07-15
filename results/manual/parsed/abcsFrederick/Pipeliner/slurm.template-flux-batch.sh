@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-train-4296
-#FLUX: --priority=16
+#FLUX: --job-name=arid-fork-9264
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/abcsFrederick/Pipeliner/slurm.template

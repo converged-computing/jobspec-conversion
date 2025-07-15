@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-kerfuffle-8425
+#FLUX: --job-name=blue-toaster-6032
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load bioinfo/snakemake-5.25.0

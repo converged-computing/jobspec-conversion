@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leopard-8769
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-squidward-9084
+#FLUX: --urgency=16
 

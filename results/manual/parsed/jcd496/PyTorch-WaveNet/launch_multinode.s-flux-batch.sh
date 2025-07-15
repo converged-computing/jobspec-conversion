@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=WaveNet
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load openmpi/intel/2.0.3

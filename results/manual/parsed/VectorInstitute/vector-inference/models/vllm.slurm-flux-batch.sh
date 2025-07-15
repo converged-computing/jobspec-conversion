@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-fork-5124
+#FLUX: --job-name=blue-leopard-6857
 #FLUX: -c=16
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda-12.3
 nvidia-smi

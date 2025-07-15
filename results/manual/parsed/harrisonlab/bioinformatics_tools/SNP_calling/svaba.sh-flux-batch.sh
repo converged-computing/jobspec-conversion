@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-kitty-2214
+#FLUX: --job-name=swampy-spoon-7222
 #FLUX: -c=10
 #FLUX: --queue=long
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 Usage="svaba.sh <prefix> <reference_assembly.fa> <directory_containing_BAM_Files> <output_directory>"
 echo "$Usage"

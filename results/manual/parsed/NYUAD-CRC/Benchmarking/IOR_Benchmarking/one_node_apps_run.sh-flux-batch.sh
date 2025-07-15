@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-car-7223
+#FLUX: --job-name=scruptious-latke-7184
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sleep 20
 outdir=$1

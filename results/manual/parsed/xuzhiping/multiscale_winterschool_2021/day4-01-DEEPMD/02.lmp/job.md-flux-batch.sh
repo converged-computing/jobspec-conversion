@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lemon-4569
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-cat-9687
+#FLUX: --urgency=16
 
 module load compiles/intel/2019/u4/config
 module load lib/gcc/7.4.0/e5/config

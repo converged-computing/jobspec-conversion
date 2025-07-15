@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hope-2361
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-egg-8820
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/trondkr/model2roms/runM2R.sh

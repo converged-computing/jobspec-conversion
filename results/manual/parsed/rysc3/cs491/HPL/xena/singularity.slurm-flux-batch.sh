@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-fork-3007
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-peas-2390
+#FLUX: --urgency=16
 
 export CONT='$(pwd)/nvidia-benchmarks-24.03.sif'
 export MOUNT='$(pwd)/HPL.dat'

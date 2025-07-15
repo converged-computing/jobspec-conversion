@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cattywampus-2423
-#FLUX: --priority=16
+#FLUX: --job-name=phat-fork-2320
+#FLUX: --urgency=16
 
 export KMP_BLOCKTIME='0'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

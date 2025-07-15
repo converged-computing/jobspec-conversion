@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-platanos-0020
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-banana-9555
+#FLUX: --urgency=16
 
 echo JOBID $SLURM_JOBID
 echo TASKID $SLURM_ARRAY_TASK_ID

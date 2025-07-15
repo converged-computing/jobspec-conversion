@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-soup-5214
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-butter-2015
+#FLUX: --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

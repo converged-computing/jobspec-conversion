@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-staircase-6125
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-peanut-4480
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UoB-HPC/benchmarks/gromacs/skl28-swan/node.job

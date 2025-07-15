@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=deepPPI%j
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 HOMEDIR=/home/UFIP/servantie_c/deepppi/PPIpredict/deep
 DATADIR=/home/UFIP/servantie_c/deepppi/PPIpredict/deep/data

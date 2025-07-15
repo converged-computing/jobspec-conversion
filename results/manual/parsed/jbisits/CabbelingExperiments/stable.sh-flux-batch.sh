@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cat-2533
-#FLUX: --priority=16
+#FLUX: --job-name=milky-citrus-6871
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jbisits/CabbelingExperiments/stable.sh

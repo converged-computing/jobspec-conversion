@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cifar100-r32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PORT=$[$RANDOM + 10000]
 python paco_cifar.py \

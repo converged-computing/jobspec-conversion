@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-animal-5382
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-pancake-3702
+#FLUX: --urgency=16
 
 source /home/davidr/scripts/nki_torch.sh
 JOBSPERNODE=4

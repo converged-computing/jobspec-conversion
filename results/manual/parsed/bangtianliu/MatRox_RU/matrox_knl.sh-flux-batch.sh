@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-nunchucks-7107
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-muffin-0858
+#FLUX: --urgency=16
 
 export MKLROOT='/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/ '
 export CMAKE_CXX_COMPILER='/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icpc'

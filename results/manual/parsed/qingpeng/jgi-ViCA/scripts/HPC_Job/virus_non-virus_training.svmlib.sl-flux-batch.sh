@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-motorcycle-1083
-#FLUX: --priority=16
+#FLUX: --job-name=tart-hope-0264
+#FLUX: --urgency=16
 
 module load spark/2.1.1
 start-all.sh

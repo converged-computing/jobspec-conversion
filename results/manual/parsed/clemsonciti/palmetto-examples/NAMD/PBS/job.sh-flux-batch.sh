@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-diablo-2943
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-lamp-4584
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/clemsonciti/palmetto-examples/NAMD/PBS/job.sh

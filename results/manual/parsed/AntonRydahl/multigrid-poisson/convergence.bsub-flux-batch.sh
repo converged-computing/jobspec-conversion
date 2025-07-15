@@ -2,7 +2,7 @@
 #FLUX: --job-name=convergence
 #FLUX: --exclusive
 #FLUX: -t=1799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export COMPILER='clang'
 export GPU='V100'

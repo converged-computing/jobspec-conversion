@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lentil-3569
+#FLUX: --job-name=grated-motorcycle-4907
 #FLUX: -c=20
 #FLUX: --queue=high
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euo pipefail
 version="master"

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-platanos-1851
+#FLUX: --job-name=evasive-omelette-3278
 #FLUX: -N=2
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=batch
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 

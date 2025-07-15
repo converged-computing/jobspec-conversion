@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-avocado-2481
+#FLUX: --job-name=crusty-pedo-4386
 #FLUX: -c=48
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cat $0
 module load Nextflow/23.10.0

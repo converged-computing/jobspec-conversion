@@ -2,7 +2,7 @@
 #FLUX: --job-name=pensacola
 #FLUX: -c=10
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow
 module load longqc

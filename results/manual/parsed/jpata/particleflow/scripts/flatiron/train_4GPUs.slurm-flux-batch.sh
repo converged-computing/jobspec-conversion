@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cat-3081
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-kitty-3661
+#FLUX: --urgency=16
 
 echo "#################### Job submission script. #############################"
 cat $0

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-muffin-2507
+#FLUX: --job-name=astute-lizard-8004
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='$NTHREADS'
 export BLIS_NUM_THREADS='$NTHREADS'

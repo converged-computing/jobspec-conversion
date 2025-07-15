@@ -2,7 +2,7 @@
 #FLUX: --job-name=lmp-demo
 #FLUX: -n=4
 #FLUX: --queue=defq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORK_DIR='/scratch/users/$USER/LMP${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/input'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=AnnotatePeaks
 #FLUX: -c=8
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/jmendietaes/programas/miniconda3/bin:$PATH'
 

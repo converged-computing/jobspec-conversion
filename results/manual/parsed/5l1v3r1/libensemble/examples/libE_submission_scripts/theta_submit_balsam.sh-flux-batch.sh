@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=hello-general-6479
-#FLUX: --priority=16
+#FLUX: --job-name=blue-hope-9066
+#FLUX: --urgency=16
 

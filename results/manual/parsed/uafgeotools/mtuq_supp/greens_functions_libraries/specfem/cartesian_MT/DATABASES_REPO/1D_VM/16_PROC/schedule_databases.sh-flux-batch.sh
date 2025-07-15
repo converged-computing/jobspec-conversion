@@ -3,7 +3,7 @@
 #FLUX: -N=16
 #FLUX: --queue=snsm_itn19
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load apps/specfem3d/3.0.1i

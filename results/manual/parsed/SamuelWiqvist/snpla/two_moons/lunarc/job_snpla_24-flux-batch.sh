@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-muffin-7083
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-cattywampus-9785
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

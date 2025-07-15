@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=PermutedDistPk
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SUBJECT_LIST=./subjectsWithParietalPeak.txt
 module load Python/3.9.6-GCCcore-11.2.0

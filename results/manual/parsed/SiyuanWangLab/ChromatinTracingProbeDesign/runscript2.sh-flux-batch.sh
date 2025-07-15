@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-peas-9930
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-poo-7641
+#FLUX: --urgency=16
 
 module load bio/OligoArray2_1
 java -Xmx6g -jar /n/sw/OligoArray2_1/OligoArray2.jar -i 1kb_fragments_sequence15.fasta -d chr22.fa -o oligos15.txt -r failed15.txt -R log15.txt -n 33 -l 30 -L 30 -D 1000 -t 60 -T 100 -s 70 -x 70 -p 30 -P 90 -m "GGGGGGG;CCCCCCC;TTTTTTT;AAAAAAA" -g 31 -N 6

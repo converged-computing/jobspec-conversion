@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-parrot-7080
+#FLUX: --job-name=delicious-animal-9294
 #FLUX: --queue=common
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate nanoclust

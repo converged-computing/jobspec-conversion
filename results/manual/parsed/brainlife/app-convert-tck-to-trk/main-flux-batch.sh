@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-malarkey-9529
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-fudge-7667
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-convert-tck-to-trk/main

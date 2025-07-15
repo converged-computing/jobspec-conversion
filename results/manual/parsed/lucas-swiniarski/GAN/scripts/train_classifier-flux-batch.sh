@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load pytorch/intel/20170226

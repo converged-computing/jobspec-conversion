@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-taco-7996
+#FLUX: --job-name=butterscotch-dog-9591
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

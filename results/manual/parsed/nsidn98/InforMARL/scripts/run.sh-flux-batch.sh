@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-toaster-7513
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-salad-1502
+#FLUX: --urgency=16
 
 source /etc/profile
 module load anaconda/2021a

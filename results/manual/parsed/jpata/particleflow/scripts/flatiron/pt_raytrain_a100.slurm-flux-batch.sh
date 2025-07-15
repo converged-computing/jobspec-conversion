@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-general-0849
+#FLUX: --job-name=gloopy-buttface-3145
 #FLUX: -c=64
 #FLUX: --gpus-per-task=4
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

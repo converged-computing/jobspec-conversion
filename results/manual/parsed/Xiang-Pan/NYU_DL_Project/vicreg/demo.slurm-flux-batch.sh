@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-milkshake-5423
+#FLUX: --job-name=bloated-soup-4358
 #FLUX: -c=24
 #FLUX: --exclusive
 #FLUX: --queue=n1c24m128-v100-4
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

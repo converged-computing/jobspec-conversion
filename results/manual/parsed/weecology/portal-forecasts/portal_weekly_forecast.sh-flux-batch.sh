@@ -2,7 +2,7 @@
 #FLUX: --job-name=portal_weekly_forecast
 #FLUX: --queue=hpg2-compute
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "INFO: [$(date "+%Y-%m-%d %H:%M:%S")] Starting Weekly Forecast on $(hostname) in $(pwd)"
 cd /orange/ewhite/PortalForecasts/

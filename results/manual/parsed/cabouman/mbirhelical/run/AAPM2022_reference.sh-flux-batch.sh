@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-fudge-1286
-#FLUX: --priority=16
+#FLUX: --job-name=arid-soup-9125
+#FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/slurmpmi/libpmi.so'
 export I_MPI_FABRICS='ofi'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-peanut-1747
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-avocado-3625
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/EdvardJSHolen/Final-Year-Project/hpc/deepar_array.pbs

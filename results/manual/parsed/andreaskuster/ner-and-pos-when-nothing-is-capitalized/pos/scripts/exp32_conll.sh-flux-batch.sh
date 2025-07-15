@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-latke-4304
+#FLUX: --job-name=misunderstood-pancake-5406
 #FLUX: --queue=intelv100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.7.2
 module load CMake

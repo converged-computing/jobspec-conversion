@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=runctonaineraigj
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity/3.5.3
 cd [your folder with the container]

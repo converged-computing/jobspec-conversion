@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lentil-4657
+#FLUX: --job-name=goodbye-carrot-3258
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 INDEX="/work_ifs/sukmb447/projects/skin.mgwas/results/4.fine.mapping/1.meta/1.microenv/1.analysis/paths.txt"

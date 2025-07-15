@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-puppy-4076
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-eagle-6898
+#FLUX: --urgency=16
 
 export PATH='$PATH:$HOME/apps/valgrind/bin'
 

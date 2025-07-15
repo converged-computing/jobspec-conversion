@@ -3,7 +3,7 @@
 #FLUX: -n=12
 #FLUX: --queue=GTX
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir solutetemp
 cd solutetemp

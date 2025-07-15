@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-itch-2862
-#FLUX: --priority=16
+#FLUX: --job-name=blue-kerfuffle-5371
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NinaOeh/Masterthesis_Code/22_SaConvLSTM/jobscriptSa.sh

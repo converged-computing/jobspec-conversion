@@ -3,7 +3,7 @@
 #FLUX: -c=18
 #FLUX: --queue=parallel
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dir=/nfs/scratch/papayv/Tarakihi/TARdn/Z_fish_assemblies/9_repeat_masking/BT/
 singdir=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/

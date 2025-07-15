@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-puppy-1917
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-lemur-2852
+#FLUX: --urgency=16
 
 BOOST_VER=1.65.1
 FFTW_VER=3.3.6.3

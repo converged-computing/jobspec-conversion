@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda_setup="/home/smg/$(whoami)/miniconda3/etc/profile.d/conda.sh"
 if [[ -f "${conda_setup}" ]]; then

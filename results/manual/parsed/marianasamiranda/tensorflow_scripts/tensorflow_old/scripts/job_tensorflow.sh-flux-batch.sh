@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-peanut-1765
-#FLUX: --priority=16
+#FLUX: --job-name=blank-hobbit-3595
+#FLUX: --urgency=16
 
 WORKSPACE=$(dirname $(dirname $(realpath $0)))
 DATA_DIR="/scratch1/08486/mmiranda/mysharedirectory"

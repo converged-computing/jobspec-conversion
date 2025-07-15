@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=D-DETR_test
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda create -n deformable_detr python=3.7 pip
 conda activate deformable_detr

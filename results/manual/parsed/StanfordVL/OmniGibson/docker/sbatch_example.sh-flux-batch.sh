@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-hobbit-5581
+#FLUX: --job-name=phat-truffle-0451
 #FLUX: -c=8
-#FLUX: --queue=svl --qos=normal
-#FLUX: --priority=16
+#FLUX: --queue=svl
+#FLUX: --urgency=16
 
 set -e -o pipefail
 IMAGE_PATH="/cvgl2/u/cgokmen/omnigibson.sqsh"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-fork-9320
+#FLUX: --job-name=outstanding-poodle-7071
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge && module load  esslurm gcc/7.3.0 python3 cuda/10.1.243
 hsize=16

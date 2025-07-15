@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=kmc-matrix
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load kmc/3.1
 <<COMM

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-destiny-7595
+#FLUX: --job-name=loopy-despacito-0343
 #FLUX: -n=160
 #FLUX: --queue=genoa
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 for rep in 1
 do

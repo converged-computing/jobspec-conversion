@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-carrot-7284
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-peanut-4054
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GustavAls/PartialNLP/hpc/SUB_huggingface_TS.bsub

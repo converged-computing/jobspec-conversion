@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=segunet
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 module load gcc/9.3.0

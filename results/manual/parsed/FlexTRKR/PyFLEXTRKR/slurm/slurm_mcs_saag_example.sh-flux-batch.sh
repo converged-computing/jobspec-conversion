@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bits-4159
+#FLUX: --job-name=strawberry-gato-8154
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 module load python

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-butter-9681
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-toaster-4960
+#FLUX: --urgency=16
 
 H5AD_FILE=/n/holystore01/LABS/price_lab/Users/mjzhang/scDRS_data/single_cell_data/richter_biorxiv_2020/obj_raw.h5ad
 GS_FILE=/n/holystore01/LABS/price_lab/Users/mjzhang/scDRS_data/gs_file/ploidy.gs

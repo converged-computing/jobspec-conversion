@@ -3,7 +3,7 @@
 #FLUX: -n=2
 #FLUX: -c=96
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_osc='ucx'
 export OMPI_MCA_pml='ucx'

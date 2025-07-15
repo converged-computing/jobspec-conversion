@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=gpu-compute-ondemand
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 cmd="pip install --upgrade git+https://github.com/pytorch/ignite.git && python cifar10-distributed.py run --backend=nccl"

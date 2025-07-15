@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-noodle-3835
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-poodle-6279
+#FLUX: --urgency=16
 
 INTEL_SDK=21.2.0
 INTEL_BSP=20.4.0

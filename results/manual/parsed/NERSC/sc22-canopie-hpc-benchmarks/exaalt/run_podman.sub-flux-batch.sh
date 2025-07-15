@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-dog-4721
+#FLUX: --job-name=arid-itch-1711
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMI_MMAP_SYNC_WAIT_TIME='300'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lamp-0709
+#FLUX: --job-name=spicy-lentil-2524
 #FLUX: -c=48
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_ENDPOINT='https://hf-mirror.com'
 export PYTHONPATH='/ssdfs/datahome/tj24011/workspace/McQuic'

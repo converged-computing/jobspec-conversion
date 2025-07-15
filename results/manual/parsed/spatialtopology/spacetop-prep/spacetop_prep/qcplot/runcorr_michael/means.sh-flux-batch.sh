@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=standard
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MATLAB_NUM_THREADS='1'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-poo-1160
+#FLUX: --job-name=dirty-hope-2629
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CORES=8
 if [ -d "/hpcfs" ]; then

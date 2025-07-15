@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-peanut-3173
-#FLUX: --priority=16
+#FLUX: --job-name=phat-puppy-5528
+#FLUX: --urgency=16
 
 INPUT=$1
 stream=$(sed 's/.stream//g'<<<$(basename $INPUT))

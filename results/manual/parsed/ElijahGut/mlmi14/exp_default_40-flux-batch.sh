@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-diablo-1356
+#FLUX: --job-name=stanky-avocado-0407
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

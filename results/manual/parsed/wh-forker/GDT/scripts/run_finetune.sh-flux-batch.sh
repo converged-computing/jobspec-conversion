@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-general-4791
+#FLUX: --job-name=moolicious-toaster-4110
 #FLUX: -c=10
 #FLUX: --queue=learnfair
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-platanos-5848
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-carrot-3969
+#FLUX: --urgency=16
 
 set -x
 GENOME=/path/to/genome/hg38.fa 

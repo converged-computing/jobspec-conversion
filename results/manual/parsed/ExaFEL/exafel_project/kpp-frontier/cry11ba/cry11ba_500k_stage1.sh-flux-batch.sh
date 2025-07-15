@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-chair-8387
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-cupcake-0611
+#FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/cry11ba/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='1'

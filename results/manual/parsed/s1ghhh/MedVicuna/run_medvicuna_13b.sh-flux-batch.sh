@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: -c=12
 #FLUX: --queue=long
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_MODE='offline'
 export LOGLEVEL='INFO'

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=hpc_assignment_05_ricco_ferraro
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cmd=$(cat <<-END
 print("running python in signularity container")

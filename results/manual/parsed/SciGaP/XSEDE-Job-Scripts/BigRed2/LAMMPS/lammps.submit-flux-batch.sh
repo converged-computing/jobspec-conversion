@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-motorcycle-4915
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-itch-1478
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SciGaP/XSEDE-Job-Scripts/BigRed2/LAMMPS/lammps.submit

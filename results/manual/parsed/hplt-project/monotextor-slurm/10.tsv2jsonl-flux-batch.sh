@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=tsv2jsonl
 #FLUX: -c=2
-#FLUX: --queue="small"
+#FLUX: --queue=small
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cray-python/3.9.12.1
 set -euo pipefail

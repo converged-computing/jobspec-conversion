@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-peas-7095
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-peanut-butter-2728
+#FLUX: --urgency=16
 
 export ORG='uvilla'
 export IMAGE_NAME='tps_env_parla'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-itch-3712
+#FLUX: --job-name=rainbow-malarkey-4768
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add openmpi/4.1.2
 cd /mnt/orangefs/hacker/2022HPC-Genie-LAMMPS/tweak_lammps_Hunter/

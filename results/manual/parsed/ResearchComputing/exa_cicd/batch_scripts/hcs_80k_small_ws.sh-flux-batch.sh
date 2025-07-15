@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-carrot-7131
+#FLUX: --job-name=adorable-lemur-4002
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export COMMIT='$1'
 export MFIX='/app/mfix/build/mfix/mfix'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-onion-0655
-#FLUX: --priority=16
+#FLUX: --job-name=salted-bicycle-2283
+#FLUX: --urgency=16
 
 spack unload -a
 spack load /lklqe3u

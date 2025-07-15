@@ -2,7 +2,7 @@
 #FLUX: --job-name=alil-dreaming
 #FLUX: --queue=m3h
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 export CUDA_CACHE_PATH='$CACHE_PATH'

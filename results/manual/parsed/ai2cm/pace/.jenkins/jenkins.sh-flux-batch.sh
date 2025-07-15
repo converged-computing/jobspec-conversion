@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-peanut-butter-8933
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-spoon-8408
+#FLUX: --urgency=16
 
 export python_env='${python_env}'
 export TEST_DATA_ROOT='${SCRATCH}/jenkins/scratch/fv3core_fortran_data/'

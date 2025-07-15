@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lemur-8085
+#FLUX: --job-name=anxious-parrot-8721
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add cuda/8.0
 module add cudnn/7-cuda-8.0

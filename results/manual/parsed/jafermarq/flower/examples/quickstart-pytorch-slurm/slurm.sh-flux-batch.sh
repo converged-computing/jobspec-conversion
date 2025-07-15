@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lettuce-1862
+#FLUX: --job-name=wobbly-egg-9697
 #FLUX: -N=3
 #FLUX: --queue=cclake
 #FLUX: -t=180
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate flower-slurm
 ip=$(hostname --ip-address)

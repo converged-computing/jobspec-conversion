@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=tart-diablo-5631
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-chip-9893
+#FLUX: --urgency=16
 

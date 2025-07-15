@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-cinnamonbun-5823
+#FLUX: --job-name=stinky-toaster-1730
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load CMake Ninja Clang NASM hwloc

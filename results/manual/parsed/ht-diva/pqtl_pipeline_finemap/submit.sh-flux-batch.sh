@@ -2,7 +2,7 @@
 #FLUX: --job-name=locojo
 #FLUX: --queue=cpuq
 #FLUX: -t=2592000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 module -s load singularity/3.8.5

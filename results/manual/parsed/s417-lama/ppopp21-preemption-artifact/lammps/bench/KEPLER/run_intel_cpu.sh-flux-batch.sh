@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-chair-6910
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-chair-4372
+#FLUX: -t=43200
+#FLUX: --urgency=16
 
 mpirun -np 1 lmp_intel_cpu -sf intel -pk intel 1 prec single -v x 32 -v y 32 -v z 32 -v t 100 < in.lj
 mv log.lammps log.10Sep14.lj.intel.cpu.single.128K.1

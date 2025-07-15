@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-leader-2976
-#FLUX: --priority=16
+#FLUX: --job-name=arid-chip-9569
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

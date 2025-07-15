@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chip-3263
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-leader-9081
+#FLUX: --urgency=16
 
 module load OpenMPI
 module load Julia

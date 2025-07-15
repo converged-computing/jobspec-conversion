@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-truffle-4609
+#FLUX: --job-name=hanky-lemur-6497
 #FLUX: -t=180
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python
 module list

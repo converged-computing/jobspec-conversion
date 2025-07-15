@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-diablo-5718
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-kitty-9199
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/smillerc/fortran_snippets/hostname/pbs_submit.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-puppy-8081
+#FLUX: --job-name=crunchy-train-4499
 #FLUX: --exclusive
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda
 source activate pangeo

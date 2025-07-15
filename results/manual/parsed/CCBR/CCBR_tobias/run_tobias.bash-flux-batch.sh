@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="tobias"
+#FLUX: --job-name=tobias
 #FLUX: -c=2
-#FLUX: --queue="$PARTITIONS"
+#FLUX: --queue=$PARTITIONS
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PYTHON_VERSION="python/3.10"
 SNAKEMAKE_VERSION="snakemake/7.32.3"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-platanos-4697
-#FLUX: --priority=16
+#FLUX: --job-name=blank-dog-1269
+#FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

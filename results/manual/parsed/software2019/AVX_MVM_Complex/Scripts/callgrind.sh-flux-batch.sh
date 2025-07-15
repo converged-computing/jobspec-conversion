@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-earthworm-4537
-#FLUX: --queue=test          # Job queue
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-lemon-5693
+#FLUX: --queue=test
+#FLUX: --urgency=16
 
 export I_MPI_DEBUG='5 '
 export OMP_DISPLAY_AFFINITY='TRUE '

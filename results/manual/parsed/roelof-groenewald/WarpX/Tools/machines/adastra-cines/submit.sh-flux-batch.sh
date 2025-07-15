@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'

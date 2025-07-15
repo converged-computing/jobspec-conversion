@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-diablo-7407
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-lettuce-1032
+#FLUX: --urgency=16
 
 name1=$(sed -n "$SLURM_ARRAY_TASK_ID"p namelist.txt)
 t1=$(date +"%s")

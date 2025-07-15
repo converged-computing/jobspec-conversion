@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cinnamonbun-4809
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-underoos-5089
+#FLUX: --urgency=16
 
 export Project='$SLURM_JOB_NAME'
 export WorkDir='/runjobs/RS10237/$SLURM_JOB_ID'

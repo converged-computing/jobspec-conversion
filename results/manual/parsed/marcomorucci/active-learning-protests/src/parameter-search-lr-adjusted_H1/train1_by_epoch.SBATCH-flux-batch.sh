@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train1_AL_ld_by_epoch
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/intel/3.8.6

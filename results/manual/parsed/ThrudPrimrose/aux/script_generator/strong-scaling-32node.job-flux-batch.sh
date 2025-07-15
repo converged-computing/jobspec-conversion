@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-staircase-7970
+#FLUX: --job-name=reclusive-platanos-8767
 #FLUX: -N=32
 #FLUX: --queue=cm2_large
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module unload intel-mpi/2019-intel

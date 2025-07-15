@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=general
 #FLUX: -t=85800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MAGPIE_SUBMISSION_TYPE='sbatchsrun'
 export MAGPIE_SCRIPTS_HOME='${HOME}/Workspace/magpie'

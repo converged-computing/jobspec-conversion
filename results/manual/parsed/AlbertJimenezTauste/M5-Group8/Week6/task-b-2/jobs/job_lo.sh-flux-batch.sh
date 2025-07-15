@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-peanut-butter-0431
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-pastry-2958
+#FLUX: --urgency=16
 
 python ../train_synth_bw.py -p mlow

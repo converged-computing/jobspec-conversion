@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-gato-2610
+#FLUX: --job-name=tart-frito-7461
 #FLUX: --exclusive
 #FLUX: --queue=eval-gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

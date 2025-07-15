@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-ricecake-4052
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-pot-1522
+#FLUX: --urgency=16
 
 export MPICC='mpicc'
 export MPICXX='mpicpc'

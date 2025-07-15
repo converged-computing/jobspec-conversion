@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-fork-5568
+#FLUX: --job-name=milky-malarkey-5426
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "output of the visible GPU environment"
 nvidia-smi

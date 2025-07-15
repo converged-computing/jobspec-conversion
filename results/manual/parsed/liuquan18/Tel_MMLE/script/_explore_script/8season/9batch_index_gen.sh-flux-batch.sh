@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-poo-2542
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-arm-9449
+#FLUX: --urgency=16
 
 cd /work/mh0033/m300883/Tel_MMLE/script/8season
 source ~/.bashrc

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-pancake-8723
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-poo-4035
+#FLUX: --urgency=16
 
 export MY_CLUSTER='deception'
 

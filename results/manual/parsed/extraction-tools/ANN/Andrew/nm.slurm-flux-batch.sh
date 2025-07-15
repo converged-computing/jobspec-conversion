@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-onion-6397
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-poo-0537
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/2020.11-py3.8

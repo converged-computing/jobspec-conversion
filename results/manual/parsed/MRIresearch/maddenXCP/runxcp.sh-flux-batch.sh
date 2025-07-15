@@ -3,7 +3,7 @@
 #FLUX: -n=20
 #FLUX: --queue=standard
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SUB=sub-7032
 SES=ses-1

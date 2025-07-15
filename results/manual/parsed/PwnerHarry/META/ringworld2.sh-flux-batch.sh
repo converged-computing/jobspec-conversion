@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-rabbit-9040
+#FLUX: --job-name=chocolate-soup-3063
 #FLUX: -c=24
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 TARGET="0.25"
 BEHAVIOR="0.3"

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=simul
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /local/miniconda3/etc/profile.d/conda.sh
 conda activate env_nf

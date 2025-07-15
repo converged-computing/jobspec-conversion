@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-nunchucks-9664
+#FLUX: --job-name=confused-sundae-0928
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ ${SLURM_ARRAY_TASK_ID} -eq 1 ]; then
    STEP_COUNT=500000

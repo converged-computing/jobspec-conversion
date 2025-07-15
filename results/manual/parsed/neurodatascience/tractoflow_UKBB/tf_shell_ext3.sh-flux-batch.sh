@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-noodle-9783
+#FLUX: --job-name=reclusive-leader-2654
 #FLUX: -c=8
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FB='$1'
 export SINGULARITY_BIND=''

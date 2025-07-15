@@ -3,7 +3,7 @@
 #FLUX: -N=32
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 prefix='relax'
 currindex=1

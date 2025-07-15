@@ -3,7 +3,7 @@
 #FLUX: -c=20
 #FLUX: --queue=highmem_p
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LC_ALL='en_SG.utf8'
 export LANG='en_SG.utf8'

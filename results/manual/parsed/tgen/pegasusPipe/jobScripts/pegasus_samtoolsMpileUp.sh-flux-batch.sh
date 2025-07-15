@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="pegasus_samtoolsMpileUp"
+#FLUX: --job-name=pegasus_samtoolsMpileUp
 #FLUX: -c=8
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 time=`date +%d-%m-%Y-%H-%M`
 beginTime=`date +%s`

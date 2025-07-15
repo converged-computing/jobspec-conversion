@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-animal-1442
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-avocado-4849
+#FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

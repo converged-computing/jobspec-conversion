@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-punk-0257
+#FLUX: --job-name=astute-diablo-1462
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 CONTAINER="${CONTAINER:=ghcr.io/nvidia/t5x:vit-2023-07-21}"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-car-9785
+#FLUX: --job-name=phat-egg-5243
 #FLUX: -c=28
 #FLUX: --queue=workq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 unset SBATCH_EXPORT
 module load nextflow

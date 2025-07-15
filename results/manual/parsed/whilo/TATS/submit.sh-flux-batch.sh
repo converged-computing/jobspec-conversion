@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-spoon-2387
+#FLUX: --job-name=wobbly-squidward-6337
 #FLUX: -N=2
 #FLUX: -t=15
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export WORLD_SIZE='8'

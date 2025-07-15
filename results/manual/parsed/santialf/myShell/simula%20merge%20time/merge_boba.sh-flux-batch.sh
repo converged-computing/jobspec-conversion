@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-kerfuffle-8171
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-toaster-4051
+#FLUX: --urgency=16
 
 nvidia-smi
 nvcc --version

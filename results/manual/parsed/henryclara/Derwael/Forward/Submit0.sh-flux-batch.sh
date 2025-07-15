@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-bicycle-5341
+#FLUX: --job-name=salted-rabbit-2552
 #FLUX: -n=100
 #FLUX: --queue=compute
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

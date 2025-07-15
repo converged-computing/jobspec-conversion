@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=m3t
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/5.0.1-Python3.6-gcc5
 source activate /home/twu/da33/tong/envs/pseudoCL/

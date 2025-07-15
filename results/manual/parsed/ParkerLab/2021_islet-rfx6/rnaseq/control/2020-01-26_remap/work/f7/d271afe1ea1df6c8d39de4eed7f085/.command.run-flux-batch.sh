@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-kitty-1520
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-lizard-0029
+#FLUX: --urgency=16
 
 set -e
 set -u

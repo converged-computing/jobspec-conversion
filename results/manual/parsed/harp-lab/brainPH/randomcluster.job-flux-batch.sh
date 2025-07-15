@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=amd-hdr100
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 source /home/ashovon/venvs/brainph/bin/activate

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-butter-9669
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-hope-5940
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/VanAndelInstitute/Biscuit_Snakemake_Workflow/bin/run_snakemake_workflow.sh

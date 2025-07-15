@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-diablo-1900
+#FLUX: --job-name=eccentric-despacito-0927
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'
 

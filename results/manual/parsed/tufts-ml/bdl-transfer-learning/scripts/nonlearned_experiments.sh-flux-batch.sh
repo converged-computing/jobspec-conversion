@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-sundae-7956
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-lemur-3461
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate bdl-transfer-learning

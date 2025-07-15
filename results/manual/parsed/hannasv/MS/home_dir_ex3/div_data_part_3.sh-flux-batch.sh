@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-motorcycle-5834
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-lamp-8540
+#FLUX: --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

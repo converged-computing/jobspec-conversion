@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-milkshake-8463
+#FLUX: --job-name=pusheena-kitty-6433
 #FLUX: --queue=cron
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SCHEDULE='59 23 * * *'
 SSH_PREFIX="ssh -i /home/$(whoami)/.ssh"       # prefix to ssh keys

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-itch-5683
+#FLUX: --job-name=wobbly-pastry-5742
 #FLUX: --exclusive
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

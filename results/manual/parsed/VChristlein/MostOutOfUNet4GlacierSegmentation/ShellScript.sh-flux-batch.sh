@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=[1.0,0.0]Glacier
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/cluster/yr14ofit/miniconda/bin:$PATH'
 

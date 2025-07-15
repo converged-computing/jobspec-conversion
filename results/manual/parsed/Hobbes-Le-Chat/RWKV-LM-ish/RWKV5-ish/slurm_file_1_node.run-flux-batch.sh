@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-squidward-1000
+#FLUX: --job-name=anxious-frito-4361
 #FLUX: -c=3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ROCM_HOME='/opt/rocm-5.6.0'
 export TRANSFORMERS_OFFLINE='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-signal-1333
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-caramel-4185
+#FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/apps/R_4.0.2'
 

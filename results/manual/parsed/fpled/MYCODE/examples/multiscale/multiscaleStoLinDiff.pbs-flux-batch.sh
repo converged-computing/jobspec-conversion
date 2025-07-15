@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-soup-1400
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-fudge-4003
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fpled/MYCODE/examples/multiscale/multiscaleStoLinDiff.pbs

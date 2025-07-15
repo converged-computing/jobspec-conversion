@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=pascal-deep.p
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CUDA/10.0.130
 . /home/fatimamh/anaconda3/etc/profile.d/conda.sh

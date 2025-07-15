@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-hope-3083
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-chip-9486
+#FLUX: --urgency=16
 
 if [[ "$QUEUE" == "compute" ]]; then
    USE_CUDA=0

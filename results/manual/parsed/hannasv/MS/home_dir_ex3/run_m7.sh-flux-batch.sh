@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-nalgas-7138
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-blackbean-6844
+#FLUX: --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

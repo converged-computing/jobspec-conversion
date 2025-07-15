@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-blackbean-0428
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-cupcake-3719
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

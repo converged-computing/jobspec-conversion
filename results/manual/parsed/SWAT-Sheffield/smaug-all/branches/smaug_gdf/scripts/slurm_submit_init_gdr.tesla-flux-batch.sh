@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-kitty-2910
+#FLUX: --job-name=hanky-toaster-1269
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MV2_USE_CUDA='1'
 export MV2_USE_GPUDIRECT='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-noodle-8631
-#FLUX: --priority=16
+#FLUX: --job-name=grated-butter-9334
+#FLUX: --urgency=16
 
 dataset_path=$1
 fish=$2

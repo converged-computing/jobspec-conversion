@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-bike-9763
+#FLUX: --job-name=chunky-caramel-6730
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 N_SNP=40000 # Set the number of SNPs
 N_SAMPLE=2000 # Set the number of samples

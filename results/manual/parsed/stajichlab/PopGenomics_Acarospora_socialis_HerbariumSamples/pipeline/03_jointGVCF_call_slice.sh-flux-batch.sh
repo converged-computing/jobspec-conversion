@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lemur-3127
-#FLUX: --priority=16
+#FLUX: --job-name=placid-leopard-5901
+#FLUX: -n=2
+#FLUX: --urgency=16
 
 hostname
 MEM=24g

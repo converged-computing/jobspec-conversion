@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bicycle-4719
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-bike-4837
+#FLUX: --urgency=16
 
 module load ncf
 module load matlab/R2021a-fasrc01

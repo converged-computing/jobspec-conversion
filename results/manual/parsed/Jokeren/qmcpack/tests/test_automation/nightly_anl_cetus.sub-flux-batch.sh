@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-malarkey-2011
-#FLUX: --priority=16
+#FLUX: --job-name=astute-hippo-7228
+#FLUX: --urgency=16
 

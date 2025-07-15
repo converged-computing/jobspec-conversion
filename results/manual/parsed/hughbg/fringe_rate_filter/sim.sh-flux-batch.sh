@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pot-1601
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-house-1191
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hughbg/fringe_rate_filter/sim.sh

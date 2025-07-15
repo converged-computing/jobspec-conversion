@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-house-8889
+#FLUX: --job-name=creamy-chair-6999
 #FLUX: --queue=long
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load java/18
 base_dir="/cluster/projects/gaitigroup/Users/Joan/"

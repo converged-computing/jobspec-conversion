@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-arm-5090
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-itch-0818
+#FLUX: --urgency=16
 
 ARCH=LINUX
 num_procs=8

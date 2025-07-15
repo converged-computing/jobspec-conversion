@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-soup-3310
-#FLUX: --priority=16
+#FLUX: --job-name=megatron_gpt3_175b
+#FLUX: -N=128
+#FLUX: --exclusive
+#FLUX: --urgency=16
 
 DIR=`pwd`
 DATETIME=`date +'date_%y-%m-%d_time_%H-%M-%S'`

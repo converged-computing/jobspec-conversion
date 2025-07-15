@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-egg-8055
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-lettuce-1573
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Jokeren/hpctoolkit-gpu-samples/Laghos/scripts/summit-raja-hpcrun-cpu.lsf

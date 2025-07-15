@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pedo-0905
+#FLUX: --job-name=butterscotch-toaster-3660
 #FLUX: -n=2
 #FLUX: --queue=quick,norm
 #FLUX: -t=3540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 N=${SLURM_ARRAY_TASK_ID}
 filelist=${1}

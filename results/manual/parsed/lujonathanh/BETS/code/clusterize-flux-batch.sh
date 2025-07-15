@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-itch-6257
-#FLUX: --priority=16
+#FLUX: --job-name=arid-earthworm-1003
+#FLUX: --urgency=16
 
 usage="clusterize [options] -c \"command\"
 	Creates a script in the temp directory to run the user specified command

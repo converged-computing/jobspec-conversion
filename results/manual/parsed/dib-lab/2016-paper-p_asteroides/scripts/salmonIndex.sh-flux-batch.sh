@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-pastry-1752
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-lettuce-3900
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dib-lab/2016-paper-p_asteroides/scripts/salmonIndex.sh

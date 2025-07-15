@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=blast_start
 #FLUX: -t=1080000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Input file: " $1
 fasta=$1

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=train              # Nombre del proceso
-#FLUX: --queue=dgx,dios   # Cola para ejecutar
-#FLUX: --priority=16
+#FLUX: --job-name=train
+#FLUX: --queue=dgx,dios
+#FLUX: --urgency=16
 
 export PATH='/opt/anaconda/bin:$PATH'
 export LD_LIBRARY_PATH='/mnt/homeGPU/fcastro/conda-envs/newlulc/lib'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=RL_debug
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH_TO_STORAGE='/scratch/p313544/storage_cache/'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-hippo-2030
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-bike-5015
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

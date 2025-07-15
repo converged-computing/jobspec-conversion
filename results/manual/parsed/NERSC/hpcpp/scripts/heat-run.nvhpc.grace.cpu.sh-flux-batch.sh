@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bits-0552
+#FLUX: --job-name=boopy-frito-4656
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/wwei/install/cmake_3_27_3/bin/:$PATH'
 

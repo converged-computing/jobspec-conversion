@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kitty-7467
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-poo-7088
+#FLUX: --urgency=16
 
 module load tensorflow/1.5.0_gpu_py3
 module load cuda/9.0.176

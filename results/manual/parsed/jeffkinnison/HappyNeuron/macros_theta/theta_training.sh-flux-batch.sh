@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-malarkey-5098
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-buttface-1001
+#FLUX: --urgency=16
 

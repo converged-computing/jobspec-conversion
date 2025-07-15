@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lemon-1686
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-gato-4641
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gimelbrantlab/ASE/sh/getASE.sh

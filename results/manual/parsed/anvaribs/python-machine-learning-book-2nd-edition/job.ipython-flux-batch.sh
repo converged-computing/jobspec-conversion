@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parrot-5715
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-banana-6731
+#FLUX: --urgency=16
 
 echo job $JOB_ID execution at: `date`
 NODE_HOSTNAME=`hostname -s`

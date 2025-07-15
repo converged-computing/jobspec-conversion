@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=dev-g
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LC_ALL='C'
 export PS1='\u@\h:\w\$ '

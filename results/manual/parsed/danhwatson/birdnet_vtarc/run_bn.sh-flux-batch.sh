@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-muffin-1441
+#FLUX: --job-name=chocolate-taco-3517
 #FLUX: -n=32
 #FLUX: --queue=t4_normal_q
 #FLUX: -t=252000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_mpi_warn_on_fork='0 '
 export OMPI_MCA_btl_openib_if_exclude='mlx5_1 '

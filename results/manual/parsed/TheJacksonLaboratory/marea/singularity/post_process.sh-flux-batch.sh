@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-carrot-3098
+#FLUX: --job-name=goodbye-pastry-8474
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 singularity exec marea_python.sif python ../scripts/post_process.py \

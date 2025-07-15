@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-leopard-7039
+#FLUX: --job-name=sticky-milkshake-1973
 #FLUX: --queue=cpu2019
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 log_dir="$(pwd)"
 log_file="logs/metannotate-analysis.log.txt"

@@ -2,7 +2,7 @@
 #FLUX: --job-name=multitaskfon
 #FLUX: --queue=long
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.9 cuda/10.2/cudnn/7.6
 source /home/mila/b/bonaventure.dossou/env/bin/activate

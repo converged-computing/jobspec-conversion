@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-parsnip-3377
-#FLUX: --priority=16
+#FLUX: --job-name=faux-leader-1501
+#FLUX: --urgency=16
 
 ID=$SLURM_ARRAY_TASK_ID
 if [ -z "$TAG" ] 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=TrainYolo3D
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Slurm nodes: $SLURM_JOB_NODELIST"
 NUM_GPUS=`echo $GPU_DEVICE_ORDINAL | tr ',' '\n' | wc -l`

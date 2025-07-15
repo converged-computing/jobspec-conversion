@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=PA_TI
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/3.6
 source activate pytorch_1.7

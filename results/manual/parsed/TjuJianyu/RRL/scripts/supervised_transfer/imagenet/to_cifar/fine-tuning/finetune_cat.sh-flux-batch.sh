@@ -2,7 +2,7 @@
 #FLUX: --job-name=cifar
 #FLUX: -c=4
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 i=0;
 for ncat in 2 4 5 10; 

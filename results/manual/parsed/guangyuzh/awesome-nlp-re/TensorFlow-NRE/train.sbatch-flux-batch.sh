@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=NRE_train
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python3/intel/3.5.3

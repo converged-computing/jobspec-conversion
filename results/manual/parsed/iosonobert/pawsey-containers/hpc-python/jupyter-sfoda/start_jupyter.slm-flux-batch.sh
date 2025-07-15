@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=work
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='$MYSOFTWARE:$MYSOFTWARE,$MYSCRATCH:$MYSCRATCH,/run:/run,$HOME:$HOME '
 export SINGULARITYENV_PREPEND_PATH='/srv/conda/envs/notebook/bin:/srv/conda/condabin:/srv/conda/bin'

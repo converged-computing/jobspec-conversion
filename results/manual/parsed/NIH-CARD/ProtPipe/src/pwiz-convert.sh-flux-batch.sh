@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-gato-4299
+#FLUX: --job-name=milky-arm-5565
 #FLUX: -n=2
 #FLUX: --queue=quick,norm
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 trap '[[ $? -eq 1 ]] && echo Halting execution due to errors' EXIT
 PWIZ='src/pwiz_sandbox'

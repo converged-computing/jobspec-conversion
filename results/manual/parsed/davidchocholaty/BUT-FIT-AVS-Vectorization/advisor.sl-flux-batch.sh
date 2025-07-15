@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-punk-9420
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-carrot-0997
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 ml VTune Advisor intel-compilers/2022.1.0 CMake/3.23.1-GCCcore-11.3.0

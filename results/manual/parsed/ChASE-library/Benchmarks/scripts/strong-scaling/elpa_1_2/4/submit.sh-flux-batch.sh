@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-squidward-5463
+#FLUX: --job-name=dirty-dog-2080
 #FLUX: -N=4
 #FLUX: -n=16
-#FLUX: --queue=develbooster --gres=gpu:4
+#FLUX: --queue=develbooster
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-destiny-4463
-#FLUX: --priority=16
+#FLUX: --job-name=red-caramel-9665
+#FLUX: --urgency=16
 
 mkdir ~/.matlab/$SLURM_ARRAY_JOB_ID.$SLURM_ARRAY_TASK_ID
 unset TZ

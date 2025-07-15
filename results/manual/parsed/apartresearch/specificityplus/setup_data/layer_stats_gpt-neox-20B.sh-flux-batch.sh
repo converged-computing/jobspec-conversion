@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-knife-9945
+#FLUX: --job-name=stinky-train-9066
 #FLUX: -c=2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODEL='gpt-neox-20b'
 export PYTHONPATH='/home/${USER}/git/memitpp:${PYTHONPATH}'

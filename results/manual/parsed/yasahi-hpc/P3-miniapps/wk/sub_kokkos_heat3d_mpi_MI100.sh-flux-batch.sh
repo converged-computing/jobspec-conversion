@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-parrot-0934
+#FLUX: --job-name=strawberry-lettuce-9559
 #FLUX: -c=64
 #FLUX: --gpus-per-task=1
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

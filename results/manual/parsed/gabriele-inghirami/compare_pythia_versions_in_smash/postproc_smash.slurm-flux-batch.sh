@@ -4,7 +4,7 @@
 #FLUX: -c=2
 #FLUX: --queue=main
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 container=$LH/fedora_38_std.sif
 datadir=$LH/compare_pythia_versions_in_smash/RUNS/

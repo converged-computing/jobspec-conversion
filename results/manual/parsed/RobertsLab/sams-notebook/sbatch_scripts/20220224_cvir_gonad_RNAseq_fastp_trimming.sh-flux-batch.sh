@@ -2,7 +2,7 @@
 #FLUX: --job-name=20220224_cvir_gonad_RNAseq_fastp_trimming
 #FLUX: --queue=coenv
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 threads=40
 trimmed_checksums=trimmed_fastq_checksums.md5

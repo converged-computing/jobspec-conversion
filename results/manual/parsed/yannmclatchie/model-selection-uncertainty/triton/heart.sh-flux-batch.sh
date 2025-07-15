@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cinnamonbun-1299
+#FLUX: --job-name=spicy-fork-7675
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load r
 module load gcc/11.2.0

@@ -5,7 +5,7 @@
 #FLUX: -c=24
 #FLUX: --queue=a100
 #FLUX: -t=1728000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$MAIN_HOST'
 export MASTER_PORT='$(python - <<EOF'

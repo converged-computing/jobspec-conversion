@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --queue=lcsc
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/lustre/nyx/hyihp/lpang/anaconda/bin:$PATH'
 export PYTHONPATH='/lustre/nyx/hyihp/lpang/anaconda/lib/python/:$PYTHONPATH'

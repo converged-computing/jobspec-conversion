@@ -2,7 +2,7 @@
 #FLUX: --job-name=down_ft1
 #FLUX: --queue=ce-mri
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate simclr1
 python downstream_eval.py --downstream_task fine_tune -tm Scratch --config_file runs/tmp_default/config.yml -e 400 --comment "_default_cfg_ft_scratch_e400" &

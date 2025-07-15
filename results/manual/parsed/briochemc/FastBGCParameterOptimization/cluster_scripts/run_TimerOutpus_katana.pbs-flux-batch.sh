@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-chair-6463
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-snack-7686
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/briochemc/FastBGCParameterOptimization/cluster_scripts/run_TimerOutpus_katana.pbs

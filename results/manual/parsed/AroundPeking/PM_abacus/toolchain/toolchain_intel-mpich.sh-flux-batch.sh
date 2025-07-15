@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-staircase-0262
-#FLUX: --priority=16
+#FLUX: --job-name=hello-arm-2714
+#FLUX: --urgency=16
 
 ./install_abacus_toolchain.sh \
 --with-intel=system --math-mode=mkl \

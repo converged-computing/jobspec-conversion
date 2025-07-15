@@ -2,7 +2,7 @@
 #FLUX: --job-name=SNVcaller_1_1
 #FLUX: -c=10
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 while getopts "R:L:I:O:V:D:C:P:Q:B:M:" arg; do 
   case $arg in

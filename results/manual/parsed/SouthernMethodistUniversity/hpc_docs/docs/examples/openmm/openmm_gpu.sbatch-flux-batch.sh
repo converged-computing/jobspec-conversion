@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-toaster-5630
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-banana-9687
+#FLUX: --urgency=16
 
 . /hpc/mp/spack/opt/spack/linux-ubuntu20.04-zen2/gcc-10.3.0/\
 lmod-8.7.2-uutt23puvwraegsi7w7ck3xbhrgk22mu/lmod/lmod/init/$(basename $SHELL)

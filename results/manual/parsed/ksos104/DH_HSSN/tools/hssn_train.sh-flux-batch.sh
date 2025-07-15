@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-puppy-1737
-#FLUX: --priority=16
+#FLUX: --job-name=purple-plant-2359
+#FLUX: --urgency=16
 
 CONFIG=configs/deeplabv3plus/deeplabv3plus_r101-d8_480x480_60k_pascal_person_part_hiera_triplet.py
 GPUS=2

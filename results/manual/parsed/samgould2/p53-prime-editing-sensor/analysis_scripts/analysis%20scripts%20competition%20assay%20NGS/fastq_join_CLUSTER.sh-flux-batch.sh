@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-train-3827
-#FLUX: --priority=15
+#FLUX: --job-name=rainbow-milkshake-6295
+#FLUX: --urgency=15
 
 cd /net/bmc-lab2/data/lab/sanchezrivera/samgould/
 config=/net/bmc-lab2/data/lab/sanchezrivera/samgould/singular_competition_assay_data_PE_a549/config_join.txt

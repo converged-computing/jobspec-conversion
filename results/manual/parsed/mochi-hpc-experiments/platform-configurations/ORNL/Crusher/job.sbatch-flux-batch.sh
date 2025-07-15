@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-bike-2614
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-pancake-8474
+#FLUX: --urgency=16
 
 . /ccs/home/carns/working/src/spack/share/spack/setup-env.sh
 spack env activate crusher-demo

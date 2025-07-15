@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lentil-3151
-#FLUX: --priority=16
+#FLUX: --job-name=milky-pot-5661
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/thomas-bouvier/dcl-experiments-scripts/pbs/polaris/er/job.4-2.ghostnet.qsub

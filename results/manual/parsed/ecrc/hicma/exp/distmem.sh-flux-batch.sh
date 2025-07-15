@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=hicma
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export STARPU_CALIBRATE='0'
 

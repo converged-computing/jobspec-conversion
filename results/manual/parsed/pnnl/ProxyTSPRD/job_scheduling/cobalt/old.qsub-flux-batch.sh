@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-signal-1110
-#FLUX: --priority=16
+#FLUX: --job-name=arid-truffle-2915
+#FLUX: --urgency=16
 

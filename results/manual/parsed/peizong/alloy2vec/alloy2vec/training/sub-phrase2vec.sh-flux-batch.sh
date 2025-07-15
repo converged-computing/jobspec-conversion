@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-motorcycle-2312
+#FLUX: --job-name=confused-diablo-5016
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularity exec --nv --overlay /scratch/zp2137/text-mining/overlay-25GB-500K.ext3:ro \
         /scratch/work/public/singularity/cuda11.2.2-cudnn8-devel-ubuntu20.04.sif \

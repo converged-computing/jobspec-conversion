@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=st
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CPATH='/scratch-nfs/maierbn/openmpi/install-3.1/include'
 export PATH='/scratch-nfs/maierbn/openmpi/install-3.1/bin:$PATH'

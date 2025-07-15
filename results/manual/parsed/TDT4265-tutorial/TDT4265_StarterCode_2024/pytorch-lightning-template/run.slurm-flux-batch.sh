@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="pytorch-lightning-demo"
+#FLUX: --job-name=pytorch-lightning-demo
 #FLUX: -c=16
 #FLUX: --queue=GPUQ
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}/
 module purge

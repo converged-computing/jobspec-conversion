@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=dreambooth-inference
 #FLUX: -t=540000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 which python3

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parsnip-7535
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-arm-9264
+#FLUX: --urgency=16
 
 module unload gromcas
  module unload gromacs/2020.2

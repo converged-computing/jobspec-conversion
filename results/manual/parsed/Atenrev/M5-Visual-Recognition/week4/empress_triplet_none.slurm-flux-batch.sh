@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pastry-0929
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-buttface-1688
+#FLUX: --urgency=16
 
 python task_b.py \
     --loss "triplet"  \

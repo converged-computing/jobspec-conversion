@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-hope-4593
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-motorcycle-8036
+#FLUX: --urgency=16
 
 source activate snakemake
 snakemake --cores 1 --unlock

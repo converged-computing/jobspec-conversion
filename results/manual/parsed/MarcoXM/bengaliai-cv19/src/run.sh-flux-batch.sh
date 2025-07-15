@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-citrus-9920
+#FLUX: --job-name=expressive-bicycle-1995
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 export IMG_HEIGHT='137'

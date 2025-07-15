@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-staircase-7000
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-peanut-0997
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export CRAY_ACCEL_TARGET='nvidia80'

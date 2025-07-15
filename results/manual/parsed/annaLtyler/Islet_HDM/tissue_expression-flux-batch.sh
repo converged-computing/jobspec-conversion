@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-milkshake-9443
-#FLUX: --priority=16
+#FLUX: --job-name=grated-punk-1568
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load singularity

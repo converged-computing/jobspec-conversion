@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-poo-8119
+#FLUX: --job-name=persnickety-puppy-8368
 #FLUX: -N=2
 #FLUX: -c=32
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(hostname)'
 

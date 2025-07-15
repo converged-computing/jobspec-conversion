@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-fudge-3437
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-lamp-3639
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 

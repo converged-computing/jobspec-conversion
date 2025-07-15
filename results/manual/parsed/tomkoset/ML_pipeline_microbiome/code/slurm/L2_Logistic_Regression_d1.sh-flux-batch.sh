@@ -2,7 +2,7 @@
 #FLUX: --job-name=L2_logit-d1
 #FLUX: --queue=standard
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 seed=$(($SLURM_ARRAY_TASK_ID - 1))
 mkdir -p logs/slurm/

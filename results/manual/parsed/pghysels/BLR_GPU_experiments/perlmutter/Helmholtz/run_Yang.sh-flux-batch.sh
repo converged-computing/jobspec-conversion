@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lettuce-2934
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-cherry-7345
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export CRAY_ACCEL_TARGET='nvidia80'

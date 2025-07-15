@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-toaster-8005
+#FLUX: --job-name=phat-banana-1050
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /share/apps2/singularity/modules
 module purge

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cherry-8403
-#FLUX: --priority=16
+#FLUX: --job-name=milky-itch-8232
+#FLUX: --urgency=16
 
 export DIR='/gpfs/loomis/project/fas/sbsc/ga254/dataproces/NITRO'
 export RAM='/dev/shm'

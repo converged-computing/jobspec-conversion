@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-omelette-4924
+#FLUX: --job-name=phat-poodle-9785
 #FLUX: --exclusive
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DBFILE=$1
 QUERYFILE=$2

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=phat-car-8454
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-staircase-9685
+#FLUX: --urgency=16
 

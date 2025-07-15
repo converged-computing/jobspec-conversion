@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-truffle-9763
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-caramel-2961
+#FLUX: --urgency=16
 
 set -e
 set -u

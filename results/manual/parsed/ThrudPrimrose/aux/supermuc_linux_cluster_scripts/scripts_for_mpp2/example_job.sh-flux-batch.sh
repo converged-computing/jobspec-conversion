@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-mango-3884
+#FLUX: --job-name=purple-ricecake-3186
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UPCXX_INSTALL='/dss/dsshome1/lxc05/ge69xij2/upcxx-intel-mpp2'
 export PATH='$PATH:~/upcxx-intel-mpp2/bin'

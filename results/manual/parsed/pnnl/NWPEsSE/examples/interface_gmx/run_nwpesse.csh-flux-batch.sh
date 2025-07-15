@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-poo-3027
-#FLUX: --priority=16
+#FLUX: --job-name=placid-chip-5680
+#FLUX: --urgency=16
 
 date
 source /etc/profile.d/modules.sh

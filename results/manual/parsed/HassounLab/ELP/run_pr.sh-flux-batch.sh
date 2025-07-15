@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=elp
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ulimit -c 256
 nvidia-smi

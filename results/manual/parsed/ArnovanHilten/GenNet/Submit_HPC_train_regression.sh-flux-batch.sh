@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-pot-7442
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-nalgas-3461
+#FLUX: --urgency=16
 
 module purge
 module load 2021

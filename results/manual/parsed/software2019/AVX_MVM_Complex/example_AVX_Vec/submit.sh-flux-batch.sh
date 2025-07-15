@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-latke-5600
-#FLUX: --queue=test        # Job queue
-#FLUX: --priority=16
+#FLUX: --job-name=grated-ricecake-6403
+#FLUX: --queue=test
+#FLUX: --urgency=16
 
 export I_MPI_DEBUG='5 '
 export MPI_DSM_VERBOSE='1 '

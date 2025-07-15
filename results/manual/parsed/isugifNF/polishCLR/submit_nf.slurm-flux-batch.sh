@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=NF_refactor
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}
 nextflow run main.nf \

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-parsnip-3784
+#FLUX: --job-name=gloopy-puppy-3782
 #FLUX: --queue=gpulab02
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 env_name="trans"
 seq_lens=(336)

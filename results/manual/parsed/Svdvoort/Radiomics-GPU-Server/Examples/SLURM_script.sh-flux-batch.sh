@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-sundae-3190
+#FLUX: --job-name=fuzzy-platanos-2282
 #FLUX: -n=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MY_TMP_DIR=/slurmtmp/${SLURM_JOB_USER}.${SLURM_JOB_ID}
 mv <path/to/your/data/> ${MY_TMP_DIR}

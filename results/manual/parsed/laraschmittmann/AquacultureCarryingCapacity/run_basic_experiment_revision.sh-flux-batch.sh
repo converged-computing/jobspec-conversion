@@ -3,7 +3,7 @@
 #FLUX: -n=123
 #FLUX: --queue=base
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc12-env/12.3.0 
 module load singularity/3.11.5

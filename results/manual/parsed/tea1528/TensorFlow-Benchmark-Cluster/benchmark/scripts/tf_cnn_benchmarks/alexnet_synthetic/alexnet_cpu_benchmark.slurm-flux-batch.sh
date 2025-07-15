@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-nunchucks-2214
+#FLUX: --job-name=red-cat-5785
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load GCC Singularity git
 singularity exec --nv docker://tensorflow/tensorflow:latest \

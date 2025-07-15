@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-parrot-1718
+#FLUX: --job-name=hello-buttface-1424
 #FLUX: --exclusive
 #FLUX: --queue=cpu_med
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NPROC=4                          # Total number of processes
 NPROCPNODE=4                     # Number of processes per node

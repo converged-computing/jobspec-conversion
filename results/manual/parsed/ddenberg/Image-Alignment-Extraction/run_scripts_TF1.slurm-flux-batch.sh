@@ -2,7 +2,7 @@
 #FLUX: --job-name=TF1
 #FLUX: -c=16
 #FLUX: -t=7140
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load matlab/R2023a

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-buttface-5399
+#FLUX: --job-name=eccentric-leopard-5107
 #FLUX: -t=41400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATA_DIR='/scratch/ba63/magold_files/EGY'
 export MAX_LENGTH='512'

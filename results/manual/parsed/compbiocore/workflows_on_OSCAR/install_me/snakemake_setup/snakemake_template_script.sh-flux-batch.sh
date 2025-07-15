@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-earthworm-2093
+#FLUX: --job-name=arid-leg-6768
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 snakemake_start
 snakemake -s /path/to/snakefile -profile oscar

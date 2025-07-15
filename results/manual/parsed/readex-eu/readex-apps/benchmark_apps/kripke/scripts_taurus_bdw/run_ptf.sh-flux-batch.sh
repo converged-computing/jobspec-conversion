@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-fudge-3072
+#FLUX: --job-name=dirty-diablo-1682
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCOREP_SUBSTRATE_PLUGINS='rrl'
 export SCOREP_RRL_PLUGINS='cpu_freq_plugin,uncore_freq_plugin'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-puppy-8035
+#FLUX: --job-name=grated-cupcake-0988
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/12.1
 source /home/davide.cavicchini/.bashrc

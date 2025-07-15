@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cupcake-4805
+#FLUX: --job-name=rainbow-latke-7630
 #FLUX: -c=64
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

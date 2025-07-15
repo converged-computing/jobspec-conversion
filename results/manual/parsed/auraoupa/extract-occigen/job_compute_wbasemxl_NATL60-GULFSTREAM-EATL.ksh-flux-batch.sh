@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-poodle-6872
+#FLUX: --job-name=gassy-house-2986
 #FLUX: -n=12
 #FLUX: --exclusive
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NB_NPROC=12 #(= 1 regions * 1 variable * 12 month)
 runcode() { srun --mpi=pmi2 -m cyclic -n $@ ; }

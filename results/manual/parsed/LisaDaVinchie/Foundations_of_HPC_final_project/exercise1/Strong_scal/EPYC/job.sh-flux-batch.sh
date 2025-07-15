@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name="Strong_scal"
+#FLUX: --job-name=Strong_scal
 #FLUX: -N=4
 #FLUX: -n=8
 #FLUX: -c=64
 #FLUX: --exclusive
 #FLUX: --queue=EPYC
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='close'

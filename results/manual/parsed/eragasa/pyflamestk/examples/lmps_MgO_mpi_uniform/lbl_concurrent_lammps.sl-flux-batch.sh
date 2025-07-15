@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lamp-9046
-#FLUX: --priority=16
+#FLUX: --job-name=angry-squidward-3615
+#FLUX: --urgency=16
 
 export LAMMPS_BIN='/global/homes/e/ejragasa/edison_bin/lmp_serial'
 export PYTHONPATH='$PYFLAMESTK_DIR:$PYTHONPATH'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-rabbit-4072
+#FLUX: --job-name=cowy-bicycle-5370
 #FLUX: -c=2
 #FLUX: --queue=unkillable-cpu
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MAX_JOBS='4'
 export LD_LIBRARY_PATH='$TGI_TMP/pyenv/lib:$LD_LIBRARY_PATH'

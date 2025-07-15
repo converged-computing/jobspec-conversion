@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-puppy-7415
+#FLUX: --job-name=blank-destiny-4049
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'
 export TMPDIR='$SCRATCH'

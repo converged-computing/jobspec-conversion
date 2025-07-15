@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-malarkey-0191
-#FLUX: --priority=16
+#FLUX: --job-name=milky-lizard-2664
+#FLUX: --urgency=16
 
 hostname
 module add cudatoolkit/11.6

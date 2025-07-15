@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="mpi4py"
+#FLUX: --job-name=mpi4py
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir $SLURM_JOBID
 cat $0 > $SLURM_JOBID/script

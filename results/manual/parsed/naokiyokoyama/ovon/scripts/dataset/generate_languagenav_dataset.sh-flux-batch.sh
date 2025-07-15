@@ -2,7 +2,7 @@
 #FLUX: --job-name=ovon-dgen
 #FLUX: -c=6
 #FLUX: --queue=short
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GLOG_minloglevel='2'
 export HABITAT_SIM_LOG='quiet'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=decode_numrisk
 #FLUX: --queue=volta
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PARTICIPANT_LABEL='$(printf "%02d" $SLURM_ARRAY_TASK_ID)'
 

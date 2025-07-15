@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=eval
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "start"
 echo "Starting job ${SLURM_JOB_ID} on ${SLURMD_NODENAME}"

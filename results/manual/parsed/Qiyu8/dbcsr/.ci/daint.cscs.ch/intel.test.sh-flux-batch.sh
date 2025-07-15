@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-train-0719
+#FLUX: --job-name=evasive-peas-1811
 #FLUX: -c=3
-#FLUX: --queue="cscsci"
-#FLUX: --priority=16
+#FLUX: --queue=cscsci
+#FLUX: --urgency=16
 
 export CRAY_CUDA_MPS='1 # enable the CUDA proxy for MPI+CUDA'
 export OMP_PROC_BIND='TRUE # set thread affinity'

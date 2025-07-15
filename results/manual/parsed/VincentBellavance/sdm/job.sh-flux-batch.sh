@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=test_pipeline
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /home/belv1601/.local/easybuild/modules/2020/avx2/Compiler/gcc9/
 module load StdEnv/2020  gcc/9.3.0 r-inla/21.05.02 geos/3.9.1 gdal/3.0.4 proj/7.0.1 udunits

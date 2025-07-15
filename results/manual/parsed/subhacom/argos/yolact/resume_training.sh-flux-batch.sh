@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-avocado-4459
+#FLUX: --job-name=dirty-puppy-4952
 #FLUX: -c=32
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CUDA/10.1
 module load cuDNN/7.6.5/CUDA-10.1

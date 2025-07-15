@@ -3,7 +3,7 @@
 #FLUX: -n=8
 #FLUX: --queue=batch
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load releases/2021b

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-egg-3065
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-leopard-4836
+#FLUX: --urgency=16
 
 python task_b.py \
     --loss "triplet"  \

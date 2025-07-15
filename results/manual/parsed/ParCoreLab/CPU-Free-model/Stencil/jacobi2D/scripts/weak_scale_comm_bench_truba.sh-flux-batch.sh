@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-knife-9536
+#FLUX: --job-name=placid-buttface-4749
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . ./scripts/modules_truba.sh > /dev/null
 MAX_NUM_GPUS=8

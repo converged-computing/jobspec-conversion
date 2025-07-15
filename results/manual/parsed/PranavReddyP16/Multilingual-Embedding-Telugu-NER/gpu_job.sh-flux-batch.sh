@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="range_test"
-#FLUX: --priority=16
+#FLUX: --job-name=range_test
+#FLUX: --urgency=16
 
 module purge
 module load python-3.8.6-gcc-10.2.0-csfajta

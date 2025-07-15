@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-ricecake-2068
+#FLUX: --job-name=grated-parsnip-4841
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

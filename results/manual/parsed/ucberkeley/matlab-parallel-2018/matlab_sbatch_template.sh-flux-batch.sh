@@ -3,7 +3,7 @@
 #FLUX: -n=40
 #FLUX: --queue=savio
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MDCE_OVERRIDE_EXTERNAL_HOSTNAME='$(/bin/hostname -f)'
 

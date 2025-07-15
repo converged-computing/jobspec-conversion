@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="lcdb-wf"
-#FLUX: --queue="norm"
+#FLUX: --job-name=lcdb-wf
+#FLUX: --queue=norm
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [[ ! -e logs ]]; then mkdir -p logs; fi
 (source activate s2rnai; \

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cattywampus-5242
+#FLUX: --job-name=loopy-pastry-6411
 #FLUX: -c=28
 #FLUX: --queue=workq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow/18.10.1-bin
 nextflow run \

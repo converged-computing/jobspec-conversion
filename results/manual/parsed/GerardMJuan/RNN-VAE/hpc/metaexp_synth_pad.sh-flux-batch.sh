@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-kerfuffle-4309
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-parrot-7419
+#FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh
 source /etc/profile.d/easybuild.sh

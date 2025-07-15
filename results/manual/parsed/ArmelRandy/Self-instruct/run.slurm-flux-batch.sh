@@ -3,7 +3,7 @@
 #FLUX: -c=48
 #FLUX: --exclusive
 #FLUX: --queue=production-cluster
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_PROJECT='test'
 export HF_DATASETS_CACHE='/fsx/armel/.cache'

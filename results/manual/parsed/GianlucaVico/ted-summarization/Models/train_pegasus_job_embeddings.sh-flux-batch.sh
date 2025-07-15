@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="train_pegasus"
+#FLUX: --job-name=train_pegasus
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$HOME/.local/bin:$PATH'
 

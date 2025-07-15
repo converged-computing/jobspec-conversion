@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-leg-1721
+#FLUX: --job-name=pusheena-puppy-7906
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SHARE_RERUNS='${SHARE_RERUNS:=0}'
 export MLPERF_SLURM_FIRSTNODE='$(scontrol show hostnames "${SLURM_JOB_NODELIST-}" | head -n1)'

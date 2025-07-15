@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-chair-3797
-#FLUX: --priority=16
+#FLUX: --job-name=red-bike-2333
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/HRRR/sms/jhrrr_fcstpre_16.qsub

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-hobbit-5070
+#FLUX: --job-name=blank-leg-2076
 #FLUX: -c=32
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_MR_CACHE_MONITOR='userfaultfd'
 export HDF5_USE_FILE_LOCKING='FALSE'

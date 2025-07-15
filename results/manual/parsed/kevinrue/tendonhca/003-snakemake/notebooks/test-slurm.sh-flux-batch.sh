@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-malarkey-8575
+#FLUX: --job-name=carnivorous-sundae-8667
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /ceph/project/tendonhca/albrecht/003-snakemake/
 eval "$(/project/sims-lab/albrecht/miniforge3/bin/conda shell.bash hook)" && conda activate base

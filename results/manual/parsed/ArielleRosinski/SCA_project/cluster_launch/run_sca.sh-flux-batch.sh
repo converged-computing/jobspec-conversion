@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-latke-7819
+#FLUX: --job-name=scruptious-fork-2191
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='~/.conda/envs/sca_env/lib:$LD_LIBRARY_PATH'
 export PATH='~/.conda/envs/sca_env/bin:$PATH'

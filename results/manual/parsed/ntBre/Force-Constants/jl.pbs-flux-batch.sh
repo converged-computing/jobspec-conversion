@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-diablo-0555
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-lamp-7622
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ntBre/Force-Constants/jl.pbs

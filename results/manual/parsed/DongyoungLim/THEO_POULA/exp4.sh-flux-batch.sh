@@ -2,7 +2,7 @@
 #FLUX: --job-name=sensitive_ana4
 #FLUX: --queue=gpu-cascade
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/8.2.0
 module load nvidia/nvhpc

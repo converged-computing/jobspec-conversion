@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-diablo-9686
+#FLUX: --job-name=moolicious-eagle-0301
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NB_CPU=4 #change accordingly in SLURM header
 REGIONS="" # to remove the options to focus on a limited number of regions

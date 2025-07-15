@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peas-9902
+#FLUX: --job-name=eccentric-earthworm-4206
 #FLUX: --queue=gpu8_long
 #FLUX: -t=478800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab/
 module load anaconda3/cpu/5.2.0

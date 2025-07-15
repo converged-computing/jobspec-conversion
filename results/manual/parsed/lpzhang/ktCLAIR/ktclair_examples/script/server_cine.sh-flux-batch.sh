@@ -2,7 +2,7 @@
 #FLUX: --job-name=example
 #FLUX: -c=16
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-snack-7913
-#FLUX: --priority=16
+#FLUX: --job-name=blank-signal-5704
+#FLUX: --urgency=16
 
 usage ()
 {

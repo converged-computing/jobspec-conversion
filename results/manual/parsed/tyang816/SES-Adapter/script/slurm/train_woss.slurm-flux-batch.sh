@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-train-6045
+#FLUX: --job-name=scruptious-signal-2762
 #FLUX: -c=16
 #FLUX: -t=15552000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='0'
 export NCCL_DEBUG='INFO'

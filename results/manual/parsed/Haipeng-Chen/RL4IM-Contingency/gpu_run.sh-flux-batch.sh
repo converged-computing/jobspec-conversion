@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-citrus-9863
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-hippo-3855
+#FLUX: --urgency=16
 
 T=8
 BUDGET=4

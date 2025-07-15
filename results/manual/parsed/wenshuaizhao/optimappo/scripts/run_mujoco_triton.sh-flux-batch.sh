@@ -3,7 +3,7 @@
 #FLUX: -c=40
 #FLUX: --queue=batch
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUSERBASE='/scratch/work/zhaow7/PycharmProjects/docker/mappo_env \'
 

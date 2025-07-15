@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-punk-5488
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-malarkey-5382
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

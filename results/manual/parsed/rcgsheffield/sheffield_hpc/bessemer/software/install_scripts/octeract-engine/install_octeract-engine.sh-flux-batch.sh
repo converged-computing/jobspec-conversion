@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-pancake-6397
+#FLUX: --job-name=dinosaur-kerfuffle-3505
 #FLUX: --queue=cstest
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PACKAGENAME=octeract-engine
 PACKAGEVER=3.1.0

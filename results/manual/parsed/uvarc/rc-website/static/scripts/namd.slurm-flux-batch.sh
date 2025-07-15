@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-citrus-1508
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-knife-1376
+#FLUX: --urgency=16
 
 module purge
 module load goolf namd

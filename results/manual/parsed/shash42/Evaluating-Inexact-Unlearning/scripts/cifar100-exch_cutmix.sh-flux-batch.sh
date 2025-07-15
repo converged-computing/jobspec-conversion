@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lizard-5231
+#FLUX: --job-name=butterscotch-sundae-6213
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cat cifar100-exch.sh
 logdir='logs3/Final-cifar100-resnet110'

@@ -5,7 +5,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=standard-g
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMI_NO_PREINITIALIZE='y'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

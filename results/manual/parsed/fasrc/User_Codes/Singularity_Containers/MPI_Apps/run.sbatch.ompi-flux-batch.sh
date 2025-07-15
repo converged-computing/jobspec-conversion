@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-salad-1314
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-peas-3206
+#FLUX: --urgency=16
 
 export UCX_TLS='ib'
 export PMIX_MCA_gds='hash'

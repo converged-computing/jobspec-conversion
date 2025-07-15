@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-ricecake-4310
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-poodle-4757
+#FLUX: --urgency=16
 
 img_path="/n/home02/daldarondo/LabDir/Diego/.images/mj_stac.sif"
 param_path=$1; shift

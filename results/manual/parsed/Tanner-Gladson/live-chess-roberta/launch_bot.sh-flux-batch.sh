@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="live-chess-roberta"
+#FLUX: --job-name=live-chess-roberta
 #FLUX: -c=4
 #FLUX: --queue=shared
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ENV_NAME="lichess-bot"
 PYTHON_VERSION="3.9.18"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-plant-5993
+#FLUX: --job-name=persnickety-citrus-8455
 #FLUX: -c=4
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 module load singularity

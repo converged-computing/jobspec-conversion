@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-citrus-8841
+#FLUX: --job-name=moolicious-caramel-8197
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load snakemake/5.24.1 || exit 1
 cp /data/OGL/resources/variant_prioritization.git.log .

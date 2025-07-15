@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-nunchucks-9527
+#FLUX: --job-name=phat-lizard-9253
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NUM_WORKERS='8'
 export THREADS_PER_WORKER='1'

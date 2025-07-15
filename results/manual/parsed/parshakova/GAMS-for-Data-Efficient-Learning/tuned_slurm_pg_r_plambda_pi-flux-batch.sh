@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-parsnip-4483
+#FLUX: --job-name=creamy-fudge-7930
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 srun hostname

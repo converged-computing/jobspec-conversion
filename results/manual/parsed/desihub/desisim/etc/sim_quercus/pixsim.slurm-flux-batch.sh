@@ -3,7 +3,7 @@
 #FLUX: -N=150
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='/dev/shm'
 export OMP_NUM_THREADS='${node_thread}'

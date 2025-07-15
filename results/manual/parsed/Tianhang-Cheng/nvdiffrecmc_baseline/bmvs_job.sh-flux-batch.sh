@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nvdiffrecmc
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 scenes=(
 bear

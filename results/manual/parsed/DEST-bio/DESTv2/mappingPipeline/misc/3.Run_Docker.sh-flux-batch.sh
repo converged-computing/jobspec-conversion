@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-latke-3673
-#FLUX: --priority=16
+#FLUX: --job-name=salted-leopard-3626
+#FLUX: --urgency=16
 
 pwd
 echo $SLURM_CPUS_PER_TASK 

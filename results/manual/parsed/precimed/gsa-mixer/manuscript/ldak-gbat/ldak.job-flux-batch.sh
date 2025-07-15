@@ -2,7 +2,7 @@
 #FLUX: --job-name=ldak
 #FLUX: -c=8
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SUMSTATS='$1'
 export GENEFILE='annotSorted.csv'

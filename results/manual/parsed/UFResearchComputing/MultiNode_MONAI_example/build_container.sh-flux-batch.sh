@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=build_container
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 module load singularity

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-car-6596
+#FLUX: --job-name=bloated-blackbean-9236
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DEVICE="GPU"
 ROUTINE="zheevd"

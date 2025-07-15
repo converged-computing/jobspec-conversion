@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-platanos-5590
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-lemur-1880
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/WashU-IT-RIS/docker-osu-micro-benchmarks/bin/osu-gpu.bsub

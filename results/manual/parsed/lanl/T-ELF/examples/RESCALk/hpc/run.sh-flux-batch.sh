@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-blackbean-9851
+#FLUX: --job-name=loopy-bits-5520
 #FLUX: -N=2
 #FLUX: -c=120
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMIX_MCA_gds='hash'
 export n_jobs='$SLURM_CPUS_PER_TASK'

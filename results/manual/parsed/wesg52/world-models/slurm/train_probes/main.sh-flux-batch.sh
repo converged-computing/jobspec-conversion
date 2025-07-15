@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-earthworm-7577
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-pot-9930
+#FLUX: --urgency=16
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'
 export HF_DATASETS_OFFLINE='1'

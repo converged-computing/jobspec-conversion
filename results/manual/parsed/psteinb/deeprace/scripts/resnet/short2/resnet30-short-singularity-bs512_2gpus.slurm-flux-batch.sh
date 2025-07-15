@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-underoos-5103
+#FLUX: --job-name=muffled-lizard-9343
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

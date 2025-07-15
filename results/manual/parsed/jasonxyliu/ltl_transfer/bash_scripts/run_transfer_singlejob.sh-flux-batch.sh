@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bicycle-5662
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-onion-5673
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

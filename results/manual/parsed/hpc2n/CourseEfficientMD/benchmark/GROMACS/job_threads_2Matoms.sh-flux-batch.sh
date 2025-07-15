@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-plant-0123
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-general-7344
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export reset_counters='-resetstep 1000 -nsteps 2000'

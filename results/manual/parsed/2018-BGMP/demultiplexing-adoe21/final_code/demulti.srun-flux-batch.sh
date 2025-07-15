@@ -2,7 +2,7 @@
 #FLUX: --job-name=multiplex
 #FLUX: --queue=short
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load easybuild intel/2017a python3/3.6.1

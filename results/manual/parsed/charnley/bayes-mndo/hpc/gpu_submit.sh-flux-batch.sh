@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-carrot-7143
+#FLUX: --job-name=creamy-nalgas-2869
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)
 module purge                               # Removes all modules still loaded

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-general-2290
+#FLUX: --job-name=scruptious-spoon-8236
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export STREAM_ARRAY_SIZE='22000000'
 export OMP_NUM_THREADS='1   # 16 cores per socket'

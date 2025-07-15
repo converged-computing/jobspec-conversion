@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lemon-0903
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-cinnamonbun-4370
+#FLUX: --urgency=16
 
 cd $(ws_find lth_ws)
 source lth_env/bin/activate

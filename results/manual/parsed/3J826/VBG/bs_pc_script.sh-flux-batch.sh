@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=s5
 #FLUX: -t=29400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WANDB_API_KEY=$17a113b4804951bde9c66b2002fe378c0209fb64
 WANDB_ENTITY=$mizunt

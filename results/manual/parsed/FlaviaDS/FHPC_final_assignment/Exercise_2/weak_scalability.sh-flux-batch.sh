@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="script"
+#FLUX: --job-name=script
 #FLUX: -c=64
 #FLUX: --exclusive
 #FLUX: --queue=EPYC
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'
 export OMP_PLACES='cores'

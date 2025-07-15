@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-pot-4263
+#FLUX: --job-name=tart-diablo-9027
 #FLUX: -c=2
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc #for slac cluster
 ./simulate -s PLANE --pmin 0.01 --pmax 0.01 --qmin 0 --qmax 0 --Np 1 --Nq 1 -n 1000000 --lmin 3 --lmax 19 -v 1 -N INDEP --fname "/scratch/users/ladmon/3D/results/${SLURM_ARRAY_JOB_ID}_$SLURM_ARRAY_TASK_ID.out"

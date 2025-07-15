@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=da-cst-im-roi_cs6-HP-WIDER
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python tools/train_net_step.py \
     --dataset bdd_peds+HP18k \

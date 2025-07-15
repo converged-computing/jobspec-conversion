@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-milkshake-8942
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-parrot-1165
+#FLUX: --urgency=16
 
 module purge
 module load PyTorch-bundle/1.12.1-foss-2022a-CUDA-11.7.0

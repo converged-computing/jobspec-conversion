@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-dog-4732
-#FLUX: --priority=16
+#FLUX: --job-name=purple-hope-7044
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/basvanopheusden/Gomoku/generate_times.sh

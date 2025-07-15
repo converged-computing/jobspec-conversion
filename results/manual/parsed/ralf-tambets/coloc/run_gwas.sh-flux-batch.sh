@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-knife-9562
+#FLUX: --job-name=wobbly-fudge-4492
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load any/jdk/1.8.0_265
 module load nextflow

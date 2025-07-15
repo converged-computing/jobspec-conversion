@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-bits-9092
+#FLUX: --job-name=chocolate-hippo-8274
 #FLUX: -c=16
 #FLUX: --queue=amdv100,intelv100,amdrtx,amda100
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=/users/vvolhejn/miniconda3/envs/nas/lib'

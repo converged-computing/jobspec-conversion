@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ATc2p13SZA160RD
 #FLUX: --queue=batch
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MSCART='/umbc/xfs1/zzbatmos/users/charaj1/LES_MSCART/mscart/build/intel-release-nocaf/mscart/MSCART'
 NPH=1e6

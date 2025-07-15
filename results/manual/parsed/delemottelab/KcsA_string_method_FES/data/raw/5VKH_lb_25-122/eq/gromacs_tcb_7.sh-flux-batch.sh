@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-eagle-1913
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-gato-8927
+#FLUX: --urgency=16
 
 module unload gromcas
  module unload gromacs/2020.2

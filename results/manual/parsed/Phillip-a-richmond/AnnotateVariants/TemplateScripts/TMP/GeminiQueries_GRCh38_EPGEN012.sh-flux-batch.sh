@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-muffin-9026
+#FLUX: --job-name=phat-hope-2766
 #FLUX: -c=2
 #FLUX: --queue=defq
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 	# Removed LOOSE DP/GQ thresholds
 	# Added SPLICEAI

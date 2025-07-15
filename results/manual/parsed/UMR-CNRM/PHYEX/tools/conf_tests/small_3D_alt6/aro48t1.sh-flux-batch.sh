@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-blackbean-2920
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-arm-9816
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

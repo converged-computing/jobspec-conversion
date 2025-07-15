@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-nunchucks-9524
-#FLUX: --priority=15
+#FLUX: --job-name=astute-buttface-6066
+#FLUX: --urgency=15
 
 sbatch --wait << EOF
 source $HOME/.bashrc

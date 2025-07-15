@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-malarkey-0687
+#FLUX: --job-name=arid-bike-2847
 #FLUX: --queue=amdv100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.7.2
 module load CMake

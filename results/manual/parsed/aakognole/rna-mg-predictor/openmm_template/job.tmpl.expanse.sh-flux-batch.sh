@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="<job>_<run>"
+#FLUX: --job-name=<job>_<run>
 #FLUX: --queue=gpu-shared
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'
 export LD_LIBRARY_PATH='/cm/local/apps/cuda/libs/current/lib64:$LD_LIBRARY_PATH'

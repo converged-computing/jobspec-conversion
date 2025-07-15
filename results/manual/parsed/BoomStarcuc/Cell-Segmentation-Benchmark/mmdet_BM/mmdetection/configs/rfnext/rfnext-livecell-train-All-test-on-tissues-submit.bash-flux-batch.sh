@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-knife-4786
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-pedo-2898
+#FLUX: --urgency=16
 
 tissues=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')
 CONFIG_DIR='mmdetection/configs/rfnext'

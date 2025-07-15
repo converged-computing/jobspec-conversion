@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lizard-1254
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-dog-0968
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/karnikkanojia/yolov7-intel/train.sh

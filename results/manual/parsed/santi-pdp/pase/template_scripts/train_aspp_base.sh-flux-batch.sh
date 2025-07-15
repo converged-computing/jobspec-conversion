@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-destiny-5930
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-punk-7610
+#FLUX: --urgency=16
 
 module load cuda
 module load anaconda

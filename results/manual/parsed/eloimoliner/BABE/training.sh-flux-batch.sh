@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=matrix_testing_bwe_blind_1000
 #FLUX: -t=170999
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 

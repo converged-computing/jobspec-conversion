@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=run_classification
 #FLUX: -n=64
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate /galaxy/home/biomonika/conda/3Dgenome > /dev/null
 set -e

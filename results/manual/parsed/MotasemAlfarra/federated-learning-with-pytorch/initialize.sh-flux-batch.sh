@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-poodle-8024
+#FLUX: --job-name=butterscotch-soup-2646
 #FLUX: -c=4
 #FLUX: --queue=batch
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate rs_fl
 nvidia-smi

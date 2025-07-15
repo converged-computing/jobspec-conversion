@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=high-moby
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 STUDY="TAY"
 sublist="/scratch/mjoseph/bids/${STUDY}/code/subject_list_dwi.txt"

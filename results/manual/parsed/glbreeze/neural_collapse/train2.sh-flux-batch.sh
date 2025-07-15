@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=a100_1,a100_2,v100,rtx8000
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ext3_path=/scratch/$USER/python36/python36.ext3
 sif_path=/scratch/work/public/singularity/cuda11.2.2-cudnn8-devel-ubuntu20.04.sif

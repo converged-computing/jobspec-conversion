@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-car-7447
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-destiny-6155
+#FLUX: --urgency=16
 
 usage ()
 {

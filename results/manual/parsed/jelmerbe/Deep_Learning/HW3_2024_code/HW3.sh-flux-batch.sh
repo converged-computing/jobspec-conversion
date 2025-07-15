@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-nalgas-5286
+#FLUX: --job-name=joyous-citrus-5617
 #FLUX: --queue=short
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SCRATCH
 module load Anaconda3/2022.05

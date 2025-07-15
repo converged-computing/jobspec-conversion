@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-earthworm-2562
-#FLUX: --priority=16
+#FLUX: --job-name=phat-parrot-1291
+#FLUX: --urgency=16
 
 export PATH='/homedtic/gmarti/project/anaconda3/bin:$PATH'
 

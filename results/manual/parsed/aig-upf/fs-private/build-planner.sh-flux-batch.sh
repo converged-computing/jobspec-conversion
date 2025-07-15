@@ -2,7 +2,7 @@
 #FLUX: --job-name=build-planner
 #FLUX: --queue=short
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LIBRARY_PATH='$LIBRARY_PATH:${HOME}/local/lib'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:${HOME}/local/lib'

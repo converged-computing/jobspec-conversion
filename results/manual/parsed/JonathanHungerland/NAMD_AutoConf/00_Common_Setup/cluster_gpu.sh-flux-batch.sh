@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-cattywampus-9126
+#FLUX: --job-name=loopy-kerfuffle-5723
 #FLUX: --queue=qblg.p
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NTASKS='$(( ${SLURM_NNODES} * ${SLURM_NTASKS_PER_NODE} ))'
 export namdexecution='namd3 +p${NTASKS}'

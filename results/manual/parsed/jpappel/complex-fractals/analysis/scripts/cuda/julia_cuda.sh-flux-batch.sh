@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-muffin-4024
+#FLUX: --job-name=reclusive-earthworm-6041
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 THREADS=1
 BLOCK_SIZE=1

@@ -2,7 +2,7 @@
 #FLUX: --job-name=dataaug-ger
 #FLUX: --queue=gpu_4
 #FLUX: -t=100800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting ..."
 module load devel/cuda/11.8

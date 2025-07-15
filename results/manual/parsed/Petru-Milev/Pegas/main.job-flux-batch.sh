@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lettuce-4069
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-hobbit-8486
+#FLUX: --urgency=16
 
 module load gaussian/16.C.01 ; echo 
 module load SciPy-bundle/2022.05-intel-2022a ; echo; echo 

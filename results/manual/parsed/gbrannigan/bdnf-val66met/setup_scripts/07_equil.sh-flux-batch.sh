@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-latke-2702
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-soup-6325
+#FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-rabbit-3586
+#FLUX: --job-name=hello-cattywampus-7053
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $SLURM_JOB_GPUS
 working_dir='/home/hwaranlee/06_convlab/convlab/modules/word_dst/multiwoz/sumbt'

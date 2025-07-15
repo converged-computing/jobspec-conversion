@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-pot-4435
-#FLUX: --priority=16
+#FLUX: --job-name=salted-platanos-4652
+#FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 1'
 

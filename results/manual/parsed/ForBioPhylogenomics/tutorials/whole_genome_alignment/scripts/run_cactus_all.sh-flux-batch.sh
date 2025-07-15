@@ -3,7 +3,7 @@
 #FLUX: -c=64
 #FLUX: --queue=bigmem
 #FLUX: -t=93000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module --force purge
 start_dir=$PWD

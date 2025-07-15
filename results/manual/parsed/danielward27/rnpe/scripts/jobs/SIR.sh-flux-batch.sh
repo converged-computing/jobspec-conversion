@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=SIR
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load lang/python/miniconda/3.9.7
 module load lang/gcc/9.3.0

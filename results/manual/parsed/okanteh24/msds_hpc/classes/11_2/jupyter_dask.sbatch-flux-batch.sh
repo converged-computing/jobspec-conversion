@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-snack-7874
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-general-1349
+#FLUX: --urgency=16
 
 module purge
 module load singularity

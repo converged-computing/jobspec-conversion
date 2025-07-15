@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-bike-4177
+#FLUX: --job-name=gloopy-poo-7988
 #FLUX: --queue=h3c
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ulimit -s unlimited
 module load vasp/6.1.0

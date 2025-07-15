@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-blackbean-5686
+#FLUX: --job-name=conspicuous-fudge-5726
 #FLUX: --queue=sbel
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nvidia/cuda/11.3.1
 mkdir ./DEMO_OUTPUT/FSI_VIPER/Rover_rock_31/script

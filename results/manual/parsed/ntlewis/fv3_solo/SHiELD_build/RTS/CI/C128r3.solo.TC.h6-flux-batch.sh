@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-parsnip-3320
+#FLUX: --job-name=gassy-chair-6041
 #FLUX: -n=96
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

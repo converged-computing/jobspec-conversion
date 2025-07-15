@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-butter-8030
+#FLUX: --job-name=psycho-despacito-5919
 #FLUX: -c=2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GMX='gmx_mpi'
 

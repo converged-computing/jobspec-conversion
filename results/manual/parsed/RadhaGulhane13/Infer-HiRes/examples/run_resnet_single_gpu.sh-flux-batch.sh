@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-kerfuffle-4469
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-squidward-7218
+#FLUX: --urgency=16
 
 export PYTHONNOUSERSITE='true'
 export CUDA_HOME='/home/gulhane.2/cuda/setup.sh'

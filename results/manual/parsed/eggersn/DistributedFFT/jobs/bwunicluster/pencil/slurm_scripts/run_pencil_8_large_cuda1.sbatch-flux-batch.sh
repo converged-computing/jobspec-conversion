@@ -4,7 +4,7 @@
 #FLUX: -n=64
 #FLUX: --exclusive
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load compiler/gnu/8.3.1
 module load devel/cuda/11.0

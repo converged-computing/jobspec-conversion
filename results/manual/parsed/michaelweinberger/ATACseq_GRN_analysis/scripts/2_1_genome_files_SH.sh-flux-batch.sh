@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pot-8891
+#FLUX: --job-name=hairy-knife-4686
 #FLUX: -c=12
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load bowtie/1.2.3
 module load samtools/1.10

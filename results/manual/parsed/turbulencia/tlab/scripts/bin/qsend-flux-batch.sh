@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-knife-7803
-#FLUX: --priority=16
+#FLUX: --job-name=angry-bicycle-8316
+#FLUX: --urgency=16
 
 export TOOLS_HOME='$HOME/bin'
 export CONFIG_FILE='$TOOLS_HOME/CONFIG.default'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-latke-1841
-#FLUX: --priority=16
+#FLUX: --job-name=phat-itch-5587
+#FLUX: --urgency=16
 
 export INF='/rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/INF'
 export ukbdir='${INF}/ukb'

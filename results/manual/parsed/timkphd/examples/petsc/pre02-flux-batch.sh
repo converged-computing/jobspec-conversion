@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="petsc"
+#FLUX: --job-name=petsc
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 ml gcc/7.3.0 comp-intel/2018.0.3 intel-mpi/2018.0.3 mkl/2018.3.222

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-muffin-3098
+#FLUX: --job-name=expressive-diablo-7658
 #FLUX: --queue=cpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ${MODULES} ${OMPIVERSION}
 for version in ${CODE_VERSION}

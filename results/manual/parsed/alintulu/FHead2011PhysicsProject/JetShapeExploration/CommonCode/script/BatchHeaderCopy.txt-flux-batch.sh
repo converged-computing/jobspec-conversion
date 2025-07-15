@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-malarkey-1361
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-lizard-4829
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alintulu/FHead2011PhysicsProject/JetShapeExploration/CommonCode/script/BatchHeaderCopy.txt

@@ -3,7 +3,7 @@
 #FLUX: -n=64
 #FLUX: --queue=amilan
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CC='gcc'
 export CXX='g++'

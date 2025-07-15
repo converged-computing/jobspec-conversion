@@ -2,7 +2,7 @@
 #FLUX: --job-name=VIR_DB
 #FLUX: -c=8
 #FLUX: -t=7140
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load Bowtie2

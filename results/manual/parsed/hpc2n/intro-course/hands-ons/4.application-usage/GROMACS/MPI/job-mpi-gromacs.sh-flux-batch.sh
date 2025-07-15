@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-poo-0887
-#FLUX: --priority=16
+#FLUX: --job-name=blank-parsnip-4057
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MDRUN='gmx_mpi mdrun'

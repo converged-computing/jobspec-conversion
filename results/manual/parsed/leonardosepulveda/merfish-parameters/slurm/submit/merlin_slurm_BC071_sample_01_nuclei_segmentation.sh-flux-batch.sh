@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-train-7414
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-pancake-5090
+#FLUX: --urgency=16
 
 date +'Starting at %R.'
 source centos7-modules.sh

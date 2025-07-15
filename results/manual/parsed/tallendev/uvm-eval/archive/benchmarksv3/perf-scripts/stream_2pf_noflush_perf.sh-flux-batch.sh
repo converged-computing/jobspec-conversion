@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-snack-5582
+#FLUX: --job-name=butterscotch-parrot-0488
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

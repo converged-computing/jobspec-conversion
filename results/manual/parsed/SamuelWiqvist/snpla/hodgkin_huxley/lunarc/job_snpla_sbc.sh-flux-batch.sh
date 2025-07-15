@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bits-4091
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-caramel-7988
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-truffle-3086
-#FLUX: --priority=16
+#FLUX: --job-name=blank-sundae-3608
+#FLUX: --urgency=16
 
 mkdir ~/.matlab/$SLURM_ARRAY_JOB_ID.$SLURM_ARRAY_TASK_ID
 unset TZ

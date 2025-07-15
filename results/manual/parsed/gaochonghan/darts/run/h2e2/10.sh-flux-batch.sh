@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cherry-8309
+#FLUX: --job-name=psycho-puppy-4248
 #FLUX: -c=4
 #FLUX: --queue=dell
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='1'
 export MKL_THREADING_LAYER='GNU'

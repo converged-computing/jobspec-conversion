@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-onion-0117
+#FLUX: --job-name=persnickety-kerfuffle-0603
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set +x
 source /global/common/software/nersc/shasta2105/python/3.8-anaconda-2021.05/etc/profile.d/conda.sh

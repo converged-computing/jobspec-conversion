@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-frito-4232
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-destiny-1415
+#FLUX: --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

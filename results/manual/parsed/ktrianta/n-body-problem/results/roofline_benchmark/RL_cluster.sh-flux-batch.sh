@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-egg-8995
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-despacito-4587
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ktrianta/n-body-problem/results/roofline_benchmark/RL_cluster.sh

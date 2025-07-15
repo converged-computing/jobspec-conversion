@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bicycle-4568
+#FLUX: --job-name=hanky-kitty-1154
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATESTAMP=${DATESTAMP:-`date +'%y%m%d%H%M%S'`}
 BENCHMARK=${BENCHMARK:-"rnn_translator"}

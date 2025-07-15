@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: --queue=high_mem
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 current_time=$(date "+%Y.%m.%d-%H.%M.%S")
 which python

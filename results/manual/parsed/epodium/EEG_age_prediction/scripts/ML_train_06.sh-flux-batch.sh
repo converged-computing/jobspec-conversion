@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lemon-6250
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-pedo-1598
+#FLUX: --urgency=16
 
 module load 2020
 module load Python/3.8.2-GCCcore-9.3.0

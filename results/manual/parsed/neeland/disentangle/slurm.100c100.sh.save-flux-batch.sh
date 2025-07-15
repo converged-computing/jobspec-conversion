@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=100c100
 #FLUX: --queue=stampede
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python3 main.py \
 --aicrowd_challenge=false \

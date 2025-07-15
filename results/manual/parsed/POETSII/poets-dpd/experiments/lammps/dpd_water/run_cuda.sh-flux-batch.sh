@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pedo-4053
-#FLUX: --priority=16
+#FLUX: --job-name=faux-fudge-0034
+#FLUX: --urgency=16
 
 module load lammps/2018/cuda
 echo

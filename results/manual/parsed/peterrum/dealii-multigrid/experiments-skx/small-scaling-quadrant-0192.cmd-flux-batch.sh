@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-house-8797
+#FLUX: --job-name=moolicious-chair-4744
 #FLUX: -N=4
 #FLUX: --queue=micro
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload intel-mpi/2019-intel
 module unload intel/19.0.5

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-salad-4492
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-sundae-8940
+#FLUX: --urgency=16
 
 set -e
 module load python/3.9.6

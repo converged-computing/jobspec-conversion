@@ -2,7 +2,7 @@
 #FLUX: --job-name=therMOF
 #FLUX: -N=2
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_FABRICS_LIST='ofa'
 

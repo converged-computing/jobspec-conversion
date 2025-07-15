@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-citrus-6697
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-taco-2161
+#FLUX: -n=24
+#FLUX: -t=259200
+#FLUX: --urgency=16
 
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'
 

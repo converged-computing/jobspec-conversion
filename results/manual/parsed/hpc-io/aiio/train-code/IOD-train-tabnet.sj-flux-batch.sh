@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-pedo-0487
-#FLUX: --priority=16
+#FLUX: --job-name=astute-carrot-5136
+#FLUX: --urgency=16
 
 module load python3/3.9-anaconda-2021.11
 module list

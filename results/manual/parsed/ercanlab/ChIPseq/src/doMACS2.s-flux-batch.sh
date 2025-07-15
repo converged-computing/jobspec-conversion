@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MACS
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load macs2/intel/2.1.1
 val=$SLURM_ARRAY_TASK_ID

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-soup-7656
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-destiny-7395
+#FLUX: --urgency=16
 
 export CCTBX_NO_UUID='1'
 export DIFFBRAGG_USE_CUDA='1'

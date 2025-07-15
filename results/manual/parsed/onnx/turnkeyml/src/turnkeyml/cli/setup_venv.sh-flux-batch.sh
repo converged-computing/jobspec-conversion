@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-chair-8349
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-nunchucks-2899
+#FLUX: --urgency=16
 
 export CONDA_ALWAYS_YES='true'
 

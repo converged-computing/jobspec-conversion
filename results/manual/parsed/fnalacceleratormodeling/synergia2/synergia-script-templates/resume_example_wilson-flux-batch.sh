@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-caramel-7024
-#FLUX: --priority=16
+#FLUX: --job-name=blank-destiny-1969
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

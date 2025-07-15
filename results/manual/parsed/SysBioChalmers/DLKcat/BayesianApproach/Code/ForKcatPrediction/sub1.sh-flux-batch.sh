@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-chair-8746
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-blackbean-5400
+#FLUX: --urgency=16
 
 module load GCCcore/8.3.0
 module load MATLAB intel/2018b GMP

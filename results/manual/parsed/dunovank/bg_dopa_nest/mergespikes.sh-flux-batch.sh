@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-salad-7602
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-caramel-8735
+#FLUX: --urgency=16
 
 export PYTHONPATH='/pdc/vol/nest/2.2.2/lib/python2.7/site-packages:/pdc/vol/python/2.7.6-gnu/lib/python2.7/site-packages'
 export TMP='$(pwd)'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lemur-5740
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-onion-8570
+#FLUX: --urgency=16
 
 export scholar='$repo_path/Clusters/Scholar-Modulefiles/opt/spack/modulefiles'
 export gilbreth='$repo_path/Clusters/xCAT-Gilbreth-Configuration/puppet/modules/common/files/opt/spack/modulefiles'

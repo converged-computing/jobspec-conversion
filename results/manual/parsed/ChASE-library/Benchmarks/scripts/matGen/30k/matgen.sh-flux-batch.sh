@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-cupcake-6107
+#FLUX: --job-name=gassy-muffin-6303
 #FLUX: -N=4
 #FLUX: -n=64
 #FLUX: -c=8
 #FLUX: --queue=dc-cpu-devel
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

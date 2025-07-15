@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-general-5866
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-banana-6303
+#FLUX: --urgency=16
 
 export TACC_LAUNCHER_PPN='1'
 export EXECUTABLE='$TACC_LAUNCHER_DIR/init_launcher'

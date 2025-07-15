@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-eagle-5370
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-rabbit-5373
+#FLUX: --urgency=16
 
 id -a
 module purge

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-cupcake-7472
+#FLUX: --job-name=bumfuzzled-avocado-5749
 #FLUX: -c=4
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/3/2021.11

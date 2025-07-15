@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-salad-8276
+#FLUX: --job-name=dirty-toaster-4678
 #FLUX: --queue=RTXA6Kq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python -u ./main.py

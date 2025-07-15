@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lemon-0030
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-general-1035
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='36'
 export user='$(whoami)'

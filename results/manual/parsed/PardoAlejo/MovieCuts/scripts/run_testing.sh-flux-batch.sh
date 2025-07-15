@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MCe2eAV
 #FLUX: -t=14340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 z#!/bin/bash --login
 echo `hostname`

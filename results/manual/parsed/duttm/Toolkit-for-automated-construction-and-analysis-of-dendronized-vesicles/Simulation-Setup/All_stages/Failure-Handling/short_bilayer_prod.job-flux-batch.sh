@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=compute
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_btl='self,vader'
 export OMP_NUM_THREADS='4'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-destiny-4777
+#FLUX: --job-name=pusheena-omelette-1162
 #FLUX: -c=5
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 echo 'BEGIN'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-ricecake-9035
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-lemon-8275
+#FLUX: --urgency=16
 
 module load STAR
 module load subread

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-omelette-4455
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-rabbit-2663
+#FLUX: --urgency=16
 
 export PATH='$PATH:$HOME/apps/valgrind/bin'
 

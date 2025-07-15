@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Inat
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate py3.6pt1.5
 python iNaturalTrain_reslt.py \

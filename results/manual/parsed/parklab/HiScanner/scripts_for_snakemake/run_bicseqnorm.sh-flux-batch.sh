@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-buttface-8880
-#FLUX: --priority=16
+#FLUX: --job-name=milky-general-8007
+#FLUX: --urgency=16
 
 module load gcc  conda2/4.2.13 bedtools gatk python/3.7.4 R/4.0.1
 module load perl/5.30.0

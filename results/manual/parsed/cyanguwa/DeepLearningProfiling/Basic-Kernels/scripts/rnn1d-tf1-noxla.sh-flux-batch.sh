@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-signal-7462
+#FLUX: --job-name=fuzzy-soup-7718
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROFILER='cupy'
 export enable_xla='noxla'

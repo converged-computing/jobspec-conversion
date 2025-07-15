@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-spoon-8208
+#FLUX: --job-name=spicy-salad-3249
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INPUT_DATA='/exports/reum/tdmaarseveen/RA_Clustering/new_data/1_raw/Clustering_Gewrichtspop_with_BSE.csv'
 EXPORT_DATA='/exports/reum/tdmaarseveen/RA_Clustering/new_data/7_final/DAS_patients2.csv'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-onion-5561
+#FLUX: --job-name=conspicuous-arm-1587
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_NUM_THREADS='32'

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cupcake-6038
+#FLUX: --job-name=strawberry-nalgas-0963
 #FLUX: -N=4
 #FLUX: -c=7
 #FLUX: --exclusive
 #FLUX: --queue=gpu_k80
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUSERBASE='$HOME/ssd/pao_jpeg_bis/classification_part'
 export EXPERIMENTS_OUTPUT_DIRECTORY='/dlocal/run/$SLURM_JOB_ID'

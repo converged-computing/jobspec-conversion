@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-destiny-4001
+#FLUX: --job-name=adorable-sundae-8102
 #FLUX: --queue=gpu
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$(pwd)'
 

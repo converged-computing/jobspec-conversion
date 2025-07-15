@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="run1"
+#FLUX: --job-name=run1
 #FLUX: --queue=small-gpu
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1'
 

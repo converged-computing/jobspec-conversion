@@ -3,7 +3,7 @@
 #FLUX: -c=64
 #FLUX: --exclusive
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 OBSID=${1}
 echo "Starting up, field is " ${OBSID}

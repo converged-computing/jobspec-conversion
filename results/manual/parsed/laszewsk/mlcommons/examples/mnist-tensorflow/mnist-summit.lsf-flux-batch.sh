@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leg-1458
-#FLUX: --priority=16
+#FLUX: --job-name=angry-truffle-1546
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/laszewsk/mlcommons/examples/mnist-tensorflow/mnist-summit.lsf

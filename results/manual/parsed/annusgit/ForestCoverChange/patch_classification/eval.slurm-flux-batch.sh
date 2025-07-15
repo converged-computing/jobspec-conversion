@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NN-FINN
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/latest
 module load nvidia/7.5

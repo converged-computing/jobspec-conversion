@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-fudge-4209
+#FLUX: --job-name=evasive-citrus-9994
 #FLUX: -n=13
 #FLUX: -c=4
 #FLUX: --queue=cpu
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Gurobi
 module load Julia

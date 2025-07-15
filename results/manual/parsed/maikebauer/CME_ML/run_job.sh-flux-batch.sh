@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-cupcake-1382
+#FLUX: --job-name=eccentric-pot-1625
 #FLUX: --queue=zen2_0256_a40x2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTORCH_ENABLE_MPS_FALLBACK='1'
 

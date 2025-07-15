@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=3DGAN
 #FLUX: -N=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nvidia/cuda/11.0
 . /apps/local/conda_init.sh 

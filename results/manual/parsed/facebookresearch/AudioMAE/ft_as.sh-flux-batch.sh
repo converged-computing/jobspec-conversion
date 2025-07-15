@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=learnlab
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ -z "$1" ]
 then

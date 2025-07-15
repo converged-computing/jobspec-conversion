@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bike-1993
+#FLUX: --job-name=spicy-earthworm-8550
 #FLUX: --queue=power_std
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate pytorch

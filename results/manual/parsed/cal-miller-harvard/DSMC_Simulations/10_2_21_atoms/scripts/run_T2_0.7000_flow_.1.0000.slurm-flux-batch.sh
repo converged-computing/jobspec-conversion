@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-earthworm-9287
-#FLUX: --priority=16
+#FLUX: --job-name=arid-rabbit-0819
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

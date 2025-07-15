@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-mango-1752
+#FLUX: --job-name=angry-despacito-2090
 #FLUX: -n=20
 #FLUX: --exclusive
 #FLUX: --queue=intel
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SCRIPT RUN_PGD EN COURS"
 template=$1

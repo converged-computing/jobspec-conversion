@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=stream_benchmark
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sudo apt update
 sudo apt install -y gcc gfortran make libopenblas-dev

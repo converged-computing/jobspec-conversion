@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-soup-9750
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-omelette-9726
+#FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/apps/R_4.0.2'
 

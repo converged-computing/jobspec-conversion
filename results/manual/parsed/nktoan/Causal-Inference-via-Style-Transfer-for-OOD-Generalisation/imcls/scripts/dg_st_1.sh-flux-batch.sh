@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hippo-0932
+#FLUX: --job-name=fugly-peanut-6801
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda3
 source activate dassl

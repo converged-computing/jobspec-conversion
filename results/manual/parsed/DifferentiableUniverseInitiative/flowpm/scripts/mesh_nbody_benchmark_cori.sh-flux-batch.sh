@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cinnamonbun-0233
+#FLUX: --job-name=chunky-noodle-4086
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

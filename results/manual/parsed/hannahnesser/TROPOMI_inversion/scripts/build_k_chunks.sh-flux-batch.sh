@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pedo-8878
-#FLUX: --priority=16
+#FLUX: --job-name=red-banana-6163
+#FLUX: --urgency=16
 
 CHUNK="${SLURM_ARRAY_TASK_ID}"
 DATA_DIR=${6}

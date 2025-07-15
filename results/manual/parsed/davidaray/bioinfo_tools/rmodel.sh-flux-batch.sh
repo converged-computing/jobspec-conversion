@@ -2,7 +2,7 @@
 #FLUX: --job-name=rmodel_Ssci
 #FLUX: -n=36
 #FLUX: --queue=nocona
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . ~/conda/etc/profile.d/conda.sh
 conda activate

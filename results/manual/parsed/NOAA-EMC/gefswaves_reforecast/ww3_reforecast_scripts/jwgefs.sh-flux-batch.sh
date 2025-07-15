@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-cattywampus-2905
+#FLUX: --job-name=blue-fork-0821
 #FLUX: -N=10
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ulimit -s unlimited
 ulimit -c 0

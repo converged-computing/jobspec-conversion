@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-despacito-9243
+#FLUX: --job-name=buttery-leg-6052
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_EVALUATE_OFFLINE='1'
 export HF_DATASETS_OFFLINE='1'

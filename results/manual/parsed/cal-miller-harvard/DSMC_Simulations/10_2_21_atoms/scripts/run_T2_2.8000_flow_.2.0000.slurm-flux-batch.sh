@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-leader-3558
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-earthworm-2731
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

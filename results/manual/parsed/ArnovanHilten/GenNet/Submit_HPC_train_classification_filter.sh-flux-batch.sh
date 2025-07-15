@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Regr_GenNet
 #FLUX: -n=15
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load Python/3.7.4-GCCcore-8.3.0

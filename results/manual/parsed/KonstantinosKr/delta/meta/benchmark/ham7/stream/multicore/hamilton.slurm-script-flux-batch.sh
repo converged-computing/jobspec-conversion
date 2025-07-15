@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="ExaHyPE-EulerFlow"
+#FLUX: --job-name=ExaHyPE-EulerFlow
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TBB_SHLIB='-L/ddn/apps/Cluster-Apps/intel/xe_2017.2/tbb/lib/intel64/gcc4.7 -ltbb'
 export I_MPI_FABRICS='shm:dapl'

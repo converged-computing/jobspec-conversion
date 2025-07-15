@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-hippo-8724
-#FLUX: --priority=16
+#FLUX: --job-name=astute-train-7984
+#FLUX: --urgency=16
 
 echo "Starting job $SLURM_JOB_ID"
 cat job.slurm

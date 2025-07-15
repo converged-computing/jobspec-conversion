@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-parrot-3725
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-underoos-7276
+#FLUX: --urgency=16
 
 export NCCL_NSOCKS_PERTHREAD='4'
 export NCCL_SOCKET_NTHREADS='2'

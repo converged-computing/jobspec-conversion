@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=hy34_build_modules
 #FLUX: --queue=V100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $CUDA_VISIBLE_DEVICES
 source /mnt/home/v_youhaoran/anaconda3/etc/profile.d/conda.sh

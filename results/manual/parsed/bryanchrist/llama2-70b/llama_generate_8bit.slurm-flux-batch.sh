@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-platanos-6434
+#FLUX: --job-name=loopy-avocado-7737
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

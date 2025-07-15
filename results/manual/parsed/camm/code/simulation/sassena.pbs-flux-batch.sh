@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-peanut-0977
-#FLUX: --priority=16
+#FLUX: --job-name=tart-peas-5606
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/camm/code/simulation/sassena.pbs

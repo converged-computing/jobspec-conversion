@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-earthworm-2030
+#FLUX: --job-name=crusty-lamp-0498
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $HOME/CNP_analysis/config.sh
 unset PYTHONPATH

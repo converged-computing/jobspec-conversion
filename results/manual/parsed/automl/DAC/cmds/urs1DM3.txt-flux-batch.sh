@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hobbit-4856
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-nunchucks-9940
+#FLUX: --urgency=16
 
 source activate dac
 experi="1D3M"

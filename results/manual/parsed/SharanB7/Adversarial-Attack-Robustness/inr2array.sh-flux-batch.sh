@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-earthworm-3412
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-butter-5396
+#FLUX: --urgency=16
 
 module load mamba/latest
 source activate inr2array

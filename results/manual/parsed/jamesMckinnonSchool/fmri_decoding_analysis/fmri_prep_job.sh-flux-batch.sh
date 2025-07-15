@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-punk-0100
+#FLUX: --job-name=evasive-latke-2445
 #FLUX: -c=4
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export APPTAINERENV_FS_LICENSE='$my_licence_fs'
 

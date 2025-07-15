@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cat-2650
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-fudge-0679
+#FLUX: -n=16
+#FLUX: -t=64800
+#FLUX: --urgency=16
 
 module load gatk
 module load picard

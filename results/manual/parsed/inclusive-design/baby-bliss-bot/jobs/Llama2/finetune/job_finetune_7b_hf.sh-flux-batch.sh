@@ -2,7 +2,7 @@
 #FLUX: --job-name=llama2-finetune-7b-hf
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pip install --upgrade pip
 module load python/3.11.5

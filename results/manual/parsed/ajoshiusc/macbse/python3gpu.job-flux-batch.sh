@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-poo-5670
+#FLUX: --job-name=crusty-animal-2696
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 cd /scratch1/ajoshi/projects/macbse

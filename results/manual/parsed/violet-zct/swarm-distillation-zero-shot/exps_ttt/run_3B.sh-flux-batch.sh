@@ -2,7 +2,7 @@
 #FLUX: --job-name=xsum.lora.init.4.comb
 #FLUX: -c=5
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='pretrain_models/huggingface'
 export HF_DATASETS_CACHE='pretrain_models/huggingface'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=jb
 #FLUX: --queue=gpushort
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NEPTUNE_PROJECT='k4black/jb-internal-representations'
 export TOKENIZERS_PARALLELISM='false'

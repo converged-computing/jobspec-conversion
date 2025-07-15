@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-squidward-3662
+#FLUX: --job-name=boopy-sundae-0807
 #FLUX: -n=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load subread
 BAMDIR=/gpfs/group/pipkin/hdiao/Exp337/1_bowtie2

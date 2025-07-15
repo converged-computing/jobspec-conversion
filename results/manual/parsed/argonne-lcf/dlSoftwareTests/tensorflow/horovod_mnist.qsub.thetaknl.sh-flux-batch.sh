@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lemon-8618
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-signal-1409
+#FLUX: --urgency=16
 

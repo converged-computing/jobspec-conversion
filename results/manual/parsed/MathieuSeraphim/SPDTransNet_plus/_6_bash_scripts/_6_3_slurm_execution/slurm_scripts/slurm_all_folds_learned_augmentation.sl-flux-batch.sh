@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-avocado-2602
+#FLUX: --job-name=loopy-lamp-6558
 #FLUX: -c=8
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 fold=$((${SLURM_ARRAY_TASK_ID}-100))
 module purge

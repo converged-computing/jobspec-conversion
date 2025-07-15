@@ -2,7 +2,7 @@
 #FLUX: --job-name=clustergenomes
 #FLUX: --queue=standard
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:"$PWD'
 

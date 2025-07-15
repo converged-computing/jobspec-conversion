@@ -2,7 +2,7 @@
 #FLUX: --job-name=Medaka
 #FLUX: -c=64
 #FLUX: --queue=<HPC_partition>
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

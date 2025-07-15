@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-noodle-3712
+#FLUX: --job-name=gassy-mango-0228
 #FLUX: -N=4
 #FLUX: --queue=booster
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

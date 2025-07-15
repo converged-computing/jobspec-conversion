@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-cupcake-8424
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-squidward-8346
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/radix-io/io-sleuthing/examples/noncontig/polaris/ior-noncontig-collective.sh

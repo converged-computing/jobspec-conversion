@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=inferelator
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RUNDIR='${SCRATCH}/inferelator/run-${SLURM_JOB_ID}/'
 export DATADIR='${SCRATCH}/inferelator/data'

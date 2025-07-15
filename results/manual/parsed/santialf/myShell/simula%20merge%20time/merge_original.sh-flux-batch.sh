@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-squidward-9928
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-mango-5449
+#FLUX: --urgency=16
 
 nvidia-smi
 nvcc --version

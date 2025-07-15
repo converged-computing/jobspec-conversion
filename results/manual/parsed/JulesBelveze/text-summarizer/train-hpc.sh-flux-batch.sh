@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-onion-1265
-#FLUX: --priority=16
+#FLUX: --job-name=blue-lamp-3691
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JulesBelveze/text-summarizer/train-hpc.sh

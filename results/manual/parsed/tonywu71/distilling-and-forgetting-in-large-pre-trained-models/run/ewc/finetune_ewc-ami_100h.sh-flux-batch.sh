@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-underoos-2958
+#FLUX: --job-name=milky-bits-9658
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

@@ -4,7 +4,7 @@
 #FLUX: -n=2
 #FLUX: --queue=cpu-compute-spot
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 cmd="pip install --upgrade git+https://github.com/pytorch/ignite.git && python check_idist.py --backend=gloo"

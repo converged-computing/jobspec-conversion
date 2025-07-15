@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-cinnamonbun-7255
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-lemur-6631
+#FLUX: --urgency=16
 
 module load anaconda3/2020.11
 module load cuda/11.2.2

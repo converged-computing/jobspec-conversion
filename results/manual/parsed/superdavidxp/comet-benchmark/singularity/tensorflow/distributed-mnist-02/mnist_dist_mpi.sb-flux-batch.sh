@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="tensorflow-mpi-gpu"
+#FLUX: --job-name=tensorflow-mpi-gpu
 #FLUX: -N=3
 #FLUX: --queue=gpu
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PS_HOSTS='$(singularity exec /home/dmu/SCRATCH/SINGULARITY/images/tensorflow-v1.11-gpu-20181116-mpich.simg python3 /home/dmu/SCRATCH/SINGULARITY/Distributed-TensorFlow-Using-MPI/cluster_specs.py --hosts_file=host --num_ps_hosts=1 | cut -f1 -d ' ')'
 export WORKER_HOSTS='$(singularity exec /home/dmu/SCRATCH/SINGULARITY/images/tensorflow-v1.11-gpu-20181116-mpich.simg python3 /home/dmu/SCRATCH/SINGULARITY/Distributed-TensorFlow-Using-MPI/cluster_specs.py --hosts_file=host --num_ps_hosts=1 | cut -f2 -d ' ')'

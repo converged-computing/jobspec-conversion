@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bits-7381
+#FLUX: --job-name=psycho-ricecake-8872
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MONORUN='mpirun -prepend-rank -np 1 '
 export MPIRUN='mpirun -prepend-rank -np 4 '

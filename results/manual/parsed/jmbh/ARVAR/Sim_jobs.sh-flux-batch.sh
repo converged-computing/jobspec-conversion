@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-noodle-9414
-#FLUX: --priority=16
+#FLUX: --job-name=red-fudge-5231
+#FLUX: --urgency=16
 
 module load 2019 Anaconda3
 source activate my_root

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-destiny-1227
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-peas-9934
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

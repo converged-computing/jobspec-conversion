@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-butter-0834
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-hippo-8104
+#FLUX: --urgency=16
 
 DATADIR=/lustre/orion/scratch/zw241/csc143/VisPerfData/resample2
 RUNDIR=/lustre/orion/scratch/zw241/csc143/VisPerfExpAssignStrategeis_Astro_${1}

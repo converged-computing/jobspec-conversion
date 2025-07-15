@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-chip-2691
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-despacito-3004
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 rm -rf /home/willc97/dask-worker-space/*

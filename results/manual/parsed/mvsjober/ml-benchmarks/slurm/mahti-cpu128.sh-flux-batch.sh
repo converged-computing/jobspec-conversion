@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-peanut-butter-3806
+#FLUX: --job-name=psycho-toaster-4808
 #FLUX: -c=128
 #FLUX: --queue=test
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='128'
 export MKL_NUM_THREADS='128'

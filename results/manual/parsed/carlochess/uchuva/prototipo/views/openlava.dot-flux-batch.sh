@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-kerfuffle-8131
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-parrot-0869
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/carlochess/uchuva/prototipo/views/openlava.dot

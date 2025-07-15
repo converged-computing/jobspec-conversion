@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-banana-2135
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-pedo-7276
+#FLUX: --urgency=16
 
 export UWENV='/software/projects/pawsey0407/setonix/venv/py310/'
 export PATH='${UWENV}/bin/:$PATH'

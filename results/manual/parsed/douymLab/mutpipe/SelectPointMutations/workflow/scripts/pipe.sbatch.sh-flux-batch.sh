@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-destiny-6210
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-knife-1488
+#FLUX: --urgency=16
 
 import socket
 set +u

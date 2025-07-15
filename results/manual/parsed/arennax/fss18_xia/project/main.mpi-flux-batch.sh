@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-destiny-1129
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-pastry-8743
+#FLUX: --urgency=16
 
 cd /home/txia4/magic101
 source addroot.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-parsnip-7485
-#FLUX: --priority=16
+#FLUX: --job-name=hello-staircase-5801
+#FLUX: --urgency=16
 
 set +x
 cd  ${PROJECT}/${USER}/mlstamps_oltr/

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-platanos-8812
+#FLUX: --job-name=frigid-cherry-2053
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load octotiger

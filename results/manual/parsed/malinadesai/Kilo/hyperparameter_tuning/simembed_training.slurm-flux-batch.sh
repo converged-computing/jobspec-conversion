@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-leader-0644
+#FLUX: --job-name=purple-taco-8050
 #FLUX: -c=10
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/software.ppc64le/spack/v0.16.2/spack/opt/spack/linux-rhel8-power9le/gcc-8.3.1/anaconda3-2020.02-2ks5tchtak3kzzbryjloiqhusujnh67c/etc/profile.d/conda.sh
 conda activate /home/mmdesai/.conda/envs/my_torch

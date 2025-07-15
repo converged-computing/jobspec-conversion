@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-squidward-0973
+#FLUX: --job-name=tart-soup-4890
 #FLUX: --queue=workq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow
 module load java

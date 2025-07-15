@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-plant-8645
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-muffin-4214
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LadaOndris/marching-cubes-parallelization/vtune.pbs

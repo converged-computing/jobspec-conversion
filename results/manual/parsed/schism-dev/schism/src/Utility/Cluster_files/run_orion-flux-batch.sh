@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-omelette-6213
+#FLUX: --job-name=delicious-buttface-1067
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 ulimit -s unlimited 

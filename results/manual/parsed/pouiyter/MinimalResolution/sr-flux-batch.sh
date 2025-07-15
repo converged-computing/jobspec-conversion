@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-bike-0197
+#FLUX: --job-name=faux-peanut-7924
 #FLUX: -c=127
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ./mr_st 35 36
 ./BPtab 35

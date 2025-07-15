@@ -3,7 +3,7 @@
 #FLUX: -N=16
 #FLUX: --exclusive
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SMARTSIM_LOG_LEVEL='developer'
 export OF_PATH='/path/to/OpenFOAM-5.x'

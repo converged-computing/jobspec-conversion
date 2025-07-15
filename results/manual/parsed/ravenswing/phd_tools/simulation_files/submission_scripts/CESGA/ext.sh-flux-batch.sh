@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-sundae-9728
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-noodle-3292
+#FLUX: --urgency=16
 
 export GMX='gmx_mpi'
 

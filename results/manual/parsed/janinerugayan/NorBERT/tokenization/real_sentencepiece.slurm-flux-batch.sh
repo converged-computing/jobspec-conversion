@@ -2,7 +2,7 @@
 #FLUX: --job-name=sentencepiece
 #FLUX: -n=16
 #FLUX: -t=7800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ${HOME}/.bashrc
 set -o errexit  # Recommended for easier debugging

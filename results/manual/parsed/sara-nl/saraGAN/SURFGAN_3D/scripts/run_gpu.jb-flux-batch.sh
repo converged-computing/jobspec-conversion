@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-blackbean-7280
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-toaster-8746
+#FLUX: --urgency=16
 
 module use /home/druhe/environment-modules-lisa
 module load 2020

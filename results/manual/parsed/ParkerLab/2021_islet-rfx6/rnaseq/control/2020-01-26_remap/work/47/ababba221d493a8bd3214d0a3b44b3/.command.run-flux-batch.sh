@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-fork-8734
-#FLUX: --priority=16
+#FLUX: --job-name=astute-milkshake-0764
+#FLUX: --urgency=16
 
 set -e
 set -u

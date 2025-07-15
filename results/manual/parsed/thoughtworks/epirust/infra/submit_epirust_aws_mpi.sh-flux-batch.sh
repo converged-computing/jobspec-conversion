@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-leopard-9432
+#FLUX: --job-name=dirty-cattywampus-8698
 #FLUX: -N=15
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [[ "${AWS_BATCH_JOB_NODE_INDEX}" -eq  "${AWS_BATCH_JOB_MAIN_NODE_INDEX}" ]]; then
     echo "Hello I'm the main node $HOSTNAME! I run the mpi job!"

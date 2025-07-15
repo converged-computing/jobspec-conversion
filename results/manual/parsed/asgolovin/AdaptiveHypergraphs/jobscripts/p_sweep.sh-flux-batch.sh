@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-pancake-5144
+#FLUX: --job-name=lovely-puppy-1883
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module load julia/1.8.2

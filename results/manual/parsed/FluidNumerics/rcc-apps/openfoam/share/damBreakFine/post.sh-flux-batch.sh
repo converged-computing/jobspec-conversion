@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-peanut-5708
-#FLUX: --priority=16
+#FLUX: --job-name=arid-lemon-3442
+#FLUX: --urgency=16
 
 reconstructPar
 touch dambreak.foam

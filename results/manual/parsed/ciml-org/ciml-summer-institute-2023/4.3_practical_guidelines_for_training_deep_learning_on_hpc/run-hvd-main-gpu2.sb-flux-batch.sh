@@ -4,7 +4,7 @@
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_btl='self,vader'
 export UCX_TLS='shm,rc,ud,dc'

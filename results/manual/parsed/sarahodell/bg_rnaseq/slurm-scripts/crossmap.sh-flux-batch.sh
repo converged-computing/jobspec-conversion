@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-muffin-5313
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-noodle-1638
+#FLUX: --urgency=16
 
 chr=$SLURM_ARRAY_TASK_ID
 module load bcftools

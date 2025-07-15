@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-latke-1775
+#FLUX: --job-name=salted-onion-4912
 #FLUX: -c=10
 #FLUX: --queue=kipac
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/setup.sh
 conda activate wfsim

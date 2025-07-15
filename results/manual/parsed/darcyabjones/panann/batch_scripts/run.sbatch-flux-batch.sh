@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-dog-4158
+#FLUX: --job-name=delicious-earthworm-3053
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity/3.3.0
 module load nextflow/19.01.0.5050-bin

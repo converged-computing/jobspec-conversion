@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 echo "Slurm nodes: $SLURM_JOB_NODELIST"

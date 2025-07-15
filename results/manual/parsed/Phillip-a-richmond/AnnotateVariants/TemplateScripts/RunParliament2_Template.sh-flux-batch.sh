@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-rabbit-4324
+#FLUX: --job-name=rainbow-rabbit-3846
 #FLUX: -c=20
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 ANNOTATEVARIANTS_INSTALL=annotatevariants_install

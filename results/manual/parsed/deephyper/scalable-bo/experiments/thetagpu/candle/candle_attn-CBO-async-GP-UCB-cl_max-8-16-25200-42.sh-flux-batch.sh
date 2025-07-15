@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=angry-onion-9303
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-pedo-0811
+#FLUX: --urgency=16
 

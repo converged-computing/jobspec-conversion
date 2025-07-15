@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=test_AMRtcp
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load Java/13.0.2
 NF_DIR="/scicore/home/egliadr/leeman0000/tools"

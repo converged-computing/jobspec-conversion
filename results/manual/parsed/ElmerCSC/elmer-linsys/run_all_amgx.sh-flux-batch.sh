@@ -2,7 +2,7 @@
 #FLUX: --job-name=amgx_all
 #FLUX: --queue=gpumedium
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='32'
 

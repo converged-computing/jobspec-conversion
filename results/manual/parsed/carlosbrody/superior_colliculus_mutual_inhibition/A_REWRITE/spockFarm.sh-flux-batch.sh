@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-arm-2890
+#FLUX: --job-name=grated-itch-4053
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load julia/1.2.0
 echo "Slurm Job ID, unique: $SLURM_JOB_ID"

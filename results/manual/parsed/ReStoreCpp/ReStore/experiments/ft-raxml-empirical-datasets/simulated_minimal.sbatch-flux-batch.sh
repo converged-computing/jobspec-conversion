@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leg-9176
+#FLUX: --job-name=gloopy-plant-2036
 #FLUX: -N=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMIX_MCA_gds='hash'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="pegasus_RC"
+#FLUX: --job-name=pegasus_RC
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 time=`date +%d-%m-%Y-%H-%M` 
 beginTime=`date +%s`

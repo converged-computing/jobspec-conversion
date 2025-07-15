@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-bicycle-4696
-#FLUX: --priority=16
+#FLUX: --job-name=placid-salad-0390
+#FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/slurmpmi/libpmi.so'
 export I_MPI_FABRICS='ofi'

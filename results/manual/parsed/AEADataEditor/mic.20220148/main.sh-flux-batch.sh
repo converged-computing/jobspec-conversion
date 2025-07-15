@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=a3757
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_PROJECT='julia16'
 

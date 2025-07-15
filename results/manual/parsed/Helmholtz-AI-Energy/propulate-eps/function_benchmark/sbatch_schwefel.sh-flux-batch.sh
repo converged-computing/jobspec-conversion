@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=cpuonly
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FNAME='schwefel'
 export FRAMEWORK='optuna'

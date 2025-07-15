@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-milkshake-4127
+#FLUX: --job-name=adorable-motorcycle-8855
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=g16xlargeefa
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OSU_VERSION='6.1'
 

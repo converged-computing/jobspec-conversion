@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hope-0390
+#FLUX: --job-name=evasive-poodle-6083
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMI_MAX_KVS_ENTRIES='128'
 export LCI_ENABLE_PRG_NET_ENDPOINT='0'

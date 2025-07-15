@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-citrus-4309
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-avocado-3762
+#FLUX: --urgency=16
 
 export DEVITO_LANGUAGE='openmp'
 export DEVITO_LOGGING='DEBUG'

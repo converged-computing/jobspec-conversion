@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="S2_TEannot"
+#FLUX: --job-name=S2_TEannot
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load repet/2.5
 if  [ ! -n "$ProjectName" ] || [ ! -n "$ALIGNERS_AVAIL" ]; then

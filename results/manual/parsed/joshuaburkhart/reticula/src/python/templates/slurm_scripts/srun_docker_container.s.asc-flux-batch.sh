@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-milkshake-3893
-#FLUX: --priority=16
+#FLUX: --job-name=blue-sundae-2555
+#FLUX: --urgency=16
 
 srun mkdir -p ${scratchDataDir} ${scratchContDir}
 srun cp ${lusRelDatPath} ${scratchDataDir}

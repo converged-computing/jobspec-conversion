@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-animal-9204
+#FLUX: --job-name=gassy-bits-6544
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load apps/anaconda3/5.2.0
 module load mpi/openmpi/1.10.7/gcc-5.5.0

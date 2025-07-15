@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-malarkey-9512
+#FLUX: --job-name=fugly-taco-0279
 #FLUX: --queue=gpu
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/8.0.61
 module load cudnn/8.0-v6.0

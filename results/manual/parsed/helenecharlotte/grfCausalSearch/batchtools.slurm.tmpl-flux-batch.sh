@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=<%= job.name %>
+#FLUX: --job-name=<%=
 #FLUX: -c=24
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DEBUGME='<%= Sys.getenv("DEBUGME") %>'
 

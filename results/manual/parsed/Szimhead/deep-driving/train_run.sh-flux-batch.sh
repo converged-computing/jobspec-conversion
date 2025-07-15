@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-itch-2049
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-bits-1956
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Szimhead/deep-driving/train_run.sh

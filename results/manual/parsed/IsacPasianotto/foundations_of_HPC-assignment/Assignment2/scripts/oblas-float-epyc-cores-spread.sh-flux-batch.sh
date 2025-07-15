@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="ex2-AMD"
+#FLUX: --job-name=ex2-AMD
 #FLUX: -c=64
 #FLUX: --exclusive
 #FLUX: --queue=EPYC
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/u/dssc/ipasia00/myblis/lib:$LD_LIBRARY_PATH'
 export OMP_PLACES='cores'

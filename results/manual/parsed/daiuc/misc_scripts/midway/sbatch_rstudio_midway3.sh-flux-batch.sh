@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rstudio
 #FLUX: -t=129540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_USER='chaodai'
 export SINGULARITYENV_RSTUDIO_WHICH_R='${R_BIN}'

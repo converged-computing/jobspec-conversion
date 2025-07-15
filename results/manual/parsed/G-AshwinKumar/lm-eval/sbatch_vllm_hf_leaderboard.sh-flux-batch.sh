@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-nunchucks-3903
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-egg-9264
+#FLUX: --urgency=16
 
 MODEL_NAME="CausalLM-14B"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

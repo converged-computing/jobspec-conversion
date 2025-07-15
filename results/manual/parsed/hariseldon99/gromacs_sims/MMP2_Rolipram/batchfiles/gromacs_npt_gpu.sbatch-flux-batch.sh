@@ -4,7 +4,7 @@
 #FLUX: -c=2
 #FLUX: --queue=GPU
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NVT='npt'
 export OMP_NUM_THREADS='$SLURM_NTASKS'

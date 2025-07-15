@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-buttface-7604
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-pedo-6214
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UoB-HPC/benchmarks/gromacs/bdw22-swan/scale.job

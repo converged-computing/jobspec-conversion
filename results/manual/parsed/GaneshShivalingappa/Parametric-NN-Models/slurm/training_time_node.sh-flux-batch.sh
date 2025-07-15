@@ -2,7 +2,7 @@
 #FLUX: --job-name=1D
 #FLUX: --queue=gpu_irmb
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun singularity run \
  --cleanenv \

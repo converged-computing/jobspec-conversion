@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=jet_m10_sliced
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export num_runs='10'
 export OMP_PROC_BIND='false '

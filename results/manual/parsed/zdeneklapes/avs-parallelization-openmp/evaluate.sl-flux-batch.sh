@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-car-0260
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-onion-5368
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='close '
 export OMP_PLACES='cores'

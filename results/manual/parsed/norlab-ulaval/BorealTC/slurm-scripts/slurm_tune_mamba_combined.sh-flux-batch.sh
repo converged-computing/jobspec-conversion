@@ -2,7 +2,7 @@
 #FLUX: --job-name=TuneMambaCombined
 #FLUX: -c=16
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/Vulpi2021-terrain-deep-learning
 docker build -t terrain-gpu -f DockerfileGPU .

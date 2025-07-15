@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="mpi_scale"
+#FLUX: --job-name=mpi_scale
 #FLUX: -N=3
 #FLUX: --exclusive
 #FLUX: --queue=THIN
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='close'

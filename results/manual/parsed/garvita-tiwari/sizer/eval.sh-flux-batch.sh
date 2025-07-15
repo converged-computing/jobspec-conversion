@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-caramel-7846
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-squidward-8684
+#FLUX: --urgency=16
 
 echo "canonical pose data for whole body"
 cd /BS/garvita/work/code/sizer

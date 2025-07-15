@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-dog-9129
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-plant-0203
+#FLUX: --urgency=16
 
 export NCCL_PROTO='simple'
 export NCCL_DEBUG='INFO'

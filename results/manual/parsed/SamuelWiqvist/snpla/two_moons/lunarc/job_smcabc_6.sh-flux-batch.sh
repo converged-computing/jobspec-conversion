@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-motorcycle-3201
+#FLUX: --job-name=phat-truffle-3802
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cattywampus-6235
+#FLUX: --job-name=gloopy-lemur-1964
 #FLUX: -N=2
 #FLUX: -n=3
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORK_DIR='/project/cscale_test/Public/openeo/openeo-geotrellis-kubernetes/hpc'
 export MKL_NUM_THREADS='1'

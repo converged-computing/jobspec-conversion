@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-arm-8411
+#FLUX: --job-name=lovable-lettuce-5391
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source params.sh
 HOME2=/nobackup/users/$(whoami)

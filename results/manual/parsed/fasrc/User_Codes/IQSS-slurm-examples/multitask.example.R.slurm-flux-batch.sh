@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-nunchucks-5188
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-pedo-1591
+#FLUX: --urgency=16
 
 module purge > /dev/null 2>&1
 module load gcc/7.1.0-fasrc01 R/3.5.0-fasrc01

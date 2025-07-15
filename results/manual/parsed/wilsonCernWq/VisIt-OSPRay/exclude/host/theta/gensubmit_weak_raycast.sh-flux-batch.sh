@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lemon-9295
-#FLUX: --priority=16
+#FLUX: --job-name=astute-onion-6975
+#FLUX: --urgency=16
 

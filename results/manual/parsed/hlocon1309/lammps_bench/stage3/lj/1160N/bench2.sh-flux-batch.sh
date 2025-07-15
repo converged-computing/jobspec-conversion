@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-bike-7070
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-animal-9001
+#FLUX: --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

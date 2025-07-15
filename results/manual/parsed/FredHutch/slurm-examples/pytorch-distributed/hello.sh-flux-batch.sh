@@ -4,7 +4,7 @@
 #FLUX: -n=4
 #FLUX: -c=4
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOGLEVEL='INFO'
 

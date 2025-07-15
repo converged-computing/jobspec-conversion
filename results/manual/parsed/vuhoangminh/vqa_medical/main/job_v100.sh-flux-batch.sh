@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-butter-9390
+#FLUX: --job-name=outstanding-ricecake-6562
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='${PWD}:$PYTHONPATH'
 export KERAS_BACKEND='tensorflow'

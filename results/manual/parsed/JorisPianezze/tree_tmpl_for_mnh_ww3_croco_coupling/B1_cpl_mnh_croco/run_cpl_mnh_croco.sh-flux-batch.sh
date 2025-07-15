@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cattywampus-1648
+#FLUX: --job-name=dinosaur-platanos-4955
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export dir_exe_croco='../../models/croco-v1.1/exe_IROISE_1core_CPLOA'
 

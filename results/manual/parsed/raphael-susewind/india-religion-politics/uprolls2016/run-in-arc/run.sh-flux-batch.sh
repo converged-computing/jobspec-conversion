@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-plant-5260
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-butter-0575
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/raphael-susewind/india-religion-politics/uprolls2016/run-in-arc/run.sh

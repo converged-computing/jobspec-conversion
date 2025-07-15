@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-nunchucks-6067
+#FLUX: --job-name=red-kitty-6682
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.3.0

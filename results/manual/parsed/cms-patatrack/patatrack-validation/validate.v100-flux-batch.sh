@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-signal-3469
-#FLUX: --queue=gpu --nodes=1 --tasks-per-node=1 --cpus-per-task=20 --gres=gpu:2 --constraint=v100 -o validation.%j.out -e validation.%j.err
-#FLUX: --priority=16
+#FLUX: --job-name=faux-kerfuffle-5255
+#FLUX: -c=20
+#FLUX: --queue=gpu
+#FLUX: --urgency=16
 
 module purge
 module load gcc/8.3.0

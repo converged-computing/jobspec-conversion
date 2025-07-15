@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lettuce-1398
+#FLUX: --job-name=bricky-staircase-1737
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=c6ipg
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LAMMPS_VERSION='git'
 export OMP_NUM_THREADS='1'

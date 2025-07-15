@@ -5,7 +5,7 @@
 #FLUX: -c=16
 #FLUX: --queue=disc
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LSCRATCH='/lscratch/15937969'
 export LOGLEVEL='INFO'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-taco-8545
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-pot-4033
+#FLUX: --urgency=16
 
 set -e
 set -x

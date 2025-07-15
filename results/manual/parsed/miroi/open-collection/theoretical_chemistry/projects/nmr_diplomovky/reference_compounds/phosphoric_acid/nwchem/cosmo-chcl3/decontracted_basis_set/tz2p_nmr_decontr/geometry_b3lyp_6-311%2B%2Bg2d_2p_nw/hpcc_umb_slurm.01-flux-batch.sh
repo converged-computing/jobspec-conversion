@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hippo-9690
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-animal-2312
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/lib:$LD_LIBRARY_PATH'
 export PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/bin:$PATH'

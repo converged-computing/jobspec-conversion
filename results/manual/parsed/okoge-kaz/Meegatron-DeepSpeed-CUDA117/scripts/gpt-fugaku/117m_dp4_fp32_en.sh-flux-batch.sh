@@ -2,7 +2,7 @@
 #FLUX: --job-name=gpt
 #FLUX: -n=4
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 module load cuda/11.7

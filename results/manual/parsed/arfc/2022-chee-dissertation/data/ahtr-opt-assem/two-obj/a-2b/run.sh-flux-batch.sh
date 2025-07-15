@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blank-nalgas-9158
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-latke-2287
+#FLUX: --urgency=16
 

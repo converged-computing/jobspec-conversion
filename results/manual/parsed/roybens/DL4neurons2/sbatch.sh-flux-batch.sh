@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-banana-3013
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-chip-6750
+#FLUX: --urgency=16
 
 cd /global/cscratch1/sd/vbaratha/izhi
 MODELNAME=hh_ball_stick_9param

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-caramel-7079
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-malarkey-1097
+#FLUX: --urgency=16
 
 TENSORFLOW=$1
 echo "TENSORFLOW: "$TENSORFLOW

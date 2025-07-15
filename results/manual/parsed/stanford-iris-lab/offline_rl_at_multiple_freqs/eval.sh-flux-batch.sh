@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="eval"
+#FLUX: --job-name=eval
 #FLUX: --queue=iris-hi
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$(pwd)'
 export MJLIB_PATH='/sailhome/kayburns/anaconda3/envs/py3.7_torch1.8/lib/python3.7/site-packages/mujoco_py/binaries/linux/mujoco210/bin/libmujoco210.so'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="FEP_test8"
+#FLUX: --job-name=FEP_test8
 #FLUX: --queue=mf_nes2.8
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 lambda=$SLURM_ARRAY_TASK_ID
 printf "Start Time:$( date )\n"

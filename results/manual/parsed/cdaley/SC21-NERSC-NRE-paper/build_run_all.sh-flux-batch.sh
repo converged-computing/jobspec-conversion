@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-fork-3789
-#FLUX: --priority=16
+#FLUX: --job-name=red-platanos-7940
+#FLUX: --urgency=16
 
 echo -e "\n\nBuilding and running Babelstream..."
 ./BabelStream_build_script.sh

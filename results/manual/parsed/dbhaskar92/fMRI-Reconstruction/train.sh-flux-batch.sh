@@ -2,7 +2,7 @@
 #FLUX: --job-name=fmri-ode
 #FLUX: --queue=gpu
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload Python 
 module load miniconda 

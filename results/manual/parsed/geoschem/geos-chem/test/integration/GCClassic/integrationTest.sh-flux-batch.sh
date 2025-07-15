@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-car-2449
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-cinnamonbun-7440
+#FLUX: --urgency=16
 
 this="$(basename ${0})"
 usage="Usage: ${this} -d root-dir -t compile|all [-e env-file] [-h] [-n] [-q]"

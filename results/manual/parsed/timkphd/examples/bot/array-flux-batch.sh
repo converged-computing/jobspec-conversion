@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="array_job"
+#FLUX: --job-name=array_job
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module purge

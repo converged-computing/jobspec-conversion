@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-malarkey-4610
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-pot-9472
+#FLUX: --urgency=16
 
 module load anaconda
 python -c "import bluemix;bluemix.process_bluehive()"

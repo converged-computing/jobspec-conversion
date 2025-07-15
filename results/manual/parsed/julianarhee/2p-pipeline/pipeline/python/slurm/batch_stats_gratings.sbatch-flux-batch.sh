@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lamp-9095
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-arm-6841
+#FLUX: --urgency=16
 
 module load centos6/0.0.1-fasrc01
 module load matlab/R2015b-fasrc01

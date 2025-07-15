@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="comp_hiclip"
+#FLUX: --job-name=comp_hiclip
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_WORK='/camp/lab/luscomben/scratch/chakraa2/projects/comp_hiclip'
 

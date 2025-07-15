@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-train-9738
+#FLUX: --job-name=goodbye-arm-8580
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ws=${TRAIN_HOME}
 SCRATCH=$ws

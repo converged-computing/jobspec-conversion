@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-frito-3188
+#FLUX: --job-name=quirky-noodle-1581
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='1'
 export CUDA_LAUNCH_BLOCKING='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leg-4774
+#FLUX: --job-name=chocolate-fudge-1280
 #FLUX: --queue=maxwell
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 setpkgs -a tensorflow_0.11.0rc0
 python fit-line.py

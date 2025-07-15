@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-peanut-butter-4085
+#FLUX: --job-name=placid-bicycle-8625
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python oks.py $@

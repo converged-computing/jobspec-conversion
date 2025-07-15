@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-buttface-4852
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-nalgas-4358
+#FLUX: --urgency=16
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

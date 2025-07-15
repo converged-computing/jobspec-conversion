@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cattywampus-7533
+#FLUX: --job-name=spicy-parrot-8230
 #FLUX: -N=2
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ASAN_OPTIONS='protect_shadow_gap=0:use_sigaltstack=0'
 export FI_HMEM_CUDA_USE_GDRCOPY='1'

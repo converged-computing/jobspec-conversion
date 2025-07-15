@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="multigpu_lbm"
+#FLUX: --job-name=multigpu_lbm
 #FLUX: -N=256
 #FLUX: -n=256
 #FLUX: -t=39600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NGPUs=256
 NEXPs=2

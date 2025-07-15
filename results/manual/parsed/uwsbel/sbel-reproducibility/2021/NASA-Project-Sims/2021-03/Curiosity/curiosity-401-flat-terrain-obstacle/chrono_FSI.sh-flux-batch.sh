@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lettuce-5416
+#FLUX: --job-name=expensive-general-8903
 #FLUX: -c=4
 #FLUX: --queue=sbel
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/9.2.0
 module load cmake/3.18.1

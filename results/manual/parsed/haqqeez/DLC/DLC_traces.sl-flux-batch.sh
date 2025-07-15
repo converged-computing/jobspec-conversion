@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=TASKNAME
 #FLUX: -t=890
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DLClight='True'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rerm_sma
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd 
 source env_vinet/bin/activate

@@ -2,7 +2,7 @@
 #FLUX: --job-name=2528
 #FLUX: -c=16
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ../venvs/hammer/bin/activate
 module load python/intel/3.8.6

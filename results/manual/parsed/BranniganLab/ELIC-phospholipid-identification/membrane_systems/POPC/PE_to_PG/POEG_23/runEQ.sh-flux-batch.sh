@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-eagle-8183
+#FLUX: --job-name=lovable-frito-7653
 #FLUX: --queue=cmain
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc cuda mvapich2/2.2

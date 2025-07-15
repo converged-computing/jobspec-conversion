@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=normal
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SLURM_NODELIST: "$SLURM_NODELIST
 echo "PWD :" $PWD

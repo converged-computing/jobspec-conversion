@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-punk-2395
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-eagle-0149
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SACEMA/reinfectionsBelinda/sbv/third_infections/l2_third_array_job.pbs.example

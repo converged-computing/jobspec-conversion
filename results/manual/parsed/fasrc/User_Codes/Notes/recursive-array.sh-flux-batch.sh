@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pot-5277
+#FLUX: --job-name=wobbly-bicycle-8772
 #FLUX: --queue=test
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 JOBLIMIT=$2
 if [ -z "$JOBLIMIT" ] || [ $# -lt 2 ]

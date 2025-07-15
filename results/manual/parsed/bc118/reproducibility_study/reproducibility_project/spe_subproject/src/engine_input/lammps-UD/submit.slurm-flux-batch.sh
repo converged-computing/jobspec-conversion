@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="rpd-uamethane"
+#FLUX: --job-name=rpd-uamethane
 #FLUX: -t=599
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VALET_PATH='$VALET_PATH:$WORKDIR/udsw/valet/etc'
 

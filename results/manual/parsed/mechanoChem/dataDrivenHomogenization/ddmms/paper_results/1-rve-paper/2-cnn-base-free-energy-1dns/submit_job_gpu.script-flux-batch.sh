@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-toaster-1935
-#FLUX: --priority=16
+#FLUX: --job-name=faux-pedo-9762
+#FLUX: --urgency=16
 
 export PYTHONPATH='PYTHONPATH:$HOME/python_projects/'
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=ewc_eval
 #FLUX: --queue=spgpu
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd GroundingDINO
 python setup.py develop

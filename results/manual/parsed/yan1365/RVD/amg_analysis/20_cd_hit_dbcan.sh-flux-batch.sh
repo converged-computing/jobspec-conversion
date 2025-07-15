@@ -2,7 +2,7 @@
 #FLUX: --job-name=cd_hit_%j
 #FLUX: -n=48
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 START=$SECONDS
 cd  /fs/scratch/PAS0439/Ming/results/dbcan_res/tree/

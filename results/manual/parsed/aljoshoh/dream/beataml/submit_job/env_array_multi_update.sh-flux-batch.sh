@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-chip-2461
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-itch-7713
+#FLUX: --urgency=16
 
 BASEDIR=$1
 TOTALTASKS=$2

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lettuce-1825
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-plant-0407
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='{OMP}'
 export OMP_PLACES='threads'

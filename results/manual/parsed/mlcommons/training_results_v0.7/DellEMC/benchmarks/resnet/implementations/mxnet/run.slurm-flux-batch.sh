@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=image_classification
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euxo pipefail
 : "${SYSTEM:?SYSTEM not set}"

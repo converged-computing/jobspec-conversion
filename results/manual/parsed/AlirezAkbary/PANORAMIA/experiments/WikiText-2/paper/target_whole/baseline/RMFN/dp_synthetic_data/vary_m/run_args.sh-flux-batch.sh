@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-toaster-8417
+#FLUX: --job-name=gloopy-leg-7321
 #FLUX: -t=30
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load StdEnv/2023 arrow/15.0.1 rust/1.76.0 python scipy-stack
 source ../../test-priv/test-priv-env/bin/activate

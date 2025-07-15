@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-bicycle-3390
+#FLUX: --job-name=butterscotch-nunchucks-1922
 #FLUX: --queue=sbel
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nvidia/cuda/11.3.1
 mkdir ./DEMO_OUTPUT/FSI_M113/M113_05/script

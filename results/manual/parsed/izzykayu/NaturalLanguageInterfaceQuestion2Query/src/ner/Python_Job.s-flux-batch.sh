@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Python_job
 #FLUX: -t=6000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load pytorch/python2.7/0.3.0_4

@@ -2,7 +2,7 @@
 #FLUX: --job-name=peierls
 #FLUX: --queue=cm3atou
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}
 module load intel/2022a

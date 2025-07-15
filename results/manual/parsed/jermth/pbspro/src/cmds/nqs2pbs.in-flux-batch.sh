@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-malarkey-0389
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-leader-1926
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jermth/pbspro/src/cmds/nqs2pbs.in

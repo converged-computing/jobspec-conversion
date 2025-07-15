@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_DATASETS_CACHE='/scratch/$USER/.cache/huggingface/datasets'
 

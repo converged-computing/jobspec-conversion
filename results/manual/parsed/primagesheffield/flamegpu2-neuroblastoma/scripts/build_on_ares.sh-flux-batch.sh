@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-leopard-7759
+#FLUX: --job-name=buttery-gato-4037
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load cmake/3.20.1-gcccore-10.3.0

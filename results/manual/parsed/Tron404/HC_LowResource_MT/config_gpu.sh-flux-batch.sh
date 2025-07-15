@@ -2,7 +2,7 @@
 #FLUX: --job-name=jupyter
 #FLUX: --queue=gpu
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load Python/3.10.8-GCCcore-12.2.0

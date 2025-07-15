@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-leg-6116
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-chip-2126
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

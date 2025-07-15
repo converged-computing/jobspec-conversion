@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MainName
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CC='gcc'
 export CXX='g++'

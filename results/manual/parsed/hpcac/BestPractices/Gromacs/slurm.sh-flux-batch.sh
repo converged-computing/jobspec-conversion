@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=thor
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load md/gromacs/2018-hpcx-2.1.0-intel-2018.1.163

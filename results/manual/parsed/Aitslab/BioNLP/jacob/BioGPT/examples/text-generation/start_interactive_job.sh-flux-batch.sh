@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bits-2071
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-kerfuffle-0184
+#FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 

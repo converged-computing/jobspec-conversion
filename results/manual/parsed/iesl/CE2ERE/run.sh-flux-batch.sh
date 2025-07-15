@@ -3,7 +3,7 @@
 #FLUX: -c=5
 #FLUX: --queue=2080ti-long
 #FLUX: -t=601200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/home/tianyiyang/git/CE2ERE/'
 

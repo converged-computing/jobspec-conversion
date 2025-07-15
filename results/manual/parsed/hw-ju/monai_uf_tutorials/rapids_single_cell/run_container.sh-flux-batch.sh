@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-arm-7390
+#FLUX: --job-name=spicy-avocado-2199
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 module load singularity

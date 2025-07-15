@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lamp-7419
+#FLUX: --job-name=grated-parrot-9605
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DMTCP_QUIET='2'
 

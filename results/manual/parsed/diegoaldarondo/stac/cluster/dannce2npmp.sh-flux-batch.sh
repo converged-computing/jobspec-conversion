@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=dannce2npmp
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 source ~/.bashrc

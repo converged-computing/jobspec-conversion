@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-itch-0217
+#FLUX: --job-name=stanky-fork-1470
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BATCHSIZE='64'
 export DO_PROFILING='false'  # true or false'

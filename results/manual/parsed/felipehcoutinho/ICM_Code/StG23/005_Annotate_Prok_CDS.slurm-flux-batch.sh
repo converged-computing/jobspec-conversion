@@ -2,7 +2,7 @@
 #FLUX: --job-name=StG23_AMG_Hunter_Prok
 #FLUX: -c=64
 #FLUX: -t=255600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cesga/system miniconda3/22.11.1-1
 conda activate /mnt/netapp1/Store_CSIC/home/csic/eyg/fhc/Conda_Envs/basic

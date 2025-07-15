@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-poo-3919
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-leg-8330
+#FLUX: --urgency=16
 
 export PYTHONPATH='$(pwd)'
 

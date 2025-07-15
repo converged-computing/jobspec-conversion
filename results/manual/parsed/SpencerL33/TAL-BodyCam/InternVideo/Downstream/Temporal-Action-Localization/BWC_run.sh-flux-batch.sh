@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=BWC
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load  StdEnv/2020  cuda cudnn
 module load gcc opencv

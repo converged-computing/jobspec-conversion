@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-muffin-5027
+#FLUX: --job-name=arid-leader-9429
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load singularity/3.3.0

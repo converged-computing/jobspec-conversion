@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-citrus-5432
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-toaster-9790
+#FLUX: --urgency=16
 
 module load gcc
 module load samtools

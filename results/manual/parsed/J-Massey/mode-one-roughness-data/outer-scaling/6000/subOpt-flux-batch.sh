@@ -4,7 +4,7 @@
 #FLUX: -n=256
 #FLUX: --queue=amd
 #FLUX: -t=216000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting calculation at $(date)"
 echo "---------------------------------------------------------------"

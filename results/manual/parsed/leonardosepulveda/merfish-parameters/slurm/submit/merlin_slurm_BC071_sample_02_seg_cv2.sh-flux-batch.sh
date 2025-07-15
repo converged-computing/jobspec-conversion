@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-platanos-4282
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-hobbit-8517
+#FLUX: --urgency=16
 
 date +'Starting at %R.'
 source centos7-modules.sh

@@ -2,7 +2,7 @@
 #FLUX: --job-name=infer_x
 #FLUX: -n=2
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$SOURCEDIR'
 

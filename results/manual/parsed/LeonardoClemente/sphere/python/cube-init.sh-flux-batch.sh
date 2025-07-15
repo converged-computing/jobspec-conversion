@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-nalgas-6745
-#FLUX: --priority=16
+#FLUX: --job-name=placid-sundae-5262
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/cube-init.sh

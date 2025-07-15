@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-omelette-7734
+#FLUX: --job-name=scruptious-buttface-0646
 #FLUX: -c=2
 #FLUX: -t=3596400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 N="$SLURM_ARRAY_TASK_ID"

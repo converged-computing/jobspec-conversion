@@ -5,7 +5,7 @@
 #FLUX: -c=24
 #FLUX: --queue=long
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_MODE='online'
 export XPSLURM='True'

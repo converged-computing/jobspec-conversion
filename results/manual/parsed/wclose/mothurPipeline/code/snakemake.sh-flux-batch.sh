@@ -2,7 +2,7 @@
 #FLUX: --job-name=clusterSnakemake
 #FLUX: --queue=standard
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [[ $SLURM_JOB_NODELIST ]] ; then
 	echo "Running on"

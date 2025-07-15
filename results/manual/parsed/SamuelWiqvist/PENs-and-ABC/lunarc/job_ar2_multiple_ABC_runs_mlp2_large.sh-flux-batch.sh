@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-butter-7226
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-hope-8597
+#FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

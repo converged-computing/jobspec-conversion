@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-bits-5543
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-squidward-1986
+#FLUX: --urgency=16
 
 module purge
 module load julia-1_8_5

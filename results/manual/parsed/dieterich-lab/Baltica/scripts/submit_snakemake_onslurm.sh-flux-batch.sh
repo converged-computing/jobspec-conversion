@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="smk-parent"
+#FLUX: --job-name=smk-parent
 #FLUX: --queue=long
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/bin/snakemake/bin/activate
 snakemake -s $1 --unlock

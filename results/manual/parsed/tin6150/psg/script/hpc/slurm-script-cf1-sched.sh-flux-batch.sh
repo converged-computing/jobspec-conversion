@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=xmas_test	# CLI arg will overwrite this, no easy way to embed node name or job number her
+#FLUX: --job-name=xmas_test
 #FLUX: --queue=xmas
 #FLUX: -t=3900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 STIME=300   # sleep time
 JOBS=20  

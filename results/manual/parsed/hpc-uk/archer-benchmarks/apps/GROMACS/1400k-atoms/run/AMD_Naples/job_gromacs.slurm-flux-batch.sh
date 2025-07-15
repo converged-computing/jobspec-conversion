@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-noodle-2715
+#FLUX: --job-name=sticky-milkshake-4644
 #FLUX: -n=16
 #FLUX: --exclusive
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/scratch_lustre_DDN7k/xguox/gromacs/install/bin:$PATH'
 export LD_LIBRARY_PATH='/scratch_lustre_DDN7k/xguox/fftw/install-gnu7.2.0-single/lib:$LD_LIBRARY_PATH'

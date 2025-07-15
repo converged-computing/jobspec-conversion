@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-hippo-3556
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-mango-2059
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/permeability-c_grad_p-large.sh

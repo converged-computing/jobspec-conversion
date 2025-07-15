@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-hippo-0281
-#FLUX: --priority=16
+#FLUX: --job-name=astute-squidward-4786
+#FLUX: --urgency=16
 
 export JULIA_DEPOT_PATH='/workspace/ane/.julia'
 

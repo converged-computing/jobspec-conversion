@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="eve_training"
+#FLUX: --job-name=eve_training
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export dms_index='$SLURM_ARRAY_TASK_ID'
 export model_parameters_location='../../proteingym/baselines/EVE/EVE/default_model_params.json'

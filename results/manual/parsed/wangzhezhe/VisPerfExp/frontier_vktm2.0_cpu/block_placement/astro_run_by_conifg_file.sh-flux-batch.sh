@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-fork-7686
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-nunchucks-6247
+#FLUX: --urgency=16
 
 DATADIR=/lustre/orion/scratch/zw241/csc143/VisPerfData/resample2
 RUNDIR=/lustre/orion/scratch/zw241/csc143/VisPerfExpAssignStrategeis_Astro_${1}

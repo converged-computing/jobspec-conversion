@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-destiny-1606
+#FLUX: --job-name=pusheena-avocado-4535
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module load julia/1.8.2

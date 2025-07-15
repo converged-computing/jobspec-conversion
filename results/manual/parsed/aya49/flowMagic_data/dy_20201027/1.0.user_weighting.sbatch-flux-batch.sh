@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leader-0575
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-platanos-9451
+#FLUX: --urgency=16
 
 echo ${SLURM_ARRAY_TASK_ID}
 singularity exec -B /mnt/f/Brinkman\ group/COVID/data/structure_test/:/data/ \

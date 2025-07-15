@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-cat-7697
+#FLUX: --job-name=dinosaur-pastry-0047
 #FLUX: --queue=gpulab02
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 env_name="trans"
 seq_lens=(96)

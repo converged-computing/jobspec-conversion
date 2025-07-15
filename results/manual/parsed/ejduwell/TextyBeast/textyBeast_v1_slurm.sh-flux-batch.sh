@@ -2,7 +2,7 @@
 #FLUX: --job-name=dtaScrape
 #FLUX: --queue=gpu
 #FLUX: -t=5100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting at $(date)"
 echo ""

@@ -2,7 +2,7 @@
 #FLUX: --job-name=mpi
 #FLUX: -n=2
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='/opt/mpich/mpich-3.1.4/apps'
 export SINGULARITYENV_LD_LIBRARY_PATH='/opt/mpich/mpich-3.1.4/apps/lib'

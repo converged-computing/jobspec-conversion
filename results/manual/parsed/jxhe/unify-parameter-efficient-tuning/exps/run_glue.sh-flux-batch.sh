@@ -2,7 +2,7 @@
 #FLUX: --job-name=glue
 #FLUX: -c=4
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='checkpoints/hf_model'
 export HF_DATASETS_CACHE='checkpoints/hf_model'

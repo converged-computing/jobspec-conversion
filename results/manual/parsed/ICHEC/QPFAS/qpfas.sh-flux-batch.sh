@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-peanut-butter-3650
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-destiny-4994
+#FLUX: --urgency=16
 
 export QPFAS_DEVICE_ID='kay_hpc_cluster'
 

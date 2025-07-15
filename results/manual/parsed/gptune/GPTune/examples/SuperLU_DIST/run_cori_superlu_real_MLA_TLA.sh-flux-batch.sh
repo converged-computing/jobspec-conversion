@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-despacito-0720
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-general-9210
+#FLUX: --urgency=16
 
 export GPTUNEROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$GPTUNEROOT/GPTune/'

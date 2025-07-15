@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chip-9055
+#FLUX: --job-name=dinosaur-carrot-9143
 #FLUX: -c=16
 #FLUX: --queue=gpu-h100
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload CUDA/11.7.0
 module unload cuDNN/8.4.1.50-CUDA-11.7.0

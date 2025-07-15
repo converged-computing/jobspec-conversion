@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-nunchucks-7106
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-hope-2502
+#FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

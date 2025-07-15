@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-hippo-7824
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-lemur-0730
+#FLUX: --urgency=16
 
 itRoot=$(cd ..; pwd)
 . "${itRoot}/scripts/commonFunctionsForTests.sh"

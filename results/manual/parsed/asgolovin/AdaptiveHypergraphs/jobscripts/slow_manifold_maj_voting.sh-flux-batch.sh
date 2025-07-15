@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-pot-4735
+#FLUX: --job-name=gassy-milkshake-9842
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=2400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module load julia/1.8.2

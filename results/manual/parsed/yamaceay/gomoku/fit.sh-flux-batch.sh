@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fit
 #FLUX: --queue=cpu-2h
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ $1 == "train" ]; then
     apptainer run --nv gomoku.sif python -m src.train ${@:2}

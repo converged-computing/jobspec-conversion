@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="weak_scaling"
+#FLUX: --job-name=weak_scaling
 #FLUX: --queue=normal
 #FLUX: -t=180
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_RDMA_ENABLED_CUDA='1'
 export IGG_CUDAAWARE_MPI='1'

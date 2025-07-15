@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-arm-7466
+#FLUX: --job-name=blank-onion-0540
 #FLUX: --queue=p100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 list=(
     "python -m lconvnet.run --cfg runs/wde_cifar10/lr-0.001/conv/RKO/maxmin/multi-trial-B/cfg.yaml"

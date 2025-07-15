@@ -2,7 +2,7 @@
 #FLUX: --job-name=topo_regen
 #FLUX: -N=4
 #FLUX: -t=1740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export Data_Directory='/cluster/projects/nn9560k/heig/inputdata/CISM'
 

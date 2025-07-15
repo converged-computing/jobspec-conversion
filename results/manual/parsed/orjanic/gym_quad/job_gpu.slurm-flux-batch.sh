@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="gpu-training-quad"
+#FLUX: --job-name=gpu-training-quad
 #FLUX: --queue=GPUQ
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

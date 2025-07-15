@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="bbduk-filt" #name of the job submitted
-#FLUX: --priority=16
+#FLUX: --job-name=bbduk-filt
+#FLUX: --urgency=16
 
 module load bbtools/37.02
 fastq_dir="/project/genolabswheatphg/raw_data/wheatCAP_parents"

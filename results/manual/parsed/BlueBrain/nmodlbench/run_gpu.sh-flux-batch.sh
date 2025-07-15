@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-earthworm-0261
+#FLUX: --job-name=expressive-lizard-4677
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOC_LIBRARY_PATH='$BASE_DIR/channels/lib/hoclib'
 export PYTHONPATH='$INSTALL_DIR/NRN/lib/python:$PYTHONPATH'

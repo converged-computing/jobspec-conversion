@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-spoon-9885
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-pedo-7302
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_btl_openib_if_include='mlx5_4:1'

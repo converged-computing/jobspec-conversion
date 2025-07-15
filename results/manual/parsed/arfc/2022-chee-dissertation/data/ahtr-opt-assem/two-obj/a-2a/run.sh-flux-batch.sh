@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-snack-8457
-#FLUX: --priority=16
+#FLUX: --job-name=milky-knife-7698
+#FLUX: --urgency=16
 

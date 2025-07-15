@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hippo-7266
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-sundae-8901
+#FLUX: --urgency=16
 
 module load python/3.9.0
 module load cuda/11.3.1

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-fork-2243
+#FLUX: --job-name=doopy-peanut-9500
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

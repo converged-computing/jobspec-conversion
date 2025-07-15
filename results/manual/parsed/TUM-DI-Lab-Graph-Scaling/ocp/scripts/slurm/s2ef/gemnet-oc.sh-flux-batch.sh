@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="s2ef-gemnet-oc"
+#FLUX: --job-name=s2ef-gemnet-oc
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/usr/local/bin:$PATH'
 export LD_LIBRARY_PATH='/usr/local/cuda-11.1/lib64:/usr/local/extras/CUPTI/lib64:/usr/local/lib:$LD_LIBRARY_PATH'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-signal-9516
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-taco-2077
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tovahmarkowitz/Pipeliner/pipeline_ctrl.sh

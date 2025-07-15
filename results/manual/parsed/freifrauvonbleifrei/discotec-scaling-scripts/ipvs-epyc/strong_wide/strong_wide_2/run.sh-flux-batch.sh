@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-fudge-5378
+#FLUX: --job-name=delicious-citrus-5361
 #FLUX: -n=65
 #FLUX: --exclusive
 #FLUX: -t=9600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$SGPP_DIR/lib/sgpp:$LIB_GLPK:$LIB_BOOST_DIR:$LD_LIBRARY_PATH'
 export I_MPI_PIN_PROCESSOR_EXCLUDE_LIST='48-95'

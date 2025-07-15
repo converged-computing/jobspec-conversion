@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cinnamonbun-5758
+#FLUX: --job-name=peachy-car-5727
 #FLUX: -N=2
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/gcc/11.2.0/snos/lib64'
 export OMP_PLACES='threads'

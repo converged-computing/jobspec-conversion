@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-earthworm-5532
+#FLUX: --job-name=faux-nalgas-7484
 #FLUX: -n=4
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 fastqc=/bigdata/jialab/rli012/software/FastQC/fastqc
 N=$SLURM_ARRAY_TASK_ID

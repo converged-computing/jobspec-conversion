@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-signal-5193
-#FLUX: --priority=16
+#FLUX: --job-name=astute-malarkey-9330
+#FLUX: --urgency=16
 
 export PYTHONPATH='/pdc/vol/nest/2.2.2/lib/python2.7/site-packages:/pdc/vol/python/2.7.6-gnu/lib/python2.7/site-packages'
 export TMP='$(pwd)'

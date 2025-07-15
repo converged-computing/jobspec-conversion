@@ -2,7 +2,7 @@
 #FLUX: --job-name=processSPICE
 #FLUX: -n=600
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export SINGULARITY_BINDPATH='$(pwd),/group'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="7b-instruct-codereview"
+#FLUX: --job-name=7b-instruct-codereview
 #FLUX: -c=8
 #FLUX: --queue=deeplearn
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Current modules:"
 echo "$(module list)"

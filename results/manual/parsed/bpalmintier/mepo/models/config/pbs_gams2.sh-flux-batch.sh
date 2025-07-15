@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-itch-8275
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-mango-1719
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/pbs_gams2.sh

@@ -2,7 +2,7 @@
 #FLUX: --job-name=Nimageonly
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 set -x

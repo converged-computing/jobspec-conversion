@@ -2,7 +2,7 @@
 #FLUX: --job-name=composition-eastern-moretaxa
 #FLUX: --queue=savio2
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load r r-packages r-spatial netcdf/4.4.1.1-gcc-s
 source config-0.2-0

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=profiling
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 command="$1"
 module load cuda/12.1.1 cmake/3.21.3 gcc/10.2.0

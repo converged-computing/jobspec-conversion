@@ -2,7 +2,7 @@
 #FLUX: --job-name=al_baselines
 #FLUX: -c=8
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 source activate dal-toolbox

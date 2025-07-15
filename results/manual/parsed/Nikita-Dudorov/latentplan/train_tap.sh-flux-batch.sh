@@ -2,7 +2,7 @@
 #FLUX: --job-name=tap_hopper-medium-expert-v2
 #FLUX: -c=6
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'
 

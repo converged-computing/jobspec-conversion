@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-peanut-6758
+#FLUX: --job-name=purple-punk-2060
 #FLUX: -N=4
 #FLUX: -n=96
 #FLUX: --queue=parallel
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   
 module load intel

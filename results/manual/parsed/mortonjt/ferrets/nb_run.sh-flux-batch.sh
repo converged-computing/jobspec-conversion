@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-avocado-6248
+#FLUX: --job-name=chunky-sundae-7210
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate stan

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-parrot-1798
+#FLUX: --job-name=spicy-soup-7474
 #FLUX: --queue=batch
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda activate /ibex/scratch/zhanc0c/projects/st_dense_gcn/env
 loss_values=( 'l1' )

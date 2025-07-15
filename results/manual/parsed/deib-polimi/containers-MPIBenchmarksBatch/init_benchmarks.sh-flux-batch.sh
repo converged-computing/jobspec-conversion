@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-fudge-3907
+#FLUX: --job-name=sticky-truffle-3839
 #FLUX: --queue=hpc
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 scripts_dir=~/workspace/bench
 mkdir -p $scripts_dir

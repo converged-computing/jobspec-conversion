@@ -2,7 +2,7 @@
 #FLUX: --job-name=cxid9114_mask
 #FLUX: --queue=regular
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ ! -f ./mask.sh ]; then
     echo "#\!/bin/bash" >> ./mask.sh

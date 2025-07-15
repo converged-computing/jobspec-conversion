@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-fudge-7705
+#FLUX: --job-name=bumfuzzled-plant-8632
 #FLUX: -c=8
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 fold=$((${SLURM_ARRAY_TASK_ID}-100))
 module purge

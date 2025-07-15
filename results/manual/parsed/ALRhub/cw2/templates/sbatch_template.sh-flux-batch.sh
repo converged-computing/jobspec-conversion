@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-signal-1160
-#FLUX: --priority=16
+#FLUX: --job-name=placid-punk-5934
+#FLUX: --urgency=16
 
 %%sbatch_args%%
 %%venv%%

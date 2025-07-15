@@ -2,7 +2,7 @@
 #FLUX: --job-name=prod
 #FLUX: --queue=qgpu
 #FLUX: -t=50400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GMXLIB='/home/kummerer/TETRALOOPS/forcefields/ff-opc-water-model/:/home/kummerer/TETRALOOPS/ff-opc-water-model/amber_na.ff/"              '
 

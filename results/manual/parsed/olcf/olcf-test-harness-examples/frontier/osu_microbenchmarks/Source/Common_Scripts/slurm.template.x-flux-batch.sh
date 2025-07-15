@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-taco-5188
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-lizard-9121
+#FLUX: --urgency=16
 
 export MPIR_CVAR_GPU_EAGER_DEVICE_MEM='0'
 export MPICH_GPU_SUPPORT_ENABLED='1'

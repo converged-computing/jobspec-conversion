@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-truffle-5333
+#FLUX: --job-name=red-salad-0276
 #FLUX: --queue=cmain
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc cuda mvapich2/2.2

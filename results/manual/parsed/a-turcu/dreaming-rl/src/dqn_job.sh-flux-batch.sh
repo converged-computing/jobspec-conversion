@@ -2,7 +2,7 @@
 #FLUX: --job-name=VanillaDQN
 #FLUX: --queue=gpu
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python/3.7.4-GCCcore-8.3.0 
 module load TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4

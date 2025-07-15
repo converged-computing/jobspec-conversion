@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-latke-3131
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-general-0886
+#FLUX: --urgency=16
 
 source /home/pzs2/keras/bin/activate
 today=`date '+%m_%d__%H_%M'`;

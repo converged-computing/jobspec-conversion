@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=priority
 #FLUX: -t=604200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CXX='g++'
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'

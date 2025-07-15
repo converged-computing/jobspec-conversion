@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-animal-1198
+#FLUX: --job-name=red-chip-3315
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-banana-8410
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-banana-1423
+#FLUX: --urgency=16
 
 set -e  # stop on error
 NTIME=500

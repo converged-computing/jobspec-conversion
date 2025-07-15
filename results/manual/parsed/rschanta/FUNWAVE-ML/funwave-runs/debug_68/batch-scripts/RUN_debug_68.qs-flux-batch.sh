@@ -2,7 +2,7 @@
 #FLUX: --job-name=RUN_
 #FLUX: --queue=standard
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 		## Load in bash functions and VALET packages
 			export WORK_DIR=/work/thsu/rschanta/RTS/

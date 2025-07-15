@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cattywampus-5923
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-leopard-9392
+#FLUX: --urgency=16
 
 CUDA=
 VERSION=1.0.0

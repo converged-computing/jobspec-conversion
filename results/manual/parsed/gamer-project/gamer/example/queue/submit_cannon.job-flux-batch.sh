@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-omelette-0016
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-toaster-9599
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

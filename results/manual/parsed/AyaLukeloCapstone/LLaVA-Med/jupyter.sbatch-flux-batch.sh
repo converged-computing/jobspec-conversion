@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=7B_wz
 #FLUX: -t=172799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='/scratch/ltl2113/huggingface_cache'
 

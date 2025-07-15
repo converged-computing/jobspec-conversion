@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pot-6786
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-punk-1744
+#FLUX: --urgency=16
 
 module load nvidia/cuda/10.0
 module load pytorch/1.0_python3.7_gpu

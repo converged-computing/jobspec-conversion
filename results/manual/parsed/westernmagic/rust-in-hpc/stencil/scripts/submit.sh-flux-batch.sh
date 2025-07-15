@@ -4,7 +4,7 @@
 #FLUX: -c=12
 #FLUX: --queue=debug
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GREASY_NWORKERS_PER_NODE='${SLURM_NTASKS_PER_NODE}'
 export RAYON_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

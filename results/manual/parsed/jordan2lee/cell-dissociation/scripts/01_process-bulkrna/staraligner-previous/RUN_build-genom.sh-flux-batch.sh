@@ -3,7 +3,7 @@
 #FLUX: -n=12
 #FLUX: --queue=exacloud
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dir=/home/groups/EllrottLab/cell-dissociation
 ses=build-ref-genom

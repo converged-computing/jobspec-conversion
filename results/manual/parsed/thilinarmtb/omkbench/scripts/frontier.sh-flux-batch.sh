@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-bits-9891
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-pedo-3543
+#FLUX: --urgency=16
 
 : ${PROJ_ID:="CSC262"}
 : ${OMK_INSTALL_DIR:=./install}

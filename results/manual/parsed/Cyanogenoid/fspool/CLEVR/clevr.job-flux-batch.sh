@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-general-4000
+#FLUX: --job-name=red-parsnip-2133
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NAME=$1
 SEED=$2

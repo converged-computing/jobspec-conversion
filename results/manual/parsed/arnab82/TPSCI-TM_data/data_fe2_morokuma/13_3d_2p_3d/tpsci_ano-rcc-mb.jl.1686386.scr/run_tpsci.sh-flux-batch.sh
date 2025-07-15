@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=tpsci_cr2.jl
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NTHREAD='16'
 export JULIAENV='/home/arnab22/tpsci_bimetallic'

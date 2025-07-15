@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=c_def
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python-3.5 cuda-8.0

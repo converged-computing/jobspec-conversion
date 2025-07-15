@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-milkshake-1341
+#FLUX: --job-name=arid-lizard-8350
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:$PWD/../../../lammps-mpi-most-23Jun2022/bin'
 

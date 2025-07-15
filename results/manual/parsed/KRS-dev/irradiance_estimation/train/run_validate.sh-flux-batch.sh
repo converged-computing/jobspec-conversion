@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="train ConvResNet"
+#FLUX: --job-name=train ConvResNet
 #FLUX: -N=2
 #FLUX: -c=24
 #FLUX: --queue=normal
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export NCCL_DEBUG='INFO'

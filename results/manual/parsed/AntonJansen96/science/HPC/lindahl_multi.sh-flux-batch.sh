@@ -2,7 +2,7 @@
 #FLUX: --job-name=NAME
 #FLUX: --queue=lindahl
 #FLUX: -t=172799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cmake/latest
 module load gcc/7.4

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-arm-2931
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-banana-4648
+#FLUX: --urgency=16
 
 set -e
 cd ..

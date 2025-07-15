@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-leader-5344
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-train-1606
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/knightlab-analyses/uc-severity-multiomics/RandomForestScripts/job-array.sh

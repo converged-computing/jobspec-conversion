@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-motorcycle-2748
+#FLUX: --job-name=expressive-lamp-4941
 #FLUX: --queue=long
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load java/18
 base_dir="/cluster/projects/gaitigroup/Users/Joan/"

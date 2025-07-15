@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-peanut-butter-1271
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-plant-0888
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gummz/cell/shell/experiment_model_calibration.sh

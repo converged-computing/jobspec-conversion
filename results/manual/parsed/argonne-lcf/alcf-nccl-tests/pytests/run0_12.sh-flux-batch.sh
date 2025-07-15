@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-bike-4225
-#FLUX: --priority=16
+#FLUX: --job-name=tart-frito-4799
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/argonne-lcf/alcf-nccl-tests/pytests/run0_12.sh

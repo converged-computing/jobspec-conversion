@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=accelerated
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOMOUNT='${TOMOUNT}'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

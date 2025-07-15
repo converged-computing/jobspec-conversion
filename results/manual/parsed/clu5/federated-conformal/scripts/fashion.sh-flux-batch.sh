@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-spoon-9386
+#FLUX: --job-name=chunky-taco-2738
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 module load anaconda cuda

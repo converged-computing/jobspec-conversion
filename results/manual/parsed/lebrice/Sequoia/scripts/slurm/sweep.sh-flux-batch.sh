@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-motorcycle-2133
+#FLUX: --job-name=astute-squidward-5522
 #FLUX: -c=2
 #FLUX: -t=43140
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATA_DIR='$SLURM_TMPDIR/data'
 

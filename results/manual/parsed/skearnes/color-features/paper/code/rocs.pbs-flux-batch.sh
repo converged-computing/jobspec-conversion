@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-muffin-9862
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-peanut-5728
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/skearnes/color-features/paper/code/rocs.pbs

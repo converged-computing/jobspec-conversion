@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="ebop-notebook"
+#FLUX: --job-name=ebop-notebook
 #FLUX: -c=8
 #FLUX: --queue=alpha
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

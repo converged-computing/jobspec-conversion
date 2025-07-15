@@ -2,7 +2,7 @@
 #FLUX: --job-name={SAMPLE}
 #FLUX: -c=4
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/anaconda-2022.05
 source activate /home/jbard/beagle3-dadrummond/jbard/envs/py310_snake_star

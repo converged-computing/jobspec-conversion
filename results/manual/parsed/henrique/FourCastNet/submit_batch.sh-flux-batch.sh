@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-spoon-4780
+#FLUX: --job-name=confused-onion-8214
 #FLUX: -N=2
 #FLUX: -c=32
 #FLUX: --queue=nvgpu
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export NCCL_NET_GDR_LEVEL='PHB'

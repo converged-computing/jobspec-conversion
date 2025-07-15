@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-signal-2002
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-milkshake-6908
+#FLUX: --urgency=16
 
 module unload gromacs
 module switch gromacs/2023 gromacs=gmx_mpi

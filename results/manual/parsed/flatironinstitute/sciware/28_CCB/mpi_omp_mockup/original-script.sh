@@ -1,22 +1,22 @@
 #!/bin/bash
-#SBATCH --nodes=2
-#SBATCH --ntasks-per-node=8
-#SBATCH --cpus-per-task=16
-#SBATCH --constraint=rome,ib
-#SBATCH --partition=ccb
-#SBATCH --time=00:10:00
-#SBATCH --job-name=mpi_omp_example2
-#SBATCH --output=mpi_omp_example2.log
+#SBATCH --nodes=2                     # number of nodes
+#SBATCH --ntasks-per-node=8           # number of tasks per node
+#SBATCH --cpus-per-task=16            # number of cpus(threads) per task
+#SBATCH --constraint=rome,ib          # computers to use at FI
+#SBATCH --partition=ccb               # center allocation
+#SBATCH --time=00:10:00               # maximum time for job
+#SBATCH --job-name=mpi_omp_example1   # job name
+#SBATCH --output=mpi_omp_example1.log # slurm output file
 
 # Set up our environment for this SLURM submission
-module -q purge
-module -q load openmpi
-module list
+module -q purge                       # purge current modules
+module -q load openmpi                # Load openmpi
+module list                           # What modules are loaded?
 
 # Helper functions to see what kind of system we are running on, if we have GPUs that are accessible, and other information
-lscpu
-nvidia-smi
-numactl -H
+lscpu                                 # What cpus do we have?
+nvidia-smi                            # Is there gpu information?
+numactl -H                            # What is the NUMA layout
 
 # Print some helpful information
 echo "Slurm nodes:              ${SLURM_NNODES}"
@@ -24,13 +24,5 @@ echo "Slurm ntasks:             ${SLURM_NTASKS}"
 echo "Slurm ntasks-per-node:    ${SLURM_NTASKS_PER_NODE}"
 echo "Slurm cpus-per-task:      ${SLURM_CPUS_PER_TASK}"
 
-# Capture the time
-start_time=$(date +%s)
-
 # Run the program
 OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK} mpirun mpi_omp_mockup
-
-# Report the time
-end_time=$(date +%s)
-elapsed_time=$((end_time - start_time))
-echo "Elapsed time: $elapsed_time seconds"

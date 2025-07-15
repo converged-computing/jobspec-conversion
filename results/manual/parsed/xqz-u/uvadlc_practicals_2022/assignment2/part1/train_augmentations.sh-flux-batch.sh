@@ -2,7 +2,7 @@
 #FLUX: --job-name=resnet18_imagenet_cifar100_augmented
 #FLUX: --queue=gpu_shared_course
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2021

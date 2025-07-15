@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-underoos-2731
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-punk-9911
+#FLUX: --urgency=16
 
 export LEGACYPIPE_DIR='$HOM/git/legacypipe/'
 export PYTHONPATH='/usr/local/lib/python:$LEGACYPIPE_DIR/py'

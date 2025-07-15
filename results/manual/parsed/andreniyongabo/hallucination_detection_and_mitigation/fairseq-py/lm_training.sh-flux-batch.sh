@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-blackbean-2558
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-lizard-9687
+#FLUX: --urgency=16
 
 FAIRSEQ=/private/home/shru/projects/fairseq-py-moe
 SWEEP_NAME=billion_words_lm_training_v3.0

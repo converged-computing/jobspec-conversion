@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-egg-4193
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-muffin-6237
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NCAR/MURaM_main/gust/job.gust.cpu.sh

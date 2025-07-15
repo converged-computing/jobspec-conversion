@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=2017_baseline
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.5.2
 module load python-extra/python3.5/r0.5.0

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cattywampus-8891
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-blackbean-5828
+#FLUX: --urgency=16
 
 echo "start"
 nvidia-smi

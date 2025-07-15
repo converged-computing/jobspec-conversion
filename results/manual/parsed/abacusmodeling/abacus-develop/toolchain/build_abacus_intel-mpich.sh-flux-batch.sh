@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-mango-0306
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-squidward-4921
+#FLUX: --urgency=16
 
 export PATH='${PREFIX}/bin":\${PATH}'
 

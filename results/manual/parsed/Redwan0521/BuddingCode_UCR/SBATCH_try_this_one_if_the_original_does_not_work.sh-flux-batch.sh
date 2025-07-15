@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="b0d135"
-#FLUX: --priority=16
+#FLUX: --job-name=b0d135
+#FLUX: --urgency=16
 
 export SINGULARITY_NV='1'
 

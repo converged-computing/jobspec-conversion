@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-underoos-4184
+#FLUX: --job-name=stinky-hobbit-1492
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Runacc2Fasta
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dirtemplate='/home/yc954/project.cohen/sm_Bioproj2Lineage/dirTemplate/'
 bioproj='PRJNA736718'

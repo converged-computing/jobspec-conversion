@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-mango-4419
+#FLUX: --job-name=bumfuzzled-noodle-6426
 #FLUX: -n=4
 #FLUX: --queue=batch
 #FLUX: -t=299
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export INTERFACE='ib0'
 export interface_addr='$(ifconfig $INTERFACE 2>/dev/null | grep "inet " | awk '{print $2}')'

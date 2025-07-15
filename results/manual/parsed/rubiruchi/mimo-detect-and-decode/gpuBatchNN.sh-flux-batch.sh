@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Polar
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Start test"
 module load matlab 

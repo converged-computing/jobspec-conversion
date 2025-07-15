@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=test_job
 #FLUX: --queue=test
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CUDA
 module load apps/matlab/2017a

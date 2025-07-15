@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-rabbit-2350
+#FLUX: --job-name=conspicuous-parsnip-0953
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lizard-6661
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-hope-2393
+#FLUX: --urgency=16
 
 srun -n 1 --mpi=pmi2 python $APPS/prospector/scripts/prospector_dynesty.py \
 --param_file="$APPS"/prospector_alpha/parameter_files/mock_hybrid_params.py \

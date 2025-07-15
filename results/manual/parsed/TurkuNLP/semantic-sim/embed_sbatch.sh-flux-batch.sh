@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-peanut-butter-9089
+#FLUX: --job-name=fuzzy-avocado-1397
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTORCH_PRETRAINED_BERT_CACHE='$TMPDIR'
 

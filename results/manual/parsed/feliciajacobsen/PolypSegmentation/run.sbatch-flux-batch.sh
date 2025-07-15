@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-plant-3970
-#FLUX: --priority=16
+#FLUX: --job-name=phat-plant-1148
+#FLUX: --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output/g001

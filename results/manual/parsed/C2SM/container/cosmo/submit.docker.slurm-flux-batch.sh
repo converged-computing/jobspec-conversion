@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="testsuite"
+#FLUX: --job-name=testsuite
 #FLUX: -N=8
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MALLOC_MMAP_MAX_='0'
 export MALLOC_TRIM_THRESHOLD_='536870912'

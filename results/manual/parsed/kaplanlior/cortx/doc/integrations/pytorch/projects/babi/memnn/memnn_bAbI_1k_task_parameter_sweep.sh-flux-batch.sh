@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-eagle-0762
-#FLUX: --priority=16
+#FLUX: --job-name=faux-parrot-3682
+#FLUX: --urgency=16
 
 PARLAI=../../..                # Where ParlAI exists in filesystem relative to script
 DATE=`date +"%Y%m%d"`

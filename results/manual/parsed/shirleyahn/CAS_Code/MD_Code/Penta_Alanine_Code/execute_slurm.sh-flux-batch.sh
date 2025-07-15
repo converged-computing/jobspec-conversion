@@ -2,7 +2,7 @@
 #FLUX: --job-name=A5
 #FLUX: --queue=owners
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 num_nodes=1  # TODO: set number of nodes requested
 num_cpu=16  # TODO: set number of cores per node

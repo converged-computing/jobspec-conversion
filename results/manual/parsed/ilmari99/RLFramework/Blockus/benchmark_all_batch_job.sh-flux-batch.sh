@@ -3,7 +3,7 @@
 #FLUX: -c=128
 #FLUX: --queue=medium
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load tensorflow/2.15

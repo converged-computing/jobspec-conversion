@@ -3,7 +3,7 @@
 #FLUX: -N=8
 #FLUX: -c=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONFAULTHANDLER='1'
 export BALAUR_CACHE='/network/scratch/m/mirceara/.cache/balaur'

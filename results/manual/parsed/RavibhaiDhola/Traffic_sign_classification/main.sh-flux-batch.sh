@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nas        ## Name of the job
+#FLUX: --job-name=nas
 #FLUX: -c=8
-#FLUX: --queue=gpu ##GPU run
+#FLUX: --queue=gpu
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda deactivate

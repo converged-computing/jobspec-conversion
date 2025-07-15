@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-ricecake-4248
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-lamp-2298
+#FLUX: --urgency=16
 
 ff=`ls -1d pos_*`
 hier=`pwd`

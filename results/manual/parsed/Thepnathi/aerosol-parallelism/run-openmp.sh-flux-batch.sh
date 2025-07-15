@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-leader-8615
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-pancake-6526
+#FLUX: --urgency=16
 
 module load compilers/intel/2019u5 
 module load mpi/intel-mpi/2019u5/bin

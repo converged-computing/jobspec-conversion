@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=snake
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load conda
 source activate fraserconda

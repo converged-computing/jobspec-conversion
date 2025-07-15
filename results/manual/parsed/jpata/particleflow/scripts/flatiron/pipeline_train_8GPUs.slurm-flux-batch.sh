@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-snack-2553
+#FLUX: --job-name=evasive-punk-1608
 #FLUX: --gpus-per-task=8
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "#################### Job submission script. #############################"
 cat $0

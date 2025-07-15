@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rclassify
 #FLUX: --queue=nocona
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module --ignore-cache load gcc/10.1.0 r/4.0.2
 . ~/conda/etc/profile.d/conda.sh

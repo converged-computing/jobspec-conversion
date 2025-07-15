@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-gato-1825
-#FLUX: --priority=16
+#FLUX: --job-name=fat-underoos-1525
+#FLUX: --urgency=16
 
 r2threshold=0.7
 ldwindowsize=1000000

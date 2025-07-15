@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load GCC/11.3.0
 module load CUDA/12.0.0

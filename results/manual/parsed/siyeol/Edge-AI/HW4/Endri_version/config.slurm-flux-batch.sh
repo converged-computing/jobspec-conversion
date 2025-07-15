@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-eagle-0532
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-butter-6981
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/apps/cuda/10.1/lib64'
 

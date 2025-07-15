@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bits-5454
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-nalgas-0442
+#FLUX: --urgency=16
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate tcge-cfmedip-seq-pipeline

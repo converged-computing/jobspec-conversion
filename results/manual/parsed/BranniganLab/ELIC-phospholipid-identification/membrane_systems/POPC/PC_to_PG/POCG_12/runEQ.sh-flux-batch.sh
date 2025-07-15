@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-leopard-6943
+#FLUX: --job-name=expensive-train-1089
 #FLUX: --queue=cmain
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc cuda mvapich2/2.2

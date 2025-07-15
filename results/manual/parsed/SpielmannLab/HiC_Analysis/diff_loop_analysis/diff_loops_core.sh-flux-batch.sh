@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-bicycle-6692
+#FLUX: --job-name=carnivorous-peanut-butter-0099
 #FLUX: --queue=shortterm
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow/v22.04.1
 mkdir -p "$WORK"/diff_loops_nextflow_launchdir

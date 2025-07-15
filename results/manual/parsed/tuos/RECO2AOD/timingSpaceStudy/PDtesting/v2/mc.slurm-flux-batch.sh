@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="MCtiming"
+#FLUX: --job-name=MCtiming
 #FLUX: -t=244800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRAM_ARCH='slc6_amd64_gcc491'
 

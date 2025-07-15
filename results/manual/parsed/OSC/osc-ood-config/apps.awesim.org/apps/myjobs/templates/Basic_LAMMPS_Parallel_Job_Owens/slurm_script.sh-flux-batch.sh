@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-leopard-5806
+#FLUX: --job-name=wobbly-lettuce-8412
 #FLUX: -N=2
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 

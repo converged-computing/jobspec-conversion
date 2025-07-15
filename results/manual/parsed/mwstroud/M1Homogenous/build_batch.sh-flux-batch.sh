@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-egg-7268
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-truffle-7272
+#FLUX: --urgency=16
 
 python build_network.py #srun

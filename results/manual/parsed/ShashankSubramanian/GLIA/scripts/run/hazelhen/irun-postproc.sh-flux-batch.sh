@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-peanut-2280
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-taco-8515
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ShashankSubramanian/GLIA/scripts/run/hazelhen/irun-postproc.sh

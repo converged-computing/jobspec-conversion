@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lemur-4985
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-ricecake-7839
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$VENVPATH/venv-lola/lib/python3.10/site-packages/nvidia/nvjitlink/lib:$LD_LIBRARY_PATH'
 

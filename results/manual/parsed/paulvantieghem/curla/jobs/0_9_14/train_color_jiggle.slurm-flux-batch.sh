@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_color_jiggle
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module --force purge
 module use /apps/leuven/${VSC_ARCH_LOCAL}/2021a/modules/all

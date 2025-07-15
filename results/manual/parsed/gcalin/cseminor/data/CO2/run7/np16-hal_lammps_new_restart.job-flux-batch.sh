@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-milkshake-4171
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-peanut-5660
+#FLUX: --urgency=16
 
 lmp=/home/noura/LAMMPS/tests/src_v05
 mpi=/usr/local/openmpi-1.8.4-ifort/bin

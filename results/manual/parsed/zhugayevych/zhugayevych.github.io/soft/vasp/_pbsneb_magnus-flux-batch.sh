@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lamp-6812
-#FLUX: --priority=16
+#FLUX: --job-name=angry-mango-5051
+#FLUX: --urgency=16
 
 echo 'JOB_NAME' $SLURM_JOB_NAME
 echo 'JOB_ID' $SLURM_JOB_ID

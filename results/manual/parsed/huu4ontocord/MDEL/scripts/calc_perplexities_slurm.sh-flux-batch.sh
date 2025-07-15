@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-egg-8823
+#FLUX: --job-name=doopy-poo-5073
 #FLUX: -c=4
 #FLUX: --queue=small-g
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_MODE='offline'
 export HF_HOME='/scratch/project_462000259/jstillerman/hf_cache'

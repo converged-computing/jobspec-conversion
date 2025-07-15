@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="cpu-training-quad"
+#FLUX: --job-name=cpu-training-quad
 #FLUX: --queue=CPUQ
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

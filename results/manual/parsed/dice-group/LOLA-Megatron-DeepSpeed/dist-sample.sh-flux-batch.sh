@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-carrot-7102
+#FLUX: --job-name=blue-dog-3520
 #FLUX: --queue=dgx
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LAUNCHER='python -u -m torch.distributed.run \'
 export CMD=' \'

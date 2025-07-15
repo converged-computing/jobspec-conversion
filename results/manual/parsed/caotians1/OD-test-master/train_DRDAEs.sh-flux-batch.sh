@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-earthworm-8796
+#FLUX: --job-name=angry-diablo-8839
 #FLUX: -c=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PARRAY1=(DRDTrainAEBCE.py DRDTrainAEMSE.py DRDTrainVAEBCE.py DRDTrainVAEMSE.py DRDTrainALILikeBCE.py DRDTrainALILikeMSE.py DRDTrainALILikeVAEBCE.py DRDTrainALILikeVAEMSE.py)
 PARRAY2=(DRDAEBCE DRDAEMSE DRDVAEBCE DRDVAEMSE DRDALIBCE DRDALIMSE DRDALIVAEBCE DRDALIVAEMSE)

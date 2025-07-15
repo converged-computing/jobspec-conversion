@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-general-5200
-#FLUX: --priority=16
+#FLUX: --job-name=red-lamp-3081
+#FLUX: --urgency=16
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'
 export HOROVOD_CUDA_INCLUDE='$CUDA_HOME/include'

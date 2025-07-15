@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-fork-2178
+#FLUX: --job-name=crunchy-toaster-2637
 #FLUX: -n=80
 #FLUX: --queue=compute
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

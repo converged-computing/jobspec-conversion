@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=gpu-job
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LIBOMPTARGET_INFO='4'
 

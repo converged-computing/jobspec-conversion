@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-bicycle-1447
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-cinnamonbun-3869
+#FLUX: --urgency=16
 
 module load bioinfo-tools Nextflow 
 rm -f metontiime2.nf

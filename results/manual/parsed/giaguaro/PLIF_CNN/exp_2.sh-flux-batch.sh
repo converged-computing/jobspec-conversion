@@ -2,7 +2,7 @@
 #FLUX: --job-name=LrgSklCNN
 #FLUX: -N=3
 #FLUX: -c=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORLD_SIZE='12'
 export MASTER_PORT='12346'

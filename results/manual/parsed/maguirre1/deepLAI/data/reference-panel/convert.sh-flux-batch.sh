@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-butter-5260
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-punk-7115
+#FLUX: --urgency=16
 
 in_vcf="/scratch/users/magu/deepmix/data/vcf/expanded_ref_panel.vcf.gz"
 ml load biology; ml load bcftools; ml load htslib # bcftools, bgzip, tabix

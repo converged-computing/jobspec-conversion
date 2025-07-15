@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-leader-6944
+#FLUX: --job-name=frigid-parrot-3356
 #FLUX: -c=16
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

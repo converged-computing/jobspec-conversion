@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="gpsl5_100"
+#FLUX: --job-name=gpsl5_100
 #FLUX: --queue=normal
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_SUBMIT_DIR='/home/groups/gracegao/prn_codes/doppler_prn'
 

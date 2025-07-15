@@ -3,7 +3,7 @@
 #FLUX: -n=8
 #FLUX: --queue=accel
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -o errexit # Make bash exit on any error
 set -o nounset # Treat unset variables as errors

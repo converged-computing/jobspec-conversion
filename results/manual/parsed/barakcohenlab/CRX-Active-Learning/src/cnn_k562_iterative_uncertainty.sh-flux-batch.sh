@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-buttface-2997
+#FLUX: --job-name=moolicious-chair-0676
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

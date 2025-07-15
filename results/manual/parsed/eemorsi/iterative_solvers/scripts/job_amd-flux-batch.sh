@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="ITER_SOLVERS"
+#FLUX: --job-name=ITER_SOLVERS
 #FLUX: --exclusive
 #FLUX: --queue=amd
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${HOME}/HYPRE/build_amd/lib:${LD_LIBRARY_PATH}'
 export OMP_DISPLAY_ENV='true'

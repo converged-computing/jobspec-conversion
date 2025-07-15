@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lentil-8704
+#FLUX: --job-name=dirty-pot-2297
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.3.0

@@ -2,7 +2,7 @@
 #FLUX: --job-name=run-ior-benchmark
 #FLUX: --queue=compute
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 declare -xr LUSTRE_PROJECTS_DIR="/expanse/lustre/projects/${SLURM_JOB_ACCOUNT}/${USER}"
 declare -xr LUSTRE_SCRATCH_DIR="/expanse/lustre/scratch/${USER}/temp_project"

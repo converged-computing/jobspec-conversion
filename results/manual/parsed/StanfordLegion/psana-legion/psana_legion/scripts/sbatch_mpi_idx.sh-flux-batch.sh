@@ -3,7 +3,7 @@
 #FLUX: -N=16
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SIT_PSDM_DATA='$HOST_DATA_DIR/d/psdm'
 

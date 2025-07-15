@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-dog-2486
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-nalgas-5621
+#FLUX: --urgency=16
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate tcge-cfmedip-seq-pipeline

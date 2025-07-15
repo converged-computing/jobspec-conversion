@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-itch-7225
+#FLUX: --job-name=hanky-bike-6440
 #FLUX: -N=4
 #FLUX: --queue=booster
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

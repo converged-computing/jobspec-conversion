@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-spoon-1187
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-hope-9428
+#FLUX: --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:"${HOMEgfs}/ush/python/libs/pytspack/'
 export RUNDIR='$STMP/RUNDIRS/$PSLOT'

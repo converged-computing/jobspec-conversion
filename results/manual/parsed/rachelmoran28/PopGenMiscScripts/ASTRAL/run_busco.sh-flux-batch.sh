@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-spoon-6579
+#FLUX: --job-name=arid-punk-1193
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/2
 src=/home/research/genome/assemblies_configs/

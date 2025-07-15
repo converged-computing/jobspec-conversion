@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cattywampus-6613
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-lamp-7562
+#FLUX: --urgency=16
 
 export TFSERVER=''
 export GRPC_POLL_STRATEGY='poll'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cat-6178
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-ricecake-6424
+#FLUX: --urgency=16
 
 WD="/gpfs/projects/bsc40/current/mschiavi/jloh"
 cd ${WD}/scripts/wf-real_data

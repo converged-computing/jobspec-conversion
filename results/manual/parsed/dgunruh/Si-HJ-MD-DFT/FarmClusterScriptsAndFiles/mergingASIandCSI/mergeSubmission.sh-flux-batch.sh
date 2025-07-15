@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=cSiaSiGAP
 #FLUX: -n=16
-#FLUX: --queue=high                 # Use the high partition
-#FLUX: --priority=16
+#FLUX: --queue=high
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export j='$SLURM_JOB_ID'

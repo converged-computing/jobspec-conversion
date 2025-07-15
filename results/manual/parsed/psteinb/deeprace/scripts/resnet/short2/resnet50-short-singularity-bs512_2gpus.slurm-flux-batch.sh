@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-knife-6820
+#FLUX: --job-name=pusheena-general-4690
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

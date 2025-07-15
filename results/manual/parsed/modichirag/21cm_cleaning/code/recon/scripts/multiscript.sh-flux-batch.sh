@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-signal-9718
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-puppy-8739
+#FLUX: --urgency=16
 
 cc=0
 for wopt in opt pess;

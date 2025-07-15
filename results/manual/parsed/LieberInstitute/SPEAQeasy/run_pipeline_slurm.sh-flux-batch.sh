@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-buttface-6392
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-omelette-7290
+#FLUX: --urgency=16
 
 export _JAVA_OPTIONS='-Xms8g -Xmx10g'
 

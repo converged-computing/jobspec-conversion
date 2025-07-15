@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-despacito-3686
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-general-1189
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/akashratheesh/gsiscripts/rungsi_globalprod.sh

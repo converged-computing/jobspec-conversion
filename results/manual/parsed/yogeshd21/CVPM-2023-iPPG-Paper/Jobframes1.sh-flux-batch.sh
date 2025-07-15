@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-house-6377
-#FLUX: --priority=16
+#FLUX: --job-name=milky-toaster-1019
+#FLUX: -c=16
+#FLUX: --urgency=16
 
 export MASTER_PORT='12986'
 export WORLD_SIZE='4'

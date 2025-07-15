@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-hope-6842
+#FLUX: --job-name=hanky-pedo-0206
 #FLUX: -c=28
 #FLUX: --queue=gpu
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='7'
 export MV2_ENABLE_AFFINITY='0'

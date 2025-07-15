@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-chip-1113
+#FLUX: --job-name=arid-lemur-1169
 #FLUX: -N=4
 #FLUX: -n=32
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LC_ALL='C.UTF-8'
 export LANG='C.UTF-8'

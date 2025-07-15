@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-egg-2335
-#FLUX: --priority=16
+#FLUX: --job-name=grated-itch-6837
+#FLUX: --urgency=16
 
 dataset=$1
 tmp="/data/taoyuhuan/projects/exOmics_RNA/level_3_Editing_SNP_ASE/${dataset}/tmp"

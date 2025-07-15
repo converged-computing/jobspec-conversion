@@ -2,7 +2,7 @@
 #FLUX: --job-name=gpuaware-mpiacc
 #FLUX: --queue=standard-g
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 

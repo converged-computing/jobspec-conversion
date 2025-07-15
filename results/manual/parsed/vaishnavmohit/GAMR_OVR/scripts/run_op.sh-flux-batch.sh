@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-cherry-0142
+#FLUX: --job-name=blank-snack-2510
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='1'

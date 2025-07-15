@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=meryldb_mito        #<= name your job
-#FLUX: --priority=16
+#FLUX: --job-name=meryldb_mito
+#FLUX: --urgency=16
 
 module load merqury/1.1
 module load meryl/1.0

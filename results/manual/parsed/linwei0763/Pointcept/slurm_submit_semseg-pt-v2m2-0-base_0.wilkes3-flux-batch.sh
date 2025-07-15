@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-nalgas-8235
+#FLUX: --job-name=strawberry-blackbean-3915
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='${CUDA_VISIBLE_DEVICES}'
 export OMP_NUM_THREADS='1'

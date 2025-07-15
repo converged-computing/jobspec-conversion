@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lizard-2388
+#FLUX: --job-name=goodbye-rabbit-1060
 #FLUX: -c=2
 #FLUX: --queue=gpu_shared
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge all
 module load 2021

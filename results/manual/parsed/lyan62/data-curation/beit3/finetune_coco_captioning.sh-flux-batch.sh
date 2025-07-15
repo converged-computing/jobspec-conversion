@@ -2,7 +2,7 @@
 #FLUX: --job-name=beit3_coco
 #FLUX: -c=24
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/home/rdp455/unilm/beit3'
 export WANDB_API_KEY='7ff3068098020a220faf94a829699f6197bb1128'

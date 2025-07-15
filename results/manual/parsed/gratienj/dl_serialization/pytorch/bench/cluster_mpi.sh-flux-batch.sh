@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-fudge-9511
+#FLUX: --job-name=hanky-destiny-8157
 #FLUX: --exclusive
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='MASTER'
 

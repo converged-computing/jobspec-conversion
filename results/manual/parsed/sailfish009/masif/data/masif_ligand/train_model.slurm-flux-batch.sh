@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lentil-0853
+#FLUX: --job-name=gassy-motorcycle-1827
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MONET_DIR='/home/gainza/lpdi_fs/seednet/monet_seeder/'
 export PYTHONPATH='$PYTHONPATH:$masif_source'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-poo-2071
+#FLUX: --job-name=fat-muffin-2486
 #FLUX: -c=4
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-signal-3295
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-pancake-0326
+#FLUX: --urgency=16
 
 export MV2_USE_CUDA='1'
 export MV2_ENABLE_AFFINITY='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-kitty-1138
+#FLUX: --job-name=boopy-arm-0305
 #FLUX: -c=12
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 singularity exec \

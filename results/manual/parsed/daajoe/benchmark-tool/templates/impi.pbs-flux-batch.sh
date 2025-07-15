@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-underoos-5577
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-staircase-0506
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/daajoe/benchmark-tool/templates/impi.pbs

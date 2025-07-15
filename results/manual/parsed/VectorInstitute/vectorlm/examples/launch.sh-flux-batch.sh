@@ -2,7 +2,7 @@
 #FLUX: --job-name=llama7b-2
 #FLUX: --queue=a100
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='1  # Our cluster does not have InfiniBand. We need to disable usage using this flag.'
 export NCCL_DEBUG='WARN'

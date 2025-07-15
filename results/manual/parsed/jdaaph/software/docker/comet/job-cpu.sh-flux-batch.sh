@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="test-cpu"
+#FLUX: --job-name=test-cpu
 #FLUX: -N=2
 #FLUX: --queue=debug
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 module unload mvapich2_ib

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-caramel-9526
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-lemur-1736
+#FLUX: --urgency=16
 
 export PYTHONPATH='/scratch/project_2002026/multilabel_bert/svregisters/lstm/transformer-classifier/transformers3.4/lib/python3.7/site-packages:$PYTHONPATH'
 export TRAIN_DIR='junkdata/$SRC'

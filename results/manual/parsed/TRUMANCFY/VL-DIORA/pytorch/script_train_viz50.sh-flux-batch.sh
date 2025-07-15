@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-egg-7551
+#FLUX: --job-name=rainbow-hippo-1556
 #FLUX: -c=5
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='127.0.0.1'
 export MASTER_PORT='8080'

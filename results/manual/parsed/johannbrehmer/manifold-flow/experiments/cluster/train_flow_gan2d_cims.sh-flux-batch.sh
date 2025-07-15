@@ -2,7 +2,7 @@
 #FLUX: --job-name=t-f-g
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/brehmer/miniconda3/envs/ml/bin/:$PATH'
 export OMP_NUM_THREADS='1'

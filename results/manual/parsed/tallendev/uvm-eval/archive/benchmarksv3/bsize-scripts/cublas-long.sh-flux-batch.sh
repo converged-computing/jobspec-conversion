@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-ricecake-1963
+#FLUX: --job-name=stinky-citrus-9232
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=1
 module load cuda

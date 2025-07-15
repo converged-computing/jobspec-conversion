@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lemur-2543
+#FLUX: --job-name=fat-spoon-0400
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Loading modules"
 module use /cm/shared/ex3-modules/latest/modulefiles

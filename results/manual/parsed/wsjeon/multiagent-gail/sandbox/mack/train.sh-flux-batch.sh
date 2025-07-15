@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="train"
+#FLUX: --job-name=train
 #FLUX: -c=6
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LC_ALL='C.UTF-8'
 export LANG='C.UTF-8'

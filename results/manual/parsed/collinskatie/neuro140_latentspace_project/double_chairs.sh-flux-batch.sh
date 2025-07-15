@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-bits-7386
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-spoon-3225
+#FLUX: --urgency=16
 
 module load openmind/anaconda/3-2019.10; module load openmind/cuda/9.1;
 source activate mesh_funcspace;

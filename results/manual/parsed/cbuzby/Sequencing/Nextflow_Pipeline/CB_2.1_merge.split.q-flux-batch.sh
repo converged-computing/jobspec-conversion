@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gatk_merge_edit
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gatk/4.2.0.0

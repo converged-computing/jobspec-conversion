@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-latke-4649
-#FLUX: --priority=16
+#FLUX: --job-name=astute-leopard-2067
+#FLUX: --urgency=16
 
 export PIN_ROOT='/uufs/chpc.utah.edu/common/home/u0993036/pintool/newpin/'
 export PTOOL_ROOT='/uufs/chpc.utah.edu/common/home/u0993036/pintool/newpin/source/tools'

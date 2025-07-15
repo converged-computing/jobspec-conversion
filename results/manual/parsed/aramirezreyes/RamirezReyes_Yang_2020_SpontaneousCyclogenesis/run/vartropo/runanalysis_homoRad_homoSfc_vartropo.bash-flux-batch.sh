@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cat-4346
+#FLUX: --job-name=conspicuous-earthworm-6647
 #FLUX: -N=3
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$SCRATCH'
 

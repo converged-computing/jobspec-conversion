@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="$2"
+#FLUX: --job-name=$2
 #FLUX: --queue=normal
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $1
 echo $2

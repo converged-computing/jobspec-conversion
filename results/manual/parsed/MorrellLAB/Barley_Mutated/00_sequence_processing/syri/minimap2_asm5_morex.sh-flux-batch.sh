@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-plant-8520
-#FLUX: --priority=16
+#FLUX: --job-name=angry-plant-5184
+#FLUX: --urgency=16
 
 set -e
 set -o pipefail

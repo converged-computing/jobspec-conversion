@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="CUDA is functional"
+#FLUX: --job-name=CUDA is functional
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2023r1
 source examples/slurm_header.sh

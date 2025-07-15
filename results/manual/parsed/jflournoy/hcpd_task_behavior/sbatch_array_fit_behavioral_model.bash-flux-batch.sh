@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-omelette-6956
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-car-5675
+#FLUX: --urgency=16
 
 chains=(1 2 3 4)
 models=(rtagepropot)

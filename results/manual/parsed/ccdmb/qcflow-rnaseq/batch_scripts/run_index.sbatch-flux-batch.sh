@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-bicycle-2161
+#FLUX: --job-name=crusty-itch-2060
 #FLUX: -c=2
 #FLUX: --queue=work
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow/22.10.0
 module load singularity/3.11.4-slurm

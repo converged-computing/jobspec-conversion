@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-parsnip-3321
+#FLUX: --job-name=buttery-avocado-0699
 #FLUX: --queue=test
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EXE='/bin/hostname'
 

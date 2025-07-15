@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lizard-6793
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-avocado-3913
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NihanPol/injection_analysis/model_general_ipta_orig_data.sh

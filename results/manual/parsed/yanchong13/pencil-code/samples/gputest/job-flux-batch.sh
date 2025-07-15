@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-blackbean-8158
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-kerfuffle-8242
+#FLUX: --urgency=16
 
 rm -f LOCK
 ./start.csh

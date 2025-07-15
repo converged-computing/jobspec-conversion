@@ -2,7 +2,7 @@
 #FLUX: --job-name=LAMMPS_DATA
 #FLUX: -n=40
 #FLUX: --queue=matador
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euf -o pipefail
 readonly gpu_count=1

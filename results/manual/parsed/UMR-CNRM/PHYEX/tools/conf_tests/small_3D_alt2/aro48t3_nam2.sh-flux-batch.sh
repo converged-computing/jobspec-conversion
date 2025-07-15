@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-arm-5146
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-lamp-5743
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

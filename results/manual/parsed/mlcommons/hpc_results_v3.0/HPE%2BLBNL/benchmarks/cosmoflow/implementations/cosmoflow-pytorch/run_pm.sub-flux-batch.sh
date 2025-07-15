@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-soup-3578
+#FLUX: --job-name=boopy-rabbit-4668
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODEL_NAME='cosmoflow'
 export MODEL_FRAMEWORK='pytorch'

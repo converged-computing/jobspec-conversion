@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fepsA2
 #FLUX: --queue=debug
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$gcc9libs:$LD_LIBRARY_PATH'
 

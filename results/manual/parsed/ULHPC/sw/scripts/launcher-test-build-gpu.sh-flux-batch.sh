@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lettuce-5955
+#FLUX: --job-name=grated-lemur-6288
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir -p logs
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

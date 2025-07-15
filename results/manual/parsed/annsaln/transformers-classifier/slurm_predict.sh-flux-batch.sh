@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-parrot-5286
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-lizard-3855
+#FLUX: --urgency=16
 
 export OUTPUT_DIR='models'
 export PRED_DIR='predictions'

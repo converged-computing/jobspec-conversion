@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-nunchucks-4660
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-leg-6683
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MarkAWard/kmeans/subs/sk1_1.q

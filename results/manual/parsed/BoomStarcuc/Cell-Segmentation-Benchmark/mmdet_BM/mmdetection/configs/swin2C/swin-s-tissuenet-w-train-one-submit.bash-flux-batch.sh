@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-muffin-3548
-#FLUX: --priority=16
+#FLUX: --job-name=fat-punk-9911
+#FLUX: --urgency=16
 
 tissues=("Colon" "lymph_node_metastasis" "Spleen" "Pancreas" "Epidermis" "Breast" "Lymph_Node" "Tonsil" "Lung" "Esophagus")
 CONFIG_DIR='mmdetection/configs/swin2C'

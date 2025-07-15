@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-malarkey-6605
+#FLUX: --job-name=boopy-frito-7537
 #FLUX: -N=6
 #FLUX: -n=6
 #FLUX: --queue=west
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

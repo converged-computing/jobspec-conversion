@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-fork-5153
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-knife-9913
+#FLUX: --urgency=16
 
 module load bioinfo-tools Nextflow 
 rm -f metontiime2.nf

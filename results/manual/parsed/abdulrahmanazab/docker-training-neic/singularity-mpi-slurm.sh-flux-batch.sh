@@ -2,7 +2,7 @@
 #FLUX: --job-name=hello
 #FLUX: -n=64
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /cluster/bin/jobsetup
 module purge   # clear any inherited modules

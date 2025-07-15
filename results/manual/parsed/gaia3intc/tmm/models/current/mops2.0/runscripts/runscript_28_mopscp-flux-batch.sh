@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-peanut-7453
+#FLUX: --job-name=wobbly-eagle-8129
 #FLUX: -t=4800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 echo "Dir in slurm: " $PWD

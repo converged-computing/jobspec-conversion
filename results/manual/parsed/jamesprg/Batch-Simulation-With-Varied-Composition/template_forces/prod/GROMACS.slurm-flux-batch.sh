@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-truffle-9809
+#FLUX: --job-name=expressive-buttface-0289
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 imodule load icc_17-impi_2017

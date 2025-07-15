@@ -2,7 +2,7 @@
 #FLUX: --job-name=gpu_basics
 #FLUX: --queue=gpuq
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set echo 
 umask 0022 

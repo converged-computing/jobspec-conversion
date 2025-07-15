@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-arm-7607
-#FLUX: --queue=a40        # Use GPU partition "a100"
-#FLUX: --priority=16
+#FLUX: --job-name=phat-mango-2933
+#FLUX: --queue=a40
+#FLUX: --urgency=16
 
 export EPOCHS='50'
 export MODEL='resnet50'

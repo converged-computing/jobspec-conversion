@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nmmo2
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TUNE_RESULT_DIR='./evo_experiment/'
 

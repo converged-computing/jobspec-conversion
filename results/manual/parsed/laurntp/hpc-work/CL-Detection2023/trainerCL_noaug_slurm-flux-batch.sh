@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-poo-7754
+#FLUX: --job-name=scruptious-butter-3110
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

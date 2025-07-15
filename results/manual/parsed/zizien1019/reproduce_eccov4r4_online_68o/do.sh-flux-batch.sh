@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-banana-3842
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-platanos-1166
+#FLUX: --urgency=16
 
 export LANG='en_US.utf8'
 export LC_ALL='en_US.utf8'

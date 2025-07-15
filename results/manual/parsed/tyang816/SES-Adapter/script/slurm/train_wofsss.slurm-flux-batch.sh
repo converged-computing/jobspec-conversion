@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-leg-3084
+#FLUX: --job-name=carnivorous-despacito-3370
 #FLUX: -c=16
 #FLUX: -t=15552000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='0'
 export NCCL_DEBUG='INFO'

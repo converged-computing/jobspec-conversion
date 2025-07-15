@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=captioning-unified
 #FLUX: --queue=gaia-lg
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRC='/nas/gaia02/users/napiersk/github/clean/unified-io-inference'
 export INPUT_FILE='caption-part2.txt'

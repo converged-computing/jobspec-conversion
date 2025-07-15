@@ -2,7 +2,7 @@
 #FLUX: --job-name=train_multihot_model
 #FLUX: --queue=gpu-short
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CWD='$(pwd)'
 export PATH_TO_PYFILE='$CWD'

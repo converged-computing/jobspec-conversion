@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-arm-4340
+#FLUX: --job-name=moolicious-platanos-9687
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda
 source /bgfs01/insite/utsab.shrestha/programs/gmx_plumed4/gromacs-2018.8/install_dir/bin/GMXRC.bash

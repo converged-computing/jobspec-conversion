@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-general-1599
-#FLUX: --priority=16
+#FLUX: --job-name=purple-parsnip-4850
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='6'
 

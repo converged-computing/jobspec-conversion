@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cinnamonbun-9813
+#FLUX: --job-name=delicious-noodle-8732
 #FLUX: --queue=overflow
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /labs/hulab/stark_conda/bin/activate
 conda activate base_pytorch

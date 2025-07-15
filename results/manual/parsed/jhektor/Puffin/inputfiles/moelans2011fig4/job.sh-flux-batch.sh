@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-peas-1981
+#FLUX: --job-name=nerdy-lentil-4340
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cat $0
 ml load GCC/6.3.0-2.27

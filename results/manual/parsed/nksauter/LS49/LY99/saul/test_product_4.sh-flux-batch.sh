@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-destiny-3918
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-leg-0165
+#FLUX: --urgency=16
 
 export WORK='$SCRATCH/adse13_249/LY99'
 export OUT_DIR='${PWD}'

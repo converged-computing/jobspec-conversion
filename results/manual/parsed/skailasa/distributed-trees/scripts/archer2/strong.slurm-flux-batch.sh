@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-pot-8705
+#FLUX: --job-name=boopy-toaster-3476
 #FLUX: --queue=standard
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PKG_CONFIG_PATH='$PKG_CONFIG_PATH:/opt/cray/pe/mpich/8.0.16/ofi/gnu/9.1/lib/pkgconfig'
 export WORK='/work/e681/e681/skailasa'

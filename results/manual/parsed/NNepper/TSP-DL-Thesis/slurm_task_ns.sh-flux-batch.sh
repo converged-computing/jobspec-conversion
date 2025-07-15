@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python/3.8.6-GCCcore-10.2.0
 module load root_numpy/4.8.0-foss-2020b-Python-3.8.6

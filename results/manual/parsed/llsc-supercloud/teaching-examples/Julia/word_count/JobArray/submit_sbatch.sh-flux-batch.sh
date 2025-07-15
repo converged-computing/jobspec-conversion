@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-frito-6445
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-staircase-9307
+#FLUX: --urgency=16
 
 module load julia/1.7.3
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID

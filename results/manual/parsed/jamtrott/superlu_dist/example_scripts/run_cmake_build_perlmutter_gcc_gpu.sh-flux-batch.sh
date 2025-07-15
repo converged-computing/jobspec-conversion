@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-kerfuffle-7000
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-citrus-0376
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH//\/usr\/local\/cuda-11.7\/compat:/}'
 

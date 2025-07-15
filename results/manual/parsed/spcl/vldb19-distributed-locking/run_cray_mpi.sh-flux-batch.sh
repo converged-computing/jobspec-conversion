@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-leg-8902
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-cinnamonbun-9438
+#FLUX: --urgency=16
 
 usage () {
     echo "Script for running with mpi"

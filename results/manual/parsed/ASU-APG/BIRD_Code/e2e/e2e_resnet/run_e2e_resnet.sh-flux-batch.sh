@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-bits-2406
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-chip-3997
+#FLUX: --urgency=16
 
 module load tensorflow/1.8-agave-gpu
 source ~/work/code/pytorch1_0/bin/activate

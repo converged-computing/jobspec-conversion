@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-poodle-5839
+#FLUX: --job-name=arid-puppy-0622
 #FLUX: -c=20
 #FLUX: --queue=xeon-g6-volta
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOTAL_GPUS='${SLURM_NTASKS}'
 export GPUS_PER_NODE='2'

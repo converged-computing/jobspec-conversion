@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-kerfuffle-2922
+#FLUX: --job-name=blue-cupcake-5190
 #FLUX: -N=4
 #FLUX: -n=12
 #FLUX: --queue=mem192
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python
 module load scikit

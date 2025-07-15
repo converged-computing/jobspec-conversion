@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-diablo-7513
+#FLUX: --job-name=hello-motorcycle-6442
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

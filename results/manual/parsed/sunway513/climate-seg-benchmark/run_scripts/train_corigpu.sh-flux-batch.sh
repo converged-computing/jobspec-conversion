@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-leopard-5476
+#FLUX: --job-name=eccentric-platanos-6738
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

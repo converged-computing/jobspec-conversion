@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-staircase-0527
+#FLUX: --job-name=hello-pastry-3779
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 supported_archs="haswell skylake sandybridge"
 usage() {

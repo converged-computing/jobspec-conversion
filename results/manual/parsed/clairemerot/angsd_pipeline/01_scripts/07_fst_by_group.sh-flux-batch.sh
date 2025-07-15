@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-fudge-4577
+#FLUX: --job-name=loopy-animal-9861
 #FLUX: -t=1814400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NB_CPU=6 #change accordingly in SLURM header
 NSITES=500000 #to make realSFS goes faster -reduce the number of sites considered

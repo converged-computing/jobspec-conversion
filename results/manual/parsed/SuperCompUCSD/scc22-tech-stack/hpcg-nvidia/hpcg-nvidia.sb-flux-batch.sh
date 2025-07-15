@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="hpcggpu"
+#FLUX: --job-name=hpcggpu
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module reset
 module load gpu

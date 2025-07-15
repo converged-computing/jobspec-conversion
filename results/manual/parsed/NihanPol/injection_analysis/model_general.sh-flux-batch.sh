@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-peanut-butter-7532
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-carrot-9687
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NihanPol/injection_analysis/model_general.sh

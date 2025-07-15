@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-staircase-7781
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-parsnip-4091
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AMReX-Astro/Nyx/Exec/Scaling/run_short.summit

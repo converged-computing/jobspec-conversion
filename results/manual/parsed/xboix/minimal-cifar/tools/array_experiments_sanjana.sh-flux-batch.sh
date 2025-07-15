@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=minimal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /om/user/sanjanas/minimal-cifar/
 /om2/user/jakubk/miniconda3/envs/torch/bin/python -c 'import torch; print(torch.rand(2,3).cuda())'

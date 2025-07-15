@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-hobbit-7990
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-taco-5715
+#FLUX: --urgency=16
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'
 export HOROVOD_CUDA_INCLUDE='$CUDA_HOME/include'

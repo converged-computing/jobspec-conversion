@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-motorcycle-4216
+#FLUX: --job-name=joyous-punk-8426
 #FLUX: --queue=cpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ${MODULES} ${OMPIVERSION}
 cd ${SCRATCH_FLUPS}

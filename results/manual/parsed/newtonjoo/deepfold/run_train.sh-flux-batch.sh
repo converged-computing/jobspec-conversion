@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-chair-3710
-#FLUX: --priority=16
+#FLUX: --job-name=blank-avocado-4594
+#FLUX: --urgency=16
 
 echo "train run"
 log=./logs/train_log

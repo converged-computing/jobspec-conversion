@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-caramel-4715
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-eagle-2472
+#FLUX: --urgency=16
 
 module purge
 module load cutadapt/1.8.1-fasrc01

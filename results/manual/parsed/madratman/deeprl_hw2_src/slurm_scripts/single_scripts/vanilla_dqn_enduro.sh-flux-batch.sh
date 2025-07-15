@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-puppy-7390
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-general-0811
+#FLUX: --urgency=16
 
 srun echo "I am on"
 srun echo $HOSTNAME

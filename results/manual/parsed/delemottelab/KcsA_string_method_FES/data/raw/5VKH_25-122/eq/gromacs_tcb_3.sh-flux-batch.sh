@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-hobbit-8006
-#FLUX: --priority=16
+#FLUX: --job-name=tart-chip-6833
+#FLUX: --urgency=16
 
 module unload gromcas
  module unload gromacs/2020.2

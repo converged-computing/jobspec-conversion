@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-leopard-3727
+#FLUX: --job-name=evasive-lemur-1757
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROFILER='cupy'
 export enable_xla='noxla'

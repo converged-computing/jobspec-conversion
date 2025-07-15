@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-sundae-5254
-#FLUX: --priority=16
+#FLUX: --job-name=fat-kitty-0090
+#FLUX: --urgency=16
 
 set -e
 cmd() {

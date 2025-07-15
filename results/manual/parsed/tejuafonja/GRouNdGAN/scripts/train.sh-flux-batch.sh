@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=booster
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

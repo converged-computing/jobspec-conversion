@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=antismash
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate /beegfs/home/fbiermann/miniconda3_supernew/envs/antismash7

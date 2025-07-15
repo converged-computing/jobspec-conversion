@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-staircase-5915
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-buttface-5741
+#FLUX: --urgency=16
 
 export JUPYTER_RUNTIME_DIR='$WORK'
 

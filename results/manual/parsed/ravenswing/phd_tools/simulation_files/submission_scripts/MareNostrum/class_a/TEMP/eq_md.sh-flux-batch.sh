@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-signal-1992
+#FLUX: --job-name=red-nalgas-1032
 #FLUX: -N=4
 #FLUX: -c=2
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FN='$(cd ..; basename -- "$PWD")'
 export GMX='gmx_mpi'

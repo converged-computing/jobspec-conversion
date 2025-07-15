@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bicycle-5374
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-mango-1061
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sundials-codes/sundials-manyvector-demo/tests/magma_scaling/jobscript_summit.lsf

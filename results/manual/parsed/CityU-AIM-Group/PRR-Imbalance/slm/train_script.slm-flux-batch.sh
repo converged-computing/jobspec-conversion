@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-knife-5046
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-toaster-2586
+#FLUX: --urgency=16
 
 echo "Submitted from:"$SLURM_SUBMIT_DIR" on node:"$SLURM_SUBMIT_HOST
 echo "Running on node "$SLURM_JOB_NODELIST 

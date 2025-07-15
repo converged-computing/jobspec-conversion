@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-frito-4175
-#FLUX: --priority=16
+#FLUX: --job-name=phat-chip-0058
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'
 export OMP_PLACES='threads'

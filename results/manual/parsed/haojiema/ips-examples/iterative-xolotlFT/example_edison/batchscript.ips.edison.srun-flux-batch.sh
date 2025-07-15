@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-poo-4846
+#FLUX: --job-name=goodbye-cat-4787
 #FLUX: -N=4
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='24'
 export OMP_PLACES='threads'

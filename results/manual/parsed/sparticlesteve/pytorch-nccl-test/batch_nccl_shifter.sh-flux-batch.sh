@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-peas-9928
+#FLUX: --job-name=gloopy-peanut-9842
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=fastp_array
 #FLUX: -c=4
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load fastp/0.23.4-GCC-11.3.0

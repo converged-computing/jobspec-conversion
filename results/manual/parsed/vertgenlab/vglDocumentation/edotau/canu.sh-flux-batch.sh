@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-avocado-2569
+#FLUX: --job-name=cowy-itch-5362
 #FLUX: -c=8
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 canu=/data/lowelab/edotau/software/canu/Linux-amd64/bin/canu
 module add java/9-gcb01

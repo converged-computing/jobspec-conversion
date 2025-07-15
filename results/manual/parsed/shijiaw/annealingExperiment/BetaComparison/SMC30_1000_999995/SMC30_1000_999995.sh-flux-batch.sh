@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-taco-5448
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-soup-8604
+#FLUX: --urgency=16
 
 module load r/3.4.0
 module load java/1.8.0_121

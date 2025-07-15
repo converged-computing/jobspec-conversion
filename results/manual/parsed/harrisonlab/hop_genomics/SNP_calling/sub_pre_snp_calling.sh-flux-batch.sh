@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-general-0537
+#FLUX: --job-name=anxious-general-4150
 #FLUX: -c=16
 #FLUX: --queue=himem
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 InputSam=$1
 Prefix=$2

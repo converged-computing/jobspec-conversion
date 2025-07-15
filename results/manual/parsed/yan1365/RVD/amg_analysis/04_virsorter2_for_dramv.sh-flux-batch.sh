@@ -2,7 +2,7 @@
 #FLUX: --job-name=virsorter2_%j
 #FLUX: -n=48
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 START=$SECONDS
 part=${1}

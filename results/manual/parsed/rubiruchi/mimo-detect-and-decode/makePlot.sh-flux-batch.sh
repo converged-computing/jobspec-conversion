@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=PlotBERBaseline
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Start test"
 module load matlab 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-peanut-1553
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-car-1739
+#FLUX: --urgency=16
 
 source /home/ferreira/.profile
 source activate dino

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-blackbean-0172
+#FLUX: --job-name=chunky-rabbit-5596
 #FLUX: -t=86100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load tensorflow/1.13.1-py36-gpu
 module load python/3.6.5

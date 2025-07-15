@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-parrot-2400
-#FLUX: --priority=16
+#FLUX: --job-name=fat-latke-4340
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 rm -rf /home/willc97/dask-worker-space/*

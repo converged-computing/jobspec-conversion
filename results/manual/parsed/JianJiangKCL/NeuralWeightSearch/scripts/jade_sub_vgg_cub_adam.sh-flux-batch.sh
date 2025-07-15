@@ -2,7 +2,7 @@
 #FLUX: --job-name=vgg_cub
 #FLUX: -c=4
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate KM

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pot-3622
+#FLUX: --job-name=swampy-truffle-6985
 #FLUX: -n=8
 #FLUX: --queue=cpu
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "loading modules"
 module load GCC/10.3.0

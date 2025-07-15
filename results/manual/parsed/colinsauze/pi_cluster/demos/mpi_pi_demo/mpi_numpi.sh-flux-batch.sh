@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=calculate_pi
 #FLUX: -n=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/pi/pi_cluster/mpi_pi_demo
 start_time=`date +%s`

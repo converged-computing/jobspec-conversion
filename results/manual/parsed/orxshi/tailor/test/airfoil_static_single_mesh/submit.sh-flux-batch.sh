@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lemon-9916
+#FLUX: --job-name=dirty-cupcake-3271
 #FLUX: -n=64
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mpirun --tag-output --report-bindings /usr/bin/time -f '%e %S %U %P %M' -o "timing.dat" --append ./out
     #--show-leak-kinds=all \

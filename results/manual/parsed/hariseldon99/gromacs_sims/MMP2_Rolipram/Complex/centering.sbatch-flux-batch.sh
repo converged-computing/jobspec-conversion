@@ -2,7 +2,7 @@
 #FLUX: --job-name=gmx_centering
 #FLUX: --queue=CPU
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RUNTIME='$( echo "$end - $start" | bc -l )'
 

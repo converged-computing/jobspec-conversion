@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-destiny-9808
+#FLUX: --job-name=fugly-omelette-0094
 #FLUX: -n=32
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load java
 output=bcr/output

@@ -2,7 +2,7 @@
 #FLUX: --job-name=train_wave
 #FLUX: --queue=gpu-short
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${HOME}/context-group-detection/'
 

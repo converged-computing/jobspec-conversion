@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Individual_Samples_scRNA-MultiKClustering_AlternateSeed-${i}
 #FLUX: --queue=allnodes
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 declare -a StringArray=("35EE8L 3821AL 49CFCL 4B146L 4C2E5L T47D")
 for i in ${StringArray[@]}

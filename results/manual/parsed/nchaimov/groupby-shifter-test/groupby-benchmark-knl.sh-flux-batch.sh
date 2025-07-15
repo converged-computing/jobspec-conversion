@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-fudge-8169
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-lamp-1039
+#FLUX: --urgency=16
 
 export JAVA_HOME='/usr/lib/jvm/java-8-oracle'
 export SPARK_HOME='/opt/spark'

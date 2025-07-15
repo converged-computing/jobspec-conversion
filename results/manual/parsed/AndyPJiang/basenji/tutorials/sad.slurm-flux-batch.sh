@@ -4,7 +4,7 @@
 #FLUX: -c=4
 #FLUX: --queue=physical
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BASENJIDIR='/data/gpfs/projects/punim0614/andy/basenji21/basenji'
 export PATH='$BASENJIDIR/bin:$PATH'

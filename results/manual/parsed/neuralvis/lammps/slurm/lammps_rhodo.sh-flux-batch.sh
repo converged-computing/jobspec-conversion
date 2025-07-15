@@ -3,7 +3,7 @@
 #FLUX: -N=100
 #FLUX: --queue=workq
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EXPERIMENT_NAME='$SLURM_JOB_NAME'
 export TOTAL_NC='$SLURM_JOB_NUM_NODES'

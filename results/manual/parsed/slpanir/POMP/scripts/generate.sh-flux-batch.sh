@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-puppy-5579
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-pancake-0108
+#FLUX: --urgency=16
 
 export MPLM='xlmrL'
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'

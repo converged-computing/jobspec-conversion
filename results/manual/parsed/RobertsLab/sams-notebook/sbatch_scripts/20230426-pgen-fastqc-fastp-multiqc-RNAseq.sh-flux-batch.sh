@@ -2,7 +2,7 @@
 #FLUX: --job-name=20230426-pgen-fastqc-fastp-multiqc-RNAseq
 #FLUX: --queue=srlab
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 https://robertslab.github.io/sams-notebook/2022/03/23/Differential-Gene-Expression-P.generosa-DGE-Between-Tissues-Using-Nextlow-NF-Core-RNAseq-Pipeline-on-Mox.html
 fastq_pattern='*.fq.gz'

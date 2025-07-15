@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cattywampus-3479
+#FLUX: --job-name=strawberry-eagle-2533
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/anaconda3-2018.12
 source activate pytorch-2023

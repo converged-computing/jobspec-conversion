@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-signal-3630
+#FLUX: --job-name=expensive-lamp-6379
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /public/data1/users/leishiye
 source .bashrc

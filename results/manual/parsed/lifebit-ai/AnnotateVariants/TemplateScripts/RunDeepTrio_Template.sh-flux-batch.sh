@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-mango-9246
+#FLUX: --job-name=quirky-peanut-butter-2825
 #FLUX: -c=40
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 BIN_VERSION="1.1.0"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-cupcake-6139
-#FLUX: --priority=16
+#FLUX: --job-name=arid-pot-7614
+#FLUX: --urgency=16
 
 module purge
 module load intel/18.0.5-fasrc01

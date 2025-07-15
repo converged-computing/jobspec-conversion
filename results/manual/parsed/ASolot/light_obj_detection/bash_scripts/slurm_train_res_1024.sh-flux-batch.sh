@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-hope-1729
+#FLUX: --job-name=gassy-omelette-9196
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 numnodes=$SLURM_JOB_NUM_NODES
 numtasks=$SLURM_NTASKS

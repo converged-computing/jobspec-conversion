@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Extract driving data from summer 2021 drives"
+#FLUX: --job-name=Extract driving data from summer 2021 drives
 #FLUX: --queue=main
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 BAGS=(
     '2021-05-20-12-36-10_e2e_sulaoja_20_30.bag' \

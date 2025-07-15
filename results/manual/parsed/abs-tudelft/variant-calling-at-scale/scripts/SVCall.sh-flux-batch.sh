@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leader-9858
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-peanut-butter-9718
+#FLUX: --urgency=16
 
 export SPARK_HOME='/home/tahmad/tahmad/spark-3.0.0-bin-hadoop2.7'
 export MASTER='$MASTER'

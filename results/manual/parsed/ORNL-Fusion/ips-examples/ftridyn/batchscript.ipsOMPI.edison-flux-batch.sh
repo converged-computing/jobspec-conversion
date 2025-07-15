@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-itch-4132
+#FLUX: --job-name=hanky-hope-3365
 #FLUX: -N=2
 #FLUX: --queue=regular
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_ROOT='/project/projectdirs/atom/users/elwasif/ompi/install_4.0'
 export PATH='$OMPI_ROOT/bin:$PATH'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-bits-0682
+#FLUX: --job-name=salted-bike-9398
 #FLUX: -N=2
 #FLUX: -c=3
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EXP_DIR='/storage/user/koestlel/dr_experiments/slurm/$SLURM_JOB_ID'
 export NCCL_DEBUG='INFO'

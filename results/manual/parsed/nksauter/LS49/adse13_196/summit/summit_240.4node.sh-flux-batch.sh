@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cat-0295
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-train-7931
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nksauter/LS49/adse13_196/summit/summit_240.4node.sh

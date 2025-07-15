@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-underoos-9119
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-nunchucks-2748
+#FLUX: --urgency=16
 
   module load singularity
   #SLURM_ARRAY_TASK_ID=1

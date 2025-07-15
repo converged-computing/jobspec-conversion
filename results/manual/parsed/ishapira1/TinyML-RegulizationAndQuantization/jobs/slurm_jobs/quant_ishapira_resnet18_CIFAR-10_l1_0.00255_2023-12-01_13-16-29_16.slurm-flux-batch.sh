@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-train-9832
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-pot-5128
+#FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

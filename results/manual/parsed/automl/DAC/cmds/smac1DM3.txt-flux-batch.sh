@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-arm-8380
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-banana-3459
+#FLUX: --urgency=16
 
 source activate dac
 experi="1D3M"

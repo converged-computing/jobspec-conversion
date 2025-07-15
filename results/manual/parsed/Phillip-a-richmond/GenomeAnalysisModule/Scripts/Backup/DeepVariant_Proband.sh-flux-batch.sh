@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lizard-9671
+#FLUX: --job-name=fuzzy-poodle-7241
 #FLUX: -c=10
 #FLUX: --queue=defq
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='$PWD'
 

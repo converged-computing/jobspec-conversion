@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-sundae-3944
+#FLUX: --job-name=dirty-animal-7846
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel
 module load impi

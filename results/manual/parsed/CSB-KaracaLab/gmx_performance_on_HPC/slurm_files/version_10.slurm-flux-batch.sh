@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-caramel-4246
+#FLUX: --job-name=expressive-underoos-3724
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

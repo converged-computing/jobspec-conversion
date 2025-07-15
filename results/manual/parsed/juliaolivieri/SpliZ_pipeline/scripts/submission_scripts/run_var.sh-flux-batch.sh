@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=var
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 DATANAME="Tabula_muris_senis_P2_10x_with_postprocessing_cellann"

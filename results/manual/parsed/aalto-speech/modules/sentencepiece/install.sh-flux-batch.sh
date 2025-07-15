@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-earthworm-5224
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-peanut-butter-8165
+#FLUX: --urgency=16
 
 set -eu 
 NAME=sentencepiece

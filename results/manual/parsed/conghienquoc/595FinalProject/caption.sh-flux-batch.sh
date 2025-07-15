@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-general-6531
+#FLUX: --job-name=rainbow-bike-2824
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python3.7-anaconda
 module load tensorflow/1.15.5

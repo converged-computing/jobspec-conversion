@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MYNAME
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 jobName=MYNAME
 coreID=MYID

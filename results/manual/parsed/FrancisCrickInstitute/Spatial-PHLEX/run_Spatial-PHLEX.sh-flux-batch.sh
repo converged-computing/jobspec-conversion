@@ -2,7 +2,7 @@
 #FLUX: --job-name=SpatialPHLEX
 #FLUX: --queue=cpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='./singularity'
 

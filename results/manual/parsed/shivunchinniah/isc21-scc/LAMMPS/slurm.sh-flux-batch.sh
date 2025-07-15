@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=LAMMPS_provisional
 #FLUX: --queue=k40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml purge
 ml intel

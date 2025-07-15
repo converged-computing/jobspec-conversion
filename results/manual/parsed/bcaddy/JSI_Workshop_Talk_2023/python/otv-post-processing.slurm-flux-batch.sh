@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cinnamonbun-7166
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-squidward-9612
+#FLUX: --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:/lustre/orion/ast181/proj-shared/rcaddy/JSI_Workshop_Talk_2023/python'
 export PATH='/ccs/home/rcaddy/miniconda_crusher/bin:$PATH'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parsnip-0924
-#FLUX: --priority=16
+#FLUX: --job-name=milky-fudge-8838
+#FLUX: --urgency=16
 
 set -u
 dir_r=/projects/banchereau-lab/tools/3_4_4/bin

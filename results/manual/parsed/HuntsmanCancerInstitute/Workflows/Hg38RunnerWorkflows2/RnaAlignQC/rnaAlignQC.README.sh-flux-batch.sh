@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-mango-3819
+#FLUX: --job-name=fuzzy-caramel-7921
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 dataBundle=/uufs/chpc.utah.edu/common/PE/hci-bioinformatics1/atlatl/data

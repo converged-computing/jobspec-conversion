@@ -2,7 +2,7 @@
 #FLUX: --job-name=Texpose_training
 #FLUX: --queue=qgpu
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 source /apps/all/Anaconda3/2023.09-0/etc/profile.d/conda.sh

@@ -2,7 +2,7 @@
 #FLUX: --job-name=RepGAN_2
 #FLUX: --queue=gpua100
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export thisuser='$(whoami)'
 export hmd='/gpfs/users'

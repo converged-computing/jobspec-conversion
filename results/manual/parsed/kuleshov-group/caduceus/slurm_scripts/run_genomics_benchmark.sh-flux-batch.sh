@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-buttface-0515
+#FLUX: --job-name=anxious-noodle-8406
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ../ || exit  # Go to the root directory of the repo
 source setup_env.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-blackbean-6473
+#FLUX: --job-name=bricky-latke-8765
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load opencl-intel/16.4 
 module load opencl-nvidia/9.0

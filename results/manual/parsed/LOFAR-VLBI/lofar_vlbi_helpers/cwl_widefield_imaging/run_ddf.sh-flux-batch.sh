@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-malarkey-5033
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-sundae-2434
+#FLUX: --urgency=16
 
 TARGET_FOLDER=$(realpath $1)
 OUTPUT=$PWD/ddf

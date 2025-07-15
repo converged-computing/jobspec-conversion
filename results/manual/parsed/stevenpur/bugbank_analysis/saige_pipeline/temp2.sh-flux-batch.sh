@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-malarkey-8746
+#FLUX: --job-name=chocolate-pot-0228
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

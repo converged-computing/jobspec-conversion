@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lamp-8723
+#FLUX: --job-name=gassy-cherry-6714
 #FLUX: -c=20
 #FLUX: --queue=defq
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ANNOTATEVARIANTS_INSTALL=/mnt/common/WASSERMAN_SOFTWARE/AnnotateVariants/
 source $ANNOTATEVARIANTS_INSTALL/opt/miniconda3/etc/profile.d/conda.sh

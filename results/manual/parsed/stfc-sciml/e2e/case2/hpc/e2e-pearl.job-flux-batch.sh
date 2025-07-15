@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-animal-1805
-#FLUX: --priority=16
+#FLUX: --job-name=blank-carrot-8499
+#FLUX: --urgency=16
 
 export SINGULARITYENV_PYTHONPATH='/work'
 

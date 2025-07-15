@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-snack-6366
+#FLUX: --job-name=dinosaur-itch-6112
 #FLUX: -n=96
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

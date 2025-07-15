@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-platanos-5978
-#FLUX: --priority=16
+#FLUX: --job-name=angry-citrus-3115
+#FLUX: --urgency=16
 
 export KMP_BLOCKTIME='0'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

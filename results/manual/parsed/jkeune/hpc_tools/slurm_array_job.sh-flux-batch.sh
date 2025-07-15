@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=jobname
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -u # fail when using an undefined variable
 set -x # echo script lines as they are executedi

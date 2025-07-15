@@ -2,7 +2,7 @@
 #FLUX: --job-name=stable_diffusion
 #FLUX: -c=40
 #FLUX: -t=450000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROMPT='${1:-""}'
 export HEIGHT='${HEIGHT:-"256"}'

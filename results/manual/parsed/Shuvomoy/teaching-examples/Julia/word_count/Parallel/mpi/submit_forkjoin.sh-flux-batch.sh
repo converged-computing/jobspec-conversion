@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-onion-9602
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-cherry-7926
+#FLUX: --urgency=16
 
 source /etc/profile
 module load julia-latest

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-truffle-0796
+#FLUX: --job-name=fat-cherry-9545
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cat scripts/evaluation.sh
 logdir='logs/Final-cifar100-resnet110'

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-malarkey-9224
+#FLUX: --job-name=bumfuzzled-nalgas-1778
+#FLUX: --queue=gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc 
 /bin/hostname

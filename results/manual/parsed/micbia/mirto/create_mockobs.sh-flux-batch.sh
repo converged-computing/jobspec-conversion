@@ -2,7 +2,7 @@
 #FLUX: --job-name=dT
 #FLUX: -c=18
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 module load gcc/9.3.0

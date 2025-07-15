@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=savio2_1080ti
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source deactivate
 module purge

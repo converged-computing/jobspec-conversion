@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-nalgas-8607
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-leader-6845
+#FLUX: --urgency=16
 
 module load pytorch/v1.0.1
 which python

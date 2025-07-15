@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=Iden_matrix_interval_1_train
 #FLUX: -n=28
-#FLUX: --queue=gpu              #Request the GPU partition/queue
+#FLUX: --queue=gpu
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda/2-5.0.1
 source activate my_tensorflow-gpu-1.4.1

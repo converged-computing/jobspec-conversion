@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cat-0659
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-noodle-1134
+#FLUX: --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

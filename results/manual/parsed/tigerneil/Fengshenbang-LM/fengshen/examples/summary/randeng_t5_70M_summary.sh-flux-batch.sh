@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=randeng_t5_77M_summary
 #FLUX: -c=30
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PL_DEEPSPEED_CONFIG_PATH='$config_json'
 export TORCH_EXTENSIONS_DIR='/cognitive_comp/ganruyi/tmp/torch_extendsions'

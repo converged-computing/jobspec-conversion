@@ -3,7 +3,7 @@
 #FLUX: -N=32
 #FLUX: --queue=regular
 #FLUX: -t=12600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${node_thread}'
 export OMP_PLACES='threads'

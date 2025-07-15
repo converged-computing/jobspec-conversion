@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-kerfuffle-7367
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-destiny-5145
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='7'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-omelette-3320
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-soup-0218
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PerezHz/NEOs.jl/scripts/main.lsf

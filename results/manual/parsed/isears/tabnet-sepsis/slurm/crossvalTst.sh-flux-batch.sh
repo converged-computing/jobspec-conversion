@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lizard-3890
+#FLUX: --job-name=eccentric-chair-2137
 #FLUX: -c=4
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

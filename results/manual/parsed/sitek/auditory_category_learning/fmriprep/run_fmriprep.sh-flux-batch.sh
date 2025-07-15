@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-onion-4457
+#FLUX: --job-name=confused-motorcycle-7637
 #FLUX: -c=12
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add freesurfer
 module add fsl

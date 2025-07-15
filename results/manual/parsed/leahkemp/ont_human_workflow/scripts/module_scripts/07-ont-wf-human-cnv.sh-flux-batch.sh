@@ -3,7 +3,7 @@
 #FLUX: -c=48
 #FLUX: --queue=prod
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SAMPLE="OM1052A"
 WKDIR="/NGS/humangenomics/active/2022/run/ont_human_workflow/"

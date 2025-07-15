@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=phat-knife-1757
-#FLUX: --priority=16
+#FLUX: --job-name=tart-nalgas-2138
+#FLUX: --urgency=16
 

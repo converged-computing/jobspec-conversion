@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-buttface-1214
+#FLUX: --job-name=evasive-pancake-3481
 #FLUX: -N=6
 #FLUX: -n=144
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MXM_TLS='self,shm,rc'

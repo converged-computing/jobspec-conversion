@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: -c=2
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 models=(BROAD.True BROAD.False LUAD.False LUAD.True)

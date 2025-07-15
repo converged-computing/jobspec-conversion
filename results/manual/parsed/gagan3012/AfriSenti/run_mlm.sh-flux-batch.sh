@@ -2,7 +2,7 @@
 #FLUX: --job-name=train_image_v2
 #FLUX: -c=4
 #FLUX: -t=39599
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

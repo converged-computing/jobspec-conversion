@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ref_format_ncbi
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:~/genmap-build/bin'
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=lyft
 #FLUX: -c=12
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sleep $(( (RANDOM%10) + 1 )) # to avoid issues when submitting large amounts of jobs
 DATA_PATH=/lyft/train

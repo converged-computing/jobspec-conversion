@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-animal-7818
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-knife-7466
+#FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/yb_lyso/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='1'

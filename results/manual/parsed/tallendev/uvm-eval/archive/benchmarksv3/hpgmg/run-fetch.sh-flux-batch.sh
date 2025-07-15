@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-nalgas-3012
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-ricecake-4929
+#FLUX: --urgency=16
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'
 export OMP_NUM_THREADS='$(($CORES/$MPI))'

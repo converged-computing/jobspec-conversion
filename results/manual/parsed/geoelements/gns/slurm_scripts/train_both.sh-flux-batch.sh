@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-soup-6765
-#FLUX: --priority=16
+#FLUX: --job-name=tart-toaster-7402
+#FLUX: --urgency=16
 
 set -e
 cd ..

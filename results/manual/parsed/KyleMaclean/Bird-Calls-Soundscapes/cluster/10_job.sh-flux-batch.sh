@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-lemon-8767
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-pedo-3746
+#FLUX: --urgency=16
 
 module load nvidia/cuda-11.0
 module load nvidia/cudnn-v8.0.180-forcuda11.0

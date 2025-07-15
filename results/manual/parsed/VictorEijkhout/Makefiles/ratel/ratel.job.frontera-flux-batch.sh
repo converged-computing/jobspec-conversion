@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-hope-4952
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-muffin-4638
+#FLUX: --urgency=16
 
 TAU=1
 INTEL=24

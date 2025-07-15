@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-frito-9930
+#FLUX: --job-name=psycho-diablo-6894
 #FLUX: --queue=neuro-hsc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab/R2022a
 cd /carc/scratch/projects/mckenzie2016183/code/matlab

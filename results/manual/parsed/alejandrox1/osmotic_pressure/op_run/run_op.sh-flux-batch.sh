@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-dog-9900
+#FLUX: --job-name=moolicious-leg-1952
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 help=$(grep "^#-" "${BASH_SOURCE[0]}" | cut -c 4-)
 opt_h() 

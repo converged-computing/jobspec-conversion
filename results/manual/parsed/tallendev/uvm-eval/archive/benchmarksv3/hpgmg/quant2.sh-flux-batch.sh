@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-caramel-2082
+#FLUX: --job-name=rainbow-kerfuffle-5012
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'
 export CUDA_VISIBLE_DEVICES='0'

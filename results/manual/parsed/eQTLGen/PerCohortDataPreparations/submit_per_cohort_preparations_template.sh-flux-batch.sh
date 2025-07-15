@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="RunDataPreparations"
+#FLUX: --job-name=RunDataPreparations
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='../../singularitycache'
 export NXF_HOME='../../nextflowcache'

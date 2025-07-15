@@ -2,7 +2,7 @@
 #FLUX: --job-name=j_GATK
 #FLUX: --queue=batch
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 d $SLURM_SUBMIT_DIR
 source config.txt

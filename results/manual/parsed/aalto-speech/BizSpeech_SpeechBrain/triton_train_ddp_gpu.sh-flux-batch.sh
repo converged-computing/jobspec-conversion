@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=biz_ddp
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MONITORING_INTERVAL=120
 MONITORING_FILE=slurm-${SLURM_JOB_ID}.out

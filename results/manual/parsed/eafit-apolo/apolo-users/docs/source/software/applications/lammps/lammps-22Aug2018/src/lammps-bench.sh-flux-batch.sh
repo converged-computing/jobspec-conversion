@@ -3,7 +3,7 @@
 #FLUX: -n=16
 #FLUX: --queue=longjobs
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export WDIR='<REPO_DIR>/bench'

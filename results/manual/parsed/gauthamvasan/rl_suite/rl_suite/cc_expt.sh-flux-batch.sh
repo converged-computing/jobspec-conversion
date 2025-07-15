@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-train-3771
+#FLUX: --job-name=crusty-platanos-7969
 #FLUX: -c=6
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/vasan/src/rl_suite:/home/vasan/src/incremental_rl'
 export MUJOCO_GL='egl'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lettuce-8888
-#FLUX: --priority=16
+#FLUX: --job-name=salted-leopard-6600
+#FLUX: --urgency=16
 
 source /home/ferreira/.profile
 source activate dino

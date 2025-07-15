@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-omelette-3490
+#FLUX: --job-name=salted-omelette-8668
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 source /shared/share/aac1plano.modules.bash

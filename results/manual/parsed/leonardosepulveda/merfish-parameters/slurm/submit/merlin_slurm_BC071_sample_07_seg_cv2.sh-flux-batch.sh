@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-fork-3574
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-cherry-3529
+#FLUX: --urgency=16
 
 date +'Starting at %R.'
 source centos7-modules.sh

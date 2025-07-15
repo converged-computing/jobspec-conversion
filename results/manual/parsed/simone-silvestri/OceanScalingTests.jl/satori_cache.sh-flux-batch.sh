@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-squidward-9774
+#FLUX: --job-name=cowy-knife-9885
 #FLUX: -c=16
 #FLUX: --queue=reservation7
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_osc='^ucx'

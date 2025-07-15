@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-fork-9131
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-spoon-9731
+#FLUX: --urgency=16
 
 PROJDIR=../../simple-gemm/c
 EXECUTABLE=$PROJDIR/gemm-dense-hip

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-eagle-4837
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-lizard-1810
+#FLUX: --urgency=16
 
 usage ()
 {

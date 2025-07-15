@@ -3,7 +3,7 @@
 #FLUX: -c=18
 #FLUX: --queue=gpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e 
 module purge

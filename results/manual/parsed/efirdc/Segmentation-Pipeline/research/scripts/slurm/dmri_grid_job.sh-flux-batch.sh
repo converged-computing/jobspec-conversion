@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-peas-0678
+#FLUX: --job-name=delicious-cattywampus-0172
 #FLUX: -c=8
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPLBACKEND='agg'
 

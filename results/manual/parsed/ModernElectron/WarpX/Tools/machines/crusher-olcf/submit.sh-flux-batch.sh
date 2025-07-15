@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-platanos-0678
+#FLUX: --job-name=creamy-car-0815
 #FLUX: -c=8
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'
 export ROCFFT_RTC_CACHE_PATH='/dev/null'

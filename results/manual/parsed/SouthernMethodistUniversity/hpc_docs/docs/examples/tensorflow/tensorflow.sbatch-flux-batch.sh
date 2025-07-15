@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-animal-6433
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-nalgas-2685
+#FLUX: --urgency=16
 
 module purge
 module load tensorflow

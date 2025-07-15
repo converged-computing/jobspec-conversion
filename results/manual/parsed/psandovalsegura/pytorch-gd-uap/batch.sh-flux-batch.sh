@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-blackbean-2935
+#FLUX: --job-name=blank-lizard-5775
 #FLUX: --queue=dpart
 #FLUX: -t=12600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORK_DIR='/cfarhomes/psando/Documents/UAPs/gd-uap-pytorch/'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-buttface-7422
+#FLUX: --job-name=faux-despacito-5625
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sudo chmod ugo=rwx -R /scratch/
 shopt -s nullglob

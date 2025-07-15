@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-arm-2815
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-blackbean-1814
+#FLUX: --urgency=16
 
 module purge
 module load anaconda3/5.2.0

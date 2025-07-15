@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=py21cm
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load daint-gpu

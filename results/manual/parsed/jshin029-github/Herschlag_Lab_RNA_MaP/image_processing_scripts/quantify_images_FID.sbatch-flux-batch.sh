@@ -3,7 +3,7 @@
 #FLUX: -c=18
 #FLUX: --queue=biochem,owners,normal
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/2.7.13
 source $SCRIPT_DIR/env/bin/activate

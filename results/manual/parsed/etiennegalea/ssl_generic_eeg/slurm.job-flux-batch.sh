@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-animal-3770
+#FLUX: --job-name=pusheena-pot-6375
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/ega470/.bashrc
 cd /var/scratch/ega470/ssl_thesis/

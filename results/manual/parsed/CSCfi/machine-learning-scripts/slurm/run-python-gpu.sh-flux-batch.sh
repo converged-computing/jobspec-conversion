@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-poodle-1069
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-soup-5058
+#FLUX: --urgency=16
 
 module load python-env/3.6.3-ml
 module list

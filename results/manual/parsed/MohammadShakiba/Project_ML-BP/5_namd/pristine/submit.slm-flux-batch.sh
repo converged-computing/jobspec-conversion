@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=namd-pristine
 #FLUX: -c=10
-#FLUX: --queue=valhalla  --qos=valhalla
+#FLUX: --queue=valhalla
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'
 export OMP_NUM_THREADS='$omp_threads'

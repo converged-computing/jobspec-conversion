@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-egg-2162
+#FLUX: --job-name=lovely-destiny-4547
 #FLUX: -N=8
 #FLUX: --exclusive
 #FLUX: --queue=general-compute
 #FLUX: -t=420
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export AKRR_NODES='8'
 export AKRR_CORES='96'

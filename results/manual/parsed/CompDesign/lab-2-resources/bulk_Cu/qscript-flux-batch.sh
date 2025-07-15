@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-parrot-5227
+#FLUX: --job-name=swampy-frito-3441
 #FLUX: -n=12
 #FLUX: --queue=normal12
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

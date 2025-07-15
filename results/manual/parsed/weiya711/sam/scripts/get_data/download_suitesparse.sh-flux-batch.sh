@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-general-8075
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-rabbit-4586
+#FLUX: --urgency=16
 
 outdir=$SUITESPARSE_PATH
 mkdir -p $outdir

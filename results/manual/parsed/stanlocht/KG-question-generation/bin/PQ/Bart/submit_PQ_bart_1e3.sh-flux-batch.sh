@@ -2,7 +2,7 @@
 #FLUX: --job-name=KGQG-bart-1e3
 #FLUX: -c=3
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2019

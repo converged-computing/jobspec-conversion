@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-banana-7079
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-train-3273
+#FLUX: --urgency=16
 
 export PATH='${PREFIX}/bin":${PATH}'
 

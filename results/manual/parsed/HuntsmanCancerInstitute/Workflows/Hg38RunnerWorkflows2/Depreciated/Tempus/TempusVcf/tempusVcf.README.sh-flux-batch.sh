@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-peanut-0355
+#FLUX: --job-name=carnivorous-diablo-0699
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED; touch STARTED
 module load singularity

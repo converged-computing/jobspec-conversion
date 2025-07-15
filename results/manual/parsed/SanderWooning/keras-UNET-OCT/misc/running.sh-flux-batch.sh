@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-hobbit-4999
-#FLUX: --priority=16
+#FLUX: --job-name=purple-cherry-0234
+#FLUX: --urgency=16
 
 module load 2019
 module load Miniconda2

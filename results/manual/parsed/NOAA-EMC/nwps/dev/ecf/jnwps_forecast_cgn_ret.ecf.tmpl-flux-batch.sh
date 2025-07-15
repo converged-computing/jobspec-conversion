@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pancake-4460
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-toaster-6908
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/nwps/dev/ecf/jnwps_forecast_cgn_ret.ecf.tmpl

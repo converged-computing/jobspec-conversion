@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-leader-0547
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-motorcycle-9336
+#FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-motorcycle-7432
+#FLUX: --job-name=hello-peas-1626
 #FLUX: -c=20
 #FLUX: --queue=eap
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 for p in venv apex; do
     if [ -e "$p" ]; then

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-peanut-butter-2195
-#FLUX: --priority=16
+#FLUX: --job-name=blue-cupcake-8876
+#FLUX: --urgency=16
 
 module load tensorflow/1.8-agave-gpu                                            
 module unload python/.2.7.14-tf18-gpu

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-salad-6670
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-taco-1650
+#FLUX: -t=172800
+#FLUX: --urgency=16
 
 module load picard
 module load java/13

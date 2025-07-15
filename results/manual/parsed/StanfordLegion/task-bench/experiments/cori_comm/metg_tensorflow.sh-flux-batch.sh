@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-egg-5823
+#FLUX: --job-name=milky-hippo-3115
 #FLUX: --exclusive
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$PWD"/../../core:"$PWD"/../../tensorflow/ops:"$LD_LIBRARY_PATH'
 

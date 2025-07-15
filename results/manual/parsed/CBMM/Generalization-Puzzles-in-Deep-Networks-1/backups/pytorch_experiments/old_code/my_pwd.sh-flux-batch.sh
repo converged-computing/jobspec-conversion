@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-truffle-9017
+#FLUX: --job-name=crunchy-poodle-5173
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd

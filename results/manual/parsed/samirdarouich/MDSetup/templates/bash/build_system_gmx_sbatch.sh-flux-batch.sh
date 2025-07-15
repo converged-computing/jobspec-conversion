@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-gato-2940
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-cinnamonbun-7038
+#FLUX: --urgency=16
 
 module purge
 module load chem/gromacs/2023.3

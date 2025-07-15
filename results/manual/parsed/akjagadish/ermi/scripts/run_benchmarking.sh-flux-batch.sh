@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-nalgas-2216
+#FLUX: --job-name=carnivorous-leader-0608
 #FLUX: -c=18
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/ermi/categorisation/
 module purge

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ma-league
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 which python3

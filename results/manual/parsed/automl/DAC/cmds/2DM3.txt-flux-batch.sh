@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-general-8082
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-gato-5870
+#FLUX: --urgency=16
 
 source activate dac
 steps=1000000

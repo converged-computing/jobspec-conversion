@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=stylegan3_garfield_training
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.3.1
 module load anaconda3/2020.07

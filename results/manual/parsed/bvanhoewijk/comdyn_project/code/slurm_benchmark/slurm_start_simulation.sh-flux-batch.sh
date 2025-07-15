@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-hippo-4616
+#FLUX: --job-name=delicious-leg-2991
 #FLUX: --exclusive
 #FLUX: --queue=genoa
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

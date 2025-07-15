@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-signal-6153
+#FLUX: --job-name=spicy-butter-1524
 #FLUX: -N=10
 #FLUX: -n=10
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 numnodes=$SLURM_JOB_NUM_NODES
 numtasks=$SLURM_NTASKS

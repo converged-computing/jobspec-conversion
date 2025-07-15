@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-citrus-5677
+#FLUX: --job-name=persnickety-house-1062
 #FLUX: -c=24
 #FLUX: -t=87120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.9 cuda cudnn
 source ~/torch/bin/activate

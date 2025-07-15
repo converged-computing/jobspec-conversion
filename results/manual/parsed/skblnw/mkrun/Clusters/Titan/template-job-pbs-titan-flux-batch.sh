@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lizard-9156
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-egg-9118
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/skblnw/mkrun/Clusters/Titan/template-job-pbs-titan

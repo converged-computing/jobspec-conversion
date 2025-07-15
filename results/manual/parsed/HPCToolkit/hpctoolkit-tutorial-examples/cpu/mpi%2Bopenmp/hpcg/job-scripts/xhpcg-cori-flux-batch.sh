@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-staircase-4661
+#FLUX: --job-name=tart-lemon-2018
 #FLUX: -N=2
 #FLUX: -c=8
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'
 export OMP_WAIT_POLICY='active'

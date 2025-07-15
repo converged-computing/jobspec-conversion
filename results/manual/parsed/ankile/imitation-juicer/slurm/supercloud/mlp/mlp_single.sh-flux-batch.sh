@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-pot-9141
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-lemur-4602
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/gridsan/asimeono/.conda/envs/furniture-env/lib/python3.8/site-packages/nvidia/cudnn/lib:$LD_LIBRARY_PATH'
 export AWS_COMMAND='/home/gridsan/asimeono/aws-cli/v2/current/bin/aws'

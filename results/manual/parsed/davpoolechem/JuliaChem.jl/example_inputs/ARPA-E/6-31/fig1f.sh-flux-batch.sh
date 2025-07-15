@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=example_inputs/ARPA-E/6-31/fig1f
 #FLUX: --queue=compute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'
 export OMP_NUM_THREADS='1'

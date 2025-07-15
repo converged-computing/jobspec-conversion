@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lettuce-1541
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-mango-9366
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Sgelet/RankConvexHull/submit.sh

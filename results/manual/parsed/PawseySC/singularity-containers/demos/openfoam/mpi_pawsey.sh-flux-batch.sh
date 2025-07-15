@@ -2,7 +2,7 @@
 #FLUX: --job-name=mpi
 #FLUX: -n=2
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 image="library://marcodelapierre/beta/openfoam:v2012"
 module unload xalt

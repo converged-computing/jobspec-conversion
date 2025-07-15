@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=exp2
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cudnn/7.0v4.0

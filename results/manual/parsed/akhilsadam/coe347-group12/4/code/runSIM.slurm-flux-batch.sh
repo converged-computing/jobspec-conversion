@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leg-3000
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-ricecake-2874
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='272'
 

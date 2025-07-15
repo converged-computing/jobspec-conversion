@@ -3,7 +3,7 @@
 #FLUX: -c=48
 #FLUX: --queue=gpu_v100,gpu_p100,gpu_a100
 #FLUX: -t=39600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load tools/python/3.8
 module load compiler/gcc/11.2.0

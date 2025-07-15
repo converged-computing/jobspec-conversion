@@ -2,7 +2,7 @@
 #FLUX: --job-name=M3F
 #FLUX: -c=4
 #FLUX: -t=240
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile ; 
 module load julia/1.4.2

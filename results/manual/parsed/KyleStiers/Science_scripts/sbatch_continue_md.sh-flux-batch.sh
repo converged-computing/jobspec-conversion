@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-rabbit-2348
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-pastry-6175
+#FLUX: --urgency=16
 
 echo "### Starting at: $(date) ###"
 source /storage/hpc/hpc-poc/micore/gromacs-gputhread/bin/GMXRC

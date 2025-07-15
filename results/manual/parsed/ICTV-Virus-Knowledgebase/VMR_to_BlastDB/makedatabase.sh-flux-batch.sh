@@ -1,7 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=ICTV_VMR_makeblastdb_e
-#FLUX: --queue=amd-hdr100 --time=00-12:00:00
-#FLUX: --priority=16
+#FLUX: --queue=amd-hdr100
+#FLUX: -t=43200
+#FLUX: --urgency=16
 
 ACCESSION_TSV=processed_accessions_e.tsv
 ALL_FASTA=./fasta_new_vmr/vmr_e.fa

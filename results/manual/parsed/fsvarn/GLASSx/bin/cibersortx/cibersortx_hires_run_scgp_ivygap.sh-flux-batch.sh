@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-leader-6647
+#FLUX: --job-name=hairy-chair-7147
 #FLUX: -c=12
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 singularity exec \

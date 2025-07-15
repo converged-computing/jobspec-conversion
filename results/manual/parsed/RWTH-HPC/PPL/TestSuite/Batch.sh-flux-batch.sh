@@ -3,7 +3,7 @@
 #FLUX: -n=2
 #FLUX: -c=48
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload intel
 module unload intelmpi

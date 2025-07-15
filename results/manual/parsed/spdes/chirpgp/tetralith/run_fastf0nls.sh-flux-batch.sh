@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-ricecake-7919
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-butter-5496
+#FLUX: --urgency=16
 
 cd $WRKDIR/chirp_estimation
 module load buildtool-easybuild

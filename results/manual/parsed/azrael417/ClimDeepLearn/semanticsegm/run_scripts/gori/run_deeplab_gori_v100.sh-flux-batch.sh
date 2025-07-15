@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-buttface-3333
+#FLUX: --job-name=peachy-diablo-6310
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$(( 40 / ${rankspernode} ))'
 export OMP_PLACES='threads'

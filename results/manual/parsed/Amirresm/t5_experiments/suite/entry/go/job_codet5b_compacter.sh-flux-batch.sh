@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pot-6695
+#FLUX: --job-name=fuzzy-eagle-1406
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_EVALUATE_OFFLINE='1'
 export HF_DATASETS_OFFLINE='1'

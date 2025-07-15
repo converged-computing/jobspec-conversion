@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="DOS"
+#FLUX: --job-name=DOS
 #FLUX: -n=24
 #FLUX: --queue=batch
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VASP_CMD='/ibex/scratch/jangira/vasp/sw/vasp.5.4.4/bin/vasp_std'
 export OMP_NUM_THREADS='1'

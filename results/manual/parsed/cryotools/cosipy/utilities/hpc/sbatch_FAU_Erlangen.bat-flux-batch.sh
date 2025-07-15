@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Test_run
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 unset SLURM_EXPORT_ENV
 module load intel64 netcdf 

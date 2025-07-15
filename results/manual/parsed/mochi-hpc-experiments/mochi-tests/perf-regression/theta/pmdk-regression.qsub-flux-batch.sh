@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=fat-platanos-0656
-#FLUX: --priority=16
+#FLUX: --job-name=hello-bicycle-5676
+#FLUX: --urgency=16
 

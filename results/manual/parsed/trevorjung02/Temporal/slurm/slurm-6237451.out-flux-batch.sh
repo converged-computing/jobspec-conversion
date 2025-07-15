@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=gpu-rtx6k
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cat $0
 echo "--------------------"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lizard-4894
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-lemon-3984
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/normundsneimanis/emotion-gait/start.sh

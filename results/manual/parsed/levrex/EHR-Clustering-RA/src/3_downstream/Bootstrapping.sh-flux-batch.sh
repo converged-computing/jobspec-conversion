@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-plant-8965
+#FLUX: --job-name=bumfuzzled-noodle-2090
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module add library/cuda/11.2/gcc.8.3.1

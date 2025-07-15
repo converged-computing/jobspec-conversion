@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-truffle-8769
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-lizard-1272
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

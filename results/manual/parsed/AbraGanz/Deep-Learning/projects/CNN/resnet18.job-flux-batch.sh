@@ -3,7 +3,7 @@
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared_course
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SBATCH --output=resnet_18.out
 module purge

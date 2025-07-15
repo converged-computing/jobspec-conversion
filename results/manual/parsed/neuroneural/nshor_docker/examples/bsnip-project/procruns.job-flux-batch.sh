@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-latke-4312
+#FLUX: --job-name=moolicious-staircase-0834
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sleep 5s
 module load singularity/3.10.2

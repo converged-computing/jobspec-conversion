@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lizard-6554
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-pedo-6509
+#FLUX: --urgency=16
 
 module load gcc/4.9.2
 module load matlab/2015b

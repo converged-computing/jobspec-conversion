@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="metagenotate_sbatch"
+#FLUX: --job-name=metagenotate_sbatch
 #FLUX: --queue=cpu2023,cpu2022,cpu2021,cpu2019,synergy
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 log_dir="$(pwd)"
 log_file="logs/metagenotate-analysis.log.txt"

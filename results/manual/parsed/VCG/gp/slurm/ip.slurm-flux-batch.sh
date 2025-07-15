@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-buttface-8695
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-puppy-7725
+#FLUX: --urgency=16
 
 export LIBRARY_PATH='/n/home05/haehn/nolearncox/src/hdf5-1.8.17/hdf5/lib:$LIBRARY_PATH'
 export LD_LIBRARY_PATH='/n/home05/haehn/nolearncox/src/hdf5-1.8.17/hdf5/lib:$LD_LIBRARY_PATH'

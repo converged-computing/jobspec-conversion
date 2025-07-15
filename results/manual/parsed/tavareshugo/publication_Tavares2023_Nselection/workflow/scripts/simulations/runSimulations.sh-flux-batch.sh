@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-sundae-8825
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-salad-7890
+#FLUX: --urgency=16
 
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate simupop

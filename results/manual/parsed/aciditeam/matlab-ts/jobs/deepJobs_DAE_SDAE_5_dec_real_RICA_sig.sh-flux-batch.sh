@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leg-4406
+#FLUX: --job-name=grated-underoos-9753
 #FLUX: --queue=mono
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.modules
 module load gcc

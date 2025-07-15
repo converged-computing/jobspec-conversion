@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-platanos-3642
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-cherry-7272
+#FLUX: --urgency=16
 
 module load matlab
 matlab -nodisplay -nosplash -nodesktop < MonteCarloRun_33.m

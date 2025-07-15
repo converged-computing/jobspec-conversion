@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-platanos-0740
+#FLUX: --job-name=buttery-gato-9494
 #FLUX: -n=15
 #FLUX: --queue=campus-new
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 load_modules() {
   module purge

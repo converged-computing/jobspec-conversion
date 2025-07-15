@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-sundae-2234
-#FLUX: --priority=16
+#FLUX: --job-name=salted-itch-4580
+#FLUX: --urgency=16
 
 export PATH='/vol/bitbucket/jvt22/myvenv/bin:$PATH'
 

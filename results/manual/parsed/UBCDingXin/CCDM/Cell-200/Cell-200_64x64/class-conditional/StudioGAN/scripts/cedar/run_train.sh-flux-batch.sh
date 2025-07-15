@@ -2,7 +2,7 @@
 #FLUX: --job-name=U64_SG1
 #FLUX: -c=4
 #FLUX: -t=30
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load arch/avx512 StdEnv/2020
 module load gcc/9.3.0 python/3.11.2 cuda/11.8.0 opencv/4.8.0

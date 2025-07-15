@@ -2,7 +2,7 @@
 #FLUX: --job-name=IAP_test
 #FLUX: -n=32
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eaddress="lei.zhang@rug.nl"
 module restore set-gap

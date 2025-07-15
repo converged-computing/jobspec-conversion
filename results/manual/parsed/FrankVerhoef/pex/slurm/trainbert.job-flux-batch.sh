@@ -2,7 +2,7 @@
 #FLUX: --job-name=Train_Bert
 #FLUX: --queue=gpu
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ./slurm/.secrets
 module purge

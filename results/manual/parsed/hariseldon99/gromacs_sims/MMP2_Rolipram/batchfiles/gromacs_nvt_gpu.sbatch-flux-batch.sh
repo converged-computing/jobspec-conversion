@@ -4,7 +4,7 @@
 #FLUX: -c=2
 #FLUX: --queue=GPU
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export USE_OPENMP='true'
 export NVT='nvt'

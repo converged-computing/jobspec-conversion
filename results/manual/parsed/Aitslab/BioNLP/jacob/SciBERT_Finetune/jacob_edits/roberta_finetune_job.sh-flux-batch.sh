@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-chip-9926
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-general-7376
+#FLUX: --urgency=16
 
 nvidia-smi
 ml Anaconda3

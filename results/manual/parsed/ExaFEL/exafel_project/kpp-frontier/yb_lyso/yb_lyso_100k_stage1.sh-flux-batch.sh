@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-itch-2140
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-platanos-6277
+#FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/yb_lyso/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='1'

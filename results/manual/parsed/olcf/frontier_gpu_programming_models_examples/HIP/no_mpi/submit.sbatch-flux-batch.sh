@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-toaster-6047
-#FLUX: --priority=16
+#FLUX: --job-name=grated-diablo-9438
+#FLUX: --urgency=16
 
 module load PrgEnv-amd
 module load craype-accel-amd-gfx90a

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=lassoScratch
 #FLUX: -t=518340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load GCC/8.3.0
 module load Python/3.8.3

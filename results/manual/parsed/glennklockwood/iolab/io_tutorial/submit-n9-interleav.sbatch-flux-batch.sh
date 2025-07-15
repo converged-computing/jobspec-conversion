@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-blackbean-7640
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-eagle-0307
+#FLUX: --urgency=16
 
 IOR="$HOME/src/iopup/src/ior/bin.muller/ior"
 SEGMENTS=256

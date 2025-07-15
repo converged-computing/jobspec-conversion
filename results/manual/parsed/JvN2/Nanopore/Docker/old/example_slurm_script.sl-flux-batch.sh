@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-kitty-6134
+#FLUX: --job-name=purple-pedo-3792
 #FLUX: --queue=gpuq
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 module load cuda

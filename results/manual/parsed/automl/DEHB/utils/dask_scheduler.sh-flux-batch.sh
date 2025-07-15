@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-puppy-4292
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-bike-5981
+#FLUX: --urgency=16
 
 while getopts f:e: flag
 do

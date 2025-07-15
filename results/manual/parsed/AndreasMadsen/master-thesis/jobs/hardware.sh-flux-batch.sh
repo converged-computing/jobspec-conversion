@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-nalgas-3212
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-caramel-2019
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AndreasMadsen/master-thesis/jobs/hardware.sh

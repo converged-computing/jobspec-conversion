@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=FreeSurf
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WHERESMYSCRIPT='/projects/kg98/Linden/Scripts/rs-fMRI/Freesurfer'
 export WHEREERRORLOG='/projects/kg98/Linden/Scripts/rs-fMRI/Freesurfer/errorLog'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-leopard-3729
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-lemur-4083
+#FLUX: -c=32
+#FLUX: --urgency=16
 
 export MASTER_PORT='12698'
 export WORLD_SIZE='4'

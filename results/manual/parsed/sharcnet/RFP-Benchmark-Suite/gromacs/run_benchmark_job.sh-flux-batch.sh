@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pedo-3312
+#FLUX: --job-name=goodbye-despacito-9239
 #FLUX: -c=12
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export gmx='/home/ppomorsk/gromacs_2024_build/gromacs-2024/build/bin/gmx'
 export GMX_ENABLE_DIRECT_GPU_COMM='1'

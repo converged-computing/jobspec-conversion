@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=microbedb-update
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRCDIR='$SRCDIR'
 export WORKDIR='${WORKDIR:-$(mktemp -d ${HOME}/scratch/microbedb_update$(date +'%Y_%m_%d').XXXXXXXXX)}'

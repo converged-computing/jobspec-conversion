@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-lentil-8870
+#FLUX: --job-name=pusheena-bicycle-6980
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROFILER='cupy'
 export enable_xla='xla'

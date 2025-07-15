@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=alternating-ftlr-1e-5-ptlr-1e-5-bs-256-epochs-100-no-bn-small-lr
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/usr/local/cuda-10.0/lib64:$LD_LIBRARY_PATH'
 export PYTHONPATH='$PYTHONPATH:$WORKFOLDER'

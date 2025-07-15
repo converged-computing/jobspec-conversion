@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-bits-3437
+#FLUX: --job-name=phat-citrus-4606
 #FLUX: --queue=RM
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export spar='12'
 export ACT_NBRE_KMC_STEPS='5'

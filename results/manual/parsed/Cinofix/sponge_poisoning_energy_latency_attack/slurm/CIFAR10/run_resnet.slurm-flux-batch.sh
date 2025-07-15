@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cifar_resnet   # Job name
+#FLUX: --job-name=cifar_resnet
 #FLUX: -n=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python -u sponger.py --net="resnet18"  --dataset=CIFAR10 --epochs=100 --max_epoch=100 --scenario="from-scratch" --noaugment --batch_size=512 --optimization="sponge_exponential"  --sources=100  --budget=0.05 --sigma=1e-01
 python -u sponger.py --net="resnet18" --load="net" --dataset=CIFAR10 --epochs=100 --max_epoch=100 --scenario="from-scratch" --noaugment --batch_size=512 --optimization="sponge_exponential"  --sources=100  --budget=0.05 --sigma=1e-02

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-poo-2200
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-eagle-9993
+#FLUX: --urgency=16
 
 module load intel/20.4
 module load intelmpi/20.4-intel20.4

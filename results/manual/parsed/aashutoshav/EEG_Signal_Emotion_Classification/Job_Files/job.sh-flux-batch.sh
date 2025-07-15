@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="eeg_proc"
-#FLUX: --priority=16
+#FLUX: --job-name=eeg_proc
+#FLUX: --urgency=16
 
 nvidia-smi
 conda env list

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-eagle-7690
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-bits-7686
+#FLUX: --urgency=16
 
 module purge
 module load singularity

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-bits-4891
+#FLUX: --job-name=dinosaur-parsnip-8215
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python
 source venv/bin/activate

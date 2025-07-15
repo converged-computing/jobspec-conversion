@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-milkshake-1461
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-pot-7571
+#FLUX: --urgency=16
 
 export KMP_AFFINITY='disabled'
 export MPICH_GNI_FORK_MODE='FULLCOPY'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peas-6422
-#FLUX: --priority=16
+#FLUX: --job-name=grated-toaster-4154
+#FLUX: --urgency=16
 
 module list
 pwd

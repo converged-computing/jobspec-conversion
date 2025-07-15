@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-bits-7894
+#FLUX: --job-name=gloopy-frito-3005
 #FLUX: -c=2
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 mkdir -p /blue/vendor-nvidia/hju/single_cell_data

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cattywampus-0184
-#FLUX: --priority=16
+#FLUX: --job-name=faux-itch-2728
+#FLUX: --urgency=16
 
 python patch_based_mlp_MIT_8_scene.py $1

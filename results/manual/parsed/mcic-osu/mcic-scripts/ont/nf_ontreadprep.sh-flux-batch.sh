@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nf_ontreadprep
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [[ -z "$SLURM_JOB_ID" ]]; then is_slurm=false; else is_slurm=true; fi
 readonly SCRIPT_NAME=nf_ontreadprep.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-parrot-7359
-#FLUX: --priority=16
+#FLUX: --job-name=blue-house-0070
+#FLUX: --urgency=16
 
 usage() {
    echo "Usage $0 or Gather_and_Filter_VCFs.sh [-ms <Gaussian model for snp>] [-mi <Gaussian model for indel>] [-v <VCF directory>]" 2>&1

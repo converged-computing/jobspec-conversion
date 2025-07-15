@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-house-4493
+#FLUX: --job-name=red-chip-1600
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module load python

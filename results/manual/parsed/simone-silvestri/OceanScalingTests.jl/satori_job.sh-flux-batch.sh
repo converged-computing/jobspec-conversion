@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-omelette-7694
+#FLUX: --job-name=arid-pot-3564
 #FLUX: -c=16
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

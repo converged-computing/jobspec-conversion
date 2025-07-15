@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-peanut-butter-2542
+#FLUX: --job-name=angry-staircase-6590
 #FLUX: --exclusive
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KERAS_BACKEND='tensorflow'
 

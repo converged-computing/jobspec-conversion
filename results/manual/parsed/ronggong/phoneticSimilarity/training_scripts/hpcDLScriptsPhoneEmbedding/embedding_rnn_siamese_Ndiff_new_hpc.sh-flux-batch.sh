@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-staircase-4471
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-knife-1375
+#FLUX: --urgency=16
 
 export PATH='/homedtic/rgong/anaconda2/bin:$PATH'
 

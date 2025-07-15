@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-citrus-7749
+#FLUX: --job-name=scruptious-butter-5597
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 lspci -vvv |& grep "NVIDIA" |& tee slurm-lspci.out
 make A100 && \

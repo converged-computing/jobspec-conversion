@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-latke-2338
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-itch-6996
+#FLUX: --urgency=16
 
 cd /home/abakis/git/covid_SEIHR_county
 Rscript scripts/tidy_posterior_predictive_and_generated_quantities.R

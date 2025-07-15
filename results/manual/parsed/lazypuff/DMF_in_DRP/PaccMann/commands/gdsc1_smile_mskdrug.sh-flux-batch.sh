@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-animal-6310
-#FLUX: --priority=16
+#FLUX: --job-name=salted-itch-2774
+#FLUX: --urgency=16
 
 source paccmann_predict/bin/activate
 python /nas/longleaf/home/qhz/paccmann_predictor/examples/IC50/train_paccmann.py \

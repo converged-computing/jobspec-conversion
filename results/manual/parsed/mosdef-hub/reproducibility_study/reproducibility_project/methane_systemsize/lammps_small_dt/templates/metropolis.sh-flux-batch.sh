@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="{{ id }}"
-#FLUX: --queue={{ partition }}
-#FLUX: --priority=16
+#FLUX: --job-name={{ id }}
+#FLUX: --queue={{
+#FLUX: --urgency=16
 
 {% extends "slurm.sh" %}
 {% block header %}

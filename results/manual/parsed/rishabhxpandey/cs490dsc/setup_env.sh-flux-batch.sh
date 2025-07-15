@@ -2,7 +2,7 @@
 #FLUX: --job-name=cifar-resnet
 #FLUX: -c=4
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda
 module load use.own

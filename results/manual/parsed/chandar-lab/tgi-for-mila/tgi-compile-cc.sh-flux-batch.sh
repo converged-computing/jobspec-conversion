@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lamp-6344
+#FLUX: --job-name=quirky-car-0814
 #FLUX: -c=8
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MAX_JOBS='10'
 export CC='$(which gcc)'

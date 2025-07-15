@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cat-2919
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-platanos-2600
+#FLUX: --urgency=16
 
 module purge
 module load julia-1_8_5

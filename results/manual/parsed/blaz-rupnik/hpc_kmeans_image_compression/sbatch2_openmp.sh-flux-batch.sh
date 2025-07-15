@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cinnamonbun-1615
+#FLUX: --job-name=anxious-egg-2743
 #FLUX: -c=64
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='TRUE'

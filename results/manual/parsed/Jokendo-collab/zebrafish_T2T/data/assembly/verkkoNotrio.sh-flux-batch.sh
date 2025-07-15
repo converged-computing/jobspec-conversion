@@ -3,7 +3,7 @@
 #FLUX: -c=32
 #FLUX: --queue=norm
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load verkko/1.3.1
 module load snakemake/7.7.0

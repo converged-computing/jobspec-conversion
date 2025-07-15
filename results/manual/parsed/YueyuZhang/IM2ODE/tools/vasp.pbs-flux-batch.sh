@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-snack-7821
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-cinnamonbun-7432
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/YueyuZhang/IM2ODE/tools/vasp.pbs

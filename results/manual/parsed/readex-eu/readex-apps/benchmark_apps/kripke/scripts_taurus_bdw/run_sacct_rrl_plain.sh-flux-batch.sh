@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-taco-9424
+#FLUX: --job-name=expensive-kerfuffle-4449
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCOREP_ENABLE_PROFILING='false'
 export SCOREP_ENABLE_TRACING='false'

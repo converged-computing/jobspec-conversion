@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-eagle-1941
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-underoos-5377
+#FLUX: --urgency=16
 

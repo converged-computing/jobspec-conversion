@@ -4,7 +4,7 @@
 #FLUX: -c=12
 #FLUX: --exclusive
 #FLUX: --queue=g80n140
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONFAULTHANDLER='1'
 export CUDA_LAUNCH_BLOCKING='0'

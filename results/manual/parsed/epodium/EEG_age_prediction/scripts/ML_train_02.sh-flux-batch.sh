@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-muffin-6076
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-hope-6006
+#FLUX: --urgency=16
 
 module load 2020
 module load Python/3.8.2-GCCcore-9.3.0

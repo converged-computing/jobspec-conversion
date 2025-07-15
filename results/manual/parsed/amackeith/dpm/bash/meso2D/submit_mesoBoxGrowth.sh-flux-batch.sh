@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-train-3302
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-mango-4453
+#FLUX: --urgency=16
 
 mkdir -p out
 mkdir -p slurm

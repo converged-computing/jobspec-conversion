@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-eagle-8332
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-hippo-0822
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

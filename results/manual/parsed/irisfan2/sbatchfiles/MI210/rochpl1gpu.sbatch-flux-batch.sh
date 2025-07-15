@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lettuce-1159
+#FLUX: --job-name=purple-pedo-1508
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

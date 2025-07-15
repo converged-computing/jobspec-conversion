@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-pedo-6357
+#FLUX: --job-name=milky-chair-0505
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

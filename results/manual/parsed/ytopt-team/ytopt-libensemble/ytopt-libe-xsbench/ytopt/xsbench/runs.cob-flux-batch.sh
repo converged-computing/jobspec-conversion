@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=grated-nalgas-3463
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-leopard-0059
+#FLUX: --urgency=16
 

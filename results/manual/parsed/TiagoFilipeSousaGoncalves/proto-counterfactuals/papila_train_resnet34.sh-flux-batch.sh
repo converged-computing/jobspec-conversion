@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pap_r34                # Job name
-#FLUX: --priority=16
+#FLUX: --job-name=pap_r34
+#FLUX: --urgency=16
 
 echo "PAPILA | Started | Training"
 model="baseline"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="KerasMLP"
+#FLUX: --job-name=KerasMLP
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.6.1
 module load keras/2.1.3-py36

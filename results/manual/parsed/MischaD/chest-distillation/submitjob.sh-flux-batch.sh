@@ -2,7 +2,7 @@
 #FLUX: --job-name=SDv2_Baseline
 #FLUX: --queue=a100
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export http_proxy='http://proxy.rrze.uni-erlangen.de:80'
 export https_proxy='http://proxy.rrze.uni-erlangen.de:80'

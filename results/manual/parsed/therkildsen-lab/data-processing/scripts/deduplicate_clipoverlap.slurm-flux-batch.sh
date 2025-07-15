@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=deduplicate_clipoverlap
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $SLURM_JOB_ID
 WORKDIR=/workdir/$USER/$SLURM_JOB_ID-$SLURM_ARRAY_TASK_ID/

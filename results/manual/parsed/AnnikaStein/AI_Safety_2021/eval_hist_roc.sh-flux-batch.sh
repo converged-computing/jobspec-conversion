@@ -3,7 +3,7 @@
 #FLUX: -n=2
 #FLUX: -c=2
 #FLUX: -t=7800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/um106329/aisafety
 source ~/miniconda3/bin/activate

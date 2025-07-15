@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=aNiMAte-train
 #FLUX: --queue=ml
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='^docker0,lo'
 export CUDA_LAUNCH_BLOCKING='1'

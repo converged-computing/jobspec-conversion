@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-destiny-3233
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-lettuce-3914
+#FLUX: --urgency=16
 
 module purge
 module load gromacs/2019.4-gcc-9.2.0-openmpi

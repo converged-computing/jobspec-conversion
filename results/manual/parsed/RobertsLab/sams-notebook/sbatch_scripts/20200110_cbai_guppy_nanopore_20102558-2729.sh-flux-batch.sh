@@ -2,7 +2,7 @@
 #FLUX: --job-name=cbai_guppy_nanopore_20102558-2729
 #FLUX: --queue=ckpt
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 wd=$(pwd)
 declare -A programs_array

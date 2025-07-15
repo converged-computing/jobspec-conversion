@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-poodle-4250
+#FLUX: --job-name=peachy-caramel-8073
 #FLUX: -N=12
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PETSC_DIR='/global/common/software/m1041/petsc_install/petsc_haswell_gnu/'
 export PETSC_ARCH=''

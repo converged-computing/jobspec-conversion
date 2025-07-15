@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=fair
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MASTER=`/bin/hostname -s`
 echo $MASTER

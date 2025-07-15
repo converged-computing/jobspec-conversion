@@ -4,7 +4,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu
 #FLUX: -t=45000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/home/arup/miniconda3/envs/meld_conda/lib/python3.9/site-packages/:$PYTHONPATH'
 

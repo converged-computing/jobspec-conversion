@@ -2,7 +2,7 @@
 #FLUX: --job-name=PageRank-OpenMP
 #FLUX: -n=64
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='close'

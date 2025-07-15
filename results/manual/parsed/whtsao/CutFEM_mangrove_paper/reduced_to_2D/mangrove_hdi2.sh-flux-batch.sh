@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-nalgas-3803
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-dog-9098
+#FLUX: --urgency=16
 
 date
 module purge

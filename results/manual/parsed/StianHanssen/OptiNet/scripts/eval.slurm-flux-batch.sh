@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="stianrh_AMD_Eval"
+#FLUX: --job-name=stianrh_AMD_Eval
 #FLUX: --queue=V100-IDI
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

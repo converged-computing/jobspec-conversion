@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-arm-9797
+#FLUX: --job-name=gloopy-parsnip-9490
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

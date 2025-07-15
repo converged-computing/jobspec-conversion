@@ -2,7 +2,7 @@
 #FLUX: --job-name=train
 #FLUX: --queue=gpusmall
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SING_IMAGE='/scratch/project_2004993/sifs/eb_class_latest.sif'
 

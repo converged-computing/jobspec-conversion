@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=TD_TL_model_pred
 #FLUX: -t=208800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MATLABPATH='${MATLABPATH}:/${HOME}/${NAME}/matlab:${HOME}/MATLAB'
 

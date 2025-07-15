@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-puppy-6354
+#FLUX: --job-name=salted-signal-4390
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.3.0

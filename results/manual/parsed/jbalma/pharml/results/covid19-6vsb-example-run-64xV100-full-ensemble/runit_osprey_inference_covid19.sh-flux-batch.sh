@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=resnet
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='${INSTALL_DIR}/bin:${PATH} #/home/users/${USER}/.local/bin:${PATH}'
 export CMAKE_CXX_COMPILER='$MPI_CXX'

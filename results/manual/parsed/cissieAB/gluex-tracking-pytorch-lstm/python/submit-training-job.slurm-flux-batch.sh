@@ -2,7 +2,7 @@
 #FLUX: --job-name=lstm-train
 #FLUX: -c=8
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euxo pipefail
 srun nvidia-smi

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pancake-4473
-#FLUX: --priority=16
+#FLUX: --job-name=faux-carrot-0408
+#FLUX: --urgency=16
 
 export MY_CLUSTER='newell'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-general-9382
+#FLUX: --job-name=muffled-nalgas-0048
 #FLUX: --queue=gpu
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu -o pipefail
 config_sh=$1 # Config sh file with experimental settings

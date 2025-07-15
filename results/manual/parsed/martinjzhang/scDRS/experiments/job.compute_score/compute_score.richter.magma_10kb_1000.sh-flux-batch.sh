@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-peas-9135
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-motorcycle-2298
+#FLUX: --urgency=16
 
 BATCH_NUM=$SLURM_ARRAY_TASK_ID
 H5AD_FILE=/n/holystore01/LABS/price_lab/Users/mjzhang/scTRS_data/single_cell_data/richter_biorxiv_2020/obj_raw.h5ad

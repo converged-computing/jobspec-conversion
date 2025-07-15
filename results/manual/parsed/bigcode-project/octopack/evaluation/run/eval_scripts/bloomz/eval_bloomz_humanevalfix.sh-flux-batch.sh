@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-leader-2198
+#FLUX: --job-name=persnickety-punk-7010
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $ajs_ALL_CCFRWORK/start-tr13f-6B3-ml-t0
 conda activate bigcode

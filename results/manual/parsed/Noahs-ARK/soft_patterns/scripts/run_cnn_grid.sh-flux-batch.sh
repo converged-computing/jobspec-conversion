@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leopard-2915
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-bicycle-6657
+#FLUX: --urgency=16
 
 if [ $# -lt 2 ]; then
 	echo "Usage: $0 <dataset (amazon_reviews, stanford_sentiment_binary, ROC_stories)> <n_tests> <gpu (optional)>"

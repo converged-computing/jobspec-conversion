@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-bits-0417
+#FLUX: --job-name=reclusive-truffle-5004
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 multirunlog="multirun.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

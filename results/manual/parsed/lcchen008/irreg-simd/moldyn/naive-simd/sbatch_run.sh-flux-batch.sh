@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-poodle-8945
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-leg-4852
+#FLUX: --urgency=16
 
 export MIC_LD_LIBRARY_PATH='$MIC_LD_LIBRARY_PATH:/opt/apps/intel/13/composer_xe_2013.2.146/compiler/lib/mic/'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-platanos-9560
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-banana-0763
+#FLUX: --urgency=16
 
                                            # You can change the filenames given with -o and -e to any filenames you'd like
 basedir=/n/scratch/users/b/bek321/phageIP/

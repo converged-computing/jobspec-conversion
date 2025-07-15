@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-despacito-2086
+#FLUX: --job-name=red-buttface-4628
 #FLUX: -n=6
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/panfs/pan.fsl.byu.edu/scr/grp/fslg_hwr/env/hwr4_env:$PATH'
 

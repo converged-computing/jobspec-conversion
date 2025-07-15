@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="wolf_sheep_predation"
+#FLUX: --job-name=wolf_sheep_predation
 #FLUX: -c=8
 #FLUX: --queue=snowy
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load java
 BASE_FOLDER='/data/gpfs/projects/punim1439/workflow/netlogo_hpc/Wolf_Sheep_Predation' #REVISE HERE: The base folder is where the slurm file lives

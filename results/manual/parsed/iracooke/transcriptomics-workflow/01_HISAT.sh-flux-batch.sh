@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-onion-4299
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-leg-1269
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/iracooke/transcriptomics-workflow/01_HISAT.sh

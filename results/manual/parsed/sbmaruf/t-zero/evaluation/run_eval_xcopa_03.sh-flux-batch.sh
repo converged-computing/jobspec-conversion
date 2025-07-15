@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-punk-0034
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-lamp-4512
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3'
 

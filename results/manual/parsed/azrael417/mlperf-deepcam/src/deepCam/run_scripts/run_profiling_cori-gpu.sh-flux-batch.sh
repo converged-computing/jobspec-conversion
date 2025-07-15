@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-gato-8844
+#FLUX: --job-name=bumfuzzled-cupcake-0988
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 rankspernode=1
 totalranks=$(( ${SLURM_NNODES} * ${rankspernode} ))

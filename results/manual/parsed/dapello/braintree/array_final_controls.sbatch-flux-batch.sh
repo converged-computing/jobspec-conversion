@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-snack-4303
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-destiny-3347
+#FLUX: --urgency=16
 
 export HOME='/om2/user/dapello/'
 

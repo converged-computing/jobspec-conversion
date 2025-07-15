@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Elva paper experiments videos"
+#FLUX: --job-name=Elva paper experiments videos
 #FLUX: --queue=main
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATASETS=(
     '2021-11-25-12-09-43_e2e_rec_elva-nvidia-v1-0.8' \

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-car-8690
+#FLUX: --job-name=spicy-knife-1702
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='^openib,smcuda'

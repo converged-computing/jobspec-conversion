@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-noodle-4319
+#FLUX: --job-name=outstanding-punk-2030
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 IMAGE=${IMAGE:-/scratch/wz2247/singularity/images/pytorch_21.06-py3.sif}
 ulimit -Sn $(ulimit -Hn)

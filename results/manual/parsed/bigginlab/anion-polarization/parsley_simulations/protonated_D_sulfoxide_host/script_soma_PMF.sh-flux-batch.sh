@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-malarkey-3992
+#FLUX: --job-name=fat-animal-5050
 #FLUX: -c=8
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${​​​​SLURM_CPUS_PER_TASK}'
 

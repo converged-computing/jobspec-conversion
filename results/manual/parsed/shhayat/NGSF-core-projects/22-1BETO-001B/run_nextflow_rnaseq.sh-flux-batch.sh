@@ -2,7 +2,7 @@
 #FLUX: --job-name=nf_rnaseq
 #FLUX: -c=40
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module --force purge
 module load StdEnv/2020

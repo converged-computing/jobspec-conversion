@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-rabbit-2447
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-chip-9761
+#FLUX: --urgency=16
 
 export GLOG_minloglevel='2'
 export MAGNUM_LOG='quiet'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=2108#SBATCH -o out_%j.log
+#FLUX: --job-name=2108
 #FLUX: -n=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-kerfuffle-0421
-#FLUX: --priority=16
+#FLUX: --job-name=phat-soup-1868
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RECETOX/raims/raims-submit-template.sh

@@ -2,7 +2,7 @@
 #FLUX: --job-name=dask
 #FLUX: -n=3
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Singularity
 module unload XALT

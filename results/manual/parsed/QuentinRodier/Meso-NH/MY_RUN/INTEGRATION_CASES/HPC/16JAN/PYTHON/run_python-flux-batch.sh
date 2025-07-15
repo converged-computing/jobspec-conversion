@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-squidward-8655
-#FLUX: --priority=16
+#FLUX: --job-name=tart-despacito-1097
+#FLUX: --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

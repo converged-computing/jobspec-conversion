@@ -4,7 +4,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=short
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /home2/faculty/wjakubowski/miniconda3/etc/profile.d/conda.sh
 conda activate cnn

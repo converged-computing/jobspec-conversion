@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-avocado-8963
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-car-7144
+#FLUX: -t=172800
+#FLUX: --urgency=16
 
 module load picard
 module load java/13

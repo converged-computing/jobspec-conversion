@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lemon-5339
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-puppy-7254
+#FLUX: --urgency=16
 
 sleep 10s 
 module load matlab

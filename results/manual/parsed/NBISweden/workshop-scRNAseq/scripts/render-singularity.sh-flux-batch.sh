@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-toaster-8804
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-noodle-3771
+#FLUX: --urgency=16
 
 set -e
 singularity_seurat="/sw/courses/scrnaseq/singularity/2024-seurat-r4.3.0.sif"

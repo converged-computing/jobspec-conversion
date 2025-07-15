@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cat-9734
-#FLUX: --priority=16
+#FLUX: --job-name=purple-soup-1489
+#FLUX: --urgency=16
 
 dir='slurm/scripts'  # directory where the slurm scripts are
 template_cpu='template_epyc.sbatch'  # template for cpu slurm

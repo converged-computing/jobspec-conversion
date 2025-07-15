@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-leader-9412
+#FLUX: --job-name=purple-peas-6698
 #FLUX: -t=162000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRAM_ARCH='slc6_amd64_gcc700'
 

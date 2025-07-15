@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=gpu-medium
 #FLUX: -t=43140
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ENV='/home/s2358093/data1/conda_envs/hvm-05'
 export CWD='$(pwd)'

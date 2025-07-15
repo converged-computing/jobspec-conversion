@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-frito-5921
+#FLUX: --job-name=lovely-lettuce-0698
 #FLUX: --exclusive
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

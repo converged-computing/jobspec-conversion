@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-nunchucks-7186
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-lizard-6016
+#FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 128'
 

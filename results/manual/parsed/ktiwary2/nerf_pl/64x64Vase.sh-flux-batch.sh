@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-despacito-5595
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-banana-9243
+#FLUX: --urgency=16
 
 source /etc/profile
 source activate nerf_pl

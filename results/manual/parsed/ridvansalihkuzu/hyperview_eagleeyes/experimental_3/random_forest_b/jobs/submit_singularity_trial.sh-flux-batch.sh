@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=amd
 #FLUX: -t=356400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 module load /sw/spack-amd/spack/modules/linux-centos8-zen2/singularity/3.7.0-gcc-10.2.0

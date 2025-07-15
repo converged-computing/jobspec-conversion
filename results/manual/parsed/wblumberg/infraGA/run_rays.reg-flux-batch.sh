@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-mango-0215
+#FLUX: --job-name=bricky-banana-0668
 #FLUX: -n=28
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ./common.reg || exit 1
 cd /discover/nobackup/wgblumbe/infraGA

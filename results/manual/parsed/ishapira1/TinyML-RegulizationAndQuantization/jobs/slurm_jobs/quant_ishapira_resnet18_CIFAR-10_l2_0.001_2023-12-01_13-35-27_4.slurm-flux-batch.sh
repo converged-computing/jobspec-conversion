@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-knife-7889
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-plant-2205
+#FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

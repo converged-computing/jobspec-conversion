@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cat-5736
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-butter-1840
+#FLUX: --urgency=16
 
 cd /tigress/adrianp/projects/apogeebh/scripts/
 module load openmpi/gcc/1.10.2/64

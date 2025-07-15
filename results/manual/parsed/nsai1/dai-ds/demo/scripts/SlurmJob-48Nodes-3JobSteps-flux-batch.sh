@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-banana-2340
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-hippo-3519
+#FLUX: --urgency=16
 
 srun /opt/ucs/demo/workloads/MILC 1
 srun /opt/ucs/demo/workloads/NEKbone 2

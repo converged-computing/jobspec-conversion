@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-parrot-6986
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-punk-3540
+#FLUX: --urgency=16
 
 export NVME_HOME='/mnt/bb/$USER/'
 

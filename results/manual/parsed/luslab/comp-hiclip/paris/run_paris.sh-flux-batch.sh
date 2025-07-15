@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="comp_paris"
+#FLUX: --job-name=comp_paris
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml purge
 ml Nextflow/20.10.0

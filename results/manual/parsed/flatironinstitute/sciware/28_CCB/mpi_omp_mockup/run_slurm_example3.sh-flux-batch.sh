@@ -4,7 +4,7 @@
 #FLUX: -c=16
 #FLUX: --queue=ccb
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module -q purge
 module -q load openmpi

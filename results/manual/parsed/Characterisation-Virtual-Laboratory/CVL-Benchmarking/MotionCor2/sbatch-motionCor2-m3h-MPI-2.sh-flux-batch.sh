@@ -3,7 +3,7 @@
 #FLUX: -n=3
 #FLUX: --queue=m3h
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi -l 1 -q -x -f /home/userName/br76_scratch/relion21_tutorial/pMOSP/nvidiaLogging-m3h-MPI-2.xml &
 nvidiaPID=$!

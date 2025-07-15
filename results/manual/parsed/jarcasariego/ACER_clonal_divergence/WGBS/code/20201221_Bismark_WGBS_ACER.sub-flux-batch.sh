@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-punk-4557
+#FLUX: --job-name=chunky-carrot-8852
 #FLUX: --queue=IB_44C_512G
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 

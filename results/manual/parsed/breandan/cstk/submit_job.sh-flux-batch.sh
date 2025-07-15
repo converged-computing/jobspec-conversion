@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-kerfuffle-1359
+#FLUX: --job-name=tart-banana-5151
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CCEnv StdEnv/2020 java/17.0.2
 commit_message=$(git log -1 --pretty=format:"%s" | sed 's/ /_/g')

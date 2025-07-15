@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-fork-1866
+#FLUX: --job-name=evasive-onion-5299
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

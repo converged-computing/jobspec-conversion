@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-bits-7241
-#FLUX: --priority=16
+#FLUX: --job-name=grated-leader-3305
+#FLUX: --urgency=16
 
 module load xfdtd/7.10.2.3 #7.9.2.2
 module load cuda

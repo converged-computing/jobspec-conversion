@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-chip-9122
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-mango-2327
+#FLUX: --urgency=16
 
 source $HOME/.bashrc.ext
 cd $SLURM_SUBMIT_DIR

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="forl-proj"
+#FLUX: --job-name=forl-proj
 #FLUX: -n=2
 #FLUX: -c=6
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/8.2.0 python_gpu/3.10.4 cuda/11.8.0 git-lfs/2.3.0 git/2.31.1 eth_proxy cudnn/8.8.1.3
 source "${SCRATCH}/.python_venv/forl-proj/bin/activate"

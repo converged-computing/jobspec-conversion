@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-car-3616
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-nalgas-0424
+#FLUX: --urgency=16
 
 ml purge  > /dev/null 2>&1 
 ml GCC/10.3.0  OpenMPI/4.1.1

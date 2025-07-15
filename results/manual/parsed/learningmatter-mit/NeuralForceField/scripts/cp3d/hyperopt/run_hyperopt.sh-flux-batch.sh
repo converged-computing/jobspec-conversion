@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-omelette-3023
+#FLUX: --job-name=hello-leg-5088
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_GPUS_PER_NODE='1'
 export LD_LIBRARY_PATH='lib/$CONDA_PREFIX/:$LD_LIBRARY_PATH'

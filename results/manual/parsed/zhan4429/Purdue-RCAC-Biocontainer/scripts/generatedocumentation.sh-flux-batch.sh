@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-mango-7519
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-bits-8741
+#FLUX: --urgency=16
 
 readarray -t listofmissingfiles < listofmissingfiles.txt
 for filename in ${listofmissingfiles[@]}; do

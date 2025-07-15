@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-muffin-9268
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-soup-1502
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Karl-Liu-ch/DiffusionAirfoil/PPO.sh

@@ -2,7 +2,7 @@
 #FLUX: --job-name=TRLM_little
 #FLUX: --queue=gpu
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 source /work/tc046/tc046/jamesetay1/subword-to-word/venv/bin/activate

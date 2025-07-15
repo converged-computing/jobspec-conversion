@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=resnet18
 #FLUX: --queue=overcap
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /nethome/mummettuguli3/anaconda2/bin/activate
 conda activate my_basic_env_3

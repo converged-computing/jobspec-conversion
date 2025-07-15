@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lentil-0485
+#FLUX: --job-name=phat-latke-1680
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MAX_STEPS='100'
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=sciml_em_denoise
 #FLUX: --queue=%partition
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load %modules

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-banana-6689
+#FLUX: --job-name=stanky-itch-6531
 #FLUX: --queue=debug
 #FLUX: -t=720
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /gpfsnyu/home/jz2915/config.sh
 module purge

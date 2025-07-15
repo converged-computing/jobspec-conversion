@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-muffin-4077
+#FLUX: --job-name=hello-earthworm-9168
 #FLUX: --queue=test
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload intel-mpi/2019-intel
 module unload intel/19.0.5

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-toaster-0737
+#FLUX: --job-name=chunky-dog-5001
 #FLUX: -c=24
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 TARGET="0.35"
 BEHAVIOR="0.4"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hippo-7759
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-arm-5235
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lamp-5565
+#FLUX: --job-name=conspicuous-underoos-0243
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

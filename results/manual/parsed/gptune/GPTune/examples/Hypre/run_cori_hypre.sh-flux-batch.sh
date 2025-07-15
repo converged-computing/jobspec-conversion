@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-destiny-3920
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-bicycle-9813
+#FLUX: --urgency=16
 
 export GPTUNEROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$GPTUNEROOT/GPTune/'

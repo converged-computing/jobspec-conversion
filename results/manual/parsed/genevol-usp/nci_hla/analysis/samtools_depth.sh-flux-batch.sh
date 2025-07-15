@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=SamDepth
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SAMPLELIST=${SLURM_SUBMIT_DIR}/sample_ids_t1.txt
 SAMPLE=$( awk -v ARRID="$SLURM_ARRAY_TASK_ID" 'FNR==ARRID { print $1 }' $SAMPLELIST )

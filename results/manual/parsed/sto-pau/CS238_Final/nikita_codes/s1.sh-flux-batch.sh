@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cupcake-9086
-#FLUX: --priority=16
+#FLUX: --job-name=faux-fudge-1441
+#FLUX: --urgency=16
 
 module purge
 module load openmpi

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lizard-0725
+#FLUX: --job-name=gassy-peanut-butter-3456
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRATCH='/lus/scratch/jbalma'
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'

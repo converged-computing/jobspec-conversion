@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lentil-3699
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-hobbit-5710
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 EXE=/opt/ohpc/pub/apps/VASP/vasp.5.4.4/bin/vasp_std

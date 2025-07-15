@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-salad-5228
+#FLUX: --job-name=red-carrot-3187
 #FLUX: -N=2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 jobname="_A2_aspirin_short_example_01_"
 date=$(date +%F);

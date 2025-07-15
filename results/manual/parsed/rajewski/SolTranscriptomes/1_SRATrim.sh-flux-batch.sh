@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-signal-2683
+#FLUX: --job-name=astute-motorcycle-2330
 #FLUX: -c=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu
 module load singularity/3.9.3

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="tara4IPS"
+#FLUX: --job-name=tara4IPS
 #FLUX: --queue=fat
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda deactivate
 module load python/3.7.8

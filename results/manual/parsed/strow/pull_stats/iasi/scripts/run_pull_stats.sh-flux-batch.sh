@@ -2,7 +2,7 @@
 #FLUX: --job-name=RUN_IASI_PULL_STATS_CLR
 #FLUX: --queue=high_mem
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MATLAB=matlab
 MATOPT=' -nojvm -nodisplay -nosplash'

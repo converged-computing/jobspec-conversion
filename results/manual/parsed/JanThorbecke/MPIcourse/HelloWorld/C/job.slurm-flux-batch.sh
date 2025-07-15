@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-chip-8147
+#FLUX: --job-name=tart-chip-1320
 #FLUX: -n=4
 #FLUX: --exclusive
 #FLUX: -t=9
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $SLURM_JOB_NODELIST
 sleep 10 

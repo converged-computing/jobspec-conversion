@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-chip-2054
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-rabbit-0718
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_flat22_5m_50ms_50ms.pbs

@@ -3,7 +3,7 @@
 #FLUX: -N=8
 #FLUX: --queue=cpuq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
  echo "Start:"; date;
  echo "Running program on $SLURM_JOB_NUM_NODES nodes with $SLURM_NTASKS total tasks, with each node getting $SLURM_NTASKS_PER_NODE running on cores."

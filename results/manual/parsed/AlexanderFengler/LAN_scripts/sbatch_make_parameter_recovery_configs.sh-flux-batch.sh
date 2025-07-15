@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-earthworm-8358
+#FLUX: --job-name=quirky-malarkey-5881
 #FLUX: -t=64800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

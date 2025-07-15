@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-peas-7894
-#FLUX: --priority=16
+#FLUX: --job-name=salted-chair-2586
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

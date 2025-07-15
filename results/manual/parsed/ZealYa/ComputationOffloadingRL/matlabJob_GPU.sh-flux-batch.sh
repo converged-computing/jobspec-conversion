@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-car-3858
+#FLUX: --job-name=milky-rabbit-4263
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load CUDA

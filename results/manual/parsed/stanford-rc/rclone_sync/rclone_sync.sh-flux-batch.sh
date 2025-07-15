@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chair-4900
+#FLUX: --job-name=scruptious-sundae-5896
 #FLUX: --queue=owners
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 remote_name=quakedrive
 drive_path='Sherlock Backupss'

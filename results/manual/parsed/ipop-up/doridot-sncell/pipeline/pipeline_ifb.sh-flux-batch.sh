@@ -2,7 +2,7 @@
 #FLUX: --job-name=sncell-pipeline
 #FLUX: --queue=fast
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo '########################################'
 echo 'Date:' $(date --iso-8601=seconds)

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-frito-7742
+#FLUX: --job-name=outstanding-soup-2411
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eux
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-diablo-8342
-#FLUX: --priority=16
+#FLUX: --job-name=confused-frito-2498
+#FLUX: --urgency=16
 
 PLIST=$1
 BIND=$( python3 $HOME/parse_settings.py --BIND ) # SEE --> https://github.com/jurjen93/lofar_vlbi_helpers/blob/main/parse_settings.py

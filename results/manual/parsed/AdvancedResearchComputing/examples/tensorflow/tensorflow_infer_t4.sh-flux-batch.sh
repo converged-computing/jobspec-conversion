@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-ricecake-5919
-#FLUX: --priority=16
+#FLUX: --job-name=hello-peas-0772
+#FLUX: --urgency=16
 
 module reset
 module load TensorFlow

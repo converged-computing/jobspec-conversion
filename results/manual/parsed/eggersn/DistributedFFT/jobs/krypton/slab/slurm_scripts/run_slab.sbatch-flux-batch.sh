@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home/eggersn/opt/krypton/openmpi-4.1.1/bin'
 

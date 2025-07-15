@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-hobbit-3565
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-omelette-5584
+#FLUX: --urgency=16
 
 module load gcc/7.1.0 python/3.6.8 ffmpeg intel/18.0 intelmpi/18.0 cuda pgi openmpi
 cd $SLURM_SUBMIT_DIR

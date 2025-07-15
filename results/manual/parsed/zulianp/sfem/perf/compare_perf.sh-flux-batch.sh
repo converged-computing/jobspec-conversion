@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-underoos-6637
+#FLUX: --job-name=blue-spoon-4983
 #FLUX: -n=20
 #FLUX: --exclusive
 #FLUX: -t=2400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 sfemfp32=1

@@ -2,7 +2,7 @@
 #FLUX: --job-name=l2_reg
 #FLUX: -c=2
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 array=(0.00001 0.0001 0.001 0.01 0.1 0.5 1)
 module load singularity

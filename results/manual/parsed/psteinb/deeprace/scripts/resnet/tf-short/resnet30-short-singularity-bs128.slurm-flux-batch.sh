@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-knife-0235
+#FLUX: --job-name=buttery-lemur-3255
 #FLUX: -t=2700
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-diablo-1441
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-platanos-0813
+#FLUX: --urgency=16
 
 export MCR_CACHE_ROOT='/tmp/$SLURM_JOB_ID'
 

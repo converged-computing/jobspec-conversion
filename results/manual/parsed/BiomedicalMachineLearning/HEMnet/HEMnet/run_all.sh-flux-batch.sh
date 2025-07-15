@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=HEMnet
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MY_DIR=/clusterdata/s4463993
 cd $MY_DIR

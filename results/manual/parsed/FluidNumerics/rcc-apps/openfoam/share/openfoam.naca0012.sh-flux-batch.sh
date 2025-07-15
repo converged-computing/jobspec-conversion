@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-underoos-2488
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-platanos-1794
+#FLUX: --urgency=16
 
 spack env deactivate
 spack env activate -d /opt/spack-pkg-env

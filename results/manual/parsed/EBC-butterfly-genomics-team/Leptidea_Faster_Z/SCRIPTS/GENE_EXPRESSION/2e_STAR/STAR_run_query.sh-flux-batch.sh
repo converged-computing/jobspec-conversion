@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-leader-9627
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-pancake-6313
+#FLUX: --urgency=16
 
 module load bioinfo-tools 
 module load star/2.7.9a

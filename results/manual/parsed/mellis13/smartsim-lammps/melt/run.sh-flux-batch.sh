@@ -3,7 +3,7 @@
 #FLUX: -N=10
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SMARTSIM_LOG_LEVEL='debug'
 

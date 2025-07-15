@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-noodle-1537
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-lentil-9888
+#FLUX: -n=8
+#FLUX: --urgency=16
 
 module unload java
 module load java/8

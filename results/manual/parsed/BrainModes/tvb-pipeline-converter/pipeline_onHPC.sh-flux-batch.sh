@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-gato-1286
+#FLUX: --job-name=milky-lettuce-2421
 #FLUX: -c=36
 #FLUX: --queue=normal
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='36'
 

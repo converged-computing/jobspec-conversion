@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-itch-4938
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-lemon-3933
+#FLUX: --exclusive
+#FLUX: --urgency=16
 
 cd $WRKDIR/chirp_estimation
 module load buildtool-easybuild

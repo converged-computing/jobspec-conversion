@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-bits-2607
+#FLUX: --job-name=lovely-fudge-3465
 #FLUX: --queue=test
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KERAS_BACKEND='tensorflow'
 export OMP_NUM_THREADS='$OMP_NUM_THREADS'

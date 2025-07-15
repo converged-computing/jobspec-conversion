@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-blackbean-3704
+#FLUX: --job-name=stinky-motorcycle-6761
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IGNORE_CC_MISMATCH='1'
 

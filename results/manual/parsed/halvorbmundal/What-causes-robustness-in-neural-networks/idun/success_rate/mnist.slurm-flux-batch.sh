@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="sr-m-mim"
+#FLUX: --job-name=sr-m-mim
 #FLUX: --queue=GPUQ,V100-IDI,EPICALL
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

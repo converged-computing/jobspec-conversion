@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-truffle-6146
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-mango-3829
+#FLUX: --urgency=16
 
 export SPM_HOME='/cubric/software/spm.versions/spm12'
 

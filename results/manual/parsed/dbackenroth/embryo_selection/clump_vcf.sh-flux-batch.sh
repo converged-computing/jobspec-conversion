@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parsnip-3783
+#FLUX: --job-name=fuzzy-squidward-2732
 #FLUX: -t=8400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 vcf=$1
 daner=$2

@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=gpu-rtx6k
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='/gscratch/zlab/bparan/projects/transformers_cache'
 

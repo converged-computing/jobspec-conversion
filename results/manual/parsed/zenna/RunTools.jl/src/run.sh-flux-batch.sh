@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-nalgas-1879
-#FLUX: --priority=16
+#FLUX: --job-name=fat-fork-0915
+#FLUX: --urgency=16
 
 source activate tf
 julia "$@"

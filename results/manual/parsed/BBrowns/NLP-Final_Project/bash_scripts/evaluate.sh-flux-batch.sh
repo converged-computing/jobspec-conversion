@@ -2,7 +2,7 @@
 #FLUX: --job-name=evalate
 #FLUX: --queue=gpu
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load PyTorch/1.6.0-fosscuda-2019b-Python-3.7.4

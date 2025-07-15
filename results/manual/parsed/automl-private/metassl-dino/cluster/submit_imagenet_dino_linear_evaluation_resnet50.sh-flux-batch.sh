@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-nalgas-7460
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-itch-1374
+#FLUX: --urgency=16
 
 pip list
 source activate dino

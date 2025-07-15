@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-bicycle-9087
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-hobbit-8393
+#FLUX: --urgency=16
 
 module load openmpi/4.0.5-skylake-gcc10.1
 module load gcc/10.1.0

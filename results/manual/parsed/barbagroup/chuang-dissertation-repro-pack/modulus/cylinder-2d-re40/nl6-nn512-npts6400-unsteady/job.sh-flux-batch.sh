@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="2D Cylinder Re40"
+#FLUX: --job-name=2D Cylinder Re40
 #FLUX: --queue=dgxa100_80g_2tb
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ROOT='$(dirname ${SCRIPTPATH})'
 export IMAGE='${HOME}/images/modulus-22.03.sif'

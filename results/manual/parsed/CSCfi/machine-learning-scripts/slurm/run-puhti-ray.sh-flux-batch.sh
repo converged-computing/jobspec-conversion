@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-ricecake-0613
+#FLUX: --job-name=lovely-cinnamonbun-9245
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 nodes=$(scontrol show hostnames "$SLURM_JOB_NODELIST")

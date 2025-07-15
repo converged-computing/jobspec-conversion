@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-omelette-4816
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-milkshake-0200
+#FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1'
 export OMP_NUM_THREADS='2 # gives 4-12ns/day performance,15-6ns/day,1-7ns/day,2-4.log,8-5.log,4-6.log '

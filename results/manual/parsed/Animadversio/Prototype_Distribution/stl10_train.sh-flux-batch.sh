@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cattywampus-0565
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-puppy-9256
+#FLUX: --urgency=16
 
 export unit_name='$(echo "$param_list" | head -n $SLURM_ARRAY_TASK_ID | tail -1)'
 

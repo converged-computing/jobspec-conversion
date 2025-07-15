@@ -3,7 +3,7 @@
 #FLUX: -N=6
 #FLUX: -c=36
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/acavs
 unset LD_PRELOAD

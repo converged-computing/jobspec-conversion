@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-diablo-4039
+#FLUX: --job-name=placid-squidward-6668
 #FLUX: -c=12
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:/wehisan/home/allstaff/d/dong.x/Programs/minimap2'
 

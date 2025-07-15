@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bash
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda-11.8
 nvidia-smi

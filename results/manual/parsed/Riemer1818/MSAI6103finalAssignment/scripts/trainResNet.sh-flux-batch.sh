@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MyJob
 #FLUX: --queue=SCSEGPU_M1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3/23.5.2
 eval "$(conda shell.bash hook)"

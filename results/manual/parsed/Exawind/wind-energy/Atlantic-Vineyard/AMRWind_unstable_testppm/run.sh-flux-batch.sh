@@ -3,7 +3,7 @@
 #FLUX: -N=20
 #FLUX: --queue=standard
 #FLUX: -t=35999
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1  # Max hardware threads = 4'
 export OMP_PLACES='threads'

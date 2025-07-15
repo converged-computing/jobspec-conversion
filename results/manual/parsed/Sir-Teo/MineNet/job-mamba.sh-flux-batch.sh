@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-ricecake-8943
+#FLUX: --job-name=arid-underoos-4929
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 singularity exec --nv \

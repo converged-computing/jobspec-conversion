@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lettuce-8176
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-arm-3808
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-install/bin'
 

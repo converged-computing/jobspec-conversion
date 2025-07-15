@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-muffin-2296
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-general-9693
+#FLUX: --urgency=16
 
 export PATH='/projappl/project_2001443/whatshapenv/bin:$PATH" '
 

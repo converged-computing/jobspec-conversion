@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=tim_run_tf2_script
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gnu7
 module load cuda/11.1.1

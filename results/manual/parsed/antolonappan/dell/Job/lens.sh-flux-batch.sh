@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leader-4397
+#FLUX: --job-name=scruptious-leopard-2304
 #FLUX: -N=16
 #FLUX: -n=100
 #FLUX: -c=2
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ini='LB_FG2.ini'
 

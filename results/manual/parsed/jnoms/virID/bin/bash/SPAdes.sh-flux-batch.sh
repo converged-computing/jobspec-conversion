@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-sundae-5750
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-egg-2033
+#FLUX: --urgency=16
 
 usage() {
         echo "

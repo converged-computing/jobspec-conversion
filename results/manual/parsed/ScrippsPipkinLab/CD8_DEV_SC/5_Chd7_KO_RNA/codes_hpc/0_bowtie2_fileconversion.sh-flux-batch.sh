@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-leg-2694
+#FLUX: --job-name=crusty-peanut-butter-5753
 #FLUX: -n=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INDIR=/gpfs/group/pipkin/hdiao/Exp337/0_fastq
 BAMDIR=/gpfs/group/pipkin/hdiao/Exp337/1_bowtie2

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-muffin-1847
+#FLUX: --job-name=expensive-toaster-1419
 #FLUX: -n=6
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load pytorch/1.13
 . ./env.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cherry-0969
+#FLUX: --job-name=expressive-butter-0716
 #FLUX: -n=6
 #FLUX: -t=180000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home-4/yhe23@jhu.edu/work/yuan/tools/STAR-2.7.1a/bin/Linux_x86_64_static
 genome_index_idr=/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/STAR/genome_index

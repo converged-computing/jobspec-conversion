@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-earthworm-9390
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-avocado-0040
+#FLUX: --urgency=16
 
 source /home/ferreira/.profile
 source activate dino

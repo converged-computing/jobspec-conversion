@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-latke-3937
+#FLUX: --job-name=outstanding-signal-7360
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 module load singularity

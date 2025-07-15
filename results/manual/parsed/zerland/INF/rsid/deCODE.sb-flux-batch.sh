@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=cardio
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='${HPC_WORK}/work'
 export dir='~/rds/results/public/proteomics/deCODE'

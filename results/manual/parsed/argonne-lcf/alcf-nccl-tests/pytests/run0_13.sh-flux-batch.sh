@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-nalgas-6072
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-fudge-1916
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/argonne-lcf/alcf-nccl-tests/pytests/run0_13.sh

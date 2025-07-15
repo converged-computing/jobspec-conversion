@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-soup-8157
-#FLUX: --priority=16
+#FLUX: --job-name=faux-spoon-7096
+#FLUX: --urgency=16
 
 cd /home/um106329/aisafety
 source ~/miniconda3/bin/activate

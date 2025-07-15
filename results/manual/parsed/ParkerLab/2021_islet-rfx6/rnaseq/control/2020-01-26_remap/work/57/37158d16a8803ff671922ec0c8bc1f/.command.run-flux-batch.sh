@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-destiny-8454
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-poo-1801
+#FLUX: --urgency=16
 
 set -e
 set -u

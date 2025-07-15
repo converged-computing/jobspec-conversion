@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-platanos-3973
+#FLUX: --job-name=peachy-blackbean-5892
 #FLUX: -c=8
 #FLUX: --queue=main
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load julia/1.10.2

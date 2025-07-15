@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-hobbit-2120
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-parsnip-9493
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PenguinComputing/pod/singularity/jobscripts/pod-ompi2-centos7.sub

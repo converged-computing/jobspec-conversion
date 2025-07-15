@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=LED_BB_LED3SCORE_CHEMBL_200K
-#FLUX: --queue="amd-short"
+#FLUX: --queue=amd-short
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ROW_INDEX=$((SLURM_ARRAY_TASK_ID))
 echo "Running example $ROW_INDEX"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-salad-6972
+#FLUX: --job-name=creamy-train-7363
 #FLUX: --queue=owners
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 remote_name=quakedrive
 drive_path='Sherlock Backupss'

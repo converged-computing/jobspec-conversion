@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="torch_lr"
-#FLUX: --priority=16
+#FLUX: --job-name=torch_lr
+#FLUX: --urgency=16
 
 export LOGLEVEL='ERROR'
 export EXP_HOME='$(pwd -P)'

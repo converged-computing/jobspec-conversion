@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-chip-1813
+#FLUX: --job-name=crunchy-caramel-3070
 #FLUX: -c=2
 #FLUX: --queue=unkillable-cpu
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 set -v

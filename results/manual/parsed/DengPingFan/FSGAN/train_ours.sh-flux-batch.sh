@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-nunchucks-5018
+#FLUX: --job-name=adorable-butter-1997
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 idx="$1"
 nohup python -m visdom.server > nohup_visdom_${idx}.out 2>&1 &

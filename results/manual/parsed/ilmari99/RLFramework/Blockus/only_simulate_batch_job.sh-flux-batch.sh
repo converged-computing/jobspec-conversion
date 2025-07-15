@@ -5,7 +5,7 @@
 #FLUX: -c=128
 #FLUX: --queue=medium
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "All arguments: $@"
 module purge

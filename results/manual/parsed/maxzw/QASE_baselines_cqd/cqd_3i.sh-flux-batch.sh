@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-toaster-8014
+#FLUX: --job-name=sticky-lettuce-5239
 #FLUX: -c=2
 #FLUX: --queue=gpu_shared
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge all
 module load 2021

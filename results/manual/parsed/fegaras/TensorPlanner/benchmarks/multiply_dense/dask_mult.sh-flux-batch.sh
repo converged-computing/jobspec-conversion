@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="dask_mult"
-#FLUX: --priority=16
+#FLUX: --job-name=dask_mult
+#FLUX: --urgency=16
 
 export EXP_HOME='$(pwd -P)'
 

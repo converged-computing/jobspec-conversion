@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lamp-8856
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-toaster-2530
+#FLUX: --urgency=16
 
 set -e
 cmd() {

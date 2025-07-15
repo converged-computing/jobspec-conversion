@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-frito-2236
-#FLUX: --priority=16
+#FLUX: --job-name=salted-bits-4075
+#FLUX: --urgency=16
 
 source activate mlfold
 folder_with_pdbs="../inputs/PDB_monomers/pdbs/"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-banana-1130
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-underoos-1408
+#FLUX: --urgency=16
 
 module purge
 source activate pangeo

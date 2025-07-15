@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-toaster-2954
+#FLUX: --job-name=muffled-punk-0736
 #FLUX: --exclusive
 #FLUX: --queue=a6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='./hf_cache/'
 export HF_DATASETS_CACHE='./hf_cache/'

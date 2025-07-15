@@ -2,7 +2,7 @@
 #FLUX: --job-name=GPU-Test
 #FLUX: --queue=batch-acc
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_MPS_PIPE_DIRECTORY='/tmp/nvidia-mps'
 export CUDA_MPS_LOG_DIRECTORY='/tmp/nvidia-log'

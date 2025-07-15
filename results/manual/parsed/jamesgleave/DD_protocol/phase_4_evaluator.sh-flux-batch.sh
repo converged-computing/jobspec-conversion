@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=phase_4_eval
 #FLUX: -c=3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 env=${11}
 time=${10}

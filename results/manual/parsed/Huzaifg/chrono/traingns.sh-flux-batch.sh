@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-destiny-9765
+#FLUX: --job-name=outstanding-squidward-5003
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/usr/lib64:$LD_LIBRARY_PATH'
 

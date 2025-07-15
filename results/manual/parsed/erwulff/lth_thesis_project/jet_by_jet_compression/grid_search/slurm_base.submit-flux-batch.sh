@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-despacito-7343
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-earthworm-8402
+#FLUX: --urgency=16
 
 cat $0
 ml GCCcore/5.4.0

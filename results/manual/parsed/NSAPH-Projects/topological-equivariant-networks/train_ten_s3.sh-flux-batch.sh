@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-sundae-4822
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-muffin-4891
+#FLUX: --urgency=16
 
 module load ncf/1.0.0-fasrc01
 module load miniconda3/py310_22.11.1-1-linux_x64-ncf

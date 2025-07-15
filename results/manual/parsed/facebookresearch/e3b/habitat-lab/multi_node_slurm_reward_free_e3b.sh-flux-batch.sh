@@ -5,7 +5,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=devlab
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MAGNUM_LOG='quiet'
 export MAGNUM_GPU_VALIDATION='ON'

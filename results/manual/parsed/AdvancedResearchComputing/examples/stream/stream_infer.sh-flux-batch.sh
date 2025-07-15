@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-peanut-butter-9212
+#FLUX: --job-name=persnickety-rabbit-4544
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_NUM_THREADS='32'

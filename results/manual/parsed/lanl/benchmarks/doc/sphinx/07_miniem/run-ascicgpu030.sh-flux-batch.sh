@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=miniem
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_JOB_ID='${SLURM_JOB_ID:-424242}'
 export DIR_BASE='`pwd -P`'

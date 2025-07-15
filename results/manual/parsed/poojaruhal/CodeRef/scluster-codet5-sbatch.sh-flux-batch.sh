@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="Impact_Pretraining_CodeT5_Large"
+#FLUX: --job-name=Impact_Pretraining_CodeT5_Large
 #FLUX: -t=34200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge all
 module load multigpu

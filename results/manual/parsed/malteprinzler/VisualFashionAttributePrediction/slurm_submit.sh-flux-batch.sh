@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-poo-7160
+#FLUX: --job-name=creamy-leader-7796
 #FLUX: --queue=2080ti-long
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

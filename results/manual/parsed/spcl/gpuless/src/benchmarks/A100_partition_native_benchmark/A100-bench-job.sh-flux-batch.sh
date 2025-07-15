@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="gpuless"
+#FLUX: --job-name=gpuless
 #FLUX: --queue=amda100
 #FLUX: -t=4800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda
 module load python

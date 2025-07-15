@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=baselines
 #FLUX: -t=600000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$HOME/miniconda/bin:$PATH'
 export DATA_LOC='../datasets/cifar10'

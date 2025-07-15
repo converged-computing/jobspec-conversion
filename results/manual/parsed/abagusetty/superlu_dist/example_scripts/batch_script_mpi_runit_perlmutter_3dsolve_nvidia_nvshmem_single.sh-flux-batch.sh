@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cinnamonbun-3641
-#FLUX: --priority=16
+#FLUX: --job-name=arid-hippo-2636
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export CRAY_ACCEL_TARGET='nvidia80'

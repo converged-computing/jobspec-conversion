@@ -2,7 +2,7 @@
 #FLUX: --job-name=phase_f
 #FLUX: -N=5
 #FLUX: -n=5
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 file_path=`sed -n '1p' $3/$4/logs.txt`
 protein=`sed -n '2p' $3/$4/logs.txt`

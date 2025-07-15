@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="gpu-r-CNN-Cert"
+#FLUX: --job-name=gpu-r-CNN-Cert
 #FLUX: --queue=GPUQ,V100-IDI
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

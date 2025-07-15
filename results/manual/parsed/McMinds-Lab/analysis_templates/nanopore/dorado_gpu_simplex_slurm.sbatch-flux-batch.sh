@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-animal-8981
+#FLUX: --job-name=milky-train-1981
 #FLUX: --queue=rra
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load apps/cuda/11.3.1

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-punk-5436
+#FLUX: --job-name=expensive-taco-5083
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.3.0

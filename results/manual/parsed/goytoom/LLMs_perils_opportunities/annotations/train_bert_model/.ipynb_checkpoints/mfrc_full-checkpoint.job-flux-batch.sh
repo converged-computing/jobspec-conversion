@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-kerfuffle-7737
+#FLUX: --job-name=quirky-lentil-3643
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home1/sabdurah/.conda/envs/DT/lib/python3.7/site-packages/tensorrt'
 

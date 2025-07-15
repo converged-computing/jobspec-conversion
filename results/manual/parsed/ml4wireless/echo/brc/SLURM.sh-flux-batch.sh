@@ -3,7 +3,7 @@
 #FLUX: -N=8
 #FLUX: --queue=savio2
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 JOBSJSON=$1
 ECHO_DIR=$(pwd)

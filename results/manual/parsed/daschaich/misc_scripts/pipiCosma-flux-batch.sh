@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-egg-0514
-#FLUX: --priority=16
+#FLUX: --job-name=grated-latke-0553
+#FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'
 

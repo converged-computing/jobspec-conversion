@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=resnet
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MLD_RDK_ENV_INSTALL_DIR='/home/users/jbalma/cuda10_env_pharml'
 export SCRATCH='/lus/scratch/jbalma'

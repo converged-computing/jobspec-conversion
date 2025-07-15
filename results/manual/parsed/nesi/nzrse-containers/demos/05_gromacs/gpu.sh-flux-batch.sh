@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gpu
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_EXPORT_ENV='ALL'
 export SINGULARITYENV_LD_LIBRARY_PATH='${OLD_PATH}:${LD_LIBRARY_PATH}'

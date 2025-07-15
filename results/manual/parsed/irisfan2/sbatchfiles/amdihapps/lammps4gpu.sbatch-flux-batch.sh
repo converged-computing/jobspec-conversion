@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-leopard-6197
+#FLUX: --job-name=fat-peanut-butter-4269
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-egg-8727
+#FLUX: --job-name=adorable-cat-4857
 #FLUX: -n=4
 #FLUX: -c=8
 #FLUX: --queue=eap
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$HIP_LIB_PATH:$LD_LIBRARY_PATH'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-nalgas-8578
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-lemon-4893
+#FLUX: --urgency=16
 
 DIR=$(pwd)
 EXENAME="parachute"

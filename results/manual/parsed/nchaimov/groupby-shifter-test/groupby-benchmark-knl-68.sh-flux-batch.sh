@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-knife-3453
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-general-6014
+#FLUX: --urgency=16
 
 export JAVA_HOME='/usr/lib/jvm/java-8-oracle'
 export SPARK_HOME='/opt/spark'

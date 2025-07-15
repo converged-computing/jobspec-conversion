@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-train-0986
+#FLUX: --job-name=psycho-plant-6907
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

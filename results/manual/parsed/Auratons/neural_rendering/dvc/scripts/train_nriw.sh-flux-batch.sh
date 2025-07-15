@@ -2,7 +2,7 @@
 #FLUX: --job-name=nriw
 #FLUX: --queue=gpu
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

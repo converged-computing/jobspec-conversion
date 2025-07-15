@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-rabbit-1594
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-leopard-3453
+#FLUX: --urgency=16
 
 module purge
 module load pytorch

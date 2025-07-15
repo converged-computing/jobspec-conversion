@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-avocado-6941
+#FLUX: --job-name=creamy-toaster-8427
 #FLUX: -c=5
 #FLUX: --queue=gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load tensorflow
 echo $LOCAL_SCRATCH

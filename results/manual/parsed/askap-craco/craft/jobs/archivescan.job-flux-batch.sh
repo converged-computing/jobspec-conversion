@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-poodle-1596
+#FLUX: --job-name=buttery-peas-5946
 #FLUX: -n=4
 #FLUX: --queue=copyq
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 

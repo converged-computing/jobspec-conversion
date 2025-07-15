@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="sector-coupled-euro-calliope-eurospores-3h"
+#FLUX: --job-name=sector-coupled-euro-calliope-eurospores-3h
 #FLUX: -c=2
 #FLUX: --queue=compute
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ..;
 conda activate eurocalliope_2022_02_08;

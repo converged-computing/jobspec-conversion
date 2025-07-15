@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-kerfuffle-6007
+#FLUX: --job-name=stanky-general-0045
 #FLUX: -c=18
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FILENAME='$(ls ${BASEDIR}/*.fasta | sed -n ${SLURM_ARRAY_TASK_ID}p)'
 

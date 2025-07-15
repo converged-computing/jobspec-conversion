@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lamp-4706
-#FLUX: --priority=16
+#FLUX: --job-name=confused-bike-6028
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export THREADS_PER_NODE='128'

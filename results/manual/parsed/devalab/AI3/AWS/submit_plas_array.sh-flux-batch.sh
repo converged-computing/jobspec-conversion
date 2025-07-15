@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=job_name
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate gmx_MMPBSA
 module add gromacs/v2021.4-intel-2022.2.0

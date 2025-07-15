@@ -2,7 +2,7 @@
 #FLUX: --job-name=H64-S200
 #FLUX: -c=8
 #FLUX: -t=180000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

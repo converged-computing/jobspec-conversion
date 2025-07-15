@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-earthworm-6876
-#FLUX: --priority=16
+#FLUX: --job-name=arid-leopard-4022
+#FLUX: --urgency=16
 
 module load python3
 module list

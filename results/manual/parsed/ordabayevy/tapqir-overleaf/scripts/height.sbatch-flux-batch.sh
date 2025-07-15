@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=height
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 heights=(300 500 600 750 1000 1500 2000 3000)
 python scripts/cosmos_simulations.py \

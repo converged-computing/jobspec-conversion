@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-snack-0423
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-underoos-9253
+#FLUX: --urgency=16
 
 DATASET="--train-dir /home/wang4538/DGMS-master/CIFAR10/train/ --val-dir /home/wang4538/DGMS-master/CIFAR10/val/ -d cifar10 --num-classes 10"
 GENERAL="--lr 0.1 --batch-size 64 --epochs 350 --workers 1 --base-size 32 --crop-size 32 --nesterov"

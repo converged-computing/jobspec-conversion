@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lettuce-0245
+#FLUX: --job-name=cowy-carrot-9670
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_GNI_NDREG_ENTRIES='1024'
 

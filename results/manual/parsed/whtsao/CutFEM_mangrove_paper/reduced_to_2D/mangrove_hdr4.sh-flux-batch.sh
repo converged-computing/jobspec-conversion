@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lizard-3998
-#FLUX: --priority=16
+#FLUX: --job-name=arid-carrot-7966
+#FLUX: --urgency=16
 
 date
 module purge

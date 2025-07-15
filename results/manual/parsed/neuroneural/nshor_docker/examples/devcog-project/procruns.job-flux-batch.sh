@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-punk-7402
+#FLUX: --job-name=crunchy-knife-9946
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sleep 5s
 module load singularity/3.10.2

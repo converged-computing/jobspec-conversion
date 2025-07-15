@@ -1,20 +1,22 @@
-#!/bin/bash
+#!/bin/bash -l
+#SBATCH --job-name=job1         # Job name
+#SBATCH --output=out%j          # Name of stdout output file
+#SBATCH --error=err%j           # Name of stderr error file
+#SBATCH --partition=standard-g  # Partition (queue) name
+#SBATCH --nodes=64              # Total number of nodes
+#SBATCH --ntasks-per-node=8     # 8 MPI ranks per node, 8 total (2x8)
+#SBATCH --gpus-per-node=8       # Allocate one gpu per MPI rank
+#SBATCH --exclude=nid005360,nid005359
+#SBATCH --time=04:10:00         # Run time (d-hh:mm:ss)
+#SBATCH --account=Project_XXX   # Project for billing
 
-#SBATCH --partition=eap 
-#SBATCH --account=Project_462000043
-#SBATCH --time=10:00
-#SBATCH --ntasks=4
-#SBATCH --cpus-per-task=8
-#SBATCH --gpus-per-node=4
+# if fftw is also needed
+module load CrayEnv PrgEnv-cray craype-accel-amd-gfx90a cray-mpich rocm fftw
 
-# module load CrayEnv PrgEnv-cray craype-accel-amd-gfx90a cray-mpich rocm/5.1.4
-module load cpe/22.08 PrgEnv-cray craype-accel-amd-gfx90a cray-mpich rocm/5.0.2
+CPU_BIND="map_cpu:48,56,16,24,1,8,32,40"
 
-# export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK # 
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH
 export MPICH_GPU_SUPPORT_ENABLED=1
-export LD_LIBRARY_PATH=$HIP_LIB_PATH:$LD_LIBRARY_PATH
 
 
-srun ./sun_realtime
+srun --cpu-bind=${CPU_BIND} ./program
 

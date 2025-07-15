@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="4genome_hermes"
+#FLUX: --job-name=4genome_hermes
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GLOG_minloglevel='1 # 0:log everything, 2: minimal logging'
 export FLAGS_logtostderr='1'

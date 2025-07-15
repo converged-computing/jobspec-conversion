@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-snack-6150
-#FLUX: --priority=16
+#FLUX: --job-name=phat-bits-6256
+#FLUX: --urgency=16
 
 module load 2021
 module load MATLAB/2021a-upd3

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hippo-2973
+#FLUX: --job-name=chunky-signal-2027
 #FLUX: -N=16
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='32'
 export OMP_PLACES='threads'

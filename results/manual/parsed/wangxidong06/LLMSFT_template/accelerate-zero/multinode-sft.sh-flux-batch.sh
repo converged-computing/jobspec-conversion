@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-salad-3099
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-plant-0471
+#FLUX: --urgency=16
 
 export NCCL_ALGO='Ring'
 export NCCL_TOPO_FILE='/home/bingxing2/apps/nccl/conf/dump.xml'

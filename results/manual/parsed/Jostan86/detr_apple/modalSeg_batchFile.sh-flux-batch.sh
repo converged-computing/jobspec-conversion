@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-fork-3087
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-onion-1834
+#FLUX: --urgency=16
 
 module load python3
 source /nfs/hpc/share/browjost/detr_apple/venv/bin/activate

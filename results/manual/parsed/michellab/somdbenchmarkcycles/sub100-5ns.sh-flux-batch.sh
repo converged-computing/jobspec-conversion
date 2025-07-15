@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-salad-9068
+#FLUX: --job-name=sticky-nalgas-5209
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OPENMM_PLUGIN_DIR='/home/julien/sire.app/lib/plugins/'
 

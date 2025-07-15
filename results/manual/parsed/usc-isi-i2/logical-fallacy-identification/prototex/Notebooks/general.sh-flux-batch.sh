@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=nodes
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $(pwd)
 nvidia-smi

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-hobbit-4204
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-poo-1617
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rnabioco/rhumba/rMATS/run_pipeline.sh

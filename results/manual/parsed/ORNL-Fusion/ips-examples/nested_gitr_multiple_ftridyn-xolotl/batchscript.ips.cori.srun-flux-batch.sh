@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-poo-8338
+#FLUX: --job-name=fat-hope-9434
 #FLUX: -N=8
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$SLURM_SUBMIT_DIR:$PYTHONPATH'
 export OMP_PLACES='threads'

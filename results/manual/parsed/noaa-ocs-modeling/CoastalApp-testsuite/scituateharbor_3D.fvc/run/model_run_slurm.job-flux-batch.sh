@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lamp-7781
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-chip-2591
+#FLUX: --urgency=16
 
 set -e
 if [ -e "${MOD_FILE}" ]; then

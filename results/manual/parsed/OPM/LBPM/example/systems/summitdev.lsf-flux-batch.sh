@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-banana-0281
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-general-2626
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/OPM/LBPM/example/systems/summitdev.lsf

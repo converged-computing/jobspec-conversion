@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-salad-9099
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-cattywampus-7206
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

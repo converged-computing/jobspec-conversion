@@ -2,7 +2,7 @@
 #FLUX: --job-name=yelppolarity_safer_xlnet_pwws_None_recmethod_3_from484_to656
 #FLUX: -c=16
 #FLUX: --queue=applied
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun --container-image=/lustre/scratch/client/vinai/users/dangnm12/setup/docker_images/dc-miniconda3-py:38-4.10.3-cuda11.4.2-cudnn8-ubuntu20.04.sqsh \
      --container-mounts=/lustre/scratch/client/vinai/users/dangnm12/:/root/ \

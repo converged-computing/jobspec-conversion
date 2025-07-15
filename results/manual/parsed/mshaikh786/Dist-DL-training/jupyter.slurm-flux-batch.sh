@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-pancake-7262
+#FLUX: --job-name=blue-peanut-7561
 #FLUX: -c=20
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATA_DIR='/ibex/ai/reference/CV/tinyimagenet'
 export XDG_RUNTIME_DIR='/tmp node=$(hostname -s) '

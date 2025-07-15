@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cat-7645
+#FLUX: --job-name=outstanding-parrot-7736
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab/r2019b
 srun matlab -nojvm -nosplash -batch "testBench()"

@@ -3,7 +3,7 @@
 #FLUX: -c=18
 #FLUX: --queue=biochem,owners
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate barcode_venv
 module load matlab/R2017b

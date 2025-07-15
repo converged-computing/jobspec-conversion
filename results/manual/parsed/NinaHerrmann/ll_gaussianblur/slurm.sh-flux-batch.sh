@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=gpu2080
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load palma/2020b
 module load fosscuda/2020b

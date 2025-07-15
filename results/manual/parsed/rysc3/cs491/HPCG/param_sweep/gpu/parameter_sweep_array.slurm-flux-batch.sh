@@ -2,7 +2,7 @@
 #FLUX: --job-name=HPCG-2-gpu
 #FLUX: -N=2
 #FLUX: --queue=condo
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='TRUE'
 export OMP_PLACES='cores'

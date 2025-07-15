@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nfc_ampliseq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOOL_NAME='nextflow'
 

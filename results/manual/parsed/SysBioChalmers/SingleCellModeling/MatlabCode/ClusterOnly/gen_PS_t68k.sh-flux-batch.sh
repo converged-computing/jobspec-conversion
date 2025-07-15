@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-taco-2602
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-taco-9754
+#FLUX: --urgency=16
 
 module load MATLAB/2019a
 module load GCCcore/10.3.0

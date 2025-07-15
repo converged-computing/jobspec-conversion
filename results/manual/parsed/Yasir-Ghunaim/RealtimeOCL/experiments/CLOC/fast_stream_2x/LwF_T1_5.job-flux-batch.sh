@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-latke-5635
+#FLUX: --job-name=eccentric-destiny-3392
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=180000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.1.0

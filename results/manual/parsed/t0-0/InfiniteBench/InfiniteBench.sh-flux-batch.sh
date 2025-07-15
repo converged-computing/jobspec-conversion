@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-peanut-5619
-#FLUX: --priority=16
+#FLUX: --job-name=red-leg-3027
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load cuda/12.1 nccl/cuda-11.7/2.14.3 clang/15.0

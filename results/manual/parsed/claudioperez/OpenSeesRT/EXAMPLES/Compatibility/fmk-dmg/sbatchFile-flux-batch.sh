@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-puppy-2692
-#FLUX: --priority=16
+#FLUX: --job-name=purple-cherry-0865
+#FLUX: --urgency=16
 
 module load intel
 module load petsc

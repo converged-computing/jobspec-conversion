@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-fudge-6062
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-house-3031
+#FLUX: --urgency=16
 
 module load python/3.11.0 openssl/3.0.0 cuda/11.7.1 cudnn/8.2.0
 source /users/anair27/data/anair27/singh-lab-TCGA-project/multiomic-model-tcga/tf_gpu.venv/bin/activate

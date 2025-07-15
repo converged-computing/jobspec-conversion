@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-motorcycle-8837
+#FLUX: --job-name=astute-lemur-1113
 #FLUX: --queue=accelerated
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRAIN_SCRIPT='scripts/singularity_train.py'
 export TOMOUNT='${TOMOUNT}'

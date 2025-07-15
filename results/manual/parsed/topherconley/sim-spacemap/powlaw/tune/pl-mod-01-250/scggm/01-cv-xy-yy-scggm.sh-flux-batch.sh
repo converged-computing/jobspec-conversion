@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=scggm
 #FLUX: -c=31
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 set -v

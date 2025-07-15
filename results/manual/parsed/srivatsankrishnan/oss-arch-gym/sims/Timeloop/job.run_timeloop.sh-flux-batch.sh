@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-signal-3938
-#FLUX: --priority=16
+#FLUX: --job-name=fat-arm-8314
+#FLUX: --urgency=16
 
 export USER_UID='$UID'
 export USER_GID='$(id -g)'

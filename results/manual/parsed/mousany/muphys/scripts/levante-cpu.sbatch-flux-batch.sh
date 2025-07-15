@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=compute
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ulimit -s unlimited
 ulimit -c 0

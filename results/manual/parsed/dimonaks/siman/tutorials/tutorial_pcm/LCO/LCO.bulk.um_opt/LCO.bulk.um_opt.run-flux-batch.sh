@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cat-3799
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-train-1674
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home/a.boev/tools/'
 

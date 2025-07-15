@@ -4,7 +4,7 @@
 #FLUX: -c=2
 #FLUX: --queue=regular2
 #FLUX: -t=2400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gnu8/8.3.0

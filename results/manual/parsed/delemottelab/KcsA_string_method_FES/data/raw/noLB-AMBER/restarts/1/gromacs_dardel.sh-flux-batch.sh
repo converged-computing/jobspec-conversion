@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: --queue=main
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml PDC
 ml GROMACS/2020.5-cpeCray-21.11

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-pancake-2161
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-knife-1552
+#FLUX: --urgency=16
 
 BASEDIR=$1
 TOTALTASKS=$2

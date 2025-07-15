@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=audiolm-e2e-openslr-dev-clean
 #FLUX: --queue=g40x
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 while getopts "r:p:s:S:C:F:t:" opt; do
   case ${opt} in

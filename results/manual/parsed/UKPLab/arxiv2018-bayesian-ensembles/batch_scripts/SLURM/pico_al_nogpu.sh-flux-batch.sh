@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-cat-0803
+#FLUX: --job-name=swampy-omelette-2349
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${cudaDir}/lib64:${LD_LIBRARY_PATH}'
 export CPATH='${cudaDir}/include:${CPATH}'

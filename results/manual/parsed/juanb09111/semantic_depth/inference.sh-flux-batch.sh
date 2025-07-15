@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=gpu
 #FLUX: -t=259140
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(hostname)'
 

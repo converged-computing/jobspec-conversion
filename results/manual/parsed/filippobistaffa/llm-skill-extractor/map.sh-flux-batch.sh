@@ -2,7 +2,7 @@
 #FLUX: --job-name=llama-cpp-map
 #FLUX: -c=20
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ "$USER" == "filippo.bistaffa" ]
 then

@@ -2,7 +2,7 @@
 #FLUX: --job-name=pi_hbonds
 #FLUX: --queue=owners
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MAIN_DIRECTORY='/scratch/users/sahn1/Triazine  # TODO'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/sahn1/  # TODO'

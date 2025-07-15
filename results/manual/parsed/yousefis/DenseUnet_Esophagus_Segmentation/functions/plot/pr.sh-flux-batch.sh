@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=LKEBgpu
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/share/software/NVIDIA/cudnn-9.0/lib64/'
 

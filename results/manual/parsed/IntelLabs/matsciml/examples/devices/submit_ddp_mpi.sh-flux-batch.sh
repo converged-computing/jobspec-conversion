@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-caramel-2029
+#FLUX: --job-name=persnickety-cherry-2670
 #FLUX: --exclusive
 #FLUX: --queue=pvc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ZE_FLAT_DEVICE_HIERARCHY='FLAT'
 

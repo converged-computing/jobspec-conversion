@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-milkshake-7454
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-lemur-5210
+#FLUX: --urgency=16
 
 module load Julia/1.5.3-linux-x86_64
 julia Check_Invcov_Logcoeff.jl "log" "apd" "noiso" "../Nx64/noisy_stdtrue/" "checks" "Diagonal"

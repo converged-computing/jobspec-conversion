@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=ind-shared
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 declare -xr LOCAL_TIME="$(date +'%Y%m%dT%H%M%S%z')"
 declare -xir UNIX_TIME="$(date +'%s')"

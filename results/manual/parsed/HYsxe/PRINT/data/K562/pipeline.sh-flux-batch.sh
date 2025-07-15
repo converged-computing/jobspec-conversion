@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-staircase-4720
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-staircase-0218
+#FLUX: --urgency=16
 
 genome="hg19"
 bam=N711_ATAC_Exp49_sample9_S1.bap.bam

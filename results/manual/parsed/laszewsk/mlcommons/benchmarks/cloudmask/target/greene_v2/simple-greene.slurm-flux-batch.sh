@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=simple-cloudmask-gpu-greene
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export USER_SCRATCH='/scratch/$USER/github-fork'
 export PROJECT_DIR='$USER_SCRATCH/mlcommons/benchmarks/cloudmask'

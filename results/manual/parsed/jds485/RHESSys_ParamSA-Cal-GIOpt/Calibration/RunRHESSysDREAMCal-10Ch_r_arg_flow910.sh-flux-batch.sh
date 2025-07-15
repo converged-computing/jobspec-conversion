@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-pastry-1332
-#FLUX: --priority=16
+#FLUX: --job-name=confused-carrot-8319
+#FLUX: --urgency=16
 
 module purge
 module load gcc/7.1.0 openmpi/3.1.4 R/3.5.3 singularity python/3.6.6

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-cupcake-7763
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-blackbean-8814
+#FLUX: --urgency=16
 
 set -e
 module load python/3.6.6

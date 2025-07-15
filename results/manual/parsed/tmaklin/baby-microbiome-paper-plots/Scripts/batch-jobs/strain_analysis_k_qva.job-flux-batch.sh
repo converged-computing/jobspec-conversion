@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=wgs-msweep-k-qva-strain-bins
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LC_ALL='C'
 export LANG='C'

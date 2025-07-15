@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-signal-4392
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-kitty-6855
+#FLUX: --urgency=16
 
 conda activate keras
 module load cuda/10.0

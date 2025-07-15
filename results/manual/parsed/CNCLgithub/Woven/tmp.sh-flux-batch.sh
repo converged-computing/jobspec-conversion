@@ -2,7 +2,7 @@
 #FLUX: --job-name=cloth_gen2_dp_for_cnn
 #FLUX: --queue=psych_gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 gz_objs_dir='/gpfs/milgram/project/yildirim/wb338/gen_test2/depth_map_for_cnn/depth_map_o3d_for_cnn/in'

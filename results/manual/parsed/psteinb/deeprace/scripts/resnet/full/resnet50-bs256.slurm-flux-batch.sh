@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-plant-0426
+#FLUX: --job-name=faux-gato-4762
 #FLUX: -t=32400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

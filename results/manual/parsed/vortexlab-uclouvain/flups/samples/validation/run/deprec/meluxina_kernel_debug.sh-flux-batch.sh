@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-dog-7869
+#FLUX: --job-name=reclusive-eagle-5654
 #FLUX: --queue=cpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ${MODULES} ${OMPIVERSION}
 module load Valgrind

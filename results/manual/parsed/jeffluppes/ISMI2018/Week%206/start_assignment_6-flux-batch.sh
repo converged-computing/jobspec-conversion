@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-squidward-0377
-#FLUX: --priority=16
+#FLUX: --job-name=blank-banana-9171
+#FLUX: --urgency=16
 
 module load python/3.5.2
 pip install tensorflow-gpu==1.4.1 --user

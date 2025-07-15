@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-soup-6409
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-earthworm-6700
+#FLUX: --urgency=16
 
 module purge
 wget https://github.com/chiawang/DS-7347/blob/main/assignment_05/assignment_05.R

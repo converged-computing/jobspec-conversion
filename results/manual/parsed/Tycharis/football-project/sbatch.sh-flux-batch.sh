@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-blackbean-7140
-#FLUX: --priority=16
+#FLUX: --job-name=salted-animal-5517
+#FLUX: --urgency=16
 
 module load icc
 ${PROTEIN_PROJECT_DIR}/program.o --bondEn ${1} --iterations ${2} --split ${3} --blocks ${4} --length ${5} --runId ${SLURM_ARRAY_TASK_ID:-0} \

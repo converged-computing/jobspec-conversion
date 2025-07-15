@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=m3g
 #FLUX: -t=255600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 EPOCHS="$1"
 DATA_AUG="$2"

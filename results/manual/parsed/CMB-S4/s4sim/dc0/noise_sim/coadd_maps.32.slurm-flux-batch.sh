@@ -2,7 +2,7 @@
 #FLUX: --job-name=CMBS4_DC0_coadd_noise_32
 #FLUX: -N=4
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_CXI_OPTIMIZED_MRS='false'
 export MPI4PY_RC_RECV_MPROBE='False'

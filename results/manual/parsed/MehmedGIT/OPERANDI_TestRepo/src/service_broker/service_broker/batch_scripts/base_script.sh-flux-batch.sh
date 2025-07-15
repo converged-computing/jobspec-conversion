@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-train-1609
+#FLUX: --job-name=pusheena-cat-4358
 #FLUX: -c=2
 #FLUX: --queue=medium
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 slurm_resources

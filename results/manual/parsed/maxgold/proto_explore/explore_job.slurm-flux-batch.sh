@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=job_wgpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 declare -a METHODS=("icm" "proto" "diayn" "icm_apt" "ind_apt" "aps" "smm" "rnd" "disagreement")
 singularity \

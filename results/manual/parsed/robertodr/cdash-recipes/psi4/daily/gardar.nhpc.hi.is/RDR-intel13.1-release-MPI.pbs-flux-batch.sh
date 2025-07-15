@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peanut-4014
-#FLUX: --priority=16
+#FLUX: --job-name=salted-staircase-8814
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/robertodr/cdash-recipes/psi4/daily/gardar.nhpc.hi.is/RDR-intel13.1-release-MPI.pbs

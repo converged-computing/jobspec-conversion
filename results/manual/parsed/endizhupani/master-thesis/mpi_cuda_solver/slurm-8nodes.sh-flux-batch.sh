@@ -5,7 +5,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=gpu2080
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='24'
 export I_MPI_DEBUG='3'

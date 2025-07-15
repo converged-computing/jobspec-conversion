@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-staircase-3678
+#FLUX: --job-name=moolicious-parrot-9119
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add .plgrid
 module add plgrid/apps/cuda/11.1.1-gcc-10.2.0

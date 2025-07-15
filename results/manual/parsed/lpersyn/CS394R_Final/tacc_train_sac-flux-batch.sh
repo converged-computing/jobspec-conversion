@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-peanut-butter-7349
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-egg-3623
+#FLUX: --urgency=16
 
 source /work/09320/lpersyn/ls6/anaconda3/etc/profile.d/conda.sh
 conda activate ../cs394-work-env

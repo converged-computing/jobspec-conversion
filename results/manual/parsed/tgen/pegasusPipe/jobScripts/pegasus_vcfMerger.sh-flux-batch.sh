@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="pegasus_vcfMerger"
+#FLUX: --job-name=pegasus_vcfMerger
 #FLUX: -c=8
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 beginTime=`date +%s`
 machine=`hostname`

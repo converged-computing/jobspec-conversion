@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-citrus-6237
+#FLUX: --job-name=nerdy-knife-7140
 #FLUX: -c=10
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo Setting up environment
 module load python/3.8

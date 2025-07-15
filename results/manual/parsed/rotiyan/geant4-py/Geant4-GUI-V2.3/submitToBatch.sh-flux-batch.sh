@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-leader-4111
+#FLUX: --job-name=creamy-fork-9078
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity 
 module load spack

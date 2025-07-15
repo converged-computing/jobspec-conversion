@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-noodle-9179
+#FLUX: --job-name=fugly-knife-4265
 #FLUX: --queue=debug-gpu
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python Supersense_semeval.py

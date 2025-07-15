@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=run_exp
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularity exec --nv --overlay /scratch/bne215/overlay-50G-10M.ext3:ro \
     --overlay /scratch/work/public/singularity/mujoco200-dep-cuda11.1-cudnn8-ubunutu18.04.sqf:ro \

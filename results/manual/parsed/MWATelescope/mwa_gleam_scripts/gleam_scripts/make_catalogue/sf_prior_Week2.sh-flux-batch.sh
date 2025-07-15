@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-muffin-8821
+#FLUX: --job-name=expensive-train-7698
 #FLUX: --queue=gpuq
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/group/mwaops/phancock/code/Aegean:$PATH'
 export PYTHONPATH='/group/mwaops/phancock/code/Aegean:$PYTHONPATH'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-platanos-7779
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-staircase-1361
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nelsonlachini/Grid/systems/Summit/dwf16.lsf

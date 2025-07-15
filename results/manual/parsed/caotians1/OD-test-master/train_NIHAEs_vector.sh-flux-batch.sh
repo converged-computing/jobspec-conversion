@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-poodle-3833
+#FLUX: --job-name=crusty-earthworm-0373
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PARRAY1=(NIHTrainAE.py NIHTrainAEBCE.py NIHTrainVAE.py NIHTrainVAEBCE.py NIHTrainALILikeAE.py NIHTrainALILikeAEBCE.py PADTrainALILikeVAE.py PADTrainALILikeVAEBCE.py)
 for i in {0..8}

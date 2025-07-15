@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-pancake-7862
+#FLUX: --job-name=expensive-leader-4606
 #FLUX: -c=16
 #FLUX: -t=15552000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='0'
 export NCCL_DEBUG='INFO'

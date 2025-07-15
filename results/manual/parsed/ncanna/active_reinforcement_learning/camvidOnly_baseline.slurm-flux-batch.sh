@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Baseline_Ralis_CAMVID_Only
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module --ignore-cache load anaconda/2019.10-py3.7

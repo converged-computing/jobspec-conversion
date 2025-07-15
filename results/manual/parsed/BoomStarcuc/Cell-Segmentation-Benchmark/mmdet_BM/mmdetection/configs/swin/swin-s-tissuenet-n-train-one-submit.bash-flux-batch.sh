@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-nunchucks-7375
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-cherry-3094
+#FLUX: --urgency=16
 
 tissues=("Colon" "lymph_node_metastasis" "Spleen" "Pancreas" "Epidermis" "Breast" "Lymph_Node" "Tonsil" "Lung" "Esophagus")
 CONFIG_DIR='mmdetection/configs/swin'

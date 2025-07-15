@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chair-1828
+#FLUX: --job-name=boopy-peanut-0293
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load foss/2022a 
 module load PyTorch/1.12.1

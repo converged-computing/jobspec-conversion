@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-taco-7811
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-puppy-1034
+#FLUX: --urgency=16
 
 set -e              # Crash on error
 set -o nounset      # Crash on unset variables

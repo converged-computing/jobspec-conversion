@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-kerfuffle-7650
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-house-2459
+#FLUX: --urgency=16
 
 python task_a.py \
     --mode symmetric \

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-chair-2406
+#FLUX: --job-name=fugly-bits-5178
 #FLUX: --queue=long
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"

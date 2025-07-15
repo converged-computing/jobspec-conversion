@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-latke-5670
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-onion-6510
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

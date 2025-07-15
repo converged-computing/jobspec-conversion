@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cherry-3370
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-spoon-5409
+#FLUX: --urgency=16
 

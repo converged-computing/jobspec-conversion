@@ -2,7 +2,7 @@
 #FLUX: --job-name=double
 #FLUX: -c=8
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge;
 singularity exec --nv \

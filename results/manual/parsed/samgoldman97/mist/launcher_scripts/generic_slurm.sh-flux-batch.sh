@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-general-2870
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-knife-9890
+#FLUX: --urgency=16
 
 conda activate ms-gen
 echo "Cuda visible:"

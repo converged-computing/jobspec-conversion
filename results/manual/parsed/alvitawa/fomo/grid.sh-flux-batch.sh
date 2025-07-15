@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pot-3626
+#FLUX: --job-name=carnivorous-train-2117
 #FLUX: -c=18
 #FLUX: --queue=gpu
 #FLUX: -t=201600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$PWD'
 

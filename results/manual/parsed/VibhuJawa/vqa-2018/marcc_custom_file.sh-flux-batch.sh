@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bicycle-9834
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-diablo-5777
+#FLUX: --urgency=16
 
 module load cuda/9.0
 python test.py

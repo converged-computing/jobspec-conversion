@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-soup-3871
+#FLUX: --job-name=hello-egg-4412
 #FLUX: -c=3
-#FLUX: --queue="cscsci"
-#FLUX: --priority=16
+#FLUX: --queue=cscsci
+#FLUX: --urgency=16
 
 set -o errexit
 set -o nounset

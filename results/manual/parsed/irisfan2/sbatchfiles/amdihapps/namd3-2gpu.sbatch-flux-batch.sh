@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-noodle-5540
+#FLUX: --job-name=evasive-hippo-6094
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=HM
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load spark/2.3.2-hadoop2.7
 module load python/2.7.15

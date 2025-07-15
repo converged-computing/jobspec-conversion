@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-fork-5331
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-train-9239
+#FLUX: --urgency=16
 

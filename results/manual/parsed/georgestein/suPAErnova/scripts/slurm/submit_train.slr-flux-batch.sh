@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-dog-7508
+#FLUX: --job-name=crunchy-spoon-1900
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda activate tfp
 srun python scripts/train_ae.py

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-lamp-1755
+#FLUX: --job-name=nerdy-signal-4984
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='cores'

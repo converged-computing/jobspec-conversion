@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-diablo-4449
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-nalgas-1002
+#FLUX: --urgency=16
 
 export NUM_NODES='$SLURM_JOB_NUM_NODES'
 export NUM_FOCAL_SPOTS='1'

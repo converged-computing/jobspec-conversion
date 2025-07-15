@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cinnamonbun-5497
+#FLUX: --job-name=sticky-nalgas-2582
 #FLUX: -c=12
-#FLUX: --queue="cscsci"
-#FLUX: --priority=16
+#FLUX: --queue=cscsci
+#FLUX: --urgency=16
 
 export NVSDKCOMPUTE_ROOT='${CUDATOOLKIT_HOME}'
 export PKG_CONFIG_PATH='${HOME}/libxsmm/lib:${PKG_CONFIG_PATH}'

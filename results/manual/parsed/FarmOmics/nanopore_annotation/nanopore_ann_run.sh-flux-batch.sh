@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=high
 #FLUX: -t=2592000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load bio3
 snakemake -j 68 \

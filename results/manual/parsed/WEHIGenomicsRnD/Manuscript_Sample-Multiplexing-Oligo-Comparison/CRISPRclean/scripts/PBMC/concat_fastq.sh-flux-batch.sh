@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=regular
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module load anaconda3

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-parrot-3578
+#FLUX: --job-name=crusty-itch-7484
 #FLUX: -n=4
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 <<<<<<< Updated upstream
 module load R4

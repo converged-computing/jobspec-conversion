@@ -2,7 +2,7 @@
 #FLUX: --job-name=udal_synthetic
 #FLUX: -c=8
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 source ~/envs/dal-toolbox/bin/activate

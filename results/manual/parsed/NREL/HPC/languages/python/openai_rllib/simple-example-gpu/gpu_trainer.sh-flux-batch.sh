@@ -3,7 +3,7 @@
 #FLUX: -c=36
 #FLUX: --queue=debug
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 env
 module purge

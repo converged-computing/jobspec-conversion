@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-leader-5689
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-arm-9140
+#FLUX: --urgency=16
 
 export GROUP='conroy_lab'
 export MYSCRATCH='$SCRATCH/$GROUP/$USER'

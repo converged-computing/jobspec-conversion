@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=dcs-gpu-test
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CUDAcore/11.1.1
 module load gcccuda/2019b

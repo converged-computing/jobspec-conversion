@@ -2,7 +2,7 @@
 #FLUX: --job-name=GPU-Test
 #FLUX: --queue=gpu
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel/2020.4  ompi/4.1.2 lammps-gpu/24Mar22
 echo "Starting run at: `date`"

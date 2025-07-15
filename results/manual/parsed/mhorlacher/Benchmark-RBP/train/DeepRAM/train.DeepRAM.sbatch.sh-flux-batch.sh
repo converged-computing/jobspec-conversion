@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-rabbit-5595
-#FLUX: --priority=15
+#FLUX: --job-name=strawberry-banana-7193
+#FLUX: --urgency=15
 
 sbatch --wait << EOF
 echo HOSTNAME=$HOSTNAME

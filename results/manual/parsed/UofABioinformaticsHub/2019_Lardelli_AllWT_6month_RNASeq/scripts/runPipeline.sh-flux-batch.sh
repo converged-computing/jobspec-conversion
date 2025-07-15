@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-chip-7146
+#FLUX: --job-name=faux-lentil-2846
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CORES=16
 module load FastQC/0.11.7

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-banana-0962
+#FLUX: --job-name=evasive-diablo-7348
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/miniforge-24.1.2 # python 3.10
 echo "output of the visible GPU environment"

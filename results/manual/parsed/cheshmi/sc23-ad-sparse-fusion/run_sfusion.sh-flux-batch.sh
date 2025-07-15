@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="fusion"
-#FLUX: --priority=16
+#FLUX: --job-name=fusion
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='20'
 

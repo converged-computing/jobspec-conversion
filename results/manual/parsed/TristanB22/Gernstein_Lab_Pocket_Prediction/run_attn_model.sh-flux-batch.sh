@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python -m pip install --upgrade pip
 module purge

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-kerfuffle-5271
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-lentil-1535
+#FLUX: --urgency=16
 
 FILE="$(readlink -f $1)"
 OUTDIR="$(readlink -f $2)"

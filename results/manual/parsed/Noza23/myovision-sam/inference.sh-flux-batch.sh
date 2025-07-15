@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-soup-5489
-#FLUX: --queue=# set partition name
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-train-0190
+#FLUX: --queue=
+#FLUX: --urgency=16
 
 singularity exec --pwd $(pwd) --nv \
   -B /myovision:/mnt \

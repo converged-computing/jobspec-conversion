@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-malarkey-2039
-#FLUX: --priority=16
+#FLUX: --job-name=phat-parsnip-5481
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pentschev/nvrapids_olcf/gtc_2020/cudf/job_scripts/launch_cudf.lsf

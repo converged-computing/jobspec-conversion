@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-earthworm-7665
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-general-7255
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='40 # Hyperthreading'
 

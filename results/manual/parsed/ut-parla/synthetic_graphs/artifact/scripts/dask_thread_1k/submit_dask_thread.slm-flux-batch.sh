@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-knife-5193
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-caramel-0733
+#FLUX: --urgency=16
 
 source /scratch1/06081/wlruys/miniconda3/etc/profile.d/conda.sh
 conda activate rap

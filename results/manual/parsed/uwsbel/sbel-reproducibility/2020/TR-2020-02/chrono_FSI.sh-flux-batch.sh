@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-noodle-6514
+#FLUX: --job-name=sticky-caramel-9834
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/7.3.0
 module load cmake/3.15.4

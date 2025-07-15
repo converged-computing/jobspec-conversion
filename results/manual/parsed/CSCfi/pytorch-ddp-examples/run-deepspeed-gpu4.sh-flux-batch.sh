@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-blackbean-3697
+#FLUX: --job-name=expressive-lemur-0427
 #FLUX: -c=40
 #FLUX: --queue=gputest
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load pytorch

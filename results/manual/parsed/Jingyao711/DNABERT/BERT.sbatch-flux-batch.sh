@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=6mer_Non_overlaping_pretrain_4_6_BERT_test_data_1e6
 #FLUX: -t=3540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load CUDA/11.8.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-kerfuffle-4721
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-cat-6834
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NCEP-NCO/godas/lsf/jgodas2_prep.lsf

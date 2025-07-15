@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lemur-1022
+#FLUX: --job-name=fugly-arm-9955
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load bioinfo/Snakemake/7.20.0 # to adapt to your cluster

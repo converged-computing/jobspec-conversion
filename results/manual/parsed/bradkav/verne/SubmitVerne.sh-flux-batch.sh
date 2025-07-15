@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-parsnip-5412
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-leopard-3296
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='none'
 

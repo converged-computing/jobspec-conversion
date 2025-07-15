@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=merge_bams
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow
 module load samtools

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-puppy-8345
+#FLUX: --job-name=reclusive-blackbean-4047
 #FLUX: -N=10
 #FLUX: -n=240
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MXM_TLS='self,shm,rc'

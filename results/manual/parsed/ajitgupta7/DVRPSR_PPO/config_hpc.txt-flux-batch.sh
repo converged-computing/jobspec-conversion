@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: -n=4
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CONDA_ROOT='$HOME/miniconda3'
 export PATH='$CONDA_ROOT/bin:$PATH'

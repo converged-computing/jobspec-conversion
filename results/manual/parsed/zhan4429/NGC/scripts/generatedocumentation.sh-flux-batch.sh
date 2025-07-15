@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-parsnip-1237
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-leader-4464
+#FLUX: --urgency=16
 
 readarray -t listofmissingfiles < listofmissingfiles.txt
 for filename in ${listofmissingfiles[@]}; do

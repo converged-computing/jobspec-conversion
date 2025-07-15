@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-platanos-0293
+#FLUX: --job-name=bumfuzzled-muffin-8686
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 export WORLD_SIZE='${SLURM_NTASKS}'

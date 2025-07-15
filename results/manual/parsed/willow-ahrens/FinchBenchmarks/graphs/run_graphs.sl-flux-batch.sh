@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-parrot-9323
+#FLUX: --job-name=fat-hippo-4066
 #FLUX: --exclusive
 #FLUX: --queue=lanka-v3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /data/scratch/willow/FinchBenchmarks/graphs
 source /afs/csail.mit.edu/u/w/willow/everyone/.bashrc

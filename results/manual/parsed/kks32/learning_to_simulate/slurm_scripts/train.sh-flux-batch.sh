@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-buttface-8881
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-hippo-8209
+#FLUX: --urgency=16
 
 set -e
 cd ..

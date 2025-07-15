@@ -2,7 +2,7 @@
 #FLUX: --job-name=mia_covid
 #FLUX: --queue=clara
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 case $SLURM_ARRAY_TASK_ID in
   1)

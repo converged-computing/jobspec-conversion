@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=a100_1,a100_2,v100,rtx8000
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ext3_path=/scratch/$USER/overlay-25GB-500K.ext3
 sif_path=/scratch/$USER/cuda11.4.2-cudnn8.2.4-devel-ubuntu20.04.3.sif

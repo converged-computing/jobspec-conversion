@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=DAC-1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "*"{,,,,,,,,,}
 echo $SLURM_JOB_ID

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pot-4891
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-earthworm-5300
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cattywampus-4152
+#FLUX: --job-name=persnickety-lettuce-4028
 #FLUX: -N=32
 #FLUX: -c=128
 #FLUX: --queue=gpus
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_CUDA_SUPPORT='0'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-truffle-6986
+#FLUX: --job-name=butterscotch-earthworm-3322
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.12
 module load cuda/12.2

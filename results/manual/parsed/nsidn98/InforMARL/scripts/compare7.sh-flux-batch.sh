@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=marl_7_compare
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 module load anaconda/2020a

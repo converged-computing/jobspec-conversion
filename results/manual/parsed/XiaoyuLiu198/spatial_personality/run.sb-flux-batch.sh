@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="twi_infer_0"
+#FLUX: --job-name=twi_infer_0
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gpu/0.15.4
 module load anaconda3/2020.11

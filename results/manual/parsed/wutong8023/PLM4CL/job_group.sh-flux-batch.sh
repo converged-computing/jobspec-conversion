@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-noodle-5017
+#FLUX: --job-name=pusheena-platanos-9103
 #FLUX: -c=3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python3
 source /home/tongwu/envs/pseudoCL/bin/activate

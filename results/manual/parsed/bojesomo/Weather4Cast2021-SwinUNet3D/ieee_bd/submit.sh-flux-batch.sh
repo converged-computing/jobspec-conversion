@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cuda/11.3 miniconda/3 gcc/9.3

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-itch-1645
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-arm-6691
+#FLUX: --urgency=16
 
 export KMP_DETERMINISTIC_REDUCTION='true'
 export I_MPI_PIN_DOMAIN='omp'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cattywampus-4086
+#FLUX: --job-name=outstanding-noodle-6657
 #FLUX: -c=16
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CMake Ninja Clang hwloc
 module list

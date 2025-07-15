@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-chair-8098
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-sundae-0054
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/halfshear-darcy-strength-dilation-rate-N80-cont.sh

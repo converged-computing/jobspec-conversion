@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-general-2451
+#FLUX: --job-name=hanky-earthworm-5595
 #FLUX: -N=2
 #FLUX: -n=80
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: --queue=prod
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cnrn_input="$1"
 module_suffix="$2"

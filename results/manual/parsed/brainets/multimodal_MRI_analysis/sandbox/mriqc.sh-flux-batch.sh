@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-underoos-1483
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-salad-0913
+#FLUX: --urgency=16
 
 module purge
 module load all

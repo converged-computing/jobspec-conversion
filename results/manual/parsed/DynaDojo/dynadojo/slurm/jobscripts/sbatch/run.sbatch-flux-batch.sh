@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-bicycle-4157
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-egg-9350
+#FLUX: --urgency=16
 
 PARAMS_FILE=$1
 JOBS=$2 #default to None if not provided

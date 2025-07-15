@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-plant-5105
+#FLUX: --job-name=wobbly-onion-5341
 #FLUX: -c=32
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_MR_CACHE_MONITOR='userfaultfd'
 export HDF5_USE_FILE_LOCKING='FALSE'

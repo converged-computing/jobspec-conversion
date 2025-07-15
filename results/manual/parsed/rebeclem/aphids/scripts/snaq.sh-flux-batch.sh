@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bits-7028
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-pastry-1429
+#FLUX: --urgency=16
 
 t1=$(date +"%s")
 module load julia/1.5.3 

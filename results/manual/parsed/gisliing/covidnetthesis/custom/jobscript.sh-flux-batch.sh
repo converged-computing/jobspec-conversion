@@ -3,7 +3,7 @@
 #FLUX: -N=10
 #FLUX: --queue=dp-dam
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/p/project/joaiml/ingolfsson1/jupyter/kernels/covid_kernel/lib/python3.6/site-packages:${PYTHONPATH}'
 export LD_LIBRARY_PATH='/p/home/jusers/ingolfsson1/deep/COVID-Net/softlinks:$LD_LIBRARY_PATH'

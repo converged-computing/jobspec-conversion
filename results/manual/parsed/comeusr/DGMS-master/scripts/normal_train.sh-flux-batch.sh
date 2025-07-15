@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-plant-9018
-#FLUX: --priority=16
+#FLUX: --job-name=tart-frito-3862
+#FLUX: --urgency=16
 
 DATASET="--train-dir /home/wang4538/DGMS-master/CIFAR10/train/ --val-dir /home/wang4538/DGMS-master/CIFAR10/val/ --num-classes 10"
 MODEL="--network resnet18 --mask --empirical True"

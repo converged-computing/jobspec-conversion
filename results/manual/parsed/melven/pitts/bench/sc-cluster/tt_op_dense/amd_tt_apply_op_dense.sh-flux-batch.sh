@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-sundae-1325
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-gato-7602
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='100M'
 

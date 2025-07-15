@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=fltrVCF
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BIND='/home/e1garcia'
 export PARALLEL_SHELL='/bin/bash'

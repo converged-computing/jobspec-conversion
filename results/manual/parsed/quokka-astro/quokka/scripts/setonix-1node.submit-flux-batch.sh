@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lamp-5307
+#FLUX: --job-name=hello-bits-3928
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export MPICH_OFI_NIC_POLICY='NUMA'

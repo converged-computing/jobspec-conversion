@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-platanos-1778
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-butter-4354
+#FLUX: --urgency=16
 
 ml load matlab
 echo Running calibration scripts for UTD Node: "$SLURM_ARRAY_TASK_ID"

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=job_array
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dir="/ru-auth/local/home/akhan01/GeneMAP/Canadian_ByChromosome"
 cd $dir

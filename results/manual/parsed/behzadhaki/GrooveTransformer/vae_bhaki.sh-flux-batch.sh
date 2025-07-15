@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cat-0924
+#FLUX: --job-name=milky-dog-6548
 #FLUX: -c=8
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$HOME/.conda/envs/GrooveTransformer/bin:$PATH'
 export WANDB_API_KEY='API_KEY'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=gsmr
 #FLUX: --queue=cardio
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='/rds/user/jhz22/hpc-work/work'
 export job='$SLURM_ARRAY_TASK_ID'

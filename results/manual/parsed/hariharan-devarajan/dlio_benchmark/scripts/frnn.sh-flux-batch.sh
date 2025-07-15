@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cattywampus-2204
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-cat-3846
+#FLUX: --urgency=16
 

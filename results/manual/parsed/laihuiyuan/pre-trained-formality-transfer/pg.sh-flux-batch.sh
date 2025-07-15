@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hobbit-0690
+#FLUX: --job-name=phat-lemur-1139
 #FLUX: --queue=gpu
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python train.py -style 0 -ratio 1.0 -dataset $1 -order $2.0 -$3 -$4
 python infer.py -style 0 -dataset $1 -order $2.0

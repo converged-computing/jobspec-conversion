@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-rabbit-2882
+#FLUX: --job-name=nerdy-soup-0645
 #FLUX: -n=8
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load fosscuda/2019b

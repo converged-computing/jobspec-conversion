@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-bicycle-9551
+#FLUX: --job-name=adorable-lentil-5964
 #FLUX: -c=5
 #FLUX: --exclusive
 #FLUX: --queue=gm4-pmext
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NCPU=$(($SLURM_NTASKS_PER_NODE))
 NTHR=$(($SLURM_CPUS_PER_TASK))

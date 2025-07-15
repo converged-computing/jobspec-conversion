@@ -2,7 +2,7 @@
 #FLUX: --job-name=GAN_selfcritic_pred_ans_3perid_util_dis
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SITENAME=Home_and_Kitchen
 CQ_DATA_DIR=/fs/clip-amr/clarification_question_generation_pytorch/$SITENAME

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-pancake-5688
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-citrus-5403
+#FLUX: --urgency=16
 
 source ~/modules/matlab-mcx/source
 source ~/modules/nccl/nccl_2.9.8-1+cuda11.0_x86_64/source

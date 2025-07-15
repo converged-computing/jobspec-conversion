@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-avocado-6293
+#FLUX: --job-name=arid-general-7619
 #FLUX: -n=64
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INPUT="$PSCRATCH/exabiome/deep-taxon/input/gtdb/r207/r207.rep.h5"
 REPO_DIR="$HOME/projects/exabiome/deep-taxon.git"

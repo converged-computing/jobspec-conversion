@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-truffle-9056
+#FLUX: --job-name=bumfuzzled-pot-1088
 #FLUX: --exclusive
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if command -v sinfo  2>/dev/null # if on cluster
 then

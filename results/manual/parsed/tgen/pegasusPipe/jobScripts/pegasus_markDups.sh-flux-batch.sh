@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="pegasus_markDups"
+#FLUX: --job-name=pegasus_markDups
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ${DIR}
 beginTime=`date +%s`

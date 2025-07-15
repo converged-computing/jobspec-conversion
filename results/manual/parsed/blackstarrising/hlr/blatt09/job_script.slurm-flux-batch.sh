@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-animal-1953
+#FLUX: --job-name=carnivorous-staircase-1249
 #FLUX: -N=4
 #FLUX: -n=5
 #FLUX: --queue=west
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 rm output/*
 . /etc/profile.d/modules.sh

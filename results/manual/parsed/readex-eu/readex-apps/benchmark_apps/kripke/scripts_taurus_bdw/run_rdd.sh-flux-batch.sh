@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lentil-0654
+#FLUX: --job-name=lovely-staircase-5725
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCOREP_PROFILING_FORMAT='cube_tuple'
 export SCOREP_METRIC_PAPI='PAPI_TOT_INS,PAPI_L3_TCM'

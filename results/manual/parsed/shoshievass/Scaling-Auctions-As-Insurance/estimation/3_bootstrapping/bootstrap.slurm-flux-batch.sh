@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-arm-4810
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-cinnamonbun-2033
+#FLUX: --urgency=16
 
 module load julia/1.7.3
 module load knitro/12.1.1

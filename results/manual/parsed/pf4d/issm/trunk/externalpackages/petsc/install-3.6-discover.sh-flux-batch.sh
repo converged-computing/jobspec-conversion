@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-salad-5777
-#FLUX: --priority=16
+#FLUX: --job-name=confused-despacito-5606
+#FLUX: --urgency=16
 
 export PATH='$PATH:.'
 export MPI_GROUP_MAX='64'

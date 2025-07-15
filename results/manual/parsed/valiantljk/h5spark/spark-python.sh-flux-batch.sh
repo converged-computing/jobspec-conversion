@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-underoos-0649
-#FLUX: --priority=16
+#FLUX: --job-name=blank-pedo-8372
+#FLUX: --urgency=16
 
 export SPARK_LOCAL_DIRS='/tmp'
 export PYTHONPATH='$PYTHONPATH:$PWD/src/main/python/h5spark'

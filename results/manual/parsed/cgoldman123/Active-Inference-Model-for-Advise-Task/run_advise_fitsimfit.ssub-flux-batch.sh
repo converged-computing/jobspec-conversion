@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=advice-fit
 #FLUX: --queue=c2_cpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SUBJECT=$1
 export SUBJECT

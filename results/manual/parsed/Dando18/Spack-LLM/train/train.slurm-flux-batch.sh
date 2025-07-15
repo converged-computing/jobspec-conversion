@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-blackbean-5642
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-signal-9031
+#FLUX: --urgency=16
 
 export HF_HOME='~/scratch/.cache/huggingface'
 export TOKENIZERS_PARALLELISM='false'

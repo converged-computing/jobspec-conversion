@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-rabbit-3684
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-soup-9442
+#FLUX: --urgency=16
 
 export PATH='/glade/u/home/ggantos/ncar_20200417/bin:$PATH'
 

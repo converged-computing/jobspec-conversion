@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=micropipe
-#FLUX: --queue='longq'
+#FLUX: --queue=longq
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow/20.07.1-multi
 module load singularity/3.6.4 

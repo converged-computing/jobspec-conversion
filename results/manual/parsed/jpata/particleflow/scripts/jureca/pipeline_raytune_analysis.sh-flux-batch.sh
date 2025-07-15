@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-snack-3891
+#FLUX: --job-name=arid-lentil-3446
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: --queue=dc-gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

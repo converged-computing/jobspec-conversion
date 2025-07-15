@@ -2,7 +2,7 @@
 #FLUX: --job-name=A$i-f$j
 #FLUX: --queue=standard
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LANG=en_US
 : '

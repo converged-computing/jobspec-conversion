@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-toaster-2912
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-sundae-7404
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/geo-fluid-dynamics/CoMeTFoam/etc/jobAICES.sh

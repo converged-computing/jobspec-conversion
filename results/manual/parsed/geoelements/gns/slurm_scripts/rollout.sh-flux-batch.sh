@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bits-5343
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-nunchucks-3670
+#FLUX: --urgency=16
 
 set -e
 cd ..

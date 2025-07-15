@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-blackbean-9414
+#FLUX: --job-name=quirky-motorcycle-1230
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

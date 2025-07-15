@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-fork-9396
+#FLUX: --job-name=bloated-cupcake-2739
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

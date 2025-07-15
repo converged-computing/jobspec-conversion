@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="time_com"
+#FLUX: --job-name=time_com
 #FLUX: -N=4
 #FLUX: --queue=normal
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_RDMA_ENABLED_CUDA='1'
 export IGG_CUDAAWARE_MPI='1'

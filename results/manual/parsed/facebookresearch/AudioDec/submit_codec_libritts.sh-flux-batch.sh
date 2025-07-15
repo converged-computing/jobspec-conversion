@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=AD_libritts
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 autoencoder=autoencoder/symAD_libritts_24000_hop300
 statistic=statistic/symAD_libritts_24000_hop300_clean

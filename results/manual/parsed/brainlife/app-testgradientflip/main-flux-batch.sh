@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-dog-7832
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-pastry-6382
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-testgradientflip/main

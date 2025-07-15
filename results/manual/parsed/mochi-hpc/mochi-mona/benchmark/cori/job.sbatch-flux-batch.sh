@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MoNA-Bench
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_GNI_NDREG_ENTRIES='1024'
 

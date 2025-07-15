@@ -2,7 +2,7 @@
 #FLUX: --job-name=bcl2fastq
 #FLUX: -c=12
 #FLUX: -t=25200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 outdir=/home/jmendietaes/data/2021/singleCell/sequencedData/210806_VH00461_59_AAALHW2M5/
 indir=/datos/intercambio/eguruce/210806_VH00461_59_AAALHW2M5_2

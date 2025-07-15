@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-nunchucks-4413
-#FLUX: --priority=16
+#FLUX: --job-name=tart-dog-6751
+#FLUX: --urgency=16
 
 . vars_in.sh
 BINARY="../src/juliaset_gpu"

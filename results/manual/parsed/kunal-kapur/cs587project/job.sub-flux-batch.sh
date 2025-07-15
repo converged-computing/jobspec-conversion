@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cherry-8399
+#FLUX: --job-name=scruptious-ricecake-1124
 #FLUX: -N=2
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/2020.11-py38
 source activate cs587

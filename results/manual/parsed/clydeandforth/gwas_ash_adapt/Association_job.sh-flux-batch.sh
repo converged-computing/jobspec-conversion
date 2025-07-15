@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-banana-5116
-#FLUX: --priority=16
+#FLUX: --job-name=salted-pastry-0024
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/clydeandforth/gwas_ash_adapt/Association_job.sh

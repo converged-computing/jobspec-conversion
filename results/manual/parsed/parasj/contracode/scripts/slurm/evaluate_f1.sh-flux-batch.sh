@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=evaluate_f1
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BATCHSIZE='${BATCHSIZE:-64}'
 export NUMDECODERLAYERS='${NUMDECODERLAYERS:-4}'

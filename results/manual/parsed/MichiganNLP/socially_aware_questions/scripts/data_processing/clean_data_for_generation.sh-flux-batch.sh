@@ -2,7 +2,7 @@
 #FLUX: --job-name=clean_data
 #FLUX: --queue=standard
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATA_FILE=../../data/reddit_data/subreddit_submissions_2018-01_2019-12.gz
 COMMENT_DATA=../../data/reddit_data/advice_subreddit_filter_comment_question_data.gz

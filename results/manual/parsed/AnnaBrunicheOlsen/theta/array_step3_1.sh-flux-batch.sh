@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-platanos-0655
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-staircase-2256
+#FLUX: --urgency=16
 
 genus_species=$1
 module load bioinfo

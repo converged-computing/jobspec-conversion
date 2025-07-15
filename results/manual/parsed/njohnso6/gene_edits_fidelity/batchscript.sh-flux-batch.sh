@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="gene_fidelity_snakemaster"
-#FLUX: --priority=16
+#FLUX: --job-name=gene_fidelity_snakemaster
+#FLUX: --urgency=16
 
 module load python
 (snakemake -s Snakefile_vcf \

@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=gengpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /opt/flight/etc/setup.sh
 flight env activate gridware

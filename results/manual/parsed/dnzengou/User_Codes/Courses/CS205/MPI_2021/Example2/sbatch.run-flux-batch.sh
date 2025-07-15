@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cattywampus-8468
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-leg-0232
+#FLUX: --urgency=16
 
 PRO=mpi_dot
 module load gcc/9.3.0-fasrc01 openmpi/4.0.5-fasrc01

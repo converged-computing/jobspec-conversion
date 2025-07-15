@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-despacito-1836
+#FLUX: --job-name=bricky-plant-2520
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export STREAM_ARRAY_SIZE='8700000'
 export OMP_NUM_THREADS='1   # 64 cores per socketet'

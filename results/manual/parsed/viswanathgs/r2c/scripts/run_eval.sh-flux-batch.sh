@@ -3,7 +3,7 @@
 #FLUX: -c=40
 #FLUX: --queue=dev
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH":"$BASEDIR'
 export PYTHONUNBUFFERED='True'

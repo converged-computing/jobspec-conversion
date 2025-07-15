@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="m_graph_gen"
+#FLUX: --job-name=m_graph_gen
 #FLUX: -t=356400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/8.2.0 python/3.8.5

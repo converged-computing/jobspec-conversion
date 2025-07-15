@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-platanos-7891
+#FLUX: --job-name=outstanding-kerfuffle-5276
 #FLUX: -c=2
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_NSOCKS_PERTHREAD='4'
 export NCCL_SOCKET_NTHREADS='2'

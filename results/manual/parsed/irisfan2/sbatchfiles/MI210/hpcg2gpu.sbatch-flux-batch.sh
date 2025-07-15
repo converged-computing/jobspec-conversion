@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-train-5840
+#FLUX: --job-name=outstanding-pot-8877
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

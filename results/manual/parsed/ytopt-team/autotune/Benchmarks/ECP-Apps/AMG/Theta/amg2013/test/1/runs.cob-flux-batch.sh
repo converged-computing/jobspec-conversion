@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-rabbit-5168
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-pot-8308
+#FLUX: --urgency=16
 

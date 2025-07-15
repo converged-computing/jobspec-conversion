@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nmmaBNSBugauss.job
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/thussenot/MultiNest/lib/:$LD_LIBRARY_PATH'
 

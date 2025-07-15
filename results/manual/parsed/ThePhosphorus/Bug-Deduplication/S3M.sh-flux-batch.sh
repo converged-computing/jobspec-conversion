@@ -2,7 +2,7 @@
 #FLUX: --job-name=S3M
 #FLUX: -c=16
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${BASE_DIR}'
 

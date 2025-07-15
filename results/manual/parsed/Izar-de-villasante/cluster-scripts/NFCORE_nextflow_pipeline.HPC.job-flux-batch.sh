@@ -2,7 +2,7 @@
 #FLUX: --job-name=job_CLIP_nextflow
 #FLUX: -c=2
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_EXECUTOR='slurm          # set SLURM as the default executor (=spawns sbatch jobs)'
 export NXF_OPTS='-Xms500M -Xmx2G"  # restrict Java VM memory usage'

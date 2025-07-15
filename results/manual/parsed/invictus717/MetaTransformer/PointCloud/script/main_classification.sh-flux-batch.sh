@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-gato-8247
+#FLUX: --job-name=delicious-salad-9213
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.1.1
 module load gcc

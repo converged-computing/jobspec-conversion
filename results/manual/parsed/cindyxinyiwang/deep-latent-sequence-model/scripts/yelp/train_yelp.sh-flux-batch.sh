@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-despacito-4860
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-earthworm-7445
+#FLUX: --urgency=16
 
 python src/main.py \
   --dataset yelp \

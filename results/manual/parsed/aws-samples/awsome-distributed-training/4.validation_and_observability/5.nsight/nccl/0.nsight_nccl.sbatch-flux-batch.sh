@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=megatron_gpt # name of your job
+#FLUX: --job-name=megatron_gpt
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_EFA_USE_DEVICE_RDMA='1 # use for p4d'
 export FI_PROVIDER='efa # change to eth if you want to use ENA for comparisons'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=run_wrkflw
 #FLUX: -c=40
 #FLUX: --queue=htc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 module load nextflow

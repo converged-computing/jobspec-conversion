@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cupcake-1828
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-gato-8534
+#FLUX: --urgency=16
 
 ./install_abacus_toolchain.sh \
 --with-intel=system --math-mode=mkl \

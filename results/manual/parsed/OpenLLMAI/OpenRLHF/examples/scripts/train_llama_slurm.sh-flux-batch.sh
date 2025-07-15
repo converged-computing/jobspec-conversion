@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-fork-8960
+#FLUX: --job-name=anxious-pedo-0043
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'
 export MASTER_PORT='9901'

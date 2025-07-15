@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-sundae-2722
+#FLUX: --job-name=stinky-general-2548
 #FLUX: -N=2
 #FLUX: -n=16
 #FLUX: --exclusive
 #FLUX: --queue=serc
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MATSIZE=20240
 echo;

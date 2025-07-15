@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="md"
-#FLUX: --priority=16
+#FLUX: --job-name=md
+#FLUX: --urgency=16
 
 echo "Job Name:"
 echo "$SLURM_JOB_NAME"

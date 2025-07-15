@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-chip-0810
+#FLUX: --job-name=conspicuous-peanut-0280
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/2.7.14/MACS/2.1.1
 queries=($(ls ${inDir}/*.bam | xargs -n 1 basename))

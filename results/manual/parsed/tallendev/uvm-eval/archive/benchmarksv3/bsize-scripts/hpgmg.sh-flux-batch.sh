@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-blackbean-3185
+#FLUX: --job-name=chocolate-onion-4987
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IGNORE_CC_MISMATCH='1'
 export OMP_NUM_THREADS='1'

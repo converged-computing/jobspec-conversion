@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=myJob
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:/h/ccremer/anaconda3/bin'
 

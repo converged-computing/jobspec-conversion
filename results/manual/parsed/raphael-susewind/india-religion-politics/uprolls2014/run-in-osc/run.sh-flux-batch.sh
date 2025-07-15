@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-poo-0104
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-hope-7216
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/raphael-susewind/india-religion-politics/uprolls2014/run-in-osc/run.sh

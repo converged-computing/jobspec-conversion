@@ -2,7 +2,7 @@
 #FLUX: --job-name=hvd_tf2
 #FLUX: -c=40
 #FLUX: -t=3000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'
 export SLURM_MPI_TYPE='openmpi'

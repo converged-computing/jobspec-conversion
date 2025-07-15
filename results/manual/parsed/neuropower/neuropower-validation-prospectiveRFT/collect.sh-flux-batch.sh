@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=SIM.coll
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PILOT='15'
 export FINAL='61'

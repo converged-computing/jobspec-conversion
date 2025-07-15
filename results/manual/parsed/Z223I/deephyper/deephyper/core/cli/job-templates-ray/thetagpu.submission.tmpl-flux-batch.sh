@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=milky-bike-0333
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-eagle-2178
+#FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-itch-5527
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-taco-3737
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/huangc/WGtalenTarget/x1-WGblat

@@ -4,7 +4,7 @@
 #FLUX: -c=4
 #FLUX: --queue=test
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

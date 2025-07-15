@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lentil-4812
+#FLUX: --job-name=doopy-bicycle-5578
 #FLUX: -n=28
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

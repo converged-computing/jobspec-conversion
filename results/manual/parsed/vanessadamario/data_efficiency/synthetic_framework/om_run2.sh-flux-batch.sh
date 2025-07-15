@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=synthetic
 #FLUX: --queue=use-everything
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 module add openmind/singularity/3.4.1

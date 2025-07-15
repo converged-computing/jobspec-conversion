@@ -2,7 +2,7 @@
 #FLUX: --job-name=Selfchat
 #FLUX: --queue=gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ./slurm/.secrets
 module purge

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-omelette-7933
+#FLUX: --job-name=expensive-leopard-8152
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda3
 source activate dassl

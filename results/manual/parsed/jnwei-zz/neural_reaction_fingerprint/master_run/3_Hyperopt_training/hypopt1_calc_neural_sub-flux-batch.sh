@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-citrus-1153
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-itch-1082
+#FLUX: --urgency=16
 
 scfolder="/scratch/$(date +%Y%m%d%H%M)_neural_bal_200each_1/"
 curr=$(pwd)

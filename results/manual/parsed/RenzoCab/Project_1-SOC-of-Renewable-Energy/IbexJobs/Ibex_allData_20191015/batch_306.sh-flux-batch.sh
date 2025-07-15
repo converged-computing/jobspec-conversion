@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-frito-8931
+#FLUX: --job-name=buttery-snack-0550
 #FLUX: --queue=batch
 #FLUX: -t=180000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

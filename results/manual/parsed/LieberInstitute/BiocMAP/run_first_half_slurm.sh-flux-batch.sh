@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-gato-7067
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-ricecake-2491
+#FLUX: --urgency=16
 
 export _JAVA_OPTIONS='-Xms8g -Xmx10g'
 

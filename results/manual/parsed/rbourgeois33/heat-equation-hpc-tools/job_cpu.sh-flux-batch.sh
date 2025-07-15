@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=out_heat
 #FLUX: -n=4
-#FLUX: --queue=cpu_short     # (see available partitions)
+#FLUX: --queue=cpu_short
 #FLUX: -t=30
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK} '
 export OMP_PLACES='threads'

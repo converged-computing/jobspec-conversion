@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-bits-3021
-#FLUX: --priority=16
+#FLUX: --job-name=blue-lettuce-4088
+#FLUX: --urgency=16
 
 export CONDA_PREFIX='/tmp/test_{env_dir_random}/test/miniconda3'
 export CONDA_PYTHON_EXE='/tmp/test_{env_dir_random}/test/miniconda3/bin/python'

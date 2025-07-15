@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lemur-8714
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-fudge-9488
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JustinFletcher/tensorflow-zoo/sample_experiment.pbs

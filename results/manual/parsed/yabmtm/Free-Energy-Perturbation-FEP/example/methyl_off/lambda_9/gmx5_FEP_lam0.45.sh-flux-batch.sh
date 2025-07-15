@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-plant-1149
-#FLUX: --priority=16
+#FLUX: --job-name=tart-itch-0182
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 

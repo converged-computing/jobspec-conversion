@@ -2,7 +2,7 @@
 #FLUX: --job-name=ex1_jobarray
 #FLUX: --queue=sla-prio
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting job $SLURM_JOB_NAME"
 echo "Job id: $SLURM_JOB_ID"

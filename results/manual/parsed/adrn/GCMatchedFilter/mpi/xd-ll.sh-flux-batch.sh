@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-chip-4584
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-parrot-6906
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/adrn/GCMatchedFilter/mpi/xd-ll.sh

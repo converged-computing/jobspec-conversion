@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="257cd_eurasip"
+#FLUX: --job-name=257cd_eurasip
 #FLUX: --queue=normal
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_SUBMIT_DIR='/home/groups/gracegao/prn_codes/binary_seq_opt/eurasip'
 export GUROBI_HOME='/share/software/user/restricted/gurobi/9.0.3_py36'

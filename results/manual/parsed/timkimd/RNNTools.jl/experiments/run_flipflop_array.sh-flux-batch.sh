@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=flipflop-array
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "My SLURM_ARRAY_JOB_ID is $SLURM_ARRAY_JOB_ID"
 echo "My SLURM_ARRAY_TASK_ID is $SLURM_ARRAY_TASK_ID"

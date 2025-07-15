@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-platanos-0306
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-cherry-4854
+#FLUX: --urgency=16
 
 export ATP_ENABLED='1'
 

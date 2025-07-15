@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-fudge-8166
+#FLUX: --job-name=chunky-arm-4070
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 umask 002
 SAMPLE=$1

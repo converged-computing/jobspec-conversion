@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=JOB_NAME
 #FLUX: --queue=wc_gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='/work1/cms_mlsim/oamram/'
 export HOME='/work1/cms_mlsim/oamram/CaloDiffusion/ '

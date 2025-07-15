@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-plant-7032
+#FLUX: --job-name=astute-chair-0242
 #FLUX: -c=20
 #FLUX: --queue=eap
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module --quiet purge
 module load cray-python

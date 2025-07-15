@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-knife-5294
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-lettuce-9897
+#FLUX: --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${PWD}'
 

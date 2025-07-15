@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cherry-3415
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-poo-1032
+#FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

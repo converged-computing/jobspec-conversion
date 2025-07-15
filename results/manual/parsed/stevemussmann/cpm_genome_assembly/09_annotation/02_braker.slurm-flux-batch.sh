@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=condo
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load singularity/3.9.7

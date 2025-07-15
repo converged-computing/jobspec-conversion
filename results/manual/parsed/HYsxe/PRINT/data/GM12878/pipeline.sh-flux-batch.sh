@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-nalgas-4265
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-cattywampus-6097
+#FLUX: --urgency=16
 
 genome="hg19"
 bam=GM.trial52.atac.hg19.rmdup.cutoff.bam

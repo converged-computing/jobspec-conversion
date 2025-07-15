@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-cinnamonbun-9132
-#FLUX: --priority=16
+#FLUX: --job-name=hello-chip-2262
+#FLUX: -t=43200
+#FLUX: --urgency=16
 
 mpirun -np 1 lmp_kokkos_cuda -k on g 1 t 1 -sf kk -pk kokkos binsize 2.8 comm device -v x 32 -v y 32 -v z 32 -v t 100 < in.lj
 mv log.lammps log.10Sep14.lj.kokkos.cuda.128K.1.1

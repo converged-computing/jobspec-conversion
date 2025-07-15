@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-kitty-6761
+#FLUX: --job-name=ornery-frito-6425
 #FLUX: --exclusive
 #FLUX: --queue=shared,bigmem
 #FLUX: -t=255600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_LIBDIR='${PWD}/LIBDIR'
 

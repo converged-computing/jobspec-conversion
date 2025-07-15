@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-carrot-7178
+#FLUX: --job-name=outstanding-caramel-5639
 #FLUX: -c=12
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 singularity exec \

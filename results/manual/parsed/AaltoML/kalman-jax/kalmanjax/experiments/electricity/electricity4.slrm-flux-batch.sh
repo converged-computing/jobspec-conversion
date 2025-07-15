@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-truffle-1913
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-ricecake-3776
+#FLUX: --urgency=16
 
 module load miniconda
 source activate venv

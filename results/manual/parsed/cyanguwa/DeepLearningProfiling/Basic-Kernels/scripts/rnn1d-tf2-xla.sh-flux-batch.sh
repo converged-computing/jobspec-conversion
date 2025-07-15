@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-parsnip-0152
+#FLUX: --job-name=moolicious-leader-3901
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROFILER='cupy'
 export enable_xla='xla'

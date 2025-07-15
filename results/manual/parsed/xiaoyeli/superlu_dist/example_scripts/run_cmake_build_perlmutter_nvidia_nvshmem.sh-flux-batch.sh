@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-hobbit-2667
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-spoon-4255
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH//\/usr\/local\/cuda-12.2\/compat:/}'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="ftnoaugs"
-#FLUX: --priority=16
+#FLUX: --job-name=ftnoaugs
+#FLUX: --urgency=16
 
 cd ../
 m1_ckpt='/p/lustre1/trivedi1/vision_data/moco_v2_800ep_pretrain.pth.tar'

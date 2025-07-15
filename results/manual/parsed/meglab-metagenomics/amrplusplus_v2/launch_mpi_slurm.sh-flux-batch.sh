@@ -2,7 +2,7 @@
 #FLUX: --job-name=AMRPlusPlus
 #FLUX: --queue=shas
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load jdk/1.8.0

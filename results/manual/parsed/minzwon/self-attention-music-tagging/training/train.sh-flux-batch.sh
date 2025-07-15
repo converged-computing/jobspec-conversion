@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-buttface-5898
-#FLUX: --priority=16
+#FLUX: --job-name=milky-bike-3142
+#FLUX: --urgency=16
 
 module load Python/3.6.4-foss-2017a
 module load CUDA/9.0.176

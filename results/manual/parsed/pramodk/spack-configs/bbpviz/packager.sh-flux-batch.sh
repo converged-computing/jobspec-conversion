@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="build"
+#FLUX: --job-name=build
 #FLUX: --exclusive
 #FLUX: --queue=interactive
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IFORTCFG='$HOME/spackconfig/bbpviz/cfg/ifort.cfg'
 export ICPCCFG='$HOME/spackconfig/bbpviz/cfg/icc.cfg'

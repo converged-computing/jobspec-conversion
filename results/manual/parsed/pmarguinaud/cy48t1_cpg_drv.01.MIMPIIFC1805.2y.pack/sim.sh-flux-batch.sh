@@ -2,7 +2,7 @@
 #FLUX: --job-name=sim
 #FLUX: --exclusive
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='4G'
 export KMP_STACKSIZE='4G'

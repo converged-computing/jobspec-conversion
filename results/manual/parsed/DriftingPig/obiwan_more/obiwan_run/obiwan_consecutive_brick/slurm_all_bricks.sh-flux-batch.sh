@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-carrot-7370
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-noodle-9095
+#FLUX: --urgency=16
 
 export name_for_run='elg_eight_bricks'
 export randoms_db='None #run from a fits file'

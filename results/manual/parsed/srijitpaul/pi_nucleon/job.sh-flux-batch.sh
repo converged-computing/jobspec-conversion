@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-onion-6634
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-punk-8173
+#FLUX: --urgency=16
 
 module load autohbw/default
 module swap craype-haswell craype-mic-knl

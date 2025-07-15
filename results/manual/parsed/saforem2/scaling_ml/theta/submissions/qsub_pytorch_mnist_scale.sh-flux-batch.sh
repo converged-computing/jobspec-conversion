@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hobbit-7278
-#FLUX: --priority=16
+#FLUX: --job-name=purple-platanos-2876
+#FLUX: --urgency=16
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-signal-9360
+#FLUX: --job-name=gloopy-chair-9286
 #FLUX: -c=40
 #FLUX: --queue=gputest
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load pytorch

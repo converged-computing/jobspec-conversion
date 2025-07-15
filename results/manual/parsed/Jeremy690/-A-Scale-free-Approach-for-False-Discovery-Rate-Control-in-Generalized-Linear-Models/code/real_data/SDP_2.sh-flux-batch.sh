@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-train-9974
-#FLUX: --priority=16
+#FLUX: --job-name=milky-avocado-2305
+#FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/apps/R:$R_LIBS_USER'
 

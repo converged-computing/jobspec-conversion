@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-destiny-4897
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-bike-8609
+#FLUX: --urgency=16
 
 module load CUDA
 echo; export; echo; nvidia-smi; echo

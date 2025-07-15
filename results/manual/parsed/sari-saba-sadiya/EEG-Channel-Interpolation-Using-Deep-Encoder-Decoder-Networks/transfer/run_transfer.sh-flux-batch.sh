@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-onion-3626
+#FLUX: --job-name=persnickety-truffle-4477
 #FLUX: --exclusive
 #FLUX: --queue=sched_mit_rgmark
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 module load python/3.6.3

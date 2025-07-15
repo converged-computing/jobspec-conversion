@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-kitty-6351
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-cat-7123
+#FLUX: --urgency=16
 
 export KMP_AFFINITY='disabled'
 export MPICH_GNI_FORK_MODE='FULLCOPY'

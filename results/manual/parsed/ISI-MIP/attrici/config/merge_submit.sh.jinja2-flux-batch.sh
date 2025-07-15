@@ -3,7 +3,7 @@
 #FLUX: -n=64
 #FLUX: --queue=priority
 #FLUX: -t=85800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:{{s.conda_path}}/lib/libfabric/libfabric.so'
 export FI_PROVIDER_PATH='{{s.conda_path}}/lib/libfabric/prov'

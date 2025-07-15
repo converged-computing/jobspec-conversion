@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-soup-7291
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-platanos-3126
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$HOME/lib:$HOME/lib64'
 export PKG_CONFIG_PATH='$HOME/lib/pkgconfig:$HOME/lib64/pkgconfig'

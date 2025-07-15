@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=informarl10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 module load anaconda/2022a

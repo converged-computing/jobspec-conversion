@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-banana-0873
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-lentil-1050
+#FLUX: --urgency=16
 
 export CONDA_ENVS_PATH='/proj/fume/nobackup/private/jay/Freshwater_AMR/conda_envs'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-egg-1376
-#FLUX: --priority=16
+#FLUX: --job-name=red-salad-5424
+#FLUX: --urgency=16
 
 gmx=gmx_plumed
 protein=complex.pdb

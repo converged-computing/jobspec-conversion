@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-salad-0557
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-rabbit-8218
+#FLUX: -n=24
+#FLUX: -t=259200
+#FLUX: --urgency=16
 
 export AUGUSTUS_CONFIG_PATH='$(realpath lib/augustus/3.3/config)'
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-puppy-2864
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-nunchucks-6790
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/davidozog/PRESTO/src/PRESTO/launch-matlabyrinth.sh

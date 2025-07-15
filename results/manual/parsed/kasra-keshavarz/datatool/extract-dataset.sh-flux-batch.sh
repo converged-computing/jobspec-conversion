@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-parsnip-5012
-#FLUX: --priority=16
+#FLUX: --job-name=DATA_${scriptName}
+#FLUX: -c=4
+#FLUX: -t=14400
+#FLUX: --urgency=16
 
 function short_usage () {
   echo "Usage: $(basename $0) [-jh] [-i DIR] [-d DATASET] [-co DIR] [-se DATE] [-ln REAL,REAL] [-p STR]
@@ -293,18 +295,6 @@ function call_processing_func () {
     #        document, and various schedulers need to be supported
     sbatch <<- EOF
 	#!/bin/bash
-	#SBATCH --array=0-$jobArrLen
-	#SBATCH --cpus-per-task=4
-	#SBATCH --nodes=1
-	#SBATCH --account=$account
-	#SBATCH --time=04:00:00
-	#SBATCH --mem=8000M
-	#SBATCH --job-name=DATA_${scriptName}
-	#SBATCH --error=$logDir/datatool_%A-%a_err.txt
-	#SBATCH --output=$logDir/datatool_%A-%a.txt
-	#SBATCH --mail-user=$email
-	#SBATCH --mail-type=BEGIN,END,FAIL
-	#SBATCH ${parsable}
 	$(declare -p startDateArr)
 	$(declare -p endDateArr)
 	$(declare -p ensembleArr)

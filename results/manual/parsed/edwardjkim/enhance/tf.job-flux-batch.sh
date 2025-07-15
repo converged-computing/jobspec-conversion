@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mp
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load tensorflow/1.0.0
 mkdir -p $dirname

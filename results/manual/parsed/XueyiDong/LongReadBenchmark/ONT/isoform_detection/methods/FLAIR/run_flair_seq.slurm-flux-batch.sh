@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-blackbean-9903
+#FLUX: --job-name=buttery-noodle-2573
 #FLUX: -c=16
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3
 source activate

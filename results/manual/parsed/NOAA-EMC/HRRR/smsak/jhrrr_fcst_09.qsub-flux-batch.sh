@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-despacito-5469
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-earthworm-2340
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/HRRR/smsak/jhrrr_fcst_09.qsub

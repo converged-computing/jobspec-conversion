@@ -4,7 +4,7 @@
 #FLUX: -c=8
 #FLUX: --queue=volta-gpu
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 unset OMP_NUM_THREADS
 module purge

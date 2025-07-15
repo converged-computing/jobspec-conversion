@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lettuce-1955
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-poodle-1445
+#FLUX: --urgency=16
 
 module load python/3.6.3
 module load gcc-7.1.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-diablo-7943
+#FLUX: --job-name=sticky-ricecake-3454
 #FLUX: -c=32
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_NET_GDR_LEVEL='PHB'
 export BENCHY_CONFIG_FILE='benchy-run-${SLURM_JOBID}.yaml'

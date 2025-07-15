@@ -2,7 +2,7 @@
 #FLUX: --job-name=stream
 #FLUX: --queue=standard
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export STREAM_DIR='$(cd ${SLURM_SUBMIT_DIR}/../../ && pwd) '
 export IOCOMP_DIR='/work/e609/e609/shr203/opt/gnu/8.0.0/iocomp/2.0.0'

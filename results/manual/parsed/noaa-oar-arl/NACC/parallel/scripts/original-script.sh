@@ -1,33 +1,34 @@
-#!/bin/ksh -l
-#BSUB -J nacc-test
-#BSUB -o jnacc_par.out1
-#BSUB -e jnacc_par.err1
-#BSUB -q debug
-##BSUB -q dev
-##BSUB -extsched "CRAYLINUX[]" -R "1*{select[craylinux && !vnode]} + 576*{select[craylinux && vnode] span [ptile=24]}"
-#BSUB -M 3000
-##BSUB -W 01:00
-#BSUB -W 00:10
-#BSUB -P CMAQ-T2O
-#BSUB -extsched 'CRAYLINUX[]'
-#BSUB -cwd .
+#!/bin/bash
+#SBATCH --partition=contrib            # submit   to the debug partition
+#SBATCH --qos=qtong            # submit   to the debug partition
+#SBATCH --job-name=nacc-test          # name the job
+#SBATCH --output=nacc-test-%j.out     # write stdout/stderr   to named file
+#SBATCH --error=nacc-test-%j.err
+#SBATCH --time=0-00:10:00             # Run for max of 00 hrs, 10 mins, 00 secs
+#SBATCH --nodes=2                    # Request N nodes
+#SBATCH --ntasks=2                   # Request n tasks
+##SBATCH --cpus-per-task=12            # Request n cores per node
+#SBATCH --mem-per-cpu=24GB             # Request nGB RAM per core
+
+#Load more than one library at a time.
+#export LMOD_EXPERT=1
 
 #Module settings
-module load PrgEnv-intel/5.2.82
-module load cray-netcdf/4.3.2
-module load cray-mpich/7.2.0
+module load gnu9 openmpi4
+module load netcdf-c
+module load ioapi/3.2-spack 
 
 #Set number of nacc times  = processors, and # of nodes
-NTIMES=73
-export NODES=12
+NTIMES=2
+export NODES=2
 
 APPL=aqm.t12z
-InMetDir=/gpfs/hps2/ptmp/Patrick.C.Campbell/fv3gfs16_testdata
-InGeoDir=/gpfs/hps3/emc/naqfc/noscrub/Patrick.C.Campbell/nacc_geofiles
+InMetDir=/groups/ESS/pcampbe8/fv3gfs16_testdata
+InGeoDir=/groups/ESS/pcampbe8/nacc_geofiles
 InVIIRSDir_GVF=/gpfs/hps3/emc/naqfc/noscrub/Patrick.C.Campbell/viirs_gvf_test/grib2
 InVIIRSDir_LAI=/gpfs/hps3/emc/naqfc/noscrub/Patrick.C.Campbell/viirs_lai_test/
-OutDir=/gpfs/hps2/ptmp/Patrick.C.Campbell/fv3gfs16_testdata/nacc_output_parallel_canopy_shade
-ProgDir=/gpfs/hps3/emc/naqfc/noscrub/Patrick.C.Campbell/NACC_canopy_shade/parallel/src
+OutDir=/groups/ESS3/pcampbe8/fv3gfs16_testdata/nacc_output_parallel_ps_test2
+ProgDir=/groups/ESS3/pcampbe8/NACC/parallel/src
 
 if [ ! -s $InMetDir ]; then
   echo "No such input directory $InMetDir"
@@ -59,7 +60,7 @@ cat>namelist.mcip<<!
   file_gd    = 'GRIDDESC'
   file_mm    = '$InMetDir/gfs.t12z.atmf','.nc'
   file_sfc   = '$InMetDir/gfs.t12z.sfcf','.nc'
-  file_geo   = '$InGeoDir/gfs.t12z.geo.01.canopy.nc'
+  file_geo   = '$InGeoDir/gfs.t12z.geo.01.nc'
   file_viirs_gvf = '$InVIIRSDir_GVF/GVF-WKL-GLB_v2r3_j01_s20200824_e20200830_c202008311235100.grib2.nc'
   file_viirs_lai = '$InVIIRSDir_LAI/VIIRS_VNP15A2H.001_20190829.nc'
   ioform     =  1
@@ -67,45 +68,45 @@ cat>namelist.mcip<<!
 
  &USERDEFS
   inmetmodel =  3
-  dx_out      =  12000
-  dy_out      =  12000
+  dx_out      =  108000
+  dy_out      =  108000
   met_cen_lat_in =  0.0
   met_cen_lon_in =  0.0
-  lpv        =  0
+  lpv        =  1
   lwout      =  1
   luvbout    =  1
   ifdiag_pbl = .FALSE.
-  ifviirs_gvf = .FALSE. 
+  ifviirs_gvf = .FALSE.
   ifviirs_lai = .FALSE.
   iffengsha_dust = .FALSE.
   ifbioseason = .FALSE.
   ifcanopy    = .FALSE.
   mcip_start = "2020-01-12-12:00:00.0000"
-  mcip_end   = "2020-01-15-13:00:00.0000"
+  mcip_end   = "2020-01-12-13:00:00.0000"
   intvl      =  60
-  coordnam   = "FV3_RPO"
-  grdnam     = "FV3_CONUS"
+  coordnam   = "POLSTE_HEMI"
+  grdnam     = "108NHEMI2"
   ctmlays    =  1.000000, 0.995253, 0.990479, 0.985679, 0.980781,
-              0.975782, 0.970684, 0.960187, 0.954689, 0.936895, 
-              0.930397, 0.908404, 0.888811, 0.862914, 0.829314, 
-              0.786714, 0.735314, 0.645814, 0.614214, 0.582114, 
-              0.549714, 0.511711, 0.484394, 0.451894, 0.419694, 
-              0.388094, 0.356994, 0.326694, 0.297694, 0.270694, 
+              0.975782, 0.970684, 0.960187, 0.954689, 0.936895,
+              0.930397, 0.908404, 0.888811, 0.862914, 0.829314,
+              0.786714, 0.735314, 0.645814, 0.614214, 0.582114,
+              0.549714, 0.511711, 0.484394, 0.451894, 0.419694,
+              0.388094, 0.356994, 0.326694, 0.297694, 0.270694,
               0.245894, 0.223694, 0.203594, 0.154394, 0.127094, 0.000000
   cutlay_collapx = 22
   btrim      =  -1
   lprt_col   =  0
   lprt_row   =  0
-  ntimes     = $NTIMES
-  projparm = 2., 33.,45., -97., -97., 40.
-  domains = -2508000., -1716000., 12000., 12000., 442, 265
+  ntimes     = 2
+  projparm = 6., 1., 45., -98., -98., 90.
+  domains = -10098000.000, -10098000.000, 108000.000, 108000.000, 187, 187
  &END
 
  &WINDOWDEFS
   x0         =  1
   y0         =  1
-  ncolsin    =  442
-  nrowsin    =  265
+  ncolsin    =  187
+  nrowsin    =  187
  &END
 !
 
@@ -125,5 +126,8 @@ export MOSAIC_CRO=${APPL}.mosaiccro.ncf
 
 rm -f *.ncf 
 
-# LSF Parallel
-aprun -n$NTIMES -m8000 $ProgDir/mcip.exe
+#Slurm Parallel
+#srun -n$NTIMES $ProgDir/mcip.exe
+module load ucx libfabric
+#export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi2.so
+prun $ProgDir/mcip.exe

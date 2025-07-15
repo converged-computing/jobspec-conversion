@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-malarkey-1900
+#FLUX: --job-name=purple-hope-7141
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CORES=16
 module load FastQC/0.11.7

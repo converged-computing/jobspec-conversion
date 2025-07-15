@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=EukBook
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SLURM_ARRAY_TASK_ID is:  ${SLURM_ARRAY_TASK_ID}"
 source ~/.profile #to activate conda 

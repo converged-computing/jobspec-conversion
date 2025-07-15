@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-nalgas-2295
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-latke-1374
+#FLUX: --urgency=16
 
 source activate PAPER
 PSA64Obs='/users/jkerriga/data/jkerriga/PSA64SingleDay'

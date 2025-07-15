@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-underoos-7595
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-punk-2227
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home/a.boev/tools/'
 

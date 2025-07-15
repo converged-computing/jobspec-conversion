@@ -2,7 +2,7 @@
 #FLUX: --job-name=pt-array
 #FLUX: --queue=dept_gpu
 #FLUX: -t=2419200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate pytorch_c6m12_cuda101

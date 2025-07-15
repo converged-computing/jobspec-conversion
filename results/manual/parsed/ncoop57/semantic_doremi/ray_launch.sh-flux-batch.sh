@@ -4,6 +4,6 @@
 #FLUX: --exclusive
 #FLUX: --queue=g40
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun --account stablegpt sh $PWD/ray_worker.sh

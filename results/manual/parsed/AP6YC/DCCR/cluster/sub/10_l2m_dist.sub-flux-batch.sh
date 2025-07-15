@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-blackbean-6937
+#FLUX: --job-name=spicy-avocado-9147
 #FLUX: -n=32
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 N_TASKS=31
 PROJECT_DIR=$HOME/dev/DCCR

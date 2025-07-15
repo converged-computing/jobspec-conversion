@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-nunchucks-6613
+#FLUX: --job-name=red-earthworm-2332
 #FLUX: --queue=informatik-mind
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda3/latest

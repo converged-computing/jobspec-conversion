@@ -3,7 +3,7 @@
 #FLUX: -n=2
 #FLUX: -c=8
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda intel-mpi/gcc
 conda activate psyneulink2

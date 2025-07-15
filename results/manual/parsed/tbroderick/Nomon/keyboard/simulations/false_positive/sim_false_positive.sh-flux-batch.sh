@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-blackbean-6925
+#FLUX: --job-name=reclusive-hope-2616
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 module load anaconda3-5.0.1

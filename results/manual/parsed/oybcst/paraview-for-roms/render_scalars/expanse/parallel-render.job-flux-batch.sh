@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="gnu-parallel-render"
+#FLUX: --job-name=gnu-parallel-render
 #FLUX: --queue=compute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_EXPORT_ENV='ALL'
 

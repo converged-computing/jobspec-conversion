@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=w2v_cl
 #FLUX: --queue=gpu_v100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='WARN'
 export PYTHONFAULTHANDLER='1'

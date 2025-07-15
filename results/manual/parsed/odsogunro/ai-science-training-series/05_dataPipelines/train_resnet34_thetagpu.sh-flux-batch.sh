@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cherry-9607
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-train-1979
+#FLUX: --urgency=16
 

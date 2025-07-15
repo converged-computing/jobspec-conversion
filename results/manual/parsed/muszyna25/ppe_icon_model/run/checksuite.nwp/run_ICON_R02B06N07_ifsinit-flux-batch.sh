@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lamp-6885
+#FLUX: --job-name=peachy-cherry-7694
 #FLUX: -N=6
 #FLUX: --exclusive
 #FLUX: --queue=compute
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 export ICON_THREADS='4'

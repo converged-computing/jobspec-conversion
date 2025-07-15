@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-destiny-9311
+#FLUX: --job-name=angry-caramel-7021
 #FLUX: -n=4
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

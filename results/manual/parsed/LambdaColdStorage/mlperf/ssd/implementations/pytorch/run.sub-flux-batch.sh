@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-underoos-5287
+#FLUX: --job-name=gloopy-diablo-3541
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MLPERF_HOST_OS='$(cat /etc/issue | head -1 | cut -f1-3 -d" ") / $(cat /etc/LAMBDA-release | grep -E "LAMBDA_PRETTY_NAME|LAMBDA_OTA_VERSION" |cut -f2 -d= |cut -f2 -d '"' |paste -sd' ')'
 

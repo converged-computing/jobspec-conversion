@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-toaster-2732
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-pancake-0494
+#FLUX: --urgency=16
 
 if test -t 1; then
     # See if it supports colors.

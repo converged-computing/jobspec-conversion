@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parsnip-5188
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-gato-4825
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_step22_5m_150ms_35ms.pbs

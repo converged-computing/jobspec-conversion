@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lizard-8834
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-parrot-4227
+#FLUX: --urgency=16
 
 echo Time is `date`
 echo Directory is $PWD

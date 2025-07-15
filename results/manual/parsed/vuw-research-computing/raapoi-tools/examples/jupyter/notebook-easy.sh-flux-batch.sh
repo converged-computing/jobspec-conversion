@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-diablo-4930
+#FLUX: --job-name=expressive-cinnamonbun-0671
 #FLUX: --queue=parallel
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-pastry-9138
+#FLUX: --job-name=dinosaur-pastry-4195
 #FLUX: -n=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load mpi4py
 module load python/3.6

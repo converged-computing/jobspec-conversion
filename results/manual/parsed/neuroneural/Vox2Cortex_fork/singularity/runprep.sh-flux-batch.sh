@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-citrus-8373
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-pastry-0512
+#FLUX: --urgency=16
 
 sleep 5s
 module load singularity/3.10.2

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-hobbit-9340
+#FLUX: --job-name=outstanding-diablo-5960
 #FLUX: -c=24
 #FLUX: --queue=savio2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

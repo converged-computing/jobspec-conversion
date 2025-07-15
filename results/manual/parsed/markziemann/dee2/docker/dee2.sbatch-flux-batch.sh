@@ -2,7 +2,7 @@
 #FLUX: --job-name=mmu_chn2
 #FLUX: -c=12
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 clear_shared_mem(){

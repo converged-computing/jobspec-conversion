@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=crg2
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SF=~/crg2/Snakefile
 CP="/hpf/largeprojects/ccm_dccforge/dccdipg/Common/snakemake"

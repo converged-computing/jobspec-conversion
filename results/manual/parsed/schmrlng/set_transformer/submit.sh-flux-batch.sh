@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-motorcycle-5778
+#FLUX: --job-name=reclusive-house-7227
 #FLUX: --queue=gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.9.0 cuda/11.2.0 cudnn/8.1.1.33
 source env/bin/activate

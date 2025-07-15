@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="CellBender"
+#FLUX: --job-name=CellBender
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 source ~/micromamba/etc/profile.d/micromamba.sh

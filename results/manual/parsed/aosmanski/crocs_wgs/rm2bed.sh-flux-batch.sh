@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cAcu_RM2bed
 #FLUX: --queue=nocona
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . ~/conda/etc/profile.d/conda.sh
 conda activate

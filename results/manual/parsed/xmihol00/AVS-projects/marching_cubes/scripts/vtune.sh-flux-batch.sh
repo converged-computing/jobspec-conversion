@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-omelette-7347
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-earthworm-5754
+#FLUX: --urgency=16
 
 defs=(
     "-DVECTORIZED_SIMD=1"

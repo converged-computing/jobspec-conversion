@@ -2,7 +2,7 @@
 #FLUX: --job-name=can
 #FLUX: -c=16
 #FLUX: --queue=learnai4rl
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ALGO_NAME='dt'
 export DATASET_NAME='can'

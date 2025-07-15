@@ -2,7 +2,7 @@
 #FLUX: --job-name=cosma_miniapp
 #FLUX: -N=10
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CC='`which cc`'
 export CXX='`which CC`'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=multiPatch_barlow_fracTrain_results
 #FLUX: --queue=long
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile
 module load anaconda/3

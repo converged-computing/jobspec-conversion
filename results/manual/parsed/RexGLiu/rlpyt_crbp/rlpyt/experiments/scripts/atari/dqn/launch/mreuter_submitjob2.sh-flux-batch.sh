@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-fork-2473
+#FLUX: --job-name=hello-punk-1907
 #FLUX: -t=705600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/3-5.2.0
 module load cuda/10.1.105

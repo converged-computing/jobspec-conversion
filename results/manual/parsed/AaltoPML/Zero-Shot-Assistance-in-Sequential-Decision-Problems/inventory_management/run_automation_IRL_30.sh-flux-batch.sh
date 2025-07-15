@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=E0_IRL_IM_OPT_30
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 STEP=30
 module load julia

@@ -2,7 +2,7 @@
 #FLUX: --job-name=cutadapt
 #FLUX: --queue=short
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml easybuild ifort/2017.1.132-GCC-6.3.0-2.27 impi/2017.1.132
 ml cutadapt/1.14-Python-2.7.13

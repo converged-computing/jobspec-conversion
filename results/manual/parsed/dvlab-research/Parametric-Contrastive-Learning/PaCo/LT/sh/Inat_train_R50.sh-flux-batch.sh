@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Inat
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PORT=$[$RANDOM + 10000]
 python paco_lt.py \

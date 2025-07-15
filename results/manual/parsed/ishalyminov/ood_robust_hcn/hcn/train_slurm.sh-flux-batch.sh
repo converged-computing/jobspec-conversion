@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-nalgas-5899
+#FLUX: --job-name=reclusive-cat-7204
 #FLUX: --queue=amd-longq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CUDA_VERSION=cuda90
 CUDA_VERSION_LONG=9.0.176

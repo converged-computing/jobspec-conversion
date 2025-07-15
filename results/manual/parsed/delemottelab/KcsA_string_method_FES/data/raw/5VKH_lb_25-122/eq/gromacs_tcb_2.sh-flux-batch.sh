@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-punk-9577
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-spoon-0029
+#FLUX: --urgency=16
 
 module unload gromcas
  module unload gromacs/2020.2

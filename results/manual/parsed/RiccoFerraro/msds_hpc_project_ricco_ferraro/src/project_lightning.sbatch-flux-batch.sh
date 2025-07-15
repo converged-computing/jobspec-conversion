@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lettuce-7635
+#FLUX: --job-name=faux-hobbit-5828
 #FLUX: -N=8
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

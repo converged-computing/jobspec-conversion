@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bits-8385
-#FLUX: --priority=16
+#FLUX: --job-name=blank-staircase-3032
+#FLUX: --urgency=16
 

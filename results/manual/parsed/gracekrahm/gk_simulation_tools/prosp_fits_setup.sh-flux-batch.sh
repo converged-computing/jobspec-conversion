@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-punk-7461
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-signal-2530
+#FLUX: --urgency=16
 
 n_nodes=$1
 model_dir=$2

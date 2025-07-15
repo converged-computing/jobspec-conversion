@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pastry-8725
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-peanut-butter-5176
+#FLUX: --urgency=16
 
 module load SLEAP
 DATA_DIR=/ceph/zoo/users/sminano/crabs_pose_4k_TD4

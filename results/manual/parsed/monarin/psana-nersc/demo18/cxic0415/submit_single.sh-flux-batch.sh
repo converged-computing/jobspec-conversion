@@ -3,7 +3,7 @@
 #FLUX: -N=100
 #FLUX: --exclusive
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMI_MMAP_SYNC_WAIT_TIME='600'
 

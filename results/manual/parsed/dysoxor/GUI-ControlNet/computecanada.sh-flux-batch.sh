@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-chair-3436
+#FLUX: --job-name=placid-hippo-7904
 #FLUX: --exclusive
 #FLUX: -t=1440
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_BLOCKING_WAIT='1 # Set this environment variable if you wish to use the NCCL backend for inter-GPU communication.'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-signal-5342
-#FLUX: --priority=16
+#FLUX: --job-name=grated-taco-6146
+#FLUX: --urgency=16
 
 source activate mlfold
 folder_with_pdbs="../inputs/PDB_homooligomers/pdbs/"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bicycle-6558
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-malarkey-4974
+#FLUX: --urgency=16
 
 export CC='/opt/apps/gcc/8.3.0/bin/gcc'
 

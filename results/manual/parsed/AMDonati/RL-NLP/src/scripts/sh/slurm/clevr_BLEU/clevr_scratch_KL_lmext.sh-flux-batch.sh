@@ -2,7 +2,7 @@
 #FLUX: --job-name=C-B-scratch-kl-ext
 #FLUX: -c=16
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

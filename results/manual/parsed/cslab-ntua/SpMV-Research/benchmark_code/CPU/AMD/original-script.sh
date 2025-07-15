@@ -1,29 +1,31 @@
-#!/bin/bash -i
-#PBS -N job_spmv
-#PBS -o job_spmv.out
-#PBS -e job_spmv.err
-#PBS -l select=1:ncpus=128:node_type=rome
-#PBS -l walltime=24:00:00
-
-cd /zhome/academic/HLRS/xex/xexdgala/Shared/benchmarks/SpMV/mpakos_code
-> job_spmv.out
-> job_spmv.err
-
-
-# export TMPDIR='/zhome/academic/HLRS/xex/xexdgala/Documents/gcc/tmp'
-# echo $TMPDIR
-
-module load mkl
-module load papi
-module load uprof
-module load python/3
+#!/bin/bash
+#SBATCH -A ExaF_prod22
+#SBATCH -p m100_usr_prod
+#SBATCH --time 24:00:00                 # format: HH:MM:SS
+#SBATCH -N 1                            # 1 node
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=246000                    # memory per node out of 246000MB
+#SBATCH --job-name=job
+#SBATCH --output=job.out
+#SBATCH --error=job.err
 
 
-# ./conf.sh
-cd /zhome/academic/HLRS/xex/xexdgala/Shared/benchmarks/SpMV/Benchmark_SpMV_using_CSR5/CSR5_avx2
+
+cd /m100/home/userexternal/dgalanop/Shared/benchmarks/SpMV/SpMV-Research/benchmark_code/CPU/AMD
+> job.out
+> job.err
+
+module load xl
+module load essl
+module load gnu
+module load openblas
+
+cd spmv_code_bench
 make clean; make -j
-cd /zhome/academic/HLRS/xex/xexdgala/Shared/benchmarks/SpMV/mpakos_code
-make clean; make -j
-time ./run.sh
+cd ../
+
+./run.sh
 # ./proc_run.sh
+
 

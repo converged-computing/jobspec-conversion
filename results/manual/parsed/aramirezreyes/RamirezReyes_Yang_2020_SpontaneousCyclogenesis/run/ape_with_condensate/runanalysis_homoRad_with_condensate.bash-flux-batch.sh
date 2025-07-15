@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-peas-2820
+#FLUX: --job-name=blue-parsnip-0688
 #FLUX: -N=3
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$SCRATCH'
 

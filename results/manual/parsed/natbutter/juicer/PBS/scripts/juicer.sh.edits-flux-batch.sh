@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pancake-2710
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-gato-2471
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/natbutter/juicer/PBS/scripts/juicer.sh.edits

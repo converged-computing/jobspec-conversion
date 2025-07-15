@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-kitty-9120
-#FLUX: --priority=16
+#FLUX: --job-name=angry-nunchucks-1532
+#FLUX: --urgency=16
 
 export OMP_SCHEDULE='static'
 export OMP_PLACES='cores'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pancake-7902
+#FLUX: --job-name=strawberry-hobbit-4956
 #FLUX: -t=907200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load canu/1.7
 data_d=/pine/scr/<O>/<N>/<ONYEN/ #a single fastq file (preferably zipped) containing reads

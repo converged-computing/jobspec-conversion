@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="sym"
+#FLUX: --job-name=sym
 #FLUX: -c=40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export METISROOT='/scinet/niagara/software/2019b/opt/intel-2019u4/metis/5.1.0/lib/'
 export OMP_NUM_THREADS='$THREADS'

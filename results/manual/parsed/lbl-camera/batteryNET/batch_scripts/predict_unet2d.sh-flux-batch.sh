@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-chip-7602
+#FLUX: --job-name=joyous-lemon-6110
 #FLUX: -c=32
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

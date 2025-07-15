@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=vaetrain
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate deep_sequence
 dataset=GB1

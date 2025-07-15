@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-house-7640
+#FLUX: --job-name=crusty-destiny-7645
 #FLUX: --queue=mic
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BLAS_VERSION='/usr/local/intel/ClusterStudioXE_2013/composer_xe_2013_sp1.2.144/mkl/lib/intel64/libmkl_rt.so'
 export LAPACK_VERSION='/usr/local/intel/ClusterStudioXE_2013/composer_xe_2013_sp1.2.144/mkl/lib/intel64/libmkl_rt.so'

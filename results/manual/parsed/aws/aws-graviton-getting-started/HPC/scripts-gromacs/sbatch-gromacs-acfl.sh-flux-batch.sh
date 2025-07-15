@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-dog-0406
+#FLUX: --job-name=goodbye-onion-4584
 #FLUX: -n=64
 #FLUX: --exclusive
 #FLUX: --queue=compute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/shared/openmpi-4.1.4-acfl/bin:$PATH'
 export LD_LIBRARY_PATH='/shared/openmpi-4.1.4-acfl/lib:$LD_LIBRARY_PATH'

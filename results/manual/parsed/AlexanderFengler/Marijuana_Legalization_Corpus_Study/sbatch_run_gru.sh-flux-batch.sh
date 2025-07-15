@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-lizard-3393
+#FLUX: --job-name=eccentric-milkshake-1358
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /users/afengler/.bashrc
 conda deactivate

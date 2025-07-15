@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-snack-1107
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-ricecake-3041
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Becksteinlab/AdKGromacsTutorial/tutorial/templates/saguaro.pbs

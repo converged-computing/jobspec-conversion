@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-earthworm-0835
+#FLUX: --job-name=loopy-parsnip-5316
 #FLUX: -N=10
 #FLUX: --exclusive
 #FLUX: --queue=c7gnpg
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GPCNET_VERSION='git'
 

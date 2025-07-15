@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-citrus-3851
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-squidward-2474
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'
 

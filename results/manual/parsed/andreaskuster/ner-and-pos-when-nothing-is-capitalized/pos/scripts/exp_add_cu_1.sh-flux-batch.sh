@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bits-1160
+#FLUX: --job-name=swampy-puppy-0673
 #FLUX: --queue=amdv100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.7.2
 module load CMake

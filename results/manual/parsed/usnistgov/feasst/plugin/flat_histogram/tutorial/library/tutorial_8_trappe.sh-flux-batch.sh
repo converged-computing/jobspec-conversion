@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-ricecake-2807
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-cherry-4344
+#FLUX: --urgency=16
 
 ((num_hours=1))
 num_procs=12

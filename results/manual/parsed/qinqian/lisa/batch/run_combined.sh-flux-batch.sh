@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-caramel-2690
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-platanos-6988
+#FLUX: --urgency=16
 
 export PATH='/n/home08/cliffmeyer/Jingyu/miniconda3/bin:$PATH'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-puppy-5635
+#FLUX: --job-name=muffled-banana-5294
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 
 module load anaconda/3/2020.02

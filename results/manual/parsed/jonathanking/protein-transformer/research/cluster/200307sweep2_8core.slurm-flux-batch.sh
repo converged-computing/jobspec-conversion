@@ -2,7 +2,7 @@
 #FLUX: --job-name=friendly-sweep
 #FLUX: --queue=dept_gpu
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate pytorch_conda_200307

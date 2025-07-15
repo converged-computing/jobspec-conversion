@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-diablo-0196
+#FLUX: --job-name=muffled-pedo-7740
 #FLUX: -N=6
 #FLUX: -n=444
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

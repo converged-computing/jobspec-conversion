@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=KaggleMB_0_ResNet101_150h_150w
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate clean_chimera_env

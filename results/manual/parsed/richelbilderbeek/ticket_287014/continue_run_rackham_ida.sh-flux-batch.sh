@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-omelette-6007
-#FLUX: --priority=16
+#FLUX: --job-name=blank-taco-9462
+#FLUX: --urgency=16
 
 module load bioinfo-tools Nextflow 
 work_dir="/crex/proj/naiss2023-22-866/MetONTIIME/trimmed_and_filtered_Q15_qz"

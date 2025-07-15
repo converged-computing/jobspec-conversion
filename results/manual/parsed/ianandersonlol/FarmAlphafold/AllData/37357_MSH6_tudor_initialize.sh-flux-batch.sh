@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-kerfuffle-6022
+#FLUX: --job-name=chunky-diablo-3874
 #FLUX: --queue=gpu-a100-h
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 set -u

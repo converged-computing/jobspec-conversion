@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-salad-3672
+#FLUX: --job-name=red-hobbit-1501
 #FLUX: -N=20
 #FLUX: -n=1360
 #FLUX: --queue=booster
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module --force purge
 module load Architecture/KNL

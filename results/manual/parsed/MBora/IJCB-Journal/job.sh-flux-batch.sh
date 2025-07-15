@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="lstm"
-#FLUX: --priority=16
+#FLUX: --job-name=lstm
+#FLUX: --urgency=16
 
 nvidia-smi
 conda env list

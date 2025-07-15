@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-pot-6271
+#FLUX: --job-name=lovable-muffin-6874
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

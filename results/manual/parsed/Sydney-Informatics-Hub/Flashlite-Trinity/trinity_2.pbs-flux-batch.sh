@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-poodle-9022
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-citrus-5097
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Sydney-Informatics-Hub/Flashlite-Trinity/trinity_2.pbs

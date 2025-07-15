@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hope-5287
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-gato-0827
+#FLUX: --urgency=16
 
 module load cuda/75/blas/7.5.18
 module load cuda/75/fft/7.5.18

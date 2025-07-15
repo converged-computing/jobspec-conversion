@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="parallelfort"
+#FLUX: --job-name=parallelfort
 #FLUX: -n=4
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/app/libraries/petsc/3.7.5/el6/AVX/intel-16.0/intel-5.1/lib'
 

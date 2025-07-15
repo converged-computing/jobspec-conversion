@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-motorcycle-4381
-#FLUX: --priority=16
+#FLUX: --job-name=arid-rabbit-3776
+#FLUX: --urgency=16
 
 export KMP_AFFINITY='granularity=core,compact,1'
 

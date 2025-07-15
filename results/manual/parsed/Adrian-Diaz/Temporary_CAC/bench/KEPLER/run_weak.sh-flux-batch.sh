@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-avocado-2277
-#FLUX: --priority=16
+#FLUX: --job-name=faux-onion-7506
+#FLUX: -t=43200
+#FLUX: --urgency=16
 
 mpirun -npernode 16 lmp_cpu -v x 128 -v y 128 -v z 128 -v t 100 < in.lj
 mv log.lammps log.28Jun14.lj.cpu.512K.16.16

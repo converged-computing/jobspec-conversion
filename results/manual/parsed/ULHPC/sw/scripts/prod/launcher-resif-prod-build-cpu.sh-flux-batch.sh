@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-train-5264
+#FLUX: --job-name=salted-hobbit-7528
 #FLUX: --queue=batch
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir -p logs
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

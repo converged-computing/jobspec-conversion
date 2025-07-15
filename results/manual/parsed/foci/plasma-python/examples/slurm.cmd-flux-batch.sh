@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-diablo-1578
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-signal-8544
+#FLUX: --urgency=16
 
 export OMPI_MCA_btl='tcp,self,sm'
 

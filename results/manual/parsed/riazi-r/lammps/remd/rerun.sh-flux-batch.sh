@@ -2,7 +2,7 @@
 #FLUX: --job-name=lammps_rerun
 #FLUX: --queue=standard
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=pytorch_mnist
 #FLUX: --queue=gpuA100
 #FLUX: -t=8100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 uenv verbose cuda-11.4 cudnn-11.4-8.2.4
 uenv miniconda-python39

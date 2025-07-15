@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=general
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/3/2021.11
 conda activate heat

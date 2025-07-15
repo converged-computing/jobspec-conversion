@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-motorcycle-5341
+#FLUX: --job-name=spicy-hippo-9400
 #FLUX: -c=6
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='6'
 

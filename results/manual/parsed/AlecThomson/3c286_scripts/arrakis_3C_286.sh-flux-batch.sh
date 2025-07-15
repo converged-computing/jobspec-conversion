@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=3c286
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export APIURL='http://stokes.it.csiro.au:4200/api'

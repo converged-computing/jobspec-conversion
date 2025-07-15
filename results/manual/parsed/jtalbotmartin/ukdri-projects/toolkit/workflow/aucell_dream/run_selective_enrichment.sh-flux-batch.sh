@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-carrot-9681
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-earthworm-2924
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jtalbotmartin/ukdri-projects/toolkit/workflow/aucell_dream/run_selective_enrichment.sh

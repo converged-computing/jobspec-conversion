@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-despacito-0187
+#FLUX: --job-name=boopy-omelette-1705
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 i=1
 for algo in "ppo-maskable"

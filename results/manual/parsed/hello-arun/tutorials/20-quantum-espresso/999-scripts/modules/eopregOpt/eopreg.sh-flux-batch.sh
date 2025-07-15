@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-ricecake-9127
+#FLUX: --job-name=hello-ricecake-7281
 #FLUX: --queue=batch
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 quantity="eopreg"           #the variable in the scf file to change valeus you can name it random  to calculate without any change
 values="0.10 0.20 0.30 0.40"      # when you want to calculate without any change just put any single value here

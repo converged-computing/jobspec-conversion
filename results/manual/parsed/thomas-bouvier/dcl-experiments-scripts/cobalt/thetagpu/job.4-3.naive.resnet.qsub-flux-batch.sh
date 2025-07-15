@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-avocado-9608
-#FLUX: --priority=16
+#FLUX: --job-name=blank-car-7378
+#FLUX: --urgency=16
 

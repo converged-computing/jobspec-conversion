@@ -5,7 +5,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=guest-gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/garbus/.bashrc
 conda activate trade

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-train-0369
+#FLUX: --job-name=spicy-house-8052
 #FLUX: -c=4
 #FLUX: -t=180000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SNPTEST='/scratch/mrc-epid/bin/snptest_v2.5.2_linux_x86_64_dynamic/snptest_v2.5.2'
 export DIR='/scratch/mrc-epid/genetics/metabolomics/metabolon_gwas/SNPTEST'

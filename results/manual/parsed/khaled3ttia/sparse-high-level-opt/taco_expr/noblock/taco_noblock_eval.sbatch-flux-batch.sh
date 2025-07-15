@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=disc
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cp /home/khaled/sparse-high-level-opt/taco_expr/run_tool_noblocking.sh /scratch/khaled/dask_out
 echo "Starting Apptainer Container..."

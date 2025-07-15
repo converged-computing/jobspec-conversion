@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-milkshake-3325
+#FLUX: --job-name=phat-kitty-4148
 #FLUX: -n=100
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.10
 module load scipy-stack

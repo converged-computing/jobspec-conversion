@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bits-4480
-#FLUX: --priority=16
+#FLUX: --job-name=arid-parrot-5250
+#FLUX: --urgency=16
 
 TMPDIR=/scratch/$USER/$SLURM_JOBID
 export TMPTDIR

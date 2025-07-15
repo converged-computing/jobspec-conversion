@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-sundae-9377
+#FLUX: --job-name=strawberry-poo-3553
 #FLUX: -N=125
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export CRAYPE_LINK_TYPE='dynamic'

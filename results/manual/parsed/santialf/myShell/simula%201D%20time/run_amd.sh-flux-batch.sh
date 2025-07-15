@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-truffle-3448
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-arm-8929
+#FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'
 

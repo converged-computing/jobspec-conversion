@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-malarkey-3247
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-gato-5501
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/julien6/omarl_experiments/envs_case_studies/kaz/run_train.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-kerfuffle-5686
+#FLUX: --job-name=carnivorous-bits-8147
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_MAX_THREAD_SAFETY='multiple'
 export PYTHONUNBUFFERED='1'

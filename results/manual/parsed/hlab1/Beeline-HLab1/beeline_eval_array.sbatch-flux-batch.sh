@@ -2,7 +2,7 @@
 #FLUX: --job-name=Beeline_L0
 #FLUX: -c=4
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 echo ${CONFIG_SPLIT_FILE}

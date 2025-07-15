@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=retrain_${iteration_idx_padded}
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1'
 export PLUMED_MAXBACKUP='-1'

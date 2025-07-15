@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=mlperf
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORLD_SIZE='${SLURM_NPROCS}'
 export RANK='$((${DGXNGPU}*${SLURM_NODEID}+${SLURM_LOCALID}))'

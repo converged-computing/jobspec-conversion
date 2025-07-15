@@ -2,7 +2,7 @@
 #FLUX: --job-name=Mar18
 #FLUX: --queue=broadwl
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 module load gcc/6.1

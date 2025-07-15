@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=xad.txt
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export __Init_Default_Modules='1'
 export TMOUT='7200'

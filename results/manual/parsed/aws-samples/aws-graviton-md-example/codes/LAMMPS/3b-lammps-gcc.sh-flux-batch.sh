@@ -2,7 +2,7 @@
 #FLUX: --job-name=lj
 #FLUX: -N=4
 #FLUX: --queue=queue-1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_mtl_base_verbose='1'
 export NX='32'

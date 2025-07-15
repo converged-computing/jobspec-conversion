@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=titans
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Node: $(hostname)"
 echo "Start: $(date +%F-%R:%S)"

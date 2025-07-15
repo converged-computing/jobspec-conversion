@@ -2,7 +2,7 @@
 #FLUX: --job-name=resnet50_vicreg_lambda_pdim
 #FLUX: --queue=long
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile
 module load anaconda/3

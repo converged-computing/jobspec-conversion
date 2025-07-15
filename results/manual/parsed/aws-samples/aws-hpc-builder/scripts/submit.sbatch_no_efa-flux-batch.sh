@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-pastry-8329
+#FLUX: --job-name=angry-bits-4669
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=wrfc6gn
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WRF_VERSION='3.9.1'
 export JOB_DIR='/fsx/spooler/run'

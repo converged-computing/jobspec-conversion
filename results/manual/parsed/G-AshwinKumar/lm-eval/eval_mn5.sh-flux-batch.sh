@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-general-7491
+#FLUX: --job-name=strawberry-caramel-2673
 #FLUX: -c=80
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MODEL_NAME="c4ai-command-r-v01"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

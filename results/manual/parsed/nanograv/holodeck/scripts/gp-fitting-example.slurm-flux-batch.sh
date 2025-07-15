@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gp-fitting
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load openmpi/<your-mpi-module>

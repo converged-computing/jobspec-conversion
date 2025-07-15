@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hope-4066
+#FLUX: --job-name=wobbly-cinnamonbun-5444
 #FLUX: -c=16
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e; pushd ${SLURM_SUBMIT_DIR}
 trap "{ popd; date; }" EXIT

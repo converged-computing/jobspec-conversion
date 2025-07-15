@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-earthworm-2407
+#FLUX: --job-name=muffled-sundae-3817
 #FLUX: --queue=long
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRDIR='/scratch/${ID}'
 export OUTFILE='$SLURM_SUBMIT_DIR/out.dat'

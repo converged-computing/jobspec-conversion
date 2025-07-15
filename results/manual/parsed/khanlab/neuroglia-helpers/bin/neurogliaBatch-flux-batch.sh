@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-plant-5882
-#FLUX: --priority=16
+#FLUX: --job-name=hello-cat-5730
+#FLUX: --urgency=16
 
 execpath=`dirname $0`
 execpath=`realpath $execpath`

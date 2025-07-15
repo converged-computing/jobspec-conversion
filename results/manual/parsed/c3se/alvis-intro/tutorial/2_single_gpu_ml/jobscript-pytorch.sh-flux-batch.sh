@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-itch-9116
-#FLUX: --priority=16
+#FLUX: --job-name=angry-car-2954
+#FLUX: --urgency=16
 
 module purge
 module load PyTorch-bundle/1.12.1-foss-2022a-CUDA-11.7.0

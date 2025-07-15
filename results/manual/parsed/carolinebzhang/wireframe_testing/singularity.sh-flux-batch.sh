@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-onion-3434
+#FLUX: --job-name=cowy-punk-5991
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda
 echo Master process running on `hostname`

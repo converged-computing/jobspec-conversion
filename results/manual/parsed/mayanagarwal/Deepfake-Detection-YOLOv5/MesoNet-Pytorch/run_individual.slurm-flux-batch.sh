@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-banana-3431
+#FLUX: --job-name=frigid-banana-9150
 #FLUX: -n=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load fosscuda/2019b

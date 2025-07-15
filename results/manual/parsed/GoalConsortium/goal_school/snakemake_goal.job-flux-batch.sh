@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=short
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_SLURM_CPUS_ON_NODE='$SLURM_CPUS_ON_NODE'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-platanos-8647
+#FLUX: --job-name=dinosaur-egg-9781
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun iperf -s

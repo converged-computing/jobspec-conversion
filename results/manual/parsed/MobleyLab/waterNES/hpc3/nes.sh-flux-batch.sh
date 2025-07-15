@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-truffle-0289
+#FLUX: --job-name=tart-motorcycle-9281
 #FLUX: --queue=standard
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/bin/gmx2022.1/bin/GMXRC
 bash "$RUN_SCRIPT" -d "$SYSTEM_DIR"/stage"$STAGE" -t "$SYSTEM_DIR" -x gmx \

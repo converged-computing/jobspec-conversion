@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leopard-2048
-#FLUX: --priority=16
+#FLUX: --job-name=hello-avocado-9369
+#FLUX: --urgency=16
 

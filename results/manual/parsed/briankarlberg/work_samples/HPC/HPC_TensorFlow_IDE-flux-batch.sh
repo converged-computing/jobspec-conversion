@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=jupyter-lab
-#FLUX: --queue=gpu --gres gpu:1
+#FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 [karlberb@exahead1 sample_count]$ cat j_lab_template.sh
 JUPYTER_ENV=/home/groups/EllrottLab/sample_count/j_lab_py3_env

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-underoos-3770
+#FLUX: --job-name=faux-rabbit-2224
 #FLUX: -n=4
 #FLUX: -c=10
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

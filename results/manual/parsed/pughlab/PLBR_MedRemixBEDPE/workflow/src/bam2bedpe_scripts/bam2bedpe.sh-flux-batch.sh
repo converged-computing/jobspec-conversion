@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-pedo-1738
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-leg-4085
+#FLUX: --urgency=16
 
 usage(){
     echo 
@@ -88,16 +88,6 @@ for CHUNK in ${TMP_DIR}/${OUT_FRAG_NAMES}.CHUNK*; do
     ## write out sample sbatch script
     cat <<- EOF > "${TMP_DIR}/${INPUT_BAM%.*}_bam2bedpe_${CHUNK##*.}.sh" 
 	#!/bin/bash
-	#SBATCH -t 3-00:00:00
-	#SBATCH -J bam2bedpe_chunks_${CHUNK##*.}
-	#SBATCH -D ${OUT_DIR}/logs_slurm
-	#SBATCH --mail-type=ALL
-	#SBATCH --mail-user=ming.han@uhn.ca
-	#SBATCH -p himem
-	#SBATCH -c 1
-	#SBATCH --mem=16G
-	#SBATCH -o ./%j-%x.out
-	#SBATCH -e ./%j-%x.err
 	source ${CONDA_ACTIVATE} ${CONDA_ENV}
 	#PICARD_DIR=${PICARD_DIR}
 	echo "Job started at "\$(date) 

@@ -3,7 +3,7 @@
 #FLUX: -N=16
 #FLUX: --queue=batch
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HEXE='fms_MOM6_SIS2_GENERIC_4P_compile_symm.x'
 

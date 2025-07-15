@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-poodle-3680
+#FLUX: --job-name=carnivorous-lettuce-9060
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$PWD/codes_devito'
 export OMP_NUM_THREADS='10'

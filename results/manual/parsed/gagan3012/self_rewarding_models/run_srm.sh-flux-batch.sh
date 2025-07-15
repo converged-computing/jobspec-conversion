@@ -2,7 +2,7 @@
 #FLUX: --job-name=srm
 #FLUX: -c=4
 #FLUX: -t=161999
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_DATASETS_OFFLINE='1'
 export TRANSFORMERS_OFFLINE='1'

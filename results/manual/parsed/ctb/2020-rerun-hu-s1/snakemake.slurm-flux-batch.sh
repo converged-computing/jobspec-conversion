@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bicycle-8595
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-citrus-3347
+#FLUX: --urgency=16
 
 . ~/miniconda3/etc/profile.d/conda.sh
 conda activate sgc

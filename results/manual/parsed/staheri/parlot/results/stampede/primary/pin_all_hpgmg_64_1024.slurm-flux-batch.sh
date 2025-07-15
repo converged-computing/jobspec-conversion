@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-salad-2936
-#FLUX: --priority=16
+#FLUX: --job-name=blue-lemur-9555
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/hpgmg-original/build/bin'
 

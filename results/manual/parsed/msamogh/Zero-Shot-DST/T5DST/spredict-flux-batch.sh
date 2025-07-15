@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-gato-7240
+#FLUX: --job-name=muffled-nalgas-1569
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3,4'
 

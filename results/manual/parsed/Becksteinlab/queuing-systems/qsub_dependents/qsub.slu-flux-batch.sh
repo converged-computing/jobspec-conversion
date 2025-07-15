@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-caramel-6765
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-arm-9259
+#FLUX: --urgency=16
 
 GMX_VERSION=4.6.7
 DEFFNM="md"

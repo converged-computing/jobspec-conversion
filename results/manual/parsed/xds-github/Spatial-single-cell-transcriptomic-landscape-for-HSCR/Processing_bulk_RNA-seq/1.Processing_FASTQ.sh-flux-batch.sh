@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-buttface-4625
+#FLUX: --job-name=lovely-animal-4391
 #FLUX: -c=6
 #FLUX: --queue=compute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 your_folder=/share/home/xudeshu/ #本人所在的根目录
 input_folder=/data/xudeshu/HSCR_bulk_RNA_data/ # 原始数据目录

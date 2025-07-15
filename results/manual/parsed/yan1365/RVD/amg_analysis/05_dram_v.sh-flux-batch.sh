@@ -2,7 +2,7 @@
 #FLUX: --job-name=dramv_%j
 #FLUX: -n=48
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 part=${1}
 module load python/3.6-conda5.2

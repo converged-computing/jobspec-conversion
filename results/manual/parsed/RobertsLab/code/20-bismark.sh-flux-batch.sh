@@ -2,7 +2,7 @@
 #FLUX: --job-name=BISMARK
 #FLUX: --queue=coenv
 #FLUX: -t=2592000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 reads_dir=""

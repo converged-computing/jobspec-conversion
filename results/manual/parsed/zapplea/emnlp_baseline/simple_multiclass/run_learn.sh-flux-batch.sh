@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="emnlp_baseline"
+#FLUX: --job-name=emnlp_baseline
 #FLUX: -t=21540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "loading"
 module load python/3.6.1

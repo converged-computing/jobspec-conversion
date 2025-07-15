@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-staircase-5358
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-parrot-7718
+#FLUX: --urgency=16
 
 set -x  # echo commands to stdout
 set -u  # throw an error if unset variable referenced

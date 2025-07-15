@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-plant-3513
-#FLUX: --priority=16
+#FLUX: --job-name=grated-diablo-5546
+#FLUX: --urgency=16
 
 module purge
 module load singularity tensorflow/1.6.0-py36

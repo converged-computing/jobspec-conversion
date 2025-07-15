@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-punk-7162
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-house-4142
+#FLUX: --urgency=16
 
 export PATH='${PATH}:/panfs/jay/groups/9/morrellp/shared/Software/syri'
 

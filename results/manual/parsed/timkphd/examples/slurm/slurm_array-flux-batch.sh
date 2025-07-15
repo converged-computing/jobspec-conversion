@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="array_job"
+#FLUX: --job-name=array_job
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/lib/extras:$LD_LIBRARY_PATH'
 export ARGS='`date`'

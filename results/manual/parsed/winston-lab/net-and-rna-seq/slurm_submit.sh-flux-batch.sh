@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lemon-1798
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-buttface-7255
+#FLUX: --urgency=16
 
 snakemake -p \
     -R `cat <(snakemake --lc --rerun-incomplete) \

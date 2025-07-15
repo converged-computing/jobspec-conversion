@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-citrus-7487
-#FLUX: --priority=16
+#FLUX: --job-name=blue-fudge-5097
+#FLUX: --urgency=16
 
 source ~/.bashrc
 setup () {

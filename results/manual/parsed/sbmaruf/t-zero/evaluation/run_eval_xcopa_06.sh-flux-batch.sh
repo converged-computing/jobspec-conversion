@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-poo-2761
-#FLUX: --priority=16
+#FLUX: --job-name=blank-cupcake-2140
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='6'
 

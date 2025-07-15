@@ -2,7 +2,7 @@
 #FLUX: --job-name=mfw_uq
 #FLUX: --queue=fast
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SYS='EAGLE'
 export MPICMD='mpirun'

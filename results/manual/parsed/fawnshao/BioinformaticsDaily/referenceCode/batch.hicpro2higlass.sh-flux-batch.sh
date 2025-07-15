@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-underoos-9217
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-chip-3860
+#FLUX: --urgency=16
 
 export PATH='~/myTools/HiChIP/HiC-Pro/bin/utils/:$PATH'
 export PYTHONPATH=''

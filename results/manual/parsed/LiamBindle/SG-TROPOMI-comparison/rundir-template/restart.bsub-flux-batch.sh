@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-taco-7655
-#FLUX: --priority=16
+#FLUX: --job-name=hello-parrot-9433
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LiamBindle/SG-TROPOMI-comparison/rundir-template/restart.bsub

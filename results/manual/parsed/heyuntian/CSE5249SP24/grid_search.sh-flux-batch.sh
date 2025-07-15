@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-salad-3392
+#FLUX: --job-name=hanky-nunchucks-7131
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/he.1773/.bashrc
 source activate confMILE

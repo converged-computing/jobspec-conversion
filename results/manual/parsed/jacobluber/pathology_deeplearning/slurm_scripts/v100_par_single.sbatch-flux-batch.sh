@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-destiny-0489
+#FLUX: --job-name=hanky-spoon-1098
 #FLUX: -N=4
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='COLL'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-fudge-8838
+#FLUX: --job-name=carnivorous-rabbit-4918
 #FLUX: -N=2
 #FLUX: --queue=cluster
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MITGCM='$HOME/github/MPI-Singularity-PoC/MITgcm_container/MITgcm'
 export EXPDIR='$PWD/test2'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=mmseq2_%j
 #FLUX: -n=10
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 START=$SECONDS
 cd  /fs/ess/PAS0439/MING/virome/amg_analysis/comparative_genomics_analysis/cazy/GH2_8_10_16/protein_grouping

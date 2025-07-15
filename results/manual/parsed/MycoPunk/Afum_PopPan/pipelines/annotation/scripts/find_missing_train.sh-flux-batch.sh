@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-carrot-7576
-#FLUX: --priority=16
+#FLUX: --job-name=fat-squidward-1552
+#FLUX: --urgency=16
 
 CPU=1
 INDIR=annotate

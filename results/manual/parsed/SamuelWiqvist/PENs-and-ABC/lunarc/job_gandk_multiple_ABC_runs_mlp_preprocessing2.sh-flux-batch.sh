@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-car-6681
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-cupcake-8524
+#FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

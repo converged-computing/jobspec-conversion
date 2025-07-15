@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-squidward-7518
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-arm-2210
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

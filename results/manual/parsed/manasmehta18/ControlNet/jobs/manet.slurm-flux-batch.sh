@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="manet-run"
-#FLUX: --priority=16
+#FLUX: --job-name=manet-run
+#FLUX: --urgency=16
 
 set -x
 cd /ocean/projects/iri180005p/mmehta1/ControlNet

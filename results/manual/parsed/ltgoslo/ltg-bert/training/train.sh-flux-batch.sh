@@ -4,7 +4,7 @@
 #FLUX: -c=8
 #FLUX: --queue=pilot
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PS1='\$'
 export NCCL_SOCKET_IFNAME='hsn'

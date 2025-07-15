@@ -2,7 +2,7 @@
 #FLUX: --job-name=mpi-test
 #FLUX: -N=2
 #FLUX: -n=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ -n $SLURM_JOB_ID ];  then
     # check the original location through scontrol and $SLURM_JOB_ID

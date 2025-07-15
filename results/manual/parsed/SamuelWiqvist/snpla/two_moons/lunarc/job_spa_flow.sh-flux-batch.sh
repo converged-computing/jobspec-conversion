@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-carrot-5798
+#FLUX: --job-name=chunky-general-4301
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

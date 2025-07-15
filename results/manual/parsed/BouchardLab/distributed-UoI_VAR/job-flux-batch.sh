@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=VAR_Test
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gsl
 module load eigen3

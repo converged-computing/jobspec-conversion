@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=generate_candidates
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 dataset=$1

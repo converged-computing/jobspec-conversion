@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lamp-9532
+#FLUX: --job-name=pusheena-egg-0184
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 name=`echo $1`
 user=`echo $2`

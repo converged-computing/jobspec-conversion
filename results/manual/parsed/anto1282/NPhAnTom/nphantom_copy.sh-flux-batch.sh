@@ -2,7 +2,7 @@
 #FLUX: --job-name=NPhAnToM_%j
 #FLUX: -c=2
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_LOCALCACHEDIR='/maps/projects/mjolnir1/people/${USER}/SingularityTMP'
 export SINGULARITY_TMPDIR='/maps/projects/mjolnir1/people/${USER}/SingulquarityTMP'

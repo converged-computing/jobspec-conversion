@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lemon-8938
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-bike-3391
+#FLUX: --urgency=16
 
 module load gcc java
 GSEA_PATH=/home/jc604/mysoftware/gsea-3.0.jar

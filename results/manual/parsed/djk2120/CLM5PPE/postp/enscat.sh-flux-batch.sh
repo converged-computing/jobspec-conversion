@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-snack-8562
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-general-7774
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/djk2120/CLM5PPE/postp/enscat.sh

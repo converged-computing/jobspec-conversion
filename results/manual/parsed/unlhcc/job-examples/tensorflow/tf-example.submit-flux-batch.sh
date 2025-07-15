@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --queue=gpu
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load tensorflow-gpu/py39/2.9

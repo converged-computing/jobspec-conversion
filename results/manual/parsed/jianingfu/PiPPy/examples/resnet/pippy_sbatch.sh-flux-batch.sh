@@ -3,6 +3,6 @@
 #FLUX: -c=12
 #FLUX: --queue=train
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun --label pippy_wrapper.sh

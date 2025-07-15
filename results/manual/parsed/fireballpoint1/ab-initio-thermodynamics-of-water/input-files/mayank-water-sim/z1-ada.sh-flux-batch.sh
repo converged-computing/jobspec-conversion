@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-snack-4703
+#FLUX: --job-name=peachy-blackbean-3080
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/lammps-7Aug19_nnp_plumed/lib/nnp/lib'
 

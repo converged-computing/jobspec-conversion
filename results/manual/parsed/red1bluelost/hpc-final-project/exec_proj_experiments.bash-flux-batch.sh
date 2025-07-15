@@ -3,7 +3,7 @@
 #FLUX: -n=28
 #FLUX: --queue=reservation
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 REPEAT=20
 module load cmake/3.18.1

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-hobbit-9567
-#FLUX: --priority=16
+#FLUX: --job-name=blank-chip-9395
+#FLUX: --urgency=16
 

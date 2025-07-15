@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-onion-0969
+#FLUX: --job-name=stinky-chip-6380
 #FLUX: -N=3
 #FLUX: -n=3
 #FLUX: --queue=west
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/wr-spack.sh
 spack load --dependencies mpi

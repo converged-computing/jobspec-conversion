@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="ClinOmics"
-#FLUX: --priority=16
+#FLUX: --job-name=ClinOmics
+#FLUX: --urgency=16
 
 export TimeStamp='$NOW'
 export SERPENTINE_HOME='/data/Clinomics/Tools/serpentine2'

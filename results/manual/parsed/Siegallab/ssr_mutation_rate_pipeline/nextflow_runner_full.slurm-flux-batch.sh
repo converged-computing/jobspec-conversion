@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nf_full
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 main_dir='/scratch/yp19/plavskin_seq_analysis'
 nf_dir="${main_dir}/nf_scripts"

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=utility_aus_fullmodel_80K
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/fs/clip-amr/anaconda2/bin:$PATH'
 

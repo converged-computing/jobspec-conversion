@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="stianrh_AMD_Training"
+#FLUX: --job-name=stianrh_AMD_Training
 #FLUX: --queue=V100-IDI
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

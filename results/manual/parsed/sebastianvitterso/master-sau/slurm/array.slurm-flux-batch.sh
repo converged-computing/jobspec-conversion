@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Variance metrics"
+#FLUX: --job-name=Variance metrics
 #FLUX: --queue=GPUQ
 #FLUX: -t=601200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ARRAY_RUN_NAME='variance_03_exp$(printf %02.0f $SLURM_ARRAY_TASK_ID)'
 

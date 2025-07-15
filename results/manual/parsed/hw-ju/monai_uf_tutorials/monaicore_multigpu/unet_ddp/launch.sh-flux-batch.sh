@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-earthworm-7257
+#FLUX: --job-name=anxious-noodle-7381
 #FLUX: -c=4
 #FLUX: --gpus-per-task=4
 #FLUX: --exclusive
 #FLUX: --queue=hpg-ai
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export TORCH_DISTRIBUTED_DEBUG='DETAIL'

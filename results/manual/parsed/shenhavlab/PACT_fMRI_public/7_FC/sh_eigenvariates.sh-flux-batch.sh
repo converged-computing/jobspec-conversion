@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-avocado-8829
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-lizard-2709
+#FLUX: --urgency=16
 
 root_dir="/users/hritz/data/mri-data/RDM2"
 spm_dir="/users/hritz/data/mri-data/analysistools/spm12"

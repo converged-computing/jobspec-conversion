@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-egg-5167
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-itch-3087
+#FLUX: --urgency=16
 
 data_dir=${1}
 model_name=${2}

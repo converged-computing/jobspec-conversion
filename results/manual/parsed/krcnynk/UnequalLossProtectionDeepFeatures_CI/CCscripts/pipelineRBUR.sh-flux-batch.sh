@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-truffle-0533
+#FLUX: --job-name=lovely-platanos-0228
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module restore uneq
 cd ..

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="pbjb0"
+#FLUX: --job-name=pbjb0
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRAM_ARCH='slc6_amd64_gcc491'
 export X509_USER_PROXY='/home/tuos/x509up_u126986'

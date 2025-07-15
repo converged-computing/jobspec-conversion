@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-fudge-1285
+#FLUX: --job-name=faux-general-1424
 #FLUX: --queue=overflow
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /labs/hulab/stark_conda/bin/activate
 conda activate base_pytorch

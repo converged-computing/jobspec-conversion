@@ -3,7 +3,7 @@
 #FLUX: -c=32
 #FLUX: --queue=hgx
 #FLUX: -t=176340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge # optional
 module load NeSI

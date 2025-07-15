@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-puppy-3554
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-chip-9322
+#FLUX: --urgency=16
 
 export NB_PROCS='1 '
 

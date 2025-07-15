@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cattywampus-7138
-#FLUX: --priority=16
+#FLUX: --job-name=fat-cherry-8332
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RMGDFT/rmgdft/scripts/jobfiles/summit.job

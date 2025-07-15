@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-nunchucks-6281
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-ricecake-0897
+#FLUX: --urgency=16
 
 cd /cluster/projects/mcgahalab/data/brookslab/sabelo/AB_seq_v2/
 conds=('Tum_CD8' 'Tum_CD8_KO.C3_WT.C0')

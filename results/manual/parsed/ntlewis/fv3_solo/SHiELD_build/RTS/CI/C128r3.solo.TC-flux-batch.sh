@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-pedo-4366
+#FLUX: --job-name=tart-squidward-4319
 #FLUX: -n=96
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

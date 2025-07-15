@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-squidward-3134
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-destiny-5190
+#FLUX: --urgency=16
 
 module load intelFPGA_pro/20.3.0
 module load intel_pac/19.2.0_usm

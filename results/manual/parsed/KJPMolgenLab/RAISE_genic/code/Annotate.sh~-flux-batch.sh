@@ -4,7 +4,7 @@
 #FLUX: -n=20
 #FLUX: --queue=fuchs
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 modus="notest"
 reffasta="/scratch/fuchs/agmisc/chiocchetti/ReferenceGenomes/hg38.fa"

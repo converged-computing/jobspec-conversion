@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="SnSe-0.08"
+#FLUX: --job-name=SnSe-0.08
 #FLUX: --queue=batch
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srcDIR=$(pwd)
 machine="IBEX" # HPC or IBEX

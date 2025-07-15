@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-arm-8796
-#FLUX: --priority=16
+#FLUX: --job-name=blue-punk-1402
+#FLUX: --urgency=16
 
 set -e
 BASE_LOC=$PWD

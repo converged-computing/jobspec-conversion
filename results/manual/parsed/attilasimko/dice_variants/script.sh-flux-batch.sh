@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-bicycle-8222
+#FLUX: --job-name=angry-kitty-7278
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export var1='$1'
 export var2='$2'

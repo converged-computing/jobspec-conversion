@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="joint_11"
+#FLUX: --job-name=joint_11
 #FLUX: --queue=gpu-shared
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='/usr/local/cuda-8.0'
 export LD_LIBRARY_PATH='/home/enijkamp/cudnn-3.0/lib64:$LD_LIBRARY_PATH'

@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=small
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PROJECT_DIR=
 OSU_PY_BENCHMARK_DIR=$PROJECT_DIR/osu-micro-benchmarks-7.3/python

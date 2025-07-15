@@ -2,7 +2,7 @@
 #FLUX: --job-name=df
 #FLUX: --queue=normal
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CRAY_CUDA_MPS='1'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

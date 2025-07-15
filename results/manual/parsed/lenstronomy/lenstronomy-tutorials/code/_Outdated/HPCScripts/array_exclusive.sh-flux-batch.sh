@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="scann"
+#FLUX: --job-name=scann
 #FLUX: --exclusive
 #FLUX: --queue=dphys_compute
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting at `date`"
 echo "Running on hosts: $SLURM_NODELIST"

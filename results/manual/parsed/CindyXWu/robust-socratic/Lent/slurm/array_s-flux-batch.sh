@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-bits-2740
+#FLUX: --job-name=blank-cupcake-7585
 #FLUX: -N=2
 #FLUX: -n=12
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

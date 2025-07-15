@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-buttface-8079
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-peas-4439
+#FLUX: --urgency=16
 
 export name_for_run='chunk21_new_calib'
 export name_for_randoms='sgc_brick_dat_2'

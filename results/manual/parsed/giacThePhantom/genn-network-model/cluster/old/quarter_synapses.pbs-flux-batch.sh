@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-muffin-7853
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-rabbit-3817
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/old/quarter_synapses.pbs

@@ -2,7 +2,7 @@
 #FLUX: --job-name=prepInputs
 #FLUX: -c=40
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab/2021a
 matlab <<EOF

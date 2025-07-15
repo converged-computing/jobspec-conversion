@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-leg-8740
+#FLUX: --job-name=salted-nalgas-4406
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CXX='g++'
 

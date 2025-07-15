@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="exp04"
+#FLUX: --job-name=exp04
 #FLUX: -N=6
 #FLUX: --queue=EPICALL
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EA_NAS_UPLOAD_TO_FIREBASE='0'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-frito-6103
+#FLUX: --job-name=creamy-kerfuffle-1127
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/anaconda3
 module list

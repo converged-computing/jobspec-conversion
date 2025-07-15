@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-pedo-4951
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-leg-4018
+#FLUX: --urgency=16
 
 nvidia-smi
 module add GCC/8.3.0 iccifort/2019.5.281 CUDA/10.1.243

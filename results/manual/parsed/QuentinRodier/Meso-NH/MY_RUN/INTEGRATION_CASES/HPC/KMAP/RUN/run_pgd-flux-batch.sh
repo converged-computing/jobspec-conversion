@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-train-2805
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-banana-2008
+#FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 4'
 

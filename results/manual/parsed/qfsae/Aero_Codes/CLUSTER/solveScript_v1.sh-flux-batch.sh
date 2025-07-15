@@ -2,7 +2,7 @@
 #FLUX: --job-name=QR-so_STAR
 #FLUX: --queue=scb
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "`date`: Beginning job execution..."
 RUN=runSim_v2.java

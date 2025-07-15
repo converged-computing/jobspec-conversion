@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=jupyter
 #FLUX: -c=10
-#FLUX: --queue=student # rtx2080 (mini-servers), dgxteam (dgx1 for Team-Net), dgxmatinf (dgx2 for WMiI), dgx (dgx1 and dgx2)
-#FLUX: --priority=16
+#FLUX: --queue=student
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$PWD'
 

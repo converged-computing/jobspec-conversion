@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-malarkey-7225
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-bits-2195
+#FLUX: --urgency=16
 
 export MPICH_MAX_THREAD_SAFETY='multiple'
 export MPICH_VERSION_DISPLAY='1'

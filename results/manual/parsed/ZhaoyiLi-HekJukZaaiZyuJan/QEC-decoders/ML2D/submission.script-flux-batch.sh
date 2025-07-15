@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pot-3493
+#FLUX: --job-name=sticky-caramel-2440
 #FLUX: -c=2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LIBRARY_PATH='${LIBRARY_PATH}:~/libtensorflow2/lib:/moismon:/usr/lib64;\'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:~/libtensorflow2/lib:/moismon:/usr/lib64'

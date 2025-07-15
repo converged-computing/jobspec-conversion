@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-animal-6640
+#FLUX: --job-name=evasive-leg-4961
 #FLUX: -c=24
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 TARGET="0.35"
 BEHAVIOR="0.4"

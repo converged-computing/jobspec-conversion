@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-squidward-7187
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-chair-5667
+#FLUX: --urgency=16
 
 gchplog="gchp.log"
 multirunlog="multirun.log"

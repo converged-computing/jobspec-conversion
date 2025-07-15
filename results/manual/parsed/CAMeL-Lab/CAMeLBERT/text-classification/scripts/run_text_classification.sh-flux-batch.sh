@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bike-0854
+#FLUX: --job-name=gloopy-lizard-7100
 #FLUX: -t=42900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ARABIC_DATA='data/train'
 export TASK_NAME='arabic_sentiment'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-soup-8996
-#FLUX: --priority=16
+#FLUX: --job-name=phat-eagle-8737
+#FLUX: --urgency=16
 
 if [ -z "$TAG" ] 
 then

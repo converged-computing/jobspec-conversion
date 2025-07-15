@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-arm-4554
+#FLUX: --job-name=phat-frito-0844
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

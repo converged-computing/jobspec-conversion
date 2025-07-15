@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nvr_earth2_e2-sfno:score-fcn-mip
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export dataconfig='validation_big'
 export datatype='era5-cwb-v3'

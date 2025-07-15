@@ -2,7 +2,7 @@
 #FLUX: --job-name=clsp100M
 #FLUX: -c=12
 #FLUX: --queue=g40x
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load openmpi
 srun --exclusive --ntasks=$SLURM_NNODES --nodes=$SLURM_NNODES echo $(hostname) >> ./logs/outs/hostnames.txt # for debugging, logs the hostname to the output file

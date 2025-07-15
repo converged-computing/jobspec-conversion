@@ -2,7 +2,7 @@
 #FLUX: --job-name=qmc_units_test
 #FLUX: -c=2
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load julia/1.8.5 StdEnv/2020

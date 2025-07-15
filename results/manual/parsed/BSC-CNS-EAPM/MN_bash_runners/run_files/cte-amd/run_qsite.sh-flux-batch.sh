@@ -2,7 +2,7 @@
 #FLUX: --job-name=Qsite
 #FLUX: -c=4
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:/gpfs/projects/bsc72/Programs/schrodinger2024-1'
 export SCHRODINGER='/gpfs/projects/bsc72/Programs/schrodinger2024-1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-gato-1358
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-cinnamonbun-4573
+#FLUX: --urgency=16
 
 module load cuda/10.0
 set -x

@@ -2,7 +2,7 @@
 #FLUX: --job-name=PTB_pipe
 #FLUX: --queue=p100_4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONFIG='small_nets'
 module purge

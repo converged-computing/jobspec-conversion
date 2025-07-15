@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-leopard-9693
+#FLUX: --job-name=creamy-pedo-4887
 #FLUX: --queue=dev
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/2020.11-py3.8

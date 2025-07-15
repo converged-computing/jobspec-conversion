@@ -2,7 +2,7 @@
 #FLUX: --job-name=md1
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=3090
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/data/home/wuxingxing/codespace/lammps_nep/src:$PATH'
 export PYTHONPATH='/data/home/wuxingxing/codespace/PWMLFF_nep/src/:$PYTHONPATH'

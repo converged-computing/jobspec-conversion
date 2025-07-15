@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-muffin-7768
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-rabbit-7865
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kaarejoergensen/02285_server/submit_benchmark_nn.sh

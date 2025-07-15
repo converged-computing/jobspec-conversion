@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-milkshake-6550
-#FLUX: --priority=16
+#FLUX: --job-name=arid-chip-2507
+#FLUX: --urgency=16
 
 export BGLOCKLESSMPIO_F_TYPE='0x47504653'
 

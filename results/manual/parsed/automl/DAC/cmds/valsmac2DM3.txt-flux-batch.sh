@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-animal-9208
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-lettuce-1341
+#FLUX: --urgency=16
 
 source activate dac
 experi="2D3M"

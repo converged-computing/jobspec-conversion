@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=default
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 port=$RANDOM
 ARCH="resnet18"

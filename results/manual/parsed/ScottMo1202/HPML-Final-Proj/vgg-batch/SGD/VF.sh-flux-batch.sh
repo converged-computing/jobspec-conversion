@@ -3,7 +3,7 @@
 #FLUX: -c=24
 #FLUX: --queue=rtx8000
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda3/2020.07

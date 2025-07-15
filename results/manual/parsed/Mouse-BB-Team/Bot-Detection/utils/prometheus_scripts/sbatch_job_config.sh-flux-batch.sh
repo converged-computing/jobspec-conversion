@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-banana-9023
+#FLUX: --job-name=ornery-leopard-2630
 #FLUX: -t=93600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add plgrid/tools/python/3.8
 module add plgrid/libs/tensorflow-gpu/2.3.1-python-3.8

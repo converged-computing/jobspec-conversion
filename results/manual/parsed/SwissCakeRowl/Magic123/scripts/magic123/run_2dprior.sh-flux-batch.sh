@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-mango-6117
+#FLUX: --job-name=eccentric-lizard-2972
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/7.5.0
 source venv_magic123/bin/activate

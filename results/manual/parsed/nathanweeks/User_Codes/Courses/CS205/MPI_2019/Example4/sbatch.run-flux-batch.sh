@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-buttface-8634
-#FLUX: --priority=16
+#FLUX: --job-name=tart-rabbit-3204
+#FLUX: --urgency=16
 
 WORK_DIR=/scratch/${USER}/${SLURM_JOB_ID}
 PRO=mmult

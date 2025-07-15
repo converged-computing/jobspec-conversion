@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-bits-7090
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-house-1142
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jyyulab/LVIS_pipeline/qsLAM_PCR/integrated_LVIS_pipeline.sh

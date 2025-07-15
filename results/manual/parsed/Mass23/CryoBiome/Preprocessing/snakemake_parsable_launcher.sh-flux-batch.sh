@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lizard-2376
+#FLUX: --job-name=fat-bike-5251
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONNOUSERSITE='TRUE'
 

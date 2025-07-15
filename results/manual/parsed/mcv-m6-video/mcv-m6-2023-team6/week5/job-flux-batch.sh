@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-kerfuffle-5650
-#FLUX: --priority=16
+#FLUX: --job-name=fat-hippo-1574
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate m6

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=tune_t5_codexglue
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export INCLUDEPATH='$INCLUDEPATH:$HOME/cuda/include'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$HOME/cuda/lib64'

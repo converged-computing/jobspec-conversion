@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="test_mistral"
-#FLUX: --priority=16
+#FLUX: --job-name=test_mistral
+#FLUX: --urgency=16
 
 spack load anaconda3@2022.05
 conda init bash

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pn_ucf_visualization
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:32'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=slurm-single-job
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KUBE_IMAGE='registry.local:31500/job-test:latest'
 export KUBE_WORK_VOLUME='/nas/volumes/homes/dgx'

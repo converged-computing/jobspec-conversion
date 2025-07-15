@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-cat-0541
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-poo-0537
+#FLUX: --urgency=16
 
 module load gsl/intel/2.6 
 conda activate sbi-fermi

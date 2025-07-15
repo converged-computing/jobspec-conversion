@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=docker-hello-mpi
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sudo service docker start
 sudo docker run -i -v `pwd`:`pwd` -w `pwd` avidalto/openmpi-ubuntu:v3 mpirun \

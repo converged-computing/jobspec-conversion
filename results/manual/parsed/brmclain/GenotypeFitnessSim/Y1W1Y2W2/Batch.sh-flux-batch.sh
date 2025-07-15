@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-general-7080
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-chair-0571
+#FLUX: --urgency=16
 
 module load python/3.9
 cd /project/meisel/users/bmmclain/Y1W1Y2W2

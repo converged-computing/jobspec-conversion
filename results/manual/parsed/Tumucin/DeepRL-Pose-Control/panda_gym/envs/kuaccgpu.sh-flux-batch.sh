@@ -2,7 +2,7 @@
 #FLUX: --job-name=PPOexp560
 #FLUX: --queue=mid
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/kuacc/users/tbal21/.conda/envs/stableBaselines/panda-gym/panda_gym/envs/utils'
 

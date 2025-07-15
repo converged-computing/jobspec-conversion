@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="finetuning"
+#FLUX: --job-name=finetuning
 #FLUX: -c=128
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_HOME='$CACHE_DIR/huggingface'
 

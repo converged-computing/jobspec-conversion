@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-caramel-6167
+#FLUX: --job-name=joyous-general-3326
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 readonly datadir="/coco2017"
 readonly checkpointdir="$PWD/results/"

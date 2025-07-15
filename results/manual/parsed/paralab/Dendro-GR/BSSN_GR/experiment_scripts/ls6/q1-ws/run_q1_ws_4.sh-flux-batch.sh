@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-signal-1405
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-lemon-9596
+#FLUX: --urgency=16
 
 module list
 pwd

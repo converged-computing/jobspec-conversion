@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-fudge-0212
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-cherry-6364
+#FLUX: --urgency=16
 
 export MODULEPATH='/software/cades-open/spack-envs/base/modules/site/Core:/software/cades-open/modulefiles/core'
 

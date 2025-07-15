@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=bismark-mbd
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load bio/bismark/0.24.0
 source /home/lspencer/venv/bin/activate

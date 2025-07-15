@@ -2,7 +2,7 @@
 #FLUX: --job-name=oleic
 #FLUX: --queue=shared
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 prefix=oleic
 rtemp=298

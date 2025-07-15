@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-spoon-0371
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-fudge-8327
+#FLUX: -t=7200
+#FLUX: --urgency=16
 
 USAGE='PHOTOFOLDER=path/to/photos; sbatch --export=INPUT_FOLDER=$PHOTOFOLDER --job-name=detector-$(basename $PHOTOFOLDER) run_detector.sb'
 if [ -z ${PYTHON_FOLDER} ]; then     

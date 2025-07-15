@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-mango-3866
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-parsnip-3341
+#FLUX: --urgency=16
 
 module list
 pwd

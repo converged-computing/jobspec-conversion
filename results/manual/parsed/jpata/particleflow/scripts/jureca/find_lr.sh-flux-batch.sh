@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-house-4760
+#FLUX: --job-name=milky-car-1197
 #FLUX: --queue=dc-gpu-devel
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

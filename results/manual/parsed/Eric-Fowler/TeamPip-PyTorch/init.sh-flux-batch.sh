@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-cupcake-5641
+#FLUX: --job-name=placid-fudge-2419
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo 'Creating New Project'
 echo ''

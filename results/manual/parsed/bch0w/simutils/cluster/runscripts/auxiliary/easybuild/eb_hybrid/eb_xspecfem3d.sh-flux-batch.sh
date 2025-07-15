@@ -5,7 +5,7 @@
 #FLUX: -c=10
 #FLUX: --queue=nesi_research
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/8.3.0
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-frito-0200
+#FLUX: --job-name=confused-truffle-4607
 #FLUX: -c=42
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 getseed=${1:-"N"} #Set to Y if you what to reuse stored seed
 epochs=${2:-50} #No of epochs

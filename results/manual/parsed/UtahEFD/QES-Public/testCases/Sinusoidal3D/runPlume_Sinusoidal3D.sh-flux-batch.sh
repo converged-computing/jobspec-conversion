@@ -2,7 +2,7 @@
 #FLUX: --job-name=QES-plume-Sinusoidal3D
 #FLUX: --queue=efd-shared-np
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo '****** PROLOGUE ******'
 echo '----------------------------------------------------------------------------'

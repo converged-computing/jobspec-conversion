@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-itch-9666
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-bits-9919
+#FLUX: --urgency=16
 
 echo "TACC: job $SLURM_JOB_ID execution at: $(date)"
 TAP_FUNCTIONS="/share/doc/slurm/tap_functions"

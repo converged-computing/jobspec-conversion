@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lentil-5887
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-arm-1266
+#FLUX: --urgency=16
 
 PRO=mmult
 module load gcc/9.3.0-fasrc01 openmpi/4.0.5-fasrc01

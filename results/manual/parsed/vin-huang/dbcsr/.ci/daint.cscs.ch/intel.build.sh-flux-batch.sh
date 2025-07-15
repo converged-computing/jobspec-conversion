@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-itch-1920
+#FLUX: --job-name=faux-earthworm-5265
 #FLUX: -c=3
 #FLUX: --exclusive
-#FLUX: --queue="cscsci"
-#FLUX: --priority=16
+#FLUX: --queue=cscsci
+#FLUX: --urgency=16
 
 set -o errexit
 set -o nounset

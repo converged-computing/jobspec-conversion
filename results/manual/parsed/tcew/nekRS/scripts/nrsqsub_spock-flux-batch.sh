@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-dog-3841
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-platanos-7302
+#FLUX: --urgency=16
 
 export NVME_HOME='/mnt/bb/$USER/'
 export ROMIO_HINTS='$(pwd)/.romio_hint'

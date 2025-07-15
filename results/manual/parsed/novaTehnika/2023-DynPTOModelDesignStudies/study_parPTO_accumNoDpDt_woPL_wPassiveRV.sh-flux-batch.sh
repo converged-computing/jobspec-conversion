@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-malarkey-4164
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-mango-6384
+#FLUX: --urgency=16
 
 cd ~/2023-DynPTOModelDesignStudies
 module load matlab

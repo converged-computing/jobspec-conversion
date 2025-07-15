@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-cherry-4095
+#FLUX: --job-name=blank-fork-8049
 #FLUX: -N=11
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_PROJECT='/home/dcs/csrxgb/julia_stuff/Project.toml'
 export JULIA_CMDSTAN_HOME='/home/dcs/csrxgb/julia_stuff/cmdstan-2.23.0'

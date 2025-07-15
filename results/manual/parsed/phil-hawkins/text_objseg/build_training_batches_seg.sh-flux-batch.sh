@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-despacito-5911
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-citrus-3482
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/phil-hawkins/text_objseg/build_training_batches_seg.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="JOBNAME_competition"
+#FLUX: --job-name=JOBNAME_competition
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 <GPU4_CONFIG>
 <ENV_LOAD>

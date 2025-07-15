@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-leg-6672
+#FLUX: --job-name=wobbly-peanut-butter-8733
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

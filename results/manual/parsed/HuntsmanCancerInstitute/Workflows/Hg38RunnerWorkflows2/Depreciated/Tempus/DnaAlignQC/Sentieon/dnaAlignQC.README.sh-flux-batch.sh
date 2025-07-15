@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-arm-0877
+#FLUX: --job-name=dirty-toaster-4772
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED; touch STARTED
 echo -e "\n---------- Starting -------- $((($(date +'%s') - $start)/60)) min"

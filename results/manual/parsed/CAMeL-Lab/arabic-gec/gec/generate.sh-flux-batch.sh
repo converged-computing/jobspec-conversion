@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-rabbit-6710
+#FLUX: --job-name=arid-general-6600
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sys=/scratch/ba63/gec/models/gec/qalb14-15/full/bart_w_camelira
 test_file=/home/ba63/gec-release/data/gec/modeling/qalb15/w_camelira/full/test_L2.json

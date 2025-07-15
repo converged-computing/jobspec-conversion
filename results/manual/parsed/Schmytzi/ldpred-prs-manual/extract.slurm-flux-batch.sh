@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leader-7093
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-mango-7127
+#FLUX: --urgency=16
 
 chr=$SLURM_ARRAY_TASK_ID
 module load bioinfo-tools plink2/2.00-alpha-2-20190429

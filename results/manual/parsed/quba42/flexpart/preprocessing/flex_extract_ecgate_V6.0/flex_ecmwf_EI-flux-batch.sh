@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=flex_ecmwf
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MARS_MULTITARGET_STRICT_FORMAT='1'

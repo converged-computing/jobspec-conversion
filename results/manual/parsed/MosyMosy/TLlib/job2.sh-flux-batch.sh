@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nprior_20_101
 #FLUX: -t=480
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_HOME='$SLURM_TMPDIR/Pytorch_zoo'
 

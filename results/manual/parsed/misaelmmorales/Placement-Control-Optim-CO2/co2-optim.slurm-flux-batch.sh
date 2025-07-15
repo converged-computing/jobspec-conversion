@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-signal-3323
-#FLUX: --priority=16
+#FLUX: --job-name=fat-pancake-4276
+#FLUX: --urgency=16
 
 pwd
 date

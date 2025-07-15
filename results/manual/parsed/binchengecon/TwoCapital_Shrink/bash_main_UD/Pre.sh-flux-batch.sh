@@ -3,7 +3,7 @@
 #FLUX: -c=5
 #FLUX: --queue=standard
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 actiontime=1
 epsilonarraypost=(0.05) # Computation of fine grid and psi10.8, post

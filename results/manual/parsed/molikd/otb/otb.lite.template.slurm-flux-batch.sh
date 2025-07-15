@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-puppy-6477
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-puppy-6810
+#FLUX: --urgency=16
 
 module load nextflow/22.04.3
 module load singularityCE

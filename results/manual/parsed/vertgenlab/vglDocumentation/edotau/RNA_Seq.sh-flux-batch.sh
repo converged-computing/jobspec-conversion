@@ -3,7 +3,7 @@
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module load GATK/4.1.0.0-gcb01 java/1.8.0_45-fasrc01 samtools/1.9-gcb01 fastqc/0.11.5-fasrc01 STAR/2.7.2b-gcb01

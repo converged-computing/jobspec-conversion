@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-ricecake-8626
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-caramel-1325
+#FLUX: --urgency=16
 
 VCF=/panfs/roc/groups/9/morrellp/shared/Projects/Mutant_Barley/longranger_morex_v2/combined_mutated/Filtered/deletions/M01_singletons_only-scored_DEL_gte75Sup.vcf
 OUT_DIR=/panfs/roc/groups/9/morrellp/pmorrell/Workshop/Barley_Mutants

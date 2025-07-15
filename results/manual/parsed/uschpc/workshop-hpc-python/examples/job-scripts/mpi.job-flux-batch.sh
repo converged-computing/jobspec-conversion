@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-signal-3151
+#FLUX: --job-name=milky-bits-9634
 #FLUX: -n=16
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module purge

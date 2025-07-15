@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-chip-7416
-#FLUX: --priority=16
+#FLUX: --job-name=phat-puppy-9261
+#FLUX: --urgency=16
 
 multirunlog="multirun.log"
 cancel_all_jobs()

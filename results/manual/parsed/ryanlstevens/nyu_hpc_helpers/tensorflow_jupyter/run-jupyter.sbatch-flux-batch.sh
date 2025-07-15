@@ -2,7 +2,7 @@
 #FLUX: --job-name=jupyter
 #FLUX: -c=2
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 port=$(shuf -i 10000-65500 -n 1)

@@ -2,7 +2,7 @@
 #FLUX: --job-name=pygpu
 #FLUX: --queue=c18g
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "------------------------------------------------------------"
 echo "SLURM JOB ID: $SLURM_JOBID"

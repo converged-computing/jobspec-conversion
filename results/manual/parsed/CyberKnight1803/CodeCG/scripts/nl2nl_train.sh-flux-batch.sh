@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="CodeCG"
+#FLUX: --job-name=CodeCG
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack unload 
 spack load gcc@11.2.0

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=NoticIA_Zero
 #FLUX: -c=22
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

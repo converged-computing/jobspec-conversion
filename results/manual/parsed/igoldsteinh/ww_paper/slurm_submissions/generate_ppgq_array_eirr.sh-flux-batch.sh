@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-leg-5759
-#FLUX: --priority=16
+#FLUX: --job-name=tart-pastry-3390
+#FLUX: --urgency=16
 
 module purge
 module load julia-1_8_5

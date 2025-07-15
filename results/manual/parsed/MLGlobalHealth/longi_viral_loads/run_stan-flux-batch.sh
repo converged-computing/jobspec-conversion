@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parrot-8257
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-butter-6596
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MLGlobalHealth/longi_viral_loads/run_stan

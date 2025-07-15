@@ -3,7 +3,7 @@
 #FLUX: -n=2
 #FLUX: -c=2
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='$PWD/.singularity'
 export SINGULARITY_CACHEDIR='$PWD/.singularity'

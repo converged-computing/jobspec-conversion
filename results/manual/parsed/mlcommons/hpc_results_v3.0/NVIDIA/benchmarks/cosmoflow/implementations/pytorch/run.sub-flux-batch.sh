@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mlperf-hpc:cosmoflow_ref
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODEL_NAME='cosmoflow'
 export MODEL_FRAMEWORK='pytorch'

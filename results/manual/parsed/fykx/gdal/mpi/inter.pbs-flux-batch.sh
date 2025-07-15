@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-truffle-3925
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-avocado-3362
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fykx/gdal/mpi/inter.pbs

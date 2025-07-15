@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --queue=mi210q
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MFEM_BUILD_DIR=./build-mi210q
 MFEM_INSTALL_DIR=/global/D1/homes/iverh/packages/mi210q/mfem-4.5

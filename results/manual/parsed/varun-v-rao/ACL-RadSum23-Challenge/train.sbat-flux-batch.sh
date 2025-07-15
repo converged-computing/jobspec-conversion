@@ -2,7 +2,7 @@
 #FLUX: --job-name=bert2bert
 #FLUX: --queue=gpu
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 my_job_header
 /bin/hostname

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-caramel-0430
+#FLUX: --job-name=frigid-platanos-1895
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

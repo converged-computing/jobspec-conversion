@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-staircase-0237
+#FLUX: --job-name=chunky-buttface-1124
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=short
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export AKRR_NODES='2'
 export AKRR_CORES='96'

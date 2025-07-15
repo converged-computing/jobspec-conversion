@@ -2,7 +2,7 @@
 #FLUX: --job-name=complex
 #FLUX: --queue=standard
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LAMBDA=$SLURM_ARRAY_TASK_ID
 nprocs=$SLURM_NTASKS

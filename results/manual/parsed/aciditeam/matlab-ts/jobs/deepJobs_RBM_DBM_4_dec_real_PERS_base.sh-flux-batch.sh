@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-egg-5714
+#FLUX: --job-name=blue-punk-6593
 #FLUX: --queue=mono
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.modules
 module load gcc

@@ -2,7 +2,7 @@
 #FLUX: --job-name=_HATK
 #FLUX: --queue=cardio
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export analysis='~/Caprion/analysis'
 export cookhla='${HPC_WORK}/CookHLA'

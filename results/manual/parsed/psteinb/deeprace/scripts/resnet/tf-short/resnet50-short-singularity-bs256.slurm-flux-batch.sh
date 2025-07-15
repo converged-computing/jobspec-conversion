@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-salad-4274
+#FLUX: --job-name=bricky-peas-0347
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

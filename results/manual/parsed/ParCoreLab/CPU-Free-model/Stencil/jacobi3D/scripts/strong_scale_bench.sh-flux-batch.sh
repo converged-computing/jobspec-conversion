@@ -3,7 +3,7 @@
 #FLUX: -n=8
 #FLUX: --queue=hgx2q
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . ./scripts/modules.sh > /dev/null
 MAX_NUM_GPUS=8

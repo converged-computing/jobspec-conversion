@@ -2,7 +2,7 @@
 #FLUX: --job-name=TACT_3rd
 #FLUX: --queue=normal
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/miniconda3/bin/activate tact
 echo -e "\nrunning TACT\n"

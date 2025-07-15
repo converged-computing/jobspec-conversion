@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-signal-7364
+#FLUX: --job-name=gassy-animal-2147
 #FLUX: -n=18
 #FLUX: --queue=gpu
 #FLUX: -t=6900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

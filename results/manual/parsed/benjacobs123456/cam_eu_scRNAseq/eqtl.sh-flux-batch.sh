@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-latke-4101
+#FLUX: --job-name=spicy-noodle-4974
 #FLUX: -c=32
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

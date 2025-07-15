@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nmf_expers
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load llvm/4.0.0
 module load R/3.4.0

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-onion-7714
+#FLUX: --job-name=red-motorcycle-0138
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $HOME/alx-bio/scripts/_base.sh
 conda_init conda

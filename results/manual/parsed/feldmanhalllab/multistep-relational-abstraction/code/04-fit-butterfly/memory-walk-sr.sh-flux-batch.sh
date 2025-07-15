@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-chair-7749
-#FLUX: --priority=16
+#FLUX: --job-name=red-peanut-butter-9464
+#FLUX: --urgency=16
 
 workflow_name="04-fit-butterfly"
 module load R/4.2.0

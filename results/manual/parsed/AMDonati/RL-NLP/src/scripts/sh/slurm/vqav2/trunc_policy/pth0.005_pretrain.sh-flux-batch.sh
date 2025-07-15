@@ -2,7 +2,7 @@
 #FLUX: --job-name=pth0.005-pretrain-full
 #FLUX: -c=16
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

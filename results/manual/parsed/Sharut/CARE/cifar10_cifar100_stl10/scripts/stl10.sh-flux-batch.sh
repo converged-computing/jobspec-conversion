@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-squidward-8122
+#FLUX: --job-name=tart-pot-9185
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CUDA_VISIBLE_DEVICES=0,1 python main.py \
 						 --model resnet50 \

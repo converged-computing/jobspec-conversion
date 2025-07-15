@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cat-2480
+#FLUX: --job-name=ornery-ricecake-4045
 #FLUX: --queue=gpu
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda activate machamp
 module load gcc/9.1.0

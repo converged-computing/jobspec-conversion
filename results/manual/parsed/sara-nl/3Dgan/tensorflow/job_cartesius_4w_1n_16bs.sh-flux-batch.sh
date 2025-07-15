@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-despacito-3364
+#FLUX: --job-name=fuzzy-knife-3149
 #FLUX: --queue=broadwell_short
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KERAS_BACKEND='tensorflow'
 export OMP_NUM_THREADS='$OMP_NUM_THREADS'

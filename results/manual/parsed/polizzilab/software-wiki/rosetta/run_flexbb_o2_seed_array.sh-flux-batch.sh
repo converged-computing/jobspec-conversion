@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-muffin-4656
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-hippo-4333
+#FLUX: --urgency=16
 
 module load gcc/4.8.5
 module load rosetta 

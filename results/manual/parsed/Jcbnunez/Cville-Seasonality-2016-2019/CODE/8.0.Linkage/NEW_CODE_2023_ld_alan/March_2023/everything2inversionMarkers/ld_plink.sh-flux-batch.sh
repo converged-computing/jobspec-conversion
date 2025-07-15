@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-despacito-6580
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-kerfuffle-2043
+#FLUX: --urgency=16
 
 module load plink/1.90b6.16
 cd /scratch/aob2x/ld

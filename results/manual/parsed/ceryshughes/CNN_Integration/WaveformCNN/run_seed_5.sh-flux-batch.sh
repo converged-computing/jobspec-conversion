@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-latke-9949
-#FLUX: --priority=16
+#FLUX: --job-name=arid-pancake-5018
+#FLUX: --urgency=16
 
 module load cuda/10
 /modules/apps/cuda/10.1.243/samples/bin/x86_64/linux/release/deviceQuery

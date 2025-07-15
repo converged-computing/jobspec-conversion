@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-poodle-4785
-#FLUX: --priority=16
+#FLUX: --job-name=placid-hope-8534
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/koustuvsinha/comp551_3/script_gul.sh

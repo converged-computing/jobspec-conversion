@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-animal-3621
+#FLUX: --job-name=blank-malarkey-7377
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 current_timestamp() {

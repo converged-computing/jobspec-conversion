@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-caramel-1760
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-lamp-2355
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MikkelMathiasen23/Variational_proteins/gridsearch/jobscript_gridsearch_hvae.sh

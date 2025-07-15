@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-soup-7538
-#FLUX: --priority=16
+#FLUX: --job-name=fat-parsnip-5073
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ORNL/affinity_pred/train/finetune.lsf

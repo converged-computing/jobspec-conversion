@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="10x_te_process_step2"
+#FLUX: --job-name=10x_te_process_step2
 #FLUX: -c=8
 #FLUX: --queue=batch
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add python/3.6.4
 module add miniconda

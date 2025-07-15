@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-staircase-5023
+#FLUX: --job-name=rainbow-soup-3567
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED; touch STARTED
 which singularity &> /dev/null || module load singularity

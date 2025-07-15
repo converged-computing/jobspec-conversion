@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cinnamonbun-5448
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-soup-2921
+#FLUX: --urgency=16
 
 python model_normal.py

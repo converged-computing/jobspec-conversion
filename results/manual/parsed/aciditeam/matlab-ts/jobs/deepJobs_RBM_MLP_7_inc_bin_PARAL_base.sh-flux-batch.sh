@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-earthworm-1789
+#FLUX: --job-name=arid-pot-6011
 #FLUX: --queue=mono
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.modules
 module load gcc

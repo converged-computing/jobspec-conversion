@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/8.3.0 cuda/10.1.168 cudnn cmake
 srun python ../train_GVSNETPlus.py --num_gpus 4 --dataset_name carlaGVS --root_dir /scratch/project_2001055/dataset/GVS \

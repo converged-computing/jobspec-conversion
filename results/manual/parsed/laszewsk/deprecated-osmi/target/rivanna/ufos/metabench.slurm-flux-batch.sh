@@ -2,7 +2,7 @@
 #FLUX: --job-name=train-osmi
 #FLUX: --queue=bii-gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 dir="/project/bii_dsc_community/$USER/osmi-scratch/osmi"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-blackbean-4900
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-pot-5632
+#FLUX: --urgency=16
 
 module load gcc/5.3.0
 module load perl/5.18.4-threads

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-sundae-7420
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-lamp-2985
+#FLUX: --urgency=16
 

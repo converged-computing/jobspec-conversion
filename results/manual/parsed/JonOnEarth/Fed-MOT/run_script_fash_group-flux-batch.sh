@@ -2,7 +2,7 @@
 #FLUX: --job-name=gpu_fg
 #FLUX: --queue=gpu
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda create --name pytorch_env python=3.10 -y
 source activate pytorch_env

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-salad-6653
+#FLUX: --job-name=crunchy-poodle-8828
 #FLUX: -n=5
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 runlist=$1
 mkfifo testfifo

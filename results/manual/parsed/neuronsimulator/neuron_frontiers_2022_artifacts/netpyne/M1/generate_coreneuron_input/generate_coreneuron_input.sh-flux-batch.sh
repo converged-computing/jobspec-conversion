@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=phat-itch-8520
+#FLUX: --job-name=stanky-cherry-9959
 #FLUX: -N=2
 #FLUX: -n=80
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: --queue=prod
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 netpyne_m1_prefix="$(pwd)/.."
 module purge

@@ -2,7 +2,7 @@
 #FLUX: --job-name=rarefaction_plot
 #FLUX: --queue=savio2
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /global/scratch/users/pierrj/eccDNA/magnaporthe_pureculture/rawdata/illumina/pureculture_samples/G3_1A/
 cd rarefaction_plot

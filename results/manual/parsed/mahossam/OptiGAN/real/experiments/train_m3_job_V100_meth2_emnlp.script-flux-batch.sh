@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=m3g
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 . /home/mahmoudm/anaconda3/etc/profile.d/conda.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pancake-9805
+#FLUX: --job-name=phat-mango-1204
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/workspace/.mujoco/mujoco210/bin'
 export MUJOCO_PY_MUJOCO_PATH='/workspace/.mujoco/mujoco210/'

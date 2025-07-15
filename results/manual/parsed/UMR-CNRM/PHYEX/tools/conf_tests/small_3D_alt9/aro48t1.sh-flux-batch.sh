@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-train-1111
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-staircase-9728
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

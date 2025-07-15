@@ -2,7 +2,7 @@
 #FLUX: --job-name=Keras
 #FLUX: --queue=cuda
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$HOME/.local/bin:$PATH'
 

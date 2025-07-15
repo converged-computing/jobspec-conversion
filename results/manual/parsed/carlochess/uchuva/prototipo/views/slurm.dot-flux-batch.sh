@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name={{= it.nodo.directorio}}_{{= it.nodo.nombre}}   # tiempo
-#FLUX: --priority=16
+#FLUX: --job-name={{=
+#FLUX: --urgency=16
 
 {{? it.config.times && it.config.times > 1 }}#SBATCH --array 1-{{= it.config.times}}{{?}}
 {{? it.nodo.dependencia && it.nodo.dependencia.length > 0 }}#SBATCH --dependency=afterok:{{= it.nodo.dependencia.join(":")}}{{?}}

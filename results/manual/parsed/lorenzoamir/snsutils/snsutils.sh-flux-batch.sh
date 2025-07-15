@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-kerfuffle-1272
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-caramel-8863
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lorenzoamir/snsutils/snsutils.sh

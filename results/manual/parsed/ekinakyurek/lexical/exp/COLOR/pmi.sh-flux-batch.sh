@@ -2,7 +2,7 @@
 #FLUX: --job-name=pmicolor
 #FLUX: -c=5
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dim=512
 lr=1.0

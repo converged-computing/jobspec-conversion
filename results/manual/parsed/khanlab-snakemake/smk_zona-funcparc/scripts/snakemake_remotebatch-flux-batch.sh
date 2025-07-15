@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-kitty-0904
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-citrus-6520
+#FLUX: --urgency=16
 
 hours=6
 mem=128000

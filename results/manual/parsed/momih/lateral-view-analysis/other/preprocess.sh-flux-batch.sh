@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-pastry-6965
+#FLUX: --job-name=wobbly-bicycle-3139
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATADIR=/lustre04/scratch/cohenjos/PC/images-224/
 LABELSDIR=$HOME/projects/rpp-bengioy/jpcohen/PADCHEST_SJ/labels_csv/

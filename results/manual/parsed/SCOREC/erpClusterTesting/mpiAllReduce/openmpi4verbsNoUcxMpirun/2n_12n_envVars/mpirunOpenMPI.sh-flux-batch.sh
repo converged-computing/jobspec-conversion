@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-pastry-0251
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-lamp-9608
+#FLUX: --urgency=16
 
 export PATH='$PATH:$ompi/bin'
 export OMPI_MCA_btl_tcp_if_include='ib0'

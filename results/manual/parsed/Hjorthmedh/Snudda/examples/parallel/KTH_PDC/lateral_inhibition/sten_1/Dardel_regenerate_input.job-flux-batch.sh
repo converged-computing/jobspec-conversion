@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-noodle-2963
+#FLUX: --job-name=bloated-lettuce-8179
 #FLUX: -c=2
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IPNWORKERS='$NWORKERS'
 export IPYTHONDIR='/cfs/klemming/scratch/${USER:0:1}/$USER/.ipython'

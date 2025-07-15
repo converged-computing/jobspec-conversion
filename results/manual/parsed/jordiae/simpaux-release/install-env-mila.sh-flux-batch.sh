@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-gato-6174
+#FLUX: --job-name=chunky-gato-3124
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/3 python/3.7/cuda/11.0/cudnn/8.0/pytorch/1.6.0

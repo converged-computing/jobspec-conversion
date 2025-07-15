@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=small
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load pytorch/1.11
 pip3 install -r requirements.txt

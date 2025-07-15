@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-animal-7141
+#FLUX: --job-name=gassy-animal-6716
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eux
 readonly docker_image="gitlab-master.nvidia.com/dl/joc/electra_pyt:pretrain"

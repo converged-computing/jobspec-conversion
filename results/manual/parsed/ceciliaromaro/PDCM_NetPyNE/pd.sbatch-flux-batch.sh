@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pd
 #FLUX: -N=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 cd /home/salvadord/pd

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-buttface-2854
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-avocado-6598
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ExascaleAM/Workflows/uq_workflow/Stage1/run_summit.sh

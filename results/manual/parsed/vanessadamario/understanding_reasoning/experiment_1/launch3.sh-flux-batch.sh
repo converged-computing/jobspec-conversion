@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=eval_test1
 #FLUX: --queue=normal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add cluster/singularity/3.4.1
 for i in {0..279}

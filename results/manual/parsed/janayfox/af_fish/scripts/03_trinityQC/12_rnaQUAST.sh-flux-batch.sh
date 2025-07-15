@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-hippo-6365
+#FLUX: --job-name=spicy-squidward-1688
 #FLUX: -c=2
 #FLUX: -t=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 
 module load StdEnv/2020

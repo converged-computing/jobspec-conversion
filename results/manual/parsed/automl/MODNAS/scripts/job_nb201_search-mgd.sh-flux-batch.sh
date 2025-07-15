@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lamp-3938
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-citrus-3270
+#FLUX: --urgency=16
 
 w_grad=$1
 hpn_grad=$2

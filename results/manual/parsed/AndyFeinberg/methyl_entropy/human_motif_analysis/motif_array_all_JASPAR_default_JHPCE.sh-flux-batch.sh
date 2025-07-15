@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-ricecake-6775
+#FLUX: --job-name=bloated-diablo-1176
 #FLUX: -c=24
 #FLUX: --queue=shared,parallel,skylake
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml R/3.6.1
 ml atlas

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-general-6156
+#FLUX: --job-name=strawberry-animal-8853
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OPENMM_PLUGIN_DIR='/home/julien/sire.app/lib/plugins/'
 

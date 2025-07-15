@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-poodle-5452
+#FLUX: --job-name=sticky-hippo-7698
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export OMP_NUM_THREADS='6'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cherry-1470
+#FLUX: --job-name=misunderstood-sundae-1420
 #FLUX: --exclusive
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 BATCH_SIZE=4
 NUM_GPU=8

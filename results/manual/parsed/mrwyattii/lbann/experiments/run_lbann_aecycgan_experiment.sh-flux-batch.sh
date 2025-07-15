@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-fork-6940
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-pot-7091
+#FLUX: --urgency=16
 
 EXPERIMENT_NAME=lbann_aecycgan_jag
 LBANN_DIR=$(git rev-parse --show-toplevel)

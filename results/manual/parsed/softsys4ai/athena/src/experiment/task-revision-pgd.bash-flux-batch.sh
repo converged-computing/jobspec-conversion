@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=pad1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.1
 module load python3/anaconda/ai-lab

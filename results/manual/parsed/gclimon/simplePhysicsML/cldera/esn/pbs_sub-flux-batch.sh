@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-malarkey-1447
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-leopard-0228
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gclimon/simplePhysicsML/cldera/esn/pbs_sub

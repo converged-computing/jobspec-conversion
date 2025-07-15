@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lamp-7003
-#FLUX: --priority=16
+#FLUX: --job-name=placid-arm-2406
+#FLUX: --urgency=16
 
 sleep 5s
 module load singularity/3.10.2

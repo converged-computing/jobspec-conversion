@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-poodle-6970
+#FLUX: --job-name=strawberry-buttface-7610
 #FLUX: -n=9
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$(pwd)/../../../lib/sgpp:$(pwd)/../../../glpk/lib:$LD_LIBRARY_PATH'
 export OMP_NUM_THREADS='1'

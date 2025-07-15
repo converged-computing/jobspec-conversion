@@ -2,7 +2,7 @@
 #FLUX: --job-name=test.hip
 #FLUX: --queue=eap
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CrayEnv
 module load PrgEnv-cray

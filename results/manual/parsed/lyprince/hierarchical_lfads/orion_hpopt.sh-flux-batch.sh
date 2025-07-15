@@ -2,7 +2,7 @@
 #FLUX: --job-name=hpopt
 #FLUX: --queue=long
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PROJECTDIR=$HOME/hierarchical_lfads/
 DATADIR=synth_data

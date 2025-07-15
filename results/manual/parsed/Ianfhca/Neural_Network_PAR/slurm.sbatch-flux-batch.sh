@@ -1,5 +1,5 @@
 #!/bin/bash
 #FLUX: --job-name=test
 #FLUX: --queue=EHP-PAR
-#FLUX: --priority=16
+#FLUX: --urgency=16
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=PS_trimmed_data
 #FLUX: --queue=gpu
 #FLUX: -t=12600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load slurm easybuild intel/2017a Stacks/1.46

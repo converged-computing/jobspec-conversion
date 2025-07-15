@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-butter-5956
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-general-3553
+#FLUX: --urgency=16
 
 export THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32'
 

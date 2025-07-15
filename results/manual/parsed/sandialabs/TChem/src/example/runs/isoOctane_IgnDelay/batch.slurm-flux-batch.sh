@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-rabbit-9744
+#FLUX: --job-name=tart-motorcycle-4062
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='48'
 export OMP_PROC_BIND='spread'

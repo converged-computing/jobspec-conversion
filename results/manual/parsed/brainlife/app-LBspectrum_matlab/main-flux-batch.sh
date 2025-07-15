@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-chip-1565
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-destiny-5698
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-LBspectrum_matlab/main

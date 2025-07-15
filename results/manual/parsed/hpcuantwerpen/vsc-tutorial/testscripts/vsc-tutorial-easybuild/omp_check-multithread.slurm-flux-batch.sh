@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-underoos-2652
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-chair-5730
+#FLUX: --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='true'

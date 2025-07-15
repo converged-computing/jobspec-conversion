@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-onion-2665
+#FLUX: --job-name=outstanding-itch-8030
 #FLUX: --queue=express
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='${PATH}:${HDF5_HOME}/bin'
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:${HDF5_HOME}/lib'

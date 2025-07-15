@@ -2,7 +2,7 @@
 #FLUX: --job-name=sciml_MNIST_torch
 #FLUX: --queue=%partition
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load %modules

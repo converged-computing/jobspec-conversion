@@ -2,7 +2,7 @@
 #FLUX: --job-name=spurge
 #FLUX: --queue=russ_reserved
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate semantic-aug

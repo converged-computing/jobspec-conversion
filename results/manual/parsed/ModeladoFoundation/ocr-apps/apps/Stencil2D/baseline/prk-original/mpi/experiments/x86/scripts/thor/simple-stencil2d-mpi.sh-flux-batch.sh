@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-signal-0553
+#FLUX: --job-name=eccentric-latke-3078
 #FLUX: --queue=XAS
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_DEBUG='3'
 export NODEFILE='$runhm/hfile.txt.$$'

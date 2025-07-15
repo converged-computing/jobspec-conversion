@@ -2,7 +2,7 @@
 #FLUX: --job-name=wgs2tree
 #FLUX: --queue=highmem
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity/3.11.4-nompi
 module load nextflow/23.10.0

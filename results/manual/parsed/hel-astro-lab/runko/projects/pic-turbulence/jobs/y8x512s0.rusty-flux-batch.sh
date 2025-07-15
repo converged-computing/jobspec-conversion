@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-arm-5746
+#FLUX: --job-name=blue-squidward-8824
 #FLUX: -N=21
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PYTHONDONTWRITEBYTECODE='true'

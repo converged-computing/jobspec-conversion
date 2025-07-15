@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-peas-3150
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-fudge-0984
+#FLUX: --urgency=16
 
 module purge
 module load Python/3.7.2-GCCcore-8.2.0

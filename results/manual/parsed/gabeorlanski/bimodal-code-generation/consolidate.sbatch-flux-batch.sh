@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-truffle-4486
+#FLUX: --job-name=muffled-lettuce-3550
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting Tensorize"
 singularity exec --overlay $SCRATCH/overlay-50G-10M.ext3:ro /scratch/work/public/singularity/cuda11.4.2-cudnn8.2.4-devel-ubuntu20.04.3.sif /bin/bash -c "

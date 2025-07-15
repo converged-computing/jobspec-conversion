@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-leopard-5555
-#FLUX: --priority=16
+#FLUX: --job-name=purple-underoos-7279
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gummz/cell/shell/predict_model.sh

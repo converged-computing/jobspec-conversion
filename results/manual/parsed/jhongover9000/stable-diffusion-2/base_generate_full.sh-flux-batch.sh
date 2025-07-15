@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-house-8615
+#FLUX: --job-name=bricky-nunchucks-8323
 #FLUX: -c=4
 #FLUX: -t=261000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 FILES=(/scratch/jhh508/stable-diffusion-2/*)
 module purge

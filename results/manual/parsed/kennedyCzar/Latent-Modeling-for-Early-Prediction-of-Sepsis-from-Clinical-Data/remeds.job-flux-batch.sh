@@ -2,7 +2,7 @@
 #FLUX: --job-name=GCVAE
 #FLUX: --queue=audace2018
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ulimit -l unlimited
 unset SLURM_GTIDS

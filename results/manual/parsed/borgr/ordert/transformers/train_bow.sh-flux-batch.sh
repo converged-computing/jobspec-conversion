@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-dog-2473
+#FLUX: --job-name=astute-lamp-0922
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 lshw -C display | tail # write the acquired gpu properties
 lang=en

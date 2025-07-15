@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-squidward-8221
-#FLUX: --priority=16
+#FLUX: --job-name=placid-buttface-4299
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fontaluc/master-thesis-results/hpc/tuning/tune_adversarial_dual.sh

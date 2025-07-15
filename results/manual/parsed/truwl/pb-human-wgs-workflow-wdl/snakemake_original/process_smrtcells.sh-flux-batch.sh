@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cherry-3149
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-taco-7405
+#FLUX: --urgency=16
 
 umask 002
 snakemake --reason \

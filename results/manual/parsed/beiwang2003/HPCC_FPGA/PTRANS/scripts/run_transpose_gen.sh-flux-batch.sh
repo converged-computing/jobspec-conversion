@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leopard-5768
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-poodle-1446
+#FLUX: --urgency=16
 
 module load intelFPGA_pro/20.3.0
 module load bittware_520n/19.4.0_max

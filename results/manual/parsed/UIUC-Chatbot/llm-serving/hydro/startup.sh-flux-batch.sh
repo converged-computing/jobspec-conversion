@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=a100
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/12.2.1
 module load python/3.9.13

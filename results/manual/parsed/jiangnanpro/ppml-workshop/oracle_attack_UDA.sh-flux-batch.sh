@@ -2,7 +2,7 @@
 #FLUX: --job-name=suDef
 #FLUX: -c=3
 #FLUX: --queue=all
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SECONDS=0
 restart(){

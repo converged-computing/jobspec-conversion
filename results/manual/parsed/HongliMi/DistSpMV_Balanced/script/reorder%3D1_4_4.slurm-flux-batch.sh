@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-pedo-0458
+#FLUX: --job-name=tart-eagle-0250
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_LOG_LEVEL='error'
 

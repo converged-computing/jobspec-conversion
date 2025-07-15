@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-knife-3719
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-general-7807
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Exawind/hypre/src/submitMiniApp.sh

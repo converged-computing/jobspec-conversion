@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-motorcycle-8348
+#FLUX: --job-name=conspicuous-sundae-5980
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load nvidia-hpc-sdk

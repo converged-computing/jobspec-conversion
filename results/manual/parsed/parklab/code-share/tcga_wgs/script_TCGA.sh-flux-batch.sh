@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-leader-2770
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-car-2983
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/n/data1/hms/dbmi/park/SOFTWARE/Sentieon/sentieon-genomics-202112.06/lib:$LD_LIBRARY_PATH'
 export SENTIEON_LICENSE='license.rc.hms.harvard.edu:8990'

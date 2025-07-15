@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-rabbit-4858
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-spoon-5778
+#FLUX: --urgency=16
 
 module load python/3.6.4_gcc5_np1.14.5
 module load cuda/9.0

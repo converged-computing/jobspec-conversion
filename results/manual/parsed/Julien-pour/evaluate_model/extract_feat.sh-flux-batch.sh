@@ -2,7 +2,7 @@
 #FLUX: --job-name=sft3b
 #FLUX: -c=16
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cpuarch/amd

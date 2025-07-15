@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="starAlign-log"
+#FLUX: --job-name=starAlign-log
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 cd $SLURM_SUBMIT_DIR

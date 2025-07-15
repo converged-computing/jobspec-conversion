@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="peg_real"
+#FLUX: --job-name=peg_real
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$HOME/.local/bin:$PATH'
 

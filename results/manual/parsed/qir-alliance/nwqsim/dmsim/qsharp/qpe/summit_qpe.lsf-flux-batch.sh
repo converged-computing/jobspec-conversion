@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-cattywampus-6137
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-diablo-9925
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/qir-alliance/nwqsim/dmsim/qsharp/qpe/summit_qpe.lsf

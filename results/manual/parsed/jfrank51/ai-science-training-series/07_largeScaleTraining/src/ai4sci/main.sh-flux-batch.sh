@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-butter-9747
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-pastry-1435
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jfrank51/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.sh

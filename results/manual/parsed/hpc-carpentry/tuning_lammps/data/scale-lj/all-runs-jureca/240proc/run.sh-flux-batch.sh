@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-egg-8595
+#FLUX: --job-name=fat-signal-6016
 #FLUX: -N=5
 #FLUX: --queue=devel
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /usr/local/software/jureca/OtherStages
 module load Stages/Devel-2019a

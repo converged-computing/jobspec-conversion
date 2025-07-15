@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-egg-6478
+#FLUX: --job-name=adorable-spoon-8027
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate cuda116

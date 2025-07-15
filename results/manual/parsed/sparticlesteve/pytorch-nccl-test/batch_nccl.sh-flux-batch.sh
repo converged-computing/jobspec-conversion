@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lettuce-8179
+#FLUX: --job-name=phat-destiny-3082
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 

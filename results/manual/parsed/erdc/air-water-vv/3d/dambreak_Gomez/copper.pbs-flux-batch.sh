@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-puppy-6120
-#FLUX: --priority=16
+#FLUX: --job-name=salted-poodle-4991
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/erdc/air-water-vv/3d/dambreak_Gomez/copper.pbs

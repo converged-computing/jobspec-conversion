@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-noodle-0676
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-hobbit-1288
+#FLUX: --urgency=16
 
 export EXE='run_ytopt.py'
 export COMMS='--comms local'

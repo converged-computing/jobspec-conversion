@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="viro_wt"
+#FLUX: --job-name=viro_wt
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SLURM_CPUS_PER_TASK=20
 cd 04_eq_gamd/

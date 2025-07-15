@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="yolov3-voc-lin-5"
+#FLUX: --job-name=yolov3-voc-lin-5
 #FLUX: -c=16
-#FLUX: --queue=dgx --qos=normal
-#FLUX: --priority=16
+#FLUX: --queue=dgx
+#FLUX: --urgency=16
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST

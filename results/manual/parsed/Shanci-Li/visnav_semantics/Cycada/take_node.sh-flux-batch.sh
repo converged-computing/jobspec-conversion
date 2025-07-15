@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-fudge-2706
+#FLUX: --job-name=rainbow-hippo-5139
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$(pwd)/install/lib:$(pwd)/install/lib64'
 

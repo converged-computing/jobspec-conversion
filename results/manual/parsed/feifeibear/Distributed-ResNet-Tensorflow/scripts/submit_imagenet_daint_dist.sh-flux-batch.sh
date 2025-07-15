@@ -2,7 +2,7 @@
 #FLUX: --job-name=imagenet
 #FLUX: -N=9
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORKON_HOME='~/Envs'
 export WORK_DIR='`pwd`/..'

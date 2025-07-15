@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pipeline_sc
 #FLUX: --queue=mediumq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 source /mnt/beegfs/software/conda/etc/profile.d/conda.sh

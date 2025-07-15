@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pot-8944
+#FLUX: --job-name=crunchy-gato-2072
 #FLUX: -N=3
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MV2_ENABLE_AFFINITY='0'
 

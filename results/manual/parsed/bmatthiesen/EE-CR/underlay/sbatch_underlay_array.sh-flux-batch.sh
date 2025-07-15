@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-nunchucks-8029
+#FLUX: --job-name=gassy-cherry-3798
 #FLUX: -t=172799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UNDERLAY_HPC_SAVEDIR='/scratch/p_mimo/bho/underlay_OOBIF-2'
 export UNDERLAY_WP_SUFFIX='_PIF1=-10dBW_d1=1000m_PIF2=-30dBW_d2=600m'

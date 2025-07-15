@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-despacito-6997
+#FLUX: --job-name=hairy-hobbit-9766
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export THEANO_FLAGS='floatX=float64'
 

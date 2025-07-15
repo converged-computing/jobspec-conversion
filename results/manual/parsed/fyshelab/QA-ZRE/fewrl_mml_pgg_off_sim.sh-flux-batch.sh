@@ -2,7 +2,7 @@
 #FLUX: --job-name=mml-pgg-off-sim
 #FLUX: -c=3
 #FLUX: -t=240
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_BLOCKING_WAIT='1  #Set this environment variable if you wish to use the NCCL backend for inter-GPU communication.'
 export MASTER_ADDR='$(hostname) #Store the master node’s IP address in the MASTER_ADDR environment variable.'

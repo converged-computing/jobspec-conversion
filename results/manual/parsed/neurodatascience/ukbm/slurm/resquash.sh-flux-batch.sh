@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-dog-2779
+#FLUX: --job-name=stanky-lemon-2199
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 helpstr="$(basename "$0") [-h] [-p] [-j dataset_description.json] subject_list singularity_img output_dir topdir squashfs - Re-squashes the input SquashFS files without the subjects listed
 where:

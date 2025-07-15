@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ISIC
 #FLUX: --queue=prod
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3
 if [ "$SLURM_ARRAY_TASK_ID" -eq "1" ]; then

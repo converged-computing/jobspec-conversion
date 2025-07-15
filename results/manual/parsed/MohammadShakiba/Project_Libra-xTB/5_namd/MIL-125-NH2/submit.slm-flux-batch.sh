@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-parsnip-2403
-#FLUX: --queue=valhalla  --qos=valhalla
+#FLUX: --job-name=psycho-earthworm-5780
+#FLUX: --queue=valhalla
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST="$SLURM_JOB_NODELIST

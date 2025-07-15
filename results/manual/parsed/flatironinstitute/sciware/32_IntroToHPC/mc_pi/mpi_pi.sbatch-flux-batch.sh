@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-salad-1522
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-egg-8421
+#FLUX: --urgency=16
 
 echo $SLURM_JOBID
 source load_env.sh

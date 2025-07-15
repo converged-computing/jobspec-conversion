@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-leopard-7663
+#FLUX: --job-name=fuzzy-cat-1032
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

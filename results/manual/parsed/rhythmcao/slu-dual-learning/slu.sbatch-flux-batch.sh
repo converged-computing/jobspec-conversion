@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=SLU
 #FLUX: --queue=2080ti
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dataset=(atis snips)
 ratio=(0.05 0.1 1.0)

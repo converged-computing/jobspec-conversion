@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-caramel-4137
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-salad-3171
+#FLUX: --urgency=16
 
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'
 export ROCFFT_RTC_CACHE_PATH='/dev/null'

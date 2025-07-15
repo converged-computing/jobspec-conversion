@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-toaster-7149
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-cherry-8909
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='7'
 export RMG_NUM_THREADS='5'

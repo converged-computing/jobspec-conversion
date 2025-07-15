@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-parrot-9124
+#FLUX: --job-name=evasive-chair-5021
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export num_runs='10'
 export max_slices='8'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-punk-9798
+#FLUX: --job-name=bloated-sundae-3329
 #FLUX: -c=4
-#FLUX: --queue=default_partition --gres=gpu:0
-#FLUX: --priority=16
+#FLUX: --queue=default_partition
+#FLUX: --urgency=16
 
 set -e
 . /home/yy785/anaconda3/etc/profile.d/conda.sh

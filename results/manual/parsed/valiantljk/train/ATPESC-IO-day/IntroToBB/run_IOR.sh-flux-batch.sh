@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-fork-1993
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-omelette-8170
+#FLUX: --urgency=16
 
 DIR=$PWD
 TESTDIR=$DW_JOB_STRIPED

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chair-2069
+#FLUX: --job-name=eccentric-leg-7711
 #FLUX: -c=176
 #FLUX: --exclusive
 #FLUX: --queue=ml
 #FLUX: -t=7199
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GOMP_CPU_AFFINITY='0-175'
 export SCOREP_ENABLE_TRACING='1'

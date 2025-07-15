@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-peanut-butter-0832
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-poo-1825
+#FLUX: --urgency=16
 
 export PYTHONPATH='/adapt/nobackup/people/jacaraba/development/tensorflow-caney'
 

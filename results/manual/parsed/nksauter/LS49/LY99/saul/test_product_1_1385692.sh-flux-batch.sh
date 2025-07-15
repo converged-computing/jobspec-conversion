@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-signal-9933
-#FLUX: --priority=16
+#FLUX: --job-name=blank-gato-4843
+#FLUX: --urgency=16
 
 export WORK='$SCRATCH/adse13_249/LY99'
 export TRIAL='ly99sim'

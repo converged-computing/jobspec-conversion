@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="test"
+#FLUX: --job-name=test
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_DEPOT_PATH='$TMPDIR/.julia":"$TMPDIR/julia/local/share/julia":"$TMPDIR/julia/share/julia'
 

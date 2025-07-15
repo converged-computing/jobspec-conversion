@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-parrot-9779
+#FLUX: --job-name=chunky-caramel-3207
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 executable=../../gpu_offload.o
 matrix_size=$1

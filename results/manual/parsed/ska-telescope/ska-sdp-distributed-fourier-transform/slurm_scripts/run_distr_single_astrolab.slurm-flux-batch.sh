@@ -5,7 +5,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=astro-cpu
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DASK_CONFIG='${dask_config_path}'
 export PYTHONPATH='${project_path}:$PYTHONPATH'

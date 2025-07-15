@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="SphStokes_mtp"
+#FLUX: --job-name=SphStokes_mtp
 #FLUX: --queue=normal
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_HDF5_PATH='$HDF5_ROOT'
 export JULIA_CUDA_MEMORY_POOL='none'

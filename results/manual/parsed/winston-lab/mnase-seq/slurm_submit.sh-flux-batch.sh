@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-leg-2682
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-lemon-8561
+#FLUX: --urgency=16
 
 snakemake -p \
     -R `cat <(snakemake --lc --rerun-incomplete) \

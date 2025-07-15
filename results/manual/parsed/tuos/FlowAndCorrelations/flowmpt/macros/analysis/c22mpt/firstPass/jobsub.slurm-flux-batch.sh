@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-mango-4277
+#FLUX: --job-name=swampy-pancake-7156
 #FLUX: -t=244800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRAM_ARCH='slc7_amd64_gcc900'
 

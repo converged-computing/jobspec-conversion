@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-carrot-5332
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-malarkey-3944
+#FLUX: --urgency=16
 
 mkdir -p cluster_log
 snakefile="small_pipeline" #"QIAseq_pipeline"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-earthworm-3470
+#FLUX: --job-name=hairy-leg-3181
 #FLUX: -c=4
 #FLUX: --queue=isi
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$HOME/git-store/deep-textworld-student/python/:$PYTHONPATH'
 

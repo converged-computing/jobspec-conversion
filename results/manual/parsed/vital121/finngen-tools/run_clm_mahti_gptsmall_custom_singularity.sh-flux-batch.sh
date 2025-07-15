@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-poo-4988
+#FLUX: --job-name=frigid-squidward-6379
 #FLUX: -N=4
 #FLUX: --queue=gpumedium
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SING_IMAGE='/scratch/project_2004600/containers/latest.sif'
 export SING_FLAGS='$SING_FLAGS -B /appl/spack/v014/install-tree/gcc-4.8.5/pdsh-2.31-cdzt5w/bin/:/usr/local/sbin,$(pwd)/node_init.sh:/data/ --nv'

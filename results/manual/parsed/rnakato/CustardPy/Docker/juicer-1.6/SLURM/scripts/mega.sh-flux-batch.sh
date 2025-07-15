@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-bits-9218
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-poo-6352
+#FLUX: --urgency=16
 
 export TMPDIR='${tmpdir}'
 export LC_COLLATE='C'
@@ -296,14 +296,6 @@ then
 	fi
 	jid7=`sbatch <<- HICCUPS | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p ${long_queue}
-	#SBATCH -t 1440
-	#SBATCH -c 2
-	#SBATCH --ntasks=1
-	#SBATCH --mem-per-cpu=4G 
-	#SBATCH -o $logdir/hiccups-%j.out
-	#SBATCH -e $logdir/hiccups-%j.err
-	#SBATCH -J "${groupname}_hiccups"
 	${sbatchdepend}
 	${sbatch_req}
 	$load_java

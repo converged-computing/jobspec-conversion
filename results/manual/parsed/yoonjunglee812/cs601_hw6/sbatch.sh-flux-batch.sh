@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="CS 601.471/671 homework6 3.1.2"
+#FLUX: --job-name=CS 601.471/671 homework6 3.1.2
 #FLUX: -N=2
 #FLUX: --queue=mig_class
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda 
 source ~/.bashrc

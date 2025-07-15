@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lamp-6976
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-milkshake-0650
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UcarLab/ATAC-seq/bwaDirectory.sh

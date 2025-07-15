@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=har
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir /scratch/users/k1639346/ceoharyana.nic.in/Voter-List-2021/$SLURM_ARRAY_TASK_ID
 cd /scratch/users/k1639346/ceoharyana.nic.in/Voter-List-2021/$SLURM_ARRAY_TASK_ID

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pastry-6216
-#FLUX: --priority=16
+#FLUX: --job-name=angry-peanut-4977
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/glennklockwood/paraR/rhipe/wordcount-rhipe.qsub

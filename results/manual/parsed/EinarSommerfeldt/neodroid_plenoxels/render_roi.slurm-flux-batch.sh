@@ -2,7 +2,7 @@
 #FLUX: --job-name=render_roi
 #FLUX: --queue=GPUQ
 #FLUX: -t=2700
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "we are running from this directory: $SLURM_SUBMIT_DIR"
 echo "the name of the job is: $SLURM_JOB_NAME"

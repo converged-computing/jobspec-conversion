@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-pancake-1388
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-bits-7650
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='32'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

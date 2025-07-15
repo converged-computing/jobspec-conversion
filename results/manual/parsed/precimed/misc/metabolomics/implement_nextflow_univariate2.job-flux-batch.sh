@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gwas
 #FLUX: -t=346800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_OFFLINE='TRUE'
 

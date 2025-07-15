@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_baseline
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 localhost=$RANDOM

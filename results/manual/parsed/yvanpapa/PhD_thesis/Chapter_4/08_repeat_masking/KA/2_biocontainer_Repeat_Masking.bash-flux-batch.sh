@@ -3,7 +3,7 @@
 #FLUX: -c=48
 #FLUX: --queue=bigmem
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 threads=48
 module load singularity/3.5.2

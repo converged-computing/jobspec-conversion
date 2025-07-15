@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-earthworm-4236
+#FLUX: --job-name=gloopy-lamp-9696
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="BzBone00"
+#FLUX: --job-name=BzBone00
 #FLUX: --queue=trans
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo
 echo "============================ Messages from Goddess ============================"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-hope-6207
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-muffin-5884
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lsqshr/Neuveal/train.pbs

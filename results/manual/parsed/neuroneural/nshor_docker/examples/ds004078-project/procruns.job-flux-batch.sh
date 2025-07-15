@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lemur-5229
+#FLUX: --job-name=faux-motorcycle-3454
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sleep 5s
 module load singularity/3.10.2

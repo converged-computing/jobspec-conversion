@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-egg-5847
+#FLUX: --job-name=persnickety-animal-0959
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml purge  > /dev/null 2>&1 
 ml GCC/9.3.0  CUDA/11.0.2  OpenMPI/4.0.3

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-taco-9428
+#FLUX: --job-name=fugly-lemur-5739
 #FLUX: -n=32
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/jkimball/haasx092/AMOVA
 module load gcc/8.1.0

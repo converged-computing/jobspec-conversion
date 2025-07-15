@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=mice_grad_newsgroups_ # Όνομα για διαχωρισμό μεταξύ jobs
+#FLUX: --job-name=mice_grad_newsgroups_
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /users/pa21/ptzouv/tkaravangelis/mice_grad
 module purge

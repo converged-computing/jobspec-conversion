@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-signal-8112
-#FLUX: --priority=16
+#FLUX: --job-name=blank-banana-6996
+#FLUX: --urgency=16
 

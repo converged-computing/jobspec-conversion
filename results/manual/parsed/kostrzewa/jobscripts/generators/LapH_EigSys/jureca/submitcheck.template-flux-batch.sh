@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-bicycle-7355
+#FLUX: --job-name=strawberry-kitty-8077
 #FLUX: -N=4
 #FLUX: -c=4
 #FLUX: -t=3540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/homec/hbn28/hbn282/code/petsc/arch-linux2-c-opt/lib/:/homec/hbn28/hbn282/code/slepc/arch-linux2-c-opt/lib/'

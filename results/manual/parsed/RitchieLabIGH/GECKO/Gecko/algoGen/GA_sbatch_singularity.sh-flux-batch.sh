@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pastry-3617
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-puppy-9272
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'
 

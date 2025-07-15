@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=main
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 epochs=50
 cores=10

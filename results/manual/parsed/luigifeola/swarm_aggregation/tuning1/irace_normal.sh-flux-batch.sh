@@ -2,7 +2,7 @@
 #FLUX: --job-name=irace_tuning1_10
 #FLUX: --queue=long
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load releases/2020b
 module load Python/3.8.6-GCCcore-10.2.0

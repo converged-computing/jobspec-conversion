@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: --queue=normal
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ -n "$WANDB_DEPENDENCY" ]
 then

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-nunchucks-0019
+#FLUX: --job-name=dinosaur-hope-7820
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export COMMIT_HASH='$1'
 export WD='$2'

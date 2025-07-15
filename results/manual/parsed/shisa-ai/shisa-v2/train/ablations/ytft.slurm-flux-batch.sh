@@ -3,7 +3,7 @@
 #FLUX: -N=10
 #FLUX: --exclusive
 #FLUX: --queue=defq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_HUB_ENABLE_HF_TRANSFER='1 '
 export ACCELERATE_LOG_LEVEL='info '

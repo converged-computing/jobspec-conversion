@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-car-1310
+#FLUX: --job-name=swampy-leader-5615
 #FLUX: --queue=amdv100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.7.2
 module load CMake

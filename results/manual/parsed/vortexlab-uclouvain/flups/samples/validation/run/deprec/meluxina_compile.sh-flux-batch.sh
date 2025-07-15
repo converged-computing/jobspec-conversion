@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Flups Compilation"
+#FLUX: --job-name=Flups Compilation
 #FLUX: --queue=cpu
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ${MODULES} ${OMPIVERSION}
 cd ${H3LPR_DIR}

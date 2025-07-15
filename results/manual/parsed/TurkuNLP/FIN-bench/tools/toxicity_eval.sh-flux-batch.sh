@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=small-g
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='hsn'
 export CACHE_DIR='/scratch/project_462000185/risto/huggingface-t5-checkpoints/cache_dir/'

@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=alpaca
-#FLUX: --queue=express #partition info here: https://docs.rc.uab.edu/cheaha/hardware/#partitions
+#FLUX: --queue=express
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_PASSWORD='pass'
 export SINGULARITYENV_USER='jbarham3'

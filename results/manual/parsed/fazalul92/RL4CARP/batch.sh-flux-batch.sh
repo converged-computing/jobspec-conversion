@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-hobbit-1339
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-destiny-1632
+#FLUX: --urgency=16
 
 spack env activate ml-geo-20070801
 echo " (${HOSTNAME}) Job Running..."

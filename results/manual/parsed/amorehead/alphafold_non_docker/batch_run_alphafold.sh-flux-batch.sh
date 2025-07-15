@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-banana-0077
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-general-8192
+#FLUX: --urgency=16
 
 export MINICONDA_DIR='/home/"$USER"/miniconda3'
 export PROJ_DIR='/home/"$USER"/alphafold_non_docker'

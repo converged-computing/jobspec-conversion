@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-banana-1270
+#FLUX: --job-name=swampy-arm-8441
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_CXI_DEFAULT_VNI='$(od -vAn -N4 -tu < /dev/urandom)'
 

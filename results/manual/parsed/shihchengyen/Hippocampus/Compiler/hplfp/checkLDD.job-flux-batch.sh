@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-sundae-2228
-#FLUX: --priority=16
+#FLUX: --job-name=red-house-3608
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/shihchengyen/Hippocampus/Compiler/hplfp/checkLDD.job

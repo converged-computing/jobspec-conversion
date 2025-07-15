@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-soup-3086
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-lemur-0734
+#FLUX: --urgency=16
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'
 export HOROVOD_CUDA_INCLUDE='$CUDA_HOME/include'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lemur-6803
+#FLUX: --job-name=angry-salad-6640
 #FLUX: --queue=gpu
 #FLUX: -t=11700
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.3.0

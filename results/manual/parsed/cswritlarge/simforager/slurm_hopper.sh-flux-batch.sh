@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=general
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GASNET_MAX_SEGSIZE='128MB/P'
 export UPCXX='/opt/spack/opt/spack/linux-rocky8-cascadelake/gcc-12.1.0/upcxx-2020.10.0-6eh2prmiaolqfqinq4wjbb5by6z2phw6/bin/upcxx'

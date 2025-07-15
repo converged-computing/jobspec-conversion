@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-itch-1799
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-pedo-9324
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cdglissov/recurrent-flows-msc/VRNN/job_vrnn.sh

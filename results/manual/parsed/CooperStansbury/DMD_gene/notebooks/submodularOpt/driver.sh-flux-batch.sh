@@ -2,7 +2,7 @@
 #FLUX: --job-name=soss2015
 #FLUX: --queue=standard
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab
 echo $1

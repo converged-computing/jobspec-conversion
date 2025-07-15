@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-hobbit-5509
+#FLUX: --job-name=spicy-cinnamonbun-0788
 #FLUX: -N=4
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload nvidia/cuda/10.0
 module load nvidia/cuda/10.2

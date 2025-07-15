@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-banana-7715
+#FLUX: --job-name=delicious-buttface-4698
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

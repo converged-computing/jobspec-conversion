@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-poo-0863
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-cinnamonbun-8682
+#FLUX: --urgency=16
 
 module load cuda/12.2.2  gcc/10.2   
 nvidia-smi

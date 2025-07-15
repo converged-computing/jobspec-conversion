@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-knife-4920
+#FLUX: --job-name=lovable-animal-3634
 #FLUX: -t=4320
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/R-4.1.0-MKL'
 

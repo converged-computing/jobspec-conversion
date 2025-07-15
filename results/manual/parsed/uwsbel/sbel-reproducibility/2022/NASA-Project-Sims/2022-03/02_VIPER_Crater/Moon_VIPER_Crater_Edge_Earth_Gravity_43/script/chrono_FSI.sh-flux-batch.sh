@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-platanos-5406
+#FLUX: --job-name=placid-blackbean-5163
 #FLUX: --queue=sbel
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nvidia/cuda/11.3.1
 mkdir ./DEMO_OUTPUT/FSI_VIPER/Rover_rock_43/script

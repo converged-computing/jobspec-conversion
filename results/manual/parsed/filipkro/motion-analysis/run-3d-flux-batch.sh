@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-leader-9622
-#FLUX: --priority=16
+#FLUX: --job-name=blue-salad-6128
+#FLUX: --urgency=16
 
 cp -r $HOME/motion-analysis $TMPDIR
 cp -r $HOME/data-3d $TMPDIR

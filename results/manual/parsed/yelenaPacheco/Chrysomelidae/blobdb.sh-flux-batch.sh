@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lentil-3270
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-itch-0919
+#FLUX: --urgency=16
 
 name1="N_clydesmithi"
 t1=$(date +"%s")

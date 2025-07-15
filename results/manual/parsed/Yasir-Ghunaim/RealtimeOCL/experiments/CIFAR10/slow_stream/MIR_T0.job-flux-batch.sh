@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-milkshake-8071
+#FLUX: --job-name=purple-rabbit-6341
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.1.0

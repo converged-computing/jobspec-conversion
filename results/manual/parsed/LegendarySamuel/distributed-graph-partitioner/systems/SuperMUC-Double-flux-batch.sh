@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-caramel-4207
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-destiny-3182
+#FLUX: --urgency=16
 
 . "$script_pwd/../systems/generic"
 SUPERMUC_OPENMPI_VERSION="4.1.5-gcc12"

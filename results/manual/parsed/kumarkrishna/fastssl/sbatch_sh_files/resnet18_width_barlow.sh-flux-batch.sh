@@ -2,7 +2,7 @@
 #FLUX: --job-name=resnet18_width_barlowtwins
 #FLUX: --queue=long
 #FLUX: -t=16200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile
 module load anaconda/3

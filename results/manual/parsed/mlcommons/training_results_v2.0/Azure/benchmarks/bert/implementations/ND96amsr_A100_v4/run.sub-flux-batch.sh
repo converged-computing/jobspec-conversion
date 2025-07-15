@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pastry-3440
+#FLUX: --job-name=angry-egg-8687
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MAX_STEPS='100'
 export NCCL_ALGO='RING'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=MeasureVessels
 #FLUX: --queue=normal
 #FLUX: -t=12600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MCR_CACHE_ROOT='$mcr_cache_root'
 

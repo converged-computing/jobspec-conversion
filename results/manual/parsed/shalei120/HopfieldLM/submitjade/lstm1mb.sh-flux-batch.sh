@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=HopfieldLM
 #FLUX: --queue=small
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/9.2
 echo $CUDA_VISIBLE_DEVICES

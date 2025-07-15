@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="rfm_Cp2k_H2O_256_4_job"
+#FLUX: --job-name=rfm_Cp2k_H2O_256_4_job
 #FLUX: -n=64
 #FLUX: --exclusive
 #FLUX: --queue=hpc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_MPI_TYPE='pmix_v3'
 

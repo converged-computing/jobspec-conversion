@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-peanut-3395
+#FLUX: --job-name=reclusive-soup-0775
 #FLUX: --queue=overflow
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /labs/hulab/stark_conda/bin/activate
 conda activate base_pytorch

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-staircase-0325
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-lemon-7283
+#FLUX: --urgency=16
 
 export SINGULARITY_TMPDIR='/tmp'
 

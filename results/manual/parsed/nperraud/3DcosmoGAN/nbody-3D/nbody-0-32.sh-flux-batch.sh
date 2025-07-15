@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-squidward-8089
+#FLUX: --job-name=creamy-frito-0562
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 module load cray-python

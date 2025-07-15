@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-eagle-3726
-#FLUX: --priority=16
+#FLUX: --job-name=milky-parsnip-6132
+#FLUX: --urgency=16
 
 source /home/mcgaughs/rmoran/miniconda3/etc/profile.d/conda.sh
 conda activate diplo

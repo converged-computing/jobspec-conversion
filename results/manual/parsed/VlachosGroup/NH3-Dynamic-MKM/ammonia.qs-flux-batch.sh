@@ -2,7 +2,7 @@
 #FLUX: --job-name=amm_01
 #FLUX: --queue=ccei_biomass
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /opt/shared/slurm/templates/libexec/openmp.sh
 vpkg_require matlab/r2020b

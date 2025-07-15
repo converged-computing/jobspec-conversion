@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-fork-2974
+#FLUX: --job-name=hello-pastry-7319
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [[ "$SLURM_JOBID" != "" ]]; then
     module purge

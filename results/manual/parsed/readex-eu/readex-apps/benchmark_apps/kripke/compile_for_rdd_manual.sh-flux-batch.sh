@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-parrot-2155
+#FLUX: --job-name=buttery-carrot-0555
 #FLUX: -c=24
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CXX='scorep --online-access --user --mpp=mpi --thread=none --nomemory --nocompiler $READEX_CXX'
 

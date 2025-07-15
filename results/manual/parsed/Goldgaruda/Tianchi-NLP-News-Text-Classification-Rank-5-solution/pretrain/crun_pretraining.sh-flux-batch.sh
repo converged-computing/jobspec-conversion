@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lemon-7177
-#FLUX: --priority=16
+#FLUX: --job-name=purple-despacito-0682
+#FLUX: --urgency=16
 
 module purge
 source ~/.bashrc

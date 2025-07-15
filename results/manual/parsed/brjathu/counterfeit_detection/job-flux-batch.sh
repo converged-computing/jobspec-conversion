@@ -2,7 +2,7 @@
 #FLUX: --job-name=en_cs
 #FLUX: -c=4
 #FLUX: -t=86100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load tensorflow/1.3.0-py36-gpu
 module load python/3.6.13

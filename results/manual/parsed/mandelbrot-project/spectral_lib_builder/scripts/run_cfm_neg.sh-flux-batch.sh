@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-puppy-1166
+#FLUX: --job-name=psycho-car-2629
 #FLUX: --queue=public-cpu
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml GCC/9.3.0 Singularity/3.7.3-Go-1.14
 printf -v FILE_INDEX "%04d" ${SLURM_ARRAY_TASK_ID}

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-hobbit-1093
+#FLUX: --job-name=reclusive-spoon-1151
 #FLUX: --queue=parallel
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module load mvapich2

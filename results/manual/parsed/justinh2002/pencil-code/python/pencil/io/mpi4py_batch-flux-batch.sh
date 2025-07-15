@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bike-0829
+#FLUX: --job-name=placid-hobbit-7960
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$USERAPPL/appl_taito/myconda3/bin:$PATH'
 export PYTHONPATH='$PYTHONPATH:$PENCIL_HOME/python'

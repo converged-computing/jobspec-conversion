@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bike-8329
+#FLUX: --job-name=chunky-peas-6931
 #FLUX: -N=16
 #FLUX: -n=16
 #FLUX: --exclusive
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module purge

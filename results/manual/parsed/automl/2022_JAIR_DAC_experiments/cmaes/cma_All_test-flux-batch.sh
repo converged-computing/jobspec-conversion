@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-nunchucks-6960
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-avocado-4078
+#FLUX: --urgency=16
 
 export TF_XLA_FLAGS='--tf_xla_cpu_global_jit'
 

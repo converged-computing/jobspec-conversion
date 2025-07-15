@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-banana-7380
+#FLUX: --job-name=outstanding-lemon-7766
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml purge > /dev/null 2>&1
 ml GCC/9.3.0  CUDA/11.0.2  OpenMPI/4.0.3

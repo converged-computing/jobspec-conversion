@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hope-7182
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-leg-8102
+#FLUX: --urgency=16
 
 python task_a.py \
     --mode text_to_image \

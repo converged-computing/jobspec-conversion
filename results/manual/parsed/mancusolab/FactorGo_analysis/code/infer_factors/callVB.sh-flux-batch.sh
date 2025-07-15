@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-underoos-0138
+#FLUX: --job-name=pusheena-hobbit-3021
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CC='`which gcc`'
 export OBJCC='`which gcc`'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-nunchucks-8664
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-eagle-5968
+#FLUX: --urgency=16
 
 cd /gpfs/terra/export/samba/gis/holgerv/river_quality/scripts/grqa_processing
 module purge

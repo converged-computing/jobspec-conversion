@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-leopard-4532
+#FLUX: --job-name=doopy-cinnamonbun-0902
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 udocker=/uufs/chpc.utah.edu/common/HIPAA/u0028003/BioApps/UDocker/udocker-1.1.1/udocker
 mount=/scratch/mammoth/serial/u0028003/

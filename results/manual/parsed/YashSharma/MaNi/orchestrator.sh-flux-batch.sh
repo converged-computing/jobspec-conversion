@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-carrot-1711
+#FLUX: --job-name=fugly-itch-2018
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3
 source activate pytorch_yash

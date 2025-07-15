@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="3D_porous_convection"
+#FLUX: --job-name=3D_porous_convection
 #FLUX: -N=8
 #FLUX: --queue=normal
 #FLUX: -t=25200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_RDMA_ENABLED_CUDA='1'
 export IGG_CUDAAWARE_MPI='1'

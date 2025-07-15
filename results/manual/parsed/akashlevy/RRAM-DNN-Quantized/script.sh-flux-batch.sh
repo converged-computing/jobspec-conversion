@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-dog-3456
+#FLUX: --job-name=swampy-general-6617
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml python/3.6.1
 ml py-tensorflow/2.4.1_py36

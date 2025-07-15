@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mask
 #FLUX: --queue=nocona
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/10.1.0 bedtools2/2.29.2
 RMPATH=/lustre/work/daray/software/RepeatMasker-4.1.0/util

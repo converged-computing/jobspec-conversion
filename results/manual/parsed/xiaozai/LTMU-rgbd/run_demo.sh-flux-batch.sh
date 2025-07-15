@@ -2,9 +2,9 @@
 #FLUX: --job-name=LTMU
 #FLUX: -n=2
 #FLUX: -c=2
-#FLUX: --queue=gpu --gres=gpu:teslav100:1
+#FLUX: --queue=gpu
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CUDA/10.0
 module load fgci-common

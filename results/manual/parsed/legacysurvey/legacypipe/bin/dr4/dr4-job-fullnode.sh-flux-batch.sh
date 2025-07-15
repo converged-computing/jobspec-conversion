@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peas-0909
-#FLUX: --priority=16
+#FLUX: --job-name=salted-pot-0625
+#FLUX: --urgency=16
 
 export outdir='/scratch1/scratchdirs/desiproc/DRs/data-releases/dr4'
 export statdir='${outdir}/progress'

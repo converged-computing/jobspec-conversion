@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-toaster-3205
+#FLUX: --job-name=adorable-dog-0820
 #FLUX: -c=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/2-4.1.1

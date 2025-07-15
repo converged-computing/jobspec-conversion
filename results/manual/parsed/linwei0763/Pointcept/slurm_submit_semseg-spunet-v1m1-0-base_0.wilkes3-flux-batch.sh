@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-poodle-2532
+#FLUX: --job-name=salted-chip-8117
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='${CUDA_VISIBLE_DEVICES}'
 export OMP_NUM_THREADS='1'

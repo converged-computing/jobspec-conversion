@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-motorcycle-4667
-#FLUX: --priority=16
+#FLUX: --job-name=faux-noodle-8902
+#FLUX: --urgency=16
 
 export GROMACSINSTALLDIR='/home/$USER/gromacs-2019.3/install'
 export GROMACSTESTCASEDIR='/home/$USER/gromacs_testcase'

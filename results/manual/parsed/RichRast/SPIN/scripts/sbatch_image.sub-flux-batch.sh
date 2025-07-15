@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-leopard-7074
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-taco-7432
+#FLUX: --urgency=16
 
 source /home/rr568/NPT/non-parametric-transformers/scripts/init_env.sh
 echo 'Begin npt'

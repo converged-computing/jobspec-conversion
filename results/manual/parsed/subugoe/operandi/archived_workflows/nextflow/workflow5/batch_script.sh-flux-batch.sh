@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pedo-9217
+#FLUX: --job-name=wobbly-fork-3026
 #FLUX: -c=4
 #FLUX: --queue=medium
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load singularity # loads "git" and "go" as well

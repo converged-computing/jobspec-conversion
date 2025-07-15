@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-pot-9633
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-arm-9510
+#FLUX: --urgency=16
 
 module load compiles/intel/2019/u4/config
 module load lib/gcc/9.2.0/config

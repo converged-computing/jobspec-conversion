@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-kerfuffle-7557
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-citrus-3100
+#FLUX: --urgency=16
 
 module load cuda/75/blas/7.5.18
 module load cuda/75/fft/7.5.18

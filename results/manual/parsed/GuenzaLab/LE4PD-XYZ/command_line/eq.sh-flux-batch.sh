@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="eq"
-#FLUX: --priority=16
+#FLUX: --job-name=eq
+#FLUX: --urgency=16
 
 BD=`cat BD.txt`
 protname=`cat ${BD}/em/protname.txt`

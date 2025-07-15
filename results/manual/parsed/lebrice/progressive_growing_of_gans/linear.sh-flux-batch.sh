@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-carrot-7579
+#FLUX: --job-name=crusty-puppy-8988
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/IFT6085/progressive_growing_of_gans
 source ~/miniconda3/bin/activate

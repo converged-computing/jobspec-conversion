@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Eval$1$2$3
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /dcsrsoft/spack/bin/setup_dcsrsoft
 module load gcc/9.3.0 r/4.0.5

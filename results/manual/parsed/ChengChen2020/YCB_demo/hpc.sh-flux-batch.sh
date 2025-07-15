@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ycb_demo
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /scratch/$USER/YCB_demo
 module purge

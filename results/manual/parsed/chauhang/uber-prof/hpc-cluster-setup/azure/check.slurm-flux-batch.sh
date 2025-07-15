@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-bits-6549
+#FLUX: --job-name=bricky-puppy-8695
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_IB_PCI_RELAXED_ORDERING='on \'
 export OMPI_MCA_pml='ucx'

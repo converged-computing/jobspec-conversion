@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=moses-e2e
 #FLUX: -t=64860
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -ex
 FIRST_STEP=4

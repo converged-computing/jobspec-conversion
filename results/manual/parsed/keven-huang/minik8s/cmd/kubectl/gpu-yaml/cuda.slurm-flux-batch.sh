@@ -2,7 +2,7 @@
 #FLUX: --job-name=cublas
 #FLUX: -c=6
 #FLUX: --queue=dgx2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ulimit -s unlimited
 ulimit -l unlimited

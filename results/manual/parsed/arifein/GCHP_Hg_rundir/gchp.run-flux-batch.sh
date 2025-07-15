@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-puppy-0625
-#FLUX: --priority=16
+#FLUX: --job-name=hello-pedo-0101
+#FLUX: --urgency=16
 
 log="gchp.log"
 source runConfig.sh > ${log}

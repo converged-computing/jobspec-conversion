@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-leader-6988
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-parsnip-3892
+#FLUX: --urgency=16
 
 param0="1.25"
 record_odf="1"

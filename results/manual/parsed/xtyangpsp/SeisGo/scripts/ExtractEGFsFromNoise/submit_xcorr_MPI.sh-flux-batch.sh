@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-blackbean-5558
-#FLUX: --priority=16
+#FLUX: --job-name=phat-bicycle-1429
+#FLUX: --urgency=16
 
 module load rcac
 module use /depot/xtyang/etc/modules

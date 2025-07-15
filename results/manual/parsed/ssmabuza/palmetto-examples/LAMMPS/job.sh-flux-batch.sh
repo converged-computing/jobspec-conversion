@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hippo-8436
-#FLUX: --priority=16
+#FLUX: --job-name=purple-earthworm-3061
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ssmabuza/palmetto-examples/LAMMPS/job.sh

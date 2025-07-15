@@ -2,7 +2,7 @@
 #FLUX: --job-name=small-satellite
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${node_thread}'
 export OMP_PLACES='threads'

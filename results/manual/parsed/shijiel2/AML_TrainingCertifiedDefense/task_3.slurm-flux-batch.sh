@@ -3,7 +3,7 @@
 #FLUX: -c=24
 #FLUX: --queue=shortgpgpu
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Loading required modules"
 module load fosscuda/2020b

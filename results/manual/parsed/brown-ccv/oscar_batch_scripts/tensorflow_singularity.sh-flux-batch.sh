@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-fork-5136
+#FLUX: --job-name=faux-lemon-3174
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='/gpfs/scratch,/gpfs/data'
 

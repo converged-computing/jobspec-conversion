@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-nalgas-2760
-#FLUX: --priority=16
+#FLUX: --job-name=angry-pancake-3305
+#FLUX: --urgency=16
 
 export CRAY_ACCEL_TARGET='nvidia80'
 export AMREX_CUDA_ARCH='8.0'

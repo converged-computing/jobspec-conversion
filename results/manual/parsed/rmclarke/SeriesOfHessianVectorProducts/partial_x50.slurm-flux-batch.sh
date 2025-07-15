@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-truffle-2729
+#FLUX: --job-name=fat-hope-9810
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TUNE_MAX_PENDING_TRIALS_PG='32'
 export XLA_PYTHON_CLIENT_PREALLOCATE='false'

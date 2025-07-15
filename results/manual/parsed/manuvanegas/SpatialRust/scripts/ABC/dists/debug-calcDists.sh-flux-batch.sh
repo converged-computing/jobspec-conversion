@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-despacito-6994
+#FLUX: --job-name=loopy-lamp-8840
 #FLUX: -n=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-rabbit-2558
-#FLUX: --priority=16
+#FLUX: --job-name=blue-punk-5551
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/raphael-susewind/india-religion-politics/maharolls2014/run-in-arc/run1.sh

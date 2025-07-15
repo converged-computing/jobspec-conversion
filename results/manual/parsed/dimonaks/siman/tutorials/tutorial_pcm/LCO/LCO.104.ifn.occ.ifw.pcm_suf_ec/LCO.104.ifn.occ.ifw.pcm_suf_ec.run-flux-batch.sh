@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-sundae-9701
-#FLUX: --priority=16
+#FLUX: --job-name=salted-pot-0908
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home/a.boev/tools/'
 

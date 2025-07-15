@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-chip-1792
+#FLUX: --job-name=stinky-parrot-2501
 #FLUX: --queue=hbfraser,hns,normal
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3
 source activate fraserconda

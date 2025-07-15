@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-signal-2807
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-pot-7597
+#FLUX: --urgency=16
 
 export CXX='g++'
 export BOOST_INCLUDE='/cluster/tufts/lamontagnelab/byarla01/libs/boost_1_67_0'

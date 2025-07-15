@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cherry-3797
+#FLUX: --job-name=reclusive-fudge-6390
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun julia fakey.jl $SLURM_ARRAY_TASK_ID 1 1 "linear"

@@ -4,7 +4,7 @@
 #FLUX: -c=10
 #FLUX: --queue=defq
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load openmpi/4.1.5-gcc-11.2.0-ux65npg
 allocated_nodes_info=$(scontrol show job "$SLURM_JOBID" | grep -E "NodeCnt=|CPUTasksPerNode=|ReqNodeList=")

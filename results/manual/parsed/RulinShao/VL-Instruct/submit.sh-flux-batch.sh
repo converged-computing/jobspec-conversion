@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=train
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='/projects/nlp_lab/zhiyang/.cache/'
 

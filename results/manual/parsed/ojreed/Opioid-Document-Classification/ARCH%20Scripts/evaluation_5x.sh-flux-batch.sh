@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=a100
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=c16g
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 set -u

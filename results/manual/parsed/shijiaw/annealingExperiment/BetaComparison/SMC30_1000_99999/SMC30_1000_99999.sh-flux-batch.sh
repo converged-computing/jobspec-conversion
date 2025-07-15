@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-house-5084
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-bits-6771
+#FLUX: --urgency=16
 
 module load r/3.4.0
 module load java/1.8.0_121

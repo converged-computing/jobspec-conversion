@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=orca_run
 #FLUX: --queue=intel
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODULEPATH='/opt/easybuild/modules/all'
 export OMP_NUM_THREADS='4'

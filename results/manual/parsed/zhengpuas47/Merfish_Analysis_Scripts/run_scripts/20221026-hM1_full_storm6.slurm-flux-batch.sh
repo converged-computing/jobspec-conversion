@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-mango-7012
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-hobbit-4222
+#FLUX: --urgency=16
 
 export PATH='/n/home13/pzheng/anaconda3/bin:$PATH'
 

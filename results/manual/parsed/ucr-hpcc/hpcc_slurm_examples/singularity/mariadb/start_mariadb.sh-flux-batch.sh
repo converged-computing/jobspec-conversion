@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-earthworm-8463
+#FLUX: --job-name=blue-citrus-4439
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 cd ~/bigdata/mysql/

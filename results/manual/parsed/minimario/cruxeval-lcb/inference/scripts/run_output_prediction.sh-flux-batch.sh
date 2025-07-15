@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-fork-7600
+#FLUX: --job-name=pusheena-nunchucks-0514
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=learnlab
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dirs=(
     # "codellama-7b"

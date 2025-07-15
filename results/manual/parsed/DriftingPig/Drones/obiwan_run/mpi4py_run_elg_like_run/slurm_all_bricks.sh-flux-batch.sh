@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-nunchucks-7318
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-egg-4668
+#FLUX: --urgency=16
 
 export name_for_run='elg_like_run'
 export randoms_db='None #run from a fits file'

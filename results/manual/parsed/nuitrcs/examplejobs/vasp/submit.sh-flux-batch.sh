@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=vasp-openmpi-slurm
 #FLUX: -n=48
-#FLUX: --queue=all  ### PARTITION (buyin, short, normal, etc)
+#FLUX: --queue=all
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

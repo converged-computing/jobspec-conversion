@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-staircase-6617
+#FLUX: --job-name=bumfuzzled-cupcake-3710
 #FLUX: -c=16
 #FLUX: --queue=gpu-mono
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MODELPATH=/tmp-network/project/fashion/models/crossmodal_retrieval/MSCoco_liwei
 DB=MSCoco_liwei_train

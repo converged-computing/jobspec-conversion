@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leg-1171
+#FLUX: --job-name=frigid-leg-6934
 #FLUX: --queue=XAS
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_DEBUG='3'
 export NODEFILE='$runhm/hfile.txt.$$'

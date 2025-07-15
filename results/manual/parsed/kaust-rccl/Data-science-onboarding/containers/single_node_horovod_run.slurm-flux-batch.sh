@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-kerfuffle-6435
+#FLUX: --job-name=red-lizard-6662
 #FLUX: -n=4
 #FLUX: -c=8
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IMAGE='$PWD/horovod.sif'
 

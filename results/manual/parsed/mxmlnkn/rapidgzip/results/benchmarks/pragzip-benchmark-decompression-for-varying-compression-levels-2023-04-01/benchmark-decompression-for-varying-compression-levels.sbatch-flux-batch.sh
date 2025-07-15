@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-arm-4124
+#FLUX: --job-name=ornery-noodle-6960
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load CMake Ninja Clang NASM hwloc bzip2

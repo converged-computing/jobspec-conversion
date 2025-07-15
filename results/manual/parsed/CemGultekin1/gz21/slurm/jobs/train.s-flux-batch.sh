@@ -2,7 +2,7 @@
 #FLUX: --job-name=train
 #FLUX: -c=8
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "$(date)"
 module purge

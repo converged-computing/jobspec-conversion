@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-underoos-5159
+#FLUX: --job-name=evasive-nalgas-2275
 #FLUX: --queue=sbel
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/9.2.0
 module load cmake/3.18.1

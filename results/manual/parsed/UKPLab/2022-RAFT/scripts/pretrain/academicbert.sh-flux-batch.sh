@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-platanos-8750
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-soup-5347
+#FLUX: --urgency=16
 
 export CXX='g++'
 export CUDA_LAUNCH_BLOCKING='1'

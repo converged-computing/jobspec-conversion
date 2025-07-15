@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cinnamonbun-4524
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-lentil-5925
+#FLUX: --urgency=16
 
 module load singularity
 module load adoptopenjdk

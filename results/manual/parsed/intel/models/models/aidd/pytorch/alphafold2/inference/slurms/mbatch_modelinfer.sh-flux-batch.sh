@@ -2,7 +2,7 @@
 #FLUX: --job-name=diaf2dl
 #FLUX: --exclusive
 #FLUX: --queue=64c512g
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "### model inference on multi nodes"
 echo "----"

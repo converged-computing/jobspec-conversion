@@ -2,7 +2,7 @@
 #FLUX: --job-name=multiPatch_vicreg_sweep
 #FLUX: --queue=long
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile
 module load anaconda/3

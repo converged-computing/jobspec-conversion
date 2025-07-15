@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pot-4611
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-car-3168
+#FLUX: --urgency=16
 
 module unload cuda
 echo "==== Start of GPU information ===="

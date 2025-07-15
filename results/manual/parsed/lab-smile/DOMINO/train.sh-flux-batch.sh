@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=hpg-ai
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 singularity exec --nv <Enter path to MONAI container>/monaicore081 python3 -c "import torch; print(torch.cuda.is_available())"

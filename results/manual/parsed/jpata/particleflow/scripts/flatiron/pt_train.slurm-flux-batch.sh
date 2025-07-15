@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-fork-0410
+#FLUX: --job-name=fugly-motorcycle-0174
 #FLUX: -c=64
 #FLUX: --gpus-per-task=4
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "#################### Job submission script. #############################"
 cat $0

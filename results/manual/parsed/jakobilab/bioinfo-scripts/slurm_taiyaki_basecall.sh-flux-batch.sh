@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-chip-2752
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-milkshake-3364
+#FLUX: --urgency=16
 
 echo "==== Start of GPU information ===="
 CUDA_DEVICE=$(echo "$CUDA_VISIBLE_DEVICES," | cut -d',' -f $((SLURM_LOCALID + 1)) );

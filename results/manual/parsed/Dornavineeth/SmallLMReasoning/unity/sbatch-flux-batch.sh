@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=phi-2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load miniconda/22.11.1-1
 conda activate harness

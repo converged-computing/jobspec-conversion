@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lemur-1551
-#FLUX: --queue=# set partition name
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-train-2299
+#FLUX: --queue=
+#FLUX: --urgency=16
 
 TORCH_DISTRIBUTED_DEBUG=INFO
 singularity exec --pwd $(pwd) --nv \

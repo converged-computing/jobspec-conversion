@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-knife-6934
+#FLUX: --job-name=rainbow-cat-6114
 #FLUX: -n=50
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PATH='$PATH:/mnt/nfs/home/nbl21/nufeb/code/lammps5Nov16/src'

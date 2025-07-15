@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=certify_infer_minmax
 #FLUX: -t=172740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PATCH_SIZE=$1
 PATCH_STRIDE=$2

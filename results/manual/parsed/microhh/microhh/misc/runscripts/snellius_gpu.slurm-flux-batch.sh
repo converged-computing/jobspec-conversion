@@ -2,7 +2,7 @@
 #FLUX: --job-name=rico
 #FLUX: -c=18
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2021

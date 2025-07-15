@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bits-6902
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-eagle-6119
+#FLUX: --urgency=16
 

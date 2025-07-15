@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-nalgas-9723
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-destiny-1113
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fpled/MYCODE/examples/multiscale/multiscaleDetTransientLinAdvDiffReac.pbs

@@ -3,7 +3,7 @@
 #FLUX: -n=24
 #FLUX: --queue=sgpu-testing
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ​
 ​module purge

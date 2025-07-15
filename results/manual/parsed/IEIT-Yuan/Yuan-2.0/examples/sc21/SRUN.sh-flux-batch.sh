@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-chip-3880
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-arm-8568
+#FLUX: --exclusive
+#FLUX: --urgency=16
 
 THIS_DIR=`pwd`
 DATETIME=`date +'date_%y-%m-%d_time_%H-%M-%S'`

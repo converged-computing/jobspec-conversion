@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-muffin-7983
-#FLUX: --priority=16
+#FLUX: --job-name=confused-chip-1378
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brchn6/ML_Project/pyScripts/BarModels/bsub/getjupitryenv.sh

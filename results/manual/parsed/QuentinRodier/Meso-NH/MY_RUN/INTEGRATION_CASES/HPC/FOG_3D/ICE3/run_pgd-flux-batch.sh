@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bike-3806
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-nalgas-3373
+#FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 1'
 

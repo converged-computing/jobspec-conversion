@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-signal-2883
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-leader-3632
+#FLUX: --urgency=16
 
 eval "$(/opt/app/conda/bin/conda shell.bash hook)"
 module load app/cuda/10.1

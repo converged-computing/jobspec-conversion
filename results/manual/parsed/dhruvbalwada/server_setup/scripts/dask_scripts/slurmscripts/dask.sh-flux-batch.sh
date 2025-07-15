@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-omelette-9037
+#FLUX: --job-name=muffled-house-3726
 #FLUX: --exclusive
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

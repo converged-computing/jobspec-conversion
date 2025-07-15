@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-motorcycle-5919
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-leopard-7692
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/vol/bitbucket/${USER}/individual-project-refined/venv/lib/python3.10/site-packages/nvidia/cublas/lib:${LD_LIBRARY_PATH}'
 export PATH='/vol/bitbucket/${USER}/individual-project-refined/venv/bin/:$PATH'

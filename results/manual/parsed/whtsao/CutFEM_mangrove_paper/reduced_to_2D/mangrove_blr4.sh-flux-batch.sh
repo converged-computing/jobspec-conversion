@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-noodle-8409
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-ricecake-6086
+#FLUX: --urgency=16
 
 date
 module purge

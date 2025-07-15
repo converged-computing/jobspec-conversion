@@ -2,7 +2,7 @@
 #FLUX: --job-name=my-workload
 #FLUX: -N=5
 #FLUX: -n=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$tmpdir'
 export RAY_TMPDIR='$tmpdir'

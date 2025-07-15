@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-spoon-4752
+#FLUX: --job-name=dirty-diablo-1562
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$cpus_per_task'
 export OMP_PLACES='threads'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-poo-0907
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-parsnip-2810
+#FLUX: --urgency=16
 
 module load PrgEnv-cray
 module load amd-mixed 

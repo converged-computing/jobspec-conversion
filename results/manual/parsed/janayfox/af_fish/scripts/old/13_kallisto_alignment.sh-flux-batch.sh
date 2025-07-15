@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-earthworm-8925
+#FLUX: --job-name=moolicious-bicycle-6957
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity/3.8
 module load nixpkgs/16.09

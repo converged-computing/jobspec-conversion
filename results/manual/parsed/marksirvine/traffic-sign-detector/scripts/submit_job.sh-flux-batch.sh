@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-muffin-9454
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-cherry-4702
+#FLUX: --urgency=16
 
 module add libs/tensorflow/1.2
 srun python tsr.py

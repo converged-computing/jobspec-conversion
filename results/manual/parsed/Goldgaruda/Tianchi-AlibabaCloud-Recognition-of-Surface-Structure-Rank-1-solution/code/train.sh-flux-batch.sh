@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-platanos-7281
-#FLUX: --priority=16
+#FLUX: --job-name=faux-underoos-2769
+#FLUX: --urgency=16
 
 module purge
 source ~/.bashrc

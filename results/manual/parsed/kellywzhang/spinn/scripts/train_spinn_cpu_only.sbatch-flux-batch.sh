@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-despacito-3553
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-platanos-1888
+#FLUX: --urgency=16
 
 export IFS=';'
 

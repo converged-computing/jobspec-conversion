@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-nunchucks-0550
+#FLUX: --job-name=milky-butter-9289
 #FLUX: --queue=hbfraser,owners,hns,normal
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load fraserconda
 source activate fraserconda

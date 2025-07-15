@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-cinnamonbun-9182
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-chair-4422
+#FLUX: --urgency=16
 
 module purge
 module load Python/3.7.0-intel-2018b

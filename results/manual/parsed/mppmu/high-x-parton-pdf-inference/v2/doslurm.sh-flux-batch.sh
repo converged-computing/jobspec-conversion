@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-ricecake-2240
+#FLUX: --job-name=phat-malarkey-3713
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_TMPDIR='$(pwd)/tmp'
 export SINGULARITY_CACHEDIR='$(pwd)/tmp'

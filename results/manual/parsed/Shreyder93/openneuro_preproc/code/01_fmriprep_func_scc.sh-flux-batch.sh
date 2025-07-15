@@ -2,7 +2,7 @@
 #FLUX: --job-name=fmriprep_anat
 #FLUX: -c=8
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BIDS_DIR='${BASEDIR}/${OPENNEURO_DSID}/bids'
 export FMRIPREP_HOME='${BASEDIR}/fmriprep_home'

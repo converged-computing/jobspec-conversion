@@ -2,7 +2,7 @@
 #FLUX: --job-name=cifar_trades
 #FLUX: -c=4
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 singularity exec --nv \

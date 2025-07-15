@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="nextflow_test_info_v5"
+#FLUX: --job-name=nextflow_test_info_v5
 #FLUX: -c=2
 #FLUX: --queue=shared
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cpu/0.15.4

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-lettuce-5575
+#FLUX: --job-name=chunky-lettuce-2348
 #FLUX: --queue=$PARTITION
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda
 module load cuda/11.6.0

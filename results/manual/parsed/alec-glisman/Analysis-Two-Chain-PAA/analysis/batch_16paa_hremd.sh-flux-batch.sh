@@ -1,8 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=Anl16-MDA7
-#FLUX: --queue=all --qos=d --account=d
+#FLUX: -n=16
+#FLUX: --queue=all
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -o errexit # exit when a command fails. Add || true to commands allowed to fail
 set -o nounset # exit when script tries to use undeclared variables

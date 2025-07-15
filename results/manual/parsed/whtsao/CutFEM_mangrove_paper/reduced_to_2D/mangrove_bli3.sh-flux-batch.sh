@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-kitty-3551
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-peanut-1754
+#FLUX: --urgency=16
 
 date
 module purge

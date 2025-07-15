@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="test-hpl"
+#FLUX: --job-name=test-hpl
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOSTLIST='$(join_by , ${hostarray[@]})'
 export SINGULARITYENV_SHELL='/bin/bash'

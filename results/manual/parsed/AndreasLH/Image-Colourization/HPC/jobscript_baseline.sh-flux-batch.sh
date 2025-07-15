@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-fudge-2369
-#FLUX: --priority=16
+#FLUX: --job-name=faux-car-2479
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AndreasLH/Image-Colourization/HPC/jobscript_baseline.sh

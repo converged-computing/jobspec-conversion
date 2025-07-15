@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-spoon-5060
+#FLUX: --job-name=chunky-rabbit-4605
 #FLUX: --queue=any_cpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/net/pulsar/home/koes/dkoes/git/smina/build/:$PATH'
 

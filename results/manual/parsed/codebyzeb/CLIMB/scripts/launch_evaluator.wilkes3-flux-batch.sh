@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-platanos-5166
+#FLUX: --job-name=hello-muffin-8523
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export LOGLEVEL='INFO'

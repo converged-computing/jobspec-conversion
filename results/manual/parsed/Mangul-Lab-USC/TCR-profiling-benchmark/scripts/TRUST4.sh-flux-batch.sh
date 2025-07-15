@@ -2,7 +2,7 @@
 #FLUX: --job-name=TRUST4.job
 #FLUX: -c=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LC_CTYPE='en_US.UTF-8'
 export LC_ALL='en_US.UTF-8'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="cifti_parcellate"
+#FLUX: --job-name=cifti_parcellate
 #FLUX: -c=2
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BIDS_DIR='${BASEDIR}/${OPENNEURO_DSID}/bids'
 export SING_CONTAINER='${BASEDIR}/containers/fmriprep_ciftify_v1.3.2-2.3.3.img'

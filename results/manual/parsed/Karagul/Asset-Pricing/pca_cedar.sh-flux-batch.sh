@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-avocado-1875
+#FLUX: --job-name=carnivorous-punk-7866
 #FLUX: -n=2
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python27-mpi4py/2.0.0
 module load miniconda2

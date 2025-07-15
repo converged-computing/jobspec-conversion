@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="rfm_Osu_bw_job"
+#FLUX: --job-name=rfm_Osu_bw_job
 #FLUX: -n=2
 #FLUX: --exclusive
 #FLUX: --queue=cclake
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_MPI_TYPE='pmix_v3'
 export UCX_NET_DEVICES='mlx5_1:1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-butter-6894
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-hobbit-1848
+#FLUX: --urgency=16
 
 export JULIA_PKGDIR='$myjulia'
 export PATH='$myjulia/bin/:$PATH'

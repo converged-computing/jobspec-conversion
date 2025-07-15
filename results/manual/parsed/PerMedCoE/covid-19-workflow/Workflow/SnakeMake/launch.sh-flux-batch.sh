@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-muffin-5097
+#FLUX: --job-name=arid-mango-4216
 #FLUX: --queue=test
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PERMEDCOE_IMAGES='$(readlink -f $(pwd)/../../../BuildingBlocks/Resources/images/)/'
 export PERMEDCOE_ASSETS='$(readlink -f $(pwd)/../../../BuildingBlocks/Resources/assets/)/'

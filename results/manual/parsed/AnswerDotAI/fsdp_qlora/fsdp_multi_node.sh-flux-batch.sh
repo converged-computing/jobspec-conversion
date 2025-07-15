@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fsdp-multi-node-test
 #FLUX: --queue=a40x
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_PORT='12340'
 export WORLD_SIZE='$(($SLURM_JOB_NUM_NODES * $SLURM_GPUS_PER_NODE))'

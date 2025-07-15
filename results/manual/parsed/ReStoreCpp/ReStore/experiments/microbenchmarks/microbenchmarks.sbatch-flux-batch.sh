@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cinnamonbun-2257
+#FLUX: --job-name=butterscotch-knife-0620
 #FLUX: -N=16
 #FLUX: --queue=test
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMIX_MCA_gds='hash'
 

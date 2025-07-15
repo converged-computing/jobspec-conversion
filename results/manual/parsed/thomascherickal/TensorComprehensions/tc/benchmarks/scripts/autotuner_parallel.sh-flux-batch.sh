@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-earthworm-3695
+#FLUX: --job-name=bloated-dog-9450
 #FLUX: --queue=priority,uninterrupted,learnfair,scavenge
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TUNER_THREADS='${TUNER_THREADS:=20}'
 export TUNER_DEVICES='${TUNER_DEVICES:="0,1"}'

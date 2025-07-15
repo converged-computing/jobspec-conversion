@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-diablo-0333
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-cat-4638
+#FLUX: --urgency=16
 
 pwd; hostname;
 TIME=$(date -Iseconds)

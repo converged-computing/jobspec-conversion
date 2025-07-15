@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-noodle-4546
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-bike-5435
+#FLUX: --urgency=16
 
 module load matlab
 matlab -nodesktop -nodisplay -nosplash < gputest.m

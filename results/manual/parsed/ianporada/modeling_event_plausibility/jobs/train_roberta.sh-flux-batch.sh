@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-bits-2313
+#FLUX: --job-name=creamy-bits-7954
 #FLUX: -c=10
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load StdEnv/2020  gcc/9.3.0  cuda/11.7

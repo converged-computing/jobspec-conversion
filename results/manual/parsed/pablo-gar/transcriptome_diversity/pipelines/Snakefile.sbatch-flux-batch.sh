@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-pot-6938
+#FLUX: --job-name=peachy-bike-7741
 #FLUX: --queue=hbfraser,hns,normal
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load conda
 conda activate base

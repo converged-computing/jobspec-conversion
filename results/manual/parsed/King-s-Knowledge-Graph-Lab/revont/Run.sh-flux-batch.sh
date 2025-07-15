@@ -1,5 +1,5 @@
 #!/bin/bash
 #FLUX: --job-name=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python main-copy.py

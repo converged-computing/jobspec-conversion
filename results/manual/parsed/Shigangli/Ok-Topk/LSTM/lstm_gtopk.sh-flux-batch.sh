@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=phat-carrot-8183
+#FLUX: --job-name=blue-hope-1277
 #FLUX: -N=32
 #FLUX: -n=32
 #FLUX: -c=12
 #FLUX: --queue=normal
 #FLUX: -t=7800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 conda activate py38_oktopk

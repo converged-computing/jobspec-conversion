@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-plant-9512
-#FLUX: --priority=16
+#FLUX: --job-name=fat-eagle-1261
+#FLUX: --urgency=16
 
 . "$script_pwd/../systems/generic"
 SUPERMUC_OPENMPI_VERSION="4.1.5-gcc12"

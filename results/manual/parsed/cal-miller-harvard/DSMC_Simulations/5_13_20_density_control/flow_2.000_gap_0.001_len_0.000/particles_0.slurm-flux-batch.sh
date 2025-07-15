@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-soup-7635
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-parsnip-3045
+#FLUX: --urgency=16
 
 cd data
 pwd

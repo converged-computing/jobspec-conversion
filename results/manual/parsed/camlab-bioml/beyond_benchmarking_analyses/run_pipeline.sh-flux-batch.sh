@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-pedo-5197
+#FLUX: --job-name=evasive-earthworm-9407
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/env/bin/activate
 module load singularity

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-motorcycle-3867
-#FLUX: --priority=16
+#FLUX: --job-name=red-banana-3939
+#FLUX: --urgency=16
 
 module purge
 module load gcc cuda

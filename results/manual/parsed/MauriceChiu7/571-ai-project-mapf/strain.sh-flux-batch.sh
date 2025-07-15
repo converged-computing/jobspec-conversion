@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=primal-train
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda

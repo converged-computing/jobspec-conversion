@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=cpu-compute-spot
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 srun hostname

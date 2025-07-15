@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-toaster-0372
+#FLUX: --job-name=chocolate-pastry-7951
 #FLUX: -c=8
 #FLUX: -t=3540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bash_functions
 mod_py39

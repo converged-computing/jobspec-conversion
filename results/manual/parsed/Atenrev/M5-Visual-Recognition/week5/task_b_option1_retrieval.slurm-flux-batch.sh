@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-itch-8431
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-latke-5845
+#FLUX: --urgency=16
 
 python run_retrieval.py \
     --mode text_to_image  \

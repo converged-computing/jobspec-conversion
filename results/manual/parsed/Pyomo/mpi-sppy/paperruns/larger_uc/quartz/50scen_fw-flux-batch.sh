@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-platanos-7829
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-cherry-7288
+#FLUX: --urgency=16
 
 export MPICH_ASYNC_PROGRESS='1'
 

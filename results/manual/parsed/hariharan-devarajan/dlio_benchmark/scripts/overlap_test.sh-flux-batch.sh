@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bits-6826
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-muffin-1911
+#FLUX: --urgency=16
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pancake-5718
+#FLUX: --job-name=nerdy-nalgas-3265
 #FLUX: --queue=main
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PATH='$HOME/apps/julia-1.8.1/bin:$PATH'

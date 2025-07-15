@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=couldrun
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load bcftools/intel/1.14

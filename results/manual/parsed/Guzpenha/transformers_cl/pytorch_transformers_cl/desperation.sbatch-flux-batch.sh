@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-squidward-1721
+#FLUX: --job-name=swampy-pancake-8267
 #FLUX: --queue=general
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-mango-1430
+#FLUX: --job-name=anxious-dog-9701
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval $(spack load --sh singularityce@3.11.4)
 singularity_image=/scratch/mblab/chasem/software/llfs_rnaseq_latest.sif

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-itch-4363
-#FLUX: --priority=16
+#FLUX: --job-name=grated-train-3837
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='24'
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=ATACanalysis
 #FLUX: -c=32
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/jmendietaes/programas/miniconda3/bin:$PATH'
 

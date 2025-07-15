@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-muffin-9327
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-carrot-4597
+#FLUX: --urgency=16
 
 export DIR='/p/lustre1/$(whoami)/CabanaMD'
 

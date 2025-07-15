@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-punk-2843
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-squidward-0050
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jhugon/hmumuFinalAnalysis/etc/hpcTemplate.sh

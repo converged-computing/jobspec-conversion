@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=hpx-plainmpi-join-8node-%j
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/11.2.0
 module load boost/1.78.0-release

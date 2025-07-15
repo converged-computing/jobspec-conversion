@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-itch-7021
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-earthworm-4051
+#FLUX: --urgency=16
 
 set -euo pipefail
 dvc_stage_name="$1"

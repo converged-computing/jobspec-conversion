@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nerve-build
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 unset XDG_RUNTIME_DIR

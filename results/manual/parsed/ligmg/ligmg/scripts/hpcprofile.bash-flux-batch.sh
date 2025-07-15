@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-gato-4450
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-peanut-butter-8605
+#FLUX: --urgency=16
 
 outfile="$1__${SLURM_JOB_NUM_NODES}_hpctoolkit"
 module load hpctoolkit

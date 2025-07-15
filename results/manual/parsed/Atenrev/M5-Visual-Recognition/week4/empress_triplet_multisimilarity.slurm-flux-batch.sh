@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-parrot-5536
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-earthworm-0363
+#FLUX: --urgency=16
 
 python task_b.py \
     --loss "triplet"  \

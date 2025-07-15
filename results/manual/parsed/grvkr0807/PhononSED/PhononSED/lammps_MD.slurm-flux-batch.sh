@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-soup-6833
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-itch-1339
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/LUSTRE_SHARE/Packages/usr/lib64/nvidia'

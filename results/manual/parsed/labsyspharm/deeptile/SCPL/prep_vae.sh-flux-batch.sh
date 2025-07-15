@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=prepvae
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/6.2.0 python/3.7.4
 source /home/hw233/virtualenv/py374/bin/activate

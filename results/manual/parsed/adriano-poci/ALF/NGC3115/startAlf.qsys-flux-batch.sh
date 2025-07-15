@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="alf_NGC3115_SN100_aperture"
+#FLUX: --job-name=alf_NGC3115_SN100_aperture
 #FLUX: -c=16
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ALF_HOME='/fred/oz059/poci/alf/'
 

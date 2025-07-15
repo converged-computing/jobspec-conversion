@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-citrus-7666
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-signal-4914
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Karl-Liu-ch/DiffusionAirfoil/job_script/transform_2d.sh

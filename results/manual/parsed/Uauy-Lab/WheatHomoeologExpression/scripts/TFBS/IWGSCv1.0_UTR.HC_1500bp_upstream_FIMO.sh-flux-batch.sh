@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lizard-1870
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-dog-0233
+#FLUX: --urgency=16
 
 cd /nbi/Research-Groups/NBI/Cristobal-Uauy/Jemima/companion_paper/
 source meme-4.11.4

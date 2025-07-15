@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-chip-0033
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-rabbit-0140
+#FLUX: --urgency=16
 
 echo "Running on: $(hostname)"
 batch_size=96

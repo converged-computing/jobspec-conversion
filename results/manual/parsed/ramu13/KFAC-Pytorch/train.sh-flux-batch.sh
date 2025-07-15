@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-muffin-6751
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-squidward-7173
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(/usr/sbin/ip a show | grep inet | grep 192.168.205 | head -1 | cut -d " " -f 6 | cut -d "/" -f 1)'
 export MASTER_PORT='3535'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-fork-2348
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-peanut-7128
+#FLUX: --urgency=16
 
 module load miniconda3
 snakemake --profile farm-profile

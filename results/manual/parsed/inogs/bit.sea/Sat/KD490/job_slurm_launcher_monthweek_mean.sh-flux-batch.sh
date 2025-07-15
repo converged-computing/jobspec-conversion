@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=KID490_check
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/gpfs/work/OGS20_PRACE_P/COPERNICUS/bit.sea'
 

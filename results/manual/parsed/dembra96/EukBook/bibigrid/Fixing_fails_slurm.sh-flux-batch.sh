@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Euk_Fix
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SLURM_ARRAY_TASK_ID is:  ${SLURM_ARRAY_TASK_ID}"
 echo "This is a continuation after errors of 150 sets and wrong raw QUASTS. Current set had an error."

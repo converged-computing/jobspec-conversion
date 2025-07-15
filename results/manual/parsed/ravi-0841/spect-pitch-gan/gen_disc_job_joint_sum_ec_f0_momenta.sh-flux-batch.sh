@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-buttface-7087
+#FLUX: --job-name=grated-onion-8061
 #FLUX: -c=6
 #FLUX: --queue=gpuk80
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_HOME='$PWD:/home/$USER'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-squidward-5568
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-hobbit-9548
+#FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'
 

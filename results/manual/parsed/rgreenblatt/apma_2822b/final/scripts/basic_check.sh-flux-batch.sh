@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lizard-9566
+#FLUX: --job-name=fugly-lamp-0755
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.0.130
 module load mpi/mvapich2-2.3b_gcc

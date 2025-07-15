@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-buttface-6957
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-bike-2018
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/benchmarks/summit/test_memcpy_mult

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=hmmalign
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 OUTPEPEXT=aa.fa
 RESOVERLAP=0.70

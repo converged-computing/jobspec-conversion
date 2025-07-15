@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lentil-9764
-#FLUX: --priority=16
+#FLUX: --job-name=arid-latke-4437
+#FLUX: --urgency=16
 
 source activate mlfold
 folder_with_pdbs="../inputs/PDB_complexes/pdbs/"

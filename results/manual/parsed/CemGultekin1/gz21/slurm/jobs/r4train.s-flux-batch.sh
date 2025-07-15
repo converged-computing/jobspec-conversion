@@ -2,7 +2,7 @@
 #FLUX: --job-name=r4train
 #FLUX: -c=8
 #FLUX: -t=115200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "$(date)"
 module purge

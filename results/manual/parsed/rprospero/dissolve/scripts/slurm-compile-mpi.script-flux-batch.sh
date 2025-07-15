@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cat-7000
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-earthworm-1358
+#FLUX: --urgency=16
 
 set -e
 BASE_DIR=$(pwd)

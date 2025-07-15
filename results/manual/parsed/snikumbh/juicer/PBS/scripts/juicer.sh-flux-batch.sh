@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-kerfuffle-9520
-#FLUX: --priority=16
+#FLUX: --job-name=fat-cherry-5644
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/snikumbh/juicer/PBS/scripts/juicer.sh

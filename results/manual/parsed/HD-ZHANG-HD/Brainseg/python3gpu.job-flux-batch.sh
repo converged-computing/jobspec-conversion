@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-train-0367
+#FLUX: --job-name=bloated-frito-6808
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=165600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate brainseg

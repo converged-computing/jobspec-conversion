@@ -2,7 +2,7 @@
 #FLUX: --job-name=nccl-allreduce-slurm
 #FLUX: -N=2
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMI_DEBUG='1'
 export NCCL_DEBUG='WARN'

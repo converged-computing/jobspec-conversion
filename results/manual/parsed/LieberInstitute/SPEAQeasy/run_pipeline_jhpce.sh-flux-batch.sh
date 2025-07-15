@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=SPEAQeasy
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_JVM_ARGS='-Xms8g -Xmx10g'
 

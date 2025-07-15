@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-house-6099
+#FLUX: --job-name=placid-puppy-3429
 #FLUX: --exclusive
 #FLUX: --queue=haswell
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MERIC_MODE='3'
 export MERIC_FREQUENCY='0'

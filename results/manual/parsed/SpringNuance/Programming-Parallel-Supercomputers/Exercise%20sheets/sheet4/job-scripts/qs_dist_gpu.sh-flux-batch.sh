@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-motorcycle-0163
+#FLUX: --job-name=fuzzy-gato-4559
 #FLUX: --queue=courses-gpu
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_opal_warn_on_missing_libcuda='0'
 

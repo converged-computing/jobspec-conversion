@@ -2,7 +2,7 @@
 #FLUX: --job-name=era5_pic_generation
 #FLUX: -n=12
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_HOME='/p/tmp/bochow/LAMA/lama/ && export PYTHONPATH=/p/tmp/bochow/LAMA/lama/'
 export HDF5_USE_FILE_LOCKING='FALSE'

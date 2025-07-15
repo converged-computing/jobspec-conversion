@@ -3,7 +3,7 @@
 #FLUX: -N=3
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load apptainer
 module load cuda

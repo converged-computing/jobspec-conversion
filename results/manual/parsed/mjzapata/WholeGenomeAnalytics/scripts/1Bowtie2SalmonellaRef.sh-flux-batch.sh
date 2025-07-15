@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-cat-6823
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-puppy-5288
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mjzapata/WholeGenomeAnalytics/scripts/1Bowtie2SalmonellaRef.sh

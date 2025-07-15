@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-plant-7800
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-mango-3203
+#FLUX: --urgency=16
 
 export AUGUSTUS_CONFIG_PATH='/networkshare/bin/augustus-3.2.2/config'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-rabbit-0619
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-lentil-3459
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ORNL/affinity_pred/train/finetune_ensemble.lsf

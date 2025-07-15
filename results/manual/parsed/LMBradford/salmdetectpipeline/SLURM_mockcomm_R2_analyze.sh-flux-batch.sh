@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-diablo-2994
+#FLUX: --job-name=hanky-plant-8192
 #FLUX: -c=4
 #FLUX: -t=9600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export R_LIBS='~/.local/R/$EBVERSIONR/'
 

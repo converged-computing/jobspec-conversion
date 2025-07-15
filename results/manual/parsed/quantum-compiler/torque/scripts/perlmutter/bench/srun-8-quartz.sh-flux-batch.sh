@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-parsnip-9606
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-lamp-5069
+#FLUX: --urgency=16
 
 export PATH='$PATH:/global/homes/m/mingkuan/torque/deps/quartz/external/HiGHS/build/bin'
 export MPICH_GPU_SUPPORT_ENABLED='1'

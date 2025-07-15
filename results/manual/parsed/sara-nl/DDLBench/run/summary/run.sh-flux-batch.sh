@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-onion-4745
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-parsnip-1230
+#FLUX: --urgency=16
 
 export MPICC='mpicc'
 export MPICXX='mpicxx'

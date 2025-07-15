@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-milkshake-2577
+#FLUX: --job-name=loopy-toaster-9548
 #FLUX: -N=2
 #FLUX: --queue=debug
 #FLUX: -t=3540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EXAWIND_DIR='/nopt/nrel/ecom/exawind/exawind-2020-09-21/install/gcc'
 export MPI_TYPE_DEPTH='15'

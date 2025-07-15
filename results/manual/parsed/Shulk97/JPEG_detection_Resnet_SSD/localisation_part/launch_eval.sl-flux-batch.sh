@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-kitty-3445
+#FLUX: --job-name=bloated-fudge-8616
 #FLUX: --queue=gpu_k80
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOCAL_WORK_DIR='/home/2017018/tconst01/ssd/pao_jpeg_bis/localisation_part'
 export DATASET_PATH='/save/2017018/PARTAGE/pascal_voc/'

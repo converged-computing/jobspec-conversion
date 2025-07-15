@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-snack-3306
+#FLUX: --job-name=peachy-lamp-9882
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

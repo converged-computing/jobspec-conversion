@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-platanos-1093
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-gato-5163
+#FLUX: --urgency=16
 
 datadir= # path/to/reads_directories i.e. : /work2/genphyse/dynagen/jmartin/polledHiC/data/reads_nfcore
 wdir= # path/to/working_directory i.e. : /work2/genphyse/dynagen/jmartin/polledHiC/workflows/nfcorehic_jm

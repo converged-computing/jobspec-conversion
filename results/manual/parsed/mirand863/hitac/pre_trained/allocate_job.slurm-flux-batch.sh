@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-truffle-3929
+#FLUX: --job-name=bricky-chip-1166
 #FLUX: --queue=magic
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 snakemake --unlock
 snakemake --profile slurm

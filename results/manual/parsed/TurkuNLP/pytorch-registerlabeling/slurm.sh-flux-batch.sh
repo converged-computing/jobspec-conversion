@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bits-0351
+#FLUX: --job-name=confused-lamp-6209
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [[ -z "$SLURM_JOB_ID" ]]; then
   PARTITION="gpusmall"

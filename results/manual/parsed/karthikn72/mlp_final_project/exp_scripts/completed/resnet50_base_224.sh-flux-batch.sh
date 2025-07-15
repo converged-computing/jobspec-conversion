@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-hobbit-1114
+#FLUX: --job-name=astute-spoon-2411
 #FLUX: --queue=Teach-Standard
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='/opt/cuda-9.0.176.1/'
 export CUDNN_HOME='/opt/cuDNN-7.0/'

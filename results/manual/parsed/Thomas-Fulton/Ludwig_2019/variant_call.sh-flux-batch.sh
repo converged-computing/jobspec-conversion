@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-blackbean-5032
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-taco-0386
+#FLUX: --urgency=16
 
 export PATH='`pwd`/software/bin/:$PATH'
 

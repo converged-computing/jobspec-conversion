@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=lmp
 #FLUX: --queue=cpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel/2020
   exe_dir="/data/home/hfhuang/software/Lammps_for_PWMLFF-master/lammps_neigh_mlff_20230508/src"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="glidein"
-#FLUX: --priority=16
+#FLUX: --job-name=glidein
+#FLUX: --urgency=16
 
 printenv
 echo $LOCAL

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-plant-2014
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-egg-9875
+#FLUX: --urgency=16
 
 source activate sam
 python grid_search_and_inference.py $@

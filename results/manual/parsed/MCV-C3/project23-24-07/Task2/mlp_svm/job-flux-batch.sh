@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-parrot-3670
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-pedo-6627
+#FLUX: --urgency=16
 
 SAVE_DIR=$1
 sleep 1

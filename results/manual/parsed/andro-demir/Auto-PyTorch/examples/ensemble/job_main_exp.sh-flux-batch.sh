@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-pancake-8993
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-buttface-3968
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PWD'
 

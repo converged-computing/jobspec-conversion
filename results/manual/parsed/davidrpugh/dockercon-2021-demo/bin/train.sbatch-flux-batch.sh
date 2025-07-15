@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-nalgas-2591
+#FLUX: --job-name=frigid-hope-3705
 #FLUX: -c=4
 #FLUX: --queue=batch
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module purge

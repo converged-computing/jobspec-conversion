@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-soup-0418
+#FLUX: --job-name=red-pastry-3659
 #FLUX: -N=3
 #FLUX: -t=100800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$SCRATCH'
 

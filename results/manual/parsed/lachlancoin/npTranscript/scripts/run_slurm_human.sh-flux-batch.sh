@@ -2,7 +2,7 @@
 #FLUX: --job-name=npTranscript
 #FLUX: -c=8
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JSA_MEM='30000m'
 export coord_file='$(pwd)"/gencode.v28.annotation.gff3.gz'

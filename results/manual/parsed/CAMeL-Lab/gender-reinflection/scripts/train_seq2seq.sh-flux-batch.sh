@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-carrot-1530
+#FLUX: --job-name=chocolate-cherry-4623
 #FLUX: -t=84600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATA_DIR='data/alhafni'
 

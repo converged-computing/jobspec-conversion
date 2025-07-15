@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-peanut-butter-9890
-#FLUX: --priority=16
+#FLUX: --job-name=fat-kerfuffle-4198
+#FLUX: --urgency=16
 
 MODEL_NAME="openchat_3.5"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

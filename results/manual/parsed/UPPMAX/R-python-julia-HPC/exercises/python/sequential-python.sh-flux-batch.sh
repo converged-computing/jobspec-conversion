@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leopard-2604
+#FLUX: --job-name=milky-truffle-0308
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge  > /dev/null 2>&1
 module load GCC/10.3.0  OpenMPI/4.1.1 TensorFlow/2.6.0-CUDA-11.3.1

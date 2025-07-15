@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-destiny-7455
+#FLUX: --job-name=gassy-taco-5390
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONTAINER="${HOME}/containers/pytorch-gds-benchmarks.sif"
 CONTAINER_RC_FILE="${HOME}/containers/singularity_torch_benchmark_rc"

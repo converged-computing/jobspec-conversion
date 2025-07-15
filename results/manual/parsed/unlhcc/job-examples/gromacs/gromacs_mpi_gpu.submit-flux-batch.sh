@@ -4,7 +4,7 @@
 #FLUX: -n=4
 #FLUX: --queue=gpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load compiler/gcc/10 openmpi/4.1 gromacs-gpu/2023

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-car-9069
+#FLUX: --job-name=gloopy-cat-6554
 #FLUX: -c=8
 #FLUX: --queue=defq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PASSWORD='$(openssl rand -base64 8)'
 export LANG='en_US.UTF-8'

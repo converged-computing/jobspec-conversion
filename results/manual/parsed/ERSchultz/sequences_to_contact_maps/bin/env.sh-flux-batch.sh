@@ -2,7 +2,7 @@
 #FLUX: --job-name=setup
 #FLUX: --queue=depablo-gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 envName=python3.9_pytorch2.0
 ofile=logFiles/conda_env_spectre.log

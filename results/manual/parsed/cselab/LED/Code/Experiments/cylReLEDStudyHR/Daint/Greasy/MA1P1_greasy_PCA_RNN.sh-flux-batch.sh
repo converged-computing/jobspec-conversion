@@ -3,7 +3,7 @@
 #FLUX: -N=112
 #FLUX: --queue=normal
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HYPRE_ROOT='/users/novatig/hypre/build'
 export GSL_ROOT='/apps/daint/UES/jenkins/7.0.UP02/gpu/easybuild/software/GSL/2.5-CrayGNU-20.08'

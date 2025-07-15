@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="glotzerlab-software build"
+#FLUX: --job-name=glotzerlab-software build
 #FLUX: -c=32
 #FLUX: --queue=shared
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OUTPUT_FOLDER='$PROJECT/software/conda'
 export CC='$GCC_HOME/bin/gcc'

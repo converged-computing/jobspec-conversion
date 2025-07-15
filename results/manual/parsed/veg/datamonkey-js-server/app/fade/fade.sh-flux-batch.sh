@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-peas-7192
-#FLUX: --priority=16
+#FLUX: --job-name=angry-cupcake-7927
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/veg/datamonkey-js-server/app/fade/fade.sh

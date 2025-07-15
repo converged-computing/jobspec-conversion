@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-taco-3603
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-cattywampus-1563
+#FLUX: --urgency=16
 
 export PYTHONBUFFERED='TRUE'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-house-4474
+#FLUX: --job-name=scruptious-pastry-7588
 #FLUX: -t=720000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 exp_config=neurips2021-celeba.yml
 STYLEGAN_PKL=pretrained/stylegan/neurips2021-celeba-stylegan/network-snapshot-002298.pkl

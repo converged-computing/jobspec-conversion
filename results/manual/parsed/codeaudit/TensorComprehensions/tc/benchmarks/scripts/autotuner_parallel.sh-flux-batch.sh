@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-avocado-4140
+#FLUX: --job-name=swampy-house-0443
 #FLUX: --queue=learnfair-2g
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TUNER_THREADS='${TUNER_THREADS:=20}'
 export TUNER_GPUS='${TUNER_GPUS:="0,1"}'

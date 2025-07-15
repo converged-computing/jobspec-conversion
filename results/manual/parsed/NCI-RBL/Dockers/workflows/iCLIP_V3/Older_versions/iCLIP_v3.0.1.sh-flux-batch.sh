@@ -4,7 +4,7 @@
 #FLUX: -c=8
 #FLUX: --queue=ccr,norm
 #FLUX: -t=50400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='$PWD/.singularity'
 export SINGULARITY_CACHEDIR='$PWD/.singularity'

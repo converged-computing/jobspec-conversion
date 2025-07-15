@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-onion-6117
+#FLUX: --job-name=peachy-lizard-2383
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python main.py --configs configs/NCI1/gcn/scaled_layers_constant_embedding.yml
 python main.py --configs configs/NCI1/gcn/scaled_embedding_constant_layers.yml

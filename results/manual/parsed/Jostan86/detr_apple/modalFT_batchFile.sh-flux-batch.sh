@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cat-5076
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-cat-6785
+#FLUX: --urgency=16
 
 module load python3
 source /nfs/hpc/share/browjost/detr_apple/venv/bin/activate

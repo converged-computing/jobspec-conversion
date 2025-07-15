@@ -2,7 +2,7 @@
 #FLUX: --job-name=germline
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module --force purge
 module load StdEnv/2020

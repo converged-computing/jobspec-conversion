@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-platanos-8584
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-cherry-1433
+#FLUX: --urgency=16
 
 export TUNER_THREADS='${TUNER_THREADS:=10}'
 export TUNER_GPUS='${TUNER_GPUS:="0"}'

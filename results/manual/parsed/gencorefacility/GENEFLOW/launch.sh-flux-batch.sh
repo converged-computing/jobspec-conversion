@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-leader-8688
+#FLUX: --job-name=carnivorous-eagle-5334
 #FLUX: -c=6
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load nextflow/23.04.1

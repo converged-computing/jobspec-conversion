@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-kitty-9268
-#FLUX: --priority=16
+#FLUX: --job-name=confused-hope-1205
+#FLUX: --urgency=16
 
 module reset
 module load parallel

@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: -c=4
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_btl_openib_warn_no_device_params_found='0'
 export UCX_MEMTYPE_CACHE='n'

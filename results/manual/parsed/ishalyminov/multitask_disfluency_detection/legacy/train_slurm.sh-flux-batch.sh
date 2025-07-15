@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-puppy-3011
+#FLUX: --job-name=frigid-bicycle-8202
 #FLUX: --queue=amd-longq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load shared

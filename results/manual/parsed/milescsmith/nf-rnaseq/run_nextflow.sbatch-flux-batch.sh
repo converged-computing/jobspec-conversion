@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-cherry-0594
+#FLUX: --job-name=frigid-poo-4062
 #FLUX: -c=16
 #FLUX: --queue=serial
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 unset _JAVA_OPTIONS
 nextflow main.nf -profile slurm \

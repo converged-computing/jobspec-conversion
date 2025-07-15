@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-eagle-4627
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-butter-4602
+#FLUX: -t=43200
+#FLUX: --urgency=16
 
 mpirun -npernode 16 lmp_cpu -v x 64 -v y 64 -v z 128 -v t 100 < in.lj
 mv log.lammps log.28Jun14.lj.cpu.2048K.16.16

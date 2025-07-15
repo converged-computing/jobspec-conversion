@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-signal-4974
+#FLUX: --job-name=hello-hope-1371
 #FLUX: --queue=dept_cpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ..
 ls

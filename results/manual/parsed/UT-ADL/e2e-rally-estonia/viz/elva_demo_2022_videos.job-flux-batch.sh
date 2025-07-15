@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Elva demo experiments videos"
+#FLUX: --job-name=Elva demo experiments videos
 #FLUX: --queue=main
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATASETS=(
     '2022-06-17-13-21-37_e2e_elva__steering' \

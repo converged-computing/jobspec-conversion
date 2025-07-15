@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=myImageLoader
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python3/intel/3.5.3

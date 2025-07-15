@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-destiny-1686
+#FLUX: --job-name=expensive-signal-1138
 #FLUX: -n=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 OPENFOAM_DIR=/nfs/OpenFOAM-10
 if [[ ! -d $OPENFOAM_DIR ]]

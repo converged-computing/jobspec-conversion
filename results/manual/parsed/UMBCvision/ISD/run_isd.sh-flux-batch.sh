@@ -3,7 +3,7 @@
 #FLUX: -c=24
 #FLUX: --queue=gpu
 #FLUX: -t=777600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 set -e

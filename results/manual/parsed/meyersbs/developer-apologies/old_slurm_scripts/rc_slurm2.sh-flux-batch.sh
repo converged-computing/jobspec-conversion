@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-truffle-9816
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-lemon-6594
+#FLUX: --urgency=16
 
 echo "Loading environment"
 spack env activate mistakes-21091601

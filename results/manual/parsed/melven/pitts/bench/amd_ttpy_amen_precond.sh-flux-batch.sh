@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-squidward-5843
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-nunchucks-0094
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:~/pitts/build_gcc_amd/src/:~/pitts/examples/'
 export PYTHONUNBUFFERED='1'

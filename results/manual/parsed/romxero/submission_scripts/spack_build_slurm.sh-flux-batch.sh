@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-leopard-0046
+#FLUX: --job-name=reclusive-leader-6738
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SPACK_ENV_NAME="MY_TEST_ENVIRONMENT"
 ml purge

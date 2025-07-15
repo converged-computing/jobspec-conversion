@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-staircase-1758
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-animal-5479
+#FLUX: --urgency=16
 
 module load cuda
 nvcc task1_thrust.cu -Xcompiler -O3 -Xcompiler -Wall -Xptxas -O3 -o task1_thrust

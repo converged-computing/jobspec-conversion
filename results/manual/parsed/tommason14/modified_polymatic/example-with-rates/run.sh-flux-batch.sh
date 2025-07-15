@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-bicycle-8905
-#FLUX: --priority=16
+#FLUX: --job-name=placid-caramel-6980
+#FLUX: --urgency=16
 
 export LAMMPS_EXEC='mpirun -np $SLURM_NTASKS ~/p2015120004/apps/clammps/build/lmp_mpi'
 

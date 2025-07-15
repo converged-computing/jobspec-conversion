@@ -2,7 +2,7 @@
 #FLUX: --job-name=train
 #FLUX: -c=8
 #FLUX: --queue=general
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FOLD='4'
 export msin='ABDEFKT'

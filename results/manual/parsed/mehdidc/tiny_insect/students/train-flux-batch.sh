@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-frito-2212
+#FLUX: --job-name=salted-puppy-4156
 #FLUX: -t=32400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export THEANO_FLAGS='device=gpu'
 

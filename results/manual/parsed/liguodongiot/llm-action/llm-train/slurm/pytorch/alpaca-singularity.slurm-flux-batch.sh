@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=alpaca #作业名称
-#FLUX: --queue=a800 #分区
-#FLUX: --priority=16
+#FLUX: --job-name=alpaca
+#FLUX: --queue=a800
+#FLUX: --urgency=16
 
 singularity run --nv \
 --pwd /workspace/stanford_alpaca/ \

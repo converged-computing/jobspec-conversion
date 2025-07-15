@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-banana-0539
+#FLUX: --job-name=butterscotch-nunchucks-1164
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PROJECT_DIR=$HOME/dev/DCCR
 VENV_DIR=$HOME/envs/l2m

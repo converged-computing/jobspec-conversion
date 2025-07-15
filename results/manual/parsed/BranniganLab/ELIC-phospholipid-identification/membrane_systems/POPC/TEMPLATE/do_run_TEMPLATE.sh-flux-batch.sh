@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-fudge-6848
-#FLUX: --queue=cmain --constraint=oarc -t 24:00:00
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-plant-6219
+#FLUX: --queue=cmain
+#FLUX: --urgency=16
 
 module purge
 module load gcc mvapich2

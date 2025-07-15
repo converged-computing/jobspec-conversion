@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="miniproject"
+#FLUX: --job-name=miniproject
 #FLUX: -c=32
 #FLUX: --queue=GPUQ
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}/yolov7
 module purge

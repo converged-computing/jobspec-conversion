@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-pastry-4866
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-ricecake-9023
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kbpi314/iclust_paper/jobs/DDpc5ss.0

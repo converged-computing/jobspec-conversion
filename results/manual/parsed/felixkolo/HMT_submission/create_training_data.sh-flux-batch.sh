@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-poo-8670
-#FLUX: --priority=16
+#FLUX: --job-name=milky-peas-7834
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/felixkolo/HMT_submission/create_training_data.sh

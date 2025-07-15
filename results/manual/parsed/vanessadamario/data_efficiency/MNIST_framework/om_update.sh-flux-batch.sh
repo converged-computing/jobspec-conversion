@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rep4
 #FLUX: --queue=cbmm
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 module add openmind/singularity/3.4.1

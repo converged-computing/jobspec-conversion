@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pastry-3357
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-lettuce-3486
+#FLUX: --urgency=16
 
 export PETSC_DIR='/apps/src/petsc-3.6.4/'
 export PETSC_ARCH='arch-linux2-c-opt'

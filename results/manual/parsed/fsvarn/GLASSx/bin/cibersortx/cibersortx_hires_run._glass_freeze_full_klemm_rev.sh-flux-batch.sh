@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-snack-8786
+#FLUX: --job-name=blank-leader-8490
 #FLUX: -c=12
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 singularity exec \

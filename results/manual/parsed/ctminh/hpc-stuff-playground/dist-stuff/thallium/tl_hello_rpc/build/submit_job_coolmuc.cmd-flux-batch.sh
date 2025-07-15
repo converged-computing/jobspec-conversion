@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-kerfuffle-9050
+#FLUX: --job-name=confused-underoos-2270
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module use ~/.modules

@@ -2,7 +2,7 @@
 #FLUX: --job-name=ll_mpi
 #FLUX: --queue=teach_cpu
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo 'running mpi test'
 module load languages/miniconda

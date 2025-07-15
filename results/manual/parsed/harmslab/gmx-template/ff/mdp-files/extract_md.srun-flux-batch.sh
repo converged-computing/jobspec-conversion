@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=extract      ### job name
+#FLUX: --job-name=extract
 #FLUX: --queue=short
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel/19
 module load gromacs/2019.4

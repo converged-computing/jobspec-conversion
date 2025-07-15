@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pedo-2309
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-general-7036
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES=''
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'

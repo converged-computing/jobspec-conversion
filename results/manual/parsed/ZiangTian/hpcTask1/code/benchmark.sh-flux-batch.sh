@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-leg-7543
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-pancake-4421
+#FLUX: --urgency=16
 
 frameworks=("numba")
 benchmarks=("azimint_hist" "azimint_naive"

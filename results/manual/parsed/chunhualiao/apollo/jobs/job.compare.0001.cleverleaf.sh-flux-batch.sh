@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="APOLLO:COMPARE.1.cleverleaf.test"
+#FLUX: --job-name=APOLLO:COMPARE.1.cleverleaf.test
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EXPERIMENT_JOB_TITLE='COMPARE.0001.cleverleaf"  # <-- creates output path!'
 export APPLICATION_RANKS='1"         # ^__ make sure to change SBATCH node counts!'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lemon-8481
+#FLUX: --job-name=stanky-lettuce-6581
 #FLUX: -n=12
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd
 echo "This is the R-batch-job running bayesian models of stream metabolism"

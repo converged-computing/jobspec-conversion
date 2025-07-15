@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-leopard-0945
+#FLUX: --job-name=astute-carrot-2353
 #FLUX: --queue=devel
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /usr/local/software/jureca/OtherStages
 module load Stages/Devel-2019a

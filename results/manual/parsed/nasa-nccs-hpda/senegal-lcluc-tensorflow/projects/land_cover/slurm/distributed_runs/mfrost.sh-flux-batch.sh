@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-hobbit-2498
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-soup-9603
+#FLUX: --urgency=16
 
 OUTPUT_DIR="/explore/nobackup/projects/ilab/projects/Senegal/Distributed-Runs/$USER"
 CLI_PATH="/explore/nobackup/people/jacaraba/development/senegal-lcluc-tensorflow/senegal_lcluc_tensorflow/view/landcover_cnn_pipeline_cli.py"

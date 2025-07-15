@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-mango-6661
+#FLUX: --job-name=buttery-pot-3661
 #FLUX: --queue=gp4d
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 
 module load miniconda3

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-caramel-7761
+#FLUX: --job-name=evasive-pedo-7289
 #FLUX: -N=2
 #FLUX: -n=32
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

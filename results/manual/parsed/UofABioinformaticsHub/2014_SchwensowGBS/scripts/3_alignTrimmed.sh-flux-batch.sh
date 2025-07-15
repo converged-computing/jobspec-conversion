@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-truffle-9232
+#FLUX: --job-name=evasive-caramel-5852
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load BWA/0.7.15-foss-2017a
 module load SAMtools/0.1.19-GCC-5.3.0-binutils-2.25

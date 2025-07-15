@@ -2,7 +2,7 @@
 #FLUX: --job-name=floq
 #FLUX: --queue=sched_mit_raffaele
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/dedalus_paths
 module list

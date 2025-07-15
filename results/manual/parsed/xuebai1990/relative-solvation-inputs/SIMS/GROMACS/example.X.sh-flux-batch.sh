@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="relative_X"
+#FLUX: --job-name=relative_X
 #FLUX: -c=2
 #FLUX: --queue=mf_nes2.8,mf_ilg2.3
 #FLUX: -t=381600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1" #Disable backups'
 export GMXRC='/modfac/apps/gromacs-4.6.7_gcc-generic/bin/GMXRC'

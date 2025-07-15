@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-destiny-4053
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-carrot-0919
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='23'
 export KMP_SETTINGS='True'

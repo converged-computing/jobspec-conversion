@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-bits-1258
-#FLUX: --priority=16
+#FLUX: --job-name=faux-leopard-2203
+#FLUX: --urgency=16
 
 pip list
 source activate dino

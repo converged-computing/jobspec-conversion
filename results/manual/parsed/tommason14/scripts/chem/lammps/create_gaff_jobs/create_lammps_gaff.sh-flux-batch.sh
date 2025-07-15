@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lettuce-2077
+#FLUX: --job-name=evasive-pot-6839
 #FLUX: -n=16
 #FLUX: --queue=comp,short
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export lammps='/projects/sn29/apps/clammps/build/lmp_mpi'
 

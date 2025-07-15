@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-earthworm-1609
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-citrus-9571
+#FLUX: --urgency=16
 
 date
 GS_DIR=/gpfs/alpine/proj-shared/csc383/wgodoy/ADIOS2/examples/simulations/GrayScott.jl

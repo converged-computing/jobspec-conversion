@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-carrot-3014
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-avocado-5022
+#FLUX: --urgency=16
 
 module load cuda-11.1.1 cudnn-11.1.1-v8.0.4.30
 module load gcc-7.4

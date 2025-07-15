@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-hobbit-5817
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-malarkey-1390
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-denoise-tensorflow/main

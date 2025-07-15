@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lizard-4254
+#FLUX: --job-name=stanky-lentil-5608
 #FLUX: -c=24
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/icm/home/bazinska/miniconda3/lib:$LD_LIBRARY_PATH'
 

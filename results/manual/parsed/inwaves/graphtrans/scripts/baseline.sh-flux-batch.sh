@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-underoos-5462
+#FLUX: --job-name=bumfuzzled-general-5557
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python main.py --configs configs/NCI1/gcn/base.yml
 python main.py --configs configs/NCI1/gcn-virtual/base.yml

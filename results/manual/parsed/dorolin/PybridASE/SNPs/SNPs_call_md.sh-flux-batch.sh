@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="snps_call_md"
+#FLUX: --job-name=snps_call_md
 #FLUX: -c=8
 #FLUX: --queue=all
 #FLUX: -t=35400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load vital-it/7
 module load UHTS/Analysis/picard-tools/2.18.11

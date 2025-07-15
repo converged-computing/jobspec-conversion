@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lamp-2456
+#FLUX: --job-name=swampy-noodle-4335
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module purge

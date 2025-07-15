@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name='train'
+#FLUX: --job-name=train
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_CACHE_DIR='$WORK/.cache'
 export WANDB_RUN_ID='${_WANDB_RUN_ID}'

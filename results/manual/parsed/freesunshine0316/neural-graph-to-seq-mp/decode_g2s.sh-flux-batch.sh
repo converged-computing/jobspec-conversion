@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-knife-1215
-#FLUX: --queue=gpu --gres=gpu:1 -C K80 --time=1:00:00 --output=decode.out --error=decode.err
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-leg-4961
+#FLUX: --queue=gpu
+#FLUX: -t=3600
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/lsong10/ws/exp.graph_to_seq/neural-graph-to-seq-mp'
 

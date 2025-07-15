@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: -c=16
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load compilers/armclang/24.04
 module load libraries/openmpi/5.0.3/armclang-24.04

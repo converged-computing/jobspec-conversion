@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-animal-5765
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-platanos-6080
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sassy-crick/easybob/automatic-build.sh

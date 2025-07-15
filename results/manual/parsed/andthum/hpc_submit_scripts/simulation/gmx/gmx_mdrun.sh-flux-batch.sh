@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="gmx_mdrun"
-#FLUX: --priority=16
+#FLUX: --job-name=gmx_mdrun
+#FLUX: --urgency=16
 
 thisfile=$(basename "${BASH_SOURCE[0]}")
 echo "${thisfile}"

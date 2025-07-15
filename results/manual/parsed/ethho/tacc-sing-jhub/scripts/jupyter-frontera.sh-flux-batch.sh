@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cat-1664
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-gato-5919
+#FLUX: --urgency=16
 
 echo "TACC: unloading xalt"
 module unload xalt

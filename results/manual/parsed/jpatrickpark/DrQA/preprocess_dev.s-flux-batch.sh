@@ -2,7 +2,7 @@
 #FLUX: --job-name=DrQA_preprocess
 #FLUX: -c=4
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CLASSPATH='$CLASSPATH:$SCRATCH/data/corenlp/*'
 

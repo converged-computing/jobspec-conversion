@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-sundae-0731
-#FLUX: --priority=16
+#FLUX: --job-name=grated-latke-1118
+#FLUX: --urgency=16
 
 module purge                           # Unload all modules
 module load lammps/may22               # Load LAMMPS

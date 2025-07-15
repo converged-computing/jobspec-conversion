@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Hunt_mumps_500
 #FLUX: --queue=cpu36c
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SLURM_NPROCS=`expr $SLURM_JOB_NUM_NODES \* $SLURM_NTASKS_PER_NODE`
 srun hostname -s > hosts.$SLURM_JOB_ID

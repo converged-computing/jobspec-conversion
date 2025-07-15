@@ -2,7 +2,7 @@
 #FLUX: --job-name=monoscene
 #FLUX: -c=10
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 cd /scratch/$USER/sscbench/MonoScene

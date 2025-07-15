@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-avocado-3481
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-bicycle-1037
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='singularity'
 export SINGULARITY_TMPDIR='$tmp'

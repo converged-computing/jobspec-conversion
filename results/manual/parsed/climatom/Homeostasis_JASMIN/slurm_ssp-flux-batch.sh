@@ -2,7 +2,7 @@
 #FLUX: --job-name=ssp_home
 #FLUX: --queue=short-serial
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add jaspy
 cd /home/users/tommatthews/Homeostasis/

@@ -2,7 +2,7 @@
 #FLUX: --job-name=DSIpoised
 #FLUX: --queue=short
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DM="/data/biggin/lina3015/densitymatch/"
 DEV="${DM}/development"

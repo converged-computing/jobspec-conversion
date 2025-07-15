@@ -2,7 +2,7 @@
 #FLUX: --job-name=NAME2_analysis
 #FLUX: --queue=depablo-tc
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONF="/project2/depablo/achabbi/scripts/conformation.py"
 module load gromacs/2022.4+oneapi-2021

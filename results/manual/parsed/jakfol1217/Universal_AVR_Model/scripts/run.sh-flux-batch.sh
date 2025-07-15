@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-underoos-9843
+#FLUX: --job-name=psycho-taco-2275
 #FLUX: -c=8
 #FLUX: --queue=short
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date "+%Y-%m-%d %H:%M:%S"
 echo "SLURMD_NODENAME: ${SLURMD_NODENAME}"

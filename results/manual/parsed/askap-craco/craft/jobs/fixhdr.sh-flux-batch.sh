@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-cupcake-2168
+#FLUX: --job-name=hanky-ricecake-6796
 #FLUX: -c=24
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ACES='/home/ban115/ACES'
 export CRAFT='/home/ban115/craft/craft/'

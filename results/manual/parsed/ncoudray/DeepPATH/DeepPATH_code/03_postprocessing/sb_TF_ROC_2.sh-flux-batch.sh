@@ -2,7 +2,7 @@
 #FLUX: --job-name=F001_valid
 #FLUX: -n=4
 #FLUX: --queue=gpu4_short,gpu8_short,gpu4_medium,gpu4_long,gpu8_long,gpu8_medium
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OUTFILENAME='$TEST_OUTPUT/out_filename_Stats.txt'
 export OUTFILENAMEUNIQ='$TEST_OUTPUT/out_filename_Stats_unique.txt'

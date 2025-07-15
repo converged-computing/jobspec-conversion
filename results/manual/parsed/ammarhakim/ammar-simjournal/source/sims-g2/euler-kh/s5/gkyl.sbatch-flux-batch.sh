@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-knife-1983
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-lemon-1629
+#FLUX: --urgency=16
 
 module load intel
 module load intel-mpi

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-staircase-4969
+#FLUX: --job-name=bricky-gato-5441
 #FLUX: -N=2
 #FLUX: -c=16
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

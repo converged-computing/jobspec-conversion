@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lemur-6020
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-puppy-7618
+#FLUX: --urgency=16
 
 source ~/.zshrc
 conda activate nf-core-atacseq-1.2.1

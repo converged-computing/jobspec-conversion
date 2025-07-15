@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leopard-8954
-#FLUX: --priority=16
+#FLUX: --job-name=fat-plant-5527
+#FLUX: --urgency=16
 
 mpi=$1
 omp=$2

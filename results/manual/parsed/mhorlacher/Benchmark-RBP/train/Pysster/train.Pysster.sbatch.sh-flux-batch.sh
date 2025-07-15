@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-animal-3154
-#FLUX: --priority=15
+#FLUX: --job-name=arid-sundae-4071
+#FLUX: --urgency=15
 
 sbatch --wait << EOF
 source $HOME/.bashrc

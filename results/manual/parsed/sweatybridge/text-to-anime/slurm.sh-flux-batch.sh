@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leg-3047
-#FLUX: --priority=16
+#FLUX: --job-name=angry-onion-0619
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

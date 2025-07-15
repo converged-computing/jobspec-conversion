@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-kerfuffle-3643
+#FLUX: --job-name=boopy-arm-3852
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:~/HFS/code/'
 

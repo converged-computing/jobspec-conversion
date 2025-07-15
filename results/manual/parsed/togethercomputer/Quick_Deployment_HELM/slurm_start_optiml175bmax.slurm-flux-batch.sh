@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=sphinx
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /nlp/scr2/nlp/fmStore/fm/dev/Quick_Deployment_HELM
 nvidia-smi

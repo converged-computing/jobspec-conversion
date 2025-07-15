@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-punk-6040
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-poodle-6857
+#FLUX: --urgency=16
 
 echo "using GPU ${CUDA_VISIBLE_DEVICES}"
 cd ../build/Linux

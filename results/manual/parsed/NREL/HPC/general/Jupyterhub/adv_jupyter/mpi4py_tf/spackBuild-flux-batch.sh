@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="jupyter"
+#FLUX: --job-name=jupyter
 #FLUX: --queue=short
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IDIR='/projects/hpcapps/tkaiser'
 export TMP='/scratch/$USER/tmp'

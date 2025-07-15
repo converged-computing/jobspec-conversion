@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-snack-0311
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-arm-7894
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='2'
 

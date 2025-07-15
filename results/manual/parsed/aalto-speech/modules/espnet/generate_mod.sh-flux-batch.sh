@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hobbit-3799
+#FLUX: --job-name=expensive-punk-2575
 #FLUX: -c=5
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$CUDAROOT/bin:$PATH'
 export LD_LIBRARY_PATH='$CUDAROOT/lib64:$LD_LIBRARY_PATH'

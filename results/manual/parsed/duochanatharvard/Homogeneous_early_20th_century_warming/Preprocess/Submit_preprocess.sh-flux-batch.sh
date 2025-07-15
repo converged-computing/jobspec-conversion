@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-peas-7813
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-signal-6872
+#FLUX: --urgency=16
 
 export partition_preprocess='huce_intel"          # TODO'
 export group_account='huybers_lab"                  # TODO'

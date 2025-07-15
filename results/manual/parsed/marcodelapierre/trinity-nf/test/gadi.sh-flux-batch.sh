@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-itch-4797
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-motorcycle-2116
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/marcodelapierre/trinity-nf/test/gadi.sh

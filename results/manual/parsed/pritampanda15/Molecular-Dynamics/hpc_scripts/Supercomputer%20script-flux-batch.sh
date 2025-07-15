@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-hobbit-5069
+#FLUX: --job-name=phat-spoon-0908
 #FLUX: --exclusive
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 

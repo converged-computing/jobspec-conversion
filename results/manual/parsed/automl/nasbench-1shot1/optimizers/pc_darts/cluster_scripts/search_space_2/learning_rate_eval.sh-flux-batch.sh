@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-bits-9043
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-cupcake-7750
+#FLUX: --urgency=16
 
 echo "Workingdir: $PWD";
 echo "Started at $(date)";

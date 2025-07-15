@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-spoon-6761
+#FLUX: --job-name=crunchy-bicycle-2069
 #FLUX: --queue=micro
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload intel-mpi/2019-intel
 module unload intel/19.0.5

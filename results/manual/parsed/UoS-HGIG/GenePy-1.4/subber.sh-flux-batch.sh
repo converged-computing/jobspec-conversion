@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-chair-3749
+#FLUX: --job-name=joyous-pot-8143
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load conda/py2-latest

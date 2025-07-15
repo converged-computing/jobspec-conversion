@@ -2,7 +2,7 @@
 #FLUX: --job-name=tractography
 #FLUX: -c=40
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export THREADS_PER_COMMAND='2'
 export BIDS_DIR='${BASEDIR}/data/local/bids'

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=lnopt
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/denoiser_recon/
 module load python/3.10 cuda cudnn nccl

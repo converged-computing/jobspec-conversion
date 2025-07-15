@@ -2,7 +2,7 @@
 #FLUX: --job-name=SHA-LSTM-D
 #FLUX: --queue=gpu_shared
 #FLUX: -t=216000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 seed=$SLURM_ARRAY_TASK_ID
 fn="save/DUTCH_$seed.pt"

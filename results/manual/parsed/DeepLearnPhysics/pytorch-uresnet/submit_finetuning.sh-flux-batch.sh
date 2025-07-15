@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORKDIR=/cluster/kappa/90-days-archive/wongjiradlab/twongj01/pytorch-uresnet
 DATADIR=/cluster/kappa/90-days-archive/wongjiradlab/twongj01/ssnet_training_data

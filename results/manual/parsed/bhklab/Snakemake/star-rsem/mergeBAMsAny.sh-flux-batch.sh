@@ -2,7 +2,7 @@
 #FLUX: --job-name=mergeBAMs
 #FLUX: --queue=all
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load samtools
 fn=$1

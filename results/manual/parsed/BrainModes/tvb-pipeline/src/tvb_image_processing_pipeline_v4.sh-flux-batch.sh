@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lamp-9654
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-pedo-5880
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='$containerstore"/tmp-singularity-cache'
 export SINGULARITY_TMPDIR='$containerstore"/tmp-singularity'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-gato-5202
+#FLUX: --job-name=anxious-parrot-9533
 #FLUX: -c=2
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularity exec --nv \
   --overlay /scratch/wz1492/overlay-25GB-500K.ext3:ro \

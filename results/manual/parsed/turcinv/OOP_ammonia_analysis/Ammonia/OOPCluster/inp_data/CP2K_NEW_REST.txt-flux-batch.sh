@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="ch102"
+#FLUX: --job-name=ch102
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 input=cluster_hybrid.inp
 log=cluster_hybrid.log

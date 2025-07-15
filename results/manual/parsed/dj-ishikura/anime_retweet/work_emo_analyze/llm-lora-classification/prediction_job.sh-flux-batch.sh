@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-parsnip-3740
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-buttface-5268
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dj-ishikura/anime_retweet/work_emo_analyze/llm-lora-classification/prediction_job.sh

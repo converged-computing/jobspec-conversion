@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-ricecake-6449
-#FLUX: --priority=16
+#FLUX: --job-name=arid-platanos-7122
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dianaicd/GenomicsMetagenomics_IndigenousBrazil/Admixture/optim_ngsAdmix_array.sh

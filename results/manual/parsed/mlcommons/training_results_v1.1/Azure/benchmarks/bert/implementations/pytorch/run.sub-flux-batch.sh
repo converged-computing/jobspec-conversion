@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-underoos-9375
+#FLUX: --job-name=butterscotch-onion-0881
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eux
 func_get_container_mounts() {

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="s3p-sid"
-#FLUX: --priority=16
+#FLUX: --job-name=s3p-sid
+#FLUX: --urgency=16
 
 export TORCH_HOME='.'
 

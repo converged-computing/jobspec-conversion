@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-despacito-9560
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-salad-1052
+#FLUX: --urgency=16
 
 BOOST_VER=1.67.0
 FFTW_VER=3.3.6.5

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-milkshake-8565
+#FLUX: --job-name=goodbye-staircase-7619
 #FLUX: -c=16
 #FLUX: --queue=dgx
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml r
 ml lang JuliaHPC

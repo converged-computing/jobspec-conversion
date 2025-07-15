@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-plant-9432
+#FLUX: --job-name=boopy-mango-2475
 #FLUX: --queue=batch
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOOLS_HOME='$HOME/bin'
 export PATH='$PATH:$TOOLS_HOME'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bert
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /scratch/zt2080/shizhe/eres/BERT-NER-Pytorch-master
 python run_ner_softmax.py --model_type=bert\

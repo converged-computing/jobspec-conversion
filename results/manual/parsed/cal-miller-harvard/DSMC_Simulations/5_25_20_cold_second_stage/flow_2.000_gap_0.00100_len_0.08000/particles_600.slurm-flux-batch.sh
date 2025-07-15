@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cherry-7910
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-butter-2985
+#FLUX: --urgency=16
 
 cd data
 pwd

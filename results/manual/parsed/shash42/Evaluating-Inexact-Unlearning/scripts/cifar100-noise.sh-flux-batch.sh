@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-blackbean-3362
+#FLUX: --job-name=lovable-ricecake-7403
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cat cifar100-noise.sh
 logdir='logs/Final-cifar100-resnet110'

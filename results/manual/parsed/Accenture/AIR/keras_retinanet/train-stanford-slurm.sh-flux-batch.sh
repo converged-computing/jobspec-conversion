@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='/scratch/cs/sar-uav-cv/.singularity'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lemon-4816
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-puppy-0014
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/andrei-rusu/contact-tracing-model/scripts/simulate/hpc_grid_run.pbs

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-bike-6060
+#FLUX: --job-name=bricky-frito-1992
 #FLUX: -n=100
 #FLUX: --queue=compute
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

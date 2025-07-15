@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=main_run
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SRCDIR=$HOME/repos/transformer_image_caption/src/
 cd $SRCDIR

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-chip-0449
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-underoos-3250
+#FLUX: --urgency=16
 
 export PYTHONPATH='/scratch/project_2002026/samuel/transformer-text-classifier/transformers3.4/lib/python3.7/site-packages:$PYTHONPATH'
 export TRAIN_DIR='data/eacl/$SRC'

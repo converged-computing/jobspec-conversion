@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-spoon-0745
+#FLUX: --job-name=milky-chip-8347
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export parent='/pfs/nobackup/home/p/pojedama/benchmarks/charmm-gui/gromacs'
 

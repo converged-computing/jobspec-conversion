@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-peanut-9176
+#FLUX: --job-name=spicy-lizard-2969
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_PCI_RELAXED_ORDERING='1'
 export UCX_IB_ENABLE_CUDA_AFFINITY='n'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nf
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export _JAVA_OPTIONS='-Djava.io.tmpdir=/blue/mcintyre/share/maize_ainsworth/ROZ_NF_mo17_cau'
 

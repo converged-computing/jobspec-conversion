@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-eagle-1127
+#FLUX: --job-name=goodbye-peanut-2363
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 setpkgs -a tensorflow_0.12
 source activate FCN

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-platanos-7875
+#FLUX: --job-name=goodbye-blackbean-9729
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CORES=16
 module load FastQC/0.11.7

@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=Finetune_imbalanced_bert_2017
 #FLUX: -c=4
-#FLUX: --queue=GPUNodes #RTX6000Node #GPUNodes
-#FLUX: --priority=16
+#FLUX: --queue=GPUNodes
+#FLUX: --urgency=16
 
 track_year=$1
 echo "starting ..."

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=CA1
 #FLUX: -t=720
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 START=$(date)
 mpiexec nrniv -mpi -quiet -python run_network.py simulation_config.json

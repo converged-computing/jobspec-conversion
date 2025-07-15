@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-spoon-2565
-#FLUX: --priority=16
+#FLUX: --job-name=angry-plant-7274
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choosehappy/public/DLLevelTutorial/BASE-qsub.pbs

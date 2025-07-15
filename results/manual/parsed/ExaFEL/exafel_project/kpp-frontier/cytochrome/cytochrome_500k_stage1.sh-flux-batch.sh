@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lentil-4789
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-peanut-butter-6889
+#FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/cytochrome/$SLURM_JOB_ID'
 export MTZ_PATH='$SCRATCH/cytochrome/${1}/out/ly99sim_all.mtz'

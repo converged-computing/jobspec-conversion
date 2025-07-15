@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pedo-5838
+#FLUX: --job-name=milky-arm-6117
 #FLUX: --queue=gpu
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ./OmniPose/run_train.sh

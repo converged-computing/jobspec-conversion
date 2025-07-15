@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=high_priority
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -ex
 sample_file=$1

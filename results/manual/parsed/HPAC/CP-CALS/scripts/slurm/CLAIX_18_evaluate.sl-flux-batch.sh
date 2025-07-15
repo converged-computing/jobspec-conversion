@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=c18m
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GOMP_CPU_AFFINITY='0 1 2 6 7 8 12 13 14 18 19 20 3 4 5 9 10 11 15 16 17 21 22 23"  # CLAIX18 xeon platinum 8160'
 

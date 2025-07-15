@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-kitty-1086
+#FLUX: --job-name=strawberry-knife-3072
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHIA8='/project/def-mdiamond/tomren/mathusla/pythia8308'
 export PYTHIA8DATA='${MG5_Dir}/HEPTools/pythia8/share/Pythia8/xmldoc'

@@ -4,7 +4,7 @@
 #FLUX: -n=2
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /lus/home/NAT/gda2204/mshukor/code/ofa_ours/run_scripts
 source /lus/home/NAT/gda2204/mshukor/.bashrc

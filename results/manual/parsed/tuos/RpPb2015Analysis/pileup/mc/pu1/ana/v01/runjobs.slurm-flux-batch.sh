@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pot-6727
+#FLUX: --job-name=expressive-banana-4721
 #FLUX: -t=244800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRAM_ARCH='slc6_amd64_gcc491'
 

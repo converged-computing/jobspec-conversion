@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="stpipe_crg"
-#FLUX: --priority=16
+#FLUX: --job-name=stpipe_crg
+#FLUX: --urgency=16
 
 export OPENBLAS_NUM_THREADS='1'
 export MKL_NUM_THREADS='1'

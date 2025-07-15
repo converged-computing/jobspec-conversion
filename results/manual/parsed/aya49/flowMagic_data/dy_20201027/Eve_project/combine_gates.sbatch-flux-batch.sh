@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-buttface-7378
-#FLUX: --priority=16
+#FLUX: --job-name=faux-bicycle-5086
+#FLUX: --urgency=16
 
 echo ${SLURM_ARRAY_TASK_ID}
 singularity exec -B /mnt/f/Brinkman\ group/COVID/data/structure_test/:/data/ \

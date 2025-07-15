@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chip-8111
+#FLUX: --job-name=persnickety-fork-2318
 #FLUX: -N=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='0'
 

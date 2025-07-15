@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=diffwave
 #FLUX: -t=259199
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 export HYDRA_FULL_ERROR='1'

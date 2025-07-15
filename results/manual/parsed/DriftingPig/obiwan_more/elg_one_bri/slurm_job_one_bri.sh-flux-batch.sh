@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-butter-4486
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-lettuce-9655
+#FLUX: --urgency=16
 
 export name_for_run='elg_one_brick'
 export randoms_db='None #run from a fits file'

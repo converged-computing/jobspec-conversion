@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=scavenge
 #FLUX: -t=10500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "I ran on:"
 cd $SLURM_SUBMIT_DIR

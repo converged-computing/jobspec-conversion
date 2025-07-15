@@ -2,7 +2,7 @@
 #FLUX: --job-name=mldock-evo
 #FLUX: --exclusive
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/users/${USER}/.local/bin:${PATH}'
 export PYTHONUSERBASE='/home/users/${USER}/.local'

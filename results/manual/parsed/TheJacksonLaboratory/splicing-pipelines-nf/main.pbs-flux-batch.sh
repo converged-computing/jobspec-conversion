@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-spoon-2983
+#FLUX: --job-name=gloopy-butter-2410
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_VER='20.04.1'
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=test
 #FLUX: --queue=pascalnodes
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WES_API_HOST='localhost:8082'
 export WES_API_AUTH='Header: value'

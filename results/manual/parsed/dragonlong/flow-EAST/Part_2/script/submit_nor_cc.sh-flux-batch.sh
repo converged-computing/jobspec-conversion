@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-buttface-2628
-#FLUX: --priority=16
+#FLUX: --job-name=fat-peas-1099
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dragonlong/flow-EAST/Part_2/script/submit_nor_cc.sh

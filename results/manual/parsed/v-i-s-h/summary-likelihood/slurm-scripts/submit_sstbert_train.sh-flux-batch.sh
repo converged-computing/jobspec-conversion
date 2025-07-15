@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-bike-8243
+#FLUX: --job-name=psycho-poodle-8797
 #FLUX: -c=4
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DISABLE_PBAR='1'
 

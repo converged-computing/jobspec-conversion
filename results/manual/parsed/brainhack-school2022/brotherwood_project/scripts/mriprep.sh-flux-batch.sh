@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-destiny-4494
+#FLUX: --job-name=lovable-lemon-9647
 #FLUX: -c=16
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'
 

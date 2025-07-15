@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-parrot-2683
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-rabbit-1069
+#FLUX: --urgency=16
 
 input_base_path="/scratch/gpfs/jbreda/ephys/kilosort/W122/preprocessed_W122_19523713" 
 repo_path="/scratch/gpfs/jbreda/ephys/kilosort/Brody_Lab_Ephys"

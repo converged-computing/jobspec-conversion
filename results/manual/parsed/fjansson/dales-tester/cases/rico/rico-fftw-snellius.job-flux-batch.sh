@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-sundae-5289
+#FLUX: --job-name=astute-poodle-1224
 #FLUX: -n=24
 #FLUX: --queue=thin
 #FLUX: -t=64800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ID=$SLURM_ARRAY_TASK_ID
 if [ -z "$TAG" ] 

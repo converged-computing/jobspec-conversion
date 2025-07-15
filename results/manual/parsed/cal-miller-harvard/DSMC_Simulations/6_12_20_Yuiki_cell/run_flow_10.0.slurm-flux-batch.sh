@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-chair-4401
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-leopard-8004
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

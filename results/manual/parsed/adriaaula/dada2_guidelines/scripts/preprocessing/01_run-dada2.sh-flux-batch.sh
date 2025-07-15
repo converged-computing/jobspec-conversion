@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=dada2
 #FLUX: -c=48
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module load R

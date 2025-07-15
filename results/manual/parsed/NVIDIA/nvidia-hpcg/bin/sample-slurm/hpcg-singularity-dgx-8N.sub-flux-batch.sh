@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="test-hpcg.8N"
+#FLUX: --job-name=test-hpcg.8N
 #FLUX: -t=2400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATESTRING=`date "+%Y-%m-%dT%H:%M:%S"`
 CONT='nvcr.io#nvidia/hpc-benchmarks:24.03.sif'

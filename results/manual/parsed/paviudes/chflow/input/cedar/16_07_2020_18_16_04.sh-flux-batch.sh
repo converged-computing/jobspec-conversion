@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-nunchucks-5881
+#FLUX: --job-name=lovely-peanut-1790
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel/2016.4 python/3.7.0 scipy-stack/2019a
 cd /project/def-jemerson/a77jain/chflow

@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module restore mymodules
 echo "Using GPU Device:"

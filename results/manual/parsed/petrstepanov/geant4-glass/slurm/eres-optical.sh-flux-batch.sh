@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-squidward-7652
+#FLUX: --job-name=doopy-cattywampus-5597
 #FLUX: --queue=priority
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NX=1
 NY=1

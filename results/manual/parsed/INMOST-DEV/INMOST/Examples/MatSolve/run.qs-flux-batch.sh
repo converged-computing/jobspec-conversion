@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-muffin-2305
-#FLUX: --priority=16
+#FLUX: --job-name=angry-destiny-1546
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/INMOST-DEV/INMOST/Examples/MatSolve/run.qs

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-diablo-2027
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-pedo-6174
+#FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-mango-1248
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-egg-3888
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ALPSCore/CT-INT/tutorials/triangle/job.sh

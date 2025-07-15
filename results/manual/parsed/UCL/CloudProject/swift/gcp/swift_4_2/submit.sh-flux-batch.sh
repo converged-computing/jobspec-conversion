@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-toaster-3106
+#FLUX: --job-name=expressive-rabbit-3826
 #FLUX: -N=4
 #FLUX: -n=8
 #FLUX: --exclusive
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module purge

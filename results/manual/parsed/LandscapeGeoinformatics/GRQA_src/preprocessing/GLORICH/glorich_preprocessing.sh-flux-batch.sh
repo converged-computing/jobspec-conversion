@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-carrot-1143
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-knife-5521
+#FLUX: --urgency=16
 
 ds_name="GLORICH"
 cd /gpfs/terra/export/samba/gis/holgerv/river_quality/scripts/preprocessing/${ds_name}

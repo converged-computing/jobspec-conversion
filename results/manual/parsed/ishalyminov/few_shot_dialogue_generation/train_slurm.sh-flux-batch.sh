@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-peanut-butter-1468
+#FLUX: --job-name=pusheena-knife-7462
 #FLUX: --queue=amd-longq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CUDA_VERSION=cuda10.0
 CUDA_VERSION_LONG=10.0.130

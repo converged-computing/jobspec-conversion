@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-egg-7514
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-car-7366
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'
 export KMP_BLOCKTIME='0'

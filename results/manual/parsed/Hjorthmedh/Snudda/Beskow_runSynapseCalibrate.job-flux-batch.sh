@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-platanos-5850
-#FLUX: --priority=16
+#FLUX: --job-name=confused-plant-4495
+#FLUX: --urgency=16
 
 export CRAYPE_LINK_TYPE='dynamic'
 export CRAY_ROOTFS='DSL'

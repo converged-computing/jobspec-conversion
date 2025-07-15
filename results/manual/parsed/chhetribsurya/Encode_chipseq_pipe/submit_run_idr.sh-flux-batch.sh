@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lemur-4809
-#FLUX: --priority=16
+#FLUX: --job-name=faux-butter-9715
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/chhetribsurya/Encode_chipseq_pipe/submit_run_idr.sh

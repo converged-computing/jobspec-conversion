@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-blackbean-9121
+#FLUX: --job-name=goodbye-itch-8115
 #FLUX: -N=9
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKLROOT='/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64'

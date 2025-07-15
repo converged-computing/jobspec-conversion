@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-ricecake-9656
+#FLUX: --job-name=expensive-carrot-2500
 #FLUX: -t=388800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 case `whoami` in
   nic261)

@@ -3,7 +3,7 @@
 #FLUX: -c=24
 #FLUX: --queue=compute
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CCS=(final_cc.diag final_cc.sr final_cc.Q final_cc.Q.prev.diag.yes final_cc.any final_cc.male final_cc.female final_cc.sub.C final_cc.sub.U final_cc.sub.M
  final_cc.sub.D final_quant.hard final_quant.loose final_quant.daily final_quant.SSS final_quant.daily.max final_quant.weekly.min final_cc.any.conts.relaxed final_cc.diag.conts.relaxed final_cc.sr.conts.relaxed

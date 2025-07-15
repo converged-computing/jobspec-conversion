@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-caramel-5599
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-lamp-5110
+#FLUX: --urgency=16
 
 date #print start time
 snakemake --cores 6

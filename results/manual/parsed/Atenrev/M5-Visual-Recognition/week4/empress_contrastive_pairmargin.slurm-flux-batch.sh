@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leader-2851
-#FLUX: --priority=16
+#FLUX: --job-name=blank-frito-9335
+#FLUX: --urgency=16
 
 python task_b.py \
     --loss "contrastive" \

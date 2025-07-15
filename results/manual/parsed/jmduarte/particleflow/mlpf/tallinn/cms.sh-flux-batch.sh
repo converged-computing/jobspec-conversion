@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-noodle-3362
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-pot-8487
+#FLUX: --urgency=16
 
 IMG=/home/software/singularity/tf26.simg:latest
 cd ~/particleflow

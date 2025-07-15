@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Genus-species
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:~/genmap-build/bin'
 

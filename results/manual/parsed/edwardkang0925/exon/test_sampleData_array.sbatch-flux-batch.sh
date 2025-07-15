@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chip-4147
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-earthworm-7547
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='/scratch/mblab/edwardkang/singularity/cache'
 

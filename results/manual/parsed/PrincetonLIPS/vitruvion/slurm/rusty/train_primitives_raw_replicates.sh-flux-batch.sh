@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_primitives_raw
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -u
 set -e

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lizard-1474
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-chip-4123
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/zhouh/chunk-nmt/beam_decode.sh

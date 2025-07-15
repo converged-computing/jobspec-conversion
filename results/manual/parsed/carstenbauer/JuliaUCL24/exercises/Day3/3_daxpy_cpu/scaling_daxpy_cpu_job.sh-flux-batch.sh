@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=normal
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_DEPOT_PATH=':/scratch/hpc-lco-usrtr/.julia_ucl'
 

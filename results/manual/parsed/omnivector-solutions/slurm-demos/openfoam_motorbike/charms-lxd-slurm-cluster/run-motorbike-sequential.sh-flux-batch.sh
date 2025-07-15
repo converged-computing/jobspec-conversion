@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-house-7534
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-itch-8091
+#FLUX: --urgency=16
 
 OPENFOAM_DIR=/nfs/OpenFOAM-10
 if [[ ! -d $OPENFOAM_DIR ]]

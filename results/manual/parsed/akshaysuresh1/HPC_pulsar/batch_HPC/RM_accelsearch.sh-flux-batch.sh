@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-mango-2250
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-destiny-1016
+#FLUX: --urgency=16
 
 SINGULARITY_CONT=$PROJECT/psrsearch.sif
 CMDDIR=$PROJECT/HPC_pulsar/cmd_files

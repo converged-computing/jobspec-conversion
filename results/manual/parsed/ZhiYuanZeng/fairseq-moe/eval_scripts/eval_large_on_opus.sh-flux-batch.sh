@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-butter-7577
+#FLUX: --job-name=loopy-chip-9325
 #FLUX: -N=4
 #FLUX: -c=9
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='WARN'
 

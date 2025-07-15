@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bike-2802
+#FLUX: --job-name=placid-lemur-8282
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 module load cray-python

@@ -3,7 +3,7 @@
 #FLUX: -n=2
 #FLUX: --queue=pfaendtner
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cat conditions.txt | while read line; do
   echo $line

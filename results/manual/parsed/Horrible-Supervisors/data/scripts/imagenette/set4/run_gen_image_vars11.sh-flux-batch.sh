@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=gen_image_var
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 nvidia-smi

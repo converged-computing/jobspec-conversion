@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-squidward-1413
+#FLUX: --job-name=bricky-diablo-3681
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MODEL_NAME="BioMedGPT-LM-7B"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

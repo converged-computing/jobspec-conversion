@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-peanut-4521
-#FLUX: --priority=16
+#FLUX: --job-name=arid-frito-7444
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/skchronicles/Pipeliner/pipeline_ctrl.sh

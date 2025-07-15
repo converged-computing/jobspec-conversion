@@ -2,7 +2,7 @@
 #FLUX: --job-name=index-count
 #FLUX: -N=16
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/home/dclure/history-of-literature'
 

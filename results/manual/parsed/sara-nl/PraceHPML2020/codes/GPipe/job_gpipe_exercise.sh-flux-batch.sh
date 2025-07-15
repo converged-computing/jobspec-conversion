@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lettuce-8561
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-earthworm-5532
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

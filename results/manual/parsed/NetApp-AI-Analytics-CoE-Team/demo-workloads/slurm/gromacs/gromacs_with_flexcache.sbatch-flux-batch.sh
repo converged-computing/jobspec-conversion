@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gromacs-threadmpi
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NTOMP=1
 mkdir -p /shared-non-cache/output/jobs/${SLURM_JOBID}

@@ -2,7 +2,7 @@
 #FLUX: --job-name=r_m4_all
 #FLUX: --queue=gpu-short
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CWD='$(pwd)'
 export RUNDIR='$SCRATCH/yolov5'

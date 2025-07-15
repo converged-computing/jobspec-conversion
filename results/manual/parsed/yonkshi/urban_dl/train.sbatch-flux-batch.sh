@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-ricecake-8662
+#FLUX: --job-name=anxious-parrot-7461
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting job ${SLURM_JOB_ID} on ${SLURMD_NODENAME}"
 nvidia-smi

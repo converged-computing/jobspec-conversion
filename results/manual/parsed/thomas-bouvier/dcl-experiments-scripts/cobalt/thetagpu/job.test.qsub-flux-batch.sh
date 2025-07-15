@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-parsnip-4330
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-cat-3677
+#FLUX: --urgency=16
 

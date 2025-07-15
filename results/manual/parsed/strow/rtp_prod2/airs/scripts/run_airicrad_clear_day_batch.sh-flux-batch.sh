@@ -2,7 +2,7 @@
 #FLUX: --job-name=RUN_CREATE_AIRS_CLEAR_DAY_RTP
 #FLUX: --queue=high_mem
 #FLUX: -t=14340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MATLAB=matlab
 MATOPT=' -nojvm -nodisplay -nosplash'

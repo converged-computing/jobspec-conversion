@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-animal-5521
+#FLUX: --job-name=angry-itch-3886
 #FLUX: -N=2
 #FLUX: -c=80
 #FLUX: --gpus-per-task=8
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nproc_per_node=8
 config=bs2048-warmup-opt

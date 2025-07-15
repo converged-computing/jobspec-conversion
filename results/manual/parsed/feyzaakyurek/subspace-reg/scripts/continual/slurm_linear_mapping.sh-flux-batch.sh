@@ -2,7 +2,7 @@
 #FLUX: --job-name=cont5linmem
 #FLUX: -c=4
 #FLUX: -t=1296000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CURRENT="$PWD"
 DUMPED_PATH="$CURRENT/dumped"

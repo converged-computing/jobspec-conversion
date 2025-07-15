@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-butter-9953
+#FLUX: --job-name=misunderstood-muffin-6072
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate mm

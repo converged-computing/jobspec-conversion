@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-gato-2656
-#FLUX: --priority=16
+#FLUX: --job-name=blank-taco-2935
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

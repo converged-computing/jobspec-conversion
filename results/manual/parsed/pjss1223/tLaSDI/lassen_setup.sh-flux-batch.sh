@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-staircase-7357
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-lemon-6310
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pjss1223/tLaSDI/lassen_setup.sh

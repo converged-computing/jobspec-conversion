@@ -2,7 +2,7 @@
 #FLUX: --job-name=gpu
 #FLUX: --queue=gpuq
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 image="docker://nvcr.io/hpc/gromacs:2018.2"
 module load singularity

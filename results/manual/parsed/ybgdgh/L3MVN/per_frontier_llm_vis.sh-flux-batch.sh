@@ -2,7 +2,7 @@
 #FLUX: --job-name=llm_hm_without_low_score
 #FLUX: --queue=gpu
 #FLUX: -t=255900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GLOG_minloglevel='2'
 export MAGNUM_LOG='quiet'

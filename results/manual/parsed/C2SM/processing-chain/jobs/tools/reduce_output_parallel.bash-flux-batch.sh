@@ -3,7 +3,7 @@
 #FLUX: -c=36
 #FLUX: --queue=normal
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EASYBUILD_PREFIX='/store/empa/em05/easybuild'
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=eady
 #FLUX: -c=4
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge > /dev/null 2>&1
 module load spack/0.1

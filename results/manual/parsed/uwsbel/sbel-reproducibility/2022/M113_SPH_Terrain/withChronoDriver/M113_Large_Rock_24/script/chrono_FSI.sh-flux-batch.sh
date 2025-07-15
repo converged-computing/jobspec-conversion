@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-avocado-5399
+#FLUX: --job-name=dirty-toaster-3599
 #FLUX: --queue=sbel
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nvidia/cuda/11.3.1
 mkdir ./DEMO_OUTPUT/FSI_M113/M113_Rock_24/script

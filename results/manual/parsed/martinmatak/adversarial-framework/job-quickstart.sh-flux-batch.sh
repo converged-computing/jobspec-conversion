@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-bicycle-0035
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-mango-7176
+#FLUX: --urgency=16
 
 module purge
 module load intel/18 python/3.6.4 

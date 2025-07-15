@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leg-5909
+#FLUX: --job-name=astute-house-3183
 #FLUX: -c=8
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPLBACKEND='agg'
 

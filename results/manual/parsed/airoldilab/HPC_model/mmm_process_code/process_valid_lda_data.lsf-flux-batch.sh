@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-onion-0993
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-snack-6424
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/airoldilab/HPC_model/mmm_process_code/process_valid_lda_data.lsf

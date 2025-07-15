@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="FC0"
+#FLUX: --job-name=FC0
 #FLUX: -N=4
 #FLUX: --queue=sched_mit_hill
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /home/glwagner/software/miniconda3/etc/profile.d/conda.sh
 conda activate dedalus

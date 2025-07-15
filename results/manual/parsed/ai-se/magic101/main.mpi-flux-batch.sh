@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-peanut-3668
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-bicycle-4216
+#FLUX: --urgency=16
 
 cd /home/txia4/magic101
 source addroot.sh

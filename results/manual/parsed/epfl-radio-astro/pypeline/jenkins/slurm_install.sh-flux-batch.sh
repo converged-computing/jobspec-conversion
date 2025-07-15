@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-poodle-0616
+#FLUX: --job-name=hello-chair-0470
 #FLUX: -c=20
 #FLUX: --queue=build
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SCRIPT=$(realpath "$0")
 SCRIPT_DIR=$(dirname "$SCRIPT")

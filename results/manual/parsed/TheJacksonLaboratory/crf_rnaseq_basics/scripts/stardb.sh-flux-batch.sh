@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-omelette-8358
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-spoon-9298
+#FLUX: --urgency=16
 
 cpus=16                   ## must match #SBATCH -c
 index_n_bases=14          ## --genomeSAindexNbases [14]; set to min(14, log2(GenomeLength)/2 - 1)

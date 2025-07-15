@@ -2,7 +2,7 @@
 #FLUX: --job-name=GN_coeff
 #FLUX: -c=8
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SLURM_ARRAY_TASK_ID is " $SLURM_ARRAY_TASK_ID
 module load matlab

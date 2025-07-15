@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-car-0884
+#FLUX: --job-name=faux-kitty-0095
 #FLUX: --queue=gpu1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='./'
 

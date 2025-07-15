@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-carrot-5571
+#FLUX: --job-name=strawberry-hope-7994
 #FLUX: -c=4
 #FLUX: --gpus-per-task=1
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$OUT/rtg.zip'
 

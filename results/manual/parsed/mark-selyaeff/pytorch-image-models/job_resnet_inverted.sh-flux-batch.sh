@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /scratch/project_2004728/envs/adv_env/bin/activate
 echo "Environment activated;\n"

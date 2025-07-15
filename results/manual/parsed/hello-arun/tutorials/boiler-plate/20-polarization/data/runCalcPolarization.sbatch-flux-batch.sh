@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="__jobName"
+#FLUX: --job-name=__jobName
 #FLUX: --queue=batch
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VASP_CMD='/ibex/scratch/jangira/vasp/sw/vasp.5.4.4/bin/vasp_std'
 export OMP_NUM_THREADS='1'

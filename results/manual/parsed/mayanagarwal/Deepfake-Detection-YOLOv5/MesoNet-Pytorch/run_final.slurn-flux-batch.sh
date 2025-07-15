@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-car-2977
+#FLUX: --job-name=reclusive-plant-7574
 #FLUX: -n=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load fosscuda/2019b

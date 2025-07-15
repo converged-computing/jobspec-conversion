@@ -2,7 +2,7 @@
 #FLUX: --job-name=GEM
 #FLUX: --queue=batch
 #FLUX: -t=252000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 i=$SLURM_ARRAY_TASK_ID
 cd /scratch/ahc87874/Replication

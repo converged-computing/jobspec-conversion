@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-lettuce-7421
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-snack-1381
+#FLUX: --urgency=16
 
 module load cmake/3.15.3
 module load gcc/7.5.0

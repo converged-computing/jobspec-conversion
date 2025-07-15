@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-mango-6720
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-blackbean-7172
+#FLUX: --urgency=16
 
 export PATH='/vol/bitbucket/g21mscprj03/sslvenv/bin/:$PATH'
 

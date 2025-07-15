@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-destiny-6125
+#FLUX: --job-name=phat-citrus-5099
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load system py-globus-cli/1.9.0_py36
 if [ $# -ne 1 ]; then

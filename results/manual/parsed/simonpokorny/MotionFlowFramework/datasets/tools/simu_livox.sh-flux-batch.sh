@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-poo-9276
+#FLUX: --job-name=misunderstood-kerfuffle-4087
 #FLUX: -c=4
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml torchsparse
 cd $HOME

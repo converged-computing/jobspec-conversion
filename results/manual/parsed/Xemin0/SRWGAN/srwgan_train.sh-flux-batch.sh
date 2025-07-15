@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-parsnip-5320
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-eagle-4690
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

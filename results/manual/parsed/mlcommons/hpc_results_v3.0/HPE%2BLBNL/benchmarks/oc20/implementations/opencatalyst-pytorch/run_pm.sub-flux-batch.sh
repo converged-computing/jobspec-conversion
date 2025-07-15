@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-leader-6572
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-puppy-9665
+#FLUX: --urgency=16
 
 export MODEL_NAME='oc20'
 export MODEL_FRAMEWORK='pytorch'

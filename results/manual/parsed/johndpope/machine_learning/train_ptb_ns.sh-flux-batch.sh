@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-leg-2700
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-house-9863
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/johndpope/machine_learning/train_ptb_ns.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ghru_assembly
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOOL_NAME='nextflow'
 

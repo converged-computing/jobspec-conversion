@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pretrain_cont_norm_kq
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularity exec \
     --nv --overlay /scratch/nv2099/images/overlay-50G-10M.ext3:ro \

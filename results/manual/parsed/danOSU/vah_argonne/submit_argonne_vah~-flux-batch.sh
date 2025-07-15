@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-snack-6448
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-cherry-4811
+#FLUX: --urgency=16
 
 module reset
 module load singularity

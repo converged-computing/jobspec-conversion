@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bact_assembly
 #FLUX: -t=255600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SNK_DIR="/hpcfs/users/a1667917/Bacteria_Multiplex/Nanopore_Bacterial_Assembly_Pipeline"
 PROF_DIR="/hpcfs/users/a1667917/snakemake_slurm_profile"

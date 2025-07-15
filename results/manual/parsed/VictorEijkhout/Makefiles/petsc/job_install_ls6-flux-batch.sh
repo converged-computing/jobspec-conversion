@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cattywampus-6866
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-cupcake-7104
+#FLUX: --urgency=16
 
 module list
 pwd

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-onion-6243
-#FLUX: --priority=16
+#FLUX: --job-name=fat-poo-7427
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-frito-1751
+#FLUX: --job-name=reclusive-peas-9690
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 function error
 {

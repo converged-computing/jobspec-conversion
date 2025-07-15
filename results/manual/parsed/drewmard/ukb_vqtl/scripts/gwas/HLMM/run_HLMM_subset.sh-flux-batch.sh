@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-milkshake-7996
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-knife-8437
+#FLUX: --urgency=16
 
 arg1=$SLURM_ARRAY_TASK_ID
 phenoName=$1

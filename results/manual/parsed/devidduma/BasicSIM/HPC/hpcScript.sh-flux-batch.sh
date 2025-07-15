@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-sundae-2633
+#FLUX: --job-name=bumfuzzled-plant-6598
 #FLUX: --queue=computeq
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load matlab

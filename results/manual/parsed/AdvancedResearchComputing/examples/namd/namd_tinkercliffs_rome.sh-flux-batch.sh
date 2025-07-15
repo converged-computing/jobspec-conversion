@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-frito-5715
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-omelette-1750
+#FLUX: --urgency=16
 
 module reset
 module load NAMD

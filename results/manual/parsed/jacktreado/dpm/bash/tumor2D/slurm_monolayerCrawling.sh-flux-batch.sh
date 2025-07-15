@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=crawlingMonoProcess
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load MATLAB
 netid="$USER"

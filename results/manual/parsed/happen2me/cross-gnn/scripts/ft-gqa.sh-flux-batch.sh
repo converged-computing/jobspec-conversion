@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gqa
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOKENIZERS_PARALLELISM='true'
 export WANDB__SERVICE_WAIT='300'

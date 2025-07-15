@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cherry-8556
+#FLUX: --job-name=expensive-pedo-3124
 #FLUX: --queue=maxwell
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load GCC Singularity git
 git clone https://github.com/tensorflow/models.git

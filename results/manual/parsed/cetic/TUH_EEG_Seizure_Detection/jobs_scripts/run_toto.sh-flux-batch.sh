@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=multigpu_cnn
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use "$HOME"/modulefiles/
 module load python/3.8.6rc1

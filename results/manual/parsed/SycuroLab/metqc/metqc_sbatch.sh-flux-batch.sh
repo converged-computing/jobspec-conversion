@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-egg-2148
+#FLUX: --job-name=hello-salad-4861
 #FLUX: --queue=synergy
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 log_dir="$(pwd)"
 log_file="logs/metqc-analysis.log.txt"

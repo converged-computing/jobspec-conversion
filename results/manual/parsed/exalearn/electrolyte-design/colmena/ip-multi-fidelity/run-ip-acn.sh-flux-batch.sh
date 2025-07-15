@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-destiny-5334
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-pot-8150
+#FLUX: --urgency=16
 

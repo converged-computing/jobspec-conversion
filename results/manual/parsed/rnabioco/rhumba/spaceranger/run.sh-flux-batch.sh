@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-hobbit-8666
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-ricecake-7969
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rnabioco/rhumba/spaceranger/run.sh

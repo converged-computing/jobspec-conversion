@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="cifti_parcellate"
+#FLUX: --job-name=cifti_parcellate
 #FLUX: -n=80
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export parcellation_dir='${BASEDIR}/templates/parcellations'
 export dlabel_file='tpl-fsLR_res-91k_atlas-GlasserTianS2_dseg.dlabel.nii'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-eagle-4442
-#FLUX: --priority=16
+#FLUX: --job-name=blank-hope-4588
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_btl_openib_if_include='mlx5_4:1'

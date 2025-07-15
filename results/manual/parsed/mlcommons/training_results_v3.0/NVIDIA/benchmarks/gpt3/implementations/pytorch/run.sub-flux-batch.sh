@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-carrot-3414
+#FLUX: --job-name=eccentric-leader-9771
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SHARE_RERUNS='${SHARE_RERUNS:=0}'
 export MLPERF_SLURM_FIRSTNODE='$(scontrol show hostnames "${SLURM_JOB_NODELIST-}" | head -n1)'

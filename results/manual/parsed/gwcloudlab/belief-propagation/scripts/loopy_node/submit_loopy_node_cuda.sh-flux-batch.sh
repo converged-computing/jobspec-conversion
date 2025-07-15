@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-eagle-5751
+#FLUX: --job-name=grated-staircase-4776
 #FLUX: -t=25200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/toolkit
 module load libxml2

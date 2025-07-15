@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-peanut-5815
+#FLUX: --job-name=loopy-house-9870
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PROJ_DIR="$HOME/projects/1a"
 BIN_DIR="$PROJ_DIR/bin"

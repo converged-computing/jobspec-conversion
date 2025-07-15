@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Conf_EukBook
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo -e "\n[[ INSTALL MINIO CLIENT ]]\n"
 scp ${SLURM_SUBMIT_HOST}:~/MinIO_secret.sh .

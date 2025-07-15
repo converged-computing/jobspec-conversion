@@ -2,7 +2,7 @@
 #FLUX: --job-name=vasc_build_mpich
 #FLUX: --queue=gpu
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload mvapich2/2.3.3/intel-19.0.5
 module load cmake git hwloc parallel gcc mpich

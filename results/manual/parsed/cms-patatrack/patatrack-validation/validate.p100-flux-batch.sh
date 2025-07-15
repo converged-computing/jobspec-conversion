@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-nalgas-7336
-#FLUX: --queue=gpu --nodes=1 --tasks-per-node=1 --cpus-per-task=20 --gres=gpu:2 --constraint=p100 -o validation.%j.out -e validation.%j.err
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-punk-2334
+#FLUX: -c=20
+#FLUX: --queue=gpu
+#FLUX: --urgency=16
 
 module purge
 module load gcc/8.3.0

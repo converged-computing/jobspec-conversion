@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-kitty-1877
+#FLUX: --job-name=wobbly-cattywampus-6432
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(hostname)'
 

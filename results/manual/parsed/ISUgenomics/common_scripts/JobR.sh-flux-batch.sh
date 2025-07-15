@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lentil-8313
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-lamp-5494
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ISUgenomics/common_scripts/JobR.sh

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-peas-4954
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-pot-5932
+#FLUX: --urgency=16
 

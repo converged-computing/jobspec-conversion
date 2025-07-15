@@ -2,7 +2,7 @@
 #FLUX: --job-name=aco_cuda_p1
 #FLUX: --queue=gpu2080
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load GCC/8.2.0-2.31.1
 module load GCCcore/8.2.0

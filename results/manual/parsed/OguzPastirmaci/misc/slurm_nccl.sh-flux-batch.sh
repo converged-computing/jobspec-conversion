@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-carrot-1744
+#FLUX: --job-name=stanky-mango-7034
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RX_QUEUE_LEN='8192 \'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-banana-9988
+#FLUX: --job-name=sticky-buttface-0954
 #FLUX: -c=8
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/hkshvrz/projects/def-m2nagapp/hkshvrz/jit-bugpred/venv/bin/activate
 which python

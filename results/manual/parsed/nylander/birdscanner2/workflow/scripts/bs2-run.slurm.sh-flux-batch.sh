@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-peanut-4443
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-mango-5129
+#FLUX: --urgency=16
 
 module load bioinfo-tools
 module load snakemake/5.10.0

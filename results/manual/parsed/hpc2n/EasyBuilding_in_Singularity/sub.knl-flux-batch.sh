@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-parrot-2336
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-platanos-7474
+#FLUX: --urgency=16
 
 export SBATCH_PARTITION='knl'
 export SBATCH_ACCOUNT='$SLURM_JOB_ACCOUNT'

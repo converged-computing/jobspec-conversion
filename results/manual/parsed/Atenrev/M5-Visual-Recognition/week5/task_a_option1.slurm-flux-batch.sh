@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-soup-0161
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-leopard-9304
+#FLUX: --urgency=16
 
 python task_a.py \
     --mode image_to_text  \

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-nunchucks-9943
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-lettuce-9187
+#FLUX: --urgency=16
 
 source activate dac
 experi="1D"

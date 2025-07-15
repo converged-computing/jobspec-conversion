@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-fudge-5533
+#FLUX: --job-name=swampy-buttface-1548
 #FLUX: --queue=dgx
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 export TORCHELASTIC_ERROR_FILE='${OUTPUT_BASEPATH}/torch-elastic-error.json'

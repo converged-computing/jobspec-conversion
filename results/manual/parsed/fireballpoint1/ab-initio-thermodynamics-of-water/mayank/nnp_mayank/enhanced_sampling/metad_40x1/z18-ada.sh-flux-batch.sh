@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-cherry-8682
+#FLUX: --job-name=chocolate-carrot-8968
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load u18/openmpi/4.1.2
 mpirun -np 15 /opt/n2p2/bin/lmp_mpi < nvt_share_H_heated_cooled_away_close_metad_130_136_129_48_0-2_0-3_500_40000_index1.lmp

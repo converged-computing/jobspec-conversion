@@ -2,7 +2,7 @@
 #FLUX: --job-name=ehreact
 #FLUX: --queue=standard
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='${LOCAL_SCRATCH}'
 

@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=tesla
 #FLUX: -t=90000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 master_node=${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}
 dist_url="tcp://"

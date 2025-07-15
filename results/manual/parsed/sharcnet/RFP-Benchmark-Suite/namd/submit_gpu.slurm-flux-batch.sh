@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-plant-2639
+#FLUX: --job-name=buttery-platanos-9026
 #FLUX: -c=12
 #FLUX: -t=3000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load StdEnv/2023
 module load cuda/12.2

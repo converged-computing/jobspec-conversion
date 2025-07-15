@@ -2,7 +2,7 @@
 #FLUX: --job-name=in5550
 #FLUX: -N=2
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ${HOME}/.bashrc
 if [ -n "${SLURM_JOB_NODELIST}" ]; then

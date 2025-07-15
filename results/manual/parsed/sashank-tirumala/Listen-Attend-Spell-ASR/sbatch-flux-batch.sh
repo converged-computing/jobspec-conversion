@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-buttface-2011
+#FLUX: --job-name=phat-underoos-0672
 #FLUX: --queue=GPU
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 set -u

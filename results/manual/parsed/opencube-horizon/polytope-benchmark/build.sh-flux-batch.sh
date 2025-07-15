@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=build
 #FLUX: -n=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$BUNDLE_PATH/install/lib64:$LD_LIBRARY_PATH'
 

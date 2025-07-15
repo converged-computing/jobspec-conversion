@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=summarize_mixtral
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TF_CPP_MIN_LOG_LEVEL='2'
 export ENV='outlines'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-cinnamonbun-8908
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-knife-8305
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hpcugent/vsc_user_docs/mkdocs/docs/HPC/examples/MATLAB/jobscript.sh

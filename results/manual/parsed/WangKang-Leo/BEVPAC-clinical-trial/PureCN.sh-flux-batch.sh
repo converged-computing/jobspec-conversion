@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-poodle-9099
-#FLUX: --priority=16
+#FLUX: --job-name=red-cupcake-9200
+#FLUX: --urgency=16
 
 export NXF_OFFLINE='TRUE'
 export NXF_HOME='/castor/project/proj/nobackup/nf-core2/nf-core-sarek-2.7.1/workflow/'

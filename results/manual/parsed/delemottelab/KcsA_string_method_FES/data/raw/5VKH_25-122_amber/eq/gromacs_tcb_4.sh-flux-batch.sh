@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-egg-1950
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-fudge-1527
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.2

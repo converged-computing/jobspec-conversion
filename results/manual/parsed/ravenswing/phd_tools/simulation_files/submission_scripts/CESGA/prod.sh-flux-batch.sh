@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-chip-2234
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-lemur-4671
+#FLUX: --urgency=16
 
 export GMX='gmx_mpi'
 

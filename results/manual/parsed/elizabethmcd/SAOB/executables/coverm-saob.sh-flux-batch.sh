@@ -2,7 +2,7 @@
 #FLUX: --job-name=coverm-saob
 #FLUX: -c=8
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 project_path="/project/6049207/AD_metagenome-Elizabeth"
 mapping_path="/home/eamcdani/scratch/mappingResults"

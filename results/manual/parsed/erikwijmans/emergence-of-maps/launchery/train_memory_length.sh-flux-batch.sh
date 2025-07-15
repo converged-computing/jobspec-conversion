@@ -5,7 +5,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=learnfair,scavenge
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/usr/lib/x86_64-linux-gnu/nvidia-opengl:${LD_LIBRARY_PATH}'
 export GLOG_minloglevel='3'

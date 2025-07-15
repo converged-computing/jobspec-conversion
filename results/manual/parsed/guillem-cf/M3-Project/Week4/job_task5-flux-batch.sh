@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-dog-5894
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-staircase-2328
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate m3

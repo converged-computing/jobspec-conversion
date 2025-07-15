@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-signal-8067
-#FLUX: --priority=16
+#FLUX: --job-name=phat-latke-5892
+#FLUX: --urgency=16
 

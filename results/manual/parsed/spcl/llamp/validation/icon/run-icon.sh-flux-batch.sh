@@ -3,7 +3,7 @@
 #FLUX: -N=8
 #FLUX: --queue=amdrtx
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 export ICON_THREADS='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ATAC_snakemake
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load genomics/ngs/samtools/1.11/gcc-8.3.1

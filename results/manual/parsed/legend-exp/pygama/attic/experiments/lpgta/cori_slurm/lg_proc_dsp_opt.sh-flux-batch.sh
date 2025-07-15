@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-milkshake-7770
+#FLUX: --job-name=bloated-blackbean-3706
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /global/u1/l/lgprod/pygama/experiments/lpgta
 date

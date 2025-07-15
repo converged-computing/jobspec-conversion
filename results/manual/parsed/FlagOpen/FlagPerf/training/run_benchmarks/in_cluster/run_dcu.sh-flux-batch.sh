@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-poo-4394
+#FLUX: --job-name=nerdy-arm-5835
 #FLUX: -c=8
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "START TIME: $(date)"
 hostfile=./hostfile/$SLURM_JOB_ID

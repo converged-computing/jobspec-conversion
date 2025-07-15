@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --queue=cpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "start"
 date

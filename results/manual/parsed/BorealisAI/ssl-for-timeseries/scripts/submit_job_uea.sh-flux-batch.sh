@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-malarkey-1681
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-plant-6561
+#FLUX: --urgency=16
 
 for seed in 1 2 3 4 5
 do

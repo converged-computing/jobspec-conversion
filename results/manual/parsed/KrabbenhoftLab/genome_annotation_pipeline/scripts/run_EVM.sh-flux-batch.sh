@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-house-1686
+#FLUX: --job-name=goodbye-kerfuffle-1863
 #FLUX: --queue=general-compute
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SPECIES=$1 # short name for your species
 GENOME_DIR=$2 # directory containing your genome assembly

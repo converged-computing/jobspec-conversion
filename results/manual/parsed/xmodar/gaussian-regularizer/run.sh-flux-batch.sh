@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=VGG_GNM
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load applications-extra

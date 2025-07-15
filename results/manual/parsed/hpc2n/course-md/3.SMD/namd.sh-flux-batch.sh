@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-animal-7787
+#FLUX: --job-name=reclusive-buttface-6405
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml purge > /dev/null 2>&1
 ml GCC/10.3.0  OpenMPI/4.1.1

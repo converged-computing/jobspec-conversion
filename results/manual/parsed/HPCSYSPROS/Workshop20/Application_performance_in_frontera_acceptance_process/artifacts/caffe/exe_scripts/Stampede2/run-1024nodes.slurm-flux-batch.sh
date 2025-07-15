@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-citrus-2720
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-peas-1662
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='48'
 export PATH='/scratch/00946/zzhang/skylake/caffe/protocol-buffer/bin:$PATH'

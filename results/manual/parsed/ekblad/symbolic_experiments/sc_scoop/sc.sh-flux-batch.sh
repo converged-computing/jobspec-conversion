@@ -2,7 +2,7 @@
 #FLUX: --job-name=symb_class
 #FLUX: -N=3
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$GDIR/miniconda3/bin:$PATH'
 

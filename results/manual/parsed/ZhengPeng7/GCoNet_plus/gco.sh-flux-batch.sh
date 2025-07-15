@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-lamp-2266
+#FLUX: --job-name=frigid-earthworm-6472
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 method="gconet_$1"
 size=256

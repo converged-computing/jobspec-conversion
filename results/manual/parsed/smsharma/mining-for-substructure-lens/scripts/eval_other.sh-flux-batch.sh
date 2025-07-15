@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=slr-e-other
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate lensing
 base=/scratch/jb6504/recycling_strong_lensing/

@@ -2,7 +2,7 @@
 #FLUX: --job-name=hw4_v100_computations
 #FLUX: -c=8
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 singularity exec --nv \

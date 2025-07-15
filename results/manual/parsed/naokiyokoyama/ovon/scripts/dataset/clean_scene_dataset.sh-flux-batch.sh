@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-salad-1258
+#FLUX: --job-name=misunderstood-lemon-8572
 #FLUX: -c=7
 #FLUX: --queue=short
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GLOG_minloglevel='2'
 export HABITAT_SIM_LOG='quiet'

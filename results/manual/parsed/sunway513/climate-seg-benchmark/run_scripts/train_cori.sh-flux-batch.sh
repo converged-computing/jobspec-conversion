@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-house-0408
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-hippo-9005
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='68'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-punk-8519
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-latke-9212
+#FLUX: --urgency=16
 
 ref=/mnt/NEOGENE3/share/ref/genomes/hsa/hs37d5.fa
 bwa=/usr/local/sw/bwa-0.7.15/bwa

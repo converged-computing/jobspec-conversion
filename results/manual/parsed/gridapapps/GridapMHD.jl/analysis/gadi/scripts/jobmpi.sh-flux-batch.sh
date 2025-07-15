@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-knife-7275
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-sundae-2266
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gridapapps/GridapMHD.jl/analysis/gadi/scripts/jobmpi.sh

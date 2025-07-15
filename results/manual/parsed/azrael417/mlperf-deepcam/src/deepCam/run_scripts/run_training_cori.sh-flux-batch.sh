@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lentil-5547
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-lemon-4644
+#FLUX: --urgency=16
 
 export PROJ_LIB='/global/homes/t/tkurth/.conda/envs/mlperf_deepcam/share/basemap'
 export PYTHONPATH='/global/homes/t/tkurth/.conda/envs/mlperf_deepcam/lib/python3.7/site-packages:${PYTHONPATH}'

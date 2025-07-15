@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-bits-4598
+#FLUX: --job-name=hanky-toaster-6764
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/anaconda3/bin/activate
 conda activate DRACO

@@ -2,7 +2,7 @@
 #FLUX: --job-name=lorenz
 #FLUX: --queue=long
 #FLUX: -t=64800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/3.7

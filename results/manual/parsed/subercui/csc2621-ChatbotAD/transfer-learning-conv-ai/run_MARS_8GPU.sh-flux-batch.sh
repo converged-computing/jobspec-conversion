@@ -2,7 +2,7 @@
 #FLUX: --job-name=gpt2_convai
 #FLUX: -c=16
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /h/haotian/Code/csc2621-ChatbotAD/transfer-learning-conv-ai
 source /pkgs/anaconda3/bin/activate csc2621

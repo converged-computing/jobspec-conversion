@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="dask-workers"
+#FLUX: --job-name=dask-workers
 #FLUX: -N=2
 #FLUX: --queue=compute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODULEPATH='/share/apps/compute/modulefiles/applications:$MODULEPATH'
 

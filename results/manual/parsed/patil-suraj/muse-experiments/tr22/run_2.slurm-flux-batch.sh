@@ -2,7 +2,7 @@
 #FLUX: --job-name=test-datacomp-clip-f16-coco-val
 #FLUX: -c=96
 #FLUX: --queue=production-cluster
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='${SLURM_STEP_GPUS:-$SLURM_JOB_GPUS}'
 export LAUNCHER='python -u -m torch.distributed.run \'

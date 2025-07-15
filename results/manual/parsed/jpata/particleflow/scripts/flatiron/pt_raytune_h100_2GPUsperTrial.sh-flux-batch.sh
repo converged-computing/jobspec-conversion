@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-peanut-butter-6279
+#FLUX: --job-name=blank-destiny-7394
 #FLUX: -c=64
 #FLUX: --gpus-per-task=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

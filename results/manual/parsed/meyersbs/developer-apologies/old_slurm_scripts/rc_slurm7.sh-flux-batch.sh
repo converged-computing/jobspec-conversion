@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-signal-0665
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-butter-6815
+#FLUX: --urgency=16
 
 echo "Loading environment"
 spack env activate mistakes-21091601

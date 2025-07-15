@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-eagle-9581
+#FLUX: --job-name=eccentric-chip-8269
 #FLUX: -N=4
 #FLUX: --queue=test
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 RUN_FT_ON=${RUN_FT_ON:-true}
 RUN_FT_OFF=${RUN_FT_OFF:-true}

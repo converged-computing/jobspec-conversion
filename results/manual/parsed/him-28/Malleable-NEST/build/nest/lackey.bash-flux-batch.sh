@@ -2,7 +2,7 @@
 #FLUX: --job-name=lackey
 #FLUX: -n=48
 #FLUX: -t=61500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

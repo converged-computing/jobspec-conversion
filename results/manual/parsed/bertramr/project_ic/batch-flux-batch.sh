@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lemur-7214
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-bits-9160
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bertramr/project_ic/batch

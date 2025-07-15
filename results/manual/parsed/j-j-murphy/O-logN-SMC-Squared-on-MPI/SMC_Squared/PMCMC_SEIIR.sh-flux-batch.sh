@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-kitty-4589
+#FLUX: --job-name=moolicious-general-0119
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load apps/anaconda3/5.2.0
 module load mpi/openmpi/1.10.7/gcc-5.5.0

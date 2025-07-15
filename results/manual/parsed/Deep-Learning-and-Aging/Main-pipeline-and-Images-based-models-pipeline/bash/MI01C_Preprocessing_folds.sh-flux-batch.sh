@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-arm-1075
-#FLUX: --priority=16
+#FLUX: --job-name=blue-butter-2367
+#FLUX: --urgency=16
 
 set -e
 module load gcc/6.2.0

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cvrlGPU
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /ibex/scratch/$USER/cvrl
 nvidia-smi

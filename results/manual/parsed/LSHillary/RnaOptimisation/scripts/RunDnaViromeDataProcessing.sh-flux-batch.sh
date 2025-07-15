@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=DNAsnakemake
 #FLUX: --queue=high2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 cd dna

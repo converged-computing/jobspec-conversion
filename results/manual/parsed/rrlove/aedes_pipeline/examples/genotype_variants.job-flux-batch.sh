@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-latke-6064
+#FLUX: --job-name=evasive-hope-8023
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate varaedes
 ref=${aedes_in_path}refs/aegy/VectorBase-50_AaegyptiLVP_AGWG_Genome.fasta

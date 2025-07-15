@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-malarkey-8195
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-gato-0434
+#FLUX: --urgency=16
 
 export MV2_USE_CUDA='1'
 export MV2_ENABLE_AFFINITY='1'

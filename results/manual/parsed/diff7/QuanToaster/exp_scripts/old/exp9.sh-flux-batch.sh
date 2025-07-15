@@ -2,7 +2,7 @@
 #FLUX: --job-name=quantest
 #FLUX: --queue=ais-gpu
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun singularity exec --bind /home/d.osin/:/home --bind /gpfs/gpfs0/d.osin/data_main:/home/dev/data_main -f --nv quantnas.sif bash -c '
     cd /home/QuanToaster;

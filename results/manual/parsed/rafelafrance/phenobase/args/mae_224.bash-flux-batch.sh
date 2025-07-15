@@ -2,7 +2,7 @@
 #FLUX: --job-name=mae_224_test
 #FLUX: --queue=gpu
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/blue/guralnick/rafe.lafrance/.conda/envs/vitmae/bin:$PATH'
 

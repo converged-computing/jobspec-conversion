@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="MVVGE-svd"
+#FLUX: --job-name=MVVGE-svd
 #FLUX: -n=2
 #FLUX: -c=2
 #FLUX: --queue=gpu_p100
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Cuda device: $CUDA_VISIBLE_DEVICES"
 echo "======= Start memory test ======="

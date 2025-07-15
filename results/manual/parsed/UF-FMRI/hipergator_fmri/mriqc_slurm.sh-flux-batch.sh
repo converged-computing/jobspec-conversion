@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mriqc
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 BIDS_dir=/blue/stevenweisberg/stevenweisberg/MVPA_ARROWS/

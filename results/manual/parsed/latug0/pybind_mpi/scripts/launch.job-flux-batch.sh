@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-punk-4625
+#FLUX: --job-name=loopy-underoos-5375
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='true'

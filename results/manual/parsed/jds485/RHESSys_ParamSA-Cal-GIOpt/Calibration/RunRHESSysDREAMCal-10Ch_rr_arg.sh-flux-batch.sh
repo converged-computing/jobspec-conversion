@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lentil-2885
-#FLUX: --priority=16
+#FLUX: --job-name=arid-butter-2636
+#FLUX: --urgency=16
 
 module purge
 module load gcc/7.1.0 openmpi/3.1.4 R/3.5.3 singularity python/3.6.6

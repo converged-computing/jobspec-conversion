@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=smp
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source "${HOME}/.bashrc";
 module load intel intel-mpi lumerical;

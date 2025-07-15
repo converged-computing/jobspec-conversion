@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-hippo-2382
+#FLUX: --job-name=reclusive-arm-1118
 #FLUX: -c=2
 #FLUX: --queue=savio2_gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

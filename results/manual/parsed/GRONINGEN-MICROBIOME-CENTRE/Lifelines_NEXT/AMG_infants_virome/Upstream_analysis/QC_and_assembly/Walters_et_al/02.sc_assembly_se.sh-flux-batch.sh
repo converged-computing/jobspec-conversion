@@ -2,7 +2,7 @@
 #FLUX: --job-name=readsse_QC
 #FLUX: -c=4
 #FLUX: -t=17940
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SAMPLE_ID=$1
 echo "SAMPLE_ID=${SAMPLE_ID}"

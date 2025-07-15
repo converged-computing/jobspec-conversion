@@ -2,7 +2,7 @@
 #FLUX: --job-name=reformer-clipping-dropout
 #FLUX: --queue=common
 #FLUX: -t=241200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

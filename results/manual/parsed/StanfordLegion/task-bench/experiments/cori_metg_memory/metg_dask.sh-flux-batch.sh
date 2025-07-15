@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chip-2463
+#FLUX: --job-name=delicious-hippo-2564
 #FLUX: --exclusive
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$root_dir"/core:"$LD_LIBRARY_PATH'
 export PYTHONPATH='$root_dir"/dask:"$PYTHONPATH'

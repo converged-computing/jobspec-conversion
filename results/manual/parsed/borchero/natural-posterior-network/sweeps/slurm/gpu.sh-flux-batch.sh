@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-leader-8761
+#FLUX: --job-name=pusheena-knife-6779
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo Starting job ${SLURM_JOBID}
 echo SLURM assigned me these nodes:

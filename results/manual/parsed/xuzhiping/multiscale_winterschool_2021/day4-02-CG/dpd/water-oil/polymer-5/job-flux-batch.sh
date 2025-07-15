@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lizard-7840
-#FLUX: --priority=16
+#FLUX: --job-name=fat-squidward-9393
+#FLUX: --urgency=16
 
 module load compiles/intel/2019/u4/config
 module load lib/gcc/9.2.0/config

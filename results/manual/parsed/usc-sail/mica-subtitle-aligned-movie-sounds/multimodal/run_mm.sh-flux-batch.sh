@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-nalgas-2990
+#FLUX: --job-name=carnivorous-underoos-4860
 #FLUX: -c=32
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load nvidia-hpc-sdk

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-onion-0174
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-caramel-9542
+#FLUX: --urgency=16
 
 module load spark/2.1.1
 start-all.sh

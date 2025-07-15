@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-kerfuffle-1393
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-buttface-0302
+#FLUX: --urgency=16
 
 export num_dev='`echo $CUDA_VISIBLE_DEVICES | awk 'BEGIN{FS=","};{print NF}'`'
 export init='step3_charmm2amber'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bits-8706
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-hope-4980
+#FLUX: --urgency=16
 
 cd /mnt/work1/users/pughlab/bin/swgs
 snakemake --cluster-config slurm/cluster.json \

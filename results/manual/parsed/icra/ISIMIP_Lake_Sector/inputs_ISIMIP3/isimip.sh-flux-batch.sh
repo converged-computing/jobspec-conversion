@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-toaster-3246
+#FLUX: --job-name=moolicious-snack-2151
 #FLUX: --queue=bigmem
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load r@3.6.3%gcc@9.4.0 arch=linux-centos7-skylake
 spack load r-raster@3.4-5%gcc@9.4.0 arch=linux-centos7-skylake

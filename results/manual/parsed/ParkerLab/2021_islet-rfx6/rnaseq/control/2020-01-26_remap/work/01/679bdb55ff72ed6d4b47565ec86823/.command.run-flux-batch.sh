@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-milkshake-6522
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-train-7460
+#FLUX: --urgency=16
 
 set -e
 set -u

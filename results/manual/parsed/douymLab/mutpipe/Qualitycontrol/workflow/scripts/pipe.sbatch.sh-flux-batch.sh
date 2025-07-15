@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-peanut-2033
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-snack-7543
+#FLUX: --urgency=16
 
 import socket
 set +u

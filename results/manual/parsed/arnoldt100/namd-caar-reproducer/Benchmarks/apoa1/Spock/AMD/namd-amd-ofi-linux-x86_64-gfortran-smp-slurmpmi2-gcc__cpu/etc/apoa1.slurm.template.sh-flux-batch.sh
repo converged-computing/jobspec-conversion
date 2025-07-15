@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -t=4200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 declare -r SCRATCH_DIR=__SCRATCHSPACE__
 declare -r NAMD_BINARY=__NAMD3BINARY__

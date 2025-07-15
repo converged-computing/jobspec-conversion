@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pot-4629
-#FLUX: --priority=16
+#FLUX: --job-name=blue-fudge-6692
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/diffusivity-c_phi%3D0.5.sh

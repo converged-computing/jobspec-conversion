@@ -2,7 +2,7 @@
 #FLUX: --job-name=example
 #FLUX: --queue=short
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python3/3.7.5
 module load python2/2.7.13

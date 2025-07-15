@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-spoon-1313
+#FLUX: --job-name=expressive-pot-7141
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export rocm_version='5.4.3'
 export FI_MR_CACHE_MONITOR='memhooks'

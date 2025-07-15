@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-eagle-7853
+#FLUX: --job-name=scruptious-dog-9163
 #FLUX: -c=8
 #FLUX: --queue=synergy,cpu2019,cpu2021
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 log_dir="$(pwd)"
 log_file="logs/pipeline-analysis.log.txt"

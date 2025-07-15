@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-poo-4270
-#FLUX: --priority=16
+#FLUX: --job-name=faux-spoon-1769
+#FLUX: --urgency=16
 
                      echo "there are two assembly configurations available, either perform the assembly"
             echo "on the single reads or perform the assembly using the paternal and the maternal sequences"

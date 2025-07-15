@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-fork-3355
+#FLUX: --job-name=ornery-earthworm-7491
 #FLUX: --queue=mono
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.modules
 module load gcc

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lemur-3351
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-soup-9524
+#FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'
 

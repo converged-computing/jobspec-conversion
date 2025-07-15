@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-caramel-3233
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-cherry-2947
+#FLUX: --urgency=16
 
 tissues=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')
 CONFIG_DIR='mmdetection/configs/solov2'

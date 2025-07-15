@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bevformer_small_DFA3D_rerun3  #! sync_name
+#FLUX: --job-name=bevformer_small_DFA3D_rerun3
 #FLUX: -c=128
 #FLUX: --queue=cvr
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_DISTRIBUTED_DEBUG='DETAIL  # for debug the "unused_parameter'
 

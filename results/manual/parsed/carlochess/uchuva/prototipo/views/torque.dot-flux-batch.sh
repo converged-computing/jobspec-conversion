@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-peas-7849
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-nunchucks-8752
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/carlochess/uchuva/prototipo/views/torque.dot

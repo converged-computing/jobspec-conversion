@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-house-5281
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-blackbean-6639
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nierja/tox/src/DL/hp_job.sh

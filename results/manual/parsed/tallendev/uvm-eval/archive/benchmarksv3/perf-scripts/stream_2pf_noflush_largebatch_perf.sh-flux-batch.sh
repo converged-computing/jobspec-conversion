@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cinnamonbun-5408
+#FLUX: --job-name=fat-citrus-6214
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

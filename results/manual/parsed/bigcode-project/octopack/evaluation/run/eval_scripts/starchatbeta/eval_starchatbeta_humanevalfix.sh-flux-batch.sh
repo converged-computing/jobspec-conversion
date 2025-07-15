@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-leader-6496
+#FLUX: --job-name=sticky-train-4527
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /pfs/lustrep2/scratch/project_462000241/muennighoff/venv/bin/activate
 cd /pfs/lustrep2/scratch/project_462000185/muennighoff/bigcode-evaluation-harness

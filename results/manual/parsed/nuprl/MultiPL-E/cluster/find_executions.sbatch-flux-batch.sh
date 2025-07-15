@@ -4,7 +4,7 @@
 #FLUX: -c=2
 #FLUX: --queue=express
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gnu-parallel
 parallel="parallel -j $SLURM_NTASKS"

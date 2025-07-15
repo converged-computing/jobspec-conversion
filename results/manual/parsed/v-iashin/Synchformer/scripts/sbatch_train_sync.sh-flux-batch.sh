@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cherry-4015
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-lamp-6501
+#FLUX: --urgency=16
 
 export MASTER_PORT='$MASTER_PORT'
 export MASTER_ADDR='$MASTER_ADDR'

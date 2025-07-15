@@ -2,7 +2,7 @@
 #FLUX: --job-name=mlperf-hpc-openfold
 #FLUX: -c=32
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/usr/lib64:$LD_LIBRARY_PATH'
 export TF_FORCE_UNIFIED_MEMORY='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-parsnip-5808
+#FLUX: --job-name=phat-general-1800
 #FLUX: --exclusive
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source mod_env_setup.sh
 LDIR=/local/$USER

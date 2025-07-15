@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-poodle-5308
+#FLUX: --job-name=phat-fudge-1324
 #FLUX: -c=4
 #FLUX: --queue=gputest
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "START $SLURM_JOBID: $(date)"
 function on_exit {

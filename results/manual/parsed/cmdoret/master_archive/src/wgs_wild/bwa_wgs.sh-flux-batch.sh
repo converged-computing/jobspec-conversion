@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lizard-8850
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-leopard-4348
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cmdoret/master_archive/src/wgs_wild/bwa_wgs.sh

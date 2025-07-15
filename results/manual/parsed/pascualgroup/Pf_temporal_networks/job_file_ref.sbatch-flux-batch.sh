@@ -2,7 +2,7 @@
 #FLUX: --job-name=XXX
 #FLUX: --queue=broadwl
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python
 module load gcc

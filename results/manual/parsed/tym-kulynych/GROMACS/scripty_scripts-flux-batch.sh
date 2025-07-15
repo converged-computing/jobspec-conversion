@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-caramel-4077
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-destiny-9449
+#FLUX: --urgency=16
 
 source /usr/local/gromacs/bin/GMXRC
 j=0

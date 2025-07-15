@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cat-5377
+#FLUX: --job-name=buttery-fork-1511
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/Neurips2023/ViewFool_
 module load anaconda/latest

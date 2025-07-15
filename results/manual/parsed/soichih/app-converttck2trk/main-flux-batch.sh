@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lentil-9299
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-train-6871
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/soichih/app-converttck2trk/main

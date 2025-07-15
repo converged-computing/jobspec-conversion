@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-parsnip-6159
-#FLUX: --priority=16
+#FLUX: --job-name=red-parsnip-5692
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE=' 32G" '
 export RPPL_FLAGS=' --target omp -j $NCORES"    # OMP'

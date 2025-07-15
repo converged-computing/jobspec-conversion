@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-gato-9865
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-mango-0516
+#FLUX: --urgency=16
 
 SAMP=$(sed -n ${SLURM_ARRAY_TASK_ID}'{p;q}' ../accessory_files/Samples.txt)
 SUF=$(sed -n ${SLURM_ARRAY_TASK_ID}'{p;q}' ../accessory_files/Sample_Suffixes.txt)

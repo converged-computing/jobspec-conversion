@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-noodle-9585
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-truffle-3193
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

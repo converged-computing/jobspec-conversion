@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-knife-0734
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-motorcycle-7353
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Ho-ChunHuang-NOAA/MY_Personal_PLOT/cmaq/daily.aqm.o3.plot_max

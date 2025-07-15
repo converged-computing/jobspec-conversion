@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=1.erm
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda-10.0
 source activate dro

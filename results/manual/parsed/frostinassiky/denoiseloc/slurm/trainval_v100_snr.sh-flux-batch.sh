@@ -2,7 +2,7 @@
 #FLUX: --job-name=m-diff
 #FLUX: -c=4
 #FLUX: -t=21540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo Loading Anaconda...
 module purge

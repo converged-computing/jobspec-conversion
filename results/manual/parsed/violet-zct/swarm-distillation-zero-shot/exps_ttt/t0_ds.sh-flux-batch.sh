@@ -2,7 +2,7 @@
 #FLUX: --job-name=11B.exp
 #FLUX: -c=6
 #FLUX: -t=450000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='${root}/pretrain_models/huggingface'
 export HF_DATASETS_CACHE='${root}/pretrain_models/huggingface'

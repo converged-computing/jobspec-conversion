@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-omelette-8041
+#FLUX: --job-name=peachy-omelette-7535
 #FLUX: --queue=overcap
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 base_size=$1
 model_name=$2

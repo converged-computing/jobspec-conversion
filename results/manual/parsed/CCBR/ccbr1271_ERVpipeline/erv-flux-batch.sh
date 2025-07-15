@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="ERV"
+#FLUX: --job-name=ERV
 #FLUX: -c=2
-#FLUX: --queue="norm"
+#FLUX: --queue=norm
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eo pipefail
 module purge

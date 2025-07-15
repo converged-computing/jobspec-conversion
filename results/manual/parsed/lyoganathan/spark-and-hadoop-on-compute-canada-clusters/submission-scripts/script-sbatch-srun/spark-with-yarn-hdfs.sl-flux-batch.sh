@@ -3,7 +3,7 @@
 #FLUX: -N=8
 #FLUX: --exclusive
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MAGPIE_SUBMISSION_TYPE='sbatchsrun'
 export MAGPIE_SCRIPTS_HOME='${HOME}/hadoop/magpie-master'

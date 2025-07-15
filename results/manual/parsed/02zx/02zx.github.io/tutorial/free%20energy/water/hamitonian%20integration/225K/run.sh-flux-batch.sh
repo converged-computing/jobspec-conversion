@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-gato-0591
-#FLUX: --priority=16
+#FLUX: --job-name=arid-truffle-0654
+#FLUX: --urgency=16
 
 module load compiler/gcc/7.3.1
 module load compiler/intel/2021.3.0

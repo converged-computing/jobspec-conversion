@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-citrus-4913
+#FLUX: --job-name=fat-lamp-1068
 #FLUX: -n=24
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

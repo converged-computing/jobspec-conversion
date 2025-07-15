@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=moao
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CRAYPE_LINK_TYPE='dynamic'
 export MKL_NUM_THREADS='1 OMP_NUM_THREADS=1;'

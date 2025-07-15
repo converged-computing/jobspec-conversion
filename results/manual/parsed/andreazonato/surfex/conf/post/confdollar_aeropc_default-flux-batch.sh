@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-earthworm-2390
-#FLUX: --priority=16
+#FLUX: --job-name=confused-signal-8402
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/andreazonato/surfex/conf/post/confdollar_aeropc_default

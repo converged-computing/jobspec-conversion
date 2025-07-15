@@ -2,7 +2,7 @@
 #FLUX: --job-name=jupyterTest2
 #FLUX: -c=4
 #FLUX: -t=50400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python3/intel/3.6.3

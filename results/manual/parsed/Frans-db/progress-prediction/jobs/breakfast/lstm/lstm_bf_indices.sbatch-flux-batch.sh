@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-parrot-8620
+#FLUX: --job-name=crusty-earthworm-7398
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

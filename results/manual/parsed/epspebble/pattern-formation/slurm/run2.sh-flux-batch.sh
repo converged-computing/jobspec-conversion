@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hippo-4952
+#FLUX: --job-name=chunky-signal-8236
 #FLUX: -c=4
 #FLUX: -t=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab
 cd ~/project/pattern-formation/zebrafish

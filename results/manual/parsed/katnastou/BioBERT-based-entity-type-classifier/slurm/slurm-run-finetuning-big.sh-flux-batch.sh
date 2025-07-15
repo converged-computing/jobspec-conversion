@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-carrot-6608
+#FLUX: --job-name=placid-fudge-3538
 #FLUX: -n=4
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='${HOME}/openmpi/bin:$PATH'
 export LD_LIBRARY_PATH='${HOME}/openmpi/lib:$LD_LIBRARY_PATH'

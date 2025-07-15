@@ -3,7 +3,7 @@
 #FLUX: -c=20
 #FLUX: --queue=amd-gpu-long
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda init bash
 source ~/.bashrc

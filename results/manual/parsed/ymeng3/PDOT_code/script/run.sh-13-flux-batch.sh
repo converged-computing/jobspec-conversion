@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pdot_dataset1
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting run.sh-13..."
 module load julia  # Load Julia module, if available 

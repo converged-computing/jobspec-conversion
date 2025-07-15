@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="svo.respack.in"
+#FLUX: --job-name=svo.respack.in
 #FLUX: --queue=ccq
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 export OMP_STACKSIZE='512'

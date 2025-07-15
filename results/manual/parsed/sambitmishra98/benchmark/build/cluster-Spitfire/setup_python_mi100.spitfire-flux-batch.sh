@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="ompi-script"
+#FLUX: --job-name=ompi-script
 #FLUX: -n=3
 #FLUX: --queue=amd
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BUILD_NAME='build3'
 export BUILD_TAG='ac038'

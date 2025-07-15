@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-chair-4246
+#FLUX: --job-name=chocolate-fork-5824
 #FLUX: --exclusive
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eux
 curr_dt=`date +"%Y-%m-%d-%H-%M-%S"`

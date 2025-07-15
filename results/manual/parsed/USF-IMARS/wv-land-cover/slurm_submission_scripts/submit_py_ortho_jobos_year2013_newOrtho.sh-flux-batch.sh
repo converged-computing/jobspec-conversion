@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=="Jobos-per-year"
+#FLUX: --job-name==Jobos-per-year
 #FLUX: --queue=circe
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module add apps/python/2.7.5

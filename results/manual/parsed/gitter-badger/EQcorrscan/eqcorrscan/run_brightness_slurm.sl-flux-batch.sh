@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-nalgas-4183
+#FLUX: --job-name=doopy-car-1215
 #FLUX: -c=16
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load OpenCV/2.4.9-intel-2015a
 module load ObsPy/0.10.3rc1-intel-2015a-Python-2.7.9

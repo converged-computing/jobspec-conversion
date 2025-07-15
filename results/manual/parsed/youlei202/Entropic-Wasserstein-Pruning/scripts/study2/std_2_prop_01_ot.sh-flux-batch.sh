@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-onion-5779
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-egg-7618
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/youlei202/Entropic-Wasserstein-Pruning/scripts/study2/std_2_prop_01_ot.sh

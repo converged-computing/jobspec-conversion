@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: -c=4
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_TREE_THRESHOLD='0 '

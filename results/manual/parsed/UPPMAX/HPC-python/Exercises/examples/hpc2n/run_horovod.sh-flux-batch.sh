@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-poo-8499
+#FLUX: --job-name=hairy-leg-4130
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MYPATH=/proj/nobackup/<your-proj-id>/<your-user-dir>/HPC-python/Exercises/examples/programs/
 ml purge > /dev/null 2>&1

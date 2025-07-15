@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pastry-6477
+#FLUX: --job-name=eccentric-avocado-6807
 #FLUX: --queue=common
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate nanoclust

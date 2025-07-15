@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-carrot-3273
+#FLUX: --job-name=blue-fudge-5817
 #FLUX: -c=2
 #FLUX: --queue=serial
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SERVER_CONFIG=$1
 module load anaconda/3-2021.11

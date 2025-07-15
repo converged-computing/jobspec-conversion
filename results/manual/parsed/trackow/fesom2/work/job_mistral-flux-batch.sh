@@ -2,7 +2,7 @@
 #FLUX: --job-name=fesom2.0
 #FLUX: -n=7560
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_FABRICS='shm:dapl'
 export I_MPI_FALLBACK='disable'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leg-2626
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-general-7799
+#FLUX: --urgency=16
 
 module purge
 source ~/.bashrc

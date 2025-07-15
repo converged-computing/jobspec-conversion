@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-peas-0189
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-destiny-9655
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate pytorch

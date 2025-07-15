@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-noodle-2540
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-diablo-0606
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sara-nl/SURF-segmentation/deeplab/run_endeavor.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-taco-0818
+#FLUX: --job-name=carnivorous-kitty-4706
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOROVOD_GPU_BROADCAST='MPI'
 export HOROVOD_GPU_ALLGATHER='MPI'

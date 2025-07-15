@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-cinnamonbun-6950
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-citrus-5344
+#FLUX: --urgency=16
 
 module load anaconda3/2019.07
 source activate pytorch_1.11

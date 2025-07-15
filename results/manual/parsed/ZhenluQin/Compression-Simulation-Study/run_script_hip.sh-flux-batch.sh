@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-poo-8624
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-plant-9457
+#FLUX: --urgency=16
 
 ml cmake
 ml adios2

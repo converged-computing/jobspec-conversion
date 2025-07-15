@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-soup-7014
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-fudge-1656
+#FLUX: --urgency=16
 
 export src='$pd/src'
 export sesnm='main'

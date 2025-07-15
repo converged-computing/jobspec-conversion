@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-parsnip-1939
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-animal-8742
+#FLUX: --urgency=16
 
 module list
 pwd

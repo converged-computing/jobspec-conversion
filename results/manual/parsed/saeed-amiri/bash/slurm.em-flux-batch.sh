@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: -n=384
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='none'
 export SLURM_CPUS_PER_TASK='$THREADS'

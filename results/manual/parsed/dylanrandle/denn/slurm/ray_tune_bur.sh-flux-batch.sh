@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-parsnip-0952
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-hobbit-9719
+#FLUX: --urgency=16
 
 module load gcc/10.2.0-fasrc01
 module load Anaconda3/2020.11

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-diablo-6617
-#FLUX: --priority=16
+#FLUX: --job-name=red-cherry-9558
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jlizier/linsync/cluster/startProcessTemplate.sh

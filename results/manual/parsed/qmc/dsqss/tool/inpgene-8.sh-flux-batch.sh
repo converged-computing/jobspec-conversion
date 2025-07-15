@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-nunchucks-1961
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-parsnip-8811
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/qmc/dsqss/tool/inpgene-8.sh

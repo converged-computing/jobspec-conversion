@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="timAhcal_valid"
+#FLUX: --job-name=timAhcal_valid
 #FLUX: -n=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 folder="/home/chirayugupta/test"
 module load cdac/spack/0.17

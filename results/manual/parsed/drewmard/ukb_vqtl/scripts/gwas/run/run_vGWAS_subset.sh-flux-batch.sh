@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bits-6776
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-lizard-6484
+#FLUX: --urgency=16
 
 arg1=$SLURM_ARRAY_TASK_ID
 phenoName=neutrophil.count.rint.ALL

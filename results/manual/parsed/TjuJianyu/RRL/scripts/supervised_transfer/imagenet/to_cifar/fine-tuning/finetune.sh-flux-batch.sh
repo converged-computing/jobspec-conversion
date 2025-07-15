@@ -2,7 +2,7 @@
 #FLUX: --job-name=cifar_ft
 #FLUX: -c=8
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 i=0;
 for lr in 0.005 0.01 0.05; 

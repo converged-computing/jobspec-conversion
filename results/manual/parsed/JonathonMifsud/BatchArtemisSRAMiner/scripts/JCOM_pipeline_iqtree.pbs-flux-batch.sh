@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-parsnip-5986
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-peanut-butter-8131
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JonathonMifsud/BatchArtemisSRAMiner/scripts/JCOM_pipeline_iqtree.pbs

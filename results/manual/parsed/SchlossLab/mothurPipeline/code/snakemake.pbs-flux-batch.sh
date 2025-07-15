@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-sundae-7461
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-house-4470
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SchlossLab/mothurPipeline/code/snakemake.pbs

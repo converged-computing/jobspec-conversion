@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="namd"
+#FLUX: --job-name=namd
 #FLUX: -c=24
 #FLUX: -t=79200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

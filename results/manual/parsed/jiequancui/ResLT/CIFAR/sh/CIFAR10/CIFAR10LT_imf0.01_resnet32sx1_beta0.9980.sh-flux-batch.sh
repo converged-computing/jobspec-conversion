@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=CIFAR10V2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python cifarTrain_reslt_cifar10.py \
   -mark CIFAR10V2_imf0.01_res32x1_beta0.9980 \

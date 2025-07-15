@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-parrot-6519
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-hobbit-3862
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/juselius/cmake-template/cdash/cdash.run.in

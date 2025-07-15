@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-staircase-5402
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-cattywampus-7728
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RasmussenLab/hela_qc_mnt_data/workflows/maxquant/run_sm_on_cluster.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-despacito-4041
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-spoon-3305
+#FLUX: --urgency=16
 
 module load anaconda3/2019.07
 source activate pytorch_1.11

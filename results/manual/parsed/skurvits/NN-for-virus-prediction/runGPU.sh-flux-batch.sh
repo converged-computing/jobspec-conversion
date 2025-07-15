@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lizard-0330
+#FLUX: --job-name=grated-train-3549
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 export LD_LIBRARY_PATH='/storage/software/python/3.6.3/CUDA-9.0/pkgs/cudatoolkit-9.0-h13b8566_0/lib/:$LD_LIBRARY_PATH'

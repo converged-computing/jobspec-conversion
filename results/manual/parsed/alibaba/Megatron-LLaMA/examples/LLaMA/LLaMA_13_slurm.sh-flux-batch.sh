@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-salad-1983
-#FLUX: --priority=16
+#FLUX: --job-name=megatron_llama_13b
+#FLUX: -N=512
+#FLUX: --exclusive
+#FLUX: --urgency=16
 
 DIR=`pwd`
 DATETIME=`date +'date_%y-%m-%d_time_%H-%M-%S'`

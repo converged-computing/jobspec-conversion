@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-arm-1352
+#FLUX: --job-name=stanky-lemon-2376
 #FLUX: -c=5
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='0.0.0.0'
 export MASTER_PORT='8088'

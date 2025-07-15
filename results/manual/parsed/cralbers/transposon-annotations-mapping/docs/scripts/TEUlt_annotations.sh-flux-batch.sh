@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=example
+#FLUX: --job-name=scruptious-milkshake-5993
 #FLUX: --queue=long
 #FLUX: -t=1209540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python
 module load python2/2.7.13

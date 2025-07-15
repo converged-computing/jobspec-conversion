@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-toaster-1455
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-itch-4545
+#FLUX: --urgency=16
 
 export KMP_AFFINITY='disabled'
 export MPICH_GNI_FORK_MODE='FULLCOPY'

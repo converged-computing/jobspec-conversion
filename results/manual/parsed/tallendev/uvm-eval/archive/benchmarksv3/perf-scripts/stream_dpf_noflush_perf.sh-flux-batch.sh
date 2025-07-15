@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-puppy-3711
+#FLUX: --job-name=peachy-chair-3750
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hope-7341
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-nalgas-5901
+#FLUX: --urgency=16
 
 a=$SLURM_ARRAY_TASK_ID
 j=$SLURM_JOBID

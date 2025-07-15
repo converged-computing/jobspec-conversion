@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-malarkey-0913
+#FLUX: --job-name=arid-banana-0777
 #FLUX: -c=8
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MIOPEN_USER_DB_PATH='/tmp/tensorflow-miopen-${USER}-2.8'
 export MIOPEN_DEBUG_DISABLE_FIND_DB='1'

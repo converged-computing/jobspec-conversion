@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-knife-9047
+#FLUX: --job-name=outstanding-train-0291
 #FLUX: -c=32
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export MASTER_ADDR='$(hostname)'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-house-5085
+#FLUX: --job-name=dinosaur-omelette-5198
 #FLUX: --queue=hci-kp
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e; start=$(date +'%s')
 echo -e "---------- Starting -------- $((($(date +'%s') - $start)/60)) min"

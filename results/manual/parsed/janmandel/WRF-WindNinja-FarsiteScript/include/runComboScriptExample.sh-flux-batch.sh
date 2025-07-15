@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-diablo-1232
-#FLUX: --priority=16
+#FLUX: --job-name=salted-cattywampus-7487
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/janmandel/WRF-WindNinja-FarsiteScript/include/runComboScriptExample.sh

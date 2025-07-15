@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=array_slim
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load BCFtools/1.9-intel-2018b VCFtools/0.1.16-intel-2018b-Perl-5.28.0

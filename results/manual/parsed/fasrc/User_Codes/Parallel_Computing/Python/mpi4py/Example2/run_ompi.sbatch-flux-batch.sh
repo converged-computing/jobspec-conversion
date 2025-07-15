@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-motorcycle-1752
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-fork-0446
+#FLUX: --urgency=16
 
 module load python/3.10.12-fasrc01
 module load gcc/12.2.0-fasrc01

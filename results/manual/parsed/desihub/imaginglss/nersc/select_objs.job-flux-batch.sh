@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-earthworm-0956
-#FLUX: --priority=16
+#FLUX: --job-name=faux-malarkey-0106
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export HDF5_USE_FILE_LOCKING='FALSE  '

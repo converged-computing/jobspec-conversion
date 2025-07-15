@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-omelette-1974
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-egg-8514
+#FLUX: --urgency=16
 
 define_modules_config()
 {

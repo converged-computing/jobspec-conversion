@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lemur-5874
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-platanos-3424
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home/zabergjg/miniconda3/envs/naslib/lib/python3.7/'
 

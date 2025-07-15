@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-egg-8193
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-lemon-1542
+#FLUX: --urgency=16
 
 geneFile=$1
 listFile=$2

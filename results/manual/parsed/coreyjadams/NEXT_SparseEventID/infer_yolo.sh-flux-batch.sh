@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-peanut-2670
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-egg-7048
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/coreyjadams/NEXT_SparseEventID/infer_yolo.sh

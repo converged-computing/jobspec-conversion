@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: -n=8
 #FLUX: --queue=all
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='cores     '
 export OMP_PROC_BIND='close'

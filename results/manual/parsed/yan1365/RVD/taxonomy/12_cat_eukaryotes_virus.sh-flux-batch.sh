@@ -2,7 +2,7 @@
 #FLUX: --job-name=cat_%j
 #FLUX: -n=40
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 START=$SECONDS
 part=${1}

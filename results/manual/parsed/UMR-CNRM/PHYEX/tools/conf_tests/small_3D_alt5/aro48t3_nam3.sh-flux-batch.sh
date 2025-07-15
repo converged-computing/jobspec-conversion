@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-avocado-2920
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-knife-7405
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

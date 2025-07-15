@@ -3,7 +3,7 @@
 #FLUX: -n=40
 #FLUX: --exclusive
 #FLUX: -t=720000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ip=`curl ifconfig.me`
 module load cuda/10.1.105_418.39

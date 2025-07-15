@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-leg-7821
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-itch-1073
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CODARcode/ChimbukoVisualization/benchmark/results/run_benchmark_summit_200.lsf

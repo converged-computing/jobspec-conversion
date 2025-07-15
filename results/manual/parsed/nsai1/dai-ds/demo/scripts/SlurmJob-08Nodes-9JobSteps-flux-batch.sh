@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-peanut-butter-6019
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-pedo-6990
+#FLUX: --urgency=16
 
 srun /opt/ucs/demo/workloads/AMG 1
 srun /opt/ucs/demo/workloads/dgemm 2

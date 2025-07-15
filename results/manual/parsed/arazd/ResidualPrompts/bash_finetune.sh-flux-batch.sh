@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=finetune
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/miniconda/bin/activate 
 conda init

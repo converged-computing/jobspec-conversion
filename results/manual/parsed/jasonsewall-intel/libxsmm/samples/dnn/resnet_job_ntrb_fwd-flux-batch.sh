@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-cherry-5887
+#FLUX: --job-name=spicy-parrot-3988
 #FLUX: -c=272
 #FLUX: --queue=knmb3
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_MIC='1'
 export INTEL_LICENSE_FILE='/swtools/intel/licenses/'

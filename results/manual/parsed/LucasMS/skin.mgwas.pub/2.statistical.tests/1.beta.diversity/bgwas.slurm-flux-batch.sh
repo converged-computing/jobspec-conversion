@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-carrot-7637
-#FLUX: --priority=16
+#FLUX: --job-name=astute-cherry-7926
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load miniconda2/4.6.14

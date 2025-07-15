@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ensemble
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_DEPOT_PATH='/project/def-gonzalez/mcatchen/JuliaEnvironments/COBees'
 export CLUSTER='true'

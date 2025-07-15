@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-cinnamonbun-8951
+#FLUX: --job-name=conspicuous-bicycle-5143
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 source env-build-fenics.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-nunchucks-5687
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-muffin-2338
+#FLUX: --urgency=16
 
 IMG=/home/software/singularity/pytorch.simg
 cd ~/ml-tau-reco

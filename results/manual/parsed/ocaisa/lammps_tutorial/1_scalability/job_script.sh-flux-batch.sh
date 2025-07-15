@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kitty-7685
+#FLUX: --job-name=spicy-buttface-3614
 #FLUX: -N=2
 #FLUX: --queue=devel
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module use /usr/local/software/jureca/OtherStages

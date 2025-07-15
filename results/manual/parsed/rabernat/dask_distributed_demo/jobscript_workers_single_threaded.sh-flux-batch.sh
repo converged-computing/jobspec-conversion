@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-general-5947
+#FLUX: --job-name=misunderstood-lamp-9339
 #FLUX: --exclusive
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 df /local
 LDIR="/local"

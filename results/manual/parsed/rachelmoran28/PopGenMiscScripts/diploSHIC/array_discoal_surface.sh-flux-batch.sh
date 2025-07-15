@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-citrus-7386
-#FLUX: --priority=16
+#FLUX: --job-name=arid-pastry-6493
+#FLUX: --urgency=16
 
 cd /home/mcgaughs/shared/Software/diploSHIC
 discoal="/home/mcgaughs/shared/Software/discoal/discoal"

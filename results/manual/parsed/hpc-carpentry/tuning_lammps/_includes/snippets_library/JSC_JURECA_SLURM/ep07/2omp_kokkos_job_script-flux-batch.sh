@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-leader-6092
+#FLUX: --job-name=arid-hobbit-1680
 #FLUX: -c=12
 #FLUX: --queue=devel
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='spread'

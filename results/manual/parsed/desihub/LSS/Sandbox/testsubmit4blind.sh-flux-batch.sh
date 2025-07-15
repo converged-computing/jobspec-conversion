@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cattywampus-8096
+#FLUX: --job-name=gassy-citrus-8437
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /global/common/software/desi/desi_environment.sh master
 source /global/common/software/desi/users/adematti/cosmodesi_environment.sh main

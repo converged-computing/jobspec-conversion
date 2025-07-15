@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-frito-0706
+#FLUX: --job-name=confused-lizard-7732
 #FLUX: --queue=compute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/dtyoung/NEMAR-pipeline
 module load matlab

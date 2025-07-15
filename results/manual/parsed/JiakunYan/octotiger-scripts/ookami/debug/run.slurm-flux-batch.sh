@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-blackbean-9446
+#FLUX: --job-name=goodbye-truffle-6716
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load octotiger

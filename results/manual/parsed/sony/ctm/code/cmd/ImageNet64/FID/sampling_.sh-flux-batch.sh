@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-train-3223
+#FLUX: --job-name=gassy-cupcake-1620
 #FLUX: -c=4
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_COMM_WORLD_RANK='0'
 export OMPI_COMM_WORLD_LOCAL_RANK='0'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_deeplab
 #FLUX: --queue=4gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='${JOBTMP}  # scratch-directory for the job '
 export WKHTMLTOPDF_PATH='/isi/w/lb27/softwares/wkhtmltopdf/usr/local/bin/wkhtmltopdf'

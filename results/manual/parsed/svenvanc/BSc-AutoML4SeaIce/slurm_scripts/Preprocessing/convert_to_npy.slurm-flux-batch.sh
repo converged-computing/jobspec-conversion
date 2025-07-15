@@ -2,7 +2,7 @@
 #FLUX: --job-name=convertDataToNpy-01
 #FLUX: --queue=testing
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ENV='/home/s2358093/data1/conda_envs/xarray'
 export CWD='$(pwd)'

@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=amd
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 POSITIONAL=()
 while [[ $# -gt 0 ]]; do

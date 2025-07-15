@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="paraview"
-#FLUX: --priority=16
+#FLUX: --job-name=paraview
+#FLUX: --urgency=16
 
 export PROG='pvserver --force-offscreen-rendering'
 

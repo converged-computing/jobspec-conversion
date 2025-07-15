@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=general
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GASNET_MAX_SEGSIZE='128MB/P'
 export UPCXX_SHARED_HEAP_SIZE='128 MB'

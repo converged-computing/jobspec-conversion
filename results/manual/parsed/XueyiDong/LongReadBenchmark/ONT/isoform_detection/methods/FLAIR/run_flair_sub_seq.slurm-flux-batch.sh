@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-peanut-butter-7628
+#FLUX: --job-name=bricky-lemur-9855
 #FLUX: -c=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3
 source activate

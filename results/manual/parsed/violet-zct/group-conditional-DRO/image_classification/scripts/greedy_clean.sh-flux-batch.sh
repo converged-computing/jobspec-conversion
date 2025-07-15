@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=greedy
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda-10.0
 source activate dro

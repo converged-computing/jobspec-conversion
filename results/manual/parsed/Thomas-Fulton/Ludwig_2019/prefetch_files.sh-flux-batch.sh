@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cinnamonbun-8845
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-destiny-8163
+#FLUX: --urgency=16
 
 export PATH='`pwd`/software/bin:$PATH:`pwd`/software/sratoolkit.2.11.0-ubuntu64/bin/;'
 

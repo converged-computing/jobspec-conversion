@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hobbit-5818
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-hippo-8699
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CasperAntonPoulsen/KnowledgeDistillation/lmeval/jobs/bloom_both.job

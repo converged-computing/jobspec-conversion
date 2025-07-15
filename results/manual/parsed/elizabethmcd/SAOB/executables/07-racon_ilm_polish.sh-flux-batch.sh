@@ -2,7 +2,7 @@
 #FLUX: --job-name=07-racon_ilm_polish
 #FLUX: -c=16
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 project_path="/project/6049207/AD_metagenome-Elizabeth"
 read_path="${project_path}/illumina_qced/racon_ilm_input/R2Sept2020_qced.renamed.interleaved.fastq"

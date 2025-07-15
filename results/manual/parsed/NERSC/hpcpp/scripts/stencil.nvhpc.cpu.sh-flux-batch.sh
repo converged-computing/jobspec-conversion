@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-knife-8039
+#FLUX: --job-name=swampy-lizard-9992
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set +x
 BUILD_HOME=${HOME}/repos/nvstdpar/build-1d-cpu

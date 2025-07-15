@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-truffle-4466
+#FLUX: --job-name=sticky-omelette-8144
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='${PWD}'
 export RSTUDIO_AUTH='${TMPDIR}/.config/auth'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-staircase-4014
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-onion-8483
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/fv3gfs/driver/product/run_JGFS_WAFS_BLENDING.cray

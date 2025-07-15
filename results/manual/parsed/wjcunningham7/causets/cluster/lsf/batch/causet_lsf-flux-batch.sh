@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lemon-4162
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-nunchucks-2116
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/wjcunningham7/causets/cluster/lsf/batch/causet_lsf

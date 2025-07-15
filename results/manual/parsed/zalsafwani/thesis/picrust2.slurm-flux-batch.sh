@@ -2,7 +2,7 @@
 #FLUX: --job-name=picrust_analysis
 #FLUX: --queue=batch,guest
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /work/biocore/zalsafwani/CRC_data/raw_reads/qiime2/second_analysis/picrust
 module load picrust2/2.4

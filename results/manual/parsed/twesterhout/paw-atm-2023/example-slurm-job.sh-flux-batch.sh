@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-soup-8232
+#FLUX: --job-name=quirky-pancake-6753
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: -t=3600
+#FLUX: --urgency=16
 
 export GASNET_BACKTRACE='1'
 export GASNET_PHYSMEM_MAX='167 GB'

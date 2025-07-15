@@ -1,5 +1,5 @@
 #!/bin/bash
 #FLUX: --job-name=smilei
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun --mpi=pmix_v2 /home/reynaldo.rojas/smilei/Smilei/Smilei-benchmarks/plasma_collision_4/4_procs/smilei /home/reynaldo.rojas/smilei/Smilei/Smilei-benchmarks/plasma_collision_4/4_procs/plasma_collision.py

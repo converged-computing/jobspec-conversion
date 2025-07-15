@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=tf-unet-nerve
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 unset XDG_RUNTIME_DIR

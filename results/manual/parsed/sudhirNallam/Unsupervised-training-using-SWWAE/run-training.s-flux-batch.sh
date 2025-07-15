@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=e50p02swwae1lr0001
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load pytorch/intel/20170125

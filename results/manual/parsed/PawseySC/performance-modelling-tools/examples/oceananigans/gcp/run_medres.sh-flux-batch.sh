@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-salad-6584
+#FLUX: --job-name=milky-lentil-7359
 #FLUX: -n=2
 #FLUX: --queue=v100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RESOLUTION='3 '
 export NZ='50'

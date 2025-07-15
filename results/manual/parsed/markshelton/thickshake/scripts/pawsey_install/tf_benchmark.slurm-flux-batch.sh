@@ -2,7 +2,7 @@
 #FLUX: --job-name=tf_test
 #FLUX: --queue=gpuq
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/5.4.0 broadwell
 module load tensorflow

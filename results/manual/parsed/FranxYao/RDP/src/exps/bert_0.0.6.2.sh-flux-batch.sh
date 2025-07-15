@@ -2,7 +2,7 @@
 #FLUX: --job-name=bert_0.0.6.2
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python main.py\
   --model_name=bertnet\

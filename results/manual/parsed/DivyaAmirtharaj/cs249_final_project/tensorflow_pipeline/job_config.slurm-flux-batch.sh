@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-nalgas-4262
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-general-2518
+#FLUX: --urgency=16
 
 source venv/bin/activate
 python model_training.py

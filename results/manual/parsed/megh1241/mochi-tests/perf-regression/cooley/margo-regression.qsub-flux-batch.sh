@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bits-6692
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-itch-2907
+#FLUX: --urgency=16
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-kitty-8375
-#FLUX: --priority=16
+#FLUX: --job-name=arid-kerfuffle-2380
+#FLUX: --urgency=16
 
 module purge
 module load intel

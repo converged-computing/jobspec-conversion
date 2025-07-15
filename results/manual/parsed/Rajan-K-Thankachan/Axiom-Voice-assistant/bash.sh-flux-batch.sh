@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NLUModel-Run1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 module load cuda/8.0

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-staircase-5286
-#FLUX: --priority=16
+#FLUX: --job-name=placid-noodle-3567
+#FLUX: --urgency=16
 
 export SUMO_HOME='/work/apps/sumo/share/sumo'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_H
 #FLUX: --queue=student
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='./'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ieneurips
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 nvidia-smi --query-gpu=gpu_name,memory.total,memory.free --format=csv

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-dog-3311
+#FLUX: --job-name=stanky-lemur-1788
 #FLUX: -N=2
 #FLUX: -c=40
 #FLUX: --queue=gputest
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RDZV_HOST='$(hostname)'
 export RDZV_PORT='29400                   '

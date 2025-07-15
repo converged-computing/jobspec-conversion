@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hobbit-9247
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-malarkey-9334
+#FLUX: --urgency=16
 
 module load python
 source ~/.bashrc

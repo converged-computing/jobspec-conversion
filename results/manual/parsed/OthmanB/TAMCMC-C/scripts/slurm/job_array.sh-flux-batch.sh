@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-hobbit-2952
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-puppy-1830
+#FLUX: --urgency=16
 
 export EIGEN3_INCLUDE_DIR='/home/ob19/Programs/eigen-3.4.0'
 export CXX='g++'

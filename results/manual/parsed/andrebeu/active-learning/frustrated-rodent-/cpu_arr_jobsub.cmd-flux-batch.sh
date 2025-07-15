@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-egg-5624
-#FLUX: --priority=16
+#FLUX: --job-name=confused-gato-6569
+#FLUX: --urgency=16
 
 module load pyger/0.9
 conda init bash

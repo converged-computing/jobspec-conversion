@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stylegan3  # The job name.
+#FLUX: --job-name=stylegan3
 #FLUX: -c=48
 #FLUX: --exclusive
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load anaconda3-2019.03
 ml gcc/10.4

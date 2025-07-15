@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$INSTALL_DIR/$STARCCM_VERSION/STAR-CCM+$STARCCM_VERSION/star/bin:$PATH'
 export CDLMD_LICENSE_FILE='1999@flex.cd-adapco.com'

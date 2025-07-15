@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-gato-2424
-#FLUX: --priority=16
+#FLUX: --job-name=phat-destiny-2054
+#FLUX: --urgency=16
 
 scriptdir=""  # location for python scripts e.g. $HOME/dask_xgboost_slurm/scripts
 data_dir=""

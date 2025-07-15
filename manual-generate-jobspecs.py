@@ -98,9 +98,11 @@ def main():
     print("\nPre-processing complete.")
 
     # Unknown jobspecs
+    unknown_directives_dir = os.path.join(here, "results", "manual", "unknown-directive-error")
     unknown_dir = os.path.join(here, "results", "manual", "unknown")
-    if not os.path.exists(unknown_dir):
-        os.makedirs(unknown_dir)
+    for dirname in unknown_dir, unknown_directives_dir:
+        if not os.path.exists(dirname):
+            os.makedirs(dirname)
 
     count = 0
     if args.limit is None:
@@ -109,6 +111,19 @@ def main():
     # Keep track of directives we cannot parse
     # First from the script into our structure
     directives_not_handled = {}
+    issue_counts = {
+        "environment_variable_in_value": 0,
+        "environment_variable_in_timestamp": 0,
+        "mustache_template": 0,
+        "<%=_character": 0,
+        "<STRING>": 0,
+        "_STRING_": 0,
+        "!": 0,
+        "invalid_literal": [],
+        "bool_not_iterable": 0,
+        "no_escaped_character": 0,
+        "no_closing_quotation": 0,
+    }
     managers = {}
 
     for _, filename in enumerate(files):
@@ -149,6 +164,34 @@ def main():
             relative_name = os.path.relpath(filename, args.input)
             issues[relative_name] = str(e)
             issue_parsing += 1
+
+            # Issue counts
+            if "$" in str(e) and "invalid literal" in str(e):
+                issue_counts["environment_variable_in_value"] += 1
+            elif "$" in str(e) and "time data" in str(e):
+                issue_counts["environment_variable_in_timestamp"] += 1
+            elif "{{" in str(e) or "}}" in str(e):
+                issue_counts["mustache_template"] += 1
+            elif "<%=" in str(e):
+                issue_counts["<%=_character"] += 1
+            elif "<" in str(e) and ">" in str(e):
+                issue_counts["<STRING>"] += 1
+            elif "_" in str(e):
+                issue_counts["_STRING_"] += 1
+            elif "!" in str(e):
+                issue_counts["!"] += 1
+            elif "invalid literal" in str(e):
+                issue_counts["invalid_literal"].append(str(e))
+            elif "type 'bool' is not iterable" in str(e):
+                issue_counts["bool_not_iterable"] += 1
+            elif "No escaped character" in str(e):
+                issue_counts["no_escaped_character"] += 1
+            elif "No closing quotation" in str(e):
+                issue_counts["no_closing_quotation"] += 1
+            else:
+                import IPython
+
+                IPython.embed()
             continue
 
         flux_script = to_transformer.convert(normalized_jobspec)
@@ -184,6 +227,7 @@ def main():
     outdir = os.path.join(here, "results", "manual")
     write_json(managers, os.path.join(outdir, "managers.json"))
     write_json(issues, os.path.join(outdir, "issues.json"))
+    write_json(issue_counts, os.path.join(outdir, "issue-counts.json"))
     write_json(
         directives_not_handled, os.path.join(outdir, "directives-not-handled.json")
     )

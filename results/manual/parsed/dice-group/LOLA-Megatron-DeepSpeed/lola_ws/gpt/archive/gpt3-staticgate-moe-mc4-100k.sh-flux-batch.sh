@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-blackbean-4916
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-muffin-9168
+#FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 export TORCHELASTIC_ERROR_FILE='${OUTPUT_BASEPATH}/torch-elastic-error.json'

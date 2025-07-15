@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lentil-0949
+#FLUX: --job-name=peachy-truffle-3780
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add openmpi/4.1.2
 cd /mnt/orangefs/hacker/genie-lammps

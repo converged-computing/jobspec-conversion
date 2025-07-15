@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RES_DIR='sg2im_torch1.13/checkpoints/'
 export OUT_DIR='/scratch/user/neau0001/sg2im_torch1.13/'

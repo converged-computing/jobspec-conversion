@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-snack-3289
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-blackbean-1969
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/meetxinzhang/HyHOH/gmx/task.sh

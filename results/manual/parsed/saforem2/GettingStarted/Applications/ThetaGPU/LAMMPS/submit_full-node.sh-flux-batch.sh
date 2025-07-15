@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-parsnip-1680
-#FLUX: --priority=16
+#FLUX: --job-name=hello-eagle-6471
+#FLUX: --urgency=16
 

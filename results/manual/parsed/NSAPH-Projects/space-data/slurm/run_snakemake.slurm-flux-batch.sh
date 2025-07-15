@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-salad-9432
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-peanut-butter-2282
+#FLUX: --urgency=16
 
 dataverse="harvard"            # harvard or demo
 singularity_within_snakemake=1 # 1 or 0

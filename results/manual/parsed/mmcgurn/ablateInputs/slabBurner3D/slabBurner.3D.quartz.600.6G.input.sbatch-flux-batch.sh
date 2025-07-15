@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-kerfuffle-4554
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-mango-6409
+#FLUX: --urgency=16
 
 export PETSC_DIR='/p/lustre2/mcgurn4/petsc'
 export PETSC_ARCH='arch-ablate-opt-gcc" # arch-ablate-debug or arch-ablate-opt'

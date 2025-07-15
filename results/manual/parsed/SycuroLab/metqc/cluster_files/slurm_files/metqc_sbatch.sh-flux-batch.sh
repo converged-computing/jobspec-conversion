@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-motorcycle-1933
+#FLUX: --job-name=fugly-puppy-6527
 #FLUX: --queue=cpu2019
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 log_dir="$(pwd)"
 log_file="logs/metqc-analysis.log.txt"

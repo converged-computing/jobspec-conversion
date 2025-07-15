@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-blackbean-4285
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-ricecake-1133
+#FLUX: --urgency=16
 
 nvidia-smi -L
 echo $CUDA_VISIBLE_DEVICES

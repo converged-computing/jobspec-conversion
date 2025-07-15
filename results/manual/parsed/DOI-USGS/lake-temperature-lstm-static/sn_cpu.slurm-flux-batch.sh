@@ -2,7 +2,7 @@
 #FLUX: --job-name=snakemake
 #FLUX: --queue=cpu
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate ltls

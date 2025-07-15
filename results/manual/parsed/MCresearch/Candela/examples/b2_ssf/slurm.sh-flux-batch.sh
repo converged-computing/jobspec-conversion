@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=TEST
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "===================================================="
 echo " submitted to local node: " $HOSTNAME

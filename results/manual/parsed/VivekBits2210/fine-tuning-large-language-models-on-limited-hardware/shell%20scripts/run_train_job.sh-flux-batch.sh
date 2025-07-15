@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-earthworm-6336
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-mango-9329
+#FLUX: -c=8
+#FLUX: -t=172500
+#FLUX: --urgency=16
 
 echo "Hostname: $(hostname)"
 echo "Processor: $(lscpu | grep 'Model name' | awk -F ':' '{print $2}' | xargs)"

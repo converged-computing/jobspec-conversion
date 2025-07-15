@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leader-0206
-#FLUX: --priority=16
+#FLUX: --job-name=salted-parsnip-7810
+#FLUX: --urgency=16
 
 module list
 pwd

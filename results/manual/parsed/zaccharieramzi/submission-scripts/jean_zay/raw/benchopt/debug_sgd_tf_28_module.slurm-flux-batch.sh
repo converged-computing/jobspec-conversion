@@ -2,7 +2,7 @@
 #FLUX: --job-name=benchopt_run_debug
 #FLUX: -c=10
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUSERBASE='$WORK/.local_tf2.8'
 export PATH='$WORK/.local_tf2.8/bin:$PATH'

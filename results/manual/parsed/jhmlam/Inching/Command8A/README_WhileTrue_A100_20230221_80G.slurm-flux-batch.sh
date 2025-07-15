@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="a100G"
+#FLUX: --job-name=a100G
 #FLUX: --exclusive
 #FLUX: --queue=gpu
 #FLUX: -t=172500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.3.0

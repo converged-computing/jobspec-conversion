@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-ricecake-1415
-#FLUX: --priority=16
+#FLUX: --job-name=hello-leg-3732
+#FLUX: --urgency=16
 
 cmake_command="cmake -D CMAKE_BUILD_TYPE=Release"
 make_command="make -j2"

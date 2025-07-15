@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-arm-1108
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-peanut-3305
+#FLUX: --urgency=16
 
 my_fasta=T1083_T1084.fasta
 fasta_name="${my_fasta//.fasta}"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-kitty-8570
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-pastry-0301
+#FLUX: --urgency=16
 
 module unload gromacs
 module switch gromacs/2023 gromacs=gmx_mpi

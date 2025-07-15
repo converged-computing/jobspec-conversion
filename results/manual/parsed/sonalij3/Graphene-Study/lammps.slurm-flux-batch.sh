@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="8024_C-1100K"
+#FLUX: --job-name=8024_C-1100K
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo
 echo "Begin job ..."

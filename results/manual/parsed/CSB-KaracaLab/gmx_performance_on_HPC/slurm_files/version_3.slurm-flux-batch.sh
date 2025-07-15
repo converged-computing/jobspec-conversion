@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-onion-2470
+#FLUX: --job-name=placid-pot-6728
 #FLUX: -t=1296000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='20'
 

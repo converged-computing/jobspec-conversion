@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=split_M_plot_filest
-#FLUX: --queue=general-compute --qos=general-compute
+#FLUX: --queue=general-compute
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module load python

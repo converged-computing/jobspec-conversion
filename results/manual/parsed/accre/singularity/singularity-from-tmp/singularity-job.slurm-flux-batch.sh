@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-train-4832
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-nunchucks-0358
+#FLUX: --urgency=16
 
 image=python-2.12-numpy-1.13.img
 src=/scratch/singularity-images/${image}

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Legal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/anaconda3/2019.03
 module load gpu/cuda/10.1.243

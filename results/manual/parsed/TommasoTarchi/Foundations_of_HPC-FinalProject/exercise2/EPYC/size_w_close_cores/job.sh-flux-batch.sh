@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="size_scal"
+#FLUX: --job-name=size_scal
 #FLUX: --exclusive
 #FLUX: --queue=EPYC
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/u/dssc/ttarch00/myblis/lib:$LD_LIBRARY_PATH'
 export OMP_PLACES='cores'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lentil-3310
+#FLUX: --job-name=eccentric-cherry-0659
 #FLUX: --queue=bumblebee
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate tensorflow
 module load cudnn/7.0-9.0

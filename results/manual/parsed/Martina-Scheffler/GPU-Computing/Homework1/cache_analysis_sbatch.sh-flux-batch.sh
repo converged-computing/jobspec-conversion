@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cache_analysis
 #FLUX: --queue=edu5
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export USER_COMPILE_FLAGS='-O3'
 

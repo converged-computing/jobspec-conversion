@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="visualization"
-#FLUX: --priority=16
+#FLUX: --job-name=visualization
+#FLUX: --urgency=16
 
 export PROG='pvserver'
 

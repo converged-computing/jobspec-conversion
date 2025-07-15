@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=gpuhm
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/software/easybuild/modules/all/
 module load Mamba

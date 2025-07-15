@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-car-8511
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-animal-1749
+#FLUX: --urgency=16
 
 module load cuda/11.0.2
 module load pgi/19.10

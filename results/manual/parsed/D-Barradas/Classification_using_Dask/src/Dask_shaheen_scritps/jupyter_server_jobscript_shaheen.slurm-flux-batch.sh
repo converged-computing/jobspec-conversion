@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-car-1648
+#FLUX: --job-name=bumfuzzled-poo-9543
 #FLUX: -N=4
 #FLUX: --queue=debug
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XDG_RUNTIME_DIR=''
 export LC_ALL='C.UTF-8'

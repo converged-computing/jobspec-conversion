@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lentil-3281
+#FLUX: --job-name=reclusive-earthworm-4801
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

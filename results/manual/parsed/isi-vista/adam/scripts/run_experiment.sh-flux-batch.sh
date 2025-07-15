@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ADAM_EXPERIMENT
 #FLUX: --queue=ephemeral
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euo pipefail
 echo "Current node: $(hostname)"

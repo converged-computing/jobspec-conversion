@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-lemon-3606
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-bicycle-4192
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 ml intel-compilers/2022.1.0 CMake/3.23.1-GCCcore-11.3.0 # pouze na Barbore

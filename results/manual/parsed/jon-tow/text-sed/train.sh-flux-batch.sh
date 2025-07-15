@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="text-sed"
+#FLUX: --job-name=text-sed
 #FLUX: -c=6
 #FLUX: --exclusive
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/aws-ofi-nccl/lib'
 export NCCL_PROTO='simple'

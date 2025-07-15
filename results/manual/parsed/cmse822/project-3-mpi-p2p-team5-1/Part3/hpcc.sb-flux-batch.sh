@@ -2,7 +2,7 @@
 #FLUX: --job-name=ring_shift
 #FLUX: -N=2
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/7.3.0-2.30 openmpi hdf5 python git

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-signal-5043
+#FLUX: --job-name=psycho-frito-7986
 #FLUX: -N=16
 #FLUX: -n=256
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 export JULIA_NUM_THREADS='$OMP_NUM_THREADS'

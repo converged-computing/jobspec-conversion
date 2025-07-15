@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-hobbit-3321
-#FLUX: --priority=16
+#FLUX: --job-name=placid-hope-3668
+#FLUX: --urgency=16
 
 module load cuda/75/blas/7.5.18
 module load cuda/75/fft/7.5.18

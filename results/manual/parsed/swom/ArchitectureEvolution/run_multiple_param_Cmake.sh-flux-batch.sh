@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=run_arc_evo_loop
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CMake
 module load binutils

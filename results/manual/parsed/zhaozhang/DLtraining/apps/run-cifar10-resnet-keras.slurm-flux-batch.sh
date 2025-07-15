@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cat-6507
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-earthworm-5053
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'
 export KMP_BLOCKTIME='0'

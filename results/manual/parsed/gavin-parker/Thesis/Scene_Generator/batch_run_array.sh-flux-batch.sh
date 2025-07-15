@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-spoon-5670
+#FLUX: --job-name=purple-salad-2203
 #FLUX: -c=28
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:/mnt/storage/scratch/gp14958/blender-2.79-linux-glibc219-x86_64/'
 export SCENE_DIR='/mnt/storage/scratch/gp14958/scene_data_final'

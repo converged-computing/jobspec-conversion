@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-gato-8751
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-peas-5501
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

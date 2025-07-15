@@ -2,7 +2,7 @@
 #FLUX: --job-name=HPL_1n_12p_2t
 #FLUX: -n=24
 #FLUX: -t=2220
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='2'
 

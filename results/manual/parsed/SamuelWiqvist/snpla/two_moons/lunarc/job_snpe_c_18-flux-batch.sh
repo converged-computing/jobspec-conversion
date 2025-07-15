@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cinnamonbun-7048
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-butter-6078
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

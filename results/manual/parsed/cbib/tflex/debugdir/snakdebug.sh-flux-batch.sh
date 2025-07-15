@@ -2,7 +2,7 @@
 #FLUX: --job-name=snakeplot
 #FLUX: --exclusive
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 scontrol show job $SLURM_JOB_ID
 module load snakemake

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cinnamonbun-1559
+#FLUX: --job-name=doopy-milkshake-0044
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 IMAGE=${IMAGE:-/scratch/wz2247/singularity/images/pytorch_21.06-py3.sif}
 OVERLAY_DIR=${OVERLAY_DIR:-../lecture2}

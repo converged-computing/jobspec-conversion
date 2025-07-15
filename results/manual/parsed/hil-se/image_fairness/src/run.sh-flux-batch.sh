@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-fudge-5938
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-taco-4797
+#FLUX: --urgency=16
 
 spack unload -a
 spack load /lklqe3u

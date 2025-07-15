@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-earthworm-8840
+#FLUX: --job-name=scruptious-peanut-butter-9853
 #FLUX: -c=2
 #FLUX: --queue=amd
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load any/python/3.8.3-conda
 conda activate lstm-caise23

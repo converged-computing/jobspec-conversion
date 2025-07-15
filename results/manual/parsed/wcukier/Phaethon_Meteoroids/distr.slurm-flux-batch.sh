@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=distr
 #FLUX: -t=14340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda3/2021.5

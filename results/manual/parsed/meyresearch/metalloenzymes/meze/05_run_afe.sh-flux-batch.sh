@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-kerfuffle-2008
-#FLUX: --priority=16
+#FLUX: --job-name=faux-cinnamonbun-3178
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate obss

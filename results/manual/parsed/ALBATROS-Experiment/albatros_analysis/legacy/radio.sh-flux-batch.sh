@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-staircase-2013
+#FLUX: --job-name=sticky-chair-5527
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/home/simont/mars'
 

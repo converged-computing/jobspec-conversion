@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-omelette-2590
+#FLUX: --job-name=lovely-parrot-3749
 #FLUX: --queue=standard
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gatk
 module load vcftools

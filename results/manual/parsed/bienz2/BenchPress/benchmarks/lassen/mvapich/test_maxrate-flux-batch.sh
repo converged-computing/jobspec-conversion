@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-snack-3021
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-citrus-3017
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/benchmarks/lassen/mvapich/test_maxrate

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=run-gromacs
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /scratch/work/courses/CHEM-GA-2671-2022fa/yw5806/comp-lab-class/Week3/Data/MD50ns/2ndTry 
 module purge

@@ -2,7 +2,7 @@
 #FLUX: --job-name=manchester-fastqc
 #FLUX: --queue=srlab
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 output_dir=/gscratch/scrubbed/yaaminiv/Manchester/analyses/fastqc
 threads=28

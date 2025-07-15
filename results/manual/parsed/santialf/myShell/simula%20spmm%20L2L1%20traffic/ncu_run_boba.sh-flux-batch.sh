@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-signal-0584
-#FLUX: --priority=16
+#FLUX: --job-name=placid-house-6069
+#FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'
 

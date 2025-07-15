@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=vcl
 #FLUX: --queue=devel
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda3/2023.09-0
 module use $DATA/easybuild/modules/all

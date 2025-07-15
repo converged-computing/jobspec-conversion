@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_0
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload python
 if [ -f "/mnt/home/tnguyen/miniconda3/etc/profile.d/conda.sh" ]; then

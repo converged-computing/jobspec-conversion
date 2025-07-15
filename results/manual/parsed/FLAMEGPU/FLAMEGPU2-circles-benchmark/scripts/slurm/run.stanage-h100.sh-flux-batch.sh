@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pot-6901
+#FLUX: --job-name=scruptious-dog-4187
 #FLUX: -c=24
 #FLUX: --queue=gpu
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FLAMEGPU2_INC_DIR='_deps/flamegpu2-src/include'
 

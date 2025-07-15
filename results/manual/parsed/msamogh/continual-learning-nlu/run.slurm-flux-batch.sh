@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-dog-2609
+#FLUX: --job-name=dinosaur-lizard-0929
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load git
 module load python/3.8

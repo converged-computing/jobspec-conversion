@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cattywampus-1048
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-eagle-7741
+#FLUX: --urgency=16
 
 export HOME='/n/holylabs/LABS/idreos_lab/Users/azhao'
 export CCACHE_DI2='${HOME}/ccache'

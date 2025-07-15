@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-parrot-0631
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-parsnip-5151
+#FLUX: --urgency=16
 
 here=$(pwd)
 moi=$(whoami)

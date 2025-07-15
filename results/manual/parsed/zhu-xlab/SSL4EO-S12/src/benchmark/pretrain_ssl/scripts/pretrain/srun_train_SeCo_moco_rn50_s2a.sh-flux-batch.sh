@@ -4,7 +4,7 @@
 #FLUX: -c=10
 #FLUX: --queue=booster
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

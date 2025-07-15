@@ -2,7 +2,7 @@
 #FLUX: --job-name=test
 #FLUX: -N=2
 #FLUX: --queue=E5-2630V2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load lammps/12Dec18
 HW="cpu"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-buttface-0432
+#FLUX: --job-name=buttery-omelette-7768
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATESTAMP=${DATESTAMP:-`date +'%y%m%d%H%M%S%N'`}
 BENCHMARK=${BENCHMARK:-"single_stage_detector"}

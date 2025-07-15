@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="ref_F150A"
+#FLUX: --job-name=ref_F150A
 #FLUX: -N=4
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 binfile="npt02" # continue from old files
 pdbfile="F150A_autoWAT.pdb"

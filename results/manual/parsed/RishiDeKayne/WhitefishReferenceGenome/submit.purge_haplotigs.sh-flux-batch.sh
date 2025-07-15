@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-platanos-7551
-#FLUX: --priority=16
+#FLUX: --job-name=red-lizard-4436
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RishiDeKayne/WhitefishReferenceGenome/submit.purge_haplotigs.sh

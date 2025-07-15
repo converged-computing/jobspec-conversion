@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-onion-5944
-#FLUX: --priority=16
+#FLUX: --job-name=confused-egg-7853
+#FLUX: --urgency=16
 
 declare -a arr=("Colon" "lymph_node_metastasis" "Spleen" "Pancreas" "Epidermis" "Breast" "Lymph_Node" "Tonsil" "Lung" "Esophagus")
 RESNEST_ROOT_DIR='centermask2'

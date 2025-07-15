@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lizard-3990
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-underoos-3013
+#FLUX: --urgency=16
 
 source ~/.bashrc
 echo "... loading module"

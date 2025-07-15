@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-chip-7463
+#FLUX: --job-name=milky-malarkey-6180
 #FLUX: --queue=medium
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 StudyFolder=$1 #Location of Subject folders (named by subjectID)
 Subject=$2 #Space delimited list of subject IDs

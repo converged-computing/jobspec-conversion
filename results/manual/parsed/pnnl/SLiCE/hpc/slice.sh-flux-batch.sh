@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=slice-amazon_s
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cuda/9.2.148 

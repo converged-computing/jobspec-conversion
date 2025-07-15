@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-muffin-0616
+#FLUX: --job-name=ornery-avocado-3070
 #FLUX: -c=8
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FB='$(printf "%5.5d" ${SLURM_ARRAY_TASK_ID})'
 export SINGULARITY_BIND=''

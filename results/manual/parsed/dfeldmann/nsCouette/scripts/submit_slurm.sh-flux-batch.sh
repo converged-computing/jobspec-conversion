@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-nunchucks-9448
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-itch-0801
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='12'
 export OMP_SCHEDULE='static'

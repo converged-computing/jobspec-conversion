@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-pot-1450
+#FLUX: --job-name=placid-signal-7013
 #FLUX: -t=30600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/$projects/papr
 module load StdEnv/2020

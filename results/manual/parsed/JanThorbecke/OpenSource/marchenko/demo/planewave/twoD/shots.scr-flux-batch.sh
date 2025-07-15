@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-diablo-6965
+#FLUX: --job-name=wobbly-milkshake-1938
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='\$HOME/src/OpenSource/bin:\$PATH:'
 export OMP_NUM_THREADS='4'

@@ -4,7 +4,7 @@
 #FLUX: -n=4
 #FLUX: --queue=advanced
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/abc/FZI-WIM-NLI4CT'
 export FI_PROVIDER='efa'

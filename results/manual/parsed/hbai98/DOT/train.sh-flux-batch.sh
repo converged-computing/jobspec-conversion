@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-peanut-butter-7852
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-bicycle-2437
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hbai98/DOT/train.sh

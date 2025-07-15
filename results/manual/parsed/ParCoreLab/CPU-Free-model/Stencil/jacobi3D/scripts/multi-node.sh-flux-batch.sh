@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-butter-3235
+#FLUX: --job-name=bloated-avocado-3397
 #FLUX: -N=2
 #FLUX: -n=4
 #FLUX: -c=16
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . ./scripts/modules_truba.sh > /dev/null
 MAX_NUM_GPUS=8

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-diablo-2953
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-dog-8497
+#FLUX: --urgency=16
 
 export MIOPEN_DISABLE_CACHE='1'
 export NNODES='$SLURM_JOB_NUM_NODES # e.g., 100 total nodes'

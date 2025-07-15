@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-fudge-1888
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-cat-5679
+#FLUX: --urgency=16
 
 export UNZIP_DISABLE_ZIPBOMB_DETECTION='true'
 export CHIPLET_DIR='/tmp/chiplets'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-train-8042
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-lizard-9877
+#FLUX: --urgency=16
 
 module unload gromacs
  module unload gromacs/2020.2

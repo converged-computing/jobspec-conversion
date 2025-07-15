@@ -2,7 +2,7 @@
 #FLUX: --job-name=fixids
 #FLUX: --queue=bluemoon
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 set -e

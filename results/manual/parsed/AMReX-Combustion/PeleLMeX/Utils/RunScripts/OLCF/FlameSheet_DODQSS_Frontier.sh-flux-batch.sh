@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-ricecake-7324
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-lettuce-8592
+#FLUX: --urgency=16
 
 export https_proxy='http://proxy.ccs.ornl.gov:3128'
 

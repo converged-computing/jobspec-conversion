@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-cat-6270
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-leopard-0778
+#FLUX: --urgency=16
 
 export MV2_USE_CUDA='1'
 export MV2_ENABLE_AFFINITY='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-fudge-1366
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-nalgas-4829
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GeorgeGayno-NOAA/global-workflow/ush/fv3gfs_remap_weights.sh

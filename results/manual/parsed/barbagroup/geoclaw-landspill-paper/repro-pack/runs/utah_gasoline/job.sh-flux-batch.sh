@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Landspill Utah Gasoline"
+#FLUX: --job-name=Landspill Utah Gasoline
 #FLUX: --queue=defq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export OMP_NUM_THREADS='20'

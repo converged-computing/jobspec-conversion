@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-leader-1200
+#FLUX: --job-name=psycho-taco-6930
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "[voc12/train.rn50.all.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 nodeset -e $SLURM_JOB_NODELIST

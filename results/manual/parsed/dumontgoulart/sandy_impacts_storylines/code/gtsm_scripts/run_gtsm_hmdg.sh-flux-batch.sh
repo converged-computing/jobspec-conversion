@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=newsingularity
 #FLUX: -t=12600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export purpose='GTSMv3.0 - ERA5 run near-realtime for Sea Level Monitor'
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=iaf2info
 #FLUX: --exclusive
 #FLUX: --queue=64c512g
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "----"
 echo jobid=$SLURM_JOB_ID # job index

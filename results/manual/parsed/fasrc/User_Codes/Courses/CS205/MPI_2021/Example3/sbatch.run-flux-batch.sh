@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-poodle-4133
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-destiny-5010
+#FLUX: --urgency=16
 
 PRO=mpi_pi
 rm -rf ${PRO}.dat

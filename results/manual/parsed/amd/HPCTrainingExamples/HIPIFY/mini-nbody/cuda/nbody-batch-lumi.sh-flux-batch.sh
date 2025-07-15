@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-motorcycle-7100
-#FLUX: --priority=16
+#FLUX: --job-name=placid-destiny-9900
+#FLUX: --urgency=16
 
 export ROCM_GPU='`rocminfo |grep -m 1 -E gfx[^0]{1} | sed -e 's/ *Name: *\(gfx[0-9,a-f]*\) *$/\1/'` '
 

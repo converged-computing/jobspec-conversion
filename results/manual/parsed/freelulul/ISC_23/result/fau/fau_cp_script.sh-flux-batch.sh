@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-banana-5778
+#FLUX: --job-name=eccentric-peanut-1809
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/hpc/b154dc/b154dc23/QE/qe-intel/qe-7.2/build-elpa/bin:$PATH'
 

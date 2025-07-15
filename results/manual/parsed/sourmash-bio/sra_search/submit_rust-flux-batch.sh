@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lentil-1858
+#FLUX: --job-name=fuzzy-squidward-7265
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 source ~/.bashrc

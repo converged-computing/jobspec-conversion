@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-train-9125
+#FLUX: --job-name=red-hope-4555
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 readonly datadir="/datasets/imagenet/train-val-tfrecord"
 readonly checkpointdir="$PWD/B0_mulitnode_AMP/"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-soup-9636
+#FLUX: --job-name=conspicuous-hippo-4175
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

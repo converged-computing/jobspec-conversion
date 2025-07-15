@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lamp-7069
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-house-7016
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/HPCBio/BashWES_VarCall_BW/start.sh

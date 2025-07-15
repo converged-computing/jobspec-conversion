@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-squidward-3403
-#FLUX: --priority=16
+#FLUX: --job-name=purple-motorcycle-9134
+#FLUX: --urgency=16
 
 set -o nounset
 set -o errexit

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-taco-0613
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-pancake-2020
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='100M'
 

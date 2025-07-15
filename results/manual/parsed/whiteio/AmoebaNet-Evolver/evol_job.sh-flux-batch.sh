@@ -2,7 +2,7 @@
 #FLUX: --job-name=AmoebaNetEvolver
 #FLUX: --queue=gpu
 #FLUX: -t=1800000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/users/40175159/gridware/share/python/3.6.4/lib/python3.6/site-packages'
 

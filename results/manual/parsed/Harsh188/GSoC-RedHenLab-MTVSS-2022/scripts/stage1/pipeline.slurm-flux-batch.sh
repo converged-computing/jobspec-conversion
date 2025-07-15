@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lamp-1853
+#FLUX: --job-name=salted-itch-3099
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity/3.8.1
 cd $TMPDIR

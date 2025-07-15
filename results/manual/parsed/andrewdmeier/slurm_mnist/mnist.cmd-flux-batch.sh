@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="tensorflow_tutorial"
+#FLUX: --job-name=tensorflow_tutorial
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3
 source activate tf-gpu

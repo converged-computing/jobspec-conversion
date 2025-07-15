@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-parrot-5475
+#FLUX: --job-name=crusty-leg-8462
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MONORUN='Mpirun -prepend-rank -np 1 '
 export MPIRUN='Mpirun -prepend-rank -np 4 '

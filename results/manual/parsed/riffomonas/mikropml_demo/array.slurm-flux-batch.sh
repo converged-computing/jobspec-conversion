@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-motorcycle-2722
+#FLUX: --job-name=grated-pastry-2057
 #FLUX: --queue=standard
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SEED=$((SLURM_ARRAY_TASK_ID))
 echo $SEED

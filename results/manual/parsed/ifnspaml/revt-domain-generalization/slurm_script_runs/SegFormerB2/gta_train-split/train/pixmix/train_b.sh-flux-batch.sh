@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=gpu,gpub
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 max_iters=40000
 main_config="./local_configs/segformer/B2/segformer.b2.512x512.gta2cs.40k.batch2_pixmix.py"

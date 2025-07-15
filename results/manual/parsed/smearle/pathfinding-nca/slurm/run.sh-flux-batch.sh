@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=NCA_diameter_128-hid_64-layer_lr-1e-04_10000-data_cutCorners_4
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TUNE_RESULT_DIR='./ray_results/'
 

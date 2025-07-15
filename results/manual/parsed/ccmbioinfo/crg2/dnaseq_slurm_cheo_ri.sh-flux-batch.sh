@@ -2,7 +2,7 @@
 #FLUX: --job-name=crg2
 #FLUX: --queue=all
 #FLUX: -t=180000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SF="/srv/shared/pipelines/crg2/Snakefile"
 CP="/srv/shared/conda_envs/crg2-conda/"

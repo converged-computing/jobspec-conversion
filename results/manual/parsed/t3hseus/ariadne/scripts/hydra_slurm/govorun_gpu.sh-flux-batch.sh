@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-spoon-5647
-#FLUX: --priority=16
+#FLUX: --job-name=grated-dog-9035
+#FLUX: --urgency=16
 
 lscpu
 nvidia-smi

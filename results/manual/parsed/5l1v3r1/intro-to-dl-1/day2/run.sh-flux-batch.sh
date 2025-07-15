@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-peanut-butter-3930
+#FLUX: --job-name=astute-chair-7738
 #FLUX: -c=10
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATADIR='/scratch/project_2003959/data'
 

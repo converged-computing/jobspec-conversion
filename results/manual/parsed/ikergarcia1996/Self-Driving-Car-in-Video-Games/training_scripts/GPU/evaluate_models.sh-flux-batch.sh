@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=eval
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /ikerlariak/igarcia945/envs/pytorch-tximista/bin/activate
 cd ../../

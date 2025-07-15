@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-general-1734
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-ricecake-7713
+#FLUX: --urgency=16
 
 Soft="hicpro_wrap"
 function usage {

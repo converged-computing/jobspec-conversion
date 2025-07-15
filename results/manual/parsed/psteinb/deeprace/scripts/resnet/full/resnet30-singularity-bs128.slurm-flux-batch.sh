@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pot-3673
+#FLUX: --job-name=fugly-leader-6201
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

@@ -2,7 +2,7 @@
 #FLUX: --job-name=compile
 #FLUX: -c=2
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VER_USER='                     ######## Your own USER Directory'
 

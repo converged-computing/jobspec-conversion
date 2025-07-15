@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pedo-6098
+#FLUX: --job-name=fugly-staircase-9274
 #FLUX: -c=20
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load miniconda3
 module load cuda/11.8.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-underoos-4983
+#FLUX: --job-name=conspicuous-signal-1196
 #FLUX: -c=8
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${​​​​SLURM_CPUS_PER_TASK}'
 

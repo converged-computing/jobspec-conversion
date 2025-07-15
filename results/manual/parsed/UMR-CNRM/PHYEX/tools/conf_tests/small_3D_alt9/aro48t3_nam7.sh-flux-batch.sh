@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-kerfuffle-5873
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-dog-2975
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

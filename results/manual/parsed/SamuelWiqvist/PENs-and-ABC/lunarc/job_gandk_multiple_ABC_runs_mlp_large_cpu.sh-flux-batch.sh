@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-destiny-9464
-#FLUX: --priority=16
+#FLUX: --job-name=angry-cherry-1250
+#FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load OpenMPI/2.1.2

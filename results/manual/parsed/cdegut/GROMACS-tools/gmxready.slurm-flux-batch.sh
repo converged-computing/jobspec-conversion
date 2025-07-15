@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=gmxPrep
-#FLUX: --queue=infer    # Choose either "gpu" or "infer" node type
+#FLUX: --queue=infer
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load hecbiosim
 module load gromacs/2022.2

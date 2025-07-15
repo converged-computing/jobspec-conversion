@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-peanut-7647
+#FLUX: --job-name=chunky-diablo-2603
 #FLUX: --queue=standard
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc bbmap

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-nunchucks-2724
+#FLUX: --job-name=bloated-puppy-9118
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularity exec --nv \
   --bind /proj/nlp4adas/users/$USER:/workspace \

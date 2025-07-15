@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-animal-0277
+#FLUX: --job-name=eccentric-peas-6034
 #FLUX: -n=24
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BIND='${SCRATCH}:/tmp'
 

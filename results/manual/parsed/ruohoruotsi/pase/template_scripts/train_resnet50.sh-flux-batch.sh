@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-gato-8558
-#FLUX: --priority=16
+#FLUX: --job-name=arid-lemur-2098
+#FLUX: --urgency=16
 
 nvidia-smi
 python -u train.py --batch_size 12 --epoch 200 \

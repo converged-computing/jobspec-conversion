@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peanut-butter-0498
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-knife-4431
+#FLUX: --urgency=16
 
 export PATH='${PATH}:${HIP_PATH}'
 

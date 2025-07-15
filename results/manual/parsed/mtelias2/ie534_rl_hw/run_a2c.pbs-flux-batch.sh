@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-banana-5310
-#FLUX: --priority=16
+#FLUX: --job-name=placid-blackbean-5531
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mtelias2/ie534_rl_hw/run_a2c.pbs

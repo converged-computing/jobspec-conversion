@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leopard-6377
+#FLUX: --job-name=doopy-plant-3630
 #FLUX: --queue=debug
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 script_name='dummy' ##name of python script to run
 output_dir="LOGS/$script_name"

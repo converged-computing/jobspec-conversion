@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-soup-7075
-#FLUX: --priority=16
+#FLUX: --job-name=arid-fudge-0904
+#FLUX: --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

@@ -2,7 +2,7 @@
 #FLUX: --job-name=go
 #FLUX: -c=2
 #FLUX: --queue=rtx6000,t4v2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo `date`: Job $SLURM_JOB_ID is allocated resource
 echo "Starting task $SLURM_ARRAY_TASK_ID"

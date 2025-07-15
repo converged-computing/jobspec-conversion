@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-animal-7884
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-poodle-6453
+#FLUX: --urgency=16
 
 module load namd
 TASKS_PER_JOB=55 # 1 reserved for comm

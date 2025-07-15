@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bicycle-1738
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-kerfuffle-4965
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/melmel6/DeepLearning/scripts/jobscript.sh

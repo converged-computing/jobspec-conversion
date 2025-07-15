@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-staircase-1368
+#FLUX: --job-name=lovable-ricecake-3924
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge  > /dev/null 2>&1
 module load GCC/11.3.0  OpenMPI/4.1.4 TensorFlow/2.11.0-CUDA-11.7.0 scikit-learn/1.1.2

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=preprocess
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load conda
 conda activate transCoder_env

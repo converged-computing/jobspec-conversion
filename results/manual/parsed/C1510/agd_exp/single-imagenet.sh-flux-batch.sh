@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cinnamonbun-2782
+#FLUX: --job-name=carnivorous-bits-6821
 #FLUX: -c=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='20'
 export IMAGENET_PATH='/home/gridsan/groups/datasets/ImageNet'

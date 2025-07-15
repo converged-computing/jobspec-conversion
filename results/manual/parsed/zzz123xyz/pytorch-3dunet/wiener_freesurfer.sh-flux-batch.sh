@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=freesurfer
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SUBJECTS_DIR='/afm01/Q1/Q1391/MRI_segmentation/free_surfer_data'
 

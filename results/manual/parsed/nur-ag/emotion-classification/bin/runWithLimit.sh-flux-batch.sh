@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Emotions-CPU
 #FLUX: --queue=high
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CUDA/10.0.130
 module load PyTorch/1.4.0-foss-2017a-Python-3.6.4-CUDA-10.0.130

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lamp-2141
+#FLUX: --job-name=conspicuous-punk-1135
 #FLUX: -c=12
 #FLUX: -t=10740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 programname=$0
 function usage {

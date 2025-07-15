@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-knife-5188
+#FLUX: --job-name=carnivorous-caramel-0441
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$PYTRACKING_ROOT'
 export HYDRA_FULL_ERROR='1'

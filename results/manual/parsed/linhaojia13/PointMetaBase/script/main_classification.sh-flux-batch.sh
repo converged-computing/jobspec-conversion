@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lizard-2183
+#FLUX: --job-name=evasive-banana-1239
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.1.1
 module load gcc

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-malarkey-5215
+#FLUX: --job-name=anxious-hobbit-5340
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /global/common/software/desi/users/adematti/cosmodesi_environment.sh main
 PYTHONPATH=$PYTHONPATH:$HOME/LSS/py

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-bike-7918
-#FLUX: --priority=16
+#FLUX: --job-name=confused-pancake-7791
+#FLUX: --urgency=16
 
 model='34'      # width of intermediate layer 
 epochs="200"    # epochs 

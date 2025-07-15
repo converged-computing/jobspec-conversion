@@ -2,7 +2,7 @@
 #FLUX: --job-name=multinodeTestJob
 #FLUX: -N=2
 #FLUX: --queue=Test
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KUBE_IMAGE='docker.io/kalenpeterson/lambda-openmpi:20230720-v19'
 export KUBE_SCRIPT='/nas/slurm/data/run-sleep.sh'

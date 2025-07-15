@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-parrot-1835
+#FLUX: --job-name=blank-frito-6387
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED; touch STARTED
 module load singularity/3.6.4

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-parrot-7516
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-animal-2662
+#FLUX: --urgency=16
 
 python data_analysis_verbs.py

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leader-4315
+#FLUX: --job-name=faux-cattywampus-4139
 #FLUX: --exclusive
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CHPL_VERSION='$(cat CHPL_VERSION)'
 export CHPL_HOME='$PWD/chapel-${CHPL_VERSION}MCG'

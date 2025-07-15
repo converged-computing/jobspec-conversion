@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-omelette-6951
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-leader-4275
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/wenbowu-geo/SEM_DSM_hybrid/specfem3d/EXAMPLES_COUPLING/SouthAmerica_Earthquake_151111/run_SEM_sbatch.sh

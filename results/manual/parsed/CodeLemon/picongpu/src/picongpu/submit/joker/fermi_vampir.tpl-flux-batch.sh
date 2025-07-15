@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-kitty-6889
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-bicycle-0815
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CodeLemon/picongpu/src/picongpu/submit/joker/fermi_vampir.tpl

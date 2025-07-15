@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-malarkey-8882
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-hippo-1089
+#FLUX: --urgency=16
 
 module unload GSL
 module load GSL/2.6-GCC-8.3.0

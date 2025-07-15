@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="Liquid"
+#FLUX: --job-name=Liquid
 #FLUX: -n=2
 #FLUX: -c=32
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

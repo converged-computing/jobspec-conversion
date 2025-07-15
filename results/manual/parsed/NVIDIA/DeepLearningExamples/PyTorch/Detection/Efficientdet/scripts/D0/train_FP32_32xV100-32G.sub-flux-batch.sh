@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-fork-5124
+#FLUX: --job-name=muffled-latke-8145
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 readonly datadir="/coco2017"
 readonly checkpointdir="$PWD/results/"

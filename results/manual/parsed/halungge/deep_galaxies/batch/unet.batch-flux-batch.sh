@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="tf_unet"
+#FLUX: --job-name=tf_unet
 #FLUX: -t=7140
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/apps/daint/UES/5.2.UP04/sandbox-ds/tensorflow/cudadnn/lib64/:$LD_LIBRARY_PATH'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="pegasus_FSpicRNAMetrics"
+#FLUX: --job-name=pegasus_FSpicRNAMetrics
 #FLUX: -t=115200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load R/2.15.2
 beginTime=`date +%s`

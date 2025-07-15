@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-fork-3011
+#FLUX: --job-name=eccentric-omelette-1583
 #FLUX: -t=540000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /usr/Modules/init/sh
 cd $HOME/scene-sparse/data_analysis

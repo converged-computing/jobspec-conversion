@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-blackbean-3944
+#FLUX: --job-name=eccentric-taco-0568
 #FLUX: -c=8
 #FLUX: --queue=develbooster
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_TIMEOUT='50'
 export UCX_RC_TIMEOUT='4s'

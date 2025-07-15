@@ -3,7 +3,7 @@
 #FLUX: -c=128
 #FLUX: --queue=cpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$addr'
 export MASTER_PORT='56781'

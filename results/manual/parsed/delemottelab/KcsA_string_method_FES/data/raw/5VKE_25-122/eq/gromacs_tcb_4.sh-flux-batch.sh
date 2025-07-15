@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bits-6770
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-carrot-3972
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

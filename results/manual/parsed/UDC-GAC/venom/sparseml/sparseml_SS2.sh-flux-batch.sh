@@ -2,7 +2,7 @@
 #FLUX: --job-name=sparsifier
 #FLUX: --queue=amdrtx
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.7.1
 source activate sparseml_artf

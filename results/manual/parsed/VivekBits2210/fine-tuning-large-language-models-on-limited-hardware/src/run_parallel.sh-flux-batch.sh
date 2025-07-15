@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=trainer --output=fsdp_output.txt --time=23:55:00 --wrap "sleep infinity" --cpus-per-task=8 --mem=64G  --gres=gpu:rtx8000:2
-#FLUX: --priority=16
+#FLUX: --job-name=trainer
+#FLUX: -c=8
+#FLUX: -t=86100
+#FLUX: --urgency=16
 
 echo "Hostname: $(hostname)"
 echo "Processor: $(lscpu | grep 'Model name' | awk -F ':' '{print $2}' | xargs)"

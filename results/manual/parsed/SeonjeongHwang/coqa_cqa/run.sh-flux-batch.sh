@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cherry-2803
-#FLUX: --priority=16
+#FLUX: --job-name=salted-pancake-0832
+#FLUX: --urgency=16
 
 conda activate chain
 module purge

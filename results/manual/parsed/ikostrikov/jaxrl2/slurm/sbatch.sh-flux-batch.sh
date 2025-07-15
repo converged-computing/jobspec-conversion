@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=savio3_gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ENV_ID=$((SLURM_ARRAY_TASK_ID-1))
 arrENVS=(${ENVS//;/ })

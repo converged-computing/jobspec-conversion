@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="memorization"
+#FLUX: --job-name=memorization
 #FLUX: -N=64
 #FLUX: -c=6
 #FLUX: --exclusive
 #FLUX: --queue=g40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GIT_DISCOVERY_ACROSS_FILESYSTEM='0'
 

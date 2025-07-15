@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-leader-8541
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-lentil-6178
+#FLUX: --urgency=16
 
 NPROC=$1
 QHR=$2

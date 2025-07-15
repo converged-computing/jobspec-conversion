@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-rabbit-9155
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-arm-3272
+#FLUX: --urgency=16
 
 module load numpy
 module load python/2.7.6

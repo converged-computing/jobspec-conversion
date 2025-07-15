@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lettuce-4660
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-squidward-4062
+#FLUX: --urgency=16
 
  # @Author: yanhuo 1760331284@qq.com
  # @Date: 2023-11-11 16:01:59

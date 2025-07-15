@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-parsnip-2833
-#FLUX: --priority=16
+#FLUX: --job-name=angry-nalgas-9031
+#FLUX: --urgency=16
 
 export NETCDF='/appl/opt/netcdf4/gcc-7.3.0/intelmpi-18.0.2/4.6.1/'
 export WRFIO_NCD_LARGE_FILE_SUPPORT='1'

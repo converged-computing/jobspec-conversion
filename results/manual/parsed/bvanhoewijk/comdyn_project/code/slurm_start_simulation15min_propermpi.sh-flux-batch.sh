@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-citrus-9296
+#FLUX: --job-name=swampy-caramel-8295
 #FLUX: -n=64
 #FLUX: --queue=genoa
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2023
 module load GROMACS/2023.3-foss-2023a 

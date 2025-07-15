@@ -2,7 +2,7 @@
 #FLUX: --job-name=qb-bert
 #FLUX: -c=2
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_LOG_FILE='/fs/clip-quiz/entilzha/logs/${SLURM_JOB_ID}.log'
 export MODEL_CONFIG_FILE='$2'

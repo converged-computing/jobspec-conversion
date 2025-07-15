@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-poo-8786
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-malarkey-8073
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/zhangylch/EANN/example/NMA/dm/job-mpi.sh

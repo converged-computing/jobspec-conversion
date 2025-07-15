@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-signal-7365
+#FLUX: --job-name=joyous-bicycle-2158
 #FLUX: -t=1296000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='20'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-poodle-5407
+#FLUX: --job-name=cowy-peanut-1665
 #FLUX: -c=6
 #FLUX: --queue=gpu_all
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUSERBASE='/home/2021012/sruan01/riles/env'
 

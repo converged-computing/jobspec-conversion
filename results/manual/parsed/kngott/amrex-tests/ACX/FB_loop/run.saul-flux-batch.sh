@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-chip-2630
+#FLUX: --job-name=chunky-egg-1326
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_OFI_NIC_POLICY='NUMA'
 export MPIACX_NFLAGS='256'

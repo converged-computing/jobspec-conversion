@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-gato-6674
-#FLUX: --priority=16
+#FLUX: --job-name=grated-soup-2226
+#FLUX: --urgency=16
 
 ml R/4.0.0
 heuristic='SA'

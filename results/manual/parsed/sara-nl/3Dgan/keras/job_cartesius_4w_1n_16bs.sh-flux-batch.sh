@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-mango-7493
+#FLUX: --job-name=persnickety-leader-5283
 #FLUX: --queue=broadwell_short
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KERAS_BACKEND='tensorflow'
 export OMP_NUM_THREADS='$OMP_NUM_THREADS'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lemur-4538
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-muffin-5292
+#FLUX: --urgency=16
 
 mkdir -p log
 spack load py-urllib3

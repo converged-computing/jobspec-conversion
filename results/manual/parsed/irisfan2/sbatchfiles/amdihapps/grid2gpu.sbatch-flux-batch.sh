@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-toaster-8116
+#FLUX: --job-name=chunky-arm-6515
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

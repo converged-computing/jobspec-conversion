@@ -2,7 +2,7 @@
 #FLUX: --job-name=hw0
 #FLUX: --queue=normal
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /home/fagg/tf_setup.sh
 conda activate tf

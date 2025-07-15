@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=git_train
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load conda
 conda create --name transCoder_env python=3.7.6

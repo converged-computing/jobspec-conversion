@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-citrus-0467
-#FLUX: --priority=16
+#FLUX: --job-name=red-hope-2779
+#FLUX: --urgency=16
 
 . ~/miniconda3/etc/profile.d/conda.sh
 conda activate charcoal

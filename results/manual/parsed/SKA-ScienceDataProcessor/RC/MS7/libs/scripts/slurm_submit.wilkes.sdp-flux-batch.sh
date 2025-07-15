@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-toaster-2930
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-peanut-8350
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

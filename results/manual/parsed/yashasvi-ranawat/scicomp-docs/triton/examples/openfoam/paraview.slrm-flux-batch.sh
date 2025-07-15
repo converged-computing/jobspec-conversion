@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-egg-8076
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-soup-1898
+#FLUX: --urgency=16
 
 module use /share/apps2/singularity/modules
 module purge

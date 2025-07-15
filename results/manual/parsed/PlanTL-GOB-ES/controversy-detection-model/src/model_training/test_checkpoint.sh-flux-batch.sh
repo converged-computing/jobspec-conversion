@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="bne-controversy"
+#FLUX: --job-name=bne-controversy
 #FLUX: -c=128
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CACHE_DIR='cache'
 DIR_NAME=./output/$1

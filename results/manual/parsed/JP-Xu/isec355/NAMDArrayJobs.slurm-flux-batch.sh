@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-omelette-9179
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-egg-1658
+#FLUX: --urgency=16
 
 module purge
 module load cuda/11.3

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bits-4863
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-mango-0129
+#FLUX: --urgency=16
 
 set -e
 set -u

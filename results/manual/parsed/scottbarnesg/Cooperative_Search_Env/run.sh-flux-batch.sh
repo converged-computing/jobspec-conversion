@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-parsnip-6337
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-toaster-8443
+#FLUX: --urgency=16
 
 module load anaconda
 source activate tensorflow

@@ -2,7 +2,7 @@
 #FLUX: --job-name=MitoZ-%j
 #FLUX: --exclusive
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BIND='/home/e1garcia'
 

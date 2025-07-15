@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="Path"
+#FLUX: --job-name=Path
 #FLUX: -c=64
 #FLUX: --queue=epyc2
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RUST_LOG='info'
 

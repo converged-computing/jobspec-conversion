@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="extract_b0_masks"
+#FLUX: --job-name=extract_b0_masks
 #FLUX: -c=4
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 set -e

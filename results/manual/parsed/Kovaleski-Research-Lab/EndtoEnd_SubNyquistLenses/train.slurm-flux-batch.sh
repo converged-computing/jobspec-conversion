@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=coop_training
 #FLUX: --queue=gpu32,gpu40,gpu80
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 distances=($(seq 0.01 0.0009 0.1))
 enroot start --rw \

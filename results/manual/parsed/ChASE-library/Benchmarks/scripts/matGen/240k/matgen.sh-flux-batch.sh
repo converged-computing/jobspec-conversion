@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-bike-3587
+#FLUX: --job-name=pusheena-hope-3843
 #FLUX: -N=64
 #FLUX: -n=1024
 #FLUX: -c=8
 #FLUX: --queue=dc-cpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

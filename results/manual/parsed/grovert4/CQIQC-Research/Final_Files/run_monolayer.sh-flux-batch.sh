@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-malarkey-2743
+#FLUX: --job-name=conspicuous-nunchucks-0769
 #FLUX: -n=200
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load StdEnv/2020
 module load julia/1.8.5

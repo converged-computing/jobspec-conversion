@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-fork-0795
-#FLUX: --priority=16
+#FLUX: --job-name=faux-itch-8916
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='40'
 

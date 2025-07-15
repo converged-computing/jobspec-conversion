@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-mango-2828
+#FLUX: --job-name=phat-ricecake-8902
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load numpy/python2.7/intel/1.14.0

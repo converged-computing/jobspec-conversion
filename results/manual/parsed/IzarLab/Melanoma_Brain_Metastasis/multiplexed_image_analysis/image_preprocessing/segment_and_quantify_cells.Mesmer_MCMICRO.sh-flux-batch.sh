@@ -2,7 +2,7 @@
 #FLUX: --job-name=Melanoma_Brain_Metastasis
 #FLUX: --queue=single
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load system/singularity
 module load devel/java_jdk/1.8.0

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-parrot-2485
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-pot-0225
+#FLUX: --urgency=16
 
 set -e -x
 FWDIR="$(cd "`dirname $0`"/..; pwd)"

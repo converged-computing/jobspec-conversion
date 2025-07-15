@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="TensorFlow"
+#FLUX: --job-name=TensorFlow
 #FLUX: --queue=gpu-shared
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 singularity exec /share/apps/gpu/singularity/sdsc_ubuntu_gpu_tflow.img lsb_release -a

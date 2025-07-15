@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mfch
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load pytorch1.0-cuda9.0-python3.6
 . /h/abachiro/mjpro200-py.env

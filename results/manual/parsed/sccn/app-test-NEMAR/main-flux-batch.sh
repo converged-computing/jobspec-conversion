@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mytestjob
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularitypro
 mount_dir="/mnt"

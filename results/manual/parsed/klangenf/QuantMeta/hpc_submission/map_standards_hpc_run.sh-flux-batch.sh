@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=map_standards
-#FLUX: --queue=standard ###Update to hpc specifications
+#FLUX: --queue=standard
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/http_proxy.sh
 if [[ $SLURM_JOB_NODELIST ]] ; then

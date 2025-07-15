@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-toaster-8308
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-parsnip-0392
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH//\/usr\/local\/cuda-12.2\/compat:/}'
 

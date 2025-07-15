@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=v2_54_ws
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/ozturk/anaconda3/bin/activate metadl
 pwd

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-animal-2431
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-truffle-4733
+#FLUX: --urgency=16
 
 module unload gromcas
  module unload gromacs/2020.2

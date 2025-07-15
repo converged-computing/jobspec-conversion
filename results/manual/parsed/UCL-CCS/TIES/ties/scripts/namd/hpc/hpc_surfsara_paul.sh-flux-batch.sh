@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-spoon-5208
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-sundae-0955
+#FLUX: --urgency=16
 
                     # SLURM will compute the number of nodes needed
                     # 16 processes, each process can spawn 4 OpenMP

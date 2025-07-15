@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-truffle-3609
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-staircase-0127
+#FLUX: --urgency=16
 
 cd ..
 name=recongan_resnet_nyu

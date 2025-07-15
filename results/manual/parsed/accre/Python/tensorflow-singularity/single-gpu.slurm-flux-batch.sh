@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-pot-4314
+#FLUX: --job-name=frigid-peanut-butter-4992
 #FLUX: --queue=pascal
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load GCC Singularity git
 git clone https://github.com/tensorflow/models.git

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-motorcycle-0412
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-butter-2588
+#FLUX: --urgency=16
 
 module purge
 module load anaconda

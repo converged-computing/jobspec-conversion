@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-butter-2845
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-destiny-7416
+#FLUX: --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

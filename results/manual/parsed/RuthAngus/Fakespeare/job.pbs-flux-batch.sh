@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-omelette-6143
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-kerfuffle-5730
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RuthAngus/Fakespeare/job.pbs

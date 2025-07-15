@@ -4,7 +4,7 @@
 #FLUX: -c=40
 #FLUX: --queue=oermannlab
 #FLUX: -t=2592000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME='/gpfs/home/jiangy09/'
 

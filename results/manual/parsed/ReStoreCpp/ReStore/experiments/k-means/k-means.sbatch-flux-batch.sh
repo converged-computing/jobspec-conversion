@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-kitty-7303
+#FLUX: --job-name=arid-malarkey-9735
 #FLUX: -N=4
 #FLUX: --queue=test
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMIX_MCA_gds='hash'
 

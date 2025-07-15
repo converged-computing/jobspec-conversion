@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-spoon-5684
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-banana-1596
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/clemsonciti/palmetto-examples/MATLAB/job.sh

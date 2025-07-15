@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=HAE
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/local/nvidia/lib'
 

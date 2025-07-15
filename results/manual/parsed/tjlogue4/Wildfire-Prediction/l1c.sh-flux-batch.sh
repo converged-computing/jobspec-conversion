@@ -4,6 +4,6 @@
 #FLUX: -n=10
 #FLUX: -c=32
 #FLUX: --queue=compute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun conda run -n fires3.7 python process_l1c.py

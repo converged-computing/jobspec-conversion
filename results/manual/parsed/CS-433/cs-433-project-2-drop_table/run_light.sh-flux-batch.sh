@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-earthworm-7389
+#FLUX: --job-name=milky-peanut-3241
 #FLUX: -N=4
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/8.4.0-cuda
 module load mvapich2/2.3.4

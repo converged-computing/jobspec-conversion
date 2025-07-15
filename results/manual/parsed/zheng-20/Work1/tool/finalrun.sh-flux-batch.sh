@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-kerfuffle-7804
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-punk-8034
+#FLUX: --urgency=16
 
 export PYTHONPATH='./'
 

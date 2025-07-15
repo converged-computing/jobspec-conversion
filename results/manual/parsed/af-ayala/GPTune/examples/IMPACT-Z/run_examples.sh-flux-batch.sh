@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parsnip-8794
-#FLUX: --priority=16
+#FLUX: --job-name=blank-leader-6776
+#FLUX: --urgency=16
 
 cd ../../
 . run_env.sh

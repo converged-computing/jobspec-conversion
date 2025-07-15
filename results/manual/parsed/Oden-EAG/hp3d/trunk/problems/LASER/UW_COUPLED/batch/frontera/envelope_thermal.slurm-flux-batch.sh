@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-malarkey-2813
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-dog-3644
+#FLUX: --urgency=16
 
 export KMP_STACKSIZE='24M   # p=6'
 export KMP_INIT_AT_FORK='FALSE'

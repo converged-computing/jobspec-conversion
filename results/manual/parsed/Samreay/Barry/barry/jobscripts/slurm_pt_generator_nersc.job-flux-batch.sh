@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-buttface-8151
+#FLUX: --job-name=quirky-bike-7247
 #FLUX: -n=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc.ext
 source /global/common/software/desi/users/adematti/cosmodesi_environment.sh main

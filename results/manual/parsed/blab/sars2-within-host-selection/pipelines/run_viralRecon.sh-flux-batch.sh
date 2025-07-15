@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-spoon-1881
+#FLUX: --job-name=bumfuzzled-kerfuffle-7491
 #FLUX: -n=36
 #FLUX: --queue=campus-new
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 load_modules() {
   module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-car-8233
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-signal-1179
+#FLUX: --urgency=16
 
 singularity run /proj/g2020014/nobackup/private/$@

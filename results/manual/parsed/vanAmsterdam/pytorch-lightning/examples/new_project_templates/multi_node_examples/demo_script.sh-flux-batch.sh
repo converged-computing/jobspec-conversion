@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: -c=10
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

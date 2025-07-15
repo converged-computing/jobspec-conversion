@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-squidward-4634
+#FLUX: --job-name=swampy-kerfuffle-1128
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PROJECT_PATH=$(cd ../../; realpath .)
 IMAGE_NAME="nvcr.io/nvidia/pytorch:23.12-py3"

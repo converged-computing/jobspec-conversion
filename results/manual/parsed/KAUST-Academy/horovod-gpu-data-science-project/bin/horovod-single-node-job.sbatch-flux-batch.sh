@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-dog-1316
+#FLUX: --job-name=crusty-fork-3472
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=batch
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 

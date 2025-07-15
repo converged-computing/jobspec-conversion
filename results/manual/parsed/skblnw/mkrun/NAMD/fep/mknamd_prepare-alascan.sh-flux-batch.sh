@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-ricecake-9931
+#FLUX: --job-name=doopy-earthworm-7163
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 VMD="vmd"
 SEGNAME="PROC"

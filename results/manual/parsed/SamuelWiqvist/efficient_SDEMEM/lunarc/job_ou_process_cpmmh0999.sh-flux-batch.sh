@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-snack-8078
+#FLUX: --job-name=blank-lamp-5265
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'
 

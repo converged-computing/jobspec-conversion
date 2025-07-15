@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-motorcycle-0080
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-squidward-2204
+#FLUX: --urgency=16
 
 module purge
 module load julia-1_8_5

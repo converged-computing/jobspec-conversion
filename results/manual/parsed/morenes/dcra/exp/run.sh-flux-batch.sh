@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-truffle-5997
-#FLUX: --priority=16
+#FLUX: --job-name=phat-plant-3803
+#FLUX: --urgency=16
 
 Help(){ # Display Help
 echo "Running Simulation."

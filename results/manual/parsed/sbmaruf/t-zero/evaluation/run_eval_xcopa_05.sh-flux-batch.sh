@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lamp-5246
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-signal-4807
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='5'
 

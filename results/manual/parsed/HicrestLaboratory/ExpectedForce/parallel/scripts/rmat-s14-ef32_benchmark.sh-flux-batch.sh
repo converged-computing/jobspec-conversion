@@ -2,7 +2,7 @@
 #FLUX: --job-name=hello-cuda
 #FLUX: --queue=training
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda-11.2.1
 module load gcc-6.5.0

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-animal-4089
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-nunchucks-2840
+#FLUX: --urgency=16
 
 export SBATCH_CONSTRAINT='broadwell'
 export SBATCH_ACCOUNT='easybuild'

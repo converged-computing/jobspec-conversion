@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-blackbean-0039
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-underoos-5736
+#FLUX: --urgency=16
 
 export PYTHONPATH='/home1/08302/akshit06/ParaView-5.10.1-osmesa-MPI-Linux-Python3.9-x86_64/lib/python3.9/site-packages:$PYTHONPATH'
 

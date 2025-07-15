@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-gato-5904
+#FLUX: --job-name=salted-muffin-3375
 #FLUX: --queue=scavenger
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load IQ-TREE/1.6.12-MPI
 mpirun -np 2 iqtree-mpi -nt 6 -s analyses/phylogenomic_jackknifing/alignments/concat/331_rep${SLURM_ARRAY_TASK_ID}.phy \

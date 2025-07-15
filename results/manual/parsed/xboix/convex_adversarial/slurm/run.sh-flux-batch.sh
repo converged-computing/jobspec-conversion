@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=robustness
 #FLUX: --queue=cbmm
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /om2/user/xboix/src/convex_adversarial/
 hostname

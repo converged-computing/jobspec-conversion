@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=96GB
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 singularity exec --nv \

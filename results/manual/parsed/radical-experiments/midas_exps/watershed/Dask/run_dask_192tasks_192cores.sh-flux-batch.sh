@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-dog-6040
-#FLUX: --priority=16
+#FLUX: --job-name=phat-platanos-5763
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 source activate watershed_Dask

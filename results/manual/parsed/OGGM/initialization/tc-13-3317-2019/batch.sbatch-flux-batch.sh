@@ -2,7 +2,7 @@
 #FLUX: --job-name=reconstruction
 #FLUX: --exclusive
 #FLUX: --queue=low
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OGGM_DOWNLOAD_CACHE='/home/data/download'
 export OGGM_DOWNLOAD_CACHE_RO='1'

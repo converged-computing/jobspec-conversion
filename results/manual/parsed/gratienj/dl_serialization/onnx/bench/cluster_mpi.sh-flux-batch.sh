@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-puppy-1588
+#FLUX: --job-name=misunderstood-nalgas-5158
 #FLUX: --exclusive
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='MASTER'
 

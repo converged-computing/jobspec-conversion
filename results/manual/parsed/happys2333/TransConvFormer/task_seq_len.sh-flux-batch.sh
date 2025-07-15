@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lemur-3603
+#FLUX: --job-name=doopy-destiny-6108
 #FLUX: --queue=gpulab02
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 env_name="trans"
 seq_lens=(96 192 336 720)

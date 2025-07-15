@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-leopard-0307
-#FLUX: --priority=16
+#FLUX: --job-name=red-house-8654
+#FLUX: --urgency=16
 
 define_modules_config()
 {

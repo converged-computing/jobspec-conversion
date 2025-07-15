@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=suprem
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load mamba/latest
 source activate suprem

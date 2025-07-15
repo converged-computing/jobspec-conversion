@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hippo-6307
-#FLUX: --priority=16
+#FLUX: --job-name=purple-lizard-4584
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OUTPUT_DIR='/scratch/project_2002026/cnn/multiling-cnn/pretty/output'

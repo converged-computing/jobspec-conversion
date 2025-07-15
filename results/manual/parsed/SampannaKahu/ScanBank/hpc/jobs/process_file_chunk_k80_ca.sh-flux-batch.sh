@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-rabbit-1106
+#FLUX: --job-name=loopy-buttface-3186
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load singularity/3.3.0

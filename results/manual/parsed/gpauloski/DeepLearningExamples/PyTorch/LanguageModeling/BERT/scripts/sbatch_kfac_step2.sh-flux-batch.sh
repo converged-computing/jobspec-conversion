@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-plant-3818
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-bicycle-9901
+#FLUX: --urgency=16
 
 export MV2_USE_CUDA='1'
 export MV2_ENABLE_AFFINITY='1'

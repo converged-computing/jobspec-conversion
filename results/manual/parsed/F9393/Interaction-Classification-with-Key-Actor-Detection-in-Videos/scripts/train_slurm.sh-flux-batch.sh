@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-hippo-5404
+#FLUX: --job-name=creamy-pedo-2209
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.8.10
 module load gcc/8.4.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-taco-2591
+#FLUX: --job-name=hanky-carrot-6325
 #FLUX: --queue=physical
 #FLUX: -t=50400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load FSL/5.0.11-intel-2017.u2-GCC-6.2.0-CUDA9
 module load MRtrix/20190207-GCC-6.2.0

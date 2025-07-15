@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=cpuonly
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "========================================================================"
 echo "=> Account name: $SLURM_JOB_ACCOUNT"

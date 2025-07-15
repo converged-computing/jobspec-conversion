@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-destiny-7180
+#FLUX: --job-name=crunchy-motorcycle-4925
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'
 

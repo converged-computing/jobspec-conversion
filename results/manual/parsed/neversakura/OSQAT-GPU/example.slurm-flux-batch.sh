@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-hippo-8015
+#FLUX: --job-name=wobbly-onion-4760
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 JULIA_DEBUG=CUDA julia src/JOB.jl

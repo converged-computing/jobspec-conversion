@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lettuce-0825
+#FLUX: --job-name=buttery-cattywampus-7361
 #FLUX: -N=64
 #FLUX: --queue=general
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload intel-mpi/2019-intel
 module unload intel/19.0.5

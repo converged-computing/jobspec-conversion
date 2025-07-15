@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-chip-1595
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-plant-9805
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chip-7877
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-snack-1328
+#FLUX: --urgency=16
 

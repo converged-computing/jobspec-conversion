@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-soup-2788
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-parrot-8159
+#FLUX: --urgency=16
 
 export ECCODES_SAMPLES_PATH='${ECCODES_INSTALL_ROOT}/share/eccodes/ifs_samples/grib1_mlgrib2'
 export GRIBTOOLS='/appl/spack/install-tree/intel-19.0.4/eccodes-2.5.0-dpk7ts/bin'

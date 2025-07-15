@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-staircase-5436
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-kerfuffle-1729
+#FLUX: --urgency=16
 
 export PYTHONPATH='$HOME/pythonpackages/lib/python2.7/site-packages:$PYTHONPATH'
 export THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1'

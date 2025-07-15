@@ -2,7 +2,7 @@
 #FLUX: --job-name=llama_65b_eval
 #FLUX: -c=4
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ../src
 for i in {0..1}; do

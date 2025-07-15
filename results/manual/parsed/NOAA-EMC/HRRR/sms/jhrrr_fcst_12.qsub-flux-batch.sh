@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-despacito-0050
-#FLUX: --priority=16
+#FLUX: --job-name=confused-spoon-0702
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/HRRR/sms/jhrrr_fcst_12.qsub

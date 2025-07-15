@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-peanut-butter-8732
+#FLUX: --job-name=dirty-buttface-2472
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 hostname

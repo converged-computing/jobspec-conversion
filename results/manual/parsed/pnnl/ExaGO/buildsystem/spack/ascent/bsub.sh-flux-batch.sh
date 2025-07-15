@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-animal-5378
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-cattywampus-4446
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pnnl/ExaGO/buildsystem/spack/ascent/bsub.sh

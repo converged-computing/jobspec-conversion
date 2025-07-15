@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=lj-nvt
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$LAMMPS_DIR:$PATH'
 export OMP_NUM_THREADS='1'

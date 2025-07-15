@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-hobbit-4169
+#FLUX: --job-name=lovable-pedo-4655
 #FLUX: --queue=amdv100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.7.2
 module load CMake

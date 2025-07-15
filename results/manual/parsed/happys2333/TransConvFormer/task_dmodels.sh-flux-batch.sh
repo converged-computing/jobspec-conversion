@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-peas-9813
+#FLUX: --job-name=purple-gato-9088
 #FLUX: --queue=gpulab02
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 env_name="trans"
 seq_lens=(96)

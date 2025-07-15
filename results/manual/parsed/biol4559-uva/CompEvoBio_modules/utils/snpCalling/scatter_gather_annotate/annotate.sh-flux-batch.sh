@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-despacito-4008
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-despacito-3350
+#FLUX: --urgency=16
 
 module purge
 module load  htslib/1.10.2 bcftools/1.9 intel/18.0 intelmpi/18.0 parallel/20200322 R/3.6.3 samtools vcftools

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gc-train
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 chmod +x ./scripts/prepare.sh
 source ./scripts/prepare.sh

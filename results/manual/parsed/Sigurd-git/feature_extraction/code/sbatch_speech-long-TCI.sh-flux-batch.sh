@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peanut-1987
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-lemur-9655
+#FLUX: --urgency=16
 
 project=speech-long-TCI
 non_list=(modulus real rect)

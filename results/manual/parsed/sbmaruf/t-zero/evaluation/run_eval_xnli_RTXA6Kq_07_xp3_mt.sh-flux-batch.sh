@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leader-4366
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-poodle-0417
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='7'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-caramel-0779
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-caramel-4011
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/airoldilab/HPC_model/mmm_fit_code/reuters_mcmc.lsf

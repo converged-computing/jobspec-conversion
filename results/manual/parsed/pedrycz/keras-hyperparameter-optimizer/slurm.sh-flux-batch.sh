@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-pot-0256
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-soup-4861
+#FLUX: --urgency=16
 
 module purge
 module load plgrid/tools/python-intel

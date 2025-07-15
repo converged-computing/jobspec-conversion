@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-poo-9969
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-itch-8501
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/gridsan/sidnayak/.mujoco/mujoco200/bin'
 

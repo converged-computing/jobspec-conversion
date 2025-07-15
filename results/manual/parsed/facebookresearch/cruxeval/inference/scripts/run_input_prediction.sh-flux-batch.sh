@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-plant-9000
+#FLUX: --job-name=conspicuous-puppy-1308
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=YOUR_PARTITION_HERE
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dirs=(
     # "codellama-7b"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-ricecake-4506
+#FLUX: --job-name=hairy-buttface-4329
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda
 module load tensorflow

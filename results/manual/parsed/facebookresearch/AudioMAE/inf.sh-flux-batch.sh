@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=learnfair
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 audioset_train_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json
 audioset_train_all_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train_all.json

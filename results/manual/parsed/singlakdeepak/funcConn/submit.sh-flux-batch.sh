@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lizard-2213
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-taco-6103
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/singlakdeepak/funcConn/submit.sh

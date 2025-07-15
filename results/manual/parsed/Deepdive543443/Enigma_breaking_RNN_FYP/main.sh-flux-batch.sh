@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peas-8631
+#FLUX: --job-name=bloated-pancake-4810
 #FLUX: -c=4
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda3/5.3.0
 module load cuDNN/7.6.4.38-gcccuda-2019b

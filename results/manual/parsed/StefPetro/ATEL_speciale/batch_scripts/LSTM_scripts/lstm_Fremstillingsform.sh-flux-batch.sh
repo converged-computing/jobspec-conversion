@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bits-7755
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-lettuce-5599
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/StefPetro/ATEL_speciale/batch_scripts/LSTM_scripts/lstm_Fremstillingsform.sh

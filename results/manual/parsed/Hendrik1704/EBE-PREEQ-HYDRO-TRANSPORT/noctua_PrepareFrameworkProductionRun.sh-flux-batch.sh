@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-mango-5233
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-platanos-7606
+#FLUX: --urgency=16
 
 module load numlib/GSL/2.7-GCC-11.3.0
 module load toolchain/intel/2022.00

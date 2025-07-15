@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-omelette-3232
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-cat-2785
+#FLUX: --urgency=16
 
 BOOST_VER=1.65.1
 FFTW_VER=3.3.6.3

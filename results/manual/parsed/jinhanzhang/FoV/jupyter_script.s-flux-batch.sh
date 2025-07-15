@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=jhfov
 #FLUX: -t=172740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cudnn/8.6.0.163-cuda11

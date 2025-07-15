@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-punk-0383
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-banana-7654
+#FLUX: --urgency=16
 
 module load intel
 module load impi

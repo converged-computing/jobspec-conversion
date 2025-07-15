@@ -2,7 +2,7 @@
 #FLUX: --job-name=torch
 #FLUX: --queue=gpu-normal
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 source /etc/profile.d/modules.sh

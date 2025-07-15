@@ -4,7 +4,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPLCONFIGDIR='./envs/$PROJECT_NAME/.cache/matplotlib/'
 export HF_DATASETS_CACHE='./envs/$PROJECT_NAME/.cache/huggingface/'

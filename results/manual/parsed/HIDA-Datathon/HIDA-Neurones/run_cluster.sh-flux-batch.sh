@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=pGPU
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

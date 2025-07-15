@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-squidward-3944
-#FLUX: --priority=16
+#FLUX: --job-name=phat-lettuce-0570
+#FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1  # do not make back-ups'
 export GMX_MAXCONSTRWARN='-1'

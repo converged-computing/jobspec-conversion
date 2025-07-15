@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-itch-6532
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-bike-9157
+#FLUX: --urgency=16
 
 module purge
 module load julia-1_8_5

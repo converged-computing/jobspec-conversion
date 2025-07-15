@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ivae
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load miniconda/3 pytorch/1.8.1
 conda activate research

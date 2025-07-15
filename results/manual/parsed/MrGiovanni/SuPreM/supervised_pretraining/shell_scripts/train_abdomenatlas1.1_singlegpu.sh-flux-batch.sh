@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=abdomenatlas1.1-singlegpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load mamba/latest # only for Sol
 source activate suprem

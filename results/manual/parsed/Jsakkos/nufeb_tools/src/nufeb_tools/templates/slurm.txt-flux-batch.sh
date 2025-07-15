@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-platanos-9308
+#FLUX: --job-name=loopy-muffin-6543
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LAMMPS='~/NUFEB/lammps/src/lmp_png'
 

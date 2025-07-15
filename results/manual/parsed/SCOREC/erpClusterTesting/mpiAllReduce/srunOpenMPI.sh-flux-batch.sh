@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-toaster-2703
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-lizard-6289
+#FLUX: --urgency=16
 
 export PATH='$PATH:$ompi/bin'
 

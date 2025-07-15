@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nfc_dualrnaseq
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DESCRIPTION="Run the nf-core dualRNAseq pipeline from https://nf-co.re/dualrnaseq"
 SCRIPT_VERSION="2023-08-19"

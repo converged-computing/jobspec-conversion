@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-citrus-8596
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-nalgas-0982
+#FLUX: --urgency=16
 
 module load bioinfo-tools
 module load bwa

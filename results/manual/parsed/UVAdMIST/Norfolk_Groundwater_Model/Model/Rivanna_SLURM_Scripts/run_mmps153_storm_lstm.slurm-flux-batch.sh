@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-nunchucks-8451
-#FLUX: --priority=16
+#FLUX: --job-name=red-leg-1798
+#FLUX: --urgency=16
 
 module purge
 module load singularity tensorflow/1.6.0-py36

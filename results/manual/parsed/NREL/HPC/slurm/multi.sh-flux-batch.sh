@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="two"
+#FLUX: --job-name=two
 #FLUX: --exclusive
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 export OMP_PLACES='cores '

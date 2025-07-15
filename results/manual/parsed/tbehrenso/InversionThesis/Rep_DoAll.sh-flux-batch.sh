@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=slim_R
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load R/latest
 module load Development/gcc/9.2.1

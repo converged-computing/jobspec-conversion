@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bits-8530
+#FLUX: --job-name=placid-toaster-7298
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_HCA='mlx5_0'
 export NCCL_SOCKET_IFNAME='ib0'

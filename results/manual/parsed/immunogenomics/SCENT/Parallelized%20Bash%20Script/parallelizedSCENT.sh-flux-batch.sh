@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lamp-4155
-#FLUX: --priority=16
+#FLUX: --job-name=astute-lentil-3400
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/immunogenomics/SCENT/Parallelized%20Bash%20Script/parallelizedSCENT.sh

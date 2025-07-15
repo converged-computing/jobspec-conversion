@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-eagle-2144
+#FLUX: --job-name=goodbye-leader-5160
 #FLUX: --queue=shared
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load parallel
 cd /scratch/kopec/job_$SLURM_JOB_ID/

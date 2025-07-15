@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lettuce-9314
+#FLUX: --job-name=anxious-itch-3063
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VOLS='-v $DATADIR:/data -v $LOGDIR:/results'
 export CONTNAME='mpi_${SLURM_JOB_ID}'

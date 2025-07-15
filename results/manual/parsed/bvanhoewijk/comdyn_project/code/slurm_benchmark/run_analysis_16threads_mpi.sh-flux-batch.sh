@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=red-despacito-2225
+#FLUX: --job-name=pusheena-cinnamonbun-7755
 #FLUX: -c=16
 #FLUX: --exclusive
 #FLUX: --queue=rome
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2022
 module load GROMACS/2021.6-foss-2022a

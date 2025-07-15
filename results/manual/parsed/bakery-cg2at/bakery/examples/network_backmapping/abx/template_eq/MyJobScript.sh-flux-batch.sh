@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-punk-0771
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-blackbean-8262
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bakery-cg2at/bakery/examples/network_backmapping/abx/template_eq/MyJobScript.sh

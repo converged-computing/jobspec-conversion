@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=tart-train-2404
-#FLUX: --priority=16
+#FLUX: --job-name=faux-animal-0210
+#FLUX: --urgency=16
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-fudge-1002
-#FLUX: --priority=16
+#FLUX: --job-name=milky-despacito-3942
+#FLUX: --urgency=16
 
 export LC_ALL='en_US.iso885915'
 

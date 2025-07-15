@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-pot-9442
+#FLUX: --job-name=misunderstood-poodle-6844
 #FLUX: -t=32400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/7.5.0
 echo "===> Anaconda env loaded"

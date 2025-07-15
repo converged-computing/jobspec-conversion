@@ -2,7 +2,7 @@
 #FLUX: --job-name=ihmp
 #FLUX: -n=16
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $PWD
 source ~/.bashrc

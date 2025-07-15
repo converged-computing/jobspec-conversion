@@ -3,7 +3,7 @@
 #FLUX: -c=64
 #FLUX: --queue=gpusmall
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDNN_PATH='$CUDNN_PATH'
 export LD_LIBRARY_PATH='${CUDNN_PATH}/lib'

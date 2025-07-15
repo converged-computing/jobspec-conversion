@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-kitty-2414
-#FLUX: --priority=16
+#FLUX: --job-name=faux-rabbit-6932
+#FLUX: --urgency=16
 
 module load cuda/10
 /modules/apps/cuda/10.1.243/samples/bin/x86_64/linux/release/deviceQuery

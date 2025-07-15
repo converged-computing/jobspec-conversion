@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lamp-2608
+#FLUX: --job-name=dinosaur-underoos-4785
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/7.5.0
 source venv_magic123/bin/activate

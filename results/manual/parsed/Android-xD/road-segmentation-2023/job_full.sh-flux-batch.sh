@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cil_train
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source startup.sh
 python train.py --lr 0.0001 --data './data_google/training' --model 'fpn' --epochs 17 --full True --augmentations True

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-carrot-8130
+#FLUX: --job-name=spicy-platanos-1852
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load conda/2019.10

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lemon-4372
+#FLUX: --job-name=sticky-lemon-1341
 #FLUX: -N=2
 #FLUX: -n=4
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MV2_USE_CUDA='1'
 export MV2_USE_GPUDIRECT='1'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-chair-1472
+#FLUX: --job-name=moolicious-soup-0203
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source deactivate # Remove previous environments.
 source activate cuda9-py38-pytorch1.5

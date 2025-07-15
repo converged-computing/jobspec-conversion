@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pedo-8329
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-hobbit-9497
+#FLUX: --urgency=16
 
 module purge
 module load openmpi

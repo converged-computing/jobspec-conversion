@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cat-6433
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-mango-7591
+#FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/cytochrome/$SLURM_JOB_ID'
 export INDEX_PATH='$SCRATCH/cytochrome/${1}'

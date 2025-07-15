@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=filament-instability-Ri010
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.0.3
 cd ~/filament-instability

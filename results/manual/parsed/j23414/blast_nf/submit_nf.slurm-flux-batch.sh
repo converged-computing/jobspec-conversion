@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=time_blast
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow
 module load blast       # or ncbi

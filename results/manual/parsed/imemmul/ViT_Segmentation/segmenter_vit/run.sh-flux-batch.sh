@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --queue=main
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INPUT_FILE=""
 source /etc/profile.d/lmod.sh

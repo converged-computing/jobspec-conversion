@@ -2,7 +2,7 @@
 #FLUX: --job-name=cifar_supervised_resnet50_lineareval
 #FLUX: -c=8
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 i=0;
 for lr in 0.005 0.01 0.05; 

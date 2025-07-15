@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-kitty-5091
+#FLUX: --job-name=blank-train-6468
 #FLUX: --queue=RM-shared
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export lmp_mpi='/home/tfobe/Programs/lammps-22Aug18/src/lmp_mpi'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-malarkey-8121
+#FLUX: --job-name=outstanding-leopard-8081
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 export PSI_SCRATCH='/tmp/'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-peanut-butter-8571
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-cupcake-5249
+#FLUX: --urgency=16
 
 set -e -o pipefail
 source config_cgpu.sh $@

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-carrot-7409
+#FLUX: --job-name=buttery-underoos-0704
 #FLUX: --exclusive
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ALLINEA_STOP_AT_MAIN='1'
 

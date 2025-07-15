@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-chip-6312
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-motorcycle-9272
+#FLUX: --urgency=16
 
 USR_HOME=/home/07655/jsreyl/
 NAME=$1

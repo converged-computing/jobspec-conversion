@@ -2,7 +2,7 @@
 #FLUX: --job-name=r2_train_nextvit
 #FLUX: --queue=gpu
 #FLUX: -t=540000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_NSOCKS_PERTHREAD='4'
 export NCCL_SOCKET_NTHREADS='2'

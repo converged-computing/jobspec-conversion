@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=llama3
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_DATASETS_CACHE='/leonardo_scratch/large/userexternal/xxx/hf_datasets/datasets/'
 export HF_HOME='/leonardo_scratch/large/userexternal/xxx/hf_datasets/models/'

@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --queue=amilan
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/2022.10

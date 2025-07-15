@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-train-5506
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-chip-7627
+#FLUX: --urgency=16
 
 export name_for_run='elg_one_brick'
 export randoms_db='None #run from a fits file'

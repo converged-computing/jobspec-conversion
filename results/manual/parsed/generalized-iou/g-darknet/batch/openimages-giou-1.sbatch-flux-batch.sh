@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="coco-giou-13"
+#FLUX: --job-name=coco-giou-13
 #FLUX: -c=8
-#FLUX: --queue=napoli-gpu --qos=normal
+#FLUX: --queue=napoli-gpu
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST

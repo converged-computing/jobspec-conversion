@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-blackbean-1472
+#FLUX: --job-name=angry-leopard-5625
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load bwa/0.7.12
 module load samtools/1.9

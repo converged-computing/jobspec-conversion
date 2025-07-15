@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-nunchucks-0193
+#FLUX: --job-name=creamy-bits-2035
 #FLUX: -N=8
 #FLUX: -n=8
 #FLUX: --queue=west
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

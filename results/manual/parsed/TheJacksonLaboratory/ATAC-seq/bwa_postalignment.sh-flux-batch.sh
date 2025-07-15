@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-salad-4381
-#FLUX: --priority=16
+#FLUX: --job-name=blue-kerfuffle-9338
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/TheJacksonLaboratory/ATAC-seq/bwa_postalignment.sh

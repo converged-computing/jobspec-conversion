@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-platanos-7955
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-noodle-2815
+#FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='/gpfs/data/cbc/aguang/hiv_wide'
 

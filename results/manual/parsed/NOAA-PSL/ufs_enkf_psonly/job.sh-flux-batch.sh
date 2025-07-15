@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cherry-8065
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-toaster-2177
+#FLUX: --urgency=16
 
 export NODES='$SLURM_NNODES'
 export corespernode='$SLURM_CPUS_ON_NODE'

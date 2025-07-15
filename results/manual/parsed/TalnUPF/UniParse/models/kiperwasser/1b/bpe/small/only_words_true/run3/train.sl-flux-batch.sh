@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="1bsm3_only_words"
-#FLUX: --priority=16
+#FLUX: --job-name=1bsm3_only_words
+#FLUX: --urgency=16
 
 module load Tensorflow-gpu/1.5.0-foss-2017a-Python-3.6.4
 module load scikit-learn/0.19.1-foss-2017a-Python-3.6.4

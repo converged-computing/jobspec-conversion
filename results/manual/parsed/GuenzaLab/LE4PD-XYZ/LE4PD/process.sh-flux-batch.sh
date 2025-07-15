@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="process"
+#FLUX: --job-name=process
 #FLUX: --queue=shared
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 protname="1UBQ" 
 traj="traj.xtc"

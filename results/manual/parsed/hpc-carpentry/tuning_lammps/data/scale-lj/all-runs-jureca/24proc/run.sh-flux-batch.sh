@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-milkshake-7076
+#FLUX: --job-name=blue-peas-6052
 #FLUX: --queue=devel
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /usr/local/software/jureca/OtherStages
 module load Stages/Devel-2019a

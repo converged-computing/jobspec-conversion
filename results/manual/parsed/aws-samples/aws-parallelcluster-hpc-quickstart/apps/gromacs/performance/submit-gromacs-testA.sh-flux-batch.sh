@@ -2,7 +2,7 @@
 #FLUX: --job-name=gromacs-testA
 #FLUX: -N=16
 #FLUX: --queue=c5n-od
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_OFI_LIBRARY_INTERNAL='0'
 export I_MPI_OFI_PROVIDER='efa'

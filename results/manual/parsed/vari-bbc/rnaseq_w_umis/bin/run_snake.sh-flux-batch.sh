@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-underoos-4996
+#FLUX: --job-name=red-lemon-8444
 #FLUX: --queue=long
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 snakemake_module="bbc2/snakemake/snakemake-7.25.0"

@@ -3,7 +3,7 @@
 #FLUX: -n=16
 #FLUX: --queue=normal
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 RUNPATH=$HOME/projekte/mixed-precision-dnns
 cd $RUNPATH

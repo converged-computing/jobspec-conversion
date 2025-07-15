@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-nunchucks-4739
+#FLUX: --job-name=muffled-house-2301
 #FLUX: -N=2
 #FLUX: -c=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module use ~/.modules

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-parsnip-2483
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-egg-0008
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

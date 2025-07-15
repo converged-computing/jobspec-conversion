@@ -2,7 +2,7 @@
 #FLUX: --job-name=20210712_pgen_blobtools_Panopea-generosa-v1.0
 #FLUX: --queue=coenv
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load blobtoolkit-v2.6.1.module
 wd=$(pwd)

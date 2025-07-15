@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-itch-0987
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-platanos-6188
+#FLUX: --urgency=16
 
 set -e
 set -u

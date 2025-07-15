@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lentil-8580
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-cat-8171
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ytopt-team/ytopt-libensemble/ytopt-libe-xsbench/ytopt/xsbench/runs.lsf

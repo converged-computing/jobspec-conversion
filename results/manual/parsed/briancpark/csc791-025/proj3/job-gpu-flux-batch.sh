@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leg-2558
-#FLUX: --priority=16
+#FLUX: --job-name=purple-fork-9917
+#FLUX: --urgency=16
 
 nvidia-smi
 source ~/.bashrc

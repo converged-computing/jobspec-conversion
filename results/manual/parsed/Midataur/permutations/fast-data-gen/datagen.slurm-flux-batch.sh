@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="fast-data-gen"
+#FLUX: --job-name=fast-data-gen
 #FLUX: -c=10
 #FLUX: --queue=cascade
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

@@ -2,7 +2,7 @@
 #FLUX: --job-name=eval-srl
 #FLUX: -c=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1      '
 

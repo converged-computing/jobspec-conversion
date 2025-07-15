@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=m3g
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load matlab/r2017b

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-leg-6413
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-animal-8501
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tovahmarkowitz/Pipeliner/slurm.template

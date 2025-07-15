@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-bicycle-9490
+#FLUX: --job-name=evasive-pastry-4157
 #FLUX: --gpus-per-task=1
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SBATCH_ACCOUNT='m4367'
 export SALLOC_ACCOUNT='m4367'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-pancake-6529
-#FLUX: --priority=16
+#FLUX: --job-name=placid-butter-3503
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='7    # for CPU OpenMP'
 

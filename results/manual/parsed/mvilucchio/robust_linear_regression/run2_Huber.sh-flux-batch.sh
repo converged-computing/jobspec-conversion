@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-bits-6342
+#FLUX: --job-name=frigid-muffin-8688
 #FLUX: --queue=parallel
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module load mvapich2

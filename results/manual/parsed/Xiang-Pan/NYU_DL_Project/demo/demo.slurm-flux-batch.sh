@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chair-3427
+#FLUX: --job-name=blank-lamp-6428
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=n1s8-v100-1
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

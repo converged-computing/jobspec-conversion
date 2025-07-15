@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-poodle-2643
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-nalgas-1929
+#FLUX: --urgency=16
 
 module purge
 module load chem/gromacs/2023.3

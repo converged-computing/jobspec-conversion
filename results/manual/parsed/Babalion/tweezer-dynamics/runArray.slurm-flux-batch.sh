@@ -2,7 +2,7 @@
 #FLUX: --job-name=r0_9_l_k
 #FLUX: -c=48
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 export MKL_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

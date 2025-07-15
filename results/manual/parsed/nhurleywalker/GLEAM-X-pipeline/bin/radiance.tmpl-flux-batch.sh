@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-motorcycle-3381
+#FLUX: --job-name=quirky-pot-3829
 #FLUX: --queue=STANDARDQ
 #FLUX: -t=1380
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHON_EGG_CACHE='/tmp'
 

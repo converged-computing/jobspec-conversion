@@ -2,7 +2,7 @@
 #FLUX: --job-name=heudiconv_%s_%s
 #FLUX: -c=4
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sbatch_template="#!/bin/bash
 module load StdEnv/2020 apptainer/1.1.8

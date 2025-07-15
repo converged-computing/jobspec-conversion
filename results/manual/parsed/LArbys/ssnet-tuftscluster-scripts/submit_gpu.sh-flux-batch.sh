@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ssnet
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONTAINER=/cluster/kappa/90-days-archive/wongjiradlab/larbys/images/singularity-dllee-ssnet/singularity-dllee-ssnet-nvidia384.66.img
 WORKDIR=/cluster/kappa/90-days-archive/wongjiradlab/grid_jobs/ssnet-tuftscluster-scripts

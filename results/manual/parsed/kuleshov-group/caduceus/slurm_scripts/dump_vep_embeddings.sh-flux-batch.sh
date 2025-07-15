@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=vep_embed                # Job name
-#FLUX: --priority=16
+#FLUX: --job-name=vep_embed
+#FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 export CUBLAS_WORKSPACE_CONFIG=':4096:8  # Needed for setting deterministic functions for reproducibility'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-pancake-2696
-#FLUX: --priority=16
+#FLUX: --job-name=blank-truffle-0863
+#FLUX: --urgency=16
 
 cd ..
 name=recongan10_resnet_nyu

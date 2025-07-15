@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="TGV100"
+#FLUX: --job-name=TGV100
 #FLUX: --queue=batch
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ROOT='$(dirname ${SCRIPTPATH})'
 export IMAGE='${HOME}/images/petibm-master-hpcx207-cuda102.sif'

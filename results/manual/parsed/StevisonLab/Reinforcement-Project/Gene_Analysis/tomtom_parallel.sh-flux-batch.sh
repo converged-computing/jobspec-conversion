@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cherry-3783
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-general-7596
+#FLUX: --urgency=16
 
 module load gnu-parallel/20120222
 Seqs=(`grep ">" ParaCyno.Unique.Ref.fa | sed 's/>//'`)

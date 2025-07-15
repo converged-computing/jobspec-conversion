@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-snack-6413
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-hobbit-7629
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mdenil/parameter_prediction/examples/westgrid/ae_dict/launcher.pbs

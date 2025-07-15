@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lentil-4026
+#FLUX: --job-name=hairy-avocado-5725
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /apps/eb/modulefiles/all
 module load NAMD/2.14-foss-2019b-mpi

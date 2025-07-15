@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-soup-5117
-#FLUX: --priority=16
+#FLUX: --job-name=tart-sundae-4710
+#FLUX: --urgency=16
 
 export MPICH_ENV_DISPLAY='1'
 export MPICH_VERSION_DISPLAY='1'

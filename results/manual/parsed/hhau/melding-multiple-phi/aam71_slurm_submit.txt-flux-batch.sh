@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-general-1844
+#FLUX: --job-name=purple-buttface-1200
 #FLUX: -c=30
 #FLUX: -t=122400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)
 module purge                               # Removes all modules still loaded

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-house-8726
-#FLUX: --priority=16
+#FLUX: --job-name=tart-dog-2630
+#FLUX: --urgency=16
 
 date
 module purge

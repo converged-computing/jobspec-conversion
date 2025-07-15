@@ -2,7 +2,7 @@
 #FLUX: --job-name=conda_setup
 #FLUX: --queue=gpuA100
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 uenv verbose cuda-12.2.0 cudnn-12.x-8.8.0
 uenv miniconda3-py39

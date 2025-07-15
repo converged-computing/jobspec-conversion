@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=DINO_COCO
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 CONFIG=$1

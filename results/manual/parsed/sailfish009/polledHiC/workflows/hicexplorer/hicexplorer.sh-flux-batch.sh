@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-chip-0545
+#FLUX: --job-name=hello-kitty-9736
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load system/Miniconda3-4.7.10

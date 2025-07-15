@@ -2,7 +2,7 @@
 #FLUX: --job-name=clipping1
 #FLUX: --queue=common
 #FLUX: -t=255600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

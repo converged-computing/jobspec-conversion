@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rep1
 #FLUX: -t=2100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab/R2014a
 module load spm/12b

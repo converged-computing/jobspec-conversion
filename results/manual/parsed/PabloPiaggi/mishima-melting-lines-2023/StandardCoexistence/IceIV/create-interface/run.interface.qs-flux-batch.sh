@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="IV-interface"
+#FLUX: --job-name=IV-interface
 #FLUX: -c=7
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load rh/devtoolset/4

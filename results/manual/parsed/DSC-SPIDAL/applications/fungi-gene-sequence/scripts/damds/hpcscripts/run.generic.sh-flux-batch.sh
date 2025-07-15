@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-signal-5582
+#FLUX: --job-name=fat-lettuce-2891
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cps=6
 spn=4

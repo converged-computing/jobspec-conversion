@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-animal-1952
+#FLUX: --job-name=quirky-lamp-0631
 #FLUX: -N=4
 #FLUX: -c=4
 #FLUX: -t=59
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_PRELOAD='/spack/apps/gcc/8.3.0/lib64/libstdc++.so.6'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cat-8251
+#FLUX: --job-name=fugly-spoon-2873
 #FLUX: --queue=amdv100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.7.2
 module load CMake

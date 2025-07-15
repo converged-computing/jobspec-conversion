@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-chip-2854
+#FLUX: --job-name=phat-pancake-7306
 #FLUX: -c=2
 #FLUX: --queue=research
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nvidia/cuda/11.3.1
 module load mpi/openmpi/4.1.1

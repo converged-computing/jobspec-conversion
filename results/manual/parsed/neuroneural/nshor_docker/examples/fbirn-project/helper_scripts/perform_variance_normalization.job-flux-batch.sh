@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-despacito-3760
+#FLUX: --job-name=frigid-earthworm-9631
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load afni
 BASEDIR=/data/users2/jwardell1/nshor_docker/examples/fbirn-project/FBIRN

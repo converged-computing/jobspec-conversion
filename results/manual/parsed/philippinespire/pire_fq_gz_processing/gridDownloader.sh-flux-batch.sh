@@ -3,7 +3,7 @@
 #FLUX: -n=40
 #FLUX: --exclusive
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BIND='/home/e1garcia  #odu'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-carrot-5808
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-staircase-5731
+#FLUX: --urgency=16
 
 module load 2020
 module load Python/3.8.2-GCCcore-9.3.0

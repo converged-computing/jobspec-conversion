@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cat-4015
+#FLUX: --job-name=quirky-butter-1266
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATESTAMP=${DATESTAMP:-`date +'%y%m%d%H%M%S'`}
 BENCHMARK=${BENCHMARK:-"recommendation"}

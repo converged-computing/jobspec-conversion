@@ -3,6 +3,6 @@
 #FLUX: -c=20
 #FLUX: --queue=short
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun python inference.py

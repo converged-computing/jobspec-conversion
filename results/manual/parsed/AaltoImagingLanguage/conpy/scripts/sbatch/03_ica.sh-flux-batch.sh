@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lentil-0518
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-bicycle-8388
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DISPLAY=':99.0'

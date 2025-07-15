@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-latke-8247
+#FLUX: --job-name=butterscotch-kitty-1794
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export src_dir='$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )'
 export PYTHONPATH='${src_dir%/*/*}/src'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-sundae-5624
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-leg-4456
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

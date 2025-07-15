@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-pedo-1375
+#FLUX: --job-name=reclusive-punk-0475
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IGNORE_CC_MISMATCH='1'
 

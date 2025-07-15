@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-caramel-4943
+#FLUX: --job-name=gloopy-cherry-1289
 #FLUX: -c=4
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 module load singularity

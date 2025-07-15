@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-signal-9716
+#FLUX: --job-name=dinosaur-cherry-6758
 #FLUX: --queue=cmain
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc cuda mvapich2/2.2

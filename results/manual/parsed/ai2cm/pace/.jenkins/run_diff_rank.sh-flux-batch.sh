@@ -3,7 +3,7 @@
 #FLUX: -n=6
 #FLUX: --queue=normal
 #FLUX: -t=32400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VIRTUALENV='${PACE_DIR}/venv'
 export OMP_NUM_THREADS='12'

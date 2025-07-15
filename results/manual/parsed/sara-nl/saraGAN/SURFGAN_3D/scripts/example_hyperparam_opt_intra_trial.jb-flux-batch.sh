@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-pastry-7834
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-lettuce-3142
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='5'
 export KMP_SETTINGS='True'

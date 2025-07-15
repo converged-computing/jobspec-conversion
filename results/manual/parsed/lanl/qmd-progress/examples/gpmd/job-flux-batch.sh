@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-avocado-0696
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-latke-2065
+#FLUX: -t=604800
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='40'
 export KMP_STACKSIZE='3200M'

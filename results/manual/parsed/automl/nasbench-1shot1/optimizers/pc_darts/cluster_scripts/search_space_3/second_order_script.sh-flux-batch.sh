@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-general-9459
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-arm-5062
+#FLUX: --urgency=16
 
 echo "Workingdir: $PWD";
 echo "Started at $(date)";

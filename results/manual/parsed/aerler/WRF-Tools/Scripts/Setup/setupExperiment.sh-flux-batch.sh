@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cupcake-1537
-#FLUX: --priority=16
+#FLUX: --job-name=red-snack-7190
+#FLUX: --urgency=16
 
 set -e # abort if anything goes wrong
 function RENAME () {

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-blackbean-8448
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-soup-0728
+#FLUX: --urgency=16
 

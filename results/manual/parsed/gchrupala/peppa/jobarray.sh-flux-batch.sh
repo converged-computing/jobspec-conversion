@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-underoos-7309
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-lemur-0730
+#FLUX: --urgency=16
 
 conda activate home
 cd /home/gchrupal/peppa

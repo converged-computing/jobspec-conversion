@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lemur-1600
+#FLUX: --job-name=carnivorous-plant-4301
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export COMMIT_HASH='$1'
 export WD='$2'

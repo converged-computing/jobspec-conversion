@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-muffin-0014
+#FLUX: --job-name=persnickety-banana-3938
 #FLUX: --queue=dp-dam
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHON_EGG_CACHE='/p/project/joaiml/hpc_course/morris'
 

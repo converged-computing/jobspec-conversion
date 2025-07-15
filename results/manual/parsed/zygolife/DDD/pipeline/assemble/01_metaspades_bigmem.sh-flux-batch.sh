@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lemon-5109
-#FLUX: --priority=16
+#FLUX: --job-name=fat-butter-6272
+#FLUX: --urgency=16
 
 module load spades/3.15.2
 MEM=256

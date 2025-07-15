@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-cat-3978
-#FLUX: --priority=16
+#FLUX: --job-name=confused-mango-4403
+#FLUX: --urgency=16
 

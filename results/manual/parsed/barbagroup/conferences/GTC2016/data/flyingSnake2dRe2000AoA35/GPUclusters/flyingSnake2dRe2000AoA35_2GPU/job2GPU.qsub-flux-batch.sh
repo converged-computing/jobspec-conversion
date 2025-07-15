@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="PetAmgX-flyingSnake2dRe2000AoA35-2GPU-atol1e-5"
+#FLUX: --job-name=PetAmgX-flyingSnake2dRe2000AoA35-2GPU-atol1e-5
 #FLUX: --queue=allgpu-noecc
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/c1/apps/cuda/driver/352.63/lib'
 export PETIBM_DIR='/home/pychuang/petibm-amgx'

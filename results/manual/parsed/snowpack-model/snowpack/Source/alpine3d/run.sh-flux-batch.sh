@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=urumqi
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DYLD_FALLBACK_LIBRARY_PATH='${PROG_ROOTDIR}:${DYLD_FALLBACK_LIBRARY_PATH}	#for osX'
 export LD_LIBRARY_PATH='${PROG_ROOTDIR}:${LD_LIBRARY_PATH}	#for Linux'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lizard-5015
+#FLUX: --job-name=gassy-hope-8679
 #FLUX: -c=42
 #FLUX: --queue=small
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load pytorch/1.12.1

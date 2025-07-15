@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-earthworm-4663
-#FLUX: --priority=16
+#FLUX: --job-name=milky-fork-1068
+#FLUX: --urgency=16
 
 export JULIA_MPIEXEC='srun'
 export JULIA_AMDGPU_DISABLE_ARTIFACTS='1 '

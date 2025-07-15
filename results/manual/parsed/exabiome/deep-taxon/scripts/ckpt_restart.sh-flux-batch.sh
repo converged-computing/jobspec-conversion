@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-house-8849
+#FLUX: --job-name=dinosaur-peanut-0304
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INPUT=${1:?"Please provide an input file"}
 FEATS_CKPT=${2:?"Please provide a checkpoint file for features"}

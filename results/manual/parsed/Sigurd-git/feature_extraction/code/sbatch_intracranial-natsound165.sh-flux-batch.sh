@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-muffin-5004
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-train-5918
+#FLUX: --urgency=16
 
 project='intracranial-natsound165'
 non_list=(modulus real rect)

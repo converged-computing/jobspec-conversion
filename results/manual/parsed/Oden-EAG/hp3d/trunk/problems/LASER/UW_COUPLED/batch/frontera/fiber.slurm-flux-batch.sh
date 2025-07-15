@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-nalgas-4886
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-toaster-0290
+#FLUX: --urgency=16
 
 export KMP_STACKSIZE='48M   # p=5'
 export KMP_INIT_AT_FORK='FALSE'

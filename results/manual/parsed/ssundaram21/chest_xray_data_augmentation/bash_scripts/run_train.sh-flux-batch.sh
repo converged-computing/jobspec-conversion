@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=1_true
 #FLUX: --queue=cbmm
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

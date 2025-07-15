@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-dog-0771
+#FLUX: --job-name=fat-house-5945
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WEIGHT_ONE='7'
 export WEIGHT_TWO='2'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-kitty-1517
+#FLUX: --job-name=grated-avocado-0296
 #FLUX: --queue=short
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export MKL_ENABLE_INSTRUCTIONS='AVX2'

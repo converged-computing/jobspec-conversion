@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=charges.0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo Running on hosts: $SLURM_NODELIST
 echo Running on $SLURM_NNODES nodes.

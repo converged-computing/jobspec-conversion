@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-ricecake-1421
+#FLUX: --job-name=psycho-frito-3620
 #FLUX: -N=60
 #FLUX: -c=7
 #FLUX: --queue=cm2_large
 #FLUX: -t=691200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load slurm_setup

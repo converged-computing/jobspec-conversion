@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-blackbean-6609
+#FLUX: --job-name=stinky-leopard-7645
 #FLUX: -c=4
 #FLUX: --queue=dell
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='1'
 export MKL_THREADING_LAYER='GNU'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-soup-4416
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-latke-7910
+#FLUX: --urgency=16
 
 module load centos6/0.0.1-fasrc01
 module load matlab/R2015b-fasrc01

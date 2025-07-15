@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-rabbit-7502
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-kitty-5545
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AlexisBalayre/OptiSpMV/Source%20Code/scripts/cuda.sub

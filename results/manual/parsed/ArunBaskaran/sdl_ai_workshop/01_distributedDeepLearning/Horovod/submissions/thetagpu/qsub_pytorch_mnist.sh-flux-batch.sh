@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-knife-6192
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-bicycle-0122
+#FLUX: --urgency=16
 

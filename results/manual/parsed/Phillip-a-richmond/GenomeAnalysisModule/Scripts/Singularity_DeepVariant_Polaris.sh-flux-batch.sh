@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-destiny-1690
+#FLUX: --job-name=lovable-rabbit-5733
 #FLUX: -c=20
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 BIN_VERSION="1.0.0"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-carrot-2163
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-cattywampus-6912
+#FLUX: --urgency=16
 
 export PYTHONPATH='/home1/05868/atsol/ParaView-5.10.0-egl-MPI-Linux-Python3.9-x86_64/lib/python3.9/site-packages:$PYTHONPATH'
 

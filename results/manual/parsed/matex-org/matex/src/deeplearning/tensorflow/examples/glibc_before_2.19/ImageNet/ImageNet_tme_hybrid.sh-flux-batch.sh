@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-animal-0887
-#FLUX: --priority=16
+#FLUX: --job-name=purple-underoos-3073
+#FLUX: --urgency=16
 
 train_batch=128
 nodes=1

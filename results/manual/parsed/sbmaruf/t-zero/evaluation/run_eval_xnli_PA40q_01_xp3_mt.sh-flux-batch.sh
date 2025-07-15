@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cat-1657
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-caramel-7395
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1'
 

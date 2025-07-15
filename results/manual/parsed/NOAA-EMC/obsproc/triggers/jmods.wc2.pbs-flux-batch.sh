@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pot-5677
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-muffin-5278
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/obsproc/triggers/jmods.wc2.pbs

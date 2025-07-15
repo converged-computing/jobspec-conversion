@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-leopard-2138
+#FLUX: --job-name=evasive-arm-4155
 #FLUX: --queue=synergy,cpu2019,cpu2021
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 log_dir="$(pwd)"
 log_file="logs/dada2-analysis.log.txt"

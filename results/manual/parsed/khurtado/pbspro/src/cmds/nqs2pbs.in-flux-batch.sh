@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-milkshake-2550
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-carrot-3518
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/khurtado/pbspro/src/cmds/nqs2pbs.in

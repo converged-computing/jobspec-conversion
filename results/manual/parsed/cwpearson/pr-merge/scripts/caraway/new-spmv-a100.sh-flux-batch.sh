@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-milkshake-5771
+#FLUX: --job-name=chocolate-fork-6080
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 shopt -s extglob
 ROOT=/home/cwpears/repos/pr-merge

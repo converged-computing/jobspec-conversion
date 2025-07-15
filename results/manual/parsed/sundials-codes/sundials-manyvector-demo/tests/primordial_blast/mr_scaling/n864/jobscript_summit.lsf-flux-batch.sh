@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cupcake-9205
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-spoon-4577
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sundials-codes/sundials-manyvector-demo/tests/primordial_blast/mr_scaling/n864/jobscript_summit.lsf

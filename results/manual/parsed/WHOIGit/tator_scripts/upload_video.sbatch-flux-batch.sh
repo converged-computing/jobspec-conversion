@@ -3,7 +3,7 @@
 #FLUX: -c=32
 #FLUX: --queue=compute
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Job ID: $SLURM_JOB_ID, JobName: $SLURM_JOB_NAME"
 hostname; pwd; date

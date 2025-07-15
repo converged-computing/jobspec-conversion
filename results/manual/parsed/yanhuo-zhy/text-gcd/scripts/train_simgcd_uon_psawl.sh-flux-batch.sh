@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-kitty-4302
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-dog-1624
+#FLUX: --urgency=16
 
 module load gcc/gcc-10.2.0
 module load nvidia/cuda-11.1 nvidia/cudnn-v8.1.1.33-forcuda11.0-to-11.2

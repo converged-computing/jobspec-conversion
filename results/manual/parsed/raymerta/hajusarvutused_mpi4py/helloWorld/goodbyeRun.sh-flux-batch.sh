@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-leopard-4292
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-signal-4601
+#FLUX: --urgency=16
 
 export MPI4PYDIR='paralleelarvutused'
 export PYTHONPATH='$HOME/$MPI4PYDIR/install/lib/python'

@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lamp-8458
+#FLUX: --job-name=conspicuous-bicycle-0751
 #FLUX: -N=2
 #FLUX: -n=80
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: --queue=prod
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CORENEURONLIB='/gpfs/bbp.cscs.ch/project/proj16/NEURONFrontiers2021/hippocampus/spack/opt/spack/linux-rhel7-x86_64/intel-19.1.2.254/netpyne-m-one-0.1-20211206-hnwmgj/x86_64/libcorenrnmech.so'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cherry-5868
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-fork-9713
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MODEL_DIR='/scratch/project_2002026/bert/cased_L-12_H-768_A-12'

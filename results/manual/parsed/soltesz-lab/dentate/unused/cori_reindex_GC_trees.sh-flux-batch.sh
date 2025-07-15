@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-nunchucks-8310
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-plant-4973
+#FLUX: --urgency=16
 
 export PYTHONPATH='$HOME/.local/cori/2.7-anaconda/lib/python2.7/site-packages:$PYTHONPATH'
 

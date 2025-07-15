@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-chip-0864
+#FLUX: --job-name=rainbow-punk-0657
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_EVALUATE_OFFLINE='1'
 export HF_DATASETS_OFFLINE='1'

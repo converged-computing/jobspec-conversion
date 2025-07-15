@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=trna_scan
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 tRNAscan-SE -o $1 $2
 rule trna_scan:

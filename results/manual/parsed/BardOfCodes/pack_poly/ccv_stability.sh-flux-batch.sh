@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-pot-2924
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-bits-7861
+#FLUX: --urgency=16
 
 cd /users/amaesumi/pack_poly
 module load anaconda/2022.05

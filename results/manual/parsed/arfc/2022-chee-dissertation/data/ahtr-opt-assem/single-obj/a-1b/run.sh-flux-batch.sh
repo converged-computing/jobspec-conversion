@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lemon-5579
-#FLUX: --priority=16
+#FLUX: --job-name=purple-onion-7086
+#FLUX: --urgency=16
 

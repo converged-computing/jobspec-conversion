@@ -2,7 +2,7 @@
 #FLUX: --job-name=test
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=RTXA6000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 username="$USER"
 IMAGE=/netscratch/enroot/nvcr.io_nvidia_pytorch_21.10-py3.sqsh

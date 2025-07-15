@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=astute-fork-5489
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-noodle-7758
+#FLUX: --urgency=16
 

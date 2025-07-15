@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-buttface-8310
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-citrus-0780
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/global/homes/y/ypetrov/pgplot.intel'
 

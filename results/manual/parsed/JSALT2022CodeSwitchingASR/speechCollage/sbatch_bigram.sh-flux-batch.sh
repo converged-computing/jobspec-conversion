@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-itch-8983
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-bicycle-8178
+#FLUX: --urgency=16
 
 module load gcc6 slurm cmake
 inputlist=$1

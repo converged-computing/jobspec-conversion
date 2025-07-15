@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-peas-5661
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-bicycle-1553
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hariseldon99/gromacs_sims/MMP2_Rolipram/Complex/nvt_complex.pbs

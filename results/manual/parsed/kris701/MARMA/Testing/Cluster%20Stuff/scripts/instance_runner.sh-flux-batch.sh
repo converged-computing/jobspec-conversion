@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-butter-4969
-#FLUX: --queue=naples,dhabi,rome  # If you need run-times to be consistent across tests, you may need to restrict to one partition.
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-earthworm-1356
+#FLUX: --queue=naples,dhabi,rome
+#FLUX: --urgency=16
 
 U="$1"
 SCRATCH_DIRECTORY=/scratch/${U}

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-spoon-1135
+#FLUX: --job-name=frigid-car-8754
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ws='/home/aming/MICRO/mobilenetv2/imagenet_pytorch_training'
 rs='/home/aming/MICRO/mobilenetv2/imagenet_pytorch_training'

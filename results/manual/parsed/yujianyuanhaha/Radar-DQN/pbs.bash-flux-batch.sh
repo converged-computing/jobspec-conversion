@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-milkshake-3745
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-pot-1936
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yujianyuanhaha/Radar-DQN/pbs.bash

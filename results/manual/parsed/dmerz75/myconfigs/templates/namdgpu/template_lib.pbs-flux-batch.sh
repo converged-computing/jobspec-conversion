@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-buttface-6574
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-omelette-3385
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dmerz75/myconfigs/templates/namdgpu/template_lib.pbs

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ftc-rnaseq
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 echo "You've requested $SLURM_CPUS_ON_NODE core."

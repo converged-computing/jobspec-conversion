@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-puppy-5005
+#FLUX: --job-name=confused-egg-7838
 #FLUX: --queue=akya-cuda
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${CPU_THREADS}'
 

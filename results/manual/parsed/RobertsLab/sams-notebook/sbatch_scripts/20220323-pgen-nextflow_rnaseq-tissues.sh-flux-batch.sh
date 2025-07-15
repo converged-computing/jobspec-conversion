@@ -2,7 +2,7 @@
 #FLUX: --job-name=20220323-pgen-nextflow_rnaseq-tissues
 #FLUX: --queue=srlab
 #FLUX: -t=1468800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nf_core_rnaseq="/gscratch/srlab/programs/nf-core-rnaseq-3.6/workflow"
 nf_core_rnaseq_config=/gscratch/srlab/programs/nf-core-rnaseq-3.6/configs/conf/base-srlab_500GB_node.config

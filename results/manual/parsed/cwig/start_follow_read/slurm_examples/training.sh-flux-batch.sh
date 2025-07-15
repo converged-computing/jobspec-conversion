@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-puppy-8367
+#FLUX: --job-name=purple-platanos-2390
 #FLUX: -n=24
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/8.0
 module load cudnn/6.0_cuda-8.0

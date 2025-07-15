@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-kerfuffle-2836
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-malarkey-9280
+#FLUX: --urgency=16
 
 module load shared 2022
 module load PyTorch/1.12.1-foss-2021a-CUDA-11.3.1

@@ -2,7 +2,7 @@
 #FLUX: --job-name=stud_exp
 #FLUX: -c=2
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate studiarbeit
 nvidia-smi

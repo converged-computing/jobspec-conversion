@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-dog-1970
-#FLUX: --priority=16
+#FLUX: --job-name=angry-frito-4367
+#FLUX: --urgency=16
 
 module load rocm
 cd $HOME/HPCTrainingExamples/HIP/vectorAdd

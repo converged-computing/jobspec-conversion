@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-caramel-6128
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-onion-7608
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/smontariol/mmsrl_constraint/oarscripts/train_snli.sh

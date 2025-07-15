@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-pedo-5112
-#FLUX: --priority=16
+#FLUX: --job-name=red-lentil-5225
+#FLUX: --urgency=16
 
 nvidia-smi
 module load cuda/11.2.0 gcc/10.2

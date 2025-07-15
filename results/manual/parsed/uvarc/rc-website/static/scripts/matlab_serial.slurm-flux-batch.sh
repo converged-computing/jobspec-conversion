@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=runSingleTest
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab
 nLoops=400; # number of iterations to perform

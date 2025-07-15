@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-parsnip-3247
+#FLUX: --job-name=spicy-spoon-9224
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml sra-tools/3.0.0
 sra_numbers=($(echo {1016570..1016671}))

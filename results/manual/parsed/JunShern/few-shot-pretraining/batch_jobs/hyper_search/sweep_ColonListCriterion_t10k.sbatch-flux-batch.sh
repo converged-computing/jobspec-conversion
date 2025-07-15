@@ -2,7 +2,7 @@
 #FLUX: --job-name=hyper_job
 #FLUX: -c=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda3/2020.07

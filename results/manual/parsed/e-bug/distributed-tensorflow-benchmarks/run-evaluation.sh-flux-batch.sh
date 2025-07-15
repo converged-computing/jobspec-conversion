@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=normal
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Number of nodes: " 1
 module load daint-gpu

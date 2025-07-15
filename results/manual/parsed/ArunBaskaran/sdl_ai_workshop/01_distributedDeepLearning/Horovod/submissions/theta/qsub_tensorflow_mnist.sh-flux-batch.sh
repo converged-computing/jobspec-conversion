@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-squidward-5016
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-cherry-1786
+#FLUX: --urgency=16
 

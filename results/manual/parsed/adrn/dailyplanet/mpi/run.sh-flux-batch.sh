@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cupcake-9064
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-hobbit-7991
+#FLUX: --urgency=16
 
 cd /tigress/adrianp/projects/dailyplanet/scripts/
 module load openmpi/gcc/1.10.2/64

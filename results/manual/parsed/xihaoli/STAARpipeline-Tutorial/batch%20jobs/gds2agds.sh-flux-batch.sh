@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-blackbean-1255
+#FLUX: --job-name=gloopy-peas-2205
 #FLUX: -t=8640
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/R-3.6.1-MKL'
 

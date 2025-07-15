@@ -3,7 +3,7 @@
 #FLUX: -N=64
 #FLUX: --queue=large
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 task="rs"
 pp="lci"

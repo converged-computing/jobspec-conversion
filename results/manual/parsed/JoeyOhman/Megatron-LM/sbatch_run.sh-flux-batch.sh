@@ -3,7 +3,7 @@
 #FLUX: -N=16
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_ENTITY='joeyohman'
 export WANDB_PROJECT='megatron_bert'

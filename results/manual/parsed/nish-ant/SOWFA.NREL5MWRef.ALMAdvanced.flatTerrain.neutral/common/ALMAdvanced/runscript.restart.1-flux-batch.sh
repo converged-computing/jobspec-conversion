@@ -2,7 +2,7 @@
 #FLUX: --job-name=<rN>.1.ALA
 #FLUX: -N=6
 #FLUX: -t=388800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_COMP_VERBOSE='3'
 export SLURM_LOADER_VERBOSE='3'

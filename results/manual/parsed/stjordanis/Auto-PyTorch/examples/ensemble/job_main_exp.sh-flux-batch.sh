@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-signal-9200
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-onion-6426
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PWD'
 

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cattywampus-9479
+#FLUX: --job-name=anxious-malarkey-8011
 #FLUX: -N=2
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=standard-g
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HIPCC_COMPILE_FLAGS_APPEND='--offload-arch=gfx90a $(CC --cray-print-opts=cflags)'
 export HIPCC_LINK_FLAGS_APPEND='$(CC --cray-print-opts=libs)'

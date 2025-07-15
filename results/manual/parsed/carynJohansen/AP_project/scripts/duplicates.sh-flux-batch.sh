@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-parsnip-5804
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-truffle-9659
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/carynJohansen/AP_project/scripts/duplicates.sh

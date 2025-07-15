@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-kerfuffle-9282
+#FLUX: --job-name=crunchy-poo-2848
 #FLUX: --queue=physical
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/$USER/COMP90024/HPC-Geo-Data-Processing/slurm
 module load Python/3.6.1-intel-2017.u2

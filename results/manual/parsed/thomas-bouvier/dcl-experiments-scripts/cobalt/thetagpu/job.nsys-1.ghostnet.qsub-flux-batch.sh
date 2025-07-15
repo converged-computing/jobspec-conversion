@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-plant-8071
-#FLUX: --priority=16
+#FLUX: --job-name=arid-knife-2841
+#FLUX: --urgency=16
 

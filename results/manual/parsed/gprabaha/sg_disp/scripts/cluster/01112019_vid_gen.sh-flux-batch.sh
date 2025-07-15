@@ -3,7 +3,7 @@
 #FLUX: -c=5
 #FLUX: --queue=psych_week
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/gpfs/milgram/project/chang/pg496/repositories/categorical/lib/linux'
 

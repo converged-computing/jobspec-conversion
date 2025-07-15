@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=dataset_generation
 #FLUX: --queue=g40x
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

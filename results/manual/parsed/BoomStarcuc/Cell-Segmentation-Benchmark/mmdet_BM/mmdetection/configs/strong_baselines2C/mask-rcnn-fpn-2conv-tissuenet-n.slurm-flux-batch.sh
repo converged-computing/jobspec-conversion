@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-mango-1919
+#FLUX: --job-name=joyous-taco-6530
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load cuda@11.0.2%gcc@9.3.0/lrd2rcw
 cd mmdetection

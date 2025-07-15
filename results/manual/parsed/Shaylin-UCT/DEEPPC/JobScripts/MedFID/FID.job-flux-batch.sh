@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-truffle-9001
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-punk-1091
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Shaylin-UCT/DEEPPC/JobScripts/MedFID/FID.job

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-dog-7439
+#FLUX: --job-name=joyous-pedo-4149
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sudo chmod ugo=rwx -R /scratch/
 sudo chmod ugo=rwx -R /shared/

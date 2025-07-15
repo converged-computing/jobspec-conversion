@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-chip-9858
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-hobbit-2414
+#FLUX: --urgency=16
 
 module purge
 IMG="/home/admin/singularity/openfoam9.sdfibm-openmpi.4.0.3-pmi2.sif"

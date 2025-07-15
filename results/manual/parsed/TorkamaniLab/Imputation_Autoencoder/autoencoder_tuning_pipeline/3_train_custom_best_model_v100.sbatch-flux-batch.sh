@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=stsi
 #FLUX: -t=2160000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/3.8.3

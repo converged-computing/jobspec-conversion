@@ -2,7 +2,7 @@
 #FLUX: --job-name=bert-18
 #FLUX: -c=32
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATADIR='$DATAPATH/packed_data_hdf5'
 export EVALDIR='$DATAPATH/hdf5/eval_varlength/'

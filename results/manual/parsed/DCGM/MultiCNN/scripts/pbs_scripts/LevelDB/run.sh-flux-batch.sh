@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bits-3965
-#FLUX: --priority=16
+#FLUX: --job-name=milky-buttface-5829
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DCGM/MultiCNN/scripts/pbs_scripts/LevelDB/run.sh

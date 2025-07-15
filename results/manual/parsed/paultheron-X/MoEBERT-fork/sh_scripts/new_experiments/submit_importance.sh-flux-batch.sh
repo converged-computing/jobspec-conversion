@@ -2,7 +2,7 @@
 #FLUX: --job-name=bert_importance_squad
 #FLUX: -c=4
 #FLUX: -t=1440
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOTAL_GPUS='${SLURM_NTASKS}'
 export HF_HOME='${HF_LOCAL_DIR}'

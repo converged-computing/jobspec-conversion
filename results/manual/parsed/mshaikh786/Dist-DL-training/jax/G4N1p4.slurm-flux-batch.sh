@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-noodle-0894
+#FLUX: --job-name=confused-itch-2416
 #FLUX: -n=4
 #FLUX: -c=4
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IMAGE='$JAX_IMAGE'
 

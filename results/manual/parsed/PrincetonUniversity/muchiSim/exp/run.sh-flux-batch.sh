@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-nunchucks-3427
-#FLUX: --priority=16
+#FLUX: --job-name=tart-bits-7539
+#FLUX: --urgency=16
 
 Help(){ # Display Help
 echo "Running Simulation."

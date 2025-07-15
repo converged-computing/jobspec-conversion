@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-kerfuffle-7329
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-car-3425
+#FLUX: --urgency=16
 
 module purge
 module load julia/1.8.5

@@ -2,7 +2,7 @@
 #FLUX: --job-name=nf-T71
 #FLUX: --queue=hgx
 #FLUX: -t=2400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='/nesi/nobackup/uoa03709/containers/apptainer_cache'
 export SINGULARITY_TMPDIR='/nesi/nobackup/uoa03709/containers/apptainer_tmpdir'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-ricecake-0971
+#FLUX: --job-name=chunky-earthworm-3584
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NO_OF_SAMPLES=7
 NOOFSTEPS=30

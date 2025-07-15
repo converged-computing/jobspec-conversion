@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=wpp
 #FLUX: --queue=broadwell
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$omp_threads'
 

@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: -c=8
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'
 export WORLD_SIZE='$(($SLURM_NTASKS_PER_NODE*$SLURM_JOB_NUM_NODES))'

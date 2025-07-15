@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-general-5574
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-kitty-5754
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-nobrainer/main

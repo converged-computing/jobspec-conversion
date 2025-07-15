@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-chip-6603
-#FLUX: --priority=16
+#FLUX: --job-name=astute-buttface-2698
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jngkim/personal.jeongnim.applications.qmcpack/hpcm/launch_pbs.sh

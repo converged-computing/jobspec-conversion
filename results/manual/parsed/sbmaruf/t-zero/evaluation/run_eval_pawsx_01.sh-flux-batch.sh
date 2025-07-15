@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-platanos-2974
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-fudge-6343
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-despacito-2825
+#FLUX: --job-name=buttery-fudge-8737
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add cuda/8.0
 module add cudnn/7-cuda-8.0

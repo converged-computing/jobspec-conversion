@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-egg-6085
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-puppy-1306
+#FLUX: --urgency=16
 
 nvidia-smi
 nvcc --version

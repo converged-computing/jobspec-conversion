@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="slbBurn"
+#FLUX: --job-name=slbBurn
 #FLUX: --exclusive
 #FLUX: --queue=scavenger
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PETSC_DIR='/projects/academic/chrest/mtmcgurn/petsc  '
 export PETSC_ARCH='arch-ablate-opt'

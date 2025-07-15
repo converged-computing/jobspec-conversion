@@ -3,7 +3,7 @@
 #FLUX: -c=20
 #FLUX: --queue=highmem
 #FLUX: -t=2160000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load samtools
 module load R

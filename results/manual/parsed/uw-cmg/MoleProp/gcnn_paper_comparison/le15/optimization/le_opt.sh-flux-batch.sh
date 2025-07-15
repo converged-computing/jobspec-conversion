@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-dog-6534
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-lemur-0319
+#FLUX: --urgency=16
 
 module load cuda/10.0
 module load groupmods/cudnn/10.0

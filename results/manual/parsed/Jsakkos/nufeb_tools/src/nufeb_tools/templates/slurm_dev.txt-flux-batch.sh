@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-staircase-8766
+#FLUX: --job-name=cowy-earthworm-8980
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LAMMPS='~/NUFEB-dev/src/lmp_png'
 

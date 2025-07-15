@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-bike-8454
+#FLUX: --job-name=crusty-pot-9267
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MIOPEN_DISABLE_CACHE='1'
 

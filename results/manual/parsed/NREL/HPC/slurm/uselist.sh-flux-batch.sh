@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="array_job"
+#FLUX: --job-name=array_job
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='2'
 export EXE='invertc'

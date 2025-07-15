@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-pancake-8890
+#FLUX: --job-name=muffled-lemon-3677
 #FLUX: -n=96
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-leopard-8935
+#FLUX: --job-name=butterscotch-squidward-2645
 #FLUX: --queue=serial
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SERVER_CONFIG=$1
 module load anaconda/3-2021.11

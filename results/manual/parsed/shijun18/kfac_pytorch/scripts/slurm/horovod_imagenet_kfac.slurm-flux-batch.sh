@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-taco-4358
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-citrus-0714
+#FLUX: --urgency=16
 
 scontrol show hostnames $SLURM_NODELIST > /tmp/hostfile
 cat /tmp/hostfile

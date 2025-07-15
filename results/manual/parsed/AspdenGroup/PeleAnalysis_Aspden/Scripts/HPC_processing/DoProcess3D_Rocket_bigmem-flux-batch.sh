@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-arm-0543
+#FLUX: --job-name=hairy-diablo-1816
 #FLUX: -n=64
 #FLUX: --queue=bigmem
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCELLSPERLF='16'
 export NPTS='100000'

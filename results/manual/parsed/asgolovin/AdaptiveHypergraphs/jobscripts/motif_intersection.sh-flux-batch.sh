@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=red-nunchucks-6817
+#FLUX: --job-name=stanky-sundae-4141
 #FLUX: -n=5
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module load julia/1.8.2

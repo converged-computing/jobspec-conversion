@@ -2,7 +2,7 @@
 #FLUX: --job-name=secondary
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export train_discriminator='false'
 export train_discriminator2='false'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cattywampus-5129
-#FLUX: --priority=16
+#FLUX: --job-name=placid-leader-7743
+#FLUX: --urgency=16
 
 argparse(){
     #Copyright (c) 2017 Noah Hoffman

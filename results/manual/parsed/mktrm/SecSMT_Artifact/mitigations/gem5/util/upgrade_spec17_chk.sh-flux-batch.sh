@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mkt_gem5
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 home_root="/u/mtaram"
 spec_root=$home_root/spec2017/

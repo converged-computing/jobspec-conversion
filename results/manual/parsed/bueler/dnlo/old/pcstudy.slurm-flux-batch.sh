@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lentil-6136
+#FLUX: --job-name=sticky-leader-5820
 #FLUX: -n=64
 #FLUX: --queue=t1standard
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 srun -l /bin/hostname | sort -n | awk '{print $2}' > ./nodes.$SLURM_JOB_ID

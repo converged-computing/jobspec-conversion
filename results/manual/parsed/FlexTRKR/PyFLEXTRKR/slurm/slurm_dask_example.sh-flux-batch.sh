@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pedo-8412
+#FLUX: --job-name=placid-peanut-9429
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 conda activate /global/common/software/m1867/python/flextrkr

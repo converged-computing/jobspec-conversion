@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=${smallBase}_alignment  # Name of the job
+#FLUX: --job-name=${smallBase}_alignment
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir -p PBS
 mkdir -p deduplicated

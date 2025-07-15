@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-ricecake-0155
-#FLUX: --priority=16
+#FLUX: --job-name=confused-house-5596
+#FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-eagle-0198
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-lemon-0740
+#FLUX: --urgency=16
 
 export PATH='$PATH:$HOME/.local'
 

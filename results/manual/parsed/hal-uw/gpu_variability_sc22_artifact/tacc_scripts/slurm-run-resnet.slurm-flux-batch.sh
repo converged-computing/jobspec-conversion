@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-dog-3528
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-salad-8935
+#FLUX: --urgency=16
 
 node=$SLURM_JOB_NODELIST
 echo "Node Number: ${node}"

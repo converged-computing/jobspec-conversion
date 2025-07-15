@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo starting_jobscript
 module add CUDA/10.1.243-GCC-8.3.0

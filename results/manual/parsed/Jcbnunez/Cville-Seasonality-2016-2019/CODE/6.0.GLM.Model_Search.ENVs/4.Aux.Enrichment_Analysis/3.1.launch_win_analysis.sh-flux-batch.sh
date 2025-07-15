@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-blackbean-7556
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-leader-9435
+#FLUX: --urgency=16
 
 module load spack/spack-0.18.1
 spack load r@4.2.1 r-sf

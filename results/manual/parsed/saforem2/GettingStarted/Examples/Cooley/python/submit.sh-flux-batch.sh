@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-signal-9157
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-lentil-4505
+#FLUX: --urgency=16
 

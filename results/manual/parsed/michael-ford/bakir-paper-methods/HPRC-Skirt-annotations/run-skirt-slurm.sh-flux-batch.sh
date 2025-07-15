@@ -2,7 +2,7 @@
 #FLUX: --job-name=run-skirt
 #FLUX: -c=5
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='/lscratch/$SLURM_JOB_ID'
 

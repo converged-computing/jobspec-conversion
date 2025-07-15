@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-peanut-butter-2987
+#FLUX: --job-name=anxious-peanut-9646
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

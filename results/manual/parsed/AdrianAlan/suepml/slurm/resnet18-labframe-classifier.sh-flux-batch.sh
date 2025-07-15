@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=suepml2
 #FLUX: -t=32400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3/2021.11
 conda activate solaris

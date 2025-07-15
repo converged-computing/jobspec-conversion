@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chair-1184
+#FLUX: --job-name=reclusive-fork-5063
 #FLUX: -c=2
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 ml modenv/hiera 

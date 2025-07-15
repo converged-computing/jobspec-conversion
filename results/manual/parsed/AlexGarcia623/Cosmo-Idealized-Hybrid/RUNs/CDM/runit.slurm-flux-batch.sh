@@ -3,7 +3,7 @@
 #FLUX: -n=1024
 #FLUX: --queue=hpg2-compute
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='^vader,tcp,openib'

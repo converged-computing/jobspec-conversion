@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-punk-8723
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-house-6384
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/2020.11-py3.8

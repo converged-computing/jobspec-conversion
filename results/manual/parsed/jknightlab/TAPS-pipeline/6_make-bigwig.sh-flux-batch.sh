@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-blackbean-1405
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-gato-0653
+#FLUX: --urgency=16
 
 input_dir=$PWD
 output_dir=$PWD

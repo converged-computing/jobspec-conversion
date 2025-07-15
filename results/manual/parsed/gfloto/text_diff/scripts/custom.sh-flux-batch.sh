@@ -2,7 +2,7 @@
 #FLUX: --job-name=baseline_pretrained_2
 #FLUX: -c=16
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 

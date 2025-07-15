@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-milkshake-8426
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-gato-6630
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

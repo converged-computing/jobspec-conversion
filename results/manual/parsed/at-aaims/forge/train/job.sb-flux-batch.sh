@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-ricecake-7260
+#FLUX: --job-name=adorable-hobbit-7891
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MODEL=forge-mat
 source neox-env.sh 

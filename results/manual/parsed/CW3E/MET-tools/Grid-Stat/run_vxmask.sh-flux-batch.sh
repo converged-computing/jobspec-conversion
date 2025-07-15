@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-motorcycle-4789
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-puppy-3377
+#FLUX: --urgency=16
 
 source pre_processing_config.sh
 MSK_IN=${MSK_ROOT}/lat-lon

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-parrot-8423
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-ricecake-1440
+#FLUX: --urgency=16
 
 export JOB_NAME='arome_e700'
 export JOB_ID='$SLURM_JOB_ID'

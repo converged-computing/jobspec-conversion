@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-signal-1368
+#FLUX: --job-name=grated-house-4754
 #FLUX: --queue=orchid
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export N='$(printf %03d $SLURM_ARRAY_TASK_ID)'
 

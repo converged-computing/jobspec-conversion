@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-onion-5577
+#FLUX: --job-name=angry-ricecake-6163
 #FLUX: -c=3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export _JAVA_OPTIONS='-Xms3g -Xmx4g'
 

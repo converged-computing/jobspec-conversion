@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lentil-8839
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-peanut-butter-1047
+#FLUX: --urgency=16
 
 cd $WorkingDir
 cd Run_Outputs/$RunName/GPUFlags

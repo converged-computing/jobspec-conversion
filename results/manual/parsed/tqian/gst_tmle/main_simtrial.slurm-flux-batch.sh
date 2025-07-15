@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-despacito-2241
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-leopard-4698
+#FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/apps/R_3.6.1:$R_LIBS_USER'
 

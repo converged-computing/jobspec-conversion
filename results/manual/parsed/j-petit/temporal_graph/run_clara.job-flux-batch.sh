@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-poo-6173
+#FLUX: --job-name=milky-staircase-5585
 #FLUX: -c=24
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ -z "$SLURM_ARRAY_TASK_ID" ]; then
     SLURM_ARRAY_TASK_ID=1

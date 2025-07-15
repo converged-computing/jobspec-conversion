@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-pancake-5647
+#FLUX: --job-name=peachy-poodle-2886
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load TensorFlow/2.11.0-foss-2022a
 python FractalModelSlurm.py

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-platanos-8993
+#FLUX: --job-name=butterscotch-staircase-5756
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.8.10
 module load mpi4py

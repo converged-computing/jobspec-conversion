@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-house-1380
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-destiny-6796
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/chuckatkins/ADIOS/examples/C/flexpath_arrays/process_select/job.pbs

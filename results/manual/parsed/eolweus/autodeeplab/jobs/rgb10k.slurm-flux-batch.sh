@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="rgb10k"
+#FLUX: --job-name=rgb10k
 #FLUX: -c=8
 #FLUX: --queue=GPUQ
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONBUFFERED='1'
 

@@ -5,7 +5,7 @@
 #FLUX: -c=10
 #FLUX: --queue=nesi_research
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='true'

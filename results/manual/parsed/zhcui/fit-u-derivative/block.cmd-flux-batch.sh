@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-kitty-7895
+#FLUX: --job-name=wobbly-soup-4999
 #FLUX: --queue=parallel
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_MPI_TYPE='pmi2'
 export OMP_NUM_THREADS='28'

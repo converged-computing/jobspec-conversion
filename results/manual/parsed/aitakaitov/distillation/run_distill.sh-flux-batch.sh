@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-sundae-3608
-#FLUX: --priority=16
+#FLUX: --job-name=grated-dog-5438
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/aitakaitov/distillation/run_distill.sh

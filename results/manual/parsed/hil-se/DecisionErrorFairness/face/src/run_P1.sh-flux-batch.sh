@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-malarkey-5402
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-citrus-3786
+#FLUX: --urgency=16
 
 spack unload -a
 spack load /xi3pch3

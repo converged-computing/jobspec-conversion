@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-parrot-3755
+#FLUX: --job-name=loopy-noodle-6570
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add cuda/8.0
 module add cudnn/7-cuda-8.0

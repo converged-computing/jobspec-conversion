@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-signal-9843
+#FLUX: --job-name=bloated-banana-6175
 #FLUX: -N=2
 #FLUX: --queue=regular
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_ROOT='/project/projectdirs/atom/users/elwasif/ompi/install_4.0'
 export PATH='$OMPI_ROOT/bin:$PATH'

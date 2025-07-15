@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-soup-4565
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-muffin-7908
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export THREADS_PER_NODE='1'

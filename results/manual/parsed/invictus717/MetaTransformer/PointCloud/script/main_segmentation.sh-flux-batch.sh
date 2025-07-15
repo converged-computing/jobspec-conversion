@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-leg-0897
+#FLUX: --job-name=scruptious-pastry-6145
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 [ ! -d "slurm_logs" ] && echo "Create a directory slurm_logs" && mkdir -p slurm_logs
 module load cuda/11.1.1

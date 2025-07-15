@@ -2,7 +2,7 @@
 #FLUX: --job-name=gauss2
 #FLUX: -c=6
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 echo "######################### SLURM JOB ########################"

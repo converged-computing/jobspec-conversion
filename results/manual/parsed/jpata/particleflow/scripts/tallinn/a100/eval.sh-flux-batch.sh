@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-gato-7400
+#FLUX: --job-name=pusheena-gato-2853
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 IMG=/home/software/singularity/tf-2.14.0.simg
 cd ~/particleflow

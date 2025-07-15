@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-latke-9795
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-lamp-1682
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/minitu/amr/run_titan.pbs

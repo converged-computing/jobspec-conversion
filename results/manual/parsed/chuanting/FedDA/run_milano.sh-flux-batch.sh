@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-punk-0304
+#FLUX: --job-name=gloopy-egg-1537
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load pytorch/1.2.0-cuda10.0-cudnn7.6-py3.7
 cluster_values=( 16 )

@@ -2,7 +2,7 @@
 #FLUX: --job-name=task2
 #FLUX: --queue=instruction
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nvidia/cuda/11.8.0
 nvcc task2.cu reduce.cu -Xcompiler -O3 -Xcompiler -Wall -Xptxas -O3 -std c++17 -o task2

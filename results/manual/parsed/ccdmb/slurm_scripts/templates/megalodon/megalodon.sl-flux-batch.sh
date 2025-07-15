@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-frito-5739
+#FLUX: --job-name=swampy-banana-9331
 #FLUX: --queue=gpuq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 module load cuda

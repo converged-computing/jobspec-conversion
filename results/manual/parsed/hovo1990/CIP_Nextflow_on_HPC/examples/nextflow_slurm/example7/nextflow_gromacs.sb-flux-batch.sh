@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="nf_gromacs_gpu"
+#FLUX: --job-name=nf_gromacs_gpu
 #FLUX: -c=2
 #FLUX: --queue=shared
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NFX_OPTS='-Xms=512m -Xmx=4g'
 

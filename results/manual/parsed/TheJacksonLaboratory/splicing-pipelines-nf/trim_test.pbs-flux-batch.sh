@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-spoon-1231
+#FLUX: --job-name=milky-lettuce-2054
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 date;hostname;pwd

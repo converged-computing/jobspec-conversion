@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=<rN>.post.ALA
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_COMP_VERBOSE='3'
 export SLURM_LOADER_VERBOSE='3'

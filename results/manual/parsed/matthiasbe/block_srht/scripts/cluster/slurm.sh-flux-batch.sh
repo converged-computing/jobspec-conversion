@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-fudge-0936
+#FLUX: --job-name=joyous-despacito-2071
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 					  # %x is job name, %j jobid 
 module purge

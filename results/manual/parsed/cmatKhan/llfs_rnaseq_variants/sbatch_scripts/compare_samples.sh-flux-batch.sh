@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-eagle-7041
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-carrot-9224
+#FLUX: --urgency=16
 
 eval $(spack load --sh singularityce@3.11.4)
 singularity_image=/scratch/mblab/chasem/llfs_rna_dna_compare_test/llfs_rnaseq_latest.sif

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-noodle-7450
+#FLUX: --job-name=swampy-buttface-1255
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 function usage() {

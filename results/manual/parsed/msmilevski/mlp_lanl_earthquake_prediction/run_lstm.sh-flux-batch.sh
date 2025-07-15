@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-chair-5719
+#FLUX: --job-name=blue-lettuce-6127
 #FLUX: --queue=LongJobs
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='/opt/cuda-9.0.176.1/'
 export CUDNN_HOME='/opt/cuDNN-7.0/'

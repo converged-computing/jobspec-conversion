@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="PLACEHOLDER-trimmomatic-log"
+#FLUX: --job-name=PLACEHOLDER-trimmomatic-log
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 module load trimmomatic

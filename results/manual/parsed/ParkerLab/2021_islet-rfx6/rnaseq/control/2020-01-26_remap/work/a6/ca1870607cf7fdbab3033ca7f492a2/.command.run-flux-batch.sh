@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leader-0368
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-leopard-2769
+#FLUX: --urgency=16
 
 set -e
 set -u

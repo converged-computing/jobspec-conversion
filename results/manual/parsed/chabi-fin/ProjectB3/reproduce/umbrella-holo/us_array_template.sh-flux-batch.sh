@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='false'

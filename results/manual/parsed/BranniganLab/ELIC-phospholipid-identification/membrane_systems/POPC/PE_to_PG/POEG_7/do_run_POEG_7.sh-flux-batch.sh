@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-pastry-6447
-#FLUX: --queue=cmain --constraint=oarc -t 24:00:00
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-caramel-8167
+#FLUX: --queue=cmain
+#FLUX: --urgency=16
 
 module purge
 module load gcc mvapich2

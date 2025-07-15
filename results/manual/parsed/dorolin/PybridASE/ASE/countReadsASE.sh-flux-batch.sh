@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="count_reads"
+#FLUX: --job-name=count_reads
 #FLUX: --queue=all
 #FLUX: -t=6600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load vital-it/7
 module load UHTS/Analysis/GenomeAnalysisTK/4.1.3.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-taco-0376
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-itch-3586
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pseudotensor/harm_harmgit/batches/batch.qsub.queenbee

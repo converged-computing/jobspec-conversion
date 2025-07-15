@@ -2,7 +2,7 @@
 #FLUX: --job-name=test
 #FLUX: -N=4
 #FLUX: --queue=E5-2640V4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LMP_EXE="/opt/MD/lammps/bin/lammps-cpu-12Dec18"
 ADD_ARGS="-sf omp"

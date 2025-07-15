@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=run-gromacs
 #FLUX: -t=50400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 init=step3_input
 mini_prefix=step4.0_minimization

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="CATCHUP-vpipe"
+#FLUX: --job-name=CATCHUP-vpipe
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SNAKEMAKE_PROFILE='$(realpath ../profiles/)'
 

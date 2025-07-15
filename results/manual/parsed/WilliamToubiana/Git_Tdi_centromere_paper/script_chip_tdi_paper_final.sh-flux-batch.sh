@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pedo-3496
+#FLUX: --job-name=chocolate-lettuce-6852
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting job $SLURM_JOB_NAME with ID $SLURM_JOB_ID".
 module load gcc

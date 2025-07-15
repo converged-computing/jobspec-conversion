@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-milkshake-6138
+#FLUX: --job-name=stinky-nalgas-2634
 #FLUX: -N=4
 #FLUX: -c=16
 #FLUX: --queue=hpib
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_PROVIDER='verbs'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

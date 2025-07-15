@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-soup-2465
+#FLUX: --job-name=ornery-mango-8379
 #FLUX: -c=8
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu # Stop on errors
 IMG='' # put path to qsiprep docker image here

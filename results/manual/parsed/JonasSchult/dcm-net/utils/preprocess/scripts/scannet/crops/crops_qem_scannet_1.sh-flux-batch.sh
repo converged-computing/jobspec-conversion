@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=1_qem_crops_train
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ../../../
 python3.7 crop_training_samples.py \

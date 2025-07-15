@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-lizard-3058
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-train-5712
+#FLUX: --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

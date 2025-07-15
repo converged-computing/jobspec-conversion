@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-poo-1110
+#FLUX: --job-name=doopy-despacito-2720
 #FLUX: --queue=GPU36
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab/R2022a 
 NCL=$1

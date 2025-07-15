@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-poo-5008
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-cupcake-5570
+#FLUX: --urgency=16
 
 export KMP_INIT_AT_FORK='FALSE'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chair-2165
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-hippo-5233
+#FLUX: --urgency=16
 
 tissues=("Colon" "lymph_node_metastasis" "Spleen" "Pancreas" "Epidermis" "Breast" "Lymph_Node" "Tonsil" "Lung" "Esophagus")
 CONFIG_DIR='mmdetection/configs/hrnet'

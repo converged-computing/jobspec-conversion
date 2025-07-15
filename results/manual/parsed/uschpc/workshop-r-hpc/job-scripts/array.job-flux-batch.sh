@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-earthworm-5653
+#FLUX: --job-name=grated-snack-5691
 #FLUX: -c=8
 #FLUX: --queue=main
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.3.0

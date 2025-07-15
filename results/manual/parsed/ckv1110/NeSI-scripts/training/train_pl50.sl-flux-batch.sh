@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=17400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load Singularity

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-toaster-9966
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-train-6334
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/hpgmg-original/build/bin'
 

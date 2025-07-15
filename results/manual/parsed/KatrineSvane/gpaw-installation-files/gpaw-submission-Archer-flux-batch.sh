@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-parrot-7529
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-bits-0187
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/KatrineSvane/gpaw-installation-files/gpaw-submission-Archer

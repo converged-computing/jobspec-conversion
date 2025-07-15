@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-fudge-6639
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-bicycle-2413
+#FLUX: --urgency=16
 
 scpdir="$( cd "$( dirname "$0" )" && pwd )"              # dir of script
 rootdir=$(realpath $(dirname $scpdir))

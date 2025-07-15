@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="fancy new architecture"
+#FLUX: --job-name=fancy new architecture
 #FLUX: --queue=iris-hi
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /sailhome/kayburns/.bashrc
 conda activate py3.8_torch1.10.1

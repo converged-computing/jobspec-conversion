@@ -2,7 +2,7 @@
 #FLUX: --job-name=nonlinear_speed
 #FLUX: -c=8
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKL_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

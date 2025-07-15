@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-malarkey-9284
-#FLUX: --priority=16
+#FLUX: --job-name=salted-frito-5660
+#FLUX: --urgency=16
 
 export PATH='/usr/local/cuda-11.4/targets/x86_64-linux/lib:$PATH'
 export LD_LIBRARY_PATH='/usr/local/cuda-11.4/lib64:$LD_LIBRARY_PATH'

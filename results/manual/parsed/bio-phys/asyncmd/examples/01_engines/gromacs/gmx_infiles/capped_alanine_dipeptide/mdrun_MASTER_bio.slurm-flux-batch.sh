@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=red-buttface-9441
+#FLUX: --job-name=gassy-underoos-4186
 #FLUX: -c=2
-#FLUX: --queue=s.bio  ## makes sure you run on the s. partition where left over resources of a node can be filled by other jobs
+#FLUX: --queue=s.bio
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MPI_NUM_RANKS='$SLURM_NTASKS_PER_NODE'

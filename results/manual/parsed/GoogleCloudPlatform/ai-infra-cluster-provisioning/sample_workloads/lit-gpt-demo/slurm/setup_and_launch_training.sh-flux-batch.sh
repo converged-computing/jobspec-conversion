@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-puppy-9810
+#FLUX: --job-name=swampy-destiny-2544
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: --queue=a3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODEL_NAME='                               #'Llama-2-70b-hf'
 export GCS_EXPERIMENT_BUCKET='                    # myBucket'

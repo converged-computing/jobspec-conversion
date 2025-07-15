@@ -2,7 +2,7 @@
 #FLUX: --job-name=train_csn
 #FLUX: -c=8
 #FLUX: --queue=dept_gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo
 echo $SLURM_JOB_NODELIST

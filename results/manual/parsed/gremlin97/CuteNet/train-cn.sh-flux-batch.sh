@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-caramel-0651
-#FLUX: --priority=16
+#FLUX: --job-name=phat-itch-0169
+#FLUX: --urgency=16
 
 ...
 nvidia-smi # Useful for seeing GPU status and activity 

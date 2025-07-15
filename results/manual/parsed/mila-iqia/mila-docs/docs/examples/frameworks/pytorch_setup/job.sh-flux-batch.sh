@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-kerfuffle-1195
+#FLUX: --job-name=loopy-spoon-1786
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e  # exit on error.
 echo "Date:     $(date)"

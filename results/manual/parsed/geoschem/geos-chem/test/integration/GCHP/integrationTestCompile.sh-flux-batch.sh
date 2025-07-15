@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-salad-4903
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-cattywampus-5357
+#FLUX: --urgency=16
 
 quick="${1}"
 itRoot=$(cd ..; pwd)

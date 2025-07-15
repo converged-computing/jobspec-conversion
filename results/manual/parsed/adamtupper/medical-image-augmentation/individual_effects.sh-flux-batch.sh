@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-avocado-0113
+#FLUX: --job-name=anxious-toaster-2261
 #FLUX: -c=10
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_HOME='$project'
 

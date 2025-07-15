@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=long
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JSON_PATH='$(echo $JSON_PATH_WITH_PLACEHOLDER | sed "s/\${SAMPLE_ID}/$SAMPLE_ID/")'
 export SHARED_FILESYSTEM_RUNFOLDER='`pwd`'

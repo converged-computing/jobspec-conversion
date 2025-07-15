@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-bicycle-0888
+#FLUX: --job-name=delicious-train-5690
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MIOPEN_DISABLE_CACHE='1'
 

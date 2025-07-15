@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-earthworm-6521
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-fork-5433
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1,2,3'
 

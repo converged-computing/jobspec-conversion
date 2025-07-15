@@ -2,7 +2,7 @@
 #FLUX: --job-name=Training
 #FLUX: -c=17
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo ">>> start"
 echo ">>> Training"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-pancake-9653
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-dog-3103
+#FLUX: --urgency=16
 
 for s in 5 6 7; do
     for v in 0.0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5; do

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=fat-peas-6752
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-pastry-6397
+#FLUX: --urgency=16
 

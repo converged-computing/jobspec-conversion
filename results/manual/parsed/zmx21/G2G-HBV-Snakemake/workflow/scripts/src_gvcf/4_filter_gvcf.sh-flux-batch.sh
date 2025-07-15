@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=4_filter_gvcf
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='/scratch/rueger/$SLURM_JOB_ID'
 

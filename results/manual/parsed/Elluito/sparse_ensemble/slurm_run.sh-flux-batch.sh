@@ -2,7 +2,7 @@
 #FLUX: --job-name=pytorch_test
 #FLUX: --queue=small
 #FLUX: -t=540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$lib_path_of_current_enviroment'
 

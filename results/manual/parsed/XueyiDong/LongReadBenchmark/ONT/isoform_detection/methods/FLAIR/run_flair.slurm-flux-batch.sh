@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-animal-6559
+#FLUX: --job-name=reclusive-chair-1393
 #FLUX: -c=16
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3
 source activate

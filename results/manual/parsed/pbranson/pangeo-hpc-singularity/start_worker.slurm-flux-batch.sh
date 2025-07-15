@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lamp-3667
+#FLUX: --job-name=muffled-toaster-2196
 #FLUX: -n=4
 #FLUX: -c=2
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='/group:/group,/scratch:/scratch,/run:/run,$HOME:$HOME'
 export SINGULARITYENV_PREPEND_PATH='/srv/conda/envs/notebook/bin:/srv/conda/condabin:/srv/conda/bin'

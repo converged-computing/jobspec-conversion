@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cattywampus-7020
+#FLUX: --job-name=carnivorous-muffin-4065
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

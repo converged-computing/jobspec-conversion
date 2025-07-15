@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pastry-6685
+#FLUX: --job-name=eccentric-malarkey-8589
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "[train.voc07.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 nodeset -e $SLURM_JOB_NODELIST

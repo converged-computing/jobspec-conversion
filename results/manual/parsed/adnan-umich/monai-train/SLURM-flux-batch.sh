@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-parrot-6577
+#FLUX: --job-name=strawberry-rabbit-2021
 #FLUX: --queue=gpu
 #FLUX: -t=72300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/adnanzai/project/monai-train
 ml purge

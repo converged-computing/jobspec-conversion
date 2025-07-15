@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-nunchucks-7490
+#FLUX: --job-name=nerdy-itch-9462
 #FLUX: -N=2
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 ir=0

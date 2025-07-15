@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-sundae-1425
-#FLUX: --priority=16
+#FLUX: --job-name=fat-knife-2812
+#FLUX: --urgency=16
 
 module purge
 module load python/3.10.12

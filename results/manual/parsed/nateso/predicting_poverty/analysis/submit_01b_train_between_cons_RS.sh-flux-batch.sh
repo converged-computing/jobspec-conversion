@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=01b_cons_RS_between              # Job name
-#FLUX: --priority=16
+#FLUX: --job-name=01b_cons_RS_between
+#FLUX: --urgency=16
 
 module load anaconda3
 module load cuda

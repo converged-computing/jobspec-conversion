@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lettuce-6181
+#FLUX: --job-name=confused-omelette-6917
 #FLUX: --queue=booster
 #FLUX: -t=7199
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

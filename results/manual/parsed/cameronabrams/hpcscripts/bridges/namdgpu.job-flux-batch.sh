@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lamp-1789
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-pancake-1415
+#FLUX: --urgency=16
 
 set echo
 set -x

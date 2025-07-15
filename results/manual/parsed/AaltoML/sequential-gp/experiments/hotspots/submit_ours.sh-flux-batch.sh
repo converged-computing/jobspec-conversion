@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-poo-5998
+#FLUX: --job-name=evasive-eagle-3838
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load miniconda
 source activate ovcexperiment

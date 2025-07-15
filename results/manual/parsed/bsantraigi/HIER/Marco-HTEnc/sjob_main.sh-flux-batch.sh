@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-mango-2633
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-pot-9501
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

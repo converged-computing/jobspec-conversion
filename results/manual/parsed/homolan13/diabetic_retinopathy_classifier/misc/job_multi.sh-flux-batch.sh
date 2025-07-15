@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="ex_multi"
+#FLUX: --job-name=ex_multi
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularity exec --nv docker://pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime pip install -U tensorboard
 singularity exec --nv docker://pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime pip install -U scikit-learn

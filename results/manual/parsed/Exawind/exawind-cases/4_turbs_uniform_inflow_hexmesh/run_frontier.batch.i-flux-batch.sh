@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-fork-5635
+#FLUX: --job-name=blue-nalgas-4117
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export rocm_version='5.4.3'
 export LD_LIBRARY_PATH='/opt/rocm-${rocm_version}/llvm/lib/:$LD_LIBRARY_PATH'

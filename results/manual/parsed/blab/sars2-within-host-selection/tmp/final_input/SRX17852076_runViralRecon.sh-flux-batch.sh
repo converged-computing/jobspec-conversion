@@ -3,7 +3,7 @@
 #FLUX: -n=15
 #FLUX: --queue=campus-new
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 load_modules() {
   module purge

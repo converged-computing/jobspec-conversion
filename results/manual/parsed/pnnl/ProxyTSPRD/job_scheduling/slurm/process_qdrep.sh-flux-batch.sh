@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lemur-9912
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-omelette-3205
+#FLUX: --urgency=16
 
 module load cuda/11.4
 i=0

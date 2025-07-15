@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=debug
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo started at `date`
 module load gcc/8.4.0-cuda cuda/10.2.89

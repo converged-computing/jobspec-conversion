@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-frito-7393
+#FLUX: --job-name=boopy-lemur-9475
 #FLUX: -N=6
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='COLL'

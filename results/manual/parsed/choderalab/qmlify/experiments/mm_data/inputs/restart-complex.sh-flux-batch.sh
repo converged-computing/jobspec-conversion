@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-omelette-1841
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-despacito-1901
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/qmlify/experiments/mm_data/inputs/restart-complex.sh

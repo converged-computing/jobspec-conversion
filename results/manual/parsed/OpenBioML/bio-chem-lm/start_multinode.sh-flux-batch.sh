@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="openbioml"
+#FLUX: --job-name=openbioml
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=g40n404
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_EFA_FORK_SAFE='1'
 export FI_LOG_LEVEL='1'

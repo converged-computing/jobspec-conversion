@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --gpus-per-task=4
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOGLEVEL='INFO'
 export TORCH_NCCL_BLOCKING_WAIT='1'

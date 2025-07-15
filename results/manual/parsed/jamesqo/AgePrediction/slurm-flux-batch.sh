@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-fudge-3435
+#FLUX: --job-name=bricky-eagle-5123
 #FLUX: --queue=fnndsc-gpu
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3
 source activate james

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-leader-6129
+#FLUX: --job-name=outstanding-pot-5575
 #FLUX: -N=2
 #FLUX: -c=10
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='true'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-general-0624
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-butter-6070
+#FLUX: --urgency=16
 
 echo Time is `date`
 echo Directory is $PWD

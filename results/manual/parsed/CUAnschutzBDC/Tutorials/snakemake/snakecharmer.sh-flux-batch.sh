@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-kerfuffle-4049
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-pot-3320
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CUAnschutzBDC/Tutorials/snakemake/snakecharmer.sh

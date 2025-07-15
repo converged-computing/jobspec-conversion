@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-toaster-1177
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-spoon-8094
+#FLUX: --urgency=16
 
 export NODES='$(unslurm.py)'
 export SECS='2'

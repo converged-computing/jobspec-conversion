@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-fudge-4984
-#FLUX: --priority=16
+#FLUX: --job-name=phat-staircase-1288
+#FLUX: --urgency=16
 
 export PKG_CONFIG_PATH='/opt/apps/intel18/gsl/2.2.1/lib/pkgconfig/'
 export GENOME_FASTA='cdh_alltags_cc.fasta'

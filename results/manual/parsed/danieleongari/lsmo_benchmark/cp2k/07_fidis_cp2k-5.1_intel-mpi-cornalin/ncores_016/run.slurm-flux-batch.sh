@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-rabbit-4836
+#FLUX: --job-name=hairy-lentil-3557
 #FLUX: -n=16
 #FLUX: --queue=parallel
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   
 module load intel

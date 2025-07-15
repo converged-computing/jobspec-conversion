@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pancake-2757
+#FLUX: --job-name=gassy-hope-5871
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/3-5.2.0
 source activate py36

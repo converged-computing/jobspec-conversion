@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-fork-0649
+#FLUX: --job-name=red-poo-5608
 #FLUX: -N=32
 #FLUX: -n=256
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

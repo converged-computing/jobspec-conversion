@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-arm-1536
+#FLUX: --job-name=dinosaur-despacito-4077
 #FLUX: -N=9
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKLROOT='/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64'

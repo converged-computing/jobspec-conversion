@@ -2,7 +2,7 @@
 #FLUX: --job-name=npt_pme
 #FLUX: --queue=pascal_gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='TRUE'
 

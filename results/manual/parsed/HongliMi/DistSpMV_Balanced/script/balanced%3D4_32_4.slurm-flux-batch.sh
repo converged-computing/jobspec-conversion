@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-citrus-0107
+#FLUX: --job-name=wobbly-knife-5924
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_LOG_LEVEL='error'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-fudge-0249
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-blackbean-0701
+#FLUX: --urgency=16
 
 if [ $# -eq 3 ]; then
     NUM_NODES=$1

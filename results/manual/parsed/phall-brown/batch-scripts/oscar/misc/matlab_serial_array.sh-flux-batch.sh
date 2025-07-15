@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-caramel-8887
-#FLUX: --priority=16
+#FLUX: --job-name=grated-ricecake-6324
+#FLUX: --urgency=16
 
 t0=$(date +%s)
 module load matlab/R2021a

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-sundae-7146
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-bicycle-1042
+#FLUX: --urgency=16
 
 echo "Pipeline started: $(date)"
 messages=/secondary/projects/genomicscore/tools/boilerplate_demux/novaseq/messages/ # Larry's message files here

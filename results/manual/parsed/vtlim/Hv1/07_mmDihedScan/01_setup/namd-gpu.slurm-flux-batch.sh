@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="a178-vanilla"
+#FLUX: --job-name=a178-vanilla
 #FLUX: -n=8
 #FLUX: --queue=mf_titanx
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NAMD='/beegfs/DATA/mobley/limvt/local/namd/2.12-multicore-CUDA'
 export LD_LIBRARY_PATH='${NAMD}/libcudart.so.6.5'

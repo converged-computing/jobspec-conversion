@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-itch-1418
+#FLUX: --job-name=purple-banana-1849
 #FLUX: -c=6
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NETWORK_VERSION=$1
 ITERATION=$2

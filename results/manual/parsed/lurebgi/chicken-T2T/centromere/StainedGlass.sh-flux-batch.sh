@@ -2,7 +2,7 @@
 #FLUX: --job-name=stain
 #FLUX: -c=8
 #FLUX: --queue=basic
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 chr=$1
 module unload python2

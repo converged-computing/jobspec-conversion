@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-punk-4358
+#FLUX: --job-name=butterscotch-leader-0546
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: --queue=west
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

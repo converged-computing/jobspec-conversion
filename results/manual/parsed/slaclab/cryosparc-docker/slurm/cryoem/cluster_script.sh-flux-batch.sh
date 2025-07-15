@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cryosparc_{{ project_uid }}_{{ job_uid }}
-#FLUX: --priority=16
+#FLUX: --job-name=cryosparc_{{
+#FLUX: --urgency=16
 
 export TMPDIR='/scratch/${USER}/cryosparc/'
 export MODULEPATH='/afs/slac/package/singularity/modulefiles'

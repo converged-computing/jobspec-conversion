@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-muffin-1356
+#FLUX: --job-name=doopy-snack-9600
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=microbedb-fetch
 #FLUX: -t=10740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e -o pipefail            # Halt on error
 shopt -s nullglob

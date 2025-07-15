@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-motorcycle-1569
+#FLUX: --job-name=crusty-kitty-8012
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CORES=12
 module load FastQC/0.11.7

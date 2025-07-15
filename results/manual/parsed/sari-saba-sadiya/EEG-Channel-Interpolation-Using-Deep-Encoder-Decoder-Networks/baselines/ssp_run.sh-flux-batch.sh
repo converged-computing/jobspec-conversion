@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-milkshake-7678
+#FLUX: --job-name=spicy-underoos-3777
 #FLUX: --exclusive
 #FLUX: --queue=sched_mit_rgmark
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 module load python/3.6.3

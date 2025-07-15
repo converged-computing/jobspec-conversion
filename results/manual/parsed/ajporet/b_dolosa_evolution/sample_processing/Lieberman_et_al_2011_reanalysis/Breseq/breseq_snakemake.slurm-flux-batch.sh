@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="breseq_snakemake"
+#FLUX: --job-name=breseq_snakemake
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 bash snakemakeslurm.sh
 echo Done!!!

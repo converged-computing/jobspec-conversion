@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="array_job"
+#FLUX: --job-name=array_job
 #FLUX: --queue=shas
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export _OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MYSEED='$SLURM_JOB_ID'

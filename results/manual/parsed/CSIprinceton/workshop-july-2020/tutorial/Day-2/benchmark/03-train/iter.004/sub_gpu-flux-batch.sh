@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pancake-8020
-#FLUX: --priority=16
+#FLUX: --job-name=astute-malarkey-5048
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/mandrade/lammps/lib/plumed/plumed2/lib'
 export OMP_NUM_THREADS='4'

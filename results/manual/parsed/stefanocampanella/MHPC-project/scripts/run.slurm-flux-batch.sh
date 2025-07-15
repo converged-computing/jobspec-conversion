@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-animal-4436
+#FLUX: --job-name=anxious-gato-0803
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='/dev/shm'
 export PYTHONPATH='$PYTHONPATH:$MHPCPROJECT_ROOT'

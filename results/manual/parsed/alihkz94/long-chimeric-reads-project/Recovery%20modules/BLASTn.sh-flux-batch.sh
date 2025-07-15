@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="70_75"
+#FLUX: --job-name=70_75
 #FLUX: -c=128
 #FLUX: --queue=amd
 #FLUX: -t=252000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DIR="/gpfs/space/home/alihakim/blast/blast_70_75"  # Update with the path to your fasta files
 HEADER="qseqid stitle qlen slen qstart qend sstart send evalue length nident mismatch gapopen gaps sstrand qcovs pident"

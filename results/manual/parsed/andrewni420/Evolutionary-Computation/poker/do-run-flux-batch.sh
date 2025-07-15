@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-dog-5529
+#FLUX: --job-name=hairy-sundae-3592
 #FLUX: --queue=gpu-a5000-q
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DJL_DEFAULT_ENGINE='MXNet'
 export MXNET_ENGINE_TYPE='NaiveEngine'

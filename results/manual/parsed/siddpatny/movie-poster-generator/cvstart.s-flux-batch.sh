@@ -2,7 +2,7 @@
 #FLUX: --job-name=cvProject
 #FLUX: -c=4
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/9.2.88
 module load anaconda3/5.3.1

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-parsnip-8392
+#FLUX: --job-name=moolicious-cat-0727
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

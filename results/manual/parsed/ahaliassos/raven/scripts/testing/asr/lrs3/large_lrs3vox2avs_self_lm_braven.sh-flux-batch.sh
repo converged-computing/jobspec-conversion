@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=learnai4rl
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun python raven/test.py \
     data.modality=audio \

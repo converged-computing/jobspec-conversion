@@ -2,7 +2,7 @@
 #FLUX: --job-name=simplescan
 #FLUX: -c=5
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 lr=1.0
 warmup_steps=4000

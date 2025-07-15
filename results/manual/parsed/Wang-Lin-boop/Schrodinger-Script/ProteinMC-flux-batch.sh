@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-destiny-9854
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-soup-8869
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Wang-Lin-boop/Schrodinger-Script/ProteinMC

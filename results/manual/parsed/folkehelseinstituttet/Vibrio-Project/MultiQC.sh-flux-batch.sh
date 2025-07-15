@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=AsmQC
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /cluster/bin/jobsetup
 module load Miniconda3/4.4.10

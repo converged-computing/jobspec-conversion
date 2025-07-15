@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-peas-7162
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-milkshake-5220
+#FLUX: --urgency=16
 
 cd /fs/ess/PCON0022/liyang/STREAM/benchmarking/GLUE/Outputs/
 data_list="../../main_text_data.txt"

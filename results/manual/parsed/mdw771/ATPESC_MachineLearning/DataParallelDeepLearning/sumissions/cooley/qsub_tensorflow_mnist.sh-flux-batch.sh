@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-plant-1023
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-soup-0504
+#FLUX: --urgency=16
 

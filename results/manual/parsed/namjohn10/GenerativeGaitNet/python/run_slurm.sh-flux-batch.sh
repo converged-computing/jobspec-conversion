@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: -c=128
 #FLUX: --queue=all
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/cuda-11.0
 source ~/venv/bin/activate

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=lda_expers
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/kriss1/.bash_profile
 module load python/3.6.1

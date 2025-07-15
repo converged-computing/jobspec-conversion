@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=cluster
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity/3.5.2
 CONTAINER_FILE="pangeo-notebook_2022.07.27.sif"

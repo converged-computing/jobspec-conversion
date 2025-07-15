@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-muffin-1765
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-blackbean-7824
+#FLUX: --urgency=16
 
 python3 check_cuda.py

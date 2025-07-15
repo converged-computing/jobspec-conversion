@@ -3,7 +3,7 @@
 #FLUX: -N=9
 #FLUX: -c=90
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RAY_GRAFANA_HOST='172.16.18.254:3000'
 export RAY_PROMETHEUS_HOST='172.16.18.254:9090'

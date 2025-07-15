@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-kitty-3553
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-leg-8876
+#FLUX: --urgency=16
 
 ml unload xalt
 ml tacc-singularity

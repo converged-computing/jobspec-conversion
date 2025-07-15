@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-sundae-8641
-#FLUX: --priority=16
+#FLUX: --job-name=faux-toaster-6164
+#FLUX: --urgency=16
 
 clear
 module use ~/environment-modules-lisa

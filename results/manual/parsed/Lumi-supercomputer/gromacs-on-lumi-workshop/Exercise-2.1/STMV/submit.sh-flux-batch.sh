@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=red-leg-5594
+#FLUX: --job-name=placid-chair-5859
 #FLUX: -c=7
 #FLUX: --queue=small-g
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

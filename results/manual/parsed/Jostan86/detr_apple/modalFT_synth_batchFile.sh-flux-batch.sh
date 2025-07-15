@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-squidward-2713
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-milkshake-2799
+#FLUX: --urgency=16
 
 module load python3
 source /nfs/hpc/share/browjost/detr_apple/venv/bin/activate

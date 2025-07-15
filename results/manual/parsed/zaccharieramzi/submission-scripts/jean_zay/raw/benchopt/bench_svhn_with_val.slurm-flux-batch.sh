@@ -2,7 +2,7 @@
 #FLUX: --job-name=benchopt_run
 #FLUX: -c=10
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUSERBASE='$WORK/.local_torch'
 export PATH='$WORK/.local_torch/bin:$PATH'

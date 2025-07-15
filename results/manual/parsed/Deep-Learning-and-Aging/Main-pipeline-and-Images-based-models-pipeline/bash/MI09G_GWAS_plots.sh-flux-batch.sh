@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-platanos-0871
-#FLUX: --priority=16
+#FLUX: --job-name=salted-lizard-6612
+#FLUX: --urgency=16
 
 set -e
 module load gcc/6.2.0

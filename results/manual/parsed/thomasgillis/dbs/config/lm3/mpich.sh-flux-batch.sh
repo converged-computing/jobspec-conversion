@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-salad-4840
+#FLUX: --job-name=blue-bike-2131
 #FLUX: -n=8
 #FLUX: --queue=batch
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "loading modules"
 module purge

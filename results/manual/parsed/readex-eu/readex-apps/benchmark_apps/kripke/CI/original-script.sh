@@ -1,46 +1,35 @@
 #!/bin/sh
 
-#SBATCH -t 30:00
-#SBATCH --nodes=1
-#SBATCH --tasks-per-node=1
-#SBATCH --cpus-per-task=24
+#SBATCH --time=1:00:00   # walltime
+#SBATCH --nodes=1 
+#SBATCH --ntasks-per-node=24
+#SBATCH --cpus-per-task=1
+#SBATCH --exclusive
+#SBATCH --partition=haswell
+#SBATCH --comment="cpufreqchown"
+#SBATCH --mem-per-cpu=2500M  
 #SBATCH -A p_readex
-#SBATCH --mem=62000
+#SBATCH -J "READEX_kripke"
 
-#Installation on Taurus:
-# 1) Modules and variables
-cd ..
-. readex_env/set_env_ptf_hdeem.source
-. $(pwd)/environment.sh
+. ../readex_env/set_env_rdd.source
+. ../environment.sh
 
-# 2) Compile
-cp CMakeLists-SCOREP-PHASE.txt CMakeLists.txt
-if [ $READEX_INTEL ]
-then
-        FILTER_ICC="-tcollect-filter=$(pwd)/RESULTS/scorep_icc.filt"
-else
-        FILTER_GCC="--instrument-filter=$(pwd)/RESULTS/scorep.filt"
-fi
-export CXX="scorep --online-access --user --mpp=mpi --thread=none --nomemory $FILTER_GCC $READEX_CXX $FILTER_ICC"
-rm -rf build
-mkdir build
-cd build
-cmake ..
-make
+#cp ../RESULTS/scorep.filt .
 
-cp ../scripts/run_ptf.sh .
-cp ../scripts/run_rrl.sh .
+export SCOREP_PROFILING_FORMAT=cube_tuple
+export SCOREP_METRIC_PAPI=PAPI_TOT_INS,PAPI_L3_TCM
+#export SCOREP_FILTERING_FILE=scorep.filt
 
+echo "running kripke for readex-dyn-detect"
+srun -n 24 ../build/kripke $KRIPKE_COMMAND
+echo "running kripke done"
 
-# 3) Test Run 
+echo "running readex-dyn-detect"
+echo "phase region = $2"
+#readex-dyn-detect -t $1 -p $2 -c $3 -v $4 -w $5 scorep-*/profile.cubex
+readex-dyn-detect -p "Loop" -t 0.01 scorep-*/profile.cubex
+echo
+echo "running readex-dyn-detect done" 
 
-#srun -n 24 ./kripke --procs 2,2,6 --niter 20 --nest GZD --zones 4,4,4 --groups 200
-#srun -n 24 ./kripke --procs 2,2,6 --niter 10 --nest GZD --zones 32,32,32 --legendre 8 --dset 32
-
-
-# Note: Chose MERIC or SCOREP by adding -DUSE_MERIC or -DUSE_SCOREP, respectively, 
-#       in CMakeLists.txt, variable CMAKE_CXX_FLAGS
-
-# Note: READEX kernels are in src/kripke.cpp (Main region) and
-#       src/Kripke/Sweep_Solver.cpp (Compute regions)
- 
+#cp -R scorep-* ../RESULTS/
+#cp readex_config.xml ../RESULTS/

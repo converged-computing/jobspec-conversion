@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-kitty-0552
+#FLUX: --job-name=fat-salad-6348
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pipeuser=PIPEUSER
 source /group/mwasci/$pipeuser/GLEAM-X-pipeline/GLEAM-X-pipeline.profile

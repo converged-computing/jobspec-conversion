@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cinnamonbun-3811
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-hope-3979
+#FLUX: --urgency=16
 
 export LOGLEVEL='INFO'
 

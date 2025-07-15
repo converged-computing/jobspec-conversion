@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-cat-8933
+#FLUX: --job-name=gassy-fudge-2347
 #FLUX: --queue=shared-cpu
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME='/home/heasoft'
 

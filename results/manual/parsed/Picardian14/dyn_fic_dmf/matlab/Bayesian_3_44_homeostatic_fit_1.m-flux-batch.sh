@@ -2,7 +2,7 @@
 #FLUX: --job-name=BigGHomFit1
 #FLUX: -c=12
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml MATLAB/R2022b
 matlab -nodisplay<<-EOF

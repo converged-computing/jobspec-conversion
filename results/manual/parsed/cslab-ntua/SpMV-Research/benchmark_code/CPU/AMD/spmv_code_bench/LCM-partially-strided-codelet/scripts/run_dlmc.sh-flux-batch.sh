@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="TRSV"
+#FLUX: --job-name=TRSV
 #FLUX: -c=40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$THRDS'
 export MKL_NUM_THREADS='$THRDS'

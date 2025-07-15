@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="rfm_LaghosTest_laghos_3_1__nvhpc___nodes___4___mpi___256___omp___1__job"
+#FLUX: --job-name=rfm_LaghosTest_laghos_3_1__nvhpc___nodes___4___mpi___256___omp___1__job
 #FLUX: -n=256
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='cores'

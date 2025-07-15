@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-puppy-9692
+#FLUX: --job-name=boopy-ricecake-0677
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "# "
 echo "# Running job $SLURM_JOB_NAME - $SLURM_JOB_ID "

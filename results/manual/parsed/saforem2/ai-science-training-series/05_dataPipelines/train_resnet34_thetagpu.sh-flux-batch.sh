@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-chip-9710
-#FLUX: --priority=16
+#FLUX: --job-name=tart-lamp-0500
+#FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-parsnip-6324
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-pancake-7663
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gabrielwen/MusicClassification/pythonrize.pbs

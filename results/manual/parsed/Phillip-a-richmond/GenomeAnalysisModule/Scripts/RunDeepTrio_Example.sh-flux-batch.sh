@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-itch-4035
+#FLUX: --job-name=confused-squidward-1015
 #FLUX: -c=10
 #FLUX: --queue=defq
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='$PWD'
 

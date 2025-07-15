@@ -2,7 +2,7 @@
 #FLUX: --job-name=plot_TY
 #FLUX: -c=4
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NUM_JULIA_THREADS='`nproc`'
 

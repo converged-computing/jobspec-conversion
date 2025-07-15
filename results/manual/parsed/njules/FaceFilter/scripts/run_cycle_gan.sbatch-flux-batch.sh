@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=cuda
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nvidia/cudasdk/10.1
 module load intel/python/3/2019.4.088

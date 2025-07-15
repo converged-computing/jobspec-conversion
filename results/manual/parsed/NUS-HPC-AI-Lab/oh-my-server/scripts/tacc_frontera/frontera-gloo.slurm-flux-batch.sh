@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-hope-8615
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-car-2615
+#FLUX: --urgency=16
 
 export PMI_NO_PREINITIALIZE='1  # avoid warnings on fork'
 

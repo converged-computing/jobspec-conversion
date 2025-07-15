@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-poo-3924
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-bicycle-6746
+#FLUX: --urgency=16
 
 set -eu
 rm -rf install petsc-3.6.3 src

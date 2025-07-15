@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-puppy-3228
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-onion-1063
+#FLUX: --urgency=16
 
 module load Anaconda3/5.0.1-fasrc01
 module load cuda/9.0-fasrc02 cudnn/7.4.1.5_cuda9.0-fasrc01

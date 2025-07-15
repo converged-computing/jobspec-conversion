@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bits-2867
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-soup-6447
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sebhtml/NGS-Pipelines/Templates/000-colosse.sh

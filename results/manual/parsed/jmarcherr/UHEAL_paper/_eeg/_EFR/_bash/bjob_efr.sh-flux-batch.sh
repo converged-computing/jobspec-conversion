@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cattywampus-3706
-#FLUX: --priority=16
+#FLUX: --job-name=confused-citrus-5096
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jmarcherr/UHEAL_paper/_eeg/_EFR/_bash/bjob_efr.sh

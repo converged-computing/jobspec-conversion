@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=AtariDQN
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euxo pipefail
 source ${MODULESHOME}/init/bash

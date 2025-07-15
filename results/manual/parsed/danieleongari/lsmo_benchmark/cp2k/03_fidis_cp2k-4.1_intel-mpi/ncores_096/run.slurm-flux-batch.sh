@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-peanut-butter-7531
+#FLUX: --job-name=blank-kitty-6717
 #FLUX: -N=4
 #FLUX: -n=96
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r stable             
 module purge

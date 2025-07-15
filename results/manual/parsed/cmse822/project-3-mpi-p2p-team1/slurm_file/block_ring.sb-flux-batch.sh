@@ -2,7 +2,7 @@
 #FLUX: --job-name=block_ring
 #FLUX: -N=2
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load GCC/6.4.0 OpenMPI/2.1.2

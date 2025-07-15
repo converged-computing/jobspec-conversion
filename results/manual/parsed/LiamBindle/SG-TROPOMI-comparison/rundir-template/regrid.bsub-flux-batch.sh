@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-kerfuffle-0511
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-leader-9561
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LiamBindle/SG-TROPOMI-comparison/rundir-template/regrid.bsub

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-butter-7797
+#FLUX: --job-name=conspicuous-punk-9350
 #FLUX: -n=12
 #FLUX: -t=15720
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ARLROOT='/home/mf582/scratch/ARL/algorithm-reference-library'
 export OMP_NUM_THREADS='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-dog-6549
+#FLUX: --job-name=hello-cattywampus-7777
 #FLUX: --queue=general-compute
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SPECIES=$1 # short name for your species
 ANNOTATION_DIR_CLUSTER=$2

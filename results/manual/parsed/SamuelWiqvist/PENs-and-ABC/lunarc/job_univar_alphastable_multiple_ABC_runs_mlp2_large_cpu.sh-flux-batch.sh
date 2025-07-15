@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-blackbean-3581
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-motorcycle-2629
+#FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load OpenMPI/2.1.2

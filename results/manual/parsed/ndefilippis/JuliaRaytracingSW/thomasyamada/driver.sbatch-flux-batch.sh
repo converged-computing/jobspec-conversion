@@ -2,7 +2,7 @@
 #FLUX: --job-name=thomasyamada_simulation
 #FLUX: -c=36
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NUM_JULIA_THREADS='`nproc`'
 

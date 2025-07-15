@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hope-9082
+#FLUX: --job-name=blank-arm-4632
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PE_MPICH_GTL_DIR_amd_gfx90a='-L${CRAY_MPICH_ROOTDIR}/gtl/lib'
 export PE_MPICH_GTL_LIBS_amd_gfx90a='-lmpi_gtl_hsa'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-bike-6926
+#FLUX: --job-name=crusty-soup-8366
 #FLUX: -N=8
 #FLUX: --queue=cm2_std
 #FLUX: -t=2400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module unload intel-mpi/2019-intel

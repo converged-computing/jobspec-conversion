@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-salad-7633
+#FLUX: --job-name=fat-fudge-5568
 #FLUX: -n=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euv
 module load interproscan

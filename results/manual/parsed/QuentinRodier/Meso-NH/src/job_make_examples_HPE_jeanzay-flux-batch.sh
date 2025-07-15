@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-sundae-3531
+#FLUX: --job-name=red-puppy-3447
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MONORUN='Exec srun -l -n 1 --export=ALL numabind_core_slurm'
 export MPIRUN='Exec srun -l -n 4 --export=ALL numabind_core_slurm'

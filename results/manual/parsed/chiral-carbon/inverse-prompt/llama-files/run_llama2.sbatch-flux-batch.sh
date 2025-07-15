@@ -2,7 +2,7 @@
 #FLUX: --job-name=run_llama2
 #FLUX: -N=2
 #FLUX: -t=87120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOGLEVEL='INFO'
 export NCCL_DEBUG='WARN'

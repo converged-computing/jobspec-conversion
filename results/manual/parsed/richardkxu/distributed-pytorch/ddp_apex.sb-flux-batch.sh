@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="ddl_imagenet"
+#FLUX: --job-name=ddl_imagenet
 #FLUX: -N=2
 #FLUX: -c=40
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MASTER=`/bin/hostname -s`
 MASTER_IP=`/bin/hostname -i`

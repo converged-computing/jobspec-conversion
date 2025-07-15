@@ -2,7 +2,7 @@
 #FLUX: --job-name=setDevice_acc
 #FLUX: --queue=dev-g
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CrayEnv
 module load PrgEnv-cray

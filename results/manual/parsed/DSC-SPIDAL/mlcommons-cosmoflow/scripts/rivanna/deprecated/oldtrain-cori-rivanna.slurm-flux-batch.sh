@@ -2,7 +2,7 @@
 #FLUX: --job-name=train-cosmoflow
 #FLUX: --queue=bii-gpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SIF_DIR='/scratch/$USER/cosmoflow'
 export USER_CONTAINER_DIR='/scratch/$USER/.singularity'

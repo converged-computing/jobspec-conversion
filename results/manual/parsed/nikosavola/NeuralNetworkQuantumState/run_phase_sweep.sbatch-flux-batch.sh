@@ -2,7 +2,7 @@
 #FLUX: --job-name=nnqs_phase_sweep
 #FLUX: -c=4
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda gcc openmpi
 pip install --upgrade "jax[cpu]" "netket[mpi]" typing-extensions

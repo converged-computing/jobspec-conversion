@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-pancake-4662
+#FLUX: --job-name=blank-muffin-2409
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

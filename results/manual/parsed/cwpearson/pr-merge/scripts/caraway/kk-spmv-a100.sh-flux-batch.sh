@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-chip-0695
+#FLUX: --job-name=fugly-chip-0994
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 shopt -s extglob
 ROOT=/home/cwpears/repos/pr-merge

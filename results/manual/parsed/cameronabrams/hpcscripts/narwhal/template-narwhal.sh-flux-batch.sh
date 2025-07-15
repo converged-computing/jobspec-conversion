@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-butter-6616
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-peanut-5210
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cameronabrams/hpcscripts/narwhal/template-narwhal.sh

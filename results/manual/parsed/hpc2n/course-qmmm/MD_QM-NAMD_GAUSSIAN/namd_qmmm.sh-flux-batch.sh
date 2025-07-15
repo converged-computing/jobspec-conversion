@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-pancake-8938
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-kerfuffle-8106
+#FLUX: --urgency=16
 
 ml purge  > /dev/null 2>&1 
 ml gaussian/16.C.01-AVX2

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=new_exp1
 #FLUX: --queue=normal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add openmind/singularity/3.4.1
 offset_array=(11088 11488 11888 12288 12688)

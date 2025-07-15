@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-egg-6558
-#FLUX: --priority=16
+#FLUX: --job-name=tart-avocado-8640
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ameroyer/SIC/OAR/oar.sh

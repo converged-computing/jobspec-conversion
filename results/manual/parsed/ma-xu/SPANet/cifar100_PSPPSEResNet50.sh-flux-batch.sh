@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-leopard-0025
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-staircase-8385
+#FLUX: --urgency=16
 
 module load cuda/75/blas/7.5.18
 module load cuda/75/fft/7.5.18

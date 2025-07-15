@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cinnamonbun-4536
+#FLUX: --job-name=goodbye-leader-8773
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CONTNAME='${SLURM_JOB_ID}'
 export DOCKEREXEC='nvidia-docker run --rm --net=host --uts=host --ipc=host --ulimit stack=67108864 --ulimit memlock=-1 --security-opt seccomp=unconfined  $IBDEVICES'

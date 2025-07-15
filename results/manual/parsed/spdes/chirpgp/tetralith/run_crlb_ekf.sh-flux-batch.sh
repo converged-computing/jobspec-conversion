@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-parrot-3378
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-chip-4175
+#FLUX: --urgency=16
 
 lam=$1
 b=$2

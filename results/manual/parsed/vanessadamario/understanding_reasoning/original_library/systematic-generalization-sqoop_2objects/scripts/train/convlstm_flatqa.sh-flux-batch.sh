@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ConvLSTM_1lhs
 #FLUX: --queue=normal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python add clustername/singularity/3.4.1
 singularity exec -B /om:/om --nv path_singularity_tensorflow2.simg \

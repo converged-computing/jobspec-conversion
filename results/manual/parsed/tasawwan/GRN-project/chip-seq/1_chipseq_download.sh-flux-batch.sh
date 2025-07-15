@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-blackbean-7275
-#FLUX: --priority=16
+#FLUX: --job-name=arid-chair-3872
+#FLUX: --urgency=16
 
 mkdir chipseq_data
 samples=(

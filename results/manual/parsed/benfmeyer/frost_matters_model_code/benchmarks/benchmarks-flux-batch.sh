@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lamp-3874
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-puppy-4593
+#FLUX: --urgency=16
 
 cmake_command="cmake -D CMAKE_BUILD_TYPE=Release"
 make_command="make -j2"

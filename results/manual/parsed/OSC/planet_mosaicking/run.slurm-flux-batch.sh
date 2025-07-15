@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-underoos-0013
+#FLUX: --job-name=grated-hope-0402
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/users/PZS0530/skhuvis/opt/mambaforge/22.9.0-2/bin:$PATH #mamba'
 export PYTHONUNBUFFERED='TRUE'

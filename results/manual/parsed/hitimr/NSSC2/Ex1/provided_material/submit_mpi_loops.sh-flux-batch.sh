@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-taco-0508
+#FLUX: --job-name=boopy-eagle-3328
 #FLUX: --exclusive
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if command -v sinfo  2>/dev/null # if on cluster
 then

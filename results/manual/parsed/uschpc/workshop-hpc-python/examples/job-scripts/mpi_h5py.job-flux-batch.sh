@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-rabbit-5086
+#FLUX: --job-name=delicious-itch-8258
 #FLUX: -n=16
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module purge

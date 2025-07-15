@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-malarkey-7935
+#FLUX: --job-name=joyous-fork-1475
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir -p bemchmark_results
 module load module load nvidia_sdk/nvhpc/23.5

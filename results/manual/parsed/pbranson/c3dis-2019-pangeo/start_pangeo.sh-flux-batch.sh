@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pancake-6652
+#FLUX: --job-name=outstanding-general-8614
 #FLUX: -c=4
 #FLUX: --queue=workq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/group/pawsey0106/miniconda3/bin:$PATH'
 export XDG_RUNTIME_DIR=''

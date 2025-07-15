@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lettuce-0343
+#FLUX: --job-name=spicy-lettuce-9779
 #FLUX: -N=10
 #FLUX: --exclusive
 #FLUX: --queue=bii
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RADICAL_LOG_LVL='DEBUG'
 export RADICAL_PROFILE='TRUE'

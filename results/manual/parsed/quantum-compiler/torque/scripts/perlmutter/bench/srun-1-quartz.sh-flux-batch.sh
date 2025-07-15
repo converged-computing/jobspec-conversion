@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-squidward-4886
-#FLUX: --priority=16
+#FLUX: --job-name=placid-general-6651
+#FLUX: --urgency=16
 
 export PATH='$PATH:/global/homes/m/mingkuan/torque/deps/quartz/external/HiGHS/build/bin'
 export MPICH_GPU_SUPPORT_ENABLED='1'

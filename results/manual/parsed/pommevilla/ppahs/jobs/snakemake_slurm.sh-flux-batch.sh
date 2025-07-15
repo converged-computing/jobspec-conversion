@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ppahs
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /project/fsepru/paul.villanueva/repos/ppahs
 source /home/${USER}/.bashrc

@@ -2,7 +2,7 @@
 #FLUX: --job-name=train
 #FLUX: --queue=medium
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 nvidia-smi

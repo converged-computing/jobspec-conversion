@@ -4,7 +4,7 @@
 #FLUX: -n=2
 #FLUX: -c=48
 #FLUX: -t=115200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='true'

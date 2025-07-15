@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-fork-3045
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-cattywampus-4719
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'
 export PYTHONPATH='/n/holyscratch01/jacob_lab/lestrada/IMI/CH4-boundary-condition-scripts'

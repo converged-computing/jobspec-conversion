@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=__job_name__
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SCRIPTS_DIR="__scripts_dir__"
 WORK_DIR="__working_dir__"

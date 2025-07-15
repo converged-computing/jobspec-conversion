@@ -4,7 +4,7 @@
 #FLUX: -n=256
 #FLUX: --queue=large
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load intel-oneapi-compilers-classic/2021.6.0 intel-oneapi-mpi/2021.6.0 intel-oneapi-mkl/2022.1.0

@@ -2,7 +2,7 @@
 #FLUX: --job-name=2_7_scrape
 #FLUX: -c=3
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ "$HOSTNAME" != "boston-2-7" ]; then
     echo "Wrong host $HOSTNAME, exiting"

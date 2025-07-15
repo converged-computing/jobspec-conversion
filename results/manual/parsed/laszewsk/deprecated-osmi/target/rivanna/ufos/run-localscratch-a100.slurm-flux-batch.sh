@@ -2,7 +2,7 @@
 #FLUX: --job-name=osmi-a100-localscratch
 #FLUX: --queue=bii-gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BASE='/localscratch'
 export RUN_DIR='$BASE/$USER/osmi'

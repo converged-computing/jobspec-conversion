@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-leopard-5381
+#FLUX: --job-name=crusty-soup-1679
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export FOR_IGNORE_EXCEPTIONS='1'

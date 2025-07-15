@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-motorcycle-6381
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-cinnamonbun-5585
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/A-NGJ/deeplearning2022-footandball/run_detector.sh

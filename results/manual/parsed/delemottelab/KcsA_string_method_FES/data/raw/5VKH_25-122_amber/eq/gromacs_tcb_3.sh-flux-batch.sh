@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lemon-2749
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-earthworm-1074
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.2

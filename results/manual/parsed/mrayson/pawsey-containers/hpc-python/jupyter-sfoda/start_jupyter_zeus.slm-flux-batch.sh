@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=workq
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='$MYSCRATCH/singularity'
 export SINGULARITY_TMPDIR='$MYSCRATCH/singularity'

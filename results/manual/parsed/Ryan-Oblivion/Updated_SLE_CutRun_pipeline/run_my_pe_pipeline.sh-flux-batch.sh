@@ -2,7 +2,7 @@
 #FLUX: --job-name=best_gg
 #FLUX: --queue=cm
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load nextflow/23.04.1

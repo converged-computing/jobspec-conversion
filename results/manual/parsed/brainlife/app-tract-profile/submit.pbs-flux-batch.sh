@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-onion-9877
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-car-4408
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-tract-profile/submit.pbs

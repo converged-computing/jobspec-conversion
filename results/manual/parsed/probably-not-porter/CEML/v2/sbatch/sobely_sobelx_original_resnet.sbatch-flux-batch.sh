@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=CEML_sobely_sobelx_original_resnet
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATA_DIR="../images/dogs_cats_parent/dogs_cats-sobel_x-sobel_y-composit"
 CYCLES=20

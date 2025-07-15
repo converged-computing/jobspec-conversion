@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-mango-0830
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-peanut-butter-5497
+#FLUX: --urgency=16
 
 export JULIA_MPIEXEC='srun'
 export JULIA_EXCLUSIVE='1'

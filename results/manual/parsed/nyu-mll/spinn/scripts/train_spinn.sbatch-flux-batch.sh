@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-citrus-1892
+#FLUX: --job-name=faux-leader-7596
 #FLUX: --queue=mhealth,...
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IFS=';'
 

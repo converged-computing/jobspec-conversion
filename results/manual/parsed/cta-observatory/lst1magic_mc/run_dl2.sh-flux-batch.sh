@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-banana-1287
-#FLUX: --priority=16
+#FLUX: --job-name=grated-bits-5989
+#FLUX: --urgency=16
 
 here=$(pwd)
 configbase=${here}/config_base.yaml

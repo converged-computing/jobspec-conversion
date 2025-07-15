@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-snack-6033
+#FLUX: --job-name=quirky-diablo-5445
 #FLUX: -c=3
 #FLUX: --queue=gpuhgx
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load palma/2021b
 module load Singularity

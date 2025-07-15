@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-latke-3748
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-toaster-0392
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jbisits/CabbelingExperiments/animation.sh

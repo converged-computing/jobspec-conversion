@@ -2,7 +2,7 @@
 #FLUX: --job-name=lidar_default
 #FLUX: --queue=gpu-2080ti
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HANNAH_DATA_FOLDER='/mnt/qb/datasets/STAGING/bringmann/datasets/'
 export EXPERIMENT='baseline'

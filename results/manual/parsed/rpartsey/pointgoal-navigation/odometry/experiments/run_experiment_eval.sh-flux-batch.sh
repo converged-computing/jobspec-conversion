@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=devlab
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GLOG_minloglevel='2'
 export MAGNUM_LOG='quiet'

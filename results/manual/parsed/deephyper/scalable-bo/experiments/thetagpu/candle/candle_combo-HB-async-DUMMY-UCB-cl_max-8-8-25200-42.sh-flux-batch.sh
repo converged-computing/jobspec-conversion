@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lettuce-9853
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-lemur-0288
+#FLUX: --urgency=16
 

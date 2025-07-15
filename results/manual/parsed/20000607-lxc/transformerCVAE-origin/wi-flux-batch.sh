@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=wi
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /scratch/zt2080/shizhe/eres/transformerCVAE-origin
 python train.py\

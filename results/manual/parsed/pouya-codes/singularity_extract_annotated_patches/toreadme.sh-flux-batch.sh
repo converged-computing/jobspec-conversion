@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=Patch Extraction
-#FLUX: --priority=16
+#FLUX: --job-name=Patch
+#FLUX: --urgency=16
 
 echo """# Extract Annotated Patches
 \`\`\`

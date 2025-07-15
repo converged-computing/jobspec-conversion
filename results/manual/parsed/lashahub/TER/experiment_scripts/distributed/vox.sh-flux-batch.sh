@@ -2,7 +2,7 @@
 #FLUX: --job-name=mclap
 #FLUX: --exclusive
 #FLUX: --queue=all
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

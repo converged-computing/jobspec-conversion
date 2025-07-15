@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-motorcycle-6989
+#FLUX: --job-name=wobbly-bicycle-4719
 #FLUX: -c=10
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load StdEnv/2020  gcc/9.3.0  cuda/11.7

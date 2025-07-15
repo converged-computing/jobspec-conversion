@@ -2,7 +2,7 @@
 #FLUX: --job-name=letizias-job
 #FLUX: -c=12
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 args="${@}"
 module load daint-gpu

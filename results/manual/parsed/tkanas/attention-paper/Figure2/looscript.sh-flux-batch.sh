@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-eagle-4036
-#FLUX: --priority=16
+#FLUX: --job-name=arid-earthworm-5732
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tkanas/attention-paper/Figure2/looscript.sh

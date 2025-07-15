@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-salad-7468
+#FLUX: --job-name=boopy-salad-5512
 #FLUX: -c=12
-#FLUX: --queue=develbooster --gres=gpu:4
+#FLUX: --queue=develbooster
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

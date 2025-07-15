@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-mango-0428
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-toaster-3677
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PYTHONPATH='$PYTHONPATH":"$SW"/ShNAPr'

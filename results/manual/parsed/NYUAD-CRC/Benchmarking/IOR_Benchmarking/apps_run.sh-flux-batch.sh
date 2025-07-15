@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cinnamonbun-4367
+#FLUX: --job-name=salted-dog-7943
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sleep 20
 outdir=$1

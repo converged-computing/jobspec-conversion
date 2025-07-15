@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lettuce-9389
+#FLUX: --job-name=blank-snack-7716
 #FLUX: --exclusive
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 

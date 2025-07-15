@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=IAD
 #FLUX: -t=15000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORKDIR=$HOME/thesis/train/trainer #main script
 RUNDIR= #relative dir of config and output

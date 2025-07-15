@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pancake-5598
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-hope-2418
+#FLUX: --urgency=16
 
 export SPACK_ROOT='${INSTALL_DIR}/spack'
 

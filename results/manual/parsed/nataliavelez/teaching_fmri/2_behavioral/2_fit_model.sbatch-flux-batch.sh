@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-chair-3033
-#FLUX: --priority=16
+#FLUX: --job-name=arid-eagle-0072
+#FLUX: --urgency=16
 
 module load ncf
 module load Anaconda/5.0.1-fasrc01

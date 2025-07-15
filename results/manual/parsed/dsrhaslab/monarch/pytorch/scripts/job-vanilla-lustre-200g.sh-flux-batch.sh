@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-malarkey-9895
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-platanos-8207
+#FLUX: --urgency=16
 
 export CC='/opt/apps/gcc/8.3.0/bin/gcc'
 

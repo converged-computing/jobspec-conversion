@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=celeba_train
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ..
 python train_lenet_.py --dataset celeba --seed 2018 --n_classes 2 \

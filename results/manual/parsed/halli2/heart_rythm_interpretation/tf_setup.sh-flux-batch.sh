@@ -2,7 +2,7 @@
 #FLUX: --job-name=tf_setup
 #FLUX: --queue=gpuA100
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 uenv verbose cuda-11.8.0 cudnn-11.x-8.6.0
 uenv verbose TensorRT-11.x-8.6-8.5.3.1

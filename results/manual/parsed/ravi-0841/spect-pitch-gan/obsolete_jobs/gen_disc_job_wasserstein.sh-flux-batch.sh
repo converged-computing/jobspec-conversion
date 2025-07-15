@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-despacito-1570
+#FLUX: --job-name=muffled-milkshake-7424
 #FLUX: -c=6
 #FLUX: --queue=gpuk80
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_HOME='$PWD:/home/$USER'
 

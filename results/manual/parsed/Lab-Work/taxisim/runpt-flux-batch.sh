@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-animal-6501
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-earthworm-5630
+#FLUX: --urgency=16
 
 export PATH='$PATH:/opt/apps/intel14/mvapich2_2_0/python/2.7.6/lib/python2.7/site-packages/mpi4py/bin'
 export MV2_SMP_USE_LIMIC2='0'

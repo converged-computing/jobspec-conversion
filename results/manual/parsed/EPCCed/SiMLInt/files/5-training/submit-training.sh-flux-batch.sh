@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-soup-8837
+#FLUX: --job-name=anxious-peanut-9486
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORK='${HOME/home/work}'
 

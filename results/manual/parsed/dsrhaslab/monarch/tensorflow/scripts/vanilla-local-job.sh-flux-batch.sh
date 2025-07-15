@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-leg-3250
-#FLUX: --priority=16
+#FLUX: --job-name=arid-omelette-6045
+#FLUX: --urgency=16
 
 export CC='/opt/apps/gcc/8.3.0/bin/gcc'
 

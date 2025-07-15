@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-knife-9871
+#FLUX: --job-name=astute-rabbit-5129
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_PORT='$RANDOM'
 

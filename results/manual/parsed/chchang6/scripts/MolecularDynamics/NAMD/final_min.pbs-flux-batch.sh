@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-bicycle-2222
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-truffle-9206
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/chchang6/scripts/MolecularDynamics/NAMD/final_min.pbs

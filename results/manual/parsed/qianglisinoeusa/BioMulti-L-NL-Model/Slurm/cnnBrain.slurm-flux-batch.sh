@@ -3,7 +3,7 @@
 #FLUX: -c=28
 #FLUX: --queue=LADON
 #FLUX: -t=362340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda3
 source activate cnn

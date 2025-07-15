@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-eagle-0344
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-gato-1328
+#FLUX: --urgency=16
 
 export CC='/opt/apps/gcc/8.3.0/bin/gcc'
 

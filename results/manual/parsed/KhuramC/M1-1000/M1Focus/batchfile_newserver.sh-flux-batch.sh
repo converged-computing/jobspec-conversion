@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-butter-0208
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-leader-0678
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

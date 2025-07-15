@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=normal
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export gen='python ../generate_path_files.py -p ../paths.yml -s ../settings.yml -e ../event_list'
 export UCX_TLS='knem,dc_x'

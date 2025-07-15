@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-kerfuffle-2487
+#FLUX: --job-name=lovable-motorcycle-6416
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 GVCFDIR=$1

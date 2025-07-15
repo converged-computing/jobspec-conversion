@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source  /d/hpc/projects/FRI/ldragar/miniconda3/etc/profile.d/conda.sh
 conda activate /d/hpc/projects/FRI/ldragar/pytorch_env

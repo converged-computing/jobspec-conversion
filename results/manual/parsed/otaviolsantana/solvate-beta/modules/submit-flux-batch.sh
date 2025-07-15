@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-puppy-7266
-#FLUX: --priority=16
+#FLUX: --job-name=placid-poodle-6916
+#FLUX: --urgency=16
 
 TEST_SLUR=`echo $(which sbatch)`     # SLURM System
 TEST_PBSS=`echo $(which qsub)`       # Torque/PBS (Portable Batch System)

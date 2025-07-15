@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-punk-9827
+#FLUX: --job-name=crusty-cat-9052
 #FLUX: -c=8
 #FLUX: --queue=day
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 readonly THREADS=8
 readonly IDENTITY=0.97

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-poodle-0753
+#FLUX: --job-name=milky-house-8040
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load bioinfo/Snakemake/7.20.0 # snakemake depending on your HPC

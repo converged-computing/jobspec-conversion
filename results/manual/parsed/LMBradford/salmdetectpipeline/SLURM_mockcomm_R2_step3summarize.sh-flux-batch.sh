@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-toaster-1903
+#FLUX: --job-name=expressive-carrot-6516
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export R_LIBS='~/.local/R/$EBVERSIONR/'
 

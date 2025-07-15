@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-hope-7124
+#FLUX: --job-name=quirky-nalgas-9688
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sleep 5s
 module load singularity

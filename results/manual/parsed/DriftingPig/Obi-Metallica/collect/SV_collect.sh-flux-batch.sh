@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-parsnip-8856
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-leopard-7256
+#FLUX: --urgency=16
 
 export KMP_AFFINITY='disabled'
 export MPICH_GNI_FORK_MODE='FULLCOPY'

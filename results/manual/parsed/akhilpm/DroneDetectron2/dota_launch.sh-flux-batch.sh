@@ -2,7 +2,7 @@
 #FLUX: --job-name=dota_train
 #FLUX: -c=4
 #FLUX: -t=35400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc python cuda/11.4 opencv/4.5.5
 source ~/envs/detectron2/bin/activate

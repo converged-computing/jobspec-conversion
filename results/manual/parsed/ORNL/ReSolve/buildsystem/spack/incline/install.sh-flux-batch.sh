@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-rabbit-9985
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-omelette-0057
+#FLUX: --urgency=16
 
 export HTTPS_PROXY='http://proxy01.pnl.gov:3128'
 export https_proxy='http://proxy01.pnl.gov:3128'

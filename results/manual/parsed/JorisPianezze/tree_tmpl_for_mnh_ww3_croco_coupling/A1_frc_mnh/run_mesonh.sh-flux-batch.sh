@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-nalgas-9573
+#FLUX: --job-name=muffled-poodle-9562
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ulimit -s unlimited
 ulimit -c 0

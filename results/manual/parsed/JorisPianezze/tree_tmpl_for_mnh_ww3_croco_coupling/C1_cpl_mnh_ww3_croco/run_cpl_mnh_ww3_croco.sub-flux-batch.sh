@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-toaster-6819
+#FLUX: --job-name=stinky-bike-0321
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export dir_exe_croco='/home/piaj/03_workdir/2J_devel_MNH_WW3_CROCO/models/croco/exe_IROISE_1core_CPLOA_CPLOW'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-soup-4790
-#FLUX: --priority=16
+#FLUX: --job-name=hello-knife-6823
+#FLUX: --urgency=16
 
 module load cudatoolkit/10.0 cudnn/cuda-10.0/7.3.1 anaconda3/5.3.1
 . activate 3dunet

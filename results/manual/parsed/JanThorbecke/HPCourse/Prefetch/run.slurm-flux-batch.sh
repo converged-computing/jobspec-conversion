@@ -2,7 +2,7 @@
 #FLUX: --job-name=prefetch
 #FLUX: --exclusive
 #FLUX: --queue=defq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load userspace/custom opt/all userspace/all

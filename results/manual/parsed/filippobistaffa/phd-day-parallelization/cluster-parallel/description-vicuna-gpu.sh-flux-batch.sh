@@ -3,7 +3,7 @@
 #FLUX: -c=32
 #FLUX: --queue=gpu
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load cuda@11.8.0
 spack load --first py-pandas

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-signal-2245
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-destiny-2507
+#FLUX: --urgency=16
 
 read_master_config_file() {
 fpath=$1

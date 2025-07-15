@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=NN
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml CUDA
 echo; export; echo;  nvidia-smi; echo

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-underoos-7446
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-kitty-8351
+#FLUX: --urgency=16
 
 workflow_name="04-fit-butterfly"
 module load R/4.2.0

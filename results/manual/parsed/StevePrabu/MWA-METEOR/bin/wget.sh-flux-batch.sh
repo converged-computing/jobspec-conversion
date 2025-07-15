@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-truffle-7837
+#FLUX: --job-name=hello-eagle-1423
 #FLUX: -n=6
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 start=`date +%s`
 module load singularity

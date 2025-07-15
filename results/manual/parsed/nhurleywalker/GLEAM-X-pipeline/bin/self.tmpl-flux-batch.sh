@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-punk-0923
+#FLUX: --job-name=hanky-underoos-8955
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 TASKLINE
 pipeuser=PIPEUSER

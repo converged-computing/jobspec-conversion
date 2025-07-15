@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-chip-5154
+#FLUX: --job-name=wobbly-knife-1657
 #FLUX: -N=2
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge > /dev/null 2>&1
 module use /opt/site/easybuild/modules/all/Core

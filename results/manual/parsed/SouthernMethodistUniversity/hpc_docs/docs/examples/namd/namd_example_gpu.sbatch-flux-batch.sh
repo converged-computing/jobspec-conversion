@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-punk-6089
+#FLUX: --job-name=creamy-blackbean-7134
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load namd/2.12/gpu

@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: -n=20
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load gcc/7.3.0

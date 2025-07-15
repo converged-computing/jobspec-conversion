@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-soup-8585
+#FLUX: --job-name=chocolate-bike-4168
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='1'

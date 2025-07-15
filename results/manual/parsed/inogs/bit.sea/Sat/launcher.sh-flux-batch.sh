@@ -2,7 +2,7 @@
 #FLUX: --job-name=SAT
 #FLUX: --queue=g100_meteo_prod
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_TLS='ib'
 export SLURM_PMIX_DIRECT_CONN_UCX='false'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-frito-3411
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-house-3868
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/nas/longleaf/home/wth12380/.conda/envs/RTensorFlow/lib/python3.10/site-packages/tensorrt_libs:$LD_LIBRARY_PATH'
 

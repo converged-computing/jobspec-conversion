@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-leopard-8834
+#FLUX: --job-name=stinky-salad-6853
 #FLUX: --queue=normal
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 remote_name="${USER}_gdrive_backup"
 drive_path='OAK_backup'

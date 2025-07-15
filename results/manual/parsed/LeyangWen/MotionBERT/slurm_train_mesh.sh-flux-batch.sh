@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=spgpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 my_job_header
 module load python3.10-anaconda

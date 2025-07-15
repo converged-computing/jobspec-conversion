@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="twi_infer_t"
+#FLUX: --job-name=twi_infer_t
 #FLUX: -c=16
 #FLUX: --gpus-per-task=4
 #FLUX: --queue=gpuA100x4
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 current_date_time="`date +%Y%m%d%H%M%S`"
 echo $current_date_time

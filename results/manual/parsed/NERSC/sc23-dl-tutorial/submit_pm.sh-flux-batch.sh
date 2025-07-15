@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-hope-8009
+#FLUX: --job-name=evasive-cinnamonbun-1368
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_MR_CACHE_MONITOR='userfaultfd'
 export HDF5_USE_FILE_LOCKING='FALSE'

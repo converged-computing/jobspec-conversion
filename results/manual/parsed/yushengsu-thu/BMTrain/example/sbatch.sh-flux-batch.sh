@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cpm2-test
 #FLUX: --queue=rtx2080
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MASTER_PORT=30123
 MASTER_HOST=$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)

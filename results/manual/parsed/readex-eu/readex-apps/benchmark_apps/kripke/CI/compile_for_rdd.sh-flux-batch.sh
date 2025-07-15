@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-platanos-5834
+#FLUX: --job-name=quirky-animal-1771
 #FLUX: -c=24
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CXX='scorep --online-access --user --mpp=mpi --thread=none --nomemory $FILTER_GCC $READEX_CXX $FILTER_ICC'
 

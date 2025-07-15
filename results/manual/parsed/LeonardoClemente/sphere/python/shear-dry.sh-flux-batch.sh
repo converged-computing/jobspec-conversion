@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-train-4118
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-cat-0100
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/shear-dry.sh

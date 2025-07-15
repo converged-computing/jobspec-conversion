@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-staircase-0853
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-chair-1982
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$HOME/visualization/mesa/lib'
 export PATH='$HOME/visualization/mesa/bin:$PATH'

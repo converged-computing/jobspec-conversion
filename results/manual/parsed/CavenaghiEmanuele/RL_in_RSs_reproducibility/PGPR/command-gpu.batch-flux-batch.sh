@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=PGPR
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda-11.2.1
 module load anaconda3

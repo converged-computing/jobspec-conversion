@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-ricecake-3677
+#FLUX: --job-name=expensive-carrot-2379
 #FLUX: -c=16
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir -p logs
 PYTHON_VIRTUAL_ENVIRONMENT=wavprompt

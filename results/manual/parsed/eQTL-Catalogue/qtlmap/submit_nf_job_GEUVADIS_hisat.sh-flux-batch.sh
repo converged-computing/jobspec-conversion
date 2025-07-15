@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="HISAT_qtlmap"
+#FLUX: --job-name=HISAT_qtlmap
 #FLUX: --queue=amd
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load java-1.8.0_40
 module load nextflow

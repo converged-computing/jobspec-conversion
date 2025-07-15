@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-destiny-6670
+#FLUX: --job-name=outstanding-cat-6708
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 numThreads=8
 module load bedtools

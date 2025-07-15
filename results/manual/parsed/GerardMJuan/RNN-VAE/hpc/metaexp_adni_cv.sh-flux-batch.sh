@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-destiny-2344
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-poodle-5227
+#FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh
 source /etc/profile.d/easybuild.sh

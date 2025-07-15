@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-platanos-0618
+#FLUX: --job-name=lovable-chair-7349
 #FLUX: -c=4
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/3/2021.11

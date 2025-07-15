@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-ricecake-3685
+#FLUX: --job-name=bloated-arm-3315
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

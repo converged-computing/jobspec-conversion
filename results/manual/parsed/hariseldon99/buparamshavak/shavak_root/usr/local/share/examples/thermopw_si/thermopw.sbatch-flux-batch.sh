@@ -3,7 +3,7 @@
 #FLUX: -n=16
 #FLUX: --queue=GPU
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PSEUDO_DIR_HOST='/usr/share/espresso/pseudo/'
 export PSEUDO_DIR_IMG='/pseudo '

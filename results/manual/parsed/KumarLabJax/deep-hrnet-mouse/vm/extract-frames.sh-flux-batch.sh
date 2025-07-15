@@ -2,7 +2,7 @@
 #FLUX: --job-name=extract-frames
 #FLUX: -c=4
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/opt/singularity/bin:${PATH}'
 

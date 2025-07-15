@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lizard-1110
+#FLUX: --job-name=hairy-lentil-4181
 #FLUX: -c=8
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export MPICH_OFI_NIC_POLICY='NUMA'

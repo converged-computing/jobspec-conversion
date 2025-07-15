@@ -2,7 +2,7 @@
 #FLUX: --job-name=OPT-1
 #FLUX: --queue=ccm_gillespi
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /opt/shared/slurm/templates/libexec/common.sh
 vpkg_require reaxff/2.0.1:intel

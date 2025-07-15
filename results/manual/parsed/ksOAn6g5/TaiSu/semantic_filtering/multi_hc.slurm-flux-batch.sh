@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: -t=7200000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source env_hc_zjx.sh
 which python3

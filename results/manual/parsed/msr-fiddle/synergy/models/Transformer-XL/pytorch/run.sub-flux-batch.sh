@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-poodle-3675
+#FLUX: --job-name=creamy-train-1129
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DGXNSOCKET='2'
 export DGXSOCKETCORES='24'

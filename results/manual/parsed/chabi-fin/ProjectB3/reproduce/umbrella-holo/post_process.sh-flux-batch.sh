@@ -2,7 +2,7 @@
 #FLUX: --job-name=cat_drive
 #FLUX: --queue=normal
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add bio/GROMACS/2021.5-foss-2021b-CUDA-11.4.1-PLUMED-2.8.0
 MDP="/scratch/hpc-prf-cpdallo/2d_holo/MDP"

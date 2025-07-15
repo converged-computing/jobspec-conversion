@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-arm-7089
+#FLUX: --job-name=astute-plant-3100
 #FLUX: -c=2
 #FLUX: --queue=batch
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate upd_pt
 nvidia-smi

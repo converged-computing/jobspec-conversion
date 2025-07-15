@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sim_proc_0_5
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load buildtool-easybuild/4.5.3-nsce8837e7
 module load foss/2020b

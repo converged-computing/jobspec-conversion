@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-spoon-1479
-#FLUX: --priority=16
+#FLUX: --job-name=grated-buttface-8466
+#FLUX: --urgency=16
 
 module purge
 module load intel/19.0.5-fasrc01

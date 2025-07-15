@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-bike-1353
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-toaster-1069
+#FLUX: --urgency=16
 
 export GLOO_SOCKET_IFNAME='eth0'
 

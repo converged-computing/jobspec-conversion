@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-chair-6211
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-latke-6040
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/wahello/launcher-scripts/bash/MPI/mpi_launcher.sh

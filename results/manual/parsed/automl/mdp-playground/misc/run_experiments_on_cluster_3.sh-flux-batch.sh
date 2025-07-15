@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-parrot-1872
-#FLUX: --priority=16
+#FLUX: --job-name=grated-banana-3846
+#FLUX: --urgency=16
 
 export EXP_NAME='a3c_seq_del' # Ideally contains Area of research + algorithm + dataset # Could just pass this as job name?'
 

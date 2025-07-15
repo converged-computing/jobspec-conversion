@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-puppy-0667
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-cattywampus-4599
+#FLUX: --urgency=16
 
 export FS_ROOT='/tmp/fs_`id -u`'
 

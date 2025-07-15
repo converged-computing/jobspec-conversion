@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-chip-0410
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-cherry-6697
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/spundhir/RNA-Seq/rnaSeqAna.sh

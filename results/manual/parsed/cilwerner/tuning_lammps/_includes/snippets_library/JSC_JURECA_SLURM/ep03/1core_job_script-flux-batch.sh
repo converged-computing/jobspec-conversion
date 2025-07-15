@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hobbit-2720
+#FLUX: --job-name=goodbye-plant-9858
 #FLUX: --queue=batch
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module use /usr/local/software/jureca/OtherStages

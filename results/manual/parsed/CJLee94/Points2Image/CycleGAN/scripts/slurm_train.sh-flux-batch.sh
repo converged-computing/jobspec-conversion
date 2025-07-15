@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-squidward-2591
+#FLUX: --job-name=grated-onion-6046
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/ext3/miniconda3/bin:$PATH'
 

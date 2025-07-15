@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-sundae-6679
+#FLUX: --job-name=ornery-peanut-1016
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HYDRA_FULL_ERROR='1'
 

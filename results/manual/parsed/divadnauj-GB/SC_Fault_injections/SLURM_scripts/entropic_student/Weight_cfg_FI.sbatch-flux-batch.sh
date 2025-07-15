@@ -2,7 +2,7 @@
 #FLUX: --job-name=WeightsSplit
 #FLUX: --queue=cuda
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/miniconda3/bin/activate
 conda deactivate

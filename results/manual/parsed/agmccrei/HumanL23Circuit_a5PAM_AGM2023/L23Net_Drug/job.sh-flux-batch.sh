@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name='LFPy Circuit'
+#FLUX: --job-name=LFPy Circuit
 #FLUX: -N=10
 #FLUX: -t=1500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load NiaEnv/2018a
 module load intel/2018.2

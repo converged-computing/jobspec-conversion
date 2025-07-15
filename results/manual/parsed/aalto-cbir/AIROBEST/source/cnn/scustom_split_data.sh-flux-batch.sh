@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-butter-0999
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-house-7316
+#FLUX: --urgency=16
 
 id -a
 module purge

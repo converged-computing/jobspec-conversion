@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-carrot-7889
+#FLUX: --job-name=stinky-nalgas-2936
 #FLUX: --queue=batch
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.1.105
 module load cudnn/7.5.0

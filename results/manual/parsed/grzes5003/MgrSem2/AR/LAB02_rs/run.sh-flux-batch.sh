@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-onion-6055
+#FLUX: --job-name=bumfuzzled-lamp-2577
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ -z "$SCRIPT" ]; then
   TODAY=$(date +"%d_%H_%M")

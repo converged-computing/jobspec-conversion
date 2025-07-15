@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-caramel-1919
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-bits-6454
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'
 export OMP_PLACES='threads'

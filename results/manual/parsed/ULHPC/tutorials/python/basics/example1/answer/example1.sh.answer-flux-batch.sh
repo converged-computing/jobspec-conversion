@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=example1
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load vis/gnuplot
 python example1.py

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-hippo-1768
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-lamp-1496
+#FLUX: --urgency=16
 
 export PYTHONPATH='$HOME/.local/lib/python3.6/site-packages:$PYTHONPATH'
 

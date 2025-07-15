@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-leg-6035
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-fudge-1436
+#FLUX: --urgency=16
 
 module purge
 module load julia/1.8.5

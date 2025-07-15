@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-platanos-4829
+#FLUX: --job-name=nerdy-arm-2780
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load centos7.3/lib/cuda/10.1

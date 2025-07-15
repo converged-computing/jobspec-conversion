@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="array_job"
+#FLUX: --job-name=array_job
 #FLUX: --exclusive
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export EXE='invertp.py'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-knife-3212
-#FLUX: --queue=gpua30                           # queue name
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-bike-6756
+#FLUX: --queue=gpua30
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$omp_threads'
 export OMP_PROC_BIND='spread'

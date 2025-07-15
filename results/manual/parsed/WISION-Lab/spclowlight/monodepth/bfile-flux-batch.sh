@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=batch_default
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/3
 bootstrap_conda

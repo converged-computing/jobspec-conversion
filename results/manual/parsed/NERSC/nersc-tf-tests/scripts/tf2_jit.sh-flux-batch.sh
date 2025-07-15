@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-punk-6388
+#FLUX: --job-name=red-squidward-9181
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='${NCCL_DEBUG:-WARN}'
 export TF_CPP_MIN_LOG_LEVEL='${TF_CPP_MIN_LOG_LEVEL:-0} #3'

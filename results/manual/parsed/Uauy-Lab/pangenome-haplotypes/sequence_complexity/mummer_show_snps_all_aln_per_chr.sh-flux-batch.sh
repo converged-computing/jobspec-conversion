@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lemur-6487
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-nalgas-6500
+#FLUX: --urgency=16
 
 CHR_NAME="2B"
 t_id=$SLURM_ARRAY_TASK_ID

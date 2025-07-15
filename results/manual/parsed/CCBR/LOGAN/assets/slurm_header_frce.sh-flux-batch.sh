@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-general-3743
+#FLUX: --job-name=gassy-taco-4790
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow
 NXF_SINGULARITY_CACHEDIR=/mnt/projects/CCBR-Pipelines/SIFs

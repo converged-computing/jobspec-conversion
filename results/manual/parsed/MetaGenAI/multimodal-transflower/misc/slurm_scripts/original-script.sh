@@ -1,37 +1,44 @@
 #!/bin/bash
-#SBATCH --job-name=process_data
-##SBATCH --job-name=resample_demos_tw
-#SBATCH -A imi@cpu
-##SBATCH --qos=qos_gpu-dev
-##SBATCH --partition=gpu_p2
-#SBATCH --ntasks=160
-##SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task=2
-##SBATCH --hint=nomultithread
-#SBATCH --time=20:00:00
-##SBATCH --qos=qos_cpu-dev
-#SBATCH --qos=qos_cpu-t3 
-##SBATCH --output=out.out
-##SBATCH --error=err.err
+#SBATCH --job-name=feature_extraction      # name of job
+#SBATCH --ntasks=6                # total number of MPI processes
+##SBATCH --ntasks-per-node=16       # number of MPI processes per node
+# /!\ Caution, "multithread" in Slurm vocabulary refers to hyperthreading.
+##SBATCH --hint=nomultithread       # 1 MPI process per physical core (no hyperthreading)
+#SBATCH --time=02:00:00            # maximum execution time requested (HH:MM:SS)
+##SBATCH --output=TravailMPI%j.out  # name of output file
+##SBATCH --error=TravailMPI%j.out   # name of error file (here, in common with output)
+#SBATCH --partition=cpu_p1
+#SBATCH --account=imi@cpu
+#SBATCH --mem-per-cpu=1gb
+ 
+# go into the submission directory
+#cd ${SLURM_SUBMIT_DIR}
+export MASTER_PORT=1234
+slurm_nodes=$(scontrol show hostnames $SLURM_JOB_NODELIST)
+echo $slurm_nodes
+export MASTER_ADDRESS=$(echo $slurm_nodes | cut -d' ' -f1)
+echo $MASTER_ADDRESS
 
-
+ 
+# clean out the modules loaded in interactive and inherited by default
 module purge
-#module load pytorch-gpu/py3/1.10.0
-#module load pytorch-cpu/py3/1.7.1
-module load pytorch-gpu/py3/1.8.1
+ 
+# loading modules
+#module load intel-all/19.0.4
+#module load pytorch-gpu/py3/1.8.0
+module load pytorch-cpu/py3/1.7.1
+#module load intel-all/19.0.4
+module load openmpi/4.0.5
+ 
+# echo of launched commands
+set -x
 
-export ROOT_FOLDER=/gpfswork/rech/imi/usc19dv/captionRLenv/
-export DATA_FOLDER=/gpfsscratch/rech/imi/usc19dv/data/UR5/
-export PROCESSED_DATA_FOLDER=/gpfsscratch/rech/imi/usc19dv/data/UR5_processed/
-export ROOT_DIR_MODEL=/gpfswork/rech/imi/usc19dv/mt-lightning/
-export PRETRAINED_FOLDER=/gpfswork/rech/imi/usc19dv/mt-lightning/training/experiments/
-
-
-#srun --wait=0 -n 160 python3 process_data.py --data_folder /gpfsscratch/rech/imi/usc19dv/data/generated_data/ --processed_data_folder /gpfsscratch/rech/imi/usc19dv/data/generated_data_processed/
-#srun --wait=0 -n 160 python3 create_simple_dataset.py --processed_data_folder /gpfsscratch/rech/imi/usc19dv/data/generated_data_processed/
-#srun --wait=0 -n 160 ./feature_extraction/process_tw_data.sh /gpfsscratch/rech/imi/usc19dv/data/generated_data_processed/
-#srun --wait=0 -n 160 python3 process_data.py --data_folder /gpfsscratch/rech/imi/usc19dv/data/UR5/ --processed_data_folder /gpfsscratch/rech/imi/usc19dv/data/UR5_processed/
-#srun --wait=0 -n 160 python3 create_simple_dataset.py --processed_data_folder /gpfsscratch/rech/imi/usc19dv/data/UR5_processed/
-srun --wait=0 -n 160 ./feature_extraction/process_tw_data.sh /gpfsscratch/rech/imi/usc19dv/data/UR5_processed/
-#srun --wait=0 -n 16 python3 inference_mpi_owo.py 
-#srun -n 320 python3 inference_mpi.py --using_model --experiment_name train_transflower_zp5_single_obj_nocol_trim_tw_single_filtered_restore_objs --pretrained_name transflower_zp5_single_obj_nocol_trim_tw_single_filtered --base_filenames_file ${PROCESSED_DATA_FOLDER}base_filenames_single_objs_filtered.txt --save_eval_results --save_sampled_traj --num_repeats 20 --restore_objects
+export n=6
+ 
+# code execution
+#srun -n 16 ./feature_extraction/audio_feature_extraction_test.sh /gpfsscratch/rech/imi/usc19dv/data/aistpp_long_audios/ --replace_existing
+#srun -n 40 -pty bash -c "./feature_extraction/motion_feature_extraction.sh /gpfsscratch/rech/imi/usc19dv/data/dance_combined3 --replace_existing"
+#./feature_extraction/motion_feature_extraction.sh /gpfsscratch/rech/imi/usc19dv/data/dance_combined3 --replace_existing
+#./feature_extraction/motion_feature_extraction.sh /gpfsscratch/rech/imi/usc19dv/data/testing_tmp --replace_existing
+srun -n $n -pty bash -c './feature_extraction/neos_feature_extraction.sh data/dekaworld_alex_guille_neosdata2 --replace_existing'
+#./feature_extraction/motion_feature_extraction.sh /gpfsscratch/rech/imi/usc19dv/data/dance_combined3 --replace_existing

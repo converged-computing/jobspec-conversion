@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-citrus-5360
+#FLUX: --job-name=milky-general-9525
 #FLUX: -n=6
 #FLUX: --queue=amilan
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load intel

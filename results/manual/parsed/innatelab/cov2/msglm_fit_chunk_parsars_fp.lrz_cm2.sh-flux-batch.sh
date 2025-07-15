@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-peas-3759
+#FLUX: --job-name=loopy-spoon-5055
 #FLUX: -N=60
 #FLUX: -c=7
 #FLUX: --queue=cm2_large
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load slurm_setup

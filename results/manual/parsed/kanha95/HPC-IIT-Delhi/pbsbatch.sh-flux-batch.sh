@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-sundae-0598
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-platanos-7864
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kanha95/HPC-IIT-Delhi/pbsbatch.sh

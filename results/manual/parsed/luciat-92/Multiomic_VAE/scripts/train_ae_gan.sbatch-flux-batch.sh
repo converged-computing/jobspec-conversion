@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=gpuq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda11.7/toolkit/11.7.1
 module load cudnn8.5-cuda11.7/8.5.0.96

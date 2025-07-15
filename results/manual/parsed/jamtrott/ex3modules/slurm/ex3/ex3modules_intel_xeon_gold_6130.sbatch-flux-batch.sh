@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="ex3modules_intel_xeon_gold_6130"
+#FLUX: --job-name=ex3modules_intel_xeon_gold_6130
 #FLUX: -c=64
 #FLUX: --queue=xeongold16q
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 JOBS=$((${SLURM_NTASKS}*${SLURM_CPUS_PER_TASK}))
 echo "SLURM_JOB_NAME=${SLURM_JOB_NAME}" >&2

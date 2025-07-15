@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-puppy-9816
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-cattywampus-8001
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/howardchenhd/Syntax-awared-NMT/train.sh

@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load miniconda
 conda activate env_3_8

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-motorcycle-2238
+#FLUX: --job-name=milky-lentil-0800
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 log="gchp.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

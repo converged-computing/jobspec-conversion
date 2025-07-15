@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lentil-4012
+#FLUX: --job-name=butterscotch-squidward-3719
 #FLUX: -N=8
 #FLUX: -n=8
 #FLUX: --exclusive
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 export ARL_DASK_SCHEDULER='${scheduler}:8786'

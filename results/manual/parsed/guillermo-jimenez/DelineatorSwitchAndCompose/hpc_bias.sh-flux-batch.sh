@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-omelette-6842
-#FLUX: --priority=16
+#FLUX: --job-name=placid-underoos-9153
+#FLUX: --urgency=16
 
 ORIGINAL_SLURM_ARRAY_TASK_ID=$SLURM_ARRAY_TASK_ID;
 WINDOW_SIZE=20;

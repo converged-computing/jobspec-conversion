@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-cattywampus-5245
-#FLUX: --priority=16
+#FLUX: --job-name=blank-peas-7612
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate pytorch

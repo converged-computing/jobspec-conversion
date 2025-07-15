@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_MODE='offline'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-fudge-8245
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-leopard-3796
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)
 module purge                               # Removes all modules still loaded

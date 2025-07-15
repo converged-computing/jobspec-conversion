@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-peanut-butter-4969
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-train-0356
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gridapapps/GridapMHD.jl/analysis/gadi/scripts/jobtemplate

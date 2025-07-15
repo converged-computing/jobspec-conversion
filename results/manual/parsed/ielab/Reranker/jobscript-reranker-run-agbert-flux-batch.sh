@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=reranker
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda
 module load tensorflow/2.5.0-py39-cuda112

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-underoos-1574
+#FLUX: --job-name=buttery-eagle-3964
 #FLUX: -c=16
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc blast samtools bedtools bowtie2 python/3.10
 virtualenv --no-download ${SLURM_TMPDIR}/env

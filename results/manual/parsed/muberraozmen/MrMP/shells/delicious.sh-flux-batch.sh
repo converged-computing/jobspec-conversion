@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-kerfuffle-3596
+#FLUX: --job-name=frigid-truffle-7967
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dataset=delicious
 cuda_on=$true

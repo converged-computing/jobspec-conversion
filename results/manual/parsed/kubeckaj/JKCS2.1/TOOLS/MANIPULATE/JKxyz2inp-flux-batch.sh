@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-cinnamonbun-4297
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-snack-8973
+#FLUX: --urgency=16
 
 function help {
   echo "THIS IS HELP:"

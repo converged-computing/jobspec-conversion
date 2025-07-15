@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hippo-1549
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-puppy-1570
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 date

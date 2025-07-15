@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gmx_run      ### job name
+#FLUX: --job-name=gmx_run
 #FLUX: -c=28
 #FLUX: --queue=longfat
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel/19
 module load gromacs/2019.4

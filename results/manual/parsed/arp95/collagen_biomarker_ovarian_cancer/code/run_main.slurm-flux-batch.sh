@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="features9"
+#FLUX: --job-name=features9
 #FLUX: -t=313200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module swap intel gcc
 module load python/3.7.0

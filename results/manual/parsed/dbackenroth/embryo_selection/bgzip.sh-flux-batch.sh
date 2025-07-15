@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-buttface-6048
+#FLUX: --job-name=outstanding-signal-8021
 #FLUX: -t=8400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 parentdir=/vol/sci/bio/data/shai.carmi/db2175/embryo_selection/
 dir=${parentdir}/LIJMC

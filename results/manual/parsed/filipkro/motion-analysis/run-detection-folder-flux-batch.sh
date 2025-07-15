@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-pancake-0970
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-parsnip-2896
+#FLUX: --urgency=16
 
 vid="new-vids"
 cp -r $HOME/motion-analysis $TMPDIR

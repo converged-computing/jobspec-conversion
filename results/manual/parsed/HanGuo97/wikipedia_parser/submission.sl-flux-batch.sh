@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leopard-2457
-#FLUX: --priority=16
+#FLUX: --job-name=tart-chair-8714
+#FLUX: --urgency=16
 
 module load python
 pip3 install -r requirements.txt --user

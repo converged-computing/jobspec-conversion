@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=snakemake_scvi
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SBATCH_DEFAULTS=' --output=/fast/users/twei_m/scratch/snakemake_scvi_%j.log'
 

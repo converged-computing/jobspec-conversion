@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bits-5433
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-parsnip-7930
+#FLUX: --urgency=16
 
 MODIFIER="$1"
 GPUTYPE="$2"

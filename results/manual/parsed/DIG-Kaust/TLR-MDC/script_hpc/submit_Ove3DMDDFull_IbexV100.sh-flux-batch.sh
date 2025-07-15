@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-omelette-7573
+#FLUX: --job-name=expensive-house-2885
 #FLUX: --queue=batch
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TLRMDCROOT='/home/ravasim/2022/Projects/MDC_TLRMVM_v2/TLR-MDC'
 export TLRMVMROOT='/home/ravasim/2022/Projects/MDC_TLRMVM_v2/tlrmvm-dev/build/install/lib'

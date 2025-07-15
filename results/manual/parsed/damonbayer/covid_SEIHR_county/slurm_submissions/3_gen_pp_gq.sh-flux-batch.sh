@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-banana-1394
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-animal-2297
+#FLUX: --urgency=16
 
 cd /home/abakis/git/covid_SEIHR_county
 if [ $SLURM_ARRAY_TASK_ID == 1 ]; then

@@ -3,7 +3,7 @@
 #FLUX: -N=3
 #FLUX: --exclusive
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel/2018.1 singularity/3.5.2
 IMAGE=dcc-spark02.simg

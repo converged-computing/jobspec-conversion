@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-noodle-5470
-#FLUX: --priority=16
+#FLUX: --job-name=arid-pedo-8716
+#FLUX: --urgency=16
 
 gchplog="gchp.log"
 multirunlog="multirun.log"

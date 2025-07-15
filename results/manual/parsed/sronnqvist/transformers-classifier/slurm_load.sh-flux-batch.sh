@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-hobbit-0004
-#FLUX: --priority=16
+#FLUX: --job-name=arid-lettuce-7277
+#FLUX: --urgency=16
 
 export PYTHONPATH='/scratch/project_2002026/samuel/transformer-text-classifier/transformers3.4/lib/python3.7/site-packages:$PYTHONPATH'
 export BG_FILES='data/eacl/en/train.tsv data/eacl/fi/train.tsv data/eacl/sv/train.tsv'

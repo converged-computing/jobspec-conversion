@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-arm-8127
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-peas-1447
+#FLUX: --urgency=16
 
 module load lammps/2018/cuda
 echo

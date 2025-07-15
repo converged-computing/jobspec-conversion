@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-puppy-7191
+#FLUX: --job-name=peachy-kerfuffle-9069
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export R_LIBS=''
 export PYTHONPATH=''

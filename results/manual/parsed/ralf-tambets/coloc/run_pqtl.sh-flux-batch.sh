@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-despacito-0898
+#FLUX: --job-name=dirty-arm-8965
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load any/jdk/1.8.0_265
 module load nextflow

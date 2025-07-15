@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ssrt
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH=''
 

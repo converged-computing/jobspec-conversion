@@ -2,7 +2,7 @@
 #FLUX: --job-name=icl
 #FLUX: --queue=mhong
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 METHOD=channel
 N_PREFIX=10

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peanut-butter-8270
+#FLUX: --job-name=expressive-rabbit-5189
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 format_time() {
   ((h=${1}/3600))

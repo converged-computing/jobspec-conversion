@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cupcake-8475
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-car-2624
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MiiiRiii/FedMPI/KISTI_jobscript/cifar10_jobscript.sh

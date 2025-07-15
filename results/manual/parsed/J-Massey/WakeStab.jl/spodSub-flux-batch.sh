@@ -5,7 +5,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=highmem
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting calculation at $(date)"
 echo "---------------------------------------------------------------"

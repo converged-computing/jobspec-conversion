@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=<job_name>
-#FLUX: --queue=<controller partition name>
+#FLUX: --queue=<controller
 #FLUX: -t=2592000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd <path to working directory>/
 source /opt/ohpc/pub/Software/mamba-rocky/etc/profile.d/conda.sh

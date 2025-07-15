@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=openbioml
 #FLUX: --queue=g40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_PROTO='simple'
 export NCCL_DEBUG='WARN'

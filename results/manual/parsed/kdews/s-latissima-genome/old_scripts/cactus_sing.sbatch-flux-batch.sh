@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-butter-7603
+#FLUX: --job-name=tart-staircase-1179
 #FLUX: -c=10
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOIL_SLURM_ARGS='-t 1-0 -q normal -p gpu'
 export TOIL_SLURM_PE='${SLURM_JOB_PARTITION}'

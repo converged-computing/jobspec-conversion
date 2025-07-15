@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=aNiMAte-eval
 #FLUX: --queue=ml
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-onion-3972
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-spoon-3336
+#FLUX: --urgency=16
 
 echo "Loading environment"
 spack env activate mistakes-21091601

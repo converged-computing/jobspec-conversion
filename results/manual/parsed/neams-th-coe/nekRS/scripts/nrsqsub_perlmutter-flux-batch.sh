@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-citrus-7841
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-squidward-0140
+#FLUX: --urgency=16
 
 : ${PROJ_ID:=""}
 : ${QUEUE:=""}

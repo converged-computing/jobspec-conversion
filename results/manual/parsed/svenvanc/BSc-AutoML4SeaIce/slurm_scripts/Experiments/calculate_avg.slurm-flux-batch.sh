@@ -2,7 +2,7 @@
 #FLUX: --job-name=avg_land_short
 #FLUX: --queue=cpu-short
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CWD='$(pwd)'
 export LD_LIBRARY_PATH='/home/s2358093/.conda/envs/AutoML4SeaIce/lib:$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'

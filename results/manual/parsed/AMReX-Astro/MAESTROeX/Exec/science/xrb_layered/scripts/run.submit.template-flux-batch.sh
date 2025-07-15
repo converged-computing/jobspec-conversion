@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-parrot-7316
+#FLUX: --job-name=dirty-parrot-6897
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 XRB=$MAESTROEX_HOME/Exec/science/xrb_layered
 MAESTRO_EXEC=$XRB/Maestro2d.gnu.x86-milan.MPI.ex

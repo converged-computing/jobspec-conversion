@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-pancake-9185
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-taco-5258
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hariseldon99/gromacs_sims/MMP2_Rolipram/Complex/nvt.pbs

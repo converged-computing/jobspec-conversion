@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-leopard-7146
+#FLUX: --job-name=wobbly-peanut-1446
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMI_MMAP_SYNC_WAIT_TIME='300'
 export MPICH_GPU_SUPPORT_ENABLED='1'

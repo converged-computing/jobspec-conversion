@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-sundae-6639
+#FLUX: --job-name=creamy-lentil-0502
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PRECXX11ABI='1'
 export CUDA='11.7'

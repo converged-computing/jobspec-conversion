@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=group-name
 #FLUX: -t=1800000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate latte

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-sundae-4625
+#FLUX: --job-name=tart-muffin-0468
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

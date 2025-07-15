@@ -3,7 +3,7 @@
 #FLUX: -N=3
 #FLUX: -n=3
 #FLUX: --gpus-per-task=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOGLEVEL='INFO'
 export NCCL_DEBUG='INFO'

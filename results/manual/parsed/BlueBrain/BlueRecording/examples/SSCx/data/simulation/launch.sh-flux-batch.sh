@@ -5,7 +5,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=prod
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack env activate neurodamus
 module load unstable

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="urea"
-#FLUX: --priority=16
+#FLUX: --job-name=urea
+#FLUX: --urgency=16
 
 module load plumed
 module load gcc

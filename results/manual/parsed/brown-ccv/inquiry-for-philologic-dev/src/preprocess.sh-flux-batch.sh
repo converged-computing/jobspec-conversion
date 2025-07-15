@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-carrot-4791
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-nalgas-3203
+#FLUX: --urgency=16
 
 python preprocess.py

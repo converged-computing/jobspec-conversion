@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-fork-0377
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-cat-7702
+#FLUX: --urgency=16
 
 source /etc/profile
 module load anaconda3-5.0.1

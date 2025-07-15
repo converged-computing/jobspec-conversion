@@ -3,7 +3,7 @@
 #FLUX: -n=50
 #FLUX: --queue=amd
 #FLUX: -t=720000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NPROC=50
 CURDIR=$(pwd)

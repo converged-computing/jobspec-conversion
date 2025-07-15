@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=purple-house-4956
-#FLUX: --priority=16
+#FLUX: --job-name=angry-staircase-8031
+#FLUX: --urgency=16
 

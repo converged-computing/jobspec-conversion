@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="buildpython"
+#FLUX: --job-name=buildpython
 #FLUX: --exclusive
 #FLUX: --queue=debug
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LETTER='t'
 export MDY='`date +%m%d%y_$LETTER`'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=DEQ_1
 #FLUX: -c=12
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PYTHONPATH='/scratch/snx3000/simonsch/DSGE/DSGE_DEQ/src/sudden_stop/venv/lib/python3.8/site-packages:$PYTHONPATH'

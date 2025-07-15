@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rerun_train_data
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OPENCV_OPENCL_RUNTIME=''
 

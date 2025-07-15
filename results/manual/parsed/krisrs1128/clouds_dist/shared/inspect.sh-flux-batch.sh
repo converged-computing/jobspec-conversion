@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-leopard-9256
+#FLUX: --job-name=hello-punk-5145
 #FLUX: -t=4800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $HOME/clouds_dist
 module load singularity/3.4

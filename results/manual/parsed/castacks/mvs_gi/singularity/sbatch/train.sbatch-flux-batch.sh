@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lamp-1075
+#FLUX: --job-name=spicy-gato-0923
 #FLUX: -c=5
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun 'bash' train.job ${SLURM_ARRAY_TASK_ID}

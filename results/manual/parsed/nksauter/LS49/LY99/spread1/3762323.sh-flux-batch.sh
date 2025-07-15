@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-parsnip-2121
-#FLUX: --priority=16
+#FLUX: --job-name=hello-general-9110
+#FLUX: --urgency=16
 
 export CCTBX_NO_UUID='1'
 export DIFFBRAGG_USE_CUDA='1'

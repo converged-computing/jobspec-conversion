@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-punk-4602
-#FLUX: --priority=16
+#FLUX: --job-name=arid-mango-0743
+#FLUX: --urgency=16
 
 export PYTHONPATH='${WORKDIR}/Code/src/:${PYTHONPATH}'
 

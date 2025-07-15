@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-omelette-2748
+#FLUX: --job-name=persnickety-kitty-7827
 #FLUX: --exclusive
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BASE_DIR='/home/vol08/scarf688/git/intel-e2e-benchmark/case1'
 export RELION_IMG='$BASE_DIR/relion.sif'

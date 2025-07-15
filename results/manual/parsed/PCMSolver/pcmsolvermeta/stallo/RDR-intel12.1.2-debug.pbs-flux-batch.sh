@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-fudge-5567
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-peanut-2781
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PCMSolver/pcmsolvermeta/stallo/RDR-intel12.1.2-debug.pbs

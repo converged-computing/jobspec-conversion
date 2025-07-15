@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leopard-6465
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-destiny-0126
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nagaharago/LaMPP/inference_modelchain.sh

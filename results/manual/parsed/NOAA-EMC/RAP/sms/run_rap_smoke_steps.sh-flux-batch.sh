@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-noodle-2022
-#FLUX: --priority=16
+#FLUX: --job-name=blue-house-5092
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/RAP/sms/run_rap_smoke_steps.sh

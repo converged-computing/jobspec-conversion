@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-snack-3482
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-muffin-6067
+#FLUX: --urgency=16
 
 module load \
 bedtools/2.27.1 \

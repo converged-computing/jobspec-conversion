@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-mango-6712
+#FLUX: --job-name=bricky-pastry-3493
 #FLUX: -c=50
 #FLUX: -t=3888000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_JOB_CPUS_PER_NODE}'
 export R_LIBS_USER='${HOME}/R/jrocker/4.2'

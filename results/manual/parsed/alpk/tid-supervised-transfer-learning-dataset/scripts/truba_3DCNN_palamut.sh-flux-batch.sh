@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-parsnip-8343
+#FLUX: --job-name=doopy-egg-4287
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 experiment_notes_var=bsign_default
 module purge

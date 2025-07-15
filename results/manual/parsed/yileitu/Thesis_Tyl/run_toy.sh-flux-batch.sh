@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-peanut-butter-9791
+#FLUX: --job-name=lovable-taco-1191
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load eth_proxy
 module load gcc/9.3.0

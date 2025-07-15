@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-pancake-0754
-#FLUX: --priority=16
+#FLUX: --job-name=purple-arm-6332
+#FLUX: --urgency=16
 
 export PATH='$PWD/gambit-project/:$PATH'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-citrus-0381
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-motorcycle-2856
+#FLUX: --urgency=16
 
 MODIFIER="$1"
 GPUTYPE="$2"

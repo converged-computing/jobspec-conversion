@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bike-6335
+#FLUX: --job-name=swampy-pastry-1918
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load pytorch/1.4.0-py36-cuda90
 module load torchvision/0.5.0-py36

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-kitty-4529
-#FLUX: --priority=16
+#FLUX: --job-name=confused-carrot-2946
+#FLUX: --urgency=16
 
 export LAUNCHER_PLUGIN_DIR='$TACC_LAUNCHER_DIR/plugins'
 export LAUNCHER_WORKDIR='$PWD'

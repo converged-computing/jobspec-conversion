@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-egg-1825
+#FLUX: --job-name=astute-lentil-4352
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FSLSUB_LOCAL_RUN='YES'
 export FSLOUTPUTTYPE='NIFTI'

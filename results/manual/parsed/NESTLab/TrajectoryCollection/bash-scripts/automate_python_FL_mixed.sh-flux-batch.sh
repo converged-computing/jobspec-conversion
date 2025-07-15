@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-frito-2481
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-milkshake-9439
+#FLUX: --urgency=16
 
 set -e
 BASE_LOC=$PWD

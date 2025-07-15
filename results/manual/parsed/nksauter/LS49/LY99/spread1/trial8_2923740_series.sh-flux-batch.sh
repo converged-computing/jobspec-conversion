@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-car-1086
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-lemon-5058
+#FLUX: --urgency=16
 
 export CCTBX_NO_UUID='1'
 export DIFFBRAGG_USE_CUDA='1'

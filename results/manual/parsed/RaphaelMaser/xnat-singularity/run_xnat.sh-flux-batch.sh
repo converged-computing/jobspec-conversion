@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-general-5954
+#FLUX: --job-name=phat-parsnip-0660
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load tools/Singularity
 if ! test -f "xnat-singularity.sif"; then

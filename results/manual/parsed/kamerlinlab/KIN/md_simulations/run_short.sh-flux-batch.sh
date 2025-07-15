@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pedo-0127
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-carrot-9814
+#FLUX: --urgency=16
 
 module load gcc/10.3.0-o57x6h
 module load intel/20.0.4

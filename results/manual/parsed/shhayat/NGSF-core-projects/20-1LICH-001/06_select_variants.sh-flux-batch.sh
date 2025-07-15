@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=select_variants
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nixpkgs/16.09 
 module load gcc/5.4.0

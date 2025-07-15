@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="sleepy"
+#FLUX: --job-name=sleepy
 #FLUX: -n=10
 #FLUX: -t=18900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load R-intel
 cd /vlsci/VR0212/shared/NicheMapR_Working/projects/sleepy/

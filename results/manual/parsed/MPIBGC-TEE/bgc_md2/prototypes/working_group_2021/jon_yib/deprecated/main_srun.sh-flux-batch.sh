@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: -n=12
 #FLUX: -t=324000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda3/2021.05 #has to match the currently activated anaconda version in the shell

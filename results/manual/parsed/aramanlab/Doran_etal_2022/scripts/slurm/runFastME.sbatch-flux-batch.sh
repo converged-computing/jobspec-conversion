@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=broadwl
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load julia/1.7.2
 projdir="/scratch/midway2/bend/projects/Doran_etal_2022"

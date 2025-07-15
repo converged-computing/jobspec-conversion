@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-snack-7810
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-onion-7781
+#FLUX: --urgency=16
 
 export GROMACSINSTALLDIR='/home/$USER/gromacs-2019.3/install'
 export GROMACSTESTCASEDIR='/home/$USER/gromacs_testcase'

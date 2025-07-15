@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-bits-9732
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-train-4599
+#FLUX: --urgency=16
 
 module load java/sun_jdk1.8.0_151
 source activate v3

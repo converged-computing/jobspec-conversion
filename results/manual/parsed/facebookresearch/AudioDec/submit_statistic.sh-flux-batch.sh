@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=extraction
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 tag_name=statistic/symAD_vctk_48000_hop300_clean
 subset=train

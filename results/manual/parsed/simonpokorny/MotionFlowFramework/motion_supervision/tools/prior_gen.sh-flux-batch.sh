@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-animal-6638
+#FLUX: --job-name=eccentric-fudge-5670
 #FLUX: -c=6
 #FLUX: --queue=amdlong
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml torchsparse
 cd $HOME

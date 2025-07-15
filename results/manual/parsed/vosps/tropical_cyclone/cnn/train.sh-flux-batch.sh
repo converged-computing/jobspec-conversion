@@ -2,7 +2,7 @@
 #FLUX: --job-name=cgan
 #FLUX: --queue=magma
 #FLUX: -t=255600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 cd $SLURM_SUBMIT_DIR

@@ -2,7 +2,7 @@
 #FLUX: --job-name=llama_finetune
 #FLUX: --queue=a100
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='1;'
 export NCCL_P2P_DISABLE='1;'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="clump"
+#FLUX: --job-name=clump
 #FLUX: --queue=dphys_compute
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting at `date`"
 echo "Running on hosts: $SLURM_NODELIST"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lentil-2564
+#FLUX: --job-name=buttery-pastry-6302
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-buttface-6543
+#FLUX: --job-name=hello-muffin-0111
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load julia
 julia z_tsptw_experiment.jl $setnum $instance

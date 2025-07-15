@@ -2,7 +2,7 @@
 #FLUX: --job-name=tumor_stroma_attention_unet_macenko
 #FLUX: -c=2
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NUM_GPUS_PER_NODE=1
 PARTITION=a100

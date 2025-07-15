@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-fudge-6973
-#FLUX: --priority=16
+#FLUX: --job-name=arid-milkshake-3802
+#FLUX: --urgency=16
 
 scriptname=$(mktemp)
 if [[ $# != 6 ]]; then

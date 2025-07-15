@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-fork-8933
+#FLUX: --job-name=stanky-omelette-0182
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IFS=';'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Trinity
 #FLUX: -n=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 module unload perl/5.20.2

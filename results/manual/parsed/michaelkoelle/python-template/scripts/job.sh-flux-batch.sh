@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-pastry-0313
+#FLUX: --job-name=fugly-milkshake-8538
 #FLUX: --queue=All
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_SILENT='true'
 

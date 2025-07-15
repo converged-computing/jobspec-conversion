@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=IPCGAN
 #FLUX: --queue=csgpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 cd IPCGAN_Face_Aging_5AgeGroups

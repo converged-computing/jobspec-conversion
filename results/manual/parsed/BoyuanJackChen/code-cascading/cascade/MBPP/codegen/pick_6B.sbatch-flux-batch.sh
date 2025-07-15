@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=6B_mbpp
 #FLUX: -t=259199
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='/scratch/bc3194/huggingface_cache'
 

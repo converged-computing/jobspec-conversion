@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sketch
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cuda-10.0

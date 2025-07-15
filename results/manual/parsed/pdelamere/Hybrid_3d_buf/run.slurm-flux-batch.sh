@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-parrot-9847
+#FLUX: --job-name=misunderstood-squidward-0022
 #FLUX: -n=115
 #FLUX: --queue=t1standard
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Setting ulimits"
 ulimit -s unlimited

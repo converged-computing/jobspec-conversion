@@ -3,7 +3,7 @@
 #FLUX: -c=72
 #FLUX: --queue=GPU4v100
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

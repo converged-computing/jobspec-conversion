@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-egg-0576
+#FLUX: --job-name=expensive-peas-1918
 #FLUX: -N=20
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PYTHONDONTWRITEBYTECODE='true'

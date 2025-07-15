@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-house-4246
-#FLUX: --priority=16
+#FLUX: --job-name=grated-egg-4184
+#FLUX: --urgency=16
 
 module purge
 module load singularity tensorflow/1.6.0-py36

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-salad-3141
-#FLUX: --priority=16
+#FLUX: --job-name=purple-platanos-6028
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/simongravelle/polymer-in-water/polymer-in-water/inputs/run_bigfoot_UGA.sh

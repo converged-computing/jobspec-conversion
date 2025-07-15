@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-car-7197
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-plant-0015
+#FLUX: --urgency=16
 
 source ~/.zshrc
 conda activate nf-core-atacseq-1.2.1

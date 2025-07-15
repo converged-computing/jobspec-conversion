@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=dilation
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /om/user/xboix/src/insideness/
 hostname

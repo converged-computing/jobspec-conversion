@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-milkshake-8621
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-blackbean-8214
+#FLUX: --urgency=16
 
 export XLA_PYTHON_CLIENT_PREALLOCATE='true'
 

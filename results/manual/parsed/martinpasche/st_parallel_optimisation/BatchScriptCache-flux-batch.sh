@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-rabbit-0559
+#FLUX: --job-name=evasive-poo-2011
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 module load py-numpy/1.24.3/gcc-13.1.0

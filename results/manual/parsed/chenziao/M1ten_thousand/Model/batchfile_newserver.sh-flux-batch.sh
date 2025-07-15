@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-car-6054
-#FLUX: --priority=16
+#FLUX: --job-name=phat-lettuce-1391
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-general-4339
+#FLUX: --job-name=nerdy-peanut-3245
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RAY_DEDUP_LOGS='0'
 

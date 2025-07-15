@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-underoos-4086
+#FLUX: --job-name=outstanding-soup-7819
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export casename='_CASENAME_'
 export currentiter='_CURRENTITER_'

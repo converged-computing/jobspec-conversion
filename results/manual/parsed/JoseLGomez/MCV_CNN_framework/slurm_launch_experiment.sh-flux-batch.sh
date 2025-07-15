@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-sundae-1024
-#FLUX: --priority=16
+#FLUX: --job-name=confused-knife-3705
+#FLUX: --urgency=16
 
 sleep 5
 /usr/local/cuda-9.2/samples/bin/x86_64/linux/release/deviceQuery

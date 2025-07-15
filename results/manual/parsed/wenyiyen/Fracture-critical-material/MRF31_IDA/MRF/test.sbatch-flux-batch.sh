@@ -2,7 +2,7 @@
 #FLUX: --job-name=SMAM
 #FLUX: -n=44
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load openmpi
 module load scalapack

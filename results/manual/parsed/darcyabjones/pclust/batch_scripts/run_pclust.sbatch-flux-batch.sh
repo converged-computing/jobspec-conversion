@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-puppy-4365
+#FLUX: --job-name=buttery-poodle-2068
 #FLUX: --queue=longq
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow/19.01.0.5050-bin
 module load singularity/3.3.0

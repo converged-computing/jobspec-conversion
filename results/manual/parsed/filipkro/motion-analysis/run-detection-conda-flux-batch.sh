@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-underoos-9172
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-peas-8107
+#FLUX: --urgency=16
 
 vid="006FL.MTS"
 allow_flip="False"

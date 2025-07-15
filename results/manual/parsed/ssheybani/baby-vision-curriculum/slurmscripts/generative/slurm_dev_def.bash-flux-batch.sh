@@ -3,7 +3,7 @@
 #FLUX: -c=40
 #FLUX: --queue=gpu
 #FLUX: -t=104400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/gpu
 ulimit -u 20000

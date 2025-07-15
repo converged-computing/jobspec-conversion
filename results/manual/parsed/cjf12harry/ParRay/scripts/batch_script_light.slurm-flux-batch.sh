@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=4800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo `whoami`
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

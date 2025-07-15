@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-diablo-7120
+#FLUX: --job-name=arid-pancake-4593
 #FLUX: -c=10
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_MODE='online'
 export WANDB_ENTITY='jarmy-naija'

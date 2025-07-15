@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="transfer1000tag"
+#FLUX: --job-name=transfer1000tag
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 julia main.jl --lang sv --epochs 100 --trainSize 1000  \
               --dropouts 0.5 --mode 3 \

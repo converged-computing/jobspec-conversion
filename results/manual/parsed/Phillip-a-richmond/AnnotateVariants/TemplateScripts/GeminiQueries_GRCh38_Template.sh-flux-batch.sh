@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-avocado-5031
+#FLUX: --job-name=eccentric-milkshake-7019
 #FLUX: -c=2
 #FLUX: --queue=defq
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='$PWD'
 

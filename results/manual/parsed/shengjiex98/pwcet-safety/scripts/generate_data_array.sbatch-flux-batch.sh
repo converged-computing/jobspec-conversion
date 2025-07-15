@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=general
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SLURM_ARRAY_JOB_ID: $SLURM_ARRAY_JOB_ID."
 echo "SLURM_ARRAY_TASK_ID: $SLURM_ARRAY_TASK_ID"

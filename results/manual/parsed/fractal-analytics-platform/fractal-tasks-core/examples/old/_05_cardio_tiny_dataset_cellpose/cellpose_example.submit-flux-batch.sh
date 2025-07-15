@@ -2,7 +2,7 @@
 #FLUX: --job-name=cp
 #FLUX: --queue=gpu
 #FLUX: -t=6000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 source /opt/easybuild/software/Anaconda3/2019.07/etc/profile.d/conda.sh

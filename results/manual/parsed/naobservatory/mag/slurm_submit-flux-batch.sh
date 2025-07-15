@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-salad-7988
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-banana-8750
+#FLUX: --urgency=16
 
 module load jdk/18.0.1.1
 module load singularity/3.7.0

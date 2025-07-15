@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=chieh
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/wu.chie/App/miniconda/bin:$PATH'
 

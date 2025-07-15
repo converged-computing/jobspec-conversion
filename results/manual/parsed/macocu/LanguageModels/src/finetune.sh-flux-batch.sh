@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-itch-8212
+#FLUX: --job-name=expensive-knife-8262
 #FLUX: --queue=gpu
 #FLUX: -t=43195
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu -o pipefail
 fol=$1          # checkpoint folder - or name of language model: e.g. model/checkpoint-10000/ or xlm-roberta-large

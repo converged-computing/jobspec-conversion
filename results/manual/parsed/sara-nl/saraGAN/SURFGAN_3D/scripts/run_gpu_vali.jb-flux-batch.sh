@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-snack-8406
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-itch-1929
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='6'
 export PATH='/sw/arch/Debian9/EB_production/2019/software/CUDA/10.0.130/:$PATH'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-itch-6203
+#FLUX: --job-name=creamy-banana-0188
 #FLUX: -c=6
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Reached before python lines of file: $1 start"
 date

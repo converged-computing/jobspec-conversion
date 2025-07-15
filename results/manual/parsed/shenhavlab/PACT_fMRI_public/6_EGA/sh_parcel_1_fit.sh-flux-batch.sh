@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-fork-5164
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-poodle-3020
+#FLUX: --urgency=16
 
 root_dir="/users/hritz/data/mri-data/RDM2"
 spm_dir="/users/hritz/data/mri-data/analysistools/spm12"

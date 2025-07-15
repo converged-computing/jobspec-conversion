@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=convert
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 module load cuda/11.8

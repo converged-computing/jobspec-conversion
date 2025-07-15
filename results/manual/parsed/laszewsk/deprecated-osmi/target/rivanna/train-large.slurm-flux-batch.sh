@@ -2,7 +2,7 @@
 #FLUX: --job-name=large-train-osmi
 #FLUX: --queue=bii-gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CONTAINER_DIR='$EXEC_DIR/image-apptainer/'
 

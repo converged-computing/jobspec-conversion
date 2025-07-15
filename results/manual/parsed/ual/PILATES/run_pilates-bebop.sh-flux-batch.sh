@@ -2,7 +2,7 @@
 #FLUX: --job-name=land_use
 #FLUX: --queue=bdwall
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu
 main() {

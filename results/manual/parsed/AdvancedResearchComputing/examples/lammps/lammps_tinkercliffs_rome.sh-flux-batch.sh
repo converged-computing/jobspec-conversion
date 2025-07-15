@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-destiny-4452
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-lemon-4104
+#FLUX: --urgency=16
 
 module reset
 module load LAMMPS

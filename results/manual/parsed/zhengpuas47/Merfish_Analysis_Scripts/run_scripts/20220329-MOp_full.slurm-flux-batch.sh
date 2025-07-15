@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-egg-9449
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-blackbean-2154
+#FLUX: --urgency=16
 
 export PATH='/n/home13/pzheng/anaconda3/bin:$PATH'
 

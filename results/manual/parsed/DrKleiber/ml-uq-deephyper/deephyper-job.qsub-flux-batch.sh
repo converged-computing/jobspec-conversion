@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blue-carrot-9916
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-sundae-8805
+#FLUX: --urgency=16
 

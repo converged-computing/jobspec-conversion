@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=shapebias
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cuda-10.0

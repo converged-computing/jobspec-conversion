@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gpu_check
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/3
 conda env list

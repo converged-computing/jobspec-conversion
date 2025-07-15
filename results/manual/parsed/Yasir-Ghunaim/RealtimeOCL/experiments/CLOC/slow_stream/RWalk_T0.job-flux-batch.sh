@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-bicycle-8726
+#FLUX: --job-name=chocolate-lettuce-8228
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=162000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.1.0

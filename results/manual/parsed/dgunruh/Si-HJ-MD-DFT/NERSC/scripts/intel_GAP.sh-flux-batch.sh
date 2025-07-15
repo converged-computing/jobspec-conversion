@@ -2,7 +2,7 @@
 #FLUX: --job-name=cSiaSiMD
 #FLUX: -N=4
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

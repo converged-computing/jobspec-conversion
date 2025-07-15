@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=heraus-test1
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 unset SLURM_EXPORT_ENV
 module load python/3.8-anaconda

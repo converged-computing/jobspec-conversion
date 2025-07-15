@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="t0_s2r_rev"
+#FLUX: --job-name=t0_s2r_rev
 #FLUX: -c=8
 #FLUX: --queue=mf_nes2.8
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 lambda=$SLURM_ARRAY_TASK_ID
 totalstep=5000000

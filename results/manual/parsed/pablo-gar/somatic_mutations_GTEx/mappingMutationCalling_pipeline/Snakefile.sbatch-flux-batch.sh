@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-mango-0773
+#FLUX: --job-name=arid-caramel-5789
 #FLUX: --queue=hbfraser
 #FLUX: -t=32400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load fraserconda
 source activate fraserconda

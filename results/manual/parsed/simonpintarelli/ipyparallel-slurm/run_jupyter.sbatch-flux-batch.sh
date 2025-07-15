@@ -2,7 +2,7 @@
 #FLUX: --job-name=ipcluster
 #FLUX: -N=2
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 module load cray-python/3.6.5.1

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=shapnet
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python train_shapenet.py \
 --dataset="shapenet" \

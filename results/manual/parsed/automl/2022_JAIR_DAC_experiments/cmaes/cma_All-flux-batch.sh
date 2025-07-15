@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-onion-0503
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-destiny-0883
+#FLUX: --urgency=16
 
 export TF_XLA_FLAGS='--tf_xla_cpu_global_jit'
 

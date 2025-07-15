@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=slurm-test
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /gscratch/csde/sjenness/spack/share/spack/setup-env.sh
 module load gcc-8.2.0-gcc-8.1.0-sh54wqg

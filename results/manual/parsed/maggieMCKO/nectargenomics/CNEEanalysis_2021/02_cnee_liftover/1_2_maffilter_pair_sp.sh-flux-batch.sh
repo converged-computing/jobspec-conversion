@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-leg-9644
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-underoos-0606
+#FLUX: --urgency=16
 
 export singularity_image='$HOME/Tools/maffilter_v1.3.1dfsg-1b1-deb_cv1.sif'
 export maffilter_optionfile='d1_optionfiles/1_1_optionfile_tmp.maffilter'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-blackbean-0850
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-lettuce-0534
+#FLUX: --urgency=16
 
 echo "Starting job_linalg_study.slurm"
 module load anaconda3

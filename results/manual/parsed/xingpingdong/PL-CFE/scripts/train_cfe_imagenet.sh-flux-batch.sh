@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-ricecake-6672
+#FLUX: --job-name=frigid-pancake-9538
 #FLUX: -c=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/xd1/miniconda3/bin:$PATH'
 

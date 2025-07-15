@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-banana-8411
+#FLUX: --job-name=butterscotch-animal-4259
 #FLUX: -c=10
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add freesurfer
 module add fsl

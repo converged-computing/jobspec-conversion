@@ -2,7 +2,7 @@
 #FLUX: --job-name=wrfPreProcBdCoup_biglow
 #FLUX: -n=128
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $HOME/.bash_profile
 cores=$SLURM_NTASKS

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=red-frito-7220
+#FLUX: --job-name=crunchy-onion-7678
 #FLUX: -N=64
 #FLUX: -c=10
 #FLUX: --queue=booster
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_TIMEOUT='50'
 export UCX_RC_TIMEOUT='4s'

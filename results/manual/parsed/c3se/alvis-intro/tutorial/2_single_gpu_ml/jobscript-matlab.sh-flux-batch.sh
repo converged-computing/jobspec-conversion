@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lamp-7228
-#FLUX: --priority=16
+#FLUX: --job-name=confused-mango-8303
+#FLUX: --urgency=16
 
 ml purge
 ml MATLAB

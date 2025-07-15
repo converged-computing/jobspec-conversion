@@ -2,7 +2,7 @@
 #FLUX: --job-name=img-auto-vscode
 #FLUX: --queue=gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 path="./output/img/imgs-"
 j=$SLURM_JOB_ID

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-motorcycle-4718
+#FLUX: --job-name=psycho-nunchucks-5962
 #FLUX: -c=96
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_ASYNC_ERROR_HANDLING='1'
 export NCCL_PROTO='simple'

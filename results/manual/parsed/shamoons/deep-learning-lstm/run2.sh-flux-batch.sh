@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lentil-4114
+#FLUX: --job-name=rainbow-cattywampus-8209
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='/usr/local/cuda-9.0'
 export LD_LIBRARY_PATH='/usr/local/cuda-9.0/lib64'

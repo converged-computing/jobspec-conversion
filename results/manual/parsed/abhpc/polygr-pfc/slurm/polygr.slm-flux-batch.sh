@@ -2,7 +2,7 @@
 #FLUX: --job-name=polygrpfc
 #FLUX: -N=4
 #FLUX: --queue=MX
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DISPLAY=''
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=VAR-GP
 #FLUX: -c=4
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_MODE='run'
 export WANDB_DIR='${LOGDIR}'

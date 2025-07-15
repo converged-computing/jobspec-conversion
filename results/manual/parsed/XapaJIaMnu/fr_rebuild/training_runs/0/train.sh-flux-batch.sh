@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-knife-6782
-#FLUX: --priority=16
+#FLUX: --job-name=blank-diablo-8929
+#FLUX: --urgency=16
 
 BASE="/bask/projects/x/xngs6460-languages/gnail/enfr"
 . ${BASE}/software/env.sh

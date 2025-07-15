@@ -4,7 +4,7 @@
 #FLUX: --gpus-per-task=8
 #FLUX: --queue=small-g
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IMG='/scratch/project_465000301/tf-rocm5.6-tf2.12.simg'
 export PYTHONPATH='hep_tfds'

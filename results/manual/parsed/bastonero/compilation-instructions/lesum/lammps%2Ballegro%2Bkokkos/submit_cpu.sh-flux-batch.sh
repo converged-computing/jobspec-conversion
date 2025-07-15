@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=mpi
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LAMMPS_BIN='/path/to/lammps/build/bin'
 export PATH='$LAMMPS_BIN:$PATH'

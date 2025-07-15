@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-mango-9649
+#FLUX: --job-name=blue-latke-8656
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 reponame="lammps"
 repo="git@github.com:CTCMS-UQ/${reponame}.git"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-hippo-5884
-#FLUX: --priority=16
+#FLUX: --job-name=phat-frito-1861
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CUAnschutzBDC/snakemake_pipelines/snakecharmer.sh

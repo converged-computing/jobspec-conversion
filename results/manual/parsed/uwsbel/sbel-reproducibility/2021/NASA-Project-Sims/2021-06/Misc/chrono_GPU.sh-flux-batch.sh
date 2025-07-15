@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-butter-9789
+#FLUX: --job-name=rainbow-rabbit-4287
 #FLUX: --queue=sbel
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/9.2.0
 module load cmake/3.18.1

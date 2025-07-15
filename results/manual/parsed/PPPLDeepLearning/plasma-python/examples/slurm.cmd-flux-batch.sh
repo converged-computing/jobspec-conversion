@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-squidward-1496
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-chip-0149
+#FLUX: --urgency=16
 
 export OMPI_MCA_btl='tcp,self,vader'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-truffle-1228
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-kitty-9512
+#FLUX: --urgency=16
 
 module load python/3.9.0
 module load gcc/10.2

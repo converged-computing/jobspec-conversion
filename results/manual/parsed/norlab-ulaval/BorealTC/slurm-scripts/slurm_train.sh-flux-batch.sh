@@ -2,7 +2,7 @@
 #FLUX: --job-name=TerrainVulpi
 #FLUX: -c=8
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/Vulpi2021-terrain-deep-learning
 docker build -t terrain-gpu -f DockerfileGPU .

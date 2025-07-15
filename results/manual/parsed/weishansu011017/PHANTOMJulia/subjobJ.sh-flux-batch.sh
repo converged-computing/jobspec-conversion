@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-eagle-3538
-#FLUX: --priority=16
+#FLUX: --job-name=arid-parrot-5720
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/weishansu011017/PHANTOMJulia/subjobJ.sh

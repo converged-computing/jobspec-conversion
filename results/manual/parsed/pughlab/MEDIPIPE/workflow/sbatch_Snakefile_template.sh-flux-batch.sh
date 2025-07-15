@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bike-2228
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-itch-0374
+#FLUX: --urgency=16
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate MEDIPIPE

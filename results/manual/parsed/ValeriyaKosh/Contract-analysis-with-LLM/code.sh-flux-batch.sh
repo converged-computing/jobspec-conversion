@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-arm-0449
+#FLUX: --job-name=confused-hope-7278
 #FLUX: -t=1500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load model-huggingface/all
   # run python

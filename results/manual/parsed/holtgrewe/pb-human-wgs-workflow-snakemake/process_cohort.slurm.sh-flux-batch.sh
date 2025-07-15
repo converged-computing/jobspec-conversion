@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cupcake-4853
+#FLUX: --job-name=stanky-gato-3996
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 COHORT=$1
 umask 002

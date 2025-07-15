@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="HW6 CS 601.471/671 homework"
+#FLUX: --job-name=HW6 CS 601.471/671 homework
 #FLUX: --queue=a100
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='/scratch4/danielk/schaud31'
 

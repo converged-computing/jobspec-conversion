@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-spoon-6615
+#FLUX: --job-name=salted-cat-8143
 #FLUX: -c=9
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Loading anaconda..."
 module purge

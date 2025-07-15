@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-snack-9552
+#FLUX: --job-name=blank-house-3605
 #FLUX: -N=128
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EXEC='${HERE}/pretrain_gpt_alcf.py'
 export hfds='${HERE}/hostfile_deepspeed" && [ -f "${hfds}" ] || exit'

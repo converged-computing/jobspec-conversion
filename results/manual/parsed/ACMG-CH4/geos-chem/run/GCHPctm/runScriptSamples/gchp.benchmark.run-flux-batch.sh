@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-parrot-6568
+#FLUX: --job-name=conspicuous-egg-9149
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 log="gchp.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

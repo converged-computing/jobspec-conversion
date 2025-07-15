@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-caramel-5552
+#FLUX: --job-name=misunderstood-salad-0395
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 multirunlog="multirun.log"
 cancel_all_jobs()

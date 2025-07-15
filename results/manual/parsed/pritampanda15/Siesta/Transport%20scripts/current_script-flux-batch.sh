@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-fork-3011
+#FLUX: --job-name=crusty-train-3381
 #FLUX: --exclusive
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Siesta/4.1-b4-nsc2-intel-2018a-eb
 mkdir cont   # read the comment at the end of this script.

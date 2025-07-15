@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-hope-8786
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-house-7560
+#FLUX: --urgency=16
 
 python ../train_synth.py -p mhigh

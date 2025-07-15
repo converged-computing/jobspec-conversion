@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=microhh
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.1
 module load netcdf/gcc/64/4.6.1

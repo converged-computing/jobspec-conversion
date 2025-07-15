@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-leopard-8868
+#FLUX: --job-name=faux-fork-3672
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load StdEnv/2023 arrow/15.0.1 rust/1.76.0 python scipy-stack
 source ../../test-priv/test-priv-env/bin/activate

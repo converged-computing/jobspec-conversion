@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-knife-9176
+#FLUX: --job-name=chocolate-onion-9163
 #FLUX: -c=2
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load miniconda
 source activate shardProcess

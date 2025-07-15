@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-bicycle-2047
-#FLUX: --priority=16
+#FLUX: --job-name=red-butter-9405
+#FLUX: --urgency=16
 
 module unload gromacs
 module switch gromacs/2023 gromacs=gmx_mpi

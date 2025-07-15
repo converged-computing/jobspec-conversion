@@ -2,7 +2,7 @@
 #FLUX: --job-name=onset_offset
 #FLUX: --queue=octopus
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/hpc/users/alexander.lepauvre/sw/github/ECoG'
 

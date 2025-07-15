@@ -2,7 +2,7 @@
 #FLUX: --job-name=cnnf
 #FLUX: -c=6
 #FLUX: -t=7800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 base_dir=/storage/vast-gfz-hpc-01/home/bryant/LS/10_IO/2307_super/outs/train_data/20231208
 out_dir=/storage/vast-gfz-hpc-01/home/bryant/LS/10_IO/2307_super/outs/train/20231208/b

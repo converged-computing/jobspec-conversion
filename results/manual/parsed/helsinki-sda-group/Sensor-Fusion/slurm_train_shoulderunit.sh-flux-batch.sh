@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=standard-g
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='hsn'
 export NCCL_NET_GDR_LEVEL='3'

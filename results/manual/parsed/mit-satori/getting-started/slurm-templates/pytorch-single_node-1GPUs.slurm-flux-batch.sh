@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-cinnamonbun-5649
+#FLUX: --job-name=eccentric-buttface-0236
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

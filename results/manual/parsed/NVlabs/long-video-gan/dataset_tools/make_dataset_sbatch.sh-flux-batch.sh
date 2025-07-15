@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-nunchucks-3425
+#FLUX: --job-name=fat-destiny-9525
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting job..."
 source anaconda3/bin/activate

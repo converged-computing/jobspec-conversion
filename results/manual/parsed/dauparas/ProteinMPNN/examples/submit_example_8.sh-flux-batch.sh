@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-muffin-7114
-#FLUX: --priority=16
+#FLUX: --job-name=faux-sundae-8760
+#FLUX: --urgency=16
 
 source activate mlfold
 folder_with_pdbs="../inputs/PDB_monomers/pdbs/"

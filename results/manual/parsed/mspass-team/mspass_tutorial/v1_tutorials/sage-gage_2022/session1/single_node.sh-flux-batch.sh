@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-nunchucks-0255
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-fudge-0065
+#FLUX: --urgency=16
 
 export SHELL='/bin/bash'
 

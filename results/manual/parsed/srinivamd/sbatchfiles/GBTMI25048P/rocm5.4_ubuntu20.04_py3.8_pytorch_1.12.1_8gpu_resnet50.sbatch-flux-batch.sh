@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hope-9129
+#FLUX: --job-name=conspicuous-omelette-0183
 #FLUX: -c=12
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module purge

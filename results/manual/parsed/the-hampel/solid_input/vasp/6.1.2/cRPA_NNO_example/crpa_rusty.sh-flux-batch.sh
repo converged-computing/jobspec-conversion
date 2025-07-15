@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="vasp-crpa"
+#FLUX: --job-name=vasp-crpa
 #FLUX: --queue=ccq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

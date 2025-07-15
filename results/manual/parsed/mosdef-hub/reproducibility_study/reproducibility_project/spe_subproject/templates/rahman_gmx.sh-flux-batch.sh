@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-pedo-0124
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-malarkey-4941
+#FLUX: --urgency=16
 
 {% extends "slurm.sh" %}
 {% block header %}

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-staircase-0497
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-itch-9445
+#FLUX: --urgency=16
 
 . ~/miniconda3/etc/profile.d/conda.sh
 conda activate grist3

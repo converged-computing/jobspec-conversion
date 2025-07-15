@@ -2,7 +2,7 @@
 #FLUX: --job-name=mRNA_diff-ko
 #FLUX: -c=8
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 basePath=$1
 projectName=$2

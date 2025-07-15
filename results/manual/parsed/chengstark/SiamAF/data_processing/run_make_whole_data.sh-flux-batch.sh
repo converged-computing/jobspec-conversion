@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-dog-7100
+#FLUX: --job-name=moolicious-general-4744
 #FLUX: -c=16
 #FLUX: --queue=overflow
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /labs/hulab/stark_conda/bin/activate
 conda activate base_pytorch

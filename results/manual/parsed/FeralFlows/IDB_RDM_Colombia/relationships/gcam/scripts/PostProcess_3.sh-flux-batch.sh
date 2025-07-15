@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-despacito-1019
-#FLUX: --priority=16
+#FLUX: --job-name=milky-dog-6182
+#FLUX: --urgency=16
 
 export CXX='g++'
 export BOOST_INCLUDE='/cluster/tufts/lamontagnelab/byarla01/libs/boost_1_67_0'

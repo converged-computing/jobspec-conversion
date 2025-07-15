@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-plant-8572
+#FLUX: --job-name=hairy-puppy-4192
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load kallisto/0.43.1-foss-2016b
 module load SAMtools/1.3.1-foss-2016b

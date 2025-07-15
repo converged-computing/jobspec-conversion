@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fudge-7786
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-caramel-2378
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/whenUC_03.sh

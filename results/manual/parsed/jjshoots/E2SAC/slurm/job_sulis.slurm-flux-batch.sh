@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-mango-2121
+#FLUX: --job-name=rainbow-latke-2102
 #FLUX: -c=42
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load GCC/10.2.0  CUDA/11.1.1  OpenMPI/4.0.5

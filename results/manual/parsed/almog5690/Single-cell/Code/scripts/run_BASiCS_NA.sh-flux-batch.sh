@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-itch-6751
+#FLUX: --job-name=misunderstood-underoos-1973
 #FLUX: -n=4
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 <<<<<<< Updated upstream
 module load R4

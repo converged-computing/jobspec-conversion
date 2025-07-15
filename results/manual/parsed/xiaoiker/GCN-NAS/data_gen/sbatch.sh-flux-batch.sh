@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hobbit-2498
-#FLUX: --priority=16
+#FLUX: --job-name=phat-gato-1985
+#FLUX: --urgency=16
 
 module purge
 module load gcc/5.4.0 python-env/intelpython3.6-2018.3

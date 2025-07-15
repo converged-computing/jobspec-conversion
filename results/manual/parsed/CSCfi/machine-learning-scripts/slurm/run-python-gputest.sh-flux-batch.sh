@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-peanut-butter-2265
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-train-3437
+#FLUX: --urgency=16
 
 module load python-env/3.6.3-ml
 module list

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-muffin-8668
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-signal-1745
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

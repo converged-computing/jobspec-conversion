@@ -2,7 +2,7 @@
 #FLUX: --job-name=mergeBams
 #FLUX: -c=8
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load SAMtools/1.19-GCC-12.3.0
 OUTDIR=merged_bam

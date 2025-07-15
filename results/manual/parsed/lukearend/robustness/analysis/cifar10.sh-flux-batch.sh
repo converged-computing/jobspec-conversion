@@ -2,7 +2,7 @@
 #FLUX: --job-name=cifar10
 #FLUX: -c=4
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SCALE_FACTOR=('0.25' '0.5' '1' '2' '4' '0.25' '0.5' '1' '2' '4')
 BATCH_NORM_FLAG=('' '' '' '' '' '--disable_batch_norm' '--disable_batch_norm' '--disable_batch_norm' '--disable_batch_norm' '--disable_batch_norm')

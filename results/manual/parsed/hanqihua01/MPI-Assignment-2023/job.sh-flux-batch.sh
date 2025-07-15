@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hope-3682
+#FLUX: --job-name=reclusive-onion-0669
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load openmpi/gcc/64/4.0.2
 module load julia/1.7.3

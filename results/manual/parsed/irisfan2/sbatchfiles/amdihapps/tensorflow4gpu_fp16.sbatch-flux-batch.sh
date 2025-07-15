@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-despacito-7874
+#FLUX: --job-name=cowy-poo-1633
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

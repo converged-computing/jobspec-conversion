@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pot-7304
+#FLUX: --job-name=evasive-latke-1976
 #FLUX: -c=10
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/2022.05
 . ~/.mycondaconf

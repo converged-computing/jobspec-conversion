@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-bits-6847
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-general-5279
+#FLUX: --urgency=16
 

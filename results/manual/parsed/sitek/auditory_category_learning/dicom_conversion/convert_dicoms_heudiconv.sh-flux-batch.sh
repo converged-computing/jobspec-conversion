@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-malarkey-7520
+#FLUX: --job-name=crusty-leader-5807
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add dcm2niix
 data_dir=/bgfs/bchandrasekaran/krs228/data/FLT/

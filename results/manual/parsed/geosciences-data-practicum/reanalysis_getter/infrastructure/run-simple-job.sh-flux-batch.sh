@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=bigmem2
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PATH_TO_PROJECT='/project2/moyer/jetstream'
 PATH_TO_REPO='/home/ivanhigueram/reanalysis_getter'

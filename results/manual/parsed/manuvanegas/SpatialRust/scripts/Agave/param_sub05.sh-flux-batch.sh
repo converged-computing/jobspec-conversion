@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-carrot-2485
+#FLUX: --job-name=hello-mango-3280
 #FLUX: -n=40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'
 

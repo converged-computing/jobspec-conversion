@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pastry-8857
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-motorcycle-9801
+#FLUX: --urgency=16
 
 module load gcc/10.2.0
 module load cmake/gcc/3.18.0

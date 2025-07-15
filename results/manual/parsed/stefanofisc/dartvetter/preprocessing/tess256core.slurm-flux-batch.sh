@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-latke-7613
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-plant-7904
+#FLUX: --urgency=16
 
 source /home/s.fiscale/anaconda3/etc/profile.d/conda.sh
 conda activate name_of_your_conda_environment

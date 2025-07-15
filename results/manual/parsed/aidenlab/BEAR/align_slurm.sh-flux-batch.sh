@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-despacito-6306
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-latke-1825
+#FLUX: --queue=$QUEUE_X86
+#FLUX: --urgency=16
 
 LOAD_BWA="spack load bwa@0.7.17 arch=\`spack arch\`"
 BWA_CMD="bwa"
@@ -124,15 +125,6 @@ then
             # Align reads
 	    jid=`sbatch <<- ALGNR | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $QUEUE
-		#SBATCH -o ${WORK_DIR}/${REFERENCE_NAME}/debug/align-%j.out
-		#SBATCH -e ${WORK_DIR}/${REFERENCE_NAME}/debug/align-%j.err
-		#SBATCH -t 2880
-		#SBATCH -n 1
-		#SBATCH -c $threads
-		#SBATCH --mem-per-cpu=4G
-		#SBATCH -J "align_${FILE}"
-		#SBATCH --threads-per-core=1
 		$LOAD_BWA
 		$BWA_CMD 2>&1 | awk '\\\$1=="Version:"{printf(" BWA %s; ", \\\$2)}'
 		echo "Running command $BWA_CMD mem $threadstring $REFERENCE $file1 $file2 > ${ALIGNED_FILE}.sam"
@@ -150,15 +142,6 @@ ALGNR`
             ######################################################################
 	    jid=`sbatch <<- SAMTOBAM | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $QUEUE
-		#SBATCH -o ${WORK_DIR}/${REFERENCE_NAME}/debug/sam2bam-%j.out
-		#SBATCH -e ${WORK_DIR}/${REFERENCE_NAME}/debug/sam2bam-%j.err
-		#SBATCH -t 2880 
-		#SBATCH -n 1
-		#SBATCH -c $threads
-		#SBATCH --mem-per-cpu=4G
-		#SBATCH --threads-per-core=1
-		#SBATCH -d $dependalign
 		$LOAD_SAMTOOLS
 		$SAMTOOLS_CMD fixmate -m $ALIGNED_FILE".sam" $ALIGNED_FILE".bam"
 		$SAMTOOLS_CMD sort -@ $threads -o $ALIGNED_FILE"_matefixd_sorted.bam" $ALIGNED_FILE".bam"
@@ -170,15 +153,6 @@ SAMTOBAM`
         ######################################################################
 	jid=`sbatch <<- MRKDUPS | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $QUEUE
-		#SBATCH -o ${WORK_DIR}/${REFERENCE_NAME}/debug/mrkdups-%j.out
-		#SBATCH -e ${WORK_DIR}/${REFERENCE_NAME}/debug/mrkdups-%j.err
-		#SBATCH -t 2880 
-		#SBATCH -n 1
-		#SBATCH -c $threads
-		#SBATCH --mem-per-cpu=4G
-		#SBATCH --threads-per-core=1
-		#SBATCH -d $dependsort
 		$LOAD_SAMTOOLS 
 		if $SAMTOOLS_CMD merge ${WORK_DIR}/${REFERENCE_NAME}/aligned/sorted_merged.bam ${WORK_DIR}/${REFERENCE_NAME}/aligned/*_matefixd_sorted.bam
 		then
@@ -226,14 +200,6 @@ jid=`sbatch < "$WORK_DIR"/collect_stats.sh`
 dependcollectstats="afterok:${jid##* }"
 jid=`sbatch <<- CONTIG | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $QUEUE_X86
-	#SBATCH -o ${LOG_DIR}/contig-%j.out
-	#SBATCH -e ${LOG_DIR}/contig-%j.err
-	#SBATCH -t 600
-	#SBATCH -n 1 
-	#SBATCH -c 1
-	#SBATCH --mem-per-cpu=10G
-	#SBATCH --threads-per-core=1
 	$slurm_depend_merge
 	$LOAD_MEGAHIT
 	echo "Running $MEGAHIT_CMD -1 $read1filescomma -2 $read2filescomma -o ${WORK_DIR}/contigs"
@@ -247,15 +213,6 @@ echo "$PYTHON_CMD ${PIPELINE_DIR}/dot_coverage.py ${WORK_DIR}/${MATCH_NAME}/alig
 dependcontig="${dependmatchdone}:$jid"
 jid=`sbatch <<- MINIMAP | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH --partition=$QUEUE_X86 
-	#SBATCH -o ${LOG_DIR}/pairwise-%j.out
-	#SBATCH -e ${LOG_DIR}/pairwise-%j.err
-	#SBATCH -t 600
-	#SBATCH -n 1 
-	#SBATCH -c 2
-	#SBATCH --mem-per-cpu=2G
-	#SBATCH --threads-per-core=1 
-	#SBATCH -d $dependcontig
 	$LOAD_MINIMAP2
 	$LOAD_SAMTOOLS
 	$MINIMAP2_CMD -x asm5 $MATCH_REF ${FINAL_DIR}/final.contigs.fa > ${FINAL_DIR}/contig.paf
@@ -268,15 +225,6 @@ MINIMAP`
 dependcollectstats="${dependcollectstats}:$jid"
 jid=`sbatch <<- DOTPLOT | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH --partition=$QUEUE_X86
-	#SBATCH -o ${LOG_DIR}/dotplot-%j.out
-	#SBATCH -e ${LOG_DIR}/dotplot-%j.err
-	#SBATCH -t 600
-	#SBATCH -n 1 
-	#SBATCH -c 2
-	#SBATCH --mem-per-cpu=2G
-	#SBATCH --threads-per-core=1 
-	#SBATCH -d $dependcollectstats
 	$LOAD_PYTHON
 	source ${WORK_DIR}/call_dotplot.sh
 DOTPLOT`

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bedClip
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load kent/intel/20170111

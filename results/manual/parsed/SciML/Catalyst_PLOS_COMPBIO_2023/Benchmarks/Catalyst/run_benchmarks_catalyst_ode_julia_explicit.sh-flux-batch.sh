@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-motorcycle-2915
+#FLUX: --job-name=butterscotch-lemur-5461
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 JULIA_THREADS_TO_USE=1
 echo "Starts benchmark runs on the multistate model."

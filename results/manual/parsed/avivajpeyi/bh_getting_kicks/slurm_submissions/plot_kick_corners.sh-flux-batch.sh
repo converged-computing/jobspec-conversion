@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=corner_plotter
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bash_profile
 conda activate parallel_bilby

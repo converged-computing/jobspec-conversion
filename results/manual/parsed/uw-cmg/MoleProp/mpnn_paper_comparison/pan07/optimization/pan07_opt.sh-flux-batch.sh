@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-egg-0779
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-lizard-6124
+#FLUX: --urgency=16
 
 module load cuda/10.0
 module load groupmods/cudnn/10.0

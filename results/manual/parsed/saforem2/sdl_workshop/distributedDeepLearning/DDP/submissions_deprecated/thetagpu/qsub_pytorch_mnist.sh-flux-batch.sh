@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=placid-buttface-4640
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-omelette-0129
+#FLUX: --urgency=16
 

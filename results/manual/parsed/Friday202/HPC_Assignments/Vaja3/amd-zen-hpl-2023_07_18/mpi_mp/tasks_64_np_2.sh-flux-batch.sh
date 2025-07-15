@@ -3,7 +3,7 @@
 #FLUX: -n=64
 #FLUX: -c=2
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_TLS='self, tcp'
 

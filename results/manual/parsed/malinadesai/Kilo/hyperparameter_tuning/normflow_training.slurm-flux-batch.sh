@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-despacito-1184
+#FLUX: --job-name=rainbow-pot-2624
 #FLUX: -c=5
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/software.ppc64le/spack/v0.16.2/spack/opt/spack/linux-rhel8-power9le/gcc-8.3.1/anaconda3-2020.02-2ks5tchtak3kzzbryjloiqhusujnh67c/etc/profile.d/conda.sh
 conda activate /home/mmdesai/.conda/envs/my_torch

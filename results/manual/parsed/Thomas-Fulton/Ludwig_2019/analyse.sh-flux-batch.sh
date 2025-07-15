@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-hobbit-7210
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-hippo-6784
+#FLUX: --urgency=16
 
 export PATH='`pwd`/software/bin/:$PATH'
 export LANG='C.UTF-8 ; '

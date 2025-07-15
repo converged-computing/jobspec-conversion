@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-malarkey-1282
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-hippo-0318
+#FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1'
 

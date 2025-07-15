@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: --queue=amarsden
 #FLUX: -t=601200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/8.1.0

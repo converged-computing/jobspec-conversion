@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="RNAseq"
+#FLUX: --job-name=RNAseq
 #FLUX: -c=2
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $CONDA_ACTIVATE RNAseq
 echo "current date"

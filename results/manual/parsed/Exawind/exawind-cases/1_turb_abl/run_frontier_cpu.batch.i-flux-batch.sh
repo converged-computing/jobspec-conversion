@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-leg-1581
+#FLUX: --job-name=bumfuzzled-lentil-7152
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_MR_CACHE_MONITOR='memhooks'
 export FI_CXI_RX_MATCH_MODE='software'

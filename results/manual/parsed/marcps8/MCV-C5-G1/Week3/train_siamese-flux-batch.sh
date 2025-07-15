@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lentil-2878
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-hippo-2616
+#FLUX: --urgency=16
 
 python metric_learning.py --arch-type siamese --epochs 200 --process eval

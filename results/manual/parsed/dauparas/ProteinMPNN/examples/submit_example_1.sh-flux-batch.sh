@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-signal-0395
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-car-1063
+#FLUX: --urgency=16
 
 source activate mlfold
 folder_with_pdbs="../inputs/PDB_monomers/pdbs/"

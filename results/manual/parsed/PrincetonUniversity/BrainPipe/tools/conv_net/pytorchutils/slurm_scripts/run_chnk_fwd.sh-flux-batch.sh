@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-omelette-6445
-#FLUX: --priority=16
+#FLUX: --job-name=hello-earthworm-9096
+#FLUX: --urgency=16
 
 echo "Array Index: $SLURM_ARRAY_TASK_ID"
 module load cudatoolkit/10.0 cudnn/cuda-10.0/7.3.1 anaconda3/5.3.1

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-chair-4247
+#FLUX: --job-name=wobbly-poo-5397
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DISPLAY=':99.0'
 

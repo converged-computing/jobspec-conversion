@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-onion-8048
-#FLUX: --priority=16
+#FLUX: --job-name=phat-lemon-7812
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DeterjoSimon/NER_project/run_Proto.sh

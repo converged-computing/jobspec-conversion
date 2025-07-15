@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-kerfuffle-9274
+#FLUX: --job-name=delicious-poo-9161
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

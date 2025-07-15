@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-leader-1190
+#FLUX: --job-name=arid-citrus-4611
 #FLUX: -c=4
 #FLUX: --queue=teton-gpu
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load swset/2018.05
 module load cuda/10.1.243

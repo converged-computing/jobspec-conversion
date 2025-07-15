@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cupcake-0288
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-cattywampus-4636
+#FLUX: --urgency=16
 
 export NXF_TEMP='/scratch'
 export NXF_LAUNCHBASE='/scratch'

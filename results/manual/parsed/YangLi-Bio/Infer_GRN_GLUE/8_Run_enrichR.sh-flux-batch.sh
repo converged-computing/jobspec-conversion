@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Run_enrichR
 #FLUX: -t=42659
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 cd /fs/ess/PCON0022/liyang/STREAM/benchmarking/GLUE/Codes/

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-poodle-4049
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-signal-4402
+#FLUX: --urgency=16
 
 arg1=$1
 arg2=$2

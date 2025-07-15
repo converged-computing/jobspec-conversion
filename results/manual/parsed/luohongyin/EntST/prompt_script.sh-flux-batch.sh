@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-pancake-5513
+#FLUX: --job-name=pusheena-itch-6240
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 domain='rte'

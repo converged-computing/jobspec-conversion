@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-motorcycle-7859
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-sundae-3860
+#FLUX: --urgency=16
 
 module load intel
 module load intel-mpi

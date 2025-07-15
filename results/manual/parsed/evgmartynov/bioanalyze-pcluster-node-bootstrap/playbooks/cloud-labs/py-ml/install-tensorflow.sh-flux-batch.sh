@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-sundae-4841
+#FLUX: --job-name=crunchy-arm-8288
 #FLUX: --exclusive
 #FLUX: --queue=dev
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack install \
   --no-check-signature \

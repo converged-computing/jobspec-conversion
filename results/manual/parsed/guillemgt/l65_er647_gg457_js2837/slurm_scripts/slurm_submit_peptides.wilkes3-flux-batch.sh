@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-toaster-4718
+#FLUX: --job-name=misunderstood-nalgas-8582
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

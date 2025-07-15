@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="smart_test"
+#FLUX: --job-name=smart_test
 #FLUX: --exclusive
 #FLUX: --queue=THIN
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export code='/u/external/aiace9/tests/STREAM/code'
 export run_dir='$(pwd)'

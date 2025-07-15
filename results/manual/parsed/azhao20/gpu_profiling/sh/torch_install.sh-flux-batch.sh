@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-despacito-5971
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-lettuce-7611
+#FLUX: --urgency=16
 
 export HOME='/n/holylabs/LABS/idreos_lab/Users/azhao'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-citrus-8965
+#FLUX: --job-name=wobbly-milkshake-7246
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=gpu-dev
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="Grid-search Linearly Separable (ECCCo)"
+#FLUX: --job-name=Grid-search Linearly Separable (ECCCo)
 #FLUX: -n=10
 #FLUX: -c=5
 #FLUX: --queue=general
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/insy/modulefiles          # Use DAIC INSY software collection
 module load openmpi

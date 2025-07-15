@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=opt
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_DATASETS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'
 export TRANSFORMERS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'

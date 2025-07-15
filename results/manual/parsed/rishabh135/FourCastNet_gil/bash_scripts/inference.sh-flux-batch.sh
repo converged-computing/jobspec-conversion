@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-egg-6549
+#FLUX: --job-name=loopy-peanut-6489
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PRECXX11ABI='1'
 export CUDA='11.7'

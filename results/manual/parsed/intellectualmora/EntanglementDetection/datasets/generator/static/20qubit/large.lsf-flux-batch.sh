@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-dog-8440
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-soup-9182
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/intellectualmora/EntanglementDetection/datasets/generator/static/20qubit/large.lsf

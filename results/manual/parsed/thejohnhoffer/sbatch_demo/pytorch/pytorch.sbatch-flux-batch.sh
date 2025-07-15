@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bicycle-5332
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-malarkey-1346
+#FLUX: --urgency=16
 
 source new-modules.sh
 module load python/2.7.11-fasrc01

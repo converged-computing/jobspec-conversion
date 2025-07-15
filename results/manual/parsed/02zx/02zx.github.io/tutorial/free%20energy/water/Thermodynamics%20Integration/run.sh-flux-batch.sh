@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-nalgas-6051
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-lettuce-8917
+#FLUX: --urgency=16
 
 module load compiler/gcc/7.3.1
 module load compiler/intel/2021.3.0

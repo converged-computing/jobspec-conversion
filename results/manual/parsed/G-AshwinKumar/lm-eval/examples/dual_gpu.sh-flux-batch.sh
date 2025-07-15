@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-onion-8075
+#FLUX: --job-name=evasive-destiny-8107
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MODEL_NAME="meditron-7b"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

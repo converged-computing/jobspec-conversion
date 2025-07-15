@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-muffin-4411
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-hippo-6048
+#FLUX: --urgency=16
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <genome_fasta>"

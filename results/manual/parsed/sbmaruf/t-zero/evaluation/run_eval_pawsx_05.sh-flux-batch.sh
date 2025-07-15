@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-blackbean-4014
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-parsnip-0171
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='5'
 

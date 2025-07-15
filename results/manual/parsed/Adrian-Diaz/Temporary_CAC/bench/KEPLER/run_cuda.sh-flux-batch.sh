@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-chip-2823
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-cupcake-0981
+#FLUX: -t=43200
+#FLUX: --urgency=16
 
 mpirun -N 1 lmp_cuda_double -c on -sf cuda -pk cuda 1 -v x 32 -v y 32 -v z 32 -v t 100 < in.lj
 mv log.lammps log.10Sep14.lj.cuda.double.128K.1

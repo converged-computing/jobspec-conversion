@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-milkshake-5420
+#FLUX: --job-name=gloopy-cherry-9511
 #FLUX: -c=2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LIBRARY_PATH='$LIBRARY_PATH:~/libtensorflow2/lib'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:~/libtensorflow2/lib'

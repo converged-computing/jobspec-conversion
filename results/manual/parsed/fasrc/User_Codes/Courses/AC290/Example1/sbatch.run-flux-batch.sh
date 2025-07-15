@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-general-1295
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-salad-2918
+#FLUX: --urgency=16
 
 WORK_DIR=/scratch/${USER}/${SLURM_JOB_ID}
 PRO=mpi_hello

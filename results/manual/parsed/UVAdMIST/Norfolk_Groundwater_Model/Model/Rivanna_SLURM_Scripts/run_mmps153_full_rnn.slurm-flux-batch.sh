@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-fudge-6684
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-platanos-9148
+#FLUX: --urgency=16
 
 module purge
 module load singularity tensorflow/1.6.0-py36

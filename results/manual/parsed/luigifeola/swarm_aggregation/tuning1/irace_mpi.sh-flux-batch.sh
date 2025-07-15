@@ -2,7 +2,7 @@
 #FLUX: --job-name=irace_mpi_tuning1
 #FLUX: -n=21
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load OpenMPI
 module load R

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-truffle-0642
+#FLUX: --job-name=creamy-car-6976
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

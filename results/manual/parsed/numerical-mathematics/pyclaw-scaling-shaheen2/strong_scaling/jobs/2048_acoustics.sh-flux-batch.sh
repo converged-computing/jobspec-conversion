@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-toaster-9272
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-toaster-2810
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PYTHONPATH='/project/k1069/lib/python2.7/site-packages:$PYTHONPATH'

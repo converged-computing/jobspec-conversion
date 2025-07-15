@@ -5,7 +5,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=skl_usr_prod
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='disable'
 export HFI_NO_CPUAFFINITY='1'

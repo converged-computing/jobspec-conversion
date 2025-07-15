@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-hobbit-3037
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-arm-0593
+#FLUX: --urgency=16
 
 export WORK='$SCRATCH/adse13_249/LY99'
 export TRIAL='ly99sim'

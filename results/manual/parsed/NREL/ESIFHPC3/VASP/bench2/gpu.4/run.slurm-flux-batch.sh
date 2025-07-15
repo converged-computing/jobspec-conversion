@@ -2,7 +2,7 @@
 #FLUX: --job-name=gb2.4
 #FLUX: -N=4
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module use /nopt/nrel/apps/modules/centos74/modulefiles/

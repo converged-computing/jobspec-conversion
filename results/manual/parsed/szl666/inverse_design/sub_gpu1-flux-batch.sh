@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-fork-7570
+#FLUX: --job-name=conspicuous-carrot-9572
 #FLUX: -c=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.3
 python stable_pre.py

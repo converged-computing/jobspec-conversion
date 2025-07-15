@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-omelette-6919
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-spoon-4887
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nicamdc-dev/nicamdc/sysdep/Mkjobshell.Yellowstone.sh

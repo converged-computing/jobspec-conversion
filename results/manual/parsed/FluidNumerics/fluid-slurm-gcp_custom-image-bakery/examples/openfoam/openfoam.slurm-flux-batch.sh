@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-citrus-8229
+#FLUX: --job-name=lovely-kerfuffle-5670
 #FLUX: -n=8
 #FLUX: --queue=openfoam
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/openmpi.sh
 source /etc/profile.d/openfoam.sh

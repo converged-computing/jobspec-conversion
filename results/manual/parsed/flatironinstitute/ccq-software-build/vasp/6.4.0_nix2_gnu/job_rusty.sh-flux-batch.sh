@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="lno-scf"
+#FLUX: --job-name=lno-scf
 #FLUX: --queue=ccq
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 

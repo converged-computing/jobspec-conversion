@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-snack-5195
+#FLUX: --job-name=placid-cupcake-3501
 #FLUX: --exclusive
 #FLUX: -t=32400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$root_dir"/core:"$LD_LIBRARY_PATH'
 export PYTHONPATH='$root_dir"/dask:"$PYTHONPATH'

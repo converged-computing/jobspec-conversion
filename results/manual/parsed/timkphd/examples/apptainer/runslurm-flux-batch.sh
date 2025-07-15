@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="hybrid"
+#FLUX: --job-name=hybrid
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=standard
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_PROVIDER='tcp'
 export MPIR_CVAR_DEBUG_SUMMARY='1'

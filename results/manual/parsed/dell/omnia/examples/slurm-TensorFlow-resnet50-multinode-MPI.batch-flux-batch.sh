@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-pastry-3419
-#FLUX: --priority=16
+#FLUX: --job-name=salted-knife-5921
+#FLUX: --urgency=16
 
 mpirun  \ 
       --map-by numa  \

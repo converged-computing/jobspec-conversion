@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-butter-3094
+#FLUX: --job-name=pusheena-fork-5930
 #FLUX: -c=12
 #FLUX: --queue=ccr
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load nextflow

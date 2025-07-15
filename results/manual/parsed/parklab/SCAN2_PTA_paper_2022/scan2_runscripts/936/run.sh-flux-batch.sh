@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-arm-1706
-#FLUX: --priority=16
+#FLUX: --job-name=faux-lemur-9772
+#FLUX: --urgency=16
 
 /n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv \
     --ref /n/data1/hms/dbmi/park/jluquette/genotyper1/paper/resources/human_g1k_v37_decoy.fasta \

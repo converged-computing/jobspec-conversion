@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-poodle-2443
+#FLUX: --job-name=crunchy-animal-6035
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 source /share/apps/anaconda/3-2019.03/etc/profile.d/conda.sh

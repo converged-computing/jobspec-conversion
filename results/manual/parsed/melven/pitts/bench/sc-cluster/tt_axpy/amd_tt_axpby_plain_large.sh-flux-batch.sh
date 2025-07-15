@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hope-3524
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-lentil-5676
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='100M'
 

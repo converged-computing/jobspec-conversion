@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-chip-2579
-#FLUX: --priority=16
+#FLUX: --job-name=confused-earthworm-5855
+#FLUX: --urgency=16
 
 export BASEDIR='$PWD'
 export OUTPUT_DATADIR='$PWD'

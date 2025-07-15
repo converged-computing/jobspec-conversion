@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-peanut-9822
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-malarkey-2926
+#FLUX: --urgency=16
 
 export PYTHONPATH='./'
 

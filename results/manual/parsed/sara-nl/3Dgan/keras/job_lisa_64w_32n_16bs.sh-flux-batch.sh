@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lettuce-1356
+#FLUX: --job-name=conspicuous-hippo-0770
 #FLUX: -N=32
 #FLUX: --queue=test
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KERAS_BACKEND='tensorflow'
 export OMP_NUM_THREADS='$OMP_NUM_THREADS'

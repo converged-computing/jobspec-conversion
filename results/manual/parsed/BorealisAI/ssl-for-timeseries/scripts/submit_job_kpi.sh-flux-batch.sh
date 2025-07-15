@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-destiny-9440
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-salad-5128
+#FLUX: --urgency=16
 
 for seed in 1 2 3 4 5
 do

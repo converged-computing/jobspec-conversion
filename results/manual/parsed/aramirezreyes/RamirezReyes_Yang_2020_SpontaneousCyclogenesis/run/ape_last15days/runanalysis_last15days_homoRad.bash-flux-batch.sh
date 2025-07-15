@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-despacito-1836
+#FLUX: --job-name=expressive-hobbit-5202
 #FLUX: -N=3
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$SCRATCH'
 

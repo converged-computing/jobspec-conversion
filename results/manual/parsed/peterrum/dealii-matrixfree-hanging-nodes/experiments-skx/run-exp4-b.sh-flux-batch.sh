@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-sundae-4246
+#FLUX: --job-name=doopy-salad-7304
 #FLUX: -N=16
 #FLUX: --queue=micro
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload intel-mpi/2019-intel
 module unload intel/19.0.5

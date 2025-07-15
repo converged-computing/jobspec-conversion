@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-hope-8768
+#FLUX: --job-name=strawberry-fork-0938
 #FLUX: -n=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 TWITTER=$1
 MELB_GRID=$2

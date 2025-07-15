@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bits-6286
+#FLUX: --job-name=psycho-chair-3830
 #FLUX: --queue=cor,general
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/11.2

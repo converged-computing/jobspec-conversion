@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-house-6402
-#FLUX: --priority=16
+#FLUX: --job-name=phat-sundae-5849
+#FLUX: --urgency=16
 
 args=( )
 for arg; do

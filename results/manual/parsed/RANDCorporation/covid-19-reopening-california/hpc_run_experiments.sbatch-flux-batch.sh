@@ -2,7 +2,7 @@
 #FLUX: --job-name=c19
 #FLUX: --queue=dis
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu
 mkdir -p $SLURM_SUBMIT_DIR/02_future_runs/outputs

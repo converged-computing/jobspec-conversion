@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-snack-7361
+#FLUX: --job-name=hello-blackbean-0069
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cmake/3.25.0 intel/2020 intel-rtl/2020 ffmpeg/4.2.1 openmpi/4.1.0-intel hdf5/1.10.7-intel-mpi
 conda activate ost

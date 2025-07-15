@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leg-4829
+#FLUX: --job-name=milky-leopard-3330
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

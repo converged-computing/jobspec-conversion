@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-itch-0516
+#FLUX: --job-name=lovely-carrot-8432
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCOREP_SUBSTRATE_PLUGINS='rrl'
 export SCOREP_RRL_VERBOSE='WARN'

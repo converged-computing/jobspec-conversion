@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-onion-0113
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-signal-5959
+#FLUX: --urgency=16
 
 module load cudatoolkit/10.0 cudnn/cuda-10.0/7.3.1 anaconda3/5.3.1
 . activate 3dunet

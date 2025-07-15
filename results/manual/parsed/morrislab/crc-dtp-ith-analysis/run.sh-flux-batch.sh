@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-omelette-1197
-#FLUX: --priority=16
+#FLUX: --job-name=tart-motorcycle-4464
+#FLUX: --urgency=16
 
 set -euo pipefail
 PYTHON=$HOME/.apps/miniconda3/bin/python3

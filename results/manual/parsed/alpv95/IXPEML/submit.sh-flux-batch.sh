@@ -2,7 +2,7 @@
 #FLUX: --job-name=GPUtest
 #FLUX: --queue=owners
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml gsl
 ml python/3.9

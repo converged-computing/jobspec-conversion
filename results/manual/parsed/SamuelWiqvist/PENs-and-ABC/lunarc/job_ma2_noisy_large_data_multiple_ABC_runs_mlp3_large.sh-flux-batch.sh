@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-poo-2154
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-frito-2661
+#FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

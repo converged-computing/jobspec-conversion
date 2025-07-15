@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cat-8372
+#FLUX: --job-name=bricky-blackbean-9838
 #FLUX: -N=20
 #FLUX: -n=400
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ini='litebird1.ini'
 

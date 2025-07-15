@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=standard
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPIRUN_OPTIONS='--bind-to core --map-by node:PE=${SLURM_CPUS_PER_TASK} -report-bindings'
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

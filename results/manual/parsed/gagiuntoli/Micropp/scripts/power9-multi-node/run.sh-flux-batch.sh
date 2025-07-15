@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="micropp"
+#FLUX: --job-name=micropp
 #FLUX: -n=320
 #FLUX: --exclusive
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

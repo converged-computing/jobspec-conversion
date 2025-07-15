@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="Curaba_test"
+#FLUX: --job-name=Curaba_test
 #FLUX: --exclusive
 #FLUX: --queue=EPYC
 #FLUX: -t=2700
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export code='/u/dssc/ccurab00/scratch/Foundations_of_HPC_2022/Assignment/exercise2'
 export OMP_PLACES='sockets'

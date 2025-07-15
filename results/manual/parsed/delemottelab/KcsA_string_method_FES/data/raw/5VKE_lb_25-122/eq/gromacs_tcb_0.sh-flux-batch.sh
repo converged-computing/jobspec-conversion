@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-egg-2755
-#FLUX: --priority=16
+#FLUX: --job-name=tart-leg-9626
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

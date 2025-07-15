@@ -3,7 +3,7 @@
 #FLUX: -n=160
 #FLUX: -c=2
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ROOT_FOLDER='/gpfswork/rech/imi/usc19dv/captionRLenv/'
 export DATA_FOLDER='/gpfsscratch/rech/imi/usc19dv/data/UR5/'

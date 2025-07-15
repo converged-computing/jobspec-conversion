@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-peanut-butter-1546
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-cat-6517
+#FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

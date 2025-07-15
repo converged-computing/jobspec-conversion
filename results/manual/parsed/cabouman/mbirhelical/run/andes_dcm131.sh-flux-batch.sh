@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-toaster-8103
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-parsnip-6274
+#FLUX: --urgency=16
 
 export NUM_NODES='$SLURM_JOB_NUM_NODES'
 export NUM_FOCAL_SPOTS='1'

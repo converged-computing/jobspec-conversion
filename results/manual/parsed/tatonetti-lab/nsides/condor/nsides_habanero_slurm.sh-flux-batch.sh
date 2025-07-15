@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=NSIDES_%A_%a		 # a single job name
-#FLUX: --priority=16
+#FLUX: --job-name=NSIDES_%A_%a
+#FLUX: --urgency=16
 
 start=`date +%s`
 module load cuda80/toolkit cuda80/blas cudnn/5.1

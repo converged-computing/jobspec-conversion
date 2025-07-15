@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-butter-3363
-#FLUX: --priority=16
+#FLUX: --job-name=blank-carrot-9068
+#FLUX: --urgency=16
 
 ptRoot=$(cd ..; pwd)
 . "${ptRoot}/scripts/commonFunctionsForTests.sh"

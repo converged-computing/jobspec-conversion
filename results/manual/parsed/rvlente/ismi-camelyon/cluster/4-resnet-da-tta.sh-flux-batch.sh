@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-caramel-7546
+#FLUX: --job-name=swampy-blackbean-6816
 #FLUX: -c=18
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2021
 module load TensorFlow/2.6.0-foss-2021a-CUDA-11.3.1

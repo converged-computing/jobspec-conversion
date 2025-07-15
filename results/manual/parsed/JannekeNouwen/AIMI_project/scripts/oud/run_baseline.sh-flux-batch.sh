@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-arm-5596
+#FLUX: --job-name=outstanding-omelette-1123
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export nnUNet_raw='/home/ljulius/algorithm/nnunet/nnUNet_raw'
 export nnUNet_preprocessed='/home/ljulius/algorithm/nnunet/nnUNet_preprocessed'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-itch-6406
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-hope-6146
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/argonne-lcf/alcf-nccl-tests/pytests/run3.sh

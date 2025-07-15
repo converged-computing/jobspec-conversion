@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-poo-1691
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-dog-2314
+#FLUX: --urgency=16
 
 pipe="ATACseq"
 cwd=$1

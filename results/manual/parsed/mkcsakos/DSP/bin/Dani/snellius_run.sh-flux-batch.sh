@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-staircase-7402
+#FLUX: --job-name=doopy-ricecake-7336
 #FLUX: --queue=rome
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "gpus $SLURM_GPUS on node: $SLURM_GPUS_ON_NODE"
 echo "nodes nnodes: $SLURM_NNODES, nodeid: $SLURM_NODEID, nodelist $SLURM_NODELIST"

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=compile
 #FLUX: -t=7500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VER_USER='                ########## Your own USER Directory'
 

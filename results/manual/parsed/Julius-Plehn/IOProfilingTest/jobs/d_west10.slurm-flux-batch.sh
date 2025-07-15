@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-banana-9239
+#FLUX: --job-name=adorable-house-7989
 #FLUX: -N=10
 #FLUX: -n=10
 #FLUX: --queue=west
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DARSHAN_DISABLE_SHARED_REDUCTION='1'
 

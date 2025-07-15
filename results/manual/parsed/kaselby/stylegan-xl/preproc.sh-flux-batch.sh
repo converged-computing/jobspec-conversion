@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=stylegan-xl
 #FLUX: --queue=a40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 src=$1
 tgt=$2

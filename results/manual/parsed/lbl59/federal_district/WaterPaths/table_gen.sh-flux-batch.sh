@@ -2,7 +2,7 @@
 #FLUX: --job-name=callgrind
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16                       # tell the cube to use all 16 core within the node to run this'
 

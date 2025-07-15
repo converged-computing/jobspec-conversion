@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-onion-5495
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-milkshake-4688
+#FLUX: --urgency=16
 
 module load pytorch/v1.0.1
 which python

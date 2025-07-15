@@ -2,7 +2,7 @@
 #FLUX: --job-name=cfq_wandb
 #FLUX: -c=40
 #FLUX: -t=450000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NJOBS='${NJOBS:-4}'
 export CFQ_DIR='data/cfq'

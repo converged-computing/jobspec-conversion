@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-lamp-1521
+#FLUX: --job-name=lovable-latke-4840
 #FLUX: -n=12
 #FLUX: --queue=debug
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ulimit -s unlimited
 ulimit -l unlimited

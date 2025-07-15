@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-staircase-6440
+#FLUX: --job-name=wobbly-banana-2872
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_TOPO_FILE='/nccl/topo.xml'
 export FI_PROVIDER='efa'

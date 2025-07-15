@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-butter-6238
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-punk-8593
+#FLUX: --urgency=16
 
 export all_proxy='socks://proxy.ccs.ornl.gov:3128'
 export ftp_proxy='ftp://proxy.ccs.ornl.gov:3128'

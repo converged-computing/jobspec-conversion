@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-caramel-6730
-#FLUX: --priority=16
+#FLUX: --job-name=fat-puppy-0455
+#FLUX: --urgency=16
 
 module load nvidia/11.1
 module load anaconda3/latest

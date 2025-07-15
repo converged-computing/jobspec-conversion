@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-hobbit-0365
+#FLUX: --job-name=phat-kerfuffle-2782
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

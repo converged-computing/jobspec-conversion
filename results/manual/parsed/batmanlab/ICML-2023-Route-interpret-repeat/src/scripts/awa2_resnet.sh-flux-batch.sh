@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-general-1016
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-poo-5572
+#FLUX: --urgency=16
 
 pwd; hostname; date
 CURRENT=`date +"%Y-%m-%d_%T"`

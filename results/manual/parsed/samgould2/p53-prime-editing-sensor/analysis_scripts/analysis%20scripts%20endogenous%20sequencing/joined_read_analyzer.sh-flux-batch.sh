@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-poodle-7469
-#FLUX: --priority=15
+#FLUX: --job-name=arid-parsnip-3709
+#FLUX: --urgency=15
 
 module load miniconda3/v4
 source /home/software/conda/miniconda3/bin/condainit

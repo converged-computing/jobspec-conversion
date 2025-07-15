@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=dpart
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 module load cuda/11.3.1   

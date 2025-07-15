@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-chip-6303
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-earthworm-5428
+#FLUX: --urgency=16
 

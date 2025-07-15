@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-plant-0389
+#FLUX: --job-name=swampy-butter-4917
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BATCHSIZE='8'
 export DO_PROFILING='false'  # true or false'

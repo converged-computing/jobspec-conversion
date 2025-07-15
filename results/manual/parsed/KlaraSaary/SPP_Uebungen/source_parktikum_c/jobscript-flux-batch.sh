@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-cinnamonbun-5957
+#FLUX: --job-name=stinky-knife-2677
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "This is Job $SLURM_JOB_ID"
 module load gcc

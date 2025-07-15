@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-kitty-0891
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-banana-8117
+#FLUX: --urgency=16
 
 module load python/3.6.6
 module load gcc/6.2  

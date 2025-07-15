@@ -2,7 +2,7 @@
 #FLUX: --job-name=TaxoComplete
 #FLUX: --queue=nodes
 #FLUX: -t=190800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $(pwd)
 module load miniconda/3

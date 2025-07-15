@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-avocado-3265
+#FLUX: --job-name=astute-platanos-3079
 #FLUX: -c=8
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_DATASETS_OFFLINE='1'
 export HF_DATASETS_CACHE='/scratch/project_462000119/ds_cache'

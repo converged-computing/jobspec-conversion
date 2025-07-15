@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pot-7835
+#FLUX: --job-name=expensive-punk-2361
 #FLUX: -N=18
 #FLUX: -n=720
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load intel/19.1.2

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="torch350"
-#FLUX: --priority=16
+#FLUX: --job-name=torch350
+#FLUX: --urgency=16
 
 module load Tensorflow-gpu/1.12.0-foss-2017a-Python-3.6.4
 module load PyTorch/1.1.0-foss-2017a-Python-3.6.4-CUDA-9.0.176

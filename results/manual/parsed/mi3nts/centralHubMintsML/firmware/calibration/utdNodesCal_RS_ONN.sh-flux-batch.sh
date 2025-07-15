@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-itch-9043
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-blackbean-6759
+#FLUX: --urgency=16
 
 echo Running calibration scripts for UTD Node: "$SLURM_ARRAY_TASK_ID"
 echo Running on host: `hostname`

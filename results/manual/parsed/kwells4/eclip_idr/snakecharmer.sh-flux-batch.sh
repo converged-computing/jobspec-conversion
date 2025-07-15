@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-salad-1979
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-peanut-2796
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kwells4/eclip_idr/snakecharmer.sh

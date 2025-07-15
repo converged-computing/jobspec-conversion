@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-knife-1886
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-parrot-1768
+#FLUX: --urgency=16
 
 module load picard
 module load gatk/4.4.0.0

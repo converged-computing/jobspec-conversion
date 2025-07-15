@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-rabbit-2847
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-omelette-5786
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jackbinysh/MScProject/ParameterFitting/data/16_8_all_datasets/Submit.pbs

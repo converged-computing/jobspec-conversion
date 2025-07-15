@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-mango-8641
+#FLUX: --job-name=carnivorous-cattywampus-5224
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 GALSIM_DIR=/users/jmcclear/data/superbit/superbit-metacal/GalSim
 CONFIG_FILE=$GALSIM_DIR/superbit_parameters_debugforecast.yaml

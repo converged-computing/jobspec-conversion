@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=snake_ciri_gdsc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /cluster/home/amammoli/.bashrc
 module load python3

@@ -2,7 +2,7 @@
 #FLUX: --job-name=resnet18_sngp_cifar10
 #FLUX: -c=8
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 export HYDRA_FULL_ERROR='1'

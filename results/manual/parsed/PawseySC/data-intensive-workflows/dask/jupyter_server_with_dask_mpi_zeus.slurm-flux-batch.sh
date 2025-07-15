@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-sundae-2873
+#FLUX: --job-name=chunky-puppy-8976
 #FLUX: -N=2
 #FLUX: -n=56
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

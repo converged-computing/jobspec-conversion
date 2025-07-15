@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cat-1658
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-nunchucks-5860
+#FLUX: --urgency=16
 

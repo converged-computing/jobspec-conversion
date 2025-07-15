@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cinnamonbun-6982
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-gato-6975
+#FLUX: --urgency=16
 
 set -x
 module load Anaconda3/2020.11

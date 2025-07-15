@@ -2,7 +2,7 @@
 #FLUX: --job-name=randomgame
 #FLUX: -c=80
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load Python/3.9.6-GCCcore-11.2.0

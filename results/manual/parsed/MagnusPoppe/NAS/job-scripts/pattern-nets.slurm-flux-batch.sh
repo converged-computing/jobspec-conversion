@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="PATTERN-NAS"
+#FLUX: --job-name=PATTERN-NAS
 #FLUX: -N=2
 #FLUX: --queue=EPICALL
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EA_NAS_UPLOAD_TO_FIREBASE='0'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-gato-5165
+#FLUX: --job-name=chunky-destiny-0524
 #FLUX: -c=4
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 targets=('troglitazone_rediscovery' 'sitagliptin_mpo' 'median2')
 seeds=(1 2 3)

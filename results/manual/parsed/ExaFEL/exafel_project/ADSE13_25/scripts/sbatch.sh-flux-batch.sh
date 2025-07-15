@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-puppy-4085
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-despacito-3924
+#FLUX: --urgency=16
 
 NODES=64
 NUM_RANKS=$((NODES*68))

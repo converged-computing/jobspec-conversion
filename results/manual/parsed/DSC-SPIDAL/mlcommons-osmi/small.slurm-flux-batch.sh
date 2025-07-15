@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-peanut-0364
+#FLUX: --job-name=conspicuous-hope-6743
 #FLUX: --queue=bii-gpu
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate osmi

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-nunchucks-6240
-#FLUX: --priority=16
+#FLUX: --job-name=phat-plant-7421
+#FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/yb_lyso/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='1'

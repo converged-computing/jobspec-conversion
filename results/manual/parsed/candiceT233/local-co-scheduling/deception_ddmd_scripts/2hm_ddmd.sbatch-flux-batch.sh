@@ -2,7 +2,7 @@
 #FLUX: --job-name=2hm_sc_ddmd_n2t24i1_100ps
 #FLUX: --queue=a100
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SKIP_OPENMM=false
 SHORTENED_PIPELINE=true

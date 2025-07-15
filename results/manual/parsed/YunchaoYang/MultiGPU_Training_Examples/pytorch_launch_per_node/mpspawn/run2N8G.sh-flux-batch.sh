@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-itch-2081
+#FLUX: --job-name=hanky-citrus-6908
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: --queue=hpg-ai
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(hostname)'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-fudge-6770
+#FLUX: --job-name=dirty-platanos-4380
 #FLUX: --queue=gpuq
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/group/mwaops/phancock/code/Aegean:$PATH'
 export PYTHONPATH='/group/mwaops/phancock/code/Aegean:$PYTHONPATH'

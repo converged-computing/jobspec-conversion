@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="20YEAR_MONTH"
-#FLUX: --priority=16
+#FLUX: --job-name=20YEAR_MONTH
+#FLUX: --urgency=16
 
 module load intel openmpi
 module load anaconda/3.7.3

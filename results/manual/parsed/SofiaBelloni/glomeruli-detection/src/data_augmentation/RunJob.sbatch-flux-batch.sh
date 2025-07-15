@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=data_augmentation
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel/python/3/2019.4.088
 module load nvidia/cudasdk/11.6

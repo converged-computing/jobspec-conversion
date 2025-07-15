@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=m9res
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'
 export OMP_NUM_THREADS='1'

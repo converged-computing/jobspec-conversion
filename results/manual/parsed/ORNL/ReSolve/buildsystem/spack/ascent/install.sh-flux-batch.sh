@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-animal-3303
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-general-3693
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ORNL/ReSolve/buildsystem/spack/ascent/install.sh

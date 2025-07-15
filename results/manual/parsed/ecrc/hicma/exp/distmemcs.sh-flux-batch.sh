@@ -2,7 +2,7 @@
 #FLUX: --job-name=hicma
 #FLUX: -c=40
 #FLUX: --queue=batch
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export STARPU_CALIBRATE='0'
 

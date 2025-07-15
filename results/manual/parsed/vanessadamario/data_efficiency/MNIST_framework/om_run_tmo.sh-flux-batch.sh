@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=avg_r2r
 #FLUX: --queue=cbmm
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add openmind/singularity/3.4.1
 offset_array=(6781)

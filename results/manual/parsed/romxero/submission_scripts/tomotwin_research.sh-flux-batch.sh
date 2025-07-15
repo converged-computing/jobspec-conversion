@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-train-9890
+#FLUX: --job-name=butterscotch-mango-0372
 #FLUX: -t=15000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SPACK_ENV_NAME="LBANN_experiment"
 ml purge

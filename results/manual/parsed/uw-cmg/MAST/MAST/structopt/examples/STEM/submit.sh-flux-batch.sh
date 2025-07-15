@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-kerfuffle-5852
-#FLUX: --priority=16
+#FLUX: --job-name=purple-butter-1498
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/uw-cmg/MAST/MAST/structopt/examples/STEM/submit.sh

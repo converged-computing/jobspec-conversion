@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-punk-6706
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-lemur-5681
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hariseldon99/gromacs_sims/MMP2_sb3ct/Complex/gromacs_rmsd.pbs

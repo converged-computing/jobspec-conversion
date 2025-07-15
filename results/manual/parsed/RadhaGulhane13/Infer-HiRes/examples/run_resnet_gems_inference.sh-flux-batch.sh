@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-nalgas-4483
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-sundae-3207
+#FLUX: --urgency=16
 
 export PYTHONNOUSERSITE='true'
 export MV2_HOME='/home/gulhane.2/mvapich2-installation/nvidia/gdr2.3.7_cuda11.6_gcc10.3.0'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bits-4614
+#FLUX: --job-name=joyous-knife-7179
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

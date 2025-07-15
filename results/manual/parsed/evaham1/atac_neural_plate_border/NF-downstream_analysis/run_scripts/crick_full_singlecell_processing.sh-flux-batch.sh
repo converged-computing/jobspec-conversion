@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=atac-NPB
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TERM='xterm'
 export NXF_VER='21.10.6'

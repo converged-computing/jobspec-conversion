@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="s-270-3500"
+#FLUX: --job-name=s-270-3500
 #FLUX: -c=7
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cudatoolkit/10.0

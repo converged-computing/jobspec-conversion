@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=io500-ai400
 #FLUX: -N=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/usr/mpi/gcc/openmpi-4.0.3rc4/bin:$PATH'
 

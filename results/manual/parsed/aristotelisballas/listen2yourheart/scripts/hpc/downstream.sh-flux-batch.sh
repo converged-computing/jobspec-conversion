@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-train-0169
+#FLUX: --job-name=nerdy-pancake-4488
 #FLUX: --queue=yoda
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/${USER}/miniconda3/etc/profile.d/conda.sh
 conda activate listen2yourheart

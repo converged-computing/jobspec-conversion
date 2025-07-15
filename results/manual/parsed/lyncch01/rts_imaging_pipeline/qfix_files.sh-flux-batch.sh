@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pedo-8051
+#FLUX: --job-name=muffled-snack-2316
 #FLUX: --queue=workq
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/pawsey/intel/19.0.5/mkl/lib/intel64/'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-milkshake-7750
+#FLUX: --job-name=persnickety-chair-5173
 #FLUX: --queue=physical
 #FLUX: -t=50400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'

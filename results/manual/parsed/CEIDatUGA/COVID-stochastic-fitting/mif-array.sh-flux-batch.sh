@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-bike-5475
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-lentil-9339
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CEIDatUGA/COVID-stochastic-fitting/mif-array.sh

@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=barton
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /share/spack/gcc-7.2.0/miniconda3-4.5.12-gkh/bin/activate /share/spack/gcc-7.2.0/miniconda3-4.5.12-gkh/envs/tflow
 echo "Trial 1..."

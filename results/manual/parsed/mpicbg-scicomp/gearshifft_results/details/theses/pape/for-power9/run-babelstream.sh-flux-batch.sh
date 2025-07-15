@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-buttface-0780
+#FLUX: --job-name=chunky-blackbean-7907
 #FLUX: -c=176
 #FLUX: --exclusive
 #FLUX: --queue=ml
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eo pipefail
 function cpuList {

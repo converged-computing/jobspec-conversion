@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=predictions
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda3/2020.02

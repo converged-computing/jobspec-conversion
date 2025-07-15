@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name='mh'
+#FLUX: --job-name=mh
 #FLUX: -c=4
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_TOKEN='$(cat hf_token.txt)'
 

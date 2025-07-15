@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-noodle-0394
-#FLUX: --priority=16
+#FLUX: --job-name=purple-kitty-4560
+#FLUX: --urgency=16
 
 module load tensorflow/1.5.0_gpu_py3
 module load cuda/9.0.176

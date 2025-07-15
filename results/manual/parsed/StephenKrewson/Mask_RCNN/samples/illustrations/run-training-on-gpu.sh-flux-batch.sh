@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-truffle-4376
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-peanut-9031
+#FLUX: --urgency=16
 
 module purge
 module load Apps/Matlab/R2017b

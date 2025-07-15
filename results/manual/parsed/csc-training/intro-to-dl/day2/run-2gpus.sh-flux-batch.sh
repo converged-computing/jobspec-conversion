@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-milkshake-2259
+#FLUX: --job-name=chunky-onion-8080
 #FLUX: -c=14
 #FLUX: --gpus-per-task=2
 #FLUX: --queue=small-g
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATADIR='$COURSE_SCRATCH/data'
 export TORCH_HOME='$COURSE_SCRATCH/torch-cache'

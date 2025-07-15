@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-leg-1946
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-motorcycle-9276
+#FLUX: --urgency=16
 
 export IFS=';'
 

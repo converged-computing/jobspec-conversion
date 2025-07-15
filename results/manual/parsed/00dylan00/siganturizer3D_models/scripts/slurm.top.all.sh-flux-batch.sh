@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="${job_name}_${i}"
+#FLUX: --job-name=${job_name}_${i}
 #FLUX: -c=16
 #FLUX: -t=15000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_LD_LIBRARY_PATH='\$LD_LIBRARY_PATH'
 export SINGULARITY_BINDPATH='/home/sbnb'

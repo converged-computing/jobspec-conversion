@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-noodle-2186
-#FLUX: --priority=16
+#FLUX: --job-name=angry-onion-4788
+#FLUX: --urgency=16
 
 module purge
 module list

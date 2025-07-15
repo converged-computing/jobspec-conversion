@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-omelette-1924
+#FLUX: --job-name=confused-mango-0965
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $HOME/miniconda3/etc/profile.d/conda.sh
 conda activate fmri_env

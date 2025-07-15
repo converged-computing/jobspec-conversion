@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-destiny-8617
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-omelette-9171
+#FLUX: -t=604800
+#FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='bigdata'
 export SINGULARITYENV_PASACONF='pasa.config.txt'

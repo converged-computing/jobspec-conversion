@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-knife-2129
-#FLUX: --priority=16
+#FLUX: --job-name=milky-train-2421
+#FLUX: --urgency=16
 
 module load gcc
 module load python3

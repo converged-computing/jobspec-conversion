@@ -3,7 +3,7 @@
 #FLUX: -n=32
 #FLUX: --queue=cm3atou
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}
 rm -f dump.* shear.*

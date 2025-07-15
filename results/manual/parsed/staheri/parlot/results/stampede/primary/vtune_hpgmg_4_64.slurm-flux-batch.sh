@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pot-8973
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-eagle-5810
+#FLUX: --urgency=16
 
 export PATH='$PATH:$HOME/apps/valgrind/bin'
 

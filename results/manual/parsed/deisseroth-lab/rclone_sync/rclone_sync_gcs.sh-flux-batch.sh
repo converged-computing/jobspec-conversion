@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-spoon-0112
+#FLUX: --job-name=milky-malarkey-1346
 #FLUX: --queue=normal
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 remote_name="${USER}_gcs_backup"
 gcs_path="dlab-backup-${USER}"

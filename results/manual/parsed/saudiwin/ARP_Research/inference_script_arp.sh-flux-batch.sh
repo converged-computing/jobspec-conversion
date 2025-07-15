@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-plant-3331
+#FLUX: --job-name=spicy-lemur-5338
 #FLUX: -c=128
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FITTYPE='${SLURM_ARRAY_TASK_ID}'
 export DATATYPE='all'

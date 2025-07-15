@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-peanut-3181
+#FLUX: --job-name=misunderstood-frito-7932
 #FLUX: -n=8
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load fosscuda/2019b

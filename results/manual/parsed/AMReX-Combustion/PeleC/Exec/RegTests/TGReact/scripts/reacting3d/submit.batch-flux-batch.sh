@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pelec_tgreact
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ../set_environment.sh
 mpi_ranks=$(expr $SLURM_JOB_NUM_NODES \* $ranks_per_node)

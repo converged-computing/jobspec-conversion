@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=LipNet  #change name of ur job
-#FLUX: --queue=standard  #there are various partition. U can change various GPUs
+#FLUX: --job-name=LipNet
+#FLUX: --queue=standard
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load DL-Conda_3.7
 source /home/apps/DL/DL-CondaPy3.7/bin/activate torch

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lizard-0526
-#FLUX: --priority=16
+#FLUX: --job-name=tart-malarkey-2058
+#FLUX: --urgency=16
 
 export GPAW_SETUP_PATH='$GPAW_SETUP_PATH:./'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parsnip-9267
+#FLUX: --job-name=pusheena-soup-8499
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'
 export I_MPI_PIN_ORDER='scatter # Adjacent domains have minimal sharing of caches/sockets'

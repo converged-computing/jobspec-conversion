@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-bike-0121
-#FLUX: --priority=16
+#FLUX: --job-name=red-latke-4266
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/forestliurui/transformer_models/pretrain/scripts/single_node_bert.lsf

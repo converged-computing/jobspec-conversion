@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-bike-6225
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-nunchucks-1762
+#FLUX: --urgency=16
 
 export WORK='$SCRATCH/adse13_249/LY99'
 export OUT_DIR='${PWD}'

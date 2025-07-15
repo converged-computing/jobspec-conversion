@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-noodle-0347
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-peanut-butter-7367
+#FLUX: --urgency=16
 
 source wfenv.sh
 echo "verifying loaded modules..."

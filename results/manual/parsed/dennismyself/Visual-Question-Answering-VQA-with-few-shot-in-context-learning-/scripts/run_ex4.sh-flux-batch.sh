@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-leg-6487
+#FLUX: --job-name=doopy-leopard-3972
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-dog-5766
+#FLUX: --job-name=strawberry-knife-8214
 #FLUX: --exclusive
 #FLUX: --queue=pvc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CCL_ZE_IPC_EXCHANGE='sockets'
 export ZE_FLAT_DEVICE_HIERARCHY='FLAT'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-mango-8978
+#FLUX: --job-name=salted-noodle-3672
 #FLUX: -n=168
 #FLUX: --queue=broadwl
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load parallel
 module load hdf5

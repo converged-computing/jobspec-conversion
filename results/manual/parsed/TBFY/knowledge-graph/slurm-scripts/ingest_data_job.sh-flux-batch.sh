@@ -2,7 +2,7 @@
 #FLUX: --job-name=INGEST_DATA
 #FLUX: --queue=sintef
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATE='`date +%F_%H%M`'
 

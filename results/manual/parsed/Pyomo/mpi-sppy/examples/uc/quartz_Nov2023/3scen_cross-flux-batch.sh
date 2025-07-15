@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lettuce-4545
-#FLUX: --priority=16
+#FLUX: --job-name=milky-underoos-8246
+#FLUX: --urgency=16
 
 export MPICH_ASYNC_PROGRESS='1'
 

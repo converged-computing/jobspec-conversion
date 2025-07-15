@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pedo-4809
-#FLUX: --priority=16
+#FLUX: --job-name=blue-underoos-3179
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/intel/compilers_and_libraries/linux/mkl/lib/intel64_lin'
 

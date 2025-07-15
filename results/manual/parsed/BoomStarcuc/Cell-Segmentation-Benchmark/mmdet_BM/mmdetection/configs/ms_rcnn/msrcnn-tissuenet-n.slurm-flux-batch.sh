@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-platanos-3388
+#FLUX: --job-name=carnivorous-peanut-butter-0154
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load cuda@11.0.2%gcc@9.3.0/lrd2rcw
 cd mmdetection

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-onion-5457
+#FLUX: --job-name=strawberry-blackbean-4721
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "[train.baseline.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 nodeset -e $SLURM_JOB_NODELIST

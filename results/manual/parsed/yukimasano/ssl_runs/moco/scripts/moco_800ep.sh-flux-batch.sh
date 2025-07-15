@@ -3,7 +3,7 @@
 #FLUX: -N=8
 #FLUX: -c=8
 #FLUX: -t=252000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='^docker0,lo'
 

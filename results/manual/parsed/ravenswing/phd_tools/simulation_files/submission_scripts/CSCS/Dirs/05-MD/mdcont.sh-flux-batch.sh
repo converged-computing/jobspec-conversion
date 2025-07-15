@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-bicycle-3910
+#FLUX: --job-name=chocolate-poo-6954
 #FLUX: -N=4
 #FLUX: --queue=normal
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export CRAY_CUDA_MPS='1'

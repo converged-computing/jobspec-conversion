@@ -2,7 +2,7 @@
 #FLUX: --job-name=rocksalt_VAR_Th
 #FLUX: --queue=shared
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module --force purge
 ml load cpu slurm gcc openmpi

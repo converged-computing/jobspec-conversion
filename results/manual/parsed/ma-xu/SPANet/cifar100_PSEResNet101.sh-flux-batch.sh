@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-general-6592
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-despacito-3032
+#FLUX: --urgency=16
 
 module load cuda/75/blas/7.5.18
 module load cuda/75/fft/7.5.18

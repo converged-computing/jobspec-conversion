@@ -2,7 +2,7 @@
 #FLUX: --job-name=ray
 #FLUX: -n=16
 #FLUX: --queue=mcore
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load ray
 PREFIX=$1

@@ -2,7 +2,7 @@
 #FLUX: --job-name=regrid_weights
 #FLUX: -n=2
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module use /scratch1/NCEPDEV/nems/role.epic/spack-stack/spack-stack-1.5.1/envs/unified-env-rocky8/install/modulefiles/Core

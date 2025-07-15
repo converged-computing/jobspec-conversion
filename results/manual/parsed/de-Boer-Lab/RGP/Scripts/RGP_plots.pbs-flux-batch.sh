@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-omelette-6061
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-lizard-8859
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/de-Boer-Lab/RGP/Scripts/RGP_plots.pbs

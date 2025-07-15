@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-earthworm-8560
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-squidward-7521
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nick-wilson/examples-pbs/array/array.pbs

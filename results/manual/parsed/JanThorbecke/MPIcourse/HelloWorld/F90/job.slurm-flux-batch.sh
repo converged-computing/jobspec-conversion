@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-fork-9977
+#FLUX: --job-name=spicy-hope-1619
 #FLUX: -n=2
 #FLUX: --exclusive
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_btl_sm_eager_limit='8192'
 export OMPI_MCA_btl_vader_eager_limit='8192'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-butter-0604
-#FLUX: --priority=16
+#FLUX: --job-name=phat-leader-0694
+#FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'
 

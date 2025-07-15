@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-carrot-8097
+#FLUX: --job-name=expressive-parsnip-1837
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMI_MMAP_SYNC_WAIT_TIME='300'
 export MPICH_GPU_SUPPORT_ENABLED='1'

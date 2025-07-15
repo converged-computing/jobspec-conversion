@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-noodle-5462
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-leopard-6594
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home/a.boev/tools/'
 

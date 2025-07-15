@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-milkshake-6996
+#FLUX: --job-name=joyous-fork-8293
 #FLUX: -n=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DVS_MAXNODES='24_'
 export MPICH_MPIIO_DVS_MAXNODES='24'

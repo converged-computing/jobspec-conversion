@@ -3,7 +3,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_P2P_DISABLE='1'
 

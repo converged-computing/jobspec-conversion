@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-rabbit-2800
-#FLUX: --priority=16
+#FLUX: --job-name=arid-fudge-6063
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/2019.10-py3.7

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-omelette-3410
+#FLUX: --job-name=blank-eagle-9291
 #FLUX: -c=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module load openmpi

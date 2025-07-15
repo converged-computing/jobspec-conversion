@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ntu60cv
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3
 module list                            # Have Nvidia tell us the GPU/CPU mapping so we know

@@ -1,26 +1,12 @@
 #!/bin/sh
-#SBATCH -p gpu
-#SBATCH --gres=gpu:1
-#SBATCH --nodes=1
 
-module load lammps/2018/cuda
+#SBATCH --partition=amd
+#SBATCH --ntasks-per-node=64     # Tasks per node
+#SBATCH --nodes=1                # Number of nodes requested
 
-echo
-echo  ==============================
-echo
+module load openmpi/4.1.1/amd-intel
+module load lammps/2020/amd-intel
 
-mpirun -np 16 lmp -sf gpu -pk gpu 4 -in dpd_water_100x100x100_t1000.txt
+which lmp
 
-echo
-echo  ==============================
-echo
-
-mpirun -np 16 lmp -sf gpu -pk gpu 2 -in dpd_water_100x100x100_t1000.txt
-
-echo
-echo  ==============================
-echo
-
-mpirun -np 16 lmp -sf gpu -pk gpu 1 -in dpd_water_100x100x100_t1000.txt
-
-#mpiexec -np $SLURM_NTASKS lmp -in dpd_water_100x100x100_t1000.txt
+bash run_dpd_water_mpi_helper.sh mpi_amd_n1_t64

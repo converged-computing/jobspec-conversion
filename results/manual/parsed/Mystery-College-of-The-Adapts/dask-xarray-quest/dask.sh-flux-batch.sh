@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-milkshake-7196
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-rabbit-2190
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Mystery-College-of-The-Adapts/dask-xarray-quest/dask.sh

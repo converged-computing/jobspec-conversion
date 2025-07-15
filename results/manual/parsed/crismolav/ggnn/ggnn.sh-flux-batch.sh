@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-dog-8836
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-truffle-7123
+#FLUX: --urgency=16
 
 export PATH='$HOME/project/anaconda3/bin:$PATH'
 

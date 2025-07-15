@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-despacito-7724
-#FLUX: --priority=16
+#FLUX: --job-name=red-parsnip-0532
+#FLUX: --urgency=16
 
 export GROMACSINSTALLDIR='/home/$USER/gromacs-2019.3/install_scorep'
 export GROMACSTESTCASEDIR='/home/$USER/gromacs_testcase'

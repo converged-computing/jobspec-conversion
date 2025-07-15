@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-buttface-1895
-#FLUX: --priority=16
+#FLUX: --job-name=hello-hippo-2402
+#FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'
 

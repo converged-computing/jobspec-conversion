@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-nunchucks-1775
+#FLUX: --job-name=peachy-blackbean-5387
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROFILER='cupy'
 export OMP_NUM_THREADS='$(( 40 / ${rankspernode} ))'

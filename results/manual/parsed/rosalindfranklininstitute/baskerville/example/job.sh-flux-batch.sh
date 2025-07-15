@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-arm-7134
+#FLUX: --job-name=milky-arm-5596
 #FLUX: -c=36
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROJECT_DIR='/bask/projects/f/ffnr0871-rfi-test/pje39613'
 export SINGULARITY_CACHEDIR='$PROJECT_DIR/.singularity-cache'

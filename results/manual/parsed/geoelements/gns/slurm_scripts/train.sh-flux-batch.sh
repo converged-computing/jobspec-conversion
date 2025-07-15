@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-frito-8709
-#FLUX: --priority=16
+#FLUX: --job-name=red-cherry-0964
+#FLUX: --urgency=16
 
 set -e
 cd ..

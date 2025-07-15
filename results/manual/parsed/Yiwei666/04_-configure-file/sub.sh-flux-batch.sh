@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-staircase-9364
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-poodle-2334
+#FLUX: --urgency=16
 
 export PATH='/public21/soft/cp2k/8.1/exe/local:$PATH'
 export CP2K_DATA_DIR='/public21/soft/cp2k/8.1/data'

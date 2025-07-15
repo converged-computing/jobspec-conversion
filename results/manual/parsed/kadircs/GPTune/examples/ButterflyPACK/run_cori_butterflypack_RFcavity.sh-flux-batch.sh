@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-chip-6438
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-chair-4401
+#FLUX: --urgency=16
 
 export GPTUNEROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$GPTUNEROOT/GPTune/'

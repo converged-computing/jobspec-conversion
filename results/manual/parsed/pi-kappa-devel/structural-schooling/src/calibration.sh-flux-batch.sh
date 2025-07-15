@@ -3,7 +3,7 @@
 #FLUX: -c=40
 #FLUX: --queue=fuchs
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export procs='`expr $(nproc --all)`'
 

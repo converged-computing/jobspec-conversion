@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-poodle-3204
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-leopard-3507
+#FLUX: --urgency=16
 
                                 # Or use HH:MM:SS or D-HH:MM:SS, instead of just number of minutes
 minimum=10

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-poodle-6608
+#FLUX: --job-name=anxious-salad-3890
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 KERAS_BACKEND=tensorflow
 declare -a tl_modes=("fine_tuning" "off_the_shelf" "random") #The three pre-training approaches investigated in the paper

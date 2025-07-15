@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bike-2501
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-pedo-9711
+#FLUX: --urgency=16
 
 module load tensorflow/1.8-agave-gpu
 cd /home/tgokhale/work/code/Color_Classification

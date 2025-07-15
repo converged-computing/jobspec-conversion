@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-peanut-5570
+#FLUX: --job-name=blue-blackbean-8900
 #FLUX: -N=4
 #FLUX: --queue=cm2_std
 #FLUX: -t=4800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module unload intel-mpi/2019-intel

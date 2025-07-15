@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nf_full
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load nextflow/20.10.0

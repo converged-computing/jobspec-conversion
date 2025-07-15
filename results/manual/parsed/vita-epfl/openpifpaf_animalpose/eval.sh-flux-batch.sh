@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-sundae-2818
+#FLUX: --job-name=quirky-punk-5319
 #FLUX: -c=20
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pattern=$1
 shift

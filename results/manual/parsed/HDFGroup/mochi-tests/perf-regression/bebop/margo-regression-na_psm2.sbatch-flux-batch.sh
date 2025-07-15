@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-itch-5657
+#FLUX: --job-name=purple-bicycle-7468
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME='$SANDBOX'
 export PSM2_MULTI_EP='1'

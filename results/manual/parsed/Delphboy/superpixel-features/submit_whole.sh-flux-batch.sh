@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-diablo-2076
+#FLUX: --job-name=moolicious-plant-1933
 #FLUX: --queue=small
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.2
 module load python/anaconda3

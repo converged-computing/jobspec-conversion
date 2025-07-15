@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lizard-5819
+#FLUX: --job-name=eccentric-leopard-7567
 #FLUX: -c=16
 #FLUX: --queue=partition
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOGLEVEL='INFO'
 export NCCL_DEBUG='ERROR'

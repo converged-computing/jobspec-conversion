@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-peanut-3889
+#FLUX: --job-name=bumfuzzled-peanut-butter-6135
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CUDA_VISIBLE_DEVICES=0,1 python main.py \
 						 --model resnet50 \

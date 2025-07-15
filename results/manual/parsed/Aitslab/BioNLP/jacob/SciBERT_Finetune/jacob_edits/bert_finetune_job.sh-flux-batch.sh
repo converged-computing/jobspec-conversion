@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-hobbit-0390
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-parsnip-0355
+#FLUX: --urgency=16
 
 nvidia-smi
 ml Anaconda/2021.05-nsc1

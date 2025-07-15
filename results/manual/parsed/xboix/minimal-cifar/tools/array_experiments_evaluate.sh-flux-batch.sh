@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=minimal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 cd /om/user/sanjanas/minimal-cifar/

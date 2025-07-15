@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-fudge-9152
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-general-6871
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/halfshear-imper-cyclic-cont.sh

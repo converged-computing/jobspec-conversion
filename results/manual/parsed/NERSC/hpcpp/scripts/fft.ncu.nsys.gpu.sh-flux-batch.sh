@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-chair-5639
+#FLUX: --job-name=frigid-poodle-1714
 #FLUX: --exclusive
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set +x
 BUILD_HOME=${HOME}/repos/nvstdpar/build-fft-gpu-nsight

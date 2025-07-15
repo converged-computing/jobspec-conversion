@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-animal-1507
+#FLUX: --job-name=misunderstood-poo-7981
 #FLUX: -n=8
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load fosscuda/2019b

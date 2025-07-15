@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=att_tauss_0.5
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/6.5
 module load boost/1.55+python-2.7-2014q1

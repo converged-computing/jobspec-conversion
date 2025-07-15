@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-arm-4458
+#FLUX: --job-name=moolicious-latke-3318
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 workdir=$(pwd)
 echo $workdir

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-puppy-1040
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-milkshake-7660
+#FLUX: --urgency=16
 
 SINGULARITY_CONT=$PROJECT/psrsearch.sif
 CMDDIR=$PROJECT/HPC_pulsar/cmd_files

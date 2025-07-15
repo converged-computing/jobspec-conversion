@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-punk-5986
+#FLUX: --job-name=misunderstood-citrus-1097
 #FLUX: --queue=gp4d
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 
 module load miniconda3

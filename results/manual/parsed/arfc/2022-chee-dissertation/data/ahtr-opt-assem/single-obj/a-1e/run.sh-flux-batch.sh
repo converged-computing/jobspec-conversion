@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=milky-cat-8187
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-signal-5447
+#FLUX: --urgency=16
 

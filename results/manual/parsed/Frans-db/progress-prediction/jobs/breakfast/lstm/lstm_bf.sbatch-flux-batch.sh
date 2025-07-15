@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-nalgas-5374
+#FLUX: --job-name=loopy-taco-9816
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

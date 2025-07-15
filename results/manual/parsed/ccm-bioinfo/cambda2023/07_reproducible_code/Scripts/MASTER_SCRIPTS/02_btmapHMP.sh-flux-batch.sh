@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name='bt-$site'
-#FLUX: --priority=16
+#FLUX: --job-name=bt-$site
+#FLUX: --urgency=16
 
 prefix=$1
 sites=(BAL MIN SAN NYC SAC DEN)

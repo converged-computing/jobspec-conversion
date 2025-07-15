@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lettuce-6932
-#FLUX: --priority=16
+#FLUX: --job-name=hello-truffle-0035
+#FLUX: --urgency=16
 
 cd run_files.cubids
 module load singularity

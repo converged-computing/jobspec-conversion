@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hope-4041
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-gato-2839
+#FLUX: --urgency=16
 
 export scriptdir='$(dirname $(type -p dti_eddy.sh))'
 

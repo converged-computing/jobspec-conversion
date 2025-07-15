@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-truffle-0342
+#FLUX: --job-name=placid-banana-3396
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCL_btl='openib'
 

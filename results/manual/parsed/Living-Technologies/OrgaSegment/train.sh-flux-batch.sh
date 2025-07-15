@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-house-5135
+#FLUX: --job-name=confused-spoon-3920
 #FLUX: --queue=gpu
 #FLUX: -t=691200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 TRAIN=false
 EVAL=false

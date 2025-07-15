@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="MVVGE-tsne"
+#FLUX: --job-name=MVVGE-tsne
 #FLUX: --queue=gpu_p100
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Cuda device: $CUDA_VISIBLE_DEVICES"
 echo "======= Start memory test ======="

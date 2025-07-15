@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-blackbean-0111
+#FLUX: --job-name=fat-snack-9026
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 RUNDIR="$REPOPATH/MLmodels/scripts"

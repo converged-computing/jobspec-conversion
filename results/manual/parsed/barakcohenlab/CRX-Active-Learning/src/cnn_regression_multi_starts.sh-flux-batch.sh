@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-parsnip-8328
-#FLUX: --priority=16
+#FLUX: --job-name=purple-cherry-4761
+#FLUX: --urgency=16
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

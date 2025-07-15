@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="gromacs"
-#FLUX: --priority=16
+#FLUX: --job-name=gromacs
+#FLUX: --urgency=16
 
 START_TIME=`date`
 if [ "$1" == "daint" ]; then

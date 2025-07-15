@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-pedo-9573
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-salad-0917
+#FLUX: --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

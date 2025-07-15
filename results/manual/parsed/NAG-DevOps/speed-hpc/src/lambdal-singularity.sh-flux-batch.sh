@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lambdal     ## Give the job a name
-#FLUX: --priority=16
+#FLUX: --job-name=lambdal
+#FLUX: --urgency=16
 
 echo "$0 : about to run gcs-lambdalabs-singularity on Speed..."
 date

@@ -3,7 +3,7 @@
 #FLUX: -n=8
 #FLUX: --queue=cip
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load spack cdo

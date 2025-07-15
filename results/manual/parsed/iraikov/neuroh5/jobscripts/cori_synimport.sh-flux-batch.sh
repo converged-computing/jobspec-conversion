@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lizard-0507
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-lamp-2351
+#FLUX: --urgency=16
 
 module swap PrgEnv-intel PrgEnv-gnu
 module unload darshan

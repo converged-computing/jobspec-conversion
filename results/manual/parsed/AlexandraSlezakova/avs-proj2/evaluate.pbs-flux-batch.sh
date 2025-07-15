@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-pancake-0220
-#FLUX: --priority=16
+#FLUX: --job-name=red-diablo-3034
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AlexandraSlezakova/avs-proj2/evaluate.pbs

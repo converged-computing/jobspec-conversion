@@ -2,7 +2,7 @@
 #FLUX: --job-name=deduper3
 #FLUX: --queue=short
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml purge
 ml samtools/1.5 

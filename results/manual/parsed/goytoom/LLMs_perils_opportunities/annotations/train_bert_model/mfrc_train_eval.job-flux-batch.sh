@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-destiny-4280
+#FLUX: --job-name=fugly-puppy-7238
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.3.0

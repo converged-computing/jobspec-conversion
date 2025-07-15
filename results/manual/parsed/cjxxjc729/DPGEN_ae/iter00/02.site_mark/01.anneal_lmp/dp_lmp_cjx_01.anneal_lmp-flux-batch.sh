@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-chair-8139
+#FLUX: --job-name=purple-motorcycle-3101
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

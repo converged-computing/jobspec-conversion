@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-gato-8298
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-kerfuffle-4631
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='ALL'

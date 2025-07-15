@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bits-1543
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-parsnip-6905
+#FLUX: --urgency=16
 
 root=/mnt/server15_hard2/sangmin/data/svol/
 anno_root=/mnt/server15_hard2/sangmin/data/svol/annos/

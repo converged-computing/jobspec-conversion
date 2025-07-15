@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-nalgas-9922
+#FLUX: --job-name=doopy-onion-0317
 #FLUX: -n=36
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 start=`date +%s`
 module load singularity

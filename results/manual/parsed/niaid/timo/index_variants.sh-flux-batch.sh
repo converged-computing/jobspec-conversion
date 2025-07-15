@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-pot-0574
+#FLUX: --job-name=swampy-leader-7936
 #FLUX: -c=20
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 BAM_DIR=$1
 RUNDIR=$2

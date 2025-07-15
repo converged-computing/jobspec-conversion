@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="MethPipe"
+#FLUX: --job-name=MethPipe
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LC_ALL='C'
 

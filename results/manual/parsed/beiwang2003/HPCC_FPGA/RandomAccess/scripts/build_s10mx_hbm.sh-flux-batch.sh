@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-destiny-2344
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-lamp-3170
+#FLUX: --urgency=16
 
 module load intelFPGA_pro/19.4.0
 module load intel_s10mx/19.3.0

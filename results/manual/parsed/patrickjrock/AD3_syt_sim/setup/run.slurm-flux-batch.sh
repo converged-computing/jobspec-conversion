@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pot-7463
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-pancake-4470
+#FLUX: --urgency=16
 
 module load namd/2.10
 ibrun namd2 namd.in > namd.out

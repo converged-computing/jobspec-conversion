@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-rabbit-8909
+#FLUX: --job-name=persnickety-pot-9208
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 umask 002
 BATCH=$1

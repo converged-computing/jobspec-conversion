@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-dog-3192
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-banana-5538
+#FLUX: --urgency=16
 
 echo test1
 module load anaconda/2020b cuda/10.2 nccl/2.5.6-cuda10.2

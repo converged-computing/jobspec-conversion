@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Elva paper winter experiments videos"
+#FLUX: --job-name=Elva paper winter experiments videos
 #FLUX: --queue=main
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATASETS=(
     '2022-04-28-11-59-00_e2e_elva_forw_inTrain_camera_0.8' \

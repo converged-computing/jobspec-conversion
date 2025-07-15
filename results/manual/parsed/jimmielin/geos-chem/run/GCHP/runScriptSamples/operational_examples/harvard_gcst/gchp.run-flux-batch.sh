@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-peanut-butter-2588
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-milkshake-7548
+#FLUX: --urgency=16
 
 log="gchp.log"
 if [[ -e cap_restart ]]; then

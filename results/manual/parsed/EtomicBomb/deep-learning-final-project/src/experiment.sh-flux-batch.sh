@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-arm-3655
+#FLUX: --job-name=dinosaur-cherry-7009
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 unset LD_LIBRARY_PATH

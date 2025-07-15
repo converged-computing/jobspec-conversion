@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lentil-9467
+#FLUX: --job-name=outstanding-knife-0492
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.0

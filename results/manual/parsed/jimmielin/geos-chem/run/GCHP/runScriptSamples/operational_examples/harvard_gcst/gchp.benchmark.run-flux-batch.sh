@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-animal-4129
+#FLUX: --job-name=adorable-lemur-5099
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 log="gchp.log"
 if [[ -e cap_restart ]]; then

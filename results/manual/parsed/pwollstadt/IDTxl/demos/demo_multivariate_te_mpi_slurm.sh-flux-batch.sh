@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: -c=4
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/usr/users/$USER/IDTxl'
 export JAVA_HOME='/usr/users/$USER/jdk-16.0.1'

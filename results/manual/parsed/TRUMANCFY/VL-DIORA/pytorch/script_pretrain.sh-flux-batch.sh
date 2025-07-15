@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bits-4447
+#FLUX: --job-name=goodbye-lettuce-7777
 #FLUX: -c=5
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='127.0.0.1'
 export MASTER_PORT='8098'

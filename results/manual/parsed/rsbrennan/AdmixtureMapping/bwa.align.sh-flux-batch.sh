@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-leg-5679
+#FLUX: --job-name=nerdy-puppy-0301
 #FLUX: -c=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 lib=AC-1
 run=run-1

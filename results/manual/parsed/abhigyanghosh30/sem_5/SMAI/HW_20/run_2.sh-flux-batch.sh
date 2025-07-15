@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cattywampus-9829
+#FLUX: --job-name=reclusive-underoos-7537
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add cuda/10.0
 module add cudnn/7-cuda-10.0

@@ -2,7 +2,7 @@
 #FLUX: --job-name=ljbulk
 #FLUX: --queue=compute
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/6.3.0/1 openmpi/3.0.1/01 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-rabbit-9212
+#FLUX: --job-name=chocolate-citrus-4088
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 if [[ "$#" -gt 0 ]]; then

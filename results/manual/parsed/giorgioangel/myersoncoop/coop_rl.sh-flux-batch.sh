@@ -3,7 +3,7 @@
 #FLUX: -c=24
 #FLUX: --queue=short
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/dcas/g.angelotti/.conda/envs/coop/lib:$LD_LIBRARY_PATH'
 

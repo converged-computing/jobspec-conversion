@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-avocado-0194
+#FLUX: --job-name=hairy-snack-1282
 #FLUX: --queue=naples
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 FD_PATH="$1"
 DOMAIN="$2"

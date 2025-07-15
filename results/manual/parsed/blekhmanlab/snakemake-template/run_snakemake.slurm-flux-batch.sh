@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-taco-5097
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-banana-5247
+#FLUX: --urgency=16
 
 module load python
 if [ ! -d "./venv" ]; then

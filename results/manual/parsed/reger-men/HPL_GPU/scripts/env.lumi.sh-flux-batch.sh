@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lizard-9532
-#FLUX: --priority=16
+#FLUX: --job-name=confused-cat-9445
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export MPICH_RANK_REORDER_DISPLAY='1'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=kraken_build
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DESCRIPTION="Build a custom Kraken database
   Note: Standard Kraken databases can also be downloaded from https://benlangmead.github.io/aws-indexes/"

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=HPO_CUDA
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda
 rm $(pwd)/db/first_julia_nn.db

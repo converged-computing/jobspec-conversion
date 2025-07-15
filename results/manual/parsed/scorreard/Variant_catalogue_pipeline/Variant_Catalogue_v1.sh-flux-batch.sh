@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-noodle-0526
+#FLUX: --job-name=tart-banana-6769
 #FLUX: -t=721800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /conda/miniconda3/etc/profile.d/conda.sh
 Nextflow=n/NextFlow/nextflow

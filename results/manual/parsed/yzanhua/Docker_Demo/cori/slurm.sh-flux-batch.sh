@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-ricecake-1256
+#FLUX: --job-name=pusheena-staircase-2597
 #FLUX: -N=16
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export KMP_AFFINITY='disabled'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=nf-fetch-ngs
 #FLUX: --queue=cpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/nemo/lab/ulej/home/shared/singularity'
 export NXF_HOME='/nemo/lab/ulej/home/users/luscomben/users/iosubi/.nextflow'

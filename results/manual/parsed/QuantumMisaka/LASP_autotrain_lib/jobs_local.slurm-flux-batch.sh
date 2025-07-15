@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-cherry-8174
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-snack-6481
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LIBVASP:$LD_LIBRARY_PATH'
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='0'

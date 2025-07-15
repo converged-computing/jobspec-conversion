@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=retoB
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BIND='/home/c403/c4031021/stagewise:/stagewise'
 

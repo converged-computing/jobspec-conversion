@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=single_stage_detector
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

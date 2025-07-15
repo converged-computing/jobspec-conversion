@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cattywampus-5663
+#FLUX: --job-name=confused-banana-1828
 #FLUX: -N=5
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 reg=`echo $1`
 name=`echo $2`

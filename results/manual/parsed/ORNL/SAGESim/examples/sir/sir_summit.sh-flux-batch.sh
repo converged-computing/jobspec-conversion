@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lemur-5809
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-parrot-7617
+#FLUX: --urgency=16
 
 export SRC_DIR='/ccs/home/gunaratnecs/sagesim/examples/sir'
 export SCHEDULER_FILE='${RUN_DIR}/scheduler_file.json'

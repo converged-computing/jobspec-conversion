@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-mango-6713
+#FLUX: --job-name=fuzzy-latke-1793
 #FLUX: --queue=cpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module use /apps/USE/easybuild/staging/2021.1/modules/all

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-truffle-3282
+#FLUX: --job-name=delicious-animal-9264
 #FLUX: -c=72
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${ALPHAFOLD_HOME}/lib:${LD_LIBRARY_PATH}'
 export TMPDIR='${JOB_SHMTMPDIR}'

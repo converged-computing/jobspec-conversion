@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lemon-3296
+#FLUX: --job-name=chocolate-house-8379
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_LOG_LEVEL='error'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cat-9926
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-pastry-4330
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gridap/GridapWorkshop2023Material/gadi/job_ins2d.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-nunchucks-2135
+#FLUX: --job-name=crunchy-earthworm-3972
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lamp-3239
+#FLUX: --job-name=conspicuous-fork-3521
 #FLUX: --queue=top6
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$CONDA_PREFIX/lib/:$CUDNN_PATH/lib:$LD_LIBRARY_PATH'
 export PATH='${PATH}:/usr/local/nvidia/bin:/usr/local/cuda/bin'

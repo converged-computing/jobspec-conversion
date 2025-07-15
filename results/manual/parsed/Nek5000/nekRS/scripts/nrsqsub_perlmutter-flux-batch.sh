@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-leg-0348
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-pancake-0853
+#FLUX: --urgency=16
 
 : ${PROJ_ID:=""}
 : ${QUEUE:=""}

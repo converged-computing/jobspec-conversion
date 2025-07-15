@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-snack-3002
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-butter-1025
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gummz/cell/shell/eval_model.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=expt-gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load conda2
 source "$HOME/.bashrc"

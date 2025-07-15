@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-house-4938
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-hobbit-0613
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/halfshear-darcy-perm-cont.sh

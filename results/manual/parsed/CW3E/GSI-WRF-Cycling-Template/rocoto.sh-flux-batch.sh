@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-fork-1121
-#FLUX: --priority=16
+#FLUX: --job-name=purple-salad-2950
+#FLUX: --urgency=16
 
 python -u rocoto_utilities.py

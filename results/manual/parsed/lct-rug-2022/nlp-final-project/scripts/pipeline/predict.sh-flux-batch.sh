@@ -2,7 +2,7 @@
 #FLUX: --job-name=esnli
 #FLUX: --queue=gpushort
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOKENIZERS_PARALLELISM='false'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-peanut-0059
+#FLUX: --job-name=expressive-signal-5086
 #FLUX: -n=40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu
 spack load openfoam@2306

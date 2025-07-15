@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-destiny-2681
+#FLUX: --job-name=dirty-nalgas-2547
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=salted-peanut-butter-6350
-#FLUX: --priority=16
+#FLUX: --job-name=hello-rabbit-8307
+#FLUX: --urgency=16
 

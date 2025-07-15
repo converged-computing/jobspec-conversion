@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-eagle-5689
+#FLUX: --job-name=expensive-truffle-4192
 #FLUX: --queue=devel
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module use /usr/local/software/jureca/OtherStages

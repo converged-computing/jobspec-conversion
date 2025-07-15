@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-animal-1704
+#FLUX: --job-name=pusheena-noodle-9337
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRDIR='out/sampler_semi_synth'
 export Np='50'

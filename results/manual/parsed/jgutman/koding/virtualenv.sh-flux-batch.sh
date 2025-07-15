@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-taco-8848
-#FLUX: --priority=16
+#FLUX: --job-name=arid-chip-2086
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jgutman/koding/virtualenv.sh

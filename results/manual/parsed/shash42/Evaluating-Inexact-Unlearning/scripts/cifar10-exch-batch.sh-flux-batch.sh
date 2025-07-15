@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-butter-1042
+#FLUX: --job-name=outstanding-milkshake-7517
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 chmod +x src/train.py
 logdir='logs/cifar10-resnet110'

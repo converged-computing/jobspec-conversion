@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=index_1
+#FLUX: --job-name=hairy-signal-9782
 #FLUX: --queue=short
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python3
 module load racs-eb

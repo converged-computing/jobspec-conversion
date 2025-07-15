@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="llchem-multinode"
+#FLUX: --job-name=llchem-multinode
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --exclusive
 #FLUX: --queue=g40x
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOKENIZERS_PARALLELISM='false'
 export WANDB_BASE_URL='https://stability.wandb.io'

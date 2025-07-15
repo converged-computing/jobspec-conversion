@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Resources
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load miniconda
 conda activate jbrophy-20210713

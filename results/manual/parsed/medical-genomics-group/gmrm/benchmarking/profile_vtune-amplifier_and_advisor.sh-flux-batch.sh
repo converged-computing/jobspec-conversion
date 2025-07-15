@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-spoon-3725
+#FLUX: --job-name=blue-spoon-0099
 #FLUX: -n=2
 #FLUX: -c=8
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODULEPATH='/ssoft/spack/humagne/v1/share/spack/lmod/linux-rhel7-x86_S6g1_Mellanox/intel/18.0.5:$MODULEPATH'
 export INTEL_LICENSE_FILE='/ssoft/spack/external/intel/License:$INTEL_LICENSE_FILE'

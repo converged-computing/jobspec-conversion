@@ -2,7 +2,7 @@
 #FLUX: --job-name=mpi_p4
 #FLUX: -n=128
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_TLS='self, tcp'
 

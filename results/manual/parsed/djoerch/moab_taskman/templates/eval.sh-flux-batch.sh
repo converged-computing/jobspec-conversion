@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-fork-7934
+#FLUX: --job-name=delicious-lemon-3792
 #FLUX: -c=4
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HANGUP_TIME='$(($(date +"%s") + 10 * 3600))'
 

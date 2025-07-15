@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ucf101_mb
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CUDA_VISIBLE_DEVICES="2,3" \
 python train_ucf101.py \

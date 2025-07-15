@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=CAAEfromscratch
 #FLUX: --queue=csgpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 cd Face_Aging_CAAE_10age

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-cattywampus-3924
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-peas-9071
+#FLUX: --urgency=16
 
 set -eu
 module purge

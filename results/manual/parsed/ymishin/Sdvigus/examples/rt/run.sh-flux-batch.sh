@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-mango-3509
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-staircase-3779
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ymishin/Sdvigus/examples/rt/run.sh

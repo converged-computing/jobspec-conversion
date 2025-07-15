@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cupcake-4077
-#FLUX: --priority=16
+#FLUX: --job-name=purple-general-0719
+#FLUX: --urgency=16
 
 set -u
 shopt -s globstar

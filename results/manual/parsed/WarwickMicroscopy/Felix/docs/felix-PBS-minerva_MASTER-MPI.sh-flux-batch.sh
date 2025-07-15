@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-rabbit-4386
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-lemur-9806
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/WarwickMicroscopy/Felix/docs/felix-PBS-minerva_MASTER-MPI.sh

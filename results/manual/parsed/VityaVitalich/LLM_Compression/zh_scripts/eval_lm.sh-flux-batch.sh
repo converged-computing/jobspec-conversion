@@ -2,7 +2,7 @@
 #FLUX: --job-name=llmcompr
 #FLUX: --queue=ais-gpu
 #FLUX: -t=240
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun singularity exec --bind /trinity/home/v.moskvoretskii/:/home -f --nv /trinity/home/v.moskvoretskii/images/compression.sif bash -c '
     ls;

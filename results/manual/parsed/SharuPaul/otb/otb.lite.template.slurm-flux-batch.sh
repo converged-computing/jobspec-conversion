@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-egg-5750
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-parsnip-5537
+#FLUX: --urgency=16
 
 module load nextflow/22.04.3
 module load singularityCE

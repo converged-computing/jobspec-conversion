@@ -2,7 +2,7 @@
 #FLUX: --job-name=python_sweep_test
 #FLUX: --queue=vulture
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load matplotlib

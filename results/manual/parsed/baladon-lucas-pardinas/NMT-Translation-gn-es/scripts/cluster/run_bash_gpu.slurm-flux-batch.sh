@@ -4,7 +4,7 @@
 #FLUX: -c=9
 #FLUX: --queue=normal
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_TMPDIR='${HOME}/cache'
 export TMPDIR='$SINGULARITY_TMPDIR'

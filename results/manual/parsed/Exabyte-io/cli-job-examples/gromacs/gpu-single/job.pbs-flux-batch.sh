@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-punk-2077
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-mango-3926
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Exabyte-io/cli-job-examples/gromacs/gpu-single/job.pbs

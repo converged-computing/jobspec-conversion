@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=blast
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOOL_NAME='NCBI BLAST+ and datasets" '
 export NCBI_API_KEY='34618c91021ccd7f17429b650a087b585f08'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-carrot-6204
-#FLUX: --priority=16
+#FLUX: --job-name=salted-train-2060
+#FLUX: --urgency=16
 
 export MONORUN='Mpirun -np 1 '
 export MPIRUN='Mpirun -np 2 '

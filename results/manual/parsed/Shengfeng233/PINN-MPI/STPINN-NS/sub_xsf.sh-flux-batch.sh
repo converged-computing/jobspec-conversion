@@ -2,7 +2,7 @@
 #FLUX: --job-name=xsf_mpi
 #FLUX: --exclusive
 #FLUX: --queue=wzhcnormal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='~/soft/miniconda/bin:$PATH'
 

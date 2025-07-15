@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-taco-7522
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-platanos-1540
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/abcsFrederick/Pipeliner/pipeline_ctrl.sh

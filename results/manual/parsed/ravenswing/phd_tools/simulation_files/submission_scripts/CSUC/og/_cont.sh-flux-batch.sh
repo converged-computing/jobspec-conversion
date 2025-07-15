@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-underoos-4443
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-house-0903
+#FLUX: --urgency=16
 
 export GMX='gmx_mpi'
 export GMX_DISABLE_GPU_TIMING='yes'

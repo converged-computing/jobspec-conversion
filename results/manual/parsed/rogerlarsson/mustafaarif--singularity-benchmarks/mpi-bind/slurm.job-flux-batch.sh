@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-peanut-butter-6998
+#FLUX: --job-name=dirty-chip-8313
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/cray/pe/lib64:/usr/lib64:$LD_LIBRARY_PATH'
 export SINGULARITYENV_LD_LIBRARY_PATH='$LD_LIBRARY_PATH'

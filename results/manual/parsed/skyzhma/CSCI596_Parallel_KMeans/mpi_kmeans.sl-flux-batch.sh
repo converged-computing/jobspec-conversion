@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-diablo-6110
+#FLUX: --job-name=creamy-itch-8847
 #FLUX: -N=8
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_PRELOAD='/spack/apps/gcc/8.3.0/lib64/libstdc++.so.6'
 

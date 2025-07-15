@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-plant-4990
-#FLUX: --priority=16
+#FLUX: --job-name=placid-caramel-3674
+#FLUX: --urgency=16
 
 CURDIR=`pwd`
 CODEDIR=`mktemp -d -p ${CURDIR}/tmp`

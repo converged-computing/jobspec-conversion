@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-noodle-3418
+#FLUX: --job-name=buttery-lemon-5760
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 print_usage() {
   printf "Usage: -f feature flags, -p preprocessing flags, -k kernel size"

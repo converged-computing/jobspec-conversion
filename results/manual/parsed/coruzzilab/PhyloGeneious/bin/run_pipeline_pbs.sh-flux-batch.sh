@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-spoon-0558
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-lettuce-3861
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/coruzzilab/PhyloGeneious/bin/run_pipeline_pbs.sh

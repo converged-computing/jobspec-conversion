@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=SEE-continuous
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd see-segment; git log -n 1; cd ..
 echo "Continuous Run Number $SLURM_ARRAY_TASK_ID"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-pedo-1373
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-muffin-5365
+#FLUX: --urgency=16
 
 module purge
 module load singularity/latest

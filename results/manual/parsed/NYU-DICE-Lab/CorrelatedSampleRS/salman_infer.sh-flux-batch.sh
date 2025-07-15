@@ -2,7 +2,7 @@
 #FLUX: --job-name=infer_ensemble_rs
 #FLUX: -c=4
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/intel/3.8.6
 module load cuda/10.2.89

@@ -2,7 +2,7 @@
 #FLUX: --job-name=$JOB_NAME
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 USER_NAME=$(whoami)
 echo "Starting script.sh"

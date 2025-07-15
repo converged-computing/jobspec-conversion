@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pot-1353
+#FLUX: --job-name=expressive-cat-6298
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load julia/1.2.0
 module load sloan/python/modules/2.7

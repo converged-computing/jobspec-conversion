@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=tools
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 date;hostname;pwd

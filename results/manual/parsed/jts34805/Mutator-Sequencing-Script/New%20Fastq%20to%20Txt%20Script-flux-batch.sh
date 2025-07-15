@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=batch
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 ml fastp/0.23.2

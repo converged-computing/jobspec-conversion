@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=faux-avocado-7187
+#FLUX: --job-name=arid-leg-8392
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -c=12
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 __conda_setup="$('/project/g34/shigang/anaconda38/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"

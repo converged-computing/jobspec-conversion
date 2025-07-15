@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-knife-7172
-#FLUX: --priority=16
+#FLUX: --job-name=red-snack-7738
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/path/to/this/repo/structural_DLFA/parsers'
 

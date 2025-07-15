@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-animal-9768
+#FLUX: --job-name=muffled-nunchucks-2507
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XLA_PYTHON_CLIENT_PREALLOCATE='false'
 export XLA_PYTHON_CLIENT_MEM_FRACTION='.8'

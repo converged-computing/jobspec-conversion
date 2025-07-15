@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=megatron-hf-convert
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 module load cuda/11.8

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-itch-5628
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-malarkey-1786
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kapiliitr/JuliaBenchmarks/stream/stream.sh

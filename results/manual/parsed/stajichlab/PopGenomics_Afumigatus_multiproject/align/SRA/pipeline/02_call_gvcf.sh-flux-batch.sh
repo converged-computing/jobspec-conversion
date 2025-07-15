@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lemon-2379
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-house-9252
+#FLUX: -t=172800
+#FLUX: --urgency=16
 
 module load picard
 module load java/13

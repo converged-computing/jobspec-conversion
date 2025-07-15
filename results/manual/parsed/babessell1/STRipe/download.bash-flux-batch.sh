@@ -3,7 +3,7 @@
 #FLUX: -n=11
 #FLUX: --queue=standard
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 snakemake -s download.smk --unlock
 snakemake -s download.smk \

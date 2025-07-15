@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-pastry-5834
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-bicycle-1429
+#FLUX: --urgency=16
 
 cmd=`basename $0`
 if [ ! -f $1 ]; then

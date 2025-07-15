@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lemur-9310
+#FLUX: --job-name=lovable-car-6318
 #FLUX: --queue=maxwell
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda3
 source activate pycuda

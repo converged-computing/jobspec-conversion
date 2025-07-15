@@ -2,7 +2,7 @@
 #FLUX: --job-name=sort
 #FLUX: --queue=amd-hdr100
 #FLUX: -t=540000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load BCFtools/1.12-GCC-10.2.0
 n=$SLURM_ARRAY_TASK_ID # number of jobs in the array

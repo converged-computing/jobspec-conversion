@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-pancake-2943
+#FLUX: --job-name=buttery-buttface-9409
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if true; then
     SYSUEST_HOME=~/SYSuEST

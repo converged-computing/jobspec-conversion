@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=10x-NPB
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TERM='xterm'
 export NXF_VER='20.07.1'

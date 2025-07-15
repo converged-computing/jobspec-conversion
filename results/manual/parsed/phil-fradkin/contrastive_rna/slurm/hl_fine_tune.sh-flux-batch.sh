@@ -2,7 +2,7 @@
 #FLUX: --job-name=hl_fine_tune
 #FLUX: -c=2
 #FLUX: --queue=t4v2,rtx6000,a40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo `date`: Job $SLURM_JOB_ID is allocated resource
 echo "Starting task $SLURM_ARRAY_TASK_ID"

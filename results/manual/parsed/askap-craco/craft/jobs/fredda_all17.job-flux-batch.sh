@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-noodle-4301
+#FLUX: --job-name=scruptious-leg-2489
 #FLUX: --queue=gpuq
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 export PATH='$CRAFT/cuda-fdmt/cudafdmt/src:$CRAFT/python:$PATH'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-taco-6362
+#FLUX: --job-name=pusheena-lamp-2799
 #FLUX: --exclusive
 #FLUX: --queue=gpu
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 k=$SLURM_ARRAY_TASK_ID
 CURDIR=${HOME}/development/gearshifft

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="NB1DSUMW"
+#FLUX: --job-name=NB1DSUMW
 #FLUX: -c=16
 #FLUX: --queue=alqadi-amd
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /projects/eng/modulefiles
 module load abaqus/2023

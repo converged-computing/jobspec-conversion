@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=bluemoon
 #FLUX: -t=106200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 set -e

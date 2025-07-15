@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-lizard-8924
+#FLUX: --job-name=confused-signal-3876
 #FLUX: -n=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PLT='${1?Error}'
 export NCELLSPERLF='${2?Error}'

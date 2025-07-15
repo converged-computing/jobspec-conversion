@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-nalgas-4361
+#FLUX: --job-name=expensive-car-2594
 #FLUX: -N=36
 #FLUX: -c=12
+#FLUX: --queue=booster
 #FLUX: -t=3540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

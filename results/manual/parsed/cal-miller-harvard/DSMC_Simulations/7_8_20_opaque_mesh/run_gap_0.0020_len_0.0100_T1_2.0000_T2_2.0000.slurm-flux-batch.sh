@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-avocado-4015
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-train-1249
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

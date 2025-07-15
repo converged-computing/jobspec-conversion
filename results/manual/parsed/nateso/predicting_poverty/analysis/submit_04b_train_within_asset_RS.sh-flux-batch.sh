@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=04b_asset_RS_within               # Job name
-#FLUX: --priority=16
+#FLUX: --job-name=04b_asset_RS_within
+#FLUX: --urgency=16
 
 module load anaconda3
 module load cuda

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name='adiff'
-#FLUX: --priority=16
+#FLUX: --job-name=adiff
+#FLUX: --urgency=16
 
 "This script needs to run form inside the folder scripts in a working project with the following structure:
 project/scripts

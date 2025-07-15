@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-soup-4084
+#FLUX: --job-name=astute-lamp-8306
 #FLUX: -c=4
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/zenkavi/.bash_profile
 source activate SRO

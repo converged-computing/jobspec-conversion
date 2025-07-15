@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-pancake-9494
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-citrus-0895
+#FLUX: --urgency=16
 
 set -e
 SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"

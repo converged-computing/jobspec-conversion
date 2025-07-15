@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cat-2399
+#FLUX: --job-name=astute-platanos-6503
 #FLUX: --queue=gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PWD'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-muffin-8454
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-bits-4409
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/janniklasrose/RWcDTI/pbs.sh

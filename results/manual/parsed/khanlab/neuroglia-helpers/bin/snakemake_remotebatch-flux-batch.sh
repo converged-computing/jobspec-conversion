@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-peas-3197
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-leader-4732
+#FLUX: --urgency=16
 
 hours=6
 mem=128000

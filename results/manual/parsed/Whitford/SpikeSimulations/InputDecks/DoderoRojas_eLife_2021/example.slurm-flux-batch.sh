@@ -5,7 +5,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=short
 #FLUX: -t=86100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/6.4.0  openmpi/3.1.2  cmake/3.10.0
 CUTOFF=8

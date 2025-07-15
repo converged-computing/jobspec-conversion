@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-cat-1505
+#FLUX: --job-name=quirky-taco-4159
 #FLUX: --queue=GPU
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab/R2022a 
 NCL=$1

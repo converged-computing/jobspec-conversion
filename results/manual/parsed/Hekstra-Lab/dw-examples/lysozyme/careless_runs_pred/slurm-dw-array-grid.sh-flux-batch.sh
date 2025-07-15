@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=careless
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PARAM_FILE=slurm_params.txt
 MY_PARAMS=$(sed "${SLURM_ARRAY_TASK_ID}q;d" ${PARAM_FILE})

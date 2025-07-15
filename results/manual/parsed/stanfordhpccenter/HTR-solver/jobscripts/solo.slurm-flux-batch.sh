@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-frito-8337
-#FLUX: --priority=16
+#FLUX: --job-name=phat-general-9654
+#FLUX: --urgency=16
 
 if [[ "$QUEUE" == "short" ]]; then
    USE_CUDA=0

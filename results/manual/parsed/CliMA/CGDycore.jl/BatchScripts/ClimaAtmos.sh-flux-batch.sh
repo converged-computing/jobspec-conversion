@@ -2,7 +2,7 @@
 #FLUX: --job-name=30-3-10
 #FLUX: -n=64
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='${SLURM_CPUS_PER_TASK:=1}'
 export CLIMACORE_DISTRIBUTED='MPI'

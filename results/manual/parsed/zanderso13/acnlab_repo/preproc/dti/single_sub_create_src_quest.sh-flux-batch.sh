@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lamp-0410
-#FLUX: --priority=16
+#FLUX: --job-name=phat-omelette-0165
+#FLUX: --urgency=16
 
 module load singularity/latest
 action=src

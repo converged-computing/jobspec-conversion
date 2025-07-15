@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-motorcycle-1799
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-punk-0349
+#FLUX: --urgency=16
 
 function launch_node {
 cat << _EOF_ > launch.cmd

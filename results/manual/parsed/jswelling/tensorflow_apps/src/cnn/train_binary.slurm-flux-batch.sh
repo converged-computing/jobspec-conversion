@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-pastry-2575
-#FLUX: --priority=16
+#FLUX: --job-name=fat-nalgas-8437
+#FLUX: --urgency=16
 
 export PYTHONPATH='/pylon5/pscstaff/welling/git/tensorflow_apps/src:$PYTHONPATH'
 export LD_PRELOAD='/usr/lib64/libtcmalloc_minimal.so.4'

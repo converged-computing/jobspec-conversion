@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Concordance_${concordanceCheckId}
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='${TMPDIR:-/tmp}" # Default to /tmp if "${TMPDIR}" was not defined.'
 

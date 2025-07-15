@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-punk-9319
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-noodle-5476
+#FLUX: --urgency=16
 
 export NTASKS='$((SLURM_JOB_NUM_NODES*56))'
 export SRUN='srun -n $NTASKS --gpus-per-node=8 --cpus-per-gpu=14 --cpu-bind=cores'

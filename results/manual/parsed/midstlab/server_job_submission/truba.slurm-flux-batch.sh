@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-nunchucks-5993
+#FLUX: --job-name=arid-carrot-6263
 #FLUX: -t=1296000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 	#for all queues
 	#for cuda queue

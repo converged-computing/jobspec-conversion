@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=a3
 #FLUX: -t=3000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(scontrol show hostname $SLURM_JOB_NODELIST | head -n1)'
 export MASTER_PORT='$((10000 + ($SLURM_JOBID % 50000)))'

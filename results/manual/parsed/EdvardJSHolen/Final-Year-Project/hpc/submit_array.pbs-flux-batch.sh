@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-citrus-1507
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-avocado-2098
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/EdvardJSHolen/Final-Year-Project/hpc/submit_array.pbs

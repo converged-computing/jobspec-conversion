@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-toaster-0836
+#FLUX: --job-name=butterscotch-nunchucks-7087
 #FLUX: -n=15
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_PIN_ORDER='scatter # Adjacent domains have minimal sharing of caches/sockets'
 

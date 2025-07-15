@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="labelmaker"
+#FLUX: --job-name=labelmaker
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/11.4.0 cuda/12.1.1 eth_proxy
 LABELMAKER_REPO=/cluster/home/guanji/LabelMaker # the model code base need repo,  you can put the labelmaker repo directory here

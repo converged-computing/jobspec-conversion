@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="cuda-mpi"
+#FLUX: --job-name=cuda-mpi
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=gpu-h100
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 

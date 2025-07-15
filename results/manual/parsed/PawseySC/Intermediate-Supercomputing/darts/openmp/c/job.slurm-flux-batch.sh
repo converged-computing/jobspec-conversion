@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=darts-openmp
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='24'
 

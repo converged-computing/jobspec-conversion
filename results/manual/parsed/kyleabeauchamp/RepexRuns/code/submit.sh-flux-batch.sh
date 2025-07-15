@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-leg-8928
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-cattywampus-2091
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kyleabeauchamp/RepexRuns/code/submit.sh

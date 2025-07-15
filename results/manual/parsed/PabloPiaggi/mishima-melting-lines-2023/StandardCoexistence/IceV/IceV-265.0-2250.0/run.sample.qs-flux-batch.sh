@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-hobbit-2739
+#FLUX: --job-name=placid-animal-4967
 #FLUX: -c=7
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cudatoolkit/10.0
 module load cudnn/cuda-10.0/7.6.3

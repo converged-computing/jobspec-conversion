@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-staircase-8915
+#FLUX: --job-name=expressive-onion-7846
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export rocm_version='5.4.3'
 export LD_LIBRARY_PATH='/opt/rocm-${rocm_version}/llvm/lib/:$LD_LIBRARY_PATH'

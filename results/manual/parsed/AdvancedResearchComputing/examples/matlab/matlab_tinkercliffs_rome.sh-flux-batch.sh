@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-peanut-butter-8654
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-parrot-9410
+#FLUX: --urgency=16
 
 module reset
 module load MATLAB

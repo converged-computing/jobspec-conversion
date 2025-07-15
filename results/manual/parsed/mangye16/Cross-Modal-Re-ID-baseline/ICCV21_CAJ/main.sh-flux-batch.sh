@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-platanos-4282
+#FLUX: --job-name=pusheena-pastry-7463
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 for trial in 1 2 3 4 5
 do

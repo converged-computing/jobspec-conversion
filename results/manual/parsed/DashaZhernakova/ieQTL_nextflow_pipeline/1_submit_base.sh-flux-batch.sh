@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="InteractionAnalysis"
+#FLUX: --job-name=InteractionAnalysis
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='../singularitycache'
 export NXF_HOME='../nextflowcache'

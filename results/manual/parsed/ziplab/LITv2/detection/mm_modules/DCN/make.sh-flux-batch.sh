@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cinnamonbun-5522
+#FLUX: --job-name=anxious-hope-4082
 #FLUX: --queue=m3g
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROJECT='dl65'
 export CONDA_ENVS_PATH='/projects/$PROJECT/$USER/conda_envs'

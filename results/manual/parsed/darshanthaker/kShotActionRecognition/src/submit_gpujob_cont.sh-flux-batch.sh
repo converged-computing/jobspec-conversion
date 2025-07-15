@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-leader-4934
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-snack-5410
+#FLUX: --urgency=16
 
 module load cuda/8.0 cudnn/5.1
 module load tensorflow-gpu

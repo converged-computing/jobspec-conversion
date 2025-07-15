@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-pastry-4143
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-eagle-2494
+#FLUX: --urgency=16
 
 module load stopos
 source activate python27 # use anaconda

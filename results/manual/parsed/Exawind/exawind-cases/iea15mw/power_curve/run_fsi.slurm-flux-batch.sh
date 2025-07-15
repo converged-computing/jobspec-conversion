@@ -2,7 +2,7 @@
 #FLUX: --job-name=iea15mw_powercurve
 #FLUX: -N=40
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SPACK_MANAGER='/home/gvijayak/exawind/source/spack-manager'
 

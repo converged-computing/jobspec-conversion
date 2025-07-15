@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-leg-5778
+#FLUX: --job-name=lovable-bike-6229
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ../build
 . ../readex_env/set_env_plain.source

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cattywampus-5588
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-leopard-6354
+#FLUX: --urgency=16
 
 echo `hostname`
 wdir=/projects/sequence_analysis/vol3/bizon/scigraph_cord

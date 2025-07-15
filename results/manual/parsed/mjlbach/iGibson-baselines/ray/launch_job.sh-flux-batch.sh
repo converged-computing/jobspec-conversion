@@ -3,7 +3,7 @@
 #FLUX: -c=45
 #FLUX: --queue=viscam
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/'
 export PATH='/usr/local/cuda-11.1/bin:$PATH'

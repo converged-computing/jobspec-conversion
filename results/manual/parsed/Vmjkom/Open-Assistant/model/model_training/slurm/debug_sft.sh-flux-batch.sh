@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=debug_sft_small
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_EXTENSIONS_DIR='/tmp/$USER/torch_extensions'
 export CACHE='/scratch/project_462000241/$USER/cache'

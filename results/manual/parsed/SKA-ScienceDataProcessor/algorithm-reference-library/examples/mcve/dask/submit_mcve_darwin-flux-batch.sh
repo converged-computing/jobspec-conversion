@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-latke-5229
+#FLUX: --job-name=tart-carrot-4666
 #FLUX: -N=4
 #FLUX: -n=32
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 export OMP_NUM_THREADS='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=omnigibson-vscode
 #FLUX: -c=8
-#FLUX: --queue=svl --qos=normal
-#FLUX: --priority=16
+#FLUX: --queue=svl
+#FLUX: --urgency=16
 
 set -e -o pipefail
 USERNAME=$(whoami)

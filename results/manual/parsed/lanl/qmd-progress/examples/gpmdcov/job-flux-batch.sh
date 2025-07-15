@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-citrus-1395
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-soup-9801
+#FLUX: -t=86400
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='40'
 export KMP_STACKSIZE='3200M'

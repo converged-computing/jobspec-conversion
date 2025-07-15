@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Isl_mod
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module load slim/4.0.1

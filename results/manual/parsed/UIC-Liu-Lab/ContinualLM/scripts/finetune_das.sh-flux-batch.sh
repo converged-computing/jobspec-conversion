@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-peas-3829
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-peanut-4382
+#FLUX: --urgency=16
 
 export HF_DATASETS_CACHE='/hdd_1/zke4/dataset_cache'
 export TRANSFORMERS_CACHE='/sdb/zke4/model_cache'

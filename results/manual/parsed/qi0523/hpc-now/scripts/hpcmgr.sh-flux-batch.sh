@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-fudge-9164
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-general-4160
+#FLUX: --urgency=16
 
 function help_info() {
   echo -e "[ -INFO- ] Valid options/commands:"

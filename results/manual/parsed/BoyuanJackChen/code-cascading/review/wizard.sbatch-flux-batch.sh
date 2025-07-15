@@ -2,7 +2,7 @@
 #FLUX: --job-name=wizard_review
 #FLUX: -c=2
 #FLUX: -t=172799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 singularity exec --nv \

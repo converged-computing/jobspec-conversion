@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-parrot-9248
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-lamp-2584
+#FLUX: --urgency=16
 
 cd /fs/cfar-projects/anim_inb
 source env3-9-5/bin/activate

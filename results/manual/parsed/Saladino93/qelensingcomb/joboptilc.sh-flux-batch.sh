@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-cat-5484
+#FLUX: --job-name=stanky-hope-7076
 #FLUX: -N=3
 #FLUX: -t=19200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DISABLE_MPI='false'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

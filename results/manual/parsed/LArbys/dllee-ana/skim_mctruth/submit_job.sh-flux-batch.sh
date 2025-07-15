@@ -2,7 +2,7 @@
 #FLUX: --job-name=mcskim
 #FLUX: --queue=batch
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONTAINER=/cluster/tufts/wongjiradlab/larbys/images/singularity-larflow/singularity-larflow-v2.img
 WORKDIR_IC=/cluster/kappa/wongjiradlab/twongj01/dllee-ana/skim_mctruth/

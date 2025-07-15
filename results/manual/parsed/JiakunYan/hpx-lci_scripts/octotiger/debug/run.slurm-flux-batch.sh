@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-cupcake-4336
+#FLUX: --job-name=quirky-peanut-butter-0842
 #FLUX: -c=128
 #FLUX: --gpus-per-task=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LCI_SERVER_MAX_SENDS='1024'
 export LCI_SERVER_MAX_RECVS='4096'

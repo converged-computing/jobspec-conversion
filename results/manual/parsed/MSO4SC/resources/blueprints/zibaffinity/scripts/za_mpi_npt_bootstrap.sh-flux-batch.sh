@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-underoos-4436
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-kerfuffle-3142
+#FLUX: --urgency=16
 
 ZA_SLURM="${4}/${6}"
 za_tar=$(echo ${2} | sed 's#http://##g')

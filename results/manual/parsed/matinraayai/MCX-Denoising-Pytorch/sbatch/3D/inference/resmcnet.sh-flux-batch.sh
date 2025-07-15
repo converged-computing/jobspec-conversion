@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lemon-4156
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-bits-1308
+#FLUX: --urgency=16
 
 source ~/modules/pytorch/latest
 python model_inference.py --config-file configs/3D/inference/resmcnet/absorb-64x64x64.yaml

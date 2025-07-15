@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-itch-6426
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-pastry-7720
+#FLUX: --urgency=16
 
 set -euo pipefail
 shifter_flags="--module=none --clearenv --env=PAPERMILL_EXECUTION=True"

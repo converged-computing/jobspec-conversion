@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="MetaAnalysis"
+#FLUX: --job-name=MetaAnalysis
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load java-1.8.0_40
 module load singularity/3.5.3

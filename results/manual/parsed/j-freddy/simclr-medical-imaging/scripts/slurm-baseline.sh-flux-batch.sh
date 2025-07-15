@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-egg-0482
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-spoon-3327
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/vol/bitbucket/${USER}/individual-project-refined/venv/lib/python3.10/site-packages/nvidia/cublas/lib:${LD_LIBRARY_PATH}'
 export PATH='/vol/bitbucket/${USER}/individual-project-refined/venv/bin/:$PATH'

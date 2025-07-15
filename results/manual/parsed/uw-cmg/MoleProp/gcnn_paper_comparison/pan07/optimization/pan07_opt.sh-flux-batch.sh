@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-poo-6822
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-milkshake-4557
+#FLUX: --urgency=16
 
 module load cuda/10.0
 module load groupmods/cudnn/10.0

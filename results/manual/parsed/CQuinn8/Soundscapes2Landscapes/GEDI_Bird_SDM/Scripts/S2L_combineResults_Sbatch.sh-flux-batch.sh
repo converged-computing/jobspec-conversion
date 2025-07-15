@@ -2,7 +2,7 @@
 #FLUX: --job-name=S2L_combineRes
 #FLUX: --queue=all
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 baseResPath='/scratch/pb463/projects/S2L/SDM/results/s20200113/All_woutGEDI/'
 specRun="ACWO AMGO BEWR BHGR BLPH BRBL BUSH CALT CAQU CBCH DEJU HOFI LEGO MODO NOFL NOMO NUWO OATI RWBL SOSP SPTO STJA WCSP WEBL WESJ"

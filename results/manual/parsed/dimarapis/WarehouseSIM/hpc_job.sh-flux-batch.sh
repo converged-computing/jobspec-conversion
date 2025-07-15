@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-toaster-9751
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-sundae-0909
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dimarapis/WarehouseSIM/hpc_job.sh

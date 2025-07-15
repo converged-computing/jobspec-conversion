@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-carrot-9661
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-ricecake-3555
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/uhhpctools/omptx/omp/apps/mpi/ex7/kongull.pbs

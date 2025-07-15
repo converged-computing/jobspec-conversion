@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-squidward-1613
+#FLUX: --job-name=blank-train-1029
 #FLUX: -c=64
 #FLUX: --exclusive
 #FLUX: --queue=condo-dtalmy
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${NCDIR}/lib:${LD_LIBRARY_PATH}'
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='0   # the option -ppn only works if you set this before'

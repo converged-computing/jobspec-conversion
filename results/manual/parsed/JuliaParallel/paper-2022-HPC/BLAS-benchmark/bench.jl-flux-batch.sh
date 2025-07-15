@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-platanos-2982
+#FLUX: --job-name=faux-banana-3888
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_EXLUSIVE='1'
 

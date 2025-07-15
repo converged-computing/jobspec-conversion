@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-hobbit-8518
+#FLUX: --job-name=peachy-soup-0310
 #FLUX: --queue=mono
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.modules
 module load gcc

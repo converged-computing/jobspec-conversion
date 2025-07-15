@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-leg-0158
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-toaster-5791
+#FLUX: --urgency=16
 

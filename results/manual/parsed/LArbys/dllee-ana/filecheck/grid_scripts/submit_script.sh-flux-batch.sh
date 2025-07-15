@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=dlsumtree
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONTAINER=/cluster/tufts/wongjiradlab/larbys/larbys-containers/singularity_ubdl_deps_py2_10022019.simg
 FILECHECK_DIR=/cluster/tufts/wongjiradlab/twongj01/dllee-ana/filecheck

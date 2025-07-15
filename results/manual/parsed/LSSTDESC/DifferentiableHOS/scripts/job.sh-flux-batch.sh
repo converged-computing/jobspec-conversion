@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-staircase-5572
+#FLUX: --job-name=purple-lentil-8909
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load tensorflow/2.6.0
 cd /pscratch/sd/d/dlan/result_paper_IA_0/jac_ps_multiscale/

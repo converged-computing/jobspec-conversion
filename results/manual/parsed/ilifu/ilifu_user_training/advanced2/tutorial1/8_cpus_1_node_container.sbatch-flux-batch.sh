@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=8-cpus-1-node-container
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Submitting SLURM job: simple_mpi.py using Singularity container over 8 cores & 1 node"
 module add mpich/3.3a2

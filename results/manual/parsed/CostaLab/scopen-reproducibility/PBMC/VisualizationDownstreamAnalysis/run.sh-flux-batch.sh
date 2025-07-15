@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-peanut-2702
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-fork-6277
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate r-4.0.3

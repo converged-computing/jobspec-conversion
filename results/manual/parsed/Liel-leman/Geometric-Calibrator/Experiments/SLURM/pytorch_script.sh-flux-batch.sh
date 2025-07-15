@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-platanos-7184
-#FLUX: --priority=16
+#FLUX: --job-name=${i}CNN_${dataset}
+#FLUX: -n=4
+#FLUX: -c=8
+#FLUX: --queue=main
+#FLUX: -t=604800
+#FLUX: --urgency=16
 
 norm="L2"
 START=0
@@ -36,16 +40,7 @@ declare -a arr_data=("SignLanguage")
 			### sbatch configuration parameters must start with #SBATCH and must precede any other commands.
 			### To ignore, just add another # - like so: ##SBATCH
 			################################################################################################
-			#SBATCH --partition main			### specify partition name where to run a job. short: 7 days limit; gtx1080: 7 days; debug: 2 hours limit and 1 job at a time
-			#SBATCH --time 7-00:00:00			### limit the time of job running. Make sure it is not greater than the partition time limit!! Format: D-H:MM:SS
-			#SBATCH --job-name ${i}CNN_${dataset}		### name of the job
-			#SBATCH --output=/home/leman/Sep/cluster/outputFiles/$CNN_${dataset}_${i}_%J.out		### output log for running job - %J for job number
-			#SBATCH --ntasks=4
-			#SBATCH --cpus-per-task=8
 			# Note: the following 4 lines are commented out
-			#SBATCH --mail-user=leman@post.bgu.ac.il	### user's email for sending job status messages
-			#SBATCH --mail-type=ALL				### conditions for sending the email. ALL,BEGIN,END,FAIL, REQUEU, NONE
-			#SBATCH --mem=${RAM}G				### ammount of RAM memory
 			### Print some data to output file ###
 			echo `date`
 			echo -e "\nSLURM_JOBID:\t\t" $SLURM_JOBID

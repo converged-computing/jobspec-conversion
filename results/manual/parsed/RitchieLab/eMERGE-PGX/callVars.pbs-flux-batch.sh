@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-motorcycle-2718
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-frito-0695
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RitchieLab/eMERGE-PGX/callVars.pbs

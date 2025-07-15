@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=medium
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SOMA_SERVER_ADDR_FILE='`pwd`/server.add'
 export SOMA_NODE_ADDR_FILE='`pwd`/node.add'

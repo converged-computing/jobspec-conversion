@@ -2,7 +2,7 @@
 #FLUX: --job-name=align_reads
 #FLUX: -n=20
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module purge; module load bluebear

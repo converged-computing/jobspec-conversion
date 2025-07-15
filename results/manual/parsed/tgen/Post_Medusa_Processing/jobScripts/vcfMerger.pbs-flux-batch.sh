@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="vcfMerger"
+#FLUX: --job-name=vcfMerger
 #FLUX: -c=8
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PERL5LIB='/home/achristofferson/local/vcftools_v0.1.14/src/perl/'
 

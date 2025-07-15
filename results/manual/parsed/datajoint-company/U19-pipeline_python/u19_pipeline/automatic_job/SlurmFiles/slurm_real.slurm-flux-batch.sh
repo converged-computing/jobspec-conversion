@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=job_id_144
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
     echo "SLURM_JOB_ID: ${SLURM_JOB_ID}"
     echo "SLURM_SUBMIT_DIR: ${SLURM_SUBMIT_DIR}"

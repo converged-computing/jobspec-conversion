@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=coupled
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 export OMP_PLACES='cores'

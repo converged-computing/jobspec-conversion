@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lettuce-7946
+#FLUX: --job-name=scruptious-frito-6898
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_OPTS='-Xms500M -Xmx8G'
 

@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=normal
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/sas4990/miniconda3/etc/profile.d/conda.sh
 conda activate ipy3

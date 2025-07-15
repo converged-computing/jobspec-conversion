@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="pegasus_snpEff"
+#FLUX: --job-name=pegasus_snpEff
 #FLUX: --exclusive
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 beginTime=`date +%s`
 machine=`hostname`

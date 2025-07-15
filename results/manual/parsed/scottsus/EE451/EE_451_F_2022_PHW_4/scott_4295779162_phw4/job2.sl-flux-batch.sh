@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-lemur-4457
+#FLUX: --job-name=gassy-buttface-2073
 #FLUX: -n=4
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_TLS='sm,tcp,self'
 

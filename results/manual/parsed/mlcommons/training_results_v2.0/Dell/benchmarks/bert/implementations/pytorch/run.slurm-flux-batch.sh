@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=bert
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATADIR='$DATAPATH/hdf5_4320_shards_varlength'
 export EVALDIR='$DATAPATH/eval_varlength/'

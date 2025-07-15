@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-dog-4564
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-hobbit-4925
+#FLUX: --urgency=16
 
 export PATH='/proj/jesuni/projappl/tex-basic/texlive/2020/bin/x86_64-linux:$PATH'
 export PTNONINTERACTIVE='1'

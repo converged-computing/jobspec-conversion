@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-soup-4585
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-pancake-9467
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nbraunsc/MIM/inputs/pbs.sh

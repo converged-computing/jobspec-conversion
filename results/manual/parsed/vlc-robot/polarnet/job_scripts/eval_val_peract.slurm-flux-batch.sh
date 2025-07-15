@@ -2,7 +2,7 @@
 #FLUX: --job-name=polarnet_val
 #FLUX: -c=10
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XDG_RUNTIME_DIR='$SCRATCH/tmp/runtime-$SLURM_JOBID'
 export PYTHONPATH='$PYTHONPATH:$code_dir'

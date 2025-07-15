@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-platanos-4676
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-knife-1590
+#FLUX: --urgency=16
 
 export QT_QPA_PLATFORM='offscreen'
 

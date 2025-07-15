@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-latke-7450
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-blackbean-9040
+#FLUX: --urgency=16
 
 module load cuda/75/blas/7.5.18
 module load cuda/75/fft/7.5.18

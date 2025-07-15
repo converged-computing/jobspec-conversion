@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-plant-4437
+#FLUX: --job-name=doopy-earthworm-7795
 #FLUX: --queue=bii-gpu
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda
 conda activate OSMI

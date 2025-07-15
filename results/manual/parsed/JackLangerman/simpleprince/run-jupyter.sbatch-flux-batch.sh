@@ -2,7 +2,7 @@
 #FLUX: --job-name=jupyter
 #FLUX: -c=2
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load tensorflow/python3.6/1.5.0
 module swap python3/intel  anaconda3/5.3.1

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=compile_MNH
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 pwd

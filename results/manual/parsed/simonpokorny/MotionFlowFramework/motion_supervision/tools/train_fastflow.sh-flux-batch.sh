@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-egg-4627
+#FLUX: --job-name=rainbow-underoos-3411
 #FLUX: -c=4
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml torchsparse
 cd $HOME/motion_supervision

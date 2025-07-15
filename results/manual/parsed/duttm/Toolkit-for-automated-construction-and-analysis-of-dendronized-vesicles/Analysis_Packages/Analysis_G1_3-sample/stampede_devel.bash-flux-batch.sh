@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chip-3637
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-salad-1962
+#FLUX: --urgency=16
 
 gro=*.gro
 xtc=*.xtc

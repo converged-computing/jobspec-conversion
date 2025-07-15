@@ -2,7 +2,7 @@
 #FLUX: --job-name=hpl-benchmark
 #FLUX: -c=128
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_TLS='self, tcp'
 

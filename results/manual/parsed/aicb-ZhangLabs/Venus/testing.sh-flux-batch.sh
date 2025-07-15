@@ -3,7 +3,7 @@
 #FLUX: -c=32
 #FLUX: --queue=zhanglab.p
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 repo_dir=/srv/disk00/cheyul1/Venus/outputs/22-05-10/Venus
 out_dir=/srv/disk00/cheyul1/Venus/outputs/22-05-10/testing1

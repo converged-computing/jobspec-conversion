@@ -3,7 +3,7 @@
 #FLUX: -N=30
 #FLUX: -c=96
 #FLUX: -t=5184000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TZ='Asia/Singapore'
 export TMPDIR='/fsx/tmp'

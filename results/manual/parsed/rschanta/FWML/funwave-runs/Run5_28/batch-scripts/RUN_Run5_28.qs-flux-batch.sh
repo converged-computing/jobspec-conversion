@@ -2,7 +2,7 @@
 #FLUX: --job-name=RUN_Run5_28
 #FLUX: --queue=standard
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 		## Load in bash functions and VALET packages
 			. "/work/thsu/rschanta/RTS/functions/bash-utility/get_bash.sh"

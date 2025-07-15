@@ -2,7 +2,7 @@
 #FLUX: --job-name=kvile_od
 #FLUX: -N=10
 #FLUX: -t=388800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -o errexit # Make bash exit on any error
 set -o nounset # Treat unset variables as errors

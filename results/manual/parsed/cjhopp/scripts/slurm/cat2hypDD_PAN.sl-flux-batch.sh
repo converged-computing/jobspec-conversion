@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-platanos-6471
+#FLUX: --job-name=dinosaur-diablo-0543
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load OpenCV/2.4.9-intel-2015a
 module load ObsPy/0.10.3rc1-intel-2015a-Python-2.7.9

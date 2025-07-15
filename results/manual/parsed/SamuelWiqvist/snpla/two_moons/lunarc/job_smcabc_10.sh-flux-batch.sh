@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-plant-1113
+#FLUX: --job-name=wobbly-parrot-1212
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

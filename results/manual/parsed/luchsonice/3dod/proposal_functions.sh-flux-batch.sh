@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-squidward-3920
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-truffle-7621
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/luchsonice/3dod/proposal_functions.sh

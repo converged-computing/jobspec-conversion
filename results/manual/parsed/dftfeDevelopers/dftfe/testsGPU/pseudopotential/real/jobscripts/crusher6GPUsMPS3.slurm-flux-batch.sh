@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-leg-1419
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-chip-0992
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MPICH_OFI_NIC_POLICY='NUMA'

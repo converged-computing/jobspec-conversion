@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fuse_infer_3b
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 model_path="yuchenlin/gen_fuser" # yuchenlin/gen_fuser_3500
 model_name="gen_fuser_beam4"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-fudge-3039
+#FLUX: --job-name=misunderstood-lemon-7385
 #FLUX: --queue=long
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load openmpi/4.0.1
 mpirun -np 15 /global/n2p2/bin/lmp_mpi < nvt_share_H_heated_cooled_away_close_metad_111_41_109_52_40_0-2_0-3_500_40000_index1.lmp

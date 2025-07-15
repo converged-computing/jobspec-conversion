@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-buttface-2130
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-nalgas-3871
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alexgraehl/TimeForScience/Config/Alex_Williams/.aliases

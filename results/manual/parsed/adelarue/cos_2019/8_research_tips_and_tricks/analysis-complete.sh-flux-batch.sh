@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-poodle-0027
+#FLUX: --job-name=bricky-taco-0378
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load sloan/julia/1.0.0
 module load sloan/python/modules/2.7

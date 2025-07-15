@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-fork-6418
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-latke-2202
+#FLUX: --urgency=16
 
 JOB_ID=${SLURM_JOB_ID}
 echo $JOB_ID

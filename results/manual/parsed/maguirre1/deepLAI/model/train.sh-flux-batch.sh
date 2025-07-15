@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-truffle-4211
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-cattywampus-3077
+#FLUX: --urgency=16
 
 __README="""
 A wrapper script for train.py

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-truffle-2793
+#FLUX: --job-name=nerdy-plant-6687
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 iStage=2
 cd "STAGE_$iStage/scripts/"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-fork-9597
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-snack-0990
+#FLUX: --urgency=16
 
 module load centos6/0.0.1-fasrc01
 module load Anaconda/5.0.1-fasrc01

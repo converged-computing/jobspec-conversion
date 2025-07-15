@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-nunchucks-2204
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-cinnamonbun-9648
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/noiseux1523/Deep-Belief-Network/replication-package-dbn/run_job_best-cpu.sh

@@ -2,7 +2,7 @@
 #FLUX: --job-name=demo4summa
 #FLUX: -n=2
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 control_file=$1   # "control_active.txt"
 nJob=3            # number of jobs in job array. Should be the same as in --array.

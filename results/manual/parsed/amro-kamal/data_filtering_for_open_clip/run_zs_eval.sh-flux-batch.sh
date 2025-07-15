@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=learnfair
 #FLUX: -t=1500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_PORT='12802'
 export PYTHONFAULTHANDLER='1'

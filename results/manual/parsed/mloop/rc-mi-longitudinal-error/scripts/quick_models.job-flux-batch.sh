@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=quick-models
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -o errexit
 module load gcc/9.3.0

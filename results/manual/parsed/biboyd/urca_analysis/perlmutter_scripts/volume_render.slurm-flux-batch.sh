@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-animal-9286
+#FLUX: --job-name=sticky-cattywampus-2495
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 export MPICH_MAX_THREAD_SAFETY='multiple'

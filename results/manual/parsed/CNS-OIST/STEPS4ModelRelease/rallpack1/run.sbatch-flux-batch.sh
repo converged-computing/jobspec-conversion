@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-milkshake-5743
+#FLUX: --job-name=nerdy-sundae-9385
 #FLUX: --exclusive
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='`spack find --paths /$SPACK_INSTALLED_HASH | tail -n 1 | grep -o "/.*"`:$PYTHONPATH'
 

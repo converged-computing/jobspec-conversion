@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-fudge-0709
+#FLUX: --job-name=dirty-malarkey-1371
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: --queue=workq
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 kill_server() {

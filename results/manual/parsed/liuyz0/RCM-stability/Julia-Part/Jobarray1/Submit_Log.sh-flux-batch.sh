@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-caramel-4915
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-taco-1344
+#FLUX: --urgency=16
 
 source /etc/profile
 module load julia/1.8.5

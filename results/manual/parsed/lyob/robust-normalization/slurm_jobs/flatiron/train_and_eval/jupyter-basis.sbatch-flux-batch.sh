@@ -2,7 +2,7 @@
 #FLUX: --job-name=jupyter_cpu
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 port=$(shuf -i 10000-65500 -n 1)
 /usr/bin/ssh -N -f -R $port:localhost:$port rusty1

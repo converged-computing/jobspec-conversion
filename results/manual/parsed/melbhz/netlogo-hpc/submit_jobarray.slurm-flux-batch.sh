@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="COVIDModel-Snowy"
+#FLUX: --job-name=COVIDModel-Snowy
 #FLUX: -c=8
 #FLUX: --queue=snowy
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load java
 BASE_FOLDER='/path/to/your/slurm/xxxx/xxxx/directory' #REVISE HERE: The base folder is where the slurm file lives

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lamp-4474
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-leader-0287
+#FLUX: --urgency=16
 
 train_batch=64
 nodes=1

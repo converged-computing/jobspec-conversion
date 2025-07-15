@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-car-0007
+#FLUX: --job-name=butterscotch-despacito-1983
 #FLUX: -c=24
 #FLUX: --queue=debug
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_DIR='/scratch/disc/p.templier/wandb_files'
 

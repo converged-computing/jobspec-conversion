@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=gpu_shared_course
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2021

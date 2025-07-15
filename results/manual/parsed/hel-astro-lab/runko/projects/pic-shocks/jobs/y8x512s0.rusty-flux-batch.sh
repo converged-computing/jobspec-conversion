@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lettuce-4269
+#FLUX: --job-name=hairy-peanut-butter-4516
 #FLUX: -N=20
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PYTHONDONTWRITEBYTECODE='true'

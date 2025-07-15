@@ -2,7 +2,7 @@
 #FLUX: --job-name=QDGP64
 #FLUX: -c=10
 #FLUX: --queue=CLUSTER
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/anaconda3
 module load cuda/cuda-11.4

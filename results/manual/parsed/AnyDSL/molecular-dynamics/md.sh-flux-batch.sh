@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-underoos-1874
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-hippo-9311
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AnyDSL/molecular-dynamics/md.sh

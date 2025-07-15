@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-blackbean-1670
-#FLUX: --priority=16
+#FLUX: --job-name=arid-frito-0896
+#FLUX: --urgency=16
 
 mkdir -p sbatch_logs
 source $SCRATCH/anaconda3/bin/activate pytorch

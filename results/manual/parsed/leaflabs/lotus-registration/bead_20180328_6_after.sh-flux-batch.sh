@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-carrot-9001
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-onion-9649
+#FLUX: --urgency=16
 
 export TZ='America/New_York'
 

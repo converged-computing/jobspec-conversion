@@ -2,7 +2,7 @@
 #FLUX: --job-name=hm_ddmd_n2t12i1_100ps_0
 #FLUX: --queue=a100
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='/scratch/$USER'
 

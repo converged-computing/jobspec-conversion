@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=GROMACS.GPU.SING
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export APPTAINER_BIND='$EAR_INSTALL_PATH:$EAR_INSTALL_PATH:ro,$EAR_TMP:$EAR_TMP:rw'
 export APPTAINERENV_EAR_INSTALL_PATH='$EAR_INSTALL_PATH'

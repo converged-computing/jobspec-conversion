@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-caramel-3393
+#FLUX: --job-name=evasive-peanut-butter-8617
 #FLUX: -t=90
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python
 module list

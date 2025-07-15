@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-leader-4359
+#FLUX: --job-name=creamy-taco-1560
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 multirunlog="multirun.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

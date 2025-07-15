@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-cupcake-5993
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-banana-4878
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jasonlarkin/ald-si/lmp_run.sh

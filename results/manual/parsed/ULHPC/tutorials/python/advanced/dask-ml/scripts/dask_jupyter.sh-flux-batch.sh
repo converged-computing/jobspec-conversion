@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lizard-7947
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-plant-1846
+#FLUX: --urgency=16
 
 export VENV='$HOME/.envs/jupyter_dask_${ULHPC_CLUSTER}'
 export JUPYTER_CONFIG_DIR='$HOME/jupyter/$SLURM_JOBID/'

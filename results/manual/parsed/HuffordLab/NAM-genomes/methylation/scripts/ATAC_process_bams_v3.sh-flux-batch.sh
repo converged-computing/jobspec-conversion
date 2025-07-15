@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-hope-5493
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-fork-2611
+#FLUX: --urgency=16
 
 out_dir=output_directory
 mapping_list=genome_mapping_combinations.txt

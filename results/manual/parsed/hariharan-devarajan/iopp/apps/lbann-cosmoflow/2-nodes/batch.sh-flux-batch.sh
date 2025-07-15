@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-avocado-5630
-#FLUX: --priority=16
+#FLUX: --job-name=phat-pancake-0758
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hariharan-devarajan/iopp/apps/lbann-cosmoflow/2-nodes/batch.sh

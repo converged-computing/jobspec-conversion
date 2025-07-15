@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-mango-5267
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-lettuce-6426
+#FLUX: --urgency=16
 
 module reset
 module load system singularity

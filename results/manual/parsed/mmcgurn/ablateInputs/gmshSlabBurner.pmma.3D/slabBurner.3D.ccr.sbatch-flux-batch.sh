@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="sbLite"
+#FLUX: --job-name=sbLite
 #FLUX: -N=200
 #FLUX: --exclusive
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PETSC_DIR='/projects/academic/chrest/owenmylo/petsc  '
 export PETSC_ARCH='arch-ablate-opt'

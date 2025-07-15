@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-staircase-3983
+#FLUX: --job-name=moolicious-lentil-3096
 #FLUX: --queue=cpu-short
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_APPTAINER_CACHEDIR='/research/labs/hematology/hemedata/m302618/apptainer/containers'
 

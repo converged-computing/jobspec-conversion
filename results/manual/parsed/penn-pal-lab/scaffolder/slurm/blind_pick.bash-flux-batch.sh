@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lamp-9058
+#FLUX: --job-name=arid-truffle-4313
 #FLUX: --queue=dineshj-compute
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_RUN_GROUP='$EXPERIMENT; '
 export WANDB__SERVICE_WAIT='600;'

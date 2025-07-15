@@ -2,7 +2,7 @@
 #FLUX: --job-name=reg_offsets
 #FLUX: --queue=biochem,normal
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.6.1
 source $py3env/bin/activate

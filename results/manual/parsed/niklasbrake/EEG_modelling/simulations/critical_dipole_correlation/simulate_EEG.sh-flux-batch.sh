@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cherry-5426
+#FLUX: --job-name=arid-itch-0930
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 folder=$1
 S=$2

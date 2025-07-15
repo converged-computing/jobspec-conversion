@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=placid-sundae-5321
-#FLUX: --priority=16
+#FLUX: --job-name=confused-chip-7724
+#FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-egg-4653
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-butter-4191
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/akiraawan/IDC_Group1/run.pbs

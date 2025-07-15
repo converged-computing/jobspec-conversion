@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-earthworm-2981
+#FLUX: --job-name=dinosaur-blackbean-5763
 #FLUX: -c=20
 #FLUX: --queue=gpu-testq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORK_DIR='$PWD/gmx${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/ubiquitin'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fastp
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/tly/wgs-pika/samples/
 output_dir="/home/tly/wgs-pika/results/fastp/"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-knife-5959
+#FLUX: --job-name=astute-leader-2286
 #FLUX: -c=10
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

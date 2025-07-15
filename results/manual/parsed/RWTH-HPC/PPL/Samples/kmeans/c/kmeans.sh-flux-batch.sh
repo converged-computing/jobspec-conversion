@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=KMEANS
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module switch intel gcc/9
 module load cuda/112

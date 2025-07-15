@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-bike-0077
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-car-4293
+#FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1'
 export OMP_NUM_THREADS='15'

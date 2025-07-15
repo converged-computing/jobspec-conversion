@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-poo-7455
-#FLUX: --priority=16
+#FLUX: --job-name=grated-caramel-0933
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/FNL-MoCha/nextgenseq_pipeline/submit_snakemake.sh

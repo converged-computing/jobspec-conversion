@@ -2,7 +2,7 @@
 #FLUX: --job-name=maxbin2
 #FLUX: -c=16
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 workdir=/path/to/workdir                              # < CHANGE
 datasets_array=($(<datasets.txt))

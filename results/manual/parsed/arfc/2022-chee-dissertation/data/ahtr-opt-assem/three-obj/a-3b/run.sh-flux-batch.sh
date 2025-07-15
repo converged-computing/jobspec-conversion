@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cinnamonbun-3241
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-gato-1802
+#FLUX: --urgency=16
 

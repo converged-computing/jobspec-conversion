@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-peas-3715
+#FLUX: --job-name=bumfuzzled-bike-4329
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load ensembl-vep

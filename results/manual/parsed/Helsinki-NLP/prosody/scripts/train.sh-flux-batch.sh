@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-onion-8971
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-peanut-butter-3451
+#FLUX: --urgency=16
 
 module purge
 module load gcc cuda python-env/3.6.3-ml

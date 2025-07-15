@@ -3,7 +3,7 @@
 #FLUX: -n=192
 #FLUX: --queue=normal
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NPROCS=${SLURM_NTASKS}
 module purge

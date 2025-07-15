@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-eagle-8276
+#FLUX: --job-name=scruptious-house-2913
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/10.2 cuda/11.7.1
 module load mpi/openmpi_4.1.1_gcc_10.2_slurm22

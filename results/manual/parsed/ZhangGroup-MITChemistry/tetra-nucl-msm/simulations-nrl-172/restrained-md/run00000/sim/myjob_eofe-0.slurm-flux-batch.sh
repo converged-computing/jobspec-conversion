@@ -3,7 +3,7 @@
 #FLUX: -n=2
 #FLUX: --queue=sched_mit_binz,newnodes,sched_mit_hill
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export pyPath='/home/xclin/bin/anaconda2/bin'
 export PLUMED_USE_LEPTON='yes'

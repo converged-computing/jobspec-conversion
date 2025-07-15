@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=GRChombo_Proca
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export environment='testing"  ## values should be either 'prod' for production or 'testing' for testing'
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:${PETSC_DIR}/lib'

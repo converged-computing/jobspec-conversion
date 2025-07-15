@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-mango-4106
+#FLUX: --job-name=wobbly-leopard-9911
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ROSETTA3="/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/rosetta/3.10"
 ROSETTA3_DB="/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/rosetta/3.10/database"

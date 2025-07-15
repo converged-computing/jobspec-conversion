@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-staircase-3030
+#FLUX: --job-name=anxious-train-4559
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CONTNAME='mpi_${SLURM_JOB_ID}'
 export DOCKEREXEC='nvidia-docker run --rm --net=host --uts=host --ipc=host --ulimit stack=67108864 --ulimit memlock=-1 --security-opt seccomp=unconfined  $IBDEVICES'

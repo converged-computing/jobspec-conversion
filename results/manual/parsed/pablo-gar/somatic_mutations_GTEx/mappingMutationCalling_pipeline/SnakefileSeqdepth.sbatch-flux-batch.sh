@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-taco-3455
+#FLUX: --job-name=reclusive-underoos-1350
 #FLUX: --queue=hbfraser
 #FLUX: -t=32400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load fraserconda
 source activate fraserconda

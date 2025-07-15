@@ -3,7 +3,7 @@
 #FLUX: -n=8
 #FLUX: -c=8
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 module load rclone

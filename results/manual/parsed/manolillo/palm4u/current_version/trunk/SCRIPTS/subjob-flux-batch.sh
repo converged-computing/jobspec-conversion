@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-salad-7371
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-avocado-8545
+#FLUX: --urgency=16
 
 export LANG='en_US.UTF-8'
 

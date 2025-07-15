@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-motorcycle-8040
+#FLUX: --job-name=lovely-toaster-0441
 #FLUX: -N=3
-#FLUX: --queue=valhalla  --qos=valhalla
+#FLUX: --queue=valhalla
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST="$SLURM_JOB_NODELIST

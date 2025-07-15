@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pancake-7781
+#FLUX: --job-name=lovable-citrus-6419
 #FLUX: --queue=csmpi_fpga_short
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

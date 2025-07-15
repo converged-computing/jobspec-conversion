@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leader-3279
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-chair-9501
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UoM-ResPlat-DevOps/SpartanAdvanced/Resources/NAMD/Examples/pbs_script_sequential

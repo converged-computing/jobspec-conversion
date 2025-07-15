@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-platanos-0695
+#FLUX: --job-name=salted-itch-3161
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 log="gchp.log"
 if [[ -e cap_restart ]]; then

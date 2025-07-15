@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="test-cpu"
+#FLUX: --job-name=test-cpu
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -c=28
 #FLUX: --queue=RM-small
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load singularity/2.6.0

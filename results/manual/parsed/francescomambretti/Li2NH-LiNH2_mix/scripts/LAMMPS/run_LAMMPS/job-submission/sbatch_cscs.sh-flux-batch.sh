@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="-gpu"
+#FLUX: --job-name=-gpu
 #FLUX: -N=4
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 export NO_STOP_MESSAGE='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-underoos-7593
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-truffle-1098
+#FLUX: --urgency=16
 
 echo `date`
 echo $HOSTNAME

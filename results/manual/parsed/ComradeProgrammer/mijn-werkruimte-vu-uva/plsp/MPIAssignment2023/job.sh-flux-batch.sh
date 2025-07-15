@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-nunchucks-1842
+#FLUX: --job-name=phat-parsnip-6767
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load openmpi/gcc/64/4.0.2
 module load julia/1.7.3

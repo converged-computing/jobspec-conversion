@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-caramel-6614
+#FLUX: --job-name=blue-cherry-5257
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=240000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.7.0
 module load any/python/3.8.3-conda

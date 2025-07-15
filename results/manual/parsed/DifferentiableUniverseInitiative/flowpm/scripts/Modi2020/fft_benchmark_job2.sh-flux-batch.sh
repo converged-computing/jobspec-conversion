@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-toaster-1423
+#FLUX: --job-name=red-cat-9967
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge && module load  esslurm gcc/7.3.0 python3 cuda/10.1.243
 for nc in 128; do 

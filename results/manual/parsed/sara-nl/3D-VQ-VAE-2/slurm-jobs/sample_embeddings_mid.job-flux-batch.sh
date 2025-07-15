@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=sample-embeddings-mid-lowtau
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='6'
 export NCCL_DEBUG='INFO'

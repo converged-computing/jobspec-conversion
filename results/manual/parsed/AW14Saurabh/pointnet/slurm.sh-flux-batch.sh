@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="PointNet"
+#FLUX: --job-name=PointNet
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 module load tensorflow/1.14.0

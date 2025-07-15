@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lettuce-3374
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-itch-3429
+#FLUX: --urgency=16
 
 export data_dir='/scratch/PI/jclmak/data/users/julian/NEMO/UNAGI/nemo4.0.5/EXP_R010/split_200km/alp0060_lam80/tau100x/ANALYSIS/'
 

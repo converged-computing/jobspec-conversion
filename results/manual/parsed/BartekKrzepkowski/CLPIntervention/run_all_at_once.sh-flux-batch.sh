@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=plgrid-gpu-a100
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate clpi_env

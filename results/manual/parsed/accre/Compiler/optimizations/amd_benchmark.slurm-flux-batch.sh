@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-chip-4377
+#FLUX: --job-name=nerdy-dog-4785
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "   "
 echo "Running on node: " $SLURM_NODELIST

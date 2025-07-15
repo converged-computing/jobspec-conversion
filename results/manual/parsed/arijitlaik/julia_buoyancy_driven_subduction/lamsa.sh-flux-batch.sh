@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-hope-5412
+#FLUX: --job-name=bricky-puppy-0633
 #FLUX: --queue=genoa
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODEL_PARAM_FILE='output.dat'
 export MODEL_NAME='t1_64_sa'

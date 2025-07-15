@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-signal-3061
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-lizard-7792
+#FLUX: --urgency=16
 

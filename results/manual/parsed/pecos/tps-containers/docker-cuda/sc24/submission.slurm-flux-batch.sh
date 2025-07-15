@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-kerfuffle-8297
-#FLUX: --priority=16
+#FLUX: --job-name=blue-pancake-9125
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.2.0 mvapich2/2.3.7 tacc-apptainer/1.1.8 cuda/12.2

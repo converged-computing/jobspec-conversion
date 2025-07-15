@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-banana-1839
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-sundae-3763
+#FLUX: --urgency=16
 
 module purge
 module load matlab

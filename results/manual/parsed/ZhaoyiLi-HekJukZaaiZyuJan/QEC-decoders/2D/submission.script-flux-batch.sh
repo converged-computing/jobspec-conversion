@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-leader-9829
+#FLUX: --job-name=conspicuous-cat-5420
 #FLUX: -c=2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml py-tensorflow/2.6.2_py36
 module load gcc/10.1.0

@@ -2,7 +2,7 @@
 #FLUX: --job-name=ggr
 #FLUX: --exclusive
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load R/3.4.0 
 module load java/1.8.0_131

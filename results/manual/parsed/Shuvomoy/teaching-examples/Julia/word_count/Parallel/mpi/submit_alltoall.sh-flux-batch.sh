@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hope-0630
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-snack-1371
+#FLUX: --urgency=16
 
 source /etc/profile
 module load julia-latest

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-muffin-1394
+#FLUX: --job-name=moolicious-frito-7390
 #FLUX: -c=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load BEDTools/2.30.0-GCC-10.2.0

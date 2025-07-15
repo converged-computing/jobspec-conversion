@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-gato-4315
-#FLUX: --priority=16
+#FLUX: --job-name=tart-poo-0462
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/knaughten/roms_tools/era_evap.job

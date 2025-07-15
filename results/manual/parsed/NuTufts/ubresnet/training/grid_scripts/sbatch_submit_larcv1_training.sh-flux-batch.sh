@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONTAINER=/cluster/kappa/90-days-archive/wongjiradlab/larbys/images/singularity-larbys-pytorch/singularity-larbys-pytorch-0.3-larcv1-nvidia384.66.img
 WORKDIR_IN_CONTAINER=/cluster/kappa/wongjiradlab/twongj01/ubresnet/training/workdir

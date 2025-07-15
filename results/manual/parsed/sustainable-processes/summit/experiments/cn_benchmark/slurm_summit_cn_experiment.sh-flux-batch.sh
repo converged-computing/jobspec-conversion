@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-bicycle-3425
+#FLUX: --job-name=carnivorous-butter-8426
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'
 export I_MPI_PIN_ORDER='scatter # Adjacent domains have minimal sharing of caches/sockets'

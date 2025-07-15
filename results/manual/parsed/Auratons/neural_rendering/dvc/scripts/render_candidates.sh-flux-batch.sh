@@ -2,7 +2,7 @@
 #FLUX: --job-name=render_candidates
 #FLUX: --queue=gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

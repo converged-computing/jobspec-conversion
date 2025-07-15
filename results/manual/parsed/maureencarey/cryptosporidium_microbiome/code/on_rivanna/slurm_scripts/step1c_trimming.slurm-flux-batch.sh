@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-toaster-9376
+#FLUX: --job-name=arid-general-3120
 #FLUX: --queue=standard
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc bbmap

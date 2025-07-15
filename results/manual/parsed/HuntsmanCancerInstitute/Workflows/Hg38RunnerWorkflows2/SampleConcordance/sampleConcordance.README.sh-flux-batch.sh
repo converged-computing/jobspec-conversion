@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-platanos-1939
+#FLUX: --job-name=expensive-blackbean-3245
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED STARTED
 module load singularity

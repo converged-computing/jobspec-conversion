@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-earthworm-4046
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-onion-1065
+#FLUX: --urgency=16
 
 export KMP_AFFINITY='granularity=core,compact,1'
 

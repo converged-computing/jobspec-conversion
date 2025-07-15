@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lamp-1740
+#FLUX: --job-name=fugly-general-3240
 #FLUX: --queue=hpc
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 scripts_dir=~/workspace/bench
 mkdir -p $scripts_dir

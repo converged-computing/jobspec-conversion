@@ -2,7 +2,7 @@
 #FLUX: --job-name=20201110_crustacean-transcriptomes_busco
 #FLUX: --queue=coenv
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='${augustus_scripts}:$PATH'
 export BUSCO_CONFIG_FILE='${busco_config_ini}'

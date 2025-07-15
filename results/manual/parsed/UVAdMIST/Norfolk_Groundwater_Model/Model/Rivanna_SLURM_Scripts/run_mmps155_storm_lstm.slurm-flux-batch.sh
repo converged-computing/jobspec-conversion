@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-omelette-3101
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-latke-9076
+#FLUX: --urgency=16
 
 module purge
 module load singularity tensorflow/1.6.0-py36

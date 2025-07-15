@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cinnamonbun-6198
+#FLUX: --job-name=moolicious-noodle-9063
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='$NTHREADS'
 export MKL_NUM_THREADS='$NTHREADS'

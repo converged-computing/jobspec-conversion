@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-kerfuffle-1244
+#FLUX: --job-name=grated-lamp-3232
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/NKI/stylegan3/
 source load_env.sh

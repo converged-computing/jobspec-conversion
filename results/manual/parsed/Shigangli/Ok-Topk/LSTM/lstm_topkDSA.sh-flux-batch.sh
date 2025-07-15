@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-soup-8930
+#FLUX: --job-name=milky-parrot-2307
 #FLUX: -N=32
 #FLUX: -n=32
 #FLUX: -c=12
 #FLUX: --queue=normal
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 conda activate py38_oktopk

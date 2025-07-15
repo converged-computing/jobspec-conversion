@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-knife-1475
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-pedo-1965
+#FLUX: --urgency=16
 
 module load bioinfo-tools
 module load nanopolish

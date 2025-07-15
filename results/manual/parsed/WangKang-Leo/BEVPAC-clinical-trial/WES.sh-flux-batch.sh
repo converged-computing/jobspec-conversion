@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-house-9422
-#FLUX: --priority=16
+#FLUX: --job-name=blue-arm-4044
+#FLUX: --urgency=16
 
 export NXF_OFFLINE='TRUE'
 export NXF_HOME='/castor/project/proj/nobackup/nf-core2/nf-core-sarek-2.7.1/workflow/'

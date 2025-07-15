@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-buttface-8051
+#FLUX: --job-name=spicy-soup-0420
 #FLUX: -N=3
 #FLUX: -t=100800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$SCRATCH'
 

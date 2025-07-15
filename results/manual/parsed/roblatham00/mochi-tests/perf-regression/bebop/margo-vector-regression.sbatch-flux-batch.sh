@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-chip-7491
+#FLUX: --job-name=faux-bits-8186
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PSM2_MULTI_EP='1'
 

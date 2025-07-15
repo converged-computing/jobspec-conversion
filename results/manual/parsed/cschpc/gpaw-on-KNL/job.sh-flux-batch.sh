@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-butter-1071
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-staircase-6306
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cschpc/gpaw-on-KNL/job.sh

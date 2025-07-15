@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ntm_battery
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load intel/19.1.2

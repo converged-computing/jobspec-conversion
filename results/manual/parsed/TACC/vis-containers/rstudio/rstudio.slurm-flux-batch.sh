@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-general-4198
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-pastry-1014
+#FLUX: --urgency=16
 
 export SINGULARITYENV_PASSWORD='$RSTUDIO_PASSWORD '
 

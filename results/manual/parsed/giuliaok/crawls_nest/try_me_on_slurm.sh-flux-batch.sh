@@ -2,7 +2,7 @@
 #FLUX: --job-name=postcode_finder
 #FLUX: -c=4
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd "${SLURM_SUBMIT_DIR}"
 echo Running on host "$(hostname)"

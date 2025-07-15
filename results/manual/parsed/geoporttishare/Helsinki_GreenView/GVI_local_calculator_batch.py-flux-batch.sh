@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cat-1445
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-salad-2126
+#FLUX: --urgency=16
 
 module purge
 module load gcc/4.9.3

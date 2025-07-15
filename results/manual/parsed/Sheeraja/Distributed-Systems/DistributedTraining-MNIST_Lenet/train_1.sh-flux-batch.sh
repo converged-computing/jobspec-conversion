@@ -4,7 +4,7 @@
 #FLUX: -c=2
 #FLUX: --queue=debug
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:~/julia-1.8.5/bin'
 

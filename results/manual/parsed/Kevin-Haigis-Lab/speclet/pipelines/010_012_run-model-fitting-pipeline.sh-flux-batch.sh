@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=fit-pipe
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/6.2.0 slurm-drmaa/1.1.3 conda2
 source "$HOME/.bashrc"

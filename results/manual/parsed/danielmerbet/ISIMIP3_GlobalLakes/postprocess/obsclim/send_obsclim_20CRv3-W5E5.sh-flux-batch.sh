@@ -3,7 +3,7 @@
 #FLUX: -n=28
 #FLUX: --queue=broadwell
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo EMPIEZA TODO `date`
 ml SciPy-bundle/2021.10-foss-2021b

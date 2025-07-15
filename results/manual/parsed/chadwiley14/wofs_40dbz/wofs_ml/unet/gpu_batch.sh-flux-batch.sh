@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --queue=ai2es
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/chadwiley/.bashrc
 bash

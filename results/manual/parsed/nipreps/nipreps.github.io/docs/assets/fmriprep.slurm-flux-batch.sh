@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-dog-7940
+#FLUX: --job-name=ornery-rabbit-2203
 #FLUX: -c=16
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_FS_LICENSE='$HOME/.freesurfer.txt'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'

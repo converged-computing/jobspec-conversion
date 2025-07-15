@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-caramel-0034
-#FLUX: --queue=gpu-L --gres=gpu:1 --constraint="gpu6" --cpus-per-gpu=10
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-peanut-7596
+#FLUX: --queue=gpu-L
+#FLUX: --urgency=16
 
 d=$(date)
 echo $d nvidia-smi

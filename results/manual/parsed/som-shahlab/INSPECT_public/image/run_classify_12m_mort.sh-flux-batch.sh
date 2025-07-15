@@ -3,7 +3,7 @@
 #FLUX: -c=5
 #FLUX: --queue=nigam-v100
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 seeds="0"
 n_gpus=1

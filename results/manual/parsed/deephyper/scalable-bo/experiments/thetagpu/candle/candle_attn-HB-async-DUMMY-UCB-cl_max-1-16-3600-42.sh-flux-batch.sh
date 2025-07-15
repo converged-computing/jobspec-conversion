@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=faux-poodle-0552
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-punk-8145
+#FLUX: --urgency=16
 

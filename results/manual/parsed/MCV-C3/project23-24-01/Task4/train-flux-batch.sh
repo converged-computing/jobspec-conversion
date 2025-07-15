@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-earthworm-8473
-#FLUX: --priority=16
+#FLUX: --job-name=blank-leopard-7309
+#FLUX: --urgency=16
 
 python custom_cnn.py

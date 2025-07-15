@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-pancake-0421
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-general-6050
+#FLUX: -t=43200
+#FLUX: --urgency=16
 
 mpirun -np full -bind-to socket -map-by socket -x KMP_AFFINITY=scatter lmp_kokkos_omp -k on t 16 -sf kk -pk kokkos neigh full newton off comm device -v x 32 -v y 32 -v z 32 -v t 100 < in.lj
 mv log.lammps log.10Sep14.lj.kokkos.omp.128K.1.16

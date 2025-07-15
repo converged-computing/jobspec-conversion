@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-carrot-4897
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-omelette-5844
+#FLUX: --urgency=16
 
 module reset
 module load GROMACS

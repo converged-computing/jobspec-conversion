@@ -2,7 +2,7 @@
 #FLUX: --job-name=inference
 #FLUX: -c=8
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='$1'
 

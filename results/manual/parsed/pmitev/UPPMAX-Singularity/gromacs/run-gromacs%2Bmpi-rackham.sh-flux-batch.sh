@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-latke-1452
+#FLUX: --job-name=rainbow-caramel-2636
 #FLUX: -c=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/7.2.0 openmpi/2.1.1
 env > env.log

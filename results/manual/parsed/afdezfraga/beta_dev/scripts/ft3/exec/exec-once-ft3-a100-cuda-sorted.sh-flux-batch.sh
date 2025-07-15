@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-squidward-3576
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-pedo-3461
+#FLUX: --urgency=16
 
 module load cesga/2020 cuda/12.2.0
 cd build

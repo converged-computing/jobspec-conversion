@@ -2,7 +2,7 @@
 #FLUX: --job-name=freq_convs_everywhere
 #FLUX: -c=4
 #FLUX: -t=3599
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 

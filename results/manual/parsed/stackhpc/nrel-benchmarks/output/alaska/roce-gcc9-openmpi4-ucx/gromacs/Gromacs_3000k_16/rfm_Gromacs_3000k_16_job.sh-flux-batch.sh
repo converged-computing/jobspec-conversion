@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="rfm_Gromacs_3000k_16_job"
+#FLUX: --job-name=rfm_Gromacs_3000k_16_job
 #FLUX: -n=512
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_MPI_TYPE='pmix_v2'
 export UCX_NET_DEVICES='mlx5_1:1'

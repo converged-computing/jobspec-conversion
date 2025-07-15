@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-toaster-8856
+#FLUX: --job-name=rainbow-caramel-2588
 #FLUX: --queue=gpu
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load TensorFlow/2.0.0-foss-2019a-Python-3.7.2
 module load matplotlib/3.0.3-fosscuda-2019a-Python-3.7.2

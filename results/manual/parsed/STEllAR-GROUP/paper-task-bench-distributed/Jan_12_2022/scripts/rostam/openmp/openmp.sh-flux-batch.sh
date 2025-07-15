@@ -2,7 +2,7 @@
 #FLUX: --job-name=openmp_1node_%j
 #FLUX: -c=48
 #FLUX: -t=3000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='true'

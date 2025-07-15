@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-leader-0283
+#FLUX: --job-name=faux-frito-0682
 #FLUX: -c=96
 #FLUX: --exclusive
 #FLUX: --queue=production-cluster
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_DATASETS_CACHE='/fsx/leandro/.cache'
 export LAUNCHER='accelerate launch \'

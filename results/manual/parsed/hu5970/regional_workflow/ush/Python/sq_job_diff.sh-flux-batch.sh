@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="plot_allvars_diff"
+#FLUX: --job-name=plot_allvars_diff
 #FLUX: -n=8
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GLOBAL_VAR_DEFNS_FP='${EXPTDIR1}/var_defns.sh'
 export CDATE='${DATE_FIRST_CYCL}${CYCL_HRS}'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=chr20_variant_calling2
 #FLUX: -n=10
 #FLUX: --queue=shortq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WDIR="/mnt/beegfs/scratch/bioinfo_core/B23043_NADR_02"
 SAMPLE_NAME="3700_R10"

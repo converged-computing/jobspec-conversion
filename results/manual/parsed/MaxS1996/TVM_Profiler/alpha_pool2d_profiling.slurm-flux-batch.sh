@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=alpha
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TVM_HOME='/home/s0144002/tvm_alpha_power'
 export PYTHONPATH='$TVM_HOME/python:${PYTHONPATH}'

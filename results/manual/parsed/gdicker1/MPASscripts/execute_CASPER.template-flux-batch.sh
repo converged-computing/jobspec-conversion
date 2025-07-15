@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-kerfuffle-8831
+#FLUX: --job-name=astute-citrus-5823
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/glade/work/ssuresh/1810pgi/linux86-64/18.10/mpi/openmpi-2.1.2/bin/:$PATH'
 export LD_LIBRARY_PATH='/glade/work/ssuresh/1810pgi/linux86-64/18.10/mpi/openmpi-2.1.2/lib/:$LD_LIBRARY_PATH'

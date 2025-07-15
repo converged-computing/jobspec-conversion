@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=placid-ricecake-9575
+#FLUX: --job-name=reclusive-ricecake-4853
 #FLUX: -N=2
 #FLUX: --queue=parallel
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RADICAL_LOG_LVL='DEBUG'
 export RADICAL_PROFILE='TRUE'

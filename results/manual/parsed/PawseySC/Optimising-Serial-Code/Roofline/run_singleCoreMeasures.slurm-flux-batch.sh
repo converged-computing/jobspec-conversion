@@ -2,7 +2,7 @@
 #FLUX: --job-name=fullNodeMeasures
 #FLUX: -c=64
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='SPREAD'
 export OMP_NUM_THREADS='1'

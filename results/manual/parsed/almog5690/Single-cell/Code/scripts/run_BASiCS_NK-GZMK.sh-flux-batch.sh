@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-platanos-8871
+#FLUX: --job-name=placid-bits-6820
 #FLUX: -n=4
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 <<<<<<< Updated upstream
 module load R4

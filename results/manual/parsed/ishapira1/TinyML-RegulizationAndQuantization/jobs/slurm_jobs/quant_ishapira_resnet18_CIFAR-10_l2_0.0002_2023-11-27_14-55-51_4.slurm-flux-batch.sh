@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-plant-7445
-#FLUX: --priority=16
+#FLUX: --job-name=placid-despacito-0017
+#FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

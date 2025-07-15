@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=subtractInput
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load perl/intel/5.24.0
 module load r/intel/3.4.2

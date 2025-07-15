@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-kerfuffle-1493
+#FLUX: --job-name=boopy-peas-2878
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load kallisto/0.43.1-foss-2016b
 module load SAMtools/1.3.1-foss-2016b

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-fudge-0176
-#FLUX: --priority=16
+#FLUX: --job-name=red-rabbit-2713
+#FLUX: --urgency=16
 
 srun --jobid $SLURM_JOBID bash -c 'python -m deep-learning-base.supervised_training \
 --dataset imagenet \

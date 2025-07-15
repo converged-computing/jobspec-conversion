@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-nalgas-3545
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-onion-0437
+#FLUX: --urgency=16
 
 set -e
 function cleanup() {

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-underoos-2768
+#FLUX: --job-name=crusty-knife-7259
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "$(date)"
 module purge

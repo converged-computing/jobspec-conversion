@@ -2,7 +2,7 @@
 #FLUX: --job-name=parrot
 #FLUX: -c=8
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "hostname:" `hostname`
 echo "file: " $FILE

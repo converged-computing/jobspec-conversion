@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="Singularity install VEP annotator"
+#FLUX: --job-name=Singularity install VEP annotator
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load any/singularity/3.7.3
 module load squashfs/4.4

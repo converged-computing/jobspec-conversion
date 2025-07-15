@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-leopard-6335
-#FLUX: --priority=16
+#FLUX: --job-name=milky-pastry-8674
+#FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

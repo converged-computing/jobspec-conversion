@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-platanos-7954
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-despacito-6619
+#FLUX: --urgency=16
 
 my_fasta=5ZE6_1.fasta
 my_output_dir=output

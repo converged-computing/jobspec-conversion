@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-nunchucks-3772
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-platanos-7926
+#FLUX: --urgency=16
 
 module load PrgEnv-amd
 module load craype-accel-amd-gfx90a

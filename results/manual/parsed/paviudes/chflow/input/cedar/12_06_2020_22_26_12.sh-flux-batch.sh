@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cinnamonbun-0972
+#FLUX: --job-name=adorable-eagle-9884
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel/2016.4 python/3.7.0 scipy-stack/2019a
 cd /project/def-jemerson/$USER/chflow

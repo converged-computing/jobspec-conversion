@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-kerfuffle-0907
+#FLUX: --job-name=tart-cupcake-3286
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 module load singularity

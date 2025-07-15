@@ -2,7 +2,7 @@
 #FLUX: --job-name=WRF
 #FLUX: -N=2
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='6'
 export I_MPI_PIN_DOMAIN='omp'

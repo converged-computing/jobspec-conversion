@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=job1_re
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load mathematica/12.1.1

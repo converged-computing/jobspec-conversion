@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-peanut-butter-7072
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-mango-0202
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JieyangChen7/DVFS-MAGMA/magma-1.5.0/scripts/MAGMA_LU_GPUDVFS_ivy.pbs

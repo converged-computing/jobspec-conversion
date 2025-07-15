@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-rabbit-4724
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-latke-1095
+#FLUX: --urgency=16
 
 tar xvf package.tar.gz
 module load gromacs

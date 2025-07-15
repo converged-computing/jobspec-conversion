@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=clair3_gvcf
 #FLUX: --queue=xeon
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 date

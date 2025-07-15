@@ -2,7 +2,7 @@
 #FLUX: --job-name=ab
 #FLUX: --queue=gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda3/2022.10
 module load CUDA/11.8.0

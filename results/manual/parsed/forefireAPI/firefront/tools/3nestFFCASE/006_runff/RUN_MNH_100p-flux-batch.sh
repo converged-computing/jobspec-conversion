@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-destiny-6805
+#FLUX: --job-name=confused-squidward-6473
 #FLUX: --queue=intel
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPIRUN='mpirun -np 120'
 

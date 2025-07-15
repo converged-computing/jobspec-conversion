@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=clf
 #FLUX: -t=180000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/intel/2.7.12
 module load pytorch/0.2.0_1

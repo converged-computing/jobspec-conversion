@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ibs_dynamic
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MATLABPATH='$HOME/${PROJECT_FOLDER}/matlab'
 

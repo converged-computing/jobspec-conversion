@@ -3,6 +3,6 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=small-g
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun singularity exec lumi_pytorch_rocm_demo.sif python3 pytorch_singlegpu_gputest.py

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-bike-7653
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-banana-2731
+#FLUX: --urgency=16
 

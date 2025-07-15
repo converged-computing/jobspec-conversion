@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-blackbean-4041
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-house-7734
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE=' 32G" '
 export RPPL_FLAGS=' --target omp -j $NCORES"    # OMP'

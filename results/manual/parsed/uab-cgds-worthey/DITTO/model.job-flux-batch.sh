@@ -2,7 +2,7 @@
 #FLUX: --job-name=DITTO
 #FLUX: --queue=amd-hdr100-res
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module reset
 module load Java/13.0.2

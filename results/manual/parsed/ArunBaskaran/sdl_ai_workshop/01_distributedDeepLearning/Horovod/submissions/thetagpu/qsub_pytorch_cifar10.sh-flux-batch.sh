@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-egg-6720
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-earthworm-3968
+#FLUX: --urgency=16
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-bicycle-8445
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-itch-3781
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 

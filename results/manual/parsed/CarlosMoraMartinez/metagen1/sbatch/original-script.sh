@@ -16,11 +16,12 @@
 #SBATCH --job-name=test_nf
 #SBATCH -o slurm.%N.%j.out
 #SBATCH -e slurm.%N.%j.err
-#SBATCH --partition=long
+#SBATCH --qos=long
 #SBATCH --cpus-per-task 4
-#SBATCH --mem=2G
+#SBATCH --mem=16G
+#SBATCH --time=8-00:00:00 # 8 días 
 
-module load  Nextflow/23.04.2
-module load Anaconda3/5.3.0
+#Do this before executing sbatch
+module load anaconda #3_2022.10
 
-nextflow run all.nf -c config/run_samples_cluster.config -profile conda -resume -with-timeline timeline.html -with-report report.html -with-dag pipeline_dag.html
+nextflow run all.nf -c config/run_samples_garnatxa_vero.config -profile conda -resume -with-report report.html -with-dag pipeline_dag.html

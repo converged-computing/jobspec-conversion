@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=categorizeRun2
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRAM_ARCH='slc6_amd64_gcc491'
 export CMS_PATH='/cvmfs/cms.cern.ch'

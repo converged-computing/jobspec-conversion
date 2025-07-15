@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-bike-7155
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-animal-1026
+#FLUX: --urgency=16
 
 lmp=/home/noura/LAMMPS/tests/src_v05
 mpi=/usr/local/openmpi-1.8.4-ifort/bin

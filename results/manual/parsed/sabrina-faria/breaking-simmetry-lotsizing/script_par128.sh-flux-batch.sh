@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-underoos-6587
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-latke-3863
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sabrina-faria/breaking-simmetry-lotsizing/script_par128.sh

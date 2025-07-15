@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-hobbit-1037
-#FLUX: --priority=16
+#FLUX: --job-name=red-general-8685
+#FLUX: --urgency=16
 
 source /contrib/alvaro/ompi/env.sh
 RUN_DIR="$HOME/cyclone"

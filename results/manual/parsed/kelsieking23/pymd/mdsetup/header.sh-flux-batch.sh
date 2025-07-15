@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-platanos-9291
+#FLUX: --job-name=purple-parsnip-5708
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/groups/bevanlab/software/cascades/fftw/3.3.8/lib:/groups/bevanlab/software/cascades/gromacs/2019.3/lib64'
 

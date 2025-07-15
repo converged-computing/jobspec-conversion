@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-noodle-6293
+#FLUX: --job-name=confused-latke-7395
 #FLUX: -c=4
 #FLUX: --gpus-per-task=8
 #FLUX: --exclusive
 #FLUX: --queue=hpg-ai
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export TORCH_DISTRIBUTED_DEBUG='DETAIL'

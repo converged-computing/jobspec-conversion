@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-fudge-3978
+#FLUX: --job-name=peachy-bicycle-0891
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared_course
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2019

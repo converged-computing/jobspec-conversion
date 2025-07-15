@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-lamp-0578
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-hobbit-5633
+#FLUX: --urgency=16
 
 module unload gromcas
  module unload gromacs/2020.2

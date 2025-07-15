@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-nunchucks-8598
+#FLUX: --job-name=bricky-ricecake-1031
 #FLUX: -n=4
 #FLUX: --queue=v100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RESOLUTION='12 '
 export NZ='50'

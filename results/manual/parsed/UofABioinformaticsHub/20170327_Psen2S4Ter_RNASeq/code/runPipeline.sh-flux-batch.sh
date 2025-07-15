@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-arm-8668
+#FLUX: --job-name=chocolate-omelette-2150
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CORES=12
 module load FastQC/0.11.7

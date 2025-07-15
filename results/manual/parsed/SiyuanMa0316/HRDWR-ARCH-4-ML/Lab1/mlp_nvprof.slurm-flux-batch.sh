@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lemon-7966
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-citrus-0327
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/apps/cuda10_1/lib64'
 

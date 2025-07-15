@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="multi_run_task"
+#FLUX: --job-name=multi_run_task
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATASET=$1
 NUM_OF_RUNS=${2:-30}

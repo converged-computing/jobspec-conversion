@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-car-5895
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-earthworm-1909
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/verenich/flow-analysis-predictions/run_FA.sh

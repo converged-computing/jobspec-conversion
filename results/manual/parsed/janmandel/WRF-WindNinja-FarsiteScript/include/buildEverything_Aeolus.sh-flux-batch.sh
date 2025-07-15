@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-rabbit-2721
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-train-7698
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/janmandel/WRF-WindNinja-FarsiteScript/include/buildEverything_Aeolus.sh

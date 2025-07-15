@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cherry-7348
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-gato-5327
+#FLUX: --urgency=16
 
 export SRUN='srun -n 4096 -c 3'
 export SCRATCH='/lustre/orion/chm137/proj-shared/cctbx'

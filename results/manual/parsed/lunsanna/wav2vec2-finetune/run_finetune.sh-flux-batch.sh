@@ -2,7 +2,7 @@
 #FLUX: --job-name=no_augment
 #FLUX: -c=4
 #FLUX: -t=32400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda
 module load cuda 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-banana-5672
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-bicycle-8626
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='66'
 export TF_SCRIPT='/global/cscratch1/sd/yyang420/fjr/tensorflow/distributed-tensorflow-benchmarks/google-benchmarks/tf_cnn_benchmarks/tf_cnn_benchmarks.py'

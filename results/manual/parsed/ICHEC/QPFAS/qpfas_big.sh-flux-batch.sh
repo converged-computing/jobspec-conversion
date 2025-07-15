@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-butter-3173
-#FLUX: --priority=16
+#FLUX: --job-name=tart-fork-1092
+#FLUX: --urgency=16
 
 export QPFAS_DEVICE_ID='kay_hpc_cluster'
 

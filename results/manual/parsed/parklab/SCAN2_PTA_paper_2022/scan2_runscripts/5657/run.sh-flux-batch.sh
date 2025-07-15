@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-sundae-7600
-#FLUX: --priority=16
+#FLUX: --job-name=arid-soup-8191
+#FLUX: --urgency=16
 
 /n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv \
     --ref /n/data1/hms/dbmi/park/jluquette/genotyper1/paper/resources/human_g1k_v37_decoy.fasta \

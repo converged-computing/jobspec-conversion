@@ -2,7 +2,7 @@
 #FLUX: --job-name=MPI-Config
 #FLUX: -n=48
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 module purge

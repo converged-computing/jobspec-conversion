@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-diablo-8937
+#FLUX: --job-name=ornery-bits-5868
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INDIR=/fast/users/a1742674/SV_VZ
 OUTDIR=/fast/users/a1742674/SV_VZ/V3726_2407

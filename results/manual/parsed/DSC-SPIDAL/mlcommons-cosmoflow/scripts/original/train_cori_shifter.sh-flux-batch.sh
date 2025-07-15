@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-staircase-8800
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-salad-3691
+#FLUX: --urgency=16
 
 module load singularity tensorflow/2.8.0
 singularity run \

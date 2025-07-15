@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=PialNet
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.0.130
 module load gnu7

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-blackbean-6494
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-destiny-5669
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AntoineDidisheim/EightK/scripts/pbs/array_job.sh

@@ -2,7 +2,7 @@
 #FLUX: --job-name=cuquantum
 #FLUX: -c=8
 #FLUX: --queue=a100_normal_q
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load containers/apptainer
 USER=`whoami`

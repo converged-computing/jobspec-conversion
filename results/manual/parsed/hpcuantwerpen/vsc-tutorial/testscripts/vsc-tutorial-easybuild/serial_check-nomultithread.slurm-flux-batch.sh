@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-hope-1251
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-bits-1154
+#FLUX: --urgency=16
 
 module purge
 module load calcua/2020a

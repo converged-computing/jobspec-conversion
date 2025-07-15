@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-nunchucks-7900
-#FLUX: --priority=16
+#FLUX: --job-name=blue-despacito-7912
+#FLUX: --urgency=16
 
 export MIOPEN_DISABLE_CACHE='1'
 export TRANSFORMERS_OFFLINE='1'

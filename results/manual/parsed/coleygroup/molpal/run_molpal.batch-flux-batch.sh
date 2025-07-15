@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-latke-8955
-#FLUX: --priority=16
+#FLUX: --job-name=astute-citrus-5840
+#FLUX: --urgency=16
 
 export NUM_GPUS='$( echo $CUDA_VISIBLE_DEVICES | awk -F ',' '{print NF}' )'
 

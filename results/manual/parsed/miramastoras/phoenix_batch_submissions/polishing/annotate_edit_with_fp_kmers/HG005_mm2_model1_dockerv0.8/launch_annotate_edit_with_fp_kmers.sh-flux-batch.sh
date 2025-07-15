@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=high_priority
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='`pwd`/../cache/.singularity/cache'
 export MINIWDL__SINGULARITY__IMAGE_CACHE='`pwd`/../cache/.cache/miniwdl'

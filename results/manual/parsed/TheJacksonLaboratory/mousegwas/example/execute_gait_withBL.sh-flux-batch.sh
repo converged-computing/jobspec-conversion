@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lemur-2258
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-lentil-2074
+#FLUX: --urgency=16
 
 export G='https://raw.githubusercontent.com/TheJacksonLaboratory/mousegwas'
 

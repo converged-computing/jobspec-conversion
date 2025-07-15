@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-house-4037
-#FLUX: --priority=16
+#FLUX: --job-name=arid-kitty-7386
+#FLUX: --urgency=16
 
 train_batch=128
 nodes=1

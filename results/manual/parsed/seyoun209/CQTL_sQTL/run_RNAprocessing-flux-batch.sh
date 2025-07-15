@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lizard-0245
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-signal-3349
+#FLUX: --urgency=16
 
 set -e
 module load python/3.9.6

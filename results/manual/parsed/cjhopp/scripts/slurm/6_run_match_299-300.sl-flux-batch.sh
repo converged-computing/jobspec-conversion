@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-signal-8953
+#FLUX: --job-name=astute-squidward-1476
 #FLUX: -c=12
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load OpenCV/2.4.9-intel-2015a
 module load ObsPy/0.10.3rc1-intel-2015a-Python-2.7.9

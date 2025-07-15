@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="SVO-QE-cRPA"
+#FLUX: --job-name=SVO-QE-cRPA
 #FLUX: --queue=ccq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 export OMP_STACKSIZE='512'

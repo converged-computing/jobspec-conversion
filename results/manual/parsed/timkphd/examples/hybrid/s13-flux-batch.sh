@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=astute-carrot-5400
+#FLUX: --job-name=hanky-plant-4935
 #FLUX: -N=2
 #FLUX: -n=18
 #FLUX: -c=4
 #FLUX: --queue=short
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VER='icc'
 export cpt='$SLURM_CPUS_PER_TASK '

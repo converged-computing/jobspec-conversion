@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-hippo-5779
-#FLUX: --priority=16
+#FLUX: --job-name=astute-gato-2128
+#FLUX: --urgency=16
 

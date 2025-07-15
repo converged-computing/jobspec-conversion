@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-despacito-8706
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-platanos-6156
+#FLUX: --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

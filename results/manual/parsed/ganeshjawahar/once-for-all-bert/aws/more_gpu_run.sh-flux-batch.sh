@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=a100
 #FLUX: -t=1500000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_NSOCKS_PERTHREAD='4'
 export NCCL_SOCKET_NTHREADS='2'

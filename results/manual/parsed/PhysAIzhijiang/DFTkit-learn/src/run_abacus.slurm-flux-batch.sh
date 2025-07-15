@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-arm-2925
+#FLUX: --job-name=lovable-fork-0647
 #FLUX: -c=4
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKLPATH='$MKL_HOME/lib/intel64/'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$INTELPATH'

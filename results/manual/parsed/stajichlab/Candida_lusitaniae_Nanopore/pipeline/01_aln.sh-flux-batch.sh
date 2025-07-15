@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cherry-4104
-#FLUX: --priority=16
+#FLUX: --job-name=arid-latke-8230
+#FLUX: -n=8
+#FLUX: -t=28800
+#FLUX: --urgency=16
 
 module load bwa/0.7.17
 module unload java

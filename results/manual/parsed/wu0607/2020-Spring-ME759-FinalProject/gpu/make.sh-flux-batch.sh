@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-spoon-8853
-#FLUX: --priority=16
+#FLUX: --job-name=phat-motorcycle-5747
+#FLUX: --urgency=16
 
 rm md5_gpu
 make

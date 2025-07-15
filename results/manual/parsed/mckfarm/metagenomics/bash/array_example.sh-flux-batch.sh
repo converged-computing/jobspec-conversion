@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-soup-2350
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-bike-0221
+#FLUX: --urgency=16
 
 module purge all
 module load singularity

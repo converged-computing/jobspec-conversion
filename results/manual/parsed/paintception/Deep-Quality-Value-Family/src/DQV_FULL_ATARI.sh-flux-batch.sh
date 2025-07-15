@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-leg-1972
+#FLUX: --job-name=lovable-signal-0305
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 GAMES=(AirRaidDeterministic-v4 AlienDeterministic-v4 AmidarDeterministic-v4 AssaultDeterministic-v4
 AsterixDeterministic-v4 AsteroidsDeterministic-v4 AtlantisDeterministic-v4 BankHeistDeterministic-v4

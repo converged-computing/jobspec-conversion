@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-mango-3970
+#FLUX: --job-name=pusheena-hobbit-2301
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

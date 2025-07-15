@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-malarkey-5178
-#FLUX: --queue=test -t 30
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-truffle-1982
+#FLUX: --queue=test
+#FLUX: --urgency=16
 
 module purge
 module load slurm_setup

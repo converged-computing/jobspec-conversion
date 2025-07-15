@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-taco-0410
+#FLUX: --job-name=spicy-platanos-9455
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 export HDF5_USE_FILE_LOCKING='FALSE'

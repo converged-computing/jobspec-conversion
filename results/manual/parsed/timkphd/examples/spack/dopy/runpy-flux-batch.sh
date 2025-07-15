@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="runpi"
+#FLUX: --job-name=runpi
 #FLUX: --exclusive
 #FLUX: --queue=shared
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_PRELOAD='/usr/lib64/libcrypto.so.1.1'
 export OMPI_MCA_opal_cuda_support='0'

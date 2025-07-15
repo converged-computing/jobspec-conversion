@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-omelette-7967
+#FLUX: --job-name=boopy-parsnip-4497
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . ./scripts/modules_truba.sh > /dev/null
 MAX_NUM_GPUS=8

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=demux
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo 'Start'
 snakemake \

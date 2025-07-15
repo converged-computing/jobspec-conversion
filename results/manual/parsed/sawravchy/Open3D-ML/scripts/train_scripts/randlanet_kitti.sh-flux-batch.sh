@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-puppy-2681
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-muffin-2711
+#FLUX: --urgency=16
 
 if [ "$#" -ne 2 ]; then
     echo "Please, provide the the training framework: torch/tf and dataset path"

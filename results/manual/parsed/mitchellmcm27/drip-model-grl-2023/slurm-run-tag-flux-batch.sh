@@ -2,7 +2,7 @@
 #FLUX: --job-name=drip-model-grl-2023
 #FLUX: -N=3
 #FLUX: -t=64800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load NiaEnv/2019b

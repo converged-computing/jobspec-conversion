@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-train-0923
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-chip-4142
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/erdc/proteus-mprans/benchmarks/dambreak/dambreak_garnet.pbs

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-plant-8173
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-fork-8065
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='272'
 

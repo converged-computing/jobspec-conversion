@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lettuce-4139
+#FLUX: --job-name=wobbly-chair-5139
 #FLUX: -N=4
 #FLUX: -c=12
+#FLUX: --queue=booster
 #FLUX: -t=3540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

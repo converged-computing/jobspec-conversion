@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-chip-3913
+#FLUX: --job-name=strawberry-bits-1585
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 echo "JOB timestamp: $(date)"

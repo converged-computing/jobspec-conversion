@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-fudge-7655
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-lentil-6690
+#FLUX: --urgency=16
 
 cd ~/measles/code/
 module load R

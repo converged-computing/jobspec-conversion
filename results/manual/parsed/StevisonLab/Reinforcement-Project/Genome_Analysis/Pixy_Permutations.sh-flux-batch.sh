@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hippo-1078
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-parrot-8730
+#FLUX: --urgency=16
 
 module load htslib/1.11
 for x in {1..20} X

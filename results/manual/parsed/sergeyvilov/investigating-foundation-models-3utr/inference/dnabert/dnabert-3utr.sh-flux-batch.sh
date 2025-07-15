@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lizard-0384
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-carrot-6692
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='~/miniconda3/lib'
 

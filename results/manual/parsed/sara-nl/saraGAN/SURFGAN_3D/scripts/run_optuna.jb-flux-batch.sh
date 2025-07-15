@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-bits-6113
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-mango-6029
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='5'
 export KMP_SETTINGS='True'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-poo-9488
+#FLUX: --job-name=bloated-lemur-8839
 #FLUX: -c=8
 #FLUX: -t=172740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge;
 singularity exec --nv \

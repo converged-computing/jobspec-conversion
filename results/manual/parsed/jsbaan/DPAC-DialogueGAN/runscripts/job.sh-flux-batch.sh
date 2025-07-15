@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-carrot-6143
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-peas-5377
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/hpc/sw/NCCL/2.0.5/lib:/hpc/eb/Debian9/cuDNN/7.0.5-CUDA-9.0.176/lib64:/hpc/eb/Debian$'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=modresp
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/scratch/pl1465/SF_diversity/pytorch/bin:$PATH'
 

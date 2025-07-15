@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-ricecake-7229
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-poodle-8444
+#FLUX: --urgency=16
 
 if [ -e nrlmol_exe ]; then
   #Here nrlmol_exe.0 is your reference executable i.e. orginal code.

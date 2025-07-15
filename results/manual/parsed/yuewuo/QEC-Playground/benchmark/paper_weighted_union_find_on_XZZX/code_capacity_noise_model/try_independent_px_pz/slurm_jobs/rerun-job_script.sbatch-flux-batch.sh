@@ -2,7 +2,7 @@
 #FLUX: --job-name=QEC-Playground=10-30-2021=10:28:17
 #FLUX: -c=36
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ "$SLURM_ARRAY_TASK_ID" == "0" ]; then /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/backend/rust/target/release/rust_qecp tool fault_tolerant_benchmark '[11]' --djs '[11]' '[0]' -m100000000 -e100000 '[0.1]' -p36 --time_budget 3600 --use_xzzx_code --shallow_error_on_bottom --independent_px_pz --bias_eta 0.5 > /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/benchmark/paper_weighted_union_find_on_XZZX/code_capacity_noise_model/try_independent_px_pz/slurm_jobs/0.jobout 2> /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/benchmark/paper_weighted_union_find_on_XZZX/code_capacity_noise_model/try_independent_px_pz/slurm_jobs/0.joberror || exit 91; fi
 if [ "$SLURM_ARRAY_TASK_ID" == "1" ]; then /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/backend/rust/target/release/rust_qecp tool fault_tolerant_benchmark '[11]' --djs '[11]' '[0]' -m100000000 -e100000 '[0.1]' -p36 --time_budget 3600 --use_xzzx_code --shallow_error_on_bottom --independent_px_pz --bias_eta 0.5610092271509817 > /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/benchmark/paper_weighted_union_find_on_XZZX/code_capacity_noise_model/try_independent_px_pz/slurm_jobs/1.jobout 2> /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/benchmark/paper_weighted_union_find_on_XZZX/code_capacity_noise_model/try_independent_px_pz/slurm_jobs/1.joberror || exit 91; fi

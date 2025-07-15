@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-motorcycle-7754
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-mango-1101
+#FLUX: --urgency=16
 
 ml purge  > /dev/null 2>&1 
 ml GCC/9.3.0  OpenMPI/4.0.3

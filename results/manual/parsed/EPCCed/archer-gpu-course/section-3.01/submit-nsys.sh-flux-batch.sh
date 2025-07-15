@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-rabbit-4617
+#FLUX: --job-name=evasive-kitty-0406
 #FLUX: --queue=gpu
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$(pwd)'
 

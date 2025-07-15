@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cupcake-4646
+#FLUX: --job-name=fugly-puppy-8509
 #FLUX: --queue=debug
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export brick='1238p245'
 export PYTHONPATH='.:${PYTHONPATH}'

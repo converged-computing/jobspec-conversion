@@ -3,7 +3,7 @@
 #FLUX: -c=32
 #FLUX: --queue=med2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export t='$SLURM_ARRAY_TASK_ID'
 

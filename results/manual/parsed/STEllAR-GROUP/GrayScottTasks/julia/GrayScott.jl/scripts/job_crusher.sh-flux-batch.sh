@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lettuce-3917
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-snack-8799
+#FLUX: --urgency=16
 
 date
 GS_DIR=/lustre/orion/proj-shared/csc383/wgodoy/GrayScott.jl

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-taco-3989
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-parrot-9125
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

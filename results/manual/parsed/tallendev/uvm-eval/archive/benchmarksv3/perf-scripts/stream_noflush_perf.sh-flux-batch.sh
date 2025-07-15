@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-caramel-8276
+#FLUX: --job-name=hello-hobbit-1542
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-pastry-4359
+#FLUX: --job-name=tart-nunchucks-1074
 #FLUX: -N=4
 #FLUX: -n=12
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

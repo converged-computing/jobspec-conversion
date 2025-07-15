@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-despacito-6503
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-peas-2361
+#FLUX: --urgency=16
 
 module unload gromacs
 module switch gromacs/2023 gromacs=gmx_mpi

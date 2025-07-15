@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Gd-sTPATCN_2V1A_FMN_05NPT_100-150ns_Restart
-#FLUX: --priority=16
+#FLUX: --queue=gpu
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load singularity 

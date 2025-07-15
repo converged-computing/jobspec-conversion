@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lizard-9691
-#FLUX: --priority=16
+#FLUX: --job-name=faux-salad-5888
+#FLUX: --urgency=16
 
 module purge
 module load calcua/2020a

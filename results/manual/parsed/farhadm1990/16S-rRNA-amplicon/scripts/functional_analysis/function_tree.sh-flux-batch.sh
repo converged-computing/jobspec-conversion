@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-signal-5740
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-bicycle-8039
+#FLUX: --urgency=16
 
 TMPDIR=/scratch/$USER/$SLURM_JOBID
 export TMPTDIR

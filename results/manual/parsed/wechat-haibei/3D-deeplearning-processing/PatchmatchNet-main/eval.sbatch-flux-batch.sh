@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-buttface-1796
-#FLUX: --priority=16
+#FLUX: --job-name=angry-fudge-5401
+#FLUX: --urgency=16
 
 module rm compiler/rocm/2.9
 module load compiler/rocm/3.3

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="15"
+#FLUX: --job-name=15
 #FLUX: --queue=teaching
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 julia worker.jl ${SLURM_ARRAY_TASK_ID} 15

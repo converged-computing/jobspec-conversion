@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-banana-4479
+#FLUX: --job-name=misunderstood-egg-1081
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload gcc/cray/8.1.0
 module load gcc/8.1.0

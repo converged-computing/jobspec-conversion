@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-muffin-8466
-#FLUX: --priority=16
+#FLUX: --job-name=blue-car-9841
+#FLUX: --urgency=16
 
 module load craype-accel-amd-gfx90a
 module load rocm/5.1.0

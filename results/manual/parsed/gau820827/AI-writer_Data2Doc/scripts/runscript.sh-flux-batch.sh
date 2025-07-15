@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=training
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/yhh303/AI-writer_Data2Doc/train/
 module load pytorch/python3.6/0.3.0_4

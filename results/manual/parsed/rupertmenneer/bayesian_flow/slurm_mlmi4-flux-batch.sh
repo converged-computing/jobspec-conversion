@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-leopard-2793
+#FLUX: --job-name=chunky-cinnamonbun-4268
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_API_KEY='150e3a3656bc3e6c76366ee98da5b0fd9f7c16ea'
 export OMP_NUM_THREADS='1'

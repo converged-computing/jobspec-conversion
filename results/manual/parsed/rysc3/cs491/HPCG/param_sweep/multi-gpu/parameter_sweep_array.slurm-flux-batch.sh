@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=condo
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='TRUE'
 export OMP_PLACES='cores'

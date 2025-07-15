@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-knife-4512
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-punk-8506
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nsai1/dai-ds/demo/scripts/PbsJob-16Nodes-9JobSteps

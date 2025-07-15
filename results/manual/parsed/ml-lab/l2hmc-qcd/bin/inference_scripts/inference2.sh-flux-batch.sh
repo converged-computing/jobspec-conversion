@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hobbit-7318
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-cat-4835
+#FLUX: --urgency=16
 

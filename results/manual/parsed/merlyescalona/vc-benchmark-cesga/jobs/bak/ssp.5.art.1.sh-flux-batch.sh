@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=art
 #FLUX: --queue=shared
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo -e "[$(date)]\nDefinition"
 module load gcc/5.3.0 art/2016-06-05

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-underoos-2116
+#FLUX: --job-name=gassy-onion-8971
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module purge

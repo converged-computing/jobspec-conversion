@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-omelette-5665
+#FLUX: --job-name=frigid-soup-7894
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 umask 002
 BATCH=$1

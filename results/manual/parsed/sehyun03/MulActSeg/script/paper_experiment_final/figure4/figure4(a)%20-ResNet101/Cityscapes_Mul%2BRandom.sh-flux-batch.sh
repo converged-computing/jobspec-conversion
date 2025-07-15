@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-underoos-4745
+#FLUX: --job-name=scruptious-pancake-2241
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_SPAWN_METHOD='fork'
 

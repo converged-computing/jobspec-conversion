@@ -2,7 +2,7 @@
 #FLUX: --job-name=coursework
 #FLUX: --queue=gpu
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module add python

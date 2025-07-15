@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-destiny-8658
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-bicycle-9959
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-tracking/main

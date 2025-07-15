@@ -4,7 +4,7 @@
 #FLUX: -n=27
 #FLUX: --queue=omicsbio
 #FLUX: -t=3596400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='10'
 export OMPI_MCA_btl_openib_allow_ib='1'

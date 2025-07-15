@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=savio2_gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODULEPATH='$MODULEPATH:/global/home/groups/fc_bnlp/software/modfiles'
 

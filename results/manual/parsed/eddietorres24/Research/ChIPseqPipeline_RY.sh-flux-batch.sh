@@ -3,7 +3,7 @@
 #FLUX: -c=24
 #FLUX: --queue=batch
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 source config.txt

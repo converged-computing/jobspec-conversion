@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-taco-4784
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-punk-3157
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Slade-AA/noisyminer/loopTest.sh

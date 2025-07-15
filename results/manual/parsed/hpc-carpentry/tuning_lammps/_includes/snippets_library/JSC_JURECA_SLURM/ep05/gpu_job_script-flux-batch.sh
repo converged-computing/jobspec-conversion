@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peas-2706
+#FLUX: --job-name=blue-muffin-0995
 #FLUX: --queue=develgpus
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module use /usr/local/software/jureca/OtherStages

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-pot-1210
-#FLUX: --priority=16
+#FLUX: --job-name=milky-caramel-6322
+#FLUX: --urgency=16
 
 while getopts f:e: flag
 do

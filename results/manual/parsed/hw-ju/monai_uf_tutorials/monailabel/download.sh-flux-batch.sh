@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-leopard-1402
+#FLUX: --job-name=moolicious-citrus-9195
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 module load singularity

@@ -2,7 +2,7 @@
 #FLUX: --job-name=hazpi_summarize
 #FLUX: --queue=gpu,gpuv100,gpup6000,lasti
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -o errexit
 set -o pipefail

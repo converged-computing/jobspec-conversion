@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-destiny-5258
+#FLUX: --job-name=stanky-motorcycle-9714
 #FLUX: -c=32
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu
 function usage() { cat << EOF

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cherry-1802
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-pot-2570
+#FLUX: --urgency=16
 
 export HOME='/n/holylabs/LABS/idreos_lab/Users/azhao'
 export CCACHE_DIR='${HOME}'

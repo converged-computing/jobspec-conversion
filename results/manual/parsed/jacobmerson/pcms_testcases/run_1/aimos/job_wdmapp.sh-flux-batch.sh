@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-omelette-7418
-#FLUX: --priority=16
+#FLUX: --job-name=placid-blackbean-2651
+#FLUX: --urgency=16
 
 run() {
   local hostfile=$1

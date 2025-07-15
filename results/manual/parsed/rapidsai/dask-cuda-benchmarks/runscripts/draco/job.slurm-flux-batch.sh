@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=dask-cuda-bench
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RUNDIR_HOST='$(readlink -f $(pwd))'
 export OUTDIR_HOST='$(readlink -f $(pwd)/outputs/${DATE})'

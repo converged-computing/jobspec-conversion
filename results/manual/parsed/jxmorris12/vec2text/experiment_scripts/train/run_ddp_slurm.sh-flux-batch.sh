@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-pedo-1074
+#FLUX: --job-name=milky-knife-6109
 #FLUX: -c=16
 #FLUX: --queue=rush,gpu
 #FLUX: -t=2419200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BASEDIR='/home/jxm3/research/retrieval/inversion/vec2text/'
 export NCCL_P2P_LEVEL='NVL'

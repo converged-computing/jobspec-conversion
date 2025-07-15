@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-pastry-0962
+#FLUX: --job-name=fugly-house-9391
 #FLUX: -c=16
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu # Stop on errors
 fmriprep_version=23.0.0

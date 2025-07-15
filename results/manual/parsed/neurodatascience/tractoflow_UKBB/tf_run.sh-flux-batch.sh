@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-car-7898
+#FLUX: --job-name=dinosaur-dog-7373
 #FLUX: -c=8
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export chunk='${chunk}'
 export SINGULARITY_BIND=''

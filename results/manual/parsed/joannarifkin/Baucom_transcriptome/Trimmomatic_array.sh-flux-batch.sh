@@ -2,7 +2,7 @@
 #FLUX: --job-name=Trimmomatic_Rifkin
 #FLUX: --queue=standard
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load Bioinformatics

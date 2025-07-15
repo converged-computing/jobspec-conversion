@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-carrot-7562
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-platanos-6630
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DrJupiter/diffusers-joint-optimization/expansion/gbara100.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-punk-3418
-#FLUX: --priority=16
+#FLUX: --job-name=phat-hope-9994
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/richardtjornhammar/gmxhacks/src/scripts/run_lambda/rscript.sh

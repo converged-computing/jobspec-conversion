@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-train-7522
+#FLUX: --job-name=expressive-bike-9232
 #FLUX: -c=8
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cpuarch/amd

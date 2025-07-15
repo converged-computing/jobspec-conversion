@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-arm-0465
+#FLUX: --job-name=gloopy-noodle-3459
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 C4_PATH=$1
 srun --container-image nvcr.io/nvidia/pytorch:21.12-py3 \

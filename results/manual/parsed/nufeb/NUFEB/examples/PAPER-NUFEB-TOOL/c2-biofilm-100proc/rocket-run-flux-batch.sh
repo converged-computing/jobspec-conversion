@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-caramel-5210
+#FLUX: --job-name=purple-rabbit-5461
 #FLUX: -n=100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PATH='$PATH:/mnt/nfs/home/nbl21/nufeb/code/lammps5Nov16/src'

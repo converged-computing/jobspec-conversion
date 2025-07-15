@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-motorcycle-3781
+#FLUX: --job-name=boopy-plant-6715
 #FLUX: -n=4
 #FLUX: -c=8
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

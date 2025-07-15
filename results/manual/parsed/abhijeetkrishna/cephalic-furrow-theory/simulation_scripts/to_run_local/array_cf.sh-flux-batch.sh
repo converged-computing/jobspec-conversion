@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-taco-5223
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-nalgas-5300
+#FLUX: --urgency=16
 
 job_id=0
 py_map_creator=map_index_cf.py

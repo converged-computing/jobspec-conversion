@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-earthworm-4398
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-earthworm-4463
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/syscom/nsg/lib:/global/homes/c/cslage/Software/hdf5-1.8.14/lib'
 

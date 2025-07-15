@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=TVAE
 #FLUX: --queue=gpucompute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda11.1/toolkit/11.1.1
 conda activate deepmtd

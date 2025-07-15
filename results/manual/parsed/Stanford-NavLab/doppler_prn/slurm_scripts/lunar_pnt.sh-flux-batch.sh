@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="lunar_pnt"
+#FLUX: --job-name=lunar_pnt
 #FLUX: --queue=normal
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_SUBMIT_DIR='/home/groups/gracegao/prn_codes/doppler_prn'
 

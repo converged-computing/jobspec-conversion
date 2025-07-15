@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Ic-REPLACE"
+#FLUX: --job-name=Ic-REPLACE
 #FLUX: -c=8
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export PLUMED_NUM_THREADS='$SLURM_CPUS_PER_TASK'

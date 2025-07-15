@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gtex_subset          # Job name
-#FLUX: --priority=16
+#FLUX: --job-name=gtex_subset
+#FLUX: --urgency=16
 
 cd /scratch/avannan/TTR/counts/
 brain_tissues=(Brain-Amygdala Brain-Anteriorcingulatecortex_BA24 Brain-Caudate_basalganglia Brain-CerebellarHemisphere \

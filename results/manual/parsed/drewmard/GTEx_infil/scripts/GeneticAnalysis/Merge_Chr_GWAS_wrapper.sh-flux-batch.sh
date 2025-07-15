@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-buttface-1926
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-lizard-7215
+#FLUX: --urgency=16
 
 spack load -r r@3.5.0
 i=$SLURM_ARRAY_TASK_ID

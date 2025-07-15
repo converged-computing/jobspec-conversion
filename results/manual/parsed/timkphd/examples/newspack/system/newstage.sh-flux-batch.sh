@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="hybrid"
+#FLUX: --job-name=hybrid
 #FLUX: --exclusive
 #FLUX: --queue=standard
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export STARTDIR='`pwd`'
 export MYDIR='/nopt/nrel/apps/220511a'

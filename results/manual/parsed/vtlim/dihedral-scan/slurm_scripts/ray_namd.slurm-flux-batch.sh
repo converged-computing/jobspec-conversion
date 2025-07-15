@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="minimize"
+#FLUX: --job-name=minimize
 #FLUX: --queue=nes2.8,ilg2.3,sib2.9,m-c1.9,m-c2.2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_MPI_TYPE='pmi2'
 

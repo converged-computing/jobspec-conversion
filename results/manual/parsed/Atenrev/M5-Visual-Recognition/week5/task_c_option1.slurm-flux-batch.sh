@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-poo-3367
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-poo-8861
+#FLUX: --urgency=16
 
 python task_a.py \
     --mode symmetric \

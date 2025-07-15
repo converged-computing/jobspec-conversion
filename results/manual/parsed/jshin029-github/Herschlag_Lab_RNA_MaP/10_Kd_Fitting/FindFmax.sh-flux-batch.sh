@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=biochem,owners,normal
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/2.7.13
 source /home/groups/herschla/rna_map/scripts/new_scripts/venv_2_7_13/bin/activate

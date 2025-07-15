@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-diablo-5371
+#FLUX: --job-name=red-cupcake-8966
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel
 module load impi

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-snack-0176
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-ricecake-3324
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/bjc/Gromacs"  # Bridges forgets what is written in your .bashrc'
 export GMX_MAXBACKUP='-1  # do not make back-ups'

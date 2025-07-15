@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-arm-1084
+#FLUX: --job-name=grated-plant-3097
 #FLUX: --queue=ccr
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module load python/3.5

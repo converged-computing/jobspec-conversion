@@ -3,7 +3,7 @@
 #FLUX: -n=64
 #FLUX: --queue=amd
 #FLUX: -t=16200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load texlive
 module load conda

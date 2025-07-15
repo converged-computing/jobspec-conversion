@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=themeda
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/rturnbull/runting/poetry-py3.9.6/bin:$PATH'
 export THEMEDA_DATA_DIR='/data/gpfs/projects/punim1932/data'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=test
 #FLUX: --queue=eng-research-gpu
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/2023-Mar/3
 module load cuda/11.7

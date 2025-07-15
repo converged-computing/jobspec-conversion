@@ -3,7 +3,7 @@
 #FLUX: -c=101
 #FLUX: --queue=msibigmem
 #FLUX: -t=84600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
     pwd
     module swap julia julia/1.8.0

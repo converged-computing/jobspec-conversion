@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=bii-gpu
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NAME=cloudmesh-rivanna
 RUN_DIR=$PROJECT/osmi

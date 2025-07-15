@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=0_$OUTNAME_$COMPOUND
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda

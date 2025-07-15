@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-bike-4177
-#FLUX: --priority=16
+#FLUX: --job-name=angry-knife-6355
+#FLUX: --urgency=16
 
 set -e
 module load gcc/6.2.0

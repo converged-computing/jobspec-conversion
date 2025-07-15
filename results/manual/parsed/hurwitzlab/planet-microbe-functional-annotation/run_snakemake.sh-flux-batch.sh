@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-punk-6340
+#FLUX: --job-name=milky-bits-3885
 #FLUX: -n=2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 source activate pm_env

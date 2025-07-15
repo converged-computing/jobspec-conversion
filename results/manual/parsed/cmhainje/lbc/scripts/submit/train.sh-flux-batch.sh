@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-arm-3927
-#FLUX: --priority=16
+#FLUX: --job-name=astute-hobbit-2545
+#FLUX: --urgency=16
 
 module purge
 singularity exec --nv \

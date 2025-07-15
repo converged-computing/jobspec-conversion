@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hope-2914
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-puppy-7538
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.2

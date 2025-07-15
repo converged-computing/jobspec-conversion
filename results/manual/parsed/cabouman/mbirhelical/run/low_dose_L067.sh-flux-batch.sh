@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-fudge-1553
-#FLUX: --priority=16
+#FLUX: --job-name=angry-soup-0387
+#FLUX: --urgency=16
 
 export NUM_NODES='$SLURM_JOB_NUM_NODES'
 export NUM_FOCAL_SPOTS='2'

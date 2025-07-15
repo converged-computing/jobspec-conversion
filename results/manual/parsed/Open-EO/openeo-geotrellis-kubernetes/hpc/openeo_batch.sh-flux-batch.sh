@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-car-3047
+#FLUX: --job-name=misunderstood-salad-9373
 #FLUX: -N=2
 #FLUX: -n=3
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORK_DIR='/project/cscale_test/Public/openeo/'
 export MKL_NUM_THREADS='1'

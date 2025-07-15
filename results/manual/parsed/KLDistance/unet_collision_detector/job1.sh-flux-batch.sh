@@ -3,6 +3,6 @@
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=7800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python training.py

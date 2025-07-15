@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=sl_eval_qa
 #FLUX: -c=12
-#FLUX: --queue=XXX  # please specify your partition
+#FLUX: --queue=XXX
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dataset=$1  # one of [vqa, msrvtt, anet]
 pretrained_path=$2  # path to pth file

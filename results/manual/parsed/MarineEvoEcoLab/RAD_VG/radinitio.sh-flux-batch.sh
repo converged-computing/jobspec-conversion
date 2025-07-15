@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leopard-9778
+#FLUX: --job-name=hairy-hope-0870
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/home/gabriel_barrett_uri_edu/nxf-singularity-cache-dir'
 

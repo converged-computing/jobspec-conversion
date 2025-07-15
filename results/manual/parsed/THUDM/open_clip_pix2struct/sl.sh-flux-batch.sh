@@ -3,7 +3,7 @@
 #FLUX: -N=10
 #FLUX: -c=15
 #FLUX: --queue=dev
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='0'

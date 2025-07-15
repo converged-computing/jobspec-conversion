@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-mango-5793
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-knife-1977
+#FLUX: --urgency=16
 
 module load gcc/9.2.0
 module load cmake/gcc/3.18.0

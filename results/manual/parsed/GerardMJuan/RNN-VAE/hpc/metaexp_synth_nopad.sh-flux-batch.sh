@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-staircase-5726
-#FLUX: --priority=16
+#FLUX: --job-name=tart-toaster-0111
+#FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh
 source /etc/profile.d/easybuild.sh

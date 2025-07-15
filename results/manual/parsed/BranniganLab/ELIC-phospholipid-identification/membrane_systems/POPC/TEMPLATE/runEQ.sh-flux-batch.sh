@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-underoos-3588
+#FLUX: --job-name=ornery-lemon-0830
 #FLUX: --queue=cmain
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc cuda mvapich2/2.2

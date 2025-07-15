@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=biz_ddp
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda
 python tokenizer_train.py hparams/tokenizer.yaml

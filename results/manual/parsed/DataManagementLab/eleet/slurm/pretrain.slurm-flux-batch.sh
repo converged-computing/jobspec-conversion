@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-fork-1081
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-malarkey-5702
+#FLUX: --urgency=16
 
 CONDA_BASE=$(conda info --base)
 source $CONDA_BASE/etc/profile.d/conda.sh

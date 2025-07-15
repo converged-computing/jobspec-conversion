@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-fudge-5815
+#FLUX: --job-name=psycho-plant-9256
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.1
 log_output="$1"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-milkshake-4305
-#FLUX: --priority=16
+#FLUX: --job-name=salted-destiny-3920
+#FLUX: --urgency=16
 
 source /etc/profile
 source $HOME/gromacs/gromacs-2021/install/bin/GMXRC

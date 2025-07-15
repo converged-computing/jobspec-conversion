@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-animal-0517
+#FLUX: --job-name=boopy-rabbit-2860
 #FLUX: -N=4
 #FLUX: -n=4
 #FLUX: -c=4
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load valgrind;
 nodes=($( scontrol show hostnames $SLURM_NODELIST ))

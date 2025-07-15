@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-cattywampus-3489
+#FLUX: --job-name=arid-snack-5372
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORLD_SIZE='2'
 export MASTER_ADDR='${master_addr}.hpc.nyu.edu'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-lamp-6987
+#FLUX: --job-name=spicy-buttface-9575
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load julia/0.6.3
 echo "Slurm Job ID: $SLURM_JOB_ID"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="pegasus_thFusion"
+#FLUX: --job-name=pegasus_thFusion
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='${BOWTIE1PATH}:$PATH'
 

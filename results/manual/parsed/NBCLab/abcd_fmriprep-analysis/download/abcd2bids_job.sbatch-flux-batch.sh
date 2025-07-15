@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=IB_16C_96G
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 set -e

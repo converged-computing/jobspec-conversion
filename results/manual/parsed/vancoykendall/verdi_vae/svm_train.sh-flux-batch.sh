@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-spoon-9674
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-squidward-3563
+#FLUX: --urgency=16
 
 echo test1
 module load anaconda/2020b

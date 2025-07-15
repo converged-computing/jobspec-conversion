@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-salad-3398
+#FLUX: --job-name=expressive-pedo-9966
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/IFT6085/progressive_growing_of_gans
 source ~/miniconda3/bin/activate

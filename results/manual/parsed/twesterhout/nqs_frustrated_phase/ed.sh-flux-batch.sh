@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-squidward-1001
+#FLUX: --job-name=strawberry-plant-8037
+#FLUX: -c=64
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /vol/tcm01/westerhout_tom/conda/etc/profile.d/conda.sh
 conda activate tcm-test

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-lentil-0042
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-chair-8013
+#FLUX: --urgency=16
 
 folder=$1
 echo " * Submitting job array..."

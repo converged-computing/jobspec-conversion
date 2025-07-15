@@ -2,7 +2,7 @@
 #FLUX: --job-name=RtoastC3
 #FLUX: --queue=dept_gpu
 #FLUX: -t=2419200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/openfold
 source scripts/activate_conda_env.sh

@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=savio3_gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRIPT_PATH='$(scontrol show job $SLURM_JOBID | awk -F= '/Command=/{print $2}' | head -n 1)'
 export SCRIPT_DIR='$(dirname $SCRIPT_PATH)'

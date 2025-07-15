@@ -2,7 +2,7 @@
 #FLUX: --job-name=mixer_real
 #FLUX: -c=16
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export COMORMENT='/ess/p697/data/durable/s3-api/github/comorment'
 export SINGULARITY_BIND='$COMORMENT/mixer/reference:/REF:ro'

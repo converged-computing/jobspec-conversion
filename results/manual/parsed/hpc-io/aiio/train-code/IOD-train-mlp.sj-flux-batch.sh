@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-frito-6037
+#FLUX: --job-name=purple-parrot-5274
 #FLUX: --gpus-per-task=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='0'
 

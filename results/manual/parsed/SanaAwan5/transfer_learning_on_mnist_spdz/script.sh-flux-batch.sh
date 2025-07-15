@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-punk-0865
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-bits-8755
+#FLUX: --urgency=16
 
 module load Python/3.6.9
 source /scratch/sanaawan/PySyft/venv/bin/activate

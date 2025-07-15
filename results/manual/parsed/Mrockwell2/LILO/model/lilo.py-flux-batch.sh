@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-punk-8983
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-motorcycle-7138
+#FLUX: --urgency=16
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D

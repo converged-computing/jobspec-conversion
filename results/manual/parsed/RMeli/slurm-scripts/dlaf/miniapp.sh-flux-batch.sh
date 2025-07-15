@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-noodle-2453
+#FLUX: --job-name=wobbly-cinnamonbun-7712
 #FLUX: -N=4
 #FLUX: --queue=nvgpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /user-environment/modules
 module --ignore-cache load intel-mkl

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-peanut-butter-3731
+#FLUX: --job-name=blank-peanut-8492
 #FLUX: -N=2
 #FLUX: -c=2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FN='$(cd ..; basename -- "$PWD")'
 export GMX='gmx_mpi'

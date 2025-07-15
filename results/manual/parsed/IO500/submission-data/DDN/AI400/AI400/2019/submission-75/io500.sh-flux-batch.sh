@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=io500-ai400-2
 #FLUX: -N=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LUSTRE_MDS=es400nv-vm[1-4]
 LUSTRE_OSS=es400nv-vm[1-4]

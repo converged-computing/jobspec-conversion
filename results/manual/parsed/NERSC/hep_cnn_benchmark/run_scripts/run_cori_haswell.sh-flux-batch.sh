@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-toaster-2650
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-peas-1610
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PWD:$PYTHONPATH'
 

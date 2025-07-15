@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=CABLE_site
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module del intel-cc intel-fc
 module add intel-cc/16.0.1.150 intel-fc/16.0.1.150

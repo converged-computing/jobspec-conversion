@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-cherry-2223
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-lettuce-0237
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/noiseux1523/Deep-Belief-Network/replication-package-dbn/run_job_DBN-D-25.sh

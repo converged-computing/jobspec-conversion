@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-plant-8728
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-parrot-8248
+#FLUX: --urgency=16
 

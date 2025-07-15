@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ADuniv_vctk
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 autoencoder=autoencoder/symADuniv_vctk_48000_hop300
 statistic=statistic/symADuniv_vctk_48000_hop300_clean

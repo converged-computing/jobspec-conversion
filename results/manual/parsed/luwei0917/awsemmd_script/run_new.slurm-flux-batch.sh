@@ -2,7 +2,7 @@
 #FLUX: --job-name=CTBP_WL
 #FLUX: --queue=commons
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "My job ran on:"
 echo $SLURM_NODELIST

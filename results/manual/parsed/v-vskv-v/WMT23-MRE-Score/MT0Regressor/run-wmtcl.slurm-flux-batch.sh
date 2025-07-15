@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=intel-a100-pci3
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting at `date` on `hostname` at `pwd`"
 echo "Job name: $SLURM_JOB_NAME Job ID: $SLURM_JOB_ID"

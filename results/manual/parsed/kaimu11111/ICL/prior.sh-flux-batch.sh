@@ -2,7 +2,7 @@
 #FLUX: --job-name=test_fiveDifTask
 #FLUX: --queue=a100-4
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 TRAIN_METHOD=channel
 TEST_METHOD=channel

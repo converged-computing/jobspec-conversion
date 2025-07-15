@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=standard
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nr_ranks=128
 echo -e "Case run:\n"

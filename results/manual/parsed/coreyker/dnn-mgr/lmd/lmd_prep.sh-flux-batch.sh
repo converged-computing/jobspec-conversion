@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-blackbean-5349
-#FLUX: --priority=16
+#FLUX: --job-name=angry-arm-8099
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/coreyker/dnn-mgr/lmd/lmd_prep.sh

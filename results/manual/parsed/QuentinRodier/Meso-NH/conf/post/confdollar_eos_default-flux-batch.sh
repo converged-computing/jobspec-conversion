@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-malarkey-1739
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-car-3266
+#FLUX: --urgency=16
 
 export NBP='${NBP-"1"}'
 export TIME='${TIME-"3600"}'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lettuce-3992
+#FLUX: --job-name=creamy-pedo-9357
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

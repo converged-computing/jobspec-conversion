@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-snack-0783
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-leader-1205
+#FLUX: --urgency=16
 
 alias ll='ls -al'  # 快捷键
 module load anaconda/anaconda3-2022.10  # 加载conda

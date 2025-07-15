@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=fx700
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IO500_MODE=''
 export SLEEP_SEC='300'

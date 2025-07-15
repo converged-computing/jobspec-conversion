@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-leg-1316
+#FLUX: --job-name=faux-knife-0288
 #FLUX: -c=32
 #FLUX: --queue=research
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nvidia/cuda/11.3
 python setup.py build_ext --inplace

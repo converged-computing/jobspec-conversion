@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Extract driving data from bag file"
+#FLUX: --job-name=Extract driving data from bag file
 #FLUX: --queue=main
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 BAGS=(
     '2022-04-28-11-59-00_e2e_elva_forw_inTrain_camera_0.8.bag' \

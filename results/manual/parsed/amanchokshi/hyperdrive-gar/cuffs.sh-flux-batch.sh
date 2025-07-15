@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="cuFFS"
+#FLUX: --job-name=cuFFS
 #FLUX: --queue=gpuq
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /pawsey/mwa/software/python3/build_base.sh
 module load cuda

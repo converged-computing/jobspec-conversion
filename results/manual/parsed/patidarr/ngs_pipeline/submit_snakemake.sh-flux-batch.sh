@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leopard-7499
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-itch-6137
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/patidarr/ngs_pipeline/submit_snakemake.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=19280
 #FLUX: --queue=small
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 module load DL-CondaPy/3.7

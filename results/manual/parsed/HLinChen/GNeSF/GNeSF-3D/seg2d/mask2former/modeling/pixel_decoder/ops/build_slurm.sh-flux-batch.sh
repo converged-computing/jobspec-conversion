@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=medium
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='/usr/local/cuda # /usr/local/cuda-10.2'
 

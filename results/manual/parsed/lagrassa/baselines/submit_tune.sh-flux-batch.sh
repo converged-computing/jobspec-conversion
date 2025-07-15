@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-latke-0688
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-lamp-9357
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES=''
 

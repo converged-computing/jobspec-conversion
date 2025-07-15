@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-peanut-butter-4383
+#FLUX: --job-name=doopy-snack-9156
 #FLUX: --queue=standard
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONFIG='config/cluster'
 CORES=36

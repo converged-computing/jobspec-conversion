@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=bdd_source_and_labeled_005
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python tools/train_net_step.py \
     --dataset bdd_peds+labeled_005 \

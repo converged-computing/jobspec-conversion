@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-peanut-3681
+#FLUX: --job-name=frigid-staircase-8697
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 numThreads=4
 nonChrM=$(cat ${genomeChrFile} | awk '{print $1}' | grep -v chrM | tr '\n' ' ')

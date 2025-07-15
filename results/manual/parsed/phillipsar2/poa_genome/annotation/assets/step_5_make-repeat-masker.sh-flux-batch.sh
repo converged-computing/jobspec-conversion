@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=amd
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dir=$1
 read -r -d '' VAR <<EOF1

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-kitty-3555
-#FLUX: --priority=16
+#FLUX: --job-name=arid-lemur-4393
+#FLUX: --urgency=16
 
 module load caffe
 IM2TXT_DIR=/public/jthurst3/MemeCaptcha

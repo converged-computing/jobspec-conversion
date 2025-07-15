@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-nalgas-6892
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-milkshake-0191
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kwells4/Sussel_RNAseq_PTPN/snakecharmer_no_trim.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Fst
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CHROM=${SLURM_ARRAY_TASK_ID}
 grep -E "ASW|YRI" 1000G_Phase3_sample_map > ASW_YRI_sample_map

@@ -4,7 +4,7 @@
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load Python/3.9.6-GCCcore-11.2.0

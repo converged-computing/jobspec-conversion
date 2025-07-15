@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-eagle-3117
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-nalgas-6793
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='4'
 

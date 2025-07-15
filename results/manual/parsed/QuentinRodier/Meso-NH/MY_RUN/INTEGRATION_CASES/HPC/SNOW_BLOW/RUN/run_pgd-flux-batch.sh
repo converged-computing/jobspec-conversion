@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-itch-7305
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-nalgas-5171
+#FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 1'
 

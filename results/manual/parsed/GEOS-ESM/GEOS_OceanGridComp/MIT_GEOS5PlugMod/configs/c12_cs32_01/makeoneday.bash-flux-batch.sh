@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lamp-0027
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-leopard-4547
+#FLUX: --urgency=16
 
 usage ()
 {

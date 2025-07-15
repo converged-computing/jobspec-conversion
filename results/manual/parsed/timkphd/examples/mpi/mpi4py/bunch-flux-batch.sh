@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="ior"
+#FLUX: --job-name=ior
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=standard
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cray-python/3.9.13.1
 module list > cray-python 2>&1

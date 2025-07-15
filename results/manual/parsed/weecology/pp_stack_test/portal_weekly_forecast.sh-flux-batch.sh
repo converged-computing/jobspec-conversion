@@ -2,7 +2,7 @@
 #FLUX: --job-name=portal_weekly_forecast
 #FLUX: --queue=hpg2-compute
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 source /etc/profile.d/modules.sh

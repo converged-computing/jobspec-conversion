@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-hippo-1329
-#FLUX: --priority=16
+#FLUX: --job-name=blue-latke-6095
+#FLUX: --urgency=16
 
 account=pawsey0281
 sample=$(basename $(pwd))

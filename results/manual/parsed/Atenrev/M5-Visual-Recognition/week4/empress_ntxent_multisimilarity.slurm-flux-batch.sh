@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-hobbit-9611
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-platanos-3987
+#FLUX: --urgency=16
 
 python task_b.py \
     --loss "ntxent" \

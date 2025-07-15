@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Tox21_models"
+#FLUX: --job-name=Tox21_models
 #FLUX: --queue=amd
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load any/jdk/1.8.0_265
 module load nextflow

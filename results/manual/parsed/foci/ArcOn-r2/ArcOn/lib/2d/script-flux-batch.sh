@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-hippo-6332
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-poodle-5609
+#FLUX: --urgency=16
 
 export MV2_ON_DEMAND_THRESHOLD='64'
 

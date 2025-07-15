@@ -2,7 +2,7 @@
 #FLUX: --job-name=hg38_Steele_immune_TNFRSF9_noNA
 #FLUX: --queue=defq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 RESULT_DIR="results/20220627_Steele_immune_NA_excluded_hg38"
 COUNTS_LOOM="PDAC_immune_Steele/T_immune_subset_seurat_NA_excluded_counts_matrix.loom"

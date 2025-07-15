@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-kitty-7124
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-chip-6328
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nasa/RtRetrievalFramework/lib/Python/template/pleiades_job.tmpl

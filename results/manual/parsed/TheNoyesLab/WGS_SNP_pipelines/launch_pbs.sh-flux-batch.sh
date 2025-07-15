@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lemur-3987
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-leopard-9884
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/TheNoyesLab/WGS_SNP_pipelines/launch_pbs.sh

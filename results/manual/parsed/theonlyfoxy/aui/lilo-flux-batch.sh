@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-fudge-2243
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-earthworm-4157
+#FLUX: --urgency=16
 

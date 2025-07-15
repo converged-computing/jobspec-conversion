@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pedo-6684
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-squidward-5428
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

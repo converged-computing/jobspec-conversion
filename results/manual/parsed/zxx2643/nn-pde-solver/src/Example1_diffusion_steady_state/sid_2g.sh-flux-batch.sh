@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-house-0069
+#FLUX: --job-name=creamy-leg-3785
 #FLUX: --queue=gpu-shared
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/expanse/projects/qstore/mia326/sids/pde/lib:$LD_LIBRARY_PATH'
 export OMPI_MCA_btl_openib_allow_ib='1'

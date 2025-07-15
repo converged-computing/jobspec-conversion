@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-banana-5511
-#FLUX: --queue=cmain --constraint=oarc -t 24:00:00
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-muffin-6589
+#FLUX: --queue=cmain
+#FLUX: --urgency=16
 
 module purge
 module load gcc mvapich2

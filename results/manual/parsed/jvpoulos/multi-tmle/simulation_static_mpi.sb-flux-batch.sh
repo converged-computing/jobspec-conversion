@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="misTreat"
-#FLUX: --priority=16
+#FLUX: --job-name=misTreat
+#FLUX: --urgency=16
 
 ulimit -l unlimited
 module load gcc/6.2.0 R/4.0.1

@@ -3,7 +3,7 @@
 #FLUX: -n=36
 #FLUX: --queue=skylake
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export JULIA_NUM_THREADS='18'

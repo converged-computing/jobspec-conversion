@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-leopard-7424
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-malarkey-5754
+#FLUX: --urgency=16
 
 export numMPI='${SLURM_NTASKS:-1} # if '-n' not used then default to 1'
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=AMG_Hunter_AD
 #FLUX: -c=48
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load diamond/2.0.7
 module load python/3.8.5

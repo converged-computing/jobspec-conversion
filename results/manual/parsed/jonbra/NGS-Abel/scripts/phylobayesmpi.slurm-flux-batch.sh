@@ -3,7 +3,7 @@
 #FLUX: -n=61
 #FLUX: --queue=long
 #FLUX: -t=2160000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 STR="$(ls *.phy -x1)"
 module load phylobayesmpi

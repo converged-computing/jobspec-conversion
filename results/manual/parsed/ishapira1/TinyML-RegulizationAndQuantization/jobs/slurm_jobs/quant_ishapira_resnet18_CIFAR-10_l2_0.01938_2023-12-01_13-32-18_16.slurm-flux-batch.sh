@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-latke-1889
-#FLUX: --priority=16
+#FLUX: --job-name=arid-butter-5658
+#FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

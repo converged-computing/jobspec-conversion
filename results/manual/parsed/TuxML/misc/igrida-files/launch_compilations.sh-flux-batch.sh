@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-leader-9559
-#FLUX: --priority=16
+#FLUX: --job-name=phat-noodle-8998
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/TuxML/misc/igrida-files/launch_compilations.sh

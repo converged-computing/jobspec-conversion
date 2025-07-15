@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-citrus-7924
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-despacito-2783
+#FLUX: --urgency=16
 
 srun -n 1 --mpi=pmi2 python $APPS/prospector/scripts/prospector_dynesty.py \
 --param_file="$APPS"/prospector_alpha/parameter_files/mock_timebin_lm_params.py \

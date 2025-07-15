@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=blank-fork-7394
+#FLUX: --job-name=quirky-house-6079
 #FLUX: -N=4
 #FLUX: -c=14
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCOREP_ENABLE_PROFILING='false'
 export SCOREP_ENABLE_TRACING='false'

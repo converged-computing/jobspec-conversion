@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-snack-7931
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-cherry-9618
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

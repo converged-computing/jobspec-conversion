@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=checksoluteT
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/users/common/miniconda2/lib/:$LD_LIBRARY_PATH'
 

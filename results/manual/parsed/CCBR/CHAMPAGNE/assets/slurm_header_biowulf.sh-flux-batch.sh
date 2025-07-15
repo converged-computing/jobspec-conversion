@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-general-3162
+#FLUX: --job-name=psycho-egg-7104
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load ccbrpipeliner
 module load nextflow

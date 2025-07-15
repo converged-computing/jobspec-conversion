@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-avocado-6107
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-taco-5949
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='20'
 

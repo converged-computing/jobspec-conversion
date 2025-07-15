@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="maggie"
+#FLUX: --job-name=maggie
 #FLUX: --queue=quick
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOST='biowulf.nih.gov'
 export NGS_PIPELINE='/data/MoCha/patidarr/ngs_pipeline/'

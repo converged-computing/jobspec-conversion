@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-lemur-7948
+#FLUX: --job-name=loopy-cherry-0847
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FREESURFER_HOME='/fast/work/groups/ag_ritter/MR_processing/HCP_pipeline/freesurfer_HCP/freesurfer-v6.0.0'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=t5_definition
 #FLUX: -c=8
-#FLUX: --queue=accel    # To use the accelerator nodes
+#FLUX: --queue=accel
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ${HOME}/.bashrc
 module purge

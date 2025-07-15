@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-earthworm-2124
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-mango-7827
+#FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/slurmpmi/libpmi.so'
 export I_MPI_FABRICS='ofi'

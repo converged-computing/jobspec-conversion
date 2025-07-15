@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-punk-5079
+#FLUX: --job-name=eccentric-peanut-4507
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-fork-0373
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-chip-4020
+#FLUX: --urgency=16
 
 export NPROCS='`echo $LSB_HOSTS | wc -w`'
 export OMP_NUM_THREADS='$NPROCS'

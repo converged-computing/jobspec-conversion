@@ -2,7 +2,7 @@
 #FLUX: --job-name=eval-harness
 #FLUX: --exclusive
 #FLUX: --queue=defq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROGRAM='\'
 export CMD='$LAUNCHER $PROGRAM'

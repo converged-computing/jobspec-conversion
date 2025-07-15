@@ -3,7 +3,7 @@
 #FLUX: -n=8
 #FLUX: --queue=gpu
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 export FLAGS_sync_nccl_allreduce='1 # use nccl to do allreduce'

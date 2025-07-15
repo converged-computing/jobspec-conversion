@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-parrot-1923
+#FLUX: --job-name=stinky-motorcycle-5916
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export LOGLEVEL='INFO'

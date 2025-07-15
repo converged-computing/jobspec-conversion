@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-taco-9344
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-earthworm-1297
+#FLUX: --urgency=16
 
 config=/projects/compsci/vmp/USERS/widmas/MUGA_reference_data/data/GigaMUGA/chrs.txt
 chr=$(sed "${SLURM_ARRAY_TASK_ID}q;d" ${config})

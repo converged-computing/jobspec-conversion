@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-destiny-7654
+#FLUX: --job-name=tart-lentil-0200
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

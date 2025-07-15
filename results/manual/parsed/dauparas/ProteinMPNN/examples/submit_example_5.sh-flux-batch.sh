@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-chair-1424
-#FLUX: --priority=16
+#FLUX: --job-name=astute-arm-7882
+#FLUX: --urgency=16
 
 source activate mlfold
 folder_with_pdbs="../inputs/PDB_complexes/pdbs/"

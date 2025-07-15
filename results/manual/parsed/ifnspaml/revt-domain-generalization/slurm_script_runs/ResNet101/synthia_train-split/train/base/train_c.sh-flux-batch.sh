@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=gpu,gpub
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 max_iters=60000
 main_config="./local_configs/ResNet/101/deeplabv3plus_r101.b5.512x512.gta2cs.40k.batch2.py"

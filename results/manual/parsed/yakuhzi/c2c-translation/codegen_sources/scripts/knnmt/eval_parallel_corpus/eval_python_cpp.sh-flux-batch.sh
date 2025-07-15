@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=knnmt_eval_python_cpp
 #FLUX: -t=4500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MODEL_PATH='models/Online_ST_Python_CPP.pth'
 DUMP_PATH='dump/knnmt/parallel_corpus/python_cpp'

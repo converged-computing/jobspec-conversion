@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=n1s8-v100-1
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

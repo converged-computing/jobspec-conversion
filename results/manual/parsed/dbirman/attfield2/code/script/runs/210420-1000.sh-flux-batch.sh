@@ -2,7 +2,7 @@
 #FLUX: --job-name=gauss
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml python/3.6.1
 cd $HOME/proj/attfield

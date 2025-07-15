@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-bike-4856
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-mango-6261
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/drvinceknight/testing_for_ZD/data/raw/probend.pbs

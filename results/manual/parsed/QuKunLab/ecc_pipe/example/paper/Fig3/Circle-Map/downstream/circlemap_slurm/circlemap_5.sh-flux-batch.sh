@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-bits-7452
+#FLUX: --job-name=phat-salad-1625
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo Running on $SBATCH_PARTITION paratation
 echo Time is `date`

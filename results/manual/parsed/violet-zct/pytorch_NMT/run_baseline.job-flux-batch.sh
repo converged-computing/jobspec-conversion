@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-plant-8132
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-poo-2848
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/cudnn-8.0/lib64:$LD_LIBRARY_PATH'
 export CPATH='/opt/cudnn-8.0/include:$CPATH'

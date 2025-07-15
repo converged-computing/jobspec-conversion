@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-peanut-4320
+#FLUX: --job-name=creamy-leader-5763
 #FLUX: -N=6
 #FLUX: --queue=normal
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_WORKER_TIMEOUT='300'
 

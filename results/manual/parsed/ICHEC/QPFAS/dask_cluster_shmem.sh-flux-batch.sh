@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-frito-9926
-#FLUX: --priority=16
+#FLUX: --job-name=faux-hope-6791
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load intel/2020u4

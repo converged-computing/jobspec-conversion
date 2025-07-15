@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-salad-1441
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-fork-3885
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hannatolle/synergisticDendrites/job.sh

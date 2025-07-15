@@ -2,7 +2,7 @@
 #FLUX: --job-name=20210312_cbai-vs-copi_diamond_blastx
 #FLUX: --queue=srlab
 #FLUX: -t=1728000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 reads_dir=/gscratch/srlab/sam/data/C_bairdi/RNAseq
 dmnd=/gscratch/srlab/sam/data/C_opilio/blastdbs/GCA_016584305.1_ASM1658430v1_protein.dmnd

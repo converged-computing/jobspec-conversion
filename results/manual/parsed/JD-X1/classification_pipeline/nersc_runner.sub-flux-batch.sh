@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-puppy-3550
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-noodle-1660
+#FLUX: --urgency=16
 
 module load python
 mamba env create -n Titania -f envs/Titania.yaml

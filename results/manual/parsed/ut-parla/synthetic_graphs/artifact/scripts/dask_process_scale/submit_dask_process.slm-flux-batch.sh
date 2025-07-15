@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-car-9726
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-cat-8502
+#FLUX: --urgency=16
 
 source /scratch1/06081/wlruys/miniconda3/etc/profile.d/conda.sh
 conda activate rap

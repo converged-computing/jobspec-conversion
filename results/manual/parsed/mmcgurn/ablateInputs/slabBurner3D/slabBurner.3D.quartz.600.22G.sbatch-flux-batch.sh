@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-underoos-5888
-#FLUX: --priority=16
+#FLUX: --job-name=faux-leader-4383
+#FLUX: --urgency=16
 
 export PETSC_DIR='/p/lustre2/mcgurn4/petsc'
 export PETSC_ARCH='arch-ablate-opt-gcc" # arch-ablate-debug or arch-ablate-opt'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-muffin-1687
+#FLUX: --job-name=red-lettuce-8170
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 eval "$(conda shell.bash hook)"

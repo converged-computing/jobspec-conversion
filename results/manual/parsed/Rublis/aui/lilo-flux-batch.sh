@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hobbit-7517
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-lamp-9532
+#FLUX: --urgency=16
 

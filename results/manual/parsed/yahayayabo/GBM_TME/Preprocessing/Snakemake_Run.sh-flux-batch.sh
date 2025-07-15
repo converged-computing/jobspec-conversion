@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-taco-3577
+#FLUX: --job-name=hanky-rabbit-2182
 #FLUX: -t=86395
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda activate bioinfo_tutorial
 module load swenv/default-env/devel 

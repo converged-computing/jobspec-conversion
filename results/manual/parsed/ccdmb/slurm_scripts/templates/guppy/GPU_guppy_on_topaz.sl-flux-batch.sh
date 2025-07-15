@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-earthworm-5726
+#FLUX: --job-name=doopy-avocado-7285
 #FLUX: --queue=gpuq
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 module load cuda

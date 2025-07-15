@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-truffle-3606
-#FLUX: --priority=16
+#FLUX: --job-name=fat-leg-1207
+#FLUX: --urgency=16
 
 export PATH=':$PATH:/storage/zhangyanxiaoLab/share/bin'
 

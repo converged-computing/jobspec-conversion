@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-blackbean-8132
+#FLUX: --job-name=stanky-snack-1821
 #FLUX: --queue=gpu2018
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source deactivate # Remove previous environments.
 source activate cuda9-py38-pytorch1.5

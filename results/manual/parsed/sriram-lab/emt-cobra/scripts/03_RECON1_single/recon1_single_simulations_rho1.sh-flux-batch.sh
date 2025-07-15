@@ -2,7 +2,7 @@
 #FLUX: --job-name=recon1_emt_a549_1
 #FLUX: --queue=standard
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab/R2020a
 module load gurobi

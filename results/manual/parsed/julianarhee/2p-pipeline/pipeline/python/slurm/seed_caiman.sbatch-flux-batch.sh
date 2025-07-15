@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-despacito-7617
-#FLUX: --priority=16
+#FLUX: --job-name=blank-lemon-7248
+#FLUX: --urgency=16
 
 module load centos6/0.0.1-fasrc01
 module load matlab/R2015b-fasrc01

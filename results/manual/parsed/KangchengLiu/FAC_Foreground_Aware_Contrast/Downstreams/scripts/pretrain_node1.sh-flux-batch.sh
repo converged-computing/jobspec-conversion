@@ -3,7 +3,7 @@
 #FLUX: -c=80
 #FLUX: --queue=dev
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PWD:$PYTHONPATH'
 

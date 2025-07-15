@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-knife-2797
-#FLUX: --priority=16
+#FLUX: --job-name=tart-staircase-5076
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$ntomp'
 

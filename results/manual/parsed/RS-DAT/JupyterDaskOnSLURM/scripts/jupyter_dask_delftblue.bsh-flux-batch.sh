@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-animal-1100
+#FLUX: --job-name=doopy-milkshake-7201
 #FLUX: -c=4
-#FLUX: --queue=compute ## one of 'compute', 'gpu', 'memory'
+#FLUX: --queue=compute
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate jupyter_dask

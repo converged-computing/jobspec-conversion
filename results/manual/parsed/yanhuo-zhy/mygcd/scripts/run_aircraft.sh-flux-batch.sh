@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-bicycle-3211
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-blackbean-7662
+#FLUX: --urgency=16
 
 module load gcc/gcc-10.2.0
 module load nvidia/cuda-10.0 nvidia/cudnn-v7.6.5.32-forcuda10.0

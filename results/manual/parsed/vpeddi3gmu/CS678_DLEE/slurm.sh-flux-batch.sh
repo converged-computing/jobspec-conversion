@@ -2,7 +2,7 @@
 #FLUX: --job-name=mnist
 #FLUX: --queue=gpuq
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 module load gnu10

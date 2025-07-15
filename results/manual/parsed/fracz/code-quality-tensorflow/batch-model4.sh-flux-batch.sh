@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-leg-8588
+#FLUX: --job-name=blank-latke-3212
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATASET1='100-diff10-java-strict'
 export DATASET2='100-diff10to50-java-strict'

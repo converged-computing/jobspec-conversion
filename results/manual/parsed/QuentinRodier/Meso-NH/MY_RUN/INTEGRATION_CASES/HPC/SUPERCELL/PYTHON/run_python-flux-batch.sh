@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-peas-0012
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-peanut-butter-1867
+#FLUX: --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

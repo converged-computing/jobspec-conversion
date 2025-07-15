@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-kerfuffle-1889
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-despacito-5662
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/work/home/ac310l39ky/miniconda3/envs/jittor/lib:$LD_LIBRARY_PATH'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-eagle-3169
+#FLUX: --job-name=milky-onion-4056
 #FLUX: -n=192
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

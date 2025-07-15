@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=gpu_shared
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_DIR='$HOME'
 

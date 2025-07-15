@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lemon-3313
+#FLUX: --job-name=grated-underoos-6972
 #FLUX: -t=28801
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ACCESSION=$1
 THREADS=$2

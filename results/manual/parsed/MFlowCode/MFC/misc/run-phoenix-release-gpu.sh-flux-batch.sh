@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pot-6787
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-lentil-3718
+#FLUX: --urgency=16
 
 cd "$SLURM_SUBMIT_DIR"
 echo "Running in $(pwd):"

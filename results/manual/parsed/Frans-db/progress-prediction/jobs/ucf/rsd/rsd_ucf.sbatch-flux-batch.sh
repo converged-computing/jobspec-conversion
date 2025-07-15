@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-milkshake-2537
+#FLUX: --job-name=buttery-lemur-8875
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

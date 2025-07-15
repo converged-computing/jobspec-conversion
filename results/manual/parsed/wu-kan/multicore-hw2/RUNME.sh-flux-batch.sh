@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-taco-2371
+#FLUX: --job-name=dinosaur-poodle-2074
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir -p sources/build
 cd sources/build

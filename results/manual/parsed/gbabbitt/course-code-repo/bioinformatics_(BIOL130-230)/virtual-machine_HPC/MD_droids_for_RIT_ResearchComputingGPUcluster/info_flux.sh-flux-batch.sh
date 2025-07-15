@@ -2,7 +2,7 @@
 #FLUX: --job-name=info_flux
 #FLUX: --queue=tier3
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack unload --all
 spack load amber@20 /6r7gnm4

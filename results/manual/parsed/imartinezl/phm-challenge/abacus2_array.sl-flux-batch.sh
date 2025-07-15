@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-dog-5367
+#FLUX: --job-name=lovable-itch-5757
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CXX='g++'
 

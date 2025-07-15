@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-onion-2238
-#FLUX: --priority=16
+#FLUX: --job-name=phaseshift
+#FLUX: --urgency=16
 
 SING_BIND=$( python3 $HOME/parse_settings.py --BIND )
 SIMG=$( python3 $HOME/parse_settings.py --SIMG )

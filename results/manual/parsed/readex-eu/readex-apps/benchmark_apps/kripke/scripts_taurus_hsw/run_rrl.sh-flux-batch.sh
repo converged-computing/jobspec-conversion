@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-toaster-1465
+#FLUX: --job-name=anxious-underoos-2808
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCOREP_SUBSTRATE_PLUGINS='rrl'
 export SCOREP_RRL_VERBOSE='WARN'

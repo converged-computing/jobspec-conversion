@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-noodle-5621
+#FLUX: --job-name=red-caramel-1771
 #FLUX: -c=4
 #FLUX: -t=9296
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load StdEnv/2023

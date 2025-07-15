@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cat-7197
+#FLUX: --job-name=ornery-onion-2403
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load gcc@7.5.0
 spack load cuda@10.1.243%gcc@7.5.0

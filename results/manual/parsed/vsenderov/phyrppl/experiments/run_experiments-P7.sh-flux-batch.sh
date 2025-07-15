@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-taco-0673
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-soup-6397
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE=' 32G" '
 export RPPL_FLAGS=' --target omp -j $NCORES"    # OMP'

@@ -1,44 +1,65 @@
 #!/usr/bin/env bash
-#SBATCH --array=0-7%8
+###SBATCH --array=0-79%20
 #SBATCH --partition=long
 #SBATCH --gres=gpu:rtx8000:1
-#####SBATCH --reservation=DGXA100
 #SBATCH --mem=16GB
-#SBATCH --time=12:00:00
+#SBATCH --time=2:00:00  # cifar10
+#####SBATCH --time=6:30:00  # stl10
 #SBATCH --cpus-per-gpu=4
-#SBATCH --output=sbatch_out/exp_stl10_run_fastssl_design_hparam_sweep.%A.%a.out
-#SBATCH --error=sbatch_err/exp_stl10_run_fastssl_design_hparam_sweep.%A.%a.err
-#SBATCH --job-name=exp_stl10_run_fastssl_design_hparam_sweep
+#SBATCH --output=sbatch_out/verify_simclr.%A.out
+#SBATCH --error=sbatch_err/verify_simclr.%A.err
+#SBATCH --job-name=verify_simclr
 
 . /etc/profile
 module load anaconda/3
-conda activate ffcv
+conda activate ffcv_new
 
-# lamda_arr=(0.001 0.00199474 0.00397897 0.00793701 0.01583223 0.03158114 0.06299605 0.12566053 0.25065966 0.5)
-# proj_arr=(128 256 512 768 1024 2048 3072 4096)
-# lamda_arr=(0.001 0.004 0.016 0.064 0.256 0.5)
-
-lamda_arr=(1e-5 4e-5 1e-4 4e-4)
-# proj_arr=(1024 2048 3072 4096)
-proj_arr=(1024 2048)
-# proj_arr=(128 256 512 768)
-checkpt_dir='checkpoints_design_hparams_stl10'
-
-lenL=${#lamda_arr[@]}
-lidx=$((SLURM_ARRAY_TASK_ID%lenL))
-pidx=$((SLURM_ARRAY_TASK_ID/lenL))
-
-dataset='stl10'
-batch_size=256
-python scripts/train_model.py --config-file configs/cc_barlow_twins.yaml --training.lambd=${lamda_arr[$lidx]} --training.projector_dim=${proj_arr[$pidx]} --training.dataset=$dataset --training.ckpt_dir=$checkpt_dir --training.batch_size=$batch_size
-
-# echo ../bt_ckpt_cc/ckpt_${lamda_arr[$lidx]}_${proj_arr[$pidx]}
-# cp ../bt_ckpt_cc/ckpt_${lamda_arr[$lidx]}_${proj_arr[$pidx]}/*.pth $SLURM_TMPDIR/
-dataset='stl10'
-python scripts/train_model.py --config-file configs/cc_classifier.yaml --training.lambd=${lamda_arr[$lidx]} --training.projector_dim=${proj_arr[$pidx]} --training.dataset=$dataset --training.ckpt_dir=$checkpt_dir --training.seed=1
-python scripts/train_model.py --config-file configs/cc_classifier.yaml --training.lambd=${lamda_arr[$lidx]} --training.projector_dim=${proj_arr[$pidx]} --training.dataset=$dataset --training.ckpt_dir=$checkpt_dir --training.seed=2
-# python scripts/train_model.py --config-file configs/cc_classifier.yaml --training.lambd=${lamda_arr[$lidx]} --training.projector_dim=${proj_arr[$pidx]} --training.dataset=$dataset --training.ckpt_dir=$checkpt_dir --training.seed=3
+temp=0.1
+projector_dim=128
 
 dataset='cifar10'
-python scripts/train_model.py --config-file configs/cc_classifier.yaml --training.lambd=${lamda_arr[$lidx]} --training.projector_dim=${proj_arr[$pidx]} --training.dataset=$dataset --training.ckpt_dir=$checkpt_dir --training.seed=1
-python scripts/train_model.py --config-file configs/cc_classifier.yaml --training.lambd=${lamda_arr[$lidx]} --training.projector_dim=${proj_arr[$pidx]} --training.dataset=$dataset --training.ckpt_dir=$checkpt_dir --training.seed=2
+if [ $dataset = 'stl10' ]
+then
+    batch_size=256
+else
+    batch_size=512
+fi
+
+checkpt_dir=$SCRATCH/fastssl/checkpoints_simclr
+train_dpath=$SCRATCH/ffcv/ffcv_datasets/{dataset}/train.beton
+val_dpath=$SCRATCH/ffcv/ffcv_datasets/{dataset}/test.beton
+model_name=resnet50proj 
+python scripts/train_model.py --config-file configs/cc_SimCLR.yaml \
+                            --training.temperature=$temp \
+                            --training.projector_dim=$projector_dim \
+                            --training.model=$model_name \
+                            --training.dataset=$dataset \
+                            --training.ckpt_dir=$checkpt_dir \
+                            --training.batch_size=$batch_size \
+			                --training.seed=42 \
+                            --training.train_dataset=$train_dpath --training.val_dataset=$val_dpath
+
+model_name=resnet50feat
+# Let's precache features, should take ~35 seconds (rtx8000)
+python scripts/train_model.py --config-file configs/cc_precache.yaml \
+                            --eval.train_algorithm='SimCLR' \
+                            --training.model=$model_name \
+                            --training.temperature=$temp \
+                            --training.projector_dim=$projector_dim \
+                            --training.dataset=$dataset \
+                            --training.ckpt_dir=$checkpt_dir \
+                            --training.batch_size=$batch_size \
+                            --training.seed=42 \
+                            --training.train_dataset=$train_dpath --training.val_dataset=$val_dpath
+                            
+
+python scripts/train_model.py --config-file configs/cc_classifier.yaml \
+                            --eval.train_algorithm='SimCLR' \
+                            --training.model=$model_name \
+                            --training.temperature=$temp \
+                            --training.projector_dim=$projector_dim \
+                            --training.dataset=$dataset \
+                            --training.ckpt_dir=$checkpt_dir \
+                            --training.batch_size=$batch_size \
+                            --training.seed=42 \
+                            --training.train_dataset=$train_dpath --training.val_dataset=$val_dpath

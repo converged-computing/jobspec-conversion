@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-cherry-8886
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-fork-5894
+#FLUX: --urgency=16
 
 export OMPI_MCA_opal_cuda_support='true'
 

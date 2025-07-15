@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-cinnamonbun-3452
+#FLUX: --job-name=fat-signal-2318
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

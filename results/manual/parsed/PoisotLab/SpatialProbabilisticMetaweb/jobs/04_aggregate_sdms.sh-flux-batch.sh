@@ -2,7 +2,7 @@
 #FLUX: --job-name=04_aggregate_sdms
 #FLUX: -c=64
 #FLUX: -t=1020
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load StdEnv/2020
 module load julia/1.9.1

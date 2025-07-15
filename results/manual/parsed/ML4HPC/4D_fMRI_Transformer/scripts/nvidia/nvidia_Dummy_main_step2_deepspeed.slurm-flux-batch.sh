@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-sundae-7208
+#FLUX: --job-name=expressive-bike-8835
 #FLUX: -c=2
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_btl_openib_warn_default_gid_prefix='0'
 export OMPI_MCA_btl_openib_cpc_exclude='rdmacm'

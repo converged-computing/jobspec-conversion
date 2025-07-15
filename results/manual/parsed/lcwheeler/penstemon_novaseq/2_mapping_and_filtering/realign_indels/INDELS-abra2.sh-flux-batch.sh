@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=abra
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 source /home/lw74/.bashrc

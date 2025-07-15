@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-sundae-2710
-#FLUX: --priority=16
+#FLUX: --job-name=tart-fork-9314
+#FLUX: --urgency=16
 
 conda update -n base -c conda-forge conda
 conda install -y -c conda-forge -c nvidia merlin-core merlin-models merlin-systems nvtabular transformers4rec tensorflow

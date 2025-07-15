@@ -2,7 +2,7 @@
 #FLUX: --job-name=ssn_workers_pgpu02
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONTAINER=/cluster/kappa/90-days-archive/wongjiradlab/larbys/images/singularity-ssnetserver/singularity-ssnetserver-caffelarbys-cuda8.0.img
 SSS_BASEDIR=/cluster/kappa/wongjiradlab/larbys/ssnetserver

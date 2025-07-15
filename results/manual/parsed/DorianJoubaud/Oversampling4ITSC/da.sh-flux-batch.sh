@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-staircase-0318
+#FLUX: --job-name=creamy-latke-2305
 #FLUX: -t=172740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "== Starting run at $(date)"
 echo "== Job ID: ${SLURM_JOBID}, Task ID: ${SLURM_ARRAY_TASK_ID}"

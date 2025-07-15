@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-egg-7172
+#FLUX: --job-name=swampy-puppy-8891
 #FLUX: -N=2
 #FLUX: --queue=epyc-64
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load julia/1.10.2

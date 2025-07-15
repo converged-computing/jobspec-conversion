@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lamp-5362
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-despacito-0847
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PYTHONPATH='/project/k1069/lib/python2.7/site-packages:$PYTHONPATH'

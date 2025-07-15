@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="S6_TEannot"
+#FLUX: --job-name=S6_TEannot
 #FLUX: -n=4
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load repet/2.5
 LOCAL_ALIGNERS=("blastx" "tblastx")

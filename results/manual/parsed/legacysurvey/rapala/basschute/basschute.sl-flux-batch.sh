@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-blackbean-8650
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-lamp-8330
+#FLUX: --urgency=16
 
 export XARGS='--maxmem $MAXMEM $XARGS'
 

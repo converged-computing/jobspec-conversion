@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="sed2df"
+#FLUX: --job-name=sed2df
 #FLUX: --queue=gpu
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2022r1
 module load gpu

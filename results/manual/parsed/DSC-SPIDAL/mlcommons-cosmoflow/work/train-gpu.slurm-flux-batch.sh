@@ -2,7 +2,7 @@
 #FLUX: --job-name=train-gpu-cosmoflow
 #FLUX: --queue=bii-gpu
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RUN_DIR='/scratch/$USER'
 export IMAGE='/$RUN_DIR/cosmoflow/mlcommons-cosmoflow/work/cosmoflow.sif'

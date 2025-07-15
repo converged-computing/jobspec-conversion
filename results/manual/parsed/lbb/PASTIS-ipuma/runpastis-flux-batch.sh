@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-cat-8607
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-parrot-8139
+#FLUX: --urgency=16
 
 export IPUOF_CONFIG_PATH='/cm/shared/apps/graphcore/vipu/etc/ipuof.conf.d/p64_cl_a01_a16.conf'
 export OMPI_MCA_opal_common_ucx_opal_mem_hooks='1'

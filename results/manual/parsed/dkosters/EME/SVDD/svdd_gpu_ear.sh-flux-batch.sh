@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-peanut-butter-2723
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-pot-4990
+#FLUX: --urgency=16
 
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'
 

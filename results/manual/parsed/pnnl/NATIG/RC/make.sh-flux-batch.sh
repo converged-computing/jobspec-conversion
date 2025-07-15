@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cupcake-1176
+#FLUX: --job-name=spicy-buttface-7918
 #FLUX: -t=231300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RD2C='${PWD}'
 export FNCS_INSTALL='${RD2C}'

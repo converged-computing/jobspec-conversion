@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-despacito-3685
+#FLUX: --job-name=rainbow-bicycle-0762
 #FLUX: -c=24
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CXX='scorep --online-access --user --mpp=mpi --thread=none --nomemory --nocompiler $READEX_CXX'
 

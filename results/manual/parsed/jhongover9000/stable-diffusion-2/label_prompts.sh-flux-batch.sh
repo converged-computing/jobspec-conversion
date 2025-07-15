@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-eagle-9212
+#FLUX: --job-name=purple-mango-1927
 #FLUX: -c=4
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 FILES=(/scratch/jhh508/stable-diffusion-2/*)
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-toaster-7136
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-lettuce-8153
+#FLUX: --urgency=16
 
 THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python fcn.py

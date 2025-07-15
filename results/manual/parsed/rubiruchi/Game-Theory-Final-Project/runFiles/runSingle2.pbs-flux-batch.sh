@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-ricecake-8827
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-peanut-2819
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rubiruchi/Game-Theory-Final-Project/runFiles/runSingle2.pbs

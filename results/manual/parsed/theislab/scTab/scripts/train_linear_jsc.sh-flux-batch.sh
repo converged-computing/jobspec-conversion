@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-gato-5806
+#FLUX: --job-name=gassy-egg-4081
 #FLUX: --queue=booster
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/"$USER" || exit
 ml purge

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-eagle-2297
+#FLUX: --job-name=blue-blackbean-8030
 #FLUX: -n=8
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PERSISTENT_LOGGING_DIR=../results/$SLURM_JOB_NAME/logs
 PERSISTENT_CHECKPOINTS_DIR=$PERSISTENT_LOGGING_DIR/checkpoints

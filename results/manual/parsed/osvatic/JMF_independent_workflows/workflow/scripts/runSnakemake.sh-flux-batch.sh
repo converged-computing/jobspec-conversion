@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=run_snakemake
 #FLUX: -t=2592000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load snakemake/7.32.4-3.12.1
 module load conda

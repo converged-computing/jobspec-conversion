@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-pastry-4631
-#FLUX: --priority=16
+#FLUX: --job-name=milky-latke-4750
+#FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 128'
 

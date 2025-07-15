@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-platanos-7773
+#FLUX: --job-name=crunchy-omelette-4424
 #FLUX: -c=16
 #FLUX: --queue=boost_usr_prod
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$master_addr'
 export WORLD_SIZE='$((GPUS_PER_NODE * SLURM_NNODES))'

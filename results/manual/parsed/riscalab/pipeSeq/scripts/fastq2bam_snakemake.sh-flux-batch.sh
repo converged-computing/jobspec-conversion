@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-parsnip-8651
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-toaster-9774
+#FLUX: --urgency=16
 
 pipe="fastq2bam"
 cwd=$1

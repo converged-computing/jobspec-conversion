@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-plant-1610
+#FLUX: --job-name=delicious-chip-2088
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IMAGENET_PYTORCH='~/ImageNet # set the path to the ImageNet here.'
 

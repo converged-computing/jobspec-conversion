@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-hope-5008
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-leader-4866
+#FLUX: --urgency=16
 
 export KMP_INIT_AT_FORK='FALSE'
 

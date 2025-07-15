@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-eagle-5364
+#FLUX: --job-name=blank-eagle-4086
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_EVALUATE_OFFLINE='1'
 export HF_DATASETS_OFFLINE='1'

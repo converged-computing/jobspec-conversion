@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pancake-2078
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-toaster-9428
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LennonLab/LTDE/bash/nanopore.sh

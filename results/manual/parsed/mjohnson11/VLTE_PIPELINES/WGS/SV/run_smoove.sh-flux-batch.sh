@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pot-6486
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-general-1163
+#FLUX: --urgency=16
 
 WELL=$(sed -n ${SLURM_ARRAY_TASK_ID}'{p;q}' ../../accessory_files/Wells.txt)
 MYBAMS=""

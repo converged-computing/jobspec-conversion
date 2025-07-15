@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-pancake-8564
+#FLUX: --job-name=loopy-sundae-5996
 #FLUX: -c=2
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load Anaconda2/4.2.0

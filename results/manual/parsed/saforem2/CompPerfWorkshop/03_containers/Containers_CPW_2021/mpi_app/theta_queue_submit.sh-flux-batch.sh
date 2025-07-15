@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-onion-9934
-#FLUX: --priority=16
+#FLUX: --job-name=confused-bike-7300
+#FLUX: --urgency=16
 

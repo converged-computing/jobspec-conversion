@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-soup-3611
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-squidward-0867
+#FLUX: --urgency=16
 
 START=$(date)
 echo "Started running at $START."

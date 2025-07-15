@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lizard-0988
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-platanos-0199
+#FLUX: --urgency=16
 
 cd run_files.syncTM
 module load matlab

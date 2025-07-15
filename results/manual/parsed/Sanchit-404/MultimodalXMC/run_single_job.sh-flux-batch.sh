@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=gpusmall
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/scratch/project_2001083/sanchit/xc/bin:$PATH'
 export PYTHONUSERBASE='/scratch/project_2001083/sanchit/xc/myenv'

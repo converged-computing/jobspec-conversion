@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-cinnamonbun-0652
+#FLUX: --job-name=bricky-cinnamonbun-0442
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 /usr/bin/nvidia-smi -L
 /usr/bin/scontrol show job -d "$SLURM_JOB_ID"

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-hippo-3266
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-rabbit-9938
+#FLUX: --urgency=16
 

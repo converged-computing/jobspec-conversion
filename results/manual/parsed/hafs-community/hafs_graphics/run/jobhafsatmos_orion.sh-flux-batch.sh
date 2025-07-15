@@ -3,7 +3,7 @@
 #FLUX: -N=12
 #FLUX: --exclusive
 #FLUX: --queue=orion
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOMEgraph='${HOMEgraph:-/mnt/lfs4/HFIP/hwrfv3/${USER}/hafs_graphics}'
 export USHgraph='${USHgraph:-${HOMEgraph}/ush}'

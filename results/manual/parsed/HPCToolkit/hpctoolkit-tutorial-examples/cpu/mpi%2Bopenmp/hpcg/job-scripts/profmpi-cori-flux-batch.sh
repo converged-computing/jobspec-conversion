@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-puppy-6622
+#FLUX: --job-name=placid-toaster-0270
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 BINARY=xhpcg
 OUT=hpctoolkit-${BINARY}

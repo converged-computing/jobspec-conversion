@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="icml"
+#FLUX: --job-name=icml
 #FLUX: --queue=physical
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

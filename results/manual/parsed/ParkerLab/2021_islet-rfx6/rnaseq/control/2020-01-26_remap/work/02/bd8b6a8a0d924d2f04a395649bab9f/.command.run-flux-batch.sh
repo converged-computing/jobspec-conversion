@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-poodle-1555
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-fork-4329
+#FLUX: --urgency=16
 
 set -e
 set -u

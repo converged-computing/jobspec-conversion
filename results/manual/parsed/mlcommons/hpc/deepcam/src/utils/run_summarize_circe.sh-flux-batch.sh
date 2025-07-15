@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pastry-2754
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-nalgas-2272
+#FLUX: --urgency=16
 
 rankspernode=48
 totalranks=$(( ${SLURM_NNODES} * ${rankspernode} ))

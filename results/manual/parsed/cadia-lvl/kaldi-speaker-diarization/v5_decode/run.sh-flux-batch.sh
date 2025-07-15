@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-snack-0542
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-parsnip-5348
+#FLUX: --urgency=16
 
 stage=0
 unsupervised=1

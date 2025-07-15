@@ -2,7 +2,7 @@
 #FLUX: --job-name=SNPsplit
 #FLUX: --queue=cpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "IT HAS BEGUN"
 date

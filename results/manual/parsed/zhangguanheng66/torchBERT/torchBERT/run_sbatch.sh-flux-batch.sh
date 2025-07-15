@@ -3,7 +3,7 @@
 #FLUX: -c=80
 #FLUX: --queue=learnfair
 #FLUX: -t=150000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cuda/9.2

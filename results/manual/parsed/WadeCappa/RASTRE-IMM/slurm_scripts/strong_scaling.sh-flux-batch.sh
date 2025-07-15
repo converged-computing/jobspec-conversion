@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leg-2861
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-train-1515
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'
 export OMP_PLACES='threads'

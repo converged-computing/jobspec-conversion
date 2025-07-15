@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-mango-9177
-#FLUX: --priority=16
+#FLUX: --job-name=salted-poo-1139
+#FLUX: --urgency=16
 
 module load python-3.7.1
 source activate daskgeo2020a

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="gpunb"
+#FLUX: --job-name=gpunb
 #FLUX: -t=45000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Singularity
 module load CUDA/10.2.89

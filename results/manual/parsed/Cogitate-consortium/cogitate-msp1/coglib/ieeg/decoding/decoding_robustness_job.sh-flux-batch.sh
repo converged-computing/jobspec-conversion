@@ -3,7 +3,7 @@
 #FLUX: -c=64
 #FLUX: --queue=xnat
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/simon.henin/sw/ECoG'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="TrainFun"
+#FLUX: --job-name=TrainFun
 #FLUX: -n=16
 #FLUX: -t=260100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='/bigdata,/bigdata/operations/pkgadmin/opt/linux:/opt/linux'
 export AUGUSTUS_CONFIG_PATH='$(realpath lib/augustus/3.3/config)'

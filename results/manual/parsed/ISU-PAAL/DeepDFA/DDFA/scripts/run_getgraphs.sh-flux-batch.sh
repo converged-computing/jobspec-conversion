@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="getgraphs"
+#FLUX: --job-name=getgraphs
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate.sh
 if [ ! -z "$SLURM_ARRAY_TASK_ID"]

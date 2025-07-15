@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=bdw
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load vital-it
 module add UHTS/Analysis/deepTools/2.5.4;

@@ -2,7 +2,7 @@
 #FLUX: --job-name=torch-train
 #FLUX: --queue=test
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load lang/cuda/11.1
 module load lang/python/anaconda/3.8.8-2021.05-torch

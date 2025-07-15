@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="eta1_alpha=0.0001_h_dim=9_keep_prob=0.6"
+#FLUX: --job-name=eta1_alpha=0.0001_h_dim=9_keep_prob=0.6
 #FLUX: --queue=medium
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $(pwd) > "jobs/pwd.txt"
 source /deac/csc/chenGrp/software/tensorflow/bin/activate

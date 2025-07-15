@@ -2,7 +2,7 @@
 #FLUX: --job-name=yfcc_vssl_vit
 #FLUX: -c=8
 #FLUX: -t=172740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK;'
 export MASTER_PORT='$(shuf -i 10000-65500 -n 1)'

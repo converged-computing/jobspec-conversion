@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-hope-5031
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-cat-5626
+#FLUX: --urgency=16
 

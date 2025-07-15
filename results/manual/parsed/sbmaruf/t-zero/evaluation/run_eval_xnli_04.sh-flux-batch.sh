@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-diablo-2951
-#FLUX: --priority=16
+#FLUX: --job-name=red-lamp-8876
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='4'
 

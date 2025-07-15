@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-platanos-0132
-#FLUX: --priority=16
+#FLUX: --job-name=faux-arm-9907
+#FLUX: --urgency=16
 
 set -e
 set -o pipefail

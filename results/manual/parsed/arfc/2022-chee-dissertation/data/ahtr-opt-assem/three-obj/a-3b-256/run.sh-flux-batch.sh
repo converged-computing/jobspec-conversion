@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-arm-3419
-#FLUX: --priority=16
+#FLUX: --job-name=fat-destiny-0161
+#FLUX: --urgency=16
 

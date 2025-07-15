@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pastry-2808
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-fork-2878
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/espfit-experiment/experiments/openff-default/train/metric/lsf-submit-rna.sh

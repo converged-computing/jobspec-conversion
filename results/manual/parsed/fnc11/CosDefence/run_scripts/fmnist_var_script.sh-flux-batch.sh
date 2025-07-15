@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fmnist_fur_tests
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $HOME/repos/CosDefence/federated_learning
 module switch intel gcc

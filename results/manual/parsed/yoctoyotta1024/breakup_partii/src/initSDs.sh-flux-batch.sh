@@ -2,7 +2,7 @@
 #FLUX: --job-name=initSDs
 #FLUX: --queue=gpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python3/2022.01-gcc-11.2.0
 source activate /work/mh1126/m300950/condaenvs/superdropsenv

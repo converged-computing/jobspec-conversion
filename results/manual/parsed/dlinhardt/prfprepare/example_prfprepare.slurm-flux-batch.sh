@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-leader-5082
+#FLUX: --job-name=quirky-taco-0084
 #FLUX: -c=10
-#FLUX: --queue=regular  # Queue names you can submit to
+#FLUX: --queue=regular
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_FS_LICENSE='/flywheel/v0/BIDS/.freesurfer.txt'
 

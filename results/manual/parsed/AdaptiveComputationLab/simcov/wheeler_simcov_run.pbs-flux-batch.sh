@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bits-2821
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-kitty-7995
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AdaptiveComputationLab/simcov/wheeler_simcov_run.pbs

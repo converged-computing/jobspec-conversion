@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=montage-pegasus   #name of job
-#FLUX: --priority=16
+#FLUX: --job-name=montage-pegasus
+#FLUX: --urgency=16
 
 CPWD=$PWD
 source /usr/workspace/iopp/install_scripts/bin/iopp-init

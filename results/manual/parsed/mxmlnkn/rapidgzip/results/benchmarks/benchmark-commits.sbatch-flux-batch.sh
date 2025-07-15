@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-general-9746
+#FLUX: --job-name=astute-cinnamonbun-0478
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load CMake Ninja Clang NASM hwloc bzip2

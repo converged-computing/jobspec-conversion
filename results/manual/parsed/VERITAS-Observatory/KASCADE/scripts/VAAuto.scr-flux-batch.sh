@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-motorcycle-3423
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-lemur-6311
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/VERITAS-Observatory/KASCADE/scripts/VAAuto.scr

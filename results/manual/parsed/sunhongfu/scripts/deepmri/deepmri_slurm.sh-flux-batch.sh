@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=xuanyu_test_tensor_gpu
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/9.2.148.1
 module load gnu7

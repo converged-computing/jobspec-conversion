@@ -2,7 +2,7 @@
 #FLUX: --job-name=IO-500
 #FLUX: -N=512
 #FLUX: -t=3000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export duration='$(echo "scale=2; $end - $start" | bc)'
 export iops5='$( echo "$searched_files/$duration" |bc )'

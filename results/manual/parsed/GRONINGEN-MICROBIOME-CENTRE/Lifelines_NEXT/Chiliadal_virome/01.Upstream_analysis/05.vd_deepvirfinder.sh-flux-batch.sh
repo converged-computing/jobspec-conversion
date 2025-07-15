@@ -2,7 +2,7 @@
 #FLUX: --job-name=ViromeDiscovery
 #FLUX: -c=8
 #FLUX: -t=46740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SAMPLE_LIST=$1
 echo ${SAMPLE_LIST}

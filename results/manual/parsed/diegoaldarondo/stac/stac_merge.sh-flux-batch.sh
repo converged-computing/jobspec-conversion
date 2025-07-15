@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=stac_merge
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 source ~/.bashrc

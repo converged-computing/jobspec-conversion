@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-butter-6035
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-pot-5086
+#FLUX: --urgency=16
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts'

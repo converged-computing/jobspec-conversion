@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lettuce-5864
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-arm-1911
+#FLUX: --urgency=16
 
 input_file=$1  # opting to also take the file as an input argument
 eval `head -n $SLURM_ARRAY_TASK_ID $input_file | tail -1`

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pot-0204
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-lizard-5522
+#FLUX: --urgency=16
 
 source activate metassl
 python -m metassl.train_simsiam --config "metassl/default_metassl_config_cifar10.yaml" \

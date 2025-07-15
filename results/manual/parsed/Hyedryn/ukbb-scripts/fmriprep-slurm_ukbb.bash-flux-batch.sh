@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-peanut-4791
+#FLUX: --job-name=hairy-squidward-4932
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_FS_LICENSE='${HOME}/.freesurfer.txt'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'

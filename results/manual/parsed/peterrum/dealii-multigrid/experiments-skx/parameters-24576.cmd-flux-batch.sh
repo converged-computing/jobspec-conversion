@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lizard-7177
+#FLUX: --job-name=outstanding-egg-6126
 #FLUX: -N=512
 #FLUX: --queue=general
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload intel-mpi/2019-intel
 module unload intel/19.0.5

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Sindhi-Urdu
 #FLUX: -n=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml gnu10; ml cuda; ml cudnn; ml nvidia-hpc-sdk; ml python;
 echo "Start process"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-motorcycle-5888
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-peanut-3162
+#FLUX: --urgency=16
 
 filename=jobname
 set -x

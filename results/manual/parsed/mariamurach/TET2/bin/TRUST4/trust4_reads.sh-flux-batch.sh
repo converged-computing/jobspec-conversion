@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-despacito-1190
+#FLUX: --job-name=stinky-itch-0660
 #FLUX: -n=29
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load java
 output=output_reads/

@@ -3,7 +3,7 @@
 #FLUX: -c=7
 #FLUX: --queue=long1
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/znazari/.bashrc
 conda activate Zainab-env

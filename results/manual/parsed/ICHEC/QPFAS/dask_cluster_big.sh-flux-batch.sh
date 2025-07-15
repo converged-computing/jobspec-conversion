@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-nunchucks-7567
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-squidward-8802
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load intel/2020u4

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-destiny-2782
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-nunchucks-9450
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

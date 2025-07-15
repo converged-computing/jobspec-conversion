@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-milkshake-2590
+#FLUX: --job-name=swampy-lamp-7438
 #FLUX: --exclusive
 #FLUX: --queue=a6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='./hf_cache/'
 export HF_DATASETS_CACHE='./hf_cache/'

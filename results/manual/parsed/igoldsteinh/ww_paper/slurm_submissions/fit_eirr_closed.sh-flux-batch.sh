@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-diablo-9666
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-lettuce-7968
+#FLUX: --urgency=16
 
 module purge
 module load julia-1_8_5

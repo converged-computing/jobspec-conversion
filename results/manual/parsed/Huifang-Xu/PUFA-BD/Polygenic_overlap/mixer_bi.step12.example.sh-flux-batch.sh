@@ -3,7 +3,7 @@
 #FLUX: -c=20
 #FLUX: --queue=batch
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml CMake/3.15.3-GCCcore-8.3.0
 ml Python/3.8.2-GCCcore-8.3.0

@@ -2,7 +2,7 @@
 #FLUX: --job-name=gpu.4
 #FLUX: -N=4
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module use /nopt/nrel/apps/modules/centos74/modulefiles/

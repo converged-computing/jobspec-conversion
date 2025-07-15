@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cat-8802
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-onion-2569
+#FLUX: --urgency=16
 
 export APP='ie2d'
 export EXEC='./EXAMPLE/$APP'

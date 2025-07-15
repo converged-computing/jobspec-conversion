@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-poo-0059
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-plant-5237
+#FLUX: --urgency=16
 
 ulimit -c 0
 set -x

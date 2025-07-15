@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-carrot-2809
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-rabbit-9938
+#FLUX: --urgency=16
 
 export LEGACYPIPE_DIR='/src/legacypipe'
 export SDSSDIR='/global/cfs/cdirs/sdss/data/sdss/'

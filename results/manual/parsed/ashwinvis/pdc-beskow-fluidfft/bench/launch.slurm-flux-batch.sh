@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-earthworm-7011
+#FLUX: --job-name=grated-lettuce-6369
 #FLUX: -n=32
 #FLUX: -t=3658
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FLUID_PROC_MESH='2x32'
 

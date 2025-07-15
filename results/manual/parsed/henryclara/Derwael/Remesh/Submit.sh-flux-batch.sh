@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pastry-7917
+#FLUX: --job-name=crunchy-sundae-4697
 #FLUX: --queue=compute
 #FLUX: -t=420
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

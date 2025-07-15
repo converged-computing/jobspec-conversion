@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cherry-3646
+#FLUX: --job-name=hanky-peas-1726
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Executing on $HOSTNAME"
 date

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=NX_GATK
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 start=`date +%s`
 module load singularity

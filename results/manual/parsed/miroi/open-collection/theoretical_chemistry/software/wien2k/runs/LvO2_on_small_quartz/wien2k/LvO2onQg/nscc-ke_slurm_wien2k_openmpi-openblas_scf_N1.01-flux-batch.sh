@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-sundae-9296
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-toaster-5473
+#FLUX: --urgency=16
 
 export WIEN2k='/lustre/home/ilias/work/qch/software/wien2k/WIEN2k_23.2_gnu_openmpi_openblas'
 export WIENROOT='$WIEN2k'

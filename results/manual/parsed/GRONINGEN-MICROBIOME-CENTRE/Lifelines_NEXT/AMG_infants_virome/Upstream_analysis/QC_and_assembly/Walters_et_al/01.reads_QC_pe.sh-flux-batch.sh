@@ -2,7 +2,7 @@
 #FLUX: --job-name=walterspe_rQC
 #FLUX: -c=2
 #FLUX: -t=46740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SAMPLE_LIST=$1
 echo ${SAMPLE_LIST}

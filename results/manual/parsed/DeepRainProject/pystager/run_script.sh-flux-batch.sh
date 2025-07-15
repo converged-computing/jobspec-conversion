@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lemon-8499
+#FLUX: --job-name=fuzzy-malarkey-4600
 #FLUX: --queue=batch
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NTASKS=12
 module --force purge

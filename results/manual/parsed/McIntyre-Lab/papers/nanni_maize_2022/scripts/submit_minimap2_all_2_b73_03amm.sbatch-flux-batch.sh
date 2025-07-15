@@ -2,7 +2,7 @@
 #FLUX: --job-name=minimap2
 #FLUX: -c=12
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load minimap/2.12
 PROJ=/ufrc/mcintyre/share/maize_ainsworth

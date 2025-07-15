@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-staircase-9478
+#FLUX: --job-name=gassy-pedo-3494
 #FLUX: --queue=v100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RESOLUTION='3 '
 export NZ='50'

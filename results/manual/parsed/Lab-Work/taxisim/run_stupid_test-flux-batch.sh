@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-milkshake-7467
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-chip-7772
+#FLUX: --urgency=16
 
 export PATH='$PATH:/opt/apps/intel14/mvapich2_2_0/python/2.7.6/lib/python2.7/site-packages/mpi4py/bin'
 export MV2_SMP_USE_LIMIC2='0'

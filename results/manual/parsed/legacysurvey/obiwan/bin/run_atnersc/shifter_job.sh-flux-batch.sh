@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-cat-8514
+#FLUX: --job-name=evasive-blackbean-3957
 #FLUX: --queue=debug
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export brick='1238p245'
 export obiwan_code='$CSCRATCH/obiwan_code'

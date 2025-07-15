@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-motorcycle-1309
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-signal-0613
+#FLUX: --urgency=16
 
 ID=$SLURM_ARRAY_JOB_ID
 total_job=$SLURM_ARRAY_TASK_COUNT

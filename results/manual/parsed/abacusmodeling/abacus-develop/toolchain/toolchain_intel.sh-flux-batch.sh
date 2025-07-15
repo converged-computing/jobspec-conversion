@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-cattywampus-8899
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-cherry-5400
+#FLUX: --urgency=16
 
 ./install_abacus_toolchain.sh \
 --with-intel=system --math-mode=mkl \

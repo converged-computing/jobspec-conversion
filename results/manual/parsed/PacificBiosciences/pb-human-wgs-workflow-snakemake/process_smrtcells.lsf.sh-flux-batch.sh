@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cinnamonbun-7277
-#FLUX: --priority=16
+#FLUX: --job-name=confused-pedo-9314
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PacificBiosciences/pb-human-wgs-workflow-snakemake/process_smrtcells.lsf.sh

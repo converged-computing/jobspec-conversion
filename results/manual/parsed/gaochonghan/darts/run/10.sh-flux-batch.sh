@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-mango-3015
+#FLUX: --job-name=dinosaur-muffin-9987
 #FLUX: -c=4
 #FLUX: --queue=dell
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='1'
 export MKL_THREADING_LAYER='GNU'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=KavehJob2
 #FLUX: --queue=lrgmem
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module reset
 module load python/2.7

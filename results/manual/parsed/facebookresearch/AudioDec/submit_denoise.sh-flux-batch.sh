@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=vctk_denoise
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 encoder="denoise/symAD_vctk_48000_hop300"
 decoder="vocoder/AudioDec_v1_symAD_vctk_48000_hop300_clean"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-leopard-8855
+#FLUX: --job-name=hairy-rabbit-1586
 #FLUX: -c=12
 #FLUX: --queue=gpu-a100-tmp
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FLAMEGPU2_INC_DIR='_deps/flamegpu2-src/include'
 

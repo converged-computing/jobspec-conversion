@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-diablo-2664
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-rabbit-8623
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/giacThePhantom/genn-network-model/cluster/old/hundreth_synapses_poisson_spikes.pbs

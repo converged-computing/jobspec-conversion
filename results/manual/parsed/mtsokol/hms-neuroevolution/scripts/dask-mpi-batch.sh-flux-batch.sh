@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-knife-8793
+#FLUX: --job-name=doopy-squidward-2683
 #FLUX: -N=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NOISE_PATH='/net/archive/groups/plgghmsneuro/noise.npy'
 

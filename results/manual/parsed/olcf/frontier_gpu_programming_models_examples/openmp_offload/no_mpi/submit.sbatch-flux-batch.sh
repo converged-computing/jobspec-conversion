@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-dog-5441
-#FLUX: --priority=16
+#FLUX: --job-name=phat-arm-6040
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

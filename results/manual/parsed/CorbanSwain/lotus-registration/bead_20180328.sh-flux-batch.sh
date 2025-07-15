@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-frito-1790
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-rabbit-9831
+#FLUX: --urgency=16
 
 export TZ='America/New_York'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-mango-4861
+#FLUX: --job-name=scruptious-destiny-7367
 #FLUX: -c=4
 #FLUX: --queue=main
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ./open_lth/slurm-setup.sh cifar10
 CKPT_ROOT=$HOME/scratch/open_lth_data/

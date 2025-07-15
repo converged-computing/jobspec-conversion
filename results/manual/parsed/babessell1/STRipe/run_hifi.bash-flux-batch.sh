@@ -2,7 +2,7 @@
 #FLUX: --job-name=run_trgt
 #FLUX: --queue=standard
 #FLUX: -t=28740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MODE=$1
 CORES="$SLURM_NTASKS"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-blackbean-7540
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-ricecake-9452
+#FLUX: --urgency=16
 
 M=65536 # 2^16
 PROJDIR=../../julia/GemmDenseThreads

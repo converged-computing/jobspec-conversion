@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-signal-5603
+#FLUX: --job-name=fuzzy-chair-4328
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INPUT_FILE='/exports/reum/tdmaarseveen/RA_Clustering/new_data/7_final/MMAE_clustering_270.csv' # all_data_MAUI_clustering_240_NEW # _PsA
 ONLY_CATEGORIC="0"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chip-2462
-#FLUX: --priority=16
+#FLUX: --job-name=astute-plant-2984
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$(( 136 / ${rankspernode} ))'
 export OMP_PLACES='threads'

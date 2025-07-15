@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-soup-4349
-#FLUX: --priority=16
+#FLUX: --job-name=arid-pastry-7210
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-install/bin'
 

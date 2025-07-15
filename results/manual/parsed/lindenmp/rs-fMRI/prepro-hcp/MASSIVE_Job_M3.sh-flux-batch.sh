@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fMRI-HCP-PrePro
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SUBJECT_LIST="/home/lindenmp/kg98/Linden/ResProjects/HCP_BF_TimeSeries/HCP_100.txt"
 module load rest/1.8 # works on M2 and M3

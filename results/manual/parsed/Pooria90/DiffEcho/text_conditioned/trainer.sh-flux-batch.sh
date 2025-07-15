@@ -2,7 +2,7 @@
 #FLUX: --job-name=train-text-image
 #FLUX: -c=4
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME='<path to your new home>'
 export MODEL_NAME='CompVis/stable-diffusion-v1-4'

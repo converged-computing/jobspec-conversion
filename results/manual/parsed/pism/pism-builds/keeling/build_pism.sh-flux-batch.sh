@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pastry-6036
+#FLUX: --job-name=joyous-lemon-3634
 #FLUX: --queue=t1small
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:.'
 

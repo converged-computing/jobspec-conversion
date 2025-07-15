@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bicycle-6454
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-pastry-8475
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'
 export SINGULARITY_BINDPATH='/work/clorenzi/'

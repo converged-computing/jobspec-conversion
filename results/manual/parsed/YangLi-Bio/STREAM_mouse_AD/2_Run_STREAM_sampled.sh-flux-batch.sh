@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Run_STREAM_sampled
 #FLUX: -t=12059
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 cd /fs/ess/PCON0022/liyang/STREAM/Case_2_AD/Codes/

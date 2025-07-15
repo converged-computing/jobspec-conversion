@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-bike-6152
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-lizard-6818
+#FLUX: --urgency=16
 
 module load tensorflow/intel-1.13.1-py36
 module load cray-hpo

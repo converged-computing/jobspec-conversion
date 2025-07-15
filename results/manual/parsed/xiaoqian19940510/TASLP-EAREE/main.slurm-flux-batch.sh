@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leg-5360
-#FLUX: --priority=16
+#FLUX: --job-name=red-leader-6452
+#FLUX: --urgency=16
 
 CUDA_VISIBLE_DEVICES=0,1 python TC_preprocess.py
 CUDA_VISIBLE_DEVICES=0,1 python TC/run_bert.py --do_data 

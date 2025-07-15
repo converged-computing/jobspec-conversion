@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-butter-1654
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-frito-7519
+#FLUX: -t=864000
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home/snst/huysh20/.lammps_command'
 export LAMMPS_POTENTIALS='/home/snst/huysh20/.lammps_command'

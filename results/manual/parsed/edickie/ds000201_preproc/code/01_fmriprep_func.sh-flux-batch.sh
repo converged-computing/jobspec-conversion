@@ -2,7 +2,7 @@
 #FLUX: --job-name=fmriprep_func
 #FLUX: -c=40
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export THREADS_PER_COMMAND='2'
 export BIDS_DIR='${SCRATCH}/${STUDY}/data/input/bids'

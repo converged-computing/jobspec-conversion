@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fit_nprf_3t_unsmoothed
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PARTICIPANT_LABEL='$(printf "%02d" $SLURM_ARRAY_TASK_ID)'
 

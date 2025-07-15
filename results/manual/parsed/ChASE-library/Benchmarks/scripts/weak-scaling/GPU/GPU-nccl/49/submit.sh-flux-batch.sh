@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cat-4556
+#FLUX: --job-name=hanky-caramel-4359
 #FLUX: -N=49
 #FLUX: -n=196
 #FLUX: -c=12
-#FLUX: --queue=booster --gres=gpu:4
+#FLUX: --queue=booster
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

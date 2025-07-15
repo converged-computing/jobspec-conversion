@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-arm-6671
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-puppy-9197
+#FLUX: --urgency=16
 
 module purge
 module load PrgEnv-cray

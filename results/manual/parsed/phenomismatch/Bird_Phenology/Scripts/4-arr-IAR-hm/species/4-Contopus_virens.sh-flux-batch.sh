@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=hm-2020-07-21-Contopus_virens
-#FLUX: --queue=general #partition - can also specify 'himem'
-#FLUX: --priority=16
+#FLUX: --queue=general
+#FLUX: --urgency=16
 
 echo `hostname`
 module load gcc/6.4.0

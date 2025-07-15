@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hope-3973
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-taco-7319
+#FLUX: --urgency=16
 
 module purge
 module load openmpi

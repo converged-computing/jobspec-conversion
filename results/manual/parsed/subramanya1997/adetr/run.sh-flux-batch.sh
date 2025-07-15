@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=adetr
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(scontrol show hostname ${SLURM_NODELIST} | head -n 1)'
 

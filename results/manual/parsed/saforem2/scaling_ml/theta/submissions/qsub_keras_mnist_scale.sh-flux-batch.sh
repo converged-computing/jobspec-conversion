@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blank-parrot-9104
-#FLUX: --priority=16
+#FLUX: --job-name=grated-cinnamonbun-7669
+#FLUX: --urgency=16
 

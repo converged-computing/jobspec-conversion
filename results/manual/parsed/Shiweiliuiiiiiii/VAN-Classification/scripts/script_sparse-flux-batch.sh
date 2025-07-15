@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-leader-2749
+#FLUX: --job-name=scruptious-carrot-4179
 #FLUX: -c=72
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/shiweil/miniconda3/etc/profile.d/conda.sh
 source activate pt1.10_cuda11.3

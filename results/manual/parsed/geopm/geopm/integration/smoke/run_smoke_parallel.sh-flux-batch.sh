@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lettuce-0932
-#FLUX: --priority=16
+#FLUX: --job-name=red-cattywampus-7783
+#FLUX: --urgency=16
 
 source smoke_env.sh
 APPS_2NODE="dgemm_tiny dgemm nasft nekbone hpcg pennant hpl_mkl hpl_netlib"

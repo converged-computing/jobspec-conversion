@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-buttface-5503
+#FLUX: --job-name=nerdy-hope-0294
 #FLUX: -c=16
 #FLUX: --queue=partition
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOGLEVEL='INFO'
 export NCCL_DEBUG='ERROR'

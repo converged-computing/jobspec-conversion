@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: --queue=bigmem
 #FLUX: -t=169200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SCRATCH_DIRECTORY=/cluster/projects/nn9412k/A20/DELTA/${SLURM_JOBID}
 mkdir -p ${SCRATCH_DIRECTORY}

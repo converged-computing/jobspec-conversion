@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-arm-6875
+#FLUX: --job-name=expressive-squidward-5123
 #FLUX: --queue=mono
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.modules
 module load gcc

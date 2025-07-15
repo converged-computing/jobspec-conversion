@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-taco-1766
-#FLUX: --priority=16
+#FLUX: --job-name=hello-citrus-7556
+#FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load OpenMPI/2.1.2

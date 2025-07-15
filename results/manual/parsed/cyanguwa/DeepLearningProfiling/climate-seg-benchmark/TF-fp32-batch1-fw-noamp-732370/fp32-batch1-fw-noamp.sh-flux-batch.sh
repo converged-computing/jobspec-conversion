@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cat-8259
-#FLUX: --priority=16
+#FLUX: --job-name=fat-lamp-6143
+#FLUX: --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

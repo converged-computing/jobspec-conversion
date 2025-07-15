@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=IB_40C_512G
 #FLUX: -t=216000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_TEMPLATEFLOW_HOME='${TEMPLATEFLOW_HOST_HOME}'
 

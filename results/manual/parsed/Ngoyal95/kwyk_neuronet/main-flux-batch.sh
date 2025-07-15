@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-fork-1822
-#FLUX: --priority=16
+#FLUX: --job-name=phat-nunchucks-2902
+#FLUX: --urgency=16
 
 export SINGULARITYENV_OMP_NUM_THREADS='1'
 

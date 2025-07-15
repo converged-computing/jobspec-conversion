@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-citrus-5224
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-cattywampus-2233
+#FLUX: --urgency=16
 
 export PETSC_DIR='/g/g15/mcgurn4/petsc'
 export PETSC_ARCH='arch-ablate-opt-gcc" # arch-ablate-debug or arch-ablate-opt'

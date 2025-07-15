@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-bicycle-9238
-#FLUX: --priority=16
+#FLUX: --job-name=faux-platanos-5078
+#FLUX: --urgency=16
 
 export PATH='/vol/bitbucket/jq619/idv/bin/:$PATH'
 export WANDB_DIR='/vol/bitbucket/jq619/'

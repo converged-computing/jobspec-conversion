@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-diablo-7202
+#FLUX: --job-name=buttery-fudge-9314
 #FLUX: -c=40
 #FLUX: --queue=p.test
 #FLUX: -t=1500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

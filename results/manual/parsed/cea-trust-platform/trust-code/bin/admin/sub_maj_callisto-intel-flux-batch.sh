@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-platanos-5821
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-parrot-5013
+#FLUX: --urgency=16
 
 set -x
 cd $SLURM_SUBMIT_DIR

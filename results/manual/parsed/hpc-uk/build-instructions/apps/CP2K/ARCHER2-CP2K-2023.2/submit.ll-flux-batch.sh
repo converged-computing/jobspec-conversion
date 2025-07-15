@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-dog-2153
+#FLUX: --job-name=peachy-carrot-2056
 #FLUX: -n=8
 #FLUX: --queue=serial
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export FCFLAGS='-fallow-argument-mismatch'

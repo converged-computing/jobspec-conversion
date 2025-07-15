@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=netCTL  # Job name
-#FLUX: --priority=16
+#FLUX: --job-name=netCTL
+#FLUX: --urgency=16
 
 newgrp combinedlab
 source activate var_call_env

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-spoon-0228
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-despacito-8300
+#FLUX: --urgency=16
 
                                            # -N 1 means all cores will be on th$
 hostname

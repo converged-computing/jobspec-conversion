@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-salad-9350
+#FLUX: --job-name=outstanding-animal-5613
 #FLUX: -c=12
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 export PATH='$CRAFT/cuda-fdmt/cudafdmt/src:$CRAFT/python:$PATH:/home/ban115/bin:$CRAFT/jobs/'

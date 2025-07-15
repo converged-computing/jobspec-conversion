@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-truffle-3885
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-bicycle-4246
+#FLUX: --urgency=16
 
 module swap PrgEnv-intel PrgEnv-gnu
 module use /global/common/software/m1517/teca/cori/develop/modulefiles

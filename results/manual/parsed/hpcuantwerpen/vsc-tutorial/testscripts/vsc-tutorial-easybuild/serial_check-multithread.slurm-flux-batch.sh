@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-car-5406
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-fork-1167
+#FLUX: --urgency=16
 
 module purge
 module load calcua/2020a

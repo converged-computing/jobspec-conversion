@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="visco_fabric_drop"
+#FLUX: --job-name=visco_fabric_drop
 #FLUX: --exclusive
 #FLUX: --queue=engineering_q
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd;hostname;date
 echo "running amrMPI (FABRIC) on $SLURM_JOB_NUM_NODES nodes with $SLURM_NTASKS tasks, each with $SLURM_CPUS_PER_TASK cores."

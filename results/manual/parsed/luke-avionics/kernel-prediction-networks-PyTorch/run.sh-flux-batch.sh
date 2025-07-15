@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-puppy-1194
+#FLUX: --job-name=doopy-bicycle-3219
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 job=$1
 /bin/bash

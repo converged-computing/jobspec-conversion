@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=gpua100
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME_FOLDER='/gpfs/users/millana'
 export CONTAINER_RUN='$CONTAINERSDIR/sycl-complete_latest.sif'

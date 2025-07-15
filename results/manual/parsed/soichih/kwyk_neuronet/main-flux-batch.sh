@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-bits-2330
-#FLUX: --priority=16
+#FLUX: --job-name=blue-taco-5454
+#FLUX: --urgency=16
 
 export SINGULARITYENV_PYTHONNOUSERSITE='true'
 export SINGULARITYENV_OMP_NUM_THREADS='1'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-eagle-0124
+#FLUX: --job-name=dirty-salad-2750
 #FLUX: -c=4
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/3/2021.11

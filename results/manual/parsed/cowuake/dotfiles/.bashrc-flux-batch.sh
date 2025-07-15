@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=$JOBNAME
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='$CPU_CORES'
 export LD_LIBRARY_PATH='/usr/lib64/openmpi/lib:\$LD_LIBRARY_PATH'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-train-4374
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-latke-7542
+#FLUX: --urgency=16
 
 export NCCL_NSOCKS_PERTHREAD='4'
 export NCCL_SOCKET_NTHREADS='2'

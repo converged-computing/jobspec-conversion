@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lemon-6084
-#FLUX: --priority=16
+#FLUX: --job-name=purple-despacito-2801
+#FLUX: --urgency=16
 
 module load singularity
 mkdir $1

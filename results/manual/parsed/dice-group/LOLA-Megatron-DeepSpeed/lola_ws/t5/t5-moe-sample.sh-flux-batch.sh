@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-cherry-6393
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-hippo-4218
+#FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 export TORCHELASTIC_ERROR_FILE='${OUTPUT_BASEPATH}/torch-elastic-error.json'

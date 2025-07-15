@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-leopard-5345
+#FLUX: --job-name=bricky-gato-5380
 #FLUX: --queue=scavenger
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate nanoclust

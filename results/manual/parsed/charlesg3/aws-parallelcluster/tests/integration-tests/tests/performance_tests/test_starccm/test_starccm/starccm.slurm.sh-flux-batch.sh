@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=starccm
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_EFA_FORK_SAFE='1'
 export I_MPI_OFI_LIBRARY_INTERNAL='0'

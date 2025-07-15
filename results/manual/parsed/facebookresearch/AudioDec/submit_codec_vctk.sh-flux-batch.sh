@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=AD_vctk
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 autoencoder=autoencoder/symAD_vctk_48000_hop300
 statistic=statistic/symAD_vctk_48000_hop300_clean

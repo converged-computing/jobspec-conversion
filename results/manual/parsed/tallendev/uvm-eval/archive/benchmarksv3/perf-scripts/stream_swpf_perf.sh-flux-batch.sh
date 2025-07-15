@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-general-5324
+#FLUX: --job-name=carnivorous-pastry-9511
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

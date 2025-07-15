@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-itch-4243
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-lizard-4997
+#FLUX: --urgency=16
 
 module add cudnn/5.1-cuda-8.0
 module load anaconda/py35/4.2.0

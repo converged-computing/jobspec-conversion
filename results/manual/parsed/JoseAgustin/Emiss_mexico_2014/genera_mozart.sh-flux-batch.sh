@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-avocado-3004
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-parsnip-1709
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/librerias/intel/nco/4.6.7/lib:/opt/librerias/intel/netcdf4_intel/lib:$LD_LIBRARY_PATH'
 export ProcessDir='$PWD'

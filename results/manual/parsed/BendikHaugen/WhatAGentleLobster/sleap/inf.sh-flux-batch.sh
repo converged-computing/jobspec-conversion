@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=GPUQ
 #FLUX: -t=180000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 nvidia-smi nvlink -s

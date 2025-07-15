@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=compute_full_node
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUBLAS_WORKSPACE_CONFIG=':4096:2'
 export NCCL_DEBUG='INFO'

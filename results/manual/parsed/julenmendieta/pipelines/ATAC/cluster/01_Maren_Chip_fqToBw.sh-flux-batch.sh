@@ -2,7 +2,7 @@
 #FLUX: --job-name=ATAC_fqToBw
 #FLUX: -c=12
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PROJECT_DIR=$1
 RAW_FASTQ_DIR=$PROJECT_DIR"/demux_fastq"

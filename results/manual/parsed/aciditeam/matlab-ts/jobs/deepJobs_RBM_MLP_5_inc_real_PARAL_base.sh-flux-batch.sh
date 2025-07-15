@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-chip-7634
+#FLUX: --job-name=faux-leader-6912
 #FLUX: --queue=mono
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.modules
 module load gcc

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-bike-0199
-#FLUX: --priority=16
+#FLUX: --job-name=red-cupcake-6727
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

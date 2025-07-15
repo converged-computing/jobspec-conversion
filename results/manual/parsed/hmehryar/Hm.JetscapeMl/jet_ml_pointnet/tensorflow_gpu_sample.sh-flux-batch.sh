@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=tensorflow_gpu_sample
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Converting notebook to script"
 jupyter nbconvert --to python tensorflow_gpu_sample.ipynb

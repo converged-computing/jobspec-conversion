@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="job_bmg"
+#FLUX: --job-name=job_bmg
 #FLUX: --queue=x86
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun --partition=x86 --time=48:00:00 --pty /bin/bash
 srun --partition=x86 --time=48:00:00 --nodes=1 --ntasks-per-node=32 --sockets-per-node=1 --cores-per-socket=16 --threads-per-core=2 --mem-per-cpu=4000 --wait=0 --export=ALL --pty /bin/bash

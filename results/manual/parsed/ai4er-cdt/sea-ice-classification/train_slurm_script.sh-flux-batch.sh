@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pedo-3099
+#FLUX: --job-name=hello-bicycle-4081
 #FLUX: -c=4
 #FLUX: --queue=orchid
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda activate sea-ice-classification
 nvidia-smi

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bits-9541
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-animal-5025
+#FLUX: --urgency=16
 
 module load usermods
 module load user/cuda

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-frito-6912
+#FLUX: --job-name=grated-puppy-9353
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/3.10 scipy-stack

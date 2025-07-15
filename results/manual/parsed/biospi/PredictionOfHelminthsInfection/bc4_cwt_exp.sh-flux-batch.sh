@@ -3,7 +3,7 @@
 #FLUX: -c=28
 #FLUX: --queue=hmem
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORK_DIR='/user/work/fo18103/PredictionOfHelminthsInfection'
 

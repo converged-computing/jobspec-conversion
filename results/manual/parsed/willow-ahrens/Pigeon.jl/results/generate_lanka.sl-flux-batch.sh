@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-kitty-9386
+#FLUX: --job-name=blue-kitty-9332
 #FLUX: --exclusive
 #FLUX: --queue=lanka-v3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRATCH='/data/scratch/pahrens'
 export PATH='$SCRATCH/julia:$PATH'

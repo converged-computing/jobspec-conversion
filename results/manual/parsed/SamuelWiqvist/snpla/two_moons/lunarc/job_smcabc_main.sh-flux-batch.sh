@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-buttface-4160
+#FLUX: --job-name=psycho-pastry-8759
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MAX_SEED_VAL=10
 for ((i=1;i<=$MAX_SEED_VAL;i++)); do

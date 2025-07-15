@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-mango-2834
+#FLUX: --job-name=hanky-cupcake-2331
 #FLUX: -n=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . ~/.profile
 module load gcc/6.1.0

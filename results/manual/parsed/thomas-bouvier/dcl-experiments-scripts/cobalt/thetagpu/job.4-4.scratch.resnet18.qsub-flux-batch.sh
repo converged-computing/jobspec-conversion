@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-salad-4485
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-toaster-3516
+#FLUX: --urgency=16
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=FC_NucintronPASupandDown
 #FLUX: --queue=broadwl
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/activate_anaconda.sh
 conda activate three-prime-env

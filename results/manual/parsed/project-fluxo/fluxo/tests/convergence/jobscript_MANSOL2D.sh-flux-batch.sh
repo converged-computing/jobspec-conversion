@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-house-3320
+#FLUX: --job-name=spicy-fork-6949
 #FLUX: --queue=express
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LOGFILE=log.$SLURM_JOB_ID.$SLURM_JOB_NAME
 CASEDIR=/u/ipphinde/GIT/fluxo/tests/convergence

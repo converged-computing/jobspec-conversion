@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-despacito-2682
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-train-4772
+#FLUX: --urgency=16
 
 cd $(ws_find lth_ws)
 source lth_env/bin/activate

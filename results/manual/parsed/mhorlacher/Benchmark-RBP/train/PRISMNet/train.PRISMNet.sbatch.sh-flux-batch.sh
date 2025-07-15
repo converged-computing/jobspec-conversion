@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-muffin-7083
-#FLUX: --priority=15
+#FLUX: --job-name=frigid-gato-7672
+#FLUX: --urgency=15
 
 sbatch --wait <<- EOF
 mkdir logs

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-carrot-5358
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-plant-6150
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

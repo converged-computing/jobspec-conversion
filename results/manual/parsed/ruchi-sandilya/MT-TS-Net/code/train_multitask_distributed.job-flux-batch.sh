@@ -2,7 +2,7 @@
 #FLUX: --job-name=survival-modeling
 #FLUX: -c=40
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='COLL'

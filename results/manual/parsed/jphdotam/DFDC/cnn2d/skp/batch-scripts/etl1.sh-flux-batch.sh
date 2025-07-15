@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cattywampus-9982
+#FLUX: --job-name=spicy-signal-2809
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate pytorch_p37
 cd /home/ianpan/ufrc/deepfake/skp/etl

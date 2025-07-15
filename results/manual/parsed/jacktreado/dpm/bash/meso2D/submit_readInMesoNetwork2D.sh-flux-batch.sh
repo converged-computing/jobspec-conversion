@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pedo-4953
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-plant-0185
+#FLUX: --urgency=16
 
 gitdir=~/dpm
 srcdir=$gitdir/src

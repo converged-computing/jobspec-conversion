@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-train-9690
+#FLUX: --job-name=reclusive-leader-9758
 #FLUX: -n=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ILAMB_ROOT='$PWD'
 export PYTHONPATH='$PYTHONPATH:$PWD'

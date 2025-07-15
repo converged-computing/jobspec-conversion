@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lettuce-4163
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-fork-8374
+#FLUX: --urgency=16
 
 export LD_PRELOAD='/usr/lib64/libcrypto.so /usr/lib64/libssh.so.4 /usr/lib64/libssl.so.1.1'
 export MIOPEN_USER_DB_PATH='/tmp/my-miopen-cache" '

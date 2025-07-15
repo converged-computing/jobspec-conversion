@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cat-9889
+#FLUX: --job-name=lovable-lemon-2908
 #FLUX: -n=24
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-taco-8279
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-hobbit-4090
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/NN/Shellscripts/NN_script_03-01_8.sh

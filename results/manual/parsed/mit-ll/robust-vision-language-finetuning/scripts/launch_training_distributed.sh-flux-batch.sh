@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-signal-8812
+#FLUX: --job-name=delicious-leader-5113
 #FLUX: -N=4
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='WARN'
 export PYTHONFAULTHANDLER='1'

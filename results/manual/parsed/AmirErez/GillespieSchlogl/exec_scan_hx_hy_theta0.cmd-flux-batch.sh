@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-butter-0567
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-nalgas-5909
+#FLUX: --urgency=16
 
 OFFSET=0
 LINE_NUM=$(echo "$SLURM_ARRAY_TASK_ID + $OFFSET" | bc)

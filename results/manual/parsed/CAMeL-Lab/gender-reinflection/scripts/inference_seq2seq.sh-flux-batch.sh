@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pancake-9863
+#FLUX: --job-name=conspicuous-lamp-3937
 #FLUX: -t=41400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATA_DIR='data/alhafni'
 

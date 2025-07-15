@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-muffin-8168
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-ricecake-4041
+#FLUX: --urgency=16
 
 {% extends "slurm.sh" %}
 {% block header %}

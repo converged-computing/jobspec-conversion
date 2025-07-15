@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-blackbean-7678
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-noodle-4567
+#FLUX: --urgency=16
 
 module load miniconda3
 snakemake --profile farm-profile

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_lora
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODEL_NAME='runwayml/stable-diffusion-v1-5'
 export OUTPUT_DIR='/scratch/yg2709/CSCI-SHU-360-Machine-Learning-Final-Project/Playground/sddata/finetune/lora/pokemon'

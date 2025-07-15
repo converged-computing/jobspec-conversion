@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-train-6257
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-noodle-4567
+#FLUX: --urgency=16
 
 export qcSoft='/projects/nmayhall_lab/qchem5'
 export QCPATH='$qcSoft/qchem.librassf-bloch-dev/'

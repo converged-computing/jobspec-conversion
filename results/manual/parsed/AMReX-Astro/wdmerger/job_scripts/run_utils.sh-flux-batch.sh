@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-parrot-9248
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-dog-9081
+#FLUX: --urgency=16
 
 if [ -d "job_scripts" ]; then
     script_dir="job_scripts"

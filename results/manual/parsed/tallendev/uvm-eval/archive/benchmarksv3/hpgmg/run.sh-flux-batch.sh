@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bits-4473
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-lemur-2529
+#FLUX: --urgency=16
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'
 export OMP_NUM_THREADS='$(($CORES/$MPI))'

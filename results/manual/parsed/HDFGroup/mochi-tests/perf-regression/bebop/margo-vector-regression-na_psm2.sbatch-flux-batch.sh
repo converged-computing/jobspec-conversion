@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-nunchucks-9860
+#FLUX: --job-name=evasive-citrus-1520
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME='$SANDBOX'
 export PSM2_MULTI_EP='1'

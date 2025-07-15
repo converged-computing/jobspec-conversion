@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-house-5741
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-sundae-7168
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/aldensyi/app-fmriprep/main

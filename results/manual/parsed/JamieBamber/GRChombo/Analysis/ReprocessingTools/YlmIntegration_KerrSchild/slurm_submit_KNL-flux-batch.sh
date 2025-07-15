@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-earthworm-2976
+#FLUX: --job-name=wobbly-cat-6339
 #FLUX: -N=2
 #FLUX: -n=16
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-gato-2800
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-cupcake-4349
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/abhishektandon/codiff/job_codiff.sh

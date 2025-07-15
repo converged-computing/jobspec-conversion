@@ -2,7 +2,7 @@
 #FLUX: --job-name=proj-benchmark
 #FLUX: --exclusive
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOTAL_CPUS='$(( SLURM_JOB_NUM_NODES * PBS_NUM_PPN ))'
 

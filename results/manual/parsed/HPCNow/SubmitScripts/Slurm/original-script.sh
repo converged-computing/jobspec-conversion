@@ -1,16 +1,24 @@
 #!/bin/bash
+# LAMMPS SubmitScript
+# Optimized for run parallel job of 1024 Cores 
 ######################################################
-#SBATCH -J EasyBuild
-#SBATCH -A hpcnow           
-#SBATCH --time=06:00:00        
-#SBATCH --mem-per-cpu=4G     
-#SBATCH --cpus-per-task=4      
-#SBATCH -D /sNow/easybuild/jobs
-#SBATCH --uid=5674
+#SBATCH -J LAMMPS
+#SBATCH -A hpcnow         # Project Account
+#SBATCH --time=00:30:00     # Walltime
+#SBATCH --mem-per-cpu=4G  # memory/cpu 
+#SBATCH --ntasks=128        # Number of tasks
+#SBATCH --cpus-per-task=8   # Number of OpenMP threads
 ######################################################
-## Call the Easy Build 
-srun eb  GROMACS-4.6.5-ictce-5.5.0-mt.eb --try-toolchain=ictce,5.4.0 --robot --force
-srun eb WRF-3.4-goalf-1.1.0-no-OFED-dmpar.eb -r
+###  Load the Environment
+module load lammps
 ######################################################
-## Update the LMOD cache
-/sNow/apps/lmod/utils/BuildSystemCacheFile/createSystemCacheFile.sh
+###  The files will be allocated in the shared FS 
+cd $SCRATCH_DIR
+cp -pr /sNow/test/LAMMPS/* .
+######################################################
+###  Run the Parallel Program
+#Lennard Jones Benchmark input parameters: Weak Scaling
+srun lmp_mpi -var x 10 -var y 40 -var z 40 -in in.lj
+######################################################
+###  Transferring the results to the home directory
+cp -pr $SCRATCH_DIR $HOME/OUT/lammps/

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-fudge-1102
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-frito-4235
+#FLUX: --urgency=16
 
 export PETSC_DIR='/g/g20/lobad1/petsc'
 export PETSC_ARCH='arch-ablate-opt-gcc" # arch-ablate-debug or arch-ablate-opt'

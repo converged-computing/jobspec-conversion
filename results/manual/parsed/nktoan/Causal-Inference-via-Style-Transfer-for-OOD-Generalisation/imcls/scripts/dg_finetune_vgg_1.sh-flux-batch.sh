@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-staircase-6093
+#FLUX: --job-name=phat-punk-4395
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda3
 source activate dassl

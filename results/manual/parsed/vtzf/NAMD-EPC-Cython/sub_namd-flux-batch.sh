@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-carrot-0639
+#FLUX: --job-name=anxious-salad-0897
 #FLUX: -N=4
 #FLUX: --queue=sugon
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export OMP_NUM_THREADS='1'

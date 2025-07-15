@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-sundae-4930
-#FLUX: --priority=16
+#FLUX: --job-name=blue-lentil-8508
+#FLUX: --urgency=16
 
 sbatch --array=${1}-${2} <<EOT
 module purge

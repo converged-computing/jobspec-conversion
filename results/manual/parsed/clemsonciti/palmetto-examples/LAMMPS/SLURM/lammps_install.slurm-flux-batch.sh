@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-rabbit-2311
+#FLUX: --job-name=quirky-general-8696
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "-------installing the gpu version-------"
 mkdir ~/software_slurm

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rfnCMBPTT
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load pytorch/0.1.12_2 

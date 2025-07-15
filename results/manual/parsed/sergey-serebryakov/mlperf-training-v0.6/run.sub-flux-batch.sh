@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-eagle-9269
+#FLUX: --job-name=stinky-train-0550
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VOLS='-v $DATADIR:/data -v $LOGDIR:/results'
 export MLPERF_HOST_OS='$(cat /etc/issue | head -1 | cut -f1-3 -d" ") / $(cat /etc/dgx-release | grep -E "DGX_PRETTY_NAME|DGX_OTA_VERSION" |cut -f2 -d= |cut -f2 -d '"' |paste -sd' ')'

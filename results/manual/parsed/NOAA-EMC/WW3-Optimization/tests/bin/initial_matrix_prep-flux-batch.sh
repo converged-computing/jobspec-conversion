@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-leg-7251
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-earthworm-9624
+#FLUX: --urgency=16
 
 export HOME_PATH='${HOME}'
 export OPTDIR='${MAIN}'

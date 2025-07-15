@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lemon-0376
+#FLUX: --job-name=frigid-despacito-4864
 #FLUX: -N=8
 #FLUX: --queue=epyc-64
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

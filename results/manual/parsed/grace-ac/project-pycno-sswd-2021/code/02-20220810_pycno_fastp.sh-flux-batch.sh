@@ -2,7 +2,7 @@
 #FLUX: --job-name=20220810_pycno_fastp
 #FLUX: --queue=srlab
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 threads=40
 trimmed_checksums=trimmed_fastq_checksums.md5

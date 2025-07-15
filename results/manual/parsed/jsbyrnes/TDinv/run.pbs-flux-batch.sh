@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-toaster-2589
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-animal-5851
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jsbyrnes/TDinv/run.pbs

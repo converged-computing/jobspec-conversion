@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-taco-8425
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-arm-2425
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 

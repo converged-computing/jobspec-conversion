@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-itch-7664
+#FLUX: --job-name=joyous-cupcake-5448
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='1'
 

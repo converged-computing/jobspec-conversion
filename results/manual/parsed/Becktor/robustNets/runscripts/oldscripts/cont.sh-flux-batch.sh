@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-fork-4337
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-platanos-6053
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Becktor/robustNets/runscripts/oldscripts/cont.sh

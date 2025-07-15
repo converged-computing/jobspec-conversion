@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lemon-7662
+#FLUX: --job-name=ornery-cinnamonbun-9499
 #FLUX: --exclusive
 #FLUX: --queue=sched_mit_rgmark
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 module load python/3.6.3

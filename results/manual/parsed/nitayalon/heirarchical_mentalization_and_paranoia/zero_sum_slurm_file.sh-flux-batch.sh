@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-egg-0278
+#FLUX: --job-name=delicious-noodle-2897
 #FLUX: -c=4
 #FLUX: --exclusive
-#FLUX: --queue=compute # nyx partitions: compute, highmem, gpu
+#FLUX: --queue=compute
 #FLUX: -t=87150
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BIND='/run,/ptmp,/scratch,/tmp,/opt/ohpc,${HOME}'
 export CONTAINER_PATH='/ptmp/containers/pytorch_1.10.0-cuda.11.3_latest-2021-12-02-ec95d31ea677.sif'

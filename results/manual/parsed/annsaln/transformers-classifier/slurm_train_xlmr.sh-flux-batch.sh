@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-despacito-5521
-#FLUX: --priority=16
+#FLUX: --job-name=salted-earthworm-2497
+#FLUX: --urgency=16
 
 export TRAIN_DIR='junkdata/$SRC'
 export DEV_DIR='junkdata/$TRG'

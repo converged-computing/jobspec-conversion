@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-staircase-9346
+#FLUX: --job-name=boopy-noodle-3249
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'
 export CUDA_VISIBLE_DEVICES='0'

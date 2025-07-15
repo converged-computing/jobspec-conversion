@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=matTest
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo Starting job
 echo pwd

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-train-2066
+#FLUX: --job-name=quirky-kitty-2630
 #FLUX: -c=8
 #FLUX: -t=179
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 deactivate
 module purge

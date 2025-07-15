@@ -2,7 +2,7 @@
 #FLUX: --job-name=tgi-swarm
 #FLUX: -c=12
 #FLUX: --queue=hopper-prod
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export volume='/scratch'
 export model='mistralai/Mistral-7B-Instruct-v0.1'

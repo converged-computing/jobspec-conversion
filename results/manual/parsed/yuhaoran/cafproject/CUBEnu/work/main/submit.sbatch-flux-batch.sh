@@ -3,7 +3,7 @@
 #FLUX: -N=8
 #FLUX: -c=80
 #FLUX: -t=1500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='80'
 export FOR_COARRAY_NUM_IMAGES='8'

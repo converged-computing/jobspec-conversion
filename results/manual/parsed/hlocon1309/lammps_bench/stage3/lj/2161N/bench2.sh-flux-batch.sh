@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-hobbit-3123
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-taco-1229
+#FLUX: --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-animal-9046
+#FLUX: --job-name=spicy-platanos-8342
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module list
 set -x

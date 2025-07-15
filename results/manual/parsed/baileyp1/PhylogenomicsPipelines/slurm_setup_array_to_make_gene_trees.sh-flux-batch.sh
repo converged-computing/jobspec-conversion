@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-puppy-5256
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-chair-2977
+#FLUX: --urgency=16
 
 geneFile=$1
 listFile=$2

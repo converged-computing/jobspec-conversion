@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-caramel-1752
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-squidward-4448
+#FLUX: --urgency=16
 
 cd $(ws_find lth_ws)
 source lth_env/bin/activate

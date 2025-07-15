@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-hippo-0031
+#FLUX: --job-name=hairy-punk-6516
 #FLUX: -c=48
 #FLUX: --exclusive
 #FLUX: --queue=production-cluster
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LAUNCHER='accelerate launch \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

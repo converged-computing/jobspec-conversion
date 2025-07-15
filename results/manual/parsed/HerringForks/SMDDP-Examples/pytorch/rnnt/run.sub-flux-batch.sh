@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rnn_speech_recognition
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euxo pipefail
 : "${DGXSYSTEM:?DGXSYSTEM not set}"

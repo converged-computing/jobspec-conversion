@@ -3,7 +3,7 @@
 #FLUX: -N=3
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOTAL_CPUS='$(( SLURM_JOB_NUM_NODES * PBS_NUM_PPN ))'
 

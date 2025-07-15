@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-buttface-2938
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-carrot-7074
+#FLUX: --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

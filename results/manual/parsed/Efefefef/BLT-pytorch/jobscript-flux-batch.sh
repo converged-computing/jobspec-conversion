@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-platanos-4319
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-snack-3386
+#FLUX: --urgency=16
 
 echo "running in shell: " "$SHELL"
 spack load cuda@11.8.0

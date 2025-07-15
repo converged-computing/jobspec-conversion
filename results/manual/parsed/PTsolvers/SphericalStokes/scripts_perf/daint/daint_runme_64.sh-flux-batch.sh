@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="SphStokes_64"
+#FLUX: --job-name=SphStokes_64
 #FLUX: -N=64
 #FLUX: --queue=normal
 #FLUX: -t=540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_HDF5_PATH='$HDF5_ROOT'
 export JULIA_CUDA_MEMORY_POOL='none'

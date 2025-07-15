@@ -3,7 +3,7 @@
 #FLUX: -N=400
 #FLUX: --exclusive
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export rocm_version='5.4.3'
 export MPICH_GPU_SUPPORT_ENABLED='1'

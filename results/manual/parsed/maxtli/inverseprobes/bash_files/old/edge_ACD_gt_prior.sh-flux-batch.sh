@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=prior-$var-gt-edge_pruning
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 for strength in "0.3"
 do

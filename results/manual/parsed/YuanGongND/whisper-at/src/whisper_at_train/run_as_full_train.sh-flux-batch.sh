@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="w-as-high"
-#FLUX: --priority=16
+#FLUX: --job-name=w-as-high
+#FLUX: --urgency=16
 
 export TORCH_HOME='../../pretrained_models'
 

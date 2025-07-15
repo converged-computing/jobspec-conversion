@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-noodle-4564
+#FLUX: --job-name=swampy-despacito-8860
 #FLUX: -c=8
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 reponame="lammps"
 repo="git@github.com:CTCMS-UQ/${reponame}.git"

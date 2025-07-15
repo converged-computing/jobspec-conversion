@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-destiny-5146
+#FLUX: --job-name=carnivorous-poo-5426
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 export PSI_SCRATCH='/tmp/'

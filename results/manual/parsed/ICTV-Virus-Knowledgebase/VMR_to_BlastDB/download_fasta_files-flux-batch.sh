@@ -1,7 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=ICTV_NCBI_efetch_fasta_files
-#FLUX: --queue=amd-hdr100 --time=00-12:00:00
-#FLUX: --priority=16
+#FLUX: --queue=amd-hdr100
+#FLUX: -t=43200
+#FLUX: --urgency=16
 
 VMR_XLSX=$(ls -rt VMRs/VMR_MSL*.xlsx | tail -1)
 if [ ! -z "$1" ]; then 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=_gwas2vcf
 #FLUX: --queue=cardio
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='/rds/user/jhz22/hpc-work/work'
 export prot='$(cut -f1 ${INF}/work/inf1.tmp | grep -v BDNF | sort | uniq | awk 'NR==ENVIRON["SLURM_ARRAY_TASK_ID"]')'

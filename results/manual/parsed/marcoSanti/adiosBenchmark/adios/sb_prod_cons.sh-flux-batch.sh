@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-hope-3252
+#FLUX: --job-name=stanky-kitty-5975
 #FLUX: --exclusive
 #FLUX: --queue=g100_usr_prod
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load spack 
 spack load adios2@2.9.1

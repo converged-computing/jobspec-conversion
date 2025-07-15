@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="bluesky_10nodes_shm"
+#FLUX: --job-name=bluesky_10nodes_shm
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ```
 SBATCH -A oddite

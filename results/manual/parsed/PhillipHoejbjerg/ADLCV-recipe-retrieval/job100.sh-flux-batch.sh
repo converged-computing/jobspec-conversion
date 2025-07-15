@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hippo-6563
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-platanos-1417
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PhillipHoejbjerg/ADLCV-recipe-retrieval/job100.sh

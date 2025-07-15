@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-spoon-8326
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-chip-8186
+#FLUX: --urgency=16
 
 data_set="data_Olga-Tokarczuk.npz"
 archive="VA-classification"

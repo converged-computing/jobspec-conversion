@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="neuron-coreneuron-stack"
+#FLUX: --job-name=neuron-coreneuron-stack
 #FLUX: --exclusive
 #FLUX: --queue=interactive
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TAU_OPTIONS='-optPDTInst -optNoCompInst -optRevert -optVerbose -optTauSelectFile=~/spackconfig/nrnperfmodels.tau'
 

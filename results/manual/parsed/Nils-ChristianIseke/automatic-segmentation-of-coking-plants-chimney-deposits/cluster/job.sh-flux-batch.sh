@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nnUnet_job
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . setup_paths.sh
 . preprocess.sh

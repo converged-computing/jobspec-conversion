@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-bike-7475
-#FLUX: --priority=16
+#FLUX: --job-name=arid-motorcycle-7064
+#FLUX: --urgency=16
 
 export PGI_ACC_NOTIFY='2'
 export PGI_ACC_TIME='1'

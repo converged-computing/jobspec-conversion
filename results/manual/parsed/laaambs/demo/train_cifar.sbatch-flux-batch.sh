@@ -2,7 +2,7 @@
 #FLUX: --job-name=cad_cifar
 #FLUX: --queue=gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/3.7
 source activate /home/kong_04/project/envs/cad

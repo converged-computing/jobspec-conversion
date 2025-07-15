@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-dog-9798
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-plant-1168
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/diatomic/tess2/examples/tess/TESS_TEST

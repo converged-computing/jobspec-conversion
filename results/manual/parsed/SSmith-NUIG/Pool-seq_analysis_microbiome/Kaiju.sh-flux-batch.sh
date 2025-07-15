@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="kaiju"
-#FLUX: --priority=16
+#FLUX: --job-name=kaiju
+#FLUX: --urgency=16
 
 module load Anaconda3
 source activate microbiome

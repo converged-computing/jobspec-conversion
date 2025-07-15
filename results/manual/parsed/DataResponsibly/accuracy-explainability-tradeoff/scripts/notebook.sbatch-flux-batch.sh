@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=jupyter
 #FLUX: -c=40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/intel/3.8.6

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-blackbean-9361
+#FLUX: --job-name=tart-carrot-3606
 #FLUX: -t=669600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularity run --bind /projects:/projects singularity_ocr.sif -d \
 "/projects/ovcare/classification/pouya/Irem/globus_mount" -o \

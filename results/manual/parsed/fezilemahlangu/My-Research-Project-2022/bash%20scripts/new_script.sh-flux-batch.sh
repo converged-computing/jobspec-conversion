@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-poodle-3538
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-dog-9057
+#FLUX: --urgency=16
 
 echo "---------------------------"
 echo "Job started on" `date`

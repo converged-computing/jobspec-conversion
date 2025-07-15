@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-platanos-7196
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-cupcake-0030
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/magic-sph/magic/submitscripts/msub_hlrn.pbs

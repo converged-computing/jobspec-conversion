@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-parrot-9764
-#FLUX: --priority=16
+#FLUX: --job-name=blue-underoos-6256
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/eshook/Forest/play_bmsb.pbs

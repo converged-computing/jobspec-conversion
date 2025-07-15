@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-gato-6729
-#FLUX: --priority=16
+#FLUX: --job-name=fat-snack-4627
+#FLUX: --urgency=16
 
 source /home/ferreira/.profile
 source activate dino_newpt

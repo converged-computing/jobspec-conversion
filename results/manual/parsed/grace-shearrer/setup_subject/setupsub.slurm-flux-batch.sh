@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-staircase-4011
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-onion-5196
+#FLUX: --urgency=16
 
 export LAUNCHER_PLUGIN_DIR='$LAUNCHER_DIR/plugins'
 export LAUNCHER_RMI='SLURM'

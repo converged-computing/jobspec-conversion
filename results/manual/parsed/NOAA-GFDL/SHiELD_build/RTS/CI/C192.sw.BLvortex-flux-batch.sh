@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-general-3816
+#FLUX: --job-name=expensive-nunchucks-2832
 #FLUX: -n=96
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

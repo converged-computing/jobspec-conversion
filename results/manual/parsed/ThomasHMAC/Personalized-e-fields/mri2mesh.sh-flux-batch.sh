@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="mri2mesh"
+#FLUX: --job-name=mri2mesh
 #FLUX: -c=6
 #FLUX: --queue=high-moby
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SUBJECTS_DIR='/projects/ttan/UBC-TMS/simnibs/mri2mesh'
 

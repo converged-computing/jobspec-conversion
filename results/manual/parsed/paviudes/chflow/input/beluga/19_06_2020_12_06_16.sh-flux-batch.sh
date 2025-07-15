@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-chair-8438
+#FLUX: --job-name=strawberry-signal-4124
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel python scipy-stack
 cd /project/def-jemerson/pavi/chflow

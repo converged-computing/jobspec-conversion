@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-staircase-0320
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-hippo-3456
+#FLUX: --urgency=16
 
 module load namd
 TASKS_PER_JOB=55

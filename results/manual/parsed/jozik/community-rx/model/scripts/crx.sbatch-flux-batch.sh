@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-signal-6233
+#FLUX: --job-name=doopy-snack-1103
 #FLUX: --exclusive
 #FLUX: --queue=broadwl
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='28'
 

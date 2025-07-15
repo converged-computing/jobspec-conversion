@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-egg-7004
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-pedo-3536
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/FrederikWarburg/bayesian-metric-learning/scripts/sweep.sh

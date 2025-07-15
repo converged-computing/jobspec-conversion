@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-kitty-7909
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-squidward-3404
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jejjohnson/gps4oi/scripts/baselines/opt.sh

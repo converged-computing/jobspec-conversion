@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=crr
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 modes=("expert" "mixed-const" "mixed-exp")
 mode=${modes[${SLURM_ARRAY_TASK_ID}]}

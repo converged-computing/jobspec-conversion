@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-ricecake-1035
+#FLUX: --job-name=purple-pedo-4202
 #FLUX: --queue=XAS
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OCR_INSTALL='/home/rsalmon/dhome/fastfw/src/ocr/ocr/install'
 export APPS_ROOT='/home/rsalmon/dhome/fastfw/src/apps/apps'

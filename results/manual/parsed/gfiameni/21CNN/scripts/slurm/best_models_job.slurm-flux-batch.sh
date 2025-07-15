@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="best_models220_RNN.Hybrid3D"
+#FLUX: --job-name=best_models220_RNN.Hybrid3D
 #FLUX: -c=12
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='12'
 export CRAY_CUDA_MPS='1'

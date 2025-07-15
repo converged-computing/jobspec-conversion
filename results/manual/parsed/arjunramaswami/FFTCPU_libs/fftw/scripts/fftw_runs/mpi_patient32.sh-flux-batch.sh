@@ -3,7 +3,7 @@
 #FLUX: -N=8
 #FLUX: -n=32
 #FLUX: --queue=long
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module reset
 module load devel/CMake

@@ -2,6 +2,6 @@
 #FLUX: --job-name=np
 #FLUX: --queue=gpu
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun -u python scraper.py

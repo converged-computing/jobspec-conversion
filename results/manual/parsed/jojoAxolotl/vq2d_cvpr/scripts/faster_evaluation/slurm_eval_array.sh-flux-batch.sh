@@ -2,7 +2,7 @@
 #FLUX: --job-name=vq2d_val
 #FLUX: -c=6
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$PYTRACKING_ROOT'
 

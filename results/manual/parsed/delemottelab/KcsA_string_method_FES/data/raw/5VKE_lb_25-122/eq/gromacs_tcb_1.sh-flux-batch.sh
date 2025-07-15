@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-puppy-6923
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-bits-0979
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

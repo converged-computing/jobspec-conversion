@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-parsnip-6704
-#FLUX: --priority=15
+#FLUX: --job-name=butterscotch-despacito-8104
+#FLUX: --urgency=15
 
 export TMPDIR='/localscratch'
 

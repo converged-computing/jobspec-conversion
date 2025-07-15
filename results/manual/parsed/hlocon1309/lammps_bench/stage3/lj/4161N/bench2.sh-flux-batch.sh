@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-mango-4373
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-platanos-0942
+#FLUX: --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

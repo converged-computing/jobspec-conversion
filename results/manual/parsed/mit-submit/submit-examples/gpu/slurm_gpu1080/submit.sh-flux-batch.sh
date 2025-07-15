@@ -2,7 +2,7 @@
 #FLUX: --job-name=test
 #FLUX: --queue=submit-gpu1080
 #FLUX: -t=24600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/submit/freerc/.bashrc
 conda activate dask

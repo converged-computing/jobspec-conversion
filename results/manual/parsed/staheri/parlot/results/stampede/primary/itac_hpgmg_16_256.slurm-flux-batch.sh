@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-peanut-0554
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-hippo-2630
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-itac/bin'
 

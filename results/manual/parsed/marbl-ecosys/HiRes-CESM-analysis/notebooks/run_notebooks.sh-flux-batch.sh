@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-pot-7581
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-avocado-4838
+#FLUX: --urgency=16
 
 usage () {
   echo "$0 NOTEBOOK [NOTEBOOK2 ... NOTEBOOKN]"

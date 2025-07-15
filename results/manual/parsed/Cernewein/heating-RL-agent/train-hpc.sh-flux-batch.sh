@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-kerfuffle-5021
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-noodle-1246
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Cernewein/heating-RL-agent/train-hpc.sh

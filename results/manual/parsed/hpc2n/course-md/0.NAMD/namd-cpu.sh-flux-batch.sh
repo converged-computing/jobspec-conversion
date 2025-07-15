@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lizard-3428
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-destiny-5083
+#FLUX: --urgency=16
 
 ml purge > /dev/null 2>&1
 ml GCC/10.3.0  OpenMPI/4.1.1

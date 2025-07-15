@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-underoos-5954
-#FLUX: --priority=16
+#FLUX: --job-name=grated-kitty-9855
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ComputationalFlowGroup/MFC-develop/toolchain/templates/pbs.sh

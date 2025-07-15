@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-leader-4235
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-cat-4381
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PMIX_MCA_gds='hash'

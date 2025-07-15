@@ -2,7 +2,7 @@
 #FLUX: --job-name=test
 #FLUX: --queue=big
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CODE_DIR='/jmain02/home/J2AD016/jjw02/jjs00-jjw02/scripts'      #PATH_TO_CODE_DIR'
 

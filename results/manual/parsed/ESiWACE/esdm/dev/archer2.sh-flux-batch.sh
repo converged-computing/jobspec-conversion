@@ -4,7 +4,7 @@
 #FLUX: -c=4
 #FLUX: --queue=standard
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$TGT/bin:$PATH'
 export PKG_CONFIG_PATH='$TGT/lib/pkgconfig/:$TGT/lib64/pkgconfig/:$PKG_CONFIG_PATH'

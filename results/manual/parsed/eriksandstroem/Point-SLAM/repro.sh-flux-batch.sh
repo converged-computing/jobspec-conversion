@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-nalgas-9461
-#FLUX: --priority=16
+#FLUX: --job-name=arid-muffin-4136
+#FLUX: --urgency=16
 
 export PATH='/home/esandstroem/scratch/venvs/point_slam_env_github/bin:$PATH'
 

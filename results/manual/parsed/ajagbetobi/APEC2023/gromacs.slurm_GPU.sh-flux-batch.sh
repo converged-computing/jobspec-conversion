@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cattywampus-7618
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-eagle-8994
+#FLUX: --urgency=16
 
 export Project='$SLURM_JOB_NAME'
 export WorkDir='/scratch/$USER/$SLURM_JOB_ID'

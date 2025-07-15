@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=hybrid
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd
 echo "SLURM_JOB_ID=$SLURM_JOB_ID"

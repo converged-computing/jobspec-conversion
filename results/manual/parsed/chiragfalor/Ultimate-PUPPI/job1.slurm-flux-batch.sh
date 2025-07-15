@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-parrot-0923
+#FLUX: --job-name=purple-milkshake-4413
 #FLUX: --exclusive
 #FLUX: --queue=sched_system_all_8
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NODELIST='nodelist.$'
 

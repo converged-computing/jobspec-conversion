@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cent_obs_3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 module load anaconda/2020a

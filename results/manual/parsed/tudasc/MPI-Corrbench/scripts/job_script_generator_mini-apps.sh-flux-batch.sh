@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-malarkey-6019
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-citrus-2586
+#FLUX: --urgency=16
 
 TASKS=8
 APP=$2

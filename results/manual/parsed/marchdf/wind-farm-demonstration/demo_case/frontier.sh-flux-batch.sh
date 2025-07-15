@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-peas-0180
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-arm-5651
+#FLUX: --urgency=16
 
 set -e
 cmd() {

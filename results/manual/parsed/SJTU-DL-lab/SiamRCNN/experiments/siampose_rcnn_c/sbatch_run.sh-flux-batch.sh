@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lentil-2783
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-bike-1614
+#FLUX: --urgency=16
 
 export PYTHONPATH='$ROOT:$PYTHONPATH'
 

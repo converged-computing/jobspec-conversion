@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=sc06_sentinel_merge90m_from10m_otb.sh
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export file='$(ls $IN/*.vrt   | head -$SLURM_ARRAY_TASK_ID | tail -1 )'
 export filename='$(basename $file .vrt  )'

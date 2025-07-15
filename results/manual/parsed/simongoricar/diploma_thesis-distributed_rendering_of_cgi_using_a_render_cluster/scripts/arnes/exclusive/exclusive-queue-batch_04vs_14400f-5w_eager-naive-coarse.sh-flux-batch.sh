@@ -4,7 +4,7 @@
 #FLUX: -c=4
 #FLUX: --exclusive
 #FLUX: -t=61200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RUST_LOG='debug'
 

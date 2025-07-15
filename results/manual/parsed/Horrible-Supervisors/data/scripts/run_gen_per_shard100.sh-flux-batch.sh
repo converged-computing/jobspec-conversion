@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=gen_100_shard
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [[ ${SLURM_ARRAY_TASK_ID} -le 0 ]]; then
     echo "shard 00000"

@@ -1,21 +1,19 @@
 #!/bin/bash
-#PBS -N GAMER
-#PBS -M PUT_YOUR_EMAIL_HERE
-#PBS -l nodes=1:ppn=16:xk
-#PBS -l walltime=8:00:00
-#PBS -m bea
-#PBS -q normal
-##PBS -q high
-##PBS -q debug
-##PBS -e $PBS_JOBID.err
-##PBS -o $PBS_JOBID.out
 
-cd $PBS_O_WORKDIR
+#SBATCH --job-name=YOUR_JOB_NAME          ## job name
+#SBATCH --mail-type=ALL                   ## mail notification type
+#SBATCH --mail-user=YOUR_EMAIL            ## mail address
+#SBATCH --account=YOUR_ACCOUNT            ## account (https://www.twcc.ai/user/dashboard)
+#SBATCH --partition=gp1d                  ## queue name (gtest/gp1d/gp2d/gp4d)
+#SBATCH --nodes=2                         ## number of nodes
+#SBATCH --gres=gpu:8                      ## number of GPUs per node
+#SBATCH --ntasks-per-node=8               ## number of tasks per node
+#SBATCH --cpus-per-task=4                 ## number of CPUs per task
+#SBATCH --time=02:00:00                   ## time limit (hh:mm:ss)
+#SBATCH --output=log-%j                   ## stdout output file
 
-. /opt/modules/default/init/bash
-module load cray-hdf5/1.8.16
-module load cudatoolkit/7.5.18-1.0502.10743.2.1
-module load craype-hugepages2M
+#Load module
+module purge
+module load compiler/gnu/4.8.5 nvidia/cuda/10.0 openmpi/3.1.4
 
-aprun -n 1 -N 1 -d 16 --cc=none ./gamer 1>>log 2>&1 </dev/null
-
+srun ./gamer 1>>log 2>&1

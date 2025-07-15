@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=test
 #FLUX: --queue=64c512g
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 tumor=$1
 normal=$2

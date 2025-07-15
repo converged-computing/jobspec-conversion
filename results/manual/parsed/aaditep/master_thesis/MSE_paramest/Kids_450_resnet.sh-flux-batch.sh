@@ -2,7 +2,7 @@
 #FLUX: --job-name=gpu_test1
 #FLUX: -c=60
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Transfering files to local scratch"
 start_time=$(date +%s)

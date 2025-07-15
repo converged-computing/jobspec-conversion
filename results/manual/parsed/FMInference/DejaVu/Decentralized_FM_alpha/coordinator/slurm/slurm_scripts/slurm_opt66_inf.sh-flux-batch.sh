@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=jag-standard
 #FLUX: -t=14340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='$netif'
 export GLOO_SOCKET_IFNAME='$netif'

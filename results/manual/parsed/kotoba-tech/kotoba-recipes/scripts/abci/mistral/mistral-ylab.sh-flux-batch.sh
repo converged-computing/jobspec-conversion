@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pretrain
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(/usr/sbin/ip a show | grep inet | grep 192.168.205 | head -1 | cut -d " " -f 6 | cut -d "/" -f 1)'
 export MASTER_PORT='$((10000 + ($SLURM_JOBID % 50000)))'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-salad-4284
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-gato-6334
+#FLUX: --urgency=16
 
 echo "###### Starting job on cluster"
 echo "Learner device: ${DISTRIBUTED_CONFIG_LEARNER_DEVICE}"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-leader-6747
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-citrus-4489
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rnabioco/rnaroids/pipeline/snakecharmer.sh

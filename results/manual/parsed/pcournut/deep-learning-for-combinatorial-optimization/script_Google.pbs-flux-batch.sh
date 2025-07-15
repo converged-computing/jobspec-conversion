@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-pot-2310
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-diablo-7360
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pcournut/deep-learning-for-combinatorial-optimization/script_Google.pbs

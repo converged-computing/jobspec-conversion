@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="test_folive00"
+#FLUX: --job-name=test_folive00
 #FLUX: --exclusive
 #FLUX: --queue=EPYC
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export code='/u/dssc/folive00/Foundations_of_HPC_2022/Assignment/exercise1'
 export OMP_NUM_THREADS='8'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-latke-2236
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-diablo-8355
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='5'
 

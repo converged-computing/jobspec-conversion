@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-taco-9100
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-soup-2249
+#FLUX: --urgency=16
 
 trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT
 source ../activate.sh 

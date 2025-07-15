@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-parrot-5045
+#FLUX: --job-name=phat-pastry-2761
 #FLUX: -c=16
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 

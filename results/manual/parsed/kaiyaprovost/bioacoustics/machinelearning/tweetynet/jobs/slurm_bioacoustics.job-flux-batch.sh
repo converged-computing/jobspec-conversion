@@ -2,7 +2,7 @@
 #FLUX: --job-name=parallelSlurm
 #FLUX: -N=2
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load gnu/9.1.0

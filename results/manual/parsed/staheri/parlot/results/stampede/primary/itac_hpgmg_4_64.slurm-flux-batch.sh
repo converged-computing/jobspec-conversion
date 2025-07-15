@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-poo-9252
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-pot-7155
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-itac/bin'
 

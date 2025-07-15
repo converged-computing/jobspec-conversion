@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-puppy-1582
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-malarkey-4557
+#FLUX: --urgency=16
 
 cd ~/measles/code/
 module load R

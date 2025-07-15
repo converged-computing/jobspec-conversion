@@ -2,7 +2,7 @@
 #FLUX: --job-name=ckws_adapted_refined_score_attack_GPU
 #FLUX: -c=16
 #FLUX: --queue=gpu_p100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TF_FORCE_GPU_ALLOW_GROWTH='true'
 

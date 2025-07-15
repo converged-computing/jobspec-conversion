@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-avocado-5377
+#FLUX: --job-name=anxious-nunchucks-5936
 #FLUX: -n=40
 #FLUX: --exclusive
 #FLUX: --queue=l_long
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$omp_threads'
 

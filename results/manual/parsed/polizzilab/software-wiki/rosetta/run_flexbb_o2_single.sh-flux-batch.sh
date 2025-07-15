@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-bike-8396
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-peanut-butter-0761
+#FLUX: --urgency=16
 
 module load gcc/4.8.5
 module load rosetta 

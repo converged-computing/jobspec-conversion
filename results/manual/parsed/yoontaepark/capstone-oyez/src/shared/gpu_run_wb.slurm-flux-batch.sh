@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=myTest
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge    
 singularity exec --nv --bind $SCRATCH/comp_gen --overlay $SCRATCH/overlay-25GB-500K.ext3:ro \

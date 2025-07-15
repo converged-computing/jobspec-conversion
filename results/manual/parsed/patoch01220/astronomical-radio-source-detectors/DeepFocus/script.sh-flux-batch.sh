@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cinnamonbun-7438
+#FLUX: --job-name=purple-cat-8878
 #FLUX: --queue=shared-gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $SLURM_JOBID
 module load Anaconda3

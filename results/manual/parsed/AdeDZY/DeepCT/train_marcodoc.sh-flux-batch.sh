@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-noodle-4432
+#FLUX: --job-name=gassy-carrot-2593
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/cuda/10.0/lib64:/opt/cudnn/cuda-10.0/7.3/cuda/lib64'
 export BERT_BASE_DIR='/bos/usr0/zhuyund/uncased_L-12_H-768_A-12'

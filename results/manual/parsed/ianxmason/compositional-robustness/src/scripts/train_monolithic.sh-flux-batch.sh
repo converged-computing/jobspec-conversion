@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-platanos-4704
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-diablo-5514
+#FLUX: --urgency=16
 
 hostname
 echo $CUDA_VISIBLE_DEVICES

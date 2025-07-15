@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cat-3736
+#FLUX: --job-name=moolicious-kerfuffle-6665
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export YEAR='2021'
 export MONTH='09'

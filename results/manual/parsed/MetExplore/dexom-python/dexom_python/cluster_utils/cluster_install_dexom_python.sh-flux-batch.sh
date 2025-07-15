@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-peanut-8093
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-fudge-0015
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 git clone https://forgemia.inra.fr/metexplore/cbm/dexom-python.git dexompython

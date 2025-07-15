@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-nunchucks-3182
+#FLUX: --job-name=joyous-cinnamonbun-7923
 #FLUX: --queue=gpu
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SRC=/work/donglab/ching.ki/ssRNA-MD/MD_sim/src
 DATA=/work/donglab/ching.ki/ssRNA-MD/VAE/data/gro

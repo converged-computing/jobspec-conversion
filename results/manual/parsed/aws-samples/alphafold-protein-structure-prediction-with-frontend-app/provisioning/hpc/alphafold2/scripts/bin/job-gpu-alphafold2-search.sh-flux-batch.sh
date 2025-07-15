@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-train-9943
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-lemur-2319
+#FLUX: --urgency=16
 
 AF_PATH=/fsx/alphafold2/alphafold/
 DB_PATH=/fsx/alphafold2/database/

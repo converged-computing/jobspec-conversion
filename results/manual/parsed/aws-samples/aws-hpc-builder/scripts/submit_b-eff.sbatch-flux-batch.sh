@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-train-0074
+#FLUX: --job-name=goodbye-ricecake-0356
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=c6gnpg
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export B_EFF_VERSION='latest'
 

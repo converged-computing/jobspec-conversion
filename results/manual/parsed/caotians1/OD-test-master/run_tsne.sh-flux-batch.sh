@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-platanos-8041
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-pastry-5831
+#FLUX: --urgency=16
 
 export DISABLE_TQDM='True'
 

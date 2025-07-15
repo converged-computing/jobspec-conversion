@@ -2,7 +2,7 @@
 #FLUX: --job-name=merge_bam
 #FLUX: -c=25
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DESCRIPTION="Merge BAM files and sort the output BAM file"
 SCRIPT_VERSION="2023-12-06"

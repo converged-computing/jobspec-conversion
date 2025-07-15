@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="F150A_1504"
+#FLUX: --job-name=F150A_1504
 #FLUX: -c=8
 #FLUX: --queue=mf_nes2.8
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 fepfile="15183_04-F150A.fep"
 pdbfile="15183_04-F150A.pdb"

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=exoseq_hawk
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow/21.10.6
 cd /scratch/c.c1845715/nextflow_cellranger/exoseq_hawk # Change User ID

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="best_5k_retrain"
+#FLUX: --job-name=best_5k_retrain
 #FLUX: -c=10
 #FLUX: --queue=GPUQ
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONBUFFERED='1'
 

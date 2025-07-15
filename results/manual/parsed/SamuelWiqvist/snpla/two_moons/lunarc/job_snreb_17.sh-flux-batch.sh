@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-frito-3869
-#FLUX: --priority=16
+#FLUX: --job-name=red-latke-8031
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

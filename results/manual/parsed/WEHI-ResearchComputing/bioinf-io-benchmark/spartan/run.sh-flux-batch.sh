@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="bioinf benchmark"
+#FLUX: --job-name=bioinf benchmark
 #FLUX: -n=20
 #FLUX: --queue=physical
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORK_DIR=/scratch/punim0930/evan/bioinf-io-benchmark
 cd $WORK_DIR

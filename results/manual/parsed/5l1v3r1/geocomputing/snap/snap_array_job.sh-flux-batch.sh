@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=small
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load snap
 readlink -f /appl/data/geo/sentinel/s2_example_data/L2A/S2* > image_path_list.txt

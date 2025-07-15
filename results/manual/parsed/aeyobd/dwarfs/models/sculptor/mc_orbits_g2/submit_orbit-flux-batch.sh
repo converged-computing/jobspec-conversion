@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-pot-1348
-#FLUX: --priority=16
+#FLUX: --job-name=purple-cupcake-7301
+#FLUX: --urgency=16
 
 module unload gnu_comp
 module load intel_comp/2019

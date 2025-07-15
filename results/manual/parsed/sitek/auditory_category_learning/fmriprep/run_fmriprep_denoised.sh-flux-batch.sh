@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-soup-8010
+#FLUX: --job-name=rainbow-leg-3412
 #FLUX: -c=8
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add freesurfer
 module add fsl

@@ -2,7 +2,7 @@
 #FLUX: --job-name=mnist
 #FLUX: --queue=cascadelakegpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/ubu_eps_1/COMUNES/miniconda3/bin:$PATH'
 

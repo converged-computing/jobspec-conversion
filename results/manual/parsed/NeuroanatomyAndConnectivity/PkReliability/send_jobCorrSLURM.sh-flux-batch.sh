@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gradGen
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SUBJECT_LIST=./SubjectsCompleteData.txt
 smooth_kernel=$1

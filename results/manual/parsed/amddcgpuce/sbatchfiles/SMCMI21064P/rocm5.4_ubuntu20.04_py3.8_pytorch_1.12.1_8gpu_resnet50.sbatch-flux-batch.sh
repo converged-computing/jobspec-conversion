@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lettuce-4417
+#FLUX: --job-name=bloated-citrus-0681
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module purge

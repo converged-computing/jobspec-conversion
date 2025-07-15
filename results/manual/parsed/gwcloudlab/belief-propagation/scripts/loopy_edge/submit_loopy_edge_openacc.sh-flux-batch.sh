@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-animal-1897
+#FLUX: --job-name=misunderstood-car-8361
 #FLUX: -t=25200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/toolkit
 module load libxml2

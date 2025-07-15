@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-pancake-3074
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-chip-7355
+#FLUX: --urgency=16
 
 if [ ! $# -eq 1 ]; then
     echo -e "Usage: $0 <raw_data_dir>"

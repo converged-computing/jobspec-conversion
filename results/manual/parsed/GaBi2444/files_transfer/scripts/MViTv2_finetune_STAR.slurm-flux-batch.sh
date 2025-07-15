@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-itch-8229
+#FLUX: --job-name=muffled-milkshake-7489
 #FLUX: -N=4
 #FLUX: -c=10
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOROVOD_GPU_ALLREDUCE='MPI'
 export HOROVOD_GPU_ALLGATHER='MPI'

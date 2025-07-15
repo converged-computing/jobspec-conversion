@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-leopard-2533
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-snack-3884
+#FLUX: --urgency=16
 
 source activate dac
 steps=1000000

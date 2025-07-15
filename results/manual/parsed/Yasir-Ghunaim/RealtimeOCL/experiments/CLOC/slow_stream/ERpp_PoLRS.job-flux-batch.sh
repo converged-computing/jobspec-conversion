@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-onion-5256
+#FLUX: --job-name=blank-fudge-2921
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=198000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.1.0

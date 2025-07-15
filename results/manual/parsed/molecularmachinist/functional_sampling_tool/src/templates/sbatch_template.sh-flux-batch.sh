@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-leader-8459
+#FLUX: --job-name=blue-avocado-0523
 #FLUX: -N=20
 #FLUX: --queue=medium
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PLACES='cores'

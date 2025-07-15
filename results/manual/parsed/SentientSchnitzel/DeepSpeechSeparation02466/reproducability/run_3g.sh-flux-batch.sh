@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-nunchucks-5660
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-squidward-5612
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SentientSchnitzel/DeepSpeechSeparation02466/reproducability/run_3g.sh

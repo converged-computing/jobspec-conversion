@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-cupcake-5227
+#FLUX: --job-name=fuzzy-poodle-5854
 #FLUX: --queue=build
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OPENBLAS_NUM_THREADS='1'

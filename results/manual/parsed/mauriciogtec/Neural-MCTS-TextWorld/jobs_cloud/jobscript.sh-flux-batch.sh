@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-dog-5541
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-arm-7126
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export MKL_NUM_THREADS='1'

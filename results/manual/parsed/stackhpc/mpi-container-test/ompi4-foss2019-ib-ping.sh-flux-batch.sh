@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bicycle-6362
+#FLUX: --job-name=butterscotch-leader-0286
 #FLUX: -n=2
 #FLUX: --exclusive
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_NET_DEVICES='mlx5_0:1 # force IB only - host'
 export SINGULARITYENV_OMPI_MCA_btl_openib_if_include='mlx5_0:1 # force IB only - container'

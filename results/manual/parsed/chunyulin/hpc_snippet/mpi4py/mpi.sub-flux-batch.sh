@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-diablo-2727
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-cat-1065
+#FLUX: --urgency=16
 
 export UCX_LOG_LEVEL='error'
 

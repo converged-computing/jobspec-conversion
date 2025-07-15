@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leader-0487
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-arm-2383
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

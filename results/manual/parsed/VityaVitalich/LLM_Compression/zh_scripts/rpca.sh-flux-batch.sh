@@ -2,7 +2,7 @@
 #FLUX: --job-name=llmcompr
 #FLUX: --queue=ais-gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun singularity exec --bind /trinity/home/v.moskvoretskii/:/home -f --nv /trinity/home/v.moskvoretskii/images/new_clipped_sm.sif bash -c '
     ls;

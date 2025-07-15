@@ -2,7 +2,7 @@
 #FLUX: --job-name=JupiterNotebook
 #FLUX: --queue=mid
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "======================="
 echo "Loading Anaconda Module..."

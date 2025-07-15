@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sterilenu
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONTAINER=/cluster/tufts/wongjiradlab/twongj01/coherent/coherent_snowglobes_20200304.simg
 WORKDIR=/cluster/tufts/wongjiradlab/twongj01/coherent/run_cenns750_sterile_jobs

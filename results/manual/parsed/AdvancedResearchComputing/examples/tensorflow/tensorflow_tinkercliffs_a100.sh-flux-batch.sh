@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-egg-5782
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-signal-0518
+#FLUX: --urgency=16
 
 module reset
 module load cuda11.2/toolkit #hopefully will be added to defaults soon

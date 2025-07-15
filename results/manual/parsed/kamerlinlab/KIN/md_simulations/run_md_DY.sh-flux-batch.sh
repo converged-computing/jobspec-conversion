@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-taco-2013
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-lentil-0014
+#FLUX: --urgency=16
 
 module load gcc/10.3.0-o57x6h
 module load intel/20.0.4

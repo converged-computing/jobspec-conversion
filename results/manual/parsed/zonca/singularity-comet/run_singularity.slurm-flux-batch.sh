@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="singularity"
+#FLUX: --job-name=singularity
 #FLUX: -N=2
 #FLUX: --queue=compute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PBS_NODEFILE='`generate_pbs_nodefile`'
 export SINGULARITY='$(which singularity)'

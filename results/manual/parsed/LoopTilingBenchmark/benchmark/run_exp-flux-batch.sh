@@ -4,7 +4,7 @@
 #FLUX: -c=16
 #FLUX: --queue=soc-gpu-kp
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$HOME/lib/openmp-build/runtime/src:$LD_LIBRARY_PATH'
 

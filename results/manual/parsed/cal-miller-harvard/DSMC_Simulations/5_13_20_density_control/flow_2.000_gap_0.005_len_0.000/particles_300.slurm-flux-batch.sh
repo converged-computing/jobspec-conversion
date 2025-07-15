@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-cinnamonbun-1281
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-car-1080
+#FLUX: --urgency=16
 
 cd data
 pwd

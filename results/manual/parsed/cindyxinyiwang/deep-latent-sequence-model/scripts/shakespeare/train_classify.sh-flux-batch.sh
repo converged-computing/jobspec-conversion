@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-fudge-9797
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-citrus-1183
+#FLUX: --urgency=16
 
 export PYTHONPATH='$(pwd)'
 export CUDA_VISIBLE_DEVICES='2'

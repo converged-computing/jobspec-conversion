@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mpileup_call_2
 #FLUX: -c=28
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate nextflow

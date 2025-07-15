@@ -2,7 +2,7 @@
 #FLUX: --job-name=npTranscript
 #FLUX: -c=8
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JSA_MEM='8000m'
 

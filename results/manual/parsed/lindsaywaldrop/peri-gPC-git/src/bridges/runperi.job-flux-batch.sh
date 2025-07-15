@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lettuce-5053
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-motorcycle-4227
+#FLUX: --urgency=16
 
 set -x 
 i=119

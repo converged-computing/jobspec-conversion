@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-kitty-0108
-#FLUX: --priority=16
+#FLUX: --job-name=purple-itch-3367
+#FLUX: --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-signal-5293
+#FLUX: --job-name=spicy-hope-8456
 #FLUX: -t=50400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

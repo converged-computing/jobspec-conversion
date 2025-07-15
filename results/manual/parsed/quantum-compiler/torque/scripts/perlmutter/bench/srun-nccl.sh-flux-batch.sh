@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-motorcycle-3245
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-egg-5312
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 

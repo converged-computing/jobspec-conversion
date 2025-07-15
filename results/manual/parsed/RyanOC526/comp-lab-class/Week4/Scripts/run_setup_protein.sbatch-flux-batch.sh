@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Trp_cage_AMBER
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gromacs/openmpi/intel/2020.4
 init=step3_input

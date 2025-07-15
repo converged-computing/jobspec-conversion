@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=astute-egg-7686
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-cat-5105
+#FLUX: --urgency=16
 

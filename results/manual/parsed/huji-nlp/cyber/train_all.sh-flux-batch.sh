@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-car-9484
+#FLUX: --job-name=adorable-bicycle-8935
 #FLUX: -t=360
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 JSONS=($(cat experiments.txt))
 if [[ -n "${SLURM_ARRAY_TASK_ID}" ]]; then

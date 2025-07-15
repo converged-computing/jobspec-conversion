@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-hippo-9311
+#FLUX: --job-name=persnickety-citrus-8247
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROFILER='cupy'
 export enable_xla='noxla'

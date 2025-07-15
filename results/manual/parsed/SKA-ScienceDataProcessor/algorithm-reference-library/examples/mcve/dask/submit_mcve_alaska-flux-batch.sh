@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-noodle-0337
+#FLUX: --job-name=angry-earthworm-9853
 #FLUX: -N=3
 #FLUX: -n=3
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 

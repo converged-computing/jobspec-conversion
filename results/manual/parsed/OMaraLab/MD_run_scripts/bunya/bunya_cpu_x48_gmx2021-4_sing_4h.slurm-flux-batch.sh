@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-malarkey-3312
+#FLUX: --job-name=grated-plant-9877
 #FLUX: -c=48
 #FLUX: --queue=general
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_TMPDIR='/scratch/user/uqadaqu1/tmp/ '
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-punk-6808
+#FLUX: --job-name=angry-punk-7163
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${CRAY_LD_LIBRARY_PATH}:${LD_LIBRARY_PATH}'
 export ROCFFT_RTC_CACHE_PATH='/dev/null'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-noodle-3538
+#FLUX: --job-name=blank-sundae-1486
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

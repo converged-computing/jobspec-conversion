@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-onion-0976
+#FLUX: --job-name=misunderstood-buttface-2154
 #FLUX: -c=12
 #FLUX: --queue=ccr
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load nextflow

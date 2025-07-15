@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-taco-0834
+#FLUX: --job-name=joyous-punk-1007
 #FLUX: -N=2
 #FLUX: -c=96
 #FLUX: --queue=gpus
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='ib0'
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'

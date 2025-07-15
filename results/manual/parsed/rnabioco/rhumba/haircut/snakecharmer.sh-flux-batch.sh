@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-rabbit-3640
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-underoos-9296
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rnabioco/rhumba/haircut/snakecharmer.sh

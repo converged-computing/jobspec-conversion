@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=myTest
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gsl/intel/2.3
 RUNDIR=$SCRATCH/dtmproject/run-${SLURM_JOB_ID/.*}

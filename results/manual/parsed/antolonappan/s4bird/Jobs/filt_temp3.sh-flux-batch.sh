@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-bike-8392
+#FLUX: --job-name=ornery-muffin-1986
 #FLUX: -N=100
 #FLUX: -n=1000
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ini='cmbs4_3.ini'
 

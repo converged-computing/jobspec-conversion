@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-snack-6717
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-cat-5442
+#FLUX: --urgency=16
 
 source /home/${USER}/.bashrc;
 source activate tf1.15-env; 

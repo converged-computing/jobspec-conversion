@@ -2,7 +2,7 @@
 #FLUX: --job-name=audio-caption
 #FLUX: -c=2
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load java/1.8.0.162
 run_script=$1

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-parsnip-2689
+#FLUX: --job-name=arid-avocado-7167
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun python -u main_pretrain.py \
 --epochs 1 --dataset image \

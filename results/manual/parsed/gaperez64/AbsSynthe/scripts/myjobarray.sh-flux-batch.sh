@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-dog-4624
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-plant-4535
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gaperez64/AbsSynthe/scripts/myjobarray.sh

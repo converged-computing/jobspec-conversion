@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=serene
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.8.6
 module load cuda/10.1 

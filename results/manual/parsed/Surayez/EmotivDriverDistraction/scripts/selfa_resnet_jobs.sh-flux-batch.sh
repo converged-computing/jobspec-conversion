@@ -2,7 +2,7 @@
 #FLUX: --job-name=SelfA_ResNet
 #FLUX: --queue=m3f
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 problem=Emotiv266
 model=SelfA_ResNet

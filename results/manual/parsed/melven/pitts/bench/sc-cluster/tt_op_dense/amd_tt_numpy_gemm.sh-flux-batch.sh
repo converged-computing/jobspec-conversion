@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-rabbit-7994
-#FLUX: --priority=16
+#FLUX: --job-name=grated-carrot-3397
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='100M'
 

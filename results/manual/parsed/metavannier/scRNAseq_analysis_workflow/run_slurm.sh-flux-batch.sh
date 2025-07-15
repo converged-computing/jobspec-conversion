@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-pancake-8337
-#FLUX: --priority=16
+#FLUX: --job-name=grated-bike-7960
+#FLUX: --urgency=16
 
 module purge
 module load userspace/all

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-citrus-2265
-#FLUX: --priority=16
+#FLUX: --job-name=milky-buttface-9542
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/afcarl/CharPOS/run.sh

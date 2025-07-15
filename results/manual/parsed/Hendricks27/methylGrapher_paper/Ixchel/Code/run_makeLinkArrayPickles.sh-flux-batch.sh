@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pedo-0754
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-earthworm-4750
+#FLUX: --urgency=16
 
 echo "Loading software..."
 eval $( spack load --sh python@3 )

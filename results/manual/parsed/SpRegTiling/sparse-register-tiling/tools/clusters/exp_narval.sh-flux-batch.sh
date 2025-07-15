@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="$EXPERIMENT_NAME"
+#FLUX: --job-name=$EXPERIMENT_NAME
 #FLUX: -c=40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 

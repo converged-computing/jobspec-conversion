@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-snack-3170
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-toaster-1002
+#FLUX: --urgency=16
 
 module purge
 module load julia/1.9.0

@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: -c=16
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/mask_bev
 docker build -t mask_bev .

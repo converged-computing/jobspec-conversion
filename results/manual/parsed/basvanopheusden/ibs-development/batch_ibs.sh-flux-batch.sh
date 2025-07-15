@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ibs
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PROJECT_FOLDER="ibs-dev"
 model=fourinarow

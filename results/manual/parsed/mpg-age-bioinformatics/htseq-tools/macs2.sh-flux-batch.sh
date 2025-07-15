@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-hobbit-8718
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-frito-7557
+#FLUX: --urgency=16
 
 TOP=$(readlink -f ../)/
 BOW=$(readlink -f ../bowtie2_output)/

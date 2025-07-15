@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-leader-7257
-#FLUX: --priority=16
+#FLUX: --job-name=grated-diablo-5551
+#FLUX: --urgency=16
 
 root_dir="/users/hritz/data/mri-data/RDM2"
 fwhm=8

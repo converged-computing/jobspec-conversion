@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lettuce-5375
+#FLUX: --job-name=hello-taco-7288
 #FLUX: -c=32
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euo pipefail
 function err() { cat <<< "$@" 1>&2; }

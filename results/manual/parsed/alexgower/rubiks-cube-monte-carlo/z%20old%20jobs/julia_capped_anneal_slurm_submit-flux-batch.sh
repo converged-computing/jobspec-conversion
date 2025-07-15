@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-citrus-6767
+#FLUX: --job-name=blank-bike-7466
 #FLUX: -n=3
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 numnodes=$SLURM_JOB_NUM_NODES
 numtasks=$SLURM_NTASKS

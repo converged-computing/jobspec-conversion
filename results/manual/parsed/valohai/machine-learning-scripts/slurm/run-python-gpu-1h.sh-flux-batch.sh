@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-poodle-0331
-#FLUX: --priority=16
+#FLUX: --job-name=fat-cinnamonbun-2722
+#FLUX: --urgency=16
 
 module list
 set -xv

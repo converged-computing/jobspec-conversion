@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pedo-2889
+#FLUX: --job-name=anxious-arm-3842
 #FLUX: -c=12
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 module load PyTorch

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-kitty-4467
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-rabbit-8662
+#FLUX: --urgency=16
 
 export ROMIO_HINTS='$(pwd)/.romio_hint'
 

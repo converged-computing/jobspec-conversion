@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-rabbit-7820
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-onion-7620
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/knightlab-analyses/mfpca-analyses/simulations/2_5_run_estimate_all.sh

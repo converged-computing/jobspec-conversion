@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=classifier
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PWD/Unet'
 

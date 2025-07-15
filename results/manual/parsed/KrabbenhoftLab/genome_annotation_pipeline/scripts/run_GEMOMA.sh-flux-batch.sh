@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-parsnip-5526
+#FLUX: --job-name=red-kitty-8607
 #FLUX: --queue=general-compute
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SPECIES=$1 # short name for your species
 GENOME_DIR=$2 # directory containing your genome assembly

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-general-9013
+#FLUX: --job-name=dinosaur-motorcycle-3037
 #FLUX: -c=24
 #FLUX: --queue=main
 #FLUX: -t=346320
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MAXJOBSN='24  # must equal value of "--cpus-per-task'
 

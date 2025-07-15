@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-signal-5947
-#FLUX: --priority=16
+#FLUX: --job-name=confused-caramel-8466
+#FLUX: --urgency=16
 
 module load gcc/6.2.0
 module load cuda/10.0

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="Re400_St0.6_AR1.27_psi90"
+#FLUX: --job-name=Re400_St0.6_AR1.27_psi90
 #FLUX: -N=2
 #FLUX: --queue=small-gpu
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1'
 

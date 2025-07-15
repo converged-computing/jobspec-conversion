@@ -2,7 +2,7 @@
 #FLUX: --job-name=raytune_1gpu
 #FLUX: --exclusive
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

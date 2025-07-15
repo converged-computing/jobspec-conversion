@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lamp-8190
+#FLUX: --job-name=stinky-blackbean-5636
 #FLUX: -c=16
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu
 function usage() { cat << EOF

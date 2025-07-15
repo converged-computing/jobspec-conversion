@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cattywampus-4363
-#FLUX: --priority=16
+#FLUX: --job-name=angry-lemon-3189
+#FLUX: --urgency=16
 
 Help()
 {

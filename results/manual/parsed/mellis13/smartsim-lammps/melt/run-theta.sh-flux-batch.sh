@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-signal-0976
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-squidward-5197
+#FLUX: --urgency=16
 

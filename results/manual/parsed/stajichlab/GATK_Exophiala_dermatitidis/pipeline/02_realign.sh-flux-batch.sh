@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=realign
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load java/8
 module load gatk/3.7

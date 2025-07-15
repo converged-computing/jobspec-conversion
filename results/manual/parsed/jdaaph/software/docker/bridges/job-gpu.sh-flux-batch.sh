@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="test-gpu"
+#FLUX: --job-name=test-gpu
 #FLUX: --queue=GPU-small
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load singularity/2.6.0

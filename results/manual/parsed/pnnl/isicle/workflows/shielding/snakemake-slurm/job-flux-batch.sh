@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-omelette-9364
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-destiny-3305
+#FLUX: --urgency=16
 
 source /etc/bashrc
 module purge

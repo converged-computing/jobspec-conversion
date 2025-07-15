@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cinnamonbun-6851
+#FLUX: --job-name=tart-motorcycle-3614
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='/usr/local/cuda-9.0'
 export LD_LIBRARY_PATH='/usr/local/cuda-9.0/lib64'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-knife-1538
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-caramel-3717
+#FLUX: --urgency=16
 
 PROJDIR="/n/holylfs05/LABS/finkbeiner_lab/Users/nmudur/project_dirs/CMD_2D/diffusion-models-for-cosmological-fields/annotated/results/"
 MODELRUN="Run_5-7_0-50/"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-snack-1322
+#FLUX: --job-name=lovely-noodle-6160
 #FLUX: --exclusive
-#FLUX: --queue=production-cluster  # Adjust this for your cluster
-#FLUX: --priority=16
+#FLUX: --queue=production-cluster
+#FLUX: --urgency=16
 
 export CMD=' \'
 export LAUNCHER='ACCELERATE_LOG_LEVEL=info accelerate launch \'

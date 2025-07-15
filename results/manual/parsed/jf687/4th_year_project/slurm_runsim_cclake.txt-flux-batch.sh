@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-mango-5623
+#FLUX: --job-name=rainbow-bike-5436
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)
 module purge                               # Removes all modules still loaded

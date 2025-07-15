@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-destiny-7519
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-signal-3209
+#FLUX: --urgency=16
 
 export GMX='gmx_mpi'
 

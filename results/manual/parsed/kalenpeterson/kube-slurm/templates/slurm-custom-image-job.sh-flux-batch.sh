@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=slurm-single-job
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KUBE_IMAGE='tensorflow:custom'
 export KUBE_SCRIPT='/home/dgx/kube-slurm/containers/slurm-single-tf-job/test.sh'

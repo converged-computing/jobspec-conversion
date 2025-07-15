@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="SINGLE-NAS"
+#FLUX: --job-name=SINGLE-NAS
 #FLUX: -N=9
 #FLUX: --queue=EPICALL
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EA_NAS_UPLOAD_TO_FIREBASE='0'
 

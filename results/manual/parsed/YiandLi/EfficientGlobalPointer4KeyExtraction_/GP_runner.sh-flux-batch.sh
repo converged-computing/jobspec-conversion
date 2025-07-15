@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-pancake-0870
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-fudge-0280
+#FLUX: --urgency=16
 
 module load nvidia/cuda/10.0
 module load pytorch/1.0_python3.7_gpu

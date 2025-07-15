@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-despacito-6815
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-lamp-9375
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

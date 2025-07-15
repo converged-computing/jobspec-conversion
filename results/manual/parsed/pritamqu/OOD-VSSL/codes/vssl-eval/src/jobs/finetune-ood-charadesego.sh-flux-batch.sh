@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-chip-6392
+#FLUX: --job-name=blue-leg-0169
 #FLUX: --queue=v100_full_node
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MASTER=`/bin/hostname -s`
 MPORT=$(shuf -i 6000-9999 -n 1)

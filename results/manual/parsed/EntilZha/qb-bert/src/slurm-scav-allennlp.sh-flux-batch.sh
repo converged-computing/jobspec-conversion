@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=scavenger
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_LOG_FILE='/fs/www-users/entilzha/logs/${SLURM_JOB_ID}.log'
 export MODEL_CONFIG_FILE='$2'

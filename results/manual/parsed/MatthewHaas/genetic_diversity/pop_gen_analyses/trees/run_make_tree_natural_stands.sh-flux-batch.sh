@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-fork-4398
+#FLUX: --job-name=buttery-avocado-7097
 #FLUX: -n=32
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/jkimball/haasx092/main_GBS/210309_samtools
 module load gcc/8.1.0

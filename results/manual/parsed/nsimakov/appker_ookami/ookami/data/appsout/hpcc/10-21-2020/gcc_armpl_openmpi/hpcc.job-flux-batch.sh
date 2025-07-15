@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-parrot-5102
-#FLUX: --priority=16
+#FLUX: --job-name=arid-bicycle-7337
+#FLUX: --urgency=16
 
 pwd
 module load slurm

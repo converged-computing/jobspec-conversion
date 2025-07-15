@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-egg-7444
-#FLUX: --priority=16
+#FLUX: --job-name=purple-train-7582
+#FLUX: --urgency=16
 
 source /cluster/bin/jobsetup
 module load intel/2018.1

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-caramel-1193
+#FLUX: --job-name=expressive-puppy-8513
 #FLUX: --queue=amd-longq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load shared

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cattywampus-0704
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-leader-1375
+#FLUX: --urgency=16
 
 												            ### Test whether you can specify redirection to .log file via 2>&
                                                             ### NBNB - moved the -o and -flags to the main script because you can't specify fileNamePrefix variable at this point in the script!

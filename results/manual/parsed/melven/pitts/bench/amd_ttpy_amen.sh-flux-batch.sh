@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-mango-5454
-#FLUX: --priority=16
+#FLUX: --job-name=grated-hobbit-1883
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:~/pitts/build_gcc_amd/src/:~/pitts/examples/'
 export PYTHONUNBUFFERED='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-taco-0155
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-chair-9277
+#FLUX: --urgency=16
 
 module load gcc/4.9.3
 module load python3/3.5.2

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-car-8203
-#FLUX: --priority=16
+#FLUX: --job-name=grated-pedo-7643
+#FLUX: --urgency=16
 
 export MPIP='-t 10.0'
 export SPACK_ROOT='$HOME/spack'

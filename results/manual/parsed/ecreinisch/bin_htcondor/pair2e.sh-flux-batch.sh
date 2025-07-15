@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-malarkey-2948
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-general-2080
+#FLUX: --urgency=16
 
 if [ ! "$#" -eq 12 ]; then
 	echo "$0 needs 12 arguments. Found only $#"

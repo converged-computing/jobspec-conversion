@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="Pawar_256"
+#FLUX: --job-name=Pawar_256
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load openmpi/intel/4.0.5 

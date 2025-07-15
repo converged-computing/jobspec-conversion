@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-butter-1376
+#FLUX: --job-name=goodbye-cupcake-8001
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NPROCS=16
 NPPERSOC=$(($NPROCS>>2))

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-platanos-1469
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-malarkey-9339
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MikkelGodsk/ImageClassificationWithSymbolicHints/jobscript.sh

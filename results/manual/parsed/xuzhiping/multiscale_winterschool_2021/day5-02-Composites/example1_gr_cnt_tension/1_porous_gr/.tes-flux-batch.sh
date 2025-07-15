@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-underoos-9995
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-pedo-8376
+#FLUX: --urgency=16
 
 module load compiles/intel/2019/u4/config
 exe="/apps/soft/lammps/lammps-7Aug19/e5_2680v4/opa/lammps-7Aug19/src/lmp_mpi"

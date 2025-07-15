@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cifar_train
 #FLUX: --queue=cbmm
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /om/user/scasper/workspace/
 singularity exec -B /om:/om --nv /om/user/xboix/singularity/xboix-tensorflow1.14.simg \

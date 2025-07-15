@@ -2,7 +2,7 @@
 #FLUX: --job-name=ViromeDiscovery
 #FLUX: -c=8
 #FLUX: -t=21540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/scratch/hb-llnext/tools/mmseqs/bin/:$PATH'
 

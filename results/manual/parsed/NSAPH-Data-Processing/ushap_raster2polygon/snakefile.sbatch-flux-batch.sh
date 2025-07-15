@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-punk-8132
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-peanut-8165
+#FLUX: --urgency=16
 
 snakemake --cores 1

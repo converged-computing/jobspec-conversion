@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="rqT"
+#FLUX: --job-name=rqT
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Singularity
 module load CUDA/10.2.89

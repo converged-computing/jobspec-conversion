@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-gato-7527
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-lamp-6953
+#FLUX: --urgency=16
 
 module load cuda
 module load anaconda

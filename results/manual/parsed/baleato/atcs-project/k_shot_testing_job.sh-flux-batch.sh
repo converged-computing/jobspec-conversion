@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="k_shot"
+#FLUX: --job-name=k_shot
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared_course
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/hpc/eb/Debian9/cuDNN/7.1-CUDA-8.0.44-GCCcore-5.4.0/lib64:$LD_LIBRARY_PATH'
 

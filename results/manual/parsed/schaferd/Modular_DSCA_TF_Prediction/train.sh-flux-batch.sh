@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-fork-5813
+#FLUX: --job-name=rainbow-malarkey-3200
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source params.sh
 HOME2=/nobackup/users/$(whoami)

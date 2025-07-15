@@ -2,7 +2,7 @@
 #FLUX: --job-name=bug_test
 #FLUX: -c=4
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 

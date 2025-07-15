@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-platanos-4519
+#FLUX: --job-name=hairy-knife-0653
 #FLUX: --queue=general-compute
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME='$SLURMTMPDIR'
 export TMP='$SLURMTMPDIR'

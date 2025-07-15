@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-spoon-9696
+#FLUX: --job-name=astute-egg-3722
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load utilities/multi

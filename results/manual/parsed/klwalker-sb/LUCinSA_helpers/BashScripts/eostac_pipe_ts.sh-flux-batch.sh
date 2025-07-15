@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="stpipe_ts"
-#FLUX: --priority=16
+#FLUX: --job-name=stpipe_ts
+#FLUX: --urgency=16
 
 export OPENBLAS_NUM_THREADS='1'
 export MKL_NUM_THREADS='1'

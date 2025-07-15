@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-fork-6354
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-leader-0932
+#FLUX: --urgency=16
 
 export TOIL_SLURM_ARGS='--export=ALL --job-name delaycal -p normal'
 export SING_USER_DEFINED_PATH='$PTH'

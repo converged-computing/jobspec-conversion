@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-malarkey-0344
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-pedo-8005
+#FLUX: --urgency=16
 
 source ensembles.sh
 momtype() {

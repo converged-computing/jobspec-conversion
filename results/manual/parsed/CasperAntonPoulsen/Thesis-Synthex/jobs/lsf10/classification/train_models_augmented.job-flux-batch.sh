@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-truffle-6325
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-bicycle-3637
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CasperAntonPoulsen/Thesis-Synthex/jobs/lsf10/classification/train_models_augmented.job

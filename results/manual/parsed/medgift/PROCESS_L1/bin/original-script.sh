@@ -1,26 +1,26 @@
 #!/bin/bash -l
 # -*- mode: shell-script -*-
 ################################################################################
-# runner-slurm_rnd_seed: cnn runner for SLURM with random seed --
-# proof-of-concept for testing parallel patch extraction as patch coordinates
-# are sampled over a uniform distribution.
+# runner-onep-mrnd: cnn runner for SLURM with one patient/process (or
+# patient/CPU) plus random seed sweep per patient.
 #
 # Use a job array where each task is scheduled automatically on a (possibly)
-# different node/CPU
+# different node/CPU. Subtask are launched in parallel over several CPU cores
 ################################################################################
 # For copyright see the `LICENSE` file.
 #
 # This file is part of PROCESS_UC1.
 ################################################################################
 # Slurm batch control
-#SBATCH --job-name=cnn-extr_rnd_seed
+#SBATCH --job-name=cnn-extr_onep-mrnd
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=10          # must equal the random seed range stop + 1
 #SBATCH --mem-per-cpu=5GB
 #SBATCH --time=01:00:00
 #SBATCH --account=process2
 #SBATCH --partition=plgrid-testing
-#SBATCH --array=0-9
+#SBATCH --array=0-4                 # must equal the number of patient cases / slides
 #SBATCH --error=%x-%A_%3a.err
 #SBATCH --output=%x-%A_%3a.out
 #SBATCH --mail-type=END,FAIL
@@ -53,12 +53,19 @@ SLURM_SUBMIT_DIR=${EXPERIMENT_ROOT}/scratch
 RESULTS_DIR=${SLURM_SUBMIT_DIR}/${SLURM_JOB_NAME}
 
 mkdir -p $RESULTS_DIR
-echo 'Directory names: <MMDD>.<slurm-job-id>.<slurm-task-id>' > ${RESULTS_DIR}/README
+cat > ${RESULTS_DIR}/README <<EOF
+Directory names:
+
+  <MMDD>.<slurm-job-id>.<slurm-task-id>.<subtask-id>
+
+where
+
+  <subtask-id> := random seed
+EOF
 
 run_id=$(printf '%03d' $SLURM_ARRAY_TASK_ID)
 srun_id=${SLURM_ARRAY_JOB_ID}.${run_id}
 myself=${SLURM_JOB_NAME}.${srun_id}
-results_dir=${RESULTS_DIR}/${TSTAMP}.${srun_id}
 
 ################################################################################
 # modules
@@ -90,9 +97,37 @@ PROCESS_UC1__HAS_TENSORFLOW=
 
 export PYTHONPATH PROCESS_UC1__HAS_SKIMAGE_VIEW PROCESS_UC1__HAS_TENSORFLOW
 
-# no container support for now, take stuff under ~/myroot/bin + Git clone
-# dir. Executable is on $PATH, no need to ppek in the ${EXPERIMENT_ROOT} dir
-cmnd="cnn --config-file=${CONF_DIR}/config.${SLURM_JOB_NAME}.ini --results-dir=${results_dir} --seed=${SLURM_ARRAY_TASK_ID} --log-level=debug extract"
+# The size should correspond to that of the slurm's job array. A bit fragile
+# as we don't know how may files are there... Be careful!
+declare -a patients
+patients=($(ls --color=none ${DATA_DIR}/lesion_annotations/ | sed -nr 's/\.xml// p'))
 
-echo -e "[INFO] ${myself}: command line:\n    ${cmnd}"
-eval $cmnd
+[[ $patients ]] || {
+    echo >&2 "[ERROR] ${myself}: no patient found in ${DATA_DIR}/lesion_annotations/"
+    exit 1
+}
+# uhm, any better way to bail out from scheduling?
+patient=${patients[${SLURM_ARRAY_TASK_ID}]}
+[[ $patient ]] || {
+    echo >&2 "[WARN] ${myself}: no patient found at index '${SLURM_ARRAY_TASK_ID}'. Skipping..."
+    exit 0
+}
+
+# no container support for now, take stuff under ~/myroot/bin + Git clone
+# dir. Executable is on $PATH, no need to peek in the ${EXPERIMENT_ROOT} dir
+# Make sure that the set upper bound *equals* `$(--cpus-per-task)-1`
+for s in $(seq 0 9); do
+    stask_id=$(printf '%02d' $s)
+    results_dir=${RESULTS_DIR}/${TSTAMP}.${srun_id}.${stask_id}
+
+    cmnd="cnn --config-file=${CONF_DIR}/config.${SLURM_JOB_NAME}.ini --results-dir=${results_dir} --log-level=debug --patients=${patient} --seed=${s} extract"
+
+    echo -e "[INFO] ${myself}: command line:\n    ${cmnd}"
+    srun $cmnd || {
+        echo 2>&1 "[ERROR] ${myself}: ${win_start}-${win_end}: subtask failed"
+        ((errs++))
+    }
+done
+
+
+exit $errs

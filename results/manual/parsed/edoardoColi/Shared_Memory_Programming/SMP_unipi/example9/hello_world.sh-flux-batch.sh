@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lamp-8726
+#FLUX: --job-name=evasive-latke-5192
 #FLUX: --queue=normal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun /bin/hostname
 echo "running with srun on 4 nodes:"

@@ -3,7 +3,7 @@
 #FLUX: -c=96
 #FLUX: --queue=stsi
 #FLUX: -t=2160000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load pytorch/1.7.1py38-cuda

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-staircase-5941
+#FLUX: --job-name=buttery-leopard-1425
 #FLUX: -c=8
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load python
 ml load scipy-stack

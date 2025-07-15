@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-milkshake-6451
-#FLUX: --priority=16
+#FLUX: --job-name=milky-kerfuffle-7756
+#FLUX: --urgency=16
 
 export PYTHONPATH='$HOME/pythonpackages/lib/python2.7/site-packages:$PYTHONPATH'
 export THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1' '

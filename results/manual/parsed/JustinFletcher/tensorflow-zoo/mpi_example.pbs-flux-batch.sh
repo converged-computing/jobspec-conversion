@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-kerfuffle-6521
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-cat-7892
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JustinFletcher/tensorflow-zoo/mpi_example.pbs

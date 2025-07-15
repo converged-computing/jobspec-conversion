@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="mnist-wgan"
+#FLUX: --job-name=mnist-wgan
 #FLUX: --queue=EPICALL
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROJECT='CompressedDNN'
 

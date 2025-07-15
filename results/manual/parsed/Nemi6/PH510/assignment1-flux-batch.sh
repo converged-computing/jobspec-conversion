@@ -3,7 +3,7 @@
 #FLUX: -n=80
 #FLUX: --queue=teaching
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
   module purge
   module load nvidia/sdk/21.3

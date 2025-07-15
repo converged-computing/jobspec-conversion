@@ -2,7 +2,7 @@
 #FLUX: --job-name=20201206_cgig_fastp-10bp-5-3-prime_ploidy-pH-wgbs
 #FLUX: --queue=coenv
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 threads=27
 trimmed_checksums=trimmed_fastq_checksums.md5

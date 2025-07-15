@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-leopard-1545
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-avocado-4406
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MortenEneberg/Nanopore_WGS/code/submit_pbs.sh

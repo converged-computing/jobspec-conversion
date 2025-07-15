@@ -4,7 +4,7 @@
 #FLUX: -c=48
 #FLUX: --queue=ce-mri
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_P2P_DISABLE='1  # IN AMD+A100 cluster'
 export MASTER_PORT='$(((RANDOM % 1000 + 5000)))'

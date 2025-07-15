@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pedo-4950
-#FLUX: --priority=16
+#FLUX: --job-name=faux-signal-3172
+#FLUX: --urgency=16
 

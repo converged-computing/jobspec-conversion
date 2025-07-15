@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cattywampus-7660
+#FLUX: --job-name=pusheena-punk-0079
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='${PATH}:/home/b.weinstein/miniconda/envs/crowns/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda/envs/crowns/lib/python3.7/site-packages/'

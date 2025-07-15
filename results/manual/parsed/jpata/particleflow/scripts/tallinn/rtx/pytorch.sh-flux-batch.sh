@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-gato-6771
+#FLUX: --job-name=creamy-lamp-9165
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 IMG=/home/software/singularity/pytorch.simg:2024-03-11
 singularity exec -B /scratch/persistent --nv \

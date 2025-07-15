@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lemur-4064
+#FLUX: --job-name=swampy-arm-1852
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$JAMG_PATH/3rd_party/transdecoder/util/lib64/'
 

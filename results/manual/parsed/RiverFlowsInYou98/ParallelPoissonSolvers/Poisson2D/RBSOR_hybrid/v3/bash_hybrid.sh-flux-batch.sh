@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-poo-9632
+#FLUX: --job-name=adorable-destiny-9374
 #FLUX: -n=16
 #FLUX: -c=2
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

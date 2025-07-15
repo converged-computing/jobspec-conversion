@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-animal-7149
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-bike-3699
+#FLUX: --urgency=16
 
 cd /om2/user/avbalsam/prednet
 hostname

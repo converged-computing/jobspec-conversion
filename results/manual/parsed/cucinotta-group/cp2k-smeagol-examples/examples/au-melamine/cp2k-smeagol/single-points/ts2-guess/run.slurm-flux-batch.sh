@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-truffle-5081
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-frito-3346
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/single-points/ts2-guess/run.slurm

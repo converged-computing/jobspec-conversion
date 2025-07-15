@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-pot-8374
-#FLUX: --priority=16
+#FLUX: --job-name=arid-rabbit-8570
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/apps/cuda9_0/cudnn/7.0/lib64 '
 

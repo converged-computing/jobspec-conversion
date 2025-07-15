@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pastry-9549
-#FLUX: --priority=16
+#FLUX: --job-name=tart-butter-9478
+#FLUX: --urgency=16
 
 export WANDB_TAGS='${MODEL_NAME},${TASK_NAME}'
 

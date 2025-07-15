@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-gato-5796
-#FLUX: --priority=16
+#FLUX: --job-name=fat-peas-2384
+#FLUX: --urgency=16
 

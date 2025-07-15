@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-pastry-2018
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-hope-7197
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Edward2017/REANN/reann/example/NMA/job-mpi.sh

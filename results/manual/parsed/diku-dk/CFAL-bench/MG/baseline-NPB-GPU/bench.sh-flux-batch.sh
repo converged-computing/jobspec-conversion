@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-general-4685
+#FLUX: --job-name=pusheena-spoon-6516
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-snack-4941
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-spoon-3254
+#FLUX: --urgency=16
 
 set -e
 module load gcc/6.2.0

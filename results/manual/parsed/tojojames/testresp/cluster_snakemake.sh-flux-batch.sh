@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=your_partition
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 A Snakefile along with a Slurm cluster configuration that uses a Slurm array for job parallelization. This Snakefile will run multiple tasks in parallel using Snakemake and Slurm's `sbatch`:
 **Snakefile**:

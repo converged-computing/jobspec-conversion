@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-underoos-2990
+#FLUX: --job-name=placid-frito-6778
 #FLUX: -c=48
 #FLUX: --exclusive
 #FLUX: --queue=rome
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2022
 module load GROMACS/2021.6-foss-2022a

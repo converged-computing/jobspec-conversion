@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-frito-4871
+#FLUX: --job-name=buttery-banana-6180
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 Workdir=.
 SSUsearch=ssusearch

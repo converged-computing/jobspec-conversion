@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-punk-6901
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-snack-9650
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dair-iitd/OxKBC/sm/hpc_scripts/gs_fb15k_3runs/multi_job_0.sh

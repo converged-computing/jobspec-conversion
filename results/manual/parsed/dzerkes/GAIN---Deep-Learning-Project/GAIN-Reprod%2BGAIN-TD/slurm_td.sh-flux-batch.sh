@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="Team 1 - imputation original (tanh) GAIN"
+#FLUX: --job-name=Team 1 - imputation original (tanh) GAIN
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export NUM_THREADS='$SLURM_CPUS_PER_TASK'

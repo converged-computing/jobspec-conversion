@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-butter-3956
+#FLUX: --job-name=blank-cat-0057
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu
 module load lib/NCCL/2.12.12-GCCcore-11.3.0-CUDA-11.7.0

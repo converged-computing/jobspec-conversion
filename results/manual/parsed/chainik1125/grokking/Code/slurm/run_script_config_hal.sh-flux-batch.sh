@@ -2,7 +2,7 @@
 #FLUX: --job-name=lr
 #FLUX: --queue=IllinoisComputes-GPU
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/2023-Mar/3
 module load cuda/11.7

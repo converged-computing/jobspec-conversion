@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-cat-7582
+#FLUX: --job-name=stinky-platanos-2225
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo PROJECT_DIR=${PROJECT_DIR}
 cd ${PROJECT_DIR}

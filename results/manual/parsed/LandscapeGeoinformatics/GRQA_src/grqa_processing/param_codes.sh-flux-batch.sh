@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-peanut-butter-4162
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-chip-9123
+#FLUX: --urgency=16
 
 cd /gpfs/terra/export/samba/gis/holgerv/river_quality/scripts/grqa_processing
 module purge

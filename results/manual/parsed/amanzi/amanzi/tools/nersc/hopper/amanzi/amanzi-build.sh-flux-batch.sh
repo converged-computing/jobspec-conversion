@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bits-1966
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-knife-0464
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/amanzi/amanzi/tools/nersc/hopper/amanzi/amanzi-build.sh

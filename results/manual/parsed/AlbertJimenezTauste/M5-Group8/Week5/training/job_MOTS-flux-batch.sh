@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-salad-5186
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-buttface-3005
+#FLUX: --urgency=16
 
 python MOTS-train.py -p mlow

@@ -2,7 +2,7 @@
 #FLUX: --job-name=vi_ensemble
 #FLUX: -c=17
 #FLUX: -t=1380
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd;
 nvidia-smi

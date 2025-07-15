@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-lettuce-7061
+#FLUX: --job-name=phat-hobbit-4913
 #FLUX: -N=2
 #FLUX: --queue=devel
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /usr/local/software/jureca/OtherStages
 module load Stages/Devel-2019a

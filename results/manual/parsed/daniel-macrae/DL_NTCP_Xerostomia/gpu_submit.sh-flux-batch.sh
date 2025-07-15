@@ -2,7 +2,7 @@
 #FLUX: --job-name=Xerostomia_1
 #FLUX: --queue=gpu
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load Python/3.11.3-GCCcore-12.3.0

@@ -2,7 +2,7 @@
 #FLUX: --job-name=FEP
 #FLUX: --queue=short_mdbf
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INPUT_FILE="tmpp_i94l-a26t-w30g_150ns_eq.conf"
 source /etc/profile.d/modules.sh

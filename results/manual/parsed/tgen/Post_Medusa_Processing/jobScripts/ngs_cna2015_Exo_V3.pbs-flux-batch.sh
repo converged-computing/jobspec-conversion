@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="cna2015_exo"
+#FLUX: --job-name=cna2015_exo
 #FLUX: -c=2
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PERL5LIB='$PERL5LIB:/home/jaldrich/perl5/lib/perl5:/usr/lib64/perl5/vendor_perl'
 export MCR_CACHE_ROOT='${TD}/TempDir'

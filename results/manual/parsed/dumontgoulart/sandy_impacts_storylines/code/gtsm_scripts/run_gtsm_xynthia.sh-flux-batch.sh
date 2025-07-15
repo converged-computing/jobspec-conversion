@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gtsm_xynthia_2010
 #FLUX: -t=37800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export purpose='GTSMv3.0 - ERA5 run near-realtime for Sea Level Monitor'
 

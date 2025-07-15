@@ -3,7 +3,7 @@
 #FLUX: -c=20
 #FLUX: --queue=normal
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module use /cm/shared/modulefiles

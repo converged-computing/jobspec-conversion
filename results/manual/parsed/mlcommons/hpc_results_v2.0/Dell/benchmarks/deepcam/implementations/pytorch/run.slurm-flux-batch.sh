@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mlperf-hpc:deepcam
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load shared

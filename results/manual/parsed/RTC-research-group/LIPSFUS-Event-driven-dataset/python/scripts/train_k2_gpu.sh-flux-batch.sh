@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=NN_trainner
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add libs/nvidia-cuda/11.0.3/bin
 module add apps/anaconda3/5.2.0/bin

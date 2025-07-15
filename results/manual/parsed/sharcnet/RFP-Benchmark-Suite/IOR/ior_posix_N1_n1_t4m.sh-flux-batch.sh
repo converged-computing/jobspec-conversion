@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-toaster-5507
-#FLUX: --priority=16
+#FLUX: --job-name=confused-malarkey-9645
+#FLUX: --urgency=16
 
 FS=scratch
 CASE="posix" # e.g. posix.odirect-F

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lemon-8141
+#FLUX: --job-name=scruptious-buttface-0427
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME='$SANDBOX'
 export PSM2_MULTI_EP='1'

@@ -3,7 +3,7 @@
 #FLUX: -c=24
 #FLUX: --queue=commons
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CHPL_LAUNCHER='slurm-gasnetrun_ibv'
 export GASNET_PHYSMEM_MAX='1G'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pot-2780
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-leopard-4456
+#FLUX: --urgency=16
 
 module purge # ensures vanilla environment
 module load lang/R # will load most current version of R

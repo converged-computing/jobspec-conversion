@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pot-1175
-#FLUX: --priority=16
+#FLUX: --job-name=hello-hobbit-8998
+#FLUX: --urgency=16
 
 export AGALMA_DB='/gpfs/data/cdunn/analyses/agalma-siphonophora-20170501_reduced.sqlite'
 export BIOLITE_RESOURCES='threads=${SLURM_CPUS_ON_NODE},memory=${SLURM_MEM_PER_NODE}M'

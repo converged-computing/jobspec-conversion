@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="CCBRPipeline"
+#FLUX: --job-name=CCBRPipeline
 #FLUX: -c=2
-#FLUX: --queue="norm"
+#FLUX: --queue=norm
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='/data/gangalapudiv2/singularity'
 

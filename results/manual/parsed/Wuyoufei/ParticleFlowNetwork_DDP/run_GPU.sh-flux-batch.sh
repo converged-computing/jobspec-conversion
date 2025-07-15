@@ -2,7 +2,7 @@
 #FLUX: --job-name=my_pfn
 #FLUX: -n=2
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
  ulimit -d unlimited
  ulimit -f unlimited

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-peanut-butter-6746
+#FLUX: --job-name=hairy-omelette-3984
 #FLUX: -c=2
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 singularity exec -B ../SMARTS-lite:/SMARTS-lite --env DISPLAY=$DISPLAY,PYTHONPATH=/SMARTS-lite/ultra:/SMARTS-lite:$PYTHONPATH --home /SMARTS-lite/ultra ../smarts-0416_singularity.sif python ultra/hammer_train.py --task 0-3agents --level easy --policy ppo,ppo,ppo --headless

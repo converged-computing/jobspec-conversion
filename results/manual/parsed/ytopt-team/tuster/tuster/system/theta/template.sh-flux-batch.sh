@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-cinnamonbun-1268
-#FLUX: --priority=16
+#FLUX: --job-name=salted-diablo-6907
+#FLUX: --urgency=16
 

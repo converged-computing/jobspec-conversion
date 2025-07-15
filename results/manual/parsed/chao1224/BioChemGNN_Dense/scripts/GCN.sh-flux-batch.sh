@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-fork-3351
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-fudge-2994
+#FLUX: --urgency=16
 
 export task='$1'
 export model='$2'

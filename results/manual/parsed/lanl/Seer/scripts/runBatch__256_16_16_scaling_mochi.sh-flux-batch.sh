@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-general-2424
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-underoos-1519
+#FLUX: --urgency=16
 
 export MPIP='-t 10.0'
 export SPACK_ROOT='$HOME/spack'

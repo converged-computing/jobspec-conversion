@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-peanut-butter-1798
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-cherry-6956
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ornlneutronimaging/acumen/tomography/sino_run.pbs

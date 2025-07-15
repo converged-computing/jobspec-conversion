@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-caramel-4332
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-toaster-2567
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/daandouwe/neural-ngram/4-jobs.sh

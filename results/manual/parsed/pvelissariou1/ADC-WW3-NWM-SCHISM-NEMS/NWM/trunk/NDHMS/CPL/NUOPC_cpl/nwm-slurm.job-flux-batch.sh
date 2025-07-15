@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-milkshake-8690
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-destiny-6281
+#FLUX: --urgency=16
 
                               # this deadline (start > (deadline - time[-min]))
                               # descriptor to export

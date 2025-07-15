@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-blackbean-1231
+#FLUX: --job-name=hello-lemur-2702
 #FLUX: --queue=intel
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPIRUN='mpirun -np 20'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chair-3409
+#FLUX: --job-name=milky-nunchucks-2665
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='20 # 20 == single socket'
 

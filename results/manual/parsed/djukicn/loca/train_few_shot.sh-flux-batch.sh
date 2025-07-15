@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$master_addr'
 export MASTER_PORT='50188'

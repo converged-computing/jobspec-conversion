@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-cinnamonbun-9204
+#FLUX: --job-name=salted-itch-6349
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/cs/labs/daphna/avihu.dekel/DALLE-pytorch:/cs/labs/daphna/avihu.dekel/stylegan2'
 

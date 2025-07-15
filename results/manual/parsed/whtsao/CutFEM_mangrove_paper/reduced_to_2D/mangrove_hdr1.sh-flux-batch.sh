@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lemur-8331
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-cherry-8935
+#FLUX: --urgency=16
 
 date
 module purge

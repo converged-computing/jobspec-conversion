@@ -2,7 +2,7 @@
 #FLUX: --job-name=Container_Gromacs
 #FLUX: --queue=gpuq
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load shifter
 srun --export=all shifter run nvcr.io/hpc/gromacs:2018.2 gmx grompp -f pme.mdp

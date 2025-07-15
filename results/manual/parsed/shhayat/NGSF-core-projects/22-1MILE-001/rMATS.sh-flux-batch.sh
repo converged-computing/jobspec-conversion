@@ -2,7 +2,7 @@
 #FLUX: --job-name=rMATS
 #FLUX: -c=10
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load star
 rmat=/globalhome/hxo752/HPC/anaconda3/envs/rMATS/bin

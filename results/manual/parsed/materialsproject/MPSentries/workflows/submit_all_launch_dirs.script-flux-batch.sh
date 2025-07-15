@@ -2,7 +2,7 @@
 #FLUX: --job-name=all_launch_dirs
 #FLUX: --queue=matgen_prior
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload python
 module unload virtualenv

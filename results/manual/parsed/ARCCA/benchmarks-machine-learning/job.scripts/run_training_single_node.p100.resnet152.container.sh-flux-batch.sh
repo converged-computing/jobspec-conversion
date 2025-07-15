@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-signal-7524
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-peanut-butter-0424
+#FLUX: --urgency=16
 
 set -eu
 module purge

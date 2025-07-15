@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-hippo-6208
-#FLUX: --priority=16
+#FLUX: --job-name=hello-bits-2736
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='2'
 

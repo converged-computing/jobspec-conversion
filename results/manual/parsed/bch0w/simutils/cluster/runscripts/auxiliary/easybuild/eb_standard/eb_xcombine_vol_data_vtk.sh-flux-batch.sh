@@ -2,7 +2,7 @@
 #FLUX: --job-name=combine_vol_data_vtk
 #FLUX: --queue=nesi_research
 #FLUX: -t=30
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 COMPILER=SPECFEM3D/20190730-CrayCCE-19.04
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

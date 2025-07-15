@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-salad-2917
-#FLUX: --priority=16
+#FLUX: --job-name=fat-leader-3098
+#FLUX: --urgency=16
 
 wd_dir="/tigress/abeukers/wd/w2v"
 module load anaconda3/4.4.0

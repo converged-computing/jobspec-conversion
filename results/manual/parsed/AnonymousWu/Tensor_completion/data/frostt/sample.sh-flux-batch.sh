@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-punk-1129
-#FLUX: --priority=16
+#FLUX: --job-name=salted-noodle-2082
+#FLUX: --urgency=16
 
 export CTF_PPN='64'
 export OMP_NUM_THREADS='1'

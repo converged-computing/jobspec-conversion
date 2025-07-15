@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=phat-house-5201
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-citrus-0368
+#FLUX: --urgency=16
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=YFTF_Chipseq
 #FLUX: -t=39600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 echo "Lets go"

@@ -2,7 +2,7 @@
 #FLUX: --job-name=RFP_LAMBO
 #FLUX: -c=6
 #FLUX: -t=302400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 HOME_DIR=/home/pcq275/
 LAMBO_DIR=${HOME_DIR}/lambo/

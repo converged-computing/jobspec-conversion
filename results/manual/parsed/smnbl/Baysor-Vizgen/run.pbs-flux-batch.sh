@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-animal-4391
-#FLUX: --priority=16
+#FLUX: --job-name=astute-underoos-9484
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/smnbl/Baysor-Vizgen/run.pbs

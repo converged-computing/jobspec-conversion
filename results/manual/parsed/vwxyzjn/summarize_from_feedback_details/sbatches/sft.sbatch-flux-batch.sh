@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-carrot-3814
+#FLUX: --job-name=hairy-parsnip-2382
 #FLUX: --gpus-per-task=8
 #FLUX: --exclusive
 #FLUX: --queue=hopper-prod
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_TAGS='refactor-chosen-rejected3,no-tag-$(git rev-parse --short HEAD)'
 

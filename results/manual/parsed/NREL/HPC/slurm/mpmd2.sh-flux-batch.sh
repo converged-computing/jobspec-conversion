@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="sample"
+#FLUX: --job-name=sample
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_HOSTFILE='hostlist'
 

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-gato-6135
+#FLUX: --job-name=conspicuous-malarkey-7134
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --exclusive
 #FLUX: --queue=haswell
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MERIC_MODE='3'
 export MERIC_DEBUG='0'

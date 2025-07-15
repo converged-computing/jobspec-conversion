@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leopard-4021
+#FLUX: --job-name=wobbly-rabbit-6687
 #FLUX: -N=20
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export WM_MPLIB='SYSTEMMPI'

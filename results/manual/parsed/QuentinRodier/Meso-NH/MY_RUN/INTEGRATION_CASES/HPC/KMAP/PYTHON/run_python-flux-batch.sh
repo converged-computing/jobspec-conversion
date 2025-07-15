@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-train-2055
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-kitty-0441
+#FLUX: --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

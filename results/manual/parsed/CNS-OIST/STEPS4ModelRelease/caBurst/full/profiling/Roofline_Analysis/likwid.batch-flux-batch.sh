@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-pedo-6399
+#FLUX: --job-name=boopy-rabbit-4949
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$STEPS_INSTALL_DIR:$PYTHONPATH'
 export STEPS_INSTRUMENTOR_MPI_BARRIER='before;after'

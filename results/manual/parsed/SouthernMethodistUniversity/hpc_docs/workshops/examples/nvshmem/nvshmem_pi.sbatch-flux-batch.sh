@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-noodle-8418
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-lizard-0233
+#FLUX: --urgency=16
 
 echo $SLURM_JOB_PARTITION
 module purge

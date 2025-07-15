@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-punk-3787
+#FLUX: --job-name=salted-caramel-1031
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BIN_DIR='/global/common/software/atom/cori/binaries'
 

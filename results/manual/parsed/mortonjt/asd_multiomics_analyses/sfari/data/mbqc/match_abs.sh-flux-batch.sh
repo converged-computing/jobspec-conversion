@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-motorcycle-3416
+#FLUX: --job-name=chocolate-lemur-6348
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TBB_CXX_TYPE='gcc'
 

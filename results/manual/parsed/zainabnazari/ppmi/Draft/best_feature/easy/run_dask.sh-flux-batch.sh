@@ -3,7 +3,7 @@
 #FLUX: -c=3
 #FLUX: --queue=regular2
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load  gnu8/8.3.0  openmpi3/3.1.4 

@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=general
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load openmpi/nb2qima72b5usivgbcdbkwn5ivmcwlxk
 mpirun -n 1 all_to_all 0

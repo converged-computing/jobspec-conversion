@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=modeltrainer
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 enable_lmod
 module load container_env pytorch-gpu/1.9.0

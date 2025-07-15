@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cal_face
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 nvidia-smi -q |grep -i serial

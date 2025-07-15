@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-citrus-2076
-#FLUX: --priority=16
+#FLUX: --job-name=salted-train-6341
+#FLUX: --urgency=16
 
 module load singularity # this is for singularity
 ulimit -n 40000 # this is for singularity and large memory jobs, you could change 40000 to suitable numbers

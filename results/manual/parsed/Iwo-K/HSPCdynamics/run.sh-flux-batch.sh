@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=test3
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 container="PATH TO THE CONTAINER"
 container="/home/idk25/ik_rds/containers/rpy_v4/rpy_v4_p3_fix2.sif"

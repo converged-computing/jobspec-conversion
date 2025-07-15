@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-parsnip-9810
+#FLUX: --job-name=lovely-chip-7825
 #FLUX: -c=18
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2022
 module load Python/3.10.4-GCCcore-11.3.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-kitty-3760
+#FLUX: --job-name=quirky-malarkey-8346
 #FLUX: -c=10
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_CUDA_SUPPORT='0'

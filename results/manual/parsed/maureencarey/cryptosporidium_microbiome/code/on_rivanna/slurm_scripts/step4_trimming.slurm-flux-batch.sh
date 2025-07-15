@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-omelette-0795
+#FLUX: --job-name=lovely-chip-0937
 #FLUX: --queue=standard
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc bbmap

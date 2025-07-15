@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="F182Ap_fwd"
+#FLUX: --job-name=F182Ap_fwd
 #FLUX: -c=8
 #FLUX: --queue=mf_nes2.8
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pdbfile="15183_04-F182A.pdb"
 psffile="15183_04-F182A.psf"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-malarkey-3994
+#FLUX: --job-name=crusty-house-5605
 #FLUX: --queue=ci
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SCENARIO=$1
 N_AGENTS=$2

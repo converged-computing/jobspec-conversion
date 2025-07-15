@@ -3,7 +3,7 @@
 #FLUX: -c=80
 #FLUX: --queue=learnfair
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='${SLURM_JOB_NODELIST:0:9}${SLURM_JOB_NODELIST:10:4}'
 export MASTER_PORT='29500'

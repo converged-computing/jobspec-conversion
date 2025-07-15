@@ -2,7 +2,7 @@
 #FLUX: --job-name=benchmarking
 #FLUX: -c=4
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pretraining=gassl-resnet50
 datasets=("geobench.m-bigearthnet" "geobench.m-so2sat")

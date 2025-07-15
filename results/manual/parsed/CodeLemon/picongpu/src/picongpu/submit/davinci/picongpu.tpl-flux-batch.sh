@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-carrot-1474
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-platanos-3512
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CodeLemon/picongpu/src/picongpu/submit/davinci/picongpu.tpl

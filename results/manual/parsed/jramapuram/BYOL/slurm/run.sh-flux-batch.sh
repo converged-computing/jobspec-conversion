@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=SimCLR
 #FLUX: -c=2
-#FLUX: --queue=<MY_PARTITIONS_HERE>                              # Fill this in!
+#FLUX: --queue=<MY_PARTITIONS_HERE>
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $CUDA_VISIBLE_DEVICES
 module load GCCcore/8.2.0 Singularity/3.4.0-Go-1.12 CUDA/10.1.243     # load corresponding modules based on your cluster

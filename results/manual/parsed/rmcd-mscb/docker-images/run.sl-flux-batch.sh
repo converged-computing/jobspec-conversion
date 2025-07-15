@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cinnamonbun-1551
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-poo-6522
+#FLUX: --urgency=16
 
 set -a
 . ./nhm.env

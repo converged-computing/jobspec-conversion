@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-latke-6239
+#FLUX: --job-name=rainbow-plant-1951
 #FLUX: --queue=campus
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load bzip2/1.0.8  intel-compilers/2021.2.0

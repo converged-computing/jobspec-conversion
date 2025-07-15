@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-toaster-4115
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-arm-1388
+#FLUX: --urgency=16
 
 cd ~/measles/code/
 module load R

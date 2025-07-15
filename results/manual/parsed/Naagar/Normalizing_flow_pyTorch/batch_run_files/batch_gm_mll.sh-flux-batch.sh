@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-puppy-5412
+#FLUX: --job-name=dirty-milkshake-4996
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cudnn/7-cuda-10.0
 source venv/bin/activate

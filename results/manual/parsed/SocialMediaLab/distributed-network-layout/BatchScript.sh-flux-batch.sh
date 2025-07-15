@@ -3,7 +3,7 @@
 #FLUX: -N=20
 #FLUX: -c=5
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKL_NUM_THREADS='1'
 export SPARK_IDENT_STRING='$SLURM_JOBID'

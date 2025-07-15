@@ -2,7 +2,7 @@
 #FLUX: --job-name=cas9_nvt
 #FLUX: -c=16
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 

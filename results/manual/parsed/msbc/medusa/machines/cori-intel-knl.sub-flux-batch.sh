@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-house-9099
-#FLUX: --priority=16
+#FLUX: --job-name=hello-platanos-3247
+#FLUX: --urgency=16
 
 export GMON_OUT_PREFIX='gmon.out'
 export OMP_NUM_THREADS='@NUM_THREADS@'

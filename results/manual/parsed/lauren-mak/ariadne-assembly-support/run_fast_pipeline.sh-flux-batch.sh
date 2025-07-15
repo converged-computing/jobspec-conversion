@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-noodle-8143
+#FLUX: --job-name=grated-buttface-9720
 #FLUX: -n=30
 #FLUX: --queue=panda
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PREFIX="/athena/ihlab/scratch/lam4003/microbiome_reads/${1}_bsort"
 spack load gcc@6.3.0

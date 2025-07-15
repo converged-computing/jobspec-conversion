@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-arm-2787
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-signal-9084
+#FLUX: --urgency=16
 
 source ~/.bash_profile
 init_conda

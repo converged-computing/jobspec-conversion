@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-pedo-8776
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-truffle-6237
+#FLUX: --urgency=16
 

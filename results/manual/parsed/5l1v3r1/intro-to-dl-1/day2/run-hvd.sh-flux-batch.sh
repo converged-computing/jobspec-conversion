@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-peanut-butter-0975
+#FLUX: --job-name=dinosaur-buttface-5381
 #FLUX: -n=2
 #FLUX: -c=10
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATADIR='/scratch/project_2003959/data'
 export KERAS_HOME='/scratch/project_2003959/keras-cache'

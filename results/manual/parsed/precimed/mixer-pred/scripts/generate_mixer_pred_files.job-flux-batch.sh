@@ -2,7 +2,7 @@
 #FLUX: --job-name=MiXeR_Pred
 #FLUX: -c=16
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MIXER_OUT_PREFIX='$1'
 

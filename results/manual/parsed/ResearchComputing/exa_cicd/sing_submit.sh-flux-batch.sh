@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-noodle-8434
+#FLUX: --job-name=purple-kitty-4780
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MFIX='/app/mfix/build/mfix/mfix'
 export WD='/scratch/summit/holtat/sing'

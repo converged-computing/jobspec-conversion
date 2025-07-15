@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-buttface-9279
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-puppy-6229
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export CRAY_ACCEL_TARGET='nvidia80'

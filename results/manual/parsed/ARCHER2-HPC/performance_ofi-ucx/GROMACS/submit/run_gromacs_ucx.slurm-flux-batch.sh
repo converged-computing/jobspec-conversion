@@ -4,7 +4,7 @@
 #FLUX: -c=4
 #FLUX: --queue=standard
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${CRAY_LD_LIBRARY_PATH}:${LD_LIBRARY_PATH}'
 export PATH='/work/z19/z19/wlucas/cug22-bench/sw/gromacs/2021.5/bin:${PATH}'

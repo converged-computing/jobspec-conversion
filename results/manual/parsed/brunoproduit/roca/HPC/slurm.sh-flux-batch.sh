@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-fudge-0645
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-lemur-8265
+#FLUX: --urgency=16
 
 module load python-2.7.13
 module load sage-6.1.1 

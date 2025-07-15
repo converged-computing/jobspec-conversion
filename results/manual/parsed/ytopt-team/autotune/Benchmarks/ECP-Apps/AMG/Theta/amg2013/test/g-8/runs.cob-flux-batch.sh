@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leader-6909
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-chip-3303
+#FLUX: --urgency=16
 

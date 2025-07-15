@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-snack-1317
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-caramel-4269
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BiOmicsLab/TransImbAMP/execute.lsf

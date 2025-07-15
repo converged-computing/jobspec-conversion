@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-kerfuffle-8083
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-egg-5774
+#FLUX: --urgency=16
 
 export EXE='run_ytopt.py'
 export COMMS='--comms local'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=filter_vcfs
 #FLUX: --queue=general
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 date

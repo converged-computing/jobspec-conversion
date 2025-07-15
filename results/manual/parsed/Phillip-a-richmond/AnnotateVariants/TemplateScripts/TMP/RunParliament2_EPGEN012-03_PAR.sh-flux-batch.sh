@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-chair-4885
+#FLUX: --job-name=spicy-staircase-0676
 #FLUX: -c=40
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 ANNOTATEVARIANTS_INSTALL=/mnt/common/WASSERMAN_SOFTWARE/AnnotateVariants/

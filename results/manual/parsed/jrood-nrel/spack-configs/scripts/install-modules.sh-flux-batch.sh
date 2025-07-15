@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-soup-3260
-#FLUX: --priority=16
+#FLUX: --job-name=angry-cupcake-7202
+#FLUX: --urgency=16
 
 export SPACK_ROOT='${INSTALL_DIR}/spack'
 export SPACK_DISABLE_LOCAL_CONFIG='true'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-snack-7014
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-signal-2498
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/h-roy/geometric-laplace/sampler_resnet.sh

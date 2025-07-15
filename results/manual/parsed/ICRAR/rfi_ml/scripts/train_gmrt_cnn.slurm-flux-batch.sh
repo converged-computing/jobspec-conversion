@@ -2,7 +2,7 @@
 #FLUX: --job-name=gmrt_cnn
 #FLUX: --queue=gpuq
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load use.own
 module load broadwell gcc/5.4.0 cuda python magma cffi

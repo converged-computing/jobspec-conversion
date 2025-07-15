@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ParrLO
 #FLUX: -c=24
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.1.1
 module load cmake/3.20.3

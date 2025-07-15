@@ -2,7 +2,7 @@
 #FLUX: --job-name=YAMP
 #FLUX: --queue=compute
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if test "$#" -ne 4; then
     echo "Script requires 4 parameters:"

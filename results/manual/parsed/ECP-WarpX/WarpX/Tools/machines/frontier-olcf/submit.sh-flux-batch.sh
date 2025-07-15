@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cupcake-7531
+#FLUX: --job-name=hanky-caramel-2919
 #FLUX: -c=7
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'
 export MPICH_SMP_SINGLE_COPY_MODE='NONE'

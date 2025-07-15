@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-carrot-1951
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-buttface-6816
+#FLUX: --urgency=16
 
 export machine='WCOSS_DELL_P3'
 export PSLOT='fv3test'

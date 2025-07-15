@@ -2,7 +2,7 @@
 #FLUX: --job-name=borg_input_file
 #FLUX: --exclusive
 #FLUX: -t=504000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='5'
 

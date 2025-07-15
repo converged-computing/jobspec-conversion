@@ -5,7 +5,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 echo "start RE..."

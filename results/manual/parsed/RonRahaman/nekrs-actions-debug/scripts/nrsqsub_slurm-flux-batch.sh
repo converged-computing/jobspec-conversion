@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="nekRS"
+#FLUX: --job-name=nekRS
 #FLUX: -c=32
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NEKRS_HOME='${HOME}/.local/nekrs'
 export OCCA_CXX='g++'

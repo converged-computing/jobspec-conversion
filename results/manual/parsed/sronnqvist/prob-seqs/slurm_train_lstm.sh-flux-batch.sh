@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-squidward-3407
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-fudge-8661
+#FLUX: --urgency=16
 
 export DATA_DIR='data'
 export OUTPUT_DIR='output'

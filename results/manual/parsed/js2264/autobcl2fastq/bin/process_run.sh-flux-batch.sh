@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-platanos-8035
+#FLUX: --job-name=phat-truffle-5812
 #FLUX: -c=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load bcl2fastq/2.20.0

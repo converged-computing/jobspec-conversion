@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-squidward-9604
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-mango-9715
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-install/bin'
 

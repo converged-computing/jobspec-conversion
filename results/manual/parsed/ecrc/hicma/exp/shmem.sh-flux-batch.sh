@@ -2,7 +2,7 @@
 #FLUX: --job-name=hicma-dev
 #FLUX: -c=32
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export STARPU_CALIBRATE='0'
 

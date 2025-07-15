@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-taco-7842
-#FLUX: --priority=16
+#FLUX: --job-name=angry-parrot-0504
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/carlochess/uchuva/vagrant/torque/pruebas/example

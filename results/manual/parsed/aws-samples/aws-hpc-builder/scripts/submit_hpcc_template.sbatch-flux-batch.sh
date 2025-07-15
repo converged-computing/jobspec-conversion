@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-caramel-1092
+#FLUX: --job-name=sticky-kerfuffle-6219
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=arm8xlarge
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HPCC_VERSION='1.5.0'
 export OMP_NUM_THREADS='1'

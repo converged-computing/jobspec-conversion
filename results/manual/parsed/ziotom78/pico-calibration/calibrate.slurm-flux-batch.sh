@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=pico-calibration
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH=''
 

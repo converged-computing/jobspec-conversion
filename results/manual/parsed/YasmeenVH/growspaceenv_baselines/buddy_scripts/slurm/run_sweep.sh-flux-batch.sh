@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=long
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=/cvmfs/ai.mila.quebec/apps/x86_64/common/cuda/10.1/'
 

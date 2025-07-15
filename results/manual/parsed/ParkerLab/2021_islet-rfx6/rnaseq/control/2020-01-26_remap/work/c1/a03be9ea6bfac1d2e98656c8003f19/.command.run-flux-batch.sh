@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-mango-2392
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-hobbit-8856
+#FLUX: --urgency=16
 
 set -e
 set -u

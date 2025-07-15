@@ -2,7 +2,7 @@
 #FLUX: --job-name=kw_selec
 #FLUX: --queue=small
 #FLUX: -t=11700
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir -p logs
 rm logs/current.err

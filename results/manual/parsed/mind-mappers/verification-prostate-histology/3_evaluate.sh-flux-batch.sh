@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-cattywampus-3902
+#FLUX: --job-name=chocolate-knife-6289
 #FLUX: --queue=teaching
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 toanalyze="att10_unmaskedgood"
 model_name="model"

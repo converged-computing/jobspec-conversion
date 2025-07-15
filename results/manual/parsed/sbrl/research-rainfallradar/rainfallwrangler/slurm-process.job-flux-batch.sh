@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-egg-5996
+#FLUX: --job-name=crunchy-lamp-3748
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$HOME/software/bin:$PATH;'
 

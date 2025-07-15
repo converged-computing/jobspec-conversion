@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-noodle-0071
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-pastry-2305
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yamatolab/bass-scores/charmm/c47b2/job.sh

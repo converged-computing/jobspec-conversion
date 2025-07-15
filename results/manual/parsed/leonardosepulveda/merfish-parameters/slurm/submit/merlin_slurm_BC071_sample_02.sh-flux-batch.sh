@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-muffin-2580
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-itch-7250
+#FLUX: --urgency=16
 
 date +'Starting at %R.'
 source centos7-modules.sh

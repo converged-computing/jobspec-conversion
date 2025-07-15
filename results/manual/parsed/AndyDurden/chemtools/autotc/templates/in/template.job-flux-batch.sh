@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=tempname
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel
 source /home/xsede/users/xs-adurden1/.bashrc

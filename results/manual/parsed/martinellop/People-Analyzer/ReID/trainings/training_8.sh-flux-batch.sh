@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train8
 #FLUX: --queue=students-prod
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONNOUSERSITE='1'
 export MASTER_ADDR='${nodelist[0]}'

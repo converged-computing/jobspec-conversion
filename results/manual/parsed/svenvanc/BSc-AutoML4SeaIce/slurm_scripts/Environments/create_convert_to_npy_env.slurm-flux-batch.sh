@@ -2,7 +2,7 @@
 #FLUX: --job-name=hvm-env-xarray
 #FLUX: --queue=testing
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ENV='/home/s2358093/data1/conda_envs/xarray'
 export CWD='$(pwd)'

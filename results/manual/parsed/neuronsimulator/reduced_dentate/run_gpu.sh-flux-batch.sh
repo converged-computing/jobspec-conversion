@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cinnamonbun-7605
+#FLUX: --job-name=chocolate-poo-1112
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOC_LIBRARY_PATH='$BASE_DIR/templates'
 export SIM_TIME='10'

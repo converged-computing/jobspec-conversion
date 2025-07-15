@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="QCplots"
-#FLUX: --priority=16
+#FLUX: --job-name=QCplots
+#FLUX: --urgency=16
 
 HOMESOURCE="source ~/.bashrc"
 SLURMPARTITION="blade,himem,hugemem"

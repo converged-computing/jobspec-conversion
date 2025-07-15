@@ -2,7 +2,7 @@
 #FLUX: --job-name=h-1.1
 #FLUX: --queue=main
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VF_OLD_JOB_NO='${jobname:2}'
 export VF_VF_OLD_JOB_NO_2='${VF_OLD_JOB_NO/*.}'

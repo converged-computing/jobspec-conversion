@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=booster
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_TIMEOUT='50'
 export UCX_RC_TIMEOUT='4s'

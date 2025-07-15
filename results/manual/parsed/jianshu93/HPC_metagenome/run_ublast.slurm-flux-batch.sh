@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-despacito-3039
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-itch-4129
+#FLUX: --urgency=16
 
 b=$SAMPLE
 wd=${READ_DIR}

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-latke-2489
+#FLUX: --job-name=dirty-rabbit-5769
 #FLUX: --queue=${QUEUE}
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FILEENV='$(find ./ -name EnvironmentalVariablesMCGA -print)'
 export PATHENV='$(dirname ${FILEENV})'

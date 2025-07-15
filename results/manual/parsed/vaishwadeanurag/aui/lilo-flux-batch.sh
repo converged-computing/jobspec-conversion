@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-carrot-9953
-#FLUX: --priority=16
+#FLUX: --job-name=faux-lemon-7077
+#FLUX: --urgency=16
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-train-8781
+#FLUX: --job-name=chunky-puppy-4629
 #FLUX: -c=48
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export COMMIT_HASH='7b694e9d2522e8f2e60bf1861b4c1e416e7351d9'
 export EXPERIMENT_COMMAND='python -u diplomacy_research/scripts/build_dataset.py --filter order_based/no_press_all'

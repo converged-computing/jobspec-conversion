@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=express
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 source ~/.bashrc

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-leg-5084
-#FLUX: --priority=16
+#FLUX: --job-name=phat-bike-6704
+#FLUX: --urgency=16
 
 module load intel
 module load intel-mpi

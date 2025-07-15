@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-itch-7288
+#FLUX: --job-name=scruptious-buttface-4760
 #FLUX: -N=16
 #FLUX: -n=16
 #FLUX: -c=12
 #FLUX: --queue=normal
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 conda activate py38_oktopk

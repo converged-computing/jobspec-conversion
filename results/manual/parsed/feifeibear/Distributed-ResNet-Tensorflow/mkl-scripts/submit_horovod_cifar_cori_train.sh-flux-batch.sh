@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-sundae-5582
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-train-6772
+#FLUX: --urgency=16
 
 export KMP_BLOCKTIME='1'
 export KMP_SETTINGS='1'

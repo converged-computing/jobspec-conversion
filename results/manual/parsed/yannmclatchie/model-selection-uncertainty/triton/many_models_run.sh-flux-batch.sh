@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-banana-8822
+#FLUX: --job-name=pusheena-caramel-5283
 #FLUX: -c=4
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 for current_dataset in {1..50}
 do

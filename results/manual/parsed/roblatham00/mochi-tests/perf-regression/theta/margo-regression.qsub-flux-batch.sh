@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=grated-chip-0947
-#FLUX: --priority=16
+#FLUX: --job-name=placid-truffle-3378
+#FLUX: --urgency=16
 

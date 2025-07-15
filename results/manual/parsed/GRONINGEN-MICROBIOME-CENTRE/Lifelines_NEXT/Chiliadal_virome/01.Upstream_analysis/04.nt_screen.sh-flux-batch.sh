@@ -2,7 +2,7 @@
 #FLUX: --job-name=Chiliadal_NGCTRLs
 #FLUX: -c=2
 #FLUX: -t=176340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SAMPLE_LIST=$1
 echo ${SAMPLE_LIST}

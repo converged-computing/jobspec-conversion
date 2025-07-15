@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-peanut-4888
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-leader-0446
+#FLUX: --urgency=16
 
 subject=$1
 version=$2

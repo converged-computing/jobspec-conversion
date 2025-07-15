@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-cinnamonbun-8268
+#FLUX: --job-name=dinosaur-salad-9170
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MIOPEN_DISABLE_CACHE='1'
 

@@ -3,7 +3,7 @@
 #FLUX: -N=14
 #FLUX: -c=26
 #FLUX: --queue=MoE_T
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/anaconda3/bin/activate smoe
 {

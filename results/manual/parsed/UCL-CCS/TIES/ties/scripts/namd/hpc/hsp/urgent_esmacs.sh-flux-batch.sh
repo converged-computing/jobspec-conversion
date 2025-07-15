@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-milkshake-5980
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-cat-1061
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UCL-CCS/TIES/ties/scripts/namd/hpc/hsp/urgent_esmacs.sh

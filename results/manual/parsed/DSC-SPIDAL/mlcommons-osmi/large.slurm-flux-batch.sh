@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-caramel-1495
+#FLUX: --job-name=muffled-cinnamonbun-7173
 #FLUX: --queue=bii-gpu
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate osmi

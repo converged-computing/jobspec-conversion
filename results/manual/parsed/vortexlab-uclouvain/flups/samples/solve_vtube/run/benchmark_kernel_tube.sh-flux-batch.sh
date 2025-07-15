@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-punk-0158
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-platanos-2541
+#FLUX: --urgency=16
 
 source ${SCRIPT_MODULE} ${MPI_VERSION}
 echo "---------------- UCX Flags ---------------------"

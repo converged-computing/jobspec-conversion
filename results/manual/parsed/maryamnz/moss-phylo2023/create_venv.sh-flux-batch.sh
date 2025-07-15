@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-despacito-1119
+#FLUX: --job-name=delicious-salad-2264
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [[ ! -d moss_phylo ]] ; then 
 echo Making functional term transformers test environment [ moss_phylo ]

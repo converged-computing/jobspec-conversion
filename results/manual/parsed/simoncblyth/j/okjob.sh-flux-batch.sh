@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=okjob
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 okjob-notes(){ cat << EON
 okjob-notes

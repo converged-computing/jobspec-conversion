@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-mango-5614
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-animal-2665
+#FLUX: --urgency=16
 
 module load singularity
 module load openmp

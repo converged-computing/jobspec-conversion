@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-motorcycle-9376
+#FLUX: --job-name=hairy-lentil-3508
 #FLUX: -N=2
 #FLUX: -n=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HFILE='`generate_pbs_nodefile`'
 export OMP_NUM_THREADS='1'

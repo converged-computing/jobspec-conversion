@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=dev-g
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EBU_USER_PREFIX='/project/project_462000559/EasyBuild'
 export PYTHONPATH='$PYTHONPATH:/scratch/project_462000559/kostis/libs/analysator'

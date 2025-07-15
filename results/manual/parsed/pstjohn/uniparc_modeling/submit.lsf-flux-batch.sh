@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-house-7670
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-peas-2344
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pstjohn/uniparc_modeling/submit.lsf

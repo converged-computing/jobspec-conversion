@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-bits-3969
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-punk-0415
+#FLUX: --urgency=16
 
 module load Apps/R/3.3.2-generic
 cd /gpfs/loomis/project/fas/sbsc/ga254/dataproces/NED_MERIT/

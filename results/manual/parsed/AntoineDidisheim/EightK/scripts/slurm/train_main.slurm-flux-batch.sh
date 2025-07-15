@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=bigmem
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load foss/2022a
 module load GCCcore/11.3.0; module load Python/3.10.4

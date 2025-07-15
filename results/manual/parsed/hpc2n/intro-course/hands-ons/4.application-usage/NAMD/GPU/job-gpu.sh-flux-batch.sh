@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-despacito-4174
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-frito-5065
+#FLUX: --urgency=16
 
 echo $CUDA_VISIBLE_DEVICES
 ml purge  > /dev/null 2>&1 

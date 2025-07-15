@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-spoon-3842
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-peanut-butter-7283
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/daandouwe/neural-ngram/job.sh

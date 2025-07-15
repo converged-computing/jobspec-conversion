@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-car-0500
+#FLUX: --job-name=scruptious-omelette-6691
 #FLUX: -c=4
 #FLUX: --queue=dpart
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORK_DIR='/scratch0/slurm_${SLURM_JOBID}'
 export PYTHONPATH='.:$PYTHONPATH'

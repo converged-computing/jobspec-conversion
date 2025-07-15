@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-latke-9154
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-puppy-8112
+#FLUX: --urgency=16
 
 module load trinity-rnaseq/2.13.2
 MEM=256G

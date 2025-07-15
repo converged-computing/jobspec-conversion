@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-blackbean-6272
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-train-9813
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home/d.aksenov/tools/'
 

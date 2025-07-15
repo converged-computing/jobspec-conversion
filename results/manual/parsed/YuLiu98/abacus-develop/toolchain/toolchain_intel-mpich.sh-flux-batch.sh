@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hippo-1969
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-noodle-5556
+#FLUX: --urgency=16
 
 ./install_abacus_toolchain.sh \
 --with-intel=system --math-mode=mkl \

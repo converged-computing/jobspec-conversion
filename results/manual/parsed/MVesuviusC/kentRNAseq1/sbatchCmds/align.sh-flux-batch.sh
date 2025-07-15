@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=align
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e ### stops bash script if line ends with error
 echo ${HOSTNAME} ${SLURM_ARRAY_TASK_ID}

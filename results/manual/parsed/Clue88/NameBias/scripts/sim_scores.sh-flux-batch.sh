@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sim_scores
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularity exec --nv \
 --overlay /scratch/pp1994/singularity_images/overlay-10GB-400K.ext3:ro \

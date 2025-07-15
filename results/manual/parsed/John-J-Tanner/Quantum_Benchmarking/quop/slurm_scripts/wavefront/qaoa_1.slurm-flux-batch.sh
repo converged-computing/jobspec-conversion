@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-general-2847
+#FLUX: --job-name=hanky-soup-3869
 #FLUX: -n=8
 #FLUX: --queue=gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export CXX='hipcc'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=rpc_pipeline
 #FLUX: --queue=clara
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PMPNN_PATH=/work/ta905ttoo-rfd/ProteinMPNN
 PMPNN_PYTHON=/home/sc.uni-leipzig.de/ta905ttoo/.conda/envs/mlfold/bin/python

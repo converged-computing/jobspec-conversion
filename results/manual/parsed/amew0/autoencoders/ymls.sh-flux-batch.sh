@@ -2,7 +2,7 @@
 #FLUX: --job-name=auto-vscode
 #FLUX: --queue=gpu
 #FLUX: -t=259199
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load miniconda/3

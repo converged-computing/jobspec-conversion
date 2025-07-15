@@ -2,7 +2,7 @@
 #FLUX: --job-name=eval_custom
 #FLUX: -c=16
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/segdet_mlcr2024 || exit
 docker build -t segdet .

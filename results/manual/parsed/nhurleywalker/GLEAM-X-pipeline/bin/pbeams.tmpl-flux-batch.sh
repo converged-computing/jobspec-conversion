@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-nunchucks-5596
+#FLUX: --job-name=cowy-kerfuffle-0287
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 base=BASEDIR
 absmem=ABSMEM

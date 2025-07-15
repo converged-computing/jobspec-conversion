@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-bicycle-6132
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-cat-8177
+#FLUX: --urgency=16
 
 export PATH='/vol/bitbucket/g21mscprj03/sslvenv/bin/:$PATH'
 

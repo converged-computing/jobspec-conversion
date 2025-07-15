@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-chair-0332
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-destiny-0042
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

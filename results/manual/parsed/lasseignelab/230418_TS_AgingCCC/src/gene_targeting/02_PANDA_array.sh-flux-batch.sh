@@ -2,7 +2,7 @@
 #FLUX: --job-name=PANDA
 #FLUX: --queue=largemem
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Singularity/3.5.2-GCC-5.4.0-2.26
 wd="${USER_DATA}/projects/230418_TS_AgingCCC/"

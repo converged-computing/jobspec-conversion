@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-avocado-0332
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-car-0429
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

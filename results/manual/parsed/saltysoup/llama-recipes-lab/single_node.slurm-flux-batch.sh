@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-onion-5116
+#FLUX: --job-name=milky-cat-5237
 #FLUX: --queue=l4train
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$head_node_ip'
 export MASTER_PORT='$head_node_port'

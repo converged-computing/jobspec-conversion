@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=PD1_Kluc_GSEA # Job name
+#FLUX: --job-name=PD1_Kluc_GSEA
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SIMG_FILE_NAME='rstudio-4.3.0-4-with_modules.sif'
 export RPRIHOME='$HOME/R/$SIMG_FILE_NAME/'

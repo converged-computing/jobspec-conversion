@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pedo-0989
-#FLUX: --priority=16
+#FLUX: --job-name=fat-omelette-3175
+#FLUX: --urgency=16
 
 SINGULARITY_CONT=$PROJECT/psrsearch.sif
 CMDDIR=$PROJECT/HPC_pulsar/cmd_files

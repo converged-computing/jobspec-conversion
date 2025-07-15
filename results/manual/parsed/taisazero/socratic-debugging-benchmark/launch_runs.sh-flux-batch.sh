@@ -2,7 +2,7 @@
 #FLUX: --job-name=socratic_exp
 #FLUX: --queue=GPU
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate socratic_env
 echo "loaded module"

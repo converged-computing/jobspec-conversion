@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-omelette-7744
+#FLUX: --job-name=moolicious-eagle-8043
 #FLUX: --queue=gpu
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . ./miniconda3/etc/profile.d/conda.sh
 conda activate

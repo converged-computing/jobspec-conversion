@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-gato-2438
+#FLUX: --job-name=delicious-hope-6648
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMIX_MCA_gds='hash'
 

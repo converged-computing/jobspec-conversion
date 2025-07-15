@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-plant-0772
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-banana-2797
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'
 

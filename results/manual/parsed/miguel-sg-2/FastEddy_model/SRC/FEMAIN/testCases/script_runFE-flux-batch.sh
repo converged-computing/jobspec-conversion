@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=test_FE
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_FALLBACK='1'
 export I_MPI_SHM_LMT='shm'

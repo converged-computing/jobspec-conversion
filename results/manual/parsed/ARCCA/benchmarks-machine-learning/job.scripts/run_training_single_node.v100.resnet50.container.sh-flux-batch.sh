@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-gato-5805
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-leopard-9220
+#FLUX: --urgency=16
 
 set -eu
 module purge

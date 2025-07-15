@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-kerfuffle-7045
+#FLUX: --job-name=astute-pedo-9746
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module use ~/.modules

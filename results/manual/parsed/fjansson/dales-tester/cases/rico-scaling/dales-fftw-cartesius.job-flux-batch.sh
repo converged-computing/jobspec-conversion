@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-noodle-2967
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-lentil-6161
+#FLUX: --urgency=16
 
 module load 2019
 module load netCDF-Fortran/4.4.4-foss-2018b

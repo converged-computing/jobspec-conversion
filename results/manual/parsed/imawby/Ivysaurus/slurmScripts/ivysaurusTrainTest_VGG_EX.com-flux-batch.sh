@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-omelette-7078
+#FLUX: --job-name=crunchy-carrot-1469
 #FLUX: -c=5
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 echo 'BEGIN'

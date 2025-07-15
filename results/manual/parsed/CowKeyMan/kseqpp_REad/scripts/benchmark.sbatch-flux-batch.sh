@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=gputest
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OLD_PWD='${PWD}'
 export NEW_PWD='${LOCAL_SCRATCH}/tmp'

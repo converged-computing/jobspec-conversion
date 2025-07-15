@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-itch-4880
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-sundae-3166
+#FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/psii/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='1'

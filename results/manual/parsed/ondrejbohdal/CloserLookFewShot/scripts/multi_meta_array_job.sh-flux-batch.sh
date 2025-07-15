@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=multi_meta_array
 #FLUX: -t=133200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='/opt/cuda-9.0.176.1/'
 export CUDNN_HOME='/opt/cuDNN-7.0/'

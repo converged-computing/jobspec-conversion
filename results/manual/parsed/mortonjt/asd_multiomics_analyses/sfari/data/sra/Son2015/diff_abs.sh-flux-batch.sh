@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-puppy-0339
+#FLUX: --job-name=tart-lizard-1763
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TBB_CXX_TYPE='gcc'
 

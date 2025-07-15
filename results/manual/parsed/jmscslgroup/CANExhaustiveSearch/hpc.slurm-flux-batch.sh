@@ -3,7 +3,7 @@
 #FLUX: -c=70
 #FLUX: --queue=standard
 #FLUX: -t=720000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 now=$(date +"%Y_%m_%d_%H_%M_%S")

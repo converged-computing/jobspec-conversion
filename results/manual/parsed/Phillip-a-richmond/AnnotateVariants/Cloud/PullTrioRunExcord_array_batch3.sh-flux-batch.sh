@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-plant-1739
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-onion-4156
+#FLUX: --urgency=16
 
 AnnotateVariantsDir=/shared/AnnotateVariants/
 Final_Dir=/shared/SVOutput/

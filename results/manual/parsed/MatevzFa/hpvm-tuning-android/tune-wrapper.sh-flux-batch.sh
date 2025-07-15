@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-lemur-1384
+#FLUX: --job-name=frigid-lemon-5397
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 scratch_dir=/data1/slurm/$SLURM_JOB_ID
 hpvm_image=$HOME/hpvm.sb

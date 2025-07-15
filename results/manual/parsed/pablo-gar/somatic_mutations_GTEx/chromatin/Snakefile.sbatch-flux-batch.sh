@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pancake-7813
+#FLUX: --job-name=ornery-nalgas-6523
 #FLUX: --queue=hbfraser,hns,normal
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load fraserconda
 source activate fraserconda

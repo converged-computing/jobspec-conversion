@@ -3,7 +3,7 @@
 #FLUX: -n=16
 #FLUX: --queue=gpu_8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/bwhpc/common/devel/cuda/11.8/extras/CUPTI/lib64/:$LD_LIBRARY_PATH'
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=/opt/bwhpc/common/devel/cuda/11.8/'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-dog-9846
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-chair-6130
+#FLUX: --urgency=16
 
 export HSA_IGNORE_SRAMECC_MISREPORT='1'
 export PE_MPICH_GTL_DIR_amd_gfx90a='-L${CRAY_MPICH_ROOTDIR}/gtl/lib'

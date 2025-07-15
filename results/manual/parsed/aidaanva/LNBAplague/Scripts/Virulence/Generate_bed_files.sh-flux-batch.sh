@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-sundae-6302
-#FLUX: --priority=16
+#FLUX: --job-name=astute-hope-9146
+#FLUX: --urgency=16
 
 BAMDIR=$1
 BAMFILES=($(find $BAMDIR -name *.bam))

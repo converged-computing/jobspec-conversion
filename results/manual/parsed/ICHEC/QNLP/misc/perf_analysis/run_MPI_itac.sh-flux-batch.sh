@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-despacito-3648
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-dog-6247
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${NTHREADS}'
 export AFF_THREAD='${NTHREADS}'

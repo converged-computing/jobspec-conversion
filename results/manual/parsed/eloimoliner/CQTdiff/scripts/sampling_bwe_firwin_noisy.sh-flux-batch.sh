@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sampling_1_guided_cqt
 #FLUX: -t=172799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 export HYDRA_FULL_ERROR='1'

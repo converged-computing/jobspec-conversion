@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-peas-0054
+#FLUX: --job-name=fuzzy-ricecake-8341
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED; touch STARTED
 module load singularity

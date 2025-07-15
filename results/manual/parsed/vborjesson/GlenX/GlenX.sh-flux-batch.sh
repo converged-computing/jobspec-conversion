@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-poo-6776
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-bicycle-1901
+#FLUX: --urgency=16
 
 module load bioinfo-tools
 module load bwa

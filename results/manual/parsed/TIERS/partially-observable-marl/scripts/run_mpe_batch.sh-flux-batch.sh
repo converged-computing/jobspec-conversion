@@ -3,7 +3,7 @@
 #FLUX: -c=42
 #FLUX: --queue=small-g
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 env="MPE"
 num_landmarks=3

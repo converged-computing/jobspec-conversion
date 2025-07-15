@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-buttface-1740
-#FLUX: --priority=16
+#FLUX: --job-name=salted-rabbit-2339
+#FLUX: --urgency=16
 
 module load MATLAB/2019a
 module load GCCcore/10.3.0

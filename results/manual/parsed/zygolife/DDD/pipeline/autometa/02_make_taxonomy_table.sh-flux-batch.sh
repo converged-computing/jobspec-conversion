@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-egg-5416
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-pedo-9792
+#FLUX: --urgency=16
 
 CPU=1
 if [ ! -z $SLURM_CPUS_ON_NODE ]; then

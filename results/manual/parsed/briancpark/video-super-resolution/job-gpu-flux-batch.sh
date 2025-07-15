@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peanut-butter-9242
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-buttface-0796
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$PROJECT/anaconda3/lib'
 export CUDA_HOME='/jet/packages/cuda/v11.7.1'

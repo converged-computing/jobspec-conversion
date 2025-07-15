@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-truffle-1725
+#FLUX: --job-name=delicious-butter-7543
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_btl='self,sm,openib'
 export CP2K_DATA_DIR='/hpc/examples/cp2k/data'

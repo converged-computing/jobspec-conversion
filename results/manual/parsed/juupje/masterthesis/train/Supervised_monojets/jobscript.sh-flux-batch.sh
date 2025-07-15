@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Monojets
 #FLUX: -t=13200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORKDIR=$HOME/thesis/train/trainer #main script
 RUNDIR= #relative dir of config and output

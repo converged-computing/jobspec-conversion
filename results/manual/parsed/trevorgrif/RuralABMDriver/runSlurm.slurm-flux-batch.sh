@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-general-6008
+#FLUX: --job-name=quirky-onion-7561
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /usr/modules/init/bash
 module load julia

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cat-0116
+#FLUX: --job-name=astute-bike-6566
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

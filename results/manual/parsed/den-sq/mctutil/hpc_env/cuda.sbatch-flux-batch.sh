@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=GPUJob
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load miniconda/3
 module load cuda

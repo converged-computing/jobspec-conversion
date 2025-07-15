@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-punk-8754
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-lentil-9968
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib'
 

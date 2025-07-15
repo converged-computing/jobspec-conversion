@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leopard-6153
+#FLUX: --job-name=purple-animal-7500
 #FLUX: -c=7
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KMP_BLOCKTIME='0'
 export KMP_HW_SUBSET='1T'

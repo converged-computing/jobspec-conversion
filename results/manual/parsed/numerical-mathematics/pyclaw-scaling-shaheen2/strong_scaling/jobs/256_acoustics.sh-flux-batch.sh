@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-leopard-2718
-#FLUX: --priority=16
+#FLUX: --job-name=astute-peanut-2015
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export PYTHONPATH='/project/k1069/lib/python2.7/site-packages:$PYTHONPATH'

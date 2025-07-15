@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-parsnip-5980
-#FLUX: --priority=16
+#FLUX: --job-name=hello-motorcycle-8305
+#FLUX: --urgency=16
 
 source smoke_env.sh
 APPS_2NODE="dgemm_tiny dgemm nasft nekbone hpcg pennant hpl_mkl hpl_netlib"

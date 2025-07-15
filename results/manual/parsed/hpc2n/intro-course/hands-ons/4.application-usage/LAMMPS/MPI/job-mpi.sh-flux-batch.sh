@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-snack-7086
-#FLUX: --priority=16
+#FLUX: --job-name=arid-lettuce-4082
+#FLUX: --urgency=16
 
 ml purge > /dev/null 2>&1
 ml GCC/8.3.0  OpenMPI/3.1.4

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-omelette-4772
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-lemon-0214
+#FLUX: --urgency=16
 
 set -u
 BATCH_START_TIME=$(date)

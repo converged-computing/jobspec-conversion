@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=infer
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 TRANSFORMER=$1

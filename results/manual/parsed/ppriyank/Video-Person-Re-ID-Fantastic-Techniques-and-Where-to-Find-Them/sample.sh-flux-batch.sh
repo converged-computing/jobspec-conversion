@@ -2,7 +2,7 @@
 #FLUX: --job-name=pp1953
 #FLUX: -c=8
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . ~/.bashrc
 module load anaconda3/5.3.1

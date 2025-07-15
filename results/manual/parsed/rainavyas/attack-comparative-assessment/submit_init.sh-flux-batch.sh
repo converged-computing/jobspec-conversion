@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-platanos-6914
+#FLUX: --job-name=gloopy-plant-5121
 #FLUX: -n=4
 #FLUX: -t=25200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

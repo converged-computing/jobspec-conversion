@@ -3,7 +3,7 @@
 #FLUX: -n=3
 #FLUX: -c=19
 #FLUX: --queue=normal,gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 t_nod=$2
 file_path=`sed -n '1p' $3/$4/logs.txt`

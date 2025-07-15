@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leopard-1874
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-diablo-4700
+#FLUX: --urgency=16
 
 export LOG_DIR='/home/gridsan/zmccarthy/logs/spme_c_e_first'
 export SLURM_ARRAY_TASK_ID='$SLURM_ARRAY_TASK_ID'

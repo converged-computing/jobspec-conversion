@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-blackbean-5697
+#FLUX: --job-name=red-lemon-7208
 #FLUX: -n=512
 #FLUX: --queue=hpg2-compute
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='^vader,tcp,openib'

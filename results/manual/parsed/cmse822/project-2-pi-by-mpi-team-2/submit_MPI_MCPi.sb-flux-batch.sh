@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MC_Pi
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR                   ### change to the directory where your code is located
 module purge

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-itch-2954
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-puppy-3603
+#FLUX: --urgency=16
 
   module load singularity
   #SLURM_ARRAY_TASK_ID=1

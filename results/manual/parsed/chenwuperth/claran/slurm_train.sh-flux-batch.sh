@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-lizard-3807
+#FLUX: --job-name=goodbye-diablo-9933
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/flush1/wu082/proj/claran/pyenv'
 

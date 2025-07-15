@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=xeon40
 #FLUX: -t=180000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ulimit -s unlimited
 source /home/energy/surna/anaconda3/etc/profile.d/conda.sh

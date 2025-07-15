@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-peanut-3518
-#FLUX: --priority=16
+#FLUX: --job-name=grated-squidward-7700
+#FLUX: --urgency=16
 
 OPTIMIZER=lamb
 PHASE=2

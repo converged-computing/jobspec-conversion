@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sgirtgaos
 #FLUX: -t=8999
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 

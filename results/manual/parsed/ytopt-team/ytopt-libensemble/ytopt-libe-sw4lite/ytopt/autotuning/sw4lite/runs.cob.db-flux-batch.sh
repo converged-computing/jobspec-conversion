@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lentil-8551
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-citrus-6169
+#FLUX: --urgency=16
 

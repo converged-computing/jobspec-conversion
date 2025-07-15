@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-nalgas-6683
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-milkshake-8104
+#FLUX: --urgency=16
 
 MODIFIER="$1"
 GPUTYPE="$2"

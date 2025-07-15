@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-itch-1009
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-citrus-0730
+#FLUX: --urgency=16
 
 module load cuda/8.0 tensorflow/0.12.1
 source ${TENSORFLOW_ENV}/bin/activate

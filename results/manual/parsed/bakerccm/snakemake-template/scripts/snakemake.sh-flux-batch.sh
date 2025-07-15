@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-squidward-7915
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-soup-9663
+#FLUX: --urgency=16
 
 module load conda2/4.2.13
 source activate snakemake

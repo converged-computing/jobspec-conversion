@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=IMU_Cost_Stats_Wanda
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 EXE=/bin/bash
 WORKING_DIR=/data/datasets/mguamanc/learned_cost_map/cluster_scripts

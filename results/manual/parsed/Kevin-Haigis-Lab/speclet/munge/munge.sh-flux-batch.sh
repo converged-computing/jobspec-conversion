@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-eagle-2467
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-nalgas-8507
+#FLUX: --urgency=16
 
 module load conda2 gcc slurm-drmaa R
 source "$HOME/.bashrc"

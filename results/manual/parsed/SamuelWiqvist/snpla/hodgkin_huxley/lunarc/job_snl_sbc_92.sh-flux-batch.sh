@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-underoos-8278
-#FLUX: --priority=16
+#FLUX: --job-name=grated-general-8121
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

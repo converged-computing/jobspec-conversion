@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-hippo-9471
+#FLUX: --job-name=confused-punk-4289
 #FLUX: -c=24
-#FLUX: --queue=long  # Queue names you can submit to
+#FLUX: --queue=long
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOMES='/scratch/glerma'
 export SINGULARITYENV_FS_LICENSE='$BIDS_DIR/.freesurfer.txt'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="04amgx"
+#FLUX: --job-name=04amgx
 #FLUX: -N=4
 #FLUX: --queue=ivygpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$AMGXWRAPPER_DIR/example/poisson/bin":$PATH'
 export LD_LIBRARY_PATH='$AMGX_DIR/lib":$LD_LIBRARY_PATH'

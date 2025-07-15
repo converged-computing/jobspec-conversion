@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-chip-1767
-#FLUX: --priority=16
+#FLUX: --job-name=purple-egg-3289
+#FLUX: --urgency=16
 
 date
 module purge

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=type_eval
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/data/paras/miniconda3/bin:$PATH'
 export DATA_CACHE='/data/paras/data_cache'

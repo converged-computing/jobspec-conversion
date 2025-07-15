@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lizard-4616
+#FLUX: --job-name=fuzzy-nunchucks-0749
 #FLUX: -c=4
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load CUDA

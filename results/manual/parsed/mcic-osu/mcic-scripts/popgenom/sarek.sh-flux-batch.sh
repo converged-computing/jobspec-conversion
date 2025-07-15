@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sarek
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 readonly DESCRIPTION="Run the Nextflow/nf-core Sarek pipeline for non-model organism genomic variant callling"
 readonly MODULE=miniconda3/4.12.0-py39

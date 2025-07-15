@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-toaster-2860
+#FLUX: --job-name=delicious-poo-0225
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate csc542

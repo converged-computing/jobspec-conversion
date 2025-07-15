@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-peanut-2978
+#FLUX: --job-name=stanky-lemon-8109
 #FLUX: -n=10
 #FLUX: --queue=shortq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORK_DIR='/data/$USER/workdir/lammps/LMP${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/Input'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-dog-5979
+#FLUX: --job-name=expensive-omelette-2072
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 GENOME_DIR="/data/lab/Homo_sapiens/genome"
 GTF_FILE="/data/lab/Homo_sapiens/genome/Homo_sapiens.GRCh38.79.gtf"

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-general-1216
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-banana-6075
+#FLUX: --urgency=16
 

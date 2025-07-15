@@ -3,7 +3,7 @@
 #FLUX: -n=5
 #FLUX: --queue=lrgmem
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load qiime2/2018.8
 source ../config_files/moving_picture_analysis.config

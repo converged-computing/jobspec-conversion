@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-train-9453
-#FLUX: --priority=16
+#FLUX: --job-name=tart-caramel-7993
+#FLUX: --urgency=16
 
 module purge
 module load julia/1.8.5

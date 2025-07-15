@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=DDNIME
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODULEPATH='/gsfs/betke/software/modules:$MODULEPATH'
 

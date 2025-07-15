@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-snack-5060
+#FLUX: --job-name=bricky-signal-2539
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=arm8xlarge
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HPCC_VERSION='1.5.0'
 export OMP_NUM_THREADS='1'

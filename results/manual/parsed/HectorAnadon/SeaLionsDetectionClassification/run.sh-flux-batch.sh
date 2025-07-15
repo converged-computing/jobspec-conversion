@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pot-3150
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-mango-8682
+#FLUX: --urgency=16
 
 module add cudnn/5.1-cuda-8.0
 module load anaconda/py35/4.2.0

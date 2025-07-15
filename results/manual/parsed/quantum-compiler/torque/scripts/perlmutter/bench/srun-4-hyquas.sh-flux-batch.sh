@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-spoon-1374
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-puppy-8982
+#FLUX: --urgency=16
 
 export HYQUAS_ROOT='/pscratch/sd/z/zjia/qs/HyQuas'
 export MPICH_GPU_SUPPORT_ENABLED='1'

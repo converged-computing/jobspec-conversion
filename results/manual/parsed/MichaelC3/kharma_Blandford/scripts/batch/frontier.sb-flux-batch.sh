@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-parrot-3683
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-staircase-1766
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

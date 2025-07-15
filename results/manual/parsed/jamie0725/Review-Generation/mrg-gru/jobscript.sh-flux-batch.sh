@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-despacito-4431
+#FLUX: --job-name=carnivorous-general-6288
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared_course
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2019

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="bashtest"
+#FLUX: --job-name=bashtest
 #FLUX: --exclusive
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${IODABUILT}/lib/python3.10/pyiodaconv'
 export LD_LIBRARY_PATH='/home/Mariusz.Pagowski/MAPP_2018/libs/fortran-datetime/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}'

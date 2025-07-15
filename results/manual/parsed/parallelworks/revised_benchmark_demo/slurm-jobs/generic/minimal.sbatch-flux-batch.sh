@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-chip-6297
-#FLUX: --priority=16
+#FLUX: --job-name=faux-leader-2757
+#FLUX: --urgency=16
 
 source wfenv.sh
 source inputs.sh

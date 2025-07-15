@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ch_5
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /scratch/msy290/maml_less_grad_adaptive_lr/channels_5way/
 module load cudnn/8.0v6.0

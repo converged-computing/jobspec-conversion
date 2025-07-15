@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-plant-3630
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-lizard-2252
+#FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh
 source /etc/profile.d/easybuild.sh

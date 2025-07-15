@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="hello"
+#FLUX: --job-name=hello
 #FLUX: --exclusive
 #FLUX: --queue=shared
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_opal_cuda_support='0'
 export LD_LIBRARY_PATH='/opt/cray/libfabric/1.15.2.0/lib64:$LD_LIBRARY_PATH'

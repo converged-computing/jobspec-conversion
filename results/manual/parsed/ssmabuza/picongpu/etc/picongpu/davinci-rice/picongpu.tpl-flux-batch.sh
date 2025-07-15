@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-caramel-7709
-#FLUX: --priority=16
+#FLUX: --job-name=milky-parrot-3793
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ssmabuza/picongpu/etc/picongpu/davinci-rice/picongpu.tpl

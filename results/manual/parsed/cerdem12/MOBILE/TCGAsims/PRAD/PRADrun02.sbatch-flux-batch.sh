@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-malarkey-7448
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-hope-1014
+#FLUX: --urgency=16
 
 module add MATLAB/2023a.Update4
 module add GCCcore/11.3.0

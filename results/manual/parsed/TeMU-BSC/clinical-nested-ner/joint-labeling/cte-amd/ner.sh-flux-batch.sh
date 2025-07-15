@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="ner_joint_labeling"
+#FLUX: --job-name=ner_joint_labeling
 #FLUX: -c=128
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/gpfs/projects/bsc88/projects/bne/eval_amd/scripts_to_run/external-lib:$LD_LIBRARY_PATH'
 

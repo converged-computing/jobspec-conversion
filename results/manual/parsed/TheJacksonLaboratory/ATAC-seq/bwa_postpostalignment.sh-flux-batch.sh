@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-earthworm-9150
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-carrot-5346
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/TheJacksonLaboratory/ATAC-seq/bwa_postpostalignment.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-omelette-6741
+#FLUX: --job-name=stinky-hippo-4614
 #FLUX: --queue=shared
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab/R2018a
 cd $HOME/data/ravi/spect-pitch-gan

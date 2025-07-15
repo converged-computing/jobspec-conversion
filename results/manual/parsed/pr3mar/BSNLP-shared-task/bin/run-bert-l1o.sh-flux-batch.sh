@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="NER-l1o"
+#FLUX: --job-name=NER-l1o
 #FLUX: -c=8
 #FLUX: --gpus-per-task=1
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euo pipefail
 CONTAINER_IMAGE_PATH="$PWD/containers/pytorch-image-new.sqfs"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-underoos-1897
+#FLUX: --job-name=wobbly-rabbit-0719
 #FLUX: -c=2
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUSERBASE='$HOME/local/python/2.7.13'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-butter-7367
+#FLUX: --job-name=red-plant-6524
 #FLUX: -c=3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ROCM_HOME='/opt/rocm-5.6.0'
 export TRANSFORMERS_OFFLINE='1'

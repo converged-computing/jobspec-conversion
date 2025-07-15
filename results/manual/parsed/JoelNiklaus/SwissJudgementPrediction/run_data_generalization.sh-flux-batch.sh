@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="Data Generalization"
+#FLUX: --job-name=Data Generalization
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda3
 eval "$(conda shell.bash hook)"

@@ -2,7 +2,7 @@
 #FLUX: --job-name=dask_gridding
 #FLUX: -c=32
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NUM_WORKERS='32'
 export THREADS_PER_WORKER='1'

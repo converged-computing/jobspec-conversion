@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-latke-7639
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-chip-5250
+#FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh
 source /etc/profile.d/easybuild.sh

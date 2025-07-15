@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=LAMMPS
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /scratch/work/courses/CHEM-GA-2671-2022fa/software/lammps-gcc-30Oct2022/setup_lammps.bash
 temperatures=('1.5' '1.0' '0.9' '0.8' '0.7' '0.65' '0.6' '0.55' '0.5' '0.475' '0.45')

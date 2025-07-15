@@ -2,7 +2,7 @@
 #FLUX: --job-name=dbcan_rumen-v1-archaea_%j
 #FLUX: -n=48
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 START=$SECONDS
 cd  /fs/scratch/PAS0439/Ming/databases/mgnify-rumen-v1.0/genomes/archaea

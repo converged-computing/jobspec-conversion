@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lentil-5737
+#FLUX: --job-name=outstanding-punk-3381
 #FLUX: -N=10
 #FLUX: -n=256
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   
 module load intel

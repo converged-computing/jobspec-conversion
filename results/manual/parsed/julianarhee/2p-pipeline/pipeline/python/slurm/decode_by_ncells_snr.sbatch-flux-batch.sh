@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-hope-4001
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-caramel-8414
+#FLUX: --urgency=16
 
 module load centos6/0.0.1-fasrc01
 module load matlab/R2015b-fasrc01

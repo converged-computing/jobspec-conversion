@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-mango-7287
+#FLUX: --job-name=quirky-plant-9802
 #FLUX: -c=6
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ..
 py_main='main'

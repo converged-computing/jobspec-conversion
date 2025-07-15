@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-car-1027
+#FLUX: --job-name=psycho-buttface-0017
 #FLUX: -N=2
 #FLUX: -n=8
 #FLUX: -c=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export BERT_DIR='/path/to/git_clone/DeepLearningExamples/TensorFlow/LanguageModeling/BERT_nonscaling/'

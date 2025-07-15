@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-punk-2834
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-parsnip-5694
+#FLUX: --urgency=16
 
 workflow_name="04-fit-butterfly"
 module load R/4.2.0

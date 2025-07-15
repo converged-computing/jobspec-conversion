@@ -2,7 +2,7 @@
 #FLUX: --job-name=mlcommons-science-eq-%u-%j
 #FLUX: --queue=gpu
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PYTHON_VERSION="3.10.2"
 RUNSTAMP={job_run_name}

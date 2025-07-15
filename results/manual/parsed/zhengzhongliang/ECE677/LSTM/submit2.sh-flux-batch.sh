@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lizard-6807
-#FLUX: --priority=16
+#FLUX: --job-name=astute-blackbean-0072
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/zhengzhongliang/ECE677/LSTM/submit2.sh

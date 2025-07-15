@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lettuce-9078
+#FLUX: --job-name=stinky-ricecake-6363
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 CONTAINER="nvcr.io/nvidian/jax_t5x:cuda11.4-cudnn8.2-ubuntu20.04-manylinux2014-multipython"

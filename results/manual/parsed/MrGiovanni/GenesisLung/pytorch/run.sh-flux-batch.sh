@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-destiny-3741
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-cherry-4484
+#FLUX: --urgency=16
 
 module load anaconda/py3
 source /data/jliang12/zzhou82/environments/pytorch/bin/activate

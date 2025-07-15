@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=test
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu
 rm -rf install petsc-3.5.3 src

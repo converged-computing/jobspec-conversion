@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=stylegan3
 #FLUX: -t=2073600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'
 

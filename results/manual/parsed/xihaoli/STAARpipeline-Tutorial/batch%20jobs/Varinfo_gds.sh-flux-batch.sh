@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-cherry-3574
+#FLUX: --job-name=tart-snack-8971
 #FLUX: -t=8640
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/R-3.6.1-MKL'
 

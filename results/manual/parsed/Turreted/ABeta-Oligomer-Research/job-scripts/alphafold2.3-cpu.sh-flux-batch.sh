@@ -2,7 +2,7 @@
 #FLUX: --job-name=alphafold2
 #FLUX: --queue=caslake
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load alphafold/2.2.0 cuda/11.3
 conda activate alphafold-2.3

@@ -2,7 +2,7 @@
 #FLUX: --job-name=test
 #FLUX: --queue=edu5
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "building active";
 dtype=0

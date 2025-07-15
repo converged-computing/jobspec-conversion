@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lemur-9763
+#FLUX: --job-name=evasive-nalgas-0699
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

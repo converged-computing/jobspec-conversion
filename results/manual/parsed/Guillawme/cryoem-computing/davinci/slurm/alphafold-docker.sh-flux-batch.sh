@@ -2,7 +2,7 @@
 #FLUX: --job-name=alphafold
 #FLUX: -c=16
 #FLUX: --queue=cryoem
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $HOME/opt/slurm/slurm-start.sh
 FASTA=lysozyme.fasta

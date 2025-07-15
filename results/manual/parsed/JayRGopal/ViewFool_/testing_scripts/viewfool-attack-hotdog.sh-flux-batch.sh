@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-rabbit-4868
+#FLUX: --job-name=scruptious-lettuce-6652
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/Neurips2023/ViewFool_
 module load anaconda/latest

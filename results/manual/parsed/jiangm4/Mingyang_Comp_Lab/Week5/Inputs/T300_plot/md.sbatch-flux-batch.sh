@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=run-gromacs
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gromacs/openmpi/intel/2020.4

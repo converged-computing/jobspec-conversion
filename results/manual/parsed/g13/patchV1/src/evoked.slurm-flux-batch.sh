@@ -2,7 +2,7 @@
 #FLUX: --job-name=plotV1
 #FLUX: -c=5
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module purge

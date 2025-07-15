@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-soup-1822
-#FLUX: --priority=16
+#FLUX: --job-name=grated-cupcake-0359
+#FLUX: --urgency=16
 
 export FASTA='$1'
 export ALPHA_OUT='$2'

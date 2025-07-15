@@ -3,7 +3,7 @@
 #FLUX: -n=5
 #FLUX: --queue=standard
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate viral_env
 cd /xdisk/bhurwitz/mig2020/rsgrps/bhurwitz/alise/my_scripts/v2_Viral_hunt_snakemake

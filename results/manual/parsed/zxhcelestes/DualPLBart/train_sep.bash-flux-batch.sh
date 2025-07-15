@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-nalgas-1232
+#FLUX: --job-name=swampy-onion-3080
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 python -u train_sep.py \

@@ -1,10 +1,10 @@
 #!/bin/bash
-#SBATCH --job-name=peleffy
-#SBATCH --output=peleffy.out
-#SBATCH --error=peleffy.err
-#SBATCH --ntasks=2
+#SBATCH --job-name=PELE
+#SBATCH --output=PELE.out
+#SBATCH --error=PELE.err
+#SBATCH --ntasks=5    # change this value to match CPUs in input.yaml
 #SBATCH --qos=debug
-#SBATCH --time=00-00:30:00
+#SBATCH --time=00-01:00:00
 
 module purge
 
@@ -15,5 +15,5 @@ eval "$(conda shell.bash hook)"
 
 conda activate /gpfs/projects/bsc72/conda_envs/platform/1.6.3
 
-python -m peleffy.main ligand_to_parametrize.pdb -f OPLS2005
+python -m AdaptivePELE.adaptiveSampling adaptive.conf
 

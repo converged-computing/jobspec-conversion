@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-plant-2465
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-buttface-1058
+#FLUX: --urgency=16
 
 export PETSC_DIR='/usr/workspace/ajbecerr/petsc" #UPDATE to the real path of petsc'
 export PETSC_ARCH='arch-ablate-opt'

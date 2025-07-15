@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-fork-2004
+#FLUX: --job-name=chocolate-fork-3066
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 runs=$(pwd)
 MPI_Run=$(dirname "$runs")

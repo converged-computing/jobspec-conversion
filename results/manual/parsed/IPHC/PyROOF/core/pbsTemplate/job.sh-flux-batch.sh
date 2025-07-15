@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-nalgas-4658
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-hobbit-9538
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/IPHC/PyROOF/core/pbsTemplate/job.sh

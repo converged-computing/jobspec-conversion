@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-cat-0680
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-peanut-butter-2434
+#FLUX: --urgency=16
 
 module unload gromcas
  module unload gromacs/2020.2

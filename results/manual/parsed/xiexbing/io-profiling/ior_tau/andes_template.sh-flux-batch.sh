@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-general-8251
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-pedo-6751
+#FLUX: --urgency=16
 
 export PATH='/gpfs/alpine/stf008/scratch/bing/hacc_io/tau/tau2/x86_64/bin:$PATH'
 

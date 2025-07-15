@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-latke-7792
+#FLUX: --job-name=stinky-nalgas-7010
 #FLUX: -c=16
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load arch/avx512 StdEnv/2018.3
 nvidia-smi

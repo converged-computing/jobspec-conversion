@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-mango-7256
+#FLUX: --job-name=swampy-onion-8859
 #FLUX: -N=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 WORK_DIRECTORY=tokamak_design_nb

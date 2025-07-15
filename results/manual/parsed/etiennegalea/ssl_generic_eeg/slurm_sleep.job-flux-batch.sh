@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cupcake-3767
+#FLUX: --job-name=lovable-itch-5604
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/ega470/.bashrc
 cd /var/scratch/ega470/ssl_thesis/

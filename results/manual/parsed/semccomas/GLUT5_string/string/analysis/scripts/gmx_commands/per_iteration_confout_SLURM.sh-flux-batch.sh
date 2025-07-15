@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-peanut-butter-8000
-#FLUX: --priority=16
+#FLUX: --job-name=confused-peanut-0055
+#FLUX: --urgency=16
 
 module load gromacs/2020.2
 trajext='../../../../../2021071200_GLUT5_string_influx_TMD/GLUT5_string/string/string_sims/TMD_initial_path'

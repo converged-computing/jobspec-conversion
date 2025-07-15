@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-salad-9717
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-kerfuffle-9886
+#FLUX: --urgency=16
 
 : ${PROJ_ID:="bbhx-delta-cpu"}
 : ${QUEUE:="cpu"}

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-toaster-2535
-#FLUX: --priority=16
+#FLUX: --job-name=purple-cat-6755
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/OpenFreeEnergy/perses/examples/new-cli/submit-dense-map.sh

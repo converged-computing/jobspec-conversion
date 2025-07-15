@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-buttface-0325
+#FLUX: --job-name=bloated-toaster-7517
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh 
 module purge               

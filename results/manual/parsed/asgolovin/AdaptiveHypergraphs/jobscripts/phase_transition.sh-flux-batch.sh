@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-arm-2054
+#FLUX: --job-name=loopy-earthworm-1167
 #FLUX: -N=4
 #FLUX: --queue=cm2_inter
 #FLUX: -t=420
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module load julia/1.8.5

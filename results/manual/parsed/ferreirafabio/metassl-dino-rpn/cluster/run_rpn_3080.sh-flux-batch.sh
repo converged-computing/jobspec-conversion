@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-hobbit-1523
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-cinnamonbun-8762
+#FLUX: --urgency=16
 
 source /home/ferreira/.profile
 source activate dino_new

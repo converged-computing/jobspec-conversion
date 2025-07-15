@@ -2,7 +2,7 @@
 #FLUX: --job-name=align
 #FLUX: -c=4
 #FLUX: --queue=compute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . $HOME/.bashrc 
 . ~/sasha_env/bin/activate

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-peanut-2231
+#FLUX: --job-name=eccentric-pot-2950
 #FLUX: --exclusive
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 env | grep "SLURMD_NODENAME="

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lizard-5907
+#FLUX: --job-name=nerdy-gato-4116
 #FLUX: -N=12
 #FLUX: -c=96
 #FLUX: --gpus-per-task=4
 #FLUX: --queue=booster
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TUNE_RESULT_DIR='/p/project/prcoe12/wulff1/ray_results/tune_result_dir'
 export TUNE_MAX_PENDING_TRIALS_PG='${SLURM_NNODES}'

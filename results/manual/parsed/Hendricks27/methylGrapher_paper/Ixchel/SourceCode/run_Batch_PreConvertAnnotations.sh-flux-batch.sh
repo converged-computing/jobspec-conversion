@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-frito-7299
-#FLUX: --priority=16
+#FLUX: --job-name=red-fork-4708
+#FLUX: --urgency=16
 
 read INPUTFILE SEGMENTSPICKLE QUERYSEGMENTSPICKLE LINKSPICKLE UpstreamLinksArrayFile DownstreamLinksArrayFile DoubleAnchorsFile < <( sed -n ${SLURM_ARRAY_TASK_ID}p $1 )
 echo "Loading software..."

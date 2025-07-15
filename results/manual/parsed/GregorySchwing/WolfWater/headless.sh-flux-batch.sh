@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NXTFLW
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_EXECUTOR='slurm'
 export NXF_OPTS='-Xms2G -Xmx8G" '

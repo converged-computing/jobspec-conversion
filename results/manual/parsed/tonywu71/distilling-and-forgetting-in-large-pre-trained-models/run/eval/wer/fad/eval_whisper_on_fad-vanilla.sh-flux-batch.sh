@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-salad-5067
+#FLUX: --job-name=bumfuzzled-bike-9829
 #FLUX: -t=2400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

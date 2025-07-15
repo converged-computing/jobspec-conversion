@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-citrus-8857
+#FLUX: --job-name=phat-lamp-1416
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 COHORT=$1
 umask 002

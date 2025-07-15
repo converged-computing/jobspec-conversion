@@ -2,7 +2,7 @@
 #FLUX: --job-name=gate_loss_test
 #FLUX: -c=32
 #FLUX: --queue=MoE
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 export NCCL_DEBUG='INFO'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cupcake-8851
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-nalgas-9240
+#FLUX: --urgency=16
 
 set -e
 module load python/3.6.6

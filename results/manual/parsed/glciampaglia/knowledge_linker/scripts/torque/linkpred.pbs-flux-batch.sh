@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lentil-5892
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-plant-2488
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/glciampaglia/knowledge_linker/scripts/torque/linkpred.pbs

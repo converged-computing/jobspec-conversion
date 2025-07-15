@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-blackbean-3175
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-lettuce-9065
+#FLUX: --urgency=16
 
 export ORG='uvilla'
 export IMAGE_NAME='tps_env_parla'

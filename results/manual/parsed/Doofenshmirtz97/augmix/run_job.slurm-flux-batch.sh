@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 env_dir=/home/g050878/.conda/envs/augmixenv
 echo "$env_dir"  "Environment Directory"

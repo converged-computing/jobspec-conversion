@@ -3,7 +3,7 @@
 #FLUX: -c=96
 #FLUX: --exclusive
 #FLUX: --queue=production-cluster
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODEL_ID='stabilityai/stable-diffusion-xl-base-1.0'
 export LAUNCHER='accelerate launch \'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-rabbit-7531
-#FLUX: --priority=16
+#FLUX: --job-name=purple-lettuce-6730
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jin-taiyu/Bnalyser/trainCla.sh

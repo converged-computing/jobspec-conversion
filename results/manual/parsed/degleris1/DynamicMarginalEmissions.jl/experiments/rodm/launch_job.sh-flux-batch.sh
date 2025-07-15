@@ -2,7 +2,7 @@
 #FLUX: --job-name=carbon_rodm
 #FLUX: -c=8
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SCIPT_DIR=/home/users/degleris/CarbonNetworks.jl/experiments/rodm/
 srun hostname

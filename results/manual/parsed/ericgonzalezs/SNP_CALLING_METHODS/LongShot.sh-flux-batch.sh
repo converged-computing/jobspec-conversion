@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-dog-2905
+#FLUX: --job-name=bloated-frito-8751
 #FLUX: -t=173400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 Number_ch=`printf %02d $SLURM_ARRAY_TASK_ID`
 longshot -A -c 2 -e 2 -r Ha412HOChr$Number_ch -s ANN1372_LS_NGMLR --bam Sequel.RunS142_S2.002.ANN1372-3.ccs_NGMLR_bq_t.bam --ref Ha412HOv2.0-20181130.fasta --out Ha412HO_ANN1372-3$Number_ch.vcf

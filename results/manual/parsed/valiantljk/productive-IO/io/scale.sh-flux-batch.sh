@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-ricecake-5847
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-egg-4509
+#FLUX: --urgency=16
 
 export LD_PRELOAD='/opt/cray/pe/mpt/7.4.4/gni/mpich-gnu/5.1/lib/libmpich.so:/usr/common/software/darshan/3.0.1/lib/libdarshan.so:$LD_PRELOAD'
 

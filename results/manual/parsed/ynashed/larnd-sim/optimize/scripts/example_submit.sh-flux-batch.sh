@@ -2,7 +2,7 @@
 #FLUX: --job-name=larndsim-fit
 #FLUX: --queue=ml
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INPUT_FILE=/sdf/group/neutrino/cyifan/muon-sim/fake_data_S1/edepsim-output.h5
 SIF_FILE=/sdf/group/neutrino/images/larndsim_latest.sif

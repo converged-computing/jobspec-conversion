@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-taco-9776
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-lamp-8967
+#FLUX: --urgency=16
 
 module purge
 module load julia/1.8.2

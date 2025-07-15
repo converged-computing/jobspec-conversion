@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-punk-0642
+#FLUX: --job-name=grated-frito-3764
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export KMP_BLOCKTIME='0'

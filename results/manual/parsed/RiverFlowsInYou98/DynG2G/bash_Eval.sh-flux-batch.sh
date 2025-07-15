@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-parrot-2496
-#FLUX: --priority=16
+#FLUX: --job-name=fat-pedo-6197
+#FLUX: --urgency=16
 
 module load python/3.9.0
 module load cuda/11.3.1

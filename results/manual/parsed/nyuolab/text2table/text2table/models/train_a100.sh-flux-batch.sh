@@ -4,7 +4,7 @@
 #FLUX: -c=96
 #FLUX: --queue=oermannlab
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "hostname:"
 hostname

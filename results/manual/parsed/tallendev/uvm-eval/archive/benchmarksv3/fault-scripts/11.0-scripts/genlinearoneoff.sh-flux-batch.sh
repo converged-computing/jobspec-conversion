@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-buttface-1003
+#FLUX: --job-name=buttery-platanos-9969
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

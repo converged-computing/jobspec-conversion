@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-plant-4089
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-pancake-9566
+#FLUX: --urgency=16
 
 export LAMMPS_EXEC='ibrun lmp_stampede'
 

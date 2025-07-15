@@ -2,7 +2,7 @@
 #FLUX: --job-name=amr_alm
 #FLUX: -N=114
 #FLUX: -t=54900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SPACK_MANAGER='${HOME}/exawind/spack-manager'
 export OMP_NUM_THREADS='1  # Max hardware threads = 4'

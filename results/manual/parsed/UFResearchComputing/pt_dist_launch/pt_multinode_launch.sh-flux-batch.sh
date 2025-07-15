@@ -6,7 +6,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=hpg-ai
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CHECKPOINT_PATH=checkpoints_2_node
 VOCAB_FILE=../data/vocab.txt

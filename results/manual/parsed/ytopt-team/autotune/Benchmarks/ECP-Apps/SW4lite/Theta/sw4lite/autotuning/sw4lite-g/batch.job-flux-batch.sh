@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-leopard-7525
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-egg-4635
+#FLUX: --urgency=16
 

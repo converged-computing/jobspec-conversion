@@ -2,7 +2,7 @@
 #FLUX: --job-name=jupyter-lab
 #FLUX: -c=4
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DASK_DISTRIBUTED__DASHBOARD__LINK='proxy/{port}/status'
 

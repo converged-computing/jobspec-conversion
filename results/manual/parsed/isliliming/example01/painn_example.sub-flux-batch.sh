@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-latke-4287
+#FLUX: --job-name=buttery-peanut-4016
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load GCC  OpenMPI torchvision/0.13.1-CUDA-11.7.0

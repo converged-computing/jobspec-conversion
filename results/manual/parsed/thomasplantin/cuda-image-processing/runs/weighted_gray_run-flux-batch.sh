@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-kerfuffle-5365
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-snack-8377
+#FLUX: --urgency=16
 
 module load cuda
 module load gcc/7.3.0

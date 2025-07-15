@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-hope-1913
-#FLUX: --priority=16
+#FLUX: --job-name=milky-destiny-7815
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bonaert/mini-memoire/src/run.gpu.pbs

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lentil-9901
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-diablo-1677
+#FLUX: --urgency=16
 
 module load cuda/75/blas/7.5.18
 module load cuda/75/fft/7.5.18

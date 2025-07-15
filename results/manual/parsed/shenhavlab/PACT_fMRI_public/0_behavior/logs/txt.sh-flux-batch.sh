@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cherry-7752
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-punk-1356
+#FLUX: --urgency=16
 
 module load matlab/R2019a
 echo 'started at:'

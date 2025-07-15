@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-parsnip-8338
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-kitty-9867
+#FLUX: --urgency=16
 
 CHUNK="${SLURM_ARRAY_TASK_ID}"
 SUFFIX=${11}

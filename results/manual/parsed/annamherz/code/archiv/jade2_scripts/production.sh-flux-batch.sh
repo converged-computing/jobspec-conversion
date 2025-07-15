@@ -2,7 +2,7 @@
 #FLUX: --job-name=prod
 #FLUX: -c=5
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 source $scripts_dir/extract_execution_model_bash.sh

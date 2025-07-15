@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-peanut-0039
+#FLUX: --job-name=bricky-pot-0990
 #FLUX: -c=24
-#FLUX: --queue="small"
+#FLUX: --queue=small
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='$SLURM_JOB_GPUS'
 

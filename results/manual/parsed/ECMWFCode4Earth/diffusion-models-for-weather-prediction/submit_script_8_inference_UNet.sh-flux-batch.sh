@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=EvalUNet
 #FLUX: -t=13500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 helpFunction()
 {

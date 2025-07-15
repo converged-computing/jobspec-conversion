@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-cupcake-4369
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-animal-2028
+#FLUX: --urgency=16
 
 module load 2020
 module load Anaconda3/2020.02

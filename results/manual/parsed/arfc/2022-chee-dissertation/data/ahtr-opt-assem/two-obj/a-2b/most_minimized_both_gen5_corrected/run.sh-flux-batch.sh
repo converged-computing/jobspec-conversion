@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leader-5476
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-animal-8378
+#FLUX: --urgency=16
 

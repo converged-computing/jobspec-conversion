@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-salad-7427
-#FLUX: --priority=16
+#FLUX: --job-name=angry-house-9687
+#FLUX: --urgency=16
 
 export ATP_ENABLED='1'
 

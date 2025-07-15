@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-parsnip-0387
+#FLUX: --job-name=nerdy-bike-8774
 #FLUX: --exclusive
 #FLUX: --queue=a6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='./hf_cache/'
 export HF_DATASETS_CACHE='./hf_cache/'

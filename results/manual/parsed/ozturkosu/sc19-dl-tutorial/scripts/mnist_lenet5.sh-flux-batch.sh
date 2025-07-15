@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-staircase-8161
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-pot-5456
+#FLUX: --urgency=16
 
 module load tensorflow/intel-1.13.1-py36
 script=mnist.py

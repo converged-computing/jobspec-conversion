@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=std_devs
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 seed_displcmt=200
 num_seeds=10

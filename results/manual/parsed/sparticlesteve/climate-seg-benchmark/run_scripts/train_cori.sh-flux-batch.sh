@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hippo-3281
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-parrot-9830
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='68'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=nf-manager
 #FLUX: --queue=xeon-p8
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ENV=fragfold
 WORKFLOW=/data1/groups/keatinglab/swans/savinovCollaboration/FragFold/nextflow/ftsZ_homomeric_example.nf

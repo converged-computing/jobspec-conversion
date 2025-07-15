@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=attn
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "***Purging module files"
 echo ""

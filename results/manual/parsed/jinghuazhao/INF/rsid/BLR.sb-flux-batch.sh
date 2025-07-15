@@ -2,7 +2,7 @@
 #FLUX: --job-name=_BLR
 #FLUX: --queue=cardio
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export protein___uniprot='$(cut -d ' ' -f1-28 --complement ${INF}/h2/s.sample | head -1 | tr ' ' '\n' | grep -v BDNF | awk 'NR==ENVIRON["SLURM_ARRAY_TASK_ID"]')'
 

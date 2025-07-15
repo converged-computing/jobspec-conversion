@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-poodle-0501
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-diablo-8924
+#FLUX: --urgency=16
 
 export MPI_MCA_mca_base_component_show_load_errors='0'
 export PMIX_MCA_mca_base_component_show_load_errors='0'

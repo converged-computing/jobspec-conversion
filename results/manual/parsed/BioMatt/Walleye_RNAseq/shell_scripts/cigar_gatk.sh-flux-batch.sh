@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-avocado-9971
+#FLUX: --job-name=blue-general-6580
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nixpkgs/16.09 intel/2018.3
 module load gatk/4.0.8.1

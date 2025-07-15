@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-arm-3979
+#FLUX: --job-name=arid-frito-4496
 #FLUX: -t=720000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='TMP'
 

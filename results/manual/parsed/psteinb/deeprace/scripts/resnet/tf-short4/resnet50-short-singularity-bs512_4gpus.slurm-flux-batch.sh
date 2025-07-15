@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-general-1990
+#FLUX: --job-name=hanky-hippo-3946
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

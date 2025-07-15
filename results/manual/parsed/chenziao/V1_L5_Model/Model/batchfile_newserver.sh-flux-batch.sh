@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lentil-9101
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-peas-7953
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

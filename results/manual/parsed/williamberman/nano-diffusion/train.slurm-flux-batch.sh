@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-latke-9112
+#FLUX: --job-name=tart-fork-2669
 #FLUX: -c=96
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_HOME='/fsx/william/hf_home'
 export NCCL_ASYNC_ERROR_HANDLING='1'

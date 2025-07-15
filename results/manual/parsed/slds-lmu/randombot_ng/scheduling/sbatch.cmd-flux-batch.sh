@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-parsnip-6473
+#FLUX: --job-name=loopy-avocado-9058
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export REDISPW='$(head -c 128 /dev/urandom | sha1sum -b - | cut -c -40)'
 export REDISHOSTLIST='$('

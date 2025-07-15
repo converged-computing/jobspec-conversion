@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=arid-platanos-3711
+#FLUX: --job-name=eccentric-cat-7185
 #FLUX: -N=2
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HIPCC_COMPILE_FLAGS_APPEND='--offload-arch=gfx90a $(CC --cray-print-opts=cflags)'
 export HIPCC_LINK_FLAGS_APPEND='$(CC --cray-print-opts=libs)'

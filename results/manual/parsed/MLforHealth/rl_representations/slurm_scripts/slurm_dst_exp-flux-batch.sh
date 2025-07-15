@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-signal-8726
-#FLUX: --priority=16
+#FLUX: --job-name=red-frito-6680
+#FLUX: --urgency=16
 
 echo $(tail -n+$SLURM_ARRAY_TASK_ID dst_exp_params.txt | head -n1)
 cd ../scripts

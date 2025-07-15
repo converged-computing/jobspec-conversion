@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-chair-7295
-#FLUX: --priority=16
+#FLUX: --job-name=salted-signal-6266
+#FLUX: --urgency=16
 
 export MW_NVCC_PATH='/cm/shared/openmind/cuda/9.1/bin  # Cuda driver'
 

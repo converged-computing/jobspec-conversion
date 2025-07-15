@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="gmx_rdf_slab-z_OE"
+#FLUX: --job-name=gmx_rdf_slab-z_OE
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 analysis="rdf_slab-z_OE"
 thisfile=$(basename "${BASH_SOURCE[0]}")

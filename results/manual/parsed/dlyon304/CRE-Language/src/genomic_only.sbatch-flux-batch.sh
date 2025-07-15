@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-dog-0903
+#FLUX: --job-name=quirky-taco-2595
 #FLUX: -c=4
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval $(spack env activate --sh tensorflow-gpu)
 if [ -z ${SLURM_ARRAY_TASK_ID} ] ; then

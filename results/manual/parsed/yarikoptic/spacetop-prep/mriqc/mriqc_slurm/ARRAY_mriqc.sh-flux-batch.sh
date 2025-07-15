@@ -3,7 +3,7 @@
 #FLUX: -n=16
 #FLUX: --queue=standard
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 IMAGE="/dartfs-hpc/rc/lab/C/CANlab/modules/mriqc-0.14.2.sif"
 MAINDIR="/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop"

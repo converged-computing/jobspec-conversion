@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=gpu
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/sw/spack-levante/gcc-11.2.0-bcn7mb/lib64:$LD_LIBRARY_PATH'
 export PREFIX='./build-nvhpc-acc'

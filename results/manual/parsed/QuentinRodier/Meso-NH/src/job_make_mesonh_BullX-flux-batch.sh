@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=compile
 #FLUX: -t=14700
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 pwd

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-rabbit-1809
+#FLUX: --job-name=persnickety-salad-8083
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /users/aarjun1/data/aarjun1/prj_depth/
 module load anaconda/3-5.2.0

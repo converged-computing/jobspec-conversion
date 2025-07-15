@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=higgsmaf
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate goldmine
 cd /home/jb6504/higgs_inference/higgs_inference

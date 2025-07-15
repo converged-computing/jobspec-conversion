@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-underoos-9637
+#FLUX: --job-name=reclusive-squidward-8589
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sudo chmod ugo=rwx -R /scratch/
 sudo chmod ugo=rwx -R /shared/SVOutput/

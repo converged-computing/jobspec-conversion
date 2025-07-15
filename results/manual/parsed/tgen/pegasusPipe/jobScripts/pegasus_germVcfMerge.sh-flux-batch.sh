@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="pegasus_germVCFmerge"
+#FLUX: --job-name=pegasus_germVCFmerge
 #FLUX: -c=8
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -o pipefail
 module load picard-tools/1.128

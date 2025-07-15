@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leader-9384
-#FLUX: --priority=16
+#FLUX: --job-name=tart-blackbean-3984
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/marco-willi/camera-trap-data-pipeline/machine_learning/jobs/ctc_predict_empty_file.pbs

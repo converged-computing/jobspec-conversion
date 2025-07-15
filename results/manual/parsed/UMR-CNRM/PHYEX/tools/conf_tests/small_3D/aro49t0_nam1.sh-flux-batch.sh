@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-fork-3300
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-cattywampus-7845
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=hpcc_test
 #FLUX: --queue=compute
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/6.3.0/1
 module load intel/mpi/64/2017.2.174

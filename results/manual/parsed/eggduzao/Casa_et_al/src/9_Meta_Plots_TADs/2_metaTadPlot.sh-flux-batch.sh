@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MTP
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:"/home/egusmao/software/ibm-cbc-genomic-tools-master/bin/'
 export PYTHONPATH='$PYTHONPATH:"/projects/ag-papan/install/MACS2-2.1.1.20160309/inst/lib/python2.7/site-packages/'

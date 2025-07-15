@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Watershed
 #FLUX: -c=3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SUBJECT_LIST=./subjectsWithParietalPeak.txt
 module load ConnectomeWorkbench/1.4.2-rh_linux64

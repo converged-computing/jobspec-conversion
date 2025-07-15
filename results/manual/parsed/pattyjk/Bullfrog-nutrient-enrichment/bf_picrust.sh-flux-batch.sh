@@ -2,7 +2,7 @@
 #FLUX: --job-name=bf_picrust
 #FLUX: --queue=Intel6240
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate picrust2
 cd /hpcstor6/scratch01/p/patrick.kearns/Bullfrog_nut_enrich

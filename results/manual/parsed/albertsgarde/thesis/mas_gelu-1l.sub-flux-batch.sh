@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-soup-6252
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-hobbit-6821
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/albertsgarde/thesis/mas_gelu-1l.sub

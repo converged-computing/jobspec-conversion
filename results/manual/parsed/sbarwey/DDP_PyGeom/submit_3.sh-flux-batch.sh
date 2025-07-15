@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-blackbean-7366
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-general-4417
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sbarwey/DDP_PyGeom/submit_3.sh

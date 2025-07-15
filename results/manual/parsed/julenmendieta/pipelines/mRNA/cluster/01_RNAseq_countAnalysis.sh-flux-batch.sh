@@ -2,7 +2,7 @@
 #FLUX: --job-name=mRNA_countA
 #FLUX: -c=8
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 basePath=$1
 REFERENCE_DIR=$2

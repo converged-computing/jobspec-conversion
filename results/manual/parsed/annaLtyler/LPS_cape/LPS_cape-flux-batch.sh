@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-frito-5587
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-pedo-0062
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load singularity

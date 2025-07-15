@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-leader-8038
-#FLUX: --priority=16
+#FLUX: --job-name=fat-malarkey-8929
+#FLUX: --urgency=16
 

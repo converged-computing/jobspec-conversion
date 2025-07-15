@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="diffusion-policy-can_ph-crossway_vit-t_backbone"
+#FLUX: --job-name=diffusion-policy-can_ph-crossway_vit-t_backbone
 #FLUX: -c=16
 #FLUX: --queue=GPU
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3
 module load cuda

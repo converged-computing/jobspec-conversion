@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-punk-3155
+#FLUX: --job-name=gassy-cupcake-4709
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 slmodules -s x86_E5v2_Mellanox_GPU
 module load gcc cuda cudnn mvapich2 openblas

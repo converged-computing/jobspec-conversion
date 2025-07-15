@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=processing
 #FLUX: -n=128
-#FLUX: --queue="standard"
+#FLUX: --queue=standard
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cray-python/3.9.12.1
 module load parallel

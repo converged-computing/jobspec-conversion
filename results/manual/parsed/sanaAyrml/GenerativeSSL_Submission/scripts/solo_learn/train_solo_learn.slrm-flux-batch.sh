@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="sanity_simclr_single_train"
+#FLUX: --job-name=sanity_simclr_single_train
 #FLUX: -c=8
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='1  # Our cluster does not have InfiniBand. We need to disable usage using this flag.'
 export TORCH_NCCL_ASYNC_ERROR_HANDLING='1 # set to 1 for NCCL backend'

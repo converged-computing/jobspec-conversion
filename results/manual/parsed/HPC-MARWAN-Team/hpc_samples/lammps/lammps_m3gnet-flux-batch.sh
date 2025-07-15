@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-cherry-1708
+#FLUX: --job-name=quirky-pastry-2260
 #FLUX: --queue=shortq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORK_DIR='/scratch/users/$USER/workdir/LMP${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/input_MD_M3GNET'

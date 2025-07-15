@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-blackbean-0002
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-lizard-9949
+#FLUX: --urgency=16
 

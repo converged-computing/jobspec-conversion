@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-plant-6516
+#FLUX: --job-name=delicious-buttface-5436
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONFAULTHANDLER='1'
 export CUDA_LAUNCH_BLOCKING='0'

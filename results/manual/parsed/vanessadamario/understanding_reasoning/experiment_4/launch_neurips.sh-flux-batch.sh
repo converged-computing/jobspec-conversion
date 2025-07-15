@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=groupall4
 #FLUX: --queue=normal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add openmind/singularity/3.4.1
 hostname

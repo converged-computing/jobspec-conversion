@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=stsi
 #FLUX: -t=2160000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load samtools/1.10

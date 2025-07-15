@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pastry-0719
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-chair-1101
+#FLUX: --urgency=16
 
 export rocm_version='5.4.3'
 export FI_MR_CACHE_MONITOR='memhooks'

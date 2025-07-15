@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-underoos-1805
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-earthworm-0927
+#FLUX: --urgency=16
 
 export num_dev='`echo $CUDA_VISIBLE_DEVICES | awk 'BEGIN{FS=","};{print NF}'`'
 export init='step3_charmm2amber'

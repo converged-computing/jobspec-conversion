@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-staircase-6833
+#FLUX: --job-name=quirky-nalgas-5997
 #FLUX: --queue=NeSI
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='cores'

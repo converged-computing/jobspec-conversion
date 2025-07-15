@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-taco-1938
-#FLUX: --priority=16
+#FLUX: --job-name=angry-avocado-9495
+#FLUX: --urgency=16
 
 source /etc/profile
 module load anaconda3-5.0.1

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cattywampus-8424
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-poo-2626
+#FLUX: --urgency=16
 
 singularity exec -B /mnt/f/Brinkman\ group/COVID/data/structure_test/:/data/ \
 -B /mnt/f/Brinkman\ group/COVID/data/code/:/code/ \

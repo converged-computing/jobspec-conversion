@@ -2,7 +2,7 @@
 #FLUX: --job-name=dog8
 #FLUX: -c=8
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATA='mona_lisa'
 export CLASS='mona lisa'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=df
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CLUSTER='/net/cluster/$USER'
 export WORKON_HOME='/cluster/$USER/.cache'

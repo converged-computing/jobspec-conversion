@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lettuce-4713
-#FLUX: --priority=16
+#FLUX: --job-name=blank-punk-9332
+#FLUX: --urgency=16
 
 export OMPI_MCA_opal_cuda_support='true'
 

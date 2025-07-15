@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=long
 #FLUX: -t=64800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$CONDA_PREFIX/lib'
 export XLA_FLAGS='--xla_gpu_force_compilation_parallelism=1  --xla_force_host_platform_device_count=2'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-signal-7147
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-soup-4328
+#FLUX: --urgency=16
 
 set -e
 mkdir -p logs

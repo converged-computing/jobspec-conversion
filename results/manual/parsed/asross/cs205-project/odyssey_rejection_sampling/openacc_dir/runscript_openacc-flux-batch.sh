@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-rabbit-7252
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-leopard-4509
+#FLUX: --urgency=16
 
 pgc++ -acc -ta=nvidia -Minfo=accel -o openacc openacc.cpp
 ./openacc > "out-openacc.txt"

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=extract_feats
 #FLUX: --queue=normal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add clustername/singularity/3.4.1
 hostname

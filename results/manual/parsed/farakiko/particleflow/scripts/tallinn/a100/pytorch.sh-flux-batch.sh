@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kitty-1890
+#FLUX: --job-name=sticky-itch-1510
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 IMG=/home/software/singularity/pytorch.simg:2024-03-11
 cd ~/particleflow

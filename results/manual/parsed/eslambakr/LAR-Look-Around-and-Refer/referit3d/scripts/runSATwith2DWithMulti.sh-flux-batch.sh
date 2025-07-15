@@ -2,7 +2,7 @@
 #FLUX: --job-name=runSATWithCocoonMutliproceROINoRellu
 #FLUX: --queue=batch
 #FLUX: -t=180000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.2.89
 module load gcc/6.4.0 

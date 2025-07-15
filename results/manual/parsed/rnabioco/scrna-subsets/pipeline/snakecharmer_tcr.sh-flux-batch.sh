@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-train-2197
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-motorcycle-8643
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rnabioco/scrna-subsets/pipeline/snakecharmer_tcr.sh

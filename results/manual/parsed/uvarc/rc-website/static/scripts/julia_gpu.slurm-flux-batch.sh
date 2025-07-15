@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-punk-6057
+#FLUX: --job-name=faux-peanut-butter-7771
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo 'slurm allocates gpus ' $CUDA_VISIBLE_DEVICES
 module purge

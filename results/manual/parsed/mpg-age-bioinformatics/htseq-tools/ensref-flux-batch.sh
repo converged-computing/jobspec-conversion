@@ -2,7 +2,7 @@
 #FLUX: --job-name=${fa%.fa}_samtoolsIndex
 #FLUX: -c=72
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 HOMESOURCE="source ~/.bashrc"
 SLURMPARTITION="hooli"

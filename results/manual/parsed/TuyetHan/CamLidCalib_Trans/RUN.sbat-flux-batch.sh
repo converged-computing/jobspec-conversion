@@ -2,7 +2,7 @@
 #FLUX: --job-name=Trial
 #FLUX: --queue=ai
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_NCCL_ASYNC_ERROR_HANDLING='1'
 export CUDA_LAUNCH_BLOCKING='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-itch-9629
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-arm-6589
+#FLUX: --urgency=16
 
 module load pytorch
 source /pscratch/sd/y/yanggao/sd-scripts/venv/bin/activate

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mlp_pytorch_experiments
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo Running script at $(pwd)
 ENV=pytorch

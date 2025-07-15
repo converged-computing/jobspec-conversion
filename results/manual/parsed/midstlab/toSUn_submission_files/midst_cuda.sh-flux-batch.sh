@@ -2,7 +2,7 @@
 #FLUX: --job-name=DHFR
 #FLUX: --queue=midst
 #FLUX: -t=1296000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INPUT_FILE="tmpp_w30g_l28r.conf"
 source /etc/profile.d/modules.sh

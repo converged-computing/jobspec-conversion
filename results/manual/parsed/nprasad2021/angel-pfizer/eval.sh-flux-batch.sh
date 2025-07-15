@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=new_exp
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ..
 singularity exec -B /om:/om --nv /om/user/nprasad/singularity/belledon-tensorflow-keras-master-latest.simg \

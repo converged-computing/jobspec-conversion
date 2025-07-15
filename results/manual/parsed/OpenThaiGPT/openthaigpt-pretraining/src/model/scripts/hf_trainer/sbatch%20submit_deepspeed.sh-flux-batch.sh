@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-avocado-4834
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-house-1202
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_SOCKET_IFNAME='hsn '

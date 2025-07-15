@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-omelette-0116
+#FLUX: --job-name=confused-leopard-9619
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load CMake Ninja Clang NASM hwloc bzip2

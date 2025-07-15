@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-punk-6302
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-fork-5171
+#FLUX: --urgency=16
 
 module load python gcc/5.2.0-fasrc01 openmpi/2.0.1-fasrc01 fftw/3.3.5-fasrc01
 source activate storm_analysis

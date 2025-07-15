@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hobbit-5834
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-diablo-0747
+#FLUX: --urgency=16
 
 module load miniconda3/23.11.0s
 source /oscar/runtime/software/external/miniconda3/23.11.0/etc/profile.d/conda.sh

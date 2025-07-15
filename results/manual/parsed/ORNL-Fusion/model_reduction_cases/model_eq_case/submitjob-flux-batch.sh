@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-noodle-2203
+#FLUX: --job-name=eccentric-hobbit-1965
 #FLUX: -N=10
 #FLUX: -c=64
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EFIT_BIN_DIR='/global/common/software/atom/cori/binaries/efit/default'
 export EFIT_BIN_NAME='efitd90'

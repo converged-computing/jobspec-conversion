@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peanut-butter-3599
+#FLUX: --job-name=eccentric-hobbit-7178
 #FLUX: -n=24
 #FLUX: --queue=serc
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PKG_CONFIG_PATH='$PKG_CONFIG_PATH:MPICC_DIR_PKG_CONFIG '
 export CPATH='${INCLUDE}:${CPATH}'

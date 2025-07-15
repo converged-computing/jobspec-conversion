@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-noodle-9028
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-fork-0171
+#FLUX: --urgency=16
 
 module load intel intelFPGA_pro/21.2.0 bittware_520n/20.4.0_max devel/CMake/3.15.3-GCCcore-8.3.0
 srun ../../synthesis_artifacts/PTRANS/520n-21.2.0-20.4.0-iec/Transpose_intel \

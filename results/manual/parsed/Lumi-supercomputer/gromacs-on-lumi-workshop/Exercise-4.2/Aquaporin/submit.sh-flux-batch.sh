@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-pancake-3572
+#FLUX: --job-name=carnivorous-egg-2297
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: --queue=small-g
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='7'
 export MPICH_GPU_SUPPORT_ENABLED='1'

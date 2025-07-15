@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cherry-9822
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-gato-5822
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

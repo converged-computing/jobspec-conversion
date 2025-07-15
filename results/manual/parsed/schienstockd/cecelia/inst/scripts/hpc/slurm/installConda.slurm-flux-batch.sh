@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="[CCIA] Install conda environment"
+#FLUX: --job-name=[CCIA] Install conda environment
 #FLUX: -c=2
 #FLUX: --queue=cascade
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='~/.conda/envs/r-cecelia-env/lib:$JAVA_HOME/jre/lib/amd64/server/'
 export CONDA_ENVS_PATH='/data/gpfs/projects/punim1124/cecelia/envs/'

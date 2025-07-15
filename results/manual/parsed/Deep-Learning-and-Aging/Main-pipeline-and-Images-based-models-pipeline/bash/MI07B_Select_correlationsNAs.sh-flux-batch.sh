@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-earthworm-4401
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-noodle-2159
+#FLUX: --urgency=16
 
 set -e
 module load gcc/6.2.0

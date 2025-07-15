@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pot-5842
+#FLUX: --job-name=evasive-leader-3016
 #FLUX: --queue=week-long-std
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 {% extends "slurm.sh" %}
 {% block header %}

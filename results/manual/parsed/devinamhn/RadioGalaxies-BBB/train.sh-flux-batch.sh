@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=vi
 #FLUX: -t=1380
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd;
 nvidia-smi

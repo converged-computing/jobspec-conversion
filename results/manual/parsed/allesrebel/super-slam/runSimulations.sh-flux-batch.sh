@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lamp-2953
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-kerfuffle-2999
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/allesrebel/super-slam/runSimulations.sh

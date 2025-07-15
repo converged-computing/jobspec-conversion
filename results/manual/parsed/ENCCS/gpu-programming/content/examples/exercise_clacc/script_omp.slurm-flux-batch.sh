@@ -2,7 +2,7 @@
 #FLUX: --job-name=test.omp
 #FLUX: --queue=eap
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/scratch/project_465000485/Clacc/llvm-project/install/lib:$LD_LIBRARY_PATH'
 

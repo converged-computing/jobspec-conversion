@@ -3,7 +3,7 @@
 #FLUX: -n=40
 #FLUX: --queue=leauthaud
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /data/groups/leauthaud/jolange/Zebu/lux
 source init.sh

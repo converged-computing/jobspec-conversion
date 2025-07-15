@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-staircase-7060
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-chair-1008
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

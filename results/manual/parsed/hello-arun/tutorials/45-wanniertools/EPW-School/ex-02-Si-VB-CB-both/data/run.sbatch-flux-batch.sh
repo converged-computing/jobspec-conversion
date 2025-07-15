@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="__jobName"
+#FLUX: --job-name=__jobName
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
     module load wannier90/3.0.0/openmpi-3.0.0-intel2017
     module load quantumespresso/6.6

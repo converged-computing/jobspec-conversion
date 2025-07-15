@@ -3,7 +3,7 @@
 #FLUX: -c=14
 #FLUX: --queue=gpu
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SIRE_DONT_PHONEHOME='1'
 export SIRE_SILENT_PHONEHOME='1'

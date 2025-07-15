@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-frito-3703
+#FLUX: --job-name=reclusive-earthworm-6011
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='64'
 export TMPDIR='$SCRATCH'

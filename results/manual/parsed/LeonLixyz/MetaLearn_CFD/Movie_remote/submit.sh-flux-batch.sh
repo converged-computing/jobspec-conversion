@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Movie_experiments_name
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 [[ ! -d slurm ]] && mkdir slurm
 experiment_name=$(sed -n "${SLURM_ARRAY_TASK_ID}p" experiments.txt)

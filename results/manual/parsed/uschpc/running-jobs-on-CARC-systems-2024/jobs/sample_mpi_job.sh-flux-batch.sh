@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-banana-5338
+#FLUX: --job-name=butterscotch-onion-6155
 #FLUX: -N=3
 #FLUX: -n=9
 #FLUX: --queue=main
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load usc

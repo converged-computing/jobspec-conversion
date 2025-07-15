@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-squidward-9151
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-frito-5813
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

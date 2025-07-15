@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pastry-5749
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-lemon-0156
+#FLUX: --urgency=16
 
 module reset
 module load GROMACS/2020.4-fosscuda-2020b

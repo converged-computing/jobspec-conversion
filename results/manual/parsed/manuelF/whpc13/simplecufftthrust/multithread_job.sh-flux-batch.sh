@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Mfftw
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile
 module load cuda/5.0

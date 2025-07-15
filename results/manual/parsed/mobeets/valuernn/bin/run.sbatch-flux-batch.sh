@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cherry-8731
-#FLUX: --priority=16
+#FLUX: --job-name=grated-cupcake-6856
+#FLUX: --urgency=16
 
 module load python/3.8.5-fasrc01
 source activate pt38

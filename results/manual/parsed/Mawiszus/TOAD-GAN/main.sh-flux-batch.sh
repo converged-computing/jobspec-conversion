@@ -4,7 +4,7 @@
 #FLUX: -c=2
 #FLUX: --queue=gpu_cluster_enife
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/schubert/projects/TOAD-GAN
 source /home/schubert/miniconda3/tmp/bin/activate toadgan

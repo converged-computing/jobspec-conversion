@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=mi210q
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='verbose'
 

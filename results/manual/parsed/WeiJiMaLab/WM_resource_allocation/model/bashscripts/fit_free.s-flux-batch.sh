@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=SWM_free
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load matlab/2016b

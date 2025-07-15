@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-dog-7003
+#FLUX: --job-name=swampy-cupcake-9827
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR                            # Change to working directory
 conda activate ldm

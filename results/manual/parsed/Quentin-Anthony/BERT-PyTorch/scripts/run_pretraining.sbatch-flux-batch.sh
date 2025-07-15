@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lemon-9119
-#FLUX: --priority=16
+#FLUX: --job-name=milky-pastry-4190
+#FLUX: --urgency=16
 
 PHASE=1
 if [[ "$PHASE" -eq 1 ]]; then

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=CBASS
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FOLDER='$(pwd) # Considering that the scheduler is in the same folder of the .m script being used, otherwise specify the path as '=/gpfs/ysm/home/ahf38/Documents/gamma_bouts/Demo/'
 export ScriptName='CBASS_Call_Main_AF.m' # Matlab script to be used for the analysis'

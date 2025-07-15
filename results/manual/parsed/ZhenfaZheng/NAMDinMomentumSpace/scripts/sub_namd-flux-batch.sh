@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-peas-8738
+#FLUX: --job-name=evasive-parrot-5803
 #FLUX: --queue=normal,normal2,normal3,normal4
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/data/app/qe-7.2/Hefei-NAMD/NAMD-EPC/src:$PATH'
 

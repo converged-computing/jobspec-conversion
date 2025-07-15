@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-plant-8579
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-squidward-6311
+#FLUX: --urgency=16
 
 module purge
 module load calcua/2020a

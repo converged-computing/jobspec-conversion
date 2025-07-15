@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-salad-5295
+#FLUX: --job-name=grated-punk-1698
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-butter-4223
-#FLUX: --priority=16
+#FLUX: --job-name=purple-platanos-3254
+#FLUX: --urgency=16
 
 module purge
 module load matlab

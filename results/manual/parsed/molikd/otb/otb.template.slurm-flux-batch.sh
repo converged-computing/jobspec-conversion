@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-snack-6854
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-salad-3088
+#FLUX: --urgency=16
 
 module load nextflow/22.04.3
 Assembly_Name=$(basename "$( pwd )")

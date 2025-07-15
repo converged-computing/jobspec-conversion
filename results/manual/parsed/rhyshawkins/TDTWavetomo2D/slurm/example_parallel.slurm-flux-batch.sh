@@ -2,7 +2,7 @@
 #FLUX: --job-name=example_parallel
 #FLUX: --queue=transcale
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export INTEL_LICENSE_FILE='/softs/intel/l_ics/license:$INTEL_LICENSE_FILE'
 

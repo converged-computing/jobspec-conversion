@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ondemand/sys/myjobs/basic_gromacs_parallel
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set +vx
 module unload mvapich2

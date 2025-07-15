@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-general-5242
+#FLUX: --job-name=pusheena-pastry-4861
 #FLUX: -c=3
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CXX='g++'
 export BOOST_INCLUDE='/cluster/tufts/lamontagnelab/byarla01/libs/boost_1_67_0'

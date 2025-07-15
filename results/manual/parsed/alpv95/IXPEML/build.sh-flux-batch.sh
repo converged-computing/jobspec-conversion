@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=kipac
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml python/3.9
 ml py-scipy/1.6.3_py39

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-chip-4482
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-soup-8148
+#FLUX: --urgency=16
 
 export CRAY_ACCEL_TARGET='nvidia80'
 export AMREX_CUDA_ARCH='8.0'

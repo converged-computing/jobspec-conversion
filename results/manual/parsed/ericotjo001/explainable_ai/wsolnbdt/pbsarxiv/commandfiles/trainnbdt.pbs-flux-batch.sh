@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lentil-3510
-#FLUX: --priority=16
+#FLUX: --job-name=fat-pastry-9265
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ericotjo001/explainable_ai/wsolnbdt/pbsarxiv/commandfiles/trainnbdt.pbs

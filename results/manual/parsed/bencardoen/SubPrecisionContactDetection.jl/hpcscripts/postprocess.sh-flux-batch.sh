@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-general-4324
+#FLUX: --job-name=fuzzy-chip-4999
 #FLUX: -c=6
 #FLUX: -t=64800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export SINGULARITY_BINDPATH='/scratch/$USER,$SLURM_TMPDIR'

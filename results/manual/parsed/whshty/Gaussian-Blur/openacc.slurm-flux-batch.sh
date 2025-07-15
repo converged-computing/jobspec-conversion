@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-hope-3744
+#FLUX: --job-name=carnivorous-gato-1259
 #FLUX: --queue=gpufermi
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cp 500.bmp *.c $PFSDIR/.
 cd $PFSDIR

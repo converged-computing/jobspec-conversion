@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-puppy-0810
+#FLUX: --job-name=expressive-cat-4154
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKL_NUM_THREADS='1'
 export OPENBLAS_NUM_THREADS='1'

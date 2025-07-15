@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-kitty-7139
+#FLUX: --job-name=lovable-poo-0484
 #FLUX: -n=48
 #FLUX: --queue=micro
 #FLUX: -t=1790
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load spack/22.2.1
 module load intel-oneapi-toolkit/2022.3.0

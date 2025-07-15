@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=high_priority
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TOIL_SLURM_ARGS='--time=3-0:00 --partition=high_priority'
 

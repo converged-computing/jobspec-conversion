@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-chip-2873
+#FLUX: --job-name=bloated-pastry-2268
 #FLUX: -c=3
 #FLUX: --queue=mcovert
 #FLUX: -t=84600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 function get_port {
   local DESIRED_PORT=$1

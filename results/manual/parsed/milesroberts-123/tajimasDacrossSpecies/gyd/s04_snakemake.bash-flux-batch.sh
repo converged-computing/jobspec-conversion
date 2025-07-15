@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-house-6988
+#FLUX: --job-name=fuzzy-dog-4132
 #FLUX: --queue=josephsnodes
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "This job is running on $HOSTNAME on `date`"
 echo Loading snakemake...

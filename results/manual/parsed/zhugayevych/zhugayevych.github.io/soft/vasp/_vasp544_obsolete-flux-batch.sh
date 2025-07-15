@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-platanos-4479
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-chair-5566
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export SCR='/scr/$SLURM_JOB_NAME'

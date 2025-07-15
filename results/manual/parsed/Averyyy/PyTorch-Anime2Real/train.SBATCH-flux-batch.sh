@@ -2,7 +2,7 @@
 #FLUX: --job-name=cyclegan_a2r
 #FLUX: -c=6
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda3

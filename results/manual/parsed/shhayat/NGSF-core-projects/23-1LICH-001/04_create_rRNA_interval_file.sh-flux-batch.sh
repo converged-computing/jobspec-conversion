@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rrna_intervals
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eux
 module load nixpkgs/16.09 

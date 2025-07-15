@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-citrus-1949
-#FLUX: --priority=16
+#FLUX: --job-name=astute-punk-2234
+#FLUX: --urgency=16
 
 EXE=./main3d.gnu.TPROF.MPI.CUDA.ex
 INPUTS=inputs

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-parrot-8469
+#FLUX: --job-name=lovely-pancake-3439
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PDB_FILE=1AKI.pdb
 PROTEIN="${PDB_FILE%.*}"

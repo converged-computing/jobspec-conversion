@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=sac_dylam_agent
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python3.10 Xvfb freeglut glew MuJoCo
 source $HOME/.pyvenvs/rl/bin/activate

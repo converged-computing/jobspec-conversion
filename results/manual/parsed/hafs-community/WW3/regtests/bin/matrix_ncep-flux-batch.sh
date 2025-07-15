@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-squidward-1250
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-blackbean-7135
+#FLUX: --urgency=16
 
   source $(dirname $0)/../../model/bin/w3_setenv
   main_dir=$WWATCH3_DIR

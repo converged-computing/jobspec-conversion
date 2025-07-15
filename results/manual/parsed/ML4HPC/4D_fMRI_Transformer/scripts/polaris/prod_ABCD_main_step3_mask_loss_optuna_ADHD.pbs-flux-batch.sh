@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-dog-9071
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-bits-4025
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ML4HPC/4D_fMRI_Transformer/scripts/polaris/prod_ABCD_main_step3_mask_loss_optuna_ADHD.pbs

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-sundae-8724
+#FLUX: --job-name=sticky-animal-9487
 #FLUX: --exclusive
 #FLUX: --queue=dev
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun -v -v -N 4 -n 4 spack install \
   -v -y \

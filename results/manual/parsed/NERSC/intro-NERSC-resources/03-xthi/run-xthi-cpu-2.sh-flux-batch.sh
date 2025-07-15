@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-hope-5506
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-avocado-6284
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 export OMP_PROC_BIND='close'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-bike-6942
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-blackbean-0040
+#FLUX: --urgency=16
 
 echo "Running on"
 hostname

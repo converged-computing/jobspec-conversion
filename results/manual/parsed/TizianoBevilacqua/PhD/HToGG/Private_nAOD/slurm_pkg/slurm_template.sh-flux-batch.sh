@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bicycle-3124
+#FLUX: --job-name=pusheena-cinnamonbun-4317
 #FLUX: -c=4
 #FLUX: --queue=standard
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "------------------------------------------------------------"
 echo "[`date`] Job started"

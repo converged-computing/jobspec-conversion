@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-blackbean-1944
+#FLUX: --job-name=confused-fudge-7611
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$ANACONDA_PYTHON_PATH'
 

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=blue-general-5876
+#FLUX: --job-name=red-parsnip-3087
 #FLUX: -c=28
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MERIC_MODE='3'
 export MERIC_DEBUG='0'

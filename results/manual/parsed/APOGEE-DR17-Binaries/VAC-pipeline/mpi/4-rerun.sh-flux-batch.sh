@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-hippo-0874
-#FLUX: --priority=16
+#FLUX: --job-name=blank-pastry-5918
+#FLUX: --urgency=16
 
 cd /mnt/ceph/users/apricewhelan/projects/apogee-dr17-binaries/vac-pipeline
 source hq-config/init.sh

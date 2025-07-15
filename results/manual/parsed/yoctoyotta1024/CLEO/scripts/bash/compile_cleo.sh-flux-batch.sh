@@ -2,7 +2,7 @@
 #FLUX: --job-name=compile_cleo
 #FLUX: --queue=gpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cleoenv=$1        # get from command line argument
 buildtype=$2      # get from command line argument

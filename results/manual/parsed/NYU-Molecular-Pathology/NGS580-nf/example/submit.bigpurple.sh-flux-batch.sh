@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-omelette-6003
+#FLUX: --job-name=stinky-buttface-7280
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 touch .nextflow.submitted
 get_pid(){ head -1 .nextflow.pid; }

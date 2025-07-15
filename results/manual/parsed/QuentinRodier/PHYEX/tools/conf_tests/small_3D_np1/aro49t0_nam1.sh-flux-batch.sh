@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-pedo-5777
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-staircase-9687
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lettuce-8998
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-parrot-5751
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/packages/compilers/intel/compiler/2022.0.2/linux/compiler/lib/intel64_lin:${LD_LIBRARY_PATH}'
 export MV2_HOMOGENEOUS_CLUSTER='1'

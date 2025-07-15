@@ -2,7 +2,7 @@
 #FLUX: --job-name=docker-deepcam-mini
 #FLUX: -c=12
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_IB_PCI_RELAXED_ORDERING='on \'
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64/:$LD_LIBRARY_PATH'

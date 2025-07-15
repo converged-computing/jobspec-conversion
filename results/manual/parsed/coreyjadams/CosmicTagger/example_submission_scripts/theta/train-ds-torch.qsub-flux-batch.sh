@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bike-9551
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-spoon-9448
+#FLUX: --urgency=16
 

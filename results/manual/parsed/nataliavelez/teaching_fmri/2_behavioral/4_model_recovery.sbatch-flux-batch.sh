@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-itch-1853
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-squidward-9865
+#FLUX: --urgency=16
 
 module load ncf
 module load Anaconda/5.0.1-fasrc01

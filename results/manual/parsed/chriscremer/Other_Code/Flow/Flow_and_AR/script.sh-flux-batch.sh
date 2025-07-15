@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-butter-0454
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-pedo-3119
+#FLUX: --urgency=16
 
 export PATH='$PATH:/h/ccremer/anaconda3/bin'
 

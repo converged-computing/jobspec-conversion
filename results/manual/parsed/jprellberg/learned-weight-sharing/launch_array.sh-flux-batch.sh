@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-peanut-7673
+#FLUX: --job-name=expressive-onion-3729
 #FLUX: -n=4
 #FLUX: --queue=long
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting $1 parallel processes on a single GPU"
 for i in $(seq 1 $1); do

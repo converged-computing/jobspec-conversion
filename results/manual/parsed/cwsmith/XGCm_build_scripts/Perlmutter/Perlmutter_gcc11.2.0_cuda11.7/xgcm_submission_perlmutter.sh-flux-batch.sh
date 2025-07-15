@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Cyclone_590k_nphi=8
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 export MPICH_ABORT_ON_ERROR='1'

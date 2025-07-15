@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="road_detector"
+#FLUX: --job-name=road_detector
 #FLUX: --queue=GPUQ
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

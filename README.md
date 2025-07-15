@@ -34,7 +34,7 @@ If you are using Flux in a container:
 ```bash
 docker run -it -v $PWD/:/data fluxrm/flux-sched:jammy
 cd /data
-sudo apt-get update && apt-get install -y python3-pandas python3-seaborn
+sudo apt-get update && sudo apt-get install -y python3-pandas python3-seaborn
 ```
 
 You'll need this installed
@@ -50,7 +50,10 @@ cd -
 
 ```bash
 cd /data
-python validate-jobspecs.py
+python3 validate-jobspecs.py
+
+# Choose a specific directory
+python3 validate-jobspecs.py --input ./results/manual/parsed/
 ```
 
 Note that this sample is biased to those that the Gemini API can parse.

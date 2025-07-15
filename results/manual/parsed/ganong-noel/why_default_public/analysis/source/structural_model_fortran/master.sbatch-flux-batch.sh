@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-sundae-5523
+#FLUX: --job-name=milky-itch-2602
 #FLUX: --queue=broadwl
 #FLUX: -t=90000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 BASE_DIR=$(pwd)
 DATE=$(date "+%Y_%m_%d")

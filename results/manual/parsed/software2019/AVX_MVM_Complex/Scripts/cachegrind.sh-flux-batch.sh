@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-nalgas-0658
-#FLUX: --queue=test          # Job queue
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-chair-5462
+#FLUX: --queue=test
+#FLUX: --urgency=16
 
 export I_MPI_DEBUG='5 '
 export OMP_DISPLAY_AFFINITY='TRUE '

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-plant-7773
+#FLUX: --job-name=astute-egg-3945
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . ./scripts/modules_truba.sh > /dev/null
 MAX_NUM_GPUS=8

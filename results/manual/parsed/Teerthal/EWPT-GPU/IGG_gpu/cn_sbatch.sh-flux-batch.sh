@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-leg-7712
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-plant-3306
+#FLUX: --urgency=16
 
 module load mvapich2-2.3.7-gcc-11.2.0
 MV2_USE_ALIGNED_ALLOC=1

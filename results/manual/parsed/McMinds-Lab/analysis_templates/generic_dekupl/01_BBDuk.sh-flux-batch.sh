@@ -2,7 +2,7 @@
 #FLUX: --job-name=01_BBDuk
 #FLUX: --queue=rra
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source local.env
 indir=$1

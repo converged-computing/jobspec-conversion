@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: -n=4
 #FLUX: -c=9
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load openmpi@4.1.6
 module load openmpi

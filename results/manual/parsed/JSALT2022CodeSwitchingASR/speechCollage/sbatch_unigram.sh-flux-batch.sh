@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-butter-8782
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-cat-6546
+#FLUX: --urgency=16
 
 module load gcc6 slurm cmake
 inputlist=$1

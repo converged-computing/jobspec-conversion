@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-despacito-5371
+#FLUX: --job-name=dinosaur-eagle-0590
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

@@ -2,7 +2,7 @@
 #FLUX: --job-name=StdModel_target_noCross
 #FLUX: -c=20
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab/2021a
 matlab <<EOF

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-cinnamonbun-7175
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-snack-7330
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sourabhparime/CRF_Message-Passing/crf_loss.pbs

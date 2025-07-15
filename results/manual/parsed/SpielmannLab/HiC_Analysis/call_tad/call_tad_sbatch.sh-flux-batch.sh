@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bike-4208
+#FLUX: --job-name=adorable-lizard-9392
 #FLUX: --queue=shortterm
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow/v22.04.1
 mkdir -p "${WORK}/call_tad_nextflow_launchdir"

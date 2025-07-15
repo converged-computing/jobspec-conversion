@@ -2,7 +2,7 @@
 #FLUX: --job-name=d9
 #FLUX: -c=4
 #FLUX: -t=50400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cuda/8.0.44

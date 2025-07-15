@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="high_da"
+#FLUX: --job-name=high_da
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "julia main.jl --lang da --epochs 100 --dropouts 0.3"
 julia main.jl --lang da --epochs 100 --dropouts 0.3

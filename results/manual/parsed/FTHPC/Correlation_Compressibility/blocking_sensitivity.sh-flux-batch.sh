@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-car-6821
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-parrot-7237
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/FTHPC/Correlation_Compressibility/blocking_sensitivity.sh

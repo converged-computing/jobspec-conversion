@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-underoos-0814
+#FLUX: --job-name=dirty-eagle-1842
 #FLUX: -n=192
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

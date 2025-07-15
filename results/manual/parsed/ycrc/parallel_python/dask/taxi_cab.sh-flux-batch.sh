@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-muffin-5160
-#FLUX: --priority=16
+#FLUX: --job-name=placid-carrot-9644
+#FLUX: --urgency=16
 
 module load dask
 python taxi_cab.py  

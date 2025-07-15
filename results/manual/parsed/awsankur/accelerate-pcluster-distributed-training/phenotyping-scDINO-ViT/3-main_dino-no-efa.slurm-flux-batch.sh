@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-muffin-0764
+#FLUX: --job-name=swampy-blackbean-2378
 #FLUX: -N=4
 #FLUX: -c=16
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/usr/local/lib/:$LD_LIBRARY_PATH'
 export FI_LOG_LEVEL='1'

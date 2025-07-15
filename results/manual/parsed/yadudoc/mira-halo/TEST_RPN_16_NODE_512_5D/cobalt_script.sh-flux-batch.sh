@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-poodle-8491
-#FLUX: --priority=16
+#FLUX: --job-name=purple-earthworm-0557
+#FLUX: --urgency=16
 

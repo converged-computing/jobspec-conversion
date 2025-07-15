@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=${RUN_CONFIG_PREFIX}
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 RUNS_PATH="${HOME}/rpl-workshop/runs"
 DATA_PATH="/local_storage/datasets/CUB_20"

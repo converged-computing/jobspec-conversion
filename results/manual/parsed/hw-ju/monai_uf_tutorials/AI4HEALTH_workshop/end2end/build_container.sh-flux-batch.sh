@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-bicycle-7099
+#FLUX: --job-name=peachy-buttface-0792
 #FLUX: -c=4
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 module load singularity

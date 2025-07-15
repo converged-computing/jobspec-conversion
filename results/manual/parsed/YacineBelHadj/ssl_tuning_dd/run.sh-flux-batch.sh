@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-arm-5599
+#FLUX: --job-name=arid-hope-6398
 #FLUX: -c=4
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MY_APP_ENV='hpc_vub'
 export NCCL_DEBUG='INFO'

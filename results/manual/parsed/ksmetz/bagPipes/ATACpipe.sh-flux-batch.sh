@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-kerfuffle-4987
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-truffle-0561
+#FLUX: --urgency=16
 
 set -e
 module load python/3.6.6

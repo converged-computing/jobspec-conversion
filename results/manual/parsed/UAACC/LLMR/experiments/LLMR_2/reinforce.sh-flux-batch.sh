@@ -2,7 +2,7 @@
 #FLUX: --job-name=train
 #FLUX: --exclusive
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_OFFLINE='1'
 export MASTER_ADDR='127.0.0.1'

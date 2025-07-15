@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-nunchucks-4641
+#FLUX: --job-name=creamy-squidward-2682
 #FLUX: -c=10
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$HOME/miniconda_envs/anaconda3/envs/GrooveTransformer:$PATH'
 export WANDB_API_KEY='API_KEY'

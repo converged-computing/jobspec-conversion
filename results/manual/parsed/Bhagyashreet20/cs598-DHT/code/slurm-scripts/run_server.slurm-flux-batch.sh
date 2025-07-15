@@ -3,7 +3,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpuA100x4
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ET_DATA='/projects/bcng/ukakarla/teach_data'
 export TEACH_ROOT_DIR='/projects/bcng/ukakarla/teach'

@@ -3,7 +3,7 @@
 #FLUX: -c=3
 #FLUX: --queue=gpu_titanrtx_shared_course
 #FLUX: -t=50400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2021

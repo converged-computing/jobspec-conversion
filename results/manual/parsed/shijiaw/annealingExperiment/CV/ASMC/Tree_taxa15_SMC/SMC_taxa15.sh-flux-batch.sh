@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bits-8807
+#FLUX: --job-name=bloated-toaster-3073
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load r/3.4.0
 module load java/1.8.0_121

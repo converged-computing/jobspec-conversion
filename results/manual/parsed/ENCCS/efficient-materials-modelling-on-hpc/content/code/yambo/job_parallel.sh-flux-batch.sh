@@ -2,7 +2,7 @@
 #FLUX: --job-name=mos2
 #FLUX: --queue=cpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

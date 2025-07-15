@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-pot-6309
-#FLUX: --priority=16
+#FLUX: --job-name=placid-knife-0204
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR                            # Change to working directory
 module load anaconda3/2022.05                   # Load module dependencies

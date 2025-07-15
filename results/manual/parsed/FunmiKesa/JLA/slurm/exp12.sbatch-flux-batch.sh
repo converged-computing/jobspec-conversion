@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=exp12
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularity exec \
         --nv -w \

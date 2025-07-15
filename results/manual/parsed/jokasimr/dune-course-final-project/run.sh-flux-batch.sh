@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-poo-7324
-#FLUX: --priority=16
+#FLUX: --job-name=hello-citrus-8965
+#FLUX: --urgency=16
 
 source $HOME/.load_modules.sh
 source $HOME/dune/venv/bin/activate

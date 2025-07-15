@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-destiny-0913
+#FLUX: --job-name=stanky-malarkey-2981
 #FLUX: -n=4
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source .env
 CMD=${1:-train}

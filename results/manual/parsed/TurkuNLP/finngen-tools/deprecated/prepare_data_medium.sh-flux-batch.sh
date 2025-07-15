@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-nunchucks-9199
+#FLUX: --job-name=evasive-cinnamonbun-4057
 #FLUX: -c=128
 #FLUX: --queue=medium
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_DATASETS_CACHE='$CACHEDIR'
 

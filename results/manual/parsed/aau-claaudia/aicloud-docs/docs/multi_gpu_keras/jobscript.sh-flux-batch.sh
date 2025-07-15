@@ -2,7 +2,7 @@
 #FLUX: --job-name=MGPU
 #FLUX: -n=4
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

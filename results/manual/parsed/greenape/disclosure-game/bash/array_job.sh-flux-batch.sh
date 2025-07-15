@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-leopard-1601
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-squidward-4082
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/greenape/disclosure-game/bash/array_job.sh

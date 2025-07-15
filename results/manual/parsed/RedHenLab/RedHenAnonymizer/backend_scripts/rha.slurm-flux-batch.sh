@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-peanut-9329
+#FLUX: --job-name=adorable-punk-2527
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/usr/local/software/singularity/3.10.4/bin:/usr/local/easybuild_allnodes/software/CUDAcore/11.1.1/nvvm/bin:/usr/local/easybuild_allnodes/software/CUDAcore/11.1.1/bin:/usr/local/easybuild_allnodes/software/binutils/2.35-GCCcore-10.2.0/bin:/usr/local/easybuild_allnodes/software/GCCcore/10.2.0/bin:/home/sxg1373/miniconda3/bin:/home/sxg1373/miniconda3/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/dell/srvadmin/bin:/home/sxg1373/.local/bin:/home/sxg1373/bin'
 

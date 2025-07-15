@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-butter-7246
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-egg-2499
+#FLUX: --urgency=16
 
 export SUNBEAM_DIR='/home/tuv/sunbeam/sunbeam-stable'
 export TMPDIR='/prj/dir/tmp'

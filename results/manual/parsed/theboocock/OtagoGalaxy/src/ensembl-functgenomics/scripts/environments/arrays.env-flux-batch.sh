@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-leopard-8296
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-fudge-2217
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/theboocock/OtagoGalaxy/src/ensembl-functgenomics/scripts/environments/arrays.env

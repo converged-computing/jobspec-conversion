@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lamp-4573
-#FLUX: --priority=16
+#FLUX: --job-name=milky-knife-9276
+#FLUX: --urgency=16
 

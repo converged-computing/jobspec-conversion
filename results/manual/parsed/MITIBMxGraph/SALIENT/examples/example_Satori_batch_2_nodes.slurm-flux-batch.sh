@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lemur-8340
+#FLUX: --job-name=fugly-staircase-6163
 #FLUX: --exclusive
 #FLUX: -t=180
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$SALIENT_ROOT'
 

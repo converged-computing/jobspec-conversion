@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=disc
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python/3.9.5-GCCcore-10.3.0
 cd /home/khaled/sparse-high-level-opt/find_valid_sizes

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-salad-0007
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-leg-1928
+#FLUX: --urgency=16
 
 export TEST='data/$4/$5'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-hippo-8573
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-lamp-5111
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/rocm-5.1.0/lib:${LD_LIBRARY_PATH}'
 export MPIR_CVAR_GPU_EAGER_DEVICE_MEM='0'

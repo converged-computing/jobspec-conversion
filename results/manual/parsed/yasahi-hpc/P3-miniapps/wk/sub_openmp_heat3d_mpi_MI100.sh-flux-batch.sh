@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-despacito-0723
+#FLUX: --job-name=rainbow-car-5597
 #FLUX: -c=64
 #FLUX: --gpus-per-task=1
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load openmpi/4.1.1

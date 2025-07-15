@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cinnamonbun-7942
+#FLUX: --job-name=pusheena-noodle-7095
 #FLUX: -c=12
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 module load cudatoolkit/10.2.89_3.29-7.0.2.1_3.27__g67354b4

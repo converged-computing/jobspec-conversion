@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-onion-6780
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-frito-0611
+#FLUX: --urgency=16
 
 WORK_DIR=$SCRATCH/SAGE_2021
 MSPASS_CONTAINER=$WORK/mspass/mspass_latest.sif

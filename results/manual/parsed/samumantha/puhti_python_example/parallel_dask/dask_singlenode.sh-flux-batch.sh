@@ -3,7 +3,7 @@
 #FLUX: -c=3
 #FLUX: --queue=test
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load geoconda
 datadir=/appl/data/geo/sentinel/s2_example_data/L2A

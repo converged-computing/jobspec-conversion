@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="N1C1"
+#FLUX: --job-name=N1C1
 #FLUX: --queue=batch
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srcDIR=$(pwd)
 machine="HPC" # HPC or IBEX

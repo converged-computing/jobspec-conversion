@@ -3,7 +3,7 @@
 #FLUX: -n=16
 #FLUX: --queue=parallelshort
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 rm dump*
 rm *.csv

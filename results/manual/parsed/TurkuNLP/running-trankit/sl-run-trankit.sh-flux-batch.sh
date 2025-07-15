@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-buttface-8950
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-spoon-2063
+#FLUX: --urgency=16
 
 mkdir -p logs
 echo "START: $(date)"

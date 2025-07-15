@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-peas-1175
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-parrot-1933
+#FLUX: --urgency=16
 
 if [ $# -lt 9 ]; then
   echo "Usage: $0 <first> <last> <beta> <MH> <start> nsteps:{<outer> <inner> <gauge>} <time> [dependency (optional)]"

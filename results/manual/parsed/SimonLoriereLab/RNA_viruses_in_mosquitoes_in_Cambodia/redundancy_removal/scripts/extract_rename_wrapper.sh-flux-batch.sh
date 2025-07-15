@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-puppy-6364
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-carrot-9861
+#FLUX: --urgency=16
 
 sample_list="/full_path_to/wd/redundancy_removal/metadata/sample_list1.tsv"
 _extract_rename_joberrors="/full_path_to/wd/redundancy_removal/extract_rename_joberrors"

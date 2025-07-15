@@ -2,7 +2,7 @@
 #FLUX: --job-name=gnn_2_1
 #FLUX: --queue=main
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

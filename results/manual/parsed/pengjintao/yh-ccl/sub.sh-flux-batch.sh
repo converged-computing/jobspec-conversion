@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-peanut-butter-6159
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-motorcycle-7249
+#FLUX: --urgency=16
 
 procname=./build/test/allreduce
 flag=""

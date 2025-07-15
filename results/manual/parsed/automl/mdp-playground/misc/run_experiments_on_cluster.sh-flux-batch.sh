@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-earthworm-4061
-#FLUX: --priority=16
+#FLUX: --job-name=tart-sundae-0979
+#FLUX: --urgency=16
 
 export EXP_NAME='dqn_seq_del' # Ideally contains Area of research + algorithm + dataset # Could just pass this as job name?'
 

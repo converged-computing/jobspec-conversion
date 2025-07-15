@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-hope-4341
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-peanut-4570
+#FLUX: --urgency=16
 
 gitdir=~/dpm
 srcdir=$gitdir/src

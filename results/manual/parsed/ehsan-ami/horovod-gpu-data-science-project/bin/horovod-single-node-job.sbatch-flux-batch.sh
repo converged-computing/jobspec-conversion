@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cattywampus-5043
+#FLUX: --job-name=bloated-chip-9368
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=batch
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 

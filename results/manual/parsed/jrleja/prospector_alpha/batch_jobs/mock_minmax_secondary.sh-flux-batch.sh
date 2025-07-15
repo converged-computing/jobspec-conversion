@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-egg-1661
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-pastry-0972
+#FLUX: --urgency=16
 
 srun -n 1 --mpi=pmi2 python $APPS/prospector_alpha/code/td/postprocessing.py \
 $APPS/prospector_alpha/parameter_files/mock_minmax_params.py \

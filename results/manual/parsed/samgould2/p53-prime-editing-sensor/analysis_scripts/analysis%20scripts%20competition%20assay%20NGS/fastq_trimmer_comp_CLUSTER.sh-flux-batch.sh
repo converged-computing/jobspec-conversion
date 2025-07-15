@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-soup-4516
-#FLUX: --priority=15
+#FLUX: --job-name=dinosaur-mango-6137
+#FLUX: --urgency=15
 
 module load miniconda3/v4
 source /home/software/conda/miniconda3/bin/condainit

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-signal-2603
+#FLUX: --job-name=grated-pastry-0319
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/workspace/.mujoco/mujoco210/bin'
 export MUJOCO_PY_MUJOCO_PATH='/workspace/.mujoco/mujoco210/'

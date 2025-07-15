@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 JOB_FILE=$1
 EXTRA_ARGS=${@:2}

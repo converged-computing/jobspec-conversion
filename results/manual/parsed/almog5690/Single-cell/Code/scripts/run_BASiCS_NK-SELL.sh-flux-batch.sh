@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bits-4520
+#FLUX: --job-name=astute-nalgas-1664
 #FLUX: -n=4
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 <<<<<<< Updated upstream
 module load R4

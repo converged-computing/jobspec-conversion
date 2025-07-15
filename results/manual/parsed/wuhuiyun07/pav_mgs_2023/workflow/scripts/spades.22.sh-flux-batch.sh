@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=pav-mgs
-#FLUX: --queue=workq             # the partition
+#FLUX: --queue=workq
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='48'
 export WORK_DIR='/project/awlab/wuhuiyun/pav_mgs_2023'

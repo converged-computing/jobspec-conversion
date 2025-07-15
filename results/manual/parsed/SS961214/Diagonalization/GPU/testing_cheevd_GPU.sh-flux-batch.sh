@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-bicycle-4978
+#FLUX: --job-name=persnickety-bicycle-3210
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DEVICE="GPU"
 ROUTINE="cheevd"

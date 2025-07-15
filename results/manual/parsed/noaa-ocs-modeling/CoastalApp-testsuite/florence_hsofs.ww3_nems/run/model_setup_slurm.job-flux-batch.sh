@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-general-0522
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-hippo-4048
+#FLUX: --urgency=16
 
 set -e
 if [ -e "${MOD_FILE}" ]; then

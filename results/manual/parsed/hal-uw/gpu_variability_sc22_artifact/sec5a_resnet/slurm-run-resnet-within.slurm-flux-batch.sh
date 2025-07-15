@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-bike-3393
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-hobbit-6434
+#FLUX: --urgency=16
 
 node=$SLURM_JOB_NODELIST
 module load tacc-apptainer

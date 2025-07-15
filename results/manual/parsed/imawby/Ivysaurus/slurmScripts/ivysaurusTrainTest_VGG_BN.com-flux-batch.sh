@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lamp-8019
+#FLUX: --job-name=fugly-kerfuffle-3603
 #FLUX: -c=5
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 echo 'BEGIN'

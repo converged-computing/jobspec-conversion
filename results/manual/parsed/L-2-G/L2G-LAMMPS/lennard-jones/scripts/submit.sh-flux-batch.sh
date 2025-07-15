@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pancake-4515
+#FLUX: --job-name=adorable-lemon-6142
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LAMMPS_DIR='$HOME'
 export OMP_NUM_THREADS='1'

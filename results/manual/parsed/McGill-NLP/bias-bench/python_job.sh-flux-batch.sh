@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-sundae-4579
+#FLUX: --job-name=adorable-underoos-1918
 #FLUX: -c=4
 #FLUX: --queue=main
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source batch_jobs/_experiment_configuration.sh
 echo "Host - $HOSTNAME"

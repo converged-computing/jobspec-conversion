@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-fork-0418
+#FLUX: --job-name=gassy-peas-6527
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/flush1/wu082/proj/claran/pyenv'
 

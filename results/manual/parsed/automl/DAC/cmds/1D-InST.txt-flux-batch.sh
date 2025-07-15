@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-car-1908
-#FLUX: --priority=16
+#FLUX: --job-name=phat-truffle-5226
+#FLUX: --urgency=16
 
 source activate dac
 steps=1000000

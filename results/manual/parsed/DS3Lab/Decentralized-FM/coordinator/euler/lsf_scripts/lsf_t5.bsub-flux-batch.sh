@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-mango-0784
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-dog-1299
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DS3Lab/Decentralized-FM/coordinator/euler/lsf_scripts/lsf_t5.bsub

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-butter-4040
-#FLUX: --priority=16
+#FLUX: --job-name=milky-lentil-6148
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/keisukefukuda/chainer-on-reedbush/job.sh

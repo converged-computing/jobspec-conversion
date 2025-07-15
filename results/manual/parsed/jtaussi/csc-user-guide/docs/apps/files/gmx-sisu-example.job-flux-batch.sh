@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: --queue=test
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

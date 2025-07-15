@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=tile_800
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1'
 

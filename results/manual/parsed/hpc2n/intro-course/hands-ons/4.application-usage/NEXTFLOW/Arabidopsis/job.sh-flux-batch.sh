@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pot-6516
+#FLUX: --job-name=swampy-punk-7856
 #FLUX: -t=10200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_OPTS='-Xms1g -Xmx4g'
 export NXF_SINGULARITY_CACHEDIR='$PWD/sing-img'

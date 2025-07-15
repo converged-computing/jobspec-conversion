@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-hobbit-6689
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-bike-9376
+#FLUX: --urgency=16
 
 ml gcc/11.2.0
 ml openmpi/4.1.1

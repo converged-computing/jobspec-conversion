@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-hippo-8244
+#FLUX: --job-name=chunky-fork-9180
 #FLUX: -c=4
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load StdEnv/2020 python/3.7
 module load gurobi

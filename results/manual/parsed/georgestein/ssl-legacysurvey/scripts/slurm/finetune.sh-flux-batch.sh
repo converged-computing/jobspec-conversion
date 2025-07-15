@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bicycle-9439
+#FLUX: --job-name=expensive-pastry-2146
 #FLUX: -c=32
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

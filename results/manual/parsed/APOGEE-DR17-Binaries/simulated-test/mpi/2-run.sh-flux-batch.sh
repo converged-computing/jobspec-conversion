@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-salad-0722
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-salad-9721
+#FLUX: --urgency=16
 
 cd /mnt/ceph/users/apricewhelan/projects/apogee-dr17-binaries/simulated-test
 source hq-config/init.sh

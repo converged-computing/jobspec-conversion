@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-bicycle-6683
+#FLUX: --job-name=carnivorous-puppy-0156
 #FLUX: -t=705600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/3-5.2.0
 module load cuda/10.1.105

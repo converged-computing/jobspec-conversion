@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-bicycle-4461
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-frito-7477
+#FLUX: --urgency=16
 
 export DEVITO_LANGUAGE='openmp'
 export DEVITO_LOGGING='DEBUG'

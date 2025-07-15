@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-egg-3554
+#FLUX: --job-name=strawberry-staircase-6626
 #FLUX: -N=8
 #FLUX: -n=8
 #FLUX: -c=12
 #FLUX: --queue=normal
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(hostname)'
 export NSYS_NODE_INTERVAL='$((ngpus/stages))'

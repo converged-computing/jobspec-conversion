@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-chip-9434
-#FLUX: --priority=16
+#FLUX: --job-name=milky-motorcycle-7804
+#FLUX: --urgency=16
 

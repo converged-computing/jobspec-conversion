@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leopard-3513
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-avocado-9638
+#FLUX: --urgency=16
 
 export MPIP='-t 10.0'
 export SPACK_ROOT='$HOME/spack'

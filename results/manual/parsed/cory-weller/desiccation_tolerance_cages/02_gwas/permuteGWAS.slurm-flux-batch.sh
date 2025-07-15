@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-animal-8136
+#FLUX: --job-name=loopy-hope-7138
 #FLUX: --queue=standard
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module load R/3.5.1

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-train-3864
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-ricecake-5929
+#FLUX: --urgency=16
 
 export python_env='${python_env}'
 export jenkins_dir='`dirname $0`'

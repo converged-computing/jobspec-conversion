@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-truffle-5283
-#FLUX: --priority=16
+#FLUX: --job-name=delay-calibration
+#FLUX: --urgency=16
 
 echo Job landed on $(hostname)
 INPUT_DATA=$1#"Delay-Calibration/L??????_SB001_uv_*t_???MHz.msdpppconcat"

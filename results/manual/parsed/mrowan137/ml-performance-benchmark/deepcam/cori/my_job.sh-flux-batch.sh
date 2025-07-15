@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-parrot-0041
+#FLUX: --job-name=grated-lentil-7500
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BATCHSIZE='2'
 export DO_PROFILING='false'  # true or false'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-onion-0964
-#FLUX: --priority=16
+#FLUX: --job-name=purple-cupcake-3042
+#FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

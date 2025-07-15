@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="AutoTSAD"
+#FLUX: --job-name=AutoTSAD
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export AUTOTSAD__GENERAL__TMP_PATH='/tmp/sebastian.schmidl/tmp-${SLURM_JOBID}'
 export AUTOTSAD__GENERAL__RESULT_PATH='${HOME}/projects/holistic-tsad/results-${SLURM_JOBID}'

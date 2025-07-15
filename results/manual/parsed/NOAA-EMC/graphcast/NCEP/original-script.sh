@@ -1,21 +1,20 @@
-#!/bin/bash
+#!/bin/bash --login
 #SBATCH --nodes=1
-#SBATCH --account=nems
-#SBATCH --cpus-per-task=40 
-#SBATCH --time=4:00:00 
+#SBATCH --cpus-per-task=30  # Use all available CPU cores
+#SBATCH --time=4:00:00  # Adjust this to your estimated run time
 #SBATCH --job-name=graphcast
-#SBATCH --output=gc_output.txt
-#SBATCH --error=gc_error.txt
-#SBATCH --partition=hera
+#SBATCH --output=gc_13pl_output.txt
+#SBATCH --error=gc_13pl_error.txt
+#SBATCH --partition=compute
 
+# load module lib
+# source /etc/profile.d/modules.sh
 
 # load necessary modules
-module use /scratch1/NCEPDEV/nems/role.epic/spack-stack/spack-stack-1.6.0/envs/unified-env/install/modulefiles/Core
+module use /contrib/spack-stack/envs/ufswm/install/modulefiles/Core/
 module load stack-intel
 module load wgrib2
-module load awscli-v2
 module list
-
 
 # Get the UTC hour and calculate the time in the format yyyymmddhh
 current_hour=$(date -u +%H)
@@ -45,16 +44,31 @@ echo "forecast length: $forecast_length"
 num_pressure_levels=13
 echo "number of pressure levels: $num_pressure_levels"
 
+# Set Miniconda path
+#export PATH="/contrib/Sadegh.Tabas/miniconda3/bin:$PATH"
+
 # Activate Conda environment
-source /scratch1/NCEPDEV/nems/AIML/miniconda3/etc/profile.d/conda.sh
+source /contrib/Sadegh.Tabas/miniconda3/etc/profile.d/conda.sh
 conda activate mlwp
 
-cd /scratch1/NCEPDEV/nems/AIML/graphcast/NCEP/
+# going to the model directory
+cd /contrib/Sadegh.Tabas/operational/graphcast/NCEP/
+
+start_time=$(date +%s)
+echo "start runing gdas utility to generate graphcast inputs for: $curr_datetime"
+# Run the Python script gdas.py with the calculated times
+python3 gdas_utility.py "$prev_datetime" "$curr_datetime" -l "$num_pressure_levels"
+
+end_time=$(date +%s)  # Record the end time in seconds since the epoch
+
+# Calculate and print the execution time
+execution_time=$((end_time - start_time))
+echo "Execution time for gdas_utility.py: $execution_time seconds"
 
 start_time=$(date +%s)
 echo "start runing graphcast to get real time 10-days forecasts for: $curr_datetime"
 # Run another Python script
-python3 run_graphcast.py -i source-gdas_date-"$curr_datetime"_res-0.25_levels-"$num_pressure_levels"_steps-2.nc -w /scratch1/NCEPDEV/nems/AIML/gc_weights -l "$forecast_length" -p "$num_pressure_levels"
+python3 run_graphcast.py -i source-gdas_date-"$curr_datetime"_res-0.25_levels-"$num_pressure_levels"_steps-2.nc -w /contrib/graphcast/NCEP -l "$forecast_length" -p "$num_pressure_levels" -u yes -k no
 
 end_time=$(date +%s)  # Record the end time in seconds since the epoch
 

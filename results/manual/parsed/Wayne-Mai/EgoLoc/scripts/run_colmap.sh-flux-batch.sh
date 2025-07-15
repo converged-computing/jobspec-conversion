@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-cat-5144
+#FLUX: --job-name=psycho-avocado-1835
 #FLUX: -c=4
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ $HOSTNAME == "<your local machine name>" ]; then
   # for debug

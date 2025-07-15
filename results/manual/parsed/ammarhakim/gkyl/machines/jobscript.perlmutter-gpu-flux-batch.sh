@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-leopard-1010
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-diablo-0356
+#FLUX: --urgency=16
 
 export gComDir='/global/homes/m/jdoe/gkylsoft/gkyl/bin'
 

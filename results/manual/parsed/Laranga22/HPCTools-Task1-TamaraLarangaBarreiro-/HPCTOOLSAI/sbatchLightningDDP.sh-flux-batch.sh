@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-ricecake-1426
+#FLUX: --job-name=chocolate-fudge-2406
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORLD_SIZE='4  # Total number of GPUs across all nodes'
 export NODE_RANK='$SLURM_NODEID'

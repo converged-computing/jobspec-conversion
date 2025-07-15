@@ -4,7 +4,7 @@
 #FLUX: -n=2
 #FLUX: -c=96
 #FLUX: --gpus-per-task=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOGLEVEL='INFO'
 export FI_PROVIDER='efa'

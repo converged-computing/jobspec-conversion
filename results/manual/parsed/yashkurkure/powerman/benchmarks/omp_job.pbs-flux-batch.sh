@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-frito-8581
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-car-8550
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yashkurkure/powerman/benchmarks/omp_job.pbs

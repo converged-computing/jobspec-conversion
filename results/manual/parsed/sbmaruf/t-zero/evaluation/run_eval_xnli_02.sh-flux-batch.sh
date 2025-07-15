@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lentil-9687
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-onion-8067
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='2'
 

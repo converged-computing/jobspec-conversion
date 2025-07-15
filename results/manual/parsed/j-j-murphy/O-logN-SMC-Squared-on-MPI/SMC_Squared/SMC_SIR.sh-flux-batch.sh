@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-carrot-9693
+#FLUX: --job-name=fugly-train-3269
 #FLUX: -n=32
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load apps/anaconda3/5.2.0
 module load mpi/openmpi/1.10.7/gcc-5.5.0

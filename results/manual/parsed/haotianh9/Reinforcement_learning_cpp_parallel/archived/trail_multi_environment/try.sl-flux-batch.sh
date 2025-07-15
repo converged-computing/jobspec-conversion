@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-snack-5708
+#FLUX: --job-name=fat-gato-6550
 #FLUX: -N=4
 #FLUX: -c=4
 #FLUX: -t=59
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_PRELOAD='/spack/apps/gcc/8.3.0/lib64/libstdc++.so.6'
 

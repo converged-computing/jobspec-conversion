@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-snack-6951
-#FLUX: --priority=16
+#FLUX: --job-name=faux-underoos-9954
+#FLUX: --urgency=16
 

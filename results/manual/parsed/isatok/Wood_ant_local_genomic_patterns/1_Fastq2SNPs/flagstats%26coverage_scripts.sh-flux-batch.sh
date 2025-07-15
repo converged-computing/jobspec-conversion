@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cat-6288
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-cupcake-5612
+#FLUX: --urgency=16
 
 module load biokit
 cd /scratch/project_2001443

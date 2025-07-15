@@ -2,7 +2,7 @@
 #FLUX: --job-name=ll%A
 #FLUX: -N=4
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml purge
 ml load R/3.5.1

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="$EXPERIMENT_NAME"
+#FLUX: --job-name=$EXPERIMENT_NAME
 #FLUX: -c=40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKLROOT='/scinet/intel/oneapi/2021u4/mkl/2021.4.0/'
 export MKL_ENABLE_INSTRUCTIONS='AVX512'

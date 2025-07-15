@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=score
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export dataset='feddial'
 export dataset_dir='data/${dataset}'

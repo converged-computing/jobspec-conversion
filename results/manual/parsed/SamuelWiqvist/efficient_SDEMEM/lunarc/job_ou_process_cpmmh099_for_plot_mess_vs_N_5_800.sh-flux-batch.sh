@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-chip-6820
+#FLUX: --job-name=frigid-eagle-7041
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'
 

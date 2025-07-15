@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-avocado-2555
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-cupcake-8807
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export LAMMPS_POTENTIALS='~/lammps/_res'

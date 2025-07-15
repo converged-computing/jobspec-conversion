@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="nlp-project"
+#FLUX: --job-name=nlp-project
 #FLUX: --queue=gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularity exec --nv docker://pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime pip install tensorboard
 singularity exec --nv docker://pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime pip install -U scikit-learn

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-bicycle-0124
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-toaster-7667
+#FLUX: --urgency=16
 
 while getopts a:s:x:u: option
 do

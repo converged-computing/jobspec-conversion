@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-gato-1009
+#FLUX: --job-name=quirky-lettuce-8642
 #FLUX: --exclusive
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TBB_CXX_TYPE='gcc'
 

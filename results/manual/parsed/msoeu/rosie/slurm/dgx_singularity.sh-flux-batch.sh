@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="DGX 8 GPU"
+#FLUX: --job-name=DGX 8 GPU
 #FLUX: --queue=dgx
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SCRIPT_NAME="Rosie DGX Script"
 CONTAINER="/data/containers/msoe-tensorflow.sif"

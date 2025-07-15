@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-kerfuffle-8834
+#FLUX: --job-name=crunchy-caramel-9856
 #FLUX: -N=4
 #FLUX: -c=14
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MERIC_MODE='3'
 export MERIC_DEBUG='0'

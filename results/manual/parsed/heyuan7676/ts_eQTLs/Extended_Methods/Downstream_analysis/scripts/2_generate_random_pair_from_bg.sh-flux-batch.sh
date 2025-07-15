@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-spoon-7239
+#FLUX: --job-name=gassy-peanut-4826
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ./GLOBAL_VAR.sh
 module load python/2.7

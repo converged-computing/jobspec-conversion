@@ -2,7 +2,7 @@
 #FLUX: --job-name=gpt2
 #FLUX: -c=40
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_EXTENSIONS_DIR='/tmp/$USER/torch_extensions/'
 export NCCL_SOCKET_IFNAME='hsn0,hsn1,hsn2,hsn3'

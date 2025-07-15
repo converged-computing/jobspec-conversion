@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-arm-4666
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-despacito-9629
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$CODEFOLDER'
 export TMPDIR='/scratch/$USER/tmpdir_${SLURM_JOB_ID}_${SLURM_ARRAY_TASK_ID}'

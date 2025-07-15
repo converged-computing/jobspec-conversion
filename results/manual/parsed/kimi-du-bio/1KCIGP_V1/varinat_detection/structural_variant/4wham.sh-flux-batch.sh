@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-citrus-1359
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-house-6685
+#FLUX: --urgency=16
 
 samples=
 for i in samples

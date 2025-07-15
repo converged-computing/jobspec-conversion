@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=DI_1_imaging
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SING_BIND=$( python $HOME/parse_settings.py --BIND )
 SIMG=$( python $HOME/parse_settings.py --SIMG )

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-bike-3844
+#FLUX: --job-name=faux-spoon-2324
 #FLUX: -n=28
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load intel_comp/2018

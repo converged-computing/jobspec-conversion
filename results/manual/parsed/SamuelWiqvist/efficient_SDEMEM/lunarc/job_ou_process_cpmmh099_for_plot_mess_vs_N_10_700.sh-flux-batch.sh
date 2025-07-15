@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-parrot-5933
+#FLUX: --job-name=evasive-leader-0895
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'
 

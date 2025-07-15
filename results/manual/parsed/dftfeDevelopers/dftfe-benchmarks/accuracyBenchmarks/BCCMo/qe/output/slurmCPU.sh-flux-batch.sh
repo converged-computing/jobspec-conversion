@@ -2,7 +2,7 @@
 #FLUX: --job-name=qe
 #FLUX: -N=3
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='2'
 

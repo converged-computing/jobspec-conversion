@@ -2,7 +2,7 @@
 #FLUX: --job-name=mRNA_fqToQ
 #FLUX: -c=12
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PROJECT_DIR=$1
 RAW_FASTQ_DIR=$PROJECT_DIR"/demux_fastq"

@@ -3,7 +3,7 @@
 #FLUX: -N=8
 #FLUX: --queue=regular
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 prefix='relax'
 currindex=1

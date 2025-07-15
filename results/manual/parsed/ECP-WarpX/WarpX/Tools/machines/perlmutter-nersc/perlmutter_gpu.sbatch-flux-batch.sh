@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-buttface-5023
+#FLUX: --job-name=dinosaur-omelette-9978
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_OFI_NIC_POLICY='GPU'
 export SRUN_CPUS_PER_TASK='16'

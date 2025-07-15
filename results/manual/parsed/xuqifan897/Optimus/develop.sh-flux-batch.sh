@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fork-9888
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-lemur-3952
+#FLUX: --urgency=16
 
 module load cuda/10.1
 source $HOME/programs/anaconda3/bin/activate

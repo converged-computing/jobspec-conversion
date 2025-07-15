@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-carrot-9850
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-animal-1502
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AronDJacobsen/np-with-vae/submit.sh

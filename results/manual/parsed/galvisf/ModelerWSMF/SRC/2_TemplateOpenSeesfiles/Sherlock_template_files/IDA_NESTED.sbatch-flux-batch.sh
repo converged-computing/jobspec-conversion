@@ -2,7 +2,7 @@
 #FLUX: --job-name=IDAne1
 #FLUX: -N=5
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load openmpi
 module load scalapack

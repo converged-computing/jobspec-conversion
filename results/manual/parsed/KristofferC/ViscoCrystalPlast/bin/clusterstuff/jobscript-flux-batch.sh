@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-underoos-8151
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-salad-0768
+#FLUX: --urgency=16
 
 . /apps/new_modules.sh
 module load intel

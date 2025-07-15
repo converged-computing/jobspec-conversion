@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-poodle-6670
+#FLUX: --job-name=placid-soup-7613
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 one=($(seq 0 4 996))
 one_index=$((${SLURM_ARRAY_TASK_ID}%${#one[@]}))

@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: -c=20
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load anaconda3@2021.05
 for i in {2..5}

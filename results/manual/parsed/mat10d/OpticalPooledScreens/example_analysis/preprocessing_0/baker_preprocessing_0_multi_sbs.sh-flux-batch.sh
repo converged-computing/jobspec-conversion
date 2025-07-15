@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=20
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /lab/barcheese01/mdiberna/OpticalPooledScreens_david/venv/bin/activate
 cd /lab/barcheese01/screens/baker/preprocessing_0

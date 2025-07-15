@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-spoon-2128
+#FLUX: --job-name=goodbye-butter-8619
 #FLUX: --queue=Gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROJDIR='/home/$USER/data/Equivariant-GNNs'
 export DGLBACKEND='pytorch # Required to override default ~/.dgl config directory which is read-only'

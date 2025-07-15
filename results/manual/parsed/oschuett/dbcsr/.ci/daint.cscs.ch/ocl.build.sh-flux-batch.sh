@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-chair-9610
+#FLUX: --job-name=lovable-cat-1668
 #FLUX: -c=12
-#FLUX: --queue="cscsci"
-#FLUX: --priority=16
+#FLUX: --queue=cscsci
+#FLUX: --urgency=16
 
 export PATH='/project/cray/alazzaro/cmake/bin:${PATH}'
 export PKG_CONFIG_PATH='${HOME}/libxsmm/lib:${PKG_CONFIG_PATH}'

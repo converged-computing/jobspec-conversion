@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-omelette-1031
-#FLUX: --priority=16
+#FLUX: --job-name=grated-punk-3812
+#FLUX: --urgency=16
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-fork-3981
-#FLUX: --priority=16
+#FLUX: --job-name=purple-egg-3023
+#FLUX: --urgency=16
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts'

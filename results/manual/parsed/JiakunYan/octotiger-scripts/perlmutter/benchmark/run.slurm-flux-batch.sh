@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-house-8070
+#FLUX: --job-name=chunky-carrot-6481
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load octotiger

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-taco-4283
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-knife-1400
+#FLUX: --urgency=16
 
 python task_b.py \
     --loss "ntxent" \

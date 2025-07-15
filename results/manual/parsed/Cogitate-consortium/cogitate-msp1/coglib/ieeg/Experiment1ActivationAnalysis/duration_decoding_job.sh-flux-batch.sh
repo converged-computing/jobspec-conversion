@@ -3,7 +3,7 @@
 #FLUX: -c=64
 #FLUX: --queue=octopus
 #FLUX: -t=720000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/hpc/users/alexander.lepauvre/sw/github/ECoG'
 

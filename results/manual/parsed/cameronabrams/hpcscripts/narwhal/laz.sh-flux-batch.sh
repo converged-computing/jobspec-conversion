@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-latke-3395
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-blackbean-4183
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cameronabrams/hpcscripts/narwhal/laz.sh

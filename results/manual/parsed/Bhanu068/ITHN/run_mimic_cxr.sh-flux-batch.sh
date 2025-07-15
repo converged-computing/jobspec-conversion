@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lamp-2129
+#FLUX: --job-name=doopy-toaster-3126
 #FLUX: -c=4
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda activate gpu
 python main.py \

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-toaster-5643
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-cherry-8199
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/enggiqbal/mlgd/layout_generator/ZMLTpipeline/hpc_zmlt.sh

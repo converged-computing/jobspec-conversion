@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-spoon-9300
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-kerfuffle-1073
+#FLUX: --urgency=16
 
 source ~/.bashrc 
 source /opt/conda/etc/profile.d/conda.sh 

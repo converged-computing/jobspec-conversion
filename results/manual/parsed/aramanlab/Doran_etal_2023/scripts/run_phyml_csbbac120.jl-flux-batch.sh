@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=runPhyML
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load julia/1.9.0
 srun julia --project=@. $(scontrol show job $SLURM_JOBID | awk -F= '/Command=/{print $2}')

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-peanut-4484
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-lemur-2296
+#FLUX: --urgency=16
 
 dirin=../era5/
 file=era5

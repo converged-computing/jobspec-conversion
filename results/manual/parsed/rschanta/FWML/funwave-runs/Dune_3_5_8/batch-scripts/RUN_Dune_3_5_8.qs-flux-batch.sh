@@ -2,7 +2,7 @@
 #FLUX: --job-name=RUN_Dune_3_5_8
 #FLUX: --queue=standard
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . "/work/thsu/rschanta/RTS/functions/bash-utility/slurm-bash.sh"
 . "/work/thsu/rschanta/RTS/functions/bash-utility/matlab-bash.sh"

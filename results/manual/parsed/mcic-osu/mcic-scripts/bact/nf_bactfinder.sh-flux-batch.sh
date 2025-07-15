@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nf_bactfinder
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 readonly NF_REPO=https://github.com/jelmerp/nf_bactfinder
 readonly CONDA_ENV=/fs/project/PAS0471/jelmer/conda/nextflow

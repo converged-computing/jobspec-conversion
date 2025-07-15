@@ -3,7 +3,7 @@
 #FLUX: -c=128
 #FLUX: --queue=shared
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cdo
 workfolder=/work/ab0246/a270092/postprocessing/cmip6_cmpitool/

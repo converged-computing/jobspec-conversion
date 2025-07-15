@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-banana-2463
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-platanos-8918
+#FLUX: --urgency=16
 
 CONDA_ENV_NAME=
 MAIN_HOME=/home

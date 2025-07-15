@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-muffin-2731
-#FLUX: --priority=16
+#FLUX: --job-name=purple-sundae-8212
+#FLUX: --urgency=16
 
 CONFIG_FILE=${1:-"ted_en_fr.config"}
 source $CONFIG_FILE

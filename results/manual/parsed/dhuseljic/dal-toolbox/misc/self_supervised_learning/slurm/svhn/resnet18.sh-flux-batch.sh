@@ -2,7 +2,7 @@
 #FLUX: --job-name=self_supervised_learning
 #FLUX: -c=24
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 source /mnt/stud/home/ynagel/dal-toolbox/venv/bin/activate

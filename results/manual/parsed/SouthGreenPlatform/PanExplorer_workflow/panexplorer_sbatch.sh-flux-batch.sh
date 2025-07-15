@@ -2,7 +2,7 @@
 #FLUX: --job-name=panexplorer
 #FLUX: -c=18
 #FLUX: --queue=supermem
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PANEX_PATH='$PWD'
 

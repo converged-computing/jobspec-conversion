@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cupcake-3285
+#FLUX: --job-name=strawberry-lemur-1988
 #FLUX: --queue=scavenger
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/hpc/home/cjp47/julia-1.5.2/bin/:$PATH'
 

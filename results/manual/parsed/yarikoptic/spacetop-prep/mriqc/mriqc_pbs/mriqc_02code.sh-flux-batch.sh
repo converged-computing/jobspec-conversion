@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-kerfuffle-9671
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-leader-0758
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yarikoptic/spacetop-prep/mriqc/mriqc_pbs/mriqc_02code.sh

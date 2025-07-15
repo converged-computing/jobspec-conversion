@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-spoon-2272
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-frito-4818
+#FLUX: --urgency=16
 
 hostname
 echo $CUDA_VISIBLE_DEVICES

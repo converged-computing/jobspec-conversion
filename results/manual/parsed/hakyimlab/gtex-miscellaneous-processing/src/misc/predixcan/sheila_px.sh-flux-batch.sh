@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-signal-2247
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-avocado-7716
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hakyimlab/gtex-miscellaneous-processing/src/misc/predixcan/sheila_px.sh

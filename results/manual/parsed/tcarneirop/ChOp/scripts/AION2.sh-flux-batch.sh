@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-gato-2600
+#FLUX: --job-name=blue-salad-8645
 #FLUX: -N=4
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CHPL_VERSION='1.25.0'
 export CHPL_HOME='${PWD}/chapel-${CHPL_VERSION}'

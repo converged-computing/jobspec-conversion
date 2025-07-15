@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lemon-6554
+#FLUX: --job-name=wobbly-pot-0415
 #FLUX: -c=10
 #FLUX: --queue=defq
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='$PWD'
 

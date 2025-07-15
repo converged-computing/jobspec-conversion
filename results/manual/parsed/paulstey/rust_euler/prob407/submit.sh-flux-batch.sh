@@ -3,7 +3,7 @@
 #FLUX: -c=48
 #FLUX: --queue=batch
 #FLUX: -t=45000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load rust 
 cargo run 

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-general-0364
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-bits-9135
+#FLUX: --urgency=16
 

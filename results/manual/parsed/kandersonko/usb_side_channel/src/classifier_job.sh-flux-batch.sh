@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=classifier-job
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 echo "JOB timestamp: $(date)"

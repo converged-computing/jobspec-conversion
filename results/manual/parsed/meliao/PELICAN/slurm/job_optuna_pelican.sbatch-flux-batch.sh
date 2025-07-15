@@ -2,7 +2,7 @@
 #FLUX: --job-name=optuna2
 #FLUX: --queue=gpu
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 nvidia-smi

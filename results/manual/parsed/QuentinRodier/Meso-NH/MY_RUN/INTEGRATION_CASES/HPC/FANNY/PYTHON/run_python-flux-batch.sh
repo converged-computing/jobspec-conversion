@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cat-3072
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-itch-3193
+#FLUX: --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

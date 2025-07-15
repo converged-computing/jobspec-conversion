@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-motorcycle-3234
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-peanut-butter-2218
+#FLUX: --urgency=16
 
 echo "Loading module"
 echo "Loaded module. Running python"

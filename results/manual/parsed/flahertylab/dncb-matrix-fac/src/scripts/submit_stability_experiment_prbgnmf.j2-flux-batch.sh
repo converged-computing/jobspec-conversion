@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name={{ experiment_name }}
-#FLUX: --priority=16
+#FLUX: --job-name={{
+#FLUX: --urgency=16
 
 DOCKER_IMAGE=dncb-fac-image
 CONTAINER_NAME=dncb-fac-container

@@ -2,7 +2,7 @@
 #FLUX: --job-name=SSP
 #FLUX: -c=8
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/jmendietaes/programas/miniconda3/envs/Renv/bin:$PATH'
 

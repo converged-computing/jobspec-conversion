@@ -2,7 +2,7 @@
 #FLUX: --job-name=moco_temp
 #FLUX: -n=16
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load cuda-10.1

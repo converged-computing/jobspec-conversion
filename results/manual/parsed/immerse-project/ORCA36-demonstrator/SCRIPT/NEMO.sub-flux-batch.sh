@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-blackbean-9958
+#FLUX: --job-name=cowy-plant-3817
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export QSUB_WORKDIR='`/bin/pwd`'
 export FORT_BUFFERED='yes'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=newInstancesSubset
 #FLUX: --queue=snowy
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcccore/10.2.0
 module load cmake/3.18.4

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-knife-2729
-#FLUX: --priority=16
+#FLUX: --job-name=tart-chair-3401
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jlboat/CP-NAM_2021/scripts/QTL/agronomic/DTH_gc_population.LINE_Leoti.qsub

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lemur-1254
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-milkshake-6830
+#FLUX: --urgency=16
 
 EXPERIMENT_NAME=lbann_cycgan_jag
 LBANN_DIR=$(git rev-parse --show-toplevel)

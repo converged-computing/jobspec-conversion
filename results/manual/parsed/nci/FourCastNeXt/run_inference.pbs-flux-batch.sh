@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-platanos-3431
-#FLUX: --priority=16
+#FLUX: --job-name=hello-leopard-0887
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nci/FourCastNeXt/run_inference.pbs

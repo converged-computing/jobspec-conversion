@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-frito-5526
-#FLUX: --priority=16
+#FLUX: --job-name=purple-lamp-5269
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$ntomp'
 

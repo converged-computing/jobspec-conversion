@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-poo-0706
+#FLUX: --job-name=reclusive-rabbit-5740
 #FLUX: --queue=long
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORKFLOW_DIR='/scratch/shared/pwesolowski/mgr-pipeline/merlin/'
 export DATA_DIR='/scratch/shared/pwesolowski/mgr-pipeline/joined-recommender'

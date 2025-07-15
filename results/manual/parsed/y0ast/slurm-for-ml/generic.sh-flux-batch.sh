@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-train-7196
+#FLUX: --job-name=misunderstood-avocado-9149
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e # fail fully on first line failure
 path_to_conda="./miniconda3"

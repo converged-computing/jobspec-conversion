@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-poodle-0690
+#FLUX: --job-name=milky-kerfuffle-4927
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PE_MPICH_GTL_DIR_amd_gfx90a='-L${CRAY_MPICH_ROOTDIR}/gtl/lib'
 export PE_MPICH_GTL_LIBS_amd_gfx90a='-lmpi_gtl_hsa'

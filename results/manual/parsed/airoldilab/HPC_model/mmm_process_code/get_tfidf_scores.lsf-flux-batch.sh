@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-malarkey-9937
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-chip-1395
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/airoldilab/HPC_model/mmm_process_code/get_tfidf_scores.lsf

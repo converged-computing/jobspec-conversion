@@ -2,7 +2,7 @@
 #FLUX: --job-name=um_tar
 #FLUX: --queue=nesi_prepost
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export suite='dc545'
 

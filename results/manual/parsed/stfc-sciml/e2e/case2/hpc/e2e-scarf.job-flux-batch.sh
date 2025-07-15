@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lizard-4734
+#FLUX: --job-name=astute-chip-0025
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_PYTHONPATH='/work'
 

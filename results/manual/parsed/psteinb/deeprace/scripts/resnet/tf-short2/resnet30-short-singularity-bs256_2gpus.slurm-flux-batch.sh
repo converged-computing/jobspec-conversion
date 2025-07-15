@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-rabbit-1557
+#FLUX: --job-name=blank-itch-0304
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

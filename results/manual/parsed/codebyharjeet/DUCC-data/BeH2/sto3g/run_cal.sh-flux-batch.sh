@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=test13
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKL_NUM_THREADS='1'
 export OMP_NUM_THREADS='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-taco-3068
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-car-4815
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/charge-datasets/scripts/run-lsf.sh

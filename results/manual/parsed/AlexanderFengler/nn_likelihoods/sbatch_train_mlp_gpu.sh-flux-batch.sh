@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lemur-4004
+#FLUX: --job-name=misunderstood-lemur-1892
 #FLUX: -t=64800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /users/afengler/.bashrc
 conda deactivate

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=hello-bits-7269
-#FLUX: --priority=16
+#FLUX: --job-name=phat-milkshake-5172
+#FLUX: --urgency=16
 

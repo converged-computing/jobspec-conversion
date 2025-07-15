@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bicycle-1494
+#FLUX: --job-name=grated-leg-1577
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRAM_ARCH='slc7_amd64_gcc700'
 

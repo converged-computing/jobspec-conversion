@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bicycle-5870
-#FLUX: --priority=16
+#FLUX: --job-name=astute-egg-3795
+#FLUX: --urgency=16
 
 module load python/3.7.4
 module load gcc/10.2

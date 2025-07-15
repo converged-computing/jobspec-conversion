@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-milkshake-6226
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-toaster-3702
+#FLUX: --urgency=16
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

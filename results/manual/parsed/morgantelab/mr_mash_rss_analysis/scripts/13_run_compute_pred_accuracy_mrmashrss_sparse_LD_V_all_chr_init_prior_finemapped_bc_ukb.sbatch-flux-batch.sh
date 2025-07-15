@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=fm-bigmem-1,fm-bigmem-2,fm-bigmem-3
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKL_NUM_THREADS='1'
 

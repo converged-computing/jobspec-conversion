@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-train-7546
+#FLUX: --job-name=tart-pot-3620
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

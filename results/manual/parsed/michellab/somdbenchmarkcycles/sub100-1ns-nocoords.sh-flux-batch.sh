@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cattywampus-3685
+#FLUX: --job-name=joyous-egg-6939
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OPENMM_PLUGIN_DIR='/home/julien/sire.app/lib/plugins/'
 

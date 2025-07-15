@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-chair-2558
+#FLUX: --job-name=swampy-citrus-9699
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load freebayes/0.9.14-15-gc6f49c0
 	#another script generates jobs for scaffolds 0-9870

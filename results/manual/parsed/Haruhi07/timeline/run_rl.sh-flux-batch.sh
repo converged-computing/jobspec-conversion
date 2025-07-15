@@ -2,7 +2,7 @@
 #FLUX: --job-name=clustering
 #FLUX: --queue=gpu_short
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load lang/perl/5.30.0-bioperl-gcc
 module load lang/python/anaconda/3.8-2020.07

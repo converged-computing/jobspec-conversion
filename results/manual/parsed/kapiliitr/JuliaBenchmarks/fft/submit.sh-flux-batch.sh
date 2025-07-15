@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-pedo-2643
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-buttface-6082
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kapiliitr/JuliaBenchmarks/fft/submit.sh

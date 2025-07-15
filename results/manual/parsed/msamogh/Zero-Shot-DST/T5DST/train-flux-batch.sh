@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-hope-3104
+#FLUX: --job-name=placid-bike-7716
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo wassup
 nvidia-smi

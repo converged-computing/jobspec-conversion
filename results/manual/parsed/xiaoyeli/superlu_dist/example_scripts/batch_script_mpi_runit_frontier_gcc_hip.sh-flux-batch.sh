@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-banana-3296
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-platanos-0342
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export LD_LIBRARY_PATH='$CRAY_LD_LIBRARY_PATH:$LD_LIBRARY_PATH'

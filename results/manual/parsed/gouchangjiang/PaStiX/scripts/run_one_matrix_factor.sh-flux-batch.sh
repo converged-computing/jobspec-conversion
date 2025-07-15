@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-train-7344
+#FLUX: --job-name=boopy-bits-8886
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export STARPU_HOSTNAME='`echo $HOSTNAME | sed 's/[0-9]//g'`'
 

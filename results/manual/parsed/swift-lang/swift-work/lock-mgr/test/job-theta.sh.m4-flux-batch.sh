@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lamp-6776
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-puppy-9027
+#FLUX: --urgency=16
 

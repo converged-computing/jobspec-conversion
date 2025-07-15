@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-pancake-9749
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-general-2625
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH=' '
 export LD_PRELOAD=''

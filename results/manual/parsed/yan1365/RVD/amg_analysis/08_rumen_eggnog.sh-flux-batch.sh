@@ -2,7 +2,7 @@
 #FLUX: --job-name=eggnog_%j
 #FLUX: -n=48
 #FLUX: -t=23400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.6-conda5.2
 source activate /fs/ess/PAS0439/MING/conda/eggnog-mapper

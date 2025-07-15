@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=low-moby
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 STUDY="TAY"
 sublist="/scratch/mjoseph/asl-preprocessing/code/subject_list.txt"

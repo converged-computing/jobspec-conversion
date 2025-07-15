@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-train-7648
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-pot-7823
+#FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export CRAY_ACCEL_TARGET='nvidia80'

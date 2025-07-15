@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-underoos-7450
+#FLUX: --job-name=delicious-gato-9845
 #FLUX: --exclusive
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export LOGLEVEL='INFO'

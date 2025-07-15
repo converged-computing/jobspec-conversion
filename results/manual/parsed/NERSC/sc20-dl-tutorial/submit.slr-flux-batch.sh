@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-hippo-7928
+#FLUX: --job-name=chocolate-leg-8509
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nproc_per_node=1
 config=bs128-opt

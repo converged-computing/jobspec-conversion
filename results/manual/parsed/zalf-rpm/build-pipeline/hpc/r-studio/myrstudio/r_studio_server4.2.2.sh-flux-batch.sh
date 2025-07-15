@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-plant-7618
+#FLUX: --job-name=boopy-lettuce-2202
 #FLUX: -c=40
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_HOME='${HOMEDIR}'
 export OMP_NUM_THREADS='${SLURM_JOB_CPUS_PER_NODE}'

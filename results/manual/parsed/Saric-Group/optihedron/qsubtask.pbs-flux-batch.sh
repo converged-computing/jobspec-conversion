@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-kerfuffle-5484
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-eagle-3391
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Saric-Group/optihedron/qsubtask.pbs

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-banana-3199
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-cupcake-9198
+#FLUX: --urgency=16
 
 iter=$1
 folderIter=$(printf "%04d" $iter)

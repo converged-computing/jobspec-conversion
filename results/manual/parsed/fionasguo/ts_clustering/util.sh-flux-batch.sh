@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-gato-5672
+#FLUX: --job-name=eccentric-rabbit-5903
 #FLUX: -c=40
 #FLUX: --queue=long
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/nas/home/siyiguo/anaconda3/lib'
 

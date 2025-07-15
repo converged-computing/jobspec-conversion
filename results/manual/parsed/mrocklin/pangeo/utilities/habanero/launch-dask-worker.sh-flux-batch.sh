@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cattywampus-1799
+#FLUX: --job-name=cowy-snack-0971
 #FLUX: --exclusive
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda
 source activate pangeo

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="NCI-NOXN-model-analysis"
+#FLUX: --job-name=NCI-NOXN-model-analysis
 #FLUX: -c=20
 #FLUX: --queue=hns,normal
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -ex
 MODEL_ANALYSIS_WORKSPACE="${NOXN_WORKSPACE:-$1}"  # final location of pipeline outputs

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-onion-3513
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-frito-2896
+#FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

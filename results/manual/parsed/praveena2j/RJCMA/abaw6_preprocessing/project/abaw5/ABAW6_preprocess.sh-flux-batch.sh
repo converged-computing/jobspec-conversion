@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ABAW6_preprocess
 #FLUX: -t=1296000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/misc/scratch11/anaconda3/bin:$PATH'
 

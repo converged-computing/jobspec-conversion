@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-plant-9261
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-malarkey-7956
+#FLUX: --urgency=16
 
 srun --jobid $SLURM_JOBID bash -c 'python -m partially_inverted_reps.finetuning \
 --source_dataset imagenet \

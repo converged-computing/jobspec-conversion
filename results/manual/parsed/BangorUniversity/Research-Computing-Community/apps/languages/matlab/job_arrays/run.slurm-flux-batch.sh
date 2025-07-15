@@ -2,7 +2,7 @@
 #FLUX: --job-name=job_arrays
 #FLUX: --queue=htc
 #FLUX: -t=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load matlab/R2019a

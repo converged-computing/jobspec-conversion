@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-egg-3765
-#FLUX: --priority=16
+#FLUX: --job-name=blue-pastry-1761
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lsqshr/Neuveal/legacy/dataprep.pbs

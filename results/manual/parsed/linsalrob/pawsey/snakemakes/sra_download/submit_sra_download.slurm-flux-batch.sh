@@ -2,7 +2,7 @@
 #FLUX: --job-name=SRA_dld
 #FLUX: -c=32
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euo pipefail
 eval "$(conda shell.bash hook)"

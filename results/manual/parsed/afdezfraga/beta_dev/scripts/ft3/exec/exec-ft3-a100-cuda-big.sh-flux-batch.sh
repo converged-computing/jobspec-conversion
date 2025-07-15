@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-rabbit-5354
-#FLUX: --priority=16
+#FLUX: --job-name=blue-noodle-6882
+#FLUX: --urgency=16
 
 module load cesga/2020 cuda/12.2.0
 cd build

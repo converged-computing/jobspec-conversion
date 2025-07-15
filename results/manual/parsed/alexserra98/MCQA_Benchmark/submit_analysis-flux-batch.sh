@@ -3,7 +3,7 @@
 #FLUX: -c=32
 #FLUX: --queue=DGX
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='32'
 export PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True'

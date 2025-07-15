@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lamp-9868
+#FLUX: --job-name=moolicious-cattywampus-2462
 #FLUX: -c=2
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export APPTAINER_CACHEDIR='$NOBACKUPDIR/apptainer_cachedir'
 export APPTAINER_TMPDIR='$NOBACKUPDIR/apptainer_tmpdir'

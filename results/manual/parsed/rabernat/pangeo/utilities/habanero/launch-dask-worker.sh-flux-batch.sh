@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-staircase-5864
+#FLUX: --job-name=scruptious-taco-4713
 #FLUX: --exclusive
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda
 source activate pangeo

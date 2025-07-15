@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-punk-9741
+#FLUX: --job-name=conspicuous-egg-0659
 #FLUX: -n=128
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load apps/anaconda3/5.2.0
 module load mpi/openmpi/1.10.7/gcc-5.5.0

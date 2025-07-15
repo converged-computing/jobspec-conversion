@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-bike-2610
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-sundae-4382
+#FLUX: --urgency=16
 
 ./install_abacus_toolchain.sh \
 --with-intel=system --math-mode=mkl \

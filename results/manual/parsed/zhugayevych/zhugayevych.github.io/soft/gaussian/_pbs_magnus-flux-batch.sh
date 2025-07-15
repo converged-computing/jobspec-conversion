@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-eagle-0497
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-squidward-6416
+#FLUX: --urgency=16
 
 export GAUSS_MEMDEF='$((MemBytes*95/8/100))'
 export GAUSS_PDEF='${SLURM_CPUS_PER_TASK}'

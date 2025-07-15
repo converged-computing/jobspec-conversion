@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=RASflow
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo '########################################'
 echo 'Date:' $(date --iso-8601=seconds)

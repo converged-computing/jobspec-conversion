@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-citrus-7333
-#FLUX: --priority=16
+#FLUX: --job-name=tart-gato-9574
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MODEL_DIR='/scratch/project_2002026/bert/cased_L-12_H-768_A-12'

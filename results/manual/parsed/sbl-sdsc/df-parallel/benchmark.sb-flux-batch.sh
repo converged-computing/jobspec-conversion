@@ -2,7 +2,7 @@
 #FLUX: --job-name=df-parallel-benchmark
 #FLUX: --queue=gpu-shared
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOCAL_SCRATCH_DIR='/scratch/${USER}/job_${SLURM_JOB_ID}'
 export CONDA_INSTALL_PATH='${LOCAL_SCRATCH_DIR}/miniconda3'

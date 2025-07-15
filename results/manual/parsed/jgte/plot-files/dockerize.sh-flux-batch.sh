@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-rabbit-7322
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-leader-9290
+#FLUX: --urgency=16
 
 DIR=$(cd $(dirname $BASH_SOURCE);pwd)
 MODE="$(echo "$1"| tr '[:upper:]' '[:lower:]')"

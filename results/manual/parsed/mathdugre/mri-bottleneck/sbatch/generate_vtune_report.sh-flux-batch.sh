@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-banana-8261
+#FLUX: --job-name=goodbye-car-5304
 #FLUX: --queue=gpu
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 set -u

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=all_samples
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 module load snakemake

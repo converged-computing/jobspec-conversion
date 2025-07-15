@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cattywampus-9374
+#FLUX: --job-name=peachy-hobbit-3832
 #FLUX: -c=32
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_MR_CACHE_MONITOR='userfaultfd'
 export HDF5_USE_FILE_LOCKING='FALSE'

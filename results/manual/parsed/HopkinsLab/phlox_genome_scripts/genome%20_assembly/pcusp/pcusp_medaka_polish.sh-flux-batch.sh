@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-rabbit-9819
+#FLUX: --job-name=lovely-chip-1182
 #FLUX: -c=8
-#FLUX: --queue=gpu # Partition
-#FLUX: --priority=16
+#FLUX: --queue=gpu
+#FLUX: --urgency=16
 
 module load intel/19.0.5-fasrc01
 p=$(sed "${SLURM_ARRAY_TASK_ID}q;d" contigs_fofn.txt)

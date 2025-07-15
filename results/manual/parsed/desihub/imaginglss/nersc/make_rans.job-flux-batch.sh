@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-bike-6087
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-train-1579
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export HDF5_USE_FILE_LOCKING='FALSE  '

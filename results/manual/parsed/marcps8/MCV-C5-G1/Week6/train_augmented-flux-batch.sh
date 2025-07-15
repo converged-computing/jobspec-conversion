@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lemon-3051
-#FLUX: --priority=16
+#FLUX: --job-name=tart-omelette-9863
+#FLUX: --urgency=16
 
 python model/augmentation_InceptionResnetV1.py ./data train

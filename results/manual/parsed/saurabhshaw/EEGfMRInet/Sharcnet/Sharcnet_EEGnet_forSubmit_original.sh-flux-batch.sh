@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-parsnip-0584
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-mango-2724
+#FLUX: --urgency=16
 
 base_path_rc="/home/shaws5/Research_code"
 base_path_rd="/scratch/shaws5/Research_data"

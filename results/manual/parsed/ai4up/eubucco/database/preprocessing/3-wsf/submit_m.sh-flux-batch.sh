@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=wsf-%A_%a
 #FLUX: -t=180
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 module load anaconda

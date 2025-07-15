@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-peanut-butter-1408
-#FLUX: --priority=16
+#FLUX: --job-name=arid-toaster-2887
+#FLUX: --urgency=16
 
 module purge
 module load all

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=EASEL
 #FLUX: --queue=general
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow
 SINGULARITY_TMPDIR=$PWD

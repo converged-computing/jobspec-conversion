@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=a2c_mujoco
 #FLUX: -n=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$(dirname $(dirname $PWD))'
 

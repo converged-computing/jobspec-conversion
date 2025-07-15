@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-chip-2644
+#FLUX: --job-name=loopy-peanut-butter-1493
 #FLUX: --queue=shortq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORK_DIR='/data/$USER/geant4_$SLURM_JOB_ID'
 export INPUT_DIR='$PWD/B5'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-leg-6725
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-hope-6884
+#FLUX: --urgency=16
 
 module load cmake/3.15.3
 module load gcc/7.5.0

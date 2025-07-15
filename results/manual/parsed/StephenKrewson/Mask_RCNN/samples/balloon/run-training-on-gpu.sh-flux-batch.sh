@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-itch-9322
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-general-3700
+#FLUX: --urgency=16
 
 module purge
 module restore cuda

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-staircase-7058
+#FLUX: --job-name=reclusive-pastry-9444
 #FLUX: -c=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='20'
 

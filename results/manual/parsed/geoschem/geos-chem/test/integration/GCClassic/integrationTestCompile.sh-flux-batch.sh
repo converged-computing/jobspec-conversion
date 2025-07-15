@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-hope-5977
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-chip-2691
+#FLUX: --urgency=16
 
 quick="${1}"
 itRoot=$(cd ..; pwd)

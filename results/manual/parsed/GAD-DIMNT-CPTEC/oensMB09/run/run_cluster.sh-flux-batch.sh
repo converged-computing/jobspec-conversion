@@ -2,7 +2,7 @@
 #FLUX: --job-name=CLUSTERFIGS
 #FLUX: --queue=${AUX_QUEUE}
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FILEENV='$(find ./ -name EnvironmentalVariablesMCGA -print)'
 export PATHENV='$(dirname ${FILEENV})'

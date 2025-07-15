@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-butter-4383
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-muffin-2930
+#FLUX: --urgency=16
 
 set -e -o pipefail
 source config.sh $@

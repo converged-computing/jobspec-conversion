@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=eagle_profile
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SING_CUDA_ACC='/flush1/bow355/AMplus_new_code/Mid_docker_tests/mro_cuda8_eagle_acc2_hdf-latest.img'
 

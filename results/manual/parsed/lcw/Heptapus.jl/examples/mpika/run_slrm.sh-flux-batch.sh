@@ -3,7 +3,7 @@
 #FLUX: -n=2
 #FLUX: --queue=allgpu
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 module load compile/gcc/7.2.0 openmpi/3.0.0 lib/cuda/10.1.243

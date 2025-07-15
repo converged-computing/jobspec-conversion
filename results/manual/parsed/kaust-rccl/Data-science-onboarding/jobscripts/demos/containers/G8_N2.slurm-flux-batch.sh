@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hobbit-6926
+#FLUX: --job-name=peachy-hippo-0828
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -c=16
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IMAGE='./pytorch_22.08-py3.sif'
 export BIND_MOUNT='-B /ibex/ai/home/shaima0d/KSL_Trainings'

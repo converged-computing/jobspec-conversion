@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-buttface-0017
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-omelette-2044
+#FLUX: --urgency=16
 
 echo "$SLURM_JOB_ID" > "$SLURM_JOB_ID"
 eval "$(conda shell.bash hook)"

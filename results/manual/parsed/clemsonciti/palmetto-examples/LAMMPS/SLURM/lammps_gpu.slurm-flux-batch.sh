@@ -2,7 +2,7 @@
 #FLUX: --job-name=lammps_test
 #FLUX: -N=2
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/$USER/software_slurm/lammps-23Jun2022/build-kokkos-gpu-omp:$PATH'
 

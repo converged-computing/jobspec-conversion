@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-milkshake-8548
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-diablo-3688
+#FLUX: --urgency=16
 
 source $HOME/loadenv_gpu.sh
 cd /c3se/users/zrimec/Vera/projects/DeepExpression/2019_2_22

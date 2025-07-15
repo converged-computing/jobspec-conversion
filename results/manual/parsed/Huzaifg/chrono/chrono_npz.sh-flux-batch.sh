@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-omelette-1771
+#FLUX: --job-name=placid-bike-9568
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/usr/lib64:$LD_LIBRARY_PATH'
 

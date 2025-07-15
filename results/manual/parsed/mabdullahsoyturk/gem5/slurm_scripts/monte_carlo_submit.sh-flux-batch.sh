@@ -3,7 +3,7 @@
 #FLUX: -n=18
 #FLUX: --queue=short
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INPUT_FILE=""
 source /etc/profile.d/zzz_cta.sh

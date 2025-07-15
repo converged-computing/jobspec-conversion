@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pkl_cfr_env
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Starting SLURM Script"
 nums=("000" "010" "025" "050" "100")

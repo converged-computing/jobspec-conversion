@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="example"
-#FLUX: --queue="v6_384"
-#FLUX: --priority=16
+#FLUX: --job-name=example
+#FLUX: --queue=v6_384
+#FLUX: --urgency=16
 
 module load gcc/10.2.0
 module load cmake/3.21.2

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-poo-0558
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-rabbit-4529
+#FLUX: --urgency=16
 
 module load cuda/9.0
 source activate maskrcnn

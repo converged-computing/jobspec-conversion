@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-knife-1133
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-leg-2791
+#FLUX: --urgency=16
 
 export TF_CPP_MIN_LOG_LEVEL='2'
 

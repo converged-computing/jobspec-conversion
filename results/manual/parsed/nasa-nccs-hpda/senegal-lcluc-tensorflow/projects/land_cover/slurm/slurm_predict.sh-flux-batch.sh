@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bmobenchmark
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/adapt/nobackup/people/jacaraba/development/tensorflow-caney'
 

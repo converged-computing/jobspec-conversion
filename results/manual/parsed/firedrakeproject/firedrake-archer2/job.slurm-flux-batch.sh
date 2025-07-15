@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-bits-5255
+#FLUX: --job-name=eccentric-parrot-8063
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FIREDRAKE_DIR='/your/firedrake/install/dir'
 export FI_OFI_RXM_SAR_LIMIT='64K'

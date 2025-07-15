@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-nunchucks-3698
+#FLUX: --job-name=hairy-poo-1807
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=64800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /ifs/opt_cuda/modulefiles
 module load gromacs/cuda11.2/2021.3

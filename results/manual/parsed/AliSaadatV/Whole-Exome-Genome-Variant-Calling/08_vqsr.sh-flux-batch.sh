@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-dog-1611
+#FLUX: --job-name=faux-peanut-butter-8748
 #FLUX: -c=2
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "START AT $(date)"
 set -e

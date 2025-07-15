@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-blackbean-4675
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-spoon-8498
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cbrafter/SUMO_FRAMEWORK/sumojob.sh

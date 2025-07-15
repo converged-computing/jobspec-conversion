@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-caramel-3198
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-leg-8539
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Saric-Group/amyloid-simulations/job_templates/lemon/analysis

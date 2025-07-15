@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-cat-7052
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-milkshake-1655
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'
 

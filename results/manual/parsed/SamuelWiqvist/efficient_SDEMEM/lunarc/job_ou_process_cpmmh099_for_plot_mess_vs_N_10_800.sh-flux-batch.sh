@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-destiny-7066
+#FLUX: --job-name=bloated-fork-6770
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'
 

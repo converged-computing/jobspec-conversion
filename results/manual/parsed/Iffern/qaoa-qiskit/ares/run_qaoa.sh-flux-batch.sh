@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-snack-1657
+#FLUX: --job-name=placid-hope-0667
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IBM_QUANTUM_TOKEN=''
 

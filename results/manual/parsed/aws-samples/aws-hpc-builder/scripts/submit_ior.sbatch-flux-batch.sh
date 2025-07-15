@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-leopard-5753
+#FLUX: --job-name=eccentric-knife-7841
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=gxlarge
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IOR_VERSION='4.0.0rc1'
 export OMP_NUM_THREADS='1'

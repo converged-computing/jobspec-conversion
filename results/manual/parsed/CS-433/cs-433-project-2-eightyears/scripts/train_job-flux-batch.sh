@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-avocado-3170
+#FLUX: --job-name=sticky-general-2245
 #FLUX: --queue=gpu
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo START BY $USER AT `date`
 nvidia-smi

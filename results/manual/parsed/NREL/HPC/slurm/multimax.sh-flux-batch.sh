@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="mpi4py"
+#FLUX: --job-name=mpi4py
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=debug
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OFFSET='4'
 

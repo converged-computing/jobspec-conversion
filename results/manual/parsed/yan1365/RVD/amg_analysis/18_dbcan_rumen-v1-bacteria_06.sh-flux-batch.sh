@@ -2,7 +2,7 @@
 #FLUX: --job-name=dbcan_rumen-v1-bacteria_06
 #FLUX: -n=48
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 START=$SECONDS
 cd  /fs/scratch/PAS0439/Ming/databases/mgnify-rumen-v1.0/genomes/bacteria

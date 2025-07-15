@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ch_20
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /scratch/msy290/maml_resnet_20way/
 module load cudnn/8.0v6.0

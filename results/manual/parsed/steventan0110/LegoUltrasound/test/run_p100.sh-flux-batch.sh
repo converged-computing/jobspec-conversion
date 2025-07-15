@@ -2,7 +2,7 @@
 #FLUX: --job-name=matlab_p100
 #FLUX: -c=6
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml cuda/8.0
 ml gcc/5.5.0

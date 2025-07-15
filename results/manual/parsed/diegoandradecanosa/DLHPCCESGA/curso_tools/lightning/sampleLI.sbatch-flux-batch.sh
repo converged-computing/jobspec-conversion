@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-peanut-butter-3966
+#FLUX: --job-name=fuzzy-lamp-5908
 #FLUX: -t=3540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

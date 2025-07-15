@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-blackbean-7624
+#FLUX: --job-name=swampy-peas-7825
 #FLUX: --queue=short
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONTAINER="${HOME}/containers/rapids-prod.sif"
 CONTAINER_RC_FILE="${HOME}/containers/singularity_rc"

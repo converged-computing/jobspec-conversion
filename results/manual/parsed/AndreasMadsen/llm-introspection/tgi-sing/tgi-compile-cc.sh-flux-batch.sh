@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-bike-6639
+#FLUX: --job-name=placid-ricecake-6199
 #FLUX: -c=2
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 set -v

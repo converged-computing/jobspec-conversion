@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="My_data"
+#FLUX: --job-name=My_data
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /storage/homefs/ch19g182/Python/ID-NF/estimate_d
 nvcc --version

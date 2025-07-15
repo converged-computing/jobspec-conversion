@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-poodle-0809
-#FLUX: --priority=15
+#FLUX: --job-name=misunderstood-spoon-8618
+#FLUX: --urgency=15
 
 module load miniconda3/v4
 source /home/software/conda/miniconda3/bin/condainit

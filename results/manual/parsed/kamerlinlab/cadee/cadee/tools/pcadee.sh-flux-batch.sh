@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-butter-9922
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-kitty-9257
+#FLUX: --urgency=16
 
 export CORES='4'
 export MACHINE_NAME='$(hostname)'

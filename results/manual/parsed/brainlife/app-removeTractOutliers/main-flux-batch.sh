@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-general-2530
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-hope-5788
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-removeTractOutliers/main

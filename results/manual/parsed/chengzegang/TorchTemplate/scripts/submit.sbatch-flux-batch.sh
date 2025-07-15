@@ -5,7 +5,7 @@
 #FLUX: -c=8
 #FLUX: --queue=tandon_a100_2
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export LOGLEVEL='INFO'

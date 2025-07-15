@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="hybrid"
+#FLUX: --job-name=hybrid
 #FLUX: --exclusive
 #FLUX: --queue=lg
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/tkaiser2/boot/opt/spack/linux-rocky8-zen2/gcc-11.2.0/git-2.35.2-4dboh5zioljmmy4q4rwdol4fwahu7k54/bin:$PATH'
 export STARTDIR='`pwd`'

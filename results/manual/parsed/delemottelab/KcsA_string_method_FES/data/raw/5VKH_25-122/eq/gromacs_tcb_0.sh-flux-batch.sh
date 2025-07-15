@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-noodle-8398
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-butter-9835
+#FLUX: --urgency=16
 
 module unload gromcas
  module unload gromacs/2020.2

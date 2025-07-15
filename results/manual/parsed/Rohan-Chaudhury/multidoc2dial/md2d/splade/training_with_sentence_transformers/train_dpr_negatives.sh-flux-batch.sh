@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-itch-7542
+#FLUX: --job-name=bricky-malarkey-3449
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='eno1'
 export NCCL_IB_DISABLE='1 '

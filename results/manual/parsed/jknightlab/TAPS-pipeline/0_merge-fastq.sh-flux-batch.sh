@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-car-2254
-#FLUX: --priority=16
+#FLUX: --job-name=angry-itch-2603
+#FLUX: --urgency=16
 
 input_dir=$PWD
 output_dir=$PWD

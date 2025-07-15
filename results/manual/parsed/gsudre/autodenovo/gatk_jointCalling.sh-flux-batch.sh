@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=gatk2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 bam_list=$1
 gatk_memory="118g"

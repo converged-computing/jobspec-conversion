@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=g40x
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

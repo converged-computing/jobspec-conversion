@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-eagle-9982
+#FLUX: --job-name=joyous-parsnip-3999
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_TOPO_FILE='/nccl/p4d-24xl-topo.xml'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-peanut-butter-9923
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-pot-1946
+#FLUX: --urgency=16
 
 module purge
 module load singularity

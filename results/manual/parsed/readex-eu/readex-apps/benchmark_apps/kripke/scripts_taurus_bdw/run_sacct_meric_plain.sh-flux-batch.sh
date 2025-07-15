@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-salad-7751
+#FLUX: --job-name=ornery-bike-0967
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MERIC_MODE='3'
 export MERIC_FREQUENCY='0'

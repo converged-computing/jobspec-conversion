@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lemur-8772
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-fork-9681
+#FLUX: --urgency=16
 
 module load bioinfo-tools
 module load HOMER/4.11

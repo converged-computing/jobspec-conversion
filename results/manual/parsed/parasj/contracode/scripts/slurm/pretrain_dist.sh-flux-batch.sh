@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=contrastive_pretrain_dist
 #FLUX: -t=450000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/data/paras/miniconda3/bin:$PATH'
 export DATA_CACHE='/dev/shm'

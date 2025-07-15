@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-frito-3738
+#FLUX: --job-name=arid-cupcake-9570
 #FLUX: -N=2
 #FLUX: -c=8
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

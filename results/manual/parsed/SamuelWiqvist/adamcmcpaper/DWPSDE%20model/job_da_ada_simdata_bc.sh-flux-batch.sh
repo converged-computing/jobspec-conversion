@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-kerfuffle-0292
-#FLUX: --priority=16
+#FLUX: --job-name=milky-poo-1653
+#FLUX: --urgency=16
 
 ml load icc/2017.1.132-GCC-6.3.0-2.27
 ml load impi/2017.1.132

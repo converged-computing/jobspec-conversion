@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-house-5065
+#FLUX: --job-name=hanky-caramel-0352
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load namd/2.12/cpu

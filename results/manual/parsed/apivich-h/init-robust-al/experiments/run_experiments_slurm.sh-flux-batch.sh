@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-ricecake-9775
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-general-9484
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$CONDA_PREFIX/lib'
 export XLA_FLAGS='--xla_gpu_force_compilation_parallelism=1  --xla_force_host_platform_device_count=${cpucount}'

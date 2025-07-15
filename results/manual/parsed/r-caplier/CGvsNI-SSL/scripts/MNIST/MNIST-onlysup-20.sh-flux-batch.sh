@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-bike-3483
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-rabbit-5054
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/r-caplier/CGvsNI-SSL/scripts/MNIST/MNIST-onlysup-20.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-onion-1603
+#FLUX: --job-name=gloopy-train-1974
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.6.3
 module load cuda/11.4.2

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-car-8029
+#FLUX: --job-name=placid-chip-8087
 #FLUX: --queue=gpu
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python-env/intelpython3.6-2018.3

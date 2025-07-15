@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=sl_qa
 #FLUX: -c=12
-#FLUX: --queue=XXX  # please specify your partition
+#FLUX: --queue=XXX
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 exp_name=$1  # note we added ${corpus} prefix automatically
 dataset=$2  # one of [vqa, msrvtt, anet]

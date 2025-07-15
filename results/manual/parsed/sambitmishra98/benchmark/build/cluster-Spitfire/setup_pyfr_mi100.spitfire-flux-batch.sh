@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name="pyfr-script"
+#FLUX: --job-name=pyfr-script
 #FLUX: -N=3
 #FLUX: -n=9
 #FLUX: --exclusive
 #FLUX: --queue=amd
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
     . /etc/profile.d/modules.sh
     module purge

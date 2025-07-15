@@ -2,7 +2,7 @@
 #FLUX: --job-name=namd
 #FLUX: --queue=gpu
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge; 
 ulimit -Sn 4096; 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-leopard-3073
+#FLUX: --job-name=dinosaur-arm-0334
 #FLUX: --queue=compsci-gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 SLURM_ARRAY_TASK_ID=204

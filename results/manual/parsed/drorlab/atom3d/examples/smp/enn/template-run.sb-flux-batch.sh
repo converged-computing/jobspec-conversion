@@ -2,7 +2,7 @@
 #FLUX: --job-name=smp-TARGET-cormorant
 #FLUX: --queue=rondror
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/8.1.0
 module load cuda/10.0

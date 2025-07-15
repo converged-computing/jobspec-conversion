@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-dog-5982
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-poo-9842
+#FLUX: --urgency=16
 
 export PATH='${CONDA_ROOT}/bin:$PATH'
 export MODPATH='`realpath .`'

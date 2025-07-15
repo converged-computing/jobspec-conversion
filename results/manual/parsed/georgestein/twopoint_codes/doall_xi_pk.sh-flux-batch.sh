@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-kerfuffle-8398
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-mango-7621
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/georgestein/twopoint_codes/doall_xi_pk.sh

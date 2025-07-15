@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-punk-5240
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-cat-7851
+#FLUX: --urgency=16
 
 module load python
 module load gurobi

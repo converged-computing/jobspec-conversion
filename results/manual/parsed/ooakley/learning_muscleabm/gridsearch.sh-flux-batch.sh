@@ -2,7 +2,7 @@
 #FLUX: --job-name=simulation
 #FLUX: --queue=cpu
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 config=./fileOutputs/gridsearch.txt
 superIterationCount=$(awk -v array_id=$SLURM_ARRAY_TASK_ID '$1==array_id {print $2}' $config)

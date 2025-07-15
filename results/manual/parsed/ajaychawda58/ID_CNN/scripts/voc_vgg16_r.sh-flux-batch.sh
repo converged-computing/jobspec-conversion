@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-cherry-2924
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-milkshake-0224
+#FLUX: --urgency=16
 
 module load nvidia/11.1
 module load anaconda3/latest

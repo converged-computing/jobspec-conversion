@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-frito-2141
+#FLUX: --job-name=stinky-poo-8730
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load pytorch/1.2.0-cuda10.0-cudnn7.6-py3.7
 frac_values=( 0.1 )

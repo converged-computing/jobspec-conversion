@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-muffin-4954
+#FLUX: --job-name=chunky-knife-5087
 #FLUX: --queue=gpulab02
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 env_name="trans"
 seq_lens=(336)

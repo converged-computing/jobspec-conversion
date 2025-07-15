@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cattywampus-1848
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-noodle-0297
+#FLUX: --urgency=16
 
 function parse_yaml {
    local prefix=$2

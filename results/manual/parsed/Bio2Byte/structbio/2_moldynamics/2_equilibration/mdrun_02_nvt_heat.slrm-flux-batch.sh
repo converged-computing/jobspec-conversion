@@ -2,7 +2,7 @@
 #FLUX: --job-name=nvt_heat
 #FLUX: --queue=ampere_gpu
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='TRUE'
 

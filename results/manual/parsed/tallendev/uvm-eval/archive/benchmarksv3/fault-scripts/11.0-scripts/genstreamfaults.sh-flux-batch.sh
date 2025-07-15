@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-itch-6019
+#FLUX: --job-name=cowy-puppy-0674
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

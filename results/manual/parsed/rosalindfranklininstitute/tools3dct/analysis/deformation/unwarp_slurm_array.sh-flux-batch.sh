@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-fork-0909
+#FLUX: --job-name=strawberry-lemur-3938
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load X11
 module load Python

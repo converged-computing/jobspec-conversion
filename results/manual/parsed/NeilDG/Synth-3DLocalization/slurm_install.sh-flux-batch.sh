@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-underoos-6057
+#FLUX: --job-name=phat-parrot-2425
 #FLUX: -c=2
 #FLUX: --queue=serial
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/3-2021.11
 module load cuda/10.1_cudnn-7.6.5

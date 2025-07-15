@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-fudge-7366
+#FLUX: --job-name=doopy-eagle-6487
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 source $PREAMBLE

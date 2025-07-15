@@ -3,7 +3,7 @@
 #FLUX: -c=24
 #FLUX: --queue=day
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 error=0
 if [ -z "$1" ]

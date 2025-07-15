@@ -2,7 +2,7 @@
 #FLUX: --job-name=_lz
 #FLUX: --queue=cardio
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export id='$(grep -v ieu-a-276 efo | awk 'NR==ENVIRON["SLURM_ARRAY_TASK_ID"]')'
 

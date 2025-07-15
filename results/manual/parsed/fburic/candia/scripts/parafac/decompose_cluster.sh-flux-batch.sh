@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-peas-3503
+#FLUX: --job-name=fuzzy-taco-2674
 #FLUX: -n=8
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ "$#" -lt 2 ]; then
     echo "[ERROR] Correct syntax:"

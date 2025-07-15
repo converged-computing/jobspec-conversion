@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-bicycle-5058
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-squidward-7841
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Shicheng-Guo/AnnotationDatabase/methbase/methbase.run.sh

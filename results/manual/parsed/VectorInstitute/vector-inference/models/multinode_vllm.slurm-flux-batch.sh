@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lentil-4624
+#FLUX: --job-name=boopy-punk-4640
 #FLUX: -c=16
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda-12.3
 nvidia-smi

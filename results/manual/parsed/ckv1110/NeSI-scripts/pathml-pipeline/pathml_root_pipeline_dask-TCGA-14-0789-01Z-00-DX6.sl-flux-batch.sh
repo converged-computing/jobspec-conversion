@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=bigmem
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BIND='/nesi/nobackup/uoa03709/input:/var/inputdata,\'
 

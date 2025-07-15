@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-arm-1866
+#FLUX: --job-name=blue-staircase-5345
 #FLUX: -c=4
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/3/2020.02

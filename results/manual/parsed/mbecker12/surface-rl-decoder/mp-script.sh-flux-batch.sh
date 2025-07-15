@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-chip-3179
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-cupcake-2083
+#FLUX: --urgency=16
 
 IMAGE_WORKDIR=/surface-rl-decoder
 CLUSTER_WORKDIR=surface-rl-decoder

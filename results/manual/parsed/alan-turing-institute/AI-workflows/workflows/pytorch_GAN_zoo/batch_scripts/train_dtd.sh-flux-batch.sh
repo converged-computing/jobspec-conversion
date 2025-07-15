@@ -2,7 +2,7 @@
 #FLUX: --job-name=pytorch_gan_zoo_dtd
 #FLUX: --queue=%partition
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load %modules

@@ -2,7 +2,7 @@
 #FLUX: --job-name=train_ctran_bcepoly2
 #FLUX: --queue=gpu
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/9.3

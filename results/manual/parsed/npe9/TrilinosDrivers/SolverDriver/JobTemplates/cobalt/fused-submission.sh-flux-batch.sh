@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=grated-malarkey-7483
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-motorcycle-6009
+#FLUX: --urgency=16
 

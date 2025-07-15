@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-chair-5780
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-arm-8528
+#FLUX: --urgency=16
 
 set -e
 if [ -e "${MOD_FILE}" ]; then

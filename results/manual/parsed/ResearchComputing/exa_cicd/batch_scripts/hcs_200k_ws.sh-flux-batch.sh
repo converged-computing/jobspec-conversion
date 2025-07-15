@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-diablo-5038
+#FLUX: --job-name=sticky-nalgas-4840
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export COMMIT='$1'
 export MFIX='/app/mfix/build/mfix/mfix'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-rabbit-1143
+#FLUX: --job-name=conspicuous-general-9593
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NFFDIR='/home/saxelrod/repo/nff/master/NeuralForceField'
 export PYTHONPATH='$NFFDIR:$PYTHONPATH'

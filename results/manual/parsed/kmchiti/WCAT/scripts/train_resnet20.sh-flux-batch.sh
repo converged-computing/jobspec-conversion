@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-nunchucks-0156
+#FLUX: --job-name=placid-leopard-8055
 #FLUX: -c=4
 #FLUX: -t=10740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUBLAS_WORKSPACE_CONFIG=':16:8'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ttcf
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
  module load gcc/8.2.0
  module load openmpi/4.0.0

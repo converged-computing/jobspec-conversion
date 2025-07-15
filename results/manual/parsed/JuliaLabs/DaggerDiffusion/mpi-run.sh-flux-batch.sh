@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lamp-9453
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-arm-9012
+#FLUX: --urgency=16
 
 export UCX_ERROR_SIGNALS='SIGILL,SIGBUS,SIGFPE'
 

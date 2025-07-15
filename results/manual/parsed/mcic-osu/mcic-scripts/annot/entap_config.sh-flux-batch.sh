@@ -2,7 +2,7 @@
 #FLUX: --job-name=entap-config
 #FLUX: -c=8
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 Print_help() {
     echo

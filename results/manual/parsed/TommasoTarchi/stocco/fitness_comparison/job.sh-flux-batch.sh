@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="fitness_comparison"
+#FLUX: --job-name=fitness_comparison
 #FLUX: --queue=EPYC
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='10'
 

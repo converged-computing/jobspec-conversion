@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pancake-1118
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-diablo-5035
+#FLUX: --urgency=16
 
 export gComDir='$HOME/gkylsoft/gkyl/bin'
 

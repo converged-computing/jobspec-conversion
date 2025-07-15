@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-fudge-6679
+#FLUX: --job-name=hanky-train-1462
 #FLUX: -c=16
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONNOUSERSITE='1'
 export SINGULARITY_BIND='/nesi/nobackup,/nesi/project'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-avocado-5282
+#FLUX: --job-name=bumfuzzled-gato-7748
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'
 

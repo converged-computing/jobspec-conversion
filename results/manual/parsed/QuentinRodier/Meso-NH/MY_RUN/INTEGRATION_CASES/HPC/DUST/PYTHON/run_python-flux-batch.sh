@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-squidward-6714
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-squidward-8562
+#FLUX: --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

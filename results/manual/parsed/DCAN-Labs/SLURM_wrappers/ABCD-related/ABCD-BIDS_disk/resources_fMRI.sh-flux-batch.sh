@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-platanos-0527
-#FLUX: --priority=16
+#FLUX: --job-name=faux-car-1073
+#FLUX: --urgency=16
 
 cd run_files.fMRI
 module load singularity

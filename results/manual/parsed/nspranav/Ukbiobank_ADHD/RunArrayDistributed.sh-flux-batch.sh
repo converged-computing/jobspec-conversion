@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-toaster-3074
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-diablo-8738
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MODULEPATH='/apps/Compilers/modules-3.2.10/Debug-Build/Modules/3.2.10/modulefiles/'

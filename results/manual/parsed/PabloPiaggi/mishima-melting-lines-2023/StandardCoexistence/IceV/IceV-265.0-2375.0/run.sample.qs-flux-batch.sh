@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lemur-2377
+#FLUX: --job-name=ornery-car-6251
 #FLUX: -c=7
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cudatoolkit/10.0
 module load cudnn/cuda-10.0/7.6.3

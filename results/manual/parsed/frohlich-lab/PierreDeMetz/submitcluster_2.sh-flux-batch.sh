@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-fork-3127
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-fork-6663
+#FLUX: --urgency=16
 
 export WANDB_API_KEY='########'
 

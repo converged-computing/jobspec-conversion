@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-eagle-6180
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-lizard-9557
+#FLUX: --urgency=16
 
 export JULIA_DEPOT_PATH='${HOME}/julia_depots/climate'
 

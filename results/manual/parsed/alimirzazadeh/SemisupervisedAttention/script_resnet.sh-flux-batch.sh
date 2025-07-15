@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-parsnip-4110
+#FLUX: --job-name=fat-ricecake-4040
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BATCH_DIRECTORY='ablation_methods_s135_r3s2'
 export TO_LOAD_CHECKPOINT='False'

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-poodle-6014
-#FLUX: --priority=16
+#FLUX: --job-name=tart-animal-8268
+#FLUX: --urgency=16
 

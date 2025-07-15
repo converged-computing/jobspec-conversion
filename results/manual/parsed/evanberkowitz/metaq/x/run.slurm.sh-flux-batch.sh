@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-pot-3297
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-parrot-2485
+#FLUX: --urgency=16
 
 METAQ=/full/path/to/metaq       # Specifies the full path to the metaq folder itself.
 METAQ_JOB_ID=${SLURM_JOB_ID}    # Any string.  You don't have to use the batch scheduler ID,

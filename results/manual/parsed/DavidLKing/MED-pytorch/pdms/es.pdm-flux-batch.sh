@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-hippo-3809
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-banana-8787
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DavidLKing/MED-pytorch/pdms/es.pdm

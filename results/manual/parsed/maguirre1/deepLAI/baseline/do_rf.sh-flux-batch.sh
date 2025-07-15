@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-earthworm-6157
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-egg-1279
+#FLUX: --urgency=16
 
 if [ "$#" -lt 1 ]; then 
 	echo "usage: bash do_rf.sh input.vcf [out_prefix]"

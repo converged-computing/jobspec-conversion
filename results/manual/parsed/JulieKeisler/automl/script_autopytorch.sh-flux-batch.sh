@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="autopytorch"
+#FLUX: --job-name=autopytorch
 #FLUX: -t=90000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CUDA
 module load impi/2021.7.0

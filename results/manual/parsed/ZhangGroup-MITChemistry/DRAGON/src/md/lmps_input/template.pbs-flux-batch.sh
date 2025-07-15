@@ -2,7 +2,7 @@
 #FLUX: --job-name=lmps
 #FLUX: --queue=mit
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 module add mvapich2/gcc

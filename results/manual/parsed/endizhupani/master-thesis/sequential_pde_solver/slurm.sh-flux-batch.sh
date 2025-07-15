@@ -2,7 +2,7 @@
 #FLUX: --job-name=custom-solver-seq
 #FLUX: --queue=gpu2080
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intelcuda/2019a
 module load CMake/3.15.3

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-pastry-4514
+#FLUX: --job-name=bumfuzzled-leopard-4254
 #FLUX: -c=48
 #FLUX: --queue=production-cluster
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LAUNCHER='accelerate launch \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

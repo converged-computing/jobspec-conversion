@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-latke-0278
-#FLUX: --priority=16
+#FLUX: --job-name=confused-salad-4628
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/NN/Shellscripts/03-01/NN_script_03-01_14.sh

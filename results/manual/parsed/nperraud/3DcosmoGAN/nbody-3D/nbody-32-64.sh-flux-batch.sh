@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-car-8884
+#FLUX: --job-name=eccentric-chip-3940
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 module load cray-python

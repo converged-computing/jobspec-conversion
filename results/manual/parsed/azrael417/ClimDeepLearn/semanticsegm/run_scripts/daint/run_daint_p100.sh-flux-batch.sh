@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-latke-1237
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-kitty-6385
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='12'
 export OMP_PLACES='threads'

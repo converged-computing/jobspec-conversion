@@ -3,7 +3,7 @@
 #FLUX: -n=250
 #FLUX: --queue=short
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ulimit -s unlimited
 srun --mpi=pmix ./drop_count

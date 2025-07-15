@@ -2,7 +2,7 @@
 #FLUX: --job-name=kerasTunerTest-r2_large_res
 #FLUX: --queue=cpu-short
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ENV='/home/s2358093/data1/conda_envs/hvm-05'
 export CWD='$(pwd)'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-frito-8690
+#FLUX: --job-name=fuzzy-pedo-0688
 #FLUX: -N=32
 #FLUX: -c=32
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

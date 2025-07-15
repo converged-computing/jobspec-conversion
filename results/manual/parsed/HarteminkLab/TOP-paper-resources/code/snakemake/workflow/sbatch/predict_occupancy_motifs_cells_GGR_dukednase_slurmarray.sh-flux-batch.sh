@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=predict_GGR
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load R/4.1.1-rhel8
 METADATA='/datacommons/harteminklab/kl124/TOP/data/GGR/metadata/predictions/GGR_DNase_JASPAR2022NR_all_motifs_predict_data_table.tsv'

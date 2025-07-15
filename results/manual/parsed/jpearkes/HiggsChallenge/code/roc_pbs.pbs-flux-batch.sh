@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-soup-8848
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-lentil-1803
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jpearkes/HiggsChallenge/code/roc_pbs.pbs

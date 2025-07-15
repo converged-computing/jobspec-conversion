@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-malarkey-4975
+#FLUX: --job-name=fat-destiny-3290
 #FLUX: --queue=haswell
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VENDOR_DIR='/usr/projects/draco/vendors'
 export CXX='`which mpiicpc`'

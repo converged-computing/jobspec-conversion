@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-chair-6640
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-mango-5953
+#FLUX: --urgency=16
 
 python retrieval.py

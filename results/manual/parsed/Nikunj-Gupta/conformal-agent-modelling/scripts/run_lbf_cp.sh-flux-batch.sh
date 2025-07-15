@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-underoos-0299
+#FLUX: --job-name=faux-hippo-5289
 #FLUX: -c=6
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1 #init weights fails otherwise (see https://github.com/pytorch/pytorch/issues/21956)'
 

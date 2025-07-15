@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lemur-0225
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-leopard-3077
+#FLUX: --urgency=16
 
 export MPLCONFIGDIR='${LUSTRE}/.matplotlib'
 export OMP_NUM_THREADS='1'

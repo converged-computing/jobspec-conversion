@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-motorcycle-7908
+#FLUX: --job-name=boopy-cinnamonbun-6851
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export cluster='azure'
 export CUDA_DEVICE_ORDER='PCI_BUS_ID'

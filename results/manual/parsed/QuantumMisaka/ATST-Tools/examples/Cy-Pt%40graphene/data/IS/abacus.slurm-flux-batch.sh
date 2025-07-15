@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-fork-2812
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-milkshake-0756
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 

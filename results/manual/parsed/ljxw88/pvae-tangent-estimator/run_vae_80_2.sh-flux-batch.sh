@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-nalgas-5300
+#FLUX: --job-name=chocolate-destiny-2496
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load pytorch/1.4.0-py36-cuda90
 module load torchvision/0.5.0-py36

@@ -2,7 +2,7 @@
 #FLUX: --job-name=${2}-${j}-${1}-$i
 #FLUX: -N=2
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MKL_NUM_THREADS='1'

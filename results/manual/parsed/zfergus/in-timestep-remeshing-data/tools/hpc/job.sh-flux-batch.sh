@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-signal-1720
+#FLUX: --job-name=stinky-animal-8849
 #FLUX: -c=16
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PROJECT_NAME="remeshing-project"
 module purge

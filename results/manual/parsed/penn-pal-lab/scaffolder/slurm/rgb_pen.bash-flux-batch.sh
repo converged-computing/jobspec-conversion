@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-peanut-2626
+#FLUX: --job-name=faux-destiny-3967
 #FLUX: --queue=dineshj-compute
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_RUN_GROUP='$EXPERIMENT; '
 export WANDB__SERVICE_WAIT='600;'

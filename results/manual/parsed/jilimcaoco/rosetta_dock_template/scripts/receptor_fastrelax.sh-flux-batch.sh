@@ -2,7 +2,7 @@
 #FLUX: --job-name=receptor_relax
 #FLUX: --queue=standard
 #FLUX: -t=216000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 RECEPTOR=${1}
 RECEPTOR_JOB_NAME=${2}

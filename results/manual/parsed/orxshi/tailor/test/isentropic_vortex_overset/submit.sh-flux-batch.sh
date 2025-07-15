@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-motorcycle-5649
-#FLUX: --priority=16
+#FLUX: --job-name=salted-motorcycle-7107
+#FLUX: --urgency=16
 
 mpirun --tag-output --report-bindings /usr/bin/time -f '%e %S %U %P %M' -o "timing.dat" --append ./out
     #--show-leak-kinds=all \

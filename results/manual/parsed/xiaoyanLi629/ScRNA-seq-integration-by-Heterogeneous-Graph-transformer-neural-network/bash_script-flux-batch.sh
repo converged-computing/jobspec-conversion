@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=scRNA_seq_inte
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load GCCcore/10.3.0

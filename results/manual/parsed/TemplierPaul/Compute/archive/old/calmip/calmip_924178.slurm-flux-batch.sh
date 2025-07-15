@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-train-3728
+#FLUX: --job-name=butterscotch-eagle-4776
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -c=36
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-poo-3064
+#FLUX: --job-name=peachy-banana-7917
 #FLUX: -n=112
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$HOME/.conda/envs/pylammps/lib:$LD_LIBRARY_PATH '
 export PATH='$HOME/lammps/src/:$PATH'

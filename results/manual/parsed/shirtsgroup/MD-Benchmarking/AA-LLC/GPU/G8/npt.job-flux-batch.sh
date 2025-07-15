@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-truffle-2475
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-puppy-4949
+#FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1  # do not make back-ups'
 

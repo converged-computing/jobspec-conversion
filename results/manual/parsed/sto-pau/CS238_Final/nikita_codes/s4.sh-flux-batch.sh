@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-platanos-6999
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-leg-5675
+#FLUX: --urgency=16
 
 module purge
 module load openmpi

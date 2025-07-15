@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-hobbit-1763
-#FLUX: --priority=16
+#FLUX: --job-name=tart-motorcycle-3298
+#FLUX: --urgency=16
 
 module load intel/24.0
 module load impi/21.11

@@ -2,7 +2,7 @@
 #FLUX: --job-name=BRIDGES_fff25_200
 #FLUX: --queue=RM
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='0'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=variantCalling
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow
 module load singularity

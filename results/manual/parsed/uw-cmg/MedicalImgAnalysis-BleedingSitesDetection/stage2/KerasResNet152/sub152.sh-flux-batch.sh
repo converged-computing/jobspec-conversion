@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-malarkey-7001
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-fudge-5117
+#FLUX: --urgency=16
 
 module load usermods
 module load user/cuda

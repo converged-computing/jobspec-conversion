@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-hippo-9102
+#FLUX: --job-name=fuzzy-blackbean-8990
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 input_file=hexakisx.g16_gpu
 . /hpc/mp/spack/opt/spack/linux-ubuntu20.04-zen2/gcc-10.3.0/lmod-8.7.2-uutt23puvwraegsi7w7ck3xbhrgk22mu/lmod/lmod/init/zsh

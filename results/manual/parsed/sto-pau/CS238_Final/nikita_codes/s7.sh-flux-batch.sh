@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-kerfuffle-6483
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-kerfuffle-7715
+#FLUX: --urgency=16
 
 module purge
 module load openmpi

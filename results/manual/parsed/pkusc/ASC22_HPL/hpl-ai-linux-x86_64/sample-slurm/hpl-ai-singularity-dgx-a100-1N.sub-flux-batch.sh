@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="test-hpl-ai.1N"
+#FLUX: --job-name=test-hpl-ai.1N
 #FLUX: -t=2400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DATESTRING=`date "+%Y-%m-%dT%H:%M:%S"`
 CONT='/path/to/hpc-benchmarks:21.4-hpl.sif'

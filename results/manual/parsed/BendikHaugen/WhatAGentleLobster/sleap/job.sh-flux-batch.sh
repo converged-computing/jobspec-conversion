@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-platanos-5205
-#FLUX: --priority=16
+#FLUX: --job-name=astute-avocado-4030
+#FLUX: --urgency=16
 
 echo "we are running from this directory: $SLURM_SUBMIT_DIR"
 echo " the name of the job is: $SLURM_JOB_NAME"

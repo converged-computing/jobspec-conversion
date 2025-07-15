@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="Grid-search California Housing (ECCCo)"
+#FLUX: --job-name=Grid-search California Housing (ECCCo)
 #FLUX: -n=14
 #FLUX: -c=14
 #FLUX: --queue=general
 #FLUX: -t=2100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/insy/modulefiles          # Use DAIC INSY software collection
 module load openmpi

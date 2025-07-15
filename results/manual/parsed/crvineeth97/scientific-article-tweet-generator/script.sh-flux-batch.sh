@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-knife-7241
+#FLUX: --job-name=quirky-peas-8804
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EXP_PATH='/scratch/$USER/ire'
 export NUM='1'

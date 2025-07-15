@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-signal-6095
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-signal-3397
+#FLUX: --urgency=16
 
 ulimit -a
 module load Python/3.6.3-foss-2017b

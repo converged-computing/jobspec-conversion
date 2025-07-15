@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lizard-9771
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-milkshake-5174
+#FLUX: --urgency=16
 
 set -eu
 module load java/jdk-11.0.11

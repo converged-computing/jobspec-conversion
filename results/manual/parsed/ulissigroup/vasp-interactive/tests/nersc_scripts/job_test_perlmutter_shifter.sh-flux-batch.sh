@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pot-9432
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-staircase-2087
+#FLUX: --urgency=16
 
 export PATH='${CONDA_ROOT}/bin:$PATH'
 export MODPATH='`realpath .`'

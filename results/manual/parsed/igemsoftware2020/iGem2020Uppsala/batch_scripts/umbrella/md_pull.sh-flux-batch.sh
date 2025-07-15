@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-signal-0923
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-butter-5472
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$ntomp'
 

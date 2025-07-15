@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-latke-4910
+#FLUX: --job-name=fugly-leg-0192
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 OMNI=/mainfs/hgig/public/HUMAN_REFS/HG38/resources_broad_hg38_v0_1000G_omni2.5.hg38.vcf
 ONE_THOUSAND=/mainfs/hgig/public/HUMAN_REFS/HG38/resources_broad_hg38_v0_1000G_phase1.snps.high_confidence.hg38.vcf

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-bits-4732
+#FLUX: --job-name=scruptious-soup-4983
 #FLUX: -N=2
 #FLUX: -n=16
 #FLUX: --exclusive
 #FLUX: --queue=serc
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MATSIZE=20240
 echo;

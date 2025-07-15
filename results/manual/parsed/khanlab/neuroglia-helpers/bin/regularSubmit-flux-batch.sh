@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-itch-0713
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-lentil-2204
+#FLUX: --urgency=16
 
 execpath=`dirname $0`
 execpath=`realpath $execpath`

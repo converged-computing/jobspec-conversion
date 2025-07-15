@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-parsnip-6523
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-avocado-6420
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export MPICH_OFI_NIC_POLICY='NUMA'

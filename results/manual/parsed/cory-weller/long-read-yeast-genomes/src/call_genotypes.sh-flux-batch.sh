@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-cinnamonbun-7298
+#FLUX: --job-name=red-taco-0991
 #FLUX: --queue=quick,norm
 #FLUX: -t=14399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FASTA1='$(realpath ${FASTA1})'
 export FASTA2='$(realpath ${FASTA2})'

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-itch-8083
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-knife-4387
+#FLUX: --urgency=16
 

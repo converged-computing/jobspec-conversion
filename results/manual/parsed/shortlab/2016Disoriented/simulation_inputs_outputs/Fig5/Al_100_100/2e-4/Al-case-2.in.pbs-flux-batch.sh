@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lemur-2782
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-lizard-7705
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/shortlab/2016Disoriented/simulation_inputs_outputs/Fig5/Al_100_100/2e-4/Al-case-2.in.pbs

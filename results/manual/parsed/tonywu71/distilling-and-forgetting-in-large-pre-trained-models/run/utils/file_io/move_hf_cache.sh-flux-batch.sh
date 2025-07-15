@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-noodle-6762
+#FLUX: --job-name=reclusive-poo-9205
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LOGDIR=logs/
 DIRPATH_EXP=logs/$SLURM_JOB_NAME/

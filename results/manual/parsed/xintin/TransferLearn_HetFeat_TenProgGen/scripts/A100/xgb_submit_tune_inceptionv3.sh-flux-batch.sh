@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-malarkey-5252
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-leader-6972
+#FLUX: --urgency=16
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-milkshake-8101
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-squidward-3461
+#FLUX: --urgency=16
 
 source $HOME/.bashrc
 mas_script_path="$BASH_SOURCE"

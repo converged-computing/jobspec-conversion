@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="pegasus_bwaMem"
+#FLUX: --job-name=pegasus_bwaMem
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -o pipefail
 time=`date +%d-%m-%Y-%H-%M` 

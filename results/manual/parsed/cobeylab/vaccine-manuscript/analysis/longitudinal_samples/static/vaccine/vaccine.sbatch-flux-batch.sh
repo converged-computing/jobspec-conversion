@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lettuce-8242
+#FLUX: --job-name=arid-avocado-7062
 #FLUX: --queue=amd
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 let START=$SLURM_ARRAY_TASK_ID*$N_PER_JOB
 let END=$START+${N_PER_JOB}-1

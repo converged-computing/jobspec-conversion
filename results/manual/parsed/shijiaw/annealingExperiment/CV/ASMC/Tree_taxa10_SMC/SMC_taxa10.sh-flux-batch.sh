@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-bike-0099
+#FLUX: --job-name=pusheena-bits-2897
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load r/3.4.0
 module load java/1.8.0_121

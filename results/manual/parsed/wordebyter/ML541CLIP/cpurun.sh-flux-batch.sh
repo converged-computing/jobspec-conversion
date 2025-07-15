@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-muffin-6451
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-salad-2216
+#FLUX: --urgency=16
 
 module load python/3.12.3/mftt2ua
 module load cuda11.7/toolkit/11.7.1

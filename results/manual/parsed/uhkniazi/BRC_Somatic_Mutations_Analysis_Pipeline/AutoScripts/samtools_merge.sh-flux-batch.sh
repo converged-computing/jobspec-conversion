@@ -2,7 +2,7 @@
 #FLUX: --job-name=samtools-array
 #FLUX: --queue=brc
 #FLUX: -t=536700
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load apps/samtools/1.10.0-singularity
            number=$SLURM_ARRAY_TASK_ID

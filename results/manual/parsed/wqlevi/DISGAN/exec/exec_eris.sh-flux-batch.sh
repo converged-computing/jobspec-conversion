@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-dog-9240
+#FLUX: --job-name=persnickety-muffin-2663
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 HOME_DIR='/u/wangqi'
 SRC_DIR='/u/wangqi/git_wq/3d_super-resolution_mri/mains'

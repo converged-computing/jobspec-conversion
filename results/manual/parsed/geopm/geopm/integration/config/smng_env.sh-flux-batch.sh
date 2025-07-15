@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-avocado-8483
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-nunchucks-6650
+#FLUX: --urgency=16
 
 export CC='icc'
 export CXX='icpc'

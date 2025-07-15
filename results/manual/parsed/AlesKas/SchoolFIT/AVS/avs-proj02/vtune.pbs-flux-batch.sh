@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-onion-0696
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-puppy-8518
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AlesKas/SchoolFIT/AVS/avs-proj02/vtune.pbs

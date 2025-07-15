@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-train-4546
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-hippo-8818
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AndreasLH/Image-Colourization/HPC/submit.sh

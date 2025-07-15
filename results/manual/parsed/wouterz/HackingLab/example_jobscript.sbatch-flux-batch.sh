@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-butter-2032
+#FLUX: --job-name=cowy-platanos-5121
 #FLUX: --queue=general
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun hostname

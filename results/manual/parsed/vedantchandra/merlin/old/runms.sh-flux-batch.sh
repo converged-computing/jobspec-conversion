@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-pedo-0648
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-noodle-0535
+#FLUX: --urgency=16
 
 module load python
 source /n/home03/vchandra/.bashrc

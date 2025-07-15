@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-puppy-7501
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-parsnip-5507
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

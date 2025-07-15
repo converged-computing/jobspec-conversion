@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-chip-6876
-#FLUX: --priority=16
+#FLUX: --job-name=grated-peanut-1663
+#FLUX: --urgency=16
 
 module load anaconda3/2019.07
 source activate pytorch_1.11

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-parsnip-1058
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-fudge-6885
+#FLUX: --urgency=16
 

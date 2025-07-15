@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=myTest
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MATLABPATH='$HOME/matlab-output'
 

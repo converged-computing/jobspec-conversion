@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-peanut-butter-3192
+#FLUX: --job-name=evasive-banana-7883
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cat cifar10-noise.sh
 logdir='logs/Final-cifar10-resnet110'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-motorcycle-7049
+#FLUX: --job-name=chunky-parrot-8603
 #FLUX: -c=128
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VENV_PATH='~/virt-envs/venv-lola'
 export LD_LIBRARY_PATH='$VENV_PATH/lib/python3.10/site-packages/nvidia/nvjitlink/lib:$LD_LIBRARY_PATH'

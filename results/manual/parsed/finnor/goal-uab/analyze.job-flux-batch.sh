@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=short
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 help_and_exit() {
   local retval=${1:-1}

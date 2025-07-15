@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-malarkey-1624
+#FLUX: --job-name=eccentric-eagle-7258
 #FLUX: -c=12
 #FLUX: --queue=ccr
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load nextflow

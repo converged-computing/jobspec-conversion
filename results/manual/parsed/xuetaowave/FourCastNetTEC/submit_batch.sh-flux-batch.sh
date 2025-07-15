@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-peanut-9656
+#FLUX: --job-name=wobbly-parrot-5708
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export NCCL_NET_GDR_LEVEL='PHB'

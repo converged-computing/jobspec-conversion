@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name="hydro3dblast"
+#FLUX: --job-name=hydro3dblast
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
 #FLUX: --queue=gpuA100x4
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.2.0

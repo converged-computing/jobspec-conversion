@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-poo-0669
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-egg-0808
+#FLUX: --urgency=16
 
 module load tensorflow/1.8-agave-gpu                                            
 module unload python/.2.7.14-tf18-gpu

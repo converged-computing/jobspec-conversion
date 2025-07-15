@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pastry-3026
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-kerfuffle-2580
+#FLUX: --urgency=16
 
 here=$(pwd)
 configdir=${here}/irf_config

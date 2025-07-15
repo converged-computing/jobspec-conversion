@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lemur-2088
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-buttface-0658
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/olivernybroe/cdio-drone/queue.sh

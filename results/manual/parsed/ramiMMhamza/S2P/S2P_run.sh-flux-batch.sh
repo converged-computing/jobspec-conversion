@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cinnamonbun-8923
+#FLUX: --job-name=bumfuzzled-poodle-7603
 #FLUX: --queue=V100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 cd /home/ids/hrami

@@ -4,7 +4,7 @@
 #FLUX: --gpus-per-task=2
 #FLUX: --queue=dev
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /private/home/%u/.bashrc
 conda deactivate

@@ -2,7 +2,7 @@
 #FLUX: --job-name=RUN_CREATE_CRIS_HR_ALLFOV_RTP
 #FLUX: --queue=batch
 #FLUX: -t=7140
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MATLAB=matlab
 MATOPT=' -nojvm -nodisplay -nosplash'

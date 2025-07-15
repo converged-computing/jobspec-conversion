@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-frito-6463
+#FLUX: --job-name=hello-peas-5496
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 current_timestamp() {

@@ -3,7 +3,7 @@
 #FLUX: -n=8
 #FLUX: --queue=work
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dir=$1 #"${MYSCRATCH}/"
 image="docker://mrayson/jupyter-sfoda:latest"

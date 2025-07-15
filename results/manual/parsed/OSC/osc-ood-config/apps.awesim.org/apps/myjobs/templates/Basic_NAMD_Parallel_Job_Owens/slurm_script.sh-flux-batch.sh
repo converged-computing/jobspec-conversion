@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-gato-2621
+#FLUX: --job-name=angry-pot-9636
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=720
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel/19.0.5  
 module load mvapich2/2.3.4

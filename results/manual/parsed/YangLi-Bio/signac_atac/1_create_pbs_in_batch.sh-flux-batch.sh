@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-nalgas-3798
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-butter-7884
+#FLUX: --urgency=16
 
 cd /fs/ess/PCON0022/liyang/STREAM/benchmarking/Signac
 data_list="../dataset_list.txt"

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lizard-0676
+#FLUX: --job-name=fugly-staircase-8151
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=short
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export AKRR_NODES='1'
 export AKRR_CORES='48'

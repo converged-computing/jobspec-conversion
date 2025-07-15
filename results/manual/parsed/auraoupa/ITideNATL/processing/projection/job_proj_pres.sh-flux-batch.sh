@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-bits-0259
+#FLUX: --job-name=expressive-mango-4980
 #FLUX: -N=2
 #FLUX: -c=3
 #FLUX: --exclusive
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 eval "$(conda shell.bash hook)"

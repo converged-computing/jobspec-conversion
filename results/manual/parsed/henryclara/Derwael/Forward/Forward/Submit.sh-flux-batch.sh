@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-butter-1996
+#FLUX: --job-name=arid-destiny-9059
 #FLUX: -n=220
 #FLUX: --queue=compute
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

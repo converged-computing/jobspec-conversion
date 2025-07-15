@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-soup-9456
+#FLUX: --job-name=spicy-motorcycle-4432
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED; touch STARTED
 module load singularity/3.2.0

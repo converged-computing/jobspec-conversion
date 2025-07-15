@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-pancake-4257
+#FLUX: --job-name=bloated-dog-6251
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JUPYTER_CONFIG_DIR='$HOME/jupyter_sing/$SLURM_JOBID/'
 export JUPYTER_PATH='$HOME/jupyter_sing/$SLURM_JOBID/jupyter_path'

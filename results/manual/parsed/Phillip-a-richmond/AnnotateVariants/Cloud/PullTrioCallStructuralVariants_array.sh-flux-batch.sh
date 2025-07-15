@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-onion-1454
+#FLUX: --job-name=blue-plant-3758
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sudo chmod ugo=rwx -R /scratch/
 sudo chmod ugo=rwx -R /shared/

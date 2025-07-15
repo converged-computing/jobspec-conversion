@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-car-1659
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-squidward-8917
+#FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/thermolysin/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='1'

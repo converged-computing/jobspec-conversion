@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-omelette-2322
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-caramel-0951
+#FLUX: --urgency=16
 
 module load compilers/intel/2019u5 
 echo "Node list                    : $SLURM_JOB_NODELIST"

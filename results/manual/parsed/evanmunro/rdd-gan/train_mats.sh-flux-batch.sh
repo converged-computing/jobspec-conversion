@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-staircase-0456
-#FLUX: --priority=16
+#FLUX: --job-name=milky-pedo-4225
+#FLUX: --urgency=16
 
 module load python/3.6.1
 module load cuda/11.2.0

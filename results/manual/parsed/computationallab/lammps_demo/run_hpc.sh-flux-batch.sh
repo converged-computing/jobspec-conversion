@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-fork-1224
+#FLUX: --job-name=spicy-omelette-9463
 #FLUX: --queue=gor
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity gnu8 openmpi3
 rm -rf out

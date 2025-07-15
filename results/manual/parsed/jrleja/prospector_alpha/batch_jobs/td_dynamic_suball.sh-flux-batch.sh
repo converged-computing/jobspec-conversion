@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-bits-4484
-#FLUX: --priority=16
+#FLUX: --job-name=salted-cat-7715
+#FLUX: --urgency=16
 
 IDFILE=$APPS"/prospector_alpha/data/3dhst/td_dynamic.ids"
 OBJID=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$IDFILE")

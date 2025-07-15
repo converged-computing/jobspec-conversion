@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-house-2727
+#FLUX: --job-name=fuzzy-snack-4102
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ROOT_DIR="/scratch/ovd208/COCO_features/data"
 ARTIFACTS_DIR="$SCRATCH/artifacts/image_captioning"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-mango-4768
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-cupcake-7975
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jeremiahsmithdev/COMP4120/gascript.sh

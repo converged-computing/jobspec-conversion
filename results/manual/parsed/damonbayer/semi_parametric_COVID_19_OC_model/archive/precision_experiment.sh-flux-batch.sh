@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-fudge-2483
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-fork-9600
+#FLUX: --urgency=16
 
 module purge
 module load julia/1.8.5

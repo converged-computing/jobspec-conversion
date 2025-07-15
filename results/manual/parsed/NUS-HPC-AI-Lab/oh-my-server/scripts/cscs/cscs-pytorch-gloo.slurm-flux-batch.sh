@@ -2,7 +2,7 @@
 #FLUX: --job-name=gloo-eb
 #FLUX: -N=4
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMI_NO_PREINITIALIZE='1  # avoid warnings on fork'
 

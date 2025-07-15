@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=kid_vis_hall
-#FLUX: --queue=short #partition info here: https://docs.rc.uab.edu/cheaha/hardware/#partitions
+#FLUX: --queue=short
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_PASSWORD='pass'
 export SINGULARITYENV_USER='jbarham3'

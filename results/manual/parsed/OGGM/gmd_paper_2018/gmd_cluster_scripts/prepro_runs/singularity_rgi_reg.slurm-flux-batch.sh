@@ -2,7 +2,7 @@
 #FLUX: --job-name=gmd_paper
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OGGM_DOWNLOAD_CACHE='/home/data/download'
 export OGGM_DOWNLOAD_CACHE_RO='1'

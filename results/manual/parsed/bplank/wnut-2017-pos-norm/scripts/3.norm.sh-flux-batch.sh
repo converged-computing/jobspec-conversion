@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-parsnip-7279
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-muffin-6976
+#FLUX: --urgency=16
 
 SUBMIT=1
 PG=1

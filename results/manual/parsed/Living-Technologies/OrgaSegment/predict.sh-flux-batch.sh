@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-earthworm-6123
+#FLUX: --job-name=nerdy-nunchucks-6775
 #FLUX: --queue=gpu
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PREDICT=false
 TRACK=false

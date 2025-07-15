@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-cat-7011
+#FLUX: --job-name=pusheena-fudge-2620
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 
 module load anaconda/3/2020.02

@@ -2,7 +2,7 @@
 #FLUX: --job-name=isa-scclevr-EncStudy-ResNet_S1
 #FLUX: -c=4
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/3/2021.11 # <-> python 3.9.

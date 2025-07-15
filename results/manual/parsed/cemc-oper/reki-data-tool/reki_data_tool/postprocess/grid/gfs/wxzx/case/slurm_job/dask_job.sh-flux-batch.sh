@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-arm-9277
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-general-1965
+#FLUX: --urgency=16
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

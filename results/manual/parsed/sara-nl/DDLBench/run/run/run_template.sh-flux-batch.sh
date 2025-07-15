@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-noodle-5264
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-buttface-1547
+#FLUX: --urgency=16
 
 export CORES_GPU='$5'
 export EPOCHS='3'

@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=short
 #FLUX: -t=2400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SCRATCH
 module load Anaconda3/2022.05

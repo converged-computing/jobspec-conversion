@@ -3,7 +3,7 @@
 #FLUX: -N=154
 #FLUX: --queue=iv24
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load PrgEnv-cray
 module load cray-mpich

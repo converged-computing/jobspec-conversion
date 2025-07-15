@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-soup-2002
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-knife-3922
+#FLUX: --urgency=16
 
 module unload gromacs
 module switch gromacs/2023 gromacs=gmx_mpi

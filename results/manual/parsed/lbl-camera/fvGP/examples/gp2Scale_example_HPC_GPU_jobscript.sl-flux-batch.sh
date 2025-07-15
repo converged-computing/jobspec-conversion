@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-onion-9505
+#FLUX: --job-name=evasive-muffin-7384
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 export OMP_NUM_THREADS='8'

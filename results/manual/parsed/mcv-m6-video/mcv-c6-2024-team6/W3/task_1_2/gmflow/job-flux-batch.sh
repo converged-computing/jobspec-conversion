@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-truffle-3250
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-kitty-6010
+#FLUX: --urgency=16
 
 python main.py \
 --inference_dir demo/kitti \

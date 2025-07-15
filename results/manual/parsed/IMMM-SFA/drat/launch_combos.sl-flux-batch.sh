@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-nalgas-3823
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-dog-2289
+#FLUX: --urgency=16
 
 module purge
 module load gcc/11.2.0

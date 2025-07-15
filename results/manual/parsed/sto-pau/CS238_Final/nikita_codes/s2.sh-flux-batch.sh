@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cat-1823
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-lizard-5232
+#FLUX: --urgency=16
 
 module purge
 module load openmpi

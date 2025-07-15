@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=SnGpuTest    # -J CLI arg will overwrite this
+#FLUX: --job-name=SnGpuTest
 #FLUX: --queue=savio4_gpu
 #FLUX: -t=29999
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LOGDIR=/global/scratch/users/tin/JUNK/
 MAQ=$(hostname)

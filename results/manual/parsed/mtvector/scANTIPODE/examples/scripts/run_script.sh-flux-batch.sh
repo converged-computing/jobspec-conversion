@@ -2,7 +2,7 @@
 #FLUX: --job-name=antipode_script
 #FLUX: --queue=celltypes
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 !nvidia-smi

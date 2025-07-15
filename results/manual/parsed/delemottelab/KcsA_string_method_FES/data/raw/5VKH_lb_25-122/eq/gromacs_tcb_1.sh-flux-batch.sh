@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-omelette-7206
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-pedo-5823
+#FLUX: --urgency=16
 
 module unload gromcas
  module unload gromacs/2020.2

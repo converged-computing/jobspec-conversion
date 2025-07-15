@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-banana-7857
+#FLUX: --job-name=blue-nunchucks-2772
 #FLUX: --queue=stf-gpu
 #FLUX: -t=324000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.login
 module load icc_17-impi_2017

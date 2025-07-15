@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=NPB_dvfs
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2023
 module load foss/2023a

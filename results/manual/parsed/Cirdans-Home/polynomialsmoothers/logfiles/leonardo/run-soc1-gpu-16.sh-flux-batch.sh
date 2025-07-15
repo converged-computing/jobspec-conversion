@@ -4,7 +4,7 @@
 #FLUX: -n=16
 #FLUX: --queue=boost_usr_prod
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/leonardo/home/userexternal/pdambra0/polynomialsmoothers/install/lib'
 export UCX_IB_LS='1'

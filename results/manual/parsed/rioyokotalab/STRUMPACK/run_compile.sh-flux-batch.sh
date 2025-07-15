@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-muffin-6178
+#FLUX: --job-name=bumfuzzled-hope-0569
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/sameer.deshmukh/gitrepos/gsl-2.7.1/build/lib'
 export OMP_NUM_THREADS='1'

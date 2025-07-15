@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peas-7916
+#FLUX: --job-name=frigid-spoon-2613
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

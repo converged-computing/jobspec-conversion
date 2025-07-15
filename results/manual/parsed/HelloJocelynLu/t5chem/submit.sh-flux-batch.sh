@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-bike-3415
+#FLUX: --job-name=peachy-train-9799
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 script=$1

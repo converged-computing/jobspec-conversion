@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-frito-1472
+#FLUX: --job-name=spicy-soup-7572
 #FLUX: --queue=batch
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir -p logs
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-taco-7057
+#FLUX: --job-name=hello-earthworm-0656
 #FLUX: -N=6
 #FLUX: --queue=gpumedium
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SING_IMAGE='/appl/soft/ai/singularity/images/pytorch_1.9.0_csc_custom.sif'
 export SING_FLAGS='$SING_FLAGS -B /appl/spack/v014/install-tree/gcc-4.8.5/pdsh-2.31-cdzt5w/bin:/usr/local/sbin'

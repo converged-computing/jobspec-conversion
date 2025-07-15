@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-house-2014
+#FLUX: --job-name=anxious-carrot-1381
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PSM2_MULTI_EP='1 # prevents conflict with MPI using PSM2'
 export FI_PSM2_DISCONNECT='1 # enables reconnection'

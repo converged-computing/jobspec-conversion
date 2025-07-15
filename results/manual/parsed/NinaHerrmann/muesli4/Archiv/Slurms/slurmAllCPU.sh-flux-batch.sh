@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=Muesli2-CPU examples
+#FLUX: --job-name=Muesli2-CPU
 #FLUX: -N=4
 #FLUX: -n=4
 #FLUX: -c=4
 #FLUX: --exclusive
 #FLUX: --queue=normal
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 export I_MPI_FABRICS='shm:ofa'

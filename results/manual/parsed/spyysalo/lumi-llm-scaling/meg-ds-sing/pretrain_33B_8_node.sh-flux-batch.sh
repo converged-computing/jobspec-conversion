@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-poodle-7775
+#FLUX: --job-name=hairy-squidward-7398
 #FLUX: -N=8
 #FLUX: --exclusive
 #FLUX: --queue=standard-g
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'
 export MASTER_PORT='9999'

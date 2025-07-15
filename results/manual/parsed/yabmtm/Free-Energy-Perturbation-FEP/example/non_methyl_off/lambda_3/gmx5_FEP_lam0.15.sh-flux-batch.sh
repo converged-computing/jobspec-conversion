@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-malarkey-9952
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-peanut-butter-5022
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-motorcycle-2801
+#FLUX: --job-name=confused-pot-0128
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 folder="CNN-LSTM_IMDB/"
 out_folder="results/sse"

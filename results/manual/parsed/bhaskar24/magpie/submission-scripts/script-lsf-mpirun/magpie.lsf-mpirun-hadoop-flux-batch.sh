@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-snack-0603
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-gato-7463
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bhaskar24/magpie/submission-scripts/script-lsf-mpirun/magpie.lsf-mpirun-hadoop

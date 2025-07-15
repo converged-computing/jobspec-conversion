@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-arm-5431
+#FLUX: --job-name=pusheena-pastry-1126
 #FLUX: -n=2
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_NET_DEVICES='all'
 export IO500_CONTAINER_TAG='9d75358'

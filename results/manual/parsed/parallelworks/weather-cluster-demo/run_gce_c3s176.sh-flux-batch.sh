@@ -2,7 +2,7 @@
 #FLUX: --job-name=WRF
 #FLUX: -N=4
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_FABRICS='ofi_rxm;tcp'
 export OMP_NUM_THREADS='6'

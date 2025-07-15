@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-toaster-8531
+#FLUX: --job-name=nerdy-peas-1963
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load pytorch/1.2.0-cuda10.0-cudnn7.6-py3.7
 frac_values=( 0.1 )

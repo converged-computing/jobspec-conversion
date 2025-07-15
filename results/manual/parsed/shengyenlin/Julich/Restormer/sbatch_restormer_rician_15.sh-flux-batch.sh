@@ -3,7 +3,7 @@
 #FLUX: -c=64
 #FLUX: --queue=dc-gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(nslookup "$MASTER_ADDR" | grep -oP '(?<=Address: ).*')'

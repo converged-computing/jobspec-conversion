@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-onion-7446
-#FLUX: --priority=16
+#FLUX: --job-name=blank-omelette-7290
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

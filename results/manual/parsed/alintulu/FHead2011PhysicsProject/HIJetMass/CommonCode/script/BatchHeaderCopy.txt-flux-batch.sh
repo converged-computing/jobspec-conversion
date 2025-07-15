@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-bike-7992
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-soup-2373
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alintulu/FHead2011PhysicsProject/HIJetMass/CommonCode/script/BatchHeaderCopy.txt

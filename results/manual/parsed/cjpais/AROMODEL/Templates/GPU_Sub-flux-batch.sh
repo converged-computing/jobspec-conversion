@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="{Sim_Name}"
+#FLUX: --job-name={Sim_Name}
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd {path}
 module unload mvapich2_ib

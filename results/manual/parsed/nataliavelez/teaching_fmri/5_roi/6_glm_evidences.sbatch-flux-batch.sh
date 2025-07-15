@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-poo-8940
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-blackbean-2840
+#FLUX: --urgency=16
 
 module load ncf
 module load matlab/R2021a-fasrc01

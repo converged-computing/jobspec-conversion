@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-parsnip-8570
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-omelette-3895
+#FLUX: --urgency=16
 
 module use /share/bpotter/modulefiles/
 module load rocshmem/1.6.3

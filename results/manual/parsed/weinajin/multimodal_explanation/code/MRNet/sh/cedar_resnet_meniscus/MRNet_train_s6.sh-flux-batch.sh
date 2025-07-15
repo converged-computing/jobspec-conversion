@@ -2,7 +2,7 @@
 #FLUX: --job-name=m6_mrnet
 #FLUX: -c=8
 #FLUX: -t=457200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.7
 module load openslide

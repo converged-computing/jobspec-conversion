@@ -2,7 +2,7 @@
 #FLUX: --job-name=VesselStatsToPhenofile_artery
 #FLUX: --queue=normal
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $HOME/retina/configs/config.sh
 output_dir=$scratch/retina/GWAS/output/VesselStatsToPhenofile/

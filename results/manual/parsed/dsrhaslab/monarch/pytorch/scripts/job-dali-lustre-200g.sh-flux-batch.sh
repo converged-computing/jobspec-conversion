@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lemon-0369
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-snack-9082
+#FLUX: --urgency=16
 
 export CC='/opt/apps/gcc/8.3.0/bin/gcc'
 export MONARCH_CONFIGS_PATH='${HOME}/maypaper/thesis/configurations/frontera/tf_placement_200g_disk.yaml'

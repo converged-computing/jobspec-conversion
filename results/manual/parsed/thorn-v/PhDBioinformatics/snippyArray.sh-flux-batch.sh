@@ -2,7 +2,7 @@
 #FLUX: --job-name=snippyArray
 #FLUX: -c=8
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 config=$1
 fastqsPath=$2

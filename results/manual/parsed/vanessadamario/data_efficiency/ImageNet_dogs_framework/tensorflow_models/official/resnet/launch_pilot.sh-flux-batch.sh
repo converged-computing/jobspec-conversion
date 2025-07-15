@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=resnet
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/raid/poggio/home/vanessad/ImageNet_dogs_framework/tensorflow_models/official/resnet'
 

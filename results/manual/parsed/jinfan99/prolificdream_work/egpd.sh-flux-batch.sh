@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=spgpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='~/miniconda3'
 

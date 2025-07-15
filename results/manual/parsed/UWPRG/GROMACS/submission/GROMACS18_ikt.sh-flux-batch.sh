@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=*CHANGE*
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load icc_17-impi_2017

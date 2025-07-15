@@ -2,7 +2,7 @@
 #FLUX: --job-name=MeasureVessels
 #FLUX: --queue=normal
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ARIA_target="vein" # [artery|vein|all] # note, thoguht, that I am invoking ARIA with random AV calling
 source $HOME/retina/configs/config.sh

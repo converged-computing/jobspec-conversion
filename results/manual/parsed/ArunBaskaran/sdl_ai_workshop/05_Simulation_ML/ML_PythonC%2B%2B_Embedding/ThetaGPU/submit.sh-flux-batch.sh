@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=tart-underoos-1466
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-truffle-7182
+#FLUX: --urgency=16
 

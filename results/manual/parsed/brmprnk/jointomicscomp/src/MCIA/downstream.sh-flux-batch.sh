@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=trainJoint
-#FLUX: --queue=general --qos=short
+#FLUX: --queue=general
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml use /opt/insy/modulefiles;
 ml load cuda/11.0;

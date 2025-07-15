@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-earthworm-5322
+#FLUX: --job-name=gassy-itch-6165
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EXEC='charmrun ++p $NP ++mpiexec /share/apps/NAMD/2.9/Linux-x86_64-ibverbs/namd2'
 

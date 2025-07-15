@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-fudge-5134
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-butter-2082
+#FLUX: --urgency=16
 
 module purge
 module load singularity tensorflow/1.6.0-py36

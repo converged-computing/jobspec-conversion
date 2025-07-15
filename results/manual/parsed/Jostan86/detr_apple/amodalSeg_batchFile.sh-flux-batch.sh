@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cherry-8633
-#FLUX: --priority=16
+#FLUX: --job-name=phat-peanut-butter-5391
+#FLUX: --urgency=16
 
 module load python3
 source /nfs/hpc/share/browjost/detr_apple/venv_amodal/bin/activate

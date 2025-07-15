@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lamp-2512
+#FLUX: --job-name=faux-cattywampus-4911
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate cuda116

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-destiny-1497
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-citrus-2894
+#FLUX: --urgency=16
 
 export NVME_HOME='/mnt/bb/$USER/'
 export ROMIO_HINTS='$(pwd)/.romio_hint'

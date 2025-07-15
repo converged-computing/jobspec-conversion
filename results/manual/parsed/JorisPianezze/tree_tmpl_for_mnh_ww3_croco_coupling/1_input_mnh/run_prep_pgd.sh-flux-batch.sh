@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-milkshake-7041
+#FLUX: --job-name=expressive-earthworm-8380
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PREP_PGD_FILES='${PREP_PGD_FILES:-"$HOME/PREP_PGD_FILES_WWW"}'
 

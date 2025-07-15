@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-car-9076
+#FLUX: --job-name=hanky-parsnip-6401
 #FLUX: --queue=gpu
 #FLUX: -t=180
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python-env/intelpython3.6-2018.3

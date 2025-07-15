@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-noodle-5292
+#FLUX: --job-name=hairy-citrus-6552
 #FLUX: -c=30
 #FLUX: --queue=gpu
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $HOME/.bashrc
 spack load miniconda3@4.10.3

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=%a_rnaseq-array-pipeline
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load trim_galore/0.4.4

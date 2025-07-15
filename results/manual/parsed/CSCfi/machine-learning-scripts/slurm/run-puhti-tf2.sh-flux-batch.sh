@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lamp-6530
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-car-8865
+#FLUX: --urgency=16
 
 module load tensorflow/2.0.0
 module list

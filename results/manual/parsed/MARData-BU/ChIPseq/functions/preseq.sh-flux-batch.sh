@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-knife-6555
+#FLUX: --job-name=chunky-caramel-7762
 #FLUX: -c=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load preseq/3.2.0

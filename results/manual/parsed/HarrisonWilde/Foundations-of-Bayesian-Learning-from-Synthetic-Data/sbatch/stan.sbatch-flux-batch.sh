@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-milkshake-0235
+#FLUX: --job-name=nerdy-hippo-7761
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_PROJECT='/home/dcs/csrxgb/julia_stuff/Project.toml'
 export JULIA_CMDSTAN_HOME='/home/dcs/csrxgb/julia_stuff/cmdstan-2.23.0'

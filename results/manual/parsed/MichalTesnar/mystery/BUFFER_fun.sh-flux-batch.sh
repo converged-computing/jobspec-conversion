@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-peas-6497
+#FLUX: --job-name=boopy-kerfuffle-5824
 #FLUX: -c=6
 #FLUX: --queue=regular
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python/3.9.6-GCCcore-11.2.0
 source $HOME/venvs/mystery/bin/activate

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-ricecake-8737
+#FLUX: --job-name=bricky-blackbean-9933
 #FLUX: --queue=seas_gpu,gpu,cox
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate python_env1

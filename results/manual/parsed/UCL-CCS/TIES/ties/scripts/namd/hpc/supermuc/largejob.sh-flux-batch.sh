@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="namd"
+#FLUX: --job-name=namd
 #FLUX: -N=65
-#FLUX: --queue=general # test, micro, general, large or fat
+#FLUX: --queue=general
 #FLUX: -t=37800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module load namd

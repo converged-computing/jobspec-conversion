@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="2d_7l_DNN"
+#FLUX: --job-name=2d_7l_DNN
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/2.7.5
 module load tensorflow

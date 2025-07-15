@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=run-scope-neglect
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 REPO_DIR=$HOME/inverse-scaling-eval-pipeline
 EXP_DIR=scope-neglect

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-latke-5315
+#FLUX: --job-name=eccentric-peanut-butter-0707
 #FLUX: -c=2
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODEL='models--gpt2-xl'
 export MODEL_NAME='gpt2-xl'

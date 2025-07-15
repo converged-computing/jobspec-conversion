@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-kerfuffle-5321
+#FLUX: --job-name=red-fork-3010
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Start time: $(date)"
 echo "SLURM_JOB_NODELIST: $SLURM_JOB_NODELIST"

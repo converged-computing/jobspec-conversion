@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-train-9163
+#FLUX: --job-name=rainbow-eagle-3194
 #FLUX: -N=9
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKLROOT='/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64'

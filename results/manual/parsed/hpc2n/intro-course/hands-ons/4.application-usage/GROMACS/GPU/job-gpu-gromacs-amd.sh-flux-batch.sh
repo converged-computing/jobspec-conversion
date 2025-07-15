@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-kitty-2122
-#FLUX: --priority=16
+#FLUX: --job-name=blank-truffle-0598
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

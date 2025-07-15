@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-motorcycle-2824
+#FLUX: --job-name=sticky-despacito-1535
 #FLUX: -c=32
 #FLUX: --queue=medium
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PETSC_DIR='/projappl/project_2004956/spack/install_tree/gcc-11.2.0/petsc-3.16.1-zeqfqr/lib'
 export PETSC_FC_INCLUDES='/projappl/project_2004956/spack/install_tree/gcc-11.2.0/petsc-3.16.1-zeqfqr/include'

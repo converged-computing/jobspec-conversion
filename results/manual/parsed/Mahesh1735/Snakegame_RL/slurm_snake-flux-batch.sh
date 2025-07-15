@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-ricecake-7803
+#FLUX: --job-name=moolicious-despacito-1389
 #FLUX: --queue=standard
 #FLUX: -t=5340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nproc
 sleep 1

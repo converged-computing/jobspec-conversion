@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-lamp-8919
+#FLUX: --job-name=gassy-mango-0577
 #FLUX: -c=7
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export NMPI_PER_NODE='8'

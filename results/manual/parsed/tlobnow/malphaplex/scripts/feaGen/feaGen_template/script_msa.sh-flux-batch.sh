@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cupcake-4920
+#FLUX: --job-name=outstanding-toaster-0238
 #FLUX: -c=36
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${ALPHAFOLD_HOME}/lib:${LD_LIBRARY_PATH}'
 export TMPDIR='${JOB_SHMTMPDIR}'

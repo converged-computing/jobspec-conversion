@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=gpu_requeue
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='.:${PYTHONPATH}'
 export discovery_factors='(0.1 0.3 1.0)'

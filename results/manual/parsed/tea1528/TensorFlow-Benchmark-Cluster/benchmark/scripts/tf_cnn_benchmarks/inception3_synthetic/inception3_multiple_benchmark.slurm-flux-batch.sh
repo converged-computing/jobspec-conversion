@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-animal-9904
+#FLUX: --job-name=hanky-cupcake-4135
 #FLUX: --queue=maxwell
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load GCC Singularity git
 singularity exec --nv docker://tensorflow/tensorflow:latest-gpu \

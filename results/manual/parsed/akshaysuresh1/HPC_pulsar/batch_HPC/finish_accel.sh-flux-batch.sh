@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-citrus-8318
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-cinnamonbun-8731
+#FLUX: --urgency=16
 
 module load openmpi/3.1.6-gcc8.3.1
 CMDDIR=$PROJECT/HPC_pulsar/cmd_files

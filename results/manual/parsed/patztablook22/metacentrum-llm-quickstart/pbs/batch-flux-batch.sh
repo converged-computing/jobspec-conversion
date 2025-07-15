@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-animal-1529
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-cupcake-1864
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/patztablook22/metacentrum-llm-quickstart/pbs/batch

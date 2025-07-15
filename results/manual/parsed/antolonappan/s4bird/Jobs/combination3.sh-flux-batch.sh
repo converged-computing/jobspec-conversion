@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-eagle-1077
+#FLUX: --job-name=outstanding-motorcycle-2796
 #FLUX: -N=64
 #FLUX: -n=1000
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ini='combination3.ini'
 

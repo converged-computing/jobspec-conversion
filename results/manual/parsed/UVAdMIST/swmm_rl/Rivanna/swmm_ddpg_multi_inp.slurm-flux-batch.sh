@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-butter-8757
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-hobbit-4914
+#FLUX: --urgency=16
 
 export SINGULARITYENV_MPLBACKEND='agg'
 

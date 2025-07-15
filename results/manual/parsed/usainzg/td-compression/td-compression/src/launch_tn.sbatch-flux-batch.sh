@@ -2,7 +2,7 @@
 #FLUX: --job-name=tdcomp
 #FLUX: -c=4
 #FLUX: --queue=KAT
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_API_KEY='b36e9889bae82cb5e6c3d8cb86e29df222fac76d'
 export WANDB_SILENT='true'

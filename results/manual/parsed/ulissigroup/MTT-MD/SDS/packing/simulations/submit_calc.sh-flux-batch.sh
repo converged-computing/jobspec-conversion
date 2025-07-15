@@ -2,7 +2,7 @@
 #FLUX: --job-name=namd
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/zulissi/software/namd/Linux-x86_64-icc/:$PATH'
 

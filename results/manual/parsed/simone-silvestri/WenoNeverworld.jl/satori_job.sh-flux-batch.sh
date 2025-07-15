@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-carrot-3472
+#FLUX: --job-name=pusheena-dog-0596
 #FLUX: -c=16
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_osc='^ucx'

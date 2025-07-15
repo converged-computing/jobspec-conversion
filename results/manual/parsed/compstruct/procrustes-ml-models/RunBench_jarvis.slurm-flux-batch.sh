@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-taco-8248
+#FLUX: --job-name=grated-latke-3458
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ws='/home/aming/MICRO/mobilenetv2/imagenet_pytorch_training'
 rs='/home/aming/MICRO/mobilenetv2/imagenet_pytorch_training'

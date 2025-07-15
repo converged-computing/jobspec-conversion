@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=LKEBgpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load library/cuda/11.3/gcc.8.3.1

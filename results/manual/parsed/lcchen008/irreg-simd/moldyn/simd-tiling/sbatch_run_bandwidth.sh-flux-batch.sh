@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-kitty-5856
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-lentil-7311
+#FLUX: --urgency=16
 
 export INTEL_LICENSE_FILE='/home1/02687/binren/intel/licenses/intel.current.20170224.lic'
 export MIC_LD_LIBRARY_PATH='$MIC_LD_LIBRARY_PATH:/opt/apps/intel/13/composer_xe_2013.2.146/compiler/lib/mic/'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cattywampus-7560
-#FLUX: --priority=16
+#FLUX: --job-name=tart-cherry-7325
+#FLUX: --urgency=16
 
 export NERSC_HOST='`/usr/common/usg/bin/nersc_host`'
 export OMP_NUM_THREADS='${CORES_ON_NODE}'

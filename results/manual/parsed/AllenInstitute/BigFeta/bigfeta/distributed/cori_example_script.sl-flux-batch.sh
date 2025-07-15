@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-buttface-6784
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-sundae-6335
+#FLUX: --urgency=16
 
 module load cray-petsc-64
 module load cray-hdf5-parallel

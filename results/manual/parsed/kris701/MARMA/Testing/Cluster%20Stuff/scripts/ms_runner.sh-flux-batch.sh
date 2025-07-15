@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-train-9398
+#FLUX: --job-name=milky-snack-9901
 #FLUX: --queue=naples
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 FAST_DOWNWARD="$1"
 META_SOLVER="$2"

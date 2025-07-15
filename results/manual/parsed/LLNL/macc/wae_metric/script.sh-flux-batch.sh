@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-despacito-0681
+#FLUX: --job-name=purple-leader-5410
 #FLUX: --queue=pascal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 source activate tfgpu

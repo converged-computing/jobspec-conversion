@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-butter-8262
-#FLUX: --priority=16
+#FLUX: --job-name=astute-hippo-9728
+#FLUX: --urgency=16
 
 source /home/mcgaughs/rmoran/miniconda3/etc/profile.d/conda.sh
 conda activate diplo

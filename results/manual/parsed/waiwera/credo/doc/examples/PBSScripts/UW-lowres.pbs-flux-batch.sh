@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-muffin-4936
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-muffin-0721
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/waiwera/credo/doc/examples/PBSScripts/UW-lowres.pbs

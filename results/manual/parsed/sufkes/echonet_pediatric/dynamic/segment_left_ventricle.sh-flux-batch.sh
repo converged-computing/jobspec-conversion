@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lemur-4797
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-eagle-3936
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sufkes/echonet_pediatric/dynamic/segment_left_ventricle.sh

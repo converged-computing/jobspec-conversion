@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="perf_cylinder"
+#FLUX: --job-name=perf_cylinder
 #FLUX: --queue=thin
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CASE_ID='1'
 

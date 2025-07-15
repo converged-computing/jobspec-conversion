@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-motorcycle-2180
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-fork-1741
+#FLUX: --urgency=16
 
 export LANG='en_US.UTF-8'
 

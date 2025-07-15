@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-peas-1728
+#FLUX: --job-name=blank-parrot-4239
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CORES=16
 module load FastQC/0.11.7

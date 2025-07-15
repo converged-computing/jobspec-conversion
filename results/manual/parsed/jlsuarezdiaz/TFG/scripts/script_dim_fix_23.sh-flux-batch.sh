@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-chip-3511
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-lemon-7840
+#FLUX: --urgency=16
 
 export PYTHONPATH='`pwd`'
 

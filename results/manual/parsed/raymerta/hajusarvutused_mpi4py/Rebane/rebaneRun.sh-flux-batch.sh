@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-rabbit-5745
-#FLUX: --priority=16
+#FLUX: --job-name=red-cat-1314
+#FLUX: --urgency=16
 
 export MPI4PYDIR='paralleelarvutused'
 export PYTHONPATH='$HOME/$MPI4PYDIR/install/lib/python'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cupcake-1457
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-sundae-2246
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module load intel/2020u4

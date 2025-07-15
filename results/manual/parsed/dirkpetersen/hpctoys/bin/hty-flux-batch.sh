@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-latke-6919
-#FLUX: --priority=16
+#FLUX: --job-name=angry-house-9914
+#FLUX: --urgency=16
 
 export DIALOGRC='${HPCTOYS_ROOT}/etc/.dialogrc'
 

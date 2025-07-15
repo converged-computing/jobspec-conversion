@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-banana-8022
+#FLUX: --job-name=delicious-peas-0985
 #FLUX: -t=36600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load pytorch/python3.6/0.2.0_3
 source activate nlpclass

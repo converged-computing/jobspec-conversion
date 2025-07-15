@@ -2,7 +2,7 @@
 #FLUX: --job-name=evopcgrl
 #FLUX: -c=48
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /scratch/zj2086/control-pcgrl
 source activate

@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-toaster-8122
+#FLUX: --job-name=evasive-cat-6912
 #FLUX: -N=2
 #FLUX: -n=16
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: --queue=prod
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module_suffix="$1"
 acc_sync="$2"

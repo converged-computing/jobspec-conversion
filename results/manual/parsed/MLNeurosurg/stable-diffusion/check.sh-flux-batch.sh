@@ -2,6 +2,6 @@
 #FLUX: --job-name=data
 #FLUX: --queue=standard
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python check_data.py

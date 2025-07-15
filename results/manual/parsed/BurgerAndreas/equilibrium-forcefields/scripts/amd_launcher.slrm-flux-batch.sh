@@ -2,7 +2,7 @@
 #FLUX: --job-name=equiformer
 #FLUX: -c=8
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRIPTDIR='${HOME_DIR}/equilibrium-forcefields/equiformer'
 

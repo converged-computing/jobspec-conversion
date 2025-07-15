@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-toaster-9932
+#FLUX: --job-name=doopy-frito-7546
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate cuda116

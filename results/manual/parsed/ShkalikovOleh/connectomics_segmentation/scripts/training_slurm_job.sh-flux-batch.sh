@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=alpha
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export $(cut -d=' -f1 "$CFG_FILE")'
 

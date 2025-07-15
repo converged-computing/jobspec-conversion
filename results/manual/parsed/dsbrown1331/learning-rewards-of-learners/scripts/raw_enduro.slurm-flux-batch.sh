@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lettuce-2205
-#FLUX: --priority=16
+#FLUX: --job-name=milky-citrus-7598
+#FLUX: --urgency=16
 
 export TACC_LAUNCHER_PPN='1'
 export EXECUTABLE='$TACC_LAUNCHER_DIR/init_launcher'

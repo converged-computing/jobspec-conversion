@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lemon-6066
+#FLUX: --job-name=chocolate-gato-2927
 #FLUX: -t=32400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load miniconda
 source activate /N/slate/mraina/egnn/

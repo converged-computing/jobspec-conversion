@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-train-9561
+#FLUX: --job-name=gloopy-avocado-9367
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add cuda/8.0
 module add cudnn/7-cuda-8.0

@@ -2,7 +2,7 @@
 #FLUX: --job-name=10per
 #FLUX: -c=30
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$EBROOTGEOS/lib # Add the path to GEOS libraries'
 export SPATIALINDEX_C_LIBRARY='/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/Compiler/gcc7.3/libspatialindex/1.8.5/lib/libspatialindex_c.so.4'

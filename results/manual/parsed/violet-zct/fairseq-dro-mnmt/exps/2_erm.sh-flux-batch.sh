@@ -2,7 +2,7 @@
 #FLUX: --job-name=exp
 #FLUX: -c=5
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $SLURM_ARRAY_TASK_ID
 source activate mnmt

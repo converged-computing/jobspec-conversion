@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-kitty-4755
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-latke-3960
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

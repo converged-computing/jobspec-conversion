@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-butter-7492
+#FLUX: --job-name=persnickety-platanos-3655
 #FLUX: --queue=rome
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODEL_PARAM_FILE='output.dat'
 export MODEL_NAME='t1_64'

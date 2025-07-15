@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-kerfuffle-0050
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-cattywampus-9615
+#FLUX: --urgency=16
 
 source ../common/common.sh
 PROFILE=${1:-triton-gcc-openblas-adap}

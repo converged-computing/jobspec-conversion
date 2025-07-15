@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-sundae-5351
+#FLUX: --job-name=joyous-lettuce-3894
 #FLUX: -c=28
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 

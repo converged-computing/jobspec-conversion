@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=kempner_requeue
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='.:${PYTHONPATH}'
 export model_arg_temps='(0.2 0.4 0.6 0.8 1.0)'

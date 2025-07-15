@@ -2,7 +2,7 @@
 #FLUX: --job-name=preproc
 #FLUX: --queue=shared
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sid=$1
 module load matlab

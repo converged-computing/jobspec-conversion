@@ -3,7 +3,7 @@
 #FLUX: -c=3
 #FLUX: --queue=DGXA100
 #FLUX: -t=255600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CPATH='$CPATH:$CONDA_PREFIX/include'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib'

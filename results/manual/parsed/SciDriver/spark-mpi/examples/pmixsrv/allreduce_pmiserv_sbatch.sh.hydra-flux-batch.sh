@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pastry-7939
+#FLUX: --job-name=blue-butter-2486
 #FLUX: -N=4
 #FLUX: --queue=[partition]
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HYDRA_PROXY_PORT='55555'
 

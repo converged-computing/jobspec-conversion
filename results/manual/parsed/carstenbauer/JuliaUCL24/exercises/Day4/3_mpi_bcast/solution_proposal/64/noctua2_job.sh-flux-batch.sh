@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=all
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_DEPOT_PATH=':/scratch/hpc-lco-usrtr/.julia_ucl'
 export SLURM_EXPORT_ENV='ALL'

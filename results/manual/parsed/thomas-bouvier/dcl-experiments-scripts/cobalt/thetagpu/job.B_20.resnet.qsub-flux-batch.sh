@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-parsnip-0290
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-onion-6840
+#FLUX: --urgency=16
 

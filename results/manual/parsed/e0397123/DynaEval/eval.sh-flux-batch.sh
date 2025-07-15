@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=eval
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export dataset='empathetic'
 export dataset_dir='data/${dataset}'

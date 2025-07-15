@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-latke-0939
+#FLUX: --job-name=chocolate-lettuce-8819
 #FLUX: -c=10
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SLURM_NODELIST $SLURM_NODELIST"
 echo "NUMBER OF CORES $SLURM_NTASKS"

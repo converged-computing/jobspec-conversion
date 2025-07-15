@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bike-4904
+#FLUX: --job-name=psycho-arm-3316
 #FLUX: -c=40
 #FLUX: --queue=develgpus
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 WORK_DIR=$(pwd)
 BASE_DIR=$(dirname "${WORK_DIR}")

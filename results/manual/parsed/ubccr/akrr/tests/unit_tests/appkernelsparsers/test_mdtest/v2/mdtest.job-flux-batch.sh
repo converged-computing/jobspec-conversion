@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=angry-earthworm-0326
+#FLUX: --job-name=confused-rabbit-5667
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=general-compute
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export AKRR_NODES='2'
 export AKRR_CORES='16'

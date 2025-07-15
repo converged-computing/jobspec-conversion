@@ -2,7 +2,7 @@
 #FLUX: --job-name=20210401_pgen_fastp_10x-genomics
 #FLUX: --queue=coenv
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 threads=40
 trimmed_checksums=trimmed_fastq_checksums.md5

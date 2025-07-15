@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-buttface-0786
+#FLUX: --job-name=confused-diablo-3732
 #FLUX: --queue=dcs-gpu
 #FLUX: -t=38400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CXX='g++'
 

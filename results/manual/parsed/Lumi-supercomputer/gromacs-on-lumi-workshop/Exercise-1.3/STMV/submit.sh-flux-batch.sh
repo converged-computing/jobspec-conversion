@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hippo-5030
+#FLUX: --job-name=blue-lettuce-7203
 #FLUX: -c=32
 #FLUX: --queue=small-g
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

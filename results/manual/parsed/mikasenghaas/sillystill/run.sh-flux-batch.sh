@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lemon-5356
+#FLUX: --job-name=crunchy-cupcake-5409
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc python 
 source ~/venvs/sillystill/bin/activate

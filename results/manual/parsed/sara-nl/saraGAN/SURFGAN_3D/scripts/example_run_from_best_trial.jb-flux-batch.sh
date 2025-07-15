@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-bicycle-5740
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-fudge-1884
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='5'
 export KMP_SETTINGS='True'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-poo-8173
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-cupcake-3660
+#FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

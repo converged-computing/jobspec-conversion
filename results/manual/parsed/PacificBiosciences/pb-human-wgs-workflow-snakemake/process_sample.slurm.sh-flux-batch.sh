@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-peas-2013
+#FLUX: --job-name=outstanding-bicycle-6008
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SAMPLE=$1
 umask 002

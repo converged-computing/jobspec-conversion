@@ -2,6 +2,6 @@
 #FLUX: --job-name=matching
 #FLUX: --queue=cpu
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python appli_matching.py ${SLURM_ARRAY_TASK_ID}

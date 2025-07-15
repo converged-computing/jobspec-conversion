@@ -2,7 +2,7 @@
 #FLUX: --job-name=get_activations
 #FLUX: --queue=long
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/3
 module load cuda/11.7

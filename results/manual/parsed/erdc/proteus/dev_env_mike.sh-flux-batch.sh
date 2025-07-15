@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-poo-7891
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-milkshake-3990
+#FLUX: --urgency=16
 
 export PROTEUS_PREFIX='${PWD}/proteus_env'
 export PROTEUS_ARCH='mike'

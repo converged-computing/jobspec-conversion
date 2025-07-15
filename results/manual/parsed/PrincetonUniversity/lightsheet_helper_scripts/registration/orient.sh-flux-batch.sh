@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-punk-7935
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-taco-1791
+#FLUX: --urgency=16
 
 module load anacondapy/5.3.1
 source activate lightsheet

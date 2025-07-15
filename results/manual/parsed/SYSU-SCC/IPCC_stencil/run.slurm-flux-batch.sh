@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-chip-2127
+#FLUX: --job-name=stanky-peanut-5619
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='./lib:$LD_LIBRARY_PATH'
 

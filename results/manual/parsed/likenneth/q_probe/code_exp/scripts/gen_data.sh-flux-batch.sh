@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-chip-5769
+#FLUX: --job-name=muffled-avocado-8501
 #FLUX: -c=16
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CONFIG='generation_configs/$1.yaml'
 export TOKENIZERS_PARALLELISM='false'

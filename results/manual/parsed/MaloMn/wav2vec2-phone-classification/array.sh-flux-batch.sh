@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Activating environment wav2vec" > array_$SLURM_ARRAY_TASK_ID.txt
 conda activate wav2vec

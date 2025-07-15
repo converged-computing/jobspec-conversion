@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-motorcycle-1145
+#FLUX: --job-name=creamy-motorcycle-2775
 #FLUX: -c=48
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OPENBLAS_NUM_THREADS='2'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-malarkey-7216
+#FLUX: --job-name=red-noodle-8747
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VENV='$HOME/.envs/venv_cuda_${ULHPC_CLUSTER}'
 export JUPYTER_CONFIG_DIR='$HOME/jupyter_sing/$SLURM_JOBID/'

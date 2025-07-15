@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=attn_concat.input_feeding.copy
 #FLUX: --queue=titanx
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ATTENTION='concat";'
 export EXP_NAME='attn_$ATTENTION.input_feeding.copy'

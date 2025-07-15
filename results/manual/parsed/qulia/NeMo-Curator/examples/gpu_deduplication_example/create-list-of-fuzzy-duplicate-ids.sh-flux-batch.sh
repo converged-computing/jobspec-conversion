@@ -2,7 +2,7 @@
 #FLUX: --job-name=nemo-data-curator:create-fuzzy-dup-id-list
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eux
 base_dir=`pwd`

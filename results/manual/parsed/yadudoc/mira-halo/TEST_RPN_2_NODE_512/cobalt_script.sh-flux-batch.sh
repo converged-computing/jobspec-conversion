@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bits-9930
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-citrus-8616
+#FLUX: --urgency=16
 

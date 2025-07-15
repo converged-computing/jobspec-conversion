@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-sundae-6633
+#FLUX: --job-name=persnickety-arm-6902
 #FLUX: -c=5
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pwd; hostname; date
 echo $CUDA_VISIBLE_DEVICES

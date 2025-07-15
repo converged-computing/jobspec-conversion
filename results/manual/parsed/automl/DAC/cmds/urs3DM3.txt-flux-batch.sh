@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-knife-9537
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-gato-2314
+#FLUX: --urgency=16
 
 source activate dac
 experi="3D3M"

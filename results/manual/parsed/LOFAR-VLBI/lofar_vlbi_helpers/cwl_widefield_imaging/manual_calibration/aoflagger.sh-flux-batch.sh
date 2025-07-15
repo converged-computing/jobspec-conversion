@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-omelette-3535
-#FLUX: --priority=16
+#FLUX: --job-name=aoflagger
+#FLUX: --urgency=16
 
 SIMG=$( python3 $HOME/parse_settings.py --SIMG )
 SING_BIND=$( python3 $HOME/parse_settings.py --BIND )

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=prep_gromacs
 #FLUX: --queue=hpc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TUT_DIR='$HOME/udocker-tutorial'
 export PATH='$HOME/udocker-1.3.10/udocker:$PATH'

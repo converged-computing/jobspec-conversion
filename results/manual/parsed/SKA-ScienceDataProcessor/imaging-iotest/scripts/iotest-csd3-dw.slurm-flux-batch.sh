@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hobbit-0889
+#FLUX: --job-name=chunky-peanut-1821
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='0'
 export I_MPI_PIN_DOMAIN='omp:compact'

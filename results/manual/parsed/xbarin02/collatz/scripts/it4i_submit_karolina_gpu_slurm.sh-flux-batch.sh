@@ -2,7 +2,7 @@
 #FLUX: --job-name=collatz
 #FLUX: --queue=qgpu
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export POCL_CACHE_DIR='${TMPDIR}/kcache'
 export LANG='C'

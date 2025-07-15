@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-bike-5534
+#FLUX: --job-name=rainbow-train-0570
 #FLUX: -N=2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ntpn=8         # number of tasks per node: 
 ppn=8         # processors per node:       <- not needed for pami version. 

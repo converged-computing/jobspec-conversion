@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-snack-2708
+#FLUX: --job-name=butterscotch-general-3738
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 cd $(pwd)

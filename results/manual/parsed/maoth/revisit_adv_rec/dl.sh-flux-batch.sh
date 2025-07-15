@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fudge-0110
+#FLUX: --job-name=red-taco-0807
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cudatoolkit/10.2
 module load anaconda/python3.8/2020.07

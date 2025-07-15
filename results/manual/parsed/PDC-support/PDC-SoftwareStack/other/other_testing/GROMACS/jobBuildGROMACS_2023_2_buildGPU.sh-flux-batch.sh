@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-parsnip-8253
-#FLUX: --priority=16
+#FLUX: --job-name=arid-lemon-5157
+#FLUX: --urgency=16
 
 tar xvf gromacs-v2023.2.tar.gz
 cd gromacs-v2023.2

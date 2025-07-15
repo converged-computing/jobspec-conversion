@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-poodle-2949
+#FLUX: --job-name=chunky-parsnip-2451
 #FLUX: --queue=largemem
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/9.2.0 bbmap/38.57

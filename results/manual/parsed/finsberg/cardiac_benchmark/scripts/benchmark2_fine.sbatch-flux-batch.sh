@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="cardiac-benchmark"
+#FLUX: --job-name=cardiac-benchmark
 #FLUX: -n=8
 #FLUX: --queue=milanq
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKL_NUM_THREADS='$SLURM_NTASKS'
 export OMP_NUM_THREADS='$SLURM_NTASKS'

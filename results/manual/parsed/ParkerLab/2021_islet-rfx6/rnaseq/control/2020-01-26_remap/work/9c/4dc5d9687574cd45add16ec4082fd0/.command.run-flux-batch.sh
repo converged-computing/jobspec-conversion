@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bike-7057
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-avocado-2774
+#FLUX: --urgency=16
 
 set -e
 set -u

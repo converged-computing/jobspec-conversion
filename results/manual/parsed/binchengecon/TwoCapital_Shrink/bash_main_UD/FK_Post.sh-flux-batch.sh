@@ -3,7 +3,7 @@
 #FLUX: -c=5
 #FLUX: --queue=standard
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 epsilonarray=(0.05) 
 python_name="FK_postdamage_2jump_CRS_PETSC.py" # 3 dmg

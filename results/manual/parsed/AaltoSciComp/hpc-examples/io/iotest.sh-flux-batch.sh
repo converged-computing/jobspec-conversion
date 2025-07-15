@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-buttface-6645
+#FLUX: --job-name=persnickety-diablo-0202
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mypid=$$
 echo 'My pid is '$mypid

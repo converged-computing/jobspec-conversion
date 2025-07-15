@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-house-0719
+#FLUX: --job-name=faux-noodle-0075
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 module purge

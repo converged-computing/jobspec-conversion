@@ -2,7 +2,7 @@
 #FLUX: --job-name=Matlab-mcr-job
 #FLUX: --queue=compute
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MCR=/global/software/matlab/mcr/v93
 module load mcr/mcr

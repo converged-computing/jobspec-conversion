@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="fmriprep"
+#FLUX: --job-name=fmriprep
 #FLUX: -c=8
 #FLUX: --queue=bluemoon
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_TEMPLATEFLOW_HOME='${TEMPLATEFLOW_HOST_HOME}'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cherry-3090
+#FLUX: --job-name=cowy-lemon-9804
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load GCC/8.2.0-2.31.1 GCCcore/8.2.0 Python/3.7.2

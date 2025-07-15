@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-gato-8193
-#FLUX: --priority=16
+#FLUX: --job-name=astute-underoos-6595
+#FLUX: --urgency=16
 
 export GTIMER_DISABLE='1'
 

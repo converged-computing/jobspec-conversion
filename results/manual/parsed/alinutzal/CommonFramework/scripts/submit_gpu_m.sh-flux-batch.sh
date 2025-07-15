@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peanut-7852
+#FLUX: --job-name=outstanding-knife-2204
 #FLUX: -c=20
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_NET_GDR_LEVEL='PHB'
 export NCCL_P2P_LEVEL='NVL'

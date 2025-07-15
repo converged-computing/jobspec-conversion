@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-chair-3769
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-banana-4818
+#FLUX: --urgency=16
 
 export OMPI_MCA_btl_openib_allow_ib='true'
 export OMPI_MCA_pml='ucx'

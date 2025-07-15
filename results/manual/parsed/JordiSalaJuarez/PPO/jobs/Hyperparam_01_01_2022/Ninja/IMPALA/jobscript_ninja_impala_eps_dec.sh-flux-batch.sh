@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-ricecake-4967
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-bike-6119
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JordiSalaJuarez/PPO/jobs/Hyperparam_01_01_2022/Ninja/IMPALA/jobscript_ninja_impala_eps_dec.sh

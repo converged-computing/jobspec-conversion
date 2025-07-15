@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-destiny-5595
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-plant-7591
+#FLUX: --urgency=16
 
 TAU=1
 INTEL=24

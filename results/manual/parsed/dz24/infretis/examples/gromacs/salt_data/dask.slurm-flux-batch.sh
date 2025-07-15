@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="sl_test"
+#FLUX: --job-name=sl_test
 #FLUX: -n=2
 #FLUX: --queue=CPUQ
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 rm -r 00*

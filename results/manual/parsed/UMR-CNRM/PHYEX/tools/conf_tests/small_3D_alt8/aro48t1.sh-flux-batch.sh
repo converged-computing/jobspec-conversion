@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-underoos-9200
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-house-3461
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

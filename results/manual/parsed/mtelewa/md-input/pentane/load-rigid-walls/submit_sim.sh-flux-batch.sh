@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: --queue=multiple
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KMP_AFFINITY='compact,1,0'
 

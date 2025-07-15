@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-noodle-2202
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-signal-7253
+#FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh
 source /etc/profile.d/easybuild.sh

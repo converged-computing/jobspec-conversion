@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leopard-4034
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-animal-0983
+#FLUX: --urgency=16
 
 python src/main.py \
   --clean_mem_every 5 \

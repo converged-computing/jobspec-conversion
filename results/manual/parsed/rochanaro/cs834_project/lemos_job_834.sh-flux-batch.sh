@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leg-1732
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-lettuce-3752
+#FLUX: --urgency=16
 
 export CUDA_HOME='/cm/shared/applications/cuda-toolkit/11.7.1/'
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=$CUDA_HOME'

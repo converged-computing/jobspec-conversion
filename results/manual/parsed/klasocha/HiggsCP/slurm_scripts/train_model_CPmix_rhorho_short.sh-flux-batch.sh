@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-train-7587
+#FLUX: --job-name=milky-hippo-7618
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$ANACONDA_PYTHON_PATH'
 

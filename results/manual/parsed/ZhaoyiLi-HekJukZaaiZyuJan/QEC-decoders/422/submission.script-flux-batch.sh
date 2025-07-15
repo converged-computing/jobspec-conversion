@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-blackbean-5562
+#FLUX: --job-name=muffled-peas-6551
 #FLUX: -c=2
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/10.1.0
 ./simulate -N INDEP -n 10000 --pmin 0.035 --pmax 0.055 --lmin 3 --Np 30 -v 1 --fname "/scratch/users/ladmon/422/results/${SLURM_ARRAY_JOB_ID}_$SLURM_ARRAY_TASK_ID.out"

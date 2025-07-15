@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-caramel-5985
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-carrot-4595
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/aiddata/asdf/src/tasks/build_jobs.sh

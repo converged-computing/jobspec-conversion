@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-malarkey-2875
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-chip-9583
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/andreasmolund/reca/jobscripts/20massjob.pbs

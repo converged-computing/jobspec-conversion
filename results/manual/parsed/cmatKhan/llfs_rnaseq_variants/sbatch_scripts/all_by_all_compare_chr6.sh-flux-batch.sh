@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-fork-9576
+#FLUX: --job-name=stanky-rabbit-5496
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval $(spack load --sh singularityce@3.11.4)
 singularity_image=/scratch/mblab/chasem/llfs_rna_dna_compare_test/llfs_rnaseq_latest.sif

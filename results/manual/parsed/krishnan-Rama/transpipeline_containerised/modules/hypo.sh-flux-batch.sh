@@ -2,7 +2,7 @@
 #FLUX: --job-name=Hypo
 #FLUX: -c=8
 #FLUX: --queue=epyc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="generate_pixel_list_${experiment_id}_${data_range_index_start}_${data_range_index_end}"
-#FLUX: --priority=16
+#FLUX: --job-name=generate_pixel_list_${experiment_id}_${data_range_index_start}_${data_range_index_end}
+#FLUX: --urgency=16
 
 experiment_id="$1"
 echo experiment_id: "$experiment_id"

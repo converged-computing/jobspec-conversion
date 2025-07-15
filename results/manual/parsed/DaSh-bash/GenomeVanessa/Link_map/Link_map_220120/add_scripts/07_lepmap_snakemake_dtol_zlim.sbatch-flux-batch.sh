@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hope-8218
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-lettuce-4662
+#FLUX: --urgency=16
 
 export CONDA_ENVS_PATH='/proj/uppstore2017185/b2014034_nobackup/Karin/envs/'
 

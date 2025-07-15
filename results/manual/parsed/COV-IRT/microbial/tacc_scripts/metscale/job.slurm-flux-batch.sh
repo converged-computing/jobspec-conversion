@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-punk-8568
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-avocado-4142
+#FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='data:/tmp'
 

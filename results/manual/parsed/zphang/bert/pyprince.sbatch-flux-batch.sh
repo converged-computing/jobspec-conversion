@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cat-2926
+#FLUX: --job-name=butterscotch-latke-2056
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/home/zp489/miniconda3/envs/bert/lib/python3.6/site-packages:$PYTHONPATH'
 

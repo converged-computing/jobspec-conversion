@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-kitty-1535
+#FLUX: --job-name=hello-peanut-9032
 #FLUX: -c=30
 #FLUX: --queue=fast
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load snakemake fastqc bowtie2 samtools subread slurm-drmaa
 snakemake --drmaa --jobs=$SLURM_CPUS_PER_TASK -s demo.smk --configfile config.yml

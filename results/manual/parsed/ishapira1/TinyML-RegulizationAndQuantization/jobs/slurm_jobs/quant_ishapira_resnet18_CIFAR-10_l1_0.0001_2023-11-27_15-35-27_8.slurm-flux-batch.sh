@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-gato-7921
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-poo-0487
+#FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

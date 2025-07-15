@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=stage2
 #FLUX: --queue=normal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate amber

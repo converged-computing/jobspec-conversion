@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-muffin-4293
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-ricecake-7229
+#FLUX: --urgency=16
 
 module load conda3
 eval "$(conda shell.bash hook)"

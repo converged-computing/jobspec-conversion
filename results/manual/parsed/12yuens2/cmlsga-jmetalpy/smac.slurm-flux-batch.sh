@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-buttface-8133
+#FLUX: --job-name=boopy-cupcake-7558
 #FLUX: -n=8
 #FLUX: -t=86700
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.7.3
 source env/bin/activate

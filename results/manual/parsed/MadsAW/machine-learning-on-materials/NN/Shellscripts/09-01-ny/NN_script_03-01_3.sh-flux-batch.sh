@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-onion-0705
-#FLUX: --priority=16
+#FLUX: --job-name=grated-fork-4330
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/NN/Shellscripts/09-01-ny/NN_script_03-01_3.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pendulum_se_worker # sets the job name. If not specified, the file name will be used as job name
-#FLUX: --priority=16
+#FLUX: --job-name=pendulum_se_worker
+#FLUX: --urgency=16
 
 export HTTP_PROXY='http://tfproxy.informatik.uni-freiburg.de:8080'
 export HTTPS_PROXY='https://tfproxy.informatik.uni-freiburg.de:8080'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=scRNAseq-velocyto
-#FLUX: --queue=panda   # cluster-specific
-#FLUX: --priority=16
+#FLUX: --queue=panda
+#FLUX: --urgency=16
 
 spack load -r python@3.6.0+shared~tk~ucs4
 spack load -r samtools@1.8

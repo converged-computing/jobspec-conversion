@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-despacito-4932
+#FLUX: --job-name=astute-puppy-3393
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_LOG_LEVEL='error'
 

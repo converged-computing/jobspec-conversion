@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Neurodocker_FSL_bet_example
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load apptainer

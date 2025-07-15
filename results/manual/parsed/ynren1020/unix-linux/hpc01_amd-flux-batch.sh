@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-peas-2697
+#FLUX: --job-name=milky-dog-7903
 #FLUX: -n=8
 #FLUX: --queue=amd
 #FLUX: -t=1065600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 sh /usr/local/modules/profile.modules

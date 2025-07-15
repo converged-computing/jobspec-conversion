@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-spoon-6468
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-lettuce-6891
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.5

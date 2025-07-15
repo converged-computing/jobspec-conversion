@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-pot-3146
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-bicycle-3820
+#FLUX: --urgency=16
 
 cd /home/mcgaughs/shared/Software/diploSHIC
 CMD_LIST="Surface.fvecSim.commnads.txt"                                                                                                                                                               

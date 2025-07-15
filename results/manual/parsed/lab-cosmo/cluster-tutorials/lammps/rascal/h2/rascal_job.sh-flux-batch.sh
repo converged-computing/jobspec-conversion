@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=jobs
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc

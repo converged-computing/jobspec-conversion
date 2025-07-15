@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-frito-2524
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-ricecake-4030
+#FLUX: --urgency=16
 
 module load python/3.5.2
 pip install tensorflow-gpu==1.4.1 --user

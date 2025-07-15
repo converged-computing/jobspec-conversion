@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lemur-9608
-#FLUX: --priority=16
+#FLUX: --job-name=tart-hope-4253
+#FLUX: --urgency=16
 
 set -ex
 NPROC=$(nproc)

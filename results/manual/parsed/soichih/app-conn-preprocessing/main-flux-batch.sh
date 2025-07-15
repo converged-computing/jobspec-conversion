@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-peas-9723
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-hippo-8116
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/soichih/app-conn-preprocessing/main

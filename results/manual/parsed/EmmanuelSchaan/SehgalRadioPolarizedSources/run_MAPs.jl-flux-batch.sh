@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-hippo-0605
+#FLUX: --job-name=angry-destiny-2887
 #FLUX: -N=4
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun julia $(scontrol show job $SLURM_JOBID | awk -F= '/Command=/{print $2}')
 exit

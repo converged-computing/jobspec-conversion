@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-train-7694
+#FLUX: --job-name=blank-hope-2559
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 reponame="lammps"
 repo="git@github.com:CTCMS-UQ/${reponame}.git"

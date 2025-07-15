@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-mango-7681
+#FLUX: --job-name=nerdy-taco-6982
 #FLUX: -c=12
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_IB_PCI_RELAXED_ORDERING='on \'
 

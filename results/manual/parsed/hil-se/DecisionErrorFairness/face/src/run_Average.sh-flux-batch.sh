@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-parrot-6445
-#FLUX: --priority=16
+#FLUX: --job-name=phat-buttface-0343
+#FLUX: --urgency=16
 
 spack unload -a
 spack load /xi3pch3

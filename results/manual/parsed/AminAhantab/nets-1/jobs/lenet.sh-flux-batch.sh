@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nets_lenet
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euxo pipefail
 module load anaconda3/2021.05-gcc-10.3.0

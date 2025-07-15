@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-platanos-0663
+#FLUX: --job-name=crunchy-snack-7001
 #FLUX: -c=40
 #FLUX: --queue=batch
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MALLOC_MMAP_MAX_='40960'
 

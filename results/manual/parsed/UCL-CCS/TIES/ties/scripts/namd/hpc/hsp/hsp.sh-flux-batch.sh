@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-hippo-7849
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-lettuce-0687
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UCL-CCS/TIES/ties/scripts/namd/hpc/hsp/hsp.sh

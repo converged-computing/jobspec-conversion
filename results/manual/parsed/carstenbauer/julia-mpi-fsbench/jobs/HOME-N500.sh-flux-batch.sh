@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-leopard-4048
+#FLUX: --job-name=grated-malarkey-7455
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

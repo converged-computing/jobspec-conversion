@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-avocado-7838
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-bits-5974
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/r-caplier/CGvsNI-SSL/scripts/CGvsNI/CGvsNI-testArtlantisAutodesk-fullsup.sh

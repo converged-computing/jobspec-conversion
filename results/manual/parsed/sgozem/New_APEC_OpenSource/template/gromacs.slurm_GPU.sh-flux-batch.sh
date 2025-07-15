@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lamp-7749
-#FLUX: --priority=16
+#FLUX: --job-name=faux-toaster-3012
+#FLUX: --urgency=16
 
 export Project='$SLURM_JOB_NAME'
 export WorkDir='/scratch/$SLURM_JOB_ID'

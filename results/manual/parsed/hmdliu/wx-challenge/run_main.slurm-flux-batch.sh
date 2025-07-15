@@ -2,7 +2,7 @@
 #FLUX: --job-name=MultiModal
 #FLUX: -c=4
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 exp_id=$1
 ext3_path=/scratch/$USER/overlay-25GB-500K.ext3

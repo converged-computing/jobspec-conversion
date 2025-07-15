@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name="Grid-search Linearly Separable (ECCCo)"
+#FLUX: --job-name=Grid-search Linearly Separable (ECCCo)
 #FLUX: -n=5
 #FLUX: -c=4
 #FLUX: --queue=compute
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2023r1 openmpi
 source experiments/slurm_header.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=umap_clustering_berman
-#FLUX: --queue=ex_scioi_gpu # partition to submit to
+#FLUX: --queue=ex_scioi_gpu
 #FLUX: -t=2040
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LANG='UTF-8'
 export LC_ALL='en_US.UTF-8'

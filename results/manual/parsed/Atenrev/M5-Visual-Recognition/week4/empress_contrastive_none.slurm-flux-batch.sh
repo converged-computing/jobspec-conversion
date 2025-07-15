@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-platanos-3670
-#FLUX: --priority=16
+#FLUX: --job-name=faux-general-3403
+#FLUX: --urgency=16
 
 python task_b.py \
     --loss "contrastive"  \

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=tb
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ $HOSTNAME = dgx1 ]; then
     singularity exec --nv -B /raid:/raid /raid/poggio/home/larend/localtensorflow.img \

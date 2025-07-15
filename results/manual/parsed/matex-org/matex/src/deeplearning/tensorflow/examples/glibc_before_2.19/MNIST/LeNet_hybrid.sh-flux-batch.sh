@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-chip-2081
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-fork-5716
+#FLUX: --urgency=16
 
 train_batch=64
 nodes=1

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-carrot-3596
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-underoos-1963
+#FLUX: --urgency=16
 
 module purge
 module load anaconda3/latest

@@ -1,27 +1,23 @@
 #!/bin/bash
 #
-#SBATCH --job-name=translate-nematus
-#SBATCH --nodes=1
-#SBATCH --partition=gpu
-#SBATCH --gres=gpu:1
-#SBATCH --exclude=gpu-0-0
-#SBATCH --time=72:00:00
-#SBATCH --mem=20G
-#SBATCH --output=log/slurm/translate_%a.out
-#SBATCH --error=log/slurm/translate_%a.err
+#SBATCH --job-name=hpsg-export
+#SBATCH --nodes=1 --ntasks=1
+#SBATCH --time=30:00
+#SBATCH --mem=200MB
+#SBATCH --output=log/slurm/export_%a.out
+#SBATCH --error=log/slurm/export_%a.err
 
+INPUT_DIR=./logon/lingo/lkb/src/tsdb/home/erg/1214
 TASK_ID=$(printf '%0'$digits'd' $SLURM_ARRAY_TASK_ID)
 
-echo $CUDA_VISIBLE_DEVICES
+. /home/jwei/miniconda3/etc/profile.d/conda.sh
+conda activate base
 echo $TASK_ID
 
-. /home/jwei/miniconda3/etc/profile.d/conda.sh
-conda activate nematus
-module load cuda/9.0.176
-module load cudnn/7.0-cuda_9.0
-
-./nematus/nematus/translate.py \
-  --models data/translate/models/model.npz \
-  -v -p 1 --n-best \
-  --input data/translate/splits/test_splits/$TASK_ID \
-  --output data/translate/output/output_splits/$TASK_ID \
+python src/wikiwoods.py \
+    --directory $INPUT_DIR/$TASK_ID \
+    --output $OUTPUT_DIR/$TASK_ID \
+    --derivation \
+    --preprocess \
+    --includena \
+    --parser-error

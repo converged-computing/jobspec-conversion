@@ -2,7 +2,7 @@
 #FLUX: --job-name=GradientBoostingRegressor
 #FLUX: -c=4
 #FLUX: -t=86710
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
  #for i in "${!SPECIES[@]}"; do sbatch GBR.sh "${SPECIES[i]}" "${TRAIT[i]}"; done
 SPECIES=$1

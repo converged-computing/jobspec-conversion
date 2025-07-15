@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-snack-9109
+#FLUX: --job-name=hello-bicycle-8623
 #FLUX: -t=3300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.11 rust
 cp $path/requirements.txt $SLURM_TMPDIR/

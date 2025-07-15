@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-parsnip-9839
+#FLUX: --job-name=blue-parsnip-1001
 #FLUX: --exclusive
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load uppmax
 module load python_ML_packages/3.9.5-gpu python/3.9.5 

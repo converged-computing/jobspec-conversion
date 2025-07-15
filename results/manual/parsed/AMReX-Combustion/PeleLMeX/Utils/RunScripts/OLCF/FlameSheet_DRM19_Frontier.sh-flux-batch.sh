@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-cat-7324
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-peanut-butter-1579
+#FLUX: --urgency=16
 
 export https_proxy='http://proxy.ccs.ornl.gov:3128'
 

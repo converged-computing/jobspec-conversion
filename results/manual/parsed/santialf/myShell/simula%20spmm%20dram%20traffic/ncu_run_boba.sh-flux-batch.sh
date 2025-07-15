@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-citrus-7662
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-eagle-0449
+#FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'
 

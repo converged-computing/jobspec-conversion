@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-fudge-4016
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-kerfuffle-4441
+#FLUX: --urgency=16
 
 for i in 0 1 2 3 4 
 do

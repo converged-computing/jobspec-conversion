@@ -2,7 +2,7 @@
 #FLUX: --job-name=CNVkit_plot
 #FLUX: --queue=main
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/dir/kerenxu/SINGULARITY_CACHEDIR/:$PATH'
 

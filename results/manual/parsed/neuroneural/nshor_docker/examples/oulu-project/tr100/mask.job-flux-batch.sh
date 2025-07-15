@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-milkshake-9536
+#FLUX: --job-name=anxious-sundae-5162
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load afni
 while IFS= read -r sub_id; do

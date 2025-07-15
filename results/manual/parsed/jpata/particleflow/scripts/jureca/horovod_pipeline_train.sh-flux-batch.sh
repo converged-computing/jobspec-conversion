@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-underoos-5794
+#FLUX: --job-name=confused-omelette-6551
 #FLUX: --queue=dc-gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 export NCCL_DEBUG='INFO'

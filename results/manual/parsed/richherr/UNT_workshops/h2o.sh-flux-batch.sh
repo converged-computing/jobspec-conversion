@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=h2o_arrayJob
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/conda.init
 conda activate h2oai

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-motorcycle-2385
+#FLUX: --job-name=stinky-chair-4677
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Anaconda3
 source activate dassl

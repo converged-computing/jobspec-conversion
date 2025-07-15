@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=parallel
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 """
 This script will run the Fungiflow pipeline

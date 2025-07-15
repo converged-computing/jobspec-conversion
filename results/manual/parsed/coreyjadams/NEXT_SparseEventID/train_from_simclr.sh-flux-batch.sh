@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lemon-3837
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-bike-6226
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/coreyjadams/NEXT_SparseEventID/train_from_simclr.sh

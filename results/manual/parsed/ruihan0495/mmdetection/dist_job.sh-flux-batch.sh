@@ -3,7 +3,7 @@
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2019

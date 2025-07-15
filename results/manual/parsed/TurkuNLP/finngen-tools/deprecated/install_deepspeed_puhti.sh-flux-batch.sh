@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-animal-4078
+#FLUX: --job-name=chunky-motorcycle-0047
 #FLUX: --queue=gputest
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DS_BUILD_CPU_ADAM='1'
 export DS_BUILD_FUSED_ADAM='1'

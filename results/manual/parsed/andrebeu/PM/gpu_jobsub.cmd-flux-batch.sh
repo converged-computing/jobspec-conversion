@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-poo-0456
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-squidward-3563
+#FLUX: --urgency=16
 
 printf "\n\n\n --ntasks-per-node=1 -c=8 ntasks-per-socket=4 \n\n\n"
 seed=${1}

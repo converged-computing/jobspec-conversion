@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-plant-5696
+#FLUX: --job-name=rainbow-eagle-7270
 #FLUX: --queue=physical
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python/3.5.2-goolf-2015a
 echo "Cluster and Cloud Computing Assignment1 using 1 node and 1 core"

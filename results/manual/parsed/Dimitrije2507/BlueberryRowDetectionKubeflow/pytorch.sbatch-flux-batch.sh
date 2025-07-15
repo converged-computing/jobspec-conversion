@@ -2,6 +2,6 @@
 #FLUX: --job-name=torch
 #FLUX: --queue=main
 #FLUX: -t=1879200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun bash child.sh

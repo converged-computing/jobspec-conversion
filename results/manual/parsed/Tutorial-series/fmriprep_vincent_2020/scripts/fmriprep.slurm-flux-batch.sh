@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-rabbit-2003
+#FLUX: --job-name=blue-kitty-6783
 #FLUX: -c=8
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_FS_LICENSE='$FMRIPREP_HOME/.freesurfer/license.txt'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'

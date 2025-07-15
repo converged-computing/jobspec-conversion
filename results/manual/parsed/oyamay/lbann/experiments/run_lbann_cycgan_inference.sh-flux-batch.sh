@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-buttface-9241
-#FLUX: --priority=16
+#FLUX: --job-name=salted-punk-4422
+#FLUX: --urgency=16
 
 EXPERIMENT=$1
 EXPERIMENT_NAME=lbann_cycgan_jag_inference

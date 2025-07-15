@@ -2,7 +2,7 @@
 #FLUX: --job-name=PostDiscovery
 #FLUX: -c=2
 #FLUX: -t=93540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SAMPLE_LIST=$1
 echo ${SAMPLE_LIST}

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-latke-9013
-#FLUX: --priority=16
+#FLUX: --job-name=arid-leader-2209
+#FLUX: --urgency=16
 
 export user='$(whoami)'
 export SCRIPTS_DIR='$package_path/scripts'

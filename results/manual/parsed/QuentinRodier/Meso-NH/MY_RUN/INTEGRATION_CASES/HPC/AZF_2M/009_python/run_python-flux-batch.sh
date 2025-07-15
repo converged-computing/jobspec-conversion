@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-despacito-7941
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-bits-1297
+#FLUX: --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="filter"
+#FLUX: --job-name=filter
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 TIMESTAMP=$(date +%Y-%m-%d_%Hh%Mm%Ss)

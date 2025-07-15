@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-staircase-2610
-#FLUX: --priority=16
+#FLUX: --job-name=confused-peanut-5930
+#FLUX: --urgency=16
 
 ml unload xalt
 ml tacc-singularity

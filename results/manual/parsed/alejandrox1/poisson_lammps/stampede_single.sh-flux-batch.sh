@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-taco-8383
+#FLUX: --job-name=carnivorous-despacito-0406
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load lammps
 procs=$1

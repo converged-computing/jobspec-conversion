@@ -2,7 +2,7 @@
 #FLUX: --job-name=gpuJob
 #FLUX: -c=3
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load rhel7/default-gpu

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-toaster-2462
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-frito-0143
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/chuckatkins/ADIOS/examples/Fortran/global-array/job.pbs

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lemur-9657
+#FLUX: --job-name=stinky-lamp-4651
 #FLUX: -n=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load fosscuda/2019b

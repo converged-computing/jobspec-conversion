@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-fudge-2382
+#FLUX: --job-name=cowy-egg-1861
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MV2_USE_CUDA='1'
 export MV2_USE_GPUDIRECT='1'

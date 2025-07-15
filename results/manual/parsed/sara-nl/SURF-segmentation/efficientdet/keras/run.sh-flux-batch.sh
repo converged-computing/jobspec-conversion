@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-arm-0924
-#FLUX: --priority=16
+#FLUX: --job-name=hello-frito-5625
+#FLUX: --urgency=16
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'
 export HOROVOD_CUDA_INCLUDE='$CUDA_HOME/include'

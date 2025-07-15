@@ -2,7 +2,7 @@
 #FLUX: --job-name=pvpost
 #FLUX: --queue=standard
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load openmpi/1.10.7/gcc-7.3.0

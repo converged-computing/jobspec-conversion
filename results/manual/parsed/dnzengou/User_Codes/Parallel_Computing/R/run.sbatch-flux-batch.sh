@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-staircase-1795
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-puppy-3526
+#FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/software/R/3.6.1:$R_LIBS_USER'
 export R_PROFILE='$HOME/software/R/3.6.1/Rmpi/Rprofile'

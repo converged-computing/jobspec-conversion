@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cherry-9671
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-destiny-2312
+#FLUX: --urgency=16
 
 export WANDB__SERVICE_WAIT='300'
 export NCCL_DEBUG='INFO'

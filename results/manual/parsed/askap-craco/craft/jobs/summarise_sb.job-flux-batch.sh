@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-butter-7668
+#FLUX: --job-name=misunderstood-signal-3892
 #FLUX: -t=8400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 export PATH='$CRAFT/cuda-fdmt/cudafdmt/src:$CRAFT/python:$PATH'

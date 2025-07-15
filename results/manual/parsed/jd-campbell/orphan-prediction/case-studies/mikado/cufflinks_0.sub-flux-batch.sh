@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-eagle-1543
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-lamp-4836
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 ulimit -s unlimited

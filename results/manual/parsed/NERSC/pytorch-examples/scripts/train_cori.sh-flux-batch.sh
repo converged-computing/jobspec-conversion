@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-hobbit-8805
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-bits-7706
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='32'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-peanut-butter-8330
+#FLUX: --job-name=lovable-salad-0185
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

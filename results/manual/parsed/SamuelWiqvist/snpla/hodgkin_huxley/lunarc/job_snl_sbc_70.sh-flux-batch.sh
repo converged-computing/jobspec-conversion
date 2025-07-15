@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-toaster-6723
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-eagle-0273
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

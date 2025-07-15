@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-animal-9923
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-arm-9853
+#FLUX: --urgency=16
 
 module load bwa/0.7.15 tabix/0.2.6 vcftools/0.1.16 bcftools/1.9 plink/1.90 gatk/4.2.2.0 sratoolkit/2.8.2-1 R/4.1.0 samtools trimmomatic/0.36 
 module load gsl/2.7.1 zlib/1.2.11 RAiSD/2.8

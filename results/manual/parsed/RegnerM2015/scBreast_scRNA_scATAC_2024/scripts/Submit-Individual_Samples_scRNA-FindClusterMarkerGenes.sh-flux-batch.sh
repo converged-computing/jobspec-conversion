@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Individual_Samples_scRNA-FindClusterMarkerGenes-${i}
 #FLUX: --queue=allnodes
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 declare -a StringArray=("35A4AL 35EE8L 3821AL 3B3E9L 3C7D1L 3D388L 3FCDEL 43E7BL 43E7CL 44F0AL 45CB0L 49758L 49CFCL 4AF75L 4B146L 4C2E5L 4D0D2L HCC1143 MCF7 SUM149PT T47D")
 for i in ${StringArray[@]}

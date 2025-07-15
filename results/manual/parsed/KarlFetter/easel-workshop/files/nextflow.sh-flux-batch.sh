@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=easel
 #FLUX: --queue=general
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow
 source activate envAGAT

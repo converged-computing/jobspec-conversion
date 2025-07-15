@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-soup-8781
+#FLUX: --job-name=fugly-hope-6254
 #FLUX: -c=4
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 export SLURM_TMPDIR='/home/mila/c/chris.emezue/scratch/SINGULARITY_CDT_TMP_DIR'

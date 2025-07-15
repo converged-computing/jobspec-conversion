@@ -2,7 +2,7 @@
 #FLUX: --job-name=florence_ncf
 #FLUX: --queue=standard
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python3.9-anaconda
 source activate eqcorrscan

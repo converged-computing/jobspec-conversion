@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cherry-6955
+#FLUX: --job-name=gassy-hippo-4916
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "[train.baseline.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."
 if [[ "`hostname`" == "sdumont"* ]]; then

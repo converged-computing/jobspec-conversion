@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cartpole_se_master
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HTTP_PROXY='http://tfproxy.informatik.uni-freiburg.de:8080'
 export HTTPS_PROXY='https://tfproxy.informatik.uni-freiburg.de:8080'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="HtrA1"
+#FLUX: --job-name=HtrA1
 #FLUX: --queue=mf_nes2.8
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 copy_local="yes"
 nprocs=$SLURM_NTASKS

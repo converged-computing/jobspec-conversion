@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-destiny-5140
+#FLUX: --job-name=conspicuous-squidward-1817
 #FLUX: -n=24
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

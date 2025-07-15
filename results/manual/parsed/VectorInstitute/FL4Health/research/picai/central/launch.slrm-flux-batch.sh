@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=central_picai
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LOG_DIR=$1
 VENV_PATH=$2

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-parsnip-1862
+#FLUX: --job-name=lovely-leader-9159
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Running the cluster/remote build script"
 WORKING_DIR=<FINN_WORKDIR>

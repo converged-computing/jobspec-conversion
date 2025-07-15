@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-signal-3610
+#FLUX: --job-name=chunky-pedo-8108
 #FLUX: --queue=cmain
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc cuda mvapich2/2.2

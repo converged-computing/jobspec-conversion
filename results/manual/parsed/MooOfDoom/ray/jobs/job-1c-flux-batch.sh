@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=job-1c
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

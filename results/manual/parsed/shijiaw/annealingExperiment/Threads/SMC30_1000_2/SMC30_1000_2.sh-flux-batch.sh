@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-banana-4007
+#FLUX: --job-name=salted-milkshake-4182
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load r/3.4.0
 module load java/1.8.0_121

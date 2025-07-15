@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-car-3065
+#FLUX: --job-name=eccentric-arm-7656
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load nvidia-hpc-sdk

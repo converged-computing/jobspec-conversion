@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-latke-9683
+#FLUX: --job-name=lovable-platanos-7275
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/bashrc
 . /etc/profile.d/modules.sh

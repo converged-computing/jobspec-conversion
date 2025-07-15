@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lemon-2650
+#FLUX: --job-name=expensive-onion-4470
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module --force purge
 mkdir -p V-"$1"_d-"$3"/Data/precip V-"$1"_d-"$3"/models/precip

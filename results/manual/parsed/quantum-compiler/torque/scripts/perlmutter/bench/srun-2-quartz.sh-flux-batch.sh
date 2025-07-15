@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-snack-7635
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-cattywampus-5991
+#FLUX: --urgency=16
 
 export PATH='$PATH:/global/homes/m/mingkuan/torque/deps/quartz/external/HiGHS/build/bin'
 export MPICH_GPU_SUPPORT_ENABLED='1'

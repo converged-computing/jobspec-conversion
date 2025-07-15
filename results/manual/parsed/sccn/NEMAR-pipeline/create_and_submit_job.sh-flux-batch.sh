@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-toaster-2141
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-knife-0741
+#FLUX: --urgency=16
 
 dsnumber="$1"
 path="/expanse/projects/nemar/openneuro/processed/logs"

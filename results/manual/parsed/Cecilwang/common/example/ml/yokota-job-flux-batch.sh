@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-caramel-1133
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-buttface-4997
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$HOME/asdfghjkl:$PYTHONPATH:$HOME/common:$HOME/sam:$HOME/vit-pytorch'
 

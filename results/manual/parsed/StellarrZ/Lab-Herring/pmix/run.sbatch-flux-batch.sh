@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=benchmark
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mpirun \
     --map-by ppr:8:node \

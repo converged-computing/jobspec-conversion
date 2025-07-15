@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=savio2_1080ti
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load ml/tensorflow/1.12.0-py36
 cd Structure-in-GAN

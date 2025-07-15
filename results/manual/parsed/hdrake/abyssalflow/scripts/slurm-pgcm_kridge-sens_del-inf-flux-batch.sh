@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=sched_mit_raffaele
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 startt=`date +%s`
 EXPNAME=$1

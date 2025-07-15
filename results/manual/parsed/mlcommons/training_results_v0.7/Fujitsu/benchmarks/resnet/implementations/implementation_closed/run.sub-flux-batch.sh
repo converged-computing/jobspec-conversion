@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-destiny-9320
+#FLUX: --job-name=persnickety-frito-7061
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export VOLS='-v $DATADIR:/data -v $LOGDIR:/results'
 export MLPERF_HOST_OS='Ubuntu 18.04'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cinnamonbun-5544
-#FLUX: --priority=16
+#FLUX: --job-name=astute-rabbit-0384
+#FLUX: --urgency=16
 
 export LOGFILENAME='${LOG_DIR}/casa_log_${jobname}_${SLURM_JOB_ID}_$(date +%Y-%m-%d_%H_%M_%S).log'
 export ACES_ROOTDIR='/orange/adamginsburg/ACES/reduction_ACES/'

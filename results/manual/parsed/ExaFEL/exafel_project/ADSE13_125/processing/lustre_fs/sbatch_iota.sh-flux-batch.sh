@@ -2,7 +2,7 @@
 #FLUX: --job-name=iota_ps2cctbx
 #FLUX: -N=3500
 #FLUX: -t=6600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NODES=3500
 NUM_RANKS=$((NODES*68))

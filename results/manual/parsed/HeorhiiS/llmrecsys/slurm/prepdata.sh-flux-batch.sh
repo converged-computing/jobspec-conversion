@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-hippo-2834
+#FLUX: --job-name=sticky-peanut-butter-6292
 #FLUX: -t=19800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 source ~/.bashrc

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-peanut-2046
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-avocado-3324
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ShanSunNOAA/global-workflow/driver/product/run_postsnd.sh.dell

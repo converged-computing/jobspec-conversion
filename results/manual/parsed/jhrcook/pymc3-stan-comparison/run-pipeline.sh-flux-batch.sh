@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-staircase-2963
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-destiny-9990
+#FLUX: --urgency=16
 
 module unload python
 module load gcc conda2 slurm-drmaa/1.1.3

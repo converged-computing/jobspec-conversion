@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-citrus-1856
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-latke-7472
+#FLUX: --urgency=16
 
 function write_comment()
 {

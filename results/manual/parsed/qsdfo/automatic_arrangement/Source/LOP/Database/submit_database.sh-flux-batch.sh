@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-hope-1331
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-destiny-5113
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/qsdfo/automatic_arrangement/Source/LOP/Database/submit_database.sh

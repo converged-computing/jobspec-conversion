@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-hobbit-0771
+#FLUX: --job-name=fat-lettuce-6415
 #FLUX: -n=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INDIR=/gpfs/group/pipkin/hdiao/Exp337/0_fastq
 BAMDIR=/gpfs/group/pipkin/hdiao/Exp337/1_bowtie2

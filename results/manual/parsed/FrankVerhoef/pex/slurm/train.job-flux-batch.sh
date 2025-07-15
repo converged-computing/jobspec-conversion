@@ -2,7 +2,7 @@
 #FLUX: --job-name=Train_PEX
 #FLUX: --queue=gpu
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2022

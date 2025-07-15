@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-signal-4215
+#FLUX: --job-name=joyous-leg-8449
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/home/jmansour/underworld2:/home/jmansour/underworld2/glucifer:$PYTHONPATH'
 export PREFIXSTRING='`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 ; echo ''`'

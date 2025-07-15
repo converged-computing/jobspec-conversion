@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-caramel-4019
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-house-9823
+#FLUX: --urgency=16
 
 set -e
 function cleanup() {

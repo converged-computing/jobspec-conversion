@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-ricecake-6592
-#FLUX: --priority=16
+#FLUX: --job-name=grated-peanut-4961
+#FLUX: --urgency=16
 
 module load numlib/GSL/2.7-GCC-11.3.0
 module load toolchain/intel/2022.00

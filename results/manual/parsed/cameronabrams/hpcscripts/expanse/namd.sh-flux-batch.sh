@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="namd"
+#FLUX: --job-name=namd
 #FLUX: -N=2
 #FLUX: --queue=compute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${NCPU}'
 

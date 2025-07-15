@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-banana-4759
+#FLUX: --job-name=arid-itch-4981
 #FLUX: -c=16
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu
 function usage() { cat << EOF

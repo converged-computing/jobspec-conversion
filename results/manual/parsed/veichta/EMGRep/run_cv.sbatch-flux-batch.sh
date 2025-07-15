@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="emgrep-cv"
+#FLUX: --job-name=emgrep-cv
 #FLUX: -c=20
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/8.2.0 python_gpu/3.10.4 eth_proxy
 pip install -q -r requirements.txt

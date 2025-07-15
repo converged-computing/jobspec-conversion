@@ -6,7 +6,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=cpu
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='WARN'
 export PYTHONFAULTHANDLER='1'

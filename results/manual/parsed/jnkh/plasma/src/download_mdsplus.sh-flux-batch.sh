@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-parrot-0449
-#FLUX: --priority=16
+#FLUX: --job-name=fat-fudge-1649
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jnkh/plasma/src/download_mdsplus.sh

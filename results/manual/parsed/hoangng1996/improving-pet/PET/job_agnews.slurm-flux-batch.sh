@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=PET_CILVR
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/ext3/miniconda3/bin:$PATH'
 export OMP_NUM_THREADS='1'

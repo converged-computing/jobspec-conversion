@@ -2,7 +2,7 @@
 #FLUX: --job-name=fgflex
 #FLUX: --queue=accel
 #FLUX: -t=55800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -o errexit  # Exit the script on any error
 set -o nounset  # Treat any unset variables as an error

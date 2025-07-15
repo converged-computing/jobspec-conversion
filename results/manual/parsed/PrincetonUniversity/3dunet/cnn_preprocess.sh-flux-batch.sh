@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-plant-1819
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-banana-3231
+#FLUX: --urgency=16
 
 echo "In the directory: `pwd` "
 echo "As the user: `whoami` "

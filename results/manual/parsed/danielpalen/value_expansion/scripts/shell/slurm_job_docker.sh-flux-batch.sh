@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-house-3225
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-caramel-4533
+#FLUX: --urgency=16
 
 WANDB_API_KEY="[TODO YOUR KEY]"  # or 'wandb login' and 'wandb docker' commands
 WANDB_ENTITY="[TODO YOUR ENTITY]"

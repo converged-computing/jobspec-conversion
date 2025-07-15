@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-blackbean-7197
-#FLUX: --priority=16
+#FLUX: --job-name=grated-earthworm-6553
+#FLUX: --urgency=16
 
 export TMPDIR='/work/tylerns/e1d_sim/$SLURM_ARRAY_JOB_ID/$SLURM_ARRAY_TASK_ID'
 export SINGULARITY_CACHEDIR='$TMPDIR/sing_cache'

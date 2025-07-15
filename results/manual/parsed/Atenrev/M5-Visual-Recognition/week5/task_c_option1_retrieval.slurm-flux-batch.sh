@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-despacito-0698
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-puppy-5953
+#FLUX: --urgency=16
 
 python run_retrieval.py \
     --mode symmetric  \

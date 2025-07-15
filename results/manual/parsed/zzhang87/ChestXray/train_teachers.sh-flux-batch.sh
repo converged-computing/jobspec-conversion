@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-onion-5115
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-lettuce-7562
+#FLUX: --urgency=16
 
 MODEL_NAME=mobilenet
 TRAIN_DIR=/home/zzhang52/Insight/runs/3_teachers_100th

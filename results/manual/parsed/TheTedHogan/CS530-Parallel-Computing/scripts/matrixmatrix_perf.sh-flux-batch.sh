@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-underoos-9295
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-lemur-7523
+#FLUX: --urgency=16
 
 module load gcc/10.2.0
 module load cmake/gcc/3.18.0

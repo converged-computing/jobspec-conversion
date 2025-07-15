@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-bicycle-8196
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-soup-5170
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='2'
 

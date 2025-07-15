@@ -2,7 +2,7 @@
 #FLUX: --job-name=careless-install
 #FLUX: -c=16
 #FLUX: --queue=ampere
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 source /sdf/group/lcls/ds/ana/sw/conda1/manage/bin/psconda.sh

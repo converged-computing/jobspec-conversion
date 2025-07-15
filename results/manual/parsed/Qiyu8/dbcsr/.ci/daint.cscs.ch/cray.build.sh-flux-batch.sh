@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-taco-9861
+#FLUX: --job-name=conspicuous-latke-3306
 #FLUX: -c=3
-#FLUX: --queue="cscsci"
-#FLUX: --priority=16
+#FLUX: --queue=cscsci
+#FLUX: --urgency=16
 
 set -o errexit
 set -o nounset

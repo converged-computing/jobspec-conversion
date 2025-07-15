@@ -2,7 +2,7 @@
 #FLUX: --job-name=nf-bulk_rnaseq
 #FLUX: --queue=defq
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow/22.04.3
 module load singularity/3.8.0

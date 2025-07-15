@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-bike-2064
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-nalgas-4702
+#FLUX: --urgency=16
 
 cd run_files.QSIprep
 module load singularity

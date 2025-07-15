@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-signal-6252
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-nalgas-3155
+#FLUX: --urgency=16
 
 module load gcc6 slurm cmake
 inputlist=$1

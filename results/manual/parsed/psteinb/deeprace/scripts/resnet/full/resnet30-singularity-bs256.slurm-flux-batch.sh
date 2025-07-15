@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hope-4586
+#FLUX: --job-name=buttery-itch-0433
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

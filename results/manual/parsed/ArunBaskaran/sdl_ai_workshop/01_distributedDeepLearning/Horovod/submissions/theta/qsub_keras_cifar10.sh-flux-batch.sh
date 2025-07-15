@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-train-6677
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-fork-8326
+#FLUX: --urgency=16
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-banana-4390
-#FLUX: --priority=16
+#FLUX: --job-name=grated-animal-3521
+#FLUX: --urgency=16
 
 module load trinity-rnaseq/2.13.2
 MEM=256G

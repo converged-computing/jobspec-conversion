@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-nunchucks-7528
-#FLUX: --priority=16
+#FLUX: --job-name=arid-bits-8503
+#FLUX: --urgency=16
 
 set -e
 set -u

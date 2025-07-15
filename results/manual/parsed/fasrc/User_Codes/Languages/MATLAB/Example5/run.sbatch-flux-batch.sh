@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-signal-4477
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-lizard-2585
+#FLUX: --urgency=16
 
 module load matlab
 iseed=$(($SLURM_ARRAY_JOB_ID+$SLURM_ARRAY_TASK_ID))

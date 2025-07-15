@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-leopard-6481
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-lemon-7139
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/YichenGong/lung-cancer-detector/nyu_hpc/run_jupyterNotebook.q

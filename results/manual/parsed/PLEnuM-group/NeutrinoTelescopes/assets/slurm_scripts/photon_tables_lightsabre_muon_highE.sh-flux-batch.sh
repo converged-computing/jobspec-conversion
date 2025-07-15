@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=photon_tables
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 n_sims=1000
 n_skip=$((SLURM_ARRAY_TASK_ID * n_sims))

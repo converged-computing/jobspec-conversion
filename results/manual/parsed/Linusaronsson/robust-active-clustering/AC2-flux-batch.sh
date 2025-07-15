@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-eagle-4575
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-dog-0942
+#FLUX: --urgency=16
 
 module load SciPy-bundle/2022.05-foss-2022a
 module load PyTorch-bundle/1.13.1-foss-2022a-CUDA-11.7.0

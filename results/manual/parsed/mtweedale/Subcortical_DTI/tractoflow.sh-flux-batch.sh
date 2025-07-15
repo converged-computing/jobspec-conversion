@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-nunchucks-8151
+#FLUX: --job-name=confused-destiny-2123
 #FLUX: -c=40
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_CLUSTER_SEED='$(shuf -i 0-16777216 -n 1)'
 

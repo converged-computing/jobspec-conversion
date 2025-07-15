@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-fork-4551
-#FLUX: --priority=16
+#FLUX: --job-name=astute-spoon-3788
+#FLUX: --urgency=16
 
 export LD_PRELOAD='/home1/apps/tacc-patches/python_cacher/myopen.so'
 export PATH='$RSMASINSAR_HOME/sources/isce2/contrib/stack/topsStack:$PATH'

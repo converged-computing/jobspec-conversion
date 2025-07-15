@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=fwkt_v100
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/'
 export CUDA_VISIBLE_DEVICES='0'

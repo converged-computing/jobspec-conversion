@@ -2,7 +2,7 @@
 #FLUX: --job-name=test
 #FLUX: --queue=iob_p
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONDA_BASE=$(conda info --base)
 source ${CONDA_BASE}/etc/profile.d/conda.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-pedo-1720
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-despacito-4142
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/apps/cuda10_1/lib64'
 

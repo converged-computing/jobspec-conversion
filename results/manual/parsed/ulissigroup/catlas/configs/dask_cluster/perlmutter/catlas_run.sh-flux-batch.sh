@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-cherry-0497
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-nunchucks-6023
+#FLUX: --urgency=16
 
 export SHIFTER_IMAGETYPE='docker'
 export SHIFTER_IMAGE='ulissigroup/catlas:latest'

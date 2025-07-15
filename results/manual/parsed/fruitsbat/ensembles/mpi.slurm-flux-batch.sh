@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-parsnip-0960
+#FLUX: --job-name=boopy-leopard-0717
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: --queue=west
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ENSEMBLES_MPIEXEC_PATH='mpiexec'
 export ENSEMBLES_MPIEXEC_NODES='1'

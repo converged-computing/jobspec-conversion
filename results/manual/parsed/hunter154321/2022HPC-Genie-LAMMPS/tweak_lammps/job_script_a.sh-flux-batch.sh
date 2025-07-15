@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-spoon-9982
+#FLUX: --job-name=fuzzy-soup-4298
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add openmpi/4.1.1
 cd /mnt/orangefs/hacker/genie-lammps/tweak_lammps

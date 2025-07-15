@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-platanos-4438
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-lentil-5890
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'
 export SINGULARITY_BINDPATH='/nfs/work/td/,/lustre/lorenzic/'

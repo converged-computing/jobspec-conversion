@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name='tl_c21k_fro'
+#FLUX: --job-name=tl_c21k_fro
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64:$LD_LIBRARY_PATH'
 

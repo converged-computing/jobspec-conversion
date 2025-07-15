@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-cat-7181
-#FLUX: --priority=16
+#FLUX: --job-name=blank-chair-5105
+#FLUX: --urgency=16
 
 source ~/modules/pytorch/latest
 source ~/modules/nccl/nccl_2.9.8-1+cuda11.0_x86_64/source

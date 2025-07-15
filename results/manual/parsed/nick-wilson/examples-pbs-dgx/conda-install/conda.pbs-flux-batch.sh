@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-diablo-6524
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-poo-9091
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nick-wilson/examples-pbs-dgx/conda-install/conda.pbs

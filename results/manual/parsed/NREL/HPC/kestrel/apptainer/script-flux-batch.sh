@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="apptainer"
+#FLUX: --job-name=apptainer
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export STARTDIR='`pwd`'
 export CDIR='/nopt/nrel/apps/software/apptainer/1.1.9/examples'

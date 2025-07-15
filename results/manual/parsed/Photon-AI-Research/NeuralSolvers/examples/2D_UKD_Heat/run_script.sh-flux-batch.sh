@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-nunchucks-7443
+#FLUX: --job-name=delicious-truffle-7260
 #FLUX: -c=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.2
 module load python

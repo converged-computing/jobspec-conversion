@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bits-2940
+#FLUX: --job-name=peachy-kitty-2851
 #FLUX: -n=8
 #FLUX: --queue=amdlarge
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load minimap2/2.17
 module load samtools

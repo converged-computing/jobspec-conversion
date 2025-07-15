@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-bike-5141
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-fork-9454
+#FLUX: --urgency=16
 
 module load python/3.10.12-fasrc01
 source activate python3_env1

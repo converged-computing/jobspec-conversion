@@ -4,7 +4,7 @@
 #FLUX: -c=12
 #FLUX: --queue=ckpt
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:/mmfs1/home/emazuh/anaconda3/bin'
 

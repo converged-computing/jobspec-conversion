@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-omelette-1300
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-cattywampus-4069
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/neams-th-coe/cardinal/scripts/job_sawtooth

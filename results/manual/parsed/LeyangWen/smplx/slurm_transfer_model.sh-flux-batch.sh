@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=spgpu
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 my_job_header
 conda activate soma3.7

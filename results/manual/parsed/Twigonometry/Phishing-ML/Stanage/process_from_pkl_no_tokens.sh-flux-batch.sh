@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=gpu-h100
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='/mnt/parscratch/users/$USERNAME/cache'
 

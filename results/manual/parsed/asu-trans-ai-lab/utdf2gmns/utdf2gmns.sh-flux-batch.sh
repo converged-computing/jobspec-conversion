@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bike-4703
-#FLUX: --priority=16
+#FLUX: --job-name=red-squidward-3816
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/py3

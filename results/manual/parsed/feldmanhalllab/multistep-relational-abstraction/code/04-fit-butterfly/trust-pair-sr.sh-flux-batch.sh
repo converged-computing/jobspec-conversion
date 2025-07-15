@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-car-2138
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-truffle-7232
+#FLUX: --urgency=16
 
 workflow_name="04-fit-butterfly"
 module load R/4.2.0

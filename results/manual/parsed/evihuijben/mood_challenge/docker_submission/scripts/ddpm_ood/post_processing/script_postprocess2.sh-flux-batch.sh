@@ -2,7 +2,7 @@
 #FLUX: --job-name=mood
 #FLUX: --queue=bme.gpuresearch.q
 #FLUX: -t=3600000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/bme001/s144823/conda/etc/profile.d/conda.sh
 conda activate mood

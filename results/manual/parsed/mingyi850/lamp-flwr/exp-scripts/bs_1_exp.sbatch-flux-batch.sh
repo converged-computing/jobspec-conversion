@@ -2,7 +2,7 @@
 #FLUX: --job-name=bs_1_exp
 #FLUX: -c=8
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_HOME='/scratch/ml9027/.cache'
 export HF_DATASETS_CACHE='/scratch/ml9027/.cache'

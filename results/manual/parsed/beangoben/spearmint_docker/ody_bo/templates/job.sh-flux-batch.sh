@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-knife-0761
-#FLUX: --priority=16
+#FLUX: --job-name=phat-destiny-3540
+#FLUX: --urgency=16
 
 module load gcc/4.9.3-fasrc01 tensorflow/1.0.0-fasrc03
 source activate keras_cpu

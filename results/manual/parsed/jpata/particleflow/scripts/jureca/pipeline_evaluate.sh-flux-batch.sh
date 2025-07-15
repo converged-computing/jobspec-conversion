@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-milkshake-6269
+#FLUX: --job-name=rainbow-ricecake-0064
 #FLUX: --queue=dc-gpu
 #FLUX: -t=7199
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

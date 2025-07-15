@@ -2,7 +2,7 @@
 #FLUX: --job-name=cori_nwx_uracil_6-31gs_000020
 #FLUX: --queue=regular
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRATCH_DIR='$SCRATCH/$SLURM_JOB_NAME.$SLURM_JOB_ID'
 export PERMANENT_DIR='$SCRATCH_DIR'

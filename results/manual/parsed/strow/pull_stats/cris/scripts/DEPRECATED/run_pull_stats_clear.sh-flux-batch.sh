@@ -2,7 +2,7 @@
 #FLUX: --job-name=RUN_LR_PULL_STATS
 #FLUX: --queue=batch
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MATLAB=matlab
 MATOPT=' -nojvm -nodisplay -nosplash'

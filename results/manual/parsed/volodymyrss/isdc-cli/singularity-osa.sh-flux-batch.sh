@@ -2,7 +2,7 @@
 #FLUX: --job-name=test
 #FLUX: --queue=shared-cpu
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DISPLAY=''
 

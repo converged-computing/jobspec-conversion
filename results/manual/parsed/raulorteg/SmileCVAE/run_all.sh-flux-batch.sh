@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-cherry-0066
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-diablo-3131
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/raulorteg/SmileCVAE/run_all.sh

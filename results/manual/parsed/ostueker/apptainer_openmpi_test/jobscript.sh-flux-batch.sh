@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-motorcycle-2173
+#FLUX: --job-name=arid-peanut-5494
 #FLUX: -N=2
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PMIX_MCA_gds='^ds12'
 export OMPI_MCA_btl_vader_single_copy_mechanism='none'

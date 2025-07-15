@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cat-6466
+#FLUX: --job-name=chunky-parsnip-2599
 #FLUX: -c=9
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Loading anaconda..."
 module purge

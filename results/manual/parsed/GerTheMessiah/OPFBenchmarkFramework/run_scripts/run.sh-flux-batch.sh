@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pedo-3831
+#FLUX: --job-name=blue-muffin-1519
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=rosa.p
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 redis_password=$(uuidgen)
 export redis_password

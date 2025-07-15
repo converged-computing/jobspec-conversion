@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-sundae-9489
+#FLUX: --job-name=tart-omelette-9046
 #FLUX: -N=8
 #FLUX: -c=4
 #FLUX: --exclusive
 #FLUX: --queue=thin
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2021
 module load foss/2021a

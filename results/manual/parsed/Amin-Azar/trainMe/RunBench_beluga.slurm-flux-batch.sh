@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-rabbit-2322
+#FLUX: --job-name=goodbye-pedo-3720
 #FLUX: -c=4
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 echo "started the RunBench at $(date)"

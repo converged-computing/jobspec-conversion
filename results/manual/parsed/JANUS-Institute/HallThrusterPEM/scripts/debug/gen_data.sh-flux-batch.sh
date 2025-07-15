@@ -2,7 +2,7 @@
 #FLUX: --job-name=gen_data_debug
 #FLUX: --queue=standard
 #FLUX: -t=180
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHON_JULIAPKG_OFFLINE='yes'
 

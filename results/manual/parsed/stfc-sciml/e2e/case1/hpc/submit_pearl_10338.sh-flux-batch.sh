@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-nunchucks-2727
+#FLUX: --job-name=conspicuous-squidward-5285
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BASE_DIR='/mnt/beegfs/work/stfc/pearl008/intel-e2e-benchmark/case1'
 export RELION_IMG='$BASE_DIR/relion.sif'

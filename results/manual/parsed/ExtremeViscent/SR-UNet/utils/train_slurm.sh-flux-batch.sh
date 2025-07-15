@@ -2,7 +2,7 @@
 #FLUX: --job-name=bunet
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_PORT='11451'
 export WORLD_SIZE='8'

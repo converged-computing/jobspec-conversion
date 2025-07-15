@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-animal-1102
+#FLUX: --job-name=bumfuzzled-ricecake-0358
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MLPERF_HOST_OS='$(cat /etc/redhat-release)'
 

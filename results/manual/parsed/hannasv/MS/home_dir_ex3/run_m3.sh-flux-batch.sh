@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-peas-1055
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-muffin-8957
+#FLUX: --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

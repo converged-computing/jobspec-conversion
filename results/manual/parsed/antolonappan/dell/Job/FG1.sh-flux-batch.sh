@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-latke-6025
+#FLUX: --job-name=buttery-avocado-8979
 #FLUX: -N=32
 #FLUX: -n=500
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ini='LB_FG1.ini'
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-cupcake-7642
+#FLUX: --job-name=dinosaur-chip-7417
 #FLUX: -n=2
 #FLUX: --exclusive
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_NET_DEVICES='mlx5_0:1 # force IB only'
 

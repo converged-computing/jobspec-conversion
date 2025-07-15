@@ -2,7 +2,7 @@
 #FLUX: --job-name=run_gromacs
 #FLUX: -n=64
 #FLUX: --queue=hpc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TUT_DIR='$HOME/udocker-tutorial'
 export PATH='$HOME/udocker-1.3.10/udocker:$PATH'

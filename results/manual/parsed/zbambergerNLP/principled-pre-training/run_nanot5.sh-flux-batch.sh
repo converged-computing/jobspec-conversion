@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="nanot5_pre_training_job"
-#FLUX: --priority=16
+#FLUX: --job-name=nanot5_pre_training_job
+#FLUX: --urgency=16
 
 nvidia-smi
 cd nanoT5 || exit

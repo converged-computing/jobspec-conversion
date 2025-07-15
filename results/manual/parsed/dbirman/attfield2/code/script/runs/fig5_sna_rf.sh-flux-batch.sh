@@ -2,7 +2,7 @@
 #FLUX: --job-name=f5_sna_rf
 #FLUX: --queue=gpu
 #FLUX: -t=8100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bash_profile
 ml python/3.6.1

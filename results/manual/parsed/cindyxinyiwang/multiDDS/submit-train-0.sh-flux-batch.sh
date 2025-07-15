@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="multlin"
+#FLUX: --job-name=multlin
 #FLUX: -t=3600000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 version=single

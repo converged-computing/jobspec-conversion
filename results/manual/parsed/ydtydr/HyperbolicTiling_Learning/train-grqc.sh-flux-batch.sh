@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-platanos-7698
-#FLUX: --queue=mpi-cpus  --gres=gpu:0
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-lizard-8151
+#FLUX: --queue=mpi-cpus
+#FLUX: --urgency=16
 
 python3 embed.py \
        -dim 2 \

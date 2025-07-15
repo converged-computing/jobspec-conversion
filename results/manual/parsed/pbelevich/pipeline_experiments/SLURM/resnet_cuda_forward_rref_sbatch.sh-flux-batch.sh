@@ -4,6 +4,6 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=q2
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun --label resnet_cuda_forward_rref.sh

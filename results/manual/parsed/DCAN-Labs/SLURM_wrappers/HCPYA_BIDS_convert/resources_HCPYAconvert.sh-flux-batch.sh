@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=DEAPderiv
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd run_files.DEAPderiv
 module load singularity

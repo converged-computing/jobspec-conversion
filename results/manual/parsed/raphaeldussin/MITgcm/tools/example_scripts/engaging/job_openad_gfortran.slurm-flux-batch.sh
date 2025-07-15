@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-avocado-6371
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-noodle-2130
+#FLUX: --urgency=16
 
 export LC_ALL='en_US.iso885915'
 

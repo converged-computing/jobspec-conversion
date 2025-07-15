@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-onion-8804
+#FLUX: --job-name=lovable-lentil-9748
 #FLUX: -n=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'
 export PYTHONPATH='/work/NBD_Utilities/PELE/PELE_Softwares/pele_platform_devel/:/work/NBD_Utilities/PELE/PELE_Softwares/adaptive_types/v1.6.2_python3.6foss2018:$PYTHONPATH'

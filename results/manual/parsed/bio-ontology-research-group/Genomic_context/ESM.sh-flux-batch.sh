@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-caramel-7328
+#FLUX: --job-name=psycho-diablo-1555
 #FLUX: -c=4
 #FLUX: --queue=batch
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $OMP_NUM_THREADS
 source activate base

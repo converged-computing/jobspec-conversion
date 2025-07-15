@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-diablo-3962
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-cattywampus-9480
+#FLUX: --urgency=16
 
 module load conda bioinfo-tools snakemake &&
 snakemake -pr --jobs $SLURM_JOB_CPUS_PER_NODE\

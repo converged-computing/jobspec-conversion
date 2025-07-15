@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-sundae-9823
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-general-5698
+#FLUX: --urgency=16
 
 export XLA_PYTHON_CLIENT_PREALLOCATE='true'
 

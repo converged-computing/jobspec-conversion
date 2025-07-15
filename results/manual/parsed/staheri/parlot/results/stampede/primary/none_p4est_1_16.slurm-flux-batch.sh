@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-omelette-2138
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-cat-7873
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-install/bin'
 

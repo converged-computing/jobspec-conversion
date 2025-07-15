@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-rabbit-4237
-#FLUX: --priority=16
+#FLUX: --job-name=grated-salad-2107
+#FLUX: --urgency=16
 
 export CCTBX_NO_UUID='1'
 export DIFFBRAGG_USE_CUDA='1'

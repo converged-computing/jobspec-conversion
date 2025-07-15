@@ -2,7 +2,7 @@
 #FLUX: --job-name=e5_7_gpt2_vnla__e5_8_gpt2_vnla__e5_9_gpt2_vnla__e5_10_gpt2_vnla__e5_11_gpt2_vnla__e5_12_gpt2_vnla
 #FLUX: --queue=m3g
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/5.0.1-Python3.6-gcc5
 source activate /home/twu/da33/tong/envs/pseudoCL/

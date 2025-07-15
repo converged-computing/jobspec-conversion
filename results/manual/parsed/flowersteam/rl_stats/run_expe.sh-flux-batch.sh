@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-carrot-9165
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-leg-9829
+#FLUX: --urgency=16
 
 export EXP_INTERP='/cm/shared/apps/intel/composer_xe/python3.5/intelpython3/bin/python3' ;'
 

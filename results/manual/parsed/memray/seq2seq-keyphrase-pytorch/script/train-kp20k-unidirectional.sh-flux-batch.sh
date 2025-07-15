@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train-kp20k-unidirectional
 #FLUX: --queue=titanx
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EXP_NAME='rnn.teacher_forcing'
 export DATA_NAME='kp20k'

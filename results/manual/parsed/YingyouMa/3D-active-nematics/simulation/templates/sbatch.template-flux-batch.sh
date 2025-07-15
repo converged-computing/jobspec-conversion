@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-lentil-2853
-#FLUX: --priority=16
+#FLUX: --job-name=blank-truffle-1342
+#FLUX: --urgency=16
 
 module load cpu/0.17.3b
 module load gcc/10.2.0/npcyll4

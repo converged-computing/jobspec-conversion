@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-rabbit-4465
-#FLUX: --priority=16
+#FLUX: --job-name=faux-hope-6354
+#FLUX: --urgency=16
 
 export I_MPI_FABRICS='shm:tmi'
 

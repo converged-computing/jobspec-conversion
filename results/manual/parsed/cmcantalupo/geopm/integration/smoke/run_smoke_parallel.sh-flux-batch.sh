@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-fudge-5156
-#FLUX: --priority=16
+#FLUX: --job-name=milky-itch-6013
+#FLUX: --urgency=16
 
 source smoke_env.sh
 APPS_2NODE="dgemm_tiny dgemm nasft nekbone hpcg pennant hpl_mkl hpl_netlib"

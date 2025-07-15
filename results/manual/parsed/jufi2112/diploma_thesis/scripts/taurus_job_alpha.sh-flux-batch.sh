@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-pancake-1470
+#FLUX: --job-name=scruptious-animal-6273
 #FLUX: --queue=alpha
 #FLUX: -t=216000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/scratch/ws/1/s8732099-da/git/gaea_release/AutoDL-Projects'
 

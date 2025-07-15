@@ -2,7 +2,7 @@
 #FLUX: --job-name=Daytona_dengue
 #FLUX: -c=25
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load apptainer
 bash ./kraken2_viral.sh

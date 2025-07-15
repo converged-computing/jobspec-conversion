@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hope-2103
+#FLUX: --job-name=lovely-frito-4029
 #FLUX: -c=8
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'
 

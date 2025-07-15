@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pastry-4062
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-egg-3054
+#FLUX: --urgency=16
 
 echo "[...] Environment setup Cartesius"
 virtualenv_folder="hdisgpu"

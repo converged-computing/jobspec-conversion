@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=uno-gpu-rivanna
 #FLUX: -t=2400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export USER_SCRATCH='/scratch/$USER'
 export PROJECT_DIR='/project/bii_dsc_community/$USER/uno'

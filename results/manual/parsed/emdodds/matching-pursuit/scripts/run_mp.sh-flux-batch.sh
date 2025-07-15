@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cinnamonbun-0367
+#FLUX: --job-name=hanky-arm-7528
 #FLUX: --queue=cortex
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODULEPATH='/global/software/sl-6.x64_64/modfiles/apps:$MODULEPATH'
 

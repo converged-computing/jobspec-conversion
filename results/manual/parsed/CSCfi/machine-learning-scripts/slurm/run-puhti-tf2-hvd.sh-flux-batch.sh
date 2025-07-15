@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-bits-8246
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-nalgas-9322
+#FLUX: --urgency=16
 
 module load tensorflow
 module list

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-muffin-7239
-#FLUX: --priority=16
+#FLUX: --job-name=milky-destiny-8266
+#FLUX: --urgency=16
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'
 export HF_DATASETS_OFFLINE='1'

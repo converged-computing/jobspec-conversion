@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-lettuce-1944
+#FLUX: --job-name=peachy-house-1454
 #FLUX: --queue=gpu
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo STARTING AT $(date)
 echo "Job run at: $(hostname)"

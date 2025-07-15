@@ -2,7 +2,7 @@
 #FLUX: --job-name=test_job_array
 #FLUX: --queue=ai,tnt
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load GCC/10.3.0
 module load CMake/3.20.1

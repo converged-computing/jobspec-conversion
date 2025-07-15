@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nn_boulder # Note that %A and %a are the place holders for job id and array id
-#FLUX: --priority=16
+#FLUX: --job-name=nn_boulder
+#FLUX: --urgency=16
 
 export GHZHANG17_TASK_ID='$SLURM_ARRAY_TASK_ID'
 export GHZHANG17_JOB_ID='$SLURM_JOB_ID'

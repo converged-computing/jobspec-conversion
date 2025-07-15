@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-kerfuffle-5459
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-leg-2379
+#FLUX: --urgency=16
 
 DB_FOLDER='ninja-battles'
 ID=$SLURM_JOB_NAME

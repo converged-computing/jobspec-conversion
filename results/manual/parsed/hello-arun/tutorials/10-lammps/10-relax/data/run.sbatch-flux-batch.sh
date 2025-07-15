@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="__jobName"
+#FLUX: --job-name=__jobName
 #FLUX: -N=4
 #FLUX: --queue=batch
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 machine="IBEX" # HPC or IBEX
 if [[ $machine == "IBEX" ]]; then

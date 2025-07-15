@@ -2,7 +2,7 @@
 #FLUX: --job-name=earthquake-2
 #FLUX: --queue=bii-gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 echo "SLURM_CPUS_ON_NODE: $SLURM_CPUS_ON_NODE"

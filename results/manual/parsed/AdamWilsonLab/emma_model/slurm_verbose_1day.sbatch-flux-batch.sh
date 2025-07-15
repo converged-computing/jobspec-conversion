@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="EMMA model slurm_verbose_1day.sbatch"
+#FLUX: --job-name=EMMA model slurm_verbose_1day.sbatch
 #FLUX: --queue=adamw
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
   # Specify directories needed and sif file
   echo "exporting directories"

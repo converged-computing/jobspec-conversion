@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-onion-7379
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-mango-6595
+#FLUX: --urgency=16
 
 source activate dac
 steps=1000000

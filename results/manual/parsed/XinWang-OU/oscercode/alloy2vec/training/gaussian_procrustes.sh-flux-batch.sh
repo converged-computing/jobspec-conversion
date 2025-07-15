@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-malarkey-9031
+#FLUX: --job-name=muffled-avocado-2435
 #FLUX: --queue=cm3atou
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python/3.8.6-GCCcore-10.2.0
 source /home/xinwang/my_python_envs/python38/bin/activate

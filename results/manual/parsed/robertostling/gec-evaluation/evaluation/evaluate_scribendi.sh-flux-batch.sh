@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cat-2630
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-punk-2662
+#FLUX: --urgency=16
 
 export HF_DATASETS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'
 export TRANSFORMERS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'

@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=g40
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='info'
 export PYTHONFAULTHANDLER='1'

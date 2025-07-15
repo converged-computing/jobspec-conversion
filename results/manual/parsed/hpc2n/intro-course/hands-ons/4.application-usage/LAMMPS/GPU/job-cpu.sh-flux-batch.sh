@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cherry-6934
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-destiny-2284
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='spread '

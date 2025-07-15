@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-hope-4352
+#FLUX: --job-name=gassy-buttface-2643
 #FLUX: -c=8
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RVER='4.2.2-GCC-11.2.0'
 export R_LIBS_USER='$HOME/R/$RVER'

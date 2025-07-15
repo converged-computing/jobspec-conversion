@@ -2,7 +2,7 @@
 #FLUX: --job-name=alphavr
 #FLUX: -n=10
 #FLUX: -t=519120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ulimit -n 4096
 git status

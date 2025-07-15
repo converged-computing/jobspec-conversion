@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-sundae-3140
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-bicycle-3541
+#FLUX: --urgency=16
 
 export PATH='$HOME/miniconda/bin:$PATH'
 

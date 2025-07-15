@@ -2,7 +2,7 @@
 #FLUX: --job-name=md
 #FLUX: -N=3
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gromacs/openmpi/intel/2020.4
 init=step3_input

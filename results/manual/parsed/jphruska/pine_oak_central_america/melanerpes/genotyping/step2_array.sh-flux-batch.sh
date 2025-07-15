@@ -3,7 +3,7 @@
 #FLUX: -n=8
 #FLUX: --queue=quanah
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='/lustre/work/johruska/singularity-cachedir'
 

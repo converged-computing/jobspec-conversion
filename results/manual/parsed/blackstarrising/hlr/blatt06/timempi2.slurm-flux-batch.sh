@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-poo-5081
+#FLUX: --job-name=carnivorous-squidward-6642
 #FLUX: -N=3
 #FLUX: -n=24
 #FLUX: --queue=west
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=defq
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 LDRB_DIR="${HOME}/master/cardiac-fibers"
 DATA_DIR="/global/D1/homes/iverh/data/meshes/martinez-navarro-etal/mesh/mfem"

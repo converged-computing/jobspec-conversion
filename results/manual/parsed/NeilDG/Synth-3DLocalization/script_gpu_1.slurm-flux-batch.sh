@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-plant-0393
+#FLUX: --job-name=loopy-rabbit-8316
 #FLUX: -c=6
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NETWORK_VERSION=$1
 ITERATION=$2

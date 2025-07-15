@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-snack-5282
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-cupcake-7677
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Quantisan/WholeCell/simulation/job.reindexing.sh.tmpl

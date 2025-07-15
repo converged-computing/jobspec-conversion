@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=itrust-neural_network
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dataset="$1"
 source ../.experiments_env/bin/activate

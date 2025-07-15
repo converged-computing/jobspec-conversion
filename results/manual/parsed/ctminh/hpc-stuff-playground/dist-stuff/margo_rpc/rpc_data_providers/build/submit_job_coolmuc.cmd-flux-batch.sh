@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-kitty-8716
+#FLUX: --job-name=milky-soup-8529
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module use ~/.modules

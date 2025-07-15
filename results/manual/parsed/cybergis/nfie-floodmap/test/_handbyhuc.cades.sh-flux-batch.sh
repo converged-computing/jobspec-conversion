@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-mango-0914
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-parsnip-5162
+#FLUX: --urgency=16
 
 source $HOME/sw/softenv
 m=cades

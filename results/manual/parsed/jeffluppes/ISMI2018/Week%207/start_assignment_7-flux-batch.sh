@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-kerfuffle-0914
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-carrot-4569
+#FLUX: --urgency=16
 
 export PATH='~/.local/bin:$PATH'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-sundae-2426
+#FLUX: --job-name=sticky-itch-1116
 #FLUX: -c=16
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB__SERVICE_WAIT='300'
 export TRANSFORMERS_CACHE='/cluster/scratch/oovcharenko/dsl_hate_speech/cache/'

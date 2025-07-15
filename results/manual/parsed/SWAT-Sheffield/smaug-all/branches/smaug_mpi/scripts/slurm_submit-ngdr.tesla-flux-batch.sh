@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-egg-5207
+#FLUX: --job-name=persnickety-animal-6599
 #FLUX: -N=2
 #FLUX: -n=4
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MV2_RAIL_SHARING_POLICY='FIXED_MAPPING'
 export MV2_PROCESS_TO_RAIL_MAPPING='mlx5_0:mlx5_1'

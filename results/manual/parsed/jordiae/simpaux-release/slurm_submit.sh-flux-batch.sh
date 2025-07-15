@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pancake-3215
+#FLUX: --job-name=dinosaur-blackbean-5177
 #FLUX: -c=4
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

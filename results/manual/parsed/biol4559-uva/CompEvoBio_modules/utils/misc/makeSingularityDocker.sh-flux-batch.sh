@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-avocado-4832
-#FLUX: --priority=16
+#FLUX: --job-name=red-frito-0972
+#FLUX: --urgency=16
 
 module load singularity
 cd /project/biol4559-aob2x/singularity

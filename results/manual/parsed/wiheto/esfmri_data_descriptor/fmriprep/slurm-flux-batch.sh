@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-hobbit-5525
+#FLUX: --job-name=blank-lamp-0734
 #FLUX: -c=16
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_FS_LICENSE='$HOME/freesurfer/license.txt'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'

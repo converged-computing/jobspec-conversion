@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-hobbit-3406
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-parsnip-2432
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/benchmarks/lassen/mvapich/test_memcpy_mult

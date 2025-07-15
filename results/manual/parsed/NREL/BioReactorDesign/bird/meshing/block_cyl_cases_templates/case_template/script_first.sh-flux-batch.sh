@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bubbleCol
 #FLUX: -t=86340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 source /projects/gas2fuels/load_OF9_pbe

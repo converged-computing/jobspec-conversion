@@ -3,7 +3,7 @@
 #FLUX: -c=24
 #FLUX: --queue=SAN32M512_L
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load intel/19.0.4.243

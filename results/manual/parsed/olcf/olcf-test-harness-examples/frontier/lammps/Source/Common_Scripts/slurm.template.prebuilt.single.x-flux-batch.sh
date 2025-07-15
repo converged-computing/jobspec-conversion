@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=__job_name__
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/tmp/$(basename ${BUILD_DIR}/pre-built/${EXECUTABLE})_libs:`pkg-config --variable=libdir libfabric`'
 

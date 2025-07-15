@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cupcake-7549
+#FLUX: --job-name=joyous-poo-0511
 #FLUX: -t=172740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATA_DIR='/home/ba63/gec-release/data/ged/qalb14/w_camelira/binary'
 export BERT_MODEL='/scratch/ba63/BERT_models/bert-base-arabic-camelbert-msa'

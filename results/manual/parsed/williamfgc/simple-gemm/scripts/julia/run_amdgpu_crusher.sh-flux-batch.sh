@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-sundae-6013
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-pancake-6381
+#FLUX: --urgency=16
 
 export JULIA_MPIEXEC='srun'
 export JULIA_AMDGPU_DISABLE_ARTIFACTS='1'

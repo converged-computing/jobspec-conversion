@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-milkshake-1789
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-ricecake-9393
+#FLUX: --urgency=16
 
 export ALPHAFOLD_WORK='/gs/gsfs0/users/gstefan/work/alphafold'
 

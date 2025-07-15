@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-parrot-2825
+#FLUX: --job-name=quirky-leopard-0741
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load mpich/ge/gcc/64/3.2
 module load cuda10.0/toolkit/10.0.130

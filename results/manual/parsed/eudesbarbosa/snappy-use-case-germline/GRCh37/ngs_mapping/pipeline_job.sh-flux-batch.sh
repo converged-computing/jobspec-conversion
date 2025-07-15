@@ -2,7 +2,7 @@
 #FLUX: --job-name=ngs_mapping_e2e_test
 #FLUX: --queue=medium
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='${HOME}/scratch/tmp'
 

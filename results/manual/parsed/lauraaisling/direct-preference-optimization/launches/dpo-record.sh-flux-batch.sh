@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pythia
-#FLUX: --queue=a40x ## the partitions to run in (comma seperated)
-#FLUX: --priority=16
+#FLUX: --queue=a40x
+#FLUX: --urgency=16
 
 export HYDRA_FULL_ERROR='1'
 

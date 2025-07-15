@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-frito-1623
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-lizard-9069
+#FLUX: --urgency=16
 
 pwd
 date

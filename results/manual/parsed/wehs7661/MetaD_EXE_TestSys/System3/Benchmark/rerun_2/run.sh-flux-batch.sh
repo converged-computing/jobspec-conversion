@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=rerun_2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/wehs7661/src/plumed2/sourceme.sh
 source /home/wehs7661/pkgs/gromacs/2020.2/bin/GMXRC

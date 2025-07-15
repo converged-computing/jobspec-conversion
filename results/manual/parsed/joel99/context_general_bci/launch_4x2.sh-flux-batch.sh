@@ -2,7 +2,7 @@
 #FLUX: --job-name=ndt2_4x2
 #FLUX: -N=4
 #FLUX: -c=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='1'
 export SLURM_NTASKS_PER_NODE='2'

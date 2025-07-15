@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-omelette-3622
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-rabbit-1064
+#FLUX: --urgency=16
 
 export SBATCH_CONSTRAINT='zen3&2xA100'
 export SBATCH_ACCOUNT='$SLURM_JOB_ACCOUNT'

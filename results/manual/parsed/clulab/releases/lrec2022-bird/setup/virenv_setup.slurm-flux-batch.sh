@@ -2,7 +2,7 @@
 #FLUX: --job-name=virenv_setup
 #FLUX: --queue=standard
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 rm -f -r ~/bird/bird_virenv
 module load python/3.8/3.8.2

@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=v100
 #FLUX: -t=100800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 config_path=$1
 ext3_path=/scratch/$USER/py39/overlay-25GB-500K.ext3

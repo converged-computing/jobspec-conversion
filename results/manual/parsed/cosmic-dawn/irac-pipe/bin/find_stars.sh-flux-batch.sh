@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-plant-5827
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-pedo-3003
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cosmic-dawn/irac-pipe/bin/find_stars.sh

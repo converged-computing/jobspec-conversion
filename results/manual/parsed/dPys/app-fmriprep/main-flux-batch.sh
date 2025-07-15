@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-soup-8423
-#FLUX: --priority=16
+#FLUX: --job-name=blue-noodle-2236
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dPys/app-fmriprep/main

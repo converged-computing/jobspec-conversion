@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-nunchucks-4665
+#FLUX: --job-name=dirty-itch-8852
 #FLUX: --queue=small
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.2
 module load python/anaconda3

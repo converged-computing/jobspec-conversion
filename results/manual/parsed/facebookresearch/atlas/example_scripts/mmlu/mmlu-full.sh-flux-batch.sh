@@ -4,7 +4,7 @@
 #FLUX: -c=10
 #FLUX: --queue=learnlab
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 size=xl
 DATA_DIR='/checkpoint/plewis/atlas_opensourcing/'

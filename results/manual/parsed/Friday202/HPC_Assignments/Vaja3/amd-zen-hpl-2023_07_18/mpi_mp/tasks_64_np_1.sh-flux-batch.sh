@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=64_1
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_TLS='self, tcp'
 

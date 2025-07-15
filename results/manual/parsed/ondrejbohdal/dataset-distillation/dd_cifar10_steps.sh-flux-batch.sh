@@ -2,7 +2,7 @@
 #FLUX: --job-name=dd
 #FLUX: --queue=General_Usage
 #FLUX: -t=255600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='/opt/cuda-10.0.130/'
 export CUDNN_HOME='/opt/cuDNN-7.6.0.64_10.0/'

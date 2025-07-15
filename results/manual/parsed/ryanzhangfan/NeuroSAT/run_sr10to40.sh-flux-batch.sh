@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-chair-2179
-#FLUX: --priority=16
+#FLUX: --job-name=milky-cupcake-3721
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ryanzhangfan/NeuroSAT/run_sr10to40.sh

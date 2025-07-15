@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-despacito-1525
+#FLUX: --job-name=tart-parsnip-5964
 #FLUX: -c=4
 #FLUX: --queue=long
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MODEL=(cifar_vgg_16_64 cifar_resnet_20_64)
 DATASET=(svhn cifar100)

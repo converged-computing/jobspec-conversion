@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-knife-7056
-#FLUX: --priority=16
+#FLUX: --job-name=faux-frito-8728
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yahoochen97/Bayesian-Causal-Inference/onerun

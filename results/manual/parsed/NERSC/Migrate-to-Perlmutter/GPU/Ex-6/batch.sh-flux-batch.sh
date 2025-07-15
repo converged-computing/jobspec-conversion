@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-animal-6415
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-itch-1916
+#FLUX: --urgency=16
 
 module load PrgEnv-nvidia
 make clean ; make

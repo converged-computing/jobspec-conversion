@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bike-3606
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-plant-8890
+#FLUX: --urgency=16
 
 export SBATCH_CONSTRAINT='broadwell'
 export SBATCH_ACCOUNT='$SLURM_JOB_ACCOUNT'

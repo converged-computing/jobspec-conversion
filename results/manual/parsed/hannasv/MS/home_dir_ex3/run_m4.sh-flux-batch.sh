@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parsnip-5806
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-arm-5556
+#FLUX: --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

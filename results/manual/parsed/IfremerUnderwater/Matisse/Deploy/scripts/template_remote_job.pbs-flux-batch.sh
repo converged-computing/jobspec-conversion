@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-rabbit-2885
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-hope-3246
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/IfremerUnderwater/Matisse/Deploy/scripts/template_remote_job.pbs

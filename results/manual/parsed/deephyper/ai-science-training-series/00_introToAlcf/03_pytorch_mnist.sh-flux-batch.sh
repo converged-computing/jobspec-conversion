@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-muffin-9307
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-itch-7697
+#FLUX: --urgency=16
 

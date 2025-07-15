@@ -2,7 +2,7 @@
 #FLUX: --job-name=run_make_deltas_v${V_CODE_MAJOR}.${V_CODE_MINOR}
 #FLUX: --queue=debug
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'
 

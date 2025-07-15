@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-citrus-7072
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-nalgas-1007
+#FLUX: -t=28800
+#FLUX: --urgency=16
 
 module load bwa
 module load htslib

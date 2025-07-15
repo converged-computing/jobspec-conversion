@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-destiny-9439
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-citrus-9036
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='7'
 

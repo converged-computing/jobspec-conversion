@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-mango-8699
+#FLUX: --job-name=pusheena-cattywampus-2117
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 

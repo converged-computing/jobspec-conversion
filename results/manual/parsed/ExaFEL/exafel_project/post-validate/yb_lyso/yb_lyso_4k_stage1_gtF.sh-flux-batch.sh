@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-parsnip-2781
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-noodle-3251
+#FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/yb_lyso/$SLURM_JOB_ID'
 export MTZ_PATH='$SCRATCH/yb_lyso/${1}/ground_truth.mtz'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="fastqc"
+#FLUX: --job-name=fastqc
 #FLUX: --queue=work
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export library_run='${myarray["$SLURM_ARRAY_TASK_ID"]}'
 

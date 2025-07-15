@@ -3,7 +3,7 @@
 #FLUX: -n=6
 #FLUX: --queue=standard
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load julia
 PROJECT_PATH=${HOME}/SPMD/src/julia/

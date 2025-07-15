@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-butter-4422
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-latke-6038
+#FLUX: --urgency=16
 
 module purge && module load  esslurm gcc/7.3.0 python3 cuda/10.1.243
 pip install --user tensorflow

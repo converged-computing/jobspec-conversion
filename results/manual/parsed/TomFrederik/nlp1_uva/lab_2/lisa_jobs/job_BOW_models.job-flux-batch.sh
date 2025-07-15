@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="tom_bow"
+#FLUX: --job-name=tom_bow
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared_course
 #FLUX: -t=6300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load 2019

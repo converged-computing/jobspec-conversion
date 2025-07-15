@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-malarkey-6169
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-peas-9800
+#FLUX: --urgency=16
 
 export LD_PRELOAD='/usr/lib64/libcrypto.so /usr/lib64/libssh.so.4 /usr/lib64/libssl.so.1.1'
 export ROCM_HOME='/opt/rocm-5.4.0'

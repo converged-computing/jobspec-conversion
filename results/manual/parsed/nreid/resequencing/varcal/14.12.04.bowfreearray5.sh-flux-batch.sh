@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-house-2059
+#FLUX: --job-name=frigid-peas-7641
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load freebayes/0.9.14-15-gc6f49c0
 	#another script generates jobs for scaffolds 0-9870

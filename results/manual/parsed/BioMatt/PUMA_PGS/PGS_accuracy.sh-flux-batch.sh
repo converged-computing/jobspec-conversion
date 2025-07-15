@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-underoos-4013
+#FLUX: --job-name=sticky-lentil-5700
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load StdEnv/2020 gcc/9.3.0
 module load gemma/0.98.3

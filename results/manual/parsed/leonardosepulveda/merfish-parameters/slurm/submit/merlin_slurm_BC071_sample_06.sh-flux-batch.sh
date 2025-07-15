@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-squidward-5327
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-buttface-9733
+#FLUX: --urgency=16
 
 date +'Starting at %R.'
 source centos7-modules.sh

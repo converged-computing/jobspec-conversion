@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lamp-7800
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-earthworm-4075
+#FLUX: --urgency=16
 
 find . -name "*.svg" ! -path "*.git*" ! -path "*.snakemake*" ! -name "rulegraph.svg" ! -name "dag.svg" | while read svg; do
     png=$(echo $svg | sed -e 's/.svg$/.png/g')

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-cattywampus-8045
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-arm-0402
+#FLUX: --urgency=16
 
 source activate sam
 python evaluate_amg.py -c /scratch/usr/nimanwai/micro-sam/checkpoints/vit_b/livecell_sam/best.pt \

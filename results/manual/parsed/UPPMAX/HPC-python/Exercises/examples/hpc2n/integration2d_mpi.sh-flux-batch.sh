@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-bits-7720
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-lemur-6174
+#FLUX: --urgency=16
 
 MYPATH=/proj/nobackup/python-hpc/<mydir-name>/HPC-python/Exercises/examples/programs/
 ml purge > /dev/null 2>&1

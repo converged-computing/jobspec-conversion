@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=cnu
 #FLUX: -t=691200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 source ~/.initConda.sh

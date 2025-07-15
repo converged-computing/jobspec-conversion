@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-animal-6762
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-ricecake-8242
+#FLUX: --urgency=16
 
 set +u
 module load gcc

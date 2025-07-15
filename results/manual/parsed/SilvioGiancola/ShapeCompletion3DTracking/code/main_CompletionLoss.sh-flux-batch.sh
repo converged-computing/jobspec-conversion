@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-punk-8568
+#FLUX: --job-name=buttery-leader-4120
 #FLUX: -c=9
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Loading anaconda..."
 module purge

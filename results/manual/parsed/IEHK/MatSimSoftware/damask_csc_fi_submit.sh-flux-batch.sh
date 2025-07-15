@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-peas-8771
+#FLUX: --job-name=expressive-arm-6354
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DAMASK_NUM_THREADS='1'
 

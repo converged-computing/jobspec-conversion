@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-hope-1607
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-lentil-0414
+#FLUX: --urgency=16
 
 python train.py \
 --name event_cnnlstm \

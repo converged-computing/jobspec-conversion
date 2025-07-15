@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cupcake-2780
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-frito-8400
+#FLUX: -c=30
+#FLUX: --urgency=16
 
 set -e
 cd ~
@@ -71,14 +72,6 @@ then
     mkdir ~/repro/distributed
     echo '
     #!/bin/bash
-    #SBATCH -p hpc
-    #SBATCH -N 2
-    #SBATCH --ntasks-per-node=4
-    #SBATCH --cpus-per-task=30
-    #SBATCH -t 00:30:00
-    #SBATCH -J osu
-    #SBATCH -o osu.%j.%N.out
-    #SBATCH -e osu.%j.%N.err
     ### Conda
     . ~/miniconda3/etc/profile.d/conda.sh
     conda activate repro

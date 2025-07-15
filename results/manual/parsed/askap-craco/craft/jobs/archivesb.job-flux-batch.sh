@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-leg-8578
+#FLUX: --job-name=blue-noodle-2594
 #FLUX: -n=4
 #FLUX: --queue=copyq
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 export OMP_NUM_THREADS='24'

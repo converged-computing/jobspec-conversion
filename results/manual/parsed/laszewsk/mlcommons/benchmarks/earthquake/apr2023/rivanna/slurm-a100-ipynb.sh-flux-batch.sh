@@ -2,7 +2,7 @@
 #FLUX: --job-name=earthquake-a100
 #FLUX: --queue=bii-gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "###############################################################"
 echo "# ENVIRONMENT                                                 #"

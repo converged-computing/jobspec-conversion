@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-cat-0076
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-bike-4047
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate r-4.0.3

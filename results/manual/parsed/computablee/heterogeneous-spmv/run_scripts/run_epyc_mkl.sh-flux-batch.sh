@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-cinnamonbun-4929
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-kitty-4411
+#FLUX: --urgency=16
 
 cp -r $PROJECT/matrices $RAMDISK
 module load intel/20.4

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-buttface-2186
+#FLUX: --job-name=hello-puppy-9888
 #FLUX: -c=2
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity/3.8
 module load gcc/9.3.0

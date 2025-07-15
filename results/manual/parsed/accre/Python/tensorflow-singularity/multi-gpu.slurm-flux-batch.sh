@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lizard-1143
+#FLUX: --job-name=cowy-train-5505
 #FLUX: --queue=pascal
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load GCC Singularity git
 git clone https://github.com/tensorflow/models.git

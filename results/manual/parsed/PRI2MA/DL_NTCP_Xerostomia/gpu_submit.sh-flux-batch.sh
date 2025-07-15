@@ -2,7 +2,7 @@
 #FLUX: --job-name=Xerostomia
 #FLUX: --queue=gpu
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load fosscuda/2020b

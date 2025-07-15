@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-rabbit-6573
+#FLUX: --job-name=crunchy-punk-5924
 #FLUX: -n=32
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 N_TASKS=31
 PROJECT_DIR=$HOME/dev/DCCR

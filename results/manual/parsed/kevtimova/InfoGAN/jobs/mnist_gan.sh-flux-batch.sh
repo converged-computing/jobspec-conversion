@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-knife-4296
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-noodle-1597
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kevtimova/InfoGAN/jobs/mnist_gan.sh

@@ -2,7 +2,7 @@
 #FLUX: --job-name=lin-rgb
 #FLUX: -c=4
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/mtoering/miniconda3/etc/profile.d/conda.sh
 conda activate vicc # e.g. use your own conda env

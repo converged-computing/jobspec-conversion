@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pedo-2620
+#FLUX: --job-name=blue-cat-6385
 #FLUX: -c=50
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RUST_BACKTRACE='1'
 export DATA='data_split/${MODEL_NAME}.hdf5'

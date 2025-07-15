@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=int_medium
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='\$SLURM_CPUS_PER_TASK'
 

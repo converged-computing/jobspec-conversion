@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=frac_train
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load GCC/10.3.0  OpenMPI/4.1.1

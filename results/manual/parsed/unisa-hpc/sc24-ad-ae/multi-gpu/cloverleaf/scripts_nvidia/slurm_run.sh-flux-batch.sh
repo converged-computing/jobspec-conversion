@@ -1,8 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=cloverleaf_ws_test
 #FLUX: --exclusive
+#FLUX: --queue=
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 num_gpus=$1
 nodes=$2

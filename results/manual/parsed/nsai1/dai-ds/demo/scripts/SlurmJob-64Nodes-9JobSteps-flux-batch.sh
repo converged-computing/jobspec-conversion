@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-truffle-8984
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-latke-0978
+#FLUX: --urgency=16
 
 srun /opt/ucs/demo/workloads/AMG 1
 srun /opt/ucs/demo/workloads/dgemm 2

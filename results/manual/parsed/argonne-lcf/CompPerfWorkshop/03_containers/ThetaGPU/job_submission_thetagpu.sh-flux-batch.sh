@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-squidward-7470
-#FLUX: --priority=16
+#FLUX: --job-name=hello-arm-1137
+#FLUX: --urgency=16
 

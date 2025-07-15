@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="bbbblast"
+#FLUX: --job-name=bbbblast
 #FLUX: --queue=ccm_queue
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NO_BONNIE=1
 NO_STAGE=1

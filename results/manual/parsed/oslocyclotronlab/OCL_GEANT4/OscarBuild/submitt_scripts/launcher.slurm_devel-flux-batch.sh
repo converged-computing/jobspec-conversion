@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-muffin-3250
+#FLUX: --job-name=quirky-bike-9073
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LAUNCHER_DIR='/cluster/home/fabiobz/launcher'
 export LAUNCHER_RMI='SLURM'

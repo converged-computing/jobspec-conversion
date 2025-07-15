@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-leader-6839
-#FLUX: --priority=16
+#FLUX: --job-name=hairy-lemur-9559
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.1

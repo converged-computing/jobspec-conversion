@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-poo-5491
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-lamp-0134
+#FLUX: --urgency=16
 
 source ~/.bash_profile
 usage(){

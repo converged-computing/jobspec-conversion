@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-arm-4298
-#FLUX: --priority=16
+#FLUX: --job-name=confused-platanos-4115
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 source activate MDAnalysis

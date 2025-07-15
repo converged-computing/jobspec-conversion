@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-lizard-9611
+#FLUX: --job-name=stanky-punk-7733
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /users/afengler/.bashrc
 module load cudnn/8.1.0

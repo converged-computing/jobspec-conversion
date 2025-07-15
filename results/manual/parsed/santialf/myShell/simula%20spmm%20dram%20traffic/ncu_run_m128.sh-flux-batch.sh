@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-chair-9913
-#FLUX: --priority=16
+#FLUX: --job-name=phat-parrot-2576
+#FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pedo-7634
+#FLUX: --job-name=gassy-pastry-3785
 #FLUX: -c=5
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MCR_CACHE_ROOT='$TMPDIR'
 

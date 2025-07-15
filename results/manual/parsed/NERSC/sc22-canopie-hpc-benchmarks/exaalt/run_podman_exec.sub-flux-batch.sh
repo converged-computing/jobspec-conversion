@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-hippo-9738
+#FLUX: --job-name=carnivorous-peas-9551
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IMAGE='registry.nersc.gov/das/exaalt:benchmark'
 export PODMAN_FLAGS='--env 'MPICH_GPU_SUPPORT_ENABLED=1' --env 'LD_PRELOAD=/opt/udiImage/modules/mpich/libmpi_gtl_cuda.so.0' --env 'OMP_NUM_THREADS' --env 'LD_LIBRARY_PATH=/opt/LAMMPS_INSTALL/lib64:/opt/udiImage/modules/mpich:/opt/udiImage/modules/mpich/dep' -v /tmp/:/run/nvidia-persistenced --workdir /opt/workdir -v $benchmark_dir/$jobdir:/opt/workdir'

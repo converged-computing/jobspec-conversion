@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=opt_ff
 #FLUX: --queue=cpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 n_job_per_run=4  # Adjust this for the number of jobs per run
 cd ~/worms/python/rmsKit

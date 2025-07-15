@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=phat-chair-7991
-#FLUX: --priority=16
+#FLUX: --job-name=grated-poo-2020
+#FLUX: --urgency=16
 

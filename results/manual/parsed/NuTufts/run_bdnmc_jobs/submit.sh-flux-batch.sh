@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bdnmc
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONTAINER=/cluster/tufts/wongjiradlab/twongj01/coherent/coherent_bdnmc_20200302.simg
 WORKDIR=/cluster/tufts/wongjiradlab/twongj01/coherent/run_bdnmc_jobs

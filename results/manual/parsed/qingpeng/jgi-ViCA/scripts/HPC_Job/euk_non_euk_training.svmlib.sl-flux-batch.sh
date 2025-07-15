@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-fork-9813
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-mango-4159
+#FLUX: --urgency=16
 
 module load spark/2.1.1
 start-all.sh

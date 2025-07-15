@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bike-0041
+#FLUX: --job-name=loopy-muffin-4651
 #FLUX: -n=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Scrpt Start"
 echo "Core Number:"

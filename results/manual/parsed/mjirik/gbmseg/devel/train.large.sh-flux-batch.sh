@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-egg-9880
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-knife-3713
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mjirik/gbmseg/devel/train.large.sh

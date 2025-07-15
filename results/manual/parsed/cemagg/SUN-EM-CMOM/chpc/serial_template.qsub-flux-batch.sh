@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-destiny-0657
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-egg-2806
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cemagg/SUN-EM-CMOM/chpc/serial_template.qsub

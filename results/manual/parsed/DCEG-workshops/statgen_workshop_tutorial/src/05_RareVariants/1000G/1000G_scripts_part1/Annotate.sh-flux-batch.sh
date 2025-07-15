@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-peanut-0680
+#FLUX: --job-name=fat-hobbit-1257
 #FLUX: -t=4320
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/R-4.1.0-MKL'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cinnamonbun-8909
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-milkshake-7489
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1'
 

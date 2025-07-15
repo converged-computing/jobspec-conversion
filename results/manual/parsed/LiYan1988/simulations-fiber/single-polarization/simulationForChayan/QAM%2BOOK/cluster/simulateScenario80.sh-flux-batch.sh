@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-punk-9795
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-banana-9609
+#FLUX: --urgency=16
 
 module load matlab
 cp  -r $SLURM_SUBMIT_DIR/* $TMPDIR

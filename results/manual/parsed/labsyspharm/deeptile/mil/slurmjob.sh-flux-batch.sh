@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ACAEtest
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FP='jobresult_$SLURM_JOB_ID'
 

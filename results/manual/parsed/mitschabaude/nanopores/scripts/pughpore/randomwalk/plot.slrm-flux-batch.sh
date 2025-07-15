@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-pancake-7783
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-pastry-7870
+#FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/cm/shared/apps/slurm/current/lib/libpmi.so'
 

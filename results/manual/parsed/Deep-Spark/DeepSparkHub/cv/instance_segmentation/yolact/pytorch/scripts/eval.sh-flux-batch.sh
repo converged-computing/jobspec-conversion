@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-puppy-0895
-#FLUX: --priority=16
+#FLUX: --job-name=hello-underoos-0770
+#FLUX: --urgency=16
 
 module load python/3.6.4_gcc5_np1.14.5
 module load cuda/9.0

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-staircase-2191
+#FLUX: --job-name=buttery-carrot-4716
 #FLUX: -c=64
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date;hostname;pwd
 module load singularity

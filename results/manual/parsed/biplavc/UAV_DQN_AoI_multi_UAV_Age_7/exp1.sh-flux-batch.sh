@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-milkshake-4897
-#FLUX: --priority=16
+#FLUX: --job-name=blank-taco-5472
+#FLUX: --urgency=16
 
 module purge
 module load cuda/10.1.168

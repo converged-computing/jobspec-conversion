@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-fork-8809
+#FLUX: --job-name=peachy-leopard-3493
 #FLUX: -c=2
 #FLUX: --queue=work
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='./work'
 

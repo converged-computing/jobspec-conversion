@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=defq
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/'
 export KMP_AFFINITY='verbose,compact'

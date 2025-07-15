@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-peanut-butter-3771
+#FLUX: --job-name=carnivorous-bike-2541
 #FLUX: -t=37380
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='/home/domenic/projects/def-hsajjad/domenic'
 export HF_DATASETS_OFFLINE='1 '

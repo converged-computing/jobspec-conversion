@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name="charliecloud_mpi_CERN_impi_768_opt_intel03_mpi"
+#FLUX: --job-name=charliecloud_mpi_CERN_impi_768_opt_intel03_mpi
 #FLUX: -N=768
 #FLUX: -n=3072
 #FLUX: -c=12
 #FLUX: --queue=general
 #FLUX: -t=16200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KMP_SETTINGS='1'
 export KMP_AFFINITY='granularity=fine,compact,1,0'

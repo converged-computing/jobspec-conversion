@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-pedo-0424
-#FLUX: --priority=16
+#FLUX: --job-name=astute-lettuce-4818
+#FLUX: --urgency=16
 
 module list
 pwd

@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 image="docker://pawsey/mpich-base:3.1.4_ubuntu18.04"
 osu_dir="/usr/local/libexec/osu-micro-benchmarks/mpi"

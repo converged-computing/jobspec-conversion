@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-frito-3771
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-fork-7932
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

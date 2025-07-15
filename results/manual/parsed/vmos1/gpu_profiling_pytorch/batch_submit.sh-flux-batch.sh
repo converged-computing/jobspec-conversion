@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --gpus-per-task=1
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "--start date" `date` `date +%s`
 echo '--hostname ' $HOSTNAME

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-diablo-5366
-#FLUX: --priority=16
+#FLUX: --job-name=placid-onion-4257
+#FLUX: --urgency=16
 
 echo "[...] Environment setup Cartesius"
 virtualenv_folder="hdis"

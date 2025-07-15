@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-despacito-5056
-#FLUX: --priority=16
+#FLUX: --job-name=milky-fudge-9651
+#FLUX: --urgency=16
 
 cellsdir=~/dpm
 srcdir=$cellsdir/src

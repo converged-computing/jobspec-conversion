@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-despacito-8481
+#FLUX: --job-name=blue-caramel-9729
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda
 module load nccl

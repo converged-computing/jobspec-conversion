@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leopard-9571
+#FLUX: --job-name=astute-banana-3541
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dataset=reuters
 cuda_on=$true

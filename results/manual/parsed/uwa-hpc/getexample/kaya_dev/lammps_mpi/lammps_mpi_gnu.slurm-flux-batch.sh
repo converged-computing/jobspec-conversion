@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=workq
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module swap PrgEnv-cray PrgEnv-gnu
 module load lammps

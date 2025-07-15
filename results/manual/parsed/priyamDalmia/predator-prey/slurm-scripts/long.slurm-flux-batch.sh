@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-platanos-6060
+#FLUX: --job-name=cowy-kitty-7322
 #FLUX: --queue=longgpgpu
 #FLUX: -t=2592000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/8.3.0 fosscuda/2019b

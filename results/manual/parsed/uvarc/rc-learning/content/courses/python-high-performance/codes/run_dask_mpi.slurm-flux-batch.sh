@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-nunchucks-1806
+#FLUX: --job-name=rainbow-truffle-6736
 #FLUX: -n=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_mpi_warn_on_fork='0'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-butter-9119
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-noodle-3247
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gummz/cell/shell/plot_loops.sh

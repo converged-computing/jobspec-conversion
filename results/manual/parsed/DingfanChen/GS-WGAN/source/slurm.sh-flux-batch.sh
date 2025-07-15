@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-itch-5889
-#FLUX: --priority=16
+#FLUX: --job-name=grated-cherry-1119
+#FLUX: --urgency=16
 
 __conda_setup="$('/BS/dchen-projects/work/Software/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then

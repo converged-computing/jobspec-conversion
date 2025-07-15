@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-sundae-3204
+#FLUX: --job-name=hanky-peas-6589
 #FLUX: -n=16
 #FLUX: --queue=serial
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'
 

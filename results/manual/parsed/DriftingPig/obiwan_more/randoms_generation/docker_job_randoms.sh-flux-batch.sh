@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-animal-5020
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-poodle-3518
+#FLUX: --urgency=16
 
 export CSCRATCH_OBIWAN='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker'
 export PYTHONPATH='$CSCRATCH_OBIWAN/obiwan_code/py:$CSCRATCH_OBIWAN/legacypipe/py:$PYTHONPATH'

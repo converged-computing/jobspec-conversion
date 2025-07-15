@@ -1,93 +1,246 @@
-#!/bin/bash  -l
+#!/bin/bash 
 
-# -l in bash is SOMETIME important for login shell and getting the TF job to start
+# slurm job script to run xHPL
 
-#### this script run GPU jobs using 1 GPU at a time.
-#### it run beast 2 from a container (pre-pulled as singularity sif)
-#### https://github.com/tin6150/beast2/tree/dock264-beagle
 
-#SBATCH				--job-name=SnBeastTest    # -J CLI arg will overwrite this
-#SBATCH				--time=01:19:59
-#					Wall clock limit in HH:MM:ss
-#
-#SBATCH				--ntasks=1
-#SBATCH				--qos=savio_normal 
-#SBATCH				--account=scs        # -A
+# expect to be called via a submitter, like
+# ./hpl_mpi_submitter.sh
+# or just simply 
+# sbatch hpl_mpi.job
+# sbatch -N 8 hpl_mpi.job
+# sbatch -N 2 -w n0282.savio2,n0283.savio2 --partition=savio2_bigmem --account=scs --qos=savio_normal --time=00:05:00 hpl_mpi.job
+# sbatch -N 4 -w  n0026.savio1,n0027.savio1,n0038.savio1,n0040.savio1 --partition=savio --account=scs --qos=savio_debug --time=00:02:00 hpl_mpi.job  # mpi starts, but xhpl can't run, not enough core, need diff hpl.dat file...
 
-#### gpu gres request
-#SBATCH        		--partition=savio3_gpu
-#SBATCH         	--gres=gpu:TITAN:1		
-##	#SBATCH         	--gres=gpu:A40:1		# failed on n0262 cuz CUDA 11.2
-##	#SBATCH         	--gres=gpu:T20:1		# savio2_gpu
-## https://docs-research-it.berkeley.edu/services/high-performance-computing/user-guide/running-your-jobs/submitting-jobs/
-## GTX2080TI, TITAN, V100, and A40.
 
-#SBATCH				--mail-type=FAIL
-#SBATCH				--mail-user=tin@berkeley.edu
-#SBATCH				-o  sn_%N_%j.out
-#SBATCH				-e  sn_%N_%j.err
+###  it is not pretty, but don't spend too much time on this, as new node acceptance test cannot run via slurm
+###  so just tweak this enough to make test easy enough to run
+###  Should just be able to adjust -N 2 to actual number of nodes desired, and the rest of script will adjust accordingly
+###  future tweaks CorePerNode when not using 64...
 
-# %j is for jobid (eg 128)
-# %J is for jobid.stepid (eg 128.0)
-# %N is short node name
-# %n is node number relative to current job, 0 for first node.  task spanning multiple node will get multiple file created
-# -J is --job-name for CLI arg
+
+# maybe via Yong's staging.sh
+# adopted from run_staging_test_hpl.sh
+# and ~/gsHPCS_toolkit/benchmark/hpl/run_hpl_slurm.sh
+
+# cannot have any shell script command before #SBATCH clause, not even vars declaration
+
+#SBATCH                 --job-name=hpl_mpi_test    # CLI arg will overwrite this
+#                       CPU time:
+#       #SBATCH         --time=605
+#                       Wall clock limit in HH:MM:ss
+#SBATCH                 --time=11:55:00                    # 
+#       #SBATCH         --time=1-02:00:00                  # format for 1 day 2 hours, could also use more than 24 hours
+#SBATCH                 --exclusive
+#       #SBATCH         --qos=lr_normal
+#	#SBATCH                 --qos=cf_normal
+#	#SBATCH                 --qos=condo_mp
+#	#SBATCH         	--partition=cf1-hp
+#SBATCH                 --qos=cf_normal
+#SBATCH         	--partition=cf1
+#SBATCH         	-n 64
+#	#SBATCH         	-n 128		# did not work for 64 last time.  128 => 3 nodes.  just can't get 64c per node for xhpl when requested like this.
+#	#SBATCH        	-N 2			# adjust as needed   # tested up to -N 16
+###SBATCH         	-N 2			# adjust as needed   # tested up to -N 16
+#SBATCH                 -o  J%j_%N.out
+#	#SBATCH                 -o  slr_%j_%N.out
+#			http://geco.mines.edu/prototype/How_do_I_manage_jobs/sbatch.html , see --input=
+
+#SBATCH                 --account=scs
+#       #SBATCH         --ntasks=2
+#       #SBATCH         --mail-type=all
+#       #SBATCH         --mail-type=END,FAIL
+#       #SBATCH         --mail-type=FAIL
+#       #SBATCH         --mail-type=TIME_LIMIT_80 
+#SBATCH                 --mail-type=NONE
+#SBATCH                 --mail-user=tin@lbl.gov
 
 
 ################################################################################
-##### print some header info into the log
+##### print some info into the slurm output log
+################################################################################
+###
+### info about slurm job
+### https://www.glue.umd.edu/hpcc/help/slurmenv.html
+### https://slurm.schedmd.com/sbatch.html#lbAH
+###
+echo "mpirun for xHPL run via slurm"
+echo ----slurm-resource-allocated-------------------
+echo -n "SLURMD_NODENAME: "
+echo    $SLURMD_NODENAME
+echo -n "SLURM_JOB_NUM_NODES: "		# Total number of nodes in the job's resource allocation.
+echo    $SLURM_JOB_NUM_NODES
+echo -n "SLURM_JOB_NODELIST: "
+echo    $SLURM_JOB_NODELIST
+echo -n "SLURM_TASKS_PER_NODE: "	# eg 64(x2)  , so will be some work before using it for CorePerNode 
+echo    $SLURM_TASKS_PER_NODE
+echo -n "SLURM_NTASKS_PER_NODE: "   	# Number of tasks requested per core. Only set if the --ntasks-per-core option is specified.
+echo    $SLURM_NTASKS_PER_NODE
+echo -n "SLURM_MEM_PER_NODE: "		# got blank!
+echo    $SLURM_MEM_PER_NODE
+echo -n "SLURM_CPUS_ON_NODE: "		# 64 for n0000.cf1 knl
+echo    $SLURM_CPUS_ON_NODE
+echo -n "SLURM_JOB_PARTITION:"
+echo    $SLURM_JOB_PARTITION
+echo -n "SLURM_JOB_QOS:"
+echo    $SLURM_JOB_QOS
+echo ""
+echo ""
+
 ################################################################################
 
-LOGDIR=/global/scratch/users/tin/JUNK/
-MAQ=$(hostname)
-TAG=$(hostname).$(date +%m%d.%H%M)
-OUTFILE=slurm-job-gpu-beast.$TAG.out.rst
 
 
-echo ----hostname-----------------------------------
-echo -n "hostname: " 
-hostname 
-echo ----date-----------------------------------
+##JobBaseDir=/global/home/users/tin/gsCF_BK/cf1/staging_test
+JobBaseDir=/global/scratch/tin/benchmark_hpl/ 
+
+#CorePerNode=64	# knl has 64 cores per node 		# potentially from $SLURM_CPUS_ON_NODE, but not sure if it ever become 63
+CorePerNode=24	# n0282.savio2: 2x12
+#NNode=1	# Number of Node to run HPL test on
+NNode=${SLURM_JOB_NUM_NODES}
+Ncore=$(( $NNode * $CorePerNode ))
+HplDatNum=$( printf %04d $NNode )
+
+
+##FECHA=$(date "+%Y_%m%d_%H%M")
+##FECHA=$(date "+%m%d")
+FECHA=$(date "+%m%d_%H%M")
+
+##RUNDIR=TMP_OUT
+##RUNDIR=STAGING_OUT/HPL_${NNode}_${FECHA}
+##RUNDIR=STAGING_OUT/slr_${SLURM_JOB_ID}_hpl${NNode}x${SLURM_CPUS_ON_NODE}_${FECHA}
+RUNDIR=./STAGING_OUT/J${SLURM_JOB_ID}_${SLURM_JOB_PARTITION}_${NNode}x${SLURM_CPUS_ON_NODE}_${FECHA}
+## won't use till move the submit script too, like slurm output in same place.
+##RUNDIR=${JobBaseDir}/STAGING_OUT/J${SLURM_JOB_ID}_${SLURM_JOB_PARTITION}_${NNode}x${SLURM_CPUS_ON_NODE}_${FECHA}	
+test -d $RUNDIR || mkdir $RUNDIR
+cd $RUNDIR
+
+### make a copy of this script into the run dir since it has param that may want to be refered in future
+#echo "job script name/path for making copy?"
+#echo $0  # /var/spool/slurmd/job11893476/slurm_script
+#cp -pR /var/spool/slurmd/job11893476/slurm_script $RUNDIR   	# can't be found 
+cp -p ~/gsCF_BK/cf1/staging_test/hpl_mpi.job .			# path may change... 
+
+
+
+BIOSOUT=/tmp/bios.settings.out
+BIOSHIGHLIGHT=/tmp/bios.settings.highlight
+
+cp -p $BIOSOUT       .         2> /dev/null
+cp -p $BIOSHIGHLIGHT .         2> /dev/null
+
+#cat $BIOSHIGHLIGHT
+
+
+# undocumented env var for HPL to properly use AVX
+# but Josh said they don't do anything  they maybe intel's version of xhpl binary, or some select release?
+#export HPL_HOST_ARCH=3 # AVX2
+#export HPL_HOST_ARCH=9 # AVX512 # skylake only, and not really sure if neaningful 
+# KNL has AVX512, may need to dig into these as well...
+
+####
+####    specify which version of xhpl binary to use
+####
+
+#export PATH=$PATH:~tin/gsHPCS_toolkit/benchmark/hpl/hpl-2.2/bin/intel64_skylake_avx_optimiz/	# xhpl, no progress report :(
+#export PATH=$PATH:~tin/gsHPCS_toolkit/benchmark/hpl/hpl-2.2/bin/intel64_skylake/		# xhpl
+
+## need new binary...  or use intel's binary??
+#export PATH=~tin/gsHPCS_toolkit/benchmark/hpl/hpl-2.2/bin/intel64_skylake_icc_2018:$PATH
+
+#export PATH=~tin/gsHPCS_toolkit/benchmark/hpl/hpl-2.2/bin/intel64_phi_7210/:$PATH	# intel 2016 compiler stack
+export PATH=~tin/gsHPCS_toolkit/benchmark/hpl/hpl-2.2/bin/intel64_nehalem:$PATH	# lr4/savio are hashwell, but can't find binary for it...
+
+#export PATH=$PATH:~tin/gsHPCS_toolkit/benchmark/staging_sl7					# mpi_nxnlatbw
+#export PATH=$PATH:/global/home/groups/scs/meli/					# osu_*
+#export PATH=$PATH:/global/home/groups/scs/yqin					# probably only for stream
+
+
+####
+####    specify what hpl.dat version to use #
+####
+test -d hpl || mkdir hpl
+#cp -p  ~/gsHPCS_toolkit/benchmark/hpl/hpl_cf/64core_192gb_90_nb192/HPL.MPI*dat hpl   # 64 core knl , thus req are in inc of 64cores
+#cp -p  ~/gsHPCS_toolkit/benchmark/hpl/hpl_cf/64core_192gb_90_nb336/HPL.MPI*dat hpl    # 64 core knl , fewer .dat than nb192 version for now
+cp -p  ~/gsHPCS_toolkit/benchmark/hpl/hpl_cf/24cores_64gb_90_nb192/HPL.MPI*dat hpl   # 24 core lr4/savio2
+
+
+module purge
+#module load gcc openmpi
+module load intel openmpi				# lr4/savio2 nehalem hpl
+# new intel compiler and lib in personal SMF for now
+#module load langs/intel/2018.1.163_eval 
+#module load intel/2018.1.163/mkl/2018.1.163_eval
+#module load intel/2018.1.163/openmpi/2.0.4-intel_eval
+# new module from kai
+#module load intel/2018.1.163 openmpi/2.0.2-intel        # not avail in brc yet
+module list
+
+numactl -H > numactl-H.out
+ompi_info -a > ompi_info-a.out
+
+##cp -p ../../racadmSetBios.sh .
+
+
+
+echo "----------- which hpl --------------"
+which xhpl
+which mpirun
+
+echo "----- mpirun hpl hostname and location  -----"
+hostname
+pwd
 date
-echo ----os-release----------------------------------
-cat /etc/os-release
-
-echo ----lscpu-----------------------------------
-lscpu
-echo ----nvidia-smi-----------------------------------
-nvidia-smi
 
 
-echo "---module list before purge ------------------------------------"
-module list    2>&1
-module purge   2>&1
-module load ml/tensorflow/1.12.0-py36 2>&1 
-echo "---module list after purge ------------------------------------"
-module list    2>&1
+echo ----MPL.dat to copy is hpl/HPL.MPI.${HplDatNum}.dat HPL.dat
+## somehow if below line is messed up, screw up PATH!
+echo ----HPL.dat--is--hpl/HPL.MPI.${HplDatNum}.dat----
+cp -p hpl/HPL.MPI.${HplDatNum}.dat HPL.dat
+##cp -p hpl/HPL.MPI.0002.dat ./HPL.dat		# tmp forcing a 2 node run even when slurm assigned 3 nodes  ## FIXME
 
-echo "==== ================= ======================================================="
-echo "==== beast/gpu next == =======================================================" 
-echo "==== ================= ======================================================="
-
-export ImgDir=/clusterfs/vector/home/groups/software/sl-7.x86_64/modules/beast/2.6.4/
-
-echo "checking beagle with gpu (currently need CUDA 11.4)"
-# To ensure beagle see GPU on the machine, run this test:
-singularity exec --nv $ImgDir/beast2.6.4-beagle.sif /usr/bin/java -Dlauncher.wait.for.exit=true -Xms256m -Xmx8g -Duser.language=en -cp /opt/gitrepo/beast/lib/launcher.jar beast.app.beastapp.BeastLauncher -beagle_info
+echo "----------- HPL.dat --------------"
+cat HPL.dat
+echo "----------- mpi run --------------"
 
 
-echo "running beast2 with beagle/gpu"
-cd /global/scratch/users/tin/gitrepo/beast2/examples
-git checkout 2.6.6 
-# https://github.com/CompEvol/beast2/tree/2.6.6, different version have diff XML, which has java class embeded in it
+### ##############################################################
+### actual mpi run
+### ##############################################################
 
-# GPU need additional singularity flag, thus need to run as below, which get 28s/Msamples:
-singularity exec --nv $ImgDir/beast2.6.4-beagle.sif /usr/bin/java -Dlauncher.wait.for.exit=true -Xms256m -Xmx8g -Duser.language=en -cp /opt/gitrepo/beast/lib/launcher.jar beast.app.beastapp.BeastLauncher -beagle_GPU testHKY.xml
+echo ""
+echo "###"
+echo "----------- mpi run 1 - simple, get nodelist --------------"
+MpiCmd="mpirun -np ${NNode} -npernode 1 hostname"
+##MpiCmd="mpirun -np ${Ncore} -npernode 1 hostname"
+##MpiCmd="mpirun -np 8 -npernode 1 hostname"		# actaully don't even works for -np 16, 32 or 128
+echo running cmd: ${MpiCmd}
+${MpiCmd} | sort -n
 
 
 
-#### example submission
-#### sbatch slurm-job-gpu-beast.sh
+echo ""
+echo "###"
+echo "----------- mpi run 2 - linpack job --------------"
+MpiCmd="mpirun -np ${Ncore} -npernode ${CorePerNode} xhpl"
+##MpiCmd="mpirun -np 128 -npernode ${CorePerNode} xhpl"			# -n 128 test, which get 3 nodes...   ## FIXME
+hostname > HPL.starttime
+date 	>> HPL.starttime
+echo running cmd: ${MpiCmd}
+${MpiCmd} |tee mpi-HPL-2.log
 
-### or just invoke this script locally on a drained/idle node :)
-### ./slurm-job-gpu-beast.sh | tee slurm-job-gpu-beast.out
+
+##### method below only work for single node, not 2+ nodes
+##### -mca is like loading modules
+##### btl sm : sharedmemory Byte Transfer Layer.  which probably why can't run across 2-node MPI.
+#echo "----------- mpi run 3 --------------"
+#mpirun -np 64 -npernode 64 -bind-to core --report-bindings -mca btl sm,self xhpl 2>&1|tee mpi-HPL.log
+#MpiCmd="mpirun -np ${Ncore} -npernode ${CorePerNode} -bind-to core --report-bindings -mca btl sm,self xhpl 2>&1|tee ${RUNDIR}/mpi-HPL.log"
+#MpiCmd="mpirun -np ${Ncore} -npernode ${CorePerNode} -bind-to core --report-bindings -mca btl sm,self xhpl"
+#echo running cmd: ${MpiCmd}
+#${MpiCmd} 2>&1|tee mpi-HPL.log
+
+
+date > HPL.endtime
+
+
+echo "end of mpirun for hpl via slurm."

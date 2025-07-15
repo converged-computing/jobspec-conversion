@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-eagle-1769
+#FLUX: --job-name=placid-lemon-5187
 #FLUX: -c=18
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/saturn/unrz/unrz139/.modules/oneapi-2023.2.0/compiler/2023.2.0/linux/compiler/lib/intel64'
 export I_MPI_PIN='1'

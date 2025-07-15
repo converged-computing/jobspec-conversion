@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=HN_12
 #FLUX: -t=50340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/3.12.0

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-punk-5746
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-house-1659
+#FLUX: --urgency=16
 
 module load intelFPGA_pro/20.3.0
 module load bittware_520n_mx/19.4.0_hpc

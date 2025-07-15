@@ -2,7 +2,7 @@
 #FLUX: --job-name=roibin_debug
 #FLUX: -N=10
 #FLUX: -t=54000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PROJECT_DIR='/lcrc/project/ECP-EZ/public/compression/roibin-sz3'
 export workdir='$PROJECT_DIR/roibin-sz3-experiments/'

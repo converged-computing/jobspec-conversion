@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-spoon-4516
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-buttface-1247
+#FLUX: --urgency=16
 
 set -u
 set -a

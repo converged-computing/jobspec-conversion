@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-knife-3781
+#FLUX: --job-name=dirty-sundae-2486
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCL_btl='openib'
 

@@ -2,7 +2,7 @@
 #FLUX: --job-name=PPOexp1300
 #FLUX: --queue=long
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Activating Python 3.6.3..."
 module load python/3.6.1

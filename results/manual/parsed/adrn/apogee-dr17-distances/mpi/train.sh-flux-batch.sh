@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-peas-1184
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-fork-5902
+#FLUX: --urgency=16
 
 source ~/.bash_profile
 init_conda

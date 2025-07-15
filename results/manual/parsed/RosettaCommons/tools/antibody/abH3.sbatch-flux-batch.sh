@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-sundae-8397
-#FLUX: --priority=16
+#FLUX: --job-name=astute-pedo-0450
+#FLUX: --urgency=16
 
 export MKL_MIC_ENABLE='1'
 

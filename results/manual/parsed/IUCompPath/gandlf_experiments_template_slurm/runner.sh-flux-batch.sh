@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-butter-4878
+#FLUX: --job-name=blue-hippo-0176
 #FLUX: -c=10
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/gpu/3.10.10
 echo $SLURM_JOB_NODELIST

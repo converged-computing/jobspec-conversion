@@ -2,7 +2,7 @@
 #FLUX: --job-name=noiserdd
 #FLUX: --queue=hns,normal,stat
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml load gmp
 ml load mpfr

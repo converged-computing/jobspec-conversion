@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-latke-4687
+#FLUX: --job-name=expensive-milkshake-0344
 #FLUX: -c=8
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONFIG=$1
 GPUS=$2

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-cat-4300
+#FLUX: --job-name=fuzzy-ricecake-9530
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 echo "Running snakemake..."

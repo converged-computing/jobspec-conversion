@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chip-3209
+#FLUX: --job-name=peachy-plant-8201
 #FLUX: -t=12600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/3.10 scipy-stack

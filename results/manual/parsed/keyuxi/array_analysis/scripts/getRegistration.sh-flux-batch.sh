@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-ricecake-9238
+#FLUX: --job-name=cowy-blackbean-7750
 #FLUX: -c=6
 #FLUX: --queue=wjg,biochem,sfgf
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MATLABPATH='/home/groups/wjg/kyx/array_analysis/scripts/array_tools/CPscripts/:/home/groups/wjg/kyx/array_analysis/scripts/array_tools/CPlibs/'
 

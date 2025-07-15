@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-punk-9792
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-pedo-6467
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

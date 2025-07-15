@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-bits-0276
+#FLUX: --job-name=placid-blackbean-1014
 #FLUX: --queue=skl_fua_prod
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_MODE='lib'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-staircase-3933
+#FLUX: --job-name=goodbye-hippo-3041
 #FLUX: --exclusive
 #FLUX: --queue=MI250
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export AMD_LOG_LEVEL='1'
 

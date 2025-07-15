@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-kitty-2269
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-butter-9040
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/halfshear-c%3D0.1-velfac-cont.sh

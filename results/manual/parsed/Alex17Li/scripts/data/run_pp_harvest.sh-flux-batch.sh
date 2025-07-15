@@ -2,7 +2,7 @@
 #FLUX: --job-name=pack_perception
 #FLUX: -c=8
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BRT_ENV='prod'
 export AWS_DEFAULT_REGION='us-west-2'

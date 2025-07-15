@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=BCLUB_FPREP
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ ${SLURM_ARRAY_TASK_ID} -lt 10 ]; then
     sub="sub-00${SLURM_ARRAY_TASK_ID}"

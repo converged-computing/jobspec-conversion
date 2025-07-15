@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-spoon-0849
+#FLUX: --job-name=muffled-despacito-5504
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK;'
 

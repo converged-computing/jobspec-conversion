@@ -2,7 +2,7 @@
 #FLUX: --job-name=GSV
 #FLUX: --queue=work
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity/3.8.6-nompi
 module load nextflow/22.04.3

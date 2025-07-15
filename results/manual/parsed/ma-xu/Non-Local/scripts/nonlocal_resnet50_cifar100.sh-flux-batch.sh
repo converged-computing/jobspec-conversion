@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-bike-5699
-#FLUX: --priority=16
+#FLUX: --job-name=angry-pastry-9118
+#FLUX: --urgency=16
 
 module load cuda/75/blas/7.5.18
 module load cuda/75/fft/7.5.18

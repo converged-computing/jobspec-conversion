@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-underoos-5773
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-milkshake-3109
+#FLUX: --urgency=16
 
 source /etc/profile
 module load julia-1.0

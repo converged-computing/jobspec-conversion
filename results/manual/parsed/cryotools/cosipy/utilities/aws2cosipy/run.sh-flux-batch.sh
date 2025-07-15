@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=REAL
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KMP_STACKSIZE='64000000'
 export OMP_NUM_THREADS='1'

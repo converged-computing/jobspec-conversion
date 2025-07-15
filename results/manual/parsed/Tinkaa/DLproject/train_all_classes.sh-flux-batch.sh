@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-arm-8869
-#FLUX: --priority=16
+#FLUX: --job-name=hello-snack-9096
+#FLUX: --urgency=16
 
 module load anaconda3
 source activate /scratch/work/phama1/tensorflow

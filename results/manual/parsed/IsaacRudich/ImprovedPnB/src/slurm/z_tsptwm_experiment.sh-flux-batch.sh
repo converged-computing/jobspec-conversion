@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-nalgas-6352
+#FLUX: --job-name=evasive-dog-6906
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load julia
 julia z_tsptwm_experiment.jl $setnum $instance

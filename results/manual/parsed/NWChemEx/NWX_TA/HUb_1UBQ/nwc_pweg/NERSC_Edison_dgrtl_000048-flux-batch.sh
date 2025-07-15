@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=regular
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NWCHEM_MEMORY_HEAP='6553600'
 export NWCHEM_MEMORY_STACK='104857600'

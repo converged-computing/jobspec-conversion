@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lizard-4251
+#FLUX: --job-name=faux-chip-1726
 #FLUX: -N=6
 #FLUX: --exclusive
 #FLUX: --queue=compute
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'
 export ICON_THREADS='4'

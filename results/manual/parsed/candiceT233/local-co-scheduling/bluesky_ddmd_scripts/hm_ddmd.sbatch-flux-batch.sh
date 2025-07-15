@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=1hm_ddmd_100ps
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SKIP_OPENMM=true
 SHORTENED_PIPELINE=true

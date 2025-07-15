@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-underoos-5766
-#FLUX: --priority=16
+#FLUX: --job-name=tart-general-4495
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nl3769/CCA_DL_TOOLS/SIMULATION/run_cluster/pbs/make_phantom.pbs

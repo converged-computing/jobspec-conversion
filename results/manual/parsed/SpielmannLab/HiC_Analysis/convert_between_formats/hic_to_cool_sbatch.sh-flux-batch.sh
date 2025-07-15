@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-itch-3934
+#FLUX: --job-name=crusty-bits-7049
 #FLUX: --queue=shortterm
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow/v22.04.1
 mkdir -p $WORK/hic_to_cool_nextflow_launchdir

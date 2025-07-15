@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-punk-0555
+#FLUX: --job-name=buttery-motorcycle-8717
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XLA_PYTHON_CLIENT_MEM_FRACTION='0.90'
 export CUDA_DEVICE_MAX_CONNECTIONS='1'

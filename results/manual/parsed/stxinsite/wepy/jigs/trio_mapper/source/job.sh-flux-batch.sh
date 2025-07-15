@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cupcake-9568
+#FLUX: --job-name=conspicuous-despacito-5486
 #FLUX: -c=4
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ANACONDA_DIR='$HOME/.pyenv/versions/miniconda3-latest'
 

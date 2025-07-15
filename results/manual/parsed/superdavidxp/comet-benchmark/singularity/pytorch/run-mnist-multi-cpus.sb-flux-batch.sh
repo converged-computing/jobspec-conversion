@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="pytorch-mnist-dist"
+#FLUX: --job-name=pytorch-mnist-dist
 #FLUX: -N=2
 #FLUX: --queue=gpu
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 declare -xr LOCAL_SCRATCH="/scratch/${USER}/${SLURM_JOB_ID}"
 declare -xr LUSTRE_SCRATCH="/oasis/scratch/comet/mkandes/temp_project/singularity/images"

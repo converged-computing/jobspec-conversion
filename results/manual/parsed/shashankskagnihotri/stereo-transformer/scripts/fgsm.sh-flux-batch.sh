@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-house-5010
+#FLUX: --job-name=blue-chair-9423
 #FLUX: -c=64
 #FLUX: --queue=gpu
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CUDA_VISIBLE_DEVICES=0
 python main_fgsm.py  --epochs 15\

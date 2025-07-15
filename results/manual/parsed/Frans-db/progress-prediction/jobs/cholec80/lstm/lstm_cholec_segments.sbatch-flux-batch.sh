@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-chair-1630
+#FLUX: --job-name=grated-onion-7712
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/insy/modulefiles
 module load cuda/10.0 cudnn/10.0-7.4.2.24

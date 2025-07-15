@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-underoos-2496
+#FLUX: --job-name=arid-dog-9090
 #FLUX: -c=7
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cudatoolkit/10.0
 module load cudnn/cuda-10.0/7.6.3

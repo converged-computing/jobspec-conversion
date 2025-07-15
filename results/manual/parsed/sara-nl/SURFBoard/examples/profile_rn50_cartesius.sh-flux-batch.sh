@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-chip-4873
+#FLUX: --job-name=confused-signal-1972
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/target_libs'
 export SINGULARITYENV_PREPEND_PATH='$TAU_HOME/bin'

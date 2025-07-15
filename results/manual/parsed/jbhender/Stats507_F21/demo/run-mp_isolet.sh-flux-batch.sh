@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=standard
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 n_procs=4
 module load tensorflow

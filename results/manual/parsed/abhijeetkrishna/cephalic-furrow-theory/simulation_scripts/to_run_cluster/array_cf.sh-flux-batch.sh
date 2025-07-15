@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chip-3156
-#FLUX: --priority=16
+#FLUX: --job-name=placid-kitty-8451
+#FLUX: --urgency=16
 
 py_map_creator=map_index_cf.py
 initiator=initialize.py

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-butter-1702
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-gato-1849
+#FLUX: --urgency=16
 
 id -a
 module purge

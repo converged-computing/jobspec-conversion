@@ -2,7 +2,7 @@
 #FLUX: --job-name=crFHN-msam3d-petct-cvCHUM-gtvweighted-histfix
 #FLUX: -c=4
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda
 echo; echo

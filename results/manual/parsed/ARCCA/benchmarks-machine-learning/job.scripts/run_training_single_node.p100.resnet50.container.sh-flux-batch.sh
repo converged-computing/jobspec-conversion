@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-rabbit-5335
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-kerfuffle-0447
+#FLUX: --urgency=16
 
 set -eu
 module purge

@@ -2,7 +2,7 @@
 #FLUX: --job-name=SSCL-unsup-bsz-512-tbsz-512-no-cosine-1000e
 #FLUX: -c=16
 #FLUX: -t=43140
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_TMPDIR
 cp -r ~/scratch/Semi-Supervised-CL .

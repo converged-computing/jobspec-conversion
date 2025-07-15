@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="pmix-score"
+#FLUX: --job-name=pmix-score
 #FLUX: -c=4
 #FLUX: --queue=msc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='/scratch-ssd/${USER}/tmp'
 export CONDA_ENVS_PATH='/scratch-ssd/$USER/conda_envs'

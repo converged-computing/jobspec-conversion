@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lamp-0439
-#FLUX: --priority=16
+#FLUX: --job-name=purple-fudge-3339
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/afcarl/RtRetrievalFramework/lib/Python/template/pleiades_job.tmpl

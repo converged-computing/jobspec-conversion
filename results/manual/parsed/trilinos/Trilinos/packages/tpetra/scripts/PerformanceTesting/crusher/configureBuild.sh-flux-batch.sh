@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-gato-3224
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-leg-8722
+#FLUX: --urgency=16
 
 export all_proxy='socks://proxy.ccs.ornl.gov:3128/'
 export ftp_proxy='ftp://proxy.ccs.ornl.gov:3128/'

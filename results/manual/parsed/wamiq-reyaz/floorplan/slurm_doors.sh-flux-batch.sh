@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-general-0957
+#FLUX: --job-name=gloopy-cat-0949
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda activate faclab
 which conda

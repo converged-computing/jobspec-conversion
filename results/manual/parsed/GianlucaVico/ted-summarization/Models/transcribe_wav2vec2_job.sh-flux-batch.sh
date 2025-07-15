@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="wav2vec2_complete"
+#FLUX: --job-name=wav2vec2_complete
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$HOME/.local/bin:$PATH'
 export KENLM_ROOT='$HOME/kenlm'

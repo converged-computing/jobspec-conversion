@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name='pbeq_taut1_fwd_01'
+#FLUX: --job-name=pbeq_taut1_fwd_01
 #FLUX: -c=2
 #FLUX: --queue=mf_ilg2.3
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:/beegfs/DATA/mobley/limvt/local/vmd'
 

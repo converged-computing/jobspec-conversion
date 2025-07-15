@@ -2,7 +2,7 @@
 #FLUX: --job-name=Task2
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_mpi_warn_on_fork='0 #disable MPI warnings'
 

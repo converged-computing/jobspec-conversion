@@ -2,7 +2,7 @@
 #FLUX: --job-name=filter_score_model
 #FLUX: -c=4
 #FLUX: -t=259199
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TORCH_USE_RTLD_GLOBAL='YES'
 

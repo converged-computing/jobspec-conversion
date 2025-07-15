@@ -1,17 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-avocado-6133
-#FLUX: --priority=16
+#FLUX: --job-name=TEFLoN2_Snakemake
+#FLUX: --queue=long
+#FLUX: --urgency=16
 
 		#!/bin/bash
-	#SBATCH --job-name=TEFLoN2_Snakemake # job name (-J)
-	#SBATCH --cpus-per-task=1 # max nb of cores (-c)
-	#SBATCH --mem= 2000 # max memory (-m)
-	#SBATCH --output=/path/tmp/teflon2.%j.out
-	#SBATCH --error=/path/tmp/teflon2.%j.err
-	#SBATCH --partition=long
-	#SBATCH --account=your_project
-	#SBATCH --mail-type=ALL
-	#SBATCH --mail-user=your.mail.gmail.com
 	###Charge module
 	module purge
 	module load samtools/1.14

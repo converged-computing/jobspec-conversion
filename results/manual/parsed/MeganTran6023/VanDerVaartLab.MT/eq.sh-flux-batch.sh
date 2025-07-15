@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-latke-0577
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-kitty-5814
+#FLUX: --urgency=16
 
 module purge
 module load apps/amber/18-19

@@ -2,7 +2,7 @@
 #FLUX: --job-name=scd_all
 #FLUX: --queue=gpu-short
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CWD='$(pwd)'
 export SD_EPI='$(sed -n ${SLURM_ARRAY_TASK_ID}p $CWD/episodes.txt)'

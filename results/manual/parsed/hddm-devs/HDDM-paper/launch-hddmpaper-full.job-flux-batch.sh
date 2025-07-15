@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cherry-4153
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-blackbean-7942
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hddm-devs/HDDM-paper/launch-hddmpaper-full.job

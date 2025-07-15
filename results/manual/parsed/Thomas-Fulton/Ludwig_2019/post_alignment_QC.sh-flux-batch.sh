@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hippo-6609
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-cat-3301
+#FLUX: --urgency=16
 
 module load SAMtools/1.12-GCC-10.2.0;
 mkdir alignment_stats/;

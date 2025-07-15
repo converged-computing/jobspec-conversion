@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pedo-5928
-#FLUX: --queue=kilian --gres=gpu:1080ti:2           # Which queue it should run on.
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-hobbit-9582
+#FLUX: --queue=kilian
+#FLUX: --urgency=16
 
 POINT_STYLE=default
 NUM_GPUS=2

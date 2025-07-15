@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-toaster-9645
+#FLUX: --job-name=goodbye-fork-3020
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add opencv
 module add cuda/8.0

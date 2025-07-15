@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-despacito-6559
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-cupcake-6205
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64 OMP_PROC_BIND=spread OMP_PLACES=cores'
 

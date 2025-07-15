@@ -1,55 +1,28 @@
 #!/bin/bash
-#SBATCH --output ../out/lorenz_%A.out # Write out
-#SBATCH --error ../out/lorenz_%A.err  # Write error
-#SBATCH --cpus-per-task=1
-#SBATCH --gres=gpu:1
-#SBATCH --partition=long
-#SBATCH --job-name=lorenz
-#SBATCH --mem=10GB
-#SBATCH --time=18:00:00
+#SBATCH --qos=high                              # Ask for unkillable job
+#SBATCH --cpus-per-task=1                       # Ask for 1 CPUs
+#SBATCH --gres=gpu:1                            # Ask for 1 GPU
+#SBATCH --mem=10G                               # Ask for 10 GB of RAM
+#SBATCH --time=5:00:00                          # The job will run for 5 hours
+#SBATCH -o /network/tmp1/princelu/slurm-%j.out  # Write the log on tmp1
 
+start=`date +%s`
 module purge
 module load python/3.7
 source $HOME/pytorch/bin/activate
 
-exit_script(){
-cp -r $SLURM_TMPDIR/ $PROJECTDIR
-}
+echo $DATA
+echo $PARAMETERS
 
-terminator(){
-echo 'job killed'
-}
+mkdir $SLURM_TMPDIR/data
+mkdir $SLURM_TMPDIR/models
 
-echo $SEED
+cp $DATA $SLURM_TMPDIR/data
 
-PROJECTDIR=$HOME/hierarchical_lfads
-DATADIR=$PROJECTDIR/synth_data
-HPDIR=$PROJECTDIR/hyperparameters/lorenz
-OUTDIR=$PROJECTDIR/models
+python run_lfads.py -d $SLURM_TMPDIR/$DATA -p $PARAMETERS -o $SLURM_TMPDIR
 
-python $PROJECTDIR/generate_synthetic_data.py -d lorenz -o $DATADIR -p $DATADIR/lorenz_params.yaml -s $SEED
-DATAPATH=$PROJECTDIR/synth_data/lorenz_$SEED
+cp -r $SLURM_TMPDIR/models $HOME/hierarchical_lfads
 
-python $PROJECTDIR/preprocessing_oasis.py -d $DATAPATH -t 0.3 -s 1.0 -k
-python $PROJECTDIR/preprocessing_oasis.py -d $DATAPATH -t 0.3 -s 4.0
-OK=ok_t0.3_s1.0
-OU=ou_t0.3_s4.0
-DATAPATH_OK=$DATAPATH'_'$OK
-DATAPATH_OU=$DATAPATH'_'$OU
-
-python $PROJECTDIR/train_model.py -m lfads -d $DATAPATH -p $HPDIR/lfads.yaml -o $OUTDIR --batch_size 65 --max_epochs 2000 --data_suffix spikes
-python $PROJECTDIR/train_model.py -m lfads -d $DATAPATH_OK -p $HPDIR/lfads.yaml -o $OUTDIR --batch_size 65 --max_epochs 2000 --data_suffix ospikes
-python $PROJECTDIR/train_model.py -m svlae -d $DATAPATH_OK -p $HPDIR/svlae.yaml -o $OUTDIR --batch_size 65 --max_epochs 2000 --data_suffix fluor
-python $PROJECTDIR/train_model.py -m lfads -d $DATAPATH_OU -p $HPDIR/lfads.yaml -o $OUTDIR --batch_size 65 --max_epochs 2000 --data_suffix ospikes
-python $PROJECTDIR/train_model.py -m svlae -d $DATAPATH_OU -p $HPDIR/svlae.yaml -o $OUTDIR --batch_size 65 --max_epochs 2000 --data_suffix fluor
-
-LFADS_MODEL_DESC=cenc0_cont0_fact3_genc64_gene64_glat64_ulat0_orion-/
-SVLAE_MODEL_DESC=dcen0_dcon0_dgen64_dgla64_dula0_fact3_gene64_ocon32_oenc32_olat64_orion-/
-SEED_OK=$SEED'_'$OK
-SEED_OU=$SEED'_'$OU
-
-python $PROJECTDIR/infer_latent.py -m $OUTDIR/lorenz_$SEED/lfads/$LFADS_MODEL_DESC -d $DATAPATH --data_suffix spikes
-python $PROJECTDIR/infer_latent.py -m $OUTDIR/lorenz_$SEED_OK/lfads_oasis/$LFADS_MODEL_DESC -d $DATAPATH_OK --data_suffix ospikes
-python $PROJECTDIR/infer_latent.py -m $OUTDIR/lorenz_$SEED_OK/svlae/$SVLAE_MODEL_DESC -d $DATAPATH_OK --data_suffix fluor
-python $PROJECTDIR/infer_latent.py -m $OUTDIR/lorenz_$SEED_OU/lfads_oasis/$LFADS_MODEL_DESC -d $DATAPATH_OU --data_suffix ospikes
-python $PROJECTDIR/infer_latent.py -m $OUTDIR/lorenz_$SEED_OU/svlae/$SVLAE_MODEL_DESC -d $DATAPATH_OU --data_suffix fluor
+end=`date +%s`
+runtime=$((end-start))
+echo "Runtime was $runtime seconds"

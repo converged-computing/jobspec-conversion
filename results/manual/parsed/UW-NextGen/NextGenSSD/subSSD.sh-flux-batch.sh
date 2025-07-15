@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-spoon-9629
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-lemon-2299
+#FLUX: --urgency=16
 
 module load usermods
 module load user/cuda

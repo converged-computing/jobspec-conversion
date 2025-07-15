@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cattywampus-3295
+#FLUX: --job-name=stanky-despacito-2613
 #FLUX: -N=16
 #FLUX: -n=16
 #FLUX: -c=12
 #FLUX: --queue=normal
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda activate py39
 which nvcc

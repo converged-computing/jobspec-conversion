@@ -2,7 +2,7 @@
 #FLUX: --job-name=ppo_activedr_sac_map_torch
 #FLUX: -c=10
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'
 

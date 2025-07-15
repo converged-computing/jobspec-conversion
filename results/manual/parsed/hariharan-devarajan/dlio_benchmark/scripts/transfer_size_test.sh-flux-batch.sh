@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-mango-6412
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-snack-0207
+#FLUX: --urgency=16
 

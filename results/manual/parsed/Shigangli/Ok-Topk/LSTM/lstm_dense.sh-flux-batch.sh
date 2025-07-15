@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-blackbean-4845
+#FLUX: --job-name=goodbye-omelette-4958
 #FLUX: -N=32
 #FLUX: -n=32
 #FLUX: -c=12
 #FLUX: --queue=normal
 #FLUX: -t=4800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 conda activate py38_oktopk

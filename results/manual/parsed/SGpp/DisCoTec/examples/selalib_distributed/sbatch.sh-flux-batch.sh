@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-chip-6183
+#FLUX: --job-name=ornery-car-8153
 #FLUX: -n=9
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1;export OMP_PLACES=cores;export OMP_PROC_BIND=close'
 

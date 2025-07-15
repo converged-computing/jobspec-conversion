@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-peas-0820
-#FLUX: --priority=16
+#FLUX: --job-name=arid-animal-2336
+#FLUX: --urgency=16
 
 module load nvidia/cuda/10.0
 module load pytorch/1.0_python3.7_gpu

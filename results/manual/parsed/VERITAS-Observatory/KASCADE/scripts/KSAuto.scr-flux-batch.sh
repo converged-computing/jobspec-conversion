@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-ricecake-9201
-#FLUX: --priority=16
+#FLUX: --job-name=hello-leopard-8577
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/VERITAS-Observatory/KASCADE/scripts/KSAuto.scr

@@ -2,7 +2,7 @@
 #FLUX: --job-name=llama-cpp-label-mixtral
 #FLUX: -c=20
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 HOSTNAME=$(hostname)
 if [ "$HOSTNAME" == "vega.iiia.csic.es" ]

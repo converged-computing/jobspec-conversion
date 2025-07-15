@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-rabbit-3285
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-taco-9186
+#FLUX: --urgency=16
 
 DATA_DIR="${1}"
 OUTPUT_DIR="${2}"

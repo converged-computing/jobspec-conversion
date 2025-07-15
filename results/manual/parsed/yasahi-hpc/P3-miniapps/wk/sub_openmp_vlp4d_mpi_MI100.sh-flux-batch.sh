@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-punk-4754
+#FLUX: --job-name=adorable-blackbean-9138
 #FLUX: -c=64
 #FLUX: --gpus-per-task=1
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load openmpi/4.1.1

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-rabbit-5695
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-knife-9630
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/thomas-bouvier/dcl-experiments-scripts/pbs/polaris/baselines/job.4-4.scratch.resnet18.qsub

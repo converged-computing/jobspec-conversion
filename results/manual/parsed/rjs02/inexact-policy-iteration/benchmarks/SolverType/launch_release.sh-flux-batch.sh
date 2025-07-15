@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="iPI Benchmark"
+#FLUX: --job-name=iPI Benchmark
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 module purge

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-frito-6728
+#FLUX: --job-name=chunky-butter-6368
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cgpu
 module load python3/3.9-anaconda-2021.11

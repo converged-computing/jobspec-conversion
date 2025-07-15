@@ -2,7 +2,7 @@
 #FLUX: --job-name=debug
 #FLUX: -c=8
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$JOBSCRATCH'
 export PYTHONPATH='src:${PYTHONPATH}'

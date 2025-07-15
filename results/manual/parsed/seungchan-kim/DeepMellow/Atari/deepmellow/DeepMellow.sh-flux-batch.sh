@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-underoos-7971
-#FLUX: --priority=16
+#FLUX: --job-name=phat-parrot-5514
+#FLUX: --urgency=16
 
 module load tensorflow/1.5.0_gpu_py3
 module load cuda/9.0.176

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-nalgas-7080
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-blackbean-1008
+#FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

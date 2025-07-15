@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=freebayes
 #FLUX: --queue=general
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 hostname
 date

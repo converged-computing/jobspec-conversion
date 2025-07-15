@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-peanut-7253
+#FLUX: --job-name=red-egg-3448
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IGNORE_CC_MISMATCH='1'
 

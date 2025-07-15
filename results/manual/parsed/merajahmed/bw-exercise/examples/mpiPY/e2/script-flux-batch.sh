@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-underoos-7096
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-underoos-5908
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/merajahmed/bw-exercise/examples/mpiPY/e2/script

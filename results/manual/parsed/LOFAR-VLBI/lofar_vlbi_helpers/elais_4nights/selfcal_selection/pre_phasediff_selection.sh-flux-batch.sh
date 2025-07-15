@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-cinnamonbun-2643
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-parrot-4281
+#FLUX: --urgency=16
 
 MSLIST=$1
 BIND=$( python3 $HOME/parse_settings.py --BIND ) # SEE --> https://github.com/jurjen93/lofar_vlbi_helpers/blob/main/parse_settings.py

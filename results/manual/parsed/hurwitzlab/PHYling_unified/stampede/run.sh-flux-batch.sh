@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-kerfuffle-8082
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-house-5257
+#FLUX: --urgency=16
 
 module load tacc-singularity
 set -u

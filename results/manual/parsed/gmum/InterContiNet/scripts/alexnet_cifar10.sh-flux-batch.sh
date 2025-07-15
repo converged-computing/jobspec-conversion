@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=interval_cl
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source .env
 trap "kill 0" INT

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="ast-esc50"
-#FLUX: --priority=16
+#FLUX: --job-name=ast-esc50
+#FLUX: --urgency=16
 
 export TORCH_HOME='../../pretrained_models'
 

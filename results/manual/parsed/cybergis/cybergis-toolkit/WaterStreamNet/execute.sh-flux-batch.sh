@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fork-4407
+#FLUX: --job-name=muffled-platanos-9646
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module use /data/cigi/common/cigi-modules

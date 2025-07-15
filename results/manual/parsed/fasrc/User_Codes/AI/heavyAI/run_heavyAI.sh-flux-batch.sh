@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-spoon-5018
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-cattywampus-4326
+#FLUX: --urgency=16
 
 export container_image='/n/singularity_images/OOD/omnisci/heavyai-ee-cuda_v7.2.2.sif'
 export SING_BINDS='$SING_BINDS -B ${HEAVYAIBASE}/var/lib/heavyai:/var/lib/heavyai '

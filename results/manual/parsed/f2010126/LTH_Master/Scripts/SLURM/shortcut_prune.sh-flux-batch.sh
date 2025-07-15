@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-earthworm-4586
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-lemur-9101
+#FLUX: --urgency=16
 
 cd $(ws_find lth_ws)
 source lth_env/bin/activate

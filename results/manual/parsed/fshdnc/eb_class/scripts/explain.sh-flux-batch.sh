@@ -2,7 +2,7 @@
 #FLUX: --job-name=train
 #FLUX: --queue=test
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SING_IMAGE='$(pwd)/eb_class_latest.sif'
 export TRANSFORMERS_CACHE='$(realpath cache)'

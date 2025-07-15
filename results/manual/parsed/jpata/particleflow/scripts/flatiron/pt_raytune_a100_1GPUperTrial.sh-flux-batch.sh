@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-leader-1177
+#FLUX: --job-name=dirty-noodle-9743
 #FLUX: -c=64
 #FLUX: --gpus-per-task=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

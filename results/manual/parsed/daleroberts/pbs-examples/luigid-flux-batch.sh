@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cat-1805
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-platanos-6982
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/daleroberts/pbs-examples/luigid

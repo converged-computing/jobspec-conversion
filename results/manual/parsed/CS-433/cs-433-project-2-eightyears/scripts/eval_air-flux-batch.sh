@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leader-4999
+#FLUX: --job-name=conspicuous-animal-1057
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo START BY $USER AT `date`
 nvidia-smi

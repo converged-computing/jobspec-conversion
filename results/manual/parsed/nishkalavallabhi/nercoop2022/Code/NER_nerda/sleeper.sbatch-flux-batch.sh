@@ -4,7 +4,7 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu_v100
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Sleeping for 10000 seconds..." 
 sleep 10000

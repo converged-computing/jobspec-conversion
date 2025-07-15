@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lizard-0326
+#FLUX: --job-name=hello-bits-3689
 #FLUX: -N=8
 #FLUX: --queue=snb
 #FLUX: -t=46800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 export mpi_ranks='8'

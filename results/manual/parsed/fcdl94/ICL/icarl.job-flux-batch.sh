@@ -2,7 +2,7 @@
 #FLUX: --job-name=icarl_5
 #FLUX: -c=2
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ $# -ne 1 ]; then
   exit

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-parrot-0466
-#FLUX: --priority=16
+#FLUX: --job-name=grated-staircase-6035
+#FLUX: --urgency=16
 
 module load gcc
 usage() {

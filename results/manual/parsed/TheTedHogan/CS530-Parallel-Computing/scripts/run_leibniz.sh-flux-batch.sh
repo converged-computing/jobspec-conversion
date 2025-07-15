@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lamp-0439
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-dog-6541
+#FLUX: --urgency=16
 
 module load gcc/10.2.0
 module load cmake/gcc/3.18.0

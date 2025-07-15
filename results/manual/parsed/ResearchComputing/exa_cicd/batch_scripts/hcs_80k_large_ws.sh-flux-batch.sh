@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-bits-7840
+#FLUX: --job-name=nerdy-avocado-8041
 #FLUX: -N=9
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export COMMIT='$1'
 export MFIX='/app/mfix/build/mfix/mfix'

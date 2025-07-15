@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-fudge-5276
+#FLUX: --job-name=goodbye-lemon-8783
 #FLUX: -N=2
 #FLUX: --queue=normal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /user-environment/modules
 module --ignore-cache load blaspp camp cosma cray-mpich-gcc cuda dbcsr doxygen \

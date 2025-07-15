@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-parrot-9065
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-pedo-2641
+#FLUX: --urgency=16
 
 export PATH='/es01/paratera/sce3063/lammps/lammps-2Aug2023/src:$PATH'
 

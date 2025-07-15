@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gmgpolar     # create a short name for your job
+#FLUX: --job-name=gmgpolar
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 debug=0
 v1=1

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cpl_cors
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export STARTD='`grep "time_init=" $CONFIG | awk '{printf("%1s", $1)}' | tail -c11 | head -c10` '
 export DURATION='`grep "^duration=" $CONFIG | sed s/duration=// | awk '{printf("%d", $1)}' `'

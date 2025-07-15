@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-gato-1214
+#FLUX: --job-name=tart-onion-2285
 #FLUX: -N=4
 #FLUX: -n=12
 #FLUX: --queue=west
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

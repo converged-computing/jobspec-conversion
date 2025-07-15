@@ -4,7 +4,7 @@
 #FLUX: -n=4
 #FLUX: --queue=batch
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_btl='^openib'
 export IMAGE='$PWD/horovod_gpu_0192.sif'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=oly_stringtie
 #FLUX: --queue=srlab
 #FLUX: -t=2160000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module load intel-python3_2017

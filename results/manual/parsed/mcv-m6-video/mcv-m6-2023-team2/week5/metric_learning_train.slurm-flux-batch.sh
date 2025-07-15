@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-onion-8192
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-poo-2073
+#FLUX: --urgency=16
 
 python train_metric_learning.py \
     --loss "triplet"  \

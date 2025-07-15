@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-house-7410
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-animal-8685
+#FLUX: --urgency=16
 
 export gComDir='$HOME/gkylsoft/gkyl/bin'
 

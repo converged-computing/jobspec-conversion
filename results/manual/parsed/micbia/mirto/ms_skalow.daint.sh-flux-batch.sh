@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ms
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 module load gcc/9.3.0

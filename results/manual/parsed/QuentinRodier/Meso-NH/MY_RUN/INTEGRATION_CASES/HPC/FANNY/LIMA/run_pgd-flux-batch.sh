@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-arm-1302
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-kerfuffle-8170
+#FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 128'
 

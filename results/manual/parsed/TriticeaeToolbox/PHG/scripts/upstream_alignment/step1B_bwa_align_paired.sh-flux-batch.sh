@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="bwa-align-paired" #name of the job submitted
-#FLUX: --priority=16
+#FLUX: --job-name=bwa-align-paired
+#FLUX: --urgency=16
 
 module load samtools/1.9
 module load miniconda/3.6

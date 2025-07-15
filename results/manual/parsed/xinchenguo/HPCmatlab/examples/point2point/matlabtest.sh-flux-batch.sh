@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-peas-2958
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-blackbean-8198
+#FLUX: --urgency=16
 
 export MATLABPATH='../../matlab'
 

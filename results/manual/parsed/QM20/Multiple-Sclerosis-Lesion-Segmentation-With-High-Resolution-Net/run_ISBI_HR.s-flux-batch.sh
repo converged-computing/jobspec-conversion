@@ -2,7 +2,7 @@
 #FLUX: --job-name=ISBI_HR_aug
 #FLUX: -c=12
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load all

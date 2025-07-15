@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=slurm-jupyter-job
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KUBE_IMAGE='KUBE_IMAGE=registry.local:31500/slurm-tensorflow:latest'
 

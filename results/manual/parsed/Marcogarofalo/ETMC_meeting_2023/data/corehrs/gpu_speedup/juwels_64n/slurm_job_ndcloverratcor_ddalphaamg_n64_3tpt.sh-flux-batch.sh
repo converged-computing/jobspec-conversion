@@ -4,7 +4,7 @@
 #FLUX: -c=3
 #FLUX: --exclusive
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='3'
 export OMP_PROC_BIND='close'

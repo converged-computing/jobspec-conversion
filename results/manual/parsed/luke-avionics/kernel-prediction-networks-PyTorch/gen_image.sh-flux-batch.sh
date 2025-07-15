@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-parrot-9416
+#FLUX: --job-name=crusty-poo-4032
 #FLUX: -c=46
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 /bin/bash
 conda activate hetero_mod

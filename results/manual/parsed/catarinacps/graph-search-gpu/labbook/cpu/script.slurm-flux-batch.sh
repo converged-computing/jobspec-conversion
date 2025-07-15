@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-salad-1722
+#FLUX: --job-name=swampy-cinnamonbun-0652
 #FLUX: --queue=draco
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH'
 export PATH='$PATH'

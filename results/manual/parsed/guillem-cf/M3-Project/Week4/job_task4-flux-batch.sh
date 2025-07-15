@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-despacito-1273
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-fudge-9563
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate m3

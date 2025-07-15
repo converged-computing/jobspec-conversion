@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-arm-8380
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-cupcake-1425
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CasperAntonPoulsen/Thesis-Synthex/jobs/lsf10/shap/shap_values.job

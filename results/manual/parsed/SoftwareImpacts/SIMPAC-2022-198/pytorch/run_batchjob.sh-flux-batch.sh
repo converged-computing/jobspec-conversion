@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-leader-9544
+#FLUX: --job-name=arid-taco-9630
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 
 module load pytorch/1.11

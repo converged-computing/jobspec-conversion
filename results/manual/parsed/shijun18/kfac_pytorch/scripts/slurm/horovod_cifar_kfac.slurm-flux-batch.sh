@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-animal-5098
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-salad-6134
+#FLUX: --urgency=16
 
 mkdir -p sbatch_logs
 source $SCRATCH/anaconda3/bin/activate pytorch

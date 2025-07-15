@@ -2,7 +2,7 @@
 #FLUX: --job-name=logs/build-mpi4jax
 #FLUX: -c=36
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ROOTDIR='/bask/projects/f/ffnr0871-rfi-test/pje39613'
 export SINGULARITY_CACHEDIR='$ROOTDIR/.singularity-cache'

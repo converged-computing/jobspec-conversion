@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-muffin-7140
-#FLUX: --priority=16
+#FLUX: --job-name=tart-squidward-2189
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Fettpet/picongpu/src/picongpu/submit/joker-tud/tesla.tpl

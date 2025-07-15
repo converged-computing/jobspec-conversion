@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-destiny-5865
+#FLUX: --job-name=pusheena-lemur-0258
 #FLUX: --queue=scavenger
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate nanoclust

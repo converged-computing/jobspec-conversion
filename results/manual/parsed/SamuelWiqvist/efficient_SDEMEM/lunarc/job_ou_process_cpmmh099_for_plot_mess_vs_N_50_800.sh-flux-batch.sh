@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-poo-7194
+#FLUX: --job-name=purple-signal-1180
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'
 

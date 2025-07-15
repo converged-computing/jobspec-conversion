@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=general
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload amd/aocc/4.0.0  amd/aocl/aocc/4.0  penguin/openmpi/4.1.4/aocc
 module load intel/compiler/latest

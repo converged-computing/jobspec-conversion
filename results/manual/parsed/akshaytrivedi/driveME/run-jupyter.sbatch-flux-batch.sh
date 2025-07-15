@@ -2,7 +2,7 @@
 #FLUX: --job-name=jupyterTest2
 #FLUX: -c=4
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load jupyter-kernels/py2.7
 module load scikit-image/intel/0.13.1

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-puppy-0469
+#FLUX: --job-name=bumfuzzled-banana-8903
 #FLUX: -N=2
 #FLUX: -n=8
 #FLUX: -c=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BERT_DIR='/path/to/git_clone/DeepLearningExamples/TensorFlow/LanguageModeling/BERT_nonscaling/'
 export OUTPUT_DIR='/path/to/output/'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-peanut-butter-1530
+#FLUX: --job-name=creamy-peanut-0816
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MIOPEN_USER_DB_PATH='/tmp/tensorflow-miopen-${USER}-2.8'
 export MIOPEN_DEBUG_DISABLE_FIND_DB='1'

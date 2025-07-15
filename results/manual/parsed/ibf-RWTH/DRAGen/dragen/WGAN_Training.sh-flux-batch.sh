@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=WGAN
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$CONDA_ROOT/bin:$PATH'
 

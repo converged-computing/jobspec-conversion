@@ -2,7 +2,7 @@
 #FLUX: --job-name=cs3730-dataset
 #FLUX: --queue=a100
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/8.2.0 python/anaconda3.10-2022.10
 source activate cs3730

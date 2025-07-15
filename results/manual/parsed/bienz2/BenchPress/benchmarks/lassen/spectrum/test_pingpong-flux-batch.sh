@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-signal-4019
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-punk-1576
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/benchmarks/lassen/spectrum/test_pingpong

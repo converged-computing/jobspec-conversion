@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lettuce-4474
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-buttface-7987
+#FLUX: --urgency=16
 
 usage() {
   test $# = 0 || echo "$@"

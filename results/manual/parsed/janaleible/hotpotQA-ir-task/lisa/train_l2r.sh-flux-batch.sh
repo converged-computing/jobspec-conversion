@@ -3,7 +3,7 @@
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$CUDA_HOME/lib64:/hpc/eb/Debian9/cuDNN/7.1-CUDA-8.0.4'
 

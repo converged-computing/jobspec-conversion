@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-blackbean-9395
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-kitty-6846
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

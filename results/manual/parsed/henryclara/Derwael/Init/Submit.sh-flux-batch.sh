@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-parrot-5073
+#FLUX: --job-name=spicy-house-6357
 #FLUX: -n=100
 #FLUX: --queue=compute
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

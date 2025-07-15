@@ -3,7 +3,7 @@
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared_course
 #FLUX: -t=162000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='/usr/local/cuda-10.0'
 export PATH='${CUDA_HOME}/bin:${PATH}'

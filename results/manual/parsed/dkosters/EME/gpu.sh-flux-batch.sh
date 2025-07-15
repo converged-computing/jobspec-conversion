@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pot-3508
-#FLUX: --priority=16
+#FLUX: --job-name=red-mango-4677
+#FLUX: --urgency=16
 
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'
 

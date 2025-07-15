@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-knife-9992
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-peanut-1530
+#FLUX: --urgency=16
 
 vid="025_FL_R.MOV"
 cp -r $HOME/motion-analysis $TMPDIR

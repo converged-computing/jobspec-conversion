@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-carrot-8182
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-carrot-6669
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CasperAntonPoulsen/KnowledgeDistillation/Tk-Instruct/jobs/eval_bloom_spanish.job

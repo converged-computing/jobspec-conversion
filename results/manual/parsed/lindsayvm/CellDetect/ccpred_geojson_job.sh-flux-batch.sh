@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=a6000
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 JOBS_SOURCE="/home/l.leek/src/CellDetect/"
 SINGULARITYIMAGE="/home/l.leek/docker_singularity_images/u20c114s.sif"

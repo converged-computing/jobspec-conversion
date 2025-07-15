@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-malarkey-2103
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-cherry-8897
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/cuda/9.0/lib64:/opt/cuda/9.0/cudnn/7.0/lib64'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chair-7347
+#FLUX: --job-name=adorable-poodle-6157
 #FLUX: -N=2
 #FLUX: --queue=nvgpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_MAX_THREAD_SAFETY='multiple'
 export MIMALLOC_EAGER_COMMIT_DELAY='0'

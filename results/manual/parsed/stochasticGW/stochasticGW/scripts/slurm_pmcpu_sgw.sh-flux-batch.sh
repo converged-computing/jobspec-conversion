@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-dog-0271
+#FLUX: --job-name=astute-hippo-9968
 #FLUX: -n=128
 #FLUX: -c=2
 #FLUX: -t=1799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

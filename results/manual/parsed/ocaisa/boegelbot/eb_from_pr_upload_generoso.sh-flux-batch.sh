@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-pancake-3708
+#FLUX: --job-name=persnickety-kerfuffle-5170
 #FLUX: -n=4
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='${EB_PREFIX}/easybuild-framework:${EB_PREFIX}/easybuild-easyblocks:${EB_PREFIX}/easybuild-easyconfigs'
 export PATH='${EB_PREFIX}/easybuild-framework:${HOME}/.local/bin:${PATH}'

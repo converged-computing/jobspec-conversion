@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-eagle-9588
+#FLUX: --job-name=cowy-toaster-8473
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 singularityImage="../fpadsim-v1.4.img"
 files=$(find input -iname "*.promc")

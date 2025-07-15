@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pot-2097
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-fudge-2232
+#FLUX: --urgency=16
 
 cd /data/03170/tg824689/BecksteinLab/scripts-DCD
 source activate daskMda

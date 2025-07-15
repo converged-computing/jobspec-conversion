@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lentil-8923
+#FLUX: --job-name=placid-cat-7927
 #FLUX: -c=4
 #FLUX: -t=504000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NSLOTS=$SLURM_JOB_CPUS_PER_NODE
 PROJECT_DIR=/project/projects/def-wyeth/RICHMOND/SIMULATION/

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-signal-2845
+#FLUX: --job-name=placid-punk-3533
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=learnlab
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dirs=(
     # "codellama-7b"

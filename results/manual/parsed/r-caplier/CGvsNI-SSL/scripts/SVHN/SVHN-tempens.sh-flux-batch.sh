@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pedo-2285
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-soup-8293
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/r-caplier/CGvsNI-SSL/scripts/SVHN/SVHN-tempens.sh

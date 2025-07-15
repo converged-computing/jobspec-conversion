@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bike-4139
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-taco-1229
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SchlossLab/Topcuoglu_ML_mBio_2020/Decision_Tree.pbs

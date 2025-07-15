@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-peas-5416
+#FLUX: --job-name=hanky-car-0981
 #FLUX: -n=4
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

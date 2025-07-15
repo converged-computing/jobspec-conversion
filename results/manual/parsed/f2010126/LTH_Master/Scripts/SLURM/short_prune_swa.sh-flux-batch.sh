@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cherry-1652
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-plant-3633
+#FLUX: --urgency=16
 
 cd $(ws_find lth_ws)
 source lth_env/bin/activate

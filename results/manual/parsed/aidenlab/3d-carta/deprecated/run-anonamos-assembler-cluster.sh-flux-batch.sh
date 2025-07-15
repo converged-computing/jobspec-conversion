@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chip-0011
-#FLUX: --priority=16
+#FLUX: --job-name=arid-punk-3249
+#FLUX: --urgency=16
 
 USAGE="
 *****************************************************
@@ -239,14 +239,6 @@ exit
 			slurm)
 				jid=`sbatch <<- MAP | egrep -o -e "\b[0-9]+$"
 				#!/bin/bash -l
-				#SBATCH -p $long_queue
-				#SBATCH -t 1440
-				#SBATCH -c 8
-				#SBATCH --ntasks=1
-				#SBATCH --mem-per-cpu=25G
-				#SBATCH -o $debugDir/map-%j.out
-				#SBATCH -e $debugDir/map-%j.err
-				#SBATCH -J "${groupname}_map_${jname}"
 				${sbatch_wait}
 				$cmd
 				MAP`
@@ -276,13 +268,6 @@ if [ "$skip_addref" = false ]; then
 		fi
 		jid=`sbatch <<- ADDREF | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $queue
-		#SBATCH -o $debugDir/addref-%j.out
-		#SBATCH -e $debugDir/addref-%j.err
-		#SBATCH -t 1200
-		#SBATCH -c 1
-		#SBATCH --ntasks=1
-		#SBATCH -J "${groupname}_addref_${jname}"
 		${sbatch_wait}
 		srun bash ${add_ref_script} ${debugDir}"/cprops_partition.$i.txt" ${reference}
 		ADDREF`
@@ -301,14 +286,6 @@ if [ "$skip_reduce" = false ]; then
 		fi
 		jid=`sbatch <<- reduce | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $queue
-		#SBATCH -o $debugDir/reduce-%j.out
-		#SBATCH -e $debugDir/reduce-%j.err
-		#SBATCH -t 1440
-		#SBATCH -n 1
-		#SBATCH --ntasks=1
-		#SBATCH --mem-per-cpu=32G
-		#SBATCH -J "${groupname}_reduce_${jname}"
 		${sbatch_wait}
 		srun bash ${reduce_script} ${debugDir}"/cprops_partition.$i.txt" ${consensus_threshold}
 		reduce`

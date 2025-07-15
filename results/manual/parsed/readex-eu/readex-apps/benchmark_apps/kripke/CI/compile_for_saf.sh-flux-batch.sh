@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-soup-0768
+#FLUX: --job-name=salted-squidward-2259
 #FLUX: -c=24
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CXX='scorep --nomemory $READEX_CXX'
 

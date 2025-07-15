@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-pot-7758
+#FLUX: --job-name=expensive-hope-0335
 #FLUX: --queue=long
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'

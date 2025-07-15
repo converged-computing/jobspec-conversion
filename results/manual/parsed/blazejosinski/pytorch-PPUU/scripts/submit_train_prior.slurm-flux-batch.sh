@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_prior
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python-3.6
 cd ../

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lemur-7951
-#FLUX: --priority=16
+#FLUX: --job-name=red-cherry-5486
+#FLUX: --urgency=16
 

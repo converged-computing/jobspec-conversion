@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-bicycle-8393
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-butter-9298
+#FLUX: --urgency=16
 
 set -x
 source /home1/01082/smattis/src/proteus/envConfig

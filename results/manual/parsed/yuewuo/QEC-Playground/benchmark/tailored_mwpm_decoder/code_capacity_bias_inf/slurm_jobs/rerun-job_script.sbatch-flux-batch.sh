@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=scavenge
 #FLUX: -t=44400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ "$SLURM_ARRAY_TASK_ID" == "0" ]; then /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/backend/rust/target/release/rust_qecp tool benchmark '[3]' --djs '[3]' '[0]' -m100000000 -e40000 '[4.00000000e-01]' -p12 --time_budget 3600 --code_type RotatedTailoredCode --bias_eta 1e200 --decoder tailored-mwpm --decoder_config '{"pcmg":true}' || exit 91; fi
 if [ "$SLURM_ARRAY_TASK_ID" == "1" ]; then /gpfs/loomis/project/lin_zhong/yw729/QEC-Playground/backend/rust/target/release/rust_qecp tool benchmark '[3]' --djs '[3]' '[0]' -m100000000 -e40000 '[3.15478672e-01]' -p12 --time_budget 3600 --code_type RotatedTailoredCode --bias_eta 1e200 --decoder tailored-mwpm --decoder_config '{"pcmg":true}' || exit 91; fi

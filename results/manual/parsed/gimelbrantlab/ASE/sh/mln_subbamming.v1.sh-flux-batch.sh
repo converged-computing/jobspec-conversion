@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-kerfuffle-5813
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-bike-3759
+#FLUX: --urgency=16
 
 module load gcc python R/3.4.1 samtools/1.3.1 star
 DIR=$2

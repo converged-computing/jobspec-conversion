@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-omelette-8013
-#FLUX: --priority=16
+#FLUX: --job-name=red-poodle-7526
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pseudotensor/rt/bsub_scripts/qu2.bsub

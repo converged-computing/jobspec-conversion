@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=cf1
 #FLUX: -t=1230
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity/3.2.1
 echo "module loaded"

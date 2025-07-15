@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-banana-4176
+#FLUX: --job-name=adorable-egg-9822
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Java/1.8.0_121
 module load GATK/4.0.0.0-Java-1.8.0_121

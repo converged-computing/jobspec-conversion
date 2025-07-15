@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-general-0374
+#FLUX: --job-name=muffled-bits-5997
 #FLUX: -c=4
 #FLUX: --queue=savio2_gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

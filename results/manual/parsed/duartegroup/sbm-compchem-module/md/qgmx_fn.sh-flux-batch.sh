@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-despacito-5930
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-puppy-1649
+#FLUX: --urgency=16
 
 qgmx () {
     echo '#!/bin/bash' > qgmx.sh

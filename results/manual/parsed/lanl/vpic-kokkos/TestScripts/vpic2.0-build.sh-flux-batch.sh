@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-soup-5905
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-mango-5918
+#FLUX: --urgency=16
 
 export CRAYPE_LINK_TYPE='dynamic '
 export NVCC_WRAPPER_DEFAULT_COMPILER='CC'

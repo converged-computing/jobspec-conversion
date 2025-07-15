@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lamp-2775
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-earthworm-1284
+#FLUX: --urgency=16
 
 module unload gromacs
 module load gromacs/2020.2

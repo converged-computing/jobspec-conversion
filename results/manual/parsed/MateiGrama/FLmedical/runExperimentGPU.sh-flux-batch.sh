@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-despacito-9590
-#FLUX: --priority=16
+#FLUX: --job-name=fat-poo-3097
+#FLUX: --urgency=16
 
 source /vol/bitbucket/mgg17/diss/venv/bin/activate
 source /vol/cuda/10.0.130/setup.sh

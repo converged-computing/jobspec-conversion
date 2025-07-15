@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-dog-4210
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-cattywampus-9369
+#FLUX: --urgency=16
 
 module load spark
 module load sbt

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-soup-8682
+#FLUX: --job-name=boopy-despacito-7241
 #FLUX: -c=8
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FB='$1'
 export SINGULARITY_BIND=''

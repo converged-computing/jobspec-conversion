@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-knife-2590
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-parrot-0385
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MLGlobalHealth/longi_viral_loads/run_postprocessing

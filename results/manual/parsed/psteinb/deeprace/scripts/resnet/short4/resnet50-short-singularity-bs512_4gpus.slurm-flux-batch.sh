@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-fudge-0643
+#FLUX: --job-name=blue-plant-8441
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

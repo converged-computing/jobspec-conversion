@@ -4,7 +4,7 @@
 #FLUX: -c=6
 #FLUX: --queue=salvador
 #FLUX: -t=85800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nvidia-smi
 hostname

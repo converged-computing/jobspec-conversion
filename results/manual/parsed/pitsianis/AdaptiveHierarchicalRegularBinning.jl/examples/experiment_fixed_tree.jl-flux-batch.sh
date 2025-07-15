@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-platanos-0659
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-destiny-7128
+#FLUX: --urgency=16
 
 echo julia --project=. -t$SLURM_CPUS_PER_TASK --compiled-modules=no $(scontrol show job=$SLURM_JOBID | awk -F= '/Command=/{print $2}')
 julia --project=. -t$SLURM_CPUS_PER_TASK --compiled-modules=no $(scontrol show job=$SLURM_JOBID | awk -F= '/Command=/{print $2}')

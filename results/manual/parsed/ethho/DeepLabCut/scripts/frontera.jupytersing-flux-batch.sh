@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-signal-5003
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-eagle-2344
+#FLUX: --urgency=16
 
 SIMG=/work/06634/eho/singularity_images/deeplabcut_2_1_10.sif
 while getopts "i" opt

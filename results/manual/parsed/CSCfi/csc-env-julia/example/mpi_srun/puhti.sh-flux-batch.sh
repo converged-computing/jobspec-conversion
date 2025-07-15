@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=test
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load julia/1.8.5
 srun julia --project=. test.jl

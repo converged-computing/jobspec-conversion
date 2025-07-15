@@ -1,15 +1,16 @@
 #!/bin/bash
 
 # set the number of nodes
-#SBATCH --time=24:00:00
-#SBATCH --job-name=single_core
-#SBATCH --nodes=2
-#SBATCH --ntasks-per-node=4
-#SBATCH --partition=htc
-##SBATCH --mem=32768
+#SBATCH --nodes=1
+# set max wallclock time
+#SBATCH --time=24:00:00 # set name of job
+#SBATCH -J msweep
+
+#small for 1 gpu, big for 4 or 8
+#SBATCH --partition=big
 
 # set number of GPUs
-#SBATCH --gres=gpu:p100:4
+#SBATCH --gres=gpu:8
 
 # mail alert at start, end and abortion of execution
 #SBATCH --mail-type=ALL
@@ -35,7 +36,6 @@
 #vars=(20000 30000 40000)
 #vars=(none max avg)
 #vars=(mnist cifar)
-#vars=(mnist)
 #vars=(EMNIST)
 
 #net=vgg16
@@ -47,22 +47,28 @@
 #rm $filename
 #echo '#!/bin/bash' > $filename
 ##echo './meta_script '${net}' '${vars[$SLURM_ARRAY_TASK_ID]} >> $filename
-#echo './meta_script_msweep '${vars[$SLURM_ARRAY_TASK_ID]}' fc none 4' >> $filename
+##echo './meta_script_msweep_jade '${vars[$SLURM_ARRAY_TASK_ID]}' cnn none 8' >> $filename
+##echo './meta_script_msweep_jade '${vars[$SLURM_ARRAY_TASK_ID]}' fc none 8' >> $filename
+#echo './meta_script_msweep_jade2 '${vars[$SLURM_ARRAY_TASK_ID]}' resnet50 max 8' >> $filename
 #chmod +x $filename
-module load anaconda3/2019.03
-module load gpu/cuda/10.0.130
-module load gpu/cudnn/7.5.0__cuda-10.0
-module load mpi
- 
-source activate $DATA/tensor-env
-#./meta_script_msweep_arc ${vars[$SLURM_ARRAY_TASK_ID]} fc none 1
-./meta_script_msweep_arc mnist fc none 1
+
+dataset=$1
+network=$2
+pool=$3
+n=$4
+m=$5
+
+filename=${dataset}_${network}_${pool}.sh
+rm $filename
+echo '#!/bin/bash' > $filename
+echo '/home_directory/nn-pacbayes/meta_script_msweep_jade2 '${dataset}' '${network}' '${pool}' '${n}' '${m} >> $filename
+chmod +x $filename
 
 #/jmain01/apps/docker/tensorflow-batch -v 18.07-py3 -c ./densenet201.sh
 #/jmain01/apps/docker/tensorflow-batch -v 18.07-py3 -c ./meta_script
 #/jmain01/apps/docker/tensorflow-batch -v 18.07-py3 -c ./meta_script_layer_sweep
 
-#/jmain01/apps/docker/tensorflow-batch -v 19.09-py3 -c $filename
+/jmain01/apps/docker/tensorflow-batch -v 19.09-py3 -c $filename
 
 #/jmain01/apps/docker/tensorflow-batch -v 18.07-py3 -c $(echo ./meta_script $net vars[$SLURM_ARRAY_TASK_ID])
 #/jmain01/apps/docker/tensorflow-batch -v 19.05-py2 -c $(echo ./meta_script $net vars[$SLURM_ARRAY_TASK_ID])

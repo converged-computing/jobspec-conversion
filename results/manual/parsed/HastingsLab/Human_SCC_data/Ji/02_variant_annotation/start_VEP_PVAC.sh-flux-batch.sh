@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=Merge  # Job name
-#FLUX: --priority=16
+#FLUX: --job-name=Merge
+#FLUX: --urgency=16
 
 source activate vep_env
 module load bcftools-1.14-gcc-11.2.0

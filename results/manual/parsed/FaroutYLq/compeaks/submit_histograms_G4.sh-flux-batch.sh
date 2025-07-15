@@ -2,7 +2,7 @@
 #FLUX: --job-name=hist_photons_G4
 #FLUX: --queue=dali
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 OPTICS=$1
 eval "$(/dali/lgrandi/strax/miniconda3/bin/conda shell.bash hook)"

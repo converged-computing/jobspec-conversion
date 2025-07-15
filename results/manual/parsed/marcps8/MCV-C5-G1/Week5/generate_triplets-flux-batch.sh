@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-kitty-9319
-#FLUX: --priority=16
+#FLUX: --job-name=blank-dog-9157
+#FLUX: --urgency=16
 
 python triplets_generator.py

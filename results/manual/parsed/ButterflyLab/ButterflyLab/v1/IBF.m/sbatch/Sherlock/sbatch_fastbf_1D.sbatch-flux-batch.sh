@@ -2,7 +2,7 @@
 #FLUX: --job-name=fastbf_1D
 #FLUX: --queue=bigmem
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load matlab
 cd ../../test/fio

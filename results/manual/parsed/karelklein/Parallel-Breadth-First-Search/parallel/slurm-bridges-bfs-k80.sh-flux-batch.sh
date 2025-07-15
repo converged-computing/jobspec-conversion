@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-destiny-3235
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-underoos-8764
+#FLUX: --urgency=16
 
 module use /home/tisaac/opt/modulesfiles
 module load petsc/cse6230-double

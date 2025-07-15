@@ -2,7 +2,7 @@
 #FLUX: --job-name=gamma
 #FLUX: -c=25
 #FLUX: -t=345540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /N/u/baotruon/Carbonate/miniconda3/etc/profile.d/conda.sh
 conda activate graph

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-snack-1580
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-buttface-3729
+#FLUX: --urgency=16
 
 source ~/.bash_profile
 cd /mnt/ceph/users/apricewhelan/projects/gaia-actions/scripts

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mima-compile
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD='${FC}'
 export CC_SPP='${CC}'

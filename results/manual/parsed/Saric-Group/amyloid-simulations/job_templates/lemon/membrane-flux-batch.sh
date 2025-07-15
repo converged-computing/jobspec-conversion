@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-noodle-5350
-#FLUX: --priority=16
+#FLUX: --job-name=confused-leopard-4746
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Saric-Group/amyloid-simulations/job_templates/lemon/membrane

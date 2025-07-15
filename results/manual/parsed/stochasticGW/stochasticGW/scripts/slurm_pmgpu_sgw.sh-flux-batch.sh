@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-leader-6533
+#FLUX: --job-name=adorable-lizard-7297
 #FLUX: -n=4
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1
 #FLUX: -t=1799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

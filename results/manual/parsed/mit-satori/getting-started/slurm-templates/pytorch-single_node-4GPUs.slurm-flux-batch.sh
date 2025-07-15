@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-gato-4790
+#FLUX: --job-name=persnickety-banana-0791
 #FLUX: --exclusive
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

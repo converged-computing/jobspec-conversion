@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-puppy-2121
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-carrot-6814
+#FLUX: --urgency=16
 
 module purge
 module load Python

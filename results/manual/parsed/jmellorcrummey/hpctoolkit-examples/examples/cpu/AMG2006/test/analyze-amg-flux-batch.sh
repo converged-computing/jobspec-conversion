@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-carrot-0687
+#FLUX: --job-name=scruptious-toaster-2795
 #FLUX: --exclusive
 #FLUX: --queue=interactive
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load OpenMPI
 hpcstruct amg2006 

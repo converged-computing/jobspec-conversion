@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-spoon-6165
-#FLUX: --priority=16
+#FLUX: --job-name=angry-puppy-9212
+#FLUX: --urgency=16
 
 ml PDC/22.06
 ml matlab/r2023a

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-frito-5003
+#FLUX: --job-name=stanky-egg-1518
 #FLUX: -c=8
 #FLUX: --queue=serial_std
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load charliecloud

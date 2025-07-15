@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-general-6166
+#FLUX: --job-name=moolicious-chip-4976
 #FLUX: --exclusive
 #FLUX: --queue=a3mega
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 : "${NEMOFW_VERSION:=23.11}"
 srun docker build --build-arg="NEMOFW_VERSION=${NEMOFW_VERSION}" -t nemofw:tcpxo-"${NEMOFW_VERSION}" .

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=JOBNAME
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 OUTPUT=/path/to/output/folder/NanoRCS/output/processed_data/00_preprocessing_sarek_tissue_vcf/variant_calling/SAMPLES
 if [[ ! -d $OUTPUT ]]; then

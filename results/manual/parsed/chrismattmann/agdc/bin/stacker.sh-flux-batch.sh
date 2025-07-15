@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-muffin-9602
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-soup-2592
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/chrismattmann/agdc/bin/stacker.sh

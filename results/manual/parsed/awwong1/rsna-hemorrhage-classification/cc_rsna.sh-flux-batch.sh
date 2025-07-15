@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-rabbit-6933
+#FLUX: --job-name=sticky-avocado-0605
 #FLUX: -c=16
 #FLUX: -t=1380
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load arch/avx512 StdEnv/2018.3
 nvidia-smi

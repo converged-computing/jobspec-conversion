@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-leader-1558
-#FLUX: --priority=16
+#FLUX: --job-name=confused-leader-4844
+#FLUX: --urgency=16
 
 export DISPLAY=':${VNC_DISPLAY}'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-parrot-5023
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-nalgas-1383
+#FLUX: --urgency=16
 
 echo "neuralGIF pytorch implementation"
 cd /BS/garvita/work/code/neuralgif

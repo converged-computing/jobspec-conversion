@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-punk-8356
+#FLUX: --job-name=expensive-snack-4039
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export R_CROP='FALSE'
 export R_AGGR='TRUE'

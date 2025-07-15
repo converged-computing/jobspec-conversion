@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lizard-5418
+#FLUX: --job-name=expensive-squidward-6873
 #FLUX: -N=2
 #FLUX: -c=10
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_CUDA_SUPPORT='0'

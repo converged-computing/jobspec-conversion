@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Diffusion
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 conda activate pytorch
 nvidia-smi

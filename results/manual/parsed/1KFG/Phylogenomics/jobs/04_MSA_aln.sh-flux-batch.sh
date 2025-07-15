@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MSA
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load trimal
 module load muscle

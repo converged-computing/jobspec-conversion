@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="rnaseq_projectname"
+#FLUX: --job-name=rnaseq_projectname
 #FLUX: -n=50
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 OUTDIR="/home/storage/DataLake/WIP/RNASeq/outdir_projectname"
 WORKDIR="/home/cache/work_dias/"

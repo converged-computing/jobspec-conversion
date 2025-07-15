@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-leader-2658
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-cat-8965
+#FLUX: --urgency=16
 

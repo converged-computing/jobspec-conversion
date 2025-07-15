@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-spoon-0146
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-lettuce-8115
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/FAMILIAR-project/usampling-exp/analysis/usampling-reprocess/SMARCH.sh

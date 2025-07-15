@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-toaster-7852
+#FLUX: --job-name=doopy-pedo-2053
 #FLUX: -N=16
 #FLUX: --queue=cm2_std
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load slurm_setup
 module unload intel-mpi/2019-intel

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-blackbean-9934
-#FLUX: --priority=16
+#FLUX: --job-name=arid-butter-9383
+#FLUX: --urgency=16
 
 export PETSC_DIR='/usr/workspace/mcgurn4/petsc'
 export PETSC_ARCH='arch-ablate-opt" # arch-ablate-debug or arch-ablate-opt'

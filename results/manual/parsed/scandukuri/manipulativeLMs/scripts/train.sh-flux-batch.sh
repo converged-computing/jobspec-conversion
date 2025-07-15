@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-buttface-9969
+#FLUX: --job-name=crusty-train-2558
 #FLUX: -c=48
 #FLUX: --queue=cocoflops
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /scr/jphilipp/miniconda3/etc/profile.d/conda.sh
 conda activate py310-jphilipp 

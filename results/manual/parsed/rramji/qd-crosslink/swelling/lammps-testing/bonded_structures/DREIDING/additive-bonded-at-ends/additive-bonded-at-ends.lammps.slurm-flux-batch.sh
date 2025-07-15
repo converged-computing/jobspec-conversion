@@ -2,7 +2,7 @@
 #FLUX: --job-name=additive-bonded-at-ends
 #FLUX: --queue=shared
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 prefix=additive-bonded-at-ends
 rtemp=298

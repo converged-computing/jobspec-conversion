@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-fudge-8371
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-truffle-8192
+#FLUX: --urgency=16
 
 export HOME='/scratch/zt1/project/jpurcel8-prj/shared'
 export SOFTWARE_DIR='$HOME/fmriprep/software'

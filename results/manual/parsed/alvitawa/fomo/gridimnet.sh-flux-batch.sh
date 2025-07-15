@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-buttface-1535
+#FLUX: --job-name=wobbly-omelette-7669
 #FLUX: -c=18
 #FLUX: --queue=gpu
 #FLUX: -t=201600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$PWD'
 

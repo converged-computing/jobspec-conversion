@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-peas-6478
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-peanut-butter-8376
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/wum5/JaltGenome/bash_scripts/cegs_eval.sh

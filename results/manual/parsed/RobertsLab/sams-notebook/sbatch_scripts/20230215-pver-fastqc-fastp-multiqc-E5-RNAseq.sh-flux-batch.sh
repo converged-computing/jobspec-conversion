@@ -2,7 +2,7 @@
 #FLUX: --job-name=20230215-pver-fastqc-fastp-multiqc-E5-RNAseq
 #FLUX: --queue=srlab
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 fastq_pattern='*.fastq.gz'
 R1_fastq_pattern='*R1_001.fastq.gz'

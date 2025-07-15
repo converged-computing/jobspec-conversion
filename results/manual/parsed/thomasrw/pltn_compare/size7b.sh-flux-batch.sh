@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-fudge-9095
-#FLUX: --queue=defq-48core #temp during defq maintenance
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-soup-4002
+#FLUX: --queue=defq-48core
+#FLUX: --urgency=16
 
 export SUMO_HOME='/work/apps/sumo/share/sumo'
 

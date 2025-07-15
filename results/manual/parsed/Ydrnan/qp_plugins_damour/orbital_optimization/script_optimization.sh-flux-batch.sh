@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-parsnip-5330
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-lizard-3854
+#FLUX: --exclusive
+#FLUX: --urgency=16
 
 source /home/ydamour/qp2/quantum_package.rc # here 
 module load intel/2019.0

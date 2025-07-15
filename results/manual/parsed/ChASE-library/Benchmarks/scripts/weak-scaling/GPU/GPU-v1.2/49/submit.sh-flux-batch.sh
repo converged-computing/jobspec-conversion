@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=red-platanos-8141
+#FLUX: --job-name=frigid-bicycle-3515
 #FLUX: -N=49
 #FLUX: -n=49
 #FLUX: -c=12
-#FLUX: --queue=booster --gres=gpu:4
+#FLUX: --queue=booster
 #FLUX: -t=5400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export OMP_NUM_THREADS='${SRUN_CPUS_PER_TASK}'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="LEXTREME"
+#FLUX: --job-name=LEXTREME
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Workspace Anaconda3/2021.11-foss-2021a CUDA/11.3.0-GCC-10.2.0
 eval "$(conda shell.bash hook)"

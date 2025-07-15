@@ -2,7 +2,7 @@
 #FLUX: --job-name=ffs_256
 #FLUX: -c=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 2>&1 >/dev/null
 module load \

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-motorcycle-8835
+#FLUX: --job-name=dirty-parrot-1542
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export APPTAINERENV_NEWHOME='$(pwd)'
 

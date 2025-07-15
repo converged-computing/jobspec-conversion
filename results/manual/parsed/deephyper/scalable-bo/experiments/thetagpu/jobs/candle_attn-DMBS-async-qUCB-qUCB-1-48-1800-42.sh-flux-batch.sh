@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-salad-6223
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-destiny-4804
+#FLUX: --urgency=16
 

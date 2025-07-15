@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-poo-5082
+#FLUX: --job-name=crunchy-parrot-7681
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MIOPEN_DISABLE_CACHE='1'
 

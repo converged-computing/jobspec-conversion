@@ -3,7 +3,7 @@
 #FLUX: -n=3
 #FLUX: --queue=high
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load julia
 srun julia reduction.jl

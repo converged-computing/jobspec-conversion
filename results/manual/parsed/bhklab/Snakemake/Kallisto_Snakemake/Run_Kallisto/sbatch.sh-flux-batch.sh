@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=run_kallisto
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /cluster/home/sjahangi/.bashrc
 module load python3

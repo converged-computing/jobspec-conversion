@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cinnamonbun-7448
+#FLUX: --job-name=purple-egg-8207
 #FLUX: -c=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda3
 source activate

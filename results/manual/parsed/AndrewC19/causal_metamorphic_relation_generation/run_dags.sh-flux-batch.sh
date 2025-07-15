@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lemur-4060
+#FLUX: --job-name=faux-lamp-2348
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_EXPORT_ENV='ALL'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-kitty-2883
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-gato-7414
+#FLUX: --urgency=16
 
 MODEL_DIR=/home/paperspace/Insight
 DATA_DIR=/home/paperspace/Insight/CXR/5_part_all

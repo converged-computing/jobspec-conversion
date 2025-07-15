@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lizard-4414
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-rabbit-1872
+#FLUX: --urgency=16
 
 export PYTHONPATH='...'
 export OE_LICENSE='.../oe_license.txt'

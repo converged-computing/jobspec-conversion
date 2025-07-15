@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-leg-3637
+#FLUX: --job-name=joyous-carrot-1721
 #FLUX: -N=8
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ntpn=32
 jobname=optimize_bench

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fudge-0182
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-milkshake-5792
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='{n_threads}'
 

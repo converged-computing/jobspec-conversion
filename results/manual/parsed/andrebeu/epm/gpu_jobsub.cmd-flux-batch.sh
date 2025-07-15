@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-spoon-6356
-#FLUX: --priority=16
+#FLUX: --job-name=joyous-cherry-0856
+#FLUX: --urgency=16
 
 printf "\n\n\n --ntasks-per-node=1 -c=8 ntasks-per-socket=4 \n\n\n"
 CELLSIZE=${1}

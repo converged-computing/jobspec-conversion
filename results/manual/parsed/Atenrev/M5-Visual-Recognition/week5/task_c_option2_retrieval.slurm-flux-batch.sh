@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-nalgas-9548
-#FLUX: --priority=16
+#FLUX: --job-name=phat-hobbit-6279
+#FLUX: --urgency=16
 
 python run_retrieval.py \
     --mode symmetric  \

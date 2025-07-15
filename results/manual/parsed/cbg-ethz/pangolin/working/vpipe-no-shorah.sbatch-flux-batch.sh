@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="COVID-vpipe-cons"
+#FLUX: --job-name=COVID-vpipe-cons
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SNAKEMAKE_PROFILE='$(realpath ../profiles/smk-simple-slurm/ )'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lettuce-4530
-#FLUX: --priority=16
+#FLUX: --job-name=angry-staircase-8540
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cosmic-dawn/uvis-pipe/bin/pfixFlats.sh

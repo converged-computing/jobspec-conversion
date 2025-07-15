@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=devlab
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_API_KEY='fbb26fc8718b8e58d743b5cdcabaa2396656f773 '
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7 '

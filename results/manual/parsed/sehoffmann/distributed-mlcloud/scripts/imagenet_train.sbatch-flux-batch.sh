@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ImageNet
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 source $PREAMBLE

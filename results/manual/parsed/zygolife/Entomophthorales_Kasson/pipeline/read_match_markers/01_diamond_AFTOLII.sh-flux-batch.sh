@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-general-1586
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-bits-3352
+#FLUX: --urgency=16
 
 module load diamond
 module load workspace/scratch

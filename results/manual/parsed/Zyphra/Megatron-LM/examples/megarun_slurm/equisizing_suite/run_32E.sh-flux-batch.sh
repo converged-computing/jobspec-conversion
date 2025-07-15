@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=equiparam_32E
 #FLUX: -N=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 IB_INTERFACES=mlx5_0,mlx5_3,mlx5_4,mlx5_5,mlx5_6,mlx5_7,mlx5_8,mlx5_9
 srun --output=/mnt/shared/slurm_logs/equiparam/32E.log \

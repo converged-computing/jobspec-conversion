@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-blackbean-6210
+#FLUX: --job-name=butterscotch-itch-6657
 #FLUX: -c=2
 #FLUX: --queue=savio2_gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

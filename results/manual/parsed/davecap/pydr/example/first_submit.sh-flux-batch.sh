@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-leopard-2551
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-underoos-5897
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/davecap/pydr/example/first_submit.sh

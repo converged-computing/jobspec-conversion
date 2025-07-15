@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-soup-4592
+#FLUX: --job-name=spicy-poo-0813
 #FLUX: -c=6
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 date
 echo "Loading anaconda..."

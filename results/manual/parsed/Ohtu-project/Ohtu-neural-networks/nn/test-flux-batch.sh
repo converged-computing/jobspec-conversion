@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=test
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load Python cuDNN

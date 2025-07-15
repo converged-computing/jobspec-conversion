@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=test
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 source ~/.bash_profile

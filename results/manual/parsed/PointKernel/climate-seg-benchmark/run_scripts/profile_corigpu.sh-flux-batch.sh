@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-noodle-3081
+#FLUX: --job-name=pusheena-carrot-0903
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-bits-1291
+#FLUX: --job-name=frigid-pedo-0715
 #FLUX: --queue=mono
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.modules
 module load gcc

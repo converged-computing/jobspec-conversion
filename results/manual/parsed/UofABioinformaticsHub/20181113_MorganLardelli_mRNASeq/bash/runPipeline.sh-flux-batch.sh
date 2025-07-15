@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-bits-7822
+#FLUX: --job-name=swampy-pot-2651
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CORES=16
 module load FastQC/0.11.7

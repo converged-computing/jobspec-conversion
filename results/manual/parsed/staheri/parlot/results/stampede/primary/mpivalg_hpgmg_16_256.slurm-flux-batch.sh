@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bits-5382
-#FLUX: --priority=16
+#FLUX: --job-name=placid-ricecake-0203
+#FLUX: --urgency=16
 
 export PATH='$PATH:$HOME/apps/valgrind/bin'
 

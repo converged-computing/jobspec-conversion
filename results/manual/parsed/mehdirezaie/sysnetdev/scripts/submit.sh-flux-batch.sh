@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-despacito-7632
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-avocado-4835
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mehdirezaie/sysnetdev/scripts/submit.sh

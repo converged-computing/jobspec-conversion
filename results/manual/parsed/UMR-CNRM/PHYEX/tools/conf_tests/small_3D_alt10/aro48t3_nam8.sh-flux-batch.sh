@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-blackbean-0972
-#FLUX: --priority=16
+#FLUX: --job-name=chunky-bike-6752
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

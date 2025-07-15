@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-taco-8611
+#FLUX: --job-name=crusty-lentil-0238
 #FLUX: --exclusive
 #FLUX: --queue=genoa
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=GRChombo_Proca_Fixed
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:${PETSC_DIR}/lib'
 export MPIRUN_OPTIONS='--bind-to core --map-by socket:PE=${OMP_NUM_THREADS} --report-bindings'

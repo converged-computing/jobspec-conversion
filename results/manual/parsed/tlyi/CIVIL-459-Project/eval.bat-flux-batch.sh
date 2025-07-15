@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-sundae-0547
+#FLUX: --job-name=dirty-motorcycle-2792
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python3 -m openpifpaf.eval \
 --dataset=openlane --loader-workers=1 \

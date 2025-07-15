@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-bits-1482
+#FLUX: --job-name=delicious-leopard-4227
 #FLUX: -N=4
 #FLUX: -n=8
 #FLUX: -c=3
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORLD_SIZE='$WORLD_SIZE'
 export NCCL_IB_DISABLE='1'

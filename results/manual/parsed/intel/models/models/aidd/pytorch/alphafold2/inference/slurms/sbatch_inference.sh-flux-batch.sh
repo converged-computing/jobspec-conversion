@@ -2,7 +2,7 @@
 #FLUX: --job-name=iaf2msa2
 #FLUX: --exclusive
 #FLUX: --queue=64c512g
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 root_home=$1
 sample_name=$2

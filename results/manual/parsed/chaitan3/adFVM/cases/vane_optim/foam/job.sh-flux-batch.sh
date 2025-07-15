@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-diablo-7354
+#FLUX: --job-name=fuzzy-car-9705
 #FLUX: -N=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$HOME/sources/petsc/arch-linux2-c-opt/lib'
 export PYTHONPATH='$HOME/.local/lib/python.7/site-packages/:$PYTHONPATH'

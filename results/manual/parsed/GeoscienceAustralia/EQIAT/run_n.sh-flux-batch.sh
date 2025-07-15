@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-egg-0486
-#FLUX: --priority=16
+#FLUX: --job-name=angry-lemon-4100
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GeoscienceAustralia/EQIAT/run_n.sh

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="qe-test-rome"
+#FLUX: --job-name=qe-test-rome
 #FLUX: --queue=ccq
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

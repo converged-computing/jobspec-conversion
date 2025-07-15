@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-pot-8540
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-malarkey-6452
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/datasnakes/archives/mpi/UPLOAD.sh

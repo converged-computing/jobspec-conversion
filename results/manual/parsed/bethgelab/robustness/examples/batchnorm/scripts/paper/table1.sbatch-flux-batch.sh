@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=robustness
 #FLUX: --queue=gpu-2080ti-preemptable
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 scontrol show job "$SLURM_JOB_ID"
 row="2" # This is the row in the table

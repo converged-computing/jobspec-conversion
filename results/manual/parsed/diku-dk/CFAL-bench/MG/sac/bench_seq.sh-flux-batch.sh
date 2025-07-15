@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-itch-7765
+#FLUX: --job-name=chunky-bits-6586
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XILINX_XRT='/opt/xilinx/xrt'
 

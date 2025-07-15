@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-platanos-7413
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-fudge-8941
+#FLUX: --urgency=16
 
 module purge
 module ohpc

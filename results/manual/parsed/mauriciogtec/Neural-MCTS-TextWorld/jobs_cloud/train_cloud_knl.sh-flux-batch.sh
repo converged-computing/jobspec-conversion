@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-parsnip-9500
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-citrus-1391
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export MKL_NUM_THREADS='272'

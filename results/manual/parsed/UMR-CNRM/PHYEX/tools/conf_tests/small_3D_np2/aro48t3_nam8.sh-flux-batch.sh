@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-frito-1761
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-chip-9266
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

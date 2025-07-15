@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-cupcake-3432
+#FLUX: --job-name=hello-cherry-0746
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load all

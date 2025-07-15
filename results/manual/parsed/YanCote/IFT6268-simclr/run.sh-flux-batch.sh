@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-knife-9316
+#FLUX: --job-name=delicious-avocado-9847
 #FLUX: -c=24
 #FLUX: -t=346200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 format_time() {
   ((h=${1}/3600))

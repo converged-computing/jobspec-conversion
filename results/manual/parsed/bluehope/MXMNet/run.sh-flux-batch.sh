@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-omelette-8855
+#FLUX: --job-name=tart-kerfuffle-2771
 #FLUX: -t=171000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home01/$USER/.bashrc
 module purge

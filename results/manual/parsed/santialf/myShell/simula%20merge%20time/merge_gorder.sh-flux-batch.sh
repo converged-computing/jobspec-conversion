@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-mango-4494
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-general-1156
+#FLUX: --urgency=16
 
 nvidia-smi
 nvcc --version

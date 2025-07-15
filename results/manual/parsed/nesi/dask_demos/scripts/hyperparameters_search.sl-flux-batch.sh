@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=red-caramel-1797
+#FLUX: --job-name=conspicuous-lettuce-3908
 #FLUX: -c=80
 #FLUX: --queue=milan
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONNOUSERSITE='1'
 export DASK_DISTRIBUTED__WORKER__MEMORY__TARGET='False'

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-kerfuffle-0876
-#FLUX: --priority=16
+#FLUX: --job-name=gpt3-15b-8t-n4
+#FLUX: -N=4
+#FLUX: --exclusive
+#FLUX: --urgency=16
 
 export NCCL_IB_SL='1'
 export NCCL_IB_TIMEOUT='19'

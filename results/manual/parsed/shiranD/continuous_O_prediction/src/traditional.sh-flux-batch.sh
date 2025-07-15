@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=traditional
 #FLUX: -t=1123200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/usr/local/cuda-9.0/lib64:/usr/local/lib'
 export CFLAGS='-I/usr/local/cuda-9.0/include'

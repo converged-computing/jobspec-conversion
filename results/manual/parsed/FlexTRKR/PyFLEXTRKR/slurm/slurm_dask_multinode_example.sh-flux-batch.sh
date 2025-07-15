@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-bits-8799
+#FLUX: --job-name=creamy-noodle-8436
 #FLUX: -N=5
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DASK_DISTRIBUTED__COMM__TIMEOUTS__CONNECT='360s'
 export DASK_DISTRIBUTED__COMM__TIMEOUTS__TCP='360s'

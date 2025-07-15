@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-puppy-5608
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-citrus-8090
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NMRL/Ardetype/historical/scripts/qsub_amrpp.sh

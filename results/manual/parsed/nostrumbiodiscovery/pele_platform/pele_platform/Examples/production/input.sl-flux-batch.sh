@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-carrot-8714
+#FLUX: --job-name=arid-cupcake-5670
 #FLUX: -n=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'
 export PYTHONPATH='/work/NBD_Utilities/PELE/PELE_Softwares/pele_platform/:/home/ssaenoon/AdaptivePELE/:$PYTHONPATH'

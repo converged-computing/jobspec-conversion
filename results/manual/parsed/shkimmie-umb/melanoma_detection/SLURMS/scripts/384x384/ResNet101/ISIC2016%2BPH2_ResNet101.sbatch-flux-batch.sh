@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ISIC2016+PH2_1_ResNet101_384h_384w
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"
 conda activate clean_chimera_env

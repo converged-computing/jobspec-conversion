@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=corrections_eval_cpp_python
 #FLUX: -t=2700
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MODEL_PATH='models/Online_ST_CPP_Python.pth'
 DUMP_PATH='dump/corrections/cpp_python'

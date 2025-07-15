@@ -2,7 +2,7 @@
 #FLUX: --job-name=modification
 #FLUX: --queue=gpu
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 pre_tech_pre_damage_export_folder="/scratch/midway3/bincheng/pre_tech_pre_damage_models_12042023_tensorboard_version_3_2000000_wihtout_v_diff_j_val"
 pre_tech_post_damage_export_folder="${pre_tech_pre_damage_export_folder}/pre_tech_post_damage"

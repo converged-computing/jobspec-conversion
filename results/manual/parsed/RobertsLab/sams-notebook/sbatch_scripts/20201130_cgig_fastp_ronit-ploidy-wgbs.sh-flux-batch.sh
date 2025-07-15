@@ -2,7 +2,7 @@
 #FLUX: --job-name=20201130_cgig_fastp_ronit-ploidy-wgbs
 #FLUX: --queue=coenv
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 threads=27
 trimmed_checksums=trimmed_fastq_checksums.md5

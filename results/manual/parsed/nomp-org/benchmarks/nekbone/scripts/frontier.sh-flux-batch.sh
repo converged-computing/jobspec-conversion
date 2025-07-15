@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-milkshake-4672
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-parsnip-5827
+#FLUX: --urgency=16
 
 : ${PROJ_ID:="CSC262"}
 : ${NEKBONE_INSTALL_DIR:=./install}

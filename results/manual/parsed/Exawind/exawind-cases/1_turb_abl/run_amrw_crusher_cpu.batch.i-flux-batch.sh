@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leg-4337
+#FLUX: --job-name=stinky-sundae-3345
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export rocm_version='5.4.3'
 export FI_MR_CACHE_MONITOR='memhooks'

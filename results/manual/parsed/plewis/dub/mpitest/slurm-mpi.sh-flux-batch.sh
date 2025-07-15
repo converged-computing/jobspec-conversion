@@ -2,7 +2,7 @@
 #FLUX: --job-name=snakempi
 #FLUX: -n=20
 #FLUX: --queue=priority
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TIMEFORMAT='user-seconds %3U'
 

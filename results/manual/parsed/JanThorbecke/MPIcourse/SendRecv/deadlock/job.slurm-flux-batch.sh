@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-staircase-7027
+#FLUX: --job-name=ornery-ricecake-2305
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_btl_self_rndv_eager_limit='256'
 export OMPI_MCA_btl_self_eager_limit='256'

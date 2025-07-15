@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-leader-6252
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-bits-7078
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='5'
 export KMP_SETTINGS='True'

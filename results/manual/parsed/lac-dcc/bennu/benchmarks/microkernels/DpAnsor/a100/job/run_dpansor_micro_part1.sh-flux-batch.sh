@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=part1_dpansor_micro_cuda_a100
-#FLUX: --priority=16
+#FLUX: --gpus-per-task=1
+#FLUX: --urgency=16
 
 export TVM_HOME='/mnt/home/gverma/ceph/tvm'
 export PYTHONPATH='/mnt/sw/nix/store/i613v246n7m0f6k22a8bwxsj51d1z6gb-llvm-11.1.0/lib/python3/site-packages:/mnt/home/gverma/ceph/tvm/python'

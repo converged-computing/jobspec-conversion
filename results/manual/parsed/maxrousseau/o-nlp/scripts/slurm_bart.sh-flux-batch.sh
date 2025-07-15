@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-onion-9649
+#FLUX: --job-name=chunky-omelette-0598
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load StdEnv/2020 gcc/9.3.0 arrow/11.0.0 python/3.10

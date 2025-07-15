@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Get_Training_Data
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load pytorch/python3.6/0.2.0_3

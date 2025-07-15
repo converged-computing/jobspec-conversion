@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-animal-3415
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-puppy-8160
+#FLUX: --urgency=16
 
 cp -r $HOME/motion-analysis $TMPDIR
 cp -r $HOME/data-3d $TMPDIR

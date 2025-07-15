@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-underoos-1240
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-eagle-5029
+#FLUX: --urgency=16
 
 export SOFTPATH='/share/software/user/open'
 export PYCAPATH='$HOME/site-packages/PyCA'

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="rf-ulm_train"
+#FLUX: --job-name=rf-ulm_train
 #FLUX: -c=4
 #FLUX: --queue=gpu-invest
 #FLUX: -t=64800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python/3.9.5-GCCcore-10.3.0
 module load CUDA/11.8.0

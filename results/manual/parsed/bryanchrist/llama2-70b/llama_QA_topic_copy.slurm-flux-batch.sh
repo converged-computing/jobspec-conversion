@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-destiny-8787
+#FLUX: --job-name=astute-lemon-1405
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '
 

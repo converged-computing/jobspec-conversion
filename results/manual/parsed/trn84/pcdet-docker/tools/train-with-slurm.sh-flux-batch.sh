@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="$USER-pcdet"
+#FLUX: --job-name=$USER-pcdet
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NUM_GPU=2
 TIMEOUT="240:00:00"

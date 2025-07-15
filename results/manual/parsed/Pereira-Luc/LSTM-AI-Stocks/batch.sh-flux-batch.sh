@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-toaster-1426
+#FLUX: --job-name=expressive-peas-3514
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load devel/protobuf-python/3.14.0-GCCcore-10.2.0 

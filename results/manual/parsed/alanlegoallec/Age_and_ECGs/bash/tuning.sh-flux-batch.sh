@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-plant-9609
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-bicycle-3613
+#FLUX: --urgency=16
 
 module load gcc/6.2.0
 module load python/3.6.0

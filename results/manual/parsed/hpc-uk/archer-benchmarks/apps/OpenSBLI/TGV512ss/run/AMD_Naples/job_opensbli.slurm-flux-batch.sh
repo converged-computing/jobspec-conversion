@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-platanos-9251
+#FLUX: --job-name=eccentric-eagle-9029
 #FLUX: -n=16
 #FLUX: --exclusive
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-latke-6359
+#FLUX: --job-name=astute-snack-4799
 #FLUX: -c=20
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export NCCL_BLOCKING_WAIT='1'

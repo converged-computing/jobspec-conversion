@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-house-3032
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-eagle-7735
+#FLUX: --urgency=16
 
 module unload python
 module load gcc conda2 slurm-drmaa/1.1.1

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-plant-7408
+#FLUX: --job-name=persnickety-lemon-7111
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge > /dev/null 2>&1
 module use /opt/site/easybuild/modules/all/Core

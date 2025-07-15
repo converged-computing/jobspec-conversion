@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-kerfuffle-2575
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-onion-3767
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/laitifranz/parallel-climate-analysis/serial/serial.sh

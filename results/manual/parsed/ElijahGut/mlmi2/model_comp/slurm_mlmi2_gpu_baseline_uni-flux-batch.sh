@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-animal-0147
+#FLUX: --job-name=blank-truffle-2120
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

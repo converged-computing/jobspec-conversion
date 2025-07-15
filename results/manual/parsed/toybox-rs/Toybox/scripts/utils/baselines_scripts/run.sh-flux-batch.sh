@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=$uid
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 algs="deepq acer acktr a2c ppo2"
 work1=/mnt/nfs/work1/jensen/etosch/issta

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-spoon-1062
+#FLUX: --job-name=reclusive-muffin-6840
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

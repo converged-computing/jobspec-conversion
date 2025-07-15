@@ -2,7 +2,7 @@
 #FLUX: --job-name=pred_doc
 #FLUX: --queue=gpu
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home1/s3412768/.local/bin'
 export PYTORCH_CUDA_ALLOC_CONF='garbage_collection_threshold:0.6,max_split_size_mb:128'

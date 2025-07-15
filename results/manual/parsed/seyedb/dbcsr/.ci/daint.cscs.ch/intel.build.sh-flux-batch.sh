@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-kerfuffle-2934
+#FLUX: --job-name=strawberry-kerfuffle-1695
 #FLUX: -c=3
-#FLUX: --queue="cscsci"
-#FLUX: --priority=16
+#FLUX: --queue=cscsci
+#FLUX: --urgency=16
 
 export PATH='/project/cray/alazzaro/cmake/bin:$PATH'
 

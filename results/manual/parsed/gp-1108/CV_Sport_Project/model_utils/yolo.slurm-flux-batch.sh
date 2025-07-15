@@ -2,7 +2,7 @@
 #FLUX: --job-name=yolo_train
 #FLUX: --queue=allgroups
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 model_name=medium_lv_mhp_merged_b16
 dataset_path=LV-MHP-v1-YOLO-merge

@@ -2,7 +2,7 @@
 #FLUX: --job-name=metabat2
 #FLUX: -c=16
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 workdir=/path/to/workdir                              # < CHANGE
 datasets_array=($(<datasets.txt))

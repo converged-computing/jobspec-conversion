@@ -4,7 +4,7 @@
 #FLUX: -c=10
 #FLUX: --queue=savio
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc/7.4.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-underoos-5744
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-toaster-8587
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/glwagner/dedaLES/benchmarks/rayleigh_benard/pbs_cheyenne.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-sundae-1898
+#FLUX: --job-name=reclusive-buttface-5269
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load any/jdk/1.8.0_265
 module load nextflow

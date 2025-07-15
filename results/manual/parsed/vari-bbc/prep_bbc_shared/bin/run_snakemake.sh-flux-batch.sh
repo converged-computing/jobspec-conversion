@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hope-0717
+#FLUX: --job-name=adorable-cupcake-9262
 #FLUX: --queue=long
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 snakemake_module="bbc2/snakemake/snakemake-7.25.0"

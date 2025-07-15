@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-fork-5583
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-animal-3731
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UvaCsl/HemoCell/scripts/nscc_batch_template.sh

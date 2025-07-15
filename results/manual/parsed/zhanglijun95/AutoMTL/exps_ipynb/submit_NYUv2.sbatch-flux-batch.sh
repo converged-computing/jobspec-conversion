@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=NYUSample3
-#FLUX: --queue=m40-long             # Partition to submit to (serial_requeue)
+#FLUX: --queue=m40-long
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo `pwd`
 set -x -e

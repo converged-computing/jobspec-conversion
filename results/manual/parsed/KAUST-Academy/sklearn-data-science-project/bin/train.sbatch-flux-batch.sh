@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-parrot-7689
+#FLUX: --job-name=anxious-pot-3623
 #FLUX: -c=4
 #FLUX: --queue=batch
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module purge

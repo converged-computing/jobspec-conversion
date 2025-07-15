@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-hippo-4936
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-nunchucks-8659
+#FLUX: --urgency=16
 
                                            # You can change the filenames given with -o and -e to any filenames you'd like
 rm slurm*

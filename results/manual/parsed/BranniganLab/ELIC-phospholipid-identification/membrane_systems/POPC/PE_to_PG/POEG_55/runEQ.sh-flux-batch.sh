@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hippo-3240
+#FLUX: --job-name=expensive-destiny-1516
 #FLUX: --queue=cmain
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gcc cuda mvapich2/2.2

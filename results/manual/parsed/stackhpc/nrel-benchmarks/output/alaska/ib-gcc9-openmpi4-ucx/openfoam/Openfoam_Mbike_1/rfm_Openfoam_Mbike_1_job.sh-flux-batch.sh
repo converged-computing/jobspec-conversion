@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="rfm_Openfoam_Mbike_1_job"
+#FLUX: --job-name=rfm_Openfoam_Mbike_1_job
 #FLUX: -n=32
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_MPI_TYPE='pmix_v2'
 export UCX_NET_DEVICES='mlx5_0:1'

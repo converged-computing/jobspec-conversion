@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=data_simulation
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/fred/oz149/Tyler/pyenv/$PYENV_NAME/lib/python3.7/site-packages:$PYTHONPATH'
 

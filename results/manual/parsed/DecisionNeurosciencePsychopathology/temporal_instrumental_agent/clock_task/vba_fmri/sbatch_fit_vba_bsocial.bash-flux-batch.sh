@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cinnamonbun-8154
+#FLUX: --job-name=swampy-leg-1498
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export matlab_cpus='10'
 

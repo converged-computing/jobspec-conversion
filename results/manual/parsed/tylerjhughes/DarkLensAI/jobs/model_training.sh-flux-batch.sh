@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=model_training
 #FLUX: -t=50400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/fred/oz149/Tyler/pyenv/$PYENV_NAME/lib:${LD_LIBRARY_PATH}'
 export PYTHONPATH='/fred/oz149/Tyler/pyenv/$PYENV_NAME/lib/python3.7/site-packages:${PYTHONPATH}'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-snack-6965
-#FLUX: --priority=16
+#FLUX: --job-name=milky-gato-2386
+#FLUX: --urgency=16
 
 module purge
 source activate pangeo

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=sc20_stream_length_order_ds641_nasqan_wbd12.sh
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NHD=/project/fas/sbsc/ga254/dataproces/NHDplus
 file=$(ls $NHD/ds641_nasqan_wbd12_wgs84/*.shp  | head  -n  $SLURM_ARRAY_TASK_ID | tail  -1 )

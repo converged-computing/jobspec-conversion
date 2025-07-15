@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-general-7766
-#FLUX: --priority=16
+#FLUX: --job-name=milky-bits-8277
+#FLUX: --urgency=16
 
 source init_lisa.sh
 python3 main.py --img_size 299 --model_type inception_v3 --batch_size 64 --cuda_devices 0 --run_name 1GPU_CUDA

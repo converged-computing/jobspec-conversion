@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rgz_train
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/wu082/software/lib/python2.7/site-packages'
 

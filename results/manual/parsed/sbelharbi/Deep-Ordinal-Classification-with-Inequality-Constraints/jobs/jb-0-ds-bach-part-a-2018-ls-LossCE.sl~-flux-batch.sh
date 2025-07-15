@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-staircase-1800
+#FLUX: --job-name=lovely-ricecake-9227
 #FLUX: -c=6
 #FLUX: -t=150
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $HOME/Venvs/pytorch.1.2.0/bin/activate 
 module load cuda/10.0.130

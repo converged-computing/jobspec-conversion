@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-general-0484
+#FLUX: --job-name=expensive-parsnip-7511
 #FLUX: -c=2
 #FLUX: --queue=s.phys
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MPI_NUM_RANKS='$SLURM_NTASKS_PER_NODE'

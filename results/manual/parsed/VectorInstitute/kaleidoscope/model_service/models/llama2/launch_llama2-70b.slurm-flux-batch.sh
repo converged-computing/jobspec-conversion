@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-poodle-6667
+#FLUX: --job-name=wobbly-fudge-1701
 #FLUX: -N=2
 #FLUX: -c=16
 #FLUX: --queue=a40
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOGLEVEL='INFO'
 export MASTER_ADDR='$(hostname -I | awk '{print $1}')'

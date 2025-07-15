@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-peanut-butter-2688
+#FLUX: --job-name=crunchy-platanos-9684
 #FLUX: -n=80
 #FLUX: --queue=compute
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='ucx'
 export OMPI_MCA_btl='self'

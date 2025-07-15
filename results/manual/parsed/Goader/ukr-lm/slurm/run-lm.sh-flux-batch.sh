@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=plgrid-gpu-a100
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source modules.sh
 source scratch/masters/masters-venv/bin/activate

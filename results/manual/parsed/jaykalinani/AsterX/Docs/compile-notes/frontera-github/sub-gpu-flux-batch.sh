@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-punk-7995
-#FLUX: --priority=16
+#FLUX: --job-name=confused-hippo-3706
+#FLUX: --urgency=16
 
 ml
 source $SPACK_DIR/share/spack/setup-env.sh

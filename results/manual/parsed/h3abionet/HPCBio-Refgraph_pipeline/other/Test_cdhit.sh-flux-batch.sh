@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cd-hit-test
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/groups/h3abionet/RefGraph/results/NeginV_Test_Summer2021/results/annotation
 module load CD-HIT/4.8.1-IGB-gcc-8.2.0

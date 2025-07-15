@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-carrot-8310
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-pedo-5250
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AMDComputeLibraries/Nekbone/bin/nekgpu

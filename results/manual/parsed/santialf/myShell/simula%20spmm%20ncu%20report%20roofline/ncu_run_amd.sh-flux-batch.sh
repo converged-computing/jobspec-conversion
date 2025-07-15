@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lemon-0797
-#FLUX: --priority=16
+#FLUX: --job-name=red-hobbit-7029
+#FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'
 

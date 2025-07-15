@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-train-8595
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-eagle-6908
+#FLUX: --urgency=16
 
 module load PrgEnv-amd
 module load craype-accel-amd-gfx90a

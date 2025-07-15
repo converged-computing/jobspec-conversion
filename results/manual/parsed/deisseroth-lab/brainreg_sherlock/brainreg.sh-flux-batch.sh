@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-soup-5251
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-chair-4415
+#FLUX: --urgency=16
 
 ml python/3.9 gcc
 source ${GROUP_HOME}/projects/registration/brainreg/venv/bin/activate

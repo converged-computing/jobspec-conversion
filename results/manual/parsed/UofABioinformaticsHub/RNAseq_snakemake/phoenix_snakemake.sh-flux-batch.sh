@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bike-6759
+#FLUX: --job-name=rainbow-cat-0779
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Python/3.6.1-foss-2016b
 module load AdapterRemoval/2.2.1-foss-2016b

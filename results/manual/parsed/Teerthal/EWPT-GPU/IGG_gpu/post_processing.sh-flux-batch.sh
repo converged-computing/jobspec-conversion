@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-malarkey-9522
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-peanut-0750
+#FLUX: --urgency=16
 
 time julia -t 26 post_sim.jl

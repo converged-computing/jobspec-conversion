@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="imp_train-$(date +"%Y-%m-%dT%H:%M")"
+#FLUX: --job-name=imp_train-$(date +%Y-%m-%dT%H:%M)
 #FLUX: -c=16
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 COMMAND="export EXPERIMENT_DIRECTORY=/app/shared && python /app/shared/viplanner/viplanner/multi_env.py"  # multi_env.py"  # m2f_overfit.py"
 CODE_DIR="/cluster/project/rsl/rothpa/vip_project/viplanner"

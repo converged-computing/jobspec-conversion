@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-kerfuffle-5327
+#FLUX: --job-name=bloated-rabbit-5124
 #FLUX: --queue=develbooster
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 ml Stages/2024

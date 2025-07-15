@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-blackbean-2529
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-parrot-3197
+#FLUX: --urgency=16
 
 source activate cancergenomics
 PERL5LIB=/packages/6x/vcftools/0.1.12b/lib/per15/site_perl

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=megatron_gpt # name of your job
+#FLUX: --job-name=megatron_gpt
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -ex
 : "${APPS_PATH:=/apps}"

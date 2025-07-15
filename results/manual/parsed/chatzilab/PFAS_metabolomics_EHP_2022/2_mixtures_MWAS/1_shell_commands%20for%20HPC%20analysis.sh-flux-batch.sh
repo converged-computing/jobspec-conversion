@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-leg-2889
+#FLUX: --job-name=eccentric-chair-4986
 #FLUX: --queue=conti
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PKG_CONFIG_PATH='/packages/jags/4.3.0/lib/pkgconfig'
 

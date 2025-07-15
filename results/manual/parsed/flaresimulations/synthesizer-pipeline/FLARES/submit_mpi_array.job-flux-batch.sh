@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cattywampus-1739
+#FLUX: --job-name=ornery-car-3900
 #FLUX: -n=112
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load rockport-settings

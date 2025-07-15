@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-leg-0470
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-parsnip-8510
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

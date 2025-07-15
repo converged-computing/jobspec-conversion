@@ -2,7 +2,7 @@
 #FLUX: --job-name=mixer
 #FLUX: -c=8
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MIXER_ROOT='/cluster/projects/p33/users/ofrei/github/mixer'
 export OUTDIR='/cluster/projects/p33/users/ofrei/mixer_results/    # must end with a forward slash, /'

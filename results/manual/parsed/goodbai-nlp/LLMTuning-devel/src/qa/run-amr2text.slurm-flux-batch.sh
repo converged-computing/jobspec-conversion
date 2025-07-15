@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=xfbai-QA     #作业名称
-#FLUX: --queue=q_intel_share       #选择资源分区
-#FLUX: --priority=16
+#FLUX: --job-name=xfbai-QA
+#FLUX: --queue=q_intel_share
+#FLUX: --urgency=16
 
 hostname
 echo $CUDA_VISIBLE_DEVICES

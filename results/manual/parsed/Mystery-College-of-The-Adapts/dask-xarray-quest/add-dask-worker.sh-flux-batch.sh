@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-nunchucks-3564
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-leg-5089
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Mystery-College-of-The-Adapts/dask-xarray-quest/add-dask-worker.sh

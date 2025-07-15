@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-gato-4363
+#FLUX: --job-name=doopy-earthworm-5539
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'
 

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-rabbit-1568
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-cat-8607
+#FLUX: --urgency=16
 

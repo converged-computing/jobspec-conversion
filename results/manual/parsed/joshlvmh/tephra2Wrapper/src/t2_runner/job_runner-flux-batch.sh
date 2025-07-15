@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=cpu
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load tools/git/2.18.0
 module load languages/gcc/9.3.0

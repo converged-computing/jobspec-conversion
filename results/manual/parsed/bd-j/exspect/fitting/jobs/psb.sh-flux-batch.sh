@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-soup-7801
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-hope-4157
+#FLUX: --urgency=16
 
 export GROUP='conroy_lab'
 export MYSCRATCH='$SCRATCH/$GROUP/$USER'

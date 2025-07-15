@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-omelette-4441
+#FLUX: --job-name=outstanding-train-4412
 #FLUX: --queue=shortq
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 VCF_FILES=$( find "/mnt/beegfs/scratch/m_michel/DATA/" -type f -name "*.vcf.gz" )
 > rmInfo.log

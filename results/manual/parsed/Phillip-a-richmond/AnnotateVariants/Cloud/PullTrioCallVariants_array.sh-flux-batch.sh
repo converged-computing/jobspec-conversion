@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-rabbit-8358
+#FLUX: --job-name=faux-cupcake-0727
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sudo chmod ugo=rwx -R /scratch/
 shopt -s nullglob

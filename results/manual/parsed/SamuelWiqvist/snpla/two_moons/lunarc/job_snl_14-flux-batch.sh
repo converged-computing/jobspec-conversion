@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-muffin-8716
-#FLUX: --priority=16
+#FLUX: --job-name=faux-lentil-1137
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-rabbit-0016
+#FLUX: --job-name=confused-underoos-0458
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NXF_OPTS='-Xms500M -Xmx8000M'
 

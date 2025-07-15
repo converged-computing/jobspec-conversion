@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-frito-8799
+#FLUX: --job-name=delicious-butter-1450
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [ -z "$1" ]; then
     echo "Usage: $0 <number>"

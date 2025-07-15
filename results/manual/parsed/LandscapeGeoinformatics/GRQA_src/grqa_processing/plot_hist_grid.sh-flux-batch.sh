@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-pot-7180
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-lettuce-3351
+#FLUX: --urgency=16
 
 cd /gpfs/terra/export/samba/gis/holgerv/river_quality/scripts/grqa_processing
 module purge

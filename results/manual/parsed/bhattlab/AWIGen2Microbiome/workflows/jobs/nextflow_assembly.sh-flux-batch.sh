@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-signal-6471
+#FLUX: --job-name=boopy-dog-2715
 #FLUX: --queue=batch
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load java/18.0.2.1
 module load nextflow/22.10.5

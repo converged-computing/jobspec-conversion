@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-mango-4380
-#FLUX: --priority=16
+#FLUX: --job-name=blank-mango-1894
+#FLUX: --urgency=16
 
 cdw singularity
 ml tacc-singularity

@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=glrna_cd
-#FLUX: --queue=girirajan # TODO: set slurm partition
+#FLUX: --queue=girirajan
 #FLUX: -t=1440000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo `date` starting job on $HOSTNAME
 cache_dir="/data6/deepro/rna_cache" # TODO: set project dir path

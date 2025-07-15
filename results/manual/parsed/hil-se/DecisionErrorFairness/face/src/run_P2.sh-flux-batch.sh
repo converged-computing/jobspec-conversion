@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-sundae-7702
-#FLUX: --priority=16
+#FLUX: --job-name=milky-chair-2932
+#FLUX: --urgency=16
 
 spack unload -a
 spack load /xi3pch3

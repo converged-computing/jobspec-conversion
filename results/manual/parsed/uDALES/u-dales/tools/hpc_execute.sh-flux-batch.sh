@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-mango-5891
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-cupcake-3782
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/uDALES/u-dales/tools/hpc_execute.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-avocado-6864
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-hippo-6058
+#FLUX: --urgency=16
 
 module purge;
 module load anaconda3/5.3.0;

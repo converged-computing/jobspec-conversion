@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-citrus-8550
+#FLUX: --job-name=strawberry-nunchucks-3040
 #FLUX: -c=8
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Loading modules"
 module use /cm/shared/ex3-modules/latest/modulefiles

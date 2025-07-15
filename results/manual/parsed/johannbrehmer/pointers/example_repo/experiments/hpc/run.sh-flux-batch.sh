@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=imagenet
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.1.105
 conda activate crow

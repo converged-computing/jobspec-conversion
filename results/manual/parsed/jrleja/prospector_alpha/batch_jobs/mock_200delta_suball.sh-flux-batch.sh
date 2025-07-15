@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bike-7502
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-soup-6908
+#FLUX: --urgency=16
 
 srun -n 1 --mpi=pmi2 python $APPS/prospector/scripts/prospector_dynesty.py \
 --param_file="$APPS"/prospector_alpha/parameter_files/mock_200delta_params.py \

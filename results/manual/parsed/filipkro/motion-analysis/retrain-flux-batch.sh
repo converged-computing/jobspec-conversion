@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-underoos-4980
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-lemon-3533
+#FLUX: --urgency=16
 
 data_set="data_Octavio-Paz.npz"
 archive="VA-classification"

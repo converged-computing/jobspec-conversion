@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lemon-1582
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-underoos-8525
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CogComNeuroSci/PieterV_public/Reversal_learning/Behavioral/Model_fitting/Sync_alternative_model/job.pbs

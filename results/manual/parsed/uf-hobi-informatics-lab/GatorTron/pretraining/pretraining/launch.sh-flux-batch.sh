@@ -6,7 +6,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=hpg-ai
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 VOCAB_FILE=./vocab.txt
 CHECKPOINT_PATH=./gatortron_4b_uf30kcased

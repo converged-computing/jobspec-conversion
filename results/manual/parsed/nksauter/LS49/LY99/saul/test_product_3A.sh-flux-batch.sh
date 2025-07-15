@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-kitty-2209
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-rabbit-7244
+#FLUX: --urgency=16
 
 export WORK='$SCRATCH/adse13_249/LY99'
 export TRIAL='ly99sim'

@@ -3,7 +3,7 @@
 #FLUX: -c=2
 #FLUX: --queue=quicktest
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 shopt -s nullglob
 FILES=()

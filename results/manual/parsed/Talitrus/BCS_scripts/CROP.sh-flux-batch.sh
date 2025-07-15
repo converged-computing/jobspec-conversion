@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-signal-9250
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-salad-0984
+#FLUX: --urgency=16
 
 name1=$(sed -n "$SLURM_ARRAY_TASK_ID"p seq_list.txt)
 cd ../data/seq

@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=accel
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ${HOME}/.bashrc
 set -o errexit

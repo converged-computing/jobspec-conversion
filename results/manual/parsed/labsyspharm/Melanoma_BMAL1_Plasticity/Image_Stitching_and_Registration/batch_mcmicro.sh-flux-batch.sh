@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-signal-4150
-#FLUX: --priority=16
+#FLUX: --job-name=placid-staircase-8220
+#FLUX: --urgency=16
 
 user_name='ccr13'
 data_dir=/n/scratch3/users/c/ccr13/Chi_CyCIF/DATA/

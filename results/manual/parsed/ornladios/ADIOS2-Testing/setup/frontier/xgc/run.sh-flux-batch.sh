@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-destiny-5264
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-peanut-butter-4083
+#FLUX: --urgency=16
 
 export XGC_NMPI_PER_NODE='8'
 export TOTAL_NMPI='$(( ${SLURM_JOB_NUM_NODES} * ${XGC_NMPI_PER_NODE} ))'

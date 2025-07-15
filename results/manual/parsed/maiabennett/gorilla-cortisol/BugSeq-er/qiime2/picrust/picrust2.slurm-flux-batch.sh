@@ -2,7 +2,7 @@
 #FLUX: --job-name=picrust_analysis
 #FLUX: --queue=batch,guest
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /common/claytonlab/maibennett/gorilla_cortisol/AnimalName-IndClusters/Cenzoo/qiime2/picrust
 module load picrust2/2.4

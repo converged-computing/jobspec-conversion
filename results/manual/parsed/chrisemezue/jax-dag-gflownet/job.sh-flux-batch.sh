@@ -2,7 +2,7 @@
 #FLUX: --job-name=gsl_big
 #FLUX: --queue=long
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_API_KEY='831cb57f73367e89b34e0e6cfdb9e2d143987fcd'
 

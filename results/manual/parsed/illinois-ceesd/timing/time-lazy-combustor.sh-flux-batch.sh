@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-puppy-5269
-#FLUX: --priority=16
+#FLUX: --job-name=lovable-leopard-8390
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/illinois-ceesd/timing/time-lazy-combustor.sh

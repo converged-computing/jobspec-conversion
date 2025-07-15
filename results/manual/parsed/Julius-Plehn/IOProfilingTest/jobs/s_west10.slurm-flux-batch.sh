@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-staircase-8338
+#FLUX: --job-name=arid-leopard-1553
 #FLUX: -N=10
 #FLUX: -n=10
 #FLUX: --queue=west
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCOREP_ENABLE_TRACING='TRUE'
 

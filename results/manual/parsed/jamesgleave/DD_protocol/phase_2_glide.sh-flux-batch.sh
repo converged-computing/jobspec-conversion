@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=phase_2
 #FLUX: --queue=normal
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 t_nod=$2
 file_path=`sed -n '1p' $3/$4/logs.txt`

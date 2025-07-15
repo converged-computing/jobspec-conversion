@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hippo-0029
+#FLUX: --job-name=moolicious-despacito-2129
 #FLUX: --queue=GPU-AI
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/hbeatson/
 module load singularity

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-punk-5820
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-banana-0095
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ClemsonGIS/PhotoScan_Scripts/procNodeArray.sub

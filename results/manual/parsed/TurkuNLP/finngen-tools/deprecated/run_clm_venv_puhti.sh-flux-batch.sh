@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-itch-5461
+#FLUX: --job-name=lovable-parrot-5866
 #FLUX: --queue=gputest
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 OUTPUT_DIR=output_dir
 rm -rf "$OUTPUT_DIR"

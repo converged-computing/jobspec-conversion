@@ -2,7 +2,7 @@
 #FLUX: --job-name=segment_test
 #FLUX: -n=4
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 WORKDIR=$1

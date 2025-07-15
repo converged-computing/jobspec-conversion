@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=xxx
 #FLUX: -t=2592000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_MPS_PIPE_DIRECTORY='$SLURM_SUBMIT_DIR/nvidia-mps.$SLURM_JOB_ID'
 export CUDA_MPS_LOG_DIRECTORY='$SLURM_SUBMIT_DIR/nvidia-log.$SLURM_JOB_ID'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=map-elites-baseline
 #FLUX: -c=4
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "========== SLURM JOB INFO =========="
 echo

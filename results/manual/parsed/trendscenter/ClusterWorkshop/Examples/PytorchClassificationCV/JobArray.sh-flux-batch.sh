@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-fork-2778
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-spoon-2673
+#FLUX: --urgency=16
 
 sleep 10s 
 eval "$(conda shell.bash hook)"

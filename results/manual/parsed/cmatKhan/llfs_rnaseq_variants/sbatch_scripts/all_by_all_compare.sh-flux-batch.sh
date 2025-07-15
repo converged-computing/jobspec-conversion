@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lentil-4675
+#FLUX: --job-name=carnivorous-cherry-8775
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval $(spack load --sh singularityce@3.11.4)
 singularity_image=/scratch/mblab/chasem/llfs_rna_dna_compare_test/llfs_rnaseq_latest.sif

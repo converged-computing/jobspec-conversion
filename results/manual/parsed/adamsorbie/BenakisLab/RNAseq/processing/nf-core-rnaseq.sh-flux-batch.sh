@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-blackbean-8855
+#FLUX: --job-name=conspicuous-rabbit-3372
 #FLUX: -c=24
 #FLUX: --queue=teramem_inter
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='24'
 

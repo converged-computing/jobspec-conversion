@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-spoon-5154
+#FLUX: --job-name=frigid-earthworm-2986
 #FLUX: -t=82800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/gpu
 pip install visdom

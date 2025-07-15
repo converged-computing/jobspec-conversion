@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-malarkey-1288
-#FLUX: --priority=16
+#FLUX: --job-name=milky-punk-2074
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

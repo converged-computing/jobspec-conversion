@@ -2,7 +2,7 @@
 #FLUX: --job-name=IoU
 #FLUX: -c=10
 #FLUX: -t=71940
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 conda deactivate

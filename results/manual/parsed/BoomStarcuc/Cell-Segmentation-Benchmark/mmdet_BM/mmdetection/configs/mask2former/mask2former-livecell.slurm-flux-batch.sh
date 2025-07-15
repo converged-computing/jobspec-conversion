@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-chair-8521
+#FLUX: --job-name=lovable-nalgas-6300
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load cuda@11.0.2%gcc@9.3.0/lrd2rcw
 cd mmdetection

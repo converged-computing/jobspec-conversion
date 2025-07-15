@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phat-peanut-6946
+#FLUX: --job-name=spicy-signal-9609
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: --exclusive
 #FLUX: --queue=hpc6anpg
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WRF_VERSION='4.4.2'
 export JOB_DIR='${PREFIX}/spooler/v4.4_bench_conus12km'

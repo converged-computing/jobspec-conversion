@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=fft1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile
 module load cuda/5.0

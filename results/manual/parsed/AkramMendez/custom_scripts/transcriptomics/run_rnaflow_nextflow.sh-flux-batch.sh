@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-sundae-3741
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-destiny-6176
+#FLUX: --urgency=16
 
 export NXF_HOME='/crex/proj/nb_storage/private/rnaflow/nextflow_home'
 export CONDA_ENVS_PATH='/proj/nb_project/private/conda_envs'

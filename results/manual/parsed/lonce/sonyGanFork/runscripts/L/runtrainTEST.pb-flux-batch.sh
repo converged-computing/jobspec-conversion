@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-knife-6967
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-lamp-3223
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lonce/sonyGanFork/runscripts/L/runtrainTEST.pb

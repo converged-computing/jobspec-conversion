@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=collective --nodes=8 --ntasks-per-node=1 --gpus-per-node=1
-#FLUX: --priority=16
+#FLUX: --job-name=collective
+#FLUX: -N=8
+#FLUX: --urgency=16
 
 export MLSYS_ROOT='${CURR_DIR}/../../..'
 export MADDR='$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n 1)'

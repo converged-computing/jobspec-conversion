@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cupcake-5018
+#FLUX: --job-name=expensive-pedo-3271
 #FLUX: -N=2
 #FLUX: -c=80
 #FLUX: --gpus-per-task=8
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 nodes=$(scontrol show hostnames $SLURM_JOB_NODELIST) # Getting the node names
 nodes_array=( $nodes )

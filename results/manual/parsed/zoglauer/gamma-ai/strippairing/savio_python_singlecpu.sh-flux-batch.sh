@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-house-2744
+#FLUX: --job-name=muffled-parsnip-0327
 #FLUX: --queue=savio2_htc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

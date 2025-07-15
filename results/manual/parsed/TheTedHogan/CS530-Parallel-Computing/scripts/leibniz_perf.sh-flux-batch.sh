@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-frito-2376
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-cherry-0993
+#FLUX: --urgency=16
 
 module load gcc/10.2.0
 module load cmake/gcc/3.18.0

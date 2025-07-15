@@ -2,7 +2,7 @@
 #FLUX: --job-name=test_wp_input_file
 #FLUX: --exclusive
 #FLUX: -t=45000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 

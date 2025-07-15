@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lamp-5829
+#FLUX: --job-name=tart-latke-7871
 #FLUX: --queue=long
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir -p logs/workflows
 cd $SLURM_SUBMIT_DIR

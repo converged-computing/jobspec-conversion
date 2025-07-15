@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=mcdermott
 #FLUX: -t=129600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CONDA_ENVS_PATH='~/my-envs:/om4/group/mcdermott/user/jfeather/conda_envs_files'
 

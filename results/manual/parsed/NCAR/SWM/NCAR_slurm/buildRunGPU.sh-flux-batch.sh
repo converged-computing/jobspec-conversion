@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-chair-3183
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-cinnamonbun-5769
+#FLUX: --urgency=16
 
 module purge
 module load pgi/20.4

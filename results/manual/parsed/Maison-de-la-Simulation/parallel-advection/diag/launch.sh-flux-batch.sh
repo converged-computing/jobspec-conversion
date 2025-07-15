@@ -3,7 +3,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=gpua100
 #FLUX: -t=7140
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NB_RUNS=10
 EXECUTABLE=$1

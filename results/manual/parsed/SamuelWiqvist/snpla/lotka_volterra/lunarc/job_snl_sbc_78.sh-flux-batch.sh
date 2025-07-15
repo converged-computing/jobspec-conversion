@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-earthworm-2729
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-rabbit-4501
+#FLUX: --urgency=16
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

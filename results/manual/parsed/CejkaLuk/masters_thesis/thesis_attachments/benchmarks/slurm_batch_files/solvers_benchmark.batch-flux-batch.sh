@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-leader-1027
+#FLUX: --job-name=chocolate-squidward-1963
 #FLUX: -c=32
 #FLUX: --queue=amdgpulong
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CMake/3.24.3-GCCcore-12.2.0
 module load CUDA/12.0.0

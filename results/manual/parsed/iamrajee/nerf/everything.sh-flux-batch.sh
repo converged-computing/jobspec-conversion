@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-nalgas-9997
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-itch-3178
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/iamrajee/nerf/everything.sh

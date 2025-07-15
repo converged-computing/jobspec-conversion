@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-signal-4263
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-signal-6736
+#FLUX: --urgency=16
 
 mkdir -p data/suitesparse/
 cd data/suitesparse/

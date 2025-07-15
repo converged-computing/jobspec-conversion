@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-rabbit-5816
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-lemur-1530
+#FLUX: --urgency=16
 
 source /etc/profile
 module load julia/1.8.5

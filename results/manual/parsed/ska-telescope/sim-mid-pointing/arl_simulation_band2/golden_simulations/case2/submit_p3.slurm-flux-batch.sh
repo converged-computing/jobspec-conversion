@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-house-9556
+#FLUX: --job-name=goodbye-onion-5695
 #FLUX: -N=8
 #FLUX: -n=65
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 export ARL_DASK_SCHEDULER='${scheduler}:8786'

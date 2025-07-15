@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-destiny-1922
-#FLUX: --priority=16
+#FLUX: --job-name=astute-parrot-1435
+#FLUX: --urgency=16
 
 module load python/3.7.1
 module load cuda/10.0

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-signal-6238
+#FLUX: --job-name=bricky-puppy-4709
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3,4'
 

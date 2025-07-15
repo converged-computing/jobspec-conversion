@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lettuce-9443
-#FLUX: --priority=16
+#FLUX: --job-name=gassy-parrot-3341
+#FLUX: --urgency=16
 
 module load anaconda
 module load cudatoolkit/7.5 cudann

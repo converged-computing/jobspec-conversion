@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-poo-2123
+#FLUX: --job-name=muffled-pedo-9504
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

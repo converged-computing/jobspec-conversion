@@ -3,7 +3,7 @@
 #FLUX: -N=3
 #FLUX: -c=4
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LEGACY_SURVEY_DIR='/global/cfs/cdirs/cosmo/work/legacysurvey/dr9m'
 export DUST_DIR='/global/cfs/cdirs/cosmo/data/dust/v0_1'

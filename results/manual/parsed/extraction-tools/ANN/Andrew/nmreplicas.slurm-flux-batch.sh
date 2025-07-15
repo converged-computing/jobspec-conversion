@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-leopard-5312
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-citrus-4234
+#FLUX: --urgency=16
 
 module purge
 module load anaconda/2020.11-py3.8

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-soup-2051
+#FLUX: --job-name=eccentric-hobbit-0143
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load any/jdk/1.8.0_265
 module load nextflow

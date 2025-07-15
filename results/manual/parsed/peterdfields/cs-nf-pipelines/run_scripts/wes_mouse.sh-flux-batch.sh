@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=wes_mouse
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 module use --append /projects/omics_share/meta/modules

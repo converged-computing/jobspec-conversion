@@ -2,7 +2,7 @@
 #FLUX: --job-name=paul-erpenstein-thesis
 #FLUX: --queue=pDLVC
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "================ ================ ================ ================"
 echo "$(date)|$(hostname)|$(pwd)|$(id)"

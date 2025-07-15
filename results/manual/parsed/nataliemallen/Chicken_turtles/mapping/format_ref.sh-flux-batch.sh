@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ref_format
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load biocontainers
 module load bioawk

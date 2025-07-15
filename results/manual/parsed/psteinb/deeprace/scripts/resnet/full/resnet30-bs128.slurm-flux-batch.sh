@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-despacito-3316
+#FLUX: --job-name=arid-general-9333
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/steinba/development/deeprace/
 pwd

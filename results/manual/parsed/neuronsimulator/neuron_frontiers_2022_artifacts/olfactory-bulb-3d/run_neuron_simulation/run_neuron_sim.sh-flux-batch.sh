@@ -1,12 +1,12 @@
 #!/bin/bash
-#FLUX: --job-name=confused-citrus-3206
+#FLUX: --job-name=faux-animal-9083
 #FLUX: -N=2
 #FLUX: -n=80
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: --queue=prod
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack_prefix=/gpfs/bbp.cscs.ch/project/proj16/NEURONFrontiers2021/hippocampus
 module purge

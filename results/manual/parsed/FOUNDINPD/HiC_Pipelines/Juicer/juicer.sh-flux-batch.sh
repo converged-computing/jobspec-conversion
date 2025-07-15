@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-pot-7642
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-chip-8790
+#FLUX: --urgency=16
 
 export LC_ALL='C'
 
@@ -294,12 +294,6 @@ else
 fi
 jid=`sbatch <<- HEADER | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -t 2
-	#SBATCH -c 2
-	#SBATCH -o $debugdir/head-%j.out
-	#SBATCH -e $debugdir/head-%j.err
-	#SBATCH -J "${groupname}_cmd"
 	date
 	$load_bwa
 	$load_java
@@ -354,12 +348,6 @@ then
                 then	
 		    jid=`sbatch <<- SPLITEND | egrep -o -e "\b[0-9]+$"
 			#!/bin/bash -l
-			#SBATCH -p $queue
-			#SBATCH -t $((queue_time / 3))
-			#SBATCH -c 2
-			#SBATCH -o $debugdir/split-%j.out
-			#SBATCH -e $debugdir/split-%j.err
-			#SBATCH -J "${groupname}_split_${i}"
 			date
 			echo "Split file: $filename"
 			${load_coreutils}
@@ -369,12 +357,6 @@ SPLITEND`
 		else
 		    jid=`sbatch <<- SPLITEND | egrep -o -e "\b[0-9]+$"
 			#!/bin/bash -l
-			#SBATCH -p $queue
-			#SBATCH -t $((queue_time / 3))
-			#SBATCH -c 2
-			#SBATCH -o $debugdir/split-%j.out
-			#SBATCH -e $debugdir/split-%j.err
-			#SBATCH -J "${groupname}_split_${i}"
 			date
 			echo "Split file: $filename"
 			${load_coreutils}
@@ -390,12 +372,6 @@ SPLITEND`
 	    #srun -c 2 -p "$queue" -t 1 -o $debugdir/wait-%j.out -e $debugdir/wait-%j.err -d $dependsplit -J "${groupname}_wait" sleep 1
 		jid=`sbatch <<- SPLITWAITEND  | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $queue
-		#SBATCH -t 5
-		#SBATCH -c 2
-		#SBATCH -o /dev/null
-		#SBATCH -J "${groupname}_splitwait_${i}"
-		#SBATCH -d ${dependsplit}
 		touch ${splitdir}/SPLIT_DONE
 SPLITWAITEND`
 		echo "    Submitted job $jid which will wait for fastq file splitjobs to finish. START: $(date)"
@@ -453,12 +429,6 @@ SPLITWAITEND`
     ### JOB _count_ligation
 	jid=`sbatch <<- CNTLIG
 		#!/bin/bash -l
-		#SBATCH -p $queue
-		#SBATCH -t $((queue_time / 3))
-		#SBATCH -c 2
-		#SBATCH -o $debugdir/count_ligation-%j.out
-		#SBATCH -e $debugdir/count_ligation-%j.err
-		#SBATCH -J "${groupname}${jname}_Count_Ligation"
 		date
 		export usegzip=${usegzip}; 
 		export name=${name}; 
@@ -475,13 +445,6 @@ CNTLIG`
     ### JOB _align1
 	jid=`sbatch <<- ALGNR1 | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $queue
-		#SBATCH -t ${queue_time}
-		#SBATCH -o $debugdir/align1-%j.out
-		#SBATCH -e $debugdir/align1-%j.err
-		#SBATCH -c ${threads}
-		#SBATCH --mem=$bwa_mem
-		#SBATCH -J "${groupname}_align1_${jname}"
 		$load_bwa
 		# Align read1
 		date
@@ -519,13 +482,6 @@ ALGNR1`
 	touchfile2=${tmpdir}/${jname}2
 	jid=`sbatch <<- ALGNR2 | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $queue
-		#SBATCH -t ${queue_time}
-		#SBATCH -o $debugdir/align2-%j.out
-		#SBATCH -e $debugdir/align2-%j.err
-		#SBATCH -c ${threads}
-		#SBATCH --mem=$bwa_mem
-		#SBATCH -J "${groupname}_align2_${jname}"
 		$load_bwa
 		date
 		# Align read2
@@ -563,15 +519,6 @@ ALGNR2`
 	# wait for top two, merge
 	jid=`sbatch <<- MRGALL | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $long_queue
-		#SBATCH -t ${long_queue_time}
-		#SBATCH -o $debugdir/merge-%j.out
-		#SBATCH -e $debugdir/merge-%j.err
-		#SBATCH --mem=40G
-		#SBATCH -c 8 
-		#SBATCH -d $dependalign
-		#SBATCH -J "${groupname}_merge_${jname}"
-		#SBATCH --gres=lscratch:800
 		export LC_COLLATE=C
         ${load_coreutils}
 		date
@@ -682,12 +629,6 @@ MRGALL`
 	# check that alignment finished successfully
 	jid=`sbatch <<- EOF
 		#!/bin/bash
-		#SBATCH -p $queue
-		#SBATCH -t ${queue_time}
-		#SBATCH -o $debugdir/aligncheck-%j.out
-		#SBATCH -e $debugdir/aligncheck-%j.err
-		#SBATCH -J "${groupname}_check"
-		#SBATCH -d $dependmerge
 		date
 		echo "Checking $f"
 		if [ ! -e $f ]
@@ -714,14 +655,6 @@ then
     ### JOB _fragmerge
     jid=`sbatch <<- EOF
 		#!/bin/bash
-		#SBATCH -o $debugdir/fragmerge-%j.out
-		#SBATCH -e $debugdir/fragmerge-%j.err
-		#SBATCH --mem 246G
-		#SBATCH -p $long_queue
-		#SBATCH -t ${long_queue_time}
-		#SBATCH -c 8
-		#SBATCH -J "${groupname}_fragmerge"
-		#SBATCH --gres=lscratch:800
 		${sbatch_wait}
 		date
 		if [ -f "${errorfile}" ]
@@ -767,13 +700,6 @@ then
     ### JOB _dedup_guard
     guardjid=`sbatch <<- DEDUPGUARD | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -o $debugdir/dedupguard-%j.out
-	#SBATCH -e $debugdir/dedupguard-%j.err
-	#SBATCH -t 5
-	#SBATCH -c 2
-	#SBATCH -H
-	#SBATCH -J "${groupname}_dedup_guard"
 	${sbatch_wait}
 	date
 DEDUPGUARD`
@@ -783,13 +709,6 @@ DEDUPGUARD`
     # if jobs succeeded, kill the cleanup job, remove the duplicates from the big sorted file
     jid=`sbatch <<- DEDUP | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -t $((queue_time / 2))
-	#SBATCH --mem-per-cpu=2G
-	#SBATCH -o $debugdir/dedup-%j.out
-	#SBATCH -e $debugdir/dedup-%j.err
-	#SBATCH -c 2
-	#SBATCH -J "${groupname}_dedup"
 	${sbatch_wait}
 	date
     export LC_ALL=C
@@ -815,13 +734,6 @@ DEDUP`
     #Wait for all parts of split_rmdups to complete:
     jid=`sbatch <<- MSPLITWAIT | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -o $debugdir/post_dedup-%j.out
-	#SBATCH -e $debugdir/post_dedup-%j.err
-	#SBATCH -t 100
-	#SBATCH -c 2
-	#SBATCH -J "${groupname}_post_dedup"
-	#SBATCH -d ${dependguard}
 	date
 	rm -Rf $tmpdir ;
 	find $debugdir -type f -size 0 | xargs rm
@@ -846,13 +758,6 @@ then
     # in ideal world, we would check this in split_rmdups and not remove before we know they are correct
     jid=`sbatch <<- DUPCHECK | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -t $((queue_time / 3))
-	#SBATCH -o $debugdir/dupcheck-%j.out
-	#SBATCH -e $debugdir/dupcheck-%j.err
-	#SBATCH -c 2
-	#SBATCH --mem-per-cpu=1G
-	#SBATCH -J "${groupname}_dupcheck"
 	${sbatch_wait}
 	date      
 	ls -l ${outputdir}/merged_sort.txt | awk '{printf("%s ", \\\$5)}' > $debugdir/dupcheck-${groupname}
@@ -868,13 +773,6 @@ DUPCHECK`
     ### JOB _stats
 	jid=`sbatch <<- STATS | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $queue
-		#SBATCH -t ${queue_time}
-		#SBATCH -o $debugdir/stats-%j.out
-		#SBATCH -e $debugdir/stats-%j.err
-		#SBATCH -c 2
-		#SBATCH --mem-per-cpu=10G
-		#SBATCH -J "${groupname}_stats"
 		${sbatch_wait}
 		date
 		if [ -f "${errorfile}" ]
@@ -903,14 +801,6 @@ STATS`
     ### JOB _hic
 	jid=`sbatch <<- HIC | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $long_queue
-	#SBATCH -t ${long_queue_time}
-	#SBATCH -o $debugdir/hic-%j.out
-	#SBATCH -e $debugdir/hic-%j.err	
-	#SBATCH -c 2
-	#SBATCH --mem-per-cpu=32G
-	#SBATCH -J "${groupname}_hic"
-	#SBATCH -d $dependstats
 	${load_java}
 	export _JAVA_OPTIONS="-Xms2048m -Xmx48192m -XX:ParallelGCThreads=1"
 	date
@@ -932,14 +822,6 @@ HIC`
     ### JOB _hic30
 	jid=`sbatch <<- HIC30 | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $long_queue
-	#SBATCH -t ${long_queue_time}
-	#SBATCH -o $debugdir/hic30-%j.out
-	#SBATCH -e $debugdir/hic30-%j.err
-	#SBATCH -c 2
-	#SBATCH --mem-per-cpu=32G
-	#SBATCH -J "${groupname}_hic30"
-	#SBATCH -d ${dependstats}
 	${load_java}
 	export _JAVA_OPTIONS="-Xms2048m -Xmx48192m -XX:ParallelGCThreads=1"
 	date
@@ -968,14 +850,6 @@ HIC30`
     ### JOB _hiccups_wrap
 	jid=`sbatch <<- HICCUPS | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p gpu
-	#SBATCH -t ${queue_time}
-	#SBATCH -c 2
-	#SBATCH --mem=18g
-	#SBATCH --gres=gpu:k80:1
-	#SBATCH -o $debugdir/hiccups_wrap-%j.out
-	#SBATCH -e $debugdir/hiccups_wrap-%j.err
-	#SBATCH -J "${groupname}_hiccups_wrap"
 	${sbatch_wait}
 	${load_gpu}
 	echo "load: $load_gpu"
@@ -995,13 +869,6 @@ HICCUPS`
     ### JOB _arrowhead_wrap
 	jid=`sbatch <<- ARROWS | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -t ${queue_time}
-	#SBATCH -c 2
-	#SBATCH --mem=18g
-	#SBATCH -o $debugdir/arrowhead_wrap-%j.out
-	#SBATCH -e $debugdir/arrowhead_wrap-%j.err
-	#SBATCH -J "${groupname}_arrowhead_wrap"
 	${sbatch_wait}
 	${load_java}
 	date
@@ -1018,14 +885,6 @@ ARROWS`
     ### JOB _fincln
 	jid=`sbatch <<- FINCLN1 | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash
-	#SBATCH -p $queue
-	#SBATCH -t ${queue_time}
-	#SBATCH --mem-per-cpu=2G
-	#SBATCH -o $debugdir/fincln-%j.out
-	#SBATCH -e $debugdir/fincln-%j.err
-	#SBATCH -c 2
-	#SBATCH -J "${groupname}_prep_done"
-	#SBATCH -d $dependarrows
 	date
 	export splitdir=${splitdir}; export outputdir=${outputdir}; ${juiceDir}/scripts/check.sh
 	date
@@ -1035,14 +894,6 @@ else
     ### JOB _fincln
 	jid=`sbatch <<- FINCLN1 | egrep -o -e "\b[0-9]+$" 
 	#!/bin/bash
-	#SBATCH -p $queue
-	#SBATCH -t ${queue_time}
-	#SBATCH --mem-per-cpu=2G
-	#SBATCH -o $debugdir/fincln1-%j.out
-	#SBATCH -e $debugdir/fincln1-%j.err
-	#SBATCH -c 2
-	#SBATCH -J "${groupname}_prep_done"     
-	#SBATCH -d $dependarrows
 	date
 	export splitdir=${splitdir}; export outputdir=${outputdir}; export early=1; ${juiceDir}/scripts/check.sh
 	date

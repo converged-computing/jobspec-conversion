@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-carrot-4672
+#FLUX: --job-name=hairy-parrot-9110
 #FLUX: -c=4
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=singIm
 #FLUX: --queue=short
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 datdir=$1
 echo $datdir

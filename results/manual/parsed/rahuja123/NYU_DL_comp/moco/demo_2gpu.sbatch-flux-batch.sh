@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-arm-2591
+#FLUX: --job-name=frigid-nalgas-8881
 #FLUX: --exclusive
 #FLUX: --queue=n1s16-t4-2
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

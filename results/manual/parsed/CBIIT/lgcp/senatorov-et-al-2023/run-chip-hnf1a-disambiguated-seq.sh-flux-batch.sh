@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pedo-7534
+#FLUX: --job-name=tart-butter-6732
 #FLUX: -c=12
 #FLUX: --queue=ccr
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load nextflow

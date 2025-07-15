@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-buttface-9427
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-staircase-9729
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeeJioky/vessel-trajectory-anomaly-detection/main_batch.sh

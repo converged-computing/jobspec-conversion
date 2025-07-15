@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-salad-9629
+#FLUX: --job-name=eccentric-pastry-3754
 #FLUX: -N=32
 #FLUX: -c=4
 #FLUX: --exclusive
 #FLUX: --queue=thin
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2021
 module load foss/2021a

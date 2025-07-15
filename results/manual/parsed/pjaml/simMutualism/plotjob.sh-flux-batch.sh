@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-muffin-9380
+#FLUX: --job-name=evasive-poo-6401
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/shawa/venka210/simMutualism || return
 module purge

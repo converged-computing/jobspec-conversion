@@ -2,7 +2,7 @@
 #FLUX: --job-name=rfq-nn-gpu-dropout-d7-lr5
 #FLUX: --queue=submit-gpu
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 srun hostname
 echo ""

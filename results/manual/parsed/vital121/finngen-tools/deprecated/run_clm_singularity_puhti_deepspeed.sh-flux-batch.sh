@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-underoos-2572
+#FLUX: --job-name=wobbly-bits-5991
 #FLUX: -N=2
 #FLUX: --queue=gputest
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SING_FLAGS='$SING_FLAGS -B /appl/spack/install-tree/gcc-4.8.5/pdsh-2.31-cdzt5w/bin:/usr/local/sbin'
 

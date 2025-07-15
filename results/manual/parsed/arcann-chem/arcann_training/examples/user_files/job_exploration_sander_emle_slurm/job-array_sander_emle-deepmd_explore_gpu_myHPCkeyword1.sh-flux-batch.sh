@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-platanos-8861
+#FLUX: --job-name=goodbye-kerfuffle-0876
 #FLUX: -c=10
 #FLUX: --queue=_R_PARTITION_
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TEMPWORKDIR='${SCRATCH}/JOB-${SLURM_JOBID}'
 

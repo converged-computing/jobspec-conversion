@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-chair-0232
-#FLUX: --priority=16
+#FLUX: --job-name=arid-fudge-3093
+#FLUX: --urgency=16
 
 cpu=2
 SCRATCHDIR=/tmp

@@ -4,7 +4,7 @@
 #FLUX: -c=10
 #FLUX: --queue=priority
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 trap_handler () {
    echo "Caught signal: " $1

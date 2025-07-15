@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-latke-2725
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-peanut-butter-8825
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/HRRR/sms/jhrrr_fcstpre_08.qsub

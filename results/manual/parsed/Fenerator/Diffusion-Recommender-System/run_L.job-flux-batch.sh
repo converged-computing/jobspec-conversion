@@ -3,7 +3,7 @@
 #FLUX: -c=3
 #FLUX: --queue=gpu_titanrtx_shared_course
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2021
 module load Anaconda3/2021.05

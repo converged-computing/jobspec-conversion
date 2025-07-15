@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-snack-1801
+#FLUX: --job-name=pusheena-butter-4353
 #FLUX: --queue=batch
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CWD=$PWD
 PROJECT_PATH=$1

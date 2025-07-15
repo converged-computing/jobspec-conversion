@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-noodle-0120
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-gato-6773
+#FLUX: --urgency=16
 
 export KMP_STACKSIZE='48M   # p=5'
 export KMP_INIT_AT_FORK='FALSE'

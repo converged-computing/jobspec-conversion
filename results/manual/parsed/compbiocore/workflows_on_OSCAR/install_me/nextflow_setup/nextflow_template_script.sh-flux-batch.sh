@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-car-3235
+#FLUX: --job-name=quirky-diablo-2823
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='$HOME/scratch'
 export NXF_SINGULARITY_CACHEDIR='$HOME/scratch'

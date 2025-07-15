@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-eagle-1843
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-mango-5827
+#FLUX: --urgency=16
 
 cd Complete_Pipeline
 path_dir="test/" #"test/archive/new_videos/" #

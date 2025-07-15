@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-leg-0114
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-lemur-0633
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jaytlennon/Task2/LTDE/bin/assembly/cutadapt_reference.sh

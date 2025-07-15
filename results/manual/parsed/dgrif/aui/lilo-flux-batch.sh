@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-blackbean-2937
-#FLUX: --priority=16
+#FLUX: --job-name=confused-peanut-butter-8301
+#FLUX: --urgency=16
 

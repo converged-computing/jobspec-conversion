@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-snack-9175
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-carrot-9664
+#FLUX: --urgency=16
 
 project=naturalsound-iEEG-sanitized-mixtures
 non_list=(modulus real rect)

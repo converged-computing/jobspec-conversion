@@ -3,7 +3,7 @@
 #FLUX: -c=64
 #FLUX: --queue=general
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dir_path="$2"
 output_dir="$1"

@@ -2,7 +2,7 @@
 #FLUX: --job-name=generate_kitti_samples
 #FLUX: -c=48
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/mask_bev
 docker build -t mask_bev .

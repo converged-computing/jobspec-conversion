@@ -2,7 +2,7 @@
 #FLUX: --job-name=deep
 #FLUX: --queue=production
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DockerImage="deephdc/deep-oc-dogs_breed_det"
 ContainerName="dogs-cpu"

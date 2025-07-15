@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-eagle-9159
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-cinnamonbun-8580
+#FLUX: --urgency=16
 
 source activate dac
 experi="3D3M"

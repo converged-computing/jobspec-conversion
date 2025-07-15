@@ -3,7 +3,7 @@
 #FLUX: -n=96
 #FLUX: --exclusive
 #FLUX: --queue=lva
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ns=(768)
 rs=(96)

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-salad-0268
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-parrot-7379
+#FLUX: --gpus-per-task=1
+#FLUX: --urgency=16
 
 _error() {
   local readonly msg="$1"
@@ -151,15 +152,6 @@ _scenario_gpu_trial1_perlmutter_run() {
   launchkit_dugout_dir="$(pwd -P)"
   cat > ./slurm_job.sh <<-__EOF__
 	#!/bin/bash
-	#SBATCH -A ntrain1
-	#SBATCH -C gpu
-	#SBATCH -q regular
-	#SBATCH -t 1:00:00
-	#SBATCH -N 1
-	#SBATCH --ntasks-per-node=1
-	#SBATCH -c 128
-	#SBATCH --gpus-per-task=1
-	#SBATCH --gpu-bind=none
 	export SLURM_CPU_BIND="cores"
 	srun nsys profile -o thinger --stats=true $LAUNCHKIT_RUNTIME_PATH_EXE
 	__EOF__

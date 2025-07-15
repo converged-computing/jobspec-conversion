@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-nalgas-0486
+#FLUX: --job-name=red-frito-3320
 #FLUX: -c=10
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dirs=(
     # "codellama-7b"

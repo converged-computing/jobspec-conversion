@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leopard-7463
+#FLUX: --job-name=delicious-noodle-6977
 #FLUX: --queue=gpu
 #FLUX: -t=60
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nvidia/nvhpc
 ./a.out

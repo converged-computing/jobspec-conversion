@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-plant-6432
+#FLUX: --job-name=crunchy-lemur-5751
 #FLUX: -c=10
 #FLUX: -t=41400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EXPERIMENT='CorpusR_MorphR_NeuralR_test'
 export SYSTEM_HYP='/home/ba63/gender-rewriting/rewrite/multi-step/logs/single_user/rewriting/$EXPERIMENT'

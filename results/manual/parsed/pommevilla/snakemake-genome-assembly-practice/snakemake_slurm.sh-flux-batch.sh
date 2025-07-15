@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=snakemake_run
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /project/fsepru/paul.villanueva/repos/snakemake-genome-assembly-practice
 source /home/${USER}/.bashrc

@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=tart-earthworm-7946
+#FLUX: --job-name=purple-house-9047
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: --queue=gpu_short
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Loading venv..."
 source /home/users/m/mikriukov/venvs/DADH/bin/activate

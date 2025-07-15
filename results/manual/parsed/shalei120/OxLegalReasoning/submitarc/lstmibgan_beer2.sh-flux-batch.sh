@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=LegalReasoning
 #FLUX: --queue=htc
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gpu/cuda/9.2.148
 module load python/anaconda3/5.0.1

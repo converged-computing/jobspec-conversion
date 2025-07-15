@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-mango-7906
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-underoos-8330
+#FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 128'
 

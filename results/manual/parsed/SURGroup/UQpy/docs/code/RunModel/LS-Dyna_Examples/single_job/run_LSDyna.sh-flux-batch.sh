@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=parallel
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load ls-dyna/10.1.0
 module load python

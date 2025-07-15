@@ -2,7 +2,7 @@
 #FLUX: --job-name=Pump
 #FLUX: --queue=single
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export KMP_AFFINITY='compact,1,0'
 

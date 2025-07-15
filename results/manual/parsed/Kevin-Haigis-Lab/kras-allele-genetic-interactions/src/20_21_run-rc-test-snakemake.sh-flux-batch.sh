@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pastry-8286
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-motorcycle-7757
+#FLUX: --urgency=16
 
 module load gcc conda2 slurm-drmaa/1.1.0
 source activate rctest

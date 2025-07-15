@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-diablo-5398
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-lizard-1876
+#FLUX: --urgency=16
 
 source activate phyluce
 module unuse /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core

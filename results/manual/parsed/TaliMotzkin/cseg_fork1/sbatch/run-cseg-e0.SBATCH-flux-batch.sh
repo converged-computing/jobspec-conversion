@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-frito-1220
+#FLUX: --job-name=frigid-egg-8918
 #FLUX: -c=8
 #FLUX: -t=172740
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge;
 singularity exec --nv \

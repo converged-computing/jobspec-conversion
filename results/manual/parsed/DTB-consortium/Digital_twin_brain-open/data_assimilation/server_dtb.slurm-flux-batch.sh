@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-chip-4771
+#FLUX: --job-name=goodbye-peanut-butter-8360
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mkdir -p log/$SLURM_JOB_ID
 mkdir -p log/$SLURM_JOB_ID/dmesg

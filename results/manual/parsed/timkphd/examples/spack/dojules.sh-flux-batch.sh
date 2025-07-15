@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="hybrid"
+#FLUX: --job-name=hybrid
 #FLUX: --exclusive
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MYDIR='/lustre/eaglefs/projects/hpcapps/tkaiser2/0410/build'
 export TMPDIR='$MYDIR/tmp'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-leopard-1472
+#FLUX: --job-name=persnickety-lamp-8495
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load u18/openmpi/4.1.2
 mpirun -np 15 /opt/n2p2/bin/lmp_mpi < nvt_share_H_heated_cooled_away_close_metad_28_157_27_126_0-2_0-3_500_40000_index1.lmp

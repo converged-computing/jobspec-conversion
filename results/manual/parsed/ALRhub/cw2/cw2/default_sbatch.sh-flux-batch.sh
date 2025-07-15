@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cattywampus-5697
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-omelette-2337
+#FLUX: --urgency=16
 
 %%sbatch_args%%
 %%venv%%

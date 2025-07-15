@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-diablo-0085
+#FLUX: --job-name=delicious-despacito-3877
 #FLUX: -c=4
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval $(spack env activate --sh tensorflow)
 if [ -z ${SLURM_ARRAY_TASK_ID} ] ; then

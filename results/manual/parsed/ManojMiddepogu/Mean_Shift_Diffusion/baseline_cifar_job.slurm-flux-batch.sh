@@ -2,7 +2,7 @@
 #FLUX: --job-name=baseline_cifar_job
 #FLUX: -c=12
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 openai_logdir=$1
 data_dir=$2

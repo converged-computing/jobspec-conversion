@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=CA_EX10_stream
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 set -v

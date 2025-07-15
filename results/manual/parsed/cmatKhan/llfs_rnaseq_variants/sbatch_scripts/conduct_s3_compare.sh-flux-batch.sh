@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-general-3650
+#FLUX: --job-name=wobbly-platanos-3882
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 eval $(spack load --sh singularityce@3.11.4)

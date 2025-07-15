@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=race_nli-%j
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python run_nli.py \
     --model_type roberta-nli \

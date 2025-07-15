@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-nalgas-3657
+#FLUX: --job-name=carnivorous-punk-7229
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load Java/1.8.0_121
 module load GATK

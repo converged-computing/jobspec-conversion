@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-gato-8017
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-chair-2304
+#FLUX: --urgency=16
 
 module purge
 module load singularity

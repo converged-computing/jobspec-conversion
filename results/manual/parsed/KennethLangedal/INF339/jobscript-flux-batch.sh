@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-malarkey-3968
+#FLUX: --job-name=lovable-noodle-7401
 #FLUX: -c=16
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_btl_openib_if_include='mlx5_1:1'

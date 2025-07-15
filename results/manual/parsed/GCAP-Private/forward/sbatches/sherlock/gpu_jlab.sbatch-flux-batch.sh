@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-house-1977
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-latke-4953
+#FLUX: --urgency=16
 
 PORT=$1
 NOTEBOOK_DIR=$2

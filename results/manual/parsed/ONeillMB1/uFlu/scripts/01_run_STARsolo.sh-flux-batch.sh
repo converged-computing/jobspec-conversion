@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pancake-0676
+#FLUX: --job-name=frigid-eagle-5620
 #FLUX: -n=12
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SAMPLE_NUM=${SLURM_ARRAY_TASK_ID} 
 PROJECT="<CHANGE ME>"

@@ -2,7 +2,7 @@
 #FLUX: --job-name=cs3730-scores
 #FLUX: --queue=a100
 #FLUX: -t=381600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "RUN:" `date`
 module load gcc/8.2.0 python/anaconda3.10-2022.10

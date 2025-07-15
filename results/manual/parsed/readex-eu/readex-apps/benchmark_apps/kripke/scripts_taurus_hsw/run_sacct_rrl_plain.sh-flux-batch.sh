@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-punk-1944
+#FLUX: --job-name=gassy-gato-7268
 #FLUX: --exclusive
 #FLUX: --queue=haswell
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCOREP_ENABLE_PROFILING='false'
 export SCOREP_ENABLE_TRACING='false'

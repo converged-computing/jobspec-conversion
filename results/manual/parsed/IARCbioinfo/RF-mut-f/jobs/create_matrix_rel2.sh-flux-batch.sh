@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="PREPARE-DATA"
+#FLUX: --job-name=PREPARE-DATA
 #FLUX: --queue=high_p
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ROOT=/data/scratch/digenovaa/Somatic-reference-free/SNV-INDELs/RF-mut-f
 CM=${ROOT}/code/makefiles/create_matrix_training.mk

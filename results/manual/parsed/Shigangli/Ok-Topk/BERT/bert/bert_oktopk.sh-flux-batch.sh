@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=confused-bike-9887
+#FLUX: --job-name=joyous-fudge-9209
 #FLUX: -N=32
 #FLUX: -n=32
 #FLUX: -c=12
 #FLUX: --queue=normal
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'

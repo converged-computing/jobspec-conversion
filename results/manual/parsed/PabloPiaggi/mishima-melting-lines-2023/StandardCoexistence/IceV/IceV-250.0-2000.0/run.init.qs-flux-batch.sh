@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-peanut-1226
+#FLUX: --job-name=stanky-bike-2147
 #FLUX: -c=7
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cudatoolkit/10.0
 module load cudnn/cuda-10.0/7.6.3

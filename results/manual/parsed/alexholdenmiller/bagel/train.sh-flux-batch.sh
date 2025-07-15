@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name='llvm'
+#FLUX: --job-name=llvm
 #FLUX: -c=4
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WANDB_API_KEY='$(cat wandb_login.txt)'
 

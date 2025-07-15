@@ -2,7 +2,7 @@
 #FLUX: --job-name=gpu-hicoo
 #FLUX: --queue=soc-gpu-kp
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo $0
 echo

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cherry-3179
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-dog-5294
+#FLUX: --urgency=16
 
 export MPLCONFIGDIR='${LUSTRE}/.matplotlib'
 export OMP_NUM_THREADS='1'

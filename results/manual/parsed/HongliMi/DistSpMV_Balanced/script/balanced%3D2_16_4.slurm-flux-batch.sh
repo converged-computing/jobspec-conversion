@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-motorcycle-5276
+#FLUX: --job-name=sticky-egg-0068
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_LOG_LEVEL='error'
 

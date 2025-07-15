@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-diablo-8527
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-train-0890
+#FLUX: --urgency=16
 
 outputdir=/gpfs/loomis/project/fas/ohern/jdt45/dpm
 simtypedir=$outputdir/meso2D

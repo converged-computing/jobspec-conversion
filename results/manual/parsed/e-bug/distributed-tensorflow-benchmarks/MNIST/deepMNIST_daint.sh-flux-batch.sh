@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=deepMNIST
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORKON_HOME='~/Envs'
 

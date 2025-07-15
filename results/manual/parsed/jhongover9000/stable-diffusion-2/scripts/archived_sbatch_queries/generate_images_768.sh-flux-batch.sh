@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-bicycle-3109
+#FLUX: --job-name=misunderstood-bike-5373
 #FLUX: -c=4
 #FLUX: -t=261000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 FILES=(/scratch/jhh508/stable-diffusion-2/*)
 module purge

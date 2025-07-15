@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-platanos-4021
-#FLUX: --priority=16
+#FLUX: --job-name=placid-diablo-3054
+#FLUX: --urgency=16
 
 PRO=mmult
 module load gcc/10.2.0-fasrc01 openmpi/4.1.1-fasrc01

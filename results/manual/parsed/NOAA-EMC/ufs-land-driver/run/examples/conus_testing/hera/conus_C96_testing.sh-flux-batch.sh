@@ -2,7 +2,7 @@
 #FLUX: --job-name=UFS-Land
 #FLUX: -n=4
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load stack-intel/2021.5.0  

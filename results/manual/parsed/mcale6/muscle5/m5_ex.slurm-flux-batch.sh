@@ -2,7 +2,7 @@
 #FLUX: --job-name=muscle_MSA
 #FLUX: -c=20
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load mamba intel
 source activate main_env

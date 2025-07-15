@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lettuce-4539
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-parsnip-8429
+#FLUX: --urgency=16
 
 set -e
 set -u

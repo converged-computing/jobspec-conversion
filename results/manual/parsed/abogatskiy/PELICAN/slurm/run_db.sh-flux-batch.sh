@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-destiny-6592
+#FLUX: --job-name=faux-latke-6070
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

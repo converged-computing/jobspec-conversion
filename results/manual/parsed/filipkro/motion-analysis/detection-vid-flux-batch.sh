@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-knife-1864
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-animal-9058
+#FLUX: --urgency=16
 
 vid="006FL.MTS"
 allow_flip="False"

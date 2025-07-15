@@ -2,7 +2,7 @@
 #FLUX: --job-name=run
 #FLUX: -c=16
 #FLUX: -t=85800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo ---------- MAIN SCRIPT ----------
 echo hostname=$(hostname)

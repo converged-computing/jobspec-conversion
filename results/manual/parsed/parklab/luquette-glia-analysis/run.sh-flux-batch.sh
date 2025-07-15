@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-puppy-2090
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-hobbit-5099
+#FLUX: --urgency=16
 
 word=$1
 shift

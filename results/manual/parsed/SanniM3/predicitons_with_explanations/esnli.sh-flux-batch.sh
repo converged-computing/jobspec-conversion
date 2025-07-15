@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leg-5674
+#FLUX: --job-name=bloated-chair-0244
 #FLUX: --queue=PGR-Standard
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='/opt/cuda-9.0.176.1/'
 export CUDNN_HOME='/opt/cuDNN-7.0/'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-carrot-5167
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-dog-2515
+#FLUX: --urgency=16
 
 export LC_ALL='C'
 export splitdir='${splitdir}; export outputdir=${outputdir}; ${juiceDir}/scripts/check.sh'
@@ -363,12 +363,6 @@ fi
 jid=$(
 sbatch $hold <<- HEADER | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l 
-	#SBATCH -p $queue
-	#SBATCH -t 2
-	#SBATCH -c 2
-	#SBATCH -o $debugdir/head-%j.out
-	#SBATCH -e $debugdir/head-%j.err
-	#SBATCH -J "${groupname}_cmd"
 	date
 	${load_bwa}
 	${load_java}
@@ -428,13 +422,6 @@ then
 					jid=$(
 					sbatch $hold <<- SPLITEND | egrep -o -e "\b[0-9]+$"
 					#!/bin/bash -l
-					#SBATCH -p $queue
-					#SBATCH -t $(( queue_time / 3 ))
-					#SBATCH -c 4
-					#SBATCH --mem=10G
-					#SBATCH -o $debugdir/split-%j.out
-					#SBATCH -e $debugdir/split-%j.err
-					#SBATCH -J "${groupname}_split_${i}"
 					date
 					echo "Split file: $filename"
 					${load_coreutils}
@@ -448,13 +435,6 @@ then
 					jid=$(
 					sbatch $hold <<- SPLITEND | egrep -o -e "\b[0-9]+$"
 					#!/bin/bash -l
-					#SBATCH -p $queue
-					#SBATCH -t $(( queue_time / 2))
-					#SBATCH -c 4
-					#SBATCH --mem=10G
-					#SBATCH -o $debugdir/split-%j.out
-					#SBATCH -e $debugdir/split-%j.err
-					#SBATCH -J "${groupname}_split_${i}"
 					date
 					echo "Split file: $filename"
 					${load_coreutils}
@@ -473,12 +453,6 @@ then
 			jid=$(
 			sbatch $hold <<-SPLITWAITEND | egrep -o -e "\b[0-9]+$"
 			#!/bin/bash -l
-			#SBATCH -p $queue
-			#SBATCH -t 2
-			#SBATCH -o $debugdir/wait-%j.out
-			#SBATCH -e $debugdir/wait-%j.err
-			#SBATCH -J "${groupname}_wait"
-			#SBATCH -d $dependsplit
 			touch ${splitdir}/SPLIT_DONE
 			SPLITWAITEND
 			)
@@ -535,13 +509,6 @@ then
 		jid=$(
 		sbatch $hold <<- CNTLIG |  egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $queue
-		#SBATCH -t $(( queue_time / 3 ))
-		#SBATCH -c 2
-		#SBATCH -o $debugdir/count_ligation-%j.out
-		#SBATCH -e $debugdir/count_ligation-%j.err
-		#SBATCH -J "${groupname}_${jname}_Count_Ligation"
-		#SBATCH --mem=10G
 		date
 		usegzip=${usegzip}
 		name=${name}
@@ -563,13 +530,6 @@ then
 			jid=$(
 			sbatch $hold <<- ALGNR1 | egrep -o -e "\b[0-9]+$"
 			#!/bin/bash -l
-			#SBATCH -p $queue
-			#SBATCH -o $debugdir/align1-%j.out
-			#SBATCH -e $debugdir/align1-%j.err
-			#SBATCH -t $queue_time
-			#SBATCH -c $(( threads + 4 ))
-			#SBATCH --mem=$bwa_mem
-			#SBATCH -J "${groupname}_align1_${jname}"
 			${load_bwa}
 			${load_samtools}
 			# Align reads
@@ -596,15 +556,6 @@ then
 		jid=$(
 		sbatch $hold <<- MRGALL | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -p $long_queue
-		#SBATCH -o $debugdir/merge-%j.out
-		#SBATCH -e $debugdir/merge-%j.err
-		#SBATCH --mem=40G
-		#SBATCH -t $long_queue_time
-		#SBATCH -c 8
-		#SBATCH -d $dependalign
-		#SBATCH -J "${groupname}_merge_${jname}"
-		#SBATCH --gres=lscratch:800
 		${load_awk}
 		${load_coreutils}
 		${load_samtools}
@@ -684,12 +635,6 @@ then
 		jid=$(
 		sbatch $hold <<- EOF | egrep -o -e "\b[0-9]+$"
 		#!/bin/bash -l
-		#SBATCH -o $debugdir/aligncheck-%j.out
-		#SBATCH -e $debugdir/aligncheck-%j.err
-		#SBATCH -t 5
-		#SBATCH -p $queue
-		#SBATCH -J "${groupname}_check"
-		#SBATCH -d $dependmerge
 		date
 		echo "Checking $f"
 		if [ ! -e $f ]
@@ -716,14 +661,6 @@ then
 	jid=$(
 	sbatch $hold <<- EOF
 	#!/bin/bash -l
-	#SBATCH -o $debugdir/fragmerge-%j.out
-	#SBATCH -e $debugdir/fragmerge-%j.err
-	#SBATCH -p largemem
-	#SBATCH -t ${long_queue_time}
-	#SBATCH -c 16
-	#SBATCH --mem 400G
-	#SBATCH -J "${groupname}_fragmerge"
-	#SBATCH --gres=lscratch:800
 	${sbatch_wait}
 	${load_coreutils}
 	date
@@ -769,13 +706,6 @@ then
 	guardjid=$(
 	sbatch $hold <<- DEDUPGUARD | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -o $debugdir/dedupguard-%j.out
-	#SBATCH -e $debugdir/dedupguard-%j.err
-	#SBATCH -t 10
-	#SBATCH -c 1
-	#SBATCH -H
-	#SBATCH -J "${groupname}_dedup_guard"
 	${sbatch_wait}
 	date
 	DEDUPGUARD
@@ -791,13 +721,6 @@ then
 	jid=$(
 	sbatch $hold <<- DEDUP | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH --mem-per-cpu=2G
-	#SBATCH -o $debugdir/dedup-%j.out
-	#SBATCH -e $debugdir/dedup-%j.err
-	#SBATCH -t $(( queue_time / 2 ))
-	#SBATCH -c 2
-	#SBATCH -J "${groupname}_dedup"
 	${sbatch_wait}
 	export LC_ALL=C
 	date
@@ -835,13 +758,6 @@ then
 	jid=$(
 	sbatch $hold <<- MSPLITWAIT | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -o $debugdir/post_dedup-%j.out
-	#SBATCH -e $debugdir/post_dedup-%j.err
-	#SBATCH -t 100
-	#SBATCH -c 1
-	#SBATCH -J "${groupname}_post_dedup"
-	#SBATCH -d ${dependguard}
 	date
 	rm -Rf $tmpdir ;
 	find $debugdir -type f -size 0 -exec rm {} +
@@ -869,13 +785,6 @@ if [ -z $postproc ]
 	jid=$(
 	sbatch $hold <<- DUPCHECK | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -o $debugdir/dupcheck-%j.out
-	#SBATCH -e $debugdir/dupcheck-%j.err
-	#SBATCH -t $queue_time
-	#SBATCH -c 2
-	#SBATCH --mem-per-cpu=2G
-	#SBATCH -J "${groupname}_dupcheck"
 	${sbatch_wait}
 	date	  
 	ls -l ${outputdir}/merged_sort.txt \
@@ -898,13 +807,6 @@ if [ -z $postproc ]
 	jid=$(
 	sbatch $hold <<- PRESTATS | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -o $debugdir/prestats-%j.out
-	#SBATCH -e $debugdir/prestats-%j.err
-	#SBATCH -t $queue_time
-	#SBATCH -c 2
-	#SBATCH --mem-per-cpu=20G
-	#SBATCH -J "${groupname}_prestats"
 	${sbatch_wait}
 	${load_java}
 	date
@@ -926,13 +828,6 @@ if [ -z $postproc ]
 	jid=$(
 	sbatch $hold <<- STATS | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $long_queue
-	#SBATCH -o $debugdir/stats-%j.out
-	#SBATCH -e $debugdir/stats-%j.err
-	#SBATCH -t $long_queue_time
-	#SBATCH -c 2
-	#SBATCH --mem=32G
-	#SBATCH -J "${groupname}_stats"
 	${sbatch_wait0}
 	date
 	if [ -f "${errorfile}" ]
@@ -952,14 +847,6 @@ if [ -z $postproc ]
 	jid=$(
 	sbatch $hold <<-STATS30 | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $long_queue
-	#SBATCH -o $debugdir/stats30-%j.out
-	#SBATCH -e $debugdir/stats30-%j.err
-	#SBATCH -t $long_queue_time
-	#SBATCH -c 2
-	#SBATCH --ntasks=1
-	#SBATCH --mem=32G
-	#SBATCH -J "${groupname}_stats"
 	${sbatch_wait0}
 	perl ${juiceDir}/scripts/statistics.pl -s $site_file -l $ligation \
 		-o $outputdir/inter_30.txt -q 30 $outputdir/merged_nodups.txt
@@ -974,13 +861,6 @@ if [ -z $postproc ]
 	jid=$(
 	sbatch $hold <<- CONCATFILES | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $long_queue
-	#SBATCH -o $debugdir/stats30-%j.out
-	#SBATCH -e $debugdir/stats30-%j.err
-	#SBATCH -t $long_queue_time
-	#SBATCH -c 2
-	#SBATCH --mem=32G
-	#SBATCH -J "${groupname}_concat"
 	${sbatch_wait}
 	${load_awk}
 	cat $splitdir/*_abnorm.sam > $outputdir/abnormal.sam
@@ -1006,14 +886,6 @@ if [ -z $postproc ]
 		jid=$(
 		sbatch $hold <<-FINCLN1 | egrep -o -e "\b[0-9]+$" 
 		#!/bin/bash -l
-		#SBATCH -p $queue
-		#SBATCH --mem=4G
-		#SBATCH -o $debugdir/fincln1-%j.out
-		#SBATCH -e $debugdir/fincln1-%j.err
-		#SBATCH -t $(( queue_time / 2 ))
-		#SBATCH -c 2
-		#SBATCH -J "${groupname}_prep_done"	 
-		#SBATCH --mail-type=END,FAIL
 		${sbatch_wait1}
 		date
 		export splitdir=${splitdir}; 
@@ -1031,14 +903,6 @@ if [ -z $postproc ]
 	jid=$(
 	sbatch $hold <<- HIC | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -o $debugdir/hic-%j.out
-	#SBATCH -e $debugdir/hic-%j.err	
-	#SBATCH -t $long_queue_time
-	#SBATCH -c 24
-	#SBATCH --mem=200G
-	#SBATCH -J "${groupname}_hic"
-	#SBATCH -d $dependstats
 	${load_java}
 	#export IBM_JAVA_OPTIONS="-Xmx49152m -Xgcthreads1"
 	export _JAVA_OPTIONS="-Xmx49152m -Xms49152m -XX:ParallelGCThreads=1"
@@ -1070,14 +934,6 @@ if [ -z $postproc ]
 	jid=$(
 	sbatch $hold <<- HIC30 | egrep -o -e "\b[0-9]+$"
 	#!/bin/bash -l
-	#SBATCH -p $queue
-	#SBATCH -o $debugdir/hic30-%j.out
-	#SBATCH -e $debugdir/hic30-%j.err
-	#SBATCH -t $long_queue_time
-	#SBATCH -c 24
-	#SBATCH --mem=200G
-	#SBATCH -J "${groupname}_hic30"
-	#SBATCH -d ${dependstats30}
 	${load_java}
 	#export IBM_JAVA_OPTIONS="-Xmx49152m -Xgcthreads1"
 	export _JAVA_OPTIONS="-Xmx49152m -Xms49152m -XX:ParallelGCThreads=1"

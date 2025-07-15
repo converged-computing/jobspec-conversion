@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-plant-2357
+#FLUX: --job-name=bumfuzzled-squidward-9840
 #FLUX: -c=40
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RSTUDIO_SESSION_TIMEOUT='0'
 export PASSWORD='$(openssl rand -base64 15)'

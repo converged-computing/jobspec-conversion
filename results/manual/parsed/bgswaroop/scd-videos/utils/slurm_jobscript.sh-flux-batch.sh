@@ -3,7 +3,7 @@
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/data/p288722/softwares/cuda/lib64'
 

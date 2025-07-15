@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-parrot-1424
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-lizard-5198
+#FLUX: --urgency=16
 
 export LAMMPS_DIR='/home1/04770/tg840694/help_TACC_lammps/stable_3Mar2020_clean/'
 export PATH='${PATH}:${LAMMPS_DIR}/bin'

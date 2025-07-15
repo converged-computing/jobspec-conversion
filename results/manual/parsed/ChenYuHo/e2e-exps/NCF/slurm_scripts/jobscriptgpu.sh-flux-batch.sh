@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-knife-3047
+#FLUX: --job-name=reclusive-leader-2863
 #FLUX: --queue=batch
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.1.105
 module load cudnn/7.5.0

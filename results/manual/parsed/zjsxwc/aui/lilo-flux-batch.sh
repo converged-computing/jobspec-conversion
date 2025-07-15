@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-fork-7739
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-parsnip-7414
+#FLUX: --urgency=16
 

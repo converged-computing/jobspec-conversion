@@ -2,7 +2,7 @@
 #FLUX: --job-name=train-osmi
 #FLUX: --queue=bii-gpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 NAME=cloudmesh-rivanna
 PROJECT_DIR=$PROJECT/osmi

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="Collect NAMD Energy"
-#FLUX: --priority=16
+#FLUX: --job-name=Collect NAMD Energy
+#FLUX: --urgency=16
 
 module load vmd
 names=()

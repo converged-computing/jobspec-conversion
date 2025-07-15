@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lettuce-5870
+#FLUX: --job-name=fuzzy-dog-6268
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euo pipefail
 module load 2021

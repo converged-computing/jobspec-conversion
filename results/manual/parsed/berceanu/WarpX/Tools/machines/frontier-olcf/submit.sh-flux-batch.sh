@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-snack-1693
+#FLUX: --job-name=moolicious-underoos-5290
 #FLUX: -c=7
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'
 export MPICH_SMP_SINGLE_COPY_MODE='NONE'

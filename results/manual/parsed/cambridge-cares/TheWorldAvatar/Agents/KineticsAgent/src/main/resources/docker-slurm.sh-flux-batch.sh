@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-milkshake-2979
+#FLUX: --job-name=quirky-onion-6142
 #FLUX: -n=2
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRMWORKINGDIR='$SCRATCH_DIRECTORY'
 

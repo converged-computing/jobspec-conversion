@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=instrument
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.10 cuda/11.7 sox
 cd /nfs/guille/eecs_research/soundbendor/zontosj/instrument_classification_with_pytorch

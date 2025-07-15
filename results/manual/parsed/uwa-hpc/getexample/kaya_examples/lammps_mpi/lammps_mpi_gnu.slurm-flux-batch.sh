@@ -3,7 +3,7 @@
 #FLUX: -n=36
 #FLUX: --queue=admin
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='36'
 

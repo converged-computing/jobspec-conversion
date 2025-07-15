@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-train-8370
+#FLUX: --job-name=confused-cherry-1965
 #FLUX: -n=4
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$EB_PREFIX/easybuild-framework:$EB_PREFIX/easybuild-easyblocks:$EB_PREFIX/easybuild-easyconfigs'
 export PATH='$EB_PREFIX/easybuild-framework:$HOME/.local/bin:$PATH'

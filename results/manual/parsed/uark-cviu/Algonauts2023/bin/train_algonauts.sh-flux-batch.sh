@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: -c=8
 #FLUX: --queue=agpu72
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORLD_SIZE='$WORLD_SIZE'
 export MASTER_ADDR='$MASTER_ADDR'

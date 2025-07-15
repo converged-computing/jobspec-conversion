@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="lcdb-wf"
-#FLUX: --queue="norm"
+#FLUX: --job-name=lcdb-wf
+#FLUX: --queue=norm
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 if [[ ! -e slurm_logs ]]; then mkdir -p slurm_logs; fi
 (conda activate lcdb-references;

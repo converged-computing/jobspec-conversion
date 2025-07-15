@@ -2,7 +2,7 @@
 #FLUX: --job-name=juliachem-runtest
 #FLUX: -c=16
 #FLUX: --queue=haswell
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='16'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-banana-6592
-#FLUX: --priority=16
+#FLUX: --job-name=salted-ricecake-2596
+#FLUX: --urgency=16
 
 if [[ ! -f ./config.yaml ]]; then
     echo "Must have a config.yaml to be able to run"

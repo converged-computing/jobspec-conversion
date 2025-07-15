@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hobbit-0317
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-caramel-3045
+#FLUX: --urgency=16
 
 Help()
 {

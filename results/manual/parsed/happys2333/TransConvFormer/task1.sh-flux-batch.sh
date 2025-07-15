@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-nunchucks-9322
+#FLUX: --job-name=butterscotch-ricecake-1937
 #FLUX: --queue=gpulab02
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 env_name="trans"
 seq_len=96

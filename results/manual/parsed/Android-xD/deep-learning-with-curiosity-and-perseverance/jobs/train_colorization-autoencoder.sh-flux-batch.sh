@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source scripts/startup.sh
 cd third_party/colorization-autoencoder

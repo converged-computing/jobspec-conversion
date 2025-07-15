@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pancake-7357
+#FLUX: --job-name=delicious-lemon-6084
 #FLUX: -c=8
 #FLUX: --queue=standard
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCRAM_ARCH='slc7_amd64_gcc700'
 

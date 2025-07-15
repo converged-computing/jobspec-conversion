@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=diffae_autoenc
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CONDA_ROOT='$HOME/anaconda3'
 export PATH='$CONDA_ROOT/bin:$PATH'

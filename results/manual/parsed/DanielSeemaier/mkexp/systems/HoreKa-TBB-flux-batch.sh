@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-punk-0886
-#FLUX: --priority=16
+#FLUX: --job-name=faux-chip-4231
+#FLUX: --urgency=16
 
 . "$script_pwd/../systems/Generic"
 HOREKA_OPENMPI_VERSION="4.0"

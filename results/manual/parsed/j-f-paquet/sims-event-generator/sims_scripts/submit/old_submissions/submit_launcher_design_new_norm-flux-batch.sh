@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-milkshake-7028
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-ricecake-3469
+#FLUX: --urgency=16
 
 export LAUNCHER_PLUGIN_DIR='$LAUNCHER_DIR/plugins'
 export LAUNCHER_RMI='SLURM'

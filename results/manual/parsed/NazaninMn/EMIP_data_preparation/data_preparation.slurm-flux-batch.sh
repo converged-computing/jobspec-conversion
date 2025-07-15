@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-hobbit-9347
+#FLUX: --job-name=fuzzy-caramel-4803
 #FLUX: -c=7
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load apptainer

@@ -3,7 +3,7 @@
 #FLUX: -n=288
 #FLUX: --queue=batch
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CMake Intel IntelMPI imkl netCDF netCDF-Fortran
 set -x

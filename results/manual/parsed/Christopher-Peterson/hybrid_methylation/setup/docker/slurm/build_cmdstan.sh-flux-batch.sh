@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cat-7158
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-dog-4182
+#FLUX: --urgency=16
 
 export LD_PRELOAD=''
 

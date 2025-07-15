@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-leg-9381
-#FLUX: --priority=16
+#FLUX: --job-name=tart-leopard-1034
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/petehague/FRP/frp_alice.sub

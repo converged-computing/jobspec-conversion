@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-kerfuffle-1614
-#FLUX: --priority=16
+#FLUX: --job-name=salted-pedo-4606
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ioodderskov/VelocityField/code/mpisubmit

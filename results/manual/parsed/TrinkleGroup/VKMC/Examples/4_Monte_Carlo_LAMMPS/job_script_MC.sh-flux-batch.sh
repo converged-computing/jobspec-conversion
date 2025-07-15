@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="MyJob"
+#FLUX: --job-name=MyJob
 #FLUX: --queue=cpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 VKMC=/path/to/the/local/copy/of/the/VKMC/repository # We Need to add the full path to the local copy of the VKMC respository here.
 potpath=$VKMC/Utils/pot

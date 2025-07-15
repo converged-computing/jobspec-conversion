@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-leg-2561
+#FLUX: --job-name=milky-fork-1646
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 module load anaconda cuda

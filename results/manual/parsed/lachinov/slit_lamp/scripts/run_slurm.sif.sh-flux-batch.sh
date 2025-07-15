@@ -2,7 +2,7 @@
 #FLUX: --job-name=UPD_FRMWRK
 #FLUX: -n=8
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITYENV_CUDA_VISIBLE_DEVICES='$CUDA_VISIBLE_DEVICES'
 

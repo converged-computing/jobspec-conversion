@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-omelette-6334
+#FLUX: --job-name=peachy-cat-4084
 #FLUX: -c=2
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.9.6
 source /project/6025683/stanlo/opv_project/bin/activate

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-bike-6126
+#FLUX: --job-name=placid-cherry-0724
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NODELIST='nodelist.$'
 export HOROVOD_GPU_ALLREDUCE='MPI'

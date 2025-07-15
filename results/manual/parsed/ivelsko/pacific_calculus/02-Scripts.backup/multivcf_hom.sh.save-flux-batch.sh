@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-snack-0768
-#FLUX: --priority=16
+#FLUX: --job-name=salted-nalgas-3898
+#FLUX: --urgency=16
 
 java -Xmx16G -jar /projects1/tools/multivcfanalyzer/0.0.87/MultiVCFanalyzer_0-87.jar \
 NA \

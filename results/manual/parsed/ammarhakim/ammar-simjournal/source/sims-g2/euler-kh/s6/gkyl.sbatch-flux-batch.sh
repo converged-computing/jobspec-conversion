@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-malarkey-5264
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-leg-9780
+#FLUX: --urgency=16
 
 module load intel
 module load intel-mpi

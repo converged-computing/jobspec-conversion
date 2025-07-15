@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=s
 #FLUX: -c=128
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO  # comment it if you are not debugging distributed parallel setup'
 export NCCL_DEBUG_SUBSYS='ALL # comment it if you are not debugging distributed parallel setup'

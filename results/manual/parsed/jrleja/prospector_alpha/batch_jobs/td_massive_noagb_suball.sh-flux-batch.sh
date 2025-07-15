@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-omelette-3380
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-malarkey-2843
+#FLUX: --urgency=16
 
 IDFILE=$APPS"/prospector_alpha/data/3dhst/td_massive.ids"
 OBJID=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$IDFILE")

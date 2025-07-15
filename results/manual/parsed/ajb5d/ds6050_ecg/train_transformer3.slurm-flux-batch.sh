@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cattywampus-9699
+#FLUX: --job-name=expensive-parsnip-8850
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity tensorflow/2.10.0
 singularity run --nv $CONTAINERDIR/tensorflow-2.10.0.sif transformer_age3.py

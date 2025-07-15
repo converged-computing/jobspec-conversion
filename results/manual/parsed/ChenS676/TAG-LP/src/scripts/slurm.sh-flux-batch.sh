@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-ricecake-8465
+#FLUX: --job-name=reclusive-chair-4690
 #FLUX: -n=40
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load devel/cmake/3.18
 module load devel/cuda/11.4

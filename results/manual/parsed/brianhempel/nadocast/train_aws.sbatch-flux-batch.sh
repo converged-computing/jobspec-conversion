@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-diablo-6238
+#FLUX: --job-name=psycho-dog-1661
 #FLUX: --exclusive
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME='/home/brian.hempel'
 export PATH='$PATH:$HOME/.local/bin:$HOME/bin'

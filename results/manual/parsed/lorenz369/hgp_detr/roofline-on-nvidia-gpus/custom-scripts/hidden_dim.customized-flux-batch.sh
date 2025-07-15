@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-butter-4239
+#FLUX: --job-name=carnivorous-destiny-0706
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'
 export MASTER_PORT='12345'

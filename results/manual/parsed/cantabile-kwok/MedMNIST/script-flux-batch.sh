@@ -2,7 +2,7 @@
 #FLUX: --job-name=chest_new_50
 #FLUX: -c=2
 #FLUX: --queue=2080ti
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add cuda/10.1
 module add gcc/8.4.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-nunchucks-0807
+#FLUX: --job-name=strawberry-toaster-3291
 #FLUX: -n=32
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 N_TASKS=31
 PROJECT_DIR=$HOME/dev/OAR

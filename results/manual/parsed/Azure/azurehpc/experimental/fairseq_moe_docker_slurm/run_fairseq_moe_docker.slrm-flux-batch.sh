@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fairseq_moe
 #FLUX: -c=96
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 DOCKER_USERNAME="<DOCKER_USERNAME>"
 DOCKER_PASSWD="<DOCKER_PASSWORD>"

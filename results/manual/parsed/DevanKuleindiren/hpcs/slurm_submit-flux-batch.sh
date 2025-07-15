@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-onion-8457
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-frito-5637
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib:$CUDA_INSTALL_PATH/lib64;'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-bits-8912
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-taco-9274
+#FLUX: --urgency=16
 
 module load anacondapy/2020.11
 module load elastix/4.8

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-caramel-1680
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-signal-4350
+#FLUX: --urgency=16
 
 data_set="data_Olga-Tokarczuk.npz"
 archive="VA-classification"

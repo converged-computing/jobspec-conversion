@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-motorcycle-7977
+#FLUX: --job-name=doopy-leg-0371
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "START"
 date

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=stemgen
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.10 cuda/11.7 sox
 source env/bin/activate

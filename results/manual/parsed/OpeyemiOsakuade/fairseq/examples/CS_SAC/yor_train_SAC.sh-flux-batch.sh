@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-earthworm-1502
+#FLUX: --job-name=boopy-hippo-6756
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 FEATURE_MANIFEST_ROOT=/disk/nfs/ostrom/s2324992/data/yoruba/feature_manifest
 MAX_TOKENS=24000 #,30000(transformertts)

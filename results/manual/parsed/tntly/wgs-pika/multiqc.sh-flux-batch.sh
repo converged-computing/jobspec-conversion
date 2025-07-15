@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=multiqc
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /home/tly/wgs-pika/results/multiqc/
 module purge

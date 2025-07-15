@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-animal-1486
+#FLUX: --job-name=bloated-pedo-8172
 #FLUX: -N=2
 #FLUX: -c=20
-#FLUX: --queue="gpu"
+#FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 redis_password=$(uuidgen)
 export redis_password

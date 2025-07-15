@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-underoos-5876
+#FLUX: --job-name=doopy-knife-6632
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 RUNDIR="$REPOPATH/MLmodels/scripts"

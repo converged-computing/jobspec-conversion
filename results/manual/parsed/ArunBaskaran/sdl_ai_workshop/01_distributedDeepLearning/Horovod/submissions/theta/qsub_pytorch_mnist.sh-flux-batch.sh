@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-malarkey-2228
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-lemon-2255
+#FLUX: --urgency=16
 

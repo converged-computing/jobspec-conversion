@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-puppy-2976
+#FLUX: --job-name=strawberry-fudge-0696
 #FLUX: -N=4
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATASET='$PROJREPO/dataset'
 export BATCH='60000'

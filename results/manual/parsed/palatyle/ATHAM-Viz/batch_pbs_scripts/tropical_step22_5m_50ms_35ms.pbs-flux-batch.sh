@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-omelette-6752
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-knife-3182
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_step22_5m_50ms_35ms.pbs

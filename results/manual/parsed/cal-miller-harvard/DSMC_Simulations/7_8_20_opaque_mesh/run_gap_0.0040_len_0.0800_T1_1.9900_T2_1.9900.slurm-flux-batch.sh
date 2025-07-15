@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chip-8649
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-rabbit-8765
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-soup-3599
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-lemur-2388
+#FLUX: --urgency=16
 
 python -u  train.py --batch_size 5 --epoch 50 --save_path /export/team-mic/zhong/test/print_since_pase \
        --num_workers 8 --warmup 10000000 --net_cfg cfg/workers_overlap.cfg \

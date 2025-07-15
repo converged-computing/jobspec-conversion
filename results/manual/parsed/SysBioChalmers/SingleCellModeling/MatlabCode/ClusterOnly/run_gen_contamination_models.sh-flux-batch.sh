@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cat-6239
-#FLUX: --priority=16
+#FLUX: --job-name=astute-carrot-3328
+#FLUX: --urgency=16
 
 module load MATLAB/2019a
 module load GCCcore/10.3.0

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lizard-4586
+#FLUX: --job-name=doopy-pancake-2727
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load nextflow
 module load singularity

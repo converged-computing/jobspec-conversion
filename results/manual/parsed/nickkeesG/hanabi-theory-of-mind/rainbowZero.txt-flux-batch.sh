@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-plant-0509
+#FLUX: --job-name=doopy-banana-0058
 #FLUX: --queue=gpu
 #FLUX: -t=79200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load CUDA/10.0.130 
 module load GCC/7.3.0-2.30

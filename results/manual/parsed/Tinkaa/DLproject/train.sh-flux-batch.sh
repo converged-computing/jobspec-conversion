@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-animal-4483
-#FLUX: --priority=16
+#FLUX: --job-name=peachy-hope-8125
+#FLUX: --urgency=16
 
 module load anaconda3
 source activate /scratch/work/phama1/tensorflow

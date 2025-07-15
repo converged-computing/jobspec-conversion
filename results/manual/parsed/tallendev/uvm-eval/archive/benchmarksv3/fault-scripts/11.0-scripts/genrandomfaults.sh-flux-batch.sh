@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-rabbit-9215
+#FLUX: --job-name=bumfuzzled-onion-0520
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ITERS=5
 module load cuda

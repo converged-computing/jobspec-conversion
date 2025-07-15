@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-punk-7131
-#FLUX: --priority=16
+#FLUX: --job-name=ornery-plant-8687
+#FLUX: --urgency=16
 
 cd $HOME/iRODS-RDM-HPC-course
 rodscoll='/surfZone1/home/irods-user1/YOUR OUTPUT COLLECTION'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-noodle-1909
+#FLUX: --job-name=bricky-pedo-1304
 #FLUX: -c=67
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 :"
 module load intel/17.0.4

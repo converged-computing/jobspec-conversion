@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-bike-7435
-#FLUX: --priority=16
+#FLUX: --job-name=goodbye-general-4755
+#FLUX: --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

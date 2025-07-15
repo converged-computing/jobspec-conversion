@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-gato-1524
-#FLUX: --priority=16
+#FLUX: --job-name=fugly-pedo-0572
+#FLUX: --urgency=16
 
 module purge;
 module load anaconda3/5.3.0;

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-soup-5269
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-platanos-1535
+#FLUX: --urgency=16
 

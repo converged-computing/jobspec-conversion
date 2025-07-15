@@ -2,7 +2,7 @@
 #FLUX: --job-name=train_cnn
 #FLUX: -c=10
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 singularity exec --nv \

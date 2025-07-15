@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=chest-xray
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load numpy/intel/1.13.1

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bits-7121
+#FLUX: --job-name=tart-chip-9593
 #FLUX: -t=720000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='TMP'
 export REF_PATH='/data/DCEG_Trios/new_cgr_data/TriosCompass_v2/cache/%2s/%2s/%s:http://www.ebi.ac.uk/ena/cram/md5/%s'

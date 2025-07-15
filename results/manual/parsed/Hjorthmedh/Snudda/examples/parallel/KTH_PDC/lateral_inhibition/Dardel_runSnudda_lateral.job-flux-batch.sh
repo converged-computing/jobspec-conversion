@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-onion-3730
+#FLUX: --job-name=sticky-chip-6717
 #FLUX: -N=2
 #FLUX: -c=2
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IPNWORKERS='$NWORKERS'
 export IPYTHONDIR='/cfs/klemming/scratch/${USER:0:1}/$USER/.ipython'

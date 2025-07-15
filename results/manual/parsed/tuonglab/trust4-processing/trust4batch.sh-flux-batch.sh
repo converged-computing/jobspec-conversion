@@ -3,7 +3,7 @@
 #FLUX: -c=150
 #FLUX: --queue=general
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 output_dir="$1"
 bam_files_dir="$2"

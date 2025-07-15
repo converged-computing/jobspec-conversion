@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-diablo-5490
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-kerfuffle-3107
+#FLUX: --urgency=16
 
 module load anaconda3/2019.07
 source activate pytorch_1.11

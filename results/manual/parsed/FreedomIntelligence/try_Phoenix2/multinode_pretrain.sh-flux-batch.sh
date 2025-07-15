@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-ricecake-6909
-#FLUX: --priority=16
+#FLUX: --job-name=dirty-train-0054
+#FLUX: --urgency=16
 
 export NCCL_ALGO='Ring'
 export NCCL_TOPO_FILE='/home/bingxing2/apps/nccl/conf/dump.xml'

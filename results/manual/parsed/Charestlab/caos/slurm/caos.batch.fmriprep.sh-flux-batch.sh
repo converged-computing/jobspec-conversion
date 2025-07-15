@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-leg-7077
+#FLUX: --job-name=astute-pot-0739
 #FLUX: -n=4
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='${BB_WORKDIR}'
 

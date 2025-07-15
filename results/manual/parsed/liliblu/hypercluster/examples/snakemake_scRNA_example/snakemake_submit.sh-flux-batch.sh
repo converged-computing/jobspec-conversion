@@ -2,7 +2,7 @@
 #FLUX: --job-name=snakeautocluster
 #FLUX: --queue=cpu_long
 #FLUX: -t=2419199
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module add slurm

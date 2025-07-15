@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-latke-6733
-#FLUX: --priority=16
+#FLUX: --job-name=confused-nunchucks-2683
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/sref/run/FV3HREF_PREP.bsub.in

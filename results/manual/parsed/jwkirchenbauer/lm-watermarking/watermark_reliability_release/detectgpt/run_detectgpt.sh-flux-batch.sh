@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --queue=scavenger
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/.bashrc
 conda activate watermarking-dev

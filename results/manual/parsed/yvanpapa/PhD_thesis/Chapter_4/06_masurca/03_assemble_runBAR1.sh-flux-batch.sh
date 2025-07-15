@@ -3,7 +3,7 @@
 #FLUX: -c=32
 #FLUX: --queue=bigmem
 #FLUX: -t=864000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/software/apps/masurca/3.4.1/bin/../CA8/Linux-amd64/bin:/home/software/apps/masurca/3.4.1/bin:$PATH'
 export PERL5LIB='/home/software/apps/masurca/3.4.1/bin/../lib/perl${PERL5LIB:+:$PERL5LIB}'

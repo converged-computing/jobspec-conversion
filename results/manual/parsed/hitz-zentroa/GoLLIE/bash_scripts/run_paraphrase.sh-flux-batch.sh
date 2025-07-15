@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=paraphrase
 #FLUX: -c=16
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

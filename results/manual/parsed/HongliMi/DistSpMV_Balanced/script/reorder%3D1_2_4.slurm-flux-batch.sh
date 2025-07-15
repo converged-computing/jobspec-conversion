@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-parrot-0049
+#FLUX: --job-name=wobbly-destiny-7389
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export UCX_LOG_LEVEL='error'
 

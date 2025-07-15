@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-toaster-2953
+#FLUX: --job-name=joyous-leg-2810
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=YOUR_PARTITION_HERE
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dirs=(
     # "codellama-7b"

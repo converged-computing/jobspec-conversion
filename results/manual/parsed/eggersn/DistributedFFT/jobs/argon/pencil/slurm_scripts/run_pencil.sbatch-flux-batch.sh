@@ -3,7 +3,7 @@
 #FLUX: -n=4
 #FLUX: --exclusive
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load mpi/u2004/openmpi-4.1.1-cuda
 echo "Modules loaded"

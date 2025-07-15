@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=runoff-remap
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR
 . /usr/share/Modules/init/bash

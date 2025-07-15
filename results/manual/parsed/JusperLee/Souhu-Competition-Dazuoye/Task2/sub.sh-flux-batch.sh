@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lemon-9231
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-buttface-1750
+#FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='eth0'
 export NCCL_IB_DISABLE='1'

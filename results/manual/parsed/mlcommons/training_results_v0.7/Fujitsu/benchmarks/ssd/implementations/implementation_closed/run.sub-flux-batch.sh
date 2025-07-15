@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-citrus-8911
+#FLUX: --job-name=crusty-avocado-3484
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MLPERF_HOST_OS='Ubuntu 18.04'
 

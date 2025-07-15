@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pot-3292
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-salad-5112
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Xiaofeng-life/ICDehazing/task_ICDehazing/train_ICDehazing.sh

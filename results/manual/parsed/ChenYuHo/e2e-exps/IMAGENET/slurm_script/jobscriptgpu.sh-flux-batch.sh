@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-caramel-8725
+#FLUX: --job-name=fugly-parsnip-6756
 #FLUX: --queue=batch
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.1.105
 module load cudnn/7.5.0

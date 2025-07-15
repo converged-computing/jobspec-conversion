@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-avocado-6607
+#FLUX: --job-name=bricky-poo-7670
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PSM2_MULTI_EP='1'
 export MARGO_OUTPUT_DIR='$EXPDIR'

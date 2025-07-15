@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lentil-0666
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-chair-6756
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fredrickkebaso/Hippobosca_Genome_Assembly_And_Annotation/scripts/H_camelina/13_braker_restart.sh

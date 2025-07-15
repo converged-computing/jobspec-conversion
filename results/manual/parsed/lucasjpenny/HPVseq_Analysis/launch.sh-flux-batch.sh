@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pancake-4640
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-lemur-1933
+#FLUX: --urgency=16
 
 . env.sh
 module load samtools/1.9

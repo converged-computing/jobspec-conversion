@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bike-8386
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-peanut-1335
+#FLUX: --urgency=16
 
 if [ "$1" = help ]; then
     echo "Usage: jedi.sh    {run_all | run_local | dashboard | run_fsl | fsl_pull} [options]"

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-animal-7650
+#FLUX: --job-name=doopy-carrot-5333
 #FLUX: -c=4
 #FLUX: -t=518400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_HOME='/data/vision/polina/scratch/wpq/github/huggingface_cache'
 

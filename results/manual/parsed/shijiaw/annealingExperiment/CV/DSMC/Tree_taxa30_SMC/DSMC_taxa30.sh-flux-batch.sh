@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-knife-3048
+#FLUX: --job-name=hello-hope-8611
 #FLUX: -c=2
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load r/3.4.0
 module load java/1.8.0_121

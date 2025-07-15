@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leg-0789
+#FLUX: --job-name=milky-itch-2864
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euo pipefail
 echo Git commit: "$(git rev-parse --verify HEAD)"

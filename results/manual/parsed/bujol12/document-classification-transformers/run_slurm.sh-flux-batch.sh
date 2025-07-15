@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-peas-6420
+#FLUX: --job-name=chunky-cherry-2992
 #FLUX: --queue=gpgpuC
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 configName=$1
 trainData=$2

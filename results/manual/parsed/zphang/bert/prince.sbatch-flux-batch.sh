@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-platanos-1024
+#FLUX: --job-name=hanky-bicycle-6525
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/home/zp489/miniconda3/envs/bert/lib/python3.6/site-packages:$PYTHONPATH'
 

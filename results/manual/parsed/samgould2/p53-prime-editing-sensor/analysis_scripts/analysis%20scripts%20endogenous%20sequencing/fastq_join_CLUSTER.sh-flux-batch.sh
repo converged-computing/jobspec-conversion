@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-pastry-6375
-#FLUX: --priority=15
+#FLUX: --job-name=frigid-bits-5551
+#FLUX: --urgency=15
 
 cd /net/bmc-lab2/data/lab/sanchezrivera/samgould/
 config=/net/bmc-lab2/data/lab/sanchezrivera/samgould/config_fastq_join.txt

@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-parsnip-5811
+#FLUX: --job-name=frigid-onion-6961
 #FLUX: -N=4
 #FLUX: -n=64
 #FLUX: --exclusive
 #FLUX: --queue=serc
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MATSIZE=20240
 echo;

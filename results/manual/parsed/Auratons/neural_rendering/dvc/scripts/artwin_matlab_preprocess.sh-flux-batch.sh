@@ -3,7 +3,7 @@
 #FLUX: -c=16
 #FLUX: --queue=compute
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

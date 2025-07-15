@@ -1,9 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=sl_eval_ret_mc
 #FLUX: -c=12
-#FLUX: --queue=XXX  # please specify your partition
+#FLUX: --queue=XXX
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dataset=$1  # coco, flickr, msrvtt, ..., see complete list below
 pretrained_path=$2  # path to pth file

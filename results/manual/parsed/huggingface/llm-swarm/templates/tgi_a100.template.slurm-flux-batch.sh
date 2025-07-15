@@ -2,7 +2,7 @@
 #FLUX: --job-name=llm-swarm
 #FLUX: -c=12
 #FLUX: --queue=hopper-prod
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export model='{{model}}'
 export revision='{{revision}}'

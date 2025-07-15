@@ -2,7 +2,7 @@
 #FLUX: --job-name=benchmark
 #FLUX: --exclusive
 #FLUX: --queue=lva
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 rm -f results.csv
 data_structures=("Array" "LinkedList")

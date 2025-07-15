@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hope-5968
+#FLUX: --job-name=confused-cinnamonbun-2355
 #FLUX: -c=32
 #FLUX: --queue=compute
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKL_NUM_THREADS='$NUM_CORES OMP_NUM_THREADS=$NUM_CORES'
 

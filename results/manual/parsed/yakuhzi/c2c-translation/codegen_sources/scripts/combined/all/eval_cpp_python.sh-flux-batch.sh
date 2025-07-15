@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=combined_eval_all_cpp_python
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 MODEL_PATH='models/Online_ST_CPP_Python.pth'
 DUMP_PATH='dump/combined/all/cpp_python'

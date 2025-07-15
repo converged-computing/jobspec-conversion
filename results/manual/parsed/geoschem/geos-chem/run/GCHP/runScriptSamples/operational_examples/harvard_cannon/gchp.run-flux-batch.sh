@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-peanut-6082
+#FLUX: --job-name=dirty-snack-8225
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMPI_MCL_btl='openib'
 

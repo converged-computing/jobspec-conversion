@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=samglove
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 singularity exec --nv /beegfs/work/public/singularity/cuda10.1-cudnn7-devel-ubuntu18.04.sif bash -c "                                                                                                              

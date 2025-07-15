@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-underoos-4204
+#FLUX: --job-name=frigid-gato-3619
 #FLUX: -c=20
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load anaconda/2022.05
 . ~/.mycondaconf

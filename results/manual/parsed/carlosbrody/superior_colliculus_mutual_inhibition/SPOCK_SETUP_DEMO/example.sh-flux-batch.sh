@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-peas-6110
+#FLUX: --job-name=swampy-plant-1737
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "I'm alive!" >> imalive.txt
 module load julia/1.2.0

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-animal-0264
+#FLUX: --job-name=stanky-parrot-7296
 #FLUX: --queue=parallel
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PWD" '
 

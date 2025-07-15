@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-bits-0819
-#FLUX: --priority=16
+#FLUX: --job-name=milky-soup-7482
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/khuck/sos_flow_experiments/Junmin/titan-MediumRun/small.r

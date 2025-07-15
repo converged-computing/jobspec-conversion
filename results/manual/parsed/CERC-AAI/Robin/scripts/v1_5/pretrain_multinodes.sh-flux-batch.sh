@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-platanos-5244
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-chip-2177
+#FLUX: --urgency=16
 
 module load rocm/5.6.0
 TRAIN_PATH=/ccs/home/lfsm/froniter_workspace/LLaVA

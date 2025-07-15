@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=helixer
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='$PWD/tmp'
 

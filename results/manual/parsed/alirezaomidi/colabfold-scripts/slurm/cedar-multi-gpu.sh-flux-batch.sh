@@ -2,7 +2,7 @@
 #FLUX: --job-name=colabfold
 #FLUX: -c=24
 #FLUX: -t=259080
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sbatch <<EOT
 module load gcc/9.3.0 openmpi/4.0.3 cuda/11.4 cudnn/8.2.0 kalign/2.03 hmmer/3.2.1 openmm-alphafold/7.5.1 hh-suite/3.3.0 python/3.8 mmseqs2

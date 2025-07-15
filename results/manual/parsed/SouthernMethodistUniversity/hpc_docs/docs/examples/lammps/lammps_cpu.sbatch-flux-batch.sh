@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-omelette-8470
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-chip-5613
+#FLUX: --urgency=16
 
 module purge                           # Unload all modules
 module load gcc lammps                 # Load LAMMPS

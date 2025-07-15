@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-omelette-8651
-#FLUX: --priority=16
+#FLUX: --job-name=phat-malarkey-4089
+#FLUX: --urgency=16
 
 export MIOPEN_USER_DB_PATH='/tmp/my-miopen-cache'
 export MIOPEN_CUSTOM_CACHE_DIR='${MIOPEN_USER_DB_PATH}'

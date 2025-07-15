@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-toaster-5039
+#FLUX: --job-name=boopy-hobbit-3020
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 
 module load anaconda/3/2020.02

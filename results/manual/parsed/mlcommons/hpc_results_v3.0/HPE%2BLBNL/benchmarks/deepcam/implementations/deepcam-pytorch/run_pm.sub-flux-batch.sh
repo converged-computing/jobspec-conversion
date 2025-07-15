@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-noodle-2144
+#FLUX: --job-name=doopy-taco-5529
 #FLUX: -c=32
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MODEL_NAME='deepcam'
 export MODEL_FRAMEWORK='pytorch'

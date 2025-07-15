@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Nextflow_WES_Fingerprint
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -euo pipefail
 workflow_path='/hpc/diaggen/software/production/DxNextflowWES'

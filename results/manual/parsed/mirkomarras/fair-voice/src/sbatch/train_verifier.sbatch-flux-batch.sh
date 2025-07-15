@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ResNet34Vox
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PRJ_PATH='${PWD}'
 export AUDIO_DIR='/beegfs/mm10572/voxceleb1/dev,/beegfs/mm10572/voxceleb2/dev'

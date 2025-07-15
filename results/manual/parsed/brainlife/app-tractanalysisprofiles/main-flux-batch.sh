@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-omelette-1523
-#FLUX: --priority=16
+#FLUX: --job-name=moolicious-chair-8462
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-tractanalysisprofiles/main

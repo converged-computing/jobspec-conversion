@@ -2,7 +2,7 @@
 #FLUX: --job-name=gtas_home
 #FLUX: --queue=short-serial
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add jaspy
 cd /home/users/tommatthews/Homeostasis/

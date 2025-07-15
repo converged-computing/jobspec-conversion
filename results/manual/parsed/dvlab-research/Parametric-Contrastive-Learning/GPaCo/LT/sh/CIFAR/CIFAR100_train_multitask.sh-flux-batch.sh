@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cifar100-r50-multitask
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PORT=$[$RANDOM + 10000]
 source /mnt/proj2/jqcui/ENV/py3.6pt1.81/bin/activate

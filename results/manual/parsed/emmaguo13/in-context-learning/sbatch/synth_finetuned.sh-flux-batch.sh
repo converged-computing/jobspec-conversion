@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=savio4_gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 TASK_ID=$((SLURM_ARRAY_TASK_ID-1))
 PARALLEL_N=4

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lizard-4789
-#FLUX: --priority=16
+#FLUX: --job-name=grated-pancake-8289
+#FLUX: --urgency=16
 
 module load cuda/8.0 cudnn/5.1
 module load tensorflow-gpu

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-salad-7927
+#FLUX: --job-name=chocolate-bicycle-1902
 #FLUX: -N=2
 #FLUX: -n=8
 #FLUX: -c=6
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export BERT_DIR='/users/ilorami1/DeepLearningExamples/TensorFlow/LanguageModeling/BERT_nonscaling/'

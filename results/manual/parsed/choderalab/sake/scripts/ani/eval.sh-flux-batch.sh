@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lamp-3480
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-onion-4157
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/sake/scripts/ani/eval.sh

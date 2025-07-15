@@ -2,7 +2,7 @@
 #FLUX: --job-name=o2-water_long
 #FLUX: -n=16
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load   StdEnv/2020  intel/2020.1.217 namd-multicore/2.14

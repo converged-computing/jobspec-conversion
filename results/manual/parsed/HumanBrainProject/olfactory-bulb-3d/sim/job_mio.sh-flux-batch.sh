@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-parsnip-6146
+#FLUX: --job-name=loopy-squidward-7434
 #FLUX: -N=2
 #FLUX: --queue=gll_usr_prod
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel/pe-xe-2018--binary
 module load intelmpi/2018--binary

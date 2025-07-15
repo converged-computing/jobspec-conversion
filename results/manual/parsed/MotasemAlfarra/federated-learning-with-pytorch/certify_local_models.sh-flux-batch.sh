@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-leader-8718
+#FLUX: --job-name=fat-general-1194
 #FLUX: -c=4
 #FLUX: --queue=batch
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CONST=0
 source activate rs_fl

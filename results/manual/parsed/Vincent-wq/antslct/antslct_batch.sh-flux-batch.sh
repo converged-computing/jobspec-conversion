@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-leg-4594
+#FLUX: --job-name=conspicuous-parrot-2959
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load singularity

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-fudge-5022
+#FLUX: --job-name=fuzzy-earthworm-9601
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=c6i
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export GROMACS_VERSION='2022.4'
 export JOB_DIR='${PREFIX}/spooler/gromacs'

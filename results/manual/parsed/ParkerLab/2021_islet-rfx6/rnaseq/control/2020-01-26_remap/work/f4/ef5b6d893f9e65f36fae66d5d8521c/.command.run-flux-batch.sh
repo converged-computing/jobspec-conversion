@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-soup-6821
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-peas-9897
+#FLUX: --urgency=16
 
 set -e
 set -u

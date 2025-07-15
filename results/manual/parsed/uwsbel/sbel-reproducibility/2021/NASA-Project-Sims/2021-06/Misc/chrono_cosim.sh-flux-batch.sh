@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-dog-3434
+#FLUX: --job-name=astute-hope-2118
 #FLUX: -c=2
 #FLUX: --queue=sbel
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/9.2.0
 module load cmake/3.18.1

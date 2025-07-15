@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-signal-6911
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-salad-3932
+#FLUX: --urgency=16
 
 GID=$1
 POWER=$2

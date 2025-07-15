@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cond_additive_recessive
 #FLUX: --queue=short
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -o errexit
 set -o nounset

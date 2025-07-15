@@ -3,7 +3,7 @@
 #FLUX: -N=16
 #FLUX: -c=48
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cmake/3.13.2
 module load gcc/8

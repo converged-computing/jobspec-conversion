@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-gato-4403
-#FLUX: --priority=16
+#FLUX: --job-name=faux-signal-3503
+#FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'
 

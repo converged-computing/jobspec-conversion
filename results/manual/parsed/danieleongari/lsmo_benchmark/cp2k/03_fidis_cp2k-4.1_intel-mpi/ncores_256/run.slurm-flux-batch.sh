@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-general-9813
+#FLUX: --job-name=confused-latke-9308
 #FLUX: -N=10
 #FLUX: -n=256
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /ssoft/spack/bin/slmodules.sh -r stable             
 module purge

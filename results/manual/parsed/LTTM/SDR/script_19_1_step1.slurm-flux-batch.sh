@@ -3,7 +3,7 @@
 #FLUX: -n=2
 #FLUX: --queue=allgroups
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 batch_size=8
 task='19-1'

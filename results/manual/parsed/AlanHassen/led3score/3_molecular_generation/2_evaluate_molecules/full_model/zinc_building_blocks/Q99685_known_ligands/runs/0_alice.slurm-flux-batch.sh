@@ -1,8 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=ZINC_BB_known
-#FLUX: --queue="amd-short"
+#FLUX: --queue=amd-short
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 CURRENT_ARRAY=$((SLURM_ARRAY_TASK_ID))
 echo "Current array index: $CURRENT_ARRAY"

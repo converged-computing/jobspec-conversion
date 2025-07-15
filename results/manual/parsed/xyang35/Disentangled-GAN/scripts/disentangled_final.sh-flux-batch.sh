@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-underoos-5385
-#FLUX: --priority=16
+#FLUX: --job-name=confused-eagle-6715
+#FLUX: --urgency=16
 
 set -e
 cd ..

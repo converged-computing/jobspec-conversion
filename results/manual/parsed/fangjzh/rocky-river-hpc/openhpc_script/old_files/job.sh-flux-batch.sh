@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-eagle-6987
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-latke-7426
+#FLUX: --urgency=16
 
 mpirun   /opt/ohpc/pub/apps/lammps/lmp_mpi  -i in.lj

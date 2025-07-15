@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pastry-5049
-#FLUX: --priority=16
+#FLUX: --job-name=salted-destiny-8475
+#FLUX: --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

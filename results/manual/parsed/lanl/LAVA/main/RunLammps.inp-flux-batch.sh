@@ -3,7 +3,7 @@
 #FLUX: -n=40
 #FLUX: --queue=C5
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load gnu8

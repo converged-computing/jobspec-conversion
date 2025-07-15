@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-underoos-8613
+#FLUX: --job-name=carnivorous-signal-3630
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 print_error_and_exit() { echo "***ERROR*** $*"; exit 1; }
 module purge || print_error_and_exit "No 'module' command"

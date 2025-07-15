@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-butter-9166
-#FLUX: --priority=16
+#FLUX: --job-name=confused-cat-9707
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cybergis/nfie-floodmap/test/handbyhuc-tx.sh

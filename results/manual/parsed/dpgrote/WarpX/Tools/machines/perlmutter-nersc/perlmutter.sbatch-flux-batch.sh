@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-chip-0232
+#FLUX: --job-name=red-malarkey-9783
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_OFI_NIC_POLICY='GPU'
 export SRUN_CPUS_PER_TASK='32'

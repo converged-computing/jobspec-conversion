@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fastphase2csv
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /mnt/home/seguraab/Shiu_Lab/Collabs/Maize_GxE_Competition_Data/Training_Data
 tassel=/mnt/home/seguraab/Shiu_Lab/Project/External_software/tasseladmin-tassel-5-standalone-8b0f83692ccb

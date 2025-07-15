@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-plant-5279
+#FLUX: --job-name=crunchy-salad-5128
 #FLUX: -c=10
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/home/lei053/miniconda3/bin:$PATH'
 

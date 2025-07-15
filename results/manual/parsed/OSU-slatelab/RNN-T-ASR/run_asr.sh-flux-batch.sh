@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ASR_decode
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source activate pt
 cd $SLURM_SUBMIT_DIR

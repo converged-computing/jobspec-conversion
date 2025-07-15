@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=cuda
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml purge
 ml nvidia/cudasdk/10.1

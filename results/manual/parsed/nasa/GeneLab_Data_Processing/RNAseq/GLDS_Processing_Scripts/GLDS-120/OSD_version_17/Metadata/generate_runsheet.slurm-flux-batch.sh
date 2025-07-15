@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="generate_runsheet"
+#FLUX: --job-name=generate_runsheet
 #FLUX: --queue=priority
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . ~/.profile
 echo "generate_runsheet"

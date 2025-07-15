@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lemon-0587
+#FLUX: --job-name=eccentric-dog-4396
 #FLUX: -c=6
 #FLUX: --gpus-per-task=1
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export NCCL_IB_DISABLE='0'

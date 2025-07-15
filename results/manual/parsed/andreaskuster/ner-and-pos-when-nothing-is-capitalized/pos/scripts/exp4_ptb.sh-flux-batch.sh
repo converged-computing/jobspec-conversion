@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cherry-1086
+#FLUX: --job-name=carnivorous-citrus-6436
 #FLUX: --queue=amdv100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.7.2
 module load CMake

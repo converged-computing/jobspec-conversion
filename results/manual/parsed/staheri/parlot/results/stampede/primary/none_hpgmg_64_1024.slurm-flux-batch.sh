@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-chip-8688
-#FLUX: --priority=16
+#FLUX: --job-name=butterscotch-leader-9170
+#FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/hpgmg-original/build/bin'
 

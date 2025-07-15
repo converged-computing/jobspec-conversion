@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leader-4081
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-signal-5762
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NCEP-NCO/godas/lsf/jgodas_prep.lsf

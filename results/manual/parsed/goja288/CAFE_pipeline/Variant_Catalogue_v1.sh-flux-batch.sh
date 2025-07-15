@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-omelette-7182
+#FLUX: --job-name=dinosaur-chair-0955
 #FLUX: -t=721800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /mnt/common/SILENT/Act3/conda/miniconda3/etc/profile.d/conda.sh
 Nextflow=/mnt/common/Precision/NextFlow/nextflow

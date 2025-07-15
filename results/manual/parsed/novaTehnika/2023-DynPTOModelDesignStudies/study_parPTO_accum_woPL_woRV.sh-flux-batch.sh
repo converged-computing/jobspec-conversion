@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-chair-2834
+#FLUX: --job-name=tart-nalgas-4932
 #FLUX: -n=11
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ~/2023-DynPTOModelDesignStudies
 module load matlab

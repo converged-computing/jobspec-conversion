@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-avocado-3631
+#FLUX: --job-name=eccentric-underoos-7278
 #FLUX: --queue=high
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh
 source /etc/profile.d/easybuild.sh

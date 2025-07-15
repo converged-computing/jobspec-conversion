@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-poo-0450
+#FLUX: --job-name=pusheena-chair-1701
 #FLUX: --queue=gpu
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.2
 module load fftw/3.3.5

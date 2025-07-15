@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-snack-7735
-#FLUX: --priority=16
+#FLUX: --job-name=eccentric-onion-2568
+#FLUX: --urgency=16
 
 export partition_main='huce_intel"                # TODO'
 export group_account='huybers_lab"                  # TODO'

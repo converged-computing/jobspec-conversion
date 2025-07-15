@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-kitty-6896
+#FLUX: --job-name=reclusive-cattywampus-2177
 #FLUX: -t=120
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/cm/shared/package/cuda91/toolkit/9.1.85/lib64/stubs'
 

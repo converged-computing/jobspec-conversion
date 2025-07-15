@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-gato-8434
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-milkshake-0817
+#FLUX: --urgency=16
 
 export EXE='run_ytopt.py'
 export COMMS='--comms local'

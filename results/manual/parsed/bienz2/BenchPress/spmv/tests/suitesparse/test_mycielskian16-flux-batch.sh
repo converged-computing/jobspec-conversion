@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-hope-9642
-#FLUX: --priority=16
+#FLUX: --job-name=scruptious-avocado-3359
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/spmv/tests/suitesparse/test_mycielskian16

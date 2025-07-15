@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cupcake-7178
+#FLUX: --job-name=pusheena-pedo-2329
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/9.0
 module load cudnn/7-cuda-9.0

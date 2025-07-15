@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-poo-5655
+#FLUX: --job-name=arid-caramel-9690
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

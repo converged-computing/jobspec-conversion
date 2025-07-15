@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leg-7146
+#FLUX: --job-name=conspicuous-parsnip-1635
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --exclusive
 #FLUX: --queue=haswell
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='12'
 export SCOREP_ENABLE_PROFILING='false'

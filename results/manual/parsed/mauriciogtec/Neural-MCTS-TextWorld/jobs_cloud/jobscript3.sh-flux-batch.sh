@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-train-1773
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-bicycle-9024
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

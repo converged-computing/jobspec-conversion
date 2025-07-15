@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lamp-7869
+#FLUX: --job-name=bloated-dog-7743
 #FLUX: -N=24
 #FLUX: -t=51000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DISABLE_MPI='false'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

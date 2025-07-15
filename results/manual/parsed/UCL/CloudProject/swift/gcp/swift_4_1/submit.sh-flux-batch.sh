@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-citrus-3631
+#FLUX: --job-name=stanky-leg-0993
 #FLUX: -N=4
 #FLUX: -n=4
 #FLUX: --exclusive
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -e
 module purge

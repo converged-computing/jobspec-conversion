@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cupcake-3573
+#FLUX: --job-name=astute-plant-0205
 #FLUX: --queue=workq
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /pawsey/mwa/software/python3/modulefiles
 module load python-singularity

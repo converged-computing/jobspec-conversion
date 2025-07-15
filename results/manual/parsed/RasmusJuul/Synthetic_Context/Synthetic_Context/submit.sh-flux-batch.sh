@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-caramel-2777
-#FLUX: --priority=16
+#FLUX: --job-name=bricky-signal-0780
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RasmusJuul/Synthetic_Context/Synthetic_Context/submit.sh

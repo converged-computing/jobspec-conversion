@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-animal-5060
+#FLUX: --job-name=dinosaur-salad-8703
 #FLUX: -c=5
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile
 echo 'BEGIN'

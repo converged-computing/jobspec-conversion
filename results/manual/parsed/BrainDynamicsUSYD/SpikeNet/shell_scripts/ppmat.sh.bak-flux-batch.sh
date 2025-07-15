@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-cherry-3737
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-omelette-8330
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BrainDynamicsUSYD/SpikeNet/shell_scripts/ppmat.sh.bak

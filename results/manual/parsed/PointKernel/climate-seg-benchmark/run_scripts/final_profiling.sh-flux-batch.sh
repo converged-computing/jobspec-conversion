@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-parsnip-5497
+#FLUX: --job-name=bumfuzzled-nalgas-0462
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PLACES='threads'
 export OMP_PROC_BIND='spread'

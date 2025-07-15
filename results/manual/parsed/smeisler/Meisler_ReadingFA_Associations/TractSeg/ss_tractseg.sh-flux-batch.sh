@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-car-2542
+#FLUX: --job-name=bricky-toaster-9609
 #FLUX: -c=8
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eu
 base=$2

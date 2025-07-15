@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pot-0134
+#FLUX: --job-name=moolicious-spoon-5710
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=rome
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

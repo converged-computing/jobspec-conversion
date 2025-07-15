@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-truffle-7518
+#FLUX: --job-name=scruptious-signal-9434
 #FLUX: -t=4320
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/R-4.1.0-MKL'
 

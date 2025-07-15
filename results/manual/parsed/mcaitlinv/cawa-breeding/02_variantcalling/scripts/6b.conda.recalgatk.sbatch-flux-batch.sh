@@ -2,7 +2,7 @@
 #FLUX: --job-name=6b.bqsrgatk
 #FLUX: --queue=shas
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -x
 module purge

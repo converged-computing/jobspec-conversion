@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-mango-0709
+#FLUX: --job-name=evasive-arm-2382
 #FLUX: --queue=gpuq
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CRAFT='/home/ban115/craft/craft/'
 export PATH='$CRAFT/cuda-fdmt/cudafdmt/src:$CRAFT/python:$PATH'

@@ -2,7 +2,7 @@
 #FLUX: --job-name=exp_stl10_run_fastssl_opt_hparam_sweep
 #FLUX: --queue=long
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 . /etc/profile
 module load anaconda/3

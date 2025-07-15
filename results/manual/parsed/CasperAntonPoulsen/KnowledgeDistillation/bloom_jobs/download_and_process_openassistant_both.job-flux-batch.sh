@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lizard-5438
-#FLUX: --priority=16
+#FLUX: --job-name=cowy-train-7819
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CasperAntonPoulsen/KnowledgeDistillation/bloom_jobs/download_and_process_openassistant_both.job

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lentil-8149
-#FLUX: --priority=16
+#FLUX: --job-name=boopy-plant-2191
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cybergis/nfie-floodmap/test/handbyhuc.sh

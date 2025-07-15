@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cifar10vit16
 #FLUX: -t=108000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/cap6411.student28/anaconda3/envs/env/lib'
 

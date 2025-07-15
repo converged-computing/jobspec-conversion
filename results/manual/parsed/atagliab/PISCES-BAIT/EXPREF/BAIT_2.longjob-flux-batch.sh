@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-milkshake-6565
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-muffin-7827
+#FLUX: --urgency=16
 
 export NPROC='80'
 export XPROC='0'

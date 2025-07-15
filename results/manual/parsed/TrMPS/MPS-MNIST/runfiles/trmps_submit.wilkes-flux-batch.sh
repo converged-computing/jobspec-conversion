@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-animal-1127
+#FLUX: --job-name=lovely-kitty-4580
 #FLUX: -n=10
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_HOME='$CUDA_INSTALL_PATH'
 export OMP_NUM_THREADS='1'

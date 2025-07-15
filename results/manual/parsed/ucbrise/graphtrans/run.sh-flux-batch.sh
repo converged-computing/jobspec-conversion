@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-staircase-9304
+#FLUX: --job-name=purple-leopard-7430
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 config=$1
 echo $(scontrol show hostnames $SLURM_JOB_NODELIST)

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-gato-2265
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-taco-2682
+#FLUX: --urgency=16
 
 . "$script_pwd/../systems/generic"
 SUPERMUC_OPENMPI_VERSION="4.1.5-gcc12"

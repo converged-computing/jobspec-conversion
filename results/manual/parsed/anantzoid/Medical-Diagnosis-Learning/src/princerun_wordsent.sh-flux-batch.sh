@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=t1
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load python/intel/2.7.12

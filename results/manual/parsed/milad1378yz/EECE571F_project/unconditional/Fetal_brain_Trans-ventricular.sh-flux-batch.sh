@@ -3,7 +3,7 @@
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: -t=252000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HOME='/scratch/st-sdena-1/miladyz'
 

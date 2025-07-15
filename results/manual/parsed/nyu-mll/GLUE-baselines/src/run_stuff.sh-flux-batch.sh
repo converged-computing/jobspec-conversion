@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-underoos-2490
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-hope-5991
+#FLUX: --urgency=16
 
 SCRATCH_PREFIX='/misc/vlgscratch4/BowmanGroup/awang/'
 PROJECT_NAME='glue-baselines'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-taco-2533
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-plant-4039
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='7'
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -3,7 +3,7 @@
 #FLUX: -c=6
 #FLUX: --queue=gpuk80
 #FLUX: -t=172799
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/9.0
 source /home-1/amuelle8@jhu.edu/miniconda3/bin/activate

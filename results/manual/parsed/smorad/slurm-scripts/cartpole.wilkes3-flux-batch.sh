@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-gato-5697
+#FLUX: --job-name=bumfuzzled-caramel-1151
 #FLUX: -c=3
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

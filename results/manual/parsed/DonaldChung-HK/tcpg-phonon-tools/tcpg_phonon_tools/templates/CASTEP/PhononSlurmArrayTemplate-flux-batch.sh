@@ -3,7 +3,7 @@
 #FLUX: -N=6
 #FLUX: --exclusive
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load AMDmodules

@@ -2,7 +2,7 @@
 #FLUX: --job-name=pathml_root_pipeline-dask
 #FLUX: -c=12
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_BIND='/nesi/nobackup/uoa03709/input:/var/inputdata/work-dir,\'
 

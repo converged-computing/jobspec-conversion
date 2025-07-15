@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=eval
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge  # suggested in alliancecan docs: https://docs.alliancecan.ca/wiki/Running_jobs
 module load python/3.10 StdEnv/2020 gcc/9.3.0 arrow/10.0

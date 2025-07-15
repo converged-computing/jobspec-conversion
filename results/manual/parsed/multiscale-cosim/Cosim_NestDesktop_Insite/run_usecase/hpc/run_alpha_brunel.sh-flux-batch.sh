@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-bicycle-5370
+#FLUX: --job-name=faux-cinnamonbun-7285
 #FLUX: -N=7
 #FLUX: --queue=devel
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CO_SIM_ROOT_PATH='${PROJECT_cslns}/${LOGNAME}/my_forked_repos'
 export CO_SIM_MODULES_ROOT_PATH='${CO_SIM_ROOT_PATH}/TVB-NEST-usecase1'

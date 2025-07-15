@@ -1,11 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=salted-salad-5849
+#FLUX: --job-name=blue-ricecake-6725
 #FLUX: -N=16
 #FLUX: -n=16
 #FLUX: -c=12
 #FLUX: --queue=normal
 #FLUX: -t=9000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load daint-gpu
 conda activate py39mpi

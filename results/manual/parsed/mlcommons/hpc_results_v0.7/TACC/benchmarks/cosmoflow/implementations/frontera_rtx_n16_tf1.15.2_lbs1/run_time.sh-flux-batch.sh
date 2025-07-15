@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-cinnamonbun-1199
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-leg-6563
+#FLUX: --urgency=16
 
 export CUDA_HOME='$TACC_CUDA_DIR'
 export CUDNN_ROOT='$TACC_CUDNN_DIR'

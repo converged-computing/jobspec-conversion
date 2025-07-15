@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-poo-6705
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-squidward-4113
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/raymond040/TCGConv/Shell_alpha/T_R_TCG.sh

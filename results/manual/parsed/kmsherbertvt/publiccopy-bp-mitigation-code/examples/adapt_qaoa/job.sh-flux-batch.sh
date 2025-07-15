@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-destiny-8730
+#FLUX: --job-name=lovable-car-9780
 #FLUX: -c=20
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NTHREAD='20'
 export JULIAENV='/home/gbarron/bp-mitigation-code/'

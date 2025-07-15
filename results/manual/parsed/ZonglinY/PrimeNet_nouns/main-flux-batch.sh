@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-plant-6865
+#FLUX: --job-name=gassy-pedo-7075
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python -u ./main.py

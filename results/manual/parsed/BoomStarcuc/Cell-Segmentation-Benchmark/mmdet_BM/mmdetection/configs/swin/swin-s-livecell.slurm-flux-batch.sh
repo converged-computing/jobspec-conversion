@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cat-4131
+#FLUX: --job-name=hairy-noodle-0751
 #FLUX: -t=270000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 spack load cuda@11.0.2%gcc@9.3.0/lrd2rcw
 cd mmdetection

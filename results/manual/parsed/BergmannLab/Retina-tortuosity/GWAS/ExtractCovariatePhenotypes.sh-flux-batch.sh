@@ -2,7 +2,7 @@
 #FLUX: --job-name=ExtractCovariatePhenotypes
 #FLUX: --queue=normal
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source $HOME/retina/configs/config.sh
 output_dir=$scratch/retina/GWAS/output/ExtractCovariatePhenotypes

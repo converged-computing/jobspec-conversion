@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-citrus-5275
+#FLUX: --job-name=confused-knife-9639
 #FLUX: -n=8
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load fosscuda/2019b

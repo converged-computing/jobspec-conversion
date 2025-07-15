@@ -2,7 +2,7 @@
 #FLUX: --job-name=fourdvar_main
 #FLUX: --queue=physical
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/usr/local/easybuild/software/netCDF/4.5.0-spartan_intel-2017.u2/lib64'
 

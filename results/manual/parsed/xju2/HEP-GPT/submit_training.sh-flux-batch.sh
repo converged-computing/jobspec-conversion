@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-arm-4712
+#FLUX: --job-name=dinosaur-egg-3909
 #FLUX: --gpus-per-task=1
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

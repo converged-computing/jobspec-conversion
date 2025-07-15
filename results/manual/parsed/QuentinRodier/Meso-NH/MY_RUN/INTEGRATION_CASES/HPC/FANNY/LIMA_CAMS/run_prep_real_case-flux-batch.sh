@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-onion-3579
-#FLUX: --priority=16
+#FLUX: --job-name=arid-chip-3590
+#FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 16'
 

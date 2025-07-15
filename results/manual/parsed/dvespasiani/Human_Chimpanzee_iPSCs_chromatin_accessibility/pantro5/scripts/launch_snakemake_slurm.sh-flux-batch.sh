@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="pantro5_atac_pipeline"
+#FLUX: --job-name=pantro5_atac_pipeline
 #FLUX: -c=20
 #FLUX: --queue=mig
 #FLUX: -t=946800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TMPDIR='/data/scratch/projects/punim0586/dvespasiani/tmp'
 

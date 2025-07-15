@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-squidward-2104
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-leopard-8285
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/glasslab/glassutils/scripts/map_on_oasis.sh

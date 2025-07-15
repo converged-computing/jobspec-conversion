@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-despacito-3744
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-pedo-6499
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/erccarls/hyades_scripts/rungalprop_jobarray.sh

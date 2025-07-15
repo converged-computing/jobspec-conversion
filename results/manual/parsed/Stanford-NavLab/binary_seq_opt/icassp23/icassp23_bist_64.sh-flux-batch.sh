@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="bcd_icassp23"
+#FLUX: --job-name=bcd_icassp23
 #FLUX: --queue=normal
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_SUBMIT_DIR='/home/users/yalan/binary_seq_opt/icassp23'
 export GUROBI_HOME='/share/software/user/restricted/gurobi/9.0.3_py36'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-carrot-5132
+#FLUX: --job-name=crunchy-general-5024
 #FLUX: --exclusive
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 df /local
 LDIR="/local/dask-worker-dir-$$"

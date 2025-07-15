@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Malaspina_Profiles_CDS_AMG_Hunter
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load diamond/2.0.7
 module load python/3.8.5

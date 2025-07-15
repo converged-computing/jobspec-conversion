@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-avocado-0397
-#FLUX: --priority=16
+#FLUX: --job-name=expressive-pastry-5386
+#FLUX: --urgency=16
 
 pwd
 date

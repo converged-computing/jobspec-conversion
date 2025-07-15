@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-carrot-7660
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-lemon-3394
+#FLUX: --urgency=16
 
 cd ~/measles/code/
 module load R

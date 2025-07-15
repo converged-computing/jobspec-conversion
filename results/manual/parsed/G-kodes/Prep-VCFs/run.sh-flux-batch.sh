@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-banana-0150
-#FLUX: --priority=16
+#FLUX: --job-name=phat-cupcake-2888
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/G-kodes/Prep-VCFs/run.sh

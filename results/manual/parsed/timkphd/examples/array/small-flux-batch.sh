@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="array_job"
+#FLUX: --job-name=array_job
 #FLUX: --exclusive
 #FLUX: --queue=standard
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export input='`head -n $SLURM_ARRAY_TASK_ID $SLURM_SUBMIT_DIR/list | tail -1`'
 

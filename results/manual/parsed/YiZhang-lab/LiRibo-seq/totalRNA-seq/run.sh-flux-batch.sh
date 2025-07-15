@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=rnaseq
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='/n/groups/zhanglab/meng/tools/java/bin:/n/groups/zhanglab/meng/tools/samtools:/n/groups/zhanglab/meng/tools/STAR:/n/groups/zhanglab/meng/tools/RSEM:/n/groups/zhanglab/meng/tools/fastqc:/n/groups/zhanglab/meng/tools/ucscTools:$PATH'
 export LD_LIBRARY_PATH='/n/groups/zhanglab/meng/tools/java/lib:$LD_LIBRARY_PATH'

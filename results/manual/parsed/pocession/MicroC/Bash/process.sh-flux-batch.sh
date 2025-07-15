@@ -2,7 +2,7 @@
 #FLUX: --job-name=process
 #FLUX: --queue=rimlsfnwi
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 wd=/ceph/rimlsfnwi/data/cellbio/mhlanga/thsieh
 sub=microC

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=pixel2cancer_kidney
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load mamba/latest
 source activate pixel2cancer

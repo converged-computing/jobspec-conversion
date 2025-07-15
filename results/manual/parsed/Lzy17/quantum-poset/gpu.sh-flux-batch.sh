@@ -2,7 +2,7 @@
 #FLUX: --job-name=posets
 #FLUX: --queue=gpu-shared
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module list

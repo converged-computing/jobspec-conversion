@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-butter-3885
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-snack-7216
+#FLUX: --urgency=16
 
 export PYTHONHASHSEED='0'
 export OMPI_MCA_btl='tcp,self,sm'

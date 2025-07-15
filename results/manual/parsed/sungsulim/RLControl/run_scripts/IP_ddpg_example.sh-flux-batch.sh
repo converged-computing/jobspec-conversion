@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=IP_ddpg
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ENV_NAME=InvertedPendulum-v2
 AGENT_NAME=ddpg

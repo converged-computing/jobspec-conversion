@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-blackbean-5873
-#FLUX: --priority=16
+#FLUX: --job-name=hanky-nunchucks-9203
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mjzapata/WholeGenomeAnalytics/scripts/2BAMSorting.sh

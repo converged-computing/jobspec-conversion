@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-chair-8938
+#FLUX: --job-name=bricky-avocado-1689
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 export OMP_PLACES='threads'

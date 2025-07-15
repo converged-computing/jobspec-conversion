@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-diablo-0012
+#FLUX: --job-name=scruptious-parsnip-9704
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export IGNORE_CC_MISMATCH='1'
 

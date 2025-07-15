@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=compute
 #FLUX: -t=86399
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 ARRAY_ID=`printf %05d $SLURM_ARRAY_TASK_ID`

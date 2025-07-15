@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hobbit-6288
-#FLUX: --priority=16
+#FLUX: --job-name=quirky-pastry-2572
+#FLUX: --urgency=16
 
 module load openmpi/4.1.4
 module load CUDA/11.7

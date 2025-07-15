@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="compute_objectives"
+#FLUX: --job-name=compute_objectives
 #FLUX: --queue=normal
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_SUBMIT_DIR='/home/groups/gracegao/prn_codes/doppler_prn'
 

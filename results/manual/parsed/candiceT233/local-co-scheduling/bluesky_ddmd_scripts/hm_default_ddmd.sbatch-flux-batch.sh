@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=$TEST_NAME
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export ADAPTER_MODE='$ADAPTERMODE'
 

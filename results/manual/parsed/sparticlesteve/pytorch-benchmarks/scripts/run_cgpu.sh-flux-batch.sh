@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-nunchucks-4445
+#FLUX: --job-name=expensive-onion-7004
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BENCHMARK_RESULTS_PATH='$SCRATCH/pytorch-benchmarks/results/gpu-$version-$backend-n$SLURM_NTASKS'
 

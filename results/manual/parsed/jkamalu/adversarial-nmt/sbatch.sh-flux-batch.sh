@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="bert-vanilla-hidden"
+#FLUX: --job-name=bert-vanilla-hidden
 #FLUX: --queue=jag-standard
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST

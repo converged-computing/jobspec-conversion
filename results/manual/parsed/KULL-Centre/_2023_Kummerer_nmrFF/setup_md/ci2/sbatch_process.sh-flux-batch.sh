@@ -2,7 +2,7 @@
 #FLUX: --job-name=ci2_opt
 #FLUX: --queue=qgpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "========= Job started  at `date` =========="
 echo This job is running on the following node\(s\):

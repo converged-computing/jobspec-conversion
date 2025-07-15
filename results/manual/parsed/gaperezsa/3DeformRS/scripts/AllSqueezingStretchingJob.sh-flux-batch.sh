@@ -2,7 +2,7 @@
 #FLUX: --job-name=SqStJob
 #FLUX: -c=4
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc
 echo "######################### SLURM JOB ########################"

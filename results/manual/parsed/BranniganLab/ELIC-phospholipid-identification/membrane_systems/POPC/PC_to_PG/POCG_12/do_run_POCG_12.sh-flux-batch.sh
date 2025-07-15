@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-puppy-1498
-#FLUX: --queue=cmain --constraint=oarc -t 24:00:00
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-fork-5291
+#FLUX: --queue=cmain
+#FLUX: --urgency=16
 
 module purge
 module load gcc mvapich2

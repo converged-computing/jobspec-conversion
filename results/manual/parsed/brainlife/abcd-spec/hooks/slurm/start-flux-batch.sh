@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-bits-8884
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-chip-6831
+#FLUX: --urgency=16
 
 echo "----------------------"
 date

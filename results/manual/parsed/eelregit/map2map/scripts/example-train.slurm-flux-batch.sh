@@ -4,7 +4,7 @@
 #FLUX: --exclusive
 #FLUX: --queue=gpu_partition
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "This is a minimal example. See --help or args.py for more," \
      "e.g. on augmentation, cropping, padding, and data division."

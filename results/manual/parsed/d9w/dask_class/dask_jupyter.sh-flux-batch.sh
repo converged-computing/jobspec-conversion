@@ -2,7 +2,7 @@
 #FLUX: --job-name=jupyter-notebook
 #FLUX: -N=2
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XDG_RUNTIME_DIR=''
 

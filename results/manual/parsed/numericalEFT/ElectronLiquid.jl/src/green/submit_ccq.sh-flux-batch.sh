@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: --queue=ccq
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "#########################################################" >  host.txt
 echo "SLURM_JOB_NUM_NODES  =" $SLURM_JOB_NUM_NODES               >> host.txt

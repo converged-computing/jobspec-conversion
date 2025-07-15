@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peas-5938
-#FLUX: --priority=16
+#FLUX: --job-name=bumfuzzled-kitty-3533
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bacaron/app-analyzePRF/main

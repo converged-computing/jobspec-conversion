@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-puppy-3251
+#FLUX: --job-name=hello-chair-0217
 #FLUX: -N=4
 #FLUX: --queue=sched_mit_hill
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 mpiexec echo "test"

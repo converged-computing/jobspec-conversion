@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nnunet_picai_train
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export nnUNet_raw='/ssd003/projects/aieng/public/PICAI/nnUNet/nnUNet_raw'
 export nnUNet_preprocessed='/ssd003/projects/aieng/public/PICAI/nnUNet/nnUNet_preprocessed'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=psm
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 python train_stereo.py \
 --dataset='SceneFlow' \

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-lettuce-9075
+#FLUX: --job-name=stinky-plant-6438
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 umask 002
 BATCH=$1

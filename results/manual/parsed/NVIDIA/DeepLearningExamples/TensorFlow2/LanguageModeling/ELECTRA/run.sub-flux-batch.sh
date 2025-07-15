@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-soup-2338
+#FLUX: --job-name=cowy-blackbean-1130
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -eux
 readonly docker_image="gitlab-master.nvidia.com/dl/joc/electra_tf2:keras_mp_20.07_clean_up"

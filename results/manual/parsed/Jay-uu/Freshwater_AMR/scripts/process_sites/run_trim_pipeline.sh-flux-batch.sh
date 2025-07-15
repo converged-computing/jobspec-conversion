@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-hope-2343
-#FLUX: --priority=16
+#FLUX: --job-name=blue-leader-9569
+#FLUX: --urgency=16
 
 export CONDA_ENVS_PATH='/proj/fume/nobackup/private/jay/Freshwater_AMR/conda_envs'
 

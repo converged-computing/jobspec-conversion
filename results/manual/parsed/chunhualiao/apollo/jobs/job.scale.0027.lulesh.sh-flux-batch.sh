@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="APOLLO:SCALE.27.lulesh"
+#FLUX: --job-name=APOLLO:SCALE.27.lulesh
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EXPERIMENT_JOB_TITLE='SCALE.0027.lulesh'
 export EXPERIMENT_BASE='/p/lustre2/wood67/experiments/apollo'

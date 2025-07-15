@@ -2,7 +2,7 @@
 #FLUX: --job-name=bare-slab
 #FLUX: --queue=shared
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 prefix=bare-slab
 rtemp=298

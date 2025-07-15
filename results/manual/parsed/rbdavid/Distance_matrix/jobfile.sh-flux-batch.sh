@@ -2,7 +2,7 @@
 #FLUX: --job-name=dist_cal.a_apo
 #FLUX: --exclusive
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/software/usr/hpcx-v1.2.0-292-gcc-MLNX_OFED_LINUX-2.4-1.0.0-redhat6.6/ompi-mellanox-v1.8/lib'
 export PYTHON_EGG_CACHE='./'

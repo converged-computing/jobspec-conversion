@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lamp-9447
+#FLUX: --job-name=carnivorous-hobbit-7991
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge 
 module load anaconda/3/2020.02

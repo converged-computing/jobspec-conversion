@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-mango-3947
+#FLUX: --job-name=confused-banana-8369
 #FLUX: -n=4
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo ${subid}
 module load gcc/8.3.0 motif zlib mesa

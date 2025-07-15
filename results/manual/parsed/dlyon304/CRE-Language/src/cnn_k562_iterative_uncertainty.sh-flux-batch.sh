@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-squidward-7800
+#FLUX: --job-name=muffled-citrus-4047
 #FLUX: -t=0
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 eval $(spack load --sh miniconda3)
 source activate active-learning

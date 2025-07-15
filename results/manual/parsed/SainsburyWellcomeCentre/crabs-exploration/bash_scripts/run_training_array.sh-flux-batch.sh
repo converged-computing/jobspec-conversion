@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-snack-9431
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-leader-7874
+#FLUX: --urgency=16
 
 source ~/.bashrc
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True

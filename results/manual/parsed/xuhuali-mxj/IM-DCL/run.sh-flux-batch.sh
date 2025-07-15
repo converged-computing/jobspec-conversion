@@ -3,7 +3,7 @@
 #FLUX: -c=32
 #FLUX: --queue=gpusmall
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 $SCRATCH
 module load pytorch/1.10

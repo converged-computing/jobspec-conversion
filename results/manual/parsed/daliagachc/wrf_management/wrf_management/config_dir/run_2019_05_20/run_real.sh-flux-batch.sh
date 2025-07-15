@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-general-4642
-#FLUX: --priority=16
+#FLUX: --job-name=fuzzy-leg-7957
+#FLUX: --urgency=16
 
 export NETCDF='/appl/opt/netcdf4/gcc-7.3.0/intelmpi-18.0.2/4.6.1/'
 export WRFIO_NCD_LARGE_FILE_SUPPORT='1'

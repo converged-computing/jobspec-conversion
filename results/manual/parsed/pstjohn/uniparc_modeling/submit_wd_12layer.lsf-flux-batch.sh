@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-avocado-0022
-#FLUX: --priority=16
+#FLUX: --job-name=anxious-itch-8414
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pstjohn/uniparc_modeling/submit_wd_12layer.lsf

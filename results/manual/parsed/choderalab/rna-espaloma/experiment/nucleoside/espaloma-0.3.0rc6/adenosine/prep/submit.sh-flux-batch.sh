@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-punk-4840
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-malarkey-2449
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/rna-espaloma/experiment/nucleoside/espaloma-0.3.0rc6/adenosine/prep/submit.sh

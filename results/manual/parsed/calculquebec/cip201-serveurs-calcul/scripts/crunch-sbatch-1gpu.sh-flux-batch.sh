@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-underoos-3362
+#FLUX: --job-name=anxious-squidward-0343
 #FLUX: -t=540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/9.3.0 cuda/11.4 python/3.8.10
 virtualenv --no-download $SLURM_TMPDIR/venv_cupy

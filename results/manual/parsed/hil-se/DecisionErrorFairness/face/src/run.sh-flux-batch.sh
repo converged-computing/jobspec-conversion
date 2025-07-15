@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-caramel-2965
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-peanut-1105
+#FLUX: --urgency=16
 
 spack unload -a
 spack load /xi3pch3

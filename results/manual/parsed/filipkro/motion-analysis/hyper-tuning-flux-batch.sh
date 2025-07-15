@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-latke-4761
-#FLUX: --priority=16
+#FLUX: --job-name=persnickety-bike-1044
+#FLUX: --urgency=16
 
 data_set="data_"$1".npz"
 classifier=$1

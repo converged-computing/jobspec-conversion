@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=workq
 #FLUX: -t=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module swap PrgEnv-gnu PrgEnv-intel
 module swap PrgEnv-cray PrgEnv-intel

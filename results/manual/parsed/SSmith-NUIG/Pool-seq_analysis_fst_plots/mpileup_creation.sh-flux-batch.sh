@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="gene_pile"
-#FLUX: --priority=16
+#FLUX: --job-name=gene_pile
+#FLUX: --urgency=16
 
 source /home/ssmith/.bashrc
 source activate wgs_env

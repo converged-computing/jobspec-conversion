@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lamp-9869
+#FLUX: --job-name=loopy-lamp-0133
 #FLUX: -c=6
 #FLUX: --queue=develgpus
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='spread'

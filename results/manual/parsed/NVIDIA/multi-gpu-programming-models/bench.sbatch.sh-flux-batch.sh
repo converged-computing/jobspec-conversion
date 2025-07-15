@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-poodle-5378
-#FLUX: --priority=16
+#FLUX: --job-name=swampy-snack-8066
+#FLUX: --urgency=16
 
 export SRUN_ARGS='--cpu-bind=none --mpi=none --no-container-remap-root --container-mounts=$CONTAINER_MNTS --container-workdir=/mnt --container-name=$CONTAINER_NAME'
 export OMPI_MCA_coll_hcoll_enable='0'

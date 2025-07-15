@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-pastry-6329
+#FLUX: --job-name=stinky-onion-2872
 #FLUX: -c=32
 #FLUX: -t=1200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 checkout="c901382c4c76b108e4e6d190e9236848dc764526" # 8 August 2022
 dir="kokkos-tools-mulan"

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-sundae-0233
+#FLUX: --job-name=buttery-signal-0700
 #FLUX: -c=48
 #FLUX: --queue=general
 #FLUX: -t=36000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SINGULARITY_TMPDIR='/scratch/user/uqadaqu1/tmp/ '
 

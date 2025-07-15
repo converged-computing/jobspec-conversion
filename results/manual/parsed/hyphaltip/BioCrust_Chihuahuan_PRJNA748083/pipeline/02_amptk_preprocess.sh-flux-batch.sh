@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-leopard-4592
-#FLUX: --priority=16
+#FLUX: --job-name=lovely-noodle-1962
+#FLUX: --urgency=16
 
 CPU=2
 if [ $SLURM_CPUS_ON_NODE ]; then

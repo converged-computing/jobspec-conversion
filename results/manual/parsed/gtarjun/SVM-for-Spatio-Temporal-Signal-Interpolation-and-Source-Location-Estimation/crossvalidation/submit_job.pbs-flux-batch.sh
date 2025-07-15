@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cat-1046
-#FLUX: --priority=16
+#FLUX: --job-name=adorable-buttface-7501
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gtarjun/SVM-for-Spatio-Temporal-Signal-Interpolation-and-Source-Location-Estimation/crossvalidation/submit_job.pbs

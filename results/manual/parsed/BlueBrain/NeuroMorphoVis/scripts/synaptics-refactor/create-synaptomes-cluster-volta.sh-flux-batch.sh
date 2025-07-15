@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="synaptome"
+#FLUX: --job-name=synaptome
 #FLUX: --queue=prod
 #FLUX: -t=57600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 BLENDER=$PWD/../../../../../../blender
 CIRCUIT_CONFIG='/gpfs/bbp.cscs.ch/project/proj83/circuits/Bio_M/20200731/CircuitConfig'

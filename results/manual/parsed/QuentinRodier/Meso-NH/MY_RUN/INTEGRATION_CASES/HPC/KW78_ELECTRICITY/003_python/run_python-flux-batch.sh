@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-signal-4831
-#FLUX: --priority=16
+#FLUX: --job-name=fat-sundae-4581
+#FLUX: --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

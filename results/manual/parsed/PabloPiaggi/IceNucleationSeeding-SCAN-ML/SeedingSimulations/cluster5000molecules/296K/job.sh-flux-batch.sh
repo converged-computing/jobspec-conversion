@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pot-6105
-#FLUX: --priority=16
+#FLUX: --job-name=salted-omelette-2114
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PabloPiaggi/IceNucleationSeeding-SCAN-ML/SeedingSimulations/cluster5000molecules/296K/job.sh

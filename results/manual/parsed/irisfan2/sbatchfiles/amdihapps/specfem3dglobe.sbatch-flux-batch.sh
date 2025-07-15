@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-spoon-0638
+#FLUX: --job-name=tart-leader-6914
 #FLUX: -c=8
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh
 module load rocm/5.2.3

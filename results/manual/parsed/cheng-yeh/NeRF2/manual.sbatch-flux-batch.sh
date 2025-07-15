@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-pot-4555
-#FLUX: --priority=16
+#FLUX: --job-name=loopy-fork-3044
+#FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR                            # Change to working directory
 module load anaconda3                           # Load module dependencies

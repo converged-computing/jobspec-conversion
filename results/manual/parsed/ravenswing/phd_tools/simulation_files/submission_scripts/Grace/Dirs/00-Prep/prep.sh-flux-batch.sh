@@ -2,7 +2,7 @@
 #FLUX: --job-name=prep
 #FLUX: --queue=prepost
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export EASYBUILD_PREFIX='/users/revans/programs/gromacs'
 export name='$(cd ..; basename -- "$PWD")'

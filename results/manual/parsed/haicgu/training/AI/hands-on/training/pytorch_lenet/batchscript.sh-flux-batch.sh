@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-diablo-1314
+#FLUX: --job-name=blank-milkshake-8045
 #FLUX: --queue=a800-9000
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RANK_SIZE='1'
 

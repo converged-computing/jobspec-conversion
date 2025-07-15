@@ -3,7 +3,7 @@
 #FLUX: -n=8
 #FLUX: --queue=gpuserial
 #FLUX: -t=576000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

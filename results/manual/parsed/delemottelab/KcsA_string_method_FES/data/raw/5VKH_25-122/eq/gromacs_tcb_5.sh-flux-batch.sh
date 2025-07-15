@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pot-2601
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-arm-4525
+#FLUX: --urgency=16
 
 module unload gromcas
  module unload gromacs/2020.2

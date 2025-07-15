@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-earthworm-9688
+#FLUX: --job-name=hanky-rabbit-7586
 #FLUX: -n=8
 #FLUX: --queue=cpu
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "loading modules"
 module use /apps/USE/easybuild/release/2021.5/modules/all

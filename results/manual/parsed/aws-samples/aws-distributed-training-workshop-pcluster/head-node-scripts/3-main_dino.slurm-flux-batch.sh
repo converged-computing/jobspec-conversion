@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-hobbit-2071
+#FLUX: --job-name=buttery-milkshake-2719
 #FLUX: -N=2
 #FLUX: -c=16
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export WORLD_SIZE='8'
 export LD_LIBRARY_PATH='/usr/local/lib/:$LD_LIBRARY_PATH'

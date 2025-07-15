@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-spoon-7921
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-leopard-2505
+#FLUX: --urgency=16
 
 python metric_learning.py --arch-type triplet --process retrieve

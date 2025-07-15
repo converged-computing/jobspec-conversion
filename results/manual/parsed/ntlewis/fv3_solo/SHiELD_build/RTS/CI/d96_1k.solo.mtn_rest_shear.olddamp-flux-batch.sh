@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-buttface-5295
+#FLUX: --job-name=creamy-fudge-8633
 #FLUX: -n=24
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

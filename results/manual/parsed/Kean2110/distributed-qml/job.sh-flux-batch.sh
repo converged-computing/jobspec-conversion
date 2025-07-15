@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=dqml
 #FLUX: --queue=All
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo Running on node $SLURMD_NODENAME at `date`
 . ./env/bin/activate

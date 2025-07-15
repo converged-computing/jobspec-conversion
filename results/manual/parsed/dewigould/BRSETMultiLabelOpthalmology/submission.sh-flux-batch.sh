@@ -2,7 +2,7 @@
 #FLUX: --job-name=tensor
 #FLUX: --queue=short
 #FLUX: -t=41400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=/apps/system/easybuild/software/CUDA/11.8.0/'
 

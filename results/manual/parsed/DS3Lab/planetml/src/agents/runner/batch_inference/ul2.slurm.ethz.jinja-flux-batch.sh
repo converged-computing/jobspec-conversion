@@ -2,7 +2,7 @@
 #FLUX: --job-name=ul2
 #FLUX: -c=2
 #FLUX: -t=14340
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='access'
 export GLOO_SOCKET_IFNAME='access'

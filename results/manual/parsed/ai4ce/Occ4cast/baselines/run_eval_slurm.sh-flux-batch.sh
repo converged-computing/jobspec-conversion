@@ -2,7 +2,7 @@
 #FLUX: --job-name=4docc
 #FLUX: -c=20
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd /scratch/$USER/Occ4D/baselines/4docc
 singularity exec --nv \

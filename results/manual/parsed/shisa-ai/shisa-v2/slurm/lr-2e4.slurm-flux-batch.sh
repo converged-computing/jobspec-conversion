@@ -2,7 +2,7 @@
 #FLUX: --job-name=lr-2e4
 #FLUX: --exclusive
 #FLUX: --queue=dev
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HF_HUB_ENABLE_HF_TRANSFER='1'
 export ACCELERATE_LOG_LEVEL='info'

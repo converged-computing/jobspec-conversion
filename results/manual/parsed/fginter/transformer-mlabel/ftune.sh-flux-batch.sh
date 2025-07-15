@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-puppy-5332
+#FLUX: --job-name=wobbly-motorcycle-3417
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='../venv-torch/lib64/python3.7/site-packages:$PYTHONPATH'
 

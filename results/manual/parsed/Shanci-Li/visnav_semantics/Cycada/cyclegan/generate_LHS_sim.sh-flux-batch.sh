@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-latke-3787
+#FLUX: --job-name=salted-lemon-9310
 #FLUX: -c=20
 #FLUX: --queue=gpu
 #FLUX: -t=21599
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='/home/shanli/visnav_semantics:$PYTHONPATH'
 

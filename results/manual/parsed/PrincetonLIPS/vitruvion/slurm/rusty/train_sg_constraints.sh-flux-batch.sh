@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_constraints
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 set -u
 set -e

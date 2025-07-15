@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-noodle-6719
+#FLUX: --job-name=swampy-bits-3543
 #FLUX: -n=96
 #FLUX: --queue=genoa
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load 2023
 module load GROMACS/2023.3-foss-2023a 

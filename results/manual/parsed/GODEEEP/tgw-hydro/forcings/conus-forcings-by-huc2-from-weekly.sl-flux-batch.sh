@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-peas-7392
+#FLUX: --job-name=pusheena-butter-8098
 #FLUX: -c=40
-#FLUX: --queue=smp7 ### a partition on constance
+#FLUX: --queue=smp7
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo 'Loading modules'
 module load python/miniconda3.9

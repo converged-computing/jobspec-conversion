@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-ricecake-6879
+#FLUX: --job-name=joyous-citrus-0413
 #FLUX: --queue=batch
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

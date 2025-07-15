@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-underoos-0834
-#FLUX: --priority=16
+#FLUX: --job-name=crunchy-lemur-1089
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/taboleiro/Speech-separation/asteroid/job.sh

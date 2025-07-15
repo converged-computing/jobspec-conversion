@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-dog-5314
+#FLUX: --job-name=persnickety-lemur-7671
 #FLUX: -n=5
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SCHRODINGER='/sNow/easybuild/centos/7.4.1708/Skylake/software/schrodinger2017-4/'
 export SCHRODINGER_PYTHONPATH='/sNow/easybuild/centos/7.4.1708/Skylake/software/schrodinger2017-4/internal/lib/python2.7/site-packages'

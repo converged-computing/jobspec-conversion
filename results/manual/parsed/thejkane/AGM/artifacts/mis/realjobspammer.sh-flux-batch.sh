@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-nalgas-1064
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-punk-3225
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/thejkane/AGM/artifacts/mis/realjobspammer.sh

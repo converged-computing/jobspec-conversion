@@ -3,7 +3,7 @@
 #FLUX: -N=16
 #FLUX: -c=12
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export BASE_DIR='/workspace'
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64/:$LD_LIBRARY_PATH'

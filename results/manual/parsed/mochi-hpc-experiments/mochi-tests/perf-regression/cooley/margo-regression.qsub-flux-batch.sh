@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-muffin-2343
-#FLUX: --priority=16
+#FLUX: --job-name=purple-car-0529
+#FLUX: --urgency=16
 

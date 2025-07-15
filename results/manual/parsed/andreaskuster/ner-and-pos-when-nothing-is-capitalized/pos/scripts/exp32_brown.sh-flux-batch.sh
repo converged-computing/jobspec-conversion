@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lettuce-8265
+#FLUX: --job-name=bloated-peanut-butter-0712
 #FLUX: --queue=amdv100
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.7.2
 module load CMake

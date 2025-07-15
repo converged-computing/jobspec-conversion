@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-onion-6224
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-malarkey-3420
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

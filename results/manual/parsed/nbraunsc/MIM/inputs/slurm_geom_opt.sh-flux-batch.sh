@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-chip-7139
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-gato-8094
+#FLUX: --urgency=16
 
 if [ -z ${HOME+x} ];
 then

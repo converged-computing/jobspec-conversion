@@ -2,7 +2,7 @@
 #FLUX: --job-name=v100-cloudmask-gpu-rivanna
 #FLUX: --queue=bii-gpu
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export USER_SCRATCH='/scratch/$USER'
 export PROJECT_DIR='$USER_SCRATCH/mlcommons/benchmarks/cloudmask'

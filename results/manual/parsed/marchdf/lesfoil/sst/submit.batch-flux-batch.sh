@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=lesfoil
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SPACK_MANAGER='${HOME}/exawind/spack-manager'
 export OMP_NUM_THREADS='1  # Max hardware threads = 4'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-omelette-3346
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-arm-7050
+#FLUX: --urgency=16
 
 export LC_ALL='en_US.iso885915'
 

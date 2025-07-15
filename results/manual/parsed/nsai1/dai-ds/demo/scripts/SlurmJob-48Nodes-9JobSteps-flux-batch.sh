@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cattywampus-7142
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-avocado-6306
+#FLUX: --urgency=16
 
 srun /opt/ucs/demo/workloads/AMG 9
 srun /opt/ucs/demo/workloads/dgemm 8

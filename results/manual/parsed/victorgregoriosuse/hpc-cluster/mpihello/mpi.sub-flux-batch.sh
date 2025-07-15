@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-arm-9633
+#FLUX: --job-name=quirky-bike-3647
 #FLUX: -t=300
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /usr/share/spack/setup-env.sh
 spack load openmpi

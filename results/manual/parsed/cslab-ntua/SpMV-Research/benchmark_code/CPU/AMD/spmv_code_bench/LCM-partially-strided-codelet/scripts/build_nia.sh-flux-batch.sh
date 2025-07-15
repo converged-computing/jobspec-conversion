@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name="sym"
+#FLUX: --job-name=sym
 #FLUX: -c=40
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MKLROOT='/scinet/intel/2019u3/compilers_and_libraries_2019/linux/mkl'
 export OMP_NUM_THREADS='$THRDS'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-itch-1181
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-eagle-8128
+#FLUX: --urgency=16
 
     #  "sbatch knl.serial.slurm" on a Stampede2 login node.
     #    A serial code ignores the value of lower case n,

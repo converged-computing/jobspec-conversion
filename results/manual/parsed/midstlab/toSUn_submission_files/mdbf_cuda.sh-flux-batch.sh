@@ -2,7 +2,7 @@
 #FLUX: --job-name=DHFR
 #FLUX: --queue=cuda
 #FLUX: -t=1296000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 INPUT_FILE="apo-dhfr-lom-min1.conf"
 source /etc/profile.d/modules.sh

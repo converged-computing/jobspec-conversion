@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=BowAtLouise_drainage_database
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load StdEnv/2020 gcc/9.3.0 openmpi/4.0.3
 module load gdal/3.5.1 libspatialindex/1.8.5

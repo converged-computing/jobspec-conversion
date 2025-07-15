@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-snack-9908
-#FLUX: --priority=16
+#FLUX: --job-name=stinky-truffle-0296
+#FLUX: --urgency=16
 
 export NUM_CORES='$((SLURM_JOB_NUM_NODES * SLURM_CPUS_ON_NODE))'
 

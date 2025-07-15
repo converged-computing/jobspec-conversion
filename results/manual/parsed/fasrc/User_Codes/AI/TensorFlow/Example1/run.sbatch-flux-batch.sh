@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-punk-7209
-#FLUX: --priority=16
+#FLUX: --job-name=evasive-cat-3418
+#FLUX: --urgency=16
 
 module load python/3.10.9-fasrc01
 source activate tf2.12_cuda11

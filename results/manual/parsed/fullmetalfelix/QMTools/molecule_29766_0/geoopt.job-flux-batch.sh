@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-platanos-6335
+#FLUX: --job-name=gassy-onion-4352
 #FLUX: -c=10
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'
 export PSI_SCRATCH='/tmp/'

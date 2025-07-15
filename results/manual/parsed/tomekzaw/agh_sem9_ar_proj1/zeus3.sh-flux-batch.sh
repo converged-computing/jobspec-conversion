@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-earthworm-5325
+#FLUX: --job-name=swampy-caramel-1389
 #FLUX: -n=20
 #FLUX: --queue=plgrid
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add plgrid/tools/python-intel/3.6.5 2>/dev/null
 zad=3

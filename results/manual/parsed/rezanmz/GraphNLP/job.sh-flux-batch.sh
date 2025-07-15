@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cinnamonbun-4986
+#FLUX: --job-name=gassy-noodle-6050
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: -t=18000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_BLOCKING_WAIT='1 #Pytorch Lightning uses the NCCL backend for inter-GPU communication by default. Set this variable to avoid timeout errors.'
 export HF_DATASETS_OFFLINE='1'

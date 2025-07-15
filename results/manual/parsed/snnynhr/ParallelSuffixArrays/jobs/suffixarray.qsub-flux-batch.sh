@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-animal-6555
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-leopard-7104
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/snnynhr/ParallelSuffixArrays/jobs/suffixarray.qsub

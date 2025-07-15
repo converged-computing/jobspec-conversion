@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="SNAKEMAKETEST"
+#FLUX: --job-name=SNAKEMAKETEST
 #FLUX: -c=2
-#FLUX: --queue="norm,ccr"
+#FLUX: --queue=norm,ccr
 #FLUX: -t=432000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load python/3.9
 module load snakemake/7.32.3

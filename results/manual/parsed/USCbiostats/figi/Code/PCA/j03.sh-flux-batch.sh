@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-parrot-6778
+#FLUX: --job-name=crunchy-caramel-3843
 #FLUX: --queue=conti
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 REF=/auto/pmd-02/figi/PCA
 OUT=/staging/dvc/andreeki/pca_ibd

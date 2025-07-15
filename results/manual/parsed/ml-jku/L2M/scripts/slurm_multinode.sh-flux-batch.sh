@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-motorcycle-4878
+#FLUX: --job-name=confused-peas-4677
 #FLUX: -N=2
 #FLUX: --queue=X
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export LOGLEVEL='INFO'
 

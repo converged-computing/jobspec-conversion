@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-onion-5515
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-carrot-8188
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'
 

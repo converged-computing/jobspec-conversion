@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cinnamonbun-3164
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-malarkey-9327
+#FLUX: --urgency=16
 
 export MODULEPATH='/share/apps/compute/modulefiles/applications:$MODULEPATH'
 export NETCDF='/opt/netcdf/4.6.1/intel/intelmpi/'

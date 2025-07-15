@@ -3,7 +3,7 @@
 #FLUX: -c=4
 #FLUX: --queue=standard
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 PYTHON=/home/jimmyzxj/miniconda3/envs/causal_graph_prior/bin/python3
 RANDOM_SEED=${SLURM_ARRAY_TASK_ID}

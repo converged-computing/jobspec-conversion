@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-poo-4745
-#FLUX: --priority=16
+#FLUX: --job-name=phat-peanut-2448
+#FLUX: --urgency=16
 
 source new-modules.sh
 module load matlab

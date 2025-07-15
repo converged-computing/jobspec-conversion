@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lemur-5212
+#FLUX: --job-name=grated-parsnip-7767
 #FLUX: -t=10800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/7.5.0
 source venv_magic123/bin/activate

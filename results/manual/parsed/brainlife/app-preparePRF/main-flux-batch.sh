@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-muffin-3558
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-lamp-6231
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-preparePRF/main

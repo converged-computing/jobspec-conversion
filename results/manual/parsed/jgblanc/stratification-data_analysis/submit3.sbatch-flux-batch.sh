@@ -2,7 +2,7 @@
 #FLUX: --job-name=three
 #FLUX: --queue=tier1q
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/12.1.0
 module load python/3.10.5

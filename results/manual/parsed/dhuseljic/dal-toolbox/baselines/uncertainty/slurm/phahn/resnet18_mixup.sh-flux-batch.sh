@@ -2,7 +2,7 @@
 #FLUX: --job-name=RES-MIX
 #FLUX: -c=8
 #FLUX: --queue=main
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /mnt/stud/home/phahn/.zshrc
 rm /mnt/stud/work/phahn/uncertainty/uncertainty-evaluation/.git/index.lock

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-gato-0413
+#FLUX: --job-name=lovable-earthworm-5157
 #FLUX: -n=24
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_STACKSIZE='256m'
 

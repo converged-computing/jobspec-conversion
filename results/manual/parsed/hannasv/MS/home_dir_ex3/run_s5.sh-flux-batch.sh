@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-banana-3185
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-ricecake-6014
+#FLUX: --urgency=16
 
 ulimit -s 10240
 mkdir -p ~/output

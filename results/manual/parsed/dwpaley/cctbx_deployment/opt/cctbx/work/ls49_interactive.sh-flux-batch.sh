@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-general-2715
+#FLUX: --job-name=faux-eagle-8020
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export USE_EXASCALE_API='True # "True" or "False" use granular host/device memory transfer'
 export LOG_BY_RANK='1 # Use Aaron's profiler/rank logger'

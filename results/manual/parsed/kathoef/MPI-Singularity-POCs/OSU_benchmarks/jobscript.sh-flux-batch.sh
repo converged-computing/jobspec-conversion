@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-gato-5548
+#FLUX: --job-name=crusty-mango-6137
 #FLUX: --queue=cluster
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source experiments.sh
 function run_experiments {

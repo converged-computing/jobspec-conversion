@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-carrot-9260
-#FLUX: --priority=16
+#FLUX: --job-name=outstanding-destiny-2824
+#FLUX: --urgency=16
 
 module load <insert Anaconda module name>
 module load <insert cuda module name>

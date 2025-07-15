@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-caramel-5086
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-kitty-5005
+#FLUX: --urgency=16
 
 module use ~/environment-modules-lisa
 module load 2020

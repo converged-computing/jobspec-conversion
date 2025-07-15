@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-nunchucks-5470
+#FLUX: --job-name=purple-rabbit-1842
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$(( 40 / ${rankspernode} ))'
 export OMP_PLACES='threads'

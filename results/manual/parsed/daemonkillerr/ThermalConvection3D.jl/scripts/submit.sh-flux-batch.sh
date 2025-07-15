@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="3D_Lava_Lamp"
+#FLUX: --job-name=3D_Lava_Lamp
 #FLUX: -N=8
 #FLUX: --queue=normal
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MPICH_RDMA_ENABLED_CUDA='0'
 export IGG_CUDAAWARE_MPI='0'

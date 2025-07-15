@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-toaster-5040
+#FLUX: --job-name=blank-butter-8138
 #FLUX: --queue=gpu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:../python'
 

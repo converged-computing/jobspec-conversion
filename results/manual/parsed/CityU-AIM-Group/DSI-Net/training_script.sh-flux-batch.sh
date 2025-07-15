@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-leg-8264
+#FLUX: --job-name=strawberry-malarkey-5349
 #FLUX: --queue=gpu_1d2g
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Submitted from:"$SLURM_SUBMIT_DIR" on node:"$SLURM_SUBMIT_HOST
 echo "Running on node "$SLURM_JOB_NODELIST 

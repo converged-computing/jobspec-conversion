@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-peas-5588
+#FLUX: --job-name=moolicious-avocado-1064
 #FLUX: -t=144000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 sys=/scratch/ba63/gec/models/gec/qalb14-15/binary/bart_w_ged_pred_worst
 pred_file=qalb15_dev.preds

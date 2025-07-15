@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cherry-9969
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-milkshake-1000
+#FLUX: --urgency=16
 
 tissues=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')
 CONFIG_DIR='mmdetection/configs/swin'

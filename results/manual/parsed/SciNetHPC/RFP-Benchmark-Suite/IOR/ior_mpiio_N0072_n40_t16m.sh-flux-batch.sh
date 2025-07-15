@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-bits-9021
-#FLUX: --priority=16
+#FLUX: --job-name=muffled-nalgas-1666
+#FLUX: --urgency=16
 
 ml NiaEnv/2022a gcc/11.3.0 openmpi/4.1.4+ucx-1.11.2
 FS=bbuffer

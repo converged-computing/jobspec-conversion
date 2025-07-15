@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-parsnip-3674
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-toaster-1713
+#FLUX: --urgency=16
 
 export yy='`echo ${cdate} | cut -c 1-4`'
 export mm='`echo ${cdate} | cut -c 5-6`'

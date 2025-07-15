@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-dog-0825
-#FLUX: --priority=16
+#FLUX: --job-name=grated-toaster-7135
+#FLUX: --urgency=16
 
 ulimit -c 0
 ulimit -s unlimited

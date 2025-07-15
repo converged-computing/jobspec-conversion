@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-latke-9843
+#FLUX: --job-name=blank-destiny-5765
 #FLUX: -t=43200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

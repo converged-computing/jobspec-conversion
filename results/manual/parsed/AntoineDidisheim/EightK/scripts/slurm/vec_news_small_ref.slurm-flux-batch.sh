@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="vec_news_ref_"
+#FLUX: --job-name=vec_news_ref_
 #FLUX: -c=4
 #FLUX: --queue=cascade
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load foss/2022a
 module load GCCcore/11.3.0; module load Python/3.10.4

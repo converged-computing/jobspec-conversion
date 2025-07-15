@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-arm-0291
-#FLUX: --priority=16
+#FLUX: --job-name=buttery-leg-5125
+#FLUX: --urgency=16
 
 BATCH -J GroupC
 module load gcc/10.2.0

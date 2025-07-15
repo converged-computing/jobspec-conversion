@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-soup-6984
-#FLUX: --priority=16
+#FLUX: --job-name=confused-pancake-8616
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jhoffe/fagprojekt/batch_jobs/train_asr_synthetic.sh

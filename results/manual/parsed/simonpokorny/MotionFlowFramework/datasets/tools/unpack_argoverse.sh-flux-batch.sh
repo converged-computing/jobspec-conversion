@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lettuce-6570
+#FLUX: --job-name=misunderstood-banana-1832
 #FLUX: --queue=amdfast
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 ml torchsparse
 cd $HOME

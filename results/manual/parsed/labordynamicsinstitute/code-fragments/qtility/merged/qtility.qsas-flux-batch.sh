@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-plant-2317
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-spoon-7372
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/labordynamicsinstitute/code-fragments/qtility/merged/qtility.qsas

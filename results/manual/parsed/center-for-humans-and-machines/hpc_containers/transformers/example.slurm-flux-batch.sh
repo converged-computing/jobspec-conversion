@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-muffin-5158
+#FLUX: --job-name=crusty-parsnip-2446
 #FLUX: -N=2
 #FLUX: -c=72
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='18'
 export OMP_PLACES='cores'

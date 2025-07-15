@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leopard-1277
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-nunchucks-1991
+#FLUX: -n=8
+#FLUX: --urgency=16
 
 module unload java
 module load java/8

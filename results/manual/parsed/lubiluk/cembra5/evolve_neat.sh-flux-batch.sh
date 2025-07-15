@@ -3,7 +3,7 @@
 #FLUX: -c=24
 #FLUX: --exclusive
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load plgrid/tools/python/3.9
 source venv/bin/activate

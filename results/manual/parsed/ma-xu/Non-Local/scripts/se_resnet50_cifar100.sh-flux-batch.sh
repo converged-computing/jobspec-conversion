@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-leader-0461
-#FLUX: --priority=16
+#FLUX: --job-name=angry-underoos-3760
+#FLUX: --urgency=16
 
 module load cuda/75/blas/7.5.18
 module load cuda/75/fft/7.5.18

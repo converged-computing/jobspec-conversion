@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-caramel-6560
-#FLUX: --priority=16
+#FLUX: --job-name=stanky-malarkey-4293
+#FLUX: --urgency=16
 
 source /etc/profile
 module load julia-latest

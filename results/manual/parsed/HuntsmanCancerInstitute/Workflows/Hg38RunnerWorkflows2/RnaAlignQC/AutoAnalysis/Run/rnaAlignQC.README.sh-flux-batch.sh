@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-fudge-7365
+#FLUX: --job-name=gloopy-dog-8339
 #FLUX: --queue=hci-rw
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load singularity
 dataBundle=/uufs/chpc.utah.edu/common/PE/hci-bioinformatics1/atlatl

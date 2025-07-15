@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-mango-5187
-#FLUX: --priority=16
+#FLUX: --job-name=conspicuous-nunchucks-8612
+#FLUX: --urgency=16
 
 source activate mlfold-test
 python ./training.py \

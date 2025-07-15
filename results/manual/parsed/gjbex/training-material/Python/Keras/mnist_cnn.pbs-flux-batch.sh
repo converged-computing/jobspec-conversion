@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-cattywampus-5945
-#FLUX: --priority=16
+#FLUX: --job-name=placid-snack-0287
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gjbex/training-material/Python/Keras/mnist_cnn.pbs

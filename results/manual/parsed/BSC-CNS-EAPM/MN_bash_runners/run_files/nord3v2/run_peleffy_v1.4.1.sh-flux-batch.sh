@@ -2,7 +2,7 @@
 #FLUX: --job-name=peleffy
 #FLUX: -n=2
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load anaconda

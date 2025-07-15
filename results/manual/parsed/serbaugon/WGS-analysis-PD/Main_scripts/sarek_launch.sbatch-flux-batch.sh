@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cinnamonbun-6496
-#FLUX: --priority=16
+#FLUX: --job-name=blue-omelette-8196
+#FLUX: --urgency=16
 
 export NXF_OPTS='-Xms1g -Xmx4g'
 export NXF_EXECUTOR='slurm'

@@ -3,7 +3,7 @@
 #FLUX: -N=16
 #FLUX: -c=10
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 master_node=${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}
 dist_url="tcp://"

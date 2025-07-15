@@ -2,7 +2,7 @@
 #FLUX: --job-name=python_sweep
 #FLUX: --queue=regular
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load networkx

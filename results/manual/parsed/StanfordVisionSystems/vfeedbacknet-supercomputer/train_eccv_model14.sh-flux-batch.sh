@@ -2,7 +2,7 @@
 #FLUX: --job-name=emodel14_jester
 #FLUX: -c=5
 #FLUX: -t=21600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export DATA_ROOT='$TMPFS/20bn-jester'
 

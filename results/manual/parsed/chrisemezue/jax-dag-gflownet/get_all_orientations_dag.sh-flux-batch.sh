@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-fork-5845
+#FLUX: --job-name=misunderstood-hippo-8290
 #FLUX: -c=4
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'
 

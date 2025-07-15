@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-taco-1539
+#FLUX: --job-name=milky-chair-3199
 #FLUX: -n=18
 #FLUX: --queue=gpu
 #FLUX: -t=10500
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

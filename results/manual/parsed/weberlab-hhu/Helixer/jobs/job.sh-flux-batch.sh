@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-noodle-5525
-#FLUX: --priority=16
+#FLUX: --job-name=spicy-fudge-5524
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/weberlab-hhu/Helixer/jobs/job.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-pot-7675
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-noodle-1424
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mjvakili/gambly/run/run-wp.pbs

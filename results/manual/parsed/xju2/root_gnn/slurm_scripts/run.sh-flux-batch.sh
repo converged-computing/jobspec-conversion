@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-bike-5394
-#FLUX: --priority=16
+#FLUX: --job-name=reclusive-taco-8463
+#FLUX: --urgency=16
 
 which python
 cd /global/homes/x/xju/code/root_gnn

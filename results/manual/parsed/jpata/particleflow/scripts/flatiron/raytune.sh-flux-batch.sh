@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-animal-0375
+#FLUX: --job-name=swampy-hippo-9067
 #FLUX: -c=32
 #FLUX: --gpus-per-task=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export TUNE_RESULT_DIR='/mnt/ceph/users/ewulff/ray_results/tune_result_dir'
 export TUNE_MAX_PENDING_TRIALS_PG='$((SLURM_NNODES*2))'

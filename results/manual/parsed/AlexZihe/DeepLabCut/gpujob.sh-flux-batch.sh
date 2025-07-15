@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-fork-8932
-#FLUX: --priority=16
+#FLUX: --job-name=doopy-signal-9284
+#FLUX: --urgency=16
 
 module load gcc/6.2.0 cuda/9.0 python/3.6.0
 source GPUIDpaw2/bin/activate

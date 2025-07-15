@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-house-9472
-#FLUX: --priority=16
+#FLUX: --job-name=gloopy-parsnip-6986
+#FLUX: --urgency=16
 
 module load intelFPGA_pro/20.3.0
 module load intel_pac/19.2.0_usm

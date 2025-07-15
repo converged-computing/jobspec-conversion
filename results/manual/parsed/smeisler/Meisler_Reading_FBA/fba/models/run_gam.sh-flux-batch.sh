@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leopard-5903
+#FLUX: --job-name=quirky-bike-3699
 #FLUX: -c=32
 #FLUX: -t=604800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 config=/PATH/TO/config
 source $config

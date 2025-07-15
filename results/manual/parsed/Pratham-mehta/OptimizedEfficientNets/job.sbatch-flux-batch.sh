@@ -2,7 +2,7 @@
 #FLUX: --job-name=HPML_Project_efficientnet_b0_dataparallel_finetune_GPU_1_with_profiler_new_image_size_food
 #FLUX: -c=10
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 cd /scratch/pm3483/Project1/

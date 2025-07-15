@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-fork-3950
-#FLUX: --priority=16
+#FLUX: --job-name=delay-calibration
+#FLUX: --exclusive
+#FLUX: --urgency=16
 
 export RUNDIR='$PWD'
 export RESULTS_DIR='/project/lofarvwf/Share/rtimmerman/Gabriella/P275+63'

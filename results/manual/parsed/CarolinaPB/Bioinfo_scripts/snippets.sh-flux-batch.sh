@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-earthworm-7197
-#FLUX: --priority=16
+#FLUX: --job-name=dinosaur-milkshake-3942
+#FLUX: --urgency=16
 
 sed -n '/Scaffolds_20 /,/Scaffolds_21/p' scaffolds.fasta > scaffolds_20.fasta
 grep -v ">" scaffolds_87.fasta > temp.txt; mv temp.txt scaffolds_87.fasta

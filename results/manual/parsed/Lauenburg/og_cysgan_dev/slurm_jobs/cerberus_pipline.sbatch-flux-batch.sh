@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-cinnamonbun-2265
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-underoos-0601
+#FLUX: --urgency=16
 
 echo "#############SETUP#############"
 echo ""

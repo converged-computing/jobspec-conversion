@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hippo-3843
-#FLUX: --priority=16
+#FLUX: --job-name=bloated-bike-7190
+#FLUX: --urgency=16
 
 python train.py

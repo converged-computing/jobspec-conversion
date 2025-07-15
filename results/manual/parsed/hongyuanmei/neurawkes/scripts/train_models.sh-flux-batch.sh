@@ -2,7 +2,7 @@
 #FLUX: --job-name=example
 #FLUX: -c=6
 #FLUX: -t=356400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export M_ID='$((${SLURM_ARRAY_TASK_ID}-1))'
 export THEANO_FLAGS='device=gpu'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-caramel-2251
-#FLUX: --priority=16
+#FLUX: --job-name=frigid-hippo-6701
+#FLUX: --urgency=16
 
 export K8S_PORT='$K8S_PORT'
 export K8S_CLUSTER_NAME='$K8S_CLUSTER_NAME'

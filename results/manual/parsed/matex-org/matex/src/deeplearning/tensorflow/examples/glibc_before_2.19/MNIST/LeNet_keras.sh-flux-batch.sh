@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-leopard-9621
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-taco-9908
+#FLUX: --urgency=16
 
 train_batch=64
 nodes=1

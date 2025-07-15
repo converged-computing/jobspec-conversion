@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-hippo-9889
+#FLUX: --job-name=pusheena-onion-4229
 #FLUX: --exclusive
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export NCCL_IB_HCA='mlx5_0'
 export NCCL_SOCKET_IFNAME='ib0'

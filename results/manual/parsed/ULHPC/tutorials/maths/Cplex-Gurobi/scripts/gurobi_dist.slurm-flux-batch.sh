@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-signal-0368
+#FLUX: --job-name=anxious-itch-2523
 #FLUX: -n=3
 #FLUX: -c=5
 #FLUX: -t=900
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export MASTER_PORT='61000'

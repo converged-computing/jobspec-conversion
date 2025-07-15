@@ -2,7 +2,7 @@
 #FLUX: --job-name=snl_tasks_atomate
 #FLUX: --queue=matgen_prior
 #FLUX: -t=345600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module unload python
 module unload virtualenv

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-hope-1761
-#FLUX: --priority=16
+#FLUX: --job-name=nerdy-hobbit-3631
+#FLUX: --urgency=16
 
 export MASTER_ADDR='`/bin/hostname -s`'
 export MASTER_PORT='29500'

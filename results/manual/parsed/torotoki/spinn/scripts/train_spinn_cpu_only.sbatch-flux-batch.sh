@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-malarkey-0369
-#FLUX: --priority=16
+#FLUX: --job-name=psycho-arm-8958
+#FLUX: --urgency=16
 
 export IFS=';'
 

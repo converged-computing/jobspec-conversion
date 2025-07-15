@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-taco-2450
+#FLUX: --job-name=crunchy-pancake-7870
 #FLUX: --exclusive
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load foss

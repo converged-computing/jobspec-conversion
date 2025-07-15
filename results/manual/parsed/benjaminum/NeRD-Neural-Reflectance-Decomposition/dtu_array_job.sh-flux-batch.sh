@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nerd_dtu
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 scenes=(
 split16_dtu_scan122

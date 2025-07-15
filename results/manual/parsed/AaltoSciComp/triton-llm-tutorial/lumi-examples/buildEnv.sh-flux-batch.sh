@@ -2,7 +2,7 @@
 #FLUX: --job-name=build_pytorch_env
 #FLUX: --queue=dev-g
 #FLUX: -t=1800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PYTHON_ENV_NAME='env_dpo'
 export SING_IMAGE='lumi-pytorch-rocm-5.6.1-python-3.10-pytorch-v2.1.0.sif'

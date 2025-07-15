@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-diablo-4076
+#FLUX: --job-name=expressive-milkshake-8768
 #FLUX: -n=30
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'
 

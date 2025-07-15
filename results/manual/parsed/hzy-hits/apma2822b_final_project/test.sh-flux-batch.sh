@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-arm-5792
-#FLUX: --priority=16
+#FLUX: --job-name=pusheena-punk-6021
+#FLUX: --urgency=16
 
 module load cuda/11.7.1  gcc/10.2 cmake/3.15.4  ninja/1.9.0
 nvcc --version

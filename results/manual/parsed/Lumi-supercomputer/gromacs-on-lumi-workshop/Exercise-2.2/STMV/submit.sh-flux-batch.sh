@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peanut-butter-8743
+#FLUX: --job-name=evasive-cat-4143
 #FLUX: -c=7
 #FLUX: --queue=small-g
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'
 

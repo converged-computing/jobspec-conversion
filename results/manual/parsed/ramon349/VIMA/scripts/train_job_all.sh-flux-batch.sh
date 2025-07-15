@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-diablo-2686
-#FLUX: --priority=16
+#FLUX: --job-name=confused-arm-1558
+#FLUX: --urgency=16
 
 module purge    
 module load mamba 

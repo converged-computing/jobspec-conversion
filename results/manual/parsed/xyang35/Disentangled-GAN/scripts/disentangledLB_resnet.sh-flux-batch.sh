@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-omelette-1097
-#FLUX: --priority=16
+#FLUX: --job-name=expensive-sundae-0657
+#FLUX: --urgency=16
 
 set -e
 cd ..

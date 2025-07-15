@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Accs2Runaccs
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 dirtemplate='/path/to/cloned/repo/Bioproj2Lineage/' # this should point to the cloned github repo! 
 bioproj='PRJNA736718'

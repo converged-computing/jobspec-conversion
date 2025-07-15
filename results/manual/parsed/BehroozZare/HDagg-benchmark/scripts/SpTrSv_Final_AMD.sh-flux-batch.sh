@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name="SpTrSv_Final"
-#FLUX: --priority=16
+#FLUX: --job-name=SpTrSv_Final
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'
 export MKL_NUM_THREADS='64'

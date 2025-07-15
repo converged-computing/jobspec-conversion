@@ -3,7 +3,7 @@
 #FLUX: -n=32
 #FLUX: -c=2
 #FLUX: -t=600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='2'
 export j='$SLURM_JOB_ID'

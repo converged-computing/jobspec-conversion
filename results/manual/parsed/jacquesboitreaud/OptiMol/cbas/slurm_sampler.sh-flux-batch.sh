@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=sampler
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/10.1.243_418.87.00
 module load cudnn/v7.6.5.32/cuda-10.1

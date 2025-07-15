@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lamp-2655
-#FLUX: --priority=16
+#FLUX: --job-name=blank-sundae-1541
+#FLUX: --urgency=16
 
 pipe="CUTnTag"
 cwd=$1

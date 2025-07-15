@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-muffin-2060
-#FLUX: --priority=16
+#FLUX: --job-name=faux-lemur-2013
+#FLUX: --urgency=16
 
 function kill_job {
     DRY_RUN=0

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-diablo-1977
-#FLUX: --priority=16
+#FLUX: --job-name=rainbow-pedo-4623
+#FLUX: --urgency=16
 
 module load PrgEnv-amd
 module load openblas

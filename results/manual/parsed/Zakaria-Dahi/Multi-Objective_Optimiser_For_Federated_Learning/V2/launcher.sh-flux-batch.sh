@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=thefinal_optfl_dense
 #FLUX: -c=128
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export SLURM_CPU_BIND='none'
 

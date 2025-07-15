@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name="Grid-search Fashion MNIST (ECCCo)"
+#FLUX: --job-name=Grid-search Fashion MNIST (ECCCo)
 #FLUX: -n=1000
 #FLUX: --queue=general
 #FLUX: -t=115200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module use /opt/insy/modulefiles          # Use DAIC INSY software collection
 module load openmpi

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cattywampus-1338
-#FLUX: --priority=16
+#FLUX: --job-name=wobbly-snack-6233
+#FLUX: --urgency=16
 
 prefix=${PWD##*/}
 echo "#!/bin/sh" >> submit.sh

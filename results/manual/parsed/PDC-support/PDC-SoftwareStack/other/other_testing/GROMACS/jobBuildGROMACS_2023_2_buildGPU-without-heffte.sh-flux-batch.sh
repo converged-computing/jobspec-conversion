@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-caramel-1460
-#FLUX: --priority=16
+#FLUX: --job-name=carnivorous-snack-4134
+#FLUX: --urgency=16
 
 tar xvf gromacs-v2023.2.tar.gz
 cd gromacs-v2023.2

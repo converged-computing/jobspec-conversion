@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-earthworm-3953
-#FLUX: --priority=16
+#FLUX: --job-name=strawberry-peas-5546
+#FLUX: --urgency=16
 
 module load openmpi3
 python --version

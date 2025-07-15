@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name="ref_F150A"
+#FLUX: --job-name=ref_F150A
 #FLUX: --queue=mf_ilg2.3
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load namd/2.11-OpenMPI_gcc_ilg
 module list

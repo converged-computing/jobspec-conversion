@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=<your-job-name>
 #FLUX: -t=28800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load intel
 module load gcc/11.3.0

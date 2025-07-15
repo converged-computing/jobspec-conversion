@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-latke-6612
-#FLUX: --priority=16
+#FLUX: --job-name=phat-rabbit-3867
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/HNR1/ba-code/scripts/start_script_log.sh

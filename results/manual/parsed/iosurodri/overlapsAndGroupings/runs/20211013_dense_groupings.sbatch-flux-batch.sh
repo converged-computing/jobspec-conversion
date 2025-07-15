@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-banana-8987
+#FLUX: --job-name=swampy-nunchucks-1108
 #FLUX: --queue=power_std
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate pytorch

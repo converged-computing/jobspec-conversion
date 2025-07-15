@@ -3,7 +3,7 @@
 #FLUX: -c=10
 #FLUX: --queue=gpu
 #FLUX: -t=172800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Date      = $(date)"
 echo "host      = $(hostname -s)"

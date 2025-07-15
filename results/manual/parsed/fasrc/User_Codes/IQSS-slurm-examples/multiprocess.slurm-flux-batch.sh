@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-ricecake-9675
-#FLUX: --priority=16
+#FLUX: --job-name=creamy-taco-8120
+#FLUX: --urgency=16
 
 GROUP='iqss_lab'
 if [ -z "$SCRATCH" ]; then

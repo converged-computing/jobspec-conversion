@@ -3,7 +3,7 @@
 #FLUX: -N=2
 #FLUX: --queue=normal
 #FLUX: -t=7200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 source /home/sas4990/packages/spack/share/spack/setup-env.sh
 module purge all

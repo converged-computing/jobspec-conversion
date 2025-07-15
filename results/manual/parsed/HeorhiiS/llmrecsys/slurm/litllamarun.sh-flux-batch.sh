@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-spoon-7227
+#FLUX: --job-name=milky-toaster-7113
 #FLUX: -t=19800
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 source ~/.bashrc

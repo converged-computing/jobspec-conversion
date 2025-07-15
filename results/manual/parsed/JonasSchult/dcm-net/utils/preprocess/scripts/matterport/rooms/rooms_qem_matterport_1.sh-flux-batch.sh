@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=1_qem_rooms_matterport
 #FLUX: -t=1209600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 cd ../../../
 python3.7 graph_level_generation.py \

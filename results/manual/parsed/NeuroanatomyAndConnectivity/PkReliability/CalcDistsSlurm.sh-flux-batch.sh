@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=GradDist
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SUBJECT_LIST=./results/CleanSujects4Dist.txt
 module load ConnectomeWorkbench/1.4.2-rh_linux64

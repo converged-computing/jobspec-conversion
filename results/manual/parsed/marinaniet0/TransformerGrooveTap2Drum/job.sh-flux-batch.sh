@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-egg-5704
+#FLUX: --job-name=dirty-knife-9694
 #FLUX: -c=4
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export PATH='$/homedtic/mnieto/project/anaconda3/envs/torch_thesis:$PATH'
 export WANDB_API_KEY=''

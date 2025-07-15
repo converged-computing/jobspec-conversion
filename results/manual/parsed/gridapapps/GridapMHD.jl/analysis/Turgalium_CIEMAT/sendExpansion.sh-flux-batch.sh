@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Exp_Ha50_ser
 #FLUX: --queue=volta
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 SLURM_NPROCS=`expr $SLURM_JOB_NUM_NODES \* $SLURM_NTASKS_PER_NODE`
 srun hostname -s > hosts.$SLURM_JOB_ID

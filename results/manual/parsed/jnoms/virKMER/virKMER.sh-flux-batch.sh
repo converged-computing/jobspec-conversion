@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-muffin-5518
-#FLUX: --priority=16
+#FLUX: --job-name=confused-leg-6970
+#FLUX: --urgency=16
 
 module load gcc
 usage() {

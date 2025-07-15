@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=prod
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load cuda/11.6
 module load gromacs/22.2

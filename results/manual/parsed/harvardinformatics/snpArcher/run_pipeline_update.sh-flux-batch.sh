@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-banana-2905
-#FLUX: --priority=16
+#FLUX: --job-name=crusty-truffle-9320
+#FLUX: --urgency=16
 
 CONDA_BASE=$(conda info --base)
 source $CONDA_BASE/etc/profile.d/conda.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-car-2797
-#FLUX: --priority=16
+#FLUX: --job-name=sticky-muffin-1651
+#FLUX: --urgency=16
 
 module load cuda/10.1
 source $HOME/programs/anaconda3/bin/activate

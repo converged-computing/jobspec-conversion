@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-taco-5146
-#FLUX: --priority=16
+#FLUX: --job-name=blank-spoon-2708
+#FLUX: --urgency=16
 
 module load cuda/8.0 tensorflow/0.12.1
 source ${TENSORFLOW_ENV}/bin/activate

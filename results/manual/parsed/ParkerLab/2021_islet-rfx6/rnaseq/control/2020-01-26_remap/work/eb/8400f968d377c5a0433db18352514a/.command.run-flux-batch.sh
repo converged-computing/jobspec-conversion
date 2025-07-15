@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-house-5313
-#FLUX: --priority=16
+#FLUX: --job-name=misunderstood-general-2289
+#FLUX: --urgency=16
 
 set -e
 set -u

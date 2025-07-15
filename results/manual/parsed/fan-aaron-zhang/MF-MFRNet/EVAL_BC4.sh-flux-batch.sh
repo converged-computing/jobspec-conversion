@@ -2,7 +2,7 @@
 #FLUX: --job-name=noHDRBD_VTM162
 #FLUX: --queue=gpu
 #FLUX: -t=259200
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module add languages/anaconda3/2019.07-3.6.5-tflow-1.14
 module add apps/matlab/2018a

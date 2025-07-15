@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-cupcake-0049
-#FLUX: --priority=16
+#FLUX: --job-name=delicious-toaster-8851
+#FLUX: --urgency=16
 
 INBASE="/mnt/home/usteinwandel/ceph/dm_sims/doug/run_4096_G4/output/"
 OUTBASE="$HOME/ceph/rockstar_out"

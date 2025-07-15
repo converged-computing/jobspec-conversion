@@ -2,7 +2,7 @@
 #FLUX: --job-name=docker_to_singularity
 #FLUX: --queue=standard
 #FLUX: -t=14400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export MANPATH='$MANPATH:/home/u32/josephlong/devel/texlive/2021/texmf-dist/doc/man'
 export INFOPATH='$INFOPATH:/home/u32/josephlong/devel/texlive/2021/texmf-dist/doc/info'

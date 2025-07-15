@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-hippo-2107
+#FLUX: --job-name=spicy-hippo-9283
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=72000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module purge
 module load nvidia-hpc-sdk

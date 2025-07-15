@@ -1,10 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-staircase-2976
+#FLUX: --job-name=conspicuous-lamp-9517
 #FLUX: -N=8
 #FLUX: -n=16
 #FLUX: --exclusive
 #FLUX: -t=3600
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export RASCIL='$rascildir '
 export PYTHONPATH='${rascildir}:$PYTHONPATH'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-earthworm-7018
-#FLUX: --priority=16
+#FLUX: --job-name=chocolate-staircase-1856
+#FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kaarejoergensen/DTL-LivDet/submit.sh

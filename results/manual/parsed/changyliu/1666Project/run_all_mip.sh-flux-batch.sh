@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-dog-9143
+#FLUX: --job-name=adorable-platanos-8064
 #FLUX: -t=57540
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 echo "Running on Graham cluster"
 module load python/3.8

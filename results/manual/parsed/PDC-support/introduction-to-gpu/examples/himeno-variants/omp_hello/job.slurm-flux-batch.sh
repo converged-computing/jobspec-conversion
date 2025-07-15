@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-despacito-5719
-#FLUX: --priority=16
+#FLUX: --job-name=phat-noodle-7275
+#FLUX: --urgency=16
 
 module load PrgEnv-cray
 module load craype-accel-amd-gfx90a

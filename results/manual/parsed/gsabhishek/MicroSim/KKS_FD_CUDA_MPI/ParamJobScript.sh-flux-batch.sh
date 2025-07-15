@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-malarkey-9394
+#FLUX: --job-name=tart-plant-7795
 #FLUX: -n=8
 #FLUX: --queue=gpu
 #FLUX: -t=86400
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 module load gcc/10.2.0 cuda spack gnu8 gsl
 . /home/apps/spack/share/spack/setup-env.sh

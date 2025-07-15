@@ -2,7 +2,7 @@
 #FLUX: --job-name=WS2
 #FLUX: -N=8
 #FLUX: -t=360000
-#FLUX: --priority=16
+#FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'
 

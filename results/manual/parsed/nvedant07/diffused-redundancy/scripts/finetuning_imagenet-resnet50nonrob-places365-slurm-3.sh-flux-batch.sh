@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-malarkey-7956
+#FLUX: --job-name=frigid-fork-3916
+#FLUX: -c=16
+#FLUX: --queue=a100
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 srun --jobid $SLURM_JOBID bash -c 'python -m partially_inverted_reps.finetuning \

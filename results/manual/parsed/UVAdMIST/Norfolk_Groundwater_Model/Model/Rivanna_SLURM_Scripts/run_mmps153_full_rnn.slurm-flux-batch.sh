@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-platanos-9148
+#FLUX: --job-name=hairy-lamp-8503
+#FLUX: --queue=gpu
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module purge

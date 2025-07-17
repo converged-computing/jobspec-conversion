@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-staircase-5725
+#FLUX: --job-name=kripke
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export SCOREP_PROFILING_FORMAT='cube_tuple'

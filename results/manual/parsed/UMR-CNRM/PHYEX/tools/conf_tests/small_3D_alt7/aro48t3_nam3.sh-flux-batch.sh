@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-squidward-1577
+#FLUX: --job-name=faux-underoos-5215
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

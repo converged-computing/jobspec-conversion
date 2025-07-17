@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-peas-8714
+#FLUX: --job-name=carnivorous-malarkey-8428
+#FLUX: -c=10
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 ml GCC/7.3.0-2.30  CUDA/9.2.88  OpenMPI/3.1.1

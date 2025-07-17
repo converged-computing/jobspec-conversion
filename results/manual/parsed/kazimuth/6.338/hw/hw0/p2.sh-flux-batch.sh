@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-taco-8483
+#FLUX: --job-name=evasive-animal-1692
+#FLUX: -N=10
+#FLUX: -n=10
 #FLUX: --urgency=16
 
 source /etc/profile

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-peanut-4507
+#FLUX: --job-name=wobbly-general-0653
+#FLUX: -n=3
+#FLUX: --queue=gpu
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

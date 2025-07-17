@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-toaster-0238
+#FLUX: --job-name=1_MSA
 #FLUX: -c=36
 #FLUX: -t=21600
 #FLUX: --urgency=16

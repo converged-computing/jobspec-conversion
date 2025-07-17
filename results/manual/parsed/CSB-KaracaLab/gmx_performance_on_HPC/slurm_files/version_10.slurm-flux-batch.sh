@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-underoos-3724
+#FLUX: --job-name=1_thread
+#FLUX: -n=40
+#FLUX: --queue=akya-cuda
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

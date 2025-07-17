@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-leader-9804
+#FLUX: --job-name=Deep-DAE_SDAE_7_bot_bin_RICA_relu
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

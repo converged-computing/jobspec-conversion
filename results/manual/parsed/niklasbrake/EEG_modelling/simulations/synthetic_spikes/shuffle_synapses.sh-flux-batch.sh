@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-staircase-5756
+#FLUX: --job-name=expressive-taco-7856
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

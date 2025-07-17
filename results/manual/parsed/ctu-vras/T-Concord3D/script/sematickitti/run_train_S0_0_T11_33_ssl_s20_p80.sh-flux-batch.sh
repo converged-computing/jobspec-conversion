@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-staircase-5727
+#FLUX: --job-name=faux-lizard-6056
 #FLUX: -c=24
 #FLUX: --queue=amdgpuextralong
 #FLUX: -t=1814400

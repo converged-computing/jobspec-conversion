@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-ricecake-9393
+#FLUX: --job-name=carnivorous-squidward-2548
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export ALPHAFOLD_WORK='/gs/gsfs0/users/gstefan/work/alphafold'

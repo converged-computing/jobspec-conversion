@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=pytorch
+#FLUX: -N=2
 #FLUX: --urgency=16
 
 export MPI_FLAGS='--tag-output --bind-to socket -map-by core -x PSM2_GPUDIRECT=1 -x NCCL_NET_GDR_LEVEL=5 -x NCCL_P2P_LEVEL=5 -x NCCL_NET_GDR_READ=1'

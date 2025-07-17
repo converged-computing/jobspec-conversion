@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-car-3289
+#FLUX: --job-name=chocolate-butter-3121
+#FLUX: -N=20
+#FLUX: --queue=parallel
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 module purge

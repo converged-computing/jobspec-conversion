@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-chip-6717
+#FLUX: --job-name=Snudda
 #FLUX: -N=2
+#FLUX: -n=256
 #FLUX: -c=2
 #FLUX: --queue=main
+#FLUX: -t=7140
 #FLUX: --urgency=16
 
 export IPNWORKERS='$NWORKERS'

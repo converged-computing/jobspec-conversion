@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-general-0709
+#FLUX: --job-name=Deep-DAE_MLP_6_lin_real_CAE_relu
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

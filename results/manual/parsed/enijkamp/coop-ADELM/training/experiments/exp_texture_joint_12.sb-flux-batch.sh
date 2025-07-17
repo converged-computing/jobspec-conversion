@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=joint_12
 #FLUX: --queue=gpu-shared
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export CPATH='/home/enijkamp/cudnn-3.0/include/'

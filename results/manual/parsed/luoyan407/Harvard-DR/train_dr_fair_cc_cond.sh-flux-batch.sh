@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-toaster-2887
+#FLUX: --job-name=faux-staircase-3732
+#FLUX: -n=8
+#FLUX: --queue=nvidia
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module purge

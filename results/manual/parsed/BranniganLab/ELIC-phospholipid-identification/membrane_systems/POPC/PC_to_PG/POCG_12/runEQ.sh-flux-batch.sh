@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-train-1089
+#FLUX: --job-name=EQ_POCG_12
+#FLUX: -N=3
+#FLUX: -n=96
 #FLUX: --queue=cmain
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module purge

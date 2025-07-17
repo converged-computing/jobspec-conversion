@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leopard-7567
+#FLUX: --job-name=sft_llama
 #FLUX: -c=16
 #FLUX: --queue=partition
 #FLUX: -t=259200

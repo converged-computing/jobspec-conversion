@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-egg-8882
+#FLUX: --job-name=bricky-itch-6957
 #FLUX: -N=2
 #FLUX: -n=80
 #FLUX: -c=2

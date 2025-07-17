@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-underoos-8071
+#FLUX: --job-name=goodbye-malarkey-1039
 #FLUX: --urgency=16
 

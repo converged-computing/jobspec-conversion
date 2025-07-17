@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-salad-4480
+#FLUX: --job-name=hello-train-9962
+#FLUX: -c=20
+#FLUX: --queue=xeon-g6-volta
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/gridsan/asimeono/.conda/envs/furniture-env/lib/python3.8/site-packages/nvidia/cudnn/lib:$LD_LIBRARY_PATH'

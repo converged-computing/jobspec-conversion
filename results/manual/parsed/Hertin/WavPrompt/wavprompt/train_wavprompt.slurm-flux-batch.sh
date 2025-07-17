@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-parrot-3356
+#FLUX: --job-name=wavprompt
 #FLUX: -c=16
 #FLUX: -t=86400
 #FLUX: --urgency=16

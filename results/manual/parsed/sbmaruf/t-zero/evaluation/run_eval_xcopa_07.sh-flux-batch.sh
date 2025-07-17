@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-fork-1851
+#FLUX: --job-name=astute-avocado-5999
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='7'

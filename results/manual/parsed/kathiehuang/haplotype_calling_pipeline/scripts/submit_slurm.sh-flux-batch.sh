@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-puppy-5594
+#FLUX: --job-name=haplotype_calling_pipeline
+#FLUX: -t=2073600
 #FLUX: --urgency=16
 
 echo "$SLURM_ARRAY_TASK_ID"

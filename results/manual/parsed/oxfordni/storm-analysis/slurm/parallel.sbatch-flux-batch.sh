@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-fork-5171
+#FLUX: --job-name=frigid-toaster-7316
+#FLUX: --queue=serial_requeue
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load python gcc/5.2.0-fasrc01 openmpi/2.0.1-fasrc01 fftw/3.3.5-fasrc01

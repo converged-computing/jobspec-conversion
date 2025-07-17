@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cinnamonbun-2513
+#FLUX: --job-name=image_fairness_nofair
+#FLUX: --queue=tier3
+#FLUX: -t=270303
 #FLUX: --urgency=16
 
 spack unload -a

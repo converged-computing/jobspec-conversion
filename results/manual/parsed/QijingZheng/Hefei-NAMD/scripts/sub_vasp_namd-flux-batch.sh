@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-poo-7988
+#FLUX: --job-name=blue-puppy-0284
 #FLUX: --queue=h3c
 #FLUX: -t=43200
 #FLUX: --urgency=16

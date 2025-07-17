@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-cupcake-4941
+#FLUX: --job-name=NS_call
 #FLUX: -c=12
 #FLUX: -t=604800
 #FLUX: --urgency=16

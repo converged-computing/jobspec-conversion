@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-salad-9708
+#FLUX: --job-name=lovable-blackbean-7734
+#FLUX: --queue=serial
+#FLUX: -t=87120
 #FLUX: --urgency=16
 
 module load matlab/2015a

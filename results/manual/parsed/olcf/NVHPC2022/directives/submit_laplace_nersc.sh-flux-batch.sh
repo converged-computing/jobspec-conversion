@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-milkshake-6151
+#FLUX: --job-name=delicious-malarkey-2590
+#FLUX: -c=128
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load PrgEnv-nvidia

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-pedo-0043
+#FLUX: --job-name={
 #FLUX: --exclusive
+#FLUX: --queue={
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'

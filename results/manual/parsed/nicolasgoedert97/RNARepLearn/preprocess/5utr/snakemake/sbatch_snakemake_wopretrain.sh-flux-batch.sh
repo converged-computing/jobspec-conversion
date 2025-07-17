@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-house-1934
+#FLUX: --job-name=UTR
+#FLUX: --queue=booster
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 sbatch --wait << EOF

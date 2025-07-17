@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-soup-3819
+#FLUX: --job-name=t2t_lstm
 #FLUX: -c=8
+#FLUX: --queue=gpu1,gpu2
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

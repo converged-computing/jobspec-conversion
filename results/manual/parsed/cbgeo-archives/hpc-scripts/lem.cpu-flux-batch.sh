@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-frito-9741
+#FLUX: --job-name=lem
 #FLUX: -n=16
+#FLUX: --queue=sandybridge
 #FLUX: -t=126000
 #FLUX: --urgency=16
 

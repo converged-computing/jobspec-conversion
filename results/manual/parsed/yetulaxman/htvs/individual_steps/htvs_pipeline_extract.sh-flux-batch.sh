@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cat-2937
+#FLUX: --job-name=purple-staircase-2914
 #FLUX: -n=10
 #FLUX: --queue=small
 #FLUX: -t=4210

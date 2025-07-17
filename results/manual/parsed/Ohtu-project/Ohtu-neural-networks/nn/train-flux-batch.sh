@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=train
+#FLUX: -c=2
+#FLUX: --queue=gpu
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 module purge

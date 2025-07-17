@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-egg-5161
+#FLUX: --job-name=catboost
+#FLUX: --queue=regular
+#FLUX: -t=72600
 #FLUX: --urgency=16
 
 module load python3/3.9-anaconda-2021.11

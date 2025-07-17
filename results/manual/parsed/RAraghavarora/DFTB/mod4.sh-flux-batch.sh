@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-snack-6862
+#FLUX: --job-name=talos-EAT2
 #FLUX: -n=8
 #FLUX: --queue=gpu2
 #FLUX: -t=345600

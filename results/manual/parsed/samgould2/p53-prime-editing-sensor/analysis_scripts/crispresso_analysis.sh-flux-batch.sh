@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-spoon-8618
+#FLUX: --job-name=buttery-ricecake-3605
 #FLUX: --urgency=15
 
 module load miniconda3/v4

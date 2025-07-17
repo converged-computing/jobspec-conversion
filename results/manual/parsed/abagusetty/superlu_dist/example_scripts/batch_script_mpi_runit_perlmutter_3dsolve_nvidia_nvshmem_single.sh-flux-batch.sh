@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-hippo-2636
+#FLUX: --job-name=loopy-soup-7034
+#FLUX: -N=16
+#FLUX: --queue=regular
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

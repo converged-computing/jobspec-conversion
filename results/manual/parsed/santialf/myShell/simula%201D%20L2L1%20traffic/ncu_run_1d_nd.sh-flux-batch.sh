@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-leader-0694
+#FLUX: --job-name=eccentric-lizard-6090
+#FLUX: --queue=a100q
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'

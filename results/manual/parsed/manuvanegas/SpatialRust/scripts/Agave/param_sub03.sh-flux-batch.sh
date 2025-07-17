@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-nalgas-8377
+#FLUX: --job-name=spatialR
 #FLUX: -n=40
+#FLUX: -t=14399
 #FLUX: --urgency=16
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'

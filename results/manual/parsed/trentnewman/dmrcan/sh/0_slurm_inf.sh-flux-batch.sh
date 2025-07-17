@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-earthworm-0030
+#FLUX: --job-name=faux-chair-9305
 #FLUX: --urgency=16
 
 SECONDS=0

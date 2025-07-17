@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=epoch7
+#FLUX: -c=8
 #FLUX: --queue=ce-mri
 #FLUX: -t=28800
 #FLUX: --urgency=16

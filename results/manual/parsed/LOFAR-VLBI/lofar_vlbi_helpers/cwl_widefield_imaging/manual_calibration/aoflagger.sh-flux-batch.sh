@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=aoflagger
+#FLUX: -c=45
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 SIMG=$( python3 $HOME/parse_settings.py --SIMG )

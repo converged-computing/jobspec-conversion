@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-avocado-3397
+#FLUX: --job-name=multi-node-test
 #FLUX: -N=2
 #FLUX: -n=4
 #FLUX: -c=16
+#FLUX: --queue=palamut-cuda
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

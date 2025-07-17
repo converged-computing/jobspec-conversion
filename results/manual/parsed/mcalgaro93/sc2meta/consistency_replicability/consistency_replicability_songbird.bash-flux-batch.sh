@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=songbird
+#FLUX: --queue=normal
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

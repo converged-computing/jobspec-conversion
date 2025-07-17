@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=7B_wz
+#FLUX: --queue=nvidia
 #FLUX: -t=172799
 #FLUX: --urgency=16
 

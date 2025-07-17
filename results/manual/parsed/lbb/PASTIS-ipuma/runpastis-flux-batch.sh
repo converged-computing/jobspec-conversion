@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-parrot-8139
+#FLUX: --job-name=anxious-nunchucks-8394
+#FLUX: -n=81
+#FLUX: --queue=ipuq
+#FLUX: -t=86460
 #FLUX: --urgency=16
 
 export IPUOF_CONFIG_PATH='/cm/shared/apps/graphcore/vipu/etc/ipuof.conf.d/p64_cl_a01_a16.conf'

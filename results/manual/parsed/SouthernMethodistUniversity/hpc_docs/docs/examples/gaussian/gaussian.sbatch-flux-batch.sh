@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-blackbean-8990
+#FLUX: --job-name=gaussian
 #FLUX: --exclusive
+#FLUX: --queue=batch
 #FLUX: --urgency=16
 
 input_file=hexakisx.g16_gpu

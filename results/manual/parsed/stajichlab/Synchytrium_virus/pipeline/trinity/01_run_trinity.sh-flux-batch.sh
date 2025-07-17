@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-puppy-8112
+#FLUX: --job-name=crusty-cherry-7395
+#FLUX: -n=32
+#FLUX: --queue=intel
 #FLUX: --urgency=16
 
 module load trinity-rnaseq/2.13.2

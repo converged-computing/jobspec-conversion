@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-rabbit-6687
+#FLUX: --job-name=workflow
 #FLUX: -N=20
 #FLUX: --exclusive
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

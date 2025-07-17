@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-rabbit-5599
+#FLUX: --job-name=test
+#FLUX: --queue=gtest
 #FLUX: --urgency=16
 
 module load intel/2018

@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lamp-9363
+#FLUX: --job-name=trimers_10ns
+#FLUX: -N=8
 #FLUX: -c=5
+#FLUX: --queue=nodes
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-butter-1450
+#FLUX: --job-name=NNmd
+#FLUX: --queue=npl-2024
 #FLUX: -t=900
 #FLUX: --urgency=16
 

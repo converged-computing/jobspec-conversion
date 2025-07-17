@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-ricecake-4655
+#FLUX: --job-name=hanky-hippo-3221
 #FLUX: -c=48
 #FLUX: --exclusive
 #FLUX: --queue=production-cluster

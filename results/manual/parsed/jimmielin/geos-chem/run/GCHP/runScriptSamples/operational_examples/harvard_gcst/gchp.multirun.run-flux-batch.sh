@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-puppy-9261
+#FLUX: --job-name=loopy-avocado-5819
+#FLUX: -N=2
+#FLUX: -n=96
+#FLUX: --queue=huce_cascade
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 multirunlog="multirun.log"

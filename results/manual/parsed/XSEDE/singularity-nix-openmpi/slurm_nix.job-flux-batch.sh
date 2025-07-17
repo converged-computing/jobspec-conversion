@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-diablo-8924
+#FLUX: --job-name=hairy-squidward-8547
+#FLUX: -n=4
+#FLUX: --queue=cloud
 #FLUX: --urgency=16
 
 export MPI_MCA_mca_base_component_show_load_errors='0'

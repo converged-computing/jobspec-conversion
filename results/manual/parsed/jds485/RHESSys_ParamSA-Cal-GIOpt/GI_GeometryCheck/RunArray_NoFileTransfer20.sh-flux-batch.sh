@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-destiny-7216
+#FLUX: --job-name=eccentric-signal-0425
+#FLUX: --queue=standard
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 module purge

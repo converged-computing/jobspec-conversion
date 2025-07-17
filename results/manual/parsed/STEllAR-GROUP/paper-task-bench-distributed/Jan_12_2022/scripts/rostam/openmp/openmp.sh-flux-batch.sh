@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=openmp_1node_%j
 #FLUX: -c=48
+#FLUX: --queue=buran
 #FLUX: -t=3000
 #FLUX: --urgency=16
 

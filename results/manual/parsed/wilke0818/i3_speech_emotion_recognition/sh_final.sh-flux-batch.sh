@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ser
+#FLUX: -n=8
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"

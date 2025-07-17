@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-poo-0225
+#FLUX: --job-name=lora-tune
+#FLUX: -N=6
 #FLUX: -c=16
+#FLUX: --queue=max
 #FLUX: --urgency=16
 
 source ~/.bashrc

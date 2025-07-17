@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-egg-0141
+#FLUX: --job-name=brute
+#FLUX: -N=16
+#FLUX: -n=16
+#FLUX: --queue=normal
+#FLUX: -t=0
 #FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'

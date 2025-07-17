@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-despacito-5932
+#FLUX: --job-name=ERpp_RWalk
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=144000

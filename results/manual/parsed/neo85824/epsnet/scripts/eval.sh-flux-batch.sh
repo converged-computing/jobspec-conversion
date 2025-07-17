@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-fudge-7747
+#FLUX: --job-name=eccentric-buttface-2076
+#FLUX: --queue=GPU-small
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load python/3.6.4_gcc5_np1.14.5

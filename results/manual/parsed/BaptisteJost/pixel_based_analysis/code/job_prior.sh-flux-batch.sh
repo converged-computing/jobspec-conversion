@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-carrot-0284
+#FLUX: --job-name=prior_precision_testjaccosmo
+#FLUX: -N=2
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-pot-4990
+#FLUX: --job-name=dinosaur-chair-1540
+#FLUX: --queue=gpu
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'

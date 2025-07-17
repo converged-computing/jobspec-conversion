@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-staircase-2256
+#FLUX: --job-name=expressive-spoon-3271
 #FLUX: --urgency=16
 
 genus_species=$1

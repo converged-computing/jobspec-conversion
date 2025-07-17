@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-earthworm-5428
+#FLUX: --job-name=frigid-lamp-3348
 #FLUX: --urgency=16
 

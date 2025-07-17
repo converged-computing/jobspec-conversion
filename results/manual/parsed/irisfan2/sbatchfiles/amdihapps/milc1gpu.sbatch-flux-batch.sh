@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-arm-3315
+#FLUX: --job-name=red-parsnip-8875
 #FLUX: -c=8
 #FLUX: --urgency=16
 

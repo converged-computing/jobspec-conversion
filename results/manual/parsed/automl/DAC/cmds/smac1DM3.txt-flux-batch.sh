@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-banana-3459
+#FLUX: --job-name=chunky-pedo-2632
+#FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 
 source activate dac

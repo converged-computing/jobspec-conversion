@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-banana-5037
+#FLUX: --job-name=frigid-arm-1847
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

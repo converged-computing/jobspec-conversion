@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-bike-6756
+#FLUX: --job-name=test_mpi_kokkos_gpu
+#FLUX: -N=2
+#FLUX: -n=8
+#FLUX: -c=8
 #FLUX: --queue=gpua30
 #FLUX: --urgency=16
 

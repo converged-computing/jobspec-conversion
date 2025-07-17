@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-poodle-0413
+#FLUX: --job-name=manual_annotate
+#FLUX: --queue=instructional
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 Rscript --vanilla /scratch/aob2x/CompEvoBio_modules/utils/snpCalling/scatter_gather_annotate/vcf2gds.R \

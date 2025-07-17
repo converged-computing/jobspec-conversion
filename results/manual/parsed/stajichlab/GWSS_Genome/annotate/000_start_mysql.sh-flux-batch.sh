@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-omelette-9171
+#FLUX: --job-name=mysqld
+#FLUX: -n=4
+#FLUX: --queue=batch,intel
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

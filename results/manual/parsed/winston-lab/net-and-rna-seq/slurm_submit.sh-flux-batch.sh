@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-buttface-7255
+#FLUX: --job-name=NET_RNAseq-snakemake
+#FLUX: -c=8
+#FLUX: --queue=short
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 snakemake -p \

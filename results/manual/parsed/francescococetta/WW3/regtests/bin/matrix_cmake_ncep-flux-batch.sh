@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cinnamonbun-9493
+#FLUX: --job-name=salted-bits-4507
 #FLUX: --urgency=16
 
 usage ()

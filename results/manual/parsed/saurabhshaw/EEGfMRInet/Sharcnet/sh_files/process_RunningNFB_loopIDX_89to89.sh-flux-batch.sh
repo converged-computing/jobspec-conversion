@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-butter-7871
+#FLUX: --job-name=reclusive-omelette-5341
 #FLUX: -c=8
 #FLUX: -t=170
 #FLUX: --urgency=16

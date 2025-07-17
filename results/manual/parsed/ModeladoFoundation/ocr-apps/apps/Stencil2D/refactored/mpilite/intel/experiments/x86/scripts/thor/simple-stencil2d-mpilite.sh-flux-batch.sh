@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pedo-4202
+#FLUX: --job-name=frigid-squidward-9544
 #FLUX: --queue=XAS
 #FLUX: --urgency=16
 

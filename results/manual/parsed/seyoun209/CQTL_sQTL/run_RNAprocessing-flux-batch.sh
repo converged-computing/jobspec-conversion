@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-signal-3349
+#FLUX: --job-name=rna_process
+#FLUX: -c=2
+#FLUX: --queue=general
+#FLUX: -t=950400
 #FLUX: --urgency=16
 
 set -e

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-pot-8789
+#FLUX: --job-name=astute-lemon-5098
+#FLUX: -n=2
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 echo `date`

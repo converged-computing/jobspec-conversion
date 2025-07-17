@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-puppy-3526
+#FLUX: --job-name=mpi_test
+#FLUX: -n=8
+#FLUX: --queue=shared
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/software/R/3.6.1:$R_LIBS_USER'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lemur-2702
+#FLUX: --job-name=FCAST_SPA1
 #FLUX: --queue=intel
 #FLUX: -t=36000
 #FLUX: --urgency=16

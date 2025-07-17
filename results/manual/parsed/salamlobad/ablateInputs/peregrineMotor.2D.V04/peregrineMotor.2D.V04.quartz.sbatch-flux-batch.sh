@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-frito-4235
+#FLUX: --job-name=2dPeregrineV03
+#FLUX: -N=8
+#FLUX: --queue=pdebug
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PETSC_DIR='/g/g20/lobad1/petsc'

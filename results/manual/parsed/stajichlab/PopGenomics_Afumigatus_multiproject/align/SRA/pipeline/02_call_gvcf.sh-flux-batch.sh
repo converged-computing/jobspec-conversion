@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-house-9252
+#FLUX: --job-name=phat-nalgas-1680
+#FLUX: -n=16
+#FLUX: --queue=intel
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

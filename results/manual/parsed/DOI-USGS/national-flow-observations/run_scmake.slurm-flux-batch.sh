@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-house-3396
+#FLUX: --job-name=boopy-underoos-3370
+#FLUX: --queue=cpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

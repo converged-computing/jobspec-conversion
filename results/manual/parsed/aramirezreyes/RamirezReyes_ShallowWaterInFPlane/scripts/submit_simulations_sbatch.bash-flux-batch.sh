@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-butter-3893
+#FLUX: --job-name=hello-peanut-4087
+#FLUX: -c=32
 #FLUX: --gpus-per-task=1
 #FLUX: -t=43200
 #FLUX: --urgency=16

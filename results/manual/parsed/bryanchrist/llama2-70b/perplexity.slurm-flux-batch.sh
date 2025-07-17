@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leopard-3611
+#FLUX: --job-name=perplexity
 #FLUX: -c=10
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '

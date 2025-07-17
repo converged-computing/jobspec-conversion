@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-arm-1587
+#FLUX: --job-name=milky-pastry-1892
 #FLUX: --exclusive
+#FLUX: --queue=dev_q
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'

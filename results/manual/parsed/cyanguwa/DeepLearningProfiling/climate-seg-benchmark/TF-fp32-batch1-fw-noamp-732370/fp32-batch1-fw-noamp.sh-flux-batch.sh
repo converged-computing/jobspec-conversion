@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-lamp-6143
+#FLUX: --job-name=fw-noamp
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_PLACES='threads'

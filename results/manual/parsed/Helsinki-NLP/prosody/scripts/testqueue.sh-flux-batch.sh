@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lentil-3404
+#FLUX: --job-name=PERTTI_reg
+#FLUX: --queue=gputest
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 module purge

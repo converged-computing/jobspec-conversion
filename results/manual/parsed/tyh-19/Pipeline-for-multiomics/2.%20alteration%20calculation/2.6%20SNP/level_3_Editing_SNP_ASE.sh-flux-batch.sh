@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-itch-6837
+#FLUX: --job-name=Editing_SNP_ASE
+#FLUX: --queue=CN_BIOT
 #FLUX: --urgency=16
 
 dataset=$1

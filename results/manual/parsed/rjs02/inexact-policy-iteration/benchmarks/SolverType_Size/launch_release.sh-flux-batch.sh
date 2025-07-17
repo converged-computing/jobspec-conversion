@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=iPI Benchmark
+#FLUX: -n=16
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

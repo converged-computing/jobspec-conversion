@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-parsnip-0834
+#FLUX: --job-name=ekp_call
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

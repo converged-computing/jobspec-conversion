@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-chair-0955
+#FLUX: --job-name=loopy-arm-2154
+#FLUX: --queue=defq
 #FLUX: -t=721800
 #FLUX: --urgency=16
 

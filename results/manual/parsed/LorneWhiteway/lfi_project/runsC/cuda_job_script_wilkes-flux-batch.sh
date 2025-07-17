@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-toaster-1254
+#FLUX: --job-name=pgr3_010
+#FLUX: --queue=ampere
 #FLUX: -t=129540
 #FLUX: --urgency=16
 

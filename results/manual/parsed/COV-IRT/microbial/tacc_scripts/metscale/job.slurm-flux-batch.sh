@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-avocado-4142
+#FLUX: --job-name=snakemake
+#FLUX: --queue=skx-normal
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='data:/tmp'

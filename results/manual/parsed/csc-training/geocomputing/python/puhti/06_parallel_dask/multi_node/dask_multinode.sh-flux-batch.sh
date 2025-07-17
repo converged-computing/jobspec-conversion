@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-noodle-5696
+#FLUX: --job-name=sticky-leader-1710
 #FLUX: --queue=test
 #FLUX: -t=600
 #FLUX: --urgency=16

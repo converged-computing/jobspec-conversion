@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-latke-4979
+#FLUX: --job-name=strawberry-onion-2917
 #FLUX: -c=8
 #FLUX: --urgency=16
 

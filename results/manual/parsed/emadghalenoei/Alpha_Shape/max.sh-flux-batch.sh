@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-hope-4136
+#FLUX: --job-name=bumfuzzled-buttface-9602
 #FLUX: --queue=geo
 #FLUX: -t=86400
 #FLUX: --urgency=16

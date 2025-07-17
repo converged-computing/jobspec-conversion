@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-kitty-4706
+#FLUX: --job-name=outstanding-peas-0582
+#FLUX: -n=128
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
+#FLUX: --queue=early_science
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 export HOROVOD_GPU_BROADCAST='MPI'

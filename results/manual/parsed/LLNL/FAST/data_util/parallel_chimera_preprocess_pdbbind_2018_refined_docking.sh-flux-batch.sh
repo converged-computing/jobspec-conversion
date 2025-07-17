@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-general-0719
+#FLUX: --job-name=pusheena-cupcake-8297
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 set -u

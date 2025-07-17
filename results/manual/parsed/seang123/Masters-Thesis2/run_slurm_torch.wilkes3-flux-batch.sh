@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-knife-5366
+#FLUX: --job-name=multi_sub
+#FLUX: --queue=ampere
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

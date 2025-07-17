@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-banana-9243
+#FLUX: --job-name=sticky-kerfuffle-7727
+#FLUX: -n=20
 #FLUX: --urgency=16
 
 source /etc/profile

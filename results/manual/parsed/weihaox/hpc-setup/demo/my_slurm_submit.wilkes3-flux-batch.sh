@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-salad-4444
+#FLUX: --job-name=demo_cifar
+#FLUX: --queue=ampere
 #FLUX: -t=600
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-avocado-0296
+#FLUX: --job-name=init
 #FLUX: --queue=short
 #FLUX: -t=900
 #FLUX: --urgency=16

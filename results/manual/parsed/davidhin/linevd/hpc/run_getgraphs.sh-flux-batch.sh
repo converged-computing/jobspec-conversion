@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=prepros
+#FLUX: -n=8
+#FLUX: --queue=batch
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

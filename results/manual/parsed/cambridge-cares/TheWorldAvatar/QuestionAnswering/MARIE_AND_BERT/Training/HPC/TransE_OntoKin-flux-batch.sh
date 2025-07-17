@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-motorcycle-2173
+#FLUX: --job-name=OntoKin_TransE
+#FLUX: --queue=ampere
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-peanut-3772
+#FLUX: --job-name=salted-animal-9928
+#FLUX: -n=8
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 echo "running...."

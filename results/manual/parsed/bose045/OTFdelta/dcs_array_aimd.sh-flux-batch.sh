@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cupcake-9198
+#FLUX: --job-name=hairy-lemon-3736
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 iter=$1

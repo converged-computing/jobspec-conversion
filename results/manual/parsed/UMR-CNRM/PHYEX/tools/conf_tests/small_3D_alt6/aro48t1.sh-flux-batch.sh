@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-arm-9816
+#FLUX: --job-name=gloopy-leopard-8634
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

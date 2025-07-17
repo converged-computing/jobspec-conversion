@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-dog-6751
+#FLUX: --job-name=salted-cherry-0092
+#FLUX: --queue=q_student_gpu
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 . vars_in.sh

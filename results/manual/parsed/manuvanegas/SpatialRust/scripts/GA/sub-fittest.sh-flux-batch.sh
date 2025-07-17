@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lamp-8967
+#FLUX: --job-name=debug-basescen
+#FLUX: --queue=debug
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 module purge

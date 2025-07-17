@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-pot-4272
+#FLUX: --job-name=expensive-cinnamonbun-5013
 #FLUX: -n=20
+#FLUX: --queue=small,large,amdlarge,amdsmall
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

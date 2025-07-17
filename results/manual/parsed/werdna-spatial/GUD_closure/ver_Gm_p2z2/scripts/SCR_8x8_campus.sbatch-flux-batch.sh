@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-kitty-9585
+#FLUX: --job-name=8x8_darwin
 #FLUX: -N=2
 #FLUX: -n=64
 #FLUX: --exclusive

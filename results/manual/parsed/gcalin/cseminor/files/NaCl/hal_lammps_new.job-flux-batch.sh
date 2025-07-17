@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chip-6406
+#FLUX: --job-name=NaCl_2
+#FLUX: -n=28
+#FLUX: --queue=parallel-28
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 lmp=/home/noura/LAMMPS/tests/src_v05

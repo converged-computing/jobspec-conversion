@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-underoos-0704
+#FLUX: --job-name=pi_acc
 #FLUX: --exclusive
+#FLUX: --queue=standard-g
 #FLUX: -t=600
 #FLUX: --urgency=16
 

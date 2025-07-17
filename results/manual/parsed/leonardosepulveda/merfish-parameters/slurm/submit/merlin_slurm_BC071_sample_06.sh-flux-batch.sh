@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-buttface-9733
+#FLUX: --job-name=phat-despacito-1628
+#FLUX: --queue=zhuang,shared
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 date +'Starting at %R.'

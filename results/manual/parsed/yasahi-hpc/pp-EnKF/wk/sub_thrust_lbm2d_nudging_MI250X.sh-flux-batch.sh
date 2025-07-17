@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-punk-2708
+#FLUX: --job-name=lbm2d
+#FLUX: --queue=batch
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-onion-4912
+#FLUX: --job-name=bumfuzzled-egg-2006
 #FLUX: -c=10
 #FLUX: --queue=kipac
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 source ~/setup.sh

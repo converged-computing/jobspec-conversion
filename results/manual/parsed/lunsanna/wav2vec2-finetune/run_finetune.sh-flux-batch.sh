@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=no_augment
 #FLUX: -c=4
+#FLUX: --queue=gpu-nvlink,dgx-spa
 #FLUX: -t=32400
 #FLUX: --urgency=16
 

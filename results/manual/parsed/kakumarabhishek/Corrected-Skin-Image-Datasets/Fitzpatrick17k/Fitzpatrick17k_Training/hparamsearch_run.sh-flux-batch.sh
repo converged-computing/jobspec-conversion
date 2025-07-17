@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-peas-8526
+#FLUX: --job-name=f17k_hparam
 #FLUX: -c=16
 #FLUX: --queue=long
 #FLUX: -t=604800

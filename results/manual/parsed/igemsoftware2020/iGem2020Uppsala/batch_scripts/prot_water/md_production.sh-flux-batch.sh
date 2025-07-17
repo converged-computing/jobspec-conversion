@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-staircase-5076
+#FLUX: --job-name=SM_HSP_dimer_prod
+#FLUX: -n=20
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$ntomp'

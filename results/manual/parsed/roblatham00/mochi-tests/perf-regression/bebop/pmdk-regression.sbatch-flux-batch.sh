@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-butter-4109
+#FLUX: --job-name=reclusive-hobbit-1489
+#FLUX: --queue=bdwall
 #FLUX: -t=900
 #FLUX: --urgency=16
 

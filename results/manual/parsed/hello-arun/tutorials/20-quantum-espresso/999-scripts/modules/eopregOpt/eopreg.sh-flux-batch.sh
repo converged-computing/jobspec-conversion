@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-ricecake-7281
+#FLUX: --job-name=eopreg_$value
 #FLUX: --queue=batch
 #FLUX: -t=900
 #FLUX: --urgency=16

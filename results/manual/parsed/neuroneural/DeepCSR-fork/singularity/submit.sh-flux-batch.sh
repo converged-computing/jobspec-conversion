@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-carrot-4954
+#FLUX: --job-name=deepcsr
+#FLUX: -c=15
+#FLUX: --queue=qTRDGPUH
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 sleep 5s

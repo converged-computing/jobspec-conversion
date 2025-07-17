@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-despacito-3924
+#FLUX: --job-name=LS49_IOTA
+#FLUX: -N=64
+#FLUX: --queue=premium
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 NODES=64

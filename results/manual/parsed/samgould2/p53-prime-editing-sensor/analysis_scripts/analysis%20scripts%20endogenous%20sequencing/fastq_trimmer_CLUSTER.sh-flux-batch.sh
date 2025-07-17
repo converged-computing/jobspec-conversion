@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-kerfuffle-6539
+#FLUX: --job-name=gloopy-truffle-2449
 #FLUX: --urgency=16
 
 module load miniconda3/v4

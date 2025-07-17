@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-citrus-2687
+#FLUX: --job-name=PaiNN-training
+#FLUX: -n=8
 #FLUX: --queue=sm3090
 #FLUX: -t=604800
 #FLUX: --urgency=16

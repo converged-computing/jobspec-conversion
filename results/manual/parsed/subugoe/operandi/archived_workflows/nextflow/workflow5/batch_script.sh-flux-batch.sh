@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fork-3026
+#FLUX: --job-name=rainbow-punk-0497
 #FLUX: -c=4
 #FLUX: --queue=medium
 #FLUX: --urgency=16

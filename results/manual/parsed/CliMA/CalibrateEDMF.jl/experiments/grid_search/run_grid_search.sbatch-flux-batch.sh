@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-knife-6532
+#FLUX: --job-name=grid
 #FLUX: -n=25
 #FLUX: -t=108000
 #FLUX: --urgency=16

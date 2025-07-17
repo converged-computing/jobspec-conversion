@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-earthworm-3322
+#FLUX: --job-name=ast_finetuned
+#FLUX: --queue=dgxs
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

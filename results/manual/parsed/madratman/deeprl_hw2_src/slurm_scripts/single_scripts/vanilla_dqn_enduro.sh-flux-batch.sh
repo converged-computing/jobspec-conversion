@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-general-0811
+#FLUX: --job-name=ornery-dog-5191
+#FLUX: --queue=gpu
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 srun echo "I am on"

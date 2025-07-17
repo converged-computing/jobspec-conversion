@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-buttface-6809
+#FLUX: --job-name=lovable-taco-0330
 #FLUX: -n=10
 #FLUX: -c=16
 #FLUX: --queue=cpu

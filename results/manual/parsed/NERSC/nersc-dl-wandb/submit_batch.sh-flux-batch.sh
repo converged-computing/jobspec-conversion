@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-onion-5341
+#FLUX: --job-name=dl-wandb-test
 #FLUX: -c=32
+#FLUX: --queue=regular
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

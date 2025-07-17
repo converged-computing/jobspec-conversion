@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pancake-9374
+#FLUX: --job-name=astute-train-3026
 #FLUX: -N=10
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 io500_ini="$1"          # You can set the ini file here

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-general-0886
+#FLUX: --job-name=nonorm
+#FLUX: -n=8
+#FLUX: --queue=short
+#FLUX: -t=240
 #FLUX: --urgency=16
 
 source /home/pzs2/keras/bin/activate

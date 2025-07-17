@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-arm-2780
+#FLUX: --job-name=GCN_c_bsign
+#FLUX: -n=16
+#FLUX: --queue=barbun-cuda,akya-cuda
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-hope-7851
+#FLUX: --job-name=blue-mango-5162
 #FLUX: --queue=gpu
 #FLUX: -t=259200
 #FLUX: --urgency=16

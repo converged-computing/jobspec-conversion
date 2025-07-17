@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-mango-8520
+#FLUX: --job-name=TweetAI
+#FLUX: -n=4
+#FLUX: --queue=gpu05,gpu
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

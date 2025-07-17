@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lamp-2577
+#FLUX: --job-name=MPISieve_rs
+#FLUX: --queue=plgrid
 #FLUX: -t=300
 #FLUX: --urgency=16
 

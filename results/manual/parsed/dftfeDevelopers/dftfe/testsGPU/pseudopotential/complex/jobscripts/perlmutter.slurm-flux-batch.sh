@@ -1,5 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=complextests
+#FLUX: -n=6
+#FLUX: -c=32
+#FLUX: --queue=regular
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 SLURM_CPU_BIND='cores'

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lettuce-6172
+#FLUX: --job-name=Python
 #FLUX: -c=24
 #FLUX: --queue=savio2
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

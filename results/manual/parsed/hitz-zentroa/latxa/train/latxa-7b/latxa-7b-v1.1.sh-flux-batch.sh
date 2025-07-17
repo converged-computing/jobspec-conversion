@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-leg-2430
+#FLUX: --job-name=loopy-bike-4971
 #FLUX: -N=8
 #FLUX: --exclusive
+#FLUX: --queue=boost_usr_prod
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

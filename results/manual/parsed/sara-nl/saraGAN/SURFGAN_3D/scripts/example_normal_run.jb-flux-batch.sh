@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-pedo-4573
+#FLUX: --job-name=grated-buttface-3784
+#FLUX: -c=6
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='5'

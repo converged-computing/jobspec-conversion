@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peanut-3162
+#FLUX: --job-name=swampy-latke-7261
+#FLUX: --queue=sched_mit_hill
+#FLUX: -t=41400
 #FLUX: --urgency=16
 
 filename=jobname

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-train-6811
+#FLUX: --job-name=hpc_gpu1_nmt
 #FLUX: -c=8
+#FLUX: --queue=gpu1
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

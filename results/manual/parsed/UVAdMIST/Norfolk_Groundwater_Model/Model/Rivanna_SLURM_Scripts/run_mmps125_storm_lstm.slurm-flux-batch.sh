@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-butter-2082
+#FLUX: --job-name=frigid-lizard-5586
+#FLUX: --queue=gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-earthworm-8503
+#FLUX: --job-name=test2
+#FLUX: --queue=RTX3090
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load spack

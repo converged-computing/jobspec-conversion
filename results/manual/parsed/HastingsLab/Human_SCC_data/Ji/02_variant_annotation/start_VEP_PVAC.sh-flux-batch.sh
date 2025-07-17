@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Merge
+#FLUX: --queue=general
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 source activate vep_env

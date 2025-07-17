@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lamp-7482
+#FLUX: --job-name=boopy-bits-8435
 #FLUX: --queue=gpu
 #FLUX: -t=43200
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-plant-7459
+#FLUX: --job-name=EnsPgdArchs
+#FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=72000
 #FLUX: --urgency=16

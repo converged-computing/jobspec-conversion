@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-earthworm-9299
+#FLUX: --job-name=logp_chemprop
+#FLUX: -n=20
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 echo "Date              = $$(date)"

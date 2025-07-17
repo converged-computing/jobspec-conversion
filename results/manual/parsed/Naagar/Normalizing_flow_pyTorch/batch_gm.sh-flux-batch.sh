@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=___
+#FLUX: -n=30
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

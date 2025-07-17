@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-mango-5449
+#FLUX: --job-name=crunchy-lemur-2150
+#FLUX: --queue=a100q
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 nvidia-smi

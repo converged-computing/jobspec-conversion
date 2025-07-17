@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-leg-2968
+#FLUX: --job-name=anxious-poo-9682
 #FLUX: -c=2
+#FLUX: -t=86415
 #FLUX: --urgency=16
 
 module load r/3.4.0

@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=submitSnakemake
 #FLUX: -c=16
+#FLUX: --queue=relman
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

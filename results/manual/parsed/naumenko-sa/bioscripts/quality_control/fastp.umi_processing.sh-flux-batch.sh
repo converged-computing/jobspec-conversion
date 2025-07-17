@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=schumacher
+#FLUX: -c=10
 #FLUX: --queue=short
 #FLUX: -t=18000
 #FLUX: --urgency=16

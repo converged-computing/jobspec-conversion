@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-plant-1519
+#FLUX: --job-name=reclusive-leader-7478
+#FLUX: -n=8
+#FLUX: --queue=gpu_requeue
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 echo ${RUN_CONFIG}

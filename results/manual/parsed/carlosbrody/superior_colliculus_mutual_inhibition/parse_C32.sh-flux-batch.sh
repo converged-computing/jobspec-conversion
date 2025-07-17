@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-buttface-9575
+#FLUX: --job-name=parseC32
+#FLUX: --queue=Brody
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

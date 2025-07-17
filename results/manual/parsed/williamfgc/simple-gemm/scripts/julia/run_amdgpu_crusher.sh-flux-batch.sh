@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-pancake-6381
+#FLUX: --job-name=M_julia_gpu_Float64
+#FLUX: --queue=batch
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export JULIA_MPIEXEC='srun'

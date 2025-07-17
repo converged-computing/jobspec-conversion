@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-fork-4708
+#FLUX: --job-name=frigid-noodle-0192
 #FLUX: --urgency=16
 
 read INPUTFILE SEGMENTSPICKLE QUERYSEGMENTSPICKLE LINKSPICKLE UpstreamLinksArrayFile DownstreamLinksArrayFile DoubleAnchorsFile < <( sed -n ${SLURM_ARRAY_TASK_ID}p $1 )

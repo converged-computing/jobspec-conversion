@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-peanut-9646
+#FLUX: --job-name=distil_tac-experiment
+#FLUX: --queue=ampere
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

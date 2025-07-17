@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-onion-4987
+#FLUX: --job-name=hpgmg-faults-quant
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export IGNORE_CC_MISMATCH='1'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-parsnip-4850
+#FLUX: --job-name=moolicious-lettuce-4022
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='6'

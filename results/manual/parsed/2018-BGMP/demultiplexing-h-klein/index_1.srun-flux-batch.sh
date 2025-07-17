@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-signal-9782
+#FLUX: --job-name=reclusive-lizard-0092
 #FLUX: --queue=short
 #FLUX: -t=86400
 #FLUX: --urgency=16

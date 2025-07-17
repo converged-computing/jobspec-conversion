@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-nunchucks-2772
+#FLUX: --job-name=1.0CPUscale
 #FLUX: --queue=stf-gpu
 #FLUX: -t=324000
 #FLUX: --urgency=16

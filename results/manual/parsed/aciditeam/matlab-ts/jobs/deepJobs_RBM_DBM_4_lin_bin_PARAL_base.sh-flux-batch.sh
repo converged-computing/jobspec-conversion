@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lemon-6005
+#FLUX: --job-name=Deep-RBM_DBM_4_lin_bin_PARAL_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

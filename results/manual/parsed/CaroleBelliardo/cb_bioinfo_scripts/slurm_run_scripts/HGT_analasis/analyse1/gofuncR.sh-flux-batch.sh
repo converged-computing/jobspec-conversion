@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-taco-4069
+#FLUX: --job-name=gofunc
 #FLUX: -c=8
+#FLUX: --queue=all
 #FLUX: --urgency=16
 
 module load singularity/3.5.3 

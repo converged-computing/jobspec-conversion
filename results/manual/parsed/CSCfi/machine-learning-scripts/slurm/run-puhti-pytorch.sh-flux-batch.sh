@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-bicycle-8040
+#FLUX: --job-name=lovely-house-2695
+#FLUX: -c=10
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load pytorch/1.2.0

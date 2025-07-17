@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-staircase-5086
+#FLUX: --job-name=GDAS_NASBENCH
+#FLUX: -c=2
+#FLUX: --queue=ml_gpu-rtx2080
+#FLUX: -t=950400
 #FLUX: --urgency=16
 
 echo "Workingdir: $PWD";

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=gvtp
+#FLUX: -c=4
 #FLUX: --queue=general
 #FLUX: --urgency=16
 

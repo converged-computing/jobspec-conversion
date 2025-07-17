@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-nunchucks-5962
+#FLUX: --job-name=purple-lettuce-5282
 #FLUX: -c=96
 #FLUX: --exclusive
 #FLUX: --urgency=16

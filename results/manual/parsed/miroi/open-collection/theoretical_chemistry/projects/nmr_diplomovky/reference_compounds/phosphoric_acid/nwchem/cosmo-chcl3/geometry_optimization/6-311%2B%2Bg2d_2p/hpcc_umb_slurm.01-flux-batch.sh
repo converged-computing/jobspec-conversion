@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-diablo-3582
+#FLUX: --job-name=h3po4go1
+#FLUX: -n=12
+#FLUX: --queue=compute
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/lib:$LD_LIBRARY_PATH'

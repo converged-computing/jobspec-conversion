@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-punk-3065
+#FLUX: --job-name=tart-milkshake-8910
 #FLUX: --urgency=16
 
 . ~/.bashrc

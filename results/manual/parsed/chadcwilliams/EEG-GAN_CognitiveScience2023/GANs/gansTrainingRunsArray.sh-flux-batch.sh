@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-kitty-9512
+#FLUX: --job-name=arrayjob-readline
+#FLUX: -n=2
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load python/3.9.0

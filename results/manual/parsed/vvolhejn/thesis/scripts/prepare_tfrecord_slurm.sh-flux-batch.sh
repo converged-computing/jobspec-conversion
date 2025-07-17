@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-hippo-8274
+#FLUX: --job-name=psycho-lamp-2453
 #FLUX: -c=16
 #FLUX: --queue=amdv100,intelv100,amdrtx,amda100
 #FLUX: -t=28800

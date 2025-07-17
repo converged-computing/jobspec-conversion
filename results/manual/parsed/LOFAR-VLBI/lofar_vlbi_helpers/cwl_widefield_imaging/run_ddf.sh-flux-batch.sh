@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-sundae-2434
+#FLUX: --job-name=dinosaur-platanos-1025
+#FLUX: -c=31
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 TARGET_FOLDER=$(realpath $1)

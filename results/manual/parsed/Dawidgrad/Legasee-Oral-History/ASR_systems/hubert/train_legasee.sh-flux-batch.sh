@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-diablo-3732
+#FLUX: --job-name=delicious-destiny-3765
 #FLUX: --queue=dcs-gpu
 #FLUX: -t=38400
 #FLUX: --urgency=16

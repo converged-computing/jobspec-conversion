@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cinnamonbun-4711
+#FLUX: --job-name=angry-house-5179
 #FLUX: --urgency=16
 
 snakefile_dir='/nas/longleaf/home/sfrenk/pipelines/snakemake'

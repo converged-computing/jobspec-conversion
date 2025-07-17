@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-lamp-4651
+#FLUX: --job-name=psycho-arm-8899
 #FLUX: -n=8
+#FLUX: --queue=gpgpumse
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

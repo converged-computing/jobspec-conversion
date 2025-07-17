@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hobbit-2200
+#FLUX: --job-name=fugly-soup-5937
+#FLUX: --queue=small
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

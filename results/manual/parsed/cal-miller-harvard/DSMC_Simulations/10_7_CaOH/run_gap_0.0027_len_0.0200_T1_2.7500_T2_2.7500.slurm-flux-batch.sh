@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-hobbit-3689
+#FLUX: --job-name=misunderstood-house-7233
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

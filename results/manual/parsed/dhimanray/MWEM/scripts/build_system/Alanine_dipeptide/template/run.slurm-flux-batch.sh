@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=milestoning
 #FLUX: -c=4
+#FLUX: --queue=standard
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 source /data/homezvol2/dray1/Miniconda2/etc/profile.d/conda.sh

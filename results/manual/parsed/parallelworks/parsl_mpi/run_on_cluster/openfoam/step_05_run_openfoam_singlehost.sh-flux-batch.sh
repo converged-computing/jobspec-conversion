@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-general-8685
+#FLUX: --job-name=evasive-staircase-4301
 #FLUX: --urgency=16
 
 source /contrib/alvaro/ompi/env.sh

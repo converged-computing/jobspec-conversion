@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-caramel-7762
+#FLUX: --job-name=preseq
 #FLUX: -c=6
+#FLUX: --queue=bigmem
 #FLUX: --urgency=16
 
 module purge

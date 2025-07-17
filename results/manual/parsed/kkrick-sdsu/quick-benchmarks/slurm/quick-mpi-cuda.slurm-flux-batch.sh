@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=quick-mpi-cuda
 #FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module reset

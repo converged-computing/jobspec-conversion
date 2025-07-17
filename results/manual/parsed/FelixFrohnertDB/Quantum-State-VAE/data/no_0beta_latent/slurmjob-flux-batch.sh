@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-latke-9793
+#FLUX: --job-name=gen_dm_4x4
 #FLUX: -c=8
 #FLUX: --queue=compIntel
 #FLUX: -t=54000

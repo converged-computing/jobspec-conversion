@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-earthworm-6873
+#FLUX: --job-name=outstanding-truffle-0094
 #FLUX: -N=20
 #FLUX: --queue=main
 #FLUX: -t=1800

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pedo-7643
+#FLUX: --job-name=expressive-caramel-2459
+#FLUX: -N=2
+#FLUX: --queue=galton
 #FLUX: --urgency=16
 
 export MPIP='-t 10.0'

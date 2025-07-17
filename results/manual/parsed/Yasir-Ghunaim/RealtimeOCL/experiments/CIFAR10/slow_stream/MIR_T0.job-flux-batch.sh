@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-rabbit-6341
+#FLUX: --job-name=MIRT0
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=3600

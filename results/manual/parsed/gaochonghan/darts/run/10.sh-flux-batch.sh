@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-muffin-9987
+#FLUX: --job-name=w2-a10
 #FLUX: -c=4
 #FLUX: --queue=dell
 #FLUX: --urgency=16

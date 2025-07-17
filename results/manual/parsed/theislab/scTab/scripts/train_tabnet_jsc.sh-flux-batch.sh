@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-sundae-5584
+#FLUX: --job-name=anxious-itch-6044
 #FLUX: --queue=booster
 #FLUX: -t=86400
 #FLUX: --urgency=16

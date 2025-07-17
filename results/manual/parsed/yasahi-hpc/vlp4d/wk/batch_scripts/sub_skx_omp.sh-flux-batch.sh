@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-peanut-butter-0094
+#FLUX: --job-name=omp
 #FLUX: -c=40
+#FLUX: --queue=dev
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

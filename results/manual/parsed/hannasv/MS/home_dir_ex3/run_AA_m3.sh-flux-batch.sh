@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-fork-3912
+#FLUX: --job-name=butterscotch-car-3428
+#FLUX: -n=32
+#FLUX: --queue=defq
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

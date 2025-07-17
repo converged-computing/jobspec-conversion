@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-earthworm-4622
+#FLUX: --job-name=eccentric-underoos-1582
 #FLUX: -c=24
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

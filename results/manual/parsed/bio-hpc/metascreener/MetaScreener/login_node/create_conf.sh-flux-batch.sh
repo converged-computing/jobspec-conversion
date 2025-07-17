@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-latke-7472
+#FLUX: --job-name=red-kerfuffle-6898
 #FLUX: --urgency=16
 
 function write_comment()

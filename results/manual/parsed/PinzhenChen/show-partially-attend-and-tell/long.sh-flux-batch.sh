@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cat-3761
+#FLUX: --job-name=gloopy-house-1947
 #FLUX: --queue=LongJobs
 #FLUX: -t=288000
 #FLUX: --urgency=16

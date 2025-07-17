@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-blackbean-3380
+#FLUX: --job-name=wobbly-puppy-9684
 #FLUX: -c=47
+#FLUX: --queue=geva
 #FLUX: --urgency=16
 
 module load fasta ruby

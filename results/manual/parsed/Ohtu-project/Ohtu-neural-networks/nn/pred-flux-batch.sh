@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=pred
+#FLUX: -c=2
+#FLUX: --queue=gpu
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module purge

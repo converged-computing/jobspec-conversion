@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-peanut-butter-8360
+#FLUX: --job-name=wy_server
+#FLUX: -N=151
 #FLUX: --exclusive
+#FLUX: --queue=kshdexclu04
 #FLUX: --urgency=16
 
 mkdir -p log/$SLURM_JOB_ID

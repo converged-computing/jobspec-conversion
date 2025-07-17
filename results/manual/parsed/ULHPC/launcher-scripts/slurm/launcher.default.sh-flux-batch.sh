@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-toaster-8049
+#FLUX: --job-name=goodbye-staircase-3396
 #FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16

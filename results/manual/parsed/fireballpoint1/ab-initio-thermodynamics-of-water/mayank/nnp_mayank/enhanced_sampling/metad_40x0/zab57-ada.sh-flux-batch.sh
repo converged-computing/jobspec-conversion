@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-noodle-1662
+#FLUX: --job-name=ornery-poo-3662
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

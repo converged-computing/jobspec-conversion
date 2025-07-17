@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-avocado-7737
+#FLUX: --job-name=llama_generate_8bit
 #FLUX: -c=10
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '

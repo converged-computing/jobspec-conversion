@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bits-1297
+#FLUX: --job-name=tools
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 ulimit -c 0

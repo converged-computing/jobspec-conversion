@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-punk-1608
+#FLUX: --job-name=pipetrain
 #FLUX: --gpus-per-task=8
 #FLUX: --exclusive
+#FLUX: --queue=gpu
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 echo "#################### Job submission script. #############################"

@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=amber_pressure
 #FLUX: -n=32
+#FLUX: --queue=long
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-arm-7839
+#FLUX: --job-name=K_iso
+#FLUX: -N=16
+#FLUX: -n=32
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export user='$(whoami)'

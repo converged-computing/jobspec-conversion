@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-eagle-2139
+#FLUX: --job-name=angry-parsnip-0582
+#FLUX: --queue=boost_usr_prod
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'

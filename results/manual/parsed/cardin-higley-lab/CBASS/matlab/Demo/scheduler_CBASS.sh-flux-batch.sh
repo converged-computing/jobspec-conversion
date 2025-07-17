@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=CBASS
+#FLUX: --queue=scavenge
 #FLUX: --urgency=16
 
 export FOLDER='$(pwd) # Considering that the scheduler is in the same folder of the .m script being used, otherwise specify the path as '=/gpfs/ysm/home/ahf38/Documents/gamma_bouts/Demo/'

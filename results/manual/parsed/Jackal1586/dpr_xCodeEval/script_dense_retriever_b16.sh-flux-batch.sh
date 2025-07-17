@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-fork-5433
+#FLUX: --job-name=butterscotch-blackbean-6997
+#FLUX: --queue=NV100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1,2,3'

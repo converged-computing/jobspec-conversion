@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-squidward-5197
+#FLUX: --job-name=rs3
 #FLUX: -c=5
 #FLUX: -t=86400
 #FLUX: --urgency=16

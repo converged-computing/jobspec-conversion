@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hippo-9047
+#FLUX: --job-name=OBILRG
+#FLUX: -n=8
+#FLUX: --queue=shared
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export runwhat='lrg'

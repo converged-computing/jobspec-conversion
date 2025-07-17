@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-chip-0149
+#FLUX: --job-name=swampy-hippo-7607
+#FLUX: -N=4
+#FLUX: -c=4
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export OMPI_MCA_btl='tcp,self,vader'

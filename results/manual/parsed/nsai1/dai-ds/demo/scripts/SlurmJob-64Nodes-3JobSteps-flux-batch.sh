@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-gato-0215
+#FLUX: --job-name=grated-carrot-9106
+#FLUX: -N=64
 #FLUX: --urgency=16
 
 srun /opt/ucs/demo/workloads/MILC 3

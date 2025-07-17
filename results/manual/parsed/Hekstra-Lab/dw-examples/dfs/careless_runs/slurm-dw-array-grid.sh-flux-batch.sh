@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gpu_careless_reduce
+#FLUX: --queue=gpu_requeue,seas_gpu
+#FLUX: -t=180
 #FLUX: --urgency=16
 
 PARAM_FILE=slurm_params.txt

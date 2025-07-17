@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-blackbean-1814
+#FLUX: --job-name=reclusive-toaster-1064
+#FLUX: -n=16
+#FLUX: --queue=parallel
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module purge

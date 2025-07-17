@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-blackbean-4721
+#FLUX: --job-name=afhp-setup
+#FLUX: --queue=nvidia_small
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

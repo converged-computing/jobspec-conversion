@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-snack-7486
+#FLUX: --job-name=crusty-plant-9626
+#FLUX: --queue=csug
 #FLUX: --urgency=16
 
 module load nvidia/cuda-11.0

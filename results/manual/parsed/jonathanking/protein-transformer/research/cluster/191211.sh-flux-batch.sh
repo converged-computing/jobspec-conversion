@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-peas-8105
+#FLUX: --job-name=name=pt-sweep
 #FLUX: --queue=dept_gpu
 #FLUX: -t=0
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-taco-1571
+#FLUX: --job-name=DLmodels
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

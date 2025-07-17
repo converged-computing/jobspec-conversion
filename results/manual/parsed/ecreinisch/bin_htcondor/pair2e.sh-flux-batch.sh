@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-general-2080
+#FLUX: --job-name=fuzzy-avocado-8570
 #FLUX: --urgency=16
 
 if [ ! "$#" -eq 12 ]; then

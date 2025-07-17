@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-rabbit-2168
+#FLUX: --job-name=MBT
+#FLUX: -N=8
+#FLUX: --queue=batch
+#FLUX: -t=6900
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='7'

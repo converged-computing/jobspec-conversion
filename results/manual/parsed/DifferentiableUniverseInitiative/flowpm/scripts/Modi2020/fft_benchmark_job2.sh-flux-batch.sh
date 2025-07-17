@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-cat-9967
+#FLUX: --job-name=sticky-omelette-0325
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=1800

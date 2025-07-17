@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-bits-8003
+#FLUX: --job-name=frigid-plant-7520
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='eth0'

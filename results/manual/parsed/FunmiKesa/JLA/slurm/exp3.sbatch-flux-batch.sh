@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=exp3
 #FLUX: -c=8
+#FLUX: --queue=pearl
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 singularity exec \

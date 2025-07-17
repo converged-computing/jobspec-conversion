@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-rabbit-2860
+#FLUX: --job-name=creamy-punk-2346
 #FLUX: -N=4
 #FLUX: -n=4
 #FLUX: -c=4
 #FLUX: --exclusive
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 module load valgrind;

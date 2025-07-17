@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Collect NAMD Energy
+#FLUX: --queue=short
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load vmd

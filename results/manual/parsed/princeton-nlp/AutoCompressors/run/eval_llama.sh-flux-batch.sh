@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-onion-3425
+#FLUX: --job-name=eval_llama
 #FLUX: -c=32
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'

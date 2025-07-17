@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-blackbean-9750
+#FLUX: --job-name=dirty-punk-7936
+#FLUX: -n=3
+#FLUX: --queue=gpu
 #FLUX: -t=180000
 #FLUX: --urgency=16
 

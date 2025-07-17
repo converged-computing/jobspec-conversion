@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-gato-1985
+#FLUX: --job-name=carnivorous-bike-2723
+#FLUX: -c=4
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module purge

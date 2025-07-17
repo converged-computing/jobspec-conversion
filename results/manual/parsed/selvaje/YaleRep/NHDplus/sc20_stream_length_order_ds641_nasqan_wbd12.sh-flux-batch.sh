@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sc20_stream_length_order_ds641_nasqan_wbd12.sh
+#FLUX: --queue=week
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 NHD=/project/fas/sbsc/ga254/dataproces/NHDplus

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-nalgas-0963
+#FLUX: --job-name=tart-hobbit-0622
 #FLUX: -N=4
 #FLUX: -c=7
 #FLUX: --exclusive

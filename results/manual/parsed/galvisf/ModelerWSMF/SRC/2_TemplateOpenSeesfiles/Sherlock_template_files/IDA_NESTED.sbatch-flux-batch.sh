@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=IDAne1
 #FLUX: -N=5
+#FLUX: --queue=cee
 #FLUX: -t=57600
 #FLUX: --urgency=16
 

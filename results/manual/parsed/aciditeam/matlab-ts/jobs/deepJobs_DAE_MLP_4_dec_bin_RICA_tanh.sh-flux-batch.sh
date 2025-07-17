@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-pancake-5274
+#FLUX: --job-name=Deep-DAE_MLP_4_dec_bin_RICA_tanh
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

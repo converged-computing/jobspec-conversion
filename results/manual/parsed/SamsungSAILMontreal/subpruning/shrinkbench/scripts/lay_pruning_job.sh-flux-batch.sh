@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lizard-1793
+#FLUX: --job-name=muffled-blackbean-8565
+#FLUX: -c=20
 #FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$HOME/subpruning/'

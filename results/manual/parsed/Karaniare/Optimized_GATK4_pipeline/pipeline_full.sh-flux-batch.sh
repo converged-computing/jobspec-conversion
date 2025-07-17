@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-arm-9853
+#FLUX: --job-name=Gatk4_testT_1
+#FLUX: -c=8
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load bwa/0.7.15 tabix/0.2.6 vcftools/0.1.16 bcftools/1.9 plink/1.90 gatk/4.2.2.0 sratoolkit/2.8.2-1 R/4.1.0 samtools trimmomatic/0.36 

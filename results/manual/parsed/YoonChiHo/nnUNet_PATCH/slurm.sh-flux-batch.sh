@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-peanut-7538
+#FLUX: --job-name=gloopy-lettuce-8085
+#FLUX: --queue=A100-pci
 #FLUX: --urgency=16
 
 echo "Start: `date`"

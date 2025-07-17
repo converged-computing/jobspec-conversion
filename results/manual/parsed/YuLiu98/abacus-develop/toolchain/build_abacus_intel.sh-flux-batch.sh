@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-taco-0619
+#FLUX: --job-name=build
+#FLUX: -n=16
 #FLUX: --urgency=16
 
 export PATH='${PREFIX}/bin":${PATH}'

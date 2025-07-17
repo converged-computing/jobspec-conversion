@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chair-8220
+#FLUX: --job-name=gloopy-destiny-7224
 #FLUX: -c=24
 #FLUX: --queue=amdgpuextralong
 #FLUX: -t=864000

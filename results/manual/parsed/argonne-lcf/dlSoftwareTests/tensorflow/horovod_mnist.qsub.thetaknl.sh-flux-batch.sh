@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-signal-1409
+#FLUX: --job-name=goodbye-mango-1317
 #FLUX: --urgency=16
 

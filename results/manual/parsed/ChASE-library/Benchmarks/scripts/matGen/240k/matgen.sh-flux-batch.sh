@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hope-3843
+#FLUX: --job-name=grated-pot-0025
 #FLUX: -N=64
 #FLUX: -n=1024
 #FLUX: -c=8

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-frito-2896
+#FLUX: --job-name=confused-train-1488
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-signal-4847
+#FLUX: --job-name=dirty-citrus-8190
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=YOUR_PARTITION_HERE

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-squidward-1476
+#FLUX: --job-name=CJH_Match_Test
 #FLUX: -c=12
 #FLUX: -t=10800
 #FLUX: --urgency=16

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rnaseq_mouse
+#FLUX: --queue=batch
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

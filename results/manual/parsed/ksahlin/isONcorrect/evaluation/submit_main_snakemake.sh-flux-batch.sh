@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-noodle-6334
+#FLUX: --job-name=main_snake
+#FLUX: -c=2
+#FLUX: -t=1209600
 #FLUX: --urgency=16
 
 source activate py36

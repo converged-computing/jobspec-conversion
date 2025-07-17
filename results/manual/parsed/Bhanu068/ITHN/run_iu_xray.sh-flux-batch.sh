@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-gato-9418
+#FLUX: --job-name=adorable-lamp-9918
 #FLUX: -c=4
 #FLUX: -t=518400
 #FLUX: --urgency=16

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-bicycle-7468
+#FLUX: --job-name=ornery-leg-1258
+#FLUX: -N=2
+#FLUX: --queue=bdwall
 #FLUX: -t=900
 #FLUX: --urgency=16
 

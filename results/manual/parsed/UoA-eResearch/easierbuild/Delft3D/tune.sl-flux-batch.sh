@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-latke-4284
+#FLUX: --job-name=TUNE
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

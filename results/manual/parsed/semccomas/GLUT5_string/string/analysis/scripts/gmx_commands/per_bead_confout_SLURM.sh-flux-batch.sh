@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-general-0991
+#FLUX: --job-name=conf
+#FLUX: --queue=tcb
+#FLUX: -t=9000
 #FLUX: --urgency=16
 
 module load gromacs/2020.2

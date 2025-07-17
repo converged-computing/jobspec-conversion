@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=runSATWithCocoonMutliproceROINoRellu
+#FLUX: --job-name=d_singleimg_32_E2E_0.5_DropImgaug
 #FLUX: --queue=batch
 #FLUX: -t=180000
 #FLUX: --urgency=16

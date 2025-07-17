@@ -2,6 +2,7 @@
 #FLUX: --job-name=nextflow_test_info_v5
 #FLUX: -c=2
 #FLUX: --queue=shared
+#FLUX: -t=3000
 #FLUX: --urgency=16
 
 module purge

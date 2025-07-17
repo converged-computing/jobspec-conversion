@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-parrot-8730
+#FLUX: --job-name=Pixy_Permutations
+#FLUX: -n=15
+#FLUX: --queue=jro0014_amd
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 module load htslib/1.11

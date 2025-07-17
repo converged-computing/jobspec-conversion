@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-chip-0454
+#FLUX: --job-name=pull
+#FLUX: -N=8
 #FLUX: -c=5
+#FLUX: --queue=nodes
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

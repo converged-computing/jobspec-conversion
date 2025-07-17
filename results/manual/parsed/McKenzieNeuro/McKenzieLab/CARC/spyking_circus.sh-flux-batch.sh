@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-bicycle-0790
+#FLUX: --job-name=spyking-circus
 #FLUX: -c=8
 #FLUX: --queue=neuro-hsc
 #FLUX: -t=36000

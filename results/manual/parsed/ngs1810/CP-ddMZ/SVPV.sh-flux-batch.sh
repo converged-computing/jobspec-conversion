@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bits-5868
+#FLUX: --job-name=creamy-gato-9314
+#FLUX: --queue=batch
 #FLUX: -t=300
 #FLUX: --urgency=16
 

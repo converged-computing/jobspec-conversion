@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-nunchucks-8122
+#FLUX: --job-name=fuzzy-onion-8844
 #FLUX: --urgency=16
 
 srun /opt/ucs/demo/workloads/AMG 9

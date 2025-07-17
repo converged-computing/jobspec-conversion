@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-carrot-5558
+#FLUX: --job-name=myFirstJob
 #FLUX: -N=2
 #FLUX: --queue=p40
 #FLUX: --urgency=16

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-frito-4656
+#FLUX: --job-name=HEAT-CPU
 #FLUX: --exclusive
+#FLUX: --queue=cg4-cpu4x120gb-gpu4x80gb
 #FLUX: --urgency=16
 
 export PATH='/home/wwei/install/cmake_3_27_3/bin/:$PATH'

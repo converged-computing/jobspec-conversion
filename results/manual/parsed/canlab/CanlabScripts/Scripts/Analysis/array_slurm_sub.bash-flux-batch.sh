@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=MPA1-l1m1
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 module load matlab

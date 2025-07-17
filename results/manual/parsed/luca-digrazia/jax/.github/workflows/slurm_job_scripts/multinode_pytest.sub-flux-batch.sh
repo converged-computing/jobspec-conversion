@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-chip-5171
+#FLUX: --job-name=ci-jax-gpu
+#FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=compute
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 set -x

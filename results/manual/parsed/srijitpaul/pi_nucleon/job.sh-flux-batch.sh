@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-punk-8173
+#FLUX: --job-name=conspicuous-bicycle-6362
+#FLUX: -N=24
+#FLUX: -n=768
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load autohbw/default

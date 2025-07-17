@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-milkshake-8929
-#FLUX: --urgency=15
+#FLUX: --job-name=integration_scVI
+#FLUX: -c=4
+#FLUX: --queue=gpu_p
+#FLUX: -t=172800
+#FLUX: --urgency=16
 
 source $HOME/.bashrc
 source activate work-gpu

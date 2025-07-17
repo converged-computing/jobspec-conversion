@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-soup-4358
+#FLUX: --job-name=fat-noodle-7715
 #FLUX: -c=24
 #FLUX: --exclusive
 #FLUX: --queue=n1c24m128-v100-4

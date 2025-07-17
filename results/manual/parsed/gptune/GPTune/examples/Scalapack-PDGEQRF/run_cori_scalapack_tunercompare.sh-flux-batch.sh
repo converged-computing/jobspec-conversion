@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lettuce-6814
+#FLUX: --job-name=GPTune_scalapack
+#FLUX: -N=65
+#FLUX: --queue=regular
+#FLUX: -t=50400
 #FLUX: --urgency=16
 
 export GPTUNEROOT='$PWD'

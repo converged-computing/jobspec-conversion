@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-nunchucks-1762
+#FLUX: --job-name=roi
+#FLUX: -N=25
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export WORK='$SCRATCH/adse13_249/LY99'

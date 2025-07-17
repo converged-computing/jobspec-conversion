@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-salad-0913
+#FLUX: --job-name=mriqc_test_BRAINT
+#FLUX: --queue=batch
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module purge

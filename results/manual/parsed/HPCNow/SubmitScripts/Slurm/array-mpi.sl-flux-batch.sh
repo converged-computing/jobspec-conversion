@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-lizard-8814
+#FLUX: --job-name=JobArray
 #FLUX: -n=2
 #FLUX: -c=2
 #FLUX: -t=3600

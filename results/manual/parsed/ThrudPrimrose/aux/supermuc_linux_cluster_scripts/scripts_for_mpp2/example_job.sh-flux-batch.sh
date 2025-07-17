@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-ricecake-3186
+#FLUX: --job-name=debug-test
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=1800

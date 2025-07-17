@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-leader-5974
+#FLUX: --job-name=stanky-lemon-9609
 #FLUX: -c=4
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=project
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-onion-6426
+#FLUX: --job-name=apt_test
+#FLUX: -c=2
+#FLUX: --queue=bosch_cpu-cascadelake
+#FLUX: -t=172860
 #FLUX: --urgency=16
 
 export PYTHONPATH='$PWD'

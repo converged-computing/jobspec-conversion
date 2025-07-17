@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-bicycle-8414
+#FLUX: --job-name=hairy-plant-3895
 #FLUX: -c=5
+#FLUX: --queue=astro
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

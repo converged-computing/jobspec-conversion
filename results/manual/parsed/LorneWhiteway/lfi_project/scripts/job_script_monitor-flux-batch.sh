@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-sundae-9358
+#FLUX: --job-name=monitor
+#FLUX: --queue=ampere
 #FLUX: -t=129540
 #FLUX: --urgency=16
 

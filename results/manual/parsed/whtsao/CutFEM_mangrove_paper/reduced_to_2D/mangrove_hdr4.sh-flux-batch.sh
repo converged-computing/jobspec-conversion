@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-carrot-7966
+#FLUX: --job-name=cox_2D_HD_tr4
+#FLUX: -N=8
+#FLUX: -n=384
+#FLUX: --queue=workq
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 date

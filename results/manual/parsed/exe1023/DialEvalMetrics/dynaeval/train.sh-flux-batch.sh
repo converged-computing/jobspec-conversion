@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=train
+#FLUX: --queue=new
 #FLUX: --urgency=16
 
 export dataset='empathetic'

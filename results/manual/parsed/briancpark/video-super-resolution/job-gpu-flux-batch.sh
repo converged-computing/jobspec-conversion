@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-buttface-0796
+#FLUX: --job-name=muffled-eagle-4319
+#FLUX: --queue=GPU-shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$PROJECT/anaconda3/lib'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-banana-2797
+#FLUX: --job-name=dinosaur-avocado-0674
+#FLUX: --queue=3090-gcondo
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'

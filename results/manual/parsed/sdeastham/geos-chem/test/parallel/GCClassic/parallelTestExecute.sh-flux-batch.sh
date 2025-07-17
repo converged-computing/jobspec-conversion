@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-malarkey-4375
+#FLUX: --job-name=peachy-lettuce-7961
+#FLUX: -c=24
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=360
 #FLUX: --urgency=16
 
 ptRoot=$(cd ..; pwd)

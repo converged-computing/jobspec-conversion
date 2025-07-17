@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lemur-2041
+#FLUX: --job-name=EQ_POCG_96
+#FLUX: -N=3
+#FLUX: -n=96
 #FLUX: --queue=cmain
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module purge

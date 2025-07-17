@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lettuce-1195
+#FLUX: --job-name=cifar-resnet
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export KMP_BLOCKTIME='0'

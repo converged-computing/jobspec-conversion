@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-knife-9850
+#FLUX: --job-name=grated-spoon-3836
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load CUDA/12.3.0

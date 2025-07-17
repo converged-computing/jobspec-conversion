@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-soup-0627
+#FLUX: --job-name=hairy-bits-7418
 #FLUX: -c=6
+#FLUX: --queue=rise
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'

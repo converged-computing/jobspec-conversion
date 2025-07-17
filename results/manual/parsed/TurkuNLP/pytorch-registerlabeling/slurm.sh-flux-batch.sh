@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lamp-6209
+#FLUX: --job-name=confused-malarkey-2003
 #FLUX: -c=4
 #FLUX: --urgency=16
 

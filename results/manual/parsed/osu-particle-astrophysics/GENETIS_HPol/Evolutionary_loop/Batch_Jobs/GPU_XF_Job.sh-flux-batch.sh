@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-peanut-butter-1047
+#FLUX: --job-name=pusheena-hobbit-9633
+#FLUX: -n=40
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 cd $WorkingDir

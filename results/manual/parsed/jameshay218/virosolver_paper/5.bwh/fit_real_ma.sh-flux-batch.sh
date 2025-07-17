@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-caramel-4185
+#FLUX: --job-name=REAL_MA
+#FLUX: -n=4
+#FLUX: --queue=shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/apps/R_4.0.2'

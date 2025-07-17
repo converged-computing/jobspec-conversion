@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-despacito-4033
+#FLUX: --job-name=loopy-lemon-6616
 #FLUX: --queue=gpu
 #FLUX: -t=120
 #FLUX: --urgency=16

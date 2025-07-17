@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-carrot-4597
+#FLUX: --job-name=faux-kitty-0538
 #FLUX: --urgency=16
 
 export DIR='/p/lustre1/$(whoami)/CabanaMD'

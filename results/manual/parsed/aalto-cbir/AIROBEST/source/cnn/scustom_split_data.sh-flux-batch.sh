@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-house-7316
+#FLUX: --job-name=create_full_dataset
+#FLUX: --queue=gpu
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 id -a

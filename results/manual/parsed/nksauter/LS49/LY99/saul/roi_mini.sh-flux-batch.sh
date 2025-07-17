@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-chip-9594
+#FLUX: --job-name=roi
+#FLUX: -N=8
+#FLUX: --queue=early_science
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export WORK='$SCRATCH/adse13_249/LY99'

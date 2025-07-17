@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pastry-4405
+#FLUX: --job-name=expressive-cat-5233
+#FLUX: --queue=plgrid-gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-knife-7415
+#FLUX: --job-name=run-meld
+#FLUX: --queue=pascal
 #FLUX: -t=3540
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-puppy-0096
+#FLUX: --job-name=frigid-earthworm-8985
+#FLUX: -N=5
+#FLUX: --queue=a100
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export PYTHONNOUSERSITE='true'

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-noodle-3386
+#FLUX: --job-name=ada_inf2
 #FLUX: -c=16
+#FLUX: --queue=lianglab
+#FLUX: -t=921600
 #FLUX: --urgency=16
 
 source ~/.bashrc

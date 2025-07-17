@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hope-7141
+#FLUX: --job-name=grated-lizard-2256
+#FLUX: -n=16
+#FLUX: --queue=batch
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

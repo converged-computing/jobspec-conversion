@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-plant-0471
+#FLUX: --job-name=dinosaur-noodle-9662
+#FLUX: -N=12
 #FLUX: --urgency=16
 
 export NCCL_ALGO='Ring'

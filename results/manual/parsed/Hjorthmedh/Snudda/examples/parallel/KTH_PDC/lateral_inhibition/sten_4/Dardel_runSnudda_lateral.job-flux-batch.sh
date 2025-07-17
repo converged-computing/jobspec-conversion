@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-pot-4497
+#FLUX: --job-name=Snudda
 #FLUX: -N=2
+#FLUX: -n=256
 #FLUX: -c=2
 #FLUX: --queue=main
+#FLUX: -t=14340
 #FLUX: --urgency=16
 
 export IPNWORKERS='$NWORKERS'

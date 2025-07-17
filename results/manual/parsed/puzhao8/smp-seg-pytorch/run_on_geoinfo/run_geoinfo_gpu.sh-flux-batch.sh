@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-blackbean-5828
+#FLUX: --job-name=gloopy-caramel-9881
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 echo "start"

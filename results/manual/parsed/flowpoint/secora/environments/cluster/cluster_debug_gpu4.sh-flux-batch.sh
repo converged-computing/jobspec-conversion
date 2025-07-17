@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-bits-3894
+#FLUX: --job-name=astute-spoon-8548
 #FLUX: --queue=gpu4
 #FLUX: -t=3000
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-ricecake-0763
+#FLUX: --job-name=stinky-eagle-1957
 #FLUX: -c=8
 #FLUX: --queue=ztest
 #FLUX: -t=2400

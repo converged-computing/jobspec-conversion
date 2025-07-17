@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-malarkey-2721
+#FLUX: --job-name=OSU-MicroBenchmark
+#FLUX: -N=2
 #FLUX: --queue=batch
 #FLUX: -t=300
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lemur-9903
+#FLUX: --job-name=Prop_KF
 #FLUX: -c=9
 #FLUX: -t=360000
 #FLUX: --urgency=16

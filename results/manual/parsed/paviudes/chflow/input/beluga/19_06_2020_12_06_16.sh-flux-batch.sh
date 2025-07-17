@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-signal-4124
+#FLUX: --job-name=psycho-signal-9091
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

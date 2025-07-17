@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=alignment.job
 #FLUX: -c=30
+#FLUX: --queue=intel
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

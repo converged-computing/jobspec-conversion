@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ATAC_snakemake
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module purge

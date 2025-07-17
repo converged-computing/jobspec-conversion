@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-peanut-1809
+#FLUX: --job-name=s_try
+#FLUX: -N=4
 #FLUX: -t=600
 #FLUX: --urgency=16
 

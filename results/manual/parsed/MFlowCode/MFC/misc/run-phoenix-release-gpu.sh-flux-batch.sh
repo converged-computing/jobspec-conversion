@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-lentil-3718
+#FLUX: --job-name=joyous-bits-2801
+#FLUX: --queue=embers
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 cd "$SLURM_SUBMIT_DIR"

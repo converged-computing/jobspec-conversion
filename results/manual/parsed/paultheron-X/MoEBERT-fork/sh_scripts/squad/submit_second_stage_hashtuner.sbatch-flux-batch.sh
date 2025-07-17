@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-knife-0268
+#FLUX: --job-name=wobbly-hobbit-8545
 #FLUX: -c=20
 #FLUX: --queue=xeon-g6-volta
+#FLUX: -t=1440
 #FLUX: --urgency=16
 
 export TOTAL_GPUS='${SLURM_NTASKS}'

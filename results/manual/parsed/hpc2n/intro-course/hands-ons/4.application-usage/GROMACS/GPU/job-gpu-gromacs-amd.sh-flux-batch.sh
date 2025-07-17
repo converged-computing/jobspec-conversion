@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-truffle-0598
+#FLUX: --job-name=Gromacs
+#FLUX: -c=12
+#FLUX: --queue=amd_gpu
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-fudge-0015
+#FLUX: --job-name=cluster_install
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

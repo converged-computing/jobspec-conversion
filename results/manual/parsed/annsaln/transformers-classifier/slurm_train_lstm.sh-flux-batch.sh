@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-poodle-1229
+#FLUX: --job-name=milky-truffle-4095
+#FLUX: --queue=gpu
+#FLUX: -t=4500
 #FLUX: --urgency=16
 
 export TRAIN_DIR='junkdata/$SRC'

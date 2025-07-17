@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bits-4081
+#FLUX: --job-name=crunchy-nalgas-8110
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

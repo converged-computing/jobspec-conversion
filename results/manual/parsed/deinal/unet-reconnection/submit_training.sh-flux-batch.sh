@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lemon-5760
+#FLUX: --job-name=phat-despacito-9623
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: -t=36000

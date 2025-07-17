@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-parrot-5274
+#FLUX: --job-name=IOD-train-mlp
+#FLUX: -c=32
 #FLUX: --gpus-per-task=4
+#FLUX: --queue=regular
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='0'

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=integration
+#FLUX: -c=12
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

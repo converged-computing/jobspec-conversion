@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-eagle-1626
+#FLUX: --job-name=mmult
+#FLUX: -n=4
+#FLUX: --queue=shared
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 module load gcc/8.2.0-fasrc01

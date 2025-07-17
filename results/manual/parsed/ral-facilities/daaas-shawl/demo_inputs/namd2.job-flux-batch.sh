@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-bike-6576
+#FLUX: --job-name=dppc-p1
+#FLUX: -n=96
 #FLUX: --exclusive
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module use /apps/eb/modulefiles/all

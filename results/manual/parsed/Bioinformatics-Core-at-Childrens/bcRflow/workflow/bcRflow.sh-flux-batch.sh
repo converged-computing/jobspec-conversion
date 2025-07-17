@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=<bcr-nextflow>
 #FLUX: -c=4
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/path/to/bcRflow/singularity-images'

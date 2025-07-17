@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pancake-0108
+#FLUX: --job-name=milky-omelette-5471
+#FLUX: -n=8
+#FLUX: --queue=priv_para
 #FLUX: --urgency=16
 
 export MPLM='xlmrL'

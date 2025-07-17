@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-hobbit-7376
+#FLUX: --job-name=psycho-nalgas-7283
 #FLUX: -c=3
 #FLUX: -t=259200
 #FLUX: --urgency=16

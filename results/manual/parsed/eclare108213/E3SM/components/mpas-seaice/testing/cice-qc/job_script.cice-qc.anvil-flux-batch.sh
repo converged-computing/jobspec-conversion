@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cice-qc
+#FLUX: --queue=acme-small
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

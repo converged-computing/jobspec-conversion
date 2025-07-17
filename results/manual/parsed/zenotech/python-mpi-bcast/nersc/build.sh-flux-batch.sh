@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-soup-2249
+#FLUX: --job-name=boopy-peanut-6451
+#FLUX: --queue=debug
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT

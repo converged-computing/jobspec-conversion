@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-salad-0390
+#FLUX: --job-name=AAPM_all
+#FLUX: -N=16
+#FLUX: --queue=regular
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/slurmpmi/libpmi.so'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-kerfuffle-8144
+#FLUX: --job-name=outstanding-staircase-3480
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

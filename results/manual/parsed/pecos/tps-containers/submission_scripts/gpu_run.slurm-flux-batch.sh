@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-snack-8675
+#FLUX: --job-name=tps_cylinder
+#FLUX: -N=2
+#FLUX: -n=6
+#FLUX: --queue=gpu-a100
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export ORG='uvilla'

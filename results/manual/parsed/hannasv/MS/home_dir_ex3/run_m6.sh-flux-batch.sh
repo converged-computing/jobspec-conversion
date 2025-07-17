@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-butter-1684
+#FLUX: --job-name=pusheena-motorcycle-5393
+#FLUX: -n=6
+#FLUX: --queue=dgx2q
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

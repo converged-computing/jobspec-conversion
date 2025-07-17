@@ -2,6 +2,7 @@
 #FLUX: --job-name=wrf-profile
 #FLUX: -N=4
 #FLUX: -n=160
+#FLUX: --queue=compute
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

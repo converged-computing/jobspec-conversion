@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-knife-7405
+#FLUX: --job-name=ornery-salad-0646
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

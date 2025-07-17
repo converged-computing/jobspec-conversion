@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lettuce-3908
+#FLUX: --job-name=pusheena-gato-7070
 #FLUX: -c=80
 #FLUX: --queue=milan
 #FLUX: -t=600

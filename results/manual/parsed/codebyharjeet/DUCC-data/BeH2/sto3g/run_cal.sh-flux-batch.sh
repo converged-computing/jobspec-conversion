@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=test13
 #FLUX: -c=16
+#FLUX: --queue=preemptable_q
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export MKL_NUM_THREADS='1'

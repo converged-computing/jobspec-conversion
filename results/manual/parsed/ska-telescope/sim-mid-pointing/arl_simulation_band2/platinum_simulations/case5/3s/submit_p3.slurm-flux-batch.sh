@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-frito-7336
+#FLUX: --job-name=CASE5_3s
 #FLUX: -N=16
 #FLUX: -n=17
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

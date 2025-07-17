@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-leader-5113
+#FLUX: --job-name=sticky-salad-6473
 #FLUX: -N=4
 #FLUX: --exclusive
+#FLUX: --queue=gaia
 #FLUX: --urgency=16
 
 export NCCL_DEBUG='WARN'

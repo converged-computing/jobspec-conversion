@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-buttface-9091
+#FLUX: --job-name=adorable-blackbean-3677
 #FLUX: --queue=bii-gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

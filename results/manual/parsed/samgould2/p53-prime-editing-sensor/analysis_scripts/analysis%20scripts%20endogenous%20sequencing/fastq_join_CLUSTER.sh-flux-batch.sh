@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bits-5551
+#FLUX: --job-name=frigid-peanut-butter-8608
 #FLUX: --urgency=15
 
 cd /net/bmc-lab2/data/lab/sanchezrivera/samgould/

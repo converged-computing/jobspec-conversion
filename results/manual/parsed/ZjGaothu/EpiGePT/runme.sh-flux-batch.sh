@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-onion-5299
+#FLUX: --job-name=bumfuzzled-underoos-8515
+#FLUX: -n=32
+#FLUX: --queue=whwong
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

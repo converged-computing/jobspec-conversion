@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-knife-1376
+#FLUX: --job-name=peachy-toaster-7918
+#FLUX: -N=2
+#FLUX: --queue=parallel
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module purge

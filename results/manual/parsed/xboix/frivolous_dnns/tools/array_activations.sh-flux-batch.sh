@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=get_activations
 #FLUX: --queue=cbmm
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 cd /om/user/scasper/workspace/

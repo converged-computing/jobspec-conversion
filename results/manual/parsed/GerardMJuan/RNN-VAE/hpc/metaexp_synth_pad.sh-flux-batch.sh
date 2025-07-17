@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-parrot-7419
+#FLUX: --job-name=rnnvae
+#FLUX: --queue=high
 #FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh

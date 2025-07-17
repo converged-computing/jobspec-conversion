@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-poodle-5967
+#FLUX: --job-name=CASE7
 #FLUX: -N=16
 #FLUX: -n=33
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

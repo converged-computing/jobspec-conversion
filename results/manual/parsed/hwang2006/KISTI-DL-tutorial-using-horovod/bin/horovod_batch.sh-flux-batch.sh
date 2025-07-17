@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-punk-6045
+#FLUX: --job-name=scruptious-nalgas-8729
 #FLUX: -N=2
 #FLUX: -c=4
+#FLUX: --queue=amd_a100nv_8
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

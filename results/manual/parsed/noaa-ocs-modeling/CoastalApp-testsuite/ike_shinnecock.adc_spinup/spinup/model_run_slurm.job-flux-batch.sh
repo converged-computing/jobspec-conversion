@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-sundae-8553
+#FLUX: --job-name=IKSH_adc_RUN
+#FLUX: -n=11
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

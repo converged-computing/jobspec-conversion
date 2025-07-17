@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-hobbit-3832
+#FLUX: --job-name=vit-era5-mp
 #FLUX: -c=32
 #FLUX: -t=3600
 #FLUX: --urgency=16

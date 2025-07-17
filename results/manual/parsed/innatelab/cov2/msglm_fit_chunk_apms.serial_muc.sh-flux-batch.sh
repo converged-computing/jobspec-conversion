@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-egg-1518
+#FLUX: --job-name=ast_cov2_msglm_apms
 #FLUX: -c=8
 #FLUX: --queue=serial_std
 #FLUX: -t=259200

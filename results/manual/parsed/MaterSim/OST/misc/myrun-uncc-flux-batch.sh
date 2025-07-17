@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-blackbean-0069
+#FLUX: --job-name=wobbly-hobbit-2299
+#FLUX: --queue=Orion
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

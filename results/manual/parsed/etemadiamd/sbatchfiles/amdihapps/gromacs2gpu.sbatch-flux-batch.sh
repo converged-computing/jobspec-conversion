@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-onion-9127
+#FLUX: --job-name=gloopy-truffle-8369
 #FLUX: -c=16
 #FLUX: --urgency=16
 

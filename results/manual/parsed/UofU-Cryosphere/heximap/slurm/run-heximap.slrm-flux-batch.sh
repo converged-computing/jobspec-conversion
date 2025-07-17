@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-toaster-8100
+#FLUX: --job-name=sticky-mango-7596
 #FLUX: -c=8
 #FLUX: --queue=lonepeak
 #FLUX: -t=21600

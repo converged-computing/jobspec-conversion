@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lettuce-8642
+#FLUX: --job-name=angry-banana-3567
 #FLUX: --exclusive
+#FLUX: --queue=ccb
 #FLUX: -t=360000
 #FLUX: --urgency=16
 

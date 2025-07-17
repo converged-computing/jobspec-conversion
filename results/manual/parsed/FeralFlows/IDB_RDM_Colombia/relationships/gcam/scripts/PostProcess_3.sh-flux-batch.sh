@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-dog-6182
+#FLUX: --job-name=crusty-egg-0263
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export CXX='g++'

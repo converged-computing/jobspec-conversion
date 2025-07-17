@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-muffin-2930
+#FLUX: --job-name=adorable-rabbit-3964
+#FLUX: -c=128
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e -o pipefail

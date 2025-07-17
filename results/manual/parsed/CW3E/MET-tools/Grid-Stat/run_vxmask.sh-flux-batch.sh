@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-puppy-3377
+#FLUX: --job-name=run_vxmask
+#FLUX: --queue=shared
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 source pre_processing_config.sh

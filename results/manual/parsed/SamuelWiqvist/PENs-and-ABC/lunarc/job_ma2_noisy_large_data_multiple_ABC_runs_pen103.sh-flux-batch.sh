@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-diablo-7439
+#FLUX: --job-name=ma2_multi_ABC_deepsets3
+#FLUX: --queue=gpu
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

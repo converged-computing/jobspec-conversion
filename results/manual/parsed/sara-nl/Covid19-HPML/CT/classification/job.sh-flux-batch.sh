@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-kitty-5005
+#FLUX: --job-name=purple-chair-8479
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module use ~/environment-modules-lisa

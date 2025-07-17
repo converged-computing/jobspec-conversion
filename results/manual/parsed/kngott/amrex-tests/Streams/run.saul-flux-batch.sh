@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-despacito-0336
+#FLUX: --job-name=FBtest
+#FLUX: -c=8
+#FLUX: --queue=debug
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export CRAY_ACCEL_TARGET='nvidia80'

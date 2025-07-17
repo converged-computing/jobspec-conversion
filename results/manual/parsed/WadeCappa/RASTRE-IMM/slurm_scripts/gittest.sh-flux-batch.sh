@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lentil-5917
+#FLUX: --job-name=Github5
+#FLUX: -N=5
+#FLUX: --queue=regular
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'

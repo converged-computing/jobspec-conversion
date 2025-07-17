@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-milkshake-4182
+#FLUX: --job-name=frigid-kerfuffle-9292
 #FLUX: -c=2
+#FLUX: -t=172815
 #FLUX: --urgency=16
 
 module load r/3.4.0

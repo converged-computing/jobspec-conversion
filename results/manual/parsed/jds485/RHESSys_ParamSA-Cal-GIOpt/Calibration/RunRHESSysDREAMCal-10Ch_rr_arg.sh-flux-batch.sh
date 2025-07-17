@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-butter-2636
+#FLUX: --job-name=scruptious-buttface-4465
+#FLUX: --queue=standard
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module purge

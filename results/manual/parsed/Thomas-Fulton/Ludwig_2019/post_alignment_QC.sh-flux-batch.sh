@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cat-3301
+#FLUX: --job-name=nerdy-cinnamonbun-2044
+#FLUX: --queue=defq
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load SAMtools/1.12-GCC-10.2.0;

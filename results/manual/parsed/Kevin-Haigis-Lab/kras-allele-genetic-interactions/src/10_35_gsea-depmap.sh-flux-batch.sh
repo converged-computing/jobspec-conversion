@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-bike-3391
+#FLUX: --job-name=boopy-gato-2951
+#FLUX: -c=2
+#FLUX: --queue=short
+#FLUX: -t=270
 #FLUX: --urgency=16
 
 module load gcc java

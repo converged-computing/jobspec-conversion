@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-earthworm-8323
+#FLUX: --job-name=expressive-truffle-2271
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=14400

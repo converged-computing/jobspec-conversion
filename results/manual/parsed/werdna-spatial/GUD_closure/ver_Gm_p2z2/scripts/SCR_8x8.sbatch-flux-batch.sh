@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cinnamonbun-7674
+#FLUX: --job-name=8x8_darwin
 #FLUX: -c=64
 #FLUX: --exclusive
 #FLUX: --queue=condo-dtalmy

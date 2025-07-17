@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-platanos-0697
+#FLUX: --job-name=fchl-ra
 #FLUX: -n=8
 #FLUX: --queue=gpu2
 #FLUX: -t=345600

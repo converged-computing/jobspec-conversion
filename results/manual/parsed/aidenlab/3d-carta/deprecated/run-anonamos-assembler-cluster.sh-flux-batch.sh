@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-punk-3249
+#FLUX: --job-name=${groupname}_reduce_${jname}
+#FLUX: --queue=$queue
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 USAGE="

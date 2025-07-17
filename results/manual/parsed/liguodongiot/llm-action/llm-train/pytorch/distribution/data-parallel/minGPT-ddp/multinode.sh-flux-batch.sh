@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=multinode-example
+#FLUX: -N=2
 #FLUX: -n=2
 #FLUX: --queue=a800
 #FLUX: --urgency=16

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-puppy-4949
+#FLUX: --job-name=G8
+#FLUX: --queue=GPU-small
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1  # do not make back-ups'

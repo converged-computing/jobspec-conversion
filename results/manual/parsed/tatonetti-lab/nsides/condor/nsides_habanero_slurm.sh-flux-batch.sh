@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NSIDES_%A_%a
+#FLUX: -t=720
 #FLUX: --urgency=16
 
 start=`date +%s`

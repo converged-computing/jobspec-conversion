@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-arm-1558
+#FLUX: --job-name=psycho-bicycle-7766
+#FLUX: -c=8
+#FLUX: --queue=general
+#FLUX: -t=32400
 #FLUX: --urgency=16
 
 module purge    

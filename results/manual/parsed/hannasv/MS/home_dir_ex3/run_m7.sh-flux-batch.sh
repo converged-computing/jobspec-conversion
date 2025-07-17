@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-blackbean-6844
+#FLUX: --job-name=bricky-buttface-1541
+#FLUX: -n=6
+#FLUX: --queue=dgx2q
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

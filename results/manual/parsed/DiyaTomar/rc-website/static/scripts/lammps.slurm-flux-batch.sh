@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-fork-5443
+#FLUX: --job-name=gassy-bicycle-2422
 #FLUX: -N=2
 #FLUX: --queue=parallel
 #FLUX: -t=259200

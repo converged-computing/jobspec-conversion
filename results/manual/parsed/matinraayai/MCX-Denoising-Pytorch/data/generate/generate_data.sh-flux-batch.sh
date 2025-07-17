@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-citrus-5403
+#FLUX: --job-name=chocolate-frito-1209
+#FLUX: --queue=ce-mri
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 source ~/modules/matlab-mcx/source

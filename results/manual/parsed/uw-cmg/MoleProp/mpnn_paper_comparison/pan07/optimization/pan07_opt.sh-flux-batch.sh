@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lizard-6124
+#FLUX: --job-name=placid-lettuce-0533
+#FLUX: --queue=sbel_cmg
+#FLUX: -t=864090
 #FLUX: --urgency=16
 
 module load cuda/10.0

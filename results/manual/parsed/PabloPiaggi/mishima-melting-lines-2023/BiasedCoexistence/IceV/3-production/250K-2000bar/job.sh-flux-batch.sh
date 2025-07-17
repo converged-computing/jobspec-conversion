@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-underoos-8829
+#FLUX: --job-name=hairy-pedo-3913
 #FLUX: -c=7
+#FLUX: -t=90000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

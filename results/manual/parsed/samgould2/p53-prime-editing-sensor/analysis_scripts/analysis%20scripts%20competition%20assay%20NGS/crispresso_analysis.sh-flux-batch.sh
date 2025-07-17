@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-ricecake-4665
+#FLUX: --job-name=rainbow-lemur-3741
 #FLUX: --urgency=15
 
 module load miniconda3/v4

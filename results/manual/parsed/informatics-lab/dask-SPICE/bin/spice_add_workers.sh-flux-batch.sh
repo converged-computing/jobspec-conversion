@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-general-1106
+#FLUX: --job-name=bloated-buttface-1123
 #FLUX: -n=48
 #FLUX: -t=3600
 #FLUX: --urgency=16

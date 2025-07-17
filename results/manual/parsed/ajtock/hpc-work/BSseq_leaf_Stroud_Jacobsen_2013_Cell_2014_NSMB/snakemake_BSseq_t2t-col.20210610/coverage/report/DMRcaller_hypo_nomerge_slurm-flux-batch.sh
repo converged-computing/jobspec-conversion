@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-pastry-3197
+#FLUX: --job-name=DMRcaller
+#FLUX: --queue=skylake
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

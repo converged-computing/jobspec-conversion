@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-puppy-1830
+#FLUX: --job-name=rainbow-spoon-8289
+#FLUX: -c=10
+#FLUX: --queue=serial
+#FLUX: -t=172799
 #FLUX: --urgency=16
 
 export EIGEN3_INCLUDE_DIR='/home/ob19/Programs/eigen-3.4.0'

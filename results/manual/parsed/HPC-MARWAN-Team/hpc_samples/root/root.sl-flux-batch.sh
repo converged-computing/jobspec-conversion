@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bike-2037
+#FLUX: --job-name=Root
 #FLUX: --queue=shortq
 #FLUX: --urgency=16
 

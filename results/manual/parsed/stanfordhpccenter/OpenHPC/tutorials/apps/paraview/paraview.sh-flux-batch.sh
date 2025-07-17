@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-toaster-0834
+#FLUX: --job-name=paraview-server
 #FLUX: --urgency=16
 
 mkdir -p /opt/ohpc/pub/apps/paraview/src && cd /opt/ohpc/pub/apps/paraview/src

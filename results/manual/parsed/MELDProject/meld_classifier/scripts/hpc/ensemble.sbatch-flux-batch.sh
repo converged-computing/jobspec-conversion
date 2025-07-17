@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-peas-0307
+#FLUX: --job-name=run-meld
+#FLUX: --queue=pascal
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

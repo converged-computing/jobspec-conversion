@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pancake-2727
+#FLUX: --job-name=16S_NF
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=7200

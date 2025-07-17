@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cat-3673
+#FLUX: --job-name=Processing Vectors
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

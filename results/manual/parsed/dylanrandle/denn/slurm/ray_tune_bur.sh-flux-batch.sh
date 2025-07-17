@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-hobbit-9719
+#FLUX: --job-name=ray_tune_bur
+#FLUX: -n=48
+#FLUX: --queue=test
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 module load gcc/10.2.0-fasrc01

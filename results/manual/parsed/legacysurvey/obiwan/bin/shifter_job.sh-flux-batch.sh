@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-puppy-8509
+#FLUX: --job-name=docker
 #FLUX: --queue=debug
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export brick='1238p245'

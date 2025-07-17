@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lemur-3461
+#FLUX: --job-name=bumfuzzled-underoos-9467
+#FLUX: --queue=hugheslab
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source ~/.bashrc

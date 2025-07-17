@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-nalgas-2272
+#FLUX: --job-name=summarize_cam5
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 rankspernode=48

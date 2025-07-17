@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-eagle-7735
+#FLUX: --job-name=gassy-sundae-9088
+#FLUX: --queue=priority
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module unload python

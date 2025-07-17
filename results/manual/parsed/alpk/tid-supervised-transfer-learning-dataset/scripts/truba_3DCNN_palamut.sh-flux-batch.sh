@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-egg-4287
+#FLUX: --job-name=$experiment_notes_var
+#FLUX: -n=16
+#FLUX: --queue=palamut-cuda,barbun-cuda,akya-cuda
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

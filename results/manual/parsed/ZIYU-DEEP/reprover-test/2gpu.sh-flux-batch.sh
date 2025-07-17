@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-kerfuffle-4631
+#FLUX: --job-name=crusty-puppy-1013
+#FLUX: --queue=embers
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'

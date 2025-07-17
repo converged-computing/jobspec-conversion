@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-destiny-7416
+#FLUX: --job-name=arid-plant-8681
+#FLUX: -N=2
+#FLUX: -n=16
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 module load openmpi/4.1.4

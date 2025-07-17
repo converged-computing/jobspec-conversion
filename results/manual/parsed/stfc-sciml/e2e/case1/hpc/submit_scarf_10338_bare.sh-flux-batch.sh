@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-kitty-7827
+#FLUX: --job-name=confused-latke-9043
 #FLUX: --exclusive
+#FLUX: --queue=scarf
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

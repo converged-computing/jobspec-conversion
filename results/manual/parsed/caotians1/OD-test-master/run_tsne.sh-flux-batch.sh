@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-pastry-5831
+#FLUX: --job-name=dirty-leg-0867
+#FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export DISABLE_TQDM='True'

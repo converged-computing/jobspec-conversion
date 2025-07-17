@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-milkshake-2799
+#FLUX: --job-name=modalFineTune
+#FLUX: --queue=dgx
 #FLUX: --urgency=16
 
 module load python3

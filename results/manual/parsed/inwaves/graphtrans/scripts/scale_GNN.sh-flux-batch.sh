@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lizard-2383
+#FLUX: --job-name=baseline-generalisation-experiments
+#FLUX: --queue=ampere
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-house-8654
+#FLUX: --job-name=expressive-despacito-2708
 #FLUX: --urgency=16
 
 define_modules_config()

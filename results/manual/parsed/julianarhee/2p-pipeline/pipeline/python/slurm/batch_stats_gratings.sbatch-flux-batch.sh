@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-arm-6841
+#FLUX: --job-name=crunchy-poodle-4670
+#FLUX: -n=8
+#FLUX: --queue=cox
+#FLUX: -t=720
 #FLUX: --urgency=16
 
 module load centos6/0.0.1-fasrc01

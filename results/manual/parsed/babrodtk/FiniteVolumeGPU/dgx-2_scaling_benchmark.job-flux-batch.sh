@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-fork-5894
+#FLUX: --job-name=blank-mango-9030
+#FLUX: --queue=dgx2q
+#FLUX: -t=10
 #FLUX: --urgency=16
 
 export OMPI_MCA_opal_cuda_support='true'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-pedo-5430
+#FLUX: --job-name=chunky-latke-8070
 #FLUX: --queue=ckpt
 #FLUX: -t=172800
 #FLUX: --urgency=16

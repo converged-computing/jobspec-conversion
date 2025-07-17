@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-signal-3209
+#FLUX: --job-name=phat-salad-8701
+#FLUX: -c=32
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export GMX='gmx_mpi'

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-noodle-6960
+#FLUX: --job-name=loopy-squidward-6239
 #FLUX: -c=128
 #FLUX: --exclusive
+#FLUX: --queue=romeo
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

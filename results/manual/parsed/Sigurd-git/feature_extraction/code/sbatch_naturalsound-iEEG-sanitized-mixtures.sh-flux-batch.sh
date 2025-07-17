@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-carrot-9664
+#FLUX: --job-name=hello-knife-6693
+#FLUX: -c=10
+#FLUX: --queue=doppelbock
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 project=naturalsound-iEEG-sanitized-mixtures

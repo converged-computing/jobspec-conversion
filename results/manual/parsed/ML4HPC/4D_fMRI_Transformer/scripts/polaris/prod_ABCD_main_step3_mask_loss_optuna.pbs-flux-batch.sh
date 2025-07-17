@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-latke-6605
+#FLUX: --job-name=pusheena-cat-4635
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ML4HPC/4D_fMRI_Transformer/scripts/polaris/prod_ABCD_main_step3_mask_loss_optuna.pbs

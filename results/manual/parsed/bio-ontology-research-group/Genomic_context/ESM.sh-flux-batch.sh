@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-diablo-1555
+#FLUX: --job-name=ESM
 #FLUX: -c=4
 #FLUX: --queue=batch
 #FLUX: -t=7200

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-taco-8223
+#FLUX: --job-name=train_val
 #FLUX: -c=4
+#FLUX: --queue=lianglab,research
+#FLUX: -t=921600
 #FLUX: --urgency=16
 
 source ~/.bashrc

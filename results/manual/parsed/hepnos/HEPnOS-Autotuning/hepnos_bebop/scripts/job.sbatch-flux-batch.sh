@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-poo-7670
+#FLUX: --job-name=psycho-chip-5368
+#FLUX: -N=4
+#FLUX: --queue=bdwall
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

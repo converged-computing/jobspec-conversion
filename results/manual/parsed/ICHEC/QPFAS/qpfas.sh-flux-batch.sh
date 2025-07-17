@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-destiny-4994
+#FLUX: --job-name=nerdy-snack-8688
+#FLUX: --queue=DevQ
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export QPFAS_DEVICE_ID='kay_hpc_cluster'

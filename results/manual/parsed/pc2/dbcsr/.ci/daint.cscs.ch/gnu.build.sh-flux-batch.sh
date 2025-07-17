@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-pot-0724
+#FLUX: --job-name=lovely-peanut-butter-6064
 #FLUX: -c=3
 #FLUX: --exclusive
 #FLUX: --queue=cscsci

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-parsnip-2601
+#FLUX: --job-name=bert
+#FLUX: -n=4
+#FLUX: --queue=rtx
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module load cuda/10.1

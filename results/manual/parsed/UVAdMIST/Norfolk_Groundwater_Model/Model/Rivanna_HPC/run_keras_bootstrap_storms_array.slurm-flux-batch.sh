@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lamp-2470
+#FLUX: --job-name=astute-onion-1474
+#FLUX: --queue=gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-poodle-1779
+#FLUX: --job-name=main
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=1209600

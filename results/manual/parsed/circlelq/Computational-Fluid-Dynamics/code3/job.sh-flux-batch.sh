@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peanut-butter-1067
+#FLUX: --job-name=lqy
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 module load matlab/R2021a

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-fork-9681
+#FLUX: --job-name=findMotifsHomer
+#FLUX: -n=8
+#FLUX: --queue=core
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module load bioinfo-tools

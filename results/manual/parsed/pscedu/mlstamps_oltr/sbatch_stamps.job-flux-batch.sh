@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-staircase-5801
+#FLUX: --job-name=ornery-animal-9180
+#FLUX: --queue=GPU-shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 set +x

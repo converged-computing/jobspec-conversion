@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-car-7366
+#FLUX: --job-name=Cifar10-4node
+#FLUX: -N=4
+#FLUX: -n=4
+#FLUX: --queue=normal
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'

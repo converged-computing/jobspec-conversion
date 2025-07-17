@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-muffin-5346
+#FLUX: --job-name=climseg_horovod
+#FLUX: --queue=regular
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='66'

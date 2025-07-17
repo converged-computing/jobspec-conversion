@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bits-8620
+#FLUX: --job-name=rfnext-tissuenet-w-2C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

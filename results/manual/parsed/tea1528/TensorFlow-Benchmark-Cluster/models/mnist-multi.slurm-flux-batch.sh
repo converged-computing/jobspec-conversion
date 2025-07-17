@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pedo-3124
+#FLUX: --job-name=dirty-bicycle-6735
 #FLUX: --queue=maxwell
 #FLUX: -t=72000
 #FLUX: --urgency=16

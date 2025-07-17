@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-chair-8013
+#FLUX: --job-name=reclusive-cherry-5190
+#FLUX: -c=2
+#FLUX: --queue=tier3
+#FLUX: -t=7566
 #FLUX: --urgency=16
 
 folder=$1

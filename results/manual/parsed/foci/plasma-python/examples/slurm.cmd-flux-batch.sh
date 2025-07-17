@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-signal-8544
+#FLUX: --job-name=phat-chip-3828
+#FLUX: -N=3
+#FLUX: -c=4
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export OMPI_MCA_btl='tcp,self,sm'

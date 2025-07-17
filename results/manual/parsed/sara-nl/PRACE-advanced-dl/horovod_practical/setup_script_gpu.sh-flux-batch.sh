@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-egg-3054
+#FLUX: --job-name=lovely-egg-8219
+#FLUX: -n=2
+#FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 echo "[...] Environment setup Cartesius"

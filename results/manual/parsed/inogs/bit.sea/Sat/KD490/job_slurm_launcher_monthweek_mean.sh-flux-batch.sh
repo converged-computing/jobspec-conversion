@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=KID490_check
+#FLUX: --queue=gll_meteo_prod
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

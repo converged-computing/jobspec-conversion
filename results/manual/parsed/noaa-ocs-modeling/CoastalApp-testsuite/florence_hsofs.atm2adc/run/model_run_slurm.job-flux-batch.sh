@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lemur-4162
+#FLUX: --job-name=FLOFS_atm2adc_RUN
+#FLUX: -n=150
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 set -e

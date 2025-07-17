@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-squidward-8684
+#FLUX: --job-name=hanky-toaster-4342
+#FLUX: --queue=gpu20
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 echo "canonical pose data for whole body"

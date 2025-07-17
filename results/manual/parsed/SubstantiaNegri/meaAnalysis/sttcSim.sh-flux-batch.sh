@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-eagle-5747
+#FLUX: --job-name=confused-fork-0755
+#FLUX: --queue=priority
+#FLUX: -t=900
 #FLUX: --urgency=16
 
                                 # Or use HH:MM:SS or D-HH:MM:SS, instead of just number of minutes

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-dog-9163
+#FLUX: --job-name=bumfuzzled-cinnamonbun-2369
 #FLUX: -c=8
 #FLUX: --queue=synergy,cpu2019,cpu2021
 #FLUX: -t=604800

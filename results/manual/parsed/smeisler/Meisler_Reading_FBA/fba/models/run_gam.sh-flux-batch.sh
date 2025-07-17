@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-bike-3699
+#FLUX: --job-name=ModelArray
 #FLUX: -c=32
 #FLUX: -t=604800
 #FLUX: --urgency=16

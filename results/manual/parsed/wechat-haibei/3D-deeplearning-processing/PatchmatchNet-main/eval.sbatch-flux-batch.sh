@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fudge-5401
+#FLUX: --job-name=patch
+#FLUX: -N=4
+#FLUX: -n=8
+#FLUX: --queue=kshctest
 #FLUX: --urgency=16
 
 module rm compiler/rocm/2.9

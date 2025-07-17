@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pedo-6751
+#FLUX: --job-name=RUN
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PATH='/gpfs/alpine/stf008/scratch/bing/hacc_io/tau/tau2/x86_64/bin:$PATH'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-poodle-6279
+#FLUX: --job-name=STREAM
+#FLUX: --queue=fpgasyn
 #FLUX: --urgency=16
 
 INTEL_SDK=21.2.0

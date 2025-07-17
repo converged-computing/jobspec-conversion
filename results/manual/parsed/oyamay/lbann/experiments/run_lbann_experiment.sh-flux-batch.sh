@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-spoon-6419
+#FLUX: --job-name=hello-parrot-8729
 #FLUX: --urgency=16
 
 EXPERIMENT_NAME=lbann_alexnet

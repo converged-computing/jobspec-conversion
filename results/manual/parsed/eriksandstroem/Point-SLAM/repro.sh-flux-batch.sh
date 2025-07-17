@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-muffin-4136
+#FLUX: --job-name=phat-lemon-1228
 #FLUX: --urgency=16
 
 export PATH='/home/esandstroem/scratch/venvs/point_slam_env_github/bin:$PATH'

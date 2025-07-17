@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-salad-5062
+#FLUX: --job-name=fuzzy-soup-9544
+#FLUX: -n=5
+#FLUX: -t=0
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/cudnn-8.0/lib64:$LD_LIBRARY_PATH'

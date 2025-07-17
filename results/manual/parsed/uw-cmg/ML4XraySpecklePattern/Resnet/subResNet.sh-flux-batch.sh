@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-kitty-6855
+#FLUX: --job-name=persnickety-poo-0964
+#FLUX: --queue=sbel_cmg
+#FLUX: -t=345660
 #FLUX: --urgency=16
 
 conda activate keras

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-punk-8659
+#FLUX: --job-name=KHARMA
+#FLUX: --queue=batch
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

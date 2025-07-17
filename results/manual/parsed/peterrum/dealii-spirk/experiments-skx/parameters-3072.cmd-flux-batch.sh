@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-cattywampus-7361
+#FLUX: --job-name=LIKWID
 #FLUX: -N=64
 #FLUX: --queue=general
 #FLUX: -t=1800

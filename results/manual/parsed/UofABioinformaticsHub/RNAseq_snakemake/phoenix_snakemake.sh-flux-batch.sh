@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cat-0779
+#FLUX: --job-name=crunchy-motorcycle-7071
+#FLUX: -n=16
+#FLUX: --queue=batch
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

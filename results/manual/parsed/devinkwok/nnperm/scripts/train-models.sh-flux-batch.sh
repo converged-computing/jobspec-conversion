@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-parsnip-5964
+#FLUX: --job-name=stanky-fudge-4557
 #FLUX: -c=4
 #FLUX: --queue=long
 #FLUX: -t=604800

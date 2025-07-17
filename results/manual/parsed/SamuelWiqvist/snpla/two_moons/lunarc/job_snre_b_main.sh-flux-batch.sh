@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-chip-5382
+#FLUX: --job-name=snre_b
 #FLUX: --exclusive
+#FLUX: --queue=lu
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 MAX_SEED_VAL=10

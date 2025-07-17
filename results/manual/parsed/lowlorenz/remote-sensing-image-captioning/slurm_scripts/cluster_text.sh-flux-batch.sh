@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-avocado-7819
+#FLUX: --job-name=cluster_t_0
 #FLUX: -c=16
 #FLUX: --queue=gpu_short
 #FLUX: -t=82800

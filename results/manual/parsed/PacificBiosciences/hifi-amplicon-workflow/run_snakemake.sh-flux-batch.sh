@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-plant-6438
+#FLUX: --job-name=sticky-lemon-4998
 #FLUX: -c=4
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 umask 002

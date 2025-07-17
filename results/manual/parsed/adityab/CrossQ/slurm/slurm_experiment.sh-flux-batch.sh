@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cinnamonbun-0196
+#FLUX: --job-name=CrossQ
+#FLUX: -c=4
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export GTIMER_DISABLE='1'

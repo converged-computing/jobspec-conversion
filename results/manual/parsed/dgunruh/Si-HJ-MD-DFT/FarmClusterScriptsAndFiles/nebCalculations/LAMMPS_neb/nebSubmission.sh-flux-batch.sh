@@ -2,6 +2,7 @@
 #FLUX: --job-name=NEB
 #FLUX: -n=64
 #FLUX: --queue=med2
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

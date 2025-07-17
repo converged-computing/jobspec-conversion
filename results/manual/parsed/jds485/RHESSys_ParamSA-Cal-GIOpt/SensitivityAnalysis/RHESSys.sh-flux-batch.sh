@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-plant-2118
+#FLUX: --job-name=rainbow-egg-6774
+#FLUX: --queue=standard
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load singularity

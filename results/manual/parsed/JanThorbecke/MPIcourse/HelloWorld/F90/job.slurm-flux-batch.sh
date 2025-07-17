@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hope-1619
+#FLUX: --job-name=hello-mpi
 #FLUX: -n=2
 #FLUX: --exclusive
+#FLUX: --queue=compute
 #FLUX: -t=60
 #FLUX: --urgency=16
 

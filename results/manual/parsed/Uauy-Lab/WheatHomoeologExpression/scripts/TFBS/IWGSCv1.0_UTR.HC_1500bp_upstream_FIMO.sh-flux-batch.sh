@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-dog-0233
+#FLUX: --job-name=fuzzy-parsnip-6733
+#FLUX: -c=8
+#FLUX: --queue=RG-Cristobal-Uauy
 #FLUX: --urgency=16
 
 cd /nbi/Research-Groups/NBI/Cristobal-Uauy/Jemima/companion_paper/

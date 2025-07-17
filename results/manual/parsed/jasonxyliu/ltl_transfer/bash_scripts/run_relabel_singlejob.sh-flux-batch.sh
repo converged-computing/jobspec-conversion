@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-car-0429
+#FLUX: --job-name=arid-malarkey-1334
+#FLUX: -N=3
+#FLUX: -n=144
+#FLUX: -t=356400
 #FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'

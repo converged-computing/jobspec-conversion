@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-taco-1229
+#FLUX: --job-name=hanky-citrus-8089
+#FLUX: -N=2
+#FLUX: -n=16
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 module load openmpi/4.1.4

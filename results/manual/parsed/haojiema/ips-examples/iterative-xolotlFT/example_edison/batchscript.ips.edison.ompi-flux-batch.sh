@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-banana-6175
+#FLUX: --job-name=salted-butter-3354
 #FLUX: -N=2
 #FLUX: --queue=regular
 #FLUX: -t=43200

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-cherry-7926
+#FLUX: --job-name=milky-underoos-4278
+#FLUX: -c=8
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lentil-9647
+#FLUX: --job-name=creamy-staircase-7778
 #FLUX: -c=2
+#FLUX: -t=172815
 #FLUX: --urgency=16
 
 module load r/3.4.0

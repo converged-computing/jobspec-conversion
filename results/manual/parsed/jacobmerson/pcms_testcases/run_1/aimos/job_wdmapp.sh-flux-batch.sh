@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-blackbean-2651
+#FLUX: --job-name=chocolate-leader-6172
+#FLUX: -N=8
+#FLUX: -n=320
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 run() {

@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-ricecake-6086
+#FLUX: --job-name=cox_2D_BL_tr4
+#FLUX: -N=4
+#FLUX: -n=192
+#FLUX: --queue=workq
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 date

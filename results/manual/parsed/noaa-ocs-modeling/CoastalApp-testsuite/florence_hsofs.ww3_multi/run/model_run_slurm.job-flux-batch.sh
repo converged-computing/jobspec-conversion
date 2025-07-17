@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-staircase-0495
+#FLUX: --job-name=FLOFS_ww3_multi_RUN
+#FLUX: -n=180
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 set -e

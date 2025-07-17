@@ -2,6 +2,7 @@
 #FLUX: --job-name=gridDown
 #FLUX: -n=40
 #FLUX: --exclusive
+#FLUX: --queue=main
 #FLUX: -t=0
 #FLUX: --urgency=16
 

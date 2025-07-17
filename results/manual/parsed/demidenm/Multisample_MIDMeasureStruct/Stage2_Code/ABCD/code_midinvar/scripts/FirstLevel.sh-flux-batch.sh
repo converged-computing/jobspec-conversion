@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-pedo-5531
+#FLUX: --job-name=first_projinv
 #FLUX: -c=6
+#FLUX: --queue=msismall,amdsmall
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 source $HOME/miniconda3/etc/profile.d/conda.sh

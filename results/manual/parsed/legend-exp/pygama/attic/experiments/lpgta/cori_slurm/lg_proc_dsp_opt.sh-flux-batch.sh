@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-blackbean-3706
+#FLUX: --job-name=blank-leopard-2134
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

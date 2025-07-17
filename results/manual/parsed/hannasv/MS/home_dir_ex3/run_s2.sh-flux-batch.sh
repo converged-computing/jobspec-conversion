@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-butter-2015
+#FLUX: --job-name=anxious-train-1189
+#FLUX: -n=32
+#FLUX: --queue=defq
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

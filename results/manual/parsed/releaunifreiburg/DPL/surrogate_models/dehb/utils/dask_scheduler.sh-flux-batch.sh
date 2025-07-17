@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-caramel-6322
+#FLUX: --job-name=scheduler
+#FLUX: -c=2
+#FLUX: --queue=cluster-name
+#FLUX: -t=518400
 #FLUX: --urgency=16
 
 while getopts f:e: flag

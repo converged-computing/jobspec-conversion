@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-poo-3999
+#FLUX: --job-name=psycho-egg-9181
 #FLUX: -c=8
 #FLUX: --queue=gpgpu
 #FLUX: -t=172800

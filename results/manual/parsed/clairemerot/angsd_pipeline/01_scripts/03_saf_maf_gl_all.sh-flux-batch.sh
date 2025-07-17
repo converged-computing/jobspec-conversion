@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-eagle-0301
+#FLUX: --job-name=03_saf_maf_gl_all_maxdepth
+#FLUX: -c=4
+#FLUX: --queue=medium
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

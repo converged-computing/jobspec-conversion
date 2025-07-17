@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-milkshake-7621
+#FLUX: --job-name=outstanding-parsnip-8184
 #FLUX: -c=40
+#FLUX: --queue=rise
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'

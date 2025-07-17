@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-noodle-2897
+#FLUX: --job-name=psycho-parsnip-9006
 #FLUX: -c=4
 #FLUX: --exclusive
 #FLUX: --queue=compute

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-poodle-5831
+#FLUX: --job-name=resp_postproc
 #FLUX: --queue=bigmem
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 export LAUNCHER_WORKDIR='/cluster/projects/nn9464k/fabio/OSCAR_response_results/641159/data'

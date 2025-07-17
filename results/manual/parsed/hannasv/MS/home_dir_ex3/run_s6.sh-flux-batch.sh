@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-noodle-1134
+#FLUX: --job-name=fugly-onion-7514
+#FLUX: -n=32
+#FLUX: --queue=defq
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

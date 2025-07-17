@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-platanos-2282
+#FLUX: --job-name=chocolate-bike-7154
 #FLUX: -n=6
+#FLUX: --queue=GPU
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 MY_TMP_DIR=/slurmtmp/${SLURM_JOB_USER}.${SLURM_JOB_ID}

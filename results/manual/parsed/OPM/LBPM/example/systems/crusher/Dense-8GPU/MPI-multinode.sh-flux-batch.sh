@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-spoon-6142
+#FLUX: --job-name=MPI-multinode
+#FLUX: -N=8
 #FLUX: --exclusive
+#FLUX: --queue=batch
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export PE_MPICH_GTL_DIR_amd_gfx90a='-L${CRAY_MPICH_ROOTDIR}/gtl/lib'

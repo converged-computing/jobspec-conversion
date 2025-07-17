@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-animal-3846
+#FLUX: --job-name=delicious-caramel-5898
+#FLUX: -n=4
 #FLUX: --urgency=16
 
 module load anaconda/2023a

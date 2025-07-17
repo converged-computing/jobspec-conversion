@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cupcake-6708
+#FLUX: --job-name=dirty-underoos-7814
 #FLUX: -N=4
 #FLUX: -n=4
 #FLUX: --queue=west

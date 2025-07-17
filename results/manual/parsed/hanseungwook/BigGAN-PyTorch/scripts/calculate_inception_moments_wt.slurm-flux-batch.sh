@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-muffin-4065
+#FLUX: --job-name=calc_IS_FID
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

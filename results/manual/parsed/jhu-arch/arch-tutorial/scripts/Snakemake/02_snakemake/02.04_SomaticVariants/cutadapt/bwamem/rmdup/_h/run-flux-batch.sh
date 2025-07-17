@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bits-2373
+#FLUX: --job-name=rmdup
 #FLUX: -c=4
+#FLUX: --queue=defq
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-ricecake-3776
+#FLUX: --job-name=joyous-bits-2408
+#FLUX: --queue=short
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load miniconda

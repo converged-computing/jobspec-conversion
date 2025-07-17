@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cat-5679
+#FLUX: --job-name=butterscotch-noodle-2462
+#FLUX: --queue=physical
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 export UNZIP_DISABLE_ZIPBOMB_DETECTION='true'

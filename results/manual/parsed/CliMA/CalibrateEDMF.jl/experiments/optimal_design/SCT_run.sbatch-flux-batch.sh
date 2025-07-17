@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-kerfuffle-2461
+#FLUX: --job-name=hadgem
 #FLUX: -n=10
 #FLUX: -t=7200
 #FLUX: --urgency=16

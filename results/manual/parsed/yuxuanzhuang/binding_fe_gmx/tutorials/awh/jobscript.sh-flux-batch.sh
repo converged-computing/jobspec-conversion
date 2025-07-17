@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-milkshake-6908
+#FLUX: --job-name=awh_epj
+#FLUX: -n=4
+#FLUX: --queue=lindahl1,lindahl2,lindahl3,lindahl4
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module unload gromacs

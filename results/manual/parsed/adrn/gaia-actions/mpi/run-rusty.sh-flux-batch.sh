@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-buttface-3729
+#FLUX: --job-name=actions
+#FLUX: -N=12
+#FLUX: --queue=cca
+#FLUX: -t=129600
 #FLUX: --urgency=16
 
 source ~/.bash_profile

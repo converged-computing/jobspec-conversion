@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-spoon-6204
+#FLUX: --job-name=helloWorld
 #FLUX: --urgency=16
 
 module load gcc/12.2

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-parsnip-5316
+#FLUX: --job-name=pusheena-poo-1693
 #FLUX: -N=10
 #FLUX: --exclusive
 #FLUX: --queue=c7gnpg

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-signal-9111
+#FLUX: --job-name=cutadapt
 #FLUX: -c=4
+#FLUX: --queue=defq
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

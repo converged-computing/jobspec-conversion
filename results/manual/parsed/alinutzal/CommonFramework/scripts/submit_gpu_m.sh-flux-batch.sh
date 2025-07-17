@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-knife-2204
+#FLUX: --job-name=gnn4itk
 #FLUX: -c=20
 #FLUX: -t=18000
 #FLUX: --urgency=16

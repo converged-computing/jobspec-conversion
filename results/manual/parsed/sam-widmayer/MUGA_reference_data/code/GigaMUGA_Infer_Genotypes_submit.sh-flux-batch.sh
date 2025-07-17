@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-snack-2538
+#FLUX: --job-name=MUGA_REF_INFER_GENOS
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 config=/projects/compsci/vmp/USERS/widmas/MUGA_reference_data/data/GigaMUGA/chrs.txt

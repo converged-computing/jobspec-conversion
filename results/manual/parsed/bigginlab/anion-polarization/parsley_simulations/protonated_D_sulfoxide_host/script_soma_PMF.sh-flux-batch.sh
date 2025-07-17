@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-animal-5050
+#FLUX: --job-name=D_Cl_water_parsley
 #FLUX: -c=8
+#FLUX: --queue=gpu-biggin
 #FLUX: -t=518400
 #FLUX: --urgency=16
 

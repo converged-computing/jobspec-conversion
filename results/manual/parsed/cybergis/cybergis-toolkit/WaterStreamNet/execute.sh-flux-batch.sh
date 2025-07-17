@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-platanos-9646
+#FLUX: --job-name=misunderstood-carrot-8897
+#FLUX: -n=12
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

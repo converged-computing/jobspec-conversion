@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-toaster-9599
+#FLUX: --job-name=hanky-frito-1860
+#FLUX: -n=2
+#FLUX: -c=4
+#FLUX: --queue=itc_gpu
+#FLUX: -t=190
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'

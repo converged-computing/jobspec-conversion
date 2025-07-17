@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bicycle-6266
+#FLUX: --job-name=IMAGING
 #FLUX: -N=16
 #FLUX: -n=32
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

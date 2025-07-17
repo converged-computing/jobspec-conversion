@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pedo-4386
+#FLUX: --job-name=rnaseq
 #FLUX: -c=48
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 cat $0

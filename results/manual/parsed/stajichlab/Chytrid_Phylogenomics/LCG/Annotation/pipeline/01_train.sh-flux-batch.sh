@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=TrainFun
 #FLUX: -n=16
+#FLUX: --queue=intel
 #FLUX: -t=260100
 #FLUX: --urgency=16
 

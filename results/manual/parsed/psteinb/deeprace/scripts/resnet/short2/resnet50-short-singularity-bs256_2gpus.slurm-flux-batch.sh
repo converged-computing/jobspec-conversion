@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bicycle-5145
+#FLUX: --job-name=boopy-kitty-2018
+#FLUX: --queue=gpu2
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

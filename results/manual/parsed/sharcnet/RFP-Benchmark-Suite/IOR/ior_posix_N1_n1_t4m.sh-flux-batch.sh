@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-malarkey-9645
+#FLUX: --job-name=rainbow-nunchucks-2046
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 FS=scratch

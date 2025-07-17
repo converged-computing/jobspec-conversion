@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-peanut-2363
+#FLUX: --job-name=butterscotch-plant-0720
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000

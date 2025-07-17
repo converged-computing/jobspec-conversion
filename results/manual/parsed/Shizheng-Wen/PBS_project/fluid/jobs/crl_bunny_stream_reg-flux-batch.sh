@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=crl_bunny_stream_reg
+#FLUX: -n=16
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

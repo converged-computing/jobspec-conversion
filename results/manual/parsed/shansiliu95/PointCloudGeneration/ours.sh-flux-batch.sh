@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-dog-5248
+#FLUX: --job-name=milky-frito-4484
+#FLUX: -n=12
+#FLUX: --queue=volta-gpu
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 source activate tf_v100

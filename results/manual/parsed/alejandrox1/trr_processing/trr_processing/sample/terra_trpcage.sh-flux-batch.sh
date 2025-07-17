@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-animal-7846
+#FLUX: --job-name=Preferential
+#FLUX: -N=2
+#FLUX: -n=32
 #FLUX: --exclusive
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load intel

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-arm-7224
+#FLUX: --job-name=faux-frito-1496
 #FLUX: -c=6
 #FLUX: --queue=gpuk80
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export SINGULARITY_HOME='$PWD:/home/$USER'

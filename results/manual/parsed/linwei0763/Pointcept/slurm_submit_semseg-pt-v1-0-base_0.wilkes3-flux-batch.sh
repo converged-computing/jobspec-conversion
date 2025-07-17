@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-fork-2680
+#FLUX: --job-name=pointcept-semseg-pt-v1-0-base
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

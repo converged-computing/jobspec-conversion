@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=covid10k-bpsamples-R2
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load R/3.6.3

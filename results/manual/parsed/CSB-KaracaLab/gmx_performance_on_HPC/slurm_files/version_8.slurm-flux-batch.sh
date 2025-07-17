@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-bicycle-2158
+#FLUX: --job-name=akya_2020_sys_1gpu
+#FLUX: -n=40
+#FLUX: --queue=akya-cuda
 #FLUX: -t=1296000
 #FLUX: --urgency=16
 

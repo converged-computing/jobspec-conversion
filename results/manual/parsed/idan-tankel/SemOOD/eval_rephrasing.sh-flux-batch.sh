@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-truffle-1043
+#FLUX: --job-name=Eval_reprhasing_%a
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

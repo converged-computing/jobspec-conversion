@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-diablo-5891
+#FLUX: --job-name=adorable-avocado-6562
+#FLUX: -n=8
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 echo "running...."

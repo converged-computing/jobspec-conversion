@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lizard-2585
+#FLUX: --job-name=array_test_rnd
+#FLUX: --queue=test
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 module load matlab

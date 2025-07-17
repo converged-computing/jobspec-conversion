@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-gato-6061
+#FLUX: --job-name=OntoMoPs_TransRA
+#FLUX: --queue=ampere
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

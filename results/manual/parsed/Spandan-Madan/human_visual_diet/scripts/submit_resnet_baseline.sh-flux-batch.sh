@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chip-2523
+#FLUX: --job-name=stanky-itch-6858
 #FLUX: --queue=seas_gpu
 #FLUX: -t=259200
 #FLUX: --urgency=16

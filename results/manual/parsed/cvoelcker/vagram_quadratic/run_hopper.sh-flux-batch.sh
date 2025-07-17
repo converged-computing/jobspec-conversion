@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ant-vagram
+#FLUX: --queue=rtx6000,t4v1,t4v2,p100
 #FLUX: -t=57600
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-lemur-6631
+#FLUX: --job-name=bloated-lettuce-9151
+#FLUX: --queue=awhite
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module load anaconda3/2020.11

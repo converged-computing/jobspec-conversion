@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-taco-9735
+#FLUX: --job-name=rainbow-lamp-3012
 #FLUX: -c=4
 #FLUX: --queue=general
 #FLUX: -t=3600

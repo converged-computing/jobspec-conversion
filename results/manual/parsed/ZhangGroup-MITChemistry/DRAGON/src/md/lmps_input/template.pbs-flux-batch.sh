@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=lmps
+#FLUX: -n=14
 #FLUX: --queue=mit
 #FLUX: -t=172800
 #FLUX: --urgency=16

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-chair-8714
+#FLUX: --job-name=peachy-destiny-6270
+#FLUX: --queue=general
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load python

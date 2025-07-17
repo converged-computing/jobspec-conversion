@@ -2,6 +2,8 @@
 #FLUX: --job-name=milestoning
 #FLUX: -c=4
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=standard
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module load cuda/10.1.243

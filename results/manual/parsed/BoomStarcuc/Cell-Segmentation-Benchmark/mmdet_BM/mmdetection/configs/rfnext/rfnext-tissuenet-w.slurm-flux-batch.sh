@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-general-9938
+#FLUX: --job-name=rfnext-tissuenet-w-1C
+#FLUX: --queue=tier3
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

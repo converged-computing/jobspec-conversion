@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-leg-2493
+#FLUX: --job-name=fat-diablo-5979
+#FLUX: -c=256
+#FLUX: --queue=ai-jumpstart
 #FLUX: --urgency=16
 
 source ~/modules/pytorch/latest

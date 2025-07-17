@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-avocado-9367
+#FLUX: --job-name=frigid-destiny-0824
+#FLUX: -n=32
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

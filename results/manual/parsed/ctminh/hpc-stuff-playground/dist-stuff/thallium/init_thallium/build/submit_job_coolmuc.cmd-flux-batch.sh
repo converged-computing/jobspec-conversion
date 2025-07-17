@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-malarkey-3486
+#FLUX: --job-name=init_thallium
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120

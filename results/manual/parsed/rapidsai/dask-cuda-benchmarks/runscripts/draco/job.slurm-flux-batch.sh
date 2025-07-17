@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=dask-cuda-bench
 #FLUX: -c=16
+#FLUX: --queue=batch_dgx1_m2
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export RUNDIR_HOST='$(readlink -f $(pwd))'

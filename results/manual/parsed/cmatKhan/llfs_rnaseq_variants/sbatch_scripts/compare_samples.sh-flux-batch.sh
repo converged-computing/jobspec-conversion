@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-carrot-9224
+#FLUX: --job-name=rna_dna_compare
 #FLUX: --urgency=16
 
 eval $(spack load --sh singularityce@3.11.4)

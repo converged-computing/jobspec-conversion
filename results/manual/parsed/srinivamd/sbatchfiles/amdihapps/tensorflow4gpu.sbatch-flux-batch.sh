@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-salad-5805
+#FLUX: --job-name=phat-signal-4964
 #FLUX: -c=16
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-nalgas-1152
+#FLUX: --job-name=hello-destiny-6763
+#FLUX: --queue=standard
+#FLUX: -t=59400
 #FLUX: --urgency=16
 
 module purge

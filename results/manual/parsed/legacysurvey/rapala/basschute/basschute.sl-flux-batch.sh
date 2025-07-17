@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lamp-8330
+#FLUX: --job-name=basschute
+#FLUX: --queue=regular
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 export XARGS='--maxmem $MAXMEM $XARGS'

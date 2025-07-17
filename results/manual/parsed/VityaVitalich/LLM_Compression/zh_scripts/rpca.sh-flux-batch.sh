@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=llmcompr
+#FLUX: -c=8
 #FLUX: --queue=ais-gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

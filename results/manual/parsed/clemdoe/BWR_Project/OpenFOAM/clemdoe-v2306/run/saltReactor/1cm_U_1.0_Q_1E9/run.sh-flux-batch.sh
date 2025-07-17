@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-signal-5086
+#FLUX: --job-name=33_100cm_U_0.25_Q_100E6
 #FLUX: -n=40
 #FLUX: --urgency=16
 

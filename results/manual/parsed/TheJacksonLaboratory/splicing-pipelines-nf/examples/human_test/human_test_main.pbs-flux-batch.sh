@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-itch-4543
+#FLUX: --job-name=rainbow-rabbit-1390
 #FLUX: -c=4
+#FLUX: --queue=batch
+#FLUX: -t=205200
 #FLUX: --urgency=16
 
 export NXF_VER='20.04.1'

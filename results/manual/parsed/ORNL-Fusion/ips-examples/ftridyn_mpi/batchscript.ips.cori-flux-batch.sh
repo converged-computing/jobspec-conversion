@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-avocado-1801
+#FLUX: --job-name=eccentric-muffin-0857
 #FLUX: --queue=debug
 #FLUX: -t=1800
 #FLUX: --urgency=16

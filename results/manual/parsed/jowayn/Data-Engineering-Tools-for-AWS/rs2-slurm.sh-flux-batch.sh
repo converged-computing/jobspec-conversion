@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-hippo-7778
+#FLUX: --job-name=rs2
 #FLUX: -c=5
 #FLUX: -t=86400
 #FLUX: --urgency=16

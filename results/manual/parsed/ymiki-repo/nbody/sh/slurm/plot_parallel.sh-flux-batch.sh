@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fork-1882
+#FLUX: --job-name=visualize
 #FLUX: -n=8
+#FLUX: --queue=regular
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-house-5690
+#FLUX: --job-name=BFC
+#FLUX: --queue=defq,short
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 name1=$(sed -n "$SLURM_ARRAY_TASK_ID"p seq_list.txt)

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-egg-9350
+#FLUX: --job-name=dynadojo_run
+#FLUX: -t=150
 #FLUX: --urgency=16
 
 PARAMS_FILE=$1

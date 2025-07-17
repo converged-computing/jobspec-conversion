@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lemon-7766
+#FLUX: --job-name=placid-pancake-9767
+#FLUX: -n=28
 #FLUX: --exclusive
+#FLUX: -t=2400
 #FLUX: --urgency=16
 
 ml purge > /dev/null 2>&1

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NF-hichip_alignment
+#FLUX: -t=151200
 #FLUX: --urgency=16
 
 export TERM='xterm'

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ghais_rna_seq
+#FLUX: --queue=batch
 #FLUX: -t=82800
 #FLUX: --urgency=16
 

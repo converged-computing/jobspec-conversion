@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lettuce-3142
+#FLUX: --job-name=tart-bits-7500
+#FLUX: -c=6
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='5'

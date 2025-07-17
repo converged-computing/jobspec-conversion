@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-squidward-6873
+#FLUX: --job-name=conspicuous-nalgas-0415
 #FLUX: -N=2
 #FLUX: -c=10
 #FLUX: -t=28800

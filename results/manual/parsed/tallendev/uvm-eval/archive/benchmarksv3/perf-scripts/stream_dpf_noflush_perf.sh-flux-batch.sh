@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-chair-3750
+#FLUX: --job-name=stream-dpf-noflush-perf
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

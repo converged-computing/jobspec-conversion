@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-noodle-0535
+#FLUX: --job-name=fitMAGE
+#FLUX: --queue=conroy_priority,itc_cluster,shared,serial_requeue
+#FLUX: -t=180
 #FLUX: --urgency=16
 
 module load python

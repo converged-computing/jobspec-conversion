@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-latke-2202
+#FLUX: --job-name=peachy-puppy-4074
+#FLUX: -c=2
+#FLUX: --queue=p100
 #FLUX: --urgency=16
 
 JOB_ID=${SLURM_JOB_ID}

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cherry-2760
+#FLUX: --job-name=doopy-platanos-5809
 #FLUX: -n=64
 #FLUX: --queue=amd
 #FLUX: -t=13800

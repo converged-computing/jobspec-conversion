@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-onion-4156
+#FLUX: --job-name=outstanding-squidward-7951
 #FLUX: --urgency=16
 
 AnnotateVariantsDir=/shared/AnnotateVariants/

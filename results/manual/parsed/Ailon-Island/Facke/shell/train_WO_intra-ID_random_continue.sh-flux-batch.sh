@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-spoon-3305
+#FLUX: --job-name=Facke_cont_WO_intra-Id_random
+#FLUX: --queue=gpu
+#FLUX: -t=900000
 #FLUX: --urgency=16
 
 module load anaconda3/2019.07

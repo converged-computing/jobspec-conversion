@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-caramel-8466
+#FLUX: --job-name=purple-staircase-2948
+#FLUX: -c=4
+#FLUX: --queue=gpu
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module load gcc/6.2.0

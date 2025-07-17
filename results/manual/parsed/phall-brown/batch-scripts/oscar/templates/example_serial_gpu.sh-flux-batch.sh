@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-pastry-6141
+#FLUX: --job-name=MySerialJob
 #FLUX: --queue=gpu
 #FLUX: -t=300
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-kerfuffle-3142
+#FLUX: --job-name=boopy-lamp-8782
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UCL/GMCMC/pbs/Locke_Benchmark_Simp_mMALA.sh

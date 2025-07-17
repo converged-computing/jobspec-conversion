@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ipra-leveldb
 #FLUX: -c=32
+#FLUX: --queue=short
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

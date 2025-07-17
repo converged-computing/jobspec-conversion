@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-animal-5025
+#FLUX: --job-name=hairy-truffle-5572
+#FLUX: --queue=slurm_priority
+#FLUX: -t=1209780
 #FLUX: --urgency=16
 
 module load usermods

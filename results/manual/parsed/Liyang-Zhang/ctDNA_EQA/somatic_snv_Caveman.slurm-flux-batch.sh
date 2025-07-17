@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=test
+#FLUX: --job-name=Caveman
 #FLUX: --queue=small
 #FLUX: --urgency=16
 

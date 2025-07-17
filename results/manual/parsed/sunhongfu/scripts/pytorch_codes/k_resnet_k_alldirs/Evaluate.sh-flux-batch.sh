@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=eval_kspace_unet_stack_D_shift_NOresnet
+#FLUX: -c=3
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=S2_TEannot
+#FLUX: --queue=intel
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

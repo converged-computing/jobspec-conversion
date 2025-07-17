@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-chip-1922
+#FLUX: --job-name=nerdy-despacito-2096
 #FLUX: --urgency=16
 
 module purge

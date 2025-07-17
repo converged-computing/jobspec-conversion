@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=tabula_muris paretoMTL_MINE
+#FLUX: --queue=physical
 #FLUX: -t=381600
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-salad-5190
+#FLUX: --job-name=mdd
+#FLUX: -n=4
 #FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16

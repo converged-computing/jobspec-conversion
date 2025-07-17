@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-buttface-1424
+#FLUX: --job-name=dask-cluster
 #FLUX: --exclusive
 #FLUX: --queue=cpu_med
 #FLUX: -t=3600

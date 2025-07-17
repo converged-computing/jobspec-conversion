@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=megatron-multinode-ib
+#FLUX: -N=2
+#FLUX: -c=80
 #FLUX: --queue=h800-ib-2
 #FLUX: --urgency=16
 

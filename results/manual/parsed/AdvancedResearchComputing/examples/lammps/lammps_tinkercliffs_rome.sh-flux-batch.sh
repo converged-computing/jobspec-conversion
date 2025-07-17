@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lemon-4104
+#FLUX: --job-name=anxious-cat-8907
+#FLUX: --queue=dev_q
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module reset

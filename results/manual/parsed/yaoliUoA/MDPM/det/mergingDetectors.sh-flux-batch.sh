@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lettuce-4688
+#FLUX: --job-name=spicy-egg-9084
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yaoliUoA/MDPM/det/mergingDetectors.sh

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-onion-2278
+#FLUX: --job-name=inversion
+#FLUX: --queue=singlepe
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 myiter=antbe6 #name (APPL) of this iteration

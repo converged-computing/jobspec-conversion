@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-toaster-2795
+#FLUX: --job-name=angry-punk-8992
 #FLUX: --exclusive
 #FLUX: --queue=interactive
 #FLUX: -t=60

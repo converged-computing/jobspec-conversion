@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pot-6833
+#FLUX: --job-name=tensorflow-mnist-docker
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 docker run -td --gpus all -v /home/__xUSERx__:/home/__xUSERx__ --rm --ipc=host --net=host --name tensorflow-__xUSERx__ tensorflow-__xUSERx__

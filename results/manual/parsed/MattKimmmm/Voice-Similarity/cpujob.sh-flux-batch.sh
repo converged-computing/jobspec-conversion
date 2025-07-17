@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-cat-0384
+#FLUX: --job-name=creamy-underoos-6300
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MattKimmmm/Voice-Similarity/cpujob.sh

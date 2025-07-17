@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-squidward-5428
+#FLUX: --job-name=5VKE_25-122_6
+#FLUX: -n=8
+#FLUX: --queue=tcb
+#FLUX: -t=84600
 #FLUX: --urgency=16
 
 module unload gromacs

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-malarkey-8843
+#FLUX: --job-name=grated-chip-3795
 #FLUX: -c=24
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

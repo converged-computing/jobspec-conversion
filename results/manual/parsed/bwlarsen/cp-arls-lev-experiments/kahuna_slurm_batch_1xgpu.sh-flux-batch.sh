@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leader-5744
+#FLUX: --job-name=misunderstood-toaster-1627
+#FLUX: -c=4
 #FLUX: --exclusive
+#FLUX: --queue=1xgpu
+#FLUX: -t=561600
 #FLUX: --urgency=16
 
 module load matlab

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-chair-9081
+#FLUX: --job-name=utdNodesAll
+#FLUX: -n=16
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ml load matlab

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-pedo-6907
+#FLUX: --job-name=PELE_MPI
 #FLUX: -n=2
 #FLUX: --urgency=16
 

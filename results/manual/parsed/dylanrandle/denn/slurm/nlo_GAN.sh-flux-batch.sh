@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-bits-7832
+#FLUX: --job-name=nlo_gan
+#FLUX: -n=48
+#FLUX: --queue=test
+#FLUX: -t=360
 #FLUX: --urgency=16
 
 module load gcc/10.2.0-fasrc01

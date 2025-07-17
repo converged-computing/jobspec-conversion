@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pastry-2373
+#FLUX: --job-name=hpc_gpu2_fairseq
 #FLUX: -c=6
+#FLUX: --queue=gpu2
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

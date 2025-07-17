@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-chair-5105
+#FLUX: --job-name=placid-cherry-2146
+#FLUX: -c=256
+#FLUX: --queue=ai-jumpstart
 #FLUX: --urgency=16
 
 source ~/modules/pytorch/latest

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-fork-6080
+#FLUX: --job-name=frigid-noodle-8289
+#FLUX: --queue=A100
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

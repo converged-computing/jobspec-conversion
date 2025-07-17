@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-leopard-7645
+#FLUX: --job-name=ai
 #FLUX: -c=4
 #FLUX: --queue=dell
 #FLUX: --urgency=16

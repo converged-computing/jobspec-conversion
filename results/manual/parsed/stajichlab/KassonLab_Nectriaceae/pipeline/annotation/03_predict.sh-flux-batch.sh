@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lizard-4105
+#FLUX: --job-name=eccentric-muffin-2542
 #FLUX: -n=16
+#FLUX: --queue=batch
 #FLUX: --urgency=16
 
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'

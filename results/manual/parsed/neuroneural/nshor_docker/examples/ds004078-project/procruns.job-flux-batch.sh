@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-motorcycle-3454
+#FLUX: --job-name=PRP4078
+#FLUX: -n=4
+#FLUX: -c=4
+#FLUX: --queue=qTRD
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

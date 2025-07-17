@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-bits-9634
+#FLUX: --job-name=dinosaur-soup-9975
 #FLUX: -n=16
 #FLUX: -t=1200
 #FLUX: --urgency=16

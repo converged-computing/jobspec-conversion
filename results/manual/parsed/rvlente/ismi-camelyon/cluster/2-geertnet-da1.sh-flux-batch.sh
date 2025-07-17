@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-knife-4076
+#FLUX: --job-name=delicious-caramel-2641
 #FLUX: -c=18
 #FLUX: --queue=gpu
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module load 2021

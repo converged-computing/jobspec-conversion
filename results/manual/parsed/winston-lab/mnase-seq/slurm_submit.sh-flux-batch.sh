@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lemon-8561
+#FLUX: --job-name=MNase-seq-snakemake
+#FLUX: -c=8
+#FLUX: --queue=short
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 snakemake -p \

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-cherry-4126
+#FLUX: --job-name=expensive-earthworm-5888
 #FLUX: --urgency=16
 
 export LOCAL_SCRATCH='/tmp/scratch/$USER'

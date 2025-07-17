@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-noodle-5452
+#FLUX: --job-name=dppc-p1
+#FLUX: -n=144
 #FLUX: --exclusive
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module use /apps/eb/modulefiles/all

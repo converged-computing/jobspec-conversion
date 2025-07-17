@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lettuce-9060
+#FLUX: --job-name=dask_launcher
+#FLUX: --queue=standard
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

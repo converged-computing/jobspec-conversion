@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bike-6229
+#FLUX: --job-name=salted-cat-2099
 #FLUX: --exclusive
+#FLUX: --queue=haswell
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

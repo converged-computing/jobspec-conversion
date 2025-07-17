@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-chair-2586
+#FLUX: --job-name=butterscotch-platanos-0352
+#FLUX: -c=4
+#FLUX: --queue=res-gpu-small
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'

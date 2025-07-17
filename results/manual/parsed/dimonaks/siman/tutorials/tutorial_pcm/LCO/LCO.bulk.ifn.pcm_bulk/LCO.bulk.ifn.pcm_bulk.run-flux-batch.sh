@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-punk-2227
+#FLUX: --job-name=LCO.bulk.ifn.pcm_bulk
+#FLUX: -n=16
+#FLUX: --queue=AMG-medium
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PATH='$PATH:/home/a.boev/tools/'

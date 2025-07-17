@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=dilation
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 cd /om/user/xboix/src/insideness/

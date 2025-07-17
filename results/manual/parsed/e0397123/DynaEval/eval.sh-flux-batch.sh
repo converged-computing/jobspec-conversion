@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=eval
+#FLUX: --queue=new
 #FLUX: --urgency=16
 
 export dataset='empathetic'

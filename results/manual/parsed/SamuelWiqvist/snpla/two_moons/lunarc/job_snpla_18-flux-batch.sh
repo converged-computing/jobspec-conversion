@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-staircase-5407
+#FLUX: --job-name=snpla
+#FLUX: --queue=lu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

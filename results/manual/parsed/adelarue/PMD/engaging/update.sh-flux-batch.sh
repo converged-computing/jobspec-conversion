@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-cinnamonbun-4806
+#FLUX: --job-name=pkg
+#FLUX: --queue=sched_mit_sloan_batch
 #FLUX: -t=360
 #FLUX: --urgency=16
 

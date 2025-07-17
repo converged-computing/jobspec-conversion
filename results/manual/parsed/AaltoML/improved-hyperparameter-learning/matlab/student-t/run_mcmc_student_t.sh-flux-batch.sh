@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-destiny-7789
+#FLUX: --job-name=crusty-itch-3105
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

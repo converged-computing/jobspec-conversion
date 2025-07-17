@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leg-7711
+#FLUX: --job-name=crunchy-platanos-7759
 #FLUX: -c=176
 #FLUX: --exclusive
 #FLUX: --queue=ml

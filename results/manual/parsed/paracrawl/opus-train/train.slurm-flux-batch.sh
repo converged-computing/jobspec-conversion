@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-pastry-5991
+#FLUX: --job-name=blank-pastry-8553
+#FLUX: --queue=pascal
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

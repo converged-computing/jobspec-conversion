@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=train-humanoid-td3-time-gpu
+#FLUX: -c=160
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=prop_gen
 #FLUX: --queue=prod
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='6'

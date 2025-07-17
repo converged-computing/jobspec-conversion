@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-arm-1170
+#FLUX: --job-name=SDSH_pam2adc_RUN
+#FLUX: -n=11
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

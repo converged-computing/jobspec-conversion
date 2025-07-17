@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-punk-2662
+#FLUX: --job-name=expensive-soup-3644
+#FLUX: --queue=alvis
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export HF_DATASETS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-citrus-4439
+#FLUX: --job-name=stinky-destiny-3451
+#FLUX: -c=2
+#FLUX: --queue=batch,intel
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

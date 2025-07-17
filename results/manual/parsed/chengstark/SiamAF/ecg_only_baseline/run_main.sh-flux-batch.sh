@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-noodle-8732
+#FLUX: --job-name=purple-buttface-2786
 #FLUX: --queue=overflow
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 source /labs/hulab/stark_conda/bin/activate

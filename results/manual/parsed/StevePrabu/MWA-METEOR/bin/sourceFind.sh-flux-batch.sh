@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-onion-0317
+#FLUX: --job-name=confused-arm-7553
 #FLUX: -n=36
+#FLUX: --queue=workq
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

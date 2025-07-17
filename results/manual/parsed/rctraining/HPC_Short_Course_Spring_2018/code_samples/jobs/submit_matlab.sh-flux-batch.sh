@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-soup-5679
+#FLUX: --job-name=rainbow-buttface-7692
 #FLUX: --queue=shas
 #FLUX: -t=120
 #FLUX: --urgency=16

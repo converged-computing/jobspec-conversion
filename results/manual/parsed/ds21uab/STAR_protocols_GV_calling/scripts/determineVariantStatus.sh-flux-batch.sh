@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-diablo-6517
+#FLUX: --job-name=hanky-parrot-1862
 #FLUX: -c=5
 #FLUX: --queue=partition
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

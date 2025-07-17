@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leopard-3796
+#FLUX: --job-name=strawberry-nalgas-1220
+#FLUX: --queue=pascal
 #FLUX: --urgency=16
 
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)

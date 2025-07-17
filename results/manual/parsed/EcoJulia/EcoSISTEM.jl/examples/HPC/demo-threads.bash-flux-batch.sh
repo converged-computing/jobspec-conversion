@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-nunchucks-8712
+#FLUX: --job-name=carnivorous-banana-7233
 #FLUX: -c=128
 #FLUX: --queue=smp
 #FLUX: -t=43200

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-bike-5015
+#FLUX: --job-name=5VKE_lb_25-122_2
+#FLUX: -n=8
+#FLUX: --queue=tcb
+#FLUX: -t=84600
 #FLUX: --urgency=16
 
 module unload gromacs

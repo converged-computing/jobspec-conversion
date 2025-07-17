@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-poodle-8444
+#FLUX: --job-name=bloated-house-1669
 #FLUX: --urgency=16
 
 if [ -e nrlmol_exe ]; then

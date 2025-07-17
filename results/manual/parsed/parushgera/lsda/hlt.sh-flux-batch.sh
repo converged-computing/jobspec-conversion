@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-leader-1460
+#FLUX: --job-name=boopy-motorcycle-0400
+#FLUX: --queue=CiBeR
 #FLUX: --urgency=16
 
 source activate nlp

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-house-7989
+#FLUX: --job-name=dinosaur-leg-6678
 #FLUX: -N=10
 #FLUX: -n=10
 #FLUX: --queue=west

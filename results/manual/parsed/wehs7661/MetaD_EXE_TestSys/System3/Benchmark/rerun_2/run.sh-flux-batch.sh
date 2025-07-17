@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=rerun_2
+#FLUX: -N=4
+#FLUX: --queue=RM
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 source /home/wehs7661/src/plumed2/sourceme.sh

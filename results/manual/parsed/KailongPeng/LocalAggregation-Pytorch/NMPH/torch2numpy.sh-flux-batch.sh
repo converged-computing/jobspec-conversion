@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=torch2numpy
+#FLUX: --queue=psych_day
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-salad-9027
+#FLUX: --job-name=selectLonLat
+#FLUX: --queue=regular
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 !/bin/bash

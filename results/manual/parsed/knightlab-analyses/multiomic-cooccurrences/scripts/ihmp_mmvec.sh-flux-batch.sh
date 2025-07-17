@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ihmp
 #FLUX: -n=16
+#FLUX: --queue=gpu
 #FLUX: -t=108000
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-general-1163
+#FLUX: --job-name=run_smoove
+#FLUX: -n=2
+#FLUX: --queue=serial_requeue
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 WELL=$(sed -n ${SLURM_ARRAY_TASK_ID}'{p;q}' ../../accessory_files/Wells.txt)

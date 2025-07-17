@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-milkshake-4825
+#FLUX: --job-name=purple-latke-7538
+#FLUX: -c=10
+#FLUX: --queue=gpu
 #FLUX: -t=360000
 #FLUX: --urgency=16
 

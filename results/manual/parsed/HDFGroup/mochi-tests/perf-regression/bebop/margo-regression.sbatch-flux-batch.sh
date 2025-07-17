@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-butter-3227
+#FLUX: --job-name=loopy-train-0247
+#FLUX: -N=2
+#FLUX: --queue=bdwall
 #FLUX: -t=900
 #FLUX: --urgency=16
 

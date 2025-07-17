@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-itch-2049
+#FLUX: --job-name=chocolate-sundae-1244
 #FLUX: -c=2
+#FLUX: -t=172815
 #FLUX: --urgency=16
 
 module load r/3.4.0

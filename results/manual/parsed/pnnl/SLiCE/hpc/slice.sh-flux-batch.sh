@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=slice-amazon_s
+#FLUX: --queue=dl
+#FLUX: -t=345540
 #FLUX: --urgency=16
 
 module purge

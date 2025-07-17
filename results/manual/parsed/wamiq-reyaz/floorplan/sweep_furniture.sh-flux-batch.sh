@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-poodle-8896
+#FLUX: --job-name=furn_nodes
 #FLUX: -c=10
 #FLUX: --queue=batch
 #FLUX: -t=36000

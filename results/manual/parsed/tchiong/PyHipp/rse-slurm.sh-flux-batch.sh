@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cinnamonbun-4448
+#FLUX: --job-name=rse
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

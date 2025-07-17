@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-dog-7196
+#FLUX: --job-name=stream-2pref-perf
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

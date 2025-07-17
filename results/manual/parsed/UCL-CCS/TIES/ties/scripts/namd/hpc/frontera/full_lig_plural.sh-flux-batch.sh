@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-poodle-6453
+#FLUX: --job-name=namd
+#FLUX: -N=13
+#FLUX: -n=13
+#FLUX: --queue=development
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load namd

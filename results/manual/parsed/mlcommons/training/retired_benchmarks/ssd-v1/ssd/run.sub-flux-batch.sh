@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-omelette-7768
+#FLUX: --job-name=single_stage_detector
 #FLUX: --exclusive
+#FLUX: --queue=mlperf
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 DATESTAMP=${DATESTAMP:-`date +'%y%m%d%H%M%S%N'`}

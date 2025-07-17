@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-platanos-8207
+#FLUX: --job-name=job-vani-lustre
+#FLUX: --queue=rtx
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export CC='/opt/apps/gcc/8.3.0/bin/gcc'

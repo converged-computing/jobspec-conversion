@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-kerfuffle-6989
+#FLUX: --job-name=delicious-salad-5979
+#FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=gpu_4090
 #FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'

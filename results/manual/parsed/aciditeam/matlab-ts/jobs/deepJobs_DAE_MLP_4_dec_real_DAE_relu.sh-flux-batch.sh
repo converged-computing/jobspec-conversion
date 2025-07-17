@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-nunchucks-7808
+#FLUX: --job-name=Deep-DAE_MLP_4_dec_real_DAE_relu
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

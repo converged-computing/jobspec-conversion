@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-poo-6334
+#FLUX: --job-name=gl_eval_height
+#FLUX: -n=24
+#FLUX: -c=8
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 source /home/yy05vipo/.virtenvs/gym/bin/activate

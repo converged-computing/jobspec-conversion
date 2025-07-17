@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-plant-1130
+#FLUX: --job-name=p2p-s2m
+#FLUX: -n=10
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

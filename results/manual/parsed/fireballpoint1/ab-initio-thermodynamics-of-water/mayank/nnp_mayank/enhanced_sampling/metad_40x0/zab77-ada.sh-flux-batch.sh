@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-noodle-4905
+#FLUX: --job-name=salted-signal-7820
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-chair-3322
+#FLUX: --job-name=phat-bike-2956
 #FLUX: --exclusive
 #FLUX: --queue=standard-g
 #FLUX: -t=1800

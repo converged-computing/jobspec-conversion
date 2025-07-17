@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-dog-0820
+#FLUX: --job-name=carnivorous-fudge-1777
 #FLUX: -c=8
+#FLUX: --queue=serial
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

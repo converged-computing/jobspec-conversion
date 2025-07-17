@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-frito-1851
+#FLUX: --job-name=Deep-RBM_DBM_7_bot_bin_CD1_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

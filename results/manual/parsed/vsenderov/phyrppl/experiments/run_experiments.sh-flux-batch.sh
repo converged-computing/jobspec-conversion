@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-poodle-7689
+#FLUX: --job-name=Lari
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export OMP_STACKSIZE=' 32G" '

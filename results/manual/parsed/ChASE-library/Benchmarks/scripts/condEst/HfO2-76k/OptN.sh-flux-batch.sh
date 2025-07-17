@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-arm-8705
+#FLUX: --job-name=butterscotch-nalgas-0960
 #FLUX: -N=4
 #FLUX: -n=16
 #FLUX: -c=12

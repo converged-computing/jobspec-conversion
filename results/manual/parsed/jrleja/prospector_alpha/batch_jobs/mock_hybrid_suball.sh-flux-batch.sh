@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hope-2393
+#FLUX: --job-name=mock_hybrid
+#FLUX: --queue=conroy-intel,shared,itc_cluster
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 srun -n 1 --mpi=pmi2 python $APPS/prospector/scripts/prospector_dynesty.py \

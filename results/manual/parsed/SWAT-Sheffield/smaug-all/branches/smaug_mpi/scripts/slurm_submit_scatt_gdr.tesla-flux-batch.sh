@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-egg-1861
+#FLUX: --job-name=sscatt_ngdr
+#FLUX: --queue=tesla
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

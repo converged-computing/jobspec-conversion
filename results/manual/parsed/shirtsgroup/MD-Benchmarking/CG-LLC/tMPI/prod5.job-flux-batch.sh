@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cupcake-4815
+#FLUX: --job-name=salted-spoon-9725
+#FLUX: --queue=RM
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1  # do not make back-ups'

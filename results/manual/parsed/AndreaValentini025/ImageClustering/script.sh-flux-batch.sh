@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-chair-8462
+#FLUX: --job-name=cowy-peas-4699
+#FLUX: -c=8
 #FLUX: --queue=students-prod
 #FLUX: --urgency=16
 

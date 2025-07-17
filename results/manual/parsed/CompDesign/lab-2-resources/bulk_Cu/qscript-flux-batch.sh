@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-frito-3441
+#FLUX: --job-name=lammps
 #FLUX: -n=12
 #FLUX: --queue=normal12
 #FLUX: --urgency=16

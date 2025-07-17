@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-train-4213
+#FLUX: --job-name=spicy-milkshake-0861
+#FLUX: -n=4
+#FLUX: --queue=core
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 cd /proj/sens2022521/MindReader

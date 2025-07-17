@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-latke-5727
+#FLUX: --job-name=dinosaur-animal-2666
 #FLUX: -n=3
 #FLUX: -t=259200
 #FLUX: --urgency=16

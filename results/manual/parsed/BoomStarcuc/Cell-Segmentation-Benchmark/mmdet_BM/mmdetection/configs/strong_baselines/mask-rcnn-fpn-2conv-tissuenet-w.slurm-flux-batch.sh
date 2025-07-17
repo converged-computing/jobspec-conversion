@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-eagle-4149
+#FLUX: --job-name=mask-rcnn-fpn-2conv-tissuenet-w-1C
+#FLUX: --queue=tier3
 #FLUX: -t=144000
 #FLUX: --urgency=16
 

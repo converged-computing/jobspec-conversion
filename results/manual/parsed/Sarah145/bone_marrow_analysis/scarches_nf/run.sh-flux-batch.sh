@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-carrot-3127
+#FLUX: --job-name=nf-scarches
+#FLUX: -n=8
+#FLUX: --queue=highmem
 #FLUX: --urgency=16
 
 nextflow='/home/sennis/nextflow'

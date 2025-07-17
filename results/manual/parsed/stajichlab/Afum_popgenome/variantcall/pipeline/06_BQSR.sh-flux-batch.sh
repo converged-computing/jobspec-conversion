@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-leader-6241
+#FLUX: --job-name=BQSR
+#FLUX: -n=4
+#FLUX: --queue=intel
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-spoon-9966
+#FLUX: --job-name=build
+#FLUX: -n=16
 #FLUX: --urgency=16
 
 export PATH='${PREFIX}/bin":\${PATH}'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-nalgas-0424
+#FLUX: --job-name=qmmm
+#FLUX: -n=14
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 ml purge  > /dev/null 2>&1 

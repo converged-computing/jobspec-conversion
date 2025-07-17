@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-diablo-5035
+#FLUX: --job-name=gkyl
+#FLUX: --queue=regular
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export gComDir='$HOME/gkylsoft/gkyl/bin'

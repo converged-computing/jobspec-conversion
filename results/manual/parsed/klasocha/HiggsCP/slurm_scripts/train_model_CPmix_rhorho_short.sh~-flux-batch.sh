@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-fudge-7611
+#FLUX: --job-name=TrainTauVertexRHORHO
+#FLUX: --queue=plgrid
 #FLUX: -t=57600
 #FLUX: --urgency=16
 

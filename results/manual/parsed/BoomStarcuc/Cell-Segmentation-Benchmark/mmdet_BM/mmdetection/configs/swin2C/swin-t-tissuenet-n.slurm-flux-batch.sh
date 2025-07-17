@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-peanut-butter-9812
+#FLUX: --job-name=swin-t-tissuenet-n-2C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

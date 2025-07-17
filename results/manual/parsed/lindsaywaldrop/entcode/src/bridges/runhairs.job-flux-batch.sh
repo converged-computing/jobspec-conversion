@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-nalgas-1968
+#FLUX: --job-name=milky-soup-0731
+#FLUX: --queue=defq
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 set -x 

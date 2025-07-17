@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-fork-3672
+#FLUX: --job-name=wobbly-hobbit-4436
 #FLUX: -t=600
 #FLUX: --urgency=16
 

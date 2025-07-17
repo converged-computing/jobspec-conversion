@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-animal-4119
+#FLUX: --job-name=stanky-pot-7235
+#FLUX: --queue=a100q
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'

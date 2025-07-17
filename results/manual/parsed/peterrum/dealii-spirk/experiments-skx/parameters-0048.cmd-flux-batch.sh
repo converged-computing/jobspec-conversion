@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-bicycle-2069
+#FLUX: --job-name=LIKWID
 #FLUX: --queue=micro
 #FLUX: -t=1800
 #FLUX: --urgency=16

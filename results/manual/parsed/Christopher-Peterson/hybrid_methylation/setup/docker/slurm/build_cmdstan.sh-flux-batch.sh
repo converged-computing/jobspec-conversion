@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-dog-4182
+#FLUX: --job-name=psycho-sundae-8503
+#FLUX: --queue=vm-small
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export LD_PRELOAD=''

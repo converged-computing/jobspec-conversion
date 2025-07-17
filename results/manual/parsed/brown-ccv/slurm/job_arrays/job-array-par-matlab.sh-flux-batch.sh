@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fork-8951
+#FLUX: --job-name=arrayjob-matlab
 #FLUX: -c=2
 #FLUX: -t=300
 #FLUX: --urgency=16

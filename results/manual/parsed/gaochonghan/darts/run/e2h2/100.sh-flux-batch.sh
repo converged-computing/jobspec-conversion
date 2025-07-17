@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-diablo-2384
+#FLUX: --job-name=2a100
 #FLUX: -c=4
 #FLUX: --queue=dell
 #FLUX: --urgency=16

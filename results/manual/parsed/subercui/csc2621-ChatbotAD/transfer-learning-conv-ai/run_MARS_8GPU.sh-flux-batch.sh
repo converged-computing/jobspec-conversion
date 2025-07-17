@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gpt2_convai
 #FLUX: -c=16
+#FLUX: --queue=nlp
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

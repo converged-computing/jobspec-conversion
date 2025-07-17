@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-citrus-9571
+#FLUX: --job-name=gs-julia-1MPI-1GPU
+#FLUX: --queue=batch
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 date

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-milkshake-9456
+#FLUX: --job-name=frigid-leopard-2798
+#FLUX: -n=28
+#FLUX: -t=3000
 #FLUX: --urgency=16
 
 ml purge  > /dev/null 2>&1 

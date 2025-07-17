@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-rabbit-9068
+#FLUX: --job-name=KerrSF_job
 #FLUX: -N=2
 #FLUX: -n=16
+#FLUX: --queue=knl
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

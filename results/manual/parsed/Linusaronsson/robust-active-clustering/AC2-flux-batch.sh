@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-dog-0942
+#FLUX: --job-name=moolicious-sundae-9131
+#FLUX: --queue=alvis
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 module load SciPy-bundle/2022.05-foss-2022a

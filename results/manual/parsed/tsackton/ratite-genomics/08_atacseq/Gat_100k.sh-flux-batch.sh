@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-leg-8732
+#FLUX: --job-name=gat
+#FLUX: --queue=general
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 source activate python2_pgrayson

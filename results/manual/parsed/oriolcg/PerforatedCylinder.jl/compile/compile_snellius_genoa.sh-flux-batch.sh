@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=compile_PerforatedCylinder
+#FLUX: --queue=genoa
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 source modules_snellius.sh

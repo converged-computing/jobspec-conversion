@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-signal-0623
+#FLUX: --job-name=LFRic
 #FLUX: -n=6
+#FLUX: --queue=skylake
 #FLUX: -t=900
 #FLUX: --urgency=16
 

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-caramel-2378
+#FLUX: --job-name=miniWeatherML
 #FLUX: --exclusive
 #FLUX: --queue=eval-gpu
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

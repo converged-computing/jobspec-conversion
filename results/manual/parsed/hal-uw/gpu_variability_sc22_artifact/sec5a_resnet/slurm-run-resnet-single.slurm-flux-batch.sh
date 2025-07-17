@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-diablo-5589
+#FLUX: --job-name=resnet
+#FLUX: --queue=gpu-a100
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 node=$SLURM_JOB_NODELIST

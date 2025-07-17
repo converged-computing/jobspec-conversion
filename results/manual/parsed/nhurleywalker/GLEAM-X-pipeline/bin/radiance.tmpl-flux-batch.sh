@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-pot-3829
+#FLUX: --job-name=ornery-animal-0076
 #FLUX: --queue=STANDARDQ
 #FLUX: -t=1380
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-cat-5805
+#FLUX: --job-name=MeshCNNABC10KRem2KAug
 #FLUX: -N=2
 #FLUX: --queue=gpu
 #FLUX: -t=604800

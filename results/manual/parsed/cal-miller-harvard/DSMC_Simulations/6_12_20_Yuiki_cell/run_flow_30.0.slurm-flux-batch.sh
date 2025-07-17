@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-fork-7932
+#FLUX: --job-name=bumfuzzled-kerfuffle-2549
+#FLUX: -n=2
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

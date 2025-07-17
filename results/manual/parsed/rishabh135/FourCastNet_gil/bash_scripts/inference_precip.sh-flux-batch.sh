@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-platanos-2052
+#FLUX: --job-name=fourcastnet_job
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

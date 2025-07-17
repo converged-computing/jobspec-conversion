@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cinnamonbun-3150
+#FLUX: --job-name=train
 #FLUX: -n=4
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

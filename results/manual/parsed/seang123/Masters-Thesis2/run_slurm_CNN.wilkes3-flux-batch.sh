@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-fudge-7559
+#FLUX: --job-name=VGG16_encoder
+#FLUX: --queue=ampere
 #FLUX: -t=12600
 #FLUX: --urgency=16
 

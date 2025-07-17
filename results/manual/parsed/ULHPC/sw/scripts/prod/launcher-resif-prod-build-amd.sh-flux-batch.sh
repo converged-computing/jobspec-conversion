@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-soup-7572
+#FLUX: --job-name=RESIF-Prod-CPU-epyc
+#FLUX: -c=16
 #FLUX: --queue=batch
 #FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX: --urgency=100
 
 mkdir -p logs
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

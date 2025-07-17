@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lamp-9339
+#FLUX: --job-name=worker
 #FLUX: --exclusive
 #FLUX: -t=43200
 #FLUX: --urgency=16

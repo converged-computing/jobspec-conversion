@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-underoos-0243
+#FLUX: --job-name=clear_wandb_cache
+#FLUX: --queue=skylake
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-milkshake-2721
+#FLUX: --job-name=HPC_WITH_PYTHON
 #FLUX: -N=4
 #FLUX: --queue=dev_multiple
 #FLUX: -t=1800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-squidward-5657
+#FLUX: --job-name=D_GPU
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: --urgency=16

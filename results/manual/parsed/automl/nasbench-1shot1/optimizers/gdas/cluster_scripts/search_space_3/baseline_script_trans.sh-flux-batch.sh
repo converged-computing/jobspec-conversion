@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cherry-2800
+#FLUX: --job-name=DARTS_NASBENCH
+#FLUX: -c=2
+#FLUX: --queue=ml_gpu-rtx2080
+#FLUX: -t=950400
 #FLUX: --urgency=16
 
 echo "Workingdir: $PWD";

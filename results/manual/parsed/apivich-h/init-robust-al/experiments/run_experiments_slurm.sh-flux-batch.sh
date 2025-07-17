@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-general-9484
+#FLUX: --job-name=goodbye-itch-6636
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$CONDA_PREFIX/lib'

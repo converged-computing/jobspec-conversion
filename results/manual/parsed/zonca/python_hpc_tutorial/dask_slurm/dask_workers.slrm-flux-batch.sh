@@ -2,6 +2,7 @@
 #FLUX: --job-name=dask-workers
 #FLUX: -N=2
 #FLUX: --queue=compute
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='/oasis'

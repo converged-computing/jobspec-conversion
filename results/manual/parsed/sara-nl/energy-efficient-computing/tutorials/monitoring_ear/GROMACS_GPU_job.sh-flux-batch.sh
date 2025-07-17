@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=GROMACS.GPU
+#FLUX: --queue=gpu
+#FLUX: -t=3540
 #FLUX: --urgency=16
 
 module load 2022

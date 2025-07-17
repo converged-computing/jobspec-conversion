@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=celeba_train
 #FLUX: -c=16
+#FLUX: --queue=datasci
 #FLUX: --urgency=16
 
 cd ..

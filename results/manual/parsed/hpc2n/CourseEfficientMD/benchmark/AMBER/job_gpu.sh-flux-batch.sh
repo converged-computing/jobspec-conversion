@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-earthworm-0927
+#FLUX: --job-name=fugly-dog-3445
+#FLUX: -n=28
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export num_dev='`echo $CUDA_VISIBLE_DEVICES | awk 'BEGIN{FS=","};{print NF}'`'

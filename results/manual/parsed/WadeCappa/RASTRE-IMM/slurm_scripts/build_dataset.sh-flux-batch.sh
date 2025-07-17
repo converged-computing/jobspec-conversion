@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-leopard-4204
+#FLUX: --job-name=building_friendster_LT
+#FLUX: --queue=preempt
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='128'

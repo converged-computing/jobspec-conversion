@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-noodle-4125
+#FLUX: --job-name=conspicuous-itch-8882
 #FLUX: --queue=train
 #FLUX: -t=1209600
 #FLUX: --urgency=16

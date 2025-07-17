@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cattywampus-0278
+#FLUX: --job-name=nf-bam_to_fastq_(71)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

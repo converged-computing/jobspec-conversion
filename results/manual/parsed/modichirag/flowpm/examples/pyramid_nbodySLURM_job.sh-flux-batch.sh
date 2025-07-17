@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-poodle-7071
+#FLUX: --job-name=meshnbody
 #FLUX: --exclusive
+#FLUX: --queue=gpu_preempt
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

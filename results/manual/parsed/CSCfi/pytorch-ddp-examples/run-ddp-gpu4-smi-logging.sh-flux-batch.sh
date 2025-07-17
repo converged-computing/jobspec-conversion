@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-house-0090
+#FLUX: --job-name=grated-lizard-0825
 #FLUX: -c=40
 #FLUX: --queue=gputest
 #FLUX: -t=900

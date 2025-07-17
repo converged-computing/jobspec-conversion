@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-noodle-4103
+#FLUX: --job-name=msweep
 #FLUX: --queue=big
 #FLUX: -t=86400
 #FLUX: --urgency=16

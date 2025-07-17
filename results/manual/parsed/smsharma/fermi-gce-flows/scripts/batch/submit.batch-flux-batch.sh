@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-poo-0537
+#FLUX: --job-name=chocolate-latke-1236
+#FLUX: -t=172740
 #FLUX: --urgency=16
 
 module load gsl/intel/2.6 

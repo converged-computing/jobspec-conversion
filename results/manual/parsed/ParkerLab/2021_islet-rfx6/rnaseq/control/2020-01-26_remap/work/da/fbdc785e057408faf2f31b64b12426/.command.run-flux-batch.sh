@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lentil-2306
+#FLUX: --job-name=nf-bam_to_fastq_(12)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

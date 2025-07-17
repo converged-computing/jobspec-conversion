@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-mango-3203
+#FLUX: --job-name=buscocha
+#FLUX: -c=16
+#FLUX: --queue=p1priority,gcpriority
 #FLUX: --urgency=16
 
 export AUGUSTUS_CONFIG_PATH='/networkshare/bin/augustus-3.2.2/config'

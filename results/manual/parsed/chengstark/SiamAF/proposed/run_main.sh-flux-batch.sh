@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-soup-0775
+#FLUX: --job-name=anxious-latke-9035
 #FLUX: --queue=overflow
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 source /labs/hulab/stark_conda/bin/activate

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-egg-9697
+#FLUX: --job-name=hanky-house-0699
 #FLUX: -N=3
 #FLUX: --queue=cclake
 #FLUX: -t=180

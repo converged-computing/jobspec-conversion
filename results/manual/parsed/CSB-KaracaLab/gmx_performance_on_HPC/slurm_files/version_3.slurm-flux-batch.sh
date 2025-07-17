@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-pot-6728
+#FLUX: --job-name=barbun_2020_pds
+#FLUX: -n=40
+#FLUX: --queue=barbun-cuda
 #FLUX: -t=1296000
 #FLUX: --urgency=16
 

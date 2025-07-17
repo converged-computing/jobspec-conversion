@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-train-6468
+#FLUX: --job-name=blue-citrus-6120
 #FLUX: --queue=RM-shared
+#FLUX: -t=129600
 #FLUX: --urgency=16
 
 export lmp_mpi='/home/tfobe/Programs/lammps-22Aug18/src/lmp_mpi'

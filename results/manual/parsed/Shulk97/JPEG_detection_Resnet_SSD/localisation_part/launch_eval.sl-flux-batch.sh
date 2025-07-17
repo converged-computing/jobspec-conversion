@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-fudge-8616
+#FLUX: --job-name=confused-parrot-9813
 #FLUX: --queue=gpu_k80
 #FLUX: -t=172800
 #FLUX: --urgency=16

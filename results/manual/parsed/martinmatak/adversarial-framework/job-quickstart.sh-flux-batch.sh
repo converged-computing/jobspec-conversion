@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-mango-7176
+#FLUX: --job-name=cw-test
 #FLUX: --urgency=16
 
 module purge

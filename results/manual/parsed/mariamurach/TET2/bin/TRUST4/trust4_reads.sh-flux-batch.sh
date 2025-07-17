@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-itch-0660
+#FLUX: --job-name=bricky-general-5115
 #FLUX: -n=29
+#FLUX: --queue=______
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

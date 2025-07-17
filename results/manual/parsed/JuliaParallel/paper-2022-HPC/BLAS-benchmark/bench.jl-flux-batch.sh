@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-banana-3888
+#FLUX: --job-name=lovable-motorcycle-4302
 #FLUX: --exclusive
+#FLUX: --queue=all
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export JULIA_EXLUSIVE='1'

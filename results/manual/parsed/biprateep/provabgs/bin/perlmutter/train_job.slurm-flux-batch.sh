@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-earthworm-5539
+#FLUX: --job-name=phat-knife-4444
+#FLUX: -c=128
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'

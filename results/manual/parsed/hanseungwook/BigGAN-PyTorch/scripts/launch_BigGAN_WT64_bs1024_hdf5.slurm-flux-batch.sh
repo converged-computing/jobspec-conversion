@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-puppy-3120
+#FLUX: --job-name=biggan_h5_wt_64
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-avocado-9285
+#FLUX: --job-name=object_detection
 #FLUX: --exclusive
+#FLUX: --queue=mlperf
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export MLPERF_HOST_OS='Ubuntu 18.04'

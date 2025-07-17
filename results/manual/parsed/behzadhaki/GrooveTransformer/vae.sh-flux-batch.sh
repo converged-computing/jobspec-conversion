@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-squidward-2682
+#FLUX: --job-name=sweep_small
 #FLUX: -c=10
+#FLUX: --queue=high
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=sampler
+#FLUX: --queue=c7desktop
 #FLUX: --urgency=16
 
 module load cuda/10.1.243_418.87.00

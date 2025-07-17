@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-leopard-5051
+#FLUX: --job-name=manual_annotate
+#FLUX: --queue=standard
+#FLUX: -t=50400
 #FLUX: --urgency=16
 
 module purge

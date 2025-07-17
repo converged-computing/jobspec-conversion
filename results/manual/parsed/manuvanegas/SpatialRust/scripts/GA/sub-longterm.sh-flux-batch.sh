@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-toaster-1002
+#FLUX: --job-name=fittest
+#FLUX: --queue=htc
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-animal-2665
+#FLUX: --job-name=mspass
+#FLUX: -N=3
+#FLUX: -n=3
+#FLUX: --queue=skx-dev
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load singularity

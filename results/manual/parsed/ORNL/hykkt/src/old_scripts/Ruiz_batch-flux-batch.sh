@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-spoon-9462
+#FLUX: --job-name=tart-mango-4451
+#FLUX: --queue=a100_shared
+#FLUX: -t=3540
 #FLUX: --urgency=16
 
 module load cmake/3.15.3

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=predseg
+#FLUX: -c=6
+#FLUX: --queue=gypsum-2080ti
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

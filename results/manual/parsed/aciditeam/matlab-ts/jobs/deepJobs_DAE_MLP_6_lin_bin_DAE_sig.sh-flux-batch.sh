@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-fudge-2272
+#FLUX: --job-name=Deep-DAE_MLP_6_lin_bin_DAE_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

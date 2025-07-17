@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-fork-1167
+#FLUX: --job-name=serial_check-multithread
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module purge

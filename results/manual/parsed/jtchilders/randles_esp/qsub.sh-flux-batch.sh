@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-bits-7067
+#FLUX: --job-name=gloopy-eagle-5991
 #FLUX: --urgency=16
 

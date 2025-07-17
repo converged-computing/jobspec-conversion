@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-nunchucks-9143
+#FLUX: --job-name=hairy-earthworm-6907
 #FLUX: -n=40
 #FLUX: -t=3600
 #FLUX: --urgency=16

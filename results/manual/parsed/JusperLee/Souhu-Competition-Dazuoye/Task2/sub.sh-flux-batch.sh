@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-buttface-1750
+#FLUX: --job-name=sticky-rabbit-2975
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export NCCL_SOCKET_IFNAME='eth0'

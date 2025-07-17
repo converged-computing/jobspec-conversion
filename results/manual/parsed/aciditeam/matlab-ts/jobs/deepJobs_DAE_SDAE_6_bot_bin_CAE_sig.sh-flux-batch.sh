@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-gato-8306
+#FLUX: --job-name=Deep-DAE_SDAE_6_bot_bin_CAE_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

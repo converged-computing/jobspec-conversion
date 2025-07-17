@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-nalgas-2869
+#FLUX: --job-name=amm-testing-heavy
+#FLUX: --queue=pascal
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

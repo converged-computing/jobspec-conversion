@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-malarkey-6170
+#FLUX: --job-name=seesaw-tissuenet-n-2C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

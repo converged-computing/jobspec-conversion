@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-milkshake-0915
+#FLUX: --job-name=strawberry-peanut-1601
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

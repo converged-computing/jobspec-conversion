@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-house-7525
+#FLUX: --job-name=pred-BERT-RBP-snakemake
+#FLUX: -c=4
+#FLUX: --queue=cpu_p
+#FLUX: -t=50400
 #FLUX: --urgency=15
 
 sbatch --wait << EOF

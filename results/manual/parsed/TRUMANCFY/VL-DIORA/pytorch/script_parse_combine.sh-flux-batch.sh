@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-leader-3053
+#FLUX: --job-name=hello-blackbean-2904
 #FLUX: -c=5
 #FLUX: --urgency=16
 

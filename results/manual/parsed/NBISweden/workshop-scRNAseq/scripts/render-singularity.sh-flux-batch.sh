@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-noodle-3771
+#FLUX: --job-name=render
+#FLUX: -n=4
+#FLUX: --queue=core
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 set -e

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-peanut-butter-3451
+#FLUX: --job-name=PERTTI_reg
+#FLUX: --queue=gpu
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-knife-1178
+#FLUX: --job-name=bloated-pot-3762
 #FLUX: -n=40
 #FLUX: --queue=small
 #FLUX: -t=54610

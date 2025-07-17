@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-diablo-3898
+#FLUX: --job-name=eccentric-banana-0341
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=n1s8-v100-1

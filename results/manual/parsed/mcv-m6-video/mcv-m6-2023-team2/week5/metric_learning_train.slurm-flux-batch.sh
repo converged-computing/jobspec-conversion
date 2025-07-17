@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-poo-2073
+#FLUX: --job-name=arid-car-3397
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 python train_metric_learning.py \

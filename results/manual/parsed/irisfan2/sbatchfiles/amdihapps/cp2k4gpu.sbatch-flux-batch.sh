@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-plant-6236
+#FLUX: --job-name=salted-onion-1283
 #FLUX: -c=8
 #FLUX: --urgency=16
 

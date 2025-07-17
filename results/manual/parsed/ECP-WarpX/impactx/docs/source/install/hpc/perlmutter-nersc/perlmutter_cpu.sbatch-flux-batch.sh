@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-cat-2180
+#FLUX: --job-name=ImpactX
+#FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=regular
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='16  # 8 cores per chiplet, 2x SMP'

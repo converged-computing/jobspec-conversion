@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=themeda
 #FLUX: -c=4
+#FLUX: --queue=gpu-a100
+#FLUX: -t=216000
 #FLUX: --urgency=16
 
 export PATH='/home/rturnbull/runting/poetry-py3.9.6/bin:$PATH'

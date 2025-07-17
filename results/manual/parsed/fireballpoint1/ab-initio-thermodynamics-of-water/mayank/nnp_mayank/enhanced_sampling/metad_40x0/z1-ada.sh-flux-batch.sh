@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-leopard-4513
+#FLUX: --job-name=outstanding-mango-7710
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

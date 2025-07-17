@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-egg-6126
+#FLUX: --job-name=LIKWID
 #FLUX: -N=512
 #FLUX: --queue=general
 #FLUX: -t=3600

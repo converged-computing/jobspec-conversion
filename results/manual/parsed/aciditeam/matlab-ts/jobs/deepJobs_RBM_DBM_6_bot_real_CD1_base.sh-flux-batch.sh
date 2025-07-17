@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-peanut-butter-6604
+#FLUX: --job-name=Deep-RBM_DBM_6_bot_real_CD1_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

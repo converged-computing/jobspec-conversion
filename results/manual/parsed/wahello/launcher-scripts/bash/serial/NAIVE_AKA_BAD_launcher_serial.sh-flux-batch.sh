@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-chip-1787
+#FLUX: --job-name=BADSerial
+#FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

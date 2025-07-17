@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-leopard-7821
+#FLUX: --job-name=cox_2D_HD_tr2
+#FLUX: -N=8
+#FLUX: -n=384
+#FLUX: --queue=workq
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 date

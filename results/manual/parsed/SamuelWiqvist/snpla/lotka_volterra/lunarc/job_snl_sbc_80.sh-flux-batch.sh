@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-eagle-4005
+#FLUX: --job-name=snl_sbc
+#FLUX: --queue=lu
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

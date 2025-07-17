@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-leader-0446
+#FLUX: --job-name=stinky-animal-7213
+#FLUX: --queue=work
 #FLUX: --urgency=16
 
 subject=$1

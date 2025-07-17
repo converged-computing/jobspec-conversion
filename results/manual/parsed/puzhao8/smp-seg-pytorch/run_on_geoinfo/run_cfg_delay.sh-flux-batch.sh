@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cfg-delay
 #FLUX: -c=8
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 echo "start"

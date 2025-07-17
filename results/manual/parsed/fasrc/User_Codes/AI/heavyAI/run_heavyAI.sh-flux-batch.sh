@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cattywampus-4326
+#FLUX: --job-name=dinosaur-chair-0169
+#FLUX: -c=8
+#FLUX: --queue=gpu
+#FLUX: -t=20
 #FLUX: --urgency=16
 
 export container_image='/n/singularity_images/OOD/omnisci/heavyai-ee-cuda_v7.2.2.sif'

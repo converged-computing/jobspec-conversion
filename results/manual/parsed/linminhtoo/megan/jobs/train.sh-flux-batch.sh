@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-buttface-9472
+#FLUX: --job-name=MEGAN_f10_pat4_stop8_maxn80
 #FLUX: -c=8
+#FLUX: --queue=sched_mit_ccoley
 #FLUX: -t=108000
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-fork-8704
+#FLUX: --job-name=mpitest
+#FLUX: -n=8
+#FLUX: --queue=rc-testing
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load gcc/13/2-fasrc01 openmpi/5.0.2-fasrc01 

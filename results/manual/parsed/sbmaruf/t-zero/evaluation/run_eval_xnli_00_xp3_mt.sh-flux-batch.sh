@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-parrot-9125
+#FLUX: --job-name=lovable-noodle-3340
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'

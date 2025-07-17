@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-pancake-9403
+#FLUX: --job-name=bloated-mango-3524
 #FLUX: --urgency=16
 
 module load anaconda/2020.11

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-leader-8518
+#FLUX: --job-name=evasive-lamp-8700
 #FLUX: -c=32
 #FLUX: -t=172800
 #FLUX: --urgency=16

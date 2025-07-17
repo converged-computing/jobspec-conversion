@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-punk-3407
+#FLUX: --job-name=carnivorous-lemon-7993
 #FLUX: --queue=alpha
 #FLUX: -t=7200
 #FLUX: --urgency=16

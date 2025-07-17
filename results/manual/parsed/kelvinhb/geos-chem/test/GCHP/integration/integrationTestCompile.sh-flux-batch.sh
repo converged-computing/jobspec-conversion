@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lentil-0215
+#FLUX: --job-name=creamy-latke-8310
+#FLUX: -c=8
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=90
 #FLUX: --urgency=16
 
 itRoot=$(cd ..; pwd)

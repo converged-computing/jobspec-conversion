@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-pastry-7319
+#FLUX: --job-name=t2t
+#FLUX: --queue=pascal
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

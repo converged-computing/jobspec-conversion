@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-staircase-0103
+#FLUX: --job-name=psycho-cinnamonbun-4568
 #FLUX: --queue=nesi_prepost
 #FLUX: -t=1800
 #FLUX: --urgency=16

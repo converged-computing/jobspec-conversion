@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-hobbit-2693
+#FLUX: --job-name=winograd
+#FLUX: --queue=nv-gpu
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"

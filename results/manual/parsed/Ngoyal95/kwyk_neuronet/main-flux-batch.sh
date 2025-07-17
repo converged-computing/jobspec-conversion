@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-nunchucks-2902
+#FLUX: --job-name=misunderstood-squidward-6880
 #FLUX: --urgency=16
 
 export SINGULARITYENV_OMP_NUM_THREADS='1'

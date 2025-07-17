@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-hippo-7904
+#FLUX: --job-name=phat-peanut-butter-5536
 #FLUX: --exclusive
 #FLUX: -t=1440
 #FLUX: --urgency=16

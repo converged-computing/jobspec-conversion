@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-soup-0213
+#FLUX: --job-name=scruptious-punk-8787
+#FLUX: -n=20
+#FLUX: --queue=node
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 set -eu

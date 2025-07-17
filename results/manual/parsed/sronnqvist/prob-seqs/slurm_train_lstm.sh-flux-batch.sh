@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-fudge-8661
+#FLUX: --job-name=placid-ricecake-6898
+#FLUX: --queue=gputest
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export DATA_DIR='data'

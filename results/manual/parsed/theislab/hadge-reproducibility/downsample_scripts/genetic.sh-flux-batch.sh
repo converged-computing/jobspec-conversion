@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-despacito-8104
-#FLUX: --urgency=15
+#FLUX: --job-name=downsample
+#FLUX: -c=10
+#FLUX: --queue=cpu_p
+#FLUX: -t=86400
+#FLUX: --urgency=16
 
 export TMPDIR='/localscratch'
 

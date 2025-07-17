@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-soup-6481
+#FLUX: --job-name=train_fastsim_mlp
+#FLUX: --queue=regular
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

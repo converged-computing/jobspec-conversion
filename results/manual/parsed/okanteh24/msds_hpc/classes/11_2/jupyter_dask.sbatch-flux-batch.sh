@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-general-1349
+#FLUX: --job-name=dask
+#FLUX: --queue=htc
 #FLUX: --urgency=16
 
 module purge

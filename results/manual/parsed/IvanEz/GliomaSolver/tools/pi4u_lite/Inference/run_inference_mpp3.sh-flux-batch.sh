@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-car-4097
+#FLUX: --job-name=PI
 #FLUX: -N=8
+#FLUX: -n=512
 #FLUX: --queue=mpp3_batch
 #FLUX: -t=10800
 #FLUX: --urgency=16

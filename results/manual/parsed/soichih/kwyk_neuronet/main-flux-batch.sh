@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-taco-5454
+#FLUX: --job-name=ornery-cattywampus-7796
 #FLUX: --urgency=16
 
 export SINGULARITYENV_PYTHONNOUSERSITE='true'

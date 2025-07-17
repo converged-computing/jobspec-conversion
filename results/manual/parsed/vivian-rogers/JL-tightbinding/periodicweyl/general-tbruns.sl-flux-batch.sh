@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-general-2625
+#FLUX: --job-name=JL.p.weyl
+#FLUX: -n=128
+#FLUX: --queue=normal
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH=' '

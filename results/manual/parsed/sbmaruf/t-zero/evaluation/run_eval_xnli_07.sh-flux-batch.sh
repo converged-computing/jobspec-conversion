@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-citrus-9036
+#FLUX: --job-name=strawberry-diablo-4196
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='7'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-earthworm-8723
+#FLUX: --job-name=chocolate-signal-9929
+#FLUX: -N=8
+#FLUX: -n=32
+#FLUX: -t=57600
 #FLUX: --urgency=16
 
 export AF_PATH='/usr/projects/p18_ebhlight3d/arrayfire/arrayfire_install          '

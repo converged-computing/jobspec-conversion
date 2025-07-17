@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pot-9762
+#FLUX: --job-name=dinosaur-lemon-0020
 #FLUX: -n=8
 #FLUX: -t=3600
 #FLUX: --urgency=16

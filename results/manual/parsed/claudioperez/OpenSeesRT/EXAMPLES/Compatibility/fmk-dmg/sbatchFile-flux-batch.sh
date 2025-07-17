@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cherry-0865
+#FLUX: --job-name=myjob
+#FLUX: -n=9
+#FLUX: --queue=small
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 module load intel

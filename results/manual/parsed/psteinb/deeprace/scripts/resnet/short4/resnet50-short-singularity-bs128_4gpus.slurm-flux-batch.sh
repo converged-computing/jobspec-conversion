@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-plant-6907
+#FLUX: --job-name=hairy-itch-0583
+#FLUX: --queue=gpu2
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cattywampus-7561
+#FLUX: --job-name=vit2
+#FLUX: --queue=compute
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 python /home/bqqi/ICL/utils/main.py --model onlinevt --load_best_args --dataset seq-cifar10 --buffer_size 200  --csv_log --num_classes 10 --num_workers 12 --vit_finetune

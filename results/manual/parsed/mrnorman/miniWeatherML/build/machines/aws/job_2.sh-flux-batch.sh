@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-frito-7461
+#FLUX: --job-name=miniWeatherML
+#FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=eval-gpu
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

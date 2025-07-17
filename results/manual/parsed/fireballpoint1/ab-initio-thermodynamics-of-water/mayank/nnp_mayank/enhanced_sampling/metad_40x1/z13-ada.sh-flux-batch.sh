@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lettuce-6136
+#FLUX: --job-name=loopy-arm-1119
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

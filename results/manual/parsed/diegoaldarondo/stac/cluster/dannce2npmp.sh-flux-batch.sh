@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=dannce2npmp
+#FLUX: --queue=olveczky
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 set -e

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-latke-4437
+#FLUX: --job-name=grated-arm-5120
+#FLUX: -c=3
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 source activate mlfold

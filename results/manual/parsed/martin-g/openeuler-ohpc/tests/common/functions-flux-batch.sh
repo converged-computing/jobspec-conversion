@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-signal-2202
+#FLUX: --job-name=wobbly-salad-7660
 #FLUX: --urgency=16
 
 ERROR () {

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-gato-5197
+#FLUX: --job-name=salted-train-9900
 #FLUX: -c=8
 #FLUX: -t=720
 #FLUX: --urgency=16

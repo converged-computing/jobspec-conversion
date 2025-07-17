@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cattywampus-9615
+#FLUX: --job-name=strawberry-omelette-9154
+#FLUX: -c=20
+#FLUX: --queue=coin,batch-ivb,batch-hsw,short-ivb,short-hsw,batch-csl,batch-skl
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 source ../common/common.sh

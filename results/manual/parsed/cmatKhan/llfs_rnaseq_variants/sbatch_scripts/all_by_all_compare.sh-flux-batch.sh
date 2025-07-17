@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cherry-8775
+#FLUX: --job-name=rna_dna_comp
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

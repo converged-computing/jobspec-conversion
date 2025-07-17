@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-malarkey-9735
+#FLUX: --job-name=boopy-eagle-0132
 #FLUX: -N=4
 #FLUX: --queue=test
 #FLUX: -t=1800

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-avocado-2800
+#FLUX: --job-name=streamp-faults
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

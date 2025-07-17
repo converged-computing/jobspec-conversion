@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=wrn_50_nsamples
+#FLUX: -c=4
+#FLUX: --queue=t4v2
 #FLUX: -t=2520000
 #FLUX: --urgency=16
 

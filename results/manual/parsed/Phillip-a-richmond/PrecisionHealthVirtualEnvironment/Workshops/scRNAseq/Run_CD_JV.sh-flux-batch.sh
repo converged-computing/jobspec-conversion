@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-cat-6554
+#FLUX: --job-name=faux-house-6906
 #FLUX: -c=8
 #FLUX: --queue=defq
 #FLUX: -t=86400

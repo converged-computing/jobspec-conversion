@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-bicycle-1429
+#FLUX: --job-name=`basename
 #FLUX: --urgency=16
 
 cmd=`basename $0`

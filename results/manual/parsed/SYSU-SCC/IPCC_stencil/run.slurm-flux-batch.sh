@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-peanut-5619
+#FLUX: --job-name=ipcc
 #FLUX: --exclusive
+#FLUX: --queue=amd_256
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='./lib:$LD_LIBRARY_PATH'

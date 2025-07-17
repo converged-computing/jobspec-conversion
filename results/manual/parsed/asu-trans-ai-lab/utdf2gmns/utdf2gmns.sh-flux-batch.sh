@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-squidward-3816
+#FLUX: --job-name=pusheena-destiny-9951
+#FLUX: --queue=normal
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module purge

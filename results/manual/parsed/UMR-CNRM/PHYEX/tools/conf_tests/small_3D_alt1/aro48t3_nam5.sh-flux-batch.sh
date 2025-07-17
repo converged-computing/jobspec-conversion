@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parsnip-6038
+#FLUX: --job-name=nerdy-arm-7997
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

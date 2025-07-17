@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cattywampus-1487
+#FLUX: --job-name=crusty-egg-2197
 #FLUX: -c=2
 #FLUX: --queue=gpu_shared
 #FLUX: -t=3600

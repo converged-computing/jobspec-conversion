@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-caramel-2811
+#FLUX: --job-name=goodbye-animal-5102
+#FLUX: -n=16
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

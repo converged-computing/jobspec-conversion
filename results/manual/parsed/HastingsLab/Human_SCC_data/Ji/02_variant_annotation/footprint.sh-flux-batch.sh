@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=footprint
+#FLUX: --queue=public
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source activate cancergenomics

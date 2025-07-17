@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-soup-0052
+#FLUX: --job-name=phat-peas-2051
 #FLUX: -c=6
 #FLUX: -t=600
 #FLUX: --urgency=16

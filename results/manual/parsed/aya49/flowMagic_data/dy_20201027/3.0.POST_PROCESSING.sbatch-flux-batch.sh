@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-poo-2626
+#FLUX: --job-name=confused-bicycle-8861
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 singularity exec -B /mnt/f/Brinkman\ group/COVID/data/structure_test/:/data/ \

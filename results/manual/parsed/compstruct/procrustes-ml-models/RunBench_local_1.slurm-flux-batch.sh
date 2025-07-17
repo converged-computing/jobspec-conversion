@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-arm-8580
+#FLUX: --job-name=fat-gato-1714
 #FLUX: -c=4
 #FLUX: --urgency=16
 

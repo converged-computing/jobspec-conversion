@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-parsnip-2262
+#FLUX: --job-name=LMM
 #FLUX: -c=2
 #FLUX: -t=43260
 #FLUX: --urgency=16

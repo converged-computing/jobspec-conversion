@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-general-5698
+#FLUX: --job-name=phat-blackbean-0652
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export XLA_PYTHON_CLIENT_PREALLOCATE='true'

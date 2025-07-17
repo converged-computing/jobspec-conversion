@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-pot-1704
+#FLUX: --job-name=wobbly-egg-4820
 #FLUX: -c=5
 #FLUX: --urgency=16
 

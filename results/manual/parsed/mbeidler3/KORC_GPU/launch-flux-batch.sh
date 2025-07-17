@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-parrot-7379
+#FLUX: --job-name=spicy-ricecake-8283
+#FLUX: -c=128
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 _error() {

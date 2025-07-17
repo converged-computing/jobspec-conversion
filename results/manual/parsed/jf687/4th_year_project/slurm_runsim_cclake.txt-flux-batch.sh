@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-bike-5436
+#FLUX: --job-name=GGMx
+#FLUX: --queue=cclake
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

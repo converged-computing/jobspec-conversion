@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-knife-2966
+#FLUX: --job-name=ont_barcoding_2023
+#FLUX: -n=4
+#FLUX: --queue=core
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load conda bioinfo-tools snakemake &&

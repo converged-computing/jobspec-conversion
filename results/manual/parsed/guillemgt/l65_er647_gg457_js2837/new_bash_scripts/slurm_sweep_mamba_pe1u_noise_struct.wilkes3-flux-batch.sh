@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-eagle-2807
+#FLUX: --job-name=F_mamba_pe1u_noise
+#FLUX: --queue=ampere
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

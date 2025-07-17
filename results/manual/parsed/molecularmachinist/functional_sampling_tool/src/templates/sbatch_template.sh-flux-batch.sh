@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-avocado-0523
+#FLUX: --job-name=fst_epoch{epoch_number}
 #FLUX: -N=20
 #FLUX: --queue=medium
 #FLUX: -t=129600

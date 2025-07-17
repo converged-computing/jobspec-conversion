@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-kitty-9257
+#FLUX: --job-name=delicious-caramel-2431
+#FLUX: -n=16
+#FLUX: --queue=node
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export CORES='4'

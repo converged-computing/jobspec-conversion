@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-soup-4897
+#FLUX: --job-name=split_1
+#FLUX: --queue=rocmnodes
 #FLUX: -t=360000
 #FLUX: --urgency=16
 

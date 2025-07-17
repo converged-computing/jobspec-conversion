@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=matlab-WOLVES_job
+#FLUX: --queue=ib-24-96
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

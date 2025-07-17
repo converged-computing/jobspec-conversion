@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-pedo-8161
+#FLUX: --job-name=blip_segmentation_test
+#FLUX: -c=32
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=shared
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export LOCAL_SCRATCH='/pscratch/sd/${USER:0:1}/${USER}/$SLURM_JOB_ID/$SLURM_ARRAY_TASK_ID'

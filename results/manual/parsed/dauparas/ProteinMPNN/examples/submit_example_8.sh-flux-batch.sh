@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-sundae-8760
+#FLUX: --job-name=swampy-leg-3180
+#FLUX: -c=2
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 source activate mlfold

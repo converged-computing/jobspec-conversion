@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-plant-8493
+#FLUX: --job-name=dr4-bash
+#FLUX: --queue=debug
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export MKL_NUM_THREADS='1'

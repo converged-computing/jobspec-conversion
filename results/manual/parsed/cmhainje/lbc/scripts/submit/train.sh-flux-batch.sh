@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-hobbit-2545
+#FLUX: --job-name=train
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module purge

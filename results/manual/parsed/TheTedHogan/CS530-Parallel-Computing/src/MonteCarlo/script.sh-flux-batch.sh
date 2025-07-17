@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-leg-5125
+#FLUX: --job-name=swampy-toaster-3758
+#FLUX: --queue=classroom
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 BATCH -J GroupC

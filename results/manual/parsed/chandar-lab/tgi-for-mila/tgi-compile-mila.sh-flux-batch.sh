@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-bicycle-5370
+#FLUX: --job-name=tgi-compile
 #FLUX: -c=2
 #FLUX: --queue=unkillable-cpu
 #FLUX: -t=36000

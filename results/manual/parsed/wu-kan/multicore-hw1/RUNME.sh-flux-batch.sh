@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-onion-2403
+#FLUX: --job-name=WuK_scaffold
 #FLUX: --exclusive
+#FLUX: --queue=gpu_v100
 #FLUX: --urgency=16
 
 spack load gcc@7.5.0

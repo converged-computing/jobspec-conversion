@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=daniil
 #FLUX: -n=8
-#FLUX: --queue=savio3_gpu
+#FLUX: --queue=v100_gpu3_normal
 #FLUX: -t=108000
 #FLUX: --urgency=16
 

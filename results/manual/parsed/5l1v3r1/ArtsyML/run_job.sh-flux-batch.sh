@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-signal-4025
+#FLUX: --job-name=artsy
+#FLUX: -c=2
+#FLUX: --queue=gpu_p
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export PATH='/usr/local/cuda-10.1/bin:$PATH'

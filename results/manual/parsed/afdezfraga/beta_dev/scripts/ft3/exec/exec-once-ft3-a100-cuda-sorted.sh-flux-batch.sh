@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-pedo-3461
+#FLUX: --job-name=output/cuda_once_exec_beta_cdf_A100
+#FLUX: -c=32
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load cesga/2020 cuda/12.2.0

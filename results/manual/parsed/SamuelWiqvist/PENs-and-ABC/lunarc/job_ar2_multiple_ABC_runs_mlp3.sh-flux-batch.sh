@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-knife-2288
+#FLUX: --job-name=ar2_multi_ABC_mlp3
+#FLUX: --queue=gpu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-parrot-9605
+#FLUX: --job-name=dmtcp_array
+#FLUX: --queue=skylake
 #FLUX: -t=60
 #FLUX: --urgency=16
 

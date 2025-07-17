@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-taco-5472
+#FLUX: --job-name=delicious-platanos-3972
+#FLUX: --queue=v100_normal_q
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 module purge

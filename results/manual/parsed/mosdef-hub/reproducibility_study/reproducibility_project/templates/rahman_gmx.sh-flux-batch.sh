@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-leader-3016
+#FLUX: --job-name=loopy-bike-2436
 #FLUX: --queue=week-long-std
 #FLUX: -t=86400
 #FLUX: --urgency=16

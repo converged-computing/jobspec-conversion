@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-soup-1081
+#FLUX: --job-name=NPB_BT-MZ
 #FLUX: --exclusive
+#FLUX: --queue=sequana_cpu_dev
 #FLUX: -t=600
 #FLUX: --urgency=16
 

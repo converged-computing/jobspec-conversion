@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-earthworm-8284
+#FLUX: --job-name=frigid-bicycle-0445
 #FLUX: -n=5
 #FLUX: --queue=wrighton-hi
 #FLUX: -t=784800

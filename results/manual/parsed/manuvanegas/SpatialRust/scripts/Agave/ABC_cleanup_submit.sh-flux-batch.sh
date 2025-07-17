@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-peas-5210
+#FLUX: --job-name=cleanup
+#FLUX: --queue=wildfire
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lettuce-3550
+#FLUX: --job-name=confused-destiny-3482
+#FLUX: -c=4
+#FLUX: --queue=cs
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

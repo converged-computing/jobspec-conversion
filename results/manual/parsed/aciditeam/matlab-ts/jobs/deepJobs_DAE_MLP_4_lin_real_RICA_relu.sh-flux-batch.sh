@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hobbit-5350
+#FLUX: --job-name=Deep-DAE_MLP_4_lin_real_RICA_relu
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

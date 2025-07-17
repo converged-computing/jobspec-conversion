@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-knife-9694
+#FLUX: --job-name=mnieto_test_eval
 #FLUX: -c=4
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 export PATH='$/homedtic/mnieto/project/anaconda3/envs/torch_thesis:$PATH'

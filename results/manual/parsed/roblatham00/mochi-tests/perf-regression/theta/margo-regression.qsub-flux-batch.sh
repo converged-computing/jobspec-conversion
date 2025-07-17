@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=placid-truffle-3378
+#FLUX: --job-name=expressive-soup-6739
 #FLUX: --urgency=16
 

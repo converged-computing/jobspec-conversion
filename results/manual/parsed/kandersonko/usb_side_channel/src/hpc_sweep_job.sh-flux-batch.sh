@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=param-sweep
+#FLUX: --queue=gpu-volatile
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

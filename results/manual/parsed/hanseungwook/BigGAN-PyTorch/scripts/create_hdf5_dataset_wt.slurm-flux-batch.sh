@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-destiny-5162
+#FLUX: --job-name=make_hdf5
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

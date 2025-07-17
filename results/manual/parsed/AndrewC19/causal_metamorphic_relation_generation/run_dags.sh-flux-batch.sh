@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-lamp-2348
+#FLUX: --job-name=moolicious-taco-5307
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

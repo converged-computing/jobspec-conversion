@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-soup-9319
+#FLUX: --job-name=evasive-bits-0901
 #FLUX: -N=32
 #FLUX: -n=32
 #FLUX: -c=2

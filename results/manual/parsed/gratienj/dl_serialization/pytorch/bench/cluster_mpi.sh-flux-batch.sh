@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-destiny-8157
+#FLUX: --job-name=Geoxim_IA_Inference
 #FLUX: --exclusive
 #FLUX: -t=3600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-plant-7270
+#FLUX: --job-name=swampy-cat-1394
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000

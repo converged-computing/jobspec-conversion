@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-motorcycle-8717
+#FLUX: --job-name=maxtext:test
 #FLUX: --exclusive
+#FLUX: --queue=partition
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export XLA_PYTHON_CLIENT_MEM_FRACTION='0.90'

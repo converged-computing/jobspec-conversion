@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-soup-7474
+#FLUX: --job-name=bike
 #FLUX: --queue=batch
 #FLUX: -t=5400
 #FLUX: --urgency=16

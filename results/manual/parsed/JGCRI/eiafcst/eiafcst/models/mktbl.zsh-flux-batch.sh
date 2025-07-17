@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pancake-0400
+#FLUX: --job-name=eiafcst
+#FLUX: --queue=shared
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module purge

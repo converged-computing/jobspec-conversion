@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-pancake-7791
+#FLUX: --job-name=peachy-puppy-4167
+#FLUX: -c=2
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 model='34'      # width of intermediate layer 

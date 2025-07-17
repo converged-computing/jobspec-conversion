@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-pedo-9200
+#FLUX: --job-name=bumfuzzled-chip-6987
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

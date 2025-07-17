@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-noodle-4335
+#FLUX: --job-name=FROG1
 #FLUX: -c=2
+#FLUX: -t=174180
 #FLUX: --urgency=16
 
 set -e

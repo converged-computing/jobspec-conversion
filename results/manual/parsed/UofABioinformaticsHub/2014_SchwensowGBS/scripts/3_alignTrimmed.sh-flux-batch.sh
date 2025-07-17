@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-caramel-5852
+#FLUX: --job-name=scruptious-fork-1516
+#FLUX: -n=16
+#FLUX: --queue=batch
 #FLUX: -t=57600
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-gato-6381
+#FLUX: --job-name=ekp_call
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

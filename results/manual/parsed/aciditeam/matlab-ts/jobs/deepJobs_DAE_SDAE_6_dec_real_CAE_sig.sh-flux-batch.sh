@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-signal-7465
+#FLUX: --job-name=Deep-DAE_SDAE_6_dec_real_CAE_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

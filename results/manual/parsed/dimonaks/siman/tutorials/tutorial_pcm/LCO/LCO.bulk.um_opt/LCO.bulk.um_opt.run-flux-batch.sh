@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-train-1674
+#FLUX: --job-name=LCO.bulk.um_opt
+#FLUX: -n=16
+#FLUX: --queue=AMG-medium
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PATH='$PATH:/home/a.boev/tools/'

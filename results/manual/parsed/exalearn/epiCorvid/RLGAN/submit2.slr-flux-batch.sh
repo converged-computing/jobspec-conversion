@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-knife-8644
+#FLUX: --job-name=faux-motorcycle-5288
+#FLUX: -c=80
 #FLUX: --exclusive
 #FLUX: -t=14400
 #FLUX: --urgency=16

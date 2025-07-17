@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lemon-1542
+#FLUX: --job-name=make_gene_trees_himem
 #FLUX: --urgency=16
 
 geneFile=$1

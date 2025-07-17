@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-latke-3468
+#FLUX: --job-name=frigid-poodle-1671
 #FLUX: --gpus-per-task=4
 #FLUX: --queue=gpu
 #FLUX: -t=7200

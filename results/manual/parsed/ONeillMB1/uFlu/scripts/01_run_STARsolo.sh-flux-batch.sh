@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-eagle-5620
+#FLUX: --job-name=solo
 #FLUX: -n=12
 #FLUX: --urgency=16
 

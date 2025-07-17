@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-muffin-3425
+#FLUX: --job-name=manual_gather
+#FLUX: --queue=standard
+#FLUX: -t=50400
 #FLUX: --urgency=16
 
 module purge

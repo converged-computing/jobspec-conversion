@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-buttface-4749
+#FLUX: --job-name=stencil-bench-weak
+#FLUX: -n=8
+#FLUX: -c=16
+#FLUX: --queue=palamut-cuda
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

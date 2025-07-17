@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-dog-2630
+#FLUX: --job-name=setup
+#FLUX: --queue=kshdexclu04
 #FLUX: --urgency=16
 
 date

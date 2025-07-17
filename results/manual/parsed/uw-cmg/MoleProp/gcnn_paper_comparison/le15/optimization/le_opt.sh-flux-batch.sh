@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lemur-0319
+#FLUX: --job-name=pusheena-car-2532
+#FLUX: --queue=sbel_cmg
+#FLUX: -t=1209690
 #FLUX: --urgency=16
 
 module load cuda/10.0

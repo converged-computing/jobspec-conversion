@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-underoos-2769
+#FLUX: --job-name=bumfuzzled-diablo-4478
+#FLUX: -n=5
+#FLUX: --queue=nvidia
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge

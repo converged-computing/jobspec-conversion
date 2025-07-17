@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pastry-3797
+#FLUX: --job-name=evasive-caramel-8635
+#FLUX: -c=6
+#FLUX: --queue=dgx2q
+#FLUX: -t=1209600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$omp_thread          # OpenMP, Numpy'

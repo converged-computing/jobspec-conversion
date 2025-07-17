@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-hope-3248
+#FLUX: --job-name=dirty-truffle-3388
 #FLUX: --urgency=16
 
 python code/models_prototype_pruning.py --dataset STANFORDCARS --base_architecture densenet121 --batchsize 16 --optimize_last_layer --num_workers 3 --gpu_id 0 --checkpoint

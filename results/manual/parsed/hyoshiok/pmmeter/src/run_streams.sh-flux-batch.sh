@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-leader-3677
+#FLUX: --job-name=streams
 #FLUX: --urgency=16
 
 export KMP_AFFINITY='granularity=core,compact,1'

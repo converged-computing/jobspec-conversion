@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-parsnip-0660
+#FLUX: --job-name=XNAT
+#FLUX: -c=7
+#FLUX: --queue=batch
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-citrus-8437
+#FLUX: --job-name=swampy-cupcake-0112
+#FLUX: --queue=debug
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

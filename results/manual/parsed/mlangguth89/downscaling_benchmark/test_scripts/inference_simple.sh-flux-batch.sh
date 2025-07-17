@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-arm-3316
+#FLUX: --job-name=tart-frito-2422
 #FLUX: -c=40
 #FLUX: --queue=develgpus
 #FLUX: -t=7200

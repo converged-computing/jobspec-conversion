@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-squidward-4419
+#FLUX: --job-name=SES-Adapter
 #FLUX: -c=16
+#FLUX: --queue=NvidiaA800
 #FLUX: -t=15552000
 #FLUX: --urgency=16
 

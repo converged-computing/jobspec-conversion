@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=task_2
 #FLUX: -c=24
-#FLUX: --queue=deeplearn
+#FLUX: --queue=gpgpudeeplearn
 #FLUX: -t=360000
 #FLUX: --urgency=16
 

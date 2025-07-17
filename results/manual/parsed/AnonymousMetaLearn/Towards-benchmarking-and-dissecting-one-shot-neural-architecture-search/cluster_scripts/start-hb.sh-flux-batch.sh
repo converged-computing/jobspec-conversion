@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lizard-3484
+#FLUX: --job-name=hyperband
+#FLUX: --queue=bosch_gpu-rtx2080
 #FLUX: --urgency=16
 
 source activate tensorflow-stable

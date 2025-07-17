@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-staircase-5585
+#FLUX: --job-name=goodbye-dog-8316
 #FLUX: -c=24
+#FLUX: --queue=clara-job
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parrot-1435
+#FLUX: --job-name=yolact
+#FLUX: --queue=gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load python/3.7.1

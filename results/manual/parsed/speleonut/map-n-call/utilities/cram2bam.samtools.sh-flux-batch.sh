@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-underoos-8568
+#FLUX: --job-name=CRAM2BAM
+#FLUX: -n=8
+#FLUX: --queue=icelake,a100cpu
 #FLUX: -t=19800
 #FLUX: --urgency=16
 

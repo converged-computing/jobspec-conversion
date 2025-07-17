@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-car-4187
+#FLUX: --job-name=dirty-chip-8120
+#FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

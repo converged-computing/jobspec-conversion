@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-cat-5237
+#FLUX: --job-name=strawberry-hippo-1069
 #FLUX: --queue=l4train
 #FLUX: -t=3600
 #FLUX: --urgency=16

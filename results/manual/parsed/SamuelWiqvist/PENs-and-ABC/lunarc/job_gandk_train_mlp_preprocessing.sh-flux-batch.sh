@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-nunchucks-9021
+#FLUX: --job-name=gandk_mlp_preprocessing
+#FLUX: --queue=gpu
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

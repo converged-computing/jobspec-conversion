@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-kitty-0652
+#FLUX: --job-name=LIKWID
 #FLUX: -N=16
 #FLUX: --queue=micro
 #FLUX: -t=3600

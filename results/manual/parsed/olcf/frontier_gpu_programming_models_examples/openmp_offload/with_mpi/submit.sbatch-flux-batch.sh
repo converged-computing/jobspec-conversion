@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pot-0988
+#FLUX: --job-name=purple-malarkey-1954
+#FLUX: -N=2
+#FLUX: --queue=batch
+#FLUX: -t=2100
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hobbit-3848
+#FLUX: --job-name=crusty-despacito-4649
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load python

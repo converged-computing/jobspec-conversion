@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leader-9569
+#FLUX: --job-name=nextflow_trim
+#FLUX: -n=2
+#FLUX: --queue=core
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 export CONDA_ENVS_PATH='/proj/fume/nobackup/private/jay/Freshwater_AMR/conda_envs'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-egg-6240
+#FLUX: --job-name=lovely-peanut-0908
+#FLUX: --queue=DGXq
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3'

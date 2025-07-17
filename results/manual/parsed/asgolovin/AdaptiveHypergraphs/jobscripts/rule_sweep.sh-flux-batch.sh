@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-dog-9375
+#FLUX: --job-name=prop_voting_rts_p_sweep
 #FLUX: -N=4
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=72000

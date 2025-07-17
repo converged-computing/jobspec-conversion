@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=MACCoGenT
 #FLUX: --queue=normal
+#FLUX: -t=540000
 #FLUX: --urgency=16
 
 module add clustername/singularity/3.4.1

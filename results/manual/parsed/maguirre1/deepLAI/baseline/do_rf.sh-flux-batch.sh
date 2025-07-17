@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-egg-1279
+#FLUX: --job-name=rfmix
+#FLUX: --queue=normal,owners
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 if [ "$#" -lt 1 ]; then 

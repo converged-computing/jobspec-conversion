@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=omp_timings
 #FLUX: --exclusive
+#FLUX: --queue=EPYC
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

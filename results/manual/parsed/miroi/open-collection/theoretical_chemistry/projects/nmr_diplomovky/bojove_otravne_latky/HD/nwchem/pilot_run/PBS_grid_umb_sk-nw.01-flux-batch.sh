@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-gato-7483
+#FLUX: --job-name=purple-cupcake-3174
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/projects/nmr_diplomovky/bojove_otravne_latky/HD/nwchem/pilot_run/PBS_grid_umb_sk-nw.01

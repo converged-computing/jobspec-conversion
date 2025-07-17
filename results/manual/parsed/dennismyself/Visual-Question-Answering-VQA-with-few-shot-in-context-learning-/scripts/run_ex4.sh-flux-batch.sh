@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-leopard-3972
+#FLUX: --job-name=MLMI8_RICES_fewshot
+#FLUX: --queue=ampere
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

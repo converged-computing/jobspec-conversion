@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-platanos-0992
+#FLUX: --job-name=64_threads
+#FLUX: -n=40
+#FLUX: --queue=akya-cuda
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=structure
+#FLUX: -n=64
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export PATH='/home1/02572/scychon/program/gmx-4.6.5_knl/bin:$PATH'

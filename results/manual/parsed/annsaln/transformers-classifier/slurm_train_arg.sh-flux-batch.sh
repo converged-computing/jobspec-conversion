@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lemur-1736
+#FLUX: --job-name=hanky-squidward-4329
+#FLUX: --queue=gputest
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export PYTHONPATH='/scratch/project_2002026/multilabel_bert/svregisters/lstm/transformer-classifier/transformers3.4/lib/python3.7/site-packages:$PYTHONPATH'

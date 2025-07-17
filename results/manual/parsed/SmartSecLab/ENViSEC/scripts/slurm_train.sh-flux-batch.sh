@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=HK-ENViSEC
+#FLUX: --queue=dgx2q
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

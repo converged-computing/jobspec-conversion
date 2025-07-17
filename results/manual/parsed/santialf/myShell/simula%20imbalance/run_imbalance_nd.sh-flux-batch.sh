@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-general-6490
+#FLUX: --job-name=blank-nalgas-6073
+#FLUX: --queue=milanq
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'

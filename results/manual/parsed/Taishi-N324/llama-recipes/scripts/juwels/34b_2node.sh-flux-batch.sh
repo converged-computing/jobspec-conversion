@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-onion-7678
+#FLUX: --job-name=outstanding-signal-3059
 #FLUX: -N=64
 #FLUX: -c=10
 #FLUX: --queue=booster

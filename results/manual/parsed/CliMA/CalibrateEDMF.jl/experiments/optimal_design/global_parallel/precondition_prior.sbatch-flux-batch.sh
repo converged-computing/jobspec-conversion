@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-hobbit-5319
+#FLUX: --job-name=precond
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

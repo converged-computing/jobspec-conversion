@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-noodle-0297
+#FLUX: --job-name=WRAP_META_PIPELINE
+#FLUX: --queue=geva
 #FLUX: --urgency=16
 
 function parse_yaml {

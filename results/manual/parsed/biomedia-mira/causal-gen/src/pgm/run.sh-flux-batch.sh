@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-train-9563
+#FLUX: --job-name=fuzzy-peanut-butter-3710
 #FLUX: -c=4
+#FLUX: --queue=gpus
 #FLUX: --urgency=16
 
 model_name='ukbb192_beta5_dgauss'

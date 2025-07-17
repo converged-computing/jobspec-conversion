@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-plant-0227
+#FLUX: --job-name=rohib
+#FLUX: -c=40
+#FLUX: --queue=qTRDGPUM
+#FLUX: -t=444000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

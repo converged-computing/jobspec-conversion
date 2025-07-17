@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-buttface-5741
+#FLUX: --job-name=dask-scheduler
+#FLUX: -n=6
+#FLUX: --queue=normal
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export JUPYTER_RUNTIME_DIR='$WORK'

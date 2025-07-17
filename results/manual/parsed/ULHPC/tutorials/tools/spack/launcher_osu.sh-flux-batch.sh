@@ -2,6 +2,7 @@
 #FLUX: --job-name=mpi_job_test
 #FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=batch
 #FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'

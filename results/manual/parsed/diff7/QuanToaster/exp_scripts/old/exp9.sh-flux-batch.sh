@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=quantest
+#FLUX: -c=16
 #FLUX: --queue=ais-gpu
 #FLUX: -t=518400
 #FLUX: --urgency=16

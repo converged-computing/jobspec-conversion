@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-leader-6183
+#FLUX: --job-name=FLOFS_ww3_nems_RUN
+#FLUX: -n=180
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 set -e

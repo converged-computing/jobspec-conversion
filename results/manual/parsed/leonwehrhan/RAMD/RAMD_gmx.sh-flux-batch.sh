@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-diablo-5676
+#FLUX: --job-name=frigid-parsnip-2677
 #FLUX: -n=8
 #FLUX: --queue=gpu
 #FLUX: -t=259200

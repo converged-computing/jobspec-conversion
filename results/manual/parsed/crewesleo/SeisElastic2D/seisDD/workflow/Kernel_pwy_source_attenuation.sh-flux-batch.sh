@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-spoon-3923
+#FLUX: --job-name=K_att
+#FLUX: -N=32
+#FLUX: -n=32
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export user='$(whoami)'

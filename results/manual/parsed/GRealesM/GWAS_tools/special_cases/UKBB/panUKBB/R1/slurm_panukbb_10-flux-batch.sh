@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pancake-6730
+#FLUX: --job-name=pUKBB_10
+#FLUX: --queue=skylake
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

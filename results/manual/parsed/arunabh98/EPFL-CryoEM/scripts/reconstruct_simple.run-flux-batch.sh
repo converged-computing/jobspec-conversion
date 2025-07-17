@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-house-3094
+#FLUX: --job-name=misunderstood-parsnip-8999
 #FLUX: -c=5
 #FLUX: --exclusive
 #FLUX: -t=21600

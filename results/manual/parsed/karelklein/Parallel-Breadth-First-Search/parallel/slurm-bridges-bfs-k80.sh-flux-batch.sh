@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-underoos-8764
+#FLUX: --job-name=bfs-k80
+#FLUX: --queue=GPU-shared
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module use /home/tisaac/opt/modulesfiles

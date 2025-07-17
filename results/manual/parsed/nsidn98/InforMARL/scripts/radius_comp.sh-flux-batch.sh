@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=rad_comp
+#FLUX: -c=40
 #FLUX: --urgency=16
 
 source /etc/profile

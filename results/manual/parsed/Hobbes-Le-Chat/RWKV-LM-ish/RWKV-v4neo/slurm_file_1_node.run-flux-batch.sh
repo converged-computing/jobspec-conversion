@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-plant-6524
+#FLUX: --job-name=RWKV-Cr
 #FLUX: -c=3
+#FLUX: --queue=batch
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export ROCM_HOME='/opt/rocm-5.6.0'

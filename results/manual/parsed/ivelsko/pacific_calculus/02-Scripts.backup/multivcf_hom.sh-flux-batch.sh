@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-platanos-5305
+#FLUX: --job-name=fugly-eagle-6093
+#FLUX: -c=4
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 java -Xmx16G -jar /projects1/tools/multivcfanalyzer/0.0.87/MultiVCFanalyzer_0-87.jar \

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-parrot-9830
+#FLUX: --job-name=climseg-cori
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='68'

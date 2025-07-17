@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-banana-7917
+#FLUX: --job-name=hsurf
 #FLUX: -n=112
+#FLUX: --queue=sapphire
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

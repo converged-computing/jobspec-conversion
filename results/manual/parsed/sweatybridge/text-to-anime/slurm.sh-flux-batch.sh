@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-onion-0619
+#FLUX: --job-name=fuzzy-animal-9513
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'

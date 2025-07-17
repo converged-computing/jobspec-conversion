@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-gato-4116
+#FLUX: --job-name=raytune
 #FLUX: -N=12
 #FLUX: -c=96
 #FLUX: --gpus-per-task=4

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=2k35bcgs
+#FLUX: -n=32
 #FLUX: --queue=short
 #FLUX: -t=172800
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=tr_rdo_forward
+#FLUX: --queue=aetkin
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

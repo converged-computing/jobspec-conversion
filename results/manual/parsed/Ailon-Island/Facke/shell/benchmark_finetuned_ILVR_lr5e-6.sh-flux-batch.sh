@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-peanut-1663
+#FLUX: --job-name=Facke_ILVR
+#FLUX: --queue=gpu
+#FLUX: -t=900000
 #FLUX: --urgency=16
 
 module load anaconda3/2019.07

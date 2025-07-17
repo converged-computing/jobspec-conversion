@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-despacito-7389
+#FLUX: --job-name=nwm-assim
+#FLUX: -N=32
+#FLUX: -t=25200
 #FLUX: --urgency=16
 
                               # this deadline (start > (deadline - time[-min]))

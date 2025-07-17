@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-general-1886
+#FLUX: --job-name=gama_logm
+#FLUX: --queue=conroy,shared,conroy-intel,itc_cluster
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 IDFILE=$APPS"/prospector_alpha/data/gama.ids"

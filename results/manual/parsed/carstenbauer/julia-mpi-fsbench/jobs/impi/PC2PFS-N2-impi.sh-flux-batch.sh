@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-despacito-4794
+#FLUX: --job-name=moolicious-lizard-8550
+#FLUX: -N=2
+#FLUX: -n=128
+#FLUX: -c=2
 #FLUX: --exclusive
+#FLUX: --queue=cont
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

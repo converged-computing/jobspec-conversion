@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=train2_AL_ld_by_epoch
+#FLUX: -c=4
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-snack-6130
+#FLUX: --job-name=strawberry-knife-2505
 #FLUX: -N=6
 #FLUX: -c=12
 #FLUX: --queue=booster

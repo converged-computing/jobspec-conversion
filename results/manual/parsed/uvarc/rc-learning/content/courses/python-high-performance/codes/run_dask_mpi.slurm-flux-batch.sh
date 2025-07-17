@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-truffle-6736
+#FLUX: --job-name=anxious-avocado-5831
 #FLUX: -n=4
+#FLUX: --queue=standard
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMPI_MCA_mpi_warn_on_fork='0'

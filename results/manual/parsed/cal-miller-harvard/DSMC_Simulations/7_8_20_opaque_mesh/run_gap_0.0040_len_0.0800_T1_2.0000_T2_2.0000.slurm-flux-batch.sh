@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-bits-7026
+#FLUX: --job-name=placid-bike-3539
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-toaster-6630
+#FLUX: --job-name=dinosaur-parsnip-4943
+#FLUX: --queue=pehlevan_gpu
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 source activate pytorch

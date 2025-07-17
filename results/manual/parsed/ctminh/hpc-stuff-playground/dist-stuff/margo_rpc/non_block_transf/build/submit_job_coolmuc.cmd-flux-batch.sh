@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-leg-3259
+#FLUX: --job-name=nonblock_transf
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120

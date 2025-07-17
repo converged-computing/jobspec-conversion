@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-puppy-3551
+#FLUX: --job-name=PELE_MPI_test
 #FLUX: -n=50
 #FLUX: --urgency=16
 

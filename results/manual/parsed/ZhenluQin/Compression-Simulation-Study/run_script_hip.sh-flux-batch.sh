@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-plant-9457
+#FLUX: --job-name=test
+#FLUX: -N=2
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 ml cmake

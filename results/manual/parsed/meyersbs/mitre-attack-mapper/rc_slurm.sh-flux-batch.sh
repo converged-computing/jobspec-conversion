@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-avocado-7794
+#FLUX: --job-name=mitre_attack8
+#FLUX: -c=24
+#FLUX: --queue=tier3
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 spack unload python

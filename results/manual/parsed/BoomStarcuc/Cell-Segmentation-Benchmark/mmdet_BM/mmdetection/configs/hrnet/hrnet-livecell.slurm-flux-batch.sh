@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-noodle-0952
+#FLUX: --job-name=hrnet-livecell
+#FLUX: --queue=tier3
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

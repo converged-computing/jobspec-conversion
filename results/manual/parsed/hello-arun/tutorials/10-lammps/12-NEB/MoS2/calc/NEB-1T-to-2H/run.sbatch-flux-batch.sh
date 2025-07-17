@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NEB-1T-2H
+#FLUX: -N=4
 #FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16

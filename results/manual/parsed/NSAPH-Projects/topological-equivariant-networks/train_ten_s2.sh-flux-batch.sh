@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-kerfuffle-3270
+#FLUX: --job-name=stanky-leg-9800
+#FLUX: -c=8
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load ncf/1.0.0-fasrc01

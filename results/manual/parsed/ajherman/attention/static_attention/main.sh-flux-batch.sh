@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=main
+#FLUX: --queue=shared-gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-cupcake-9200
+#FLUX: --job-name=PureCN
+#FLUX: -n=2
+#FLUX: --queue=node
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export NXF_OFFLINE='TRUE'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-toaster-9774
+#FLUX: --job-name=evasive-chip-6004
+#FLUX: -n=4
 #FLUX: --urgency=16
 
 pipe="fastq2bam"

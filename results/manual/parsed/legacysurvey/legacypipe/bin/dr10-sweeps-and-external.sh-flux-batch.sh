@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-punk-9911
+#FLUX: --job-name=frigid-peanut-butter-1624
+#FLUX: --queue=regular
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export LEGACYPIPE_DIR='$HOM/git/legacypipe/'

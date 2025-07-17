@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cattywampus-4139
+#FLUX: --job-name=crusty-peas-4463
 #FLUX: --exclusive
+#FLUX: --queue=gpu
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

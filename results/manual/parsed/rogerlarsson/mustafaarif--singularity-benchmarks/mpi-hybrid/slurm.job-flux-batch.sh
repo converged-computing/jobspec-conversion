@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-spoon-1341
+#FLUX: --job-name=mpi_test
+#FLUX: -N=2
+#FLUX: --queue=main
 #FLUX: -t=300
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-mango-9260
+#FLUX: --job-name=lovable-diablo-3773
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=174600
 #FLUX: --urgency=16
 
 module purge #Unload all loaded modules

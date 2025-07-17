@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-rabbit-5373
+#FLUX: --job-name=test
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 id -a

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lentil-2524
+#FLUX: --job-name=mcquic_pretraining
 #FLUX: -c=48
+#FLUX: --queue=A800
 #FLUX: --urgency=16
 
 export HF_ENDPOINT='https://hf-mirror.com'

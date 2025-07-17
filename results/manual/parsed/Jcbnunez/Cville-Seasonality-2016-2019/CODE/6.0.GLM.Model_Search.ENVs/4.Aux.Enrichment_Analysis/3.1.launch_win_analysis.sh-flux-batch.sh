@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-leader-9435
+#FLUX: --job-name=enr.win
+#FLUX: -c=40
+#FLUX: --queue=bluemoon
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module load spack/spack-0.18.1

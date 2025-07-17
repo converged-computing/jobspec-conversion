@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mega_array
+#FLUX: -c=32
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

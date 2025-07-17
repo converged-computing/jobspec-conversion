@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-blackbean-6519
+#FLUX: --job-name=eval_res50
 #FLUX: -c=8
+#FLUX: --queue=research
+#FLUX: -t=921600
 #FLUX: --urgency=16
 
 source ~/.bashrc

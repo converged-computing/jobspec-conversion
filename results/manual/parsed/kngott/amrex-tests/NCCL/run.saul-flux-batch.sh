@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lamp-5190
+#FLUX: --job-name=FBtest
+#FLUX: -N=256
+#FLUX: -c=32
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=early_science
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export CRAY_ACCEL_TARGET='nvidia80'

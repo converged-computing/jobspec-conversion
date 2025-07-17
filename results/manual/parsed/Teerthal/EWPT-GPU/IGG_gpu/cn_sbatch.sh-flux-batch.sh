@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-plant-3306
+#FLUX: --job-name=bricky-punk-7116
+#FLUX: --queue=public
+#FLUX: -t=86640
 #FLUX: --urgency=16
 
 module load mvapich2-2.3.7-gcc-11.2.0

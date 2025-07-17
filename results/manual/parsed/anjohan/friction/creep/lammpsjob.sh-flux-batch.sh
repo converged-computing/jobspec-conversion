@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-train-7582
+#FLUX: --job-name=lovely-malarkey-4891
 #FLUX: --urgency=16
 
 source /cluster/bin/jobsetup

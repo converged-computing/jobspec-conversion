@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-hobbit-4232
+#FLUX: --job-name=fwbw-noamp
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_PLACES='threads'

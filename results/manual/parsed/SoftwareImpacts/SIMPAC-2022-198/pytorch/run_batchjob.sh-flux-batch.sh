@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-taco-9630
+#FLUX: --job-name=vnn
 #FLUX: -c=8
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module purge 

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=OSP
+#FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

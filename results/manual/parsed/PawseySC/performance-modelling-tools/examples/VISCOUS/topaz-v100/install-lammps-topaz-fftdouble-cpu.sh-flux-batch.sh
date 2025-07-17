@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-despacito-0549
+#FLUX: --job-name=grated-general-0255
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600

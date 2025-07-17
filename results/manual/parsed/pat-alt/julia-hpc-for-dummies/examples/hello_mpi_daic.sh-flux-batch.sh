@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-nunchucks-0780
+#FLUX: --job-name=crunchy-lamp-6893
 #FLUX: -n=8
 #FLUX: --queue=general
 #FLUX: -t=60

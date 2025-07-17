@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-toaster-5169
+#FLUX: --job-name=r2024_04_22
+#FLUX: -n=8
+#FLUX: --queue=conroy_priority,shared,itc_cluster
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 source activate pypeit2

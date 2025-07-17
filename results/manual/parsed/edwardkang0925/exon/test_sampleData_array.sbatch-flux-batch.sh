@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-earthworm-7547
+#FLUX: --job-name=test_nf_exon
 #FLUX: --urgency=16
 
 export SINGULARITY_CACHEDIR='/scratch/mblab/edwardkang/singularity/cache'

@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-animal-6716
+#FLUX: --job-name=joyous-earthworm-7805
+#FLUX: -N=8
 #FLUX: --exclusive
+#FLUX: --queue=batch
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 set -eux

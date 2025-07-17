@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-snack-3491
+#FLUX: --job-name=freq
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

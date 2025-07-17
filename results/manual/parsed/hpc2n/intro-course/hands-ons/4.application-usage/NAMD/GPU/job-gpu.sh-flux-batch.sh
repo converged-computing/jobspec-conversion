@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-frito-5065
+#FLUX: --job-name=namd
+#FLUX: -n=28
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 echo $CUDA_VISIBLE_DEVICES

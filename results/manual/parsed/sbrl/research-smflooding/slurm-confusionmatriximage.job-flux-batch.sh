@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-poodle-8683
+#FLUX: --job-name=TwImgCfM
+#FLUX: -n=4
+#FLUX: --queue=gpu05,gpu
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

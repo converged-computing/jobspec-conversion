@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-leopard-6141
+#FLUX: --job-name=delicious-peas-4603
 #FLUX: --queue=batch,debug
 #FLUX: -t=21600
 #FLUX: --urgency=16

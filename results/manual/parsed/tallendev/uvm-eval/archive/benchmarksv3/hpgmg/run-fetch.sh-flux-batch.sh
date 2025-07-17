@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-ricecake-4929
+#FLUX: --job-name=hpgmg-data
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'

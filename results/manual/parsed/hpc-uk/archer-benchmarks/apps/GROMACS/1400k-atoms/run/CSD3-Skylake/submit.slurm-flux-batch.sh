@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-omelette-1562
+#FLUX: --job-name=gmx_bench
 #FLUX: -n=32
+#FLUX: --queue=skylake
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

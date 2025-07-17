@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-onion-2184
+#FLUX: --job-name=enduro_SL
+#FLUX: --queue=batch
 #FLUX: --urgency=16
 
 echo "---------------------------"

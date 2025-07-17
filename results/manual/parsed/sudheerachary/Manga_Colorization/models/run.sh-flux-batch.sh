@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-fork-3020
+#FLUX: --job-name=quirky-diablo-8153
+#FLUX: -n=10
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

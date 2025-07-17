@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-pedo-3746
+#FLUX: --job-name=crunchy-lemur-7251
+#FLUX: --queue=csug
 #FLUX: --urgency=16
 
 module load nvidia/cuda-11.0

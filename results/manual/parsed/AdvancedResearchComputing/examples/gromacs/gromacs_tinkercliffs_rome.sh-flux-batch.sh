@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-omelette-5844
+#FLUX: --job-name=doopy-eagle-0605
+#FLUX: --queue=dev_q
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module reset

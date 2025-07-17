@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=MoS2-temp-NEB
+#FLUX: -N=4
 #FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-punk-3407
+#FLUX: --job-name=faux-sundae-2901
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alexmlamb/ImportanceSamplingSGD/integration_distributed_training/config_files/helios/12_repeat20x030/launch_00105.sh

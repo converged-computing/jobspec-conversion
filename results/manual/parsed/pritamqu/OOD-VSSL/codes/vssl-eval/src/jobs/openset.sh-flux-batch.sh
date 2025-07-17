@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-punk-8074
+#FLUX: --job-name=misunderstood-cinnamonbun-0671
 #FLUX: --queue=v100_full_node
 #FLUX: --urgency=16
 

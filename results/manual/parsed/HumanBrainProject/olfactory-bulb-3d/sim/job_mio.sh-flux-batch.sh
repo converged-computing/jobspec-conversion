@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-squidward-7434
+#FLUX: --job-name=wobbly-toaster-1503
 #FLUX: -N=2
 #FLUX: --queue=gll_usr_prod
 #FLUX: -t=7200

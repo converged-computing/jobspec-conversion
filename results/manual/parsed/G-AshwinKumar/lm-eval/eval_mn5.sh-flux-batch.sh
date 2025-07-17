@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-caramel-2673
+#FLUX: --job-name=eval-mn5
 #FLUX: -c=80
 #FLUX: -t=7200
 #FLUX: --urgency=16

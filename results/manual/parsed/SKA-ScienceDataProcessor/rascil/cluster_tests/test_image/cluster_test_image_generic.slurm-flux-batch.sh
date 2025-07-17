@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lamp-9517
+#FLUX: --job-name=CLUSTER_TEST
 #FLUX: -N=8
 #FLUX: -n=16
 #FLUX: --exclusive
+#FLUX: --queue=hpc
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

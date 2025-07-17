@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-arm-4381
+#FLUX: --job-name=sticky-bicycle-9455
 #FLUX: -t=60
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-omelette-3895
+#FLUX: --job-name=test
+#FLUX: -n=8
+#FLUX: --queue=mi1008x
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module use /share/bpotter/modulefiles/

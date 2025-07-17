@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-milkshake-0200
+#FLUX: --job-name=V4
+#FLUX: --queue=normal
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1'

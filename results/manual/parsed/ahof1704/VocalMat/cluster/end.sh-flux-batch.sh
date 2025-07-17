@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-bits-4642
+#FLUX: --job-name=lovable-nunchucks-7429
 #FLUX: -c=20
 #FLUX: --queue=scavenge
 #FLUX: -t=43200

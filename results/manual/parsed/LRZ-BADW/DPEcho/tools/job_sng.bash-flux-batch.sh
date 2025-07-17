@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-truffle-1982
+#FLUX: --job-name=echo
 #FLUX: --queue=test
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module purge

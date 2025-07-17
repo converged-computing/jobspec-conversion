@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-truffle-8644
+#FLUX: --job-name=Deep-RBM_MLP_6_inc_real_PERS_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

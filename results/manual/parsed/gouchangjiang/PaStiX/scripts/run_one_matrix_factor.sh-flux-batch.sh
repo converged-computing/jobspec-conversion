@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-bits-8886
+#FLUX: --job-name=pastix_pmap
+#FLUX: -n=24
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

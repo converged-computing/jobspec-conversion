@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=x2_runv
+#FLUX: --queue=th1-2020-64
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

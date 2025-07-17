@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-plant-7706
+#FLUX: --job-name=expressive-ricecake-6949
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

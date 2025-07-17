@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-chip-2331
+#FLUX: --job-name=creamy-itch-0050
 #FLUX: -c=6
 #FLUX: -t=87770
 #FLUX: --urgency=16

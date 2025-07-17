@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-itch-6996
+#FLUX: --job-name=sticky-fudge-5566
+#FLUX: -n=20
+#FLUX: --queue=stats.p
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 cd /home/abakis/git/covid_SEIHR_county

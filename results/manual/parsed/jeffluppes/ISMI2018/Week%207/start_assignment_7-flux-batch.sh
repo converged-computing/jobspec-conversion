@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-carrot-4569
+#FLUX: --job-name=phat-rabbit-6488
+#FLUX: --queue=gpu
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export PATH='~/.local/bin:$PATH'

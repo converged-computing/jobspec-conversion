@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-sundae-5980
+#FLUX: --job-name=ornery-punk-0325
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=3600

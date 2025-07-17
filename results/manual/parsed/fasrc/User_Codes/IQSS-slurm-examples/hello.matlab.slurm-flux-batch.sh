@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-hippo-5116
+#FLUX: --job-name=outstanding-muffin-4034
+#FLUX: --queue=serial_requeue
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 module load matlab/R2018b-fasrc01

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-milkshake-0487
+#FLUX: --job-name=evasive-motorcycle-6117
 #FLUX: -N=3
 #FLUX: -n=64
 #FLUX: --queue=parallel

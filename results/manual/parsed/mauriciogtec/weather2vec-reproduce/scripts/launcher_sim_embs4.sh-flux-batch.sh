@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-spoon-8027
+#FLUX: --job-name=arid-arm-6465
 #FLUX: -c=8
+#FLUX: --queue=fasse_gpu
+#FLUX: -t=28740
 #FLUX: --urgency=16
 
 source ~/.bashrc

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-dog-8954
+#FLUX: --job-name=strawberry-leg-2738
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/asia-lab-sustech/NEATforOnlineClassification/Taiyi/test

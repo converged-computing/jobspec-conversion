@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-signal-6762
+#FLUX: --job-name=dinosaur-salad-5353
+#FLUX: --queue=priority
 #FLUX: --urgency=16
 
 set -e

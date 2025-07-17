@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-nunchucks-3670
+#FLUX: --job-name=pyt_roll
+#FLUX: --queue=rtx
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 set -e

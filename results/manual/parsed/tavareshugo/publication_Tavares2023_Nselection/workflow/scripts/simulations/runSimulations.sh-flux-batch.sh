@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-salad-7890
+#FLUX: --job-name=simulations
+#FLUX: --queue=skylake
+#FLUX: -t=3000
 #FLUX: --urgency=16
 
 source $(conda info --base)/etc/profile.d/conda.sh

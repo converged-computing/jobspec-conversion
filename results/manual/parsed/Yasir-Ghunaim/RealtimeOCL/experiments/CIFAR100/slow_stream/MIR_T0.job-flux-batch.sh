@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-gato-8725
+#FLUX: --job-name=MIRT0
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=3600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-mango-2724
+#FLUX: --job-name=adorable-nalgas-7455
 #FLUX: --urgency=16
 
 base_path_rc="/home/shaws5/Research_code"

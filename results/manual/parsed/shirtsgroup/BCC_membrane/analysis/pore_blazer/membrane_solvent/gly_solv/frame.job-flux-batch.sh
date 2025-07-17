@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-hope-6015
+#FLUX: --job-name=crunchy-train-1945
+#FLUX: --queue=RM-shared
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load gcc

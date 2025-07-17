@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-pastry-6175
+#FLUX: --job-name=gromacs
+#FLUX: --queue=gpu3
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 echo "### Starting at: $(date) ###"

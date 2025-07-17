@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-fork-4329
+#FLUX: --job-name=nf-bam_to_fastq_(10)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

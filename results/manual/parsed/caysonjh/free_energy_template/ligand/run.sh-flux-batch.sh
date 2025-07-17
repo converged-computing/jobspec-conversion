@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-plant-5153
+#FLUX: --job-name=1RST_fe_complex
 #FLUX: -n=24
 #FLUX: -t=43200
 #FLUX: --urgency=16

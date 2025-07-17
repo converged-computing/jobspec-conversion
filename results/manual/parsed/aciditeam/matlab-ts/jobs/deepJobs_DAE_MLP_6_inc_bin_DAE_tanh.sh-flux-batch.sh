@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-arm-5926
+#FLUX: --job-name=Deep-DAE_MLP_6_inc_bin_DAE_tanh
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

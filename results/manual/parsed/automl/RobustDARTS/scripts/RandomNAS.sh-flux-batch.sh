@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-bike-9658
+#FLUX: --job-name=RandomNAS
+#FLUX: --queue=meta_gpu-ti
 #FLUX: --urgency=16
 
 source activate pytorch-0.3.1-cu8-py36

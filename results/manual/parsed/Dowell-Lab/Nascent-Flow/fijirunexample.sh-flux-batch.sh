@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nextflow
+#FLUX: --queue=long
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

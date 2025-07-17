@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-chair-4415
+#FLUX: --job-name=psycho-cinnamonbun-2600
+#FLUX: -c=16
+#FLUX: --queue=owners
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 ml python/3.9 gcc

@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pastry-7210
+#FLUX: --job-name=pin_main_p4est_16_256
+#FLUX: -N=16
+#FLUX: -n=256
+#FLUX: --queue=normal
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-install/bin'

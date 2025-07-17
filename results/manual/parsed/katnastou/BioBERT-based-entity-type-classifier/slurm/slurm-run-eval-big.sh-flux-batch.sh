@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lizard-5990
+#FLUX: --job-name=12.5M
 #FLUX: -n=4
 #FLUX: -c=10
+#FLUX: --queue=gputest
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export PATH='${HOME}/openmpi/bin:$PATH'

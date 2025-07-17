@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-earthworm-4206
+#FLUX: --job-name=butterscotch-sundae-8012
 #FLUX: --queue=gpu8_long
 #FLUX: -t=478800
 #FLUX: --urgency=16

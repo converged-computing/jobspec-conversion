@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lentil-0025
+#FLUX: --job-name=BRATS
+#FLUX: -c=7
+#FLUX: --queue=gpu
 #FLUX: -t=108000
 #FLUX: --urgency=16
 

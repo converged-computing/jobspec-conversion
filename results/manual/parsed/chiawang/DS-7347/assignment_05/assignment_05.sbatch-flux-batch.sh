@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-earthworm-6700
+#FLUX: --job-name=assignment_05
+#FLUX: --queue=htc
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-staircase-2196
+#FLUX: --job-name=astute-muffin-4903
 #FLUX: --queue=all_usr_prod
 #FLUX: -t=10800
 #FLUX: --urgency=16

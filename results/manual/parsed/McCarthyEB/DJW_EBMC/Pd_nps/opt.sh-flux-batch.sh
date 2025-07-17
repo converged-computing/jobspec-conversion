@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-milkshake-0882
+#FLUX: --job-name=pd_np
 #FLUX: -n=40
 #FLUX: --exclusive
+#FLUX: --queue=compute
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-earthworm-1297
+#FLUX: --job-name=MUGA_REF_DEND_GENOS
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 config=/projects/compsci/vmp/USERS/widmas/MUGA_reference_data/data/GigaMUGA/chrs.txt

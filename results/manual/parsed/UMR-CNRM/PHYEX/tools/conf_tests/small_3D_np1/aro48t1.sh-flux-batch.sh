@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cat-8044
+#FLUX: --job-name=swampy-bits-0480
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

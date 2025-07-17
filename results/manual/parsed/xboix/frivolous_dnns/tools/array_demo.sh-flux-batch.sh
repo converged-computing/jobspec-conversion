@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=demo
 #FLUX: --queue=normal
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 cd /om/user/scasper/workspace/

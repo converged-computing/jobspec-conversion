@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-staircase-8151
+#FLUX: --job-name=fat-underoos-7986
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=short

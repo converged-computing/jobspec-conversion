@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-salad-8935
+#FLUX: --job-name=resnet
+#FLUX: --queue=v100
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 node=$SLURM_JOB_NODELIST

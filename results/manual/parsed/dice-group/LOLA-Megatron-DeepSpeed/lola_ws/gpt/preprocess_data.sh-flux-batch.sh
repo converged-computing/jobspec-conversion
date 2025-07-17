@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-parrot-8603
+#FLUX: --job-name=Preparing sample MC4 data
 #FLUX: -c=128
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export VENV_PATH='~/virt-envs/venv-lola'

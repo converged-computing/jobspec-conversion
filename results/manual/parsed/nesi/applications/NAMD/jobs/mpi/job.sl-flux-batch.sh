@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-spoon-9684
+#FLUX: --job-name=GROMACS_JOB
 #FLUX: -n=24
 #FLUX: -t=3600
 #FLUX: --urgency=16

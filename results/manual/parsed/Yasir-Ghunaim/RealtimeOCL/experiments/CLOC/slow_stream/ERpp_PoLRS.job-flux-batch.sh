@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-fudge-2921
+#FLUX: --job-name=ERpp_PoLRS
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=198000

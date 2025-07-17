@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=batch_joern
+#FLUX: --queue=batch
 #FLUX: -t=600
 #FLUX: --urgency=16
 

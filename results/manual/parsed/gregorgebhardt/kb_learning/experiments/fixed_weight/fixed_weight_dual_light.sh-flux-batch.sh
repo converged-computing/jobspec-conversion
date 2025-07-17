@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-motorcycle-8549
+#FLUX: --job-name=fw_dual_light
+#FLUX: -n=12
+#FLUX: -c=8
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'

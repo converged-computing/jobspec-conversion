@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-malarkey-5881
+#FLUX: --job-name=param_recov_config
+#FLUX: -c=8
 #FLUX: -t=64800
 #FLUX: --urgency=16
 

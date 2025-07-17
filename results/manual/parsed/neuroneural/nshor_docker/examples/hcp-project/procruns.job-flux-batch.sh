@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-nalgas-9688
+#FLUX: --job-name=PRPhcp
+#FLUX: -c=4
+#FLUX: --queue=qTRD
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

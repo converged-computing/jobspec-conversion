@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-malarkey-8011
+#FLUX: --job-name=placid-kerfuffle-7507
 #FLUX: -N=2
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1

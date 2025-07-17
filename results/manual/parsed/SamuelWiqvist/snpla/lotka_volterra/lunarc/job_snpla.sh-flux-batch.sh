@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-leader-9233
+#FLUX: --job-name=snpla
 #FLUX: --exclusive
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

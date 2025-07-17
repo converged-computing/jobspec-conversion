@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cupcake-3271
+#FLUX: --job-name=helifine
 #FLUX: -n=64
+#FLUX: --queue=short
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 mpirun --tag-output --report-bindings /usr/bin/time -f '%e %S %U %P %M' -o "timing.dat" --append ./out

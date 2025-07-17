@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-leg-0232
+#FLUX: --job-name=mpi_dot
+#FLUX: -n=4
+#FLUX: -t=10
 #FLUX: --urgency=16
 
 PRO=mpi_dot

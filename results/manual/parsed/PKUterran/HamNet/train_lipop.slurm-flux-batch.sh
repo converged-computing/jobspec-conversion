@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-car-4459
+#FLUX: --job-name=HNT-Lipop
 #FLUX: -c=4
+#FLUX: --queue=GPU
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 python train_lipop.py --seed 16880611 --pos 0

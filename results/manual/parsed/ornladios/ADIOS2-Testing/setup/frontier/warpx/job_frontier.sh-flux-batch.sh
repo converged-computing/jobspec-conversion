@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-salad-3171
+#FLUX: --job-name=eccentric-soup-6894
+#FLUX: --queue=batch
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'

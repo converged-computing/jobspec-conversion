@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-noodle-3292
+#FLUX: --job-name=fat-salad-0736
+#FLUX: -c=32
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export GMX='gmx_mpi'

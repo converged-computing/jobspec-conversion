@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-mango-4216
+#FLUX: --job-name=evasive-animal-2650
 #FLUX: --queue=test
 #FLUX: -t=900
 #FLUX: --urgency=16

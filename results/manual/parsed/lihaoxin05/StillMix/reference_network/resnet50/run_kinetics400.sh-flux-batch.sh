@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-soup-5170
+#FLUX: --job-name=eccentric-cattywampus-6442
+#FLUX: --queue=DGXq
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='2'

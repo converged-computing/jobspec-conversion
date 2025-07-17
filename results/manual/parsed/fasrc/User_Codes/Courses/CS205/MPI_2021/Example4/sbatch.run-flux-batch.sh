@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-puppy-7477
+#FLUX: --job-name=mmult
+#FLUX: -n=4
+#FLUX: --queue=test
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 PRO=mmult

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-parsnip-0171
+#FLUX: --job-name=angry-house-7256
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='5'

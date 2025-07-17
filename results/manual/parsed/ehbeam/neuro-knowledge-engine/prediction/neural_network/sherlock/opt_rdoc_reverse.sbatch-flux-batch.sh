@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=op_rdo_reverse
+#FLUX: --queue=aetkin
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

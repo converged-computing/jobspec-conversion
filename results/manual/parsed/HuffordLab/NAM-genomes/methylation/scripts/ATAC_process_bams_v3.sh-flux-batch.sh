@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fork-2611
+#FLUX: --job-name=eccentric-motorcycle-9309
 #FLUX: --urgency=16
 
 out_dir=output_directory

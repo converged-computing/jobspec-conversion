@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-chair-3188
+#FLUX: --job-name=QC_2
+#FLUX: -N=2
+#FLUX: -n=80
+#FLUX: --queue=CPU-Small
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

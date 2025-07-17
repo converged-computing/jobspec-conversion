@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lizard-5621
+#FLUX: --job-name=ar2_pen
+#FLUX: --queue=gpu
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

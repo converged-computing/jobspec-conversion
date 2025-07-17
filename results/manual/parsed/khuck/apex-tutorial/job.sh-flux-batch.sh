@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-truffle-1257
+#FLUX: --job-name=conspicuous-buttface-9604
 #FLUX: -c=8
+#FLUX: --queue=True
 #FLUX: -t=600
 #FLUX: --urgency=16
 

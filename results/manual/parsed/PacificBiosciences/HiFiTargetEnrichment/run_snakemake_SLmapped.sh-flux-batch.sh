@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-pot-9208
+#FLUX: --job-name=boopy-cinnamonbun-3227
 #FLUX: -c=4
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 umask 002

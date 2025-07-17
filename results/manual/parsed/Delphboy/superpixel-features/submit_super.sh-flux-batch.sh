@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-itch-8852
+#FLUX: --job-name=hanky-dog-1049
 #FLUX: --queue=small
 #FLUX: -t=43200
 #FLUX: --urgency=16

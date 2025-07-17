@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-onion-7954
+#FLUX: --job-name=WSM05
+#FLUX: --queue=sequana_gpu_shared
 #FLUX: -t=60
 #FLUX: --urgency=16
 

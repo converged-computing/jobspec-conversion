@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-carrot-7261
+#FLUX: --job-name=muffled-ricecake-7176
+#FLUX: --queue=gpu_shared
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 module load 2020

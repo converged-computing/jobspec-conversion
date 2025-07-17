@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-itch-5604
+#FLUX: --job-name=moolicious-soup-5275
+#FLUX: -N=2
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

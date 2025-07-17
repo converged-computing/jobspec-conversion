@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-punk-7229
+#FLUX: --job-name=FilterMutect2
+#FLUX: -n=2
+#FLUX: --queue=batch
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

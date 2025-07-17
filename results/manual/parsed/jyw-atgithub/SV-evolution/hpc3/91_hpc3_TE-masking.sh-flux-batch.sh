@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=TE
 #FLUX: -c=30
+#FLUX: --queue=standard
 #FLUX: --urgency=16
 
 dmel_ref="/dfs7/jje/jenyuw/SV-project-temp/reference/dmel-all-chromosome-r6.49.fasta"

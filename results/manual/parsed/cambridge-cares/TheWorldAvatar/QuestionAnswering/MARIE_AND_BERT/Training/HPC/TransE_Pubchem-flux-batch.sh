@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-squidward-5228
+#FLUX: --job-name=PubChem_TransEA
+#FLUX: --queue=ampere
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

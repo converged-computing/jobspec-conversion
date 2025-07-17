@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-punk-4396
+#FLUX: --job-name=phat-bicycle-4899
+#FLUX: --queue=gpu2
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

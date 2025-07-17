@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-malarkey-1346
+#FLUX: --job-name=dinosaur-despacito-5336
+#FLUX: --queue=cox
+#FLUX: -t=259920
 #FLUX: --urgency=16
 
 source new-modules.sh

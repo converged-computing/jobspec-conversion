@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-hippo-3074
+#FLUX: --job-name=nf-cellranger_mkref_(1)
+#FLUX: -c=16
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

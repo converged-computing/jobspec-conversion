@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-chip-9761
+#FLUX: --job-name=test-hab
+#FLUX: -c=128
+#FLUX: -t=61200
 #FLUX: --urgency=16
 
 export GLOG_minloglevel='2'

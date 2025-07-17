@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-motorcycle-0491
+#FLUX: --job-name=rse
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

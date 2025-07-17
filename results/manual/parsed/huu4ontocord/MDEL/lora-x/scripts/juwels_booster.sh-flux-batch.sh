@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-taco-0568
+#FLUX: --job-name=boopy-lentil-7952
 #FLUX: -c=8
 #FLUX: --queue=develbooster
 #FLUX: --urgency=16

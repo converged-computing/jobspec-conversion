@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=predict_atac
+#FLUX: --queue=scavenger
 #FLUX: --urgency=16
 
 module load R/4.1.1-rhel8

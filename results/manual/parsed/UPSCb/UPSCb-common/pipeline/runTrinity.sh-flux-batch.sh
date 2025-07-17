@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-gato-3849
+#FLUX: --job-name=spicy-frito-5627
+#FLUX: -n=20
+#FLUX: --queue=node
 #FLUX: --urgency=16
 
 set -e -x

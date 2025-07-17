@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-plant-8632
+#FLUX: --job-name=all_folds_full_spd_best_mf1_length_21
 #FLUX: -c=8
 #FLUX: -t=72000
 #FLUX: --urgency=16

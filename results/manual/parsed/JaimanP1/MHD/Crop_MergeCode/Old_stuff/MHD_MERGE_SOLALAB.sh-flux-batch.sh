@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lemon-7111
+#FLUX: --job-name=fuzzy-banana-2027
 #FLUX: --exclusive
+#FLUX: --queue=solarlab
 #FLUX: --urgency=16
 
 module purge > /dev/null 2>&1

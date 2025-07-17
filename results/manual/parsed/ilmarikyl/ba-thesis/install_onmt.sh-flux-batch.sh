@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-parsnip-7366
+#FLUX: --job-name=onmt_install
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module purge

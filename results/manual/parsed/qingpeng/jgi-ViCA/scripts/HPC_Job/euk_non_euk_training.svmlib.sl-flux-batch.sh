@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-mango-4159
+#FLUX: --job-name=fugly-knife-0725
+#FLUX: -N=3
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load spark/2.1.1

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-destiny-9231
+#FLUX: --job-name=conspicuous-rabbit-0017
+#FLUX: -n=32
+#FLUX: --queue=defq
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

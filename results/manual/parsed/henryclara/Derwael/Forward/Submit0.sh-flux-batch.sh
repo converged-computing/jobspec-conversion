@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-rabbit-2552
+#FLUX: --job-name=Forward
 #FLUX: -n=100
 #FLUX: --queue=compute
 #FLUX: -t=28800

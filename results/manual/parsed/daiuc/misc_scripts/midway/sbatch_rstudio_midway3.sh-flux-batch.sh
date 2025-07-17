@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rstudio
+#FLUX: -c=6
+#FLUX: --queue=caslake
 #FLUX: -t=129540
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-malarkey-9390
+#FLUX: --job-name=dftb-ra-nm
 #FLUX: -n=8
 #FLUX: --queue=gpu2
 #FLUX: -t=172800

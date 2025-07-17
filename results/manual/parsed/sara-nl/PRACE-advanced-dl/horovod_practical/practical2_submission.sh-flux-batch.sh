@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-signal-3397
+#FLUX: --job-name=purple-motorcycle-3828
+#FLUX: -N=8
+#FLUX: --queue=broadwell
+#FLUX: -t=6600
 #FLUX: --urgency=16
 
 ulimit -a

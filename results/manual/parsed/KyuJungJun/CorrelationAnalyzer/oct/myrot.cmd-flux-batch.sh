@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-caramel-4708
+#FLUX: --job-name=vasptest
 #FLUX: -n=128
+#FLUX: --queue=wholenode
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

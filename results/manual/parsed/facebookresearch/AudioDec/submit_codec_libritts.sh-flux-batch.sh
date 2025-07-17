@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=AD_libritts
+#FLUX: -c=16
+#FLUX: --queue=xxx
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 autoencoder=autoencoder/symAD_libritts_24000_hop300

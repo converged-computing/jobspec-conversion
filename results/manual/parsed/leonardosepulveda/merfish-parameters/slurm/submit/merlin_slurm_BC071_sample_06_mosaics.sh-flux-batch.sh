@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-salad-2071
+#FLUX: --job-name=expensive-lemon-3535
+#FLUX: --queue=zhuang,shared
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 date +'Starting at %R.'

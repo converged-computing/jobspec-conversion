@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-animal-9294
+#FLUX: --job-name=carnivorous-cat-6275
+#FLUX: -c=16
 #FLUX: --queue=common
 #FLUX: --urgency=16
 

@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cherry-8935
+#FLUX: --job-name=cox_2D_HD_r1
+#FLUX: -N=16
+#FLUX: -n=768
+#FLUX: --queue=workq
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 date

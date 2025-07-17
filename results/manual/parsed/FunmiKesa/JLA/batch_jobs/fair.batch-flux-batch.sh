@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fair
+#FLUX: --queue=pearl
+#FLUX: -t=420
 #FLUX: --urgency=16
 
 MASTER=`/bin/hostname -s`

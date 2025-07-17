@@ -2,6 +2,7 @@
 #FLUX: --job-name=rfm_PismTest3_pism_1_1_4__arm___nodes___1___mpi___16___omp___1__job
 #FLUX: -n=16
 #FLUX: --exclusive
+#FLUX: --queue=c6gn
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

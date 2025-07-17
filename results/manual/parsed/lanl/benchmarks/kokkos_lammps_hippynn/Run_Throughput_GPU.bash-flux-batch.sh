@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Ag-MD
+#FLUX: --queue=gpu
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

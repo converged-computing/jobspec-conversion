@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=multigpu_cnn
+#FLUX: -n=4
 #FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module use "$HOME"/modulefiles/

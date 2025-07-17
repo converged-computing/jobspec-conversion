@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-cat-0057
+#FLUX: --job-name=dinosaur-knife-5595
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

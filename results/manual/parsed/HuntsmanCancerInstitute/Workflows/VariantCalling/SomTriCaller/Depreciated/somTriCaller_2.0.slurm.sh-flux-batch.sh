@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cinnamonbun-0902
+#FLUX: --job-name=stanky-destiny-6818
 #FLUX: --queue=hci-rw
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 udocker=/uufs/chpc.utah.edu/common/HIPAA/u0028003/BioApps/UDocker/udocker-1.1.1/udocker

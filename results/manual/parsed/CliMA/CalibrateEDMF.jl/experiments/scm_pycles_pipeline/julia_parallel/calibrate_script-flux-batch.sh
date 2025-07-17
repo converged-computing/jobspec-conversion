@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cat-7620
+#FLUX: --job-name=ekp_bomex
 #FLUX: -n=10
 #FLUX: -t=7200
 #FLUX: --urgency=16

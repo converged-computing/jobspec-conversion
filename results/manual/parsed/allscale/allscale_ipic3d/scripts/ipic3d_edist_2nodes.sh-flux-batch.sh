@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-ricecake-9251
+#FLUX: --job-name=Allscale.ipic3d.only.shared
 #FLUX: -N=2
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/cfs/klemming/nobackup/r/riakymch/allscale_compiler/build/allscale_runtime-prefix/src/allscale_runtime-build/src:/cfs/klemming/nobackup/r/riakymch/allscale_compiler/build/third_party/boost/lib:/cfs/klemming/nobackup/r/riakymch/allscale_compiler/build/hpx-prefix/src/hpx-build/lib'

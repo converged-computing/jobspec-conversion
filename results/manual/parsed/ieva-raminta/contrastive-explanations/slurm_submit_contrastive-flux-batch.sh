@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-gato-2335
+#FLUX: --job-name=contrastive-train
 #FLUX: -n=4
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

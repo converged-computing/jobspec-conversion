@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-arm-5318
+#FLUX: --job-name=akya_2020_pds_1gpu
+#FLUX: -n=40
+#FLUX: --queue=akya-cuda
 #FLUX: -t=1296000
 #FLUX: --urgency=16
 

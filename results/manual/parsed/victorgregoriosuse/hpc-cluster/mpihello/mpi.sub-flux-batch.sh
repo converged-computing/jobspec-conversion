@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-bike-3647
+#FLUX: --job-name=testing
+#FLUX: -n=10
+#FLUX: --queue=normal
 #FLUX: -t=300
 #FLUX: --urgency=16
 

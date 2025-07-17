@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NF-enhancer_annotation_and_motif_analysis
+#FLUX: -t=151200
 #FLUX: --urgency=16
 
 export TERM='xterm'

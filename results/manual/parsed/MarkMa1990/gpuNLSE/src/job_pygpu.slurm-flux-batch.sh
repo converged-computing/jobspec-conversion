@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-hobbit-7249
+#FLUX: --job-name=test
+#FLUX: --queue=GPU
 #FLUX: -t=5400
 #FLUX: --urgency=16
 

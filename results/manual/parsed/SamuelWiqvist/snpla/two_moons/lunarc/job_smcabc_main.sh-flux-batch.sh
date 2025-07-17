@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-pastry-8759
+#FLUX: --job-name=smcabc
 #FLUX: --exclusive
+#FLUX: --queue=lu
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 MAX_SEED_VAL=10

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-omelette-2044
+#FLUX: --job-name=reclusive-avocado-5722
+#FLUX: --queue=gpu20
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 echo "$SLURM_JOB_ID" > "$SLURM_JOB_ID"

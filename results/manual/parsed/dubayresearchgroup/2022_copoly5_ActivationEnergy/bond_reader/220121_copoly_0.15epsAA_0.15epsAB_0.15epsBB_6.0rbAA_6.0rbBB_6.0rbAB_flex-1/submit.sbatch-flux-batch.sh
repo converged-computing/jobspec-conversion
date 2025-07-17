@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-omelette-5584
+#FLUX: --job-name=salted-plant-1863
+#FLUX: --queue=standard
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 module load gcc/7.1.0 python/3.6.8 ffmpeg intel/18.0 intelmpi/18.0 cuda pgi openmpi

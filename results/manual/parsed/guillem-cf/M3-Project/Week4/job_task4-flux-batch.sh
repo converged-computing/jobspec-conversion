@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-fudge-9563
+#FLUX: --job-name=loopy-carrot-2574
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"

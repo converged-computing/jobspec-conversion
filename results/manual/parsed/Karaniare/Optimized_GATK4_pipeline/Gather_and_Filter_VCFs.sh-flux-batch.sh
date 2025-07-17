@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-house-0070
+#FLUX: --job-name=Variant_calling
+#FLUX: -c=8
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 usage() {

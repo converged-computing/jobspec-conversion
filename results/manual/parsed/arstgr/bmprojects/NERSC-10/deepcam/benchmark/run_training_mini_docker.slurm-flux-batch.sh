@@ -2,6 +2,8 @@
 #FLUX: --job-name=docker-deepcam-mini
 #FLUX: -c=12
 #FLUX: --exclusive
+#FLUX: --queue=ndmv4
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export UCX_IB_PCI_RELAXED_ORDERING='on \'

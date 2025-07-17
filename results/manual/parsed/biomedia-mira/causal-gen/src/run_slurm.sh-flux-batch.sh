@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-kitty-1335
+#FLUX: --job-name=misunderstood-cattywampus-6686
 #FLUX: -c=4
+#FLUX: --queue=gpus
 #FLUX: --urgency=16
 
 exp_name='ukbb192_beta5_dgauss'

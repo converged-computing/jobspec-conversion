@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-muffin-4504
+#FLUX: --job-name=fugly-cupcake-3943
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mrnorman/YAKL/unit/ctest/summit/cron.sh

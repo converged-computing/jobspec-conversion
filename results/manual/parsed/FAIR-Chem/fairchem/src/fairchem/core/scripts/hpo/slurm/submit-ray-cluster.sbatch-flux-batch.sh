@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hobbit-9353
+#FLUX: --job-name=frigid-caramel-7091
 #FLUX: -c=80
 #FLUX: --gpus-per-task=8
 #FLUX: -t=600

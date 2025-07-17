@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-cupcake-5190
+#FLUX: --job-name=scruptious-lentil-8853
 #FLUX: -N=4
 #FLUX: -n=12
 #FLUX: --queue=mem192

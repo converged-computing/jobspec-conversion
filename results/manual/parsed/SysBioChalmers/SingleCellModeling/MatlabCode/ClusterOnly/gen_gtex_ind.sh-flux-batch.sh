@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-rabbit-2339
+#FLUX: --job-name=rainbow-leopard-8453
+#FLUX: -n=20
+#FLUX: --queue=vera
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 module load MATLAB/2019a

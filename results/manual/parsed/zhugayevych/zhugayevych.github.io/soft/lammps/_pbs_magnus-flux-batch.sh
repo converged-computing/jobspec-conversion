@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-cupcake-8807
+#FLUX: --job-name=eccentric-cinnamonbun-1663
+#FLUX: -n=16
+#FLUX: --queue=AMG
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'

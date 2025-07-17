@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-butter-2410
+#FLUX: --job-name=confused-caramel-0881
 #FLUX: -c=4
+#FLUX: --queue=batch
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export NXF_VER='20.04.1'

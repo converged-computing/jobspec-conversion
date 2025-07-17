@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-peanut-butter-0625
+#FLUX: --job-name=creamy-gato-6624
+#FLUX: -c=20
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 source ../common/common.sh

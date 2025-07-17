@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-animal-4923
+#FLUX: --job-name=outstanding-nalgas-9193
 #FLUX: -n=2
 #FLUX: -c=32
 #FLUX: --queue=nodes

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leader-5160
+#FLUX: --job-name=ext_data
 #FLUX: --queue=shared
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load parallel

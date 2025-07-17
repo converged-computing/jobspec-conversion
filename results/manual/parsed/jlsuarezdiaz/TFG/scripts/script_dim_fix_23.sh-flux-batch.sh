@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lemon-7840
+#FLUX: --job-name=dim23
+#FLUX: --queue=muylarga
 #FLUX: --urgency=16
 
 export PYTHONPATH='`pwd`'

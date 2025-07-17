@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-platanos-4955
+#FLUX: --job-name=MESONH
+#FLUX: -n=2
 #FLUX: --exclusive
+#FLUX: --queue=normal256
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export dir_exe_croco='../../models/croco-v1.1/exe_IROISE_1core_CPLOA'

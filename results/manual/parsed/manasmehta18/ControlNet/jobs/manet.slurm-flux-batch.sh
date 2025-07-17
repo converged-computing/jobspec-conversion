@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=manet-run
+#FLUX: --queue=GPU-shared
+#FLUX: -t=172740
 #FLUX: --urgency=16
 
 set -x

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lettuce-6652
+#FLUX: --job-name=viewfool-attack-hotdog
+#FLUX: -n=16
 #FLUX: --queue=gpu
 #FLUX: -t=259200
 #FLUX: --urgency=16

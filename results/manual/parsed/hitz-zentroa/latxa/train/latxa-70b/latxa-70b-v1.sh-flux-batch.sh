@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-dog-5844
+#FLUX: --job-name=joyous-lemon-9761
 #FLUX: -N=16
 #FLUX: --exclusive
+#FLUX: --queue=boost_usr_prod
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

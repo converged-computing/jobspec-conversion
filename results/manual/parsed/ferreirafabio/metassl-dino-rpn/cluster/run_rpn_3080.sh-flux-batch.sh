@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cinnamonbun-8762
+#FLUX: --job-name=dino_rpn_ts_bounded_no_warmup
+#FLUX: --queue=alldlc_gpu-rtx3080
+#FLUX: -t=86399
 #FLUX: --urgency=16
 
 source /home/ferreira/.profile

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-peas-4439
+#FLUX: --job-name=chunk21_new_calib
+#FLUX: -N=20
+#FLUX: --queue=regular
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 export name_for_run='chunk21_new_calib'

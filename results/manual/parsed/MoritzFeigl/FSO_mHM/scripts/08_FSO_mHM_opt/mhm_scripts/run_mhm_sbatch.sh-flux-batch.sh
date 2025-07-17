@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-bicycle-1851
+#FLUX: --job-name=run_mhm
 #FLUX: --queue=mem_0128
 #FLUX: --urgency=16
 

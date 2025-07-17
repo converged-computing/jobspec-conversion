@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-frito-7932
+#FLUX: --job-name=grated-caramel-7941
 #FLUX: -n=8
+#FLUX: --queue=gpgpumse
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-butter-9937
+#FLUX: --job-name=Aggreg
 #FLUX: -c=9
 #FLUX: -t=360000
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-spoon-6516
+#FLUX: --job-name=confused-lentil-5550
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400

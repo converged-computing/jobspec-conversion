@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leg-0169
+#FLUX: --job-name=adorable-taco-5029
 #FLUX: --queue=v100_full_node
 #FLUX: --urgency=16
 

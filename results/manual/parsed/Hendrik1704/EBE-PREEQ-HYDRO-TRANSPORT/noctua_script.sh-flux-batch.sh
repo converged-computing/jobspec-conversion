@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-peanut-4961
+#FLUX: --job-name=test
+#FLUX: --queue=normal
+#FLUX: -t=108000
 #FLUX: --urgency=16
 
 module load numlib/GSL/2.7-GCC-11.3.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-blackbean-5763
+#FLUX: --job-name=Gromacs
 #FLUX: -c=20
 #FLUX: --queue=gpu-testq
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-soup-3294
+#FLUX: --job-name=lovable-lamp-2440
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JanThorbecke/HPCourse/cache_block_2010_cray/job2.pbs

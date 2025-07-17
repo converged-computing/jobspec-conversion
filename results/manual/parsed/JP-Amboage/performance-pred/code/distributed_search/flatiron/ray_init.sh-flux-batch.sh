@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-knife-1370
+#FLUX: --job-name=delicious-diablo-2892
 #FLUX: -c=5
 #FLUX: --exclusive
 #FLUX: --urgency=16

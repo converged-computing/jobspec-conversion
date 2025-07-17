@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-omelette-6043
+#FLUX: --job-name=delicious-muffin-1422
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 ml GCC/10.2.0  CUDA/11.1.1  OpenMPI/4.0.5

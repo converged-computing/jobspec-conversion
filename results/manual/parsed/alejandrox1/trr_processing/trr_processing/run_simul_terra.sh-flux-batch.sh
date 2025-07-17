@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cattywampus-1566
+#FLUX: --job-name=crunchy-cinnamonbun-9291
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load mpi/openmpi

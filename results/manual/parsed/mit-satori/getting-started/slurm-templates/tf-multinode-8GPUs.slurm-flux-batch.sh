@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-car-6976
+#FLUX: --job-name=tf_multi-8GPUs
 #FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=sched_system_all
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

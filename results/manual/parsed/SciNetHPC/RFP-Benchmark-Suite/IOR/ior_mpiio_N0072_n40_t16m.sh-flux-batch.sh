@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-nalgas-1666
+#FLUX: --job-name=adorable-bits-4940
+#FLUX: -N=72
+#FLUX: --queue=compute
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 ml NiaEnv/2022a gcc/11.3.0 openmpi/4.1.4+ucx-1.11.2

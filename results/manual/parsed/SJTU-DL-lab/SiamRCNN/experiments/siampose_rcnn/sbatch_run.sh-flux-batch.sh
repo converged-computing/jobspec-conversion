@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-peas-6251
+#FLUX: --job-name=siampose
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export PYTHONPATH='$ROOT:$PYTHONPATH'

@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ec_4V
 #FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

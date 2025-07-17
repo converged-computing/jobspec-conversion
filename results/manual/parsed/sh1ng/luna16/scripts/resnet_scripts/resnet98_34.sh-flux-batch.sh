@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hope-0932
+#FLUX: --job-name=butterscotch-peanut-5203
+#FLUX: -c=12
+#FLUX: --queue=gpu
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export PYTHONPATH='$HOME/pythonpackages/lib/python2.7/site-packages:$PYTHONPATH'

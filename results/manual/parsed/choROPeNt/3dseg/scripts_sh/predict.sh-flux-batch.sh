@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-rabbit-4154
+#FLUX: --job-name=3dseg-torch_predict
 #FLUX: -c=6
 #FLUX: --queue=alpha
 #FLUX: -t=7200

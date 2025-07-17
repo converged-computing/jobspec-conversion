@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-diablo-3681
+#FLUX: --job-name=eval
+#FLUX: -c=32
 #FLUX: --exclusive
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 MODEL_NAME="BioMedGPT-LM-7B"

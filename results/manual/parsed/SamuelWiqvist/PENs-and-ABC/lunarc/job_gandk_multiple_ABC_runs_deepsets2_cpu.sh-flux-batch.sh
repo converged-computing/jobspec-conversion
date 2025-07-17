@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-nalgas-9408
+#FLUX: --job-name=gandk_multi_ABC_deepsets2
+#FLUX: --queue=lu
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

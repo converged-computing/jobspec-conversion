@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-dog-2314
+#FLUX: --job-name=moolicious-animal-8227
+#FLUX: -n=4
 #FLUX: --urgency=16
 
 pipe="ATACseq"

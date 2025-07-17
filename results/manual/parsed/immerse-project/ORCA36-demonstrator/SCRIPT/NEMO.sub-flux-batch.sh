@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-plant-3817
+#FLUX: --job-name=N36T421b
+#FLUX: -N=473
 #FLUX: --exclusive
+#FLUX: --queue=normal256
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

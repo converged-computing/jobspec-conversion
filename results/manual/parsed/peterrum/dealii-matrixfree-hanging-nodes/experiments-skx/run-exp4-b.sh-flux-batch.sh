@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-salad-7304
+#FLUX: --job-name=LIKWID
 #FLUX: -N=16
 #FLUX: --queue=micro
 #FLUX: -t=7200

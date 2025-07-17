@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-chip-0152
+#FLUX: --job-name=creamy-chip-3214
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

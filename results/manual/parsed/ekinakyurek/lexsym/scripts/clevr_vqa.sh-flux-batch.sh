@@ -3,7 +3,7 @@
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: -t=208800
-#FLUX: --urgency=16
+#FLUX: --urgency=50
 
 export MPI_FLAGS='--tag-output --bind-to socket -map-by core -mca btl ^openib -mca pml ob1 -x PSM2_GPUDIRECT=1 -x NCCL_NET_GDR_LEVEL=5 -x NCCL_P2P_LEVEL=5 -x NCCL_NET_GDR_READ=1'
 export MASTER_ADDR='$(hostname -s)'

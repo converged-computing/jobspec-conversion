@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-butter-8399
+#FLUX: --job-name=strong-scaling-1node
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=19200
 #FLUX: --urgency=16

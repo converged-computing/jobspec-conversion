@@ -1,31 +1,19 @@
 #!/bin/bash -l
 
-#SBATCH -A CFD116
-#SBATCH -o amrw-abl_cpu_%AMRW_RANKS%.o%j
-#SBATCH -J amrw-abl_cpu
-#SBATCH -t 00:20:00
-#SBATCH -p batch
-#SBATCH -N %NODES%
-#SBATCH --ntasks-per-node=%RANKS_PER_NODE%
-#SBATCH --exclusive
+#BSUB -J amrw-abl_gpu
+#BSUB -o amrw-abl_gpu_%AMRW_RANKS%.o%J
+#BSUB -P CFD116
+#BSUB -W 0:30
+#BSUB -nnodes %NODES%
 
-nodes=$SLURM_JOB_NUM_NODES
-ranks=$SLURM_NTASKS
+module load DefApps
+module load cuda/11.4.2
+module load gcc/10.2.0
+module load spectrum-mpi/10.4.0.3-20210112
+module load valgrind
 
-export rocm_version=5.4.3
+export CUDA_LAUNCH_BLOCKING=1
 
-module purge
-module load PrgEnv-amd
-module load cray-mpich
+amrw=/gpfs/alpine/cfd116/proj-shared/mullowne/spack-manager/spack/opt/spack/linux-rhel8-ppc64le/gcc-10.2.0/amr-wind-main-u4rkzozr5i5zk7jop2tvcll5xu7xatft/bin/amr_wind
 
-
-export FI_MR_CACHE_MONITOR=memhooks
-export FI_CXI_RX_MATCH_MODE=software
-
-amrw=/lustre/orion/cfd116/proj-shared/mullowne/spack-manager/spack/opt/spack/linux-sles15-zen3/clang-15.0.0/amr-wind-main-a347muwc3srkopn3ieo5a4biuw3f72s7/bin/amr_wind
-
-srun -N %NODES% -n %RANKS% $amrw nrel5mw_amr.inp
-
-mkdir run_${SLURM_JOBID}
-#
-mv amrw-abl_cpu_%AMRW_RANKS%.o${SLURM_JOBID} run_${SLURM_JOBID}
+jsrun --smpiargs="-gpu" -n %RANKS% -r %RANKS_PER_NODE% -a 1 -c 1 -g 1 $amrw nrel5mw_amr_summit.inp

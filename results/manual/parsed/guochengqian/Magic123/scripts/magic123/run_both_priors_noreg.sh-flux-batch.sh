@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-parsnip-7767
+#FLUX: --job-name=magic123
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

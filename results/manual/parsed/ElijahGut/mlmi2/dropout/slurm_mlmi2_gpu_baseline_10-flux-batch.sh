@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-poodle-0293
+#FLUX: --job-name=gpujob
+#FLUX: --queue=ampere
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

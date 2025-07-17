@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-sundae-4141
+#FLUX: --job-name=motif_intersection
 #FLUX: -n=5
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=18000

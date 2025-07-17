@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=100f_n3_q2
 #FLUX: -N=8
+#FLUX: --queue=long-28core
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

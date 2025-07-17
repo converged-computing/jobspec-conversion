@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lamp-3232
+#FLUX: --job-name=dinosaur-lettuce-1170
+#FLUX: -c=72
 #FLUX: --exclusive
+#FLUX: --queue=gpu
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 cd ~/NKI/stylegan3/

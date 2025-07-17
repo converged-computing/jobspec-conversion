@@ -2,6 +2,7 @@
 #FLUX: --job-name=rfm_LaghosTest_laghos_3_1__nvhpc___nodes___4___mpi___256___omp___1__job
 #FLUX: -n=256
 #FLUX: --exclusive
+#FLUX: --queue=c6gn
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

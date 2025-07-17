@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-staircase-4776
+#FLUX: --job-name=LoopyNodeCudaBeliefPropagationBenchmarks
+#FLUX: --queue=gpu
 #FLUX: -t=25200
 #FLUX: --urgency=16
 

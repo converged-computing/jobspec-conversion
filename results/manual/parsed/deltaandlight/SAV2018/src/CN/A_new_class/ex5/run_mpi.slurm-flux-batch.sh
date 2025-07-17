@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hope-4031
+#FLUX: --job-name=SAV_test_zl
+#FLUX: --queue=cpu
+#FLUX: -t=64800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1           # 设置全局 OpenMP 线程为1 '

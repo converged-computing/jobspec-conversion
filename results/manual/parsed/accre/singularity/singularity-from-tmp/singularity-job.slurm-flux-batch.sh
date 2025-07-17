@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-nunchucks-0358
+#FLUX: --job-name=expensive-kitty-9512
 #FLUX: --urgency=16
 
 image=python-2.12-numpy-1.13.img

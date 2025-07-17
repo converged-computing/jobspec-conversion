@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=eval_llama-7B
 #FLUX: -c=12
+#FLUX: --queue=pol-preempted
 #FLUX: --urgency=16
 
 ROOT_PATH=cognitive_comp

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-cinnamonbun-2033
+#FLUX: --job-name=bootstrap
+#FLUX: -c=2
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load julia/1.7.3

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-nunchucks-1074
+#FLUX: --job-name=distill
 #FLUX: -N=4
 #FLUX: -n=12
+#FLUX: --queue=ampere
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

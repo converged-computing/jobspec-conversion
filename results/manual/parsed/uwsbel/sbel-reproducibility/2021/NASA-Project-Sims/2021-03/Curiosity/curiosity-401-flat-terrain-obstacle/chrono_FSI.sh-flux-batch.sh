@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-general-8903
+#FLUX: --job-name=loopy-snack-9210
 #FLUX: -c=4
 #FLUX: --queue=sbel
 #FLUX: -t=864000

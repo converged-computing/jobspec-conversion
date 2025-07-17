@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cifar_train
 #FLUX: --queue=cbmm
+#FLUX: -t=129600
 #FLUX: --urgency=16
 
 cd /om/user/scasper/workspace/

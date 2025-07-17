@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-house-7346
+#FLUX: --job-name=d7nw-BHaH
+#FLUX: -n=12
+#FLUX: --queue=compute
+#FLUX: -t=727200
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/lib:$LD_LIBRARY_PATH'

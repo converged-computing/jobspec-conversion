@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-malarkey-5178
+#FLUX: --job-name=uvvis_chemprop_v0
+#FLUX: -n=20
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 echo "Date              = $(date)"

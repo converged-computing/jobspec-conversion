@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=exp
 #FLUX: -c=6
+#FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

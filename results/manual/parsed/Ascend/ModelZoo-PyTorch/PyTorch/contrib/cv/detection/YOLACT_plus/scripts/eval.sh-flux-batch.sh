@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-milkshake-3700
+#FLUX: --job-name=frigid-toaster-5418
+#FLUX: --queue=GPU-small
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load python/3.6.4_gcc5_np1.14.5

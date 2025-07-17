@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-fudge-6598
+#FLUX: --job-name=naive
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=180000

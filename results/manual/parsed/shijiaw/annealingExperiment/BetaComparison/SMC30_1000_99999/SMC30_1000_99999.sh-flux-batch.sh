@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-bits-6771
+#FLUX: --job-name=red-soup-8750
+#FLUX: -t=172815
 #FLUX: --urgency=16
 
 module load r/3.4.0

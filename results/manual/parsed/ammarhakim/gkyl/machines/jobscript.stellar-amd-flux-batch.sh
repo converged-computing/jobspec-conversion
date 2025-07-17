@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-animal-8685
+#FLUX: --job-name=gkyl
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export gComDir='$HOME/gkylsoft/gkyl/bin'

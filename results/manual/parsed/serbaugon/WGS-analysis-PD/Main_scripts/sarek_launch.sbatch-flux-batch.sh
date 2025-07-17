@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-omelette-8196
+#FLUX: --job-name=sarekLaunch
+#FLUX: -t=356400
 #FLUX: --urgency=16
 
 export NXF_OPTS='-Xms1g -Xmx4g'

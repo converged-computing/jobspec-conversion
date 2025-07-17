@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=HS_test_single_D
+#FLUX: -c=3
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

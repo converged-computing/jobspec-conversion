@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bike-5373
+#FLUX: --job-name=dinosaur-plant-0847
+#FLUX: -n=2
 #FLUX: -c=4
+#FLUX: --queue=nvidia
 #FLUX: -t=261000
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-pot-1946
+#FLUX: --job-name=mnist
+#FLUX: --queue=gpu
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 module purge

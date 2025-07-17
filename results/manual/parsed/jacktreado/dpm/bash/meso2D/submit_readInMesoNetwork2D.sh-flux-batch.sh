@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-plant-0185
+#FLUX: --job-name=quirky-platanos-4315
 #FLUX: --urgency=16
 
 gitdir=~/dpm

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-knife-3674
+#FLUX: --job-name=nerdy-sundae-9391
 #FLUX: --urgency=16
 
 if [ $# -lt 1 ]; then

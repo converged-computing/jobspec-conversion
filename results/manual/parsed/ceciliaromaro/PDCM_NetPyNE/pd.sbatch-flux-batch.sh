@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pd
 #FLUX: -N=16
+#FLUX: -t=216000
 #FLUX: --urgency=16
 
 source ~/.bashrc

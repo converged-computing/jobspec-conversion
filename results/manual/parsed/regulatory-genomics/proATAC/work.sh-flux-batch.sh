@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-citrus-0162
+#FLUX: --job-name=test
+#FLUX: -c=2
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 conda activate  cutadaptenv

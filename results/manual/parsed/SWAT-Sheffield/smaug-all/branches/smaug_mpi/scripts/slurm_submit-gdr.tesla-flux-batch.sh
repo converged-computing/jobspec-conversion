@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-fork-7546
+#FLUX: --job-name=gpujob
 #FLUX: -N=2
 #FLUX: -n=2
+#FLUX: --queue=tesla
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

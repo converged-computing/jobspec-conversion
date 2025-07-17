@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peanut-butter-4083
+#FLUX: --job-name=milky-latke-6718
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export XGC_NMPI_PER_NODE='8'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-omelette-4185
+#FLUX: --job-name=expressive-caramel-6502
 #FLUX: --queue=valhalla
 #FLUX: -t=36000
 #FLUX: --urgency=16

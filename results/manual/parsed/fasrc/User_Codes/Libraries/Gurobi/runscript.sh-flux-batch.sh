@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cat-7851
+#FLUX: --job-name=gurobitest
+#FLUX: --queue=test
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 module load python

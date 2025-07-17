@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lemur-3007
+#FLUX: --job-name=tart-lemon-8438
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=14400

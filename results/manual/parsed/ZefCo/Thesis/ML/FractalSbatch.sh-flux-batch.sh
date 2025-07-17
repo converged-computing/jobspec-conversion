@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-poodle-2886
+#FLUX: --job-name=fractal_GHMSS_v1
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

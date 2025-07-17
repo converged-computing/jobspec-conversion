@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-squidward-5385
+#FLUX: --job-name=MUGA_REF_BG_CHECKS
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 config=/projects/compsci/vmp/USERS/widmas/MUGA_reference_data/data/GigaMUGA/chrs.txt

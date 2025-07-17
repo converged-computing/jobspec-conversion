@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-pastry-2572
+#FLUX: --job-name=milky-bike-3984
+#FLUX: -n=16
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 module load openmpi/4.1.4

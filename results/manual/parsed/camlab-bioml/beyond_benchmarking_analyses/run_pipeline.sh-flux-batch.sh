@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-earthworm-9407
+#FLUX: --job-name=evasive-chip-7756
 #FLUX: -t=0
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-buttface-2472
+#FLUX: --job-name=PacLearn
+#FLUX: -n=32
+#FLUX: --queue=gpu,preempt
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

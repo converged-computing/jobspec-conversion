@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-milkshake-7489
+#FLUX: --job-name=MViTv2_finetune_STAR
 #FLUX: -N=4
 #FLUX: -c=10
 #FLUX: --exclusive

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-caramel-4803
+#FLUX: --job-name=fuzzy-cinnamonbun-8671
 #FLUX: -c=7
 #FLUX: --queue=gpu
 #FLUX: -t=259200

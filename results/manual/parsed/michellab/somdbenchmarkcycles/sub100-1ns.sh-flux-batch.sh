@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-eagle-2234
+#FLUX: --job-name=loopy-banana-3222
+#FLUX: --queue=main
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

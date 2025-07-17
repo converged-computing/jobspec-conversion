@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-plant-7870
+#FLUX: --job-name=flexiblas
+#FLUX: --queue=batch
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export MODULEPATH='/software/cades-open/spack-envs/base/modules/site/Core:/software/cades-open/modulefiles/core'

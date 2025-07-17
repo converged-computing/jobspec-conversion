@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-peanut-1821
+#FLUX: --job-name=sdp-iotest
 #FLUX: --exclusive
+#FLUX: --queue=skylake
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

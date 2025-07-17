@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-staircase-1207
+#FLUX: --job-name=chunky-animal-8621
 #FLUX: --queue=general,zhanglab
 #FLUX: -t=3600
 #FLUX: --urgency=16

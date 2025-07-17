@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-fork-3018
+#FLUX: --job-name=misunderstood-nalgas-9070
+#FLUX: --queue=jazayeri
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export MW_NVCC_PATH='/cm/shared/openmind/cuda/9.1/bin  # Cuda driver'

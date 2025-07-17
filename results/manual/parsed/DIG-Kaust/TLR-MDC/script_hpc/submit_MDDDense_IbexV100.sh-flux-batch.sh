@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-itch-8318
+#FLUX: --job-name=mdd
+#FLUX: -n=4
 #FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16

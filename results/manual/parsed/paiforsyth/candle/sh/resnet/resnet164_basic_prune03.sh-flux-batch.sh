@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-parsnip-8496
+#FLUX: --job-name=goodbye-egg-6261
 #FLUX: -c=6
 #FLUX: -t=30
 #FLUX: --urgency=16

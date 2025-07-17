@@ -2,6 +2,8 @@
 #FLUX: --job-name=test13
 #FLUX: -c=16
 #FLUX: --exclusive
+#FLUX: --queue=normal_q
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 export MKL_NUM_THREADS='1'

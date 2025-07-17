@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-bicycle-3512
+#FLUX: --job-name=MeshCNNABC5KRem2K
 #FLUX: -c=40
 #FLUX: --queue=gpu
 #FLUX: -t=604800

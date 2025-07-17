@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-egg-1448
+#FLUX: --job-name=purple-fudge-2154
 #FLUX: -c=56
 #FLUX: --exclusive
 #FLUX: --queue=standard-g

@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peas-1662
+#FLUX: --job-name=Caffe-1024nodes
+#FLUX: -N=1024
+#FLUX: -n=1024
+#FLUX: --queue=test2
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='48'

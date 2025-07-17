@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-hope-6743
+#FLUX: --job-name=carnivorous-salad-5715
 #FLUX: --queue=bii-gpu
 #FLUX: -t=129600
 #FLUX: --urgency=16

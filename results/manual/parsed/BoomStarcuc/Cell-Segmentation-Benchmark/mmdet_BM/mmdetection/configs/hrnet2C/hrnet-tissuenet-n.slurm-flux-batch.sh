@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-dog-3702
+#FLUX: --job-name=hrnet-tissuenet-n-2C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

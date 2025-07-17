@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-salad-9232
+#FLUX: --job-name=evasive-bits-3388
 #FLUX: -c=6
+#FLUX: --queue=gpu
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-diablo-8738
+#FLUX: --job-name=ConvLr00001
+#FLUX: -c=5
+#FLUX: --queue=qTRDGPUH
+#FLUX: -t=460800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

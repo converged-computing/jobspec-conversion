@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-avocado-5022
+#FLUX: --job-name=frigid-bits-5539
+#FLUX: -t=0
 #FLUX: --urgency=16
 
 module load cuda-11.1.1 cudnn-11.1.1-v8.0.4.30

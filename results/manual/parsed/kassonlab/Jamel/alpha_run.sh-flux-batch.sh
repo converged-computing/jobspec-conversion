@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cupcake-0359
+#FLUX: --job-name=anxious-spoon-4789
+#FLUX: -c=16
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export FASTA='$1'

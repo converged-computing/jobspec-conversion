@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cat-3732
+#FLUX: --job-name=array-example
+#FLUX: --queue=Brody
 #FLUX: -t=600
 #FLUX: --urgency=16
 

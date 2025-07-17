@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-parsnip-9096
+#FLUX: --job-name=peachy-noodle-0415
+#FLUX: --queue=standard
+#FLUX: -t=59400
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-destiny-5190
+#FLUX: --job-name=evasive-punk-4047
+#FLUX: --queue=fpgasyn
 #FLUX: --urgency=16
 
 module load intelFPGA_pro/20.3.0

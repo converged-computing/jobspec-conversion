@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-latke-7871
+#FLUX: --job-name=SNAKEMASTER
 #FLUX: --queue=long
 #FLUX: -t=864000
 #FLUX: --urgency=16

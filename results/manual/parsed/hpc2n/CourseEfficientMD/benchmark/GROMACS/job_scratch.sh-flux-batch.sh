@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chip-8347
+#FLUX: --job-name=muffled-kerfuffle-8321
+#FLUX: -n=4
+#FLUX: -c=7
 #FLUX: --exclusive
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export parent='/pfs/nobackup/home/p/pojedama/benchmarks/charmm-gui/gromacs'

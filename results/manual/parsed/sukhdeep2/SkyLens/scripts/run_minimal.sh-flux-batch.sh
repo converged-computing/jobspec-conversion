@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-signal-0613
+#FLUX: --job-name=test
+#FLUX: -n=28
+#FLUX: --queue=RM
+#FLUX: -t=144000
 #FLUX: --urgency=16
 
 ID=$SLURM_ARRAY_JOB_ID

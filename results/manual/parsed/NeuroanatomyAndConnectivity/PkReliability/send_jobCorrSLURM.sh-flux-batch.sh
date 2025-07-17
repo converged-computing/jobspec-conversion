@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gradGen
 #FLUX: -c=8
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 SUBJECT_LIST=./SubjectsCompleteData.txt

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-peanut-butter-7758
+#FLUX: --job-name=abinit
 #FLUX: --exclusive
+#FLUX: --queue=kshctest
 #FLUX: --urgency=16
 
 export UCX_LOG_LEVEL='error'

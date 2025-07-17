@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-butter-7594
+#FLUX: --job-name=blank-signal-9323
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-chair-4372
+#FLUX: --job-name=adorable-peanut-6007
 #FLUX: -n=24
+#FLUX: --queue=intel
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

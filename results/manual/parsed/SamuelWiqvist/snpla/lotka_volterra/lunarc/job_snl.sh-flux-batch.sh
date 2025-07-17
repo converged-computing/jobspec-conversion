@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-cupcake-6290
+#FLUX: --job-name=snl
 #FLUX: --exclusive
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-poodle-4915
+#FLUX: --job-name=eccentric-underoos-5822
 #FLUX: -N=3
 #FLUX: --queue=devel
 #FLUX: -t=900

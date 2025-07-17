@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-underoos-0238
+#FLUX: --job-name=reclusive-noodle-2776
+#FLUX: -N=2
+#FLUX: -n=60
+#FLUX: --queue=huce_intel
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

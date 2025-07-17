@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bicycle-8626
+#FLUX: --job-name=dist
+#FLUX: -N=128
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='66'

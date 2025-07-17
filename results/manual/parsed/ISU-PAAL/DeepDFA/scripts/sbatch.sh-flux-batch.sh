@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=sbatch
+#FLUX: -n=4
 #FLUX: --queue=gpu
 #FLUX: -t=259200
 #FLUX: --urgency=16

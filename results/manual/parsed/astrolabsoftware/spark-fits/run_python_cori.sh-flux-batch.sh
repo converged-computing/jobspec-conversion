@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cattywampus-9369
+#FLUX: --job-name=sparkFITS
+#FLUX: -N=6
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load spark

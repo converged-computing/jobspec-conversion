@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=IMU_Cost_Labeler
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 EXE=/bin/bash

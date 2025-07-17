@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-salad-7687
+#FLUX: --job-name=milky-egg-7609
+#FLUX: --queue=GPU-shared
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 module load cuda/8.0 tensorflow/0.12.1

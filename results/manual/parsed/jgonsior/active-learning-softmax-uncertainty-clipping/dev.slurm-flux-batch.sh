@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cattywampus-0006
+#FLUX: --job-name=dirty-train-4765
 #FLUX: -c=8
 #FLUX: --queue=alpha
 #FLUX: -t=363599

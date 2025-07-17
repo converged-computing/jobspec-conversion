@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-latke-5845
+#FLUX: --job-name=spicy-house-1877
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 python run_retrieval.py \

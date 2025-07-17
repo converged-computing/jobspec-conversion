@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-kitty-3983
+#FLUX: --job-name=phat-truffle-6845
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

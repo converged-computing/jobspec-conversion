@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=STAR
+#FLUX: -c=32
 #FLUX: --queue=panda
 #FLUX: --urgency=16
 

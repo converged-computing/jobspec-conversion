@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=bcd_icassp23
+#FLUX: -c=4
 #FLUX: --queue=normal
 #FLUX: -t=172800
 #FLUX: --urgency=16

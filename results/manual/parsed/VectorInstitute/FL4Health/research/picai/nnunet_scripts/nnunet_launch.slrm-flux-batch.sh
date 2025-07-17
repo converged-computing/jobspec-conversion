@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nnunet_picai_train
+#FLUX: -c=16
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

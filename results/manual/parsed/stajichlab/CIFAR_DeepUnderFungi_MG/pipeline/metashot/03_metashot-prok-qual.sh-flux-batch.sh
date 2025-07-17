@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-squidward-2474
+#FLUX: --job-name=faux-sundae-6312
+#FLUX: -c=24
+#FLUX: --queue=batch
 #FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'

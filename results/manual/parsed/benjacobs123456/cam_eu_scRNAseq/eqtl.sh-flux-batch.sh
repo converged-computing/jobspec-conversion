@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-noodle-4974
+#FLUX: --job-name=eqtl
 #FLUX: -c=32
+#FLUX: --queue=cclake
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

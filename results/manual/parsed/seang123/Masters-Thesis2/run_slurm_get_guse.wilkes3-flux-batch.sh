@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-punk-2732
+#FLUX: --job-name=get_guse_py
+#FLUX: --queue=ampere
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

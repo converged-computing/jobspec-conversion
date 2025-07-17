@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-buttface-0427
+#FLUX: --job-name=expressive-despacito-7409
+#FLUX: -N=2
+#FLUX: --queue=bdwall
 #FLUX: -t=900
 #FLUX: --urgency=16
 

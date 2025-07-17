@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-parsnip-4765
+#FLUX: --job-name=misunderstood-lemon-2636
 #FLUX: -N=6
 #FLUX: -c=8
 #FLUX: --queue=gpu

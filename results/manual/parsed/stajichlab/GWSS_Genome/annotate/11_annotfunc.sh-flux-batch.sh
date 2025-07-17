@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-signal-9596
+#FLUX: --job-name=gwss_predict_fun
 #FLUX: -n=16
+#FLUX: --queue=intel,batch,stajichlab
 #FLUX: --urgency=16
 
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'

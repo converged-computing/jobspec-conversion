@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-poo-6522
+#FLUX: --job-name=rainbow-muffin-9424
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 set -a

@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-pancake-6753
+#FLUX: --job-name=64_matrixVectorProduct
+#FLUX: -n=64
+#FLUX: -c=128
 #FLUX: --exclusive
+#FLUX: --queue=thin
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

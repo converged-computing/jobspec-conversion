@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-banana-5538
+#FLUX: --job-name=psycho-cherry-4451
+#FLUX: -c=5
 #FLUX: --urgency=16
 
 echo test1

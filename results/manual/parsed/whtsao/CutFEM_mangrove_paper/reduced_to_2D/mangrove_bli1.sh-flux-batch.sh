@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-poodle-1844
+#FLUX: --job-name=cox_2D_BL_ti1
+#FLUX: -N=4
+#FLUX: -n=192
+#FLUX: --queue=workq
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 date

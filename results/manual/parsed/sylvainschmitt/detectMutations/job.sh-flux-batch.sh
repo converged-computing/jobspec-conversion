@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-toaster-6032
+#FLUX: --job-name=detMut
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-snack-8971
+#FLUX: --job-name=S1
+#FLUX: --queue=shared
 #FLUX: -t=8640
 #FLUX: --urgency=16
 

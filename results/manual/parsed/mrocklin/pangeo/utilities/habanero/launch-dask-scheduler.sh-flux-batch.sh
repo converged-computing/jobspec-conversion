@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-train-4499
+#FLUX: --job-name=dask-sched
 #FLUX: --exclusive
 #FLUX: -t=21600
 #FLUX: --urgency=16

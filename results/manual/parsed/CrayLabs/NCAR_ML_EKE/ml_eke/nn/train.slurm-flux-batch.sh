@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-animal-9594
+#FLUX: --job-name=chocolate-despacito-4413
+#FLUX: --queue=spider
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

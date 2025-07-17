@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-avocado-4838
+#FLUX: --job-name=${nbname}
+#FLUX: -n=16
+#FLUX: --queue=dav
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 usage () {

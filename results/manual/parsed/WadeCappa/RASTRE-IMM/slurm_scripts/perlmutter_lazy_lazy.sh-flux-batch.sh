@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-chip-0058
+#FLUX: --job-name=m4_lazy_lazy_github_IC
+#FLUX: -N=4
+#FLUX: --queue=debug
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'

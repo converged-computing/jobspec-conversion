@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=4genome_hermes
+#FLUX: -N=4
+#FLUX: -n=4
 #FLUX: -t=5400
 #FLUX: --urgency=16
 

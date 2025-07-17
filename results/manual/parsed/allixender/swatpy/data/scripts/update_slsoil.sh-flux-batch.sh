@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-hope-7145
+#FLUX: --job-name=swat_preprocessing
+#FLUX: --queue=main
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 module load python-3.7.1

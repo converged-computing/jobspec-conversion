@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-dog-1624
+#FLUX: --job-name=astute-underoos-9532
+#FLUX: -c=5
+#FLUX: --queue=amp48
 #FLUX: --urgency=16
 
 module load gcc/gcc-10.2.0

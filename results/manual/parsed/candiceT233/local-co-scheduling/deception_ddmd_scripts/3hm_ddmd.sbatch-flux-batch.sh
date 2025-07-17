@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=3hm_sc_ddmd_n2t24i1_100ps
+#FLUX: -N=2
+#FLUX: -n=12
 #FLUX: --queue=a100
 #FLUX: -t=9000
 #FLUX: --urgency=16

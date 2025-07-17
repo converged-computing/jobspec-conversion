@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-train-3381
+#FLUX: --job-name=voltage
+#FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: -t=108000
 #FLUX: --urgency=16

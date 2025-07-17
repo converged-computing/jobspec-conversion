@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-punk-4507
+#FLUX: --job-name=frigid-chip-2029
+#FLUX: --queue=alvis
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module load SciPy-bundle/2022.05-foss-2022a

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=range_test
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module purge

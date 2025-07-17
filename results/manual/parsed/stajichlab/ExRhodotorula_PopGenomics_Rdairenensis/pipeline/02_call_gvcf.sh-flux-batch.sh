@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parrot-1768
+#FLUX: --job-name=butterscotch-fork-0758
+#FLUX: -c=8
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 module load picard

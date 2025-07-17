@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-carrot-6692
+#FLUX: --job-name=dnbinf
+#FLUX: -c=4
+#FLUX: --queue=gpu_p
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='~/miniconda3/lib'

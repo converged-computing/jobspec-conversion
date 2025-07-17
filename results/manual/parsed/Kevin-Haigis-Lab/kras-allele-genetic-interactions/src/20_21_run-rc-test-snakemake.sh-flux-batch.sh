@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-motorcycle-7757
+#FLUX: --job-name=creamy-ricecake-3407
+#FLUX: --queue=priority
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load gcc conda2 slurm-drmaa/1.1.0

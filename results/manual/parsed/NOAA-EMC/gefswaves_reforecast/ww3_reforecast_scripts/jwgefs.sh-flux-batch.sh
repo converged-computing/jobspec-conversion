@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-fork-0821
+#FLUX: --job-name=lovable-sundae-3815
 #FLUX: -N=10
 #FLUX: --exclusive
+#FLUX: --queue=orion
+#FLUX: -t=28200
 #FLUX: --urgency=16
 
 ulimit -s unlimited

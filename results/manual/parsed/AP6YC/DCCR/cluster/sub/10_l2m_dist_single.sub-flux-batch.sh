@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-nunchucks-1164
+#FLUX: --job-name=DCCR-7
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pedo-2103
+#FLUX: --job-name=phat-arm-8075
 #FLUX: -n=4
 #FLUX: --queue=hpc
 #FLUX: -t=259200

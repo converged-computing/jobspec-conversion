@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-parsnip-2755
+#FLUX: --job-name=ada_vit
 #FLUX: -c=8
+#FLUX: --queue=lianglab,research
+#FLUX: -t=921600
 #FLUX: --urgency=16
 
 source ~/.bashrc

@@ -2,6 +2,7 @@
 #FLUX: --job-name=QDGP64
 #FLUX: -c=10
 #FLUX: --queue=CLUSTER
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 module load python/anaconda3

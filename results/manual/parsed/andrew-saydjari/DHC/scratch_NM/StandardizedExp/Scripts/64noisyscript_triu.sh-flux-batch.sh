@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bicycle-8635
+#FLUX: --job-name=64_noisy
+#FLUX: -n=2
+#FLUX: --queue=shared
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 module load Julia/1.5.3-linux-x86_64

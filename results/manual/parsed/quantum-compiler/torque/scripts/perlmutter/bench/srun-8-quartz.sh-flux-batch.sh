@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lamp-5069
+#FLUX: --job-name=gloopy-chip-5685
+#FLUX: -N=8
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PATH='$PATH:/global/homes/m/mingkuan/torque/deps/quartz/external/HiGHS/build/bin'

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=opt
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export HF_DATASETS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'

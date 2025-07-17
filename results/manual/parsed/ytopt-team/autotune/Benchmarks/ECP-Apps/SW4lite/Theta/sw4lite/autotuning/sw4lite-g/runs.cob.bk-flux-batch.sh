@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chip-7724
+#FLUX: --job-name=fuzzy-cat-9992
 #FLUX: --urgency=16
 

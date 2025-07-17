@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=minimal
+#FLUX: -n=2
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 hostname

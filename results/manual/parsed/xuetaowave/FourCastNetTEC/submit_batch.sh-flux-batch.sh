@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parrot-5708
+#FLUX: --job-name=afno
+#FLUX: -n=2
+#FLUX: -c=8
+#FLUX: --queue=GPU-8A100
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

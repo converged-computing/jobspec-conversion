@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-banana-9578
+#FLUX: --job-name=inference
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

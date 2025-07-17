@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pot-2066
+#FLUX: --job-name=i8rad
+#FLUX: -N=50
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PETSC_DIR='/g/g20/lobad1/petsc'

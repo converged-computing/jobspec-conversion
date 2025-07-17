@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-buttface-9720
+#FLUX: --job-name=loopy-gato-0213
 #FLUX: -n=30
 #FLUX: --queue=panda
 #FLUX: --urgency=16

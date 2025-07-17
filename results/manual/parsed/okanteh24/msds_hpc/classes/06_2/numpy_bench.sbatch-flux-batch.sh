@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-avocado-1848
+#FLUX: --job-name=numpy
 #FLUX: -c=2
+#FLUX: --queue=development
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

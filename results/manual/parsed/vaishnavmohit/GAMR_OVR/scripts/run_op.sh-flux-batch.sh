@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-snack-2510
+#FLUX: --job-name=strawberry-diablo-4838
+#FLUX: -n=3
+#FLUX: --queue=gpu
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=microhh
+#FLUX: -c=4
 #FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load cuda/10.1

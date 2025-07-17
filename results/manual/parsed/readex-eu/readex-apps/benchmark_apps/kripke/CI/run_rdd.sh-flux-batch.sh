@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-carrot-2837
+#FLUX: --job-name=READEX_kripke
 #FLUX: --exclusive
 #FLUX: --queue=haswell
 #FLUX: -t=3600

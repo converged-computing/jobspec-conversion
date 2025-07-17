@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-leader-5801
+#FLUX: --job-name=frigid-salad-8089
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

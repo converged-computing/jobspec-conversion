@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-hobbit-0143
+#FLUX: --job-name=coloc
 #FLUX: --queue=main
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load any/jdk/1.8.0_265

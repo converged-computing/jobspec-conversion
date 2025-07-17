@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=sc_velo
+#FLUX: -c=4
 #FLUX: --queue=shortterm
 #FLUX: --urgency=16
 

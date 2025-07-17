@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=classifier-job
+#FLUX: --queue=gpu-8
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

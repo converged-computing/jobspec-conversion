@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cherry-7325
+#FLUX: --job-name=prodload
+#FLUX: --queue=regular
+#FLUX: -t=90000
 #FLUX: --urgency=16
 
 export NERSC_HOST='`/usr/common/usg/bin/nersc_host`'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-onion-0091
+#FLUX: --job-name=swat_callib_mpi_x
+#FLUX: --queue=main
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 module load openmpi-3.1.0

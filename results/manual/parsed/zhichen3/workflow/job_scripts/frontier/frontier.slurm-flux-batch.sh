@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-mango-0577
+#FLUX: --job-name=subch
+#FLUX: -N=4
 #FLUX: -c=7
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=batch
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

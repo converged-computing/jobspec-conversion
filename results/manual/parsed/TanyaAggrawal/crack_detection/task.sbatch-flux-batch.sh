@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-buttface-4425
+#FLUX: --job-name=crack_detection
 #FLUX: --queue=batch
 #FLUX: -t=7200
 #FLUX: --urgency=16

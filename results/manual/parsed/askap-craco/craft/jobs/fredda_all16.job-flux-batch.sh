@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-arm-2382
+#FLUX: --job-name=expressive-punk-1524
 #FLUX: --queue=gpuq
 #FLUX: -t=7200
 #FLUX: --urgency=16

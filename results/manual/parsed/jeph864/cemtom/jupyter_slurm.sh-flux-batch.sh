@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-earthworm-5871
+#FLUX: --job-name=topics_nb
 #FLUX: -c=16
 #FLUX: --queue=informatik-mind
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export TOKENIZERS_PARALLELISM='true'

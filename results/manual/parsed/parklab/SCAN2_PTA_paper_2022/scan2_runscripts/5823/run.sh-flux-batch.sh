@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-nalgas-7341
+#FLUX: --job-name=scruptious-bicycle-2279
+#FLUX: --queue=priopark
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 /n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv \

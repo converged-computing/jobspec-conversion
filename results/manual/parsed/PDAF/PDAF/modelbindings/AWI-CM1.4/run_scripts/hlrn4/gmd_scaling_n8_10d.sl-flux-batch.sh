@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-citrus-0402
+#FLUX: --job-name=spicy-hobbit-8085
 #FLUX: -N=24
 #FLUX: -n=2304
 #FLUX: --queue=standard96

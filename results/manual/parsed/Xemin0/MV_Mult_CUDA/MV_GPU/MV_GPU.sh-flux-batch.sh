@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-lentil-5225
+#FLUX: --job-name=MV_GPU
+#FLUX: --queue=gpu
+#FLUX: -t=2100
 #FLUX: --urgency=16
 
 nvidia-smi

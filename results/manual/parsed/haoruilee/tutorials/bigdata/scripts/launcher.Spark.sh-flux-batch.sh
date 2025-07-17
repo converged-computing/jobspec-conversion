@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-truffle-3877
+#FLUX: --job-name=Spark
+#FLUX: -N=3
+#FLUX: -c=28
 #FLUX: --exclusive
 #FLUX: --queue=batch
 #FLUX: -t=3600

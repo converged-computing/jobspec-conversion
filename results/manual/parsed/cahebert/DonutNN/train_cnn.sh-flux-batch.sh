@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=2d_7l_DNN
+#FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

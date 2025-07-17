@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-fork-0785
+#FLUX: --job-name=_t2g_
+#FLUX: -c=4
+#FLUX: --queue=gp4d
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

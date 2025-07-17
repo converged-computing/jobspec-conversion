@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-bike-8976
+#FLUX: --job-name=arr_cpujob
 #FLUX: -n=30
+#FLUX: --queue=cclake
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

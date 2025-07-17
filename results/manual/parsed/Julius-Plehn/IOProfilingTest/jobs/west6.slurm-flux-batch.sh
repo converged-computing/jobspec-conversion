@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-frito-7537
+#FLUX: --job-name=phat-arm-7768
 #FLUX: -N=6
 #FLUX: -n=6
 #FLUX: --queue=west

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lemur-0730
+#FLUX: --job-name=cowy-train-8602
+#FLUX: -n=24
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=210
 #FLUX: --urgency=16
 
 itRoot=$(cd ..; pwd)

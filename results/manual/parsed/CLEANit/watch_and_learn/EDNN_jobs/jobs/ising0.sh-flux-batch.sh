@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-car-0451
+#FLUX: --job-name=eccentric-nalgas-4259
 #FLUX: --queue=bumblebee
 #FLUX: -t=86400
 #FLUX: --urgency=16

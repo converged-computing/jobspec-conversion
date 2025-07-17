@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-salad-6128
+#FLUX: --job-name=bumfuzzled-salad-7004
+#FLUX: -n=4
+#FLUX: --queue=alvis
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 cp -r $HOME/motion-analysis $TMPDIR

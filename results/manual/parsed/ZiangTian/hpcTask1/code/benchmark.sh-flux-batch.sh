@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pancake-4421
+#FLUX: --job-name=stinky-carrot-3321
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 frameworks=("numba")

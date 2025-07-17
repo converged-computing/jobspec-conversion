@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-kitty-0090
+#FLUX: --job-name=single-turbine
+#FLUX: -N=2
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 set -e

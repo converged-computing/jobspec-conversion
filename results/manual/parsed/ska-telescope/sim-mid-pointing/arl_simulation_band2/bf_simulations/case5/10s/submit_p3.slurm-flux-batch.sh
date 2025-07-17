@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-ricecake-9399
+#FLUX: --job-name=CASE5_10s
 #FLUX: -N=16
 #FLUX: -n=33
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bash
+#FLUX: -c=6
+#FLUX: --queue=scavenger-gpu
 #FLUX: --urgency=16
 
 module load CUDA/10.1

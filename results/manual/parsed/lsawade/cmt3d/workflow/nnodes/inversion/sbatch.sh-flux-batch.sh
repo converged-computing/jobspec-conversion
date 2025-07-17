@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-dog-5294
+#FLUX: --job-name=Inversion
+#FLUX: -N=40
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export MPLCONFIGDIR='${LUSTRE}/.matplotlib'

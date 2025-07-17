@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-nunchucks-5942
+#FLUX: --job-name=test
 #FLUX: --queue=cp3
 #FLUX: -t=4800
 #FLUX: --urgency=16

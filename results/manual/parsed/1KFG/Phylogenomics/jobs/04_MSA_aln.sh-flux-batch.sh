@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=MSA
+#FLUX: --queue=intel
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

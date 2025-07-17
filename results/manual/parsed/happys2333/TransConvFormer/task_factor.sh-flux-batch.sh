@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-puppy-3782
+#FLUX: --job-name=pytorch_transConv
 #FLUX: --queue=gpulab02
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-general-3164
+#FLUX: --job-name=SAV-test-zl
+#FLUX: --queue=cpu
+#FLUX: -t=64800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1         # 设置全局 OpenMP 线程为1 '

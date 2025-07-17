@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-peanut-8146
+#FLUX: --job-name=arid-latke-5742
+#FLUX: -N=16
+#FLUX: --queue=regular
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

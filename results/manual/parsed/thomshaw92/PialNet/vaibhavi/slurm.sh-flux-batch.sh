@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=PialNet
+#FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

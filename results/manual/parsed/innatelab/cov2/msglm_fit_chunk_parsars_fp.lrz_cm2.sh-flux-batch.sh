@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-spoon-5055
+#FLUX: --job-name=cov2_msglm_parsars_fp
 #FLUX: -N=60
 #FLUX: -c=7
 #FLUX: --queue=cm2_large

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-itch-3087
+#FLUX: --job-name=conspicuous-squidward-4422
+#FLUX: --queue=alvis
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 data_dir=${1}

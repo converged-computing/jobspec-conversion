@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=robustness
+#FLUX: -c=2
 #FLUX: --queue=cbmm
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 cd /om2/user/xboix/src/convex_adversarial/

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=NXTFLW
+#FLUX: --queue=secondary
+#FLUX: -t=1209600
 #FLUX: --urgency=16
 
 export NXF_EXECUTOR='slurm'

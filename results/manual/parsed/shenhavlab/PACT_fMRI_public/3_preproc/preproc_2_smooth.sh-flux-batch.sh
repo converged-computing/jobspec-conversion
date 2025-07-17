@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-diablo-5551
+#FLUX: --job-name=smooth_pt
+#FLUX: -n=6
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 root_dir="/users/hritz/data/mri-data/RDM2"

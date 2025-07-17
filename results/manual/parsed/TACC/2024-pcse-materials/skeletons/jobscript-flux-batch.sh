@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-animal-8742
+#FLUX: --job-name=myjob
+#FLUX: -n=10
+#FLUX: --queue=vm-small
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module list

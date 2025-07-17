@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lettuce-2612
+#FLUX: --job-name=fugly-fork-6321
 #FLUX: -c=12
 #FLUX: --queue=ccr
 #FLUX: -t=259200

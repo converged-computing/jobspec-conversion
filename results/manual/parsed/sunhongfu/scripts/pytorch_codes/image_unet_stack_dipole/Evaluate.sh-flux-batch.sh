@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=eval_image_unet_stack_dipole
+#FLUX: -c=3
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-eagle-2293
+#FLUX: --job-name=resnet_asl
 #FLUX: --queue=gpu
 #FLUX: -t=216000
 #FLUX: --urgency=16

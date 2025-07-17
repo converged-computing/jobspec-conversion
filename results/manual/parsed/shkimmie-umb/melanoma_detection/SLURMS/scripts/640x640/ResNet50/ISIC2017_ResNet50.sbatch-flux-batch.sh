@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=ISIC2017_1_ResNet50_640h_640w
+#FLUX: -n=4
+#FLUX: --queue=haehn_unlim
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 eval "$(conda shell.bash hook)"

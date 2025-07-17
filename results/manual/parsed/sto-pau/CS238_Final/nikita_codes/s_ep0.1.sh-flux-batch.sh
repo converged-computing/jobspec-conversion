@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-poo-1579
+#FLUX: --job-name=policy_real
+#FLUX: -N=4
+#FLUX: --queue=normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module purge

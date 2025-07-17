@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=extraction
+#FLUX: -c=40
+#FLUX: --queue=xxx
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 tag_name=statistic/symAD_vctk_48000_hop300_clean

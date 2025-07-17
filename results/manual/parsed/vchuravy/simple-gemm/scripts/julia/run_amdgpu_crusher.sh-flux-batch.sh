@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-fork-1068
+#FLUX: --job-name=60000M_julia_gpu
+#FLUX: --queue=batch
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export JULIA_MPIEXEC='srun'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-banana-7193
+#FLUX: --job-name=DeepRAM-snakemake
+#FLUX: -c=4
+#FLUX: --queue=gpu_p
+#FLUX: -t=86400
 #FLUX: --urgency=15
 
 sbatch --wait << EOF

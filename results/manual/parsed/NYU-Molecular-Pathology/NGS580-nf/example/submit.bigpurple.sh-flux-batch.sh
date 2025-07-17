@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-buttface-7280
+#FLUX: --job-name=NGS580-run-2
+#FLUX: -c=8
+#FLUX: --queue=intellispace
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-poodle-6806
+#FLUX: --job-name=damask
+#FLUX: --queue=course
 #FLUX: --urgency=16
 
 export PETSC_DIR='/apps/src/petsc-3.6.4/'

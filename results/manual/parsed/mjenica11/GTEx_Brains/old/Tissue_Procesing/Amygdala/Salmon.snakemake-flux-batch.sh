@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Salmon_Amygdala
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 source activate salmon_environment

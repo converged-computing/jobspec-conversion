@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-parsnip-8850
+#FLUX: --job-name=anxious-lentil-2298
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=259200

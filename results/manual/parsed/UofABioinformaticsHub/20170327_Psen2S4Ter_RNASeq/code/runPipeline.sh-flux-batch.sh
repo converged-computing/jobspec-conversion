@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-omelette-2150
+#FLUX: --job-name=outstanding-fudge-8336
+#FLUX: -n=12
+#FLUX: --queue=batch
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

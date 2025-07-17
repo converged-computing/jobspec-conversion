@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-muffin-1453
+#FLUX: --job-name=covid-19_x0072
+#FLUX: --queue=pascal
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

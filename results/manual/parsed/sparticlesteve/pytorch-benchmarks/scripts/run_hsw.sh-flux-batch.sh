@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bits-7650
+#FLUX: --job-name=pytorch-bm-hsw
+#FLUX: --queue=regular
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='32'

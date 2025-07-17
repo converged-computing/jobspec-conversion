@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-spoon-5778
+#FLUX: --job-name=arid-cupcake-6019
+#FLUX: --queue=GPU-shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load python/3.6.4_gcc5_np1.14.5

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-nalgas-1229
+#FLUX: --job-name=stanky-parrot-7785
 #FLUX: -n=24
 #FLUX: --exclusive
 #FLUX: -t=259200

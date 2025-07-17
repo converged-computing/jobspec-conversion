@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pastry-9727
+#FLUX: --job-name=ekp_init
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

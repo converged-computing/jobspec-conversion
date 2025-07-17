@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-cattywampus-3340
+#FLUX: --job-name=genrd
 #FLUX: --queue=any_cpu
 #FLUX: --urgency=16
 

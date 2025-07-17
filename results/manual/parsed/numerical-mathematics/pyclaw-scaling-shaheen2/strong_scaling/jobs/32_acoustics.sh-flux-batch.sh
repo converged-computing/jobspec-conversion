@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-egg-8987
+#FLUX: --job-name=32_acoustics
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

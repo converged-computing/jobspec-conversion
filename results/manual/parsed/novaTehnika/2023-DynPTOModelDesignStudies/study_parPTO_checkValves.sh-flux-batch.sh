@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-earthworm-1418
+#FLUX: --job-name=expensive-poo-1524
+#FLUX: --queue=msismall
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd ~/2023-DynPTOModelDesignStudies

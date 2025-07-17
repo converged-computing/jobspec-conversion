@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-omelette-6085
+#FLUX: --job-name=carnivorous-dog-8121
+#FLUX: --queue=Quick
 #FLUX: --urgency=16
 
 conda activate semParse2

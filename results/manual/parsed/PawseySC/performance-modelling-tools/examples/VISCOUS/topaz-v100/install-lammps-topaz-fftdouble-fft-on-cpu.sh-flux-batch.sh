@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hope-2559
+#FLUX: --job-name=butterscotch-sundae-4683
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600

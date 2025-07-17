@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-leader-3098
+#FLUX: --job-name=sticky-avocado-3312
+#FLUX: -c=16
+#FLUX: -t=144000
 #FLUX: --urgency=16
 
 wd_dir="/tigress/abeukers/wd/w2v"

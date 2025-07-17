@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-mango-2826
+#FLUX: --job-name=BLR2_construct
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

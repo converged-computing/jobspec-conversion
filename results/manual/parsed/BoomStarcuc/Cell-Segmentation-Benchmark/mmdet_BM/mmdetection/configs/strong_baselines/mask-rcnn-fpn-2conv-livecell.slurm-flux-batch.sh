@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-staircase-0540
+#FLUX: --job-name=mask-rcnn-fpn-2conv-livecell
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

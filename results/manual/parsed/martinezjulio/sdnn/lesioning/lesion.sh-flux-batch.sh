@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=lesion
+#FLUX: --queue=nklab
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

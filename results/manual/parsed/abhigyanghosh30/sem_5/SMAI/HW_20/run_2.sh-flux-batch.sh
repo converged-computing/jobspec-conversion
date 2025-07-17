@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-underoos-7537
+#FLUX: --job-name=swampy-soup-3462
+#FLUX: -n=10
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

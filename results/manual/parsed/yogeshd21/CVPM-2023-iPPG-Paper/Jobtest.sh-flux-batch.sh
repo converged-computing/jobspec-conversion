@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blank-malarkey-5635
+#FLUX: --job-name=Test_frames
+#FLUX: -N=2
 #FLUX: -c=16
+#FLUX: --queue=p100_normal_q
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export MASTER_PORT='21621'

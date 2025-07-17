@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-arm-8528
+#FLUX: --job-name=SDSH_pam2adc2ww3_RUN
+#FLUX: -n=5
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

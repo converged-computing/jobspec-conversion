@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pot-5128
+#FLUX: --job-name=persnickety-malarkey-6718
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

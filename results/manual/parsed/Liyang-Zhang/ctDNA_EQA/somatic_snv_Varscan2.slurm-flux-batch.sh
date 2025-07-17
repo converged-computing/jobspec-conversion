@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=test
+#FLUX: --job-name=Varscan2
 #FLUX: --queue=64c512g
 #FLUX: --urgency=16
 

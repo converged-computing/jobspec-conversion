@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-plant-8687
+#FLUX: --job-name=outstanding-leopard-0481
+#FLUX: --queue=short
+#FLUX: -t=240
 #FLUX: --urgency=16
 
 cd $HOME/iRODS-RDM-HPC-course

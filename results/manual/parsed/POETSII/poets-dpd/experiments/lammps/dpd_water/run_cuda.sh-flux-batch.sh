@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-fudge-0034
+#FLUX: --job-name=fat-sundae-9237
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 module load lammps/2018/cuda

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nfsesame
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge all

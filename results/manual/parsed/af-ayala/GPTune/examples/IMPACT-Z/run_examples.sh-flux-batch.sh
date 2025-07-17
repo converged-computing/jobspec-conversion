@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-leader-6776
+#FLUX: --job-name=GPTune
+#FLUX: -N=2
+#FLUX: --queue=regular
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 cd ../../

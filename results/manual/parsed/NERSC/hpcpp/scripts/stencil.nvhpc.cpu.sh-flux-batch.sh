@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lizard-9992
+#FLUX: --job-name=1D-CPU
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: -t=86400

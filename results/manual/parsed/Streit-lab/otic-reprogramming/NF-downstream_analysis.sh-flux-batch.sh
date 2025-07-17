@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NF-downstream_analysis
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export TERM='xterm'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-cherry-2357
+#FLUX: --job-name=ORCA
 #FLUX: -N=4
+#FLUX: --queue=nonsusp
 #FLUX: -t=199800
 #FLUX: --urgency=16
 

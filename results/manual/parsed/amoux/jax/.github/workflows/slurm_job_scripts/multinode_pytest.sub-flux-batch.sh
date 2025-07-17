@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-kitty-2658
+#FLUX: --job-name=ci-jax-gpu
+#FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=compute
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 set -x

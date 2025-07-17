@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-animal-5517
+#FLUX: --job-name=crunchy-salad-6129
 #FLUX: --urgency=16
 
 module load icc

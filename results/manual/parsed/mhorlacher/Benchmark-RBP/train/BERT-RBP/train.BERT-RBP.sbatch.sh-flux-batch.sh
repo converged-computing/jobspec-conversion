@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-buttface-6066
+#FLUX: --job-name=snakemake
+#FLUX: -c=8
+#FLUX: --queue=cpu_p
+#FLUX: -t=21600
 #FLUX: --urgency=15
 
 sbatch --wait << EOF

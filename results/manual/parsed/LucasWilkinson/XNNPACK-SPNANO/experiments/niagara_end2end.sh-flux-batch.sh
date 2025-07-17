@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=$EXPERIMENT_NAME
 #FLUX: -c=40
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MKL_ENABLE_INSTRUCTIONS='AVX512'

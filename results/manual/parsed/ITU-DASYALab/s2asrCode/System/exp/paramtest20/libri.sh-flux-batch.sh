@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-puppy-8038
+#FLUX: --job-name=libri-p20
+#FLUX: -c=48
+#FLUX: --queue=gpu
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 echo "Running on: $(hostname)"

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=compile_MNH
+#FLUX: -c=16
+#FLUX: --queue=compil
 #FLUX: --urgency=16
 
 set -x

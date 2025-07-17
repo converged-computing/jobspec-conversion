@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=AQM
+#FLUX: -c=4
+#FLUX: --queue=brownlab-gpu,common,scavenger
 #FLUX: --urgency=16
 
 source ~/miniconda3/etc/profile.d/conda.sh

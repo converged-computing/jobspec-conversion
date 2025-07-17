@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-plant-9256
+#FLUX: --job-name=tensorflow_sim
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parrot-2411
+#FLUX: --job-name=bricky-motorcycle-2472
+#FLUX: -c=4
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load cuda/10

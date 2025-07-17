@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-caramel-8480
+#FLUX: --job-name=snl
+#FLUX: --queue=lu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-platanos-1888
+#FLUX: --job-name=eccentric-general-1376
 #FLUX: --urgency=16
 
 export IFS=';'

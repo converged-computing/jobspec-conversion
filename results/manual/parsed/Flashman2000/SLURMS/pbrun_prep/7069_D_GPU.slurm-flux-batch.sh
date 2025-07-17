@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=GPU_7069
+#FLUX: -c=20
 #FLUX: -t=360000
 #FLUX: --urgency=16
 

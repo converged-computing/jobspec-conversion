@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-fork-2191
+#FLUX: --job-name=mlmi-sca
+#FLUX: --queue=ampere
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

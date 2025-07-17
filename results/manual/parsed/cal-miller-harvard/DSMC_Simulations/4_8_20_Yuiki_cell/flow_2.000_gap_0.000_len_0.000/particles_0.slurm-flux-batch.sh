@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-signal-4451
+#FLUX: --job-name=milky-leopard-5700
+#FLUX: -n=8
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-fudge-8102
+#FLUX: --job-name=parse
 #FLUX: -n=76
+#FLUX: --queue=icelake
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

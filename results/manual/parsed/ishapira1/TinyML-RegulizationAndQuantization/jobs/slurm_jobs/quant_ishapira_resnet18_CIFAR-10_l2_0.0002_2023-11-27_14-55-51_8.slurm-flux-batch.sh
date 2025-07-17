@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-underoos-1104
+#FLUX: --job-name=frigid-despacito-8969
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-nunchucks-7216
+#FLUX: --job-name=nf-bam_to_fastq_(31)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

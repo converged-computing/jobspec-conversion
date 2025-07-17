@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hope-4588
+#FLUX: --job-name=cowy-parrot-1915
+#FLUX: --queue=defq
+#FLUX: -t=240
 #FLUX: --urgency=16
 
 export OMPI_MCA_pml='^ucx'

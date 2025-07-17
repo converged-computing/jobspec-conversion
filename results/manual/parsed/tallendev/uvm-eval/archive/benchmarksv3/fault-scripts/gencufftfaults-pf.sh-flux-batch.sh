@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-motorcycle-6761
+#FLUX: --job-name=cufft-faults-pf
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export IGNORE_CC_MISMATCH='1'

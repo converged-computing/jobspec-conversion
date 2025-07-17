@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-ricecake-0064
+#FLUX: --job-name=pipeeval
 #FLUX: --queue=dc-gpu
 #FLUX: -t=7199
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-blackbean-8030
+#FLUX: --job-name=scruptious-buttface-2705
 #FLUX: -n=8
 #FLUX: -c=6
 #FLUX: --queue=batch

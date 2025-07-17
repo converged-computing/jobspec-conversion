@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-destiny-1415
+#FLUX: --job-name=creamy-chair-8534
+#FLUX: -n=32
+#FLUX: --queue=defq
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-bicycle-1924
+#FLUX: --job-name=gassy-car-2630
 #FLUX: --urgency=16
 
 module load anaconda/2020.11

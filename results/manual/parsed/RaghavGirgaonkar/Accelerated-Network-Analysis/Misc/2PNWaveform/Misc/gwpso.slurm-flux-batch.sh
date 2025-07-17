@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-noodle-2289
+#FLUX: --job-name=rungwpso
+#FLUX: --queue=normal
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 module load matlab

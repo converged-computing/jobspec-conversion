@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-peanut-7694
+#FLUX: --job-name=x50_FASHION
 #FLUX: -c=32
+#FLUX: --queue=ampere
+#FLUX: -t=129570
 #FLUX: --urgency=16
 
 export TUNE_MAX_PENDING_TRIALS_PG='32'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-kitty-8437
+#FLUX: --job-name=gloopy-taco-7212
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

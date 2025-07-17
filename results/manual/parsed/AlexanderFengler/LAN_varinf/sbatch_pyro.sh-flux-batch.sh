@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cherry-0366
+#FLUX: --job-name=pyro_sampler
 #FLUX: -t=115200
 #FLUX: --urgency=16
 

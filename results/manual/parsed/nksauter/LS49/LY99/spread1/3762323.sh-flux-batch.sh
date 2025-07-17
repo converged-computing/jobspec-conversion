@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-general-9110
+#FLUX: --job-name=test_spread
+#FLUX: -N=48
+#FLUX: --queue=regular
+#FLUX: -t=4800
 #FLUX: --urgency=16
 
 export CCTBX_NO_UUID='1'

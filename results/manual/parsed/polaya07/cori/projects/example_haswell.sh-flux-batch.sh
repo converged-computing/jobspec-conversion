@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-salad-1052
+#FLUX: --job-name=gearshifft
+#FLUX: -n=64
+#FLUX: --queue=regular
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 BOOST_VER=1.67.0

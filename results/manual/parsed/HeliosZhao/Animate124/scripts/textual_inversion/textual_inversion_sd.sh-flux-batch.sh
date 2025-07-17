@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-hope-3274
+#FLUX: --job-name=dreamfusion
 #FLUX: -t=32400
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-malarkey-4941
+#FLUX: --job-name=evasive-lettuce-3068
+#FLUX: --queue=standard
 #FLUX: --urgency=16
 
 {% extends "slurm.sh" %}

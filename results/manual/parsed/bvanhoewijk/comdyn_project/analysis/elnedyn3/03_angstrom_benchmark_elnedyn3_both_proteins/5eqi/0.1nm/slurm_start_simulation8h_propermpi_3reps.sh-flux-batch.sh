@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-bits-3543
+#FLUX: --job-name=outstanding-blackbean-0985
 #FLUX: -n=96
 #FLUX: --queue=genoa
 #FLUX: -t=43200

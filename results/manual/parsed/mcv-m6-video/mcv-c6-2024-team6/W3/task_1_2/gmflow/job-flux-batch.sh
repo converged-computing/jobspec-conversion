@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-kitty-6010
+#FLUX: --job-name=fuzzy-milkshake-6993
+#FLUX: -n=4
+#FLUX: --queue=mlow
 #FLUX: --urgency=16
 
 python main.py \

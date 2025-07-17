@@ -2,6 +2,7 @@
 #FLUX: --job-name=25_diiodothiophene_CASTEP_opt
 #FLUX: -N=6
 #FLUX: --exclusive
+#FLUX: --queue=scarf
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

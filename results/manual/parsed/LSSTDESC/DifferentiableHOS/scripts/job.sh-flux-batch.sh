@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lentil-8909
+#FLUX: --job-name=purple-poo-5332
 #FLUX: --gpus-per-task=1
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module load tensorflow/2.6.0

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-puppy-1558
+#FLUX: --job-name=beff
 #FLUX: -n=32
+#FLUX: --queue=skylake
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

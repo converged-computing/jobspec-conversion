@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=hpx-plainmpi-join-8node-%j
+#FLUX: --queue=buran
 #FLUX: -t=600
 #FLUX: --urgency=16
 

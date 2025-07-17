@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=run_infer
+#FLUX: --queue=nvidia
 #FLUX: -t=7199
 #FLUX: --urgency=16
 

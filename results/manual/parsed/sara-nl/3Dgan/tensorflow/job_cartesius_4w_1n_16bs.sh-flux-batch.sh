@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-knife-3149
+#FLUX: --job-name=3DGAN_4w_1n_bs16_sun
 #FLUX: --queue=broadwell_short
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export KERAS_BACKEND='tensorflow'

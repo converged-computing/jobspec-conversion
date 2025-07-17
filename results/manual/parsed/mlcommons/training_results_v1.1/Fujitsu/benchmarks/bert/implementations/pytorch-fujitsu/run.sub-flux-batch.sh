@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-muffin-6021
+#FLUX: --job-name=bumfuzzled-fork-1421
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

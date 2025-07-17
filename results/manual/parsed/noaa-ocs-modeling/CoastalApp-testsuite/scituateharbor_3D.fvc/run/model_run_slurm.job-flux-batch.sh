@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-chip-2591
+#FLUX: --job-name=SCI_fvc_RUN
+#FLUX: -n=12
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

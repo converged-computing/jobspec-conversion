@@ -2,6 +2,7 @@
 #FLUX: --job-name=Gadget-CLEAN
 #FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=wholenode
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

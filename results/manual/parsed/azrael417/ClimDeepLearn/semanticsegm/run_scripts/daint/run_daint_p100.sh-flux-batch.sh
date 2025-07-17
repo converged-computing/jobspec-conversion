@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-kitty-6385
+#FLUX: --job-name=climseg_horovod
+#FLUX: --queue=normal
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='12'

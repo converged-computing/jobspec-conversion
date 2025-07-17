@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=apptainer-mpi
+#FLUX: -N=32
 #FLUX: -t=300
 #FLUX: --urgency=16
 

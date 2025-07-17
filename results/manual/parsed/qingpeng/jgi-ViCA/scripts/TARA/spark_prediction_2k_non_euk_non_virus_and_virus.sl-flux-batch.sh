@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-caramel-9542
+#FLUX: --job-name=carnivorous-banana-6201
+#FLUX: -N=3
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load spark/2.1.1

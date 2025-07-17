@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-hope-8679
+#FLUX: --job-name=outstanding-signal-3116
 #FLUX: -c=42
 #FLUX: --queue=small
 #FLUX: -t=10800

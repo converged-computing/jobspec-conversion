@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lemur-1757
+#FLUX: --job-name=rnn1d-tf2-noxla
 #FLUX: --exclusive
+#FLUX: --queue=special
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export PROFILER='cupy'

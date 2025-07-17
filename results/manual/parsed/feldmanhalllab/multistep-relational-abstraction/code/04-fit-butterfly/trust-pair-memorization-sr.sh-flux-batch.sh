@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-kitty-8351
+#FLUX: --job-name=blank-ricecake-9234
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 workflow_name="04-fit-butterfly"

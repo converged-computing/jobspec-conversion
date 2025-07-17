@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-milkshake-1000
+#FLUX: --job-name=creamy-peanut-butter-3187
 #FLUX: --urgency=16
 
 tissues=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')

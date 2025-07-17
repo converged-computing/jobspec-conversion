@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-omelette-5222
+#FLUX: --job-name=OntoSpecies_TransRA
+#FLUX: --queue=ampere
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

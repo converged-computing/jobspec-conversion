@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-peas-0817
+#FLUX: --job-name=conf_l_2
 #FLUX: -c=16
 #FLUX: --queue=gpu_short
 #FLUX: -t=57600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-parrot-2578
+#FLUX: --job-name=evasive-chair-0903
 #FLUX: --queue=batch
 #FLUX: -t=86400
 #FLUX: --urgency=16

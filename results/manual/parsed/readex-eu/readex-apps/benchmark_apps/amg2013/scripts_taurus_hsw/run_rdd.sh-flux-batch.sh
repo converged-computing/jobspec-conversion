@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lamp-4895
+#FLUX: --job-name=amg2013_rdd
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --exclusive

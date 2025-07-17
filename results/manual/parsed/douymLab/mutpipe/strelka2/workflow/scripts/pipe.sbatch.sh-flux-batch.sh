@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-butter-9786
+#FLUX: --job-name=strelka
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 import socket

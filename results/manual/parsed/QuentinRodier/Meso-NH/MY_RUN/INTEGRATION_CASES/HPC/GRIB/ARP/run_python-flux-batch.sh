@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-carrot-7074
+#FLUX: --job-name=Ltools
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 ulimit -c 0

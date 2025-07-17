@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=train-humanoid-sac
+#FLUX: -c=40
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

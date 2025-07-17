@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-butter-9334
+#FLUX: --job-name=angry-taco-5530
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 dataset_path=$1

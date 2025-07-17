@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-general-9755
+#FLUX: --job-name=bumfuzzled-butter-3069
 #FLUX: -N=2
 #FLUX: --queue=gpumedium
 #FLUX: -t=900

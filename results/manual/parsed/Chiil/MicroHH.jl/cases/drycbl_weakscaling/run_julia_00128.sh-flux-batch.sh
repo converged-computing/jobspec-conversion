@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lemur-7636
+#FLUX: --job-name=stinky-squidward-2286
 #FLUX: -c=4
 #FLUX: --exclusive
 #FLUX: --queue=thin

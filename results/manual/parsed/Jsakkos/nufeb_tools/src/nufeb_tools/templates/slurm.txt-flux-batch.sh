@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-muffin-6543
+#FLUX: --job-name=${job}
 #FLUX: --exclusive
+#FLUX: --queue=batch
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export LAMMPS='~/NUFEB/lammps/src/lmp_png'

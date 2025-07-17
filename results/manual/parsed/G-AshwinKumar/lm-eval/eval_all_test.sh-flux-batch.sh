@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-sundae-2456
+#FLUX: --job-name=eval
+#FLUX: -c=32
 #FLUX: --exclusive
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 MODEL_NAME="Mistral-7B-v0.1"

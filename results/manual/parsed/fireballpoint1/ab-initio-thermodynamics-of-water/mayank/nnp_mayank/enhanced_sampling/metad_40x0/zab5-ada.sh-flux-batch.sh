@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-snack-0975
+#FLUX: --job-name=milky-pastry-8190
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

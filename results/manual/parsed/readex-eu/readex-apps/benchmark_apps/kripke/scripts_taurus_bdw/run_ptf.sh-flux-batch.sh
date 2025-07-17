@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-diablo-1682
+#FLUX: --job-name=kripke
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
+#FLUX: -t=240
 #FLUX: --urgency=16
 
 export SCOREP_SUBSTRATE_PLUGINS='rrl'

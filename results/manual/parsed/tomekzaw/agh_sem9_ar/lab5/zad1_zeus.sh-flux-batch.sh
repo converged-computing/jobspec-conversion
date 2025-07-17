@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bike-8125
+#FLUX: --job-name=phat-fudge-3387
 #FLUX: -n=12
 #FLUX: --queue=plgrid
 #FLUX: -t=3600

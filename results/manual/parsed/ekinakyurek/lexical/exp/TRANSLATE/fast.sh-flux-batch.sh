@@ -2,7 +2,7 @@
 #FLUX: --job-name=fasttranslate
 #FLUX: -c=5
 #FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX: --urgency=50
 
 align="intersect"
 lr=1.0

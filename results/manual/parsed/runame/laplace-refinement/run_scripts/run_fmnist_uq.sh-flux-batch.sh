@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-buttface-0552
+#FLUX: --job-name=pusheena-pancake-6033
+#FLUX: --queue=gpu-2080ti
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-parrot-4227
+#FLUX: --job-name=rayCalc
+#FLUX: -N=8
 #FLUX: --urgency=16
 
 echo Time is `date`

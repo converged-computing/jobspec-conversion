@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-kitty-9400
+#FLUX: --job-name=ivan_debug
+#FLUX: -c=10
 #FLUX: -t=64800
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=04b_asset_RS_within
+#FLUX: --queue=gpu
+#FLUX: -t=100800
 #FLUX: --urgency=16
 
 module load anaconda3

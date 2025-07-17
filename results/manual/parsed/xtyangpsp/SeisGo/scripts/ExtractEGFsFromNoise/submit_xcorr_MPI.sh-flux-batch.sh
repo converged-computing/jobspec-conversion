@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bicycle-1429
+#FLUX: --job-name=xc
+#FLUX: -n=30
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 module load rcac

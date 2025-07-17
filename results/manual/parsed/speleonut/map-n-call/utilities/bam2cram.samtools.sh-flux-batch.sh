@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-leg-2175
+#FLUX: --job-name=BAM2CRAM
+#FLUX: -n=8
+#FLUX: --queue=icelake,a100cpu
 #FLUX: -t=19800
 #FLUX: --urgency=16
 

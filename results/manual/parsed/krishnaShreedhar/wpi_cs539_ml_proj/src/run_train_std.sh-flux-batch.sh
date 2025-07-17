@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mri_std
+#FLUX: --queue=whitehill
+#FLUX: -t=194400
 #FLUX: --urgency=16
 
 module load cuda11.1/toolkit/11.1.1

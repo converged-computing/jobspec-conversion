@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-diablo-2322
+#FLUX: --job-name=mpi_hello
+#FLUX: -n=4
+#FLUX: -t=10
 #FLUX: --urgency=16
 
 PRO=mpi_hello

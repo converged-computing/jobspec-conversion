@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-avocado-9638
+#FLUX: --job-name=purple-ricecake-2680
+#FLUX: -N=2
+#FLUX: --queue=galton
 #FLUX: --urgency=16
 
 export MPIP='-t 10.0'

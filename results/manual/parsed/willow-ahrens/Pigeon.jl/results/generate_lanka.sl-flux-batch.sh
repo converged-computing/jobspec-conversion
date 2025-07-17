@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-kitty-9332
+#FLUX: --job-name=lovely-snack-1890
 #FLUX: --exclusive
 #FLUX: --queue=lanka-v3
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export SCRATCH='/data/scratch/pahrens'

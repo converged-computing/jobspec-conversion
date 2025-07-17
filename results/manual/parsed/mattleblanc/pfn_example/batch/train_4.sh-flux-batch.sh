@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-mango-7424
+#FLUX: --job-name=PFN-l4
+#FLUX: --queue=gpu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 source tensorflow.venv/bin/activate

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-milkshake-0757
+#FLUX: --job-name=train
+#FLUX: --queue=gpu.q
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

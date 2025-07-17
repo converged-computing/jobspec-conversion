@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lemur-9865
+#FLUX: --job-name=FCAST_PGD
 #FLUX: -n=4
 #FLUX: --exclusive
 #FLUX: --queue=intel

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-salad-6988
+#FLUX: --job-name=PELE_MPI_test
 #FLUX: -n=5
 #FLUX: --urgency=16
 

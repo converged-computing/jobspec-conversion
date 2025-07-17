@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-staircase-2121
+#FLUX: --job-name=pusheena-train-0345
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=86400

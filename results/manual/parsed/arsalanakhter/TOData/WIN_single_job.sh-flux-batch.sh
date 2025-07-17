@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-onion-0437
+#FLUX: --job-name=swampy-leader-3423
+#FLUX: -n=12
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 set -e

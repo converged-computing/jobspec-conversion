@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cinnamonbun-0671
+#FLUX: --job-name=hairy-house-8930
+#FLUX: -c=2
 #FLUX: --queue=parallel
 #FLUX: -t=3600
 #FLUX: --urgency=16

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-kerfuffle-1356
+#FLUX: --job-name=moolicious-cinnamonbun-2526
 #FLUX: -c=2
 #FLUX: --exclusive
+#FLUX: --queue=scarf
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

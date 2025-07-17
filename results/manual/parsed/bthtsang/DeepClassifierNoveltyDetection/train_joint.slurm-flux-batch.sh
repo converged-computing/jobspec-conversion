@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-nalgas-1778
+#FLUX: --job-name=joint-emb16
 #FLUX: --queue=gpu
 #FLUX: -t=7200
 #FLUX: --urgency=16

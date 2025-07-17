@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-poo-0151
+#FLUX: --job-name=KerrSF_job
 #FLUX: -N=4
 #FLUX: -n=32
+#FLUX: --queue=knl
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

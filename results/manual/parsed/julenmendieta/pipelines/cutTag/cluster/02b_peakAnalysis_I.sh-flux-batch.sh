@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cutTagPeaks
 #FLUX: -c=32
+#FLUX: --queue=short
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

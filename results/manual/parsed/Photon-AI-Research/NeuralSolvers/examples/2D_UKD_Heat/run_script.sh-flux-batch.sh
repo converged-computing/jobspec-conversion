@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-truffle-7260
+#FLUX: --job-name=peachy-cattywampus-8812
 #FLUX: -c=6
+#FLUX: --queue=gpu
+#FLUX: -t=86340
 #FLUX: --urgency=16
 
 module load cuda/11.2

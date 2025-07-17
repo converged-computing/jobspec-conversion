@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cupcake-3042
+#FLUX: --job-name=fuzzy-butter-2689
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

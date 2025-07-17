@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cifar100-r50-multitask
+#FLUX: -c=4
 #FLUX: --urgency=16
 
 PORT=$[$RANDOM + 10000]

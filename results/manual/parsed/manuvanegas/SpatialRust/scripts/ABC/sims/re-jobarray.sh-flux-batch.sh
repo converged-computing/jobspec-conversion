@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-noodle-4442
+#FLUX: --job-name=reABC
 #FLUX: -n=5
+#FLUX: --queue=public
+#FLUX: -t=12600
 #FLUX: --urgency=16
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'

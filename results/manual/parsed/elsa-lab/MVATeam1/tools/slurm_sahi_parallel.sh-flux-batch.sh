@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-chair-0488
+#FLUX: --job-name=MVA2023_object_detection
+#FLUX: -N=2
 #FLUX: -c=4
+#FLUX: --queue=gtest
 #FLUX: --urgency=16
 
 export MASTER_PORT='9487'

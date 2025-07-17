@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lamp-6558
+#FLUX: --job-name=all_folds_learned_augmentation
 #FLUX: -c=8
 #FLUX: -t=72000
 #FLUX: --urgency=16

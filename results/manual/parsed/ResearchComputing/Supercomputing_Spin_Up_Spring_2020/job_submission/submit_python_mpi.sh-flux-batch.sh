@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lamp-2896
+#FLUX: --job-name=peachy-knife-5217
 #FLUX: -n=4
 #FLUX: --queue=shas
 #FLUX: -t=60

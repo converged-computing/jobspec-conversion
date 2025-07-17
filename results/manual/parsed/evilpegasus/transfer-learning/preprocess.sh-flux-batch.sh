@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-squidward-2198
+#FLUX: --job-name=Preprocess
+#FLUX: --queue=regular
+#FLUX: -t=28861
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

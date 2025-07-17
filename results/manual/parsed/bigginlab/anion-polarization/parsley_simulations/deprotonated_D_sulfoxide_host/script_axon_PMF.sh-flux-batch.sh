@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-lemur-0428
+#FLUX: --job-name=Cl_L-sulf_PMF_biotin
 #FLUX: -c=6
+#FLUX: --queue=gpu-biggin4,gpu-biggin3,gpu-biggin2,gpu-biggin
 #FLUX: -t=518400
 #FLUX: --urgency=16
 

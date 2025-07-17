@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-hope-1556
+#FLUX: --job-name=m_dist
 #FLUX: -n=4
+#FLUX: --queue=ict_gpu
 #FLUX: -t=919200
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-soup-8191
+#FLUX: --job-name=goodbye-arm-8615
+#FLUX: --queue=priopark
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 /n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv \

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-kerfuffle-5012
+#FLUX: --job-name=hpgmg-quant
 #FLUX: --exclusive
+#FLUX: -t=57600
 #FLUX: --urgency=16
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'

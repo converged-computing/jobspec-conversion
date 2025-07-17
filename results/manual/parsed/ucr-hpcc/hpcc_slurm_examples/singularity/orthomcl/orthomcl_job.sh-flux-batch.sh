@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=orthomcl
+#FLUX: --queue=intel
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

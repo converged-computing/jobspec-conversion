@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-eagle-6898
+#FLUX: --job-name=vtune_hpgmg_64_1024
+#FLUX: -N=64
+#FLUX: -n=1024
+#FLUX: --queue=normal
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export PATH='$PATH:$HOME/apps/valgrind/bin'

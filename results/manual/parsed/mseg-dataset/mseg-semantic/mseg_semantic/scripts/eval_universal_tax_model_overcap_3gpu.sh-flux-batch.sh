@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-omelette-7535
+#FLUX: --job-name=bumfuzzled-fork-1165
 #FLUX: --queue=overcap
 #FLUX: --urgency=16
 

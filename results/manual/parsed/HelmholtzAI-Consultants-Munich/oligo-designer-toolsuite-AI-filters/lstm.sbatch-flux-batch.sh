@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cherry-4116
+#FLUX: --job-name=lstm_training
+#FLUX: -c=2
+#FLUX: --queue=gpu_p
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 CUDA_VISIBLE_DEVICES=0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lettuce-5239
+#FLUX: --job-name=purple-truffle-9230
 #FLUX: -c=2
 #FLUX: --queue=gpu_shared
 #FLUX: -t=3600

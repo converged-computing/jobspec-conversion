@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-malarkey-2349
+#FLUX: --job-name=amg2013_meric
 #FLUX: -N=4
 #FLUX: -c=14
 #FLUX: --exclusive

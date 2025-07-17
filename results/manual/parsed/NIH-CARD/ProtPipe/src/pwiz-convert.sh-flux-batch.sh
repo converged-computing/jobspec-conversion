@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-arm-5565
+#FLUX: --job-name=moolicious-earthworm-4686
 #FLUX: -n=2
 #FLUX: --queue=quick,norm
 #FLUX: -t=7200

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-signal-9031
+#FLUX: --job-name=train
+#FLUX: -c=32
+#FLUX: --queue=gpu
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 export HF_HOME='~/scratch/.cache/huggingface'

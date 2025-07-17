@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-caramel-7021
+#FLUX: --job-name=score
 #FLUX: -n=4
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

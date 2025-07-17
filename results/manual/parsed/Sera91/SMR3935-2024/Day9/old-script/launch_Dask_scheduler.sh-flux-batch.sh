@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=dask-scheduler
+#FLUX: -N=2
 #FLUX: -c=2
+#FLUX: --queue=boost_usr_prod
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

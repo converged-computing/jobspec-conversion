@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=fmriprep_test1
+#FLUX: --queue=standard
 #FLUX: -t=115200
 #FLUX: --urgency=16
 

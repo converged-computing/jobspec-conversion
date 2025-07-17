@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cupcake-7003
+#FLUX: --job-name=Deep-DAE_SDAE_4_lin_bin_DAE_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

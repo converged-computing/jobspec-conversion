@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-muffin-1986
+#FLUX: --job-name=FilteringPol1
 #FLUX: -N=100
 #FLUX: -n=1000
 #FLUX: -t=14400

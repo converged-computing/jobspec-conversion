@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-spoon-5362
+#FLUX: --job-name=nianet-cae
 #FLUX: --queue=gpu
 #FLUX: -t=259200
 #FLUX: --urgency=16

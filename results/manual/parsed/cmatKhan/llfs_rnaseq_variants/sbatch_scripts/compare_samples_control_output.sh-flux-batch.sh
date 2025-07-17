@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-gato-6190
+#FLUX: --job-name=rna_dna_compare
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

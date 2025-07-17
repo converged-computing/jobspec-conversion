@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=SrTiO3_qe
 #FLUX: -n=40
+#FLUX: --queue=all
 #FLUX: -t=84600
 #FLUX: --urgency=16
 

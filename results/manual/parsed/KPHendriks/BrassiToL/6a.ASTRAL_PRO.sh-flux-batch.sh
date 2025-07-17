@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-milkshake-1723
+#FLUX: --job-name=A-PRO
 #FLUX: -c=68
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load intel/17.0.4

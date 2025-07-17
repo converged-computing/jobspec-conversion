@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-kitty-1120
+#FLUX: --job-name=spicy-cat-6699
 #FLUX: --urgency=16
 
 mkdir -p out

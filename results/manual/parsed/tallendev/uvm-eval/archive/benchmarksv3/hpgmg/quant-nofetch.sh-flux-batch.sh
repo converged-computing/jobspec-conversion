@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-noodle-3249
+#FLUX: --job-name=hpgmg-quant-nofetch
 #FLUX: --exclusive
+#FLUX: -t=57600
 #FLUX: --urgency=16
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'

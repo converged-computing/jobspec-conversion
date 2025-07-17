@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-earthworm-6041
+#FLUX: --job-name=conspicuous-hobbit-4022
 #FLUX: --exclusive
+#FLUX: --queue=gpu-shared
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 THREADS=1

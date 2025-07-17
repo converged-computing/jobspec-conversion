@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-puppy-3429
+#FLUX: --job-name=kripke_sacct
 #FLUX: --exclusive
 #FLUX: --queue=haswell
 #FLUX: -t=3600

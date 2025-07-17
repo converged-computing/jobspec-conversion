@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=gpunb
+#FLUX: --queue=batch
 #FLUX: -t=45000
 #FLUX: --urgency=16
 

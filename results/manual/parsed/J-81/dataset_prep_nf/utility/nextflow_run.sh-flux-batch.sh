@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nf_wf_manage
+#FLUX: -c=4
+#FLUX: --queue=nodes
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

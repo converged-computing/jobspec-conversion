@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-arm-4935
+#FLUX: --job-name=dandelion_bcr
 #FLUX: -c=64
+#FLUX: --queue=icelake-himem
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

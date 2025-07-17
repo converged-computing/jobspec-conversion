@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-frito-2661
+#FLUX: --job-name=ma2_multi_ABC_mlp3
+#FLUX: --queue=gpu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

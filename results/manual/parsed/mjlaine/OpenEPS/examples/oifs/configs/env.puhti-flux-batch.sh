@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-parrot-1404
+#FLUX: --job-name=anxious-muffin-6867
 #FLUX: --urgency=16
 
 export ECCODES_SAMPLES_PATH='${ECCODES_INSTALL_ROOT}/share/eccodes/ifs_samples/grib1_mlgrib2'

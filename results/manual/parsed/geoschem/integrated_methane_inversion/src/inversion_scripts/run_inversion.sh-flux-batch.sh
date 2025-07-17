@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-pancake-2769
+#FLUX: --job-name=quirky-lizard-6354
 #FLUX: --urgency=16
 
 printf "\n=== PARSING CONFIG FILE ===\n"

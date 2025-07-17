@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=n00n
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module load 2021

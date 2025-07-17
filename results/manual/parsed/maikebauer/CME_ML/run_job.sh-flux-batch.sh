@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-pot-1625
+#FLUX: --job-name=Train_CNN
 #FLUX: --queue=zen2_0256_a40x2
 #FLUX: --urgency=16
 

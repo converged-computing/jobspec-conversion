@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-malarkey-2843
+#FLUX: --job-name=td_mass
+#FLUX: -n=32
+#FLUX: --queue=conroy,general,conroy-intel
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 IDFILE=$APPS"/prospector_alpha/data/3dhst/td_massive.ids"

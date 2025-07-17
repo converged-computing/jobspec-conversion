@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-buttface-0017
+#FLUX: --job-name=512_pretraining
 #FLUX: -N=2
 #FLUX: -n=8
 #FLUX: -c=6
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

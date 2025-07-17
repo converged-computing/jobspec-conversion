@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lizard-7215
+#FLUX: --job-name=ChrMg
 #FLUX: --urgency=16
 
 spack load -r r@3.5.0

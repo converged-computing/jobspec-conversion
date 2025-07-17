@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-citrus-5957
+#FLUX: --job-name=loopy-nalgas-7289
+#FLUX: -n=8
+#FLUX: --queue=preempt
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

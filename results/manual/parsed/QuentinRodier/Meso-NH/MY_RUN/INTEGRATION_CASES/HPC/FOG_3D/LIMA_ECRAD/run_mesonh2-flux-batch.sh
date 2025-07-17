@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-puppy-0004
+#FLUX: --job-name=run2_fog
+#FLUX: -N=20
+#FLUX: -n=200
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 200'

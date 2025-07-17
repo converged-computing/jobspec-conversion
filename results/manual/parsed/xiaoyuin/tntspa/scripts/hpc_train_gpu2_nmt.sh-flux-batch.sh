@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-hope-8599
+#FLUX: --job-name=hpc_gpu2_nmt
 #FLUX: -c=6
+#FLUX: --queue=gpu2
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

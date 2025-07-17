@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-chip-0025
+#FLUX: --job-name=PEARLIntelE2E
 #FLUX: -c=2
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export SINGULARITYENV_PYTHONPATH='/work'

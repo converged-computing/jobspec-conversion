@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hobbit-6460
+#FLUX: --job-name=expressive-carrot-9907
+#FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

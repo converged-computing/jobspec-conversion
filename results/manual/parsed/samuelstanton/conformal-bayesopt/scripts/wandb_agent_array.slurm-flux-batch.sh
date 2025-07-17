@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=conf-bo
+#FLUX: -c=4
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

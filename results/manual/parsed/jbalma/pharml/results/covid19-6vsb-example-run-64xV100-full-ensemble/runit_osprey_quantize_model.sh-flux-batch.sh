@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=resnet
 #FLUX: --exclusive
+#FLUX: --queue=spider
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MLD_RDK_ENV_INSTALL_DIR='~/cuda10_env'

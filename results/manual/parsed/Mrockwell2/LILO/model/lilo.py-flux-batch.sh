@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-motorcycle-7138
+#FLUX: --job-name=conspicuous-rabbit-2450
+#FLUX: --queue=RM
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 from tensorflow.keras.models import Sequential

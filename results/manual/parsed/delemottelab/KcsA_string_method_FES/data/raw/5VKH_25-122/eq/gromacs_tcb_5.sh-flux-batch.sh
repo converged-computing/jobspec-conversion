@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-arm-4525
+#FLUX: --job-name=5VKH_25-122
+#FLUX: -n=8
+#FLUX: --queue=tcb
+#FLUX: -t=84600
 #FLUX: --urgency=16
 
 module unload gromcas

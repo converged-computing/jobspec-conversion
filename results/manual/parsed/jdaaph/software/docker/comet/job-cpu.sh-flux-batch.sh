@@ -2,6 +2,7 @@
 #FLUX: --job-name=test-cpu
 #FLUX: -N=2
 #FLUX: --queue=debug
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module load singularity

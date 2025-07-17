@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-pancake-1501
+#FLUX: --job-name=phat-citrus-7127
 #FLUX: -N=2
 #FLUX: -n=12
+#FLUX: --queue=work
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module load python/3.10.10

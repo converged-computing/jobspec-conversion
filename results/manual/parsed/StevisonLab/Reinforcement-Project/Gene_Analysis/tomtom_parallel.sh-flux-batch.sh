@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-general-7596
+#FLUX: --job-name=parallel_tomtom
+#FLUX: -n=20
+#FLUX: --queue=jro0014_amd
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load gnu-parallel/20120222

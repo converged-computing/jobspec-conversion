@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-avocado-1835
+#FLUX: --job-name=colmap
 #FLUX: -c=4
 #FLUX: -t=28800
 #FLUX: --urgency=16

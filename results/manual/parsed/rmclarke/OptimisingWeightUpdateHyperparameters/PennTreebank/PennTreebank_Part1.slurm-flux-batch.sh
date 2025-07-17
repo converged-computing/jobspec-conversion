@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-nalgas-2547
+#FLUX: --job-name=PTB-1
 #FLUX: -c=32
+#FLUX: --queue=ampere
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

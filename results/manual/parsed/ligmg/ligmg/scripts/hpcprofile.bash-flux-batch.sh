@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-peanut-butter-8605
+#FLUX: --job-name=scruptious-platanos-8443
+#FLUX: --queue=regular
 #FLUX: --urgency=16
 
 outfile="$1__${SLURM_JOB_NUM_NODES}_hpctoolkit"

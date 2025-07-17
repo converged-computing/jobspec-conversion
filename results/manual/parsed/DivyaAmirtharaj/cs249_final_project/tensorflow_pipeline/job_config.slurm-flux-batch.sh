@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-general-2518
+#FLUX: --job-name=spicy-chair-8848
+#FLUX: -n=32
+#FLUX: --queue=seas_gpu
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 source venv/bin/activate

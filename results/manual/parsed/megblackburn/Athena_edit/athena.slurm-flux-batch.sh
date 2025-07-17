@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-poo-0484
+#FLUX: --job-name=87.2.7
 #FLUX: -n=48
 #FLUX: --queue=micro
 #FLUX: -t=1790

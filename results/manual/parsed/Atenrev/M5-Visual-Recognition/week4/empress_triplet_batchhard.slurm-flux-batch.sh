@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lizard-5285
+#FLUX: --job-name=chunky-plant-4879
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 python task_b.py \

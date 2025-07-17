@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-taco-1344
+#FLUX: --job-name=stinky-destiny-5445
+#FLUX: -n=48
 #FLUX: --urgency=16
 
 source /etc/profile

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-egg-1916
+#FLUX: --job-name=3.5_Cl_ace_parsley_PMF_biotin
 #FLUX: -c=6
+#FLUX: --queue=gpu-biggin4,
 #FLUX: -t=518400
 #FLUX: --urgency=16
 

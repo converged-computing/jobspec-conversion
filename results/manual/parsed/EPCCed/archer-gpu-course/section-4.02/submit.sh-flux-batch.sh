@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-signal-0119
+#FLUX: --job-name=phat-cinnamonbun-4518
 #FLUX: --queue=gpu
 #FLUX: -t=120
 #FLUX: --urgency=16

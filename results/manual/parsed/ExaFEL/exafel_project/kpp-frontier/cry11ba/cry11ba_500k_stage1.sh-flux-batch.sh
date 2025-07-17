@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cupcake-0611
+#FLUX: --job-name=stage1
+#FLUX: -N=256
+#FLUX: --queue=batch
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/cry11ba/$SLURM_JOB_ID'

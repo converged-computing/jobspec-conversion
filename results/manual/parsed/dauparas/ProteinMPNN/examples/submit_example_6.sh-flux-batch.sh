@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-taco-6146
+#FLUX: --job-name=strawberry-egg-3394
+#FLUX: -c=3
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 source activate mlfold

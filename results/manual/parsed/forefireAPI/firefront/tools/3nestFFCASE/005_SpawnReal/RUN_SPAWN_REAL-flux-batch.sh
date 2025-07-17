@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-motorcycle-2144
+#FLUX: --job-name=FCAST_SPA2
 #FLUX: --queue=intel
 #FLUX: -t=36000
 #FLUX: --urgency=16

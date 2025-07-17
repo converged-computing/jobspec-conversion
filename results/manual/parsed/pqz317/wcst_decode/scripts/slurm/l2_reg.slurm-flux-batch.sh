@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=l2_reg
 #FLUX: -c=2
+#FLUX: --queue=gpu-a100
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-taco-5715
+#FLUX: --job-name=1node_2000_epochs
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'

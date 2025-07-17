@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-squidward-5285
+#FLUX: --job-name=sticky-itch-4148
 #FLUX: -c=2
 #FLUX: --urgency=16
 

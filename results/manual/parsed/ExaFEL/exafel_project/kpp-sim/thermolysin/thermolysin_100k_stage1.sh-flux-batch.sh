@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-squidward-8917
+#FLUX: --job-name=stage_1
+#FLUX: -N=64
+#FLUX: --queue=regular
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/thermolysin/$SLURM_JOB_ID'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-chip-8117
+#FLUX: --job-name=pointcept-semseg-spunet-v1m1-0-base
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-fudge-8327
+#FLUX: --job-name=blank-peas-8624
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

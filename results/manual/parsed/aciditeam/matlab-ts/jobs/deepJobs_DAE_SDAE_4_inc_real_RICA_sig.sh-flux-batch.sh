@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-motorcycle-6980
+#FLUX: --job-name=Deep-DAE_SDAE_4_inc_real_RICA_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

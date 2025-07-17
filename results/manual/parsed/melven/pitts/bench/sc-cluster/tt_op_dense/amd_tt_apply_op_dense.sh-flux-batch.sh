@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-gato-7602
+#FLUX: --job-name=grated-milkshake-1878
+#FLUX: -c=64
+#FLUX: --queue=amd
+#FLUX: -t=180000
 #FLUX: --urgency=16
 
 export OMP_STACKSIZE='100M'

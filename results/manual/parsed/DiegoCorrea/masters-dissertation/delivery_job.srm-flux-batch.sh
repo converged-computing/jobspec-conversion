@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-lemon-2848
+#FLUX: --job-name=Rec_test
 #FLUX: -N=3
 #FLUX: -c=24
 #FLUX: --exclusive
+#FLUX: --queue=nvidia_dev
 #FLUX: --urgency=16
 
 echo $SLURM_JOB_NODELIST

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=JCU-CL-MATLAB_experiment_runs_low_res
+#FLUX: -c=32
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-fudge-3361
+#FLUX: --job-name=INDY_SGDR
+#FLUX: -c=2
+#FLUX: --queue=meta_gpu-ti
+#FLUX: -t=950400
 #FLUX: --urgency=16
 
 echo "Workingdir: $PWD";

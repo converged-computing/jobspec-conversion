@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-blackbean-7662
+#FLUX: --job-name=blue-arm-2437
+#FLUX: -c=5
+#FLUX: --queue=general
+#FLUX: -t=75000
 #FLUX: --urgency=16
 
 module load gcc/gcc-10.2.0

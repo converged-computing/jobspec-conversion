@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pot-3888
+#FLUX: --job-name=nf-bam_to_fastq_(1)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

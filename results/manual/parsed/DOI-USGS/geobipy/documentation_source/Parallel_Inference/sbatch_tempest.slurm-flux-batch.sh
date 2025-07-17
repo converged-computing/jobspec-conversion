@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=tempest_synth
+#FLUX: -N=3
+#FLUX: -n=101
+#FLUX: --queue=workq
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

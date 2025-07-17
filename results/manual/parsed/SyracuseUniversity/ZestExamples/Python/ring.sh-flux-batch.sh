@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-train-6003
+#FLUX: --job-name=reclusive-malarkey-0587
 #FLUX: -N=4
 #FLUX: --queue=normal
 #FLUX: --urgency=16

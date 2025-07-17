@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cupcake-8524
+#FLUX: --job-name=gandk_multi_ABC_mlp_preprocessing2
+#FLUX: --queue=gpu
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

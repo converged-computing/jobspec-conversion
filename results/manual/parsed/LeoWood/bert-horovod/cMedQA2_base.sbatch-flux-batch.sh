@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-squidward-1251
+#FLUX: --job-name=cmedaq_base
+#FLUX: -N=4
 #FLUX: -c=8
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 export MIOPEN_USER_DB_PATH='/tmp/tensorflow-miopen-${USER}-2.8'

@@ -1,8 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=M3F
 #FLUX: -c=4
+#FLUX: --queue=normal
 #FLUX: -t=240
-#FLUX: --urgency=16
+#FLUX: --urgency=50
 
 source /etc/profile ; 
 module load julia/1.4.2

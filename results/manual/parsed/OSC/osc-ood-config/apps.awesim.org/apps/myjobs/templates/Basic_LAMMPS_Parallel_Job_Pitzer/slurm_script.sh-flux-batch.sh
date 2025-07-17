@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-diablo-2256
+#FLUX: --job-name=ondemand/sys/myjobs/basic_lammps_parallel
 #FLUX: -N=2
 #FLUX: -t=1800
 #FLUX: --urgency=16

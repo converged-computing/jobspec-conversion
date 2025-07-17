@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cinnamonbun-8406
+#FLUX: --job-name=HIER_marcoAct
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'

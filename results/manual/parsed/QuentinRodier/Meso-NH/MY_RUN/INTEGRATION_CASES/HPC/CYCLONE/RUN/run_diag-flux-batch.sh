@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-squidward-1982
+#FLUX: --job-name=diagA_cyc
+#FLUX: -N=4
+#FLUX: -n=256
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 256'

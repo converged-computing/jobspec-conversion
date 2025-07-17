@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-fork-9078
+#FLUX: --job-name=arid-cherry-5839
+#FLUX: --queue=htc
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

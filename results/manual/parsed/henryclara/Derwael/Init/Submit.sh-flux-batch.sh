@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-house-6357
+#FLUX: --job-name=Init
 #FLUX: -n=100
 #FLUX: --queue=compute
 #FLUX: -t=1200

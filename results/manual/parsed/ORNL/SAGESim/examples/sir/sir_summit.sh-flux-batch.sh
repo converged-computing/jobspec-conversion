@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-parrot-7617
+#FLUX: --job-name=sagesim_debug
+#FLUX: -N=2
+#FLUX: --queue=debug
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export SRC_DIR='/ccs/home/gunaratnecs/sagesim/examples/sir'

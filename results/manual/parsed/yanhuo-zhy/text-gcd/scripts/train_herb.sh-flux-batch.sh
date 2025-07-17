@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lentil-9947
+#FLUX: --job-name=persnickety-platanos-5296
+#FLUX: -c=5
+#FLUX: --queue=amp48
 #FLUX: --urgency=16
 
 module load gcc/gcc-10.2.0

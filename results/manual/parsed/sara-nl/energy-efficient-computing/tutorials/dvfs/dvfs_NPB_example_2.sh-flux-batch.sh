@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=NPB_dvfs
 #FLUX: --exclusive
+#FLUX: --queue=rome
+#FLUX: -t=3300
 #FLUX: --urgency=16
 
 module load 2023

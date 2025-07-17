@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=CodeCG
 #FLUX: -c=4
+#FLUX: --queue=gpu_a100_8
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 spack unload 

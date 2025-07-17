@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cattywampus-1563
+#FLUX: --job-name=PINN
+#FLUX: -c=2
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PYTHONBUFFERED='TRUE'

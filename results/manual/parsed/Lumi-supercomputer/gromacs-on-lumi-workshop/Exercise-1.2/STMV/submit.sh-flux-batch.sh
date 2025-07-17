@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-peanut-butter-6365
+#FLUX: --job-name=boopy-parrot-0801
 #FLUX: -c=7
 #FLUX: --queue=small-g
 #FLUX: -t=600

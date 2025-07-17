@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=seq and par parse zz.prof
 #FLUX: -c=64
+#FLUX: --queue=intel
 #FLUX: -t=87300
 #FLUX: --urgency=16
 

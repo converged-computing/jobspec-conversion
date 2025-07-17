@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-carrot-8852
+#FLUX: --job-name=outstanding-platanos-7238
+#FLUX: -n=16
 #FLUX: --queue=IB_44C_512G
 #FLUX: --urgency=16
 

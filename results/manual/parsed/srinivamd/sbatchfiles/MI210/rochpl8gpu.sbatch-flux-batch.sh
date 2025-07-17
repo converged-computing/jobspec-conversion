@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lentil-9297
+#FLUX: --job-name=rainbow-lamp-0909
 #FLUX: -c=16
 #FLUX: --urgency=16
 

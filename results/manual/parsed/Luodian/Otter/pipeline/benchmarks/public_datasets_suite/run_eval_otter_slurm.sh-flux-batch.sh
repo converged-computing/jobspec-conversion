@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-buttface-5436
+#FLUX: --job-name=astute-chip-4279
 #FLUX: --gpus-per-task=1
 #FLUX: --urgency=16
 

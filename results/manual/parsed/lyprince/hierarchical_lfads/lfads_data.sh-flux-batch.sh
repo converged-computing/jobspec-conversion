@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-plant-1195
+#FLUX: --job-name=quirky-buttface-9627
 #FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX: --urgency=50
 
 start=`date +%s`
 module purge

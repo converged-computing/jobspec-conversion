@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cherry-9877
+#FLUX: --job-name=fourcastnet_inference_cpu
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

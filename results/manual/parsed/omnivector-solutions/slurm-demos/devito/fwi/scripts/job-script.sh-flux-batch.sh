@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-avocado-3762
+#FLUX: --job-name=fwi
+#FLUX: --queue=aws
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export DEVITO_LANGUAGE='openmp'

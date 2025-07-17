@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-diablo-7399
+#FLUX: --job-name=crunchy-kerfuffle-9894
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

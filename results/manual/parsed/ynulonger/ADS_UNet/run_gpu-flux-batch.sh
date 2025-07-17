@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lemur-2160
+#FLUX: --job-name=rainbow-animal-0055
+#FLUX: -n=8
 #FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

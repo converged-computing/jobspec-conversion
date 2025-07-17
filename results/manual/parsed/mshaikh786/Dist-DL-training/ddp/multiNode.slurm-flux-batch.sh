@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-plant-6715
+#FLUX: --job-name=hello-cat-9017
 #FLUX: -n=4
 #FLUX: -c=8
 #FLUX: -t=600

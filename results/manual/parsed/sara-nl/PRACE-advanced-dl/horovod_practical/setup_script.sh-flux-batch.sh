@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-onion-4257
+#FLUX: --job-name=fat-frito-2252
+#FLUX: -c=32
+#FLUX: --queue=broadwell
 #FLUX: --urgency=16
 
 echo "[...] Environment setup Cartesius"

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-muffin-3585
+#FLUX: --job-name=llama_70b_combined_finetune
 #FLUX: -c=10
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '

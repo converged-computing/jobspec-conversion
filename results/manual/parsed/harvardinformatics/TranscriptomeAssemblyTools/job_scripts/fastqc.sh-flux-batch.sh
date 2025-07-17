@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-parrot-0320
+#FLUX: --job-name=FastQC
+#FLUX: --queue=True
+#FLUX: -t=180
 #FLUX: --urgency=16
 
 """

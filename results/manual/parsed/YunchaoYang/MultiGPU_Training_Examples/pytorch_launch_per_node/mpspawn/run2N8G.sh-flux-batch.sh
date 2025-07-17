@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-citrus-6908
+#FLUX: --job-name=purple-peanut-butter-2238
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: --queue=hpg-ai

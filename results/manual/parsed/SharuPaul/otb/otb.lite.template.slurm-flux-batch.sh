@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-parsnip-5537
+#FLUX: --job-name=astute-onion-8456
+#FLUX: -n=2
+#FLUX: --queue=long
 #FLUX: --urgency=16
 
 module load nextflow/22.04.3

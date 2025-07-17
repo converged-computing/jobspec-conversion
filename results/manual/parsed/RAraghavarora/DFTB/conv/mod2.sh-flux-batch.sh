@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-taco-6820
+#FLUX: --job-name=nn-dftb-ra
 #FLUX: -N=2
 #FLUX: -n=8
 #FLUX: --queue=gpu2

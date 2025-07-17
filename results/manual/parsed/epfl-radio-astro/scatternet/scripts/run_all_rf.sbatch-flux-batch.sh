@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-platanos-6503
+#FLUX: --job-name=phat-nalgas-6124
 #FLUX: --queue=gpu
 #FLUX: -t=43200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-frito-5873
+#FLUX: --job-name=857_1
 #FLUX: -N=10
 #FLUX: -n=240
 #FLUX: -t=1800

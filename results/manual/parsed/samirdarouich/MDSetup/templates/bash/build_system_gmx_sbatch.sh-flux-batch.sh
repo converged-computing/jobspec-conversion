@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-cinnamonbun-7038
+#FLUX: --job-name=build_system
+#FLUX: --queue=single
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module purge

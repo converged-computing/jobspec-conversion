@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-earthworm-1356
+#FLUX: --job-name=loopy-rabbit-3272
 #FLUX: --queue=naples,dhabi,rome
 #FLUX: --urgency=16
 

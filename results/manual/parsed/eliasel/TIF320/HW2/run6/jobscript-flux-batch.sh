@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-fudge-6170
+#FLUX: --job-name=GA
+#FLUX: --queue=hebbe
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module purge

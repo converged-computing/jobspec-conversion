@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-malarkey-1790
+#FLUX: --job-name=phat-cherry-2036
 #FLUX: --queue=urtgen_24hrs
 #FLUX: --urgency=16
 

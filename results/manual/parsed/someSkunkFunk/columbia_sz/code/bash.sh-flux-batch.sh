@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-plant-3630
+#FLUX: --job-name=dum
 #FLUX: --queue=debug
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 script_name='dummy' ##name of python script to run

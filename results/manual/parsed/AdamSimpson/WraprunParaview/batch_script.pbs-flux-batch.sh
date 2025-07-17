@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-soup-9310
+#FLUX: --job-name=pusheena-nalgas-0749
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AdamSimpson/WraprunParaview/batch_script.pbs

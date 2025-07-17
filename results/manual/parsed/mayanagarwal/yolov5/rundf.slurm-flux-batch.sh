@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-soup-0645
+#FLUX: --job-name=goodbye-chip-0327
 #FLUX: -n=8
+#FLUX: --queue=gpgpumse
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

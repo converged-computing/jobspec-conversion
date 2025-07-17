@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-caramel-0085
+#FLUX: --job-name=landscape_cnn_sa
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

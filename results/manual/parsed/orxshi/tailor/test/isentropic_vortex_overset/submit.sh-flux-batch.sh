@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-motorcycle-7107
+#FLUX: --job-name=helifine
+#FLUX: --queue=single
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 mpirun --tag-output --report-bindings /usr/bin/time -f '%e %S %U %P %M' -o "timing.dat" --append ./out

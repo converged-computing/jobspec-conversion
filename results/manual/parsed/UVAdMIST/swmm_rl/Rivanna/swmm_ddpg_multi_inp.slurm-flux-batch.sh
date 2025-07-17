@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-hobbit-4914
+#FLUX: --job-name=carnivorous-pedo-2222
+#FLUX: --queue=gpu
+#FLUX: -t=258900
 #FLUX: --urgency=16
 
 export SINGULARITYENV_MPLBACKEND='agg'

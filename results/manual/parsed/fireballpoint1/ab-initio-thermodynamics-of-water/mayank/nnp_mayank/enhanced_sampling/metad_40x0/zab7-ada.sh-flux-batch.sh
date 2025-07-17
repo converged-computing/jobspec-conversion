@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-punk-4409
+#FLUX: --job-name=evasive-fork-2100
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

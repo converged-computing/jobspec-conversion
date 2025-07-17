@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-truffle-7232
+#FLUX: --job-name=sticky-underoos-1092
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 workflow_name="04-fit-butterfly"

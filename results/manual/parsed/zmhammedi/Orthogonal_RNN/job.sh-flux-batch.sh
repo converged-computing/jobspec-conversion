@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hobbit-9766
+#FLUX: --job-name=confused-chip-0124
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

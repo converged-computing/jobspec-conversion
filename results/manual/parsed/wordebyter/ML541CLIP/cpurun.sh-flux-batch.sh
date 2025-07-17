@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-salad-2216
+#FLUX: --job-name=ML541-final
+#FLUX: -n=20
+#FLUX: --queue=short
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module load python/3.12.3/mftt2ua

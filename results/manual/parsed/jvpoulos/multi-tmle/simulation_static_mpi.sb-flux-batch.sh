@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=misTreat
+#FLUX: -n=160
+#FLUX: --queue=mpi
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 ulimit -l unlimited

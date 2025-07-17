@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-peanut-butter-0842
+#FLUX: --job-name=buttery-squidward-1771
 #FLUX: -c=128
 #FLUX: --gpus-per-task=4
+#FLUX: --queue=debug
+#FLUX: -t=180
 #FLUX: --urgency=16
 
 export LCI_SERVER_MAX_SENDS='1024'

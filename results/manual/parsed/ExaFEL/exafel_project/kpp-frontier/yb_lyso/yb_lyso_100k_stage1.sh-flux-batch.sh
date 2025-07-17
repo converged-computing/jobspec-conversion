@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-platanos-6277
+#FLUX: --job-name=stage_1
+#FLUX: -N=95
+#FLUX: --queue=batch
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/yb_lyso/$SLURM_JOB_ID'

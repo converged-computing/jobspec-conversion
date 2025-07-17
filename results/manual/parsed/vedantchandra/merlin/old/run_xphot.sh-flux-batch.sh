@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-malarkey-9334
+#FLUX: --job-name=gloopy-leopard-6582
+#FLUX: --queue=conroy_priority,test,shared,itc_cluster
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 module load python

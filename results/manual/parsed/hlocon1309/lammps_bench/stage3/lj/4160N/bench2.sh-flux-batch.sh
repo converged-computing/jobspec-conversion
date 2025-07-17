@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-fudge-0904
+#FLUX: --job-name=anxious-cinnamonbun-3457
+#FLUX: -N=4
+#FLUX: -n=16
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 module load openmpi/4.1.4

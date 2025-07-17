@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-house-4142
+#FLUX: --job-name=angry-mango-1654
+#FLUX: --queue=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PATH='${PATH}:/panfs/jay/groups/9/morrellp/shared/Software/syri'

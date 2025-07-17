@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-nunchucks-9938
+#FLUX: --job-name=u50s0d1
 #FLUX: -c=32
 #FLUX: -t=432000
 #FLUX: --urgency=16

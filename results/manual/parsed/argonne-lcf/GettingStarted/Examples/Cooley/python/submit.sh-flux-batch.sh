@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-squidward-0102
+#FLUX: --job-name=dirty-pot-6761
 #FLUX: --urgency=16
 

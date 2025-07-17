@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lamp-9504
+#FLUX: --job-name=sroll4
 #FLUX: -N=24
 #FLUX: -n=576
 #FLUX: -t=3600

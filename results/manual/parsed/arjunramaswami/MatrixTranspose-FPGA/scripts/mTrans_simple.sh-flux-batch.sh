@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-snack-6796
+#FLUX: --job-name=cmake_mTrans_opt
+#FLUX: --queue=all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

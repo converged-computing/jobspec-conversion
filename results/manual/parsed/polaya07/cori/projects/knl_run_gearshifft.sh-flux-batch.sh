@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cat-2785
+#FLUX: --job-name=gearshifft
+#FLUX: --queue=regular
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 BOOST_VER=1.65.1

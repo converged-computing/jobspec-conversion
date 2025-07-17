@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-leg-4821
+#FLUX: --job-name=ra-conv2
 #FLUX: -n=8
 #FLUX: --queue=gpu2
 #FLUX: -t=172800

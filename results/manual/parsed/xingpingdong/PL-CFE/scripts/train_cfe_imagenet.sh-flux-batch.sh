@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-pancake-9538
+#FLUX: --job-name=muffled-dog-4106
+#FLUX: -n=4
 #FLUX: -c=8
 #FLUX: -t=172800
 #FLUX: --urgency=16

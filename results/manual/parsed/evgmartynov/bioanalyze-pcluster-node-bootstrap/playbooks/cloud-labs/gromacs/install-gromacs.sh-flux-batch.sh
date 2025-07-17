@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pancake-2151
+#FLUX: --job-name=faux-omelette-2736
+#FLUX: -N=4
+#FLUX: -n=4
 #FLUX: --exclusive
 #FLUX: --queue=dev
 #FLUX: -t=86400

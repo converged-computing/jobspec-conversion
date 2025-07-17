@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-bike-8609
+#FLUX: --job-name=gpu_serial
+#FLUX: --queue=devel
 #FLUX: --urgency=16
 
 module load CUDA

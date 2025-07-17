@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-peanut-butter-3456
+#FLUX: --job-name=loopy-lettuce-3880
 #FLUX: --exclusive
+#FLUX: --queue=spider
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export SCRATCH='/lus/scratch/jbalma'

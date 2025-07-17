@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-bits-2460
+#FLUX: --job-name=pvscript
 #FLUX: -N=16
 #FLUX: --queue=test
 #FLUX: -t=600

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-mango-0743
+#FLUX: --job-name=goodbye-motorcycle-8032
+#FLUX: --queue=long
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PYTHONPATH='${WORKDIR}/Code/src/:${PYTHONPATH}'

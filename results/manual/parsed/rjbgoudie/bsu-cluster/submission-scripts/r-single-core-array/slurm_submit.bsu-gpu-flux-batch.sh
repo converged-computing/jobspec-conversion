@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lizard-4814
+#FLUX: --job-name=mrc-bsu-gpu-rjob
+#FLUX: --queue=bsu-gpu
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

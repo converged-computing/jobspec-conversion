@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-knife-4124
+#FLUX: --job-name=anxious-bits-5033
 #FLUX: -c=28
 #FLUX: --queue=workq
 #FLUX: -t=86400

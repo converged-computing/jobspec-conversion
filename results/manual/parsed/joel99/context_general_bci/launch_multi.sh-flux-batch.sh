@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=ndt2_4x
 #FLUX: -c=6
+#FLUX: --queue=gpu
+#FLUX: -t=129600
 #FLUX: --urgency=16
 
 export SLURM_NTASKS_PER_NODE='4'

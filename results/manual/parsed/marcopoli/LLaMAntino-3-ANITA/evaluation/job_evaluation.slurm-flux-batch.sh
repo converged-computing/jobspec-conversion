@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=llama3
+#FLUX: --queue=boost_usr_prod
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

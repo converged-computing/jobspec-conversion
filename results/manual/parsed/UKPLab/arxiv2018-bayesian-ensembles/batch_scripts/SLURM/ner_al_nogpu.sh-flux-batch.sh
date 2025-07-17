@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lemur-8777
+#FLUX: --job-name=ner_al_nogpu
+#FLUX: -c=16
 #FLUX: --exclusive
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${cudaDir}/lib64:${LD_LIBRARY_PATH}'

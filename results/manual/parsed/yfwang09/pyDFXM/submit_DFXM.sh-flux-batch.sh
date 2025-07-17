@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=dispgrad
+#FLUX: -n=20
+#FLUX: --queue=mc
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 ml system viz devel git python/3.9.0 py-numpy/1.20.3_py39 py-scipy/1.6.3_py39 py-matplotlib/3.4.2_py39 py-numba/0.54.1_py39 gcc/10.1.0 openmpi/4.1.2 py-mpi4py/3.1.3_py39

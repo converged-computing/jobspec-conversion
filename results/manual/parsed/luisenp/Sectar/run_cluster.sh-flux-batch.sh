@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-caramel-9566
+#FLUX: --job-name=scruptious-leg-8986
 #FLUX: --urgency=16
 
 CURDIR=`pwd`

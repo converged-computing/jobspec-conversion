@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-hippo-7720
+#FLUX: --job-name=butterscotch-chip-3449
 #FLUX: --urgency=16
 

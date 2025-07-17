@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-avocado-7102
+#FLUX: --job-name=bootstrap
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load julia/1.7.3

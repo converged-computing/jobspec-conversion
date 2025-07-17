@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-butter-6732
+#FLUX: --job-name=spicy-parrot-3086
 #FLUX: -c=12
 #FLUX: --queue=ccr
 #FLUX: -t=259200

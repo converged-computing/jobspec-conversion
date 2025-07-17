@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lettuce-3750
+#FLUX: --job-name=print_gpu
 #FLUX: -c=10
+#FLUX: --queue=akya-cuda
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

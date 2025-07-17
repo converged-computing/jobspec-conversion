@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-sundae-3817
+#FLUX: --job-name=Tera_job
 #FLUX: --queue=long
 #FLUX: --urgency=16
 

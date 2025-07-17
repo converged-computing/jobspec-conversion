@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-parsnip-7930
+#FLUX: --job-name=evasive-fork-0464
 #FLUX: --urgency=16
 
 MODIFIER="$1"

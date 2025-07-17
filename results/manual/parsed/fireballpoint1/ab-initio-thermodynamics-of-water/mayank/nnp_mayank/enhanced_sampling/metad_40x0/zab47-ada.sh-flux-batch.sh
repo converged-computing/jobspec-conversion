@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-knife-7290
+#FLUX: --job-name=hanky-bike-9388
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

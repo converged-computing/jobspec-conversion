@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-poo-5397
+#FLUX: --job-name=moolicious-cat-9695
+#FLUX: -n=17
+#FLUX: --queue=gpu
 #FLUX: -t=864000
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cat-1668
+#FLUX: --job-name=stinky-itch-6246
 #FLUX: -c=12
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16

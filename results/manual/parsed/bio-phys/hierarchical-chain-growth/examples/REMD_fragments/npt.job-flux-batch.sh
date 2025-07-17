@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-underoos-7299
+#FLUX: --job-name=name
 #FLUX: -c=9
 #FLUX: --queue=s.phys
 #FLUX: -t=14400

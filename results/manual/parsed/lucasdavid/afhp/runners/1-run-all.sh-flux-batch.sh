@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-hippo-4916
+#FLUX: --job-name=pbn-supcon
+#FLUX: --queue=nvidia_long
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

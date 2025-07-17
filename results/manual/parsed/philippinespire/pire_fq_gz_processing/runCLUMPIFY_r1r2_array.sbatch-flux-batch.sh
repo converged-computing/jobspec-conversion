@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=clmp_r12
+#FLUX: -c=20
 #FLUX: --exclusive
+#FLUX: --queue=main
 #FLUX: --urgency=16
 
 export SINGULARITY_BIND='/home/e1garcia'

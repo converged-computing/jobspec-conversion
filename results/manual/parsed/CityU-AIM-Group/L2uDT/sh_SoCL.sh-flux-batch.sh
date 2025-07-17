@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cupcake-0022
+#FLUX: --job-name=SoCL
 #FLUX: --queue=gpu_7d1g
 #FLUX: --urgency=16
 

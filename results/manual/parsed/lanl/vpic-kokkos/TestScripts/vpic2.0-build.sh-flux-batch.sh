@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-mango-5918
+#FLUX: --job-name=gassy-squidward-2621
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export CRAYPE_LINK_TYPE='dynamic '

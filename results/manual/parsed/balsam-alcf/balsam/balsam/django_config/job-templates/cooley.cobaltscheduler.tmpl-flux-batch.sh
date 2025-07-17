@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=grated-poo-2020
+#FLUX: --job-name=phat-butter-0566
 #FLUX: --urgency=16
 

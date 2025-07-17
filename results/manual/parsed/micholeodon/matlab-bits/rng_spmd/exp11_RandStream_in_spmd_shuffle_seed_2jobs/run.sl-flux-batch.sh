@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pot-0536
+#FLUX: --job-name=RNG_TEST
+#FLUX: --queue=small
 #FLUX: -t=180
 #FLUX: --urgency=16
 

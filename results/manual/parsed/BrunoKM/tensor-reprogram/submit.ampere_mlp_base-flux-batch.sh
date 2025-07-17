@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leader-5094
+#FLUX: --job-name=mlp
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

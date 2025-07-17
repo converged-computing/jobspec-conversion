@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-peanut-butter-1747
+#FLUX: --job-name=carnivorous-diablo-4428
+#FLUX: --queue=debug
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

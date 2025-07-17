@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-parrot-5967
+#FLUX: --job-name=PPants
 #FLUX: -n=2
 #FLUX: -t=54000
 #FLUX: --urgency=16

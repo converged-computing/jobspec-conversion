@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cinnamonbun-8580
+#FLUX: --job-name=chunky-omelette-3635
+#FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 
 source activate dac

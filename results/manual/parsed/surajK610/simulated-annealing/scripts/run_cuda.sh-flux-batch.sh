@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-diablo-8184
+#FLUX: --job-name=pusheena-general-5886
+#FLUX: --queue=3090-gcondo
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 echo "Current Working Directory (CWD): $(pwd)"

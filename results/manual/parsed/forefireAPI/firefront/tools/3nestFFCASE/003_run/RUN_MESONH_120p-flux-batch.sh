@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-hope-6862
+#FLUX: --job-name=FCAST_MNH
+#FLUX: -N=3
+#FLUX: -n=120
 #FLUX: --queue=intel
 #FLUX: -t=36000
 #FLUX: --urgency=16

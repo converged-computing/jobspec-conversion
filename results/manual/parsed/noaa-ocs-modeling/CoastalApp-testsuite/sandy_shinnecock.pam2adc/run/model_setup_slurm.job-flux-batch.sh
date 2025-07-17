@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-avocado-7001
+#FLUX: --job-name=FLSH_adc_SETUP
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 set -e

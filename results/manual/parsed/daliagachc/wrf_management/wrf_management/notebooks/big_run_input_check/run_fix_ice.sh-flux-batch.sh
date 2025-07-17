@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-omelette-2959
+#FLUX: --job-name=crunchy-animal-0849
+#FLUX: --queue=test
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export NETCDF='/appl/opt/netcdf4/gcc-7.3.0/intelmpi-18.0.2/4.6.1/'

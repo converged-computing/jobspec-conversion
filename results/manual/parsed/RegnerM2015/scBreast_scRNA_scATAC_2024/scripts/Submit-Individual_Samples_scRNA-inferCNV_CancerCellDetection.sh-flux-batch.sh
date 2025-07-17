@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Individual_Samples_scRNA-inferCNV_CancerCellDetection-${i}
+#FLUX: -c=32
 #FLUX: --queue=allnodes
 #FLUX: --urgency=16
 

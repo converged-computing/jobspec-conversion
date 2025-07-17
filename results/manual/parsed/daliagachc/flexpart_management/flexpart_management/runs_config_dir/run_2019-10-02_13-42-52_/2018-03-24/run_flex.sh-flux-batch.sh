@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-leader-9775
+#FLUX: --job-name=flex
+#FLUX: --queue=serial
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export NETCDF='/appl/opt/netcdf4/gcc-7.3.0/intelmpi-18.0.2/4.6.1/'

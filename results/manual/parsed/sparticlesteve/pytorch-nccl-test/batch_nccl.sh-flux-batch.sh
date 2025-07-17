@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=phat-destiny-3082
+#FLUX: --job-name=goodbye-lemur-5342
+#FLUX: -N=2
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'

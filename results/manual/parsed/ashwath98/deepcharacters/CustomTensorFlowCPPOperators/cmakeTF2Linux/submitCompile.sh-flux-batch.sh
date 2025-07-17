@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-poodle-6857
+#FLUX: --job-name=evasive-snack-4699
+#FLUX: --queue=gpu20
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 echo "using GPU ${CUDA_VISIBLE_DEVICES}"

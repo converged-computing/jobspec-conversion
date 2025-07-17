@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-latke-1118
+#FLUX: --job-name=lammps
+#FLUX: --queue=batch
 #FLUX: --urgency=16
 
 module purge                           # Unload all modules

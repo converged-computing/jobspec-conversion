@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pastry-6972
+#FLUX: --job-name=doopy-punk-4419
 #FLUX: -c=2
+#FLUX: -t=172815
 #FLUX: --urgency=16
 
 module load r/3.4.0

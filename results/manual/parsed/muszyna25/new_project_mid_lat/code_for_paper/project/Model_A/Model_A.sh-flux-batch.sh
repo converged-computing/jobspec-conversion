@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-despacito-1509
+#FLUX: --job-name=conspicuous-arm-2583
+#FLUX: -N=5
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 set -u

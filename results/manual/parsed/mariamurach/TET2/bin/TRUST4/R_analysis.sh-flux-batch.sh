@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-bicycle-1042
+#FLUX: --job-name=frigid-itch-7686
 #FLUX: -n=20
+#FLUX: --queue=_______
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

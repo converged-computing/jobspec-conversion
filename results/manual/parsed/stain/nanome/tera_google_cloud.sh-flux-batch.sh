@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nanome.google_tera
+#FLUX: -n=2
+#FLUX: --queue=long
 #FLUX: -t=1209600
 #FLUX: --urgency=16
 

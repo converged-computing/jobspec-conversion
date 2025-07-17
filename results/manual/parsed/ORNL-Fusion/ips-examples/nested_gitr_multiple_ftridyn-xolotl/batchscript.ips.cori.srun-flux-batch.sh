@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hope-9434
+#FLUX: --job-name=purple-truffle-8508
 #FLUX: -N=8
 #FLUX: --queue=debug
 #FLUX: -t=1800

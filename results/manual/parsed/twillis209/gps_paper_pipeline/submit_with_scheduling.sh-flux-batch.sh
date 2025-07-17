@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-poodle-0981
+#FLUX: --job-name=gps_paper_pipeline_scheduler
 #FLUX: -c=4
+#FLUX: --queue=cclake
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=coupled
+#FLUX: -N=21
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export FI_CXI_RX_MATCH_MODE='software'

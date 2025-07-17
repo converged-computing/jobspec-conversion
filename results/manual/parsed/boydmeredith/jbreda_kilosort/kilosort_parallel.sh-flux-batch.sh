@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-rabbit-1069
+#FLUX: --job-name=blank-train-6382
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 input_base_path="/scratch/gpfs/jbreda/ephys/kilosort/W122/preprocessed_W122_19523713" 

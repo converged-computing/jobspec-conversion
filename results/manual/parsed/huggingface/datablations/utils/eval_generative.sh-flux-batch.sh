@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-platanos-3079
+#FLUX: --job-name=ornery-eagle-4636
 #FLUX: -c=8
 #FLUX: --exclusive
+#FLUX: --queue=small-g
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export HF_DATASETS_OFFLINE='1'

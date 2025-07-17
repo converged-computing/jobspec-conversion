@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-sundae-5162
+#FLUX: --job-name=mask
+#FLUX: -c=4
+#FLUX: --queue=qTRD
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

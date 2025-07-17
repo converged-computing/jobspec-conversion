@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-fork-1470
+#FLUX: --job-name=resnet50-cgpu
+#FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export BATCHSIZE='64'

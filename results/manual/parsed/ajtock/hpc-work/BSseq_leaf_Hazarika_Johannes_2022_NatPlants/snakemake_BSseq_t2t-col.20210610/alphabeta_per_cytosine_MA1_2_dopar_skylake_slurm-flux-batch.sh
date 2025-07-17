@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-soup-0672
+#FLUX: --job-name=AB_MA1_2_CpG
 #FLUX: -N=14
 #FLUX: -n=448
+#FLUX: --queue=skylake
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

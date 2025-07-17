@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-pancake-2468
+#FLUX: --job-name=scruptious-soup-3842
+#FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=gpu_4090
 #FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'

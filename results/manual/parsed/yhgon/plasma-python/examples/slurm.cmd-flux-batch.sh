@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-snack-7216
+#FLUX: --job-name=bricky-onion-3439
+#FLUX: -N=3
+#FLUX: -c=4
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 export PYTHONHASHSEED='0'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-mango-8629
+#FLUX: --job-name=TrainDNN
+#FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

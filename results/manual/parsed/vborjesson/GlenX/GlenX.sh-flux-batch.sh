@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-bicycle-1901
+#FLUX: --job-name=GlenX
+#FLUX: -n=16
+#FLUX: --queue=core
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load bioinfo-tools

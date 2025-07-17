@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-ricecake-6424
+#FLUX: --job-name=spicy-parsnip-2142
+#FLUX: -c=48
 #FLUX: --urgency=16
 
 WD="/gpfs/projects/bsc40/current/mschiavi/jloh"

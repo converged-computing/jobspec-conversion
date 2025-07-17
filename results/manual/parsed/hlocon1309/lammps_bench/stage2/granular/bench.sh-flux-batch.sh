@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pedo-9504
+#FLUX: --job-name=grated-eagle-3133
+#FLUX: --queue=normal
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

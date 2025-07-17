@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lizard-9687
+#FLUX: --job-name=grated-signal-6360
 #FLUX: --urgency=16
 
 FAIRSEQ=/private/home/shru/projects/fairseq-py-moe

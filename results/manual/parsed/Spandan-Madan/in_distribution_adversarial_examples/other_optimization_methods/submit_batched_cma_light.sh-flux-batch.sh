@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-chair-8476
+#FLUX: --job-name=purple-animal-8576
 #FLUX: --queue=cbmm
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 bash batched_cma_light.sh ${SLURM_ARRAY_TASK_ID} resnet18_v7_40_final.pt categories_10_models_40.pkl

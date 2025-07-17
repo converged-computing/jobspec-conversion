@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-house-8052
+#FLUX: --job-name=SNPTEST
 #FLUX: -c=4
+#FLUX: --queue=mrc-epid
 #FLUX: -t=180000
 #FLUX: --urgency=16
 

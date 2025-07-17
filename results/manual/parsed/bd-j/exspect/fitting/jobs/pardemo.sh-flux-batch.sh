@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-arm-9140
+#FLUX: --job-name=exspect_basic
+#FLUX: --queue=conroy,shared
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export GROUP='conroy_lab'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-knife-1653
+#FLUX: --job-name=OntoKin_TransE
+#FLUX: --queue=ampere
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-carrot-0919
+#FLUX: --job-name=joyous-general-9146
+#FLUX: -N=2
+#FLUX: --queue=short
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='23'

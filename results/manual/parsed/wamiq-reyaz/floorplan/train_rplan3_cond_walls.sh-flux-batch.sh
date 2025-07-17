@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-peanut-butter-2736
+#FLUX: --job-name=r3cdoors
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=21600

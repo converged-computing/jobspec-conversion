@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-car-3168
+#FLUX: --job-name=Taiyaki
+#FLUX: -c=10
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 module unload cuda

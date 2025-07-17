@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=summarize_mixtral
+#FLUX: --queue=iaifi_gpu_priority
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

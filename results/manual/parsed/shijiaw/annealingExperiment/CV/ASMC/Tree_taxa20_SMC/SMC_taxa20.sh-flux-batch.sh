@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-frito-8379
+#FLUX: --job-name=bloated-latke-4183
 #FLUX: -c=2
+#FLUX: -t=172815
 #FLUX: --urgency=16
 
 module load r/3.4.0

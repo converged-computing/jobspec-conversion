@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-latke-5007
+#FLUX: --job-name=rfnext-livecell
+#FLUX: --queue=tier3
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

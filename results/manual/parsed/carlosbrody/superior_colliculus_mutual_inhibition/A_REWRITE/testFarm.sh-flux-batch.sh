@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-plant-0605
+#FLUX: --job-name=testFarm
+#FLUX: --queue=Brody
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

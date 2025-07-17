@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chair-0505
+#FLUX: --job-name=goodbye-pedo-9001
+#FLUX: --queue=gpu2
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

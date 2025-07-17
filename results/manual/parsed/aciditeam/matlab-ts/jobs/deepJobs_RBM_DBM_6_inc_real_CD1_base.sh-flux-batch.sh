@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-butter-5280
+#FLUX: --job-name=Deep-RBM_DBM_6_inc_real_CD1_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

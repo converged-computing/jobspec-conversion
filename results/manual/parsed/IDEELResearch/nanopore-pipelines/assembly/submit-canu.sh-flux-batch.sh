@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-hobbit-4956
+#FLUX: --job-name=joyous-squidward-6926
+#FLUX: --queue=general
 #FLUX: -t=907200
 #FLUX: --urgency=16
 

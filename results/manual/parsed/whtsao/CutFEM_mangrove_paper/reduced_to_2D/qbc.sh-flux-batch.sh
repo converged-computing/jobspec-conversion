@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-leader-1593
+#FLUX: --job-name=CS_adj_p_gauges
+#FLUX: -N=8
+#FLUX: -n=384
+#FLUX: --queue=workq
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 date

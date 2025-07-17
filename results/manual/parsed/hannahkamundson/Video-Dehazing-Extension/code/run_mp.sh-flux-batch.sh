@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=predehaze
 #FLUX: -c=40
+#FLUX: --queue=gpu-a100
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

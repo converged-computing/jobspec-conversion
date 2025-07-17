@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-platanos-9228
+#FLUX: --job-name=launch_cci_pipeline
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

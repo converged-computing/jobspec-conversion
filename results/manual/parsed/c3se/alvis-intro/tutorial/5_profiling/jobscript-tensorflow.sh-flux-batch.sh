@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-train-5453
+#FLUX: --job-name=Profile TensorFlow
+#FLUX: --queue=alvis
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module purge

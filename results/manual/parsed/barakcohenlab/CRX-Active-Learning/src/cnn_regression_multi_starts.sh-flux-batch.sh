@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cherry-4761
+#FLUX: --job-name=scruptious-frito-0652
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 eval $(spack load --sh miniconda3)

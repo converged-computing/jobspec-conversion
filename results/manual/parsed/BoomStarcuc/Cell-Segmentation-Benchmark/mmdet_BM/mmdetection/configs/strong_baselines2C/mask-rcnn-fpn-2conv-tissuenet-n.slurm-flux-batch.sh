@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-taco-6530
+#FLUX: --job-name=mask-rcnn-tissuenet-n-2C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

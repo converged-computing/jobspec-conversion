@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-caramel-3717
+#FLUX: --job-name=purple-pancake-3228
 #FLUX: -c=8
 #FLUX: --queue=main
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lamp-2803
+#FLUX: --job-name=lovely-hope-3210
 #FLUX: -t=244800
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ssnet
+#FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

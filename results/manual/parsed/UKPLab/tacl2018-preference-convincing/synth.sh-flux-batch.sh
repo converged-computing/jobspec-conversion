@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-poo-5006
+#FLUX: --job-name=conv_rand
+#FLUX: -c=24
 #FLUX: --exclusive
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load intel python/3.6.8

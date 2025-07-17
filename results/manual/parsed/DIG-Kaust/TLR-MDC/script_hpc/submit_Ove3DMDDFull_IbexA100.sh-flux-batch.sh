@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-mango-1803
+#FLUX: --job-name=ovemdd
+#FLUX: -n=4
 #FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16

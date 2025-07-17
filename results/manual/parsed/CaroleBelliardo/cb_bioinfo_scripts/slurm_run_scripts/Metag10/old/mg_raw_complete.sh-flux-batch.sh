@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-bicycle-8966
+#FLUX: --job-name=mg
 #FLUX: -c=60
+#FLUX: --queue=treed
 #FLUX: --urgency=16
 
 module load singularity/3.5.3

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bike-5766
+#FLUX: --job-name=mcmc_hsurf
 #FLUX: -n=112
+#FLUX: --queue=sapphire
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

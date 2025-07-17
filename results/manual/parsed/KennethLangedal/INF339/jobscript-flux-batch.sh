@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-noodle-7401
+#FLUX: --job-name=confused-rabbit-1704
+#FLUX: -N=8
 #FLUX: -c=16
 #FLUX: --exclusive
+#FLUX: --queue=rome16q
+#FLUX: -t=1
 #FLUX: --urgency=16
 
 export OMPI_MCA_pml='^ucx'

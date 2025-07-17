@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-egg-6449
+#FLUX: --job-name=hanky-blackbean-1065
 #FLUX: --exclusive
 #FLUX: --queue=hpc
 #FLUX: -t=259200

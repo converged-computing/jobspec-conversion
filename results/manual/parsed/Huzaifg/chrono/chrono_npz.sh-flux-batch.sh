@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bike-9568
+#FLUX: --job-name=crunchy-egg-8233
+#FLUX: --queue=gpu-a100-small
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-poo-1351
+#FLUX: --job-name=cnt
+#FLUX: -N=4
 #FLUX: -c=8
+#FLUX: --queue=caspra
 #FLUX: --urgency=16
 
 export MIOPEN_DISABLE_CACHE='1'

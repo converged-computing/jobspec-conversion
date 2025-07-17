@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-train-5918
+#FLUX: --job-name=milky-pancake-4256
+#FLUX: -c=8
+#FLUX: --queue=doppelbock
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 project='intracranial-natsound165'

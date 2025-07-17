@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pastry-8475
+#FLUX: --job-name=outstanding-general-5863
+#FLUX: -n=8
+#FLUX: -t=173420
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'

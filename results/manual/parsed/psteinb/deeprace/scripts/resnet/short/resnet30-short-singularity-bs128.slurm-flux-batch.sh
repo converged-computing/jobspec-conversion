@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-plant-1295
+#FLUX: --job-name=carnivorous-cat-1210
+#FLUX: --queue=gpu2
 #FLUX: -t=2700
 #FLUX: --urgency=16
 

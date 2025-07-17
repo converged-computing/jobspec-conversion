@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-egg-5986
+#FLUX: --job-name=LearnRawPreferences_hero
+#FLUX: --queue=gpu
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export TACC_LAUNCHER_PPN='1'

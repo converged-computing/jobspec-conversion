@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-frito-3709
+#FLUX: --job-name=Deep-DAE_SDAE_6_dec_real_DAE_tanh
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

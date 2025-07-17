@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-punk-0349
+#FLUX: --job-name=arid-knife-7762
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 function launch_node {

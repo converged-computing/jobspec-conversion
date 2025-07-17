@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-fork-1511
+#FLUX: --job-name=viewfool-attack-mae
+#FLUX: -n=16
 #FLUX: --queue=gpu
 #FLUX: -t=259200
 #FLUX: --urgency=16

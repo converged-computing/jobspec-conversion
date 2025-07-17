@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-buttface-4554
+#FLUX: --job-name=hanky-taco-0789
 #FLUX: -c=10
 #FLUX: --exclusive
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 ulimit -v unlimited

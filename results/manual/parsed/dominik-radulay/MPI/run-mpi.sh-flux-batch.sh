@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-malarkey-5754
+#FLUX: --job-name=hello-fork-4775
+#FLUX: --queue=course
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export numMPI='${SLURM_NTASKS:-1} # if '-n' not used then default to 1'

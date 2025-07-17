@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-house-9236
+#FLUX: --job-name=PingPing-Intranode
 #FLUX: -n=2
+#FLUX: --queue=compute
 #FLUX: -t=60
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-fudge-6063
+#FLUX: --job-name=milky-plant-5391
+#FLUX: --queue=standard
 #FLUX: --urgency=16
 
 module purge

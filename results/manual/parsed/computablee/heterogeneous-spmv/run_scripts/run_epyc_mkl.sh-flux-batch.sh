@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-kitty-4411
+#FLUX: --job-name=lovable-muffin-4346
+#FLUX: -n=128
+#FLUX: --queue=RM
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 cp -r $PROJECT/matrices $RAMDISK

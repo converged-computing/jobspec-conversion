@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-carrot-6263
+#FLUX: --job-name=job-name
+#FLUX: -n=40
+#FLUX: --queue=barbun-cuda
 #FLUX: -t=1296000
 #FLUX: --urgency=16
 

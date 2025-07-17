@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-poo-1106
+#FLUX: --job-name=gloopy-signal-2177
 #FLUX: -n=36
 #FLUX: --queue=comp
 #FLUX: -t=259200

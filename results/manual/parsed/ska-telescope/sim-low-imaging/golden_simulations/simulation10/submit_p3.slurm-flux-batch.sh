@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-noodle-2919
+#FLUX: --job-name=IMAGING
 #FLUX: -N=16
 #FLUX: -n=16
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

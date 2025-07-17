@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-arm-8568
+#FLUX: --job-name=chunky-knife-1087
 #FLUX: --exclusive
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 THIS_DIR=`pwd`

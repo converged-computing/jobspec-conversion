@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cinnamonbun-4370
+#FLUX: --job-name=Resnet_Rewind_All
+#FLUX: -t=71940
 #FLUX: --urgency=16
 
 cd $(ws_find lth_ws)

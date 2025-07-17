@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-truffle-2179
+#FLUX: --job-name=red-salad-8829
 #FLUX: -N=5
+#FLUX: --queue=cee,owners
 #FLUX: --urgency=16
 
 module load openmpi

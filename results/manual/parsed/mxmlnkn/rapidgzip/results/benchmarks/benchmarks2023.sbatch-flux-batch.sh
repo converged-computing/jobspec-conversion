@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-toaster-1730
+#FLUX: --job-name=salted-poodle-2168
 #FLUX: -c=128
 #FLUX: --exclusive
+#FLUX: --queue=romeo
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

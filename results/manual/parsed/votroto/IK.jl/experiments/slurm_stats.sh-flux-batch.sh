@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-citrus-9994
+#FLUX: --job-name=arid-rabbit-1908
 #FLUX: -n=13
 #FLUX: -c=4
 #FLUX: --queue=cpu

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cherry-5338
+#FLUX: --job-name=grated-squidward-6056
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=86400

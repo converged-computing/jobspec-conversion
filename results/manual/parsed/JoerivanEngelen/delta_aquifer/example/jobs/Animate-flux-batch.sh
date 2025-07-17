@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chair-1982
+#FLUX: --job-name=misunderstood-kerfuffle-1105
+#FLUX: --queue=short
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$HOME/visualization/mesa/lib'

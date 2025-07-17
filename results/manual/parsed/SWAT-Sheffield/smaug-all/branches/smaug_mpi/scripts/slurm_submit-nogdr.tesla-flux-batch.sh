@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-staircase-8211
+#FLUX: --job-name=smaug_nogdr
 #FLUX: -N=2
 #FLUX: -n=4
+#FLUX: --queue=tesla
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

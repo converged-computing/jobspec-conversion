@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=eval_unrolledQSM
+#FLUX: -c=3
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

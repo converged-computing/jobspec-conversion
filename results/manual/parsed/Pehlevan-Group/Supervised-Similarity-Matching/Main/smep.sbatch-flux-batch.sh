@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-destiny-2824
+#FLUX: --job-name=recheck_adaptrerr
+#FLUX: --queue=<insert_partition>
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load <insert Anaconda module name>

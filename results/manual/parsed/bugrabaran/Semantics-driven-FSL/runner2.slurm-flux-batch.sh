@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-dog-3035
+#FLUX: --job-name=am31s
+#FLUX: -c=16
+#FLUX: --queue=palamut-cuda
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

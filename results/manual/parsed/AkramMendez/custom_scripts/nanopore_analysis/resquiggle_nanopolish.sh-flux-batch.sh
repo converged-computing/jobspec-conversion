@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-pedo-1965
+#FLUX: --job-name=nanopolish
+#FLUX: -n=32
+#FLUX: --queue=node
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module load bioinfo-tools

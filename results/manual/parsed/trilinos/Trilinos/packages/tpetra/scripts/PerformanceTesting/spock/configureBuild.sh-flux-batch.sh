@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-peas-1612
+#FLUX: --job-name=configureAndBuildTrilinos
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export all_proxy='socks://proxy.ccs.ornl.gov:3128/'

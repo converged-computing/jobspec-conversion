@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-caramel-0870
+#FLUX: --job-name=evasive-parsnip-4382
+#FLUX: -n=2
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

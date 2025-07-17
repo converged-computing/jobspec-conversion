@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-signal-3876
+#FLUX: --job-name=PROC_20-300-40
 #FLUX: -n=8
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export PLT='${1?Error}'

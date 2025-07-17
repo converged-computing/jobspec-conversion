@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-puppy-0674
+#FLUX: --job-name=stream-faults
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

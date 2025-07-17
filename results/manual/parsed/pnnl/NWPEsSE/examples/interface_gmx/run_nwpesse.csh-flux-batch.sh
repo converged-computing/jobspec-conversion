@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-chip-5680
+#FLUX: --job-name=nwps
+#FLUX: -t=14379
 #FLUX: --urgency=16
 
 date

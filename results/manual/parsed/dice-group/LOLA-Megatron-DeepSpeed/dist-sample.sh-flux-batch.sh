@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-dog-3520
+#FLUX: --job-name=Fast Setup - mini GPT2 train
 #FLUX: --queue=dgx
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export LAUNCHER='python -u -m torch.distributed.run \'

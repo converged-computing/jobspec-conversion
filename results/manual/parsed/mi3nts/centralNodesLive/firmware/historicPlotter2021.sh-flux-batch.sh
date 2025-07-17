@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-toaster-2422
+#FLUX: --job-name=utdNodesHistoric
+#FLUX: -n=16
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ml load matlab

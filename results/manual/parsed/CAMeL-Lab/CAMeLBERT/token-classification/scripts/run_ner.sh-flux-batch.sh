@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-noodle-7506
+#FLUX: --job-name=misunderstood-milkshake-2222
+#FLUX: --queue=nvidia
 #FLUX: -t=41400
 #FLUX: --urgency=16
 

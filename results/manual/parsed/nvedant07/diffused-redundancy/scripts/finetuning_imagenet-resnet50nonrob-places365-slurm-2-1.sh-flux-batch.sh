@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lemur-1870
+#FLUX: --job-name=anxious-omelette-4926
+#FLUX: -c=16
+#FLUX: --queue=a100
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 srun --jobid $SLURM_JOBID bash -c 'python -m partially_inverted_reps.finetuning \

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-sundae-5849
+#FLUX: --job-name=geoflood.%j
+#FLUX: -n=67
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 args=( )

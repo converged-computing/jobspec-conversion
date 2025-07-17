@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-leopard-7524
+#FLUX: --job-name=RM
+#FLUX: -n=8
+#FLUX: --queue=gpu_v100
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

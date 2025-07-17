@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-car-6251
+#FLUX: --job-name=moolicious-butter-6199
 #FLUX: -c=7
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module load cudatoolkit/10.0

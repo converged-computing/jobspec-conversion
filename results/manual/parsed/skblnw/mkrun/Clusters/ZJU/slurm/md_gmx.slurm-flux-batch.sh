@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-knife-7642
+#FLUX: --job-name=<job
 #FLUX: -c=11
+#FLUX: --queue=multi
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

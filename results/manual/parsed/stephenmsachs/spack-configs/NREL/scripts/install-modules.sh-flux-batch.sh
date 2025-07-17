@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-hope-2418
+#FLUX: --job-name=build-modules
+#FLUX: --queue=short
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export SPACK_ROOT='${INSTALL_DIR}/spack'

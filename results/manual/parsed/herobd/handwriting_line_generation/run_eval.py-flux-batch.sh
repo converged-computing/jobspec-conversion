@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-arm-1371
+#FLUX: --job-name=eval
 #FLUX: -n=5
 #FLUX: -t=1800
 #FLUX: --urgency=16

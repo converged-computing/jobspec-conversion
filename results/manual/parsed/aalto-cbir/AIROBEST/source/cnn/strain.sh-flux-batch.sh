@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-motorcycle-2393
+#FLUX: --job-name=train5
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 id -a

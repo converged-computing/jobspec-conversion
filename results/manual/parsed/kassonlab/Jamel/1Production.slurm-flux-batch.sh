@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-blackbean-2011
+#FLUX: --job-name=peachy-destiny-0150
+#FLUX: -c=8
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module load gcc/9.2.0

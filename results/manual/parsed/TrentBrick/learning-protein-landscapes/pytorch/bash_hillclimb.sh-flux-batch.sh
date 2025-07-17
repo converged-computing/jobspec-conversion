@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-general-7604
+#FLUX: --job-name=placid-bits-1165
+#FLUX: -c=20
+#FLUX: --queue=short
+#FLUX: -t=719
 #FLUX: --urgency=16
 
                                            # -N 1 means all cores will be on th$

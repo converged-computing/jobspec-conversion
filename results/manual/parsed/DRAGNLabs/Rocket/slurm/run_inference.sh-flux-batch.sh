@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-onion-7300
+#FLUX: --job-name=llama_inference
 #FLUX: -t=144000
 #FLUX: --urgency=16
 

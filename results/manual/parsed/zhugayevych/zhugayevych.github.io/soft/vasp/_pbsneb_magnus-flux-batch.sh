@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-mango-5051
+#FLUX: --job-name=expensive-malarkey-7940
+#FLUX: -c=16
+#FLUX: --queue=AMG
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 echo 'JOB_NAME' $SLURM_JOB_NAME

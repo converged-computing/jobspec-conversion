@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-signal-6736
+#FLUX: --job-name=fuzzy-mango-7596
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 mkdir -p data/suitesparse/

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-nalgas-3461
+#FLUX: --job-name=GenNet_regression
+#FLUX: -c=16
+#FLUX: --queue=gpu
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 module purge

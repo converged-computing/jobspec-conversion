@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leopard-4907
+#FLUX: --job-name=TransFAS
 #FLUX: -c=4
 #FLUX: --queue=guests
 #FLUX: -t=86400

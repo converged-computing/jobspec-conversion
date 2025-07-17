@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-egg-9937
+#FLUX: --job-name=Microbeannotator
+#FLUX: -n=12
+#FLUX: --queue=skylake
+#FLUX: -t=39600
 #FLUX: --urgency=16
 
 module load userspace/all

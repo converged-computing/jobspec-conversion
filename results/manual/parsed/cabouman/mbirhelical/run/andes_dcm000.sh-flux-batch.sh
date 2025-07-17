@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-nalgas-1002
+#FLUX: --job-name=AAPM_000
+#FLUX: -N=4
+#FLUX: --queue=batch
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export NUM_NODES='$SLURM_JOB_NUM_NODES'

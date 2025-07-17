@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peanut-0280
+#FLUX: --job-name=macs2_call_peaks
+#FLUX: -n=8
+#FLUX: --queue=short
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

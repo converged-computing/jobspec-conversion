@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-arm-1911
+#FLUX: --job-name=bumfuzzled-cinnamonbun-7571
+#FLUX: --queue=alvis
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 input_file=$1  # opting to also take the file as an input argument

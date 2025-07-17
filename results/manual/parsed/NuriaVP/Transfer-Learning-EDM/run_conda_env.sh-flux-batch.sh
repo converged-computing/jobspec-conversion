@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mnist
+#FLUX: -n=4
 #FLUX: --queue=cascadelakegpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

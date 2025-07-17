@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bits-8741
+#FLUX: --job-name=psycho-general-9539
 #FLUX: --urgency=16
 
 readarray -t listofmissingfiles < listofmissingfiles.txt

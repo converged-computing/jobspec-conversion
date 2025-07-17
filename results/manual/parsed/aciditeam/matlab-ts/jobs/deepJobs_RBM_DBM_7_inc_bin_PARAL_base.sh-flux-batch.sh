@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-leg-5948
+#FLUX: --job-name=Deep-RBM_DBM_7_inc_bin_PARAL_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

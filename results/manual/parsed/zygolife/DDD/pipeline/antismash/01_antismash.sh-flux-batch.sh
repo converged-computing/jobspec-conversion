@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-noodle-5381
+#FLUX: --job-name=hairy-cupcake-3189
+#FLUX: -n=16
+#FLUX: --queue=batch,intel
 #FLUX: --urgency=16
 
 CPU=1

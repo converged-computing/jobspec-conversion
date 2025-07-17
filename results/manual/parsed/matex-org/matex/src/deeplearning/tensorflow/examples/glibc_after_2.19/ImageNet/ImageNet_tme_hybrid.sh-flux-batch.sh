@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-despacito-3083
+#FLUX: --job-name=ImageNet.Hybrid
 #FLUX: --urgency=16
 
 train_batch=128

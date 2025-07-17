@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-salad-9658
+#FLUX: --job-name=hogan
+#FLUX: --queue=shortq
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

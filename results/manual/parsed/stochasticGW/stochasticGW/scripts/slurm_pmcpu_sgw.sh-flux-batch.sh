@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-hippo-9968
+#FLUX: --job-name=sGW
 #FLUX: -n=128
 #FLUX: -c=2
 #FLUX: -t=1799

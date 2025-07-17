@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-latke-1983
+#FLUX: --job-name=purple-motorcycle-6924
 #FLUX: --queue=maxwell
 #FLUX: -t=180
 #FLUX: --urgency=16

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cattywampus-7259
+#FLUX: --job-name=boopy-signal-7546
+#FLUX: -n=16
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

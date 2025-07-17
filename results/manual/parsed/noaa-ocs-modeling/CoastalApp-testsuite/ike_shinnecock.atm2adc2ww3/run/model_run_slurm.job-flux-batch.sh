@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-nunchucks-4191
+#FLUX: --job-name=IKSH_atm2adc2ww3_RUN
+#FLUX: -n=12
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

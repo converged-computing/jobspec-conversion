@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-hobbit-5828
+#FLUX: --job-name=loopy-destiny-8305
 #FLUX: -N=8
 #FLUX: -c=16
+#FLUX: --queue=gpgpu-1
 #FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'

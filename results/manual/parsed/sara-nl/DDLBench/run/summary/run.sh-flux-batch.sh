@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-parsnip-1230
+#FLUX: --job-name=benchmark_summary
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 export MPICC='mpicc'

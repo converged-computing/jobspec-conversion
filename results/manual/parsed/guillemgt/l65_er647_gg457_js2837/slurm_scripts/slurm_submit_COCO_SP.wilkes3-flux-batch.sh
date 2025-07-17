@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-arm-1634
+#FLUX: --job-name=COCO_SP
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

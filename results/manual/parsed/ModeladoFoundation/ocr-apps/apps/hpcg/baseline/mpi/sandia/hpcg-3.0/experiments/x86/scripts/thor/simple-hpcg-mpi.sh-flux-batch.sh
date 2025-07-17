@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-leg-6934
+#FLUX: --job-name=boopy-milkshake-0030
 #FLUX: --queue=XAS
 #FLUX: --urgency=16
 

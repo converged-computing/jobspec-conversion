@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-latke-8656
+#FLUX: --job-name=expensive-pancake-1525
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600

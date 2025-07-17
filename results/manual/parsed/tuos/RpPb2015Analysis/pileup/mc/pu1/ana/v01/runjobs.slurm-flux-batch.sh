@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-banana-4721
+#FLUX: --job-name=faux-pot-3248
 #FLUX: -t=244800
 #FLUX: --urgency=16
 

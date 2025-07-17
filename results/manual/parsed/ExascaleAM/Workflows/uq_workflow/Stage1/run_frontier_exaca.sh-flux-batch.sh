@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-poo-3553
+#FLUX: --job-name=CA-CP
 #FLUX: -N=125
 #FLUX: --exclusive
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

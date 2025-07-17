@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-rabbit-8811
+#FLUX: --job-name=arid-fudge-4930
 #FLUX: --queue=cpufast
 #FLUX: -t=14400
 #FLUX: --urgency=16

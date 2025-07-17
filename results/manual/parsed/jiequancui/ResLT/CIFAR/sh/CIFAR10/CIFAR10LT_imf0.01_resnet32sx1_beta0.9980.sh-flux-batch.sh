@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=CIFAR10V2
+#FLUX: -c=2
 #FLUX: --urgency=16
 
 python cifarTrain_reslt_cifar10.py \

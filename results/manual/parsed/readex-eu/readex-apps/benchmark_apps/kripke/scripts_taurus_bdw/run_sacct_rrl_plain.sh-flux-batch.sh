@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-kerfuffle-4449
+#FLUX: --job-name=kripke_sacct
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
 #FLUX: -t=3600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-snack-6233
+#FLUX: --job-name=buttery-squidward-9390
 #FLUX: --urgency=16
 
 prefix=${PWD##*/}

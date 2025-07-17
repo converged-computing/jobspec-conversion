@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-lamp-8876
+#FLUX: --job-name=outstanding-diablo-4999
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='4'

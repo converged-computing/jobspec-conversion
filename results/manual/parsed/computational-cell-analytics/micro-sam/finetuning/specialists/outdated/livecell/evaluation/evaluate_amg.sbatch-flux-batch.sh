@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-arm-0402
+#FLUX: --job-name=creamy-pancake-6648
+#FLUX: -c=8
+#FLUX: --queue=grete:shared
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 source activate sam

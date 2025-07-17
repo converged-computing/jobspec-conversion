@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-animal-3642
+#FLUX: --job-name=milky-kitty-0979
+#FLUX: -c=8
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=90
 #FLUX: --urgency=16
 
 itRoot=$(cd ..; pwd)

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-poo-0173
+#FLUX: --job-name=reclusive-sundae-7107
+#FLUX: --queue=RM-shared
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 SINGULARITY_CONT=$PROJECT/psrsearch.sif

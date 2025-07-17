@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-dog-5140
+#FLUX: --job-name=phi3_solve
 #FLUX: -c=10
+#FLUX: --queue=gpu
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '

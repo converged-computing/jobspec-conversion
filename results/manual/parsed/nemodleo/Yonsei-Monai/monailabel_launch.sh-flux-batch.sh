@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-animal-4708
+#FLUX: --job-name=chunky-motorcycle-7237
 #FLUX: -c=4
 #FLUX: --queue=bc-mig
 #FLUX: -t=28800

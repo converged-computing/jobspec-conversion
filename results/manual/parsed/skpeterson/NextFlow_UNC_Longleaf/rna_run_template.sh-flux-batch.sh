@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=rna_nf
+#FLUX: -n=16
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

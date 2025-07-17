@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-bicycle-7233
+#FLUX: --job-name=MNIST_CNN_EPOCHS
 #FLUX: -c=20
 #FLUX: --exclusive
+#FLUX: --queue=ml
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

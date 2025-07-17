@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-caramel-1325
+#FLUX: --job-name=dinosaur-peanut-4768
+#FLUX: --queue=ram1t
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 VCF=/panfs/roc/groups/9/morrellp/shared/Projects/Mutant_Barley/longranger_morex_v2/combined_mutated/Filtered/deletions/M01_singletons_only-scored_DEL_gte75Sup.vcf

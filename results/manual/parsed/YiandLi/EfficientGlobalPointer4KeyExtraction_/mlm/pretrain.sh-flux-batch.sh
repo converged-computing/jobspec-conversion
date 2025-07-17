@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-puppy-2918
+#FLUX: --job-name=sticky-signal-8054
+#FLUX: -n=20
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 module load nvidia/cuda/10.0

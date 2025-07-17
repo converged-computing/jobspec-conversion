@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-pot-4033
+#FLUX: --job-name=conspicuous-knife-0390
+#FLUX: -N=2
+#FLUX: -n=60
+#FLUX: --queue=seas_compute
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

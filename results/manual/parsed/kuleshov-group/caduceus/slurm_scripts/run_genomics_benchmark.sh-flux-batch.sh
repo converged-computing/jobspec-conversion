@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-noodle-8406
+#FLUX: --job-name=fuzzy-cattywampus-4497
 #FLUX: -c=2
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 cd ../ || exit  # Go to the root directory of the repo

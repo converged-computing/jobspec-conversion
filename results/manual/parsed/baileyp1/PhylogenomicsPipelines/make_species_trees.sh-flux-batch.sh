@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leader-1375
+#FLUX: --job-name=make_species_trees
 #FLUX: --urgency=16
 
 												            ### Test whether you can specify redirection to .log file via 2>&

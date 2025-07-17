@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bicycle-3841
+#FLUX: --job-name=carnivorous-egg-7488
 #FLUX: --queue=standard
 #FLUX: -t=86400
 #FLUX: --urgency=16

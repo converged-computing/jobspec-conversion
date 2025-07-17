@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cat-6912
+#FLUX: --job-name=expressive-arm-6791
 #FLUX: -N=2
 #FLUX: -n=16
 #FLUX: -c=2

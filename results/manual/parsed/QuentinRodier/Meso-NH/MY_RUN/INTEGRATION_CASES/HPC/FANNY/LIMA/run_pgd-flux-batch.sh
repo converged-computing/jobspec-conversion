@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-kerfuffle-8170
+#FLUX: --job-name=pgd_fanny
+#FLUX: -n=128
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 128'

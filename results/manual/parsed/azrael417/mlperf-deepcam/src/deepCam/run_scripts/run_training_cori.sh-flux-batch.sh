@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lemon-4644
+#FLUX: --job-name=train_cam5
+#FLUX: --queue=regular
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 export PROJ_LIB='/global/homes/t/tkurth/.conda/envs/mlperf_deepcam/share/basemap'

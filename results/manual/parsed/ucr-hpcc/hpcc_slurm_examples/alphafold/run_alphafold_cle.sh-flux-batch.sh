@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-peas-6034
+#FLUX: --job-name=calp_alpha
 #FLUX: -n=24
+#FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

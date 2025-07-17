@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-car-5304
+#FLUX: --job-name=generate-vtune-summary
 #FLUX: --queue=gpu
 #FLUX: -t=14400
 #FLUX: --urgency=16

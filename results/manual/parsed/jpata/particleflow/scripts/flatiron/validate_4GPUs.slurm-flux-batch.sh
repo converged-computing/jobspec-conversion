@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-car-0910
+#FLUX: --job-name=eval
+#FLUX: --queue=gpu
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 echo "#################### Job submission script. #############################"

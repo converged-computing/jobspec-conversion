@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-rabbit-8422
+#FLUX: --job-name=pix2pix-v2
+#FLUX: -c=10
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

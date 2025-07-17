@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-caramel-4533
+#FLUX: --job-name=docker_iclr23
+#FLUX: --queue=rtx2
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 WANDB_API_KEY="[TODO YOUR KEY]"  # or 'wandb login' and 'wandb docker' commands

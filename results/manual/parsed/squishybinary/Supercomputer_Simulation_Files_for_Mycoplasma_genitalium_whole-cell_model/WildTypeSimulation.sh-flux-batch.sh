@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=WildTypeSimulation
+#FLUX: --queue=cpu
 #FLUX: -t=108000
 #FLUX: --urgency=16
 

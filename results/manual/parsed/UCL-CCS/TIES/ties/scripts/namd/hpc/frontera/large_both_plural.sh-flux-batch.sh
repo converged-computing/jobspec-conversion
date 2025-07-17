@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-hippo-3456
+#FLUX: --job-name=namd
+#FLUX: -N=325
+#FLUX: -n=325
+#FLUX: --queue=normal
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 module load namd

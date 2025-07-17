@@ -3,6 +3,7 @@
 #FLUX: -c=16
 #FLUX: --exclusive
 #FLUX: --queue=gpuA40x4
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16  # if code is not multithreaded, otherwise set to 16 or 16'

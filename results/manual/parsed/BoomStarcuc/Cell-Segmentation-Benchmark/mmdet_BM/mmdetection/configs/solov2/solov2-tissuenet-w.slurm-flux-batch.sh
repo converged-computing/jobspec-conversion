@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-kitty-9322
+#FLUX: --job-name=solov2-tissuenet-w-1C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

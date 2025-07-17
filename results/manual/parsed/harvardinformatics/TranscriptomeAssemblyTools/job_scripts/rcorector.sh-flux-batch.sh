@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-salad-5104
+#FLUX: --job-name=rcorrector
+#FLUX: -n=16
+#FLUX: --queue=True
+#FLUX: -t=82800
 #FLUX: --urgency=16
 
 """

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-house-9047
+#FLUX: --job-name=cpah
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: --queue=gpu_short

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-despacito-3032
+#FLUX: --job-name=lovable-animal-2676
+#FLUX: -n=4
+#FLUX: --queue=public
+#FLUX: -t=1800000
 #FLUX: --urgency=16
 
 module load cuda/75/blas/7.5.18

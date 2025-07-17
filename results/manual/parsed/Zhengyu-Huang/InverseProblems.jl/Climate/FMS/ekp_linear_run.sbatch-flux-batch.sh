@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-bits-1218
+#FLUX: --job-name=fms_ekp
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

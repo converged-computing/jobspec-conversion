@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-caramel-8414
+#FLUX: --job-name=decode
+#FLUX: -n=8
+#FLUX: --queue=cox
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 module load centos6/0.0.1-fasrc01

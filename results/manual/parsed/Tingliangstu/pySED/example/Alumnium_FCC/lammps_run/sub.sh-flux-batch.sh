@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-noodle-3662
+#FLUX: --job-name=SED
+#FLUX: -n=64
+#FLUX: --queue=amd_512
 #FLUX: --urgency=16
 
 export PATH='/public3/home/scg5426/lammps/new/lammps-3Aug2022/src:$PATH'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-poodle-1383
+#FLUX: --job-name=anxious-lamp-8026
+#FLUX: --queue=GPU-shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load python/3.6.4_gcc5_np1.14.5

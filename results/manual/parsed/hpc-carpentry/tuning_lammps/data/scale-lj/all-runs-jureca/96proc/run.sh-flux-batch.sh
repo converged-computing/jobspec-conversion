@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-hobbit-4913
+#FLUX: --job-name=rainbow-egg-0296
 #FLUX: -N=2
 #FLUX: --queue=devel
 #FLUX: -t=900

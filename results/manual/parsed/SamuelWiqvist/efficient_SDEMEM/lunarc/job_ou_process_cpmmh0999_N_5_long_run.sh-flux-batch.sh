@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-arm-4181
+#FLUX: --job-name=ou_cpmmh_0999_5
 #FLUX: --exclusive
+#FLUX: --queue=lu
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'

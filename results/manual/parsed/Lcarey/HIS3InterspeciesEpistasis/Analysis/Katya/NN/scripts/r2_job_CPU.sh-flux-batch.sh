@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=R2_calculations
+#FLUX: -c=10
 #FLUX: --queue=defaultp
 #FLUX: -t=129600
 #FLUX: --urgency=16

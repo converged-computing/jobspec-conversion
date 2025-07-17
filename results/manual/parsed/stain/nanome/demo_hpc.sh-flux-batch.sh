@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nanome.human_demo_hpc
+#FLUX: -n=4
+#FLUX: --queue=inference
 #FLUX: -t=5400
 #FLUX: --urgency=16
 

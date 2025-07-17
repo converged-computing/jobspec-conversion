@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-avocado-0087
+#FLUX: --job-name=PDO
 #FLUX: -c=8
+#FLUX: --queue=regular
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'

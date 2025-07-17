@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-plant-3100
+#FLUX: --job-name=ImageNet_SGV
 #FLUX: -c=2
 #FLUX: --queue=batch
 #FLUX: -t=14400

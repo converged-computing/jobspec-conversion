@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leg-2583
+#FLUX: --job-name=NS
 #FLUX: -n=20
 #FLUX: -t=86400
 #FLUX: --urgency=16

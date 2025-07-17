@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=group1
+#FLUX: --queue=long
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

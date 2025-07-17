@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leg-4181
+#FLUX: --job-name=dinosaur-signal-9650
+#FLUX: --queue=small
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

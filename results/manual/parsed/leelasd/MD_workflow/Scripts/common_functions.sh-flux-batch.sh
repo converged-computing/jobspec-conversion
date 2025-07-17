@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-destiny-2507
+#FLUX: --job-name=faux-pot-9483
 #FLUX: --urgency=16
 
 read_master_config_file() {

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kerfuffle-7297
+#FLUX: --job-name=IKSH_atm2adc_SETUP
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 set -e

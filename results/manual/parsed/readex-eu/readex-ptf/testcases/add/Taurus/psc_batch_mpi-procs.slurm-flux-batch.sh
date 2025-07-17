@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-peanut-3887
+#FLUX: --job-name=add
 #FLUX: -n=16
 #FLUX: --queue=haswell
 #FLUX: -t=3600

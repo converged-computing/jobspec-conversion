@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-hope-1369
+#FLUX: --job-name=KerrSF_job
 #FLUX: -n=128
+#FLUX: --queue=knl
 #FLUX: -t=600
 #FLUX: --urgency=16
 

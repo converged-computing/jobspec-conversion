@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-muffin-0392
+#FLUX: --job-name=GPTune_mfem
+#FLUX: -N=17
+#FLUX: --queue=regular
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export GPTUNEROOT='$PWD'

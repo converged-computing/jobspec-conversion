@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-frito-6778
+#FLUX: --job-name=fugly-onion-9722
 #FLUX: -c=48
 #FLUX: --exclusive
 #FLUX: --queue=rome

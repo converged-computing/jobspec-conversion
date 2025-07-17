@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-destiny-3347
+#FLUX: --job-name=angry-citrus-0737
+#FLUX: -c=20
+#FLUX: -t=480000
 #FLUX: --urgency=16
 
 export HOME='/om2/user/dapello/'

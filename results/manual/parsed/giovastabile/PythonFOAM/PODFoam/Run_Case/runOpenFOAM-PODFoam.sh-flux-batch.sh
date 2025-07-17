@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=WMC_0
 #FLUX: -N=6
+#FLUX: --queue=bdwall
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

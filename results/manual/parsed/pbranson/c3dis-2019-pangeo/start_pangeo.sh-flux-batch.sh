@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-general-8614
+#FLUX: --job-name=pangeo
 #FLUX: -c=4
 #FLUX: --queue=workq
 #FLUX: -t=86400

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-kitty-2117
+#FLUX: --job-name=sticky-malarkey-2512
 #FLUX: -c=24
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export CXX='scorep --nomemory $READEX_CXX'

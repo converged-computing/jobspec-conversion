@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-puppy-1649
+#FLUX: --job-name=wobbly-puppy-5358
 #FLUX: --urgency=16
 
 qgmx () {

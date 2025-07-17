@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-fudge-4447
+#FLUX: --job-name=Examples
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MONORUN='Mpirun -np 1 '

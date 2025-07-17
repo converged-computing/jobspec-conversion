@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-punk-9531
+#FLUX: --job-name=dirty-malarkey-1383
+#FLUX: -n=28
+#FLUX: -t=7800
 #FLUX: --urgency=16
 
 ml GCC/8.3.0  OpenMPI/3.1.4

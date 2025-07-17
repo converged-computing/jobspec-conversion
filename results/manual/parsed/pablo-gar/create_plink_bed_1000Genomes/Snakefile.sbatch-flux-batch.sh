@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cupcake-1195
+#FLUX: --job-name=grated-leg-3158
 #FLUX: --queue=hbfraser,hns,normal
 #FLUX: -t=14400
 #FLUX: --urgency=16

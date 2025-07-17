@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-onion-0916
+#FLUX: --job-name=sticky-hobbit-3225
 #FLUX: --urgency=16
 
 experiment_num=0 # change the number of experiment you want to run 0--> training objective, 1--> buffer, 2--> exploration

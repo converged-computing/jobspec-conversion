@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-cattywampus-5357
+#FLUX: --job-name=chocolate-motorcycle-8746
+#FLUX: -c=8
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=150
 #FLUX: --urgency=16
 
 quick="${1}"

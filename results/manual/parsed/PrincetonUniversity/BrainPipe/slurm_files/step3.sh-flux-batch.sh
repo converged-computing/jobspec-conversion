@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-taco-9274
+#FLUX: --job-name=astute-sundae-1164
+#FLUX: -c=14
+#FLUX: --queue=all
+#FLUX: -t=42000
 #FLUX: --urgency=16
 
 module load anacondapy/2020.11

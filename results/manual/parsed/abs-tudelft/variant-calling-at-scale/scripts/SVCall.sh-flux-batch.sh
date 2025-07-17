@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-peanut-butter-9718
+#FLUX: --job-name=quirky-ricecake-0891
+#FLUX: -N=16
+#FLUX: --queue=gpu
+#FLUX: -t=7800
 #FLUX: --urgency=16
 
 export SPARK_HOME='/home/tahmad/tahmad/spark-3.0.0-bin-hadoop2.7'

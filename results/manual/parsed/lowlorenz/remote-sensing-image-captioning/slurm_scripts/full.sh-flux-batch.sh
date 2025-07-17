@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-omelette-7453
+#FLUX: --job-name=full_0
 #FLUX: -c=16
 #FLUX: --queue=gpu_short
 #FLUX: -t=82800

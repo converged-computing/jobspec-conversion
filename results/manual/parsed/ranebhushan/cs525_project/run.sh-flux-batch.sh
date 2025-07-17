@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-underoos-8708
+#FLUX: --job-name=DDDQN
+#FLUX: -n=4
+#FLUX: --queue=long
+#FLUX: -t=604799
 #FLUX: --urgency=16
 
 echo "Running python code on $(hostname) with algorithm $1"

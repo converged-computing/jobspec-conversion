@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lemur-2319
+#FLUX: --job-name=reclusive-staircase-8050
 #FLUX: --urgency=16
 
 AF_PATH=/fsx/alphafold2/alphafold/

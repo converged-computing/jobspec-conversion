@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-milkshake-7212
+#FLUX: --job-name=R14f
+#FLUX: -N=20
+#FLUX: -n=1120
+#FLUX: --queue=normal
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module list

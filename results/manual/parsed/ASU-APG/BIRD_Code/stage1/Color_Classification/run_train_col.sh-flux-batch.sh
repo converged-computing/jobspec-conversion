@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-pedo-9711
+#FLUX: --job-name=loopy-truffle-6171
+#FLUX: -N=2
+#FLUX: -n=4
+#FLUX: --queue=wildfire
+#FLUX: -t=173520
 #FLUX: --urgency=16
 
 module load tensorflow/1.8-agave-gpu

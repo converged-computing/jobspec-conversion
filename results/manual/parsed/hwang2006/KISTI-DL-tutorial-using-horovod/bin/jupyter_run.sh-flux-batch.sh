@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-butter-2790
+#FLUX: --job-name=buttery-general-8862
 #FLUX: -c=4
 #FLUX: --queue=amd_a100nv_8
 #FLUX: -t=28800

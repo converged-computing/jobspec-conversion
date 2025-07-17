@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-peanut-butter-2728
+#FLUX: --job-name=build-tps
+#FLUX: --queue=gpu-a100-small
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export ORG='uvilla'

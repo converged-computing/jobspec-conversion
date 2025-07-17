@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-peanut-butter-4512
+#FLUX: --job-name=perWetFin
+#FLUX: -n=144
+#FLUX: -t=84600
 #FLUX: --urgency=16
 
 module load git

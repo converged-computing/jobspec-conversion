@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=corona_optimize
+#FLUX: --queue=rbaltman
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

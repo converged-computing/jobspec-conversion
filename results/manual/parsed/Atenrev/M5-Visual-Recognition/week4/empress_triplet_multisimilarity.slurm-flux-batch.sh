@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-earthworm-0363
+#FLUX: --job-name=hanky-taco-3228
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 python task_b.py \

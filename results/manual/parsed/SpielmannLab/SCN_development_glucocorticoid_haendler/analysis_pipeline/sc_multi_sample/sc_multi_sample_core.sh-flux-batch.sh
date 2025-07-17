@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=sc_multi_sample
+#FLUX: -c=8
 #FLUX: --queue=shortterm
 #FLUX: --urgency=16
 

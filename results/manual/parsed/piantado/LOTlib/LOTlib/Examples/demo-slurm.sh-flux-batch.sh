@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-arm-3272
+#FLUX: --job-name=LOTlibSearch
+#FLUX: -N=4
+#FLUX: --queue=colala
+#FLUX: -t=360900
 #FLUX: --urgency=16
 
 module load numpy

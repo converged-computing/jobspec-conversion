@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-dog-9057
+#FLUX: --job-name=gym
+#FLUX: --queue=batch
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 echo "---------------------------"

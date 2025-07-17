@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-leopard-4698
+#FLUX: --job-name=main_simtrial
+#FLUX: --queue=murphy
+#FLUX: -t=60000
 #FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/apps/R_3.6.1:$R_LIBS_USER'

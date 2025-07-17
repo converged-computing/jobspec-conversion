@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-hippo-6701
+#FLUX: --job-name=evasive-truffle-5070
 #FLUX: --urgency=16
 
 export K8S_PORT='$K8S_PORT'

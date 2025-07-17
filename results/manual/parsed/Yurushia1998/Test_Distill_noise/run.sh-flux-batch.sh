@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-taco-8310
+#FLUX: --job-name=persnickety-peas-8304
+#FLUX: -c=4
+#FLUX: --queue=v100
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

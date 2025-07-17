@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-eagle-9859
+#FLUX: --job-name=IMAGING
 #FLUX: -N=8
 #FLUX: -n=8
 #FLUX: --exclusive
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

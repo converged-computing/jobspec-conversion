@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-snack-2520
+#FLUX: --job-name=10fps-8heads
 #FLUX: -n=4
+#FLUX: --queue=ampere
 #FLUX: -t=600
 #FLUX: --urgency=16
 

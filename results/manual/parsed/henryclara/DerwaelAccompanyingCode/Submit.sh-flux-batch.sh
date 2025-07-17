@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-platanos-9684
+#FLUX: --job-name=Forward
 #FLUX: -n=80
 #FLUX: --queue=compute
 #FLUX: -t=28800

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-malarkey-1971
+#FLUX: --job-name=Mar_inversion
 #FLUX: -N=96
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 export user='$(whoami)'

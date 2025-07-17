@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-parrot-9158
+#FLUX: --job-name=eccentric-latke-1016
+#FLUX: -N=2
+#FLUX: -n=60
+#FLUX: --queue=huce_intel
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module purge

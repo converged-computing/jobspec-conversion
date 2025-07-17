@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-salad-1502
+#FLUX: --job-name=salted-citrus-3347
+#FLUX: -n=10
 #FLUX: --urgency=16
 
 source /etc/profile

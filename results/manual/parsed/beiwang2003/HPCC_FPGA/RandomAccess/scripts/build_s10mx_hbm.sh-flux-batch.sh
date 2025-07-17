@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lamp-3170
+#FLUX: --job-name=boopy-lettuce-2143
+#FLUX: --queue=fpgasyn
 #FLUX: --urgency=16
 
 module load intelFPGA_pro/19.4.0

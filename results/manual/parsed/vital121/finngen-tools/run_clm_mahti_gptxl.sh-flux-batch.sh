@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-destiny-0419
+#FLUX: --job-name=peachy-bike-4961
 #FLUX: --queue=gputest
 #FLUX: -t=900
 #FLUX: --urgency=16

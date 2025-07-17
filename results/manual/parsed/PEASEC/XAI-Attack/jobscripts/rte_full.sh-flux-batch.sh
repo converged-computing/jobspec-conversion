@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-hope-2883
+#FLUX: --job-name=XAIATTACK-RTE
+#FLUX: -c=4
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export DATASET='rte'

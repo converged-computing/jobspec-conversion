@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-citrus-1391
+#FLUX: --job-name=train
+#FLUX: --queue=skx-normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'

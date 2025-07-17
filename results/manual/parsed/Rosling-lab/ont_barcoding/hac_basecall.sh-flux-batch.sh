@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-cattywampus-9480
+#FLUX: --job-name=ont_barcoding
+#FLUX: --queue=node
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load conda bioinfo-tools snakemake &&

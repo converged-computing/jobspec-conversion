@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-chair-3468
+#FLUX: --job-name=dinosaur-mango-0885
 #FLUX: -c=2
+#FLUX: -t=172815
 #FLUX: --urgency=16
 
 module load r/3.4.0

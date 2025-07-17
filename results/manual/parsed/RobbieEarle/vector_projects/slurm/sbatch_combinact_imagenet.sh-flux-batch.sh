@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=rn50_imgnt_test2
+#FLUX: -c=32
 #FLUX: --queue=t4v2
 #FLUX: --urgency=16
 

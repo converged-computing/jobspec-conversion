@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-despacito-6739
+#FLUX: --job-name=ERpp_GSS
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=360000

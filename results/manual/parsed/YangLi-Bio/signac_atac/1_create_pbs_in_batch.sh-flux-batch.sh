@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-butter-7884
+#FLUX: --job-name=milky-latke-2678
 #FLUX: --urgency=16
 
 cd /fs/ess/PCON0022/liyang/STREAM/benchmarking/Signac

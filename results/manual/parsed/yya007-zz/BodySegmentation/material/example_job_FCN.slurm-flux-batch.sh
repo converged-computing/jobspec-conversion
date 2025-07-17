@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-leader-4516
+#FLUX: --job-name=eccentric-nunchucks-6691
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=3600

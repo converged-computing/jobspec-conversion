@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-carrot-9068
+#FLUX: --job-name=astute-pot-3618
+#FLUX: -c=8
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 ptRoot=$(cd ..; pwd)

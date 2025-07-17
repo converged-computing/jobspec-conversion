@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-hobbit-7294
+#FLUX: --job-name=roll
 #FLUX: -c=2
 #FLUX: --queue=gpu-ayyer
 #FLUX: -t=129600

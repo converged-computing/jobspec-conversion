@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-animal-7395
+#FLUX: --job-name=SY/GI/Damp
+#FLUX: --queue=ampere
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

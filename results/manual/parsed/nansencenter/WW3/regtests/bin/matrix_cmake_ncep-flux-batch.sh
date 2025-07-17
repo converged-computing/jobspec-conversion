@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-signal-5704
+#FLUX: --job-name=astute-arm-8378
 #FLUX: --urgency=16
 
 usage ()

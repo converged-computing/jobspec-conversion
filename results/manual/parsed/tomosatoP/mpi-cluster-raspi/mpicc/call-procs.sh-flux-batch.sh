@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cat-4381
+#FLUX: --job-name=MPICC
+#FLUX: -N=3
+#FLUX: -n=9
+#FLUX: --queue=debug
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cupcake-7301
+#FLUX: --job-name=sculptor_mc_orbit
+#FLUX: --queue=cosma
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module unload gnu_comp

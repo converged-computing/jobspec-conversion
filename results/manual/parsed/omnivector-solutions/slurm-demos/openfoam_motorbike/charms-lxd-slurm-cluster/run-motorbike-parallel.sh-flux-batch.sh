@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-signal-1138
+#FLUX: --job-name=motorbike-par
 #FLUX: -n=6
+#FLUX: --queue=osd-slurmd
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 OPENFOAM_DIR=/nfs/OpenFOAM-10

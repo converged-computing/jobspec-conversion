@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cattywampus-5991
+#FLUX: --job-name=misunderstood-diablo-1973
+#FLUX: -N=2
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PATH='$PATH:/global/homes/m/mingkuan/torque/deps/quartz/external/HiGHS/build/bin'

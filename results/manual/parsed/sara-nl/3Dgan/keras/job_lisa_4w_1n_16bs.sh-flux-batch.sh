@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-underoos-0542
+#FLUX: --job-name=3DGAN_4w_1n_bs16_sun
 #FLUX: --queue=test
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export KERAS_BACKEND='tensorflow'

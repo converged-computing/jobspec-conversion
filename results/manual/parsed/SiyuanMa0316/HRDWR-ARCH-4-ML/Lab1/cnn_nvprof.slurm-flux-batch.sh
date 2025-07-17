@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bits-2685
+#FLUX: --job-name=myjob
+#FLUX: --queue=gtx
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/apps/cuda10_1/lib64'

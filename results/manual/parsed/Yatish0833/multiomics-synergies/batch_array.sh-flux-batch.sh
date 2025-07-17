@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-pot-0225
+#FLUX: --job-name=peachy-pedo-0693
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 set -e -x

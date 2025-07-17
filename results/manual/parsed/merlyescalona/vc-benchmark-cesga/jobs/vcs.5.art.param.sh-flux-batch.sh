@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=art
 #FLUX: --queue=shared
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 echo -e "[$(date)]\nDefinition"

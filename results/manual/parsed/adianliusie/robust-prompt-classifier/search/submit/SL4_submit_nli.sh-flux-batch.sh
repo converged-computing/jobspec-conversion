@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-omelette-1169
+#FLUX: --job-name=gpujob
+#FLUX: --queue=pascal
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

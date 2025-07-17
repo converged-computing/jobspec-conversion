@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-citrus-6652
+#FLUX: --job-name=delicious-itch-2023
+#FLUX: --queue=gpu2
 #FLUX: -t=2700
 #FLUX: --urgency=16
 

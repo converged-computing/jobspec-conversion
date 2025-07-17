@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-peanut-6395
+#FLUX: --job-name=stinky-plant-7602
 #FLUX: -c=16
 #FLUX: -t=21600
 #FLUX: --urgency=16

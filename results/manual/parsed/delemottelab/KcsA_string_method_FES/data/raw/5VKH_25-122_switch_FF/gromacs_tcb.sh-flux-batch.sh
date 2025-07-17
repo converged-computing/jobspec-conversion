@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lemur-9559
+#FLUX: --job-name=switch_FF
+#FLUX: --queue=tcb
+#FLUX: -t=84600
 #FLUX: --urgency=16
 
 module unload gromacs

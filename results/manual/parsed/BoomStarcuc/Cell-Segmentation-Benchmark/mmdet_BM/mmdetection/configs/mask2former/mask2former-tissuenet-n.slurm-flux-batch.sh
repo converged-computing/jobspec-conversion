@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-leg-2475
+#FLUX: --job-name=mask2former-tissuenet-n-1C
+#FLUX: --queue=tier3
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

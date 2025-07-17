@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-signal-9084
+#FLUX: --job-name=apogee-run
+#FLUX: -n=640
+#FLUX: --queue=cca
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 source ~/.bash_profile

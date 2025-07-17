@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-puppy-8368
+#FLUX: --job-name=dl-test
 #FLUX: -N=2
 #FLUX: -c=32
+#FLUX: --queue=debug
 #FLUX: -t=600
 #FLUX: --urgency=16
 

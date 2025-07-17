@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pastry-8146
+#FLUX: --job-name=msrcnn-tissuenet-w-1C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

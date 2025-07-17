@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-muffin-2486
+#FLUX: --job-name=E3_PRED_GPU_TEST
 #FLUX: -c=4
 #FLUX: -t=1800
 #FLUX: --urgency=16

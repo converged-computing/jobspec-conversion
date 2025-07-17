@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lemur-3442
+#FLUX: --job-name=name
+#FLUX: -n=16
 #FLUX: --urgency=16
 
 cd path

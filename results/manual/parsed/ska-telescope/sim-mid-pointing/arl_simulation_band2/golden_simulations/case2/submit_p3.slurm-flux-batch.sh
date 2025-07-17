@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-onion-5695
+#FLUX: --job-name=CASE2
 #FLUX: -N=8
 #FLUX: -n=65
+#FLUX: --queue=compute
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

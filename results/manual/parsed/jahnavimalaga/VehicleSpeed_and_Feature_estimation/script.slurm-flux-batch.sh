@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-mango-5827
+#FLUX: --job-name=CompletePipleline
+#FLUX: --queue=rtx-dev
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 cd Complete_Pipeline

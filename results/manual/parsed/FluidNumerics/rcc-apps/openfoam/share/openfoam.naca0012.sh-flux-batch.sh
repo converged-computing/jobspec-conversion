@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-platanos-1794
+#FLUX: --job-name=buttery-diablo-1422
 #FLUX: --urgency=16
 
 spack env deactivate

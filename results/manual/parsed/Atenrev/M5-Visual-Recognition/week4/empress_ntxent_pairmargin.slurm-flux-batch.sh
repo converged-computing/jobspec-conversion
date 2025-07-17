@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-knife-1400
+#FLUX: --job-name=muffled-blackbean-1312
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 python task_b.py \

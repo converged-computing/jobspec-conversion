@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-onion-1956
-#FLUX: -c=20
+#FLUX: --job-name=blue-soup-1906
+#FLUX: -c=28
 #FLUX: --exclusive
+#FLUX: -t=43140
 #FLUX: --urgency=16
 
 ulimit -v unlimited

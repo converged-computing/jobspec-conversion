@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-dog-1269
+#FLUX: --job-name=gandk_multi_ABC_deepsets
+#FLUX: --queue=gpu
+#FLUX: -t=180000
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lemur-1892
+#FLUX: --job-name=mlp_analytic
+#FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: -t=64800
 #FLUX: --urgency=16
 

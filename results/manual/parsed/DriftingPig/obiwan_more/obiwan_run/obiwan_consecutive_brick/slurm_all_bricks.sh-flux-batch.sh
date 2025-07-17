@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-noodle-9095
+#FLUX: --job-name=obiwan
+#FLUX: --queue=regular
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export name_for_run='elg_eight_bricks'

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=array_job
+#FLUX: --queue=normal
 #FLUX: -t=54000
 #FLUX: --urgency=16
 

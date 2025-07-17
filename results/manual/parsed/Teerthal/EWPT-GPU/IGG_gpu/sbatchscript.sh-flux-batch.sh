@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-plant-8399
+#FLUX: --job-name=peachy-pastry-0750
+#FLUX: -t=240
 #FLUX: --urgency=16
 
 module load mvapich2-2.3.7-gcc-11.2.0

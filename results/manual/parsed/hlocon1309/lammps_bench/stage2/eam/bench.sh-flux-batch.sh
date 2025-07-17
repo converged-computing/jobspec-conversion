@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-arm-6157
+#FLUX: --job-name=bumfuzzled-poo-6925
+#FLUX: --queue=normal
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

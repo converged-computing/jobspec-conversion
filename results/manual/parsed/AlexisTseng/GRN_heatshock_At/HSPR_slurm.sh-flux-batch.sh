@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-banana-2890
+#FLUX: --job-name=hsGRN_Gillespie
+#FLUX: -c=10
+#FLUX: --queue=icelake
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

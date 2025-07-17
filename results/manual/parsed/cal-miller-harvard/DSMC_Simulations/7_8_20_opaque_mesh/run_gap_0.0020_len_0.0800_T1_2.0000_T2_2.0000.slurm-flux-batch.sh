@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-animal-2984
+#FLUX: --job-name=moolicious-onion-6288
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

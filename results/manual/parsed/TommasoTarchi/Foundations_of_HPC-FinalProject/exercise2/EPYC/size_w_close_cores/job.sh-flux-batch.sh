@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=size_scal
+#FLUX: -n=64
 #FLUX: --exclusive
 #FLUX: --queue=EPYC
 #FLUX: -t=7200

@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bits-7394
+#FLUX: --job-name=peachy-train-1468
 #FLUX: -N=4
 #FLUX: -n=4
 #FLUX: -c=4
 #FLUX: --exclusive
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 module load valgrind;

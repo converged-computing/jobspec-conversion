@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-avocado-7097
+#FLUX: --job-name=delicious-carrot-5479
 #FLUX: -n=32
+#FLUX: --queue=amdsmall
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

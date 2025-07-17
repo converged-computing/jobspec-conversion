@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-eagle-4039
+#FLUX: --job-name=X-TMR
 #FLUX: -c=18
+#FLUX: --queue=cvr
 #FLUX: --urgency=16
 
 source activate temos

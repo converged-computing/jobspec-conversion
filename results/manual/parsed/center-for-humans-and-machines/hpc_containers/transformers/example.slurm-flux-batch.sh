@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-parsnip-2446
+#FLUX: --job-name=transformers
 #FLUX: -N=2
 #FLUX: -c=72
 #FLUX: -t=900

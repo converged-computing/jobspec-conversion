@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-truffle-9555
+#FLUX: --job-name=moolicious-kerfuffle-0647
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

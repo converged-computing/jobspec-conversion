@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-salad-3932
+#FLUX: --job-name=nerdy-knife-4920
+#FLUX: --queue=dgxa100-mig
 #FLUX: --urgency=16
 
 GID=$1

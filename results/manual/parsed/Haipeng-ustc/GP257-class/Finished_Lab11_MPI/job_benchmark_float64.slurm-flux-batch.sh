@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-soup-4983
+#FLUX: --job-name=doopy-signal-6459
 #FLUX: -N=2
 #FLUX: -n=16
 #FLUX: --exclusive

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pot-1676
+#FLUX: --job-name=fuzzy-despacito-8202
 #FLUX: -c=4
 #FLUX: -t=14400
 #FLUX: --urgency=16

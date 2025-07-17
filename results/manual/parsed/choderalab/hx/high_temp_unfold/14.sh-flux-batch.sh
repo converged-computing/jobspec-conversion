@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-onion-7034
+#FLUX: --job-name=crunchy-snack-9111
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/hx/high_temp_unfold/14.sh

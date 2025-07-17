@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=$LIGAND
 #FLUX: --exclusive
+#FLUX: --queue=publicgpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

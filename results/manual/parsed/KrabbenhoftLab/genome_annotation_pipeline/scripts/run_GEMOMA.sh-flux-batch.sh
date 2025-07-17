@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-kitty-8607
+#FLUX: --job-name=peachy-blackbean-2122
 #FLUX: --queue=general-compute
 #FLUX: -t=259200
 #FLUX: --urgency=16

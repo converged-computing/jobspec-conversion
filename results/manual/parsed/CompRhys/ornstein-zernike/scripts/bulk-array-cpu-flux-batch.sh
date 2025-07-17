@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-fork-9884
+#FLUX: --job-name=bulk
+#FLUX: --queue=skylake
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-egg-9495
+#FLUX: --job-name=Deep-DAE_MLP_5_inc_bin_DAE_relu
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

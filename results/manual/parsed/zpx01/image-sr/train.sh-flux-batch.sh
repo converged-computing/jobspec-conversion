@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-platanos-1912
+#FLUX: --job-name=butterscotch-lamp-4028
 #FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX: -t=173520
+#FLUX: --urgency=15
 
 export PYTHONUNBUFFERED='1'
 

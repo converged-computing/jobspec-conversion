@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-hobbit-6279
+#FLUX: --job-name=blue-blackbean-7085
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 python run_retrieval.py \

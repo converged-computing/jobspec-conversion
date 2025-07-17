@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-signal-5324
+#FLUX: --job-name=bloated-lizard-3725
 #FLUX: -c=16
 #FLUX: --queue=performance
 #FLUX: -t=21600

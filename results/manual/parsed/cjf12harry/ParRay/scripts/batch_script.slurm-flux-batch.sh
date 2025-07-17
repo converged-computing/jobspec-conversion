@@ -2,6 +2,7 @@
 #FLUX: --job-name=parRay-team7
 #FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=cs
 #FLUX: -t=4800
 #FLUX: --urgency=16
 

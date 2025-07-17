@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=netCTL
+#FLUX: --queue=tempboost
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 newgrp combinedlab

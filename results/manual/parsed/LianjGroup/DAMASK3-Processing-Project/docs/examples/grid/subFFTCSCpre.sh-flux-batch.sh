@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-despacito-1535
+#FLUX: --job-name=CPparameter_test
 #FLUX: -c=32
 #FLUX: --queue=medium
 #FLUX: -t=3600

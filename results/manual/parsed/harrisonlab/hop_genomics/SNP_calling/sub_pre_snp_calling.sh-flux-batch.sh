@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-general-4150
+#FLUX: --job-name=pre_snp_calling
 #FLUX: -c=16
 #FLUX: --queue=himem
 #FLUX: --urgency=16

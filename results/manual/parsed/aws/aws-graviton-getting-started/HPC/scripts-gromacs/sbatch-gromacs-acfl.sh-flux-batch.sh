@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-onion-4584
+#FLUX: --job-name=persnickety-bicycle-8482
 #FLUX: -n=64
 #FLUX: --exclusive
 #FLUX: --queue=compute

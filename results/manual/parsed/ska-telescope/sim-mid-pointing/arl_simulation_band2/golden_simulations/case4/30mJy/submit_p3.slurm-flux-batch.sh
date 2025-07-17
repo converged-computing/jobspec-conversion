@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-bike-5023
+#FLUX: --job-name=30mJy
 #FLUX: -N=8
 #FLUX: -n=129
+#FLUX: --queue=compute
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

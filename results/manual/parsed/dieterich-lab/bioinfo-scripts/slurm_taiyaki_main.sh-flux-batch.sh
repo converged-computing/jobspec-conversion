@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-peas-8288
+#FLUX: --job-name=taiyaki
+#FLUX: -c=10
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 module unload cuda

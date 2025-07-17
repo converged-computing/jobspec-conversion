@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-diablo-4210
+#FLUX: --job-name=tart-spoon-7129
 #FLUX: -c=24
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

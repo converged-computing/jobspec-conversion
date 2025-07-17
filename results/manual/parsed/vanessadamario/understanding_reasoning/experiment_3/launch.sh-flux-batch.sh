@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=NPS_ms2
 #FLUX: --queue=normal
+#FLUX: -t=126000
 #FLUX: --urgency=16
 
 module add openmind/singularity/3.4.1

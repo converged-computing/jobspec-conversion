@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-itch-4053
+#FLUX: --job-name=spockFarm
+#FLUX: --queue=Brody
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

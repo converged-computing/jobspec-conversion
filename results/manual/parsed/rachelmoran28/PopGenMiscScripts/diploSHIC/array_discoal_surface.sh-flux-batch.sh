@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pastry-6493
+#FLUX: --job-name=surf.discoal
+#FLUX: --queue=astyanax,small,amdsmall,cavefish
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 cd /home/mcgaughs/shared/Software/diploSHIC

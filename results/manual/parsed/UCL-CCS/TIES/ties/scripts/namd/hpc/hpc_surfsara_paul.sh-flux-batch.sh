@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-sundae-0955
+#FLUX: --job-name=butterscotch-pedo-3413
+#FLUX: -t=55230
 #FLUX: --urgency=16
 
                     # SLURM will compute the number of nodes needed

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-motorcycle-1473
+#FLUX: --job-name=ideal_fire
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 1'

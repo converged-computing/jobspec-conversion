@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-chip-2507
+#FLUX: --job-name=phat-parsnip-1073
+#FLUX: --exclusive
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export BGLOCKLESSMPIO_F_TYPE='0x47504653'

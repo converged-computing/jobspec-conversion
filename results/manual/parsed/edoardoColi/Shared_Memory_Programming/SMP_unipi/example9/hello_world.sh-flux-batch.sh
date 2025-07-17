@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-latke-5192
+#FLUX: --job-name=tart-cinnamonbun-5557
+#FLUX: -N=4
 #FLUX: --queue=normal
 #FLUX: --urgency=16
 

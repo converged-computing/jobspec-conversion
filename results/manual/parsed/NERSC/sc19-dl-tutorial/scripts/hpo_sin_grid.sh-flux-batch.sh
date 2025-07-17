@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-destiny-4862
+#FLUX: --job-name=hpo-sin-grid
+#FLUX: --queue=regular
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load tensorflow/intel-1.13.1-py36

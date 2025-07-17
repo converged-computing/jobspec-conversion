@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-hippo-6756
+#FLUX: --job-name=anxious-lemur-1973
 #FLUX: -c=2
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 FEATURE_MANIFEST_ROOT=/disk/nfs/ostrom/s2324992/data/yoruba/feature_manifest

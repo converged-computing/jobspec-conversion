@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=bowtie2-index
+#FLUX: -n=40
+#FLUX: --queue=short
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module load bowtie2/2.3.4

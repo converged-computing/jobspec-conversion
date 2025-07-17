@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lizard-9714
+#FLUX: --job-name=bloated-kitty-8739
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

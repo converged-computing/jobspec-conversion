@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cl_test
+#FLUX: --queue=boost_usr_prod
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

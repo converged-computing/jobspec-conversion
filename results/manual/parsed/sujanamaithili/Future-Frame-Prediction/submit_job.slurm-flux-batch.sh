@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lemur-2551
+#FLUX: --job-name=moolicious-citrus-7723
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=n1s8-v100-1

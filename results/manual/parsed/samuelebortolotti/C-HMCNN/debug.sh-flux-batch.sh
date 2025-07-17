@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-buttface-7987
+#FLUX: --job-name=expensive-fudge-7180
+#FLUX: --queue=chaos
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 usage() {

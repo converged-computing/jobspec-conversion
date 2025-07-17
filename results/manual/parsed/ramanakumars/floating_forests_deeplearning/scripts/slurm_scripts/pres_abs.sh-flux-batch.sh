@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=pres_abs_resnet50_ff_image_mod
+#FLUX: -n=10
 #FLUX: -t=1245600
 #FLUX: --urgency=16
 

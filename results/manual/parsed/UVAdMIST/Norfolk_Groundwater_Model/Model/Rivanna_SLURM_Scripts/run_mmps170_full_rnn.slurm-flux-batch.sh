@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-diablo-5546
+#FLUX: --job-name=dinosaur-poodle-4110
+#FLUX: --queue=gpu
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module purge

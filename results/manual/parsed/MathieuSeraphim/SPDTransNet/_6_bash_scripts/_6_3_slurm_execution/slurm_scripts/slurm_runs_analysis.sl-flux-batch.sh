@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-bike-9232
+#FLUX: --job-name=runs_analysis
 #FLUX: -c=8
 #FLUX: -t=72000
 #FLUX: --urgency=16

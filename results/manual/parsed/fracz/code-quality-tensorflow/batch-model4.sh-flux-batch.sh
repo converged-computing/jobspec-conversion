@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-latke-3212
+#FLUX: --job-name=nerdy-malarkey-0509
+#FLUX: --queue=plgrid-gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

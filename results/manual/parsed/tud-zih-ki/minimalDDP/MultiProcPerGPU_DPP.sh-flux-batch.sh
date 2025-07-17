@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-fork-5063
+#FLUX: --job-name=TestDDP_GPUBind_MPIDatloader
+#FLUX: -N=3
 #FLUX: -c=2
+#FLUX: --queue=alpha,alpha-interactive
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

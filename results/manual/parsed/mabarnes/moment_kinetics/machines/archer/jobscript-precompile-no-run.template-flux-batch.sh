@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-peas-6589
+#FLUX: --job-name=expensive-cupcake-2579
 #FLUX: -n=16
 #FLUX: --queue=serial
 #FLUX: -t=3600

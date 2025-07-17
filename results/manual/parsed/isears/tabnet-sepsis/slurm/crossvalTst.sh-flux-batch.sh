@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-chair-2137
+#FLUX: --job-name=anxious-parrot-9019
 #FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

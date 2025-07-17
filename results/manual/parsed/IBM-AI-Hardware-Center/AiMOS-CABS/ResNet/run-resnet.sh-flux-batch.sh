@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-plant-8560
+#FLUX: --job-name=pytorch_resnet
 #FLUX: -N=16
 #FLUX: -t=21600
 #FLUX: --urgency=16

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-general-1210
+#FLUX: --job-name=AIHaplotypes
+#FLUX: --queue=general
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 module load python/3.6.6

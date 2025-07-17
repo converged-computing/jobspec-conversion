@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-bike-1644
+#FLUX: --job-name=astute-fudge-6031
 #FLUX: -n=4
 #FLUX: --queue=small
 #FLUX: -t=600

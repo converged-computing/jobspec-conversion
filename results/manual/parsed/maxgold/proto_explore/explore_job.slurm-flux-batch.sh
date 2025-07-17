@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=job_wgpu
+#FLUX: -t=87839
 #FLUX: --urgency=16
 
 declare -a METHODS=("icm" "proto" "diayn" "icm_apt" "ind_apt" "aps" "smm" "rnd" "disagreement")

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-kitty-0458
+#FLUX: --job-name=chocolate-plant-1986
+#FLUX: -n=24
+#FLUX: --queue=huce_cascade
+#FLUX: -t=10
 #FLUX: --urgency=16
 
 log="gchp.log"

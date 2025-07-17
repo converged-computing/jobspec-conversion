@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lizard-4805
+#FLUX: --job-name=conspicuous-house-1257
 #FLUX: -c=2
 #FLUX: --queue=hgx
 #FLUX: -t=600

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-latke-7613
+#FLUX: --job-name=lerdl-ss-cifar10-train.rn50.all
+#FLUX: --queue=sequana_gpu_shared
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

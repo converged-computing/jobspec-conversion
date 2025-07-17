@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=GradDist
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 SUBJECT_LIST=./results/CleanSujects4Dist.txt

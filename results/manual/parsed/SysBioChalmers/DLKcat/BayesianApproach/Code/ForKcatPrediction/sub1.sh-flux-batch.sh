@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-blackbean-5400
+#FLUX: --job-name=cowy-staircase-1144
+#FLUX: -n=2
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load GCCcore/8.3.0

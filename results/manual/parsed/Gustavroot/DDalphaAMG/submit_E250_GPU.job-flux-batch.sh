@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-car-2594
+#FLUX: --job-name=expressive-pedo-5716
 #FLUX: -N=36
 #FLUX: -c=12
 #FLUX: --queue=booster

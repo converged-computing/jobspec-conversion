@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-egg-4081
+#FLUX: --job-name=confused-carrot-6457
 #FLUX: --queue=booster
 #FLUX: -t=86400
 #FLUX: --urgency=16

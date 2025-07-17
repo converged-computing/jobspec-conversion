@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-general-7079
+#FLUX: --job-name=loopy-lettuce-3623
+#FLUX: -t=172815
 #FLUX: --urgency=16
 
 module load r/3.4.0

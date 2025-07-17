@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-leopard-1647
+#FLUX: --job-name=pytorch-bm-knl
+#FLUX: --queue=regular
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='68'

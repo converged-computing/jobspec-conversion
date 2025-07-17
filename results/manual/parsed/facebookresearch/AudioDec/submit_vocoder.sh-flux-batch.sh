@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=vctk_AD_v0
+#FLUX: -c=16
+#FLUX: --queue=xxx
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 autoencoder=autoencoder/symAD_vctk_48000_hop300

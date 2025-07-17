@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-leopard-6594
+#FLUX: --job-name=LCO.bulk.ifn.occ.pcm_bulk
+#FLUX: -n=16
+#FLUX: --queue=AMG-medium
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export PATH='$PATH:/home/a.boev/tools/'

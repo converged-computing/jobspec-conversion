@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cupcake-2541
+#FLUX: --job-name=tart-pedo-6154
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400

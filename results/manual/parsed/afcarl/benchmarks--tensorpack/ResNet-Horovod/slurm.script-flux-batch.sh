@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-platanos-1838
+#FLUX: --job-name=evasive-cat-5693
 #FLUX: -c=10
 #FLUX: --urgency=16
 

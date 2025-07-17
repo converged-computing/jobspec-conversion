@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-arm-5835
+#FLUX: --job-name=aquila
+#FLUX: -N=16
 #FLUX: -c=8
 #FLUX: --exclusive
+#FLUX: --queue=xahdnormal
 #FLUX: --urgency=16
 
 echo "START TIME: $(date)"

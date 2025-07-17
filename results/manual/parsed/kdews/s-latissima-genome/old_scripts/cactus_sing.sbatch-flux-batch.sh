@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-staircase-1179
+#FLUX: --job-name=cactus_sing
 #FLUX: -c=10
+#FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

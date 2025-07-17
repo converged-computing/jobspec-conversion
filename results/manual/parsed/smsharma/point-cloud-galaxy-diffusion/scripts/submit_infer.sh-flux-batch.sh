@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=train
+#FLUX: --queue=iaifi_gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

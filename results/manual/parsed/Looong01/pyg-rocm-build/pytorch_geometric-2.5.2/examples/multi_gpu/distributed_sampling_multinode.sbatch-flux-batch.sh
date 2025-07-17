@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=pyg-multinode-tutorial
+#FLUX: -N=2
 #FLUX: -n=4
 #FLUX: -c=8
 #FLUX: --gpus-per-task=1

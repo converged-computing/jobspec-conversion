@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-parrot-3341
+#FLUX: --job-name=anxious-signal-3960
+#FLUX: -N=10
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 module load anaconda

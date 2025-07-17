@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-nalgas-6500
+#FLUX: --job-name=reclusive-fudge-3483
+#FLUX: --queue=jic-short,RG-Cristobal-Uauy
 #FLUX: --urgency=16
 
 CHR_NAME="2B"

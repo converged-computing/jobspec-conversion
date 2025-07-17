@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-sundae-3166
+#FLUX: --job-name=stage_1
+#FLUX: -N=128
+#FLUX: --queue=regular
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/psii/$SLURM_JOB_ID'

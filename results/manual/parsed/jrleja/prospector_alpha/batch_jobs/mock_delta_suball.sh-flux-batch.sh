@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-itch-4893
+#FLUX: --job-name=mock_delta
+#FLUX: --queue=conroy-intel,shared,itc_cluster
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 srun -n 1 --mpi=pmi2 python $APPS/prospector/scripts/prospector_dynesty.py \

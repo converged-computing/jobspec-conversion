@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=stream_benchmark
+#FLUX: -t=50400
 #FLUX: --urgency=16
 
 module purge

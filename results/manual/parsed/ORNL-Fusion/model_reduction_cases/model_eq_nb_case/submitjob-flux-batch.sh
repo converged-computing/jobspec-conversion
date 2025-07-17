@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-onion-8859
+#FLUX: --job-name=ips_fastran
 #FLUX: -N=10
+#FLUX: --queue=regular
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load gcc

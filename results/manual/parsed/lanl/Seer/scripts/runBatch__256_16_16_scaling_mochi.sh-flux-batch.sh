@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-underoos-1519
+#FLUX: --job-name=anxious-rabbit-2472
+#FLUX: -N=16
+#FLUX: --queue=scaling
 #FLUX: --urgency=16
 
 export MPIP='-t 10.0'

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=b0d135
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export SINGULARITY_NV='1'

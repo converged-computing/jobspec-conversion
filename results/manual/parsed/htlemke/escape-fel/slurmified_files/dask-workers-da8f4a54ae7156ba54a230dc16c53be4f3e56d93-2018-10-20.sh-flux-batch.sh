@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-ricecake-0124
+#FLUX: --job-name=dask-workers-da8f4a54ae7156ba54a230dc16c53be4f3e56d93-2018-10-20
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

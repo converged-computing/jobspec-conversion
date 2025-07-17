@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pancake-2020
+#FLUX: --job-name=blank-bits-8599
+#FLUX: -c=64
+#FLUX: --queue=amd
+#FLUX: -t=180000
 #FLUX: --urgency=16
 
 export OMP_STACKSIZE='100M'

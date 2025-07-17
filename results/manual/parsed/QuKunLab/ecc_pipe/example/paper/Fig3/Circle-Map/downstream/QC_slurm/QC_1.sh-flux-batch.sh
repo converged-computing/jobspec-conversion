@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-banana-9170
+#FLUX: --job-name=QC_1
+#FLUX: -N=2
+#FLUX: -n=80
+#FLUX: --queue=CPU-Small
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

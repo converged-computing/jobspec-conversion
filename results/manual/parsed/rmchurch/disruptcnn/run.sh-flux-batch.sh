@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-fork-2318
+#FLUX: --job-name=dirty-arm-5725
 #FLUX: -N=4
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='0'

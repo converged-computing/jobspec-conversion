@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-parrot-4239
+#FLUX: --job-name=spicy-buttface-5847
+#FLUX: -n=16
+#FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

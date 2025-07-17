@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-poo-7449
+#FLUX: --job-name=moolicious-leg-9684
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

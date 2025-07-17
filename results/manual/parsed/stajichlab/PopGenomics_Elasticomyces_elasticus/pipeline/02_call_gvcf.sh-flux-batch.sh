@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-taco-1650
+#FLUX: --job-name=milky-lentil-1468
+#FLUX: -n=16
+#FLUX: --queue=intel
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

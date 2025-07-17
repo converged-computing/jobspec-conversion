@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-poodle-5576
+#FLUX: --job-name=${JOB_NAME}_${chunk_start}_${chunk_end}
+#FLUX: -n=32
 #FLUX: --queue=cmain
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module purge

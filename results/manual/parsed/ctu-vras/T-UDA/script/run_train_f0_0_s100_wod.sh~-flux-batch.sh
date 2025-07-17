@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-truffle-3498
+#FLUX: --job-name=arid-buttface-8860
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bits-4433
+#FLUX: --job-name=TAMMBER_vac_test
 #FLUX: -N=10
 #FLUX: --exclusive
 #FLUX: -t=900

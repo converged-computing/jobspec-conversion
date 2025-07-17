@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-noodle-8747
+#FLUX: --job-name=Singularity_Jupyter_parallel_cuda
+#FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

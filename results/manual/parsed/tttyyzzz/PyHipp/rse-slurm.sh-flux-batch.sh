@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-peanut-butter-2927
+#FLUX: --job-name=rse
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

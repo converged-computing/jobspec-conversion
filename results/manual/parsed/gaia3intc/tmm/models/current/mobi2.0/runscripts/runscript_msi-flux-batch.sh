@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-carrot-4709
+#FLUX: --job-name=faux-snack-2882
 #FLUX: -N=2
+#FLUX: --queue=small
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

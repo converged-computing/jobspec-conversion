@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-eagle-5029
+#FLUX: --job-name=hello-signal-9270
+#FLUX: -c=10
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export SOFTPATH='/share/software/user/open'

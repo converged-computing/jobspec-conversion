@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lizard-8926
+#FLUX: --job-name=param_recov_postprocess
+#FLUX: -c=4
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

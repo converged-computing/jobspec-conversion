@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-punk-9350
+#FLUX: --job-name=cpujob
 #FLUX: -n=12
+#FLUX: --queue=skylake
 #FLUX: -t=15720
 #FLUX: --urgency=16
 

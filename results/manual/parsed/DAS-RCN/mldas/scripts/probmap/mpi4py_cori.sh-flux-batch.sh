@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-butter-2276
+#FLUX: --job-name=prob-multiproc
+#FLUX: -N=3
+#FLUX: --queue=regular
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 module load pytorch/v1.6.0

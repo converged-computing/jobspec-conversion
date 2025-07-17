@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-bicycle-0891
+#FLUX: --job-name=ornery-onion-9856
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared_course
 #FLUX: -t=36000

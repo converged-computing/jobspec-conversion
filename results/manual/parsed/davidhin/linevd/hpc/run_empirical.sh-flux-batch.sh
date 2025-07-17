@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=empan
+#FLUX: -n=6
+#FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

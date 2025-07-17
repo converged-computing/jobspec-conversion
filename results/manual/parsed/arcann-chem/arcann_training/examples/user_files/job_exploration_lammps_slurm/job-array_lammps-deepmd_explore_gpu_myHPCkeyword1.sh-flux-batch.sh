@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bits-2325
+#FLUX: --job-name=LAMMPS_DeepMD
 #FLUX: -c=10
 #FLUX: --queue=_R_PARTITION_
 #FLUX: --urgency=16
@@ -20,25 +20,22 @@ LAMMPS_OUT_FILE=${LAMMPS_IN_FILE/.in/.out}
 EXTRA_FILES=()
 EXTRA_FILES+=("${array_param[4]}")
 if [ -n "${array_param[5]}" ]; then
-    EXTRA_FILES+=("${array_param[5]}")
+EXTRA_FILES+=("${array_param[5]}")
 fi
 if [ -n "${array_param[6]}" ]; then
-    IFS='" "' read -r -a PLUMED_FILES <<< "${array_param[6]}"
-    EXTRA_FILES+=("${PLUMED_FILES[@]}")
+IFS='" "' read -r -a PLUMED_FILES <<< "${array_param[6]}"
+EXTRA_FILES+=("${PLUMED_FILES[@]}")
 fi
 cd "${SLURM_SUBMIT_DIR}/${JOB_PATH}" || { echo "Could not go to ${SLURM_SUBMIT_DIR}. Aborting..."; exit 1; }
 [ -f "${LAMMPS_IN_FILE}" ] || { echo "${LAMMPS_IN_FILE} does not exist. Aborting..."; exit 1; }
 if [ "${DeepMD_MODEL_VERSION}" == "2.2" ]; then
-    # Load the DeepMD module
-    module load DeepMD-kit
+module load DeepMD-kit
 elif [ "${DeepMD_MODEL_VERSION}" == "2.1" ]; then
-    # Load the DeepMD module
-    module load "DeepMD-kit/${DeepMD_MODEL_VERSION}"
+module load "DeepMD-kit/${DeepMD_MODEL_VERSION}"
 else
-    echo "DeepMD version ${DeepMD_MODEL_VERSION} is not available. Aborting..."
-    exit 1
+echo "DeepMD version ${DeepMD_MODEL_VERSION} is not available. Aborting..."
+exit 1
 fi
-export TEMPWORKDIR=${SCRATCH}/JOB-${SLURM_JOBID}
 mkdir -p "${TEMPWORKDIR}"
 ln -s "${TEMPWORKDIR}" "${SLURM_SUBMIT_DIR}/${JOB_PATH}/JOB-${SLURM_JOBID}"
 cp "${LAMMPS_IN_FILE}" "${TEMPWORKDIR}" && echo "${LAMMPS_IN_FILE} copied successfully"

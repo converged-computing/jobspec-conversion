@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=run_kallisto
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 source /cluster/home/sjahangi/.bashrc

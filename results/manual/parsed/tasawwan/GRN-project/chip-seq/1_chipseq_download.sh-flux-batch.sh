@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-chair-3872
+#FLUX: --job-name=download_files
+#FLUX: -c=2
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 mkdir chipseq_data

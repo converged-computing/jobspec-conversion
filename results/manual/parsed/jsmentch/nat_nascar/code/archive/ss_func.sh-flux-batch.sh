@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-house-9391
+#FLUX: --job-name=func
 #FLUX: -c=16
 #FLUX: -t=172800
 #FLUX: --urgency=16

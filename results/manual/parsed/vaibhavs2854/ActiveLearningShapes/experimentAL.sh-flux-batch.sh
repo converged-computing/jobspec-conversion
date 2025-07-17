@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-pot-0288
+#FLUX: --job-name=stanky-bicycle-3537
+#FLUX: --queue=compsci-gpu
 #FLUX: -t=864000
 #FLUX: --urgency=16
 

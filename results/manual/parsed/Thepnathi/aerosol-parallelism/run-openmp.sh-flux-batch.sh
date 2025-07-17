@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-pancake-6526
+#FLUX: --job-name=muffled-blackbean-3809
+#FLUX: --queue=course
 #FLUX: --urgency=16
 
 module load compilers/intel/2019u5 

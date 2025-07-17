@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-egg-1537
+#FLUX: --job-name=sms_call
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=7200

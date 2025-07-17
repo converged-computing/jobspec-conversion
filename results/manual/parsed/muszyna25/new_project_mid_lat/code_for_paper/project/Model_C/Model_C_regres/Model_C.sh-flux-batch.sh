@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pastry-8955
+#FLUX: --job-name=hairy-cat-8131
+#FLUX: -N=5
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 set -u

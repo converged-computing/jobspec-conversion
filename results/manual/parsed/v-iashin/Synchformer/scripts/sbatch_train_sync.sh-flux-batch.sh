@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lamp-6501
+#FLUX: --job-name=misunderstood-chip-6317
 #FLUX: --urgency=16
 
 export MASTER_PORT='$MASTER_PORT'

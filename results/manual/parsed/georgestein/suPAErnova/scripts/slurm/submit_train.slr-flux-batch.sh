@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-spoon-1900
+#FLUX: --job-name=strawberry-onion-2321
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: -t=14400

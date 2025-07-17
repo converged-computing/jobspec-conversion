@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=CNVkit_plot
+#FLUX: -c=15
 #FLUX: --queue=main
 #FLUX: -t=172800
 #FLUX: --urgency=16

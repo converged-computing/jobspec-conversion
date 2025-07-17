@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-motorcycle-0253
+#FLUX: --job-name=fugly-despacito-9506
 #FLUX: -n=24
+#FLUX: --queue=intel
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

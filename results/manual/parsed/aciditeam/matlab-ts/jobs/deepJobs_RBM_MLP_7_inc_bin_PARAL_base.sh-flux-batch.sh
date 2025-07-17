@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pot-6011
+#FLUX: --job-name=Deep-RBM_MLP_7_inc_bin_PARAL_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

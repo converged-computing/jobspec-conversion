@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-leader-9405
+#FLUX: --job-name=LvO2@Qgp
+#FLUX: -n=8
+#FLUX: --queue=short
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 export WIEN2k='/lustre/home/ilias/work/qch/software/wien2k/WIEN2k_23.2_gnu_openmpi_openblas'

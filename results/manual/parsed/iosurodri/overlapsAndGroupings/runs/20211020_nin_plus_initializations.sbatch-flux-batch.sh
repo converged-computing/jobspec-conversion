@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-earthworm-8550
+#FLUX: --job-name=nerdy-bicycle-2882
 #FLUX: --queue=power_std
 #FLUX: --urgency=16
 

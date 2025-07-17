@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-staircase-5345
+#FLUX: --job-name=E3_TRAIN_GPU_TEST
 #FLUX: -c=4
 #FLUX: -t=14400
 #FLUX: --urgency=16

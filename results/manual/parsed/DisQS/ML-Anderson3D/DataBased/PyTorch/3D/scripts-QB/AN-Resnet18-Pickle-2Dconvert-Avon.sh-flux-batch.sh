@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-squidward-5716
+#FLUX: --job-name=milky-leg-8091
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=172800

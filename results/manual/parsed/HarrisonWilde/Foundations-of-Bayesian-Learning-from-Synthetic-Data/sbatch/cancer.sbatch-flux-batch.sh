@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-fork-8049
+#FLUX: --job-name=tart-peas-0700
 #FLUX: -N=11
 #FLUX: -t=172800
 #FLUX: --urgency=16

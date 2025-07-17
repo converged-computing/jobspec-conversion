@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-parrot-9481
+#FLUX: --job-name=stanky-banana-5975
 #FLUX: -c=7
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load cudatoolkit/10.0

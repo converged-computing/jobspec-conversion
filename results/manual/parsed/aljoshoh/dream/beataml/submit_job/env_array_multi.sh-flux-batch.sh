@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-knife-1552
+#FLUX: --job-name=arrayscript
+#FLUX: --queue=icb_cpu
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 BASEDIR=$1

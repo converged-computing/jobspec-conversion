@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sym
 #FLUX: -c=40
+#FLUX: -t=82800
 #FLUX: --urgency=16
 
 export MKLROOT='/scinet/intel/2019u3/compilers_and_libraries_2019/linux/mkl'

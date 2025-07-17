@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-itch-8232
+#FLUX: --job-name=sc05_Nemision_table.sh
+#FLUX: -c=3
+#FLUX: --queue=day
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export DIR='/gpfs/loomis/project/fas/sbsc/ga254/dataproces/NITRO'

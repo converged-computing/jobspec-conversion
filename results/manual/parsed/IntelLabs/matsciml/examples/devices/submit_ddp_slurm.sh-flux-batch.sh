@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-knife-8214
+#FLUX: --job-name=bricky-pancake-5458
 #FLUX: --exclusive
 #FLUX: --queue=pvc
+#FLUX: -t=9000
 #FLUX: --urgency=16
 
 export CCL_ZE_IPC_EXCHANGE='sockets'

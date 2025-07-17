@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-gato-4762
+#FLUX: --job-name=arid-plant-3533
+#FLUX: --queue=gpu2
 #FLUX: -t=32400
 #FLUX: --urgency=16
 

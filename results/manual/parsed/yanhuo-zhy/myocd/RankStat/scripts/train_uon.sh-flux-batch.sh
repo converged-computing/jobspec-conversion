@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pot-1316
+#FLUX: --job-name=boopy-leader-7317
+#FLUX: -c=5
+#FLUX: --queue=amp20
 #FLUX: --urgency=16
 
 module load gcc/gcc-10.2.0

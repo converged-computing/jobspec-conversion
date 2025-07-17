@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=mlperf-hpc-openfold
+#FLUX: -N=32
 #FLUX: -c=32
+#FLUX: --queue=gpu-a100
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-fudge-3093
+#FLUX: --job-name=cowy-cinnamonbun-0887
 #FLUX: --urgency=16
 
 cpu=2

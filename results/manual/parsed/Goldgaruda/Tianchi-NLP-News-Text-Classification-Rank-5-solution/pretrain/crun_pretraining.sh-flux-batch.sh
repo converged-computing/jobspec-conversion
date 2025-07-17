@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-despacito-0682
+#FLUX: --job-name=crunchy-lemon-8933
+#FLUX: -n=14
+#FLUX: --queue=nvidia
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge

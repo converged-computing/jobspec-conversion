@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cat-6298
+#FLUX: --job-name=phat-platanos-1217
+#FLUX: --queue=sched_mit_sloan_batch
 #FLUX: -t=900
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pedo-6739
+#FLUX: --job-name=VLPDNAseq_floral_t2t-col.20210610
+#FLUX: --queue=skylake
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

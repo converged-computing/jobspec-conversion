@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lettuce-1873
+#FLUX: --job-name=stanky-parsnip-9712
+#FLUX: -c=64
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export PATH='/global/common/software/m2865/bella-proj/g0-bin:$PATH'

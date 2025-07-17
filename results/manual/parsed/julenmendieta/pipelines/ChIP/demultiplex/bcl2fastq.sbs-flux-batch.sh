@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bcl2fastq
 #FLUX: -c=12
+#FLUX: --queue=short
 #FLUX: -t=25200
 #FLUX: --urgency=16
 

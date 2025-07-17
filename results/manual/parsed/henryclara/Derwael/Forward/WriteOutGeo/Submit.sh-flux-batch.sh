@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-taco-5174
+#FLUX: --job-name=WriteOut
 #FLUX: -n=100
 #FLUX: --queue=compute
 #FLUX: -t=300

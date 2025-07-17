@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-despacito-5606
+#FLUX: --job-name=petscinstall
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 export PATH='$PATH:.'

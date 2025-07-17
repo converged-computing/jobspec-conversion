@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-carrot-1469
+#FLUX: --job-name=bumfuzzled-lentil-9819
 #FLUX: -c=5
+#FLUX: --queue=astro
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

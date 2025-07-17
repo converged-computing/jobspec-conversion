@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-muffin-8523
+#FLUX: --job-name=baby-lm
+#FLUX: --queue=ampere
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

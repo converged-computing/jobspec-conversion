@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-leg-1798
+#FLUX: --job-name=milky-signal-3189
+#FLUX: --queue=gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module purge

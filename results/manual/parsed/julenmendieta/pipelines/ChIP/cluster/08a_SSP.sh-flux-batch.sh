@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=SSP
 #FLUX: -c=8
+#FLUX: --queue=short
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

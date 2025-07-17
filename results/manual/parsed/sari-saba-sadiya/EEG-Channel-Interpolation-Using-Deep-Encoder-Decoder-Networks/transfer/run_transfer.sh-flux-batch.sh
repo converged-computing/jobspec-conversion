@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-truffle-4477
+#FLUX: --job-name=placid-caramel-6009
 #FLUX: --exclusive
 #FLUX: --queue=sched_mit_rgmark
 #FLUX: -t=345600

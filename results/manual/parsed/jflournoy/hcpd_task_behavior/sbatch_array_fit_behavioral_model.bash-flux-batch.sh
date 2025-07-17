@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-car-5675
+#FLUX: --job-name=fugly-platanos-0876
+#FLUX: -c=48
+#FLUX: --queue=fasse
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 chains=(1 2 3 4)

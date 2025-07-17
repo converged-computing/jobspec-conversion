@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-punk-7733
+#FLUX: --job-name=chong_data_analysis
+#FLUX: -c=12
+#FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

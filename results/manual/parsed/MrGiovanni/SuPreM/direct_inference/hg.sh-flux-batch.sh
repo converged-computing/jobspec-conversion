@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=inference
+#FLUX: -n=6
+#FLUX: --queue=public
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 module load mamba/latest # only for Sol

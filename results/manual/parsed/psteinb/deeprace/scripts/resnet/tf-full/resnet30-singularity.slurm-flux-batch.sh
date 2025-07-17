@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-pedo-9357
+#FLUX: --job-name=gassy-leader-2343
+#FLUX: --queue=gpu2
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

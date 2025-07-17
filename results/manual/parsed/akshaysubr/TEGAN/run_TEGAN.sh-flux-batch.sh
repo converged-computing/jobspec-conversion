@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=TEGAN
+#FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

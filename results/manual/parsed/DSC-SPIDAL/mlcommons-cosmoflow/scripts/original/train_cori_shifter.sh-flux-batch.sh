@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-salad-3691
+#FLUX: --job-name=train-cori
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load singularity tensorflow/2.8.0

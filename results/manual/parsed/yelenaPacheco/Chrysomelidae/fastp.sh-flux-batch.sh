@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-bits-1100
+#FLUX: --job-name=fastp
+#FLUX: -n=8
+#FLUX: --queue=short
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 if [ ! -d trimmed_reads ]

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=dog_gaussian_reward
+#FLUX: -n=16
 #FLUX: -t=57600
 #FLUX: --urgency=16
 

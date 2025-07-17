@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-gato-9241
+#FLUX: --job-name=fwbw-amp
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_PLACES='threads'

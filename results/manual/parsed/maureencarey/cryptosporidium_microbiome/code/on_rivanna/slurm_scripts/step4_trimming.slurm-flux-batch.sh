@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chip-0937
+#FLUX: --job-name=muffled-lemon-5516
 #FLUX: --queue=standard
 #FLUX: -t=86400
 #FLUX: --urgency=16

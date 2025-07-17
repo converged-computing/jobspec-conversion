@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-puppy-4369
+#FLUX: --job-name=rand-quant-nofetch
 #FLUX: --exclusive
+#FLUX: -t=57600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='32'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-toaster-2586
+#FLUX: --job-name=train_script
+#FLUX: --queue=gpu1
 #FLUX: --urgency=16
 
 echo "Submitted from:"$SLURM_SUBMIT_DIR" on node:"$SLURM_SUBMIT_HOST

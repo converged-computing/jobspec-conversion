@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parrot-7309
+#FLUX: --job-name=gassy-soup-0339
+#FLUX: -c=24
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=360
 #FLUX: --urgency=16
 
 itRoot=$(cd ..; pwd)

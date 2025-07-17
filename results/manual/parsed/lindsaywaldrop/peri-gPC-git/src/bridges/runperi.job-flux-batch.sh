@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-motorcycle-4227
+#FLUX: --job-name=salted-lentil-9206
+#FLUX: --queue=RM-shared
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 set -x 

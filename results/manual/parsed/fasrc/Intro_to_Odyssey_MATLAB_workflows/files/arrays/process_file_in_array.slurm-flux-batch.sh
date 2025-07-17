@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-peanut-2448
+#FLUX: --job-name=process_file_in_array
+#FLUX: --queue=serial_requeue
+#FLUX: -t=15
 #FLUX: --urgency=16
 
 source new-modules.sh

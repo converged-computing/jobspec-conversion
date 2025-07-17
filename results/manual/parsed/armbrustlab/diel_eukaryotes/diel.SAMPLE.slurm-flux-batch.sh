@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-pot-5632
+#FLUX: --job-name=peachy-chair-5459
+#FLUX: --queue=LM
+#FLUX: -t=518400
 #FLUX: --urgency=16
 
 module load gcc/5.3.0

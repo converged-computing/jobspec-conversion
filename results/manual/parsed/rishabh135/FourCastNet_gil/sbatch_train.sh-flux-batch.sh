@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-diablo-9895
+#FLUX: --job-name=fourcast_train_job
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

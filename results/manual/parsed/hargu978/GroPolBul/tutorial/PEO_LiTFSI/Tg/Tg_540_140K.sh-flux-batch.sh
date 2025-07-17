@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-nunchucks-8615
+#FLUX: --job-name=tg
+#FLUX: --queue=shared
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

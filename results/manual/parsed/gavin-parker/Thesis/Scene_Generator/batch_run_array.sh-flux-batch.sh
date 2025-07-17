@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-salad-2203
+#FLUX: --job-name=render_data
 #FLUX: -c=28
+#FLUX: -t=360
 #FLUX: --urgency=16
 
 export PATH='$PATH:/mnt/storage/scratch/gp14958/blender-2.79-linux-glibc219-x86_64/'

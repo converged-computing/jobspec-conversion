@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-truffle-5226
+#FLUX: --job-name=hairy-motorcycle-5972
+#FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 
 source activate dac

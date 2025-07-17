@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=reddit
+#FLUX: -c=12
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

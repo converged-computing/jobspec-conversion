@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-toaster-1108
+#FLUX: --job-name=doopy-peanut-3306
+#FLUX: --queue=konings,owners
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

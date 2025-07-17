@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-itch-9462
+#FLUX: --job-name=cosmomc
 #FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

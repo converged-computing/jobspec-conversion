@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lizard-7860
+#FLUX: --job-name=slurm-script-test
+#FLUX: --queue=ampere
 #FLUX: -t=60
 #FLUX: --urgency=16
 

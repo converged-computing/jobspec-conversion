@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lentil-7311
+#FLUX: --job-name=mymat
+#FLUX: --queue=development
+#FLUX: -t=2100
 #FLUX: --urgency=16
 
 export INTEL_LICENSE_FILE='/home1/02687/binren/intel/licenses/intel.current.20170224.lic'

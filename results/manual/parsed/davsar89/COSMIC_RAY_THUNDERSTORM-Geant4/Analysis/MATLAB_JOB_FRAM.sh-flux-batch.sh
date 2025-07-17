@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=MAKE_BDF
+#FLUX: -c=32
 #FLUX: --queue=normal
 #FLUX: -t=28800
 #FLUX: --urgency=16

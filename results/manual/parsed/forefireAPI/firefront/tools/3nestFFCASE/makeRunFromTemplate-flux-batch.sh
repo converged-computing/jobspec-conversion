@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-despacito-2090
+#FLUX: --job-name=Reanalysis
 #FLUX: -n=20
 #FLUX: --exclusive
 #FLUX: --queue=intel

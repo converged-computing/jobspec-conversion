@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-banana-9687
+#FLUX: --job-name=openmm
+#FLUX: --queue=batch
 #FLUX: --urgency=16
 
 . /hpc/mp/spack/opt/spack/linux-ubuntu20.04-zen2/gcc-10.3.0/\

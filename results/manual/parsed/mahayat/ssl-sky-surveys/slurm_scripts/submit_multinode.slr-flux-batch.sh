@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pedo-3271
+#FLUX: --job-name=evasive-earthworm-2472
 #FLUX: -N=2
 #FLUX: -c=80
 #FLUX: --gpus-per-task=8

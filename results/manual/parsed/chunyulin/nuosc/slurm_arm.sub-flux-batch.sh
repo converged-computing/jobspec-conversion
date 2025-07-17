@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-diablo-1956
+#FLUX: --job-name=nuosc_12D
 #FLUX: -c=252
 #FLUX: --urgency=16
 

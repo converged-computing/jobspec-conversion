@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lamp-4512
+#FLUX: --job-name=misunderstood-caramel-5729
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3'

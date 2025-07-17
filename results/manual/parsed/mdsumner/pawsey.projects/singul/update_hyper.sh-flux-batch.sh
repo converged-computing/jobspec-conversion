@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-punk-2840
+#FLUX: --job-name=stinky-taco-1258
 #FLUX: -c=2
 #FLUX: --queue=copy
 #FLUX: -t=3600

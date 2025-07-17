@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-leopard-3789
+#FLUX: --job-name=fat-blackbean-4464
+#FLUX: --queue=gpu20
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export HF_DATASETS_CACHE='/sdb/zke4/dataset_cache'

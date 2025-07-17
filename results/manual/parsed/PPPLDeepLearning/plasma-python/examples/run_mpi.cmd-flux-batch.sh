@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-fudge-6232
+#FLUX: --job-name=angry-despacito-8091
+#FLUX: -N=25
+#FLUX: -c=4
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load anaconda

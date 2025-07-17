@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-diablo-8355
+#FLUX: --job-name=blank-egg-4675
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='5'

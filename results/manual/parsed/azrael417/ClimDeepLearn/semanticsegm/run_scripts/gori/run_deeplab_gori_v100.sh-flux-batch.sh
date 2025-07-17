@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-diablo-6310
+#FLUX: --job-name=climseg_horovod
 #FLUX: --exclusive
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$(( 40 / ${rankspernode} ))'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-nalgas-6300
+#FLUX: --job-name=mask2former-livecell-1C
+#FLUX: --queue=tier3
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

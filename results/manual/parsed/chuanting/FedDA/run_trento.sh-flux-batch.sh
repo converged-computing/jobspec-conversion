@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-malarkey-1404
+#FLUX: --job-name=epoch
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=7200

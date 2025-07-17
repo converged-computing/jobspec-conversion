@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-banana-6273
+#FLUX: --job-name=anxious-gato-6369
+#FLUX: --queue=GPU-shared
+#FLUX: -t=131400
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1'

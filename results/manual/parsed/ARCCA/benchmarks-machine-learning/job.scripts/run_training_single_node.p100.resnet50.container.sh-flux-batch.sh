@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-kerfuffle-0447
+#FLUX: --job-name=resnet50.amp.p100.container
+#FLUX: -n=8
+#FLUX: --queue=gpu
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 set -eu

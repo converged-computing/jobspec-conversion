@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-peas-7226
+#FLUX: --job-name=IOR_Benchmark
 #FLUX: -n=16
 #FLUX: -t=2400
 #FLUX: --urgency=16

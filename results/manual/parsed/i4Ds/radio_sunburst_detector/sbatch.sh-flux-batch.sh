@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-fork-3521
+#FLUX: --job-name=adorable-cherry-3040
 #FLUX: --queue=top6
 #FLUX: -t=36000
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cinnamonbun-7712
+#FLUX: --job-name=boopy-lemon-8980
 #FLUX: -N=4
 #FLUX: --queue=nvgpu
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-staircase-3804
+#FLUX: --job-name=gloopy-bits-3452
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400

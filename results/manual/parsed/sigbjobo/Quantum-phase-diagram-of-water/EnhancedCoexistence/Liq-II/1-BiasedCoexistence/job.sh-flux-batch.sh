@@ -3,6 +3,7 @@
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpuA100x4
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PLUMED_NUM_THREADS='16'

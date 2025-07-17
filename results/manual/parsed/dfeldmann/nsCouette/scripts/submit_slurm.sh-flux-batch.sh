@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-itch-0801
+#FLUX: --job-name=ns_SMALL-0032-12
+#FLUX: -N=16
+#FLUX: --queue=test
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='12'

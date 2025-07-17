@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-banana-6085
+#FLUX: --job-name=pusheena-egg-3066
 #FLUX: -N=2
 #FLUX: -c=120
+#FLUX: --queue=gpu
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

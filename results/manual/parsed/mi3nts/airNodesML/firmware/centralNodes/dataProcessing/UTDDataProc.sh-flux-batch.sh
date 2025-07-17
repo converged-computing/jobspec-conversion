@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-leader-5211
+#FLUX: --job-name=utdNodesDataProcessing
+#FLUX: -n=16
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 echo Running calibration scripts for UTD Node: "$SLURM_ARRAY_TASK_ID"

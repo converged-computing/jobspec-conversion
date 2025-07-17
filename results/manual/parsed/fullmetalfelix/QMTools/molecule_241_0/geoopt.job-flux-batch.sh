@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leopard-8081
+#FLUX: --job-name=go_13
 #FLUX: -c=10
+#FLUX: --queue=batch
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'

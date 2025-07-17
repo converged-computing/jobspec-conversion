@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=glidein
+#FLUX: --queue=GPU-shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 printenv

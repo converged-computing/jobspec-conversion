@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-peas-6052
+#FLUX: --job-name=hello-lamp-7280
 #FLUX: --queue=devel
 #FLUX: -t=900
 #FLUX: --urgency=16

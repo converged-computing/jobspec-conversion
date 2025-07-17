@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-bicycle-6541
+#FLUX: --job-name=conspicuous-motorcycle-7215
 #FLUX: -c=20
 #FLUX: --queue=xeon-g6-volta
+#FLUX: -t=2880
 #FLUX: --urgency=16
 
 export TOTAL_GPUS='${SLURM_NTASKS}'

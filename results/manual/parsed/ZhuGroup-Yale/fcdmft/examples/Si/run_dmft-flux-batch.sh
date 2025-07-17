@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-salad-5810
+#FLUX: --job-name=blue-parsnip-5156
+#FLUX: -N=4
 #FLUX: -c=7
 #FLUX: --queue=smallmem,serial,parallel
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 srun hostname

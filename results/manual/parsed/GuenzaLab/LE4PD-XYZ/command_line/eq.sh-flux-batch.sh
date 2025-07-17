@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=eq
+#FLUX: -n=4
+#FLUX: --queue=compute
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 BD=`cat BD.txt`

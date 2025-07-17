@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-train-4772
+#FLUX: --job-name=Swa_Net2_Prune
+#FLUX: -t=71940
 #FLUX: --urgency=16
 
 cd $(ws_find lth_ws)

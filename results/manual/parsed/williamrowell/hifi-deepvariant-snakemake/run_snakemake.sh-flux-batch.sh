@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-butter-2442
+#FLUX: --job-name=spicy-toaster-7997
 #FLUX: -c=4
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 umask 002

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-frito-5660
+#FLUX: --job-name=cesar_AI
+#FLUX: -c=8
+#FLUX: --queue=investigacion
 #FLUX: --urgency=16
 
 export PATH='/usr/local/cuda-11.4/targets/x86_64-linux/lib:$PATH'

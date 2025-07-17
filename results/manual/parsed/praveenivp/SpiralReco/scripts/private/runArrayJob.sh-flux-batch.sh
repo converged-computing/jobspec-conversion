@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pedo-7234
+#FLUX: --job-name=SpiralReco
 #FLUX: -c=16
 #FLUX: --exclusive
 #FLUX: --queue=compute

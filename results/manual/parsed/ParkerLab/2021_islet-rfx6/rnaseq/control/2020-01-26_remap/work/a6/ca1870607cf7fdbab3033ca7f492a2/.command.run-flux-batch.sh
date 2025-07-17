@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-leopard-2769
+#FLUX: --job-name=nf-bam_to_fastq_(54)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

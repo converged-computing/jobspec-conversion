@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=benchmark
+#FLUX: -c=8
 #FLUX: -t=12600
 #FLUX: --urgency=16
 

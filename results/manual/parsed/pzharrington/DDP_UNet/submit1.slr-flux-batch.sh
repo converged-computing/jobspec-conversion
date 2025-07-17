@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cupcake-2823
+#FLUX: --job-name=single
+#FLUX: -c=80
 #FLUX: --exclusive
 #FLUX: -t=14400
 #FLUX: --urgency=16

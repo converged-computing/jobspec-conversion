@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-avocado-2305
+#FLUX: --job-name=SDP2
+#FLUX: --queue=serial_requeue
+#FLUX: -t=1440
 #FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/apps/R:$R_LIBS_USER'

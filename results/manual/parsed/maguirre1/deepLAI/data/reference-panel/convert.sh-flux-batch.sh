@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-punk-7115
+#FLUX: --job-name=convert
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 in_vcf="/scratch/users/magu/deepmix/data/vcf/expanded_ref_panel.vcf.gz"

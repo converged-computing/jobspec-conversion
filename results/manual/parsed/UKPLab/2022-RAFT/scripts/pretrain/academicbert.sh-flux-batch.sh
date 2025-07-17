@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-soup-5347
+#FLUX: --job-name=original
 #FLUX: --urgency=16
 
 export CXX='g++'

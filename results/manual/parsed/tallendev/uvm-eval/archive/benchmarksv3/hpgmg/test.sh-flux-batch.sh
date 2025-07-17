@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-parrot-0776
+#FLUX: --job-name=hpgmg-quant
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-chip-9486
+#FLUX: --job-name=prometeo
 #FLUX: --urgency=16
 
 if [[ "$QUEUE" == "compute" ]]; then

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-kerfuffle-8932
+#FLUX: --job-name=runpacs_array
+#FLUX: --queue=gpu_requeue
+#FLUX: -t=8640
 #FLUX: --urgency=16
 
 module load Anaconda3/5.0.1-fasrc01

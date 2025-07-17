@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-buttface-9835
+#FLUX: --job-name=rot
+#FLUX: -n=48
+#FLUX: --queue=skx-normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

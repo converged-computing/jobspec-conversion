@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-kerfuffle-2771
+#FLUX: --job-name=molecule
+#FLUX: --queue=amd_a100_4
 #FLUX: -t=171000
 #FLUX: --urgency=16
 

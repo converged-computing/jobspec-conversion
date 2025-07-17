@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-noodle-4086
+#FLUX: --job-name=astute-blackbean-8299
+#FLUX: -n=4
+#FLUX: -c=10
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'

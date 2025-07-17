@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-animal-5568
+#FLUX: --job-name=expensive-peas-5541
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR   # optional, since this is the default behavior

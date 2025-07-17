@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-malarkey-2058
+#FLUX: --job-name=jobname
+#FLUX: -n=20
+#FLUX: --queue=hebbe
+#FLUX: -t=15000
 #FLUX: --urgency=16
 
 export GPAW_SETUP_PATH='$GPAW_SETUP_PATH:./'

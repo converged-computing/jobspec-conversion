@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-earthworm-6650
+#FLUX: --job-name=EQ_TEMPLATE
+#FLUX: -N=3
+#FLUX: -n=96
 #FLUX: --queue=cmain
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module purge

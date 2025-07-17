@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-rabbit-8160
+#FLUX: --job-name=confused-pot-4642
+#FLUX: --queue=bosch_gpu-rtx2080
 #FLUX: --urgency=16
 
 source activate tensorflow-stable

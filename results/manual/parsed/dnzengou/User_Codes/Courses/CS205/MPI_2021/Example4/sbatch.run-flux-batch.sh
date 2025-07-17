@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-arm-1266
+#FLUX: --job-name=mmult
+#FLUX: -n=4
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 PRO=mmult

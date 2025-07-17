@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-hippo-5298
+#FLUX: --job-name=raytune
+#FLUX: -N=2
 #FLUX: -c=64
 #FLUX: --gpus-per-task=4
+#FLUX: --queue=gpu
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

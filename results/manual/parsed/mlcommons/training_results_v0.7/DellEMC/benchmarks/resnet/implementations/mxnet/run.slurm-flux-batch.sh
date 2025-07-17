@@ -1,6 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=image_classification
+#FLUX: -n=4
 #FLUX: --exclusive
+#FLUX: --queue=dedicateq
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 set -euxo pipefail

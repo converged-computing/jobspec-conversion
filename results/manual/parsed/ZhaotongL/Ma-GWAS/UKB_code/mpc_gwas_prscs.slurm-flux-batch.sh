@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-squidward-6933
+#FLUX: --job-name=cowy-latke-6248
+#FLUX: --queue=ram1t,amd2tb,amd512
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

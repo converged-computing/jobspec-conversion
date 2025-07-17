@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-egg-4184
+#FLUX: --job-name=bricky-banana-2070
+#FLUX: --queue=gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module purge

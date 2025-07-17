@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-bits-6415
+#FLUX: --job-name=butterscotch-despacito-1568
 #FLUX: --queue=isi
 #FLUX: -t=36000
 #FLUX: --urgency=16

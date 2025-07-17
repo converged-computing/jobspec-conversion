@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-caramel-5639
+#FLUX: --job-name=frigid-fork-4973
 #FLUX: -c=12
 #FLUX: -t=28800
 #FLUX: --urgency=16

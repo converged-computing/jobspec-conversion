@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-earthworm-3866
+#FLUX: --job-name=resnet-ktr
 #FLUX: -c=9
 #FLUX: -t=518400
 #FLUX: --urgency=16

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-peas-7334
+#FLUX: --job-name=joyous-knife-3439
+#FLUX: --queue=gpu_shared
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 module load 2020

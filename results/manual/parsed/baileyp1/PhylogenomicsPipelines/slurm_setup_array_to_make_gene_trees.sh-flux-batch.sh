@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-chair-2977
+#FLUX: --job-name=make_gene_trees
 #FLUX: --urgency=16
 
 geneFile=$1

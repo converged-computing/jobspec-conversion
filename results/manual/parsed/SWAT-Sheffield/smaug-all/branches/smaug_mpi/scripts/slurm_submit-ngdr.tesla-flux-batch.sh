@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-animal-6599
+#FLUX: --job-name=smaug_ngdr
 #FLUX: -N=2
 #FLUX: -n=4
+#FLUX: --queue=tesla
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

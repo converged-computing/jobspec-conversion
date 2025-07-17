@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-onion-6709
+#FLUX: --job-name=expensive-car-6729
 #FLUX: -c=10
 #FLUX: --urgency=16
 

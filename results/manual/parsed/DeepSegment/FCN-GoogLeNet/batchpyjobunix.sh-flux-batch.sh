@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lizard-4997
+#FLUX: --job-name=mypyjob
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 module add cudnn/5.1-cuda-8.0

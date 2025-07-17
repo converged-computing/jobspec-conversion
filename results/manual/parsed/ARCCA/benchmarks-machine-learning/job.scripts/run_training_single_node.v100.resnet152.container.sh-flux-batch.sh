@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-peas-2660
+#FLUX: --job-name=resnet152.amp.v100.container
+#FLUX: -n=8
+#FLUX: --queue=xgpu_v100
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 set -eu

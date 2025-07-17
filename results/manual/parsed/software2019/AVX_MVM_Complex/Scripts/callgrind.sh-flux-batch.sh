@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lemon-5693
+#FLUX: --job-name=m_2501_3600
 #FLUX: --queue=test
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export I_MPI_DEBUG='5 '

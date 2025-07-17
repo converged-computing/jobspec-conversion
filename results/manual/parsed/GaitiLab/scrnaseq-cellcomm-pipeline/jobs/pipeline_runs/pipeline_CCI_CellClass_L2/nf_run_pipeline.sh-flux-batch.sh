@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lamp-4941
+#FLUX: --job-name=launch_cci_pipeline_CCI_CellClass_L2
 #FLUX: --queue=long
 #FLUX: -t=604800
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-signal-6016
+#FLUX: --job-name=milky-taco-1233
 #FLUX: -N=5
 #FLUX: --queue=devel
 #FLUX: -t=900

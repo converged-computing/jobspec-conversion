@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-sundae-2486
+#FLUX: --job-name=gassy-fudge-5316
+#FLUX: -N=2
+#FLUX: -n=96
 #FLUX: --exclusive
+#FLUX: --queue=huce_cascade
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMPI_MCL_btl='openib'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-staircase-4342
+#FLUX: --job-name=adorable-pedo-9165
+#FLUX: -n=32
+#FLUX: --queue=vera
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 source $HOME/loadenv_gpu.sh

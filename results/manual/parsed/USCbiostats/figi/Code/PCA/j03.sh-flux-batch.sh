@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-caramel-3843
+#FLUX: --job-name=psycho-motorcycle-9283
 #FLUX: --queue=conti
 #FLUX: -t=3600
 #FLUX: --urgency=16

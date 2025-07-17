@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-banana-1160
+#FLUX: --job-name=launch_bulkRNAseq_mutation_calling
 #FLUX: --queue=long
 #FLUX: -t=864000
 #FLUX: --urgency=16

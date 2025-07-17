@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lizard-6780
+#FLUX: --job-name=ranked_SACrit_BayesAnneal
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

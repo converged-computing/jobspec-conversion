@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lettuce-6586
+#FLUX: --job-name=GraNet-cifar10-80epochs
 #FLUX: -c=10
+#FLUX: --queue=short
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 source /public/data2/software/software/anaconda3/bin/activate

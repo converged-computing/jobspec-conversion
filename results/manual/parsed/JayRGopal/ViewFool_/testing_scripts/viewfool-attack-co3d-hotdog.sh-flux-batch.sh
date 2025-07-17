@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-poo-9445
+#FLUX: --job-name=viewfool-attack-co3d-hotdog
+#FLUX: -n=16
 #FLUX: --queue=gpu
 #FLUX: -t=259200
 #FLUX: --urgency=16

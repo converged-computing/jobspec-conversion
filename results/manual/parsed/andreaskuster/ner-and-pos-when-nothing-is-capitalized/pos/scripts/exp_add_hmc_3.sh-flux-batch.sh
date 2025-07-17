@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-leader-5615
+#FLUX: --job-name=scruptious-arm-7855
+#FLUX: -c=128
 #FLUX: --queue=amdv100
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load python/3.7.2

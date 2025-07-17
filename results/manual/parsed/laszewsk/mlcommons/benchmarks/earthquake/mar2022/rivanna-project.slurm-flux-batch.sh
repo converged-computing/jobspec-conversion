@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mlcommons-science-eq-%u-%j
+#FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: -t=18000
 #FLUX: --urgency=16

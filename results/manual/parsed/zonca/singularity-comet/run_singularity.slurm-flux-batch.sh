@@ -2,6 +2,7 @@
 #FLUX: --job-name=singularity
 #FLUX: -N=2
 #FLUX: --queue=compute
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export PBS_NODEFILE='`generate_pbs_nodefile`'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-staircase-1737
+#FLUX: --job-name=creamy-fork-3637
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=c6ipg

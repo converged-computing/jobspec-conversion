@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-buttface-6405
+#FLUX: --job-name=fugly-pancake-1171
+#FLUX: -n=28
 #FLUX: --exclusive
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 ml purge > /dev/null 2>&1

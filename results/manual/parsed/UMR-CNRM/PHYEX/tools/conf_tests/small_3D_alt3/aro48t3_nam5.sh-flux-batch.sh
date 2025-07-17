@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-diablo-9674
+#FLUX: --job-name=hairy-fudge-2138
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-underoos-3179
+#FLUX: --job-name=fugly-taco-3215
+#FLUX: --queue=GPU-small
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/intel/compilers_and_libraries/linux/mkl/lib/intel64_lin'

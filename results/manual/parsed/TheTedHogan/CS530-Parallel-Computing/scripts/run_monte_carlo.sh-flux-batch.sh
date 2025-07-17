@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-motorcycle-9801
+#FLUX: --job-name=groupc
+#FLUX: -n=9
+#FLUX: --queue=defq
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 module load gcc/10.2.0

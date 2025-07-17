@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-signal-9609
+#FLUX: --job-name=expressive-pot-4342
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: --exclusive

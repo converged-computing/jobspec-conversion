@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-dog-9035
+#FLUX: --job-name=crusty-poodle-0918
+#FLUX: --queue=dgx
 #FLUX: --urgency=16
 
 lscpu

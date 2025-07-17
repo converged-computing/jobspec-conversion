@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-itch-2774
+#FLUX: --job-name=conspicuous-leader-0491
+#FLUX: --queue=general
+#FLUX: -t=720000
 #FLUX: --urgency=16
 
 source paccmann_predict/bin/activate

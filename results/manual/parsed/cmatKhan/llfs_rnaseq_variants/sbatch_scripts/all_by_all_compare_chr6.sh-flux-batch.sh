@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-rabbit-5496
+#FLUX: --job-name=rna_dna_comp
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

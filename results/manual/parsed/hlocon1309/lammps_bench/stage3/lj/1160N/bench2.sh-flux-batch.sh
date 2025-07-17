@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-animal-9001
+#FLUX: --job-name=chocolate-hobbit-6074
+#FLUX: -n=16
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 module load openmpi/4.1.4

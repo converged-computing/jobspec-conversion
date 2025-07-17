@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-poodle-1714
+#FLUX: --job-name=FFT-GPU-PERF
 #FLUX: --exclusive
 #FLUX: -t=10800
 #FLUX: --urgency=16

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peanut-butter-6852
+#FLUX: --job-name=ou_cpmmh_099_20
 #FLUX: --exclusive
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'

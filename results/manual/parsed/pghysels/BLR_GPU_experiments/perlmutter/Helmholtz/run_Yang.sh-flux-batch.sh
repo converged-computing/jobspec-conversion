@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cherry-7345
+#FLUX: --job-name=anxious-leader-4259
+#FLUX: -N=32
+#FLUX: --queue=premium
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=pps
+#FLUX: -n=33
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-poodle-5208
+#FLUX: --job-name=resblock_128
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

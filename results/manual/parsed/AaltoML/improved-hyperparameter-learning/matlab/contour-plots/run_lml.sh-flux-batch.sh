@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-arm-2557
+#FLUX: --job-name=reclusive-hippo-6927
 #FLUX: -c=3
 #FLUX: --queue=batch
 #FLUX: -t=360000

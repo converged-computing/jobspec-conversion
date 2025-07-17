@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-parsnip-5694
+#FLUX: --job-name=confused-pot-2104
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 workflow_name="04-fit-butterfly"

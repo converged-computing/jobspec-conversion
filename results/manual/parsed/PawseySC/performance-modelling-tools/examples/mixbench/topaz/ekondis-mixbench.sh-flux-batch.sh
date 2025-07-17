@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-train-1974
+#FLUX: --job-name=gassy-lamp-8878
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600

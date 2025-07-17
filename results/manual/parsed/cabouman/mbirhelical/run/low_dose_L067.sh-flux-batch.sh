@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-soup-0387
+#FLUX: --job-name=L067
+#FLUX: -N=4
+#FLUX: --queue=batch
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 export NUM_NODES='$SLURM_JOB_NUM_NODES'

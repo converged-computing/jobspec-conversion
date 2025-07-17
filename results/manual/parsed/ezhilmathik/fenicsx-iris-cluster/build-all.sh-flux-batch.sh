@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-bicycle-5143
+#FLUX: --job-name=swampy-carrot-0906
+#FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

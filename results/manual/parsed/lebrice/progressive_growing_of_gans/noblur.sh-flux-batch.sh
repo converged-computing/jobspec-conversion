@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-pedo-9966
+#FLUX: --job-name=rainbow-cinnamonbun-7504
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

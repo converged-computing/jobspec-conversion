@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lamp-9094
+#FLUX: --job-name=wobbly-cattywampus-0662
+#FLUX: --queue=gpu2
 #FLUX: -t=60
 #FLUX: --urgency=16
 

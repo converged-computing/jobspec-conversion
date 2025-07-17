@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-general-0119
+#FLUX: --job-name=PMCMC_SEIIR
 #FLUX: --exclusive
+#FLUX: --queue=nodes
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module load apps/anaconda3/5.2.0

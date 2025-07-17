@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-butter-0907
+#FLUX: --job-name=bamgcbias
 #FLUX: -n=24
 #FLUX: -t=86400
 #FLUX: --urgency=16

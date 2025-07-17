@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-butter-5496
+#FLUX: --job-name=hairy-signal-7484
+#FLUX: -t=3000
 #FLUX: --urgency=16
 
 cd $WRKDIR/chirp_estimation

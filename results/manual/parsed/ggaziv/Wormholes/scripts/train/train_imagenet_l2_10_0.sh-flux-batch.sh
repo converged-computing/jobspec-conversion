@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=eps10
+#FLUX: -c=30
 #FLUX: --urgency=16
 
 DATA_PATH=<DATA_PATH>

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-motorcycle-6313
+#FLUX: --job-name=ou_cpmmh_099_5
 #FLUX: --exclusive
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-pastry-7139
+#FLUX: --job-name=sweep-job
 #FLUX: -c=16
+#FLUX: --queue=palamut-cuda
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

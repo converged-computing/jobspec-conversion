@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-caramel-0352
+#FLUX: --job-name=example
+#FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=standard-mem-s
 #FLUX: --urgency=16
 
 module purge

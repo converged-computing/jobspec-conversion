@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-buttface-4980
+#FLUX: --job-name=FLOFS_atm2adc2ww3_RUN
+#FLUX: -N=50
+#FLUX: -n=500
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 set -e

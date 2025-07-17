@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-taco-4069
+#FLUX: --job-name=reclusive-avocado-3137
+#FLUX: -N=50
+#FLUX: --queue=premium
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

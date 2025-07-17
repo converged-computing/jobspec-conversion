@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-omelette-9065
+#FLUX: --job-name=sticky-plant-2410
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/arturfabricio/aircraft-detection/run.sh

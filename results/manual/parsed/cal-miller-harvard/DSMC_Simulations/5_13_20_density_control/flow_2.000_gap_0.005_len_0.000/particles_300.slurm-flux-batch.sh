@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-car-1080
+#FLUX: --job-name=gassy-bicycle-0362
+#FLUX: -n=8
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 cd data

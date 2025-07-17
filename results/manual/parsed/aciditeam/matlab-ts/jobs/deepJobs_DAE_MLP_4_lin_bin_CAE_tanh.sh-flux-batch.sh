@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-house-4963
+#FLUX: --job-name=Deep-DAE_MLP_4_lin_bin_CAE_tanh
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

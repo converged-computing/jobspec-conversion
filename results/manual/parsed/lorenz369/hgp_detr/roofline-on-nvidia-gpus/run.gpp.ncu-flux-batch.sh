@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-animal-1749
+#FLUX: --job-name=purple-kerfuffle-3762
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load cuda/11.0.2

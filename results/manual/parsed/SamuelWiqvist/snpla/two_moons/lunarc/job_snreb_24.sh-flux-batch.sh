@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-platanos-5441
+#FLUX: --job-name=snre_b
+#FLUX: --queue=lu
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

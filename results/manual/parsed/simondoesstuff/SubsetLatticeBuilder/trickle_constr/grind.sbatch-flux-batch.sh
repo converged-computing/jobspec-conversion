@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=trickle_constr
 #FLUX: -c=64
+#FLUX: --queue=short
 #FLUX: -t=600
 #FLUX: --urgency=16
 

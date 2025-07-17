@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-parsnip-7198
+#FLUX: --job-name=vis
+#FLUX: --queue=shared
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 srun -n 1 --mpi=pmi2 python $APPS/prospector/scripts/prospector_dynesty.py \

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-muffin-2338
+#FLUX: --job-name=outstanding-punk-0590
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 IMG=/home/software/singularity/pytorch.simg

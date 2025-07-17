@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-signal-5000
+#FLUX: --job-name=loopy-chip-8749
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

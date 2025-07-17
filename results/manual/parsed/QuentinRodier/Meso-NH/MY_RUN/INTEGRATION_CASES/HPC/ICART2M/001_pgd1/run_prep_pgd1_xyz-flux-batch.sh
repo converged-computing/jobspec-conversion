@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-milkshake-4185
+#FLUX: --job-name=prep_fanny
+#FLUX: -t=2700
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 1'

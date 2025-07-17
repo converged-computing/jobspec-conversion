@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-taco-6982
+#FLUX: --job-name=crunchy-parsnip-1784
 #FLUX: -c=12
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export UCX_IB_PCI_RELAXED_ORDERING='on \'

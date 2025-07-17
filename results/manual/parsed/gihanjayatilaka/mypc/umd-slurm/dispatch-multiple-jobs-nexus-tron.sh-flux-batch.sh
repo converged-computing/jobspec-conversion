@@ -3,7 +3,7 @@
 #FLUX: -c=8
 #FLUX: --queue=tron
 #FLUX: -t=21600
-#FLUX: --urgency=16
+#FLUX: --urgency=50
 
 export TORCH_HOME='/vulcanscratch/gihan/torch-hub/'
 

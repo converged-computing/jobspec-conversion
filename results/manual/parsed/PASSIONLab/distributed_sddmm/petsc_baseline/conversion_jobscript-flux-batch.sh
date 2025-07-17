@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-despacito-4403
+#FLUX: --job-name=conversion_jobscript
+#FLUX: --queue=regular
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='32'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-snack-9096
+#FLUX: --job-name=bloated-latke-1387
+#FLUX: --queue=gpushort
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load anaconda3

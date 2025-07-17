@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-earthworm-1434
+#FLUX: --job-name=evasive-bits-3181
 #FLUX: -c=8
 #FLUX: --queue=alpha
 #FLUX: -t=86399

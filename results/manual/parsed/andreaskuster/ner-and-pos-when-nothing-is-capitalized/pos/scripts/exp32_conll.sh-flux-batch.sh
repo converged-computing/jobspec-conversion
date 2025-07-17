@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pancake-5406
+#FLUX: --job-name=stinky-lemon-5927
+#FLUX: -c=64
 #FLUX: --queue=intelv100
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load python/3.7.2

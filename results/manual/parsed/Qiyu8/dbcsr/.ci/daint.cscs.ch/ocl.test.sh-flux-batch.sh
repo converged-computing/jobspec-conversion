@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-latke-4022
+#FLUX: --job-name=hello-onion-5470
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16
 

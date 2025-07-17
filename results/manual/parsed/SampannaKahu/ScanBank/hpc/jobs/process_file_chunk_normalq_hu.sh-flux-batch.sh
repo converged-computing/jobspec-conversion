@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leader-9429
+#FLUX: --job-name=ornery-nalgas-8101
 #FLUX: --exclusive
+#FLUX: --queue=normal_q
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge

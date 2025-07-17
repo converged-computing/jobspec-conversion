@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-itch-3008
+#FLUX: --job-name=butterscotch-buttface-2556
 #FLUX: --queue=overflow
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 source /labs/hulab/stark_conda/bin/activate

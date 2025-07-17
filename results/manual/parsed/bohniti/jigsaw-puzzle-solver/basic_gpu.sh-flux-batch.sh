@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-pancake-1094
+#FLUX: --job-name=placid-general-9039
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bohniti/jigsaw-puzzle-solver/basic_gpu.sh

@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=compute_meta
 #FLUX: -c=4
+#FLUX: --queue=cpu_p1
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

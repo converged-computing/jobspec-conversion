@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-staircase-4154
+#FLUX: --job-name=rse
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

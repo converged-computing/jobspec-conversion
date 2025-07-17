@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=blake3valgrind
+#FLUX: -n=32
 #FLUX: --urgency=16
 
 set -e

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-snack-3386
+#FLUX: --job-name=red-poo-4433
+#FLUX: -c=9
+#FLUX: --queue=klab-gpu
 #FLUX: --urgency=16
 
 echo "running in shell: " "$SHELL"

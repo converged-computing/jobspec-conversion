@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-hope-0294
+#FLUX: --job-name=sft_qwen
 #FLUX: -c=16
 #FLUX: --queue=partition
 #FLUX: -t=259200

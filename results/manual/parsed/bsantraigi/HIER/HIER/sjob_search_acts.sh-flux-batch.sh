@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-squidward-1116
+#FLUX: --job-name=hier_search
+#FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

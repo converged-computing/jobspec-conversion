@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-peanut-4016
+#FLUX: --job-name=painn_train
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=3600

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-leopard-7350
+#FLUX: --job-name=arid-motorcycle-8988
+#FLUX: -n=16
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 module load openmpi/4.1.4

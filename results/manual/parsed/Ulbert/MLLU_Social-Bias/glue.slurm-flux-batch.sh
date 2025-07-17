@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=glue-bert
+#FLUX: -c=4
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

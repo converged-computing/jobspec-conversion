@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-sundae-5996
+#FLUX: --job-name=HTSeq
 #FLUX: -c=2
 #FLUX: -t=7200
 #FLUX: --urgency=16

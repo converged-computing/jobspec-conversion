@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-punk-1356
+#FLUX: --job-name=senseDyn
+#FLUX: -n=4
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load matlab/R2019a

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cat-5066
+#FLUX: --job-name=mpi4py_test
+#FLUX: -n=16
+#FLUX: --queue=test
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load python/3.10.12-fasrc01

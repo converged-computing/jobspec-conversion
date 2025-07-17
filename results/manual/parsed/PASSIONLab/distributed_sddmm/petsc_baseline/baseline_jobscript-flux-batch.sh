@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-earthworm-2453
+#FLUX: --job-name=petsc_baseline
+#FLUX: -N=256
+#FLUX: --queue=regular
+#FLUX: -t=16200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

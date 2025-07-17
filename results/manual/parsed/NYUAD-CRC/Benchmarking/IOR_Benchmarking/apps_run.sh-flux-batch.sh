@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-dog-7943
+#FLUX: --job-name=rainbow-salad-1205
+#FLUX: -N=2
+#FLUX: -n=64
 #FLUX: --exclusive
+#FLUX: --queue=large
 #FLUX: --urgency=16
 
 sleep 20

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-house-2745
+#FLUX: --job-name=chocolate-leg-9160
+#FLUX: -n=16
+#FLUX: --queue=defq
 #FLUX: -t=360000
 #FLUX: --urgency=16
 

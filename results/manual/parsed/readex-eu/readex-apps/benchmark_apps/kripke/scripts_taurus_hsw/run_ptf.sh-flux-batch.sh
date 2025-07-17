@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bike-5778
+#FLUX: --job-name=READEX_kripke
 #FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=haswell
 #FLUX: -t=9000
 #FLUX: --urgency=16
 

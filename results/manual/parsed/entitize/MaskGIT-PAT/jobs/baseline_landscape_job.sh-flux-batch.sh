@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-underoos-5929
+#FLUX: --job-name=baseline_landscape_job
 #FLUX: -n=2
 #FLUX: -t=259200
 #FLUX: --urgency=16

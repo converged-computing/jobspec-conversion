@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-hope-5871
+#FLUX: --job-name=SVI_seeds
+#FLUX: --queue=gpu
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

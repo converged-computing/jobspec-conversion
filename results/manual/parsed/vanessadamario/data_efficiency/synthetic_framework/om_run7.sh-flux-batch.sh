@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=teacher_clas
 #FLUX: --queue=use-everything
+#FLUX: -t=16200
 #FLUX: --urgency=16
 
 hostname

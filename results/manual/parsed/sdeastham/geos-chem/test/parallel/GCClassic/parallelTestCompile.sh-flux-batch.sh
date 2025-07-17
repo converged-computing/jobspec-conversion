@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-butter-9594
+#FLUX: --job-name=muffled-parsnip-7627
+#FLUX: -c=8
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 ptRoot=$(cd ..; pwd)

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cinnamonbun-7173
+#FLUX: --job-name=blank-latke-8293
 #FLUX: --queue=bii-gpu
 #FLUX: -t=129600
 #FLUX: --urgency=16

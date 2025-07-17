@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lamp-1673
+#FLUX: --job-name=VADtest
+#FLUX: -c=40
+#FLUX: --queue=gpu-all
 #FLUX: --urgency=16
 
 module load cuda10.1/toolkit gcc6 slurm cmake

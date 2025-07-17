@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-peanut-8249
+#FLUX: --job-name=read
+#FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=burst
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export MODULEPATH='/software/cades-open/spack-envs/base/modules/site/Core:/software/cades-open/modulefiles/core'

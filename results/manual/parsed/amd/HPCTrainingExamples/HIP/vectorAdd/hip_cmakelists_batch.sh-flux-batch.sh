@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-frito-4367
+#FLUX: --job-name=eccentric-carrot-7648
+#FLUX: --queue=LocalQ
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module load rocm

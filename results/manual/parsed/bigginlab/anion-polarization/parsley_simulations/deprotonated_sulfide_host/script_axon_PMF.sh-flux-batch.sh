@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-citrus-8840
+#FLUX: --job-name=Cl_wat_GAFF_PMF_biotin
 #FLUX: -c=6
+#FLUX: --queue=gpu-biggin4,gpu-biggin3,gpu-biggin2,gpu-biggin
 #FLUX: -t=518400
 #FLUX: --urgency=16
 

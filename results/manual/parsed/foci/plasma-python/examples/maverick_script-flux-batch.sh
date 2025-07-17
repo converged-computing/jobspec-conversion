@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-chair-9277
+#FLUX: --job-name=plasma-python
+#FLUX: -n=20
+#FLUX: --queue=gpu
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 module load gcc/4.9.3

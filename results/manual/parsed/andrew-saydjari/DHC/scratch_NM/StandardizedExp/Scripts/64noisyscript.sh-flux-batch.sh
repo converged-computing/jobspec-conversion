@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-car-9872
+#FLUX: --job-name=64_noisy
+#FLUX: -n=2
+#FLUX: --queue=test
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load Julia/1.5.3-linux-x86_64

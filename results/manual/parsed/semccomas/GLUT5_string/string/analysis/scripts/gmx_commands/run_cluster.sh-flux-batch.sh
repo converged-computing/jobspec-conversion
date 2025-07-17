@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-ricecake-4637
+#FLUX: --job-name=conf
+#FLUX: --queue=tcb
+#FLUX: -t=82800
 #FLUX: --urgency=16
 
 module unload gromacs

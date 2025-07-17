@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-plant-0203
+#FLUX: --job-name=placid-motorcycle-8673
+#FLUX: -N=2
+#FLUX: -n=192
 #FLUX: --urgency=16
 
 export NCCL_PROTO='simple'

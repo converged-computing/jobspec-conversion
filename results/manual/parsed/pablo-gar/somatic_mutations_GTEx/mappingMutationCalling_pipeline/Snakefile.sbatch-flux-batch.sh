@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-caramel-5789
+#FLUX: --job-name=s_mapping
 #FLUX: --queue=hbfraser
 #FLUX: -t=32400
 #FLUX: --urgency=16

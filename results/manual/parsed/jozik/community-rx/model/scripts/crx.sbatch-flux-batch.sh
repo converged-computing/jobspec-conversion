@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-snack-1103
+#FLUX: --job-name=grated-peanut-9908
 #FLUX: --exclusive
 #FLUX: --queue=broadwl
 #FLUX: -t=9000

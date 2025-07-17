@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-latke-8145
+#FLUX: --job-name=buttery-ricecake-1516
 #FLUX: --exclusive
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 readonly datadir="/coco2017"

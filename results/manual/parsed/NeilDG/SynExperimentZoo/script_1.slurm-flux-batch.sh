@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-buttface-2130
+#FLUX: --job-name=SR_1
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: --urgency=16

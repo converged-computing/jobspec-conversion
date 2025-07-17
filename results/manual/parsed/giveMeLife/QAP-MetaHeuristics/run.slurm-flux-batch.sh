@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-soup-2226
+#FLUX: --job-name=metaheuristic
+#FLUX: --queue=general
 #FLUX: --urgency=16
 
 ml R/4.0.0

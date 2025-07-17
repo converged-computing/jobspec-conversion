@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cupcake-5612
+#FLUX: --job-name=coverage_scaff3
+#FLUX: --queue=small
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load biokit

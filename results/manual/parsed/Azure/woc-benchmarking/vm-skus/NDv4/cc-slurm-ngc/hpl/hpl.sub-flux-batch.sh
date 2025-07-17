@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-knife-1702
+#FLUX: --job-name=hanky-leader-5912
 #FLUX: --exclusive
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export OMPI_MCA_pml='ucx'

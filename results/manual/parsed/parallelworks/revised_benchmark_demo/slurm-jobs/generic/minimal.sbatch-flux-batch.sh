@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-leader-2757
+#FLUX: --job-name=ornery-signal-2629
+#FLUX: -N=10
 #FLUX: --urgency=16
 
 source wfenv.sh

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-fudge-9640
+#FLUX: --job-name=job-dali-lustre
+#FLUX: --queue=rtx
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export CC='/opt/apps/gcc/8.3.0/bin/gcc'

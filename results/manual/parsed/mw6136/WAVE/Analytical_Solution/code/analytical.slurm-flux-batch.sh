@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leopard-5364
+#FLUX: --job-name=moolicious-lentil-3272
+#FLUX: -t=117000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

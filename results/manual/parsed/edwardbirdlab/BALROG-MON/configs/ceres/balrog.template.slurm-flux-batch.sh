@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-poodle-5170
+#FLUX: --job-name=lovable-avocado-7540
+#FLUX: -n=2
+#FLUX: --queue=long
 #FLUX: --urgency=16
 
 module load apptainer

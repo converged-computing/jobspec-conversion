@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-motorcycle-6533
+#FLUX: --job-name=Tony_DPRV
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

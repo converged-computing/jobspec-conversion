@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lizard-8586
+#FLUX: --job-name=crusty-nunchucks-6193
+#FLUX: -n=28
+#FLUX: -t=3000
 #FLUX: --urgency=16
 
 ml GCC/7.3.0-2.30  OpenMPI/3.1.1

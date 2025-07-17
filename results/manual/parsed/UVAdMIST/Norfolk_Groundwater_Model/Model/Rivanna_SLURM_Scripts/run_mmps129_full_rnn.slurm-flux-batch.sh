@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-taco-7199
+#FLUX: --job-name=loopy-plant-8839
+#FLUX: --queue=gpu
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-squidward-7398
+#FLUX: --job-name=fugly-underoos-9960
 #FLUX: -N=8
 #FLUX: --exclusive
 #FLUX: --queue=standard-g

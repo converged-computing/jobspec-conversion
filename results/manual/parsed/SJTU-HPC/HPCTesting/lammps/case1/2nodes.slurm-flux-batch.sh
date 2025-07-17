@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leader-8345
+#FLUX: --job-name=run_lammps
+#FLUX: -N=2
+#FLUX: --queue=cpu
 #FLUX: --urgency=16
 
 module load oneapi/2021

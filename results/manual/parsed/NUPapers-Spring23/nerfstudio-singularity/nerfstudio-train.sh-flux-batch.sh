@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-punk-1135
+#FLUX: --job-name=phat-parsnip-9299
 #FLUX: -c=12
 #FLUX: -t=10740
 #FLUX: --urgency=16

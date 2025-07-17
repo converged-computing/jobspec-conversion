@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-car-1215
+#FLUX: --job-name=BrightnessTremor
 #FLUX: -c=16
 #FLUX: -t=14400
 #FLUX: --urgency=16

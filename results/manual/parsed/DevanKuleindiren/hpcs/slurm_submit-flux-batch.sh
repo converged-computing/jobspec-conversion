@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-frito-5637
+#FLUX: --job-name=language_modelling
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib:$CUDA_INSTALL_PATH/lib64;'

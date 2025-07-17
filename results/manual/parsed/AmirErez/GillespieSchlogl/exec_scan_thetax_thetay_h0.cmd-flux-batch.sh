@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-staircase-4970
+#FLUX: --job-name=dirty-mango-0964
+#FLUX: -t=86340
 #FLUX: --urgency=16
 
 OFFSET=3000

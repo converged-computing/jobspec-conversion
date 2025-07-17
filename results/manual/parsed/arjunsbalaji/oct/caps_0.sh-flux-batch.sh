@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-destiny-8443
+#FLUX: --job-name=conspicuous-parrot-3451
 #FLUX: --queue=gpuq
 #FLUX: -t=7200
 #FLUX: --urgency=16

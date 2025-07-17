@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-onion-3729
+#FLUX: --job-name=butterscotch-caramel-1899
 #FLUX: -n=4
 #FLUX: --queue=long
 #FLUX: -t=518400

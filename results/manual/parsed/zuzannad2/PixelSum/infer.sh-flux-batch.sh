@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=infer-pixelsum
 #FLUX: -c=48
+#FLUX: --queue=gpu
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

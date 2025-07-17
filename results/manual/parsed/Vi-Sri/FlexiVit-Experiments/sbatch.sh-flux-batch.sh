@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cal_face
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 nvidia-smi

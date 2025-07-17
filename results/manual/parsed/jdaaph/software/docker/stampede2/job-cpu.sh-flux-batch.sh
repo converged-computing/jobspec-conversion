@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=test-cpu
 #FLUX: --queue=skx-normal
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module load tacc-singularity

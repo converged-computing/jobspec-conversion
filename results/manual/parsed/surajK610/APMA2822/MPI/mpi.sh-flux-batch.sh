@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-hobbit-6038
+#FLUX: --job-name=MyMPIJob
+#FLUX: -N=2
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

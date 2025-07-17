@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-itch-0919
+#FLUX: --job-name=blob_array
+#FLUX: -n=10
+#FLUX: --queue=debug,mem-low,brief-low
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 name1="N_clydesmithi"

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-plant-7574
+#FLUX: --job-name=scruptious-poodle-5343
 #FLUX: -n=8
+#FLUX: --queue=gpgpumse
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

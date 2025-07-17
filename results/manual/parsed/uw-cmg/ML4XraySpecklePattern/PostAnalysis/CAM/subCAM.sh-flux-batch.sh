@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-lettuce-4000
+#FLUX: --job-name=wobbly-caramel-2792
+#FLUX: --queue=sbel_cmg
+#FLUX: -t=345660
 #FLUX: --urgency=16
 
 conda activate keras

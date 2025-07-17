@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-peanut-butter-4604
+#FLUX: --job-name=Launcher
 #FLUX: -N=2
 #FLUX: -n=128
 #FLUX: -t=3600

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-car-1693
+#FLUX: --job-name=crunchy-fudge-3909
+#FLUX: -n=8
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leopard-1553
+#FLUX: --job-name=phat-nalgas-1997
 #FLUX: -N=10
 #FLUX: -n=10
 #FLUX: --queue=west

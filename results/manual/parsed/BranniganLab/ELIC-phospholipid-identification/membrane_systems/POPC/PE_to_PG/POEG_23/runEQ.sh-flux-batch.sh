@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-frito-7653
+#FLUX: --job-name=EQ_POEG_23
+#FLUX: -N=3
+#FLUX: -n=96
 #FLUX: --queue=cmain
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 module purge

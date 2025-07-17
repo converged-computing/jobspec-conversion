@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-fork-0647
+#FLUX: --job-name=abacus
 #FLUX: -c=4
+#FLUX: --queue=short
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

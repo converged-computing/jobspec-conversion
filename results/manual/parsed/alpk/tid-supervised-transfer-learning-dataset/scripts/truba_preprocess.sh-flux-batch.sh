@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-spoon-3277
+#FLUX: --job-name=run_preprocess
 #FLUX: -c=4
+#FLUX: --queue=mid2
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

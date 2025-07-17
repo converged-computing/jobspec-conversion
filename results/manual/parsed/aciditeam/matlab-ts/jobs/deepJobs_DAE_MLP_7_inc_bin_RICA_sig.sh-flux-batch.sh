@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-bike-1940
+#FLUX: --job-name=Deep-DAE_MLP_7_inc_bin_RICA_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

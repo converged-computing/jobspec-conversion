@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-platanos-7194
+#FLUX: --job-name=fat-gato-0616
 #FLUX: -c=6
+#FLUX: --queue=rise
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'

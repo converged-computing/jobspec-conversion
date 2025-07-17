@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-platanos-1166
+#FLUX: --job-name=stinky-general-4228
+#FLUX: -n=96
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export LANG='en_US.utf8'

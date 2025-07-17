@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-blackbean-8198
+#FLUX: --job-name=creamy-cherry-6213
+#FLUX: -n=2
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export MATLABPATH='../../matlab'

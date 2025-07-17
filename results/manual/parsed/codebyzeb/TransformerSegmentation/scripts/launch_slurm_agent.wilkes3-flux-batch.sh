@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-leg-3880
+#FLUX: --job-name=transformer-seg
+#FLUX: --queue=ampere
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

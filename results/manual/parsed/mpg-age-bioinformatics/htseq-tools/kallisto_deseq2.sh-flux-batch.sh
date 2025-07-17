@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=QCplots
+#FLUX: -c=4
 #FLUX: --urgency=16
 
 HOMESOURCE="source ~/.bashrc"

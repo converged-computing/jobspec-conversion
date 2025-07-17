@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-eagle-2361
+#FLUX: --job-name=anxious-dog-4057
+#FLUX: -n=29
+#FLUX: --queue=batch
+#FLUX: -t=174000
 #FLUX: --urgency=16
 
 module load singularity

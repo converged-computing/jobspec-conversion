@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-butter-1524
+#FLUX: --job-name=atac-run
 #FLUX: -N=10
 #FLUX: -n=10
+#FLUX: --queue=skylake
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

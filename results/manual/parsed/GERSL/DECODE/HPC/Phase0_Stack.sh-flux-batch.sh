@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pot-9795
+#FLUX: --job-name=scruptious-buttface-6790
 #FLUX: --queue=priority
 #FLUX: --urgency=16
 

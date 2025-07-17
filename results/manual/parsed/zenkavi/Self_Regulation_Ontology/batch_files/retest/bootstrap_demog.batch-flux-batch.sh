@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bootstrap_demog
 #FLUX: -c=4
+#FLUX: --queue=russpold,owners,normal
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

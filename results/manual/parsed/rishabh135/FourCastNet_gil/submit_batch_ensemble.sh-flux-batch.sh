@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-train-0291
+#FLUX: --job-name=cowy-fork-5033
+#FLUX: -N=4
 #FLUX: -c=32
+#FLUX: --queue=regular
 #FLUX: -t=900
 #FLUX: --urgency=16
 

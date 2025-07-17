@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-peas-2532
+#FLUX: --job-name=test
+#FLUX: --queue=workq2
 #FLUX: --urgency=16
 
 module load herramientas/python/3.6

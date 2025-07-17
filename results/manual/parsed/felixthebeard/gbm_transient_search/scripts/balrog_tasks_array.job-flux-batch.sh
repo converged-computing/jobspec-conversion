@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-bike-9701
+#FLUX: --job-name=balrog_loc
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

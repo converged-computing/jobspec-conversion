@@ -2,6 +2,7 @@
 #FLUX: --job-name=rfm_LaghosTest0_branson_0_82__arm___nodes___1___mpi___4___omp___1__job
 #FLUX: -n=4
 #FLUX: --exclusive
+#FLUX: --queue=c6gn
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

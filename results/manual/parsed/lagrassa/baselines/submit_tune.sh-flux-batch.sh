@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lamp-9357
+#FLUX: --job-name=fugly-cat-4971
+#FLUX: -c=12
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES=''

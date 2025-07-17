@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-buttface-9252
+#FLUX: --job-name=chunky-hippo-1798
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-nalgas-0462
+#FLUX: --job-name=climseg-cgpu
 #FLUX: --exclusive
+#FLUX: -t=208800
 #FLUX: --urgency=16
 
 export OMP_PLACES='threads'

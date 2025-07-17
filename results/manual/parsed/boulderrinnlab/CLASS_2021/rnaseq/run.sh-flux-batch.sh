@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=HEPG2_rna_seq
+#FLUX: --queue=long
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

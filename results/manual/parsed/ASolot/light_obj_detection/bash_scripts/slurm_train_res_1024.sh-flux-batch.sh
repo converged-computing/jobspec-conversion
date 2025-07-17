@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-omelette-9196
+#FLUX: --job-name=ams288-res-1024
+#FLUX: --queue=pascal
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

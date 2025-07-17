@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-rabbit-9938
+#FLUX: --job-name=goodbye-gato-7389
+#FLUX: --queue=regular
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export LEGACYPIPE_DIR='/src/legacypipe'

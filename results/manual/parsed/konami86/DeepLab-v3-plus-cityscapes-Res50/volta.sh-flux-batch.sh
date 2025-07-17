@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-signal-5441
+#FLUX: --job-name=swampy-peas-4710
+#FLUX: --queue=batch
 #FLUX: -t=84600
 #FLUX: --urgency=16
 

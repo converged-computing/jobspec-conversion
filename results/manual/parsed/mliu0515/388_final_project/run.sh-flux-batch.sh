@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-snack-7725
+#FLUX: --job-name=run
+#FLUX: --queue=gpu-a100-small
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 cd /work/07016/cw38637/ls6/nlp/

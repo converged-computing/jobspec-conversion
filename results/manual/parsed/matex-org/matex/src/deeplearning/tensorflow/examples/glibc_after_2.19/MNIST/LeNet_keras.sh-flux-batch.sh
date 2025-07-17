@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-latke-5266
+#FLUX: --job-name=LeNet.Keras.1
 #FLUX: --urgency=16
 
 train_batch=64

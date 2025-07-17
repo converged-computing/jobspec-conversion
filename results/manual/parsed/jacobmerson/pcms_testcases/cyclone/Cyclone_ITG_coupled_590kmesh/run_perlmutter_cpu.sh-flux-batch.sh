@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=coupled-totaldf
+#FLUX: -N=21
+#FLUX: --queue=regular
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export FI_CXI_RX_MATCH_MODE='hybrid  # prevents crash for large number of MPI processes, e.g. > 4096'

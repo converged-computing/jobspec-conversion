@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-toaster-9081
+#FLUX: --job-name=outstanding-bits-3224
+#FLUX: --queue=gputest
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

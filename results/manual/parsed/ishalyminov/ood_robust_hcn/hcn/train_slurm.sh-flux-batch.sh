@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cat-7204
+#FLUX: --job-name=eccentric-chip-0835
 #FLUX: --queue=amd-longq
 #FLUX: --urgency=16
 

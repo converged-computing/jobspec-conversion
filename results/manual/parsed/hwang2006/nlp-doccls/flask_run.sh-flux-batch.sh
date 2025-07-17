@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-car-2228
+#FLUX: --job-name=stinky-mango-0566
 #FLUX: -c=4
 #FLUX: --queue=amd_a100nv_8
 #FLUX: -t=3600

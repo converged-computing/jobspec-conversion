@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-hope-3134
+#FLUX: --job-name=conspicuous-lizard-4884
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

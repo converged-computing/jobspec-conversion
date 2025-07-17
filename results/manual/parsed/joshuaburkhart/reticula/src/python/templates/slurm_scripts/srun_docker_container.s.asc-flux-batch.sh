@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-sundae-2555
+#FLUX: --job-name=bloated-toaster-2901
 #FLUX: --urgency=16
 
 srun mkdir -p ${scratchDataDir} ${scratchContDir}

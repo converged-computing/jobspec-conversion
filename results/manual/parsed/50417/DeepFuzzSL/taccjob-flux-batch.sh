@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-rabbit-8570
+#FLUX: --job-name=myjob
+#FLUX: --queue=gtx
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/apps/cuda9_0/cudnn/7.0/lib64 '

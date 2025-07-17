@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-omelette-1633
+#FLUX: --job-name=grated-house-6836
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

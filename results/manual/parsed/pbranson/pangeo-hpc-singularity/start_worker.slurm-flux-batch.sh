@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-toaster-2196
+#FLUX: --job-name=dask-worker
 #FLUX: -n=4
 #FLUX: -c=2
 #FLUX: -t=3600

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-ricecake-2874
+#FLUX: --job-name=of
+#FLUX: -n=8
+#FLUX: --queue=normal
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='272'

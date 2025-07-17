@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lizard-5036
+#FLUX: --job-name=argobots_a_rpc
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120

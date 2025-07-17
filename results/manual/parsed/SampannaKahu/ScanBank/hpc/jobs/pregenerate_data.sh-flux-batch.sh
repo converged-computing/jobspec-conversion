@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-noodle-1768
+#FLUX: --job-name=grated-nalgas-0603
 #FLUX: --exclusive
+#FLUX: --queue=normal_q
+#FLUX: -t=288000
 #FLUX: --urgency=16
 
 module purge

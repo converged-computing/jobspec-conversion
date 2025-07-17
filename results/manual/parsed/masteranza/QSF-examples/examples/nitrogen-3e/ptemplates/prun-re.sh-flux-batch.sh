@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lettuce-9767
+#FLUX: --job-name=N3e-re-COMPRESSED
+#FLUX: -N=8
+#FLUX: --queue=plgrid
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-puppy-9690
+#FLUX: --job-name=deepstem50
 #FLUX: -c=10
+#FLUX: --queue=3090
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export WANDB_SPAWN_METHOD='fork'

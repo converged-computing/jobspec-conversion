@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-chair-4167
+#FLUX: --job-name=delicious-spoon-1287
+#FLUX: -c=64
+#FLUX: --queue=amd
+#FLUX: -t=180000
 #FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:~/pitts/build_gcc_amd_slowcontract/src/:~/pitts/examples/'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-arm-5235
+#FLUX: --job-name=frigid-citrus-4945
 #FLUX: --urgency=16
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-pedo-5769
+#FLUX: --job-name=aimg-2
 #FLUX: -c=4
 #FLUX: --queue=dell
 #FLUX: --urgency=16

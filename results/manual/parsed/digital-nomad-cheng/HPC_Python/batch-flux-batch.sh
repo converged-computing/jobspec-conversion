@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-puppy-6092
+#FLUX: --job-name=misunderstood-diablo-8825
+#FLUX: -c=32
+#FLUX: -t=169200
 #FLUX: --urgency=16
 
 module purge

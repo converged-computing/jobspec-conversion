@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-squidward-3878
+#FLUX: --job-name=faux-itch-5106
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jrhaberstroh/gromacs-scripts/cluster/cluster_equilibrate.sh

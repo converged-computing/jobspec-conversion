@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lemur-8265
+#FLUX: --job-name=ROCA
+#FLUX: --queue=testing
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load python-2.7.13

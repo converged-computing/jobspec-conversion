@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=w-as-high
+#FLUX: -c=16
+#FLUX: --queue=a5
 #FLUX: --urgency=16
 
 export TORCH_HOME='../../pretrained_models'

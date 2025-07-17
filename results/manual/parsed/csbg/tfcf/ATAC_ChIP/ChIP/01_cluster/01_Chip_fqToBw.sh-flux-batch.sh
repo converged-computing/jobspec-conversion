@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Chip_fqToBw
 #FLUX: -c=12
+#FLUX: --queue=medium
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-staircase-0218
+#FLUX: --job-name=nerdy-car-2874
+#FLUX: -n=16
+#FLUX: --queue=test
+#FLUX: -t=240
 #FLUX: --urgency=16
 
 genome="hg19"

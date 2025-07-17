@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-caramel-0441
+#FLUX: --job-name=vq2d
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-peanut-butter-6292
+#FLUX: --job-name=gloopy-butter-9743
+#FLUX: -c=40
+#FLUX: --queue=nvidia
 #FLUX: -t=19800
 #FLUX: --urgency=16
 

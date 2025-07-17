@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-itch-5492
+#FLUX: --job-name=nerdy-malarkey-3640
 #FLUX: -n=96
 #FLUX: --urgency=16
 

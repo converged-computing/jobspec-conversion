@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-kerfuffle-2584
+#FLUX: --job-name=quirky-malarkey-7921
 #FLUX: -c=8
 #FLUX: --queue=gpuq
 #FLUX: -t=7200

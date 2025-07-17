@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-eagle-9029
+#FLUX: --job-name=opensbli_1node_16tasks
 #FLUX: -n=16
 #FLUX: --exclusive
+#FLUX: --queue=EPYC-16c_edr-ib1_256gb_2666
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

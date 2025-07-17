@@ -2,6 +2,8 @@
 #FLUX: --job-name=GO
 #FLUX: -N=12
 #FLUX: --exclusive
+#FLUX: --queue=short
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 ISTART_RESTART=1 #https://www.vasp.at/wiki/index.php/ISTART

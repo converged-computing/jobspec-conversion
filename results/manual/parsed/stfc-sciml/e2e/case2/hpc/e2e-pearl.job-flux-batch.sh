@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-carrot-8499
+#FLUX: --job-name=PEARLIntelE2E
 #FLUX: --urgency=16
 
 export SINGULARITYENV_PYTHONPATH='/work'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-underoos-1336
+#FLUX: --job-name=Oceananigans
 #FLUX: -n=4
+#FLUX: --queue=any
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

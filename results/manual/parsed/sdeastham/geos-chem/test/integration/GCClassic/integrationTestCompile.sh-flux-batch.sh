@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-cat-8321
+#FLUX: --job-name=crusty-cinnamonbun-8955
+#FLUX: -c=8
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 itRoot=$(cd ..; pwd)

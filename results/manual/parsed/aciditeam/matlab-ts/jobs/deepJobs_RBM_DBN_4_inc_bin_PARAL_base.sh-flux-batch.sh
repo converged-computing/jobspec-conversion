@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-plant-5027
+#FLUX: --job-name=Deep-RBM_DBN_4_inc_bin_PARAL_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

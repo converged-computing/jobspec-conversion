@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-muffin-1519
+#FLUX: --job-name=dinosaur-kerfuffle-0090
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=rosa.p

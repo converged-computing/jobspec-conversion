@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-general-4419
+#FLUX: --job-name=persnickety-pancake-4577
+#FLUX: -n=32
+#FLUX: --queue=batch
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

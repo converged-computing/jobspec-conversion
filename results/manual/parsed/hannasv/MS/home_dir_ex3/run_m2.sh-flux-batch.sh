@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-train-1546
+#FLUX: --job-name=purple-ricecake-5029
+#FLUX: -n=6
+#FLUX: --queue=dgx2q
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

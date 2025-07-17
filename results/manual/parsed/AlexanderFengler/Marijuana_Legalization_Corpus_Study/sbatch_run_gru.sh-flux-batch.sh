@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-milkshake-1358
+#FLUX: --job-name=train_gru
+#FLUX: -c=14
+#FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

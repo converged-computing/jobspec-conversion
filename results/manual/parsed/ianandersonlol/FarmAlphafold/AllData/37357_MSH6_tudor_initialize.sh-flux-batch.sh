@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-diablo-3874
+#FLUX: --job-name=MSH6_tudor
+#FLUX: -c=16
 #FLUX: --queue=gpu-a100-h
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 set -e

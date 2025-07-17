@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-earthworm-1358
+#FLUX: --job-name=compile-mpi
+#FLUX: --queue=scarf
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 set -e

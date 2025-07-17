@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pancake-8289
+#FLUX: --job-name=al_med
+#FLUX: --queue=gpu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load cuda/8.0 cudnn/5.1

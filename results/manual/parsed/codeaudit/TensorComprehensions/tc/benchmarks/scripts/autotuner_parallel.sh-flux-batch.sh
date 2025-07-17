@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-house-0443
+#FLUX: --job-name=TensorComprehensions
+#FLUX: -n=20
 #FLUX: --queue=learnfair-2g
+#FLUX: -t=180
 #FLUX: --urgency=16
 
 export TUNER_THREADS='${TUNER_THREADS:=20}'

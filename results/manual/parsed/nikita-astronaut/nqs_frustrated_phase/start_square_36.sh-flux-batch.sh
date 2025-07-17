@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=square_qua_phase_36_dense
 #FLUX: -c=32
+#FLUX: --queue=dgx
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 start=$(date +%s)

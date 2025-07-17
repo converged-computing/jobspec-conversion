@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-hope-6354
+#FLUX: --job-name=lammps_voro
+#FLUX: --queue=bdwall
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 export I_MPI_FABRICS='shm:tmi'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-dog-6251
+#FLUX: --job-name=Singularity_Jupyter
+#FLUX: -c=2
+#FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

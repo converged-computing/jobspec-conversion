@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lizard-9343
+#FLUX: --job-name=phat-rabbit-9203
+#FLUX: --queue=gpu2
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-rabbit-8218
+#FLUX: --job-name=outstanding-bike-5077
 #FLUX: -n=24
+#FLUX: --queue=intel,batch
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

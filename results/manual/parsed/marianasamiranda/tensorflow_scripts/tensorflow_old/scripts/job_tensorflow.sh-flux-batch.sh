@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hobbit-3595
+#FLUX: --job-name=tf-tenosorflow
+#FLUX: --queue=rtx
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 WORKSPACE=$(dirname $(dirname $(realpath $0)))

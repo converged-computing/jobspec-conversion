@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-malarkey-8513
+#FLUX: --job-name=MyKerasJob
+#FLUX: --queue=gpu
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pedo-7927
+#FLUX: --job-name=bloated-noodle-9340
+#FLUX: -n=16
+#FLUX: --queue=batch
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

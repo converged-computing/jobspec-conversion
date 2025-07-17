@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-platanos-7814
+#FLUX: --job-name=Deep-DAE_MLP_4_inc_real_RICA_tanh
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

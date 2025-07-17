@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-signal-4601
+#FLUX: --job-name=Goodbye
+#FLUX: -N=2
 #FLUX: --urgency=16
 
 export MPI4PYDIR='paralleelarvutused'

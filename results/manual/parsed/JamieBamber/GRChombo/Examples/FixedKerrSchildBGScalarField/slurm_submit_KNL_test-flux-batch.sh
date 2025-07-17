@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lamp-0480
+#FLUX: --job-name=KerrSF_job
 #FLUX: -N=4
 #FLUX: -n=16
+#FLUX: --queue=knl
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

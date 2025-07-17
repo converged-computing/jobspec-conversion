@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=t-f-g
 #FLUX: -c=4
+#FLUX: --queue=usatlas
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-egg-8356
+#FLUX: --job-name=conspicuous-buttface-2054
+#FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-onion-7561
+#FLUX: --job-name=ABM
 #FLUX: -c=32
 #FLUX: --urgency=16
 

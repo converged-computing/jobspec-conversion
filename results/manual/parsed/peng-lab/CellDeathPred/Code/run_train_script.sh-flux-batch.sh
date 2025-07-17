@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-itch-2090
+#FLUX: --job-name=python
+#FLUX: -c=6
 #FLUX: --queue=gpu_p
+#FLUX: -t=172800
 #FLUX: --urgency=15
 
 echo $HOME

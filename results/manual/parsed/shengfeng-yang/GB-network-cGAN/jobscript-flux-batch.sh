@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-earthworm-2986
+#FLUX: --job-name=GAN_test
+#FLUX: --queue=gpu
 #FLUX: -t=82800
 #FLUX: --urgency=16
 

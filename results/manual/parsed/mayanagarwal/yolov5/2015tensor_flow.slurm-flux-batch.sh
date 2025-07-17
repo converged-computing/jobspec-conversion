@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-platanos-3552
+#FLUX: --job-name=fuzzy-snack-5782
 #FLUX: --queue=shortgpgpu
 #FLUX: -t=300
 #FLUX: --urgency=16

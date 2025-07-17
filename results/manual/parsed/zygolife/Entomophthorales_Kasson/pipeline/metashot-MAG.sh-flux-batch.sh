@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-gato-3289
+#FLUX: --job-name=fuzzy-nalgas-4670
+#FLUX: -c=32
+#FLUX: --queue=intel
 #FLUX: -t=691200
 #FLUX: --urgency=16
 

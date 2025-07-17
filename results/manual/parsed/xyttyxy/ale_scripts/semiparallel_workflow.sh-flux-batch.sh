@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-citrus-4606
+#FLUX: --job-name=delicious-hope-4325
 #FLUX: --queue=RM
 #FLUX: -t=172800
 #FLUX: --urgency=16

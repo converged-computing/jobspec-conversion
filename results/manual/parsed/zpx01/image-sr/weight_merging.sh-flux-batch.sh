@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-hope-2025
+#FLUX: --job-name=butterscotch-peanut-1254
 #FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX: -t=259200
+#FLUX: --urgency=15
 
 export PYTHONUNBUFFERED='1'
 

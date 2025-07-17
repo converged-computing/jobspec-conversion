@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-avocado-9256
+#FLUX: --job-name=blank-squidward-8863
+#FLUX: -n=8
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

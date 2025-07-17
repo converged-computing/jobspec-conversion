@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ieneurips
+#FLUX: -c=6
+#FLUX: --queue=compsci-gpu
 #FLUX: --urgency=16
 
 hostname

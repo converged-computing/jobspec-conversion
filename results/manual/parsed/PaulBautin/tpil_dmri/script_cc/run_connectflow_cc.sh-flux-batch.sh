@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-hope-6455
+#FLUX: --job-name=blank-fudge-2500
 #FLUX: -c=32
 #FLUX: -t=86400
 #FLUX: --urgency=16

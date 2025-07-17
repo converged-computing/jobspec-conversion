@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-parrot-2425
+#FLUX: --job-name=INSTALL
 #FLUX: -c=2
 #FLUX: --queue=serial
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-car-5927
+#FLUX: --job-name=moolicious-muffin-0764
 #FLUX: -c=20
 #FLUX: --queue=eap
 #FLUX: -t=3600

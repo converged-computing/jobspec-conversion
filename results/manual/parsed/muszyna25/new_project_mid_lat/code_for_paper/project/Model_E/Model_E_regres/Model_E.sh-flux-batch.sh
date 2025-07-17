@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-gato-8463
+#FLUX: --job-name=creamy-knife-9744
+#FLUX: -N=5
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 set -u

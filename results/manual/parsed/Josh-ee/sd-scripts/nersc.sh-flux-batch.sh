@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-arm-6589
+#FLUX: --job-name=sd-script
+#FLUX: --queue=regular
+#FLUX: -t=86340
 #FLUX: --urgency=16
 
 module load pytorch

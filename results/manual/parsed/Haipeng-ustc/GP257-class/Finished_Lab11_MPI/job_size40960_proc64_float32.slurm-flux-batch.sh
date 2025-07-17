@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lettuce-1406
+#FLUX: --job-name=gassy-earthworm-9789
 #FLUX: -N=4
 #FLUX: -n=64
 #FLUX: --exclusive

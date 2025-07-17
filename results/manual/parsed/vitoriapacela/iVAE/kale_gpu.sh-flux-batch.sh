@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=iVAE
+#FLUX: -c=4
+#FLUX: --queue=gpu-short
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export LC_ALL='en_US.utf-8'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-soup-6496
+#FLUX: --job-name=train
 #FLUX: --exclusive
 #FLUX: -t=86400
 #FLUX: --urgency=16

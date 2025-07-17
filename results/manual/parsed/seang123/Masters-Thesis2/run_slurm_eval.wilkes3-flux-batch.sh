@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-butter-1885
+#FLUX: --job-name=eval
+#FLUX: --queue=ampere
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

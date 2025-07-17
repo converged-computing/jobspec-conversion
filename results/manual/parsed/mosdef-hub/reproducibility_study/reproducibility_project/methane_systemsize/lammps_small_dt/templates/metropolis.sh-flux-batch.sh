@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name={{ id }}
 #FLUX: --queue={{
+#FLUX: -t=719999
 #FLUX: --urgency=16
 
 {% extends "slurm.sh" %}

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-noodle-3048
+#FLUX: --job-name=OMNI_SMAC
+#FLUX: -c=4
+#FLUX: --queue=mlhiwidlc_gpu-rtx2080
 #FLUX: --urgency=16
 
 export PATH='$PATH:/home/zabergjg/miniconda3/envs/naslib/lib/python3.7/'

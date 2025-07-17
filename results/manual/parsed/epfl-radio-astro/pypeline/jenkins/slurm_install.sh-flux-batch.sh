@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-chair-0470
+#FLUX: --job-name=bricky-signal-5793
 #FLUX: -c=20
 #FLUX: --queue=build
 #FLUX: -t=3600

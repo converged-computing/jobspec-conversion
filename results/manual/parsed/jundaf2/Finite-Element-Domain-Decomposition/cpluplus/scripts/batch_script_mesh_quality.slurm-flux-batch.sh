@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=proj-benchmark
 #FLUX: --exclusive
+#FLUX: --queue=cs
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

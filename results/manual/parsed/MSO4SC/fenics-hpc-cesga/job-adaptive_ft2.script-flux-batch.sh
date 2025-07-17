@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cherry-4854
+#FLUX: --job-name=fenics-cube
+#FLUX: -N=4
+#FLUX: -n=96
+#FLUX: --queue=thinnodes
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export ATP_ENABLED='1'

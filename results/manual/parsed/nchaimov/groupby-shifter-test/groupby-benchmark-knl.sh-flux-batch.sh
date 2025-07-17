@@ -1,5 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lamp-1039
+#FLUX: --job-name=GroupByKNL
+#FLUX: -N=16
+#FLUX: -n=16
+#FLUX: -c=32
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export JAVA_HOME='/usr/lib/jvm/java-8-oracle'

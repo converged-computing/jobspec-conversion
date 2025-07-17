@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-butter-3110
+#FLUX: --job-name=gpujob
+#FLUX: --queue=ampere
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

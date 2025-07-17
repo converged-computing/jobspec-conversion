@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-hippo-7698
+#FLUX: --job-name=demo
+#FLUX: --queue=gpu
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

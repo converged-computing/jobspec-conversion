@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-rabbit-6125
+#FLUX: --job-name=spa_flow
 #FLUX: --exclusive
+#FLUX: --queue=lu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 MAX_SEED_VAL=10

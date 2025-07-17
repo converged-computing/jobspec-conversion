@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lentil-6412
+#FLUX: --job-name=job
 #FLUX: --urgency=16
 
 INPUTDECK="main.k"

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-diablo-9680
+#FLUX: --job-name=blank-hobbit-3081
+#FLUX: -n=8
+#FLUX: -c=4
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 MEMORY_PER_TASK=$(( $SLURM_CPUS_PER_TASK*$SLURM_MEM_PER_CPU ))

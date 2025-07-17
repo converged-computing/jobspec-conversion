@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NF-cellranger_atac_align
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export TERM='xterm'

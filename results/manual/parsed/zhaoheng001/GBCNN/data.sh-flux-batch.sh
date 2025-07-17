@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lizard-2664
+#FLUX: --job-name=ip
+#FLUX: -n=8
+#FLUX: --queue=volta
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 hostname

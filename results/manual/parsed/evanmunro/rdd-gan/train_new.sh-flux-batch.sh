@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-ricecake-3680
+#FLUX: --job-name=evasive-bike-3606
+#FLUX: --queue=athey
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module load python/3.6.1

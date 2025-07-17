@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-muffin-3375
+#FLUX: --job-name=blue-train-0444
+#FLUX: -n=2
+#FLUX: -c=6
 #FLUX: --queue=scavenger
 #FLUX: --urgency=16
 

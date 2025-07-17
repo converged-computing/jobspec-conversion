@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lemur-2566
+#FLUX: --job-name=bloated-bits-4820
+#FLUX: -n=2
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

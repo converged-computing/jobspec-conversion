@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-taco-1560
+#FLUX: --job-name=cowy-peas-6653
+#FLUX: -n=30
 #FLUX: --exclusive
+#FLUX: --queue=huce_intel
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 multirunlog="multirun.log"

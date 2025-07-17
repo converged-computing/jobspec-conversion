@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-gato-8444
+#FLUX: --job-name=hep_train_tf
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PYTHONPATH='$PWD:$PYTHONPATH'

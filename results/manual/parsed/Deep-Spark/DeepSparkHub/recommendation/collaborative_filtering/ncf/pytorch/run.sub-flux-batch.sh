@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-butter-1266
+#FLUX: --job-name=recommendation
 #FLUX: --exclusive
+#FLUX: --queue=mlperf
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 DATESTAMP=${DATESTAMP:-`date +'%y%m%d%H%M%S'`}

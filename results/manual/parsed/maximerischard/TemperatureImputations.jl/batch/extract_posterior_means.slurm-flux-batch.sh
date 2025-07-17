@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-animal-8083
+#FLUX: --job-name=extract_posterior_means
+#FLUX: --queue=general
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export JULIA_DEPOT_PATH='${HOME}/julia_depots/climate'

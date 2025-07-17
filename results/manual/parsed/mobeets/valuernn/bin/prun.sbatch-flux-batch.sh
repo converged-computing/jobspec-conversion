@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-nunchucks-6214
+#FLUX: --job-name=pytorch
+#FLUX: --queue=shared
+#FLUX: -t=1380
 #FLUX: --urgency=16
 
 module load python/3.8.5-fasrc01

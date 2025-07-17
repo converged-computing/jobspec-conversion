@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-general-7619
+#FLUX: --job-name=n16_b512_SHFTR
 #FLUX: -n=64
+#FLUX: -c=16
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 INPUT="$PSCRATCH/exabiome/deep-taxon/input/gtdb/r207/r207.rep.h5"

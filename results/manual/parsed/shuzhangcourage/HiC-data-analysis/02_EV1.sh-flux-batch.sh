@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=EV1
+#FLUX: --queue=fat
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

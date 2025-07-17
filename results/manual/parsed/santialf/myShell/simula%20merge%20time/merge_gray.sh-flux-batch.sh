@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-puppy-1306
+#FLUX: --job-name=blue-diablo-4576
+#FLUX: --queue=a100q
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 nvidia-smi

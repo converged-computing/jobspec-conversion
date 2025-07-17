@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-chip-5581
+#FLUX: --job-name=expressive-animal-6273
 #FLUX: -c=32
+#FLUX: --queue=dgx
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 conda activate tcm-test

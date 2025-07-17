@@ -1,7 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=cSiaSiGAP
 #FLUX: -n=16
+#FLUX: -c=2
 #FLUX: --queue=high
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

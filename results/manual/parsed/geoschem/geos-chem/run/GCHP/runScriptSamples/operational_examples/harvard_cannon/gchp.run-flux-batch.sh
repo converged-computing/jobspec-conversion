@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-snack-8225
+#FLUX: --job-name=frigid-arm-0673
+#FLUX: -N=2
+#FLUX: -n=96
 #FLUX: --exclusive
+#FLUX: --queue=sapphire,huce_cascade,seas_compute,shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMPI_MCL_btl='openib'

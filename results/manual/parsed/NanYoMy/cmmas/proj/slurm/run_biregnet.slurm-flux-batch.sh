@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-destiny-3274
+#FLUX: --job-name=biregnet
+#FLUX: --queue=gpu2
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 nvidia-smi -L

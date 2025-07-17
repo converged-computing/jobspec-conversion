@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=VAR_Test
+#FLUX: -n=16
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load gsl

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-parsnip-8128
+#FLUX: --job-name=goodbye-butter-9918
+#FLUX: --queue=gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module purge

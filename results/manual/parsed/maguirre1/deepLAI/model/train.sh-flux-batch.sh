@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-cattywampus-3077
+#FLUX: --job-name=segnet
+#FLUX: --queue=gpu,owners
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 __README="""

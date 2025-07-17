@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-arm-6024
+#FLUX: --job-name=goodbye-toaster-2068
 #FLUX: -c=8
 #FLUX: --exclusive
+#FLUX: --queue=small-g
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source /pfs/lustrep2/scratch/project_462000241/muennighoff/venv/bin/activate

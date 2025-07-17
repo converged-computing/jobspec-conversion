@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-platanos-9526
+#FLUX: --job-name=muffled-fork-8521
 #FLUX: --queue=priority
 #FLUX: --urgency=16
 

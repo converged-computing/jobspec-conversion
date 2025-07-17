@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-squidward-8802
+#FLUX: --job-name=muffled-punk-7193
+#FLUX: -N=8
+#FLUX: --queue=ProdQ
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-cat-5509
+#FLUX: --job-name=fat-kitty-3562
 #FLUX: --queue=amd
 #FLUX: -t=1800
 #FLUX: --urgency=16

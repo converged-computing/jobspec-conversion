@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-salad-4395
+#FLUX: --job-name=quirky-knife-9917
 #FLUX: --queue=longgpgpu
 #FLUX: -t=2592000
 #FLUX: --urgency=16

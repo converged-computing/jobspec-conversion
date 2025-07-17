@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-buttface-0039
+#FLUX: --job-name=5VKE_lb_25-122_5
+#FLUX: -n=8
+#FLUX: --queue=tcb
+#FLUX: -t=84600
 #FLUX: --urgency=16
 
 module unload gromacs

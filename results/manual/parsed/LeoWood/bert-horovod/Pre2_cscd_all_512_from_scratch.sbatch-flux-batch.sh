@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-bicycle-2607
+#FLUX: --job-name=pre_2
+#FLUX: -N=8
 #FLUX: -c=8
 #FLUX: --exclusive
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 export MIOPEN_USER_DB_PATH='/tmp/tensorflow-miopen-${USER}-2.8'

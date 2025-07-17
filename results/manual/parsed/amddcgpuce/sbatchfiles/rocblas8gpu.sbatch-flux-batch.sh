@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-soup-2178
+#FLUX: --job-name=fugly-bicycle-9080
 #FLUX: -c=16
 #FLUX: --urgency=16
 

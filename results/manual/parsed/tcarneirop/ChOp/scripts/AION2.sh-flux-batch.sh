@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-salad-8645
+#FLUX: --job-name=hello-lemon-3832
 #FLUX: -N=4
 #FLUX: -c=128
 #FLUX: --exclusive

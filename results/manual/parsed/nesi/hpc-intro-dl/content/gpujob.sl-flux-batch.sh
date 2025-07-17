@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-kerfuffle-2950
+#FLUX: --job-name=doopy-squidward-6243
 #FLUX: -c=2
 #FLUX: --queue=hgx
 #FLUX: -t=600

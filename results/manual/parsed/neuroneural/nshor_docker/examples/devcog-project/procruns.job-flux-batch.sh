@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-knife-9946
+#FLUX: --job-name=prpDEVCOG
+#FLUX: -c=4
+#FLUX: --queue=qTRD
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

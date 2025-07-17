@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-chip-9439
+#FLUX: --job-name=manual_annotate
+#FLUX: --queue=largemem
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module purge

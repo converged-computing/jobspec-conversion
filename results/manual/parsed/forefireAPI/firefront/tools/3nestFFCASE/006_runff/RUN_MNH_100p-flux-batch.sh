@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-squidward-6473
+#FLUX: --job-name=FIRECAST
+#FLUX: -n=150
 #FLUX: --queue=intel
 #FLUX: -t=108000
 #FLUX: --urgency=16

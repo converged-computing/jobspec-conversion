@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lettuce-8304
+#FLUX: --job-name=gloopy-hope-1462
 #FLUX: -N=2
 #FLUX: --queue=cluster
 #FLUX: -t=900

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-nunchucks-8530
+#FLUX: --job-name=psycho-noodle-0051
+#FLUX: -c=16
+#FLUX: --queue=AMG
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 echo 'JOB_NAME' $SLURM_JOB_NAME

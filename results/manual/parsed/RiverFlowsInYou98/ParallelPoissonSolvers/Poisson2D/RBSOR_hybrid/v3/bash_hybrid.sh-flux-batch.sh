@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-destiny-9374
+#FLUX: --job-name=MyParallelJob
 #FLUX: -n=16
 #FLUX: -c=2
 #FLUX: -t=3600

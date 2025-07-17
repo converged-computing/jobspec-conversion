@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-fudge-8626
+#FLUX: --job-name=bloated-milkshake-7409
 #FLUX: --urgency=16
 
 export HOME_PATH='${HOME}'

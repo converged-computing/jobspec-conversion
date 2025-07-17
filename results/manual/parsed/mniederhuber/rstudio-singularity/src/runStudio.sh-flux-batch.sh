@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-omelette-8144
+#FLUX: --job-name=salted-latke-3896
+#FLUX: --queue=interact
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

@@ -2,6 +2,7 @@
 #FLUX: --job-name=rico
 #FLUX: -c=18
 #FLUX: --queue=gpu
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module purge

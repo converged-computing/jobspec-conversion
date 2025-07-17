@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=gmgpolar
+#FLUX: -c=4
 #FLUX: --exclusive
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 debug=0

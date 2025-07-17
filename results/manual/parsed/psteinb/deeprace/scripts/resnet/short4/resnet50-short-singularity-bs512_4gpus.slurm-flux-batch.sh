@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-plant-8441
+#FLUX: --job-name=delicious-despacito-7527
+#FLUX: --queue=gpu2
 #FLUX: -t=5400
 #FLUX: --urgency=16
 

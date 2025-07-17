@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-taco-9237
+#FLUX: --job-name=purple-fork-0371
 #FLUX: --urgency=16
 
 module load Java/15.0.1 # For working on biocluster- change for AWS

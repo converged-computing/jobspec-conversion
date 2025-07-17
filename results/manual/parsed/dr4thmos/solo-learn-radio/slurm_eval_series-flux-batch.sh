@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-nalgas-8027
+#FLUX: --job-name=misunderstood-staircase-8219
 #FLUX: -c=16
 #FLUX: --queue=boost_usr_prod
 #FLUX: -t=86400

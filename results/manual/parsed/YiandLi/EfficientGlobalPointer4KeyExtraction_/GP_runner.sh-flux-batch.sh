@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-fudge-0280
+#FLUX: --job-name=loopy-cherry-9305
+#FLUX: -n=5
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 module load nvidia/cuda/10.0

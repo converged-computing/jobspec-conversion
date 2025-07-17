@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-gato-1849
+#FLUX: --job-name=inference5
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 id -a

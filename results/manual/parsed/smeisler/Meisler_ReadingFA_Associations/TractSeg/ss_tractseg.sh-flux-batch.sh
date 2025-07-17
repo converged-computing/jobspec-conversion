@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-toaster-9609
+#FLUX: --job-name=tractseg
 #FLUX: -c=8
 #FLUX: -t=86400
 #FLUX: --urgency=16

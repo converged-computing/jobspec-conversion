@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-bits-3794
+#FLUX: --job-name=expressive-cattywampus-5333
+#FLUX: --queue=main
 #FLUX: --urgency=16
 
 set -e

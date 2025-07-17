@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-signal-7013
+#FLUX: --job-name=milky-butter-5316
 #FLUX: -t=30600
 #FLUX: --urgency=16
 

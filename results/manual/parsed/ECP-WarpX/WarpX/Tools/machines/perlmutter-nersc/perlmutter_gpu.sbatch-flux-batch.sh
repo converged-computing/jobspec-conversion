@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-omelette-9978
+#FLUX: --job-name=WarpX
+#FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=regular
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export MPICH_OFI_NIC_POLICY='GPU'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-signal-1200
+#FLUX: --job-name=grated-caramel-8394
+#FLUX: --queue=gpu_shared
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 module load 2020

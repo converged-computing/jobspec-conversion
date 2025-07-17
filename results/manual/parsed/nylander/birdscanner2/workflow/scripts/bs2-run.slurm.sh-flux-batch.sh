@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-mango-5129
+#FLUX: --job-name=bs2-run
+#FLUX: --queue=core
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load bioinfo-tools

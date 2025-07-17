@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-carrot-3610
+#FLUX: --job-name=hanky-diablo-4139
+#FLUX: -N=16
 #FLUX: -c=14
+#FLUX: --queue=RM
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set echo

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-carrot-9247
+#FLUX: --job-name=snre_b
 #FLUX: --exclusive
+#FLUX: --queue=lu
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

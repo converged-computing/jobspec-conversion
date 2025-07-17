@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ChildMindDL
 #FLUX: --queue=gpu-shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source ~/.bashrc

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-rabbit-1040
+#FLUX: --job-name=args_send_recv
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120

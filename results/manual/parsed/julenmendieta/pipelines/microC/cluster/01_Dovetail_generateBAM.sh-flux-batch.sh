@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=microC
 #FLUX: -c=16
+#FLUX: --queue=short
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lizard-7100
+#FLUX: --job-name=pusheena-hope-8029
+#FLUX: --queue=condo
 #FLUX: -t=42900
 #FLUX: --urgency=16
 

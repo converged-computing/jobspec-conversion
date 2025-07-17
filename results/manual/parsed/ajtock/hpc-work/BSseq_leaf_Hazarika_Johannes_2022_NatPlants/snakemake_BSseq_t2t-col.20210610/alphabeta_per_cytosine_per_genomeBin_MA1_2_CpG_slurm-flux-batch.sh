@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-butter-6530
+#FLUX: --job-name=AB_CpG
+#FLUX: --queue=skylake
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

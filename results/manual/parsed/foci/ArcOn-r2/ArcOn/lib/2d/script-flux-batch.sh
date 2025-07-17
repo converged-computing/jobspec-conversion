@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-poodle-5609
+#FLUX: --job-name=ArcOn_ITER
+#FLUX: -n=64
+#FLUX: --queue=development
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export MV2_ON_DEMAND_THRESHOLD='64'

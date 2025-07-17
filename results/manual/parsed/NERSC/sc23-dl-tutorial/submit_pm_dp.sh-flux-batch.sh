@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-leg-2076
+#FLUX: --job-name=vit-era5
 #FLUX: -c=32
+#FLUX: --queue=regular
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

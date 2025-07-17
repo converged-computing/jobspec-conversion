@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-rabbit-1872
+#FLUX: --job-name=stinky-buttface-7968
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PYTHONPATH='...'

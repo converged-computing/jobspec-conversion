@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-pot-0255
+#FLUX: --job-name=run-meld
+#FLUX: --queue=skylake-himem
 #FLUX: -t=600
 #FLUX: --urgency=16
 

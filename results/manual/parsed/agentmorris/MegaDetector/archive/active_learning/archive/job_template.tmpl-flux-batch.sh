@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-taco-3227
+#FLUX: --job-name=$name
 #FLUX: -c=10
 #FLUX: -t=601200
 #FLUX: --urgency=16

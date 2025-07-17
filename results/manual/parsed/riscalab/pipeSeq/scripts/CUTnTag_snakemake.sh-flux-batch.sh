@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-sundae-1541
+#FLUX: --job-name=expensive-snack-6877
+#FLUX: -n=4
 #FLUX: --urgency=16
 
 pipe="CUTnTag"

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-puppy-9511
+#FLUX: --job-name=y8x2048s0
 #FLUX: -N=20
 #FLUX: --exclusive
+#FLUX: --queue=cca
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

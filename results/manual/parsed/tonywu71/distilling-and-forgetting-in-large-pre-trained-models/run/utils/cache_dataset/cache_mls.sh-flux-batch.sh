@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-rabbit-3162
+#FLUX: --job-name=cache_mls
+#FLUX: --queue=skylake,cclake
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

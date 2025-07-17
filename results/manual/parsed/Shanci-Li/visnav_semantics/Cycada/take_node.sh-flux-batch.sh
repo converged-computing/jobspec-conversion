@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-hippo-5139
+#FLUX: --job-name=psycho-muffin-8467
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=gpu

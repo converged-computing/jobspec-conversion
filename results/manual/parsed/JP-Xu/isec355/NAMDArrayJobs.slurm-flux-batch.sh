@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-egg-1658
+#FLUX: --job-name=JOBNAME
+#FLUX: --queue=gpu
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module purge

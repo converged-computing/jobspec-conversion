@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-fork-6457
+#FLUX: --job-name=expressive-avocado-2407
 #FLUX: -c=16
 #FLUX: --urgency=16
 

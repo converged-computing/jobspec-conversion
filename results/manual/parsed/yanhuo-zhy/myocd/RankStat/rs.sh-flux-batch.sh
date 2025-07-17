@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-leg-0814
+#FLUX: --job-name=lovable-taco-5620
+#FLUX: -c=5
+#FLUX: --queue=general
 #FLUX: --urgency=16
 
 module load gcc/gcc-10.2.0

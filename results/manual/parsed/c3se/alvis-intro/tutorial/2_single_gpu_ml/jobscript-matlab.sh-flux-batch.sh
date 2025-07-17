@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-mango-8303
+#FLUX: --job-name=ml-matlab
+#FLUX: --queue=alvis
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 ml purge

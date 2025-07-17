@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-onion-6046
+#FLUX: --job-name=nerdy-chip-7817
+#FLUX: -c=4
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=01b_cons_RS_between
+#FLUX: --queue=gpu
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 module load anaconda3

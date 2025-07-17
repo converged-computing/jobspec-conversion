@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-squidward-1976
+#FLUX: --job-name=pgr3_010
+#FLUX: --queue=ampere
 #FLUX: -t=129540
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-motorcycle-6634
+#FLUX: --job-name=husky_att_inversion
+#FLUX: -N=32
+#FLUX: -n=32
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export user='$(whoami)'

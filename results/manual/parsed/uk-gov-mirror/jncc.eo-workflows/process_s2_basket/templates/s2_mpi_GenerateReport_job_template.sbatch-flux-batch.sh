@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-muffin-1788
+#FLUX: --job-name=arid-fork-7104
+#FLUX: --queue=short-serial
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

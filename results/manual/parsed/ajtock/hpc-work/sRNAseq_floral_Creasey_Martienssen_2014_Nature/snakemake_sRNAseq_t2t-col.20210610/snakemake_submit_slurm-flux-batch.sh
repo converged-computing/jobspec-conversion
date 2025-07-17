@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-spoon-4641
+#FLUX: --job-name=sRNAseq_floral_t2t-col.20210610
+#FLUX: --queue=skylake-himem
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

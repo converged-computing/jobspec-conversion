@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-mango-1101
+#FLUX: --job-name=namd
+#FLUX: -n=28
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 ml purge  > /dev/null 2>&1 

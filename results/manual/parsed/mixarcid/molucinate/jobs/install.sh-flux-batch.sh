@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-hope-1371
+#FLUX: --job-name=install
 #FLUX: --queue=dept_cpu
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 cd ..

@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=do_tasks
+#FLUX: -n=20
+#FLUX: --queue=shared
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export MATPLOTLIBRC='$HOME/.config/matplotlib'

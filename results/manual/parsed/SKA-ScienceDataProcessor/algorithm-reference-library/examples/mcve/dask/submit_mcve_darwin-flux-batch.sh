@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-carrot-4666
+#FLUX: --job-name=SDP_ARL
 #FLUX: -N=4
 #FLUX: -n=32
+#FLUX: --queue=sandybridge
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

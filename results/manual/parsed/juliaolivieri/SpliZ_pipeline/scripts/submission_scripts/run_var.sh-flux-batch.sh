@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=var
+#FLUX: --queue=owners,horence,quake
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

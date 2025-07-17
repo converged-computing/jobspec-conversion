@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cherry-3798
+#FLUX: --job-name=underlay_EE
 #FLUX: -t=172799
 #FLUX: --urgency=16
 

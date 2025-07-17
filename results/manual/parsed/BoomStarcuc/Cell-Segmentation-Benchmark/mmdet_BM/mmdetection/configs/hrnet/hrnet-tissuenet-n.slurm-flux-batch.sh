@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-fork-8370
+#FLUX: --job-name=hrnet-tissuenet-n-1C
+#FLUX: --queue=tier3
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

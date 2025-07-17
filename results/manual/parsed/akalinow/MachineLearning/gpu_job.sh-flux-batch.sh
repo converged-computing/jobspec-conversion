@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lizard-8602
+#FLUX: --job-name=testjob
+#FLUX: --queue=plgrid-gpu
 #FLUX: -t=600
 #FLUX: --urgency=16
 

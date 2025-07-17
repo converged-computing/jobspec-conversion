@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-eagle-3056
+#FLUX: --job-name=tf_1GPU
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

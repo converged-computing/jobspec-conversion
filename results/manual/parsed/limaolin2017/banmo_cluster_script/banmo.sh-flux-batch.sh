@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-kitty-4434
+#FLUX: --job-name=3D_reconstruction
+#FLUX: -N=2
+#FLUX: --queue=high
 #FLUX: -t=362439
 #FLUX: --urgency=16
 

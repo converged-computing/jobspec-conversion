@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-cat-8221
+#FLUX: --job-name=astute-snack-1445
 #FLUX: --exclusive
 #FLUX: -t=21600
 #FLUX: --urgency=16

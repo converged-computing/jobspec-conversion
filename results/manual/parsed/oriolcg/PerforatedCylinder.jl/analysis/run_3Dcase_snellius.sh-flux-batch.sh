@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=perf_cylinder_3D
+#FLUX: -n=4
 #FLUX: --queue=thin
 #FLUX: -t=172800
 #FLUX: --urgency=16

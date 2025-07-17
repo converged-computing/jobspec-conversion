@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-taco-6930
+#FLUX: --job-name=lerdl-ss-voc12-train.rn50.all
+#FLUX: --queue=sequana_gpu_shared
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

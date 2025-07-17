@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=informarl10
+#FLUX: -c=40
 #FLUX: --urgency=16
 
 source /etc/profile

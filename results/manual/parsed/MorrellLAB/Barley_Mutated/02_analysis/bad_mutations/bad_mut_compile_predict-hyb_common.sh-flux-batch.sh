@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-arm-9907
+#FLUX: --job-name=expensive-milkshake-8889
+#FLUX: --queue=small,ram256g,ram1t
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

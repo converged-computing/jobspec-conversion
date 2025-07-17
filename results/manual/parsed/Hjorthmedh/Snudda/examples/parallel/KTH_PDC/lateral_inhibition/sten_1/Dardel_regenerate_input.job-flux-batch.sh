@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lettuce-8179
+#FLUX: --job-name=SnuddaInput
+#FLUX: -n=128
 #FLUX: -c=2
 #FLUX: --queue=main
+#FLUX: -t=3540
 #FLUX: --urgency=16
 
 export IPNWORKERS='$NWORKERS'

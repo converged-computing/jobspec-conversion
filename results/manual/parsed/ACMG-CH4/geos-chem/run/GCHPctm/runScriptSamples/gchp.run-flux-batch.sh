@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-hippo-6038
+#FLUX: --job-name=fuzzy-rabbit-2856
+#FLUX: -n=6
 #FLUX: --exclusive
+#FLUX: --queue=huce_intel
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 log="gchp.log"

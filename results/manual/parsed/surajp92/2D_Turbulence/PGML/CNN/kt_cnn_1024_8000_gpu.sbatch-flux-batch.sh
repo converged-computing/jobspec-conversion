@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-nalgas-2808
+#FLUX: --job-name=gloopy-platanos-4179
+#FLUX: --queue=bullet
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load cuda/11.0

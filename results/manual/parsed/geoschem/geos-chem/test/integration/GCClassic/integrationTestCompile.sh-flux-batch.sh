@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-chip-2691
+#FLUX: --job-name=expressive-leg-7730
+#FLUX: -c=8
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 quick="${1}"

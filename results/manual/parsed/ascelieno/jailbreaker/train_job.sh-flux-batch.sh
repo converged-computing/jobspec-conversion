@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-eagle-6236
+#FLUX: --job-name=goodbye-punk-3219
+#FLUX: --queue=amd_gpu
 #FLUX: -t=450000
 #FLUX: --urgency=16
 

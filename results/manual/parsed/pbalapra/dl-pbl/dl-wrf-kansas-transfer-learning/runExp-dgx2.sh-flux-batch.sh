@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-parsnip-9024
+#FLUX: --job-name=arid-muffin-0000
 #FLUX: --urgency=16
 

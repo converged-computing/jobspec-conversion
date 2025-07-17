@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-peanut-butter-9392
+#FLUX: --job-name=frigid-house-1509
+#FLUX: --queue=standard
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module purge

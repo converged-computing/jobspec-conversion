@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-house-9914
+#FLUX: --job-name=reclusive-plant-0045
 #FLUX: --urgency=16
 
 export DIALOGRC='${HPCTOYS_ROOT}/etc/.dialogrc'

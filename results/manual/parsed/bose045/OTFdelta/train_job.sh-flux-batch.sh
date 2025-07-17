@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-taco-3236
+#FLUX: --job-name=macetrn
+#FLUX: --queue=npl
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='40 # Hyperthreading'

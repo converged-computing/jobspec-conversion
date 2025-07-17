@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-house-8996
+#FLUX: --job-name=coco20k_vit_b_16
 #FLUX: -c=32
+#FLUX: --queue=ampere
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

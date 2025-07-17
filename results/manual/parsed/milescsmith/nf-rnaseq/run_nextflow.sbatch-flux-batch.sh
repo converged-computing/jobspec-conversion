@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-poo-4062
+#FLUX: --job-name=demux
 #FLUX: -c=16
 #FLUX: --queue=serial
 #FLUX: --urgency=16

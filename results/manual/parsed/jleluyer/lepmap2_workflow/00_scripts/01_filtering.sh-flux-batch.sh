@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=filter
+#FLUX: --queue=ibismini
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

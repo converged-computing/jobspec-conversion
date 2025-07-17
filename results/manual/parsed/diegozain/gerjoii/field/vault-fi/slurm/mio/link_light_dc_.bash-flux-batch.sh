@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-sundae-1923
-#FLUX: -c=20
+#FLUX: --job-name=outstanding-spoon-7546
+#FLUX: -c=28
 #FLUX: --exclusive
+#FLUX: -t=43140
 #FLUX: --urgency=16
 
 ulimit -v unlimited

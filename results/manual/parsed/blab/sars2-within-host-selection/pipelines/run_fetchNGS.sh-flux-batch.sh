@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-gato-9494
+#FLUX: --job-name=salted-car-7962
 #FLUX: -n=15
 #FLUX: --queue=campus-new
 #FLUX: -t=3600

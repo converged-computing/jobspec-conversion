@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-banana-1423
+#FLUX: --job-name=SL-RPC
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 set -e  # stop on error

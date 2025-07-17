@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-egg-8322
+#FLUX: --job-name=frigid-egg-4205
 #FLUX: --queue=amdgpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

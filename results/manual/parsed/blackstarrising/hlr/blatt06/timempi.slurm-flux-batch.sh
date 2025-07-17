@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-onion-2285
+#FLUX: --job-name=dirty-taco-1859
 #FLUX: -N=4
 #FLUX: -n=12
 #FLUX: --queue=west

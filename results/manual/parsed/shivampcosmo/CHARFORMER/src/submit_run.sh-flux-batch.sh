@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=RUN_MULTGPU_DDP
+#FLUX: --queue=gpu
 #FLUX: -t=57600
 #FLUX: --urgency=16
 

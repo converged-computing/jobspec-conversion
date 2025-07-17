@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-malarkey-0302
+#FLUX: --job-name=phat-animal-0390
 #FLUX: -N=4
 #FLUX: -n=4
 #FLUX: -c=4

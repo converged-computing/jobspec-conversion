@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-staircase-6163
+#FLUX: --job-name=example_Satori_batch_2_nodes
 #FLUX: --exclusive
+#FLUX: --queue=sched_system_all_8
 #FLUX: -t=180
 #FLUX: --urgency=16
 

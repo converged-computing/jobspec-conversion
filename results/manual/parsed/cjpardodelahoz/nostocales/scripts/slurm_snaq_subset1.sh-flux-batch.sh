@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lemur-1988
+#FLUX: --job-name=moolicious-truffle-8338
+#FLUX: -c=10
 #FLUX: --queue=scavenger
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ast-esc50
+#FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export TORCH_HOME='../../pretrained_models'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-caramel-1769
+#FLUX: --job-name=strawberry-hobbit-2735
+#FLUX: -c=20
+#FLUX: --queue=coin,batch-ivb,batch-hsw,short-ivb,short-hsw,batch-csl,batch-skl
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 source ../common/common.sh

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-caramel-7395
+#FLUX: --job-name=misunderstood-egg-6023
+#FLUX: --queue=PA40q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1'

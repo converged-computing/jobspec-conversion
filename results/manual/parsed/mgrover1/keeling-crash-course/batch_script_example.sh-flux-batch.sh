@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lemon-0768
+#FLUX: --job-name=placid-buttface-1678
+#FLUX: -n=20
+#FLUX: --queue=node
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-plant-1308
+#FLUX: --job-name=eval_unet_128
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-snack-8377
+#FLUX: --job-name=a
+#FLUX: --queue=gtx
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 module load cuda

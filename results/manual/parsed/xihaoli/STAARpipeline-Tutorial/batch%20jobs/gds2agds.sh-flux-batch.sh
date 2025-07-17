@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peas-2205
+#FLUX: --job-name=S3
+#FLUX: --queue=shared
 #FLUX: -t=8640
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-snack-0993
+#FLUX: --job-name=lerdl-ss-cifar100-train.rn50.all
+#FLUX: --queue=sequana_gpu_shared
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

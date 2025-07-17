@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=IsONformDrosophila
+#FLUX: --queue=core
 #FLUX: -t=864000
 #FLUX: --urgency=16
 

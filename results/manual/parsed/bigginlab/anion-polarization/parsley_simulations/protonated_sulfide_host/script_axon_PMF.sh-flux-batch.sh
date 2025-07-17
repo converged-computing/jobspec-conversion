@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-poodle-1482
+#FLUX: --job-name=Cl_wat_parsley_PMF_biotin
 #FLUX: -c=6
+#FLUX: --queue=gpu-biggin4,
 #FLUX: -t=518400
 #FLUX: --urgency=16
 

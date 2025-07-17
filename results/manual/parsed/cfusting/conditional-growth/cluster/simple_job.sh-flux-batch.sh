@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-despacito-8706
+#FLUX: --job-name=catnap
+#FLUX: -c=2
+#FLUX: --queue=preempt
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

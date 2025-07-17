@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cattywampus-0767
+#FLUX: --job-name=MesoNH-compile
+#FLUX: -n=10
+#FLUX: --queue=debug
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}

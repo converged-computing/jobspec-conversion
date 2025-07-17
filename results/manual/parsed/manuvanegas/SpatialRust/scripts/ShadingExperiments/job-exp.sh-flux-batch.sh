@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-eagle-3376
+#FLUX: --job-name=shadeexp
 #FLUX: -n=30
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'

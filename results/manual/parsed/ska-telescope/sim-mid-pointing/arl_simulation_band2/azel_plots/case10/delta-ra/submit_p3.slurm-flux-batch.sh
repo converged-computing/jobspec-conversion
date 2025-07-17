@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-frito-5464
+#FLUX: --job-name=CASE5_30s
 #FLUX: -N=16
 #FLUX: -n=33
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

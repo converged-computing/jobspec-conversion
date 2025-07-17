@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-noodle-2815
+#FLUX: --job-name=iqtree
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 export SINGULARITY_BINDPATH='/gpfs/data/cbc/aguang/hiv_wide'

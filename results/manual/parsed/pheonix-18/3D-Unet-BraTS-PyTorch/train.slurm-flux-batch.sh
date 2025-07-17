@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=3DU
+#FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 echo "Slurm nodes: $SLURM_JOB_NODELIST"

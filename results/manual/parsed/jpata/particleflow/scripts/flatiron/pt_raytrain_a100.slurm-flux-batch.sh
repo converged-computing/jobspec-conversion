@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-buttface-3145
+#FLUX: --job-name=pt_raytrain
 #FLUX: -c=64
 #FLUX: --gpus-per-task=4
 #FLUX: --exclusive
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-kerfuffle-3505
+#FLUX: --job-name=octeract-engine.install
 #FLUX: --queue=cstest
+#FLUX: -t=3000
 #FLUX: --urgency=16
 
 PACKAGENAME=octeract-engine

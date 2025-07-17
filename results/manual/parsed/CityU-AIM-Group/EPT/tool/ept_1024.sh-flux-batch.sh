@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-kitty-0095
+#FLUX: --job-name=pt4pc
+#FLUX: -c=4
 #FLUX: --queue=gpu1
 #FLUX: --urgency=16
 

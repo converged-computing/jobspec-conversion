@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-toaster-7667
+#FLUX: --job-name=hello-salad-6083
+#FLUX: --queue=general
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 while getopts a:s:x:u: option

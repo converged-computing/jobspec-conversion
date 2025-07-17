@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leader-9771
+#FLUX: --job-name=astute-gato-8484
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

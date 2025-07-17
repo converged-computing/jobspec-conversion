@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=vakEV
+#FLUX: --queue=serial
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

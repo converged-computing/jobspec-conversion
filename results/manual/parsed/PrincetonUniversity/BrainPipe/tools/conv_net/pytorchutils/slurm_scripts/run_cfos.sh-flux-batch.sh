@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-signal-5959
+#FLUX: --job-name=bumfuzzled-pancake-1623
+#FLUX: --queue=all
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 module load cudatoolkit/10.0 cudnn/cuda-10.0/7.3.1 anaconda3/5.3.1

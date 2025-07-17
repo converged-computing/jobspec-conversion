@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-toaster-1269
+#FLUX: --job-name=sinit_ngdr
+#FLUX: --queue=tesla
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

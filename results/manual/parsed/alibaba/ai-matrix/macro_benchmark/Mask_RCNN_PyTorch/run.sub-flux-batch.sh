@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-spoon-8265
+#FLUX: --job-name=object_detection
 #FLUX: --exclusive
+#FLUX: --queue=mlperf
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export MLPERF_HOST_OS='$(cat /etc/issue | head -1 | cut -f1-3 -d" ") / $(cat /etc/dgx-release | grep -E "DGX_PRETTY_NAME|DGX_OTA_VERSION" |cut -f2 -d= |cut -f2 -d '"' |paste -sd' ')'

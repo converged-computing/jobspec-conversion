@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lettuce-0698
+#FLUX: --job-name=tf_4GPUs
 #FLUX: --exclusive
 #FLUX: -t=36000
 #FLUX: --urgency=16

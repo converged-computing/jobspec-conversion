@@ -2,6 +2,7 @@
 #FLUX: --job-name=ITER_SOLVERS
 #FLUX: --exclusive
 #FLUX: --queue=gpu
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export nvcudadir='$nvhome/$target/$version/cuda'

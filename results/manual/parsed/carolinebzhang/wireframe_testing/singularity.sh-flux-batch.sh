@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-punk-5991
+#FLUX: --job-name=outstanding-chip-3410
+#FLUX: -n=4
+#FLUX: --queue=gpu
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

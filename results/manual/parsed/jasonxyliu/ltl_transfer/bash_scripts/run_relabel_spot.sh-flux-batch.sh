@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-chip-9569
+#FLUX: --job-name=strawberry-omelette-4902
+#FLUX: -N=3
+#FLUX: -n=144
+#FLUX: -t=356400
 #FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'

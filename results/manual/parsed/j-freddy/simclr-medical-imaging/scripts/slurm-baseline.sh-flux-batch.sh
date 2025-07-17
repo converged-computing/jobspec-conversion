@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-spoon-3327
+#FLUX: --job-name=persnickety-lizard-3589
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/vol/bitbucket/${USER}/individual-project-refined/venv/lib/python3.10/site-packages/nvidia/cublas/lib:${LD_LIBRARY_PATH}'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-arm-4044
+#FLUX: --job-name=VCFtoMAF
+#FLUX: -n=8
+#FLUX: --queue=core
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export NXF_OFFLINE='TRUE'

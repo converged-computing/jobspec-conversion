@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-spoon-3820
+#FLUX: --job-name=tealeaf-faults-quant
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-arm-8558
+#FLUX: --job-name=butterscotch-avocado-2703
+#FLUX: -n=6
+#FLUX: --queue=dgx2q
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

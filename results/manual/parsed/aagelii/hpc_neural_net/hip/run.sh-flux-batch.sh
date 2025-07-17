@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lizard-8321
+#FLUX: --job-name=project
+#FLUX: --queue=wacc
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load nvidia/cuda/11.6.0

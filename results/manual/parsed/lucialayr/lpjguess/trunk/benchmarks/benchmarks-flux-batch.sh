@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-leg-3732
+#FLUX: --job-name=pp_${test_name}
 #FLUX: --urgency=16
 
 cmake_command="cmake -D CMAKE_BUILD_TYPE=Release"

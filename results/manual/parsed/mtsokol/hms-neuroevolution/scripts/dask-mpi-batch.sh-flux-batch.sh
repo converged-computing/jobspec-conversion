@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-squidward-2683
+#FLUX: --job-name=hms-neuro-job
 #FLUX: -N=10
+#FLUX: --queue=plgrid-short
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export NOISE_PATH='/net/archive/groups/plgghmsneuro/noise.npy'

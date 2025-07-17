@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-plant-6687
+#FLUX: --job-name=H1_S2
+#FLUX: --queue=small
 #FLUX: -t=600
 #FLUX: --urgency=16
 

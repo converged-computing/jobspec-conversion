@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lettuce-4662
+#FLUX: --job-name=linkage_map_vanessa_lepmap_dtol
+#FLUX: -n=2
+#FLUX: --queue=core
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export CONDA_ENVS_PATH='/proj/uppstore2017185/b2014034_nobackup/Karin/envs/'

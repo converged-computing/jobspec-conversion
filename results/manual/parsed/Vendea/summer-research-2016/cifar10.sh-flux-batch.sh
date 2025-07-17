@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cupcake-2331
+#FLUX: --job-name=dinosaur-motorcycle-9436
 #FLUX: -n=20
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 . ~/.profile

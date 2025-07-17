@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-cat-9759
+#FLUX: --job-name=READEX-kripke
 #FLUX: -n=24
 #FLUX: --exclusive
 #FLUX: --queue=haswell

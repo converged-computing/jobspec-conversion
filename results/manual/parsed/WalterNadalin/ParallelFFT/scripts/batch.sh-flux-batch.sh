@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=wanda_parallel_fft
+#FLUX: -N=8
+#FLUX: --queue=m100_usr_prod
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

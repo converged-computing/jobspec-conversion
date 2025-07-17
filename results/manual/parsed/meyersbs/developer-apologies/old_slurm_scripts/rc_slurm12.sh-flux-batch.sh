@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-kitty-7068
+#FLUX: --job-name=devaps12
+#FLUX: --queue=tier3
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 echo "Loading environment"

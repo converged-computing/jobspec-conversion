@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-bicycle-9065
+#FLUX: --job-name=grated-kerfuffle-6595
+#FLUX: --queue=compsci
 #FLUX: --urgency=16
 
 echo julia --project=. -t$SLURM_CPUS_PER_TASK --compiled-modules=no $(scontrol show job=$SLURM_JOBID | awk -F= '/Command=/{print $2}')

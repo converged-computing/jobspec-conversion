@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-soup-1898
+#FLUX: --job-name=loopy-carrot-6945
+#FLUX: --queue=short
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module use /share/apps2/singularity/modules

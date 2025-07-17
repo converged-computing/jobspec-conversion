@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-peanut-3245
+#FLUX: --job-name=AE
 #FLUX: --exclusive
+#FLUX: --queue=Nvidia_A800
 #FLUX: --urgency=16
 
 export RAY_DEDUP_LOGS='0'

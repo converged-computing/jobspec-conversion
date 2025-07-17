@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-animal-6602
+#FLUX: --job-name=butterscotch-latke-9940
 #FLUX: -c=5
+#FLUX: --queue=astro
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

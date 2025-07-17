@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-soup-7894
+#FLUX: --job-name=chunky-nunchucks-9624
 #FLUX: -c=4
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 umask 002

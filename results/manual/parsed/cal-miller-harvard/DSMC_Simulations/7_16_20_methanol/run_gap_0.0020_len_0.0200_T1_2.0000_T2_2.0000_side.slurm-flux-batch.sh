@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-parsnip-1109
+#FLUX: --job-name=muffled-lemon-4964
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

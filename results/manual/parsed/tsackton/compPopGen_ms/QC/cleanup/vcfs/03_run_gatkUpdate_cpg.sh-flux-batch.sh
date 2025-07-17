@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-rabbit-5006
+#FLUX: --job-name=gatkUpdate
+#FLUX: --queue=shared
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 set -o errexit

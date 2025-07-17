@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-snack-4957
+#FLUX: --job-name=astute-milkshake-1374
 #FLUX: --exclusive
+#FLUX: --queue=normal_q
+#FLUX: -t=288000
 #FLUX: --urgency=16
 
 module purge

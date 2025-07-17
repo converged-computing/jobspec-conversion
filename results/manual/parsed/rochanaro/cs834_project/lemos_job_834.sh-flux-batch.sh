@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lettuce-3752
+#FLUX: --job-name=blank-bike-5552
+#FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export CUDA_HOME='/cm/shared/applications/cuda-toolkit/11.7.1/'

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-pancake-8374
+#FLUX: --job-name=PkgCompiler
 #FLUX: -n=5
+#FLUX: --queue=public
+#FLUX: -t=2100
 #FLUX: --urgency=16
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-motorcycle-9276
+#FLUX: --job-name=bumfuzzled-fork-9972
 #FLUX: --urgency=16
 
 export IFS=';'

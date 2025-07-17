@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-puppy-7254
+#FLUX: --job-name=cworkshop_multi_ica
+#FLUX: --queue=qTRD
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 sleep 10s 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-dog-8497
+#FLUX: --job-name=HydraGNN
+#FLUX: -N=2048
+#FLUX: --queue=batch
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export MIOPEN_DISABLE_CACHE='1'

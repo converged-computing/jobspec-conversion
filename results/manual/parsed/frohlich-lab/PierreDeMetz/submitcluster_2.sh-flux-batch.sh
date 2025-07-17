@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-fork-6663
+#FLUX: --job-name=scruptious-lizard-0067
+#FLUX: --queue=cpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export WANDB_API_KEY='########'

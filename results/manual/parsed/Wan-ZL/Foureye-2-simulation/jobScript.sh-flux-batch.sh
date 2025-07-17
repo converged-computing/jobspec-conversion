@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-muffin-4651
+#FLUX: --job-name=boopy-destiny-9165
 #FLUX: -n=32
+#FLUX: --queue=dev_q
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 echo "Scrpt Start"

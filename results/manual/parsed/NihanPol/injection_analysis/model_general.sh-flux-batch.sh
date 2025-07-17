@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-carrot-9687
+#FLUX: --job-name=scruptious-sundae-0261
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NihanPol/injection_analysis/model_general.sh

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-parsnip-4841
+#FLUX: --job-name=gpujob
+#FLUX: --queue=ampere
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

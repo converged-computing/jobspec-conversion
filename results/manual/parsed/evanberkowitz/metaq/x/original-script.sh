@@ -1,17 +1,17 @@
 #!/bin/bash
-#SBATCH -A [your account]
-#SBATCH -N 10
-#SBATCH -t 15:00
-#SBATCH [whatever other options]
-#SBATCH -o /full/path/to/metaq/job/%J/log/%J.log
-#SBATCH -N metaq_example_job
+#PBS -W group_list=[your account]
+#PBS -l nodes=10
+#PBS -l walltime=15:00
+#PBS   [whatever other options]
+#PBS -o /full/path/to/metaq/job/%J/log/%J.log
+#PBS -N metaq_example_job
 
 # REQUIRED USER-SPECIFIED OPTIONS
 
 METAQ=/full/path/to/metaq       # Specifies the full path to the metaq folder itself.
-METAQ_JOB_ID=${SLURM_JOB_ID}    # Any string.  You don't have to use the batch scheduler ID,
+METAQ_JOB_ID=${PBS_JOB_ID}      # Any string.  You don't have to use the batch scheduler ID,
                                 # but you should ensure that the METAQ_JOB_ID is unique.
-METAQ_NODES=${SLURM_NNODES}     # Integer, which should be less than or equal to the nodes specified to the batch scheduler.
+METAQ_NODES=${PBS_NUM_NODES}    # Integer, which should be less than or equal to the nodes specified to the batch scheduler.
                                 # But if it's less than, you're guaranteeing you're wasting resources.
 METAQ_RUN_TIME=900              # Seconds, should match the above walltime=15:00.
                                 # You may also specify times in the format for the #METAQ MIN_WC_TIME flag, [[HH:]MM:]SS.

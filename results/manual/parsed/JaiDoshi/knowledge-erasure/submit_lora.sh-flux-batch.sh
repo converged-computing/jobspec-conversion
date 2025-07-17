@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=job_wgpu
+#FLUX: -c=4
 #FLUX: -t=115800
 #FLUX: --urgency=16
 

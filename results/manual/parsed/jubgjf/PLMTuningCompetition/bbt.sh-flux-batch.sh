@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-lettuce-9431
+#FLUX: --job-name=bbt
+#FLUX: --queue=compute
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 source ~/.local/bin/miniconda3/etc/profile.d/conda.sh

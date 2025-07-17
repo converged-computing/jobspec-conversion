@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-animal-6273
+#FLUX: --job-name=grid_search_sequential_seed_3030
 #FLUX: --queue=alpha
 #FLUX: -t=216000
 #FLUX: --urgency=16

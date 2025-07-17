@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gq_mixing
 #FLUX: --queue=a100l
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='6'

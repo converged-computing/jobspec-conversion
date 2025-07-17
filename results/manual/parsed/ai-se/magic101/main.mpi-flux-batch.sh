@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bicycle-4216
+#FLUX: --job-name=OIL
+#FLUX: -n=10
+#FLUX: -t=75600
 #FLUX: --urgency=16
 
 cd /home/txia4/magic101

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lamp-9708
+#FLUX: --job-name=eval
+#FLUX: -c=32
 #FLUX: --exclusive
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 MODEL_NAME="CausalLM-14B"

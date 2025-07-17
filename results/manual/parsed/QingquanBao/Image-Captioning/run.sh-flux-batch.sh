@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bike-2427
+#FLUX: --job-name=astute-ricecake-2396
+#FLUX: --queue=a100
 #FLUX: --urgency=16
 
 python main.py train_evaluate --config_file configs/resnet101_attention_schedule.yaml 

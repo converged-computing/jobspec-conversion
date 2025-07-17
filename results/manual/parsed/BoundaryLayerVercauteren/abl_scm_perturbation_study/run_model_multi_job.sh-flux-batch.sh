@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-platanos-0002
+#FLUX: --job-name=red-cat-1216
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-buttface-0806
+#FLUX: --job-name=grated-onion-3147
 #FLUX: -c=2
 #FLUX: --queue=infofil01
 #FLUX: --urgency=16

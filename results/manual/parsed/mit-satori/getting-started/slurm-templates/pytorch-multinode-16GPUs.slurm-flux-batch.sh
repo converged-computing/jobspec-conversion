@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-salad-0185
+#FLUX: --job-name=pytorch_multi-16GPUs
 #FLUX: -N=4
 #FLUX: --exclusive
+#FLUX: --queue=sched_system_all
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

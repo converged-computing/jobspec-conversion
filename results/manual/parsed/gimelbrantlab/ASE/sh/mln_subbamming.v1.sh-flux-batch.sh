@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-bike-3759
+#FLUX: --job-name=crusty-carrot-7502
+#FLUX: -c=4
+#FLUX: --queue=medium
+#FLUX: -t=169200
 #FLUX: --urgency=16
 
 module load gcc python R/3.4.1 samtools/1.3.1 star

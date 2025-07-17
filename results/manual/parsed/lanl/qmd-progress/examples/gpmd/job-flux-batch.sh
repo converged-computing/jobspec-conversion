@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-latke-2065
+#FLUX: --job-name=spicy-caramel-6727
+#FLUX: -n=40
+#FLUX: --queue=ccs6
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

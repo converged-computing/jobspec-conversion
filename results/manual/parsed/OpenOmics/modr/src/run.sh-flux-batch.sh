@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-taco-1405
+#FLUX: --job-name=$2
 #FLUX: -c=16
 #FLUX: -t=432000
 #FLUX: --urgency=16

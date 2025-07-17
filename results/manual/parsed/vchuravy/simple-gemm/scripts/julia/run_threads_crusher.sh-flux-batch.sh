@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-ricecake-9452
+#FLUX: --job-name=65536M_julia_32_16
+#FLUX: --queue=batch
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 M=65536 # 2^16

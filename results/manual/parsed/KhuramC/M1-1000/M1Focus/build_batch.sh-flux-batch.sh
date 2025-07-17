@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-noodle-5947
+#FLUX: --job-name=M1_build
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 START=$(date)

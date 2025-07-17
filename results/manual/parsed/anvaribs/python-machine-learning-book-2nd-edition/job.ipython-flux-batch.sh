@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-banana-6731
+#FLUX: --job-name=tvp_ipython
+#FLUX: -n=20
+#FLUX: --queue=vis
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 echo job $JOB_ID execution at: `date`

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cattywampus-5641
+#FLUX: --job-name=abinit
+#FLUX: -N=8
 #FLUX: --exclusive
+#FLUX: --queue=kshctest
 #FLUX: --urgency=16
 
 export UCX_LOG_LEVEL='error'

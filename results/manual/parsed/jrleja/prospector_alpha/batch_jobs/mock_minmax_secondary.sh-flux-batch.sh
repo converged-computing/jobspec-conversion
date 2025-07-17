@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-pastry-0972
+#FLUX: --job-name=mock_minmax_sec
+#FLUX: --queue=conroy-intel,shared,serial_requeue,itc_cluster
+#FLUX: -t=57600
 #FLUX: --urgency=16
 
 srun -n 1 --mpi=pmi2 python $APPS/prospector_alpha/code/td/postprocessing.py \

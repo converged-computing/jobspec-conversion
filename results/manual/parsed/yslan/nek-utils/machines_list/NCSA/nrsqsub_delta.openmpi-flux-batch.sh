@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-chair-3712
+#FLUX: --job-name=cowy-sundae-5943
 #FLUX: --urgency=16
 
 : ${PROJ_ID:=""} # xxxx-delta-gpu where "xxxx" is yorur project id

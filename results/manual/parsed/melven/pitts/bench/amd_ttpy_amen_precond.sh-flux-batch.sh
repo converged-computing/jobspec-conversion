@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-nunchucks-0094
+#FLUX: --job-name=outstanding-parsnip-4318
+#FLUX: -c=64
+#FLUX: --queue=amd
+#FLUX: -t=180000
 #FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:~/pitts/build_gcc_amd/src/:~/pitts/examples/'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-snack-0990
+#FLUX: --job-name=roc
+#FLUX: -n=4
+#FLUX: --queue=shared
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 module load centos6/0.0.1-fasrc01

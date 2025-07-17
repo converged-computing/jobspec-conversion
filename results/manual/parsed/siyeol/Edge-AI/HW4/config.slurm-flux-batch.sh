@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-house-4802
+#FLUX: --job-name=HW4_g0
+#FLUX: --queue=gtx
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/apps/cuda/10.1/lib64'

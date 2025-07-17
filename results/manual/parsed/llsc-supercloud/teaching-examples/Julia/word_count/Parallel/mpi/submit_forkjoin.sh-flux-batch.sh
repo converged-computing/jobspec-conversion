@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-underoos-0869
+#FLUX: --job-name=sticky-fudge-6635
+#FLUX: -n=4
 #FLUX: --urgency=16
 
 module load julia/1.7.3

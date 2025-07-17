@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-truffle-3839
+#FLUX: --job-name=sticky-lettuce-4786
 #FLUX: --queue=hpc
 #FLUX: -t=600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lettuce-9897
+#FLUX: --job-name=blank-poo-7163
 #FLUX: --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${PWD}'

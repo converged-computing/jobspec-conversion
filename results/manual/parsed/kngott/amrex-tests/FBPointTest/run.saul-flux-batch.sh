@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-soup-8148
+#FLUX: --job-name=FBtest
+#FLUX: -N=2
+#FLUX: -c=32
+#FLUX: --queue=debug
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export CRAY_ACCEL_TARGET='nvidia80'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-bits-7049
+#FLUX: --job-name=hic_to_cool
 #FLUX: --queue=shortterm
 #FLUX: --urgency=16
 

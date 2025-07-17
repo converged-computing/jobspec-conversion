@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bike-4047
+#FLUX: --job-name=chromvar
+#FLUX: -c=8
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 source ~/.bashrc

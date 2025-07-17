@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-caramel-3070
+#FLUX: --job-name=tgi-compile
 #FLUX: -c=2
 #FLUX: --queue=unkillable-cpu
 #FLUX: -t=36000

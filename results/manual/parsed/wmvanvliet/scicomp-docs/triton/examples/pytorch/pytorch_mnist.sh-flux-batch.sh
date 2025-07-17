@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-underoos-8872
+#FLUX: --job-name=rainbow-pot-9661
 #FLUX: -t=900
 #FLUX: --urgency=16
 

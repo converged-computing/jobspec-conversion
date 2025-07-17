@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-squidward-9702
+#FLUX: --job-name=Deep-RBM_DBM_7_inc_bin_PERS_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

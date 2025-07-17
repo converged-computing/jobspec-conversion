@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-chip-2088
+#FLUX: --job-name=carnivorous-puppy-5708
+#FLUX: --queue=<partition
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

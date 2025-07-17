@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-plant-2520
+#FLUX: --job-name=STREAM_MULTI_TESTING
 #FLUX: -N=2
+#FLUX: --queue=nocona
+#FLUX: -t=1500
 #FLUX: --urgency=16
 
 export STREAM_ARRAY_SIZE='8700000'

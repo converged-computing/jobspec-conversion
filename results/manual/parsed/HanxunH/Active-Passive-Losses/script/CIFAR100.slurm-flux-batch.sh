@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-platanos-3019
+#FLUX: --job-name=milky-mango-8399
 #FLUX: -c=8
 #FLUX: --queue=gpgpu
 #FLUX: -t=604800

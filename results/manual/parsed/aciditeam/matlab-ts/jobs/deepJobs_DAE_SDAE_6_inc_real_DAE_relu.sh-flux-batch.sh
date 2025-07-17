@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-puppy-3315
+#FLUX: --job-name=Deep-DAE_SDAE_6_inc_real_DAE_relu
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

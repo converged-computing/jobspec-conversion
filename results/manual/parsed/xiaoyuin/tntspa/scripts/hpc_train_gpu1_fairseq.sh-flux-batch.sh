@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-banana-9346
+#FLUX: --job-name=hpc_gpu1_fairseq
 #FLUX: -c=8
+#FLUX: --queue=gpu1
 #FLUX: -t=64800
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-train-0190
+#FLUX: --job-name=multi-gpu-training
 #FLUX: --queue=
 #FLUX: --urgency=16
 

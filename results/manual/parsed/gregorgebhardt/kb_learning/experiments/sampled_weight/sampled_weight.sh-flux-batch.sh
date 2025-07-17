@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-puppy-8517
+#FLUX: --job-name=weight_bw
+#FLUX: -n=6
+#FLUX: -c=8
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 source /home/yy05vipo/.virtenvs/gym/bin/activate

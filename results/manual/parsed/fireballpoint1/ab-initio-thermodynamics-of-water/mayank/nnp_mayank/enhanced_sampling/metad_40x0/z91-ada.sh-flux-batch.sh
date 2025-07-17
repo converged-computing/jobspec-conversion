@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cat-7390
+#FLUX: --job-name=carnivorous-chip-5039
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

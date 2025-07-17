@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-general-2871
+#FLUX: --job-name=mali-tg-wft
+#FLUX: -n=68
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'

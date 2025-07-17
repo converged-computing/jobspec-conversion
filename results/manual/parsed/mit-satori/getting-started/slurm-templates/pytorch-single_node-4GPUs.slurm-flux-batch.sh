@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-banana-0791
+#FLUX: --job-name=pytorch_4GPUs
 #FLUX: --exclusive
 #FLUX: -t=36000
 #FLUX: --urgency=16

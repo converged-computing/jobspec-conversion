@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-parrot-9119
+#FLUX: --job-name=venv_setup
+#FLUX: --queue=plgrid-now
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

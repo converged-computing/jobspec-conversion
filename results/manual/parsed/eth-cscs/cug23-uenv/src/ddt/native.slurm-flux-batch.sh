@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-animal-4477
+#FLUX: --job-name=wobbly-parsnip-9582
 #FLUX: -n=8
 #FLUX: -c=16
 #FLUX: --queue=nvgpu

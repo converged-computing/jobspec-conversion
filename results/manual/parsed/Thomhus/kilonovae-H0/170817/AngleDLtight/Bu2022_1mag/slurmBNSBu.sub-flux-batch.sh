@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=BNSBu.job
+#FLUX: --queue=shared
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

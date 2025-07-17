@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Baseline_Ralis_CAMVID_Only
 #FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module purge

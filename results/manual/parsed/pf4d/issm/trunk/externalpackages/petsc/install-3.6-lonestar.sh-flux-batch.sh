@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-bicycle-6746
+#FLUX: --job-name=petscinstall
+#FLUX: -n=12
+#FLUX: --queue=normal
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 set -eu

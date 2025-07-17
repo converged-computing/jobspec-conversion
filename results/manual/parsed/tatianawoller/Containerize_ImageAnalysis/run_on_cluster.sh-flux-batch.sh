@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=runctonaineraigj
+#FLUX: -N=2
+#FLUX: --queue=32GB
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load singularity/3.5.3

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-leader-0118
+#FLUX: --job-name=debug-ABC
 #FLUX: -n=2
+#FLUX: --queue=debug
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'

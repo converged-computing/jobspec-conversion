@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bits-4075
+#FLUX: --job-name=hello-cinnamonbun-9401
+#FLUX: -c=2
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 source activate mlfold

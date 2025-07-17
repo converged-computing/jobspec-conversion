@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-punk-4877
+#FLUX: --job-name=sticky-lemur-5050
 #FLUX: --queue=wr14
 #FLUX: -t=1200
 #FLUX: --urgency=16

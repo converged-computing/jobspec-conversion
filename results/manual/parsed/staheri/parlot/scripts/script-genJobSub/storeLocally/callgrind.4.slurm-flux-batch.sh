@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-leopard-2067
+#FLUX: --job-name=lovely-nunchucks-9516
+#FLUX: -N=4
+#FLUX: -n=64
+#FLUX: --queue=soc-kp
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export PIN_ROOT='/uufs/chpc.utah.edu/common/home/u0993036/pintool/newpin/'

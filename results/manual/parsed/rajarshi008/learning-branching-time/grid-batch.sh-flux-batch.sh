@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-snack-7847
+#FLUX: --job-name=outstanding-despacito-9502
+#FLUX: -t=45
 #FLUX: --urgency=16
 
 folder="test_suite/mod_large_random/Kripke/" # specify the folder on which to run on

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=dl4
+#FLUX: -c=2
 #FLUX: --queue=multigpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

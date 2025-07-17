@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-leg-0993
+#FLUX: --job-name=imb_4_1
 #FLUX: -N=4
 #FLUX: -n=4
 #FLUX: --exclusive

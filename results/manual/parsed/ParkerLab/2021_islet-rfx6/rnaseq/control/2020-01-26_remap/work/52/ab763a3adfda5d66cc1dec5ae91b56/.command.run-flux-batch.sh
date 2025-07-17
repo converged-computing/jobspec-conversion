@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hippo-6835
+#FLUX: --job-name=nf-bam_to_fastq_(99)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

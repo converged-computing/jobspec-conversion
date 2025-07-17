@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cat-6249
+#FLUX: --job-name=expressive-kitty-1236
 #FLUX: -c=8
 #FLUX: -t=86400
 #FLUX: --urgency=16

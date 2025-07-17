@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lamp-2799
+#FLUX: --job-name=gearshifft-gtx1080
 #FLUX: --exclusive
 #FLUX: --queue=gpu
 #FLUX: -t=36000

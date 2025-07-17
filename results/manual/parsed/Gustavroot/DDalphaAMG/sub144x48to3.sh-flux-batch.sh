@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-chair-5139
+#FLUX: --job-name=blue-hobbit-8894
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --queue=booster

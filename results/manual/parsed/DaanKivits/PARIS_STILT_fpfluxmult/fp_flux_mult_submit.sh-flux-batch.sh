@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=STILT_fpflux
+#FLUX: --queue=genoa
 #FLUX: -t=900
 #FLUX: --urgency=16
 

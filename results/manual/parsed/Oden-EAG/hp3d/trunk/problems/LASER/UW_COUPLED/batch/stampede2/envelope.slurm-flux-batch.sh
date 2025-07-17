@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-underoos-6063
+#FLUX: --job-name=hp3d
+#FLUX: -N=16
+#FLUX: -n=64
+#FLUX: --queue=skx-normal
+#FLUX: -t=1740
 #FLUX: --urgency=16
 
 export KMP_STACKSIZE='24M   # p=3'

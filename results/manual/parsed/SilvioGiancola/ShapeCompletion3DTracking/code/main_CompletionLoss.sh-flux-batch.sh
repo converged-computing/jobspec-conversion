@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-leader-4120
+#FLUX: --job-name=Comp
 #FLUX: -c=9
 #FLUX: -t=360000
 #FLUX: --urgency=16

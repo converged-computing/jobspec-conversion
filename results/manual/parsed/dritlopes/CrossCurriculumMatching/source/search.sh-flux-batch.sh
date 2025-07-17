@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-animal-2028
+#FLUX: --job-name=milky-hope-3457
+#FLUX: --queue=gpu
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 module load 2020

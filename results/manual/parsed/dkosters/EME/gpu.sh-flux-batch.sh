@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-mango-4677
+#FLUX: --job-name=pusheena-hope-5932
+#FLUX: --queue=gpu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'

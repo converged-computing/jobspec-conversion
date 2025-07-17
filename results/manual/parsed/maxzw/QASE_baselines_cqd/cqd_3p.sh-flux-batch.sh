@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-cherry-7466
+#FLUX: --job-name=confused-lentil-0292
 #FLUX: -c=2
 #FLUX: --queue=gpu_shared
 #FLUX: -t=3600

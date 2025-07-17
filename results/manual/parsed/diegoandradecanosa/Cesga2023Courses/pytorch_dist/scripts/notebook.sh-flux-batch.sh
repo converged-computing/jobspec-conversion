@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-leopard-9392
+#FLUX: --job-name=milky-buttface-2145
+#FLUX: -c=24
+#FLUX: --queue=cola-corta,thin-shared,thinnodes,gpu-shared-v100
+#FLUX: -t=23400
 #FLUX: --urgency=16
 
 CUDA=

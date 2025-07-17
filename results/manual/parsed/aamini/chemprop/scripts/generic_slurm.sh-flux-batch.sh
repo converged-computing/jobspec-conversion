@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-puppy-8026
+#FLUX: --job-name=atomistic
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 source /etc/profile 

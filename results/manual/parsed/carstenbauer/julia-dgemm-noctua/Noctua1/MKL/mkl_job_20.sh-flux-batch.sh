@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-noodle-9063
+#FLUX: --job-name=mkl_job_20
+#FLUX: -c=40
 #FLUX: --exclusive
+#FLUX: --queue=gpu
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='$NTHREADS'

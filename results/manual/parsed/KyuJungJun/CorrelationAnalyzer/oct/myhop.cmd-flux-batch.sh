@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-lamp-1834
+#FLUX: --job-name=vasptest
 #FLUX: -n=128
+#FLUX: --queue=wholenode
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

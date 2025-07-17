@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-onion-5196
+#FLUX: --job-name=launch
+#FLUX: -n=2
+#FLUX: --queue=normal
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export LAUNCHER_PLUGIN_DIR='$LAUNCHER_DIR/plugins'

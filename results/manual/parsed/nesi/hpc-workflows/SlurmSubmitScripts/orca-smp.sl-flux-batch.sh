@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-butter-3392
+#FLUX: --job-name=ORCA
 #FLUX: -c=8
 #FLUX: -t=3600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-signal-9862
+#FLUX: --job-name=scruptious-pancake-6835
 #FLUX: -c=8
 #FLUX: -t=86400
 #FLUX: --urgency=16

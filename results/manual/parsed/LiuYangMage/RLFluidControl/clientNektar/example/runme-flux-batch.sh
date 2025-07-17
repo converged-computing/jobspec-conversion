@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-hope-6232
+#FLUX: --job-name=cyl3_5
 #FLUX: -N=8
 #FLUX: -t=174600
 #FLUX: --urgency=16

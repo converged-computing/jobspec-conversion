@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-destiny-7367
+#FLUX: --job-name=gloopy-leg-8022
 #FLUX: -c=4
 #FLUX: --queue=main
 #FLUX: -t=86400

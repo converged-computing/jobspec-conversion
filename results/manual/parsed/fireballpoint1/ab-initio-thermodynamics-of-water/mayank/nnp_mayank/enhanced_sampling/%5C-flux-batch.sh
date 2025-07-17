@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-hippo-5964
+#FLUX: --job-name=blue-lamp-1197
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

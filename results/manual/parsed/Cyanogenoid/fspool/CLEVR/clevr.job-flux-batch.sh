@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-parsnip-2133
+#FLUX: --job-name=nerdy-train-9001
+#FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

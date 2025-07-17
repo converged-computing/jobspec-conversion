@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-pancake-6886
+#FLUX: --job-name=carnivorous-kitty-7705
 #FLUX: -c=20
 #FLUX: --exclusive
+#FLUX: -t=43140
 #FLUX: --urgency=16
 
 ulimit -v unlimited

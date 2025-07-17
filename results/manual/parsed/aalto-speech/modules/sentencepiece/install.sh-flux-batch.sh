@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-peanut-butter-8165
+#FLUX: --job-name=adorable-kerfuffle-1577
+#FLUX: -c=4
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 set -eu 

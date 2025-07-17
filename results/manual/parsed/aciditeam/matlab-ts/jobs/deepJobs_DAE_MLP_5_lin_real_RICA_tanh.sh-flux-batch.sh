@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-earthworm-7491
+#FLUX: --job-name=Deep-DAE_MLP_5_lin_real_RICA_tanh
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

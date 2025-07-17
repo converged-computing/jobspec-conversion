@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pedo-7699
+#FLUX: --job-name=minerva-action
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

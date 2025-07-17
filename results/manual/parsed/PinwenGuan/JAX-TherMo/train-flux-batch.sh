@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-carrot-0967
+#FLUX: --job-name=PB-UQ-train
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

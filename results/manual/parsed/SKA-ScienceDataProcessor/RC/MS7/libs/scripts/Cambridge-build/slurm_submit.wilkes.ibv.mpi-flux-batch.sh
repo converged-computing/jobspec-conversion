@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-cupcake-2328
+#FLUX: --job-name=gasnet-mxm
 #FLUX: -N=2
 #FLUX: -n=2
+#FLUX: --queue=tesla
 #FLUX: -t=120
 #FLUX: --urgency=16
 

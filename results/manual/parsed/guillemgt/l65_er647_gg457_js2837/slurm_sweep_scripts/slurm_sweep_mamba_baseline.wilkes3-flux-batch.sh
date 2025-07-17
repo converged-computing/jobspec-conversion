@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-mango-3170
+#FLUX: --job-name=F_mamba_baseline
+#FLUX: --queue=ampere
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

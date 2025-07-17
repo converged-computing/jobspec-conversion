@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=yolov7-training-testing-with-augmentation
+#FLUX: -c=28
 #FLUX: --queue=GPUQ
 #FLUX: -t=86400
 #FLUX: --urgency=16

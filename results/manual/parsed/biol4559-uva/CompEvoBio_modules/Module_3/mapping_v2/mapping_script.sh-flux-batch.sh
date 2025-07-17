@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-puppy-3603
+#FLUX: --job-name=dockerMap
+#FLUX: -c=10
+#FLUX: --queue=instructional
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
   module load singularity

@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=new_exp1
 #FLUX: --queue=normal
+#FLUX: -t=90000
 #FLUX: --urgency=16
 
 module add openmind/singularity/3.4.1

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lamp-3937
+#FLUX: --job-name=faux-chip-7734
+#FLUX: --queue=nvidia
 #FLUX: -t=41400
 #FLUX: --urgency=16
 

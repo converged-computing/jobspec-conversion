@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-underoos-2863
+#FLUX: --job-name=HPC_WITH_PYTHON_Reynold_Strouhal
 #FLUX: -N=2
 #FLUX: --queue=multiple
 #FLUX: -t=2400

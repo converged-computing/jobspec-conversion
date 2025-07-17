@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lamp-7562
+#FLUX: --job-name=purple-hobbit-2493
+#FLUX: -n=4
+#FLUX: -c=6
+#FLUX: --queue=cola-corta
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export TFSERVER=''

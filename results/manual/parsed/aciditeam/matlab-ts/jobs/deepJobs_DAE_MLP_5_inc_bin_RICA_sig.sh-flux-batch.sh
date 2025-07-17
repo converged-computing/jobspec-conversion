@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-peanut-9772
+#FLUX: --job-name=Deep-DAE_MLP_5_inc_bin_RICA_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-chip-1033
+#FLUX: --job-name=bloated-arm-0088
 #FLUX: -n=8
 #FLUX: -t=72000
 #FLUX: --urgency=16

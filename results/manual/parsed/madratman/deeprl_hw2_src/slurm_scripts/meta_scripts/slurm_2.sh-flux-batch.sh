@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-signal-0301
+#FLUX: --job-name=swampy-house-6847
 #FLUX: -c=2
+#FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

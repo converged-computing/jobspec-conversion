@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-destiny-8475
+#FLUX: --job-name=expressive-omelette-3005
+#FLUX: -n=32
+#FLUX: --queue=defq
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

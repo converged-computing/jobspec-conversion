@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-chip-6493
+#FLUX: --job-name=r_grid
 #FLUX: -n=25
 #FLUX: -t=108000
 #FLUX: --urgency=16

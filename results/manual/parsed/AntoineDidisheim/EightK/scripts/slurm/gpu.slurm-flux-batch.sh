@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gpu_single
 #FLUX: -c=4
+#FLUX: --queue=gpu-a100
 #FLUX: -t=600
 #FLUX: --urgency=16
 

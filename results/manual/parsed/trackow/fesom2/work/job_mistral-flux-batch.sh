@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fesom2.0
 #FLUX: -n=7560
+#FLUX: --queue=compute2,compute
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

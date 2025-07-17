@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cat-5866
+#FLUX: --job-name=bloated-mango-2748
+#FLUX: -t=0
 #FLUX: --urgency=16
 
 export PYTHONPATH='$(pwd)'

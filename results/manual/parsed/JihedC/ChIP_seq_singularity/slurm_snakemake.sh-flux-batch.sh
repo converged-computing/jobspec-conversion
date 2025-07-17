@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=CHIP_SE_snakemake
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module purge

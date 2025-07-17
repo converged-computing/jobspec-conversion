@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lettuce-7277
+#FLUX: --job-name=dinosaur-fork-1659
+#FLUX: --queue=gpu
+#FLUX: -t=4500
 #FLUX: --urgency=16
 
 export PYTHONPATH='/scratch/project_2002026/samuel/transformer-text-classifier/transformers3.4/lib/python3.7/site-packages:$PYTHONPATH'

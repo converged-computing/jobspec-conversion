@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-arm-7783
+#FLUX: --job-name=delicious-truffle-5758
 #FLUX: --urgency=16
 
 DATASET="--train-dir /home/wang4538/DGMS-master/CIFAR10/train/ --val-dir /home/wang4538/DGMS-master/CIFAR10/val/ -d cifar10 --num-classes 10"

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pot-3620
+#FLUX: --job-name=cache_80b_instruct_idefics
+#FLUX: --queue=cclake-himem
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-arm-9955
+#FLUX: --job-name=troll_eval
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

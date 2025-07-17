@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-mango-1927
+#FLUX: --job-name=ornery-rabbit-6031
+#FLUX: -n=5
 #FLUX: -c=4
+#FLUX: --queue=nvidia
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

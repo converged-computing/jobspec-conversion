@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-latke-2102
+#FLUX: --job-name=bloated-nalgas-8509
 #FLUX: -c=42
 #FLUX: --queue=gpu
 #FLUX: -t=86400

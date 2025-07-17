@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-toaster-1069
+#FLUX: --job-name=bricky-peanut-butter-5016
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 export GLOO_SOCKET_IFNAME='eth0'

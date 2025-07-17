@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-sundae-0657
+#FLUX: --job-name=gloopy-chair-2296
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 set -e

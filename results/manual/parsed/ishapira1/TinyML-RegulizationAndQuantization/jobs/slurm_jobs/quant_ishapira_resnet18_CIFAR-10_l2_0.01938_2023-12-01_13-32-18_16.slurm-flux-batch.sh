@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-butter-5658
+#FLUX: --job-name=bumfuzzled-kerfuffle-1837
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

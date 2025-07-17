@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-gato-7748
+#FLUX: --job-name=ou_kalman
 #FLUX: --exclusive
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'

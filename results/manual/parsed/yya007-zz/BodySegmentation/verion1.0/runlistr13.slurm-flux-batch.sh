@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-hobbit-1310
+#FLUX: --job-name=gloopy-platanos-0649
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000

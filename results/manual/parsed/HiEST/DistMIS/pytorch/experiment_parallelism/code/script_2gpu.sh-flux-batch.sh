@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=raytune_2gpu
+#FLUX: -c=80
 #FLUX: --exclusive
 #FLUX: -t=54000
 #FLUX: --urgency=16

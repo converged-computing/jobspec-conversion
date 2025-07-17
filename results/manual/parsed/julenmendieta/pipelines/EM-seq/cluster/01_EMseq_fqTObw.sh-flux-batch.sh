@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=EMseq_fqToBw
 #FLUX: -c=8
+#FLUX: --queue=medium
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cherry-0856
+#FLUX: --job-name=hairy-egg-5000
+#FLUX: -c=8
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 printf "\n\n\n --ntasks-per-node=1 -c=8 ntasks-per-socket=4 \n\n\n"

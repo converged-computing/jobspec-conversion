@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lamp-0355
+#FLUX: --job-name=Megatron-LM
 #FLUX: -N=2
 #FLUX: -c=32
 #FLUX: --exclusive
+#FLUX: --queue=Pretrain-Experiment
 #FLUX: --urgency=16
 
 export LOGLEVEL='INFO'

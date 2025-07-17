@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=StereoCov
+#FLUX: -n=12
+#FLUX: --queue=a100-gpu-shared
+#FLUX: -t=260580
 #FLUX: --urgency=16
 
 EXE=/bin/bash

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-taco-0337
+#FLUX: --job-name=doopy-eagle-5975
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Exawind/exawind-cases/single-turbine/run-sunspot.sh

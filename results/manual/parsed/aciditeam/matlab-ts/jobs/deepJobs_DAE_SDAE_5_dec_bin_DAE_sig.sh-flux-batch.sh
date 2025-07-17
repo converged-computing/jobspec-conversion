@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lizard-4121
+#FLUX: --job-name=Deep-DAE_SDAE_5_dec_bin_DAE_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

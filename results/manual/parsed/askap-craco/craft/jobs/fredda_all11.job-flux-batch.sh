@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-mango-6413
+#FLUX: --job-name=psycho-malarkey-3724
 #FLUX: -c=8
 #FLUX: --queue=gpuq
 #FLUX: -t=7200

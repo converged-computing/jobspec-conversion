@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-plant-7768
+#FLUX: --job-name=phat-platanos-7521
 #FLUX: -n=4
 #FLUX: -c=12
 #FLUX: --queue=develbooster

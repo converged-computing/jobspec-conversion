@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-milkshake-8426
+#FLUX: --job-name=sticky-mango-8507
+#FLUX: --queue=gpu
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export APPTAINER_BINDPATH='/oscar/home/$USER,/oscar/scratch/$USER,/oscar/data'

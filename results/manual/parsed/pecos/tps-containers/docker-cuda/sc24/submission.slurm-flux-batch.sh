@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-pancake-9125
+#FLUX: --job-name=tps_bte
+#FLUX: -N=2
+#FLUX: -n=6
+#FLUX: --queue=gpu-a100
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module purge

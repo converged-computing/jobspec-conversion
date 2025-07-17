@@ -3,6 +3,7 @@
 #FLUX: -N=2
 #FLUX: -n=72
 #FLUX: --exclusive
+#FLUX: -t=5
 #FLUX: --urgency=16
 
 export MV2_HOMOGENEOUS_CLUSTER='1'

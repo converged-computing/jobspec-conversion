@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-animal-6542
+#FLUX: --job-name=muffled-mango-4175
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

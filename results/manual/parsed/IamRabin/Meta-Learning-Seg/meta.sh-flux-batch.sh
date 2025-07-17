@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Meta
 #FLUX: -c=4
+#FLUX: --queue=dgx2q
 #FLUX: -t=104400
 #FLUX: --urgency=16
 

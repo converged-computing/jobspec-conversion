@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-dog-9701
+#FLUX: --job-name=compile_results
+#FLUX: -n=11
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

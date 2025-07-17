@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-pastry-7870
+#FLUX: --job-name=events3_two
 #FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/cm/shared/apps/slurm/current/lib/libpmi.so'

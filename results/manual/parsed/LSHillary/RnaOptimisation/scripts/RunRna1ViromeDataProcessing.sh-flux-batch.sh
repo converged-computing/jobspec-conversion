@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=RNA1snakemake
 #FLUX: --queue=high2
+#FLUX: -t=295200
 #FLUX: --urgency=16
 
 source ~/.bashrc

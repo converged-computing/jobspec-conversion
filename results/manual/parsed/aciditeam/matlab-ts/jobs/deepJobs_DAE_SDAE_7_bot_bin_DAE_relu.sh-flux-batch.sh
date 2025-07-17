@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-snack-9348
+#FLUX: --job-name=Deep-DAE_SDAE_7_bot_bin_DAE_relu
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

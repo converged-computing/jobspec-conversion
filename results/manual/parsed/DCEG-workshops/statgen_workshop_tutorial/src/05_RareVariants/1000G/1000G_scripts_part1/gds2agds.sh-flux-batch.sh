@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-animal-3634
+#FLUX: --job-name=1kG
+#FLUX: --queue=shared,xlin,xlin-lab
 #FLUX: -t=4320
 #FLUX: --urgency=16
 

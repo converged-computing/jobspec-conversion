@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-spoon-1510
+#FLUX: --job-name=bohb-darts-2nd
+#FLUX: --queue=bosch_gpu-rtx2080
 #FLUX: --urgency=16
 
 source activate tensorflow-stable

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-puppy-1308
+#FLUX: --job-name=dirty-cinnamonbun-0643
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=YOUR_PARTITION_HERE

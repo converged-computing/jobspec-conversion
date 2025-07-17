@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pot-4604
+#FLUX: --job-name=3sl
 #FLUX: --urgency=16
 
 OUTPUT_DIR="/explore/nobackup/projects/ilab/projects/Senegal/Distributed-Runs/$USER"

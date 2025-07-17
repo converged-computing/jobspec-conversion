@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-nunchucks-5299
+#FLUX: --job-name=misunderstood-malarkey-0232
+#FLUX: -n=4
+#FLUX: --queue=stats.p
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 cd /home/abakis/git/covid_SEIHR_county

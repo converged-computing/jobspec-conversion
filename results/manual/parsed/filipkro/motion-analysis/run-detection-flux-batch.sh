@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-peanut-1530
+#FLUX: --job-name=red-ricecake-0658
+#FLUX: -n=4
+#FLUX: --queue=alvis
+#FLUX: -t=2400
 #FLUX: --urgency=16
 
 vid="025_FL_R.MOV"

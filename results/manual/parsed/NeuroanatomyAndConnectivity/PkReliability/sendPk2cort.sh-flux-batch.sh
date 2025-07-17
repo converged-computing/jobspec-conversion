@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=PermutedDistPk
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 SUBJECT_LIST=./subjectsWithParietalPeak.txt

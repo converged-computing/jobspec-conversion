@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-banana-2932
+#FLUX: --job-name=all
 #FLUX: -c=8
 #FLUX: --queue=gpu-2d
 #FLUX: --urgency=16

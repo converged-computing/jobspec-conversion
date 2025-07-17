@@ -2,6 +2,7 @@
 #FLUX: --job-name=mriqc
 #FLUX: -c=8
 #FLUX: --queue=all
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 echo "Purging modules"

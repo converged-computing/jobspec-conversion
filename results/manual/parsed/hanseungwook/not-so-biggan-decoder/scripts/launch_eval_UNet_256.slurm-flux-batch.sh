@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-frito-0844
+#FLUX: --job-name=eval_unet_256
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

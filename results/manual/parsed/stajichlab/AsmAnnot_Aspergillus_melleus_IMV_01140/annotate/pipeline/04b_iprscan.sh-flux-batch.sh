@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pot-2694
+#FLUX: --job-name=expressive-butter-0352
 #FLUX: -n=32
+#FLUX: --queue=intel
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

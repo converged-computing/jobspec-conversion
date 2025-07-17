@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-onion-7506
+#FLUX: --job-name=eccentric-leg-9267
+#FLUX: -N=16
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

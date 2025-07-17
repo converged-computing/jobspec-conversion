@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-latke-4340
+#FLUX: --job-name=nerdy-snack-6900
+#FLUX: --queue=compute
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

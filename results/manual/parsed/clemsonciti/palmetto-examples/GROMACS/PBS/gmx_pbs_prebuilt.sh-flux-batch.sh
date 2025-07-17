@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-destiny-9133
+#FLUX: --job-name=grated-buttface-6433
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/clemsonciti/palmetto-examples/GROMACS/PBS/gmx_pbs_prebuilt.sh

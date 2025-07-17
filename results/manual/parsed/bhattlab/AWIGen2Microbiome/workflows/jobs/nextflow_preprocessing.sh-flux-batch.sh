@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-motorcycle-1624
+#FLUX: --job-name=bumfuzzled-despacito-8126
 #FLUX: --queue=batch
 #FLUX: -t=864000
 #FLUX: --urgency=16

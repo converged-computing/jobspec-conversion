@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-chair-7262
+#FLUX: --job-name=train_with_masks
+#FLUX: -c=4
 #FLUX: -t=82800
 #FLUX: --urgency=16
 

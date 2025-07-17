@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-train-4392
+#FLUX: --job-name=Deep-DAE_SDAE_7_inc_bin_DAE_tanh
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

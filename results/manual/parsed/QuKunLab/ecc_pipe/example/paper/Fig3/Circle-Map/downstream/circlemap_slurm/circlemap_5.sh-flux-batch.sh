@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-salad-1625
+#FLUX: --job-name=circlemap_5
+#FLUX: -N=2
+#FLUX: -n=80
+#FLUX: --queue=CPU-Small
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

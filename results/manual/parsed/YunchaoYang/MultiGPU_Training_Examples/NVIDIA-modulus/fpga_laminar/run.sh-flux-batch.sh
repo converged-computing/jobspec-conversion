@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-banana-6989
+#FLUX: --job-name=loopy-staircase-7849
 #FLUX: -n=8
 #FLUX: -c=4
 #FLUX: --queue=hpg-ai

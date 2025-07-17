@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lamp-2351
+#FLUX: --job-name=synimport
+#FLUX: -N=32
+#FLUX: --queue=regular
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module swap PrgEnv-intel PrgEnv-gnu

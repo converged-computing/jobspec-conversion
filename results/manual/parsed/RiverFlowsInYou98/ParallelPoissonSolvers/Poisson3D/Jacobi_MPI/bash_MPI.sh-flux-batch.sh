@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-pot-2931
+#FLUX: --job-name=MyMPIJob
+#FLUX: -N=3
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

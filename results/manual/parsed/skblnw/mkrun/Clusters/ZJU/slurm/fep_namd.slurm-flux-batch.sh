@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-fork-3010
+#FLUX: --job-name=<job
+#FLUX: --queue=single
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

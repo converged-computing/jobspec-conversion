@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-hope-1277
+#FLUX: --job-name=expressive-despacito-7728
 #FLUX: -N=32
 #FLUX: -n=32
 #FLUX: -c=12

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-caramel-3104
+#FLUX: --job-name=FusedMM4DGL
+#FLUX: --queue=azad
+#FLUX: -t=541800
 #FLUX: --urgency=16
 
 module unload gcc

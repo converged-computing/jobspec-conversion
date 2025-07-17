@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-taco-8050
+#FLUX: --job-name=simembed_training
 #FLUX: -c=10
 #FLUX: -t=21600
 #FLUX: --urgency=16

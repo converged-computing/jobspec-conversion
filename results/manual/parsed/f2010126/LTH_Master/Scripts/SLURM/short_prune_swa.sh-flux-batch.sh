@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-plant-3633
+#FLUX: --job-name=ResNet_ShortPrune1
+#FLUX: -t=71940
 #FLUX: --urgency=16
 
 cd $(ws_find lth_ws)

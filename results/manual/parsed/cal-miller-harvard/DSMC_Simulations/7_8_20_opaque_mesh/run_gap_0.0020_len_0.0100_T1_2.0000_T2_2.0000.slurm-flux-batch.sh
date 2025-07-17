@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-train-1249
+#FLUX: --job-name=crunchy-caramel-8670
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

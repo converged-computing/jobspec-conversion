@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-frito-6808
+#FLUX: --job-name=buttery-hippo-4692
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=165600

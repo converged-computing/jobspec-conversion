@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-parrot-0488
+#FLUX: --job-name=stream-2perf-noflush-perf
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-destiny-0782
+#FLUX: --job-name=zz11
+#FLUX: --queue=largemem512GB
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export FILTERS='-uniqueOnly 1 -remove_bads 1 -skipTriallelic 1 -minMapQ 20 -minQ 20 -dosnpstat 1 -doHWE 1 -maxHetFreq 0.5 -sb_pval 1e-5 -hetbias_pval 1e-5 -minInd 152 -snp_pval 1e-5 -minMaf 0.01 '

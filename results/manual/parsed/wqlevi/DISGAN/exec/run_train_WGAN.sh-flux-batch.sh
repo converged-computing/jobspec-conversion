@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-fudge-2620
+#FLUX: --job-name=TORCH-GPU
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

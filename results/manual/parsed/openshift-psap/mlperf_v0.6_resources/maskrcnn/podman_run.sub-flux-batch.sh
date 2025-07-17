@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-puppy-4484
+#FLUX: --job-name=object_detection
 #FLUX: --exclusive
+#FLUX: --queue=mlperf
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export MLPERF_HOST_OS='$(cat /etc/redhat-release)'

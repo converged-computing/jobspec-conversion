@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-sundae-6530
+#FLUX: --job-name=SM_npt_umbrella
+#FLUX: -n=10
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 ml purge

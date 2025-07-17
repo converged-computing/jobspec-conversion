@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-leopard-7256
+#FLUX: --job-name=collect
+#FLUX: -N=5
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export KMP_AFFINITY='disabled'

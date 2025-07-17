@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-taco-9908
+#FLUX: --job-name=LeNet.Keras
 #FLUX: --urgency=16
 
 train_batch=64

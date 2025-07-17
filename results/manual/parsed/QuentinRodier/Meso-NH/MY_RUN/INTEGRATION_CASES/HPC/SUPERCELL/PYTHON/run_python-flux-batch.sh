@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-peanut-butter-1867
+#FLUX: --job-name=tools
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 ulimit -c 0

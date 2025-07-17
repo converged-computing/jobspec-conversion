@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-leopard-6044
+#FLUX: --job-name=rs1
 #FLUX: -c=5
 #FLUX: -t=86400
 #FLUX: --urgency=16

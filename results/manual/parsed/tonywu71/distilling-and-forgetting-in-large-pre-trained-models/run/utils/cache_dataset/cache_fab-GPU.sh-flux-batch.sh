@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-animal-5169
+#FLUX: --job-name=cache_fab-GPU
+#FLUX: --queue=ampere
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

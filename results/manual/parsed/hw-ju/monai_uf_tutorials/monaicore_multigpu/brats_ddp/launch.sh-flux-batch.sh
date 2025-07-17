@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-latke-7395
+#FLUX: --job-name=anxious-hope-5840
 #FLUX: -c=4
 #FLUX: --gpus-per-task=8
 #FLUX: --exclusive

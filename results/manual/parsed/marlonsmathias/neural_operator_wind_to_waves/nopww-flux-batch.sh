@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-blackbean-0040
+#FLUX: --job-name=dinosaur-caramel-5699
+#FLUX: -n=16
+#FLUX: --queue=arandu
 #FLUX: --urgency=16
 
 echo "Running on"

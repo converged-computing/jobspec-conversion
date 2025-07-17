@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-itch-2603
+#FLUX: --job-name=fastq-merge
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 input_dir=$PWD

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-peanut-butter-2235
+#FLUX: --job-name=tart-kerfuffle-5215
+#FLUX: -c=4
+#FLUX: --queue=v100
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

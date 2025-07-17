@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-omelette-6917
+#FLUX: --job-name=pipeeval
 #FLUX: --queue=booster
 #FLUX: -t=7199
 #FLUX: --urgency=16

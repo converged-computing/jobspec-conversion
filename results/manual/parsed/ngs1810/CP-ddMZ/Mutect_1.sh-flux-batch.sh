@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-egg-9822
+#FLUX: --job-name=Mutect2
+#FLUX: -n=2
+#FLUX: --queue=batch
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

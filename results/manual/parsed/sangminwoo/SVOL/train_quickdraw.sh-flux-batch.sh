@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-parsnip-6905
+#FLUX: --job-name=swampy-bike-2922
+#FLUX: --queue=part1
 #FLUX: --urgency=16
 
 root=/mnt/server15_hard2/sangmin/data/svol/

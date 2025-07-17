@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-animal-7500
+#FLUX: --job-name=Unbias401
 #FLUX: -c=7
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-frito-1332
+#FLUX: --job-name=psycho-lentil-7599
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd ~/measles/code/

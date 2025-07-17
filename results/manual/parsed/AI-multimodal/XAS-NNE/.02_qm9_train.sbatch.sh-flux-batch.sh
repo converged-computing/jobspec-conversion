@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=ml-xas-qm9
+#FLUX: -c=5
+#FLUX: --queue=volta
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load gcc/8.3.0

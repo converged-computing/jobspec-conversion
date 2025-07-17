@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-lemon-3626
+#FLUX: --job-name=SDSH_pam2adc2ww3_SETUP
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 set -e

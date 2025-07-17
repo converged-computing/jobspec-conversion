@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-train-4412
+#FLUX: --job-name=psycho-snack-9496
 #FLUX: --queue=shortq
 #FLUX: -t=10800
 #FLUX: --urgency=16

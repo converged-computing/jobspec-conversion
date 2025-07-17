@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-caramel-8073
+#FLUX: --job-name=500m_hypre_bdmach_inverse
 #FLUX: -N=12
 #FLUX: -t=36000
 #FLUX: --urgency=16

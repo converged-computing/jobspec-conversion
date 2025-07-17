@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-spoon-4537
+#FLUX: --job-name=sticky-blackbean-4328
 #FLUX: --urgency=16
 
 usage ()

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-lamp-5111
+#FLUX: --job-name=openmxp
+#FLUX: -N=32
+#FLUX: --queue=batch
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/rocm-5.1.0/lib:${LD_LIBRARY_PATH}'

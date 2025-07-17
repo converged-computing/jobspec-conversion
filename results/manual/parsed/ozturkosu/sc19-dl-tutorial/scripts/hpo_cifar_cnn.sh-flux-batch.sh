@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hippo-8767
+#FLUX: --job-name=hpo-cifar-cnn
+#FLUX: -N=8
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export KMP_BLOCKTIME='0'

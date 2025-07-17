@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-gato-1301
+#FLUX: --job-name=LearnPreferences_pong
+#FLUX: --queue=gpu
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export TACC_LAUNCHER_PPN='1'

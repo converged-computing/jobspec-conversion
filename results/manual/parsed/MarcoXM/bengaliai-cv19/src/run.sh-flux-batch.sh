@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-bicycle-1995
+#FLUX: --job-name=resnet34
 #FLUX: -c=8
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'

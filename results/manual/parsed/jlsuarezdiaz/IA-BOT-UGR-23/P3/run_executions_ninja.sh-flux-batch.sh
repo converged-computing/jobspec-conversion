@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-leg-2379
+#FLUX: --job-name=hanky-carrot-7640
+#FLUX: -c=16
+#FLUX: --queue=muylarga
 #FLUX: --urgency=16
 
 DB_FOLDER='ninja-battles'

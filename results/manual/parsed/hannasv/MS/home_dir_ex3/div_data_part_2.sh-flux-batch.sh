@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-ricecake-4234
+#FLUX: --job-name=astute-nalgas-0510
+#FLUX: -n=32
+#FLUX: --queue=defq
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

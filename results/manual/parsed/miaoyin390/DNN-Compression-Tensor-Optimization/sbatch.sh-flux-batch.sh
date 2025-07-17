@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-car-6318
+#FLUX: --job-name=reclusive-pot-7757
+#FLUX: --queue=GPU-shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 echo 'use bridges-2'

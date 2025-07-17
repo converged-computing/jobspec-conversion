@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-arm-6354
+#FLUX: --job-name=damasktest
+#FLUX: -n=4
+#FLUX: --queue=parallel
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

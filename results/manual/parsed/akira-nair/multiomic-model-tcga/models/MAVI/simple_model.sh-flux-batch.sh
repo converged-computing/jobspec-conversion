@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-house-3031
+#FLUX: --job-name=evasive-general-5481
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load python/3.11.0 openssl/3.0.0 cuda/11.7.1 cudnn/8.2.0

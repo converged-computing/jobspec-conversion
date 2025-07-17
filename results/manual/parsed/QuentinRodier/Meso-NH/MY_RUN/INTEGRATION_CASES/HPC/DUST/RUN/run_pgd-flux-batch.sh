@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lamp-3371
+#FLUX: --job-name=pgd_dust
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 1'

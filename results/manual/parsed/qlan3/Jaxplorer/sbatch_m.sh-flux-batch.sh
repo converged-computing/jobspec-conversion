@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-bike-2504
+#FLUX: --job-name=arid-chip-2379
 #FLUX: --urgency=16
 
 echo "Current working directory: `pwd`"

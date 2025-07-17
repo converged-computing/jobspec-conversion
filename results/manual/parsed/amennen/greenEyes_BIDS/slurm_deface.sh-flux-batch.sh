@@ -2,6 +2,7 @@
 #FLUX: --job-name=deface
 #FLUX: -c=8
 #FLUX: --queue=all
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 echo "Purging modules"

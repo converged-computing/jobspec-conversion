@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-underoos-8955
+#FLUX: --job-name=evasive-plant-2060
+#FLUX: --queue=STANDARDQ
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

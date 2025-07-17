@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-spoon-4667
+#FLUX: --job-name=abl_exp21add
+#FLUX: --queue=compute
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 python /home/bqqi/ICL/utils/main.py --model onlinevt --load_best_args --dataset seq-cifar10 --buffer_size 500  --csv_log --with_brain_vit --num_classes 10 --num_workers 12 --kappa 2 --lmbda 0.1 --delta 0.01 --k 5 --with_slow > ablation_exp/exp2/cifar10_k_5.log 2>&1

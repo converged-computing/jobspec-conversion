@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-caramel-6347
+#FLUX: --job-name=placid-omelette-2834
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/chchang6/scripts/MolecularDynamics/CHARMM/EQUIL.PBS

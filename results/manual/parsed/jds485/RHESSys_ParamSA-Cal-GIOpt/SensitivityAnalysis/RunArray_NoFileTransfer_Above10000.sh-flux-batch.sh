@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-leader-6705
+#FLUX: --job-name=milky-noodle-6299
+#FLUX: --queue=standard
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load singularity

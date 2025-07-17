@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-milkshake-5174
+#FLUX: --job-name=sarek
+#FLUX: --queue=medium
+#FLUX: -t=1440
 #FLUX: --urgency=16
 
 set -eu

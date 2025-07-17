@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=image_classification
+#FLUX: -N=2
+#FLUX: -n=16
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 source config_${SLURM_JOB_NUM_NODES}xDSS8440x8A100-PCIE-40GB.sh

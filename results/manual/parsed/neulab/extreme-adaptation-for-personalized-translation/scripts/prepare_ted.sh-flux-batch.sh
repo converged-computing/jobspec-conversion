@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-sundae-8212
+#FLUX: --job-name=prepare_ted
+#FLUX: -t=0
 #FLUX: --urgency=16
 
 CONFIG_FILE=${1:-"ted_en_fr.config"}

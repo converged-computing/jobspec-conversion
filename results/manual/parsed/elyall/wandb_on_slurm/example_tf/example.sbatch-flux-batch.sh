@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-malarkey-1589
+#FLUX: --job-name=strawberry-nalgas-9077
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: --queue=aws

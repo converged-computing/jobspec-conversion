@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-arm-2714
+#FLUX: --job-name=install
+#FLUX: -n=16
 #FLUX: --urgency=16
 
 ./install_abacus_toolchain.sh \

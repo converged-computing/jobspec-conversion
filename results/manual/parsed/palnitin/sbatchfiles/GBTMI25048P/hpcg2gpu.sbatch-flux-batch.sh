@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-blackbean-8760
+#FLUX: --job-name=sticky-plant-2395
 #FLUX: -c=12
 #FLUX: --urgency=16
 

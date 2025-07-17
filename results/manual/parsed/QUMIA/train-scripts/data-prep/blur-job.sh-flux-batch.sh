@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-leg-3664
+#FLUX: --job-name=gloopy-blackbean-7031
+#FLUX: --queue=genoa
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load 2022

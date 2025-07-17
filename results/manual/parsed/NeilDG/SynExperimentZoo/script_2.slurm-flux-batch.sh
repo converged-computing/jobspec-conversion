@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cinnamonbun-1242
+#FLUX: --job-name=SR_2
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: --urgency=16

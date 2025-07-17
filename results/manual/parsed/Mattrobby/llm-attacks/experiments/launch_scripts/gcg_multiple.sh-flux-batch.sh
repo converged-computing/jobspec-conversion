@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-noodle-7174
+#FLUX: --job-name=llm-attacks
+#FLUX: --queue=sail
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 module load gcc/9.2 cmake python3/3.10 cuda/11.7

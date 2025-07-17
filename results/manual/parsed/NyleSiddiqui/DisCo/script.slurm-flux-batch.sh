@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NTU-six-actions
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 source activate /home/siddiqui/.conda/envs/diffusion

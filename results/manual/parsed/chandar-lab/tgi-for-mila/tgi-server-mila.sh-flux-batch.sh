@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parsnip-4905
+#FLUX: --job-name=tgi-server
 #FLUX: -c=4
 #FLUX: --gpus-per-task=1
 #FLUX: -t=10740

@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=grated-buttface-8466
+#FLUX: --job-name=rainbow-cattywampus-9556
+#FLUX: -N=2
+#FLUX: -n=60
+#FLUX: --queue=huce_intel
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module purge

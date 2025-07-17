@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-platanos-9103
+#FLUX: --job-name=main_all
 #FLUX: -c=3
+#FLUX: -t=6048000
 #FLUX: --urgency=16
 
 module load python3

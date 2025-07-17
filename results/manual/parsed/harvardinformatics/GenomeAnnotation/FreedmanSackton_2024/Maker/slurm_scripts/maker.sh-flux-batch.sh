@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-frito-6425
+#FLUX: --job-name=persnickety-plant-2527
 #FLUX: --exclusive
 #FLUX: --queue=shared,bigmem
 #FLUX: -t=255600

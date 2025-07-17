@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-platanos-9455
+#FLUX: --job-name=dirty-rabbit-3675
 #FLUX: -c=32
+#FLUX: --queue=regular
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'

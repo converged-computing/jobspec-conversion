@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=sc31_reproject_stream_basin.sh
+#FLUX: -c=2
+#FLUX: --queue=day
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export DIR='/project/fas/sbsc/ga254/dataproces/NHDplus'

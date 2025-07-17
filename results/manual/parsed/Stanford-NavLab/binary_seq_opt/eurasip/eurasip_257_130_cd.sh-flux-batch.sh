@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=257cd_eurasip
+#FLUX: -c=4
 #FLUX: --queue=normal
 #FLUX: -t=172800
 #FLUX: --urgency=16

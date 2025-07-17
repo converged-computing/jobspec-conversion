@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=d9
 #FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: -t=50400
 #FLUX: --urgency=16
 

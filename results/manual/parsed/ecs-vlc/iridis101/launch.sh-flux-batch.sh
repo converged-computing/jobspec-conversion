@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-pastry-2473
+#FLUX: --job-name=strawberry-truffle-9799
+#FLUX: -c=32
+#FLUX: --queue=ecsstudents
 #FLUX: -t=240
 #FLUX: --urgency=16
 

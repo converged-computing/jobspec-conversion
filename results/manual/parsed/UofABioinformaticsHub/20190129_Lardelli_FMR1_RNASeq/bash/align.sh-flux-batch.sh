@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-blackbean-9729
+#FLUX: --job-name=outstanding-bike-4277
+#FLUX: -n=16
+#FLUX: --queue=batch
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

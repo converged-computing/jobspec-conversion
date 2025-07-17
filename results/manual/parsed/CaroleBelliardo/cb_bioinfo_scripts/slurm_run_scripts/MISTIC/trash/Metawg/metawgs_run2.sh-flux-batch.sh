@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-cattywampus-4153
+#FLUX: --job-name=Run1
 #FLUX: -c=60
+#FLUX: --queue=all
 #FLUX: --urgency=16
 
 module purge

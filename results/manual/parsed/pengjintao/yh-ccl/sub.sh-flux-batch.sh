@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-motorcycle-7249
+#FLUX: --job-name=blank-squidward-8781
+#FLUX: -n=64
+#FLUX: --queue=amd_256
+#FLUX: -t=1500
 #FLUX: --urgency=16
 
 procname=./build/test/allreduce

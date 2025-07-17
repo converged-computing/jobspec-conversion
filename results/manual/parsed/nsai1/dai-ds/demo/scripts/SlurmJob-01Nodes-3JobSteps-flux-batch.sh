@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-kitty-2090
+#FLUX: --job-name=hairy-soup-8880
 #FLUX: --urgency=16
 
 srun /opt/ucs/demo/workloads/MILC 1

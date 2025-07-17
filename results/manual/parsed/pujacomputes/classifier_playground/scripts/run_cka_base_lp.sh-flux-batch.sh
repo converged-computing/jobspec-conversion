@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ftnoaugs
+#FLUX: --queue=pvis
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 cd ../

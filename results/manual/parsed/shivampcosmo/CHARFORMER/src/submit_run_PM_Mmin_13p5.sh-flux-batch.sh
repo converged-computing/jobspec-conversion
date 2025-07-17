@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Mmin_13p5_MULTGPU_DDP_PM
+#FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

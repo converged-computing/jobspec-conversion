@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-itch-5850
+#FLUX: --job-name=dinosaur-buttface-6791
 #FLUX: --urgency=16
 

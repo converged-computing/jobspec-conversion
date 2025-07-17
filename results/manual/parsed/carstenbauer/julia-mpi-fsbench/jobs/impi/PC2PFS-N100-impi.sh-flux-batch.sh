@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lentil-1584
+#FLUX: --job-name=conspicuous-butter-9235
+#FLUX: -N=100
+#FLUX: -n=6400
+#FLUX: -c=2
 #FLUX: --exclusive
+#FLUX: --queue=cont
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

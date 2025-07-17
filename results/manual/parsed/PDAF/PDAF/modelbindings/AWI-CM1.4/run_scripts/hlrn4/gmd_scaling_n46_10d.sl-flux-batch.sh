@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-motorcycle-2003
+#FLUX: --job-name=tart-knife-0063
 #FLUX: -N=138
 #FLUX: -n=13248
 #FLUX: --queue=standard96

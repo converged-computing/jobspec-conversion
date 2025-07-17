@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-bike-2380
+#FLUX: --job-name=decode
 #FLUX: -n=4
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

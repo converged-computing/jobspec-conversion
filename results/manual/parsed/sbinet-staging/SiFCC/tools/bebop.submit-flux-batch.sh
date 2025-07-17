@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-toaster-8473
+#FLUX: --job-name=goodbye-taco-2381
+#FLUX: -N=14
+#FLUX: --queue=bdwall
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

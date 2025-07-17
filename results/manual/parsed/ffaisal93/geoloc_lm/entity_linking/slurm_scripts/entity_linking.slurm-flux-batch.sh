@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mbert_acl
+#FLUX: --queue=all-HiPri
 #FLUX: -t=715
 #FLUX: --urgency=16
 

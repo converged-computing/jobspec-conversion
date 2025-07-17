@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-banana-7205
+#FLUX: --job-name=misunderstood-platanos-7321
 #FLUX: -N=12
 #FLUX: -n=1152
 #FLUX: --queue=standard96

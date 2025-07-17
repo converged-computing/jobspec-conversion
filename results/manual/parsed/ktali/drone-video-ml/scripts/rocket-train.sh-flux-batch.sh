@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pot-7626
+#FLUX: --job-name=strawberry-parrot-2735
 #FLUX: --queue=gpu
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load cuda/10.2.89-2fkd

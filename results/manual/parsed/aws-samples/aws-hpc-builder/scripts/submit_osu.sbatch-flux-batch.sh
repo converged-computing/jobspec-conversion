@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-motorcycle-8855
+#FLUX: --job-name=spicy-underoos-4182
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=g16xlargeefa

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-buttface-8183
+#FLUX: --job-name=amg2013_plain
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --exclusive

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-diablo-3541
+#FLUX: --job-name=single_stage_detector
 #FLUX: --exclusive
+#FLUX: --queue=mlperf
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export MLPERF_HOST_OS='$(cat /etc/issue | head -1 | cut -f1-3 -d" ") / $(cat /etc/LAMBDA-release | grep -E "LAMBDA_PRETTY_NAME|LAMBDA_OTA_VERSION" |cut -f2 -d= |cut -f2 -d '"' |paste -sd' ')'

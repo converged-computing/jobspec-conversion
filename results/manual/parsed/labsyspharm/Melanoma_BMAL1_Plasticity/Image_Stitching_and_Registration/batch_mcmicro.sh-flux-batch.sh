@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-staircase-8220
+#FLUX: --job-name=phat-peanut-0832
+#FLUX: --queue=medium
+#FLUX: -t=173520
 #FLUX: --urgency=16
 
 user_name='ccr13'

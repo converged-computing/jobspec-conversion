@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-eagle-2533
+#FLUX: --job-name=swampy-cherry-9286
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=21600

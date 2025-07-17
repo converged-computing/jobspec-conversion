@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-onion-1063
+#FLUX: --job-name=runmnist
+#FLUX: --queue=fas_gpu
+#FLUX: -t=240
 #FLUX: --urgency=16
 
 module load Anaconda3/5.0.1-fasrc01

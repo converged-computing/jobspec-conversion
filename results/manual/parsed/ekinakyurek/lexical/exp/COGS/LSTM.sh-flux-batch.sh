@@ -2,7 +2,7 @@
 #FLUX: --job-name=lstmcogs
 #FLUX: -c=5
 #FLUX: -t=172800
-#FLUX: --urgency=16
+#FLUX: --urgency=50
 
 lr=1.0
 warmup_steps=4000

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chair-5819
+#FLUX: --job-name=wq-cublas-faults-pf
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=1

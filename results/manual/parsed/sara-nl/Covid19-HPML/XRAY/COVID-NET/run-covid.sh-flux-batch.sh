@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-toaster-6164
+#FLUX: --job-name=conspicuous-peanut-butter-1949
 #FLUX: --urgency=16
 
 clear

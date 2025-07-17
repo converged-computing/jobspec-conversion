@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-latke-8790
+#FLUX: --job-name=pointcept-semseg-swin3d-v1m1-0-small
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

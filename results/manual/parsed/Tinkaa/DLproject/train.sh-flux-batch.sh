@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-hope-8125
+#FLUX: --job-name=fat-plant-5913
+#FLUX: --queue=gpu
+#FLUX: -t=108000
 #FLUX: --urgency=16
 
 module load anaconda3

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Rans4-AMR
+#FLUX: -n=8
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export NXF_WORK='/storage/home/sjc6663/scratch/nf-work-rans/b4'

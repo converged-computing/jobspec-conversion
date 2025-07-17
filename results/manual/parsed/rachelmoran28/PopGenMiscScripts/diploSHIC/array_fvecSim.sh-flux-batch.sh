@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bicycle-3820
+#FLUX: --job-name=fvecSim
+#FLUX: --queue=small,amdsmall,astyanax
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 cd /home/mcgaughs/shared/Software/diploSHIC

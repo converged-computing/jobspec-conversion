@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-salad-0768
+#FLUX: --job-name=ConvGrainSize
+#FLUX: -n=4
+#FLUX: --queue=hebbe
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 . /apps/new_modules.sh

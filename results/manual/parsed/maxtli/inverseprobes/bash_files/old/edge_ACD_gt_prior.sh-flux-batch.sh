@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=prior-$var-gt-edge_pruning
+#FLUX: --queue=gpu
+#FLUX: -t=720
 #FLUX: --urgency=16
 
 for strength in "0.3"

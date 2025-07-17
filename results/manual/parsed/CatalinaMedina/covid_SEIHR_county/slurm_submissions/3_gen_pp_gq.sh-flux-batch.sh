@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-car-3425
+#FLUX: --job-name=goodbye-lemon-0822
+#FLUX: --queue=standard
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-knife-2093
+#FLUX: --job-name=doopy-omelette-5411
+#FLUX: -n=6
+#FLUX: --queue=short
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load python/gcc-8.2.0/3.7.6

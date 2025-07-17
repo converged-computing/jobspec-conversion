@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-signal-3676
+#FLUX: --job-name=gassy-underoos-6754
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: --queue=v100_full_node

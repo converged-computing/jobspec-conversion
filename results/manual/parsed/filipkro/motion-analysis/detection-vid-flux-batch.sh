@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-animal-9058
+#FLUX: --job-name=goodbye-frito-3148
+#FLUX: -n=4
+#FLUX: --queue=alvis
+#FLUX: -t=2400
 #FLUX: --urgency=16
 
 vid="006FL.MTS"

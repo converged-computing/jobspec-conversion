@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-diablo-5777
+#FLUX: --job-name=psycho-nalgas-3064
+#FLUX: -N=4
+#FLUX: -n=24
+#FLUX: --queue=gpu
+#FLUX: -t=57600
 #FLUX: --urgency=16
 
 module load cuda/9.0

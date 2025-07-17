@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-cattywampus-3229
+#FLUX: --job-name=evasive-nunchucks-5564
 #FLUX: --queue=gpu-shared
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/expanse/projects/qstore/mia326/sids/pde/lib:$LD_LIBRARY_PATH'

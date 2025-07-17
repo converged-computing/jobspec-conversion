@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-nunchucks-4619
+#FLUX: --job-name=chocolate-cattywampus-4278
 #FLUX: -c=24
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export CXX='$READEX_CXX'

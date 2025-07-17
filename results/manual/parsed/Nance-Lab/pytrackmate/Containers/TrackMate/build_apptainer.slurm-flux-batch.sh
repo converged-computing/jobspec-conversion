@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-knife-0183
+#FLUX: --job-name=joyous-blackbean-8731
+#FLUX: --queue=compute
 #FLUX: -t=300
 #FLUX: --urgency=16
 

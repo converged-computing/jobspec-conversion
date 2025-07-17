@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-snack-4704
+#FLUX: --job-name=prior_run
 #FLUX: -c=32
 #FLUX: -t=432000
 #FLUX: --urgency=16

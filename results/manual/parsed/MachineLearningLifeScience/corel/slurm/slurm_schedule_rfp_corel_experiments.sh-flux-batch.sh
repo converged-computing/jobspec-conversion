@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=RFP_COREL
 #FLUX: -c=6
+#FLUX: --queue=boomsma
 #FLUX: -t=302400
 #FLUX: --urgency=16
 

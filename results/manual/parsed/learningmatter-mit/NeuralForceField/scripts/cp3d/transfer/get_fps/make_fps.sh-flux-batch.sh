@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-general-9593
+#FLUX: --job-name=delicious-omelette-7107
 #FLUX: -c=32
+#FLUX: --queue=sched_mit_rafagb_amd,sched_mit_rafagb
+#FLUX: -t=258000
 #FLUX: --urgency=16
 
 export NFFDIR='/home/saxelrod/repo/nff/master/NeuralForceField'

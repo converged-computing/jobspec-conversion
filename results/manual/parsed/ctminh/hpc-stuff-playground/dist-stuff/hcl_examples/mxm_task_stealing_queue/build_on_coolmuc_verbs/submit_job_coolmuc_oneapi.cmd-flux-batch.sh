@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-house-2301
+#FLUX: --job-name=hcl_mxmtask_queue_test
 #FLUX: -N=2
 #FLUX: -c=2
 #FLUX: --queue=cm2_tiny

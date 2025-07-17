@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-nalgas-9240
+#FLUX: --job-name=dietJuicerMerge
+#FLUX: --queue=general
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 set -e

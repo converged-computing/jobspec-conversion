@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-butter-6432
+#FLUX: --job-name=Deep-RBM_MLP_5_dec_real_PARAL_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

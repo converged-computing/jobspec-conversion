@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-earthworm-1003
+#FLUX: --job-name=hanky-soup-7946
 #FLUX: --urgency=16
 
 usage="clusterize [options] -c \"command\"

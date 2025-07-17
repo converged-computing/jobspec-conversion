@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-mango-4683
+#FLUX: --job-name=doopy-bike-8136
+#FLUX: -n=24
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ID=$SLURM_ARRAY_TASK_ID

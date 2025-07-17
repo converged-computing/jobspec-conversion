@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=hpl_mpi_test
+#FLUX: -n=64
 #FLUX: --exclusive
 #FLUX: --queue=cf1
 #FLUX: -t=42900

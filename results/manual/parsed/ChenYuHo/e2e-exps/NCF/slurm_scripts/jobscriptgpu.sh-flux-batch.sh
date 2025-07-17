@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-leader-2863
+#FLUX: --job-name=NCF
+#FLUX: -n=2
 #FLUX: --queue=batch
 #FLUX: -t=43200
 #FLUX: --urgency=16

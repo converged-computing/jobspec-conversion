@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-soup-5253
+#FLUX: --job-name=expressive-eagle-4032
 #FLUX: -c=6
 #FLUX: -t=120
 #FLUX: --urgency=16

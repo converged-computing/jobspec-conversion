@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-carrot-3969
+#FLUX: --job-name=stanky-buttface-2307
+#FLUX: --queue=RM-shared
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 set -x

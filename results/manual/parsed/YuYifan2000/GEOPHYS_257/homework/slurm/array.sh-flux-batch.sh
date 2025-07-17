@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-onion-4997
+#FLUX: --job-name=chocolate-squidward-0197
 #FLUX: --queue=preempt
 #FLUX: -t=120
 #FLUX: --urgency=16

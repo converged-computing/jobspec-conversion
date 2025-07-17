@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-pedo-2391
+#FLUX: --job-name=CPparameter_test
 #FLUX: -c=32
 #FLUX: --queue=test
 #FLUX: -t=900

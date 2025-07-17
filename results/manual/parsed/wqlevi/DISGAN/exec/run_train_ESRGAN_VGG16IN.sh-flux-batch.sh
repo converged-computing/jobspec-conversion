@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-banana-5294
+#FLUX: --job-name=TORCH-GPU
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

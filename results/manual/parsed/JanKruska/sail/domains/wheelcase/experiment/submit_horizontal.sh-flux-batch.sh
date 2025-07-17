@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lentil-3416
+#FLUX: --job-name=purple-bicycle-6227
 #FLUX: --exclusive
 #FLUX: --queue=hpc
 #FLUX: -t=259200

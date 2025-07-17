@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-leg-3114
+#FLUX: --job-name=eval_pretrained_biggan_unet_128_256
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

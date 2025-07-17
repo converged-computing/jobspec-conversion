@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-pastry-3425
+#FLUX: --job-name=push_to_hub
 #FLUX: -c=10
+#FLUX: --queue=gpu
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '

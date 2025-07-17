@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-kerfuffle-4441
+#FLUX: --job-name=expressive-pastry-2263
 #FLUX: --urgency=16
 
 for i in 0 1 2 3 4 

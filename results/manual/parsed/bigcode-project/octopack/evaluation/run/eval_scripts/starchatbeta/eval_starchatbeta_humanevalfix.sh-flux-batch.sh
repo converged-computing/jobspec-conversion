@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-train-4527
+#FLUX: --job-name=phat-bits-2305
 #FLUX: --exclusive
+#FLUX: --queue=small-g
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source /pfs/lustrep2/scratch/project_462000241/muennighoff/venv/bin/activate

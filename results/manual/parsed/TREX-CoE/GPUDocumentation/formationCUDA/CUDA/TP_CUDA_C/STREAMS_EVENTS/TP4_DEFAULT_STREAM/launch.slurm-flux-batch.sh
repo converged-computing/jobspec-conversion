@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-kitty-3536
+#FLUX: --job-name=cuda_4_calmip_test
+#FLUX: -n=16
 #FLUX: -t=600
 #FLUX: --urgency=16
 

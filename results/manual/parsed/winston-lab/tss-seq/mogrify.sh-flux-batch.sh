@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-earthworm-4075
+#FLUX: --job-name=mogrify-tss-seq
+#FLUX: --queue=short
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 find . -name "*.svg" ! -path "*.git*" ! -path "*.snakemake*" ! -name "rulegraph.svg" ! -name "dag.svg" | while read svg; do

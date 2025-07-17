@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-spoon-8466
+#FLUX: --job-name=purple-onion-0024
 #FLUX: -c=10
 #FLUX: --exclusive
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 ulimit -v unlimited

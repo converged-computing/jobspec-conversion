@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-soup-7308
+#FLUX: --job-name=Super
 #FLUX: -c=10
 #FLUX: --queue=amd
+#FLUX: -t=89100
 #FLUX: --urgency=16
 
 module load python/3.8.6

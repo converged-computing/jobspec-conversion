@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-truffle-7272
+#FLUX: --job-name=MC_sim
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 python build_network.py #srun

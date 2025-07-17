@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-spoon-8094
+#FLUX: --job-name=crusty-avocado-3351
+#FLUX: -N=2
+#FLUX: -n=2
+#FLUX: --queue=checkpt
 #FLUX: --urgency=16
 
 export NODES='$(unslurm.py)'

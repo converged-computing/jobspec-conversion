@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-parsnip-6158
+#FLUX: --job-name=rayCalc_GPU
+#FLUX: -N=2
+#FLUX: --queue=GPU-V100
 #FLUX: --urgency=16
 
 echo Time is `date`

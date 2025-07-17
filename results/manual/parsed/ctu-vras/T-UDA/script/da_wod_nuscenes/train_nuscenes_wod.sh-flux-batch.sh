@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-house-2545
+#FLUX: --job-name=anxious-dog-1845
 #FLUX: -c=24
 #FLUX: --queue=amdgpuextralong
 #FLUX: -t=864000

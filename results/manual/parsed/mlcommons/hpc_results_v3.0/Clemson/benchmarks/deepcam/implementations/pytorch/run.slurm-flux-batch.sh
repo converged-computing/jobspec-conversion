@@ -1,6 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=mlperf-hpc:deepcam
+#FLUX: -N=18
+#FLUX: -n=36
 #FLUX: --exclusive
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export UCX_POSIX_USE_PROC_LINK='n'

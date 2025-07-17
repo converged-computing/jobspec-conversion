@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-hippo-4265
+#FLUX: --job-name=amg2013_ptf
 #FLUX: -N=5
 #FLUX: -c=12
 #FLUX: --exclusive

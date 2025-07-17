@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-hope-8023
+#FLUX: --job-name=salted-pastry-3187
 #FLUX: -c=10
+#FLUX: -t=950400
 #FLUX: --urgency=16
 
 source activate varaedes

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-bits-3729
+#FLUX: --job-name=run-function
 #FLUX: -c=8
 #FLUX: --queue=dgx_normal_q
 #FLUX: -t=3600

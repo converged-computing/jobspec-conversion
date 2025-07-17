@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-leader-3305
+#FLUX: --job-name=expensive-dog-5457
+#FLUX: -n=40
 #FLUX: --urgency=16
 
 module load xfdtd/7.10.2.3 #7.9.2.2

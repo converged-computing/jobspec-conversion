@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-bits-3577
+#FLUX: --job-name=boopy-pot-8888
 #FLUX: -c=16
 #FLUX: --urgency=16
 

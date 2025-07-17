@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bike-8504
+#FLUX: --job-name=salted-banana-7423
 #FLUX: -n=4
 #FLUX: --queue=hpc
 #FLUX: -t=259200

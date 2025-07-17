@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-poo-8861
+#FLUX: --job-name=loopy-spoon-4267
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 python task_a.py \

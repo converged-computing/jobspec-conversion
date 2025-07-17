@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-signal-2977
+#FLUX: --job-name=score
 #FLUX: -n=76
+#FLUX: --queue=icelake
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-earthworm-7660
+#FLUX: --job-name=PTB-2
 #FLUX: -c=32
+#FLUX: --queue=ampere
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

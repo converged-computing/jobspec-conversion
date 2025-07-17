@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-salad-5512
+#FLUX: --job-name=grated-platanos-9056
 #FLUX: -c=12
 #FLUX: --queue=develbooster
 #FLUX: -t=5400

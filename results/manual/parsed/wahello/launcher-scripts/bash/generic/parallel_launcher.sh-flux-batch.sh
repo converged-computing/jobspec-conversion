@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-earthworm-6537
+#FLUX: --job-name=GNUParallel
+#FLUX: -N=2
+#FLUX: -n=56
+#FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

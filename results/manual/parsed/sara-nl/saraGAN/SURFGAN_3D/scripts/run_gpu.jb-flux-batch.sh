@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-toaster-8746
+#FLUX: --job-name=buttery-squidward-8301
+#FLUX: -N=3
+#FLUX: -n=12
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 module use /home/druhe/environment-modules-lisa

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lemur-2852
+#FLUX: --job-name=gearshifft
+#FLUX: -n=64
+#FLUX: --queue=regular
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 BOOST_VER=1.65.1

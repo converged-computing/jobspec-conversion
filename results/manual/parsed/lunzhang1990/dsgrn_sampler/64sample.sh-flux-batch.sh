@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-squidward-1759
+#FLUX: --job-name=muffled-knife-7620
+#FLUX: --queue=main
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 cd $PWD

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-nunchucks-7100
+#FLUX: --job-name=goodbye-signal-7388
 #FLUX: -n=10
 #FLUX: -c=16
 #FLUX: -t=259200

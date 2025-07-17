@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-avocado-4594
+#FLUX: --job-name=train
 #FLUX: --urgency=16
 
 echo "train run"

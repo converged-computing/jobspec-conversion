@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-caramel-1151
+#FLUX: --job-name=rllib_cartpole
 #FLUX: -c=3
+#FLUX: --queue=ampere
 #FLUX: -t=300
 #FLUX: --urgency=16
 

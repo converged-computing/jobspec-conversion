@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-caramel-3717
+#FLUX: --job-name=dinosaur-carrot-0073
+#FLUX: --queue=fink_gpu
+#FLUX: -t=225
 #FLUX: --urgency=16
 
 PROJDIR="/n/holylfs05/LABS/finkbeiner_lab/Users/nmudur/project_dirs/CMD_2D/diffusion-models-for-cosmological-fields/annotated/results/"

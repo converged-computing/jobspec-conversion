@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-eagle-3430
+#FLUX: --job-name=AI_LD_buddies
+#FLUX: --queue=general
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 module load python/3.6.6

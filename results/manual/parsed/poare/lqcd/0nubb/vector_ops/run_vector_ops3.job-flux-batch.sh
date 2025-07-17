@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=vector_op_npr_3
 #FLUX: --queue=a100r
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='6'

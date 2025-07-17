@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mbHRNet
 #FLUX: -c=10
+#FLUX: --queue=nvidia
 #FLUX: -t=144000
 #FLUX: --urgency=16
 

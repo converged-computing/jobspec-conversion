@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-fork-3472
+#FLUX: --job-name=fat-dog-9839
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=batch
 #FLUX: -t=7200

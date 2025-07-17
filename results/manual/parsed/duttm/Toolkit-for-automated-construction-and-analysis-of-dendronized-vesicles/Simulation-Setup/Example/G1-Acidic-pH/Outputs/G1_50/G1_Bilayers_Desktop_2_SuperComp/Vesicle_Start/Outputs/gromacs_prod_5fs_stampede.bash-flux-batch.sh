@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-underoos-4488
+#FLUX: --job-name=G1_vesicle
+#FLUX: -N=8
+#FLUX: -n=512
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 tar xvf package.tar.gz

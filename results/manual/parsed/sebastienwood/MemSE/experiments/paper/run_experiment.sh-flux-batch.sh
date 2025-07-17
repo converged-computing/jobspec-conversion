@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-train-5391
+#FLUX: --job-name=crusty-diablo-7929
 #FLUX: -c=12
 #FLUX: -t=259920
 #FLUX: --urgency=16

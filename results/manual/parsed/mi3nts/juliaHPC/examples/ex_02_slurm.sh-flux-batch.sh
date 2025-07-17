@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-banana-4539
+#FLUX: --job-name=factorialFunctionSimple
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 echo Running on host: `hostname`

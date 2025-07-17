@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-underoos-2434
+#FLUX: --job-name=chocolate-poo-5692
+#FLUX: -N=2
+#FLUX: -n=4
+#FLUX: --queue=all
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 ml lang JuliaHPC

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-poo-8730
+#FLUX: --job-name=avg
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=1800

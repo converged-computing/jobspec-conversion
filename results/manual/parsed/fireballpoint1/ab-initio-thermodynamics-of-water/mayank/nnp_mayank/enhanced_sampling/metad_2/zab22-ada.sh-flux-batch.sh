@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-poo-7587
+#FLUX: --job-name=ornery-pastry-1737
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

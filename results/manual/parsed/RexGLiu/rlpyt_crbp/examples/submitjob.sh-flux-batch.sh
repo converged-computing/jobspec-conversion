@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-hippo-7172
+#FLUX: --job-name=gpu_breakout
+#FLUX: -n=16
+#FLUX: --queue=gpu
 #FLUX: -t=705600
 #FLUX: --urgency=16
 

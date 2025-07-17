@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-poo-0487
+#FLUX: --job-name=goodbye-pastry-7086
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

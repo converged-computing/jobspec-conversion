@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-kitty-5814
+#FLUX: --job-name=purple-peas-2437
 #FLUX: --urgency=16
 
 module purge

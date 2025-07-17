@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-dog-4396
+#FLUX: --job-name=goodbye-lemur-5702
+#FLUX: -N=2
 #FLUX: -c=6
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=gpu_4090
 #FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'

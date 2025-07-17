@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-peas-7185
+#FLUX: --job-name=pytorch-bm-hsw
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='32'

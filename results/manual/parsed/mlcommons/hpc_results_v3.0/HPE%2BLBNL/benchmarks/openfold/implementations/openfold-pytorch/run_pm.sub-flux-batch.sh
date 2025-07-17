@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mlperf-hpc-openfold
 #FLUX: -c=32
+#FLUX: --queue=regular
 #FLUX: --urgency=16
 
 export MODEL_NAME='openfold'

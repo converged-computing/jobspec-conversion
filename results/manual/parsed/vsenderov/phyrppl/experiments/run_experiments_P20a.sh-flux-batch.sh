@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-house-9271
+#FLUX: --job-name=P20a
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export OMP_STACKSIZE=' 32G" '

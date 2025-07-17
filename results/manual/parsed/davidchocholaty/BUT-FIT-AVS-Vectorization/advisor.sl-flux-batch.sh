@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-carrot-0997
+#FLUX: --job-name=AVS-advisor
+#FLUX: --queue=qcpu_exp
+#FLUX: -t=1500
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

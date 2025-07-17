@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-chair-1089
+#FLUX: --job-name=chromvar
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 source ~/.bashrc

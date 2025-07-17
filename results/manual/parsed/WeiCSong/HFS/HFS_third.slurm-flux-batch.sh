@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-arm-3852
+#FLUX: --job-name=R
 #FLUX: -c=10
+#FLUX: --queue=a100
 #FLUX: --urgency=16
 
 export PATH='$PATH:~/HFS/code/'

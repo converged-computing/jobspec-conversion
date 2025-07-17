@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-animal-9861
+#FLUX: --job-name=07_FST_by_group
+#FLUX: -c=6
+#FLUX: --queue=large
 #FLUX: -t=1814400
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-avocado-8575
+#FLUX: --job-name=purple-banana-6224
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-omelette-2072
+#FLUX: --job-name=chocolate-bike-7325
+#FLUX: -n=16
+#FLUX: --queue=defq
 #FLUX: -t=360000
 #FLUX: --urgency=16
 

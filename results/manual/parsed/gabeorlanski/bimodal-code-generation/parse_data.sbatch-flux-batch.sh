@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bike-3209
+#FLUX: --job-name=sticky-onion-1984
+#FLUX: -c=32
+#FLUX: --queue=cs
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-car-1197
+#FLUX: --job-name=lr_find
 #FLUX: --queue=dc-gpu-devel
 #FLUX: -t=1800
 #FLUX: --urgency=16

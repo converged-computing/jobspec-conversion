@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nanome.ecoli_demo_hpc
+#FLUX: -n=4
+#FLUX: --queue=inference
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-motorcycle-5659
+#FLUX: --job-name=strawberry-cattywampus-1348
 #FLUX: --queue=hci-rw
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 set -e

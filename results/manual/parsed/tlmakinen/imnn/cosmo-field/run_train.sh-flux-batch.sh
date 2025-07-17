@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=field_imnn
 #FLUX: -c=10
+#FLUX: --queue=gpu
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

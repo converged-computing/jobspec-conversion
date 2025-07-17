@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-motorcycle-8036
+#FLUX: --job-name=snakeflow
+#FLUX: --queue=unlimitq
 #FLUX: --urgency=16
 
 source activate snakemake

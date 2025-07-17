@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-earthworm-1048
+#FLUX: --job-name=creamy-sundae-6154
+#FLUX: -n=28
+#FLUX: --queue=secondary
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 cd /projects/aces

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-general-6050
+#FLUX: --job-name=frigid-hippo-4472
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

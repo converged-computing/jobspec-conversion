@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-egg-2663
+#FLUX: --job-name=planczos
+#FLUX: -n=8
+#FLUX: --queue=test
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 PRO=planczos

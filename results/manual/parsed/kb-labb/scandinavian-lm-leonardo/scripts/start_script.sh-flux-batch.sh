@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-pot-6829
+#FLUX: --job-name=lovely-fork-5099
 #FLUX: -N=2
 #FLUX: -c=8
 #FLUX: --queue=boost_usr_prod

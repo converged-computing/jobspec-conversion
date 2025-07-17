@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-nalgas-7589
+#FLUX: --job-name=hello-carrot-6431
 #FLUX: -c=12
 #FLUX: --queue=thinkstation-p360
 #FLUX: --urgency=16

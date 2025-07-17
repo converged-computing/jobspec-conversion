@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-hippo-3706
+#FLUX: --job-name=gloopy-spoon-3864
+#FLUX: -n=4
+#FLUX: --queue=rtx-dev
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 ml

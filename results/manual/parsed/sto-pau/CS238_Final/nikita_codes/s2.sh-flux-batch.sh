@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lizard-5232
+#FLUX: --job-name=s2
+#FLUX: -N=4
+#FLUX: --queue=normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-itch-3099
+#FLUX: --job-name=cowy-arm-2645
+#FLUX: -c=2
+#FLUX: --queue=gpu
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-citrus-0730
+#FLUX: --job-name=purple-fork-7704
+#FLUX: --queue=GPU-shared
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load cuda/8.0 tensorflow/0.12.1

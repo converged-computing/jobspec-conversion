@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-citrus-2422
+#FLUX: --job-name=rainbow-squidward-3652
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

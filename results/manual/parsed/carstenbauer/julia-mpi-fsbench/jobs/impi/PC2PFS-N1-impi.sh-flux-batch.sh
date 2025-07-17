@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lemur-6954
+#FLUX: --job-name=reclusive-itch-4742
+#FLUX: -n=64
+#FLUX: -c=2
 #FLUX: --exclusive
+#FLUX: --queue=cont
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

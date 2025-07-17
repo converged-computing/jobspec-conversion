@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-salad-8703
+#FLUX: --job-name=butterscotch-ricecake-0419
 #FLUX: -c=5
+#FLUX: --queue=astro
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

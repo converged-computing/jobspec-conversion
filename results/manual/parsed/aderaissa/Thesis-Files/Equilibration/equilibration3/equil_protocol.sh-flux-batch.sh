@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=equil
+#FLUX: -c=16
 #FLUX: --gpus-per-task=1
 #FLUX: -t=72000
 #FLUX: --urgency=16

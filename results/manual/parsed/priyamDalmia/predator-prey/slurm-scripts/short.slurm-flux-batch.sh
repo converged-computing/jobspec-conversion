@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-fudge-9965
+#FLUX: --job-name=grated-egg-7784
 #FLUX: --queue=shortgpgpu
 #FLUX: -t=3600
 #FLUX: --urgency=16

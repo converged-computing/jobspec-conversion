@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-citrus-4047
+#FLUX: --job-name=quirky-bits-7044
+#FLUX: --queue=gpu
 #FLUX: -t=0
 #FLUX: --urgency=16
 

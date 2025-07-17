@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-frito-7610
+#FLUX: --job-name=find_lr
 #FLUX: -c=96
 #FLUX: --gpus-per-task=4
 #FLUX: --queue=booster

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-chair-1101
+#FLUX: --job-name=val2cumulative
+#FLUX: -N=32
+#FLUX: --queue=batch
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export rocm_version='5.4.3'

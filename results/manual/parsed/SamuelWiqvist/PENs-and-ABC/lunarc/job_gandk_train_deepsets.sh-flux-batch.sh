@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-buttface-4076
+#FLUX: --job-name=gandk_train_deepsets
+#FLUX: --queue=gpu
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

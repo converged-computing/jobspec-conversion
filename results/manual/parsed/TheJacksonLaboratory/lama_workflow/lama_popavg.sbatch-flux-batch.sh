@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-citrus-3709
+#FLUX: --job-name=lama_popavg
+#FLUX: -c=16
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load singularity

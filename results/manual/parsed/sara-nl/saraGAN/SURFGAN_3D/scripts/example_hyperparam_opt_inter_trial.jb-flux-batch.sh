@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-bits-7078
+#FLUX: --job-name=boopy-snack-6254
+#FLUX: -N=4
+#FLUX: -c=6
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='5'

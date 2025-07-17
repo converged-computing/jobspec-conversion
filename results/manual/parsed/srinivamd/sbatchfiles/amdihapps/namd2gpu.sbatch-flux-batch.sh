@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-destiny-2262
+#FLUX: --job-name=buttery-knife-1654
 #FLUX: -c=16
 #FLUX: --urgency=16
 

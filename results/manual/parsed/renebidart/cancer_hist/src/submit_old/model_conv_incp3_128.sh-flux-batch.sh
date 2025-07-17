@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-general-3856
+#FLUX: --job-name=frigid-lentil-3441
 #FLUX: -t=1440
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-fork-5255
+#FLUX: --job-name=quirky-egg-9950
 #FLUX: --urgency=16
 
 source /usr/bmicnas01/data-biwi-01/nkarani/softwares/anaconda/installation_dir/bin/activate tf_v1_15

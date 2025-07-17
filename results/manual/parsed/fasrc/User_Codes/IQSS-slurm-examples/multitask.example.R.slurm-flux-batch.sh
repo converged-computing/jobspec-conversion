@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-pedo-1591
+#FLUX: --job-name=multitask.example
+#FLUX: -n=5
+#FLUX: --queue=serial_requeue
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 module purge > /dev/null 2>&1

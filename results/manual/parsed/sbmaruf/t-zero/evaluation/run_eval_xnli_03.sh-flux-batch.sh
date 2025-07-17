@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-squidward-4215
+#FLUX: --job-name=arid-plant-4073
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-bicycle-7337
+#FLUX: --job-name=crunchy-arm-4501
+#FLUX: --queue=long
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 pwd

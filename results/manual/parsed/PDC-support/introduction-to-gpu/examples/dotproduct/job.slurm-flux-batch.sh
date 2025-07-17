@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-leopard-9409
+#FLUX: --job-name=conspicuous-arm-4741
+#FLUX: --queue=gpu
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module load PrgEnv-cray

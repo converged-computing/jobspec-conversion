@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=udacity_new_xml_test_train
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mlow
 #FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'

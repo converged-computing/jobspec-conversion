@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-cinnamonbun-0478
+#FLUX: --job-name=reclusive-poo-9753
 #FLUX: -c=128
 #FLUX: --exclusive
+#FLUX: --queue=romeo
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

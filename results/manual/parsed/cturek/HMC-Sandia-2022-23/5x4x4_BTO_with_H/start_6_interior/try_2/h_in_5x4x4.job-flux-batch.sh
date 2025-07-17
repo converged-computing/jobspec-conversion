@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-eagle-9993
+#FLUX: --job-name=nerdy-malarkey-5189
+#FLUX: --queue=RM
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module load intel/20.4

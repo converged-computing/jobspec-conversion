@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-parsnip-1635
+#FLUX: --job-name=amg2013_sacct
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --exclusive

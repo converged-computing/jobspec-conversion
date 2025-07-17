@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-signal-5427
+#FLUX: --job-name=sticky-plant-0823
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

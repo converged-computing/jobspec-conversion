@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-butter-5688
+#FLUX: --job-name=expensive-gato-3614
 #FLUX: -N=4
 #FLUX: --queue=gpu
 #FLUX: -t=3600

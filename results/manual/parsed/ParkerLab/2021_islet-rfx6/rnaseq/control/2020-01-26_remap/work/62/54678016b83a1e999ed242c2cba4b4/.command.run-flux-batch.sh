@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-fudge-3588
+#FLUX: --job-name=nf-bam_to_fastq_(20)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

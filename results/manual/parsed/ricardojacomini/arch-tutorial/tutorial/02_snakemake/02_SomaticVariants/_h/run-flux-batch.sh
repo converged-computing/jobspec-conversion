@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-spoon-9224
+#FLUX: --job-name=sra_tools
+#FLUX: --queue=defq
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

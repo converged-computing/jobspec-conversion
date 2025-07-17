@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=red-peas-9359
+#FLUX: --job-name=pre_7
+#FLUX: -N=4
 #FLUX: -c=8
 #FLUX: --exclusive
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 export MIOPEN_USER_DB_PATH='/tmp/tensorflow-miopen-${USER}-2.8'

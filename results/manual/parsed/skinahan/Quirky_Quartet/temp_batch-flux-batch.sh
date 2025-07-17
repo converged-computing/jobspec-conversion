@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=tune_t5_codexglue
+#FLUX: -c=32
+#FLUX: --queue=wildfire
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export INCLUDEPATH='$INCLUDEPATH:$HOME/cuda/include'

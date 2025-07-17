@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cat-4857
+#FLUX: --job-name=lovely-mango-2441
 #FLUX: -n=4
 #FLUX: -c=8
 #FLUX: --queue=eap

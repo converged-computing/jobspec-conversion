@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-onion-1065
+#FLUX: --job-name=streams
 #FLUX: --urgency=16
 
 export KMP_AFFINITY='granularity=core,compact,1'

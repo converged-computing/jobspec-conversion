@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-underoos-0391
+#FLUX: --job-name=electra
+#FLUX: -n=28
 #FLUX: --queue=adaptlab
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:/home/kbhetwal/child-electra/electra-pytorch'

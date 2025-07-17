@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-parsnip-3218
+#FLUX: --job-name=eccentric-puppy-6305
+#FLUX: --queue=standard
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source __utils.sh

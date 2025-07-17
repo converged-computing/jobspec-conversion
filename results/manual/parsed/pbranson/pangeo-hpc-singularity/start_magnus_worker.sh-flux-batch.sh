@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-latke-5927
+#FLUX: --job-name=dask-worker
 #FLUX: -N=2
 #FLUX: -n=6
 #FLUX: --queue=debugq

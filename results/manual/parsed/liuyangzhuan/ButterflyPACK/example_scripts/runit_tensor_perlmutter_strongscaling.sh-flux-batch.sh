@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-parsnip-4793
+#FLUX: --job-name=tensorbf
+#FLUX: -N=16
+#FLUX: --queue=regular
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export OMP_PLACES='threads'

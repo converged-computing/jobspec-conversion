@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-carrot-1381
+#FLUX: --job-name=grated-platanos-0976
+#FLUX: -N=4
+#FLUX: --queue=bdwall
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

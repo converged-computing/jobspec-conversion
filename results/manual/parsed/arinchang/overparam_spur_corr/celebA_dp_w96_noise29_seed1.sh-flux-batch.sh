@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-house-8530
+#FLUX: --job-name=joyous-puppy-0259
 #FLUX: -c=6
+#FLUX: --queue=rise
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'

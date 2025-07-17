@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-onion-8214
+#FLUX: --job-name=afno
 #FLUX: -N=2
 #FLUX: -c=32
 #FLUX: --queue=nvgpu

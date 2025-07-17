@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-citrus-3100
+#FLUX: --job-name=swampy-parrot-1499
+#FLUX: -n=4
+#FLUX: --queue=public
+#FLUX: -t=1800000
 #FLUX: --urgency=16
 
 module load cuda/75/blas/7.5.18

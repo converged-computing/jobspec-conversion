@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-poodle-0314
+#FLUX: --job-name=abc-faults
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

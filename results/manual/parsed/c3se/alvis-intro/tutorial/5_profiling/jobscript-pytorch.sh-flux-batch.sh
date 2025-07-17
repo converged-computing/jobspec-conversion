@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-parrot-1165
+#FLUX: --job-name=Profile PyTorch
+#FLUX: --queue=alvis
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module purge

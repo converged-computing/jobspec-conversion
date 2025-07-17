@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-nalgas-1718
+#FLUX: --job-name=Deep-RBM_DBM_5_inc_bin_PARAL_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

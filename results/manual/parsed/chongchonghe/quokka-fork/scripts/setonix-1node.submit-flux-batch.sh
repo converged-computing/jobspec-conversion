@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lentil-4181
+#FLUX: --job-name=quokka_benchmark
 #FLUX: -c=8
 #FLUX: --exclusive
+#FLUX: --queue=gpu
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

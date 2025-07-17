@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nanome.teradata_hpc
+#FLUX: -n=12
+#FLUX: --queue=training
 #FLUX: -t=1209600
 #FLUX: --urgency=16
 

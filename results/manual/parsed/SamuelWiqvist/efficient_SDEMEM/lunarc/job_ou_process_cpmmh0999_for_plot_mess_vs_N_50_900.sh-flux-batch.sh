@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-buttface-3018
+#FLUX: --job-name=ou_cpmmh_0999_50
 #FLUX: --exclusive
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-cattywampus-4719
+#FLUX: --job-name=tart-mango-2923
+#FLUX: -c=8
+#FLUX: --queue=huce_intel
+#FLUX: -t=87600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'

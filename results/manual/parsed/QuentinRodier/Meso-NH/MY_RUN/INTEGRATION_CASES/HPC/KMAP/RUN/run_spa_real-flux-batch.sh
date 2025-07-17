@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hippo-3003
+#FLUX: --job-name=sparea_kmap
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 1'

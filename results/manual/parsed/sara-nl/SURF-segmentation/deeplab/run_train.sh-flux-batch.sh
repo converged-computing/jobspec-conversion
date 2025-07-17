@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-lemur-0734
+#FLUX: --job-name=faux-dog-5792
+#FLUX: -N=3
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=57600
 #FLUX: --urgency=16
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'

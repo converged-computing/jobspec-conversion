@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=tax2D
+#FLUX: --queue=hns,normal
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

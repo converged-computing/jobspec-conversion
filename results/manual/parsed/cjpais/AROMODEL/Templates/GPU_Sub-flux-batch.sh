@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name={Sim_Name}
 #FLUX: --queue=gpu
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 cd {path}

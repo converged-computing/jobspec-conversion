@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-pedo-0062
+#FLUX: --job-name=LPS_cape
+#FLUX: -t=2880
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

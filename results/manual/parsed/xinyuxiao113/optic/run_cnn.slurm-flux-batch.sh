@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-nunchucks-6402
+#FLUX: --job-name=test
+#FLUX: --queue=geforce
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 module load spack

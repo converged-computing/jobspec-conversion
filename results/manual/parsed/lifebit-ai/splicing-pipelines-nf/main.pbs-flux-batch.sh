@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-pastry-7347
+#FLUX: --job-name=rainbow-blackbean-3202
 #FLUX: -c=4
+#FLUX: --queue=batch
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

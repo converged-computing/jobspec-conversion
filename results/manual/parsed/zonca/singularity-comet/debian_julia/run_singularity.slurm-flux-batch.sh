@@ -2,6 +2,7 @@
 #FLUX: --job-name=singularity
 #FLUX: -N=2
 #FLUX: --queue=compute
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load singularity/2.2 mvapich2_ib/2.1

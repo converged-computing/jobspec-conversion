@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-blackbean-8170
+#FLUX: --job-name=gassy-eagle-9939
 #FLUX: --queue=bumblebee
 #FLUX: -t=86400
 #FLUX: --urgency=16

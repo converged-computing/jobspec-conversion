@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lentil-5964
+#FLUX: --job-name=placid-omelette-6987
 #FLUX: -c=5
 #FLUX: --exclusive
 #FLUX: --queue=gm4-pmext

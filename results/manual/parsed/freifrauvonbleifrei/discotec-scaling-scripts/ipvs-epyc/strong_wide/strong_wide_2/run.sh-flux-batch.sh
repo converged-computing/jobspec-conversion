@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-citrus-5361
+#FLUX: --job-name=strong_wide
 #FLUX: -n=65
 #FLUX: --exclusive
 #FLUX: -t=9600

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mnist
+#FLUX: --queue=boost_usr_prod
 #FLUX: -t=900
 #FLUX: --urgency=16
 

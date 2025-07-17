@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-bicycle-9813
+#FLUX: --job-name=muffled-eagle-4054
 #FLUX: --urgency=16
 
 export GPTUNEROOT='$PWD'

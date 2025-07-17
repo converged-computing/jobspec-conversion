@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-soup-8604
+#FLUX: --job-name=purple-kerfuffle-5424
+#FLUX: -t=172815
 #FLUX: --urgency=16
 
 module load r/3.4.0

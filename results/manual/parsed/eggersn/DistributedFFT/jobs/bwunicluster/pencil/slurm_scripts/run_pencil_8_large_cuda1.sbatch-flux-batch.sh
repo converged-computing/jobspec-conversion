@@ -3,6 +3,7 @@
 #FLUX: -N=8
 #FLUX: -n=64
 #FLUX: --exclusive
+#FLUX: --queue=gpu_8
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

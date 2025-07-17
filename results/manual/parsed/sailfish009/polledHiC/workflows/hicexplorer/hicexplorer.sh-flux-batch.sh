@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-kitty-9736
+#FLUX: --job-name=snakemake_hicexplorer
 #FLUX: -c=8
+#FLUX: --queue=workq
 #FLUX: --urgency=16
 
 module purge

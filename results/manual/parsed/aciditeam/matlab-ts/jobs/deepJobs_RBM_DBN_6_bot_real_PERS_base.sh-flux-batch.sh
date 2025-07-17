@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-despacito-1739
+#FLUX: --job-name=Deep-RBM_DBN_6_bot_real_PERS_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

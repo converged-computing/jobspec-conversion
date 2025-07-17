@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-chip-7627
+#FLUX: --job-name=obiwan
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export name_for_run='elg_one_brick'

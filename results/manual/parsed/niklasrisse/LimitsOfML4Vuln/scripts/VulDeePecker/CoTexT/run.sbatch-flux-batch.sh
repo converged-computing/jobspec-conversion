@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lemon-0617
+#FLUX: --job-name=PT_GPU
 #FLUX: -c=4
 #FLUX: -t=82800
 #FLUX: --urgency=16

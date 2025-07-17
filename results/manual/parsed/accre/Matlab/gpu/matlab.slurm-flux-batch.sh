@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-gato-3604
+#FLUX: --job-name=expressive-knife-5720
 #FLUX: --queue=maxwell
 #FLUX: -t=600
 #FLUX: --urgency=16

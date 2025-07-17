@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-kerfuffle-2580
+#FLUX: --job-name=IRF_${tag1}
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 here=$(pwd)

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-diablo-0891
+#FLUX: --job-name=wobbly-soup-6250
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fakesuji/PEnGUIn/analysis/lines.pbs

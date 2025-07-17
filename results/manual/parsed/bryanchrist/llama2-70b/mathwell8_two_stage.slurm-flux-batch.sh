@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-omelette-4473
+#FLUX: --job-name=mathwell8b_two_stage_generate
 #FLUX: -c=10
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '

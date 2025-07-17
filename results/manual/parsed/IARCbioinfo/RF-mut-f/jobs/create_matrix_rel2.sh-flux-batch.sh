@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=PREPARE-DATA
+#FLUX: -c=10
 #FLUX: --queue=high_p
 #FLUX: --urgency=16
 

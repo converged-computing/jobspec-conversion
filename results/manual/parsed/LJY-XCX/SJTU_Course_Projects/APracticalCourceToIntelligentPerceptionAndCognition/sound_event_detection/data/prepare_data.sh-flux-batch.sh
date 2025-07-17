@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-muffin-1694
+#FLUX: --job-name=fugly-platanos-3296
+#FLUX: --queue=small
 #FLUX: --urgency=16
 
 if [ ! $# -eq 1 ]; then

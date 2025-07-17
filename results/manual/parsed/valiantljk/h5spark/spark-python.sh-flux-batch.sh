@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-pedo-8372
+#FLUX: --job-name=tart-pot-9988
+#FLUX: -N=46
+#FLUX: --queue=regular
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export SPARK_LOCAL_DIRS='/tmp'

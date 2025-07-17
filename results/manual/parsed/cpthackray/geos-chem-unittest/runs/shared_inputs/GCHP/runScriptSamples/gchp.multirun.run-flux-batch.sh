@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-chair-5667
+#FLUX: --job-name=confused-pancake-0244
+#FLUX: -n=6
+#FLUX: --queue=huce_intel
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 gchplog="gchp.log"

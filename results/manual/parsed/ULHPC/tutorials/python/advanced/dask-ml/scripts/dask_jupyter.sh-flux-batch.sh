@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-plant-1846
+#FLUX: --job-name=DASK_JUPYTER
+#FLUX: -N=2
+#FLUX: -n=10
+#FLUX: --queue=batch
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export VENV='$HOME/.envs/jupyter_dask_${ULHPC_CLUSTER}'

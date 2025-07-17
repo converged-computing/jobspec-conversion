@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-peas-5946
+#FLUX: --job-name=evasive-lamp-6083
 #FLUX: -n=4
 #FLUX: --queue=copyq
 #FLUX: -t=129600

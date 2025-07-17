@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-knife-4431
+#FLUX: --job-name=lovely-lamp-3424
+#FLUX: -c=32
+#FLUX: --queue=shared
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export PATH='${PATH}:${HIP_PATH}'

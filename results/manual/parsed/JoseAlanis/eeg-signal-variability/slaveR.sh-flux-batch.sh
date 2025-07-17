@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-leopard-4456
+#FLUX: --job-name=psycho-caramel-9950
+#FLUX: -c=14
+#FLUX: --queue=parallel
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 module purge # ensures vanilla environment

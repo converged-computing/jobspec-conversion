@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-house-6839
+#FLUX: --job-name=mid_filter
 #FLUX: -N=16
 #FLUX: -c=16
 #FLUX: --exclusive
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='8'

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ice_cpu
+#FLUX: -c=12
+#FLUX: --queue=cpu
 #FLUX: -t=720
 #FLUX: --urgency=16
 

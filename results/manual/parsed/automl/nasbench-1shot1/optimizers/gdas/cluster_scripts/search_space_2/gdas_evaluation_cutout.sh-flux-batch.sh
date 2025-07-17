@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-carrot-4480
+#FLUX: --job-name=GDAS_NASBENCH
+#FLUX: -c=2
+#FLUX: --queue=gpu_tesla-P100
+#FLUX: -t=950400
 #FLUX: --urgency=16
 
 echo "Workingdir: $PWD";

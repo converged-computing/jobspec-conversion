@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lentil-1535
+#FLUX: --job-name=purple-knife-0249
+#FLUX: -c=4
+#FLUX: -t=1440
 #FLUX: --urgency=16
 
 FILE="$(readlink -f $1)"

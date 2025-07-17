@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-diablo-8929
+#FLUX: --job-name=fat-lamp-4088
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 BASE="/bask/projects/x/xngs6460-languages/gnail/enfr"

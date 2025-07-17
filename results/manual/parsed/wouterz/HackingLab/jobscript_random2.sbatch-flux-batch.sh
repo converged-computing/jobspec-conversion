@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-itch-2102
+#FLUX: --job-name=reclusive-truffle-6185
 #FLUX: --queue=stud-ewi
 #FLUX: -t=3600
 #FLUX: --urgency=16

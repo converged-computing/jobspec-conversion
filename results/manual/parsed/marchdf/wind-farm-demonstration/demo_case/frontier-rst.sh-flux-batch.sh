@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-kitty-2142
+#FLUX: --job-name=demo_case
+#FLUX: -N=184
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 set -e

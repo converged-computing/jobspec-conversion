@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-caramel-7921
+#FLUX: --job-name=eccentric-egg-4512
 #FLUX: --queue=hci-rw
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module load singularity

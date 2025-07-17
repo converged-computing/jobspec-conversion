@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-signal-4402
+#FLUX: --job-name=fuzzy-destiny-1175
 #FLUX: --urgency=16
 
 arg1=$1

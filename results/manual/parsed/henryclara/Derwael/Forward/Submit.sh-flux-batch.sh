@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-frito-1992
+#FLUX: --job-name=Forward
 #FLUX: -n=100
 #FLUX: --queue=compute
 #FLUX: -t=28800

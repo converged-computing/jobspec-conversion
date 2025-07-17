@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-kitty-4560
+#FLUX: --job-name=creamy-bike-2481
+#FLUX: --queue=gpu
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load tensorflow/1.5.0_gpu_py3

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-squidward-0867
+#FLUX: --job-name=M1_H_base
+#FLUX: -n=24
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 START=$(date)

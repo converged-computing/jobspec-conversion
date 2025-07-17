@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-peas-2390
+#FLUX: --job-name=psycho-peanut-7340
+#FLUX: -N=2
+#FLUX: --queue=singleGPU
 #FLUX: --urgency=16
 
 export CONT='$(pwd)/nvidia-benchmarks-24.03.sif'

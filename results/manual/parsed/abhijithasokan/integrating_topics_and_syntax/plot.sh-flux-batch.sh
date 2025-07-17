@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-underoos-1963
+#FLUX: --job-name=ITS_plot
+#FLUX: -n=12
+#FLUX: -t=216000
 #FLUX: --urgency=16
 
 module purge

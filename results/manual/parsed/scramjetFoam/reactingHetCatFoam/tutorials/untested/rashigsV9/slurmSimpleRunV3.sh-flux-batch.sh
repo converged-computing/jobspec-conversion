@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leg-7805
+#FLUX: --job-name=rashV7
+#FLUX: --queue=Mlong
 #FLUX: -t=1209600
 #FLUX: --urgency=16
 

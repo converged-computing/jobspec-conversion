@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=verb_random_newsgroups_run
 #FLUX: --queue=gpu
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 cd /users/pa21/ptzouv/tkaravangelis/mice_pos_newsgroups

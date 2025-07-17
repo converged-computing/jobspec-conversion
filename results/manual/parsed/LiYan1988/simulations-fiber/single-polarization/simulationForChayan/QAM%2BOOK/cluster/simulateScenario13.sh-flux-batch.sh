@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-truffle-7982
+#FLUX: --job-name=simulateScenario13
+#FLUX: --queue=glenn
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load matlab

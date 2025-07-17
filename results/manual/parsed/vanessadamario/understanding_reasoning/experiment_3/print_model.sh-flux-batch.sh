@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=print
 #FLUX: --queue=cbmm
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module add openmind/singularity/3.4.1

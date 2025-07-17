@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-kitty-0376
+#FLUX: --job-name=carnivorous-kerfuffle-0892
+#FLUX: --queue=condo
 #FLUX: --urgency=16
 
 module load singularity

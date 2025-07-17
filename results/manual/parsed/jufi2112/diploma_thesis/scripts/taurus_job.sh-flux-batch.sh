@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-puppy-9326
+#FLUX: --job-name=grid_search_sequential_seed_1431
 #FLUX: --queue=ml
 #FLUX: -t=288000
 #FLUX: --urgency=16

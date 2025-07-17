@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-parrot-6787
+#FLUX: --job-name=bloated-lettuce-5816
 #FLUX: --urgency=16
 
 if [ "$#" -gt 2  -o  "$#" -eq 0 ]; then

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-parsnip-2810
+#FLUX: --job-name=arid-peanut-butter-3529
+#FLUX: --queue=batch
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load PrgEnv-cray

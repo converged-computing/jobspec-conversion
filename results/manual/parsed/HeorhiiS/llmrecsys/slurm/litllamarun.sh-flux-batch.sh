@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-toaster-7113
+#FLUX: --job-name=expensive-signal-8889
+#FLUX: -c=40
+#FLUX: --queue=nvidia
 #FLUX: -t=19800
 #FLUX: --urgency=16
 

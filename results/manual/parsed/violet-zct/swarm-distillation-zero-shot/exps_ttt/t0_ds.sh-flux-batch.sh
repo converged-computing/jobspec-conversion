@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=11B.exp
 #FLUX: -c=6
+#FLUX: --queue=isi
 #FLUX: -t=450000
 #FLUX: --urgency=16
 

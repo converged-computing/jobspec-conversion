@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-gato-6569
+#FLUX: --job-name=dinosaur-poo-2049
+#FLUX: -c=4
+#FLUX: -t=14340
 #FLUX: --urgency=16
 
 module load pyger/0.9

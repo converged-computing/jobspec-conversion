@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-dog-2289
+#FLUX: --job-name=drat_combos
+#FLUX: -c=8
+#FLUX: --queue=shared
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 module purge

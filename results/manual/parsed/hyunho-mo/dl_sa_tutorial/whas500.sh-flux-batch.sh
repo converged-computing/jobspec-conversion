@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=tf_hello
+#FLUX: --queue=express
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module purge

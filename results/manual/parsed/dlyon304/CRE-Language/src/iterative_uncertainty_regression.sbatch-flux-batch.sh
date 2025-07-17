@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pastry-7067
+#FLUX: --job-name=iter_reg
 #FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: -t=0
 #FLUX: --urgency=16
 

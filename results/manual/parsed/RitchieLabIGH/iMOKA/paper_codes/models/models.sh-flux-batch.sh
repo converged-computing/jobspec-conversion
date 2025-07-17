@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lentil-5890
+#FLUX: --job-name=red-taco-3414
+#FLUX: -n=2
+#FLUX: -t=87020
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_NTASKS'

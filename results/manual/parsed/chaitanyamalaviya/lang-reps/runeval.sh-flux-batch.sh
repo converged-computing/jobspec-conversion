@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cattywampus-3120
+#FLUX: --job-name=confused-rabbit-0394
+#FLUX: -n=5
+#FLUX: -t=0
 #FLUX: --urgency=16
 
 export DYLD_LIBRARY_PATH='/home/cmalaviy/dynet/build/dynet/:$DYLD_LIBRARY_PATH'

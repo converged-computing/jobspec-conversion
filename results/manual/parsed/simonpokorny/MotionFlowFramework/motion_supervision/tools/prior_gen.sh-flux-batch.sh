@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-fudge-5670
+#FLUX: --job-name=chocolate-punk-9743
 #FLUX: -c=6
 #FLUX: --queue=amdlong
 #FLUX: -t=259200

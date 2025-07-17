@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-citrus-3270
+#FLUX: --job-name=astute-ricecake-6276
+#FLUX: -c=32
+#FLUX: --queue=<partition
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 w_grad=$1

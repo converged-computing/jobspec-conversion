@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-latke-3306
+#FLUX: --job-name=outstanding-lettuce-6978
 #FLUX: -c=3
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16

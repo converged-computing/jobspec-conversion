@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lentil-0502
+#FLUX: --job-name=fourcastnet_job
 #FLUX: -t=82800
 #FLUX: --urgency=16
 

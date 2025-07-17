@@ -2,6 +2,7 @@
 #FLUX: --job-name=alltoallv
 #FLUX: -N=8
 #FLUX: -n=8
+#FLUX: --queue=thor
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

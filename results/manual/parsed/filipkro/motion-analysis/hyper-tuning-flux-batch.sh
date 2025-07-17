@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-bike-1044
+#FLUX: --job-name=butterscotch-signal-6428
+#FLUX: -n=4
+#FLUX: --queue=alvis
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 data_set="data_"$1".npz"

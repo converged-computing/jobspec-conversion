@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-kerfuffle-4121
+#FLUX: --job-name=Preprocess
+#FLUX: -N=16
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

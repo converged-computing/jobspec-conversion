@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-kitty-6984
+#FLUX: --job-name=imb_8_2
 #FLUX: -N=8
 #FLUX: -n=16
 #FLUX: --exclusive

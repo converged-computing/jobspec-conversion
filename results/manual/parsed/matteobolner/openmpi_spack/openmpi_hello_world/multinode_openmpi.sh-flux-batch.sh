@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-staircase-9568
+#FLUX: --job-name=fat-noodle-9536
 #FLUX: -N=2
 #FLUX: --queue=skl_usr_prod
 #FLUX: -t=60

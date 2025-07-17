@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-underoos-1350
+#FLUX: --job-name=s_seq_depth
 #FLUX: --queue=hbfraser
 #FLUX: -t=32400
 #FLUX: --urgency=16

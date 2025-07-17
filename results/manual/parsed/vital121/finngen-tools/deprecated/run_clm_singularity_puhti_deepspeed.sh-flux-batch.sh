@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bits-5991
+#FLUX: --job-name=delicious-cinnamonbun-0278
 #FLUX: -N=2
 #FLUX: --queue=gputest
 #FLUX: -t=900

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cupcake-1604
+#FLUX: --job-name=delicious-staircase-5069
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hpc-uk/archer-benchmarks/synth/IMB/run/ARCHER/submit_IMB.pbs

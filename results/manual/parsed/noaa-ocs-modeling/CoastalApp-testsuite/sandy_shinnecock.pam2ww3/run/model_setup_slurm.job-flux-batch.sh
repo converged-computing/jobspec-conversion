@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-kerfuffle-4324
+#FLUX: --job-name=SDSH_pam2ww3_SETUP
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 set -e

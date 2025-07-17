@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-train-6341
+#FLUX: --job-name=cowy-parsnip-5457
+#FLUX: -c=24
+#FLUX: --queue=gpu_high
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module load singularity # this is for singularity

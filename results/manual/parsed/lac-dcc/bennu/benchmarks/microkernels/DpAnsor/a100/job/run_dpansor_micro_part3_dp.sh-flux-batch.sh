@@ -1,6 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=dp_part3_dpansor_micro_cuda_a100
+#FLUX: -c=32
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=gpu
+#FLUX: -t=540000
 #FLUX: --urgency=16
 
 export TVM_HOME='/mnt/home/gverma/ceph/tvm'

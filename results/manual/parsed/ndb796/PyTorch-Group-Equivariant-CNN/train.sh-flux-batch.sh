@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-blackbean-0189
+#FLUX: --job-name=ResNet50_P4M_Mixup_on_CIFAR
 #FLUX: -n=4
+#FLUX: --queue=gpu-titanxp
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 cd  $SLURM_SUBMIT_DIR

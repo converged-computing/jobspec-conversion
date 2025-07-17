@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-gato-7268
+#FLUX: --job-name=compare-kripke
 #FLUX: --exclusive
 #FLUX: --queue=haswell
 #FLUX: -t=7200

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pastry-1738
+#FLUX: --job-name=persnickety-carrot-7695
+#FLUX: -c=20
+#FLUX: -t=480000
 #FLUX: --urgency=16
 
 export HOME='/om2/user/dapello/'

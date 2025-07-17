@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-destiny-9319
+#FLUX: --job-name=rpllfp
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

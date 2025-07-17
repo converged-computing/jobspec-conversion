@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lentil-1711
+#FLUX: --job-name=chunky-despacito-7585
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/gridsan/sidnayak/.mujoco/mujoco200/bin'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cattywampus-4607
+#FLUX: --job-name=milky-milkshake-7873
 #FLUX: --urgency=16
 
 export bell='$repo_path/Clusters/xCAT-Bell-Configuration/puppet/modules/common/files/opt/spack/modulefiles'

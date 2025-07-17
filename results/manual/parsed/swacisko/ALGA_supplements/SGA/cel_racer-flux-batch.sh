@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-puppy-1928
+#FLUX: --job-name=conspicuous-frito-7876
 #FLUX: -c=18
+#FLUX: --queue=bigmem
 #FLUX: --urgency=16
 
 PATH=/home/users/jbadura/udocker:$PATH

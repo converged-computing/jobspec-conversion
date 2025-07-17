@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lamp-9546
+#FLUX: --job-name=bumfuzzled-pot-8968
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu-dev

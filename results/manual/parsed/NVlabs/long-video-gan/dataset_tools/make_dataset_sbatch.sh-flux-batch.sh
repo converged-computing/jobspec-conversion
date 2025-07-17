@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-destiny-9525
+#FLUX: --job-name=wobbly-train-0195
+#FLUX: -n=10
+#FLUX: -c=20
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

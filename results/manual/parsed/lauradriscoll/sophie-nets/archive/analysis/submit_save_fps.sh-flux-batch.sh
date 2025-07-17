@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=save_fps_9
+#FLUX: -c=10
+#FLUX: --queue=gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

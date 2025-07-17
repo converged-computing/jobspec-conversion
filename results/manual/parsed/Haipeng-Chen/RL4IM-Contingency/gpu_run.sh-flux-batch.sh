@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-hippo-3855
+#FLUX: --job-name=stanky-buttface-4309
+#FLUX: --queue=Your_partition
+#FLUX: -t=720
 #FLUX: --urgency=16
 
 T=8

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-toaster-7827
+#FLUX: --job-name=prep_fanny
+#FLUX: -n=10
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 10'

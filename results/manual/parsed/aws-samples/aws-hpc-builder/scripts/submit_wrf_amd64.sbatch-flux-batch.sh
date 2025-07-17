@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cupcake-0239
+#FLUX: --job-name=frigid-muffin-6539
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: --exclusive

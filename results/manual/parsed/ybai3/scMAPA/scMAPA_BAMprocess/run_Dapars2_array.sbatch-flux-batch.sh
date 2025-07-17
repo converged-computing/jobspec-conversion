@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-eagle-5972
+#FLUX: --job-name=mb_DaPars2-%A-%a
+#FLUX: -t=518400
 #FLUX: --urgency=16
 
 module load gcc/8.2.0

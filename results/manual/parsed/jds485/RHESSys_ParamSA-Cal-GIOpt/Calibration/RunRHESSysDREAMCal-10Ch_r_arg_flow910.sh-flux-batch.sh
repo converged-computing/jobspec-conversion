@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-carrot-8319
+#FLUX: --job-name=hello-salad-3835
+#FLUX: --queue=standard
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module purge

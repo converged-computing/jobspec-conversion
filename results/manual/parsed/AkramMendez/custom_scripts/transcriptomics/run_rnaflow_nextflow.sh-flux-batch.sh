@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-destiny-6176
+#FLUX: --job-name=rnaflow
+#FLUX: -n=16
+#FLUX: --queue=core
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export NXF_HOME='/crex/proj/nb_storage/private/rnaflow/nextflow_home'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-rabbit-3372
+#FLUX: --job-name=str_sh_rnaseq
 #FLUX: -c=24
 #FLUX: --queue=teramem_inter
 #FLUX: -t=57600

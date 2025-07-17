@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=hypopt
 #FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: -t=54000
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-fork-5824
+#FLUX: --job-name=angry-bits-5582
 #FLUX: --exclusive
 #FLUX: -t=28800
 #FLUX: --urgency=16

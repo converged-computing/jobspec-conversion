@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-gato-1786
+#FLUX: --job-name=llama_QA_generate
 #FLUX: -c=10
+#FLUX: --queue=gpu
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '

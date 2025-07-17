@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-peas-7612
+#FLUX: --job-name=trainer
+#FLUX: -c=8
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 source ~/.bashrc

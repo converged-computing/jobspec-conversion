@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-leg-4085
+#FLUX: --job-name=bam2bedpe_chunks_${CHUNK
+#FLUX: --queue=himem
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 usage(){

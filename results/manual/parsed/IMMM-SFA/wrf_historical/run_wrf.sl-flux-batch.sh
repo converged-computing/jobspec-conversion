@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-soup-1679
+#FLUX: --job-name=wrf_conus
+#FLUX: -N=7
+#FLUX: --queue=regular
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

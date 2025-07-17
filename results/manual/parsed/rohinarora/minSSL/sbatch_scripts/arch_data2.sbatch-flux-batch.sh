@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=arch_data2
+#FLUX: -c=32
 #FLUX: --queue=ce-mri
 #FLUX: -t=86400
 #FLUX: --urgency=16

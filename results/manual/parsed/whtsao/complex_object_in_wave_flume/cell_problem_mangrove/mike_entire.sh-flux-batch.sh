@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cupcake-9044
+#FLUX: --job-name=wave_pass_realtree
+#FLUX: -N=4
+#FLUX: -n=256
+#FLUX: --queue=workq
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/packages/compilers/intel/compiler/2022.0.2/linux/compiler/lib/intel64_lin:${LD_LIBRARY_PATH}'

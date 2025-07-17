@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-citrus-4093
+#FLUX: --job-name=conspicuous-cinnamonbun-4635
 #FLUX: -n=4
 #FLUX: --queue=jsczen3c
 #FLUX: -t=360000

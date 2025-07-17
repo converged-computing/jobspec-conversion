@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=counts
+#FLUX: --queue=classroom
 #FLUX: --urgency=16
 
 cd ~/mouse-rnaseq-2020/

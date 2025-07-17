@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=hanabi_runs
 #FLUX: -N=4
+#FLUX: -n=4
 #FLUX: -c=20
 #FLUX: -t=43200
 #FLUX: --urgency=16

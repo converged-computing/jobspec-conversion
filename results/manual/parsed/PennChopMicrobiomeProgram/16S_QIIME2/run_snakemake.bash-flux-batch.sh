@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-ricecake-2596
+#FLUX: --job-name=ornery-muffin-3216
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 if [[ ! -f ./config.yaml ]]; then

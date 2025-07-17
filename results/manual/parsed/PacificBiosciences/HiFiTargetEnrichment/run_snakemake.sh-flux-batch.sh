@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-plant-9704
+#FLUX: --job-name=fuzzy-toaster-0243
 #FLUX: -c=4
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 umask 002

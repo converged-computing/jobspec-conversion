@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-kitty-4780
+#FLUX: --job-name=fat-plant-7204
 #FLUX: --exclusive
 #FLUX: -t=14400
 #FLUX: --urgency=16

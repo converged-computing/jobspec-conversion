@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leopard-3296
+#FLUX: --job-name=hello-hippo-1526
+#FLUX: --queue=normal
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export SLURM_CPU_BIND='none'

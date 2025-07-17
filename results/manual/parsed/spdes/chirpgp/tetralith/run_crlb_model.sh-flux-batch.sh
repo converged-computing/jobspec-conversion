@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-animal-6925
+#FLUX: --job-name=buttery-egg-8584
+#FLUX: -n=20
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 lam=$1

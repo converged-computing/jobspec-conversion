@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-snack-1715
+#FLUX: --job-name=arid-egg-6848
+#FLUX: -c=5
+#FLUX: --queue=general
 #FLUX: --urgency=16
 
  # @Author: yanhuo 1760331284@qq.com

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-nalgas-7484
+#FLUX: --job-name=scruptious-underoos-6245
 #FLUX: -n=4
+#FLUX: --queue=intel
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

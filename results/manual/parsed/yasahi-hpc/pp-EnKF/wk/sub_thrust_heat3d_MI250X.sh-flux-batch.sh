@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-plant-4039
+#FLUX: --job-name=heat3d-mpi
+#FLUX: --queue=batch
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='7'

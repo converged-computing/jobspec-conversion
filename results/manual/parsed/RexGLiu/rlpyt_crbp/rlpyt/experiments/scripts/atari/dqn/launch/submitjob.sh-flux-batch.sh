@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-caramel-0472
+#FLUX: --job-name=r2d1
+#FLUX: -n=4
+#FLUX: --queue=gpu
 #FLUX: -t=705600
 #FLUX: --urgency=16
 

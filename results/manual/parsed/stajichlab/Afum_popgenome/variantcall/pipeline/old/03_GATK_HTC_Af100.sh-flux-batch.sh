@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-nunchucks-1991
+#FLUX: --job-name=GATK.HTC
 #FLUX: -n=8
 #FLUX: --urgency=16
 

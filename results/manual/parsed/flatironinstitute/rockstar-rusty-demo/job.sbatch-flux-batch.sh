@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-toaster-8851
+#FLUX: --job-name=arid-pot-2866
+#FLUX: -N=12
+#FLUX: --queue=scc
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 INBASE="/mnt/home/usteinwandel/ceph/dm_sims/doug/run_4096_G4/output/"

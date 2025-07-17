@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-toaster-9446
+#FLUX: --job-name=purple-citrus-5509
 #FLUX: -c=8
 #FLUX: -t=170
 #FLUX: --urgency=16

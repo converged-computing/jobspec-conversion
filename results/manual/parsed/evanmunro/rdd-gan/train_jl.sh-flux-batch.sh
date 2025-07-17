@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-earthworm-6702
+#FLUX: --job-name=stanky-rabbit-9267
+#FLUX: --queue=athey
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module load python/3.6.1

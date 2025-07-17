@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-arm-2406
+#FLUX: --job-name=ctodeval
+#FLUX: -c=4
+#FLUX: --queue=qTRDGPUH
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 sleep 5s

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-carrot-4923
+#FLUX: --job-name=tools
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 ulimit -c 0

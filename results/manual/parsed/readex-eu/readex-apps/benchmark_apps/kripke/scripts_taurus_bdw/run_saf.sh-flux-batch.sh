@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-underoos-9443
+#FLUX: --job-name=kripke
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export SCOREP_FILTERING_FILE='scorep.filt'

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-carrot-6481
+#FLUX: --job-name=pusheena-leopard-1943
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-chip-4231
+#FLUX: --job-name=eccentric-noodle-0140
 #FLUX: --urgency=16
 
 . "$script_pwd/../systems/Generic"

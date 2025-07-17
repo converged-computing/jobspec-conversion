@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cat-6339
+#FLUX: --job-name=KerrSF_job
 #FLUX: -N=2
 #FLUX: -n=16
+#FLUX: --queue=knl
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

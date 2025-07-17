@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-truffle-9699
+#FLUX: --job-name=pusheena-signal-9648
 #FLUX: -n=10
 #FLUX: --queue=small
 #FLUX: -t=4210

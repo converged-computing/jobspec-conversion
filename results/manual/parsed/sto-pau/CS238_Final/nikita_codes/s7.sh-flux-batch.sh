@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kerfuffle-7715
+#FLUX: --job-name=s7
+#FLUX: -N=4
+#FLUX: --queue=normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module purge

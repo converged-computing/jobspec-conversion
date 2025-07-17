@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-bike-8329
+#FLUX: --job-name=PMDA_BM
 #FLUX: -N=6
 #FLUX: --queue=compute
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 bash /home/sfan19/.bashrc

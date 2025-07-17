@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-house-5596
+#FLUX: --job-name=ar2_multi_ABC_mlp4
+#FLUX: --queue=gpu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

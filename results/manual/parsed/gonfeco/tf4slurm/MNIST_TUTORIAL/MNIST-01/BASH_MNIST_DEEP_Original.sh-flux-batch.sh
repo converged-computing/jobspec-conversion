@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-malarkey-1097
+#FLUX: --job-name=goodbye-nalgas-9343
+#FLUX: --queue=thinnodes
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 TENSORFLOW=$1

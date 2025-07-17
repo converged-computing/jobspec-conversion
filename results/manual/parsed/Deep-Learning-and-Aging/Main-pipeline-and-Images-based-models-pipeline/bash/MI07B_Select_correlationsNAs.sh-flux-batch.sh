@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-noodle-2159
+#FLUX: --job-name=fugly-leg-9817
+#FLUX: --queue=priority
 #FLUX: --urgency=16
 
 set -e

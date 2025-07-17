@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Ae_tauschiiDiversity
+#FLUX: --queue=killable.q
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

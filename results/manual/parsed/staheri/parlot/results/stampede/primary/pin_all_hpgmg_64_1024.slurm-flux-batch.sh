@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lemur-9555
+#FLUX: --job-name=pin_all_hpgmg_64_1024
+#FLUX: -N=64
+#FLUX: -n=1024
+#FLUX: --queue=normal
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/hpgmg-original/build/bin'

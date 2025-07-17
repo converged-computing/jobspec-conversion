@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-omelette-3903
+#FLUX: --job-name=numpyro_sampler
 #FLUX: -t=115200
 #FLUX: --urgency=16
 

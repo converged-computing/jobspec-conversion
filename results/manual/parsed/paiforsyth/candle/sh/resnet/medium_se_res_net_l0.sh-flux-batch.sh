@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-fork-5192
+#FLUX: --job-name=rainbow-cattywampus-0549
 #FLUX: -c=6
 #FLUX: -t=720
 #FLUX: --urgency=16

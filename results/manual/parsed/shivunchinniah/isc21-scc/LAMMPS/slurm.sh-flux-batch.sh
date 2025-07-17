@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=LAMMPS_provisional
+#FLUX: -N=2
 #FLUX: --queue=k40
 #FLUX: --urgency=16
 

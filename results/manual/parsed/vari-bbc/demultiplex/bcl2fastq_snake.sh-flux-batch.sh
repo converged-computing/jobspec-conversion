@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-bicycle-1042
+#FLUX: --job-name=demultiplex_workflow
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 echo "Pipeline started: $(date)"

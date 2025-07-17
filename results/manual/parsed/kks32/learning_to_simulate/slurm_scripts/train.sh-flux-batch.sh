@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hippo-8209
+#FLUX: --job-name=tf_train
+#FLUX: --queue=rtx
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 set -e

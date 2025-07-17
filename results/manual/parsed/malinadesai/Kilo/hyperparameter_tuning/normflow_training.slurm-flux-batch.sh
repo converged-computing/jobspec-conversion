@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-pot-2624
+#FLUX: --job-name=normflow_training
 #FLUX: -c=5
 #FLUX: -t=18000
 #FLUX: --urgency=16

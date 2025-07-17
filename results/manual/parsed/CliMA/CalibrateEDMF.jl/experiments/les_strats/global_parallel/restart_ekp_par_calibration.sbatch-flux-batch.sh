@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-underoos-2566
+#FLUX: --job-name=restart_call
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-gato-0467
+#FLUX: --job-name=job-serial
 #FLUX: -t=180
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-pedo-0572
+#FLUX: --job-name=grated-toaster-9845
+#FLUX: -n=20
+#FLUX: --queue=cidsegpu1_contrib_res
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module purge;

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-cinnamonbun-8731
+#FLUX: --job-name=dinosaur-squidward-0483
+#FLUX: --queue=RM
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load openmpi/3.1.6-gcc8.3.1

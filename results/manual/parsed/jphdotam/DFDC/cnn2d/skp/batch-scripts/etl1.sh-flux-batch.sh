@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-signal-2809
+#FLUX: --job-name=frigid-muffin-4239
 #FLUX: -c=4
+#FLUX: -t=518400
 #FLUX: --urgency=16
 
 source activate pytorch_p37

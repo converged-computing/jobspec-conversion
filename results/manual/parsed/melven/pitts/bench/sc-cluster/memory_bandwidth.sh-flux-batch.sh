@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-itch-5290
+#FLUX: --job-name=buttery-despacito-1060
+#FLUX: -c=14
 #FLUX: --exclusive
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 srun likwid-bench -s 10 -t load_avx512 -w S0:1GB:14

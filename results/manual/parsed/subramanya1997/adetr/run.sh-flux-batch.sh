@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=adetr
+#FLUX: --queue=gpu-preempt
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

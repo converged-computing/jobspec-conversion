@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-carrot-0903
+#FLUX: --job-name=climseg-cgpu
 #FLUX: --exclusive
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_PLACES='threads'

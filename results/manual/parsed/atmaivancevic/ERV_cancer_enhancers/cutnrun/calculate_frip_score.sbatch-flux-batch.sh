@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-cat-6708
+#FLUX: --job-name=frip_score
+#FLUX: -c=8
+#FLUX: --queue=short
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

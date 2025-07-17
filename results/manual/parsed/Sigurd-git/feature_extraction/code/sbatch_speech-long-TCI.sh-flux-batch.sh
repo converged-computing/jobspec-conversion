@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lemur-9655
+#FLUX: --job-name=carnivorous-poo-6387
+#FLUX: -c=10
+#FLUX: --queue=doppelbock
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 project=speech-long-TCI

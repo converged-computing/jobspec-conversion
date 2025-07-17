@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=scRNA_seq_inte
+#FLUX: -c=2
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

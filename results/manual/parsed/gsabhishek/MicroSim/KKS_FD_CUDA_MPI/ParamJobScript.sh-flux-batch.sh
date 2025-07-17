@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-plant-7795
+#FLUX: --job-name=dirty-nalgas-3942
+#FLUX: -N=4
 #FLUX: -n=8
 #FLUX: --queue=gpu
 #FLUX: -t=86400

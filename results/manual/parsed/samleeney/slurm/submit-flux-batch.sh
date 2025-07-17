@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cherry-7306
+#FLUX: --job-name=frb
 #FLUX: -n=32
+#FLUX: --queue=icelake-himem
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-puppy-1883
+#FLUX: --job-name=p_sweep
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=10800
 #FLUX: --urgency=16

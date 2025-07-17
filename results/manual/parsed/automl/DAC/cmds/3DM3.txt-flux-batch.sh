@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-mango-6595
+#FLUX: --job-name=dinosaur-lemon-1005
+#FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 
 source activate dac

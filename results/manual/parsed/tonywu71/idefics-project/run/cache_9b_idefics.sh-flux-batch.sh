@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-muffin-0468
+#FLUX: --job-name=cache_9b_idefics
+#FLUX: --queue=ampere
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

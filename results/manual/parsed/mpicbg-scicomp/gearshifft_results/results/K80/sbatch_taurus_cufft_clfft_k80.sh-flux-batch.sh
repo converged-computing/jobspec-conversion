@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-gato-5667
+#FLUX: --job-name=gearshifftK80
 #FLUX: --exclusive
 #FLUX: --queue=gpu2
 #FLUX: -t=36000

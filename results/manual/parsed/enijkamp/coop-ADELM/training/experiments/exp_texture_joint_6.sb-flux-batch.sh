@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=joint_6
 #FLUX: --queue=gpu-shared
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load matlab

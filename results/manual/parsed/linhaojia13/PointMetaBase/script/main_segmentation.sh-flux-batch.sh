@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lemon-9980
+#FLUX: --job-name=seg
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

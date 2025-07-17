@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-muffin-7848
+#FLUX: --job-name=persnickety-peas-0273
+#FLUX: -n=5
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module load samtools

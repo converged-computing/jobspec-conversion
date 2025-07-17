@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-cherry-3265
+#FLUX: --job-name=expensive-lamp-8752
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_flat22_5m_300ms_10ms.pbs

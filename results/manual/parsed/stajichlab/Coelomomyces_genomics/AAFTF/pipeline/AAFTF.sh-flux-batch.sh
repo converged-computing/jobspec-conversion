@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lettuce-7576
+#FLUX: --job-name=CoelAAFTF
 #FLUX: -n=16
+#FLUX: --queue=intel
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-squidward-2177
+#FLUX: --job-name=muffled-punk-0321
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/FrederikWarburg/bayesian-metric-learning/scripts/msls.sh

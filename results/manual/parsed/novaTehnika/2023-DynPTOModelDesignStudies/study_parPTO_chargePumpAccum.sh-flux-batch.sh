@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-punk-4291
+#FLUX: --job-name=delicious-taco-2746
+#FLUX: --queue=msismall
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 cd ~/2023-DynPTOModelDesignStudies

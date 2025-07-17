@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hobbit-2301
+#FLUX: --job-name=stream-2pf-largebatch-perf
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

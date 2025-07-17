@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-onion-5572
+#FLUX: --job-name=IKSH_ww3_RUN
+#FLUX: -n=12
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

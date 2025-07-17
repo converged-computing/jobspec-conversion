@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-bits-3689
+#FLUX: --job-name=roughgen
 #FLUX: -N=8
 #FLUX: --queue=snb
 #FLUX: -t=46800

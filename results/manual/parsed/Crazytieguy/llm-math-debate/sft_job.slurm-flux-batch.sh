@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=llm_math_debate_sft
+#FLUX: -c=4
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

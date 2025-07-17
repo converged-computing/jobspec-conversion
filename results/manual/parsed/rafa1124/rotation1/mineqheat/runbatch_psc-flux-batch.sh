@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-omelette-7564
+#FLUX: --job-name=spicy-fork-1439
+#FLUX: -N=16
 #FLUX: -c=14
+#FLUX: --queue=RM
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set echo

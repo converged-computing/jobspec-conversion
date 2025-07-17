@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-caramel-9690
+#FLUX: --job-name=testing
+#FLUX: -c=4
 #FLUX: --exclusive
+#FLUX: --queue=gpu
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

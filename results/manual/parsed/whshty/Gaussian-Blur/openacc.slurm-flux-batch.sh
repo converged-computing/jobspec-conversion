@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-gato-1259
+#FLUX: --job-name=stanky-house-7975
+#FLUX: -c=12
 #FLUX: --queue=gpufermi
 #FLUX: --urgency=16
 

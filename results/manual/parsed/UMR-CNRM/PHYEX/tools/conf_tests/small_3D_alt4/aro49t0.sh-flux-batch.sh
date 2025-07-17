@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-punk-9468
+#FLUX: --job-name=blank-muffin-5561
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

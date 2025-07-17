@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-sundae-3860
+#FLUX: --job-name=gkyl
+#FLUX: -N=4
+#FLUX: -n=64
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load intel

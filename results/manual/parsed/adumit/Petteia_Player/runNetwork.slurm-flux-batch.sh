@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pot-4274
+#FLUX: --job-name=conspicuous-chair-6696
 #FLUX: --queue=commons
 #FLUX: -t=18000
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-plant-1737
+#FLUX: --job-name=julia-example
+#FLUX: --queue=Brody
 #FLUX: -t=600
 #FLUX: --urgency=16
 

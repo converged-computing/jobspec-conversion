@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=pixel2cancer_kidney
+#FLUX: -n=12
+#FLUX: --queue=public
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 module load mamba/latest

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-frito-5755
+#FLUX: --job-name=pusheena-omelette-0090
 #FLUX: --queue=hci-rw
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 set -e

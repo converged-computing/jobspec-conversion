@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-eagle-4776
+#FLUX: --job-name=Atari
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -c=36

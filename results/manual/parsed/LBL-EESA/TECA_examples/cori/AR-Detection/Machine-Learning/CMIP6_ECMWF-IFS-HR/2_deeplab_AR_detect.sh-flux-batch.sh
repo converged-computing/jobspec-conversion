@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-bicycle-4246
+#FLUX: --job-name=2_deeplab_AR_detect
+#FLUX: -N=1484
+#FLUX: --queue=regular
+#FLUX: -t=2700
 #FLUX: --urgency=16
 
 module swap PrgEnv-intel PrgEnv-gnu

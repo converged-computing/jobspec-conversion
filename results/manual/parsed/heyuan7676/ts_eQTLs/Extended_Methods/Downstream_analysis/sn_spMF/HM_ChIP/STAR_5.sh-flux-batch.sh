@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-butter-0716
+#FLUX: --job-name=loopy-avocado-1644
 #FLUX: -n=6
+#FLUX: --queue=lrgmem
 #FLUX: -t=180000
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-animal-9487
+#FLUX: --job-name=loopy-car-2750
+#FLUX: -N=4
+#FLUX: -n=4
 #FLUX: --exclusive
 #FLUX: --queue=dev
 #FLUX: -t=86400

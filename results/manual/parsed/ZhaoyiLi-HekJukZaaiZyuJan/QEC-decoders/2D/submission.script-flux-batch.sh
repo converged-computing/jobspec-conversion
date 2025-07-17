@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cat-5420
+#FLUX: --job-name=bumfuzzled-blackbean-7568
 #FLUX: -c=2
 #FLUX: -t=86400
 #FLUX: --urgency=16

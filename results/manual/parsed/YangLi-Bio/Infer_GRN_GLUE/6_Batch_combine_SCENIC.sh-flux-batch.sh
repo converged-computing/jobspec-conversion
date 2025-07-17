@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-milkshake-5220
+#FLUX: --job-name=psycho-despacito-5672
 #FLUX: --urgency=16
 
 cd /fs/ess/PCON0022/liyang/STREAM/benchmarking/GLUE/Outputs/

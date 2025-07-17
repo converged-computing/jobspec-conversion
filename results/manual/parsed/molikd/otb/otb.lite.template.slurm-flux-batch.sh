@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-puppy-6810
+#FLUX: --job-name=expensive-mango-0618
+#FLUX: -n=2
+#FLUX: --queue=long
 #FLUX: --urgency=16
 
 module load nextflow/22.04.3

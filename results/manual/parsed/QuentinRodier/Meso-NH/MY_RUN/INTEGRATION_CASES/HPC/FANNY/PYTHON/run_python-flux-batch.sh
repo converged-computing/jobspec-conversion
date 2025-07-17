@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-itch-3193
+#FLUX: --job-name=tools
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 ulimit -c 0

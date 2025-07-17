@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-chair-7032
+#FLUX: --job-name=expensive-mango-2744
+#FLUX: --queue=gpu20
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PATH='/usr/lib/cuda-${cuda_version}/bin/:${PATH}'

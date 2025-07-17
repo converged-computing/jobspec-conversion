@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-ricecake-4007
+#FLUX: --job-name=angry-plant-1843
 #FLUX: --queue=sched_any_quicktest
 #FLUX: -t=10
 #FLUX: --urgency=16

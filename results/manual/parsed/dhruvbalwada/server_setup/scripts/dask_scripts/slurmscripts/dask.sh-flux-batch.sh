@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-house-3726
+#FLUX: --job-name=dask_host
 #FLUX: --exclusive
 #FLUX: -t=21600
 #FLUX: --urgency=16

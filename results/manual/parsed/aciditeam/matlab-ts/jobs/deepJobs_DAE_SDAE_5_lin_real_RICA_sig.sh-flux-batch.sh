@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-arm-1040
+#FLUX: --job-name=Deep-DAE_SDAE_5_lin_real_RICA_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

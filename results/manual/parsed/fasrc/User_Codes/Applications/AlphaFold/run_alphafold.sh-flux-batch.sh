@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-despacito-6619
+#FLUX: --job-name=AF_monomer
+#FLUX: -c=8
+#FLUX: --queue=gpu
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 my_fasta=5ZE6_1.fasta

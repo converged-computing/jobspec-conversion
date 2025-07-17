@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-diablo-5589
+#FLUX: --job-name=heat
 #FLUX: -n=32
 #FLUX: --urgency=16
 

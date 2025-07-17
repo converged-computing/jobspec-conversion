@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-squidward-1986
+#FLUX: --job-name=sticky-earthworm-3919
+#FLUX: -n=4
+#FLUX: --queue=standard
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-itch-4129
+#FLUX: --job-name=gassy-malarkey-3710
+#FLUX: -n=64
+#FLUX: --queue=amd_256
 #FLUX: --urgency=16
 
 b=$SAMPLE

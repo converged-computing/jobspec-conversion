@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-earthworm-9096
+#FLUX: --job-name=goodbye-mango-3760
+#FLUX: --queue=all
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 echo "Array Index: $SLURM_ARRAY_TASK_ID"

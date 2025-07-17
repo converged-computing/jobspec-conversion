@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-noodle-3603
+#FLUX: --job-name=PRESSURE
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 cluster=$1

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-malarkey-3897
+#FLUX: --job-name=expensive-peas-4621
 #FLUX: --exclusive
+#FLUX: --queue=normal_q
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='2'

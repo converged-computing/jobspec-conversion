@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lentil-5870
+#FLUX: --job-name=LETKF
+#FLUX: --queue=service
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export PYTHONPATH='/work2/noaa/da/ytang/py39/lib/python3.9/site-packages'

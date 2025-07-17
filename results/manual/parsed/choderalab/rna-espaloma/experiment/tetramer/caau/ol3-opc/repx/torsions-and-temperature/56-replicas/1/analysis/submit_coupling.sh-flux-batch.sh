@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-bike-8045
+#FLUX: --job-name=arid-kerfuffle-2788
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/rna-espaloma/experiment/tetramer/caau/ol3-opc/repx/torsions-and-temperature/56-replicas/1/analysis/submit_coupling.sh

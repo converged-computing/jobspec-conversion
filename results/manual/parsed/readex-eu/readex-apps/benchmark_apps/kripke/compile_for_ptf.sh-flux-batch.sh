@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-eagle-1093
+#FLUX: --job-name=milky-peanut-butter-8125
 #FLUX: -c=24
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export CXX='scorep --online-access --user --mpp=mpi --thread=none --nomemory $FILTER_GCC $READEX_CXX $FILTER_ICC'

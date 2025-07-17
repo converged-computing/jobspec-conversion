@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-despacito-9337
+#FLUX: --job-name=bloated-leg-9584
+#FLUX: --queue=gpu_shared
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 module load 2020

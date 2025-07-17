@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-punk-2575
+#FLUX: --job-name=peachy-lemon-8397
 #FLUX: -c=5
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PATH='$CUDAROOT/bin:$PATH'

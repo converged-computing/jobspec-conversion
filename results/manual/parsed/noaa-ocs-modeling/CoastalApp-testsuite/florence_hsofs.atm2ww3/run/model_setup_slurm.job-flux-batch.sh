@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hobbit-0170
+#FLUX: --job-name=FLOFS_atm2ww3_SETUP
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 set -e

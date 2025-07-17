@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-eagle-6715
+#FLUX: --job-name=stanky-lamp-3919
+#FLUX: --queue=bw-gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 set -e

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-mango-4980
+#FLUX: --job-name=projp
 #FLUX: -N=2
 #FLUX: -c=3
 #FLUX: --exclusive

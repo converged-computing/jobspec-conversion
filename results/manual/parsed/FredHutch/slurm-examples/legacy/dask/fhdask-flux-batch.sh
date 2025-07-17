@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-underoos-5275
+#FLUX: --job-name=bloated-lemon-5649
 #FLUX: --urgency=16
 
 pythonmodule="Python/3.6.4-foss-2016b-fh1"

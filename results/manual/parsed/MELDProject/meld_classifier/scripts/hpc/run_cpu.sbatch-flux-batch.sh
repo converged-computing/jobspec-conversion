@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-destiny-9464
+#FLUX: --job-name=cpu-meld
 #FLUX: -N=2
 #FLUX: -n=64
+#FLUX: --queue=skylake-himem
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

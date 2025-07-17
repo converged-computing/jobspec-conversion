@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-hippo-3484
+#FLUX: --job-name=dirty-signal-7942
+#FLUX: -n=2
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

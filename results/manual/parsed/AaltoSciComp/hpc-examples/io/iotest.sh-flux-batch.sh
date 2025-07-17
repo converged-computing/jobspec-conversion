@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-diablo-0202
+#FLUX: --job-name=placid-destiny-7059
+#FLUX: --queue=short,debug
 #FLUX: -t=300
 #FLUX: --urgency=16
 

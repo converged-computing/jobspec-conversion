@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-fork-3615
+#FLUX: --job-name=frigid-egg-3240
 #FLUX: -c=8
 #FLUX: -t=170
 #FLUX: --urgency=16

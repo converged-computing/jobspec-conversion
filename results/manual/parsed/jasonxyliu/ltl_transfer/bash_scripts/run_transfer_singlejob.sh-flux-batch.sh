@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-onion-5673
+#FLUX: --job-name=swampy-latke-3965
+#FLUX: -n=99
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'

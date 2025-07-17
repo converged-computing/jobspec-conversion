@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-gato-1351
+#FLUX: --job-name=psycho-ricecake-9552
 #FLUX: -c=8
 #FLUX: --queue=alpha
 #FLUX: -t=446399

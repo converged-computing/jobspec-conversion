@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-salad-5731
+#FLUX: --job-name=IND_BIAS
+#FLUX: -c=2
+#FLUX: --queue=meta_gpu-ti
+#FLUX: -t=950400
 #FLUX: --urgency=16
 
 echo "Workingdir: $PWD";

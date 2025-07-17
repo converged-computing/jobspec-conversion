@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-parsnip-7511
+#FLUX: --job-name=name
 #FLUX: -c=2
 #FLUX: --queue=s.phys
 #FLUX: -t=86400

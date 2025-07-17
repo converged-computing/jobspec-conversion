@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-egg-2881
+#FLUX: --job-name=phat-chip-4763
 #FLUX: -c=20
 #FLUX: --queue=small
 #FLUX: -t=610

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-poodle-2643
+#FLUX: --job-name=IKSH_atm2sch2ww3data_RUN
+#FLUX: -n=6
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

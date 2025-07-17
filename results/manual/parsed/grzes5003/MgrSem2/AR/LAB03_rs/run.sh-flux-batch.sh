@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-punk-7404
+#FLUX: --job-name=MPI_AR_LAB04_GK
+#FLUX: --queue=plgrid
 #FLUX: -t=1500
 #FLUX: --urgency=16
 

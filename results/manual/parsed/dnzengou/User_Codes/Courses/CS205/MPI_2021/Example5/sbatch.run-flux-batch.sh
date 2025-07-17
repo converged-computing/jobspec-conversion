@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lizard-3727
+#FLUX: --job-name=planczos
+#FLUX: -n=8
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 PRO=planczos

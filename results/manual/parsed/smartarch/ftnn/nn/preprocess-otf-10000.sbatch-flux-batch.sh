@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-frito-3384
+#FLUX: --job-name=strawberry-cinnamonbun-0868
 #FLUX: -c=16
 #FLUX: --queue=volta-lp
 #FLUX: --urgency=16

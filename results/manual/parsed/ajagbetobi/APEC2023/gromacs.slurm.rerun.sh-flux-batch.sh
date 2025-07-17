@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-underoos-5089
+#FLUX: --job-name=NOMEPROGETTO
+#FLUX: -n=16
+#FLUX: --queue=qPHOGPU
+#FLUX: -t=86340
 #FLUX: --urgency=16
 
 export Project='$SLURM_JOB_NAME'

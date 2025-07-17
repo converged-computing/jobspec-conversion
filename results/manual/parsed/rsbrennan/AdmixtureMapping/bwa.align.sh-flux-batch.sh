@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-puppy-0301
+#FLUX: --job-name=array_job
 #FLUX: -c=6
+#FLUX: --queue=med
 #FLUX: --urgency=16
 
 lib=AC-1

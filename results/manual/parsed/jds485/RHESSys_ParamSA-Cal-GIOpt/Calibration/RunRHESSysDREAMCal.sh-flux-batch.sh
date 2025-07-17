@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-avocado-9035
+#FLUX: --job-name=lovable-parsnip-9479
+#FLUX: --queue=standard
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module purge

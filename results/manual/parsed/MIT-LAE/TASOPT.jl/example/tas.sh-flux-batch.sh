@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-signal-0146
+#FLUX: --job-name=misunderstood-chair-7670
 #FLUX: -c=4
 #FLUX: --queue=normal
 #FLUX: -t=300

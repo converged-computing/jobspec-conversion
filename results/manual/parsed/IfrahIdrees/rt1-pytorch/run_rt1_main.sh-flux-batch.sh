@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-diablo-0747
+#FLUX: --job-name=sticky-egg-1251
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load miniconda3/23.11.0s

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-general-1800
+#FLUX: --job-name=dask-sched
 #FLUX: --exclusive
 #FLUX: -t=21600
 #FLUX: --urgency=16

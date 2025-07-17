@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-butter-7534
+#FLUX: --job-name=sub_2_no_ln
+#FLUX: --queue=ampere
 #FLUX: -t=9000
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-itch-1916
+#FLUX: --job-name=chocolate-milkshake-1679
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load PrgEnv-nvidia

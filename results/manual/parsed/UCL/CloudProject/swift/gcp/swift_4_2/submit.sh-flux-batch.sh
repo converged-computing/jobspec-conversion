@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-rabbit-3826
+#FLUX: --job-name=imb_4_2
 #FLUX: -N=4
 #FLUX: -n=8
 #FLUX: --exclusive

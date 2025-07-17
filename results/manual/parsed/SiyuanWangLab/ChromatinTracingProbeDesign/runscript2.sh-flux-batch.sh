@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-poo-7641
+#FLUX: --job-name=peachy-spoon-3522
+#FLUX: -n=6
+#FLUX: --queue=general
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load bio/OligoArray2_1

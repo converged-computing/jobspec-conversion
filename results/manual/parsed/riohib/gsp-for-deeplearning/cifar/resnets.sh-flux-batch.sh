@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-buttface-9101
+#FLUX: --job-name=rohib
+#FLUX: -c=5
+#FLUX: --queue=qTRDGPUM
+#FLUX: -t=444000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

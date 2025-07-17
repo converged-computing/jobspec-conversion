@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-knife-6779
+#FLUX: --job-name=psycho-salad-0584
 #FLUX: -c=4
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 echo Starting job ${SLURM_JOBID}

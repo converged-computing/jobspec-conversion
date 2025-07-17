@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-hope-1042
+#FLUX: --job-name=AB_MA1_2_CpG_feat
 #FLUX: -N=14
 #FLUX: -n=448
+#FLUX: --queue=skylake
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

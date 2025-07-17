@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-leopard-9382
+#FLUX: --job-name=Model_A
+#FLUX: -N=3
+#FLUX: -t=1740
 #FLUX: --urgency=16
 
 set -u

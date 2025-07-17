@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-train-6736
+#FLUX: --job-name=anxious-dog-3731
 #FLUX: --queue=gpu
 #FLUX: -t=174180
 #FLUX: --urgency=16

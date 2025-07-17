@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-salad-6710
+#FLUX: --job-name=phat-despacito-6772
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/andersthuesen/ChromaAI/jobscripts/jobscript_train_wide_unet_gan.sh

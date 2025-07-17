@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=bact_assembly
+#FLUX: --queue=batch
 #FLUX: -t=255600
 #FLUX: --urgency=16
 

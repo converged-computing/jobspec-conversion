@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pendulum_se_worker
+#FLUX: --queue=bosch_cpu-cascadelake
+#FLUX: -t=260639
 #FLUX: --urgency=16
 
 export HTTP_PROXY='http://tfproxy.informatik.uni-freiburg.de:8080'

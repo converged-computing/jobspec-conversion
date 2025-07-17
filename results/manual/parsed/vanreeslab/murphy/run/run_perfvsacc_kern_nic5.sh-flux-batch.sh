@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-dog-1145
+#FLUX: --job-name=cowy-bits-6003
 #FLUX: --queue=batch,hmem
 #FLUX: -t=21600
 #FLUX: --urgency=16

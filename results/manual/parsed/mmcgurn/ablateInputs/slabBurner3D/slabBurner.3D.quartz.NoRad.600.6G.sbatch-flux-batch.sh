@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-banana-4720
+#FLUX: --job-name=6G
+#FLUX: -N=600
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PETSC_DIR='/g/g15/mcgurn4/petsc'

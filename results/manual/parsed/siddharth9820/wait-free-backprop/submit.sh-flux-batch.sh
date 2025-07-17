@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-rabbit-4829
+#FLUX: --job-name=crusty-arm-9329
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CUDNN_ROOT/lib64:$CUDA_HOME/lib64:/lustre/ssingh37/Acads/CMSC818x/nccl/build/lib'

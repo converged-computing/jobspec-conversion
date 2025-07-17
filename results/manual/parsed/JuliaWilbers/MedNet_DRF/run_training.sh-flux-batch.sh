@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-fudge-0984
+#FLUX: --job-name=goodbye-puppy-2066
+#FLUX: --queue=short
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge

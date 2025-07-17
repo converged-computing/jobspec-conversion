@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-nalgas-5374
+#FLUX: --job-name=ou_cpmmh_0999_100
 #FLUX: --exclusive
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'

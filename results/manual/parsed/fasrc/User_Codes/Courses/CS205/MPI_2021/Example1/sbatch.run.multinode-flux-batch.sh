@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-bicycle-4301
+#FLUX: --job-name=mpi_hello
+#FLUX: -n=4
+#FLUX: --queue=test
+#FLUX: -t=10
 #FLUX: --urgency=16
 
 PRO=mpi_hello

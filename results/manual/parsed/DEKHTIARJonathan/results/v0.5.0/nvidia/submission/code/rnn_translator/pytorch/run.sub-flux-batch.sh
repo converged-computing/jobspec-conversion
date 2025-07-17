@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-kitty-1154
+#FLUX: --job-name=rnn_translator
 #FLUX: --exclusive
+#FLUX: --queue=mlperf
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 DATESTAMP=${DATESTAMP:-`date +'%y%m%d%H%M%S'`}

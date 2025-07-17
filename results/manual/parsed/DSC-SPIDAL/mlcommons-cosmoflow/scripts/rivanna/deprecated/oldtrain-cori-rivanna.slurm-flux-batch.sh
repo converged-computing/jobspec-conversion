@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=train-cosmoflow
+#FLUX: -c=4
 #FLUX: --queue=bii-gpu
 #FLUX: -t=1800
 #FLUX: --urgency=16

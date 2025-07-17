@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-arm-7656
+#FLUX: --job-name=buttery-salad-0915
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=3600

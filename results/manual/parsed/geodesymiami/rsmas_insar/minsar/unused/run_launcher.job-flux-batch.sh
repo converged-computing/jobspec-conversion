@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-toaster-2356
+#FLUX: --job-name=run_all
+#FLUX: -N=4
+#FLUX: -n=192
+#FLUX: --queue=skx-dev
+#FLUX: -t=7140
 #FLUX: --urgency=16
 
 export LD_PRELOAD='/home1/apps/tacc-patches/python_cacher/myopen.so'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-carrot-9861
+#FLUX: --job-name=contig_extraction
+#FLUX: --queue=common
 #FLUX: --urgency=16
 
 sample_list="/full_path_to/wd/redundancy_removal/metadata/sample_list1.tsv"

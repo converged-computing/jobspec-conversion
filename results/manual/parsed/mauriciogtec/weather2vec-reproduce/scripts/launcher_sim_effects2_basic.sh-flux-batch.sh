@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cattywampus-4911
+#FLUX: --job-name=pusheena-nunchucks-8027
 #FLUX: -c=8
+#FLUX: --queue=fasse_gpu
+#FLUX: -t=3540
 #FLUX: --urgency=16
 
 source ~/.bashrc

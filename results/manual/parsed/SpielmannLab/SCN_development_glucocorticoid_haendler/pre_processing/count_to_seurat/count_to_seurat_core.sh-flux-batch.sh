@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-mango-4261
+#FLUX: --job-name=butterscotch-avocado-7368
+#FLUX: -c=4
 #FLUX: --queue=shortterm
 #FLUX: --urgency=16
 

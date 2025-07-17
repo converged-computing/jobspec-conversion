@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-leg-2489
+#FLUX: --job-name=phat-dog-7494
 #FLUX: --queue=gpuq
 #FLUX: -t=86340
 #FLUX: --urgency=16

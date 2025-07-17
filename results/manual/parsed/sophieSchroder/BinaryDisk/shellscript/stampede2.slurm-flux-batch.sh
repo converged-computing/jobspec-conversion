@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-kerfuffle-2380
+#FLUX: --job-name=g11hllen
+#FLUX: -N=8
+#FLUX: -n=512
+#FLUX: --queue=normal
+#FLUX: -t=144000
 #FLUX: --urgency=16
 
 module purge

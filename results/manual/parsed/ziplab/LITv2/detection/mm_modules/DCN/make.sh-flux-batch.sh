@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hope-4082
+#FLUX: --job-name=gassy-dog-9513
+#FLUX: -c=8
 #FLUX: --queue=m3g
 #FLUX: -t=3600
 #FLUX: --urgency=16

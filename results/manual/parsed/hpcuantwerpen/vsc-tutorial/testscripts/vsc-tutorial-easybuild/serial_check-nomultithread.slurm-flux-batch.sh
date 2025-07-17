@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-bits-1154
+#FLUX: --job-name=serial_check-nomultithread
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hippo-9138
+#FLUX: --job-name=music80_04_melodicity
+#FLUX: -n=8
+#FLUX: --queue=aagk80
+#FLUX: -t=1728000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'

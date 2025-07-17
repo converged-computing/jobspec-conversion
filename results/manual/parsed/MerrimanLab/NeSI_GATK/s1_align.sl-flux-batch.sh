@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-pancake-4792
+#FLUX: --job-name=s1_align.sl
 #FLUX: -c=8
 #FLUX: -t=21540
 #FLUX: --urgency=16

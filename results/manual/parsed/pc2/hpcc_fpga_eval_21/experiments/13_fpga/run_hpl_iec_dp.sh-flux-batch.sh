@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-spoon-5790
+#FLUX: --job-name=HPL
+#FLUX: -N=13
+#FLUX: -n=25
+#FLUX: --queue=fpga
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load intel intelFPGA_pro/21.2.0 bittware_520n/20.4.0_max devel/CMake/3.15.3-GCCcore-8.3.0

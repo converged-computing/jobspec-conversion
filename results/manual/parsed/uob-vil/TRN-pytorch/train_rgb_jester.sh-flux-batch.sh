@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-hope-4253
+#FLUX: --job-name=swampy-kerfuffle-1849
+#FLUX: -c=5
+#FLUX: --queue=small
+#FLUX: -t=122400
 #FLUX: --urgency=16
 
 set -ex

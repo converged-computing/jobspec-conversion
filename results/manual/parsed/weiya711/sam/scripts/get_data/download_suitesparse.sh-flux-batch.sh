@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-rabbit-4586
+#FLUX: --job-name=bloated-muffin-3917
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 outdir=$SUITESPARSE_PATH

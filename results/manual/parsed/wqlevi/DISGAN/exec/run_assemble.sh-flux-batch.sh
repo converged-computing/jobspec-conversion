@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hobbit-6068
+#FLUX: --job-name=TORCH-GPU
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

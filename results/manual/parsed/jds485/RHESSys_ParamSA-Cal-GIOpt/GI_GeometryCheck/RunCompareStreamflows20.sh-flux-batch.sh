@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-parsnip-2231
+#FLUX: --job-name=blue-avocado-2454
+#FLUX: --queue=standard
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module purge

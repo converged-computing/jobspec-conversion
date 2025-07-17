@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-bike-0321
+#FLUX: --job-name=C1_cpl_mnh_ww3_croco
+#FLUX: -N=10
+#FLUX: -n=938
 #FLUX: --exclusive
 #FLUX: -t=86400
 #FLUX: --urgency=16

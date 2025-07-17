@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=20YEAR_MONTH
+#FLUX: -n=32
+#FLUX: --queue=coaps_q
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 module load intel-openmpi

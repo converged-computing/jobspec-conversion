@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name={{ id }}
-#FLUX: --queue={{
+#FLUX: --queue=}}
 #FLUX: --urgency=16
 
 {% extends "base_script.sh" %}

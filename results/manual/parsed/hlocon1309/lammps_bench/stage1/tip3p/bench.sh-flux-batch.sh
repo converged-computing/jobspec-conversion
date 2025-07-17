@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-animal-6639
+#FLUX: --job-name=bloated-dog-6627
+#FLUX: --queue=normal
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

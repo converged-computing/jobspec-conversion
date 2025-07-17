@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=QR-so_STAR
+#FLUX: -n=112
 #FLUX: --queue=scb
 #FLUX: -t=86400
 #FLUX: --urgency=16

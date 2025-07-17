@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-hope-2629
+#FLUX: --job-name=bloated-latke-6278
+#FLUX: -n=8
+#FLUX: --queue=batch
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-puppy-7835
+#FLUX: --job-name=tart-parsnip-4371
 #FLUX: -c=10
 #FLUX: --queue=tenenbaum
 #FLUX: -t=10800

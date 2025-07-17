@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-train-2060
+#FLUX: --job-name=Examples
+#FLUX: -n=2
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MONORUN='Mpirun -np 1 '

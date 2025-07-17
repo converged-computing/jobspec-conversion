@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-nunchucks-3363
+#FLUX: --job-name=AMREX_GPU
+#FLUX: -n=8
+#FLUX: -c=10
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 EXE=./main3d.gnu.TPROF.MPI.CUDA.ex

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-peas-1918
+#FLUX: --job-name=y8x1024s0
 #FLUX: -N=20
 #FLUX: --exclusive
+#FLUX: --queue=cca
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

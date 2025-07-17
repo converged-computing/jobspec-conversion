@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=autoencoder
+#FLUX: -n=4
+#FLUX: -t=16200
 #FLUX: --urgency=16
 
 singularity exec -B /om:/om --nv /om/user/nprasad/singularity/tensorflow-1.8.0-gpu-py3.img \

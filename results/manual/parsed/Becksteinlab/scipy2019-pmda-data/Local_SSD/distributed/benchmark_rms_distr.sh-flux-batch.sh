@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-staircase-1645
+#FLUX: --job-name=PMDA_BM
 #FLUX: --queue=compute
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 bash /home/sfan19/.bashrc

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-underoos-1548
+#FLUX: --job-name=gMsh
+#FLUX: -N=16
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PETSC_DIR='/p/lustre2/mcgurn4/petsc'

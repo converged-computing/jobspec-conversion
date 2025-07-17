@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-nunchucks-6258
+#FLUX: --job-name=gloopy-itch-0410
 #FLUX: -c=8
 #FLUX: -t=170
 #FLUX: --urgency=16

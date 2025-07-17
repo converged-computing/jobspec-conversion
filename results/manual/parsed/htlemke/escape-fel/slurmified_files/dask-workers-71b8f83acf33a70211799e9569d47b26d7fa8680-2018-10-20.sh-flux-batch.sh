@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-peanut-butter-0895
+#FLUX: --job-name=dask-workers-71b8f83acf33a70211799e9569d47b26d7fa8680-2018-10-20
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

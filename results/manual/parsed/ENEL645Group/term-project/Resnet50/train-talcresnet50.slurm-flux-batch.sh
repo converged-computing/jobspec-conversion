@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-buttface-8214
+#FLUX: --job-name=rainbow-caramel-3675
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=86400

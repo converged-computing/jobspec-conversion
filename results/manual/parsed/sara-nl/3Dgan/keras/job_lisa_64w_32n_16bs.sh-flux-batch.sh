@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-hippo-0770
+#FLUX: --job-name=3DGAN_64w_32n_bs16_sun
 #FLUX: -N=32
 #FLUX: --queue=test
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export KERAS_BACKEND='tensorflow'

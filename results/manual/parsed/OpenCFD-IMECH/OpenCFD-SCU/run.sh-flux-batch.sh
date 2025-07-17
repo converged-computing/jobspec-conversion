@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-banana-4818
+#FLUX: --job-name=name
+#FLUX: -N=2
+#FLUX: -n=8
+#FLUX: --queue=blcy
 #FLUX: --urgency=16
 
 export OMPI_MCA_btl_openib_allow_ib='true'

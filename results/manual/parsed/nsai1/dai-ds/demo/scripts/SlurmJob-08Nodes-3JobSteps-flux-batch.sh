@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lamp-0468
+#FLUX: --job-name=frigid-poo-8198
+#FLUX: -N=8
 #FLUX: --urgency=16
 
 srun /opt/ucs/demo/workloads/MILC 3

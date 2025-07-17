@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-arm-0919
+#FLUX: --job-name=rvsfs
 #FLUX: --queue=jnovembre
 #FLUX: -t=345600
 #FLUX: --urgency=16

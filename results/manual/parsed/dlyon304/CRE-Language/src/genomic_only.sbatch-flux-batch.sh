@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-taco-2595
+#FLUX: --job-name=reg_gen
 #FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: -t=0
 #FLUX: --urgency=16
 

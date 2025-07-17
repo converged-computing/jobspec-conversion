@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lentil-9583
+#FLUX: --job-name=random_2
 #FLUX: -c=16
 #FLUX: --queue=gpu_short
 #FLUX: -t=43200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-destiny-2544
+#FLUX: --job-name=fat-punk-6465
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: --queue=a3

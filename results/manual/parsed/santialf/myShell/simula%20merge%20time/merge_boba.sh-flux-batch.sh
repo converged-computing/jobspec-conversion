@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-toaster-4051
+#FLUX: --job-name=confused-leg-1851
+#FLUX: --queue=a100q
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 nvidia-smi

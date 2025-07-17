@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lemur-6174
+#FLUX: --job-name=lovely-pancake-3865
+#FLUX: -n=4
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 MYPATH=/proj/nobackup/python-hpc/<mydir-name>/HPC-python/Exercises/examples/programs/

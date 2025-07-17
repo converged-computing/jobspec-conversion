@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-salad-0395
+#FLUX: --job-name=faux-noodle-2457
+#FLUX: -n=30
 #FLUX: --exclusive
+#FLUX: --queue=huce_intel
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 multirunlog="multirun.log"

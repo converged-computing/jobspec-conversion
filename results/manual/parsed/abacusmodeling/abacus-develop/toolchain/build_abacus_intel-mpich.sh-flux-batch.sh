@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-squidward-4921
+#FLUX: --job-name=build
+#FLUX: -n=16
 #FLUX: --urgency=16
 
 export PATH='${PREFIX}/bin":\${PATH}'

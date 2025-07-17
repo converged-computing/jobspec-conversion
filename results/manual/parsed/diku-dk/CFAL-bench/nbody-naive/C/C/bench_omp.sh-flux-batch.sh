@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-train-4972
+#FLUX: --job-name=misunderstood-muffin-0605
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400

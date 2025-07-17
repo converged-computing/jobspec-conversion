@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-chair-4409
+#FLUX: --job-name=partseg
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

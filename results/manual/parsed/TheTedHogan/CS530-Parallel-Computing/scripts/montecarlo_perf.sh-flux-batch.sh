@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-car-0939
+#FLUX: --job-name=groupc_mc
+#FLUX: -n=28
+#FLUX: --queue=defq
+#FLUX: -t=2700
 #FLUX: --urgency=16
 
 module load gcc/10.2.0

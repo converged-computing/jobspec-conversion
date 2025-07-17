@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-carrot-9814
+#FLUX: --job-name=RUN_SYSTEM
+#FLUX: --queue=hive-gpu
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 module load gcc/10.3.0-o57x6h

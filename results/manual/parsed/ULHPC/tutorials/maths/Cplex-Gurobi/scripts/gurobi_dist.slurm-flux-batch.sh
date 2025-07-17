@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-itch-2523
+#FLUX: --job-name=Distrbuted_gurobi
 #FLUX: -n=3
 #FLUX: -c=5
+#FLUX: --queue=batch
 #FLUX: -t=900
 #FLUX: --urgency=16
 

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-avocado-2059
+#FLUX: --job-name=CASE5_3S
 #FLUX: -N=8
 #FLUX: -n=129
+#FLUX: --queue=compute
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

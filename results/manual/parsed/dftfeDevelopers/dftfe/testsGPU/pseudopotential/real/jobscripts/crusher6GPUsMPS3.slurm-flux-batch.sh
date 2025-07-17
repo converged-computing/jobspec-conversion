@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-chip-0992
+#FLUX: --job-name=realmps3
+#FLUX: --queue=batch
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

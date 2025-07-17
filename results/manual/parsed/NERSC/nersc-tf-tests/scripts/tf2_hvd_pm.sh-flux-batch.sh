@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-platanos-8342
+#FLUX: --job-name=tf2-benchmark-pm
 #FLUX: -c=32
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module list

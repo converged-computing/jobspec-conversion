@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-puppy-6942
+#FLUX: --job-name=jbg_temp
+#FLUX: --queue=!!!!PARTITION!!!!!
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

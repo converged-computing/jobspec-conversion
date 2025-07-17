@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pot-4011
+#FLUX: --job-name=milky-egg-7711
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-hobbit-3201
+#FLUX: --job-name=dinosaur-sundae-8816
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 python run_retrieval.py \

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-citrus-0413
+#FLUX: --job-name=moolicious-nalgas-2452
+#FLUX: -N=8
 #FLUX: --queue=batch
 #FLUX: -t=18000
 #FLUX: --urgency=16

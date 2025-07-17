@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nmmaSNgauss.job
+#FLUX: --queue=shared
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

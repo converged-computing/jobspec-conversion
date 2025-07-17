@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lemur-5007
+#FLUX: --job-name=quokka_benchmark
+#FLUX: -N=64
 #FLUX: --exclusive
+#FLUX: --queue=gpu
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

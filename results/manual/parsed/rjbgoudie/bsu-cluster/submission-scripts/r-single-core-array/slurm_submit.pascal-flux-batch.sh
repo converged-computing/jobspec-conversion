@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-squidward-3724
+#FLUX: --job-name=pascal-rjob
 #FLUX: -n=4
+#FLUX: --queue=pascal
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

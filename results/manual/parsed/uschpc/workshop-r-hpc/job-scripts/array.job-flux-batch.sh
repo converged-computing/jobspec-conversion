@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-snack-5691
+#FLUX: --job-name=stinky-butter-6967
 #FLUX: -c=8
 #FLUX: --queue=main
 #FLUX: -t=3600

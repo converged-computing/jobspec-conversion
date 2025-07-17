@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-snack-7543
+#FLUX: --job-name=QC
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 import socket

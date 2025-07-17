@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_ewc
 #FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

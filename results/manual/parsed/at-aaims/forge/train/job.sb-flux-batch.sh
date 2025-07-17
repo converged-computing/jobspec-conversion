@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-hobbit-7891
+#FLUX: --job-name=gpt
+#FLUX: -N=32
 #FLUX: --exclusive
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 MODEL=forge-mat

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-punk-7163
+#FLUX: --job-name=reclusive-cattywampus-1141
 #FLUX: --exclusive
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${CRAY_LD_LIBRARY_PATH}:${LD_LIBRARY_PATH}'

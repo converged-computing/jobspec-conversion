@@ -1,5 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-taco-8120
+#FLUX: --job-name=gassy-pedo-3410
+#FLUX: -N=2
+#FLUX: -n=4
+#FLUX: -c=2
+#FLUX: --queue=test
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 GROUP='iqss_lab'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-bike-2924
+#FLUX: --job-name=bbo-exps
+#FLUX: --queue=bosch_gpu-rtx2080
+#FLUX: -t=420
 #FLUX: --urgency=16
 
 echo "Workingdir: $PWD";

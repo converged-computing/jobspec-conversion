@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-poodle-5885
+#FLUX: --job-name=fuzzy-hope-0766
 #FLUX: -N=2
+#FLUX: -c=32
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

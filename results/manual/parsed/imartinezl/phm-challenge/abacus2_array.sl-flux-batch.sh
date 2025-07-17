@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-itch-5757
+#FLUX: --job-name=main
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=1209600

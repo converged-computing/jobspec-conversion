@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-snack-3653
+#FLUX: --job-name=doopy-cat-2014
+#FLUX: -N=2
+#FLUX: --queue=bdwall
 #FLUX: -t=900
 #FLUX: --urgency=16
 

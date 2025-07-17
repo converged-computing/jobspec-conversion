@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bike-8118
+#FLUX: --job-name=TensorFlow
+#FLUX: --queue=serial_requeue
+#FLUX: -t=360
 #FLUX: --urgency=16
 
 module load Anaconda3/5.0.1-fasrc01

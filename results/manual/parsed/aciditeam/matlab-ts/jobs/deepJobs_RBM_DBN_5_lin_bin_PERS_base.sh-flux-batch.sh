@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-staircase-0301
+#FLUX: --job-name=Deep-RBM_DBN_5_lin_bin_PERS_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

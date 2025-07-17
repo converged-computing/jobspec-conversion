@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-underoos-3013
+#FLUX: --job-name=peachy-bits-5230
+#FLUX: -n=10
+#FLUX: --queue=nvidia
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source ~/.bashrc

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-snack-1740
+#FLUX: --job-name=lwz_nerf_gpujob
+#FLUX: --queue=ampere
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

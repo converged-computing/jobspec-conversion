@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-itch-0875
+#FLUX: --job-name=K_att
 #FLUX: -N=8
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export user='$(whoami)'

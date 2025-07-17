@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-squidward-3615
+#FLUX: --job-name=chwm-sampler
+#FLUX: --queue=debug
 #FLUX: --urgency=16
 
 export LAMMPS_BIN='/global/homes/e/ejragasa/edison_bin/lmp_serial'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-leg-9044
+#FLUX: --job-name=lysozyme_test
 #FLUX: -c=4
 #FLUX: -t=14400
 #FLUX: --urgency=16

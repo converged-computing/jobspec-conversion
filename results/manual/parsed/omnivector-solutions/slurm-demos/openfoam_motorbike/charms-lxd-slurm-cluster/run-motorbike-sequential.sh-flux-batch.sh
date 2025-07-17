@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-itch-8091
+#FLUX: --job-name=motorbike-seq
+#FLUX: --queue=osd-slurmd
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 OPENFOAM_DIR=/nfs/OpenFOAM-10

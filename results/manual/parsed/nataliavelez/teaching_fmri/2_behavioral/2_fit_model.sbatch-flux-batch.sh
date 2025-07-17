@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-eagle-0072
+#FLUX: --job-name=misunderstood-pastry-6015
+#FLUX: --queue=fasse
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load ncf

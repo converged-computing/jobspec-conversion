@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=dgn
+#FLUX: -c=10
 #FLUX: --urgency=16
 
 source /etc/profile

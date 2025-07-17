@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-car-2489
+#FLUX: --job-name=tftest
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module purge

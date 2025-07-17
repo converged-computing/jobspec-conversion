@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-mango-7803
+#FLUX: --job-name=expressive-parsnip-5669
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-banana-4648
+#FLUX: --job-name=lovely-despacito-5621
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 set -e

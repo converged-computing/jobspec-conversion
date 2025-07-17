@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-motorcycle-8939
+#FLUX: --job-name=hddm_fitting
+#FLUX: -c=24
 #FLUX: -t=64800
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=newsingularity
+#FLUX: --queue=thin
 #FLUX: -t=12600
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-gato-4412
+#FLUX: --job-name=Deep-RBM_DBN_7_inc_bin_CD1_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

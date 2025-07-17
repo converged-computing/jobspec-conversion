@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-kerfuffle-2782
+#FLUX: --job-name=stream-swpf-noflush-faults
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

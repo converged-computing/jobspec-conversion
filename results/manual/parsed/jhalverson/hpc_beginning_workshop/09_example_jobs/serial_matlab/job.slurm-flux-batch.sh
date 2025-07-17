@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=my-matlab
+#FLUX: --queue=hpc
 #FLUX: -t=60
 #FLUX: --urgency=16
 

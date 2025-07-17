@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lemur-5739
+#FLUX: --job-name=gassy-noodle-7283
 #FLUX: -n=32
+#FLUX: --queue=amdsmall
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

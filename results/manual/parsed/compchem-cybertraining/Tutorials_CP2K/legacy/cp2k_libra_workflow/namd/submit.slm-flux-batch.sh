@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-toaster-0441
+#FLUX: --job-name=salted-hippo-8326
 #FLUX: -N=3
 #FLUX: --queue=valhalla
 #FLUX: -t=7200

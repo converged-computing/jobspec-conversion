@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-frito-7557
+#FLUX: --job-name=lovely-cupcake-0623
+#FLUX: -c=2
+#FLUX: --queue=himem,hugemem,blade
 #FLUX: --urgency=16
 
 TOP=$(readlink -f ../)/

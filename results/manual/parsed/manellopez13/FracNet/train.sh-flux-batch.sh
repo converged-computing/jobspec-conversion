@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=frac_train
+#FLUX: --queue=private-cui-gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module purge

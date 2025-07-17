@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bits-5191
+#FLUX: --job-name=EB-install
+#FLUX: -n=4
+#FLUX: --queue=amd
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export SBATCH_CONSTRAINT='zen3'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-house-6685
+#FLUX: --job-name=1
+#FLUX: -n=50
 #FLUX: --urgency=16
 
 samples=

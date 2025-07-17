@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-diablo-8796
+#FLUX: --job-name=rfnext-tissuenet-n-1C
+#FLUX: --queue=tier3
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

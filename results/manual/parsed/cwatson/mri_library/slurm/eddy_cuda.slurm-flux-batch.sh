@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-gato-2839
+#FLUX: --job-name=hanky-kerfuffle-9563
+#FLUX: --queue=gpu
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export scriptdir='$(dirname $(type -p dti_eddy.sh))'

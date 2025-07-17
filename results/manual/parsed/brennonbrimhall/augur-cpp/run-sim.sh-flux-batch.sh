@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-parsnip-5534
+#FLUX: --job-name=AUGUR_TEST
 #FLUX: -n=24
 #FLUX: -t=3600
 #FLUX: --urgency=16

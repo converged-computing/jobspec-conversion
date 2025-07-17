@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-dog-8339
+#FLUX: --job-name=gloopy-plant-4223
 #FLUX: --queue=hci-rw
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module load singularity

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lentil-3096
+#FLUX: --job-name=mcmicro_SMM_multisample
 #FLUX: --queue=cpu-short
 #FLUX: -t=7200
 #FLUX: --urgency=16

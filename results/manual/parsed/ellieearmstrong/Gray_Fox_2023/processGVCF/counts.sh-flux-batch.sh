@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=countGVCF
+#FLUX: --queue=normal
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

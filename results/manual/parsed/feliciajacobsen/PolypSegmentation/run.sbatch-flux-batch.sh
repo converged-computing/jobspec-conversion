@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-plant-1148
+#FLUX: --job-name=pusheena-earthworm-1058
+#FLUX: -c=6
+#FLUX: --queue=dgx2q
+#FLUX: -t=86460
 #FLUX: --urgency=16
 
 ulimit -s 10240

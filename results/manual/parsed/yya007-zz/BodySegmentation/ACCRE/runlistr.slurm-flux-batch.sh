@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-peas-1589
+#FLUX: --job-name=salted-knife-8058
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000

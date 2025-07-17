@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pedo-5526
+#FLUX: --job-name=doopy-arm-6418
+#FLUX: -n=16
+#FLUX: --queue=dgx2q
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

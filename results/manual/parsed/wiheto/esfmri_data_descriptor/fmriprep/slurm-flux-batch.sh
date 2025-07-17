@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lamp-0734
+#FLUX: --job-name=fmriprep
 #FLUX: -c=16
+#FLUX: --queue=russpold,owners,hns,normal
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=Regr_GenNet
 #FLUX: -n=15
+#FLUX: --queue=long
+#FLUX: -t=2592000
 #FLUX: --urgency=16
 
 module purge

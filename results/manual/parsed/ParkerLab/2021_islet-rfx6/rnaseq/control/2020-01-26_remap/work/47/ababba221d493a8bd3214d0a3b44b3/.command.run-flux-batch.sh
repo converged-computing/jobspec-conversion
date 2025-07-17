@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-milkshake-0764
+#FLUX: --job-name=nf-bam_to_fastq_(35)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

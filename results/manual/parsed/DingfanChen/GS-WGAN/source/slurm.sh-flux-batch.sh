@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-cherry-1119
+#FLUX: --job-name=expressive-omelette-0651
+#FLUX: --queue=gpu20
 #FLUX: --urgency=16
 
 __conda_setup="$('/BS/dchen-projects/work/Software/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"

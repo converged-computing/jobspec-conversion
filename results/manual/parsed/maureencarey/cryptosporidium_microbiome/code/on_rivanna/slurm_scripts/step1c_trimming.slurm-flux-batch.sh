@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-general-3120
+#FLUX: --job-name=placid-lemon-6857
 #FLUX: --queue=standard
 #FLUX: -t=86400
 #FLUX: --urgency=16

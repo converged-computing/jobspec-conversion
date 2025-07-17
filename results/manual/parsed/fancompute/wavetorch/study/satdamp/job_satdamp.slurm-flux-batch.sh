@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=satdamp
 #FLUX: -c=8
+#FLUX: --queue=normal
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

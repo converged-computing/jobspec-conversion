@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-peanut-butter-7367
+#FLUX: --job-name=gloopy-ricecake-9480
+#FLUX: -N=10
 #FLUX: --urgency=16
 
 source wfenv.sh

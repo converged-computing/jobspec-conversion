@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pancake-2241
+#FLUX: --job-name=deepstem101
 #FLUX: -c=10
+#FLUX: --queue=3090
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export WANDB_SPAWN_METHOD='fork'

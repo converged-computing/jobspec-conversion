@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pedo-1972
+#FLUX: --job-name=cpujob
 #FLUX: -n=19
+#FLUX: --queue=icelake
 #FLUX: -t=300
 #FLUX: --urgency=16
 

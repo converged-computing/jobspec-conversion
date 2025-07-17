@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-blackbean-6816
+#FLUX: --job-name=moolicious-motorcycle-0514
 #FLUX: -c=18
 #FLUX: --queue=gpu
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module load 2021

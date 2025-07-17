@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-fork-8992
+#FLUX: --job-name=gassy-parsnip-3517
 #FLUX: --queue=lotus_gpu
 #FLUX: -t=57600
 #FLUX: --urgency=16

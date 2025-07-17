@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-hobbit-4626
-#FLUX: -c=20
+#FLUX: --job-name=expensive-animal-9201
+#FLUX: -c=28
 #FLUX: --exclusive
+#FLUX: -t=43140
 #FLUX: --urgency=16
 
 ulimit -v unlimited

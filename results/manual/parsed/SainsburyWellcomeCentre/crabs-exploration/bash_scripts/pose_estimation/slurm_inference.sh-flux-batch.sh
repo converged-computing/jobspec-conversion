@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-peanut-butter-5176
+#FLUX: --job-name=bricky-leader-7568
+#FLUX: -n=2
+#FLUX: --queue=gpu
+#FLUX: -t=259440
 #FLUX: --urgency=16
 
 module load SLEAP

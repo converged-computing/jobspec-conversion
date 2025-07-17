@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bicycle-3613
+#FLUX: --job-name=stanky-sundae-5705
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 module load gcc/6.2.0

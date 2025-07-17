@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-avocado-0407
+#FLUX: --job-name=gpujob
+#FLUX: --queue=ampere
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

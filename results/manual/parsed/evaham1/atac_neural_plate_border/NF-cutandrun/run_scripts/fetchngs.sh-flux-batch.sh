@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NF-cutandrun_fetchngs
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export TERM='xterm'

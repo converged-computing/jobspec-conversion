@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-bicycle-2413
+#FLUX: --job-name=arid-leader-5559
 #FLUX: --urgency=16
 
 scpdir="$( cd "$( dirname "$0" )" && pwd )"              # dir of script

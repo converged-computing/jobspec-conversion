@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-parrot-4281
+#FLUX: --job-name=bumfuzzled-squidward-6378
+#FLUX: -c=10
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 MSLIST=$1

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-parsnip-3045
+#FLUX: --job-name=stanky-train-1038
+#FLUX: -n=8
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 cd data

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cattywampus-4269
+#FLUX: --job-name=boopy-noodle-8198
 #FLUX: -c=32
 #FLUX: --exclusive
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='32'

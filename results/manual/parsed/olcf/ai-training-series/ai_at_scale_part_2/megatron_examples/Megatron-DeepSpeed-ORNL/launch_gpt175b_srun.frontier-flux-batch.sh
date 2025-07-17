@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cattywampus-6804
+#FLUX: --job-name=gpt175b_megatron
+#FLUX: -N=24
+#FLUX: --queue=batch
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export LD_PRELOAD='/usr/lib64/libcrypto.so /usr/lib64/libssh.so.4 /usr/lib64/libssl.so.1.1'

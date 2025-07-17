@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-mango-5360
+#FLUX: --job-name=tauog
+#FLUX: --queue=normal
+#FLUX: -t=64800
 #FLUX: --urgency=16
 
 module load matlab

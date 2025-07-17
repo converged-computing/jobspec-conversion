@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-bicycle-8388
+#FLUX: --job-name=psycho-destiny-4279
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

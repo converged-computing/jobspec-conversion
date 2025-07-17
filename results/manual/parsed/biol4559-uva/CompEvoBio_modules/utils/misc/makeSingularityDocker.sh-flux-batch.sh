@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-frito-0972
+#FLUX: --job-name=makeSingularity
+#FLUX: --queue=instructional
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load singularity

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-parsnip-6756
+#FLUX: --job-name=IMAGENET
+#FLUX: -n=2
 #FLUX: --queue=batch
 #FLUX: -t=43200
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-soup-9801
+#FLUX: --job-name=blank-truffle-4726
+#FLUX: --queue=general
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

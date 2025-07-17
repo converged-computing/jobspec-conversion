@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-spoon-0400
+#FLUX: --job-name=bml-cv
+#FLUX: --queue=dgx2q
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-blackbean-0160
+#FLUX: --job-name=amg2013_saf
 #FLUX: -N=4
 #FLUX: -c=14
 #FLUX: --exclusive

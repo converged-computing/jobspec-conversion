@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-sundae-9113
+#FLUX: --job-name=2dPeregrineV03
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PETSC_DIR='/g/g20/lobad1/petsc'

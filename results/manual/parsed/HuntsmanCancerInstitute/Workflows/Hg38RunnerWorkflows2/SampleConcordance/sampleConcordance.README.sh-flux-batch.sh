@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-blackbean-3245
+#FLUX: --job-name=dirty-fork-3163
 #FLUX: --queue=hci-rw
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED STARTED

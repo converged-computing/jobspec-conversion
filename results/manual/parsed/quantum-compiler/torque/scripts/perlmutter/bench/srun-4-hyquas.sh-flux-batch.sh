@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-puppy-8982
+#FLUX: --job-name=delicious-puppy-6219
+#FLUX: -N=4
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export HYQUAS_ROOT='/pscratch/sd/z/zjia/qs/HyQuas'

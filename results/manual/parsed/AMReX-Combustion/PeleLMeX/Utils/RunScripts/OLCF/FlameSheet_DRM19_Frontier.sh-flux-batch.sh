@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-peanut-butter-1579
+#FLUX: --job-name=LMEX_FSDRM19
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export https_proxy='http://proxy.ccs.ornl.gov:3128'

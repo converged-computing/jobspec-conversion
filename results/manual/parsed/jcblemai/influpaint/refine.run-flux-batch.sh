@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-hobbit-1191
+#FLUX: --job-name=strawberry-knife-3504
+#FLUX: --queue=jlessler
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module purge

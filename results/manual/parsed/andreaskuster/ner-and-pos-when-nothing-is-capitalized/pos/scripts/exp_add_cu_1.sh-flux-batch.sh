@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-puppy-0673
+#FLUX: --job-name=chunky-poodle-5313
+#FLUX: -c=128
 #FLUX: --queue=amdv100
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load python/3.7.2

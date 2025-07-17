@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-eagle-3349
+#FLUX: --job-name=eccentric-muffin-2299
+#FLUX: -c=5
+#FLUX: --queue=general
 #FLUX: --urgency=16
 
 module load gcc/gcc-10.2.0

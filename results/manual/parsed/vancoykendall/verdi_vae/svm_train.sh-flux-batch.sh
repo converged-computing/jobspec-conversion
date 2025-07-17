@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-squidward-3563
+#FLUX: --job-name=stinky-buttface-9807
+#FLUX: -c=5
 #FLUX: --urgency=16
 
 echo test1

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-pot-9930
+#FLUX: --job-name=strawberry-fork-8534
+#FLUX: -c=12
 #FLUX: --urgency=16
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'

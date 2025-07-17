@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-punk-1568
+#FLUX: --job-name=cluster_transcripts
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

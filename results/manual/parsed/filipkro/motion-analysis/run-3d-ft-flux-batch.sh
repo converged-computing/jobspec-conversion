@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-puppy-8160
+#FLUX: --job-name=conspicuous-buttface-7450
+#FLUX: -n=4
+#FLUX: --queue=alvis
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 cp -r $HOME/motion-analysis $TMPDIR

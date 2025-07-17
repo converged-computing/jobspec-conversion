@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pedo-6197
+#FLUX: --job-name=angry-plant-8772
+#FLUX: -n=4
+#FLUX: --queue=a6000-gcondo
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module load python/3.9.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-peas-7899
+#FLUX: --job-name=lenet
 #FLUX: --queue=gpu_k80
 #FLUX: -t=86400
 #FLUX: --urgency=16

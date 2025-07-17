@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-poo-9205
+#FLUX: --job-name=move_hf_cache
+#FLUX: --queue=skylake,cclake
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

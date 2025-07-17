@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-onion-2569
+#FLUX: --job-name=paralleltest
+#FLUX: -N=128
+#FLUX: --queue=premium
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export APP='ie2d'

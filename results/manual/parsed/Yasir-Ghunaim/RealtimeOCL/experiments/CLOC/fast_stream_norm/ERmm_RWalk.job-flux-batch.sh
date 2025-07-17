@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-dog-3349
+#FLUX: --job-name=ERmmRWalk
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=144000

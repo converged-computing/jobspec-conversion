@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-leg-7134
+#FLUX: --job-name=hypertune
+#FLUX: -N=4
 #FLUX: --gpus-per-task=4
 #FLUX: --exclusive
+#FLUX: --queue=gpu
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 echo "#################### Job submission script. #############################"

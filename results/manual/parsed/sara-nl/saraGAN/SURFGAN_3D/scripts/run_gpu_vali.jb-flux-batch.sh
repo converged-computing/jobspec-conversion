@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-itch-1929
+#FLUX: --job-name=ornery-chair-5220
+#FLUX: -N=4
+#FLUX: -n=16
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='6'

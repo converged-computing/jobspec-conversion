@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-ricecake-8242
+#FLUX: --job-name=LZ_MSIprofiler
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 set +u

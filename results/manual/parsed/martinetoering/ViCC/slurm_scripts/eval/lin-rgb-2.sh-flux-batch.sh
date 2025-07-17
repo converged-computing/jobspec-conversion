@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=lin-rgb
 #FLUX: -c=4
+#FLUX: --queue=gpu_titanrtx
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

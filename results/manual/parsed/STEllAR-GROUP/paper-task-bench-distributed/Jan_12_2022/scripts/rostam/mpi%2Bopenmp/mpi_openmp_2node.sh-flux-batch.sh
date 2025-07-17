@@ -3,6 +3,7 @@
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -c=48
+#FLUX: --queue=buran
 #FLUX: -t=115200
 #FLUX: --urgency=16
 

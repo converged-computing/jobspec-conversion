@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-sundae-1565
+#FLUX: --job-name=NAMD
 #FLUX: -n=24
 #FLUX: -t=3600
 #FLUX: --urgency=16

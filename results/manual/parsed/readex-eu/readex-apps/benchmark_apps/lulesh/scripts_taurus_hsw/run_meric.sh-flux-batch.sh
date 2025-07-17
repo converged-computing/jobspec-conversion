@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-train-7656
+#FLUX: --job-name=lulesh_meric
 #FLUX: -c=24
 #FLUX: --exclusive
 #FLUX: --queue=haswell

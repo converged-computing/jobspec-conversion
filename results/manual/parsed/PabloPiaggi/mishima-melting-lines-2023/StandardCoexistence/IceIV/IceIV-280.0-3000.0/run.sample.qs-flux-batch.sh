@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=s-280-3000
 #FLUX: -c=7
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module purge

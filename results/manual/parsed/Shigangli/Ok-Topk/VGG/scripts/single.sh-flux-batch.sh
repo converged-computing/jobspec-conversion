@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-arm-3842
+#FLUX: --job-name=crusty-truffle-0095
 #FLUX: -c=12
 #FLUX: --queue=debug
 #FLUX: -t=1800

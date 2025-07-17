@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-buttface-3586
+#FLUX: --job-name=chunky-citrus-8477
 #FLUX: -c=10
+#FLUX: --queue=batch
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 echo "SLURM_JOBID: " $SLURM_JOBID

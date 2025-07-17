@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-spoon-4983
+#FLUX: --job-name=PerfHydroS
 #FLUX: -n=20
 #FLUX: --exclusive
 #FLUX: -t=2400

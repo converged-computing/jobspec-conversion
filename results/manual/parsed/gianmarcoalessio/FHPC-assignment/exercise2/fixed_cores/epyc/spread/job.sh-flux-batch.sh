@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=scal_ex2
+#FLUX: -n=64
 #FLUX: --exclusive
 #FLUX: --queue=EPYC
 #FLUX: -t=7200

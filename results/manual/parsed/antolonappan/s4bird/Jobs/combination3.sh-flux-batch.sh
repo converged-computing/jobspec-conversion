@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-motorcycle-2796
+#FLUX: --job-name=combine3
 #FLUX: -N=64
 #FLUX: -n=1000
 #FLUX: -t=1800

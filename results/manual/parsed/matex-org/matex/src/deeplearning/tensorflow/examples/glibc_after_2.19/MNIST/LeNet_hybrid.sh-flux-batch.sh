@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-fudge-3951
+#FLUX: --job-name=LeNet.Hybrid
 #FLUX: --urgency=16
 
 train_batch=64

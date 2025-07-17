@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-frito-9717
+#FLUX: --job-name=Iso
+#FLUX: -N=32
+#FLUX: -n=32
+#FLUX: -t=12600
 #FLUX: --urgency=16
 
 export user='$(whoami)'

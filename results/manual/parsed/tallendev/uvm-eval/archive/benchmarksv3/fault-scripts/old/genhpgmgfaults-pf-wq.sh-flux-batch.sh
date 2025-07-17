@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-animal-7336
+#FLUX: --job-name=hpgmg-faults-pf
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=1

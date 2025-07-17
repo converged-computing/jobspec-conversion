@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lettuce-9354
+#FLUX: --job-name=gMshNoSoot
+#FLUX: -N=256
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PETSC_DIR='/usr/workspace/mcgurn4/petsc'

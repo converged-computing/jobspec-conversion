@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-bike-5251
+#FLUX: --job-name=nomis
+#FLUX: --queue=batch
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

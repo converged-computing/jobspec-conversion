@@ -2,6 +2,7 @@
 #FLUX: --job-name=dask-workers
 #FLUX: -N=2
 #FLUX: --queue=compute
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export PYTHONPATH='/.local/lib/python3.5/site-packages/:$PYTHONPATH'

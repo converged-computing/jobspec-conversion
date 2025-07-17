@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-animal-4967
+#FLUX: --job-name=gassy-train-7215
 #FLUX: -c=7
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load cudatoolkit/10.0

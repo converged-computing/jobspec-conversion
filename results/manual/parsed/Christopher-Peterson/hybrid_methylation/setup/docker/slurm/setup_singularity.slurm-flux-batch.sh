@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-mango-1894
+#FLUX: --job-name=setup_singularity
+#FLUX: --queue=development
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 cdw singularity

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-hippo-6058
+#FLUX: --job-name=sticky-underoos-4544
+#FLUX: -n=20
+#FLUX: --queue=cidsegpu1_contrib_res
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 module purge;

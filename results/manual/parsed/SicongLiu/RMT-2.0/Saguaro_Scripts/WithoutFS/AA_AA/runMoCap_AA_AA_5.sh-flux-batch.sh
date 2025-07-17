@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-pedo-6509
+#FLUX: --job-name=peachy-latke-5798
+#FLUX: -n=4
+#FLUX: --queue=serial
+#FLUX: -t=720
 #FLUX: --urgency=16
 
 module load gcc/4.9.2

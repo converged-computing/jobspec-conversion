@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-leopard-9619
+#FLUX: --job-name=phat-hippo-7969
 #FLUX: -c=128
 #FLUX: --exclusive
+#FLUX: --queue=romeo
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

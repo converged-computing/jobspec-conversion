@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-diablo-0211
+#FLUX: --job-name=chocolate-cinnamonbun-0984
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/softwaresaved/CGPACK-Work/branches/io/hec.pvbatch

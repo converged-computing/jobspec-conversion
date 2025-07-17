@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-fork-0539
+#FLUX: --job-name=stage2
 #FLUX: -c=10
+#FLUX: --queue=3090
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export WANDB_SPAWN_METHOD='fork'

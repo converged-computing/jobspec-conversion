@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-despacito-1097
+#FLUX: --job-name=tools
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 ulimit -c 0

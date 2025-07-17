@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-kitty-2650
+#FLUX: --job-name=IKSH_atm2adc_RUN
+#FLUX: -n=12
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

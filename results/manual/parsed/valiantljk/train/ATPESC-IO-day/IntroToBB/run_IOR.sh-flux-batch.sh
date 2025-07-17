@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-omelette-8170
+#FLUX: --job-name=job_run_IOR
+#FLUX: -N=4
+#FLUX: --queue=regular
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 DIR=$PWD

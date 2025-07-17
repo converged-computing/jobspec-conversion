@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lemon-3533
+#FLUX: --job-name=strawberry-rabbit-7551
+#FLUX: -n=4
+#FLUX: --queue=alvis
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 data_set="data_Octavio-Paz.npz"

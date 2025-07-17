@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-destiny-9449
+#FLUX: --job-name=joyous-truffle-1631
 #FLUX: --urgency=16
 
 source /usr/local/gromacs/bin/GMXRC

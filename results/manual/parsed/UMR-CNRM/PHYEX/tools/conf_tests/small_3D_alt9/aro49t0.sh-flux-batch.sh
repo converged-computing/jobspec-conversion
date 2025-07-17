@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bits-3822
+#FLUX: --job-name=peachy-spoon-9608
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

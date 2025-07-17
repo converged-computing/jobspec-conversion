@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-pancake-9556
+#FLUX: --job-name=eccentric-leg-1707
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000

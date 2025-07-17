@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-blackbean-4047
+#FLUX: --job-name=857_2
 #FLUX: -N=10
 #FLUX: -n=240
 #FLUX: -t=1800

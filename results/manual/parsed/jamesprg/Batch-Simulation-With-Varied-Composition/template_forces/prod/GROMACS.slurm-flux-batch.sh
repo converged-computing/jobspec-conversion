@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-buttface-0289
+#FLUX: --job-name=JNAME
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

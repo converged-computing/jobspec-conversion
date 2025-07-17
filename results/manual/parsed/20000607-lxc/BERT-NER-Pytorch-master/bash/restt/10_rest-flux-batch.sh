@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=10_bert
 #FLUX: -c=8
+#FLUX: --queue=rtx8000,v100
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 cd /scratch/zt2080/shizhe/eres/BERT-NER-Pytorch-master

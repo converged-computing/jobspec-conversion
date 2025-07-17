@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-buttface-4997
+#FLUX: --job-name=ivon
 #FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$HOME/asdfghjkl:$PYTHONPATH:$HOME/common:$HOME/sam:$HOME/vit-pytorch'

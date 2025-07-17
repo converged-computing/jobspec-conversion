@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ATAC_fqToBw
 #FLUX: -c=12
+#FLUX: --queue=short
 #FLUX: -t=54000
 #FLUX: --urgency=16
 

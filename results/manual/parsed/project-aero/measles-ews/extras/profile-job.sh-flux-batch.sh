@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-arm-1388
+#FLUX: --job-name=placid-carrot-4830
+#FLUX: -t=288000
 #FLUX: --urgency=16
 
 cd ~/measles/code/

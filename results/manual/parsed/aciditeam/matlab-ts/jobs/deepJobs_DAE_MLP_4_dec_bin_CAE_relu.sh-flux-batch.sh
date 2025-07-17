@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-squidward-7671
+#FLUX: --job-name=Deep-DAE_MLP_4_dec_bin_CAE_relu
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

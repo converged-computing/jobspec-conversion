@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-egg-9149
+#FLUX: --job-name=grated-hobbit-6894
+#FLUX: -N=3
+#FLUX: -n=48
 #FLUX: --exclusive
+#FLUX: --queue=huce_intel
+#FLUX: -t=1440
 #FLUX: --urgency=16
 
 log="gchp.log"

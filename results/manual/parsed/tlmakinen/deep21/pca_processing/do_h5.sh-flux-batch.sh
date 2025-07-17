@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=collect_dat
+#FLUX: --queue=cca
 #FLUX: -t=2400
 #FLUX: --urgency=16
 

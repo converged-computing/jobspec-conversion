@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-train-2299
+#FLUX: --job-name=multi-gpu-training
 #FLUX: --queue=
 #FLUX: --urgency=16
 

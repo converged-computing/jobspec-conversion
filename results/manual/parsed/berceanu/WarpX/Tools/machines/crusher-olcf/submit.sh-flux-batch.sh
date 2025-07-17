@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=faux-omelette-7731
+#FLUX: --job-name=warpx
 #FLUX: -c=7
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=batch
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'

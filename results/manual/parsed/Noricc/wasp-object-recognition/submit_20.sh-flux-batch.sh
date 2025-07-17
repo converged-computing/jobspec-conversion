@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-nunchucks-1532
+#FLUX: --job-name=retrain
+#FLUX: -n=20
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_SCHEDULE='static'

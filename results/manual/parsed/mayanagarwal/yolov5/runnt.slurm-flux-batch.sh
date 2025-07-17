@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-poo-7981
+#FLUX: --job-name=expressive-truffle-4021
 #FLUX: -n=8
+#FLUX: --queue=gpgpumse
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

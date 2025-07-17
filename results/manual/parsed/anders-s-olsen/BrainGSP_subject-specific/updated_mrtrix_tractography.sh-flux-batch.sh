@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-chair-5173
+#FLUX: --job-name=red-nunchucks-6753
 #FLUX: --queue=physical
 #FLUX: -t=50400
 #FLUX: --urgency=16

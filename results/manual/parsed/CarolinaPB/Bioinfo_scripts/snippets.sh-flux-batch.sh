@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-milkshake-3942
+#FLUX: --job-name=creamy-car-6074
 #FLUX: --urgency=16
 
 sed -n '/Scaffolds_20 /,/Scaffolds_21/p' scaffolds.fasta > scaffolds_20.fasta

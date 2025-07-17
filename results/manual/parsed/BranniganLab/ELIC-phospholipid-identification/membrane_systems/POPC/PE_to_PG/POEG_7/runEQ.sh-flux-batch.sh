@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=confused-earthworm-9078
+#FLUX: --job-name=EQ_POEG_7
+#FLUX: -N=3
+#FLUX: -n=96
 #FLUX: --queue=cmain
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 module purge

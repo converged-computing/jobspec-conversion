@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bike-3725
+#FLUX: --job-name={job_name}
+#FLUX: --queue={queue}
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='48'
@@ -14,5 +15,4 @@ which bismark
 date
 hostname
 pwd
-export OMP_NUM_THREADS=48
 {command}

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-general-7799
+#FLUX: --job-name=angry-spoon-8179
+#FLUX: -n=14
+#FLUX: --queue=nvidia
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge

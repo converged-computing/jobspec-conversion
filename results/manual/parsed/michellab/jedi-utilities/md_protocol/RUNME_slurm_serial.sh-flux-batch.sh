@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=$pdb
+#FLUX: -n=16
+#FLUX: --queue=serial
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-soup-9663
+#FLUX: --job-name=reclusive-cinnamonbun-3686
+#FLUX: -n=8
+#FLUX: --queue=priority
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load conda2/4.2.13

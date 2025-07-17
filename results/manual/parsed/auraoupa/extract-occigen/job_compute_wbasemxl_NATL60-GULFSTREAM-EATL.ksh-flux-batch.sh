@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-house-2986
+#FLUX: --job-name=extract2D
 #FLUX: -n=12
 #FLUX: --exclusive
 #FLUX: -t=9000

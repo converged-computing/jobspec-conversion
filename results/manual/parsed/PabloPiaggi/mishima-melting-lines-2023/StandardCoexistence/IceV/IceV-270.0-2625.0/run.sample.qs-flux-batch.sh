@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-peas-3650
+#FLUX: --job-name=cowy-fudge-5541
 #FLUX: -c=7
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module load cudatoolkit/10.0

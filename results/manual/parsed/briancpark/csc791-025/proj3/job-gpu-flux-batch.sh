@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-fork-9917
+#FLUX: --job-name=stanky-hope-1074
+#FLUX: --queue=rome
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 nvidia-smi

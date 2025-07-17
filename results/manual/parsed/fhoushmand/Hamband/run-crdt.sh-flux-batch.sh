@@ -1,9 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-blackbean-7730
+#FLUX: --job-name=outstanding-peanut-2493
 #FLUX: -N=8
 #FLUX: -n=8
 #FLUX: -c=8
 #FLUX: --exclusive
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 nodes=($( scontrol show hostnames $SLURM_NODELIST ))

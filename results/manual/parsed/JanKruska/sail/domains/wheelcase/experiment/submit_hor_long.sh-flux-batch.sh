@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-cherry-4700
+#FLUX: --job-name=bumfuzzled-poodle-9894
 #FLUX: --exclusive
 #FLUX: --queue=hpc
 #FLUX: -t=259200

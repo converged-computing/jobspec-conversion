@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-salad-2107
+#FLUX: --job-name=annulus1
+#FLUX: --queue=regular
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export CCTBX_NO_UUID='1'

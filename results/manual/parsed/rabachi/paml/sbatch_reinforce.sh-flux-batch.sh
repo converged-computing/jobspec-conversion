@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=reinforce_paml_2_traj200
 #FLUX: -c=2
+#FLUX: --queue=cpu
 #FLUX: --urgency=16
 
 module load pytorch1.0-cuda9.0-python3.6

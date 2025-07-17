@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-eagle-7258
+#FLUX: --job-name=spicy-milkshake-4573
 #FLUX: -c=12
 #FLUX: --queue=ccr
 #FLUX: -t=259200

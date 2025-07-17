@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lamp-8306
+#FLUX: --job-name=hddm_flat
 #FLUX: -c=4
+#FLUX: --queue=russpold
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

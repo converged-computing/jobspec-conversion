@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mat_mul
 #FLUX: -n=4
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load intel

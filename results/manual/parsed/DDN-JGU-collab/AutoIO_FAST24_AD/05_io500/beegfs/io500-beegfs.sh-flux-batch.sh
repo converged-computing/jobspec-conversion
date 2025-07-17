@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-poo-8469
+#FLUX: --job-name=anxious-animal-6391
 #FLUX: -N=10
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 io500_ini="$1"          # You can set the ini file here

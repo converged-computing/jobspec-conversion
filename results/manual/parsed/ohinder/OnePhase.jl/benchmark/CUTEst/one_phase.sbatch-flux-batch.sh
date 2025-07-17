@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=CUTEst_one_phase
+#FLUX: --queue=jduchi
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

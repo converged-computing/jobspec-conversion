@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-puppy-4078
+#FLUX: --job-name=dpw
+#FLUX: --queue=small
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 source /scratch1/06081/wlruys/miniconda3/etc/profile.d/conda.sh

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-butter-7992
+#FLUX: --job-name=cowy-bicycle-4029
+#FLUX: --queue=cpu2019
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 mkdir -p logs/slurm

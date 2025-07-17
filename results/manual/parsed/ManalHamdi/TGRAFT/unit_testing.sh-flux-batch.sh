@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-banana-4946
+#FLUX: --job-name=Unit Testing
 #FLUX: -n=3
 #FLUX: --urgency=16
 

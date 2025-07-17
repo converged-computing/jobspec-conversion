@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-eagle-7960
+#FLUX: --job-name=evasive-spoon-1528
 #FLUX: -c=5
 #FLUX: --queue=gm4-pmext
 #FLUX: -t=129600

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-bike-7247
+#FLUX: --job-name={name}
 #FLUX: -n=20
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 source ~/.bashrc.ext

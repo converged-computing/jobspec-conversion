@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-bits-1308
+#FLUX: --job-name=creamy-citrus-8031
+#FLUX: -c=256
+#FLUX: --queue=ai-jumpstart
 #FLUX: --urgency=16
 
 source ~/modules/pytorch/latest

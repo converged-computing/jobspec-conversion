@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bike-2067
+#FLUX: --job-name=swampy-hippo-0948
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ToHanwei/ProteinModel/alphafold.lsf

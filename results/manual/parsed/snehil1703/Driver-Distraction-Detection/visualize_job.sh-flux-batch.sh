@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-plant-4788
+#FLUX: --job-name=misunderstood-arm-6669
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/snehil1703/Driver-Distraction-Detection/visualize_job.sh

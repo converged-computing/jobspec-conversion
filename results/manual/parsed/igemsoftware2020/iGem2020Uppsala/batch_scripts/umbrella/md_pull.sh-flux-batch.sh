@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-butter-5472
+#FLUX: --job-name=SM_umbrella_production
+#FLUX: -n=20
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$ntomp'

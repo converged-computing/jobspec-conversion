@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-pot-3661
+#FLUX: --job-name=finetune
 #FLUX: --queue=gp4d
 #FLUX: --urgency=16
 

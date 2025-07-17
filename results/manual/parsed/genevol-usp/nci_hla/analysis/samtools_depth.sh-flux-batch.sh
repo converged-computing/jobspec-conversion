@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=SamDepth
+#FLUX: -c=8
+#FLUX: --queue=long
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

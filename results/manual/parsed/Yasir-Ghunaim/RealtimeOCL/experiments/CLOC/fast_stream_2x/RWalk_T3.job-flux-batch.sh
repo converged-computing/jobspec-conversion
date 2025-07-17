@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-puppy-6200
+#FLUX: --job-name=RWalkT3
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=180000

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cat-6517
+#FLUX: --job-name=dirty-caramel-7432
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

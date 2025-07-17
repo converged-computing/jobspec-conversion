@@ -1,5 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=pixelcnn-top-lazyrfgrow-prepadshift
+#FLUX: -N=6
+#FLUX: -c=6
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='6'

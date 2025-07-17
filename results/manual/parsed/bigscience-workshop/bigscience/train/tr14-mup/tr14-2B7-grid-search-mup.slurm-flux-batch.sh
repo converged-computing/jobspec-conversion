@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-toaster-7964
+#FLUX: --job-name=conspicuous-omelette-1411
 #FLUX: -N=2
 #FLUX: -c=40
 #FLUX: --queue=gpu_p5

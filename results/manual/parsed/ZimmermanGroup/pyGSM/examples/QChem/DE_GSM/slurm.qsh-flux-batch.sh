@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=DE_GSM
+#FLUX: -c=12
+#FLUX: --queue=zimintel
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

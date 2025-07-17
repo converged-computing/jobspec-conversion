@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-peanut-0347
+#FLUX: --job-name=hairy-cupcake-2490
 #FLUX: -c=16
 #FLUX: --gpus-per-task=8
 #FLUX: --queue=hpg-ai

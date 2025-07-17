@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-plant-7421
+#FLUX: --job-name=stage_1
+#FLUX: -N=64
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/yb_lyso/$SLURM_JOB_ID'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-poodle-3230
+#FLUX: --job-name=imb_8_1
 #FLUX: -N=8
 #FLUX: -n=8
 #FLUX: --exclusive

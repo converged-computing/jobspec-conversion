@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lentil-0800
+#FLUX: --job-name=phat-carrot-7889
+#FLUX: -N=2
+#FLUX: -n=48
 #FLUX: --exclusive
+#FLUX: --queue=huce_intel
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 log="gchp.log"

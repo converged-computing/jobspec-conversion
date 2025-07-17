@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-animal-0983
+#FLUX: --job-name=outstanding-lettuce-0198
+#FLUX: -t=0
 #FLUX: --urgency=16
 
 python src/main.py \

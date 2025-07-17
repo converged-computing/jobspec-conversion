@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-muffin-5292
+#FLUX: --job-name=crawl_data
+#FLUX: --queue=tier3
+#FLUX: -t=367503
 #FLUX: --urgency=16
 
 mkdir -p log

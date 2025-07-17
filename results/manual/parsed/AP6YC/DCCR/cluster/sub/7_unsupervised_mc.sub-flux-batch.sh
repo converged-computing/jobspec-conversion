@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-punk-5924
+#FLUX: --job-name=DCCR-7
 #FLUX: -n=32
 #FLUX: -t=86400
 #FLUX: --urgency=16

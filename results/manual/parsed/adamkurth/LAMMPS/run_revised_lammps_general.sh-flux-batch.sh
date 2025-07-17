@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-carrot-5294
+#FLUX: --job-name=goodbye-parsnip-0867
 #FLUX: --urgency=16
 
 ng test cases of lammps on agave. 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-nalgas-1007
+#FLUX: --job-name=placid-toaster-5919
+#FLUX: -n=16
+#FLUX: --queue=batch
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

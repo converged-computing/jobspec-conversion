@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-frito-0483
+#FLUX: --job-name=cowy-salad-4085
 #FLUX: --queue=high-mem
 #FLUX: -t=86400
 #FLUX: --urgency=16

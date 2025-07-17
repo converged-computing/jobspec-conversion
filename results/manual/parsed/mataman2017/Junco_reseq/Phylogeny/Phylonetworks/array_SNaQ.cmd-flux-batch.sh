@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lentil-0385
+#FLUX: --job-name=runsnaq
+#FLUX: -c=30
 #FLUX: -t=216000
 #FLUX: --urgency=16
 

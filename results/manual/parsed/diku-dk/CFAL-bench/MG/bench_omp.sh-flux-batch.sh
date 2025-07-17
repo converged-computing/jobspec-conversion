@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-underoos-7166
+#FLUX: --job-name=blank-hobbit-0817
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400

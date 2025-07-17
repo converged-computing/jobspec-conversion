@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-cherry-4811
+#FLUX: --job-name=Pb_Pb_2760_MAP_VAH
+#FLUX: -N=2
+#FLUX: --queue=bdws
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module reset

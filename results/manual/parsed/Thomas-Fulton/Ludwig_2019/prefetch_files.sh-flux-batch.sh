@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-destiny-8163
+#FLUX: --job-name=pusheena-cattywampus-3586
+#FLUX: -c=8
+#FLUX: --queue=defq
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export PATH='`pwd`/software/bin:$PATH:`pwd`/software/sratoolkit.2.11.0-ubuntu64/bin/;'

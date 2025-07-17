@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bike-1516
+#FLUX: --job-name=butterscotch-leopard-5969
 #FLUX: -c=48
 #FLUX: --queue=general
 #FLUX: -t=14400

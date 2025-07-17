@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=pytorch
+#FLUX: -N=2
 #FLUX: -c=20
 #FLUX: --urgency=16
 

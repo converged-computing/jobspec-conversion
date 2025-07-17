@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-staircase-7188
+#FLUX: --job-name=centermask2_tissuenet_n_train_1C
+#FLUX: --queue=tier3
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

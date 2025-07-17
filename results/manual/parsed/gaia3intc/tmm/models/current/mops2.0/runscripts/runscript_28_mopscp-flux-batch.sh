@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-eagle-8129
+#FLUX: --job-name=spicy-cattywampus-0931
+#FLUX: --queue=small
 #FLUX: -t=4800
 #FLUX: --urgency=16
 

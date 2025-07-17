@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-citrus-6552
+#FLUX: --job-name=mu_4_4_generic
 #FLUX: -c=30
 #FLUX: --queue=gpu
 #FLUX: -t=72000

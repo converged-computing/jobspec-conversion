@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-signal-3601
+#FLUX: --job-name=arid-signal-9283
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-toaster-4407
+#FLUX: --job-name=muffled-lentil-3580
+#FLUX: --queue=medium
 #FLUX: -t=428400
 #FLUX: --urgency=16
 

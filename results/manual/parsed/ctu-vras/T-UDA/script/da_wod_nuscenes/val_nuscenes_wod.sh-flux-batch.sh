@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-fork-3893
+#FLUX: --job-name=anxious-buttface-7265
 #FLUX: -c=24
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

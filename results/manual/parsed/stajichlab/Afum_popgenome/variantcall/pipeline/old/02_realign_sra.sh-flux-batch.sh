@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-chair-7772
+#FLUX: --job-name=realign
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

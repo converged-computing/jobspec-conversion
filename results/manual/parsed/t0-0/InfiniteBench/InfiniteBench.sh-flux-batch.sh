@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-leg-3027
+#FLUX: --job-name=lovely-house-4632
 #FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh

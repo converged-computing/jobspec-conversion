@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-earthworm-6224
+#FLUX: --job-name=carnivorous-nalgas-5690
+#FLUX: -n=32
+#FLUX: --queue=intel,batch
 #FLUX: --urgency=16
 
 module load trinity-rnaseq/2.13.2

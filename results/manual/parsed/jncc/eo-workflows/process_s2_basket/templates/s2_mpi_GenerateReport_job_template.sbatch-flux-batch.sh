@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-carrot-1813
+#FLUX: --job-name=lovable-hobbit-9297
+#FLUX: --queue=short-serial
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

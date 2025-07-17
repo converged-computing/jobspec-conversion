@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-carrot-9670
+#FLUX: --job-name=tl_rdma_transf
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120

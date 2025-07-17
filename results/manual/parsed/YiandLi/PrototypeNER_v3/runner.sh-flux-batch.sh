@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-punk-1744
+#FLUX: --job-name=outstanding-knife-0923
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 module load nvidia/cuda/10.0

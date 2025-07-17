@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=linear_RN50
 #FLUX: -c=18
+#FLUX: --queue=gpu
+#FLUX: -t=219599
 #FLUX: --urgency=16
 
 source /home/sliu/miniconda3/etc/profile.d/conda.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-eagle-3988
+#FLUX: --job-name=build_cp2k
 #FLUX: -n=8
 #FLUX: --queue=serial
 #FLUX: -t=7200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cinnamonbun-4746
+#FLUX: --job-name=misunderstood-latke-8549
 #FLUX: --exclusive
 #FLUX: --queue=hpc
 #FLUX: -t=259200

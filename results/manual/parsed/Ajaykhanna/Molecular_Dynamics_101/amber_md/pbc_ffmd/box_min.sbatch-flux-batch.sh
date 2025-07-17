@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=amber_minize
 #FLUX: -n=32
+#FLUX: --queue=test
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-plant-2397
+#FLUX: --job-name=Deep-DAE_SDAE_4_inc_real_CAE_tanh
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-platanos-4941
+#FLUX: --job-name=outstanding-punk-3338
+#FLUX: --queue=limited
 #FLUX: -t=108000
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-pancake-7306
+#FLUX: --job-name=eccentric-lentil-1018
 #FLUX: -c=2
 #FLUX: --queue=research
 #FLUX: -t=86400

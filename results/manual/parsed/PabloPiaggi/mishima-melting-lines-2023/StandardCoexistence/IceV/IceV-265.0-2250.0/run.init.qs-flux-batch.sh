@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-car-9476
+#FLUX: --job-name=blank-malarkey-3889
 #FLUX: -c=7
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load cudatoolkit/10.0

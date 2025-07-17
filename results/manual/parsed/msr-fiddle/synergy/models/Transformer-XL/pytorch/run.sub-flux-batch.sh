@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-train-1129
+#FLUX: --job-name=transformer-xl_pyt
+#FLUX: -N=8
 #FLUX: --exclusive
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export DGXNSOCKET='2'

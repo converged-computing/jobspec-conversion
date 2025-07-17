@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cinnamonbun-2744
+#FLUX: --job-name=EB-install
+#FLUX: -n=4
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export SBATCH_CONSTRAINT='skylake'

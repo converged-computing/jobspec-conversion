@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-spoon-1769
+#FLUX: --job-name=cowy-banana-8670
 #FLUX: --urgency=16
 
                      echo "there are two assembly configurations available, either perform the assembly"

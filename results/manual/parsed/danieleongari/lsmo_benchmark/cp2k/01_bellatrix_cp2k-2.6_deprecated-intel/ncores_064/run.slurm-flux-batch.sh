@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-fork-0893
+#FLUX: --job-name=arid-platanos-1559
 #FLUX: -N=4
 #FLUX: -n=64
 #FLUX: -t=1800

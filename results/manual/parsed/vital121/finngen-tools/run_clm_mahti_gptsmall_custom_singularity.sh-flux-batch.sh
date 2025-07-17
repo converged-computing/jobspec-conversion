@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-squidward-6379
+#FLUX: --job-name=confused-destiny-3905
 #FLUX: -N=4
 #FLUX: --queue=gpumedium
 #FLUX: -t=129600

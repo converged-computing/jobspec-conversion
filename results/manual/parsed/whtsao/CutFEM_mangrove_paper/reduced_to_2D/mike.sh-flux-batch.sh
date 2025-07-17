@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-latke-5353
+#FLUX: --job-name=cox_reduced_to_2D
+#FLUX: -N=16
+#FLUX: -n=1024
+#FLUX: --queue=workq
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/packages/compilers/intel/compiler/2022.0.2/linux/compiler/lib/intel64_lin:${LD_LIBRARY_PATH}'

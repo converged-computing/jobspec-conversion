@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-knife-2418
+#FLUX: --job-name=grated-staircase-6723
 #FLUX: --queue=gpu
+#FLUX: -t=518400
 #FLUX: --urgency=16
 
 source activate pytorch_p37

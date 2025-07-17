@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-muffin-7165
+#FLUX: --job-name=torch-lustre-iops
+#FLUX: --queue=rtx
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export CC='/opt/apps/gcc/8.3.0/bin/gcc'

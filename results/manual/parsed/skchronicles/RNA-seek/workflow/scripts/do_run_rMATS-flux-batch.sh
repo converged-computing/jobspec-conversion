@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-taco-7288
+#FLUX: --job-name=rMATS_${g1}_${g2}
 #FLUX: -c=32
 #FLUX: -t=28800
 #FLUX: --urgency=16

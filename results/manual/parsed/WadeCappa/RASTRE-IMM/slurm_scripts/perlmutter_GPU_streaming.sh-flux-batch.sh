@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-underoos-3555
+#FLUX: --job-name=m5_github_IC
+#FLUX: -N=5
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'

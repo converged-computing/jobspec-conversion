@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-train-0054
+#FLUX: --job-name=moolicious-rabbit-3129
+#FLUX: -N=12
 #FLUX: --urgency=16
 
 export NCCL_ALGO='Ring'

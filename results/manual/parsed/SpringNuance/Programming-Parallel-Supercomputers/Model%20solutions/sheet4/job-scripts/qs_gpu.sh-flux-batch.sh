@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-bike-0089
+#FLUX: --job-name=phat-lamp-8503
+#FLUX: --queue=courses-gpu
 #FLUX: -t=300
 #FLUX: --urgency=16
 

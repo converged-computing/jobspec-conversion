@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bwaCon
 #FLUX: --queue=hci-kp
+#FLUX: -t=108000
 #FLUX: --urgency=16
 
 set -e; start=$(date +'%s')

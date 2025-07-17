@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=p53
 #FLUX: -N=2
+#FLUX: -n=64
+#FLUX: --queue=fast
 #FLUX: --urgency=16
 
 export PATH='/home/zgjia/Software/openmpi/2.1.0/bin:$PATH'

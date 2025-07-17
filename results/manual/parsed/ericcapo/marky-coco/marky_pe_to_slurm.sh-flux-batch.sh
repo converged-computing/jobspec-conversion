@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-toaster-9594
+#FLUX: --job-name=dinosaur-underoos-7027
+#FLUX: -n=12
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

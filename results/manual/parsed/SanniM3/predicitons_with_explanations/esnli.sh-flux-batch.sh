@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chair-0244
+#FLUX: --job-name=bricky-kitty-1715
 #FLUX: --queue=PGR-Standard
 #FLUX: -t=72000
 #FLUX: --urgency=16

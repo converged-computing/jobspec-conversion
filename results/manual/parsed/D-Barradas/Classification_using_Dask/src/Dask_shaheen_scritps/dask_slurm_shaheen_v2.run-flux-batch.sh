@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lamp-5245
+#FLUX: --job-name=bumfuzzled-snack-9578
 #FLUX: -N=4
 #FLUX: -n=128
 #FLUX: --queue=workq

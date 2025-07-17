@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-peas-9800
+#FLUX: --job-name=gpt_frontier
+#FLUX: -N=2
+#FLUX: --queue=batch
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export LD_PRELOAD='/usr/lib64/libcrypto.so /usr/lib64/libssh.so.4 /usr/lib64/libssl.so.1.1'

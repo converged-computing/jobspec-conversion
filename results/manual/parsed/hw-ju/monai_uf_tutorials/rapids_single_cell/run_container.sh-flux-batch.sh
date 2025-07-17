@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-avocado-2199
+#FLUX: --job-name=conspicuous-train-0194
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=7200

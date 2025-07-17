@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-butter-0416
+#FLUX: --job-name=crunchy-fudge-9107
 #FLUX: --urgency=16
 
 declare -a arr=("Colon" "lymph_node_metastasis" "Spleen" "Pancreas" "Epidermis" "Breast" "Lymph_Node" "Tonsil" "Lung" "Esophagus")

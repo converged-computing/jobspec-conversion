@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-fork-7564
+#FLUX: --job-name=purple-arm-9281
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=86400

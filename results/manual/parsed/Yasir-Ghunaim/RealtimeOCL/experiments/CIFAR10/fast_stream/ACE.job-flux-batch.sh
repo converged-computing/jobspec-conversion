@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-snack-7070
+#FLUX: --job-name=ACE
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=3600

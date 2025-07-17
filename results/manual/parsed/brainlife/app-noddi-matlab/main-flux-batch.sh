@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-blackbean-9064
+#FLUX: --job-name=milky-leg-4497
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-noddi-matlab/main

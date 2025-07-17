@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=c1l
 #FLUX: -c=12
+#FLUX: --queue=hns,normal
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

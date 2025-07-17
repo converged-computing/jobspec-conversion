@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-omelette-0605
+#FLUX: --job-name=AutoencoderModel compressionFactor $1 expansionFactor $2
 #FLUX: --queue=gpu
 #FLUX: -t=604800
 #FLUX: --urgency=16

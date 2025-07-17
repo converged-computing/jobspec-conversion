@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-toaster-2810
+#FLUX: --job-name=2048_acoustics
+#FLUX: -N=64
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

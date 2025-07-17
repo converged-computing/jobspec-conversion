@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-kerfuffle-4979
+#FLUX: --job-name=sRNAseq_floral_t2t-col.20210610
+#FLUX: --queue=skylake
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

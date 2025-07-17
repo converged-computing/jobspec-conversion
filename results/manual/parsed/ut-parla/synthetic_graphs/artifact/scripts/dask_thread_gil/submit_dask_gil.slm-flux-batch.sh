@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-carrot-0347
+#FLUX: --job-name=dg2
+#FLUX: --queue=small
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 source /scratch1/06081/wlruys/miniconda3/etc/profile.d/conda.sh

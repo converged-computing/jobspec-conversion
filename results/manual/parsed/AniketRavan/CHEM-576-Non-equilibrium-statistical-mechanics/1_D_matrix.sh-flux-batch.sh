@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-peanut-butter-2218
+#FLUX: --job-name=langevin_overdamped
+#FLUX: -n=4
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 echo "Loading module"

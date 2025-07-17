@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-staircase-9732
+#FLUX: --job-name=smac
+#FLUX: --queue=ml_gpu-rtx2080
 #FLUX: --urgency=16
 
 source activate tensorflow-stable

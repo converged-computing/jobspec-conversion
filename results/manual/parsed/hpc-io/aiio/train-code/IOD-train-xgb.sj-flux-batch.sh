@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-butter-6368
+#FLUX: --job-name=xgb
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=72600
 #FLUX: --urgency=16
 
 module load cgpu

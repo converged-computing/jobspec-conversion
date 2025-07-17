@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-omelette-1750
+#FLUX: --job-name=bricky-fork-4092
+#FLUX: --queue=dev_q
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module reset

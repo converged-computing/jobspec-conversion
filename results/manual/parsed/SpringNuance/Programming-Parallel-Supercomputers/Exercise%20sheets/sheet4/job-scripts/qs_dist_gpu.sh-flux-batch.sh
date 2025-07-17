@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-gato-4559
+#FLUX: --job-name=expensive-cat-9605
 #FLUX: --queue=courses-gpu
 #FLUX: -t=300
 #FLUX: --urgency=16

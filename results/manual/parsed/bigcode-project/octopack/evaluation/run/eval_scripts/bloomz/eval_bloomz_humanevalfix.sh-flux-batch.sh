@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-punk-7010
+#FLUX: --job-name=loopy-leg-7183
 #FLUX: --exclusive
+#FLUX: --queue=small-g
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source $ajs_ALL_CCFRWORK/start-tr13f-6B3-ml-t0

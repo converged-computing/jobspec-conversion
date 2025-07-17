@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-cherry-2879
+#FLUX: --job-name=hddm_sampler
 #FLUX: -t=115200
 #FLUX: --urgency=16
 

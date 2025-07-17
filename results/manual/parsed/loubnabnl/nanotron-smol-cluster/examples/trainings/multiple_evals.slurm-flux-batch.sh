@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-punk-6516
+#FLUX: --job-name=scruptious-despacito-5875
 #FLUX: -c=48
 #FLUX: --exclusive
 #FLUX: --queue=production-cluster

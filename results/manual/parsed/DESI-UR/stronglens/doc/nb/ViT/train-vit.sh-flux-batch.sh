@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-rabbit-7205
+#FLUX: --job-name=stronglens-vit-training
+#FLUX: --queue=regular
+#FLUX: -t=32400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

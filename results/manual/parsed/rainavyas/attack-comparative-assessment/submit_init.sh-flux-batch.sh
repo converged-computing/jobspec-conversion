@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-plant-5121
+#FLUX: --job-name=gpujob
 #FLUX: -n=4
+#FLUX: --queue=ampere
 #FLUX: -t=25200
 #FLUX: --urgency=16
 

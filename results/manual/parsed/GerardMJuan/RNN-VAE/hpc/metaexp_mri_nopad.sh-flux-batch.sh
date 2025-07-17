@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-chip-5250
+#FLUX: --job-name=rnnvae
+#FLUX: --queue=high
 #FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leg-7521
+#FLUX: --job-name=expressive-puppy-2049
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

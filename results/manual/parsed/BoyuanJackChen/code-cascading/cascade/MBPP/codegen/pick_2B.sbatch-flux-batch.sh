@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=2B_mbpp
+#FLUX: --queue=nvidia
 #FLUX: -t=259199
 #FLUX: --urgency=16
 

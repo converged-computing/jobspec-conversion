@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-chip-1524
+#FLUX: --job-name=MATLAB
 #FLUX: -c=72
 #FLUX: -t=82800
 #FLUX: --urgency=16

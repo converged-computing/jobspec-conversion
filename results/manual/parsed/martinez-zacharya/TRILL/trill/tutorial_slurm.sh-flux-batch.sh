@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-pancake-6314
+#FLUX: --job-name=tutorial
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

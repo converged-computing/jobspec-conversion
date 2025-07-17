@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-carrot-7377
+#FLUX: --job-name=barbun_2020_sys
+#FLUX: -n=40
+#FLUX: --queue=barbun-cuda
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

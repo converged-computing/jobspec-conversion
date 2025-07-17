@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-lizard-2863
+#FLUX: --job-name=conspicuous-buttface-6881
 #FLUX: -N=2
 #FLUX: -t=7200
 #FLUX: --urgency=16

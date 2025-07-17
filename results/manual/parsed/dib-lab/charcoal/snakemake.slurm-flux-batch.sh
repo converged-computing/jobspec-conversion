@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-hope-2779
+#FLUX: --job-name=charcoal
+#FLUX: -c=32
+#FLUX: --queue=med2
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 . ~/miniconda3/etc/profile.d/conda.sh

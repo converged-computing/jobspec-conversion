@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=calc_max
+#FLUX: -c=8
+#FLUX: --queue=UV,normal
 #FLUX: -t=2700
 #FLUX: --urgency=16
 

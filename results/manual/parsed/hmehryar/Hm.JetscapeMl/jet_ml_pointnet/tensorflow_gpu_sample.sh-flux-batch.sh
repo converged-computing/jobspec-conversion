@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=tensorflow_gpu_sample
+#FLUX: -c=16
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 echo "Converting notebook to script"

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Inat
+#FLUX: -c=40
+#FLUX: --queue=batch_72h
 #FLUX: --urgency=16
 
 PORT=$[$RANDOM + 10000]

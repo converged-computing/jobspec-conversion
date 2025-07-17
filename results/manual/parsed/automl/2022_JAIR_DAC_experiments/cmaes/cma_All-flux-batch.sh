@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-destiny-0883
+#FLUX: --job-name=cma_ALL
+#FLUX: -c=4
+#FLUX: --queue=alldlc_gpu-rtx2080
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export TF_XLA_FLAGS='--tf_xla_cpu_global_jit'

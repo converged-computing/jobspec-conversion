@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-chip-1383
+#FLUX: --job-name=phat-knife-7513
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

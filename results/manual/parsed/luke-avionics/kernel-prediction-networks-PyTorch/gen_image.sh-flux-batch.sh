@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-poo-4032
+#FLUX: --job-name=dirty-eagle-6274
+#FLUX: -n=100
 #FLUX: -c=46
 #FLUX: --exclusive
+#FLUX: -t=518400
 #FLUX: --urgency=16
 
 /bin/bash

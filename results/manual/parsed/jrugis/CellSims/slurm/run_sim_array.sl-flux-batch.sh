@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-taco-5482
+#FLUX: --job-name=Cell_Sim
 #FLUX: -t=1740
 #FLUX: --urgency=16
 

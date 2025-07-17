@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-house-9154
+#FLUX: --job-name=make_hdf5
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

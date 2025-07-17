@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-latke-7466
+#FLUX: --job-name=lovable-pedo-4492
 #FLUX: -c=10
+#FLUX: -t=12000
 #FLUX: --urgency=16
 
 $JAMG_PATH/3rd_party/evidencemodeler/EvmUtils/partition_EVM_inputs.pl --genome $GENOME_PATH --gene_predictions abinitio_gene_predictions.gff3 --transcript_alignments transcript_alignments.gff3 --protein_alignments protein_alignments.gff3 --segmentSize 50000000 --overlapSize 10000 --partition_listing partitions_list.out --repeats $GENOME_PATH.out.gff

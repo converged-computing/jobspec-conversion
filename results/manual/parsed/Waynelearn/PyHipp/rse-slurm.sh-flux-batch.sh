@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-squidward-4829
+#FLUX: --job-name=rse
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

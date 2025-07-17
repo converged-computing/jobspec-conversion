@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-bike-6440
+#FLUX: --job-name=hypertune
 #FLUX: -N=4
 #FLUX: --queue=booster
 #FLUX: -t=86399

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-diablo-5514
+#FLUX: --job-name=doopy-signal-5270
+#FLUX: -n=4
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 hostname

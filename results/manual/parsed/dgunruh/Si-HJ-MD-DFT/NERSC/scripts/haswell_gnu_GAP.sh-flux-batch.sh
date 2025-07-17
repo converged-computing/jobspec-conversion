@@ -2,6 +2,7 @@
 #FLUX: --job-name=aSiGAP
 #FLUX: -N=4
 #FLUX: -c=2
+#FLUX: -t=87120
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

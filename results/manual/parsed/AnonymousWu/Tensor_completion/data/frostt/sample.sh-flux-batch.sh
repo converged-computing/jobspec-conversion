@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-noodle-2082
+#FLUX: --job-name=ctf_frostt
+#FLUX: -N=64
+#FLUX: -n=4096
+#FLUX: --queue=normal
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export CTF_PPN='64'

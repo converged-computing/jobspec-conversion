@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-taco-6868
+#FLUX: --job-name=myjob
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 ml rocm/5.0.2                # Load a ROCm module

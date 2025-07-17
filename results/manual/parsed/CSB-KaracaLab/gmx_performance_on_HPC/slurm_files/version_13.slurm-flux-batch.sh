@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-avocado-3400
+#FLUX: --job-name=40_threads
+#FLUX: -n=40
+#FLUX: --queue=akya-cuda
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

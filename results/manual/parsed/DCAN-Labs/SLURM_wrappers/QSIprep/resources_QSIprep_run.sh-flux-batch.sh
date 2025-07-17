@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-nalgas-4702
+#FLUX: --job-name=QSIprep
+#FLUX: --queue=small,amdsmall
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd run_files.QSIprep

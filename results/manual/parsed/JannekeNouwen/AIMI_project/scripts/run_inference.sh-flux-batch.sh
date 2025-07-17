@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cinnamonbun-0506
+#FLUX: --job-name=boopy-blackbean-7197
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=1800

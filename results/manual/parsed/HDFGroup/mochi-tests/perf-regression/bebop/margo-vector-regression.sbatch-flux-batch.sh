@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lettuce-3178
+#FLUX: --job-name=bumfuzzled-carrot-3529
+#FLUX: -N=2
+#FLUX: --queue=bdwall
 #FLUX: -t=900
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lamp-0498
+#FLUX: --job-name=stinky-butter-8833
+#FLUX: --queue=hns,normal
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-nunchucks-8612
+#FLUX: --job-name=lovely-punk-7647
+#FLUX: -c=12
+#FLUX: --queue=gpu
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 source activate mlfold-test

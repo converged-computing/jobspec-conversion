@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-hippo-0781
+#FLUX: --job-name=gmx_bench
 #FLUX: -N=4
 #FLUX: -n=128
+#FLUX: --queue=skylake
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

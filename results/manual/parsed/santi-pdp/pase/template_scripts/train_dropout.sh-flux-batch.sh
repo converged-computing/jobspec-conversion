@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lamp-6953
+#FLUX: --job-name=dropout
+#FLUX: -c=8
+#FLUX: --queue=gpu
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 module load cuda

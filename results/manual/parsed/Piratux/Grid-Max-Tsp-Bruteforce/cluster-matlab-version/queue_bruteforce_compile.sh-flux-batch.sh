@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-ricecake-8974
+#FLUX: --job-name=swampy-leader-5859
+#FLUX: --queue=main
 #FLUX: --urgency=16
 
 module load openmpi

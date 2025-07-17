@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-peanut-1628
+#FLUX: --job-name=AVS-vtune
+#FLUX: --queue=qcpu_exp
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

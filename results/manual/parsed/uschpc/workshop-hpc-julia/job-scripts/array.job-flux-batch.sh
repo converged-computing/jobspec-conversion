@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-blackbean-5892
+#FLUX: --job-name=expressive-muffin-1946
 #FLUX: -c=8
 #FLUX: --queue=main
 #FLUX: -t=3600

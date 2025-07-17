@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=PlotBERBaseline
+#FLUX: --queue=normal
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 echo "Start test"

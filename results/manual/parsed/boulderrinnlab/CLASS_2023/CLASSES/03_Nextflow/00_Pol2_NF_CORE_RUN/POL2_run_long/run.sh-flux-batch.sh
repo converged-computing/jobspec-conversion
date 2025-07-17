@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=YFTF_Chipseq
+#FLUX: --queue=long
 #FLUX: -t=32400
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=codellama_llamax_finetune
+#FLUX: -c=10
 #FLUX: --queue=a100
 #FLUX: --urgency=16
 

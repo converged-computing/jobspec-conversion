@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-lizard-3804
+#FLUX: --job-name=anxious-nalgas-3249
 #FLUX: --exclusive
+#FLUX: --queue=rome
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load 2022

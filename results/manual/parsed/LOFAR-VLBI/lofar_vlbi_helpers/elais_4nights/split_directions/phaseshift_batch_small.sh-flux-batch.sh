@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=phaseshift
+#FLUX: -c=10
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 SING_BIND=$( python3 $HOME/parse_settings.py --BIND )

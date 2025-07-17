@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-truffle-5398
+#FLUX: --job-name=expensive-punk-1153
+#FLUX: -N=2
 #FLUX: -n=2
+#FLUX: --queue=normal
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 echo "Test executed on: $SLURM_JOB_NODELIST"

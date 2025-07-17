@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-mango-0372
+#FLUX: --job-name=tomotwin_lbann_integration_research
+#FLUX: -c=12
+#FLUX: --queue=cpu
 #FLUX: -t=15000
 #FLUX: --urgency=16
 

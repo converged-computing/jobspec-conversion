@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lemur-3255
+#FLUX: --job-name=phat-pot-3139
+#FLUX: --queue=gpu2
 #FLUX: -t=2700
 #FLUX: --urgency=16
 

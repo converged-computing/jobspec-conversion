@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pcba_reset
 #FLUX: -c=2
+#FLUX: --queue=ampere
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

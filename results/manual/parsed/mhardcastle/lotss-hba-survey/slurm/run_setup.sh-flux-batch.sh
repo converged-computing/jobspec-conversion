@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-pastry-7443
+#FLUX: --job-name=tart-lemon-3709
+#FLUX: -c=32
+#FLUX: --queue=normal
+#FLUX: -t=460800
 #FLUX: --urgency=16
 
 export INSTALL_DIR='/home/azimuth/software'

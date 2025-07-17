@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-knife-4418
+#FLUX: --job-name=poi_adam
+#FLUX: -n=2
 #FLUX: -c=64
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=amdrome
 #FLUX: -t=600
 #FLUX: --urgency=16
 

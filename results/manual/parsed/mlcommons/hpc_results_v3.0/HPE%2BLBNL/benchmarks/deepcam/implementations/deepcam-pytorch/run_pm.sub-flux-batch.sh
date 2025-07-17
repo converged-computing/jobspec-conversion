@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-taco-5529
+#FLUX: --job-name=deepcam-opt
 #FLUX: -c=32
+#FLUX: --queue=regular
 #FLUX: --urgency=16
 
 export MODEL_NAME='deepcam'

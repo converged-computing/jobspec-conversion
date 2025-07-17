@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-diablo-6894
+#FLUX: --job-name=PredictTemple1
 #FLUX: --queue=neuro-hsc
 #FLUX: --urgency=16
 

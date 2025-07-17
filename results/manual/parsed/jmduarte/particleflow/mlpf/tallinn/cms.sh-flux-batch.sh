@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pot-8487
+#FLUX: --job-name=butterscotch-general-7824
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 IMG=/home/software/singularity/tf26.simg:latest

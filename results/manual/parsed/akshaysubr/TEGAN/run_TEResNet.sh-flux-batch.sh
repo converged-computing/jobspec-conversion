@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=TEResNet
+#FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lemon-6594
+#FLUX: --job-name=devaps2
+#FLUX: --queue=tier3
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 echo "Loading environment"

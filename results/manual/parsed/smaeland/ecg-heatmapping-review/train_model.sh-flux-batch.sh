@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-nunchucks-3040
+#FLUX: --job-name=train-ecg
 #FLUX: -c=8
+#FLUX: --queue=dgx2q
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

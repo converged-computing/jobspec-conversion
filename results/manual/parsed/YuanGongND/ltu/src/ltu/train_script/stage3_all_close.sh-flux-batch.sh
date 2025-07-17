@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-punk-0736
+#FLUX: --job-name=alm
 #FLUX: --exclusive
 #FLUX: --queue=a6
 #FLUX: --urgency=16

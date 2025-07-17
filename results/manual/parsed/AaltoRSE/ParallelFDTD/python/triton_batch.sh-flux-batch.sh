@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-banana-0604
+#FLUX: --job-name=parallelFDTD
+#FLUX: --queue=gpu
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 mkdir -p return

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-rabbit-9197
+#FLUX: --job-name=creamy-mango-9455
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fpled/MYCODE/examples/multiscale/multiscaleStoLinDiffCircInclusionsAniso.pbs

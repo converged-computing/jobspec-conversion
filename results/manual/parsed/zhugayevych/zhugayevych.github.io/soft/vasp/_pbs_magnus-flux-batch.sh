@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-peanut-0019
+#FLUX: --job-name=eccentric-poo-2468
+#FLUX: -c=16
+#FLUX: --queue=AMG
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export SCR='/scr/$SLURM_JOB_USER/$SLURM_JOB_ID'

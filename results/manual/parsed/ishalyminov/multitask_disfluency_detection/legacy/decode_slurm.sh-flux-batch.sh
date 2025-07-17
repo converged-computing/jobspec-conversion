@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-puppy-8513
+#FLUX: --job-name=fuzzy-buttface-5794
 #FLUX: --queue=amd-longq
 #FLUX: --urgency=16
 

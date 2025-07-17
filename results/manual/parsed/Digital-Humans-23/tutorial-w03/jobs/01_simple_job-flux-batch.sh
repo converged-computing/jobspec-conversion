@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=simple_job
+#FLUX: -n=4
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-milkshake-2117
+#FLUX: --job-name=rainbow-egg-7459
 #FLUX: -N=2
 #FLUX: --queue=debug
 #FLUX: -t=3540

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lizard-4290
+#FLUX: --job-name=goodbye-car-4635
 #FLUX: --urgency=16
 
 declare -a arr=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')

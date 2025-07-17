@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-diablo-2567
+#FLUX: --job-name=carnivorous-leg-7868
+#FLUX: -n=2
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

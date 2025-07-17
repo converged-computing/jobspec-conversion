@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-parsnip-8189
+#FLUX: --job-name=hello-platanos-8317
 #FLUX: --urgency=16
 
 set -e

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-fork-6277
+#FLUX: --job-name=analysis
+#FLUX: -c=12
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 source ~/.bashrc

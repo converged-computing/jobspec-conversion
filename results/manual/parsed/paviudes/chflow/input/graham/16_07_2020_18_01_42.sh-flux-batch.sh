@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-bicycle-6862
+#FLUX: --job-name=expressive-egg-3426
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

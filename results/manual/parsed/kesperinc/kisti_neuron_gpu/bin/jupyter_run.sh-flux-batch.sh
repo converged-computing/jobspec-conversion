@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-parrot-2574
+#FLUX: --job-name=chocolate-carrot-3283
 #FLUX: -c=4
 #FLUX: --queue=amd_a100nv_8
 #FLUX: -t=43200

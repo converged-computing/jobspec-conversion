@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-parrot-9142
+#FLUX: --job-name=arid-earthworm-8999
 #FLUX: -N=72
 #FLUX: -n=6912
 #FLUX: --queue=standard96

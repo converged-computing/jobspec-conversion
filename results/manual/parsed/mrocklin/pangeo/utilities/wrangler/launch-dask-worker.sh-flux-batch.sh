@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-underoos-1408
+#FLUX: --job-name=dask-worker
+#FLUX: -n=6
+#FLUX: --queue=normal
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module purge

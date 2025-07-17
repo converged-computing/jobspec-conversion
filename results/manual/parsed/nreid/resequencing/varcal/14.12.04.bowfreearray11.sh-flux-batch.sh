@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-citrus-9699
+#FLUX: --job-name=array_job
 #FLUX: -c=2
+#FLUX: --queue=hi
 #FLUX: --urgency=16
 
 module load freebayes/0.9.14-15-gc6f49c0

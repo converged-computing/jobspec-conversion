@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-train-1515
+#FLUX: --job-name=m65_wikipedia
+#FLUX: -N=65
+#FLUX: --queue=regular
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'

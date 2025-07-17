@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lamp-6199
+#FLUX: --job-name=cowy-punk-4338
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

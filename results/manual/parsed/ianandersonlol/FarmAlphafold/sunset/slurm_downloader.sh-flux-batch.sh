@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-spoon-9872
+#FLUX: --job-name=alphafoldDownloadMove
 #FLUX: --queue=bmh
+#FLUX: -t=540000
 #FLUX: --urgency=16
 
 module load spack/aria2

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-snack-8677
+#FLUX: --job-name=tut_povray
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 ml GCC/10.2.0

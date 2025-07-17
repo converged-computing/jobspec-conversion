@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pedo-8415
+#FLUX: --job-name=grated-latke-1872
+#FLUX: -c=10
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

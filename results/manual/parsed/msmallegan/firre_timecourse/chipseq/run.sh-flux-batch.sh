@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=firre_chip
+#FLUX: --queue=short
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

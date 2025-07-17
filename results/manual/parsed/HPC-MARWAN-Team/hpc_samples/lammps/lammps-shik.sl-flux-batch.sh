@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lemon-8109
+#FLUX: --job-name=shik_lammps
 #FLUX: -n=10
 #FLUX: --queue=shortq
 #FLUX: --urgency=16

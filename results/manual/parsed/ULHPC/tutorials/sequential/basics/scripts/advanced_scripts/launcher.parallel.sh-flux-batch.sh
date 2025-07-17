@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bits-3532
+#FLUX: --job-name=GnuParallel
 #FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16

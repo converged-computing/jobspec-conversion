@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-animal-1026
+#FLUX: --job-name=H2O
+#FLUX: -n=12
+#FLUX: --queue=parallel-12
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 lmp=/home/noura/LAMMPS/tests/src_v05

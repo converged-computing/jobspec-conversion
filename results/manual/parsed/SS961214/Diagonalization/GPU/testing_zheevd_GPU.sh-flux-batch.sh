@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-blackbean-9236
+#FLUX: --job-name=expensive-blackbean-1761
+#FLUX: --queue=prawnew
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

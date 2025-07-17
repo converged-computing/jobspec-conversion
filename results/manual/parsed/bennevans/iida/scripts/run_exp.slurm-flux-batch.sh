@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=run_exp
+#FLUX: -c=8
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-onion-5329
+#FLUX: --job-name=placid-nunchucks-9705
+#FLUX: -N=32
 #FLUX: --urgency=16
 
 srun /opt/ucs/demo/workloads/AMG 9

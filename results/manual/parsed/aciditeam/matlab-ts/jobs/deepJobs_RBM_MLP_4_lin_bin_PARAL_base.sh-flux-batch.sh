@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-plant-0498
+#FLUX: --job-name=Deep-RBM_MLP_4_lin_bin_PARAL_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

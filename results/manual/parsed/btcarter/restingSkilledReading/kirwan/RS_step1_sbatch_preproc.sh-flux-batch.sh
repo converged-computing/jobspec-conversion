@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-blackbean-3286
+#FLUX: --job-name=RS1
 #FLUX: -n=6
 #FLUX: -t=72000
 #FLUX: --urgency=16

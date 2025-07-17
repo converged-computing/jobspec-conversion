@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-gato-2314
+#FLUX: --job-name=stinky-nalgas-6658
+#FLUX: -c=2
+#FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 
 source activate dac

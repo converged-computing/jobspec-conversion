@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-destiny-9900
+#FLUX: --job-name=swampy-earthworm-8826
+#FLUX: --queue=small-g
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export ROCM_GPU='`rocminfo |grep -m 1 -E gfx[^0]{1} | sed -e 's/ *Name: *\(gfx[0-9,a-f]*\) *$/\1/'` '

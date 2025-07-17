@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-itch-4230
+#FLUX: --job-name=placid-gato-0846
 #FLUX: -c=4
 #FLUX: --gpus-per-task=4
 #FLUX: --exclusive

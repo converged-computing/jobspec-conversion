@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-general-0250
+#FLUX: --job-name=pusheena-signal-0271
 #FLUX: -n=3
 #FLUX: -t=259200
 #FLUX: --urgency=16

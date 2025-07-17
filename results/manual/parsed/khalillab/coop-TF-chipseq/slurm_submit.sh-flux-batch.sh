@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-buttface-8065
+#FLUX: --job-name=khalil-chipseq
+#FLUX: -c=8
+#FLUX: --queue=priority
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 snakemake -p \

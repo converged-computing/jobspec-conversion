@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-motorcycle-2298
+#FLUX: --job-name=cowy-butter-4006
+#FLUX: --queue=shared
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 BATCH_NUM=$SLURM_ARRAY_TASK_ID

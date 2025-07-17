@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-bits-6544
+#FLUX: --job-name=test_PMCMC_SEIR
 #FLUX: --exclusive
+#FLUX: --queue=nodes
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module load apps/anaconda3/5.2.0

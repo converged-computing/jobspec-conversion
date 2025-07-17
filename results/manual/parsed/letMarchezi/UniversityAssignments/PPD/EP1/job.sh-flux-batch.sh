@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-signal-5674
+#FLUX: --job-name=mmul
 #FLUX: -c=40
+#FLUX: --queue=fast
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 echo "*** SEQUENTIAL ***"

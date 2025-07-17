@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-fork-9510
+#FLUX: --job-name=stanky-chip-8212
 #FLUX: -c=8
 #FLUX: -t=170
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-peas-1811
+#FLUX: --job-name=reclusive-punk-7847
 #FLUX: -c=3
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16

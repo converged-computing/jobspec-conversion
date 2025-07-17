@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-eagle-2867
+#FLUX: --job-name=DARTS_grid
+#FLUX: --queue=1080Ti
 #FLUX: --urgency=16
 
 source activate pytorch-0.3.1-cu8-py36

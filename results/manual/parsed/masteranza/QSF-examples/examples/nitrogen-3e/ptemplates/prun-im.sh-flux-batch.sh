@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-diablo-5719
+#FLUX: --job-name=N3e-im-COMPRESSED
+#FLUX: --queue=plgrid
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

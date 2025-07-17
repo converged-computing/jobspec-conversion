@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-earthworm-4902
+#FLUX: --job-name=molecular_dynamics
 #FLUX: --exclusive
+#FLUX: --queue=sequana_dockvs
 #FLUX: --urgency=16
 
 echo $SLURM_JOB_NODELIST

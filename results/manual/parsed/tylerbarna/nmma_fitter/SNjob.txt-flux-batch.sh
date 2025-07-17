@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-despacito-6394
+#FLUX: --job-name=blank-staircase-2979
 #FLUX: -c=2
 #FLUX: -t=28799
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-house-1659
+#FLUX: --job-name=cowy-peanut-2949
+#FLUX: --queue=fpgasyn
 #FLUX: --urgency=16
 
 module load intelFPGA_pro/20.3.0

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-plant-0015
+#FLUX: --job-name=preprocessing
+#FLUX: -c=48
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 source ~/.zshrc

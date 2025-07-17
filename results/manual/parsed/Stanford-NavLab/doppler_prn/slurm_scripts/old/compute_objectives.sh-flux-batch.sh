@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=compute_objectives
+#FLUX: -c=32
 #FLUX: --queue=normal
 #FLUX: -t=21600
 #FLUX: --urgency=16

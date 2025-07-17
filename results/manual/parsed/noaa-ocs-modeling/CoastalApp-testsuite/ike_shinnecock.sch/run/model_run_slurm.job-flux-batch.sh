@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-diablo-1238
+#FLUX: --job-name=IKSH_sch_RUN
+#FLUX: -n=4
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

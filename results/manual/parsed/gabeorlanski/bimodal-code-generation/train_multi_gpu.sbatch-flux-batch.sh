@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-milkshake-6354
+#FLUX: --job-name=red-blackbean-3592
+#FLUX: -c=32
 #FLUX: --urgency=16
 
 singularity exec --nv --overlay $SCRATCH/overlay-50G-10M.ext3:ro /scratch/work/public/singularity/cuda11.3.0-cudnn8-devel-ubuntu20.04.sif /bin/bash -c "

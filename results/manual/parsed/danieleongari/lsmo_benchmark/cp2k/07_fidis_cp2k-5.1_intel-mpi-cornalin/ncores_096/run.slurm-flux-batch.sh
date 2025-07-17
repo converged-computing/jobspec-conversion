@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-punk-2060
+#FLUX: --job-name=chunky-frito-3405
 #FLUX: -N=4
 #FLUX: -n=96
 #FLUX: --queue=parallel

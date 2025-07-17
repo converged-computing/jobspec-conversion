@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-fork-6788
+#FLUX: --job-name=misunderstood-despacito-3514
 #FLUX: -c=4
 #FLUX: --queue=bii
 #FLUX: -t=14400

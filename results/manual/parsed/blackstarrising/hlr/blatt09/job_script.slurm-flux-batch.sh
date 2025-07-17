@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-staircase-1249
+#FLUX: --job-name=anxious-underoos-2386
 #FLUX: -N=4
 #FLUX: -n=5
 #FLUX: --queue=west

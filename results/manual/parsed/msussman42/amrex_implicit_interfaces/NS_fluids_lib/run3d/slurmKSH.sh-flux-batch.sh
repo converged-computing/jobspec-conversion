@@ -1,7 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=1_150
+#FLUX: -n=64
 #FLUX: --exclusive
 #FLUX: --queue=engineering_q
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 pwd;hostname;date

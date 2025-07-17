@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-fudge-5117
+#FLUX: --job-name=outstanding-lentil-6121
+#FLUX: --queue=slurm_sbel_cmg
+#FLUX: -t=345660
 #FLUX: --urgency=16
 
 module load usermods

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-despacito-5486
+#FLUX: --job-name=lysozyme_test
 #FLUX: -c=4
 #FLUX: -t=14400
 #FLUX: --urgency=16

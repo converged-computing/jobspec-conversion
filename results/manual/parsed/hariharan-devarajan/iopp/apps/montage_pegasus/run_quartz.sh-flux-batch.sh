@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=montage-pegasus
+#FLUX: --queue=pdebug
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 CPWD=$PWD

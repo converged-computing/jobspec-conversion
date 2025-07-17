@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-platanos-1895
+#FLUX: --job-name=changeme_7cd58d36_descriptive_title
+#FLUX: --queue=ampere
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

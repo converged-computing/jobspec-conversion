@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-kitty-6433
+#FLUX: --job-name=crusty-peas-3081
 #FLUX: --queue=cron
 #FLUX: -t=18000
 #FLUX: --urgency=16

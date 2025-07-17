@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lamp-0922
+#FLUX: --job-name=loopy-banana-7676
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

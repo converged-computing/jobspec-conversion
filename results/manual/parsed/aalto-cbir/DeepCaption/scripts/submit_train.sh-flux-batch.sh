@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-parsnip-6401
+#FLUX: --job-name=placid-itch-9759
+#FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=180
 #FLUX: --urgency=16

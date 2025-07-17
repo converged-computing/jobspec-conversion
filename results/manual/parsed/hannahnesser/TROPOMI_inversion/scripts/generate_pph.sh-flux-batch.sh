@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-kitty-9867
+#FLUX: --job-name=save_pph
+#FLUX: -c=10
+#FLUX: --queue=huce_cascade
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 CHUNK="${SLURM_ARRAY_TASK_ID}"

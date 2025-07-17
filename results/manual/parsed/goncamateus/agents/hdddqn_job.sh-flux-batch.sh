@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=hddqn_agent
+#FLUX: -c=32
 #FLUX: --urgency=16
 
 module use /opt/easybuild/modules/all/

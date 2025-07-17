@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-house-2913
+#FLUX: --job-name=MyMPIJob
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

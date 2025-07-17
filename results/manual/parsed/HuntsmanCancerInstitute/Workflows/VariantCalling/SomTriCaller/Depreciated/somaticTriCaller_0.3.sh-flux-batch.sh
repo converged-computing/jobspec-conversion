@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-omelette-5198
+#FLUX: --job-name=fuzzy-hope-6827
 #FLUX: --queue=hci-kp
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 set -e; start=$(date +'%s')

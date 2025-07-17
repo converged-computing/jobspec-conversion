@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-lentil-2947
+#FLUX: --job-name=ma2_train_mlp
+#FLUX: --queue=gpu
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

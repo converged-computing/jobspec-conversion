@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ezCGP_simgan
+#FLUX: -c=8
+#FLUX: -t=432480
 #FLUX: --urgency=16
 
 echo "Started on `/bin/hostname`" # prints name of compute node job was started on

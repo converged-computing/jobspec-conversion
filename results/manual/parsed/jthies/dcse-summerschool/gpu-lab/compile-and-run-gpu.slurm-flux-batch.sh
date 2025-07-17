@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-peanut-6585
+#FLUX: --job-name=confused-squidward-0183
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load 2022r2

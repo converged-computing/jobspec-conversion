@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-noodle-2833
+#FLUX: --job-name=trimers_10ns
 #FLUX: -c=5
+#FLUX: --queue=nodes
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

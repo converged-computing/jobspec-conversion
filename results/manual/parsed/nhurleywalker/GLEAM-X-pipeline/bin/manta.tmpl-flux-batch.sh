@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-salad-6348
+#FLUX: --job-name=wobbly-cat-4579
+#FLUX: --queue=copyq
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

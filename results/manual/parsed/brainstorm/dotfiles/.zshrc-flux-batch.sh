@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-animal-9083
+#FLUX: --job-name=True
+#FLUX: --queue=defq
 #FLUX: -t=864000
 #FLUX: --urgency=16
 

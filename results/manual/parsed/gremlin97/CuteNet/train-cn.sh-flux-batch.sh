@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-itch-0169
+#FLUX: --job-name=expressive-carrot-9059
+#FLUX: --queue=wildfire
+#FLUX: -t=660
 #FLUX: --urgency=16
 
 ...

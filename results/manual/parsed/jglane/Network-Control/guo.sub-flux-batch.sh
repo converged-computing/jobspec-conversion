@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-squidward-8987
+#FLUX: --job-name=angry-cat-6099
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-lizard-1876
+#FLUX: --job-name=phyluce_trinity_ab
+#FLUX: -n=16
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 source activate phyluce

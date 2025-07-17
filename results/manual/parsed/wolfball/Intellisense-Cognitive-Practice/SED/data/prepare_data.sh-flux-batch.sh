@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chip-7355
+#FLUX: --job-name=milky-staircase-4484
+#FLUX: --queue=64c512g
 #FLUX: --urgency=16
 
 if [ ! $# -eq 1 ]; then

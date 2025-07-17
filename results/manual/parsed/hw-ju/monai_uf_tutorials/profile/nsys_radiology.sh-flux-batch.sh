@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-snack-0945
+#FLUX: --job-name=bloated-cat-5121
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=3600

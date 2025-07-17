@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=finetune_reg_custom
 #FLUX: -c=2
+#FLUX: -t=87120
 #FLUX: --urgency=16
 
 source ~/.bashrc

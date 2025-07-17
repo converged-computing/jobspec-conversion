@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-avocado-5725
+#FLUX: --job-name=dppc-p1
+#FLUX: -n=32
 #FLUX: --exclusive
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module use /apps/eb/modulefiles/all

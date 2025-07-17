@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-staircase-6035
+#FLUX: --job-name=hanky-milkshake-4324
+#FLUX: -c=2
+#FLUX: --queue=priority
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load gcc

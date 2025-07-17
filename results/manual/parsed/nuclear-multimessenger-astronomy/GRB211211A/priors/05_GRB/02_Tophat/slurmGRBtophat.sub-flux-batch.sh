@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nmmaGRBtophat.job
+#FLUX: --queue=shared
 #FLUX: -t=57600
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-pancake-3481
+#FLUX: --job-name=sroll4
 #FLUX: -N=6
 #FLUX: -n=144
 #FLUX: -t=600

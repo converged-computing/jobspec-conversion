@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pot-3256
+#FLUX: --job-name=Polyp
 #FLUX: --urgency=16
 
 echo "Submitted from:"$SLURM_SUBMIT_DIR" on node:"$SLURM_SUBMIT_HOST

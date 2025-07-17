@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-pot-9886
+#FLUX: --job-name=scruptious-bits-7315
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd ~/measles/code/

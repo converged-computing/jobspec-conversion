@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-plant-7904
+#FLUX: --job-name=job_name
+#FLUX: -N=4
 #FLUX: --urgency=16
 
 source /home/s.fiscale/anaconda3/etc/profile.d/conda.sh

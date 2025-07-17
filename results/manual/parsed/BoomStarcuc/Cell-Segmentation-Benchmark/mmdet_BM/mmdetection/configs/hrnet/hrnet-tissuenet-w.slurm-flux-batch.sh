@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-leader-3095
+#FLUX: --job-name=hrnet-tissuenet-w-1C
+#FLUX: --queue=tier3
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

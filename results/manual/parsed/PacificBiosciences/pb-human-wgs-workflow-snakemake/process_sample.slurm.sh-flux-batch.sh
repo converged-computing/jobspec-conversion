@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bicycle-6008
+#FLUX: --job-name=expensive-spoon-2861
 #FLUX: -c=4
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 SAMPLE=$1

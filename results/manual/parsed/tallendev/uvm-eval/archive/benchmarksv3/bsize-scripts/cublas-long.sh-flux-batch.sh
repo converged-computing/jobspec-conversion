@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-citrus-9232
+#FLUX: --job-name=cublas-long-faults-quant
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=1

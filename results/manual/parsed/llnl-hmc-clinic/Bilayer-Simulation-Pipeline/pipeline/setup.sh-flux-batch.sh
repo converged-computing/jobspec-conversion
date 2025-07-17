@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-fudge-5097
+#FLUX: --job-name=HM_init
+#FLUX: --queue=pbatch
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 source ~/.bashrc

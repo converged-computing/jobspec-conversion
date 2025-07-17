@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pedo-4610
+#FLUX: --job-name=carnivorous-cat-0903
+#FLUX: --queue=nvidia
 #FLUX: -t=144000
 #FLUX: --urgency=16
 

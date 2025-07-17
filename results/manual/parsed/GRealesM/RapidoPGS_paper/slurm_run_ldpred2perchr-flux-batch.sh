@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-dog-6552
+#FLUX: --job-name=LDpred2pc
 #FLUX: -n=15
+#FLUX: --queue=skylake-himem
 #FLUX: -t=32400
 #FLUX: --urgency=16
 

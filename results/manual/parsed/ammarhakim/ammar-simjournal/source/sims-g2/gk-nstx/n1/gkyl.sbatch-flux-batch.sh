@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-kitty-2102
+#FLUX: --job-name=gkyl
+#FLUX: -N=9
+#FLUX: -n=144
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load intel

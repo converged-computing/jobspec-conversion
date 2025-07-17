@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-frito-9932
+#FLUX: --job-name=resnet101
 #FLUX: -c=5
 #FLUX: -t=518400
 #FLUX: --urgency=16

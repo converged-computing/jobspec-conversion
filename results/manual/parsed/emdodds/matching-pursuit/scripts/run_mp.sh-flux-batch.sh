@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-arm-7528
+#FLUX: --job-name=adorable-carrot-4606
 #FLUX: --queue=cortex
 #FLUX: -t=172800
 #FLUX: --urgency=16

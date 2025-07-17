@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=analogy-eval
+#FLUX: -c=4
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

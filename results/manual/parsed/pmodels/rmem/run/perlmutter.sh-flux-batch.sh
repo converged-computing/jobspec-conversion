@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-parrot-8230
+#FLUX: --job-name=grated-parrot-7813
 #FLUX: -N=2
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1

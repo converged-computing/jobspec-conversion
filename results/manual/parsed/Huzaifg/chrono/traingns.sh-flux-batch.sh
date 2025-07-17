@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-squidward-5003
+#FLUX: --job-name=pusheena-blackbean-6430
+#FLUX: --queue=gpu-a100
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bicycle-0779
+#FLUX: --job-name=c3d
+#FLUX: --queue=high
 #FLUX: --urgency=16
 
 export PATH='$HOME/project/anaconda3/bin:$PATH'

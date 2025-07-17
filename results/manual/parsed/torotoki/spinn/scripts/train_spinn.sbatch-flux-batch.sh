@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bits-8810
+#FLUX: --job-name=hello-eagle-9822
 #FLUX: --queue=mhealth,...
 #FLUX: --urgency=16
 

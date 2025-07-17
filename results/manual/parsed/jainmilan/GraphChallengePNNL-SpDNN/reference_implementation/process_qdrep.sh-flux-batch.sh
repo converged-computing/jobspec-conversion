@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-punk-0906
+#FLUX: --job-name=process_qdrep
+#FLUX: --queue=slurm
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load cuda/11.4

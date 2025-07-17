@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-earthworm-7795
+#FLUX: --job-name=ornery-lemur-9325
 #FLUX: --queue=bii-gpu
 #FLUX: -t=129600
 #FLUX: --urgency=16

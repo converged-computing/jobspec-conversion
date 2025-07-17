@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-banana-7883
+#FLUX: --job-name=strawberry-signal-6456
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

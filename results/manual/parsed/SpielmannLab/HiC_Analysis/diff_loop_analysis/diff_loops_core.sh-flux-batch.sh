@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-peanut-butter-0099
+#FLUX: --job-name=diff_loops
 #FLUX: --queue=shortterm
 #FLUX: --urgency=16
 

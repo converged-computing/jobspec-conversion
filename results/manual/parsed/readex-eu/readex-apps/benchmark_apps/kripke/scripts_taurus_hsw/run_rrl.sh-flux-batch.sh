@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-underoos-2808
+#FLUX: --job-name=quirky-buttface-0242
 #FLUX: --exclusive
+#FLUX: --queue=haswell
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

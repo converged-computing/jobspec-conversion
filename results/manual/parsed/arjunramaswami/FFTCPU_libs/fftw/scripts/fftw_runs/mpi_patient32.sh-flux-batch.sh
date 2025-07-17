@@ -3,6 +3,7 @@
 #FLUX: -N=8
 #FLUX: -n=32
 #FLUX: --queue=long
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module reset

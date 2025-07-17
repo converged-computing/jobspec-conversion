@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-staircase-0071
+#FLUX: --job-name=Kernel
+#FLUX: -N=4
+#FLUX: -n=32
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export user='$(whoami)'

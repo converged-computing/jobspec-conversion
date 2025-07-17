@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-egg-1761
+#FLUX: --job-name=gMshNoSoot
+#FLUX: -N=8
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PETSC_DIR='/usr/workspace/mcgurn4/petsc'

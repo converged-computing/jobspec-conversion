@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-truffle-9023
+#FLUX: --job-name=21-step
+#FLUX: --queue=skx-dev
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='48'

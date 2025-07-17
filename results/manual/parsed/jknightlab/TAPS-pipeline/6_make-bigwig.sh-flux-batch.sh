@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-gato-0653
+#FLUX: --job-name=bigwig
+#FLUX: -c=4
+#FLUX: --queue=long
 #FLUX: --urgency=16
 
 input_dir=$PWD

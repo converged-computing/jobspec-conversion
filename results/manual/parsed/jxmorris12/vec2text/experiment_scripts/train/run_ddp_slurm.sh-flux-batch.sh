@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-knife-6109
+#FLUX: --job-name=loopy-destiny-7686
 #FLUX: -c=16
 #FLUX: --queue=rush,gpu
 #FLUX: -t=2419200

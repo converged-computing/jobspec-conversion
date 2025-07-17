@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-salad-5888
+#FLUX: --job-name=mpi_check-nomultithread
+#FLUX: -n=4
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module purge

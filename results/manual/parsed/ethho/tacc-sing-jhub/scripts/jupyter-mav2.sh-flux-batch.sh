@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-itch-9875
+#FLUX: --job-name=tvp_jupyter_sing
 #FLUX: --urgency=16
 
 echo "TACC: unloading xalt"

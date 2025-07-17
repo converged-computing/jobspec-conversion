@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=da-cst-im-roi_cs6-HP-WIDER
+#FLUX: --queue=1080ti-long
 #FLUX: --urgency=16
 
 python tools/train_net_step.py \

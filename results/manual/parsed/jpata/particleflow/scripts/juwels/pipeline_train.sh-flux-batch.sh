@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-car-0056
+#FLUX: --job-name=pipetrain
 #FLUX: --queue=booster
 #FLUX: -t=86399
 #FLUX: --urgency=16

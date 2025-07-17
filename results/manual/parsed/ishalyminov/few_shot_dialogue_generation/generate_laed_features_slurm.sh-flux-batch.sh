@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-mango-0703
+#FLUX: --job-name=bumfuzzled-lamp-8891
 #FLUX: --queue=amd-longq
 #FLUX: --urgency=16
 

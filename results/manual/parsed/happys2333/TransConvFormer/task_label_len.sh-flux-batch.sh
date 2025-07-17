@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-knife-5087
+#FLUX: --job-name=pytorch_transConv
 #FLUX: --queue=gpulab02
 #FLUX: --urgency=16
 

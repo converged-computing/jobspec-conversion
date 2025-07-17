@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-itch-1166
+#FLUX: --job-name=peachy-nalgas-7450
 #FLUX: -c=24
 #FLUX: --exclusive
 #FLUX: --queue=n1c24m128-v100-4

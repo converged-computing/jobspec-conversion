@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-fork-4846
+#FLUX: --job-name=0318
+#FLUX: -n=8
+#FLUX: --queue=bme_gpu
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 source ~/.bashrc

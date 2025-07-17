@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-car-1739
+#FLUX: --job-name=dino_neps_hpo
+#FLUX: --queue=alldlc_gpu-rtx2080
+#FLUX: -t=86399
 #FLUX: --urgency=16
 
 source /home/ferreira/.profile

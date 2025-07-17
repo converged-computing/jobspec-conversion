@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-motorcycle-5747
+#FLUX: --job-name=astute-motorcycle-1737
+#FLUX: --queue=wacc
 #FLUX: --urgency=16
 
 rm md5_gpu

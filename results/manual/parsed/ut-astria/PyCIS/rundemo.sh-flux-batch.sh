@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bike-3519
+#FLUX: --job-name=pycis.job
+#FLUX: --queue=skx-normal
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='48'
@@ -9,15 +10,15 @@ COPYLOC="$CWD/data"
 OUTLOC="$CWD/results"
 TDMLOC="$CWD/TDM"
 if [ ! -d "$COPYLOC" ]; then
-    echo "ERROR: PLEASE DOWNLOAD DEMO DATA INTO THE DATA FOLDER"
-    echo "aborting..."
-    return 0
+echo "ERROR: PLEASE DOWNLOAD DEMO DATA INTO THE DATA FOLDER"
+echo "aborting..."
+return 0
 fi
 if [ ! -d "$OUTLOC" ]; then
-    mkdir $OUTLOC
+mkdir $OUTLOC
 fi
 if [ ! -d "$TDMLOC" ]; then
-    mkdir $TDMLOC
+mkdir $TDMLOC
 fi
 timer=60 #runtime in minutes
 sleeper=2 #sleep time in minutes (to close scripts)
@@ -31,7 +32,6 @@ echo "resetting paths"
 . setup.sh
 fi
 source env/bin/activate
-export OMP_NUM_THREADS=48
 python3 -q -X faulthandler demo.py
 python3 -q -X faulthandler runpycis.py -i $COPYLOC -s $FOLDER -o $OUTLOC/$FOLDER -t $TDMLOC
 deactivate
@@ -49,7 +49,6 @@ module load gcc/9.1
 module load cmake/3.10.2
 module load python3/3.8.2
 source env/bin/activate
-export OMP_NUM_THREADS=48
 python3 -q -X faulthandler runpycis.py -i $COPYLOC -s $FOLDER -o $OUTLOC/$FOLDER -t $TDMLOC
 deactivate
 EOF

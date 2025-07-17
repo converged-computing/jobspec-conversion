@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-blackbean-7750
+#FLUX: --job-name=fat-lamp-4620
 #FLUX: -c=6
 #FLUX: --queue=wjg,biochem,sfgf
 #FLUX: -t=3600

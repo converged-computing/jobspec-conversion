@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-squidward-7173
+#FLUX: --job-name=kfac-test
 #FLUX: --urgency=16
 
 export MASTER_ADDR='$(/usr/sbin/ip a show | grep inet | grep 192.168.205 | head -1 | cut -d " " -f 6 | cut -d "/" -f 1)'

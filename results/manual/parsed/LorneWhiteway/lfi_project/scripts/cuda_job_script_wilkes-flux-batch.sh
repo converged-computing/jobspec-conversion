@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-puppy-9106
+#FLUX: --job-name=pkdgrav3
+#FLUX: --queue=ampere
 #FLUX: -t=129540
 #FLUX: --urgency=16
 

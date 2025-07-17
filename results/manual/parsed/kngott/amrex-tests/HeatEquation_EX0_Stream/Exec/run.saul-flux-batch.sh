@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-pancake-3305
+#FLUX: --job-name=FBtest
+#FLUX: -N=2
+#FLUX: -c=32
+#FLUX: --queue=regular
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export CRAY_ACCEL_TARGET='nvidia80'

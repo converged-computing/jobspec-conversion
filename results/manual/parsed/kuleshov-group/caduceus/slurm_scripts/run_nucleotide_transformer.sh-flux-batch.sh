@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-peanut-1016
+#FLUX: --job-name=angry-plant-8197
 #FLUX: -c=4
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 export HYDRA_FULL_ERROR='1'

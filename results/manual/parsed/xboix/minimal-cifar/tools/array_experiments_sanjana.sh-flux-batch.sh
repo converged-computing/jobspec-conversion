@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=minimal
+#FLUX: -n=2
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 cd /om/user/sanjanas/minimal-cifar/

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=P-Tuning-v2-copa-gpt2
+#FLUX: -c=4
 #FLUX: --queue=n1s8-v100-1
 #FLUX: -t=14400
 #FLUX: --urgency=16

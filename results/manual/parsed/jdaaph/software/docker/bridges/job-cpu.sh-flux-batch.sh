@@ -4,6 +4,7 @@
 #FLUX: -n=2
 #FLUX: -c=28
 #FLUX: --queue=RM-small
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh

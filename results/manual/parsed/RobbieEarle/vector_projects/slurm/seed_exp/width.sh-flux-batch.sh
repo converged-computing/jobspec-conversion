@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=width_2
+#FLUX: -c=3
 #FLUX: --queue=p100,t4v1,t4v2
 #FLUX: --urgency=16
 

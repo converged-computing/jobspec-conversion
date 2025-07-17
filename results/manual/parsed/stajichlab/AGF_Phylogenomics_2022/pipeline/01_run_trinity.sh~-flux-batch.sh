@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-animal-3521
+#FLUX: --job-name=hello-destiny-7412
+#FLUX: -n=32
+#FLUX: --queue=intel
 #FLUX: --urgency=16
 
 module load trinity-rnaseq/2.13.2

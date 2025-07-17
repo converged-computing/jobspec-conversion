@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-diablo-9378
+#FLUX: --job-name=moolicious-sundae-7307
 #FLUX: -c=256
 #FLUX: --queue=cpu
 #FLUX: -t=9000

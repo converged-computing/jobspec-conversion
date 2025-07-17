@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lentil-2074
+#FLUX: --job-name=fuzzy-general-7446
+#FLUX: --queue=compute
+#FLUX: -t=87300
 #FLUX: --urgency=16
 
 export G='https://raw.githubusercontent.com/TheJacksonLaboratory/mousegwas'

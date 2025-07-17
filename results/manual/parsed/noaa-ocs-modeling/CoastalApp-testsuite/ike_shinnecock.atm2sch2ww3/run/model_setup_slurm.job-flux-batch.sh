@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-poodle-9836
+#FLUX: --job-name=IKSH_atm2sch2ww3_SETUP
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 set -e

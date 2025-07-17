@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-lizard-0530
+#FLUX: --job-name=adorable-citrus-8758
 #FLUX: -c=7
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module load cudatoolkit/10.0

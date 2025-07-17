@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lamp-5827
+#FLUX: --job-name=frigid-earthworm-9147
 #FLUX: -t=240
 #FLUX: --urgency=16
 

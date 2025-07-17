@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-kitty-7386
+#FLUX: --job-name=ImageNet.Keras
 #FLUX: --urgency=16
 
 train_batch=128

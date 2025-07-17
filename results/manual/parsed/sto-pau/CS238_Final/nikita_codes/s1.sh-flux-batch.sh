@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-fudge-1441
+#FLUX: --job-name=s1
+#FLUX: -N=4
+#FLUX: --queue=normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module purge

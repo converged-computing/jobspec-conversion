@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lemon-4893
+#FLUX: --job-name=blank-peanut-1535
 #FLUX: --urgency=16
 
 DIR=$(pwd)

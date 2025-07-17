@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-arm-2383
+#FLUX: --job-name=adorable-kerfuffle-0267
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

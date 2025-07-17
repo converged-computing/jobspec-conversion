@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=salted-hobbit-7528
+#FLUX: --job-name=RESIF-Prod-CPU-broadwell
+#FLUX: -c=7
 #FLUX: --queue=batch
 #FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX: --urgency=100
 
 mkdir -p logs
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-punk-2361
+#FLUX: --job-name=sfincsOpt
 #FLUX: -N=18
 #FLUX: -n=720
 #FLUX: -t=86400

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-signal-7253
+#FLUX: --job-name=rnnvae
+#FLUX: --queue=high
 #FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh

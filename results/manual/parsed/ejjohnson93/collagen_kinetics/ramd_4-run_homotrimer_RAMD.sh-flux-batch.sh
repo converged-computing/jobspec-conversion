@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fat-taco-4057
+#FLUX: --job-name=RAMD
+#FLUX: -N=8
 #FLUX: -c=5
+#FLUX: --queue=nodes
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

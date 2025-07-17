@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cupcake-5670
+#FLUX: --job-name=PELE_MPI
 #FLUX: -n=10
 #FLUX: --urgency=16
 

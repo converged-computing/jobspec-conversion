@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-parsnip-9704
+#FLUX: --job-name=tealeaf-faults-pf
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export IGNORE_CC_MISMATCH='1'

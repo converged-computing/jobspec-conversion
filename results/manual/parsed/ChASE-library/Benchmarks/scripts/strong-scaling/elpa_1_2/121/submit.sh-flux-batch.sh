@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-signal-5515
+#FLUX: --job-name=fat-pastry-7077
 #FLUX: -N=121
 #FLUX: -n=484
 #FLUX: --queue=develbooster

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-caramel-0951
+#FLUX: --job-name=salted-rabbit-5229
+#FLUX: --queue=course
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 module load compilers/intel/2019u5 

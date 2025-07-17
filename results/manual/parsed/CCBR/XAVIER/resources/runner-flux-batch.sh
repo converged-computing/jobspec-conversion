@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-fudge-4241
+#FLUX: --job-name=$2
 #FLUX: -c=32
 #FLUX: -t=432000
 #FLUX: --urgency=16

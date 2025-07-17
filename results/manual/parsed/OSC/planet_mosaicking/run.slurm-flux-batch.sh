@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hope-0402
+#FLUX: --job-name=planetpy
 #FLUX: --exclusive
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PATH='/users/PZS0530/skhuvis/opt/mambaforge/22.9.0-2/bin:$PATH #mamba'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-avocado-0040
+#FLUX: --job-name=dino_neps_hpo
+#FLUX: --queue=mldlc_gpu-rtx2080
+#FLUX: -t=518399
 #FLUX: --urgency=16
 
 source /home/ferreira/.profile

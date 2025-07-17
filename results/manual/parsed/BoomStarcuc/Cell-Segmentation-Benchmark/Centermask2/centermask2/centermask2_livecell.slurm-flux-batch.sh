@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-arm-7079
+#FLUX: --job-name=centermask2_livecell_train
+#FLUX: --queue=tier3
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

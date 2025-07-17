@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lemon-9647
+#FLUX: --job-name=preprocessing
 #FLUX: -c=16
 #FLUX: -t=86400
 #FLUX: --urgency=16

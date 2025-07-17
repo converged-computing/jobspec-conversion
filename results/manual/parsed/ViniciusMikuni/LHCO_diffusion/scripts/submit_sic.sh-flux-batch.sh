@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-eagle-2382
+#FLUX: --job-name=red-lizard-0635
+#FLUX: -n=16
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load tensorflow

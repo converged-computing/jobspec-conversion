@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-spoon-0344
+#FLUX: --job-name=sushi_100
+#FLUX: -c=24
 #FLUX: --exclusive
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load intel python/3.6.8

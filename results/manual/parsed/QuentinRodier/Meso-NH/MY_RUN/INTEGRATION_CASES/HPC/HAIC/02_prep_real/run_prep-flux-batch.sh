@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-taco-2706
+#FLUX: --job-name=HAICprep
+#FLUX: -n=16
+#FLUX: --queue=normal256
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 16'

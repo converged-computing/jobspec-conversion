@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-milkshake-3151
+#FLUX: --job-name=petscinstalljob
+#FLUX: --queue=small
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module list

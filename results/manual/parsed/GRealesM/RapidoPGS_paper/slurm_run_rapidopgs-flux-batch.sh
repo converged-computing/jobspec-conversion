@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-nunchucks-7087
+#FLUX: --job-name=rPGS
 #FLUX: -n=15
+#FLUX: --queue=skylake-himem
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

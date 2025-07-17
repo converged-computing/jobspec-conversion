@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=placid-banana-3396
+#FLUX: --job-name=conspicuous-punk-2367
+#FLUX: -N=2
+#FLUX: -n=96
 #FLUX: --exclusive
+#FLUX: --queue=seas_compute
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMPI_MCL_btl='openib'

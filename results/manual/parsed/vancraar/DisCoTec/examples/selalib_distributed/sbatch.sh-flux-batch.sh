@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-buttface-7610
+#FLUX: --job-name=bsl_highres_combi
 #FLUX: -n=9
 #FLUX: -t=259200
 #FLUX: --urgency=16

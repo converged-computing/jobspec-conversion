@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-malarkey-5048
+#FLUX: --job-name=Plumed
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/mandrade/lammps/lib/plumed/plumed2/lib'

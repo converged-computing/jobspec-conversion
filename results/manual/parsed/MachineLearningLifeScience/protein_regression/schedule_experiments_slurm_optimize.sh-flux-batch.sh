@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=OptimizePR_BENCH
 #FLUX: -c=4
+#FLUX: --queue=boomsma
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

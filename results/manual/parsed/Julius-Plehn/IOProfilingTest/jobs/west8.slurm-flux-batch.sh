@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-bits-2035
+#FLUX: --job-name=arid-kerfuffle-8394
 #FLUX: -N=8
 #FLUX: -n=8
 #FLUX: --queue=west

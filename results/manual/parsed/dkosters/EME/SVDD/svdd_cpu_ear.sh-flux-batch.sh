@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-general-7036
+#FLUX: --job-name=outstanding-hippo-6120
+#FLUX: --queue=normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES=''

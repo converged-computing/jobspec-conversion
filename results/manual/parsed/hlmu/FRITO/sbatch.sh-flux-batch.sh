@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cat-4638
+#FLUX: --job-name=passt
+#FLUX: --queue=compute
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 pwd; hostname;

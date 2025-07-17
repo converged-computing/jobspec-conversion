@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-squidward-6416
+#FLUX: --job-name=hairy-pancake-3400
+#FLUX: -c=16
+#FLUX: --queue=AMG
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export GAUSS_MEMDEF='$((MemBytes*95/8/100))'

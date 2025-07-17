@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=DeepRBPLoc
 #FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

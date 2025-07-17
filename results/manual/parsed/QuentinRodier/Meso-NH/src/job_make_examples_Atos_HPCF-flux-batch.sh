@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-kitty-9004
+#FLUX: --job-name=Examples
+#FLUX: -n=2
+#FLUX: --queue=np
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MONORUN='Mpirun -np 1 '

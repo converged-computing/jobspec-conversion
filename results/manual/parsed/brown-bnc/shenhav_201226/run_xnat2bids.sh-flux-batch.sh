@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-buttface-1247
+#FLUX: --job-name=xnat2bids
+#FLUX: -c=2
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -u

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cinnamonbun-2355
+#FLUX: --job-name=quirky-peanut-butter-8243
 #FLUX: -c=32
 #FLUX: --queue=compute
 #FLUX: --urgency=16

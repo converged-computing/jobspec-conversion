@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-chip-6027
+#FLUX: --job-name=joyous-platanos-1797
 #FLUX: -N=2
 #FLUX: -c=12
 #FLUX: --queue=develbooster

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lizard-3855
+#FLUX: --job-name=arid-plant-5914
+#FLUX: --queue=gpu
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 export OUTPUT_DIR='models'

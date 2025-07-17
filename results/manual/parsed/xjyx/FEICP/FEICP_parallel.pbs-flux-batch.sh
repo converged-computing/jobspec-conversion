@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-peanut-8988
+#FLUX: --job-name=salted-bike-0819
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/xjyx/FEICP/FEICP_parallel.pbs

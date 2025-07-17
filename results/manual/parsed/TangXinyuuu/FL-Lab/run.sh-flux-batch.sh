@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-frito-0198
+#FLUX: --job-name=FLJob
 #FLUX: --queue=gpulab02
 #FLUX: --urgency=16
 

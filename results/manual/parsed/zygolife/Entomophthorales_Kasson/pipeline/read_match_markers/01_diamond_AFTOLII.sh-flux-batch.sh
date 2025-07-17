@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bits-3352
+#FLUX: --job-name=arid-citrus-7097
+#FLUX: -c=96
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 module load diamond

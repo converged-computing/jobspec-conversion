@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-avocado-6284
+#FLUX: --job-name=run-xthi
+#FLUX: --queue=debug
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'

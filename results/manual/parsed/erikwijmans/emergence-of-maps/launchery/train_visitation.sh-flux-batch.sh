@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-animal-3318
+#FLUX: --job-name=visitation-predictor
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=learnfair

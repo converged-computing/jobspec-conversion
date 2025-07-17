@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-malarkey-0106
+#FLUX: --job-name=select_objs
+#FLUX: -n=32
+#FLUX: --queue=debug
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

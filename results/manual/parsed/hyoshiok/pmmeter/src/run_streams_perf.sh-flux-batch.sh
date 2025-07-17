@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-rabbit-3776
+#FLUX: --job-name=streams
 #FLUX: --urgency=16
 
 export KMP_AFFINITY='granularity=core,compact,1'

@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-mango-6718
+#FLUX: --job-name=psycho-egg-2614
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
 #FLUX: --queue=gpuA40x4
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export PYOPENCL_CTX='port:nvidia"     # Run on Nvidia GPU with pocl'

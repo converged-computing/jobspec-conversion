@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-ricecake-4030
+#FLUX: --job-name=boopy-latke-8553
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load python/3.5.2

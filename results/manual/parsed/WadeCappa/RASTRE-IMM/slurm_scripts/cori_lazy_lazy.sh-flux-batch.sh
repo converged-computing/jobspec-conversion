@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-signal-2027
+#FLUX: --job-name=Orkut16_lazy_lazy
 #FLUX: -N=16
 #FLUX: -t=1800
 #FLUX: --urgency=16

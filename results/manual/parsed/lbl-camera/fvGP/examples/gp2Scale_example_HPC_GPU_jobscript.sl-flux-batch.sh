@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-muffin-7384
+#FLUX: --job-name=scruptious-motorcycle-5131
+#FLUX: -n=32
+#FLUX: -c=32
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'

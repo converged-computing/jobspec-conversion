@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-truffle-0561
+#FLUX: --job-name=ATACpipe
+#FLUX: --queue=general
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 set -e

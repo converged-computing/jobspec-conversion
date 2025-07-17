@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-eagle-7849
+#FLUX: --job-name=moolicious-ricecake-8739
+#FLUX: -n=10
+#FLUX: --queue=nvidia
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source ~/.bashrc

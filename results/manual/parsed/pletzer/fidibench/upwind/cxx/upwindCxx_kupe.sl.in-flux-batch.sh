@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-nalgas-5997
+#FLUX: --job-name=upwindCxx
 #FLUX: --queue=NeSI
 #FLUX: -t=600
 #FLUX: --urgency=16

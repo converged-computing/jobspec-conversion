@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-itch-6037
+#FLUX: --job-name=crunchy-motorcycle-5762
 #FLUX: --urgency=16
 
 n_procs=$1

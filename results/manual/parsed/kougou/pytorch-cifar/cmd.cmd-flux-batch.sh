@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-bits-4832
+#FLUX: --job-name=quirky-nunchucks-5379
+#FLUX: -t=7800
 #FLUX: --urgency=16
 
 export PATH='$PATH:/usr/lib/jvm/java-1.8.0-openjdk'

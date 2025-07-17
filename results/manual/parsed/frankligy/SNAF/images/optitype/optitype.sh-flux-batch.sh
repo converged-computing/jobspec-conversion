@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-lettuce-1932
+#FLUX: --job-name=creamy-snack-8232
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/frankligy/SNAF/images/optitype/optitype.sh

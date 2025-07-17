@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-puppy-8077
+#FLUX: --job-name=uccgsd_dimer_tau_plus
+#FLUX: -n=15
+#FLUX: --queue=defq
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-carrot-3852
+#FLUX: --job-name=ALM2_024
+#FLUX: -N=32
+#FLUX: -n=2048
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 2048'

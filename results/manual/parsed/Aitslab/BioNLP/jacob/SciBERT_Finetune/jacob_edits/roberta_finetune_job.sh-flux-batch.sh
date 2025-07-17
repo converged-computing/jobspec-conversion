@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-general-7376
+#FLUX: --job-name=wobbly-ricecake-7685
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 nvidia-smi

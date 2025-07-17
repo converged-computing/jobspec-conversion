@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-bike-0221
+#FLUX: --job-name=humann2_results
+#FLUX: -n=4
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge all

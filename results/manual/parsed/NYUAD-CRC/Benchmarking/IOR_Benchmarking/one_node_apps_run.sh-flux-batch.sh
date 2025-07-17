@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-latke-7184
+#FLUX: --job-name=grated-lemon-2326
+#FLUX: -n=15
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

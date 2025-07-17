@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-knife-3126
+#FLUX: --job-name=carnivorous-cattywampus-5269
 #FLUX: -N=8
 #FLUX: -n=8
 #FLUX: -t=360

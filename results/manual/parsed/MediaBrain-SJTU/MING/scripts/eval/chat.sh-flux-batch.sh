@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lamp-0770
+#FLUX: --job-name=ming_chat
 #FLUX: -c=32
 #FLUX: --queue=medai_llm
 #FLUX: -t=432000

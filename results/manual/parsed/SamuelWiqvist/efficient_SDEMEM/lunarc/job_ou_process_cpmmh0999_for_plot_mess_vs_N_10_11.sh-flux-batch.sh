@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-plant-3629
+#FLUX: --job-name=ou_cpmmh_0999_10
 #FLUX: --exclusive
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='1'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-bits-1585
+#FLUX: --job-name=astute-punk-9589
+#FLUX: --queue=gpu-long
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

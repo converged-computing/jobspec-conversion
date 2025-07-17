@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-malarkey-3058
+#FLUX: --job-name=rainbow-despacito-9484
 #FLUX: -c=20
 #FLUX: --exclusive
+#FLUX: -t=43140
 #FLUX: --urgency=16
 
 ulimit -v unlimited

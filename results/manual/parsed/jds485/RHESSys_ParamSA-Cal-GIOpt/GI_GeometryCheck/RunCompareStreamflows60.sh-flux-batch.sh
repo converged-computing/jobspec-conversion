@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lemur-9416
+#FLUX: --job-name=adorable-animal-9243
+#FLUX: --queue=standard
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-taco-0807
+#FLUX: --job-name=train
+#FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

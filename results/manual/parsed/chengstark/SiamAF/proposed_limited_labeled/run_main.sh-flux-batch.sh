@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-peanut-4106
+#FLUX: --job-name=lovely-dog-9637
 #FLUX: --queue=overflow
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 source /labs/hulab/stark_conda/bin/activate

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-buttface-5599
+#FLUX: --job-name=test
 #FLUX: -c=16
 #FLUX: --queue=plgrid
 #FLUX: -t=126000

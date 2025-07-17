@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pot-8451
+#FLUX: --job-name=milky-animal-7360
 #FLUX: -c=4
 #FLUX: -t=3600
 #FLUX: --urgency=16

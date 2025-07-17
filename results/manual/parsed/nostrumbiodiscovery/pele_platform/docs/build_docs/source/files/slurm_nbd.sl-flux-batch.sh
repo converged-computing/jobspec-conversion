@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-fudge-0630
+#FLUX: --job-name=PELE_MPI
 #FLUX: -n=60
 #FLUX: --urgency=16
 

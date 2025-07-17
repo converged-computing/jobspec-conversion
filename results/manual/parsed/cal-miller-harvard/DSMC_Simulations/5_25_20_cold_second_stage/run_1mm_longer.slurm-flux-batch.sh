@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pot-0211
+#FLUX: --job-name=muffled-arm-1861
+#FLUX: -n=16
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

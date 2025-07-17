@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lamp-8857
+#FLUX: --job-name=smcabc
 #FLUX: --exclusive
+#FLUX: --queue=lu
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

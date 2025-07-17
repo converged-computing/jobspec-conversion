@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-toaster-9790
+#FLUX: --job-name=astute-destiny-4289
+#FLUX: -c=2
+#FLUX: --queue=priority
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load gcc

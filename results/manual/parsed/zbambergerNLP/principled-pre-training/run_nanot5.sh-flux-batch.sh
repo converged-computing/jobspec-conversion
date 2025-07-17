@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nanot5_pre_training_job
+#FLUX: -c=100
+#FLUX: --queue=nlp
 #FLUX: --urgency=16
 
 nvidia-smi

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pot-3565
+#FLUX: --job-name=LearnPreferences_hero
+#FLUX: --queue=gpu
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export TACC_LAUNCHER_PPN='1'

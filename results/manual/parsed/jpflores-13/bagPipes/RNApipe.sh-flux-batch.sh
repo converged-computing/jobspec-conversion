@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-blackbean-8814
+#FLUX: --job-name=RNApipeCore
+#FLUX: --queue=general
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 set -e

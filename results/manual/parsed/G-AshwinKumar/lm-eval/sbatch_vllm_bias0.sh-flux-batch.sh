@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-spoon-6247
+#FLUX: --job-name=eval
+#FLUX: -c=32
 #FLUX: --exclusive
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 MODEL_NAME="Yi-9B"

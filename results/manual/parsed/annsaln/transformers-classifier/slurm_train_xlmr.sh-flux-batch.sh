@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-earthworm-2497
+#FLUX: --job-name=peachy-toaster-9331
+#FLUX: --queue=gpu
+#FLUX: -t=33300
 #FLUX: --urgency=16
 
 export TRAIN_DIR='junkdata/$SRC'

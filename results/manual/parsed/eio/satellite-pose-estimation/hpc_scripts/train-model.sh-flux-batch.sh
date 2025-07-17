@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lamp-7745
+#FLUX: --job-name=CVIA-Train-Stream-2-Elliott
+#FLUX: -N=2
+#FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

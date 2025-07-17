@@ -2,6 +2,7 @@
 #FLUX: --job-name=ITER_SOLVERS
 #FLUX: --exclusive
 #FLUX: --queue=amd
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${HOME}/HYPRE/build_amd/lib:${LD_LIBRARY_PATH}'

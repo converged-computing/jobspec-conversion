@@ -2,6 +2,7 @@
 #FLUX: --job-name=ITER_SOLVERS
 #FLUX: --exclusive
 #FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${NTH} '

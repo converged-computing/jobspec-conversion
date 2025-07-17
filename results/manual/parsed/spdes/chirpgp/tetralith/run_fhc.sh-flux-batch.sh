@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lemon-3933
+#FLUX: --job-name=placid-fork-8418
 #FLUX: --exclusive
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 cd $WRKDIR/chirp_estimation

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-eagle-6004
+#FLUX: --job-name=e1d_data
+#FLUX: -n=28
+#FLUX: --queue=defq,BigMem,gpu,defq-48core,gpu-v100-16gb,gpu-v100-32gb,msmoms
 #FLUX: --urgency=16
 
 export CC='$(which gcc)'

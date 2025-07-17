@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ssrt
+#FLUX: -n=24
+#FLUX: --queue=russpold,normal
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

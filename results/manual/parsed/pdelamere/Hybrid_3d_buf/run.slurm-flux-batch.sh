@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-squidward-0022
+#FLUX: --job-name=astute-omelette-6844
 #FLUX: -n=115
 #FLUX: --queue=t1standard
 #FLUX: --urgency=16

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lemon-9102
+#FLUX: --job-name=TSS-seq-snakemake
+#FLUX: -c=8
+#FLUX: --queue=short
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 snakemake -p \

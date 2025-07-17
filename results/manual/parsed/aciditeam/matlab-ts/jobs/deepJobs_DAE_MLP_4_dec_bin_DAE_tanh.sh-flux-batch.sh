@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-ricecake-8977
+#FLUX: --job-name=Deep-DAE_MLP_4_dec_bin_DAE_tanh
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

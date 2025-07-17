@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peanut-6797
+#FLUX: --job-name=loopy-onion-3499
 #FLUX: -c=8
 #FLUX: --queue=gpuq
 #FLUX: -t=3600

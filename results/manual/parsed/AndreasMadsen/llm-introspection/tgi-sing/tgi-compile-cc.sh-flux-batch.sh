@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-ricecake-6199
+#FLUX: --job-name=tgi-compile
 #FLUX: -c=2
 #FLUX: -t=36000
 #FLUX: --urgency=16

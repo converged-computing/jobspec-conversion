@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-pastry-6302
+#FLUX: --job-name=stream-perf
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

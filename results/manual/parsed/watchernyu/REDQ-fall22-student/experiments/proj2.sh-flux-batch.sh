@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-mango-1204
+#FLUX: --job-name=milky-gato-9699
+#FLUX: --queue=aquila,parallel
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

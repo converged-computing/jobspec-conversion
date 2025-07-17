@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cat-3418
+#FLUX: --job-name=dnn
+#FLUX: --queue=gpu_test
+#FLUX: -t=180
 #FLUX: --urgency=16
 
 module load python/3.10.9-fasrc01

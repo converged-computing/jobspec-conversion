@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-knife-2677
+#FLUX: --job-name=my_job
+#FLUX: -c=16
 #FLUX: --exclusive
+#FLUX: --queue=kurs1
+#FLUX: -t=180
 #FLUX: --urgency=16
 
 echo "This is Job $SLURM_JOB_ID"

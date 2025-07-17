@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-toaster-8495
+#FLUX: --job-name=anxious-fork-1391
 #FLUX: --queue=overcap
 #FLUX: --urgency=16
 

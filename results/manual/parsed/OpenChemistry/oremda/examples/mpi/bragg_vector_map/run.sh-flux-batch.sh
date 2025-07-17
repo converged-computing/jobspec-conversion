@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-bits-8147
+#FLUX: --job-name=ornery-butter-1989
+#FLUX: -N=20
 #FLUX: -t=600
 #FLUX: --urgency=16
 

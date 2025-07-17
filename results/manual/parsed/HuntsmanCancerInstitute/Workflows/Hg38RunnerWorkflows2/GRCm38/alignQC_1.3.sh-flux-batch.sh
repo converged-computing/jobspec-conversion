@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-latke-4388
+#FLUX: --job-name=psycho-caramel-5307
 #FLUX: --queue=hci-rw
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 set -e; start=$(date +'%s')

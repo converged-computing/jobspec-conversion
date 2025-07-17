@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cherry-9216
+#FLUX: --job-name=expressive-poodle-6159
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 module load Python/3.6.9

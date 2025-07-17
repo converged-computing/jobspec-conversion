@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-car-3900
+#FLUX: --job-name=synthesizer_FLARES_pipeline
 #FLUX: -n=112
 #FLUX: --exclusive
+#FLUX: --queue=cosma7-rp
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module purge

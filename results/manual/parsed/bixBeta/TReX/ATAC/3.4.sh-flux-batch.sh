@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lamp-0134
+#FLUX: --job-name=ATACseq
+#FLUX: -n=12
 #FLUX: --urgency=16
 
 source ~/.bash_profile

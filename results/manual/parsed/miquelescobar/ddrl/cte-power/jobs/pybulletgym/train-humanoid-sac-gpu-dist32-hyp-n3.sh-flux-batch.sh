@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=train-humanoid-sac-gpu-dist32-hyp-n3
+#FLUX: -c=160
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-punk-7755
+#FLUX: --job-name=astute-parsnip-7578
+#FLUX: --queue=batch
 #FLUX: -t=300
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pancake-2276
+#FLUX: --job-name=fat-cinnamonbun-9511
+#FLUX: -n=2
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

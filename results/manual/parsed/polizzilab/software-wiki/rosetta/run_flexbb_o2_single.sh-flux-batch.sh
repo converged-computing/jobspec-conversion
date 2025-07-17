@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peanut-butter-0761
+#FLUX: --job-name=hanky-train-1034
+#FLUX: --queue=short
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 module load gcc/4.8.5

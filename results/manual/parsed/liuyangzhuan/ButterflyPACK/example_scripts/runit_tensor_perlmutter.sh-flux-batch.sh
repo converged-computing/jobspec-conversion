@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-leopard-4512
+#FLUX: --job-name=tensorbf
+#FLUX: -N=16
+#FLUX: --queue=regular
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export OMP_PLACES='threads'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-nunchucks-8659
+#FLUX: --job-name=evasive-train-2515
+#FLUX: -c=2
+#FLUX: --queue=short
+#FLUX: -t=720
 #FLUX: --urgency=16
 
                                            # You can change the filenames given with -o and -e to any filenames you'd like

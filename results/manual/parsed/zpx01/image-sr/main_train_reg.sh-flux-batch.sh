@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fudge-7599
+#FLUX: --job-name=bricky-house-7227
 #FLUX: -c=8
-#FLUX: --urgency=16
+#FLUX: -t=172800
+#FLUX: --urgency=15
 
 export PYTHONUNBUFFERED='1'
 

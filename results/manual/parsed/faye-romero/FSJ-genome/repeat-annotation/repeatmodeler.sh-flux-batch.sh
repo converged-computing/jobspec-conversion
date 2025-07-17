@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=repeatmodeler.v2
+#FLUX: -c=21
+#FLUX: --queue=rosalind
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

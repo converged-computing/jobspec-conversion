@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lettuce-2054
+#FLUX: --job-name=rainbow-muffin-6348
 #FLUX: -c=4
+#FLUX: --queue=batch
+#FLUX: -t=90000
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

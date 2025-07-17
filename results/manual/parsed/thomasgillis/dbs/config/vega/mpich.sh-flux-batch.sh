@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-truffle-6985
+#FLUX: --job-name=grated-banana-8849
 #FLUX: -n=8
 #FLUX: --queue=cpu
 #FLUX: -t=21600

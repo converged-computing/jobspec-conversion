@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-leader-0534
+#FLUX: --job-name=persnickety-chair-5372
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jasonlarkin/disorder/matlab/lmp.sh.tmp.bw02

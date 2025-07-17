@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bits-9324
+#FLUX: --job-name=F_subgraph
+#FLUX: --queue=ampere
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cupcake-0553
+#FLUX: --job-name=expressive-destiny-2767
 #FLUX: -c=48
 #FLUX: --queue=hopper-prod
-#FLUX: --urgency=16
+#FLUX: --urgency=50
 
 export LAUNCHER='HF_HUB_ENABLE_HF_TRANSFER=1 ACCELERATE_LOG_LEVEL=info TRANSFORMERS_VERBOSITY=info accelerate launch \'
 export NCCL_ASYNC_ERROR_HANDLING='1'

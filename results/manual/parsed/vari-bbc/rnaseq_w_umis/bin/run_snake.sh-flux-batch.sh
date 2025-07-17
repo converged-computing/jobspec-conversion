@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-lemon-8444
+#FLUX: --job-name=rnaseq_workflow
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

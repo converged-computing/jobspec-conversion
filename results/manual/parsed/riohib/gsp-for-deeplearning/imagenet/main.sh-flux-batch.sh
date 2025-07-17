@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-parsnip-3187
+#FLUX: --job-name=rohib
+#FLUX: -c=32
+#FLUX: --queue=qTRDGPUH
+#FLUX: -t=444000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

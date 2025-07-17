@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-puppy-5110
+#FLUX: --job-name=delicious-blackbean-7664
+#FLUX: -n=97
+#FLUX: --queue=high
+#FLUX: -t=252000
 #FLUX: --urgency=16
 
 export PATH='<your path>:$PATH'

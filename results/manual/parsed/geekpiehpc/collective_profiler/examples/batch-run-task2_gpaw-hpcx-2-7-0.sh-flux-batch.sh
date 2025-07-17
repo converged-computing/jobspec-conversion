@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gpaw-profile
+#FLUX: -N=4
+#FLUX: --queue=compute
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

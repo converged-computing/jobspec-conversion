@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-itch-9445
+#FLUX: --job-name=gather-paper
+#FLUX: -c=32
+#FLUX: --queue=bmm
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 . ~/miniconda3/etc/profile.d/conda.sh

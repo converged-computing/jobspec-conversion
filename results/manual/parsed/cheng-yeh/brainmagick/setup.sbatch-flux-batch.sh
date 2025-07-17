@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-gato-4820
+#FLUX: --job-name=custom_dataset_train
+#FLUX: --queue=inferno
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR                            # Change to working directory

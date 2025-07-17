@@ -3,6 +3,7 @@
 #FLUX: -N=2
 #FLUX: -n=8
 #FLUX: --queue=all
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export OMP_PLACES='cores     '

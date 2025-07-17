@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-butter-9289
+#FLUX: --job-name=s_selection
 #FLUX: --queue=hbfraser,owners,hns,normal
 #FLUX: -t=86400
 #FLUX: --urgency=16

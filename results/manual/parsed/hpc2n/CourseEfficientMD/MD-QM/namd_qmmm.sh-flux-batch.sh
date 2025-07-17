@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-frito-6844
+#FLUX: --job-name=conspicuous-cupcake-1008
+#FLUX: -n=28
+#FLUX: -t=3000
 #FLUX: --urgency=16
 
 ml gaussian/16.C.01-AVX2

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-parrot-8063
+#FLUX: --job-name=firedrake
 #FLUX: -N=2
+#FLUX: --queue=standard
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export FIREDRAKE_DIR='/your/firedrake/install/dir'

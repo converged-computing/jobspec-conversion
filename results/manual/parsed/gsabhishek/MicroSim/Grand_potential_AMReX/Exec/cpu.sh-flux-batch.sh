@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=GP4ku
+#FLUX: -N=4
 #FLUX: --queue=small
 #FLUX: -t=82800
 #FLUX: --urgency=16

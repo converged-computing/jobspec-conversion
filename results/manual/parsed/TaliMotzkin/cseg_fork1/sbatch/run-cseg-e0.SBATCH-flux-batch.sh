@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-egg-8918
+#FLUX: --job-name=fugly-signal-6247
 #FLUX: -c=8
 #FLUX: -t=172740
 #FLUX: --urgency=16

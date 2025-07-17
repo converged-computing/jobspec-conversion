@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-avocado-5253
+#FLUX: --job-name=GSF_Cu
+#FLUX: --queue=course
 #FLUX: --urgency=16
 
 module load compiles/intel/2019/u4/config

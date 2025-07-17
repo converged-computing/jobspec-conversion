@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-destiny-3392
+#FLUX: --job-name=LwFT1_5
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=180000

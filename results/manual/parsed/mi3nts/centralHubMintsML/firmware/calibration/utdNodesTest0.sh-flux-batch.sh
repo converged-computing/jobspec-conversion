@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pancake-5770
+#FLUX: --job-name=utdNodesTest0
+#FLUX: -n=16
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ml load matlab

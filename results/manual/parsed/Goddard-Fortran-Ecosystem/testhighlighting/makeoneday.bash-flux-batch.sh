@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-parrot-8381
+#FLUX: --job-name=pusheena-soup-6423
 #FLUX: --urgency=16
 
 SOURCE="${BASH_SOURCE[0]}"

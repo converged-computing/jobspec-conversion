@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-underoos-3449
+#FLUX: --job-name=anxious-kerfuffle-9519
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

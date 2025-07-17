@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=connoisseur
 #FLUX: -c=16
+#FLUX: --queue=sched_mit_sloan_gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

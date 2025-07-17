@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-truffle-4313
+#FLUX: --job-name=red-cupcake-9063
 #FLUX: --queue=dineshj-compute
 #FLUX: -t=43200
 #FLUX: --urgency=16

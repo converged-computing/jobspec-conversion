@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-nalgas-0699
+#FLUX: --job-name=pusheena-malarkey-3021
+#FLUX: --queue=gpu2
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

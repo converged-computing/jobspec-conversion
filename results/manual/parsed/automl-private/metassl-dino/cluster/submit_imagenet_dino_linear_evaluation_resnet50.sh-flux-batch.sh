@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-itch-1374
+#FLUX: --job-name=IN_EVAL_DINO_RESNET50
+#FLUX: --queue=alldlc_gpu-rtx2080
+#FLUX: -t=86399
 #FLUX: --urgency=16
 
 pip list

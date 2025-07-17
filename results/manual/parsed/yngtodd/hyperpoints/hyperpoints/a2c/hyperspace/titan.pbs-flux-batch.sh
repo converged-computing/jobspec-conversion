@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-parrot-7474
+#FLUX: --job-name=phat-leopard-1354
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yngtodd/hyperpoints/hyperpoints/a2c/hyperspace/titan.pbs

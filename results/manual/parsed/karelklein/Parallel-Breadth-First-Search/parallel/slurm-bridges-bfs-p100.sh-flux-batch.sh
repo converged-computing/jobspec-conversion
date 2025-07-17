@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-buttface-6798
+#FLUX: --job-name=bfs-p100
+#FLUX: --queue=GPU-shared
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module use /home/tisaac/opt/modulesfiles

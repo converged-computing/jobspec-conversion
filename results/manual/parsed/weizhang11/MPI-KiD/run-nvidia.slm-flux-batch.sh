@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-chip-7707
+#FLUX: --job-name=psycho-ricecake-8886
 #FLUX: --queue=ampere
 #FLUX: -t=2400
 #FLUX: --urgency=16

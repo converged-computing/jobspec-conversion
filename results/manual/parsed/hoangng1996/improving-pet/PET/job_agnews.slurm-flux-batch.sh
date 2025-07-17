@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=PET_CILVR
+#FLUX: -c=4
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

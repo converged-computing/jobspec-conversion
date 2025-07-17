@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-latke-6395
+#FLUX: --job-name=ACE
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=3600

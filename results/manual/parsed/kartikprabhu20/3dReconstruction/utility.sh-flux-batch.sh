@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cat-3667
+#FLUX: --job-name=3dscene
 #FLUX: -c=10
 #FLUX: -t=604740
 #FLUX: --urgency=16

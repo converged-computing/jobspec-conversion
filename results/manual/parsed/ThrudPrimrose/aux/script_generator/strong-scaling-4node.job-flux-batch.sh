@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-blackbean-8900
+#FLUX: --job-name=strong-scaling-4node
 #FLUX: -N=4
 #FLUX: --queue=cm2_std
 #FLUX: -t=4800

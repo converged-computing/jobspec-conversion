@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=tabula_muris regularize_MMD
+#FLUX: --queue=physical
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

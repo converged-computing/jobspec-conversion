@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-snack-9624
+#FLUX: --job-name=quirky-latke-2266
 #FLUX: -c=6
 #FLUX: --queue=amdgpulong
 #FLUX: -t=259200

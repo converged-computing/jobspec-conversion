@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-parsnip-9967
+#FLUX: --job-name=sticky-kitty-3514
+#FLUX: -c=32
+#FLUX: --queue=normal
+#FLUX: -t=460800
 #FLUX: --urgency=16
 
 export VLBIDIR='${SOFTWAREDIR}/VLBI-cwl'

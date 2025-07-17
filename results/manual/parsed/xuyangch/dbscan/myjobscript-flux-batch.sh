@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-chair-6832
+#FLUX: --job-name=myMPI
+#FLUX: -n=64
+#FLUX: --queue=largemem512GB
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export CC='icc'

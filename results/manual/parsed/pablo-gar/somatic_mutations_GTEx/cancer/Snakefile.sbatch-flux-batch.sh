@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-egg-1538
+#FLUX: --job-name=s_cancer
 #FLUX: --queue=hbfraser,hns,normal,owners
 #FLUX: -t=86400
 #FLUX: --urgency=16

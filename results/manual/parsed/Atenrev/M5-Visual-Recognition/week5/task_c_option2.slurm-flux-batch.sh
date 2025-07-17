@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-house-2459
+#FLUX: --job-name=astute-staircase-1355
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 python task_a.py \

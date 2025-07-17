@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-pedo-8196
+#FLUX: --job-name=F_mean_baseline
+#FLUX: --queue=ampere
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-punk-8593
+#FLUX: --job-name=resolve_spack
+#FLUX: --queue=batch
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export all_proxy='socks://proxy.ccs.ornl.gov:3128'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-noodle-3358
+#FLUX: --job-name=arid-lemur-7342
 #FLUX: --queue=thinkstation-p340
 #FLUX: --urgency=16
 

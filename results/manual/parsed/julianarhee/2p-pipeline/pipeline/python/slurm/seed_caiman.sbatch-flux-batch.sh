@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lemon-7248
+#FLUX: --job-name=carnivorous-bicycle-6475
+#FLUX: -n=16
+#FLUX: --queue=cox
+#FLUX: -t=360
 #FLUX: --urgency=16
 
 module load centos6/0.0.1-fasrc01

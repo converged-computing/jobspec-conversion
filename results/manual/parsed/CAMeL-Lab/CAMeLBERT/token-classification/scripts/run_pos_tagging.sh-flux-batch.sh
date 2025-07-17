@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-leopard-5107
+#FLUX: --job-name=goodbye-omelette-2762
+#FLUX: --queue=condo
 #FLUX: -t=41400
 #FLUX: --urgency=16
 

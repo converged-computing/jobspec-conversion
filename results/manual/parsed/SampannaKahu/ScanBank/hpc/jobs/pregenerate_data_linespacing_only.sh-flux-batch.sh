@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-malarkey-7377
+#FLUX: --job-name=crusty-pot-1582
 #FLUX: --exclusive
+#FLUX: --queue=normal_q
+#FLUX: -t=288000
 #FLUX: --urgency=16
 
 module purge

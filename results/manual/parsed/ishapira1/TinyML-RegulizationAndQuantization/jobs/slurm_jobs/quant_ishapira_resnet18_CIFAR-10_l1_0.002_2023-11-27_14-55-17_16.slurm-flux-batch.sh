@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-bits-0455
+#FLUX: --job-name=hello-animal-0455
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

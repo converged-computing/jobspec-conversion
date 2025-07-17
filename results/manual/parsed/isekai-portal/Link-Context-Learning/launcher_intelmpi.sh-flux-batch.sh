@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=unify_mm_v100
 #FLUX: -N=8
+#FLUX: -c=64
 #FLUX: --exclusive
 #FLUX: --queue=mm_v100_32g
 #FLUX: --urgency=16

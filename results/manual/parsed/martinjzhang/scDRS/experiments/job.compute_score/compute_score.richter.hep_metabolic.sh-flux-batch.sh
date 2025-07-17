@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-toaster-4960
+#FLUX: --job-name=hairy-destiny-7583
+#FLUX: -n=4
+#FLUX: --queue=shared
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 H5AD_FILE=/n/holystore01/LABS/price_lab/Users/mjzhang/scDRS_data/single_cell_data/richter_biorxiv_2020/obj_raw.h5ad

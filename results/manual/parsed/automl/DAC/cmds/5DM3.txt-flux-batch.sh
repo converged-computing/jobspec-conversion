@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-onion-7895
+#FLUX: --job-name=scruptious-parsnip-9295
+#FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 
 source activate dac

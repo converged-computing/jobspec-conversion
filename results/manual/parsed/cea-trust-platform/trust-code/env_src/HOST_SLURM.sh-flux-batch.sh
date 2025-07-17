@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-egg-8514
+#FLUX: --job-name=expensive-destiny-7055
 #FLUX: --urgency=16
 
 define_modules_config()

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=test3
+#FLUX: -n=40
+#FLUX: --queue=icelake
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

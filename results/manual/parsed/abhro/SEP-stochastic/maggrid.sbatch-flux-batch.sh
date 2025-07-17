@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cupcake-3617
+#FLUX: --job-name=salted-chip-5576
 #FLUX: -c=16
 #FLUX: --queue=long
 #FLUX: -t=10800

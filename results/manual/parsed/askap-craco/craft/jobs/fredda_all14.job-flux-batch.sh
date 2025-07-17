@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-mango-5413
+#FLUX: --job-name=butterscotch-parsnip-5699
 #FLUX: -c=8
 #FLUX: --queue=gpuq
 #FLUX: -t=7200

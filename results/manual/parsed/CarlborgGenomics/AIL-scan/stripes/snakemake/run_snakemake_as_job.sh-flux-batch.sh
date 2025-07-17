@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-train-4599
+#FLUX: --job-name=tiger_snek
+#FLUX: -n=15
+#FLUX: --queue=core
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load java/sun_jdk1.8.0_151

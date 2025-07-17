@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-buttface-0236
+#FLUX: --job-name=pytorch_1GPU
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-signal-4350
+#FLUX: --job-name=loopy-bike-7606
+#FLUX: -n=4
+#FLUX: --queue=alvis
+#FLUX: -t=180000
 #FLUX: --urgency=16
 
 data_set="data_Olga-Tokarczuk.npz"

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-leopard-3077
+#FLUX: --job-name=Event_fix
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MPLCONFIGDIR='${LUSTRE}/.matplotlib'

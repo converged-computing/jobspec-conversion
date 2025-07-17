@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-squidward-2204
+#FLUX: --job-name=quirky-omelette-6474
+#FLUX: -n=4
+#FLUX: --queue=standard
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module purge

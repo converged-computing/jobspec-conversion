@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-buttface-0302
+#FLUX: --job-name=angry-cupcake-4446
+#FLUX: -n=14
+#FLUX: -t=1500
 #FLUX: --urgency=16
 
 export num_dev='`echo $CUDA_VISIBLE_DEVICES | awk 'BEGIN{FS=","};{print NF}'`'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-general-4160
+#FLUX: --job-name=gassy-ricecake-3428
 #FLUX: --urgency=16
 
 function help_info() {

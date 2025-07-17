@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-dog-3644
+#FLUX: --job-name=hp3d
+#FLUX: -N=16
+#FLUX: -n=64
+#FLUX: --queue=development
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export KMP_STACKSIZE='24M   # p=6'

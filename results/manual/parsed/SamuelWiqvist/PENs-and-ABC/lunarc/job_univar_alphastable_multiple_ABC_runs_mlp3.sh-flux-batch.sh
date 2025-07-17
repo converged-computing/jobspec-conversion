@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leg-9253
+#FLUX: --job-name=univ_alphastable_multi_ABC_dnn_small2
+#FLUX: --queue=gpu
+#FLUX: -t=361800
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

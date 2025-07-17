@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-kerfuffle-4865
+#FLUX: --job-name=Mar_inversion
+#FLUX: -N=32
+#FLUX: -n=32
+#FLUX: -t=9000
 #FLUX: --urgency=16
 
 export user='$(whoami)'

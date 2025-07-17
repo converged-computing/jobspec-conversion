@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-animal-2297
+#FLUX: --job-name=milky-lizard-7825
+#FLUX: --queue=stats.p
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 cd /home/abakis/git/covid_SEIHR_county

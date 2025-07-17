@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-omelette-5711
+#FLUX: --job-name=sticky-eagle-2622
 #FLUX: --queue=cortex
 #FLUX: -t=172800
 #FLUX: --urgency=16

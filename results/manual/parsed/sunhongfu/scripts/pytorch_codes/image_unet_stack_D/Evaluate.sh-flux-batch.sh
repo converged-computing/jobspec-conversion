@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=image_unet_stack_D
+#FLUX: -c=3
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

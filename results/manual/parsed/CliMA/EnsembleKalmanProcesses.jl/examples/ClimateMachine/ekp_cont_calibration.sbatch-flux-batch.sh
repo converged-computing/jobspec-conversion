@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-parrot-0218
+#FLUX: --job-name=ces_cont
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

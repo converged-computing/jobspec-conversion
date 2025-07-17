@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-house-0854
+#FLUX: --job-name=mpi_test
+#FLUX: -n=8
+#FLUX: --queue=test
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/apps/R/3.5.1:$R_LIBS_USER'

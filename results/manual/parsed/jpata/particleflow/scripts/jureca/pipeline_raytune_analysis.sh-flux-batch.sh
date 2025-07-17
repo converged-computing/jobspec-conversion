@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lentil-3446
+#FLUX: --job-name=tuneAnalysis
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: --queue=dc-gpu

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-underoos-3500
+#FLUX: --job-name=LearnRawPreferences_mspacman
+#FLUX: --queue=gpu
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export TACC_LAUNCHER_PPN='1'

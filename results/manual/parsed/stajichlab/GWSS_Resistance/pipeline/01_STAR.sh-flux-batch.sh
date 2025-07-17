@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lemon-8275
+#FLUX: --job-name=evasive-animal-4173
+#FLUX: -n=32
+#FLUX: --queue=intel,batch
 #FLUX: --urgency=16
 
 module load STAR

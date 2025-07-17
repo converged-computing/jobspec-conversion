@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-sundae-4885
+#FLUX: --job-name=sgather_ngdr
 #FLUX: -N=2
 #FLUX: -n=4
+#FLUX: --queue=tesla
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

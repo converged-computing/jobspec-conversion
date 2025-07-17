@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-omelette-3205
+#FLUX: --job-name=process_qdrep_resnet_train
+#FLUX: --queue=a100_shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load cuda/11.4

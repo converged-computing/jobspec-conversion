@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-malarkey-0473
+#FLUX: --job-name=stage1
+#FLUX: -N=2
+#FLUX: --queue=regular
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/cry11ba/$SLURM_JOB_ID'

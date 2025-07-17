@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lizard-7297
+#FLUX: --job-name=sGW
 #FLUX: -n=4
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1

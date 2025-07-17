@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-onion-3290
+#FLUX: --job-name=purple-malarkey-5212
+#FLUX: -n=16
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load tensorflow

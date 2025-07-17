@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-destiny-7395
+#FLUX: --job-name=test_spread
+#FLUX: -N=24
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export CCTBX_NO_UUID='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-fork-6949
+#FLUX: --job-name=convtest_MANSOL
 #FLUX: --queue=express
 #FLUX: -t=1800
 #FLUX: --urgency=16

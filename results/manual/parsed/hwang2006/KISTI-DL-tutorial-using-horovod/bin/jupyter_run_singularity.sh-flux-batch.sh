@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-egg-7673
+#FLUX: --job-name=anxious-soup-4111
 #FLUX: -c=4
 #FLUX: --queue=amd_a100nv_8
 #FLUX: -t=28800

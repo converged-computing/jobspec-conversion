@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-onion-6142
+#FLUX: --job-name=salted-despacito-6032
 #FLUX: -n=2
+#FLUX: --queue=test
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-caramel-0389
+#FLUX: --job-name=bloated-puppy-9218
+#FLUX: -c=48
+#FLUX: --queue=huce_cascade
+#FLUX: -t=1036800
 #FLUX: --urgency=16
 
 module purge

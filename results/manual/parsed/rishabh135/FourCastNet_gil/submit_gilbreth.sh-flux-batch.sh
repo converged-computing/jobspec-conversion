@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-punk-9104
+#FLUX: --job-name=fourcastnet_job
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

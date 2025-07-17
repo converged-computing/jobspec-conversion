@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-mango-8682
+#FLUX: --job-name=combine
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module add cudnn/5.1-cuda-8.0

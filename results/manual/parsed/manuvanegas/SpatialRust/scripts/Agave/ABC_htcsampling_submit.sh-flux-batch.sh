@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-muffin-5560
+#FLUX: --job-name=htc_sampling9_0
 #FLUX: -n=150
+#FLUX: --queue=htc
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'

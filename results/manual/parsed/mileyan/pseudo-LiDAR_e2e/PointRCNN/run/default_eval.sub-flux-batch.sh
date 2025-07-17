@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-hobbit-9582
+#FLUX: --job-name=train
+#FLUX: -n=4
 #FLUX: --queue=kilian
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 POINT_STYLE=default

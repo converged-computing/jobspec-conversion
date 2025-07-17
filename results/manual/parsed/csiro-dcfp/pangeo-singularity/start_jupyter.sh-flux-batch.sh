@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-malarkey-1371
+#FLUX: --job-name=jupyter
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: --queue=workq

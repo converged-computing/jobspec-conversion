@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-onion-0427
+#FLUX: --job-name=BINDING
+#FLUX: -N=2
+#FLUX: -n=32
 #FLUX: --exclusive
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load intel

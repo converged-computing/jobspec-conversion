@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-banana-6627
+#FLUX: --job-name=poi_adam
 #FLUX: -c=64
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=amdrome
 #FLUX: -t=600
 #FLUX: --urgency=16
 

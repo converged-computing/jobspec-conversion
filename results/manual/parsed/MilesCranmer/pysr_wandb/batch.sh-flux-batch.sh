@@ -2,6 +2,7 @@
 #FLUX: --job-name=pysrtune
 #FLUX: -n=30
 #FLUX: -c=8
+#FLUX: --queue=cca
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

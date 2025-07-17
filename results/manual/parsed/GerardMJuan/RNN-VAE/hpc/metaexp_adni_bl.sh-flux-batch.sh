@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lizard-2252
+#FLUX: --job-name=vae_bl
+#FLUX: --queue=high
 #FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh

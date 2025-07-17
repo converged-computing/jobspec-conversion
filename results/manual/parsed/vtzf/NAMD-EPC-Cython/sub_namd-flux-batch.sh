@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-salad-0897
+#FLUX: --job-name=namd-tyy
 #FLUX: -N=4
 #FLUX: --queue=sugon
 #FLUX: -t=108000

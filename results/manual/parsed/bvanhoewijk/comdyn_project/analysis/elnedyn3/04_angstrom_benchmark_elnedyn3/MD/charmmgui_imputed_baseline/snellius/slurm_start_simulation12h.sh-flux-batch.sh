@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-punk-4763
+#FLUX: --job-name=goodbye-cupcake-0878
 #FLUX: --exclusive
 #FLUX: --queue=genoa
 #FLUX: -t=43200

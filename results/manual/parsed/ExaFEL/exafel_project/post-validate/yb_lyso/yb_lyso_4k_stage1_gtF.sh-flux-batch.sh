@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-noodle-3251
+#FLUX: --job-name=stage_1
+#FLUX: -N=4
+#FLUX: --queue=regular
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/yb_lyso/$SLURM_JOB_ID'

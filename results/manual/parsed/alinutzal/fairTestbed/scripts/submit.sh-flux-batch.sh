@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-staircase-9274
+#FLUX: --job-name=mnist
 #FLUX: -c=20
 #FLUX: -t=18000
 #FLUX: --urgency=16

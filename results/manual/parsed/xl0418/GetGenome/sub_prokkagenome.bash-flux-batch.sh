@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-punk-6699
+#FLUX: --job-name=Prokka
 #FLUX: -n=2
 #FLUX: -t=600
 #FLUX: --urgency=16

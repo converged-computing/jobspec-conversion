@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-pastry-4157
+#FLUX: --job-name=adorable-nunchucks-7942
+#FLUX: -c=32
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

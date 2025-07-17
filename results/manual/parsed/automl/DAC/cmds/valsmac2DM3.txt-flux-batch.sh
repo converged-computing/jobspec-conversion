@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lettuce-1341
+#FLUX: --job-name=loopy-kerfuffle-5275
+#FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 
 source activate dac

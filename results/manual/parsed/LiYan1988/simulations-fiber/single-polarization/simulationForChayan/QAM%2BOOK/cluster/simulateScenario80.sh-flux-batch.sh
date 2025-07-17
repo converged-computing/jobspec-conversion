@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-banana-9609
+#FLUX: --job-name=simulateScenario80
+#FLUX: --queue=glenn
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load matlab

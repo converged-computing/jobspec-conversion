@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-kerfuffle-9178
+#FLUX: --job-name=fugly-eagle-4739
 #FLUX: -c=24
 #FLUX: --queue=demultiplexing
 #FLUX: --urgency=16

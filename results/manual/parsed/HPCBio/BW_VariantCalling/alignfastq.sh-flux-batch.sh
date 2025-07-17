@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-nalgas-5647
+#FLUX: --job-name=cowy-pastry-5938
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/HPCBio/BW_VariantCalling/alignfastq.sh

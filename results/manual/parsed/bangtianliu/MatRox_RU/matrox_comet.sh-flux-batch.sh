@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=PPoPP_artifact
 #FLUX: --queue=compute
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export MODULEPATH='/share/apps/compute/modulefiles:$MODULEPATH'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-underoos-0034
+#FLUX: --job-name=misunderstood-soup-7749
 #FLUX: --urgency=16
 
 pwd; hostname; date

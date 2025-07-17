@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-earthworm-8402
+#FLUX: --job-name=expressive-muffin-7436
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 cat $0

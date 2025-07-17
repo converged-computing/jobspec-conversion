@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-kitty-3661
+#FLUX: --job-name=train
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 echo "#################### Job submission script. #############################"

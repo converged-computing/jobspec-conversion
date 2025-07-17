@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-destiny-5765
+#FLUX: --job-name=gpujob
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

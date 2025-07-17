@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cat-3765
+#FLUX: --job-name=eccentric-dog-0449
 #FLUX: -c=6
 #FLUX: --queue=amdgpulong
 #FLUX: -t=259200

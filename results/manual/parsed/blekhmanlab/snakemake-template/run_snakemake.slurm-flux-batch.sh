@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-banana-5247
+#FLUX: --job-name=buttery-latke-6759
+#FLUX: --queue=blekhman
+#FLUX: -t=162000
 #FLUX: --urgency=16
 
 module load python

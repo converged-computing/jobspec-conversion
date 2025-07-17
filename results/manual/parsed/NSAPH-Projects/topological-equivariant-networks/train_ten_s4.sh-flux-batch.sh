@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-milkshake-8481
+#FLUX: --job-name=arid-bits-5191
+#FLUX: -c=8
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load ncf/1.0.0-fasrc01

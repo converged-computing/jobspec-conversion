@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-malarkey-3270
+#FLUX: --job-name=ray_tune_rays
+#FLUX: -n=48
+#FLUX: --queue=test
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 module load gcc/10.2.0-fasrc01

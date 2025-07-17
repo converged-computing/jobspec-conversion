@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-car-0168
+#FLUX: --job-name=train_cam5
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 rankspernode=16

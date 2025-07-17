@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-nunchucks-5911
+#FLUX: --job-name=stage1
+#FLUX: -N=128
+#FLUX: --queue=batch
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export SCRATCH_FOLDER='$SCRATCH/cytochrome/$SLURM_JOB_ID'

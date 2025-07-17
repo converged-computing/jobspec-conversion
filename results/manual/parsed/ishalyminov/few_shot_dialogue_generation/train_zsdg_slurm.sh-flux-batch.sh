@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-malarkey-4310
+#FLUX: --job-name=sticky-carrot-0993
 #FLUX: --queue=amd-longq
 #FLUX: --urgency=16
 

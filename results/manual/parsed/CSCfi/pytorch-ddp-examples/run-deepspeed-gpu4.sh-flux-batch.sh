@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lemur-0427
+#FLUX: --job-name=expressive-chair-7044
 #FLUX: -c=40
 #FLUX: --queue=gputest
 #FLUX: -t=900

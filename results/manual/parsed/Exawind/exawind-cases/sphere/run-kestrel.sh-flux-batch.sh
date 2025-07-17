@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-peas-6911
+#FLUX: --job-name=exawind-sphere
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 set -e

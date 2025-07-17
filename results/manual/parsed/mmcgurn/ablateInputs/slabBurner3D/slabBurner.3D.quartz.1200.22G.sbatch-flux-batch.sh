@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-parsnip-5295
+#FLUX: --job-name=22G
+#FLUX: -N=1200
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PETSC_DIR='/g/g15/mcgurn4/petsc'

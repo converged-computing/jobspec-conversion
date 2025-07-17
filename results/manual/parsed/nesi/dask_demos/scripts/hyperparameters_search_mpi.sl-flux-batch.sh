@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-poo-5518
+#FLUX: --job-name=moolicious-chip-5646
 #FLUX: -n=20
 #FLUX: -c=4
 #FLUX: -t=600

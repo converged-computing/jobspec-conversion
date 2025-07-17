@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-blackbean-9838
+#FLUX: --job-name=qclss
 #FLUX: -N=20
 #FLUX: -n=400
 #FLUX: -t=300

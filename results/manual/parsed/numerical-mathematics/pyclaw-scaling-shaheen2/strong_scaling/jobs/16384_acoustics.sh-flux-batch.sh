@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-pastry-6933
+#FLUX: --job-name=16384_acoustics
+#FLUX: -N=512
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

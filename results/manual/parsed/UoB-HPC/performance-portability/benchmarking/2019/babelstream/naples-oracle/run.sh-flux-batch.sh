@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cupcake-6205
+#FLUX: --job-name=stinky-soup-2442
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64 OMP_PROC_BIND=spread OMP_PLACES=cores'

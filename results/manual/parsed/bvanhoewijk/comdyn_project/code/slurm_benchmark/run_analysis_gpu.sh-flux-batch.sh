@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-noodle-6278
+#FLUX: --job-name=gloopy-signal-1036
 #FLUX: -c=18
 #FLUX: --exclusive
 #FLUX: --queue=gpu

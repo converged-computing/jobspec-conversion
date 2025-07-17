@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-fudge-5231
+#FLUX: --job-name=delicious-salad-8178
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 module load 2019 Anaconda3

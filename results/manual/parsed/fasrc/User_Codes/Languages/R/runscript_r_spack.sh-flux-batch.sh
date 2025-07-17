@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-despacito-1491
+#FLUX: --job-name=r_spack
+#FLUX: --queue=test
+#FLUX: -t=10
 #FLUX: --urgency=16
 
 . /n/holylabs/LABS/jharvard_lab/Users/jharvard/spack/share/spack/setup-env.sh

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-toaster-3519
+#FLUX: --job-name=muffled-fudge-4234
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 . /home/tscherli/.bash_profile

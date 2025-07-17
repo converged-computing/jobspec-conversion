@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parrot-4344
+#FLUX: --job-name=swampy-house-0275
 #FLUX: -c=10
+#FLUX: -t=30000
 #FLUX: --urgency=16
 
 module load emboss

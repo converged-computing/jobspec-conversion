@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bike-7716
+#FLUX: --job-name=bumfuzzled-carrot-0801
+#FLUX: -c=4
 #FLUX: --queue=gpu
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 echo wassup

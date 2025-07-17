@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-general-8194
+#FLUX: --job-name=bbo-exps
+#FLUX: --queue=testdlc_gpu-rtx2080
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 echo "Workingdir: $PWD";

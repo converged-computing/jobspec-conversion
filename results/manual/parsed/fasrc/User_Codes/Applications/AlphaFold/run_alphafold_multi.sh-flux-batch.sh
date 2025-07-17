@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-peanut-3305
+#FLUX: --job-name=AF_multimer
+#FLUX: -c=8
+#FLUX: --queue=gpu
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 my_fasta=T1083_T1084.fasta

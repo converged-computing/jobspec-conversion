@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-leader-5151
+#FLUX: --job-name=butterscotch-citrus-6746
 #FLUX: -c=8
 #FLUX: -t=172740
 #FLUX: --urgency=16

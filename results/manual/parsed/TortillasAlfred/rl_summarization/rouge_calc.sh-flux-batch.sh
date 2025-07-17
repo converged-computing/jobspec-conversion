@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-banana-1249
+#FLUX: --job-name=arid-fork-2637
 #FLUX: -c=12
 #FLUX: -t=360
 #FLUX: --urgency=16

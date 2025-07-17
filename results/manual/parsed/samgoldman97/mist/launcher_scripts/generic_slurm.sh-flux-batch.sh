@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-knife-9890
+#FLUX: --job-name=ms
+#FLUX: --queue=sched_mit_ccoley
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 conda activate ms-gen

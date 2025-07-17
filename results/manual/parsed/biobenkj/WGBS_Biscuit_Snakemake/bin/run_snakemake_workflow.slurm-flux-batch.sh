@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=SNAKEMASTER
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 cd ${SLURM_SUBMIT_DIR}

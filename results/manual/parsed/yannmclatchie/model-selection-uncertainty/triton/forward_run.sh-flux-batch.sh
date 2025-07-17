@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-soup-8512
+#FLUX: --job-name=eccentric-hippo-0930
 #FLUX: -c=4
 #FLUX: -t=172800
 #FLUX: --urgency=16

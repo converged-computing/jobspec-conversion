@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-motorcycle-9107
+#FLUX: --job-name=phat-hobbit-4729
 #FLUX: --queue=top6
 #FLUX: -t=36000
 #FLUX: --urgency=16

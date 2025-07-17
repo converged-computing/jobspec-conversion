@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=TS_train_Piglet_EEG_Model
+#FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-hippo-3946
+#FLUX: --job-name=frigid-malarkey-3163
+#FLUX: --queue=gpu2
 #FLUX: -t=5400
 #FLUX: --urgency=16
 

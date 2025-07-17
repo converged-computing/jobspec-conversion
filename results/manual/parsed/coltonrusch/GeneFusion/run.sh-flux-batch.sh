@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-banana-6772
+#FLUX: --job-name=outstanding-buttface-5665
+#FLUX: -n=2
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PYTHONPATH='.'

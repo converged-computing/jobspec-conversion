@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mpi_bcast
+#FLUX: -N=32
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: --queue=all

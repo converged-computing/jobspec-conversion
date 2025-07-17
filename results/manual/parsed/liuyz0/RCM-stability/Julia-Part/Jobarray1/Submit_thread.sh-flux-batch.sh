@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-mango-2347
+#FLUX: --job-name=lovely-knife-5672
+#FLUX: -c=48
 #FLUX: --urgency=16
 
 source /etc/profile

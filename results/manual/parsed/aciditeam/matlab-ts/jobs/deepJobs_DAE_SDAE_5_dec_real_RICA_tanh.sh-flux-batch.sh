@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-taco-4045
+#FLUX: --job-name=Deep-DAE_SDAE_5_dec_real_RICA_tanh
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-itch-0304
+#FLUX: --job-name=eccentric-staircase-1269
+#FLUX: --queue=gpu2
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

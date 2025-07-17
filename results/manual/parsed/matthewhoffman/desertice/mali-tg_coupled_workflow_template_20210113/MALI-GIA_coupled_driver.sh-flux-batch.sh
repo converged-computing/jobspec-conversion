@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-peas-5501
+#FLUX: --job-name=TG1km
+#FLUX: -N=5
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'

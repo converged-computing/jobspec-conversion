@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leader-0287
+#FLUX: --job-name=LeNet.TF.1
 #FLUX: --urgency=16
 
 train_batch=64

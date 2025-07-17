@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-lettuce-7406
+#FLUX: --job-name=Final
 #FLUX: -c=28
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 ulimit -v unlimited

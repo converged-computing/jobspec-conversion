@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-toaster-4110
+#FLUX: --job-name=faux-parrot-9536
 #FLUX: -c=10
 #FLUX: --queue=learnfair
 #FLUX: -t=129600

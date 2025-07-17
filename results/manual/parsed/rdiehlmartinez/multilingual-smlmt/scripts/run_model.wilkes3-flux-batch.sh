@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-ricecake-8448
+#FLUX: --job-name=multilingual-smlmt
+#FLUX: --queue=ampere
 #FLUX: -t=42600
 #FLUX: --urgency=16
 

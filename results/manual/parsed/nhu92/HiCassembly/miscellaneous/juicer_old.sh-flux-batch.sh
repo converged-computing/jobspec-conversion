@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-onion-6872
+#FLUX: --job-name=${groupname}_prep_done
+#FLUX: --queue=$queue
 #FLUX: --urgency=16
 
 shopt -s extglob

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-taco-9462
+#FLUX: --job-name=metontiime_27mar
+#FLUX: -n=4
+#FLUX: --queue=core
+#FLUX: -t=777600
 #FLUX: --urgency=16
 
 module load bioinfo-tools Nextflow 

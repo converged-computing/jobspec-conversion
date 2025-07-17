@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-puppy-0633
+#FLUX: --job-name=sticky-lentil-2752
+#FLUX: -n=64
 #FLUX: --queue=genoa
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 export MODEL_PARAM_FILE='output.dat'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-parsnip-5692
+#FLUX: --job-name=Psittacidae1
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export OMP_STACKSIZE=' 32G" '

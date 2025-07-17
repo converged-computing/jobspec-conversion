@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-punk-4776
+#FLUX: --job-name=mammoth_solve_asdiv
 #FLUX: -c=10
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '

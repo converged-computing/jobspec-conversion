@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-rabbit-1055
+#FLUX: --job-name=expressive-fork-6020
 #FLUX: --queue=nextflow
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leader-2209
+#FLUX: --job-name=Iso
+#FLUX: -N=16
+#FLUX: -n=32
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export user='$(whoami)'

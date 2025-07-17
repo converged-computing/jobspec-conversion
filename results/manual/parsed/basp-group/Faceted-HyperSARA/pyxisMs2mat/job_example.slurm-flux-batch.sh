@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-hippo-5233
+#FLUX: --job-name=rainbow-peanut-0575
 #FLUX: -c=36
 #FLUX: --exclusive
 #FLUX: --queue=standard

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-knife-9885
+#FLUX: --job-name=ornery-noodle-6672
 #FLUX: -c=16
 #FLUX: --queue=reservation7
 #FLUX: -t=86400

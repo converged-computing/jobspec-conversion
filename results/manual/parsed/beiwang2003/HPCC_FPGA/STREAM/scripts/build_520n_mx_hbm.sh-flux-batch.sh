@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-gato-3164
+#FLUX: --job-name=tart-lentil-5051
 #FLUX: --exclusive
+#FLUX: --queue=fpgasyn
 #FLUX: --urgency=16
 
 module load intelFPGA_pro/20.3.0

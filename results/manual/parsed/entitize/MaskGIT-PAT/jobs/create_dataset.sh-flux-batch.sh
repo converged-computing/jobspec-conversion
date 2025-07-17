@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-banana-5949
+#FLUX: --job-name=pat_cnn_dataset_norm
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

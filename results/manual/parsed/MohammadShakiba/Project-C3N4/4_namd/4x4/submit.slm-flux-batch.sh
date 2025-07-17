@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-leader-0690
+#FLUX: --job-name=stanky-latke-2715
 #FLUX: --queue=general-compute
 #FLUX: -t=259200
 #FLUX: --urgency=16

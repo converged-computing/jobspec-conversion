@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-milkshake-7489
+#FLUX: --job-name=sticky-lizard-7545
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1'

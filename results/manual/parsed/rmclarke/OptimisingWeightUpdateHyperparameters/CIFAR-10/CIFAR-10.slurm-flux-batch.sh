@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-peanut-butter-9521
+#FLUX: --job-name=CIFAR-10
 #FLUX: -c=32
+#FLUX: --queue=ampere
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

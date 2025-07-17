@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-peanut-butter-9523
+#FLUX: --job-name=tart-rabbit-9244
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='1'

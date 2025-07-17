@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-house-1731
+#FLUX: --job-name=fuzzy-animal-6594
 #FLUX: --urgency=16
 
 module load libraries/openmpi/5.0.3/gcc-13

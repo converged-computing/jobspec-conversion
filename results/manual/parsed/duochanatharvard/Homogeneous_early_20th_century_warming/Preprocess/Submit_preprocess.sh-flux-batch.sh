@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-signal-6872
+#FLUX: --job-name=Buddy
+#FLUX: --queue=${partition_preprocess}
+#FLUX: -t=30000
 #FLUX: --urgency=16
 
 export partition_preprocess='huce_intel"          # TODO'

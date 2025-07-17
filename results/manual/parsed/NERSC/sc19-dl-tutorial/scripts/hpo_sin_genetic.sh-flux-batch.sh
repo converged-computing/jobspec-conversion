@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-peanut-2316
+#FLUX: --job-name=hpo-sin-genetic
+#FLUX: --queue=regular
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load tensorflow/intel-1.13.1-py36

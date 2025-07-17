@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-squidward-2116
+#FLUX: --job-name=scruptious-leopard-8875
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/scottlittle/Notes/OLD/gmx

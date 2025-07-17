@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kerfuffle-7419
+#FLUX: --job-name=cowy-citrus-8973
+#FLUX: -c=4
+#FLUX: --queue=general
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module purge    

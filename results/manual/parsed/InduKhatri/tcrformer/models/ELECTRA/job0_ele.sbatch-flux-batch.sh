@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-arm-7169
+#FLUX: --job-name=ornery-parrot-3919
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=10800

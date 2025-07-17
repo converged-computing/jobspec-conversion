@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-leopard-1648
+#FLUX: --job-name=adorable-lizard-1268
 #FLUX: -c=2
 #FLUX: --exclusive
+#FLUX: --queue=m100_usr_prod
 #FLUX: -t=2700
 #FLUX: --urgency=16
 

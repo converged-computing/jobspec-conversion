@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-peas-1626
+#FLUX: --job-name=expensive-hippo-5610
 #FLUX: -c=20
 #FLUX: --queue=eap
 #FLUX: -t=3600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-destiny-9567
+#FLUX: --job-name=stanky-fork-9568
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

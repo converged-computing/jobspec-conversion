@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-rabbit-5412
+#FLUX: --job-name=hello-caramel-7718
+#FLUX: --queue=postproc
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

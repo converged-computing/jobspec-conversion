@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-squidward-1552
+#FLUX: --job-name=delicious-lemur-7969
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 CPU=1

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-fork-9713
+#FLUX: --job-name=strawberry-kitty-6539
+#FLUX: --queue=gputest
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

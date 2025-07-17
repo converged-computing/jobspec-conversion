@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-peanut-butter-5015
+#FLUX: --job-name=pusheena-despacito-7729
+#FLUX: --queue=standard
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module purge

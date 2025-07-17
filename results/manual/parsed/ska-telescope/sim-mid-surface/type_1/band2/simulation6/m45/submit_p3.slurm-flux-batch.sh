@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-earthworm-0932
+#FLUX: --job-name=TYPE1
 #FLUX: -N=12
 #FLUX: -n=385
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-noodle-7177
+#FLUX: --job-name=strawberry-itch-4885
+#FLUX: --queue=gpu2
 #FLUX: -t=2700
 #FLUX: --urgency=16
 

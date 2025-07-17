@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-itch-9853
+#FLUX: --job-name=symSynTopologyTrain
+#FLUX: --queue=gpu-ms
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/cuda/9.0/lib64:/opt/cuda/9.0/cudnn/7.0/lib64'

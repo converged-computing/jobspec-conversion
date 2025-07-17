@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-toaster-7749
+#FLUX: --job-name=fullresfilter_debug
 #FLUX: -N=8
 #FLUX: -c=16
 #FLUX: --exclusive
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='8'

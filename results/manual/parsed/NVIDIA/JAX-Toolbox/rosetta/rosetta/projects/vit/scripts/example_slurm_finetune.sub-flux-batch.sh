@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-underoos-7082
+#FLUX: --job-name=jobname
 #FLUX: --exclusive
+#FLUX: --queue=partition
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -x

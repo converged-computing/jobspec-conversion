@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=long
+#FLUX: --queue=bhuwan
 #FLUX: --urgency=16
 
 export WANDB_PROJECT='debug'

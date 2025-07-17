@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cupcake-9662
+#FLUX: --job-name=ekp_call
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

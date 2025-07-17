@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-pot-4233
+#FLUX: --job-name=roi
+#FLUX: --queue=early_science
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export WORK='$SCRATCH/adse13_249/LY99'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-signal-1196
+#FLUX: --job-name=L_CL_water_parsley
 #FLUX: -c=8
+#FLUX: --queue=gpu4-biggin
 #FLUX: -t=518400
 #FLUX: --urgency=16
 

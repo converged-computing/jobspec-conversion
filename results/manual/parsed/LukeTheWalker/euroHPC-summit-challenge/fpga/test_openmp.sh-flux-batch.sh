@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-soup-3029
+#FLUX: --job-name=phat-leopard-4042
 #FLUX: -c=256
 #FLUX: --queue=cpu
 #FLUX: -t=180

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-soup-8366
+#FLUX: --job-name=strong-scaling-8node
 #FLUX: -N=8
 #FLUX: --queue=cm2_std
 #FLUX: -t=2400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-chair-5255
+#FLUX: --job-name=amg2013_plain
 #FLUX: -N=4
 #FLUX: -c=14
 #FLUX: --exclusive

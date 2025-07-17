@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-citrus-5013
+#FLUX: --job-name=l3cdoors
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=21600

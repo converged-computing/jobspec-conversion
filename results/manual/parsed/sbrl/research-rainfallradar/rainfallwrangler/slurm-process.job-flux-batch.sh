@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lamp-3748
+#FLUX: --job-name=RWrangle
+#FLUX: --queue=compute
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

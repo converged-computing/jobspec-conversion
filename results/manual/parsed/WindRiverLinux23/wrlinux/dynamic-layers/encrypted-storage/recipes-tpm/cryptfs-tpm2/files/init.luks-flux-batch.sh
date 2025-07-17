@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-platanos-2207
+#FLUX: --job-name=grated-egg-3030
 #FLUX: --urgency=16
 

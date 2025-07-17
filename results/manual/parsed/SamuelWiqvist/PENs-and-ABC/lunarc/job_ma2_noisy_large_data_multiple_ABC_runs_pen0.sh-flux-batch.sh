@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-lamp-6889
+#FLUX: --job-name=ma2_multi_ABC_deepsets
+#FLUX: --queue=gpu
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

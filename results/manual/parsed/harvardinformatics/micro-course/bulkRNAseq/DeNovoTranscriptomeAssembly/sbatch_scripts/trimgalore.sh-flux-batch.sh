@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-eagle-2472
+#FLUX: --job-name=tgalore
+#FLUX: --queue=general
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 module purge

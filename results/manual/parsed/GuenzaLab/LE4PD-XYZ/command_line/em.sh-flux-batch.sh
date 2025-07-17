@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=md
+#FLUX: -n=24
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 PDB=$1

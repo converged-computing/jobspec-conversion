@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-egg-2297
+#FLUX: --job-name=eccentric-chip-2171
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: --queue=small-g

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=DEAPderiv
+#FLUX: --queue=amdsmall,small
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

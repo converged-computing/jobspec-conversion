@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-general-4690
+#FLUX: --job-name=boopy-cat-1704
+#FLUX: --queue=gpu2
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

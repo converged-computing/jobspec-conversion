@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-poodle-3518
+#FLUX: --job-name=obiwan
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export CSCRATCH_OBIWAN='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker'

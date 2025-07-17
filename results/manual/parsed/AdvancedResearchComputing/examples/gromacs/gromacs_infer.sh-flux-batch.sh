@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lemon-0156
+#FLUX: --job-name=joyous-citrus-9699
+#FLUX: --queue=t4_dev_q
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module reset

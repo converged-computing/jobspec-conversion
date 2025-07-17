@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-toaster-3073
+#FLUX: --job-name=fugly-rabbit-4602
 #FLUX: -c=2
+#FLUX: -t=86415
 #FLUX: --urgency=16
 
 module load r/3.4.0

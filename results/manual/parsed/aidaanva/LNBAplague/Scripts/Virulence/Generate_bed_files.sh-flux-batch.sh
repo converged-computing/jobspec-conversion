@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-hope-9146
+#FLUX: --job-name=Virulence_BAMtoBed
+#FLUX: --queue=short
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 BAMDIR=$1

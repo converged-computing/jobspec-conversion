@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-arm-0334
+#FLUX: --job-name=frigid-ricecake-7921
 #FLUX: --queue=compsci-gpu
 #FLUX: --urgency=16
 

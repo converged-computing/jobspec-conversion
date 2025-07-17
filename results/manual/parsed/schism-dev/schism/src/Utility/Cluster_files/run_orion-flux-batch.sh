@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-buttface-1067
+#FLUX: --job-name=CORIE
+#FLUX: -N=2
+#FLUX: -n=80
 #FLUX: --exclusive
+#FLUX: --queue=orion
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

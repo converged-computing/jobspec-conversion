@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-signal-9587
+#FLUX: --job-name=lovely-carrot-7260
+#FLUX: -t=864000
 #FLUX: --urgency=16
 
 source activate varaedes

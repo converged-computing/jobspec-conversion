@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-carrot-0130
+#FLUX: --job-name=chunky-leader-2952
+#FLUX: --queue=standard
+#FLUX: -t=59400
 #FLUX: --urgency=16
 
 module purge

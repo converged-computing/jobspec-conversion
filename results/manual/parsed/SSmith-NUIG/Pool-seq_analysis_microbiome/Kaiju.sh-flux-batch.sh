@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=kaiju
+#FLUX: -c=16
 #FLUX: --urgency=16
 
 module load Anaconda3

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lamp-9608
+#FLUX: --job-name=erpMpiTesting
 #FLUX: --urgency=16
 
 export PATH='$PATH:$ompi/bin'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leader-2443
+#FLUX: --job-name=conspicuous-latke-8985
+#FLUX: -t=180
 #FLUX: --urgency=16
 
 module load miniconda

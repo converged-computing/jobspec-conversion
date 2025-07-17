@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=wrn50_cf100
+#FLUX: -c=6
+#FLUX: --queue=p100,t4v1,t4v2
 #FLUX: -t=2520000
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-plant-4069
+#FLUX: --job-name=weather-sim2real-active-learning
+#FLUX: --queue=ampere
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

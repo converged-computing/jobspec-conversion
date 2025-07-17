@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ATACanalysis
 #FLUX: -c=32
+#FLUX: --queue=short
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

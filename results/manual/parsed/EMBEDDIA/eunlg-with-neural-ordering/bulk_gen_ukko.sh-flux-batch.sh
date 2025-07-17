@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-chair-4422
+#FLUX: --job-name=gen
+#FLUX: -c=5
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module purge

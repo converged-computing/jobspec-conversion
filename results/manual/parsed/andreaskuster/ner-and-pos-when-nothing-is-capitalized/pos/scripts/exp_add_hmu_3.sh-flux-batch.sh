@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-pedo-4655
+#FLUX: --job-name=arid-bike-0032
+#FLUX: -c=128
 #FLUX: --queue=amdv100
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load python/3.7.2

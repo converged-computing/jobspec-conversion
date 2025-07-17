@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-bits-2897
+#FLUX: --job-name=anxious-fudge-6421
 #FLUX: -c=2
+#FLUX: -t=86415
 #FLUX: --urgency=16
 
 module load r/3.4.0

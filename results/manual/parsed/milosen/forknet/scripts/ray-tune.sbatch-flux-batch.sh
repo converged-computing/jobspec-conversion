@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-pedo-8172
+#FLUX: --job-name=forknet
 #FLUX: -N=2
 #FLUX: -c=20
 #FLUX: --queue=gpu

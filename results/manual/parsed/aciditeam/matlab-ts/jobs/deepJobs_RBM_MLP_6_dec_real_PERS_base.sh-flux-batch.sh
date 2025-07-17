@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-poodle-8167
+#FLUX: --job-name=Deep-RBM_MLP_6_dec_real_PERS_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

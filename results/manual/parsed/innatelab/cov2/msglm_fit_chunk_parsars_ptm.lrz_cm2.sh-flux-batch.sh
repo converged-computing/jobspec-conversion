@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-frito-3620
+#FLUX: --job-name=cov2_msglm_parsars_ptm
 #FLUX: -N=60
 #FLUX: -c=7
 #FLUX: --queue=cm2_large

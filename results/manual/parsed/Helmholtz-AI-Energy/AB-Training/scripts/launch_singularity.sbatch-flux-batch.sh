@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lemur-1113
+#FLUX: --job-name=blue-underoos-5850
 #FLUX: --queue=accelerated
 #FLUX: -t=28800
 #FLUX: --urgency=16

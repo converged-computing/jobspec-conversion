@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lizard-2709
+#FLUX: --job-name=rdm-eigenvariate_pt
+#FLUX: -n=4
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 root_dir="/users/hritz/data/mri-data/RDM2"

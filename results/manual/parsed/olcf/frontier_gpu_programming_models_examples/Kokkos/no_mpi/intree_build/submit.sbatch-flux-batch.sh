@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-bits-4408
+#FLUX: --job-name=outstanding-parsnip-9214
+#FLUX: --queue=batch
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

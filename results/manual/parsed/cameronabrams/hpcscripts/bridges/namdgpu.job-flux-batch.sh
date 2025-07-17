@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pancake-1415
+#FLUX: --job-name=gassy-dog-6856
+#FLUX: --queue=GPU
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 set echo

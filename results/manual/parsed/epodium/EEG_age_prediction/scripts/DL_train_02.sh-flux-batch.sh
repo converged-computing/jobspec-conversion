@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-staircase-3430
+#FLUX: --job-name=wobbly-avocado-8173
+#FLUX: --queue=gpu_shared
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 module load 2020

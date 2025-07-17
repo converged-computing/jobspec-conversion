@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-frito-4448
+#FLUX: --job-name=evaluate_9b_idefics
+#FLUX: --queue=ampere
 #FLUX: -t=900
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-taco-4713
+#FLUX: --job-name=dask-worker
 #FLUX: --exclusive
 #FLUX: -t=21600
 #FLUX: --urgency=16

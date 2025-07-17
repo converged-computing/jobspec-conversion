@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-bits-7686
+#FLUX: --job-name=stinky-animal-0848
+#FLUX: -n=4
 #FLUX: --urgency=16
 
 module purge

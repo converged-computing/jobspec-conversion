@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=2753
 #FLUX: -n=16
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

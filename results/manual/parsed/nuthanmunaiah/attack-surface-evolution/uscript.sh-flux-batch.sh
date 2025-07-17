@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-car-3266
+#FLUX: --job-name=phat-underoos-8168
+#FLUX: --queue=work
 #FLUX: --urgency=16
 
 subject=$1

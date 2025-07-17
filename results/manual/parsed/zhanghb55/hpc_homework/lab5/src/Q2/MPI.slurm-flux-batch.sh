@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lettuce-4700
+#FLUX: --job-name=zhb
+#FLUX: -N=8
+#FLUX: --queue=work
 #FLUX: --urgency=16
 
 export I_MPI_FAVRICS='shm:dapl'

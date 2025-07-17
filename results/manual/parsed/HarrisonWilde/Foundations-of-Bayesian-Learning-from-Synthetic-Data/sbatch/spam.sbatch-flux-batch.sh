@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-mango-9846
+#FLUX: --job-name=conspicuous-parrot-1054
 #FLUX: -N=11
 #FLUX: -t=172800
 #FLUX: --urgency=16

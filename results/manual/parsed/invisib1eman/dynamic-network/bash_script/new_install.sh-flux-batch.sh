@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=install_lammps
+#FLUX: --queue=buyin
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export dir='/projects/b1021/Jianshe/codes/lammps/lammps-stable/lammps-29Sep2021/cmake'

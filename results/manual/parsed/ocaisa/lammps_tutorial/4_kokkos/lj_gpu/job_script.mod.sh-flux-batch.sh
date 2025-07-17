@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lamp-0133
+#FLUX: --job-name=misunderstood-rabbit-3306
 #FLUX: -c=6
 #FLUX: --queue=develgpus
 #FLUX: -t=600

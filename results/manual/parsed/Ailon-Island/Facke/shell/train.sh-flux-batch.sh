@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-fudge-4848
+#FLUX: --job-name=Facke
+#FLUX: --queue=gpu
+#FLUX: -t=900000
 #FLUX: --urgency=16
 
 module load anaconda3/2019.07

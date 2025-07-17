@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-butter-1840
+#FLUX: --job-name=apogeebh
+#FLUX: -n=224
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 cd /tigress/adrianp/projects/apogeebh/scripts/

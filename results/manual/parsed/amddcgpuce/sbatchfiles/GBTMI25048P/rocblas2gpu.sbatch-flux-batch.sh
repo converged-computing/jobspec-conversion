@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-pot-7218
+#FLUX: --job-name=goodbye-pedo-2160
 #FLUX: -c=8
 #FLUX: --urgency=16
 

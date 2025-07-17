@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-snack-8066
+#FLUX: --job-name=faux-leg-0512
+#FLUX: -n=8
+#FLUX: --queue=batch
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export SRUN_ARGS='--cpu-bind=none --mpi=none --no-container-remap-root --container-mounts=$CONTAINER_MNTS --container-workdir=/mnt --container-name=$CONTAINER_NAME'

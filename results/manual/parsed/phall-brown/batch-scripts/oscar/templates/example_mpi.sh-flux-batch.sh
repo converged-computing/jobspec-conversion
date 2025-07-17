@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-despacito-2331
+#FLUX: --job-name=MyMPIJob
 #FLUX: -N=4
 #FLUX: --queue=batch
 #FLUX: -t=86400

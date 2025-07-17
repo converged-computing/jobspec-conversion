@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pulse1-haswell
+#FLUX: --job-name=mjr-cori
 #FLUX: -N=4
 #FLUX: -c=64
 #FLUX: --queue=debug
-#FLUX: -t=1800
+#FLUX: -t=1500
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'

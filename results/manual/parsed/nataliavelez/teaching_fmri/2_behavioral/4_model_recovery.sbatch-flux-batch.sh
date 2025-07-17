@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-squidward-9865
+#FLUX: --job-name=butterscotch-cattywampus-3383
+#FLUX: --queue=fasse
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module load ncf

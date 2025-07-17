@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-parsnip-0688
+#FLUX: --job-name=frigid-malarkey-1064
 #FLUX: -N=3
 #FLUX: -t=86400
 #FLUX: --urgency=16

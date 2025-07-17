@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=geobipy_synthetics
+#FLUX: -N=2
+#FLUX: -n=80
+#FLUX: --queue=workq
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

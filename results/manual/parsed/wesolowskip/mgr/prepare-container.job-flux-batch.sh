@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-fork-9314
+#FLUX: --job-name=prepare-container
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 conda update -n base -c conda-forge conda

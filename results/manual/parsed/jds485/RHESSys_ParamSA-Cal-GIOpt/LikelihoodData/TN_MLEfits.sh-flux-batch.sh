@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-avocado-7872
+#FLUX: --job-name=nerdy-destiny-6282
+#FLUX: -N=15
+#FLUX: --queue=parallel
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module purge

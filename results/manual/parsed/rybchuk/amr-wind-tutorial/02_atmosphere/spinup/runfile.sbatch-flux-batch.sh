@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-toaster-9548
+#FLUX: --job-name=hairy-pot-9883
 #FLUX: -N=2
 #FLUX: --queue=debug
 #FLUX: -t=3540

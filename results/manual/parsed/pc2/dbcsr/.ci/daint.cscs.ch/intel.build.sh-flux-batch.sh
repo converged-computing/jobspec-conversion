@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-nalgas-9814
+#FLUX: --job-name=ornery-butter-0687
 #FLUX: -c=3
 #FLUX: --exclusive
 #FLUX: --queue=cscsci

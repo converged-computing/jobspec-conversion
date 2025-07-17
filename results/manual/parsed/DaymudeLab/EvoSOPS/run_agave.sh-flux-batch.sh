@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-hobbit-2821
+#FLUX: --job-name=faux-bits-9339
+#FLUX: -n=24
+#FLUX: --queue=normal
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module purge

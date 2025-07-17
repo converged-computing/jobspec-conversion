@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-rabbit-9988
+#FLUX: --job-name=SVBRDFTraining
 #FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16

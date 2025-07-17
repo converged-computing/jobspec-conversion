@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=deception_10nodes_pfs_ssd7
+#FLUX: -N=10
+#FLUX: -n=200
 #FLUX: --queue=slurm
 #FLUX: -t=5400
 #FLUX: --urgency=16

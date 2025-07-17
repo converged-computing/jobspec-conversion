@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-train-2421
+#FLUX: --job-name=purple-eagle-0938
+#FLUX: --queue=long
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module load gcc

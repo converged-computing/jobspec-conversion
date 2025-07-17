@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-despacito-5662
+#FLUX: --job-name=jittor
+#FLUX: -n=32
+#FLUX: --queue=xahdtest
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/work/home/ac310l39ky/miniconda3/envs/jittor/lib:$LD_LIBRARY_PATH'

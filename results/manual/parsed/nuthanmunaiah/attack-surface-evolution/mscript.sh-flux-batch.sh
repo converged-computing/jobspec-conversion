@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-platanos-3126
+#FLUX: --job-name=ase-mscript
+#FLUX: --queue=work
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$HOME/lib:$HOME/lib64'

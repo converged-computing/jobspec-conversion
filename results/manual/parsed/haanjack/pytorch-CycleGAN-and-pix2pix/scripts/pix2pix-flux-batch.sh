@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-sundae-1420
+#FLUX: --job-name=cowy-bits-6599
 #FLUX: --exclusive
+#FLUX: --queue=batch
 #FLUX: -t=600
 #FLUX: --urgency=16
 

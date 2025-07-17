@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-nunchucks-7864
+#FLUX: --job-name=r2d1
+#FLUX: -n=4
+#FLUX: --queue=gpu
 #FLUX: -t=705600
 #FLUX: --urgency=16
 

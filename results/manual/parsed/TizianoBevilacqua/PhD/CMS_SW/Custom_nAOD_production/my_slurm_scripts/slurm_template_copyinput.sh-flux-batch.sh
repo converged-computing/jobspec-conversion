@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-lemon-0083
+#FLUX: --job-name=outstanding-parsnip-2373
 #FLUX: -c=4
 #FLUX: --queue=long
 #FLUX: -t=86400

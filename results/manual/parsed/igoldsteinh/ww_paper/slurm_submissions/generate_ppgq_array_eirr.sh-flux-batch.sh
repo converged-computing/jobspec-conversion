@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pastry-3390
+#FLUX: --job-name=blue-peanut-butter-4705
+#FLUX: -n=4
+#FLUX: --queue=standard
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module purge

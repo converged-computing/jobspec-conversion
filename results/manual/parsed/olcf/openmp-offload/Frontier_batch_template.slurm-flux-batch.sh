@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-butter-3503
+#FLUX: --job-name=omptutorial
+#FLUX: --queue=batch
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='7    # for CPU OpenMP'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-chip-4100
+#FLUX: --job-name=psycho-taco-3713
 #FLUX: --queue=exacloud
 #FLUX: -t=1440
 #FLUX: --urgency=16

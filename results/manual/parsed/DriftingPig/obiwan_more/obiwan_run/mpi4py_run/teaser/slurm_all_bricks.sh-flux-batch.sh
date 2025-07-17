@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-bike-7971
+#FLUX: --job-name=sleep2
+#FLUX: --queue=debug
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export name_for_run='elg_new_ccd_list'

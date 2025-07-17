@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-platanos-5192
+#FLUX: --job-name=train
 #FLUX: -c=2
+#FLUX: --queue=defq
+#FLUX: -t=691200
 #FLUX: --urgency=16
 
 module load cuda11.0/toolkit/11.0.3

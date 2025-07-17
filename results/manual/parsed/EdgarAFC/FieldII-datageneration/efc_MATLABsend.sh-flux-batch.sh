@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-platanos-0958
+#FLUX: --job-name=fat-bike-0329
 #FLUX: --queue=thinkstation-p360
 #FLUX: --urgency=16
 

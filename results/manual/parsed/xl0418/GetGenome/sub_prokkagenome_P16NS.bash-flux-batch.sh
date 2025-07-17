@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lentil-8788
+#FLUX: --job-name=ProkkaP16NS
 #FLUX: -n=32
 #FLUX: -t=601800
 #FLUX: --urgency=16

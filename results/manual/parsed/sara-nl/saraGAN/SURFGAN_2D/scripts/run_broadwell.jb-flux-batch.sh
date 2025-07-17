@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cat-8670
+#FLUX: --job-name=confused-snack-7079
+#FLUX: -N=64
+#FLUX: -n=64
+#FLUX: --queue=broadwell
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 export KMP_BLOCKTIME='0'

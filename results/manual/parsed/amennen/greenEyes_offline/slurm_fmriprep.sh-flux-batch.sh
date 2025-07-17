@@ -2,6 +2,7 @@
 #FLUX: --job-name=fmriprep
 #FLUX: -c=8
 #FLUX: --queue=all
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 echo "Purging modules"

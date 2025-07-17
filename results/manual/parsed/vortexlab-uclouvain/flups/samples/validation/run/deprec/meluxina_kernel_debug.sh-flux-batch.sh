@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-eagle-5654
+#FLUX: --job-name=placid-toaster-2479
 #FLUX: --queue=cpu
 #FLUX: -t=1800
 #FLUX: --urgency=16

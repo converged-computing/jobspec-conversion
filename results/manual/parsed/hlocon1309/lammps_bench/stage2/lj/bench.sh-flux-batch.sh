@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-muffin-6840
+#FLUX: --job-name=bloated-egg-9674
+#FLUX: --queue=normal
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-muffin-4891
+#FLUX: --job-name=hairy-truffle-3467
+#FLUX: -c=8
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load ncf/1.0.0-fasrc01

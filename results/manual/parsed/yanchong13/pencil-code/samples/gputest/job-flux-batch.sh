@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-kerfuffle-8242
+#FLUX: --job-name=arid-mango-1123
+#FLUX: --queue=gputest
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 rm -f LOCK

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-cupcake-7104
+#FLUX: --job-name=petscinstalljob
+#FLUX: --queue=vm-small
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module list

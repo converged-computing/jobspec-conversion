@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-destiny-1016
+#FLUX: --job-name=dirty-frito-4651
+#FLUX: -N=3
+#FLUX: --queue=RM
+#FLUX: -t=115200
 #FLUX: --urgency=16
 
 SINGULARITY_CONT=$PROJECT/psrsearch.sif

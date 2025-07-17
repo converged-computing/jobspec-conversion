@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-latke-6038
+#FLUX: --job-name=spicy-signal-9229
+#FLUX: -c=8
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module purge && module load  esslurm gcc/7.3.0 python3 cuda/10.1.243

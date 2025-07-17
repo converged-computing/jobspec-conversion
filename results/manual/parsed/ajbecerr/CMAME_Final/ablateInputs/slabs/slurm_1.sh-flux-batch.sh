@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-buttface-1058
+#FLUX: --job-name=2dSlab
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PETSC_DIR='/usr/workspace/ajbecerr/petsc" #UPDATE to the real path of petsc'

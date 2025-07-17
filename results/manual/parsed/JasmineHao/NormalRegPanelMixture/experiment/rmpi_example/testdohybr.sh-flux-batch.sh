@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-leader-9984
+#FLUX: --job-name=job
+#FLUX: -c=20
 #FLUX: --queue=amd
 #FLUX: -t=1800
 #FLUX: --urgency=16

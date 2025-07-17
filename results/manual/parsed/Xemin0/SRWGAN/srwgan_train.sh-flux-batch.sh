@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-eagle-4690
+#FLUX: --job-name=SRWGAN
+#FLUX: -c=2
+#FLUX: --queue=gpu
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='TRUE'

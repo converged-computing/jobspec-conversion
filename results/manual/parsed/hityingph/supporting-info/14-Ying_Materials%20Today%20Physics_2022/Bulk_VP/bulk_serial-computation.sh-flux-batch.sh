@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lentil-6887
+#FLUX: --job-name=Serial-computation
+#FLUX: -n=64
+#FLUX: --queue=amd_256
 #FLUX: --urgency=16
 
 export PATH='/public3/home/sc52255/vasp.6.1.0/vasp.6.1.0/bin:$PATH'

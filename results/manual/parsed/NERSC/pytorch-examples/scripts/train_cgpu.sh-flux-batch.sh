@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-frito-4884
+#FLUX: --job-name=train-cgpu
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive

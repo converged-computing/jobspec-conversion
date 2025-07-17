@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=deepPPI%j
 #FLUX: -c=10
+#FLUX: --queue=Piramid
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 HOMEDIR=/home/UFIP/servantie_c/deepppi/PPIpredict/deep

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pedo-0450
+#FLUX: --job-name=ABNAME0000
+#FLUX: -n=64
+#FLUX: --queue=normal
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export MKL_MIC_ENABLE='1'

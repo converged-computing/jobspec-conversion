@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-fudge-2232
+#FLUX: --job-name=straggler4nodes_stat
+#FLUX: -N=4
+#FLUX: -n=4
+#FLUX: --queue=normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 cd /data/03170/tg824689/BecksteinLab/scripts-DCD

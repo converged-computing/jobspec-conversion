@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-rabbit-6932
+#FLUX: --job-name=salted-car-1888
+#FLUX: -c=4
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load cuda/10

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-carrot-9066
+#FLUX: --job-name=compute_guse
+#FLUX: --queue=ampere
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

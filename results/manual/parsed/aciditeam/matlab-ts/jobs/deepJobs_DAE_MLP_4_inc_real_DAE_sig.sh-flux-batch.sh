@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-peanut-butter-8647
+#FLUX: --job-name=Deep-DAE_MLP_4_inc_real_DAE_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-general-5510
+#FLUX: --job-name=sticky-arm-2592
 #FLUX: -c=16
 #FLUX: --urgency=16
 

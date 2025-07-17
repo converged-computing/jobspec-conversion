@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lentil-9601
+#FLUX: --job-name=stinky-lamp-0248
 #FLUX: --urgency=16
 
 OUTPUT=../output1

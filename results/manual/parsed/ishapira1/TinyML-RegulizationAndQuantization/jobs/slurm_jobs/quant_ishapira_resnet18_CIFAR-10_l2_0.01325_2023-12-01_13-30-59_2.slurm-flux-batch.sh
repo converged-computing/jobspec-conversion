@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-destiny-8863
+#FLUX: --job-name=goodbye-noodle-5298
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

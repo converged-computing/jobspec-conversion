@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lizard-2755
+#FLUX: --job-name=cluster_transcripts
+#FLUX: -t=1440
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

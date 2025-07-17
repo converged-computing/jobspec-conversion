@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-citrus-4611
+#FLUX: --job-name=evasive-muffin-9625
 #FLUX: -c=4
 #FLUX: --queue=teton-gpu
 #FLUX: -t=21600

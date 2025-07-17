@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-punk-0415
+#FLUX: --job-name=sc10_plotDerv_levelplot_equi7_for_annex.R.sh
+#FLUX: --queue=scavenge
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load Apps/R/3.3.2-generic

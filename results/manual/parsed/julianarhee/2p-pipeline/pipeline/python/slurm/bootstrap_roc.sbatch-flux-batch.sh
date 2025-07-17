@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-frito-4918
+#FLUX: --job-name=roc
+#FLUX: -n=8
+#FLUX: --queue=cox
+#FLUX: -t=240
 #FLUX: --urgency=16
 
 module load centos6/0.0.1-fasrc01

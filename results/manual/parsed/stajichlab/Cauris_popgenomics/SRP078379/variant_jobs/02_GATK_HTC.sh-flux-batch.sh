@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-fudge-0679
+#FLUX: --job-name=C_aur.HTC.GATK
 #FLUX: -n=16
 #FLUX: -t=64800
 #FLUX: --urgency=16

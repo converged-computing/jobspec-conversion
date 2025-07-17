@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pancake-9566
+#FLUX: --job-name=CR61-test
+#FLUX: -n=48
+#FLUX: --queue=skx-dev
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export LAMMPS_EXEC='ibrun lmp_stampede'

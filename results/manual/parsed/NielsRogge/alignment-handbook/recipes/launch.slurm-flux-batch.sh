@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-noodle-6160
+#FLUX: --job-name=blue-leopard-9936
 #FLUX: --exclusive
 #FLUX: --queue=production-cluster
 #FLUX: --urgency=16

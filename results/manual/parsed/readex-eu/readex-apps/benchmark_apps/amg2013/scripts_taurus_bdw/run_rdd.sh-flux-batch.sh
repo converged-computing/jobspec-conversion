@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-spoon-2850
+#FLUX: --job-name=amg2013_rdd
 #FLUX: -N=4
 #FLUX: -c=14
 #FLUX: --exclusive

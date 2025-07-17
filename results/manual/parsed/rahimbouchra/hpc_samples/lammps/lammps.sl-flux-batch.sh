@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-fudge-9238
+#FLUX: --job-name=LMP
 #FLUX: -n=16
 #FLUX: --queue=shortq
 #FLUX: --urgency=16

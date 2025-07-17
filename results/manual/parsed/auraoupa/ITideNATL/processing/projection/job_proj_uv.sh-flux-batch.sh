@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-lettuce-8170
+#FLUX: --job-name=projuv
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: -t=10800

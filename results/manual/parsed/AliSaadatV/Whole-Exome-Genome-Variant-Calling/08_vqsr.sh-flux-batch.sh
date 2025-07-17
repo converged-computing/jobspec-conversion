@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-peanut-butter-8748
+#FLUX: --job-name=vqsr_PRI
 #FLUX: -c=2
 #FLUX: -t=36000
 #FLUX: --urgency=16

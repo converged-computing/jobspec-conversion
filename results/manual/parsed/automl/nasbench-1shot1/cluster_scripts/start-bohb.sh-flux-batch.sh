@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-fudge-4759
+#FLUX: --job-name=bohb-nasbench
+#FLUX: --queue=bosch_gpu-rtx2080
 #FLUX: --urgency=16
 
 source activate tensorflow-stable

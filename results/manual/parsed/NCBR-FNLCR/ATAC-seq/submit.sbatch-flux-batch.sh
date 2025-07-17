@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-salad-6772
+#FLUX: --job-name=tart-cinnamonbun-7907
 #FLUX: -n=2
 #FLUX: --queue=norm
 #FLUX: -t=345600

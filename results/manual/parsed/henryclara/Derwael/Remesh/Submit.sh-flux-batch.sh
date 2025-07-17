@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-sundae-4697
+#FLUX: --job-name=Remesh
 #FLUX: --queue=compute
 #FLUX: -t=420
 #FLUX: --urgency=16

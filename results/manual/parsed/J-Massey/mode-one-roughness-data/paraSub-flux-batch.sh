@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-earthworm-4394
+#FLUX: --job-name=hanky-signal-7174
 #FLUX: -n=64
 #FLUX: --queue=amd
 #FLUX: -t=24600

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-egg-4969
+#FLUX: --job-name=conspicuous-poo-9328
+#FLUX: --queue=gpu2
 #FLUX: -t=2700
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-hope-0664
+#FLUX: --job-name=zly
 #FLUX: --queue=gpulab02
 #FLUX: --urgency=16
 

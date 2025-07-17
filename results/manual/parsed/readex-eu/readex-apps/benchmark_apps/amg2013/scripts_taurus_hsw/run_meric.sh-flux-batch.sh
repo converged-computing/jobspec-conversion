@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-caramel-4475
+#FLUX: --job-name=amg2013_meric
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --exclusive

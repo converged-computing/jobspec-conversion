@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-itch-8030
+#FLUX: --job-name=perfect
 #FLUX: --queue=express
 #FLUX: -t=600
 #FLUX: --urgency=16

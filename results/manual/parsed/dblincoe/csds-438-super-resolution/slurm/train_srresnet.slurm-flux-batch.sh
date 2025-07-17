@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bicycle-4351
+#FLUX: --job-name=stanky-chip-4771
+#FLUX: --queue=class
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 module load cuda/11.2

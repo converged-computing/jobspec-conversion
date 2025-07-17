@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-general-1156
+#FLUX: --job-name=chocolate-cherry-1956
+#FLUX: --queue=a100q
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 nvidia-smi

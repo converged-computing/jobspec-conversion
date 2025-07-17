@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-taco-4797
+#FLUX: --job-name=image_fairness
+#FLUX: --queue=tier3
+#FLUX: -t=270303
 #FLUX: --urgency=16
 
 spack unload -a

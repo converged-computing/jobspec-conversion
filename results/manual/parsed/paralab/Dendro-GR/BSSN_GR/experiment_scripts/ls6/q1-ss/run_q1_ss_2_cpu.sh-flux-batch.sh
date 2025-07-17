@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-citrus-3241
+#FLUX: --job-name=dgr
+#FLUX: -n=128
+#FLUX: --queue=gpu-a100
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 module list

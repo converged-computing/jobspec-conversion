@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-salad-5128
+#FLUX: --job-name=pangeo
 #FLUX: -c=10
 #FLUX: -t=14400
 #FLUX: --urgency=16

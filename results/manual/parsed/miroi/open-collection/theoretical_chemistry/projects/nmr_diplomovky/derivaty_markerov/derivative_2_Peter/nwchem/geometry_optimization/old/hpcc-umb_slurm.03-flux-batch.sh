@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-leader-2194
+#FLUX: --job-name=d2nw2dk
+#FLUX: -n=12
+#FLUX: --queue=compute
+#FLUX: -t=295200
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/lib:$LD_LIBRARY_PATH'

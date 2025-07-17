@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-citrus-1705
+#FLUX: --job-name=lovely-blackbean-6702
+#FLUX: --queue=work
 #FLUX: --urgency=16
 
 subject=$1

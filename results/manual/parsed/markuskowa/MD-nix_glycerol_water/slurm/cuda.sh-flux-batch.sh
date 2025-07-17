@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lamp-5269
+#FLUX: --job-name=gromacs
+#FLUX: -n=24
+#FLUX: --queue=ampere
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$ntomp'

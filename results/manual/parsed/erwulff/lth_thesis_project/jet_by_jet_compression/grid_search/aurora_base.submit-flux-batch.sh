@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-house-3687
+#FLUX: --job-name=butterscotch-squidward-7915
+#FLUX: --queue=hep
+#FLUX: -t=82800
 #FLUX: --urgency=16
 
 cat $0

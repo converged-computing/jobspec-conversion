@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-egg-2033
+#FLUX: --job-name=quirky-eagle-4036
+#FLUX: -c=2
+#FLUX: --queue=priority
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 usage() {

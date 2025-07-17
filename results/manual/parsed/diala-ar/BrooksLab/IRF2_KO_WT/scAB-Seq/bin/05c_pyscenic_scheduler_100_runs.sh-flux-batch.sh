@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-ricecake-0897
+#FLUX: --job-name=pyscenic
+#FLUX: -c=24
+#FLUX: --queue=himem
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 cd /cluster/projects/mcgahalab/data/brookslab/sabelo/AB_seq_v2/

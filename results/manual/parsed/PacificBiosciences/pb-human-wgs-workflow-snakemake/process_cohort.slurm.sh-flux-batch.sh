@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-lamp-1416
+#FLUX: --job-name=quirky-malarkey-9002
 #FLUX: -c=4
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 COHORT=$1

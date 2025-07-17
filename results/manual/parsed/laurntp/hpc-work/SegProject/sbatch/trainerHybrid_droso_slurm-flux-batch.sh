@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-chip-5024
+#FLUX: --job-name=gpujob
+#FLUX: --queue=ampere
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

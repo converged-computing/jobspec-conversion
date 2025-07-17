@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-spoon-5710
+#FLUX: --job-name=outstanding-underoos-8318
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=rome

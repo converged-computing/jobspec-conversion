@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-parsnip-4265
+#FLUX: --job-name=$1
 #FLUX: --urgency=16
 
 sbatch<<EOT

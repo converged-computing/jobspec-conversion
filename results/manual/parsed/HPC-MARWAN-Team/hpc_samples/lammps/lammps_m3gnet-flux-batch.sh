@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-pastry-2260
+#FLUX: --job-name=LMP
 #FLUX: --queue=shortq
 #FLUX: --urgency=16
 

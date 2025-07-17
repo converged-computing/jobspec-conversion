@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ParrLO
+#FLUX: -N=2
 #FLUX: -c=24
 #FLUX: --urgency=16
 

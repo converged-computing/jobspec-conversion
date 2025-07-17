@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pedo-9762
+#FLUX: --job-name=zxx_gpu1
+#FLUX: --queue=gpu-shared
+#FLUX: -t=169200
 #FLUX: --urgency=16
 
 export PYTHONPATH='PYTHONPATH:$HOME/python_projects/'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pedo-6990
+#FLUX: --job-name=angry-cattywampus-8114
+#FLUX: -N=8
 #FLUX: --urgency=16
 
 srun /opt/ucs/demo/workloads/AMG 1

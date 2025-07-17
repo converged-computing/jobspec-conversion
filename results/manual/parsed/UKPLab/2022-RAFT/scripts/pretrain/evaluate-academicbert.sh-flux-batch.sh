@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-parsnip-9001
+#FLUX: --job-name=evaluate-original
 #FLUX: --urgency=16
 
 export CXX='g++'

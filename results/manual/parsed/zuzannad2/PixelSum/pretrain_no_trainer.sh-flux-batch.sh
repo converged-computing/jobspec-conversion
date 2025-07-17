@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=pretrain-pixel-gpt2large
 #FLUX: -c=48
+#FLUX: --queue=gpu
 #FLUX: -t=270000
 #FLUX: --urgency=16
 

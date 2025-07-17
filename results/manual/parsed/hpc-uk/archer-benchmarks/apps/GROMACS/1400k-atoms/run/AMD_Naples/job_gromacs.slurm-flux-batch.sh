@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-milkshake-4644
+#FLUX: --job-name=gmx_1400atoms_1node_16tasks
 #FLUX: -n=16
 #FLUX: --exclusive
+#FLUX: --queue=EPYC-16c_edr-ib1_256gb_2666
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

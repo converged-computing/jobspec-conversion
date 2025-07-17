@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-snack-3239
+#FLUX: --job-name=expensive-nunchucks-2009
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

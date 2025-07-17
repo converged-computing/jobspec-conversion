@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-nalgas-6796
+#FLUX: --job-name=bumfuzzled-peanut-butter-9905
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

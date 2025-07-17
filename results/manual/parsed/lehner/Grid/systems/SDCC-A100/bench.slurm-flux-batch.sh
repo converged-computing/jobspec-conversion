@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-chip-0384
+#FLUX: --job-name=astute-peas-2696
 #FLUX: -n=4
 #FLUX: --exclusive
 #FLUX: --queue=csi

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-hobbit-7991
+#FLUX: --job-name=planet
+#FLUX: -n=224
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 cd /tigress/adrianp/projects/dailyplanet/scripts/

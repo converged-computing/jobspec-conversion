@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-malarkey-3865
+#FLUX: --job-name=carnivorous-soup-8769
 #FLUX: --queue=hetmathsys
 #FLUX: -t=600
 #FLUX: --urgency=16

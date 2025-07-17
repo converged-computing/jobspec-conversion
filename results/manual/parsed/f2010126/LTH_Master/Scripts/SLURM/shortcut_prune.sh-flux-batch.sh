@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lemur-9101
+#FLUX: --job-name=ResNet_Short_Rewind
+#FLUX: -t=71940
 #FLUX: --urgency=16
 
 cd $(ws_find lth_ws)

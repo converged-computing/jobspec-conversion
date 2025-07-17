@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-arm-5557
+#FLUX: --job-name=blank-despacito-3308
+#FLUX: -N=16
+#FLUX: --queue=regular
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-punk-3533
+#FLUX: --job-name=fuzzy-despacito-4185
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=learnlab

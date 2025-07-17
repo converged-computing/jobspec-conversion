@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mima-compile
+#FLUX: -n=24
 #FLUX: --urgency=16
 
 export LD='${FC}'

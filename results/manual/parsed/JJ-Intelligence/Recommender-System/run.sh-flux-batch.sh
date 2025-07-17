@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-truffle-6904
+#FLUX: --job-name=eccentric-malarkey-4081
 #FLUX: --queue=lycium
 #FLUX: -t=86400
 #FLUX: --urgency=16

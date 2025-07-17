@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-truffle-9320
+#FLUX: --job-name=sm
+#FLUX: --queue=shared
+#FLUX: -t=540000
 #FLUX: --urgency=16
 
 CONDA_BASE=$(conda info --base)

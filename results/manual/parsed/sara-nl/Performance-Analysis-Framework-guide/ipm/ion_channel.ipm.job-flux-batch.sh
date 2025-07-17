@@ -1,5 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=faux-noodle-8902
+#FLUX: --job-name=gromacs
+#FLUX: -N=2
+#FLUX: -n=16
+#FLUX: -c=4
+#FLUX: --queue=broadwell
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export GROMACSINSTALLDIR='/home/$USER/gromacs-2019.3/install'

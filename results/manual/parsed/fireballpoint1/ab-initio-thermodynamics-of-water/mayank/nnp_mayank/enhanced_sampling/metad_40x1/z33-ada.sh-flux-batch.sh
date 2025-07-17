@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-despacito-4250
+#FLUX: --job-name=reclusive-blackbean-7826
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-rabbit-1064
+#FLUX: --job-name=EB-install
+#FLUX: -n=24
+#FLUX: --queue=amd_gpu
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export SBATCH_CONSTRAINT='zen3&2xA100'

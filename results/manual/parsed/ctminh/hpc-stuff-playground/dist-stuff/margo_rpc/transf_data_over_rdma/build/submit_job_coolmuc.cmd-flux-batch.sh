@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-car-6143
+#FLUX: --job-name=bulkdat_rdma
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120

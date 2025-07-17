@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-spoon-3788
+#FLUX: --job-name=run_all
+#FLUX: -n=48
+#FLUX: --queue=skx-dev
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export LD_PRELOAD='/home1/apps/tacc-patches/python_cacher/myopen.so'

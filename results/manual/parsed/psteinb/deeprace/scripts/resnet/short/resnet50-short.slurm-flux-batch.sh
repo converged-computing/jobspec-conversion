@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-bits-7310
+#FLUX: --job-name=outstanding-staircase-3959
+#FLUX: --queue=gpu2
 #FLUX: -t=4800
 #FLUX: --urgency=16
 

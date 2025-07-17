@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lemur-4783
+#FLUX: --job-name=PFN-l2
+#FLUX: --queue=gpu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 source tensorflow.venv/bin/activate

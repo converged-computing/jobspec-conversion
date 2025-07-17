@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-citrus-3115
+#FLUX: --job-name=hpo-cifar-cnn
+#FLUX: -N=8
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export KMP_BLOCKTIME='0'

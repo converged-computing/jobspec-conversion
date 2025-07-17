@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-blackbean-2840
+#FLUX: --job-name=angry-onion-0246
+#FLUX: --queue=fasse
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load ncf

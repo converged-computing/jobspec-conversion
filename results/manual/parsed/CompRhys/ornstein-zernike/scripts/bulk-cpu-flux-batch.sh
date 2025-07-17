@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-ricecake-6360
+#FLUX: --job-name=bulk
+#FLUX: --queue=skylake
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

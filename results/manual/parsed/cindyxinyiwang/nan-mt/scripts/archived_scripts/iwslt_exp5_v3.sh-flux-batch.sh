@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-pedo-5993
+#FLUX: --job-name=eccentric-fork-2734
+#FLUX: -t=0
 #FLUX: --urgency=16
 
 module load singularity

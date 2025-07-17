@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=test-hpcg.8N
+#FLUX: -N=8
 #FLUX: -t=2400
 #FLUX: --urgency=16
 

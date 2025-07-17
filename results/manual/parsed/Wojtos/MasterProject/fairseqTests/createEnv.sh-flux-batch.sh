@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lizard-3607
+#FLUX: --job-name=salted-cat-9675
 #FLUX: --urgency=16
 
 module load plgrid/tools/python-intel/3.6.2

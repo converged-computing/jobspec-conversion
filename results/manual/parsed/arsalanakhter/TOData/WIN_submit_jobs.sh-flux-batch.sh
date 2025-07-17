@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-house-9823
+#FLUX: --job-name=toptw
+#FLUX: -n=12
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 set -e

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lentil-8508
+#FLUX: --job-name=phat-train-3175
+#FLUX: --queue=standard
+#FLUX: -t=59400
 #FLUX: --urgency=16
 
 sbatch --array=${1}-${2} <<EOT

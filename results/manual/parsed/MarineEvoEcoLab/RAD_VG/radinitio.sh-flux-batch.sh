@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hope-0870
+#FLUX: --job-name=anxious-latke-3174
+#FLUX: -c=20
+#FLUX: --queue=uri-cpu
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-diablo-0543
+#FLUX: --job-name=CJH_cat2hypDD
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

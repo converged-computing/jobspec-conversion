@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-parrot-5013
+#FLUX: --job-name=mise_a_jour_TRUST_arch
+#FLUX: --queue=slim,large,fat,eris,pluton
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 set -x

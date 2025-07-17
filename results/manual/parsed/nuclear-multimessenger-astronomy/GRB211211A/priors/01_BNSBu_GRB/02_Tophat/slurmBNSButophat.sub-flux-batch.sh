@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nmmaBNSButophat.job
+#FLUX: --queue=shared
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-bike-4956
+#FLUX: --job-name=boopy-citrus-2429
+#FLUX: -N=2
 #FLUX: -n=13
+#FLUX: --queue=fat_soil_shared
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

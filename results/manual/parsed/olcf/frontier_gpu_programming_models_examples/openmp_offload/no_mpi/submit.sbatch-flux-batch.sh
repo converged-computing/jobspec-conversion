@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-arm-6040
+#FLUX: --job-name=spicy-sundae-5863
+#FLUX: --queue=batch
+#FLUX: -t=2100
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

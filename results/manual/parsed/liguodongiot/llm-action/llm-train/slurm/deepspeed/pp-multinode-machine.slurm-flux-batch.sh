@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=multinode-deepspeed
+#FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: --queue=a800

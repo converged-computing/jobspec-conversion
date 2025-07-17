@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-snack-6419
+#FLUX: --job-name=hairy-kerfuffle-7814
 #FLUX: -N=64
 #FLUX: -c=10
 #FLUX: --queue=booster

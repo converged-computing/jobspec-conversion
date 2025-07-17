@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-hobbit-1680
+#FLUX: --job-name=reclusive-soup-6069
 #FLUX: -c=12
 #FLUX: --queue=devel
 #FLUX: -t=600

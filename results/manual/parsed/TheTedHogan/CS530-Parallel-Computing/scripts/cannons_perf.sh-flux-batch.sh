@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-diablo-7045
+#FLUX: --job-name=hogan
+#FLUX: -n=28
+#FLUX: --queue=defq
+#FLUX: -t=2700
 #FLUX: --urgency=16
 
 module load gcc/10.2.0

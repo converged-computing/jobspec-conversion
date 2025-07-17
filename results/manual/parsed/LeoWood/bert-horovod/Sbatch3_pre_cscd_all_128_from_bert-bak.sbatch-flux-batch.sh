@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-malarkey-3750
+#FLUX: --job-name=pre_all_scrach
+#FLUX: -N=10
 #FLUX: -c=8
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 export MIOPEN_USER_DB_PATH='/tmp/tensorflow-miopen-${USER}-2.8'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-toaster-7517
+#FLUX: --job-name=par-finetune
+#FLUX: --queue=ampere
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

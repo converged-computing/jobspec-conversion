@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-muffin-7351
+#FLUX: --job-name=lovable-underoos-7880
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/camm/code/simulation/namd_hopper.pbs

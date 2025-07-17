@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-leopard-3626
+#FLUX: --job-name=dockerMap
+#FLUX: -c=7
+#FLUX: --queue=standard
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 pwd

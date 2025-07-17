@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-buttface-4585
+#FLUX: --job-name=Inv_iso
+#FLUX: -N=32
+#FLUX: -n=64
+#FLUX: -t=12600
 #FLUX: --urgency=16
 
 export user='$(whoami)'

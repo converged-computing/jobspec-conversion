@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-egg-4668
+#FLUX: --job-name=obiwan
+#FLUX: -N=7
+#FLUX: --queue=regular
+#FLUX: -t=64800
 #FLUX: --urgency=16
 
 export name_for_run='elg_like_run'

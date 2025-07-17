@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cupcake-2841
+#FLUX: --job-name=MNMG TensorFlow
+#FLUX: -N=2
+#FLUX: --queue=alvis
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module purge

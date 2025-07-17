@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-knife-6526
+#FLUX: --job-name=stinky-cat-7208
 #FLUX: -c=10
 #FLUX: --queue=dcs-gpu
 #FLUX: -t=7200

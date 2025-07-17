@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-diablo-4700
+#FLUX: --job-name=chunky-punk-0030
 #FLUX: --urgency=16
 
 export LOG_DIR='/home/gridsan/zmccarthy/logs/spme_c_e_first'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-punk-1402
+#FLUX: --job-name=FA0660
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 set -e

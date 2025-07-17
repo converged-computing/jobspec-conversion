@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-leopard-4636
+#FLUX: --job-name=reclusive-chip-3956
+#FLUX: -c=5
+#FLUX: --queue=amp20
 #FLUX: --urgency=16
 
 module load gcc/gcc-10.2.0

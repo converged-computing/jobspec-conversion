@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-parrot-4283
+#FLUX: --job-name=mg
 #FLUX: -c=70
+#FLUX: --queue=infinity
 #FLUX: --urgency=16
 
 module load singularity/3.5.3

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-milkshake-3187
+#FLUX: --job-name=CASE2
 #FLUX: -N=16
 #FLUX: -n=33
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

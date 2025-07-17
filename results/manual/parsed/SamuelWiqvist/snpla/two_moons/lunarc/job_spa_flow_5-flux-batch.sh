@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-signal-2318
+#FLUX: --job-name=spa_flow
 #FLUX: --exclusive
+#FLUX: --queue=lu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

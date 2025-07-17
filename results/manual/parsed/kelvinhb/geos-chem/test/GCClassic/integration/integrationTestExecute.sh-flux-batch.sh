@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-malarkey-4916
+#FLUX: --job-name=buttery-buttface-1741
+#FLUX: -c=24
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 itRoot=$(cd ..; pwd)

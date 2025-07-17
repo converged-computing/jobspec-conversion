@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-parsnip-6986
+#FLUX: --job-name=sticky-earthworm-5443
+#FLUX: --queue=fpgasyn
 #FLUX: --urgency=16
 
 module load intelFPGA_pro/20.3.0

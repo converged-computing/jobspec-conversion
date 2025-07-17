@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-itch-2396
+#FLUX: --job-name=conspicuous-eagle-3765
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

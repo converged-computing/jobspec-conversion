@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-eagle-6368
+#FLUX: --job-name=nf-bam_to_fastq_(95)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

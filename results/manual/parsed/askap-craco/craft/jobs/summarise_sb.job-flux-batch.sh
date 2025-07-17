@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-signal-3892
+#FLUX: --job-name=strawberry-fork-9722
 #FLUX: -t=8400
 #FLUX: --urgency=16
 

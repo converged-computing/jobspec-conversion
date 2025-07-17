@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-snack-6481
+#FLUX: --job-name=auto-train
+#FLUX: --queue=g1_user
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LIBVASP:$LD_LIBRARY_PATH'

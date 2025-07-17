@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=${jobname}
+#FLUX: --queue=RM
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 set -e   # exit upon error

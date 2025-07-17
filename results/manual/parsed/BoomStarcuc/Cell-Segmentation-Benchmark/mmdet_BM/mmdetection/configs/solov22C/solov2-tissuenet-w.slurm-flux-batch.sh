@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pot-2626
+#FLUX: --job-name=solov2-tissuenet-w-2C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

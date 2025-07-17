@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-despacito-6337
+#FLUX: --job-name=floating_panels_2d
+#FLUX: -N=4
+#FLUX: -n=256
+#FLUX: --queue=workq
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/packages/compilers/intel/compiler/2022.0.2/linux/compiler/lib/intel64_lin:${LD_LIBRARY_PATH}'

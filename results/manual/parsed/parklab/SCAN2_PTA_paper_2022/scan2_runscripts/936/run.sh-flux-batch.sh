@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-lemur-9772
+#FLUX: --job-name=ornery-bike-9348
+#FLUX: --queue=priopark
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 /n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv \

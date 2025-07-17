@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-chair-2598
+#FLUX: --job-name=outstanding-destiny-4221
+#FLUX: -n=32
+#FLUX: --queue=defq
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-dog-6268
+#FLUX: --job-name=stemmus_scope
 #FLUX: -c=32
+#FLUX: --queue=thin
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 set -euo pipefail

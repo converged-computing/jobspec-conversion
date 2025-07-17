@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-dog-9408
+#FLUX: --job-name=itac_p4est_16_256
+#FLUX: -N=16
+#FLUX: -n=256
+#FLUX: --queue=normal
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-itac/bin'

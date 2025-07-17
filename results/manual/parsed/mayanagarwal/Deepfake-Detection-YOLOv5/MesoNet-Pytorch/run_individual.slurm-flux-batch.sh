@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-banana-9150
+#FLUX: --job-name=chocolate-itch-7584
 #FLUX: -n=8
+#FLUX: --queue=gpgpumse
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

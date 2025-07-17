@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lettuce-4754
+#FLUX: --job-name=cowy-itch-3701
+#FLUX: -c=128
 #FLUX: --queue=amdv100
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load python/3.7.2

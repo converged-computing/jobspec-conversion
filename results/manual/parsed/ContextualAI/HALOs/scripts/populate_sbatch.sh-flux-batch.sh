@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-kerfuffle-1073
+#FLUX: --job-name=delicious-truffle-0074
 #FLUX: --urgency=16
 
 source ~/.bashrc 

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-general-3704
+#FLUX: --job-name=array_job
 #FLUX: -c=2
+#FLUX: --queue=hi
 #FLUX: --urgency=16
 
 module load freebayes/0.9.14-15-gc6f49c0

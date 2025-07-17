@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-kerfuffle-2043
+#FLUX: --job-name=plink
+#FLUX: --queue=standard
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 module load plink/1.90b6.16

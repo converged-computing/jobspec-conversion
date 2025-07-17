@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_image_to_primitive
+#FLUX: -c=32
+#FLUX: --queue=gpu
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

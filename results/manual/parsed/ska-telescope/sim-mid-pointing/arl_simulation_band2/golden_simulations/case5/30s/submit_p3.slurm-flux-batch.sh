@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lemur-7357
+#FLUX: --job-name=SDP_ARL
 #FLUX: -N=8
 #FLUX: -n=33
+#FLUX: --queue=compute
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

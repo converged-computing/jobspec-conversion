@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-bicycle-5346
+#FLUX: --job-name=FLOFS_adc_SETUP
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 set -e

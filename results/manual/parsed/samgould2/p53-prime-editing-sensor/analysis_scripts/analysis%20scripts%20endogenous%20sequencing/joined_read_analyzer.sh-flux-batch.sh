@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-parsnip-3709
+#FLUX: --job-name=ornery-milkshake-9657
 #FLUX: --urgency=15
 
 module load miniconda3/v4

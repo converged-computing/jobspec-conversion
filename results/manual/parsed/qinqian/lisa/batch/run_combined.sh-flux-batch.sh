@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-platanos-6988
+#FLUX: --job-name=lisa_GEO
+#FLUX: -n=8
+#FLUX: --queue=serial_requeue
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export PATH='/n/home08/cliffmeyer/Jingyu/miniconda3/bin:$PATH'

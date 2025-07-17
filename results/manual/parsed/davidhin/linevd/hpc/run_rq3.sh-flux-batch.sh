@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rq3
+#FLUX: -n=6
+#FLUX: --queue=batch
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

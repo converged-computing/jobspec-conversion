@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-staircase-2476
+#FLUX: --job-name=reclusive-blackbean-3124
 #FLUX: -c=8
 #FLUX: -t=302400
 #FLUX: --urgency=16

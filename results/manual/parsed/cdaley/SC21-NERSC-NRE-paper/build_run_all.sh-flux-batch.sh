@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-platanos-7940
+#FLUX: --job-name=bumfuzzled-animal-0596
+#FLUX: -c=32
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 echo -e "\n\nBuilding and running Babelstream..."

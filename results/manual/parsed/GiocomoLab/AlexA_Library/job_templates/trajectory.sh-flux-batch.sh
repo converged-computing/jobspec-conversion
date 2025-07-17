@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=trajectory_predict
 #FLUX: -c=4
+#FLUX: --queue=giocomo
 #FLUX: --urgency=16
 
 ml py-tensorflow/2.1.0_py36

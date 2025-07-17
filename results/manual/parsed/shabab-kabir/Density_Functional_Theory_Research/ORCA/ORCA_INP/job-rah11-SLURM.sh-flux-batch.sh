@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=jobname
 #FLUX: --exclusive
+#FLUX: --queue=normal
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

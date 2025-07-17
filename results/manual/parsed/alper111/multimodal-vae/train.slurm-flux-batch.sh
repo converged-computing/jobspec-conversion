@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lettuce-8819
+#FLUX: --job-name=blank-rabbit-0176
 #FLUX: -c=10
+#FLUX: --queue=akya-cuda
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

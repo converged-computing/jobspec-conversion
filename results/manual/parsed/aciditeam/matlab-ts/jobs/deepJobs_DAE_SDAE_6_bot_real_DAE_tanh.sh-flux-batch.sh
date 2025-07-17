@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-earthworm-3586
+#FLUX: --job-name=Deep-DAE_SDAE_6_bot_real_DAE_tanh
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

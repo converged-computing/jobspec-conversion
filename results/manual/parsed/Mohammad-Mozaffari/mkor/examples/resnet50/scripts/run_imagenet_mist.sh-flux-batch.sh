@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-toaster-6235
+#FLUX: --job-name=pusheena-parsnip-6642
+#FLUX: -N=4
+#FLUX: --queue=compute_full_node
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 OPTIMIZER=sgd

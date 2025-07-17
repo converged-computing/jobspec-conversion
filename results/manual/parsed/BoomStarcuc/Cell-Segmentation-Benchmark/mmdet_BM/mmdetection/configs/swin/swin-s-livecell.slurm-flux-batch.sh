@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-noodle-0751
+#FLUX: --job-name=swin-s-livecell
+#FLUX: --queue=tier3
 #FLUX: -t=270000
 #FLUX: --urgency=16
 

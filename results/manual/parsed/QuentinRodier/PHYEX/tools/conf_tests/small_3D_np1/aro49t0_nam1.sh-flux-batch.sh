@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-staircase-9687
+#FLUX: --job-name=sticky-parsnip-5380
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

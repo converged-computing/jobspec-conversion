@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-itch-8699
+#FLUX: --job-name=m8_leveled_github_IC
+#FLUX: -N=8
+#FLUX: --queue=debug
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='64'

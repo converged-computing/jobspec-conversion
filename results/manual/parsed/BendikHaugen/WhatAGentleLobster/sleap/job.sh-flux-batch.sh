@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=astute-avocado-4030
+#FLUX: --job-name=JobLong
+#FLUX: -N=2
+#FLUX: -c=20
+#FLUX: --queue=GPUQ
+#FLUX: -t=126000
 #FLUX: --urgency=16
 
 echo "we are running from this directory: $SLURM_SUBMIT_DIR"

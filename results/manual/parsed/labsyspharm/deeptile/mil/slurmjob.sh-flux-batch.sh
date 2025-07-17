@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ACAEtest
+#FLUX: --queue=gpu
+#FLUX: -t=720
 #FLUX: --urgency=16
 
 export FP='jobresult_$SLURM_JOB_ID'

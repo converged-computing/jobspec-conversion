@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-bike-6233
+#FLUX: --job-name=buttery-plant-5728
+#FLUX: -n=4
 #FLUX: --urgency=16
 
 module load openmpi/gcc/64/1.10.7

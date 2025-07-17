@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lentil-9748
+#FLUX: --job-name=PELE_MPI
 #FLUX: -n=2
 #FLUX: --urgency=16
 

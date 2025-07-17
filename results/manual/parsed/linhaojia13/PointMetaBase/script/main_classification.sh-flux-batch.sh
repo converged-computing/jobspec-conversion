@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-banana-1239
+#FLUX: --job-name=modelnet
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

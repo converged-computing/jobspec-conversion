@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-itch-5719
+#FLUX: --job-name=confused-chip-7719
 #FLUX: -n=24
 #FLUX: --urgency=16
 

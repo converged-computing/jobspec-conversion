@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=install
+#FLUX: --queue=public
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load mamba/latest # only for Sol

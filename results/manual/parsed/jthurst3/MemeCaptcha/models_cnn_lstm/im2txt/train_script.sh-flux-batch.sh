@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lemur-4393
+#FLUX: --job-name=first_train
+#FLUX: -N=2
+#FLUX: --queue=gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load caffe

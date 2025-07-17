@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-hope-0335
+#FLUX: --job-name=milky-lettuce-7462
+#FLUX: -c=6
 #FLUX: --queue=long
 #FLUX: -t=172800
 #FLUX: --urgency=16

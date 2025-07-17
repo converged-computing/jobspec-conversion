@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bike-6784
+#FLUX: --job-name=doopy-earthworm-0020
 #FLUX: --urgency=16
 

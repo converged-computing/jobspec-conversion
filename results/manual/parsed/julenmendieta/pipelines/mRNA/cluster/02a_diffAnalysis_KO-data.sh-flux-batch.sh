@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=mRNA_diff-ko
 #FLUX: -c=8
+#FLUX: --queue=short
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

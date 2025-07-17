@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-salad-8337
+#FLUX: --job-name=goodbye-leg-2929
+#FLUX: -N=2
+#FLUX: --queue=bdwall
 #FLUX: -t=900
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-train-1029
+#FLUX: --job-name=8x8_darwin
 #FLUX: -c=64
 #FLUX: --exclusive
 #FLUX: --queue=condo-dtalmy

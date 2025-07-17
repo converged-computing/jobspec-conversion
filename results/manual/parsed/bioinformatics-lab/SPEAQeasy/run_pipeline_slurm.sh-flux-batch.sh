@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-itch-7237
+#FLUX: --job-name=wobbly-itch-9236
 #FLUX: --urgency=16
 
 export _JAVA_OPTIONS='-Xms8g -Xmx10g'

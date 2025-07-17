@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-poodle-7993
+#FLUX: --job-name=seesaw-tissuenet-w-1C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

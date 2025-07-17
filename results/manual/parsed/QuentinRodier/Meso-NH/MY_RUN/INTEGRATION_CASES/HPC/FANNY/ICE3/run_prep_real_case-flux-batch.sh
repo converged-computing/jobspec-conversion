@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-arm-3914
+#FLUX: --job-name=prep_fanny
+#FLUX: -n=16
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 16'

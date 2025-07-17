@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-plant-9877
+#FLUX: --job-name=fugly-gato-4086
 #FLUX: -c=48
 #FLUX: --queue=general
 #FLUX: -t=14400

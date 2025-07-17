@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sat_training2
 #FLUX: -n=28
+#FLUX: --queue=gpu
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

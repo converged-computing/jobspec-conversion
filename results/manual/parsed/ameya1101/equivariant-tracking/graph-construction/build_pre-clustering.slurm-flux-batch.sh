@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-signal-8503
+#FLUX: --job-name=build-graph-precluster
 #FLUX: -c=5
+#FLUX: --queue=regular
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

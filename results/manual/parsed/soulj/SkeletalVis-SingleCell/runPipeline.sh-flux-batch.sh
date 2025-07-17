@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lentil-5925
+#FLUX: --job-name=tart-toaster-3855
 #FLUX: --urgency=16
 
 module load singularity

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=1hm_ddmd_100ps
+#FLUX: -N=8
+#FLUX: -n=24
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

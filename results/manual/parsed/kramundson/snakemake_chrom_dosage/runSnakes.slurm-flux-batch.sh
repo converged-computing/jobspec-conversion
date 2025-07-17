@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=snake_mapping
+#FLUX: --queue=production
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

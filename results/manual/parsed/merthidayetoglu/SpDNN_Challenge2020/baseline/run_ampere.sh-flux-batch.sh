@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-omelette-3189
+#FLUX: --job-name=confused-egg-2712
 #FLUX: -N=4
 #FLUX: --queue=gpu
 #FLUX: -t=3600

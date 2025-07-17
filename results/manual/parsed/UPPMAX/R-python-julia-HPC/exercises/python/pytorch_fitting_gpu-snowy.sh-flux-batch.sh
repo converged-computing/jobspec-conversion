@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-parsnip-1001
+#FLUX: --job-name=evasive-butter-8405
 #FLUX: --exclusive
 #FLUX: -t=300
 #FLUX: --urgency=16

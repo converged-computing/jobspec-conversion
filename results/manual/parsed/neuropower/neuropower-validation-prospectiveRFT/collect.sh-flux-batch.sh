@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=SIM.coll
+#FLUX: --queue=russpold
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

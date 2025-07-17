@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-car-1063
+#FLUX: --job-name=chocolate-pastry-4123
+#FLUX: -c=2
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 source activate mlfold

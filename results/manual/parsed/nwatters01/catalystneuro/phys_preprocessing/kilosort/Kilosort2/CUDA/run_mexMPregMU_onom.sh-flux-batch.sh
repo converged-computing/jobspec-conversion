@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-nalgas-5083
+#FLUX: --job-name=evasive-motorcycle-8057
 #FLUX: --queue=jazayeri
 #FLUX: -t=14400
 #FLUX: --urgency=16

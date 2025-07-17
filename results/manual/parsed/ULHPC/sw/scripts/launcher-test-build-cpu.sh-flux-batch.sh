@@ -1,8 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-noodle-0701
+#FLUX: --job-name=RESIF-Test-CPU
+#FLUX: -c=7
 #FLUX: --queue=batch
 #FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX: --urgency=100
 
 mkdir -p logs
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

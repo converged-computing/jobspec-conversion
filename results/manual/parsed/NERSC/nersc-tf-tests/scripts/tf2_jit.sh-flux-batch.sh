@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-squidward-9181
+#FLUX: --job-name=tf-jit-test
 #FLUX: -c=32
+#FLUX: --queue=debug
 #FLUX: --urgency=16
 
 export NCCL_DEBUG='${NCCL_DEBUG:-WARN}'

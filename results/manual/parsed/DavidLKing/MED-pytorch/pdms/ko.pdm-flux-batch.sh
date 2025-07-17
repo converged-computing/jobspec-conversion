@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-kerfuffle-7735
+#FLUX: --job-name=swampy-arm-6308
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DavidLKing/MED-pytorch/pdms/ko.pdm

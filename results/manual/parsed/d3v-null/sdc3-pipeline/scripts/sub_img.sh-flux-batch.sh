@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lettuce-7460
+#FLUX: --job-name=stinky-lemon-8595
 #FLUX: -c=32
 #FLUX: --queue=gpuq
 #FLUX: -t=14400

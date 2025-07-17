@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=strong_MPI_scal
+#FLUX: -N=2
+#FLUX: -n=256
 #FLUX: --exclusive
 #FLUX: --queue=EPYC
 #FLUX: -t=7200

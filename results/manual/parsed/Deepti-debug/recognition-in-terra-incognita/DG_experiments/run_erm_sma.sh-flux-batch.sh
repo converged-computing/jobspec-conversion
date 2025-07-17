@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=rerm_sma
+#FLUX: -n=38
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

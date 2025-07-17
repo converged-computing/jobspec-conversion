@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-diablo-4054
+#FLUX: --job-name=gloopy-lemur-4555
 #FLUX: -c=20
 #FLUX: --queue=bio
 #FLUX: -t=435600

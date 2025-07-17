@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-eagle-3283
+#FLUX: --job-name=SerialGNUParallel
+#FLUX: -n=28
+#FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

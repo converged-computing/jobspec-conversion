@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-chip-9541
+#FLUX: --job-name=gassy-platanos-7757
 #FLUX: -n=6
+#FLUX: --queue=short
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge

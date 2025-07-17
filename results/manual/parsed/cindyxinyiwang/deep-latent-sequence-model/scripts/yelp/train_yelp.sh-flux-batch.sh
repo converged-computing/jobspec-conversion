@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-earthworm-7445
+#FLUX: --job-name=rainbow-mango-2442
+#FLUX: -t=0
 #FLUX: --urgency=16
 
 python src/main.py \

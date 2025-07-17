@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-latke-6028
+#FLUX: --job-name=red-fudge-6141
 #FLUX: --urgency=16
 
 echo $SLURM_JOBID - `hostname` - $SPINN_FLAGS >> ~/spinn_machine_assignments.txt

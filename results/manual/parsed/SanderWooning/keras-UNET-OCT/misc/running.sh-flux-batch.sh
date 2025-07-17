@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cherry-0234
+#FLUX: --job-name=rainbow-fudge-9658
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module load 2019

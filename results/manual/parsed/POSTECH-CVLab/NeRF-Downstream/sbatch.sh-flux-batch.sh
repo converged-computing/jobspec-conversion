@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-latke-7542
+#FLUX: --job-name=nerf-downstream
+#FLUX: --queue=A100
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export NCCL_NSOCKS_PERTHREAD='4'

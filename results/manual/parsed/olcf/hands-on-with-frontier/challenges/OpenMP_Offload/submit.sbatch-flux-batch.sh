@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-platanos-7926
+#FLUX: --job-name=mat_mul
+#FLUX: --queue=batch
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module load PrgEnv-amd

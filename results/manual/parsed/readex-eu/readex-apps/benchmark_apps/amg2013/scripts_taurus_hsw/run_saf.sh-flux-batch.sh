@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-cherry-7248
+#FLUX: --job-name=amg2013_saf
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --exclusive

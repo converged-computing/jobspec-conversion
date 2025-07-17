@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-peanut-4570
+#FLUX: --job-name=tart-poo-8739
 #FLUX: --urgency=16
 
 gitdir=~/dpm

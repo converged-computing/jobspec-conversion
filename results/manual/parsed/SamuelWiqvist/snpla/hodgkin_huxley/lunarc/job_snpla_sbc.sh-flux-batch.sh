@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-caramel-7988
+#FLUX: --job-name=snpla
+#FLUX: --queue=lu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

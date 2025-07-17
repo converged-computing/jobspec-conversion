@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pastry-1853
+#FLUX: --job-name=SDSH_pam2adc2ww3_SETUP
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 set -e

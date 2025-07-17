@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-itch-7854
+#FLUX: --job-name=blastn
+#FLUX: --queue=defq,short
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 name1=$(sed -n "$SLURM_ARRAY_TASK_ID"p seq_list.txt)

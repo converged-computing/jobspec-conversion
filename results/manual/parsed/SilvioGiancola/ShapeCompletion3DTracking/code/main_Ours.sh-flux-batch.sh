@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cat-8143
+#FLUX: --job-name=Main
 #FLUX: -c=9
 #FLUX: -t=360000
 #FLUX: --urgency=16

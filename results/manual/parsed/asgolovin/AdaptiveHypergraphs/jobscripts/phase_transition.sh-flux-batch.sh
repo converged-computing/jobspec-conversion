@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-earthworm-1167
+#FLUX: --job-name=phase_transition_sweep
 #FLUX: -N=4
 #FLUX: --queue=cm2_inter
 #FLUX: -t=420

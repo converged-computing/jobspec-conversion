@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-squidward-4448
+#FLUX: --job-name=SimSiam_Cifar10
+#FLUX: --queue=dlc-dsengupt
+#FLUX: -t=71940
 #FLUX: --urgency=16
 
 cd $(ws_find lth_ws)

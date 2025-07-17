@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-hobbit-4083
+#FLUX: --job-name=optim_102
 #FLUX: -n=112
+#FLUX: --queue=sapphire
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

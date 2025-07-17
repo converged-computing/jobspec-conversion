@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cherry-6364
+#FLUX: --job-name=rf
+#FLUX: -c=32
+#FLUX: --queue=batch
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export MODULEPATH='/software/cades-open/spack-envs/base/modules/site/Core:/software/cades-open/modulefiles/core'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-malarkey-9598
+#FLUX: --job-name=misunderstood-lemur-0980
 #FLUX: -N=36
 #FLUX: -n=3456
 #FLUX: --queue=standard96

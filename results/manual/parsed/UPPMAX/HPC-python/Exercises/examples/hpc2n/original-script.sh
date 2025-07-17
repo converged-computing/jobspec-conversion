@@ -1,25 +1,21 @@
 #!/bin/bash
-# Change to your own project ID!
-#SBATCH -A hpc2nXXXX-YYY
-#SBATCH -t 00:05:00
-#SBATCH -N X               # nr. nodes - CHANGE TO ACTUAL NUMBER!
-#SBATCH -n Y               # nr. MPI ranks - CHANGE TO ACTUAL NUMBER!
-#SBATCH -o output_%j.out   # output file
-#SBATCH -e error_%j.err    # error messages
-#SBATCH --gres=gpu:v100:2
-#SBATCH --exclusive
+# Remember to change this to your own project ID!
+#SBATCH -A hpc2n2024-052
+# We are asking for 5 minutes
+#SBATCH --time=00:05:00
+# Asking for one V100
+#SBATCH --gres=gpu:v100:1
 
-# Set a path where the example programs are installed. 
-# Change the below to your own path to where you placed the example programs
-MYPATH=/proj/nobackup/<your-proj-id>/<your-user-dir>/HPC-python/Exercises/examples/programs/
+# Remove any loaded modules and load the ones we need
+module purge  > /dev/null 2>&1
+module load GCC/11.3.0  OpenMPI/4.1.4 TensorFlow/2.11.0-CUDA-11.7.0 scikit-learn/1.1.2
 
-# Since Horovod is not installed for version 3.9.5 of Python, we are using 
-# different versions of Python and other prerequisites for this example. 
-ml purge > /dev/null 2>&1
-ml GCC/10.2.0 CUDA/11.1.1 OpenMPI/4.0.5
-ml TensorFlow/2.4.1
-ml Horovod/0.21.1-TensorFlow-2.4.1
+# Output to file - not needed if your job creates output in a file directly
+# In this example I also copy the output somewhere else and then run another executable (or you could just run the same executable for different parameters).
 
-list_of_nodes=$( scontrol show hostname $SLURM_JOB_NODELIST | sed -z 's/\n/\:4,/g' )
-list_of_nodes=${list_of_nodes%?}
-mpirun -np $SLURM_NTASKS -H $list_of_nodes python Transfer_Learning_NLP_Horovod.py --epochs 10 --batch-size 64
+python <my_tf_program.py> <param1> <param2> > myoutput1 2>&1
+cp myoutput1 mydatadir
+python <my_tf_program.py> <param3> <param4> > myoutput2 2>&1
+cp myoutput2 mydatadir
+python <my_tf_program.py> <param5> <param6> > myoutput3 2>&1
+cp myoutput3 mydatadir

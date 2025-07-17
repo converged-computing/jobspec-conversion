@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-leader-9378
+#FLUX: --job-name=frigid-lemon-0496
 #FLUX: -c=24
 #FLUX: --queue=amdgpuextralong
 #FLUX: -t=864000

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peanut-7154
+#FLUX: --job-name=nf-bam_to_fastq_(62)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

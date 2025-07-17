@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-hippo-3605
+#FLUX: --job-name=ntms
 #FLUX: -c=8
 #FLUX: --queue=informatik-mind
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load anaconda3/latest

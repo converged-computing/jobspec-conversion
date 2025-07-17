@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-pot-4316
+#FLUX: --job-name=crunchy-butter-2621
 #FLUX: -N=25
 #FLUX: -c=20
 #FLUX: --exclusive

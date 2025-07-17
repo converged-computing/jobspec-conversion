@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-train-3269
+#FLUX: --job-name=SIR_new
 #FLUX: -n=32
 #FLUX: --exclusive
+#FLUX: --queue=bighyp
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 module load apps/anaconda3/5.2.0

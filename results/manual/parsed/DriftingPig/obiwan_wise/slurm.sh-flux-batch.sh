@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-itch-4545
+#FLUX: --job-name=obiwan
+#FLUX: -N=5
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export KMP_AFFINITY='disabled'

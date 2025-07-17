@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-gato-3996
+#FLUX: --job-name=goodbye-peanut-8469
 #FLUX: -c=4
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 COHORT=$1

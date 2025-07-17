@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-knife-8158
+#FLUX: --job-name=rainbow-snack-0770
 #FLUX: -c=32
+#FLUX: --queue=production
+#FLUX: -t=356400
 #FLUX: --urgency=16
 
 echo "Number of CPUs used: $SLURM_CPUS_PER_TASK"

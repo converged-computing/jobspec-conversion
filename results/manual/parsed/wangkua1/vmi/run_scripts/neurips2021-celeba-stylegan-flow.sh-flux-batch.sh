@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pastry-7588
+#FLUX: --job-name=phat-taco-2493
+#FLUX: -c=8
+#FLUX: --queue=rtx6000
 #FLUX: -t=720000
 #FLUX: --urgency=16
 

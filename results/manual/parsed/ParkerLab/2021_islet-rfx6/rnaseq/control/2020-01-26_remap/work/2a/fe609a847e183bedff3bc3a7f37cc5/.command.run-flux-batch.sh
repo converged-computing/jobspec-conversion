@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-butter-1375
+#FLUX: --job-name=nf-bam_to_fastq_(52)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=mqmix
+#FLUX: -c=20
 #FLUX: --urgency=16
 
 source /etc/profile

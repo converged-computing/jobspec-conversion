@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ACT_half-sep_find
 #FLUX: --queue=normal
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module add cluster/singularity/3.4.1

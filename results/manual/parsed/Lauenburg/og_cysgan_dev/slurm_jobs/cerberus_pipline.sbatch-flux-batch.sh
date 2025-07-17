@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-underoos-0601
+#FLUX: --job-name=spicy-spoon-3081
+#FLUX: -c=4
+#FLUX: --queue=cox
+#FLUX: -t=840
 #FLUX: --urgency=16
 
 echo "#############SETUP#############"

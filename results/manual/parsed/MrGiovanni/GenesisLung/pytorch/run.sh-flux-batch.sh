@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cherry-4484
+#FLUX: --job-name=strawberry-pedo-2801
+#FLUX: -n=4
+#FLUX: --queue=wildfire
+#FLUX: -t=13800
 #FLUX: --urgency=16
 
 module load anaconda/py3

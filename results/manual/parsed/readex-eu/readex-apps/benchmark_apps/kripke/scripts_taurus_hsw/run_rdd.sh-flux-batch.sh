@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-chair-0427
+#FLUX: --job-name=READEX_kripke
 #FLUX: --exclusive
 #FLUX: --queue=haswell
 #FLUX: -t=3600

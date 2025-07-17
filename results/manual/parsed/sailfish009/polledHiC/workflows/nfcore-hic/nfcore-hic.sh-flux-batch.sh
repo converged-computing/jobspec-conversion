@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-gato-5163
+#FLUX: --job-name=$runid
+#FLUX: --queue=workq
 #FLUX: --urgency=16
 
 datadir= # path/to/reads_directories i.e. : /work2/genphyse/dynagen/jmartin/polledHiC/data/reads_nfcore

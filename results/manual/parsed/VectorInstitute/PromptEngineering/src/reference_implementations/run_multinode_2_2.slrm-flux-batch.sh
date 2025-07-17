@@ -2,7 +2,7 @@
 #FLUX: --job-name=prompt-multinode-experiments
 #FLUX: -c=8
 #FLUX: --queue=t4v2
-#FLUX: --urgency=16
+#FLUX: --urgency=50
 
 export MASTER_ADDR='$MAIN_HOST'
 export MASTER_PORT='52069'

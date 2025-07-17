@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cinnamonbun-5559
+#FLUX: --job-name=cp2ktest
 #FLUX: -c=16
+#FLUX: --queue=main
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'

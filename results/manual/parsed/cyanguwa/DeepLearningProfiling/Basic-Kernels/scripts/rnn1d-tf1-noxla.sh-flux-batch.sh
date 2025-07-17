@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-soup-7718
+#FLUX: --job-name=rnn1d-tf1-noxla
 #FLUX: --exclusive
+#FLUX: --queue=special
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export PROFILER='cupy'

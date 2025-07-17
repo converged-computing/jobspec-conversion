@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-platanos-9687
+#FLUX: --job-name=hremd_run
+#FLUX: -n=20
 #FLUX: --exclusive
+#FLUX: --queue=debug
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

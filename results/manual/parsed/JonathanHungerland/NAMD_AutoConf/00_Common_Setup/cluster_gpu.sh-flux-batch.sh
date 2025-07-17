@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-kerfuffle-5723
+#FLUX: --job-name=faux-egg-6214
 #FLUX: --queue=qblg.p
 #FLUX: -t=345600
 #FLUX: --urgency=16

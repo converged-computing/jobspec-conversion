@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parrot-5180
+#FLUX: --job-name=spectre
 #FLUX: -N=2
+#FLUX: --queue=nr
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export SPECTRE_BUILD_DIR='/work/nfischer/spectre/build_2021-03-18-Release'

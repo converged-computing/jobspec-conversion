@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-hope-0667
+#FLUX: --job-name=goodbye-carrot-6325
+#FLUX: --queue=True
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-taco-5822
+#FLUX: --job-name=xtea
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 import socket

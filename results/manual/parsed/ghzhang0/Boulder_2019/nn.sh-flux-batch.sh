@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nn_boulder
+#FLUX: --queue=nelson
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export GHZHANG17_TASK_ID='$SLURM_ARRAY_TASK_ID'

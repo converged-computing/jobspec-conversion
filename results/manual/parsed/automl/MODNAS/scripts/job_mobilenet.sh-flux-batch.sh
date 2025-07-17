@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-onion-9260
+#FLUX: --job-name=adorable-earthworm-4702
+#FLUX: -c=32
+#FLUX: --queue=<partition
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 export PYTHONPATH='.'

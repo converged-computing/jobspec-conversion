@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-cat-5758
+#FLUX: --job-name=WRF_forecast
+#FLUX: -n=48
+#FLUX: --queue=parallel
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export NETCDF='/appl/opt/netcdf4/gcc-7.3.0/intelmpi-18.0.2/4.6.1/'

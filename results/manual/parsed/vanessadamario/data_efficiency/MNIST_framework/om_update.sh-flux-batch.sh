@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rep4
 #FLUX: --queue=cbmm
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 hostname

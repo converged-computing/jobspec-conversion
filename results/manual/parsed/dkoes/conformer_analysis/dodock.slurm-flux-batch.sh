@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-rabbit-4605
+#FLUX: --job-name=dock
+#FLUX: -c=2
 #FLUX: --queue=any_cpu
 #FLUX: --urgency=16
 

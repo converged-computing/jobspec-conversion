@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-nalgas-1517
+#FLUX: --job-name=boopy-kitty-7422
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

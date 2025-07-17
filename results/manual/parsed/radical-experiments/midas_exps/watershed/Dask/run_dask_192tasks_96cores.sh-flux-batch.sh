@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-despacito-3004
+#FLUX: --job-name=bumfuzzled-peas-6087
+#FLUX: -N=4
+#FLUX: --queue=compute
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

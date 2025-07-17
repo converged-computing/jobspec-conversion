@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hippo-2660
+#FLUX: --job-name=True
+#FLUX: --queue=defq
 #FLUX: -t=864000
 #FLUX: --urgency=16
 

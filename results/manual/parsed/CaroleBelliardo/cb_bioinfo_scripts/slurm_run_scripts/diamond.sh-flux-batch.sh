@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lamp-9399
+#FLUX: --job-name=dmd
 #FLUX: -c=30
+#FLUX: --queue=all
 #FLUX: --urgency=16
 
 module load singularity/3.5.3

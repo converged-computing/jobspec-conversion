@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cat-1562
+#FLUX: --job-name=blank-nunchucks-4419
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

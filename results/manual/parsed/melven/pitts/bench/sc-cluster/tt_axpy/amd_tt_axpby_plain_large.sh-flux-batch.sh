@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lentil-5676
+#FLUX: --job-name=wobbly-hope-0720
+#FLUX: -c=64
+#FLUX: --queue=amd
+#FLUX: -t=180000
 #FLUX: --urgency=16
 
 export OMP_STACKSIZE='100M'

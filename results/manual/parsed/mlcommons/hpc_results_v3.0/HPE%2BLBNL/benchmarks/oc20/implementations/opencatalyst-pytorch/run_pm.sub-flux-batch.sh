@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-puppy-9665
+#FLUX: --job-name=opencatalyst-opt
+#FLUX: --queue=regular
 #FLUX: --urgency=16
 
 export MODEL_NAME='oc20'

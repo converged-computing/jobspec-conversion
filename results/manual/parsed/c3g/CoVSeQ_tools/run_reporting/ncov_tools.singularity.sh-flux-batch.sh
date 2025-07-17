@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-pancake-8418
+#FLUX: --job-name=ncov-tools_run
+#FLUX: -n=20
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

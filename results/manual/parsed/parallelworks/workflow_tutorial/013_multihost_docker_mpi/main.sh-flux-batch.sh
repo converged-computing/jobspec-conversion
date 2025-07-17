@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-squidward-3313
+#FLUX: --job-name=purple-caramel-8029
 #FLUX: --urgency=16
 
 export UCONTAINER_JOB_DIR='${PWD}'

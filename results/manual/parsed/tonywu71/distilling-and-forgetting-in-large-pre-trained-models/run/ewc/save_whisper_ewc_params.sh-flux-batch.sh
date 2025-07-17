@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lettuce-3751
+#FLUX: --job-name=save_whisper_ewc_params
+#FLUX: --queue=ampere
 #FLUX: -t=25200
 #FLUX: --urgency=16
 

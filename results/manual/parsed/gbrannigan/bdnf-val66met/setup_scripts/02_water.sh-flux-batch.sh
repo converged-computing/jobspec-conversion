@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-hippo-0318
+#FLUX: --job-name=V4
+#FLUX: --queue=normal
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1'

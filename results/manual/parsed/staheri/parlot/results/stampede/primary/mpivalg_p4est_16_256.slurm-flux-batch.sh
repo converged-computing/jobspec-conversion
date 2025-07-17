@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-chair-5185
+#FLUX: --job-name=mpivalg_p4est_16_256
+#FLUX: -N=16
+#FLUX: -n=256
+#FLUX: --queue=normal
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export PATH='$PATH:$HOME/apps/valgrind/bin'

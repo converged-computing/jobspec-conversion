@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-sundae-7494
+#FLUX: --job-name=msrcnn-tissuenet-n-2C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

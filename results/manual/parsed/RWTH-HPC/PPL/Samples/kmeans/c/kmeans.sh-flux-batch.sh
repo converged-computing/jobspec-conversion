@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=KMEANS
+#FLUX: --queue=c18g
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

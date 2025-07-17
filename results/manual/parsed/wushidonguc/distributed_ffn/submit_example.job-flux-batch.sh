@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-signal-9685
+#FLUX: --job-name=bloated-chip-8084
 #FLUX: --urgency=16
 

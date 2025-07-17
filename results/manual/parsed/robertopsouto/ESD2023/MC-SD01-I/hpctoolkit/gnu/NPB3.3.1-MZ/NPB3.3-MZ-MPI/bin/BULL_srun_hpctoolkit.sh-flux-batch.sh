@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-butter-8136
+#FLUX: --job-name=NPB_BT-MZ
 #FLUX: --exclusive
+#FLUX: --queue=cpu_dev
 #FLUX: -t=600
 #FLUX: --urgency=16
 

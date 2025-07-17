@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-peanut-8472
+#FLUX: --job-name=rt_mpi
+#FLUX: -n=16
+#FLUX: --queue=class
 #FLUX: --urgency=16
 
 module load openmpi-x86_64

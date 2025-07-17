@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=crawlingMonoProcess
+#FLUX: --queue=scavenge
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load MATLAB

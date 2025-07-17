@@ -2,6 +2,7 @@
 #FLUX: --job-name=0744m640
 #FLUX: -N=3
 #FLUX: -c=4
+#FLUX: --queue=debug
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

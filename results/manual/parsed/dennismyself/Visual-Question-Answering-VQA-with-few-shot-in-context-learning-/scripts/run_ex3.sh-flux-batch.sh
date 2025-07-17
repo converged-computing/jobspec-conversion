@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-bike-6566
+#FLUX: --job-name=MLMI8_fewshot
+#FLUX: --queue=ampere
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

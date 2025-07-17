@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-dog-0006
+#FLUX: --job-name=astute-taco-7875
 #FLUX: --urgency=16
 
 usage ()

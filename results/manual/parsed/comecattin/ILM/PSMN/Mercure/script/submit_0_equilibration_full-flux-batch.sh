@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=HSP90eq
 #FLUX: -c=96
+#FLUX: --queue=Cascade
 #FLUX: -t=61200
 #FLUX: --urgency=16
 

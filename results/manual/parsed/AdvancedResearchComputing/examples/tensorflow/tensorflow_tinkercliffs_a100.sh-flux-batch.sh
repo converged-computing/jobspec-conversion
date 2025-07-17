@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-signal-0518
+#FLUX: --job-name=faux-peanut-3404
+#FLUX: --queue=a100_dev_q
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module reset

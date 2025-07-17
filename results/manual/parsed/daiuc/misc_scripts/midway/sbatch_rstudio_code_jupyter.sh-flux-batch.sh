@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rstudio
+#FLUX: -c=4
+#FLUX: --queue=broadwl
 #FLUX: -t=129540
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-buttface-5498
+#FLUX: --job-name=EBM
 #FLUX: --urgency=16
 
 spack load -r r@3.5.0

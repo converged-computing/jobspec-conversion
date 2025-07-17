@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hope-0828
+#FLUX: --job-name=e_rrl
 #FLUX: --exclusive
 #FLUX: --queue=haswell
 #FLUX: -t=7200

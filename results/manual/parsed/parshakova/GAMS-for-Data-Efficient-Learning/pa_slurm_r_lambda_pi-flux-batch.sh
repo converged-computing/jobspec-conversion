@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lettuce-4228
+#FLUX: --job-name=tjarray
 #FLUX: -c=2
+#FLUX: --queue=papago
+#FLUX: -t=720000
 #FLUX: --urgency=16
 
 hostname

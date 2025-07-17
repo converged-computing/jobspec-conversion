@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=s
+#FLUX: -c=4
+#FLUX: --queue=res-gpu-small
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source /home/crhf63/kable_management/python_venvs/mk8-tvqa/bin/activate

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-destiny-2363
+#FLUX: --job-name=expressive-blackbean-3476
 #FLUX: --queue=jazayeri
 #FLUX: -t=14400
 #FLUX: --urgency=16

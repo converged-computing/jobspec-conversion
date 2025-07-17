@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-rabbit-4529
+#FLUX: --job-name=crusty-staircase-3266
+#FLUX: --queue=slurm_courtesy
+#FLUX: -t=259320
 #FLUX: --urgency=16
 
 module load cuda/9.0

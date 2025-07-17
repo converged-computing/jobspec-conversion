@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-destiny-5010
+#FLUX: --job-name=mpi_pi
+#FLUX: -n=16
+#FLUX: --queue=test
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 PRO=mpi_pi

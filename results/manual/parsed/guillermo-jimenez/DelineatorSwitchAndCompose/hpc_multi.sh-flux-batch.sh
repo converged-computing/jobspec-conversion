@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-punk-2203
+#FLUX: --job-name=DelSwitch
 #FLUX: -c=8
+#FLUX: --queue=high
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK;'

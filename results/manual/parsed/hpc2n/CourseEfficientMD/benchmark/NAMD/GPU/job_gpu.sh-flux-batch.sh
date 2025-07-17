@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-animal-0959
+#FLUX: --job-name=namd
+#FLUX: -n=28
 #FLUX: --exclusive
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 ml purge  > /dev/null 2>&1 

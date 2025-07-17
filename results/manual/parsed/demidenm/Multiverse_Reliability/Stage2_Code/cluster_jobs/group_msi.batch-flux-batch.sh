@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-mango-0965
+#FLUX: --job-name=group_abcd
 #FLUX: -c=4
+#FLUX: --queue=agsmall,msismall
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 source $HOME/miniconda3/etc/profile.d/conda.sh

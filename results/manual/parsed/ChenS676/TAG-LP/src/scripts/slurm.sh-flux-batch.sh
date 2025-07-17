@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-chair-4690
+#FLUX: --job-name=muffled-puppy-8857
 #FLUX: -n=40
 #FLUX: -t=7200
 #FLUX: --urgency=16

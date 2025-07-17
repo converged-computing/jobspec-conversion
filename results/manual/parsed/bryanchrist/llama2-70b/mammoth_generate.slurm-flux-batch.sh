@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-caramel-4750
+#FLUX: --job-name=mammoth_generate
 #FLUX: -c=10
+#FLUX: --queue=gpu
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '

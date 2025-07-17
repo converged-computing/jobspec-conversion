@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-hippo-6784
+#FLUX: --job-name=crunchy-peanut-butter-9285
+#FLUX: -c=8
+#FLUX: --queue=defq
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export PATH='`pwd`/software/bin/:$PATH'

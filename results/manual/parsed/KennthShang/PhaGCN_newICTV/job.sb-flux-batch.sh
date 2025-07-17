@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-parrot-3560
+#FLUX: --job-name=Rscript
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

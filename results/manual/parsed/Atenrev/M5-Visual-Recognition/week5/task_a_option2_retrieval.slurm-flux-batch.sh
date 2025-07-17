@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-peas-7584
+#FLUX: --job-name=wobbly-mango-4972
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 python run_retrieval.py \

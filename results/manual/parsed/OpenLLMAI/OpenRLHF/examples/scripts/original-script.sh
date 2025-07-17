@@ -1,95 +1,43 @@
 #!/bin/bash
 
-#SBATCH -p {PARTITION}
-#SBATCH -A {ACCOUNT}
-#SBATCH -J {ACCOUNT}-openrlhf
-#SBATCH -N 2                       # 64x8x4
-#SBATCH -t {LIMIT_TIME}            # wall time
-#SBATCH --ntasks-per-node=1        # tasks per node
+#SBATCH -p { partition }              
+#SBATCH -A { account }
+#SBATCH -J { jobname }
+#SBATCH -N 1                      # 64x8x4
+#SBATCH -t 0-00:30:00             # wall time
+#SBATCH --ntasks-per-node=1       # tasks per node
 #SBATCH --exclusive                # exclusive node access
 #SBATCH --mem=0                    # all mem avail
 #SBATCH --mail-type=FAIL           # only send email on failure
 #SBATCH --overcommit               # needed for pytorch
 #SBATCH --output=out.log
 
+# should be modified to train_sft_llama.sh, train_rm_llama.sh, train_ppo_llama, etc.
+readonly training_script="train_ppo_llama.sh" 
+readonly GPUS_PER_NODE=8
 
-# project settings
-PROJECT_PATH=$(cd ../../; realpath .)
-IMAGE_NAME="nvcr.io/nvidia/pytorch:23.12-py3"
-MOUNT="$PROJECT_PATH:/openrlhf,$HOME/.cache:/root/.cache,/dev/null:/root/.bashrc"
-
-JOBLOG="$(realpath .)/logs/train_ppo_llama_ray-$SLURM_JOB_ID.log"
+readonly PROJECT_PATH=$(cd ../../; pwd)
+readonly IMAGE_NAME="nvcr.io/nvidia/pytorch:23.12-py3"
+readonly JOBLOG="$(pwd)/logs/$training_script-$SLURM_JOB_ID.log"
 mkdir logs
+
+# Job start
 echo "$(date '+%Y-%m-%d %H:%M:%S') Job ${SLURM_JOB_ID} started ..." &>> ${JOBLOG}
 
-# launch ray daemon
-nodes=$(scontrol show hostnames "$SLURM_JOB_NODELIST") # Getting the node names
-nodes_array=( $nodes )
-node_1=${nodes_array[0]}
-ip=$node_1
+# load training commands
+source ./${training_script} slurm
+echo training_commands &>> ${JOBLOG}
+echo $training_commands &>> ${JOBLOG}
 
-port=6379
-ip_head=$ip:$port
-export ip_head
-echo "IP Head: $ip_head"  &>> ${JOBLOG}
+# master addr and port
+export MASTER_ADDR=$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)
+export MASTER_PORT=9901
 
-echo "STARTING HEAD at $node_1"  &>> ${JOBLOG}
-srun --nodes=1 --ntasks=1 -w "$node_1" --container-image="$IMAGE_NAME" --container-mounts="$MOUNT" bash -c \
-  && pip install ray[default] \
-  && /root/.local/bin/ray start --head --node-ip-address=$ip --port=$port --block" &>> ${JOBLOG} &
-sleep 10s
-
-worker_num=$((SLURM_JOB_NUM_NODES)) #number of nodes other than the head node
-for ((i = 1; i < worker_num; i++)); do
-  node_i=${nodes_array[$i]}
-  echo "STARTING WORKER $i at $node_i"  &>> ${JOBLOG}
-  srun --nodes=1 --ntasks=1 -w "$node_i" --container-image="$IMAGE_NAME" --container-mounts="$MOUNT" bash -c \
-    && pip install ray[default] \
-    && /root/.local/bin/ray start --address "$ip_head" --block" &>> ${JOBLOG} &
-  sleep 1s;
-done
-
-sleep 30s
-
-# ===== submit ray job =====
-# Job start
-srun --overlap --nodes=1 --ntasks=1 -w "$node_1" --container-image="$IMAGE_NAME" --container-mounts="$MOUNT" bash -c \
-  "pip install ray[default] \
-  && /root/.local/bin/ray job submit --address=http://localhost:8265 \
-    --runtime-env-json='{\"working_dir\": \"/openrlhf\", \"pip\": \"/openrlhf/requirements.txt\"}' \
-    -- python3 examples/train_ppo_ray.py \
-    --ref_num_nodes 1 \
-    --ref_num_gpus_per_node 2 \
-    --reward_num_nodes 1 \
-    --reward_num_gpus_per_node 2 \
-    --critic_num_nodes 1 \
-    --critic_num_gpus_per_node 4 \
-    --actor_num_nodes 1 \
-    --actor_num_gpus_per_node 8 \
-    --pretrain OpenLLMAI/Llama-2-13b-sft-model-ocra-500k \
-    --reward_pretrain OpenLLMAI/Llama-2-13b-rm-anthropic_hh-lmsys-oasst-webgpt \
-    --save_path /openrlhf/examples/test_scripts/ckpt/13b_llama \
-    --micro_train_batch_size 4 \
-    --train_batch_size 128 \
-    --micro_rollout_batch_size 8 \
-    --rollout_batch_size 1024 \
-    --max_epochs 1 \
-    --prompt_max_len 1024 \
-    --generate_max_len 1024 \
-    --zero_stage 2 \
-    --bf16 \
-    --actor_learning_rate 5e-7 \
-    --critic_learning_rate 9e-6 \
-    --init_kl_coef 0.01 \
-    --prompt_data Open-Orca/OpenOrca,Dahoas/full-hh-rlhf,tasksource/oasst1_pairwise_rlhf_reward \
-    --prompt_data_probs 0.4,0.5,0.1 \
-    --max_samples 80000 \
-    --normalize_reward \
-    --actor_init_on_gpu \
-    --adam_offload \
-    --flash_attn \
-    --gradient_checkpointing \
-    --use_wandb {wandb_token}" &>> ${JOBLOG}
-
+srun --container-image="$IMAGE_NAME" \
+    --container-mounts="$PROJECT_PATH:/root/openrlhf,$HOME/.cache:/root/.cache,$HOME/.local:/root/.local,\
+$HOME/.triton:/root/.triton,/dev/null:/root/.bashrc" \
+    bash -c "cd /root/openrlhf/examples/scripts; ./build_openrlhf.sh; torchrun \
+--nproc_per_node $GPUS_PER_NODE --nnodes $SLURM_NNODES --node_rank $SLURM_PROCID \
+--master_addr $MASTER_ADDR --master_port $MASTER_PORT ${training_commands}" &>> ${JOBLOG}
 
 echo "$(date '+%Y-%m-%d %H:%M:%S') Job ${SLURM_JOB_ID} stopped ..." &>> ${JOBLOG}

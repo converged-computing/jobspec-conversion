@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lentil-7811
+#FLUX: --job-name=PT0
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=3600

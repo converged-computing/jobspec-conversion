@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-poo-1112
+#FLUX: --job-name=crunchy-latke-0773
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: -t=3600

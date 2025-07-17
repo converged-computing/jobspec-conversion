@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-toaster-3977
+#FLUX: --job-name=F_mamba_pe1u_noise
+#FLUX: --queue=ampere
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-plant-4675
+#FLUX: --job-name=gloopy-lemon-8276
 #FLUX: --exclusive
 #FLUX: -t=86400
 #FLUX: --urgency=16

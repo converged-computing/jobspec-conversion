@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-plant-0484
+#FLUX: --job-name=pusheena-dog-9736
 #FLUX: -N=2
+#FLUX: -c=80
 #FLUX: --exclusive
 #FLUX: -t=14400
 #FLUX: --urgency=16

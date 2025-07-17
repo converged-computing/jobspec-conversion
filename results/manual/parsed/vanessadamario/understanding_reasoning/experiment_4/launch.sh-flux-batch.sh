@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sqoop_4
 #FLUX: --queue=cbmm
+#FLUX: -t=288000
 #FLUX: --urgency=16
 
 module add openmind/singularity/3.4.1

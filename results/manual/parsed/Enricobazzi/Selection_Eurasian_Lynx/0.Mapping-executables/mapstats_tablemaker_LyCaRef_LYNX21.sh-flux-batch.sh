@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bike-6593
+#FLUX: --job-name=reclusive-plant-8424
+#FLUX: -c=24
+#FLUX: --queue=thinnodes
+#FLUX: -t=150
 #FLUX: --urgency=16
 
 module load gcc/6.4.0 samtools/1.8

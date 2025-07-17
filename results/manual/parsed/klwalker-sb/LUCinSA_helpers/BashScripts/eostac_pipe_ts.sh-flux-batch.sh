@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=stpipe_ts
+#FLUX: -n=8
+#FLUX: --queue=basic
+#FLUX: -t=2160
 #FLUX: --urgency=16
 
 export OPENBLAS_NUM_THREADS='1'

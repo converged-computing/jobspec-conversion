@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-house-5426
+#FLUX: --job-name=hairy-peanut-1767
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/luchsonice/3dod/submit.sh

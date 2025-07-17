@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-leader-9941
+#FLUX: --job-name=hello-sundae-3802
 #FLUX: -N=64
 #FLUX: -n=1024
 #FLUX: -c=8

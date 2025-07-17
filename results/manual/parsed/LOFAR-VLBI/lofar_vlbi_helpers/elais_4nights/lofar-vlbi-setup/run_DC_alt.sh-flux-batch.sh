@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=delay-calibration
+#FLUX: -c=16
 #FLUX: --exclusive
+#FLUX: --queue=infinite
 #FLUX: --urgency=16
 
 export RUNDIR='$PWD'

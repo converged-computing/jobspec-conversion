@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-noodle-3567
+#FLUX: --job-name=joyous-cherry-8345
+#FLUX: -n=10
 #FLUX: --urgency=16
 
 export SUMO_HOME='/work/apps/sumo/share/sumo'

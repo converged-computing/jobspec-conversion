@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-nunchucks-8323
+#FLUX: --job-name=fat-diablo-5983
+#FLUX: -n=2
 #FLUX: -c=4
+#FLUX: --queue=nvidia
 #FLUX: -t=261000
 #FLUX: --urgency=16
 

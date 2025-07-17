@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-ricecake-7229
+#FLUX: --job-name=stinky-caramel-6616
+#FLUX: --queue=short
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load conda3

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-spoon-7153
+#FLUX: --job-name=spinel
+#FLUX: -N=8
+#FLUX: -n=1024
+#FLUX: --queue=i8cpu
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

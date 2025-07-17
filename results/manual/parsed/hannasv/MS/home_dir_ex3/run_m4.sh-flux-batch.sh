@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-arm-5556
+#FLUX: --job-name=hanky-parsnip-5617
+#FLUX: -n=6
+#FLUX: --queue=dgx2q
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-frito-4029
+#FLUX: --job-name=faux-destiny-5147
 #FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

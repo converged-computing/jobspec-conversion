@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-cattywampus-2058
+#FLUX: --job-name=swampy-earthworm-1173
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 ml python/3.6.4

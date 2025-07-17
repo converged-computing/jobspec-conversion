@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=helixer
+#FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

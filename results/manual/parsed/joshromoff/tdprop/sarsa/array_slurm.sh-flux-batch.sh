@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-egg-2115
+#FLUX: --job-name=grated-hope-6326
+#FLUX: -c=10
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

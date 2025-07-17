@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-sundae-3329
+#FLUX: --job-name=expensive-ricecake-8071
 #FLUX: -c=4
 #FLUX: --queue=default_partition
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 set -e

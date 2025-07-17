@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=5nodes_shm
+#FLUX: -N=5
+#FLUX: -n=100
 #FLUX: --queue=slurm
 #FLUX: -t=5400
 #FLUX: --urgency=16

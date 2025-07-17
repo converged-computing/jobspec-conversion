@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-squidward-6311
+#FLUX: --job-name=mpi_check-multithread
+#FLUX: -n=4
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=gps_1000
+#FLUX: -c=32
 #FLUX: --queue=normal
 #FLUX: -t=172800
 #FLUX: --urgency=16

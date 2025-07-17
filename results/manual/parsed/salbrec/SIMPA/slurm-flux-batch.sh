@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=SIMPA
+#FLUX: -N=4
+#FLUX: -n=160
+#FLUX: --queue=<PARTITION>
 #FLUX: -t=5400
 #FLUX: --urgency=16
 

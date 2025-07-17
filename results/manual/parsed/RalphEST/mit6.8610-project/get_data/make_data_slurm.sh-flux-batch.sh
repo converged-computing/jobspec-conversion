@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-general-6962
+#FLUX: --job-name=fat-butter-4397
+#FLUX: -c=16
+#FLUX: --queue=priority
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load gcc/9.2.0 bcftools/1.14 conda3 plink2/2.0

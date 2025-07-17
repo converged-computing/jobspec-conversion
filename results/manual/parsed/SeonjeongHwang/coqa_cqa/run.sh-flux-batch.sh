@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pancake-0832
+#FLUX: --job-name=CQA_v1.0
+#FLUX: --queue=A100-pci
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 conda activate chain

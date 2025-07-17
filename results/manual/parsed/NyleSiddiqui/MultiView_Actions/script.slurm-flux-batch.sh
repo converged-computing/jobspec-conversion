@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ntu60cv
+#FLUX: -c=12
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 module load anaconda3

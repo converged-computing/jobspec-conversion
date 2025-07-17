@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-fudge-1605
+#FLUX: --job-name=task1_thrust
+#FLUX: --queue=instruction
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 module load nvidia/cuda/11.8.0 

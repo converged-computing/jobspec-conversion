@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-carrot-6814
+#FLUX: --job-name=hello-banana-6023
+#FLUX: -N=8
+#FLUX: -n=128
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module purge

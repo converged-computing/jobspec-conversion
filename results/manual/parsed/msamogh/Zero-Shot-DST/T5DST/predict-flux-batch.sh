@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-puppy-4709
+#FLUX: --job-name=purple-poo-3134
+#FLUX: -c=4
 #FLUX: --queue=gpu
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='3,4'

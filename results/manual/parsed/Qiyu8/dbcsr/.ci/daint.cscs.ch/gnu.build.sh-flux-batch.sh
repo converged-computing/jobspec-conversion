@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-egg-4412
+#FLUX: --job-name=dirty-pot-1070
 #FLUX: -c=3
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-citrus-8506
+#FLUX: --job-name=Y4
+#FLUX: -N=32
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export GMX_MAXBACKUP='-1'

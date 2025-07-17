@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-platanos-0483
+#FLUX: --job-name=frigid-milkshake-7703
 #FLUX: -t=60
 #FLUX: --urgency=16
 

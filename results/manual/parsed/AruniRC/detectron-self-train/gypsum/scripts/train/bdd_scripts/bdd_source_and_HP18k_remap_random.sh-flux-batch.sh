@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=bdd_source_and_HP18k_remap_random
+#FLUX: --queue=1080ti-long
 #FLUX: --urgency=16
 
 python tools/train_net_step.py \

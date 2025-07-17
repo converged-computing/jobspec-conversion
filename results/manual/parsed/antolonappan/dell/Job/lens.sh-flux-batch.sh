@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-leopard-2304
+#FLUX: --job-name=Lensing
 #FLUX: -N=16
 #FLUX: -n=100
 #FLUX: -c=2

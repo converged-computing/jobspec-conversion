@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-buttface-9409
+#FLUX: --job-name=WuK
 #FLUX: --exclusive
+#FLUX: --queue=gpu_v100
 #FLUX: --urgency=16
 
 if true; then

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-butter-6070
+#FLUX: --job-name=EasyBuild
 #FLUX: -c=4
 #FLUX: -t=21600
 #FLUX: --urgency=16

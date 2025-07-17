@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-fork-6702
+#FLUX: --job-name=MPI_JOB
 #FLUX: -t=3540
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-fork-3044
+#FLUX: --job-name=nerf2_test
+#FLUX: --queue=inferno
+#FLUX: -t=8640
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR                            # Change to working directory

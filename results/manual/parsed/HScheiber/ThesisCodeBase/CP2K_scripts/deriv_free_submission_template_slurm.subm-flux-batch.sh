@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-truffle-1586
+#FLUX: --job-name=eccentric-arm-6535
 #FLUX: --urgency=16
 
 cd ##CDIR##

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-dog-5652
+#FLUX: --job-name=evasive-cattywampus-0500
 #FLUX: -n=8
 #FLUX: --queue=physical
 #FLUX: -t=600

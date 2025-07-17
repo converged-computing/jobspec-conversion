@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-taco-2161
+#FLUX: --job-name=crunchy-snack-5393
 #FLUX: -n=24
+#FLUX: --queue=intel,batch
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

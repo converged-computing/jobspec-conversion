@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-fork-2316
+#FLUX: --job-name=blue-cattywampus-8037
+#FLUX: -n=30
+#FLUX: --queue=huce_intel
+#FLUX: -t=10
 #FLUX: --urgency=16
 
 log="gchp.log"

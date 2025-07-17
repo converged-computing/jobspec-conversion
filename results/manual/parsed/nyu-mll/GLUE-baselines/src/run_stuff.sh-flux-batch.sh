@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-hope-5991
+#FLUX: --job-name=rainbow-poodle-8359
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 SCRATCH_PREFIX='/misc/vlgscratch4/BowmanGroup/awang/'

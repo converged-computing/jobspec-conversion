@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-bicycle-1037
+#FLUX: --job-name=rnavar
 #FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='singularity'

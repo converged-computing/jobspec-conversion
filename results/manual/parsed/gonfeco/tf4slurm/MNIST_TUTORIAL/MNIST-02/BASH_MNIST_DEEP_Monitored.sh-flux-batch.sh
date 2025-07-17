@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bicycle-5370
+#FLUX: --job-name=bloated-cherry-8421
+#FLUX: --queue=thinnodes
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 TENSORFLOW=$1

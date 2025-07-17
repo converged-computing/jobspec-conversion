@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=ggr
+#FLUX: -c=16
 #FLUX: --exclusive
+#FLUX: --queue=akundaje,khavari
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=TensorFlow
 #FLUX: --queue=gpu-shared
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load singularity

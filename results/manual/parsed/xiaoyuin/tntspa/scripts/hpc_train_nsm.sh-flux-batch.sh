@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-avocado-0043
+#FLUX: --job-name=hpc_nsm
 #FLUX: -c=6
+#FLUX: --queue=gpu2
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-banana-8759
+#FLUX: --job-name=find_lr
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 echo "#################### Job submission script. #############################"

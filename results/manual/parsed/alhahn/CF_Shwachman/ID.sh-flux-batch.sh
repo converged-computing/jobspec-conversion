@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-bike-6913
+#FLUX: --job-name=hairy-chip-6274
 #FLUX: -n=8
+#FLUX: --queue=defq
 #FLUX: -t=1209600
 #FLUX: --urgency=16
 

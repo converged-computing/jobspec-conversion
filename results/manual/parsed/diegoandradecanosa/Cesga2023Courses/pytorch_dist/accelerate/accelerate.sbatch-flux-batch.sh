@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=accel_dist
 #FLUX: -N=2
+#FLUX: -c=32
 #FLUX: -t=3540
 #FLUX: --urgency=16
 

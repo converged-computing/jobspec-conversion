@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ConvLSTM_1lhs
 #FLUX: --queue=normal
+#FLUX: -t=48000
 #FLUX: --urgency=16
 
 python add clustername/singularity/3.4.1

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-egg-5669
+#FLUX: --job-name=anxious-fork-4119
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-earthworm-4463
+#FLUX: --job-name=my_job
+#FLUX: -N=2
+#FLUX: --queue=regular
+#FLUX: -t=57600
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/syscom/nsg/lib:/global/homes/c/cslage/Software/hdf5-1.8.14/lib'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-rabbit-2182
+#FLUX: --job-name=LIH_GME
+#FLUX: -c=3
+#FLUX: --queue=batch
 #FLUX: -t=86395
 #FLUX: --urgency=16
 

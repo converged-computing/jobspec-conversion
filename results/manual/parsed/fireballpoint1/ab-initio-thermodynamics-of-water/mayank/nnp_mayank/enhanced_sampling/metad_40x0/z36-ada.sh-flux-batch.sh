@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-kerfuffle-8744
+#FLUX: --job-name=muffled-latke-8865
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

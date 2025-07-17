@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bike-1693
+#FLUX: --job-name=tfrec_8gpu
+#FLUX: -N=2
+#FLUX: -n=8
+#FLUX: --queue=gpuq
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$HOME/cuda:$HOME/cuda/include:$HOME/cuda/lib64:$HOME/modules/openmpi-4.0.0-flags-ucx/bin:$HOME/modules/openmpi-4.0.0-flags-ucx/include:$LD_LIBRARY_PATH'

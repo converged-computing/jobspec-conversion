@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-banana-6163
+#FLUX: --job-name=build_kpi
+#FLUX: -c=11
+#FLUX: --queue=huce_cascade
+#FLUX: -t=180
 #FLUX: --urgency=16
 
 CHUNK="${SLURM_ARRAY_TASK_ID}"

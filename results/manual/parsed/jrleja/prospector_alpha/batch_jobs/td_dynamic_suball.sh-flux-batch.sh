@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cat-7715
+#FLUX: --job-name=td_dynamic
+#FLUX: --queue=conroy-intel,conroy,shared,itc_cluster
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 IDFILE=$APPS"/prospector_alpha/data/3dhst/td_dynamic.ids"

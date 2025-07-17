@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pastry-4691
+#FLUX: --job-name=Scoring
+#FLUX: -n=2
+#FLUX: --queue=core
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module load bioinfo-tools plink/1.90b4.9 

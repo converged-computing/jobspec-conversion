@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-punk-2030
+#FLUX: --job-name=rainbow-blackbean-1566
+#FLUX: -c=4
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-pastry-0555
+#FLUX: --job-name=example
+#FLUX: -c=4
+#FLUX: --queue=allgroups
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd $WORKING_DIR

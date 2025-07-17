@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-leg-8362
+#FLUX: --job-name=grated-hippo-9732
 #FLUX: -c=30
 #FLUX: --queue=fast
 #FLUX: --urgency=16

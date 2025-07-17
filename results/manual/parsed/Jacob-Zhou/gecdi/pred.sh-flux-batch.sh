@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-motorcycle-9134
+#FLUX: --job-name=rainbow-parsnip-4810
+#FLUX: -c=6
+#FLUX: --queue=batch
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 set -o nounset

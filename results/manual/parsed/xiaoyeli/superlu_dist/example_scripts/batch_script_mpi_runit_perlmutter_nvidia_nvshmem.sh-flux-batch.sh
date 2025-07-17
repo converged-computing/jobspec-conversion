@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=1node
+#FLUX: --queue=regular
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

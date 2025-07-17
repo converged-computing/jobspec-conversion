@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-leg-8722
+#FLUX: --job-name=configureAndBuildTrilinos
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 export all_proxy='socks://proxy.ccs.ornl.gov:3128/'

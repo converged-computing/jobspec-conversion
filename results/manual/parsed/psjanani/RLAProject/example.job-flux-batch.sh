@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-parrot-7718
+#FLUX: --job-name=stanky-diablo-5618
+#FLUX: --queue=GPU-shared
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 set -x  # echo commands to stdout

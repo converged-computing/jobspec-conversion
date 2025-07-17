@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-dog-9081
+#FLUX: --job-name=fat-itch-4483
 #FLUX: --urgency=16
 
 if [ -d "job_scripts" ]; then

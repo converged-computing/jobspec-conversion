@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-leg-0165
+#FLUX: --job-name=roi
+#FLUX: -N=4
+#FLUX: --queue=early_science
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export WORK='$SCRATCH/adse13_249/LY99'

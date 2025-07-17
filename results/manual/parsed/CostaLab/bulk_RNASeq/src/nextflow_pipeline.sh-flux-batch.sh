@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nextflow_rnaseq_trial
+#FLUX: -n=12
+#FLUX: -t=324000
 #FLUX: --urgency=16
 
 export PATH='/home/izkf/nextflow/miniconda2/bin:/home/izkf/nextflow/miniconda2/envs/nf-core-rnaseq-1.4.2/bin:$PATH'

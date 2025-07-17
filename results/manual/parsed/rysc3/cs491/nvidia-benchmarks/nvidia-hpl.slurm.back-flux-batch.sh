@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nvidia-hpl
+#FLUX: --queue=condo
 #FLUX: --urgency=16
 
 module load singularity

@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-ricecake-9030
+#FLUX: --job-name=pressure
+#FLUX: -n=16
 #FLUX: --exclusive
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load intel

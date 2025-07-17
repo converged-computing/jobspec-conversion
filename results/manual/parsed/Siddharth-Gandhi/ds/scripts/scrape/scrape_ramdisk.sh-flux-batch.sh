@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=2_7_scrape
 #FLUX: -c=3
+#FLUX: --queue=ssd
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

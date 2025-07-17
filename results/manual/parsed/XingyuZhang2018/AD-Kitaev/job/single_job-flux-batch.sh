@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-destiny-9066
+#FLUX: --job-name=confused-plant-6132
 #FLUX: --queue=a100
 #FLUX: -t=35996400
 #FLUX: --urgency=16

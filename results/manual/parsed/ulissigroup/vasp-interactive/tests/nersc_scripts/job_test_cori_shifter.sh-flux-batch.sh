@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-poo-9842
+#FLUX: --job-name=butterscotch-underoos-7618
+#FLUX: --queue=premium
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export PATH='${CONDA_ROOT}/bin:$PATH'

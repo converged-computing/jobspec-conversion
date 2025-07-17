@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blue-cinnamonbun-5351
+#FLUX: --job-name=carnivorous-fork-8857
 #FLUX: --urgency=16
 

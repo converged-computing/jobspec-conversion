@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-staircase-2087
+#FLUX: --job-name=carnivorous-hobbit-8661
+#FLUX: --queue=regular
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export PATH='${CONDA_ROOT}/bin:$PATH'

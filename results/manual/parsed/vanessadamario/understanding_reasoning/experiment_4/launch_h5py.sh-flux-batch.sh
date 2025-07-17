@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=evalEXP4
 #FLUX: --queue=normal
+#FLUX: -t=2400
 #FLUX: --urgency=16
 
 module add openmind/singularity/3.4.1

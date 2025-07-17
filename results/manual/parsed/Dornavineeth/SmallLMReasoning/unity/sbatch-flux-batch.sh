@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=phi-2
+#FLUX: -c=18
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load miniconda/22.11.1-1

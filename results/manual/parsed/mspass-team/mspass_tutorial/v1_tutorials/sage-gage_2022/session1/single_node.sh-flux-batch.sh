@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-fudge-0065
+#FLUX: --job-name=mspass
+#FLUX: --queue=skx-normal
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export SHELL='/bin/bash'

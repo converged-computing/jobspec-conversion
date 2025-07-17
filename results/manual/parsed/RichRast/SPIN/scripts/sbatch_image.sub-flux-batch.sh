@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-taco-7432
+#FLUX: --job-name=NPT_imputation
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 source /home/rr568/NPT/non-parametric-transformers/scripts/init_env.sh

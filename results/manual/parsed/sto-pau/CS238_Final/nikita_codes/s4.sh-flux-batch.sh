@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-leg-5675
+#FLUX: --job-name=s4
+#FLUX: -N=4
+#FLUX: --queue=normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module purge

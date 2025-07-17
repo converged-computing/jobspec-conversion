@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-toaster-7402
+#FLUX: --job-name=pyt_train_both
+#FLUX: --queue=gpu-a100
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 set -e

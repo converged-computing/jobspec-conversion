@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-fudge-3738
+#FLUX: --job-name=raytune
+#FLUX: -N=12
 #FLUX: -c=64
 #FLUX: --gpus-per-task=4
+#FLUX: --queue=gpu
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export TUNE_RESULT_DIR='/mnt/ceph/users/ewulff/ray_results/tune_result_dir'

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-dog-9450
+#FLUX: --job-name=TensorComprehensions
+#FLUX: -n=8
 #FLUX: --queue=priority,uninterrupted,learnfair,scavenge
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export TUNER_THREADS='${TUNER_THREADS:=20}'

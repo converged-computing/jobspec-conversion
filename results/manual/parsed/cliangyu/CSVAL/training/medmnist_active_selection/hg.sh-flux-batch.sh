@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-cupcake-8876
+#FLUX: --job-name=dinosaur-peanut-butter-8174
+#FLUX: -n=2
+#FLUX: --queue=wildfire
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module load tensorflow/1.8-agave-gpu                                            

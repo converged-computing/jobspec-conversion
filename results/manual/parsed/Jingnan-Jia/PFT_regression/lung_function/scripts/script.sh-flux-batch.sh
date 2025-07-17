@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-punk-3079
+#FLUX: --job-name=sticky-blackbean-5850
 #FLUX: --queue=amd-gpu-long
 #FLUX: --urgency=16
 

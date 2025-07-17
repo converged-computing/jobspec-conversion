@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-squidward-9316
+#FLUX: --job-name=goodbye-signal-0618
+#FLUX: --queue=milanq
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'

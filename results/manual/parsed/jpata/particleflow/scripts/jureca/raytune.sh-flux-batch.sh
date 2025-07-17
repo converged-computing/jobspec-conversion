@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-snack-5286
+#FLUX: --job-name=raytune
 #FLUX: -N=24
 #FLUX: -c=256
 #FLUX: --exclusive

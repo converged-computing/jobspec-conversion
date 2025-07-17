@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-banana-6769
+#FLUX: --job-name=lovable-animal-3189
+#FLUX: --queue=defq
 #FLUX: -t=721800
 #FLUX: --urgency=16
 

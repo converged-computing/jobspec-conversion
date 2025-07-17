@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-snack-4627
+#FLUX: --job-name=dino_rpn_deep
+#FLUX: --queue=alldlc_gpu-rtx2080
+#FLUX: -t=86399
 #FLUX: --urgency=16
 
 source /home/ferreira/.profile

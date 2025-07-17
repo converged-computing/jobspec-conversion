@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-noodle-2090
+#FLUX: --job-name=Bootstrapping
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

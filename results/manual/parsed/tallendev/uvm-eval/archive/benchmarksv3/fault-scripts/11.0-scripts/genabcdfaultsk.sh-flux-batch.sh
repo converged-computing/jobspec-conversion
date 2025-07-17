@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leopard-3330
+#FLUX: --job-name=abcd-faults
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

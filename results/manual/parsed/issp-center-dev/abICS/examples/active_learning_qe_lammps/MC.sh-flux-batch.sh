@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-poodle-4836
+#FLUX: --job-name=evasive-egg-6279
+#FLUX: -n=8
+#FLUX: --queue=i8cpu
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

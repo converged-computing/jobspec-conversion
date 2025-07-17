@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-nalgas-7840
+#FLUX: --job-name=nvt
 #FLUX: -c=5
 #FLUX: --queue=small
 #FLUX: -t=86400

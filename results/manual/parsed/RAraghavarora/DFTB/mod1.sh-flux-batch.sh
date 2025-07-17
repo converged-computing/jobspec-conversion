@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-muffin-6889
+#FLUX: --job-name=dftb-large
 #FLUX: -n=8
 #FLUX: --queue=gpu2
 #FLUX: -t=172800

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-pot-7597
+#FLUX: --job-name=wobbly-lettuce-9323
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export CXX='g++'

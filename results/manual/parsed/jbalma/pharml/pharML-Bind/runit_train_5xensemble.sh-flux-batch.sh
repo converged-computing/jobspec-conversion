@@ -1,6 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=pharml-bind
+#FLUX: -N=4
 #FLUX: --exclusive
+#FLUX: --queue=spider
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PATH='${INSTALL_DIR}/bin:${PATH} #/home/users/${USER}/.local/bin:${PATH}'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-cupcake-4010
+#FLUX: --job-name=fat-spoon-2196
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=n1s8-v100-1

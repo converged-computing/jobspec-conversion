@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-butter-0163
+#FLUX: --job-name=is-ismi
+#FLUX: -n=28
+#FLUX: --queue=mid1
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

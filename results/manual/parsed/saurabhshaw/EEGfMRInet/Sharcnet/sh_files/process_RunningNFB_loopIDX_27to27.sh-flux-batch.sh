@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cinnamonbun-8531
+#FLUX: --job-name=blank-soup-2892
 #FLUX: -c=8
 #FLUX: -t=170
 #FLUX: --urgency=16

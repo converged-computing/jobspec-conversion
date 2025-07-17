@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-snack-2316
+#FLUX: --job-name=edit_fixfile
 #FLUX: --queue=workq
 #FLUX: -t=600
 #FLUX: --urgency=16

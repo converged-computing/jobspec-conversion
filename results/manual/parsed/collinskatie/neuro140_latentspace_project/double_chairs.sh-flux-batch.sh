@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-spoon-3225
+#FLUX: --job-name=evasive-lizard-0508
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load openmind/anaconda/3-2019.10; module load openmind/cuda/9.1;

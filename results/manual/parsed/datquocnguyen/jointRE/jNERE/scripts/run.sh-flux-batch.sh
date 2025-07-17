@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-poodle-1512
+#FLUX: --job-name=pusheena-leg-1913
+#FLUX: --queue=long
 #FLUX: --urgency=16
 
 export LANG='en_US.UTF-8'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-chip-5732
+#FLUX: --job-name=misunderstood-omelette-1278
 #FLUX: -c=2
+#FLUX: -t=86415
 #FLUX: --urgency=16
 
 module load r/3.4.0

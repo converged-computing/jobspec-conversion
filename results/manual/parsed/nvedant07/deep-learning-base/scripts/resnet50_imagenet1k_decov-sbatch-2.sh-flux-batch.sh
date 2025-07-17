@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-rabbit-2713
+#FLUX: --job-name=expensive-arm-1085
+#FLUX: -c=16
+#FLUX: --queue=a40
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 srun --jobid $SLURM_JOBID bash -c 'python -m deep-learning-base.supervised_training \

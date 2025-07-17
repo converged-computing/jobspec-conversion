@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lentil-4352
+#FLUX: --job-name=lovely-leopard-6447
 #FLUX: -c=10
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export FSLSUB_LOCAL_RUN='YES'

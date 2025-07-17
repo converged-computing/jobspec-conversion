@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pastry-8378
+#FLUX: --job-name=predict
 #FLUX: -c=6
+#FLUX: --queue=gpu
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 export PATH='${HOME}/openmpi/bin:$PATH'

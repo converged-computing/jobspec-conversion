@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-motorcycle-3298
+#FLUX: --job-name=gmx_mpi_test
+#FLUX: -N=2
+#FLUX: -n=96
+#FLUX: --queue=skx
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load intel/24.0

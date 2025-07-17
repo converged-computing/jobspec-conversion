@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-dog-9090
+#FLUX: --job-name=hanky-lettuce-4891
 #FLUX: -c=7
+#FLUX: -t=262800
 #FLUX: --urgency=16
 
 module load cudatoolkit/10.0

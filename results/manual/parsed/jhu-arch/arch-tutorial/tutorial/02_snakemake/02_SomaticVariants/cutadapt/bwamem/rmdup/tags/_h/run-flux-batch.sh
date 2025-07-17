@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bike-7890
+#FLUX: --job-name=tags
 #FLUX: -c=4
+#FLUX: --queue=defq
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

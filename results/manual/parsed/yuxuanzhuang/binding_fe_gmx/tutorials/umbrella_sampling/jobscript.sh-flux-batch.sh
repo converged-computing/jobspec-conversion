@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-knife-3922
+#FLUX: --job-name=us_epj
+#FLUX: -n=4
+#FLUX: --queue=lindahl1,lindahl2,lindahl3,lindahl4
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module unload gromacs

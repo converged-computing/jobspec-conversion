@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-parrot-6879
+#FLUX: --job-name=swin-t-livecell
+#FLUX: --queue=tier3
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

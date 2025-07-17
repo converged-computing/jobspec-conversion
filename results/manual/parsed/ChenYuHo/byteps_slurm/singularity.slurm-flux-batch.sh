@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-noodle-6426
+#FLUX: --job-name=byteps_singularity
 #FLUX: -n=4
 #FLUX: --queue=batch
 #FLUX: -t=299

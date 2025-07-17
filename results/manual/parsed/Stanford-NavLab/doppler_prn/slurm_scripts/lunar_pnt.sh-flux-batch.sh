@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=lunar_pnt
+#FLUX: -c=32
 #FLUX: --queue=normal
 #FLUX: -t=7200
 #FLUX: --urgency=16

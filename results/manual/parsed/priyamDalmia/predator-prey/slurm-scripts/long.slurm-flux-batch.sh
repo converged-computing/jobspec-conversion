@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-kitty-7322
+#FLUX: --job-name=misunderstood-despacito-7359
 #FLUX: --queue=longgpgpu
 #FLUX: -t=2592000
 #FLUX: --urgency=16

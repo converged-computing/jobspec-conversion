@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=faux-latke-6070
+#FLUX: --job-name=spicy-truffle-0197
+#FLUX: --queue=genx
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

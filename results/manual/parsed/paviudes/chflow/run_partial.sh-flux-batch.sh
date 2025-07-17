@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-dog-9003
+#FLUX: --job-name=cowy-caramel-2445
 #FLUX: --urgency=16
 
 host=$(hostname)

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-citrus-6214
+#FLUX: --job-name=stream-2perf-noflush-perf
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

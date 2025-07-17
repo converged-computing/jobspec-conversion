@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-snack-4783
+#FLUX: --job-name=lammps-NEB1
+#FLUX: --queue=course
 #FLUX: --urgency=16
 
 module load compiles/intel/2019/u4/config

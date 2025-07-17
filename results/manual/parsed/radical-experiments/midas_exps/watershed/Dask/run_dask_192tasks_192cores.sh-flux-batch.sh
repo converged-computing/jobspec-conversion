@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-platanos-5763
+#FLUX: --job-name=rainbow-cinnamonbun-8529
+#FLUX: -N=8
+#FLUX: --queue=compute
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

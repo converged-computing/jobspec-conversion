@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-train-2103
+#FLUX: --job-name=lovely-citrus-6118
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ncsa/Scheduler/ccm/r.sh

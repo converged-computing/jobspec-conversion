@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-gato-4628
+#FLUX: --job-name=3dPeregrineV05
+#FLUX: -N=8
+#FLUX: --queue=pdebug
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PETSC_DIR='/g/g20/lobad1/petsc'

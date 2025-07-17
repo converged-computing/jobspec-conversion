@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=gmgpolar-setup
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 origin_NOT_coarse=0	# origin_NOT_coarse

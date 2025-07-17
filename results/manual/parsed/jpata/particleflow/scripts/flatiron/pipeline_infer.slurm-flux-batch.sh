@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-kitty-0393
+#FLUX: --job-name=pipeinfer
 #FLUX: -c=112
 #FLUX: --exclusive
+#FLUX: --queue=eval
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/mnt/sw/nix/store/3xpm36w2kcri3j1m5j15hg025my1p4kx-cuda-11.8.0/extras/CUPTI/lib64/'

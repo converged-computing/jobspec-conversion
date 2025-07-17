@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-salad-5128
+#FLUX: --job-name=stanky-salad-5566
 #FLUX: --urgency=16
 
 for seed in 1 2 3 4 5

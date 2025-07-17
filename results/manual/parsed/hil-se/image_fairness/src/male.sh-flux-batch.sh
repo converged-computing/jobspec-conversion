@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-car-3144
+#FLUX: --job-name=image_fairness_black
+#FLUX: --queue=tier3
+#FLUX: -t=270303
 #FLUX: --urgency=16
 
 spack unload -a

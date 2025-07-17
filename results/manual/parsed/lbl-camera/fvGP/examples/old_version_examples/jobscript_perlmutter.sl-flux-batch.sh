@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fudge-9196
+#FLUX: --job-name=misunderstood-animal-2862
+#FLUX: -n=256
+#FLUX: -c=32
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'

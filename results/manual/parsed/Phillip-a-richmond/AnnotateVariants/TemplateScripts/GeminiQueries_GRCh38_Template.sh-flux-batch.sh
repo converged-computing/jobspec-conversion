@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-milkshake-7019
+#FLUX: --job-name=conspicuous-fork-5553
 #FLUX: -c=2
 #FLUX: --queue=defq
 #FLUX: -t=28800

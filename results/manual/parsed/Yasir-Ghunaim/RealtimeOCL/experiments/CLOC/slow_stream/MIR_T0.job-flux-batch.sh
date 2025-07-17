@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-ricecake-6127
+#FLUX: --job-name=MIRT0
 #FLUX: -c=12
 #FLUX: --queue=batch
 #FLUX: -t=216000

@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lemur-6858
+#FLUX: --job-name=Megatron-LM
+#FLUX: -N=4
 #FLUX: -c=200
 #FLUX: --exclusive
+#FLUX: --queue=megatron
 #FLUX: --urgency=16
 
 export LOGLEVEL='INFO'

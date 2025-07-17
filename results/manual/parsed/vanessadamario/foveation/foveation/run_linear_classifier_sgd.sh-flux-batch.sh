@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=experiment1
+#FLUX: -c=2
 #FLUX: --queue=cbmm
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 hostname

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-latke-7910
+#FLUX: --job-name=gradients
+#FLUX: --queue=cox
+#FLUX: -t=20
 #FLUX: --urgency=16
 
 module load centos6/0.0.1-fasrc01

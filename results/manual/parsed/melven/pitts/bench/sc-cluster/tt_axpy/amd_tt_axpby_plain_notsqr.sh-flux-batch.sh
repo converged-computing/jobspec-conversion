@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chair-5434
+#FLUX: --job-name=hello-nalgas-9333
+#FLUX: -c=64
+#FLUX: --queue=amd
+#FLUX: -t=180000
 #FLUX: --urgency=16
 
 export OMP_STACKSIZE='100M'

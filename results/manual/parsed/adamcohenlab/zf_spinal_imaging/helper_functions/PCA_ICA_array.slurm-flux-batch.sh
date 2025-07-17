@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-poo-2858
+#FLUX: --job-name=gloopy-peas-8770
+#FLUX: --queue=shared
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load matlab/R2018a-fasrc01

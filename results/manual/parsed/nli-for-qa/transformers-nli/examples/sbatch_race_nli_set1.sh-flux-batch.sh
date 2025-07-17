@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=race_nli-%j
 #FLUX: -c=2
+#FLUX: --queue=m40-long
 #FLUX: --urgency=16
 
 python run_nli.py \

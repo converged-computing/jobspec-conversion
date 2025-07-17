@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-staircase-2481
+#FLUX: --job-name=moolicious-cherry-5051
+#FLUX: --queue=amd_gpu
 #FLUX: -t=360000
 #FLUX: --urgency=16
 

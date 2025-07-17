@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=timAhcal_valid
 #FLUX: -n=4
+#FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

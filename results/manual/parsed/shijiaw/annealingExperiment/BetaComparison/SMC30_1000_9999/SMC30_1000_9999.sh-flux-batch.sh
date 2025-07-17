@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lemon-6832
+#FLUX: --job-name=nerdy-diablo-3161
+#FLUX: -t=172815
 #FLUX: --urgency=16
 
 module load r/3.4.0

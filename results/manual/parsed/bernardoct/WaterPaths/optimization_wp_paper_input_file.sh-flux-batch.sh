@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=borg_input_file
+#FLUX: -N=16
+#FLUX: -n=48
 #FLUX: --exclusive
 #FLUX: -t=504000
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=test
+#FLUX: -n=40
 #FLUX: --exclusive
 #FLUX: --queue=xeon40
 #FLUX: -t=180000

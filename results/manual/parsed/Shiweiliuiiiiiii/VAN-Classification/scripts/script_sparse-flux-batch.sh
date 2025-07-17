@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-carrot-4179
+#FLUX: --job-name=fugly-carrot-1545
 #FLUX: -c=72
 #FLUX: --exclusive
+#FLUX: --queue=gpu
+#FLUX: -t=259140
 #FLUX: --urgency=16
 
 source /home/shiweil/miniconda3/etc/profile.d/conda.sh

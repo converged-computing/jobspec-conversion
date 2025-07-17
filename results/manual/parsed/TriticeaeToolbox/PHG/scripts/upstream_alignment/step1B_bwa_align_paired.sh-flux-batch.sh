@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=bwa-align-paired
+#FLUX: -n=20
+#FLUX: --queue=short
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load samtools/1.9

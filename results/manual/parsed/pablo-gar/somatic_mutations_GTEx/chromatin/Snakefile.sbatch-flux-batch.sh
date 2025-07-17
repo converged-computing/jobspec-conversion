@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-nalgas-6523
+#FLUX: --job-name=s_chromatin
 #FLUX: --queue=hbfraser,hns,normal
 #FLUX: -t=86400
 #FLUX: --urgency=16

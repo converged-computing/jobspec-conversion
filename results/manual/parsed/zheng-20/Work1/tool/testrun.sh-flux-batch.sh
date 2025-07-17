@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-bicycle-2538
+#FLUX: --job-name=dinosaur-poo-7849
 #FLUX: --urgency=16
 
 export PYTHONPATH='./'

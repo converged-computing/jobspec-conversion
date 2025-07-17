@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=runSpineOpt
+#FLUX: -n=8
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

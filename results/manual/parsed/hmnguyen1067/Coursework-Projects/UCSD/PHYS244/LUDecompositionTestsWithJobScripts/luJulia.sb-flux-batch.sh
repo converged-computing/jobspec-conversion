@@ -2,6 +2,7 @@
 #FLUX: --job-name=julia_lu
 #FLUX: -c=16
 #FLUX: --queue=shared
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='32'

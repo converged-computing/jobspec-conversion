@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-buttface-5694
+#FLUX: --job-name=worker
+#FLUX: --queue=cluster-name
+#FLUX: -t=518400
 #FLUX: --urgency=16
 
 while getopts f:e:w: flag

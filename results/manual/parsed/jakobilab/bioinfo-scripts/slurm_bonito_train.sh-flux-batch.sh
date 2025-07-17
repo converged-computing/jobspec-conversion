@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-plant-6467
+#FLUX: --job-name=bonito train multiGPU
+#FLUX: -c=20
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 echo "==== Start of GPU information ===="

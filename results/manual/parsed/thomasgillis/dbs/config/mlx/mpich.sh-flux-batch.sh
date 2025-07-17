@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-rabbit-7586
+#FLUX: --job-name=fat-cinnamonbun-2680
 #FLUX: -n=8
 #FLUX: --queue=cpu
 #FLUX: -t=7200

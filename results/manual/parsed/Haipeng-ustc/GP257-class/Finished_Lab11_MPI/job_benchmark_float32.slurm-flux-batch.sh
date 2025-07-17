@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-hippo-5755
+#FLUX: --job-name=butterscotch-fork-8434
 #FLUX: -N=2
 #FLUX: -n=16
 #FLUX: --exclusive

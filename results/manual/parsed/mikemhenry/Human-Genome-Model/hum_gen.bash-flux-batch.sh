@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-platanos-2696
+#FLUX: --job-name=placid-chip-5350
 #FLUX: --queue=gpuq
 #FLUX: -t=86400
 #FLUX: --urgency=16

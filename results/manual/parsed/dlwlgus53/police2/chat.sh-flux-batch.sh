@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-citrus-6389
+#FLUX: --job-name=POL
+#FLUX: --queue=3090
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export PYTHONPATH='.'

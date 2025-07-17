@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-soup-7687
+#FLUX: --job-name=phat-leader-4315
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leader-5410
-#FLUX: --queue=pascal
+#FLUX: --job-name=phat-peanut-9070
+#FLUX: --queue=pbatch
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 source ~/.bashrc

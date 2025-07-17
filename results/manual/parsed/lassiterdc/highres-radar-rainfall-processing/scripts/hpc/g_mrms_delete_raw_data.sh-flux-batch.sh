@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-gato-8434
+#FLUX: --job-name=crunchy-destiny-5287
+#FLUX: --queue=standard
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source __directories.sh

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lettuce-3894
+#FLUX: --job-name=Multi-threaded_gurobi
 #FLUX: -c=28
+#FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

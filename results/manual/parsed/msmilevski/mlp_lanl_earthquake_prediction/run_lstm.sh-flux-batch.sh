@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lettuce-6127
+#FLUX: --job-name=lovely-lemur-2570
 #FLUX: --queue=LongJobs
 #FLUX: -t=108000
 #FLUX: --urgency=16

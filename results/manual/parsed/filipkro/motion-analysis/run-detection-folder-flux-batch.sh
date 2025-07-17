@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-parsnip-2896
+#FLUX: --job-name=swampy-lemur-3131
+#FLUX: -n=4
+#FLUX: --queue=alvis
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 vid="new-vids"

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=R2_calculations
+#FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=129600
 #FLUX: --urgency=16

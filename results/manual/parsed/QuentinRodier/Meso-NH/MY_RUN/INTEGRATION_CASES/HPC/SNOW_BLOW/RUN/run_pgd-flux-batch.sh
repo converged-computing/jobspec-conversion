@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-nalgas-5171
+#FLUX: --job-name=pgd_kclb
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 1'

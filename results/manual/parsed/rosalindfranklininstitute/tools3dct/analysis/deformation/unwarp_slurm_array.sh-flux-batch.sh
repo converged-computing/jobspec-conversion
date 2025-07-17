@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lemur-3938
+#FLUX: --job-name=strawberry-cinnamonbun-5454
 #FLUX: -c=4
+#FLUX: --queue=htc
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load X11

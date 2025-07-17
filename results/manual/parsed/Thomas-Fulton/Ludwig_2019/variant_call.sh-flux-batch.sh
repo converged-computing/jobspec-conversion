@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-taco-0386
+#FLUX: --job-name=anxious-dog-8231
+#FLUX: -c=8
+#FLUX: --queue=defq
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PATH='`pwd`/software/bin/:$PATH'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-peas-6948
+#FLUX: --job-name=angry-onion-2431
+#FLUX: -c=24
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=210
 #FLUX: --urgency=16
 
 ptRoot=$(cd ..; pwd)

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-nalgas-1159
+#FLUX: --job-name=sticky-taco-9894
+#FLUX: --queue=standard
+#FLUX: -t=59400
 #FLUX: --urgency=16
 
 module purge

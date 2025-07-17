@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=deep_mimic
+#FLUX: -n=16
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

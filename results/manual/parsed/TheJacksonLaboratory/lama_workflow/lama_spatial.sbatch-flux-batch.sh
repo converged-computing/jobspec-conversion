@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-platanos-6720
+#FLUX: --job-name=lama_spatial
+#FLUX: -c=16
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load singularity

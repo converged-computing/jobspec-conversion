@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-omelette-2349
+#FLUX: --job-name=pico_al_nogpu
+#FLUX: -c=16
 #FLUX: --exclusive
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='${cudaDir}/lib64:${LD_LIBRARY_PATH}'

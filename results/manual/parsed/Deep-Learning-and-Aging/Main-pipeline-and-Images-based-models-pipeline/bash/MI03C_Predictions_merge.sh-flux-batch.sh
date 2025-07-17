@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-spoon-3254
+#FLUX: --job-name=conspicuous-dog-5346
+#FLUX: --queue=priority
 #FLUX: --urgency=16
 
 set -e

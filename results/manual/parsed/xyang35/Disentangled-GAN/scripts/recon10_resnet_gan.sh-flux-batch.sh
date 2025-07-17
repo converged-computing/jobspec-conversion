@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-truffle-0863
+#FLUX: --job-name=joyous-poo-4080
+#FLUX: --queue=bw-gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd ..

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-taco-6960
+#FLUX: --job-name=outstanding-eagle-4120
+#FLUX: --queue=standard
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module purge

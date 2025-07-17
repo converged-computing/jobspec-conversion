@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=dump
+#FLUX: --queue=fat
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

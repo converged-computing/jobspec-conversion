@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-peanut-butter-9236
+#FLUX: --job-name=cox_2D_HD_ti1
+#FLUX: -N=8
+#FLUX: -n=384
+#FLUX: --queue=workq
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 date

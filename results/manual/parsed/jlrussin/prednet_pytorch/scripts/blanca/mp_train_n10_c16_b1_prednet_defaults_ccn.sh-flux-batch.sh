@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-eagle-3048
+#FLUX: --job-name=evasive-latke-6283
 #FLUX: -n=10
 #FLUX: -c=16
 #FLUX: -t=259200

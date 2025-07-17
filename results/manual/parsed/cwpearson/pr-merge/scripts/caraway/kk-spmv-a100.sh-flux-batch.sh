@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-chip-0994
+#FLUX: --job-name=confused-sundae-4081
+#FLUX: --queue=MI100
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

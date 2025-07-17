@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-hobbit-1886
+#FLUX: --job-name=fuzzy-fudge-7462
 #FLUX: -n=10
 #FLUX: -c=2
 #FLUX: --queue=small

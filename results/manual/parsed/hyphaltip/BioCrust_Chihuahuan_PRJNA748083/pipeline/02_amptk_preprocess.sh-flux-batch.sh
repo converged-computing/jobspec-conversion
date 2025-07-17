@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-noodle-1962
+#FLUX: --job-name=psycho-knife-9106
+#FLUX: -c=64
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 CPU=2

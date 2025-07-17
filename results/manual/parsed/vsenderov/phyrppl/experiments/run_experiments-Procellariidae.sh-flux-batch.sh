@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-leader-0264
+#FLUX: --job-name=Anatinae
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export OMP_STACKSIZE=' 32G" '

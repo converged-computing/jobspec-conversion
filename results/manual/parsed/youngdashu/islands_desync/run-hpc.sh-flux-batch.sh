@@ -2,6 +2,7 @@
 #FLUX: --job-name=my-workload
 #FLUX: -N=5
 #FLUX: -n=120
+#FLUX: --queue=plgrid
 #FLUX: --urgency=16
 
 export TMPDIR='$tmpdir'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-poodle-1043
+#FLUX: --job-name=quirky-cherry-2461
 #FLUX: --urgency=16
 
 source activate permafrost

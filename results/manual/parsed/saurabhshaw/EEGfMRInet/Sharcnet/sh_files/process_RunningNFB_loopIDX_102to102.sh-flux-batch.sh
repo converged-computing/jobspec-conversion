@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-onion-1200
+#FLUX: --job-name=eccentric-destiny-3759
 #FLUX: -c=8
 #FLUX: -t=170
 #FLUX: --urgency=16

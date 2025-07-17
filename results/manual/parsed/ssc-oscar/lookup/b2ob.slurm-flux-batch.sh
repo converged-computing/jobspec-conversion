@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-plant-1951
+#FLUX: --job-name=WHAT.FROM.PRT
 #FLUX: --queue=campus
 #FLUX: -t=86399
 #FLUX: --urgency=16

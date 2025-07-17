@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-bits-7030
+#FLUX: --job-name=boopy-kitty-4959
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

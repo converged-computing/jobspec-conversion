@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-platanos-4115
+#FLUX: --job-name=DaskRMSD1
+#FLUX: --queue=normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

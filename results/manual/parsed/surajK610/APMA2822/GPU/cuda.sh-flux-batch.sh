@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-egg-4264
+#FLUX: --job-name=stinky-squidward-4497
+#FLUX: --queue=gpu
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load cuda/12.2.2  gcc/10.2

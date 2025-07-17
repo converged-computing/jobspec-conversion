@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-diablo-6757
+#FLUX: --job-name=milky-cupcake-7336
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 help=$(grep "^##" "${BASH_SOURCE[0]}" | cut -c 4-)

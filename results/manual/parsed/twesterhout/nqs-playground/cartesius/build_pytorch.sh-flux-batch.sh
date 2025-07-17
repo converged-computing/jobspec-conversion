@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-kerfuffle-6603
+#FLUX: --job-name=angry-earthworm-5427
+#FLUX: -c=16
+#FLUX: --queue=gpu
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

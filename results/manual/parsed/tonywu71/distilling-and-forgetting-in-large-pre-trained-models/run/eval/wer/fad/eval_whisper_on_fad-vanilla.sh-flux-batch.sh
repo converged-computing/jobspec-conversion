@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bike-9829
+#FLUX: --job-name=eval_whisper_on_fad-vanilla
+#FLUX: --queue=ampere
 #FLUX: -t=2400
 #FLUX: --urgency=16
 

@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-peanut-0304
+#FLUX: --job-name=n1_g1_b16_r0.001
+#FLUX: -n=8
+#FLUX: -c=10
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=14399
 #FLUX: --urgency=16
 
 INPUT=${1:?"Please provide an input file"}

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-buttface-1200
+#FLUX: --job-name=aam71-fullmeld
 #FLUX: -c=30
+#FLUX: --queue=skylake
 #FLUX: -t=122400
 #FLUX: --urgency=16
 

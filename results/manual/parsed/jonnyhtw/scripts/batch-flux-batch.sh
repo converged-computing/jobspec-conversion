@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-earthworm-4741
+#FLUX: --job-name=blank-lettuce-2245
 #FLUX: --queue=nesi_prepost
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-punk-9332
+#FLUX: --job-name=crusty-latke-1923
+#FLUX: --queue=hgx2q
+#FLUX: -t=10
 #FLUX: --urgency=16
 
 export OMPI_MCA_opal_cuda_support='true'

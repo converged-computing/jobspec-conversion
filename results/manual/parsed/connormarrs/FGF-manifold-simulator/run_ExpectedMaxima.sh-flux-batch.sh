@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-peas-8995
+#FLUX: --job-name=frigid-snack-2520
 #FLUX: -n=72
 #FLUX: --queue=general
 #FLUX: -t=41400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-milkshake-7645
+#FLUX: --job-name=butterscotch-latke-3501
 #FLUX: --urgency=16
 
 export GPTUNEROOT='$PWD'

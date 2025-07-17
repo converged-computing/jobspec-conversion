@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-buttface-6386
+#FLUX: --job-name=moolicious-leopard-3581
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/HuMingLab/SnapHiC/run_step1.sh

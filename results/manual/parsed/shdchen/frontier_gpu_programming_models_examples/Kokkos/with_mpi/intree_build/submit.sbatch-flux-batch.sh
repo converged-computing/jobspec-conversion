@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-itch-3473
+#FLUX: --job-name=misunderstood-dog-8771
+#FLUX: --queue=batch
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

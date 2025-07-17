@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-ricecake-0356
+#FLUX: --job-name=gloopy-butter-8250
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=c6gnpg

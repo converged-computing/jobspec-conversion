@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-hobbit-8486
+#FLUX: --job-name=chunky-peas-7706
+#FLUX: -c=3
+#FLUX: --queue=normal
+#FLUX: -t=108000
 #FLUX: --urgency=16
 
 module load gaussian/16.C.01 ; echo 

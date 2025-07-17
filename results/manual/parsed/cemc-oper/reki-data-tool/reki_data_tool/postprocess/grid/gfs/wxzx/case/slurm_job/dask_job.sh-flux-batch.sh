@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-general-1965
+#FLUX: --job-name=reki
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 export LC_ALL='en_US.UTF-8'

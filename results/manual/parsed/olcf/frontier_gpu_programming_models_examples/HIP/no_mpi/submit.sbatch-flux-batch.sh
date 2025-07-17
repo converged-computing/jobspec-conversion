@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-diablo-9438
+#FLUX: --job-name=moolicious-cat-7217
+#FLUX: --queue=batch
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module load PrgEnv-amd

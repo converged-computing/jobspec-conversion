@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-punk-6593
+#FLUX: --job-name=Deep-RBM_DBM_4_dec_real_PERS_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

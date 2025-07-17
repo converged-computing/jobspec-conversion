@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-latke-7064
+#FLUX: --job-name=test_event
+#FLUX: --queue=skx-normal
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 module load intel/18.0.2 cmake/3.7.1 gsl boost hdf5 eigen impi python3

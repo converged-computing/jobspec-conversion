@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-toaster-0290
+#FLUX: --job-name=hp3d
+#FLUX: -n=4
+#FLUX: --queue=development
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export KMP_STACKSIZE='48M   # p=5'

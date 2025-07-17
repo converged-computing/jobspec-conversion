@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-ricecake-2265
+#FLUX: --job-name=rpc_margo_test
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120

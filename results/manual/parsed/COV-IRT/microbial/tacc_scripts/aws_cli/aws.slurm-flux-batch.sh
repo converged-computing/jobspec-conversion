@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-onion-7229
+#FLUX: --job-name=COVIRT-aws_microbe
+#FLUX: -n=64
+#FLUX: --queue=normal
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load tacc-singularity

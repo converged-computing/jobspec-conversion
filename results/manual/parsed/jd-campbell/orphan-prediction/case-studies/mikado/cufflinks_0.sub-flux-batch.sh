@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lamp-4836
+#FLUX: --job-name=cufflinks_0
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

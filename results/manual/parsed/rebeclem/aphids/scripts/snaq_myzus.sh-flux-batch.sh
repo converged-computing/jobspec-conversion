@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-banana-2221
+#FLUX: --job-name=snaq_myzus
+#FLUX: -n=40
+#FLUX: --queue=short
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 t1=$(date +"%s")

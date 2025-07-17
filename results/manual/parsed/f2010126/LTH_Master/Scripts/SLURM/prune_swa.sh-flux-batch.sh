@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-carrot-2674
+#FLUX: --job-name=Net2_Prune
+#FLUX: -t=71940
 #FLUX: --urgency=16
 
 cd $(ws_find lth_ws)

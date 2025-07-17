@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-nunchucks-6023
+#FLUX: --job-name=astute-pedo-0710
+#FLUX: --queue=debug
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export SHIFTER_IMAGETYPE='docker'

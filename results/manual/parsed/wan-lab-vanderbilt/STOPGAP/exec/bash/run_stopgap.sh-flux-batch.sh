@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-puppy-1034
+#FLUX: --job-name=wobbly-hope-0173
 #FLUX: --urgency=16
 
 set -e              # Crash on error

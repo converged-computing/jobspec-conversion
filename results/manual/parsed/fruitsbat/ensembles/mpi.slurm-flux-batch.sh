@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leopard-0717
+#FLUX: --job-name=phat-leg-8391
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: --queue=west

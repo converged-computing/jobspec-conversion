@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-plant-4200
+#FLUX: --job-name=fat-blackbean-6383
 #FLUX: -N=16
 #FLUX: -n=64
 #FLUX: -c=12

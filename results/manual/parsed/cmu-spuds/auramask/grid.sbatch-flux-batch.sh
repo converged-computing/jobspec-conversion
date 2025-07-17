@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=lfw-multiembed-unet
+#FLUX: --queue=inferno
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

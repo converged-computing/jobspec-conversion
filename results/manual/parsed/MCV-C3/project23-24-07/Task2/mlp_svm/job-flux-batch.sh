@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-pedo-6627
+#FLUX: --job-name=moolicious-lemon-6835
+#FLUX: -n=4
+#FLUX: --queue=mlow,mlow
 #FLUX: --urgency=16
 
 SAVE_DIR=$1

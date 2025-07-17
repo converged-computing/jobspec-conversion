@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-egg-3475
+#FLUX: --job-name=gatkUpdate
+#FLUX: --queue=shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 set -o errexit

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-latke-9076
+#FLUX: --job-name=buttery-pedo-4388
+#FLUX: --queue=gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module purge

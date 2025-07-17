@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sudoku-solver
+#FLUX: -c=24
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 module load gcc/10.2.0

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-noodle-6657
+#FLUX: --job-name=chocolate-carrot-8466
 #FLUX: -c=16
 #FLUX: --exclusive
+#FLUX: --queue=romeo
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

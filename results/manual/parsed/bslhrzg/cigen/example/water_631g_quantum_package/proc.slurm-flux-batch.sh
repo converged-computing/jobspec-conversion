@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=h2o_6
 #FLUX: -n=16
+#FLUX: --queue=devtaras
 #FLUX: --urgency=16
 
 source ~/venv_python3/bin/activate

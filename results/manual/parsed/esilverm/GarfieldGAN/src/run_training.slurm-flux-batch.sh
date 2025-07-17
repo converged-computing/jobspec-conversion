@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=stylegan3_garfield_training
+#FLUX: -c=12
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lizard-5522
+#FLUX: --job-name=C10_Combined
+#FLUX: --queue=alldlc_gpu-rtx2080
+#FLUX: -t=86399
 #FLUX: --urgency=16
 
 source activate metassl

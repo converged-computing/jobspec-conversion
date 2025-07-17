@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-toaster-7298
+#FLUX: --job-name=TR-for
+#FLUX: -N=4
 #FLUX: --exclusive
+#FLUX: --queue=kshdexclu04
 #FLUX: --urgency=16
 
 export NCCL_IB_HCA='mlx5_0'

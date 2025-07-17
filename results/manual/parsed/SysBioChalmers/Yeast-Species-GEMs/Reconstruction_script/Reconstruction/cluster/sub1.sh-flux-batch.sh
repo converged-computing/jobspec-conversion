@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-citrus-7590
+#FLUX: --job-name=outstanding-lentil-8030
+#FLUX: -n=2
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load GCCcore/8.3.0

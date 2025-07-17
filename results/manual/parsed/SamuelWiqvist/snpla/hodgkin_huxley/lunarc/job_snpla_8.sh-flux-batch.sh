@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cupcake-3719
+#FLUX: --job-name=snpla
+#FLUX: --queue=lu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

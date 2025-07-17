@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=abra
+#FLUX: -n=12
+#FLUX: --queue=defq
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

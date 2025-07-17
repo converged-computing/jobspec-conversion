@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-spoon-2063
+#FLUX: --job-name=faux-citrus-9195
+#FLUX: --queue=gputest
+#FLUX: -t=420
 #FLUX: --urgency=16
 
 mkdir -p logs

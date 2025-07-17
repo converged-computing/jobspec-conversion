@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-frito-2135
+#FLUX: --job-name=strawberry-snack-8579
 #FLUX: --exclusive
+#FLUX: --queue=k80_q
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge

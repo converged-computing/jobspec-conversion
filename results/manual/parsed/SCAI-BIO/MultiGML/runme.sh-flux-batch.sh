@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cat-5905
+#FLUX: --job-name=dlcg
+#FLUX: --queue=gpu
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load Anaconda3

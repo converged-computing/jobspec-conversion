@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-snack-1371
+#FLUX: --job-name=bloated-animal-0404
+#FLUX: -n=4
 #FLUX: --urgency=16
 
 source /etc/profile

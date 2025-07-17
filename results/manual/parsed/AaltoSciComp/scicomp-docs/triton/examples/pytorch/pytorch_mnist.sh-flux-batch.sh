@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-soup-7645
+#FLUX: --job-name=goodbye-cinnamonbun-2616
 #FLUX: -t=900
 #FLUX: --urgency=16
 

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-puppy-7079
+#FLUX: --job-name=CASE5_100S
 #FLUX: -N=16
 #FLUX: -n=129
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

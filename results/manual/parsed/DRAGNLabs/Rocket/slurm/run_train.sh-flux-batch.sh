@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-parrot-4681
+#FLUX: --job-name=train_llama
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

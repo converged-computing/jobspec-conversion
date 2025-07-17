@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-kitty-5194
+#FLUX: --job-name=creamy-staircase-4669
 #FLUX: -N=2
 #FLUX: -n=8
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export HFILE='`generate_pbs_nodefile`'

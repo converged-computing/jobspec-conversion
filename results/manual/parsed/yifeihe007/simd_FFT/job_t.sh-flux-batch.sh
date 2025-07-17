@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pancake-7870
+#FLUX: --job-name=Threads
+#FLUX: -c=14
 #FLUX: --exclusive
 #FLUX: -t=1800
 #FLUX: --urgency=16

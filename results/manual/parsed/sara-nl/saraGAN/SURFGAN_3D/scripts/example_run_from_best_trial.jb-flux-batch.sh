@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-fudge-1884
+#FLUX: --job-name=ornery-pot-9179
+#FLUX: -c=6
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='5'

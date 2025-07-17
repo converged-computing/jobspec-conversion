@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-house-8022
+#FLUX: --job-name=bricky-taco-4532
 #FLUX: --queue=hci-rw
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 set -e; start=$(date +'%s'); rm -f FAILED COMPLETE QUEUED; touch STARTED

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pedo-5532
+#FLUX: --job-name=Group_UM
+#FLUX: --queue=kipac
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

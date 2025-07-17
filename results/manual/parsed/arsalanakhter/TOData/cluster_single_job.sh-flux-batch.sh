@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lemon-3769
+#FLUX: --job-name=fugly-pastry-5590
 #FLUX: -c=20
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 set -e

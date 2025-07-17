@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-frito-7546
+#FLUX: --job-name=anxious-cherry-4111
 #FLUX: -c=8
+#FLUX: --queue=fasse_gpu
+#FLUX: -t=7140
 #FLUX: --urgency=16
 
 source ~/.bashrc

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-soup-4999
+#FLUX: --job-name=milky-underoos-4458
+#FLUX: -c=28
 #FLUX: --queue=parallel
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 export SLURM_MPI_TYPE='pmi2'

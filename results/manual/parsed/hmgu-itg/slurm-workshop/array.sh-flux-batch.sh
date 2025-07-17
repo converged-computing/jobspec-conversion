@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-gato-1317
+#FLUX: --job-name=arraytest
+#FLUX: --queue=normal_q
 #FLUX: --urgency=16
 
 echo SLURM_JOB_ID $SLURM_JOB_ID

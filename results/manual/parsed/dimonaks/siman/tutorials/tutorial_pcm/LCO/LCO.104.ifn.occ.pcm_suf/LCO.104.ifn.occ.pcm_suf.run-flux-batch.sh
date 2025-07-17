@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-leg-1175
+#FLUX: --job-name=LCO.104.ifn.occ.pcm_suf
+#FLUX: -n=16
+#FLUX: --queue=AMG-medium
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export PATH='$PATH:/home/a.boev/tools/'

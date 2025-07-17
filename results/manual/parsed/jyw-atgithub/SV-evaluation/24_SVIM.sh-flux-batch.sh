@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=SVIM
 #FLUX: -c=20
+#FLUX: --queue=standard
 #FLUX: --urgency=16
 
 source ~/.bashrc

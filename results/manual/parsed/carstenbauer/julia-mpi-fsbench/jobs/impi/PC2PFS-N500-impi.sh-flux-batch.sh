@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-carrot-4008
+#FLUX: --job-name=peachy-arm-3739
+#FLUX: -N=500
+#FLUX: -n=32000
+#FLUX: -c=2
 #FLUX: --exclusive
+#FLUX: --queue=cont
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

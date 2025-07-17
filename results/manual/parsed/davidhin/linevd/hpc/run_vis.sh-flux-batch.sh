@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=vis
+#FLUX: -n=6
+#FLUX: --queue=batch
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

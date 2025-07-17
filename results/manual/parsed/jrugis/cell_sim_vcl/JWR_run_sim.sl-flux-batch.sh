@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-omelette-3971
+#FLUX: --job-name=cell_sim_vcl
 #FLUX: -t=900
 #FLUX: --urgency=16
 

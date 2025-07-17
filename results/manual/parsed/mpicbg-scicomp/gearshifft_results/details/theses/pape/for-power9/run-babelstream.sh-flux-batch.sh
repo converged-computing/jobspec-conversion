@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-blackbean-7907
+#FLUX: --job-name=sticky-blackbean-8074
 #FLUX: -c=176
 #FLUX: --exclusive
 #FLUX: --queue=ml

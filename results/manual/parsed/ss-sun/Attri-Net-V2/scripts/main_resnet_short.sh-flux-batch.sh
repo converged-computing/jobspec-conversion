@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-destiny-8322
+#FLUX: --job-name=faux-bits-8588
 #FLUX: --queue=gpu-2080ti
 #FLUX: -t=100800
 #FLUX: --urgency=16

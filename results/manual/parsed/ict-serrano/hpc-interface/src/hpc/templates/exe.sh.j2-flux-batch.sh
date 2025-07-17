@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-nalgas-1869
+#FLUX: --job-name=spicy-cinnamonbun-1533
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 {# Template parameters - schema for the template is in openapi spec

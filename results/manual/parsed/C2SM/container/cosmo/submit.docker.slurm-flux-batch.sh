@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=testsuite
 #FLUX: -N=8
+#FLUX: --queue=normal
 #FLUX: -t=300
 #FLUX: --urgency=16
 

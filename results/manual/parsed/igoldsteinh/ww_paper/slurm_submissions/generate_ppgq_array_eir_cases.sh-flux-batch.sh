@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-platanos-2600
+#FLUX: --job-name=dinosaur-caramel-8592
+#FLUX: -n=4
+#FLUX: --queue=standard
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module purge

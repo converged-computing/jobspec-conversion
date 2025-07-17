@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lemur-1933
+#FLUX: --job-name=snakemake-submission
+#FLUX: --queue=all
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 . env.sh

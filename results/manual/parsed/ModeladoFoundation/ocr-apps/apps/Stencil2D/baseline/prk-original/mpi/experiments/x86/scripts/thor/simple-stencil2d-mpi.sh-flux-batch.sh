@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-latke-3078
+#FLUX: --job-name=moolicious-muffin-9407
 #FLUX: --queue=XAS
 #FLUX: --urgency=16
 

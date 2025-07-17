@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-eagle-5784
+#FLUX: --job-name=climseg_horovod
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='12'

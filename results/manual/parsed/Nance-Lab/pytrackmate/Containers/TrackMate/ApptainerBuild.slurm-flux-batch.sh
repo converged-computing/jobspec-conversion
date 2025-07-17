@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-parrot-1542
+#FLUX: --job-name=cowy-chip-7690
+#FLUX: --queue=compute
 #FLUX: -t=300
 #FLUX: --urgency=16
 

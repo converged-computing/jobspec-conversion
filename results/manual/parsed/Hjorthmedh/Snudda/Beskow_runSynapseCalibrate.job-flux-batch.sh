@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=confused-plant-4495
+#FLUX: --job-name=snudda_simulate
+#FLUX: -t=3540
 #FLUX: --urgency=16
 
 export CRAYPE_LINK_TYPE='dynamic'

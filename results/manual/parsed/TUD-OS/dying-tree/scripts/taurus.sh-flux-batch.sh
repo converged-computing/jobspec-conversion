@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-house-3772
+#FLUX: --job-name=fugly-puppy-5175
 #FLUX: -N=18
 #FLUX: --exclusive
 #FLUX: --queue=haswell64

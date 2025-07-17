@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-hippo-7618
+#FLUX: --job-name=TrainTauVertexRHORHO
+#FLUX: --queue=plgrid
 #FLUX: -t=57600
 #FLUX: --urgency=16
 

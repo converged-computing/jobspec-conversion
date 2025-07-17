@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-house-9870
+#FLUX: --job-name=expressive-train-8046
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

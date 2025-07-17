@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=metaspades
+#FLUX: -c=15
 #FLUX: --queue=bigmem,long
 #FLUX: -t=356400
 #FLUX: --urgency=16

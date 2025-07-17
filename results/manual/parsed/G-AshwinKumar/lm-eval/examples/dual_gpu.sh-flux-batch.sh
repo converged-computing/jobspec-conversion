@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-destiny-8107
+#FLUX: --job-name=eval
+#FLUX: -c=64
 #FLUX: --exclusive
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 MODEL_NAME="meditron-7b"

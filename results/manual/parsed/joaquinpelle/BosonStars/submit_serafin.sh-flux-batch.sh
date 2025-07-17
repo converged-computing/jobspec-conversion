@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-pedo-8260
+#FLUX: --job-name=bosonstar
 #FLUX: --queue=multi
 #FLUX: -t=86400
 #FLUX: --urgency=16

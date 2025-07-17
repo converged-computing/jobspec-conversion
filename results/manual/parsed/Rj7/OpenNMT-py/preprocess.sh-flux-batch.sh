@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-platanos-6618
+#FLUX: --job-name=reclusive-blackbean-1004
 #FLUX: -c=6
 #FLUX: -t=59
 #FLUX: --urgency=16

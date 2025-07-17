@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-malarkey-9330
+#FLUX: --job-name=merging_data
+#FLUX: -n=20
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export PYTHONPATH='/pdc/vol/nest/2.2.2/lib/python2.7/site-packages:/pdc/vol/python/2.7.6-gnu/lib/python2.7/site-packages'

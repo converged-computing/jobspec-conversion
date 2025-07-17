@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-hobbit-3081
+#FLUX: --job-name=BRATS
+#FLUX: -c=7
+#FLUX: --queue=gpu
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

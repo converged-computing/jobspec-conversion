@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bike-9376
+#FLUX: --job-name=POPE
+#FLUX: --queue=amilan
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 ml gcc/11.2.0

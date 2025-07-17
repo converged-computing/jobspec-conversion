@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-staircase-9307
+#FLUX: --job-name=confused-motorcycle-7492
 #FLUX: --urgency=16
 
 module load julia/1.7.3

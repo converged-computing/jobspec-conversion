@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-pot-9472
+#FLUX: --job-name=bmix_mtanveer
+#FLUX: --queue=standard
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load anaconda

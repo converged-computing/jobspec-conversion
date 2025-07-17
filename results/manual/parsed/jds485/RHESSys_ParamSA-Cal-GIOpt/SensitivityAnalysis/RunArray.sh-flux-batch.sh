@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-puppy-5672
+#FLUX: --job-name=bricky-blackbean-5532
+#FLUX: --queue=standard
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load singularity

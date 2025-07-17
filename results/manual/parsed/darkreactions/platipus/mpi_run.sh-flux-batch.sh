@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-leopard-4022
+#FLUX: --job-name=al_svm
+#FLUX: -n=3
+#FLUX: --queue=normal
+#FLUX: -t=16200
 #FLUX: --urgency=16
 
 module load python3

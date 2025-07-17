@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-peanut-butter-7657
+#FLUX: --job-name=dgr
+#FLUX: -N=4
+#FLUX: -n=8
+#FLUX: --queue=gpu-a100
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 module list

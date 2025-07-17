@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-avocado-1689
+#FLUX: --job-name=mink
 #FLUX: -c=4
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'

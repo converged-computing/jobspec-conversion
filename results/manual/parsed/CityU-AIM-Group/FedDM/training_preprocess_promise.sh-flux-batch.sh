@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-house-2547
+#FLUX: --job-name=training
+#FLUX: -c=2
 #FLUX: --urgency=16
 
 echo "Submitted from:"$SLURM_SUBMIT_DIR" on node:"$SLURM_SUBMIT_HOST

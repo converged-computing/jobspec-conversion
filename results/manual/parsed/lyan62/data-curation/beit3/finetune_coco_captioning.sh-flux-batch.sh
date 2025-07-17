@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=beit3_coco
 #FLUX: -c=24
+#FLUX: --queue=gpu
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

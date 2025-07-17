@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-milkshake-7660
+#FLUX: --job-name=grated-fork-8833
+#FLUX: --queue=RM-shared
+#FLUX: -t=108000
 #FLUX: --urgency=16
 
 SINGULARITY_CONT=$PROJECT/psrsearch.sif

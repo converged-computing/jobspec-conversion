@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-destiny-9655
+#FLUX: --job-name=trainer
+#FLUX: -c=4
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 source ~/.bashrc

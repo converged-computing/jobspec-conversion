@@ -2,6 +2,7 @@
 #FLUX: --job-name=KFInSAR
 #FLUX: -N=2
 #FLUX: -c=4
+#FLUX: -t=460800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-train-1660
+#FLUX: --job-name=mdc
+#FLUX: -n=4
 #FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16

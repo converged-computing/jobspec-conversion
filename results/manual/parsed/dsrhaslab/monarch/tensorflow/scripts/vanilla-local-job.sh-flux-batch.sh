@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-omelette-6045
+#FLUX: --job-name=job
+#FLUX: --queue=rtx
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export CC='/opt/apps/gcc/8.3.0/bin/gcc'

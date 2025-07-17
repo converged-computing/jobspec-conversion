@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-chair-3132
+#FLUX: --job-name=hello-chip-5111
 #FLUX: -c=8
 #FLUX: --queue=develbooster
 #FLUX: --urgency=16

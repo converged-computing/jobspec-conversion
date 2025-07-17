@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=isobutane_matlab
+#FLUX: --queue=evanreed
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-knife-1849
+#FLUX: --job-name=blank-toaster-3211
+#FLUX: --queue=DGXq
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='6'

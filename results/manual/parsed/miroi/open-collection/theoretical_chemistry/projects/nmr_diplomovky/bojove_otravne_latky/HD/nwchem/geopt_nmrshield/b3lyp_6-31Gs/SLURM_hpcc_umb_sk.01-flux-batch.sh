@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-leader-5378
+#FLUX: --job-name=HD6-31Gs
+#FLUX: -n=10
+#FLUX: --queue=compute
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/lib:$LD_LIBRARY_PATH'

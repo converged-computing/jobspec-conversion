@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lemon-5814
+#FLUX: --job-name=blank-signal-8821
+#FLUX: --queue=a100q
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export PATH='$PATH:/usr/local/cuda/bin'

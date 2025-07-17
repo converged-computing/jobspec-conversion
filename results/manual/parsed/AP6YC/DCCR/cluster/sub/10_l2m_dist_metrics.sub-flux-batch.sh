@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-toaster-2055
+#FLUX: --job-name=DCCR-10
 #FLUX: -n=32
 #FLUX: -t=86400
 #FLUX: --urgency=16

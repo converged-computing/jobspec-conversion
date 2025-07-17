@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-despacito-0074
+#FLUX: --job-name=misunderstood-malarkey-6941
 #FLUX: -c=24
 #FLUX: --queue=amdgpuextralong
 #FLUX: -t=1814400

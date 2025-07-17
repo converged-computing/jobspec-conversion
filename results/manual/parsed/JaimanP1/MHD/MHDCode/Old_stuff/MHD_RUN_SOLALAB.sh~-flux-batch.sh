@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-knife-1657
+#FLUX: --job-name=moolicious-mango-6958
 #FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=solarlab
 #FLUX: --urgency=16
 
 module purge > /dev/null 2>&1

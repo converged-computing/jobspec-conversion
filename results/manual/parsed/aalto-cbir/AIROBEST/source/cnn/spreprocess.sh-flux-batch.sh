@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-leopard-3453
+#FLUX: --job-name=preprocess
+#FLUX: --queue=gpu
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 module purge

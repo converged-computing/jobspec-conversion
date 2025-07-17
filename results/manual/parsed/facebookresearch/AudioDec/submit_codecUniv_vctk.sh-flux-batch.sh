@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=ADuniv_vctk
+#FLUX: -c=16
+#FLUX: --queue=xxx
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 autoencoder=autoencoder/symADuniv_vctk_48000_hop300

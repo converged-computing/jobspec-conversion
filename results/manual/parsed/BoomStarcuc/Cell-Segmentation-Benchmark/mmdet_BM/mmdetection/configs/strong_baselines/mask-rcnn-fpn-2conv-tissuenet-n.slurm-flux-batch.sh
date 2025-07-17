@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-salad-2414
+#FLUX: --job-name=mask-rcnn-fpn-2conv-tissuenet-n-1C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

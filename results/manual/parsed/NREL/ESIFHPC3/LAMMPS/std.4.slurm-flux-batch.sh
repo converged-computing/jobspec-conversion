@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=lmp.std4
 #FLUX: -N=4
+#FLUX: --queue=debug
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

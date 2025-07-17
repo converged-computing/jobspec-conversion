@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-latke-9801
+#FLUX: --job-name=SBP10_164
 #FLUX: -c=32
+#FLUX: --queue=r8nv-gpu-hw
+#FLUX: -t=108000
 #FLUX: --urgency=16
 
 echo "Job start at $(date "+%Y-%m-%d %H:%M:%S")"

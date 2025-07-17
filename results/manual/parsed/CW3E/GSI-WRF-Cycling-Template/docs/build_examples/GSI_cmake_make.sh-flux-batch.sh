@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-malarkey-9327
+#FLUX: --job-name=build_GSI
+#FLUX: --queue=compute
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export MODULEPATH='/share/apps/compute/modulefiles/applications:$MODULEPATH'

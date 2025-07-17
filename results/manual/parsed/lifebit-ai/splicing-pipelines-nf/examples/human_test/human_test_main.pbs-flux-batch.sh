@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lamp-6654
+#FLUX: --job-name=adorable-spoon-6183
 #FLUX: -c=4
+#FLUX: --queue=batch
+#FLUX: -t=205200
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

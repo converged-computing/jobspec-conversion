@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cinnamonbun-0442
+#FLUX: --job-name=scruptious-milkshake-8920
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=10800

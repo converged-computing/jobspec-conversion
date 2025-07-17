@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-hope-6791
+#FLUX: --job-name=expressive-toaster-0336
+#FLUX: --queue=ShmemQ
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

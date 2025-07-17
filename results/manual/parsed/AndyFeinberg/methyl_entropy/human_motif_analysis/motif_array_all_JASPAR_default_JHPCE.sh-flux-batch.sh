@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-diablo-1176
+#FLUX: --job-name=motif_array
 #FLUX: -c=24
 #FLUX: --queue=shared,parallel,skylake
 #FLUX: -t=43200

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-parrot-3212
+#FLUX: --job-name=faux-cat-5247
 #FLUX: -N=4
 #FLUX: --exclusive
+#FLUX: --queue=boost_usr_prod
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

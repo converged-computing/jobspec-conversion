@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-taco-8792
+#FLUX: --job-name=generation
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

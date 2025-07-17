@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-chip-8087
+#FLUX: --job-name=misunderstood-itch-9804
 #FLUX: --queue=gpu
 #FLUX: -t=120
 #FLUX: --urgency=16

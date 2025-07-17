@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peas-2288
+#FLUX: --job-name=anxious-blackbean-2762
+#FLUX: -N=4
 #FLUX: -c=10
+#FLUX: --queue=regular
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 DASK=$HOME/scheduler.json

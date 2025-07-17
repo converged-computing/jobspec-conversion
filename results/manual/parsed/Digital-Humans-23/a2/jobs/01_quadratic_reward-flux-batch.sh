@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=dog_quadratic_reward
+#FLUX: -n=16
 #FLUX: -t=57600
 #FLUX: --urgency=16
 

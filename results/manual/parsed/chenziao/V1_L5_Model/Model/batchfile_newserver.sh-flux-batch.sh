@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-peas-7953
+#FLUX: --job-name=V1_sim
+#FLUX: -n=50
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'

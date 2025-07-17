@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-butter-3864
+#FLUX: --job-name=sparse_amp_only_p200_L3_Lmax4_sigma01_pl_none_sparsity_05_Delta_003_15trials
+#FLUX: --queue=icelake
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-lemur-2013
+#FLUX: --job-name=blue-nalgas-2440
 #FLUX: --urgency=16
 
 function kill_job {

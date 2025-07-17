@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train
+#FLUX: --queue=dgx_normal_q
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export TRANSFORMERS_CACHE='/projects/nlp_lab/zhiyang/.cache/'

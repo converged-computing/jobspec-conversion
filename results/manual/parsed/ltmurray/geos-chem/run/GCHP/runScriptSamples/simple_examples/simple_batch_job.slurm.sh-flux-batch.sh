@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pot-7614
+#FLUX: --job-name=confused-animal-9180
+#FLUX: -N=2
+#FLUX: -n=60
+#FLUX: --queue=huce_intel
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module purge

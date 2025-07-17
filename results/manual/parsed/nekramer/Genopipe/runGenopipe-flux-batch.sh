@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-plant-3518
+#FLUX: --job-name=Genopipe
+#FLUX: --queue=general
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load python/3.6.6

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-hippo-2981
+#FLUX: --job-name=add
 #FLUX: -n=16
 #FLUX: --queue=haswell
 #FLUX: -t=3600

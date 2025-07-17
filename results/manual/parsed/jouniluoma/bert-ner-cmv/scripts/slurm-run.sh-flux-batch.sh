@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-muffin-9948
+#FLUX: --job-name=frigid-itch-6106
 #FLUX: -c=2
+#FLUX: --queue=gputest
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-onion-9163
+#FLUX: --job-name=dirty-pastry-8665
 #FLUX: -c=2
+#FLUX: --queue=dgx-common,gpu
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

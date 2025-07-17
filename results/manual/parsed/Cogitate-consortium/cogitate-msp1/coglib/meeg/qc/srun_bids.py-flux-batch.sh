@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-salad-8873
+#FLUX: --job-name=placid-fork-2759
 #FLUX: -c=2
 #FLUX: --queue=xnat
 #FLUX: -t=3600

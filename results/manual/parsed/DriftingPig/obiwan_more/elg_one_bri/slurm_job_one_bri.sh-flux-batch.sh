@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lettuce-9655
+#FLUX: --job-name=obiwan
+#FLUX: --queue=regular
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 export name_for_run='elg_one_brick'

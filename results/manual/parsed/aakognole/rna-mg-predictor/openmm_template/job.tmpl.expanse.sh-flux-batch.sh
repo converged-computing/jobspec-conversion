@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=<job>_<run>
 #FLUX: --queue=gpu-shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'

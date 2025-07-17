@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-squidward-7841
+#FLUX: --job-name=red-lamp-9778
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Shicheng-Guo/AnnotationDatabase/methbase/methbase.run.sh

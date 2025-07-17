@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-eagle-3759
+#FLUX: --job-name=strawberry-buttface-4250
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sufyazi/tfbs-variant-calling-nf/run-cluster-submit-remaind-rerun-longjob.pbs

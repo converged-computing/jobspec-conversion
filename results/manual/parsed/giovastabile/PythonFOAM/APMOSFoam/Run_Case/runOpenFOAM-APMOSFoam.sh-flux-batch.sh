@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=APMOS_CHECK
 #FLUX: -N=4
+#FLUX: --queue=knlall
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

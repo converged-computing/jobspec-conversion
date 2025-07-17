@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-bits-8503
+#FLUX: --job-name=nf-bam_to_fastq_(83)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

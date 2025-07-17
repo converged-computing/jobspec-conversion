@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lamp-8840
+#FLUX: --job-name=ABCdist
 #FLUX: -n=2
+#FLUX: --queue=debug
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'

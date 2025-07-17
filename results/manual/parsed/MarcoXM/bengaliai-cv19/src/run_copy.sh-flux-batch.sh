@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-house-5945
+#FLUX: --job-name=InRes5
 #FLUX: -c=8
 #FLUX: --urgency=16
 

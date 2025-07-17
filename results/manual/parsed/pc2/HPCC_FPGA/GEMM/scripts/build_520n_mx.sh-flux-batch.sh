@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-platanos-2878
+#FLUX: --job-name=ornery-kerfuffle-3588
+#FLUX: --queue=fpgasyn
 #FLUX: --urgency=16
 
 module load intelFPGA_pro/20.3.0

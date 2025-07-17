@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-peanut-2015
+#FLUX: --job-name=256_acoustics
+#FLUX: -N=8
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

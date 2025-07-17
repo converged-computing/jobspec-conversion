@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-cinnamonbun-5769
+#FLUX: --job-name=SWM
+#FLUX: --queue=dav
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module purge

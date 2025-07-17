@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-squidward-6642
+#FLUX: --job-name=chunky-dog-0145
 #FLUX: -N=3
 #FLUX: -n=24
 #FLUX: --queue=west

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-bicycle-3219
+#FLUX: --job-name=gassy-sundae-1610
 #FLUX: --exclusive
+#FLUX: -t=720
 #FLUX: --urgency=16
 
 job=$1

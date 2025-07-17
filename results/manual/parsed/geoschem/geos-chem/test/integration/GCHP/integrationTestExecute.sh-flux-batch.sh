@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-buttface-7071
+#FLUX: --job-name=wobbly-eagle-9878
+#FLUX: -n=24
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 itRoot=$(cd ..; pwd)

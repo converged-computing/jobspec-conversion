@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=paralleleMD
+#FLUX: -c=12
+#FLUX: --queue=True
 #FLUX: --urgency=16
 
 module load fftw2/intel/float/2.1.5  #Not sure about that one  

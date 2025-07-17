@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-house-6976
+#FLUX: --job-name=angry-blackbean-0520
+#FLUX: -n=4
+#FLUX: --queue=cidsegpu1
+#FLUX: -t=87120
 #FLUX: --urgency=16
 
 module load tensorflow/1.8-agave-gpu

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-despacito-3877
+#FLUX: --job-name=cnn_class
 #FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: -t=0
 #FLUX: --urgency=16
 

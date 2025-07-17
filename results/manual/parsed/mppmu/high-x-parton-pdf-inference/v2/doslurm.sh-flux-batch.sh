@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-malarkey-3713
+#FLUX: --job-name=test_slurm
+#FLUX: --queue=long
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

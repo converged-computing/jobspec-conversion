@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-eagle-1423
+#FLUX: --job-name=phat-onion-6435
 #FLUX: -n=6
+#FLUX: --queue=workq
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

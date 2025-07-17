@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cat-5510
+#FLUX: --job-name=swampy-chip-1834
+#FLUX: -c=8
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 module load picard

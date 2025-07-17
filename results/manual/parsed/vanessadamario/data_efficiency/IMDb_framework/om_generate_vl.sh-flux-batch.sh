@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=foveation
 #FLUX: --queue=cbmm
+#FLUX: -t=129600
 #FLUX: --urgency=16
 
 hostname

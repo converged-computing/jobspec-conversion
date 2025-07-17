@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-plant-9532
+#FLUX: --job-name=confused-peanut-butter-1174
 #FLUX: -c=8
 #FLUX: --queue=main
 #FLUX: --urgency=16

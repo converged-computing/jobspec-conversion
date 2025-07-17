@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-taco-4621
+#FLUX: --job-name=frigid-bits-6446
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

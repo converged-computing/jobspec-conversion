@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-leg-8765
+#FLUX: --job-name=doors
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=21600

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-knife-3705
+#FLUX: --job-name=adorable-spoon-4365
+#FLUX: -n=4
+#FLUX: --queue=dcc
+#FLUX: -t=605
 #FLUX: --urgency=16
 
 sleep 5

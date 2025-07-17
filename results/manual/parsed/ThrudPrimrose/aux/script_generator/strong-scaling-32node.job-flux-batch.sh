@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-platanos-8767
+#FLUX: --job-name=strong-scaling-32node
 #FLUX: -N=32
 #FLUX: --queue=cm2_large
 #FLUX: -t=600

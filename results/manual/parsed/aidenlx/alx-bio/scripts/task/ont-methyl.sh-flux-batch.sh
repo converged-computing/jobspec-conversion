@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-motorcycle-0138
+#FLUX: --job-name=outstanding-sundae-6125
 #FLUX: -c=16
+#FLUX: --queue=AI
 #FLUX: --urgency=16
 
 source $HOME/alx-bio/scripts/_base.sh

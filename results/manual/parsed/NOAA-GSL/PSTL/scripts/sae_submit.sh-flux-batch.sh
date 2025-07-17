@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-omelette-0655
+#FLUX: --job-name=delicious-nalgas-9004
 #FLUX: --exclusive
+#FLUX: --queue=epyc_a100x4
 #FLUX: --urgency=16
 
 module purge

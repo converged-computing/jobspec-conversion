@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-motorcycle-9140
+#FLUX: --job-name=reclusive-pot-8303
 #FLUX: -n=3
 #FLUX: -t=259200
 #FLUX: --urgency=16

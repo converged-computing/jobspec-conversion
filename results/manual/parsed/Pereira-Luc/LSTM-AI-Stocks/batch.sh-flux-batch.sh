@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-peas-3514
+#FLUX: --job-name=arid-general-8039
+#FLUX: --queue=gpu
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

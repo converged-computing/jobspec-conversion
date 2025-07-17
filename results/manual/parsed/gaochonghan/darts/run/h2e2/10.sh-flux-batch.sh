@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-puppy-4248
+#FLUX: --job-name=a10
 #FLUX: -c=4
 #FLUX: --queue=dell
 #FLUX: --urgency=16

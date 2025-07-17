@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-snack-9600
+#FLUX: --job-name=expressive-hippo-2037
+#FLUX: --queue=gpu2
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

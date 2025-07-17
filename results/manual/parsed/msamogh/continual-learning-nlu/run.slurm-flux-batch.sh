@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lizard-0929
+#FLUX: --job-name=misunderstood-blackbean-0324
+#FLUX: -c=2
 #FLUX: --queue=gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load git

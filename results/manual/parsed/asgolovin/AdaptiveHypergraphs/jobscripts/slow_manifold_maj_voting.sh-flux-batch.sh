@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-milkshake-9842
+#FLUX: --job-name=slow_man_maj_rtr
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=2400
 #FLUX: --urgency=16

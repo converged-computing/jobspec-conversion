@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-knife-8678
+#FLUX: --job-name=pyt_render
+#FLUX: --queue=rtx
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 set -e

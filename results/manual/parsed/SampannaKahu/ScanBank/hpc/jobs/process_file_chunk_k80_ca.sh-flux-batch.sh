@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-buttface-3186
+#FLUX: --job-name=crunchy-onion-8243
 #FLUX: --exclusive
+#FLUX: --queue=k80_q
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge

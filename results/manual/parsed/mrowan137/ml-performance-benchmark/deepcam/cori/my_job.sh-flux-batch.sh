@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lentil-7500
+#FLUX: --job-name=deepcam-cgpu
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive

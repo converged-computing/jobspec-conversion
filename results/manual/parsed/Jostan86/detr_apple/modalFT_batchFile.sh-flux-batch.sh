@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cat-6785
+#FLUX: --job-name=modalFT_r101
+#FLUX: --queue=dgx
 #FLUX: --urgency=16
 
 module load python3

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-pancake-3702
+#FLUX: --job-name=placid-peanut-0747
+#FLUX: -n=4
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 source /home/davidr/scripts/nki_torch.sh

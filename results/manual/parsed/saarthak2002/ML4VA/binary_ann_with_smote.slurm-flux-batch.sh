@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parrot-8817
+#FLUX: --job-name=salted-parsnip-3346
 #FLUX: -c=8
+#FLUX: --queue=bii-gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

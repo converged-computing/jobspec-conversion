@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bicycle-4192
+#FLUX: --job-name=AVS-evaluate
+#FLUX: --queue=qcpu_exp
+#FLUX: -t=1500
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

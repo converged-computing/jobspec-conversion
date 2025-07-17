@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=grated-ricecake-6403
+#FLUX: --job-name=m_2501_3500
 #FLUX: --queue=test
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export I_MPI_DEBUG='5 '

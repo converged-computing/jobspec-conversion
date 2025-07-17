@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-poo-0433
+#FLUX: --job-name=amg2013_ptf
 #FLUX: -N=5
 #FLUX: -c=14
 #FLUX: --exclusive

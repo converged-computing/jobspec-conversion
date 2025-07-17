@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-plant-6598
+#FLUX: --job-name=eccentric-itch-3726
 #FLUX: --queue=computeq
 #FLUX: -t=300
 #FLUX: --urgency=16

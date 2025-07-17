@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-arm-7882
+#FLUX: --job-name=blank-spoon-7373
+#FLUX: -c=3
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 source activate mlfold

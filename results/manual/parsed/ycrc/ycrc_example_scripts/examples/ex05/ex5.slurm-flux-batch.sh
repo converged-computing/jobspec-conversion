@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-banana-7775
+#FLUX: --job-name=Ex5
 #FLUX: -c=5
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export PROCS='${SLURM_CPUS_ON_NODE}'

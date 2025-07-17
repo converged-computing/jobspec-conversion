@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lettuce-7142
+#FLUX: --job-name=GPTune_nimrod
+#FLUX: -N=9
+#FLUX: --queue=premium
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 export GPTUNEROOT='$PWD'

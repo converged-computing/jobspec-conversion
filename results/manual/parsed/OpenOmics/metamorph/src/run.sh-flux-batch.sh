@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-salad-0010
+#FLUX: --job-name=$2
 #FLUX: -c=16
+#FLUX: --queue=unlimited
 #FLUX: -t=864000
 #FLUX: --urgency=16
 

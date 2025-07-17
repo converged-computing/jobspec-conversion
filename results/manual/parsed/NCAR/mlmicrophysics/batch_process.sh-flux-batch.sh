@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-milkshake-8380
+#FLUX: --job-name=casp_nb
+#FLUX: -t=82800
 #FLUX: --urgency=16
 
 export PATH='/glade/u/home/ggantos/ncar_20200417/bin:$PATH'

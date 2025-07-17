@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cattywampus-5224
+#FLUX: --job-name=galsim-mpi-forecast
+#FLUX: -N=3
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

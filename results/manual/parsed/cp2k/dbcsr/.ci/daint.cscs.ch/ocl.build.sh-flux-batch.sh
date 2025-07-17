@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-earthworm-9261
+#FLUX: --job-name=boopy-egg-0243
 #FLUX: -c=12
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16

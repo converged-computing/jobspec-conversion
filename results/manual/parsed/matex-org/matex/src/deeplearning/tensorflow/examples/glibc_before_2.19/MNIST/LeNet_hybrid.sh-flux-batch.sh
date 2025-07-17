@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-fork-5716
+#FLUX: --job-name=LeNet.Hybrid
 #FLUX: --urgency=16
 
 train_batch=64

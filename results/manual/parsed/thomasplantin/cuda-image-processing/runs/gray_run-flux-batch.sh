@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peanut-butter-5538
+#FLUX: --job-name=a
+#FLUX: --queue=gtx
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 module load cuda

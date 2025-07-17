@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-underoos-5375
+#FLUX: --job-name=mpi4py_pybind11
+#FLUX: -N=4
+#FLUX: -c=16
 #FLUX: --exclusive
+#FLUX: --queue=skylake
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export OMP_PLACES='cores'

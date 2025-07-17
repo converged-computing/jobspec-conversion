@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-cherry-0964
+#FLUX: --job-name=pyt_sand3d_train
+#FLUX: --queue=gpu-a100
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 set -e

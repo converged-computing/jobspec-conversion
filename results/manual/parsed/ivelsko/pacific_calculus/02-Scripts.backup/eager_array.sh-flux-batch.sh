@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-eagle-8506
+#FLUX: --job-name=EAGER
+#FLUX: -c=4
 #FLUX: --queue=short
 #FLUX: --urgency=16
 

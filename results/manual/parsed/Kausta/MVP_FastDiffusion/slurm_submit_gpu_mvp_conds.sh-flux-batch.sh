@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=angry-pastry-6726
+#FLUX: --job-name=mvpfd_simpleae_color
+#FLUX: --queue=ampere
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-salad-6568
+#FLUX: --job-name=Deep-RBM_MLP_4_dec_bin_PARAL_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

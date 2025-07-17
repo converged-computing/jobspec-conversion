@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cattywampus-5913
+#FLUX: --job-name=Deep-DAE_SDAE_6_bot_real_RICA_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

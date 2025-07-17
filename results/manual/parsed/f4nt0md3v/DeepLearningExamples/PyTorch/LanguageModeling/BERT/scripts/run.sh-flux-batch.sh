@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leader-8773
+#FLUX: --job-name=image_classification
 #FLUX: --exclusive
+#FLUX: --queue=mlperf
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export CONTNAME='${SLURM_JOB_ID}'

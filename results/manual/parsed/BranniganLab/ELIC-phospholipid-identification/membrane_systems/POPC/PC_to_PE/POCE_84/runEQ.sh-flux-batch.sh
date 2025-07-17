@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-egg-1973
+#FLUX: --job-name=EQ_POCE_84
+#FLUX: -N=3
+#FLUX: -n=96
 #FLUX: --queue=cmain
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module purge

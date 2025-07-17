@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lentil-6675
+#FLUX: --job-name=keras_rfe
 #FLUX: -n=8
 #FLUX: --queue=gpu2
 #FLUX: -t=172800

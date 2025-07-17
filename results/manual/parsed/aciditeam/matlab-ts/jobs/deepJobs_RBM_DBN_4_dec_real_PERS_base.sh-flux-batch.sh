@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-pedo-0715
+#FLUX: --job-name=Deep-RBM_DBN_4_dec_real_PERS_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

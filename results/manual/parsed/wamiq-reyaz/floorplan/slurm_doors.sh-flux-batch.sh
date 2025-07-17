@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-cat-0949
+#FLUX: --job-name=doors
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=21600

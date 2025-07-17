@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-general-5345
+#FLUX: --job-name=scruptious-plant-5526
 #FLUX: -c=5
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PATH='$CUDAROOT/bin:$PATH'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-chip-3997
+#FLUX: --job-name=muffled-omelette-7111
+#FLUX: -n=4
+#FLUX: --queue=cidsegpu1
+#FLUX: -t=259920
 #FLUX: --urgency=16
 
 module load tensorflow/1.8-agave-gpu

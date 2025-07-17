@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-general-0849
+#FLUX: --job-name=snl
 #FLUX: --exclusive
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

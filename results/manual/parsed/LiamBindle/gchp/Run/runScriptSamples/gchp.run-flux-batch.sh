@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-bits-2835
+#FLUX: --job-name=sticky-mango-9210
+#FLUX: -n=6
+#FLUX: --queue=huce_intel
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 log="gchp.log"

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=salted-platanos-6529
+#FLUX: --job-name=CASE6M85
 #FLUX: -N=8
 #FLUX: -n=129
+#FLUX: --queue=compute
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

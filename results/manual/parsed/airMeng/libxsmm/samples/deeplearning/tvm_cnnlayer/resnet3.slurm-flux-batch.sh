@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=resnet3
+#FLUX: -c=112
 #FLUX: --queue=clx
 #FLUX: -t=86400
 #FLUX: --urgency=16

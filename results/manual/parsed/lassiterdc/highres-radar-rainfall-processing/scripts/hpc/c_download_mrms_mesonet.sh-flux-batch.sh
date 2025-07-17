@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-chip-2247
+#FLUX: --job-name=scruptious-pancake-4326
+#FLUX: --queue=standard
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 source __utils.sh

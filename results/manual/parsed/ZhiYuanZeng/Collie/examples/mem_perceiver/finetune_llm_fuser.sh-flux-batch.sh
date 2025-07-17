@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=eval_all_pruner
+#FLUX: --queue=a800
 #FLUX: --urgency=16
 
 export MASTER_PORT='12345'

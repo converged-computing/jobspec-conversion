@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-destiny-9059
+#FLUX: --job-name=Interpolate
 #FLUX: -n=220
 #FLUX: --queue=compute
 #FLUX: -t=900

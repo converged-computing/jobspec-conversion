@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-train-4559
+#FLUX: --job-name=image_classification
 #FLUX: --exclusive
+#FLUX: --queue=mlperf
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export CONTNAME='mpi_${SLURM_JOB_ID}'

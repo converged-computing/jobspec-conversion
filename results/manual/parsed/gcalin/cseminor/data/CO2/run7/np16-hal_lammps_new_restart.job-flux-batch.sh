@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peanut-5660
+#FLUX: --job-name=CO2
+#FLUX: -n=16
+#FLUX: --queue=parallel-16
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 lmp=/home/noura/LAMMPS/tests/src_v05

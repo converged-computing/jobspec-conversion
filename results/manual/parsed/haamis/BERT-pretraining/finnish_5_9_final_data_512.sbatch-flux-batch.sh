@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-bicycle-1902
+#FLUX: --job-name=finnish_5_9_final_data_512
 #FLUX: -N=2
 #FLUX: -n=8
 #FLUX: -c=6
+#FLUX: --queue=gpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

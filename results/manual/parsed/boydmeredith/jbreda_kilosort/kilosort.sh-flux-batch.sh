@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-dog-2660
+#FLUX: --job-name=lovely-sundae-8288
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 input_path="/scratch/gpfs/jbreda/ephys/kilosort/data_sdb_20190724_193007_fromSD_firstbundle_T5_W10000_forkilosort" 

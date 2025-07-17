@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-carrot-9644
+#FLUX: --job-name=dask
+#FLUX: --queue=admintest
 #FLUX: --urgency=16
 
 module load dask

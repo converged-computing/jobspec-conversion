@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-poodle-6916
+#FLUX: --job-name=bumfuzzled-puppy-1172
 #FLUX: --urgency=16
 
 TEST_SLUR=`echo $(which sbatch)`     # SLURM System

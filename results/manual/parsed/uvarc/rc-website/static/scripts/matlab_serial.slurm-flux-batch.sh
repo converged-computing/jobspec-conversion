@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=runSingleTest
+#FLUX: --queue=standard
 #FLUX: -t=600
 #FLUX: --urgency=16
 

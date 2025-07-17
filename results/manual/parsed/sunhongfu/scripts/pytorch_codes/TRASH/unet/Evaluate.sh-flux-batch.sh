@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=sun_test_pytorch
+#FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=salted-itch-3161
+#FLUX: --job-name=chocolate-destiny-4921
+#FLUX: -N=2
+#FLUX: -n=48
 #FLUX: --exclusive
+#FLUX: --queue=huce_cascade
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 log="gchp.log"

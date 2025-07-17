@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-diablo-8451
+#FLUX: --job-name=grated-bike-1236
+#FLUX: -c=20
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export AGALMA_DB='/gpfs/data/cdunn/analyses/agalma-siphonophora-20170501_reduced.sqlite'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-hippo-4224
+#FLUX: --job-name=salted-cat-7380
+#FLUX: --queue=gpu2
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

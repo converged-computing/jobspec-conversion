@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=nfct-discovery-array
 #FLUX: -c=10
+#FLUX: --queue=haswell
 #FLUX: --urgency=16
 
 DATE_WITH_TIME=`date "+%Y%m%d-%H%M%S"`

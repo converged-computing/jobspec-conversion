@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=angry-earthworm-9853
+#FLUX: --job-name=SDP_ARL
 #FLUX: -N=3
 #FLUX: -n=3
+#FLUX: --queue=compute
 #FLUX: -t=600
 #FLUX: --urgency=16
 

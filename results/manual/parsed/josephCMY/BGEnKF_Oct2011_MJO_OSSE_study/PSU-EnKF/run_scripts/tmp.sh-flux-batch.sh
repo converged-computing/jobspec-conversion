@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-signal-4984
+#FLUX: --job-name=CTRL
+#FLUX: -N=7
+#FLUX: -n=476
+#FLUX: --queue=development
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

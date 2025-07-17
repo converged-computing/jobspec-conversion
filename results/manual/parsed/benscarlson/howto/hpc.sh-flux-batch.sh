@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-fudge-1656
+#FLUX: --job-name=tart-malarkey-8064
+#FLUX: -n=20
+#FLUX: --queue=day
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export src='$pd/src'

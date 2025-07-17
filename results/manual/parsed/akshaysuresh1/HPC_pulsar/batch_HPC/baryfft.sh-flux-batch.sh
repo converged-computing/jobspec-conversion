@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-omelette-3175
+#FLUX: --job-name=placid-muffin-5244
+#FLUX: --queue=RM-shared
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 SINGULARITY_CONT=$PROJECT/psrsearch.sif

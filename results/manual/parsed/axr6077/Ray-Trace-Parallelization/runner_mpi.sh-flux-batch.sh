@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-butter-3080
+#FLUX: --job-name=rt_mpi
+#FLUX: -n=16
+#FLUX: --queue=kgcoe-mps
 #FLUX: -t=120
 #FLUX: --urgency=16
 

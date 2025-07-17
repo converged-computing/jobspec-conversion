@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-nalgas-6749
+#FLUX: --job-name=MD_tension
+#FLUX: --queue=course
 #FLUX: --urgency=16
 
 module load compiles/intel/2019/u4/config

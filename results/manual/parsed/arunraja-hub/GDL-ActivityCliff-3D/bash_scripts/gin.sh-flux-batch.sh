@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-soup-2226
+#FLUX: --job-name=gin
 #FLUX: --gpus-per-task=1
 #FLUX: -t=43200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-avocado-3835
+#FLUX: --job-name=boopy-leader-9357
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

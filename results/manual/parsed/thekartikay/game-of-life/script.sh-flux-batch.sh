@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-squidward-2048
+#FLUX: --job-name=PROJECT_2
+#FLUX: --queue=c1exp
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 module load mpi4py

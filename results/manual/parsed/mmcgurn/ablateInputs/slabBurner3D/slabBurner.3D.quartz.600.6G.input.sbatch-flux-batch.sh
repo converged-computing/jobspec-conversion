@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-mango-6409
+#FLUX: --job-name=6G
+#FLUX: -N=600
+#FLUX: --queue=pbatch
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export PETSC_DIR='/p/lustre2/mcgurn4/petsc'

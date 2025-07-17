@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bismark-mbd
+#FLUX: -c=20
+#FLUX: -t=1814400
 #FLUX: --urgency=16
 
 module load bio/bismark/0.24.0

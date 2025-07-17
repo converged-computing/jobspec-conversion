@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-salad-3249
+#FLUX: --job-name=Compute_DAS
 #FLUX: -t=600
 #FLUX: --urgency=16
 

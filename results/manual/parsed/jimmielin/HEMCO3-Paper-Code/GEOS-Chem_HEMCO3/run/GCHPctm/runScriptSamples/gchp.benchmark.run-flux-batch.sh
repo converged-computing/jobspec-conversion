@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-house-4901
+#FLUX: --job-name=placid-soup-9325
+#FLUX: -N=2
+#FLUX: -n=48
 #FLUX: --exclusive
+#FLUX: --queue=huce_intel
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 log="gchp.log"

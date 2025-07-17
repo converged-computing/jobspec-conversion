@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-poo-6054
+#FLUX: --job-name=red-cherry-2813
+#FLUX: --queue=gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module purge

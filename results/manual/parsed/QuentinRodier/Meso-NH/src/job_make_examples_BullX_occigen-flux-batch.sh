@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-leg-8462
+#FLUX: --job-name=Examples
+#FLUX: -N=2
+#FLUX: -n=4
 #FLUX: --exclusive
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MONORUN='Mpirun -prepend-rank -np 1 '

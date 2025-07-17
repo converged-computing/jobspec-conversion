@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-car-0430
+#FLUX: --job-name=SCI_atm2fvc2ww3_RUN
+#FLUX: -n=24
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

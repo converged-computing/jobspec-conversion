@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=bf_picrust
+#FLUX: -n=12
 #FLUX: --queue=Intel6240
 #FLUX: -t=28800
 #FLUX: --urgency=16

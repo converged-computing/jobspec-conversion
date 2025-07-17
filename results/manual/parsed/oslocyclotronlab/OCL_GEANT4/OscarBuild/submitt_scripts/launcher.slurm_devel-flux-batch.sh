@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-bike-9073
+#FLUX: --job-name=geant4_test
 #FLUX: -N=2
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 export LAUNCHER_DIR='/cluster/home/fabiobz/launcher'

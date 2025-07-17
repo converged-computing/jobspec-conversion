@@ -2,6 +2,7 @@
 #FLUX: --job-name=nfct-discovery
 #FLUX: -N=6
 #FLUX: -c=20
+#FLUX: --queue=haswell
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

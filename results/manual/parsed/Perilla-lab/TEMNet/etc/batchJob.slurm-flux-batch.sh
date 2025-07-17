@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-despacito-2129
+#FLUX: --job-name=evasive-house-1203
 #FLUX: --queue=GPU-AI
 #FLUX: -t=7200
 #FLUX: --urgency=16

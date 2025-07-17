@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-avocado-8759
+#FLUX: --job-name=compute_seqs
+#FLUX: --queue=any_cpu
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export PATH='/net/pulsar/home/koes/dkoes/local/bin:$PATH'

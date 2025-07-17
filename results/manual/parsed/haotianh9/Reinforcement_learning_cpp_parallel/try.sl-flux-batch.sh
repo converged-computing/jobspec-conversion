@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lamp-0631
+#FLUX: --job-name=placid-platanos-4041
 #FLUX: -N=4
 #FLUX: -c=4
 #FLUX: -t=59

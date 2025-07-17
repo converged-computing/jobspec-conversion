@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-hobbit-1980
+#FLUX: --job-name=gromacs_job
+#FLUX: -N=2
+#FLUX: --queue=debug
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 echo "Running Gromacs 5.x with $SLURM_NTASKS MPI tasks"

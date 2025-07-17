@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-avocado-8398
+#FLUX: --job-name=lovable-parrot-6549
 #FLUX: -c=8
 #FLUX: --queue=alpha
 #FLUX: -t=359999

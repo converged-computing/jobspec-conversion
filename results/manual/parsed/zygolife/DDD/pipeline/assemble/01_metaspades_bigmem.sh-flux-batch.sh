@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-butter-6272
+#FLUX: --job-name=metaspades
+#FLUX: -n=32
+#FLUX: --queue=intel,batch,highmem
 #FLUX: --urgency=16
 
 module load spades/3.15.2

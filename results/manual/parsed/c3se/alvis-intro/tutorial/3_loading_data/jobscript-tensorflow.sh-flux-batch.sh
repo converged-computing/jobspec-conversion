@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-omelette-8668
+#FLUX: --job-name=Data TensorFlow
+#FLUX: --queue=alvis
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 ml purge

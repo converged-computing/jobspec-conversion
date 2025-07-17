@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pedo-9792
+#FLUX: --job-name=milky-general-8439
+#FLUX: -n=24
+#FLUX: --queue=batch,intel
 #FLUX: --urgency=16
 
 CPU=1

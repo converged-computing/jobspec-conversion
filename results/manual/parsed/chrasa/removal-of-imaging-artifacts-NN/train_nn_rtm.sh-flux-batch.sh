@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-lentil-9968
+#FLUX: --job-name=train_nn_rtm
+#FLUX: -n=4
+#FLUX: --queue=core
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib'

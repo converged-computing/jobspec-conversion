@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-punk-0079
+#FLUX: --job-name=dask-worker
 #FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PATH='${PATH}:/home/b.weinstein/miniconda/envs/crowns/bin/'

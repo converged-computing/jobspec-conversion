@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-onion-6730
+#FLUX: --job-name=phat-cat-8178
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/OPM/LBPM/example/Tiff/eos-REV.pbs

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-parsnip-3892
+#FLUX: --job-name=QSDR_reconstruction_single_sub
+#FLUX: --queue=short
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 param0="1.25"

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-sundae-4071
+#FLUX: --job-name=Pysster-snakemake
+#FLUX: -c=4
+#FLUX: --queue=gpu_p
+#FLUX: -t=21600
 #FLUX: --urgency=15
 
 sbatch --wait << EOF

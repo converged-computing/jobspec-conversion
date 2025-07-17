@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=sim_TAB_gen_ni
+#FLUX: --queue=serial
+#FLUX: -t=87120
 #FLUX: --urgency=16
 
 module load matlab/2016a

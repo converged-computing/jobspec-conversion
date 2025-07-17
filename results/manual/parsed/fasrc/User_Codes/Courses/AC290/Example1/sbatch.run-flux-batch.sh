@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-salad-2918
+#FLUX: --job-name=mpi_hello
+#FLUX: -n=4
+#FLUX: --queue=shared
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 WORK_DIR=/scratch/${USER}/${SLURM_JOB_ID}

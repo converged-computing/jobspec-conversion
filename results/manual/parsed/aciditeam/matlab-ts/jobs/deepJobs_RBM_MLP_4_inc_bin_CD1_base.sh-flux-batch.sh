@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-chip-0762
+#FLUX: --job-name=Deep-RBM_MLP_4_inc_bin_CD1_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

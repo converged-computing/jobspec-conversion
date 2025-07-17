@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-plant-2273
+#FLUX: --job-name=salted-lettuce-5181
 #FLUX: -c=24
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

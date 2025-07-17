@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-diablo-3612
+#FLUX: --job-name=fw-amp
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_PLACES='threads'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-eagle-7741
+#FLUX: --job-name=swampy-hobbit-5590
+#FLUX: -c=32
+#FLUX: --queue=seas_gpu
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export HOME='/n/holylabs/LABS/idreos_lab/Users/azhao'

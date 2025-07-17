@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-omelette-5721
+#FLUX: --job-name=placid-soup-6466
 #FLUX: -N=30
 #FLUX: -n=30
 #FLUX: -c=14

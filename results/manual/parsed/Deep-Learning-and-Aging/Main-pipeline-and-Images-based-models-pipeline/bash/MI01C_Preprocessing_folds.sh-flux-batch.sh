@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-butter-2367
+#FLUX: --job-name=muffled-lentil-9222
+#FLUX: --queue=priority
 #FLUX: --urgency=16
 
 set -e

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blank-muffin-2409
+#FLUX: --job-name=gpujob
+#FLUX: --queue=ampere
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

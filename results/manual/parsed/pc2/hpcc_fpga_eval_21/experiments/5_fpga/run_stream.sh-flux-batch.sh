@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=blue-citrus-4861
+#FLUX: --job-name=stream
+#FLUX: -N=5
+#FLUX: -n=10
+#FLUX: --queue=fpga
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load intelFPGA_pro/21.2.0 bittware_520n/20.4.0_hpc intel devel/CMake/3.15.3-GCCcore-8.3.0 

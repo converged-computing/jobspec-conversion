@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-leg-7321
+#FLUX: --job-name=expressive-general-3010
 #FLUX: -t=30
 #FLUX: --urgency=16
 

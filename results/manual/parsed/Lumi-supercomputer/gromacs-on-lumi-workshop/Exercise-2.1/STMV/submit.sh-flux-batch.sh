@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-chair-5859
+#FLUX: --job-name=stanky-lamp-8477
 #FLUX: -c=7
 #FLUX: --queue=small-g
 #FLUX: -t=600

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-leopard-5901
+#FLUX: --job-name=slice.GVCFGeno
 #FLUX: -n=2
+#FLUX: --queue=intel
 #FLUX: --urgency=16
 
 hostname

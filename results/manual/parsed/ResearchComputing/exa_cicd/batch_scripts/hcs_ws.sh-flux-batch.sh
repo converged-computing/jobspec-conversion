@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-plant-4301
+#FLUX: --job-name=fugly-pastry-2224
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=28800

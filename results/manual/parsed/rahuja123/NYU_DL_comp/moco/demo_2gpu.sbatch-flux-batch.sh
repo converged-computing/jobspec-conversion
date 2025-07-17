@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-nalgas-8881
+#FLUX: --job-name=hairy-diablo-2405
 #FLUX: --exclusive
 #FLUX: --queue=n1s16-t4-2
 #FLUX: -t=72000

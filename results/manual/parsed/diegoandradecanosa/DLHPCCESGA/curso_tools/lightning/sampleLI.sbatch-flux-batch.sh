@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lamp-5908
+#FLUX: --job-name=dirty-banana-6521
+#FLUX: -N=2
+#FLUX: -c=32
 #FLUX: -t=3540
 #FLUX: --urgency=16
 

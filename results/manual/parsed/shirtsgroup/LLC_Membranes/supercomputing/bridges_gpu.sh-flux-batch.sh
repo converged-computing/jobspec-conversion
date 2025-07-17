@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-plant-3234
+#FLUX: --job-name=goodbye-cat-2843
+#FLUX: --queue=GPU
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:/home/bjc/Gromacs"  # Bridges forgets what is written in your .bashrc'

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=abcd
+#FLUX: --queue=lab_fat_c
 #FLUX: --urgency=16
 
 module purge

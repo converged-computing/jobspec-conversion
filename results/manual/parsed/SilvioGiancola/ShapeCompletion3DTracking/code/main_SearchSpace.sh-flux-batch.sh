@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-plant-3491
+#FLUX: --job-name=SearSpac
 #FLUX: -c=9
 #FLUX: -t=360000
 #FLUX: --urgency=16

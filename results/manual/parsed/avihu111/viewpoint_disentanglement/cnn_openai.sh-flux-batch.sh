@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-itch-6349
+#FLUX: --job-name=adorable-diablo-6620
+#FLUX: -c=6
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

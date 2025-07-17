@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-eagle-1537
+#FLUX: --job-name=gloopy-bicycle-6024
 #FLUX: --queue=ROME
+#FLUX: -t=532800
 #FLUX: --urgency=16
 
 . /home/zhan6305/OpenFOAM/cleanOpenFOAM/OpenFOAM-6/etc/bashrc

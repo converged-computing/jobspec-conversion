@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-motorcycle-2236
+#FLUX: --job-name=job-serial
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

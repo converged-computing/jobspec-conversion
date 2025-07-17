@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lamp-6041
+#FLUX: --job-name=tart-knife-7241
 #FLUX: --queue=gpuA100x4
 #FLUX: -t=21600
 #FLUX: --urgency=16

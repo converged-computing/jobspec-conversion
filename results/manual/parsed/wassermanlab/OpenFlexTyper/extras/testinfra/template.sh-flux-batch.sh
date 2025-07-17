@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-knife-1590
+#FLUX: --job-name=loopy-malarkey-4550
 #FLUX: --urgency=16
 
 export QT_QPA_PLATFORM='offscreen'

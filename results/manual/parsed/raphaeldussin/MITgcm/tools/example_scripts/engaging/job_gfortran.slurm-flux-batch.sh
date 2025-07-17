@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-arm-7050
+#FLUX: --job-name=trgfortran
+#FLUX: -N=2
+#FLUX: -n=6
+#FLUX: --queue=sched_mit_darwin
 #FLUX: --urgency=16
 
 export LC_ALL='en_US.iso885915'

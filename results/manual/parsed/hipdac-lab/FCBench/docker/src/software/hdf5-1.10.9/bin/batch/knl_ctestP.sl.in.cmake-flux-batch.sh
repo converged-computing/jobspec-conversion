@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=h5_ctestP
+#FLUX: --queue=knl
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 cd @HDF5_BINARY_DIR@

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-pedo-7276
+#FLUX: --job-name=outstanding-leopard-2915
 #FLUX: --urgency=16
 
 export UWENV='/software/projects/pawsey0407/setonix/venv/py310/'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-punk-0397
+#FLUX: --job-name=tf
+#FLUX: --queue=debug
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='68'

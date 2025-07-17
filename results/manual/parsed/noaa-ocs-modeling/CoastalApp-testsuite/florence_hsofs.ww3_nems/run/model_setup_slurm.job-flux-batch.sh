@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-hippo-4048
+#FLUX: --job-name=FLOFS_ww3_nems_SETUP
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 set -e

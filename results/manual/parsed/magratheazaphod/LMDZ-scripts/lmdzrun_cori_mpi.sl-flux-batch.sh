@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-car-1130
+#FLUX: --job-name=LMDZ_RUN
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module swap PrgEnv-intel PrgEnv-gnu

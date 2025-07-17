@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-staircase-0834
+#FLUX: --job-name=PRPbsnip
+#FLUX: -c=4
+#FLUX: --queue=qTRD
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

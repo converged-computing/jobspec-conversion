@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-buttface-1255
+#FLUX: --job-name=mageck-wf
 #FLUX: -c=10
 #FLUX: --urgency=16
 

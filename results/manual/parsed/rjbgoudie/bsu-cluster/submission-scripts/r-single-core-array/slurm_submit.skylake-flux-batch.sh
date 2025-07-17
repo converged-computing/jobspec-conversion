@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-despacito-9555
+#FLUX: --job-name=skylake-rjob
+#FLUX: --queue=skylake
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

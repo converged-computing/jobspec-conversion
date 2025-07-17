@@ -2,6 +2,8 @@
 #FLUX: --job-name=GROMACS.CPU
 #FLUX: -n=128
 #FLUX: --exclusive
+#FLUX: --queue=rome
+#FLUX: -t=3540
 #FLUX: --urgency=16
 
 module load 2022

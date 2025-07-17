@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-nalgas-1929
+#FLUX: --job-name={{job_name}}
+#FLUX: -n=20
+#FLUX: --queue=single
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-chip-7417
+#FLUX: --job-name=hairy-hobbit-8184
 #FLUX: -n=2
 #FLUX: --exclusive
 #FLUX: -t=600

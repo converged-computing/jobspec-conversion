@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-caramel-2636
+#FLUX: --job-name=test
+#FLUX: -N=2
+#FLUX: -n=2
 #FLUX: -c=20
+#FLUX: --queue=devel
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 module load gcc/7.2.0 openmpi/2.1.1

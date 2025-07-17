@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-squidward-4786
+#FLUX: --job-name=sims
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 export JULIA_DEPOT_PATH='/workspace/ane/.julia'

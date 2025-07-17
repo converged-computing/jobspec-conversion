@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chip-9368
+#FLUX: --job-name=blank-motorcycle-1750
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=batch
 #FLUX: -t=86400

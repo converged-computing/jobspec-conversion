@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-puppy-2546
+#FLUX: --job-name=preprocess_smooth
 #FLUX: --queue=gpu
 #FLUX: -t=480
 #FLUX: --urgency=16

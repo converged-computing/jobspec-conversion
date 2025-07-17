@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-blackbean-2413
+#FLUX: --job-name=CASE6_P15
 #FLUX: -N=16
 #FLUX: -n=33
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

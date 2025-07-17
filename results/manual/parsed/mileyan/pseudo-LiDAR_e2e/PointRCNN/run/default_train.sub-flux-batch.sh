@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-cupcake-4150
+#FLUX: --job-name=train
+#FLUX: -n=4
 #FLUX: --queue=kilian
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 POINT_STYLE=default

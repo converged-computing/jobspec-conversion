@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-bits-4979
+#FLUX: --job-name=PFN-l32
+#FLUX: --queue=gpu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 source tensorflow.venv/bin/activate

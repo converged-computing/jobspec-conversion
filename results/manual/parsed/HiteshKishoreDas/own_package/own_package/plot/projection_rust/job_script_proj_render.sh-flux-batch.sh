@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-fudge-9314
+#FLUX: --job-name=parpl
 #FLUX: -c=40
 #FLUX: --queue=p.test
 #FLUX: -t=1500

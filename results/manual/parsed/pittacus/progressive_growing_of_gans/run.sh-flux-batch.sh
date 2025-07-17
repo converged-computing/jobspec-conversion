@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-leg-0424
+#FLUX: --job-name=loopy-dog-6431
+#FLUX: -c=12
+#FLUX: --queue=ai
 #FLUX: --urgency=16
 
 GPU_COUNT=$(grep -Po "^[^\#].+gpus = \K([0-9]+)" config.py)

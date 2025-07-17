@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-peas-8107
+#FLUX: --job-name=wobbly-pastry-9556
+#FLUX: -n=4
+#FLUX: --queue=alvis
+#FLUX: -t=2400
 #FLUX: --urgency=16
 
 vid="006FL.MTS"

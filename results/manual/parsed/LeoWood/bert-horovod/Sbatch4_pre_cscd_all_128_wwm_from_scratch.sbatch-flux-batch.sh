@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-gato-3573
+#FLUX: --job-name=4
+#FLUX: -N=4
 #FLUX: -c=8
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 export MIOPEN_USER_DB_PATH='/tmp/tensorflow-miopen-${USER}-2.8'

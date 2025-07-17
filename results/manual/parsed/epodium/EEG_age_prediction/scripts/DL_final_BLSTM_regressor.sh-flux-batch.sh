@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-caramel-8784
+#FLUX: --job-name=butterscotch-hobbit-1231
+#FLUX: --queue=gpu_shared
+#FLUX: -t=108000
 #FLUX: --urgency=16
 
 module load 2020

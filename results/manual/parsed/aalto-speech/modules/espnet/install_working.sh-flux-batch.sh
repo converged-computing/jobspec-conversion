@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-leader-6049
+#FLUX: --job-name=muffled-hobbit-6719
 #FLUX: -c=5
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PATH='$CUDAROOT/bin:$PATH'

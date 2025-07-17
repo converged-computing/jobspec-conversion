@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-earthworm-1941
+#FLUX: --job-name=ornery-despacito-7294
 #FLUX: -c=8
 #FLUX: --urgency=16
 

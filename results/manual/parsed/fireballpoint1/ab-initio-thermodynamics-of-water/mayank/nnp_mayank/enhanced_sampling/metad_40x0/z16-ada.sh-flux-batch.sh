@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-truffle-5255
+#FLUX: --job-name=misunderstood-kitty-3766
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

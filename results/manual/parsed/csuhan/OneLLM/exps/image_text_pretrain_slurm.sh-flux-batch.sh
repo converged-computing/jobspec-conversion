@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=arid-avocado-7167
+#FLUX: --job-name=goodbye-blackbean-8323
+#FLUX: -N=2
+#FLUX: -n=16
 #FLUX: -c=16
+#FLUX: --queue={Partition
 #FLUX: --urgency=16
 
 srun python -u main_pretrain.py \

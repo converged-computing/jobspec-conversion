@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-banana-8117
+#FLUX: --job-name=idr_bio
+#FLUX: -n=12
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load python/3.6.6

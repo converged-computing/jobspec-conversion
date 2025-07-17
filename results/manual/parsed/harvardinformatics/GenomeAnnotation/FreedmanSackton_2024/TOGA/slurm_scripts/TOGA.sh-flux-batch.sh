@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-poodle-5692
+#FLUX: --job-name=toga
+#FLUX: --queue=shared
+#FLUX: -t=82800
 #FLUX: --urgency=16
 
 module purge

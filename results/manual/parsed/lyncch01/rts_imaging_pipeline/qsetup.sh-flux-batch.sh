@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-plant-0205
+#FLUX: --job-name=rts_setup
 #FLUX: --queue=workq
 #FLUX: -t=600
 #FLUX: --urgency=16

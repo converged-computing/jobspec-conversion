@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-blackbean-2979
+#FLUX: --job-name=stanky-signal-2633
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-fudge-1324
+#FLUX: --job-name=eval
 #FLUX: -c=4
 #FLUX: --queue=gputest
 #FLUX: -t=600

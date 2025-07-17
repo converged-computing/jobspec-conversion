@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-pot-5575
+#FLUX: --job-name=castro_gpu_job
 #FLUX: -N=2
 #FLUX: -c=10
 #FLUX: -t=900

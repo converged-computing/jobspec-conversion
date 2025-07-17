@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lentil-5608
+#FLUX: --job-name=hello-punk-0525
 #FLUX: -c=24
+#FLUX: --queue=topola
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/icm/home/bazinska/miniconda3/lib:$LD_LIBRARY_PATH'

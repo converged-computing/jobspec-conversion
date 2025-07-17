@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-destiny-0907
+#FLUX: --job-name=train
+#FLUX: -N=10
+#FLUX: --queue=debug
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export which='sim'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-chip-0814
+#FLUX: --job-name=param_recov
+#FLUX: -c=2
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

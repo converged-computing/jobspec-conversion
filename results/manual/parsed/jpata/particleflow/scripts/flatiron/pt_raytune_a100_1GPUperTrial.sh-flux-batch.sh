@@ -1,7 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-noodle-9743
+#FLUX: --job-name=raytune
+#FLUX: -N=4
 #FLUX: -c=64
 #FLUX: --gpus-per-task=4
+#FLUX: --queue=gpu
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

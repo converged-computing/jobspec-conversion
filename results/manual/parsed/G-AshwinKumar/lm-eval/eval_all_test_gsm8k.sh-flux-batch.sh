@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-kerfuffle-4198
+#FLUX: --job-name=eval
+#FLUX: -c=32
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 MODEL_NAME="openchat_3.5"

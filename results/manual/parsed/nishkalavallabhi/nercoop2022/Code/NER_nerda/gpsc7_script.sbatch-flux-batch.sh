@@ -4,6 +4,6 @@
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu_a100
 #FLUX: -t=86400
-#FLUX: --urgency=16
+#FLUX: --urgency=15
 
 python sub_script.py

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-gato-3796
+#FLUX: --job-name=KerrSF_job
 #FLUX: -N=32
 #FLUX: -n=256
+#FLUX: --queue=knl
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-eagle-2494
+#FLUX: --job-name=crunchy-buttface-7501
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 module load stopos

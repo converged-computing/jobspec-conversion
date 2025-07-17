@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-general-6600
+#FLUX: --job-name=fat-soup-7288
+#FLUX: --queue=nvidia
 #FLUX: -t=144000
 #FLUX: --urgency=16
 

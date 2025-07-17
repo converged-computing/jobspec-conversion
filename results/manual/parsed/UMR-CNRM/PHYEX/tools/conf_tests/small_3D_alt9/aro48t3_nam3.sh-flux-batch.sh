@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-peanut-butter-4386
+#FLUX: --job-name=milky-arm-6091
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

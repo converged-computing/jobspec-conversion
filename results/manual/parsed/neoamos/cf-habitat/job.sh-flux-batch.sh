@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-banana-3939
+#FLUX: --job-name=test-hab
+#FLUX: -c=24
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module purge

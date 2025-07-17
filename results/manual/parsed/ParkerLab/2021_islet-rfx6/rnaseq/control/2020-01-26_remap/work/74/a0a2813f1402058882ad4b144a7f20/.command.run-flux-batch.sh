@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-earthworm-1027
+#FLUX: --job-name=nf-bam_to_fastq_(40)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

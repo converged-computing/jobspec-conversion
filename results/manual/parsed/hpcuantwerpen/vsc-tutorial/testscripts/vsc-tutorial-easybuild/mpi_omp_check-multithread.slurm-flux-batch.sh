@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-buttface-1731
+#FLUX: --job-name=mpi_omp_check-multithread
+#FLUX: -n=2
+#FLUX: -c=4
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export OMP_PLACES='threads'

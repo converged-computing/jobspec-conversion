@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-malarkey-3944
+#FLUX: --job-name=snakemake_cluster
+#FLUX: --queue=CN_BIOT
 #FLUX: --urgency=16
 
 mkdir -p cluster_log

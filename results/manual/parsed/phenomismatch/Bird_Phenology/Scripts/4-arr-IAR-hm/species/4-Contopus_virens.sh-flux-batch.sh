@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=hm-2020-07-21-Contopus_virens
+#FLUX: -c=4
 #FLUX: --queue=general
 #FLUX: --urgency=16
 

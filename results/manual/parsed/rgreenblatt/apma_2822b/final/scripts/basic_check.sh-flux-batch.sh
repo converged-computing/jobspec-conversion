@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lamp-0755
+#FLUX: --job-name=butterscotch-chip-4881
 #FLUX: -n=2
 #FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: -t=600
 #FLUX: --urgency=16
 

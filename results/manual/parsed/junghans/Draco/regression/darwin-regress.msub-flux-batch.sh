@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-destiny-3290
+#FLUX: --job-name=outstanding-nunchucks-4755
 #FLUX: --queue=haswell
 #FLUX: -t=28800
 #FLUX: --urgency=16

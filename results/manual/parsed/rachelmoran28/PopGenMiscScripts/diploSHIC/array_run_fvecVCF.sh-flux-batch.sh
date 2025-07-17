@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=milky-parsnip-6132
+#FLUX: --job-name=fvecVCF
+#FLUX: --queue=ram256g,ram1t,amd2tb,amdlarge,amdsmall,small,astyanax,cavefish
+#FLUX: -t=100800
 #FLUX: --urgency=16
 
 source /home/mcgaughs/rmoran/miniconda3/etc/profile.d/conda.sh

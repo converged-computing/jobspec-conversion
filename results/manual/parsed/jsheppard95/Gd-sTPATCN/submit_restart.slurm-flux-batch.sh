@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Gd-sTPATCN_2V1A_FMN_05NPT_100-150ns_Restart
 #FLUX: --queue=gpu
+#FLUX: -t=129600
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-eagle-5631
+#FLUX: --job-name=laplace
 #FLUX: -c=40
+#FLUX: --queue=fast
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 lscpu

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-onion-5729
+#FLUX: --job-name=cworkshop_pytorch
+#FLUX: -c=8
+#FLUX: --queue=qTRDGPU
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 sleep 10s 

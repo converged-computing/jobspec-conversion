@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=rM
+#FLUX: --queue=intel
 #FLUX: -t=260100
 #FLUX: --urgency=16
 

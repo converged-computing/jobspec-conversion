@@ -2,6 +2,7 @@
 #FLUX: --job-name=cpu3
 #FLUX: -n=32
 #FLUX: --queue=thin
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module load 2021

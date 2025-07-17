@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-mango-6137
+#FLUX: --job-name=reclusive-toaster-3520
 #FLUX: --queue=cluster
 #FLUX: -t=600
 #FLUX: --urgency=16

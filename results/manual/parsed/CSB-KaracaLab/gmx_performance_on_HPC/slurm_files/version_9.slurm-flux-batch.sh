@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cat-6970
+#FLUX: --job-name=akya-cuda_2gpu
+#FLUX: -n=40
+#FLUX: --queue=akya-cuda
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

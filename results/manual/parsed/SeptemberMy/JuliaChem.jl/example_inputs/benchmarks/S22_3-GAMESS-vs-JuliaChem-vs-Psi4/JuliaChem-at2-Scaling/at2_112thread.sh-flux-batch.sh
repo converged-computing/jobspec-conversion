@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lentil-2056
+#FLUX: --job-name=red-parsnip-8805
 #FLUX: --urgency=16
 

@@ -1,6 +1,10 @@
 #!/bin/bash
 #FLUX: --job-name=Cyclone_590k_nphi=8
+#FLUX: -n=8
+#FLUX: -c=32
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'

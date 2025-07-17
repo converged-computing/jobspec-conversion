@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-lemon-7208
+#FLUX: --job-name=mid_du
 #FLUX: -n=512
 #FLUX: --queue=hpg2-compute
 #FLUX: -t=345600

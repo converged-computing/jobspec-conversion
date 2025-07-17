@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-despacito-8550
+#FLUX: --job-name=boopy-leg-2570
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Peetzie/ET_LLM_RAG/HPC/RAG.sh

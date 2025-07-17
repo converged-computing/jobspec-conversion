@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cat-7702
+#FLUX: --job-name=peachy-caramel-6092
 #FLUX: --urgency=16
 
 source /etc/profile

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-banana-2357
+#FLUX: --job-name=kripke
 #FLUX: --exclusive
+#FLUX: --queue=haswell
+#FLUX: -t=87120
 #FLUX: --urgency=16
 
 export MERIC_MODE='2'

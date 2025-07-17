@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cat-4143
+#FLUX: --job-name=chunky-pastry-1643
 #FLUX: -c=7
 #FLUX: --queue=small-g
 #FLUX: -t=600

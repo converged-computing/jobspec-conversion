@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-peanut-8350
+#FLUX: --job-name=hanky-pedo-4138
+#FLUX: --queue=tesla
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

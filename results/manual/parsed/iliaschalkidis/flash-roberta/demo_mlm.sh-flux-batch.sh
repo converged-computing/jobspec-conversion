@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=roberta-flash-attention
 #FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

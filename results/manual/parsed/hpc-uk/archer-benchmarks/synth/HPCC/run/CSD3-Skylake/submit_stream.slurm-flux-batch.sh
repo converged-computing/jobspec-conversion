@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-lentil-6459
+#FLUX: --job-name=beff
 #FLUX: -n=32
+#FLUX: --queue=skylake
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

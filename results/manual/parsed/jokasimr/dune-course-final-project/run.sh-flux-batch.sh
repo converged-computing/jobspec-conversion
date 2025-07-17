@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hello-citrus-8965
+#FLUX: --job-name=hairy-malarkey-5145
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 source $HOME/.load_modules.sh

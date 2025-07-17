@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=sequential-execution
+#FLUX: -c=40
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

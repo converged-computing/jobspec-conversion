@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-bicycle-3210
+#FLUX: --job-name=muffled-cat-4958
+#FLUX: --queue=prawnew
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

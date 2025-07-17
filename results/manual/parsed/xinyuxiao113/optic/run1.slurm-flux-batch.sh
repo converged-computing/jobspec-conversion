@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-destiny-0428
+#FLUX: --job-name=test1
+#FLUX: --queue=RTX3090
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load spack

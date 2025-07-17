@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-salad-9213
+#FLUX: --job-name=cls
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

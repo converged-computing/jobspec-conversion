@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-car-9558
+#FLUX: --job-name=i5G10r0
+#FLUX: -N=40
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PETSC_DIR='/g/g20/lobad1/petsc'

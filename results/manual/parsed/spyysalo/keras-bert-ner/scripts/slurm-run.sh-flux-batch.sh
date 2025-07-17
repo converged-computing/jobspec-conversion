@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-peanut-butter-1211
+#FLUX: --job-name=frigid-onion-1984
+#FLUX: --queue=gpu
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

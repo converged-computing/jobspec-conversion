@@ -2,6 +2,7 @@
 #FLUX: --job-name=name_of_the_job
 #FLUX: -c=20
 #FLUX: --gpus-per-task=1
+#FLUX: -t=108000
 #FLUX: --urgency=16
 
 module purge

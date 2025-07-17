@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lemur-1351
+#FLUX: --job-name=swin-t-tissuenet-w-2C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

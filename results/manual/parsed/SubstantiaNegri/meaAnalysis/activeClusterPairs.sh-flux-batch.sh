@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-gato-7390
+#FLUX: --job-name=blank-signal-3419
+#FLUX: --queue=priority
+#FLUX: -t=600
 #FLUX: --urgency=16
 
                                 # Or use HH:MM:SS or D-HH:MM:SS, instead of just number of minutes

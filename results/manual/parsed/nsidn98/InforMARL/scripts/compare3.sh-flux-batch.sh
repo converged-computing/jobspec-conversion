@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=marl3
+#FLUX: -c=40
 #FLUX: --urgency=16
 
 source /etc/profile

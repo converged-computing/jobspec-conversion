@@ -1,7 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-buttface-4208
+#FLUX: --job-name=Snudda2popVirtual
+#FLUX: -n=128
 #FLUX: -c=2
 #FLUX: --queue=main
+#FLUX: -t=3540
 #FLUX: --urgency=16
 
 export IPNWORKERS='$NWORKERS'

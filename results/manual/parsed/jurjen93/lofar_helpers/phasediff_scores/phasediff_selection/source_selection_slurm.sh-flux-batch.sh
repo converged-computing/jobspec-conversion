@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-frito-2498
+#FLUX: --job-name=hairy-fork-5116
+#FLUX: -c=10
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 PLIST=$1

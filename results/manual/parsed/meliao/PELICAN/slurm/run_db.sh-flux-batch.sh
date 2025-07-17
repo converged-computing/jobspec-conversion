@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-omelette-0437
+#FLUX: --job-name=gloopy-lamp-7991
+#FLUX: --queue=genx
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

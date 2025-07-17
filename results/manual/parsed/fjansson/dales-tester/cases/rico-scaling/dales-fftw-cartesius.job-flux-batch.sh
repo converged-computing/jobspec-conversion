@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-lentil-6161
+#FLUX: --job-name=stanky-poodle-9386
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module load 2019

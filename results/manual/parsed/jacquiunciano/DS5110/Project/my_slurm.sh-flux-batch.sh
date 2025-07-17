@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-plant-3090
+#FLUX: --job-name=data_sys
+#FLUX: -c=4
+#FLUX: --queue=gpu
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module purge

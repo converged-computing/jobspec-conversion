@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cherry-0407
+#FLUX: --job-name=snakemake
+#FLUX: -c=4
+#FLUX: --queue=gpu_p
+#FLUX: -t=21600
 #FLUX: --urgency=15
 
 sbatch --wait << EOF

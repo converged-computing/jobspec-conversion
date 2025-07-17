@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-house-2358
+#FLUX: --job-name=tt
 #FLUX: -c=6
 #FLUX: --queue=long
 #FLUX: -t=604800

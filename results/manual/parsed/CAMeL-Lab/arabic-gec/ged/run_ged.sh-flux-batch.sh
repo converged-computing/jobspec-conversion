@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-poo-0511
+#FLUX: --job-name=expressive-pot-4014
+#FLUX: --queue=nlp
 #FLUX: -t=172740
 #FLUX: --urgency=16
 

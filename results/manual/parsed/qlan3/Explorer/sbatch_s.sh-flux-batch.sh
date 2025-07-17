@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-egg-8873
+#FLUX: --job-name=eccentric-cat-2292
 #FLUX: --urgency=16
 
 echo "Current working directory: `pwd`"

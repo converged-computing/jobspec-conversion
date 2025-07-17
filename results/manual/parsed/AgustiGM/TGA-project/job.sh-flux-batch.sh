@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=MultiGPU
+#FLUX: --queue=cuda
 #FLUX: --urgency=16
 
 export PATH='/Soft/cuda/11.2.1/bin:$PATH'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-onion-7732
+#FLUX: --job-name=ar2_multi_ABC_pen3
+#FLUX: --queue=gpu
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

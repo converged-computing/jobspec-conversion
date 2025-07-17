@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leg-5238
+#FLUX: --job-name=crunchy-squidward-2333
 #FLUX: --urgency=16
 
 SUBMIT=0

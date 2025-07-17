@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lemon-3523
+#FLUX: --job-name=fuzzy-underoos-1573
+#FLUX: --queue=long
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 pwd

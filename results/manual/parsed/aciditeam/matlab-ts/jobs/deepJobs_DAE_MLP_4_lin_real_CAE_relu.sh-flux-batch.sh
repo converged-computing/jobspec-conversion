@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-motorcycle-2190
+#FLUX: --job-name=Deep-DAE_MLP_4_lin_real_CAE_relu
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

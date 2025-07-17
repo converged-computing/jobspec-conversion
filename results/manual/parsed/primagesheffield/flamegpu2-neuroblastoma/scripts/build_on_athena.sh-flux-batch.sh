@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-cat-5445
+#FLUX: --job-name=build_fgpu2_nb
+#FLUX: --queue=plgrid-gpu-a100
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train_CostFourierVelModelEfficientNet
+#FLUX: --queue=dgx
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 EXE=/bin/bash

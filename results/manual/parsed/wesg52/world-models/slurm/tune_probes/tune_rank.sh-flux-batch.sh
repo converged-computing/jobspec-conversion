@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-destiny-8266
+#FLUX: --job-name=milky-diablo-4108
+#FLUX: -c=8
 #FLUX: --urgency=16
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'

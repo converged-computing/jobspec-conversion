@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pot-7571
+#FLUX: --job-name=obiwan
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export KMP_AFFINITY='disabled'

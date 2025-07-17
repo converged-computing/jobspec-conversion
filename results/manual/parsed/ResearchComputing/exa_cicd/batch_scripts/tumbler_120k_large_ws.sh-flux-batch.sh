@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-train-5130
+#FLUX: --job-name=persnickety-knife-3250
 #FLUX: -N=9
 #FLUX: --exclusive
 #FLUX: -t=14400

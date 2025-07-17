@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cat-6722
+#FLUX: --job-name=pusheena-onion-8918
 #FLUX: -t=18000
-#FLUX: --urgency=16
+#FLUX: --urgency=50
 
 start=`date +%s`
 module purge

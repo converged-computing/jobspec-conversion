@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-bicycle-3574
+#FLUX: --job-name=nerdy-cinnamonbun-2052
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mfurla/NanOlympicsMod/Scripts/nextflowRun.sh

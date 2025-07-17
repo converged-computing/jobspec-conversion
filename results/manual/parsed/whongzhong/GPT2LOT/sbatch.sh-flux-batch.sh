@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-salad-8260
+#FLUX: --job-name=singlegpu
 #FLUX: -c=4
+#FLUX: --queue=compute
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0'

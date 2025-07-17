@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cinnamonbun-2722
+#FLUX: --job-name=confused-truffle-0402
+#FLUX: --queue=gpu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module list

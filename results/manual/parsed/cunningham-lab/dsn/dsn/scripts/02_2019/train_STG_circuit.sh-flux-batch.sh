@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=tensorflow
+#FLUX: -t=690
 #FLUX: --urgency=16
 
 module load singularity

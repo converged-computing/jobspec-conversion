@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-lemur-7708
+#FLUX: --job-name=delicious-despacito-8490
 #FLUX: --queue=gpuq
 #FLUX: -t=7200
 #FLUX: --urgency=16

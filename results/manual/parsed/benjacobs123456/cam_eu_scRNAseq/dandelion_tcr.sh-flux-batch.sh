@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-snack-3741
+#FLUX: --job-name=dandelion_tcr
 #FLUX: -c=64
+#FLUX: --queue=icelake
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

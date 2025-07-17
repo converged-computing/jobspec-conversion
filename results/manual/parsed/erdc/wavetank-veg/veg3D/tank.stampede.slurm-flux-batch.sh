@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-butter-9298
+#FLUX: --job-name=wavetank
+#FLUX: -n=192
+#FLUX: --queue=development
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 set -x

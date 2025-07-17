@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-omelette-9726
+#FLUX: --job-name=FIT_MA_SIM_PRIOR
+#FLUX: --queue=shared
+#FLUX: -t=1440
 #FLUX: --urgency=16
 
 export R_LIBS_USER='$HOME/apps/R_4.0.2'

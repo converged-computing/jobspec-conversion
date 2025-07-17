@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-nalgas-4932
+#FLUX: --job-name=red-peanut-butter-9638
 #FLUX: -n=11
+#FLUX: --queue=msismall
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd ~/2023-DynPTOModelDesignStudies

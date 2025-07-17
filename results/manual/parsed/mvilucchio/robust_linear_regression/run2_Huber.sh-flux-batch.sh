@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-muffin-8688
+#FLUX: --job-name=frigid-staircase-4935
 #FLUX: --queue=parallel
 #FLUX: -t=86400
 #FLUX: --urgency=16

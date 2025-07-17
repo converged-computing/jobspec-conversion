@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=rigid
+#FLUX: --queue=gpu2080
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

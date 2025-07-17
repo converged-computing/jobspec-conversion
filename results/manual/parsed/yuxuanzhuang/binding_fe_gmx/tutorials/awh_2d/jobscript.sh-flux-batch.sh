@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-peas-2361
+#FLUX: --job-name=epj_binding_1
+#FLUX: -n=8
+#FLUX: --queue=lindahl4
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module unload gromacs

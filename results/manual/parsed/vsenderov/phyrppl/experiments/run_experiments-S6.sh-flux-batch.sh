@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=phat-onion-8472
+#FLUX: --job-name=Anatinae
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export OMP_STACKSIZE=' 32G" '

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cattywampus-8966
+#FLUX: --job-name=gloopy-arm-6714
+#FLUX: -n=4
+#FLUX: --queue=mlow
 #FLUX: --urgency=16
 
 python task1_1.py -m "COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml" -d "fasterRCNN_50FPN_detections" -v "/home/group05/m6_dataset/vdo.avi"

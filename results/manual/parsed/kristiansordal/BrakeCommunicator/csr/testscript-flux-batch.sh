@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pedo-7302
+#FLUX: --job-name=dinosaur-leader-4833
+#FLUX: --queue=defq
+#FLUX: -t=240
 #FLUX: --urgency=16
 
 export OMPI_MCA_pml='^ucx'

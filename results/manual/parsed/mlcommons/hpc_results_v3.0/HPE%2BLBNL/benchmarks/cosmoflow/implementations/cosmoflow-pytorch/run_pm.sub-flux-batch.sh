@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-rabbit-4668
+#FLUX: --job-name=cosmoflow-opt
 #FLUX: -c=32
+#FLUX: --queue=regular
 #FLUX: --urgency=16
 
 export MODEL_NAME='cosmoflow'

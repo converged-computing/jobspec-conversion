@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-malarkey-7367
+#FLUX: --job-name=phat-kerfuffle-2149
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GueroudjiAmal/MofkaDask/scripts/polaris.sh

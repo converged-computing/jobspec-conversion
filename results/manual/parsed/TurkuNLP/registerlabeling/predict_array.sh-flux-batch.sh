@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-milkshake-4446
+#FLUX: --job-name=hairy-banana-1508
+#FLUX: --queue=gpu
+#FLUX: -t=12600
 #FLUX: --urgency=16
 
 export TEST='data/$4/$5'

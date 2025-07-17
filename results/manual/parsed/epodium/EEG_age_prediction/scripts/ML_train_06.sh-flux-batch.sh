@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-pedo-1598
+#FLUX: --job-name=fat-fudge-4661
+#FLUX: --queue=gpu_shared
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 module load 2020

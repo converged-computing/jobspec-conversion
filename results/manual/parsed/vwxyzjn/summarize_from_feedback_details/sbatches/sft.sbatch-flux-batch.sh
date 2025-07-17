@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-parsnip-2382
+#FLUX: --job-name=milky-lizard-3923
 #FLUX: --gpus-per-task=8
 #FLUX: --exclusive
 #FLUX: --queue=hopper-prod

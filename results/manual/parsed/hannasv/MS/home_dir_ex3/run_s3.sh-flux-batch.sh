@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-signal-7102
+#FLUX: --job-name=crunchy-banana-7348
+#FLUX: -n=32
+#FLUX: --queue=defq
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-soup-1489
+#FLUX: --job-name=outstanding-hippo-7067
 #FLUX: --urgency=16
 
 dir='slurm/scripts'  # directory where the slurm scripts are

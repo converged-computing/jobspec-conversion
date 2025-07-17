@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-nalgas-1383
+#FLUX: --job-name=grated-spoon-6692
+#FLUX: --queue=gpu20
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 echo "neuralGIF pytorch implementation"

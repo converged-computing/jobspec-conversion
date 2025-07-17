@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-buttface-7600
+#FLUX: --job-name=crunchy-pot-9696
+#FLUX: --queue=a100-gpu,l40-gpu
+#FLUX: -t=57600
 #FLUX: --urgency=16
 
 module purge

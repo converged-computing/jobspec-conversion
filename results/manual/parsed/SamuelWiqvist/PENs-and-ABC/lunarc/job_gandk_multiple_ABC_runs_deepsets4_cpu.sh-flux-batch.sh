@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-citrus-7556
+#FLUX: --job-name=gandk_multi_ABC_deepsets4
+#FLUX: --queue=lu
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 ml load GCC/6.4.0-2.28

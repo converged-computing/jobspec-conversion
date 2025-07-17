@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-sundae-1967
+#FLUX: --job-name=salted-bits-1633
 #FLUX: -c=32
 #FLUX: -t=43200
 #FLUX: --urgency=16

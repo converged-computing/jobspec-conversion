@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-pot-7257
+#FLUX: --job-name=pointcept-semseg-pt-v2m2-0-base
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-butter-1672
+#FLUX: --job-name=train-cori
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 set -x

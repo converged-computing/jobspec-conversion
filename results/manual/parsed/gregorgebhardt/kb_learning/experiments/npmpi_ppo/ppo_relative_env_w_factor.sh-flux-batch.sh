@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=placid-milkshake-9424
+#FLUX: --job-name=ppo_relative_w
+#FLUX: -n=9
+#FLUX: -c=8
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='8'

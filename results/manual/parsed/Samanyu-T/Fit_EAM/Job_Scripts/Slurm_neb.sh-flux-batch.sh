@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-latke-6750
+#FLUX: --job-name=neb_pot3
 #FLUX: -n=112
+#FLUX: --queue=sapphire
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

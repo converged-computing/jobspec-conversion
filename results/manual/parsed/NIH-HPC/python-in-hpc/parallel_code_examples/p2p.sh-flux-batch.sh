@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pastry-4195
+#FLUX: --job-name=p2p_test
 #FLUX: -n=4
 #FLUX: --urgency=16
 

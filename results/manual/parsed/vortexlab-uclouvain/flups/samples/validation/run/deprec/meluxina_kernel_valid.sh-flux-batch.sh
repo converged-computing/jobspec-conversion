@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-diablo-7658
+#FLUX: --job-name=rainbow-poo-2614
 #FLUX: --queue=cpu
 #FLUX: -t=1800
 #FLUX: --urgency=16

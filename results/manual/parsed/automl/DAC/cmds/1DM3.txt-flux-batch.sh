@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-snack-3884
+#FLUX: --job-name=fat-pot-6695
+#FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 
 source activate dac

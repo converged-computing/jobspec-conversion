@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-salad-7782
+#FLUX: --job-name=psycho-egg-0997
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=3600

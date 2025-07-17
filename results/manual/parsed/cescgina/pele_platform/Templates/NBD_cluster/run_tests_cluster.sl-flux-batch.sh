@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lemur-7671
+#FLUX: --job-name=PELE_MPI_test
 #FLUX: -n=5
 #FLUX: --urgency=16
 

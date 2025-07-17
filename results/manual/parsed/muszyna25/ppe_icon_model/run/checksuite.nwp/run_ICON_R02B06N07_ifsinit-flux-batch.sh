@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-cherry-7694
+#FLUX: --job-name=tart-general-5755
 #FLUX: -N=6
 #FLUX: --exclusive
 #FLUX: --queue=compute

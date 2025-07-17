@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-pancake-5369
+#FLUX: --job-name=eccentric-peas-6749
 #FLUX: -c=2
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load r/3.4.0

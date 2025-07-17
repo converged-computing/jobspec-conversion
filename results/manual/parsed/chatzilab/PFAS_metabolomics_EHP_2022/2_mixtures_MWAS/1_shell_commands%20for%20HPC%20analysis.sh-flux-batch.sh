@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-chair-4986
+#FLUX: --job-name=conspicuous-lamp-4595
 #FLUX: --queue=conti
 #FLUX: --urgency=16
 

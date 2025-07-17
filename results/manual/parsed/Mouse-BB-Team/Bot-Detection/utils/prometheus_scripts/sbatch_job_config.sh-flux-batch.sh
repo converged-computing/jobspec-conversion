@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-leopard-2630
+#FLUX: --job-name=purple-peanut-butter-7791
+#FLUX: --queue=plgrid-gpu
 #FLUX: -t=93600
 #FLUX: --urgency=16
 

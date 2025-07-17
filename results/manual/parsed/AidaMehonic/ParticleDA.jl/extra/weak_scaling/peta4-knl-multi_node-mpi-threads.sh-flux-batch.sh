@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-frito-7986
+#FLUX: --job-name=scaling_test.jl
 #FLUX: -N=16
 #FLUX: -n=256
+#FLUX: --queue=knl
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

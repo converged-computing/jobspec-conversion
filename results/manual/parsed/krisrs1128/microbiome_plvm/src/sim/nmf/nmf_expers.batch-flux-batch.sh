@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=nmf_expers
+#FLUX: --queue=normal,hns
 #FLUX: -t=144000
 #FLUX: --urgency=16
 

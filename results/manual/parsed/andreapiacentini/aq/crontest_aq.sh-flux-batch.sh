@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-arm-6691
+#FLUX: --job-name=aq-crontest
+#FLUX: --queue=debug
 #FLUX: --urgency=16
 
 export KMP_DETERMINISTIC_REDUCTION='true'

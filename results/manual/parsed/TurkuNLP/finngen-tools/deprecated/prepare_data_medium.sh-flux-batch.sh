@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cinnamonbun-4057
+#FLUX: --job-name=crunchy-lettuce-8422
 #FLUX: -c=128
 #FLUX: --queue=medium
 #FLUX: -t=86400

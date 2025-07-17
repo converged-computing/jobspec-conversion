@@ -2,6 +2,7 @@
 #FLUX: --job-name=nf_gromacs_gpu
 #FLUX: -c=2
 #FLUX: --queue=shared
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 export NFX_OPTS='-Xms=512m -Xmx=4g'

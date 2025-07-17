@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-despacito-2801
+#FLUX: --job-name=stinky-arm-2052
+#FLUX: -n=29
+#FLUX: --queue=batch
+#FLUX: -t=174000
 #FLUX: --urgency=16
 
 module load singularity

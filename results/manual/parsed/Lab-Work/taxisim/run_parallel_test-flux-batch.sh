@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cupcake-0334
+#FLUX: --job-name=parallel_traffic
+#FLUX: -n=176
+#FLUX: --queue=normal
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export PATH='$PATH:/opt/apps/intel14/mvapich2_2_0/python/2.7.6/lib/python2.7/site-packages/mpi4py/bin'

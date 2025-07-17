@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pot-1084
+#FLUX: --job-name=Thom_inv
+#FLUX: -N=4
+#FLUX: -n=32
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 export user='$(whoami)'

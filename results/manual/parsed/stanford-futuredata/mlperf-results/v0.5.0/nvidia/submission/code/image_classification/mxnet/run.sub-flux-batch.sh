@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-eagle-5176
+#FLUX: --job-name=image_classification
 #FLUX: --exclusive
+#FLUX: --queue=main
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export VOLS='-v $DATADIR:/data -v $LOGDIR:/results'

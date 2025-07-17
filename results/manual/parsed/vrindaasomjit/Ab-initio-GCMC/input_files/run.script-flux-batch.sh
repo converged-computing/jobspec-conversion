@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lizard-5198
+#FLUX: --job-name=gcmc
+#FLUX: -N=4
+#FLUX: -n=182
+#FLUX: --queue=skx-dev
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export LAMMPS_DIR='/home1/04770/tg840694/help_TACC_lammps/stable_3Mar2020_clean/'

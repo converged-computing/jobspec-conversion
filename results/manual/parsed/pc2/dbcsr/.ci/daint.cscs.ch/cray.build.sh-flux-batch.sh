@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-signal-6962
+#FLUX: --job-name=goodbye-pot-4145
 #FLUX: -c=3
 #FLUX: --exclusive
 #FLUX: --queue=cscsci

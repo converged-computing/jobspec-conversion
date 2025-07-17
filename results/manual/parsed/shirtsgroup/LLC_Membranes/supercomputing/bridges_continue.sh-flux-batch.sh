@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-signal-0699
+#FLUX: --job-name=fat-muffin-9431
+#FLUX: --queue=GPU
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load gromacs/2018_gpu

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-bike-7030
+#FLUX: --job-name=expensive-despacito-9991
 #FLUX: -c=24
 #FLUX: --queue=amdgpuextralong
 #FLUX: -t=864000

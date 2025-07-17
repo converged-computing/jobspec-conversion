@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-gato-8154
+#FLUX: --job-name=SAAGmcs
 #FLUX: --exclusive
+#FLUX: --queue=debug
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 date

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-itch-5917
+#FLUX: --job-name=joyous-bits-5887
+#FLUX: -c=32
 #FLUX: --exclusive
+#FLUX: --queue=xeonv6
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='false'

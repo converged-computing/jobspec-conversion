@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-motorcycle-5916
+#FLUX: --job-name=transformer-seg
+#FLUX: --queue=ampere
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

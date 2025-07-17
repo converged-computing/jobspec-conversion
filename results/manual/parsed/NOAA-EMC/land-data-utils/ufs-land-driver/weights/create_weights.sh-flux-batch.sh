@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=regrid_weights
 #FLUX: -n=2
+#FLUX: --queue=debug
 #FLUX: -t=300
 #FLUX: --urgency=16
 

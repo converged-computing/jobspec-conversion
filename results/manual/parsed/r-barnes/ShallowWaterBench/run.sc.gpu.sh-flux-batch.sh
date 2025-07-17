@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-parsnip-4145
+#FLUX: --job-name=conspicuous-cattywampus-0377
 #FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export OMPI_MCA_btl='self,tcp'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-fudge-2419
+#FLUX: --job-name=scruptious-spoon-2946
+#FLUX: --queue=True
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

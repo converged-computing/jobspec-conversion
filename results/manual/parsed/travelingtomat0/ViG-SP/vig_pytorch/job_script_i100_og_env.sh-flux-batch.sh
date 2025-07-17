@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-butter-7153
+#FLUX: --job-name=arid-leopard-1647
 #FLUX: --urgency=16
 
 set -o errexit

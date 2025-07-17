@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=tl_c10k_fro
+#FLUX: --queue=gpu-long
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-latke-2305
+#FLUX: --job-name=DA
+#FLUX: -c=8
+#FLUX: --queue=batch
 #FLUX: -t=172740
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-leader-4383
+#FLUX: --job-name=22G
+#FLUX: -N=600
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PETSC_DIR='/p/lustre2/mcgurn4/petsc'

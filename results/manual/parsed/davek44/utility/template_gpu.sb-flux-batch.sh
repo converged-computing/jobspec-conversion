@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-underoos-3520
+#FLUX: --job-name=3/5_name
+#FLUX: -c=2
+#FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=TF_POD
+#FLUX: --queue=knlall
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-chip-6831
+#FLUX: --job-name=salted-lizard-3859
 #FLUX: --urgency=16
 
 echo "----------------------"

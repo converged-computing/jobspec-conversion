@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-arm-4856
+#FLUX: --job-name=tgi-download
 #FLUX: -c=2
 #FLUX: -t=3600
 #FLUX: --urgency=16

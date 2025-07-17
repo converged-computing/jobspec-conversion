@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-poodle-4494
+#FLUX: --job-name=conspicuous-motorcycle-4647
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400

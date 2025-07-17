@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-peanut-butter-2107
+#FLUX: --job-name=bloated-cat-7070
 #FLUX: -c=16
 #FLUX: --urgency=16
 

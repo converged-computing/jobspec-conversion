@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-mango-7127
+#FLUX: --job-name=LD-Extract-Individuals
+#FLUX: -n=10
+#FLUX: --queue=core
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 chr=$SLURM_ARRAY_TASK_ID

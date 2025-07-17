@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-itch-4414
+#FLUX: --job-name=NAMD
 #FLUX: -c=2
 #FLUX: -t=3600
 #FLUX: --urgency=16

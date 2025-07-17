@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=tart-car-2099
+#FLUX: --job-name=pin_all_p4est_4_64
+#FLUX: -N=4
+#FLUX: -n=64
+#FLUX: --queue=normal
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-install/bin'

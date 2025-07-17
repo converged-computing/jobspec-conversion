@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ref_format
+#FLUX: -n=64
+#FLUX: -t=1036800
 #FLUX: --urgency=16
 
 module load biocontainers

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-gato-4037
+#FLUX: --job-name=build_fgpu2_nb
+#FLUX: --queue=plgrid
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

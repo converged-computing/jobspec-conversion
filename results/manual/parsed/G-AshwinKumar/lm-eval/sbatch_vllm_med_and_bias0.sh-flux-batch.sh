@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-lemur-6849
+#FLUX: --job-name=eval
+#FLUX: -c=32
 #FLUX: --exclusive
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 MODEL_NAME="medalpaca-7b"

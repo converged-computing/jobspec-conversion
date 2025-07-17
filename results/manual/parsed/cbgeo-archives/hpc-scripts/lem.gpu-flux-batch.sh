@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-house-0038
+#FLUX: --job-name=lemgpu
+#FLUX: --queue=tesla
 #FLUX: -t=900
 #FLUX: --urgency=16
 

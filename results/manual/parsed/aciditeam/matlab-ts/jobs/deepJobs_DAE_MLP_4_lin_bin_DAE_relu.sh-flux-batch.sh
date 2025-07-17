@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-kitty-7099
+#FLUX: --job-name=Deep-DAE_MLP_4_lin_bin_DAE_relu
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

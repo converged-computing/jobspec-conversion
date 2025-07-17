@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=preprocess
+#FLUX: --queue=gypsum-titanx
 #FLUX: --urgency=16
 
 module load conda

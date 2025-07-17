@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-soup-4284
+#FLUX: --job-name=nerdy-truffle-6896
 #FLUX: -N=10
 #FLUX: -n=10
 #FLUX: --queue=west

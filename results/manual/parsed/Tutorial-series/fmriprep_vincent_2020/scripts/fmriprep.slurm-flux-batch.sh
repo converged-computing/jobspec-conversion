@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-kitty-6783
+#FLUX: --job-name=fmriprep
 #FLUX: -c=8
 #FLUX: -t=86400
 #FLUX: --urgency=16

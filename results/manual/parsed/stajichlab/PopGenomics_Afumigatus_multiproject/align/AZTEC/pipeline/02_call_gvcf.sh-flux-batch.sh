@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-car-7144
+#FLUX: --job-name=salted-buttface-0531
+#FLUX: -n=16
+#FLUX: --queue=intel
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

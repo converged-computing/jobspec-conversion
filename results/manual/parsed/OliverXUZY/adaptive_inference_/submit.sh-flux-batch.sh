@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-hippo-5107
+#FLUX: --job-name=ada_inf
 #FLUX: -c=16
+#FLUX: --queue=lianglab
+#FLUX: -t=921600
 #FLUX: --urgency=16
 
 source ~/.bashrc

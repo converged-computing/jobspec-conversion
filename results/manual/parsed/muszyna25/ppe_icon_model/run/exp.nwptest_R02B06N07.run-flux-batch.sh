@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-chip-1726
+#FLUX: --job-name=purple-leader-4285
 #FLUX: -N=6
 #FLUX: --exclusive
 #FLUX: --queue=compute

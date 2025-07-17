@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-kitty-2489
+#FLUX: --job-name=spicy-cat-0042
 #FLUX: --urgency=15
 
 module load miniconda3/v4

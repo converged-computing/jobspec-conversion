@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-parsnip-7141
+#FLUX: --job-name=TrainRes50
+#FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=61200
 #FLUX: --urgency=16

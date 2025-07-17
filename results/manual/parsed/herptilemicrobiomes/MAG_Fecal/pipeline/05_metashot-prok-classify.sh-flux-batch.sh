@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-milkshake-1655
+#FLUX: --job-name=GTKDB
+#FLUX: -c=48
+#FLUX: --queue=batch
 #FLUX: --urgency=16
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'

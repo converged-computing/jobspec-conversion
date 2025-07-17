@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-eagle-5123
+#FLUX: --job-name=outstanding-earthworm-9842
 #FLUX: --queue=fnndsc-gpu
 #FLUX: -t=432000
 #FLUX: --urgency=16

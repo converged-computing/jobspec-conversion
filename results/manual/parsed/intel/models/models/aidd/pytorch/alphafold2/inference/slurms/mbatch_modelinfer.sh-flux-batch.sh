@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=diaf2dl
+#FLUX: -N=8
 #FLUX: --exclusive
 #FLUX: --queue=64c512g
 #FLUX: --urgency=16

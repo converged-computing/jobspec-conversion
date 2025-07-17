@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lizard-7275
+#FLUX: --job-name=fuzzy-egg-1745
 #FLUX: --queue=luna-short
 #FLUX: -t=240
 #FLUX: --urgency=15

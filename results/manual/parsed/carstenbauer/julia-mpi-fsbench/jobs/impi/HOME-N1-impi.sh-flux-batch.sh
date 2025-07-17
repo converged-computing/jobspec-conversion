@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-knife-9382
+#FLUX: --job-name=tart-cinnamonbun-9438
+#FLUX: -n=64
+#FLUX: -c=2
 #FLUX: --exclusive
+#FLUX: --queue=cont
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

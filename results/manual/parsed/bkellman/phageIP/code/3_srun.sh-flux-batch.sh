@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-banana-0763
+#FLUX: --job-name=expressive-mango-2581
+#FLUX: -c=20
+#FLUX: --queue=medium
+#FLUX: -t=259205
 #FLUX: --urgency=16
 
                                            # You can change the filenames given with -o and -e to any filenames you'd like

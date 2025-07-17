@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-knife-5423
+#FLUX: --job-name=dinosaur-general-5778
+#FLUX: --queue=seas_gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-carrot-8432
+#FLUX: --job-name=kripke
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 export SCOREP_SUBSTRATE_PLUGINS='rrl'

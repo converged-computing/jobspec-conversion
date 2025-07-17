@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-butter-4354
+#FLUX: --job-name=airMar
+#FLUX: -n=16
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ml load matlab

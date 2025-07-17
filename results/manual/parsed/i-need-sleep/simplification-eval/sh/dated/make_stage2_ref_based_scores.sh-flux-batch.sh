@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=stage_2_ref_free
 #FLUX: -c=4
+#FLUX: --queue=cpu-512
 #FLUX: -t=82800
 #FLUX: --urgency=16
 

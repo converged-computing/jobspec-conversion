@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lemur-1530
+#FLUX: --job-name=muffled-avocado-0938
+#FLUX: -n=48
 #FLUX: --urgency=16
 
 source /etc/profile

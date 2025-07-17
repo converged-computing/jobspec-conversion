@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-taco-1791
+#FLUX: --job-name=gloopy-milkshake-0847
+#FLUX: --queue=all
+#FLUX: -t=30000
 #FLUX: --urgency=16
 
 module load anacondapy/5.3.1

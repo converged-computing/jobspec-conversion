@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-bike-4837
+#FLUX: --job-name=buttery-mango-4691
+#FLUX: --queue=fasse
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 module load ncf

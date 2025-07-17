@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=arid-punk-1193
+#FLUX: --job-name=BUSCO
 #FLUX: -c=4
+#FLUX: --queue=small,amdsmall
+#FLUX: -t=288000
 #FLUX: --urgency=16
 
 module load python/2

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=runMultiple
+#FLUX: --queue=standard
 #FLUX: -t=600
 #FLUX: --urgency=16
 

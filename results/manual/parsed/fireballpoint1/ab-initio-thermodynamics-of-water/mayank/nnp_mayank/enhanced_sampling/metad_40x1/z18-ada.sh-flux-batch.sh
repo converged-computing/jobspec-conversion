@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-carrot-8968
+#FLUX: --job-name=misunderstood-destiny-9069
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

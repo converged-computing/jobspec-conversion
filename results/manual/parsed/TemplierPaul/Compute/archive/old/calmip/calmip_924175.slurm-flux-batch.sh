@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-plant-9070
+#FLUX: --job-name=Atari
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: -c=36

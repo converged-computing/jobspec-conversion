@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-bicycle-2303
+#FLUX: --job-name=weather-sim2real-finetuning
+#FLUX: --queue=ampere
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

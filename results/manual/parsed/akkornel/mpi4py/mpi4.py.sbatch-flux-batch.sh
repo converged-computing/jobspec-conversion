@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-noodle-7881
+#FLUX: --job-name=placid-bits-7526
 #FLUX: --urgency=16
 
 module load openmpi/3.0.0

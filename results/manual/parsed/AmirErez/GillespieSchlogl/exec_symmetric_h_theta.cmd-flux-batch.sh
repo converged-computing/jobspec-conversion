@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-avocado-3948
+#FLUX: --job-name=bloated-mango-1542
+#FLUX: -t=86340
 #FLUX: --urgency=16
 
 OFFSET=2000

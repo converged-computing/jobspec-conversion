@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-punk-4533
+#FLUX: --job-name=vina
+#FLUX: --queue=tsl-long
 #FLUX: -t=864000
 #FLUX: --urgency=16
 

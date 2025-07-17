@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-signal-3423
+#FLUX: --job-name=blank-signal-8971
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-frito-0071
+#FLUX: --job-name=pusheena-cat-6417
 #FLUX: -c=8
+#FLUX: -t=259920
 #FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'

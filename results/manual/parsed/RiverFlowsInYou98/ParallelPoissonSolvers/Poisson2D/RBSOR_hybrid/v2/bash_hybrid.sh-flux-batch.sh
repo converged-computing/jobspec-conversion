@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-salad-4051
+#FLUX: --job-name=MyParallelJob
 #FLUX: -n=16
 #FLUX: -c=2
 #FLUX: -t=3600

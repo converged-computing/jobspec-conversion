@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=fusion
+#FLUX: --queue=skx-normal
+#FLUX: -t=39605
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='20'

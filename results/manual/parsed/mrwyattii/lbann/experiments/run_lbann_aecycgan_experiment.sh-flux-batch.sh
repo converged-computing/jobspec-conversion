@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-pot-7091
+#FLUX: --job-name=loopy-house-4541
 #FLUX: --urgency=16
 
 EXPERIMENT_NAME=lbann_aecycgan_jag

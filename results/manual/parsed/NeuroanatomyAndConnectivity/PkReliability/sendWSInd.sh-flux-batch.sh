@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Watershed
 #FLUX: -c=3
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 SUBJECT_LIST=./subjectsWithParietalPeak.txt

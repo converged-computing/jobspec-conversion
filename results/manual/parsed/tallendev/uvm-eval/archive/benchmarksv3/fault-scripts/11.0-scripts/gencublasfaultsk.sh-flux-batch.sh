@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-itch-0942
+#FLUX: --job-name=cublas-faults
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

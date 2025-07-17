@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lemon-8200
+#FLUX: --job-name=expensive-ricecake-8906
 #FLUX: -c=10
 #FLUX: --queue=small
 #FLUX: -t=1200

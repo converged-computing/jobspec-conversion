@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=julia_mvapich2
+#FLUX: -N=4
+#FLUX: --queue=short
 #FLUX: -t=300
 #FLUX: --urgency=16
 

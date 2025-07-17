@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-banana-5792
+#FLUX: --job-name=blank-hope-0303
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=10800

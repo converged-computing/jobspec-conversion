@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-soup-4861
+#FLUX: --job-name=stanky-staircase-7842
+#FLUX: --queue=plgrid-gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module purge

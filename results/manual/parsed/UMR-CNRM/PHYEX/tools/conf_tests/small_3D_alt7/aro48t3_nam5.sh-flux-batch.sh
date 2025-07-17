@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lamp-0525
+#FLUX: --job-name=bricky-cinnamonbun-7938
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

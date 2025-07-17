@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-peas-1610
+#FLUX: --job-name=hep_train_tf
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export PYTHONPATH='$PWD:$PYTHONPATH'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-eagle-0307
+#FLUX: --job-name=bricky-lettuce-5235
+#FLUX: -N=4
+#FLUX: -n=64
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 IOR="$HOME/src/iopup/src/ior/bin.muller/ior"

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-truffle-8192
+#FLUX: --job-name=faux-malarkey-1234
+#FLUX: -c=16
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export HOME='/scratch/zt1/project/jpurcel8-prj/shared'

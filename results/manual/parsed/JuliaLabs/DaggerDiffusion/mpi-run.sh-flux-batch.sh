@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-arm-9012
+#FLUX: --job-name=mpi-diffusion
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export UCX_ERROR_SIGNALS='SIGILL,SIGBUS,SIGFPE'

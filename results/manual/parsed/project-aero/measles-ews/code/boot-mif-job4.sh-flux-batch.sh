@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-malarkey-4557
+#FLUX: --job-name=moolicious-lentil-5018
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd ~/measles/code/

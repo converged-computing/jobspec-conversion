@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-fudge-4041
+#FLUX: --job-name=chunky-caramel-6644
+#FLUX: --queue=standard
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module purge

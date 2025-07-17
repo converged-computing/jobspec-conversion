@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-butter-2921
+#FLUX: --job-name=butterscotch-blackbean-3455
+#FLUX: --queue=gpu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load python/3.5.2

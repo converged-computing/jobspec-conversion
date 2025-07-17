@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=UAV-POS-VERIFY
+#FLUX: --queue=ib
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

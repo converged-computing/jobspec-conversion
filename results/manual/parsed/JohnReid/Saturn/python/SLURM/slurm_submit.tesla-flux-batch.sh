@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-taco-9027
+#FLUX: --job-name=gpujob
 #FLUX: -N=2
 #FLUX: -n=4
+#FLUX: --queue=tesla
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

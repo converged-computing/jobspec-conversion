@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-punk-4289
+#FLUX: --job-name=fmriprep
 #FLUX: -c=24
 #FLUX: --queue=long
 #FLUX: -t=172800

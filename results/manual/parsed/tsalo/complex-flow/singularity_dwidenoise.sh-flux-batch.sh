@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chip-4020
+#FLUX: --job-name=dwi
+#FLUX: -c=4
+#FLUX: --queue=centos7
 #FLUX: --urgency=16
 
 export NPROCS='`echo $LSB_HOSTS | wc -w`'

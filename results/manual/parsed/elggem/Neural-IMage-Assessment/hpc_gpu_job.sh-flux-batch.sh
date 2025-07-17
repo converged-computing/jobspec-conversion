@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-earthworm-8567
+#FLUX: --job-name=nima-pqd
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=32400

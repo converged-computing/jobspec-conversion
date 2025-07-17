@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-fork-6011
+#FLUX: --job-name=chunky-lamp-7693
+#FLUX: --queue=aquila,parallel
 #FLUX: -t=604800
 #FLUX: --urgency=16
 

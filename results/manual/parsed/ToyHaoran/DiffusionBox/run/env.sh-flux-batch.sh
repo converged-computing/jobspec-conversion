@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-leader-1205
+#FLUX: --job-name=confused-dog-7394
+#FLUX: --queue=gpu1
 #FLUX: --urgency=16
 
 alias ll='ls -al'  # 快捷键

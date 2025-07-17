@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-mango-9340
+#FLUX: --job-name=gpujob
+#FLUX: --queue=pascal
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

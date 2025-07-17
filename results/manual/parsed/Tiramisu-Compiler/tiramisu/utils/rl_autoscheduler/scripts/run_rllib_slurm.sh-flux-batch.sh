@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pastry-5525
+#FLUX: --job-name=purple-sundae-6614
 #FLUX: -N=4
 #FLUX: -c=28
 #FLUX: --exclusive
+#FLUX: --queue=compute
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 . scripts/env.sh

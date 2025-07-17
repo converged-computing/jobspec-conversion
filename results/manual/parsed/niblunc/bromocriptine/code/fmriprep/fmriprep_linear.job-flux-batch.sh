@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=BRO_BEVEL
+#FLUX: -N=2
+#FLUX: -c=2
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 if [ ${SLURM_ARRAY_TASK_ID} -lt 10 ]; then

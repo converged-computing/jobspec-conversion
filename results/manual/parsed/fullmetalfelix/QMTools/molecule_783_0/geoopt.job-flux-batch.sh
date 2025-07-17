@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-poo-5426
+#FLUX: --job-name=go_19
 #FLUX: -c=10
+#FLUX: --queue=batch
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='true'

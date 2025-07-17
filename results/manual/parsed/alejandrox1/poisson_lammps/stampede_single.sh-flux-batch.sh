@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-despacito-0406
+#FLUX: --job-name=chocolate-itch-0969
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load lammps

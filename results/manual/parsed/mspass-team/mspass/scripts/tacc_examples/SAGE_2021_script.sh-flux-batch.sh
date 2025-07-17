@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-frito-0611
+#FLUX: --job-name=mspass
+#FLUX: -N=2
+#FLUX: -n=2
+#FLUX: --queue=normal
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 WORK_DIR=$SCRATCH/SAGE_2021

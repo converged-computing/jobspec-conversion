@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-snack-7289
+#FLUX: --job-name=mdtest
 #FLUX: -n=32
+#FLUX: --queue=skylake
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

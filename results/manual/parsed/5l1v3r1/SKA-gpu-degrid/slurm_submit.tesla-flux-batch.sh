@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cat-0727
+#FLUX: --job-name=GPUDegrid
+#FLUX: --queue=tesla
 #FLUX: -t=600
 #FLUX: --urgency=16
 

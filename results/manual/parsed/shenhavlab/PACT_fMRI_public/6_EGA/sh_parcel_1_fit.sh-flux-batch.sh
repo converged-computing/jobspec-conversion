@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-poodle-3020
+#FLUX: --job-name=rdm-parcel_pt
+#FLUX: -n=6
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 root_dir="/users/hritz/data/mri-data/RDM2"

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-leader-6738
+#FLUX: --job-name=spack_environment_builds
+#FLUX: -c=4
+#FLUX: --queue=preempted,cpu
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

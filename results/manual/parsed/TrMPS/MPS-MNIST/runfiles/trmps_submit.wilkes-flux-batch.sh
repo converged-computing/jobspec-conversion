@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-kitty-4580
+#FLUX: --job-name=trmps
 #FLUX: -n=10
+#FLUX: --queue=tesla
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

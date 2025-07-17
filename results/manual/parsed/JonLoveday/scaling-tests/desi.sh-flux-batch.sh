@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lentil-8315
+#FLUX: --job-name=desi
+#FLUX: --queue=regular
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

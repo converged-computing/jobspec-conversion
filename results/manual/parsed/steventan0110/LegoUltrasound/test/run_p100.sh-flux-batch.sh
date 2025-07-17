@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=matlab_p100
 #FLUX: -c=6
+#FLUX: --queue=gpup100
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

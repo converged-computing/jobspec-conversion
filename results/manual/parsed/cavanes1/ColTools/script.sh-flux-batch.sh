@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=LST
+#FLUX: --queue=defq
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 set -e

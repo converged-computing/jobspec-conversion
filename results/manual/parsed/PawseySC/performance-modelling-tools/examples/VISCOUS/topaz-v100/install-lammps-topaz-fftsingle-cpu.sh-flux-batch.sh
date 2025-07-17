@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cat-8562
+#FLUX: --job-name=milky-muffin-1211
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600

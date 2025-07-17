@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-kerfuffle-9224
+#FLUX: --job-name=bumfuzzled-dog-9202
+#FLUX: -n=10
+#FLUX: --queue=ghpc
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 TMPDIR=/scratch/$USER/$SLURM_JOBID

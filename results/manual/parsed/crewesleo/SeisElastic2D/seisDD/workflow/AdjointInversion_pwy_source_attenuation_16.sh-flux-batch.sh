@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pot-5086
+#FLUX: --job-name=husky_att_inversion
+#FLUX: -N=16
+#FLUX: -n=32
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export user='$(whoami)'

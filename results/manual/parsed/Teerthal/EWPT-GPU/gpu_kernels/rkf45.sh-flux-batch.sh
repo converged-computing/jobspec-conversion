@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-poodle-6133
+#FLUX: --job-name=bumfuzzled-lemon-9887
+#FLUX: --queue=public
+#FLUX: -t=1200
 #FLUX: --urgency=16
 
 MV2_USE_ALIGNED_ALLOC=1

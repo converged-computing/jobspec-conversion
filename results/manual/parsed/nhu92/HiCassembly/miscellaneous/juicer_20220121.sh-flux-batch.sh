@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-egg-4383
+#FLUX: --job-name=${groupname}_prep_done
+#FLUX: --queue=$queue
 #FLUX: --urgency=16
 
 shopt -s extglob

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-leg-6970
+#FLUX: --job-name=peachy-pot-2936
+#FLUX: -c=2
+#FLUX: --queue=priority
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load gcc

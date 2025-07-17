@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-salad-3088
+#FLUX: --job-name=salted-fork-6226
+#FLUX: -n=2
+#FLUX: --queue=long
 #FLUX: --urgency=16
 
 module load nextflow/22.04.3

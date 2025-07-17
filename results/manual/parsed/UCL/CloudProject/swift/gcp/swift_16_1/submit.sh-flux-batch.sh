@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-peas-6931
+#FLUX: --job-name=imb_16_1
 #FLUX: -N=16
 #FLUX: -n=16
 #FLUX: --exclusive

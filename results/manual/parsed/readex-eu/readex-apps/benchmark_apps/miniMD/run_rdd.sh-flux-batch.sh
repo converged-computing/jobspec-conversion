@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-itch-0082
+#FLUX: --job-name=amg2013_rdd
 #FLUX: -c=24
 #FLUX: --exclusive
 #FLUX: --queue=haswell

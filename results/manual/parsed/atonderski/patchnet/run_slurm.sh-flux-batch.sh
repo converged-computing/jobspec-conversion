@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-spoon-9333
+#FLUX: --job-name=confused-fork-1595
 #FLUX: -c=16
 #FLUX: --queue=a100
 #FLUX: -t=259200

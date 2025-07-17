@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bits-8186
+#FLUX: --job-name=crusty-puppy-7493
+#FLUX: -N=2
+#FLUX: --queue=bdwall
 #FLUX: -t=900
 #FLUX: --urgency=16
 

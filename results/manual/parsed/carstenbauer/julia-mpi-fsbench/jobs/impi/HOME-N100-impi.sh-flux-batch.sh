@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-gato-7774
+#FLUX: --job-name=crunchy-lemur-2656
+#FLUX: -N=100
+#FLUX: -n=6400
+#FLUX: -c=2
 #FLUX: --exclusive
+#FLUX: --queue=cont
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

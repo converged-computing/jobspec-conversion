@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-dog-6541
+#FLUX: --job-name=groupc
+#FLUX: -n=9
+#FLUX: --queue=defq
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 module load gcc/10.2.0

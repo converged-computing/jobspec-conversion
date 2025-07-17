@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-puppy-1052
+#FLUX: --job-name=butterscotch-taco-6957
+#FLUX: -c=8
+#FLUX: --queue=seas_gpu
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 module load python/3.10.12-fasrc01

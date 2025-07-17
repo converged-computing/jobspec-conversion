@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-knife-0620
+#FLUX: --job-name=angry-bits-1102
 #FLUX: -N=16
 #FLUX: --queue=test
 #FLUX: -t=1800

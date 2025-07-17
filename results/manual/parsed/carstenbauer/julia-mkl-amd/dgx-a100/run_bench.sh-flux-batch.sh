@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=julia-mkl-amd dgx-a100
+#FLUX: -c=128
 #FLUX: --queue=dgx
 #FLUX: -t=14400
 #FLUX: --urgency=16

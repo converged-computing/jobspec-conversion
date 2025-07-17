@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-butter-3173
+#FLUX: --job-name=KerrSF_job
 #FLUX: -N=4
 #FLUX: -n=32
+#FLUX: --queue=knl
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

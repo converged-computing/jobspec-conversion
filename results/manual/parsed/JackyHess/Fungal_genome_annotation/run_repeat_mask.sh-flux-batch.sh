@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-arm-1852
+#FLUX: --job-name=fat-pastry-7075
 #FLUX: -c=10
+#FLUX: -t=240000
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$JAMG_PATH/3rd_party/transdecoder/util/lib64/'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-gato-5870
+#FLUX: --job-name=loopy-pot-7076
+#FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 
 source activate dac

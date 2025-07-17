@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=example1
+#FLUX: --queue=batch
 #FLUX: -t=600
 #FLUX: --urgency=16
 

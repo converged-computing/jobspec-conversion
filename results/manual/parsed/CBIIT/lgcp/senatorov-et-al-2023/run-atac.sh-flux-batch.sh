@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-fork-5930
+#FLUX: --job-name=fat-platanos-5063
 #FLUX: -c=12
 #FLUX: --queue=ccr
 #FLUX: -t=259200

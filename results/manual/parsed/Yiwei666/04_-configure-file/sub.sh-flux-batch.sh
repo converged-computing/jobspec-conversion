@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-poodle-2334
+#FLUX: --job-name=faux-bits-7468
+#FLUX: -n=64
+#FLUX: --queue=amd_256
 #FLUX: --urgency=16
 
 export PATH='/public21/soft/cp2k/8.1/exe/local:$PATH'

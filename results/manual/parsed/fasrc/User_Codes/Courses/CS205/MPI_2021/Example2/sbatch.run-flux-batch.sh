@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-squidward-2856
+#FLUX: --job-name=mpi_dot
+#FLUX: -n=4
+#FLUX: --queue=test
+#FLUX: -t=10
 #FLUX: --urgency=16
 
 PRO=mpi_dot

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-gato-6773
+#FLUX: --job-name=hp3d
+#FLUX: -n=4
+#FLUX: --queue=skx-normal
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export KMP_STACKSIZE='48M   # p=5'

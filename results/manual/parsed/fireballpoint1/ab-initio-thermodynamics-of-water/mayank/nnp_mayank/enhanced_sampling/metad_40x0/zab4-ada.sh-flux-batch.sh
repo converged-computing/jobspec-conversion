@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-cat-8214
+#FLUX: --job-name=misunderstood-citrus-9892
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

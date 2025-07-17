@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-omelette-6793
+#FLUX: --job-name=hairy-milkshake-5627
+#FLUX: --queue=largemem
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 module load gcc/7.1.0 openmpi/3.1.4 R/3.5.3

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-lettuce-6426
+#FLUX: --job-name=<JOBNAME>
+#FLUX: -n=4
+#FLUX: --queue=normal
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 module reset

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=k34_listlen
+#FLUX: --queue=aetkin
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

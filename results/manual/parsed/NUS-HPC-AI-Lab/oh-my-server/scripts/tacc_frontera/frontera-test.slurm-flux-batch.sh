@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-parsnip-4844
+#FLUX: --job-name=myjob
+#FLUX: -N=2
+#FLUX: -n=8
+#FLUX: --queue=rtx
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 pwd

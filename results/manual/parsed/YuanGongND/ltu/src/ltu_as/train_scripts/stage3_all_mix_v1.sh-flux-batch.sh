@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-lamp-7438
+#FLUX: --job-name=alm
 #FLUX: --exclusive
 #FLUX: --queue=a6
 #FLUX: --urgency=16

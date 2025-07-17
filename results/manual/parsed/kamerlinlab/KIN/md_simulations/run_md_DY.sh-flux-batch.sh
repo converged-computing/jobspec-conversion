@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lentil-0014
+#FLUX: --job-name=RUN_SYSTEM
+#FLUX: --queue=hive-gpu
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module load gcc/10.3.0-o57x6h

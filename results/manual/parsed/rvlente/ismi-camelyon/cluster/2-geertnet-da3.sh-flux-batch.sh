@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-poo-1473
+#FLUX: --job-name=confused-parrot-0107
 #FLUX: -c=18
 #FLUX: --queue=gpu
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module load 2021

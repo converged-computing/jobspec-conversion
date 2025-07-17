@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-signal-3503
+#FLUX: --job-name=milky-leader-4129
+#FLUX: -c=3
+#FLUX: --queue=gpu_shared_jupyter
+#FLUX: -t=180
 #FLUX: --urgency=16
 
 export PYTHONUNBUFFERED='1'

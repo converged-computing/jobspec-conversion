@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-diablo-6188
+#FLUX: --job-name=husky_att_inversion
+#FLUX: -N=32
+#FLUX: -n=32
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export user='$(whoami)'

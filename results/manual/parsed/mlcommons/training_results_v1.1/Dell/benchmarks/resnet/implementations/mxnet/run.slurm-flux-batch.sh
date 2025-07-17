@@ -1,5 +1,9 @@
 #!/bin/bash
 #FLUX: --job-name=image_classification
+#FLUX: -N=2
+#FLUX: -n=16
+#FLUX: --queue=r750xa
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module list

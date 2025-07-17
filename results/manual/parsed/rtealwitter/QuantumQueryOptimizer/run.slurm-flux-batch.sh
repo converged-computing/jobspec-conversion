@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=quantum
+#FLUX: -c=8
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

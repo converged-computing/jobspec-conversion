@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-squidward-2645
+#FLUX: --job-name=DOWNLOAD
 #FLUX: --queue=serial
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-omelette-2756
+#FLUX: --job-name=SR
 #FLUX: -c=60
+#FLUX: --queue=all
 #FLUX: --urgency=16
 
 module load singularity/3.5.3

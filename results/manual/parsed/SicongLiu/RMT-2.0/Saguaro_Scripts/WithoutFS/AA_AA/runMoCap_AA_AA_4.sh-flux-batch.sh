@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-signal-6306
+#FLUX: --job-name=ornery-poo-6280
+#FLUX: -n=4
+#FLUX: --queue=serial
+#FLUX: -t=720
 #FLUX: --urgency=16
 
 module load gcc/4.9.2

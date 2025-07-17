@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-malarkey-8589
+#FLUX: --job-name=pbn_train_voc07
 #FLUX: --exclusive
+#FLUX: --queue=nvidia_long
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

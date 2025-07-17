@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=rsoccer-isaac-training
 #FLUX: --exclusive
+#FLUX: --queue=all
 #FLUX: --urgency=16
 
 eval "$('/usr/local/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"

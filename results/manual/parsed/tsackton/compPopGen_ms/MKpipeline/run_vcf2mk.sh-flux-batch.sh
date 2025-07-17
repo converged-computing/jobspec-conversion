@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-carrot-1527
+#FLUX: --job-name=sm
+#FLUX: --queue=holy-info
+#FLUX: -t=540000
 #FLUX: --urgency=16
 
 module purge

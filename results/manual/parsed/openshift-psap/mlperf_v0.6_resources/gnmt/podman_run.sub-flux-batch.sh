@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-nalgas-4909
+#FLUX: --job-name=rnn_translator
 #FLUX: --exclusive
+#FLUX: --queue=mlperf
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export MLPERF_HOST_OS='$(cat /etc/redhat-release)'

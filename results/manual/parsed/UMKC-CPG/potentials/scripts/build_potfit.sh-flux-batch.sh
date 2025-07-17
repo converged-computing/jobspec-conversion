@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-carrot-1994
+#FLUX: --job-name=aboron
 #FLUX: -n=4
+#FLUX: --queue=Lewis
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

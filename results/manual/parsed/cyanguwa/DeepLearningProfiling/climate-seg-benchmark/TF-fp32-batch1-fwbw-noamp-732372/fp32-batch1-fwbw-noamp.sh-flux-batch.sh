@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-butter-4107
+#FLUX: --job-name=fwbw-noamp
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_PLACES='threads'

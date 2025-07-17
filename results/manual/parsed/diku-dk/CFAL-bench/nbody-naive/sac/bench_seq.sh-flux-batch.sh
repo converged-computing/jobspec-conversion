@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-general-1430
+#FLUX: --job-name=conspicuous-sundae-1042
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400

@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-lamp-1843
+#FLUX: --job-name=itac_p4est_64_1024
+#FLUX: -N=64
+#FLUX: -n=1024
+#FLUX: --queue=normal
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/p4est-itac/bin'

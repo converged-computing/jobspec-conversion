@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-carrot-7794
+#FLUX: --job-name=lem-peta4-gpu
+#FLUX: --queue=pascal
 #FLUX: -t=54000
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-train-1447
+#FLUX: --job-name=Tony_DPRV
+#FLUX: --queue=ampere
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

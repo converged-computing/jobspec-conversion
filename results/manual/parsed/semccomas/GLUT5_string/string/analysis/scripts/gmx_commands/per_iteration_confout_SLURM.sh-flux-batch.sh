@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-peanut-0055
+#FLUX: --job-name=conf
+#FLUX: --queue=tcb
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module load gromacs/2020.2

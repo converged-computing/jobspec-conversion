@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-fudge-6390
+#FLUX: --job-name=lin_nmar_out
+#FLUX: --queue=sched_mit_sloan_batch
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

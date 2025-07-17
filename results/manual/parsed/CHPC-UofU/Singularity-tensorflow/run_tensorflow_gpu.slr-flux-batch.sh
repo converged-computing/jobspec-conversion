@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lettuce-6432
+#FLUX: --job-name=spicy-ricecake-9590
+#FLUX: --queue=kingspeak-gpu
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 nvidia-smi

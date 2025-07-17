@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-lizard-7823
+#FLUX: --job-name=conspicuous-buttface-0067
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=3600

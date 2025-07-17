@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cil_train
+#FLUX: -n=16
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

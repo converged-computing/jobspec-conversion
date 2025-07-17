@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-omelette-6691
+#FLUX: --job-name=bumfuzzled-diablo-2245
 #FLUX: -c=4
 #FLUX: --queue=dpart
 #FLUX: -t=129600
-#FLUX: --urgency=16
+#FLUX: --urgency=50
 
 export WORK_DIR='/scratch0/slurm_${SLURM_JOBID}'
 export PYTHONPATH='.:$PYTHONPATH'

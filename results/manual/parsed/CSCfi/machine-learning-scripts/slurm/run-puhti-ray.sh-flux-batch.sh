@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cinnamonbun-9245
+#FLUX: --job-name=angry-malarkey-8239
 #FLUX: -N=2
+#FLUX: -c=40
+#FLUX: --queue=test
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 set -x

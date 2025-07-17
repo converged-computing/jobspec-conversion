@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-bits-5463
+#FLUX: --job-name=grated-sundae-3867
+#FLUX: -c=16
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

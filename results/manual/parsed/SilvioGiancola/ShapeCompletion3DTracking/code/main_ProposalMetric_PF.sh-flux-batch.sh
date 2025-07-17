@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lizard-8897
+#FLUX: --job-name=Prop_PF
 #FLUX: -c=9
 #FLUX: -t=360000
 #FLUX: --urgency=16

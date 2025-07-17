@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-general-4301
+#FLUX: --job-name=spa_flow
 #FLUX: --exclusive
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

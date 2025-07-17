@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-poodle-5227
+#FLUX: --job-name=vae_cv
+#FLUX: --queue=high
 #FLUX: --urgency=16
 
 source /etc/profile.d/lmod.sh

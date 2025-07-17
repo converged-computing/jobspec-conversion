@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-sundae-8901
+#FLUX: --job-name=peachy-underoos-3649
+#FLUX: -n=4
+#FLUX: --queue=a6000-gcondo
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module load python/3.9.0

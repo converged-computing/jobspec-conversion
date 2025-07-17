@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-bits-2096
+#FLUX: --job-name=butterscotch-noodle-7319
+#FLUX: --queue=batch
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

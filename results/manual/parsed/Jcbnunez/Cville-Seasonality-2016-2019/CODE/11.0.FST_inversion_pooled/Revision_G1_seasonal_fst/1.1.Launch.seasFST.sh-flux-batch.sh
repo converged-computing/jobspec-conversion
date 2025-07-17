@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-taco-3164
+#FLUX: --job-name=seasfst
+#FLUX: -c=40
+#FLUX: --queue=bluemoon
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load spack/spack-0.18.1

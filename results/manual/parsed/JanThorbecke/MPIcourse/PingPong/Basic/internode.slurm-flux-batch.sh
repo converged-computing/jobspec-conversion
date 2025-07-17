@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lamp-9882
+#FLUX: --job-name=PingPing-Internode
 #FLUX: -N=2
 #FLUX: -n=2
+#FLUX: --queue=compute
 #FLUX: -t=60
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-ricecake-3454
+#FLUX: --job-name=pm-crop64
 #FLUX: -c=32
 #FLUX: -t=900
 #FLUX: --urgency=16

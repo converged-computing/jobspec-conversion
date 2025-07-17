@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-cupcake-1445
+#FLUX: --job-name=faux-ricecake-3263
+#FLUX: -n=32
+#FLUX: -c=32
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'

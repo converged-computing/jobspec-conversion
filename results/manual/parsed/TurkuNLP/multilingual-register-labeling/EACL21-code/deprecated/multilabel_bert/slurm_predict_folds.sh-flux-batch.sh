@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blue-bike-2695
+#FLUX: --job-name=hanky-plant-5355
+#FLUX: --queue=gputest
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

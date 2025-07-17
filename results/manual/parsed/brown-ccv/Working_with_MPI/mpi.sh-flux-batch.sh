@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=red-taco-5884
+#FLUX: --job-name=MyMPIJob
+#FLUX: -N=2
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-train-4691
+#FLUX: --job-name=arid-onion-7770
 #FLUX: --queue=gpu
+#FLUX: -t=518400
 #FLUX: --urgency=16
 
 source activate pytorch_p37

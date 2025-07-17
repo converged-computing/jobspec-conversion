@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=RIBOsnakemake
 #FLUX: --queue=high2
+#FLUX: -t=295200
 #FLUX: --urgency=16
 
 source ~/.bashrc

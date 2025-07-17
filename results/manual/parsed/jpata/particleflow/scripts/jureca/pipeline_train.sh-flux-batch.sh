@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-omelette-9451
+#FLUX: --job-name=pipetrain
 #FLUX: --queue=dc-gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

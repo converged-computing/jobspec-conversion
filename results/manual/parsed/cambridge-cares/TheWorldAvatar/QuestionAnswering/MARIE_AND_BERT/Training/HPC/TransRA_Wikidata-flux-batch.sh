@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-fork-7493
+#FLUX: --job-name=Wikidata_TransRA
+#FLUX: --queue=ampere
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

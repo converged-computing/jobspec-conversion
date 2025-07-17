@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-noodle-7275
+#FLUX: --job-name=swampy-hope-1442
+#FLUX: --queue=gpu
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module load PrgEnv-cray

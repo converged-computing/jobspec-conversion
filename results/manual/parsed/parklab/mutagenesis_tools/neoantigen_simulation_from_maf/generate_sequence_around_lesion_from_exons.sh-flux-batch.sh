@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-muffin-6067
+#FLUX: --job-name=gassy-kerfuffle-5094
+#FLUX: --queue=park
+#FLUX: -t=720
 #FLUX: --urgency=16
 
 module load \

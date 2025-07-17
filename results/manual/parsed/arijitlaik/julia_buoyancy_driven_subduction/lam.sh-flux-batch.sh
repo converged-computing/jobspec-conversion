@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-platanos-3655
+#FLUX: --job-name=peachy-train-0995
+#FLUX: -n=64
 #FLUX: --queue=rome
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 export MODEL_PARAM_FILE='output.dat'

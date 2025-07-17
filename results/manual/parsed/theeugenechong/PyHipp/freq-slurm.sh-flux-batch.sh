@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-sundae-7683
+#FLUX: --job-name=freq
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

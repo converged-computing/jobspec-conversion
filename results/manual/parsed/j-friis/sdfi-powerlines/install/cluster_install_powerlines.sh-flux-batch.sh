@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leader-2570
+#FLUX: --job-name=strawberry-lettuce-3088
 #FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

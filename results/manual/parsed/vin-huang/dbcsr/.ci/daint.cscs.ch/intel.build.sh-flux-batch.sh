@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-earthworm-5265
+#FLUX: --job-name=nerdy-animal-1787
 #FLUX: -c=3
 #FLUX: --exclusive
 #FLUX: --queue=cscsci

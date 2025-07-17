@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lentil-0200
+#FLUX: --job-name=bumfuzzled-platanos-2141
+#FLUX: --queue=gpu2
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

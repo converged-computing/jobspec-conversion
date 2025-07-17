@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-squidward-5123
+#FLUX: --job-name=Deep-RBM_DBM_5_lin_bin_CD1_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

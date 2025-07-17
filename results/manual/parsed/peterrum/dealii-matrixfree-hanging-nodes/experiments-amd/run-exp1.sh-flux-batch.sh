@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-earthworm-9168
+#FLUX: --job-name=LIKWID
 #FLUX: --queue=test
 #FLUX: -t=1800
 #FLUX: --urgency=16

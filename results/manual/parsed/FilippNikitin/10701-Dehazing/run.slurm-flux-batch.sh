@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-latke-5729
+#FLUX: --job-name=ml_project
 #FLUX: --queue=dept_gpu
 #FLUX: --urgency=16
 

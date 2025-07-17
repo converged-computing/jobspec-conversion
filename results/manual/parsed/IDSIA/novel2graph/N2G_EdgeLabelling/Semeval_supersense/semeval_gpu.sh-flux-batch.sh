@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-knife-4265
+#FLUX: --job-name=gpu_test
 #FLUX: --queue=debug-gpu
 #FLUX: -t=14400
 #FLUX: --urgency=16

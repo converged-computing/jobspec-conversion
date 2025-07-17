@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=jbaik
 #FLUX: -N=2
+#FLUX: --queue=debug
 #FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'

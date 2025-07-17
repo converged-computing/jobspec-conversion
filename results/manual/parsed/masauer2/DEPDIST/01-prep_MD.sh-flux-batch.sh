@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=red-salad-5424
+#FLUX: --job-name=rainbow-citrus-4374
+#FLUX: -c=16
+#FLUX: --queue=general
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 gmx=gmx_plumed

@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-muffin-8686
+#FLUX: --job-name=fat-truffle-2879
+#FLUX: -N=16
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=regular
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export SLURM_CPU_BIND='cores'

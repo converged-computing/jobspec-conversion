@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-buttface-6059
+#FLUX: --job-name=Test_lammps_CPU
+#FLUX: -n=4
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module purge

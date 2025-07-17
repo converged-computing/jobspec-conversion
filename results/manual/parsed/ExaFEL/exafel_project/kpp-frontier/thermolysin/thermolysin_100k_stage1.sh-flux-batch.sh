@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-noodle-5476
+#FLUX: --job-name=stage1
+#FLUX: -N=100
+#FLUX: --queue=batch
+#FLUX: -t=2400
 #FLUX: --urgency=16
 
 export NTASKS='$((SLURM_JOB_NUM_NODES*56))'

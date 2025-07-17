@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-milkshake-0305
+#FLUX: --job-name=NV_020823_Denoising
+#FLUX: -n=10
+#FLUX: --queue=patralab
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

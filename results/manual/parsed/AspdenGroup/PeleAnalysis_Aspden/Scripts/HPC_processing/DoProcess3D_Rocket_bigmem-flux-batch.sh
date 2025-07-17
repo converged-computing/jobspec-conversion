@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-diablo-1816
+#FLUX: --job-name=jobName
 #FLUX: -n=64
 #FLUX: --queue=bigmem
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export NCELLSPERLF='16'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-lettuce-3351
+#FLUX: --job-name=plot_hist_grid
+#FLUX: --queue=amd
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 cd /gpfs/terra/export/samba/gis/holgerv/river_quality/scripts/grqa_processing

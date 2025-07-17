@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-banana-7406
+#FLUX: --job-name=evasive-arm-5070
 #FLUX: -n=4
 #FLUX: --queue=isi
 #FLUX: -t=360000

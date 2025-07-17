@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Sfa_denovoSSL_100k_mpileup
 #FLUX: -c=40
+#FLUX: --queue=main
 #FLUX: --urgency=16
 
 export SINGULARITY_BIND='/home/e1garcia'

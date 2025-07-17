@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-fudge-0855
+#FLUX: --job-name=peachy-lentil-8516
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export FASTBPE='../../fastBPE/fastBPE'

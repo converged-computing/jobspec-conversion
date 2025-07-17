@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-buttface-9184
+#FLUX: --job-name=quirky-staircase-3658
+#FLUX: -N=2
+#FLUX: --queue=a100
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export PYTHONNOUSERSITE='true'

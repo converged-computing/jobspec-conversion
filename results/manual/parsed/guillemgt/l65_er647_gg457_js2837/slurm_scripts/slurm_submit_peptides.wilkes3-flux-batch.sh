@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-nalgas-8582
+#FLUX: --job-name=SUBGRAPH
+#FLUX: --queue=ampere
 #FLUX: -t=54000
 #FLUX: --urgency=16
 

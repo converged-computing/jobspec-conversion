@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-rabbit-1060
+#FLUX: --job-name=purple-taco-4824
 #FLUX: -c=2
 #FLUX: --queue=gpu_shared
 #FLUX: -t=3600

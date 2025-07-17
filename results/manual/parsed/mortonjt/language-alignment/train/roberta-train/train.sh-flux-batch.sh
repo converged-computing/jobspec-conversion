@@ -2,6 +2,7 @@
 #FLUX: --job-name=roberta
 #FLUX: -n=40
 #FLUX: --exclusive
+#FLUX: --queue=gpu
 #FLUX: -t=720000
 #FLUX: --urgency=16
 

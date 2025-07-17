@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-chair-8482
+#FLUX: --job-name=scale
+#FLUX: -N=64
+#FLUX: --queue=pbatch
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export PETSC_DIR='/usr/workspace/mcgurn4/petsc'

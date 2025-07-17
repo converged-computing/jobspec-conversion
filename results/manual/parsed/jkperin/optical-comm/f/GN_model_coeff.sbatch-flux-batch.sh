@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=GN_coeff
 #FLUX: -c=8
+#FLUX: --queue=normal
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

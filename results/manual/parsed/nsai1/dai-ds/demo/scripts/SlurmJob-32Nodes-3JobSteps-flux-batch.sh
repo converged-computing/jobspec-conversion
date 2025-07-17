@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-house-9767
+#FLUX: --job-name=misunderstood-itch-4323
+#FLUX: -N=32
 #FLUX: --urgency=16
 
 srun /opt/ucs/demo/workloads/MILC 1

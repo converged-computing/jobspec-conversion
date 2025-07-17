@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-hope-4758
+#FLUX: --job-name=butterscotch-staircase-2964
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: --queue=aws

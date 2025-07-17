@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-chair-4457
+#FLUX: --job-name=sample
+#FLUX: --queue=normal
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load matlab

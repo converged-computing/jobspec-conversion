@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-caramel-9082
+#FLUX: --job-name=Root
 #FLUX: --queue=shortq
 #FLUX: --urgency=16
 

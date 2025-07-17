@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-blackbean-7172
+#FLUX: --job-name=boopy-cinnamonbun-5582
 #FLUX: --urgency=16
 
 export PATH='/vol/bitbucket/g21mscprj03/sslvenv/bin/:$PATH'

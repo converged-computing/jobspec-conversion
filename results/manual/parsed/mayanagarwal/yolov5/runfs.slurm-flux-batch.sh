@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-knife-9639
+#FLUX: --job-name=creamy-lemon-4581
 #FLUX: -n=8
+#FLUX: --queue=gpgpumse
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

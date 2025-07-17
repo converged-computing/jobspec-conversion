@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-banana-9331
+#FLUX: --job-name=bloated-cat-9001
 #FLUX: --queue=gpuq
 #FLUX: -t=86400
 #FLUX: --urgency=16

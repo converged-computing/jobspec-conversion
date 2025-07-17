@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-citrus-0780
+#FLUX: --job-name=GENRAY
+#FLUX: -N=2
+#FLUX: --queue=regular
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/global/homes/y/ypetrov/pgplot.intel'

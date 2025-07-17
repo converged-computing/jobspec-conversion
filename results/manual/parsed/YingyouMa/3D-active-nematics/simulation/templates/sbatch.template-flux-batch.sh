@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-truffle-1342
+#FLUX: --job-name={job_name}
+#FLUX: -N=2
+#FLUX: --queue=compute
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load cpu/0.17.3b

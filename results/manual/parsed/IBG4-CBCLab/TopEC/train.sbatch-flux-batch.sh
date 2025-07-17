@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-blackbean-9328
+#FLUX: --job-name=train
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --queue=dc-gpu

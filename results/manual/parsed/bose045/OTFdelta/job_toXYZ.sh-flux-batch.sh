@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cat-5080
+#FLUX: --job-name=NNmd
+#FLUX: --queue=npl-2024
 #FLUX: -t=300
 #FLUX: --urgency=16
 

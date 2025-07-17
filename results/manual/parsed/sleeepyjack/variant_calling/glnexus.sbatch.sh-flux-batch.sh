@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-motorcycle-6416
+#FLUX: --job-name=glnexus
 #FLUX: --exclusive
+#FLUX: --queue=nodelong
+#FLUX: -t=360000
 #FLUX: --urgency=16
 
 set -e

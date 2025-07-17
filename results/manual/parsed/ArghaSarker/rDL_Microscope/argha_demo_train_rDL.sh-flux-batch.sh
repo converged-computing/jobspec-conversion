@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blue-platanos-2426
+#FLUX: --job-name=milky-toaster-1695
 #FLUX: -N=2
+#FLUX: -c=54
+#FLUX: --queue=gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

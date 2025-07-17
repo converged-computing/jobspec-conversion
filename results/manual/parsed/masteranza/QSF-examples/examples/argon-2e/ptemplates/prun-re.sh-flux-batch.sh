@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-snack-1151
+#FLUX: --job-name=Ar2e-re-COMPRESSED
+#FLUX: -N=4
+#FLUX: --queue=plgrid
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-hippo-6048
+#FLUX: --job-name=101-merge
+#FLUX: -c=32
+#FLUX: --queue=memory
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 if [ "$#" -ne 1 ]; then

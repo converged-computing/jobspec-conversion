@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-diablo-3688
+#FLUX: --job-name=carnivorous-platanos-1561
+#FLUX: -n=32
+#FLUX: --queue=vera
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 source $HOME/loadenv_gpu.sh

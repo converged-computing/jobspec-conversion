@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-general-9654
+#FLUX: --job-name=prometeo
 #FLUX: --urgency=16
 
 if [[ "$QUEUE" == "short" ]]; then

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-puppy-8891
+#FLUX: --job-name=hairy-house-9168
 #FLUX: -N=2
 #FLUX: --queue=epyc-64
 #FLUX: -t=3600

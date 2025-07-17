@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-chair-4744
+#FLUX: --job-name=LIKWID
 #FLUX: -N=4
 #FLUX: --queue=micro
 #FLUX: -t=3600

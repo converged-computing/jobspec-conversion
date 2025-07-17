@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pancake-6853
+#FLUX: --job-name=evasive-kerfuffle-7242
 #FLUX: -N=2
 #FLUX: --exclusive
+#FLUX: --queue=solarlab
 #FLUX: --urgency=16
 
 module purge > /dev/null 2>&1

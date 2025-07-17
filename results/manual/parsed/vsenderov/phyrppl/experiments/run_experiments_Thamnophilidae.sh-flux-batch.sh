@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-nalgas-5764
+#FLUX: --job-name=Thamnophilidae
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export OMP_STACKSIZE=' 32G" '

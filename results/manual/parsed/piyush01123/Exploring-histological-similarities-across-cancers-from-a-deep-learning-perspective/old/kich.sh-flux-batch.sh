@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pedo-2329
+#FLUX: --job-name=moolicious-destiny-0342
+#FLUX: -n=20
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

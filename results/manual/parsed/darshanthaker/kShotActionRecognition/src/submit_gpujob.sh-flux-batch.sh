@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-train-4664
+#FLUX: --job-name=default
+#FLUX: --queue=gpu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load cuda/8.0 cudnn/5.1

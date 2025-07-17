@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-cat-8502
+#FLUX: --job-name=dpsc
+#FLUX: --queue=small
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 source /scratch1/06081/wlruys/miniconda3/etc/profile.d/conda.sh

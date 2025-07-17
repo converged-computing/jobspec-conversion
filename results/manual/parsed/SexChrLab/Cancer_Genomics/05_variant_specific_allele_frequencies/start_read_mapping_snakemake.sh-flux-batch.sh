@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-parrot-3197
+#FLUX: --job-name=outstanding-fudge-9043
+#FLUX: --queue=public
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source activate cancergenomics

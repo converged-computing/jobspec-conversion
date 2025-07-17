@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cherry-7470
+#FLUX: --job-name=expensive-pedo-9893
+#FLUX: --queue=shared
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load Anaconda

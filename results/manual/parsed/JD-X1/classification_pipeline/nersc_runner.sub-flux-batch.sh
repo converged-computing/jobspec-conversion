@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-noodle-1660
+#FLUX: --job-name=ARTMS
+#FLUX: --queue=regular
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module load python

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cat-4787
+#FLUX: --job-name=frigid-cat-7834
 #FLUX: -N=4
 #FLUX: --queue=debug
 #FLUX: -t=1800

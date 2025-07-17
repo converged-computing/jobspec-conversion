@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-puppy-8508
+#FLUX: --job-name=nerdy-poodle-2311
 #FLUX: -N=10
+#FLUX: --queue=compute
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/usr/lib64:/home/mhill2/burn-in/apps/cuda/11.0.2/lib64:/home/mhill2/burn-in/apps/hpcx-v2.7.4-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/nccl_rdma_sharp_plugin/lib:/home/mhill2/burn-in/apps/hpcx-v2.7.4-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hmc/lib:/home/mhill2/burn-in/apps/hpcx-v2.7.4-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ucx/lib/ucx:/home/mhill2/burn-in/apps/hpcx-v2.7.4-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ucx/lib:/home/mhill2/burn-in/apps/hpcx-v2.7.4-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/sharp/lib:/home/mhill2/burn-in/apps/hpcx-v2.7.4-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/hcoll/lib:/home/mhill2/burn-in/apps/hpcx-v2.7.4-gcc-MLNX_OFED_LINUX-5.1-0.6.6.0-redhat7.7-x86_64/ompi/lib:/opt/slurm/lib64:'

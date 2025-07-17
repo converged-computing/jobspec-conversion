@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cherry-7272
+#FLUX: --job-name=test_detection
+#FLUX: --queue=work
+#FLUX: -t=60000
 #FLUX: --urgency=16
 
 module load matlab

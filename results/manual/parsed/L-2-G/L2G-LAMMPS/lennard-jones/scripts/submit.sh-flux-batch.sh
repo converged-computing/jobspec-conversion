@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lemon-6142
+#FLUX: --job-name=learningToGrow
+#FLUX: -n=40
+#FLUX: -c=2
 #FLUX: --exclusive
+#FLUX: --queue=regular
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export LAMMPS_DIR='$HOME'

@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-lemon-0830
+#FLUX: --job-name=EQ_TEMPLATE
+#FLUX: -N=3
+#FLUX: -n=96
 #FLUX: --queue=cmain
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module purge

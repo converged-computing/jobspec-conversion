@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-cherry-6441
+#FLUX: --job-name=Deep-DAE_MLP_5_lin_real_DAE_relu
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

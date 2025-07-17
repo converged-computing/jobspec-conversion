@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-milkshake-8768
+#FLUX: --job-name=shadeexp
 #FLUX: -n=30
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'

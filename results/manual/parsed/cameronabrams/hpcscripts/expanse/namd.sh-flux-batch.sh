@@ -2,6 +2,7 @@
 #FLUX: --job-name=namd
 #FLUX: -N=2
 #FLUX: --queue=compute
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='${NCPU}'

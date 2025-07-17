@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cattywampus-1216
+#FLUX: --job-name=EBM
 #FLUX: --urgency=16
 
 spack load -r r@3.5.0

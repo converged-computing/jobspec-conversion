@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-toaster-1019
+#FLUX: --job-name=1_frames
+#FLUX: -N=2
 #FLUX: -c=16
+#FLUX: --queue=v100_normal_q
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export MASTER_PORT='12986'

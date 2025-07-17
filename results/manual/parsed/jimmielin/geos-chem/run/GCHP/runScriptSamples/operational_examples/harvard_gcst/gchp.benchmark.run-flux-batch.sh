@@ -1,6 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lemur-5099
+#FLUX: --job-name=delicious-punk-3699
+#FLUX: -N=2
+#FLUX: -n=96
 #FLUX: --exclusive
+#FLUX: --queue=huce_cascade
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 log="gchp.log"

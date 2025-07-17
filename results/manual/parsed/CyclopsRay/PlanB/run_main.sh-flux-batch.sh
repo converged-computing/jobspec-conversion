@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-frito-3726
+#FLUX: --job-name=run_main
+#FLUX: --queue=gpu
 #FLUX: -t=115200
 #FLUX: --urgency=16
 

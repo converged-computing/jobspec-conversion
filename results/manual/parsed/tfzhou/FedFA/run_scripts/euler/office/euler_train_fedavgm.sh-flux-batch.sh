@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-hobbit-4737
+#FLUX: --job-name=psycho-bicycle-8355
+#FLUX: -n=4
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

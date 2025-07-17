@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-milkshake-3802
+#FLUX: --job-name=wobbly-noodle-7801
 #FLUX: --urgency=16
 
 scriptname=$(mktemp)

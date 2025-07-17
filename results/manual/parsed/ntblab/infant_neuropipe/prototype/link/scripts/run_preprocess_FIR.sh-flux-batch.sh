@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-destiny-3994
+#FLUX: --job-name=expressive-poodle-9053
+#FLUX: --queue=short
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 source globals.sh

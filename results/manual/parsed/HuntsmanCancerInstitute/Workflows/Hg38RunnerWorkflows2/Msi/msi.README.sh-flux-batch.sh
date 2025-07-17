@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-poodle-2412
+#FLUX: --job-name=buttery-chip-3275
 #FLUX: --queue=hci-rw
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 set -e

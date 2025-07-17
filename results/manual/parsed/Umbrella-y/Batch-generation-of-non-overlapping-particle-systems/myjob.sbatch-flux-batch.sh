@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-nalgas-2634
+#FLUX: --job-name=bloated-soup-8049
 #FLUX: -N=4
 #FLUX: -c=16
 #FLUX: --queue=hpib

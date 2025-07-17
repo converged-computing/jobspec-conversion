@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=task_3
 #FLUX: -c=24
-#FLUX: --queue=shortgpgpu
+#FLUX: --queue=gpgpumse
 #FLUX: -t=300
 #FLUX: --urgency=16
 

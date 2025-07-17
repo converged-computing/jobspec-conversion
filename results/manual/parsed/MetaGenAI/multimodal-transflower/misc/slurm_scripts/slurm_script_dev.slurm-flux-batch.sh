@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lizard-0853
+#FLUX: --job-name=rainbow-plant-6911
 #FLUX: -c=4
 #FLUX: --exclusive
 #FLUX: -t=600

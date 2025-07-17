@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-ricecake-5887
+#FLUX: --job-name=ADRP+MMPBSA
 #FLUX: -N=25
 #FLUX: --queue=general
 #FLUX: -t=72000

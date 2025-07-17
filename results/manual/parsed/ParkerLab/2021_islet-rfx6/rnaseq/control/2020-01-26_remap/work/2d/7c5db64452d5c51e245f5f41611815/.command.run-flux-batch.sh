@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-leg-3383
+#FLUX: --job-name=nf-bam_to_fastq_(53)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

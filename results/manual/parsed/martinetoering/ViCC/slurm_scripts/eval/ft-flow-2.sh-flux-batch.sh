@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=ft-flow
 #FLUX: -c=4
+#FLUX: --queue=gpu_titanrtx
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

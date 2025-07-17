@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-banana-9626
+#FLUX: --job-name=caffdimer_eq1
+#FLUX: -n=20
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 ml purge

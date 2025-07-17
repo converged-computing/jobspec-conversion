@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-fork-6549
+#FLUX: --job-name=DARTS_grid_eval
+#FLUX: --queue=1080Ti
 #FLUX: --urgency=16
 
 source activate pytorch-0.3.1-cu8-py36

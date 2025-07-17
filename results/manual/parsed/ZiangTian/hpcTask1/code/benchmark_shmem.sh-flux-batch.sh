@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-hippo-2095
+#FLUX: --job-name=fat-chip-5436
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$(grep -c ^processor /proc/cpuinfo)'

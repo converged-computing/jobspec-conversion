@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-earthworm-2120
+#FLUX: --job-name=red-platanos-0644
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

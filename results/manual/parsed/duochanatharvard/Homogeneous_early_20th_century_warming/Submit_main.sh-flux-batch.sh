@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-onion-2568
+#FLUX: --job-name=cor_glb
+#FLUX: --queue=${partition_main}
+#FLUX: -t=90000
 #FLUX: --urgency=16
 
 export partition_main='huce_intel"                # TODO'

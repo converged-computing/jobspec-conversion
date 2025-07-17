@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-hippo-4175
+#FLUX: --job-name=dinosaur-cinnamonbun-0297
 #FLUX: -c=8
 #FLUX: --urgency=16
 

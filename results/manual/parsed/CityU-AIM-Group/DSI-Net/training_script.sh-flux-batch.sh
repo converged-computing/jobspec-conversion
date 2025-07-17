@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-malarkey-5349
+#FLUX: --job-name=training
+#FLUX: -c=2
 #FLUX: --queue=gpu_1d2g
 #FLUX: --urgency=16
 

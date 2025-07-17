@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-onion-4470
+#FLUX: --job-name=milky-cupcake-0201
+#FLUX: -c=6
+#FLUX: --queue=alpha
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

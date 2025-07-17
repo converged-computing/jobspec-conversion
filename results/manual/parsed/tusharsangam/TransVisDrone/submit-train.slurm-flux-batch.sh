@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=TrainYolo3D
+#FLUX: -c=10
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 echo "Slurm nodes: $SLURM_JOB_NODELIST"

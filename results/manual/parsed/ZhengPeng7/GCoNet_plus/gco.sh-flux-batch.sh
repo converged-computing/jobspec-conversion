@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-earthworm-6472
+#FLUX: --job-name=grated-underoos-3814
+#FLUX: -n=10
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

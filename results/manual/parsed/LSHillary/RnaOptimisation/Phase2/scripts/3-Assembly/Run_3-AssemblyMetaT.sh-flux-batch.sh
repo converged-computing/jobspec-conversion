@@ -2,6 +2,7 @@
 #FLUX: --job-name=RnaOpt-preprocessing
 #FLUX: -c=2
 #FLUX: --queue=high2
+#FLUX: -t=468000
 #FLUX: --urgency=16
 
 source ~/.bashrc

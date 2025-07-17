@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-egg-3722
+#FLUX: --job-name=prostate_calc
+#FLUX: -N=4
+#FLUX: --queue=gpu05,gpu
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

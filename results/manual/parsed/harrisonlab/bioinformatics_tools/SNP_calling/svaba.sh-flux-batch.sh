@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-spoon-7222
+#FLUX: --job-name=svaba
 #FLUX: -c=10
 #FLUX: --queue=long
 #FLUX: --urgency=16

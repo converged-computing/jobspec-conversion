@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-latke-0597
+#FLUX: --job-name=misunderstood-leg-8578
+#FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

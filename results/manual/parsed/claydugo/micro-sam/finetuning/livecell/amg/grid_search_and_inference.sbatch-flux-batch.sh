@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-egg-9875
+#FLUX: --job-name=lovely-lemon-4912
+#FLUX: -c=8
+#FLUX: --queue=grete:shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 source activate sam

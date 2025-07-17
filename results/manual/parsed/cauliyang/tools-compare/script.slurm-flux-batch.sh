@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=tools
+#FLUX: --queue=amd
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

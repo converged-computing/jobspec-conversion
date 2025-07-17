@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-truffle-8279
+#FLUX: --job-name=vQTL
 #FLUX: --urgency=16
 
 echo "Activating environment..."

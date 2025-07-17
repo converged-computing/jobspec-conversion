@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cat-1767
+#FLUX: --job-name=nuosc
 #FLUX: -c=4
+#FLUX: --queue=gtest
 #FLUX: --urgency=16
 
 module purge

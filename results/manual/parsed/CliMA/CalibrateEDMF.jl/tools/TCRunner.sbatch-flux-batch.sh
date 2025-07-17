@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-salad-9050
+#FLUX: --job-name=TCRunner
 #FLUX: -n=16
 #FLUX: -t=21600
 #FLUX: --urgency=16

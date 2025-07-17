@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-salad-8083
+#FLUX: --job-name=depth_dataset
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

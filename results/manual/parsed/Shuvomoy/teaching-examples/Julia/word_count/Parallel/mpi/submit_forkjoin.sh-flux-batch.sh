@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cherry-7926
+#FLUX: --job-name=purple-eagle-2710
+#FLUX: -n=4
 #FLUX: --urgency=16
 
 source /etc/profile

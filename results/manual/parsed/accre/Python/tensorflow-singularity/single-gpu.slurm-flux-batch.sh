@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-peanut-butter-4992
+#FLUX: --job-name=tart-ricecake-4739
 #FLUX: --queue=pascal
 #FLUX: -t=43200
 #FLUX: --urgency=16

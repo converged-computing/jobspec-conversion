@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-itch-6087
+#FLUX: --job-name=pusheena-peas-5396
+#FLUX: -c=8
+#FLUX: --queue=medium
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 GRIDSS_JAR_PATH=/usr/local/bin/gridss-2.13.2.jar

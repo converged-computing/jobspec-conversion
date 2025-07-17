@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-hippo-9541
+#FLUX: --job-name=swampy-signal-9963
+#FLUX: --queue=standard
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 module purge

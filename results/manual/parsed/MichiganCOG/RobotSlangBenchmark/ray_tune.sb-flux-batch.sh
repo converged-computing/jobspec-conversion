@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-egg-9920
+#FLUX: --job-name=stinky-blackbean-8297
 #FLUX: -c=72
 #FLUX: --queue=lgns28
 #FLUX: -t=604800

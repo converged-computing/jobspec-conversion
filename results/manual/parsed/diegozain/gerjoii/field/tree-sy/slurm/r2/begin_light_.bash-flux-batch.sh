@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-animal-3166
-#FLUX: -c=20
+#FLUX: --job-name=quirky-knife-5898
+#FLUX: -c=28
 #FLUX: --exclusive
+#FLUX: -t=43140
 #FLUX: --urgency=16
 
 ulimit -v unlimited

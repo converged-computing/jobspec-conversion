@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-hope-1014
+#FLUX: --job-name=1203PRADERG
+#FLUX: -n=16
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 module add MATLAB/2023a.Update4

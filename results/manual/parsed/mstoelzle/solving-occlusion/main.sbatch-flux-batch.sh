@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-chair-3830
+#FLUX: --job-name=lovable-fork-8720
 #FLUX: --queue=cor,general
 #FLUX: -t=604800
 #FLUX: --urgency=16

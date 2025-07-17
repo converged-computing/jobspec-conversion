@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-kitty-0441
+#FLUX: --job-name=tools
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 ulimit -c 0

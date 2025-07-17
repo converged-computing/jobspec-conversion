@@ -1,6 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-egg-6346
+#FLUX: --job-name=dinosaur-pancake-9143
+#FLUX: -n=30
 #FLUX: --exclusive
+#FLUX: --queue=huce_intel
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 multirunlog="multirun.log"

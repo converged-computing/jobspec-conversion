@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-gato-9879
+#FLUX: --job-name=BERT-RBP-snakemake
+#FLUX: -c=4
+#FLUX: --queue=gpu_p
+#FLUX: -t=57600
 #FLUX: --urgency=15
 
 sbatch --wait << EOF

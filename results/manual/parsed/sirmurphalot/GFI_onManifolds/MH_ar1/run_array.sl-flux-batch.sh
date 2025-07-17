@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=AR_sim
+#FLUX: --queue=general
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module add matlab

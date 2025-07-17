@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bike-6439
+#FLUX: --job-name=atac2BigWig
+#FLUX: --queue=kellis
 #FLUX: --urgency=16
 
 export sample='$(< "samples_celltypes.tsv" awk -v TASK=${TASK} 'NR == TASK { print $1 }')'

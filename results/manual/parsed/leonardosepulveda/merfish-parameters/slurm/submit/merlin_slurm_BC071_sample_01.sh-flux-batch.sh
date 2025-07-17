@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-pedo-5356
+#FLUX: --job-name=chunky-malarkey-2936
+#FLUX: --queue=zhuang,shared
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 date +'Starting at %R.'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lemon-7782
+#FLUX: --job-name=manual_annotate
+#FLUX: --queue=instructional
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module purge

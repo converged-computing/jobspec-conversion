@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-noodle-4567
+#FLUX: --job-name=pusheena-bits-2537
+#FLUX: --queue=preemptable_q
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export qcSoft='/projects/nmayhall_lab/qchem5'

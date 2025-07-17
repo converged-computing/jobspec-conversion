@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-itch-0719
+#FLUX: --job-name=wobbly-truffle-9401
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=n1s8-v100-1

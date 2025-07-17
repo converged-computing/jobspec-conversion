@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-taco-8463
+#FLUX: --job-name=topreco_v2
+#FLUX: -c=10
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 which python

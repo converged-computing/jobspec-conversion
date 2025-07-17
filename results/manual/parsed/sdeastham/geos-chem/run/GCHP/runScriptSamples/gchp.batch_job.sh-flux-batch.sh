@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-taco-4108
+#FLUX: --job-name=bloated-cupcake-3949
+#FLUX: -N=2
+#FLUX: -n=60
+#FLUX: --queue=huce_intel,seas_compute,shared
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

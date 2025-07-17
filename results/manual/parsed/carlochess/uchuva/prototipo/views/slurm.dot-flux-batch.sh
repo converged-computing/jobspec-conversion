@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name={{=
+#FLUX: --queue=debug
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 {{? it.config.times && it.config.times > 1 }}#SBATCH --array 1-{{= it.config.times}}{{?}}

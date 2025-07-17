@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-punk-6163
+#FLUX: --job-name=gassy-blackbean-5184
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/HScheiber/ThesisCodeBase/Machine_Learning/templates/PBS_template.subm

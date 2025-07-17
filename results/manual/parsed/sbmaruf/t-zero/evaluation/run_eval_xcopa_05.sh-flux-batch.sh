@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-signal-4807
+#FLUX: --job-name=fat-eagle-7346
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='5'

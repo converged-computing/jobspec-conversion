@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-omelette-8841
+#FLUX: --job-name=diag_fanny
+#FLUX: -N=2
+#FLUX: -n=256
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 256'

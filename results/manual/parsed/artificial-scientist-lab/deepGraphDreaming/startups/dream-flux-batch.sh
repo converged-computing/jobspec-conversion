@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-house-6899
+#FLUX: --job-name=dream_output
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

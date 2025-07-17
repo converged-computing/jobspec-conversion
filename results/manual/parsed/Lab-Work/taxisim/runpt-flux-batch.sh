@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-earthworm-5630
+#FLUX: --job-name=pt_test
+#FLUX: -n=32
+#FLUX: --queue=normal
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export PATH='$PATH:/opt/apps/intel14/mvapich2_2_0/python/2.7.6/lib/python2.7/site-packages/mpi4py/bin'

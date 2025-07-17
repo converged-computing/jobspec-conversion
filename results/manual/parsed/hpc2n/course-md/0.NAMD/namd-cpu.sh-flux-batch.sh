@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-destiny-5083
+#FLUX: --job-name=fugly-leader-5498
+#FLUX: -n=28
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 ml purge > /dev/null 2>&1

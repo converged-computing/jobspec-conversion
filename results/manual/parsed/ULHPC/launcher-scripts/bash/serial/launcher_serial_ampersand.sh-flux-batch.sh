@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pastry-2951
+#FLUX: --job-name=SerialAmpersand
+#FLUX: -n=28
+#FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

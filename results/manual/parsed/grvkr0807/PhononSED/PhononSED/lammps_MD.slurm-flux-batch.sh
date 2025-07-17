@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-itch-1339
+#FLUX: --job-name=hello-kitty-8933
+#FLUX: -n=10
+#FLUX: -t=2419200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

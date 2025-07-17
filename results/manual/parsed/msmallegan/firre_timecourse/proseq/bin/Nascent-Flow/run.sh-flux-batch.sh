@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=firre_proseq
+#FLUX: --queue=long
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

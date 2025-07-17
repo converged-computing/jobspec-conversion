@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=testONEAPI
+#FLUX: -N=2
 #FLUX: --queue=normal
 #FLUX: --urgency=16
 

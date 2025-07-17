@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-banana-7654
+#FLUX: --job-name=delicious-snack-9297
+#FLUX: -N=5
+#FLUX: --queue=sgpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load intel

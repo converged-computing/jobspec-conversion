@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-caramel-7993
+#FLUX: --job-name=gloopy-motorcycle-7879
+#FLUX: -n=4
+#FLUX: --queue=standard
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module purge

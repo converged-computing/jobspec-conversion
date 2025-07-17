@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cattywampus-9922
+#FLUX: --job-name=Deep-DAE_MLP_6_inc_real_DAE_sig
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

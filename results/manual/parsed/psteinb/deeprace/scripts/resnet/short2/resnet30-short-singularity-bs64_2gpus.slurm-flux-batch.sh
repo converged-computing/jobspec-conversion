@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=arid-kerfuffle-5663
+#FLUX: --job-name=misunderstood-cinnamonbun-7303
+#FLUX: --queue=gpu2
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

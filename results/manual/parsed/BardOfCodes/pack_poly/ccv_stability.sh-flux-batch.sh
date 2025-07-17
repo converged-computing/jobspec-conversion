@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-bits-7861
+#FLUX: --job-name=polyomino
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd /users/amaesumi/pack_poly

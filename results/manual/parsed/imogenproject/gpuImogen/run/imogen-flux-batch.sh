@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-animal-8867
+#FLUX: --job-name=delicious-fudge-6503
 #FLUX: --urgency=16
 
 resDir="${HOME}/Results"

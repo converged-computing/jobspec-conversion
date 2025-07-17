@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-knife-7462
+#FLUX: --job-name=bumfuzzled-animal-2392
 #FLUX: --queue=amd-longq
 #FLUX: --urgency=16
 

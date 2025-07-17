@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-squidward-2791
+#FLUX: --job-name=lovely-taco-3310
+#FLUX: --queue=athey
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 module load python/3.6.1

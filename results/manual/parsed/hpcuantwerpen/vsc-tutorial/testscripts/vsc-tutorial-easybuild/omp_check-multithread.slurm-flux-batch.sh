@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-chair-5730
+#FLUX: --job-name=omp_check-multithread
+#FLUX: -c=4
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export OMP_PLACES='threads'

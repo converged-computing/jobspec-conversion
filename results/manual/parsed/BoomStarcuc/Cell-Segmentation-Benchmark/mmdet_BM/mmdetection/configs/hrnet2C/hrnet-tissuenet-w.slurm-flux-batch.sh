@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-snack-2591
+#FLUX: --job-name=hrnet-tissuenet-w-2C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

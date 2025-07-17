@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-puppy-4794
+#FLUX: --job-name=snakemake
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

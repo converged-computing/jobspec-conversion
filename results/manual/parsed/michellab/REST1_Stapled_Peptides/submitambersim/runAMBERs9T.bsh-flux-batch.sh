@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=checksoluteT
+#FLUX: --queue=GTX
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

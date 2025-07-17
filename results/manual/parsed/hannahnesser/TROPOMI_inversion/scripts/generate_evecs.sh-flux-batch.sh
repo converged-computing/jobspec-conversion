@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-snack-9901
+#FLUX: --job-name=save_evecs
+#FLUX: -c=12
+#FLUX: --queue=huce_cascade
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 echo "Activating python environment"

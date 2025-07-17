@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-peanut-4382
+#FLUX: --job-name=swampy-lentil-4611
+#FLUX: --queue=gpu20
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export HF_DATASETS_CACHE='/hdd_1/zke4/dataset_cache'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-milkshake-6220
+#FLUX: --job-name=resnet50.amp.v100
+#FLUX: -n=8
+#FLUX: --queue=xgpu_v100
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 set -eu

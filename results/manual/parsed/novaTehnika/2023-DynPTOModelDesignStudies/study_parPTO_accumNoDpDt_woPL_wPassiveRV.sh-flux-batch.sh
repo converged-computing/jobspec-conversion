@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-mango-6384
+#FLUX: --job-name=goodbye-lentil-7666
+#FLUX: --queue=msismall
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 cd ~/2023-DynPTOModelDesignStudies

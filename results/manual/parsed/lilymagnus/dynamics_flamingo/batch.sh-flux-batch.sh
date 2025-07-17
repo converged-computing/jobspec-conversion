@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-knife-2812
+#FLUX: --job-name=conspicuous-milkshake-8828
+#FLUX: --queue=cosma8
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 module purge

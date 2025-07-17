@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=arid-animal-2336
+#FLUX: --job-name=ornery-noodle-5727
+#FLUX: -n=5
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 module load nvidia/cuda/10.0

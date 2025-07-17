@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-sundae-3216
+#FLUX: --job-name=pre_scrach
+#FLUX: -N=4
 #FLUX: -c=8
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 export MIOPEN_USER_DB_PATH='/tmp/tensorflow-miopen-${USER}-2.8'

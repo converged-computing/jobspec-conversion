@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-hippo-3041
+#FLUX: --job-name=hpl
 #FLUX: --exclusive
 #FLUX: --queue=MI250
 #FLUX: -t=600

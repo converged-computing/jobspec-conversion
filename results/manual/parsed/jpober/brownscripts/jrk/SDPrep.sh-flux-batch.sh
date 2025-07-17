@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-latke-1374
+#FLUX: --job-name=FHDPrep
+#FLUX: -n=2
+#FLUX: --queue=jpober-test
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 source activate PAPER

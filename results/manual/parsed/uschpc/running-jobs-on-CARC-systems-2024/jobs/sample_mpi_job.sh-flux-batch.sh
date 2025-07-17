@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-onion-6155
+#FLUX: --job-name=chocolate-citrus-1563
 #FLUX: -N=3
 #FLUX: -n=9
 #FLUX: --queue=main

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lemon-8377
+#FLUX: --job-name=S2
+#FLUX: --queue=shared
 #FLUX: -t=8640
 #FLUX: --urgency=16
 

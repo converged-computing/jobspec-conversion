@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-cupcake-0988
+#FLUX: --job-name=profile_cam5
 #FLUX: --exclusive
+#FLUX: --queue=regular
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 rankspernode=1

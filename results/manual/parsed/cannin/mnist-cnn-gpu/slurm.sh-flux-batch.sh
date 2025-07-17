@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cinnamonbun-4582
+#FLUX: --job-name=adorable-nunchucks-1716
+#FLUX: -c=4
+#FLUX: --queue=gpu
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 module load gcc/6.2.0

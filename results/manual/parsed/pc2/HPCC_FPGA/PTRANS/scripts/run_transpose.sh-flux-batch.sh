@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-nunchucks-8280
+#FLUX: --job-name=rainbow-cinnamonbun-6395
+#FLUX: -N=5
+#FLUX: -n=9
+#FLUX: --queue=fpga
 #FLUX: --urgency=16
 
 module load intelFPGA_pro/20.3.0

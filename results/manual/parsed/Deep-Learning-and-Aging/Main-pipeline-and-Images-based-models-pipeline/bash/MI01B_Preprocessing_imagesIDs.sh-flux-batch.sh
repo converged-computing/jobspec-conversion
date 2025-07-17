@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-knife-6355
+#FLUX: --job-name=fugly-malarkey-0567
+#FLUX: --queue=priority
+#FLUX: -t=2700
 #FLUX: --urgency=16
 
 set -e

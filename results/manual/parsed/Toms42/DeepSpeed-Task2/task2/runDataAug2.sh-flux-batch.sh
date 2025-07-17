@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-omelette-0618
+#FLUX: --job-name=boopy-pot-9008
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 . /home/tscherli/.bash_profile

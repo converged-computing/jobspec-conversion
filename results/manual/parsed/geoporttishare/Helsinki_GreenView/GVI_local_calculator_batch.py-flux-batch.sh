@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-salad-2126
+#FLUX: --job-name=GVI_calculation
+#FLUX: --queue=serial
+#FLUX: -t=86340
 #FLUX: --urgency=16
 
 module purge

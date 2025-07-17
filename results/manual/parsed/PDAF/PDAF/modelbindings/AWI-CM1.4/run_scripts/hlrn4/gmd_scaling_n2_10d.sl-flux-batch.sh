@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-pot-0302
+#FLUX: --job-name=delicious-diablo-8937
 #FLUX: -N=6
 #FLUX: -n=576
 #FLUX: --queue=standard96

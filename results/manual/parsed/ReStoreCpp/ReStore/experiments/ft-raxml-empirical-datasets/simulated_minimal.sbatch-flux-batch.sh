@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-plant-2036
+#FLUX: --job-name=scruptious-cherry-2761
 #FLUX: -N=16
+#FLUX: --queue=test
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export PMIX_MCA_gds='hash'

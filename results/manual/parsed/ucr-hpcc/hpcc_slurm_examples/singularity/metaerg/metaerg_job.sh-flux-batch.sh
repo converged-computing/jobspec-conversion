@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=Metaerg_Sing
 #FLUX: -c=8
+#FLUX: --queue=intel,batch
 #FLUX: -t=87300
 #FLUX: --urgency=16
 

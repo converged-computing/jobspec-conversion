@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-poodle-3063
+#FLUX: --job-name=evasive-salad-9500
 #FLUX: --urgency=16
 
 module load lammps/2020/intel

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-milkshake-5547
+#FLUX: --job-name=crusty-platanos-0650
+#FLUX: -n=4
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 MEMORY_PER_TASK=$(( $SLURM_CPUS_PER_TASK*$SLURM_MEM_PER_CPU ))

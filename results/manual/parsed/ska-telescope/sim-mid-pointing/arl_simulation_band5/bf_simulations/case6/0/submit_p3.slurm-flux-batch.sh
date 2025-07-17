@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lettuce-4928
+#FLUX: --job-name=CASE6_0
 #FLUX: -N=16
 #FLUX: -n=33
+#FLUX: --queue=compute
 #FLUX: -t=86399
 #FLUX: --urgency=16
 

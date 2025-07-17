@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leopard-2947
+#FLUX: --job-name=gloopy-spoon-9873
 #FLUX: --urgency=16
 
 DT=$(date '+%d-%m_%H-%M')

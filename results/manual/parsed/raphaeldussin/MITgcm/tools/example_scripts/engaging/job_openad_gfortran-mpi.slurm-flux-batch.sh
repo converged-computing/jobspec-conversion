@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-despacito-3942
+#FLUX: --job-name=troadmpi
+#FLUX: -N=2
+#FLUX: -n=2
+#FLUX: --queue=sched_mit_darwin
 #FLUX: --urgency=16
 
 export LC_ALL='en_US.iso885915'

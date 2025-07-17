@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-lizard-6484
+#FLUX: --job-name=vQTL
+#FLUX: -n=4
 #FLUX: --urgency=16
 
 arg1=$SLURM_ARRAY_TASK_ID

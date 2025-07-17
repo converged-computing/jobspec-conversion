@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-dog-2080
+#FLUX: --job-name=goodbye-ricecake-9794
 #FLUX: -N=4
 #FLUX: -n=16
 #FLUX: --queue=develbooster

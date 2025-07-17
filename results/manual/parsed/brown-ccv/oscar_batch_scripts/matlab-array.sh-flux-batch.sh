@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-butter-0376
+#FLUX: --job-name=arrayjob
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 echo "Running job array number: "$SLURM_ARRAY_TASK_ID

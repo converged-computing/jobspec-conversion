@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-diablo-5445
+#FLUX: --job-name=blue-caramel-4839
 #FLUX: -c=3
 #FLUX: --queue=gpuhgx
 #FLUX: -t=129600

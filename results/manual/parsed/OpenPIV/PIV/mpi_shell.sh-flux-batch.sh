@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-salad-2618
+#FLUX: --job-name=scruptious-cherry-0952
+#FLUX: -n=128
+#FLUX: --queue=general
+#FLUX: -t=3000
 #FLUX: --urgency=16
 
 mpirun -np 128 --mca orte_base_help_aggregate 0 python PIV_MPI_cluster.py \

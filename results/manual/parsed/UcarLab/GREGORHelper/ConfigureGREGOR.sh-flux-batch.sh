@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-underoos-1525
+#FLUX: --job-name=loopy-cat-4268
 #FLUX: --urgency=16
 
 r2threshold=0.7

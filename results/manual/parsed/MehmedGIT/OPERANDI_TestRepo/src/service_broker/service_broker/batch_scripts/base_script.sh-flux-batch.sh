@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-cat-4358
+#FLUX: --job-name=phat-citrus-3083
 #FLUX: -c=2
 #FLUX: --queue=medium
 #FLUX: --urgency=16

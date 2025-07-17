@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-puppy-7725
+#FLUX: --job-name=crunchy-lemon-1890
+#FLUX: --queue=cox
+#FLUX: -t=864720
 #FLUX: --urgency=16
 
 export LIBRARY_PATH='/n/home05/haehn/nolearncox/src/hdf5-1.8.17/hdf5/lib:$LIBRARY_PATH'

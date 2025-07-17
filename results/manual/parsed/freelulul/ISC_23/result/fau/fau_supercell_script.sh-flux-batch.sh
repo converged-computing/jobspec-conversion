@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-truffle-1921
+#FLUX: --job-name=s_try
+#FLUX: -N=4
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

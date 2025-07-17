@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-hippo-4333
+#FLUX: --job-name=conspicuous-muffin-1235
+#FLUX: --queue=short
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 module load gcc/4.8.5

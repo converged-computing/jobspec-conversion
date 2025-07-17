@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-signal-3630
+#FLUX: --job-name=SLG
+#FLUX: -c=2
+#FLUX: --queue=gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

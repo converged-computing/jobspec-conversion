@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cinnamonbun-7329
+#FLUX: --job-name=rainbow-hippo-1306
 #FLUX: --queue=plgrid
 #FLUX: -t=600
 #FLUX: --urgency=16

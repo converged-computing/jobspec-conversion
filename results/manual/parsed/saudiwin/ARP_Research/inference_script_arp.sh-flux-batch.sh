@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lemur-5338
+#FLUX: --job-name=spicy-spoon-1561
 #FLUX: -c=128
 #FLUX: -t=259200
 #FLUX: --urgency=16

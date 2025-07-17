@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-leg-4018
+#FLUX: --job-name=milky-lizard-7942
+#FLUX: -n=64
+#FLUX: --queue=v100
+#FLUX: -t=144000
 #FLUX: --urgency=16
 
 nvidia-smi

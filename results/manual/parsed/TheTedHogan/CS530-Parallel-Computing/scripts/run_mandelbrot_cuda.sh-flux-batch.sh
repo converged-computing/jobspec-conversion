@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-knife-1977
+#FLUX: --job-name=hogan
+#FLUX: --queue=gpuq
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 module load gcc/9.2.0

@@ -2,6 +2,7 @@
 #FLUX: --job-name=alltoall
 #FLUX: -N=4
 #FLUX: -n=160
+#FLUX: --queue=compute
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

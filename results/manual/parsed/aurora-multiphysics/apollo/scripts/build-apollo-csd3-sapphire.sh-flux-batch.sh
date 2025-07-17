@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-earthworm-6241
+#FLUX: --job-name=grated-leader-4409
 #FLUX: -n=20
 #FLUX: --exclusive
+#FLUX: --queue=sapphire
 #FLUX: -t=5400
 #FLUX: --urgency=16
 

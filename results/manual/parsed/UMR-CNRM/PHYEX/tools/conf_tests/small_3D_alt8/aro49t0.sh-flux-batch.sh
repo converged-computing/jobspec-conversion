@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-parsnip-5507
+#FLUX: --job-name=chocolate-car-6037
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

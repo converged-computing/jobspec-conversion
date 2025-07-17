@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-chip-4175
+#FLUX: --job-name=ornery-pedo-3621
+#FLUX: -n=20
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 lam=$1

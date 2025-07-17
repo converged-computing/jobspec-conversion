@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-nunchucks-9615
+#FLUX: --job-name=DARTS_NASBENCH
+#FLUX: -c=2
+#FLUX: --queue=gpu_tesla-P100
+#FLUX: -t=950400
 #FLUX: --urgency=16
 
 echo "Workingdir: $PWD";

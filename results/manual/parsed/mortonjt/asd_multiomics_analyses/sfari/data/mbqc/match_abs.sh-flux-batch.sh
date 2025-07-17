@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lemur-6348
+#FLUX: --job-name=fugly-nunchucks-9139
+#FLUX: --queue=ccb
 #FLUX: -t=360000
 #FLUX: --urgency=16
 

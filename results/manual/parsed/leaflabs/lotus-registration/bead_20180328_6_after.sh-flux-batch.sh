@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-onion-9649
+#FLUX: --job-name=loopy-fudge-1681
+#FLUX: -n=20
+#FLUX: --queue=om_all_nodes
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export TZ='America/New_York'

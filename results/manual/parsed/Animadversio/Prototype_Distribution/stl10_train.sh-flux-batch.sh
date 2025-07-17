@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-puppy-9256
+#FLUX: --job-name=evasive-toaster-0929
+#FLUX: -c=16
+#FLUX: --queue=gpu_quad
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export unit_name='$(echo "$param_list" | head -n $SLURM_ARRAY_TASK_ID | tail -1)'

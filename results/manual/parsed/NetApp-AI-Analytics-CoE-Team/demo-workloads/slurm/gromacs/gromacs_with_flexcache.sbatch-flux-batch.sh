@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=gromacs-threadmpi
+#FLUX: -N=4
+#FLUX: -n=64
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

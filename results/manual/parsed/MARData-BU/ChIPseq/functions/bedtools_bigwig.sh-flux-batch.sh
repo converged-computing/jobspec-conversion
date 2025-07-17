@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-frito-7390
+#FLUX: --job-name=BIGWIG
 #FLUX: -c=20
+#FLUX: --queue=bigmem
 #FLUX: --urgency=16
 
 module purge

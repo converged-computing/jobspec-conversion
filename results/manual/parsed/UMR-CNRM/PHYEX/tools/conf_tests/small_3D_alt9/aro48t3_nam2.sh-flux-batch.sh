@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-knife-9985
+#FLUX: --job-name=chocolate-toaster-0882
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

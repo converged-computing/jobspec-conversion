@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-citrus-4531
+#FLUX: --job-name={batch_name}
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

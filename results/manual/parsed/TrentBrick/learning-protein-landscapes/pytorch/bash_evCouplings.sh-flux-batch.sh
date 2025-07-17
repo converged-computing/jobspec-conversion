@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-despacito-8300
+#FLUX: --job-name=tart-lemur-7385
+#FLUX: -c=4
+#FLUX: --queue=gpu
+#FLUX: -t=173519
 #FLUX: --urgency=16
 
                                            # -N 1 means all cores will be on th$

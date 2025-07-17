@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=finetune_no_tp
 #FLUX: -c=4
+#FLUX: --queue=pol
 #FLUX: --urgency=16
 
 export TORCH_EXTENSIONS_DIR='${ROOT_DIR}/torch_extendsions'

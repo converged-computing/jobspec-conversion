@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-snack-8973
+#FLUX: --job-name=carnivorous-house-4753
 #FLUX: --urgency=16
 
 function help {

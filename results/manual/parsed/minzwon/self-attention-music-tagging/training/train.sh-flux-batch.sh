@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-bike-3142
+#FLUX: --job-name=msd
+#FLUX: --queue=high
 #FLUX: --urgency=16
 
 module load Python/3.6.4-foss-2017a

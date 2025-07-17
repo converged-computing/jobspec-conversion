@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pastry-4190
+#FLUX: --job-name=bert-pretrain
+#FLUX: -N=16
+#FLUX: -n=32
+#FLUX: --queue=v100
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 PHASE=1

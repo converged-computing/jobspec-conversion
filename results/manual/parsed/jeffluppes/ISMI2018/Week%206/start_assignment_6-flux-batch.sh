@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-banana-9171
+#FLUX: --job-name=gassy-nunchucks-6571
+#FLUX: --queue=gpu
+#FLUX: -t=18000
 #FLUX: --urgency=16
 
 module load python/3.5.2

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-salad-8476
+#FLUX: --job-name=MainDT
 #FLUX: -c=9
 #FLUX: -t=360000
 #FLUX: --urgency=16

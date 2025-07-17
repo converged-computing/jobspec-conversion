@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-peanut-butter-5774
+#FLUX: --job-name=fat-peanut-butter-1718
 #FLUX: -c=6
 #FLUX: --exclusive
 #FLUX: -t=180

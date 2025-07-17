@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-parsnip-8510
+#FLUX: --job-name=uccgsd_hubbard
+#FLUX: -n=10
+#FLUX: --queue=defq
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

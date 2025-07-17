@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lizard-2543
+#FLUX: --job-name=loopy-fork-7393
+#FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000
 #FLUX: --urgency=16

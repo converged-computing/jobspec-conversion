@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-fork-1069
+#FLUX: --job-name=IKSH_atm2sch_RUN
+#FLUX: -n=4
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 set -e

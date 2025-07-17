@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=placid-soup-7613
+#FLUX: --job-name=loopy-staircase-4814
+#FLUX: -c=2
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

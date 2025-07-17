@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-kerfuffle-6665
+#FLUX: --job-name=PREP_REAL_CASE
 #FLUX: --exclusive
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export YEAR='2021'

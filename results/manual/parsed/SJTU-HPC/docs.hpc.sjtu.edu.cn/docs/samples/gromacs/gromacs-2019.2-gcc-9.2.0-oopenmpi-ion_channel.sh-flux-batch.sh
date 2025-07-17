@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-lettuce-3914
+#FLUX: --job-name=hairy-plant-8149
+#FLUX: -n=40
+#FLUX: --queue=cpu
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-general-9107
+#FLUX: --job-name=matlab
+#FLUX: --queue=janson,janson_cascade,shared
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 module load matlab/R2021a-fasrc01

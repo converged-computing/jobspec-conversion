@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lemon-4067
+#FLUX: --job-name=evasive-hobbit-6486
 #FLUX: -c=10
 #FLUX: --queue=hns,normal
 #FLUX: -t=28800

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=faux-eagle-8020
+#FLUX: --job-name=test_gpu_job
 #FLUX: --exclusive
+#FLUX: --queue=special
+#FLUX: -t=4200
 #FLUX: --urgency=16
 
 export USE_EXASCALE_API='True # "True" or "False" use granular host/device memory transfer'

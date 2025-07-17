@@ -1,6 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=grated-malarkey-7455
+#FLUX: --job-name=persnickety-chair-0390
+#FLUX: -N=500
+#FLUX: -n=32000
+#FLUX: -c=2
 #FLUX: --exclusive
+#FLUX: --queue=cont
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

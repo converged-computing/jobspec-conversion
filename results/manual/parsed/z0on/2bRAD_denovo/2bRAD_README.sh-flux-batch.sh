@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-staircase-1288
+#FLUX: --job-name=gt
+#FLUX: -n=40
+#FLUX: --queue=development
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export PKG_CONFIG_PATH='/opt/apps/intel18/gsl/2.2.1/lib/pkgconfig/'

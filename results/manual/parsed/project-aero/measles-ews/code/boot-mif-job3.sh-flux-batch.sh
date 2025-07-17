@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lentil-6690
+#FLUX: --job-name=tart-caramel-0652
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd ~/measles/code/

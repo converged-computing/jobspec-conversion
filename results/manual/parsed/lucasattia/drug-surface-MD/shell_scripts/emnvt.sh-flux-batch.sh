@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-destiny-3920
+#FLUX: --job-name=crusty-eagle-2947
+#FLUX: -n=20
 #FLUX: --urgency=16
 
 source /etc/profile

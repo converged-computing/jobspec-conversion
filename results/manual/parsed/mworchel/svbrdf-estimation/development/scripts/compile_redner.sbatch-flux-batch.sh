@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lemon-9058
+#FLUX: --job-name=RednerCompilation
 #FLUX: --queue=gpu
 #FLUX: -t=3600
 #FLUX: --urgency=16

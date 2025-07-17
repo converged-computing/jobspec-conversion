@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=raysgd_1gpu
+#FLUX: -c=40
 #FLUX: --exclusive
 #FLUX: -t=108000
 #FLUX: --urgency=16

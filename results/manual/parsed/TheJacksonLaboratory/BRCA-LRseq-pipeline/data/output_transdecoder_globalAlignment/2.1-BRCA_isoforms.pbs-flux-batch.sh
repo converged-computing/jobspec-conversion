@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-fudge-8838
+#FLUX: --job-name=transdecoder_downstream
+#FLUX: -n=32
+#FLUX: --queue=batch
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 set -u

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-peanut-butter-5497
+#FLUX: --job-name=M_julia_cpu_F16_64t_ex
+#FLUX: --queue=batch
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export JULIA_MPIEXEC='srun'

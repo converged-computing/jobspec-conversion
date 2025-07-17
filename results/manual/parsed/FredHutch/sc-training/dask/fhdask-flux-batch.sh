@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-fudge-6867
+#FLUX: --job-name=psycho-lemon-3211
 #FLUX: --urgency=16
 
 pythonmodule="Python/3.6.4-foss-2016b-fh1"

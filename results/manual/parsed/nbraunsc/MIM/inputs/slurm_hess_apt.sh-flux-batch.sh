@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-chair-4845
+#FLUX: --job-name=sticky-spoon-1805
 #FLUX: --exclusive
+#FLUX: --queue=normal_q
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 export ERROR='${OUTFILE%%.*}.error'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-eagle-6056
+#FLUX: --job-name=AAPM_134
+#FLUX: -N=4
+#FLUX: --queue=debug
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/slurmpmi/libpmi.so'

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lentil-6552
+#FLUX: --job-name=eccentric-fork-4802
+#FLUX: -n=8
+#FLUX: --queue=node
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 set -eux

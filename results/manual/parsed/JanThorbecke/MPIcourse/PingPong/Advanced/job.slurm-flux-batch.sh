@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-snack-8071
+#FLUX: --job-name=PingPing-Internode
 #FLUX: -n=40
 #FLUX: --exclusive
+#FLUX: --queue=compute
 #FLUX: -t=60
 #FLUX: --urgency=16
 

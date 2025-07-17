@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-arm-8288
+#FLUX: --job-name=expressive-snack-2817
 #FLUX: --exclusive
 #FLUX: --queue=dev
 #FLUX: -t=86400

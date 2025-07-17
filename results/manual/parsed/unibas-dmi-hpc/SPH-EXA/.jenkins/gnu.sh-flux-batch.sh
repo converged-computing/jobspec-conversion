@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-peanut-butter-0657
+#FLUX: --job-name=grated-pot-6764
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16
 

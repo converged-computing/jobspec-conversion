@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lentil-2592
+#FLUX: --job-name=mbmall
 #FLUX: -n=15
+#FLUX: --queue=skylake-himem
 #FLUX: -t=115200
 #FLUX: --urgency=16
 

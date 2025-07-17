@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-pedo-2592
+#FLUX: --job-name=train_cam5
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 rankspernode=16

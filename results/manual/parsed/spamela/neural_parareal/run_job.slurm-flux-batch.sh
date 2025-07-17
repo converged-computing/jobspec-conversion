@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-blackbean-1014
+#FLUX: --job-name=frigid-rabbit-6675
 #FLUX: --queue=skl_fua_prod
 #FLUX: --urgency=16
 

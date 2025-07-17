@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pedo-4216
+#FLUX: --job-name=outstanding-puppy-0325
+#FLUX: -n=24
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=210
 #FLUX: --urgency=16
 
 itRoot=$(cd ..; pwd)

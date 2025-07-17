@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-leader-0608
+#FLUX: --job-name=confused-egg-9777
 #FLUX: -c=18
 #FLUX: -t=86400
 #FLUX: --urgency=16

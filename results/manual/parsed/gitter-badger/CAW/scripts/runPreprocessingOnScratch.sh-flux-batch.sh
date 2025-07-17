@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cattywampus-4636
+#FLUX: --job-name=psycho-animal-0713
+#FLUX: --queue=node
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export NXF_TEMP='/scratch'

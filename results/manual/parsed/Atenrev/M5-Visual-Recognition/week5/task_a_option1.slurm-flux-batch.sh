@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-leopard-9304
+#FLUX: --job-name=reclusive-diablo-9410
+#FLUX: -n=4
+#FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16
 
 python task_a.py \

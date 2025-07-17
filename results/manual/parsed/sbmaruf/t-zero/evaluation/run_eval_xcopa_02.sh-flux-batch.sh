@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-arm-7894
+#FLUX: --job-name=anxious-plant-9119
+#FLUX: --queue=PA100q
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='2'

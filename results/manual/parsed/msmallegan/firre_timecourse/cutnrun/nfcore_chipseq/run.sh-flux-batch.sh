@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=cutnrun_chip_nfcore
+#FLUX: --queue=long
 #FLUX: -t=144000
 #FLUX: --urgency=16
 

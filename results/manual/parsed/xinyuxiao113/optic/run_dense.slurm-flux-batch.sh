@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-peanut-5369
+#FLUX: --job-name=test
+#FLUX: --queue=geforce
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module load spack

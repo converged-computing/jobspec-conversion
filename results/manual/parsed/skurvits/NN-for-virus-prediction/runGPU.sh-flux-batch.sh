@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-train-3549
+#FLUX: --job-name=gen-net-job
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=3600

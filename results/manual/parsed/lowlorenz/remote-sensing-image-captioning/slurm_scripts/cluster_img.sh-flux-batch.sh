@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-truffle-4283
+#FLUX: --job-name=cluster_i_2
 #FLUX: -c=16
 #FLUX: --queue=gpu_short
 #FLUX: -t=57600

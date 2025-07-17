@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-earthworm-5754
+#FLUX: --job-name=AVS-vtune
+#FLUX: --queue=qcpu_exp
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 defs=(

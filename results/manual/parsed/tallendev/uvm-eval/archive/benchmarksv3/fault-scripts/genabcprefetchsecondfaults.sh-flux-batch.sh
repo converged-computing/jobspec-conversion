@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-punk-0475
+#FLUX: --job-name=abc-prefetch-second-faults
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export IGNORE_CC_MISMATCH='1'

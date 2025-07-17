@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-plant-5373
+#FLUX: --job-name=sticky-underoos-2942
 #FLUX: --queue=mic
 #FLUX: -t=14400
 #FLUX: --urgency=16

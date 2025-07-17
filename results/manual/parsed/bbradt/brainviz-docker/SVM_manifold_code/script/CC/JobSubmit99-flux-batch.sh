@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-chip-4103
+#FLUX: --job-name=sonos
+#FLUX: -c=8
+#FLUX: --queue=qTRD
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

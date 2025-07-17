@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-salad-9170
+#FLUX: --job-name=torch-test
+#FLUX: -N=24
 #FLUX: -c=8
+#FLUX: --queue=caspra
 #FLUX: --urgency=16
 
 export MIOPEN_DISABLE_CACHE='1'

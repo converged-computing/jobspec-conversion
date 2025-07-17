@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-gato-2927
+#FLUX: --job-name=regnn57
+#FLUX: --queue=general
 #FLUX: -t=32400
 #FLUX: --urgency=16
 

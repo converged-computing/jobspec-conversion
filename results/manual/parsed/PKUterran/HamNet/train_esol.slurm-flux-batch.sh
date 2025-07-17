@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-caramel-7878
+#FLUX: --job-name=HNT-ESOL
 #FLUX: -c=4
+#FLUX: --queue=GPU
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 python train_esol.py --seed 16880611 --pos 0

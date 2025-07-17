@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=grated-bits-5989
+#FLUX: --job-name=dl2_${tag1}_${runs}
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 here=$(pwd)

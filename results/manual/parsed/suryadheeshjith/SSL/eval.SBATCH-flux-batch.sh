@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lettuce-4692
+#FLUX: --job-name=purple-egg-9094
 #FLUX: -c=24
 #FLUX: --exclusive
 #FLUX: --queue=n1c24m128-v100-4

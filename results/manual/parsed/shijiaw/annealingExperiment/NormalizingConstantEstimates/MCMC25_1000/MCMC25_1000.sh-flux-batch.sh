@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-chair-6507
+#FLUX: --job-name=placid-taco-2215
 #FLUX: -c=2
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load r/3.4.0

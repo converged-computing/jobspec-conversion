@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-onion-4689
+#FLUX: --job-name=GSS_T5
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=3600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cherry-7036
+#FLUX: --job-name=funNeuroPred
 #FLUX: -n=32
 #FLUX: -t=172800
 #FLUX: --urgency=16

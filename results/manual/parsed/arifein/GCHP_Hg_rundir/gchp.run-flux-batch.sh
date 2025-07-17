@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-pedo-0101
+#FLUX: --job-name=chocolate-truffle-9045
+#FLUX: -n=24
+#FLUX: --queue=fdr
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 log="gchp.log"

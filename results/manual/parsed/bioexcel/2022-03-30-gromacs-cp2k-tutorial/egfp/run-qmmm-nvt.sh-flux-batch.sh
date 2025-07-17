@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-rabbit-2815
+#FLUX: --job-name=egfp-qmmm-nvt
 #FLUX: -c=4
 #FLUX: --queue=standard
 #FLUX: -t=1200

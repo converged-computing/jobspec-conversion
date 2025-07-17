@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-snack-8030
+#FLUX: --job-name=kripke
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
+#FLUX: -t=87120
 #FLUX: --urgency=16
 
 export MERIC_MODE='1'

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=confused-latke-6325
+#FLUX: --job-name=carnivorous-nalgas-4716
 #FLUX: -N=2
+#FLUX: -c=80
 #FLUX: --exclusive
 #FLUX: -t=14400
 #FLUX: --urgency=16

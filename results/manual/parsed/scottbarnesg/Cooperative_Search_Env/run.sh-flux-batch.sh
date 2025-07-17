@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-toaster-8443
+#FLUX: --job-name=mapsim
+#FLUX: --queue=debug-cpu
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load anaconda

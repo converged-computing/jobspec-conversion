@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-hope-1123
+#FLUX: --job-name=cell
+#FLUX: -n=64
+#FLUX: --queue=workq
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='/home/packages/compilers/intel/compiler/2022.0.2/linux/compiler/lib/intel64_lin:${LD_LIBRARY_PATH}'

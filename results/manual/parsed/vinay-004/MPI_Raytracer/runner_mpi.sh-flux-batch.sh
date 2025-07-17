@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-noodle-4728
+#FLUX: --job-name=rt_mpi
+#FLUX: -n=6
+#FLUX: --queue=tier3
 #FLUX: --urgency=16
 
 module load openmpi

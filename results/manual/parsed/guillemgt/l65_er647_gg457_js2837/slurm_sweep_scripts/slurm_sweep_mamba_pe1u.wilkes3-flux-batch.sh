@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-earthworm-5377
+#FLUX: --job-name=F_mamba_pe1u
+#FLUX: --queue=ampere
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

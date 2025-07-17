@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-nunchucks-1599
+#FLUX: --job-name=g_methyl_lam1.00.pf
+#FLUX: -n=16
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='16'

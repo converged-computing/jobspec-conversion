@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-squidward-4062
+#FLUX: --job-name=delicious-salad-2856
+#FLUX: -c=5
+#FLUX: --queue=amp20
 #FLUX: --urgency=16
 
  # @Author: yanhuo 1760331284@qq.com

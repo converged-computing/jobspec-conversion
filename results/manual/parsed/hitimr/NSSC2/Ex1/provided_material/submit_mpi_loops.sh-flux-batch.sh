@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-eagle-3328
+#FLUX: --job-name=jacobiMPI
+#FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=3600
 #FLUX: --urgency=16

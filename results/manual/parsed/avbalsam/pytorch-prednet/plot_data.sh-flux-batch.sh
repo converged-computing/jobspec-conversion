@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-bike-3699
+#FLUX: --job-name=milky-omelette-3409
+#FLUX: -c=4
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd /om2/user/avbalsam/prednet

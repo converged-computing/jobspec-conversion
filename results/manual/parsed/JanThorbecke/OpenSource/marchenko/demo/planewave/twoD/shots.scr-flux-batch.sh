@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-milkshake-1938
+#FLUX: --job-name=mod2D
 #FLUX: -c=4
+#FLUX: --queue=max30m
 #FLUX: --urgency=16
 
 export PATH='\$HOME/src/OpenSource/bin:\$PATH:'

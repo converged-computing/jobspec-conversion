@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-signal-4016
+#FLUX: --job-name=hanky-cattywampus-9455
 #FLUX: --queue=gpuq
 #FLUX: -t=5400
 #FLUX: --urgency=16

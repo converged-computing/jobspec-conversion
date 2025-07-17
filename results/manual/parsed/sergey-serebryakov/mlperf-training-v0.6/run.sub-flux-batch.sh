@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-train-0550
+#FLUX: --job-name=image_classification
 #FLUX: --exclusive
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export VOLS='-v $DATADIR:/data -v $LOGDIR:/results'

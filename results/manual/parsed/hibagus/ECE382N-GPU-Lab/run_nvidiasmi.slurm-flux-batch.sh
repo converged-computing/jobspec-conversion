@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=placid-caramel-6635
+#FLUX: --job-name=NVIDIASMI_GPULab
+#FLUX: --queue=gpu-a100
+#FLUX: -t=7199
 #FLUX: --urgency=16
 
 source set_environment

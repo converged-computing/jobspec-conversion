@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-truffle-3193
+#FLUX: --job-name=gfull
+#FLUX: -N=16
+#FLUX: -n=32
+#FLUX: --queue=normal
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 export HDF5_USE_FILE_LOCKING='FALSE'

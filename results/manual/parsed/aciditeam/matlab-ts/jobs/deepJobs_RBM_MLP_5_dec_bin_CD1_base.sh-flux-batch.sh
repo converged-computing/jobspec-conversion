@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-peanut-5671
+#FLUX: --job-name=Deep-RBM_MLP_5_dec_bin_CD1_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

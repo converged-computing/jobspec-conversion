@@ -2,6 +2,7 @@
 #FLUX: --job-name=LAMMPSAPPEKG
 #FLUX: -N=8
 #FLUX: --exclusive
+#FLUX: --queue=wholenode
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

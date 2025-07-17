@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lettuce-7968
+#FLUX: --job-name=quirky-mango-9995
+#FLUX: -n=4
+#FLUX: --queue=standard
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module purge

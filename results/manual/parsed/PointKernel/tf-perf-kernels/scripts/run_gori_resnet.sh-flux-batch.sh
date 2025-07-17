@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-fudge-1124
+#FLUX: --job-name=conv2d_test
 #FLUX: --exclusive
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$(( 40 / ${rankspernode} ))'

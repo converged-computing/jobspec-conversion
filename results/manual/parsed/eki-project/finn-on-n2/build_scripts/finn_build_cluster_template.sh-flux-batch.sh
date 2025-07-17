@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-leader-9159
+#FLUX: --job-name=chocolate-knife-6493
 #FLUX: -c=8
+#FLUX: --queue=normal
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 echo "Running the cluster/remote build script"

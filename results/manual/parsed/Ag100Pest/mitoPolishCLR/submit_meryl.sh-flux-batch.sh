@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=meryldb_mito
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 module load merqury/1.1

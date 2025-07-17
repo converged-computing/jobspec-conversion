@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=DeepSPInN Training
+#FLUX: -n=39
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 ulimit -n 40960

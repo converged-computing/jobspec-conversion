@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-staircase-5731
+#FLUX: --job-name=arid-chair-9374
+#FLUX: --queue=gpu_shared
+#FLUX: -t=54000
 #FLUX: --urgency=16
 
 module load 2020

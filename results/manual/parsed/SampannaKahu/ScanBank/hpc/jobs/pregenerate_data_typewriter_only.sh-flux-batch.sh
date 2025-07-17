@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=hello-peas-5496
+#FLUX: --job-name=bloated-lamp-9705
 #FLUX: --exclusive
+#FLUX: --queue=normal_q
+#FLUX: -t=288000
 #FLUX: --urgency=16
 
 module purge

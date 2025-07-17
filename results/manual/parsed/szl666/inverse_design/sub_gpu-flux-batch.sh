@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-diablo-6542
+#FLUX: --job-name=zhilong
 #FLUX: -c=10
+#FLUX: --queue=gpu4
 #FLUX: --urgency=16
 
 module load cuda/11.3

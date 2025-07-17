@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=*CHANGE*
+#FLUX: --queue=pfaendtner
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

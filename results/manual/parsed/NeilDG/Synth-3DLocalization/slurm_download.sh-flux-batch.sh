@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-fudge-5817
+#FLUX: --job-name=DOWNLOAD
 #FLUX: -c=2
 #FLUX: --queue=serial
 #FLUX: --urgency=16

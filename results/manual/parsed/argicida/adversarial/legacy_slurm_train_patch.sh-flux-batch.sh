@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-knife-3648
+#FLUX: --job-name=blackbox_test
+#FLUX: -n=8
+#FLUX: --queue=tier3
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 source ./venv/bin/activate

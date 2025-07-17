@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=job-transformer-mixed-precision
+#FLUX: -c=40
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-soup-9933
+#FLUX: --job-name=chocolate-parsnip-5217
+#FLUX: --queue=gpu
+#FLUX: -t=136800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-caramel-5147
+#FLUX: --job-name=strawberry-sundae-5689
 #FLUX: --urgency=16
 
 declare -a ksp_pc_map

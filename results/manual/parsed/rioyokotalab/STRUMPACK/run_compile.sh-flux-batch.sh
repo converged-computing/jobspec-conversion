@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-hope-0569
+#FLUX: --job-name=STRUMPACK
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

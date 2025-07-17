@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-snack-7886
+#FLUX: --job-name=swin-s-tissuenet-n-2C
+#FLUX: --queue=tier3
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

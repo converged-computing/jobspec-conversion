@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-blackbean-4256
+#FLUX: --job-name=acolite-worker
 #FLUX: -n=10
 #FLUX: -t=3600
 #FLUX: --urgency=16

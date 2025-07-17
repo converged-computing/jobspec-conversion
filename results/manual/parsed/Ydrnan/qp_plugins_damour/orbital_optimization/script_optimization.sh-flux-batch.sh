@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lizard-3854
+#FLUX: --job-name=salted-earthworm-6530
+#FLUX: -c=24
 #FLUX: --exclusive
+#FLUX: --queue=xeonv3
 #FLUX: --urgency=16
 
 source /home/ydamour/qp2/quantum_package.rc # here 

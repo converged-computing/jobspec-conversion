@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-omelette-4966
+#FLUX: --job-name=annotfunc
 #FLUX: -n=16
+#FLUX: --queue=intel
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

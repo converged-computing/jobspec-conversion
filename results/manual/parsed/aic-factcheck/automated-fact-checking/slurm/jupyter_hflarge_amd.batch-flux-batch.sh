@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-malarkey-5375
+#FLUX: --job-name=persnickety-knife-8639
 #FLUX: -c=4
 #FLUX: --queue=amd
 #FLUX: -t=86400

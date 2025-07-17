@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-pedo-1304
+#FLUX: --job-name=HybPhaser
 #FLUX: -c=67
+#FLUX: --queue=normal
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 :"

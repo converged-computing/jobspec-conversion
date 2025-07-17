@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-buttface-4284
+#FLUX: --job-name=strawberry-car-5688
+#FLUX: -N=8
+#FLUX: --queue=galton
 #FLUX: --urgency=16
 
 export MPIP='-t 10.0'

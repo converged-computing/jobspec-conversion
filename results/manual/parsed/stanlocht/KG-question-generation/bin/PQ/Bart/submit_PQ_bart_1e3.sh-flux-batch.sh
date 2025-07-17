@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=KGQG-bart-1e3
 #FLUX: -c=3
+#FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

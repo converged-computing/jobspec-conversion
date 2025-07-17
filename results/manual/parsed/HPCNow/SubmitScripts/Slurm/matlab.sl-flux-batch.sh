@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-plant-8945
+#FLUX: --job-name=Serial_Job
 #FLUX: -c=5
 #FLUX: -t=600
 #FLUX: --urgency=16

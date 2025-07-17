@@ -1,8 +1,10 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-motorcycle-3991
+#FLUX: --job-name=pt_raytrain
 #FLUX: -c=64
 #FLUX: --gpus-per-task=8
 #FLUX: --exclusive
+#FLUX: --queue=gpu
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-ricecake-3193
+#FLUX: --job-name=stinky-lemur-5924
+#FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export CUDA_HOME='/cm/shared/applications/cuda-toolkit/11.7.1/'

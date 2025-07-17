@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=cifar100-r32
+#FLUX: -c=4
+#FLUX: --queue=leojia
 #FLUX: --urgency=16
 
 PORT=$[$RANDOM + 10000]

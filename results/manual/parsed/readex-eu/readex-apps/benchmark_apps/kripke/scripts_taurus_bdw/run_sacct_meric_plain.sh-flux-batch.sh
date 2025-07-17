@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bike-0967
+#FLUX: --job-name=kripke_sacct
 #FLUX: --exclusive
 #FLUX: --queue=broadwell
 #FLUX: -t=3600

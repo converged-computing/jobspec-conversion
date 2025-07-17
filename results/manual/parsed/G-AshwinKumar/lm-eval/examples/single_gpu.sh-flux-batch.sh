@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-hobbit-3064
+#FLUX: --job-name=eval
+#FLUX: -c=32
 #FLUX: --exclusive
+#FLUX: -t=21600
 #FLUX: --urgency=16
 
 MODEL_NAME="meditron-7b"

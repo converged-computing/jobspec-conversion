@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-taco-9186
+#FLUX: --job-name=save_k0_monthly
+#FLUX: -c=12
+#FLUX: --queue=huce_intel
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 DATA_DIR="${1}"

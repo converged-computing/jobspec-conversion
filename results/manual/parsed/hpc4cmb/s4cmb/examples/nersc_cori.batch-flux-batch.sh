@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-mango-2327
+#FLUX: --job-name=s4cmbrocks
+#FLUX: --queue=debug
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 source $HOME/.bashrc.ext

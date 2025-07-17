@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peanut-butter-2282
+#FLUX: --job-name=astute-taco-0729
+#FLUX: --queue=shared
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 dataverse="harvard"            # harvard or demo

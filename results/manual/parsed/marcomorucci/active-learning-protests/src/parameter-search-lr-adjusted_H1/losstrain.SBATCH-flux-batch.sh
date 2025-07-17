@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=train_heuristic
+#FLUX: -c=4
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-rabbit-2203
+#FLUX: --job-name=fmriprep
 #FLUX: -c=16
+#FLUX: --queue=normal,mygroup
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

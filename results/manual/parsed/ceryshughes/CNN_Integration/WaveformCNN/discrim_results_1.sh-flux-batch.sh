@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-cherry-5282
+#FLUX: --job-name=anxious-gato-3310
+#FLUX: -c=4
+#FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load cuda/10

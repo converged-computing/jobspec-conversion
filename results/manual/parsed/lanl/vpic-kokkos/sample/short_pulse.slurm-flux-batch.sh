@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-puppy-9197
+#FLUX: --job-name=short_pulse
+#FLUX: -n=4
+#FLUX: -t=57600
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-arm-8906
+#FLUX: --job-name=fat-egg-1286
 #FLUX: -c=16
 #FLUX: --urgency=16
 

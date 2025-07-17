@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lettuce-6369
+#FLUX: --job-name=bench
 #FLUX: -n=32
 #FLUX: -t=3658
 #FLUX: --urgency=16

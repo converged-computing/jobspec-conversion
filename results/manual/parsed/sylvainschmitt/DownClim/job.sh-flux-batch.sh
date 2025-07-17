@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-toaster-5861
+#FLUX: --job-name=DownClim
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

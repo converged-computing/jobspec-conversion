@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-lentil-2846
+#FLUX: --job-name=wobbly-poodle-4365
+#FLUX: -n=16
+#FLUX: --queue=batch
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

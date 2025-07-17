@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-gato-6334
+#FLUX: --job-name=qec-test
+#FLUX: --queue=alvis
+#FLUX: -t=20
 #FLUX: --urgency=16
 
 echo "###### Starting job on cluster"

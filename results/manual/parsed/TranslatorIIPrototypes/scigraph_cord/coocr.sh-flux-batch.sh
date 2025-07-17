@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-leopard-6354
+#FLUX: --job-name=gloopy-signal-6447
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 echo `hostname`

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lizard-4109
+#FLUX: --job-name=nf-bam_to_fastq_(88)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

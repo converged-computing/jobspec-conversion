@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-animal-6035
+#FLUX: --job-name=nsbh
 #FLUX: --exclusive
+#FLUX: --queue=CORES24
 #FLUX: --urgency=16
 
 module purge

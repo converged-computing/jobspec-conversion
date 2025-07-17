@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leg-4961
+#FLUX: --job-name=moolicious-peas-8313
+#FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: -t=3600
 #FLUX: --urgency=16

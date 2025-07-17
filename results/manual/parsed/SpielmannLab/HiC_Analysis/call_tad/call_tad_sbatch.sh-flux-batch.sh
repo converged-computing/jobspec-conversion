@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lizard-9392
+#FLUX: --job-name=call_tad
 #FLUX: --queue=shortterm
 #FLUX: --urgency=16
 

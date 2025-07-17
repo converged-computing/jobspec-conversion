@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=purple-pedo-0152
+#FLUX: --job-name=bloated-fork-2074
 #FLUX: -c=20
 #FLUX: --queue=xeon-g6-volta
+#FLUX: -t=1440
 #FLUX: --urgency=16
 
 export TOTAL_GPUS='${SLURM_NTASKS}'

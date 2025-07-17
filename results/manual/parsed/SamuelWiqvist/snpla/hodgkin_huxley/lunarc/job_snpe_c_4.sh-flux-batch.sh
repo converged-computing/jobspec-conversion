@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lizard-1272
+#FLUX: --job-name=snpe_c
+#FLUX: --queue=lu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

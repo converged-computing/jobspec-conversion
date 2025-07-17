@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=Trial
+#FLUX: -N=4
 #FLUX: --queue=ai
 #FLUX: -t=10800
 #FLUX: --urgency=16

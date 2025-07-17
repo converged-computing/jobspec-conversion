@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=synthetic
 #FLUX: --queue=use-everything
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 hostname

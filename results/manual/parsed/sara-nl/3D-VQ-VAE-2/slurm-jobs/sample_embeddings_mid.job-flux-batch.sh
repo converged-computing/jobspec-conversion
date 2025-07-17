@@ -1,5 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=sample-embeddings-mid-lowtau
+#FLUX: -c=6
+#FLUX: --queue=gpu_rtx2080ti_shared
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='6'

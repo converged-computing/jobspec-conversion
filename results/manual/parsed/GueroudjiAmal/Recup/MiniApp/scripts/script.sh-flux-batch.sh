@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-nalgas-8518
+#FLUX: --job-name=grated-avocado-5879
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GueroudjiAmal/Recup/MiniApp/scripts/script.sh

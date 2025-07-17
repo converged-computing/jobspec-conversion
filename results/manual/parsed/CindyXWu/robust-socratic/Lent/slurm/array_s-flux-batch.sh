@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-cupcake-7585
+#FLUX: --job-name=distill
 #FLUX: -N=2
 #FLUX: -n=12
+#FLUX: --queue=ampere
 #FLUX: -t=129600
 #FLUX: --urgency=16
 

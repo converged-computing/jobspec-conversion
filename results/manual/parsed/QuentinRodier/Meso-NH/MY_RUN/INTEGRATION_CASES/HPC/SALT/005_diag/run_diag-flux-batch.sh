@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=salted-platanos-4652
+#FLUX: --job-name=salt_diag
+#FLUX: -t=300
 #FLUX: --urgency=16
 
 export MPIRUN='Mpirun -np 1'

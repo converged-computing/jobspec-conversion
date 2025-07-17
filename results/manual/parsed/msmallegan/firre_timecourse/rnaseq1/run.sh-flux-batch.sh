@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ftc-rnaseq
+#FLUX: --queue=long
 #FLUX: -t=360000
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-kerfuffle-3916
+#FLUX: --job-name=pusheena-puppy-9915
 #FLUX: --urgency=16
 
 export TEMPLATEFLOW_HOME='$BIDS_DIR/code/templateflow; 			[ ! -d $TEMPLATEFLOW_HOME ] && mkdir -p $TEMPLATEFLOW_HOME'

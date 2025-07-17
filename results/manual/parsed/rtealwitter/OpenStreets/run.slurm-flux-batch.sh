@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=qlearning
+#FLUX: -c=8
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

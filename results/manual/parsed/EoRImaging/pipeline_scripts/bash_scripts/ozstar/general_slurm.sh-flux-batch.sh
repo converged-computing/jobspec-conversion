@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-banana-9555
+#FLUX: --job-name=general
+#FLUX: -n=2
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 echo JOBID $SLURM_JOBID

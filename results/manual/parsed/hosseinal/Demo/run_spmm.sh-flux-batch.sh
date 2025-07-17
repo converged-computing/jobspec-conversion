@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=swbench
 #FLUX: -c=40
+#FLUX: -t=2700
 #FLUX: --urgency=16
 
 THREADS=20

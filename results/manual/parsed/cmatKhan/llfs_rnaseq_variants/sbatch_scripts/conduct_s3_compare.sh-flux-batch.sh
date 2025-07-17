@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-platanos-3882
+#FLUX: --job-name=rna_dna_comp.out
 #FLUX: -t=1200
 #FLUX: --urgency=16
 

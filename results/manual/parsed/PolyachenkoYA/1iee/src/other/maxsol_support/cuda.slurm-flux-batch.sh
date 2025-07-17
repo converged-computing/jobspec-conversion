@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-plant-5527
+#FLUX: --job-name=gromacs
+#FLUX: --queue=max1n
 #FLUX: --urgency=16
 
 mpi=$1

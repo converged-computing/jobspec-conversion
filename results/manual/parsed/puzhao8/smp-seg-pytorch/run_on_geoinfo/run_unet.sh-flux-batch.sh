@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=train
+#FLUX: -t=604800
 #FLUX: --urgency=16
 
 echo "start"

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bike-9157
+#FLUX: --job-name=phat-spoon-5161
+#FLUX: -n=4
+#FLUX: --queue=standard
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module purge

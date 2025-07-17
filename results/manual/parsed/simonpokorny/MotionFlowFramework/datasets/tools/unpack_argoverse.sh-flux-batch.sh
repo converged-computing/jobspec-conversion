@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-banana-1832
+#FLUX: --job-name=expressive-leopard-1492
 #FLUX: --queue=amdfast
 #FLUX: -t=14400
 #FLUX: --urgency=16

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-car-4095
+#FLUX: --job-name=pusheena-pastry-6096
+#FLUX: --queue=seas_gpu
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load Anaconda2/2019.10-fasrc01

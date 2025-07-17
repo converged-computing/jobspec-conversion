@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=angry-car-2954
+#FLUX: --job-name=regr-torch
+#FLUX: --queue=alvis
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 module purge

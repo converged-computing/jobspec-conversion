@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=astute-kerfuffle-8295
+#FLUX: --job-name=rashV8
+#FLUX: --queue=Mlong
 #FLUX: -t=1209600
 #FLUX: --urgency=16
 

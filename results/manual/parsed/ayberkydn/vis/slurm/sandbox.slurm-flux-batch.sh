@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-leopard-1368
+#FLUX: --job-name=sweep-job
 #FLUX: -c=16
+#FLUX: --queue=palamut-cuda
 #FLUX: -t=14460
 #FLUX: --urgency=16
 

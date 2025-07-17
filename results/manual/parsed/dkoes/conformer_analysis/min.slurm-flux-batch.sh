@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lettuce-0725
+#FLUX: --job-name=minrd
 #FLUX: --queue=any_cpu
 #FLUX: --urgency=16
 

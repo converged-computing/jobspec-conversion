@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-plant-1541
+#FLUX: --job-name=astute-motorcycle-4319
 #FLUX: --urgency=16
 
 echo "Loading LAMMPS: lammps/29Sep2021 --------------------------"

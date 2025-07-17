@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-puppy-9579
+#FLUX: --job-name=hanky-spoon-1059
+#FLUX: --queue=normal
 #FLUX: --urgency=16
 
 export PATH='$PYTHON_HOME/bin:$PATH'

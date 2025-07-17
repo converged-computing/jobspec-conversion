@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-lemur-9475
+#FLUX: --job-name=milky-chip-4069
 #FLUX: -N=6
 #FLUX: -c=8
 #FLUX: --queue=gpu

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lemur-1338
+#FLUX: --job-name=biLouvainMethod
+#FLUX: --queue=debug
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module load gcc/6.1.0

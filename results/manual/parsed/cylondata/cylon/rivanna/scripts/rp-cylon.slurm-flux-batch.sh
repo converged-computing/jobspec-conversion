@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-ricecake-4853
+#FLUX: --job-name=ornery-malarkey-1610
 #FLUX: -N=2
 #FLUX: --queue=parallel
 #FLUX: -t=1200

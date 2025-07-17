@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-chip-5546
+#FLUX: --job-name=loopy-staircase-5094
+#FLUX: --queue=gpu
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 module load Anaconda3/5.0.1-fasrc02

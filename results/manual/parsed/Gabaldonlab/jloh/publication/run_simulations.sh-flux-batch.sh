@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-peanut-butter-7950
+#FLUX: --job-name=loopy-egg-6022
+#FLUX: -c=48
 #FLUX: --urgency=16
 
 cd /gpfs/projects/bsc40/current/mschiavi/jloh/scripts/wf-sim_data

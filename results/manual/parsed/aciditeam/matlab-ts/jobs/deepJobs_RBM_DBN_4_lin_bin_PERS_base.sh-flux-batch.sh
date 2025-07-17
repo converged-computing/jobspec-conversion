@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cinnamonbun-2346
+#FLUX: --job-name=Deep-RBM_DBN_4_lin_bin_PERS_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

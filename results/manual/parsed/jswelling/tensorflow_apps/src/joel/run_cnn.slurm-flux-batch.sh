@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-caramel-1984
+#FLUX: --job-name=persnickety-blackbean-6662
+#FLUX: --queue=GPU-shared
+#FLUX: -t=36000
 #FLUX: --urgency=16
 
 module load cuda/8.0 tensorflow/0.12.1

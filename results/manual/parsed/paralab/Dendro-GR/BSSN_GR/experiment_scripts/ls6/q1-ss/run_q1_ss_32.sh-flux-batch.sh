@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=angry-pot-2432
+#FLUX: --job-name=dgr
+#FLUX: -N=16
+#FLUX: -n=32
+#FLUX: --queue=gpu-a100
+#FLUX: -t=5400
 #FLUX: --urgency=16
 
 module list

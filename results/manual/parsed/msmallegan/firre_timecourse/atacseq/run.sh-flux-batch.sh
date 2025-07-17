@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ftc-atacseq
+#FLUX: --queue=long
 #FLUX: -t=180000
 #FLUX: --urgency=16
 

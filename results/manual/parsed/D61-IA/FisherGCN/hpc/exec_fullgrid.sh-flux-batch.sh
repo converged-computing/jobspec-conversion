@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-lizard-8477
+#FLUX: --job-name=gassy-arm-1644
 #FLUX: --urgency=16
 
 module load tensorflow/1.13.1-py36-gpu

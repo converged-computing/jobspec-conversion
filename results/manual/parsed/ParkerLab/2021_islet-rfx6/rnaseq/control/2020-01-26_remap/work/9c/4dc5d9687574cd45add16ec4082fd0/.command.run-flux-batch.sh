@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-avocado-2774
+#FLUX: --job-name=nf-bam_to_fastq_(73)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

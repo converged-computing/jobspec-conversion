@@ -2,6 +2,8 @@
 #FLUX: --job-name=ndt2_2x_4
 #FLUX: -N=2
 #FLUX: -c=6
+#FLUX: --queue=gpu
+#FLUX: -t=129600
 #FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='1'

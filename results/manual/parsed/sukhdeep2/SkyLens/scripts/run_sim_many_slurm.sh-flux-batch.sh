@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chip-3987
+#FLUX: --job-name=sims
+#FLUX: --queue=RM
+#FLUX: -t=252000
 #FLUX: --urgency=16
 
 ID=$SLURM_ARRAY_JOB_ID

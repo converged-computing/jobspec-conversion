@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-itch-0374
+#FLUX: --job-name=submit_snakemake_%j
+#FLUX: --queue=all
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 source ~/miniconda3/etc/profile.d/conda.sh

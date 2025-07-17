@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-avocado-8979
+#FLUX: --job-name=FG1_LBIRD
 #FLUX: -N=32
 #FLUX: -n=500
 #FLUX: -t=1800

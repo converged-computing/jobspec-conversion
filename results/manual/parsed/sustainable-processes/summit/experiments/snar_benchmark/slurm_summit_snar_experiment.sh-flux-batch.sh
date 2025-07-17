@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-soup-8499
+#FLUX: --job-name=slurm_snar
+#FLUX: --queue=skylake
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-bike-1455
+#FLUX: --job-name=solov2-livecell
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

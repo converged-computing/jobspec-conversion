@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-plant-8246
+#FLUX: --job-name=persnickety-destiny-2135
+#FLUX: -n=28
 #FLUX: --exclusive
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 ml purge > /dev/null 2>&1

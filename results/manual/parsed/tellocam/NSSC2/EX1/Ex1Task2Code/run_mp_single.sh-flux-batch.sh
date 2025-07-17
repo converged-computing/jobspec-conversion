@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-hope-4111
+#FLUX: --job-name=jacobiMPI
 #FLUX: --exclusive
 #FLUX: -t=600
 #FLUX: --urgency=16

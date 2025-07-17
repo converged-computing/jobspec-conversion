@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=anacapa-12S-classifier
+#FLUX: --queue=intel
 #FLUX: -t=4200
 #FLUX: --urgency=16
 

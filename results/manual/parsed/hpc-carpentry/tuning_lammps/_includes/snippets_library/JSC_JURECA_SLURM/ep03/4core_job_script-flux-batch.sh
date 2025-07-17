@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-pedo-0368
+#FLUX: --job-name=peachy-truffle-8711
 #FLUX: --queue=devel
 #FLUX: -t=600
 #FLUX: --urgency=16

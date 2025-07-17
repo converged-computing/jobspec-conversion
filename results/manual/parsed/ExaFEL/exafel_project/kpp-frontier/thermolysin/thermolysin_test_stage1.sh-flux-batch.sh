@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-underoos-5559
+#FLUX: --job-name=stage1
+#FLUX: -N=4
+#FLUX: --queue=batch
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export NTASKS='$((SLURM_JOB_NUM_NODES*56))'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-car-8153
+#FLUX: --job-name=bsl_highres_combi
 #FLUX: -n=9
 #FLUX: -t=259200
 #FLUX: --urgency=16

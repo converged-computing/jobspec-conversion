@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=exoseq_hawk
+#FLUX: --queue=compute
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load nextflow/21.10.6

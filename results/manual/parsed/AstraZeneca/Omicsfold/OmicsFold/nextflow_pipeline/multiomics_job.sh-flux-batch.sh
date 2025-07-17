@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-latke-7855
+#FLUX: --job-name=multiomics_nextflow
 #FLUX: -c=20
 #FLUX: -t=720000
 #FLUX: --urgency=16

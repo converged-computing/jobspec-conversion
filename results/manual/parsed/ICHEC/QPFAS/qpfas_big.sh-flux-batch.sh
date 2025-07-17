@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-fork-1092
+#FLUX: --job-name=crusty-frito-1491
+#FLUX: --queue=ProdQ
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export QPFAS_DEVICE_ID='kay_hpc_cluster'

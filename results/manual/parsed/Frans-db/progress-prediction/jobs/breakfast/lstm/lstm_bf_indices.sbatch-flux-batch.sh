@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-earthworm-7398
+#FLUX: --job-name=blank-muffin-1217
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=14400

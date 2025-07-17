@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=Babel_${PARTITION}
 #FLUX: --gpus-per-task=1
+#FLUX: --queue=${PARTITION}
+#FLUX: -t=50400
 #FLUX: --urgency=16
 
 PARTITION="$1"

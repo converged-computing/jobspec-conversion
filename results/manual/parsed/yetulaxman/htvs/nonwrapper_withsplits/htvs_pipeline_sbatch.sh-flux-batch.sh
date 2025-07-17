@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-taco-7730
+#FLUX: --job-name=persnickety-peanut-4406
 #FLUX: -n=40
 #FLUX: --queue=small
 #FLUX: -t=54610

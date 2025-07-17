@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-soup-8529
+#FLUX: --job-name=rpc_as_provider
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120

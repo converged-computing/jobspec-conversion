@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-noodle-9884
+#FLUX: --job-name=goodbye-squidward-9762
+#FLUX: --queue=main
 #FLUX: --urgency=16
 
 echo "CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES"

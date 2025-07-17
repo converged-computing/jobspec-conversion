@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-poo-0537
+#FLUX: --job-name=dirty-soup-3545
+#FLUX: --queue=standard
+#FLUX: -t=59400
 #FLUX: --urgency=16
 
 module purge

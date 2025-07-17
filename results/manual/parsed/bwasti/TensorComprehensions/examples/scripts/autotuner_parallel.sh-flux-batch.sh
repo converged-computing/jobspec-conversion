@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cherry-1433
+#FLUX: --job-name=TensorComprehensions
+#FLUX: -n=10
+#FLUX: -t=120
 #FLUX: --urgency=16
 
 export TUNER_THREADS='${TUNER_THREADS:=10}'

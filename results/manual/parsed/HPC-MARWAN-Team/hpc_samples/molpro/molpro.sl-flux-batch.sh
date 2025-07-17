@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-lettuce-0250
+#FLUX: --job-name=Molpro
 #FLUX: --queue=defq
 #FLUX: --urgency=16
 

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cupcake-1867
+#FLUX: --job-name=hpc_nsm_att_bah_lr0_0005
 #FLUX: -c=8
+#FLUX: --queue=gpu1,gpu2
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

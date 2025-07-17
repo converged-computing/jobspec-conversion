@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-hobbit-7178
+#FLUX: --job-name=30_threads
+#FLUX: -n=40
+#FLUX: --queue=akya-cuda
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

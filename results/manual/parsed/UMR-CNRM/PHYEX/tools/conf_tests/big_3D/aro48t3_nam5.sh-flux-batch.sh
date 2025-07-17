@@ -1,5 +1,11 @@
 #!/bin/bash
-#FLUX: --job-name=grated-fork-4742
+#FLUX: --job-name=stanky-leg-8136
+#FLUX: -N=40
+#FLUX: -n=1280
+#FLUX: -c=4
+#FLUX: --exclusive
+#FLUX: --queue=normal256
+#FLUX: -t=2400
 #FLUX: --urgency=16
 
 export JOB_NAME='arome_e700'

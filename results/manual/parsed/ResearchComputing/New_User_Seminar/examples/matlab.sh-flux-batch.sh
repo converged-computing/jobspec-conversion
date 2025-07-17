@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-caramel-1603
+#FLUX: --job-name=doopy-hope-4071
 #FLUX: --queue=shas-testing
 #FLUX: -t=120
 #FLUX: --urgency=16

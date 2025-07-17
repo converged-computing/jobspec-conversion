@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-hobbit-1848
+#FLUX: --job-name=bloated-onion-9552
+#FLUX: -c=6
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export JULIA_PKGDIR='$myjulia'

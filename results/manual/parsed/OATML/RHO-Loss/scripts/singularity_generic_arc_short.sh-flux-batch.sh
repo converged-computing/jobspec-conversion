@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-knife-8252
+#FLUX: --job-name=goodbye-squidward-5657
 #FLUX: -c=4
 #FLUX: --queue=short
 #FLUX: -t=43200

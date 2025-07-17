@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=d21_analysis
 #FLUX: -c=4
+#FLUX: --queue=cca
 #FLUX: -t=32400
 #FLUX: --urgency=16
 

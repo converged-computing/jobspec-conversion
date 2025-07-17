@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=baseline-torch
+#FLUX: -c=32
 #FLUX: -t=9900
 #FLUX: --urgency=16
 

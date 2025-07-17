@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-poo-5073
+#FLUX: --job-name=conspicuous-house-7950
 #FLUX: -c=4
 #FLUX: --queue=small-g
 #FLUX: -t=3600

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=wandb-sweep
+#FLUX: --queue=gpu-8
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NF-smartseq2
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export TERM='xterm'

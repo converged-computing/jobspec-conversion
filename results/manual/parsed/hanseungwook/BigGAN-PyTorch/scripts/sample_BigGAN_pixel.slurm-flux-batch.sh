@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-motorcycle-4545
+#FLUX: --job-name=biggan_sample
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

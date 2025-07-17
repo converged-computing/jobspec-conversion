@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-train-2951
+#FLUX: --job-name=bsu-cpu-rjob
+#FLUX: --queue=bsu-cpu
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

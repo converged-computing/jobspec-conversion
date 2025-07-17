@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-milkshake-4557
+#FLUX: --job-name=fugly-diablo-9452
+#FLUX: --queue=sbel_cmg
+#FLUX: -t=259290
 #FLUX: --urgency=16
 
 module load cuda/10.0

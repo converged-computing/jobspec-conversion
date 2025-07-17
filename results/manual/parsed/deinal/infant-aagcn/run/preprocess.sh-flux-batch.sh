@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-caramel-0115
+#FLUX: --job-name=creamy-leader-7550
 #FLUX: --queue=small
 #FLUX: -t=3600
 #FLUX: --urgency=16

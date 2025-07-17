@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-butter-6070
+#FLUX: --job-name=rayC2
+#FLUX: -N=2
+#FLUX: --queue=GPU-V100
 #FLUX: --urgency=16
 
 echo Time is `date`

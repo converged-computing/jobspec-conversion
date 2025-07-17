@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-chip-8186
+#FLUX: --job-name=purple-cat-4394
+#FLUX: -n=4
+#FLUX: --queue=alvis
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 data_set="data_Olga-Tokarczuk.npz"

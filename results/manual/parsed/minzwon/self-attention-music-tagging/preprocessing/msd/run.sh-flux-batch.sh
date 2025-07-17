@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-puppy-7293
+#FLUX: --job-name=frigid-train-5489
+#FLUX: --queue=high
 #FLUX: --urgency=16
 
 module load Python/3.6.4-foss-2017a 

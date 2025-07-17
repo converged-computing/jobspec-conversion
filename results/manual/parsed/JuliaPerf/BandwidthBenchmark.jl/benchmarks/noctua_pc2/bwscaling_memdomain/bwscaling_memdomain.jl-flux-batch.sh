@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-itch-8916
+#FLUX: --job-name=bwbench
+#FLUX: --queue=all
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export JULIA_NUM_THREADS='40'

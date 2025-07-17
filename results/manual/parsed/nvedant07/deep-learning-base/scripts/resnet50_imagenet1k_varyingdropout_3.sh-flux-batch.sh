@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=phat-mango-2933
+#FLUX: --job-name=hairy-lettuce-0941
+#FLUX: -c=16
 #FLUX: --queue=a40
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 export EPOCHS='50'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cinnamonbun-0136
+#FLUX: --job-name=frigid-parsnip-0784
 #FLUX: -N=2
 #FLUX: -c=8
 #FLUX: -t=518400

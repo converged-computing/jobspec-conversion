@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-banana-7028
+#FLUX: --job-name=sticky-buttface-1129
+#FLUX: -n=24
+#FLUX: --queue=shared
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 export OMP_PROC_BIND='spread'

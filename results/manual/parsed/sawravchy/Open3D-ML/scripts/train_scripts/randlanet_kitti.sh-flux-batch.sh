@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-muffin-2711
+#FLUX: --job-name=loopy-peanut-butter-6332
+#FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 if [ "$#" -ne 2 ]; then

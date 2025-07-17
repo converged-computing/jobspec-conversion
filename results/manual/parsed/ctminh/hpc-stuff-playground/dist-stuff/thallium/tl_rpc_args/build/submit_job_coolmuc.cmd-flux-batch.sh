@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pedo-9746
+#FLUX: --job-name=hello_rpc_thallium
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120

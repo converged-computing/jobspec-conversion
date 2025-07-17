@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-latke-1465
+#FLUX: --job-name=stinky-bicycle-2428
 #FLUX: --exclusive
 #FLUX: --queue=cclake,skylake
 #FLUX: -t=43200

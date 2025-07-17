@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-parsnip-4418
+#FLUX: --job-name=psycho-bits-3025
 #FLUX: -c=5
 #FLUX: --queue=gm4-pmext
 #FLUX: -t=129600

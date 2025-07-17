@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=faux-car-1073
+#FLUX: --job-name=fMRI_ABCD-HCP
+#FLUX: --queue=small,amdsmall
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 cd run_files.fMRI

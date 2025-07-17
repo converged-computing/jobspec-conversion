@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-hippo-1089
+#FLUX: --job-name=popart-ibm
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 module unload GSL

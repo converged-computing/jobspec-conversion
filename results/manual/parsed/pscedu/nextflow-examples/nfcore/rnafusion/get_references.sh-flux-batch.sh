@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-snack-1346
+#FLUX: --job-name=cowy-lemur-8768
+#FLUX: -n=3
+#FLUX: --queue=RM-shared
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

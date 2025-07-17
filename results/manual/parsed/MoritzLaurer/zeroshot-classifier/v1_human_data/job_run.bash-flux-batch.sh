@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=zs
 #FLUX: --queue=gpu
+#FLUX: -t=72000
 #FLUX: --urgency=16
 
 module load 2021

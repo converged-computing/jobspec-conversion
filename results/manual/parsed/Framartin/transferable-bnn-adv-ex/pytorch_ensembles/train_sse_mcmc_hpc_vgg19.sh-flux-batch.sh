@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cat-0572
+#FLUX: --job-name=TrainVGG19
+#FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=32400
 #FLUX: --urgency=16

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=blank-house-3605
+#FLUX: --job-name=purple-hobbit-1658
 #FLUX: -N=128
+#FLUX: --queue=regular
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export EXEC='${HERE}/pretrain_gpt_alcf.py'

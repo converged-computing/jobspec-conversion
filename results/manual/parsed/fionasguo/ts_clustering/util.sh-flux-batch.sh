@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-rabbit-5903
+#FLUX: --job-name=loopy-blackbean-7754
 #FLUX: -c=40
 #FLUX: --queue=long
 #FLUX: -t=259200

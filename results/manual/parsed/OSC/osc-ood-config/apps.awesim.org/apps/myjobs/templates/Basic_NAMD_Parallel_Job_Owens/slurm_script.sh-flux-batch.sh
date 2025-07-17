@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-pot-9636
+#FLUX: --job-name=ondemand/sys/myjobs/basic_namd_parallel
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: -t=720

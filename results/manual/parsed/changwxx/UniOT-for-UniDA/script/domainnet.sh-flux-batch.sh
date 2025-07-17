@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-plant-9802
+#FLUX: --job-name=domainnet
 #FLUX: -c=6
+#FLUX: --queue=ShangHAI
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

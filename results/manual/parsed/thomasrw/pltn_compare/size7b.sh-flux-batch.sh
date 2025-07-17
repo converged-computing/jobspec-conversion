@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-soup-4002
+#FLUX: --job-name=milky-underoos-1991
+#FLUX: -n=10
 #FLUX: --queue=defq-48core
 #FLUX: --urgency=16
 

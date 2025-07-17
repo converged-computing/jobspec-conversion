@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=plotLearn
 #FLUX: -c=2
+#FLUX: --queue=nvidia
 #FLUX: -t=2400
 #FLUX: --urgency=16
 

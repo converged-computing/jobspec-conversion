@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-car-9780
+#FLUX: --job-name=bricky-destiny-9700
 #FLUX: -c=20
+#FLUX: --queue=normal_q
+#FLUX: -t=259200
 #FLUX: --urgency=16
 
 export NTHREAD='20'

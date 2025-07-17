@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-chip-0611
+#FLUX: --job-name=faux-banana-3934
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=14400

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=astute-hippo-9728
+#FLUX: --job-name=fvecVCF
+#FLUX: --queue=small,amdsmall
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 source /home/mcgaughs/rmoran/miniconda3/etc/profile.d/conda.sh

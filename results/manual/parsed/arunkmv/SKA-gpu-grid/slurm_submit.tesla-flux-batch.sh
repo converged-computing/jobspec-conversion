@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-fudge-4448
+#FLUX: --job-name=GPUGrid
+#FLUX: --queue=tesla
 #FLUX: -t=600
 #FLUX: --urgency=16
 

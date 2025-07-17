@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lettuce-6852
+#FLUX: --job-name=reclusive-parsnip-1701
+#FLUX: --queue=cpu
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

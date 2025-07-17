@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-pot-1522
+#FLUX: --job-name=psycho-leopard-0580
+#FLUX: --queue=gpu_titanrtx
+#FLUX: -t=43200
 #FLUX: --urgency=16
 
 export MPICC='mpicc'

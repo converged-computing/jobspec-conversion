@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lizard-3159
+#FLUX: --job-name=eccentric-chip-0518
 #FLUX: -n=4
 #FLUX: -t=600
 #FLUX: --urgency=16

@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=grated-car-3592
+#FLUX: --job-name=ornery-fudge-1228
 #FLUX: -n=8
+#FLUX: --queue=rome16q
+#FLUX: -t=240
 #FLUX: --urgency=16
 
 export OMPI_MCA_pml='^ucx'

@@ -2,6 +2,7 @@
 #FLUX: --job-name=GAP_MD
 #FLUX: -n=128
 #FLUX: --queue=med2
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

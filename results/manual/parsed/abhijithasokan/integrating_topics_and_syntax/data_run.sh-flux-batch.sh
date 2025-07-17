@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=red-earthworm-2332
+#FLUX: --job-name=ITS
 #FLUX: --queue=informatik-mind
+#FLUX: -t=216000
 #FLUX: --urgency=16
 
 module purge

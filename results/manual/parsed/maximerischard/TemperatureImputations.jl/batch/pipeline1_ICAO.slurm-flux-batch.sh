@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-salad-6859
+#FLUX: --job-name=pipeline_nearby
+#FLUX: -n=4
+#FLUX: --queue=shared
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export JULIA_DEPOT_PATH='${HOME}/julia_depots/climate'

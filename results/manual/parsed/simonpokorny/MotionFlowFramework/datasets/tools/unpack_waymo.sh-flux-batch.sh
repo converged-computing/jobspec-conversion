@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hobbit-3886
+#FLUX: --job-name=faux-platanos-9840
 #FLUX: -c=2
 #FLUX: --queue=amdfast
 #FLUX: -t=14400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bits-5178
+#FLUX: --job-name=scRNAseq_workflow
 #FLUX: --queue=long
 #FLUX: -t=172800
 #FLUX: --urgency=16

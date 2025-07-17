@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-hope-6648
+#FLUX: --job-name=frigid-pot-5320
+#FLUX: -n=40
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

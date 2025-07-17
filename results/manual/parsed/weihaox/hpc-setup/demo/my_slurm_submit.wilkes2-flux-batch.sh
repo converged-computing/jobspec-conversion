@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-squidward-3412
+#FLUX: --job-name=demo_cifar
+#FLUX: --queue=pascal
 #FLUX: -t=600
 #FLUX: --urgency=16
 

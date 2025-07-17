@@ -3,6 +3,7 @@
 #FLUX: -N=10
 #FLUX: --exclusive
 #FLUX: --queue=xjet
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 export HOMEgraph='${HOMEgraph:-/mnt/lfs4/HFIP/hwrfv3/${USER}/hafs_graphics}'

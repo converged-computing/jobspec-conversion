@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-destiny-0238
+#FLUX: --job-name=train_esrgan_x4_dual_former
 #FLUX: -c=8
+#FLUX: --queue=dongliu
 #FLUX: --urgency=16
 
 nvidia-smi

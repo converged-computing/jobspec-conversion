@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-chip-9123
+#FLUX: --job-name=param_codes
+#FLUX: --queue=amd
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 cd /gpfs/terra/export/samba/gis/holgerv/river_quality/scripts/grqa_processing

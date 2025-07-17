@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-nalgas-8507
+#FLUX: --job-name=expensive-mango-4684
+#FLUX: --queue=priority
+#FLUX: -t=720
 #FLUX: --urgency=16
 
 module load conda2 gcc slurm-drmaa R

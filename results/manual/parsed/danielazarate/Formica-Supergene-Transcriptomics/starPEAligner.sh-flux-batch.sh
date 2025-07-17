@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=starAlign-log
+#FLUX: --queue=intel
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

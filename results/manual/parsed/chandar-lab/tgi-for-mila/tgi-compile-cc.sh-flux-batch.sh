@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-car-0814
+#FLUX: --job-name=tgi-compile
 #FLUX: -c=8
 #FLUX: -t=36000
 #FLUX: --urgency=16

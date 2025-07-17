@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-onion-1834
+#FLUX: --job-name=modalSeg
+#FLUX: --queue=dgx
+#FLUX: -t=64800
 #FLUX: --urgency=16
 
 module load python3

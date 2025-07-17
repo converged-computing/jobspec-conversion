@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-hobbit-9497
+#FLUX: --job-name=s6
+#FLUX: -N=4
+#FLUX: --queue=normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module purge

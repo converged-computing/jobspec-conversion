@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-muffin-3220
+#FLUX: --job-name=grated-cherry-9440
+#FLUX: -c=128
 #FLUX: --queue=amdv100
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 module load python/3.7.2

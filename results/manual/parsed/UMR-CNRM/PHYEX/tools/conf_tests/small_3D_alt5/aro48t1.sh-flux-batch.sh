@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-chair-8963
+#FLUX: --job-name=bloated-cupcake-8585
+#FLUX: -n=4
+#FLUX: --queue=normal256
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

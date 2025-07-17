@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=benchmark
+#FLUX: --queue=long-40core
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

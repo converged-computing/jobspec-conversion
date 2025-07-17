@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-taco-7319
+#FLUX: --job-name=s3
+#FLUX: -N=4
+#FLUX: --queue=normal
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 module purge

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=phat-eagle-8737
+#FLUX: --job-name=fugly-peanut-butter-5027
+#FLUX: -n=512
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 if [ -z "$TAG" ] 

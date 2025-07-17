@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=NFmaster
+#FLUX: -t=1728000
 #FLUX: --urgency=16
 
 reads=$1

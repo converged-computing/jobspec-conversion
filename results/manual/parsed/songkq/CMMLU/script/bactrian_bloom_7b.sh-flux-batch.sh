@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=bactrian_bloom_7b_eval
 #FLUX: -c=4
+#FLUX: --queue=gpu
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

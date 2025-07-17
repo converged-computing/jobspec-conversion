@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=gtsm_template
+#FLUX: --queue=thin
 #FLUX: -t=37800
 #FLUX: --urgency=16
 

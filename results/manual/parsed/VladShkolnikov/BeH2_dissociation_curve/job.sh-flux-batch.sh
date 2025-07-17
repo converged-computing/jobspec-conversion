@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-leader-1372
+#FLUX: --job-name=LiH-dissoc-curve
 #FLUX: -c=4
+#FLUX: --queue=normal_q
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 source activate chem

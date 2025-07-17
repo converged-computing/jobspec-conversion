@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-avocado-2329
+#FLUX: --job-name=doopy-staircase-6244
 #FLUX: --queue=maxwell
 #FLUX: -t=72000
 #FLUX: --urgency=16

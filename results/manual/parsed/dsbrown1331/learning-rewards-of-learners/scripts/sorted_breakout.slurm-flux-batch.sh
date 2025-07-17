@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-banana-6303
+#FLUX: --job-name=LearnPreferences_breakout
+#FLUX: --queue=gpu
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 export TACC_LAUNCHER_PPN='1'

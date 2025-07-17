@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-chip-9886
+#FLUX: --job-name=buttery-spoon-5982
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JordyCoolen/MyCodentifier/pbsjobs/batch_mycoprofiler.sh

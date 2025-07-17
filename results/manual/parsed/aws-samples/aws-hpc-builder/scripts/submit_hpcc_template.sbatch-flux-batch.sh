@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-kerfuffle-6219
+#FLUX: --job-name=purple-eagle-4320
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=arm8xlarge

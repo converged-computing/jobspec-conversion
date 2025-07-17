@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-knife-8437
+#FLUX: --job-name=HLMM
 #FLUX: --urgency=16
 
 arg1=$SLURM_ARRAY_TASK_ID

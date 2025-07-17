@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=baseline
+#FLUX: -c=32
 #FLUX: -t=600
 #FLUX: --urgency=16
 

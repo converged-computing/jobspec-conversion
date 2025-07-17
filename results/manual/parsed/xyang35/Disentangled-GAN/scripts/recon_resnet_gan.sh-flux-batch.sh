@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-staircase-0127
+#FLUX: --job-name=confused-frito-1075
+#FLUX: --queue=bw-gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 cd ..

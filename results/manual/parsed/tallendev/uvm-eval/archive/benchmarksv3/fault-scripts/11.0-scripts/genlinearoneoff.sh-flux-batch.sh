@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-platanos-9969
+#FLUX: --job-name=linear-faults
 #FLUX: --exclusive
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 ITERS=5

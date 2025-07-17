@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-peas-0772
+#FLUX: --job-name=arid-taco-3319
+#FLUX: --queue=t4_dev_q
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module reset

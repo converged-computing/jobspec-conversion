@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-cupcake-8267
+#FLUX: --job-name=cSGLDImageNet
+#FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=777600
 #FLUX: --urgency=16

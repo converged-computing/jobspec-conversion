@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lizard-6241
+#FLUX: --job-name=tart-peanut-butter-4932
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600

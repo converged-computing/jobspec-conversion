@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-car-5777
+#FLUX: --job-name=swin-s-tissuenet-w-2C
+#FLUX: --queue=tier3
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

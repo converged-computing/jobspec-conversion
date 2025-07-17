@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-fudge-1701
+#FLUX: --job-name=rainbow-hippo-4677
 #FLUX: -N=2
 #FLUX: -c=16
 #FLUX: --queue=a40

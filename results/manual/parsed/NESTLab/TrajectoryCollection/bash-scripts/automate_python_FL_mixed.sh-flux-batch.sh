@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-milkshake-9439
+#FLUX: --job-name=FM0660
+#FLUX: --queue=short
 #FLUX: --urgency=16
 
 set -e

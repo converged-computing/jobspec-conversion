@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lamp-2298
+#FLUX: --job-name=eccentric-kitty-4656
 #FLUX: --urgency=16
 
 ff=`ls -1d pos_*`

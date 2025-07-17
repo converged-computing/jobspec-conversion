@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-lentil-1363
+#FLUX: --job-name=benchmark
+#FLUX: --queue=gpu_rtx2080ti
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 source init_lisa.sh

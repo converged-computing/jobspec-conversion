@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-salad-2750
+#FLUX: --job-name=PT_GPU
 #FLUX: -c=4
 #FLUX: -t=43200
 #FLUX: --urgency=16

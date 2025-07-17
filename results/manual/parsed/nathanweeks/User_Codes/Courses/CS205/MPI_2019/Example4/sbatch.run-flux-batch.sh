@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=tart-rabbit-3204
+#FLUX: --job-name=mmult
+#FLUX: -n=4
+#FLUX: --queue=shared
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 WORK_DIR=/scratch/${USER}/${SLURM_JOB_ID}

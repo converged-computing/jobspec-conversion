@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-avocado-4535
+#FLUX: --job-name=slow_man_prop_rts
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=14400

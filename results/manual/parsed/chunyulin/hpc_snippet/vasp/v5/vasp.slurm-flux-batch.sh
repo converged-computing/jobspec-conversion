@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-arm-0100
+#FLUX: --job-name=vasp
 #FLUX: -t=88200
 #FLUX: --urgency=16
 

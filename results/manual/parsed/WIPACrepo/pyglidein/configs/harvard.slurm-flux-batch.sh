@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-truffle-1098
+#FLUX: --job-name=joyous-knife-6209
+#FLUX: -n=2
+#FLUX: --queue=gpu_requeue
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 echo `date`

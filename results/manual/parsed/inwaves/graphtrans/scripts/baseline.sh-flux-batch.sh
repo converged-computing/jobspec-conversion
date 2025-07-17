@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-general-5557
+#FLUX: --job-name=baseline-generalisation-experiments
+#FLUX: --queue=ampere
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

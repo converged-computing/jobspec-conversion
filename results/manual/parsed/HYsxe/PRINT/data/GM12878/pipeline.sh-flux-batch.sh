@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-cattywampus-6097
+#FLUX: --job-name=anxious-gato-8445
+#FLUX: -n=16
+#FLUX: --queue=test
+#FLUX: -t=240
 #FLUX: --urgency=16
 
 genome="hg19"

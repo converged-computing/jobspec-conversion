@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-frito-1043
+#FLUX: --job-name=LAMMPS
 #FLUX: -n=128
 #FLUX: -c=8
 #FLUX: -t=1800

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=vep_embed
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 export CUDA_LAUNCH_BLOCKING='1'

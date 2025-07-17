@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-chair-9112
+#FLUX: --job-name=angry-lettuce-6976
 #FLUX: --urgency=16
 
 NO_COLOR="\033[0m"

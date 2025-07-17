@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-motorcycle-7085
+#FLUX: --job-name=butterscotch-signal-2449
 #FLUX: --queue=main
 #FLUX: -t=3600
 #FLUX: --urgency=16

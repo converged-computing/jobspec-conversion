@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leader-9892
+#FLUX: --job-name=rs2
 #FLUX: -n=5
 #FLUX: -t=86400
 #FLUX: --urgency=16

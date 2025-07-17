@@ -1,5 +1,9 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-egg-8366
+#FLUX: --job-name=none_hpgmg_16_256
+#FLUX: -N=16
+#FLUX: -n=256
+#FLUX: --queue=normal
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 export PATH='$PATH:/home1/02309/staheri/apps/hpgmg-original/build/bin'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-plant-9858
+#FLUX: --job-name=blue-leg-5226
 #FLUX: --queue=batch
 #FLUX: -t=300
 #FLUX: --urgency=16

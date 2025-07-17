@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-soup-3986
+#FLUX: --job-name=train_UNET_pixel
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

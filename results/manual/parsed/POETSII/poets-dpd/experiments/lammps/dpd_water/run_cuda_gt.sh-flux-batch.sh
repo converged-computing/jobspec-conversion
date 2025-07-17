@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-peas-1447
+#FLUX: --job-name=placid-underoos-1115
+#FLUX: --queue=gtx1080
 #FLUX: --urgency=16
 
 module load lammps/2018/cuda

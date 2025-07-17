@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-soup-5306
+#FLUX: --job-name=ray_tune_pos
+#FLUX: -n=48
+#FLUX: --queue=test
+#FLUX: -t=480
 #FLUX: --urgency=16
 
 module load gcc/10.2.0-fasrc01

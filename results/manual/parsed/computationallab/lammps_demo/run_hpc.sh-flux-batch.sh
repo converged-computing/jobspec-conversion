@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-omelette-9463
+#FLUX: --job-name=melt
 #FLUX: --queue=gor
 #FLUX: --urgency=16
 

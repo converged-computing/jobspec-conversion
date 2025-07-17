@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bits-9926
+#FLUX: --job-name=fat-pot-2344
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: -t=540000

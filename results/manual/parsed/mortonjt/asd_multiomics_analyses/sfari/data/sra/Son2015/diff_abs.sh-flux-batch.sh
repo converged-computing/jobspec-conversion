@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lizard-1763
+#FLUX: --job-name=conspicuous-taco-9400
+#FLUX: --queue=ccb
 #FLUX: -t=360000
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-muffin-0995
+#FLUX: --job-name=blue-noodle-7713
 #FLUX: --queue=develgpus
 #FLUX: -t=600
 #FLUX: --urgency=16

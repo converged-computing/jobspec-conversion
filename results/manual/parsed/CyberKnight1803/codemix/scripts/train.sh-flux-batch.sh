@@ -1,6 +1,8 @@
 #!/bin/bash
 #FLUX: --job-name=codemix
 #FLUX: -c=4
+#FLUX: --queue=gpu_a100_8
+#FLUX: -t=90
 #FLUX: --urgency=16
 
 spack unload 

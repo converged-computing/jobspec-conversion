@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-cupcake-7947
+#FLUX: --job-name=fuzzy-hobbit-9241
+#FLUX: -c=32
+#FLUX: --queue=q_thesis
 #FLUX: -t=900
 #FLUX: --urgency=16
 

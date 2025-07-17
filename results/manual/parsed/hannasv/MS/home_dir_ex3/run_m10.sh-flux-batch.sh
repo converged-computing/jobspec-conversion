@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-omelette-8096
+#FLUX: --job-name=astute-banana-4851
+#FLUX: -n=6
+#FLUX: --queue=dgx2q
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 ulimit -s 10240

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-destiny-3967
+#FLUX: --job-name=blank-pedo-2053
 #FLUX: --queue=dineshj-compute
 #FLUX: -t=43200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-house-6209
+#FLUX: --job-name=vmodes
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: --exclusive

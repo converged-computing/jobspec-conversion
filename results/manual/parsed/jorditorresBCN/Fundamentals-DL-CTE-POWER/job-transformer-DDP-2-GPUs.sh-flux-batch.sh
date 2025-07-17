@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=parallel-DDP-2GPUs
+#FLUX: -c=80
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

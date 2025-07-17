@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-plant-6908
+#FLUX: --job-name=JOBNAME
 #FLUX: -N=32
 #FLUX: -n=256
+#FLUX: --queue=knl
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

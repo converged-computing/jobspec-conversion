@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-puppy-7618
+#FLUX: --job-name=preprocessing
+#FLUX: -c=48
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 source ~/.zshrc

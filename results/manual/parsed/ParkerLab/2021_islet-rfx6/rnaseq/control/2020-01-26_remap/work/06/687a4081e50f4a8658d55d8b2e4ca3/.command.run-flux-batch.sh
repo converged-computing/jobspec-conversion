@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-dog-9954
+#FLUX: --job-name=nf-bam_to_fastq_(18)
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 set -e

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=blue-fudge-7964
+#FLUX: --job-name=unet_128_cat
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

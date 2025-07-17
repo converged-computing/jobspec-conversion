@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-cherry-9545
+#FLUX: --job-name=eccentric-fork-1463
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-kerfuffle-7845
+#FLUX: --job-name=fat-gato-3422
+#FLUX: --queue=main
+#FLUX: -t=280800
 #FLUX: --urgency=16
 
 cd $PWD

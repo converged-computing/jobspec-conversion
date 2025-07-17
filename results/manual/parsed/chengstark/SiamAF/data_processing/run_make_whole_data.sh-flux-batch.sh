@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-general-4744
+#FLUX: --job-name=cowy-nalgas-2144
 #FLUX: -c=16
 #FLUX: --queue=overflow
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 source /labs/hulab/stark_conda/bin/activate

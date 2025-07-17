@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-gato-8094
+#FLUX: --job-name=chunky-pastry-5604
+#FLUX: --queue=normal_q
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 if [ -z ${HOME+x} ];

@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=create_split
+#FLUX: --queue=gpu
+#FLUX: -t=60
 #FLUX: --urgency=16
 
 EXE=/bin/bash

@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-banana-3900
+#FLUX: --job-name=Kernel_attenuation
+#FLUX: -N=32
+#FLUX: -n=32
+#FLUX: -t=900
 #FLUX: --urgency=16
 
 export user='$(whoami)'

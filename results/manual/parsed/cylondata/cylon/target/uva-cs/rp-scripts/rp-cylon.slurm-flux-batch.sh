@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-lettuce-9779
+#FLUX: --job-name=misunderstood-cherry-0710
 #FLUX: -N=10
 #FLUX: --exclusive
 #FLUX: --queue=bii

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-avocado-8213
+#FLUX: --job-name=bumfuzzled-plant-0484
+#FLUX: -c=10
+#FLUX: --queue=workq
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

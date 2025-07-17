@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-citrus-6030
+#FLUX: --job-name=afno
 #FLUX: -N=16
 #FLUX: -c=32
 #FLUX: -t=21600

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-train-3594
+#FLUX: --job-name=loopy-animal-2980
+#FLUX: -N=5
+#FLUX: -t=25200
 #FLUX: --urgency=16
 
 set -u

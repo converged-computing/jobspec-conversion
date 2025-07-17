@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-taco-0084
+#FLUX: --job-name=prfprepare
 #FLUX: -c=10
 #FLUX: --queue=regular
 #FLUX: -t=3600

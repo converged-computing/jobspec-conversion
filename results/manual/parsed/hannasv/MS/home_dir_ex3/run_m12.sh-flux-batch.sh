@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-arm-2425
+#FLUX: --job-name=fat-cupcake-7610
+#FLUX: -n=4
+#FLUX: --queue=dgx2q
+#FLUX: -t=87840
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='4'

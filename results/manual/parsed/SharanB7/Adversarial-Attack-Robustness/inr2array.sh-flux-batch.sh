@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-butter-5396
+#FLUX: --job-name=arid-lentil-0118
+#FLUX: -c=10
+#FLUX: --queue=public
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 module load mamba/latest

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-malarkey-4293
+#FLUX: --job-name=confused-hobbit-5854
+#FLUX: -n=4
 #FLUX: --urgency=16
 
 source /etc/profile

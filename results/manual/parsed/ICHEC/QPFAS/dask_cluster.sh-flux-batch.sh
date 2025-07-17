@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-sundae-2246
+#FLUX: --job-name=salted-dog-9920
+#FLUX: -N=2
+#FLUX: --queue=DevQ
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-car-8361
+#FLUX: --job-name=LoopyEdgeOpenACCBeliefPropagationBenchmarks
+#FLUX: --queue=gpu
 #FLUX: -t=25200
 #FLUX: --urgency=16
 

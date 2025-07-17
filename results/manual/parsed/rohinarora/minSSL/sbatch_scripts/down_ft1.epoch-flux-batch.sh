@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=down_ft1
+#FLUX: -c=32
 #FLUX: --queue=ce-mri
 #FLUX: -t=28800
 #FLUX: --urgency=16

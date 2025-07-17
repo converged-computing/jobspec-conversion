@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-parsnip-0355
+#FLUX: --job-name=ornery-hope-6691
+#FLUX: -t=57600
 #FLUX: --urgency=16
 
 nvidia-smi

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-soup-0223
+#FLUX: --job-name=Deep-RBM_DBM_7_bot_real_PERS_base
 #FLUX: --queue=mono
 #FLUX: -t=345600
 #FLUX: --urgency=16

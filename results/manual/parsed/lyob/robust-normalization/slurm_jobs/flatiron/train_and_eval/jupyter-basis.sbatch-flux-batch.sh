@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=jupyter_cpu
 #FLUX: -c=4
+#FLUX: --queue=genx
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

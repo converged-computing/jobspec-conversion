@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-animal-7996
+#FLUX: --job-name=features
 #FLUX: -c=6
+#FLUX: --queue=cbio-gpu
+#FLUX: -t=6000
 #FLUX: --urgency=16
 
 echo 'Running train_clf.sh...'

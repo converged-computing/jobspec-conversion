@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-leopard-6600
+#FLUX: --job-name=dino_neps_linear_eval_finetuning
+#FLUX: --queue=mldlc_gpu-rtx2080
+#FLUX: -t=518399
 #FLUX: --urgency=16
 
 source /home/ferreira/.profile

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-avocado-9149
+#FLUX: --job-name=carnivorous-animal-1859
 #FLUX: -c=4
 #FLUX: --urgency=16
 

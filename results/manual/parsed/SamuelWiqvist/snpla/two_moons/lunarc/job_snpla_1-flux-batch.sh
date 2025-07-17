@@ -1,6 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-nunchucks-4533
+#FLUX: --job-name=snpla
 #FLUX: --exclusive
+#FLUX: --queue=lu
+#FLUX: -t=3600
 #FLUX: --urgency=16
 
 ml load GCC/8.3.0

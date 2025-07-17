@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-frito-8042
+#FLUX: --job-name=confused-sundae-9525
 #FLUX: -c=4
 #FLUX: --queue=batch
 #FLUX: -t=14400

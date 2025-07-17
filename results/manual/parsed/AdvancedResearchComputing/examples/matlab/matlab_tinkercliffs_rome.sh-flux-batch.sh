@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-parrot-9410
+#FLUX: --job-name=blank-kerfuffle-6218
+#FLUX: --queue=dev_q
+#FLUX: -t=600
 #FLUX: --urgency=16
 
 module reset

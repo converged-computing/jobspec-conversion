@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=salted-signal-6266
+#FLUX: --job-name=outstanding-avocado-5487
+#FLUX: --queue=jazayeri
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export MW_NVCC_PATH='/cm/shared/openmind/cuda/9.1/bin  # Cuda driver'

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-muffin-2815
+#FLUX: --job-name=biggan_sample
+#FLUX: --queue=sched_system_all
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

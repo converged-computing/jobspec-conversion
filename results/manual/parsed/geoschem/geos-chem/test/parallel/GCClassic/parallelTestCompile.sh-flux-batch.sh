@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-general-3003
+#FLUX: --job-name=moolicious-ricecake-8577
+#FLUX: -c=8
+#FLUX: --queue=REQUESTED_PARTITION
+#FLUX: -t=30
 #FLUX: --urgency=16
 
 ptRoot=$(cd ..; pwd)

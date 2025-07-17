@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-banana-3048
+#FLUX: --job-name=flex
+#FLUX: -n=4
+#FLUX: --queue=parallel
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export NETCDF='/appl/opt/netcdf4/gcc-7.3.0/intelmpi-18.0.2/4.6.1/'

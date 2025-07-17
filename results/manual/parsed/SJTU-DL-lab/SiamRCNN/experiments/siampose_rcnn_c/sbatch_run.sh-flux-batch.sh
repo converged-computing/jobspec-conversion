@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-bike-1614
+#FLUX: --job-name=siam_rcnn
+#FLUX: --queue=gpu
 #FLUX: --urgency=16
 
 export PYTHONPATH='$ROOT:$PYTHONPATH'

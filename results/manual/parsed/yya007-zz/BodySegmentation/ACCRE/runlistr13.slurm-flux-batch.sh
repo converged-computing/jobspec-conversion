@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-pastry-8707
+#FLUX: --job-name=astute-carrot-1074
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000

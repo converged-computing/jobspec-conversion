@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-noodle-7014
+#FLUX: --job-name=psycho-leader-3210
 #FLUX: -c=10
 #FLUX: --exclusive
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 ulimit -v unlimited

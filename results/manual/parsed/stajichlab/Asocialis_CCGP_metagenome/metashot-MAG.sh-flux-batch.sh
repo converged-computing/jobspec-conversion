@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-muffin-9885
+#FLUX: --job-name=boopy-soup-3038
+#FLUX: -n=32
+#FLUX: --queue=batch
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

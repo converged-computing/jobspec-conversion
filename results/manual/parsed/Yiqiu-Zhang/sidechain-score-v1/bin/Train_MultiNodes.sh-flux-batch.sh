@@ -2,6 +2,7 @@
 #FLUX: --job-name=graphIPA_M
 #FLUX: -N=2
 #FLUX: -c=8
+#FLUX: --queue=bio_s1
 #FLUX: --urgency=16
 
 export NCCL_IB_DISABLE='1'

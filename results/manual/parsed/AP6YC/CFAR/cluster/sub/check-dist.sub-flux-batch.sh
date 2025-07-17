@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-toaster-3291
+#FLUX: --job-name=OAR-0CD
 #FLUX: -n=32
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peas-5607
+#FLUX: --job-name=loopy-butter-8967
 #FLUX: --urgency=16
 
 export IFS=';'

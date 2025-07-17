@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-poo-3673
+#FLUX: --job-name=evasive-cattywampus-5826
+#FLUX: --queue=meta_gpu-ti
 #FLUX: --urgency=16
 
 source activate pytorch

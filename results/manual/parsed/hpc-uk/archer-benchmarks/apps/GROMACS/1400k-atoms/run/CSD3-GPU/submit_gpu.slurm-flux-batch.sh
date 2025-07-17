@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-house-8951
+#FLUX: --job-name=gmx_bench
 #FLUX: -n=12
+#FLUX: --queue=pascal
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

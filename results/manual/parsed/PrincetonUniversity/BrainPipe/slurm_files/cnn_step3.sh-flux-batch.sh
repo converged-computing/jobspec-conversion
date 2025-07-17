@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-taco-5972
+#FLUX: --job-name=moolicious-pastry-8435
+#FLUX: -c=10
+#FLUX: --queue=all
+#FLUX: -t=6000
 #FLUX: --urgency=16
 
 echo "In the directory: `pwd` "

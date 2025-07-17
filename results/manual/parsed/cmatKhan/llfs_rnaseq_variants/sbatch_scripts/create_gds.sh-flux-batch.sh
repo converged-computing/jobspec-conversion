@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-lemon-7283
+#FLUX: --job-name=vcf_to_gds
 #FLUX: --urgency=16
 
 export SINGULARITY_TMPDIR='/tmp'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-fudge-0404
+#FLUX: --job-name=tl_rpc_lambd
 #FLUX: -N=2
 #FLUX: --queue=cm2_tiny
 #FLUX: -t=120

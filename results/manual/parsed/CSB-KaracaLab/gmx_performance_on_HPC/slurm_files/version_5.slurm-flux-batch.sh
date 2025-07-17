@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-buttface-8614
+#FLUX: --job-name=akya_5.1.4_pds
+#FLUX: -n=40
+#FLUX: --queue=akya-cuda
 #FLUX: -t=1296000
 #FLUX: --urgency=16
 

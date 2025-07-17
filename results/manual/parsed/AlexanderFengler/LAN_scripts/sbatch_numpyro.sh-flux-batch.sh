@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lizard-4499
+#FLUX: --job-name=numpyro_sampler
+#FLUX: -c=8
+#FLUX: --queue=gpu
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

@@ -1,7 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=fat-hippo-4066
+#FLUX: --job-name=loopy-latke-8508
 #FLUX: --exclusive
 #FLUX: --queue=lanka-v3
+#FLUX: -t=14400
 #FLUX: --urgency=16
 
 cd /data/scratch/willow/FinchBenchmarks/graphs

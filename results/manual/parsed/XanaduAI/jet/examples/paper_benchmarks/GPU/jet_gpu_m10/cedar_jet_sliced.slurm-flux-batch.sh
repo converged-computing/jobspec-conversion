@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chair-5021
+#FLUX: --job-name=bloated-destiny-9150
 #FLUX: --exclusive
 #FLUX: -t=1800
 #FLUX: --urgency=16

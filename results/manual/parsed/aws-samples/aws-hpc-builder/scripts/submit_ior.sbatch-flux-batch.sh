@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-knife-7841
+#FLUX: --job-name=phat-staircase-5022
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=gxlarge

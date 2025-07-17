@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-malarkey-2270
+#FLUX: --job-name=scruptious-onion-6563
 #FLUX: -c=6
 #FLUX: --queue=gpu_7d1g
 #FLUX: --urgency=16

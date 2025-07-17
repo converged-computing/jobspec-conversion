@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-kerfuffle-5670
+#FLUX: --job-name=joyous-peanut-3065
 #FLUX: -n=8
 #FLUX: --queue=openfoam
 #FLUX: --urgency=16

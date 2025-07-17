@@ -1,5 +1,8 @@
 #!/bin/bash
-#FLUX: --job-name=confused-bike-6028
+#FLUX: --job-name=DL4N_full_prod
+#FLUX: -N=64
+#FLUX: --queue=flex
+#FLUX: -t=7800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fat-nalgas-8437
+#FLUX: --job-name=bricky-hope-7095
+#FLUX: --queue=GPU-small
+#FLUX: -t=28800
 #FLUX: --urgency=16
 
 export PYTHONPATH='/pylon5/pscstaff/welling/git/tensorflow_apps/src:$PYTHONPATH'

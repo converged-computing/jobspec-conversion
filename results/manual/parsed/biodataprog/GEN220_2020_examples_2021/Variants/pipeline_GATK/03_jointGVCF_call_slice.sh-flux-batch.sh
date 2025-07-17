@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-bike-5648
+#FLUX: --job-name=slice.GVCFGeno
 #FLUX: -n=2
+#FLUX: --queue=intel
 #FLUX: --urgency=16
 
 hostname

@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-gato-9845
+#FLUX: --job-name=baby-lm
 #FLUX: --exclusive
+#FLUX: --queue=ampere
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lizard-9191
+#FLUX: --job-name=32_Sedov
+#FLUX: -t=10800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='1'

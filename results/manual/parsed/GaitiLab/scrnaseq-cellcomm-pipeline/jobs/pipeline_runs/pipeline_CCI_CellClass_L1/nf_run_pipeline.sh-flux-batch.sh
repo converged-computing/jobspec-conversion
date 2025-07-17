@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-chair-6999
+#FLUX: --job-name=launch_cci_pipeline_CCI_CellClass_L1
 #FLUX: --queue=long
 #FLUX: -t=604800
 #FLUX: --urgency=16

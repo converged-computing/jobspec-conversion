@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=vo_pes_MOLECULE
 #FLUX: --queue=pbatch
+#FLUX: -t=1800
 #FLUX: --urgency=16
 
 export NCCL_DEBUG='INFO'

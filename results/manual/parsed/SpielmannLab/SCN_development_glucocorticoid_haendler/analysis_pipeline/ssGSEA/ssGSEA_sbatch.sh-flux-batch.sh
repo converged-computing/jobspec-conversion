@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cattywampus-9300
+#FLUX: --job-name=ssgsea
+#FLUX: -c=3
 #FLUX: --queue=shortterm
 #FLUX: --urgency=16
 

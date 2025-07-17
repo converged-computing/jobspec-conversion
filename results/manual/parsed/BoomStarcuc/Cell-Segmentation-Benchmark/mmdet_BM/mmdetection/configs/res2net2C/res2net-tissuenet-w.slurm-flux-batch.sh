@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pedo-9597
+#FLUX: --job-name=res2net-tissuenet-w-2C
+#FLUX: --queue=tier3
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

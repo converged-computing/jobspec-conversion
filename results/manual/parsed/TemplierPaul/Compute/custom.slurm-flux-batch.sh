@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-despacito-1983
+#FLUX: --job-name=Pytest
 #FLUX: -c=24
 #FLUX: --queue=debug
 #FLUX: -t=7200

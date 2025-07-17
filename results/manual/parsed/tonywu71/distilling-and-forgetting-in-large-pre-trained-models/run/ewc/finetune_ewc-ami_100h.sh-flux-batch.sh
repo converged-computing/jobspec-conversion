@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=milky-bits-9658
+#FLUX: --job-name=finetune_ewc_ami_100h
+#FLUX: --queue=ampere
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

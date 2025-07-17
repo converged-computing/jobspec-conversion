@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-omelette-0094
+#FLUX: --job-name=angry-omelette-0139
 #FLUX: -n=32
+#FLUX: --queue=_______
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

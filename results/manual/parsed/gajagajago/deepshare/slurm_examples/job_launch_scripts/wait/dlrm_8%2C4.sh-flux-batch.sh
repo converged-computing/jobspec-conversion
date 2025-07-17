@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-leopard-4227
+#FLUX: --job-name=dlrm
 #FLUX: -N=4
 #FLUX: -n=8
 #FLUX: -c=3

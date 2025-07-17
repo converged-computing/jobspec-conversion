@@ -1,6 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=alf_NGC4365_SN100
 #FLUX: -c=16
+#FLUX: --queue=cosma
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

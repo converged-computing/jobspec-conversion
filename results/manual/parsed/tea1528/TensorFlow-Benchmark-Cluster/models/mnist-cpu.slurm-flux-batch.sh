@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-arm-6829
+#FLUX: --job-name=nerdy-milkshake-3922
 #FLUX: --queue=maxwell
 #FLUX: -t=72000
 #FLUX: --urgency=16

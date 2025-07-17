@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-squidward-7115
+#FLUX: --job-name=swampy-sundae-3405
 #FLUX: --urgency=16
 
 module load miniconda3/v4

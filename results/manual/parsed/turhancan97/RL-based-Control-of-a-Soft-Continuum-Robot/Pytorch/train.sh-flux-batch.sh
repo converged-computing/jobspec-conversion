@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=train
+#FLUX: -n=8
+#FLUX: --queue=all
 #FLUX: --urgency=16
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'

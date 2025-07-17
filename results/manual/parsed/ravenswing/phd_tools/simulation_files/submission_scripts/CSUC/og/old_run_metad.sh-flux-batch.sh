@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-snack-5873
+#FLUX: --job-name=IL-8-a2b1
+#FLUX: --queue=gpu
+#FLUX: -t=345600
 #FLUX: --urgency=16
 
 export GMX='gmx_mpi'

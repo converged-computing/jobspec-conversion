@@ -210,6 +210,12 @@ def get_parser():
         help="Output directory",
         default=tempfile.gettempdir(),
     )
+    parser.add_argument(
+        "--complexity",
+        help="Calculate (and parse) complexity",
+        default=False,
+        action="store_true",
+    )
     return parser
 
 
@@ -249,26 +255,30 @@ def main():
             del res["deletions"]
 
         # Complexity
-        complexity = calculate_complexity(res["filename"])
+        complexity = None
+        if args.complexity:
+            complexity = calculate_complexity(res["filename"])
 
         model = "gemini"
         if "/gemma/" in res['filename']:
             model = "gemma"
+        elif "/manual/" in res['filename']:
+            model = "manual"
 
         # Add in the metadata about complexity, etc.
+        score = None
+        command = None
         try:
-            metadata = json.loads(
-                read_file(res["filename"].replace("-flux-batch.sh", "-metadata.json"))
-            )
-            res["metadata"] = metadata
-            score = res["metadata"]["complexity_score"]
-            command = res["metadata"]["application"].split(" ")[0]
-            if os.sep in command:
-                command = os.path.basename(command)
+            metadata_file = res["filename"].replace("-flux-batch.sh", "-metadata.json")
+            if os.path.exists(metadata_file):
+                metadata = json.loads(read_file(metadata_file))
+                res["metadata"] = metadata
+                score = res["metadata"]["complexity_score"]
+                command = res["metadata"]["application"].split(" ")[0]
+                if os.sep in command:
+                    command = os.path.basename(command)            
         except:
-            print(f"Manged json for {res['filename']}")
-            score = None
-            command = None
+            print(f"Mangled json for {res['filename']}")
 
         res["cyclomatic_complexity"] = complexity
         complete.append(res)
@@ -323,6 +333,10 @@ def main():
 
     # Save all data
     write_json(complete, os.path.join(args.outdir, "gemini-jobspec-to-flux.json"))
+
+    # Cut out early if not doing complexity
+    if not args.complexity:
+       sys.exit()
 
     # Plot 2: look at commands
     fig = plt.figure(figsize=(20, 6))

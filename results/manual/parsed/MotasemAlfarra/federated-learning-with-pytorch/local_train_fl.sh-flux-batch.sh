@@ -1,0 +1,45 @@
+#!/bin/bash
+#FLUX: --job-name=confused-sundae-9525
+#FLUX: -c=4
+#FLUX: --queue=batch
+#FLUX: -t=14400
+#FLUX: --urgency=16
+
+CONST=0
+source activate rs_fl
+nvidia-smi
+python train_local_model.py \
+--dataset $DATASET \
+--model $MODEL \
+--experiment_name $EXP_NAME \
+--aug_method $AUG_METHOD \
+--sigma $SIGMA \
+--batch_sz $BATCH_SZ \
+--epochs ${LOCALEPOCHS} \
+--lr $LR \
+--step_sz $STEP_SZ \
+--num_clients $NUM_CLIENTS \
+--checkpoint $CHECKPOINT \
+--client_idx ${SLURM_ARRAY_TASK_ID}
+echo TRAINING-IS-FINISHED
+if [ ${SLURM_ARRAY_TASK_ID} == $NUM_CLIENTS ]
+then
+    # python model_averaging.py --checkpoint $CHECKPOINT
+    TOTALEPOCHS=$((TOTALEPOCHS - LOCALEPOCHS))
+    # echo $TOTALEPOCHS
+    if (($TOTALEPOCHS>$CONST))
+    then
+        ((++COUNTER))
+        # echo $COUNTER
+        TRAINING_JOB_NAME=TRAIN-$EXP_NAME-COMMUNICATION-ROUND-$COUNTER
+        sbatch --job-name=${TRAINING_JOB_NAME} --array=[1-$NUM_CLIENTS] \
+        --export=ALL,MODEL=$MODEL,DATASET=$DATASET,TOTALEPOCHS=${TOTALEPOCHS},LOCALEPOCHS=${LOCALEPOCHS},AUG_METHOD=$AUG_METHOD,SIGMA=$SIGMA,EXP_NAME=$EXP_NAME,CHECKPOINT=$CHECKPOINT,NUM_CLIENTS=$NUM_CLIENTS,LR=$LR,STEP_SZ=$STEP_SZ,BATCH_SZ=$BATCH_SZ,COUNTER=$COUNTER,SKIP=$SKIP,MAX=$MAX,FINETUNE_EPOCHS=$FINETUNE_EPOCHS \
+        local_train_fl.sh
+    else
+        echo LOCAL-TRAINING-IS-DONE
+        CERTIFICATION_JOB_NAME=LOCAL-CERTIFY-$EXP_NAME
+        sbatch --job-name=${CERTIFICATION_JOB_NAME} --array=[1-$NUM_CLIENTS] \
+        --export=ALL,MODEL=$MODEL,DATASET=$DATASET,TOTALEPOCHS=${TOTALEPOCHS},LOCALEPOCHS=${LOCALEPOCHS},AUG_METHOD=$AUG_METHOD,SIGMA=$SIGMA,EXP_NAME=$EXP_NAME,CHECKPOINT=$CHECKPOINT,NUM_CLIENTS=$NUM_CLIENTS,LR=$LR,STEP_SZ=$STEP_SZ,BATCH_SZ=$BATCH_SZ,COUNTER=$COUNTER,SKIP=$SKIP,MAX=$MAX,FINETUNE_EPOCHS=$FINETUNE_EPOCHS \
+        certify_local_models.sh
+    fi
+fi

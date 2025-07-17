@@ -1,0 +1,28 @@
+#!/bin/bash
+#FLUX: --job-name=grated-bike-1236
+#FLUX: -c=20
+#FLUX: -t=259200
+#FLUX: --urgency=16
+
+export AGALMA_DB='/gpfs/data/cdunn/analyses/agalma-siphonophora-20170501_reduced.sqlite'
+export BIOLITE_RESOURCES='threads=${SLURM_CPUS_ON_NODE},memory=${SLURM_MEM_PER_NODE}M'
+
+sleep $((SLURM_ARRAY_TASK_ID*60))
+set -e
+export AGALMA_DB="/gpfs/data/cdunn/analyses/agalma-siphonophora-20170501_reduced.sqlite"
+export BIOLITE_RESOURCES="threads=${SLURM_CPUS_ON_NODE},memory=${SLURM_MEM_PER_NODE}M"
+IDS=(
+	HWI-ST625-159-C4MVCACXX-5-CCGTCC
+	HWI-ST625-159-C4MVCACXX-5-AGTTCC
+	HWI-ST625-159-C4MVCACXX-5-GTCCGC
+	HWI-ST625-159-C4MVCACXX-5-TGACCA
+	HWI-ST625-181-C76K5ACXX-2-ATCACG
+	HWI-ST625-181-C76K5ACXX-2-ACTTGA
+	HWI-ST625-181-C76K5ACXX-2-TAGCTT
+	HWI-ST625-181-C76K5ACXX-2-GGCTAC
+	HWI-ST625-181-C76K5ACXX-2-CTTGTA
+	K00162-189-HJTYGBBXX-7-NCAGTG
+)
+ID=${IDS[$SLURM_ARRAY_TASK_ID-1]}
+echo $ID
+agalma transcriptome --id $ID --ss RF

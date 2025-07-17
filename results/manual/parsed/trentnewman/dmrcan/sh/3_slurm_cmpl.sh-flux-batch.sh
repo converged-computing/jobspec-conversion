@@ -1,0 +1,68 @@
+#!/bin/bash
+#FLUX: --job-name=creamy-itch-0853
+#FLUX: --urgency=16
+
+SECONDS=0
+echo -e "~~~   ***   ~~~"
+echo -e "    slurmie.sh    "
+echo -e "~~~         ~~~"
+echo -e "\nBASH: prepare out3";
+rm -rf ../out3
+mkdir ../out3
+mkdir ../out3/cons
+echo -e "\njob starting..." 
+echo -e "\nBASH: make .slurm file";
+jdir=../slurm
+jnam=3_cinf.slurm
+cd $jdir
+rm -f runn* #remove prev run files
+rm -f 3_cinf-slurm* #remove prev output file
+rm -f $jnam
+touch $jnam
+echo "#!/bin/bash" > $jnam
+echo "# Trent 2022" >> $jnam 
+echo "# "$jnam".slurm" >> $jnam
+echo "" >> $jnam
+echo "# Request computing resources" >> $jnam
+echo "#SBATCH --nodes=1" >> $jnam
+echo "#SBATCH --ntasks=1" >> $jnam
+echo "#SBATCH --time=2:00:00" >> $jnam
+echo "#SBATCH --mem-per-cpu=8G" >> $jnam
+echo "#SBATCH --job-name=\"sh-1\"" >> $jnam
+echo "#SBATCH --output=3_cinf-slurm.out" >> $jnam
+echo "" >> $jnam
+echo "# Environment variables" >> $jnam
+echo -e "echo \"SLURM_JOBID=\"\$SLURM_JOBID" >> $jnam
+echo -e "echo \"SLURM_JOB_NODELIST=\"\$SLURM_JOB_NODELIST" >> $jnam
+echo -e "echo \"SLURM_NNODES=\"\$SLURM_NNODES" >> $jnam
+echo -e "echo \"SLURMTMPDIR=\"\$SLURMTMPDIR" >> $jnam
+echo -e "echo \"SLURM_SUBMIT_DIR=\"\$SLURM_SUBMIT_DIR" >> $jnam
+echo "" >> $jnam
+echo "# Load required modules" >> $jnam
+echo -e "echo \"\n###\"" >> $jnam
+echo -e "echo \"\nLoading modules\"" >> $jnam
+echo -e "echo \"\n###\n\"" >> $jnam
+echo "module purge" >> $jnam
+echo "module load gcccore/8.3.0" >> $jnam
+echo "module load python/3.7.4" >> $jnam
+echo "# -> python packages" >> $jnam
+echo "pip install --user tqdm | grep -v 'already satisfied'" >> $jnam
+echo "pip install --user matplotlib | grep -v 'already satisfied'" >> $jnam
+echo "pip install --user pysam | grep -v 'already satisfied'" >> $jnam
+echo "pip install --user Bio | grep -v 'already satisfied'" >> $jnam
+echo "pip install --user gffutils | grep -v 'already satisfied'" >> $jnam
+echo "pip install --user dask | grep -v 'already satisfied'" >> $jnam
+echo "" >> $jnam
+echo "# Scripts" >> $jnam
+echo -e "echo \"\n\n###\"" >> $jnam
+echo -e "echo \"\nRunning scripts\"" >> $jnam
+echo -e "echo \"\n###\n\"" >> $jnam
+echo "time srun -n 1 sh ../sh/3_cmpl.sh" >> $jnam
+echo "" >> $jnam
+echo "# tehehe" >> $jnam
+echo -e "\nBASH: submit job";
+cd $jdir
+sbatch $jnam
+duration=$SECONDS
+echo -e "\n~~~ end ~~~"
+echo -e "~~~ *** ~~~"

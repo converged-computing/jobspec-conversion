@@ -1,0 +1,21 @@
+#!/bin/bash
+#FLUX: --job-name=cuquantum
+#FLUX: -c=8
+#FLUX: --queue=a100_normal_q
+#FLUX: --urgency=16
+
+module load containers/apptainer
+USER=`whoami`
+CTNR=/global/arcsingularity/cuquantum-appliance_23.06.sif
+BOPTS="--bind /home/$USER,/projects"
+[[ -d /globalscratch/$USER ]] && BOPTS="$BOPTS,/globalscratch/$USER"
+cd $SLURM_SUBMIT_DIR
+WORKDIR=/home/cuquantum/examples
+echo "Running three examples in the Nvidia cuQuantum container"
+echo "jobid: $SLURM_JOBID, working directory: `pwd`"
+apptainer exec --nv $BOPTS $CTNR python $WORKDIR/ghz.py --nqubits 20 --nsamples 10000 --ngpus 1 > ghz_out.$SLURM_JOBID.txt
+echo "Ran GHZ example, output written to ghz_out.$SLURM_JOBID.txt"
+apptainer exec --nv $BOPTS $CTNR python $WORKDIR/hidden_shift.py --nqubits 20 --nsamples 100000 --ngpus 1 > hidden_shift_out.$SLURM_JOBID.txt
+echo "Ran Hidden-Shift example, output written to hidden_shift_out.$SLURM_JOBID.txt"
+apptainer exec --nv $BOPTS $CTNR python $WORKDIR/simon.py --nbits 15 --ngpus 1 > simon_out.$SLURM_JOBID.txt
+echo "Ran Simon example, output written to simon_out.$SLURM_JOBID.txt"

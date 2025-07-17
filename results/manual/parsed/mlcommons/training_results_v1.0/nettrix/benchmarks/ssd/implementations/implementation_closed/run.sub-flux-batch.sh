@@ -1,0 +1,70 @@
+#!/bin/bash
+#FLUX: --job-name=single_stage_detector
+#FLUX: --urgency=16
+
+set -euxo pipefail
+: "${DGXSYSTEM:?DGXSYSTEM not set}"
+: "${CONT:?CONT not set}"
+: "${NEXP:=5}"
+: "${DATESTAMP:=$(date +'%y%m%d%H%M%S%N')}"
+: "${CLEAR_CACHES:=1}"
+: "${DATADIR:=/mnt/ssd/datasets/coco2017}"
+: "${LOGDIR:=./results}"
+: "${API_LOG_DIR:=./api_logs}" # apiLog.sh output dir
+: "${PRETRAINED_DIR:=$(expr match "${DGXSYSTEM}" "DGX1" > /dev/null && echo "/home/mfrank/data" || echo "${DATADIR}/coco2017/models")}"
+readonly _logfile_base="${LOGDIR}/${DATESTAMP}"
+readonly _cont_name=single_stage_detector
+_cont_mounts="${DATADIR}:/data,${LOGDIR}:/results,${PRETRAINED_DIR}:/pretrained/mxnet"
+if [ "${API_LOGGING:-}" -eq 1 ]; then
+    _cont_mounts="${_cont_mounts},${API_LOG_DIR}:/logs"
+fi
+MLPERF_HOST_OS=$(srun -N1 -n1 bash <<EOF
+    source /etc/os-release
+    source /etc/dgx-release || true
+    echo "\${PRETTY_NAME} / \${DGX_PRETTY_NAME:-???} \${DGX_OTA_VERSION:-\${DGX_SWBUILD_VERSION:-???}}"
+EOF
+)
+export MLPERF_HOST_OS
+mkdir -p "${LOGDIR}"
+srun --ntasks="${SLURM_JOB_NUM_NODES}" mkdir -p "${LOGDIR}"
+srun --ntasks="${SLURM_JOB_NUM_NODES}" --container-image="${CONT}" --container-name="${_cont_name}" true
+for _experiment_index in $(seq 1 "${NEXP}"); do
+    (
+        # quick health test for nccl allreduce: "44000000" is approximately the
+        # size (in bytes) of our entire fp16 weight tensor.  There's an
+        # additional (small) fp32 all-reduce for the beta-gamma for the
+        # batch-norms (so about as many elements as the sum of channel counts
+        # across all layers so maybe 100Kbytes), and maybe we should do an
+        # allreduce test on that as well.
+        #srun --mpi=pmix --ntasks="$(( SLURM_JOB_NUM_NODES * DGXNGPU ))" --ntasks-per-node="${DGXNGPU}" \
+        #        --container-name="${_cont_name}" \
+        #        all_reduce_perf_mpi --minbytes 44000000 --maxbytes 44000000 \
+        #    --check 1 --op sum --datatype half --blocking 1
+        #srun --mpi=pmix --ntasks="$(( SLURM_JOB_NUM_NODES * DGXNGPU ))" --ntasks-per-node="${DGXNGPU}" \
+        #    --container-name="${_cont_name}" \
+        #     all_reduce_perf_mpi --minbytes 120000 --maxbytes 120000 \
+        #     --check 1 --op sum --blocking 1
+        # # quick check on latency of main Horovod MPI computation (MPI_Allreduce of two 64-bit integers, MPI_BAND op)
+        # srun --mpi=pmix --ntasks="$(( SLURM_JOB_NUM_NODES * DGXNGPU ))" --ntasks-per-node="${DGXNGPU}" \
+        #     --container-name="${_cont_name}" \
+        #     ./tests/horovod_mpi_test
+        echo "Beginning trial ${_experiment_index} of ${NEXP}"
+        # Print system info
+        srun -N1 -n1 --container-name="${_cont_name}" python -c "
+import mlperf_log_utils
+from mlperf_logging.mllog import constants
+mlperf_log_utils.mlperf_submission_log(constants.SSD)"
+        # Clear caches
+        if [ "${CLEAR_CACHES}" -eq 1 ]; then
+            srun --ntasks="${SLURM_JOB_NUM_NODES}" bash -c "echo -n 'Clearing cache on ' && hostname && sync && sudo /sbin/sysctl vm.drop_caches=3"
+            srun --ntasks="${SLURM_JOB_NUM_NODES}" --container-name="${_cont_name}" python -c "
+from mlperf_logging.mllog import constants
+from mlperf_log_utils import log_event
+log_event(key=constants.CACHE_CLEAR, value=True)"
+        fi
+        # Run experiment
+        srun --mpi=pmix --ntasks="$(( SLURM_JOB_NUM_NODES * DGXNGPU ))" --ntasks-per-node="${DGXNGPU}" \
+            --container-name="${_cont_name}" --container-mounts="${_cont_mounts}" \
+            ./run_and_time.sh
+    ) |& tee "${_logfile_base}_${_experiment_index}.log"
+done

@@ -1,0 +1,49 @@
+#!/bin/bash
+#FLUX: --job-name=fat-dog-9839
+#FLUX: --gpus-per-task=1
+#FLUX: --queue=batch
+#FLUX: -t=7200
+#FLUX: --urgency=16
+
+export NCCL_DEBUG='INFO'
+
+set -e
+PERSISTENT_LOGGING_DIR=../results/$SLURM_JOB_NAME/logs
+PERSISTENT_CHECKPOINTS_DIR=$PERSISTENT_LOGGING_DIR/checkpoints
+PERSISTENT_TENSORBOARD_DIR=$PERSISTENT_LOGGING_DIR/tensorboard
+mkdir -p $PERSISTENT_CHECKPOINTS_DIR
+mkdir -p $PERSISTENT_TENSORBOARD_DIR
+LOCAL_LOGGING_DIR=/tmp/$SLURM_JOB_NAME/$SLURM_JOB_ID/logs
+LOCAL_CHECKPOINTS_DIR=$LOCAL_LOGGING_DIR/checkpoints
+LOCAL_TENSORBOARD_DIR=$LOCAL_LOGGING_DIR/tensorboard
+mkdir -p $LOCAL_CHECKPOINTS_DIR
+mkdir -p $LOCAL_TENSORBOARD_DIR
+module purge
+module load cuda/10.1.243
+conda activate ../env
+NVDASHBOARD_PORT=8000
+python -m jupyterlab_nvdashboard.server $NVDASHBOARD_PORT &
+NVDASHBOARD_PID=$!
+TENSORBOARD_PORT=0
+tensorboard --logdir $LOCAL_TENSORBOARD_DIR --port $TENSORBOARD_PORT --bind_all &
+TENSORBOARD_PID=$!
+export NCCL_DEBUG=INFO
+horovodrun -np $SLURM_NTASKS python $TRAINING_SCRIPT \
+    --data-dir $DATA_DIR \
+    --read-checkpoints-from $PERSISTENT_CHECKPOINTS_DIR \
+    --write-checkpoints-to  $LOCAL_CHECKPOINTS_DIR \
+    --tensorboard-logging-dir $LOCAL_TENSORBOARD_DIR \
+    --batch-size 64 &
+HOROVODRUN_PID=$!
+RSYNC_DELAY_SECONDS=600
+HOROVODRUN_STATE=$(ps -h --pid $HOROVODRUN_PID -o state | head -n 1)
+while [ "${HOROVODRUN_STATE}" != "" ]
+    do
+        rsync -a $LOCAL_CHECKPOINTS_DIR/ $PERSISTENT_CHECKPOINTS_DIR
+        rsync -a $LOCAL_TENSORBOARD_DIR/ $PERSISTENT_TENSORBOARD_DIR
+        sleep $RSYNC_DELAY_SECONDS
+        HOROVODRUN_STATE=$(ps -h --pid $HOROVODRUN_PID -o state | head -n 1)
+done
+kill $NVDASHBOARD_PID $TENSORBOARD_PID
+rsync -a $LOCAL_CHECKPOINTS_DIR/ $PERSISTENT_CHECKPOINTS_DIR
+rsync -a $LOCAL_TENSORBOARD_DIR/ $PERSISTENT_TENSORBOARD_DIR

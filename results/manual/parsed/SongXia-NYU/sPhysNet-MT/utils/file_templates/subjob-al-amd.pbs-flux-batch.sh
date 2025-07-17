@@ -1,0 +1,12 @@
+#!/bin/bash
+#FLUX: --job-name=amd-e{}
+#FLUX: -c=4
+#FLUX: -t=129600
+#FLUX: --urgency=16
+
+module purge
+singularity exec --nv \
+	--overlay ~/conda_envs/pytorch1.8.1-rocm4.0.1-extra-5GB-3.2M.ext3:ro \
+            --overlay ~/conda_envs/pytorch1.8.1-rocm4.0.1.sqf:ro \
+            /scratch/work/public/hudson/images/rocm-4.0.1.sif \
+            bash -c "source /ext3/env.sh; export PYTHONPATH=../dataProviders:$PYTHONPATH; python active_learning.py --config_name config-exp{}.txt --select NUMBER --candidate BELOW_N_HEAVY --number 10000 --init_size 10000 --action_n_heavy '20 20 20 20 20 20 20 20 20' --init_n_heavy 20 --fixed_valid  "

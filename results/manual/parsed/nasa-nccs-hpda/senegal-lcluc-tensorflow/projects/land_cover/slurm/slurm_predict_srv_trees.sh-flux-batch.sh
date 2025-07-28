@@ -1,5 +1,7 @@
 #!/bin/bash
 #FLUX: --job-name=3sl
+#FLUX: -c=10
+#FLUX: -t=432000
 #FLUX: --urgency=16
 
 export PYTHONPATH='/adapt/nobackup/people/jacaraba/development/tensorflow-caney'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-bits-5250
+#FLUX: --job-name=goodbye-kerfuffle-3562
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=3600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-blackbean-4464
+#FLUX: --job-name=dirty-bits-9891
 #FLUX: --queue=gpu20
 #FLUX: -t=36000
 #FLUX: --urgency=16

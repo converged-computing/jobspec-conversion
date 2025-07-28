@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-general-6475
+#FLUX: --job-name=fat-frito-3801
 #FLUX: -c=24
 #FLUX: --queue=small
 #FLUX: -t=259200

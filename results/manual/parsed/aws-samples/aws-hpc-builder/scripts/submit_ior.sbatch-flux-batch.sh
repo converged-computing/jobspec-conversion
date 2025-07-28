@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-staircase-5022
+#FLUX: --job-name=astute-pastry-3676
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=gxlarge

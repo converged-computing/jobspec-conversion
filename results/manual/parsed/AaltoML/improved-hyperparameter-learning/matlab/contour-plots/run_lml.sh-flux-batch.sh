@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-hippo-6927
+#FLUX: --job-name=dinosaur-fork-0142
 #FLUX: -c=3
 #FLUX: --queue=batch
 #FLUX: -t=360000

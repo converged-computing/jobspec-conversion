@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lamp-9826
+#FLUX: --job-name=scruptious-car-4896
 #FLUX: -c=10
 #FLUX: -t=21600
 #FLUX: --urgency=16

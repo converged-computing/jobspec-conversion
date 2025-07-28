@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-chip-5685
+#FLUX: --job-name=chocolate-pedo-8443
 #FLUX: -N=8
 #FLUX: --queue=regular
 #FLUX: -t=3600

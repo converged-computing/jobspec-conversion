@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-mango-3760
+#FLUX: --job-name=swampy-peas-3474
 #FLUX: --queue=all
 #FLUX: -t=21600
 #FLUX: --urgency=16

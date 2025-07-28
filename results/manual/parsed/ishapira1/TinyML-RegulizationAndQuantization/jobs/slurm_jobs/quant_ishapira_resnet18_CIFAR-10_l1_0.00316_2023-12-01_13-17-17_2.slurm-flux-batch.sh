@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-train-0942
+#FLUX: --job-name=spicy-pancake-8875
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

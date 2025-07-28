@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-peanut-9314
+#FLUX: --job-name=carnivorous-signal-9253
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=arm8xlarge

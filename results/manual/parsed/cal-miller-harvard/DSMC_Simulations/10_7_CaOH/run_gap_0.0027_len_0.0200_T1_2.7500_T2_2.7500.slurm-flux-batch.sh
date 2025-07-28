@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-house-7233
+#FLUX: --job-name=delicious-blackbean-3635
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

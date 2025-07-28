@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-soup-5700
+#FLUX: --job-name=psycho-punk-7925
 #FLUX: --queue=mhealth,...
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export IFS=';'

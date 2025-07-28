@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-staircase-6855
+#FLUX: --job-name=doopy-cat-8791
 #FLUX: -n=24
 #FLUX: --urgency=16
 

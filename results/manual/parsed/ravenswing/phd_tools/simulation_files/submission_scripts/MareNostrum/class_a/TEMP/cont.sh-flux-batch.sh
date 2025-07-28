@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-soup-8755
+#FLUX: --job-name=faux-pot-5878
 #FLUX: -N=4
 #FLUX: -c=2
 #FLUX: -t=259200

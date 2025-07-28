@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-milkshake-8887
+#FLUX: --job-name=placid-kerfuffle-7967
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

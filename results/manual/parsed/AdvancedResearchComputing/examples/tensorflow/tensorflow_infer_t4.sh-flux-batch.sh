@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-taco-3319
+#FLUX: --job-name=creamy-underoos-5916
 #FLUX: --queue=t4_dev_q
 #FLUX: -t=600
 #FLUX: --urgency=16

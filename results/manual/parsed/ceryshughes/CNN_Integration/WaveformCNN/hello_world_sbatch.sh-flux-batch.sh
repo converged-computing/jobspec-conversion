@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-plant-5950
+#FLUX: --job-name=sticky-truffle-2364
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=86400

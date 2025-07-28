@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-arm-6671
+#FLUX: --job-name=rainbow-destiny-8312
 #FLUX: -c=12
 #FLUX: --urgency=16
 

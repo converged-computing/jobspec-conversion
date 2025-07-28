@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pastry-4087
+#FLUX: --job-name=doopy-milkshake-4628
 #FLUX: -c=4
 #FLUX: --queue=amd_a100nv_8
 #FLUX: -t=43200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-leader-2564
+#FLUX: --job-name=muffled-chip-2998
 #FLUX: --queue=gpu2
 #FLUX: --urgency=16
 

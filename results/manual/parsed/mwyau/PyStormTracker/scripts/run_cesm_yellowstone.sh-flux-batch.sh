@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-fork-2770
+#FLUX: --job-name=pusheena-taco-1449
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mwyau/PyStormTracker/scripts/run_cesm_yellowstone.sh

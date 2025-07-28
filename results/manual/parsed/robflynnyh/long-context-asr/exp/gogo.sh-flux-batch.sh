@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-parsnip-6606
+#FLUX: --job-name=bricky-eagle-2175
 #FLUX: -c=16
 #FLUX: --queue=gpu-h100
 #FLUX: -t=345600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-peanut-4934
+#FLUX: --job-name=bloated-peanut-butter-5978
 #FLUX: -c=8
 #FLUX: --urgency=16
 

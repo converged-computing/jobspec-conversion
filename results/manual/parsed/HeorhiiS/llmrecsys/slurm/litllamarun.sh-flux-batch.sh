@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-signal-8889
+#FLUX: --job-name=bricky-punk-0923
 #FLUX: -c=40
 #FLUX: --queue=nvidia
 #FLUX: -t=19800

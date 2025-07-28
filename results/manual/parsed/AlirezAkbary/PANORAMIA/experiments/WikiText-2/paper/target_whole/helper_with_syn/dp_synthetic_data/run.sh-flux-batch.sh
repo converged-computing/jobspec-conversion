@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cinnamonbun-4700
+#FLUX: --job-name=pusheena-latke-1932
 #FLUX: -t=300
 #FLUX: --urgency=16
 

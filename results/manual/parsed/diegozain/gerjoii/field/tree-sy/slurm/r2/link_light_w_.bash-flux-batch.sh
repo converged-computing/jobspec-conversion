@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-animal-9201
+#FLUX: --job-name=purple-milkshake-6747
 #FLUX: -c=28
 #FLUX: --exclusive
 #FLUX: -t=43140

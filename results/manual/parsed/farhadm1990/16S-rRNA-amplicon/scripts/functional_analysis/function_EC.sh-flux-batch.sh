@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-leader-2894
+#FLUX: --job-name=spicy-leopard-5389
 #FLUX: -n=10
 #FLUX: --queue=ghpc
 #FLUX: -t=86400

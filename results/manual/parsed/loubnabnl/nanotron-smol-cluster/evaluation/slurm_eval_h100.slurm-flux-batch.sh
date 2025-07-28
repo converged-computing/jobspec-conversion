@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-destiny-2767
+#FLUX: --job-name=evasive-sundae-7760
 #FLUX: -c=48
 #FLUX: --queue=hopper-prod
 #FLUX: --urgency=50

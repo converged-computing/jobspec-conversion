@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-latke-9307
+#FLUX: --job-name=placid-train-7576
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-latke-8508
+#FLUX: --job-name=anxious-kerfuffle-0461
 #FLUX: --exclusive
 #FLUX: --queue=lanka-v3
 #FLUX: -t=14400

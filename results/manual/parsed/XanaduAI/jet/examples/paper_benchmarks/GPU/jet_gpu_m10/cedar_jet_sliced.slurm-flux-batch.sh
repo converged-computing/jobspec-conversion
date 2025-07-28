@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-destiny-9150
+#FLUX: --job-name=faux-earthworm-7100
 #FLUX: --exclusive
 #FLUX: -t=1800
 #FLUX: --urgency=16

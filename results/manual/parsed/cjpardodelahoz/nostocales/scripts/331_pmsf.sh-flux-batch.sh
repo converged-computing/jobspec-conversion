@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-train-0444
+#FLUX: --job-name=blank-omelette-6994
 #FLUX: -n=2
 #FLUX: -c=6
 #FLUX: --queue=scavenger

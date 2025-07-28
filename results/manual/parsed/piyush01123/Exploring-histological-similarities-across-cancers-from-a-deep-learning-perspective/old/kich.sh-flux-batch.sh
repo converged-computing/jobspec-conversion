@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-destiny-0342
+#FLUX: --job-name=frigid-bits-9616
 #FLUX: -n=20
 #FLUX: -t=86400
 #FLUX: --urgency=16

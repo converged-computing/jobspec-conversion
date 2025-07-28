@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-chair-6256
+#FLUX: --job-name=quirky-muffin-2755
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nordam/PyPPT/Vilje/batch.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lentil-9819
+#FLUX: --job-name=evasive-hippo-6986
 #FLUX: -c=5
 #FLUX: --queue=astro
 #FLUX: -t=28800

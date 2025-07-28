@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cinnamonbun-0868
+#FLUX: --job-name=boopy-bits-5373
 #FLUX: -c=16
 #FLUX: --queue=volta-lp
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-platanos-9666
+#FLUX: --job-name=crusty-onion-7231
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=n1s8-v100-1

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-plant-4223
+#FLUX: --job-name=dinosaur-malarkey-2833
 #FLUX: --queue=hci-rw
 #FLUX: -t=345600
 #FLUX: --urgency=16

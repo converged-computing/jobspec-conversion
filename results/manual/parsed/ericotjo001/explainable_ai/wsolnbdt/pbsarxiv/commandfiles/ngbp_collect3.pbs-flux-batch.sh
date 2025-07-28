@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-chair-9963
+#FLUX: --job-name=psycho-nunchucks-2634
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ericotjo001/explainable_ai/wsolnbdt/pbsarxiv/commandfiles/ngbp_collect3.pbs

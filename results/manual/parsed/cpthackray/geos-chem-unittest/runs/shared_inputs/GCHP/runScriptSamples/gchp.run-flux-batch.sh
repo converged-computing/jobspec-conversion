@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-ricecake-9786
+#FLUX: --job-name=cowy-bicycle-6505
 #FLUX: -n=6
 #FLUX: --queue=huce_intel
 #FLUX: -t=60

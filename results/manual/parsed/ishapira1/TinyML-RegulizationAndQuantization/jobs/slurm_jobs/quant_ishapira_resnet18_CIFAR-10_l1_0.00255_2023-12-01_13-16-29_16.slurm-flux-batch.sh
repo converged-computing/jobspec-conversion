@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-malarkey-6718
+#FLUX: --job-name=bloated-parsnip-5041
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

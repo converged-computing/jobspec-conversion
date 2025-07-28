@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-parrot-9787
+#FLUX: --job-name=muffled-frito-3149
 #FLUX: --queue=shas
 #FLUX: -t=14400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leader-5714
+#FLUX: --job-name=salted-hippo-5753
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Karl-Liu-ch/DiffusionAirfoil/job_script/job_1dtip.sh

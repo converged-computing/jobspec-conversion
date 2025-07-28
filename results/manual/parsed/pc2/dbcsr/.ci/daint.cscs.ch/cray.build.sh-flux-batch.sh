@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-pot-4145
+#FLUX: --job-name=bumfuzzled-kitty-2005
 #FLUX: -c=3
 #FLUX: --exclusive
 #FLUX: --queue=cscsci

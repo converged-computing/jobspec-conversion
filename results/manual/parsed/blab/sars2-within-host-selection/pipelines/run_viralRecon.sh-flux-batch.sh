@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lizard-2262
+#FLUX: --job-name=persnickety-punk-7052
 #FLUX: -n=36
 #FLUX: --queue=campus-new
 #FLUX: -t=7200

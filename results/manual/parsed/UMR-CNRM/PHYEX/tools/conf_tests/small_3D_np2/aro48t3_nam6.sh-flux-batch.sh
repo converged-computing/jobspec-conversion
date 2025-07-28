@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-parsnip-4382
+#FLUX: --job-name=stinky-cinnamonbun-6909
 #FLUX: -n=2
 #FLUX: --queue=normal256
 #FLUX: -t=600

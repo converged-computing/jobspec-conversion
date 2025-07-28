@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-fork-7104
+#FLUX: --job-name=lovable-lettuce-7843
 #FLUX: --queue=short-serial
 #FLUX: -t=21600
 #FLUX: --urgency=16

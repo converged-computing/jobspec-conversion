@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-fudge-2915
+#FLUX: --job-name=phat-bicycle-6902
 #FLUX: -c=24
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=360

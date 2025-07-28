@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-nalgas-3942
+#FLUX: --job-name=bloated-despacito-0425
 #FLUX: -N=4
 #FLUX: -n=8
 #FLUX: --queue=gpu

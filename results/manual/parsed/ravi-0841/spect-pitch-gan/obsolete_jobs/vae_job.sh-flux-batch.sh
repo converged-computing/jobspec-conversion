@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-despacito-6912
+#FLUX: --job-name=scruptious-parrot-6258
 #FLUX: -c=6
 #FLUX: --queue=gpuk80
 #FLUX: -t=144000

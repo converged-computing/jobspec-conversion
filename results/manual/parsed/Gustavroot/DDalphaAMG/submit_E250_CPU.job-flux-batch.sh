@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-plant-1518
+#FLUX: --job-name=chocolate-despacito-8636
 #FLUX: -N=72
 #FLUX: --queue=batch
 #FLUX: -t=3540

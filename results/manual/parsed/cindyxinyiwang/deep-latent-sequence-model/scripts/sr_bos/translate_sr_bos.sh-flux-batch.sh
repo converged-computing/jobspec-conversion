@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-mango-2748
+#FLUX: --job-name=bumfuzzled-staircase-7141
 #FLUX: -t=0
 #FLUX: --urgency=16
 

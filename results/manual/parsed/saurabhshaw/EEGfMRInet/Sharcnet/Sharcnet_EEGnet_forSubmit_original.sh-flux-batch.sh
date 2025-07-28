@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-nalgas-7455
+#FLUX: --job-name=pusheena-peanut-butter-4773
 #FLUX: --urgency=16
 
 base_path_rc="/home/shaws5/Research_code"

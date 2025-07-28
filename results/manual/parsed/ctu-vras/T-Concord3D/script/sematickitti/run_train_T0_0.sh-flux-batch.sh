@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-underoos-3919
+#FLUX: --job-name=stanky-leopard-6002
 #FLUX: -c=6
 #FLUX: --queue=amdgpulong
 #FLUX: -t=259200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-train-3908
+#FLUX: --job-name=chunky-latke-7276
 #FLUX: -n=8
 #FLUX: --queue=mlow,mlow
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-platanos-4315
+#FLUX: --job-name=moolicious-hobbit-8238
 #FLUX: --urgency=16
 
 gitdir=~/dpm

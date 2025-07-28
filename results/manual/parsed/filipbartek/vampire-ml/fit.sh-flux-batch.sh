@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-bits-3073
+#FLUX: --job-name=scruptious-train-0166
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

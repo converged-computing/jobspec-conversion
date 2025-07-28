@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-egg-6022
+#FLUX: --job-name=misunderstood-taco-7730
 #FLUX: -c=48
 #FLUX: --urgency=16
 

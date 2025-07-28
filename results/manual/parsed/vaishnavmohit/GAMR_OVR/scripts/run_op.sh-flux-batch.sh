@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-diablo-4838
+#FLUX: --job-name=carnivorous-cattywampus-3720
 #FLUX: -n=3
 #FLUX: --queue=gpu
 #FLUX: -t=72000

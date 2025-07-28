@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-leg-2929
+#FLUX: --job-name=misunderstood-kerfuffle-2536
 #FLUX: -N=2
 #FLUX: --queue=bdwall
 #FLUX: -t=900

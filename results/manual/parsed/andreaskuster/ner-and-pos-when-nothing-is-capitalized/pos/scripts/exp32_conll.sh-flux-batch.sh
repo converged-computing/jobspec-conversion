@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-lemon-5927
+#FLUX: --job-name=phat-poo-9472
 #FLUX: -c=64
 #FLUX: --queue=intelv100
 #FLUX: -t=14400

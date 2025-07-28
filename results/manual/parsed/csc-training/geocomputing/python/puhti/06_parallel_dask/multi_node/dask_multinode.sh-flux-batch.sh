@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leader-1710
+#FLUX: --job-name=adorable-malarkey-3714
 #FLUX: --queue=test
 #FLUX: -t=600
 #FLUX: --urgency=16

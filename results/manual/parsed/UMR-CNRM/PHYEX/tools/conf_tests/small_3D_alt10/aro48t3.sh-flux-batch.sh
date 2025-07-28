@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-platanos-8921
+#FLUX: --job-name=blank-cattywampus-8095
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-citrus-6120
+#FLUX: --job-name=salted-butter-2127
 #FLUX: --queue=RM-shared
 #FLUX: -t=129600
 #FLUX: --urgency=16

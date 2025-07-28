@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-poodle-8158
+#FLUX: --job-name=gloopy-bits-2960
 #FLUX: --queue=main
 #FLUX: -t=86400
 #FLUX: --urgency=16

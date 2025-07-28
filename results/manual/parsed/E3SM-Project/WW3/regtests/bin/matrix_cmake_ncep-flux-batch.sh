@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-general-2707
+#FLUX: --job-name=bloated-lizard-5882
 #FLUX: --urgency=16
 
 usage ()

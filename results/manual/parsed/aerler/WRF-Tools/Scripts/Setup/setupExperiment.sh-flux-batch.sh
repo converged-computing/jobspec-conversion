@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-fork-9964
+#FLUX: --job-name=fat-latke-8482
 #FLUX: --urgency=16
 
 set -e # abort if anything goes wrong

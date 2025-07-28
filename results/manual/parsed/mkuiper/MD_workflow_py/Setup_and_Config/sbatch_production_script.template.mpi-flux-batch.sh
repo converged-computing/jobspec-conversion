@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-train-8924
+#FLUX: --job-name=scruptious-itch-3426
 #FLUX: -N=2
 #FLUX: -t=7200
 #FLUX: --urgency=16

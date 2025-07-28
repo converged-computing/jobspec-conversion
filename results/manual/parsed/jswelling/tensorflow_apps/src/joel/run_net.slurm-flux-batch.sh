@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-fork-7704
+#FLUX: --job-name=bricky-earthworm-9280
 #FLUX: --queue=GPU-shared
 #FLUX: -t=14400
 #FLUX: --urgency=16

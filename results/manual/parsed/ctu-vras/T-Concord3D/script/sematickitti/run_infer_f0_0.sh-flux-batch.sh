@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-milkshake-9716
+#FLUX: --job-name=astute-poo-2977
 #FLUX: -c=12
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

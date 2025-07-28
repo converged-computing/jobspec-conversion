@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-dog-6627
+#FLUX: --job-name=phat-arm-9832
 #FLUX: --queue=normal
 #FLUX: -t=1800
 #FLUX: --urgency=16

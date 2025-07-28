@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-nunchucks-6691
+#FLUX: --job-name=muffled-platanos-0668
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=3600

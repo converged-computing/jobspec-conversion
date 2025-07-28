@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-peanut-0575
+#FLUX: --job-name=fat-salad-4788
 #FLUX: -c=36
 #FLUX: --exclusive
 #FLUX: --queue=standard

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-latke-9940
+#FLUX: --job-name=lovable-toaster-8240
 #FLUX: -c=5
 #FLUX: --queue=astro
 #FLUX: -t=21600

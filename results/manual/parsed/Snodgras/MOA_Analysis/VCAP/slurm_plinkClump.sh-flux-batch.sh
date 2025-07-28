@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-staircase-3944
+#FLUX: --job-name=stinky-general-3539
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

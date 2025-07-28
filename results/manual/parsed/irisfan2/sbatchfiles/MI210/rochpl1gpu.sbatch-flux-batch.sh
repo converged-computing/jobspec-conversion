@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-itch-2778
+#FLUX: --job-name=carnivorous-chip-5904
 #FLUX: -c=10
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cupcake-8135
+#FLUX: --job-name=expressive-buttface-2272
 #FLUX: --queue=regular
 #FLUX: -t=3600
 #FLUX: --urgency=16

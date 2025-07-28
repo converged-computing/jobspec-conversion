@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-dog-5792
+#FLUX: --job-name=evasive-blackbean-4860
 #FLUX: -N=3
 #FLUX: --queue=gpu_titanrtx
 #FLUX: -t=57600

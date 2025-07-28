@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-animal-2936
+#FLUX: --job-name=misunderstood-lemon-3509
 #FLUX: -N=32
 #FLUX: -c=128
 #FLUX: --queue=gpus

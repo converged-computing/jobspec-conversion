@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-leg-6678
+#FLUX: --job-name=misunderstood-milkshake-9873
 #FLUX: -N=10
 #FLUX: -n=10
 #FLUX: --queue=west

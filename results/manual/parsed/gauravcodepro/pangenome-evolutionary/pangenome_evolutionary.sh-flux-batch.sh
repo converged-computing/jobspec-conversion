@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-milkshake-7769
+#FLUX: --job-name=sticky-caramel-9035
 #FLUX: --urgency=16
 
 echo "adding the support for the name process:"

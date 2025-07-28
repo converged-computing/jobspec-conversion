@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-spoon-2196
+#FLUX: --job-name=eccentric-bike-6005
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=n1s8-v100-1

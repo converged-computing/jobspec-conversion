@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-parsnip-0983
+#FLUX: --job-name=arid-itch-3599
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: --queue=boost_usr_prod

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-gato-3966
+#FLUX: --job-name=peachy-destiny-6499
 #FLUX: --queue=hpc
 #FLUX: -t=600
 #FLUX: --urgency=16

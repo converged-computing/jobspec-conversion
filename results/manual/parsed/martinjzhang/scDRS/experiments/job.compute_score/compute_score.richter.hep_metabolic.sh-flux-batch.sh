@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-destiny-7583
+#FLUX: --job-name=angry-poo-5439
 #FLUX: -n=4
 #FLUX: --queue=shared
 #FLUX: -t=60

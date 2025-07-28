@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-leg-6693
+#FLUX: --job-name=phat-train-5391
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lilyinstarlight/palmetto/blender-render

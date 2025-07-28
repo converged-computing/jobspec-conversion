@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-chip-0231
+#FLUX: --job-name=cowy-animal-3448
 #FLUX: --queue=scarf
 #FLUX: -t=600
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=iqtree
+#FLUX: -c=8
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-ricecake-9590
+#FLUX: --job-name=sticky-cat-0108
 #FLUX: --queue=kingspeak-gpu
 #FLUX: -t=600
 #FLUX: --urgency=16

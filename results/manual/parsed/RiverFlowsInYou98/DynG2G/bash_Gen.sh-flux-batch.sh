@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-underoos-3649
+#FLUX: --job-name=salted-mango-1457
 #FLUX: -n=4
 #FLUX: --queue=a6000-gcondo
 #FLUX: -t=345600

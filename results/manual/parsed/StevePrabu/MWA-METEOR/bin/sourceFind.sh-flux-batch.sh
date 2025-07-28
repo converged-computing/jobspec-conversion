@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-arm-7553
+#FLUX: --job-name=phat-leader-0564
 #FLUX: -n=36
 #FLUX: --queue=workq
 #FLUX: -t=10800

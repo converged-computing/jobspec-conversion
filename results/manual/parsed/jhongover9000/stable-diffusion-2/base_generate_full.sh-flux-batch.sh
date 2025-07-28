@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-diablo-5983
+#FLUX: --job-name=tart-carrot-7027
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: --queue=nvidia

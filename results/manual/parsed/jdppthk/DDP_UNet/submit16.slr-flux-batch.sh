@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-nalgas-4716
+#FLUX: --job-name=hello-underoos-3075
 #FLUX: -N=2
 #FLUX: -c=80
 #FLUX: --exclusive

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-platanos-7554
+#FLUX: --job-name=spicy-leader-2048
 #FLUX: --queue=maxwell
 #FLUX: -t=72000
 #FLUX: --urgency=16

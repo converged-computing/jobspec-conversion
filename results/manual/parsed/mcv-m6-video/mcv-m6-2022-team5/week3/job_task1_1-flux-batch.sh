@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-arm-6714
+#FLUX: --job-name=hairy-parrot-0003
 #FLUX: -n=4
 #FLUX: --queue=mlow
 #FLUX: --urgency=16

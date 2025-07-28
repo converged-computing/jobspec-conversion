@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-puppy-3204
+#FLUX: --job-name=scruptious-mango-7983
 #FLUX: --queue=gpuq
 #FLUX: -t=1800
 #FLUX: --urgency=16

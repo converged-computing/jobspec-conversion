@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leader-4285
+#FLUX: --job-name=sticky-soup-2003
 #FLUX: -N=6
 #FLUX: --exclusive
 #FLUX: --queue=compute

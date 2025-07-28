@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bicycle-4899
+#FLUX: --job-name=moolicious-chip-1602
 #FLUX: --queue=gpu2
 #FLUX: -t=3600
 #FLUX: --urgency=16

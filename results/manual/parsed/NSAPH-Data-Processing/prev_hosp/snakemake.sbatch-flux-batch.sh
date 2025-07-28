@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-hobbit-0207
+#FLUX: --job-name=psycho-bicycle-9891
 #FLUX: -c=8
 #FLUX: --queue=fasse
 #FLUX: -t=720

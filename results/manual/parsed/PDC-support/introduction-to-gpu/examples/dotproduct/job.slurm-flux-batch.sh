@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-arm-4741
+#FLUX: --job-name=gloopy-platanos-8141
 #FLUX: --queue=gpu
 #FLUX: -t=600
 #FLUX: --urgency=16

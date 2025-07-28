@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-diablo-9737
+#FLUX: --job-name=strawberry-fudge-7297
 #FLUX: -c=24
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

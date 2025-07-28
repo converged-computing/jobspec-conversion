@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-avocado-4899
+#FLUX: --job-name=grated-lemon-6644
 #FLUX: -c=8
 #FLUX: --queue=seas_gpu
 #FLUX: -t=360

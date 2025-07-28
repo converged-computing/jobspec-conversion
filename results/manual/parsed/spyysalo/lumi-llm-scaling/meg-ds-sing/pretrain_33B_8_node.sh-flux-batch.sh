@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-underoos-9960
+#FLUX: --job-name=expressive-pedo-5820
 #FLUX: -N=8
 #FLUX: --exclusive
 #FLUX: --queue=standard-g

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-plant-8424
+#FLUX: --job-name=bumfuzzled-soup-2367
 #FLUX: -c=24
 #FLUX: --queue=thinnodes
 #FLUX: -t=150

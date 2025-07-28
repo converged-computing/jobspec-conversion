@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-pot-9988
+#FLUX: --job-name=blue-pot-0186
 #FLUX: -N=46
 #FLUX: --queue=regular
 #FLUX: -t=480

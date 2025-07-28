@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-muffin-9818
+#FLUX: --job-name=carnivorous-malarkey-9208
 #FLUX: -n=4
 #FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16

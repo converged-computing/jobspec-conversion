@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bits-9339
+#FLUX: --job-name=placid-knife-3404
 #FLUX: -n=24
 #FLUX: --queue=normal
 #FLUX: -t=21600

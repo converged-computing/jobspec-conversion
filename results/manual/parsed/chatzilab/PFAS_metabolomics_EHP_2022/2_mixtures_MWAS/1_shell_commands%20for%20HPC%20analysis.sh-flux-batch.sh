@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lamp-4595
+#FLUX: --job-name=fuzzy-signal-4526
 #FLUX: --queue=conti
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cat-9695
+#FLUX: --job-name=phat-platanos-9196
 #FLUX: -n=17
 #FLUX: --queue=gpu
 #FLUX: -t=864000

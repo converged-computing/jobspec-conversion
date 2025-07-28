@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-fudge-5566
+#FLUX: --job-name=moolicious-eagle-1937
 #FLUX: -n=20
 #FLUX: --queue=stats.p
 #FLUX: -t=14400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-squidward-9032
+#FLUX: --job-name=dinosaur-knife-5170
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-malarkey-9495
+#FLUX: --job-name=peachy-fork-5658
 #FLUX: -c=16
 #FLUX: --queue=AMG
 #FLUX: -t=86400

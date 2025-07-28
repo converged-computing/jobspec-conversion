@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-destiny-3759
+#FLUX: --job-name=spicy-diablo-9478
 #FLUX: -c=8
 #FLUX: -t=170
 #FLUX: --urgency=16

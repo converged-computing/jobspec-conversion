@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-salad-6473
+#FLUX: --job-name=eccentric-poo-5203
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: --queue=gaia

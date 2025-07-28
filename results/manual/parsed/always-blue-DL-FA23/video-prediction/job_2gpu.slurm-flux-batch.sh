@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-blackbean-9900
+#FLUX: --job-name=outstanding-leopard-1769
 #FLUX: -c=16
 #FLUX: --exclusive
 #FLUX: --queue=n1s16-v100-2

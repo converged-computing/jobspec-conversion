@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-train-7260
+#FLUX: --job-name=peachy-poo-0661
 #FLUX: -n=8
 #FLUX: --queue=amd
 #FLUX: -t=1065600

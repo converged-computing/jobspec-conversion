@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-bits-4940
+#FLUX: --job-name=hello-caramel-9097
 #FLUX: -N=72
 #FLUX: --queue=compute
 #FLUX: -t=7200

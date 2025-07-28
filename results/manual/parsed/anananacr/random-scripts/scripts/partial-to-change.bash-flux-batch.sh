@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-spoon-9873
+#FLUX: --job-name=arid-lemon-5660
 #FLUX: --urgency=16
 
 INPUT=$1

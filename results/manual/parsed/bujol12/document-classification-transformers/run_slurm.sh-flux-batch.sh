@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-onion-6672
+#FLUX: --job-name=muffled-soup-0021
 #FLUX: --queue=gpgpuC
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-knife-1013
+#FLUX: --job-name=loopy-bike-7063
 #FLUX: -c=24
 #FLUX: --queue=amdgpuextralong
 #FLUX: -t=864000

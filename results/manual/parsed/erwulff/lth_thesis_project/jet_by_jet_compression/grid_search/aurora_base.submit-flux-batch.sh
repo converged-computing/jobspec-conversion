@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-squidward-7915
+#FLUX: --job-name=crusty-chair-6824
 #FLUX: --queue=hep
 #FLUX: -t=82800
 #FLUX: --urgency=16

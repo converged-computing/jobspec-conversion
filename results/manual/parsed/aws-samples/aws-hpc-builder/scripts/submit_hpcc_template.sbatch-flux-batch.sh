@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-eagle-4320
+#FLUX: --job-name=nerdy-onion-3499
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=arm8xlarge

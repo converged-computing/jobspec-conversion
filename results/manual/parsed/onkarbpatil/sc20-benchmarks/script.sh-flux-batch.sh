@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-egg-3392
+#FLUX: --job-name=purple-noodle-4652
 #FLUX: -N=4
 #FLUX: --queue=skylake-gold
 #FLUX: -t=172800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-rabbit-4606
+#FLUX: --job-name=placid-hippo-3749
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/glennklockwood/paraR/rhipe/wordcount-rhipe.qsub

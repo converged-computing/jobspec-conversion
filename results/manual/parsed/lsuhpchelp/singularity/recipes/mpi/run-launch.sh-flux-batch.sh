@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-avocado-3351
+#FLUX: --job-name=bloated-carrot-3075
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: --queue=checkpt

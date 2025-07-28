@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-latke-5307
+#FLUX: --job-name=swampy-ricecake-6077
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: --queue=scarf

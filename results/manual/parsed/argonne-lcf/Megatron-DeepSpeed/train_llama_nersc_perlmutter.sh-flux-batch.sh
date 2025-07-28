@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hobbit-1658
+#FLUX: --job-name=persnickety-rabbit-0424
 #FLUX: -N=128
 #FLUX: --queue=regular
 #FLUX: -t=1800

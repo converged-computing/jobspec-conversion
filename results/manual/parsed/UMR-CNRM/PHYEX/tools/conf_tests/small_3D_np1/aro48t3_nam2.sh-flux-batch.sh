@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-car-9988
+#FLUX: --job-name=gloopy-destiny-9126
 #FLUX: --queue=normal256
 #FLUX: -t=600
 #FLUX: --urgency=16

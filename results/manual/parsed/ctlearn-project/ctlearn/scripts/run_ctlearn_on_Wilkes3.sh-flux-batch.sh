@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-truffle-5560
+#FLUX: --job-name=conspicuous-milkshake-3869
 #FLUX: --queue=ampere
 #FLUX: -t=72000
 #FLUX: --urgency=16

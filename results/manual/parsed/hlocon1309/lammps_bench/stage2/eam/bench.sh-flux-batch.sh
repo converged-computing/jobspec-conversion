@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-poo-6925
+#FLUX: --job-name=stinky-lemur-1904
 #FLUX: --queue=normal
 #FLUX: -t=1800
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-signal-1542
+#FLUX: --job-name=fat-fork-6945
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

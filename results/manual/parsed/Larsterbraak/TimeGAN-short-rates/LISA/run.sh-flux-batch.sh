@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-diablo-3773
+#FLUX: --job-name=crunchy-parsnip-3600
 #FLUX: --queue=gpu_titanrtx
 #FLUX: -t=174600
 #FLUX: --urgency=16

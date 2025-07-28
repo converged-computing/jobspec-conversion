@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-train-3768
+#FLUX: --job-name=astute-peanut-butter-9682
 #FLUX: --queue=a100
 #FLUX: -t=21600
 #FLUX: --urgency=16

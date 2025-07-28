@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-motorcycle-8504
+#FLUX: --job-name=expressive-frito-0229
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

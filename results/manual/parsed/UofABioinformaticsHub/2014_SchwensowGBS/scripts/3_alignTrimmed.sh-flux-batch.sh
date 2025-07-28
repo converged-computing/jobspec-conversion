@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-fork-1516
+#FLUX: --job-name=eccentric-itch-5386
 #FLUX: -n=16
 #FLUX: --queue=batch
 #FLUX: -t=57600

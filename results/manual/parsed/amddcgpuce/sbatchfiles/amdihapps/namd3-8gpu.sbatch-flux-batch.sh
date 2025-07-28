@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-plant-5529
+#FLUX: --job-name=psycho-destiny-0451
 #FLUX: -c=16
 #FLUX: --urgency=16
 

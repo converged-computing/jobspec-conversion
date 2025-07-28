@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-pastry-8435
+#FLUX: --job-name=psycho-kerfuffle-2624
 #FLUX: -c=10
 #FLUX: --queue=all
 #FLUX: -t=6000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-muffin-8413
+#FLUX: --job-name=red-staircase-5768
 #FLUX: --queue=zhuang,shared
 #FLUX: -t=604800
 #FLUX: --urgency=16

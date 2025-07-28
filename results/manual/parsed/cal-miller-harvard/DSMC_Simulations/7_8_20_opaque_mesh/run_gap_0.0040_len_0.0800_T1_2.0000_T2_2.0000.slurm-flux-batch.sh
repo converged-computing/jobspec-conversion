@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bike-3539
+#FLUX: --job-name=blank-toaster-8171
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

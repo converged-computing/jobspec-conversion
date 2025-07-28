@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-pancake-2287
+#FLUX: --job-name=rainbow-poo-7132
 #FLUX: --queue=compute_full_node
 #FLUX: -t=7200
 #FLUX: --urgency=16

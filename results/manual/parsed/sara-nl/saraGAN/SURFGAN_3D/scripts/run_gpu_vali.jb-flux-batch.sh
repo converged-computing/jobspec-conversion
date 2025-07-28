@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-chair-5220
+#FLUX: --job-name=confused-buttface-5402
 #FLUX: -N=4
 #FLUX: -n=16
 #FLUX: --queue=gpu_titanrtx

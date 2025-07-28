@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-citrus-8190
+#FLUX: --job-name=expressive-destiny-0311
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=YOUR_PARTITION_HERE

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lizard-8203
+#FLUX: --job-name=confused-buttface-4664
 #FLUX: --queue=normal
 #FLUX: -t=10800
 #FLUX: --urgency=16

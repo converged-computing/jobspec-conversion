@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-punk-6387
+#FLUX: --job-name=evasive-hippo-3346
 #FLUX: --queue=schmidt-gpu
 #FLUX: -t=7200
 #FLUX: --urgency=16

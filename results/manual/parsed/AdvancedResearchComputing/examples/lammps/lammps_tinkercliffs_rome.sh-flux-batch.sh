@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-cat-8907
+#FLUX: --job-name=reclusive-motorcycle-9972
 #FLUX: --queue=dev_q
 #FLUX: -t=300
 #FLUX: --urgency=16

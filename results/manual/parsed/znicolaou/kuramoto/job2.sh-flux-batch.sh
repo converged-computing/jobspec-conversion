@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-latke-8070
+#FLUX: --job-name=grated-snack-1772
 #FLUX: --queue=ckpt
 #FLUX: -t=172800
 #FLUX: --urgency=16

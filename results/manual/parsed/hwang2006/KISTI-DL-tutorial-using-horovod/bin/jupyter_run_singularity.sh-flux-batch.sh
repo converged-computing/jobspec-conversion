@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-soup-4111
+#FLUX: --job-name=dinosaur-despacito-7087
 #FLUX: -c=4
 #FLUX: --queue=amd_a100nv_8
 #FLUX: -t=28800

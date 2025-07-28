@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-fork-4092
+#FLUX: --job-name=grated-general-7808
 #FLUX: --queue=dev_q
 #FLUX: -t=1800
 #FLUX: --urgency=16

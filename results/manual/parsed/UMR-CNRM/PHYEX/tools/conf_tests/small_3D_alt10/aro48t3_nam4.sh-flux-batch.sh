@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-destiny-9691
+#FLUX: --job-name=strawberry-lettuce-3379
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

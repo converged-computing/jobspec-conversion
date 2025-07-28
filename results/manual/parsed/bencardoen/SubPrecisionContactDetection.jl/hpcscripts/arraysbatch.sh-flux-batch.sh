@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-animal-8322
+#FLUX: --job-name=bumfuzzled-destiny-6420
 #FLUX: -c=6
 #FLUX: -t=64800
 #FLUX: --urgency=16

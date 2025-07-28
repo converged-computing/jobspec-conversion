@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-fudge-4234
+#FLUX: --job-name=chocolate-chip-2520
 #FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

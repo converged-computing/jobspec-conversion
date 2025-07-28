@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hippo-9732
+#FLUX: --job-name=gassy-truffle-1716
 #FLUX: -c=30
 #FLUX: --queue=fast
 #FLUX: --urgency=16

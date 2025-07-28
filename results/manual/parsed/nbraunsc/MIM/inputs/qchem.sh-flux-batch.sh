@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-bits-2537
+#FLUX: --job-name=blue-poo-5690
 #FLUX: --queue=preemptable_q
 #FLUX: -t=7200
 #FLUX: --urgency=16

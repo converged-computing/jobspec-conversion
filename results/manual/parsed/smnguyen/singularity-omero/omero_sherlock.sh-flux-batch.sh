@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-car-3632
+#FLUX: --job-name=lovely-muffin-3327
 #FLUX: -c=3
 #FLUX: --queue=mcovert
 #FLUX: -t=84600

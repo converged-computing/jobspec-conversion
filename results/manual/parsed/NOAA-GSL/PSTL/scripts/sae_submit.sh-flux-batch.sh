@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-nalgas-9004
+#FLUX: --job-name=placid-snack-7911
 #FLUX: --exclusive
 #FLUX: --queue=epyc_a100x4
 #FLUX: --urgency=16

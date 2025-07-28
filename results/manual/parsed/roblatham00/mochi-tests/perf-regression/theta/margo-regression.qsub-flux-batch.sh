@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-soup-6739
+#FLUX: --job-name=fuzzy-bits-4904
 #FLUX: --urgency=16
 

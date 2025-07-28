@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-arm-0535
+#FLUX: --job-name=adorable-parsnip-3384
 #FLUX: -c=8
 #FLUX: -t=60
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lettuce-0533
+#FLUX: --job-name=red-parsnip-6836
 #FLUX: --queue=sbel_cmg
 #FLUX: -t=864090
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bits-7526
+#FLUX: --job-name=expressive-fork-9457
 #FLUX: --urgency=16
 
 module load openmpi/3.0.0

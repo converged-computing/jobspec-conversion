@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-hope-5932
+#FLUX: --job-name=joyous-chair-3622
 #FLUX: --queue=gpu
 #FLUX: -t=14400
 #FLUX: --urgency=16

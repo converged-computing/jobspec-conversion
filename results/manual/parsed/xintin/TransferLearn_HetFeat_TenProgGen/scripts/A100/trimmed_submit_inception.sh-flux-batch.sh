@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blank-signal-2815
+#FLUX: --job-name=wobbly-itch-0119
 #FLUX: --urgency=16
 

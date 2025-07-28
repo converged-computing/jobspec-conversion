@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-frito-1209
+#FLUX: --job-name=pusheena-fudge-6810
 #FLUX: --queue=ce-mri
 #FLUX: -t=259200
 #FLUX: --urgency=16

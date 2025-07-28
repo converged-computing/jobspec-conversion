@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-kerfuffle-6218
+#FLUX: --job-name=delicious-chip-4555
 #FLUX: --queue=dev_q
 #FLUX: -t=600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-chair-6696
+#FLUX: --job-name=tart-itch-2407
 #FLUX: --queue=commons
 #FLUX: -t=18000
 #FLUX: --urgency=16

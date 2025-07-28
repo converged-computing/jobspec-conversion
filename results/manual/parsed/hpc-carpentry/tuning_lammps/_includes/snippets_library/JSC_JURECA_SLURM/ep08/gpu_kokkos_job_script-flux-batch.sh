@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-onion-3972
+#FLUX: --job-name=grated-cupcake-4040
 #FLUX: -c=6
 #FLUX: --queue=develgpus
 #FLUX: -t=600

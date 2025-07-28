@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-carrot-5749
+#FLUX: --job-name=fugly-egg-8030
 #FLUX: -N=32
 #FLUX: -n=32
 #FLUX: -c=12

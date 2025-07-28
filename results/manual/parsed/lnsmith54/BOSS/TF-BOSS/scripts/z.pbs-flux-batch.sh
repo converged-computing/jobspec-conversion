@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-eagle-7220
+#FLUX: --job-name=joyous-earthworm-7447
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lnsmith54/BOSS/TF-BOSS/scripts/z.pbs

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-car-0530
+#FLUX: --job-name=fuzzy-kerfuffle-0383
 #FLUX: --urgency=16
 
 if [ -z "$1"]; then 

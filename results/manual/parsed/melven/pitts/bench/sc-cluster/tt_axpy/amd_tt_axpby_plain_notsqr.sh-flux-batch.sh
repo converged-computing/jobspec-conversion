@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-nalgas-9333
+#FLUX: --job-name=chocolate-chip-9419
 #FLUX: -c=64
 #FLUX: --queue=amd
 #FLUX: -t=180000

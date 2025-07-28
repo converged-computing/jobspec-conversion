@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-gato-5480
+#FLUX: --job-name=cowy-kitty-7713
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Xander-FP/Simple-Objects-for-Computer-Vision/Code/short_gpu.pbs

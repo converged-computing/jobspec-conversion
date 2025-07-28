@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-platanos-1866
+#FLUX: --job-name=chocolate-lettuce-7792
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=c6i

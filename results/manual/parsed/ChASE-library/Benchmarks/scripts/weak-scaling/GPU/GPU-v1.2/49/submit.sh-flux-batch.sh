@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-hobbit-9288
+#FLUX: --job-name=dirty-egg-5896
 #FLUX: -N=49
 #FLUX: -n=49
 #FLUX: -c=12

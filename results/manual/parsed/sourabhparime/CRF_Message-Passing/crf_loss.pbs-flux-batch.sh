@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-hippo-0777
+#FLUX: --job-name=peachy-parrot-9468
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sourabhparime/CRF_Message-Passing/crf_loss.pbs

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-motorcycle-8566
+#FLUX: --job-name=conspicuous-train-8215
 #FLUX: -n=3
 #FLUX: -t=259200
 #FLUX: --urgency=16

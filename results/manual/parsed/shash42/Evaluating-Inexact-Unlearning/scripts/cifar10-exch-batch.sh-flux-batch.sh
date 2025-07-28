@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-latke-2551
+#FLUX: --job-name=faux-bicycle-1013
 #FLUX: -n=10
 #FLUX: -t=345600
 #FLUX: --urgency=16

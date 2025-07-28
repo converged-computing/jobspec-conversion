@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-kerfuffle-1105
+#FLUX: --job-name=stinky-pot-7973
 #FLUX: --queue=short
 #FLUX: -t=3600
 #FLUX: --urgency=16

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ming_chat
+#FLUX: -N=2
 #FLUX: -c=32
 #FLUX: --queue=medai_llm
 #FLUX: -t=432000

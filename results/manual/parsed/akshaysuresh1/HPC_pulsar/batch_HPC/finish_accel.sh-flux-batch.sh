@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-squidward-0483
+#FLUX: --job-name=bumfuzzled-snack-8129
 #FLUX: --queue=RM
 #FLUX: -t=36000
 #FLUX: --urgency=16

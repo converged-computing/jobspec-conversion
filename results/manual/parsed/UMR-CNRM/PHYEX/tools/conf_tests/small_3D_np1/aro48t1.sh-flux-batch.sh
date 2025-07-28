@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-bits-0480
+#FLUX: --job-name=doopy-leg-9561
 #FLUX: --queue=normal256
 #FLUX: -t=600
 #FLUX: --urgency=16

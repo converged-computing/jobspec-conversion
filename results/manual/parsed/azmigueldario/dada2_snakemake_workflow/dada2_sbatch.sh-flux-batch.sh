@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-hobbit-2065
+#FLUX: --job-name=persnickety-lizard-9626
 #FLUX: --queue=synergy,cpu2019,cpu2021
 #FLUX: -t=172800
 #FLUX: --urgency=16

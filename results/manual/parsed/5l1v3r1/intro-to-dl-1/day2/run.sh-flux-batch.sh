@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-kitty-7249
+#FLUX: --job-name=blue-leopard-6481
 #FLUX: -c=10
 #FLUX: --queue=gpu
 #FLUX: -t=3600

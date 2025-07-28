@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-earthworm-3780
+#FLUX: --job-name=lovely-destiny-1454
 #FLUX: --urgency=16
 
 export _JAVA_OPTIONS='-Xms8g -Xmx10g'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-gato-4417
+#FLUX: --job-name=rainbow-latke-3978
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

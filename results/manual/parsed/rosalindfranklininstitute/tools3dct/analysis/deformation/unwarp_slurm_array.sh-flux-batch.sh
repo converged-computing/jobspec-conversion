@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-cinnamonbun-5454
+#FLUX: --job-name=bloated-destiny-1687
 #FLUX: -c=4
 #FLUX: --queue=htc
 #FLUX: -t=7200

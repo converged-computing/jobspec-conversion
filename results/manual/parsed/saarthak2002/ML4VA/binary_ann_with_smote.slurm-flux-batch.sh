@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-parsnip-3346
+#FLUX: --job-name=psycho-toaster-6845
 #FLUX: -c=8
 #FLUX: --queue=bii-gpu
 #FLUX: -t=86400

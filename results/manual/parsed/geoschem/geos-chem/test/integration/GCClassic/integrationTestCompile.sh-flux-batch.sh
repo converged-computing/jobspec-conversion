@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-leg-7730
+#FLUX: --job-name=expressive-fudge-5898
 #FLUX: -c=8
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=30

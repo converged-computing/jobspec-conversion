@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-truffle-6171
+#FLUX: --job-name=gassy-lentil-2511
 #FLUX: -N=2
 #FLUX: -n=4
 #FLUX: --queue=wildfire

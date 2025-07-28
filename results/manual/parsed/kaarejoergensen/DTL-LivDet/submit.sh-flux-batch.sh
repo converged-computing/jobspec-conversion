@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-leopard-0564
+#FLUX: --job-name=bricky-nunchucks-4883
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kaarejoergensen/DTL-LivDet/submit.sh

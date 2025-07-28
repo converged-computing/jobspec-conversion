@@ -1,0 +1,17 @@
+#!/bin/bash
+#FLUX: --job-name=2PopSplit
+#FLUX: --queue=tier1q
+#FLUX: -t=86400
+#FLUX: --urgency=16
+
+module load gcc/12.1.0
+module load python/3.10.5
+module load plink/2.0
+module load gcta/1.94.1
+module load R
+module load bcftools
+module load samtools
+echo "SLURM_JOBID="$SLURM_JOBID
+cat snakefile_4PopSplit
+snakemake -s snakefile_2PopSplit --unlock
+snakemake --profile cluster-setup/ -s snakefile_2PopSplit  --rerun-incomplete --rerun-triggers mtime

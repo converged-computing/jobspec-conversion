@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-bits-6003
+#FLUX: --job-name=purple-citrus-5997
 #FLUX: --queue=batch,hmem
 #FLUX: -t=21600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-egg-3426
+#FLUX: --job-name=expensive-blackbean-0022
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

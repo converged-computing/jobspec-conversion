@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-motorcycle-5762
+#FLUX: --job-name=bloated-lamp-7726
 #FLUX: --urgency=16
 
 n_procs=$1

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bits-3349
+#FLUX: --job-name=milky-snack-1880
 #FLUX: --queue=gpu_titanrtx
 #FLUX: -t=14400
 #FLUX: --urgency=16

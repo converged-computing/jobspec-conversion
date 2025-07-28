@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-fudge-4930
+#FLUX: --job-name=blank-arm-0749
 #FLUX: --queue=cpufast
 #FLUX: -t=14400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-butter-8395
+#FLUX: --job-name=fuzzy-peanut-8021
 #FLUX: --urgency=16
 
 export scholar='$repo_path/Clusters/Scholar-Modulefiles/opt/spack/modulefiles'

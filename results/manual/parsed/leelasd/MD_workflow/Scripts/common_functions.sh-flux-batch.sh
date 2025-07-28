@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-pot-9483
+#FLUX: --job-name=red-milkshake-9475
 #FLUX: --urgency=16
 
 read_master_config_file() {

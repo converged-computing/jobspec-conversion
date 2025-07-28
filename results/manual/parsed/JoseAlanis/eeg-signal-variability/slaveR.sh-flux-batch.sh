@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-caramel-9950
+#FLUX: --job-name=persnickety-avocado-4396
 #FLUX: -c=14
 #FLUX: --queue=parallel
 #FLUX: -t=900

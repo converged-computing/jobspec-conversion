@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-hippo-1306
+#FLUX: --job-name=joyous-poodle-0785
 #FLUX: --queue=plgrid
 #FLUX: -t=600
 #FLUX: --urgency=16

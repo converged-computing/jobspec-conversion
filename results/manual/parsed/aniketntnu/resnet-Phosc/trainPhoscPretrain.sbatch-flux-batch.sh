@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-caramel-8635
+#FLUX: --job-name=eccentric-cattywampus-5357
 #FLUX: -c=6
 #FLUX: --queue=dgx2q
 #FLUX: -t=1209600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-staircase-8297
+#FLUX: --job-name=psycho-buttface-0394
 #FLUX: --urgency=16
 
 pwd; hostname; date

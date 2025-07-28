@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-malarkey-1334
+#FLUX: --job-name=psycho-motorcycle-4319
 #FLUX: -N=3
 #FLUX: -n=144
 #FLUX: -t=356400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-snack-8586
+#FLUX: --job-name=blank-house-5792
 #FLUX: -c=5
 #FLUX: --queue=astro
 #FLUX: -t=21600

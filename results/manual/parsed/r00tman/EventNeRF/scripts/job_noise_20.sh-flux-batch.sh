@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-malarkey-1465
+#FLUX: --job-name=confused-latke-1988
 #FLUX: --queue=gpu20
 #FLUX: -t=21600
 #FLUX: --urgency=16

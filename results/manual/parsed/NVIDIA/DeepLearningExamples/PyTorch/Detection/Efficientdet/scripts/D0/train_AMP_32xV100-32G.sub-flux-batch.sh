@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pedo-8782
+#FLUX: --job-name=carnivorous-spoon-2421
 #FLUX: --exclusive
 #FLUX: -t=28800
 #FLUX: --urgency=16

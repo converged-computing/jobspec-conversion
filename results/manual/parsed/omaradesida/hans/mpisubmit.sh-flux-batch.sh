@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-soup-8769
+#FLUX: --job-name=reclusive-car-5120
 #FLUX: --queue=hetmathsys
 #FLUX: -t=600
 #FLUX: --urgency=16

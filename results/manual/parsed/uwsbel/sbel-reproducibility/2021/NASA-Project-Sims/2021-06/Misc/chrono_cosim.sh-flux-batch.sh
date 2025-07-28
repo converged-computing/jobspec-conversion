@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-train-6426
+#FLUX: --job-name=carnivorous-fork-9960
 #FLUX: -c=2
 #FLUX: --queue=sbel
 #FLUX: -t=259200

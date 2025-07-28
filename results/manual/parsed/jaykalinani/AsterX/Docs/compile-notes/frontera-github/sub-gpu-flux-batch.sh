@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-spoon-3864
+#FLUX: --job-name=chunky-lettuce-1240
 #FLUX: -n=4
 #FLUX: --queue=rtx-dev
 #FLUX: -t=7200

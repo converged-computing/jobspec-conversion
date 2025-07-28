@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-plant-1536
+#FLUX: --job-name=conspicuous-pedo-4157
 #FLUX: --exclusive
 #FLUX: --queue=g100_usr_prod
 #FLUX: -t=1200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-leader-1932
+#FLUX: --job-name=dinosaur-peanut-3273
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/permeability-c_grad_p-medium.sh

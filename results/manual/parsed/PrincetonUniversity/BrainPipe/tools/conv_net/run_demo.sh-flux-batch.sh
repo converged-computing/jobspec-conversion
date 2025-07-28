@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cat-3002
+#FLUX: --job-name=scruptious-malarkey-4684
 #FLUX: --queue=all
 #FLUX: -t=600
 #FLUX: --urgency=16

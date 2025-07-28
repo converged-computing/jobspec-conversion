@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-truffle-8711
+#FLUX: --job-name=sticky-snack-8967
 #FLUX: --queue=devel
 #FLUX: -t=600
 #FLUX: --urgency=16

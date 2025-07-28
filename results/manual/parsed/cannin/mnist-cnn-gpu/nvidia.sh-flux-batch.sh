@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-staircase-2948
+#FLUX: --job-name=eccentric-ricecake-2888
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=21600

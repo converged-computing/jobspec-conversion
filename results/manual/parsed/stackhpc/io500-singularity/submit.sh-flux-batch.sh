@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-malarkey-5973
+#FLUX: --job-name=arid-bits-0478
 #FLUX: -n=2
 #FLUX: --exclusive
 #FLUX: --urgency=16

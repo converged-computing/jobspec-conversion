@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-underoos-6245
+#FLUX: --job-name=stinky-muffin-1550
 #FLUX: -n=4
 #FLUX: --queue=intel
 #FLUX: -t=3600

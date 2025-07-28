@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-gato-7371
+#FLUX: --job-name=sticky-frito-7900
 #FLUX: -c=8
 #FLUX: --queue=g100_usr_interactive
 #FLUX: -t=600

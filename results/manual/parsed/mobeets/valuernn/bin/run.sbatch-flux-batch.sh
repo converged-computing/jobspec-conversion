@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-parrot-7950
+#FLUX: --job-name=conspicuous-butter-7042
 #FLUX: --queue=shared
 #FLUX: -t=480
 #FLUX: --urgency=16

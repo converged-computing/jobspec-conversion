@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leg-5226
+#FLUX: --job-name=eccentric-staircase-1805
 #FLUX: --queue=batch
 #FLUX: -t=300
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-destiny-6282
+#FLUX: --job-name=eccentric-avocado-4243
 #FLUX: -N=15
 #FLUX: --queue=parallel
 #FLUX: -t=7200

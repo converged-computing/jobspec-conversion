@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-spoon-9127
+#FLUX: --job-name=phat-sundae-6959
 #FLUX: -n=32
 #FLUX: --queue=seas_dgx1
 #FLUX: -t=86400

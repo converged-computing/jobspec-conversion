@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-cat-1884
+#FLUX: --job-name=rainbow-muffin-4363
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Exawind/wind-energy/GABLS/nekrs_comparison/run.slurm

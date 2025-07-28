@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-carrot-7502
+#FLUX: --job-name=placid-taco-8687
 #FLUX: -c=4
 #FLUX: --queue=medium
 #FLUX: -t=169200

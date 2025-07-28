@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-hope-3452
+#FLUX: --job-name=purple-peanut-butter-0211
 #FLUX: --queue=batch
 #FLUX: -t=14400
 #FLUX: --urgency=16

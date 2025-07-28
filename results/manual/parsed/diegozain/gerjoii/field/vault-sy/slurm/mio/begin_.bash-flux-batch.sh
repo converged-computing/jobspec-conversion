@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-despacito-9484
+#FLUX: --job-name=angry-onion-4190
 #FLUX: -c=20
 #FLUX: --exclusive
 #FLUX: -t=43140

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-snack-8579
+#FLUX: --job-name=wobbly-truffle-7565
 #FLUX: --exclusive
 #FLUX: --queue=k80_q
 #FLUX: -t=172800

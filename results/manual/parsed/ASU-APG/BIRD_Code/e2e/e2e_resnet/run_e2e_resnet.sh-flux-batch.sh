@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-omelette-7111
+#FLUX: --job-name=expressive-underoos-2790
 #FLUX: -n=4
 #FLUX: --queue=cidsegpu1
 #FLUX: -t=259920

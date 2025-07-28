@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-taco-2746
+#FLUX: --job-name=confused-hippo-5037
 #FLUX: --queue=msismall
 #FLUX: -t=28800
 #FLUX: --urgency=16

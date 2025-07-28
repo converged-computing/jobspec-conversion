@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-nalgas-6073
+#FLUX: --job-name=bloated-leg-0292
 #FLUX: --queue=milanq
 #FLUX: -t=1200
 #FLUX: --urgency=16

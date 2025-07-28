@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-rabbit-3272
+#FLUX: --job-name=crunchy-leader-0796
 #FLUX: --queue=naples,dhabi,rome
 #FLUX: --urgency=16
 

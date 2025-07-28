@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-truffle-1072
+#FLUX: --job-name=goodbye-bike-0767
 #FLUX: -c=24
 #FLUX: -t=1800
 #FLUX: --urgency=16

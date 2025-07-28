@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-gato-3614
+#FLUX: --job-name=purple-omelette-3584
 #FLUX: -N=4
 #FLUX: --queue=gpu
 #FLUX: -t=3600

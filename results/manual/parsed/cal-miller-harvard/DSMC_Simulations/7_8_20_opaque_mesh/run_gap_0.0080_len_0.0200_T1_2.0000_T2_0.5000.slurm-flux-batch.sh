@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-leader-4315
+#FLUX: --job-name=outstanding-punk-7308
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

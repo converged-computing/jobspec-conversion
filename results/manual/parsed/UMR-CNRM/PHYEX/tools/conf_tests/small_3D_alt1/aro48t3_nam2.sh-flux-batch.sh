@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lamp-1461
+#FLUX: --job-name=eccentric-cattywampus-9487
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-kerfuffle-6898
+#FLUX: --job-name=reclusive-kerfuffle-0250
 #FLUX: --urgency=16
 
 function write_comment()

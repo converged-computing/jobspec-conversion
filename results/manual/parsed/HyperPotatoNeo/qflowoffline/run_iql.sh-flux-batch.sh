@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lettuce-7462
+#FLUX: --job-name=loopy-bits-2022
 #FLUX: -c=6
 #FLUX: --queue=long
 #FLUX: -t=172800

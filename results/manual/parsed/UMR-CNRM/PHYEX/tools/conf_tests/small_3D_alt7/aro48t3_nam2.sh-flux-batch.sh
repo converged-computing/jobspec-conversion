@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-ricecake-2347
+#FLUX: --job-name=fuzzy-fork-9175
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

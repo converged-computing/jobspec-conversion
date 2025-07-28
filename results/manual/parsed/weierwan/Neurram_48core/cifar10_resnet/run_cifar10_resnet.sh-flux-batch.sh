@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-avocado-9851
+#FLUX: --job-name=expensive-hippo-5722
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-arm-6091
+#FLUX: --job-name=fuzzy-bicycle-9409
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

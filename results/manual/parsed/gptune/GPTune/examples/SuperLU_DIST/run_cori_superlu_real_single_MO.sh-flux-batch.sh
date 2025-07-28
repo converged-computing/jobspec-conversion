@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-lemon-6196
+#FLUX: --job-name=loopy-diablo-7024
 #FLUX: --urgency=16
 
 export GPTUNEROOT='$PWD'

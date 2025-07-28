@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-salad-6937
+#FLUX: --job-name=bumfuzzled-fork-9010
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

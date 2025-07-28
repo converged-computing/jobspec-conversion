@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-poo-1709
+#FLUX: --job-name=butterscotch-destiny-0516
 #FLUX: --queue=hci-rw
 #FLUX: -t=86400
 #FLUX: --urgency=16

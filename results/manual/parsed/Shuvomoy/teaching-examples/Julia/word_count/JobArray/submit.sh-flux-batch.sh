@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-arm-0130
+#FLUX: --job-name=rainbow-animal-2998
 #FLUX: --urgency=16
 
 source /etc/profile

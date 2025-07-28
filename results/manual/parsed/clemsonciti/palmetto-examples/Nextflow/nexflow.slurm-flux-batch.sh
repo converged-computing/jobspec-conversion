@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-latke-6123
+#FLUX: --job-name=conspicuous-platanos-0771
 #FLUX: -N=2
 #FLUX: -c=2
 #FLUX: -t=1800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-lettuce-7961
+#FLUX: --job-name=boopy-leopard-6924
 #FLUX: -c=24
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=360

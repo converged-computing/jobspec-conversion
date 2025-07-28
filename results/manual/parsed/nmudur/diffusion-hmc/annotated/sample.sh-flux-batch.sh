@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-carrot-0073
+#FLUX: --job-name=bricky-butter-9101
 #FLUX: --queue=fink_gpu
 #FLUX: -t=225
 #FLUX: --urgency=16

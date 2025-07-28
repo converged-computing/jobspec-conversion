@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-truffle-1538
+#FLUX: --job-name=fat-lemur-1658
 #FLUX: --queue=node
 #FLUX: -t=604800
 #FLUX: --urgency=16

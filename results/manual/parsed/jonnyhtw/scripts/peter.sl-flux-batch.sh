@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cinnamonbun-4568
+#FLUX: --job-name=carnivorous-motorcycle-7458
 #FLUX: --queue=nesi_prepost
 #FLUX: -t=1800
 #FLUX: --urgency=16

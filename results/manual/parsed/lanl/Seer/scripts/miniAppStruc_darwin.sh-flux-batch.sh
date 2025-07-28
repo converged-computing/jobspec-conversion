@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-caramel-2459
+#FLUX: --job-name=lovable-itch-0728
 #FLUX: -N=2
 #FLUX: --queue=galton
 #FLUX: --urgency=16

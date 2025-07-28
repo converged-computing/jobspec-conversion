@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-peas-6463
+#FLUX: --job-name=reclusive-lemur-7196
 #FLUX: --queue=cuda-gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

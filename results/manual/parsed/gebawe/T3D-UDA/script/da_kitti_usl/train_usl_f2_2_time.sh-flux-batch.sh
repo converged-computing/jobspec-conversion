@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-hope-9312
+#FLUX: --job-name=bloated-lemur-8260
 #FLUX: -c=24
 #FLUX: --queue=amdgpulong
 #FLUX: -t=259200

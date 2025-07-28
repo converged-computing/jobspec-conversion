@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-ricecake-6949
+#FLUX: --job-name=rainbow-squidward-5738
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-plant-0847
+#FLUX: --job-name=delicious-underoos-1833
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: --queue=nvidia

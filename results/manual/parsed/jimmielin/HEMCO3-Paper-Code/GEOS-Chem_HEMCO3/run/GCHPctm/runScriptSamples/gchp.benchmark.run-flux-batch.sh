@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-soup-9325
+#FLUX: --job-name=chunky-pedo-9746
 #FLUX: -N=2
 #FLUX: -n=48
 #FLUX: --exclusive

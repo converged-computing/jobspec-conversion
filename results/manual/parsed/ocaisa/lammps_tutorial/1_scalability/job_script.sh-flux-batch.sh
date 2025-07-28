@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-omelette-5790
+#FLUX: --job-name=salted-signal-2328
 #FLUX: -N=2
 #FLUX: --queue=devel
 #FLUX: -t=600

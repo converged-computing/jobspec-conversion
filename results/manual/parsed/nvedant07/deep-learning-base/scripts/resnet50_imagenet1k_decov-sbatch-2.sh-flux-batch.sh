@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-arm-1085
+#FLUX: --job-name=blank-animal-8326
 #FLUX: -c=16
 #FLUX: --queue=a40
 #FLUX: -t=345600

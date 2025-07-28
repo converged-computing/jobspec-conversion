@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-poodle-9547
+#FLUX: --job-name=boopy-peanut-butter-5119
 #FLUX: --queue=wacc
 #FLUX: --urgency=16
 

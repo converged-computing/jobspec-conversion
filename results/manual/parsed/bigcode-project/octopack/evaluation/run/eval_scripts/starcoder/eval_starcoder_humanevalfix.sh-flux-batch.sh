@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-toaster-2068
+#FLUX: --job-name=placid-carrot-5746
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=small-g

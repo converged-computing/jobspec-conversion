@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-hobbit-7144
+#FLUX: --job-name=fugly-muffin-9596
 #FLUX: --queue=ckpt
 #FLUX: -t=172800
 #FLUX: --urgency=16

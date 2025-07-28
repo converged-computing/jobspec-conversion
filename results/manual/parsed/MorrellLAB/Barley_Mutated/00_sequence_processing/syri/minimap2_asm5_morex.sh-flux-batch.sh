@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leader-6918
+#FLUX: --job-name=muffled-lemur-7878
 #FLUX: --queue=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
 #FLUX: -t=10800
 #FLUX: --urgency=16

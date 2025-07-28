@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-muffin-1946
+#FLUX: --job-name=moolicious-onion-8568
 #FLUX: -c=8
 #FLUX: --queue=main
 #FLUX: -t=3600

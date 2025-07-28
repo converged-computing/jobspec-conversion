@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-blackbean-3202
+#FLUX: --job-name=misunderstood-buttface-4020
 #FLUX: -c=4
 #FLUX: --queue=batch
 #FLUX: -t=259200

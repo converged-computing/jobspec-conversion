@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-onion-5439
+#FLUX: --job-name=bumfuzzled-poodle-9695
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/OSU-HPCC/example_submission_scripts/matlab/matlab.pbs

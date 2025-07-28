@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-milkshake-1374
+#FLUX: --job-name=grated-hippo-1441
 #FLUX: --exclusive
 #FLUX: --queue=normal_q
 #FLUX: -t=288000

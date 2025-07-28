@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-carrot-1074
+#FLUX: --job-name=blue-lemur-2056
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000

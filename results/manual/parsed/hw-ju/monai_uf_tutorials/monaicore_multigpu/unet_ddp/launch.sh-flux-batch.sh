@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bits-9510
+#FLUX: --job-name=misunderstood-nalgas-4431
 #FLUX: -c=4
 #FLUX: --gpus-per-task=4
 #FLUX: --exclusive

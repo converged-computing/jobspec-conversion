@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-hope-6737
+#FLUX: --job-name=hairy-chair-8604
 #FLUX: --urgency=16
 
  tar xvzf pbs_ipn_0.581.tar.gz

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-staircase-6259
+#FLUX: --job-name=hanky-punk-0157
 #FLUX: -n=4
 #FLUX: --queue=mlow
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-destiny-4221
+#FLUX: --job-name=crusty-avocado-0533
 #FLUX: -n=32
 #FLUX: --queue=defq
 #FLUX: -t=87840

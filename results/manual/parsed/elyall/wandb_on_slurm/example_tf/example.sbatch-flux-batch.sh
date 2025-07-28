@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-nalgas-9077
+#FLUX: --job-name=frigid-arm-4748
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: --queue=aws

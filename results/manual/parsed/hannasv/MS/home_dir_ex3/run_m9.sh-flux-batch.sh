@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-avocado-2703
+#FLUX: --job-name=ornery-fork-3123
 #FLUX: -n=6
 #FLUX: --queue=dgx2q
 #FLUX: -t=87840

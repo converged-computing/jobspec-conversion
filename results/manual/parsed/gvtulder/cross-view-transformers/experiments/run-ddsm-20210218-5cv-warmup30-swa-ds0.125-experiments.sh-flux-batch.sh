@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-poodle-2103
+#FLUX: --job-name=outstanding-diablo-8004
 #FLUX: -c=6
 #FLUX: --queue=csedu
 #FLUX: -t=7200

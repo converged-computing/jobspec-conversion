@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-hippo-2037
+#FLUX: --job-name=goodbye-blackbean-2725
 #FLUX: --queue=gpu2
 #FLUX: -t=1800
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-leader-3210
+#FLUX: --job-name=dirty-plant-0592
 #FLUX: -c=10
 #FLUX: --exclusive
 #FLUX: -t=86400

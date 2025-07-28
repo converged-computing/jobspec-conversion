@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-poo-3668
+#FLUX: --job-name=arid-platanos-7556
 #FLUX: -c=10
 #FLUX: --queue=gpusmall
 #FLUX: -t=3600

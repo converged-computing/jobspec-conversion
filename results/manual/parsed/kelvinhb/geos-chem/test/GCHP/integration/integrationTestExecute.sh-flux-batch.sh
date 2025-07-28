@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-train-8602
+#FLUX: --job-name=placid-bike-8051
 #FLUX: -n=24
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=210

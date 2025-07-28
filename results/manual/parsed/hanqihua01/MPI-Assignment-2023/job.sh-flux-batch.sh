@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bike-3704
+#FLUX: --job-name=fugly-fork-4621
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

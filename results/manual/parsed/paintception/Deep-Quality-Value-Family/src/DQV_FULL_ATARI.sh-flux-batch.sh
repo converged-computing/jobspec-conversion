@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-destiny-2784
+#FLUX: --job-name=fugly-onion-3406
 #FLUX: -t=432000
 #FLUX: --urgency=16
 

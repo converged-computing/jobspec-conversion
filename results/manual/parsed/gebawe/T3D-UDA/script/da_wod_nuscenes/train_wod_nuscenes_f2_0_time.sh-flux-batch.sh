@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-gato-9517
+#FLUX: --job-name=lovable-buttface-1425
 #FLUX: -c=24
 #FLUX: --queue=amdgpuextralong
 #FLUX: -t=864000

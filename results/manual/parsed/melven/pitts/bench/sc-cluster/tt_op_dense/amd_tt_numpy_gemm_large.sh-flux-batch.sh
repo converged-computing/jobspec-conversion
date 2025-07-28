@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-bits-8599
+#FLUX: --job-name=bumfuzzled-knife-9442
 #FLUX: -c=64
 #FLUX: --queue=amd
 #FLUX: -t=180000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-rabbit-9203
+#FLUX: --job-name=bloated-chip-4265
 #FLUX: --queue=gpu2
 #FLUX: -t=1800
 #FLUX: --urgency=16

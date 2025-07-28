@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-butter-7009
+#FLUX: --job-name=evasive-staircase-4718
 #FLUX: -n=96
 #FLUX: --urgency=16
 

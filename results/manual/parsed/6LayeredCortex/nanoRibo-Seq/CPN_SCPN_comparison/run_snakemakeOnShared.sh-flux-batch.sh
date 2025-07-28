@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pedo-9893
+#FLUX: --job-name=sticky-parrot-4547
 #FLUX: --queue=shared
 #FLUX: -t=86400
 #FLUX: --urgency=16

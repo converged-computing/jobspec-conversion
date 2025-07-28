@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-chip-5576
+#FLUX: --job-name=boopy-diablo-4709
 #FLUX: -c=16
 #FLUX: --queue=long
 #FLUX: -t=10800

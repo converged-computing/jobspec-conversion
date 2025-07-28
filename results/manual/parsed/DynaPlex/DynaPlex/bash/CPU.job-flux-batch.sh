@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-salad-9471
+#FLUX: --job-name=gassy-snack-0011
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: --queue=genoa

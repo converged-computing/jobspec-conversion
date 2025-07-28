@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-lettuce-2245
+#FLUX: --job-name=hello-itch-3168
 #FLUX: --queue=nesi_prepost
 #FLUX: -t=86400
 #FLUX: --urgency=16

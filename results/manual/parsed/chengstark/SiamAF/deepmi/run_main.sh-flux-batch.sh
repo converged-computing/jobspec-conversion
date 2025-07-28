@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-buttface-2556
+#FLUX: --job-name=scruptious-lamp-1573
 #FLUX: --queue=overflow
 #FLUX: -t=864000
 #FLUX: --urgency=16

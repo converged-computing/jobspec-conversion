@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lentil-3441
+#FLUX: --job-name=expressive-soup-9393
 #FLUX: -t=1440
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-frito-4425
+#FLUX: --job-name=bumfuzzled-lamp-9507
 #FLUX: --queue=devel
 #FLUX: -t=900
 #FLUX: --urgency=16

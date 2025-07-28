@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-malarkey-8064
+#FLUX: --job-name=moolicious-butter-2417
 #FLUX: -n=20
 #FLUX: --queue=day
 #FLUX: -t=3600

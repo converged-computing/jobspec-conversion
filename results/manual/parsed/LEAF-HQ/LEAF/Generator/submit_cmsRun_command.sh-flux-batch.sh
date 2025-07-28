@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-egg-9571
+#FLUX: --job-name=boopy-knife-0605
 #FLUX: --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$CODEFOLDER'

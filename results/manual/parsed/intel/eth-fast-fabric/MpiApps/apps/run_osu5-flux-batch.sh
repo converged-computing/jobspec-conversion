@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-soup-8364
+#FLUX: --job-name=buttery-lamp-5524
 #FLUX: --urgency=16
 
 MPICH_PREFIX=${MPICH_PREFIX:-`cat .prefix 2>/dev/null`}

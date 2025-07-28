@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-chair-1239
+#FLUX: --job-name=dirty-platanos-0745
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

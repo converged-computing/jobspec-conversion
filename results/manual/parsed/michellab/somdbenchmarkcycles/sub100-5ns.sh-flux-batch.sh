@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-buttface-2034
+#FLUX: --job-name=grated-bike-0627
 #FLUX: --queue=main
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-fudge-7462
+#FLUX: --job-name=expensive-chip-4261
 #FLUX: -n=10
 #FLUX: -c=2
 #FLUX: --queue=small

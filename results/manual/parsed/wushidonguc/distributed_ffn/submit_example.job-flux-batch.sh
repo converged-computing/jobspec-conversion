@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-chip-8084
+#FLUX: --job-name=doopy-destiny-6818
 #FLUX: --urgency=16
 

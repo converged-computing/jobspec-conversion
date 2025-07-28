@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-cat-9293
+#FLUX: --job-name=bloated-destiny-2083
 #FLUX: --urgency=16
 
 tissues=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')

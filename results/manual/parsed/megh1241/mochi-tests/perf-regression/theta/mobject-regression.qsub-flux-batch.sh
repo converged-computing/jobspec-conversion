@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-lamp-3348
+#FLUX: --job-name=purple-despacito-0340
 #FLUX: --urgency=16
 

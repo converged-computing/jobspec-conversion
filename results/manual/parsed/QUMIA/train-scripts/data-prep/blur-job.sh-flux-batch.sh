@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-blackbean-7031
+#FLUX: --job-name=sticky-spoon-0160
 #FLUX: --queue=genoa
 #FLUX: -t=14400
 #FLUX: --urgency=16

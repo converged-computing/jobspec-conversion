@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-frito-1860
+#FLUX: --job-name=fugly-lettuce-4422
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: --queue=itc_gpu

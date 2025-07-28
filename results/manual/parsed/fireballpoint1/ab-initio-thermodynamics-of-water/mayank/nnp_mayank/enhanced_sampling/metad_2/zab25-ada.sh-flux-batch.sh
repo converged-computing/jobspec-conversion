@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-nunchucks-2009
+#FLUX: --job-name=pusheena-caramel-9492
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

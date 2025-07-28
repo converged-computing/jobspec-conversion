@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-destiny-6913
+#FLUX: --job-name=dinosaur-parrot-8334
 #FLUX: -c=8
 #FLUX: --queue=huce_intel
 #FLUX: -t=1440

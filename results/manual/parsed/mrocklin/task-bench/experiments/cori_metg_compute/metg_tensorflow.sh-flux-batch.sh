@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-gato-2645
+#FLUX: --job-name=dinosaur-snack-3248
 #FLUX: --exclusive
 #FLUX: -t=3600
 #FLUX: --urgency=16

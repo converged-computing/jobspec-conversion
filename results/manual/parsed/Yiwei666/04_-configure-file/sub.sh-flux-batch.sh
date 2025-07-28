@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bits-7468
+#FLUX: --job-name=buttery-snack-2265
 #FLUX: -n=64
 #FLUX: --queue=amd_256
 #FLUX: --urgency=16

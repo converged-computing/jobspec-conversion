@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-hobbit-0495
+#FLUX: --job-name=quirky-blackbean-1462
 #FLUX: -c=10
 #FLUX: --queue=himem
 #FLUX: --urgency=16

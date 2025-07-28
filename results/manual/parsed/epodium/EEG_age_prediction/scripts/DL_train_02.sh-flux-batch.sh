@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-avocado-8173
+#FLUX: --job-name=fuzzy-pot-7591
 #FLUX: --queue=gpu_shared
 #FLUX: -t=54000
 #FLUX: --urgency=16

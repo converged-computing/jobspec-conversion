@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-chip-2171
+#FLUX: --job-name=pusheena-omelette-4738
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: --queue=small-g

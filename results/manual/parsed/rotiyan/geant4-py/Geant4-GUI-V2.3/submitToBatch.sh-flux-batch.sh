@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cherry-5839
+#FLUX: --job-name=evasive-malarkey-0772
 #FLUX: --queue=htc
 #FLUX: -t=14400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-toaster-3103
+#FLUX: --job-name=crunchy-squidward-3180
 #FLUX: -c=8
 #FLUX: --queue=pi_cryoem,scavenge
 #FLUX: -t=1440

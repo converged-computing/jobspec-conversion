@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-platanos-1025
+#FLUX: --job-name=purple-diablo-7640
 #FLUX: -c=31
 #FLUX: --queue=normal
 #FLUX: --urgency=16

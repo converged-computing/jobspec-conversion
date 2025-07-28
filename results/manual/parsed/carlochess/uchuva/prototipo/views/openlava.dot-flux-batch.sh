@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-eagle-9484
+#FLUX: --job-name=blue-latke-8159
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/carlochess/uchuva/prototipo/views/openlava.dot

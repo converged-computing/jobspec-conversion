@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bike-2956
+#FLUX: --job-name=goodbye-leg-7975
 #FLUX: --exclusive
 #FLUX: --queue=standard-g
 #FLUX: -t=1800

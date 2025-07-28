@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-bicycle-7766
+#FLUX: --job-name=loopy-fork-1080
 #FLUX: -c=8
 #FLUX: --queue=general
 #FLUX: -t=32400

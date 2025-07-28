@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-citrus-6335
+#FLUX: --job-name=placid-eagle-0703
 #FLUX: --exclusive
 #FLUX: --queue=ndmv4
 #FLUX: --urgency=16

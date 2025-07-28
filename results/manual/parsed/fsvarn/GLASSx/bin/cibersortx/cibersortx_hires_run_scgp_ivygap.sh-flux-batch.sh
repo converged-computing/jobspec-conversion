@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-signal-1037
+#FLUX: --job-name=astute-motorcycle-0267
 #FLUX: -c=12
 #FLUX: -t=28800
 #FLUX: --urgency=16

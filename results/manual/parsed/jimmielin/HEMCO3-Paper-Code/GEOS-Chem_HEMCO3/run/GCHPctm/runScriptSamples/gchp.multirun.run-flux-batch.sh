@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-peas-6653
+#FLUX: --job-name=persnickety-avocado-2394
 #FLUX: -n=30
 #FLUX: --exclusive
 #FLUX: --queue=huce_intel

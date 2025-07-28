@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-fork-6820
+#FLUX: --job-name=buttery-egg-9101
 #FLUX: -n=4
 #FLUX: --queue=public
 #FLUX: -t=1800000

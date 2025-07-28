@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-kitty-7705
+#FLUX: --job-name=delicious-buttface-9859
 #FLUX: -c=20
 #FLUX: --exclusive
 #FLUX: -t=43140

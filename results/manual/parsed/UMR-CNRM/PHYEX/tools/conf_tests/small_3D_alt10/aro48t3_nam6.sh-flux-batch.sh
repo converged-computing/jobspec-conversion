@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-sundae-6128
+#FLUX: --job-name=lovely-signal-2995
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

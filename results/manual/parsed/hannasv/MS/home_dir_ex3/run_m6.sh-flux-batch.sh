@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-motorcycle-5393
+#FLUX: --job-name=rainbow-leg-8816
 #FLUX: -n=6
 #FLUX: --queue=dgx2q
 #FLUX: -t=87840

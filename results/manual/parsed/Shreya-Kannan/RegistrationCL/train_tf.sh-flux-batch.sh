@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lamp-7464
+#FLUX: --job-name=blue-squidward-6525
 #FLUX: -N=2
 #FLUX: -n=32
 #FLUX: -t=126000

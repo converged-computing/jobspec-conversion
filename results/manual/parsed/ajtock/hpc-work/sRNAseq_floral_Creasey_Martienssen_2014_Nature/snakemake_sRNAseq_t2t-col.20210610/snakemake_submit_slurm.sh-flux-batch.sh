@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-snack-0770
+#FLUX: --job-name=strawberry-staircase-9497
 #FLUX: -c=32
 #FLUX: --queue=production
 #FLUX: -t=356400

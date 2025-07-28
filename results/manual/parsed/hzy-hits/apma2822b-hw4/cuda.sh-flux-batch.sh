@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-muffin-7114
+#FLUX: --job-name=outstanding-fork-8381
 #FLUX: --queue=gpu
 #FLUX: -t=5400
 #FLUX: --urgency=16

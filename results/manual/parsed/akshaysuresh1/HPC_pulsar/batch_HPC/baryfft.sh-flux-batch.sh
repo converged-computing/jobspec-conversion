@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-muffin-5244
+#FLUX: --job-name=bumfuzzled-hope-3090
 #FLUX: --queue=RM-shared
 #FLUX: -t=7200
 #FLUX: --urgency=16

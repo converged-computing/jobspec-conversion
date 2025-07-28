@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-parsnip-5380
+#FLUX: --job-name=sticky-sundae-2318
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-kerfuffle-7507
+#FLUX: --job-name=fuzzy-destiny-3355
 #FLUX: -N=2
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1

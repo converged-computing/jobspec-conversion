@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-knife-4823
+#FLUX: --job-name=cowy-chip-4045
 #FLUX: -N=4
 #FLUX: -n=64
 #FLUX: --exclusive

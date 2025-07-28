@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-caramel-6502
+#FLUX: --job-name=gassy-squidward-2585
 #FLUX: --queue=valhalla
 #FLUX: -t=36000
 #FLUX: --urgency=16

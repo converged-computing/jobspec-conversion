@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-sundae-3613
+#FLUX: --job-name=hanky-signal-2538
 #FLUX: --exclusive
 #FLUX: --queue=pvc
 #FLUX: -t=9000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-earthworm-6227
+#FLUX: --job-name=blank-plant-0307
 #FLUX: --queue=shared-gpu
 #FLUX: -t=43200
 #FLUX: --urgency=16

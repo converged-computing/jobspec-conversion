@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-parrot-0189
+#FLUX: --job-name=conspicuous-lizard-3645
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: --urgency=16

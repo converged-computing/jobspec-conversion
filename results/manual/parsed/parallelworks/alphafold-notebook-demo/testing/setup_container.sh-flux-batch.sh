@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-squidward-2548
+#FLUX: --job-name=blue-bike-3430
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

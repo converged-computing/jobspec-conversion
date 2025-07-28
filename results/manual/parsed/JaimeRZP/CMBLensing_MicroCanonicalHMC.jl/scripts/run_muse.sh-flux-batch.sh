@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-chip-3553
+#FLUX: --job-name=nerdy-signal-6023
 #FLUX: -c=4
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=regular

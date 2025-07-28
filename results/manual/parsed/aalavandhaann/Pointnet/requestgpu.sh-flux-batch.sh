@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-animal-3649
+#FLUX: --job-name=confused-lemon-2002
 #FLUX: -c=24
 #FLUX: -t=43200
 #FLUX: --urgency=16

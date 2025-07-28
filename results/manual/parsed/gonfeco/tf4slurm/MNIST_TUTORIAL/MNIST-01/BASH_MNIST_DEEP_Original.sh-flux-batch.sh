@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-nalgas-9343
+#FLUX: --job-name=buttery-ricecake-4581
 #FLUX: --queue=thinnodes
 #FLUX: -t=600
 #FLUX: --urgency=16

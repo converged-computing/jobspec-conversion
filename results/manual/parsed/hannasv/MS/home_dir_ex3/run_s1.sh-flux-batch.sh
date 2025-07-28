@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-rabbit-0017
+#FLUX: --job-name=eccentric-house-0819
 #FLUX: -n=32
 #FLUX: --queue=defq
 #FLUX: -t=87840

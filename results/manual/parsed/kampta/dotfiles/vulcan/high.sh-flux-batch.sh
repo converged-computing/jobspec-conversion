@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-diablo-2245
+#FLUX: --job-name=persnickety-peanut-butter-9517
 #FLUX: -c=4
 #FLUX: --queue=dpart
 #FLUX: -t=129600

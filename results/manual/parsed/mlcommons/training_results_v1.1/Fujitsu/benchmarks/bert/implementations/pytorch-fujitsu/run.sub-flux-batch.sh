@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-fork-1421
+#FLUX: --job-name=reclusive-parrot-9065
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

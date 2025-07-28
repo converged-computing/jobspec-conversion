@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-staircase-9212
+#FLUX: --job-name=psycho-soup-9424
 #FLUX: -c=2
 #FLUX: -t=3600
 #FLUX: --urgency=16

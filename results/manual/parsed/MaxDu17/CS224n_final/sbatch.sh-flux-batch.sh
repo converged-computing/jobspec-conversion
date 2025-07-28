@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-hope-0042
+#FLUX: --job-name=misunderstood-chip-2315
 #FLUX: -c=8
 #FLUX: --queue=iris-hi
 #FLUX: -t=259200

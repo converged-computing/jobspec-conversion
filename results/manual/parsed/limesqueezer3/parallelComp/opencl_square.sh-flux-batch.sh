@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-truffle-6637
+#FLUX: --job-name=grated-staircase-2254
 #FLUX: --queue=csmpi_fpga_short
 #FLUX: -t=300
 #FLUX: --urgency=16

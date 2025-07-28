@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-peanut-7519
+#FLUX: --job-name=blank-chip-1317
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

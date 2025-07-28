@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-nalgas-8216
+#FLUX: --job-name=carnivorous-sundae-2031
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LLNL/magpie/submission-scripts/script-lsf-mpirun/magpie.lsf-mpirun-ray

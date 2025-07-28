@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lettuce-1170
+#FLUX: --job-name=expensive-blackbean-7732
 #FLUX: -c=72
 #FLUX: --exclusive
 #FLUX: --queue=gpu

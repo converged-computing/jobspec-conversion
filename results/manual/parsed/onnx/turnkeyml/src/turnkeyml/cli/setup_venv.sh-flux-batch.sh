@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-hobbit-2961
+#FLUX: --job-name=bricky-destiny-2691
 #FLUX: --urgency=16
 
 export CONDA_ALWAYS_YES='true'

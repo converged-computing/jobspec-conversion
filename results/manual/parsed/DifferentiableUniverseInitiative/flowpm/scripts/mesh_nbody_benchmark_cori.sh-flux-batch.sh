@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-blackbean-8299
+#FLUX: --job-name=strawberry-butter-4811
 #FLUX: -n=4
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1

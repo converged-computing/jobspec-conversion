@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-plant-5223
+#FLUX: --job-name=faux-puppy-6846
 #FLUX: --urgency=16
 
 export TOIL_SLURM_ARGS='--export=ALL --job-name delaycal -p normal'

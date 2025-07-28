@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-animal-3094
+#FLUX: --job-name=hello-pastry-9527
 #FLUX: -n=4
 #FLUX: -c=2
 #FLUX: --queue=booster

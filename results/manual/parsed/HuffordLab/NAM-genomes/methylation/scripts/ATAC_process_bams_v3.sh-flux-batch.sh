@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-motorcycle-9309
+#FLUX: --job-name=buttery-squidward-9387
 #FLUX: --urgency=16
 
 out_dir=output_directory

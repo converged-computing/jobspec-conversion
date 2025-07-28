@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-parsnip-1190
+#FLUX: --job-name=chocolate-earthworm-5533
 #FLUX: --queue=general-compute
 #FLUX: -t=43200
 #FLUX: --urgency=16

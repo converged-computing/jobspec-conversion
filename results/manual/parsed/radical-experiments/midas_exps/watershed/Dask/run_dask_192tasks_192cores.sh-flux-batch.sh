@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cinnamonbun-8529
+#FLUX: --job-name=butterscotch-nunchucks-1304
 #FLUX: -N=8
 #FLUX: --queue=compute
 #FLUX: -t=3600

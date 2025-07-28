@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hope-0303
+#FLUX: --job-name=milky-leader-0836
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=10800

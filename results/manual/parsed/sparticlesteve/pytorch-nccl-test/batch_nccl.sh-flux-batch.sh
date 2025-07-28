@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lemur-5342
+#FLUX: --job-name=blue-chip-8544
 #FLUX: -N=2
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive

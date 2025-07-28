@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cinnamonbun-8865
+#FLUX: --job-name=lovely-buttface-9387
 #FLUX: --urgency=16
 
 declare -xr GALYLEO_INSTALL_DIR="${PWD}"

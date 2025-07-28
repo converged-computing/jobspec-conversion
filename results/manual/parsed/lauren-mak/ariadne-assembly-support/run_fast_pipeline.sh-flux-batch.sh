@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-gato-0213
+#FLUX: --job-name=blue-leg-6030
 #FLUX: -n=30
 #FLUX: --queue=panda
 #FLUX: --urgency=16

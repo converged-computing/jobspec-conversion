@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-peanut-butter-8243
+#FLUX: --job-name=crusty-buttface-0458
 #FLUX: -c=32
 #FLUX: --queue=compute
 #FLUX: --urgency=16

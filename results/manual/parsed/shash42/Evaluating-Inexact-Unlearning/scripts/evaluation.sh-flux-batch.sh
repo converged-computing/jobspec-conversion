@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-fork-1463
+#FLUX: --job-name=salted-blackbean-6784
 #FLUX: -t=345600
 #FLUX: --urgency=16
 

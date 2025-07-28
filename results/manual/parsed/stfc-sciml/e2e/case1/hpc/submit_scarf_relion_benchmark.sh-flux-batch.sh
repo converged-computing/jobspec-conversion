@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cinnamonbun-2526
+#FLUX: --job-name=loopy-caramel-8803
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: --queue=scarf

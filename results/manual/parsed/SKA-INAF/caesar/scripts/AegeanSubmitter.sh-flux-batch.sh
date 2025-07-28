@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-itch-7615
+#FLUX: --job-name=dinosaur-spoon-1239
 #FLUX: --urgency=16
 
 export BASEDIR='$PWD'

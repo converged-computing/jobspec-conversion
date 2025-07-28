@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-gato-3778
+#FLUX: --job-name=expensive-fork-6192
 #FLUX: -n=10
 #FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16

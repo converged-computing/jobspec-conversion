@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-frito-1424
+#FLUX: --job-name=milky-chair-1854
 #FLUX: -N=2
 #FLUX: -n=48
 #FLUX: --queue=general_requeue

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-puppy-3866
+#FLUX: --job-name=carnivorous-destiny-4040
 #FLUX: --urgency=16
 
 echo ${SLURM_ARRAY_TASK_ID}

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-caramel-8394
+#FLUX: --job-name=gassy-chip-3870
 #FLUX: --queue=gpu_shared
 #FLUX: -t=54000
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-butter-2819
+#FLUX: --job-name=arid-sundae-9683
 #FLUX: --queue=v100_full_node
 #FLUX: --urgency=16
 

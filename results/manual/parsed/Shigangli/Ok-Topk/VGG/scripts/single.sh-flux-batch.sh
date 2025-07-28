@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-truffle-0095
+#FLUX: --job-name=fuzzy-parsnip-0736
 #FLUX: -c=12
 #FLUX: --queue=debug
 #FLUX: -t=1800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-carrot-7854
+#FLUX: --job-name=astute-arm-8622
 #FLUX: -c=2
 #FLUX: -t=7200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-despacito-5336
+#FLUX: --job-name=bumfuzzled-lamp-9332
 #FLUX: --queue=cox
 #FLUX: -t=259920
 #FLUX: --urgency=16

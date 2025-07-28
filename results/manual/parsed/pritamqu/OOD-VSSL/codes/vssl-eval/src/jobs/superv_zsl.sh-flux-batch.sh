@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-squidward-5713
+#FLUX: --job-name=blank-muffin-3731
 #FLUX: --queue=v100_full_node
 #FLUX: --urgency=16
 

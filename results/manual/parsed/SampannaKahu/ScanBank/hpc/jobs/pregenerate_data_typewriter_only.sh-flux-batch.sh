@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lamp-9705
+#FLUX: --job-name=faux-ricecake-0898
 #FLUX: --exclusive
 #FLUX: --queue=normal_q
 #FLUX: -t=288000

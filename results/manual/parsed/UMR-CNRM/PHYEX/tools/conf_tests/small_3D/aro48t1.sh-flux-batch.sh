@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-spoon-5404
+#FLUX: --job-name=evasive-salad-3341
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

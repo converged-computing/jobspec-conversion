@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-peanut-9070
+#FLUX: --job-name=arid-nalgas-6134
 #FLUX: --queue=pbatch
 #FLUX: -t=28800
 #FLUX: --urgency=16

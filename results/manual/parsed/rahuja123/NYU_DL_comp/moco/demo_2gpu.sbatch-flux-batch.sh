@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-diablo-2405
+#FLUX: --job-name=reclusive-malarkey-7518
 #FLUX: --exclusive
 #FLUX: --queue=n1s16-t4-2
 #FLUX: -t=72000

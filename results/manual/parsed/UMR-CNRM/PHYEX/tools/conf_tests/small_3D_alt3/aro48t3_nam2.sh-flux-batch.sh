@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-toaster-6267
+#FLUX: --job-name=astute-blackbean-5951
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-toaster-7316
+#FLUX: --job-name=goodbye-soup-3848
 #FLUX: --queue=serial_requeue
 #FLUX: -t=7200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-egg-9664
+#FLUX: --job-name=gloopy-pancake-9680
 #FLUX: --queue=cpulong
 #FLUX: -t=259200
 #FLUX: --urgency=16

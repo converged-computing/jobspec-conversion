@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-squidward-1771
+#FLUX: --job-name=evasive-cupcake-0537
 #FLUX: -c=128
 #FLUX: --gpus-per-task=4
 #FLUX: --queue=debug

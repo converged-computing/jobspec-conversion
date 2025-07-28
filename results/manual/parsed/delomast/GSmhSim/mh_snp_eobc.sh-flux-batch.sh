@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-snack-5689
+#FLUX: --job-name=cowy-general-7565
 #FLUX: --queue=medium
 #FLUX: -t=428400
 #FLUX: --urgency=16

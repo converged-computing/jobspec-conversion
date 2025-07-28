@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-noodle-2087
+#FLUX: --job-name=cowy-signal-9927
 #FLUX: -N=3
 #FLUX: -n=3
 #FLUX: --queue=west

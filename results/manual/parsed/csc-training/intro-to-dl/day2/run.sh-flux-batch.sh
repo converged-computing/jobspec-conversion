@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lamp-3624
+#FLUX: --job-name=joyous-eagle-9279
 #FLUX: -c=7
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=small-g

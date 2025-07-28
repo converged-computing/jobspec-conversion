@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-toaster-2479
+#FLUX: --job-name=phat-peas-6010
 #FLUX: --queue=cpu
 #FLUX: -t=1800
 #FLUX: --urgency=16

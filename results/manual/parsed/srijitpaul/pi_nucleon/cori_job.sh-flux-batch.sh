@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-mango-3740
+#FLUX: --job-name=chocolate-car-3975
 #FLUX: -N=12
 #FLUX: -n=768
 #FLUX: --queue=debug

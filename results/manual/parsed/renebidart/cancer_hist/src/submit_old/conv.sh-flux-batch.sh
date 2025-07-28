@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-butter-3195
+#FLUX: --job-name=bloated-itch-7032
 #FLUX: -t=1440
 #FLUX: --urgency=16
 

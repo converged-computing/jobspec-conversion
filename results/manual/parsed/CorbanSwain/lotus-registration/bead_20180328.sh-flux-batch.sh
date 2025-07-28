@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-muffin-4971
+#FLUX: --job-name=scruptious-pot-4371
 #FLUX: -n=20
 #FLUX: --queue=om_all_nodes
 #FLUX: -t=172800

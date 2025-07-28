@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-taco-9894
+#FLUX: --job-name=fuzzy-signal-7327
 #FLUX: --urgency=16
 

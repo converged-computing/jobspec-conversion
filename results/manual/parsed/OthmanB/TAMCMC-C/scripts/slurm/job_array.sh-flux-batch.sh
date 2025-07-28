@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-spoon-8289
+#FLUX: --job-name=goodbye-underoos-0196
 #FLUX: -c=10
 #FLUX: --queue=serial
 #FLUX: -t=172799

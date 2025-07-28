@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-hobbit-4196
+#FLUX: --job-name=faux-arm-6169
 #FLUX: --queue=zhuang
 #FLUX: -t=172800
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-nalgas-0307
+#FLUX: --job-name=moolicious-bits-8269
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

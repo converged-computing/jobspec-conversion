@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-egg-0243
+#FLUX: --job-name=delicious-destiny-7576
 #FLUX: -c=12
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16

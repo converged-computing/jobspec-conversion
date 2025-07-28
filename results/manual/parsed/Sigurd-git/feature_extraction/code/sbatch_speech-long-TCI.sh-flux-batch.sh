@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-poo-6387
+#FLUX: --job-name=chocolate-cinnamonbun-6615
 #FLUX: -c=10
 #FLUX: --queue=doppelbock
 #FLUX: -t=14400

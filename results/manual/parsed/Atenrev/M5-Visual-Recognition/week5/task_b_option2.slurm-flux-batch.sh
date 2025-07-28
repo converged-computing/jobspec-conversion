@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-eagle-0706
+#FLUX: --job-name=arid-arm-1481
 #FLUX: -n=4
 #FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16

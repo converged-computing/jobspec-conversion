@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-despacito-7409
+#FLUX: --job-name=misunderstood-train-5538
 #FLUX: -N=2
 #FLUX: --queue=bdwall
 #FLUX: -t=900

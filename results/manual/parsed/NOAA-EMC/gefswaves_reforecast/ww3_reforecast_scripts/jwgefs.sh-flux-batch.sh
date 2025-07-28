@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-sundae-3815
+#FLUX: --job-name=ornery-lettuce-8975
 #FLUX: -N=10
 #FLUX: --exclusive
 #FLUX: --queue=orion

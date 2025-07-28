@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-leopard-9936
+#FLUX: --job-name=pusheena-muffin-5483
 #FLUX: --exclusive
 #FLUX: --queue=production-cluster
 #FLUX: --urgency=16

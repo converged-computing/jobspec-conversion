@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-plant-2769
+#FLUX: --job-name=faux-hippo-8036
 #FLUX: --queue=amdgpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-muffin-7436
+#FLUX: --job-name=dinosaur-earthworm-6223
 #FLUX: -t=172800
 #FLUX: --urgency=16
 

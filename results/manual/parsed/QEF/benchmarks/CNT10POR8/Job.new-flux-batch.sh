@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-earthworm-8897
+#FLUX: --job-name=moolicious-punk-0343
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/QEF/benchmarks/CNT10POR8/Job.new

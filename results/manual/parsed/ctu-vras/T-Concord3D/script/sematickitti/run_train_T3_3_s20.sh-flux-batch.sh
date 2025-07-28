@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-dog-0449
+#FLUX: --job-name=placid-muffin-9811
 #FLUX: -c=6
 #FLUX: --queue=amdgpulong
 #FLUX: -t=259200

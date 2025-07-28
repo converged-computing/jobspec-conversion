@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-citrus-8740
+#FLUX: --job-name=fugly-signal-9939
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu
 #FLUX: -t=120

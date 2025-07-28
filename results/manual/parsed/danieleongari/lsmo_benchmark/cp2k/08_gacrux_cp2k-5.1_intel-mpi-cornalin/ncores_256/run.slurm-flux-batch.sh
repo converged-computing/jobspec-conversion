@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-rabbit-9474
+#FLUX: --job-name=evasive-nalgas-0445
 #FLUX: -N=10
 #FLUX: -n=256
 #FLUX: -t=1800

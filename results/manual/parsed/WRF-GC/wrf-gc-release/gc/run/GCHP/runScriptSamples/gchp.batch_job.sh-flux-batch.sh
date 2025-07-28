@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-knife-0390
+#FLUX: --job-name=moolicious-lamp-7632
 #FLUX: -N=2
 #FLUX: -n=60
 #FLUX: --queue=seas_compute

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-hobbit-6286
+#FLUX: --job-name=ornery-hope-0064
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=72000

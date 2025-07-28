@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-lamp-7693
+#FLUX: --job-name=ornery-frito-7570
 #FLUX: --queue=aquila,parallel
 #FLUX: -t=604800
 #FLUX: --urgency=16

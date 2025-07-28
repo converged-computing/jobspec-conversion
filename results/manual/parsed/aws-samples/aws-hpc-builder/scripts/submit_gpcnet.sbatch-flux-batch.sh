@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-poo-1693
+#FLUX: --job-name=arid-leopard-6914
 #FLUX: -N=10
 #FLUX: --exclusive
 #FLUX: --queue=c7gnpg

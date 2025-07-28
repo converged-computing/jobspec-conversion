@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-muffin-1235
+#FLUX: --job-name=conspicuous-peas-4575
 #FLUX: --queue=short
 #FLUX: -t=60
 #FLUX: --urgency=16

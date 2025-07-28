@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-toaster-1157
+#FLUX: --job-name=tart-bits-0448
 #FLUX: --queue=devel
 #FLUX: -t=900
 #FLUX: --urgency=16

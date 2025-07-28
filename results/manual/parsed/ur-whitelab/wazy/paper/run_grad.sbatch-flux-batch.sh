@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lettuce-9151
+#FLUX: --job-name=pusheena-poo-2484
 #FLUX: --queue=awhite
 #FLUX: -t=259200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-fork-0758
+#FLUX: --job-name=eccentric-eagle-8085
 #FLUX: -c=8
 #FLUX: --queue=short
 #FLUX: --urgency=16

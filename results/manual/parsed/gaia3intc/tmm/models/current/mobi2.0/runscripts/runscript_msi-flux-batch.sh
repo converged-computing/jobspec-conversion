@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-snack-2882
+#FLUX: --job-name=cowy-general-8759
 #FLUX: -N=2
 #FLUX: --queue=small
 #FLUX: -t=28800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-truffle-9799
+#FLUX: --job-name=doopy-bike-9684
 #FLUX: -c=32
 #FLUX: --queue=ecsstudents
 #FLUX: -t=240

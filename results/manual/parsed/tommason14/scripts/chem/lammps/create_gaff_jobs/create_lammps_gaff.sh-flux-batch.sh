@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-milkshake-7793
+#FLUX: --job-name=quirky-frito-0507
 #FLUX: -n=16
 #FLUX: --queue=comp,short
 #FLUX: -t=10800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-hope-3042
+#FLUX: --job-name=fugly-rabbit-5775
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared_course
 #FLUX: -t=36000

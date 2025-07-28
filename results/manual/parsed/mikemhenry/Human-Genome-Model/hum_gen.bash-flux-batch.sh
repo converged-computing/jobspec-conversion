@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-chip-5350
+#FLUX: --job-name=strawberry-hope-5164
 #FLUX: --queue=gpuq
 #FLUX: -t=86400
 #FLUX: --urgency=16

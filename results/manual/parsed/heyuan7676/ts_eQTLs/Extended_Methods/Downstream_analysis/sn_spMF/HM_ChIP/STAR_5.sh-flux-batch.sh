@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-avocado-1644
+#FLUX: --job-name=milky-frito-9803
 #FLUX: -n=6
 #FLUX: --queue=lrgmem
 #FLUX: -t=180000

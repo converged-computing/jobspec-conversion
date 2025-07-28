@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-dog-7248
+#FLUX: --job-name=swampy-hippo-3563
 #FLUX: -c=8
+#FLUX: -t=7200
 #FLUX: --urgency=16
 
 cd $SLURM_SUBMIT_DIR                            # Change to working directory

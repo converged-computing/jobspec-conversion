@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-arm-5725
+#FLUX: --job-name=goodbye-mango-3407
 #FLUX: -N=4
 #FLUX: -t=259200
 #FLUX: --urgency=16

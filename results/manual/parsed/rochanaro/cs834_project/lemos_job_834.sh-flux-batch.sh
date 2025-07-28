@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-bike-5552
+#FLUX: --job-name=frigid-train-7469
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: --urgency=16

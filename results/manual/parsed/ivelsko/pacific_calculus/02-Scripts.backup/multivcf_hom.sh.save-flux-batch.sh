@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-rabbit-9758
+#FLUX: --job-name=faux-chip-0231
 #FLUX: -c=4
 #FLUX: --queue=short
 #FLUX: --urgency=16

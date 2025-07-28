@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-fudge-1459
+#FLUX: --job-name=bloated-egg-3176
 #FLUX: --exclusive
 #FLUX: --queue=<add
 #FLUX: -t=18000

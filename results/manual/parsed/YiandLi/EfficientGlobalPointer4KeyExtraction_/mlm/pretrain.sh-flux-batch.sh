@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-signal-8054
+#FLUX: --job-name=purple-toaster-4087
 #FLUX: -n=20
 #FLUX: --queue=gpu
 #FLUX: --urgency=16

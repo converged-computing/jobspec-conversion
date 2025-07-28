@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-leopard-8532
+#FLUX: --job-name=gloopy-train-4424
 #FLUX: -t=10800
 #FLUX: --urgency=16
 

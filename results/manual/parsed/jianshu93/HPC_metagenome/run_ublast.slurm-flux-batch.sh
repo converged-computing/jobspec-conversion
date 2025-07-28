@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-malarkey-3710
+#FLUX: --job-name=conspicuous-squidward-9423
 #FLUX: -n=64
 #FLUX: --queue=amd_256
 #FLUX: --urgency=16

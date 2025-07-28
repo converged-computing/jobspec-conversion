@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lemur-0429
+#FLUX: --job-name=angry-knife-1455
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/susmarb/LAO_multiomics_CRISPR_iMGEs/launchers/mgePrediction.sh

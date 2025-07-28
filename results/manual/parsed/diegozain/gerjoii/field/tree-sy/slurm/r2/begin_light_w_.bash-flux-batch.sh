@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-soup-1906
+#FLUX: --job-name=eccentric-cinnamonbun-3303
 #FLUX: -c=28
 #FLUX: --exclusive
 #FLUX: -t=43140

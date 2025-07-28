@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-parrot-9628
+#FLUX: --job-name=phat-hope-9015
 #FLUX: -n=8
 #FLUX: --queue=mlow,mlow
 #FLUX: --urgency=16

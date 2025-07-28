@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-egg-2197
+#FLUX: --job-name=tart-destiny-6422
 #FLUX: -c=2
 #FLUX: --queue=gpu_shared
 #FLUX: -t=3600

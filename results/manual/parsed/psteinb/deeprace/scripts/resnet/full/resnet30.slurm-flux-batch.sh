@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-soup-8145
+#FLUX: --job-name=crunchy-itch-1476
 #FLUX: --queue=gpu2
 #FLUX: -t=36000
 #FLUX: --urgency=16

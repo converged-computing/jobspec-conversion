@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lentil-0118
+#FLUX: --job-name=hello-banana-6990
 #FLUX: -c=10
 #FLUX: --queue=public
 #FLUX: -t=172800

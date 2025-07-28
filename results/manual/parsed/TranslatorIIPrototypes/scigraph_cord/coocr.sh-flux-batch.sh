@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-signal-6447
+#FLUX: --job-name=fuzzy-kerfuffle-2000
 #FLUX: -t=259200
 #FLUX: --urgency=16
 

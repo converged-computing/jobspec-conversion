@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-lemon-2578
+#FLUX: --job-name=gloopy-butter-8065
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/aseetharam/common_scripts/JobR.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-bits-0901
+#FLUX: --job-name=pusheena-egg-1975
 #FLUX: -N=32
 #FLUX: -n=32
 #FLUX: -c=2

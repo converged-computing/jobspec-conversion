@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-train-3026
+#FLUX: --job-name=moolicious-fork-6411
 #FLUX: -N=10
 #FLUX: --queue=compute
 #FLUX: --urgency=16

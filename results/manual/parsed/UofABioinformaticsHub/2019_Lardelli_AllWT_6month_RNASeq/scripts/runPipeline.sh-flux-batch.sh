@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-poodle-4365
+#FLUX: --job-name=spicy-pastry-5994
 #FLUX: -n=16
 #FLUX: --queue=batch
 #FLUX: -t=86400

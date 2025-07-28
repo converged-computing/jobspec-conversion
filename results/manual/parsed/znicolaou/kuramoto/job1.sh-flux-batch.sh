@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-onion-4312
+#FLUX: --job-name=muffled-soup-4355
 #FLUX: --queue=ckpt
 #FLUX: -t=172800
 #FLUX: --urgency=16

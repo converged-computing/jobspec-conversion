@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-latke-1016
+#FLUX: --job-name=swampy-dog-9861
 #FLUX: -N=2
 #FLUX: -n=60
 #FLUX: --queue=huce_intel

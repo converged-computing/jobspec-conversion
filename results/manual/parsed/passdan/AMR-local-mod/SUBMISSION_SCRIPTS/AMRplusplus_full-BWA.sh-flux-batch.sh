@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-bike-2389
+#FLUX: --job-name=fuzzy-buttface-6870
 #FLUX: -c=4
 #FLUX: --queue=epyc_ssd
 #FLUX: --urgency=16

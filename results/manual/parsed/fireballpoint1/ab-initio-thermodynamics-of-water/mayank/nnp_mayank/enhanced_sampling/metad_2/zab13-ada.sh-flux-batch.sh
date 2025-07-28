@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-despacito-0012
+#FLUX: --job-name=milky-banana-1347
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

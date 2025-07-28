@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-hobbit-9611
+#FLUX: --job-name=fat-earthworm-3367
 #FLUX: -c=12
 #FLUX: --urgency=16
 

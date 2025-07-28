@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-avocado-9026
+#FLUX: --job-name=nerdy-lemur-2134
 #FLUX: -n=24
 #FLUX: --queue=huce_cascade
 #FLUX: -t=10

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-banana-7348
+#FLUX: --job-name=reclusive-cupcake-3748
 #FLUX: -n=32
 #FLUX: --queue=defq
 #FLUX: -t=87840

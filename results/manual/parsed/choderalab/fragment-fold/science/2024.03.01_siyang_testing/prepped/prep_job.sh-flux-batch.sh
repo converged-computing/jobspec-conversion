@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-pastry-7629
+#FLUX: --job-name=misunderstood-bike-6747
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/fragment-fold/science/2024.03.01_siyang_testing/prepped/prep_job.sh

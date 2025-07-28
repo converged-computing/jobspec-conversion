@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-truffle-5884
+#FLUX: --job-name=confused-soup-4804
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

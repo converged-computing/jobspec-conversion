@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-knife-4674
+#FLUX: --job-name=hello-train-9122
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000

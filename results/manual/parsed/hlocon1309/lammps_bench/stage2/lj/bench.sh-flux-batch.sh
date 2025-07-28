@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-egg-9674
+#FLUX: --job-name=blank-motorcycle-7701
 #FLUX: --queue=normal
 #FLUX: -t=1800
 #FLUX: --urgency=16

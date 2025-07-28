@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-parrot-3741
+#FLUX: --job-name=bloated-omelette-1133
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

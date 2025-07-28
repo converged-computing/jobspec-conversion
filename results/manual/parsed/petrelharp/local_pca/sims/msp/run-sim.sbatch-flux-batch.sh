@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-eagle-0938
+#FLUX: --job-name=expressive-caramel-8542
 #FLUX: --queue=long
 #FLUX: -t=259200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cinnamonbun-2753
+#FLUX: --job-name=phat-noodle-0912
 #FLUX: --queue=silent_q
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-taco-4413
+#FLUX: --job-name=reclusive-pot-3126
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-signal-2971
+#FLUX: --job-name=sticky-lentil-0522
 #FLUX: --urgency=16
 
 export TOOLS_HOME='$HOME/bin'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-buttface-1542
+#FLUX: --job-name=angry-arm-5397
 #FLUX: --queue=hci-rw
 #FLUX: -t=345600
 #FLUX: --urgency=16

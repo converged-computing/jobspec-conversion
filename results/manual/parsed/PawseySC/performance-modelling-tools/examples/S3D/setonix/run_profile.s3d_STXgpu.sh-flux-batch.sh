@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cattywampus-0420
+#FLUX: --job-name=blank-motorcycle-9477
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=gpu-dev

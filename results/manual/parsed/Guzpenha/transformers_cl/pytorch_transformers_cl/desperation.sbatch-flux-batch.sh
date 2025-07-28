@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-caramel-0009
+#FLUX: --job-name=adorable-latke-6529
 #FLUX: --queue=general
 #FLUX: -t=36000
 #FLUX: --urgency=16

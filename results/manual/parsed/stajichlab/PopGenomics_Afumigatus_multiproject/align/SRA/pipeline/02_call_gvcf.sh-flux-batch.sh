@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-nalgas-1680
+#FLUX: --job-name=quirky-banana-9271
 #FLUX: -n=16
 #FLUX: --queue=intel
 #FLUX: -t=172800

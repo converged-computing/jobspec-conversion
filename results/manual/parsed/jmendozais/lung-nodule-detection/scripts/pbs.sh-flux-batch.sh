@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-butter-6420
+#FLUX: --job-name=dinosaur-avocado-9464
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jmendozais/lung-nodule-detection/scripts/pbs.sh

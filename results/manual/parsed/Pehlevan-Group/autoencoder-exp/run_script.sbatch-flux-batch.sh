@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-parsnip-4943
+#FLUX: --job-name=lovable-buttface-6269
 #FLUX: --queue=pehlevan_gpu
 #FLUX: -t=604800
 #FLUX: --urgency=16

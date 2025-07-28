@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-carrot-6421
+#FLUX: --job-name=placid-diablo-5267
 #FLUX: -c=4
 #FLUX: --queue=epyc_ssd
 #FLUX: --urgency=16

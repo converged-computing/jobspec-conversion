@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-platanos-0976
+#FLUX: --job-name=outstanding-hippo-7962
 #FLUX: -N=4
 #FLUX: --queue=bdwall
 #FLUX: -t=1800

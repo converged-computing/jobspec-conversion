@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-car-3428
+#FLUX: --job-name=dinosaur-general-8131
 #FLUX: -n=32
 #FLUX: --queue=defq
 #FLUX: -t=87840

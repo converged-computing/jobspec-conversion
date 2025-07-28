@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-bicycle-1937
+#FLUX: --job-name=pusheena-destiny-6905
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/howardchenhd/Syntax-awared-NMT/train.sh

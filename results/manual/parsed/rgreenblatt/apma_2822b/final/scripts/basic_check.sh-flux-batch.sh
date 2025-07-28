@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-chip-4881
+#FLUX: --job-name=blank-bits-3199
 #FLUX: -n=2
 #FLUX: -c=4
 #FLUX: --queue=gpu

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-earthworm-7245
+#FLUX: --job-name=lovable-buttface-9988
 #FLUX: -c=8
 #FLUX: --queue=medium
 #FLUX: -t=86400

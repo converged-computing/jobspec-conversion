@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-blackbean-7197
+#FLUX: --job-name=grated-cat-3690
 #FLUX: -c=16
 #FLUX: --queue=gpu
 #FLUX: -t=1800

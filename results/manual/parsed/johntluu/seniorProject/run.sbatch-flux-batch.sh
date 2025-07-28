@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-knife-8237
+#FLUX: --job-name=strawberry-squidward-9543
 #FLUX: -N=2
 #FLUX: --queue=defq
 #FLUX: --urgency=16

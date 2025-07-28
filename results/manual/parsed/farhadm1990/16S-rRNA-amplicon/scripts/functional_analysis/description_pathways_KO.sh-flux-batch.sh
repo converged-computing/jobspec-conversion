@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-dog-9202
+#FLUX: --job-name=outstanding-squidward-0887
 #FLUX: -n=10
 #FLUX: --queue=ghpc
 #FLUX: -t=86400

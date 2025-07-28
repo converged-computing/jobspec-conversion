@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-chair-9795
+#FLUX: --job-name=dinosaur-kitty-1490
 #FLUX: --queue=gputest
 #FLUX: -t=900
 #FLUX: --urgency=16

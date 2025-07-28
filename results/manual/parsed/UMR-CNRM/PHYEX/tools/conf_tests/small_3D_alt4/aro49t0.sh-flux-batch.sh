@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-muffin-5561
+#FLUX: --job-name=evasive-caramel-9425
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

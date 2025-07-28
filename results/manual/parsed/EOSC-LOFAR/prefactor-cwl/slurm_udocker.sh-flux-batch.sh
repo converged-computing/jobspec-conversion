@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-despacito-4649
+#FLUX: --job-name=arid-buttface-5984
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

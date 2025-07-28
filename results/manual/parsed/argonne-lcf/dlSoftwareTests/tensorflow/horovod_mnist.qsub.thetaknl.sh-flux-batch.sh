@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-mango-1317
+#FLUX: --job-name=reclusive-spoon-3706
 #FLUX: --urgency=16
 

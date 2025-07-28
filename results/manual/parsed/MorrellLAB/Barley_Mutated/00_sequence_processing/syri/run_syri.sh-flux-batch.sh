@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-mango-1654
+#FLUX: --job-name=delicious-leopard-7940
 #FLUX: --queue=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-toaster-0346
+#FLUX: --job-name=nerdy-chip-6040
 #FLUX: -N=2
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=batch

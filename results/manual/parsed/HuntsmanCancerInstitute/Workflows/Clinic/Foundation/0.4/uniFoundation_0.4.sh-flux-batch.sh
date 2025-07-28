@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-gato-9118
+#FLUX: --job-name=conspicuous-frito-0046
 #FLUX: --queue=hci-aa
 #FLUX: -t=259200
 #FLUX: --urgency=16

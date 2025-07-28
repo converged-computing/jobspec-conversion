@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-eagle-4636
+#FLUX: --job-name=psycho-eagle-4125
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=small-g

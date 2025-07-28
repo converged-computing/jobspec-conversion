@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-lentil-4246
+#FLUX: --job-name=phat-pedo-6873
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

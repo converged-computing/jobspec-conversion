@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-punk-2367
+#FLUX: --job-name=crusty-sundae-0919
 #FLUX: -N=2
 #FLUX: -n=96
 #FLUX: --exclusive

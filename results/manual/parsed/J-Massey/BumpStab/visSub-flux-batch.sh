@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-platanos-5809
+#FLUX: --job-name=angry-rabbit-7938
 #FLUX: -n=64
 #FLUX: --queue=amd
 #FLUX: -t=13800

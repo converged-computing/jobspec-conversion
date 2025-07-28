@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-peas-7706
+#FLUX: --job-name=rainbow-itch-4323
 #FLUX: -c=3
 #FLUX: --queue=normal
 #FLUX: -t=108000

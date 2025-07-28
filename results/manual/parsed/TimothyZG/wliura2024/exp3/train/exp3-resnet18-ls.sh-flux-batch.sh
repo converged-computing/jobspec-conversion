@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-underoos-7271
+#FLUX: --job-name=bloated-pot-6867
 #FLUX: -t=14400
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-butter-3121
+#FLUX: --job-name=stanky-carrot-5186
 #FLUX: -N=20
 #FLUX: --queue=parallel
 #FLUX: -t=18000

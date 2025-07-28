@@ -2,6 +2,7 @@
 #FLUX: --job-name=gromacs
 #FLUX: -n=24
 #FLUX: --queue=ampere
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export OMP_NUM_THREADS='$ntomp'

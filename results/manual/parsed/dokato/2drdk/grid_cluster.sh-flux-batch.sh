@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-citrus-5778
+#FLUX: --job-name=expressive-citrus-5134
 #FLUX: --queue=cubric-default
 #FLUX: --urgency=16
 

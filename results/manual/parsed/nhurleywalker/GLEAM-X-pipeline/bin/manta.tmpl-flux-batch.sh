@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cat-4579
+#FLUX: --job-name=bricky-squidward-8425
 #FLUX: --queue=copyq
 #FLUX: -t=43200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-milkshake-8928
+#FLUX: --job-name=arid-train-9787
 #FLUX: -c=64
 #FLUX: --queue=amd
 #FLUX: -t=180000

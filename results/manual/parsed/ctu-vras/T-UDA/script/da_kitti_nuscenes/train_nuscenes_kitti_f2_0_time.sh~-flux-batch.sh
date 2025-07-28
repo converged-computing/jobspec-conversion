@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-destiny-7224
+#FLUX: --job-name=goodbye-platanos-0180
 #FLUX: -c=24
 #FLUX: --queue=amdgpuextralong
 #FLUX: -t=864000

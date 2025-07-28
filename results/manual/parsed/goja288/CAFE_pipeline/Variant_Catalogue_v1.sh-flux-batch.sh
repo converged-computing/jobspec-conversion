@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-arm-2154
+#FLUX: --job-name=red-buttface-0931
 #FLUX: --queue=defq
 #FLUX: -t=721800
 #FLUX: --urgency=16

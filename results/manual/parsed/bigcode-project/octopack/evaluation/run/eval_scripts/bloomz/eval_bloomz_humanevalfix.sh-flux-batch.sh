@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-leg-7183
+#FLUX: --job-name=gassy-ricecake-2101
 #FLUX: --exclusive
 #FLUX: --queue=small-g
 #FLUX: -t=172800

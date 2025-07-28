@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-chip-5936
+#FLUX: --job-name=stinky-fudge-9319
 #FLUX: --exclusive
 #FLUX: -t=3600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-signal-5832
+#FLUX: --job-name=bricky-nunchucks-2779
 #FLUX: -c=12
 #FLUX: --urgency=16
 

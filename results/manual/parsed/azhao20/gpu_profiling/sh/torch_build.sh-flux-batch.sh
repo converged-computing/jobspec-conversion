@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-hobbit-5590
+#FLUX: --job-name=gloopy-leopard-4937
 #FLUX: -c=32
 #FLUX: --queue=seas_gpu
 #FLUX: -t=604800

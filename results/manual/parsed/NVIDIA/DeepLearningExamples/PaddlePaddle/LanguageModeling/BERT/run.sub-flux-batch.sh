@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leader-9357
+#FLUX: --job-name=fat-diablo-2442
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

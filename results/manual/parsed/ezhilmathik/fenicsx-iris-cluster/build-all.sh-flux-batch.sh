@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-carrot-0906
+#FLUX: --job-name=buttery-fudge-9796
 #FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16

@@ -84,6 +84,8 @@ def main():
     unknown_count = 0
     issue_parsing = 0
     issues = {}
+    valid = 0
+    invalid = 0
 
     seen = set()
     files = []
@@ -131,6 +133,7 @@ def main():
 
         # If we are successful, we will save script
         outfile_script = f"{outfile}-flux-batch.sh"
+        outfile_script_slurm = f"{outfile}-slurm-batch.sh"
         original = read_file(filename)
 
         # If no from transformer defined, try to detect
@@ -157,6 +160,7 @@ def main():
         # We are always converting to Flux from whatever
         from_transformer = get_transformer(from_transformer_name)
         to_transformer = get_transformer("flux")
+        to_transformer_slurm = get_transformer("slurm")
 
         try:
             normalized_jobspec = from_transformer.parse(filename)
@@ -194,12 +198,14 @@ def main():
                 IPython.embed()
             continue
 
-        flux_script = to_transformer.convert(normalized_jobspec)
-
         for directive in from_transformer.unhandled(filename):
             if directive not in directives_not_handled[from_transformer_name]:
                 directives_not_handled[from_transformer_name][directive] = 0
             directives_not_handled[from_transformer_name][directive] += 1
+
+        # Do the conversion to flux / slurm
+        flux_script = to_transformer.convert(normalized_jobspec)
+        slurm_script = to_transformer.convert(normalized_jobspec)
 
         # Create output directory
         outdir = os.path.dirname(outfile)
@@ -208,6 +214,7 @@ def main():
 
         # Otherwise, we got a flux batch script and json
         write_file(flux_script, outfile_script)
+        write_file(slurm_script, outfile_script_slurm)
 
         # Also copy the original file, to have in one place
         copied = os.path.join(outdir, "original-script.sh")

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-butter-7558
+#FLUX: --job-name=hello-buttface-6959
 #FLUX: --urgency=16
 
 Soft="hicpro_wrap"

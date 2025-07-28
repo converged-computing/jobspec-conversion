@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-mango-2744
+#FLUX: --job-name=dirty-hippo-0945
 #FLUX: --queue=gpu20
 #FLUX: -t=3600
 #FLUX: --urgency=16

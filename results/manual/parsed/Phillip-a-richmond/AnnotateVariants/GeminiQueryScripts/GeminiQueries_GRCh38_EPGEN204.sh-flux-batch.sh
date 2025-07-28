@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-snack-6123
+#FLUX: --job-name=grated-lizard-0311
 #FLUX: -c=4
 #FLUX: --queue=defq
 #FLUX: -t=172800

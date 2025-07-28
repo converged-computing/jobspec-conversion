@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-caramel-2792
+#FLUX: --job-name=crunchy-muffin-5386
 #FLUX: --queue=sbel_cmg
 #FLUX: -t=345660
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chair-0903
+#FLUX: --job-name=muffled-despacito-5469
 #FLUX: --queue=batch
 #FLUX: -t=86400
 #FLUX: --urgency=16

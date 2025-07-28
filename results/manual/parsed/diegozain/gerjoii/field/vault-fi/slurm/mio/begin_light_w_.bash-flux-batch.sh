@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-chip-9487
+#FLUX: --job-name=eccentric-punk-1261
 #FLUX: -c=28
 #FLUX: --exclusive
 #FLUX: -t=43140

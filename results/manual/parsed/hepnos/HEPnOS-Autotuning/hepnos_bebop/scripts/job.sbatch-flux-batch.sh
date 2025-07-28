@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-chip-5368
+#FLUX: --job-name=dinosaur-chip-6238
 #FLUX: -N=4
 #FLUX: --queue=bdwall
 #FLUX: -t=1800

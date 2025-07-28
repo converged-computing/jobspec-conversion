@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-motorcycle-6932
+#FLUX: --job-name=muffled-diablo-6943
 #FLUX: -c=16
 #FLUX: --urgency=16
 

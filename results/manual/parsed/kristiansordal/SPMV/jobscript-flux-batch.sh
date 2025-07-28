@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-fudge-1228
+#FLUX: --job-name=conspicuous-soup-1861
 #FLUX: -n=8
 #FLUX: --queue=rome16q
 #FLUX: -t=240

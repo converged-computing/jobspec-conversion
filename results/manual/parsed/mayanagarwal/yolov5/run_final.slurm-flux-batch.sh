@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-caramel-7941
+#FLUX: --job-name=doopy-sundae-5582
 #FLUX: -n=8
 #FLUX: --queue=gpgpumse
 #FLUX: -t=259200

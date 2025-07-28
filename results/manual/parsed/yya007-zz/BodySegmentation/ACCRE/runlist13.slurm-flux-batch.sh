@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-sundae-6033
+#FLUX: --job-name=arid-fork-9446
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000

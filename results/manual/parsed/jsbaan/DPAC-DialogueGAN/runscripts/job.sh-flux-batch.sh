@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-earthworm-4820
+#FLUX: --job-name=adorable-knife-7930
 #FLUX: --queue=gpu_shared
 #FLUX: -t=64800
 #FLUX: --urgency=16

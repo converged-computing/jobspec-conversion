@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-banana-3567
+#FLUX: --job-name=quirky-general-4915
 #FLUX: --exclusive
 #FLUX: --queue=ccb
 #FLUX: -t=360000

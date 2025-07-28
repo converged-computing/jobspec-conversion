@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-cinnamonbun-5557
+#FLUX: --job-name=arid-platanos-1881
 #FLUX: -N=4
 #FLUX: --queue=normal
 #FLUX: --urgency=16

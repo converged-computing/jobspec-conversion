@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-eagle-2307
+#FLUX: --job-name=stanky-leopard-4878
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

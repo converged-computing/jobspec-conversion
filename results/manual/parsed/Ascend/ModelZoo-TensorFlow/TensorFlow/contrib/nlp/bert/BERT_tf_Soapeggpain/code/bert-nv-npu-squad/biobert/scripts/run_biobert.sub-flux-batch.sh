@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-train-8426
+#FLUX: --job-name=strawberry-caramel-3691
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

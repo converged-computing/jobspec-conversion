@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-car-8419
+#FLUX: --job-name=placid-itch-5410
 #FLUX: -c=8
 #FLUX: -t=43200
 #FLUX: --urgency=16

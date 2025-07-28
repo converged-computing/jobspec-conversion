@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-egg-4675
+#FLUX: --job-name=strawberry-poo-1622
 #FLUX: --queue=PA100q
 #FLUX: --urgency=16
 

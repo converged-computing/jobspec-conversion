@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-pot-1070
+#FLUX: --job-name=carnivorous-knife-9349
 #FLUX: -c=3
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16

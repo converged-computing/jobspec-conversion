@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-bike-1364
+#FLUX: --job-name=swampy-pastry-2441
 #FLUX: --urgency=16
 
 execpath=`dirname $0`

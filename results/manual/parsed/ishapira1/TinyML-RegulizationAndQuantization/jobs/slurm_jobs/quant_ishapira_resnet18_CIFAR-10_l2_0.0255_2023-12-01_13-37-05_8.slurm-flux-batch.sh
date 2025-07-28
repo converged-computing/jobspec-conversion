@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bits-6446
+#FLUX: --job-name=milky-nalgas-8019
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

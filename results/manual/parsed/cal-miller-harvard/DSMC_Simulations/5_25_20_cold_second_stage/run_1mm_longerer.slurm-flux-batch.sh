@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pedo-2737
+#FLUX: --job-name=psycho-malarkey-6447
 #FLUX: -n=16
 #FLUX: --queue=shared
 #FLUX: -t=480

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-train-9962
+#FLUX: --job-name=blue-rabbit-6983
 #FLUX: -c=20
 #FLUX: --queue=xeon-g6-volta
 #FLUX: -t=1200

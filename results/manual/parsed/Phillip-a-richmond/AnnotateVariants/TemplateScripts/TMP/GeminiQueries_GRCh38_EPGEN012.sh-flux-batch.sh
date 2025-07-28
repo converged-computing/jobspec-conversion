@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-parsnip-9605
+#FLUX: --job-name=purple-egg-0306
 #FLUX: -c=2
 #FLUX: --queue=defq
 #FLUX: -t=172800

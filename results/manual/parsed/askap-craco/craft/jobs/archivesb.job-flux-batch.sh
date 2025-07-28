@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-egg-7150
+#FLUX: --job-name=frigid-cat-2348
 #FLUX: -n=4
 #FLUX: --queue=copyq
 #FLUX: -t=129600

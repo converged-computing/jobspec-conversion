@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-fork-2074
+#FLUX: --job-name=astute-leader-1923
 #FLUX: -c=20
 #FLUX: --queue=xeon-g6-volta
 #FLUX: -t=1440

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-lemur-9815
+#FLUX: --job-name=purple-cinnamonbun-5675
 #FLUX: -c=24
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cattywampus-6686
+#FLUX: --job-name=tart-milkshake-4907
 #FLUX: -c=4
 #FLUX: --queue=gpus
 #FLUX: --urgency=16

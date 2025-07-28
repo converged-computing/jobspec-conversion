@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-truffle-2879
+#FLUX: --job-name=evasive-pedo-2081
 #FLUX: -N=16
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=regular

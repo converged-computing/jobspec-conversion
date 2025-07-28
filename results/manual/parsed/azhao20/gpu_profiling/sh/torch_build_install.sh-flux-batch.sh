@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-sundae-5269
+#FLUX: --job-name=outstanding-peas-9066
 #FLUX: -c=64
 #FLUX: --queue=gpu_test
 #FLUX: -t=720

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-motorcycle-7215
+#FLUX: --job-name=wobbly-punk-3355
 #FLUX: -c=20
 #FLUX: --queue=xeon-g6-volta
 #FLUX: -t=2880

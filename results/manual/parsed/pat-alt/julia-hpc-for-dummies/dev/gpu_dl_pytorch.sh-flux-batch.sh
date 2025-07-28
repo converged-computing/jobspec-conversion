@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cupcake-5385
+#FLUX: --job-name=loopy-pedo-4307
 #FLUX: --queue=gpu
 #FLUX: -t=600
 #FLUX: --urgency=16

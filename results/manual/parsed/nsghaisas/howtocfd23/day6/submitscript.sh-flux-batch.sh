@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-latke-1105
+#FLUX: --job-name=tart-chip-1175
 #FLUX: --queue=gpu
 #FLUX: -t=3600
 #FLUX: --urgency=16

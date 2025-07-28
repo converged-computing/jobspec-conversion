@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-poo-9753
+#FLUX: --job-name=doopy-noodle-3620
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: --queue=romeo

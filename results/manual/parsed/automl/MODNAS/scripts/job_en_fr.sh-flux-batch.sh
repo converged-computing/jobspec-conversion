@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-kerfuffle-0442
+#FLUX: --job-name=hello-lentil-9998
 #FLUX: -c=32
 #FLUX: --queue=<partition
 #FLUX: -t=432000

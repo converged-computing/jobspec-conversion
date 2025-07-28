@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-banana-7981
+#FLUX: --job-name=chunky-rabbit-1251
 #FLUX: -n=12
 #FLUX: --queue=debug
 #FLUX: --urgency=16

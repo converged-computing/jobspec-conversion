@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-bits-7544
+#FLUX: --job-name=bumfuzzled-cupcake-1823
 #FLUX: -c=20
 #FLUX: --exclusive
 #FLUX: -t=43140

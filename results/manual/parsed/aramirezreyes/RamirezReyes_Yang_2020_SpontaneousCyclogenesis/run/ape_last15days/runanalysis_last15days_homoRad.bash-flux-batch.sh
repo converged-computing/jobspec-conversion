@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-bike-0719
+#FLUX: --job-name=psycho-animal-1525
 #FLUX: -N=3
 #FLUX: -t=10800
 #FLUX: --urgency=16

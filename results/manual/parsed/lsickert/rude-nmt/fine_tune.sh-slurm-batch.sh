@@ -1,0 +1,19 @@
+#!/bin/bash
+#FLUX: --job-name=fine_tune_model
+#FLUX: -c=16
+#FLUX: --queue=gpu
+#FLUX: -t=57600
+#FLUX: --urgency=16
+
+export HF_DATASETS_CACHE='/scratch/$USER/.cache/huggingface/datasets'
+export TRANSFORMERS_CACHE='/scratch/$USER/.cache/huggingface/transformers'
+export XDG_CACHE_HOME='/scratch/$USER/.cache'
+
+module purge
+module load Python/3.10.4-GCCcore-11.3.0
+source $HOME/.envs/rude_nmt/bin/activate
+module load PyTorch/1.12.1-foss-2022a-CUDA-11.7.0
+export HF_DATASETS_CACHE="/scratch/$USER/.cache/huggingface/datasets"
+export TRANSFORMERS_CACHE="/scratch/$USER/.cache/huggingface/transformers"
+export XDG_CACHE_HOME="/scratch/$USER/.cache"
+python -u main.py --data tatoeba --src_lang de --trg_lang ko --use_ds tatoeba_merged --fine_tune --model_name de_ko

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-citrus-2429
+#FLUX: --job-name=tart-kitty-8395
 #FLUX: -N=2
 #FLUX: -n=13
 #FLUX: --queue=fat_soil_shared

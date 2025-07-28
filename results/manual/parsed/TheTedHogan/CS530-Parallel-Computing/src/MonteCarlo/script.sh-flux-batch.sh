@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-toaster-3758
+#FLUX: --job-name=muffled-kerfuffle-2379
 #FLUX: --queue=classroom
 #FLUX: -t=3600
 #FLUX: --urgency=16

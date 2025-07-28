@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-signal-3059
+#FLUX: --job-name=dinosaur-mango-2416
 #FLUX: -N=64
 #FLUX: -c=10
 #FLUX: --queue=booster

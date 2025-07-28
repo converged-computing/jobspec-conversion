@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-knife-8058
+#FLUX: --job-name=goodbye-pastry-8896
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000

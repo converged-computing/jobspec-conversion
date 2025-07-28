@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-buttface-1741
+#FLUX: --job-name=cowy-itch-4547
 #FLUX: -c=24
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=120

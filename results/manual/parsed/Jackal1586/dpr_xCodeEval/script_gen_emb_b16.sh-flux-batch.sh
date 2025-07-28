@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-kerfuffle-7826
+#FLUX: --job-name=expensive-chip-9708
 #FLUX: --queue=RTX8Kq
 #FLUX: --urgency=16
 

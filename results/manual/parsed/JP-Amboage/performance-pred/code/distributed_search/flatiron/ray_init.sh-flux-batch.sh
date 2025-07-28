@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-diablo-2892
+#FLUX: --job-name=astute-earthworm-9720
+#FLUX: -N=2
 #FLUX: -c=5
 #FLUX: --exclusive
 #FLUX: --urgency=16

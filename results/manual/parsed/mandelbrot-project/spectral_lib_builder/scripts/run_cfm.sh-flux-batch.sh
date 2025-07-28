@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-pedo-4307
+#FLUX: --job-name=stinky-peas-2967
 #FLUX: --queue=public-cpu
 #FLUX: -t=345600
 #FLUX: --urgency=16

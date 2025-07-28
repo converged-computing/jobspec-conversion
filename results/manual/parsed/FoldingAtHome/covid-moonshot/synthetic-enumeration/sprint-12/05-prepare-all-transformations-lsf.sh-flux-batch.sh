@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-train-6029
+#FLUX: --job-name=chocolate-toaster-8092
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/FoldingAtHome/covid-moonshot/synthetic-enumeration/sprint-12/05-prepare-all-transformations-lsf.sh

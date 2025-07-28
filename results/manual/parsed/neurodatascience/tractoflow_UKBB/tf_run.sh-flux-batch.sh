@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-hobbit-2025
+#FLUX: --job-name=swampy-kerfuffle-4202
 #FLUX: -c=8
 #FLUX: -t=72000
 #FLUX: --urgency=16

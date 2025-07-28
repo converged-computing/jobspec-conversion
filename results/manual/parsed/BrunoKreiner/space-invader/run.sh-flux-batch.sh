@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lizard-3725
+#FLUX: --job-name=outstanding-nalgas-8929
 #FLUX: -c=16
 #FLUX: --queue=performance
 #FLUX: -t=21600

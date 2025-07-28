@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-fork-8833
+#FLUX: --job-name=quirky-plant-1027
 #FLUX: --queue=RM-shared
 #FLUX: -t=108000
 #FLUX: --urgency=16

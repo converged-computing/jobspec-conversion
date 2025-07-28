@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-punk-6465
+#FLUX: --job-name=eccentric-pedo-7981
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: --queue=a3

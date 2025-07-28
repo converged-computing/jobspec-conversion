@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-cinnamonbun-7839
+#FLUX: --job-name=hanky-muffin-2410
 #FLUX: --urgency=15
 
 cd /net/bmc-lab2/data/lab/sanchezrivera/samgould/

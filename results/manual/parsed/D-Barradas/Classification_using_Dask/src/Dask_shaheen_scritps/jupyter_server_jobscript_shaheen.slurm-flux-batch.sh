@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-kitty-9052
+#FLUX: --job-name=fugly-fudge-1295
 #FLUX: -N=4
 #FLUX: --queue=debug
 #FLUX: --urgency=16

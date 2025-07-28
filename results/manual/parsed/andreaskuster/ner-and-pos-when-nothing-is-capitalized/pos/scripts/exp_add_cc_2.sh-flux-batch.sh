@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-plant-6111
+#FLUX: --job-name=hello-lemon-7833
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

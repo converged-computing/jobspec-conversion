@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-itch-3473
+#FLUX: --job-name=bricky-earthworm-6991
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: --urgency=16

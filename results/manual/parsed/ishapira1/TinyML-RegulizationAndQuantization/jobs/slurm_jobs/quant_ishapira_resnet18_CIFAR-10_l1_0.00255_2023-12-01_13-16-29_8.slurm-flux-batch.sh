@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-car-2062
+#FLUX: --job-name=psycho-car-4786
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

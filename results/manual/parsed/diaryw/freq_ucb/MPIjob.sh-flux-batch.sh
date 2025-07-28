@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-onion-3112
+#FLUX: --job-name=arid-soup-1568
 #FLUX: -n=100
 #FLUX: -t=10800
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-banana-6201
+#FLUX: --job-name=hello-squidward-7188
 #FLUX: -N=3
 #FLUX: --queue=debug
 #FLUX: -t=1800

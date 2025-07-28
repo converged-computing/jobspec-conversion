@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-underoos-1264
+#FLUX: --job-name=dinosaur-avocado-1515
 #FLUX: --queue=gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

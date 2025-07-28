@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-mango-6958
+#FLUX: --job-name=fuzzy-hope-5596
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=solarlab

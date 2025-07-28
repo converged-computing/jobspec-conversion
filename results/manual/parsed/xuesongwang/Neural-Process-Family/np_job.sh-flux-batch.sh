@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-blackbean-8421
+#FLUX: --job-name=conspicuous-train-6765
 #FLUX: -t=12600
 #FLUX: --urgency=16
 

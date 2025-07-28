@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-pancake-9767
+#FLUX: --job-name=grated-latke-8606
 #FLUX: -n=28
 #FLUX: --exclusive
 #FLUX: -t=2400

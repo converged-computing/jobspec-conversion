@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-parsnip-6733
+#FLUX: --job-name=pusheena-kerfuffle-6075
 #FLUX: -c=8
 #FLUX: --queue=RG-Cristobal-Uauy
 #FLUX: --urgency=16

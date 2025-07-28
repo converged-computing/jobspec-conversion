@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-citrus-7127
+#FLUX: --job-name=milky-malarkey-2762
 #FLUX: -N=2
 #FLUX: -n=12
 #FLUX: --queue=work

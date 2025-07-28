@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-platanos-8443
+#FLUX: --job-name=pusheena-avocado-1456
 #FLUX: --queue=regular
 #FLUX: --urgency=16
 

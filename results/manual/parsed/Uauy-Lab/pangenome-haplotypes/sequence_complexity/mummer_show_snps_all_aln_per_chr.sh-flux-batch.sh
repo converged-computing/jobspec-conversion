@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-fudge-3483
+#FLUX: --job-name=angry-citrus-5220
 #FLUX: --queue=jic-short,RG-Cristobal-Uauy
 #FLUX: --urgency=16
 

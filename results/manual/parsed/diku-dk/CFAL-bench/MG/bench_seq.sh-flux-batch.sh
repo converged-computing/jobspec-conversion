@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-plant-9722
+#FLUX: --job-name=blank-bits-0457
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400

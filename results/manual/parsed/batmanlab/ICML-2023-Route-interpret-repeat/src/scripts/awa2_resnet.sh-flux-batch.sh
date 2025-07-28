@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-muffin-4805
+#FLUX: --job-name=stinky-bits-3390
 #FLUX: --urgency=16
 
 pwd; hostname; date

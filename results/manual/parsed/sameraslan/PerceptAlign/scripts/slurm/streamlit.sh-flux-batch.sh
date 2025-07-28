@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-gato-7940
+#FLUX: --job-name=astute-sundae-4700
 #FLUX: --queue=$PARTITION
 #FLUX: -t=36000
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-plant-2527
+#FLUX: --job-name=phat-parsnip-8078
 #FLUX: --exclusive
 #FLUX: --queue=shared,bigmem
 #FLUX: -t=255600

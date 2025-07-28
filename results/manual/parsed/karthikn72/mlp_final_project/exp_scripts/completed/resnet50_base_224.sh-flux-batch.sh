@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-leader-6212
+#FLUX: --job-name=evasive-earthworm-8870
 #FLUX: --queue=Teach-Standard
 #FLUX: -t=28800
 #FLUX: --urgency=16

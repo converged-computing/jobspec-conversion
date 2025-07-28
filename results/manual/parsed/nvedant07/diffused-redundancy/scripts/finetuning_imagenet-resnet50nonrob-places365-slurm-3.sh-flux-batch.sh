@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-fork-3916
+#FLUX: --job-name=muffled-chair-9946
 #FLUX: -c=16
 #FLUX: --queue=a100
 #FLUX: -t=345600

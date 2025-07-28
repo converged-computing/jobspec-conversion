@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bike-9293
+#FLUX: --job-name=swampy-noodle-7133
 #FLUX: -n=6
 #FLUX: --queue=amilan
 #FLUX: -t=1800

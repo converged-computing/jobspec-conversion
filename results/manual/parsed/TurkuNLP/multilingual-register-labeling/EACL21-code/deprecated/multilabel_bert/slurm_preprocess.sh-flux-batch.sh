@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bits-3224
+#FLUX: --job-name=goodbye-lemur-2098
 #FLUX: --queue=gputest
 #FLUX: -t=900
 #FLUX: --urgency=16

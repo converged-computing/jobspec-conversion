@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-gato-1714
+#FLUX: --job-name=expensive-hippo-0790
 #FLUX: -c=4
 #FLUX: --urgency=16
 

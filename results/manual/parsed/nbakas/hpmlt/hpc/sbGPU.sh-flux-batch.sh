@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-lettuce-3787
+#FLUX: --job-name=eccentric-malarkey-3745
 #FLUX: -n=4
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu

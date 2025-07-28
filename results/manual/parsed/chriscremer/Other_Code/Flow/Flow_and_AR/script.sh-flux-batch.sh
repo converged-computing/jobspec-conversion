@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-hippo-7909
+#FLUX: --job-name=sticky-mango-3921
 #FLUX: --urgency=16
 
 export PATH='$PATH:/h/ccremer/anaconda3/bin'

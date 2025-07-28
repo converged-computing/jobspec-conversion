@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-train-3280
+#FLUX: --job-name=delicious-animal-3038
 #FLUX: --queue=mic
 #FLUX: -t=86400
 #FLUX: --urgency=16

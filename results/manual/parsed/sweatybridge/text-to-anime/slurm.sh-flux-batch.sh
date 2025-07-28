@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-animal-9513
+#FLUX: --job-name=hello-hobbit-3559
 #FLUX: --queue=PA100q
 #FLUX: --urgency=16
 

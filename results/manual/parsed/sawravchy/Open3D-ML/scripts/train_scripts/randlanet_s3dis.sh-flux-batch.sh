@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-milkshake-2829
+#FLUX: --job-name=blank-train-0512
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: --urgency=16

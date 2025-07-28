@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-arm-2437
+#FLUX: --job-name=salted-pedo-6572
 #FLUX: -c=5
 #FLUX: --queue=general
 #FLUX: -t=75000

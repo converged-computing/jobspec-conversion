@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-underoos-6765
+#FLUX: --job-name=moolicious-kitty-2309
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rnabioco/morrison-lnsc/run.sh

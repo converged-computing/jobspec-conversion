@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-fork-6226
+#FLUX: --job-name=sticky-nalgas-5523
 #FLUX: -n=2
 #FLUX: --queue=long
 #FLUX: --urgency=16

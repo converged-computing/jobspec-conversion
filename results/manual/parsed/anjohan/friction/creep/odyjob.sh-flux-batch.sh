@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-general-5778
+#FLUX: --job-name=ornery-punk-1097
 #FLUX: --queue=seas_gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-staircase-5691
+#FLUX: --job-name=boopy-itch-6812
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-squidward-0183
+#FLUX: --job-name=moolicious-poo-5236
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu
 #FLUX: -t=300

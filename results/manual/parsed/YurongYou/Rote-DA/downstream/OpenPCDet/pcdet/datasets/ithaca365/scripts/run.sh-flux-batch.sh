@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-ricecake-8071
+#FLUX: --job-name=carnivorous-puppy-9776
 #FLUX: -c=4
 #FLUX: --queue=default_partition
 #FLUX: -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-chair-8941
+#FLUX: --job-name=buttery-leader-3794
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

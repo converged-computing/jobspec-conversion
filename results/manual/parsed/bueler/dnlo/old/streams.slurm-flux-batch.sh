@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-car-7745
+#FLUX: --job-name=frigid-malarkey-1989
 #FLUX: -n=64
 #FLUX: --queue=t1standard
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-onion-9722
+#FLUX: --job-name=wobbly-parrot-0253
 #FLUX: -c=48
 #FLUX: --exclusive
 #FLUX: --queue=rome

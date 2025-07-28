@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-leopard-6582
+#FLUX: --job-name=arid-fork-1861
 #FLUX: --queue=conroy_priority,test,shared,itc_cluster
 #FLUX: -t=120
 #FLUX: --urgency=16

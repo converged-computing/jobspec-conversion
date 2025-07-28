@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-destiny-7041
+#FLUX: --job-name=blue-cattywampus-0030
 #FLUX: -n=10
 #FLUX: --queue=wrighton-hi
 #FLUX: -t=784800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-leg-7130
+#FLUX: --job-name=butterscotch-diablo-6275
 #FLUX: -c=20
 #FLUX: --queue=xeon-g6-volta
 #FLUX: -t=2880

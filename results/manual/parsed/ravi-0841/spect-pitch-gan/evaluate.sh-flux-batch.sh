@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-frito-1496
+#FLUX: --job-name=reclusive-cinnamonbun-5459
 #FLUX: -c=6
 #FLUX: --queue=gpuk80
 #FLUX: -t=3600

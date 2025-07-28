@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-house-8930
+#FLUX: --job-name=creamy-spoon-1711
 #FLUX: -c=2
 #FLUX: --queue=parallel
 #FLUX: -t=3600

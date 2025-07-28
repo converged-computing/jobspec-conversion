@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lettuce-5282
+#FLUX: --job-name=fat-chip-2580
 #FLUX: -c=96
 #FLUX: --exclusive
 #FLUX: --urgency=16

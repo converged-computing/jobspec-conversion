@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-parsnip-8958
+#FLUX: --job-name=crusty-salad-4260
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=86400

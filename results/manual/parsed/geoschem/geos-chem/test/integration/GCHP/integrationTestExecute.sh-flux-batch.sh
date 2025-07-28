@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-eagle-9878
+#FLUX: --job-name=fat-frito-1945
 #FLUX: -n=24
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=300

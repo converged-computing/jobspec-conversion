@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-chip-3924
+#FLUX: --job-name=arid-onion-1095
 #FLUX: --urgency=16
 

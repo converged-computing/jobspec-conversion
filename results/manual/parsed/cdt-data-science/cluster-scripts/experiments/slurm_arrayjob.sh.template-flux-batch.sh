@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-arm-3897
+#FLUX: --job-name=joyous-destiny-5934
 #FLUX: --urgency=16
 
 echo "Job running on ${SLURM_JOB_NODELIST}"

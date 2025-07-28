@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-mango-7480
+#FLUX: --job-name=butterscotch-spoon-8227
 #FLUX: -N=2
 #FLUX: -n=2
 #FLUX: --queue=v100_full_node

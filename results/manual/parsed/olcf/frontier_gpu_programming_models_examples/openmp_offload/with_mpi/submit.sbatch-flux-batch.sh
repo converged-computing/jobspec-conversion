@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-malarkey-1954
+#FLUX: --job-name=muffled-avocado-5179
 #FLUX: -N=2
 #FLUX: --queue=batch
 #FLUX: -t=2100

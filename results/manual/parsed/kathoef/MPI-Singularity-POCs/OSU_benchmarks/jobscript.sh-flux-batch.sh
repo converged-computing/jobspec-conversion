@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-toaster-3520
+#FLUX: --job-name=chocolate-lentil-7843
 #FLUX: --queue=cluster
 #FLUX: -t=600
 #FLUX: --urgency=16

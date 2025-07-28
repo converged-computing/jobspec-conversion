@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-despacito-9983
+#FLUX: --job-name=wobbly-blackbean-8692
 #FLUX: --queue=PA100q
 #FLUX: --urgency=16
 

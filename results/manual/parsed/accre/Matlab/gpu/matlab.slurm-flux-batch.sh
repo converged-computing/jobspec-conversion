@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-knife-5720
+#FLUX: --job-name=quirky-squidward-1834
 #FLUX: --queue=maxwell
 #FLUX: -t=600
 #FLUX: --urgency=16

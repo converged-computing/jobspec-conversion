@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-arm-6418
+#FLUX: --job-name=angry-taco-0733
 #FLUX: -n=16
 #FLUX: --queue=dgx2q
 #FLUX: -t=87840

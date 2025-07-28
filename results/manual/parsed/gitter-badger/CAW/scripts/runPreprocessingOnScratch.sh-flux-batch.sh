@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-animal-0713
+#FLUX: --job-name=adorable-cherry-0129
 #FLUX: --queue=node
 #FLUX: -t=604800
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-motorcycle-9283
+#FLUX: --job-name=rainbow-banana-4879
 #FLUX: --queue=conti
 #FLUX: -t=3600
 #FLUX: --urgency=16

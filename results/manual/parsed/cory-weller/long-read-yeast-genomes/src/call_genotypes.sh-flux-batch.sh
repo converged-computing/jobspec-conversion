@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-fork-6405
+#FLUX: --job-name=wobbly-leopard-3713
 #FLUX: --queue=quick,norm
 #FLUX: -t=14399
 #FLUX: --urgency=16

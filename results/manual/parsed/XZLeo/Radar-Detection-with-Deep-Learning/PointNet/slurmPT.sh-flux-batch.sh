@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-eagle-1957
+#FLUX: --job-name=salted-malarkey-9344
 #FLUX: -c=8
 #FLUX: --queue=ztest
 #FLUX: -t=2400

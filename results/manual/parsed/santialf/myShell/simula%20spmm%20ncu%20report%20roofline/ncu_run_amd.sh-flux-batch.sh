@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-car-7561
+#FLUX: --job-name=psycho-train-3622
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-milkshake-4324
+#FLUX: --job-name=bloated-bits-6943
 #FLUX: -c=2
 #FLUX: --queue=priority
 #FLUX: -t=3600

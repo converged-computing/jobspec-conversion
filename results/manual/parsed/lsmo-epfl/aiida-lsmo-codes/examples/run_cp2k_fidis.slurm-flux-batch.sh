@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-soup-9726
+#FLUX: --job-name=grated-diablo-9729
 #FLUX: -N=2
 #FLUX: -n=49
 #FLUX: -t=3600

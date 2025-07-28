@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-arm-5120
+#FLUX: --job-name=phat-leader-8359
 #FLUX: -c=3
 #FLUX: --queue=gpu
 #FLUX: --urgency=16

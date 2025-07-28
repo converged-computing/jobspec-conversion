@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-bits-5582
+#FLUX: --job-name=stanky-fork-4560
 #FLUX: --exclusive
 #FLUX: -t=28800
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-arm-1847
+#FLUX: --job-name=doopy-kitty-0157
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

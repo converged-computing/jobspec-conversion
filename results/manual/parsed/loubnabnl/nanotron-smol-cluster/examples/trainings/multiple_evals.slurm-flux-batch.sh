@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-despacito-5875
+#FLUX: --job-name=salted-sundae-7197
 #FLUX: -c=48
 #FLUX: --exclusive
 #FLUX: --queue=production-cluster

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-lentil-7952
+#FLUX: --job-name=scruptious-salad-8965
 #FLUX: -c=8
 #FLUX: --queue=develbooster
 #FLUX: --urgency=16

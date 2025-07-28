@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-onion-7060
+#FLUX: --job-name=muffled-latke-7717
 #FLUX: --queue=batch
 #FLUX: -t=300
 #FLUX: --urgency=16

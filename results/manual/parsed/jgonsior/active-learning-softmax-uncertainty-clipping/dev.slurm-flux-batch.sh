@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-train-4765
+#FLUX: --job-name=chocolate-chair-3680
 #FLUX: -c=8
 #FLUX: --queue=alpha
 #FLUX: -t=363599

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-arm-4501
+#FLUX: --job-name=carnivorous-poo-4740
 #FLUX: --queue=long
 #FLUX: -t=86400
 #FLUX: --urgency=16

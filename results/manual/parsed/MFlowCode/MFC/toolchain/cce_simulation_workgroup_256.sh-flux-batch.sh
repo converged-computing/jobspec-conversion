@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-ricecake-9420
+#FLUX: --job-name=butterscotch-cherry-5715
 #FLUX: --urgency=16
 
 CCE_LLVM_PATH=${CRAY_CCE_CLANGSHARE}/../

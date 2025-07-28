@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-egg-0034
+#FLUX: --job-name=blank-staircase-1848
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SimonTett/aus_rain_analysis/pbs_process.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cat-1711
+#FLUX: --job-name=dirty-puppy-1035
 #FLUX: -c=48
 #FLUX: --queue=devel
 #FLUX: -t=1200

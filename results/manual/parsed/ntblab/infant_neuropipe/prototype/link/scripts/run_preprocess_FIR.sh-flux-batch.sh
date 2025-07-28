@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-poodle-9053
+#FLUX: --job-name=expensive-malarkey-4554
 #FLUX: --queue=short
 #FLUX: -t=14400
 #FLUX: --urgency=16

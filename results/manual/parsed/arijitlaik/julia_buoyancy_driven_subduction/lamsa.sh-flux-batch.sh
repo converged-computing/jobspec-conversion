@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lentil-2752
+#FLUX: --job-name=conspicuous-spoon-2731
 #FLUX: -n=64
 #FLUX: --queue=genoa
 #FLUX: -t=432000

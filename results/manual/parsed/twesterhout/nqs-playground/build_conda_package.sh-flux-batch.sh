@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-general-6892
+#FLUX: --job-name=strawberry-leader-1432
 #FLUX: -c=16
 #FLUX: --queue=gpu_short
 #FLUX: -t=3600

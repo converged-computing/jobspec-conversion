@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-sundae-6154
+#FLUX: --job-name=placid-peanut-butter-8560
 #FLUX: -n=28
 #FLUX: --queue=secondary
 #FLUX: -t=300

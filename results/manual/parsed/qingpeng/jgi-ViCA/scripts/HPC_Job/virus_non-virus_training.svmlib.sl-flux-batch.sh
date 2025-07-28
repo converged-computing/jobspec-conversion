@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-destiny-4056
+#FLUX: --job-name=reclusive-parsnip-1076
 #FLUX: -N=3
 #FLUX: --queue=debug
 #FLUX: -t=1800

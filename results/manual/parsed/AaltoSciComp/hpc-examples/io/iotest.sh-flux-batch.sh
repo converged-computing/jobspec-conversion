@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-destiny-7059
+#FLUX: --job-name=astute-gato-7489
 #FLUX: --queue=short,debug
 #FLUX: -t=300
 #FLUX: --urgency=16

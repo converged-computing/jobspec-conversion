@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-snack-5393
+#FLUX: --job-name=boopy-arm-9816
 #FLUX: -n=24
 #FLUX: --queue=intel,batch
 #FLUX: -t=259200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-malarkey-0232
+#FLUX: --job-name=crusty-kerfuffle-5808
 #FLUX: -n=4
 #FLUX: --queue=stats.p
 #FLUX: -t=259200

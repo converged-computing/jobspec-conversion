@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-ricecake-8577
+#FLUX: --job-name=grated-train-4099
 #FLUX: -c=8
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=30

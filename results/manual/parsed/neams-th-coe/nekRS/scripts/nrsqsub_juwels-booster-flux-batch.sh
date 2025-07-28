@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-peanut-1656
+#FLUX: --job-name=purple-noodle-0032
 #FLUX: --urgency=16
 
 export ROMIO_HINTS='$(pwd)/.romio_hint'

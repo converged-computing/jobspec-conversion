@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-mango-5109
+#FLUX: --job-name=faux-poo-7247
 #FLUX: --queue=hci-rw
 #FLUX: -t=172800
 #FLUX: --urgency=16

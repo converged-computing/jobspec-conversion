@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-citrus-9932
+#FLUX: --job-name=delicious-rabbit-2406
 #FLUX: -c=48
 #FLUX: --queue=devel
 #FLUX: -t=1200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-hope-0518
+#FLUX: --job-name=gassy-lemur-0763
 #FLUX: --urgency=16
 
 source src/utilities/common.sh

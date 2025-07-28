@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-dog-8609
+#FLUX: --job-name=bumfuzzled-avocado-1239
 #FLUX: --queue=ccr
 #FLUX: -t=43200
 #FLUX: --urgency=16

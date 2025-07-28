@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lamp-6083
+#FLUX: --job-name=astute-general-3058
 #FLUX: -n=4
 #FLUX: --queue=copyq
 #FLUX: -t=129600

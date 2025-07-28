@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-puppy-6718
+#FLUX: --job-name=expressive-cherry-8232
 #FLUX: -c=5
 #FLUX: --queue=gm4-pmext
 #FLUX: -t=129600

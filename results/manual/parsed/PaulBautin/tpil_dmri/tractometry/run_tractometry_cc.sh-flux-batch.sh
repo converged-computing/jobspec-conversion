@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-truffle-5644
+#FLUX: --job-name=conspicuous-fork-3828
 #FLUX: -c=32
 #FLUX: -t=10800
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-plant-9119
+#FLUX: --job-name=blue-malarkey-0833
 #FLUX: --queue=PA100q
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-diablo-9410
+#FLUX: --job-name=psycho-peanut-6981
 #FLUX: -n=4
 #FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-leopard-1492
+#FLUX: --job-name=quirky-taco-7088
 #FLUX: --queue=amdfast
 #FLUX: -t=14400
 #FLUX: --urgency=16

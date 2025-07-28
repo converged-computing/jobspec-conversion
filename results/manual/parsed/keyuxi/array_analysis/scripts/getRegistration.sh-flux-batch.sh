@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-lamp-4620
+#FLUX: --job-name=chocolate-lizard-5351
 #FLUX: -c=6
 #FLUX: --queue=wjg,biochem,sfgf
 #FLUX: -t=3600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-leader-9531
+#FLUX: --job-name=butterscotch-snack-8631
 #FLUX: -N=2
 #FLUX: --queue=debug
 #FLUX: -t=3540

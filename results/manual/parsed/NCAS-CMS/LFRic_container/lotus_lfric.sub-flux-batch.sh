@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-mango-2960
+#FLUX: --job-name=conspicuous-fork-7872
 #FLUX: -n=6
 #FLUX: --queue=test
 #FLUX: -t=600

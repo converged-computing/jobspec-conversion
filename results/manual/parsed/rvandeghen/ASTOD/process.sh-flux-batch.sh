@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-parsnip-5768
+#FLUX: --job-name=blank-lamp-7310
 #FLUX: --queue=cpu
 #FLUX: --urgency=16
 

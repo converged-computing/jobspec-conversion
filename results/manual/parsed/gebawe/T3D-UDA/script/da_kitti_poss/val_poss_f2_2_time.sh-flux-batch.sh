@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-underoos-1582
+#FLUX: --job-name=chocolate-salad-0686
 #FLUX: -c=24
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-animal-6391
+#FLUX: --job-name=scruptious-chair-3335
 #FLUX: -N=10
 #FLUX: --queue=compute
 #FLUX: --urgency=16

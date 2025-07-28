@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lettuce-1164
+#FLUX: --job-name=doopy-avocado-7968
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

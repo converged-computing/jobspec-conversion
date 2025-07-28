@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-earthworm-6677
+#FLUX: --job-name=goodbye-taco-6760
 #FLUX: --queue=gpu22
 #FLUX: -t=21600
 #FLUX: --urgency=16

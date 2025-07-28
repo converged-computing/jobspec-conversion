@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-rabbit-7349
+#FLUX: --job-name=loopy-fudge-0734
 #FLUX: --queue=shared-cpu
 #FLUX: -t=300
 #FLUX: --urgency=16

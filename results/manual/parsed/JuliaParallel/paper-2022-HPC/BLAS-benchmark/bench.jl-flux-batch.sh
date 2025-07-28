@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-motorcycle-4302
+#FLUX: --job-name=moolicious-noodle-2421
 #FLUX: --exclusive
 #FLUX: --queue=all
 #FLUX: -t=7200

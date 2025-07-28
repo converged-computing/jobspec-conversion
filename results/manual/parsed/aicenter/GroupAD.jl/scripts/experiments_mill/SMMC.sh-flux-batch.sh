@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-dog-6454
+#FLUX: --job-name=spicy-bits-5073
 #FLUX: --queue=cpufast
 #FLUX: --urgency=16
 

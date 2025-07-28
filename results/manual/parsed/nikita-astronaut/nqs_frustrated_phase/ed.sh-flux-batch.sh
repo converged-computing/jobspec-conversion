@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-animal-6273
+#FLUX: --job-name=fat-citrus-3760
 #FLUX: -c=32
 #FLUX: --queue=dgx
 #FLUX: -t=259200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-malarkey-0587
+#FLUX: --job-name=milky-peanut-8182
 #FLUX: -N=4
 #FLUX: --queue=normal
 #FLUX: --urgency=16

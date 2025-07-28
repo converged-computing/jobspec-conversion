@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-destiny-4885
+#FLUX: --job-name=fugly-earthworm-0047
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

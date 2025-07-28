@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-truffle-9230
+#FLUX: --job-name=eccentric-bits-6512
 #FLUX: -c=2
 #FLUX: --queue=gpu_shared
 #FLUX: -t=3600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-platanos-0440
+#FLUX: --job-name=faux-lamp-4416
 #FLUX: -c=8
 #FLUX: --urgency=16
 

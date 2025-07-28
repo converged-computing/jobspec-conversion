@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-train-7606
+#FLUX: --job-name=blue-butter-7463
 #FLUX: --urgency=16
 
 export SCW_TPN_OVERRIDE='1'

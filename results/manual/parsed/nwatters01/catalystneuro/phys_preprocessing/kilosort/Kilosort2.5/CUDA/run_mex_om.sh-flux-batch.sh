@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-blackbean-3476
+#FLUX: --job-name=arid-plant-5907
 #FLUX: --queue=jazayeri
 #FLUX: -t=14400
 #FLUX: --urgency=16

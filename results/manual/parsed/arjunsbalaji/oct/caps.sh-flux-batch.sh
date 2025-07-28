@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-squidward-2077
+#FLUX: --job-name=pusheena-despacito-8269
 #FLUX: --queue=gpuq
 #FLUX: -t=7200
 #FLUX: --urgency=16

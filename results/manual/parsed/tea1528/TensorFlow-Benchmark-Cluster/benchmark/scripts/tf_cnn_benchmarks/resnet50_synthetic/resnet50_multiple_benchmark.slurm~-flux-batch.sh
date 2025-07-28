@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-pastry-4327
+#FLUX: --job-name=fugly-kerfuffle-1230
 #FLUX: --queue=maxwell
 #FLUX: -t=72000
 #FLUX: --urgency=16

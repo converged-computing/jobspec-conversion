@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lemon-3709
+#FLUX: --job-name=evasive-arm-6444
 #FLUX: -c=32
 #FLUX: --queue=normal
 #FLUX: -t=460800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-leg-9684
+#FLUX: --job-name=expressive-arm-9156
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

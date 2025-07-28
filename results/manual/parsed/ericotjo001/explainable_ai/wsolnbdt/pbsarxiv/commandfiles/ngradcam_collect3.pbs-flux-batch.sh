@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-diablo-8503
+#FLUX: --job-name=milky-leopard-2533
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ericotjo001/explainable_ai/wsolnbdt/pbsarxiv/commandfiles/ngradcam_collect3.pbs

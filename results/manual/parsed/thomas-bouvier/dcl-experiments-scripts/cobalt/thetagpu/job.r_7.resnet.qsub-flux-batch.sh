@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=placid-train-1448
+#FLUX: --job-name=boopy-hobbit-4671
 #FLUX: --urgency=16
 

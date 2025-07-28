@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-hippo-4366
+#FLUX: --job-name=buttery-fork-3559
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/aidenlab/juicer/AWS/scripts/juicer.sh

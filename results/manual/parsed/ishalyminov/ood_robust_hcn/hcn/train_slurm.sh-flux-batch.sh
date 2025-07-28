@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-chip-0835
+#FLUX: --job-name=hello-avocado-1372
 #FLUX: --queue=amd-longq
 #FLUX: --urgency=16
 

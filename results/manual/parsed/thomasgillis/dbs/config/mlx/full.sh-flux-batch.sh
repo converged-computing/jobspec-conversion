@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-salad-8153
+#FLUX: --job-name=stinky-spoon-9023
 #FLUX: -n=8
 #FLUX: --queue=cpu
 #FLUX: -t=7200

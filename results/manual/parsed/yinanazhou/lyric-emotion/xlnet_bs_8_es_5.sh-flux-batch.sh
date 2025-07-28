@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-pancake-0916
+#FLUX: --job-name=fat-leader-8128
 #FLUX: -c=4
 #FLUX: -t=259200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-bits-3773
+#FLUX: --job-name=salted-despacito-2563
 #FLUX: -N=16
 #FLUX: -n=16
 #FLUX: -c=12

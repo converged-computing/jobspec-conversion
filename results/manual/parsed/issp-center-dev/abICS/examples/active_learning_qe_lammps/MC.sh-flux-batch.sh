@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-egg-6279
+#FLUX: --job-name=conspicuous-toaster-3111
 #FLUX: -n=8
 #FLUX: --queue=i8cpu
 #FLUX: -t=1800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cat-7217
+#FLUX: --job-name=conspicuous-signal-5880
 #FLUX: --queue=batch
 #FLUX: -t=300
 #FLUX: --urgency=16

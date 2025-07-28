@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-rabbit-3675
+#FLUX: --job-name=misunderstood-caramel-3873
 #FLUX: -c=32
 #FLUX: --queue=regular
 #FLUX: -t=36000

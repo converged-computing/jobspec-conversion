@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-butter-6867
+#FLUX: --job-name=rainbow-diablo-8686
 #FLUX: -c=6
 #FLUX: --queue=rise
 #FLUX: -t=87840

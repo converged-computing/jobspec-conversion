@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pot-3618
+#FLUX: --job-name=loopy-parrot-2465
 #FLUX: -c=8
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=30

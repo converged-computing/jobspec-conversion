@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-diablo-7778
+#FLUX: --job-name=arid-truffle-5374
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/niallj/ImperialNESS-Sep14/ConfigurationalTemperature/simulation/simulate.sh

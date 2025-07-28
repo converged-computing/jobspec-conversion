@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-poo-6280
+#FLUX: --job-name=confused-hope-4330
 #FLUX: -n=4
 #FLUX: --queue=serial
 #FLUX: -t=720

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-peas-0582
+#FLUX: --job-name=hairy-arm-3968
 #FLUX: -n=128
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive

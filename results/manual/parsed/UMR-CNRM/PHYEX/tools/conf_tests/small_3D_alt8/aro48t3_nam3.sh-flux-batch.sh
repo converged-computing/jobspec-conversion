@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-soup-1500
+#FLUX: --job-name=purple-omelette-8866
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

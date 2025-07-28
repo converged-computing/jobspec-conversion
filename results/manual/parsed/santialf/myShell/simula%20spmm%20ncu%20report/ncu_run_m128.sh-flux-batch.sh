@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lamp-0154
+#FLUX: --job-name=adorable-staircase-5439
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

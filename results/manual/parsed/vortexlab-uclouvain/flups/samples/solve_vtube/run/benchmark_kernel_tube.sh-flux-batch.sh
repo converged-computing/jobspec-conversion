@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-earthworm-1689
+#FLUX: --job-name=boopy-latke-2209
 #FLUX: --urgency=16
 
 source ${SCRIPT_MODULE} ${MPI_VERSION}

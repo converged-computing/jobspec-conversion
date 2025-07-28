@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-spoon-9823
+#FLUX: --job-name=blank-cinnamonbun-5151
 #FLUX: -c=10
 #FLUX: -t=309600
 #FLUX: --urgency=16

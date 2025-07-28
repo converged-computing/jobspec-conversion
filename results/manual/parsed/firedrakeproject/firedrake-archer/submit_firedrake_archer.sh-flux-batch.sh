@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-car-8788
+#FLUX: --job-name=buttery-truffle-1612
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/firedrakeproject/firedrake-archer/submit_firedrake_archer.sh

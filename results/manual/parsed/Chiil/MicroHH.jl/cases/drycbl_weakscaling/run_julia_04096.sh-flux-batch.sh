@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-hobbit-6587
+#FLUX: --job-name=wobbly-toaster-9785
 #FLUX: -N=32
 #FLUX: -c=4
 #FLUX: --exclusive

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-destiny-3451
+#FLUX: --job-name=muffled-itch-1014
 #FLUX: -c=2
 #FLUX: --queue=batch,intel
 #FLUX: -t=604800

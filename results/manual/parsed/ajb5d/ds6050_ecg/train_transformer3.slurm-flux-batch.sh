@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lentil-2298
+#FLUX: --job-name=tart-malarkey-6916
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=259200

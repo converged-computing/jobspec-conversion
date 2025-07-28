@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-parsnip-5156
+#FLUX: --job-name=crunchy-salad-7172
 #FLUX: -N=4
 #FLUX: -c=7
 #FLUX: --queue=smallmem,serial,parallel

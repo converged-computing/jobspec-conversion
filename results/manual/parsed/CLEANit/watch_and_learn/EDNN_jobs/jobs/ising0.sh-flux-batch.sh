@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-nalgas-4259
+#FLUX: --job-name=misunderstood-itch-5131
 #FLUX: --queue=bumblebee
 #FLUX: -t=86400
 #FLUX: --urgency=16

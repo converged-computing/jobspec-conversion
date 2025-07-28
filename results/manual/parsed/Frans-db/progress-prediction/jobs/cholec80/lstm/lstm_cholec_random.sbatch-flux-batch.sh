@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-milkshake-6638
+#FLUX: --job-name=dirty-itch-4969
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=1800

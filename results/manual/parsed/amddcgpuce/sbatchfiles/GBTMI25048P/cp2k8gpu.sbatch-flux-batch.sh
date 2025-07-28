@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-leader-9800
+#FLUX: --job-name=anxious-general-1240
 #FLUX: -c=12
 #FLUX: --urgency=16
 

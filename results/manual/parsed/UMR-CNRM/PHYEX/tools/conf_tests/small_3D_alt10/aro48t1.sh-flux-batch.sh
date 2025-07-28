@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lamp-6453
+#FLUX: --job-name=blue-general-2434
 #FLUX: -n=2
 #FLUX: --queue=normal256
 #FLUX: -t=600

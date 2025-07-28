@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-diablo-1677
+#FLUX: --job-name=tart-buttface-1281
 #FLUX: --urgency=16
 
 eval $(spack load --sh miniconda3)

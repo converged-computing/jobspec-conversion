@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-peanut-6240
+#FLUX: --job-name=dinosaur-avocado-8724
 #FLUX: --queue=amd
 #FLUX: -t=14400
 #FLUX: --urgency=16

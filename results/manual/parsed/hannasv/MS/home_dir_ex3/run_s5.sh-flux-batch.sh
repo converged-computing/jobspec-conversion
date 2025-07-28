@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-nalgas-3969
+#FLUX: --job-name=phat-lamp-2575
 #FLUX: -n=32
 #FLUX: --queue=defq
 #FLUX: -t=87840

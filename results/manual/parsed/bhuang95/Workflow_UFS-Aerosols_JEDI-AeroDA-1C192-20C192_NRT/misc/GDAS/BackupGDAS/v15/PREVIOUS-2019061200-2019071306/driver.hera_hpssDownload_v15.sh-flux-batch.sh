@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-train-7032
+#FLUX: --job-name=nerdy-lizard-2727
 #FLUX: --urgency=16
 
 export yy='`echo ${cdate} | cut -c 1-4`'

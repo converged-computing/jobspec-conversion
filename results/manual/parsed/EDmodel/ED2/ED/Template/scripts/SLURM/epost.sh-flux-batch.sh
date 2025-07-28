@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-milkshake-8910
+#FLUX: --job-name=dirty-milkshake-2392
 #FLUX: --urgency=16
 
 . ~/.bashrc

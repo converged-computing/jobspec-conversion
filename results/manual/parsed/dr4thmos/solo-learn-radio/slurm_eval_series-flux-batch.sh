@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-staircase-8219
+#FLUX: --job-name=goodbye-train-1837
 #FLUX: -c=16
 #FLUX: --queue=boost_usr_prod
 #FLUX: -t=86400

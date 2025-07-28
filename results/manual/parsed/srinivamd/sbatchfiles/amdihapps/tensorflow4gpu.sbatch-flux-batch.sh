@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-signal-4964
+#FLUX: --job-name=frigid-soup-8985
 #FLUX: -c=16
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-animal-8802
+#FLUX: --job-name=fuzzy-earthworm-6418
 #FLUX: -c=8
 #FLUX: --queue=nvidia
 #FLUX: -t=172800

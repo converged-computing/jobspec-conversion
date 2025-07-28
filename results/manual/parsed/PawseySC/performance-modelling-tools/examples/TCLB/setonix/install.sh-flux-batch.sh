@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-lemur-8698
+#FLUX: --job-name=creamy-leopard-5811
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu-dev

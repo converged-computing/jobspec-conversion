@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-salad-6083
+#FLUX: --job-name=rainbow-signal-0982
 #FLUX: --queue=general
 #FLUX: -t=86400
 #FLUX: --urgency=16

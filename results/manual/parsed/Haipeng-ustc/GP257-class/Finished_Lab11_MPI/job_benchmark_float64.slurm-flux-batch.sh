@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-signal-6459
+#FLUX: --job-name=dirty-chip-0202
 #FLUX: -N=2
 #FLUX: -n=16
 #FLUX: --exclusive

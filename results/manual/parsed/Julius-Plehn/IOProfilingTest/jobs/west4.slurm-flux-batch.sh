@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-underoos-7814
+#FLUX: --job-name=swampy-eagle-3054
 #FLUX: -N=4
 #FLUX: -n=4
 #FLUX: --queue=west

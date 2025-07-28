@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-citrus-4694
+#FLUX: --job-name=goodbye-bicycle-2013
 #FLUX: --queue=gpu
 #FLUX: -t=3600
 #FLUX: --urgency=16

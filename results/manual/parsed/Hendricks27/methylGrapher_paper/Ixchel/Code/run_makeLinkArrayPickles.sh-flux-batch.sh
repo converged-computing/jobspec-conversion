@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-omelette-2221
+#FLUX: --job-name=blue-fork-4391
 #FLUX: --urgency=16
 
 echo "Loading software..."

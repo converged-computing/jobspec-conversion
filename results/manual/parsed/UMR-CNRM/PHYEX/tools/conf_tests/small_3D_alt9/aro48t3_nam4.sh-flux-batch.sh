@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-lamp-9669
+#FLUX: --job-name=goodbye-nalgas-2086
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

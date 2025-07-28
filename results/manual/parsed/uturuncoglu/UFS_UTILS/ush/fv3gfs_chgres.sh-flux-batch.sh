@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-chip-7927
+#FLUX: --job-name=joyous-eagle-7093
 #FLUX: --urgency=16
 
 export machine='WCOSS_DELL_P3'

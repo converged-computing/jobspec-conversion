@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-cherry-0372
+#FLUX: --job-name=doopy-lemon-4828
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cosmic-dawn/uvis-pipe/bin/pconvert.sh

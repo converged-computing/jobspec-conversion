@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-animal-9180
+#FLUX: --job-name=gloopy-plant-6595
 #FLUX: --queue=GPU-shared
 #FLUX: -t=172800
 #FLUX: --urgency=16

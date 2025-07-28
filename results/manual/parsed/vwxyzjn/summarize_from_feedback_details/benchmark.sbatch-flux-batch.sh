@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-bike-7212
+#FLUX: --job-name=fugly-dog-1113
 #FLUX: --gpus-per-task=8
 #FLUX: --exclusive
 #FLUX: --queue=hopper-prod

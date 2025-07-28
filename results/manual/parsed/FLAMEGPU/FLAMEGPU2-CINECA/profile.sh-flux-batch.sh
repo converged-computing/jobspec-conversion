@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lizard-1268
+#FLUX: --job-name=delicious-latke-0635
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: --queue=m100_usr_prod

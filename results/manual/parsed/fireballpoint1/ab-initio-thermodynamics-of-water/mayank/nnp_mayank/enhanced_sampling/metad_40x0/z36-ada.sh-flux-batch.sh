@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-latke-8865
+#FLUX: --job-name=hello-lemon-6992
 #FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16

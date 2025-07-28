@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-truffle-0074
+#FLUX: --job-name=wobbly-spoon-6486
 #FLUX: --urgency=16
 
 source ~/.bashrc 

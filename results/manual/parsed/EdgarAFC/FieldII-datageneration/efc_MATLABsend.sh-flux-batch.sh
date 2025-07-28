@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-bike-0329
+#FLUX: --job-name=psycho-squidward-4786
 #FLUX: --queue=thinkstation-p360
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-cinnamonbun-3300
+#FLUX: --job-name=blank-sundae-8367
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=wrfc6gn

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-car-2610
+#FLUX: --job-name=expressive-toaster-3138
 #FLUX: -N=7
 #FLUX: --queue=devel
 #FLUX: -t=7200

@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-peas-5754
+#FLUX: --job-name=astute-lamp-4241
+#FLUX: -c=2
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export IFS=';'

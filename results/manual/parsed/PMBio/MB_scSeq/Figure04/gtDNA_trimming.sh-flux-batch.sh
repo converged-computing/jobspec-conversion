@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bits-2032
+#FLUX: --job-name=eccentric-car-7658
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PMBio/MB_scSeq/Figure04/gtDNA_trimming.sh

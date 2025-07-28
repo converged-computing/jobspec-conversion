@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-arm-6465
+#FLUX: --job-name=delicious-underoos-0586
 #FLUX: -c=8
 #FLUX: --queue=fasse_gpu
 #FLUX: -t=28740

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-kitty-9517
+#FLUX: --job-name=cowy-truffle-4066
 #FLUX: --queue=PV1003q
 #FLUX: --urgency=16
 

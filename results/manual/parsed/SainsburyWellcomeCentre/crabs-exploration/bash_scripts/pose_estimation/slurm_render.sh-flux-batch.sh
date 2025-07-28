@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-soup-5061
+#FLUX: --job-name=phat-cat-7294
 #FLUX: -n=2
 #FLUX: --queue=gpu
 #FLUX: -t=259440

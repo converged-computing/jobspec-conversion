@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-lemon-4581
+#FLUX: --job-name=carnivorous-despacito-0016
 #FLUX: -n=8
 #FLUX: --queue=gpgpumse
 #FLUX: -t=259200

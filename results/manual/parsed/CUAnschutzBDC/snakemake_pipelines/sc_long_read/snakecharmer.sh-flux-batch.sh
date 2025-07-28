@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-lentil-7307
+#FLUX: --job-name=blue-peanut-butter-2694
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CUAnschutzBDC/snakemake_pipelines/sc_long_read/snakecharmer.sh

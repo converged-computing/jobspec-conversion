@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-fork-7537
+#FLUX: --job-name=misunderstood-motorcycle-8696
 #FLUX: --queue=gpu
 #FLUX: -t=300
 #FLUX: --urgency=16

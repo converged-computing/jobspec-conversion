@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-knife-6987
+#FLUX: --job-name=astute-avocado-0662
 #FLUX: -c=6
 #FLUX: --queue=rise
 #FLUX: -t=87840

@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=performance-Cosmo
+#FLUX: -c=12
 #FLUX: --queue=CPUQ
 #FLUX: -t=21600
 #FLUX: --urgency=16

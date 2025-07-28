@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-pedo-7386
+#FLUX: --job-name=tart-bits-6231
 #FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-omelette-6987
+#FLUX: --job-name=swampy-arm-2932
 #FLUX: -c=5
 #FLUX: --exclusive
 #FLUX: --queue=gm4-pmext

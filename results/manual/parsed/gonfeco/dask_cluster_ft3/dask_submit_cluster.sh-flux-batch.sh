@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-hobbit-3081
+#FLUX: --job-name=stanky-motorcycle-0826
 #FLUX: -n=8
 #FLUX: -c=4
 #FLUX: -t=900

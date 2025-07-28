@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-chair-2022
+#FLUX: --job-name=crusty-staircase-2562
 #FLUX: -N=2
 #FLUX: -t=1800
 #FLUX: --urgency=16

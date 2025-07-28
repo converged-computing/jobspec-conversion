@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-eagle-4319
+#FLUX: --job-name=quirky-snack-3613
 #FLUX: --queue=GPU-shared
 #FLUX: -t=172800
 #FLUX: --urgency=16

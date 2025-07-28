@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-carrot-6850
+#FLUX: --job-name=milky-chair-0191
 #FLUX: --queue=PA100q
 #FLUX: --urgency=16
 

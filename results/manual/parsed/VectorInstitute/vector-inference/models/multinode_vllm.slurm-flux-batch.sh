@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lizard-0254
+#FLUX: --job-name=grated-hippo-7210
 #FLUX: -c=16
 #FLUX: --exclusive
 #FLUX: -t=14400

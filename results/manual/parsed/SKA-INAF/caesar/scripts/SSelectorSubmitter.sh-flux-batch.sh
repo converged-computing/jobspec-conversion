@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-poo-5264
+#FLUX: --job-name=bloated-butter-3431
 #FLUX: --urgency=16
 
 export BASEDIR='$PWD'

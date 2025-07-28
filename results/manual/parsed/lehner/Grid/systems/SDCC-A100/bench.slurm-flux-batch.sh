@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-peas-2696
+#FLUX: --job-name=gassy-chair-3304
 #FLUX: -n=4
 #FLUX: --exclusive
 #FLUX: --queue=csi

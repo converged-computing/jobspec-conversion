@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-milkshake-5650
+#FLUX: --job-name=phat-kerfuffle-6643
 #FLUX: --queue=gpu
 #FLUX: -t=18000
 #FLUX: --urgency=16

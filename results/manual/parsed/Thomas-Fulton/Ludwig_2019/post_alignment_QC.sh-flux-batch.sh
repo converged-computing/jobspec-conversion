@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-cinnamonbun-2044
+#FLUX: --job-name=phat-plant-8689
 #FLUX: --queue=defq
 #FLUX: -t=86400
 #FLUX: --urgency=16

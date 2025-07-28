@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=hello-eagle-9822
+#FLUX: --job-name=fugly-egg-6048
 #FLUX: --queue=mhealth,...
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 export IFS=';'

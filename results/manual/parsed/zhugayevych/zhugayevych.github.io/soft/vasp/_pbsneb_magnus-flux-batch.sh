@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-malarkey-7940
+#FLUX: --job-name=expressive-itch-7560
 #FLUX: -c=16
 #FLUX: --queue=AMG
 #FLUX: -t=86400

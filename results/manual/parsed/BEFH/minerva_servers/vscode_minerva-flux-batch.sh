@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-leader-6228
+#FLUX: --job-name=blank-snack-8013
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BEFH/minerva_servers/vscode_minerva

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-puppy-0325
+#FLUX: --job-name=hanky-bits-3704
 #FLUX: -n=24
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=210

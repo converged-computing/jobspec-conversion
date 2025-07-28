@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-house-2521
+#FLUX: --job-name=milky-egg-0408
 #FLUX: --queue=gpu2
 #FLUX: -t=3600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-puppy-3087
+#FLUX: --job-name=grated-itch-6983
 #FLUX: -c=10
 #FLUX: --queue=defq
 #FLUX: -t=172800

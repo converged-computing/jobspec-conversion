@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-mango-4972
+#FLUX: --job-name=spicy-fork-7912
 #FLUX: -n=4
 #FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16

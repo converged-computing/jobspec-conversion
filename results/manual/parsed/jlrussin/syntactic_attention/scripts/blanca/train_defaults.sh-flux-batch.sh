@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-lentil-5757
+#FLUX: --job-name=carnivorous-spoon-2203
 #FLUX: -c=16
 #FLUX: -t=259200
 #FLUX: --urgency=16

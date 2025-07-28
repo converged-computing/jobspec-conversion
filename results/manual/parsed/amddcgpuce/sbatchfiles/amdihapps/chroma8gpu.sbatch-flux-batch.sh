@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-chip-2966
+#FLUX: --job-name=placid-staircase-7971
 #FLUX: -c=16
 #FLUX: --urgency=16
 

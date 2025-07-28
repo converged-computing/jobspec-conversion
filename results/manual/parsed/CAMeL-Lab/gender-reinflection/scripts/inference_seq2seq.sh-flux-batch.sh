@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-chip-7734
+#FLUX: --job-name=faux-lettuce-0463
 #FLUX: --queue=nvidia
 #FLUX: -t=41400
 #FLUX: --urgency=16

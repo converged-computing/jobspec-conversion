@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-cattywampus-2462
+#FLUX: --job-name=purple-nalgas-7906
 #FLUX: --exclusive
 #FLUX: --queue=hpc
 #FLUX: -t=259200

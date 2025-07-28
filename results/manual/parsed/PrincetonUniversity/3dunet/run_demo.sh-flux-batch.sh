@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-blackbean-1552
+#FLUX: --job-name=astute-lentil-8527
 #FLUX: -N=2
 #FLUX: --queue=all
 #FLUX: -t=600

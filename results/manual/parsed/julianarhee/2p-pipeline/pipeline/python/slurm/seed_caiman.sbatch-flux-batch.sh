@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-bicycle-6475
+#FLUX: --job-name=frigid-fudge-9789
 #FLUX: -n=16
 #FLUX: --queue=cox
 #FLUX: -t=360

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-plant-4933
+#FLUX: --job-name=loopy-plant-0216
 #FLUX: --exclusive
 #FLUX: --queue=p100_dev_q
 #FLUX: -t=3600

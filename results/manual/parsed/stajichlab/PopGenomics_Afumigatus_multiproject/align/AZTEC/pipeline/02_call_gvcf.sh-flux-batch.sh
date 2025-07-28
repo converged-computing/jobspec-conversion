@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-buttface-0531
+#FLUX: --job-name=bloated-leader-9902
 #FLUX: -n=16
 #FLUX: --queue=intel
 #FLUX: -t=172800

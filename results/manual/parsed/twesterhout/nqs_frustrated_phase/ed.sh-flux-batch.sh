@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-chair-7735
+#FLUX: --job-name=carnivorous-caramel-1490
 #FLUX: -c=64
 #FLUX: --exclusive
 #FLUX: --queue=tcm

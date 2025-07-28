@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-parsnip-8184
+#FLUX: --job-name=expensive-despacito-2611
 #FLUX: -c=40
 #FLUX: --queue=rise
 #FLUX: -t=259200

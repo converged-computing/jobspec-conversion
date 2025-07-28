@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-destiny-1860
+#FLUX: --job-name=peachy-plant-4073
 #FLUX: -n=4
 #FLUX: --queue=isi
 #FLUX: -t=360000

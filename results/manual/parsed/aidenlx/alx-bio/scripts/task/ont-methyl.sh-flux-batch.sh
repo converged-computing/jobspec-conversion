@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-sundae-6125
+#FLUX: --job-name=fuzzy-parsnip-8623
 #FLUX: -c=16
 #FLUX: --queue=AI
 #FLUX: --urgency=16

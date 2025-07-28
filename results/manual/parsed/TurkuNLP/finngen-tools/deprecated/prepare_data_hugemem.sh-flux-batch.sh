@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lemon-0440
+#FLUX: --job-name=phat-mango-3431
 #FLUX: -c=40
 #FLUX: --queue=hugemem
 #FLUX: -t=86400

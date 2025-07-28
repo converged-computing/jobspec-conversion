@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-avocado-7089
+#FLUX: --job-name=anxious-omelette-0715
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

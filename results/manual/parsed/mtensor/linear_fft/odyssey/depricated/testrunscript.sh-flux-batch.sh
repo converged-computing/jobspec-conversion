@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-kitty-1430
+#FLUX: --job-name=angry-buttface-0581
 #FLUX: -n=32
 #FLUX: --queue=serial_requeue
 #FLUX: -t=2400

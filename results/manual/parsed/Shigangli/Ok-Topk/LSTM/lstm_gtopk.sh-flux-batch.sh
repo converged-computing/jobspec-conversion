@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-despacito-7728
+#FLUX: --job-name=reclusive-pancake-5782
 #FLUX: -N=32
 #FLUX: -n=32
 #FLUX: -c=12

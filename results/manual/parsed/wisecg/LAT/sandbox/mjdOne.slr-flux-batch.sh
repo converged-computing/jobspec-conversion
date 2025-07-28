@@ -1,6 +1,5 @@
 #!/bin/bash
 #FLUX: --job-name=mjr-cori
-#FLUX: -N=4
 #FLUX: -c=64
 #FLUX: --queue=debug
 #FLUX: -t=1500

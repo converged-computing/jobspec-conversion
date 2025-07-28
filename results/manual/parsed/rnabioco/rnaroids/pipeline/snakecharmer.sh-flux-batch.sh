@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-dog-3429
+#FLUX: --job-name=spicy-house-4194
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rnabioco/rnaroids/pipeline/snakecharmer.sh

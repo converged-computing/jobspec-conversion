@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-cat-1216
+#FLUX: --job-name=frigid-parrot-2536
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

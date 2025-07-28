@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-latke-7538
+#FLUX: --job-name=faux-hippo-6625
 #FLUX: -c=10
 #FLUX: --queue=gpu
 #FLUX: -t=360000

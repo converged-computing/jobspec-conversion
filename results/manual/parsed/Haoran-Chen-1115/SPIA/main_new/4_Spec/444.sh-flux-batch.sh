@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-house-8269
+#FLUX: --job-name=blue-despacito-0975
 #FLUX: --queue=GPU
 #FLUX: --urgency=15
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-noodle-1153
+#FLUX: --job-name=frigid-carrot-6251
 #FLUX: --queue=priority
 #FLUX: --urgency=16
 

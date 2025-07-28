@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-toaster-1627
+#FLUX: --job-name=fuzzy-malarkey-7451
 #FLUX: -c=4
 #FLUX: --exclusive
 #FLUX: --queue=1xgpu

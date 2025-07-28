@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bits-4820
+#FLUX: --job-name=red-noodle-6780
 #FLUX: -n=2
 #FLUX: --queue=shared
 #FLUX: -t=480

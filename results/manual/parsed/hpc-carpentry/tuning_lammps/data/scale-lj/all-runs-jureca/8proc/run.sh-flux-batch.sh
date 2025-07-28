@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-diablo-5180
+#FLUX: --job-name=grated-poo-9851
 #FLUX: --queue=devel
 #FLUX: -t=900
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-punk-3338
+#FLUX: --job-name=sticky-squidward-6830
 #FLUX: --queue=limited
 #FLUX: -t=108000
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-train-6918
+#FLUX: --job-name=lovely-banana-9654
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

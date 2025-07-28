@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-spoon-5161
+#FLUX: --job-name=purple-itch-3020
 #FLUX: -n=4
 #FLUX: --queue=standard
 #FLUX: -t=14400

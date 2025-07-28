@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-latke-7261
+#FLUX: --job-name=arid-plant-2466
 #FLUX: --queue=sched_mit_hill
 #FLUX: -t=41400
 #FLUX: --urgency=16

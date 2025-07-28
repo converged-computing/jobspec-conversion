@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-onion-7109
+#FLUX: --job-name=red-lemon-8044
 #FLUX: -n=4
 #FLUX: --queue=cloud
 #FLUX: --urgency=16

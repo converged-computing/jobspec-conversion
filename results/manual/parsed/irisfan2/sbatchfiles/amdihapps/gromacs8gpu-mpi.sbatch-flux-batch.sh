@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-latke-5806
+#FLUX: --job-name=bloated-toaster-6106
 #FLUX: -c=8
 #FLUX: --urgency=16
 

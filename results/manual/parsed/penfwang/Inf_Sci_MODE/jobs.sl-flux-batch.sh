@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-peanut-8189
+#FLUX: --job-name=confused-underoos-0761
 #FLUX: -c=2
 #FLUX: --queue=large
 #FLUX: -t=218100

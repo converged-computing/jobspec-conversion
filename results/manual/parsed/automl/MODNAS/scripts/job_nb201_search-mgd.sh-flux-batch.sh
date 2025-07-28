@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-ricecake-6276
+#FLUX: --job-name=fuzzy-snack-3401
 #FLUX: -c=32
 #FLUX: --queue=<partition
 #FLUX: -t=432000

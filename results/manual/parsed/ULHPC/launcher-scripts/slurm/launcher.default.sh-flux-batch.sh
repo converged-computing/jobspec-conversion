@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-staircase-3396
+#FLUX: --job-name=blue-hope-9868
 #FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16

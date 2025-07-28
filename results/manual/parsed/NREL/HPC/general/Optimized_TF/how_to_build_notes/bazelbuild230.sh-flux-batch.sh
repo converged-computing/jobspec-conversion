@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-knife-0226
+#FLUX: --job-name=goodbye-spoon-2187
 #FLUX: --queue=debug
 #FLUX: -t=3600
 #FLUX: --urgency=16

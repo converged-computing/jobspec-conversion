@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-animal-5102
+#FLUX: --job-name=dirty-destiny-5819
 #FLUX: -n=16
 #FLUX: --queue=shared
 #FLUX: -t=480

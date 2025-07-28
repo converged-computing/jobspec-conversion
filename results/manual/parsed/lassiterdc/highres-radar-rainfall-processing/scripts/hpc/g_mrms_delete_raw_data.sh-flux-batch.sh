@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-destiny-5287
+#FLUX: --job-name=misunderstood-cattywampus-4030
 #FLUX: --queue=standard
 #FLUX: -t=172800
 #FLUX: --urgency=16

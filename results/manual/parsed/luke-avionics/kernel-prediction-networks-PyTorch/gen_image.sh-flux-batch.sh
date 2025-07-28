@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-eagle-6274
+#FLUX: --job-name=frigid-underoos-5550
 #FLUX: -n=100
 #FLUX: -c=46
 #FLUX: --exclusive

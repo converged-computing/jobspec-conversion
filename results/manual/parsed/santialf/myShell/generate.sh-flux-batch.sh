@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-pedo-7199
+#FLUX: --job-name=confused-destiny-8908
 #FLUX: --queue=milanq
 #FLUX: -t=1200
 #FLUX: --urgency=16

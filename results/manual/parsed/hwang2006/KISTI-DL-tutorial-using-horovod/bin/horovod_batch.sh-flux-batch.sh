@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-nalgas-8729
+#FLUX: --job-name=purple-leader-7685
 #FLUX: -N=2
 #FLUX: -c=4
 #FLUX: --queue=amd_a100nv_8

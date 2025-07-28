@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-itch-4284
+#FLUX: --job-name=milky-dog-3035
 #FLUX: -c=32
 #FLUX: --queue=gpusmall
 #FLUX: -t=3600

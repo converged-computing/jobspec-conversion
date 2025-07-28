@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-caramel-5021
+#FLUX: --job-name=purple-blackbean-5429
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

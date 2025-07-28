@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-nalgas-1677
+#FLUX: --job-name=bumfuzzled-cherry-7792
 #FLUX: -n=6
 #FLUX: --queue=huce_intel
 #FLUX: -t=30

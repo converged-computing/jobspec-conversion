@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-leopard-8634
+#FLUX: --job-name=expressive-blackbean-0489
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

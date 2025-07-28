@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-squidward-1404
+#FLUX: --job-name=hello-sundae-4990
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/liuhoward/valence_tweet/valence_feature.pbs

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-destiny-2774
+#FLUX: --job-name=boopy-bike-2543
 #FLUX: --exclusive
 #FLUX: -t=54000
 #FLUX: --urgency=16

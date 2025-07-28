@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-soup-7034
+#FLUX: --job-name=ornery-cat-5402
 #FLUX: -N=16
 #FLUX: --queue=regular
 #FLUX: -t=600

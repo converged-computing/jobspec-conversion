@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-eagle-8231
+#FLUX: --job-name=frigid-poo-5363
 #FLUX: -c=3
 #FLUX: --queue=cpu,mrcieu
 #FLUX: -t=259200

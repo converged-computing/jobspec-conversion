@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leg-8177
+#FLUX: --job-name=goodbye-spoon-1604
 #FLUX: -N=4
 #FLUX: --queue=normal
 #FLUX: -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-fudge-9043
+#FLUX: --job-name=rainbow-toaster-6946
 #FLUX: --queue=public
 #FLUX: -t=172800
 #FLUX: --urgency=16

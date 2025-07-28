@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-toaster-6714
+#FLUX: --job-name=chocolate-latke-7127
 #FLUX: --queue=maxwell
 #FLUX: -t=72000
 #FLUX: --urgency=16

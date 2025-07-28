@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-frito-1491
+#FLUX: --job-name=lovely-hope-4090
 #FLUX: --queue=ProdQ
 #FLUX: -t=259200
 #FLUX: --urgency=16

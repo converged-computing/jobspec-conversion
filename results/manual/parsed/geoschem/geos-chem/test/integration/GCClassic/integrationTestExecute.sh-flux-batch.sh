@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-soup-0339
+#FLUX: --job-name=goodbye-taco-8743
 #FLUX: -c=24
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=360

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-knife-7916
+#FLUX: --job-name=fat-fudge-7239
 #FLUX: --urgency=16
 
 CONDA_ENV_NAME=

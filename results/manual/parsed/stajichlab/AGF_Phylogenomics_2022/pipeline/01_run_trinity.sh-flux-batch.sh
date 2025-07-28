@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-nalgas-5690
+#FLUX: --job-name=milky-peanut-butter-3290
 #FLUX: -n=32
 #FLUX: --queue=intel,batch
 #FLUX: --urgency=16

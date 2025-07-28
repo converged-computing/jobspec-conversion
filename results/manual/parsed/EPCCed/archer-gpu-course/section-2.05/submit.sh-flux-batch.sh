@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-house-6347
+#FLUX: --job-name=blank-chip-2590
 #FLUX: --queue=gpu
 #FLUX: -t=60
 #FLUX: --urgency=16

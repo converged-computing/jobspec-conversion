@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-latke-9043
+#FLUX: --job-name=loopy-truffle-9084
 #FLUX: --exclusive
 #FLUX: --queue=scarf
 #FLUX: -t=345600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-buttface-7265
+#FLUX: --job-name=expressive-gato-5229
 #FLUX: -c=24
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

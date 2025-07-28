@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-hippo-7543
+#FLUX: --job-name=frigid-parsnip-5255
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

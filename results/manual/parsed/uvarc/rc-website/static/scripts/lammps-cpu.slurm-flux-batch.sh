@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-poo-2526
+#FLUX: --job-name=outstanding-poodle-2369
 #FLUX: -N=2
 #FLUX: --queue=parallel
 #FLUX: -t=259200

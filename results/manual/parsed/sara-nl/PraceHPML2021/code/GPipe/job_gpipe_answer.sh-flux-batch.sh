@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-blackbean-1850
+#FLUX: --job-name=doopy-onion-8260
 #FLUX: -c=6
 #FLUX: --queue=gpu_shared_jupyter
 #FLUX: -t=180

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-peanut-butter-6630
+#FLUX: --job-name=eccentric-despacito-9257
 #FLUX: -N=4
 #FLUX: -c=8
 #FLUX: --queue=gpu

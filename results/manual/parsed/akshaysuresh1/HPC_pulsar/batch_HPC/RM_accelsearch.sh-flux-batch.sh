@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-frito-4651
+#FLUX: --job-name=frigid-peas-5487
 #FLUX: -N=3
 #FLUX: --queue=RM
 #FLUX: -t=115200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-knife-7818
+#FLUX: --job-name=carnivorous-arm-8564
 #FLUX: -N=40
 #FLUX: -n=1280
 #FLUX: -c=4

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-signal-8821
+#FLUX: --job-name=moolicious-cupcake-5720
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-malarkey-4007
+#FLUX: --job-name=eccentric-peanut-butter-4693
 #FLUX: --urgency=16
 
 echo "### START DATE=$(date)"

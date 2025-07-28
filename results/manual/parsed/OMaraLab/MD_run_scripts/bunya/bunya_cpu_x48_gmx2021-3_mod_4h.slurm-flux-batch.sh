@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-leopard-5969
+#FLUX: --job-name=confused-fork-0808
 #FLUX: -c=48
 #FLUX: --queue=general
 #FLUX: -t=14400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-peanut-butter-4932
+#FLUX: --job-name=wobbly-pedo-7140
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600

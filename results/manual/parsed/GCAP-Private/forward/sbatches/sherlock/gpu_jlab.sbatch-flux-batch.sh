@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-bicycle-6646
+#FLUX: --job-name=rainbow-despacito-7719
 #FLUX: --urgency=16
 
 PORT=$1

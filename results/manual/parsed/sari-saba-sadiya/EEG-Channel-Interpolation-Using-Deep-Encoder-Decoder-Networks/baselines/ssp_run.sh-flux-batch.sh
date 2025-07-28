@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-poodle-7279
+#FLUX: --job-name=angry-lentil-6405
 #FLUX: --exclusive
 #FLUX: --queue=sched_mit_rgmark
 #FLUX: -t=259200

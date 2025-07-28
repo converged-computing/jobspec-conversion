@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-salad-2856
+#FLUX: --job-name=tart-cat-2042
 #FLUX: -c=5
 #FLUX: --queue=amp20
 #FLUX: --urgency=16

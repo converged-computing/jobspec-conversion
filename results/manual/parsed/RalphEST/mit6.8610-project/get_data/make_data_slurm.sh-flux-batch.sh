@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-butter-4397
+#FLUX: --job-name=eccentric-peanut-butter-9281
 #FLUX: -c=16
 #FLUX: --queue=priority
 #FLUX: -t=300

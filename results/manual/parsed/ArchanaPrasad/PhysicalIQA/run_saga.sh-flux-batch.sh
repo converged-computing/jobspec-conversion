@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-fork-7869
+#FLUX: --job-name=astute-arm-0865
 #FLUX: -c=4
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=mics

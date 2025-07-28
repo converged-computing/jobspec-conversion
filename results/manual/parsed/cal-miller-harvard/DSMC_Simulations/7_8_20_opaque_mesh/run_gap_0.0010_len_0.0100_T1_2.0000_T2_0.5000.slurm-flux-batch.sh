@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-fudge-3307
+#FLUX: --job-name=tart-leader-6688
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

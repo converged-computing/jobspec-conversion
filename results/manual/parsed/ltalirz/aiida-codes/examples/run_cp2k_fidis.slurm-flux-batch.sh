@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-mango-3286
+#FLUX: --job-name=doopy-pedo-1022
 #FLUX: -N=2
 #FLUX: -n=49
 #FLUX: -t=3600

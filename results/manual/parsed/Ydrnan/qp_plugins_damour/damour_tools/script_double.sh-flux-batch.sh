@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-bits-5887
+#FLUX: --job-name=goodbye-bits-1712
 #FLUX: -c=32
 #FLUX: --exclusive
 #FLUX: --queue=xeonv6

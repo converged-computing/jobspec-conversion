@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-hippo-7969
+#FLUX: --job-name=rainbow-eagle-6582
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: --queue=romeo

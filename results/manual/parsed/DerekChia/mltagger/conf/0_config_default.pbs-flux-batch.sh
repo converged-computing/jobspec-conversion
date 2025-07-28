@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-pedo-5866
+#FLUX: --job-name=carnivorous-salad-1452
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DerekChia/mltagger/conf/0_config_default.pbs

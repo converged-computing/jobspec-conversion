@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-onion-2431
+#FLUX: --job-name=dinosaur-malarkey-9871
 #FLUX: -c=24
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=210

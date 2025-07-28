@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-spoon-2891
+#FLUX: --job-name=crusty-bike-3066
 #FLUX: -N=16
 #FLUX: --queue=regular
 #FLUX: -t=3600

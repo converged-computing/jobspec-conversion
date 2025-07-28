@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lemon-3535
+#FLUX: --job-name=goodbye-banana-2644
 #FLUX: --queue=zhuang,shared
 #FLUX: -t=604800
 #FLUX: --urgency=16

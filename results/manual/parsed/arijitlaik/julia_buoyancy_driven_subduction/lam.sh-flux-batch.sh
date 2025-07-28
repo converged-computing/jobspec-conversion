@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-train-0995
+#FLUX: --job-name=psycho-signal-3564
 #FLUX: -n=64
 #FLUX: --queue=rome
 #FLUX: -t=432000

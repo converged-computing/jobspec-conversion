@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-hippo-5751
+#FLUX: --job-name=chocolate-poodle-5980
 #FLUX: --queue=serial_requeue
 #FLUX: -t=900
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-onion-0246
+#FLUX: --job-name=bloated-peas-9596
 #FLUX: --queue=fasse
 #FLUX: -t=300
 #FLUX: --urgency=16

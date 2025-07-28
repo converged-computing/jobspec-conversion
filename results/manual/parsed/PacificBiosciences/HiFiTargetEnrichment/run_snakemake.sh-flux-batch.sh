@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-toaster-0243
+#FLUX: --job-name=cowy-underoos-0608
 #FLUX: -c=4
 #FLUX: --queue=compute
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-underoos-5822
+#FLUX: --job-name=misunderstood-mango-1089
 #FLUX: -N=3
 #FLUX: --queue=devel
 #FLUX: -t=900

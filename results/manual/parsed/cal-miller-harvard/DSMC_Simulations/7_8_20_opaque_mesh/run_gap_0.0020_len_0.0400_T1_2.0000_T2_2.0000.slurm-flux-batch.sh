@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-onion-7732
+#FLUX: --job-name=arid-parsnip-6453
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-staircase-6036
+#FLUX: --job-name=muffled-bicycle-2291
 #FLUX: --queue=normal
 #FLUX: -t=10800
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-hope-6827
+#FLUX: --job-name=milky-kitty-1092
 #FLUX: --queue=hci-kp
 #FLUX: -t=864000
 #FLUX: --urgency=16

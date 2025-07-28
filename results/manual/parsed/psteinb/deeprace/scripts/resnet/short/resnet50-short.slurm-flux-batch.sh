@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-staircase-3959
+#FLUX: --job-name=carnivorous-pot-8274
 #FLUX: --queue=gpu2
 #FLUX: -t=4800
 #FLUX: --urgency=16

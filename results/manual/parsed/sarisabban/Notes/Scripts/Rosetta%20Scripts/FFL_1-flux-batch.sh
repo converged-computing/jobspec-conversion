@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lemon-0766
+#FLUX: --job-name=purple-lentil-3744
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sarisabban/Notes/Scripts/Rosetta%20Scripts/FFL_1

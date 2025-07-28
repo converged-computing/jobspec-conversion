@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-malarkey-3788
+#FLUX: --job-name=astute-plant-5416
 #FLUX: -N=4
 #FLUX: -n=96
 #FLUX: --queue=parallel

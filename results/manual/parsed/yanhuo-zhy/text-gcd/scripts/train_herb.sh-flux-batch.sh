@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-platanos-5296
+#FLUX: --job-name=expensive-staircase-3057
 #FLUX: -c=5
 #FLUX: --queue=amp48
 #FLUX: --urgency=16

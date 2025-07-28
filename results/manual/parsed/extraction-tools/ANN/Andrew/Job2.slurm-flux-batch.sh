@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-destiny-6763
+#FLUX: --job-name=spicy-arm-9220
 #FLUX: --queue=standard
 #FLUX: -t=59400
 #FLUX: --urgency=16

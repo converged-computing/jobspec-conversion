@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-chip-3581
+#FLUX: --job-name=cowy-earthworm-9556
 #FLUX: -N=2
 #FLUX: --queue=regular
 #FLUX: -t=10800

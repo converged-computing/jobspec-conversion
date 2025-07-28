@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-destiny-9069
+#FLUX: --job-name=stinky-nunchucks-2202
 #FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16

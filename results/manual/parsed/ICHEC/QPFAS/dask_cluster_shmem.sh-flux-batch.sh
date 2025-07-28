@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-toaster-0336
+#FLUX: --job-name=evasive-destiny-7826
 #FLUX: --queue=ShmemQ
 #FLUX: -t=259200
 #FLUX: --urgency=16

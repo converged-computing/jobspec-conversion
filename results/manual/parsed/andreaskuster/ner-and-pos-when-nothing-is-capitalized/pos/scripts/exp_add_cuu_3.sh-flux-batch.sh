@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lizard-5696
+#FLUX: --job-name=rainbow-squidward-7404
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

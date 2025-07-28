@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-squidward-7516
+#FLUX: --job-name=loopy-lizard-2258
 #FLUX: -c=48
 #FLUX: --queue=devel
 #FLUX: -t=1200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-puppy-5708
+#FLUX: --job-name=dirty-butter-0383
 #FLUX: --queue=<partition
 #FLUX: -t=172800
 #FLUX: --urgency=16

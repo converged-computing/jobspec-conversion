@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=tart-puppy-0326
+#FLUX: --job-name=scruptious-earthworm-8358
 #FLUX: -c=10
+#FLUX: -t=172800
 #FLUX: --urgency=16
 
 export IFS=';'

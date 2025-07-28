@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-despacito-9648
+#FLUX: --job-name=purple-soup-5614
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

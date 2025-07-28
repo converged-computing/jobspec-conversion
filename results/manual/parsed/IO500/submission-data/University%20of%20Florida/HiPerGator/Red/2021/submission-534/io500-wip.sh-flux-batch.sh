@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-poodle-2311
+#FLUX: --job-name=carnivorous-poodle-9622
 #FLUX: -N=10
 #FLUX: --queue=compute
 #FLUX: --urgency=16

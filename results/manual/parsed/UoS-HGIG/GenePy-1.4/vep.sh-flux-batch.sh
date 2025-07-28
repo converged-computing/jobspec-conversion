@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-frito-9927
+#FLUX: --job-name=fuzzy-caramel-3953
 #FLUX: -t=72000
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-banana-0341
+#FLUX: --job-name=sticky-lamp-2139
 #FLUX: -c=8
 #FLUX: --exclusive
 #FLUX: --queue=n1s8-v100-1

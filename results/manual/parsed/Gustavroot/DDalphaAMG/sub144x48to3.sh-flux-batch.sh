@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-hobbit-8894
+#FLUX: --job-name=tart-peanut-0599
 #FLUX: -N=4
 #FLUX: -c=12
 #FLUX: --queue=booster

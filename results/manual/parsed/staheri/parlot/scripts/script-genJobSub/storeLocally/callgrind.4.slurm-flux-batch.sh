@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-nunchucks-9516
+#FLUX: --job-name=tart-nalgas-0359
 #FLUX: -N=4
 #FLUX: -n=64
 #FLUX: --queue=soc-kp

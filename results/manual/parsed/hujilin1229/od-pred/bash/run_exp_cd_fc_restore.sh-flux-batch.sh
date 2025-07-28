@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-motorcycle-1424
+#FLUX: --job-name=boopy-hobbit-1891
 #FLUX: --urgency=16
 
 python fcgrnn_train_cd.py --test_every_n_epochs 10 --sample_rate 15 --data_format 'speed' \

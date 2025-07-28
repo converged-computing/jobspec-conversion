@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-car-2095
+#FLUX: --job-name=bumfuzzled-punk-9493
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=c6ipg

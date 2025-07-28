@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-destiny-5215
+#FLUX: --job-name=fuzzy-milkshake-5222
 #FLUX: -c=40
 #FLUX: --queue=exacloud
 #FLUX: -t=129600

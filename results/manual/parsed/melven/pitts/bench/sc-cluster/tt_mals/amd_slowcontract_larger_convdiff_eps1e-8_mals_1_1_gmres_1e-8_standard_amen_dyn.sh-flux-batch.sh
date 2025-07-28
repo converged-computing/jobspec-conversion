@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-spoon-1287
+#FLUX: --job-name=rainbow-platanos-8407
 #FLUX: -c=64
 #FLUX: --queue=amd
 #FLUX: -t=180000

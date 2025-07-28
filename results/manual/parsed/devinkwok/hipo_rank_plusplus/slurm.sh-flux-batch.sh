@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-peanut-butter-1762
+#FLUX: --job-name=placid-cinnamonbun-3945
 #FLUX: -c=2
 #FLUX: --queue=unkillable
 #FLUX: -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-general-3785
+#FLUX: --job-name=carnivorous-plant-7793
 #FLUX: --queue=q_student_gpu
 #FLUX: -t=300
 #FLUX: --urgency=16

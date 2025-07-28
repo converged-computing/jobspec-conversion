@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cat-5121
+#FLUX: --job-name=adorable-eagle-0087
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=3600

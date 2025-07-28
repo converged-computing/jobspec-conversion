@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-avocado-3137
+#FLUX: --job-name=adorable-mango-1388
 #FLUX: -N=50
 #FLUX: --queue=premium
 #FLUX: -t=36000

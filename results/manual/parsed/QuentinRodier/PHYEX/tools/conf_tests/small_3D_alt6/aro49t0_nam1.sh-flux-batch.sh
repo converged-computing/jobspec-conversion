@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-underoos-0697
+#FLUX: --job-name=lovable-itch-8251
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

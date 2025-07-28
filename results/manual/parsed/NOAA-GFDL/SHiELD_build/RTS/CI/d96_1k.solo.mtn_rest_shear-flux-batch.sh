@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-diablo-2472
+#FLUX: --job-name=eccentric-toaster-7362
 #FLUX: -n=24
 #FLUX: --urgency=16
 

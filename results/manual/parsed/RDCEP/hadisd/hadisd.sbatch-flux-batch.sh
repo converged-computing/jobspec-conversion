@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-toaster-6593
+#FLUX: --job-name=fuzzy-avocado-2636
 #FLUX: -n=160
 #FLUX: --exclusive
 #FLUX: --queue=sandyb,westmere,bigmem,amd

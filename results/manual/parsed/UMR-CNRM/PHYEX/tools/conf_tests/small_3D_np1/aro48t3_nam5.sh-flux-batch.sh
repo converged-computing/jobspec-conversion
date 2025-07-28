@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-salad-4818
+#FLUX: --job-name=outstanding-bits-8794
 #FLUX: --queue=normal256
 #FLUX: -t=600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-pot-4616
+#FLUX: --job-name=bumfuzzled-chair-3984
 #FLUX: -N=20
 #FLUX: -n=1360
 #FLUX: --queue=booster

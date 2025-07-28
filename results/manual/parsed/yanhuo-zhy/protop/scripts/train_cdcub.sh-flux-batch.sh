@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-chip-3956
+#FLUX: --job-name=astute-noodle-2202
 #FLUX: -c=5
 #FLUX: --queue=amp20
 #FLUX: --urgency=16

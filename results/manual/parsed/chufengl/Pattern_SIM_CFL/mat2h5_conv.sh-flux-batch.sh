@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-blackbean-7734
+#FLUX: --job-name=hello-signal-9908
 #FLUX: --queue=serial
 #FLUX: -t=87120
 #FLUX: --urgency=16

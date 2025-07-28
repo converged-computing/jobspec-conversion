@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-taco-9400
+#FLUX: --job-name=anxious-signal-2598
 #FLUX: --queue=ccb
 #FLUX: -t=360000
 #FLUX: --urgency=16

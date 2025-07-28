@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-rabbit-0337
+#FLUX: --job-name=outstanding-hope-5293
 #FLUX: -c=2
 #FLUX: --queue=p100
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-lemon-6857
+#FLUX: --job-name=expressive-signal-6964
 #FLUX: --queue=standard
 #FLUX: -t=86400
 #FLUX: --urgency=16

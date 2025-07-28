@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-taco-2493
+#FLUX: --job-name=stanky-squidward-2224
 #FLUX: -c=8
 #FLUX: --queue=rtx6000
 #FLUX: -t=720000

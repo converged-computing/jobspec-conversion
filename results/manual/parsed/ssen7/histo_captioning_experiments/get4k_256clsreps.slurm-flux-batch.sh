@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-gato-5790
+#FLUX: --job-name=muffled-lamp-7515
 #FLUX: --queue=bii-gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

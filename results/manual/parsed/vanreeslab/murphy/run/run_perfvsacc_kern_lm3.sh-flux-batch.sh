@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-peas-4603
+#FLUX: --job-name=moolicious-bike-5359
 #FLUX: --queue=batch,debug
 #FLUX: -t=21600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-latke-8549
+#FLUX: --job-name=reclusive-despacito-9958
 #FLUX: --exclusive
 #FLUX: --queue=hpc
 #FLUX: -t=259200

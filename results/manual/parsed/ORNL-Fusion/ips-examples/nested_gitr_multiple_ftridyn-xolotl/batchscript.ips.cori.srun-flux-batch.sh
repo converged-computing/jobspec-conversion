@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-truffle-8508
+#FLUX: --job-name=reclusive-buttface-4514
 #FLUX: -N=8
 #FLUX: --queue=debug
 #FLUX: -t=1800

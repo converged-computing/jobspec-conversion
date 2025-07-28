@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-frito-9030
+#FLUX: --job-name=boopy-fork-1089
 #FLUX: -c=8
 #FLUX: --queue=day
 #FLUX: -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-fork-3740
+#FLUX: --job-name=faux-underoos-6888
 #FLUX: -c=8
 #FLUX: --urgency=16
 

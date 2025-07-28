@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-plant-8149
+#FLUX: --job-name=purple-butter-3956
 #FLUX: -n=40
 #FLUX: --queue=cpu
 #FLUX: --urgency=16

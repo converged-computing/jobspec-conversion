@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-squidward-8301
+#FLUX: --job-name=angry-train-7712
 #FLUX: -N=3
 #FLUX: -n=12
 #FLUX: --queue=gpu_titanrtx

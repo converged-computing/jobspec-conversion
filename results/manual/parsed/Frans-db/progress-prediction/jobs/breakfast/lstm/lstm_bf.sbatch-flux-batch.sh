@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-ricecake-0923
+#FLUX: --job-name=pusheena-despacito-8769
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=7200

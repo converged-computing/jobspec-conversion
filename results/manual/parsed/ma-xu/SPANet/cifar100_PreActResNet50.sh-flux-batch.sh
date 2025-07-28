@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cattywampus-5773
+#FLUX: --job-name=red-fork-4492
 #FLUX: -n=4
 #FLUX: --queue=public
 #FLUX: -t=1800000

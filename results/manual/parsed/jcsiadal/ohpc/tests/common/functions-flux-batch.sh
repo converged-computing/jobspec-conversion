@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-noodle-4239
+#FLUX: --job-name=rainbow-lemon-7102
 #FLUX: --urgency=16
 
 ERROR () {

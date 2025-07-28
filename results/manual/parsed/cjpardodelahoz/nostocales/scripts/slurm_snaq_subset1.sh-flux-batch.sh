@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-truffle-8338
+#FLUX: --job-name=stanky-citrus-3059
 #FLUX: -c=10
 #FLUX: --queue=scavenger
 #FLUX: --urgency=16

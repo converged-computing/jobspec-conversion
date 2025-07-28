@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-blackbean-5850
+#FLUX: --job-name=cowy-platanos-1145
 #FLUX: --queue=amd-gpu-long
 #FLUX: --urgency=16
 

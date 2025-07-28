@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-bits-1165
+#FLUX: --job-name=muffled-animal-8694
 #FLUX: -c=20
 #FLUX: --queue=short
 #FLUX: -t=719

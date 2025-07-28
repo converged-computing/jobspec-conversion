@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-citrus-4374
+#FLUX: --job-name=confused-itch-6665
 #FLUX: -c=16
 #FLUX: --queue=general
 #FLUX: -t=60

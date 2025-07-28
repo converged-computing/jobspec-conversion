@@ -1,0 +1,5 @@
+#!/bin/bash
+#FLUX: --job-name=ornery-blackbean-1660
+#FLUX: --urgency=16
+
+/workspaces/fractale/jobspec-conversion/data/dkfz-b060/gb_code/mouse_RNAseq_01_process.sh

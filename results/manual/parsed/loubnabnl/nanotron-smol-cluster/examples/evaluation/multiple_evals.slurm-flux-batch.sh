@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-hippo-3221
+#FLUX: --job-name=swampy-signal-8104
 #FLUX: -c=48
 #FLUX: --exclusive
 #FLUX: --queue=production-cluster

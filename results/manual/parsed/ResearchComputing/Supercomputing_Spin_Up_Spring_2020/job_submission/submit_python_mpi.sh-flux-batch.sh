@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-knife-5217
+#FLUX: --job-name=evasive-peanut-butter-0782
 #FLUX: -n=4
 #FLUX: --queue=shas
 #FLUX: -t=60

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-lentil-0906
+#FLUX: --job-name=bloated-lettuce-4839
 #FLUX: -N=40
 #FLUX: -n=1280
 #FLUX: -c=4

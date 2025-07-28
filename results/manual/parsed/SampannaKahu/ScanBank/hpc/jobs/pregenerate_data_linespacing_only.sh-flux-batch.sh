@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-pot-1582
+#FLUX: --job-name=persnickety-platanos-5864
 #FLUX: --exclusive
 #FLUX: --queue=normal_q
 #FLUX: -t=288000

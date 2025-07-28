@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-bits-6119
+#FLUX: --job-name=expensive-animal-3602
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

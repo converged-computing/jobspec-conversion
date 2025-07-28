@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-destiny-7932
+#FLUX: --job-name=doopy-general-8843
 #FLUX: -t=86400
 #FLUX: --urgency=16
 

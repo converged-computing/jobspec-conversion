@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-motorcycle-5288
+#FLUX: --job-name=spicy-egg-7395
 #FLUX: -c=80
 #FLUX: --exclusive
 #FLUX: -t=14400

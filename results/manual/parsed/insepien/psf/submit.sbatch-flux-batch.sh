@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-egg-2006
+#FLUX: --job-name=reclusive-nunchucks-8810
 #FLUX: -c=10
 #FLUX: --queue=kipac
 #FLUX: -t=7200

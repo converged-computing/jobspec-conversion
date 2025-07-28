@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-cat-4858
+#FLUX: --job-name=peachy-staircase-6954
 #FLUX: --queue=gpu
 #FLUX: --urgency=16
 

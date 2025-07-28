@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-latke-9035
+#FLUX: --job-name=conspicuous-bits-7744
 #FLUX: --queue=overflow
 #FLUX: -t=864000
 #FLUX: --urgency=16

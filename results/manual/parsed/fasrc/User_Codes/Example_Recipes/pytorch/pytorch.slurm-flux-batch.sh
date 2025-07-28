@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-staircase-5094
+#FLUX: --job-name=angry-lamp-1620
 #FLUX: --queue=gpu
 #FLUX: -t=30
 #FLUX: --urgency=16

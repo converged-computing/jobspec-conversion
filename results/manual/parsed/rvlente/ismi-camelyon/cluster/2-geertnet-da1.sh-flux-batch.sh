@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-caramel-2641
+#FLUX: --job-name=bloated-signal-2557
 #FLUX: -c=18
 #FLUX: --queue=gpu
 #FLUX: -t=43200

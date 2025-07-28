@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-platanos-7238
+#FLUX: --job-name=psycho-snack-8435
 #FLUX: -n=16
 #FLUX: --queue=IB_44C_512G
 #FLUX: --urgency=16

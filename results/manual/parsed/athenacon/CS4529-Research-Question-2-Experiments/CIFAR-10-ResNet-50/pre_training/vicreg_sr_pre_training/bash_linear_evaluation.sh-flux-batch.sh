@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-knife-8965
+#FLUX: --job-name=frigid-train-3968
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: -t=540000

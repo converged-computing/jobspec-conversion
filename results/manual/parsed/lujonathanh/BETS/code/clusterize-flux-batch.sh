@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-soup-7946
+#FLUX: --job-name=expressive-bike-8007
 #FLUX: --urgency=16
 
 usage="clusterize [options] -c \"command\"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-bits-5539
+#FLUX: --job-name=bloated-cinnamonbun-1724
 #FLUX: -t=0
 #FLUX: --urgency=16
 

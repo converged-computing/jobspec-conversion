@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-muffin-9282
+#FLUX: --job-name=goodbye-muffin-9526
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

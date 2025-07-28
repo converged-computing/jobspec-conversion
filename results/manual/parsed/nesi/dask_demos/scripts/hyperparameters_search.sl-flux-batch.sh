@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-gato-7070
+#FLUX: --job-name=phat-salad-3772
 #FLUX: -c=80
 #FLUX: --queue=milan
 #FLUX: -t=600

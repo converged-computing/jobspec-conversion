@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-eagle-0605
+#FLUX: --job-name=hanky-staircase-2305
 #FLUX: --queue=dev_q
 #FLUX: -t=300
 #FLUX: --urgency=16

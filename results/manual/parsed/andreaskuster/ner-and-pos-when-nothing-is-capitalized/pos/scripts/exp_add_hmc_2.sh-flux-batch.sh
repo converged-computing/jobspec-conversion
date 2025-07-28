@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-mango-3129
+#FLUX: --job-name=confused-butter-1278
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

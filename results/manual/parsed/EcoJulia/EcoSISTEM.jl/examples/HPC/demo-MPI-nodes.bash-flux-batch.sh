@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-squidward-9456
+#FLUX: --job-name=dinosaur-nunchucks-2476
 #FLUX: -N=4
 #FLUX: -n=32
 #FLUX: -c=8

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-frito-8899
+#FLUX: --job-name=fuzzy-platanos-4771
 #FLUX: -c=10
 #FLUX: --queue=defq
 #FLUX: -t=172800

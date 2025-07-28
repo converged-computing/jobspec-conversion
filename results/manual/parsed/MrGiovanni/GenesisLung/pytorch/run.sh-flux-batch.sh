@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-pedo-2801
+#FLUX: --job-name=evasive-kerfuffle-7131
 #FLUX: -n=4
 #FLUX: --queue=wildfire
 #FLUX: -t=13800

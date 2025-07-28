@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-buttface-5847
+#FLUX: --job-name=carnivorous-motorcycle-2423
 #FLUX: -n=16
 #FLUX: --queue=batch
 #FLUX: -t=3600

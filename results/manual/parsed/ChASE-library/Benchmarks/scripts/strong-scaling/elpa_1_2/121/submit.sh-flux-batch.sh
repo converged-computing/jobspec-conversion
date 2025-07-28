@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pastry-7077
+#FLUX: --job-name=creamy-latke-2580
 #FLUX: -N=121
 #FLUX: -n=484
 #FLUX: --queue=develbooster

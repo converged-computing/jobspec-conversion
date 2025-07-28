@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-salad-5640
+#FLUX: --job-name=ornery-toaster-0496
 #FLUX: --queue=build
 #FLUX: -t=3600
 #FLUX: --urgency=16

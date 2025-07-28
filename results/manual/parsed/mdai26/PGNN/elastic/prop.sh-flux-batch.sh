@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-fork-6362
+#FLUX: --job-name=muffled-chip-5345
 #FLUX: --queue=research
 #FLUX: -t=86400
 #FLUX: --urgency=16

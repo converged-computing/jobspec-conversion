@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-arm-8899
+#FLUX: --job-name=peachy-despacito-3422
 #FLUX: -n=8
 #FLUX: --queue=gpgpumse
 #FLUX: -t=172800

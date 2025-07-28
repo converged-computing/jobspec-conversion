@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-taco-1859
+#FLUX: --job-name=psycho-blackbean-0386
 #FLUX: -N=4
 #FLUX: -n=12
 #FLUX: --queue=west

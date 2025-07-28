@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-pancake-1914
+#FLUX: --job-name=arid-lentil-9581
 #FLUX: -N=3
 #FLUX: -n=288
 #FLUX: --queue=standard96

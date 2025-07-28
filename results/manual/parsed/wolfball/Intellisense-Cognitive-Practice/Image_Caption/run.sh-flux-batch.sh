@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-pastry-5812
+#FLUX: --job-name=grated-fork-5779
 #FLUX: --queue=a100
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-egg-0296
+#FLUX: --job-name=ornery-chip-8971
 #FLUX: -N=2
 #FLUX: --queue=devel
 #FLUX: -t=900

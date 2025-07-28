@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-chair-8497
+#FLUX: --job-name=bloated-underoos-6691
 #FLUX: -c=16
 #FLUX: --gpus-per-task=8
 #FLUX: --queue=hpg-ai

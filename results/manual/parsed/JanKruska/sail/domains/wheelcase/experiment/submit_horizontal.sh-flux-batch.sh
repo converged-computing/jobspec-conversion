@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-bicycle-6227
+#FLUX: --job-name=adorable-despacito-6596
 #FLUX: --exclusive
 #FLUX: --queue=hpc
 #FLUX: -t=259200

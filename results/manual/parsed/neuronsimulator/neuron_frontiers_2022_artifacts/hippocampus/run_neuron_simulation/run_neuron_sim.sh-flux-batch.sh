@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-cat-2359
+#FLUX: --job-name=evasive-pot-1987
 #FLUX: -N=2
 #FLUX: -n=80
 #FLUX: -c=2

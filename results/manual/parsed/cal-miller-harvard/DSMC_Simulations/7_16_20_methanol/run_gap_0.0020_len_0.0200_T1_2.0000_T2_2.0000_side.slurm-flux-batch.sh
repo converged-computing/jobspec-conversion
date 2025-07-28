@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lemon-4964
+#FLUX: --job-name=anxious-platanos-4585
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-general-9858
+#FLUX: --job-name=lovely-eagle-0149
 #FLUX: -N=2
 #FLUX: -c=2
 #FLUX: -t=259200

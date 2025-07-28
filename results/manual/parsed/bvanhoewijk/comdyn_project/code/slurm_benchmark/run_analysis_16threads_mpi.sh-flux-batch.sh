@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-cattywampus-2865
+#FLUX: --job-name=expensive-leg-7555
 #FLUX: -c=16
 #FLUX: --exclusive
 #FLUX: --queue=rome

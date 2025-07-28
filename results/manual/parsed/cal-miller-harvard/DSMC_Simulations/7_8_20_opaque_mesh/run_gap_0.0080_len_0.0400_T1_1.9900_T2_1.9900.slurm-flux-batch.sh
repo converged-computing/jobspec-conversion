@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-parsnip-5669
+#FLUX: --job-name=bumfuzzled-kitty-0970
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

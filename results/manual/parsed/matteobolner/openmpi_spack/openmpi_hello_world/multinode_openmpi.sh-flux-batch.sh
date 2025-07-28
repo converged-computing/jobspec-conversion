@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-noodle-9536
+#FLUX: --job-name=evasive-blackbean-5919
 #FLUX: -N=2
 #FLUX: --queue=skl_usr_prod
 #FLUX: -t=60

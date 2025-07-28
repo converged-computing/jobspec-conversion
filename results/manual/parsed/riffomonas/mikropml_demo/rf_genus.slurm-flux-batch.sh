@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-lemur-6262
+#FLUX: --job-name=eccentric-soup-3127
 #FLUX: --queue=standard
 #FLUX: -t=86400
 #FLUX: --urgency=16

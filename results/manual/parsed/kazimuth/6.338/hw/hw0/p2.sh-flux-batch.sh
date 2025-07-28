@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-animal-1692
+#FLUX: --job-name=blue-general-8788
 #FLUX: -N=10
 #FLUX: -n=10
 #FLUX: --urgency=16

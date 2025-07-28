@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-animal-0256
+#FLUX: --job-name=blank-cat-2936
 #FLUX: -t=60
 #FLUX: --urgency=16
 

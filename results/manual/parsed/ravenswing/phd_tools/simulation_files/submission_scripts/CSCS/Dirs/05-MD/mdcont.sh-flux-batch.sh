@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-hippo-4630
+#FLUX: --job-name=phat-bits-9878
 #FLUX: -N=4
 #FLUX: --queue=normal
 #FLUX: -t=86400

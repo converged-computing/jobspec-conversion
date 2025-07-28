@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-pastry-2413
+#FLUX: --job-name=cowy-salad-7796
 #FLUX: -N=40
 #FLUX: -n=1280
 #FLUX: -c=4

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-parrot-3919
+#FLUX: --job-name=frigid-parrot-9545
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=10800

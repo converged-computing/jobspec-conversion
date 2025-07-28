@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-kitty-3820
+#FLUX: --job-name=blank-despacito-9369
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/neams-th-coe/cardinal/scripts/job_sawtooth

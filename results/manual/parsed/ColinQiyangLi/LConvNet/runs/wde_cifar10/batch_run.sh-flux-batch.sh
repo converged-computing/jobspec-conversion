@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-noodle-3342
+#FLUX: --job-name=strawberry-poo-7197
 #FLUX: -c=2
 #FLUX: --queue=p100
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-lettuce-2143
+#FLUX: --job-name=fat-peas-7099
 #FLUX: --queue=fpgasyn
 #FLUX: --urgency=16
 

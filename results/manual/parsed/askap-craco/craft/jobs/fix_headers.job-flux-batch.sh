@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-underoos-1317
+#FLUX: --job-name=arid-fork-5924
 #FLUX: -c=12
 #FLUX: -t=28800
 #FLUX: --urgency=16

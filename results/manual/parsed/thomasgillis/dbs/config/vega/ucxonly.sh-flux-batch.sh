@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-fork-8408
+#FLUX: --job-name=hairy-plant-9606
 #FLUX: -n=8
 #FLUX: --queue=cpu
 #FLUX: -t=21600

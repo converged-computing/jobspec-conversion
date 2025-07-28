@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-lemon-0827
+#FLUX: --job-name=astute-lamp-6012
 #FLUX: --queue=awhite
 #FLUX: -t=86400
 #FLUX: --urgency=16

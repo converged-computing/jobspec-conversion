@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-rabbit-0168
+#FLUX: --job-name=angry-parsnip-8797
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: -t=14400

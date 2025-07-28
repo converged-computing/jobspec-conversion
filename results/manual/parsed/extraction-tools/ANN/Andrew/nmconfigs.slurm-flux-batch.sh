@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-soup-3659
+#FLUX: --job-name=grated-plant-6296
 #FLUX: --queue=standard
 #FLUX: -t=59400
 #FLUX: --urgency=16

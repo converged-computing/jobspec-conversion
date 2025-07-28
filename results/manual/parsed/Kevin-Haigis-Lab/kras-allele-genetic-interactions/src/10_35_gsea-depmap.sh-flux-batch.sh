@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-gato-2951
+#FLUX: --job-name=fuzzy-rabbit-6860
 #FLUX: -c=2
 #FLUX: --queue=short
 #FLUX: -t=270

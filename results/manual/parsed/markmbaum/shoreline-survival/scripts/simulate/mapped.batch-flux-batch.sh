@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-puppy-9218
+#FLUX: --job-name=loopy-leopard-8402
 #FLUX: -c=48
 #FLUX: --queue=huce_cascade
 #FLUX: -t=1036800

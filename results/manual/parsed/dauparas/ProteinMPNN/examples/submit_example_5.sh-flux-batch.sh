@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-spoon-7373
+#FLUX: --job-name=frigid-dog-2223
 #FLUX: -c=3
 #FLUX: --queue=gpu
 #FLUX: --urgency=16

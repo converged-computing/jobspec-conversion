@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-peanut-1058
+#FLUX: --job-name=fuzzy-pot-5220
 #FLUX: --urgency=16
 
 source activate torch

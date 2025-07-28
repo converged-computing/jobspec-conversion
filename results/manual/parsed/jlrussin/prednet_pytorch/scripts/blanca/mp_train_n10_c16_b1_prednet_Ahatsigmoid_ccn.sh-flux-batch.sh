@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-signal-7388
+#FLUX: --job-name=adorable-noodle-2398
 #FLUX: -n=10
 #FLUX: -c=16
 #FLUX: -t=259200

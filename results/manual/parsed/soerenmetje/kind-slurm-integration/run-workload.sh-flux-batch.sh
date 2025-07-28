@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-truffle-5070
+#FLUX: --job-name=doopy-despacito-4550
 #FLUX: --urgency=16
 
 export K8S_PORT='$K8S_PORT'

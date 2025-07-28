@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-ricecake-1084
+#FLUX: --job-name=outstanding-ricecake-6090
 #FLUX: -n=8
 #FLUX: --queue=bigmem
 #FLUX: -t=1065600

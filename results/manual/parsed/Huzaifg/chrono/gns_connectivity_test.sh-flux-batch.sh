@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-muffin-0101
+#FLUX: --job-name=bumfuzzled-leopard-5426
 #FLUX: --queue=gpu-h100
 #FLUX: -t=172800
 #FLUX: --urgency=16

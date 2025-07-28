@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-itch-7378
+#FLUX: --job-name=loopy-truffle-6940
 #FLUX: --queue=gpu2
 #FLUX: -t=3600
 #FLUX: --urgency=16

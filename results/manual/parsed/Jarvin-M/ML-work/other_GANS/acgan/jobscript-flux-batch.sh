@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-train-7612
+#FLUX: --job-name=phat-bike-0549
 #FLUX: --queue=gpu
 #FLUX: -t=18000
 #FLUX: --urgency=16

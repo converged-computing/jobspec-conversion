@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-butter-2424
+#FLUX: --job-name=gassy-malarkey-3743
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

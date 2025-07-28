@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-platanos-4625
+#FLUX: --job-name=blue-butter-1314
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

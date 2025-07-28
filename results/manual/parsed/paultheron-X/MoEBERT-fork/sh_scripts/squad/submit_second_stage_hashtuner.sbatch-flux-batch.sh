@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-hobbit-8545
+#FLUX: --job-name=hello-chair-3094
 #FLUX: -c=20
 #FLUX: --queue=xeon-g6-volta
 #FLUX: -t=1440

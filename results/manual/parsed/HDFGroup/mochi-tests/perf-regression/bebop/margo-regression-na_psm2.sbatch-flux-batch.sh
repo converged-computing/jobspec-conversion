@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-leg-1258
+#FLUX: --job-name=dinosaur-rabbit-5081
 #FLUX: -N=2
 #FLUX: --queue=bdwall
 #FLUX: -t=900

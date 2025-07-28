@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-bits-3181
+#FLUX: --job-name=peachy-lizard-7813
 #FLUX: -c=8
 #FLUX: --queue=alpha
 #FLUX: -t=86399

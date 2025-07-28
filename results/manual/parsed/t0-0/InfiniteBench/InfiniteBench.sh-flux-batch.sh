@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-house-4632
+#FLUX: --job-name=evasive-ricecake-2042
 #FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh

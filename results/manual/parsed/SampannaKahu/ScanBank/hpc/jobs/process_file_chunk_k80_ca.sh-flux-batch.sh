@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-onion-8243
+#FLUX: --job-name=hanky-nunchucks-0136
 #FLUX: --exclusive
 #FLUX: --queue=k80_q
 #FLUX: -t=172800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cherry-0710
+#FLUX: --job-name=moolicious-train-8060
 #FLUX: -N=10
 #FLUX: --exclusive
 #FLUX: --queue=bii

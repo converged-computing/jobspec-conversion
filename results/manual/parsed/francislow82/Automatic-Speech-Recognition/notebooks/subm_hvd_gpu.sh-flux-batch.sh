@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-mango-9972
+#FLUX: --job-name=tart-onion-7983
 #FLUX: -N=8
 #FLUX: --queue=gpu_big
 #FLUX: -t=345600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-eagle-4512
+#FLUX: --job-name=misunderstood-muffin-6309
 #FLUX: -n=48
 #FLUX: --queue=skl_fua_dbg
 #FLUX: -t=3600

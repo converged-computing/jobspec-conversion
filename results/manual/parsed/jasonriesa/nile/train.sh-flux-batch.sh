@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-dog-0948
+#FLUX: --job-name=fat-hippo-4830
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jasonriesa/nile/train.sh

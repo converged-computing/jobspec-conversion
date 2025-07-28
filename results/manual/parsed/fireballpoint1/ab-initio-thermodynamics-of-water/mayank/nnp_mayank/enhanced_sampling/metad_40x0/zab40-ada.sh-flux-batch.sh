@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-blackbean-1307
+#FLUX: --job-name=reclusive-bits-5232
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

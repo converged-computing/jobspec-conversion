@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-hobbit-5219
+#FLUX: --job-name=quirky-poo-6792
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/drmeister/jd-macrocycles/synthesized/G_182/prod/gmx_prod.sh

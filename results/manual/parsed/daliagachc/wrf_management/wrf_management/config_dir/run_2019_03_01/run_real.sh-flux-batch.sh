@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-latke-0318
+#FLUX: --job-name=dinosaur-truffle-2446
 #FLUX: --queue=serial
 #FLUX: -t=600
 #FLUX: --urgency=16

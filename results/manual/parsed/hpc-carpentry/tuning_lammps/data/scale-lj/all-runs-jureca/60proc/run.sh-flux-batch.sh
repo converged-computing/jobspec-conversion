@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-lamp-6926
+#FLUX: --job-name=chocolate-blackbean-2045
 #FLUX: -N=2
 #FLUX: --queue=devel
 #FLUX: -t=900

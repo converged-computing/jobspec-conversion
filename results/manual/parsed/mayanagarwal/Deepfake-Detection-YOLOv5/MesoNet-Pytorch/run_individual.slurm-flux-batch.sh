@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-itch-7584
+#FLUX: --job-name=buttery-leader-9024
 #FLUX: -n=8
 #FLUX: --queue=gpgpumse
 #FLUX: -t=172800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-egg-9094
+#FLUX: --job-name=misunderstood-house-3883
 #FLUX: -c=24
 #FLUX: --exclusive
 #FLUX: --queue=n1c24m128-v100-4

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-carrot-2974
+#FLUX: --job-name=quirky-earthworm-6941
 #FLUX: --queue=dp-dam
 #FLUX: -t=3600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-parsnip-9582
+#FLUX: --job-name=eccentric-spoon-4196
 #FLUX: -n=8
 #FLUX: -c=16
 #FLUX: --queue=nvgpu

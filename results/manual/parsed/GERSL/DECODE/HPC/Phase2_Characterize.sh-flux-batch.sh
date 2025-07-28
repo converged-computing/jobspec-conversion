@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-fork-8521
+#FLUX: --job-name=gloopy-peanut-butter-6784
 #FLUX: --queue=priority
 #FLUX: --urgency=16
 

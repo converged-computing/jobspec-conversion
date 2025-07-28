@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cat-7070
+#FLUX: --job-name=placid-muffin-7783
 #FLUX: -c=16
 #FLUX: --urgency=16
 

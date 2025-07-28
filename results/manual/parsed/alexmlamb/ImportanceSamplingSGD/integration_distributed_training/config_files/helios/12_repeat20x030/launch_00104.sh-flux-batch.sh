@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-leopard-9853
+#FLUX: --job-name=lovable-nunchucks-7094
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alexmlamb/ImportanceSamplingSGD/integration_distributed_training/config_files/helios/12_repeat20x030/launch_00104.sh

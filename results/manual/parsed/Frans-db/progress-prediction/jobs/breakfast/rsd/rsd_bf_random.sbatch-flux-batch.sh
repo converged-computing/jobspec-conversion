@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-truffle-2271
+#FLUX: --job-name=delicious-cinnamonbun-4259
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=14400

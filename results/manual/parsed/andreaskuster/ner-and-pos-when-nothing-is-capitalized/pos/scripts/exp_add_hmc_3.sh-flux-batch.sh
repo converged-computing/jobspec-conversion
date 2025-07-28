@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-arm-7855
+#FLUX: --job-name=chocolate-earthworm-6636
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

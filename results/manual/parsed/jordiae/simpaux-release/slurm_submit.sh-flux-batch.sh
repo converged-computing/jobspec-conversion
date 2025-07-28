@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-malarkey-8611
+#FLUX: --job-name=goodbye-signal-4867
 #FLUX: -c=4
 #FLUX: -t=43200
 #FLUX: --urgency=16

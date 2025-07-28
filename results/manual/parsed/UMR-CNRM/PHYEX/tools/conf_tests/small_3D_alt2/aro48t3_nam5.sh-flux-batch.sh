@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-chip-6987
+#FLUX: --job-name=misunderstood-pancake-8176
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

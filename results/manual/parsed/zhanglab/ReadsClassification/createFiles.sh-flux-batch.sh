@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-animal-8621
+#FLUX: --job-name=loopy-banana-1098
 #FLUX: --queue=general,zhanglab
 #FLUX: -t=3600
 #FLUX: --urgency=16

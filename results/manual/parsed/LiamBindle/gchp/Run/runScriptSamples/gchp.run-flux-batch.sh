@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-mango-9210
+#FLUX: --job-name=confused-lemon-1066
 #FLUX: -n=6
 #FLUX: --queue=huce_intel
 #FLUX: -t=60

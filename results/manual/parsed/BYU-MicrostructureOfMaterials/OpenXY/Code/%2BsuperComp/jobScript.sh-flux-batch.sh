@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-knife-6889
+#FLUX: --job-name=cowy-chair-5297
 #FLUX: --urgency=16
 
 module add matlab/r2017b

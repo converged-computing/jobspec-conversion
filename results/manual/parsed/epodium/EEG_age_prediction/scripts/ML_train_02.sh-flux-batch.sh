@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-general-1559
+#FLUX: --job-name=loopy-pancake-8408
 #FLUX: --queue=gpu_shared
 #FLUX: -t=54000
 #FLUX: --urgency=16

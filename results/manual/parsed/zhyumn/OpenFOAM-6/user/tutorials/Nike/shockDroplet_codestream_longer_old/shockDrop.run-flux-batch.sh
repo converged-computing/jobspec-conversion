@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-bicycle-6024
+#FLUX: --job-name=carnivorous-general-0134
 #FLUX: --queue=ROME
 #FLUX: -t=532800
 #FLUX: --urgency=16

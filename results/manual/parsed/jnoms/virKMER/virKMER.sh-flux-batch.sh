@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-pot-2936
+#FLUX: --job-name=phat-omelette-7754
 #FLUX: -c=2
 #FLUX: --queue=priority
 #FLUX: -t=3600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-citrus-1033
+#FLUX: --job-name=confused-avocado-2171
 #FLUX: --urgency=16
 
 module load cuda/8.0 tensorflow/0.12.1

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-earthworm-9833
+#FLUX: --job-name=arid-peanut-7293
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400

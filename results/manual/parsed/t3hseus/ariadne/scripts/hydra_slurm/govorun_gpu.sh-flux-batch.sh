@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-poodle-0918
+#FLUX: --job-name=blank-earthworm-7378
 #FLUX: --queue=dgx
 #FLUX: --urgency=16
 

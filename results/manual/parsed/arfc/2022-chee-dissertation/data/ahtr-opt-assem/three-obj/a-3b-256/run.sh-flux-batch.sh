@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-nalgas-7151
+#FLUX: --job-name=loopy-plant-0430
 #FLUX: --urgency=16
 

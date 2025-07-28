@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-signal-6428
+#FLUX: --job-name=arid-banana-1030
 #FLUX: -n=4
 #FLUX: --queue=alvis
 #FLUX: -t=36000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-egg-5230
+#FLUX: --job-name=astute-egg-6844
 #FLUX: --queue=sgpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

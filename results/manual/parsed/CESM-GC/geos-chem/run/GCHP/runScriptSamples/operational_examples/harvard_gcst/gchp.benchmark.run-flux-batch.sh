@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-destiny-4921
+#FLUX: --job-name=stanky-cinnamonbun-8866
 #FLUX: -N=2
 #FLUX: -n=48
 #FLUX: --exclusive

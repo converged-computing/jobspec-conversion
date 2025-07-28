@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-parsnip-7086
+#FLUX: --job-name=salted-platanos-8201
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

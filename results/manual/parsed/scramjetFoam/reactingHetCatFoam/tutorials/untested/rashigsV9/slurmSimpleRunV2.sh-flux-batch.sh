@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=rashV8
+#FLUX: -n=16
 #FLUX: --queue=Mlong
 #FLUX: -t=1209600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-motorcycle-1779
+#FLUX: --job-name=reclusive-arm-7767
 #FLUX: --queue=standard
 #FLUX: -t=14400
 #FLUX: --urgency=16

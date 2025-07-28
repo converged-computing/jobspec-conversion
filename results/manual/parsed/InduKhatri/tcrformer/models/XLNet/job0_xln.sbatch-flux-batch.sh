@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cat-8493
+#FLUX: --job-name=crunchy-peanut-butter-7842
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=21600

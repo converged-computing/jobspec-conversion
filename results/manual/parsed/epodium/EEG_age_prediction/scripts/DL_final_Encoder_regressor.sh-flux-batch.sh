@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-platanos-7083
+#FLUX: --job-name=purple-fudge-8982
 #FLUX: --queue=gpu_shared
 #FLUX: -t=108000
 #FLUX: --urgency=16

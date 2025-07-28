@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-avocado-5819
+#FLUX: --job-name=pusheena-blackbean-7815
 #FLUX: -N=2
 #FLUX: -n=96
 #FLUX: --queue=huce_cascade

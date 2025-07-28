@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-snack-2817
+#FLUX: --job-name=adorable-noodle-7682
 #FLUX: --exclusive
 #FLUX: --queue=dev
 #FLUX: -t=86400

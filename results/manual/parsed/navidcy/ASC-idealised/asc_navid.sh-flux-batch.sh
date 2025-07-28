@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-eagle-4104
+#FLUX: --job-name=chocolate-malarkey-7583
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/navidcy/ASC-idealised/asc_navid.sh

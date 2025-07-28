@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-cupcake-6379
+#FLUX: --job-name=faux-pedo-6411
 #FLUX: --queue=normal256
 #FLUX: -t=600
 #FLUX: --urgency=16

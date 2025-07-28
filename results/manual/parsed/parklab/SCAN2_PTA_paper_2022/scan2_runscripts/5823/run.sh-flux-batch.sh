@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-bicycle-2279
+#FLUX: --job-name=loopy-bike-3783
 #FLUX: --queue=priopark
 #FLUX: -t=432000
 #FLUX: --urgency=16

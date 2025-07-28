@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-animal-0311
+#FLUX: --job-name=scruptious-fork-9358
 #FLUX: --queue=physical
 #FLUX: -t=43200
 #FLUX: --urgency=16

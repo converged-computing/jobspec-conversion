@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-lamp-8503
+#FLUX: --job-name=butterscotch-train-2189
 #FLUX: --queue=courses-gpu
 #FLUX: -t=300
 #FLUX: --urgency=16

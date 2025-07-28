@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-hippo-3962
+#FLUX: --job-name=adorable-mango-1845
 #FLUX: -N=2
 #FLUX: -c=16
 #FLUX: --exclusive

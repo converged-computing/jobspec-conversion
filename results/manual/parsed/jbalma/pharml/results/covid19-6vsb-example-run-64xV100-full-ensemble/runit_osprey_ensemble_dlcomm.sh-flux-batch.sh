@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-lettuce-3880
+#FLUX: --job-name=angry-eagle-4249
 #FLUX: --exclusive
 #FLUX: --queue=spider
 #FLUX: -t=14400

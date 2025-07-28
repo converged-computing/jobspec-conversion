@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lemur-5702
+#FLUX: --job-name=scruptious-salad-0029
 #FLUX: -N=2
 #FLUX: -c=6
 #FLUX: --gpus-per-task=1

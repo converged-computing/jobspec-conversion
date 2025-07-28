@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-parrot-0801
+#FLUX: --job-name=confused-cat-1008
 #FLUX: -c=7
 #FLUX: --queue=small-g
 #FLUX: -t=600

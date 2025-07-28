@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-itch-3701
+#FLUX: --job-name=dirty-avocado-3259
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

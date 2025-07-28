@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-blackbean-1065
+#FLUX: --job-name=tart-itch-8532
 #FLUX: --exclusive
 #FLUX: --queue=hpc
 #FLUX: -t=259200

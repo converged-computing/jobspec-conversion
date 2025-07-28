@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-carrot-3000
+#FLUX: --job-name=blank-hope-6385
 #FLUX: --queue=long
 #FLUX: -t=86400
 #FLUX: --urgency=16

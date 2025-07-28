@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-soup-3038
+#FLUX: --job-name=goodbye-lamp-9978
 #FLUX: -n=32
 #FLUX: --queue=batch
 #FLUX: -t=86400

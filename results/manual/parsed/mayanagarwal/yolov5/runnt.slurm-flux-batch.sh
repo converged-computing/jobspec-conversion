@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-truffle-4021
+#FLUX: --job-name=hanky-staircase-4297
 #FLUX: -n=8
 #FLUX: --queue=gpgpumse
 #FLUX: -t=259200

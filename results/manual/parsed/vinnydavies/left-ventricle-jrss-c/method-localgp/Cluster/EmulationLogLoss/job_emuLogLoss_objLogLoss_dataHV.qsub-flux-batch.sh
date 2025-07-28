@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-pastry-7945
+#FLUX: --job-name=goodbye-omelette-3737
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/vinnydavies/left-ventricle-jrss-c/method-localgp/Cluster/EmulationLogLoss/job_emuLogLoss_objLogLoss_dataHV.qsub

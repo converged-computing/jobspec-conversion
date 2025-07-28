@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-mango-9200
+#FLUX: --job-name=muffled-leg-4525
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

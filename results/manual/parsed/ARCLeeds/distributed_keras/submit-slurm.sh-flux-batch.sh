@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lemur-0382
+#FLUX: --job-name=doopy-buttface-9030
 #FLUX: --queue=gpu
 #FLUX: -t=3600
 #FLUX: --urgency=16

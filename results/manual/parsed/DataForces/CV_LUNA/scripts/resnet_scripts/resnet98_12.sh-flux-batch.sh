@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pedo-2017
+#FLUX: --job-name=salted-train-6457
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=172800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-itch-4742
+#FLUX: --job-name=dinosaur-taco-5815
 #FLUX: -n=64
 #FLUX: -c=2
 #FLUX: --exclusive

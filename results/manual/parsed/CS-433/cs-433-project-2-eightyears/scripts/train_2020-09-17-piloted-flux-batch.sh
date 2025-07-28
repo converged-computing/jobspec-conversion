@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-despacito-8723
+#FLUX: --job-name=crusty-diablo-6365
 #FLUX: --queue=gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

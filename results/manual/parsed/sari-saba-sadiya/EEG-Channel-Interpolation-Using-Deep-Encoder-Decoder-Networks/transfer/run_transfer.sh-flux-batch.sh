@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-caramel-6009
+#FLUX: --job-name=moolicious-staircase-4315
 #FLUX: --exclusive
 #FLUX: --queue=sched_mit_rgmark
 #FLUX: -t=345600

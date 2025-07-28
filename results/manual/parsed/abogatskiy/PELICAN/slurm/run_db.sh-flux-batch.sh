@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-truffle-0197
+#FLUX: --job-name=misunderstood-house-8376
 #FLUX: --queue=genx
 #FLUX: -t=604800
 #FLUX: --urgency=16

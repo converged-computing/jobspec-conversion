@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-rabbit-7551
+#FLUX: --job-name=gassy-bits-7184
 #FLUX: -n=4
 #FLUX: --queue=alvis
 #FLUX: -t=18000

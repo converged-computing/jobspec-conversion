@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-blackbean-8092
+#FLUX: --job-name=arid-chair-0068
 #FLUX: -c=16
 #FLUX: --queue=volta-hp
 #FLUX: --urgency=16

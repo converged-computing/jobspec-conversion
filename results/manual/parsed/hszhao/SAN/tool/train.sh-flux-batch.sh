@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-staircase-6073
+#FLUX: --job-name=reclusive-animal-4482
 #FLUX: --urgency=16
 
 export PYTHONPATH='./'

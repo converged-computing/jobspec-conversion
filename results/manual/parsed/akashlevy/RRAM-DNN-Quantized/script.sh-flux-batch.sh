@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-platanos-3398
+#FLUX: --job-name=outstanding-arm-4633
 #FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16

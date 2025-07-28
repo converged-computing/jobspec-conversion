@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-taco-7212
+#FLUX: --job-name=scruptious-leg-9921
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

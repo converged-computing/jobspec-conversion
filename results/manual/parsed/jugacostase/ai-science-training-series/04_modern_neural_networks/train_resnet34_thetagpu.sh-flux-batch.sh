@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-chip-4312
+#FLUX: --job-name=swampy-rabbit-9102
 #FLUX: --urgency=16
 

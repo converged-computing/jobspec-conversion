@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-milkshake-5627
+#FLUX: --job-name=anxious-eagle-1071
 #FLUX: --queue=largemem
 #FLUX: -t=3600
 #FLUX: --urgency=16

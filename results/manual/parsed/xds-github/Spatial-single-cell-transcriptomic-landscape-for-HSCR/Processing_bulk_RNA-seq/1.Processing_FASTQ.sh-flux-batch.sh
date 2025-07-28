@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cinnamonbun-1677
+#FLUX: --job-name=conspicuous-rabbit-5911
 #FLUX: -c=6
 #FLUX: --queue=compute
 #FLUX: --urgency=16

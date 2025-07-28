@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-house-6906
+#FLUX: --job-name=placid-soup-7047
 #FLUX: -c=8
 #FLUX: --queue=defq
 #FLUX: -t=86400

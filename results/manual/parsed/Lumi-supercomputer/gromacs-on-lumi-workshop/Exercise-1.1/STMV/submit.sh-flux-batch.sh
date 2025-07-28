@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-lamp-2119
+#FLUX: --job-name=milky-taco-6216
 #FLUX: -c=7
 #FLUX: --queue=small-g
 #FLUX: -t=600

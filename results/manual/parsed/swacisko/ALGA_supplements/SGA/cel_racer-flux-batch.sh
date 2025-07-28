@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-frito-7876
+#FLUX: --job-name=adorable-spoon-5569
 #FLUX: -c=18
 #FLUX: --queue=bigmem
 #FLUX: --urgency=16

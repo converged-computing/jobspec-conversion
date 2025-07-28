@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-omelette-9154
+#FLUX: --job-name=evasive-lentil-1149
 #FLUX: -c=20
 #FLUX: --queue=coin,batch-ivb,batch-hsw,short-ivb,short-hsw,batch-csl,batch-skl
 #FLUX: -t=3600

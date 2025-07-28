@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-cupcake-9656
+#FLUX: --job-name=psycho-signal-4955
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/benchmarks/lassen/mvapich/test_alltoall

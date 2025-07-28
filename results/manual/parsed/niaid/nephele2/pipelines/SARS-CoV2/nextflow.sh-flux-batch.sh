@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-knife-9468
+#FLUX: --job-name=bumfuzzled-underoos-7080
 #FLUX: --urgency=16
 
 set -e

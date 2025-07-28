@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-mango-8462
+#FLUX: --job-name=quirky-mango-7405
 #FLUX: -N=7
 #FLUX: -n=7
 #FLUX: -c=7

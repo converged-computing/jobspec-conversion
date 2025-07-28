@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-lemur-4228
+#FLUX: --job-name=lovable-leg-6470
 #FLUX: -c=32
 #FLUX: --queue=hourly,daily,general
 #FLUX: -t=900

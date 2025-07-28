@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-milkshake-4376
+#FLUX: --job-name=chunky-chip-2520
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/msc-acse/acse-9-independent-research-project-mt5918/setup2d/script.sh

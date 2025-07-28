@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-parsnip-9214
+#FLUX: --job-name=dinosaur-frito-3991
 #FLUX: --queue=batch
 #FLUX: -t=300
 #FLUX: --urgency=16

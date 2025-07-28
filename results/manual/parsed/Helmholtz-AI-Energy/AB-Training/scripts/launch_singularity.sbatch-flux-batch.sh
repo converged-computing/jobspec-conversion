@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-underoos-5850
+#FLUX: --job-name=crunchy-chip-0983
 #FLUX: --queue=accelerated
 #FLUX: -t=28800
 #FLUX: --urgency=16

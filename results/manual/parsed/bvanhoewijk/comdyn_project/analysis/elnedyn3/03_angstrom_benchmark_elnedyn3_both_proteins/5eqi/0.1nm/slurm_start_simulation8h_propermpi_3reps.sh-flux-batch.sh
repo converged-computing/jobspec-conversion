@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-blackbean-0985
+#FLUX: --job-name=delicious-pastry-9756
 #FLUX: -n=96
 #FLUX: --queue=genoa
 #FLUX: -t=43200

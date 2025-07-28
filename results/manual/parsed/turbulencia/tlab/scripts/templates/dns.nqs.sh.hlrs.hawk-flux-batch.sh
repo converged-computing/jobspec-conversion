@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-bicycle-4503
+#FLUX: --job-name=fat-leg-5008
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/turbulencia/tlab/scripts/templates/dns.nqs.sh.hlrs.hawk

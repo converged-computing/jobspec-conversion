@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-chip-7969
+#FLUX: --job-name=bloated-caramel-1454
 #FLUX: -c=18
 #FLUX: --queue=bigmem
 #FLUX: --urgency=16

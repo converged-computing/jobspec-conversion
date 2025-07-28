@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-arm-9453
+#FLUX: --job-name=tart-nunchucks-1664
 #FLUX: --queue=batch
 #FLUX: -t=86400
 #FLUX: --urgency=16

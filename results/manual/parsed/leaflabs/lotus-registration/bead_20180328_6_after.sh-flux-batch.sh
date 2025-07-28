@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-fudge-1681
+#FLUX: --job-name=angry-platanos-5622
 #FLUX: -n=20
 #FLUX: --queue=om_all_nodes
 #FLUX: -t=172800

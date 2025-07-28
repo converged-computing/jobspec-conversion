@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-animal-2650
+#FLUX: --job-name=confused-chip-5014
 #FLUX: --queue=test
 #FLUX: -t=900
 #FLUX: --urgency=16

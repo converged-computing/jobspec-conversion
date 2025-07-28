@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-hippo-1503
+#FLUX: --job-name=wobbly-leader-2536
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jkrajniak/lab-tools/scripts/stress_strain_lammps/pull_step_z/MyJobScript.sh

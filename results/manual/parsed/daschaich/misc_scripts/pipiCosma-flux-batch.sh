@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-sundae-0548
+#FLUX: --job-name=bloated-cinnamonbun-5265
 #FLUX: --urgency=16
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-bicycle-5557
+#FLUX: --job-name=persnickety-platanos-9456
 #FLUX: --urgency=16
 
 export WANDB__SERVICE_WAIT='300'

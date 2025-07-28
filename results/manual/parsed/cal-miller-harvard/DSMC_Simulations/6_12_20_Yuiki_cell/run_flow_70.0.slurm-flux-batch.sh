@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-nalgas-0395
+#FLUX: --job-name=bloated-onion-9118
 #FLUX: -n=2
 #FLUX: --queue=shared
 #FLUX: -t=480

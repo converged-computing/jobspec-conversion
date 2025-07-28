@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-fork-8418
+#FLUX: --job-name=spicy-bike-8330
 #FLUX: --exclusive
 #FLUX: -t=10800
 #FLUX: --urgency=16

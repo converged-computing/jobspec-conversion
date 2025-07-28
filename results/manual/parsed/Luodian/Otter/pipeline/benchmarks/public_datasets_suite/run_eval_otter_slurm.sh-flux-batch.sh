@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-chip-4279
+#FLUX: --job-name=cowy-truffle-6538
 #FLUX: --gpus-per-task=1
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-signal-7942
+#FLUX: --job-name=crusty-mango-3612
 #FLUX: -n=2
 #FLUX: --queue=normal256
 #FLUX: -t=600

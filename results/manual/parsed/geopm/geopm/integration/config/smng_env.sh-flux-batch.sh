@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-gato-8181
+#FLUX: --job-name=butterscotch-arm-4364
 #FLUX: --urgency=16
 
 export CC='icc'

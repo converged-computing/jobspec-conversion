@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-destiny-1175
+#FLUX: --job-name=reclusive-gato-7953
 #FLUX: --urgency=16
 
 arg1=$1

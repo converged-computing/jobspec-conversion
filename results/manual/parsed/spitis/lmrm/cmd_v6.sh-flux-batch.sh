@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-platanos-0513
+#FLUX: --job-name=arid-onion-8217
 #FLUX: -c=6
 #FLUX: --queue=rtx6000
 #FLUX: --urgency=16

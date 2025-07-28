@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-general-5755
+#FLUX: --job-name=fuzzy-platanos-7718
 #FLUX: -N=6
 #FLUX: --exclusive
 #FLUX: --queue=compute

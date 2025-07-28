@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-malarkey-8239
+#FLUX: --job-name=grated-cherry-4395
 #FLUX: -N=2
 #FLUX: -c=40
 #FLUX: --queue=test

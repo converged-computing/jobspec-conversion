@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-itch-0853
+#FLUX: --job-name=stinky-banana-5661
 #FLUX: --urgency=16
 
 SECONDS=0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-fork-4802
+#FLUX: --job-name=confused-chip-1003
 #FLUX: -n=8
 #FLUX: --queue=node
 #FLUX: -t=43200

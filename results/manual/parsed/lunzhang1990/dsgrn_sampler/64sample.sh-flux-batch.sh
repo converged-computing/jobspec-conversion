@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-knife-7620
+#FLUX: --job-name=gloopy-motorcycle-9503
 #FLUX: --queue=main
 #FLUX: -t=604800
 #FLUX: --urgency=16

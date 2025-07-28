@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-egg-1164
+#FLUX: --job-name=scruptious-kitty-5197
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=short

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-earthworm-3831
+#FLUX: --job-name=hello-cupcake-3633
 #FLUX: -N=4
 #FLUX: --queue=gpumedium
 #FLUX: -t=129600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-peanut-2327
+#FLUX: --job-name=anxious-signal-1699
 #FLUX: --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

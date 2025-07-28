@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-muffin-9743
+#FLUX: --job-name=pusheena-signal-7232
 #FLUX: -n=16
 #FLUX: -t=1200
 #FLUX: --urgency=16

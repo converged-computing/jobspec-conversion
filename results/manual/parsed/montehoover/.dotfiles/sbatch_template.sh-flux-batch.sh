@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-nunchucks-8797
+#FLUX: --job-name=psycho-cat-8462
 #FLUX: --urgency=16
 
 source /etc/profile.d/modules.sh                            # Use this to add the module command to the path of compute nodes.

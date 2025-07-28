@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-destiny-3765
+#FLUX: --job-name=ornery-latke-5577
 #FLUX: --queue=dcs-gpu
 #FLUX: -t=38400
 #FLUX: --urgency=16

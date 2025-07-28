@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-egg-0997
+#FLUX: --job-name=hello-pancake-4057
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=3600

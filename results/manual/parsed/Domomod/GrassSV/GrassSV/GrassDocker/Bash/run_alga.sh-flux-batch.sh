@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=alga
+#FLUX: --queue=fast
 #FLUX: --urgency=16
 
 module load gcc/7.4.0

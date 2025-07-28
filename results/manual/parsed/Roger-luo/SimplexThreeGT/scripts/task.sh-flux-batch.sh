@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lamp-8700
+#FLUX: --job-name=tart-earthworm-2260
 #FLUX: -c=32
 #FLUX: -t=172800
 #FLUX: --urgency=16

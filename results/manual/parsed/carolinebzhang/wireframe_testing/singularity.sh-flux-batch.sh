@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-chip-3410
+#FLUX: --job-name=loopy-destiny-9967
 #FLUX: -n=4
 #FLUX: --queue=gpu
 #FLUX: -t=10800

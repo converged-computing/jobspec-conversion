@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-carrot-6497
+#FLUX: --job-name=strawberry-malarkey-2666
 #FLUX: -c=32
 #FLUX: --queue=<partition
 #FLUX: -t=432000

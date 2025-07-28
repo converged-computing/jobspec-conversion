@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-buttface-2219
+#FLUX: --job-name=goodbye-knife-8207
 #FLUX: --queue=amd-longq
 #FLUX: --urgency=16
 

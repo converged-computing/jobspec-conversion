@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-puppy-7208
+#FLUX: --job-name=evasive-malarkey-2181
 #FLUX: -c=4
 #FLUX: --gpus-per-task=1
 #FLUX: -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-staircase-2624
+#FLUX: --job-name=cowy-milkshake-2987
 #FLUX: -c=12
 #FLUX: --queue=ccr
 #FLUX: -t=259200

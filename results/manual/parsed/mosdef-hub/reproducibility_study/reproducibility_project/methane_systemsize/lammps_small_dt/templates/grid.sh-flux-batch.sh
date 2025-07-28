@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-butter-8317
+#FLUX: --job-name=expressive-hope-3795
 #FLUX: --queue=primary
 #FLUX: --urgency=16
 

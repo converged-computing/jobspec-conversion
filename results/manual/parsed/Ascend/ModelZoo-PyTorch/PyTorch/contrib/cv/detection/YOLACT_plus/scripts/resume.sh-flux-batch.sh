@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-lamp-8026
+#FLUX: --job-name=goodbye-fork-1355
 #FLUX: --queue=GPU-shared
 #FLUX: -t=172800
 #FLUX: --urgency=16

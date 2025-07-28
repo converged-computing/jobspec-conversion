@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-hobbit-8452
+#FLUX: --job-name=doopy-diablo-9710
 #FLUX: -N=16
 #FLUX: -n=16
 #FLUX: -c=12

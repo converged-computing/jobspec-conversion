@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-cinnamonbun-0887
+#FLUX: --job-name=milky-car-3243
 #FLUX: --urgency=16
 
 cpu=2

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-pastry-8553
+#FLUX: --job-name=purple-dog-1373
 #FLUX: --queue=pascal
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-hippo-2492
+#FLUX: --job-name=gassy-squidward-7810
 #FLUX: -c=2
 #FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16

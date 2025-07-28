@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-carrot-2574
+#FLUX: --job-name=phat-banana-3704
 #FLUX: -n=4
 #FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16

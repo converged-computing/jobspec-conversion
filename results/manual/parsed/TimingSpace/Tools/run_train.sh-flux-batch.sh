@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-toaster-5717
+#FLUX: --job-name=faux-egg-8502
 #FLUX: --queue=dgx
 #FLUX: -t=259200
 #FLUX: --urgency=16

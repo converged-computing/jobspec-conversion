@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-hope-0259
+#FLUX: --job-name=expressive-arm-4164
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-LBspectrum_matlab/main

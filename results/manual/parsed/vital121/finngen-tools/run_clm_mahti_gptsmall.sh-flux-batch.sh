@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-bits-1343
+#FLUX: --job-name=angry-bits-2752
 #FLUX: -N=6
 #FLUX: --queue=gpumedium
 #FLUX: -t=129600

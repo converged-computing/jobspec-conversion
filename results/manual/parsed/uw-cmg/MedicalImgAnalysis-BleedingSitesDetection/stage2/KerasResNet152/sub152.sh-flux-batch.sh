@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lentil-6121
+#FLUX: --job-name=eccentric-dog-9712
 #FLUX: --queue=slurm_sbel_cmg
 #FLUX: -t=345660
 #FLUX: --urgency=16

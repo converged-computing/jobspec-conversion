@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-toaster-1064
+#FLUX: --job-name=hanky-caramel-2487
 #FLUX: -n=16
 #FLUX: --queue=parallel
 #FLUX: -t=86400

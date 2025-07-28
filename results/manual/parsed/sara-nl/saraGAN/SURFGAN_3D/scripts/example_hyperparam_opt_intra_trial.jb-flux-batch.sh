@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bits-7500
+#FLUX: --job-name=delicious-toaster-3466
 #FLUX: -c=6
 #FLUX: --queue=gpu_titanrtx
 #FLUX: -t=432000

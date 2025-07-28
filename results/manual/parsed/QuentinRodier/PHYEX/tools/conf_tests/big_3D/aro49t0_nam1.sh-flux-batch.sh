@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-bicycle-5206
+#FLUX: --job-name=reclusive-fork-2619
 #FLUX: -N=40
 #FLUX: -n=1280
 #FLUX: -c=4

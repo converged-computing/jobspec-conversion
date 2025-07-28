@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-train-3108
+#FLUX: --job-name=doopy-bicycle-2587
 #FLUX: -c=64
 #FLUX: --queue=amd
 #FLUX: -t=180000

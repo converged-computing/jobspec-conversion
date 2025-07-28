@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-toaster-9845
+#FLUX: --job-name=fugly-punk-7428
 #FLUX: -n=20
 #FLUX: --queue=cidsegpu1_contrib_res
 #FLUX: -t=86400

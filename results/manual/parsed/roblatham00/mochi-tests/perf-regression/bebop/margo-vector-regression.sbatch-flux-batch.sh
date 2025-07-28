@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-puppy-7493
+#FLUX: --job-name=grated-eagle-1871
 #FLUX: -N=2
 #FLUX: --queue=bdwall
 #FLUX: -t=900

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-motorcycle-0400
+#FLUX: --job-name=evasive-pancake-7650
 #FLUX: --queue=CiBeR
 #FLUX: --urgency=16
 

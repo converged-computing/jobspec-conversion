@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-earthworm-8826
+#FLUX: --job-name=ornery-banana-0008
 #FLUX: --queue=small-g
 #FLUX: -t=600
 #FLUX: --urgency=16

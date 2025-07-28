@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-pedo-3203
+#FLUX: --job-name=peachy-soup-1639
 #FLUX: -n=32
 #FLUX: --queue=defq
 #FLUX: -t=87840

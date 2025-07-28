@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-malarkey-4891
+#FLUX: --job-name=ornery-pot-9237
 #FLUX: --urgency=16
 
 source /cluster/bin/jobsetup

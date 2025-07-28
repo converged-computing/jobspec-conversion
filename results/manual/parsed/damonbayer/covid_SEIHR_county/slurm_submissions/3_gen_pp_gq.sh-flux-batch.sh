@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lizard-7825
+#FLUX: --job-name=swampy-truffle-2217
 #FLUX: --queue=stats.p
 #FLUX: -t=14400
 #FLUX: --urgency=16

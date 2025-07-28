@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=blank-blackbean-6807
+#FLUX: --job-name=frigid-gato-5996
 #FLUX: --urgency=16
 

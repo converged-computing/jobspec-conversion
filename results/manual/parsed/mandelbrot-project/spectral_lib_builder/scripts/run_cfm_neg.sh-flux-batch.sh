@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-train-5105
+#FLUX: --job-name=evasive-bike-0285
 #FLUX: --queue=public-cpu
 #FLUX: -t=345600
 #FLUX: --urgency=16

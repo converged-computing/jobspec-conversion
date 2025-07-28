@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-itch-2618
+#FLUX: --job-name=hairy-sundae-4047
 #FLUX: -n=8
 #FLUX: --queue=mlow,mlow
 #FLUX: --urgency=16

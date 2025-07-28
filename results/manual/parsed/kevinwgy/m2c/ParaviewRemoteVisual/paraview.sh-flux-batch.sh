@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-destiny-8181
+#FLUX: --job-name=pusheena-mango-5814
 #FLUX: --queue=dev_q
 #FLUX: -t=10800
 #FLUX: --urgency=16

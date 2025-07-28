@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-knife-6209
+#FLUX: --job-name=phat-knife-2493
 #FLUX: -n=2
 #FLUX: --queue=gpu_requeue
 #FLUX: -t=86400

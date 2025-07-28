@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-hippo-1069
+#FLUX: --job-name=stinky-poo-6467
 #FLUX: --queue=l4train
 #FLUX: -t=3600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-buttface-9604
+#FLUX: --job-name=gloopy-plant-4237
 #FLUX: -c=8
 #FLUX: --queue=True
 #FLUX: -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-ricecake-7456
+#FLUX: --job-name=crusty-destiny-5396
 #FLUX: --queue=gpuq
 #FLUX: -t=36000
 #FLUX: --urgency=16

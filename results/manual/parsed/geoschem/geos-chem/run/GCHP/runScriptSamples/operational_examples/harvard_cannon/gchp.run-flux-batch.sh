@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-arm-0673
+#FLUX: --job-name=evasive-hobbit-7061
 #FLUX: -N=2
 #FLUX: -n=96
 #FLUX: --exclusive

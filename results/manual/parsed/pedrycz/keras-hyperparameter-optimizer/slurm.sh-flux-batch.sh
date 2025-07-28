@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-staircase-7842
+#FLUX: --job-name=phat-hippo-4715
 #FLUX: --queue=plgrid-gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

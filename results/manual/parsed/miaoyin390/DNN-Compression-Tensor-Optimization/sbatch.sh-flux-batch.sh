@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-pot-7757
+#FLUX: --job-name=strawberry-chip-9419
 #FLUX: --queue=GPU-shared
 #FLUX: -t=172800
 #FLUX: --urgency=16

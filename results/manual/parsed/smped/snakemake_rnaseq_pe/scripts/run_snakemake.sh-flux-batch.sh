@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-latke-6278
+#FLUX: --job-name=lovely-lemon-8059
 #FLUX: -n=8
 #FLUX: --queue=batch
 #FLUX: -t=14400

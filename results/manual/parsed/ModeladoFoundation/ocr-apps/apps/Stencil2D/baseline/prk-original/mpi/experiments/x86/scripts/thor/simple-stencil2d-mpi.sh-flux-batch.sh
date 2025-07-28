@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-muffin-9407
+#FLUX: --job-name=phat-despacito-4814
 #FLUX: --queue=XAS
 #FLUX: --urgency=16
 

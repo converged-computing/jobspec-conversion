@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-soup-3842
+#FLUX: --job-name=angry-bike-3065
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=gpu_4090

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-signal-9963
+#FLUX: --job-name=blue-sundae-6214
 #FLUX: --queue=standard
 #FLUX: -t=345600
 #FLUX: --urgency=16

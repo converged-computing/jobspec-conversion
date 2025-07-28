@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-blackbean-0652
+#FLUX: --job-name=angry-fork-4418
 #FLUX: -t=36000
 #FLUX: --urgency=16
 

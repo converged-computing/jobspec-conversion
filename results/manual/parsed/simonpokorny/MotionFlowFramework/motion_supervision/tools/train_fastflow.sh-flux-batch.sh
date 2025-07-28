@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-latke-9106
+#FLUX: --job-name=quirky-signal-0024
 #FLUX: -c=4
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

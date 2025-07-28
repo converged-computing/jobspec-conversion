@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-squidward-5657
+#FLUX: --job-name=rainbow-lentil-4036
 #FLUX: -c=4
 #FLUX: --queue=short
 #FLUX: -t=43200

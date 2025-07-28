@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-parrot-1915
+#FLUX: --job-name=loopy-fudge-0125
 #FLUX: --queue=defq
 #FLUX: -t=240
 #FLUX: --urgency=16

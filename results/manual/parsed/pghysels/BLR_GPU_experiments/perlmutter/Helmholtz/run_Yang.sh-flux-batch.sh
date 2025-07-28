@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-leader-4259
+#FLUX: --job-name=dirty-bike-9018
 #FLUX: -N=32
 #FLUX: --queue=premium
 #FLUX: -t=3600

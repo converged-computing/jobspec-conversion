@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-buttface-1678
+#FLUX: --job-name=gloopy-dog-3740
 #FLUX: -n=20
 #FLUX: --queue=node
 #FLUX: -t=345600

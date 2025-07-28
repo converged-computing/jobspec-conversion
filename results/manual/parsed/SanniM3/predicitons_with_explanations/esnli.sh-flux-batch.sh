@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-kitty-1715
+#FLUX: --job-name=hello-bike-4213
 #FLUX: --queue=PGR-Standard
 #FLUX: -t=72000
 #FLUX: --urgency=16

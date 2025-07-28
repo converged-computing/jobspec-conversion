@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-bits-8210
+#FLUX: --job-name=reclusive-nunchucks-8103
 #FLUX: --queue=cpu
 #FLUX: -t=600
 #FLUX: --urgency=16

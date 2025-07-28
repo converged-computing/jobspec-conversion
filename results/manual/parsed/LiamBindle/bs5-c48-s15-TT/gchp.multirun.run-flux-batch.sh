@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-noodle-2457
+#FLUX: --job-name=outstanding-omelette-9645
 #FLUX: -n=30
 #FLUX: --exclusive
 #FLUX: --queue=huce_intel

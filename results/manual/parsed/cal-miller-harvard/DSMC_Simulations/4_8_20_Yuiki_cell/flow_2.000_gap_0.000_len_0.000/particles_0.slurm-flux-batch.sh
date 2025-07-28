@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leopard-5700
+#FLUX: --job-name=expressive-lemur-5845
 #FLUX: -n=8
 #FLUX: --queue=shared
 #FLUX: -t=480

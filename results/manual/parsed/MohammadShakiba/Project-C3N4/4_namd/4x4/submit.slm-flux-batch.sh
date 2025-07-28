@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-latke-2715
+#FLUX: --job-name=crunchy-fork-1432
 #FLUX: --queue=general-compute
 #FLUX: -t=259200
 #FLUX: --urgency=16

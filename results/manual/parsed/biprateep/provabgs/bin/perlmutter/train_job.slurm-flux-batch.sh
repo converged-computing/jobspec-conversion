@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-knife-4444
+#FLUX: --job-name=dinosaur-poodle-7405
 #FLUX: -c=128
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=regular

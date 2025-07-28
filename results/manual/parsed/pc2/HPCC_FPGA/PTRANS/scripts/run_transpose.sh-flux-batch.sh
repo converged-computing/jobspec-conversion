@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cinnamonbun-6395
+#FLUX: --job-name=frigid-animal-3349
 #FLUX: -N=5
 #FLUX: -n=9
 #FLUX: --queue=fpga

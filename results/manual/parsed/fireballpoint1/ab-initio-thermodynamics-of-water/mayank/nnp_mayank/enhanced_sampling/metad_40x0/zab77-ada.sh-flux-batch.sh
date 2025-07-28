@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-signal-7820
+#FLUX: --job-name=bumfuzzled-kerfuffle-4000
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

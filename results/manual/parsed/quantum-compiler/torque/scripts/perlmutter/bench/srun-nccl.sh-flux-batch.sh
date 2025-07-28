@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-train-5231
+#FLUX: --job-name=stanky-kitty-4720
 #FLUX: -N=2
 #FLUX: --queue=regular
 #FLUX: -t=3600

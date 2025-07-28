@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-kerfuffle-6595
+#FLUX: --job-name=stanky-cinnamonbun-2775
 #FLUX: --queue=compsci
 #FLUX: --urgency=16
 

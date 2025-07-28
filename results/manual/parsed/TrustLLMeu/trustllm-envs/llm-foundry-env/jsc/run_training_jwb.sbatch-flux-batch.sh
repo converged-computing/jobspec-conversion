@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-despacito-4034
+#FLUX: --job-name=butterscotch-hobbit-9399
 #FLUX: -c=48
 #FLUX: --queue=develbooster
 #FLUX: -t=1200

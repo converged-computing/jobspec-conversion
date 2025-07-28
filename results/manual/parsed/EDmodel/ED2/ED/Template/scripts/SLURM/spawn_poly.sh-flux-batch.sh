@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-dog-1288
+#FLUX: --job-name=buttery-arm-4781
 #FLUX: --urgency=16
 
 here=$(pwd)

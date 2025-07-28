@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-pastry-1921
+#FLUX: --job-name=buttery-salad-4465
 #FLUX: -N=2
 #FLUX: --queue=devel
 #FLUX: -t=900

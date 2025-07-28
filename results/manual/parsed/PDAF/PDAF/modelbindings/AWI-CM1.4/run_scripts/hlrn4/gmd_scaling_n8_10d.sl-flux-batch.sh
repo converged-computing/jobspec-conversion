@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-hobbit-8085
+#FLUX: --job-name=expressive-signal-6274
 #FLUX: -N=24
 #FLUX: -n=2304
 #FLUX: --queue=standard96

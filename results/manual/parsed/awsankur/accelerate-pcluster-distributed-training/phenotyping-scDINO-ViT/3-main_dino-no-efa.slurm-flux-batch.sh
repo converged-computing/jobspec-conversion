@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-parsnip-2638
+#FLUX: --job-name=strawberry-punk-3050
 #FLUX: -N=4
 #FLUX: -c=16
 #FLUX: --exclusive

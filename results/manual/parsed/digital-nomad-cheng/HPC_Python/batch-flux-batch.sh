@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-diablo-8825
+#FLUX: --job-name=stanky-earthworm-9274
 #FLUX: -c=32
 #FLUX: -t=169200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pancake-7688
+#FLUX: --job-name=reclusive-parsnip-1883
 #FLUX: --queue=GPU-AI
 #FLUX: -t=108000
 #FLUX: --urgency=16

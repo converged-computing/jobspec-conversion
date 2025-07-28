@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-pot-8541
+#FLUX: --job-name=astute-itch-3775
 #FLUX: -n=4
 #FLUX: --queue=public
 #FLUX: -t=1800000

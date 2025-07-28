@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-blackbean-7826
+#FLUX: --job-name=salted-truffle-4175
 #FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16

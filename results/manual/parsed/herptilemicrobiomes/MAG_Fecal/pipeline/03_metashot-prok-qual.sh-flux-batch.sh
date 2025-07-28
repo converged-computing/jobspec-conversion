@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-squidward-0640
+#FLUX: --job-name=placid-blackbean-5886
 #FLUX: -c=24
 #FLUX: --queue=batch
 #FLUX: --urgency=16

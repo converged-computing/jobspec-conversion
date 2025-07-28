@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-pancake-4326
+#FLUX: --job-name=scruptious-salad-9119
 #FLUX: --queue=standard
 #FLUX: -t=259200
 #FLUX: --urgency=16

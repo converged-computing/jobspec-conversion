@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-nalgas-9193
+#FLUX: --job-name=hello-leader-5333
 #FLUX: -n=2
 #FLUX: -c=32
 #FLUX: --queue=nodes

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-hobbit-2493
+#FLUX: --job-name=wobbly-squidward-3779
 #FLUX: -n=4
 #FLUX: -c=6
 #FLUX: --queue=cola-corta

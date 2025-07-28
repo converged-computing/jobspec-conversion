@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-malarkey-2590
+#FLUX: --job-name=anxious-poo-3056
 #FLUX: -c=128
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=regular

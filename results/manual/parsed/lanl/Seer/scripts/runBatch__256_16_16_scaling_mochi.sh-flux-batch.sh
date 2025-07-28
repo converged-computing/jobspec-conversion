@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-rabbit-2472
+#FLUX: --job-name=fat-fork-9957
 #FLUX: -N=16
 #FLUX: --queue=scaling
 #FLUX: --urgency=16

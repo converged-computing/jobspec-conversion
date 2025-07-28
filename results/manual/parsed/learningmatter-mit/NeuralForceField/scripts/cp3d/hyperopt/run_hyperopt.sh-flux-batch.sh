@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-signal-4761
+#FLUX: --job-name=adorable-peanut-butter-0732
 #FLUX: -c=32
 #FLUX: --queue=sched_mit_rafagb_amd,sched_mit_rafagb
 #FLUX: -t=600000

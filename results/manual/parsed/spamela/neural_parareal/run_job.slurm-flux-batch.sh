@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-rabbit-6675
+#FLUX: --job-name=sticky-earthworm-2028
 #FLUX: --queue=skl_fua_prod
 #FLUX: --urgency=16
 

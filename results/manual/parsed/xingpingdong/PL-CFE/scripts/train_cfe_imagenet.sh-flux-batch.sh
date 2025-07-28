@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-dog-4106
+#FLUX: --job-name=arid-signal-6999
 #FLUX: -n=4
 #FLUX: -c=8
 #FLUX: -t=172800

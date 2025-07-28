@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-citrus-9892
+#FLUX: --job-name=stinky-truffle-4257
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

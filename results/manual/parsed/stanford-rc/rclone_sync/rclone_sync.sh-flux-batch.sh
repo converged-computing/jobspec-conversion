@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-car-1410
+#FLUX: --job-name=conspicuous-eagle-6762
 #FLUX: --queue=owners
 #FLUX: -t=7200
 #FLUX: --urgency=16

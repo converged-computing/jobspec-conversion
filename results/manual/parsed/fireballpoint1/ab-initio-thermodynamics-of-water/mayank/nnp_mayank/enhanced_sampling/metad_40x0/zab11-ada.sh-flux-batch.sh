@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-malarkey-6192
+#FLUX: --job-name=psycho-leader-0411
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

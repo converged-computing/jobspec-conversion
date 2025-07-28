@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-rabbit-9244
+#FLUX: --job-name=eccentric-toaster-0266
 #FLUX: --queue=PA100q
 #FLUX: --urgency=16
 

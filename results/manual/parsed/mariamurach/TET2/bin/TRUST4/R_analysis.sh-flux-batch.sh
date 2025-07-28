@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-itch-7686
+#FLUX: --job-name=moolicious-punk-8676
 #FLUX: -n=20
 #FLUX: --queue=_______
 #FLUX: -t=7200

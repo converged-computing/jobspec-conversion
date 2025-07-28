@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-poo-0856
+#FLUX: --job-name=evasive-butter-9996
 #FLUX: --queue=batch
 #FLUX: -t=300
 #FLUX: --urgency=16

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-chip-6019
+#FLUX: --job-name=carnivorous-destiny-2779
 #FLUX: --urgency=16
 

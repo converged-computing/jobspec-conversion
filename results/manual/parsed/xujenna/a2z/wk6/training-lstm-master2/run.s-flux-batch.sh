@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=happyDB12
+#FLUX: -c=3
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-destiny-2658
+#FLUX: --job-name=reclusive-earthworm-6430
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

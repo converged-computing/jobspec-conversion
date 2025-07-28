@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-muffin-9595
+#FLUX: --job-name=boopy-taco-0483
 #FLUX: --queue=synergy
 #FLUX: -t=604800
 #FLUX: --urgency=16

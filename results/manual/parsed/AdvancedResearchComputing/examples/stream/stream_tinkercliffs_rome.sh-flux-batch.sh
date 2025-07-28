@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-pastry-1892
+#FLUX: --job-name=loopy-nunchucks-2673
 #FLUX: --exclusive
 #FLUX: --queue=dev_q
 #FLUX: -t=300

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-carrot-0993
+#FLUX: --job-name=bricky-caramel-4925
 #FLUX: --queue=amd-longq
 #FLUX: --urgency=16
 

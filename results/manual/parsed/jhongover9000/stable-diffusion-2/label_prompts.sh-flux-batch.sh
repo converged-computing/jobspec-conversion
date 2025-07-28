@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-rabbit-6031
+#FLUX: --job-name=arid-fork-0404
 #FLUX: -n=5
 #FLUX: -c=4
 #FLUX: --queue=nvidia

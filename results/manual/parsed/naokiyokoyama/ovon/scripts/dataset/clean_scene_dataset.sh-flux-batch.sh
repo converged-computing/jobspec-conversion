@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-lentil-4122
+#FLUX: --job-name=blank-cinnamonbun-9336
 #FLUX: -c=7
 #FLUX: --queue=short
 #FLUX: --urgency=16

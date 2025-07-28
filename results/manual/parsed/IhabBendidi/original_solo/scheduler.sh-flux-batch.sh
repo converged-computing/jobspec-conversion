@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-soup-3911
+#FLUX: --job-name=blue-pastry-3638
 #FLUX: --urgency=16
 
 for s in 5 6 7; do

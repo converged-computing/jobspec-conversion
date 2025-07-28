@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-blackbean-8323
+#FLUX: --job-name=crunchy-destiny-9534
 #FLUX: -N=2
 #FLUX: -n=16
 #FLUX: -c=16

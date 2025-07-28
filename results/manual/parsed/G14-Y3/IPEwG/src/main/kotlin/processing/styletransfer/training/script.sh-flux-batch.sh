@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-sundae-2826
+#FLUX: --job-name=sticky-fudge-4070
 #FLUX: --urgency=16
 
 export PATH='/vol/bitbucket/${USER}/myvenv/bin/:$PATH'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-animal-6594
+#FLUX: --job-name=scruptious-bicycle-7107
 #FLUX: --urgency=16
 
 module load libraries/openmpi/5.0.3/gcc-13

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-citrus-9699
+#FLUX: --job-name=cowy-fudge-3749
 #FLUX: --queue=t4_dev_q
 #FLUX: -t=300
 #FLUX: --urgency=16

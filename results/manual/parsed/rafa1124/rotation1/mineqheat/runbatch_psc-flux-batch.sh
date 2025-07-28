@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-fork-1439
+#FLUX: --job-name=blue-leg-8469
 #FLUX: -N=16
 #FLUX: -c=14
 #FLUX: --queue=RM

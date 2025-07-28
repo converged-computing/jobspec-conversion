@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-staircase-4814
+#FLUX: --job-name=dirty-mango-8301
 #FLUX: -c=2
 #FLUX: -t=86400
 #FLUX: --urgency=16

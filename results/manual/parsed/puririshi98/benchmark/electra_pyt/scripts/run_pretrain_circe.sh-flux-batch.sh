@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-earthworm-7805
+#FLUX: --job-name=eccentric-staircase-4704
 #FLUX: -N=8
 #FLUX: --exclusive
 #FLUX: --queue=batch

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-egg-9170
+#FLUX: --job-name=pusheena-pedo-2423
 #FLUX: -c=18
 #FLUX: --queue=gpu
 #FLUX: -t=201600

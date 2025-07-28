@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-signal-2629
+#FLUX: --job-name=fuzzy-arm-6506
 #FLUX: -N=10
 #FLUX: --urgency=16
 

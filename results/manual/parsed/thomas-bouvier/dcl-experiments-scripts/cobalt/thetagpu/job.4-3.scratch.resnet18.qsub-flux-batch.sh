@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=confused-earthworm-9697
+#FLUX: --job-name=purple-signal-2984
 #FLUX: --urgency=16
 

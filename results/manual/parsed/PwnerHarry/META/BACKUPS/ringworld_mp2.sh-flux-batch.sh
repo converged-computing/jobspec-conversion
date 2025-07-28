@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-parsnip-5539
+#FLUX: --job-name=astute-blackbean-8865
 #FLUX: -c=24
 #FLUX: -t=172800
 #FLUX: --urgency=16

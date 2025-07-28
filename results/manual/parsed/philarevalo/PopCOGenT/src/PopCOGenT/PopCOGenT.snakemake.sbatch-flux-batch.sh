@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-pastry-3389
+#FLUX: --job-name=placid-fudge-8257
 #FLUX: --urgency=16
 
 source activate PopCOGenT

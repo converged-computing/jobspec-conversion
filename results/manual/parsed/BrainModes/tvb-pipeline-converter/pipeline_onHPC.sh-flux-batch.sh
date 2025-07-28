@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-fork-4540
+#FLUX: --job-name=carnivorous-general-2285
 #FLUX: -c=36
 #FLUX: --queue=normal
 #FLUX: -t=86340

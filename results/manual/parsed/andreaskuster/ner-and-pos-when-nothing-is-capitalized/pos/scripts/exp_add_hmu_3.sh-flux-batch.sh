@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-bike-0032
+#FLUX: --job-name=moolicious-egg-8892
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

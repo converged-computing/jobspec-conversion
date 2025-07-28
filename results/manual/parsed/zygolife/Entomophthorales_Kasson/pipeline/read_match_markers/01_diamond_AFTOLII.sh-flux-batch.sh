@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-citrus-7097
+#FLUX: --job-name=blank-hope-7842
 #FLUX: -c=96
 #FLUX: --queue=short
 #FLUX: --urgency=16

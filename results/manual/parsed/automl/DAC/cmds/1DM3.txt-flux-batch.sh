@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-pot-6695
+#FLUX: --job-name=hanky-ricecake-3677
 #FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 

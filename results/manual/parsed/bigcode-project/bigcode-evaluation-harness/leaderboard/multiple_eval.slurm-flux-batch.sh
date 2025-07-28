@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-arm-5278
+#FLUX: --job-name=misunderstood-soup-8086
 #FLUX: -c=48
 #FLUX: --queue=production-cluster
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-pedo-5716
+#FLUX: --job-name=fugly-avocado-3741
 #FLUX: -N=36
 #FLUX: -c=12
 #FLUX: --queue=booster

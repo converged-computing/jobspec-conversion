@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-nalgas-8918
+#FLUX: --job-name=butterscotch-lentil-5860
 #FLUX: -c=2
 #FLUX: --queue=work
 #FLUX: -t=86400

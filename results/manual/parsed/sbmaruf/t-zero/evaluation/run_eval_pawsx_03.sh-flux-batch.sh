@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-motorcycle-6405
+#FLUX: --job-name=swampy-hippo-5485
 #FLUX: --queue=PA100q
 #FLUX: --urgency=16
 

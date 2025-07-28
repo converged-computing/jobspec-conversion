@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-soup-5435
+#FLUX: --job-name=muffled-lamp-4280
 #FLUX: -t=240
 #FLUX: --urgency=16
 

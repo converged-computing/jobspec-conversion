@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-soup-6069
+#FLUX: --job-name=pusheena-malarkey-3945
 #FLUX: -c=12
 #FLUX: --queue=devel
 #FLUX: -t=600

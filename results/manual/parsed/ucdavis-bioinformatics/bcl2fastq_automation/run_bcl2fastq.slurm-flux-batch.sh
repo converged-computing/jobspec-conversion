@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-diablo-9998
+#FLUX: --job-name=evasive-lentil-1435
 #FLUX: -c=36
 #FLUX: --queue=dev,gpu,intel,assembly
 #FLUX: -t=10800

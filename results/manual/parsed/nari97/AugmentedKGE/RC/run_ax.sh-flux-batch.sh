@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cherry-5190
+#FLUX: --job-name=milky-lamp-7487
 #FLUX: -c=2
 #FLUX: --queue=tier3
 #FLUX: -t=7566

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-caramel-5729
+#FLUX: --job-name=misunderstood-chip-9412
 #FLUX: --queue=PA100q
 #FLUX: --urgency=16
 

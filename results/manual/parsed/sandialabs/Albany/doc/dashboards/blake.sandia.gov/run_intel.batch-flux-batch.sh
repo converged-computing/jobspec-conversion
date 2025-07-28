@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-gato-6213
+#FLUX: --job-name=bloated-squidward-2952
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

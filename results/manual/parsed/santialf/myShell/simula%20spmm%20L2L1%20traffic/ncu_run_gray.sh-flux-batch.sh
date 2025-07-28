@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-itch-9026
+#FLUX: --job-name=carnivorous-puppy-3541
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-leopard-1227
+#FLUX: --job-name=fuzzy-bike-6797
 #FLUX: -N=16
 #FLUX: --queue=regular
 #FLUX: -t=600

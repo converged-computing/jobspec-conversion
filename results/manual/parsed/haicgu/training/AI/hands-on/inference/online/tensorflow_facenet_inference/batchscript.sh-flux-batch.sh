@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cherry-8635
+#FLUX: --job-name=gloopy-signal-8547
 #FLUX: --queue=a800-3000
 #FLUX: -t=600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-train-5489
+#FLUX: --job-name=fugly-noodle-7920
 #FLUX: --queue=high
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-truffle-3040
+#FLUX: --job-name=anxious-hope-0097
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

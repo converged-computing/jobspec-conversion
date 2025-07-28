@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-destiny-7686
+#FLUX: --job-name=nerdy-egg-4280
 #FLUX: -c=16
 #FLUX: --queue=rush,gpu
 #FLUX: -t=2419200

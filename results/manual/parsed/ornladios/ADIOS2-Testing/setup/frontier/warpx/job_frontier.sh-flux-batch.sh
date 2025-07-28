@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-soup-6894
+#FLUX: --job-name=creamy-hobbit-7691
 #FLUX: --queue=batch
 #FLUX: -t=5400
 #FLUX: --urgency=16

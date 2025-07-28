@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-peanut-butter-5773
+#FLUX: --job-name=delicious-ricecake-9206
 #FLUX: -c=2
 #FLUX: --exclusive
 #FLUX: -t=3600

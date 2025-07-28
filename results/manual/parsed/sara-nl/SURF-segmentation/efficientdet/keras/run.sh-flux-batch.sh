@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-despacito-6106
+#FLUX: --job-name=blank-leg-9111
 #FLUX: -N=4
 #FLUX: --queue=gpu_titanrtx
 #FLUX: -t=43200

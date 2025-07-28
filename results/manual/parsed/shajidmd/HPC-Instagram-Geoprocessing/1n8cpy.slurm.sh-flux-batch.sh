@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cattywampus-0500
+#FLUX: --job-name=strawberry-arm-0422
 #FLUX: -n=8
 #FLUX: --queue=physical
 #FLUX: -t=600

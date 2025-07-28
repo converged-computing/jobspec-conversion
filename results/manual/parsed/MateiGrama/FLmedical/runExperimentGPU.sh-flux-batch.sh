@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-banana-3881
+#FLUX: --job-name=joyous-noodle-7112
 #FLUX: --urgency=16
 
 source /vol/bitbucket/mgg17/diss/venv/bin/activate

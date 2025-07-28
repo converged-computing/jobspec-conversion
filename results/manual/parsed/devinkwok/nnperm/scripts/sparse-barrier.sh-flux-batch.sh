@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-leg-8022
+#FLUX: --job-name=cowy-spoon-8930
 #FLUX: -c=4
 #FLUX: --queue=main
 #FLUX: -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-carrot-3529
+#FLUX: --job-name=butterscotch-leopard-5794
 #FLUX: -N=2
 #FLUX: --queue=bdwall
 #FLUX: -t=900

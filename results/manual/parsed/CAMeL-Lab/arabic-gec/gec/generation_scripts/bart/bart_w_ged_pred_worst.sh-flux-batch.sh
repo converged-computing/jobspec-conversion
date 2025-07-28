@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-muffin-6804
+#FLUX: --job-name=sticky-lizard-4833
 #FLUX: --queue=nvidia
 #FLUX: -t=144000
 #FLUX: --urgency=16

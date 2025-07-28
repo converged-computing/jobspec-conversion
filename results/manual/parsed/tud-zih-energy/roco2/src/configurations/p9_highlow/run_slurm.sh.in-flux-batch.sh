@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-platanos-7759
+#FLUX: --job-name=wobbly-caramel-1035
 #FLUX: -c=176
 #FLUX: --exclusive
 #FLUX: --queue=ml

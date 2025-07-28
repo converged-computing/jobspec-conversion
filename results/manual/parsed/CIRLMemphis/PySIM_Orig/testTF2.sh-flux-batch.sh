@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-plant-3061
+#FLUX: --job-name=phat-bike-8984
 #FLUX: -c=4
 #FLUX: --queue=gpuq
 #FLUX: -t=600

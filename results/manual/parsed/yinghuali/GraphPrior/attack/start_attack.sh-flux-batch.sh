@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-noodle-0505
+#FLUX: --job-name=eccentric-egg-8352
 #FLUX: -n=2
 #FLUX: --queue=gpu
 #FLUX: -t=169200

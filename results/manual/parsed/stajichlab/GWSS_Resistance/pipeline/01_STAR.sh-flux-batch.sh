@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-animal-4173
+#FLUX: --job-name=reclusive-parrot-3643
 #FLUX: -n=32
 #FLUX: --queue=intel,batch
 #FLUX: --urgency=16

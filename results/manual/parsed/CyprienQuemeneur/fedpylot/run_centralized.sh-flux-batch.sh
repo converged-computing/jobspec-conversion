@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-blackbean-3124
+#FLUX: --job-name=butterscotch-leopard-0324
 #FLUX: -c=8
 #FLUX: -t=302400
 #FLUX: --urgency=16

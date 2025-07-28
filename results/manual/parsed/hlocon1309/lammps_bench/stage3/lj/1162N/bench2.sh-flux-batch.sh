@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-bike-3984
+#FLUX: --job-name=blank-lamp-0063
 #FLUX: -n=16
 #FLUX: --queue=normal
 #FLUX: --urgency=16

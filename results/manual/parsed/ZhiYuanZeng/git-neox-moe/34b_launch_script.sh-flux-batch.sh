@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-nalgas-0867
+#FLUX: --job-name=hairy-bicycle-5681
 #FLUX: -N=32
 #FLUX: -c=12
 #FLUX: --exclusive

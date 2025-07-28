@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-train-1488
+#FLUX: --job-name=gloopy-rabbit-0520
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

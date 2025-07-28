@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-latke-8293
+#FLUX: --job-name=lovable-hope-6541
 #FLUX: --queue=bii-gpu
 #FLUX: -t=129600
 #FLUX: --urgency=16

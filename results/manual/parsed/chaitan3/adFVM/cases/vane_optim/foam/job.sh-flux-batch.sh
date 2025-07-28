@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-truffle-6288
+#FLUX: --job-name=boopy-fork-0131
 #FLUX: -N=16
 #FLUX: --urgency=16
 

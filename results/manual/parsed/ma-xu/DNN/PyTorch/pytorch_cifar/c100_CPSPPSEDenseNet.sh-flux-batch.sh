@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-arm-3497
+#FLUX: --job-name=lovely-lettuce-7560
 #FLUX: -n=4
 #FLUX: --queue=public
 #FLUX: -t=1800000

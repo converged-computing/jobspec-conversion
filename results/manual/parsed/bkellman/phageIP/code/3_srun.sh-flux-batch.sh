@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-mango-2581
+#FLUX: --job-name=goodbye-lentil-7051
 #FLUX: -c=20
 #FLUX: --queue=medium
 #FLUX: -t=259205

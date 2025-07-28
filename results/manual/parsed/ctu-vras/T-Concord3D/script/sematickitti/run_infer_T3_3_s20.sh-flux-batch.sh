@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-poodle-4106
+#FLUX: --job-name=joyous-bicycle-3685
 #FLUX: -c=6
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

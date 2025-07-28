@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-train-3660
+#FLUX: --job-name=confused-mango-8896
 #FLUX: -n=4
 #FLUX: --queue=mlow
 #FLUX: --urgency=16

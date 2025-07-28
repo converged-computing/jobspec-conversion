@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-chip-5094
+#FLUX: --job-name=butterscotch-poo-3581
 #FLUX: -N=2
 #FLUX: --queue=gputest
 #FLUX: -t=900

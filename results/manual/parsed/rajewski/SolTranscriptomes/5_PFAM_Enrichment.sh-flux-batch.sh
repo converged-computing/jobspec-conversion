@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-poo-1488
+#FLUX: --job-name=arid-kerfuffle-0919
 #FLUX: -c=60
 #FLUX: --queue=short
 #FLUX: -t=7200

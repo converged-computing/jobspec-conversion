@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-leader-1505
+#FLUX: --job-name=confused-general-9716
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

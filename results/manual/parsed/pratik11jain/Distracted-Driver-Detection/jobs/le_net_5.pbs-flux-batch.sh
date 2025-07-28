@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-taco-6326
+#FLUX: --job-name=frigid-cinnamonbun-0511
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pratik11jain/Distracted-Driver-Detection/jobs/le_net_5.pbs

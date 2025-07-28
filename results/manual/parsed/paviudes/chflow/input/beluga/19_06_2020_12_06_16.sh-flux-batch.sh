@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-signal-9091
+#FLUX: --job-name=eccentric-malarkey-8962
 #FLUX: -t=43200
 #FLUX: --urgency=16
 

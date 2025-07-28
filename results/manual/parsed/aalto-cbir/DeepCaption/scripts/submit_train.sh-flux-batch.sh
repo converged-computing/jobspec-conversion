@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-itch-9759
+#FLUX: --job-name=stinky-taco-2334
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=180

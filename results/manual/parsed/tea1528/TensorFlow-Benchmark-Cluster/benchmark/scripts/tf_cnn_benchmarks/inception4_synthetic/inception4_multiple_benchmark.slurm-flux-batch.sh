@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-staircase-6244
+#FLUX: --job-name=hello-nunchucks-5435
 #FLUX: --queue=maxwell
 #FLUX: -t=72000
 #FLUX: --urgency=16

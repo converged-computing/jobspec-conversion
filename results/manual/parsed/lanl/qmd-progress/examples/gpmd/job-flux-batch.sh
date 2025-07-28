@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-caramel-6727
+#FLUX: --job-name=butterscotch-omelette-5152
 #FLUX: -n=40
 #FLUX: --queue=ccs6
 #FLUX: -t=604800

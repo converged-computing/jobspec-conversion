@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lemon-8564
+#FLUX: --job-name=dirty-knife-3931
 #FLUX: --urgency=16
 
 readarray -t listofmissingfiles < listofmissingfiles.txt

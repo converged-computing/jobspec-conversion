@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-onion-9759
+#FLUX: --job-name=cowy-fork-4825
 #FLUX: --queue=gpu2
 #FLUX: -t=28800
 #FLUX: --urgency=16

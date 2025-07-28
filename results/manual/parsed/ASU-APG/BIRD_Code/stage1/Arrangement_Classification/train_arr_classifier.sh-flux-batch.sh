@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-blackbean-0520
+#FLUX: --job-name=lovely-cherry-2714
 #FLUX: -n=4
 #FLUX: --queue=cidsegpu1
 #FLUX: -t=87120

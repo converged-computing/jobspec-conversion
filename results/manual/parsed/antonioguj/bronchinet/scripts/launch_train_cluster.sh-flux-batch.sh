@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-motorcycle-8032
+#FLUX: --job-name=red-plant-0656
 #FLUX: --queue=long
 #FLUX: -t=86400
 #FLUX: --urgency=16

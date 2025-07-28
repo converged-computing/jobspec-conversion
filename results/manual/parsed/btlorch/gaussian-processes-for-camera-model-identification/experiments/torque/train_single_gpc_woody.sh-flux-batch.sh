@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-bicycle-9883
+#FLUX: --job-name=gloopy-arm-6859
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/btlorch/gaussian-processes-for-camera-model-identification/experiments/torque/train_single_gpc_woody.sh

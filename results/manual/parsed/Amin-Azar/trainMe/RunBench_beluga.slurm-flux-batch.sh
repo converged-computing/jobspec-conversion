@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-parsnip-9826
+#FLUX: --job-name=conspicuous-itch-9419
 #FLUX: -c=4
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-car-8561
+#FLUX: --job-name=crusty-kerfuffle-7510
 #FLUX: -n=2
 #FLUX: --queue=shared
 #FLUX: -t=480

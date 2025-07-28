@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-train-6161
+#FLUX: --job-name=reclusive-malarkey-9535
 #FLUX: -n=4
 #FLUX: -c=7
 #FLUX: -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-pancake-1525
+#FLUX: --job-name=spicy-dog-3581
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600

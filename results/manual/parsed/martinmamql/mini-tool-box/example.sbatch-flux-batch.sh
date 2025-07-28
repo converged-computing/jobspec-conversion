@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-parsnip-5457
+#FLUX: --job-name=milky-buttface-5590
 #FLUX: -c=24
 #FLUX: --queue=gpu_high
 #FLUX: -t=259200

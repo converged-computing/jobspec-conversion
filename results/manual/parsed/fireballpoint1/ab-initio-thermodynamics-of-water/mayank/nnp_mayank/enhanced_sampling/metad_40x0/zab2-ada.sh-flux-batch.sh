@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-kitty-8739
+#FLUX: --job-name=bumfuzzled-fork-6350
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

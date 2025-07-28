@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-fork-5023
+#FLUX: --job-name=expressive-egg-2349
 #FLUX: -N=6
 #FLUX: -t=740
 #FLUX: --urgency=16

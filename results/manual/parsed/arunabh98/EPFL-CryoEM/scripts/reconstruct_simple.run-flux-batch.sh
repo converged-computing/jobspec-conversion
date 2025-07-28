@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-parsnip-8999
+#FLUX: --job-name=faux-puppy-0289
 #FLUX: -c=5
 #FLUX: --exclusive
 #FLUX: -t=21600

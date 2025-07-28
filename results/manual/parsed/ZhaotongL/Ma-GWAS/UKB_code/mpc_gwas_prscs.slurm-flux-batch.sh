@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-latke-6248
+#FLUX: --job-name=red-butter-7358
 #FLUX: --queue=ram1t,amd2tb,amd512
 #FLUX: -t=86400
 #FLUX: --urgency=16

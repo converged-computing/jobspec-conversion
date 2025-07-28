@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-truffle-7538
+#FLUX: --job-name=expensive-signal-7008
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400
 #FLUX: --urgency=16

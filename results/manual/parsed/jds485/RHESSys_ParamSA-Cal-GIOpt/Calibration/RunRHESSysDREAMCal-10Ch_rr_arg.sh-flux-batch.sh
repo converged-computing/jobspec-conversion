@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-buttface-4465
+#FLUX: --job-name=wobbly-squidward-2419
 #FLUX: --queue=standard
 #FLUX: -t=345600
 #FLUX: --urgency=16

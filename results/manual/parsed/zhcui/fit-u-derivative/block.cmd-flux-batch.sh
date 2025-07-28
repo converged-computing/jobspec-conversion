@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-underoos-4458
+#FLUX: --job-name=sticky-peanut-butter-9612
 #FLUX: -c=28
 #FLUX: --queue=parallel
 #FLUX: -t=360000

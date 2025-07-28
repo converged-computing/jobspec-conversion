@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-pot-4642
+#FLUX: --job-name=evasive-poo-1393
 #FLUX: --queue=bosch_gpu-rtx2080
 #FLUX: --urgency=16
 

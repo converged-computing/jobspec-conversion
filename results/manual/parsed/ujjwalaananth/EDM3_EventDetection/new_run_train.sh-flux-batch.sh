@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-underoos-4544
+#FLUX: --job-name=rainbow-destiny-4747
 #FLUX: -n=20
 #FLUX: --queue=cidsegpu1_contrib_res
 #FLUX: -t=1200

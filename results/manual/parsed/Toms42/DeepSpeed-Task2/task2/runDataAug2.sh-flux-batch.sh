@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-pot-9008
+#FLUX: --job-name=fat-staircase-7865
 #FLUX: --queue=gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

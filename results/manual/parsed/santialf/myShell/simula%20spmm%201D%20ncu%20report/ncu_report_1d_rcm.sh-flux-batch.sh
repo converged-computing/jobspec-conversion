@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cinnamonbun-3233
+#FLUX: --job-name=arid-pastry-9598
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-plant-2060
+#FLUX: --job-name=scruptious-pastry-9677
 #FLUX: --queue=STANDARDQ
 #FLUX: -t=43200
 #FLUX: --urgency=16

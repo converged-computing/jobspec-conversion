@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-itch-3726
+#FLUX: --job-name=arid-chair-0927
 #FLUX: --queue=computeq
 #FLUX: -t=300
 #FLUX: --urgency=16

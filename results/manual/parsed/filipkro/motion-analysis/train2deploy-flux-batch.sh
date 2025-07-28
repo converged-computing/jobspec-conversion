@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-cat-4394
+#FLUX: --job-name=hello-truffle-4077
 #FLUX: -n=4
 #FLUX: --queue=alvis
 #FLUX: -t=7200

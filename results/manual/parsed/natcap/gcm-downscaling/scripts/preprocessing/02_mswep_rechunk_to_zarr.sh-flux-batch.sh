@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-hobbit-6486
+#FLUX: --job-name=gassy-destiny-7063
 #FLUX: -c=10
 #FLUX: --queue=hns,normal
 #FLUX: -t=28800

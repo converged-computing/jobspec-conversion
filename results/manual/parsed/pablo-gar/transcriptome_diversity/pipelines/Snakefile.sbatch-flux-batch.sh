@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-kerfuffle-3843
+#FLUX: --job-name=boopy-truffle-6293
 #FLUX: --queue=hbfraser,hns,normal
 #FLUX: -t=43200
 #FLUX: --urgency=16

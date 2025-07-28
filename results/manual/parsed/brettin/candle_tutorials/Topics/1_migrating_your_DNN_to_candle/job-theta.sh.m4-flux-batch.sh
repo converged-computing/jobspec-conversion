@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-parsnip-5297
+#FLUX: --job-name=gloopy-fork-6464
 #FLUX: --urgency=16
 

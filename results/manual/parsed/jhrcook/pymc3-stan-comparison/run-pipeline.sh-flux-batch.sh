@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-platanos-5919
+#FLUX: --job-name=goodbye-lettuce-0062
 #FLUX: -c=2
 #FLUX: --queue=priority
 #FLUX: -t=172800

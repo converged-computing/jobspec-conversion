@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-pot-2866
+#FLUX: --job-name=moolicious-destiny-2168
 #FLUX: -N=12
 #FLUX: --queue=scc
 #FLUX: -t=120

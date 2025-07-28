@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-fork-2800
+#FLUX: --job-name=strawberry-hope-0451
 #FLUX: -c=4
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400

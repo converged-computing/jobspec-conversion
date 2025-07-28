@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-parsnip-2677
+#FLUX: --job-name=stanky-peanut-0071
 #FLUX: -n=8
 #FLUX: --queue=gpu
 #FLUX: -t=259200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-pancake-1506
+#FLUX: --job-name=faux-leader-0414
 #FLUX: -c=3
 #FLUX: -t=300000
 #FLUX: --urgency=16

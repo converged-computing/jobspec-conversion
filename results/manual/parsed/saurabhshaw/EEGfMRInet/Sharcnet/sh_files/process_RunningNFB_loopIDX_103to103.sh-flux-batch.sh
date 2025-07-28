@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-chip-8212
+#FLUX: --job-name=astute-citrus-0842
 #FLUX: -c=8
 #FLUX: -t=170
 #FLUX: --urgency=16

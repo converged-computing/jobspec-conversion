@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-diablo-5979
+#FLUX: --job-name=creamy-latke-7013
 #FLUX: -c=256
 #FLUX: --queue=ai-jumpstart
 #FLUX: --urgency=16

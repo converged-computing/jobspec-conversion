@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-truffle-4581
+#FLUX: --job-name=purple-bits-8903
 #FLUX: -c=12
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-bike-2436
+#FLUX: --job-name=frigid-signal-2733
 #FLUX: --queue=week-long-std
 #FLUX: -t=86400
 #FLUX: --urgency=16

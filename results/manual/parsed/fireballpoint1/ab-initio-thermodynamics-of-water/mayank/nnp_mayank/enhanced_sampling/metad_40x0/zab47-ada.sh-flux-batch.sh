@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-bike-9388
+#FLUX: --job-name=muffled-parrot-9950
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

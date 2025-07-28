@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-bicycle-4029
+#FLUX: --job-name=psycho-gato-3329
 #FLUX: --queue=cpu2019
 #FLUX: -t=259200
 #FLUX: --urgency=16

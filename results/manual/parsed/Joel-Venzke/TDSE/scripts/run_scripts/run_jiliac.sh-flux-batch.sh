@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-plant-1501
+#FLUX: --job-name=astute-truffle-9601
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Joel-Venzke/TDSE/scripts/run_scripts/run_jiliac.sh

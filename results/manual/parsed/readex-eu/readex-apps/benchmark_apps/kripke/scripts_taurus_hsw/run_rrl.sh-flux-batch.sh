@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-buttface-0242
+#FLUX: --job-name=milky-plant-0170
 #FLUX: --exclusive
 #FLUX: --queue=haswell
 #FLUX: -t=1800

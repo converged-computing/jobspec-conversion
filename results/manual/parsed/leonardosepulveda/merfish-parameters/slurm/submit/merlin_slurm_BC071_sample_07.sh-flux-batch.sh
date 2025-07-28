@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-itch-3925
+#FLUX: --job-name=milky-cattywampus-0599
 #FLUX: --queue=zhuang,shared
 #FLUX: -t=604800
 #FLUX: --urgency=16

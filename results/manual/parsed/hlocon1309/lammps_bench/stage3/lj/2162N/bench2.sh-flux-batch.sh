@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-plant-8681
+#FLUX: --job-name=loopy-peanut-7555
 #FLUX: -N=2
 #FLUX: -n=16
 #FLUX: --queue=normal

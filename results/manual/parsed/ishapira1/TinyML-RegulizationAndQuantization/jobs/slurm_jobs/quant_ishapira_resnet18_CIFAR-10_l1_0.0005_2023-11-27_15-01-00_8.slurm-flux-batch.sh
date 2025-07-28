@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-chip-1577
+#FLUX: --job-name=doopy-house-3265
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

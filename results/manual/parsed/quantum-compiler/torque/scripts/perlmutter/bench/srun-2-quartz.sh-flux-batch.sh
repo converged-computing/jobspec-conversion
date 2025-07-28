@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-diablo-1973
+#FLUX: --job-name=buttery-parrot-3166
 #FLUX: -N=2
 #FLUX: --queue=regular
 #FLUX: -t=3600

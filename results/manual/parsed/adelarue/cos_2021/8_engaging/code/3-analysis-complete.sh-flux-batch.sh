@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-platanos-1217
+#FLUX: --job-name=doopy-motorcycle-7762
 #FLUX: --queue=sched_mit_sloan_batch
 #FLUX: -t=900
 #FLUX: --urgency=16

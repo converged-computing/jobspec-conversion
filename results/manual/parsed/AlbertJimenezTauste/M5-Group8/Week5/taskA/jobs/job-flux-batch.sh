@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-train-8240
+#FLUX: --job-name=frigid-knife-3218
 #FLUX: -n=4
 #FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16

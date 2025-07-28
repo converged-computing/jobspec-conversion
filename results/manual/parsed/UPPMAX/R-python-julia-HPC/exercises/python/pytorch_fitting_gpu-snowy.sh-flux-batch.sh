@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-butter-8405
+#FLUX: --job-name=muffled-diablo-2822
 #FLUX: --exclusive
 #FLUX: -t=300
 #FLUX: --urgency=16

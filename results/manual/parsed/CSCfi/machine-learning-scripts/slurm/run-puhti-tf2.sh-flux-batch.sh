@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-fork-9639
+#FLUX: --job-name=placid-staircase-9400
 #FLUX: -c=10
 #FLUX: --queue=gpu
 #FLUX: -t=3600

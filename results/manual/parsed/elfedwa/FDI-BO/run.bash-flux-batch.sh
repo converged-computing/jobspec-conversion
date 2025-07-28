@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-pedo-9026
+#FLUX: --job-name=dinosaur-general-5805
 #FLUX: -n=40
 #FLUX: --exclusive
 #FLUX: --queue=l_long

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-kitty-2404
+#FLUX: --job-name=gloopy-bits-1660
 #FLUX: -c=20
 #FLUX: --exclusive
 #FLUX: -t=43140

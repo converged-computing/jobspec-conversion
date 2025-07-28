@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-train-0195
+#FLUX: --job-name=misunderstood-citrus-8856
 #FLUX: -n=10
 #FLUX: -c=20
 #FLUX: --exclusive

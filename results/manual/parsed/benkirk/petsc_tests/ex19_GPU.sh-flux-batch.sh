@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-general-2297
+#FLUX: --job-name=rainbow-despacito-0286
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/benkirk/petsc_tests/ex19_GPU.sh

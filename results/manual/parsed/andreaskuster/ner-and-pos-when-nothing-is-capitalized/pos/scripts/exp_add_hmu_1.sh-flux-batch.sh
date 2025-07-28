@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-frito-3089
+#FLUX: --job-name=strawberry-animal-2756
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

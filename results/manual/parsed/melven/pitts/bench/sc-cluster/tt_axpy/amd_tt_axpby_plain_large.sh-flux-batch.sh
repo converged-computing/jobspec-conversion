@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-hope-0720
+#FLUX: --job-name=tart-bicycle-0426
 #FLUX: -c=64
 #FLUX: --queue=amd
 #FLUX: -t=180000

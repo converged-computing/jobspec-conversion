@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-itch-8882
+#FLUX: --job-name=rainbow-buttface-4534
 #FLUX: --queue=train
 #FLUX: -t=1209600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-toaster-3855
+#FLUX: --job-name=cowy-chip-7330
 #FLUX: --urgency=16
 
 module load singularity

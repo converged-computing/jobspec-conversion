@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-puppy-6751
+#FLUX: --job-name=joyous-arm-3954
 #FLUX: -n=32
 #FLUX: --queue=vera
 #FLUX: -t=604800

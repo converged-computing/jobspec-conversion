@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-plant-6872
+#FLUX: --job-name=eccentric-spoon-9932
 #FLUX: -n=8
 #FLUX: --queue=mlow,mlow
 #FLUX: --urgency=16

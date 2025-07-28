@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lentil-2353
+#FLUX: --job-name=psycho-sundae-7656
 #FLUX: --urgency=16
 
 outputdir=/gpfs/loomis/project/fas/ohern/jdt45/dpm

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-chip-6003
+#FLUX: --job-name=hanky-train-9687
 #FLUX: --queue=maxwell
 #FLUX: -t=72000
 #FLUX: --urgency=16

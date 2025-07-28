@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-cherry-5051
+#FLUX: --job-name=arid-pastry-9246
 #FLUX: --queue=amd_gpu
 #FLUX: -t=360000
 #FLUX: --urgency=16

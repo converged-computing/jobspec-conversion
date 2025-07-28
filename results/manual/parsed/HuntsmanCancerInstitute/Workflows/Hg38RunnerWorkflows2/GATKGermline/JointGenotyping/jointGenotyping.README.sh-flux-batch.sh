@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-caramel-7170
+#FLUX: --job-name=rainbow-lettuce-8518
 #FLUX: --queue=hci-rw
 #FLUX: -t=345600
 #FLUX: --urgency=16

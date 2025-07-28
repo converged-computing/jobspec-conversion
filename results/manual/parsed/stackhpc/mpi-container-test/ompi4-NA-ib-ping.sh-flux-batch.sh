@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-hobbit-8184
+#FLUX: --job-name=tart-parsnip-2117
 #FLUX: -n=2
 #FLUX: --exclusive
 #FLUX: -t=600

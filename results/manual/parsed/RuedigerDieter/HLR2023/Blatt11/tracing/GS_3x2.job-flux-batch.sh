@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-motorcycle-5214
+#FLUX: --job-name=doopy-plant-5901
 #FLUX: -N=2
 #FLUX: -n=3
 #FLUX: --queue=west

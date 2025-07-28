@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-bicycle-2882
+#FLUX: --job-name=grated-bicycle-5443
 #FLUX: --queue=power_std
 #FLUX: --urgency=16
 

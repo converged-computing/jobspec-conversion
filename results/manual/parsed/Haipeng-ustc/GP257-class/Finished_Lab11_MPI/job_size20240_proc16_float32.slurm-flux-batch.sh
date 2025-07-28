@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-staircase-3207
+#FLUX: --job-name=bloated-plant-5912
 #FLUX: -N=2
 #FLUX: -n=16
 #FLUX: --exclusive

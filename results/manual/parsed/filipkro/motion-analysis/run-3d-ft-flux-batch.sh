@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-buttface-7450
+#FLUX: --job-name=rainbow-squidward-1300
 #FLUX: -n=4
 #FLUX: --queue=alvis
 #FLUX: -t=18000

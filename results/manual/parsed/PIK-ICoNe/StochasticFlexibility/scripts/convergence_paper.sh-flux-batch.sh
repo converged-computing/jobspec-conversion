@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-squidward-7762
+#FLUX: --job-name=psycho-rabbit-7781
 #FLUX: --queue=largemem
 #FLUX: -t=259200
 #FLUX: --urgency=16

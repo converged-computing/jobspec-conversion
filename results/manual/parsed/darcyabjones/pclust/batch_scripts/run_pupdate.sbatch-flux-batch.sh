@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-diablo-4819
+#FLUX: --job-name=blank-butter-9269
 #FLUX: -c=28
 #FLUX: --queue=workq
 #FLUX: -t=86400

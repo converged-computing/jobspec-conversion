@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-underoos-0739
+#FLUX: --job-name=buttery-chip-0989
 #FLUX: --urgency=16
 
 module load cuda/10.0

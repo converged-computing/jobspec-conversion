@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-destiny-7055
+#FLUX: --job-name=bumfuzzled-malarkey-2045
 #FLUX: --urgency=16
 
 define_modules_config()

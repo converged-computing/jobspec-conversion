@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-cupcake-6019
+#FLUX: --job-name=faux-destiny-1150
 #FLUX: --queue=GPU-shared
 #FLUX: -t=172800
 #FLUX: --urgency=16

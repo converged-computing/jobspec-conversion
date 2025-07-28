@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-motorcycle-5324
+#FLUX: --job-name=spicy-itch-2280
 #FLUX: -t=21600
 #FLUX: --urgency=16
 

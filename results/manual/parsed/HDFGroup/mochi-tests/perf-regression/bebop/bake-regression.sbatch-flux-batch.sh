@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-cat-2014
+#FLUX: --job-name=goodbye-train-1898
 #FLUX: -N=2
 #FLUX: --queue=bdwall
 #FLUX: -t=900

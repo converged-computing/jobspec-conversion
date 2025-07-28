@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-peanut-butter-3710
+#FLUX: --job-name=peachy-plant-7045
 #FLUX: -c=4
 #FLUX: --queue=gpus
 #FLUX: --urgency=16

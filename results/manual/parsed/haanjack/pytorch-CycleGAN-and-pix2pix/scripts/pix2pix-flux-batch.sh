@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-bits-6599
+#FLUX: --job-name=pusheena-hope-5348
 #FLUX: --exclusive
 #FLUX: --queue=batch
 #FLUX: -t=600

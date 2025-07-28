@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=red-train-0691
+#FLUX: --job-name=milky-soup-4947
 #FLUX: --urgency=16
 

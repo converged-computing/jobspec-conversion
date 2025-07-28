@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-peanut-5283
+#FLUX: --job-name=dinosaur-chip-9252
 #FLUX: -c=48
 #FLUX: --queue=gpu_v100
 #FLUX: -t=720000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-fork-5033
+#FLUX: --job-name=stanky-itch-4857
 #FLUX: -N=4
 #FLUX: -c=32
 #FLUX: --queue=regular

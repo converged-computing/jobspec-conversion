@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-fork-9172
+#FLUX: --job-name=doopy-muffin-5487
 #FLUX: -N=16
 #FLUX: --queue=regular
 #FLUX: -t=600

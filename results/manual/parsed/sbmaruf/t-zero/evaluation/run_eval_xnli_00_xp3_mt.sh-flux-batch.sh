@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-noodle-3340
+#FLUX: --job-name=adorable-chip-6540
 #FLUX: --queue=PA100q
 #FLUX: --urgency=16
 

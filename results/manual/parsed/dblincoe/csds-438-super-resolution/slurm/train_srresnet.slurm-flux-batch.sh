@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-chip-4771
+#FLUX: --job-name=delicious-motorcycle-1004
 #FLUX: --queue=class
 #FLUX: -t=18000
 #FLUX: --urgency=16

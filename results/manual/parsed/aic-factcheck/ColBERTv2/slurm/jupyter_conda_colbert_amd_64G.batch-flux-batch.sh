@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-carrot-0905
+#FLUX: --job-name=conspicuous-sundae-9237
 #FLUX: -c=4
 #FLUX: --queue=amd
 #FLUX: -t=86400

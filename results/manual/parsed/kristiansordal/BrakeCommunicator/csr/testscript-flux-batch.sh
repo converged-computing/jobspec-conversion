@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-leader-4833
+#FLUX: --job-name=fuzzy-spoon-9873
 #FLUX: --queue=defq
 #FLUX: -t=240
 #FLUX: --urgency=16

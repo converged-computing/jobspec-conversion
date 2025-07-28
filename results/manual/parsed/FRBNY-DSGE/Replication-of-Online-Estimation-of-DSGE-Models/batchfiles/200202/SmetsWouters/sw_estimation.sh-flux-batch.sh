@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-nunchucks-0667
+#FLUX: --job-name=blank-knife-0022
 #FLUX: -N=6
 #FLUX: --queue=normal
 #FLUX: -t=172800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-buttface-9516
+#FLUX: --job-name=moolicious-diablo-1354
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Miro-Astore/plumed_scripts/install.pbs

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-onion-3499
+#FLUX: --job-name=delicious-knife-2102
 #FLUX: -c=8
 #FLUX: --queue=gpuq
 #FLUX: -t=3600

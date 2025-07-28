@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-chip-7690
+#FLUX: --job-name=gassy-staircase-9434
 #FLUX: --queue=compute
 #FLUX: -t=300
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-bits-7375
+#FLUX: --job-name=expressive-omelette-0437
 #FLUX: -c=16
 #FLUX: -t=600
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-noodle-8198
+#FLUX: --job-name=blank-lentil-1168
 #FLUX: -c=32
 #FLUX: --exclusive
 #FLUX: --queue=normal

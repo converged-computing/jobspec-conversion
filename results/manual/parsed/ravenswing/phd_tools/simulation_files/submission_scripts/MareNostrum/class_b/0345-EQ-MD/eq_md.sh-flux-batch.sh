@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-underoos-3106
+#FLUX: --job-name=bricky-knife-8183
 #FLUX: -N=2
 #FLUX: -c=2
 #FLUX: -t=86400

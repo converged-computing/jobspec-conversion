@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-butter-1046
+#FLUX: --job-name=fat-toaster-4308
 #FLUX: -c=28
 #FLUX: --queue=workq
 #FLUX: -t=86400

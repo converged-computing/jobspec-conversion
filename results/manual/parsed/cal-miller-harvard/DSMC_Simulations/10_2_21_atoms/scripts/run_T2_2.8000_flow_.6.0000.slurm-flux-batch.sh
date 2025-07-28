@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-car-8063
+#FLUX: --job-name=carnivorous-egg-5664
 #FLUX: -n=2
 #FLUX: --queue=shared
 #FLUX: -t=480

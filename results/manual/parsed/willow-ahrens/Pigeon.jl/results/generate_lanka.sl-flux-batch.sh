@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-snack-1890
+#FLUX: --job-name=outstanding-egg-8566
 #FLUX: --exclusive
 #FLUX: --queue=lanka-v3
 #FLUX: -t=86400

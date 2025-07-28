@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-arm-8667
+#FLUX: --job-name=tart-muffin-2371
 #FLUX: -N=4
 #FLUX: --queue=gpu
 #FLUX: -t=86400

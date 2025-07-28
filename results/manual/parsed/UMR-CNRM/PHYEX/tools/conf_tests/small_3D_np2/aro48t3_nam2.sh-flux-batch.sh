@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-leg-7868
+#FLUX: --job-name=eccentric-spoon-2434
 #FLUX: -n=2
 #FLUX: --queue=normal256
 #FLUX: -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-staircase-3266
+#FLUX: --job-name=blank-plant-5786
 #FLUX: --queue=slurm_courtesy
 #FLUX: -t=259320
 #FLUX: --urgency=16

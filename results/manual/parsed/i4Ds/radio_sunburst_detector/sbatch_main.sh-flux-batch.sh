@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-hobbit-4729
+#FLUX: --job-name=crunchy-punk-3506
 #FLUX: --queue=top6
 #FLUX: -t=36000
 #FLUX: --urgency=16

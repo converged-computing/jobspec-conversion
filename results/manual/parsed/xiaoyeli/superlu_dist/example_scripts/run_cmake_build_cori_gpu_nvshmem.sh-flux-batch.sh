@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-bike-2775
+#FLUX: --job-name=joyous-plant-2254
 #FLUX: --urgency=16
 
 export MKLROOT='/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl'

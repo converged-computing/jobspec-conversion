@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-fork-9876
+#FLUX: --job-name=frigid-muffin-2824
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

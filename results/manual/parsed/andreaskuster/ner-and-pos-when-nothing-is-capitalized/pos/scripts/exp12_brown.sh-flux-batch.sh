@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-pancake-5137
+#FLUX: --job-name=eccentric-lentil-2706
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

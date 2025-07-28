@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-lamp-7280
+#FLUX: --job-name=dinosaur-truffle-2656
 #FLUX: --queue=devel
 #FLUX: -t=900
 #FLUX: --urgency=16

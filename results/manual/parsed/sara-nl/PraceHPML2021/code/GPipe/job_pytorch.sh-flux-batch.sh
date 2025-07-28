@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-leader-4129
+#FLUX: --job-name=milky-malarkey-1121
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared_jupyter
 #FLUX: -t=180

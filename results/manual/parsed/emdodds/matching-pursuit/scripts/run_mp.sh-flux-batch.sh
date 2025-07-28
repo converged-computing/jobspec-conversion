@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-carrot-4606
+#FLUX: --job-name=stinky-salad-9287
 #FLUX: --queue=cortex
 #FLUX: -t=172800
 #FLUX: --urgency=16

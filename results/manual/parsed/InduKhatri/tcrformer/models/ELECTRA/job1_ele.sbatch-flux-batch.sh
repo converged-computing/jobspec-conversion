@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-milkshake-8920
+#FLUX: --job-name=misunderstood-bicycle-5630
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=10800

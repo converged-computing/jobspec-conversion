@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-dog-8231
+#FLUX: --job-name=dirty-destiny-2918
 #FLUX: -c=8
 #FLUX: --queue=defq
 #FLUX: -t=86400

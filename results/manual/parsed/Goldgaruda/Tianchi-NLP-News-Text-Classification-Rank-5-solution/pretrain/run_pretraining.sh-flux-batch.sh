@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-spoon-8179
+#FLUX: --job-name=reclusive-lentil-1750
 #FLUX: -n=14
 #FLUX: --queue=nvidia
 #FLUX: -t=172800

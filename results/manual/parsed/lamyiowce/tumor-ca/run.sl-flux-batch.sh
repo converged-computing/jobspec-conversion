@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-punk-0525
+#FLUX: --job-name=dirty-peas-5930
 #FLUX: -c=24
 #FLUX: --queue=topola
 #FLUX: --urgency=16

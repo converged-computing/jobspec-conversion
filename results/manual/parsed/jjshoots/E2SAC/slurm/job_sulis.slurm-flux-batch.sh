@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-nalgas-8509
+#FLUX: --job-name=expressive-fudge-2455
 #FLUX: -c=42
 #FLUX: --queue=gpu
 #FLUX: -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-avocado-0674
+#FLUX: --job-name=joyous-cinnamonbun-6695
 #FLUX: --queue=3090-gcondo
 #FLUX: -t=345600
 #FLUX: --urgency=16

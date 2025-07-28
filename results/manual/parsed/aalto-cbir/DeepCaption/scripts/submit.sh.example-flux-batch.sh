@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-itch-9804
+#FLUX: --job-name=red-nalgas-0598
 #FLUX: --queue=gpu
 #FLUX: -t=120
 #FLUX: --urgency=16

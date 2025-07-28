@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-hope-4071
+#FLUX: --job-name=purple-chip-7854
 #FLUX: --queue=shas-testing
 #FLUX: -t=120
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-kitty-9133
+#FLUX: --job-name=delicious-toaster-5267
 #FLUX: -n=4
 #FLUX: -c=2
 #FLUX: --queue=savio2_1080ti

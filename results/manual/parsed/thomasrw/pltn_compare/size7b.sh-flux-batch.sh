@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-underoos-1991
+#FLUX: --job-name=goodbye-latke-4323
 #FLUX: -n=10
 #FLUX: --queue=defq-48core
 #FLUX: --urgency=16

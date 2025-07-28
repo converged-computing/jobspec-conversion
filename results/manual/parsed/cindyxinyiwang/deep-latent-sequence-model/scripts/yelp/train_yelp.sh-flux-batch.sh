@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-mango-2442
+#FLUX: --job-name=frigid-carrot-0786
 #FLUX: -t=0
 #FLUX: --urgency=16
 

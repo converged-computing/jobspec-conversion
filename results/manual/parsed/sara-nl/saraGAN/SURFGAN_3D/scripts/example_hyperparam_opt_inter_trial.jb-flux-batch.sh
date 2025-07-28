@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-snack-6254
+#FLUX: --job-name=blue-kitty-4449
 #FLUX: -N=4
 #FLUX: -c=6
 #FLUX: --queue=gpu_titanrtx

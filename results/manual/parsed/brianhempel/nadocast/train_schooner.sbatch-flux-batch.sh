@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-butter-2621
+#FLUX: --job-name=salted-cat-0845
 #FLUX: -N=25
 #FLUX: -c=20
 #FLUX: --exclusive

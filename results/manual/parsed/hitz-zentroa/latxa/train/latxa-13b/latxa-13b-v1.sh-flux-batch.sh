@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cat-5247
+#FLUX: --job-name=moolicious-soup-6985
 #FLUX: -N=4
 #FLUX: --exclusive
 #FLUX: --queue=boost_usr_prod

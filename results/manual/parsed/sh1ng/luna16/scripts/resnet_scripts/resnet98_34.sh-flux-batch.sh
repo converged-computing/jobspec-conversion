@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-peanut-5203
+#FLUX: --job-name=milky-knife-3706
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=172800

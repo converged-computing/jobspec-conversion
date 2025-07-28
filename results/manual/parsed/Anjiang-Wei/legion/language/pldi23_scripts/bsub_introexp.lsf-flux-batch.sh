@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-fudge-4347
+#FLUX: --job-name=frigid-nunchucks-3881
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Anjiang-Wei/legion/language/pldi23_scripts/bsub_introexp.lsf

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-sundae-3860
+#FLUX: --job-name=loopy-muffin-6837
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=YOUR_PARTITION_HERE

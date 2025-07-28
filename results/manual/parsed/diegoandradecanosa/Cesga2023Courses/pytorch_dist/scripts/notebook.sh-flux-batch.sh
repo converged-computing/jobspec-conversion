@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-buttface-2145
+#FLUX: --job-name=blue-despacito-2220
 #FLUX: -c=24
 #FLUX: --queue=cola-corta,thin-shared,thinnodes,gpu-shared-v100
 #FLUX: -t=23400

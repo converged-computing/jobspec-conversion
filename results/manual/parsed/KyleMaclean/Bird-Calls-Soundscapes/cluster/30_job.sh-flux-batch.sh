@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-plant-9626
+#FLUX: --job-name=fugly-house-0414
+#FLUX: -c=4
 #FLUX: --queue=csug
 #FLUX: --urgency=16
 

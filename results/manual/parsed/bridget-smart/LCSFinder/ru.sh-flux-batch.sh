@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-chip-8120
+#FLUX: --job-name=spicy-despacito-4367
 #FLUX: --queue=batch
 #FLUX: -t=3600
 #FLUX: --urgency=16

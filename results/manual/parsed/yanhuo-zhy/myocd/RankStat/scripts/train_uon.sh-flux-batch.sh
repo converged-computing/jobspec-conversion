@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-leader-7317
+#FLUX: --job-name=nerdy-nalgas-7460
 #FLUX: -c=5
 #FLUX: --queue=amp20
 #FLUX: --urgency=16

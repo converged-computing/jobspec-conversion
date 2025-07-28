@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-pedo-0710
+#FLUX: --job-name=salted-peas-8484
 #FLUX: --queue=debug
 #FLUX: -t=600
 #FLUX: --urgency=16

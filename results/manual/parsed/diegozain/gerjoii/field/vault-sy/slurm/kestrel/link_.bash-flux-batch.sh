@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-onion-0024
+#FLUX: --job-name=fat-punk-1420
 #FLUX: -c=10
 #FLUX: --exclusive
 #FLUX: -t=86400

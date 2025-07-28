@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-diablo-5618
+#FLUX: --job-name=fugly-eagle-8581
 #FLUX: --queue=GPU-shared
 #FLUX: -t=36000
 #FLUX: --urgency=16

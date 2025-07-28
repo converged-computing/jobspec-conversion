@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pastry-2731
+#FLUX: --job-name=boopy-underoos-1829
 #FLUX: --queue=parallel
 #FLUX: -t=86400
 #FLUX: --urgency=16

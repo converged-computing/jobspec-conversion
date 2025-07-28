@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-hope-9932
+#FLUX: --job-name=anxious-lemon-5338
 #FLUX: --queue=nv-gpu
 #FLUX: -t=108000
 #FLUX: --urgency=16

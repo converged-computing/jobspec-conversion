@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-egg-8219
+#FLUX: --job-name=evasive-destiny-3111
 #FLUX: -n=2
 #FLUX: -c=8
 #FLUX: --queue=gpu

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-poodle-2099
+#FLUX: --job-name=fat-malarkey-8822
 #FLUX: -n=8
 #FLUX: --queue=bigmem
 #FLUX: -t=345600

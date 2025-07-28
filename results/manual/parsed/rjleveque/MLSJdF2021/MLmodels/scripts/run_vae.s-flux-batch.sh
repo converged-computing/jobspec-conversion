@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lentil-4400
+#FLUX: --job-name=blank-lentil-9111
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

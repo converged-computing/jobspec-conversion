@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-peanut-6451
+#FLUX: --job-name=psycho-destiny-6947
 #FLUX: --queue=debug
 #FLUX: -t=1200
 #FLUX: --urgency=16

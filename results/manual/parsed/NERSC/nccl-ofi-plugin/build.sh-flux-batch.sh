@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-diablo-4428
+#FLUX: --job-name=faux-punk-4823
 #FLUX: --queue=debug
 #FLUX: -t=1800
 #FLUX: --urgency=16

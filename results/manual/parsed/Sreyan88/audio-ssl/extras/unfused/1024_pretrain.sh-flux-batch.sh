@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-cupcake-2563
+#FLUX: --job-name=fugly-taco-0278
 #FLUX: -c=32
 #FLUX: --queue=nltmp
 #FLUX: -t=428400

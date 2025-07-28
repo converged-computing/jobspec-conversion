@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-pedo-2259
+#FLUX: --job-name=anxious-gato-7131
 #FLUX: -c=32
 #FLUX: --queue=scavenger
 #FLUX: --urgency=16

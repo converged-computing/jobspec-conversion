@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-itch-6702
+#FLUX: --job-name=fugly-bike-6524
 #FLUX: -n=4
 #FLUX: --queue=debug
 #FLUX: -t=1800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-fork-0464
+#FLUX: --job-name=red-lamp-4614
 #FLUX: --urgency=16
 
 MODIFIER="$1"

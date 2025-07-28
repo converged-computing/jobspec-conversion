@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-peanut-butter-9285
+#FLUX: --job-name=conspicuous-frito-3558
 #FLUX: -c=8
 #FLUX: --queue=defq
 #FLUX: -t=172800

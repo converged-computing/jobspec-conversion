@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-fork-3163
+#FLUX: --job-name=psycho-egg-2711
 #FLUX: --queue=hci-rw
 #FLUX: -t=172800
 #FLUX: --urgency=16

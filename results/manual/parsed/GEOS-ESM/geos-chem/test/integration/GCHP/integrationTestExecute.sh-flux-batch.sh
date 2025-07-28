@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-arm-0791
+#FLUX: --job-name=fugly-omelette-7510
 #FLUX: -n=24
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=300

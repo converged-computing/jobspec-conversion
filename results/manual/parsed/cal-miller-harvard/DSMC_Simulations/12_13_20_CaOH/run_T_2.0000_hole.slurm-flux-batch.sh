@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-platanos-1706
+#FLUX: --job-name=scruptious-train-9745
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

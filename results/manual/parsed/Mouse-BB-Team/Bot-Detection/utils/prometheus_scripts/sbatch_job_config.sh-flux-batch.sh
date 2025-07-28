@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-peanut-butter-7791
+#FLUX: --job-name=gloopy-peanut-9402
 #FLUX: --queue=plgrid-gpu
 #FLUX: -t=93600
 #FLUX: --urgency=16

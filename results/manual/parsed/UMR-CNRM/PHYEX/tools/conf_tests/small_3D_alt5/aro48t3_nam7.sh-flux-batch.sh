@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-signal-9920
+#FLUX: --job-name=persnickety-pot-8374
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

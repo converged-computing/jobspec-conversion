@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-malarkey-0868
+#FLUX: --job-name=confused-parrot-1390
 #FLUX: -c=16
 #FLUX: --urgency=16
 

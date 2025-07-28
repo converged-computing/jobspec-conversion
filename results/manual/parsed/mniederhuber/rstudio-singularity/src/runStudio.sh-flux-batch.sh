@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-latke-3896
+#FLUX: --job-name=evasive-caramel-7888
 #FLUX: --queue=interact
 #FLUX: -t=28800
 #FLUX: --urgency=16

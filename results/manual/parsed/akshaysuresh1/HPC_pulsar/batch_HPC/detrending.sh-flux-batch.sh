@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-sundae-7107
+#FLUX: --job-name=moolicious-peanut-7786
 #FLUX: --queue=RM-shared
 #FLUX: -t=18000
 #FLUX: --urgency=16

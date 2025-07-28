@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-peanut-9908
+#FLUX: --job-name=strawberry-truffle-7642
 #FLUX: --exclusive
 #FLUX: --queue=broadwl
 #FLUX: -t=9000

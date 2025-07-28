@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-general-0255
+#FLUX: --job-name=crusty-peanut-butter-1318
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600

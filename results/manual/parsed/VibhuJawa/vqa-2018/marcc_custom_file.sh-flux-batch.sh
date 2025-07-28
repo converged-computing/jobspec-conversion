@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-nalgas-3064
+#FLUX: --job-name=placid-butter-1495
 #FLUX: -N=4
 #FLUX: -n=24
 #FLUX: --queue=gpu

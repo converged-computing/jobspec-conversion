@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-pancake-9143
+#FLUX: --job-name=doopy-chip-2663
 #FLUX: -n=30
 #FLUX: --exclusive
 #FLUX: --queue=huce_intel

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-plant-0045
+#FLUX: --job-name=expressive-gato-5897
 #FLUX: --urgency=16
 
 export DIALOGRC='${HPCTOYS_ROOT}/etc/.dialogrc'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-malarkey-9362
+#FLUX: --job-name=frigid-parrot-6812
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dfm/gaia-kepler/fit.pbs

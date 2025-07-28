@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-nunchucks-6753
+#FLUX: --job-name=psycho-egg-7925
 #FLUX: --queue=physical
 #FLUX: -t=50400
 #FLUX: --urgency=16

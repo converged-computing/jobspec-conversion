@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-citrus-4112
+#FLUX: --job-name=salted-bits-9923
 #FLUX: -c=6
 #FLUX: -t=604800
 #FLUX: --urgency=16

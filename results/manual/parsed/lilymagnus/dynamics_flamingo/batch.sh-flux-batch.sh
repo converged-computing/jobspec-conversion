@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-milkshake-8828
+#FLUX: --job-name=lovely-pedo-3365
 #FLUX: --queue=cosma8
 #FLUX: -t=10800
 #FLUX: --urgency=16

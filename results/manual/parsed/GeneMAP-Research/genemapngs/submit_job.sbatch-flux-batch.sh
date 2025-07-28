@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-buttface-8242
+#FLUX: --job-name=butterscotch-muffin-8976
 #FLUX: --queue=
 #FLUX: -t=36000
 #FLUX: --urgency=16

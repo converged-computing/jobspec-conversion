@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-chip-3828
+#FLUX: --job-name=moolicious-hope-9041
 #FLUX: -N=3
 #FLUX: -c=4
 #FLUX: -t=3600

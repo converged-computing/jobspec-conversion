@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-frito-2960
+#FLUX: --job-name=fat-eagle-5164
 #FLUX: -n=10
 #FLUX: --queue=ghpc
 #FLUX: -t=86400

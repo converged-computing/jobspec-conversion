@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-pot-9696
+#FLUX: --job-name=goodbye-bits-3219
 #FLUX: --queue=a100-gpu,l40-gpu
 #FLUX: -t=57600
 #FLUX: --urgency=16

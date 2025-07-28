@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-animal-0983
+#FLUX: --job-name=phat-egg-0355
 #FLUX: --urgency=16
 

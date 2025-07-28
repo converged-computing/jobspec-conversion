@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-squidward-8547
+#FLUX: --job-name=pusheena-sundae-7056
 #FLUX: -n=4
 #FLUX: --queue=cloud
 #FLUX: --urgency=16

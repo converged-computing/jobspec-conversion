@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-knife-9811
+#FLUX: --job-name=carnivorous-signal-1510
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

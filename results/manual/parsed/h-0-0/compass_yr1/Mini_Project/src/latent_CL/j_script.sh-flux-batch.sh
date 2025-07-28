@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-earthworm-4465
+#FLUX: --job-name=pusheena-chip-7744
 #FLUX: --queue=test
 #FLUX: -t=300
 #FLUX: --urgency=16

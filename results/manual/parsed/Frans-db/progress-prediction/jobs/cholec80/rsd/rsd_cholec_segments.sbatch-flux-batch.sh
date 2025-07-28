@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-frito-6583
+#FLUX: --job-name=moolicious-toaster-6197
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=1800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-ricecake-8485
+#FLUX: --job-name=arid-blackbean-0595
 #FLUX: -c=2
 #FLUX: --queue=pascal
 #FLUX: -t=21600

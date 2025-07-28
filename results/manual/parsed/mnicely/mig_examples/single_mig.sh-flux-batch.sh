@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-knife-4920
+#FLUX: --job-name=carnivorous-buttface-4429
 #FLUX: --queue=dgxa100-mig
 #FLUX: --urgency=16
 

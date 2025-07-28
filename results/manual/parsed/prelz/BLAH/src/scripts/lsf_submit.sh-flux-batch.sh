@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-sundae-7005
+#FLUX: --job-name=loopy-plant-4129
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/prelz/BLAH/src/scripts/lsf_submit.sh

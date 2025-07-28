@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-cinnamonbun-1663
+#FLUX: --job-name=moolicious-carrot-3072
 #FLUX: -n=16
 #FLUX: --queue=AMG
 #FLUX: -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-dog-3760
+#FLUX: --job-name=hanky-poo-3992
 #FLUX: -c=14
 #FLUX: --gpus-per-task=2
 #FLUX: --queue=small-g

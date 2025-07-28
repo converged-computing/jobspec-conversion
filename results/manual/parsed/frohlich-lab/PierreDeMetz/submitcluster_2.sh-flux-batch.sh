@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lizard-0067
+#FLUX: --job-name=gloopy-animal-5977
 #FLUX: --queue=cpu
 #FLUX: -t=259200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-itch-4323
+#FLUX: --job-name=misunderstood-rabbit-7706
 #FLUX: -N=32
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-signal-3189
+#FLUX: --job-name=pusheena-train-5017
 #FLUX: --queue=gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

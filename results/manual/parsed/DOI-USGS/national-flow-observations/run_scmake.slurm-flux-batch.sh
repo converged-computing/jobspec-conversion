@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-underoos-3370
+#FLUX: --job-name=dirty-egg-2092
 #FLUX: --queue=cpu
 #FLUX: -t=172800
 #FLUX: --urgency=16

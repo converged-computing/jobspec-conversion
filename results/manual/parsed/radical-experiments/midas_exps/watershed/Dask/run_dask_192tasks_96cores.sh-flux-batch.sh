@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-peas-6087
+#FLUX: --job-name=carnivorous-itch-2294
 #FLUX: -N=4
 #FLUX: --queue=compute
 #FLUX: -t=7200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-cherry-8421
+#FLUX: --job-name=bloated-hope-4286
 #FLUX: --queue=thinnodes
 #FLUX: -t=600
 #FLUX: --urgency=16

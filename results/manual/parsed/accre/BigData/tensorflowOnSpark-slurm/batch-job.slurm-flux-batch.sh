@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-house-6302
+#FLUX: --job-name=sticky-house-3295
 #FLUX: -N=2
 #FLUX: --queue=maxwell
 #FLUX: -t=3600

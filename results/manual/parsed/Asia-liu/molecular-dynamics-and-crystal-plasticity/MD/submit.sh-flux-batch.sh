@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-pastry-3763
+#FLUX: --job-name=gassy-butter-7967
 #FLUX: -n=2
 #FLUX: --queue=G1Part_sce
 #FLUX: --urgency=16

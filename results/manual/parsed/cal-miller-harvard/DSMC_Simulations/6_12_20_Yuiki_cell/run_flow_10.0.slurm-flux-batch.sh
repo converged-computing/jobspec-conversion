@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lemur-3204
+#FLUX: --job-name=boopy-omelette-9829
 #FLUX: -n=2
 #FLUX: --queue=shared
 #FLUX: -t=480

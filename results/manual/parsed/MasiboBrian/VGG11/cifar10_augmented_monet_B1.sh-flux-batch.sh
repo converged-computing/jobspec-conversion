@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-carrot-4683
+#FLUX: --job-name=conspicuous-cattywampus-0871
 #FLUX: --queue=Teach-Standard
 #FLUX: -t=28800
 #FLUX: --urgency=16

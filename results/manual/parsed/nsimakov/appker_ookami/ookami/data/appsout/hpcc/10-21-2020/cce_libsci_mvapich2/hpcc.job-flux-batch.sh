@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-underoos-1573
+#FLUX: --job-name=arid-cupcake-8133
 #FLUX: --queue=long
 #FLUX: -t=86400
 #FLUX: --urgency=16

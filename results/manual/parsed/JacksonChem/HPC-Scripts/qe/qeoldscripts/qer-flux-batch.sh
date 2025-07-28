@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-caramel-2853
+#FLUX: --job-name=fugly-leg-5632
 #FLUX: --urgency=16
 
 NPROC=$1

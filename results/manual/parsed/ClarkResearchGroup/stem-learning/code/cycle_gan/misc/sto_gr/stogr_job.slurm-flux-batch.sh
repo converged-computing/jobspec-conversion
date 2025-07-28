@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-knife-7241
+#FLUX: --job-name=carnivorous-signal-8992
 #FLUX: --queue=gpuA100x4
 #FLUX: -t=21600
 #FLUX: --urgency=16

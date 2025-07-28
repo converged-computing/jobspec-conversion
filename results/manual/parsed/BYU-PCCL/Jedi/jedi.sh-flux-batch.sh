@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-signal-3096
+#FLUX: --job-name=hello-gato-2728
 #FLUX: --urgency=16
 
 if [ "$1" = help ]; then

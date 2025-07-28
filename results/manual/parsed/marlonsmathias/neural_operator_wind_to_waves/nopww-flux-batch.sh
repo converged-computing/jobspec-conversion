@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-caramel-5699
+#FLUX: --job-name=muffled-buttface-8634
 #FLUX: -n=16
 #FLUX: --queue=arandu
 #FLUX: --urgency=16

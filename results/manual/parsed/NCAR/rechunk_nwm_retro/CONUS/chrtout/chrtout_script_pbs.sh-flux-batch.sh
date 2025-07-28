@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-avocado-3309
+#FLUX: --job-name=arid-lamp-4103
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NCAR/rechunk_nwm_retro/CONUS/chrtout/chrtout_script_pbs.sh

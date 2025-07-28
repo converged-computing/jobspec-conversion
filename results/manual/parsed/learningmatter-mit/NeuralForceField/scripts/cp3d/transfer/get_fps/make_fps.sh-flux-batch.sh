@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-omelette-7107
+#FLUX: --job-name=delicious-lamp-6452
 #FLUX: -c=32
 #FLUX: --queue=sched_mit_rafagb_amd,sched_mit_rafagb
 #FLUX: -t=258000

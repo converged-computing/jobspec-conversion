@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-parrot-6549
+#FLUX: --job-name=bloated-chair-5964
 #FLUX: -c=8
 #FLUX: --queue=alpha
 #FLUX: -t=359999

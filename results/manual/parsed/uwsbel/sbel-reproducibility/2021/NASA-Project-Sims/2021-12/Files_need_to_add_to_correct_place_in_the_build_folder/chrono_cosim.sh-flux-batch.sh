@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-lentil-1018
+#FLUX: --job-name=nerdy-dog-1201
 #FLUX: -c=2
 #FLUX: --queue=research
 #FLUX: -t=86400

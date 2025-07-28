@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-truffle-6845
+#FLUX: --job-name=faux-squidward-4814
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

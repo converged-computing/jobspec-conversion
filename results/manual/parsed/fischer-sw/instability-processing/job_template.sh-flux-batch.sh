@@ -1,0 +1,31 @@
+#!/bin/bash
+#FLUX: --job-name=%job_name%
+#FLUX: --queue=milan
+#FLUX: --urgency=16
+
+export SLURM_TASKS_PER_NODE='$((SLURM_NTASKS / SLURM_NNODES))$( for ((i=2; i<=$SLURM_NNODES; i++)); \'
+
+rm job.log
+LOG_FILE=./job.log
+function Log {
+local level=$1
+local msg=$2
+echo $(date --rfc-3339=seconds):${level} ${msg} >> ${LOG_FILE}
+}
+Log INFO "JOB START"
+Log INFO "JOB NAME = ${SLURM_JOB_NAME}"
+Log INFO "loading modules"
+Log INFO "Loading module python ..."
+module load python/3.10.4 >> ${LOG_FILE} 2>&1
+cd $SLURM_SUBMIT_DIR
+do printf ",$((SLURM_NTASKS / SLURM_NNODES))"; done )"
+NODES=$(scontrol show hostname $SLURM_JOB_NODELIST | paste -d, -s)
+Log INFO "allocated nodes ${NODES}"
+Log INFO "SLURM_NTASKS = ${SLURM_NTASKS}"
+rm *.out
+python -m venv test-env >> ${LOG_FILE} 2>&1
+source test-env/bin/activate >> ${LOG_FILE} 2>&1
+python -m pip install --upgrade pip >> $LOG_FILE 2>&1
+python -m pip install -r ./requirements.txt >> ${LOG_FILE} 2>&1
+python ./methods.py calc_case_ratio >> $LOG_FILE 2>&1
+Log INFO "JOB FINISH"

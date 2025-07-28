@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-buttface-3572
+#FLUX: --job-name=butterscotch-despacito-3645
 #FLUX: -N=4
 #FLUX: --gpus-per-task=1
 #FLUX: -t=7200

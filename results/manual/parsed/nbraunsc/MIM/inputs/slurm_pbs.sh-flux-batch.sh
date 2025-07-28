@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-peas-4621
+#FLUX: --job-name=joyous-butter-9550
 #FLUX: --exclusive
 #FLUX: --queue=normal_q
 #FLUX: -t=18000

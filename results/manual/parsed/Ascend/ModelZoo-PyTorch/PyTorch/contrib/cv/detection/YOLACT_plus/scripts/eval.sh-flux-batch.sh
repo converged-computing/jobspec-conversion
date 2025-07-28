@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-toaster-5418
+#FLUX: --job-name=eccentric-salad-2976
 #FLUX: --queue=GPU-small
 #FLUX: -t=7200
 #FLUX: --urgency=16

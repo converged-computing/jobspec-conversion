@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-mango-4595
+#FLUX: --job-name=dirty-mango-1745
 #FLUX: -n=16
 #FLUX: --queue=shared
 #FLUX: -t=240

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-taco-2185
+#FLUX: --job-name=peachy-fudge-9630
 #FLUX: --exclusive
 #FLUX: --queue=sched_mit_rgmark
 #FLUX: -t=345600

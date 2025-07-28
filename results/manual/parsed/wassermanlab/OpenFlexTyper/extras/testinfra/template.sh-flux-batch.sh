@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-malarkey-4550
+#FLUX: --job-name=purple-sundae-7368
 #FLUX: --urgency=16
 
 export QT_QPA_PLATFORM='offscreen'

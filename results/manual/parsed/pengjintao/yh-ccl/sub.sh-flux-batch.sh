@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-squidward-8781
+#FLUX: --job-name=carnivorous-kitty-3639
 #FLUX: -n=64
 #FLUX: --queue=amd_256
 #FLUX: -t=1500

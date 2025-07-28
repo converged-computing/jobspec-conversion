@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-blackbean-7085
+#FLUX: --job-name=salted-banana-0748
 #FLUX: -n=4
 #FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16

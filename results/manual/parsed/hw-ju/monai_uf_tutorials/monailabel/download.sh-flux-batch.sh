@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-ricecake-5252
+#FLUX: --job-name=loopy-destiny-5215
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

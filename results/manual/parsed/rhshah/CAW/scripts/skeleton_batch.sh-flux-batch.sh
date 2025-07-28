@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-hope-6240
+#FLUX: --job-name=expressive-motorcycle-8238
 #FLUX: --queue=node
 #FLUX: -t=604800
 #FLUX: --urgency=16

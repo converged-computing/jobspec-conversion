@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-banana-6521
+#FLUX: --job-name=loopy-bits-0384
 #FLUX: -N=2
 #FLUX: -c=32
 #FLUX: -t=3540

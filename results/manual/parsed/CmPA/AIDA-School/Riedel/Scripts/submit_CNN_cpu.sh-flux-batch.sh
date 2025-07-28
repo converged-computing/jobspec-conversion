@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-house-1016
+#FLUX: --job-name=angry-poo-9209
 #FLUX: --queue=dp-dam
 #FLUX: -t=3600
 #FLUX: --urgency=16

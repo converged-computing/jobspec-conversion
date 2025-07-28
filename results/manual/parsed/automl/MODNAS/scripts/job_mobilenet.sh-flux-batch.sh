@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-earthworm-4702
+#FLUX: --job-name=sticky-lentil-4811
 #FLUX: -c=32
 #FLUX: --queue=<partition
 #FLUX: -t=432000

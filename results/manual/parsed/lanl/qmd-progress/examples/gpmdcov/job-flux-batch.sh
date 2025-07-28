@@ -1,5 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=blank-truffle-4726
+#FLUX: --job-name=rainbow-hobbit-4827
+#FLUX: -N=16
+#FLUX: -n=40
 #FLUX: --queue=general
 #FLUX: -t=86400
 #FLUX: --urgency=16

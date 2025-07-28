@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-hippo-9071
+#FLUX: --job-name=faux-house-0976
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=21600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-caramel-8670
+#FLUX: --job-name=expensive-nunchucks-9562
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

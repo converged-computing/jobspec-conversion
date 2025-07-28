@@ -1,6 +1,7 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-sundae-4217
+#FLUX: --job-name=tart-lizard-4235
 #FLUX: --queue=gpu
+#FLUX: -t=86400
 #FLUX: --urgency=16
 
 module load tensorflow/python2.7/20170218

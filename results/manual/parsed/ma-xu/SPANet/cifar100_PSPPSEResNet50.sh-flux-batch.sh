@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-cherry-1036
+#FLUX: --job-name=blank-nalgas-2448
 #FLUX: -n=4
 #FLUX: --queue=public
 #FLUX: -t=1800000

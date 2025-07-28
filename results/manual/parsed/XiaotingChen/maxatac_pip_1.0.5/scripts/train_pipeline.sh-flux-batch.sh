@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-noodle-0117
+#FLUX: --job-name=doopy-cupcake-6412
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/XiaotingChen/maxatac_pip_1.0.5/scripts/train_pipeline.sh

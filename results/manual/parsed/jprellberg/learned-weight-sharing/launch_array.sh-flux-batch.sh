@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-caramel-1899
+#FLUX: --job-name=carnivorous-house-8800
 #FLUX: -n=4
 #FLUX: --queue=long
 #FLUX: -t=518400

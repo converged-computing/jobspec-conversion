@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-house-9500
+#FLUX: --job-name=bumfuzzled-mango-0522
 #FLUX: --queue=cpu2019
 #FLUX: -t=172800
 #FLUX: --urgency=16

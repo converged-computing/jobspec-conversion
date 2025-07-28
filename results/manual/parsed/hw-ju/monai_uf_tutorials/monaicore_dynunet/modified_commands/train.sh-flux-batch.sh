@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-spoon-6523
+#FLUX: --job-name=expressive-leader-7154
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=3600

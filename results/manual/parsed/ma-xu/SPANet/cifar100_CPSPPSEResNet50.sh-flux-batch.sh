@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-plant-1755
+#FLUX: --job-name=bloated-lamp-3038
 #FLUX: -n=4
 #FLUX: --queue=public
 #FLUX: -t=1800000

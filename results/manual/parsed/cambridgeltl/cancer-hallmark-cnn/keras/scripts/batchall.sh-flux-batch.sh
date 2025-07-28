@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-cat-4419
+#FLUX: --job-name=chocolate-latke-2774
 #FLUX: --queue=tesla
 #FLUX: -t=3600
 #FLUX: --urgency=16

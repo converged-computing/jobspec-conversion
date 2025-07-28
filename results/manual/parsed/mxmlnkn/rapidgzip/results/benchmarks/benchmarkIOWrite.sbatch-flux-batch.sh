@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-carrot-8466
+#FLUX: --job-name=joyous-muffin-7217
 #FLUX: -c=16
 #FLUX: --exclusive
 #FLUX: --queue=romeo

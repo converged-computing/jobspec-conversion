@@ -1,8 +1,9 @@
 {
-    "slurm": 23694,
+    "slurm": 23690,
     "pbs": 6126,
     "lsf": 2420,
     "oar": 126,
     "cobalt": 562,
-    "flux": 64
+    "flux": 64,
+    "moab": 4
 }

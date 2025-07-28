@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-staircase-3732
+#FLUX: --job-name=sticky-leader-5769
 #FLUX: -n=8
 #FLUX: --queue=nvidia
 #FLUX: -t=345600

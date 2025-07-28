@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-mango-6632
+#FLUX: --job-name=hello-lentil-2181
 #FLUX: --urgency=16
 
 cd /home/um106329/aisafety

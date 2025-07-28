@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-puppy-9383
+#FLUX: --job-name=adorable-noodle-9228
 #FLUX: --queue=ztestpreemp
 #FLUX: -t=259200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-frito-3097
+#FLUX: --job-name=evasive-motorcycle-1956
 #FLUX: --queue=workq
 #FLUX: -t=86400
 #FLUX: --urgency=16

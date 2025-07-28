@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-cat-1394
+#FLUX: --job-name=bumfuzzled-leopard-9974
 #FLUX: -n=4
 #FLUX: --queue=maxwell
 #FLUX: -t=432000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-poodle-9894
+#FLUX: --job-name=milky-puppy-8485
 #FLUX: --exclusive
 #FLUX: --queue=hpc
 #FLUX: -t=259200

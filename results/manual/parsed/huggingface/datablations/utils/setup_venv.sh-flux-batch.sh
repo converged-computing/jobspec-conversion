@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-muffin-0764
+#FLUX: --job-name=moolicious-lemur-5290
 #FLUX: -c=20
 #FLUX: --queue=eap
 #FLUX: -t=3600

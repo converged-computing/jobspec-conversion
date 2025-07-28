@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-fudge-7180
+#FLUX: --job-name=stanky-onion-1080
 #FLUX: --queue=chaos
 #FLUX: -t=72000
 #FLUX: --urgency=16

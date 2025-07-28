@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-arm-4668
+#FLUX: --job-name=eccentric-cherry-1347
 #FLUX: -t=900
 #FLUX: --urgency=16
 

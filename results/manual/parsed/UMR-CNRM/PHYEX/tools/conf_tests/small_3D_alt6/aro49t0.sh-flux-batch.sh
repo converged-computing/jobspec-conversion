@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-plant-0937
+#FLUX: --job-name=cowy-staircase-9095
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

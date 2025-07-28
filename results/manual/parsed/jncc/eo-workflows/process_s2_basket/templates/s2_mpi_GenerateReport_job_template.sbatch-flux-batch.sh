@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-hobbit-9297
+#FLUX: --job-name=butterscotch-cattywampus-6545
 #FLUX: --queue=short-serial
 #FLUX: -t=21600
 #FLUX: --urgency=16

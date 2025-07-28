@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-taco-2682
+#FLUX: --job-name=ornery-snack-8748
 #FLUX: -n=21
 #FLUX: --queue=serc
 #FLUX: -t=604800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-leader-6906
+#FLUX: --job-name=stanky-pedo-5300
 #FLUX: -n=8
 #FLUX: --queue=batch
 #FLUX: -t=7200

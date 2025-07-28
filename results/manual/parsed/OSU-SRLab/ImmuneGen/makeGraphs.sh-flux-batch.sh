@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-cherry-6379
+#FLUX: --job-name=phat-destiny-6160
 #FLUX: -N=5
 #FLUX: -t=345600
 #FLUX: --urgency=16

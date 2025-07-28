@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-lentil-6117
+#FLUX: --job-name=outstanding-hippo-0127
 #FLUX: --queue=valhalla
 #FLUX: -t=432000
 #FLUX: --urgency=16

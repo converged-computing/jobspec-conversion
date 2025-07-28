@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-knife-5208
+#FLUX: --job-name=expensive-bike-8264
 #FLUX: --urgency=16
 
 set -eEuo pipefail +H

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-fudge-9586
+#FLUX: --job-name=pusheena-fork-4747
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/radix-io/io-sleuthing/examples/striping/polaris/ior-stripes.sh

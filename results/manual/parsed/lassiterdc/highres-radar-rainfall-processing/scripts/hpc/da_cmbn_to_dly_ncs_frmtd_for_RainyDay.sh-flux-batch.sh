@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-caramel-6644
+#FLUX: --job-name=frigid-earthworm-5263
 #FLUX: --queue=standard
 #FLUX: -t=172800
 #FLUX: --urgency=16

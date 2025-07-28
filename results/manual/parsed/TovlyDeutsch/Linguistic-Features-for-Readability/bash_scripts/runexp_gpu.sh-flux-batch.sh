@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-leader-7478
+#FLUX: --job-name=moolicious-staircase-1812
 #FLUX: -n=8
 #FLUX: --queue=gpu_requeue
 #FLUX: -t=480

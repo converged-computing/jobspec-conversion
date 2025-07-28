@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-blackbean-7754
+#FLUX: --job-name=chunky-onion-4268
 #FLUX: -c=40
 #FLUX: --queue=long
 #FLUX: -t=259200

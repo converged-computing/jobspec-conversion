@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=arid-squidward-4050
+#FLUX: --job-name=blank-nalgas-5928
 #FLUX: --urgency=16
 

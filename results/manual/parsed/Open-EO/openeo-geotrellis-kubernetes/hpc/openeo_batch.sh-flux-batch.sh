@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-pot-0019
+#FLUX: --job-name=wobbly-fork-2072
 #FLUX: -N=2
 #FLUX: -n=3
 #FLUX: -t=600

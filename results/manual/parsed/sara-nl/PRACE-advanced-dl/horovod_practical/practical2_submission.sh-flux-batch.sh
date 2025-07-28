@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-motorcycle-3828
+#FLUX: --job-name=ornery-cat-7369
 #FLUX: -N=8
 #FLUX: --queue=broadwell
 #FLUX: -t=6600

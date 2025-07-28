@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-latke-0566
+#FLUX: --job-name=evasive-plant-9984
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

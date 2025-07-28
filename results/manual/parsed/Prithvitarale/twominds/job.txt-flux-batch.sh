@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-fork-5898
+#FLUX: --job-name=arid-earthworm-8186
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=28800

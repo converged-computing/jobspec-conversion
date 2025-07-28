@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-toaster-7918
+#FLUX: --job-name=goodbye-kerfuffle-9303
 #FLUX: -N=2
 #FLUX: --queue=parallel
 #FLUX: -t=86400

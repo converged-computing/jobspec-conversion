@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-taco-0330
+#FLUX: --job-name=stanky-taco-3555
 #FLUX: -n=10
 #FLUX: -c=16
 #FLUX: --queue=cpu

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-chip-6346
+#FLUX: --job-name=muffled-toaster-2062
 #FLUX: -N=4
 #FLUX: -t=3000
 #FLUX: --urgency=16

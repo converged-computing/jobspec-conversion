@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-destiny-9951
+#FLUX: --job-name=bricky-caramel-3986
 #FLUX: --queue=normal
 #FLUX: -t=3600
 #FLUX: --urgency=16

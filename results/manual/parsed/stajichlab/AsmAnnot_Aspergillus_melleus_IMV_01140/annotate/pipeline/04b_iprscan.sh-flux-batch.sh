@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-butter-0352
+#FLUX: --job-name=outstanding-carrot-9922
 #FLUX: -n=32
 #FLUX: --queue=intel
 #FLUX: -t=172800

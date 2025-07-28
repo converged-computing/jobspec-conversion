@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-lamp-3395
+#FLUX: --job-name=strawberry-sundae-4475
 #FLUX: --exclusive
 #FLUX: --queue=a3mega
 #FLUX: --urgency=16

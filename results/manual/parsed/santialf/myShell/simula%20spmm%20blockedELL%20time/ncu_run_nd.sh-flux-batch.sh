@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-car-8541
+#FLUX: --job-name=misunderstood-squidward-1270
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

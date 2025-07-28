@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-pedo-0222
+#FLUX: --job-name=ornery-fork-7212
 #FLUX: -c=12
 #FLUX: --queue=short
 #FLUX: -t=1800

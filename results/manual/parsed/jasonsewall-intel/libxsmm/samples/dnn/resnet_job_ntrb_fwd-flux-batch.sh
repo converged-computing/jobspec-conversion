@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-carrot-2939
+#FLUX: --job-name=wobbly-cattywampus-8138
 #FLUX: -c=272
 #FLUX: --queue=knmb3
 #FLUX: -t=7200

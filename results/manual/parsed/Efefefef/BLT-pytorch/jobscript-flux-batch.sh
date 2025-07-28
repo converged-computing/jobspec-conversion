@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-poo-4433
+#FLUX: --job-name=carnivorous-itch-6761
 #FLUX: -c=9
 #FLUX: --queue=klab-gpu
 #FLUX: --urgency=16

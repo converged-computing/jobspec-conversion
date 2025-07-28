@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-butter-2481
+#FLUX: --job-name=expensive-pedo-1816
 #FLUX: --queue=GPU36
 #FLUX: --urgency=15
 

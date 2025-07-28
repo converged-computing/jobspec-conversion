@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cherry-0213
+#FLUX: --job-name=chocolate-malarkey-4518
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/aakankshbhat/mirgecom/scripts/lassen.bsub.sh

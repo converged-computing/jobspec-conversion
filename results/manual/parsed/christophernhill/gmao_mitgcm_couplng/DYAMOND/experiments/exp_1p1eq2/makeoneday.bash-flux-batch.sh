@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lamp-7816
+#FLUX: --job-name=butterscotch-earthworm-3388
 #FLUX: --urgency=16
 
 usage ()

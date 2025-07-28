@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-peas-9776
+#FLUX: --job-name=tart-parsnip-6038
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=86400

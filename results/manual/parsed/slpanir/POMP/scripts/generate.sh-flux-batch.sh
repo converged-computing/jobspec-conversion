@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-omelette-5471
+#FLUX: --job-name=dirty-truffle-5983
 #FLUX: -n=8
 #FLUX: --queue=priv_para
 #FLUX: --urgency=16

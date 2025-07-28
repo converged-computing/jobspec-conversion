@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-chip-5646
+#FLUX: --job-name=lovely-motorcycle-6876
 #FLUX: -n=20
 #FLUX: -c=4
 #FLUX: -t=600

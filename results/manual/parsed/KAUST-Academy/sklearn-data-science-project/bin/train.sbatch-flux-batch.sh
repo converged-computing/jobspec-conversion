@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-puppy-7427
+#FLUX: --job-name=placid-bits-4198
 #FLUX: -c=4
 #FLUX: --queue=batch
 #FLUX: -t=7200

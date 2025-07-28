@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-omelette-3005
+#FLUX: --job-name=scruptious-poo-6438
 #FLUX: -n=32
 #FLUX: --queue=defq
 #FLUX: -t=87840

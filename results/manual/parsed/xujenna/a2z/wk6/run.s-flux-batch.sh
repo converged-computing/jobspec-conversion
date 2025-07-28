@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name=ted_talks2
+#FLUX: -c=4
 #FLUX: -t=18000
 #FLUX: --urgency=16
 

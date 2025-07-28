@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-underoos-1115
+#FLUX: --job-name=hello-punk-4294
 #FLUX: --queue=gtx1080
 #FLUX: --urgency=16
 

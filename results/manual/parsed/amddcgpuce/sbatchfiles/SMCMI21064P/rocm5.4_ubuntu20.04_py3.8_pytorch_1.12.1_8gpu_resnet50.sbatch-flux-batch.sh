@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-truffle-8972
+#FLUX: --job-name=moolicious-blackbean-7647
 #FLUX: -c=16
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-itch-4885
+#FLUX: --job-name=fuzzy-platanos-3229
 #FLUX: --queue=gpu2
 #FLUX: -t=2700
 #FLUX: --urgency=16

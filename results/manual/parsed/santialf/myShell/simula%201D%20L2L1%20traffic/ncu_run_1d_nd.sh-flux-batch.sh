@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-lizard-6090
+#FLUX: --job-name=blank-peanut-butter-5966
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

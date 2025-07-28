@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-punk-6608
+#FLUX: --job-name=hairy-cupcake-7212
 #FLUX: --queue=qgpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

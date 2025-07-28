@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-itch-6106
+#FLUX: --job-name=persnickety-leader-4900
 #FLUX: -c=2
 #FLUX: --queue=gputest
 #FLUX: -t=900

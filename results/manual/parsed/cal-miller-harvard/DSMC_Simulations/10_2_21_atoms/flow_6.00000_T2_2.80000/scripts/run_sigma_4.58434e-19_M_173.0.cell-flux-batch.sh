@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-bike-6382
+#FLUX: --job-name=frigid-blackbean-4566
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

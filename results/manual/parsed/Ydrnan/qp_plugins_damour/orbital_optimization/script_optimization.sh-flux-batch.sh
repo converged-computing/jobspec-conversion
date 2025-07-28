@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-earthworm-6530
+#FLUX: --job-name=rainbow-nunchucks-4467
 #FLUX: -c=24
 #FLUX: --exclusive
 #FLUX: --queue=xeonv3

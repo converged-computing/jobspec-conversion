@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-lettuce-3068
+#FLUX: --job-name=astute-kitty-6853
 #FLUX: --queue=standard
 #FLUX: --urgency=16
 

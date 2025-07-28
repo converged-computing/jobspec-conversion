@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-nunchucks-7429
+#FLUX: --job-name=expressive-dog-3776
 #FLUX: -c=20
 #FLUX: --queue=scavenge
 #FLUX: -t=43200

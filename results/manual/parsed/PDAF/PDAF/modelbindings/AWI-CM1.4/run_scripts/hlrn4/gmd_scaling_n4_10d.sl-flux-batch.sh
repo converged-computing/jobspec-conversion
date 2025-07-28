@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-platanos-7321
+#FLUX: --job-name=lovable-omelette-6775
 #FLUX: -N=12
 #FLUX: -n=1152
 #FLUX: --queue=standard96

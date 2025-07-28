@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-bits-2305
+#FLUX: --job-name=expressive-cinnamonbun-3569
 #FLUX: --exclusive
 #FLUX: --queue=small-g
 #FLUX: -t=172800

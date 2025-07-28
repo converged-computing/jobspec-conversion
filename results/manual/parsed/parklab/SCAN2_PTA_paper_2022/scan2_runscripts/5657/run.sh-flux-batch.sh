@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-arm-8615
+#FLUX: --job-name=lovely-truffle-3152
 #FLUX: --queue=priopark
 #FLUX: -t=432000
 #FLUX: --urgency=16

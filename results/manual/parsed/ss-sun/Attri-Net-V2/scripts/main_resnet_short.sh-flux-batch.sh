@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-bits-8588
+#FLUX: --job-name=hanky-pot-4945
 #FLUX: --queue=gpu-2080ti
 #FLUX: -t=100800
 #FLUX: --urgency=16

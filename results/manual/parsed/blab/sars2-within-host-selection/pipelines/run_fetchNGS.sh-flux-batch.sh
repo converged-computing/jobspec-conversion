@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-car-7962
+#FLUX: --job-name=misunderstood-pedo-0725
 #FLUX: -n=15
 #FLUX: --queue=campus-new
 #FLUX: -t=3600

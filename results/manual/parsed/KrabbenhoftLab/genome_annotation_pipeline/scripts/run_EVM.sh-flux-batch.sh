@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-hope-6934
+#FLUX: --job-name=confused-arm-9481
 #FLUX: --queue=general-compute
 #FLUX: -t=259200
 #FLUX: --urgency=16

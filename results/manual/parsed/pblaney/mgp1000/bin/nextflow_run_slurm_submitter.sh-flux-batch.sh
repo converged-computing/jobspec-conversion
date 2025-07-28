@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-blackbean-6232
+#FLUX: --job-name=milky-punk-3956
 #FLUX: --urgency=16
 
 Help()

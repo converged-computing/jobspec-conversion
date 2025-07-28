@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-latke-6293
+#FLUX: --job-name=bumfuzzled-despacito-0541
 #FLUX: -c=32
 #FLUX: -t=7200
 #FLUX: --urgency=16

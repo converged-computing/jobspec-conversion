@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lettuce-2384
+#FLUX: --job-name=reclusive-lemon-3240
 #FLUX: --urgency=16
 
 n_nodes=$1

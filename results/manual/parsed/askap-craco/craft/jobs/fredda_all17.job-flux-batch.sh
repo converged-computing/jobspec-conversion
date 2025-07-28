@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-dog-7494
+#FLUX: --job-name=placid-train-5919
 #FLUX: --queue=gpuq
 #FLUX: -t=86340
 #FLUX: --urgency=16

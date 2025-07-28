@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-staircase-1759
+#FLUX: --job-name=phat-destiny-7042
 #FLUX: -n=4
 #FLUX: -c=4
 #FLUX: -t=300

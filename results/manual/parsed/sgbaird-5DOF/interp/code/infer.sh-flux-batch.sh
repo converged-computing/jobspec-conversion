@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-frito-7427
+#FLUX: --job-name=joyous-mango-1431
 #FLUX: --urgency=16
 
 mkdir ~/.matlab/$SLURM_ARRAY_JOB_ID.$SLURM_ARRAY_TASK_ID

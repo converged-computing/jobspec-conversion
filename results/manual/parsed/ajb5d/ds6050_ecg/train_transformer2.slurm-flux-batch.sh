@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-leader-1038
+#FLUX: --job-name=evasive-knife-8454
 #FLUX: -c=4
 #FLUX: --queue=gpu
 #FLUX: -t=259200

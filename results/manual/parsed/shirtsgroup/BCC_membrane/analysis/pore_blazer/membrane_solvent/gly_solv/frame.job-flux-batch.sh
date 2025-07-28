@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-train-1945
+#FLUX: --job-name=creamy-hobbit-7063
 #FLUX: --queue=RM-shared
 #FLUX: -t=14400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-bike-3741
+#FLUX: --job-name=carnivorous-onion-4270
 #FLUX: -c=4
 #FLUX: --queue=main
 #FLUX: -t=1800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-train-0247
+#FLUX: --job-name=misunderstood-train-4487
 #FLUX: -N=2
 #FLUX: --queue=bdwall
 #FLUX: -t=900

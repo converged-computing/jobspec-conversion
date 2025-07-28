@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-nalgas-0268
+#FLUX: --job-name=spicy-gato-4026
 #FLUX: -c=8
 #FLUX: --queue=gpgpu
 #FLUX: -t=345600

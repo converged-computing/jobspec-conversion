@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-underoos-9924
+#FLUX: --job-name=faux-signal-1466
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

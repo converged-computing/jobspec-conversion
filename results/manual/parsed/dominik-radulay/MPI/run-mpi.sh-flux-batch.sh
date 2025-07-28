@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-fork-4775
+#FLUX: --job-name=peachy-poo-0044
 #FLUX: --queue=course
 #FLUX: -t=120
 #FLUX: --urgency=16

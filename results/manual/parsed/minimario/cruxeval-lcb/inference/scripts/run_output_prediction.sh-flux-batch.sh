@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-ricecake-9651
+#FLUX: --job-name=evasive-milkshake-7427
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=learnlab

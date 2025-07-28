@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-carrot-0954
+#FLUX: --job-name=fugly-taco-7912
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-fork-2100
+#FLUX: --job-name=delicious-itch-6056
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

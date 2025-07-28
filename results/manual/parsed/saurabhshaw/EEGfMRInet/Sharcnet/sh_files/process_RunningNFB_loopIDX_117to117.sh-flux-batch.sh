@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-despacito-6933
+#FLUX: --job-name=creamy-sundae-2082
 #FLUX: -c=8
 #FLUX: -t=170
 #FLUX: --urgency=16

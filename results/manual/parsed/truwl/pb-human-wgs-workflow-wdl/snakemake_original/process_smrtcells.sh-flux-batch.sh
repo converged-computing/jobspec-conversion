@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-earthworm-8633
+#FLUX: --job-name=lovable-platanos-7503
 #FLUX: --urgency=16
 
 umask 002

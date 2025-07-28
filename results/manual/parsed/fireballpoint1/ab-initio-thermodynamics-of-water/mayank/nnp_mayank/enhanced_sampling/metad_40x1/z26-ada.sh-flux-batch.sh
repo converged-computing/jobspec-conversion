@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-signal-8971
+#FLUX: --job-name=bloated-fudge-7343
 #FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-parrot-9606
+#FLUX: --job-name=strawberry-bike-7079
 #FLUX: --queue=hci-rw
 #FLUX: -t=172800
 #FLUX: --urgency=16

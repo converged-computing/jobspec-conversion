@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-lemon-4998
+#FLUX: --job-name=moolicious-fudge-7974
 #FLUX: -c=4
 #FLUX: --queue=compute
 #FLUX: --urgency=16

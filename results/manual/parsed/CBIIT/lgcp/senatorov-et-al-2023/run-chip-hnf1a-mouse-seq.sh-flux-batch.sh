@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-leader-8233
+#FLUX: --job-name=butterscotch-itch-8906
 #FLUX: -c=12
 #FLUX: --queue=ccr
 #FLUX: -t=259200

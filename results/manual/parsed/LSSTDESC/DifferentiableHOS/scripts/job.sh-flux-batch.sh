@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-poo-5332
+#FLUX: --job-name=lovely-lettuce-5105
 #FLUX: --gpus-per-task=1
 #FLUX: -t=21600
 #FLUX: --urgency=16

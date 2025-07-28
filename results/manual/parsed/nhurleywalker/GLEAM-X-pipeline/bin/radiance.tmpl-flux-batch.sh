@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-animal-0076
+#FLUX: --job-name=placid-parsnip-0069
 #FLUX: --queue=STANDARDQ
 #FLUX: -t=1380
 #FLUX: --urgency=16

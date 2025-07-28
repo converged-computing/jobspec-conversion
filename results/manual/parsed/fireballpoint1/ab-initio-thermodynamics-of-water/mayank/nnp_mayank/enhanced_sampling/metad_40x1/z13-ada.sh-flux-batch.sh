@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-arm-1119
+#FLUX: --job-name=astute-lemur-2110
 #FLUX: -n=15
 #FLUX: -t=259200
 #FLUX: --urgency=16

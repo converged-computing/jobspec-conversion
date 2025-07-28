@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-car-4269
+#FLUX: --job-name=loopy-blackbean-9004
 #FLUX: -c=12
 #FLUX: --queue=gpu
 #FLUX: -t=172800

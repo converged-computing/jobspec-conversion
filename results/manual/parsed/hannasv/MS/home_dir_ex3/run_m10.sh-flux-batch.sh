@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-banana-4851
+#FLUX: --job-name=misunderstood-hippo-1623
 #FLUX: -n=6
 #FLUX: --queue=dgx2q
 #FLUX: -t=87840

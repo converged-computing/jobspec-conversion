@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-train-2515
+#FLUX: --job-name=reclusive-lettuce-3281
 #FLUX: -c=2
 #FLUX: --queue=short
 #FLUX: -t=720

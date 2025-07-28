@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-taco-7856
+#FLUX: --job-name=placid-chip-8529
 #FLUX: -t=3600
 #FLUX: --urgency=16
 

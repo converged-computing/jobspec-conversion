@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-peanut-butter-8174
+#FLUX: --job-name=expressive-butter-0543
 #FLUX: -n=2
 #FLUX: --queue=wildfire
 #FLUX: -t=600

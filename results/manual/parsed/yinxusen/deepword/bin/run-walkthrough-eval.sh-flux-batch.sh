@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-arm-5070
+#FLUX: --job-name=expressive-cat-6944
 #FLUX: -n=4
 #FLUX: --queue=isi
 #FLUX: -t=360000

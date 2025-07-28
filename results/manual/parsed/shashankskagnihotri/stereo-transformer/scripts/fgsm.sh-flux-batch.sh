@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-bits-5598
+#FLUX: --job-name=joyous-destiny-2411
 #FLUX: -c=64
 #FLUX: --queue=gpu
 #FLUX: -t=86399

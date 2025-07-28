@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-avocado-5722
+#FLUX: --job-name=hello-chip-6485
 #FLUX: --queue=gpu20
 #FLUX: -t=21600
 #FLUX: --urgency=16

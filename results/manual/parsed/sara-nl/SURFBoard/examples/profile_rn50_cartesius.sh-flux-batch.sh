@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-fork-1642
+#FLUX: --job-name=hairy-hope-8582
 #FLUX: --queue=gpu
 #FLUX: -t=216000
 #FLUX: --urgency=16

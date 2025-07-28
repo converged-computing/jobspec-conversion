@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lettuce-6494
+#FLUX: --job-name=lovable-kerfuffle-0940
 #FLUX: -c=4
 #FLUX: --queue=standard
 #FLUX: -t=43200

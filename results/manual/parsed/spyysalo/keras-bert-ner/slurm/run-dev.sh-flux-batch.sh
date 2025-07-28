@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-cat-0569
+#FLUX: --job-name=goodbye-nalgas-2106
 #FLUX: --queue=gpu
 #FLUX: -t=7200
 #FLUX: --urgency=16

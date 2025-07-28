@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-parsnip-7627
+#FLUX: --job-name=outstanding-snack-4664
 #FLUX: -c=8
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=30

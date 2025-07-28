@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-underoos-2942
+#FLUX: --job-name=eccentric-fork-8018
 #FLUX: --queue=mic
 #FLUX: -t=14400
 #FLUX: --urgency=16

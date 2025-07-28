@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-poo-6742
+#FLUX: --job-name=arid-cupcake-3031
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

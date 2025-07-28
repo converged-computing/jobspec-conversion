@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-blackbean-5448
+#FLUX: --job-name=carnivorous-toaster-8435
 #FLUX: -n=4
 #FLUX: --queue=public
 #FLUX: -t=1800000

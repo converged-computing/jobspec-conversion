@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-pancake-0244
+#FLUX: --job-name=eccentric-earthworm-0912
 #FLUX: -n=6
 #FLUX: --queue=huce_intel
 #FLUX: -t=30

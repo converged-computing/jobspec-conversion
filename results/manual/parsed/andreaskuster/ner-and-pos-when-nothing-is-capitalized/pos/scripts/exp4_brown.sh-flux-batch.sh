@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-earthworm-8095
+#FLUX: --job-name=pusheena-chair-4670
 #FLUX: -c=128
 #FLUX: --queue=amdv100
 #FLUX: -t=14400

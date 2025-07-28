@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-destiny-3482
+#FLUX: --job-name=cowy-cattywampus-9870
 #FLUX: -c=4
 #FLUX: --queue=cs
 #FLUX: -t=86400

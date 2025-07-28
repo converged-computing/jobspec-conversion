@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-staircase-4484
+#FLUX: --job-name=placid-carrot-1168
 #FLUX: --queue=64c512g
 #FLUX: --urgency=16
 

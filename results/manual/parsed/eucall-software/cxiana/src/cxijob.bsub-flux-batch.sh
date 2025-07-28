@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-nunchucks-0031
+#FLUX: --job-name=placid-signal-5066
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/eucall-software/cxiana/src/cxijob.bsub

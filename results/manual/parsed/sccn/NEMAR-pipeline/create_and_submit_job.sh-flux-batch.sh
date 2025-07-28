@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-peanut-0648
+#FLUX: --job-name=goodbye-nunchucks-0133
 #FLUX: --urgency=16
 
 dsnumber="$1"

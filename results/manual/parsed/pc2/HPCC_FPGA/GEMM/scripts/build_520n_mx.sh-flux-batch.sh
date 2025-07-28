@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-kerfuffle-3588
+#FLUX: --job-name=astute-signal-3240
 #FLUX: --queue=fpgasyn
 #FLUX: --urgency=16
 

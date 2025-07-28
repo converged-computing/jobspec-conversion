@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-ricecake-7942
+#FLUX: --job-name=placid-blackbean-8455
 #FLUX: --urgency=16
 
 hostname

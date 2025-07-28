@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-destiny-5140
+#FLUX: --job-name=stanky-blackbean-8482
 #FLUX: -t=1800
 #FLUX: --urgency=16
 

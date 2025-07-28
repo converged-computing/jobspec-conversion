@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-despacito-6032
+#FLUX: --job-name=muffled-kerfuffle-6776
 #FLUX: -n=2
 #FLUX: --queue=test
 #FLUX: -t=43200

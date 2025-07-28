@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-fork-9722
+#FLUX: --job-name=eccentric-milkshake-9927
 #FLUX: -t=8400
 #FLUX: --urgency=16
 

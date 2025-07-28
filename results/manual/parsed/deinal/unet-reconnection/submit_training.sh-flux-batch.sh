@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-despacito-9623
+#FLUX: --job-name=goodbye-parsnip-3643
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: -t=36000

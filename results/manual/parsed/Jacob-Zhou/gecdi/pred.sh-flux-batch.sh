@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-parsnip-4810
+#FLUX: --job-name=ornery-poo-7477
 #FLUX: -c=6
 #FLUX: --queue=batch
 #FLUX: -t=604800

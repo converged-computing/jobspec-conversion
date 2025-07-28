@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-malarkey-3844
+#FLUX: --job-name=gassy-lemon-5715
 #FLUX: --urgency=16
 
 set -euo pipefail

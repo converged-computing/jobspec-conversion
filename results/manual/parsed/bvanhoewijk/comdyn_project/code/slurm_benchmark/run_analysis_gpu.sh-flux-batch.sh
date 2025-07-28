@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-signal-1036
+#FLUX: --job-name=carnivorous-staircase-6746
 #FLUX: -c=18
 #FLUX: --exclusive
 #FLUX: --queue=gpu

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-frito-2252
+#FLUX: --job-name=chocolate-itch-3502
 #FLUX: -c=32
 #FLUX: --queue=broadwell
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-fork-8720
+#FLUX: --job-name=goodbye-ricecake-6000
 #FLUX: --queue=cor,general
 #FLUX: -t=604800
 #FLUX: --urgency=16

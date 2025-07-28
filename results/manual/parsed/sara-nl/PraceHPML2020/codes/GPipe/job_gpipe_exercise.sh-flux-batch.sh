@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-car-3979
+#FLUX: --job-name=salted-chair-7532
 #FLUX: -c=6
 #FLUX: --queue=gpu_shared
 #FLUX: -t=180

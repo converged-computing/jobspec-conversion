@@ -506,7 +506,7 @@
     "martinperezmaneiro/data_labelling/templates/jobTemplate_ft3.sh": "invalid literal for int() with base 10: '{tasks_per_job}'",
     "BraSDon/shuffle-variations/slurm/run-all.sh": "invalid literal for int() with base 10: '$time'",
     "dirac-institute/Asteroid_detection_CNN/tune/slurmtune.sh": "invalid literal for int() with base 10: '$walltime'",
-    "bsc-wdc/pycompss_bda/scripts/enqueue_csvm_mpi.sh": "invalid literal for int() with base 10: '${nodes}'",
+    "bsc-wdc/pycompss_bda/scripts/enqueue_csvm_mpi.sh": "invalid literal for int() with base 10: '${timelimit}'",
     "memray/OpenNMT-kpg-release/script/transfer/kpeval_cpu_template.sh": "invalid literal for int() with base 10: '{days}'",
     "memray/OpenNMT-kpg-release/script/release/tf/tl_gpu_template.sh": "invalid literal for int() with base 10: '{days}'",
     "mhinkka/articles/Assessing%20Big%20Data%20SQL%20Frameworks%20for%20Analyzing%20Event%20Logs/scripts-triton/triton.template.sh": "invalid literal for int() with base 10: '${LAUNCHER_TAG_NUM_NODES}'",
@@ -592,6 +592,6 @@
     "jyalim/sol-sbatch-templates/templates/example-mpi-with-openmpi-job/main.sh": "invalid literal for int() with base 10: '2-2'",
     "jyalim/sol-sbatch-templates/templates/example-mpi-with-hpcx-job/main.sh": "invalid literal for int() with base 10: '2-2'",
     "cbaziotis/lm-prior-for-nmt/fairseq_extension/experiments/slurm_train_lm.sh": "invalid literal for int() with base 10: '$TIME'",
-    "platipodium/mossco-code/scripts/mossco.sh": "invalid literal for int() with base 10: '${NPROC}'",
+    "platipodium/mossco-code/scripts/mossco.sh": "invalid literal for int() with base 10: '${NODES}'",
     "usnistgov/feasst/plugin/flat_histogram/tutorial/library/tutorial_8_trappe.sh": "invalid literal for int() with base 10: '${num_procs_ext}'"
 }

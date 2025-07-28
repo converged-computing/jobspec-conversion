@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-salad-1881
+#FLUX: --job-name=salted-motorcycle-6403
 #FLUX: --urgency=16
 
 echo "Loading software..."

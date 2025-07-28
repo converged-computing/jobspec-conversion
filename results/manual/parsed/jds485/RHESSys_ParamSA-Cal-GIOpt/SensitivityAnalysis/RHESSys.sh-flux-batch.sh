@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-egg-6774
+#FLUX: --job-name=milky-motorcycle-0611
 #FLUX: --queue=standard
 #FLUX: -t=3600
 #FLUX: --urgency=16

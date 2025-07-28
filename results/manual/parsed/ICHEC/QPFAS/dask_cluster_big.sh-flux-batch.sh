@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-punk-7193
+#FLUX: --job-name=boopy-cattywampus-4539
 #FLUX: -N=8
 #FLUX: --queue=ProdQ
 #FLUX: -t=259200

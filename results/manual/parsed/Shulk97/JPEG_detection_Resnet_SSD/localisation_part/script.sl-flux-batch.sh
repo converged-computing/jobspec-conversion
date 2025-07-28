@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-buttface-2302
+#FLUX: --job-name=butterscotch-punk-4956
 #FLUX: --queue=gpu_p100
 #FLUX: -t=172800
 #FLUX: --urgency=16

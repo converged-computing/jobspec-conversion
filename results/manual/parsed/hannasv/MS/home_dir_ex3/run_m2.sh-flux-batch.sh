@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-ricecake-5029
+#FLUX: --job-name=crusty-despacito-5206
 #FLUX: -n=6
 #FLUX: --queue=dgx2q
 #FLUX: -t=87840

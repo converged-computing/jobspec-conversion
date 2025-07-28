@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-dog-6431
+#FLUX: --job-name=scruptious-poodle-6624
 #FLUX: -c=12
 #FLUX: --queue=ai
 #FLUX: --urgency=16

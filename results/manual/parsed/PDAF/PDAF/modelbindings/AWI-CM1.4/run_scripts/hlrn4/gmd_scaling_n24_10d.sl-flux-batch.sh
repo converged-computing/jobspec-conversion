@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-earthworm-8999
+#FLUX: --job-name=gassy-underoos-1927
 #FLUX: -N=72
 #FLUX: -n=6912
 #FLUX: --queue=standard96

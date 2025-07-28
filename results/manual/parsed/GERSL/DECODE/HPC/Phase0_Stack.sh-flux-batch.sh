@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-buttface-6790
+#FLUX: --job-name=conspicuous-destiny-0342
 #FLUX: --queue=priority
 #FLUX: --urgency=16
 

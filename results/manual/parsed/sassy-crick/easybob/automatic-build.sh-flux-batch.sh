@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-caramel-1175
+#FLUX: --job-name=hanky-motorcycle-4768
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sassy-crick/easybob/automatic-build.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-chip-7524
+#FLUX: --job-name=eccentric-caramel-1750
 #FLUX: -c=12
 #FLUX: --urgency=16
 

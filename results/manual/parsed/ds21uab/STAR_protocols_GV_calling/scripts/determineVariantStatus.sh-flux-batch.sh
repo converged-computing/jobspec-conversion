@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-parrot-1862
+#FLUX: --job-name=outstanding-leopard-3157
 #FLUX: -c=5
 #FLUX: --queue=partition
 #FLUX: -t=300

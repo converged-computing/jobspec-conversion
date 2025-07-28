@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-citrus-2481
+#FLUX: --job-name=faux-muffin-8779
 #FLUX: --queue=fge
 #FLUX: -t=900
 #FLUX: --urgency=16

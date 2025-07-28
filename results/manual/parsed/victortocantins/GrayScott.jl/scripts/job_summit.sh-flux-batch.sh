@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-rabbit-6519
+#FLUX: --job-name=bricky-plant-1077
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/victortocantins/GrayScott.jl/scripts/job_summit.sh

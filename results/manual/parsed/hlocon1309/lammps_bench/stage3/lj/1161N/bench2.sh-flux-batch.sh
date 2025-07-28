@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-motorcycle-8988
+#FLUX: --job-name=eccentric-car-2624
 #FLUX: -n=16
 #FLUX: --queue=normal
 #FLUX: --urgency=16

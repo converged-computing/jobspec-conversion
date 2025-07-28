@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-knife-3302
+#FLUX: --job-name=astute-onion-7266
 #FLUX: --queue=a100_shared
 #FLUX: -t=3540
 #FLUX: --urgency=16

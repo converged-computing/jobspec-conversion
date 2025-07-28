@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=salted-latke-1308
+#FLUX: --job-name=rainbow-fork-7981
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-platanos-0876
+#FLUX: --job-name=expensive-peanut-butter-4779
 #FLUX: -c=48
 #FLUX: --queue=fasse
 #FLUX: -t=604800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-despacito-2315
+#FLUX: --job-name=faux-butter-2377
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

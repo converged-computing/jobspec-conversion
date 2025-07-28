@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-eagle-9873
+#FLUX: --job-name=salted-arm-3017
 #FLUX: --urgency=16
 
 read INPUTPRECOMPUTEDFILE < <( sed -n ${SLURM_ARRAY_TASK_ID}p $1 )

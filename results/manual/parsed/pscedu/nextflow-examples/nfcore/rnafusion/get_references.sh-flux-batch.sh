@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-lemur-8768
+#FLUX: --job-name=astute-mango-9734
 #FLUX: -n=3
 #FLUX: --queue=RM-shared
 #FLUX: -t=86400

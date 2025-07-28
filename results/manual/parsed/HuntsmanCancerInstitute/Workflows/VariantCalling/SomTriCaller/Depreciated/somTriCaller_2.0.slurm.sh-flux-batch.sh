@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-destiny-6818
+#FLUX: --job-name=evasive-eagle-0034
 #FLUX: --queue=hci-rw
 #FLUX: -t=259200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-despacito-9506
+#FLUX: --job-name=angry-mango-8164
 #FLUX: -n=24
 #FLUX: --queue=intel
 #FLUX: -t=259200

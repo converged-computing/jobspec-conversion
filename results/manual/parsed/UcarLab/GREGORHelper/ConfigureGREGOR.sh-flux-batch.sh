@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-cat-4268
+#FLUX: --job-name=milky-train-1351
 #FLUX: --urgency=16
 
 r2threshold=0.7

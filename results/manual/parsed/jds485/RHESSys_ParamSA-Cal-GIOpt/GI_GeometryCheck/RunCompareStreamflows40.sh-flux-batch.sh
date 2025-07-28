@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-despacito-7729
+#FLUX: --job-name=adorable-plant-0689
 #FLUX: --queue=standard
 #FLUX: -t=600
 #FLUX: --urgency=16

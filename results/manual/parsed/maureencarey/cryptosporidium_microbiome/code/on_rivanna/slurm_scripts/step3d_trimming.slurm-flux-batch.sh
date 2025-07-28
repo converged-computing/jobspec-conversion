@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-arm-4330
+#FLUX: --job-name=stanky-fork-2457
 #FLUX: --queue=standard
 #FLUX: -t=86400
 #FLUX: --urgency=16

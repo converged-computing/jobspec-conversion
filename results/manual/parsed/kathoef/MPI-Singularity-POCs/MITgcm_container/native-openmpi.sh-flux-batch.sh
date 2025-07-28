@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-chip-6460
+#FLUX: --job-name=dinosaur-ricecake-3831
 #FLUX: -N=2
 #FLUX: --queue=cluster
 #FLUX: -t=900

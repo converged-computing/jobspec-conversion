@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bits-0889
+#FLUX: --job-name=lovable-peas-8947
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

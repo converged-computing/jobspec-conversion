@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-eagle-3962
+#FLUX: --job-name=gloopy-ricecake-0233
 #FLUX: -n=4
 #FLUX: --queue=public
 #FLUX: -t=1800000

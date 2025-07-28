@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-general-7446
+#FLUX: --job-name=bricky-cupcake-9883
 #FLUX: --queue=compute
 #FLUX: -t=87300
 #FLUX: --urgency=16

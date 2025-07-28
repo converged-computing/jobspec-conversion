@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-mango-5079
+#FLUX: --job-name=stinky-cat-5038
 #FLUX: --queue=amdgpufast
 #FLUX: -t=14400
 #FLUX: --urgency=16

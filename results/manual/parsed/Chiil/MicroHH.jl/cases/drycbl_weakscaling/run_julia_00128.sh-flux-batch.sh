@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-squidward-2286
+#FLUX: --job-name=astute-latke-6914
 #FLUX: -c=4
 #FLUX: --exclusive
 #FLUX: --queue=thin

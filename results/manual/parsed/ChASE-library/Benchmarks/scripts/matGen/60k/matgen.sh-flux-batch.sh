@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-motorcycle-5851
+#FLUX: --job-name=muffled-frito-4815
 #FLUX: -N=4
 #FLUX: -n=64
 #FLUX: -c=8

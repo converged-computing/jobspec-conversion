@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-cinnamonbun-2600
+#FLUX: --job-name=persnickety-taco-6602
 #FLUX: -c=16
 #FLUX: --queue=owners
 #FLUX: -t=28800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-peas-8000
+#FLUX: --job-name=bloated-cherry-7977
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

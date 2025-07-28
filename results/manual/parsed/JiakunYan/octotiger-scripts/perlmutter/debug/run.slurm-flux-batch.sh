@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-butter-2615
+#FLUX: --job-name=fat-staircase-8537
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
 #FLUX: -t=60

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-salad-6129
+#FLUX: --job-name=expressive-hope-8825
 #FLUX: --urgency=16
 
 module load icc

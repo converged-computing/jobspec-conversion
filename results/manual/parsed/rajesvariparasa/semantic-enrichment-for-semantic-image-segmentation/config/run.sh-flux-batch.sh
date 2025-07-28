@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-bike-1307
+#FLUX: --job-name=stanky-pot-6108
 #FLUX: --queue=shortrun
 #FLUX: -t=108000
 #FLUX: --urgency=16

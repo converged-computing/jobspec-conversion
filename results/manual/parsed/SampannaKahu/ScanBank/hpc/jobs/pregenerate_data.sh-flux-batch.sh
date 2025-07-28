@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-nalgas-0603
+#FLUX: --job-name=fat-pancake-3692
 #FLUX: --exclusive
 #FLUX: --queue=normal_q
 #FLUX: -t=288000

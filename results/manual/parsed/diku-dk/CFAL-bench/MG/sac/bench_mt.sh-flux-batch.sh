@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-leopard-0464
+#FLUX: --job-name=buttery-poodle-0572
 #FLUX: -c=32
 #FLUX: --queue=csmpi_fpga_long
 #FLUX: -t=14400

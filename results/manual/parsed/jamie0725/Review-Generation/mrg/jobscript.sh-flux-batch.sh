@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-onion-9856
+#FLUX: --job-name=purple-malarkey-7362
 #FLUX: -c=3
 #FLUX: --queue=gpu_shared_course
 #FLUX: -t=36000

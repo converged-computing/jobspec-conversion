@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-dog-9920
+#FLUX: --job-name=rainbow-underoos-5995
 #FLUX: -N=2
 #FLUX: --queue=DevQ
 #FLUX: -t=3600

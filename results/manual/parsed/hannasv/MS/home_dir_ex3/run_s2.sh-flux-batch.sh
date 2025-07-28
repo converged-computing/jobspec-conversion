@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-train-1189
+#FLUX: --job-name=moolicious-butter-8689
 #FLUX: -n=32
 #FLUX: --queue=defq
 #FLUX: -t=87840

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-peas-8624
+#FLUX: --job-name=hanky-fork-6509
 #FLUX: -t=7200
 #FLUX: --urgency=16
 

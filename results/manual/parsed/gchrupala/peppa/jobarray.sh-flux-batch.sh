@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-ricecake-7720
+#FLUX: --job-name=loopy-malarkey-3443
 #FLUX: --queue=GPUExtended
 #FLUX: -t=2880
 #FLUX: --urgency=16

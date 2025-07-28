@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-fork-5099
+#FLUX: --job-name=bloated-onion-5507
 #FLUX: -N=2
 #FLUX: -c=8
 #FLUX: --queue=boost_usr_prod

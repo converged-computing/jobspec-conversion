@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-house-2321
+#FLUX: --job-name=gassy-taco-4577
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-mrtrix3-preproc/main

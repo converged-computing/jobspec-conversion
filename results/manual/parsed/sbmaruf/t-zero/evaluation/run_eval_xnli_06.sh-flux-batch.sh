@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-cat-3480
+#FLUX: --job-name=loopy-muffin-7417
 #FLUX: --queue=PA100q
 #FLUX: --urgency=16
 

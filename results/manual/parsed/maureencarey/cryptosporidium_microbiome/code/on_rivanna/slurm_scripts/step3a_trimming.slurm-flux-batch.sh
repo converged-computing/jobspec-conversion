@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-egg-7488
+#FLUX: --job-name=blank-lemon-5392
 #FLUX: --queue=standard
 #FLUX: -t=86400
 #FLUX: --urgency=16

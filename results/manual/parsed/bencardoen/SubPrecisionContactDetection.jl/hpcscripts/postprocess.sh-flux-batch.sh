@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-itch-3160
+#FLUX: --job-name=cowy-earthworm-3928
 #FLUX: -c=6
 #FLUX: -t=64800
 #FLUX: --urgency=16

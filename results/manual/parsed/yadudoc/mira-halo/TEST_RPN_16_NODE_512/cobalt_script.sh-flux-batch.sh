@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-buttface-7114
+#FLUX: --job-name=red-lamp-7239
 #FLUX: --urgency=16
 

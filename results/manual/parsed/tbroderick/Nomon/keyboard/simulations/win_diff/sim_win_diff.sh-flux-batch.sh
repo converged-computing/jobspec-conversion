@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=purple-bike-5161
+#FLUX: --job-name=buttery-lemur-1316
 #FLUX: --urgency=16
 
 source /etc/profile

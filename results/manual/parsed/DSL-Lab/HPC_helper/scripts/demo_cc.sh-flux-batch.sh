@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=wobbly-salad-7094
+#FLUX: --job-name=blue-peas-4734
 #FLUX: -N=2
 #FLUX: -n=8
 #FLUX: -c=8

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-bits-5191
+#FLUX: --job-name=delicious-egg-7836
 #FLUX: -c=8
 #FLUX: --queue=gpu
 #FLUX: -t=3600

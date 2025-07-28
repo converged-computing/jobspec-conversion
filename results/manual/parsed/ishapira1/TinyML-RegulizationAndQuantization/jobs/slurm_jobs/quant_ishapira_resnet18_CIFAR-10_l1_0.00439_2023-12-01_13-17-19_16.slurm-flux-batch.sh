@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-underoos-0085
+#FLUX: --job-name=fuzzy-fork-2584
 #FLUX: --queue=seas_gpu
 #FLUX: -t=36000
 #FLUX: --urgency=16

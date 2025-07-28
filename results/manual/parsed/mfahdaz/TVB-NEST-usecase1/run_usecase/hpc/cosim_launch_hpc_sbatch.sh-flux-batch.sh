@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-parsnip-3127
+#FLUX: --job-name=buttery-peas-1192
 #FLUX: -N=2
 #FLUX: --queue=develgpus
 #FLUX: -t=600

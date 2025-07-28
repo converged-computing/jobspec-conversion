@@ -1,5 +1,6 @@
 #!/bin/bash
 #FLUX: --job-name={batch_name}
+#FLUX: --queue=gpu4_medium,gpu4_long,gpu4_short,gpu8_short,gpu8_medium,gpu8_long
 #FLUX: -t=28800
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-leopard-0833
+#FLUX: --job-name=muffled-earthworm-7557
 #FLUX: -N=8
 #FLUX: --queue=RM
 #FLUX: -t=172800

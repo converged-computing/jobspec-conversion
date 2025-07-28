@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-platanos-5063
+#FLUX: --job-name=chocolate-pancake-7556
 #FLUX: -c=12
 #FLUX: --queue=ccr
 #FLUX: -t=259200

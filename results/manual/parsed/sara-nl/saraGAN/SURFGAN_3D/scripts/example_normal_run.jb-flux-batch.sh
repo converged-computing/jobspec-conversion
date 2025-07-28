@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-buttface-3784
+#FLUX: --job-name=bumfuzzled-salad-8211
 #FLUX: -c=6
 #FLUX: --queue=gpu_titanrtx
 #FLUX: -t=432000

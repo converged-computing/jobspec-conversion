@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cherry-9923
+#FLUX: --job-name=muffled-banana-8134
 #FLUX: -c=12
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16

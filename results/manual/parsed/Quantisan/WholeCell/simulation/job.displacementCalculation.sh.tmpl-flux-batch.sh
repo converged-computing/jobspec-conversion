@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-snack-2629
+#FLUX: --job-name=scruptious-cat-4566
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Quantisan/WholeCell/simulation/job.displacementCalculation.sh.tmpl

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-chip-0327
+#FLUX: --job-name=red-mango-0668
 #FLUX: -n=8
 #FLUX: --queue=gpgpumse
 #FLUX: -t=259200

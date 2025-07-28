@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-fork-7393
+#FLUX: --job-name=evasive-bike-8886
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

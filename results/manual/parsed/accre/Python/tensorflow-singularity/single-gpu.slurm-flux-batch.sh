@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-ricecake-4739
+#FLUX: --job-name=bumfuzzled-fudge-7933
 #FLUX: --queue=pascal
 #FLUX: -t=43200
 #FLUX: --urgency=16

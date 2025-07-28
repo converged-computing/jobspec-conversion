@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-parsnip-4318
+#FLUX: --job-name=moolicious-puppy-1957
 #FLUX: -c=64
 #FLUX: --queue=amd
 #FLUX: -t=180000

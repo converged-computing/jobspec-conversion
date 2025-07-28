@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-pot-4014
+#FLUX: --job-name=psycho-parrot-5563
 #FLUX: --queue=nlp
 #FLUX: -t=172740
 #FLUX: --urgency=16

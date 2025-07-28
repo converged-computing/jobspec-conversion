@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-itch-1063
+#FLUX: --job-name=conspicuous-despacito-2481
 #FLUX: --queue=a100q
 #FLUX: -t=900
 #FLUX: --urgency=16

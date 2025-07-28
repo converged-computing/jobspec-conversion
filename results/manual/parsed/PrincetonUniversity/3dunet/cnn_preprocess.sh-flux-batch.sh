@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-house-0646
+#FLUX: --job-name=expensive-leopard-0781
 #FLUX: --queue=all
 #FLUX: -t=600
 #FLUX: --urgency=16

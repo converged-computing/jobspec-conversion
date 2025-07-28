@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-destiny-6719
+#FLUX: --job-name=faux-omelette-3437
 #FLUX: -c=32
 #FLUX: --queue=amdgpulong
 #FLUX: -t=259200

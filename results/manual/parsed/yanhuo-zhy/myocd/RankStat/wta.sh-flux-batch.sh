@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-muffin-2299
+#FLUX: --job-name=dinosaur-latke-3770
 #FLUX: -c=5
 #FLUX: --queue=general
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-hobbit-4022
+#FLUX: --job-name=ornery-cupcake-4672
 #FLUX: --exclusive
 #FLUX: --queue=gpu-shared
 #FLUX: -t=1800

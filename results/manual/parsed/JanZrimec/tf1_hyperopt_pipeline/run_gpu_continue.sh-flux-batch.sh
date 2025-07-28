@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-platanos-1561
+#FLUX: --job-name=peachy-snack-8710
 #FLUX: -n=32
 #FLUX: --queue=vera
 #FLUX: -t=604800

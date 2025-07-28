@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-platanos-5198
+#FLUX: --job-name=moolicious-butter-5779
 #FLUX: --urgency=15
 
 module load miniconda3/v4

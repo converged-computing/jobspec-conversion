@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-bike-4898
+#FLUX: --job-name=butterscotch-lettuce-6664
 #FLUX: -c=48
 #FLUX: --queue=hpc4-3d
 #FLUX: -t=259199

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-chair-4117
+#FLUX: --job-name=reclusive-pot-7212
 #FLUX: -n=4
 #FLUX: --queue=wildfire
 #FLUX: -t=13800

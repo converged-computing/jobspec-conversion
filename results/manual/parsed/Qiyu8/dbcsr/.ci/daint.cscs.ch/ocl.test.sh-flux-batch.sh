@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-onion-5470
+#FLUX: --job-name=joyous-pot-7315
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16
 

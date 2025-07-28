@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-caramel-1257
+#FLUX: --job-name=pusheena-destiny-2674
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RasmusJuul/yolov7_helmet/submit_train.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=adorable-cattywampus-8376
+#FLUX: --job-name=phat-nunchucks-3320
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cms-analysis/HiggsAnalysis-HZZ4l_Combination/RunLimits/scripts/makeLimits.pbs.sh

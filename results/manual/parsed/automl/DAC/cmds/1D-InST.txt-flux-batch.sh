@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-motorcycle-5972
+#FLUX: --job-name=wobbly-pedo-2843
 #FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 

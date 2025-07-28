@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-malarkey-2803
+#FLUX: --job-name=pusheena-parsnip-3492
 #FLUX: --queue=courses-gpu
 #FLUX: -t=300
 #FLUX: --urgency=16

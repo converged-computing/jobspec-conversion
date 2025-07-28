@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-peanut-7150
+#FLUX: --job-name=conspicuous-chair-0044
 #FLUX: -n=8
 #FLUX: --queue=shared
 #FLUX: -t=480

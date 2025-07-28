@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-punk-7847
+#FLUX: --job-name=bumfuzzled-cherry-9008
 #FLUX: -c=3
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16

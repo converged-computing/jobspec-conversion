@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-kerfuffle-7242
+#FLUX: --job-name=arid-peas-2199
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=solarlab

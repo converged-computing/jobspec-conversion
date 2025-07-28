@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-lizard-2256
+#FLUX: --job-name=expressive-lemon-4779
 #FLUX: -n=16
 #FLUX: --queue=batch
 #FLUX: -t=36000

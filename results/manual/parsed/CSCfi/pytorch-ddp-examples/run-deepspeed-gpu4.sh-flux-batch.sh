@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-chair-7044
+#FLUX: --job-name=placid-butter-0995
 #FLUX: -c=40
 #FLUX: --queue=gputest
 #FLUX: -t=900

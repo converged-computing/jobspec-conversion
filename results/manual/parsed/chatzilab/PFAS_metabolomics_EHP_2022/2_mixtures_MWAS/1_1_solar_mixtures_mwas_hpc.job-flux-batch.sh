@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-underoos-4946
+#FLUX: --job-name=chunky-buttface-0653
 #FLUX: -N=8
 #FLUX: --queue=epyc-64
 #FLUX: -t=72000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-milkshake-3375
+#FLUX: --job-name=purple-lettuce-6606
 #FLUX: -n=4
 #FLUX: -c=2
 #FLUX: --queue=savio2_gpu

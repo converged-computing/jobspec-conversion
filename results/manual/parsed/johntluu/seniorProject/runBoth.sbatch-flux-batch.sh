@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-milkshake-4902
+#FLUX: --job-name=astute-mango-1355
 #FLUX: -N=2
 #FLUX: --queue=defq
 #FLUX: --urgency=16

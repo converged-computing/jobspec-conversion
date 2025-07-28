@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-parrot-8400
+#FLUX: --job-name=dirty-lentil-7529
 #FLUX: --queue=cpufast
 #FLUX: -t=3600
 #FLUX: --urgency=16

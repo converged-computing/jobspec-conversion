@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-caramel-6910
+#FLUX: --job-name=sticky-lizard-6144
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/software/cfour/cfour_tests/PBS_grid_umb_sk-cfour-openmpi_tests.01

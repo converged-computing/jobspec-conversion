@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-chair-4823
+#FLUX: --job-name=expressive-frito-6791
 #FLUX: -c=32
 #FLUX: --queue=pool
 #FLUX: --urgency=16

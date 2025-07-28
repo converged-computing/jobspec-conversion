@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-lettuce-6978
+#FLUX: --job-name=placid-mango-2650
 #FLUX: -c=3
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16

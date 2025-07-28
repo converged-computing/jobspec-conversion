@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-mango-2923
+#FLUX: --job-name=anxious-salad-7335
 #FLUX: -c=8
 #FLUX: --queue=huce_intel
 #FLUX: -t=87600

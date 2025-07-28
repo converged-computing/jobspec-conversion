@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-muffin-1217
+#FLUX: --job-name=muffled-car-5172
 #FLUX: -c=2
 #FLUX: --queue=general
 #FLUX: -t=14400

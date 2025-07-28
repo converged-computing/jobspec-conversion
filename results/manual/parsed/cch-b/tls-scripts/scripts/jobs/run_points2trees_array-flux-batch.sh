@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-salad-4085
+#FLUX: --job-name=chunky-eagle-3999
 #FLUX: --queue=high-mem
 #FLUX: -t=86400
 #FLUX: --urgency=16

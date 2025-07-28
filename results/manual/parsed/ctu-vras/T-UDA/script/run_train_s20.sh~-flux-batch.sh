@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-buttface-2555
+#FLUX: --job-name=hello-bike-6046
 #FLUX: --queue=amdgpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-plant-3319
+#FLUX: --job-name=hairy-destiny-6072
 #FLUX: --queue=amdgpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-lentil-5051
+#FLUX: --job-name=hello-house-7541
 #FLUX: --exclusive
 #FLUX: --queue=fpgasyn
 #FLUX: --urgency=16

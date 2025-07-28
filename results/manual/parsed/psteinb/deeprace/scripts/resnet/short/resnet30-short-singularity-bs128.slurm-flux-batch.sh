@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cat-1210
+#FLUX: --job-name=bloated-earthworm-9069
 #FLUX: --queue=gpu2
 #FLUX: -t=2700
 #FLUX: --urgency=16

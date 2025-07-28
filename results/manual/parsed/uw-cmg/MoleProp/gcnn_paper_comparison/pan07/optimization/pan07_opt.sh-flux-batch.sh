@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-diablo-9452
+#FLUX: --job-name=strawberry-pancake-2480
 #FLUX: --queue=sbel_cmg
 #FLUX: -t=259290
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=red-peanut-butter-9638
+#FLUX: --job-name=bloated-malarkey-2991
 #FLUX: -n=11
 #FLUX: --queue=msismall
 #FLUX: -t=86400

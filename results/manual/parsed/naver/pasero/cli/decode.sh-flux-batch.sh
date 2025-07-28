@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-mango-8524
+#FLUX: --job-name=peachy-parsnip-9579
 #FLUX: -c=4
 #FLUX: --gpus-per-task=1
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-taco-0729
+#FLUX: --job-name=peachy-peas-7296
 #FLUX: --queue=shared
 #FLUX: -t=86400
 #FLUX: --urgency=16

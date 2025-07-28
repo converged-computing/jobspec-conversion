@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-taco-2381
+#FLUX: --job-name=dirty-squidward-6079
 #FLUX: -N=14
 #FLUX: --queue=bdwall
 #FLUX: -t=3600

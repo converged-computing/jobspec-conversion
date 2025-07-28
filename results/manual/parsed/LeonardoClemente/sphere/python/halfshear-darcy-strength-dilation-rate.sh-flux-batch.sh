@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-ricecake-0213
+#FLUX: --job-name=conspicuous-soup-4411
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LeonardoClemente/sphere/python/halfshear-darcy-strength-dilation-rate.sh

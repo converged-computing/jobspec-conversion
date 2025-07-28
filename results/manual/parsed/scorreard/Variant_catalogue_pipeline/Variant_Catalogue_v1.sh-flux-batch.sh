@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-animal-3189
+#FLUX: --job-name=joyous-train-1992
 #FLUX: --queue=defq
 #FLUX: -t=721800
 #FLUX: --urgency=16

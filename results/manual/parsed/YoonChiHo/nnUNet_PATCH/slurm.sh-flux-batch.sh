@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lettuce-8085
+#FLUX: --job-name=faux-toaster-3626
 #FLUX: --queue=A100-pci
 #FLUX: --urgency=16
 

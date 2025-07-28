@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-diablo-4139
+#FLUX: --job-name=lovely-peanut-9410
 #FLUX: -N=16
 #FLUX: -c=14
 #FLUX: --queue=RM

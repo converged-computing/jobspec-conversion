@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-dog-0802
+#FLUX: --job-name=quirky-diablo-7928
 #FLUX: --queue=sched_mit_sloan_batch
 #FLUX: -t=900
 #FLUX: --urgency=16

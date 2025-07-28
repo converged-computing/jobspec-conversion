@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-earthworm-3177
+#FLUX: --job-name=expensive-parsnip-3517
 #FLUX: --urgency=16
 
 set -e

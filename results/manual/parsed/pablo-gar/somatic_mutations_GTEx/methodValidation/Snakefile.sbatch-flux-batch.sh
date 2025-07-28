@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chunky-staircase-6087
+#FLUX: --job-name=goodbye-sundae-1959
 #FLUX: --queue=hbfraser,hns,normal
 #FLUX: -t=43200
 #FLUX: --urgency=16

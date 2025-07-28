@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-blackbean-0324
+#FLUX: --job-name=confused-mango-1364
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=36000

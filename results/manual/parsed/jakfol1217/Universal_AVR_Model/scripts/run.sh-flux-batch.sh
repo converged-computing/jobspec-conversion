@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-egg-6127
+#FLUX: --job-name=cowy-toaster-2221
 #FLUX: -c=8
 #FLUX: --queue=short
 #FLUX: -t=86400

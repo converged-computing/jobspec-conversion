@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-rabbit-3306
+#FLUX: --job-name=grated-snack-0418
 #FLUX: -c=6
 #FLUX: --queue=develgpus
 #FLUX: -t=600

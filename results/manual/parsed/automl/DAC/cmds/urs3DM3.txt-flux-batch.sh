@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stinky-nalgas-6658
+#FLUX: --job-name=rainbow-pedo-9841
 #FLUX: -c=2
 #FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-pot-5320
+#FLUX: --job-name=wobbly-fudge-8693
 #FLUX: -n=40
 #FLUX: --exclusive
 #FLUX: --urgency=16

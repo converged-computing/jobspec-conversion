@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-blackbean-6430
+#FLUX: --job-name=goodbye-plant-0539
 #FLUX: --queue=gpu-a100
 #FLUX: -t=172800
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-chair-5783
+#FLUX: --job-name=bricky-rabbit-0591
 #FLUX: --urgency=16
 
 module load nvidia/11.1

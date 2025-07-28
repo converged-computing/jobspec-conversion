@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-mango-7596
+#FLUX: --job-name=angry-cupcake-4017
 #FLUX: -c=8
 #FLUX: --queue=lonepeak
 #FLUX: -t=21600

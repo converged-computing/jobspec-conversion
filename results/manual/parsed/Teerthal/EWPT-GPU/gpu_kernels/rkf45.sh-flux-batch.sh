@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-lemon-9887
+#FLUX: --job-name=boopy-chip-1696
 #FLUX: --queue=public
 #FLUX: -t=1200
 #FLUX: --urgency=16

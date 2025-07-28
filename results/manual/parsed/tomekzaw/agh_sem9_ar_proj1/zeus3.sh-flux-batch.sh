@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=spicy-taco-2079
+#FLUX: --job-name=anxious-cinnamonbun-1481
 #FLUX: -n=20
 #FLUX: --queue=plgrid
 #FLUX: -t=7200

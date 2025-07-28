@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-parsnip-7578
+#FLUX: --job-name=butterscotch-buttface-1519
 #FLUX: --queue=batch
 #FLUX: -t=300
 #FLUX: --urgency=16

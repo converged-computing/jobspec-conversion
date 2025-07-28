@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-destiny-9165
+#FLUX: --job-name=gloopy-eagle-6219
 #FLUX: -n=32
 #FLUX: --queue=dev_q
 #FLUX: -t=7200

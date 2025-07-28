@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-train-0194
+#FLUX: --job-name=goodbye-fudge-8429
 #FLUX: -c=2
 #FLUX: --queue=gpu
 #FLUX: -t=7200

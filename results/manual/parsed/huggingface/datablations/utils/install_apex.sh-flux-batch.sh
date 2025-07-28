@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-hobbit-4718
+#FLUX: --job-name=conspicuous-chair-2593
 #FLUX: -c=20
 #FLUX: --queue=eap
 #FLUX: -t=3600

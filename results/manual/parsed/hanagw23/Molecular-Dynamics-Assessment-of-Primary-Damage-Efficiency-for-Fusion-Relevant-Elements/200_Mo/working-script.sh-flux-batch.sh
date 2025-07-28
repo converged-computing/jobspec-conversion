@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-buttface-5936
+#FLUX: --job-name=expensive-itch-4977
 #FLUX: -N=3
 #FLUX: -n=96
 #FLUX: -t=255600

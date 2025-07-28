@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-frito-7034
+#FLUX: --job-name=fuzzy-onion-1770
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kbsezginel/thermof/thermof/sample/job.pbs.sample

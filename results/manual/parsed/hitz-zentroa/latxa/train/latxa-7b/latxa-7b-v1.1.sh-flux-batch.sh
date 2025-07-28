@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-bike-4971
+#FLUX: --job-name=crusty-malarkey-6969
 #FLUX: -N=8
 #FLUX: --exclusive
 #FLUX: --queue=boost_usr_prod

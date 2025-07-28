@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-kerfuffle-3383
+#FLUX: --job-name=hello-onion-7621
 #FLUX: --queue=all
 #FLUX: -t=21600
 #FLUX: --urgency=16

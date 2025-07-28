@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-noodle-3005
+#FLUX: --job-name=frigid-truffle-0567
 #FLUX: -c=4
 #FLUX: --urgency=16
 

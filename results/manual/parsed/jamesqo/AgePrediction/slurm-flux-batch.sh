@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-earthworm-9842
+#FLUX: --job-name=expensive-pedo-3979
 #FLUX: --queue=fnndsc-gpu
 #FLUX: -t=432000
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-signal-0425
+#FLUX: --job-name=hairy-buttface-9136
 #FLUX: --queue=standard
 #FLUX: -t=1200
 #FLUX: --urgency=16

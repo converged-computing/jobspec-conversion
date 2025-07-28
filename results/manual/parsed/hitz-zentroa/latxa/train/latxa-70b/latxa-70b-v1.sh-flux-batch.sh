@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=joyous-lemon-9761
+#FLUX: --job-name=eccentric-squidward-1337
 #FLUX: -N=16
 #FLUX: --exclusive
 #FLUX: --queue=boost_usr_prod

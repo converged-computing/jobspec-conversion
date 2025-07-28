@@ -1,0 +1,11 @@
+#!/bin/bash
+#FLUX: --job-name=muffled-arm-9648
+#FLUX: --queue=standard
+#FLUX: -t=129600
+#FLUX: --urgency=16
+
+CONFIG='config/cluster'
+CORES=36
+conda env export > environment.yml
+cp Snakefile workflow.smk
+snakemake --profile ${CONFIG} --use-conda --cores ${CORES} --rerun-incomplete --latency-wait 90 --verbose -s workflow.smk 

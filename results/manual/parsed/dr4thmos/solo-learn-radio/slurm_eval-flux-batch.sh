@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-motorcycle-1113
+#FLUX: --job-name=frigid-lemon-7875
 #FLUX: -c=16
 #FLUX: --queue=boost_usr_prod
 #FLUX: -t=36000

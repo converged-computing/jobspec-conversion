@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-hippo-7067
+#FLUX: --job-name=stinky-lentil-4827
 #FLUX: --urgency=16
 
 dir='slurm/scripts'  # directory where the slurm scripts are

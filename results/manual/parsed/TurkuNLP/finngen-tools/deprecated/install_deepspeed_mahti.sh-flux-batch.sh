@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-bicycle-2439
+#FLUX: --job-name=reclusive-soup-1790
 #FLUX: --queue=gputest
 #FLUX: -t=900
 #FLUX: --urgency=16

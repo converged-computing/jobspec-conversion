@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-omelette-1631
+#FLUX: --job-name=persnickety-nalgas-9100
 #FLUX: -N=4
 #FLUX: --queue=[partition]
 #FLUX: --urgency=16

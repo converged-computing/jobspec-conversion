@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-staircase-0942
+#FLUX: --job-name=stinky-pastry-3492
 #FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16

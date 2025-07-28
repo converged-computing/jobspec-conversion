@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-omelette-4304
+#FLUX: --job-name=arid-diablo-3086
 #FLUX: -N=2
 #FLUX: --queue=defq
 #FLUX: --urgency=16

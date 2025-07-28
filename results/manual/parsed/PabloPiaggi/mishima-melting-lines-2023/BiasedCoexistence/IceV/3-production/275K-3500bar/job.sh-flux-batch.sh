@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-egg-4388
+#FLUX: --job-name=reclusive-punk-1702
 #FLUX: -c=7
 #FLUX: -t=90000
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-parrot-4868
+#FLUX: --job-name=hello-signal-1856
 #FLUX: -c=8
 #FLUX: -t=170
 #FLUX: --urgency=16

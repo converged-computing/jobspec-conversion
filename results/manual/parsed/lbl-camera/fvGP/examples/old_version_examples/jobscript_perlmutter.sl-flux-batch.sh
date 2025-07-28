@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-animal-2862
+#FLUX: --job-name=swampy-egg-0804
 #FLUX: -n=256
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1

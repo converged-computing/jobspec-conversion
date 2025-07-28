@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-arm-1861
+#FLUX: --job-name=arid-hope-8438
 #FLUX: -n=16
 #FLUX: --queue=shared
 #FLUX: -t=480

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-bicycle-6362
+#FLUX: --job-name=joyous-poo-1382
 #FLUX: -N=24
 #FLUX: -n=768
 #FLUX: --queue=debug

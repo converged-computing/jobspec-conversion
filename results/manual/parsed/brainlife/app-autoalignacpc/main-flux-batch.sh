@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-chair-0632
+#FLUX: --job-name=blue-latke-7412
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/brainlife/app-autoalignacpc/main

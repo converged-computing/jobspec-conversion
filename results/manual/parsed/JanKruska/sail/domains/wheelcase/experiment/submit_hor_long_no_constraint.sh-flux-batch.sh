@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-nalgas-9950
+#FLUX: --job-name=chunky-punk-2344
 #FLUX: --exclusive
 #FLUX: --queue=hpc
 #FLUX: -t=259200

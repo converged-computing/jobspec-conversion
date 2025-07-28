@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-cattywampus-9556
+#FLUX: --job-name=delicious-blackbean-8205
 #FLUX: -N=2
 #FLUX: -n=60
 #FLUX: --queue=huce_intel

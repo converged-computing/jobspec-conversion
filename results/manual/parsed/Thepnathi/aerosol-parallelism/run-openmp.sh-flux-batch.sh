@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-blackbean-3809
+#FLUX: --job-name=loopy-train-1325
 #FLUX: --queue=course
 #FLUX: --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-signal-5793
+#FLUX: --job-name=spicy-general-3264
 #FLUX: -c=20
 #FLUX: --queue=build
 #FLUX: -t=3600

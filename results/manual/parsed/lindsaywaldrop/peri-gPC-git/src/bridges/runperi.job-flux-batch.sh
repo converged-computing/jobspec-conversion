@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-lentil-9206
+#FLUX: --job-name=arid-itch-8183
 #FLUX: --queue=RM-shared
 #FLUX: -t=43200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-platanos-5968
+#FLUX: --job-name=lovable-toaster-3271
 #FLUX: --queue=hbfraser,hns,normal
 #FLUX: -t=259200
 #FLUX: --urgency=16

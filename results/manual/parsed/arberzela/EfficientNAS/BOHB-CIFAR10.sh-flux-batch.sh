@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-cattywampus-5826
+#FLUX: --job-name=wobbly-chair-1195
 #FLUX: --queue=meta_gpu-ti
 #FLUX: --urgency=16
 

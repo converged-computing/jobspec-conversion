@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-punk-1548
+#FLUX: --job-name=bloated-milkshake-7631
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=debug
 #FLUX: -t=600

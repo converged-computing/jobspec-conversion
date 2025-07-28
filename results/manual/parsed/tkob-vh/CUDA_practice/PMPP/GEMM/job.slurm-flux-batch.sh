@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-chair-9526
+#FLUX: --job-name=bumfuzzled-lentil-8745
 #FLUX: --urgency=16
 
 echo "Starting job $SLURM_JOB_ID"

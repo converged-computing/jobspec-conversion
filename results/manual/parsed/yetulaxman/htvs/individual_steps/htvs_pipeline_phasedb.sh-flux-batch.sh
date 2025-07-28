@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-despacito-2190
+#FLUX: --job-name=eccentric-train-1902
 #FLUX: -n=10
 #FLUX: --queue=small
 #FLUX: -t=4210

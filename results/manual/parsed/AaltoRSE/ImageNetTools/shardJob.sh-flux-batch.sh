@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dirty-pastry-8665
+#FLUX: --job-name=purple-lemon-2323
 #FLUX: -c=2
 #FLUX: --queue=dgx-common,gpu
 #FLUX: -t=43200

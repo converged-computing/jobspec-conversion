@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-leg-9584
+#FLUX: --job-name=eccentric-car-2447
 #FLUX: --queue=gpu_shared
 #FLUX: -t=54000
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hello-peanut-4087
+#FLUX: --job-name=boopy-general-4077
 #FLUX: -c=32
 #FLUX: --gpus-per-task=1
 #FLUX: -t=43200

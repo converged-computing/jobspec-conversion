@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-parsnip-9295
+#FLUX: --job-name=lovable-cherry-3073
 #FLUX: --queue=bosch_cpu-cascadelake
 #FLUX: --urgency=16
 

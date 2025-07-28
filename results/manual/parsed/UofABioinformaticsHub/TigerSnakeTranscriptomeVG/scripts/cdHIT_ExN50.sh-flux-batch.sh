@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-toaster-0767
+#FLUX: --job-name=eccentric-earthworm-4343
 #FLUX: -n=8
 #FLUX: --queue=batch
 #FLUX: -t=1800

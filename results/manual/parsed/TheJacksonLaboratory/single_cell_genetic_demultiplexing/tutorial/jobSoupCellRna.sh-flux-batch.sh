@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-dog-4057
+#FLUX: --job-name=phat-destiny-3248
 #FLUX: -n=29
 #FLUX: --queue=batch
 #FLUX: -t=174000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovable-lemur-7953
+#FLUX: --job-name=reclusive-peas-8789
 #FLUX: -n=32
 #FLUX: --queue=defq
 #FLUX: -t=87840

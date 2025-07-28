@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-nalgas-2144
+#FLUX: --job-name=stinky-poo-9901
 #FLUX: -c=16
 #FLUX: --queue=overflow
 #FLUX: -t=14400

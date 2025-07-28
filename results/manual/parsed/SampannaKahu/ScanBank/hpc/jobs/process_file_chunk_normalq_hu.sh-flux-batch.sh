@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-nalgas-8101
+#FLUX: --job-name=pusheena-platanos-6279
 #FLUX: --exclusive
 #FLUX: --queue=normal_q
 #FLUX: -t=172800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-egg-1745
+#FLUX: --job-name=blank-frito-1133
 #FLUX: --queue=luna-short
 #FLUX: -t=240
 #FLUX: --urgency=15

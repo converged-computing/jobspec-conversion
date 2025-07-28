@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=astute-lemon-5234
+#FLUX: --job-name=spicy-leader-0068
 #FLUX: -c=8
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-banana-9854
+#FLUX: --job-name=faux-destiny-7759
 #FLUX: -n=4
 #FLUX: --queue=priority
 #FLUX: -t=900

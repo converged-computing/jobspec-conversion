@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-gato-9203
+#FLUX: --job-name=quirky-poo-3025
 #FLUX: --exclusive
 #FLUX: --queue=t4_dev_q
 #FLUX: -t=300

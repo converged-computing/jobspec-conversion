@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-staircase-6723
+#FLUX: --job-name=crunchy-banana-7179
 #FLUX: --queue=gpu
 #FLUX: -t=518400
 #FLUX: --urgency=16

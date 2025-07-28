@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-egg-4512
+#FLUX: --job-name=bloated-earthworm-2332
 #FLUX: --queue=hci-rw
 #FLUX: -t=345600
 #FLUX: --urgency=16

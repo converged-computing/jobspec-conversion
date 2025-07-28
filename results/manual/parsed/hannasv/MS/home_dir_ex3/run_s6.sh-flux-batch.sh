@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-onion-7514
+#FLUX: --job-name=salted-parsnip-5903
 #FLUX: -n=32
 #FLUX: --queue=defq
 #FLUX: -t=87840

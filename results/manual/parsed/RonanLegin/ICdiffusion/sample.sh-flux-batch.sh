@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-bits-3388
+#FLUX: --job-name=cowy-salad-3985
 #FLUX: -c=6
 #FLUX: --queue=gpu
 #FLUX: -t=10800

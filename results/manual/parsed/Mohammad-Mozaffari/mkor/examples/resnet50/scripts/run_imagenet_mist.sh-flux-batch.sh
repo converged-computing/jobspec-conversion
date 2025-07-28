@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-parsnip-6642
+#FLUX: --job-name=bumfuzzled-leopard-1962
 #FLUX: -N=4
 #FLUX: --queue=compute_full_node
 #FLUX: -t=1800

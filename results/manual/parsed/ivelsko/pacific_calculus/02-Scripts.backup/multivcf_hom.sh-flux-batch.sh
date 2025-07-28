@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-eagle-6093
+#FLUX: --job-name=adorable-fork-4727
 #FLUX: -c=4
 #FLUX: --queue=short
 #FLUX: --urgency=16

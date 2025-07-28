@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-omelette-5411
+#FLUX: --job-name=arid-lizard-9730
 #FLUX: -n=6
 #FLUX: --queue=short
 #FLUX: -t=7200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-plant-1497
+#FLUX: --job-name=lovable-hippo-1613
 #FLUX: --urgency=16
 
 export NVME_HOME='/mnt/bb/$USER/'

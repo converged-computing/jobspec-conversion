@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-cherry-0952
+#FLUX: --job-name=expensive-blackbean-9669
 #FLUX: -n=128
 #FLUX: --queue=general
 #FLUX: -t=3000

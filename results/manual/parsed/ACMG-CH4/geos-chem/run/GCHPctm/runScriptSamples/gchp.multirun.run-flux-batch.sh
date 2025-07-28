@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-motorcycle-9972
+#FLUX: --job-name=delicious-salad-9948
 #FLUX: -n=30
 #FLUX: --exclusive
 #FLUX: --queue=huce_intel

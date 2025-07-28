@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-bike-5077
+#FLUX: --job-name=lovable-motorcycle-7417
 #FLUX: -n=24
 #FLUX: --queue=intel,batch
 #FLUX: -t=259200

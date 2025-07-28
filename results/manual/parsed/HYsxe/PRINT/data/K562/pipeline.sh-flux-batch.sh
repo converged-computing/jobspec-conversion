@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-car-2874
+#FLUX: --job-name=eccentric-omelette-2861
 #FLUX: -n=16
 #FLUX: --queue=test
 #FLUX: -t=240

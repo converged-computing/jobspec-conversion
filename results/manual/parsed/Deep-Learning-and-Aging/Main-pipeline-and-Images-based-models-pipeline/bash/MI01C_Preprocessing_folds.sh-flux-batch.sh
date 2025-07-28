@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lentil-9222
+#FLUX: --job-name=rainbow-car-2510
 #FLUX: --queue=priority
 #FLUX: --urgency=16
 

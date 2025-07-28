@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-earthworm-1058
+#FLUX: --job-name=bloated-chip-1636
 #FLUX: -c=6
 #FLUX: --queue=dgx2q
 #FLUX: -t=86460

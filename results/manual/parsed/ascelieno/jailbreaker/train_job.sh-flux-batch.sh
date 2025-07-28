@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-punk-3219
+#FLUX: --job-name=rainbow-hippo-5237
 #FLUX: --queue=amd_gpu
 #FLUX: -t=450000
 #FLUX: --urgency=16

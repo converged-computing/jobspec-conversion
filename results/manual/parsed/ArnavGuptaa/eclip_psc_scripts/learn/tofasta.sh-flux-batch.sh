@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-buttface-2307
+#FLUX: --job-name=hairy-hippo-0081
 #FLUX: --queue=RM-shared
 #FLUX: -t=3600
 #FLUX: --urgency=16

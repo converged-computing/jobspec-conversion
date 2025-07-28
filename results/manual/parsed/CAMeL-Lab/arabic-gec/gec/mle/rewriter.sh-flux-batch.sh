@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-cat-0903
+#FLUX: --job-name=lovable-fork-7382
 #FLUX: --queue=nvidia
 #FLUX: -t=144000
 #FLUX: --urgency=16

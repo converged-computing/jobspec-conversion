@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-lentil-1468
+#FLUX: --job-name=buttery-toaster-1639
 #FLUX: -n=16
 #FLUX: --queue=intel
 #FLUX: -t=172800

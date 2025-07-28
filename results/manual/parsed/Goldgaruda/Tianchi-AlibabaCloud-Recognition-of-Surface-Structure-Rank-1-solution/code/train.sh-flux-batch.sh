@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-diablo-4478
+#FLUX: --job-name=joyous-noodle-1992
 #FLUX: -n=5
 #FLUX: --queue=nvidia
 #FLUX: -t=172800

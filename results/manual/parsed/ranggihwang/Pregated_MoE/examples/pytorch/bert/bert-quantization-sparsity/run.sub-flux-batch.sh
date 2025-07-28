@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-nunchucks-4419
+#FLUX: --job-name=boopy-egg-1223
 #FLUX: --exclusive
 #FLUX: --urgency=16
 

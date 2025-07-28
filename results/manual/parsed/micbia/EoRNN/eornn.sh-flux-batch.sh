@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-lentil-8853
+#FLUX: --job-name=eccentric-house-9881
 #FLUX: -N=4
 #FLUX: -n=12
 #FLUX: --queue=mem192

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-signal-9648
+#FLUX: --job-name=red-earthworm-0323
 #FLUX: -n=10
 #FLUX: --queue=small
 #FLUX: -t=4210

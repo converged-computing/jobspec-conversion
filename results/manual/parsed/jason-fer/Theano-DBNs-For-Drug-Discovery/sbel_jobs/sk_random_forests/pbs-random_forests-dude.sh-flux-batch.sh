@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-earthworm-2603
+#FLUX: --job-name=blue-soup-3183
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jason-fer/Theano-DBNs-For-Drug-Discovery/sbel_jobs/sk_random_forests/pbs-random_forests-dude.sh

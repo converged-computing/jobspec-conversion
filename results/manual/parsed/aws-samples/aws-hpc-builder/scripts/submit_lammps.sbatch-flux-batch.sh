@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-fork-3637
+#FLUX: --job-name=salted-cupcake-2936
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=c6ipg

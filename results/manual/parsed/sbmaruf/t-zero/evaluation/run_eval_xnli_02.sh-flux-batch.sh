@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-earthworm-9278
+#FLUX: --job-name=evasive-platanos-2382
 #FLUX: --queue=PA100q
 #FLUX: --urgency=16
 

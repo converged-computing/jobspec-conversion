@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-frito-3148
+#FLUX: --job-name=sticky-fudge-0493
 #FLUX: -n=4
 #FLUX: --queue=alvis
 #FLUX: -t=2400

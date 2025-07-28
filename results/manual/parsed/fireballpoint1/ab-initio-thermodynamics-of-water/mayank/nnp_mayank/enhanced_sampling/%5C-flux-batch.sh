@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blue-lamp-1197
+#FLUX: --job-name=goodbye-carrot-0251
 #FLUX: -n=15
 #FLUX: --queue=long
 #FLUX: -t=432000

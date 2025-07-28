@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-kitty-7422
+#FLUX: --job-name=carnivorous-kitty-0001
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

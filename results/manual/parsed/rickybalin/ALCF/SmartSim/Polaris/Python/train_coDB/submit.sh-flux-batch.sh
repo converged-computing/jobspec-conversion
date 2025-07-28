@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-train-7317
+#FLUX: --job-name=carnivorous-pancake-3021
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rickybalin/ALCF/SmartSim/Polaris/Python/train_coDB/submit.sh

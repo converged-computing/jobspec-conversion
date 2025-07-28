@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-spoon-6692
+#FLUX: --job-name=lovable-chip-2911
 #FLUX: --queue=gpu20
 #FLUX: -t=43200
 #FLUX: --urgency=16

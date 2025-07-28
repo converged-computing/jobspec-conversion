@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-sundae-1447
+#FLUX: --job-name=dinosaur-car-3847
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dongfang91/concept_normalization/rnn_characters_pretrained.sh

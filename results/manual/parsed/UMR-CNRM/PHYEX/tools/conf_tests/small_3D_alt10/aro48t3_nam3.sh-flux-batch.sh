@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-cat-2269
+#FLUX: --job-name=astute-soup-6713
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

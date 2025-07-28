@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-eagle-3133
+#FLUX: --job-name=eccentric-truffle-1850
 #FLUX: --queue=normal
 #FLUX: -t=1800
 #FLUX: --urgency=16

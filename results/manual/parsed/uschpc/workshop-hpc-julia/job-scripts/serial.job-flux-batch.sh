@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=butterscotch-signal-2449
+#FLUX: --job-name=red-citrus-7806
 #FLUX: --queue=main
 #FLUX: -t=3600
 #FLUX: --urgency=16

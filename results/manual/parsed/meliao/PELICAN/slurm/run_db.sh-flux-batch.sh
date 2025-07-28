@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-lamp-7991
+#FLUX: --job-name=expressive-animal-4708
 #FLUX: --queue=genx
 #FLUX: -t=604800
 #FLUX: --urgency=16

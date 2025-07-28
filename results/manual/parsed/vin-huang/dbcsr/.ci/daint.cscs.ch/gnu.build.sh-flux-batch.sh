@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-mango-1872
+#FLUX: --job-name=goodbye-blackbean-5804
 #FLUX: -c=3
 #FLUX: --exclusive
 #FLUX: --queue=cscsci

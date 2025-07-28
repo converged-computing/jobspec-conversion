@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-cherry-2146
+#FLUX: --job-name=swampy-pedo-2708
 #FLUX: -c=256
 #FLUX: --queue=ai-jumpstart
 #FLUX: --urgency=16

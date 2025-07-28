@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-general-5886
+#FLUX: --job-name=salted-taco-0092
 #FLUX: --queue=3090-gcondo
 #FLUX: -t=300
 #FLUX: --urgency=16

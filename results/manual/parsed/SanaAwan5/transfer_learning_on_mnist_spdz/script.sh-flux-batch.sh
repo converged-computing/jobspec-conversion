@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-lemur-0261
+#FLUX: --job-name=stinky-pedo-2502
 #FLUX: -n=4
 #FLUX: -c=4
 #FLUX: --queue=intel

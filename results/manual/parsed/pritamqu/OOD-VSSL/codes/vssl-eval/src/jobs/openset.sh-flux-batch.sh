@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-cinnamonbun-0671
+#FLUX: --job-name=quirky-poodle-3245
 #FLUX: --queue=v100_full_node
 #FLUX: --urgency=16
 

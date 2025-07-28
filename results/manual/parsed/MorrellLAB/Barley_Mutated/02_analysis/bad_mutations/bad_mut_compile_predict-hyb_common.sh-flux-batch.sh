@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-milkshake-8889
+#FLUX: --job-name=placid-salad-7694
 #FLUX: --queue=small,ram256g,ram1t
 #FLUX: -t=7200
 #FLUX: --urgency=16

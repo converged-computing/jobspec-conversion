@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-nunchucks-9139
+#FLUX: --job-name=reclusive-parrot-0509
 #FLUX: --queue=ccb
 #FLUX: -t=360000
 #FLUX: --urgency=16

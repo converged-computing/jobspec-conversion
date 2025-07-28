@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=boopy-butter-1254
+#FLUX: --job-name=misunderstood-snack-9965
 #FLUX: --queue=stud-ewi
 #FLUX: -t=3600
 #FLUX: --urgency=16

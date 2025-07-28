@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-eagle-1052
+#FLUX: --job-name=bricky-gato-6500
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/r-caplier/CGvsNI-SSL/scripts/CIFAR10/CIFAR10-tempens.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-arm-0689
+#FLUX: --job-name=phat-dog-8960
 #FLUX: -n=18
 #FLUX: --queue=gpu
 #FLUX: -t=10500

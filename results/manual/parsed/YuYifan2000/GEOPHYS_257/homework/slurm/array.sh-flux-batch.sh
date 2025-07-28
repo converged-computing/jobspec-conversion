@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=chocolate-squidward-0197
+#FLUX: --job-name=bumfuzzled-bits-6057
 #FLUX: --queue=preempt
 #FLUX: -t=120
 #FLUX: --urgency=16

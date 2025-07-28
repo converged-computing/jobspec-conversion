@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-cherry-3753
+#FLUX: --job-name=gassy-carrot-4246
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-bike-2723
+#FLUX: --job-name=crunchy-despacito-1743
 #FLUX: -c=4
 #FLUX: -t=86400
 #FLUX: --urgency=16

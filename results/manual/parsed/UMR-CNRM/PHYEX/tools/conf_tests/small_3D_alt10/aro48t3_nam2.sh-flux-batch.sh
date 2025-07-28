@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-lemur-9503
+#FLUX: --job-name=red-muffin-1207
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

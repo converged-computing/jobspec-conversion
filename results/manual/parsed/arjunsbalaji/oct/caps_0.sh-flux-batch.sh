@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-parrot-3451
+#FLUX: --job-name=psycho-pedo-7106
 #FLUX: --queue=gpuq
 #FLUX: -t=7200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-despacito-3514
+#FLUX: --job-name=moolicious-diablo-7689
 #FLUX: -c=4
 #FLUX: --queue=bii
 #FLUX: -t=14400

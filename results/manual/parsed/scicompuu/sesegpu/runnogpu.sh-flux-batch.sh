@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-lettuce-0902
+#FLUX: --job-name=milky-spoon-9052
 #FLUX: -n=4
 #FLUX: --queue=devcore
 #FLUX: -t=3540

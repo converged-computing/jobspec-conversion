@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-hippo-4677
+#FLUX: --job-name=evasive-pancake-2962
 #FLUX: -N=2
 #FLUX: -c=16
 #FLUX: --queue=a40

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-bike-5745
+#FLUX: --job-name=evasive-diablo-2154
 #FLUX: -c=5
 #FLUX: --queue=astro
 #FLUX: -t=28800

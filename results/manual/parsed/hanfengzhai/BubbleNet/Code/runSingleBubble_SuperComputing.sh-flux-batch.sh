@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-leg-5260
+#FLUX: --job-name=astute-motorcycle-6485
 #FLUX: -c=64
 #FLUX: --queue=amd_1T
 #FLUX: --urgency=16

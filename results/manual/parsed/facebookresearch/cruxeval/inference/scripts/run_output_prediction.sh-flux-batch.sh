@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-leg-5054
+#FLUX: --job-name=goodbye-latke-3763
 #FLUX: -c=10
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=YOUR_PARTITION_HERE

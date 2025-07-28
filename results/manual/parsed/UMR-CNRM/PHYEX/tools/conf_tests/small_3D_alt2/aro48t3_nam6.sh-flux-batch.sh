@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-fork-4880
+#FLUX: --job-name=astute-earthworm-2399
 #FLUX: -n=4
 #FLUX: --queue=normal256
 #FLUX: -t=600

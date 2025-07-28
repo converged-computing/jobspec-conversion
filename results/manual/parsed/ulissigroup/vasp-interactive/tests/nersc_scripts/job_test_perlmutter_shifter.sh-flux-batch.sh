@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-hobbit-8661
+#FLUX: --job-name=gassy-ricecake-6355
 #FLUX: --queue=regular
 #FLUX: -t=7200
 #FLUX: --urgency=16

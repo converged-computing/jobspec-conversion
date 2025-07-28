@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-soup-0731
+#FLUX: --job-name=red-signal-4411
 #FLUX: --queue=defq
 #FLUX: -t=43200
 #FLUX: --urgency=16

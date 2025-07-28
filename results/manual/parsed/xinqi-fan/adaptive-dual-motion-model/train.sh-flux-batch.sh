@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-onion-6563
+#FLUX: --job-name=eccentric-house-9605
 #FLUX: -c=6
 #FLUX: --queue=gpu_7d1g
 #FLUX: --urgency=16

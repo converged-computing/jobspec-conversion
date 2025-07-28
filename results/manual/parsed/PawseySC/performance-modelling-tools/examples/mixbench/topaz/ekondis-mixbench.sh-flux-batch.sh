@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gassy-lamp-8878
+#FLUX: --job-name=hello-despacito-4058
 #FLUX: -c=8
 #FLUX: --queue=gpuq-dev
 #FLUX: -t=3600

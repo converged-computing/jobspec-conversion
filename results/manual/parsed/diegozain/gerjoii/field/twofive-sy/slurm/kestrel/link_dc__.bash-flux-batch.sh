@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-parsnip-2588
+#FLUX: --job-name=crusty-staircase-3852
 #FLUX: -c=10
 #FLUX: --exclusive
 #FLUX: -t=86400

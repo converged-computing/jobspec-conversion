@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-omelette-0090
+#FLUX: --job-name=hanky-pedo-0281
 #FLUX: --queue=hci-rw
 #FLUX: -t=172800
 #FLUX: --urgency=16

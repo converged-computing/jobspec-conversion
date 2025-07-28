@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cupcake-2579
+#FLUX: --job-name=milky-lamp-1610
 #FLUX: -n=16
 #FLUX: --queue=serial
 #FLUX: -t=3600

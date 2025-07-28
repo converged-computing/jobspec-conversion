@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-butter-6327
+#FLUX: --job-name=hello-arm-8856
 #FLUX: --queue=batch
 #FLUX: -t=300
 #FLUX: --urgency=16

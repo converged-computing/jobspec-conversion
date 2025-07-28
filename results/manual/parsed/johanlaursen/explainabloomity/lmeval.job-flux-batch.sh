@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-knife-2079
+#FLUX: --job-name=creamy-earthworm-0268
 #FLUX: -c=8
 #FLUX: --queue=red,brown
 #FLUX: -t=44100

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-snack-7079
+#FLUX: --job-name=quirky-cupcake-4396
 #FLUX: -N=64
 #FLUX: -n=64
 #FLUX: --queue=broadwell

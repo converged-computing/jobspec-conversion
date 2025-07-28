@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-banana-9142
+#FLUX: --job-name=evasive-knife-6462
 #FLUX: -n=24
 #FLUX: --urgency=16
 

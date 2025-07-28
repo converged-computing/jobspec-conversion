@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lemon-0822
+#FLUX: --job-name=hello-general-4024
 #FLUX: --queue=standard
 #FLUX: -t=14400
 #FLUX: --urgency=16

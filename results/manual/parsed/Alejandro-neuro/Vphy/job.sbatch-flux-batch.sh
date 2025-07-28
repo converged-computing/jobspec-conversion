@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=rainbow-lamp-3012
+#FLUX: --job-name=anxious-leader-1890
 #FLUX: -c=4
 #FLUX: --queue=general
 #FLUX: -t=3600

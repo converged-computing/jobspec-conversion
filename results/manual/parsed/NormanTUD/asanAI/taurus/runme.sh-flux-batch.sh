@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-lemon-7993
+#FLUX: --job-name=nerdy-lamp-0202
 #FLUX: --queue=alpha
 #FLUX: -t=7200
 #FLUX: --urgency=16

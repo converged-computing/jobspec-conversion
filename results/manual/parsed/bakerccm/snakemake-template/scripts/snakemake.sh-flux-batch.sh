@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-cinnamonbun-3686
+#FLUX: --job-name=ornery-kitty-8202
 #FLUX: -n=8
 #FLUX: --queue=priority
 #FLUX: -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=lovely-buttface-5364
+#FLUX: --job-name=scruptious-gato-8964
 #FLUX: --queue=scc
 #FLUX: -t=600
 #FLUX: --urgency=16

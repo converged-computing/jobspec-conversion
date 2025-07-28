@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-peanut-1601
+#FLUX: --job-name=eccentric-soup-0528
 #FLUX: -n=24
 #FLUX: --queue=shared
 #FLUX: -t=480

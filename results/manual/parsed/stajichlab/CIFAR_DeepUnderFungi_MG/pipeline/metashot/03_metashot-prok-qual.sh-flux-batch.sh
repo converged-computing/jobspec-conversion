@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-sundae-6312
+#FLUX: --job-name=goodbye-milkshake-5827
 #FLUX: -c=24
 #FLUX: --queue=batch
 #FLUX: --urgency=16

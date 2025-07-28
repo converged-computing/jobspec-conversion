@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=phat-chip-4763
+#FLUX: --job-name=expensive-fork-5059
 #FLUX: -c=20
 #FLUX: --queue=small
 #FLUX: -t=610

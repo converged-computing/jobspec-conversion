@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-egg-6848
+#FLUX: --job-name=muffled-pastry-0828
 #FLUX: -c=5
 #FLUX: --queue=general
 #FLUX: --urgency=16

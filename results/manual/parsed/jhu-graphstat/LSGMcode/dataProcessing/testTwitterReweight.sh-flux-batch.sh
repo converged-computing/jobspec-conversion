@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-ricecake-6771
+#FLUX: --job-name=wobbly-chair-3631
 #FLUX: --queue=serial_requeue
 #FLUX: -t=36000
 #FLUX: --urgency=16

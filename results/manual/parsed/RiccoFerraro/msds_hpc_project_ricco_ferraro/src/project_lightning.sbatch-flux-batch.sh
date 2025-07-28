@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-destiny-8305
+#FLUX: --job-name=hanky-chip-4117
 #FLUX: -N=8
 #FLUX: -c=16
 #FLUX: --queue=gpgpu-1

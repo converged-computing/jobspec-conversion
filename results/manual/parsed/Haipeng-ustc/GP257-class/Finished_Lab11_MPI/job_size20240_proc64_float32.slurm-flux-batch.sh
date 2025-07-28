@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-punk-9010
+#FLUX: --job-name=bloated-carrot-8393
 #FLUX: -N=4
 #FLUX: -n=64
 #FLUX: --exclusive

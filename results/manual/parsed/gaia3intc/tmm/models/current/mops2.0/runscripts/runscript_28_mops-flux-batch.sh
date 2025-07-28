@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-signal-9650
+#FLUX: --job-name=scruptious-muffin-1949
 #FLUX: --queue=small
 #FLUX: -t=1200
 #FLUX: --urgency=16

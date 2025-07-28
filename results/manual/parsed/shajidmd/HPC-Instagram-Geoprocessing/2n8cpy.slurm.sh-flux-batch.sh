@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-buttface-1050
+#FLUX: --job-name=placid-butter-4078
 #FLUX: -N=2
 #FLUX: -n=4
 #FLUX: --queue=physical

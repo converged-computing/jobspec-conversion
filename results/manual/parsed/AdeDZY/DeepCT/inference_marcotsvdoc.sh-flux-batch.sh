@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-squidward-8863
+#FLUX: --job-name=rainbow-peas-0916
 #FLUX: -n=8
 #FLUX: -t=86400
 #FLUX: --urgency=16

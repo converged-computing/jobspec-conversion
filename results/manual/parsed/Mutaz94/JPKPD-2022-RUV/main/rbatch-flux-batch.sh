@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-cinnamonbun-5013
+#FLUX: --job-name=placid-lemur-5709
 #FLUX: -n=20
 #FLUX: --queue=small,large,amdlarge,amdsmall
 #FLUX: -t=345600

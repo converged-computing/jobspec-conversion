@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-muffin-2542
+#FLUX: --job-name=frigid-peanut-6163
 #FLUX: -n=16
 #FLUX: --queue=batch
 #FLUX: --urgency=16

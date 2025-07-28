@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=angry-lizard-3544
+#FLUX: --job-name=stinky-peas-3023
 #FLUX: -N=8
 #FLUX: --exclusive
 #FLUX: --queue=general-compute

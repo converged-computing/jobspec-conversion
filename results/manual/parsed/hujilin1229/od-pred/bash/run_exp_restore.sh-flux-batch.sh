@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-fork-4180
+#FLUX: --job-name=fugly-milkshake-2205
 #FLUX: -c=4
 #FLUX: -t=86400
 #FLUX: --urgency=16

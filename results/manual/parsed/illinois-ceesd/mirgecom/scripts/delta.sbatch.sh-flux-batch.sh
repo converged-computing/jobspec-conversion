@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-egg-2614
+#FLUX: --job-name=dirty-cinnamonbun-1147
 #FLUX: --gpus-per-task=1
 #FLUX: --exclusive
 #FLUX: --queue=gpuA40x4

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-gato-4571
+#FLUX: --job-name=hairy-fork-8716
 #FLUX: --queue=dineshj-compute
 #FLUX: -t=43200
 #FLUX: --urgency=16

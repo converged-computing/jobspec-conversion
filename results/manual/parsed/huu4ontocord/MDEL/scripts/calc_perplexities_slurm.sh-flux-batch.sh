@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-house-7950
+#FLUX: --job-name=cowy-staircase-3984
 #FLUX: -c=4
 #FLUX: --queue=small-g
 #FLUX: -t=3600

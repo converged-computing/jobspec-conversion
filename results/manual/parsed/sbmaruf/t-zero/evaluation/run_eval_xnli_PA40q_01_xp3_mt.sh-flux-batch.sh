@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-egg-6023
+#FLUX: --job-name=gloopy-squidward-9514
 #FLUX: --queue=PA40q
 #FLUX: --urgency=16
 

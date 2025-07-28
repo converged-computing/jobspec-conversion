@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-itch-6358
+#FLUX: --job-name=lovable-despacito-3763
 #FLUX: --queue=titanv
 #FLUX: -t=35996400
 #FLUX: --urgency=16

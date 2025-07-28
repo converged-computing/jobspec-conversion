@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-banana-3658
+#FLUX: --job-name=lovely-plant-5850
 #FLUX: -c=28
 #FLUX: --queue=workq
 #FLUX: -t=86400

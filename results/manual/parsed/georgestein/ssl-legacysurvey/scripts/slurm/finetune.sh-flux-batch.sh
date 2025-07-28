@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=creamy-nunchucks-0060
+#FLUX: --job-name=evasive-truffle-7205
 #FLUX: -c=32
 #FLUX: -t=43200
 #FLUX: --urgency=16

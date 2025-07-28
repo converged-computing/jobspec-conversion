@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-fork-5116
+#FLUX: --job-name=moolicious-dog-4570
 #FLUX: -c=10
 #FLUX: -t=3600
 #FLUX: --urgency=16

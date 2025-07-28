@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=quirky-latke-5704
+#FLUX: --job-name=bricky-arm-6202
 #FLUX: -c=10
 #FLUX: --queue=nlp
 #FLUX: -t=41400

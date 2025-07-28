@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=nerdy-animal-1787
+#FLUX: --job-name=rainbow-staircase-2441
 #FLUX: -c=3
 #FLUX: --exclusive
 #FLUX: --queue=cscsci

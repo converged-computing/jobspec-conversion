@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-milkshake-3495
+#FLUX: --job-name=confused-chip-9495
 #FLUX: --queue=gpu
 #FLUX: -t=345600
 #FLUX: --urgency=16

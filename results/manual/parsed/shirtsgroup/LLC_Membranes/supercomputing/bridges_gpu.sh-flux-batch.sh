@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-cat-2843
+#FLUX: --job-name=milky-car-2512
 #FLUX: --queue=GPU
 #FLUX: -t=172800
 #FLUX: --urgency=16

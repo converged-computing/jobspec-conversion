@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=outstanding-underoos-8318
+#FLUX: --job-name=bricky-despacito-3606
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=rome

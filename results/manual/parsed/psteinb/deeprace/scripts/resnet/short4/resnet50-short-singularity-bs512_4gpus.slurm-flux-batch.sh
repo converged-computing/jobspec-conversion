@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-despacito-7527
+#FLUX: --job-name=expressive-hippo-0081
 #FLUX: --queue=gpu2
 #FLUX: -t=5400
 #FLUX: --urgency=16

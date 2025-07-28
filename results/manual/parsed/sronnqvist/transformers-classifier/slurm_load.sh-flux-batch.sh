@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=dinosaur-fork-1659
+#FLUX: --job-name=peachy-general-1052
 #FLUX: --queue=gpu
 #FLUX: -t=4500
 #FLUX: --urgency=16

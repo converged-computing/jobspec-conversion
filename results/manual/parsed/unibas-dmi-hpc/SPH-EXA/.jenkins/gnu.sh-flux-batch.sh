@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=grated-pot-6764
+#FLUX: --job-name=angry-onion-8963
 #FLUX: --queue=cscsci
 #FLUX: --urgency=16
 

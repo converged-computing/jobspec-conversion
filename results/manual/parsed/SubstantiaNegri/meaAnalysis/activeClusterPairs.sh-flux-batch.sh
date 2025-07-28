@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=blank-signal-3419
+#FLUX: --job-name=hanky-despacito-6864
 #FLUX: --queue=priority
 #FLUX: -t=600
 #FLUX: --urgency=16

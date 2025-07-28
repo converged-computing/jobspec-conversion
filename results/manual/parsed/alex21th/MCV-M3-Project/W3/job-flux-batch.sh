@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bloated-poodle-0153
+#FLUX: --job-name=milky-bits-9167
 #FLUX: -n=4
 #FLUX: --queue=mhigh,mhigh
 #FLUX: --urgency=16

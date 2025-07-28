@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-train-0255
+#FLUX: --job-name=psycho-peas-9944
 #FLUX: -c=4
 #FLUX: --queue=long
 #FLUX: -t=172800

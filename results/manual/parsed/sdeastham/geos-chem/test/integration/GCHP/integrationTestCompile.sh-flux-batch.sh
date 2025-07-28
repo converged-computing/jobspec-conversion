@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=milky-kitty-0979
+#FLUX: --job-name=buttery-dog-9919
 #FLUX: -c=8
 #FLUX: --queue=REQUESTED_PARTITION
 #FLUX: -t=90

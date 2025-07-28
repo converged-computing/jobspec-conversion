@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-carrot-7648
+#FLUX: --job-name=spicy-diablo-4226
 #FLUX: --queue=LocalQ
 #FLUX: -t=600
 #FLUX: --urgency=16

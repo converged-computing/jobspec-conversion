@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-rabbit-2450
+#FLUX: --job-name=rainbow-taco-7855
 #FLUX: --queue=RM
 #FLUX: -t=18000
 #FLUX: --urgency=16

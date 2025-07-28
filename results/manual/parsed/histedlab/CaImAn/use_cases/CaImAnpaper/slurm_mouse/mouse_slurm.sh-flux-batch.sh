@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-motorcycle-4600
+#FLUX: --job-name=phat-cherry-5519
+#FLUX: -N=6
 #FLUX: --exclusive
 #FLUX: --queue=ib
 #FLUX: --urgency=16

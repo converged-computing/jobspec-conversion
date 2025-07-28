@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-earthworm-7847
+#FLUX: --job-name=stanky-buttface-4643
 #FLUX: -c=32
 #FLUX: --urgency=16
 

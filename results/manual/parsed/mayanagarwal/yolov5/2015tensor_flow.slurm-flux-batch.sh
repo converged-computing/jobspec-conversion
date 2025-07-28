@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fuzzy-snack-5782
+#FLUX: --job-name=carnivorous-parsnip-6613
 #FLUX: --queue=shortgpgpu
 #FLUX: -t=300
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-truffle-5572
+#FLUX: --job-name=bumfuzzled-muffin-0569
 #FLUX: --queue=slurm_priority
 #FLUX: -t=1209780
 #FLUX: --urgency=16

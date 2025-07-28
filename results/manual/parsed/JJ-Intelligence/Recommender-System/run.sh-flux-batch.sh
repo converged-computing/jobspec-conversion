@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=eccentric-malarkey-4081
+#FLUX: --job-name=salted-lentil-6629
 #FLUX: --queue=lycium
 #FLUX: -t=86400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=delicious-muffin-8469
+#FLUX: --job-name=expressive-noodle-3194
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ye-luo/miniqmc/testing/miniqmc_openshift_rhea.sh

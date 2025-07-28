@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-signal-3405
+#FLUX: --job-name=blue-lettuce-7345
 #FLUX: -c=8
 #FLUX: --queue=cocoflops
 #FLUX: -t=604800

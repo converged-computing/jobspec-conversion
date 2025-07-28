@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-onion-5131
+#FLUX: --job-name=misunderstood-arm-4129
 #FLUX: -c=16
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=gpu

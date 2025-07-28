@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-chip-3275
+#FLUX: --job-name=bricky-mango-8533
 #FLUX: --queue=hci-rw
 #FLUX: -t=172800
 #FLUX: --urgency=16

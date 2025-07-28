@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=crusty-plant-4523
+#FLUX: --job-name=psycho-earthworm-0766
 #FLUX: -N=2
 #FLUX: -n=128
 #FLUX: --queue=checkpt

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-cat-5233
+#FLUX: --job-name=expressive-cinnamonbun-0331
 #FLUX: --queue=plgrid-gpu
 #FLUX: -t=86400
 #FLUX: --urgency=16

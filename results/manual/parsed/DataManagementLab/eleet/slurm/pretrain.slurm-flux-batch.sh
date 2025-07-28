@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=tart-sundae-3568
+#FLUX: --job-name=gloopy-parrot-4094
 #FLUX: --urgency=16
 
 CONDA_BASE=$(conda info --base)

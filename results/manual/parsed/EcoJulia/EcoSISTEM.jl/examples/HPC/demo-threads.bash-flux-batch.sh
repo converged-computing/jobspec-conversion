@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-banana-7233
+#FLUX: --job-name=blue-malarkey-0676
 #FLUX: -c=128
 #FLUX: --queue=smp
 #FLUX: -t=43200

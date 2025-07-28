@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=gloopy-platanos-4488
+#FLUX: --job-name=goodbye-bits-2289
 #FLUX: --queue=main
 #FLUX: -t=43200
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=placid-plant-2204
+#FLUX: --job-name=arid-buttface-2409
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/elnin09/parallelsorting/scripts/batch_script.run

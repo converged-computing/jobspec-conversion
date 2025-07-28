@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=evasive-toaster-0929
+#FLUX: --job-name=fat-snack-5120
 #FLUX: -c=16
 #FLUX: --queue=gpu_quad
 #FLUX: -t=14400

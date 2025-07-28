@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=faux-malarkey-1234
+#FLUX: --job-name=expressive-cat-7524
 #FLUX: -c=16
 #FLUX: -t=86400
 #FLUX: --urgency=16

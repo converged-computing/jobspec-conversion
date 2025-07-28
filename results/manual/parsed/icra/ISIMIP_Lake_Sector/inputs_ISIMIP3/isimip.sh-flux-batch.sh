@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-punk-6370
+#FLUX: --job-name=bricky-poo-3945
 #FLUX: --queue=bigmem
 #FLUX: --urgency=16
 

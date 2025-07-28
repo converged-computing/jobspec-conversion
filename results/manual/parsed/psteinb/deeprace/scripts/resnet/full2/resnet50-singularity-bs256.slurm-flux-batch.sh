@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cat-7380
+#FLUX: --job-name=expressive-animal-2111
 #FLUX: --queue=gpu2
 #FLUX: -t=28800
 #FLUX: --urgency=16

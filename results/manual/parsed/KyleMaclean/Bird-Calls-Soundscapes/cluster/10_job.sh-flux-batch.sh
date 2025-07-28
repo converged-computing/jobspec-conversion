@@ -1,5 +1,6 @@
 #!/bin/bash
-#FLUX: --job-name=crunchy-lemur-7251
+#FLUX: --job-name=cowy-muffin-2439
+#FLUX: -c=4
 #FLUX: --queue=csug
 #FLUX: --urgency=16
 

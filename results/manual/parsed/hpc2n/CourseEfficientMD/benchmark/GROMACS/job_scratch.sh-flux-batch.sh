@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=muffled-kerfuffle-8321
+#FLUX: --job-name=blank-pot-2232
 #FLUX: -n=4
 #FLUX: -c=7
 #FLUX: --exclusive

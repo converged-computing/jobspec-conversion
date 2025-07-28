@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-lentil-0588
+#FLUX: --job-name=strawberry-signal-0114
 #FLUX: --urgency=16
 

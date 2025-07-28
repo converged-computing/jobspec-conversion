@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-eagle-0389
+#FLUX: --job-name=hairy-destiny-8919
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dfm/ketu/scripts/k2-job.pbs

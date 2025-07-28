@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-lamp-2453
+#FLUX: --job-name=red-peanut-butter-0911
 #FLUX: -c=16
 #FLUX: --queue=amdv100,intelv100,amdrtx,amda100
 #FLUX: -t=28800

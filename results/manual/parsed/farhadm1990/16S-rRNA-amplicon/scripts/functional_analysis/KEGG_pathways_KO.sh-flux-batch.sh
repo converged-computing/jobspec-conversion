@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=misunderstood-general-2310
+#FLUX: --job-name=chunky-poo-2634
 #FLUX: -n=10
 #FLUX: --queue=ghpc
 #FLUX: -t=86400

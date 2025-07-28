@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=loopy-squidward-6239
+#FLUX: --job-name=tart-house-5191
 #FLUX: -c=128
 #FLUX: --exclusive
 #FLUX: --queue=romeo

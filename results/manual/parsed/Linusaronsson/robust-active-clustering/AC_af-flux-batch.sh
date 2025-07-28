@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=frigid-chip-2029
+#FLUX: --job-name=ornery-noodle-5934
 #FLUX: --queue=alvis
 #FLUX: -t=21600
 #FLUX: --urgency=16

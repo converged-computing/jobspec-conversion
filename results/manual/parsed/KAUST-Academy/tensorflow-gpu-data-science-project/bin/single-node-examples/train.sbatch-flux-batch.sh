@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=scruptious-buttface-2705
+#FLUX: --job-name=wobbly-mango-2551
 #FLUX: -n=8
 #FLUX: -c=6
 #FLUX: --queue=batch

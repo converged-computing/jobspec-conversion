@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=peachy-spoon-3522
+#FLUX: --job-name=reclusive-lamp-2070
 #FLUX: -n=6
 #FLUX: --queue=general
 #FLUX: -t=172800

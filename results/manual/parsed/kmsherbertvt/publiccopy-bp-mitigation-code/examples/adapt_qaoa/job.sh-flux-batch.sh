@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-destiny-9700
+#FLUX: --job-name=dinosaur-truffle-5418
 #FLUX: -c=20
 #FLUX: --queue=normal_q
 #FLUX: -t=259200

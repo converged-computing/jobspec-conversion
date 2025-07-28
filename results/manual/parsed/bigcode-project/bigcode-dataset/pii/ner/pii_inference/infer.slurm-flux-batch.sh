@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cattywampus-1790
+#FLUX: --job-name=quirky-leader-9139
 #FLUX: -c=96
 #FLUX: --exclusive
 #FLUX: --queue=production-cluster

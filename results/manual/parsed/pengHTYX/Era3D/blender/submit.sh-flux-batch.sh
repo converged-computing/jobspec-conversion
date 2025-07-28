@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=stanky-lemon-9609
+#FLUX: --job-name=quirky-parrot-1707
 #FLUX: -c=4
 #FLUX: --gpus-per-task=1
 #FLUX: --queue=project

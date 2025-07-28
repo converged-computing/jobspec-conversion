@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=psycho-sundae-8503
+#FLUX: --job-name=bumfuzzled-kitty-0963
 #FLUX: --queue=vm-small
 #FLUX: -t=1200
 #FLUX: --urgency=16

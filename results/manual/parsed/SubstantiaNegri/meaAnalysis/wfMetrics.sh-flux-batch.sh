@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=moolicious-bicycle-5023
+#FLUX: --job-name=bricky-lentil-1018
 #FLUX: --queue=priority
 #FLUX: -t=300
 #FLUX: --urgency=16

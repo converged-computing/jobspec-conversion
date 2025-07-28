@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bumfuzzled-bits-0540
+#FLUX: --job-name=astute-motorcycle-2406
 #FLUX: --queue=GPU
 #FLUX: -t=172800
 #FLUX: --urgency=16

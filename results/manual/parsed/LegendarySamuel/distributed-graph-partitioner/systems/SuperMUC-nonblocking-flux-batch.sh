@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-leg-2962
+#FLUX: --job-name=strawberry-milkshake-4243
 #FLUX: --urgency=16
 
 . "$script_pwd/../systems/generic"

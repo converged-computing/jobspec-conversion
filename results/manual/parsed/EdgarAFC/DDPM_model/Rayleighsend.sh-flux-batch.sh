@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=arid-lemur-7342
+#FLUX: --job-name=purple-plant-9764
 #FLUX: --queue=thinkstation-p340
 #FLUX: --urgency=16
 

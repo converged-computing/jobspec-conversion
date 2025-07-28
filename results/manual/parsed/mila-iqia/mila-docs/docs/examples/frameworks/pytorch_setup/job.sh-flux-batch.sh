@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expressive-hippo-5443
+#FLUX: --job-name=evasive-ricecake-4823
 #FLUX: -t=900
 #FLUX: --urgency=16
 

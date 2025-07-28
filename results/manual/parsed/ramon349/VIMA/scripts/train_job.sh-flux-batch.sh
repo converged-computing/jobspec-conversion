@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=cowy-citrus-8973
+#FLUX: --job-name=ornery-citrus-6801
 #FLUX: -c=4
 #FLUX: --queue=general
 #FLUX: -t=43200

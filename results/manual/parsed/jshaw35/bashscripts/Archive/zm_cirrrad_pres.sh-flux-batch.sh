@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=swampy-signal-2476
+#FLUX: --job-name=pusheena-nunchucks-4913
 #FLUX: --urgency=16
 
 case=e2000_bn_cirrradbg_rhmini1to1.2_1.5xco2seed18_binprecip_2

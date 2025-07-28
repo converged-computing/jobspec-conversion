@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=ornery-blackbean-5668
+#FLUX: --job-name=confused-hippo-5905
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dmerz75/smdgen/00.maindir.namd/VDIR/job-ggategpu.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-lemon-6410
+#FLUX: --job-name=conspicuous-frito-3805
 #FLUX: -c=10
 #FLUX: --queue=gpu
 #FLUX: -t=72000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hanky-house-0699
+#FLUX: --job-name=loopy-car-7152
 #FLUX: -N=3
 #FLUX: --queue=cclake
 #FLUX: -t=180

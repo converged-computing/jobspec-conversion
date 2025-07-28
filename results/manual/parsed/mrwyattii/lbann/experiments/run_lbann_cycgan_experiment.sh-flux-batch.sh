@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fugly-leopard-0499
+#FLUX: --job-name=swampy-fork-3260
 #FLUX: --urgency=16
 
 EXPERIMENT_NAME=lbann_cycgan_jag

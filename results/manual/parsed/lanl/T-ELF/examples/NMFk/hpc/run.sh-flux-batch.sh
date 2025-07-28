@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=pusheena-egg-3066
+#FLUX: --job-name=crusty-plant-5723
 #FLUX: -N=2
 #FLUX: -c=120
 #FLUX: --queue=gpu

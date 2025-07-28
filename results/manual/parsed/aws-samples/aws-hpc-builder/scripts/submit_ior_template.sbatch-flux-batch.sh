@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=goodbye-ricecake-6799
+#FLUX: --job-name=frigid-toaster-6587
 #FLUX: -N=2
 #FLUX: --exclusive
 #FLUX: --queue=gxlarge

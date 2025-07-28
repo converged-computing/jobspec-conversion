@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=salted-cat-2099
+#FLUX: --job-name=gloopy-avocado-3151
 #FLUX: --exclusive
 #FLUX: --queue=haswell
 #FLUX: -t=1800

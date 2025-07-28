@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=bricky-cat-4096
+#FLUX: --job-name=gloopy-nunchucks-8960
 #FLUX: --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GeoscienceAustralia/agdc/deprecated/fc_tiler.sh

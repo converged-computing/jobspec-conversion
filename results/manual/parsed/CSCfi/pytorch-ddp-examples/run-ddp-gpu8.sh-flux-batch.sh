@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=buttery-hippo-1218
+#FLUX: --job-name=expensive-eagle-0802
 #FLUX: -N=2
 #FLUX: -c=40
 #FLUX: --queue=gputest

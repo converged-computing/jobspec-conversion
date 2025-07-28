@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-spoon-1805
+#FLUX: --job-name=muffled-peanut-butter-9968
 #FLUX: --exclusive
 #FLUX: --queue=normal_q
 #FLUX: -t=21600

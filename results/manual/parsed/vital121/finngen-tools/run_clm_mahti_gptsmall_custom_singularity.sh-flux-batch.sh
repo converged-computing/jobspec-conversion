@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=confused-destiny-3905
+#FLUX: --job-name=gloopy-nunchucks-9710
 #FLUX: -N=4
 #FLUX: --queue=gpumedium
 #FLUX: -t=129600

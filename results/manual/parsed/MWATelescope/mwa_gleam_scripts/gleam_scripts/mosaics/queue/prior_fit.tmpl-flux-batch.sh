@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=reclusive-spoon-7535
+#FLUX: --job-name=persnickety-malarkey-4234
 #FLUX: --queue=gpuq
 #FLUX: -t=5400
 #FLUX: --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=doopy-dog-0248
+#FLUX: --job-name=peachy-lemur-6145
 #FLUX: --queue=gputest
 #FLUX: -t=900
 #FLUX: --urgency=16

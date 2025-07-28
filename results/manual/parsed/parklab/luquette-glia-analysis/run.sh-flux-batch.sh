@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=persnickety-leopard-2579
+#FLUX: --job-name=frigid-taco-4167
 #FLUX: --queue=priopark
 #FLUX: -t=432000
 #FLUX: --urgency=16

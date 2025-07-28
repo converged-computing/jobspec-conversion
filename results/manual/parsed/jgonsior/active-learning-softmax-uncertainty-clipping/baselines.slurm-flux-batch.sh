@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=strawberry-train-7719
+#FLUX: --job-name=moolicious-citrus-8652
 #FLUX: -c=8
 #FLUX: --queue=alpha
 #FLUX: -t=446399

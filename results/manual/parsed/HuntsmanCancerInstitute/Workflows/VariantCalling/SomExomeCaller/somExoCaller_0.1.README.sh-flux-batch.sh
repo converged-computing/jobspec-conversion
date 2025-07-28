@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=hairy-egg-0489
+#FLUX: --job-name=evasive-bits-5538
 #FLUX: --queue=hci-rw
 #FLUX: -t=86400
 #FLUX: --urgency=16

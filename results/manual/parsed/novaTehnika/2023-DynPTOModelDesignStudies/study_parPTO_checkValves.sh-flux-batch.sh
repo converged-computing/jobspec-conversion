@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-poo-1524
+#FLUX: --job-name=goodbye-rabbit-4818
 #FLUX: --queue=msismall
 #FLUX: -t=86400
 #FLUX: --urgency=16

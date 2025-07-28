@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=carnivorous-fudge-1777
+#FLUX: --job-name=blank-malarkey-2621
 #FLUX: -c=8
 #FLUX: --queue=serial
 #FLUX: -t=172800

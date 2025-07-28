@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=sticky-mango-8507
+#FLUX: --job-name=lovely-soup-0131
 #FLUX: --queue=gpu
 #FLUX: -t=172800
 #FLUX: --urgency=16

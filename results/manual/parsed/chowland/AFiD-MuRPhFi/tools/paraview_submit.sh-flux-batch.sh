@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=anxious-nalgas-3249
+#FLUX: --job-name=blue-poodle-2332
 #FLUX: --exclusive
 #FLUX: --queue=rome
 #FLUX: -t=3600

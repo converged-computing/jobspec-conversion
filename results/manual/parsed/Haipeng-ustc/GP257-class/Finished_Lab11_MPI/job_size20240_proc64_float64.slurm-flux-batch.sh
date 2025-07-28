@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=conspicuous-truffle-5304
+#FLUX: --job-name=doopy-house-6327
 #FLUX: -N=4
 #FLUX: -n=64
 #FLUX: --exclusive

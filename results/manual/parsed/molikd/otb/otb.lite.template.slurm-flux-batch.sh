@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=expensive-mango-0618
+#FLUX: --job-name=anxious-mango-4530
 #FLUX: -n=2
 #FLUX: --queue=long
 #FLUX: --urgency=16

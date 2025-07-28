@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX: --job-name=fat-soup-7288
+#FLUX: --job-name=scruptious-fork-0422
 #FLUX: --queue=nvidia
 #FLUX: -t=144000
 #FLUX: --urgency=16

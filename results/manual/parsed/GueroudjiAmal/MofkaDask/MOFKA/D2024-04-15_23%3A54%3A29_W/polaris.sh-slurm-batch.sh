@@ -1,0 +1,5 @@
+#!/bin/bash
+#FLUX: --job-name=wobbly-pancake-2691
+#FLUX: --urgency=16
+
+/workspaces/fractale/jobspec-conversion/data/GueroudjiAmal/MofkaDask/MOFKA/D2024-04-15_23%3A54%3A29_W/polaris.sh

@@ -1,0 +1,13 @@
+#!/bin/bash
+#FLUX: --job-name=ofa_mini_video_vqa_pretrain_bart_allresnet_pretraintext_onlylinear
+#FLUX: -N=2
+#FLUX: -n=2
+#FLUX: --exclusive
+#FLUX: -t=86400
+#FLUX: --urgency=16
+
+cd /lus/home/NAT/gda2204/mshukor/code/ofa_ours/run_scripts
+source /lus/home/NAT/gda2204/mshukor/.bashrc
+conda activate main
+rm core-python3*
+srun -l -N 2 -n 2 -c 128 --gpus=16 bash vqa/video/ofa_mini_video_vqa_pretrain_bart_allresnet_pretraintext_onlylinear.sh

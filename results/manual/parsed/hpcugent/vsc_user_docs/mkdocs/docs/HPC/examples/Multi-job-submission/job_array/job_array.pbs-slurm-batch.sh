@@ -1,0 +1,5 @@
+#!/bin/bash
+#FLUX: --job-name=muffled-dog-2270
+#FLUX: --urgency=16
+
+/workspaces/fractale/jobspec-conversion/data/hpcugent/vsc_user_docs/mkdocs/docs/HPC/examples/Multi-job-submission/job_array/job_array.pbs

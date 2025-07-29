@@ -1,0 +1,5 @@
+#!/bin/bash
+#FLUX: --job-name=frigid-peanut-5951
+#FLUX: --urgency=16
+
+/workspaces/fractale/jobspec-conversion/data/JGarnica22/PSlab/ATACseq_analysis/loop_bowtie2_macs2.sh

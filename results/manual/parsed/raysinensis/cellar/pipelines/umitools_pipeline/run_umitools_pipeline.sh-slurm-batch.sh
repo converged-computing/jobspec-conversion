@@ -1,0 +1,5 @@
+#!/bin/bash
+#FLUX: --job-name=psycho-lizard-5994
+#FLUX: --urgency=16
+
+/workspaces/fractale/jobspec-conversion/data/raysinensis/cellar/pipelines/umitools_pipeline/run_umitools_pipeline.sh

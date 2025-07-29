@@ -1,0 +1,5 @@
+#!/bin/bash
+#FLUX: --job-name=scruptious-caramel-8741
+#FLUX: --urgency=16
+
+/workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/miniE_plan.sh

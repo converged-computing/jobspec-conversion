@@ -1,0 +1,14 @@
+#!/bin/bash
+#FLUX: --job-name=throughput_<NTASKS>
+#FLUX: -n=128
+#FLUX: -t=300
+#FLUX: --urgency=16
+
+echo "Date              = $(date)"
+echo "Hostname          = $(hostname -s)"
+echo "Working Directory = $(pwd)"
+echo ""
+echo "Number of Nodes Allocated      = $SLURM_JOB_NUM_NODES"
+echo "Number of Tasks Allocated      = $SLURM_NTASKS"
+echo "Number of Cores/Task Allocated = $SLURM_CPUS_PER_TASK"
+srun --mpi=pmix_v3 ./throughput

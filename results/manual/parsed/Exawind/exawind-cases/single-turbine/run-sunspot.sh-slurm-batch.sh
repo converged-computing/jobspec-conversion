@@ -1,0 +1,5 @@
+#!/bin/bash
+#FLUX: --job-name=frigid-egg-4979
+#FLUX: --urgency=16
+
+/workspaces/fractale/jobspec-conversion/data/Exawind/exawind-cases/single-turbine/run-sunspot.sh

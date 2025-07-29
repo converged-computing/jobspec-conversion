@@ -1,0 +1,10 @@
+#!/bin/bash
+#FLUX: --job-name=jobname
+#FLUX: --exclusive
+#FLUX: --queue=normal
+#FLUX: -t=108000
+#FLUX: --urgency=16
+
+module load ORCA/5.0.2-gompi-2021b
+module load OpenMPI/4.1.1-GCC-9.3.0-UCX-1.10.0-libfabric-1.12.1-PMIx-3.2.3
+/opt/oscer/software/ORCA/5.0.2-gompi-2021b/bin/orca 3Si4Phy.inp > 3Si4Phy.out

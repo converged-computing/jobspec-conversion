@@ -1,0 +1,5 @@
+#!/bin/bash
+#FLUX: --job-name=tart-taco-2268
+#FLUX: --urgency=16
+
+/workspaces/fractale/jobspec-conversion/data/b-crouch/maxie/train/hydra_config/bsub_config/template.bsub

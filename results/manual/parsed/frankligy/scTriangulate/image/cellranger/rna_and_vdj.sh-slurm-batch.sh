@@ -1,0 +1,5 @@
+#!/bin/bash
+#FLUX: --job-name=bricky-chip-1025
+#FLUX: --urgency=16
+
+/workspaces/fractale/jobspec-conversion/data/frankligy/scTriangulate/image/cellranger/rna_and_vdj.sh

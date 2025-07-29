@@ -1,0 +1,16 @@
+#!/bin/bash
+#FLUX: --job-name=yolov3-voc-lin-7
+#FLUX: -c=16
+#FLUX: --queue=dgx
+#FLUX: -t=864000
+#FLUX: --urgency=16
+
+echo "SLURM_JOBID="$SLURM_JOBID
+echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST
+echo "SLURM_NNODES"=$SLURM_NNODES
+echo "SLURMTMPDIR="$SLURMTMPDIR
+echo "working directory = "$SLURM_SUBMIT_DIR
+date;hostname;pwd
+nvidia-smi
+LD_LIBRARY_PATH=lib ./darknet detector train cfg/runs/yolov3-voc-lin-7/data cfg/runs/yolov3-voc-lin-7/cfg backup/yolov3-voc-lin-7/cfg_1000.weights -gpus 0,1
+echo "Done"

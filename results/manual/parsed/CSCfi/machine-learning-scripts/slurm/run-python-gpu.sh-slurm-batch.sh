@@ -1,0 +1,14 @@
+#!/bin/bash
+#FLUX: --job-name=spicy-ricecake-5260
+#FLUX: --queue=gpu
+#FLUX: -t=3600
+#FLUX: --urgency=16
+
+module load python-env/3.6.3-ml
+module list
+set -xv
+date
+hostname
+nvidia-smi
+srun python3.6 $*
+date

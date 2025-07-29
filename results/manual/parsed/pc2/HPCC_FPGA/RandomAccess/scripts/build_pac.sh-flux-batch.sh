@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-leg-8516
+#FLUX --job-name=carnivorous-soup-4479
 #FLUX --queue=fpgasyn
 #FLUX --urgency=16
 

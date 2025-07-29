@@ -7,7 +7,7 @@
 #SBATCH --mem=8192M
 #SBATCH --time=04:00:00
 #SBATCH --chdir=/home/vivekrai/analyses/2020-01_vanderbilt_rna/control/2020-01-26_remap/work/14/94699c5fccf81bda6df69064b9f08c
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 set -e
 set -u

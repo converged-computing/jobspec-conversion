@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=lovely-nalgas-2195
+#FLUX --job-name=anxious-sundae-2775
 #FLUX -N=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=bii
 #FLUX -t=7200
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-animal-5170
+#FLUX --job-name=expensive-animal-9617
 #FLUX --queue=gpu_shared
 #FLUX -t=54000
 #FLUX --urgency=16

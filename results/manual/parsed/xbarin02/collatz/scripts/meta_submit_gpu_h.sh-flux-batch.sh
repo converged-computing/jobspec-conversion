@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-lettuce-4217
+#FLUX --job-name=fat-eagle-1855
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/xbarin02/collatz/scripts/meta_submit_gpu_h.sh

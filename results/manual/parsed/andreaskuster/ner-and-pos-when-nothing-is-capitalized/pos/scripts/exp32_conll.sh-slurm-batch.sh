@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=700G
 #SBATCH --time=04:00:00
-#SBATCH --partition=intelv100
 
 module load python/3.7.2
 module load CMake

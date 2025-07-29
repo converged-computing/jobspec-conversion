@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=75G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=audace2018
 
 ulimit -l unlimited
 unset SLURM_GTIDS

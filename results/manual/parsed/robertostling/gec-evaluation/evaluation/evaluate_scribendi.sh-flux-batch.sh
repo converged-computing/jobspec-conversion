@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-knife-3233
+#FLUX --job-name=fuzzy-carrot-9528
 #FLUX --queue=alvis
 #FLUX -t=7200
 #FLUX --urgency=16

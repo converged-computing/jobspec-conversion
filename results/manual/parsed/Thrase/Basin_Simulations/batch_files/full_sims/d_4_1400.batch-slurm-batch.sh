@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=30-00:00:00
-#SBATCH --partition=cisds
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=n243
 

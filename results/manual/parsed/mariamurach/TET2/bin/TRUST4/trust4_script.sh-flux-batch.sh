@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-platanos-5573
+#FLUX --job-name=rainbow-parrot-6879
 #FLUX -n=32
 #FLUX --queue=_______
 #FLUX -t=7200

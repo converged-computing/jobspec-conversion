@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=160G
 #SBATCH --time=02:00:00
-#SBATCH --partition=hpc
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MALLOC_ARENA_MAX='4'
 

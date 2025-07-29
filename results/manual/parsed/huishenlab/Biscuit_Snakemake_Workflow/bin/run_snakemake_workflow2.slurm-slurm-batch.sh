@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=long
 
 mkdir -p logs/workflows
 cd $SLURM_SUBMIT_DIR

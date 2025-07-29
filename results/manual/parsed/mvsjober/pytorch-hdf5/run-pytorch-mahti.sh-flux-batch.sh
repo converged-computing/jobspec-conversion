@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-frito-9596
+#FLUX --job-name=arid-banana-5001
 #FLUX -c=32
 #FLUX --queue=gpusmall
 #FLUX -t=3600

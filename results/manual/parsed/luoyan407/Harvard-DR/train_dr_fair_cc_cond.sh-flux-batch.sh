@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-train-2307
+#FLUX --job-name=loopy-muffin-7741
 #FLUX -n=8
 #FLUX --queue=nvidia
 #FLUX -t=345600

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a100:4
 #SBATCH --mem=100Gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 #SBATCH --array=0-11
 
 source /etc/profile.d/modules.sh

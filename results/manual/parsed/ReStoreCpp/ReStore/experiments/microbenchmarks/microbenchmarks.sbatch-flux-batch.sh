@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-bicycle-2180
+#FLUX --job-name=conspicuous-cinnamonbun-9154
 #FLUX -N=16
 #FLUX --queue=test
 #FLUX -t=1800

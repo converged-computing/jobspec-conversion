@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100
 #SBATCH --mem=24G
 #SBATCH --time=06:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=ntasks-per-node=1
 
 conda activate faclab

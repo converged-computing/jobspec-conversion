@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=05:59:59
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu
 #SBATCH --chdir=/home/shanli/visnav_semantics/cycada/cyclegan
 

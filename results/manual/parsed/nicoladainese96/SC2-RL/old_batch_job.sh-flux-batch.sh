@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-diablo-3112
+#FLUX --job-name=phat-lemon-5707
 #FLUX --queue=gpu
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=train
 
 for i in 1 2 3 4 5
 do

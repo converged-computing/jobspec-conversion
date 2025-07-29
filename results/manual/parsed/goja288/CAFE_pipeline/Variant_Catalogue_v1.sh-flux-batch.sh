@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-mango-2866
+#FLUX --job-name=creamy-puppy-3786
 #FLUX --queue=defq
 #FLUX -t=721800
 #FLUX --urgency=16

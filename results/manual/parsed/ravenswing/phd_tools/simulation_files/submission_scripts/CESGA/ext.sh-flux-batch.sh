@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-itch-8232
+#FLUX --job-name=blank-hobbit-2819
 #FLUX -c=32
 #FLUX -t=259200
 #FLUX --urgency=16

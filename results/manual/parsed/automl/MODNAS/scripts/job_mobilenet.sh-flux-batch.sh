@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-dog-8792
+#FLUX --job-name=blank-fork-2541
 #FLUX -c=32
 #FLUX --queue=<partition
 #FLUX -t=432000

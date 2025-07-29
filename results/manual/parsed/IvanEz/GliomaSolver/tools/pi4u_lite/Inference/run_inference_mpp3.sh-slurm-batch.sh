@@ -5,7 +5,6 @@
 #SBATCH --ntasks=512
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=mpp3_batch
 #SBATCH --constraint=ntasks-per-node=64
 #SBATCH --chdir=.
 

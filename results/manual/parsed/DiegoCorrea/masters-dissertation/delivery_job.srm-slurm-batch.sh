@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=60GB
-#SBATCH --partition=nvidia_dev
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 echo $SLURM_JOB_NODELIST

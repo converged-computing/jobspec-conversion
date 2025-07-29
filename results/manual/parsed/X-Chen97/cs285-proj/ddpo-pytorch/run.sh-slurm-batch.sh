@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:4
 #SBATCH --time=04:00:00
-#SBATCH --partition=es1
 #SBATCH --qos=es_lowprio
 #SBATCH --constraint=es1_a40
 

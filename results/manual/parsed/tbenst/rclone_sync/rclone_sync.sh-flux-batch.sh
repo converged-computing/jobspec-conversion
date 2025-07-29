@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-lemur-7426
+#FLUX --job-name=hanky-nalgas-2045
 #FLUX --queue=owners
 #FLUX -t=7200
 #FLUX --urgency=16

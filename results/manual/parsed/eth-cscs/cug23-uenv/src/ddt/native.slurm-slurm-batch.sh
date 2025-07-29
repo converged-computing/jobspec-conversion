@@ -5,7 +5,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=16
 #SBATCH --time=00:15:00
-#SBATCH --partition=nvgpu
 #SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

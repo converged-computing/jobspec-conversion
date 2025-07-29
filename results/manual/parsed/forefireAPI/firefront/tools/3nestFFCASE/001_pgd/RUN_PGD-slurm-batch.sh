@@ -6,8 +6,7 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=intel
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MPIRUN='mpirun -np 4'
 

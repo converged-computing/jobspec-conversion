@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --time=00:02:30
-#SBATCH --partition=thinnodes
 
 module load gcc/6.4.0 samtools/1.8
 declare -A BARCODEID

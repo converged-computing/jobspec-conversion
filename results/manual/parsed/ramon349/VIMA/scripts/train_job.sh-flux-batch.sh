@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-malarkey-0171
+#FLUX --job-name=cowy-knife-0324
 #FLUX -c=4
 #FLUX --queue=general
 #FLUX -t=43200

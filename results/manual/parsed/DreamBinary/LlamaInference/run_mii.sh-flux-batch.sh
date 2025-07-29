@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-kitty-2434
+#FLUX --job-name=eccentric-rabbit-9286
 #FLUX -N=2
 #FLUX -c=6
 #FLUX --gpus-per-task=1

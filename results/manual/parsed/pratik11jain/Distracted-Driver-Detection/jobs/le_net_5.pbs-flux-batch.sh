@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-lemur-6317
+#FLUX --job-name=psycho-hobbit-8868
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pratik11jain/Distracted-Driver-Detection/jobs/le_net_5.pbs

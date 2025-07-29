@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-bicycle-2399
+#FLUX --job-name=angry-fork-9134
 #FLUX --urgency=16
 
 source /contrib/alvaro/ompi/env.sh

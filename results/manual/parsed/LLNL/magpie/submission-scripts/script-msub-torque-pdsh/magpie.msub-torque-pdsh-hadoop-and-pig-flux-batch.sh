@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-latke-7478
+#FLUX --job-name=cowy-snack-6475
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LLNL/magpie/submission-scripts/script-msub-torque-pdsh/magpie.msub-torque-pdsh-hadoop-and-pig

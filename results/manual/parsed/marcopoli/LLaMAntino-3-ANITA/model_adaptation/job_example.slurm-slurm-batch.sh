@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=243000
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --qos=boost_qos_lprod
 
 export HF_DATASETS_CACHE='/leonardo_scratch/large/userexternal/xxx/hf_datasets/datasets/'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-citrus-3017
+#FLUX --job-name=wobbly-soup-9292
 #FLUX --queue=cron
 #FLUX -t=18000
 #FLUX --urgency=16

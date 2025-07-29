@@ -9,10 +9,9 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=owners
 #SBATCH --qos=normal
 #SBATCH --constraint=ntasks-per-node=16
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export MAIN_DIRECTORY='/scratch/users/sahn1/Triazine  # TODO'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/sahn1/  # TODO'

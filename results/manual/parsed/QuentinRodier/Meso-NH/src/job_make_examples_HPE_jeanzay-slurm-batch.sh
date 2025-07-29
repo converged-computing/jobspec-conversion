@@ -7,8 +7,7 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=qos_cpu-dev
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MONORUN='Exec srun -l -n 1 --export=ALL numabind_core_slurm'
 export MPIRUN='Exec srun -l -n 4 --export=ALL numabind_core_slurm'

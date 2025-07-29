@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=vid-clip
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX --urgency=16
 

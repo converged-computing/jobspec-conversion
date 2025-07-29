@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:V100:1
-#SBATCH --partition=dell
 
 export NCCL_IB_DISABLE='1'
 export MKL_THREADING_LAYER='GNU'

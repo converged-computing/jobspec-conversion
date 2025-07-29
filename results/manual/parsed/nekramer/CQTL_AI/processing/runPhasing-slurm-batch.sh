@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2gb
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=general
 
 module load python/3.6.6
 python3 -m venv env && source env/bin/activate && pip3 install -r config/requirements.txt

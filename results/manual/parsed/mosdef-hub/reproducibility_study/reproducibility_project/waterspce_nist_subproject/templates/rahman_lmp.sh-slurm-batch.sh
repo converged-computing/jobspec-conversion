@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=48hr-long-std
 
 {% extends "slurm.sh" %}
 {% block header %}

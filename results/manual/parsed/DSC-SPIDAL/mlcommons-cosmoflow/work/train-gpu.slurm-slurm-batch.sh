@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=32GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=bii-gpu
 
 export RUN_DIR='/scratch/$USER'
 export IMAGE='/$RUN_DIR/cosmoflow/mlcommons-cosmoflow/work/cosmoflow.sif'

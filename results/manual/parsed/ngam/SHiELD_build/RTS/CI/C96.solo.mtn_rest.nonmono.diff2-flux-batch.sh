@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-spoon-8013
+#FLUX --job-name=doopy-chip-2679
 #FLUX -n=24
 #FLUX --urgency=16
 

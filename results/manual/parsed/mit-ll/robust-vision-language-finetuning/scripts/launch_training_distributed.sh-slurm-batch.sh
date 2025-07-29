@@ -3,8 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:volta:2
-#SBATCH --partition=gaia
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=xeon-g6,ntasks-per-node=2
 
 export NCCL_DEBUG='WARN'

@@ -5,8 +5,7 @@
 #SBATCH --ntasks=128
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=nodes
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=32
 #SBATCH --chdir=./
 

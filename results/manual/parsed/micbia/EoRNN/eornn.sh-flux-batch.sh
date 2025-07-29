@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-hippo-1064
+#FLUX --job-name=dirty-knife-2815
 #FLUX -N=4
 #FLUX -n=12
 #FLUX --queue=mem192

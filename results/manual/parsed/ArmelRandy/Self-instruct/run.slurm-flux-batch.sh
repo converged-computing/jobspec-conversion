@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=self-instruct
 #FLUX -c=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

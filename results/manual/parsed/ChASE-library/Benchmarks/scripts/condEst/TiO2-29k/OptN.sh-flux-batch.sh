@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-omelette-2983
+#FLUX --job-name=expensive-peas-0660
 #FLUX -n=4
 #FLUX -c=12
 #FLUX --queue=develbooster

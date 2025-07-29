@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-signal-0885
+#FLUX --job-name=milky-buttface-4843
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

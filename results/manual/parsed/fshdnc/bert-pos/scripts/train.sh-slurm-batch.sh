@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=4G
 #SBATCH --time=00:15:00
-#SBATCH --partition=gputest
 #SBATCH --constraint=ntasks-per-node=1
 
 if [ "$#" -ne 2 ]; then

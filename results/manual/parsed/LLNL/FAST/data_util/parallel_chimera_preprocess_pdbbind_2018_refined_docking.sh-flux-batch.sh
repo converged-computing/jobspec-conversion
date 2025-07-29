@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-bike-8246
+#FLUX --job-name=butterscotch-snack-4170
 #FLUX --queue=pbatch
 #FLUX -t=86400
 #FLUX --urgency=16

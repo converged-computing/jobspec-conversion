@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=lovable-avocado-5430
+#FLUX --job-name=dirty-cinnamonbun-1105
 #FLUX -n=160
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=sandyb,westmere,bigmem,amd
 #FLUX -t=14400
 #FLUX --urgency=16

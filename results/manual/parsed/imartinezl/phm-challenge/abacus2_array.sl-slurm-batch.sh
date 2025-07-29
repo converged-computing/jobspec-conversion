@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12GB
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1-96
 #SBATCH --nodelist=abacus002
 

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=Cascade
 #SBATCH --constraint=ntasks-per-node=96
 
 shopt -s extglob

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-poodle-8740
+#FLUX --job-name=red-signal-7871
 #FLUX --queue=gpu_shared
 #FLUX -t=54000
 #FLUX --urgency=16

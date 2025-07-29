@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:A5000:2
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=savio4_gpu
 #SBATCH --qos=a5k_gpu4_normal
 #SBATCH --array=1-1
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-hope-1931
+#FLUX --job-name=moolicious-ricecake-7023
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

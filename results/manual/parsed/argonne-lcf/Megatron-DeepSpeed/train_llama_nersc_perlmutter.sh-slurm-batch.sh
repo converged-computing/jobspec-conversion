@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=512
 #SBATCH --time=00:30:00
-#SBATCH --partition=regular
 #SBATCH --constraint=gpu&hbm80g
 
 export EXEC='${HERE}/pretrain_gpt_alcf.py'

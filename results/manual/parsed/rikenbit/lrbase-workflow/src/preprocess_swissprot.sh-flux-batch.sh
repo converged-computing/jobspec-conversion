@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-lamp-3270
+#FLUX --job-name=confused-egg-3848
 #FLUX -n=4
 #FLUX --queue=node03-06
 #FLUX --urgency=15

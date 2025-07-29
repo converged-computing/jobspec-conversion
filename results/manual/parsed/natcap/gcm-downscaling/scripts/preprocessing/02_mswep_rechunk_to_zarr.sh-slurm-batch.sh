@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=20000M
 #SBATCH --time=08:00:00
-#SBATCH --partition=hns,normal
 
 CONTAINER=ghcr.io/natcap/gcm-downscaling:latest
 WORKSPACE_DIR="$L_SCRATCH/$WORKSPACE_NAME"

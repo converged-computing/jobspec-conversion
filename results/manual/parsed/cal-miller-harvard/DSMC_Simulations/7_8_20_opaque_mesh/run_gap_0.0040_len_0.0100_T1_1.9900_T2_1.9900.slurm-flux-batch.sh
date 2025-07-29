@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-squidward-3391
+#FLUX --job-name=phat-lamp-0442
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

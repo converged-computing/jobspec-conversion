@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-caramel-5347
+#FLUX --job-name=hairy-dog-4574
 #FLUX -c=128
 #FLUX --gpus-per-task=4
 #FLUX --queue=debug

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=cpu
 
 export NXF_SINGULARITY_CACHEDIR='./singularity'
 

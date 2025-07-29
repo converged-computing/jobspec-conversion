@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-pot-8800
+#FLUX --job-name=moolicious-peanut-butter-1890
 #FLUX --queue=debug
 #FLUX -t=180
 #FLUX --urgency=16

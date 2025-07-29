@@ -5,7 +5,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=queue-1
 
 export OMPI_MCA_mtl_base_verbose='1'
 export NX='32'

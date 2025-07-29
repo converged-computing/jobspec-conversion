@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-lemon-0549
+#FLUX --job-name=confused-dog-6552
 #FLUX -c=8
 #FLUX --queue=debug
 #FLUX -t=3600

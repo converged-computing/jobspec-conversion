@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 
 export TACC_LAUNCHER_PPN='1'
 export EXECUTABLE='$TACC_LAUNCHER_DIR/init_launcher'

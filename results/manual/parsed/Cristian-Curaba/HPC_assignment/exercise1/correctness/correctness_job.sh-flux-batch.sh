@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=test_folive00
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=EPYC
 #FLUX -t=3600
 #FLUX --urgency=16

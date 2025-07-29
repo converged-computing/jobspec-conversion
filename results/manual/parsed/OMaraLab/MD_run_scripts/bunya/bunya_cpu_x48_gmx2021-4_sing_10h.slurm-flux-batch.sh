@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-arm-6531
+#FLUX --job-name=psycho-truffle-9022
 #FLUX -c=48
 #FLUX --queue=general
 #FLUX -t=36000

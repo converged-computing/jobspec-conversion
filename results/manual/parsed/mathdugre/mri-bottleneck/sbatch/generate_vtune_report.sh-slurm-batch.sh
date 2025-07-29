@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1
 
 set -e

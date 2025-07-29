@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=stream
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard
 #FLUX -t=600
 #FLUX --urgency=16

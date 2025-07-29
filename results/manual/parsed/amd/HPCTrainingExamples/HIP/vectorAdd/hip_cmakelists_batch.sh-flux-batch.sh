@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-taco-3387
+#FLUX --job-name=faux-kerfuffle-1233
 #FLUX --queue=LocalQ
 #FLUX -t=600
 #FLUX --urgency=16

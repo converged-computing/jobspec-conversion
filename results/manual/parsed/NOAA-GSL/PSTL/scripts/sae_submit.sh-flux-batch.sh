@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=arid-eagle-6320
-#FLUX: --exclusive
+#FLUX --job-name=misunderstood-parsnip-8820
+#FLUX --exclusive
 #FLUX --queue=epyc_a100x4
 #FLUX --urgency=16
 

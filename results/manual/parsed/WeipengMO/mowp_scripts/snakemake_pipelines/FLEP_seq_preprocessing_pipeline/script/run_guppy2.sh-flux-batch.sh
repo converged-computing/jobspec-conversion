@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-milkshake-8146
+#FLUX --job-name=grated-chip-5041
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/WeipengMO/mowp_scripts/snakemake_pipelines/FLEP_seq_preprocessing_pipeline/script/run_guppy2.sh

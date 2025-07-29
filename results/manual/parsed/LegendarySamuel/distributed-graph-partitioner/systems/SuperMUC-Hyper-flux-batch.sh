@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-knife-8822
+#FLUX --job-name=adorable-staircase-6270
 #FLUX --urgency=16
 
 . "$script_pwd/../systems/generic"

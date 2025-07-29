@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-buttface-6324
+#FLUX --job-name=grated-nalgas-4431
 #FLUX --queue=ckpt
 #FLUX -t=172800
 #FLUX --urgency=16

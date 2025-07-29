@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:4
 #SBATCH --mem=300G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu-a100-80g
 
 module load cuda11.8/toolkit/11.8.0
 srun python ae_training_dense.py

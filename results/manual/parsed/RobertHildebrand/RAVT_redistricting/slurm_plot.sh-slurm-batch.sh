@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:30:00
-#SBATCH --partition=normal_q
 
 module load Python
 ./venv/bin/python plot_maps_helper.py --states $1 --start $SLURM_ARRAY_TASK_ID

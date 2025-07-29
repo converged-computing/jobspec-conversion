@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=200gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
 #SBATCH --constraint=ntasks-per-node=10
 
 export PATH='${PATH}:/panfs/jay/groups/9/morrellp/shared/Software/syri'

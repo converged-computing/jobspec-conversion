@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:20:00
-#SBATCH --partition=GPU-small
 #SBATCH --constraint=ntasks-per-node=20
 
 export GMX_MAXBACKUP='-1  # do not make back-ups'

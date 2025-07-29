@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-pedo-9092
+#FLUX --job-name=goodbye-dog-7144
 #FLUX -N=12
 #FLUX -c=20
 #FLUX --queue=parallel

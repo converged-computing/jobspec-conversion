@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-knife-4940
+#FLUX --job-name=bloated-citrus-7016
 #FLUX --queue=maxwell
 #FLUX -t=72000
 #FLUX --urgency=16

@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=40GB
 #SBATCH --time=10:00:00
-#SBATCH --partition=compute
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export LD_LIBRARY_PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/lib:$LD_LIBRARY_PATH'
 export PATH='/home/milias/bin/openmpi-4.0.1_suites/openmpi-4.0.1_Intel14_GNU6.3g++/bin:$PATH'

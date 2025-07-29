@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:05:00
-#SBATCH --partition=3090-gcondo
 
 echo "Current Working Directory (CWD): $(pwd)"
 module load cuda/12.2.2  gcc/10.2   

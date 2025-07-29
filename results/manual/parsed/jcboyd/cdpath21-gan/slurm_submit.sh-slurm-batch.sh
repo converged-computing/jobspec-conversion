@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60000
-#SBATCH --partition=gpu
 
 module load cuda/10.0.130/intel-19.0.3.199
 source activate $WORKDIR/miniconda3/envs/pytorch

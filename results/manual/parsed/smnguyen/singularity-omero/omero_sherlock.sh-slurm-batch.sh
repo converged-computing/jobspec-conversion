@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=3
 #SBATCH --time=23:30:00
-#SBATCH --partition=mcovert
 #SBATCH --constraint=ntasks-per-node=1
 
 function get_port {

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gpus-per-task=8
 #SBATCH --time=04:00:00
-#SBATCH --partition=luna
 #SBATCH --constraint=gpu
 
 export SUBMIT_ACCOUNT='devtech'

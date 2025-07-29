@@ -9,7 +9,6 @@
 #SBATCH --gres=2
 #SBATCH --mem=32G
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=ais-gpu
 
 srun singularity exec --bind /home/d.osin/:/home --bind /gpfs/gpfs0/d.osin/data_main:/home/dev/data_main -f --nv quantnas.sif bash -c '
     cd /home/QuanToaster;

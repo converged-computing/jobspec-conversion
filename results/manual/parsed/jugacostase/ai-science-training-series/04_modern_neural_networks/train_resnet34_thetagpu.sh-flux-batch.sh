@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=psycho-plant-1884
+#FLUX --job-name=dirty-arm-6935
 #FLUX --urgency=16
 

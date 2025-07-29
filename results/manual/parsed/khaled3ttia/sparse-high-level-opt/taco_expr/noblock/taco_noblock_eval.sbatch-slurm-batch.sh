@@ -9,8 +9,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=256G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=disc
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --chdir=/home/khaled/
 
 cp /home/khaled/sparse-high-level-opt/taco_expr/run_tool_noblocking.sh /scratch/khaled/dask_out

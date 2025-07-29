@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-mango-1708
+#FLUX --job-name=milky-house-4295
 #FLUX --queue=cpu
 #FLUX -t=1800
 #FLUX --urgency=16

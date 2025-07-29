@@ -6,7 +6,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:10:00
 #SBATCH --qos=qos_gpu-dev
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=v100-32g
 
 export MASTER_PORT='1234'

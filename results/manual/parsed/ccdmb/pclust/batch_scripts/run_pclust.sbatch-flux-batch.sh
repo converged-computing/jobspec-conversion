@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-motorcycle-8611
+#FLUX --job-name=astute-lettuce-3229
 #FLUX -c=28
 #FLUX --queue=workq
 #FLUX -t=86400

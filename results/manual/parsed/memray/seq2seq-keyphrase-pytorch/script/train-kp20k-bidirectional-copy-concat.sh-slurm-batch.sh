@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64GB
-#SBATCH --partition=titanx
 #SBATCH --constraint=ntasks-per-node=1
 
 export ATTENTION='concat";'

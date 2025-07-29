@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=82G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu
 
 APPTAINER_IMAGE_PATH=/mnt/parscratch/users/$USER/pytorch-transformers-wikitext2-benchmark/transformers-benchmark-23.07.sif 

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=50G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=long
 
 cd /home/mila/c/chris.emezue/scratch/pet-masakhane-results2/pet-masakhane
 module load python/3

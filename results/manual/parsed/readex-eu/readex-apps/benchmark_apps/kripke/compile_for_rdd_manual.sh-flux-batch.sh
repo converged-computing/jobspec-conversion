@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-bicycle-2783
+#FLUX --job-name=dinosaur-fork-8339
 #FLUX -c=24
 #FLUX -t=1800
 #FLUX --urgency=16

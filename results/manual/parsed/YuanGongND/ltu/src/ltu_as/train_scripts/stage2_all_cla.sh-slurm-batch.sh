@@ -6,9 +6,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --mem=470000
-#SBATCH --partition=a6
 #SBATCH --qos=regular
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=32
 
 export TRANSFORMERS_CACHE='./hf_cache/'

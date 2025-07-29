@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=main
 #SBATCH --array=0-7
 
 DATASETS=(

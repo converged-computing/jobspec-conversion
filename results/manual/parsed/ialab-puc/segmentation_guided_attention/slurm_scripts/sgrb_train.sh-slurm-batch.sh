@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:Geforce-GTX:1
 #SBATCH --mem=10000mb
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=ialab-high
 #SBATCH --nodelist=hydra
 #SBATCH --dependency=500
 

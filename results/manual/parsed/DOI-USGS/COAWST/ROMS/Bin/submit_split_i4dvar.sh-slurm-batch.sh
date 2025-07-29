@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=177000
 #SBATCH --time=01:00:00
-#SBATCH --partition=p_omg_1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=32
 
 My4DVarScript() {

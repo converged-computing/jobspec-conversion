@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-kerfuffle-7724
+#FLUX --job-name=bricky-lizard-2715
 #FLUX -n=20
 #FLUX --queue=node
 #FLUX --urgency=16

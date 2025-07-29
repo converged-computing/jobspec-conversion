@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:titanrtx:4
 #SBATCH --mem=80000M
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4
 #SBATCH --array=1
 

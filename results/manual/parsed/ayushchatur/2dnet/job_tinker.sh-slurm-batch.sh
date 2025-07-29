@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=8384
 #SBATCH --time=1-00:30:00
-#SBATCH --partition=dgx_normal_q
 #SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_PORT='$port'

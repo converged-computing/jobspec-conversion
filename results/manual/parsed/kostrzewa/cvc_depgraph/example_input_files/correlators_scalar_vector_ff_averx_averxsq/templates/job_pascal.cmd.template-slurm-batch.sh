@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:pascal:4
 #SBATCH --mem=100G
 #SBATCH --time=06:00:00
-#SBATCH --partition=pascal
 #SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/qbigwork2/bartek/libs/bleeding_edge/pascal/quda_develop-dynamic_clover/lib'

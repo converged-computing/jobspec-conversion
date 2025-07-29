@@ -4,8 +4,7 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=batch
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=128
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'

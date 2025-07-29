@@ -9,7 +9,6 @@
 #SBATCH --ntasks=192
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:59:00
-#SBATCH --partition=skx-dev
 
 export LD_PRELOAD='/home1/apps/tacc-patches/python_cacher/myopen.so'
 export PATH='/home1/05861/tg851601/test/operations/rsmas_insar/sources/isce2/contrib/stack/topsStack:$PATH'

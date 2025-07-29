@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-lettuce-2153
+#FLUX --job-name=faux-platanos-9444
 #FLUX -c=16
 #FLUX --queue=volta-lp
 #FLUX --urgency=16

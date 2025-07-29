@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=boopy-knife-9075
-#FLUX: --exclusive
+#FLUX --job-name=swampy-egg-6208
+#FLUX --exclusive
 #FLUX --queue=hpc
 #FLUX -t=259200
 #FLUX --urgency=16

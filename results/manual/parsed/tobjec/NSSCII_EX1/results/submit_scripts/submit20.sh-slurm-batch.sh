@@ -6,7 +6,6 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=nssc
 
 module load pmi/pmix-x86_64     # [P]rocess [M]anagement [I]nterface (required by MPI-Implementation)
 module load mpi/openmpi-x86_64  # MPI implementation (including compiler-wrappers mpicc/mpic++)

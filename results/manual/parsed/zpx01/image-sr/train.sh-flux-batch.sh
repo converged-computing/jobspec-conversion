@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-pot-5522
+#FLUX --job-name=grated-train-3463
 #FLUX -c=8
 #FLUX -t=173520
 #FLUX --urgency=15

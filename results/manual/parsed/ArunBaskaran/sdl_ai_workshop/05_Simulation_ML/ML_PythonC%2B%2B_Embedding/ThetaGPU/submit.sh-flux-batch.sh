@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=evasive-soup-3312
+#FLUX --job-name=blank-egg-5131
 #FLUX --urgency=16
 

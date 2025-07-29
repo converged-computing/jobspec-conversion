@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=128gb
 #SBATCH --time=8-00:00:00
-#SBATCH --partition=intel
 #SBATCH --array=1-14
 
 export NXF_SINGULARITY_CACHEDIR='/bigdata/stajichlab/shared/singularity_cache/'

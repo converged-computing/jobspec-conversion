@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-pastry-9558
+#FLUX --job-name=expensive-platanos-9442
 #FLUX -t=3600
 #FLUX --urgency=16
 

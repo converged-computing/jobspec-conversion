@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=bdwall
 
 export PSM2_MULTI_EP='1 # prevents conflict with MPI using PSM2'
 export FI_PSM2_DISCONNECT='1 # enables reconnection'

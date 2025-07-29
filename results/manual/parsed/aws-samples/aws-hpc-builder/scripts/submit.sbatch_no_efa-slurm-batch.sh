@@ -3,8 +3,7 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=wrfc6gn
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=64
 
 export WRF_VERSION='3.9.1'

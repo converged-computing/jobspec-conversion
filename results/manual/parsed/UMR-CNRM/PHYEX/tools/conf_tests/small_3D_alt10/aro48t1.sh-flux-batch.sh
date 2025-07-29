@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-leopard-7841
+#FLUX --job-name=moolicious-chip-9352
 #FLUX -n=2
 #FLUX --queue=normal256
 #FLUX -t=600

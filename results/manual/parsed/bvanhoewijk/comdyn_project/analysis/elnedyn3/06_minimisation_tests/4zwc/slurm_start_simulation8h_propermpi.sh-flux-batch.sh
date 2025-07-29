@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-lentil-4243
+#FLUX --job-name=anxious-truffle-1332
 #FLUX -n=160
 #FLUX --queue=genoa
 #FLUX -t=28800

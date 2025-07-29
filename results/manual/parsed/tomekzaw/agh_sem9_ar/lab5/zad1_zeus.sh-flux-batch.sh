@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-frito-3750
+#FLUX --job-name=tart-signal-2621
 #FLUX -n=12
 #FLUX --queue=plgrid
 #FLUX -t=3600

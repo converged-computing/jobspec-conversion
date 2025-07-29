@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=GPU-shared
 
 printenv
 echo $LOCAL

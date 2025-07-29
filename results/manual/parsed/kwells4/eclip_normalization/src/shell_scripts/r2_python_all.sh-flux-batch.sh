@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-nalgas-6080
+#FLUX --job-name=red-pedo-2612
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kwells4/eclip_normalization/src/shell_scripts/r2_python_all.sh

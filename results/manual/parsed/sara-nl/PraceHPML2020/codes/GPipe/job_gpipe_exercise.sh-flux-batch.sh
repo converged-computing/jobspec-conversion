@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-frito-6607
+#FLUX --job-name=eccentric-fudge-6622
 #FLUX -c=6
 #FLUX --queue=gpu_shared
 #FLUX -t=180

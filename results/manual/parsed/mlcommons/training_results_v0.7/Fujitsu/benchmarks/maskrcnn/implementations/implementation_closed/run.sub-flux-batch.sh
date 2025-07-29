@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=object_detection
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=mlperf
 #FLUX -t=43200
 #FLUX --urgency=16

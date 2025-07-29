@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4GB
 #SBATCH --time=00:03:00
-#SBATCH --partition=gpu
 
 echo "# cloudmesh status=running progress=1 pid=$$"
 nvidia-smi --list-gpus

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=stanky-snack-8162
+#FLUX --job-name=lovable-hobbit-2502
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=m100_usr_prod
 #FLUX -t=2700
 #FLUX --urgency=16

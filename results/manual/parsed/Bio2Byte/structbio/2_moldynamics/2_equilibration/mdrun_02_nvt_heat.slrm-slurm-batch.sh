@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=00:10:00
-#SBATCH --partition=ampere_gpu
 
 export OMP_PROC_BIND='TRUE'
 

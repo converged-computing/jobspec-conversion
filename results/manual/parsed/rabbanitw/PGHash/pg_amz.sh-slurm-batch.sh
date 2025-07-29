@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=128gb
 #SBATCH --time=2-22:00:00
-#SBATCH --partition=scavenger
 #SBATCH --qos=normal
 
 module purge

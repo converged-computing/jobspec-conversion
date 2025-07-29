@@ -8,7 +8,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=30G
 #SBATCH --time=00:30:00
-#SBATCH --partition=dev-g
 
 export PYTHON_ENV_NAME='env_dpo'
 export SING_IMAGE='lumi-pytorch-rocm-5.6.1-python-3.10-pytorch-v2.1.0.sif'

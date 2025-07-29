@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=memory
 
  ### Number of CPU cores per task                                                                                                                       
 input_dir="/home/ssnyder3/nereus/aging_rnaseq/star_alignment/pulex/aligned_reads"

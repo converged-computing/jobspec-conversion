@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=1g
 #SBATCH --time=00:01:00
-#SBATCH --partition=qTRDGPUH
 
 sleep 5s
 echo $SLURM_ARRAY_TASK_ID 

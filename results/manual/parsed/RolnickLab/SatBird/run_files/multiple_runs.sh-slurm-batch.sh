@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50Gb
 #SBATCH --time=1-10:59:00
-#SBATCH --partition=long
 #SBATCH --array=1-3:1
 
 export COMET_API_KEY='$COMET_API_KEY'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-onion-7141
+#FLUX --job-name=confused-train-5343
 #FLUX -c=6
 #FLUX -t=86400
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-signal-2177
+#FLUX --job-name=lovable-cherry-7019
 #FLUX --urgency=16
 
 PORT=$1

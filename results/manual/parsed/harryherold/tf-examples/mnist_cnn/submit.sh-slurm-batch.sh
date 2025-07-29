@@ -7,8 +7,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=00:30:00
-#SBATCH --partition=ml
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load modenv/ml
 module load TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4

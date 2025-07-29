@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-train-1683
+#FLUX --job-name=fat-diablo-7082
 #FLUX --queue=batch
 #FLUX -t=86400
 #FLUX --urgency=16

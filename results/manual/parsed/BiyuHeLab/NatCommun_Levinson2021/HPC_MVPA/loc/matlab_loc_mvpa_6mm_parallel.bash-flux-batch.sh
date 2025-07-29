@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-cupcake-3532
+#FLUX --job-name=expressive-bicycle-9415
 #FLUX -n=11
 #FLUX --queue=gpu4_short
 #FLUX -t=43200

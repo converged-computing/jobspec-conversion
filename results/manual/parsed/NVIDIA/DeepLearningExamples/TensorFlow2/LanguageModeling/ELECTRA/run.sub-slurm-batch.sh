@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 set -eux
 readonly docker_image="gitlab-master.nvidia.com/dl/joc/electra_tf2:keras_mp_20.07_clean_up"

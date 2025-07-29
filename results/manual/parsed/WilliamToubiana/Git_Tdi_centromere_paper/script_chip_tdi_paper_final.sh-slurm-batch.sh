@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=80GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=cpu
 
 echo "Starting job $SLURM_JOB_NAME with ID $SLURM_JOB_ID".
 module load gcc

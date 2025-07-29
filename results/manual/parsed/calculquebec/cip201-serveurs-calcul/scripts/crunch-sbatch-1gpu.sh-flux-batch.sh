@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-despacito-6297
+#FLUX --job-name=expressive-staircase-6975
 #FLUX -t=540
 #FLUX --urgency=16
 

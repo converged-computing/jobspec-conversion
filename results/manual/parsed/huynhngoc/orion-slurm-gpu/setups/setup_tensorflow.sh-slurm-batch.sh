@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12G
-#SBATCH --partition=smallmem
 
 module load singularity
 if [ ! "tensorflow_gpu.sif" ]

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-hobbit-3245
+#FLUX --job-name=phat-omelette-8267
 #FLUX --queue=regular
 #FLUX -t=3600
 #FLUX --urgency=16

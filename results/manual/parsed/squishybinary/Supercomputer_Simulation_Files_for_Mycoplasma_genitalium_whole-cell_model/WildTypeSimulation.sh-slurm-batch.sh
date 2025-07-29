@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=cpu
 #SBATCH --array=1-10
 
 echo 'Task ID is:'

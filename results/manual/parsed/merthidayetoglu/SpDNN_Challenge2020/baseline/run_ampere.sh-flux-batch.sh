@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-pedo-1468
+#FLUX --job-name=bloated-general-6889
 #FLUX -N=4
 #FLUX --queue=gpu
 #FLUX -t=3600

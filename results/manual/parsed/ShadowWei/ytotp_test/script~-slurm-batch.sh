@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=14
 #SBATCH --mem=10G
 #SBATCH --time=00:10:00
-#SBATCH --partition=soc-kp
 #SBATCH --constraint=ntasks-per-node=1
 
 ulimit -c unlimited -s

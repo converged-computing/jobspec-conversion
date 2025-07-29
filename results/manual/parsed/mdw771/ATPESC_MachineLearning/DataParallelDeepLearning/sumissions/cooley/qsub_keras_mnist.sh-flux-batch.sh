@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=arid-poo-1739
+#FLUX --job-name=blue-parsnip-9951
 #FLUX --urgency=16
 

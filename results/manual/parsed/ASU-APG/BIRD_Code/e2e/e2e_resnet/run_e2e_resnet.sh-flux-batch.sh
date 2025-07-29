@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-general-7841
+#FLUX --job-name=fuzzy-truffle-0650
 #FLUX -n=4
 #FLUX --queue=cidsegpu1
 #FLUX -t=259920

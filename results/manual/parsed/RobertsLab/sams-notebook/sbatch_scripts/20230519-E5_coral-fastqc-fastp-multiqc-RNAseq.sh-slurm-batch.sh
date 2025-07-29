@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=srlab
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20230519-E5_coral-fastqc-fastp-multiqc-RNAseq
 
 fastq_pattern='*.fastq.gz'

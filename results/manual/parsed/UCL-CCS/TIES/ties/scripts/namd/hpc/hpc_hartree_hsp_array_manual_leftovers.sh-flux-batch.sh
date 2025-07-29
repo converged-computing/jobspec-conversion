@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-peanut-butter-9689
+#FLUX --job-name=gassy-dog-3491
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UCL-CCS/TIES/ties/scripts/namd/hpc/hpc_hartree_hsp_array_manual_leftovers.sh

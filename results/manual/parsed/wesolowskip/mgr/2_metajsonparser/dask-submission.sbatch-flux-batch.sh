@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-puppy-2651
+#FLUX --job-name=blank-lamp-4728
 #FLUX --queue=long
 #FLUX -t=432000
 #FLUX --urgency=16

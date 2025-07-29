@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100-sxm2:1
 #SBATCH --mem=48GB
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 
 conda create --name pytorch_env python=3.10 -y
 source activate pytorch_env

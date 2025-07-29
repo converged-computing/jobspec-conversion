@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:8
-#SBATCH --partition=gp4d
 #SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONUSERBASE='$CONDA_PREFIX'

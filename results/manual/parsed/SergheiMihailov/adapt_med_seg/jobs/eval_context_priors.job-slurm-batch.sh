@@ -8,7 +8,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=62G
 #SBATCH --time=00:59:00
-#SBATCH --partition=gpu
 
 export HF_DATASETS_CACHE='/scratch-shared/zfulop/hf_cache_dir'
 

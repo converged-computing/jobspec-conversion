@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
-#SBATCH --partition=agpu72
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=c[2005-2008]
 

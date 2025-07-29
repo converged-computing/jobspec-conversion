@@ -7,8 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=debug
-#SBATCH --licenses=SCRATCH
 
 export outdir='/scratch1/scratchdirs/desiproc/DRs/data-releases/dr4'
 export statdir='${outdir}/progress'

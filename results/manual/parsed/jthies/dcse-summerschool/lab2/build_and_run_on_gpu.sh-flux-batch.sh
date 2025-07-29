@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-malarkey-5266
+#FLUX --job-name=buttery-carrot-6036
 #FLUX --gpus-per-task=1
 #FLUX --queue=gpu
 #FLUX -t=120

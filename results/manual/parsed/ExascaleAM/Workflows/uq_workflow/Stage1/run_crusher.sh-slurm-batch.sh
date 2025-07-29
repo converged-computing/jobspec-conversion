@@ -8,7 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=04:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_NUM_THREADS='1'
 export WM_MPLIB='SYSTEMMPI'

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=11GB
 #SBATCH --time=06:00:00
-#SBATCH --partition=standard
 
 snakemake -s download.smk --unlock
 snakemake -s download.smk \

@@ -8,7 +8,6 @@
 #SBATCH --gres=a100:4
 #SBATCH --mem-per-cpu=300G
 #SBATCH --time=01:00:00
-#SBATCH --partition=batch
 
 export TLRMDCROOT='/home/ravasim/2022/Projects/MDC_TLRMVM_v2/TLR-MDC'
 export TLRMVMROOT='/home/ravasim/2022/Projects/MDC_TLRMVM_v2/tlrmvm-dev/build/install/lib'

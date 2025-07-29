@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-avocado-5516
+#FLUX --job-name=placid-peanut-butter-9142
 #FLUX -c=12
 #FLUX --queue=gpu
 #FLUX -t=172800

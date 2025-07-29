@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-squidward-3454
+#FLUX --job-name=grated-signal-1295
 #FLUX -c=32
 #FLUX -t=172800
 #FLUX --urgency=16

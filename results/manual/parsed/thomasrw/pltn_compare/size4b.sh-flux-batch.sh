@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-eagle-3785
+#FLUX --job-name=dinosaur-fork-6085
 #FLUX -n=10
 #FLUX --urgency=16
 

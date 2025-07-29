@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-dog-8211
+#FLUX --job-name=loopy-bits-2930
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Mele-Lab/2023_SingleCellEbolaLncRNAs_NatComms/nextflow_pipelines/00_CLUSTER_Nord3/02_quantify_SAbio.batch

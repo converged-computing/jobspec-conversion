@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-motorcycle-5478
+#FLUX --job-name=stanky-buttface-2458
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=small-g
 #FLUX -t=600
 #FLUX --urgency=16

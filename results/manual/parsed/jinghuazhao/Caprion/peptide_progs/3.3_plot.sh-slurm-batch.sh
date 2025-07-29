@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=28800
 #SBATCH --time=12:00:00
-#SBATCH --partition=icelake-himem
 #SBATCH --array=_array_
 
 export TMPDIR='${HPC_WORK}/work'

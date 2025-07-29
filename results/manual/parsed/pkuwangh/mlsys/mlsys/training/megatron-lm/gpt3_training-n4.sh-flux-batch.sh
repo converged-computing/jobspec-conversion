@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=gpt3-15b-8t-n4
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX -t=3600
 #FLUX --urgency=16

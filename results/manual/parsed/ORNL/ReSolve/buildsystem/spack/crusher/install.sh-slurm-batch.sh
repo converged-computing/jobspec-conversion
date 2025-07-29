@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=batch
 
 export all_proxy='socks://proxy.ccs.ornl.gov:3128'
 export ftp_proxy='ftp://proxy.ccs.ornl.gov:3128'

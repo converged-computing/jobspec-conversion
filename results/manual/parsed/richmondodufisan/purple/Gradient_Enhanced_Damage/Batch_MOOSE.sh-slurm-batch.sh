@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=04:00:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=25
 #SBATCH --exclude=qnode0565,qnode0626,qnode0637,qnode0019
 

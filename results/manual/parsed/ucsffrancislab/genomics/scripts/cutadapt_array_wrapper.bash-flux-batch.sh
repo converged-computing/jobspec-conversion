@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-lamp-6920
+#FLUX --job-name=stanky-fork-4285
 #FLUX --urgency=16
 
 hostname

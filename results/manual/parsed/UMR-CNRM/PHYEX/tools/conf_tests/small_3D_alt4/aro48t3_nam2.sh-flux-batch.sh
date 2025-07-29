@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-despacito-9210
+#FLUX --job-name=arid-peas-7206
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

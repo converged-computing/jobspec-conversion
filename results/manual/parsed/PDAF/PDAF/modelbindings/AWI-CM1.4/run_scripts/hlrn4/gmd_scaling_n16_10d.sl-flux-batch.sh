@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-car-8255
+#FLUX --job-name=chocolate-salad-0397
 #FLUX -N=48
 #FLUX -n=4608
 #FLUX --queue=standard96

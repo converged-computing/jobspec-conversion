@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-truffle-7053
+#FLUX --job-name=eccentric-snack-1780
 #FLUX --urgency=16
 
 export PATH='/vol/bitbucket/${USER}/cbm_venv/bin/:$PATH'

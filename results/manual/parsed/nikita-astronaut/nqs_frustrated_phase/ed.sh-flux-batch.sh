@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-puppy-8333
+#FLUX --job-name=swampy-house-3834
 #FLUX -c=32
 #FLUX --queue=dgx
 #FLUX -t=259200

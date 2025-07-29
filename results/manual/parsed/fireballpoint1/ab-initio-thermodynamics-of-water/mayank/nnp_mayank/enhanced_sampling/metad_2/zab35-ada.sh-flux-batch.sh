@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-malarkey-1330
+#FLUX --job-name=carnivorous-dog-6324
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

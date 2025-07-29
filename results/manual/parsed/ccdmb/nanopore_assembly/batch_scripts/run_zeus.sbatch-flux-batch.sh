@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-buttface-8329
+#FLUX --job-name=rainbow-omelette-7163
 #FLUX --queue=workq
 #FLUX -t=86400
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-lemur-7218
+#FLUX --job-name=crusty-rabbit-9702
 #FLUX --urgency=16
 
 function write_comment()

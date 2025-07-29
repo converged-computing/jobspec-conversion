@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-lizard-4247
+#FLUX --job-name=loopy-taco-7762
 #FLUX -t=0
 #FLUX --urgency=16
 

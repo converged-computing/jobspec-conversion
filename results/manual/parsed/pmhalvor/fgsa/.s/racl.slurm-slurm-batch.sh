@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
 #SBATCH --time=17:30:00
-#SBATCH --partition=accel
 
 set -o errexit  # Exit the script on any error
 set -o nounset  # Treat any unset variables as an error

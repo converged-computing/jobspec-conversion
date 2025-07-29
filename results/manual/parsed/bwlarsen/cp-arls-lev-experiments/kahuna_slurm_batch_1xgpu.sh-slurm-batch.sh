@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --time=6-12:00:00
-#SBATCH --partition=1xgpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load matlab
 echo Hostname:

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=128G
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1,a100
 
 module --force purge

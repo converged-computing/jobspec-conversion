@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
 #SBATCH --time=20:00:00
-#SBATCH --partition=chaos
 
 usage() {
   test $# = 0 || echo "$@"

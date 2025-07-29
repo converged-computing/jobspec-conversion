@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-carrot-1299
+#FLUX --job-name=outstanding-leopard-9227
 #FLUX -c=5
 #FLUX --queue=astro
 #FLUX -t=21600

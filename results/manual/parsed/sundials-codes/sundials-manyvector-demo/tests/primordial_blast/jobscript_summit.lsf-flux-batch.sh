@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-squidward-4543
+#FLUX --job-name=persnickety-general-7762
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sundials-codes/sundials-manyvector-demo/tests/primordial_blast/jobscript_summit.lsf

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-buttface-8832
+#FLUX --job-name=stinky-puppy-9952
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/benchmarks/lassen/mvapich/test_alltoallv

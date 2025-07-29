@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=30G
 #SBATCH --time=00:59:00
-#SBATCH --partition=red
 
 module --ignore-cache load singularity/3.4.1
 module --ignore-cache load CUDA/11.1.1-GCC-10.2.0

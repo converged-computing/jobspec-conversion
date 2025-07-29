@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=hpc
 
 export PIN_ON_SOCKET='$PORT'
 

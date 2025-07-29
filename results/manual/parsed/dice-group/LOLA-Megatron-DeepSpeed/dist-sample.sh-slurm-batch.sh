@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100:4
 #SBATCH --time=00:30:00
-#SBATCH --partition=dgx
 #SBATCH --qos=devel
 #SBATCH --constraint=ntasks-per-node=1
 

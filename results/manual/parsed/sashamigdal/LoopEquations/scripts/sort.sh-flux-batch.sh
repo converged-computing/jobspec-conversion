@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-peanut-butter-5991
+#FLUX --job-name=carnivorous-eagle-3000
 #FLUX -t=1800
 #FLUX --urgency=16
 

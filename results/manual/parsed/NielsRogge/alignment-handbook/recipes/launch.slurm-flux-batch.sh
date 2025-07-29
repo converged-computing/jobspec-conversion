@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=doopy-butter-9656
-#FLUX: --exclusive
+#FLUX --job-name=lovable-bicycle-2816
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

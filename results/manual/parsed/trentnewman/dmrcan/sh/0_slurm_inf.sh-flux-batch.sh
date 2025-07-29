@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-fork-4703
+#FLUX --job-name=chocolate-motorcycle-2003
 #FLUX --urgency=16
 
 SECONDS=0

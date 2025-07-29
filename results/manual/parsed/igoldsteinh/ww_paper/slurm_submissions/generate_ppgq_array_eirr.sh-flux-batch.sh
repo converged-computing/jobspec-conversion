@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-avocado-0021
+#FLUX --job-name=hello-destiny-4412
 #FLUX -n=4
 #FLUX --queue=standard
 #FLUX -t=14400

@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=IB_44C_512G
 #SBATCH --qos=pq_jeirinlo
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'

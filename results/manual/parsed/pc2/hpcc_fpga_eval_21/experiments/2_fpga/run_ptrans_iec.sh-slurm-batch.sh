@@ -6,7 +6,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=fpga
 #SBATCH --constraint=20.4.0_max
 
 module load intel intelFPGA_pro/21.2.0 bittware_520n/20.4.0_max devel/CMake/3.15.3-GCCcore-8.3.0

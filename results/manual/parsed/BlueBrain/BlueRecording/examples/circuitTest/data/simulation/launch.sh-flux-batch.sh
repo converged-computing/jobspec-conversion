@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=CortexNrdmsPySim
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=prod_small
 #FLUX -t=7200
 #FLUX --urgency=16

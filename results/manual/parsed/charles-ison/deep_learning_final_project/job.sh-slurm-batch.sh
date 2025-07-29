@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=256G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=dgx2
 #SBATCH --nodelist=dgx2-6
 
 module load python/3.10 cuda/11.7 sox

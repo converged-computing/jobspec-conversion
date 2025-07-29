@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-blackbean-4478
+#FLUX --job-name=grated-arm-9500
 #FLUX -c=32
 #FLUX -t=43200
 #FLUX --urgency=16

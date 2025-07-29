@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-plant-5393
+#FLUX --job-name=eccentric-peanut-butter-5010
 #FLUX -c=48
 #FLUX --queue=devel
 #FLUX -t=1200

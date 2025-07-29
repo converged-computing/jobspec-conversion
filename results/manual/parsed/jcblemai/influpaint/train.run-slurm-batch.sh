@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=01:00:00
-#SBATCH --partition=jlessler
 #SBATCH --array=8-11
 
 module purge

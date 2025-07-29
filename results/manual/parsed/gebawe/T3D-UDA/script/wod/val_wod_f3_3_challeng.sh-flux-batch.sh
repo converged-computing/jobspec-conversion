@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-latke-5908
+#FLUX --job-name=placid-soup-0440
 #FLUX --queue=amdgpufast
 #FLUX -t=14400
 #FLUX --urgency=16

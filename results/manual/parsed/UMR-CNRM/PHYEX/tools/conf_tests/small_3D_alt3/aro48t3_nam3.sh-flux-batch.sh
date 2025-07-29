@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-lentil-9719
+#FLUX --job-name=stinky-bike-2398
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

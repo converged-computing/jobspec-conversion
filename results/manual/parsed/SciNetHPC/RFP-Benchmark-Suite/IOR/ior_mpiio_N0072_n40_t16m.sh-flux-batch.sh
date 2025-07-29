@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-pot-6270
+#FLUX --job-name=goodbye-arm-0513
 #FLUX -N=72
 #FLUX --queue=compute
 #FLUX -t=7200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-malarkey-6215
+#FLUX --job-name=salted-bike-9710
 #FLUX -n=16
 #FLUX --queue=cox
 #FLUX -t=360

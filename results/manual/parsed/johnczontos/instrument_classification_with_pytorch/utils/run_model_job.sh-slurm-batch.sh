@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=124G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=cascades
 #SBATCH --nodelist=cn-m-2
 
 module load python/3.10 cuda/11.7 sox

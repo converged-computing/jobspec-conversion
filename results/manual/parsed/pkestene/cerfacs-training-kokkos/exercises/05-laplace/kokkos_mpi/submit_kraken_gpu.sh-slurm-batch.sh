@@ -5,7 +5,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:a30:4
-#SBATCH --partition=gpua30
 
 export OMP_NUM_THREADS='$omp_threads'
 export OMP_PROC_BIND='spread'

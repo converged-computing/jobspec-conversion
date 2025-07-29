@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem=8G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 module load gcc/8.3.0 cuda/10.1.168 cudnn cmake
 srun python ../train_GVSNETPlus.py --num_gpus 4 --dataset_name carlaGVS --root_dir /scratch/project_2001055/dataset/GVS \

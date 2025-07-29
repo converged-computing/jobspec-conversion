@@ -2,7 +2,7 @@
 #FLUX --job-name=sim-wg-tmb
 #FLUX -n=4
 #FLUX -c=7
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=short
 #FLUX -t=86100
 #FLUX --urgency=16

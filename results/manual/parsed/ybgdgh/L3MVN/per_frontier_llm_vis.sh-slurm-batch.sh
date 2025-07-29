@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50GB
 #SBATCH --time=2-23:05:00
-#SBATCH --partition=gpu
 
 export GLOG_minloglevel='2'
 export MAGNUM_LOG='quiet'

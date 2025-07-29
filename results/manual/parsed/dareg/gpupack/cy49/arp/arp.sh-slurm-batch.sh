@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export OMP_STACKSIZE='4G'
 export KMP_STACKSIZE='4G'

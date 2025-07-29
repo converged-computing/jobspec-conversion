@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-mango-5083
+#FLUX --job-name=dinosaur-cat-7362
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX -t=86400

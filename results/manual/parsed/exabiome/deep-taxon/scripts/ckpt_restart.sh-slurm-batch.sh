@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gpus-per-task=1
 #SBATCH --time=03:59:59
-#SBATCH --partition=regular
 #SBATCH --constraint=gpu,ntasks-per-node=8
 
 INPUT=${1:?"Please provide an input file"}

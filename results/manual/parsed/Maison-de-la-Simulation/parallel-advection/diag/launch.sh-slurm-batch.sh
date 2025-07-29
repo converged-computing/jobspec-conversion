@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=01:59:00
-#SBATCH --partition=gpua100
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 NB_RUNS=10
 EXECUTABLE=$1

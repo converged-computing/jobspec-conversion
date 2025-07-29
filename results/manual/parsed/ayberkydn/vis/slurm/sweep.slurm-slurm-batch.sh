@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:2
 #SBATCH --time=20:00:00
-#SBATCH --partition=palamut-cuda
 #SBATCH --exclude=palamut9
 
 SWEEP_ID=ayberkydn/vis/gd03qcz6

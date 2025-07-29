@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-sundae-9499
+#FLUX --job-name=gloopy-latke-6057
 #FLUX --queue=hbfraser,hns,normal
 #FLUX -t=14400
 #FLUX --urgency=16

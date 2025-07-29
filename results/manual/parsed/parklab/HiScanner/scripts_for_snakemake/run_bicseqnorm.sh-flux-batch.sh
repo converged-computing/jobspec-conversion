@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-destiny-8675
+#FLUX --job-name=rainbow-milkshake-6234
 #FLUX -n=8
 #FLUX --queue=park
 #FLUX -t=720

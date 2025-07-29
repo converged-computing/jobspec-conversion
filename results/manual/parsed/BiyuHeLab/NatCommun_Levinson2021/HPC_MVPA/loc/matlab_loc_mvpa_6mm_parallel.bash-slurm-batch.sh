@@ -3,7 +3,6 @@
 #SBATCH --ntasks=11
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu4_short
 
 export SCRATCH=' # SCRATCH DIRECTORY FOR CLUSTER'
 

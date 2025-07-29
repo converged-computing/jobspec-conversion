@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-peanut-7725
+#FLUX --job-name=persnickety-malarkey-8796
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_flat22_5m_100ms_50ms.pbs

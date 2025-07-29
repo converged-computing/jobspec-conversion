@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-spoon-7782
+#FLUX --job-name=eccentric-banana-2321
 #FLUX -N=2
 #FLUX --queue=parallel
 #FLUX -t=1200

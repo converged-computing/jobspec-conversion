@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-motorcycle-1685
+#FLUX --job-name=fugly-lemon-0339
 #FLUX -n=32
 #FLUX --queue=defq
 #FLUX -t=87840

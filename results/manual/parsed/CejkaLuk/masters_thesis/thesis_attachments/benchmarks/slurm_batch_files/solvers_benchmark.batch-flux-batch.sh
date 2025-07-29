@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-carrot-4950
+#FLUX --job-name=chocolate-destiny-3363
 #FLUX -c=32
 #FLUX --queue=amdgpulong
 #FLUX -t=259200

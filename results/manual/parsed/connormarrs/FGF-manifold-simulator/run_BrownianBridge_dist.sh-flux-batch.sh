@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-knife-8310
+#FLUX --job-name=scruptious-rabbit-4118
 #FLUX -n=64
 #FLUX --queue=general
 #FLUX -t=39600

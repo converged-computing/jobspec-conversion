@@ -9,7 +9,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=ckpt
 #SBATCH --chdir=/mmfs1/gscratch/aaplasma/johnbc/projects/Braginskii/campaigns/RT_hyperdiffusion_1/
 #SBATCH --array=1-5%6
 

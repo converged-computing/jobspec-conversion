@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=Brody
 
 module load julia/1.2.0
 echo "Slurm Job ID, unique: $SLURM_JOB_ID"

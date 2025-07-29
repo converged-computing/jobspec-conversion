@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-train-9102
+#FLUX --job-name=ornery-nalgas-2779
 #FLUX -t=3600
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=32G
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 
 module load cuda/10.0.130
 module load mpi/mvapich2-2.3b_gcc

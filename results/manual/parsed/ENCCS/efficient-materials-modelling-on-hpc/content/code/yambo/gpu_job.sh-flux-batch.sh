@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=mos2-test
 #FLUX -c=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=1800
 #FLUX --urgency=16

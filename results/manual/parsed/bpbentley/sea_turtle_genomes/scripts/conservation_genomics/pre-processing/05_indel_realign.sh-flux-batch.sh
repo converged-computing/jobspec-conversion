@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-knife-6482
+#FLUX --job-name=joyous-salad-1216
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bpbentley/sea_turtle_genomes/scripts/conservation_genomics/pre-processing/05_indel_realign.sh

@@ -3,8 +3,7 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=dev
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=m5a4xlarge
 
 srun -v -v -N 4 -n 4 spack install \

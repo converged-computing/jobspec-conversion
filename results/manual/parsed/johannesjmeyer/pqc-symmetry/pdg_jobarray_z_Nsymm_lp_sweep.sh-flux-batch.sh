@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-ricecake-0559
+#FLUX --job-name=expressive-lamp-3684
 #FLUX -c=8
 #FLUX -t=86400
 #FLUX --urgency=16

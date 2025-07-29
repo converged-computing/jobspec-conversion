@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64gb
 #SBATCH --time=3-00:15:00
-#SBATCH --partition=intel
 
 export SINGULARITY_BINDPATH='/bigdata,/bigdata/operations/pkgadmin/opt/linux:/opt/linux'
 export AUGUSTUS_CONFIG_PATH='$(realpath lib/augustus/3.3/config)'

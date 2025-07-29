@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=job
 #FLUX -c=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=ju-standard
 #FLUX -t=86400
 #FLUX --urgency=16

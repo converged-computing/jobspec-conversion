@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:6
-#SBATCH --partition=npl
 
 export OMP_NUM_THREADS='40 # Hyperthreading'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-hippo-8773
+#FLUX --job-name=fuzzy-animal-0716
 #FLUX -c=2
 #FLUX --queue=parallel
 #FLUX -t=3600

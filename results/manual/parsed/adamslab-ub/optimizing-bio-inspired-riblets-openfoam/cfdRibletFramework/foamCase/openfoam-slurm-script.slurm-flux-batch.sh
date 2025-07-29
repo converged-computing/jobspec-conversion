@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=2.000-0.5511.7700.198
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=172800
 #FLUX --urgency=16
 

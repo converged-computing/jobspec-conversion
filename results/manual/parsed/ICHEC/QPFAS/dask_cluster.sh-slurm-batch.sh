@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=DevQ
 
 cd $SLURM_SUBMIT_DIR
 module load intel/2020u4

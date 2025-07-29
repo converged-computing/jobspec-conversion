@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-signal-6478
+#FLUX --job-name=muffled-despacito-4036
 #FLUX -c=2
 #FLUX --queue=gpu
 #FLUX -t=86399

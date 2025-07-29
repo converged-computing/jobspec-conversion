@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=extract2D
 #FLUX -n=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=9000
 #FLUX --urgency=16
 

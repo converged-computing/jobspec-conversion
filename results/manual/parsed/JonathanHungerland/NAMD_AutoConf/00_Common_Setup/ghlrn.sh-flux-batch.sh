@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-malarkey-4453
+#FLUX --job-name=doopy-nalgas-9590
 #FLUX -N=2
 #FLUX --queue=standard96
 #FLUX -t=43200

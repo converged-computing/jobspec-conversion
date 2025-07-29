@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-salad-5395
+#FLUX --job-name=expensive-taco-7180
 #FLUX -N=2
 #FLUX --queue=debug
 #FLUX -t=1800

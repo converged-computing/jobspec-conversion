@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-signal-1953
+#FLUX --job-name=gloopy-diablo-3903
 #FLUX --queue=test
 #FLUX -t=3600
 #FLUX --urgency=16

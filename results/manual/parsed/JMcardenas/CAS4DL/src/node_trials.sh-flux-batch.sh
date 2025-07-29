@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=lovable-lettuce-7186
+#FLUX --job-name=bloated-lizard-0331
 #FLUX -c=6
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=180
 #FLUX --urgency=16
 

@@ -9,7 +9,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=32G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=main
 #SBATCH --qos=normal
 #SBATCH --array=0-3
 

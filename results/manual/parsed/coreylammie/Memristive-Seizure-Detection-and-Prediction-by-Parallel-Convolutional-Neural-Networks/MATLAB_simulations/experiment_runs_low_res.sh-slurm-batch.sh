@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50g
-#SBATCH --partition=gpu
 
 module load matlab/R2019b
 module load cuda/11.3.0

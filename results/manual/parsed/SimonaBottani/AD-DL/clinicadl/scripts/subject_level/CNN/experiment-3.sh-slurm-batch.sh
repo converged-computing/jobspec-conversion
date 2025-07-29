@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60G
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu_p1
 #SBATCH --chdir=/gpfswork/rech/zft/upd53tc/jobs2/AD-DL/train/subject_level/cnn
 #SBATCH --array=0-4
 

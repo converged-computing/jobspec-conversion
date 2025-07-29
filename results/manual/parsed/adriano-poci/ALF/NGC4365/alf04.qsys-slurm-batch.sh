@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=3000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=cosma
 #SBATCH --chdir=/cosma5/data/durham/dc-poci1/alf/NGC4365
 #SBATCH --array=0-330
 

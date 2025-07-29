@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-bits-2925
+#FLUX --job-name=angry-caramel-9062
 #FLUX -n=32
 #FLUX --queue=defq
 #FLUX -t=87840

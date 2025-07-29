@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=02:15:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=GPU_MEM:16GB
 #SBATCH --array=3
 

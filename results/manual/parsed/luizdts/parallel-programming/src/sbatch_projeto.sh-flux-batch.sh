@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=Pascal_svd
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=amd-512
 #FLUX -t=10
 #FLUX --urgency=16

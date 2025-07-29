@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-train-0501
+#FLUX --job-name=lovely-avocado-9896
 #FLUX --queue=amd-longq
 #FLUX --urgency=16
 

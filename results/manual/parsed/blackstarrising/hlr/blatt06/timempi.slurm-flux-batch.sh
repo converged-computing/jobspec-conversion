@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-fudge-9047
+#FLUX --job-name=faux-egg-3146
 #FLUX -N=4
 #FLUX -n=12
 #FLUX --queue=west

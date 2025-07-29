@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=fat-lamp-8308
+#FLUX --job-name=rainbow-snack-4535
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=rosa.p
 #FLUX -t=28800
 #FLUX --urgency=16

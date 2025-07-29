@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-01:00:00
-#SBATCH --partition=titanx-long
 
 source /home/rgangaraju/.bashrc
 source activate tf

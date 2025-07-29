@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-cattywampus-0301
+#FLUX --job-name=adorable-signal-7835
 #FLUX -c=16
 #FLUX --queue=reservation7
 #FLUX -t=86400

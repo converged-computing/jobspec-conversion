@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-omelette-1289
+#FLUX --job-name=strawberry-itch-0209
 #FLUX -c=24
 #FLUX --queue=amdgpuextralong
 #FLUX -t=864000

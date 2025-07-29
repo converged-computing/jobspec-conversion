@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100-sxm2:1
 #SBATCH --mem=40G
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 
 JOB_FILE=$1
 EXTRA_ARGS=${@:2}

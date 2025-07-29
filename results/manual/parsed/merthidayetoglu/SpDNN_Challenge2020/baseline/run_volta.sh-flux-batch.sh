@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-dog-9232
+#FLUX --job-name=placid-house-2620
 #FLUX -N=4
 #FLUX --queue=gpu
 #FLUX -t=3600

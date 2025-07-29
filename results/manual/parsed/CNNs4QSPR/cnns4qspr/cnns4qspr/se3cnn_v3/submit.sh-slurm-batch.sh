@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:P100:1
 #SBATCH --mem=120G
 #SBATCH --time=3-18:00:00
-#SBATCH --partition=stf-gpu
 
 source ~/.login
 module load icc_17-impi_2017

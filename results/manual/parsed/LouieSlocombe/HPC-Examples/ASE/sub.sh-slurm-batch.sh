@@ -7,9 +7,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=standard
 #SBATCH --qos=short
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export WORK='/mnt/lustre/a2fs-work3/work/e89/e89/louie/'
 export PYTHONUSERBASE='$WORK/.local'

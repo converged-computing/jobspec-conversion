@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=th1-2020-64
 
   CURDIR=$SLURM_SUBMIT_DIR
   CURDIR_=`pwd | cut -d '/' -f 4-`

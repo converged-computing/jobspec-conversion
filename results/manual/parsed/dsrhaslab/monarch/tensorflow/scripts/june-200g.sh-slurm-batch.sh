@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=rtx
 
 export CC='/opt/apps/gcc/8.3.0/bin/gcc'
 export MONARCH_CONFIGS_PATH='${HOME}/maypaper/thesis/configurations/frontera/tf_placement_200g_disk.yaml'

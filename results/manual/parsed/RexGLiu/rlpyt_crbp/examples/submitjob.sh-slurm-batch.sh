@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem-per-cpu=100G
 #SBATCH --time=8-04:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=quadrortx
 
 module load anaconda/3-5.2.0

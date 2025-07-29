@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2500M
 #SBATCH --time=20:00:00
-#SBATCH --partition=medium
 
 export LOGDIR='${HOME}/scratch/slogs/${SLURM_JOB_NAME}-${SLURM_JOB_ID}'
 export TMPDIR='/fast/users/${USER}/scratch/tmp;'

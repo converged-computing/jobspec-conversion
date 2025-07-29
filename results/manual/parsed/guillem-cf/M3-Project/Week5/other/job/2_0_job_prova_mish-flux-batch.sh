@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-soup-6682
+#FLUX --job-name=reclusive-poodle-5953
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --gres=4
 #SBATCH --mem=200GB
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=v100-32gb
 #SBATCH --array=1-5
 

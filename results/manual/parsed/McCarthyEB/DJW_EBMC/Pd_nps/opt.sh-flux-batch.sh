@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=pd_np
 #FLUX -n=40
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute
 #FLUX -t=86400
 #FLUX --urgency=16

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-destiny-2951
+#FLUX --job-name=pusheena-truffle-0173
 #FLUX --urgency=16
 

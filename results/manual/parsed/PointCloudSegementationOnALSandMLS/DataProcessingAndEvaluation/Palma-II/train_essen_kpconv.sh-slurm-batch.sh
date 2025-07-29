@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=gpuhgx
 
 module load palma/2021b
 module load Singularity

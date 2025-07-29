@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:6
 #SBATCH --time=06:00:00
-#SBATCH --partition=npl
 
 export OMP_NUM_THREADS='40 # Hyperthreading'
 export PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:1280'

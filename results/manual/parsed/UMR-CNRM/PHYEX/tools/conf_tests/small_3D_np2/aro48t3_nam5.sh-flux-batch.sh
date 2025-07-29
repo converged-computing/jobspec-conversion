@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-lemon-1312
+#FLUX --job-name=chocolate-latke-3954
 #FLUX -n=2
 #FLUX --queue=normal256
 #FLUX -t=600

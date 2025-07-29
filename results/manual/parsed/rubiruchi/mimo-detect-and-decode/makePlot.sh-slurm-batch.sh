@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=05:00:00
-#SBATCH --partition=normal
 
 echo "Start test"
 module load matlab 

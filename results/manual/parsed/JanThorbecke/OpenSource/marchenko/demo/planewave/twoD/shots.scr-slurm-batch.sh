@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
-#SBATCH --partition=max30m
 #SBATCH --array=0-600
 
 export PATH='\$HOME/src/OpenSource/bin:\$PATH:'

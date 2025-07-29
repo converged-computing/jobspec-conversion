@@ -4,7 +4,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=arandu
 #SBATCH --array=1-4
 
 echo "Running on"

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:A100.80gb:1
 #SBATCH --mem-per-cpu=32GB
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1,20,40,60,80,100
 
 ml gnu10; ml cuda; ml cudnn; ml nvidia-hpc-sdk; ml python;

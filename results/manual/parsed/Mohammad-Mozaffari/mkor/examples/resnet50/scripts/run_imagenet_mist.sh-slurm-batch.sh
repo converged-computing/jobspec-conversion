@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=compute_full_node
 
 OPTIMIZER=sgd
 NPROC_PER_NODE=4

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-bicycle-4817
+#FLUX --job-name=lovely-fork-9132
 #FLUX -n=4
 #FLUX --queue=shared
 #FLUX -t=7200

@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=02:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=gpu
 
 export OMP_NUM_THREADS='$(( 40 / ${rankspernode} ))'

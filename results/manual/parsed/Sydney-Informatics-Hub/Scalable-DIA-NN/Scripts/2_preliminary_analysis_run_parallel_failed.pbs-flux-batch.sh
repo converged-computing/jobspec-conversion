@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-banana-2893
+#FLUX --job-name=fuzzy-pedo-2816
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Sydney-Informatics-Hub/Scalable-DIA-NN/Scripts/2_preliminary_analysis_run_parallel_failed.pbs

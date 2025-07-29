@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem=10GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=n1c24m128-v100-4
 #SBATCH --constraint=ntasks-per-node=1
 
 module purge

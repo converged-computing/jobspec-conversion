@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=150G
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=dlav
 #SBATCH --chdir=/home/ramdass/2D-Human-Pose-Estimation/
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-plant-7740
+#FLUX --job-name=adorable-pedo-4739
 #FLUX --queue=short-serial
 #FLUX -t=21600
 #FLUX --urgency=16

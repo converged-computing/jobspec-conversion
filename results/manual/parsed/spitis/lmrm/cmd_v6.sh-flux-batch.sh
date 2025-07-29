@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-blackbean-0577
+#FLUX --job-name=eccentric-bits-6506
 #FLUX -c=6
 #FLUX --queue=rtx6000
 #FLUX --urgency=16

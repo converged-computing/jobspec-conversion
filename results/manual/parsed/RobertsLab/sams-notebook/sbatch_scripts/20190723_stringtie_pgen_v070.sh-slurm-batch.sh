@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=500G
 #SBATCH --time=25-00:00:00
-#SBATCH --partition=srlab
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20190723_stringtie_pgen_v070
 
 set -e

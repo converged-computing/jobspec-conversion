@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=07:00:00
-#SBATCH --partition=debug
 #SBATCH --constraint=ntasks-per-node=24
 
                               # this deadline (start > (deadline - time[-min]))

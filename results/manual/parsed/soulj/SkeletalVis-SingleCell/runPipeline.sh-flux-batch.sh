@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-pastry-5308
+#FLUX --job-name=goodbye-general-5574
 #FLUX --urgency=16
 
 module load singularity

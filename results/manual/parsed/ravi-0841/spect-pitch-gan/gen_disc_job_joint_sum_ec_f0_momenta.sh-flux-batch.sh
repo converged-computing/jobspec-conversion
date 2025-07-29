@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-salad-7612
+#FLUX --job-name=evasive-citrus-6701
 #FLUX -c=6
 #FLUX --queue=gpuk80
 #FLUX -t=72000

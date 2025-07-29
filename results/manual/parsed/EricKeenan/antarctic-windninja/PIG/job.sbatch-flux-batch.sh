@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-frito-4804
+#FLUX --job-name=eccentric-itch-0681
 #FLUX --queue=shas
 #FLUX -t=14400
 #FLUX --urgency=16

@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=G1Part_sce
 
 export PATH='/es01/paratera/sce3063/lammps/lammps-2Aug2023/src:$PATH'
 

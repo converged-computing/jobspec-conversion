@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=01:00:00
-#SBATCH --partition=cpufast
 
 MODEL=$1 		# which model to run
 DATASET=$2      # which dataset to run

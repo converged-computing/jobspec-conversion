@@ -6,7 +6,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=6
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=x
 
 . /etc/bashrc ;
 which mcnp6.mpi &> /dev/null || module load icc-x86_64/intel-amd64 mvapich2-1.8.1 mcnp6b2 mcnpbindata-6b2 ;

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-general-0426
+#FLUX --job-name=boopy-blackbean-2090
 #FLUX --queue=main
 #FLUX -t=43200
 #FLUX --urgency=16

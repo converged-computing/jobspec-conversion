@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-destiny-6172
+#FLUX --job-name=quirky-fork-5552
 #FLUX -N=3
 #FLUX -t=900
 #FLUX --urgency=16

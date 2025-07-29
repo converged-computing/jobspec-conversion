@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=256GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=batch
 
 CORES=32
 PROJ= /hpcfs/users/a1680844/20131906_HickeyT_JC_NormalBreast

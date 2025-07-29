@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=reinforcement
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43200
 #FLUX --urgency=16
 

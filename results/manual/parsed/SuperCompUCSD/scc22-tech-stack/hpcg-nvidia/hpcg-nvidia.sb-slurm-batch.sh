@@ -8,9 +8,8 @@
 #SBATCH --gres=2
 #SBATCH --mem=200000M
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=2
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module reset
 module load gpu

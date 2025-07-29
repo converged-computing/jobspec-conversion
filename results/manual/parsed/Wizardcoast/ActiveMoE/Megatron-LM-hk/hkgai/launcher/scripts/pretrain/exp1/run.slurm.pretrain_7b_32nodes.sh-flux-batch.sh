@@ -2,7 +2,7 @@
 #FLUX --job-name=Megatron-LM
 #FLUX -N=32
 #FLUX -c=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=megatron
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-earthworm-3202
+#FLUX --job-name=crusty-egg-0179
 #FLUX -c=16
 #FLUX -t=43200
 #FLUX --urgency=16

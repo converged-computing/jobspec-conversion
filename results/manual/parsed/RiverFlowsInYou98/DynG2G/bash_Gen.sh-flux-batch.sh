@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-platanos-3331
+#FLUX --job-name=loopy-chair-0055
 #FLUX -n=4
 #FLUX --queue=a6000-gcondo
 #FLUX -t=345600

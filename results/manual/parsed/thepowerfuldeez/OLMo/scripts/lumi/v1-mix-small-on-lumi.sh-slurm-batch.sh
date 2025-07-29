@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=0
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=standard-g
 #SBATCH --constraint=ntasks-per-node=8
 
 export OLMO_CONTAINER='llm-lumi_latest.sif'

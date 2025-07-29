@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-lemur-4781
+#FLUX --job-name=grated-poo-2444
 #FLUX -c=8
 #FLUX --queue=True
 #FLUX -t=600

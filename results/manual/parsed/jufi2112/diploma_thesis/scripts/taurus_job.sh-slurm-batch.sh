@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10000M
 #SBATCH --time=3-08:00:00
-#SBATCH --partition=ml
 
 export PYTHONPATH='$PYTHONPATH:/scratch/ws/1/s8732099-da/git/gaea_release/AutoDL-Projects'
 

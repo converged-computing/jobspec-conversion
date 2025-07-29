@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-motorcycle-6029
+#FLUX --job-name=nerdy-general-8928
 #FLUX -N=8
 #FLUX -c=16
 #FLUX --queue=gpgpu-1

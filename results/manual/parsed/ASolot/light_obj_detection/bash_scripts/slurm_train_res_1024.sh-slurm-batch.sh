@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=02:00:00
-#SBATCH --partition=pascal
 
 numnodes=$SLURM_JOB_NUM_NODES
 numtasks=$SLURM_NTASKS

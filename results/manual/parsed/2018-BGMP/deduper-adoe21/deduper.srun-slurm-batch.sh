@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=short
 
 ml purge
 ml samtools/1.5 

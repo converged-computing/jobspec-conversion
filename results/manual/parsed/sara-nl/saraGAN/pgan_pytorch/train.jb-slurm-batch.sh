@@ -3,7 +3,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu_titanrtx
 
 source /home/davidr/scripts/nki_torch.sh
 JOBSPERNODE=4

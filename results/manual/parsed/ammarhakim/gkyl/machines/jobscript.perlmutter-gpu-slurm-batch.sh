@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=2
 #SBATCH --time=00:30:00
-#SBATCH --partition=regular
 #SBATCH --constraint=gpu
 
 export gComDir='/global/homes/m/jdoe/gkylsoft/gkyl/bin'

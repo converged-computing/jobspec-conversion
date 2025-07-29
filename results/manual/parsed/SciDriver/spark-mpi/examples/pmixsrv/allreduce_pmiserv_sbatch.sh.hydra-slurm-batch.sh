@@ -2,7 +2,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=[partition]
 #SBATCH --constraint=ntasks-per-node=1
 
 export HYDRA_PROXY_PORT='55555'

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100:1
-#SBATCH --partition=gpu
 
 IMG=/home/software/singularity/tf-2.14.0.simg
 cd ~/particleflow

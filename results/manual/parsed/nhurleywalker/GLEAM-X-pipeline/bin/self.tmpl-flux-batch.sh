@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-sundae-3009
+#FLUX --job-name=doopy-salad-6967
 #FLUX --queue=STANDARDQ
 #FLUX -t=43200
 #FLUX --urgency=16

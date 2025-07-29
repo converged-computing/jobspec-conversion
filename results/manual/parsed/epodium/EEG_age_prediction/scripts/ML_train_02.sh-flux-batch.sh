@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-squidward-4143
+#FLUX --job-name=conspicuous-animal-0286
 #FLUX --queue=gpu_shared
 #FLUX -t=54000
 #FLUX --urgency=16

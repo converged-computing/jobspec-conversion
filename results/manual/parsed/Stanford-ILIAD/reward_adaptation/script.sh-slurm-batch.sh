@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4G
-#SBATCH --partition=iliad
 #SBATCH --qos=normal
 
 CUDA_VISIBLE_DEVICES=0 python train.py --env nav1_sparse --bs 7 --experiment_dir output/sparse --expt_type ours

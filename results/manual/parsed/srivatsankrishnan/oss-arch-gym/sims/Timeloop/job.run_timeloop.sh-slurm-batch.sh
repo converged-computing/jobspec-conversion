@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=seas_dgx1
 
 export USER_UID='$UID'
 export USER_GID='$(id -g)'

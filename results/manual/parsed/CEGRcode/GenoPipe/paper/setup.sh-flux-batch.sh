@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-carrot-7997
+#FLUX --job-name=stanky-noodle-6566
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CEGRcode/GenoPipe/paper/setup.sh

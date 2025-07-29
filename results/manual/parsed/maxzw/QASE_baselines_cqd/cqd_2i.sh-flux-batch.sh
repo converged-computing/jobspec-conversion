@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-parrot-9499
+#FLUX --job-name=salted-pedo-3783
 #FLUX -c=2
 #FLUX --queue=gpu_shared
 #FLUX -t=3600

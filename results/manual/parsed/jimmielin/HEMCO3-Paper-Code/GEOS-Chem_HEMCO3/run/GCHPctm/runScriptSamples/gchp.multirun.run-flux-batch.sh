@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=lovable-leader-0369
+#FLUX --job-name=ornery-lettuce-6847
 #FLUX -n=30
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=huce_intel
 #FLUX -t=30
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=00:30:00
-#SBATCH --partition=testing
 
 export ENV='/home/s2358093/data1/conda_envs/xarray'
 export CWD='$(pwd)'

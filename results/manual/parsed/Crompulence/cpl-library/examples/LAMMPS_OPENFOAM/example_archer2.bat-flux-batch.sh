@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=my_cpl_demo
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard
 #FLUX -t=1800
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8gb
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=batch
 
 SUBDIR=$(pwd)
 if [[ ! -d /scratch/bjl34716/nf_dev/gg-catalog ]]; then

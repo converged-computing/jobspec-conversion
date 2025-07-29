@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2gb
 #SBATCH --time=00:20:00
-#SBATCH --partition=small
 #SBATCH --constraint=ntasks-per-node=24
 
 cd $SLURM_SUBMIT_DIR

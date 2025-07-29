@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-diablo-8917
+#FLUX --job-name=fat-chair-7262
 #FLUX --queue=RM-shared
 #FLUX -t=3600
 #FLUX --urgency=16

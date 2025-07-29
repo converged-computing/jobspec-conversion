@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --mem=7800M
-#SBATCH --partition=GPUNodes
 
 track_year=$1
 echo "starting ..."

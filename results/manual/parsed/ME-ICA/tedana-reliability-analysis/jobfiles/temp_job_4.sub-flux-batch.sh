@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-animal-9390
+#FLUX --job-name=swampy-peas-8448
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ME-ICA/tedana-reliability-analysis/jobfiles/temp_job_4.sub

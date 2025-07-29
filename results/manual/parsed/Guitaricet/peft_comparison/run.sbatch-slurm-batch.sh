@@ -9,8 +9,7 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=400GB
 #SBATCH --time=23:59:59
-#SBATCH --partition=g40x
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export WANDB_WATCH='false'
 export WANDB_DIR='/fsx/vlialin/wandb/wandb_dir'

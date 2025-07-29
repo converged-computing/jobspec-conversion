@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=plgrid-gpu
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=12
 

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=16G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=2
 
 module load Keras/2.1.3-goolfc-2017b-Python-3.6.3

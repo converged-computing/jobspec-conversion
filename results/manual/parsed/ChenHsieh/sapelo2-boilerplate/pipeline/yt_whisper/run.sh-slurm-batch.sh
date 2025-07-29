@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:V100:1
 #SBATCH --mem=32gb
 #SBATCH --time=04:00:00
-#SBATCH --partition=batch
 
 date
 ml Nextflow

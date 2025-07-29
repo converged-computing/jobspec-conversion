@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=conroy,shared
 #SBATCH --constraint=intel
 
 srun -n 1 --mpi=pmi2 python $APPS/prospector/scripts/prospector_dynesty.py \

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-truffle-6541
+#FLUX --job-name=faux-knife-5097
 #FLUX -n=10
 #FLUX --queue=ghpc
 #FLUX -t=86400

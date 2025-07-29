@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --mem=240G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=psych_week
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/gpfs/milgram/project/chang/pg496/repositories/categorical/lib/linux'
 

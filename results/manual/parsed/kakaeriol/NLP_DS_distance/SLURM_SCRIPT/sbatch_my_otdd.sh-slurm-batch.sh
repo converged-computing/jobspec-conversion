@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=50GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=long
 #SBATCH --array=0-10
 #SBATCH --exclude=amdgpu1,amdgpu2,xcna0,xgpd9
 

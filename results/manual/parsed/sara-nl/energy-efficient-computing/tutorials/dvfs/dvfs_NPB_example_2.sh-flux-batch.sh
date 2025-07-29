@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=NPB_dvfs
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=rome
 #FLUX -t=3300
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-house-4326
+#FLUX --job-name=pusheena-hope-0833
 #FLUX -c=2
 #FLUX --queue=general
 #FLUX -t=600

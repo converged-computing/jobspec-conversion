@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=300000
-#SBATCH --partition=jumbo
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=96
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=skx
 
 module load intel/24.0
 module load impi/21.11

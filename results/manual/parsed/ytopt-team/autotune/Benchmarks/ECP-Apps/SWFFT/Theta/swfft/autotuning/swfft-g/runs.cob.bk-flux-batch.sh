@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-nalgas-3971
+#FLUX --job-name=fat-caramel-9211
 #FLUX --urgency=16
 

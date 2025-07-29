@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-leader-3004
+#FLUX --job-name=goodbye-peas-4999
 #FLUX --queue=interact
 #FLUX -t=28800
 #FLUX --urgency=16

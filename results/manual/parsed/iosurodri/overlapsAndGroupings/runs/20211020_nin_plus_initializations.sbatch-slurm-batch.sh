@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:1
-#SBATCH --partition=power_std
 #SBATCH --array=1-7
 
 source ~/anaconda3/etc/profile.d/conda.sh

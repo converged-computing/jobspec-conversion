@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-buttface-7763
+#FLUX --job-name=cowy-frito-0766
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/yw-fang/QE-PlotPhonon-toolkit/PlotPhon/Examples/phonon-calculation-example/GRID_example_1/job.pbs

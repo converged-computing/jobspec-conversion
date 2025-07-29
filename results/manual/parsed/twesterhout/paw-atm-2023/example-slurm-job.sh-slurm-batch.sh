@@ -4,8 +4,7 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=128
 #SBATCH --time=01:00:00
-#SBATCH --partition=thin
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --exclude=tcn377
 
 export GASNET_BACKTRACE='1'

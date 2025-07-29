@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000
 #SBATCH --time=00:05:00
-#SBATCH --partition=shared
 #SBATCH --constraint=ntasks-per-node=4
 
 module load gcc/13.2.0-fasrc01 openmpi/4.1.5-fasrc03

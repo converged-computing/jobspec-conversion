@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --mem=20G
 #SBATCH --time=02:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=cpu
 
 module load python

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-chair-3639
+#FLUX --job-name=expressive-parrot-0333
 #FLUX --queue=hci-rw
 #FLUX -t=345600
 #FLUX --urgency=16

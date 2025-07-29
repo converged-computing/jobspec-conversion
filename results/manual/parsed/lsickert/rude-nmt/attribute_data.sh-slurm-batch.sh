@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=64GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 export HF_DATASETS_CACHE='/scratch/$USER/.cache/huggingface/datasets'
 export TRANSFORMERS_CACHE='/scratch/$USER/.cache/huggingface/transformers'

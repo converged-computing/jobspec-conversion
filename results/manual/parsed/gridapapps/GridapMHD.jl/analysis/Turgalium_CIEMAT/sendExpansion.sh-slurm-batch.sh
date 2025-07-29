@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=volta
 #SBATCH --constraint=ntasks-per-node=1
 
 SLURM_NPROCS=`expr $SLURM_JOB_NUM_NODES \* $SLURM_NTASKS_PER_NODE`

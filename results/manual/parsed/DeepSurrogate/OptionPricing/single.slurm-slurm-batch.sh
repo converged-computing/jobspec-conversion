@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 #SBATCH --chdir=/scratch/adidishe/fop
 
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-car-1353
+#FLUX --job-name=bloated-nalgas-4678
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

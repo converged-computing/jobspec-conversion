@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-signal-3192
+#FLUX --job-name=evasive-ricecake-5909
 #FLUX -N=8
 #FLUX -n=320
 #FLUX -t=1800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-kitty-0821
+#FLUX --job-name=angry-itch-2279
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/samebdon/springtail_haploid_selection/scripts/bsub_TOGA.sh

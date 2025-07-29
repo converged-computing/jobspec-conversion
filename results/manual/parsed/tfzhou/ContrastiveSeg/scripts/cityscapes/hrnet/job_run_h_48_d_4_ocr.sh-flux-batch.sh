@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-ricecake-7519
+#FLUX --job-name=strawberry-ricecake-4169
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tfzhou/ContrastiveSeg/scripts/cityscapes/hrnet/job_run_h_48_d_4_ocr.sh

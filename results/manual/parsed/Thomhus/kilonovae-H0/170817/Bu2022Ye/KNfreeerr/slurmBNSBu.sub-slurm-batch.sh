@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=96G
 #SBATCH --time=04:00:00
-#SBATCH --partition=shared
 #SBATCH --constraint=ntasks-per-node=32
 
 export LD_LIBRARY_PATH='/home/thussenot/MultiNest/lib/:$LD_LIBRARY_PATH'

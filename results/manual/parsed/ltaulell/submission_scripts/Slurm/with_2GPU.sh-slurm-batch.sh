@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=12G
 #SBATCH --time=00:10:00
-#SBATCH --partition=E5-GPU
 
 env
 echo "--- *** --- *** ---"

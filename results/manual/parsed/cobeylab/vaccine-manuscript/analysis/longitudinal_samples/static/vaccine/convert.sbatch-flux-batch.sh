@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-pot-3770
+#FLUX --job-name=evasive-muffin-6753
 #FLUX --queue=amd
 #FLUX -t=1800
 #FLUX --urgency=16

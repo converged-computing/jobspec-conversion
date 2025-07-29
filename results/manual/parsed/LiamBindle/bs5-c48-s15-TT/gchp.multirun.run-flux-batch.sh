@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=ornery-puppy-5297
+#FLUX --job-name=hello-butter-6153
 #FLUX -n=30
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=huce_intel
 #FLUX -t=30
 #FLUX --urgency=16

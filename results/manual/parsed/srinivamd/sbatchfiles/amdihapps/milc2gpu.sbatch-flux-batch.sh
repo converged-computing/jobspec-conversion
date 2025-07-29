@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-hope-0696
+#FLUX --job-name=blank-destiny-4302
 #FLUX -c=16
 #FLUX --urgency=16
 

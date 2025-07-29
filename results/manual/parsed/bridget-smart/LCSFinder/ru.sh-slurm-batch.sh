@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=batch
 
 pip install -U datetime pandas numpy warnings numba seaborn matplotlib tqdm
 swig -c++ -python LCSFinder.i 

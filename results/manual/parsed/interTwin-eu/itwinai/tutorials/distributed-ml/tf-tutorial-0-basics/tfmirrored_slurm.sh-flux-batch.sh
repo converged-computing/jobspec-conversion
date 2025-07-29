@@ -2,7 +2,7 @@
 #FLUX --job-name=TFTest
 #FLUX -N=2
 #FLUX -c=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX -t=900
 #FLUX --urgency=16

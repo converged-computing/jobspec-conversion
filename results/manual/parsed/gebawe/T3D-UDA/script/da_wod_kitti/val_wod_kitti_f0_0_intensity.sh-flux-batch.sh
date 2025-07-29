@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-pancake-6023
+#FLUX --job-name=placid-arm-3683
 #FLUX --queue=amdgpufast
 #FLUX -t=14400
 #FLUX --urgency=16

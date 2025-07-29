@@ -5,9 +5,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=general-compute
 #SBATCH --qos=general-compute
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8,CPU-L5520
 
 export AKRR_NODES='2'

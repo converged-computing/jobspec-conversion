@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32GB
-#SBATCH --partition=investigacion
 #SBATCH --nodelist=g001
 
 export PATH='/usr/local/cuda-11.4/targets/x86_64-linux/lib:$PATH'

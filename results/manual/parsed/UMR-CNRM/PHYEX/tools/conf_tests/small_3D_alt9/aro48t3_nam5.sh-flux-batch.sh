@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-house-3893
+#FLUX --job-name=wobbly-lamp-6497
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

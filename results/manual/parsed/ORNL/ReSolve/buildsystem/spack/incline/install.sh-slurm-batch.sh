@@ -7,7 +7,6 @@
 #SBATCH --ntasks=3
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=incline
 
 export HTTPS_PROXY='http://proxy01.pnl.gov:3128'
 export https_proxy='http://proxy01.pnl.gov:3128'

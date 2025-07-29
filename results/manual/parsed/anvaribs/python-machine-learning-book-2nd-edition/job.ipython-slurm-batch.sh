@@ -6,7 +6,6 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=vis
 
 echo job $JOB_ID execution at: `date`
 NODE_HOSTNAME=`hostname -s`

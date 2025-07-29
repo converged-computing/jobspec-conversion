@@ -10,7 +10,6 @@
 #SBATCH --gres=a100:1
 #SBATCH --mem=200gb
 #SBATCH --time=01:30:00
-#SBATCH --partition=gpu
 
 export TEST_ENV='True'
 

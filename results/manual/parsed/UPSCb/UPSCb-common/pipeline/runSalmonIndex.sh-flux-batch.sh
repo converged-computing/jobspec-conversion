@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-animal-0721
+#FLUX --job-name=hairy-milkshake-0079
 #FLUX -n=8
 #FLUX --queue=node
 #FLUX -t=43200

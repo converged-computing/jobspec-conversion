@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-peanut-8435
+#FLUX --job-name=loopy-caramel-3310
 #FLUX -c=28
 #FLUX --queue=parallel
 #FLUX -t=360000

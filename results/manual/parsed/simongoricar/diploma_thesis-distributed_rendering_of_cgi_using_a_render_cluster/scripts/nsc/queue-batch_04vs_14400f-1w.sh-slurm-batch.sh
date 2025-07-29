@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=2G
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=gridlong
 #SBATCH --constraint=zen3
 
 export RUST_LOG='debug'

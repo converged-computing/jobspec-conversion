@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-sundae-3843
+#FLUX --job-name=evasive-omelette-3552
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-lemur-6375
+#FLUX --job-name=loopy-cherry-8904
 #FLUX -c=8
 #FLUX --queue=alpha
 #FLUX -t=86399

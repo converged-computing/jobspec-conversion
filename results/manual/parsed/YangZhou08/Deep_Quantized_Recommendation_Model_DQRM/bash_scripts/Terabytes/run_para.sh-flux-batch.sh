@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-kitty-9966
+#FLUX --job-name=dirty-earthworm-1760
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/YangZhou08/Deep_Quantized_Recommendation_Model_DQRM/bash_scripts/Terabytes/run_para.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-gato-8700
+#FLUX --job-name=scruptious-noodle-6280
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

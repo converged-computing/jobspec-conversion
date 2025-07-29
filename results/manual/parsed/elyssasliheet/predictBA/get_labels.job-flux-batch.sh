@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=get_labels
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard-s
 #FLUX --urgency=16
 

@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=2G
 #SBATCH --time=05:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=amd&rome
 #SBATCH --exclude=wn[201-224]
 

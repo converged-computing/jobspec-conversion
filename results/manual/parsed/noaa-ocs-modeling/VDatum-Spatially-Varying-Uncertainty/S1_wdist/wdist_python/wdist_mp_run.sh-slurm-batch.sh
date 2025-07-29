@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20000M
 #SBATCH --time=03:00:00
-#SBATCH --partition=tjet,ujet,sjet,vjet,xjet,kjet
 #SBATCH --qos=batch
 #SBATCH --chdir=.
 #SBATCH --array=0-9

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=sched_mit_sloan_batch
 
 module load julia
 srun julia engaging.jl

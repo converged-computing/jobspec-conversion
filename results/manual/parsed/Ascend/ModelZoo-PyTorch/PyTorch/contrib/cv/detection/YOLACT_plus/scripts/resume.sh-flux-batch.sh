@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-destiny-4152
+#FLUX --job-name=loopy-bicycle-7777
 #FLUX --queue=GPU-shared
 #FLUX -t=172800
 #FLUX --urgency=16

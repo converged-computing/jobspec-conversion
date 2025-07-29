@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=500G
 #SBATCH --time=17-00:00:00
-#SBATCH --partition=srlab
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20220323-pgen-nextflow_rnaseq-tissues
 
 nf_core_rnaseq="/gscratch/srlab/programs/nf-core-rnaseq-3.6/workflow"

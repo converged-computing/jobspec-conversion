@@ -6,7 +6,6 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=cpu
 #SBATCH --constraint=ntasks-per-node=10
 
 module load mpi/openmpi-x86_64

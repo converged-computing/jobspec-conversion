@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-spoon-7221
+#FLUX --job-name=bloated-lizard-7538
 #FLUX -c=6
 #FLUX --queue=gpuk80
 #FLUX -t=3600

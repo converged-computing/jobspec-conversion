@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-bits-0589
+#FLUX --job-name=ornery-milkshake-0673
 #FLUX --queue=standard
 #FLUX -t=600
 #FLUX --urgency=16

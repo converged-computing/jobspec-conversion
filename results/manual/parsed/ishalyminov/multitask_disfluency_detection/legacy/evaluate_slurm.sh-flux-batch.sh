@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-kerfuffle-7739
+#FLUX --job-name=muffled-cat-8425
 #FLUX --queue=amd-longq
 #FLUX --urgency=16
 

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=65536
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --nodelist=roberto
 
 EXE=/bin/bash

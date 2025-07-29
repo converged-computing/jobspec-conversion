@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=40G
-#SBATCH --partition=high
 #SBATCH --chdir=/homedtic/rgong/phoneEmbeddingModelsTraining
 #SBATCH --nodelist=node021
 

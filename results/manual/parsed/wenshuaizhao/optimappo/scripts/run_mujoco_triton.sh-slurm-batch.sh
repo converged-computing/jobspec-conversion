@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=64G
 #SBATCH --time=1-16:00:00
-#SBATCH --partition=batch
 #SBATCH --array=0-3
 
 export PYTHONUSERBASE='/scratch/work/zhaow7/PycharmProjects/docker/mappo_env \'

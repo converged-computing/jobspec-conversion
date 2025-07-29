@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=3G
 #SBATCH --time=00:10:00
-#SBATCH --partition=test
 
 singularity exec --nv ~/sdc_gym.simg python your_file.py
 echo DONE!

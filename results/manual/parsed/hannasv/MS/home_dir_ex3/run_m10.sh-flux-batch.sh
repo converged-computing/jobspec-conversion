@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-parsnip-3308
+#FLUX --job-name=quirky-bicycle-4540
 #FLUX -n=6
 #FLUX --queue=dgx2q
 #FLUX -t=87840

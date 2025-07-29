@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=20G
 #SBATCH --time=00:10:00
-#SBATCH --partition=instruction
 
 module load nvidia/cuda/11.8.0
 g++ task3.cpp -Wall -O3 -std=c++17 -o task3 -fopenmp

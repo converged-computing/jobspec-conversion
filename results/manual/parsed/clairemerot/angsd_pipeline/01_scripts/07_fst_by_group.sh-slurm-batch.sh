@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=50G
 #SBATCH --time=21-00:00:00
-#SBATCH --partition=large
 
 NB_CPU=6 #change accordingly in SLURM header
 NSITES=500000 #to make realSFS goes faster -reduce the number of sites considered

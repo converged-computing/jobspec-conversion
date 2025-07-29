@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-truffle-0353
+#FLUX --job-name=chocolate-noodle-3644
 #FLUX --queue=stud-ewi
 #FLUX -t=3600
 #FLUX --urgency=16

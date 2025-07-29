@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-carrot-1575
+#FLUX --job-name=frigid-pot-4881
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=normal
 #SBATCH --array=1-12%3
 
 PROBABILITY=0.9

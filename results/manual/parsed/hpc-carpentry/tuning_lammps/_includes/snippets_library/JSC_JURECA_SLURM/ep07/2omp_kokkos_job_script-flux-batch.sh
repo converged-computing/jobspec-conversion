@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-onion-9222
+#FLUX --job-name=fuzzy-signal-3581
 #FLUX -c=12
 #FLUX --queue=devel
 #FLUX -t=600

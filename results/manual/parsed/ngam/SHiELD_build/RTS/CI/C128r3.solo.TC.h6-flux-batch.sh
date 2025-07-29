@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-avocado-3023
+#FLUX --job-name=eccentric-fork-1812
 #FLUX -n=96
 #FLUX --urgency=16
 

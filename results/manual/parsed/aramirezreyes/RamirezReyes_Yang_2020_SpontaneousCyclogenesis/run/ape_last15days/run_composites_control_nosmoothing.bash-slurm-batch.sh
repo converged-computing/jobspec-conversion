@@ -7,7 +7,6 @@
 #SBATCH --time=10:00:00
 #SBATCH --qos=regular
 #SBATCH --constraint=knl
-#SBATCH --licenses=project,SCRATCH
 
 export TMPDIR='$SCRATCH'
 

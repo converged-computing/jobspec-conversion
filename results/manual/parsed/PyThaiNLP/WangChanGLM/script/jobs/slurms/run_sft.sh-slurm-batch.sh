@@ -9,7 +9,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=16GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=scads-a100
 
 cd /ist/users/patompornp/wangchanx/ChomGPT/script
 conda activate chat

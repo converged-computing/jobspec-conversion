@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu
 #SBATCH --exclude=gqxx-01-016
 
 module load java/1.8.0.162

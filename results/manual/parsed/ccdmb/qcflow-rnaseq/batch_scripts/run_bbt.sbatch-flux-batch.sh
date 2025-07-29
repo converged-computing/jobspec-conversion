@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-malarkey-6504
+#FLUX --job-name=hanky-nunchucks-8051
 #FLUX -c=2
 #FLUX --queue=work
 #FLUX -t=86400

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=16000
 #SBATCH --time=00:06:00
-#SBATCH --partition=sapphire
 
 export PYTHONPATH='${PYTHONPATH}:${InversionPath}'
 

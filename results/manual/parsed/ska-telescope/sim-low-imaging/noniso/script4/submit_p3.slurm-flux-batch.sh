@@ -2,7 +2,7 @@
 #FLUX --job-name=IMAGING
 #FLUX -N=8
 #FLUX -n=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute
 #FLUX -t=86399
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-underoos-9012
+#FLUX --job-name=bloated-pastry-7181
 #FLUX -N=2
 #FLUX -n=2
 #FLUX --queue=west

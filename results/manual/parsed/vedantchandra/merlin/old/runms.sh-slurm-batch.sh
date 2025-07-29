@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3500
 #SBATCH --time=00:03:00
-#SBATCH --partition=conroy_priority,itc_cluster,shared,serial_requeue
 #SBATCH --constraint=intel
 #SBATCH --array=0-79
 

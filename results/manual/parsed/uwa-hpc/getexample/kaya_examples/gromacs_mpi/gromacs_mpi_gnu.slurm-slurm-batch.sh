@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=10G
 #SBATCH --time=00:40:00
-#SBATCH --partition=admin
 
 module load gcc/9.4.0
 module load gromacs/2020.4

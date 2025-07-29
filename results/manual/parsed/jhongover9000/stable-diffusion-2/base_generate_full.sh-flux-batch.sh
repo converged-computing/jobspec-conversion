@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-onion-4903
+#FLUX --job-name=placid-peas-1806
 #FLUX -n=2
 #FLUX -c=4
 #FLUX --queue=nvidia

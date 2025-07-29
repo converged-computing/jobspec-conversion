@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-staircase-4884
+#FLUX --job-name=astute-rabbit-1744
 #FLUX -N=2
 #FLUX -n=2
 #FLUX -c=16

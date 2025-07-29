@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=60G
 #SBATCH --time=4-23:00:00
-#SBATCH --partition=medium
 #SBATCH --array=1-200%75
 
 echo "My SLURM_JOB_ID: " $SLURM_JOB_ID

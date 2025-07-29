@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-chip-2981
+#FLUX --job-name=carnivorous-train-1054
 #FLUX --queue=yoda
 #FLUX -t=10800
 #FLUX --urgency=16

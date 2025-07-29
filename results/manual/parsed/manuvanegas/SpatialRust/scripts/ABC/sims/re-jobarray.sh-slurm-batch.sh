@@ -8,7 +8,6 @@
 #SBATCH --ntasks=5
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:30:00
-#SBATCH --partition=public
 #SBATCH --array=1-100
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'

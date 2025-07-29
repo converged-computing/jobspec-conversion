@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:0
 #SBATCH --mem=1GB
 #SBATCH --time=00:01:00
-#SBATCH --partition=dgx
 
 echo $CUDA_VISIBLE_DEVICES
 echo "SLURM_JOBID="$SLURM_JOBID

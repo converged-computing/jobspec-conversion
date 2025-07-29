@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a100:2
 #SBATCH --mem=200G
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=batch
 
 module purge
 module load gcc/11.1.0

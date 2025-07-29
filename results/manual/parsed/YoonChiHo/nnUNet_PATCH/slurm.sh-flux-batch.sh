@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-bits-9649
+#FLUX --job-name=misunderstood-squidward-8905
 #FLUX --queue=A100-pci
 #FLUX --urgency=16
 

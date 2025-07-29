@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-diablo-4827
+#FLUX --job-name=dinosaur-sundae-1086
 #FLUX -n=8
 #FLUX --queue=batch
 #FLUX -t=14400

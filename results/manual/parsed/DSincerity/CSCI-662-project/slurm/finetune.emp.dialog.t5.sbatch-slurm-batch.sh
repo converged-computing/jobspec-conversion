@@ -9,8 +9,7 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=20G
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'

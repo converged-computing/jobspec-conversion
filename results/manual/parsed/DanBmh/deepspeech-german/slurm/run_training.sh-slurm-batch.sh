@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=128000
 #SBATCH --time=41-16:00:00
-#SBATCH --partition=gpu
 
 singularity exec \
   --nv \

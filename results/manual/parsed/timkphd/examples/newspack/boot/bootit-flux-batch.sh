@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=hybrid
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=86400
 #FLUX --urgency=16

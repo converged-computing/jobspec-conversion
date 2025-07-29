@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-leopard-5643
+#FLUX --job-name=reclusive-truffle-4923
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fpled/MYCODE/examples/multiscale/multiscaleStoNonlinDiffReac.pbs

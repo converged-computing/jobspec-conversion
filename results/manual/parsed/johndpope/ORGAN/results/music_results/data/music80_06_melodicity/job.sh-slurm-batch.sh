@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem-per-cpu=1024
 #SBATCH --time=20-00:00:00
-#SBATCH --partition=aagk80
 #SBATCH --constraint=cuda-7.5
 
 export OMP_NUM_THREADS='8'

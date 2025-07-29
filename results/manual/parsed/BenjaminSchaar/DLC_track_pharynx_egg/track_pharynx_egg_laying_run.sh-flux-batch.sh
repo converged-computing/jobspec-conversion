@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-lamp-6972
+#FLUX --job-name=placid-soup-1551
 #FLUX --urgency=16
 
 OPT="sbatch -p {cluster.partition} --cpus-per-task {cluster.cpus_per_task} --mem {cluster.mem} --output {cluster.output}"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-cherry-2677
+#FLUX --job-name=delicious-puppy-6531
 #FLUX --urgency=16
 
 spack env deactivate

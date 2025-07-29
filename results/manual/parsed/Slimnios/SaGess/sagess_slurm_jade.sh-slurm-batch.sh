@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --gres=gpu:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=small
 
 export CUDA_VISIBLE_DEVICES='$SLURM_JOB_GPUS'
 

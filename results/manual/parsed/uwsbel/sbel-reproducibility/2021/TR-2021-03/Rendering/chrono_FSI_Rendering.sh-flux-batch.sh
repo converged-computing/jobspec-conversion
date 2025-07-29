@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-kitty-8592
+#FLUX --job-name=goodbye-pot-2369
 #FLUX -c=10
 #FLUX --queue=sbel
 #FLUX -t=864000

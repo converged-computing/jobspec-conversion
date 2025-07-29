@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-hobbit-0667
+#FLUX --job-name=expensive-plant-5644
 #FLUX -c=6
 #FLUX --queue=rise
 #FLUX -t=87840

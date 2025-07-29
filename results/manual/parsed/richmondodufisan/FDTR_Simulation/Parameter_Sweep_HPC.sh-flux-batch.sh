@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-milkshake-5564
+#FLUX --job-name=muffled-leader-6374
 #FLUX --urgency=16
 
 module purge

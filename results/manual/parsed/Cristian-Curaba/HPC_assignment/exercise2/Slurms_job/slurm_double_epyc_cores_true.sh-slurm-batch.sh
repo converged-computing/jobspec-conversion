@@ -4,9 +4,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=EPYC
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 
 export code='/u/dssc/ccurab00/scratch/Foundations_of_HPC_2022/Assignment/exercise2'
 export OMP_NUM_THREADS='64'

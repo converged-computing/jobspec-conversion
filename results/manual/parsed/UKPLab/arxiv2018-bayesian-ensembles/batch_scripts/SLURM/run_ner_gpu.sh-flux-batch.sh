@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ner_gpu
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

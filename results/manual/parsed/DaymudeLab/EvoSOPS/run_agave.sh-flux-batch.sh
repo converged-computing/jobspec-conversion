@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-earthworm-1594
+#FLUX --job-name=dinosaur-diablo-0829
 #FLUX -n=24
 #FLUX --queue=normal
 #FLUX -t=21600

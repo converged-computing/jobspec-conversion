@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=papago
 
 hostname
 srun hostname

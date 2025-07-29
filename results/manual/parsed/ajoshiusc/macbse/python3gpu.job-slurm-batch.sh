@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64GB
 #SBATCH --time=23:00:00
-#SBATCH --partition=gpu
 
 eval "$(conda shell.bash hook)"
 cd /scratch1/ajoshi/projects/macbse

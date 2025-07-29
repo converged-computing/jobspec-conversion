@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=01:00:00
-#SBATCH --partition=debug
 #SBATCH --qos=gpu
 
 python make_species_doc2vec_species_embeddings.py

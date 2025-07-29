@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=40G
 #SBATCH --time=04:00:00
-#SBATCH --partition=broadwl
 
 LATEST_VERSION=62
 VERSION=${1:-$LATEST_VERSION} # Get version from command line if provided

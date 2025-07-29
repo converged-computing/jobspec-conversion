@@ -5,7 +5,6 @@
 #SBATCH --ntasks=48
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-20:00:00
-#SBATCH --partition=debug
 
 export PROG='pvserver --force-offscreen-rendering'
 

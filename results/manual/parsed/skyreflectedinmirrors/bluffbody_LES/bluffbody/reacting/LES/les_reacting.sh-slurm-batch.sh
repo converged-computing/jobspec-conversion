@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=100G
 #SBATCH --time=06:00:00
-#SBATCH --partition=parallel
 #SBATCH --exclude=cn[65-69,71-136,325-343,345-353,355-358,360-364,369-398,400-401],gpu[07-10]
 
 export IPM_NESTED_REGIONS='1'

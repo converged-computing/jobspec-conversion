@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:Tesla V100-PCIE-32GB:1
 #SBATCH --mem=128G
 #SBATCH --time=00:04:00
-#SBATCH --partition=gpu4
 
 echo "### Starting at: $(date) ###"
 module load gcc/gcc-5.4.0

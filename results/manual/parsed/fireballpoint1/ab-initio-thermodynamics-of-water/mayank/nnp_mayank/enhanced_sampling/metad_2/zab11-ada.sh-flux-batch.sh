@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-knife-1426
+#FLUX --job-name=psycho-itch-7304
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

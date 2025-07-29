@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=36G
 #SBATCH --time=12:00:00
-#SBATCH --partition=shas
 #SBATCH --qos=normal
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --array=1-535

@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=00:30:00
-#SBATCH --partition=shared
 #SBATCH --constraint=ntasks-per-node=4
 
 time mpirun -n 4 nrniv -python -mpi init.py

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-parrot-4026
+#FLUX --job-name=conspicuous-parsnip-2499
 #FLUX --queue=gpu
 #FLUX -t=360000
 #FLUX --urgency=16

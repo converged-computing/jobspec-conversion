@@ -8,7 +8,6 @@
 #SBATCH --gres=4
 #SBATCH --mem-per-cpu=64g
 #SBATCH --time=00:04:59
-#SBATCH --partition=batch
 #SBATCH --constraint=v100,gpu_ai
 
 export INTERFACE='ib0'

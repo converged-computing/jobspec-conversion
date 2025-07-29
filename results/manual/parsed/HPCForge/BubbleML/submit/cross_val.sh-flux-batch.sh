@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-underoos-0490
+#FLUX --job-name=muffled-underoos-9071
 #FLUX -c=10
 #FLUX --queue=gpu
 #FLUX -t=72000

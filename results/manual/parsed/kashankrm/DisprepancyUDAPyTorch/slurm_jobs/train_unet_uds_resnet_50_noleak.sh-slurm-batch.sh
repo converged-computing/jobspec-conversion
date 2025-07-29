@@ -7,7 +7,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=4gpu
 #SBATCH --constraint=ntasks-per-node=8
 
 export TMPDIR='${JOBTMP}  # scratch-directory for the job '

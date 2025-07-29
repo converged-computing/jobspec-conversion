@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-fudge-9678
+#FLUX --job-name=expensive-squidward-3718
 #FLUX -n=64
 #FLUX --queue=amd_256
 #FLUX --urgency=16

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-lettuce-1033
+#FLUX --job-name=placid-underoos-9653
 #FLUX -c=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43140
 #FLUX --urgency=16
 

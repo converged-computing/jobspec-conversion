@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3GB
 #SBATCH --time=20:00:00
-#SBATCH --partition=epyc-64
 #SBATCH --constraint=ntasks-per-node=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

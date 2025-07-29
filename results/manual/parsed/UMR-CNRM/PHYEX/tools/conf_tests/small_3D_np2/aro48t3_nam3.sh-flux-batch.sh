@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-staircase-5615
+#FLUX --job-name=strawberry-fudge-4553
 #FLUX -n=2
 #FLUX --queue=normal256
 #FLUX -t=600

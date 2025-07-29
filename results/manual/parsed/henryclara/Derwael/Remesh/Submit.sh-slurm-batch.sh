@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:07:00
-#SBATCH --partition=compute
 #SBATCH --chdir=/work/bm1164/m300832/Derwael/Remesh/
 
 export OMPI_MCA_pml='ucx'

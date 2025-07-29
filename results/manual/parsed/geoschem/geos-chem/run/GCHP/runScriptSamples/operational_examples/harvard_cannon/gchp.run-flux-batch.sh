@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=dirty-fork-7459
+#FLUX --job-name=creamy-milkshake-0417
 #FLUX -N=2
 #FLUX -n=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=sapphire,huce_cascade,seas_compute,shared
 #FLUX -t=480
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-hobbit-5937
+#FLUX --job-name=milky-butter-6271
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kyoheikoyama/TCRPrediction/scripts/dir_kicker/kicker_dev_gpu.sh

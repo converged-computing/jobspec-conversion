@@ -7,7 +7,6 @@
 #SBATCH --gres=a100:1
 #SBATCH --mem=8gb
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu
 
 echo wassup
 nvidia-smi

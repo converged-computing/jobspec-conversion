@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-plant-0441
+#FLUX --job-name=hanky-milkshake-5782
 #FLUX -t=0
 #FLUX --urgency=16
 

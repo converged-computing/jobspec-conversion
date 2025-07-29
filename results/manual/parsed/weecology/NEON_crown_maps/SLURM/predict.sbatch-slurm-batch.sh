@@ -11,7 +11,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=30GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 export SLURM_TMPDIR='/orange/idtrees-collab/tmp/'
 export TMPDIR='/orange/idtrees-collab/tmp/'

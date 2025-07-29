@@ -8,7 +8,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=parallelshort
 
 rm dump*
 rm *.csv

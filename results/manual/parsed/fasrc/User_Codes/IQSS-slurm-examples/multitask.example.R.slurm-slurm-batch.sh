@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4000
 #SBATCH --time=00:15:00
-#SBATCH --partition=serial_requeue
 
 module purge > /dev/null 2>&1
 module load gcc/7.1.0-fasrc01 R/3.5.0-fasrc01

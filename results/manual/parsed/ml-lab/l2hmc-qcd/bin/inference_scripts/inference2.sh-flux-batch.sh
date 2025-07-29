@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-arm-1199
+#FLUX --job-name=lovable-lamp-4800
 #FLUX --urgency=16
 

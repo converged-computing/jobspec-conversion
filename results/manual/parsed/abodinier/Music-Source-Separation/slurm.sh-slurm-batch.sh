@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --time=3-23:59:59
-#SBATCH --partition=gpu_p2
 #SBATCH --qos=qos_gpu-t4
 
 hostname

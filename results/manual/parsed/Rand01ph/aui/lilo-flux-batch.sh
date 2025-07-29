@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-underoos-8544
+#FLUX --job-name=expensive-chip-5726
 #FLUX --urgency=16
 

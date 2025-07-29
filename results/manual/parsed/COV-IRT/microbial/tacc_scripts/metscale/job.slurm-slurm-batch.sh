@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=skx-normal
 #SBATCH --qos=vip
 
 export SINGULARITY_BINDPATH='data:/tmp'

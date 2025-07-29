@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-banana-4082
+#FLUX --job-name=carnivorous-peas-4493
 #FLUX --queue=gpuq
 #FLUX -t=7200
 #FLUX --urgency=16

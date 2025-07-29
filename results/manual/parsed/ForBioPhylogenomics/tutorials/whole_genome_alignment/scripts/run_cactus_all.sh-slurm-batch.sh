@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=32G
 #SBATCH --time=1-01:50:00
-#SBATCH --partition=bigmem
 #SBATCH --constraint=ntasks-per-node=1
 
 module --force purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-train-0227
+#FLUX --job-name=outstanding-hobbit-3330
 #FLUX -c=10
 #FLUX -t=172800
 #FLUX --urgency=16

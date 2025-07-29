@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=500MB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=prio
 
 module add GROMACS/2020.5-RAMD-2.0-fosscuda-2019b;

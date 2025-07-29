@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1024
 #SBATCH --time=02:00:00
-#SBATCH --partition=fichtner_compute
 
 module load matlab/r2015a
 matlab -nodisplay -singleCompThread -r calculate_data

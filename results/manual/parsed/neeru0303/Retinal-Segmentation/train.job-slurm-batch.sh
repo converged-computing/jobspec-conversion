@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:2
 #SBATCH --time=1-12:30:00
-#SBATCH --partition=GPU-shared
 
 export CUDA_VISIBLE_DEVICES='0,1'
 export TENSORFLOW_ENV='$TF_ENV'

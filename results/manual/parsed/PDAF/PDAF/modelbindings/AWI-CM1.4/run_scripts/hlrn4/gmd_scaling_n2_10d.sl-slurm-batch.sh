@@ -3,7 +3,6 @@
 #SBATCH --ntasks=576
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=standard96
 #SBATCH --constraint=ntasks-per-node=96
 
 export NOPP='1'

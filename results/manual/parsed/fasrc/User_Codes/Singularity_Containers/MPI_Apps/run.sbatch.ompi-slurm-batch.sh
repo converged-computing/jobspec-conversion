@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1000
 #SBATCH --time=00:30:00
-#SBATCH --partition=test
 
 export UCX_TLS='ib'
 export PMIX_MCA_gds='hash'

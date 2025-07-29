@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=14:00:00
-#SBATCH --partition=physical
 
 module load FSL/5.0.11-intel-2017.u2-GCC-6.2.0-CUDA9
 module load MRtrix/20190207-GCC-6.2.0

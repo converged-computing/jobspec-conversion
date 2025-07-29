@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=400GB
 #SBATCH --time=01:30:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --qos=normal
 #SBATCH --constraint=ntasks-per-node=4
 

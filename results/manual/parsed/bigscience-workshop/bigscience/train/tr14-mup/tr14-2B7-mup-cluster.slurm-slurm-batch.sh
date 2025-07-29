@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=gpu:a100:8
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=production-cluster
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --exclude=ip-26-0-159-215,ip-26-0-153-238
 

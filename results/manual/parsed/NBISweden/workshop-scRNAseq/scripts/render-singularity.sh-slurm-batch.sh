@@ -5,7 +5,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=core
 
 set -e
 singularity_seurat="/sw/courses/scrnaseq/singularity/2024-seurat-r4.3.0.sif"

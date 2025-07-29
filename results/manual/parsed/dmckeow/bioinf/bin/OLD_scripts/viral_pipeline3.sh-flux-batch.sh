@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-cattywampus-9605
+#FLUX --job-name=loopy-train-9435
 #FLUX -n=8
 #FLUX --queue=amdlarge
 #FLUX -t=86400

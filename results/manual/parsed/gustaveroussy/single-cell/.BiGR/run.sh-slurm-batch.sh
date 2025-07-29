@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
-#SBATCH --partition=mediumq
 
 set -e
 source /mnt/beegfs/software/conda/etc/profile.d/conda.sh

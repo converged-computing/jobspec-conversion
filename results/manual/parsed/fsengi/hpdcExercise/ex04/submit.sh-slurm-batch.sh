@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:00:10
-#SBATCH --partition=exercise_hpc
 #SBATCH --constraint=ntasks-per-node=1
 
 module load devtoolset/10 mpi/open-mpi-4.0.5

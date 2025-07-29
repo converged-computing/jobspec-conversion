@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=research
 
 module load nvidia/cuda/11.3.1
 module load mpi/openmpi/4.1.1

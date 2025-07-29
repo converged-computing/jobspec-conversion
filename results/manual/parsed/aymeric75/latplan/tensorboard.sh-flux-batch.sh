@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-bits-3848
+#FLUX --job-name=quirky-spoon-2366
 #FLUX --queue=g100_usr_interactive
 #FLUX -t=1200
 #FLUX --urgency=16

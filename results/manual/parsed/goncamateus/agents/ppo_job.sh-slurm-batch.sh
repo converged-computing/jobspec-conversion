@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=1
 #SBATCH --mem=24G
-#SBATCH --partition=short
 
 module load Python3.10 Xvfb freeglut glew MuJoCo
 source $HOME/.pyvenvs/rl/bin/activate

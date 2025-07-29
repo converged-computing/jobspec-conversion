@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-underoos-2677
+#FLUX --job-name=chocolate-leg-8608
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bpbentley/sea_turtle_genomes/scripts/conservation_genomics/genetic_load/16_filter_variants.sh

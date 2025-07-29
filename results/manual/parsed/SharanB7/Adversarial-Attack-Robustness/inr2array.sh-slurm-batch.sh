@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=100G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=public
 
 module load mamba/latest
 source activate inr2array

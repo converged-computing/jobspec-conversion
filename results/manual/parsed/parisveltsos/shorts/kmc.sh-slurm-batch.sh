@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20gb
 #SBATCH --time=05:59:00
-#SBATCH --partition=sixhour
 
 echo "Running"
 cd /home/p860v026/temp/$1

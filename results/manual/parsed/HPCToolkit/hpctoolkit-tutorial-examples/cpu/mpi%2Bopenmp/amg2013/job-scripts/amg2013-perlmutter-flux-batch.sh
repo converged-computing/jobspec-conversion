@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-onion-8272
+#FLUX --job-name=outstanding-omelette-0647
 #FLUX -N=2
 #FLUX -c=16
 #FLUX -t=300

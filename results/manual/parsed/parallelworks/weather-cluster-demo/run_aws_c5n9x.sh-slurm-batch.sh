@@ -4,7 +4,7 @@
 #SBATCH --nodes=16
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=2
 
 export OMP_NUM_THREADS='6'

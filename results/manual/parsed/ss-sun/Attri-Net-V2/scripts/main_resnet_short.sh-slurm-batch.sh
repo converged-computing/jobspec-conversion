@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20G
 #SBATCH --time=1-04:00:00
-#SBATCH --partition=gpu-2080ti
 
 scontrol show job $SLURM_JOB_ID 
 echo "---------- JOB INFOS ------------"

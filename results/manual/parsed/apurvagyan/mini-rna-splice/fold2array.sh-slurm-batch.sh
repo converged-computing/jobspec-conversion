@@ -10,7 +10,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=64G
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 
 module load miniconda
 conda activate env_3_8

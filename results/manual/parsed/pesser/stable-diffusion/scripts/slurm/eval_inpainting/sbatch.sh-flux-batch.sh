@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=stable-diffusion-inpainting-eval
 #FLUX --gpus-per-task=1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX --urgency=16
 

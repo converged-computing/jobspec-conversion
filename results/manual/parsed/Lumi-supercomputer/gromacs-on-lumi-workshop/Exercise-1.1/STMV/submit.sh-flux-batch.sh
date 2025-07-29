@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-lemon-1905
+#FLUX --job-name=astute-frito-5526
 #FLUX -c=7
 #FLUX --queue=small-g
 #FLUX -t=600

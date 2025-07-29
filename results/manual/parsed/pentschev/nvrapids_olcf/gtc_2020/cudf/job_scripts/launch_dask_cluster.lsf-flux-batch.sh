@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-plant-8173
+#FLUX --job-name=lovely-toaster-8214
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pentschev/nvrapids_olcf/gtc_2020/cudf/job_scripts/launch_dask_cluster.lsf

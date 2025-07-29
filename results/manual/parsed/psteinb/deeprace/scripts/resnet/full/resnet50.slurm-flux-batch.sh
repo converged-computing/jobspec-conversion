@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-general-5654
+#FLUX --job-name=phat-general-2236
 #FLUX --queue=gpu2
 #FLUX -t=50400
 #FLUX --urgency=16

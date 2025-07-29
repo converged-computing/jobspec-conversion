@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-staircase-0871
+#FLUX --job-name=gassy-diablo-6961
 #FLUX --queue=PA100q
 #FLUX --urgency=16
 

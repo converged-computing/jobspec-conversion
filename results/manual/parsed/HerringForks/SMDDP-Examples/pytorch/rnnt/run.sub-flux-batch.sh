@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=rnn_speech_recognition
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 set -euxo pipefail

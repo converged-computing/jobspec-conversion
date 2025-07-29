@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=480G
 #SBATCH --time=05:30:00
-#SBATCH --partition=nvidia
 
 module purge
 source ~/.bashrc

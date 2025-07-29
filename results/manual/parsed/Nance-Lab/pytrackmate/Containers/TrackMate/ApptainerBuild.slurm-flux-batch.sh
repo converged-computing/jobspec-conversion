@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-soup-5560
+#FLUX --job-name=moolicious-taco-7486
 #FLUX --queue=compute
 #FLUX -t=300
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-malarkey-5512
+#FLUX --job-name=eccentric-frito-8610
 #FLUX --queue=ccb
 #FLUX -t=360000
 #FLUX --urgency=16

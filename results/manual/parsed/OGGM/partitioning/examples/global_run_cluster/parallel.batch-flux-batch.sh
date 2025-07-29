@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=partitioning_test1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=low
 #FLUX --urgency=16
 

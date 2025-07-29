@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-cinnamonbun-2027
+#FLUX --job-name=salted-signal-6864
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

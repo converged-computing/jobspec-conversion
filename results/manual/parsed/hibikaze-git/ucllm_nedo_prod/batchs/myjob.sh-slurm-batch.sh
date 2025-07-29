@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:01:00
-#SBATCH --partition=g2
 
 cd ~/ucllm_nedo_prod
 nvidia-smi

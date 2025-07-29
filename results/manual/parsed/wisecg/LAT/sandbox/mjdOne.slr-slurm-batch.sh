@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
 #SBATCH --time=00:25:00
-#SBATCH --partition=debug
 #SBATCH --constraint=haswell,haswell
 
 export OMP_NUM_THREADS='64'

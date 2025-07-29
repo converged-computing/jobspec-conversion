@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-parsnip-3389
+#FLUX --job-name=eccentric-earthworm-2642
 #FLUX --urgency=16
 
 ERROR () {

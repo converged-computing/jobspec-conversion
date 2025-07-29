@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-train-8040
-#FLUX: --exclusive
+#FLUX --job-name=quirky-ricecake-0118
+#FLUX --exclusive
 #FLUX --queue=sched_mit_rgmark
 #FLUX -t=259200
 #FLUX --urgency=16

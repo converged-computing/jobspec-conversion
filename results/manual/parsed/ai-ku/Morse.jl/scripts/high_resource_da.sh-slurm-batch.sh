@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
-#SBATCH --partition=gpu
 #SBATCH --qos=high
 
 echo "julia main.jl --lang da --epochs 100 --dropouts 0.3"

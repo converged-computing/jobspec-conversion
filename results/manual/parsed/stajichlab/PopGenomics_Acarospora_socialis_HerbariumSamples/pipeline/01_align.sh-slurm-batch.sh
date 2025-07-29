@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32gb
 #SBATCH --time=08:00:00
-#SBATCH --partition=batch
 #SBATCH --array=1-28
 
 module load bwa

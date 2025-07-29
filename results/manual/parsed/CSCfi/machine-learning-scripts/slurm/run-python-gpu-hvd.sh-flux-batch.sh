@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-knife-8591
+#FLUX --job-name=muffled-carrot-9381
 #FLUX -n=4
 #FLUX -c=6
 #FLUX --queue=gpu

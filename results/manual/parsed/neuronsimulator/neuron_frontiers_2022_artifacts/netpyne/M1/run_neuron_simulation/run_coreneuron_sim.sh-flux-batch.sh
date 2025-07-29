@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-bicycle-8485
+#FLUX --job-name=delicious-squidward-8811
 #FLUX -N=2
 #FLUX -n=80
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=prod
 #FLUX -t=28800
 #FLUX --urgency=16

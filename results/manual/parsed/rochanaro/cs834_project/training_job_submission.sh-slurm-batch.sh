@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu
 
 export CUDA_HOME='/cm/shared/applications/cuda-toolkit/11.7.1/'
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=$CUDA_HOME'

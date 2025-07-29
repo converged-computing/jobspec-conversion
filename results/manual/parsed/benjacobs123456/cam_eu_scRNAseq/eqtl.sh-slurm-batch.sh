@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=08:00:00
-#SBATCH --partition=cclake
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 #SBATCH --array=1-13
 
 export OMP_NUM_THREADS='1'

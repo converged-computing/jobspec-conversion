@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=pascal
 #SBATCH --array=1-7%1
 
 if [ "$1" == "-h" ]

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-signal-5681
+#FLUX --job-name=buttery-cat-4638
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/wgq-iapcm/ParVoroPlusPlus/bin/KD_GHOST.sh

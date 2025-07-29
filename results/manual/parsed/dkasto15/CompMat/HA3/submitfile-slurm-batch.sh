@@ -7,7 +7,6 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:10:00
-#SBATCH --partition=hebbe
 
 export GPAW_SETUP_PATH='$GPAW_SETUP_PATH:./'
 

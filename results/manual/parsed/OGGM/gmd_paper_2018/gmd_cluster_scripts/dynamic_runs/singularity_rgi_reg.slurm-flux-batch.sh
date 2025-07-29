@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=gmd_paper_dyn
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=172800
 #FLUX --urgency=16
 

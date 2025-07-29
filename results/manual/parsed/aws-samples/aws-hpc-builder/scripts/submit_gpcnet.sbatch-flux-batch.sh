@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=doopy-lemon-9415
+#FLUX --job-name=muffled-staircase-1092
 #FLUX -N=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c7gnpg
 #FLUX --urgency=16
 

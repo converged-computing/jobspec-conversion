@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-frito-0458
+#FLUX --job-name=bumfuzzled-chip-2216
 #FLUX -t=86400
 #FLUX --urgency=16
 

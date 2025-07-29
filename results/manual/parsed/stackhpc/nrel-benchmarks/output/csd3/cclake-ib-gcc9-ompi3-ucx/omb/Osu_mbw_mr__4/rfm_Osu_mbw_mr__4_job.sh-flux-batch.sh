@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=rfm_Osu_mbw_mr__4_job
 #FLUX -n=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cclake
 #FLUX -t=900
 #FLUX --urgency=16

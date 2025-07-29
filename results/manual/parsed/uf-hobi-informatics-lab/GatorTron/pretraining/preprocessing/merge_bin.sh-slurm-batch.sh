@@ -9,7 +9,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=999gb
 #SBATCH --time=12:00:00
-#SBATCH --partition=hpg-ai
 
 pwd; hostname; date
 CONTAINER=./containers/pytorch.sif # a container has no megatron and nemo installed

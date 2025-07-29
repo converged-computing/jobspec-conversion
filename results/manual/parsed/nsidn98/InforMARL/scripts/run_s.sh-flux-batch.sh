@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-peas-1576
+#FLUX --job-name=conspicuous-signal-8577
 #FLUX -c=10
 #FLUX --urgency=16
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=athenapk_gpu
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=kurruf_gpu
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-house-3865
+#FLUX --job-name=psycho-lamp-9768
 #FLUX -c=16
 #FLUX --queue=amdv100,intelv100,amdrtx,amda100
 #FLUX -t=28800

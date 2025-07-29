@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --mem=8G
 #SBATCH --time=12:00:00
-#SBATCH --partition=ssd
 #SBATCH --array=0-0
 #SBATCH --nodelist=boston-2-7
 

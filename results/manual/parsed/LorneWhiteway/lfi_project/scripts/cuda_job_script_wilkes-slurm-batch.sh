@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=36000
 #SBATCH --time=1-11:59:00
-#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='32'
 

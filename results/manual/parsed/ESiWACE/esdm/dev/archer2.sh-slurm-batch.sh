@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --time=00:10:00
-#SBATCH --partition=standard
 #SBATCH --qos=standard
 
 export PATH='$TGT/bin:$PATH'

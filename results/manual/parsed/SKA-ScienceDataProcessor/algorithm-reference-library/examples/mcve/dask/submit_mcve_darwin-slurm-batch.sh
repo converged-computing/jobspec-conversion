@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=63900
 #SBATCH --time=00:20:00
-#SBATCH --partition=sandybridge
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 export OMP_NUM_THREADS='1'

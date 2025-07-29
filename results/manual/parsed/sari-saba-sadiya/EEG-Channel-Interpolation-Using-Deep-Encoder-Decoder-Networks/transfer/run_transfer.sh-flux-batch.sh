@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=delicious-chip-1520
-#FLUX: --exclusive
+#FLUX --job-name=lovely-hippo-9881
+#FLUX --exclusive
 #FLUX --queue=sched_mit_rgmark
 #FLUX -t=345600
 #FLUX --urgency=16

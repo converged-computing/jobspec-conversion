@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-lemur-6876
+#FLUX --job-name=chocolate-lentil-7354
 #FLUX --queue=normal
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=04:00:00
-#SBATCH --partition=short
 
 param0="1.25"
 record_odf="1"

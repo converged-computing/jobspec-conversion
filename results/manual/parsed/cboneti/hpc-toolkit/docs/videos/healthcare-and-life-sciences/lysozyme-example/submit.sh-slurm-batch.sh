@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 PDB_FILE=1AKI.pdb

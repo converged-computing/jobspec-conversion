@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu-a100
 #SBATCH --constraint=ntasks-per-node=3
 
 export MASTER_PORT='12340'

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=01:00:00
-#SBATCH --partition=epyc-64
 #SBATCH --constraint=epyc-7513,ntasks-per-node=64
 
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-spoon-5666
+#FLUX --job-name=joyous-bits-3829
 #FLUX --queue=course
 #FLUX -t=120
 #FLUX --urgency=16

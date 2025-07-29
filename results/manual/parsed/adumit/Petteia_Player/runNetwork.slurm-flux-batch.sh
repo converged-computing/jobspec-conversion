@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-bicycle-6895
+#FLUX --job-name=loopy-chip-7214
 #FLUX --queue=commons
 #FLUX -t=18000
 #FLUX --urgency=16

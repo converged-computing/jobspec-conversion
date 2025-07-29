@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-mango-8405
+#FLUX --job-name=persnickety-nalgas-9468
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nick-wilson/hpc-checks/tests/162_dgx_tf2/submit

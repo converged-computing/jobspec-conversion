@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=grated-chair-8902
+#FLUX --job-name=swampy-general-0409
 #FLUX -n=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=csi
 #FLUX -t=600
 #FLUX --urgency=16

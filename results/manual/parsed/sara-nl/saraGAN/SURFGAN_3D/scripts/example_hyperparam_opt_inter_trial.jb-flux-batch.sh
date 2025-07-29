@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-bits-3374
+#FLUX --job-name=strawberry-sundae-1374
 #FLUX -N=4
 #FLUX -c=6
 #FLUX --queue=gpu_titanrtx

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=p100_potc_bench
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c16g
 #FLUX -t=3600
 #FLUX --urgency=16

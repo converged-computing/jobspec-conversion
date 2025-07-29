@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20000
 #SBATCH --time=20:50:00
-#SBATCH --partition=general
 #SBATCH --qos=normal
 
 module load gcc/gcc-10.2.0

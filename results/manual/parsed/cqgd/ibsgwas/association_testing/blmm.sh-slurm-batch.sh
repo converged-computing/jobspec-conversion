@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=0
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=compute
 #SBATCH --array=90-95
 
 CCS=(final_cc.diag final_cc.sr final_cc.Q final_cc.Q.prev.diag.yes final_cc.any final_cc.male final_cc.female final_cc.sub.C final_cc.sub.U final_cc.sub.M

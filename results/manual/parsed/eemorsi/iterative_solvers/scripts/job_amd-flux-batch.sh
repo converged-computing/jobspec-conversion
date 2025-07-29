@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=ITER_SOLVERS
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=amd
 #FLUX -t=21600
 #FLUX --urgency=16

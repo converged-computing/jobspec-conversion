@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-snack-8585
+#FLUX --job-name=red-lizard-3316
 #FLUX -n=4
 #FLUX --queue=debug
 #FLUX -t=1800

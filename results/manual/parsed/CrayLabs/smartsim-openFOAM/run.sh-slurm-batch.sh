@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:30:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SMARTSIM_LOG_LEVEL='developer'
 export OF_PATH='/path/to/OpenFOAM-5.x'

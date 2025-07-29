@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=4gb
 #SBATCH --time=11-00:00:00
-#SBATCH --partition=general
 
 set -e
 module load python/3.9.6

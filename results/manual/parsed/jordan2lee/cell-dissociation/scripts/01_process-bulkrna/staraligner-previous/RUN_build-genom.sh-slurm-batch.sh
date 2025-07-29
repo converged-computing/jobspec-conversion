@@ -8,7 +8,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=exacloud
 
 dir=/home/groups/EllrottLab/cell-dissociation
 ses=build-ref-genom

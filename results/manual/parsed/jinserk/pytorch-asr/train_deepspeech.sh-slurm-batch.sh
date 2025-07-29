@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:gtx1070:1
-#SBATCH --partition=debug
 #SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'

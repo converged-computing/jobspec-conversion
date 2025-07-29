@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-punk-4511
+#FLUX --job-name=scruptious-bits-1266
 #FLUX --queue=zhuang,shared
 #FLUX -t=604800
 #FLUX --urgency=16

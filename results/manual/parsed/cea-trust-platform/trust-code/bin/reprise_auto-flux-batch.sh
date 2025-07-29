@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-lemur-6587
+#FLUX --job-name=bloated-frito-6615
 #FLUX --urgency=16
 
 export MAX_JOBS_ENCHAINES='`$TRUST_Awk -F= '/MAX_JOBS_ENCHAINES=/ {print $2}' $sub_file` '

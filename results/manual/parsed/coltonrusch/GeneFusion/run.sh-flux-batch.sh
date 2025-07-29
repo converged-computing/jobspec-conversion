@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-parsnip-1787
+#FLUX --job-name=tart-earthworm-7331
 #FLUX -n=2
 #FLUX --queue=gpu
 #FLUX -t=86400

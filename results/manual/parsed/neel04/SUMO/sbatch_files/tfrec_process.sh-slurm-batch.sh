@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-03:09:42
-#SBATCH --partition=compute-od-gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 export RAY_OBJECT_STORE_ALLOW_SLOW_STORAGE='0'

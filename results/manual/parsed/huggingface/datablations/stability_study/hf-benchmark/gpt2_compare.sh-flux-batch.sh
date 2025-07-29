@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=gpt2_compare
 #FLUX -c=40
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=pilot
 #FLUX -t=43200
 #FLUX --urgency=16

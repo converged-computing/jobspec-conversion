@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-eagle-5231
+#FLUX --job-name=evasive-carrot-4952
 #FLUX --queue=compute_full_node
 #FLUX -t=7200
 #FLUX --urgency=16

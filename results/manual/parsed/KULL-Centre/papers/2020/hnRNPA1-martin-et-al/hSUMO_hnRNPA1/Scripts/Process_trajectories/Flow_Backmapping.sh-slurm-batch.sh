@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8Gb
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=sbinlab
 #SBATCH --constraint=ntasks-per-node=64
 
 export PATH='/lustre/hpc/sbinlab/software/miniconda3/bin:$PATH'

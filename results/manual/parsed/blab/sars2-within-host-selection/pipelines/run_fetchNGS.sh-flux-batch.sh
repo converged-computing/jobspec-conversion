@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-omelette-6799
+#FLUX --job-name=wobbly-nunchucks-5480
 #FLUX -n=15
 #FLUX --queue=campus-new
 #FLUX -t=3600

@@ -5,7 +5,6 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=E5-2630V2
 #SBATCH --constraint=ntasks-per-node=12
 
 module load lammps/12Dec18

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=128g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu-long
 
 SITENAME=Home_and_Kitchen

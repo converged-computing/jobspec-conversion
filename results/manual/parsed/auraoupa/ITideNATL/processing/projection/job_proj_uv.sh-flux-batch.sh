@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=projuv
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=10800
 #FLUX --urgency=16
 

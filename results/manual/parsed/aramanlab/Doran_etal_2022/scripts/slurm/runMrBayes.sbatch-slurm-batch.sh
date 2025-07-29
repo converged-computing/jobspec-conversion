@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=8G
-#SBATCH --partition=broadwl
 #SBATCH --array=193-288%30
 
 ulimit -u 10000

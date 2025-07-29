@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:30:00
-#SBATCH --partition=savio2_gpu
 
 module load cuda
 module unload intel  # do this to avoid compilation issues

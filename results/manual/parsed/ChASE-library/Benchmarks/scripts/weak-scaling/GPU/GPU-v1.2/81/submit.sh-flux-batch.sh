@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-leader-8687
+#FLUX --job-name=expressive-onion-4350
 #FLUX -N=81
 #FLUX -n=81
 #FLUX -c=12

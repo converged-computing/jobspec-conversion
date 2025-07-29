@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-muffin-1544
+#FLUX --job-name=expensive-train-6612
 #FLUX --queue=standard
 #FLUX -t=86400
 #FLUX --urgency=16

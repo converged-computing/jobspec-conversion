@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=50000
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpu
 
 python train.py -style 0 -ratio 1.0 -dataset $1 -order $2.0 -$3 -$4
 python infer.py -style 0 -dataset $1 -order $2.0

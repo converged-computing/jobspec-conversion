@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-underoos-3087
+#FLUX --job-name=loopy-destiny-1855
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/muszyna25/ppe_icon_model/run/checksuite.xce.dwd.de/exp.run_ICON_13_R2B08-dkltest.run

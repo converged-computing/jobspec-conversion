@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-hobbit-8336
-#FLUX: --exclusive
+#FLUX --job-name=boopy-butter-3272
+#FLUX --exclusive
 #FLUX -t=28800
 #FLUX --urgency=16
 

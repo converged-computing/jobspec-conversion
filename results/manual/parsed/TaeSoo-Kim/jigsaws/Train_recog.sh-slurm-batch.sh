@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 module restore mymodules

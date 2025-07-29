@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-diablo-8049
+#FLUX --job-name=crusty-eagle-2180
 #FLUX --queue=longgpgpu
 #FLUX -t=2592000
 #FLUX --urgency=16

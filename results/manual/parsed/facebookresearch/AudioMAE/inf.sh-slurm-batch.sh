@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=480GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=learnfair
 #SBATCH --constraint=ntasks-per-node=8
 
 audioset_train_json=/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json

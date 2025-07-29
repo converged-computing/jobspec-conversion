@@ -2,7 +2,7 @@
 #FLUX --job-name=ner_training
 #FLUX -c=128
 #FLUX --gpus-per-task=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=86400
 #FLUX --urgency=16

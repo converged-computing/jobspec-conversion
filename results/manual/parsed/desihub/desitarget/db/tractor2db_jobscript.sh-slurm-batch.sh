@@ -5,8 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-01:00:00
-#SBATCH --partition=regular
-#SBATCH --licenses=SCRATCH
 
 export NERSC_HOST='`/usr/common/usg/bin/nersc_host`'
 export OMP_NUM_THREADS='${CORES_ON_NODE}'

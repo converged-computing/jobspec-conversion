@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2625
 #SBATCH --time=12:00:00
-#SBATCH --partition=batch
 
 module purge
 module load releases/2021b

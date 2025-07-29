@@ -6,7 +6,6 @@
 #SBATCH --ntasks=256
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=normal
 
 export PATH='$PATH:/home1/02309/staheri/apps/hpgmg-original/build/bin'
 

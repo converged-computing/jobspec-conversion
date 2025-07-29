@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --time=08:00:00
-#SBATCH --partition=bc-mig
 
 squeue -u $USER > no_jobs.txt
 back=`wc -l no_jobs.txt`

@@ -2,8 +2,7 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=a3
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MODEL_NAME='                               #'Llama-2-70b-hf'
 export GCS_EXPERIMENT_BUCKET='                    # myBucket'

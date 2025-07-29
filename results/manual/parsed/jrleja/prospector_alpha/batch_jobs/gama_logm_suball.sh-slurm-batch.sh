@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=conroy,shared,conroy-intel,itc_cluster
 
 IDFILE=$APPS"/prospector_alpha/data/gama.ids"
 OBJID=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$IDFILE")

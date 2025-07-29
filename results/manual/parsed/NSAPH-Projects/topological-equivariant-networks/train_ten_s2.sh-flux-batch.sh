@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-nalgas-9722
+#FLUX --job-name=ornery-despacito-9297
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX -t=3600

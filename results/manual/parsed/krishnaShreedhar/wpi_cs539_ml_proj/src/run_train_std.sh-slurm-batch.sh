@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=80G
 #SBATCH --time=2-06:00:00
-#SBATCH --partition=whitehill
 #SBATCH --constraint=A100
 
 module load cuda11.1/toolkit/11.1.1

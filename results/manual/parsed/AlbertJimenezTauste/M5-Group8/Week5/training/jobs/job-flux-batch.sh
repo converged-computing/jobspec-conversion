@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-underoos-3983
+#FLUX --job-name=faux-latke-1297
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

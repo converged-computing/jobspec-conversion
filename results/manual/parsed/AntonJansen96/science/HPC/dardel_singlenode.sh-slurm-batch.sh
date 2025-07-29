@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=main
 #SBATCH --constraint=ntasks-per-node=32
 
 ml PDC/21.09 

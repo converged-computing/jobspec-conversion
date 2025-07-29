@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=2-12:00:00
-#SBATCH --partition=gpu-a100
 
 export PATH='/home/rturnbull/runting/poetry-py3.9.6/bin:$PATH'
 export THEMEDA_DATA_DIR='/data/gpfs/projects/punim1932/data'

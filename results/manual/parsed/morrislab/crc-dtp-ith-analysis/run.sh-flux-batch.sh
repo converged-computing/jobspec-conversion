@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-buttface-9580
+#FLUX --job-name=scruptious-cinnamonbun-8699
 #FLUX --urgency=16
 
 set -euo pipefail

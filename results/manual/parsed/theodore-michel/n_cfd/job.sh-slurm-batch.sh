@@ -5,7 +5,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=MAIN
 #SBATCH --qos=calcul
 
 module load gcc openmpi vtk/latest felicia/latest mtc/tsv eigen/latest hdf5/latest cmake/latest git/latest petsc/latest mtc/latest

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --mem=20000
 #SBATCH --time=12:00:00
-#SBATCH --partition=general
 #SBATCH --array=1-109
 
 module load SAMtools

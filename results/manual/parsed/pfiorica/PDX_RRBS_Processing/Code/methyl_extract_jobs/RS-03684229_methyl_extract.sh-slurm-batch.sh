@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8000
 #SBATCH --time=12:00:00
-#SBATCH --partition=general-compute
 #SBATCH --qos=general-compute
 #SBATCH --constraint=ntasks-per-node=1
 

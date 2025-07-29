@@ -5,8 +5,7 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
-#SBATCH --partition=gpu
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module load nvidia/cuda/10.0
 module load anaconda/3.7

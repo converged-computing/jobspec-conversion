@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:8
 #SBATCH --mem=0
-#SBATCH --partition=MoE
 #SBATCH --constraint=ntasks-per-node=1
 
 source ~/anaconda3/bin/activate smoe

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-cat-4262
+#FLUX --job-name=eccentric-cherry-4057
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/fv3gfs/driver/product/run_JGFS_WAFS.cray

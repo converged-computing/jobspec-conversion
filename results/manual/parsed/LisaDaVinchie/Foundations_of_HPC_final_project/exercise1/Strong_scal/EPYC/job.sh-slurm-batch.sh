@@ -5,9 +5,8 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=64
 #SBATCH --time=01:00:00
-#SBATCH --partition=EPYC
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='close'

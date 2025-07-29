@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-eagle-4924
+#FLUX --job-name=milky-lentil-4404
 #FLUX --queue=amd_gpu
 #FLUX -t=360000
 #FLUX --urgency=16

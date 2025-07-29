@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=08:00:00
-#SBATCH --partition=p0
 #SBATCH --qos=basic
 
 export PIP_CACHE_DIR='$CACHE_DIR'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=ornery-salad-4533
-#FLUX: --exclusive
+#FLUX --job-name=blank-cherry-5279
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

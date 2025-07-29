@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:nvidia_a100-sxm4-80gb:1
 #SBATCH --mem=90G
 #SBATCH --time=00:03:00
-#SBATCH --partition=gpu_requeue,seas_gpu
 #SBATCH --array=11
 
 PARAM_FILE=slurm_params.txt

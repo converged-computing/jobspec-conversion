@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-cherry-6302
+#FLUX --job-name=sticky-leader-3779
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/readex-eu/readex-apps/benchmark_apps/elmerfem/scripts_salomon/run_saf.sh

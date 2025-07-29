@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-punk-3400
+#FLUX --job-name=carnivorous-pancake-6995
 #FLUX --queue=priopark
 #FLUX -t=432000
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2048
 #SBATCH --time=00:08:00
-#SBATCH --partition=shared
 
 echo "running...."
 julia RunCells.jl -l 0.001

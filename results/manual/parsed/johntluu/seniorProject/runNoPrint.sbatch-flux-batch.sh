@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-bits-3766
+#FLUX --job-name=fuzzy-motorcycle-0277
 #FLUX -N=2
 #FLUX --queue=defq
 #FLUX --urgency=16

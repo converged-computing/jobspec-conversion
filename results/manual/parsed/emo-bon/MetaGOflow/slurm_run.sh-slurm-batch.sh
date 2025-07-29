@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=fat
 #SBATCH --constraint=ntasks-per-node=40
 
 conda deactivate

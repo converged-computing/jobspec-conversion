@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-cinnamonbun-3002
+#FLUX --job-name=strawberry-gato-9475
 #FLUX --urgency=16
 
 set -e

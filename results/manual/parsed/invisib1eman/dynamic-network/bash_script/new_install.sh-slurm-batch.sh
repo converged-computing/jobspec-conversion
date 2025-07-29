@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=buyin
 #SBATCH --constraint=ntasks-per-node=28
 
 export dir='/projects/b1021/Jianshe/codes/lammps/lammps-stable/lammps-29Sep2021/cmake'

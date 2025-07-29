@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-lemon-8551
+#FLUX --job-name=pusheena-general-2490
 #FLUX -n=8
 #FLUX --queue=gpu
 #FLUX -t=86400

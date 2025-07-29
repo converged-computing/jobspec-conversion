@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-muffin-2647
+#FLUX --job-name=astute-itch-4044
 #FLUX --queue=t4_dev_q
 #FLUX -t=600
 #FLUX --urgency=16

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=workflow
 #FLUX -N=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

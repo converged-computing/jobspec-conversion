@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
-#SBATCH --partition=leojia
 #SBATCH --exclude=proj77
 
 PORT=$[$RANDOM + 10000]

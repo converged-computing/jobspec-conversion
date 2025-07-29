@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:04:00
-#SBATCH --partition=short
 
 cd $HOME/iRODS-RDM-HPC-course
 rodscoll='/surfZone1/home/irods-user1/YOUR OUTPUT COLLECTION'

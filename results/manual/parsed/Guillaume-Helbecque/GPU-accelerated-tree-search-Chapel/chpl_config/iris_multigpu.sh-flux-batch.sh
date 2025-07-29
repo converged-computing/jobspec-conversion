@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=expressive-soup-1769
-#FLUX: --exclusive
+#FLUX --job-name=astute-chair-8269
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=Cross-Fusion
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard-g
 #FLUX -t=3600
 #FLUX --urgency=16

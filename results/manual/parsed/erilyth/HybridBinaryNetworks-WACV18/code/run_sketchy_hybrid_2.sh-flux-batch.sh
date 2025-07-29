@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-earthworm-7414
+#FLUX --job-name=placid-parsnip-0154
 #FLUX -t=172800
 #FLUX --urgency=16
 

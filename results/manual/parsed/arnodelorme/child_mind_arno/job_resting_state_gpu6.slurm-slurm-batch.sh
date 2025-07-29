@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:p100:1
 #SBATCH --mem=25G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu-shared
 
 source ~/.bashrc
 cd /projects/ps-nemar/child_mind_2020

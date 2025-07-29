@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-noodle-3156
+#FLUX --job-name=ornery-butter-3596
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/KULL-Centre/papers/2021/Martini-Thomasen-et-al/multidomain/run_simulations/equilibration/relax_mdrun.sh

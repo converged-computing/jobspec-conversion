@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=50G
-#SBATCH --partition=xeon
 #SBATCH --qos=general
 
 hostname

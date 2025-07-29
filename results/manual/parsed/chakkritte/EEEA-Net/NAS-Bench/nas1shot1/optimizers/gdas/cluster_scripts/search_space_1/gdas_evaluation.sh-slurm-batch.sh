@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10000
 #SBATCH --time=11-00:00:00
-#SBATCH --partition=gpu_tesla-P100
 #SBATCH --chdir=/home/siemsj/projects/darts/cnn
 #SBATCH --array=1-12
 

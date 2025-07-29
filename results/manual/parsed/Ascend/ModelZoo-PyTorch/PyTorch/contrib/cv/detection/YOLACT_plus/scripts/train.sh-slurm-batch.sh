@@ -4,8 +4,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=GPU-shared
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module load python/3.6.4_gcc5_np1.14.5
 module load cuda/9.0

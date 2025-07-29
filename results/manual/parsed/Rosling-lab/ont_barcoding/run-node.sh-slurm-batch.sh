@@ -7,7 +7,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10:00:00
-#SBATCH --partition=core
 #SBATCH --constraint=usage_mail
 
 module load conda bioinfo-tools snakemake &&

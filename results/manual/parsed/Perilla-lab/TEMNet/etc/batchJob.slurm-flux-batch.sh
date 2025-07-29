@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-bicycle-9904
+#FLUX --job-name=milky-plant-3731
 #FLUX --queue=GPU-AI
 #FLUX -t=7200
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-sundae-7617
+#FLUX --job-name=red-onion-2784
 #FLUX -n=4
 #FLUX --queue=gpu_titanrtx
 #FLUX -t=432000

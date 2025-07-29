@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:4g.40gb:1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=amd-gpu-long
 
 conda init bash
 source ~/.bashrc

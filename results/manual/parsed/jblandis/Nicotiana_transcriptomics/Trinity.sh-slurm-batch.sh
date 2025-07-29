@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=intel
 
 date
 module unload perl/5.20.2

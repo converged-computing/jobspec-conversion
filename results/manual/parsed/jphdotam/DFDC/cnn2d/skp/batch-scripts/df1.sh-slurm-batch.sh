@@ -6,7 +6,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=17g
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=gpu
 
 source activate pytorch_p37
 cd /home/ianpan/ufrc/deepfake/skp/

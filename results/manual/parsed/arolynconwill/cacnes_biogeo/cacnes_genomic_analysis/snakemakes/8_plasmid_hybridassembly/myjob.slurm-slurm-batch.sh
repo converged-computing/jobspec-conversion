@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=sched_mem1TB,defq
 
 bash snakemakeslurm.sh
 echo Done!!!

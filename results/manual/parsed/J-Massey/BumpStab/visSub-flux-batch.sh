@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-milkshake-2511
+#FLUX --job-name=swampy-lettuce-9179
 #FLUX -n=64
 #FLUX --queue=amd
 #FLUX -t=13800

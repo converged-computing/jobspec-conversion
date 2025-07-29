@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-chip-4930
+#FLUX --job-name=scruptious-pastry-5779
 #FLUX --queue=bumblebee
 #FLUX -t=86400
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=160G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=adamw
 #SBATCH --qos=adamw
 #SBATCH --constraint=INTEL
 

@@ -7,7 +7,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=4gb
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 
 epochs=20
 seed=42

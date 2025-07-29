@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=00:15:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=1
 
 module load plink/1.90b6.16

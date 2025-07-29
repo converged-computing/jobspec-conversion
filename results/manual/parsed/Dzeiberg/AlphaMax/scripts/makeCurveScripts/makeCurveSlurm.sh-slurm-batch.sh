@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=32Gb
 #SBATCH --time=23:59:00
-#SBATCH --partition=short
 #SBATCH --constraint=E5-2690v3@2.60GHz
 #SBATCH --array=1-1000
 

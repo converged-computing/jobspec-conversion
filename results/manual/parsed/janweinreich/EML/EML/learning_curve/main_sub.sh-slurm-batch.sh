@@ -5,7 +5,6 @@
 #SBATCH --ntasks=24
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=long
 
 ntrain=
 ntest=

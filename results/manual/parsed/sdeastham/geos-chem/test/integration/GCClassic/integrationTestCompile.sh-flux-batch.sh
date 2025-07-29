@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-signal-3958
+#FLUX --job-name=dirty-sundae-1668
 #FLUX -c=8
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=30

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-chip-9178
+#FLUX --job-name=spicy-lemon-1585
 #FLUX --queue=serial
 #FLUX -t=14400
 #FLUX --urgency=16

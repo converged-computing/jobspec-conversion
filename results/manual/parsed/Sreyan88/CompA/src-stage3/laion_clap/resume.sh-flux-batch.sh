@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=mclap
 #FLUX -N=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gamma
 #FLUX --urgency=16
 

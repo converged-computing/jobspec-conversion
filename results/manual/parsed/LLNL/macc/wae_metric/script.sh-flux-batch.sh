@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-lemon-8313
+#FLUX --job-name=delicious-buttface-2284
 #FLUX --queue=pbatch
 #FLUX -t=28800
 #FLUX --urgency=16

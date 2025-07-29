@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-peas-1331
+#FLUX --job-name=eccentric-chair-8997
 #FLUX -c=24
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=120

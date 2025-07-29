@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-signal-1508
+#FLUX --job-name=anxious-arm-9884
 #FLUX --queue=pascal
 #FLUX --urgency=16
 

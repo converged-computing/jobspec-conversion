@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=2GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=work
 
 module load nextflow/22.10.0
 module load singularity/3.11.4-slurm

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-11:59:30
-#SBATCH --partition=ampere
 
 export TUNE_MAX_PENDING_TRIALS_PG='32'
 export XLA_PYTHON_CLIENT_PREALLOCATE='false'

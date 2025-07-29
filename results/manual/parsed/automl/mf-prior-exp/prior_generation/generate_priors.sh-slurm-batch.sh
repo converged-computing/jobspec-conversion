@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30G
 #SBATCH --time=03:00:00
-#SBATCH --partition=bosch_cpu-cascadelake
 #SBATCH --array=0-4
 
 WORKDIR="/work/dlclarge1/mallik-mf-prior/mf-prior-exp"

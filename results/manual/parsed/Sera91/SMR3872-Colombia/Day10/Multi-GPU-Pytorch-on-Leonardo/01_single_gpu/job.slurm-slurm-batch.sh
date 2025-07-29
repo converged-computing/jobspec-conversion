@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=00:15:00
-#SBATCH --partition=boost_usr_prod
 
 module purge
 module load gcc

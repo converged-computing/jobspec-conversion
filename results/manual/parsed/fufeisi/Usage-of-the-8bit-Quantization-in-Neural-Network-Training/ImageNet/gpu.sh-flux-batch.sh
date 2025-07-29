@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-knife-7093
+#FLUX --job-name=rainbow-banana-3942
 #FLUX --queue=train
 #FLUX -t=1209600
 #FLUX --urgency=16

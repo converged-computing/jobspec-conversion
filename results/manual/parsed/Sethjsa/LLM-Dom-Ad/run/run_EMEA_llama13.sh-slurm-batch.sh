@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_LAUNCH_BLOCKING='1'

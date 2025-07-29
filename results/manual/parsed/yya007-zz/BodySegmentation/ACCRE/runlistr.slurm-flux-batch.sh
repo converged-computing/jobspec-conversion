@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-kerfuffle-7272
+#FLUX --job-name=delicious-train-9843
 #FLUX -n=4
 #FLUX --queue=maxwell
 #FLUX -t=432000

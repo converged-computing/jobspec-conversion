@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-animal-7771
+#FLUX --job-name=rainbow-gato-1852
 #FLUX --urgency=16
 
 umask 002

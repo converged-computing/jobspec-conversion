@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32000
 #SBATCH --time=12:00:00
-#SBATCH --partition=medium
 #SBATCH --array=0-0%1
 
 python job_week.py

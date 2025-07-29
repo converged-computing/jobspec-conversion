@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:03:00
-#SBATCH --partition=debug
 
 cd $SLURM_SUBMIT_DIR   # optional, since this is the default behavior
 source /project/projectdirs/atom/users/tyounkin/ips-examples/ftridyn_ea_task_pool/env.ips.edison

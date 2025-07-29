@@ -3,8 +3,7 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=arm8xlarge
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=64,c7g.8xlarge
 
 export HPCC_VERSION='1.5.0'

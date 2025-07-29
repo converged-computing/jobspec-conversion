@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-lemur-9734
+#FLUX --job-name=bloated-general-4872
 #FLUX --queue=PA100q
 #FLUX --urgency=16
 

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:00:45
-#SBATCH --partition=regular1
 
 module load singularity/3.4.1
 module load intel/2021.2

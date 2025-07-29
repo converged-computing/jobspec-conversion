@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:8
-#SBATCH --partition=dgx
 
 SCRIPT_NAME="Rosie DGX Script"
 CONTAINER="/data/containers/msoe-tensorflow.sif"

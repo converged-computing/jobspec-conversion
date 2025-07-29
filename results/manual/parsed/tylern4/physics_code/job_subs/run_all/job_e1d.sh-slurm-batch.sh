@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=28
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=defq,BigMem,gpu,defq-48core,gpu-v100-16gb,gpu-v100-32gb,msmoms
 
 export CC='$(which gcc)'
 export CXX='$(which g++)'

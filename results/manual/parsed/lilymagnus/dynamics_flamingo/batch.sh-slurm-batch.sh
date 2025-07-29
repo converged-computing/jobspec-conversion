@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=cosma8
 
 module purge
 module load python/3.10.12

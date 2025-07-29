@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-blackbean-1661
+#FLUX --job-name=loopy-itch-7021
 #FLUX --queue=jlessler
 #FLUX -t=14400
 #FLUX --urgency=16

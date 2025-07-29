@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:maxwell:1
 #SBATCH --mem=80G
-#SBATCH --partition=high
 #SBATCH --chdir=/homedtic/gmarti/LOGS
 
 export PATH='$HOME/project/anaconda3/bin:$PATH'

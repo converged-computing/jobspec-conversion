@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:0
 #SBATCH --time=00:10:00
-#SBATCH --partition=develgpus
 
 export CO_SIM_ROOT_PATH='${PROJECT_cslns}/${LOGNAME}/multiscale-cosim'
 export CO_SIM_MODULES_ROOT_PATH='${CO_SIM_ROOT_PATH}/TVB-NEST-usecase1'

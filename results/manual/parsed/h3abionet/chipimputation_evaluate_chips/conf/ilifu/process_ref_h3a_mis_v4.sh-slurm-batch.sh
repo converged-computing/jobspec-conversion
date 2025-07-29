@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=7000
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=Main
 
 cd /cbio/users/mamana/refimpute
 nextflow \

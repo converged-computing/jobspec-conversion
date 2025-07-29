@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
 #SBATCH --time=01:00:00
-#SBATCH --partition=train
 #SBATCH --constraint=ntasks-per-node=8
 
 srun --label pippy_wrapper.sh

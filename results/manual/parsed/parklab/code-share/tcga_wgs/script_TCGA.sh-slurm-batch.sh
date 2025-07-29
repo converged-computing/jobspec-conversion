@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=medium
 #SBATCH --array=2-8
 
 export LD_LIBRARY_PATH='/n/data1/hms/dbmi/park/SOFTWARE/Sentieon/sentieon-genomics-202112.06/lib:$LD_LIBRARY_PATH'

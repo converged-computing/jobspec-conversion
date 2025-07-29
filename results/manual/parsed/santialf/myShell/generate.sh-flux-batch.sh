@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-peanut-butter-8626
+#FLUX --job-name=goodbye-signal-6245
 #FLUX --queue=milanq
 #FLUX -t=1200
 #FLUX --urgency=16

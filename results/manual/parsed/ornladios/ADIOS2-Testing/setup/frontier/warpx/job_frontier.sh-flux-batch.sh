@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-cupcake-4678
+#FLUX --job-name=fat-gato-8301
 #FLUX --queue=batch
 #FLUX -t=5400
 #FLUX --urgency=16

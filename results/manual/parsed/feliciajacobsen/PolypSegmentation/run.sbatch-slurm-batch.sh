@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-00:01:00
-#SBATCH --partition=dgx2q
 
 ulimit -s 10240
 mkdir -p ~/output/g001

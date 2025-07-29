@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-malarkey-5142
+#FLUX --job-name=psycho-hippo-7820
 #FLUX --queue=main
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -9,7 +9,6 @@
 #SBATCH --ntasks=5
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=pAll
 
 schism_exec=/gpfs/work/ksddata/code/schism/source_code/schism/schism_2021_wwm_HDF5/bin/pschism_strand_WWM_ANALYSIS_GOTM_TVD-SB # SCHISM executable to run with
 schism_bindir=/gpfs/work/ksddata/code/schism/source_code/schism/schism20210420/bin # schism binary folder containing binaries to combine outputs and hotstarts

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=40G
-#SBATCH --partition=pe2
 
 module load snakemake
 snakemake --snakefile Snakefile \

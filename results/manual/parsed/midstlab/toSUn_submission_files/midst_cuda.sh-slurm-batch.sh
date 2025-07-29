@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:tesla_k40:1
 #SBATCH --time=15-00:00:00
-#SBATCH --partition=midst
 #SBATCH --qos=midst
 #SBATCH --constraint=ntasks-per-node=24
 

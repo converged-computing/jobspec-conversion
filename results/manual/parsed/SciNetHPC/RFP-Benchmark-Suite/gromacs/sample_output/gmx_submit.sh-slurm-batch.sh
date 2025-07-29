@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=compute_full_node
 
 export gmx='/scratch/s/scinet/rzon/gmxb/gromacs-2024/gmx_install/bin/gmx'
 export GMX_ENABLE_DIRECT_GPU_COMM='1'

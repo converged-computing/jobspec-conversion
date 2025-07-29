@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=adorable-noodle-8295
+#FLUX --job-name=angry-motorcycle-4872
 #FLUX -c=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=genoa
 #FLUX -t=36000
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-general-9563
+#FLUX --job-name=bumfuzzled-staircase-2419
 #FLUX -n=16
 #FLUX --queue=defq
 #FLUX -t=360000

@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2500M
 #SBATCH --time=1-00:12:00
-#SBATCH --partition=haswell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MERIC_MODE='2'
 export MERIC_COUNTERS='papi'

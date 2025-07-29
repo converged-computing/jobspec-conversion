@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-staircase-7392
+#FLUX --job-name=crunchy-pancake-3893
 #FLUX -c=20
 #FLUX --queue=small
 #FLUX -t=610

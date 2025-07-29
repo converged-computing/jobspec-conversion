@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-motorcycle-2009
+#FLUX --job-name=gassy-nalgas-7185
 #FLUX -c=6
 #FLUX --queue=amdgpufast
 #FLUX -t=14400

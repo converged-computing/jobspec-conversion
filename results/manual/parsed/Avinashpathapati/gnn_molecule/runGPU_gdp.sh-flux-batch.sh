@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-hippo-5642
+#FLUX --job-name=crusty-taco-5988
 #FLUX --queue=gpu
 #FLUX -t=174180
 #FLUX --urgency=16

@@ -3,7 +3,6 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=3
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=west
 
 . /opt/spack/20220821/share/spack/setup-env.sh
 spack load scorep

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-dog-5868
+#FLUX --job-name=purple-egg-5751
 #FLUX -N=5
 #FLUX --queue=sgpu
 #FLUX -t=86400

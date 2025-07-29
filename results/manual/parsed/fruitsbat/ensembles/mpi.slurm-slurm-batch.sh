@@ -5,7 +5,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=west
 #SBATCH --constraint=ntasks-per-node=1
 
 export ENSEMBLES_MPIEXEC_PATH='mpiexec'

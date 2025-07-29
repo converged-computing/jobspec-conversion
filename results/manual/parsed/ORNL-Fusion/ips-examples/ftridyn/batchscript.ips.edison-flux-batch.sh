@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-poodle-0782
+#FLUX --job-name=conspicuous-squidward-3518
 #FLUX --queue=debug
 #FLUX -t=1800
 #FLUX --urgency=16

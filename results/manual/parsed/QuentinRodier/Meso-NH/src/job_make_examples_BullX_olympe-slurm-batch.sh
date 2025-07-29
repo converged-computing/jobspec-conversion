@@ -6,7 +6,7 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MONORUN='mpirun -prepend-rank -np 1 '
 export MPIRUN='mpirun -prepend-rank -np 4 '

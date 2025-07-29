@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-fudge-2006
+#FLUX --job-name=fat-buttface-7513
 #FLUX -c=2
 #FLUX --queue=defq
 #FLUX -t=172800

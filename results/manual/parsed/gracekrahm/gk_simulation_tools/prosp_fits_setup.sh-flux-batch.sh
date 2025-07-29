@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-nalgas-0860
+#FLUX --job-name=peachy-nalgas-0395
 #FLUX --urgency=16
 
 n_nodes=$1

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2gb
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=hpg1-compute
 #SBATCH --qos=peter
 
 unset TMPDIR

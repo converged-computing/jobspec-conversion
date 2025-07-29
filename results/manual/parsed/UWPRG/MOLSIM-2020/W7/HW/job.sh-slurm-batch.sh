@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=22G
 #SBATCH --time=00:30:00
-#SBATCH --partition=pfaendtner
 
 cat conditions.txt | while read line; do
   echo $line

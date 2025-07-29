@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=amd
 
 cd $SLURM_SUBMIT_DIR
 date;hostname;pwd

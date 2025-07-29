@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-cattywampus-7820
+#FLUX --job-name=fugly-car-3888
 #FLUX -c=4
 #FLUX --queue=compute
 #FLUX --urgency=16

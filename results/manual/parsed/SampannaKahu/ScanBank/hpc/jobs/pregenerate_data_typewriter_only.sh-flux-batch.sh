@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-malarkey-3404
-#FLUX: --exclusive
+#FLUX --job-name=astute-kitty-5691
+#FLUX --exclusive
 #FLUX --queue=normal_q
 #FLUX -t=288000
 #FLUX --urgency=16

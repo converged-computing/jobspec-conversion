@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10GB
 #SBATCH --time=00:15:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=partition,ntasks-per-node=28
 
 set -e

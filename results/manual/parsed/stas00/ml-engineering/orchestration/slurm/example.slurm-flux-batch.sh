@@ -2,7 +2,7 @@
 #FLUX --job-name=example-job
 #FLUX -N=2
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=xyz-cluster
 #FLUX -t=600
 #FLUX --urgency=16

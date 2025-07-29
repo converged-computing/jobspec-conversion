@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-general-0599
+#FLUX --job-name=gloopy-leopard-6074
 #FLUX --queue=ce-mri
 #FLUX -t=259200
 #FLUX --urgency=16

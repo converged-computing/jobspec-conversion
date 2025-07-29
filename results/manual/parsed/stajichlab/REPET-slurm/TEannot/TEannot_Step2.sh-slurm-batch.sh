@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=intel
 
 module load repet/2.5
 if  [ ! -n "$ProjectName" ] || [ ! -n "$ALIGNERS_AVAIL" ]; then

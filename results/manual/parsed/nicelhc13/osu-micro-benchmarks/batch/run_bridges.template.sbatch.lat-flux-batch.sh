@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-muffin-7778
+#FLUX --job-name=spicy-truffle-8231
 #FLUX -N=2
 #FLUX -n=2
 #FLUX --queue=gpu

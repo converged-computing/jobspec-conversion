@@ -7,8 +7,7 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=230000MB
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=2
 
 export OMP_NUM_THREADS='8'

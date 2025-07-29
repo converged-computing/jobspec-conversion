@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=creamy-diablo-7519
+#FLUX --job-name=ornery-egg-2686
 #FLUX -N=2
 #FLUX -n=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=huce_intel,seas_compute,shared
 #FLUX -t=480
 #FLUX --urgency=16

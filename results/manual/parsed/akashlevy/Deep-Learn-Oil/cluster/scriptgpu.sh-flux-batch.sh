@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-lizard-1232
+#FLUX --job-name=goodbye-kerfuffle-6752
 #FLUX --queue=holyseasgpu
 #FLUX -t=3600
 #FLUX --urgency=16

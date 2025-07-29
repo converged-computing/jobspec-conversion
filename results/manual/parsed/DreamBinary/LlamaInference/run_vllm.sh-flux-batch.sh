@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-leopard-8448
+#FLUX --job-name=expensive-malarkey-6354
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu_4090
 #FLUX --urgency=16
 

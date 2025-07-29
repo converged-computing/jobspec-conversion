@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-salad-1488
+#FLUX --job-name=milky-bits-4162
 #FLUX --queue=thinkstation-p340
 #FLUX --urgency=16
 

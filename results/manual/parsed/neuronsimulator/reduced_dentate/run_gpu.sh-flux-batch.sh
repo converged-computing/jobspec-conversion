@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=red-parsnip-8510
+#FLUX --job-name=carnivorous-motorcycle-7770
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

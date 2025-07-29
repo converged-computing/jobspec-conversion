@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-staircase-5600
+#FLUX --job-name=fuzzy-car-2276
 #FLUX -n=4
 #FLUX --queue=cloud
 #FLUX --urgency=16

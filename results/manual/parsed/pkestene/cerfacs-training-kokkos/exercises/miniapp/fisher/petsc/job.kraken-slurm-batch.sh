@@ -6,6 +6,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a30:4
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpua30
 
 mpirun ./main -ts_monitor -snes_monitor -ksp_monitor

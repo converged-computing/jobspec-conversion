@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=megatron_gpt
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 set -ex

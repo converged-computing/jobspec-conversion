@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-destiny-8168
+#FLUX --job-name=phat-peanut-7362
 #FLUX -c=2
 #FLUX --queue=infofil01
 #FLUX --urgency=16

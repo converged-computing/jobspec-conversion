@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-fudge-2342
+#FLUX --job-name=expressive-diablo-2057
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/buseskorkmaz/FMs-at-work/train_bc.sh

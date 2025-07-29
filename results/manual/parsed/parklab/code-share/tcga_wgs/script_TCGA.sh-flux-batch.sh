@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-leg-1886
+#FLUX --job-name=angry-blackbean-6920
 #FLUX -c=8
 #FLUX --queue=medium
 #FLUX -t=86400

@@ -9,7 +9,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
 #SBATCH --qos=test
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 cat $0
 ml load GCC/6.3.0-2.27

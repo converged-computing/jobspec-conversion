@@ -4,7 +4,7 @@
 #SBATCH --ntasks=28
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 ml purge > /dev/null 2>&1
 ml GCC/10.3.0  OpenMPI/4.1.1

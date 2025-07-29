@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-gato-8633
+#FLUX --job-name=bloated-itch-1261
 #FLUX -c=8
 #FLUX --queue=gpuq
 #FLUX -t=3600

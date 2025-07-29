@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=32G
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=h100
 #SBATCH --array=1-4
 

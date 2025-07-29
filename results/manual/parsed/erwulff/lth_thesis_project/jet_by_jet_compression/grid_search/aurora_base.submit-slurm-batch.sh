@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=23:00:00
-#SBATCH --partition=hep
 
 cat $0
 ml GCC/8.2.0-2.31.1  OpenMPI/3.1.3

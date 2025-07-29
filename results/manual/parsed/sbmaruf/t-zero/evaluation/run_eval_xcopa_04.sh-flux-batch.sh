@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-poo-4820
+#FLUX --job-name=fat-hippo-4403
 #FLUX --queue=PA100q
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-motorcycle-2868
+#FLUX --job-name=strawberry-peanut-butter-1788
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Quantisan/WholeCell/simulation/job.dataexport.sh.tmpl

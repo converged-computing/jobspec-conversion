@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:tesla-smx2:2
 #SBATCH --mem=50000
-#SBATCH --partition=gpu
 
 module load gnu7
 module load cuda/11.0.2.450

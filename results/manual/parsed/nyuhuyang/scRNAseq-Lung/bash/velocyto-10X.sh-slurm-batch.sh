@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=80G
-#SBATCH --partition=panda
 
 spack load -r python@3.6.0+shared~tk~ucs4
 spack load -r samtools@1.8

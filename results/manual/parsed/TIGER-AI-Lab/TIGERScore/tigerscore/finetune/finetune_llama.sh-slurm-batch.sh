@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=100G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=a100
 
 export NCCL_IB_DISABLE='1;'
 export NCCL_P2P_DISABLE='1;'

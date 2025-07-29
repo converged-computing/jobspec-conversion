@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
-#SBATCH --partition=gpu
 
 export NUM_CPUS='4'
 export RAY_ROOT='$TMPDIR/$USER/ray'

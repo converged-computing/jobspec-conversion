@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10GB
 #SBATCH --time=23:00:00
-#SBATCH --partition=batch
 
 SNK_DIR="/hpcfs/users/a1667917/Ghais/Rat_RNA_Seq/Nanopore_RNA_Seq_cdna_Pipeline"
 PROF_DIR="/hpcfs/users/a1667917/snakemake_slurm_profile"

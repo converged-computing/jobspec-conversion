@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=160G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=defq
 
 ANNOTATEVARIANTS_INSTALL=/mnt/common/WASSERMAN_SOFTWARE/AnnotateVariants/
 source $ANNOTATEVARIANTS_INSTALL/opt/miniconda3/etc/profile.d/conda.sh

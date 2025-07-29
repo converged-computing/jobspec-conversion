@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=shortq
 
 export WORK_DIR='/data/$USER/root_$SLURM_JOB_ID'
 export INPUT_DIR='$PWD/hist/'

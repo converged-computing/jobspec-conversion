@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-fork-7503
+#FLUX --job-name=joyous-animal-5858
 #FLUX --queue=ckpt
 #FLUX -t=172800
 #FLUX --urgency=16

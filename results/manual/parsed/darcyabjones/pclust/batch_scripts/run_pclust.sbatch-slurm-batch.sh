@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=longq
 
 module load nextflow/19.01.0.5050-bin
 module load singularity/3.3.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-pancake-5281
+#FLUX --job-name=milky-platanos-0190
 #FLUX --queue=hci-rw
 #FLUX -t=172800
 #FLUX --urgency=16

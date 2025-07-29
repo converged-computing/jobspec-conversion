@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-arm-1761
+#FLUX --job-name=ornery-parsnip-6118
 #FLUX --queue=sched_any_quicktest
 #FLUX -t=10
 #FLUX --urgency=16

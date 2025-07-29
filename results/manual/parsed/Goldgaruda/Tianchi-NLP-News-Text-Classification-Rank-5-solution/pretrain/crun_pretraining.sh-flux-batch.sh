@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-fudge-6770
+#FLUX --job-name=evasive-leader-3699
 #FLUX -n=14
 #FLUX --queue=nvidia
 #FLUX -t=172800

@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu
 
 if [ "$#" -ne 2 ]; then
     echo "Please, provide the training framework: torch/tf and dataset path"

@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=60000M
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpu_shared_course
 #SBATCH --constraint=ntasks-per-node=1
 
 module purge

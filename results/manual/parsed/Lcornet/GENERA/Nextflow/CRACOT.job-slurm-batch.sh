@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=12000
 #SBATCH --time=5-01:00:00
-#SBATCH --partition=bio
 
 export OMP_NUM_THREADS='20'
 export MKL_NUM_THREADS='20'

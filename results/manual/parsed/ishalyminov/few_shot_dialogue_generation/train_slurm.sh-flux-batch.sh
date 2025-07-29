@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-earthworm-6444
+#FLUX --job-name=moolicious-cattywampus-5884
 #FLUX --queue=amd-longq
 #FLUX --urgency=16
 

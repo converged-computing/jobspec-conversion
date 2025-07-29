@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=cuda-mpi
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu-h100
 #FLUX -t=600
 #FLUX --urgency=16

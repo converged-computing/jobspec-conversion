@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=milky-punk-8457
+#FLUX --job-name=anxious-snack-6575
 #FLUX -c=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

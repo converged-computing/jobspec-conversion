@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-omelette-7216
+#FLUX --job-name=purple-buttface-0600
 #FLUX --urgency=16
 
 module load julia/1.7.3

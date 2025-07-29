@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --gres=gtx1080ti:1
 #SBATCH --time=00:03:00
-#SBATCH --partition=gpu_shared_jupyter
 
 export PYTHONUNBUFFERED='1'
 

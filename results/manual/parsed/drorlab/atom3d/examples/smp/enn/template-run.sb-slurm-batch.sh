@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=24G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=rondror
 #SBATCH --constraint=GPU_MEM:24GB
 
 module load gcc/8.1.0

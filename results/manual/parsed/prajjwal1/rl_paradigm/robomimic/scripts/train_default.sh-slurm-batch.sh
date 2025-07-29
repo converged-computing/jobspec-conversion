@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
-#SBATCH --partition=learnai4rl
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=1-5
 

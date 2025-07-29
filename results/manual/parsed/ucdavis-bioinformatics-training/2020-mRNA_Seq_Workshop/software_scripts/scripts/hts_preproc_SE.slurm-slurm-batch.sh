@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=3000
 #SBATCH --time=01:00:00
-#SBATCH --partition=production
 #SBATCH --array=1-22
 
 start=`date +%s`

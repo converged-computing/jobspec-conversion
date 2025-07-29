@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=4GB
 #SBATCH --time=1-11:00:00
-#SBATCH --partition=plgrid
 #SBATCH --constraint=ntasks-per-node=1
 
 export APPTAINERENV_TEMPLATEFLOW_HOME='$SCRATCH/templateflow'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-fudge-9192
+#FLUX --job-name=purple-lemur-4273
 #FLUX -n=14
 #FLUX --queue=nvidia
 #FLUX -t=172800

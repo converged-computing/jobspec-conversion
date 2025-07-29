@@ -6,7 +6,6 @@
 #SBATCH --ntasks=24
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=batch
 
 export VASP_CMD='/ibex/scratch/jangira/vasp/sw/vasp.5.4.4/bin/vasp_std'
 export OMP_NUM_THREADS='1'

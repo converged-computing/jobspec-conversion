@@ -8,7 +8,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=longjobs
 
 module load namd/2.13-gcc_CUDA
 namd2 ubq_ws_eq.conf

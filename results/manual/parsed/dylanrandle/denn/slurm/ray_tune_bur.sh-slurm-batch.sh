@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=96000
 #SBATCH --time=00:08:00
-#SBATCH --partition=test
 
 module load gcc/10.2.0-fasrc01
 module load Anaconda3/2020.11

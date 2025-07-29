@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:0
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=lycium
 #SBATCH --constraint=ntasks-per-node=14
 
 export PYTHONPATH='${PYTHONPATH}:${SLURM_SUBMIT_DIR}/src/'

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=16:30:00
-#SBATCH --partition=standard
 
 module purge
 module load anaconda/2020.11-py3.8

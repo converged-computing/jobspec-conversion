@@ -5,7 +5,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:02:00
-#SBATCH --partition=6g-per-core
 #SBATCH --qos=medium
 
 module load singularity-3.5.3

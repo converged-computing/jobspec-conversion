@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-pedo-9663
+#FLUX --job-name=fat-platanos-0334
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bonaert/explainable_rl/cluster_scripts/mountain_car/run_without_teacher_mc_seed_300.pbs

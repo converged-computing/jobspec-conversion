@@ -2,7 +2,7 @@
 #FLUX --job-name=CortexNrdmsPySim
 #FLUX -N=400
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=prod
 #FLUX -t=86400
 #FLUX --urgency=16

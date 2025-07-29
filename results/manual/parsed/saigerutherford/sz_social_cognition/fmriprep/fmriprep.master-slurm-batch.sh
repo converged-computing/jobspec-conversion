@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=24576m
 #SBATCH --time=1-08:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=3
 
 export NTHREADS='3'

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=1000M
 #SBATCH --time=00:12:00
-#SBATCH --partition=short
 
                                            # You can change the filenames given with -o and -e to any filenames you'd like
 rm slurm*

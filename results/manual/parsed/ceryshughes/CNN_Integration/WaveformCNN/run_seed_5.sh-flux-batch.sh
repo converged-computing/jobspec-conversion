@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-pot-9458
+#FLUX --job-name=fat-onion-3698
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX -t=86400

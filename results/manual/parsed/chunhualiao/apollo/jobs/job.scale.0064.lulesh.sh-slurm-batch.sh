@@ -7,8 +7,7 @@
 #SBATCH --ntasks=69
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=pbatch
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export EXPERIMENT_JOB_TITLE='SCALE.0064.lulesh'
 export APPLICATION_RANKS='64"        # ^__ make sure to change the SBATCH node counts!'

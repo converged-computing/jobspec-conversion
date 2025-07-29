@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=C032M0256G
 #SBATCH --qos=low
 #SBATCH --constraint=ntasks-per-node=32
 

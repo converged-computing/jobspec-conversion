@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-underoos-1078
+#FLUX --job-name=goodbye-peas-0827
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_flat22_5m_50ms_25ms.pbs

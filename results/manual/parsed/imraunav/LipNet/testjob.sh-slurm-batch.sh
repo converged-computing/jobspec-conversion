@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=16
 
 module load DL-Conda_3.7

@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=256
 #SBATCH --gres=gpu:4
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=dc-gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export TUNE_RESULT_DIR='/p/project/raise-ctp2/cern/ray_results/tune_result_dir'
 export TUNE_MAX_PENDING_TRIALS_PG='$(($SLURM_NNODES * 4))'

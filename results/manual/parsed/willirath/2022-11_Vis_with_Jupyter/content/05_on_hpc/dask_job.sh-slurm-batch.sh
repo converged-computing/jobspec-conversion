@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem-per-cpu=3G
 #SBATCH --time=02:00:00
-#SBATCH --partition=cluster
 
 module load singularity/3.5.2
 CONTAINER_FILE="pangeo-notebook_2022.07.27.sif"

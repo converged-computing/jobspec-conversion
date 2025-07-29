@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=4G
 #SBATCH --time=12:00:00
-#SBATCH --partition=plgrid-gpu-a100
 
 eval "$(conda shell.bash hook)"
 conda activate clpi_env

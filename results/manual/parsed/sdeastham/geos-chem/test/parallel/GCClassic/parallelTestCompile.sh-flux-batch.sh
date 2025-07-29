@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-leopard-9800
+#FLUX --job-name=chunky-buttface-7577
 #FLUX -c=8
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=30

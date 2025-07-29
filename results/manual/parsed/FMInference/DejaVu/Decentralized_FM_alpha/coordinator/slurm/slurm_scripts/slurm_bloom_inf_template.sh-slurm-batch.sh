@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=03:59:00
-#SBATCH --partition=sphinx
 
 export NCCL_SOCKET_IFNAME='$netif'
 export GLOO_SOCKET_IFNAME='$netif'

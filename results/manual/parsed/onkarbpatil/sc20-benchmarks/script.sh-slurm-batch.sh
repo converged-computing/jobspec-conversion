@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=skylake-gold
 #SBATCH --qos=long
 #SBATCH --nodelist=cn61[4-7]
 

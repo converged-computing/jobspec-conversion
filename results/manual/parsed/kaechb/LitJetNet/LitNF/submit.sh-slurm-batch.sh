@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=allgpu
 #SBATCH --constraint=P100|V100|A100
 #SBATCH --chdir=/home/kaechben/slurm
 

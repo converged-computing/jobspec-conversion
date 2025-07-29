@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=preemptable_q
 
 export qcSoft='/projects/nmayhall_lab/qchem5'
 export QCPATH='$qcSoft/qchem.librassf-bloch-dev/'

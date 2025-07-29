@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-leader-6138
+#FLUX --job-name=moolicious-blackbean-6868
 #FLUX -c=2
 #FLUX --queue=gpu
 #FLUX -t=172800

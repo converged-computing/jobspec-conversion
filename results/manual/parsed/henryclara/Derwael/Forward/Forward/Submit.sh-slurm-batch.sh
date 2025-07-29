@@ -9,7 +9,6 @@
 #SBATCH --ntasks=220
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=compute
 #SBATCH --chdir=.
 
 export OMPI_MCA_pml='ucx'

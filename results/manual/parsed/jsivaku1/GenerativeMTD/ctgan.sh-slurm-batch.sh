@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --mem=30GB
-#SBATCH --partition=gpucompute
 
 module load cuda11.1/toolkit/11.1.1
 conda activate deepmtd

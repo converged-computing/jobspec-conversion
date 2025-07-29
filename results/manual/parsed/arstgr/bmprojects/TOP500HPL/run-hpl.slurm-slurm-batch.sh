@@ -7,8 +7,7 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=0
 #SBATCH --time=00:20:00
-#SBATCH --partition=top500
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 
 export BASE_DIR='/workspace'

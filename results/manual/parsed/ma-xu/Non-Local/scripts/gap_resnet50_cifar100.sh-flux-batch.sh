@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-general-2295
+#FLUX --job-name=swampy-pastry-6505
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-chip-5747
+#FLUX --job-name=gassy-cinnamonbun-7237
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

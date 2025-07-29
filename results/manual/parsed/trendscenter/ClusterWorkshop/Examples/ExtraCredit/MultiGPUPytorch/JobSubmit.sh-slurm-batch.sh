@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=20G
 #SBATCH --time=01:00:00
-#SBATCH --partition=qTRDGPU
 
 sleep 10s 
 eval "$(conda shell.bash hook)"

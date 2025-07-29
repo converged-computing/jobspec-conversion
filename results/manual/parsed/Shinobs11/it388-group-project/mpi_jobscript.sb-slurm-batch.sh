@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=128
 
 module load cpu/0.15.4 gcc/10.2.0 openmpi/4.0.4

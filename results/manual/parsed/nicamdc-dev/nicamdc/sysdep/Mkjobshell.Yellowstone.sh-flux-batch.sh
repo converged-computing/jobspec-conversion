@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-kerfuffle-2000
+#FLUX --job-name=pusheena-cattywampus-5744
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nicamdc-dev/nicamdc/sysdep/Mkjobshell.Yellowstone.sh

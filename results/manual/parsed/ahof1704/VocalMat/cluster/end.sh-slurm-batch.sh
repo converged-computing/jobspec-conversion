@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=6000
 #SBATCH --time=12:00:00
-#SBATCH --partition=scavenge
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

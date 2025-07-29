@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=18:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=quadrortx
 #SBATCH --array=1-1
 

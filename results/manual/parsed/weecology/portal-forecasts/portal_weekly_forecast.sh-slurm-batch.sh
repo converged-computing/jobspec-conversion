@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16gb
 #SBATCH --time=12:00:00
-#SBATCH --partition=hpg2-compute
 
 echo "INFO: [$(date "+%Y-%m-%d %H:%M:%S")] Starting Weekly Forecast on $(hostname) in $(pwd)"
 cd /orange/ewhite/PortalForecasts/

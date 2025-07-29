@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-truffle-6983
+#FLUX --job-name=confused-spoon-0785
 #FLUX -c=8
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=150

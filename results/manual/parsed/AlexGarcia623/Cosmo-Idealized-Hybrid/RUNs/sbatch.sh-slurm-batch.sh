@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=3500mb
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=hpg2-compute
 #SBATCH --qos=paul.torrey-b
 
 export OMPI_MCA_pml='ucx'

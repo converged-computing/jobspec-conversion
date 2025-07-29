@@ -7,7 +7,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:12:00
-#SBATCH --partition=serial
 
 module load gcc/4.9.2
 module load matlab/2015b

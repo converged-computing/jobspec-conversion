@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-underoos-5802
+#FLUX --job-name=bumfuzzled-chip-0742
 #FLUX -c=64
 #FLUX --queue=amd
 #FLUX -t=180000

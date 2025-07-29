@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-peanut-butter-3724
+#FLUX --job-name=expensive-underoos-8712
 #FLUX -c=256
 #FLUX --queue=cpu
 #FLUX -t=9000

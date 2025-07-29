@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=48G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=medium
 #SBATCH --array=2-2
 
 GRIDSS_JAR_PATH=/usr/local/bin/gridss-2.13.2.jar

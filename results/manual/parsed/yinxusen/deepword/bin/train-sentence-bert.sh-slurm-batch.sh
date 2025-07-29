@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:p100:1
 #SBATCH --mem=10GB
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=isi
 
 export PYTHONPATH='$HOME/git-store/deep-textworld-student/python/:$PYTHONPATH'
 

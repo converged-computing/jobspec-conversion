@@ -3,8 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=scarf
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=scarf18
 
 export BASE_DIR='/home/vol08/scarf688/git/intel-e2e-benchmark/case1'

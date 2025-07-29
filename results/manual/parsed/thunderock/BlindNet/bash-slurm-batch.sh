@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=22
 #SBATCH --mem=64gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=dl
 #SBATCH --constraint=ntasks-per-node=1,ntasks-per-node=1
 
 conda deactivate

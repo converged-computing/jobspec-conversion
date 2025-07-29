@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=16G
 #SBATCH --time=02:00:00
-#SBATCH --partition=short
 #SBATCH --constraint=V100
 
 module load python/gcc-8.2.0/3.7.6

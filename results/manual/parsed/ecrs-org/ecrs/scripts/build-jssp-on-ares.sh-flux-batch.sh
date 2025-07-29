@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-onion-0366
+#FLUX --job-name=adorable-despacito-9864
 #FLUX --queue=plgrid
 #FLUX -t=600
 #FLUX --urgency=16

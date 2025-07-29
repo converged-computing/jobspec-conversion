@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=64G
 #SBATCH --time=6-23:59:59
-#SBATCH --partition=long
 #SBATCH --constraint=A100
 
 echo "Running python code on $(hostname) with algorithm $1"

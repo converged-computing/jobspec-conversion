@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-pastry-6148
+#FLUX --job-name=milky-truffle-8044
 #FLUX --queue=bosch_cpu-cascadelake
 #FLUX --urgency=16
 

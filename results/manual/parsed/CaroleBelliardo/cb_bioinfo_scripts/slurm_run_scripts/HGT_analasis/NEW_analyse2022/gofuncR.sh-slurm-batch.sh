@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=128G
-#SBATCH --partition=all
 
 module load singularity/3.5.3 
 IMG='/lerins/hub/projects/25_Metag_PublicData/tools_metagData/Singularity/GOFunc.sif'

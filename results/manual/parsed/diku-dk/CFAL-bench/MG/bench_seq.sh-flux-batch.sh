@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-spoon-4426
+#FLUX --job-name=expressive-leader-8055
 #FLUX -c=32
 #FLUX --queue=csmpi_fpga_long
 #FLUX -t=14400

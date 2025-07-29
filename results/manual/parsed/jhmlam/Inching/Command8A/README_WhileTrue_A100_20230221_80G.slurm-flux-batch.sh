@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=a100G
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=172500
 #FLUX --urgency=16

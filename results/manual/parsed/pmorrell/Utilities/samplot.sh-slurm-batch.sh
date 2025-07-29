@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20gb
 #SBATCH --time=00:10:00
-#SBATCH --partition=ram1t
 #SBATCH --constraint=ntasks-per-node=1
 
 VCF=/panfs/roc/groups/9/morrellp/shared/Projects/Mutant_Barley/longranger_morex_v2/combined_mutated/Filtered/deletions/M01_singletons_only-scored_DEL_gte75Sup.vcf

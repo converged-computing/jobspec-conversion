@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-dog-8006
+#FLUX --job-name=anxious-underoos-1555
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Jeongmin0658/h4d_lammps/examples/LJ_salt100/sampling/mu-solvent/deletion/example_job_submission.sh

@@ -5,7 +5,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=8GB
 #SBATCH --time=20:05:00
-#SBATCH --partition=gpu
 
 cd /home/adnanzai/project/monai-train
 ml purge

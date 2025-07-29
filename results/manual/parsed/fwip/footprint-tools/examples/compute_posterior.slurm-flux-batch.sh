@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-citrus-0533
+#FLUX --job-name=blank-lizard-9237
 #FLUX --urgency=16
 
 set -o pipefail

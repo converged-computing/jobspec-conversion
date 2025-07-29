@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:tesla-v100:1
 #SBATCH --mem=16000
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=mcdermott
 #SBATCH --constraint=high-capacity&12GB
 #SBATCH --array=0-17
 #SBATCH --exclude=node093,node040,node037,node097,node098,node094

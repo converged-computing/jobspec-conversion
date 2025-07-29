@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_NUM_THREADS='16                       # tell the cube to use all 16 core within the node to run this'
 

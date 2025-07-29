@@ -5,7 +5,6 @@
 #SBATCH --ntasks=6
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=normal
 
 export JUPYTER_RUNTIME_DIR='$WORK'
 

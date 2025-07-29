@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
-#SBATCH --partition=compsci-gpu
 
 set -e
 SLURM_ARRAY_TASK_ID=204

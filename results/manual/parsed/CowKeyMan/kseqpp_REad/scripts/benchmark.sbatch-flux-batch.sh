@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=Benchmark_kseqpp_read
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gputest
 #FLUX -t=900
 #FLUX --urgency=16

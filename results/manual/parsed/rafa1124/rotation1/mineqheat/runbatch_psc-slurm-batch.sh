@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=14
 #SBATCH --time=04:00:00
-#SBATCH --partition=RM
 
 set echo
 set -x

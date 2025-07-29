@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=mf_ilg2.3
 #SBATCH --constraint=ntasks-per-node=64
 #SBATCH --array=9
 #SBATCH --exclude=c-16-24

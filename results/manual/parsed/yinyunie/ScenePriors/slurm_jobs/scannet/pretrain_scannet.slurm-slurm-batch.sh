@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=4
 #SBATCH --mem=300gb
-#SBATCH --partition=submit
 #SBATCH --qos=normal
 #SBATCH --constraint=rtx_a6000|rtx_3090
 

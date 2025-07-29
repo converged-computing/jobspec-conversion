@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-diablo-5574
+#FLUX --job-name=milky-onion-8537
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

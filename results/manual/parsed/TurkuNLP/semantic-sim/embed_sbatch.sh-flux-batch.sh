@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-mango-9832
+#FLUX --job-name=rainbow-sundae-5626
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX -t=86400

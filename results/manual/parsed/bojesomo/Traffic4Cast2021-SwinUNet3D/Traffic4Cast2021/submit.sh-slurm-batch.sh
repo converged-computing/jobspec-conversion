@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=4
 
 export NCCL_SOCKET_IFNAME='^docker0,lo'

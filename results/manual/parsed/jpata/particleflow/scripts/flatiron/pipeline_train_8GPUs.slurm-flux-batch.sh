@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=pipetrain
 #FLUX --gpus-per-task=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=172800
 #FLUX --urgency=16

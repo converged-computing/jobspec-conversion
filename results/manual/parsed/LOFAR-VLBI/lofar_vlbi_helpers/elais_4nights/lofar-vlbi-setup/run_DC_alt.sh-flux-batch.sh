@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=delay-calibration
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=infinite
 #FLUX --urgency=16
 

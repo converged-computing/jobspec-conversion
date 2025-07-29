@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-punk-2479
+#FLUX --job-name=dinosaur-chip-6073
 #FLUX -c=12
 #FLUX -t=604800
 #FLUX --urgency=16

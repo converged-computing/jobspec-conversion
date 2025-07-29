@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-fork-6201
+#FLUX --job-name=fat-car-1846
 #FLUX --queue=standard
 #FLUX -t=345600
 #FLUX --urgency=16

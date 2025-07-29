@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=V100
 #SBATCH --nodelist=asimov-230
 
 echo $CUDA_VISIBLE_DEVICES

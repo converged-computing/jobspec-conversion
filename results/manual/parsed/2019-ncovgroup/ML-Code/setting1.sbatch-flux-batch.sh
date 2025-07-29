@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-plant-7602
+#FLUX --job-name=psycho-parrot-1688
 #FLUX -N=4
 #FLUX -c=10
 #FLUX --queue=regular

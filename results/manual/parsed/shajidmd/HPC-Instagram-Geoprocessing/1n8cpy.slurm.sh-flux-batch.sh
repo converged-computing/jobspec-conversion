@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-house-5071
+#FLUX --job-name=purple-puppy-0072
 #FLUX -n=8
 #FLUX --queue=physical
 #FLUX -t=600

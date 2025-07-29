@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=60000
 #SBATCH --time=00:30:00
-#SBATCH --partition=haswell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 cd ../build
 . ../readex_env/set_env_plain.source

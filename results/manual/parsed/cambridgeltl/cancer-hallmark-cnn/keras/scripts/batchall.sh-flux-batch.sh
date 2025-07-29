@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-egg-4458
+#FLUX --job-name=sticky-avocado-9457
 #FLUX --queue=tesla
 #FLUX -t=3600
 #FLUX --urgency=16

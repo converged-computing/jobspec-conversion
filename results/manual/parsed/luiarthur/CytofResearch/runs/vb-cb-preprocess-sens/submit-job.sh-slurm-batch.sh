@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=48G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=128x24
 
 echo "SCRATCH_DIR: $SCRATCH_DIR"
 BATCHSIZE=2000

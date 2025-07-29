@@ -7,8 +7,7 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=compute
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=40
 
 export CODE='AIMS'

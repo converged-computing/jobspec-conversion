@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-malarkey-5246
+#FLUX --job-name=spicy-fork-2143
 #FLUX --urgency=16
 

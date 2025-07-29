@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=60GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=cpu
 
 module load singularity
 srun singularity exec national-data-pulls_v0.1.sif Rscript -e '

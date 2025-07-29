@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:V100:1
 #SBATCH --mem=64000
 #SBATCH --time=2-12:00:00
-#SBATCH --partition=informatik-mind
 
 module purge
 module load anaconda3/latest

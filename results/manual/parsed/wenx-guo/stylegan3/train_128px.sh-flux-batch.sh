@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=stylegan3
 #FLUX -c=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=604800
 #FLUX --urgency=16
 

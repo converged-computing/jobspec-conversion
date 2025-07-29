@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=ram1t,amd2tb,amd512
 #SBATCH --array=11-20
 
 module load plink/2.00-alpha-091019

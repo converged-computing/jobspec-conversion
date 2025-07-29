@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-toaster-2109
+#FLUX --job-name=fat-sundae-9604
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

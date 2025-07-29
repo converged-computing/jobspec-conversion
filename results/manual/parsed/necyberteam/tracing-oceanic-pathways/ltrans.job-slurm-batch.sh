@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2048
 #SBATCH --time=11:30:00
-#SBATCH --partition=sched_mit_hill
 #SBATCH --constraint=centos7
 
 filename=jobname

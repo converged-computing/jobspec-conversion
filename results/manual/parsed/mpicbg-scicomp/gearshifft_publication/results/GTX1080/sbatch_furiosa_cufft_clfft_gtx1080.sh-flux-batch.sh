@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=gearshifft-gtx1080
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=36000
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=2gb
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=bluemoon
 
 export SINGULARITYENV_TEMPLATEFLOW_HOME='${TEMPLATEFLOW_HOST_HOME}'
 

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu_p
 #SBATCH --qos=gpu_normal
 #SBATCH --constraint=GPU_Nvidia_Tesla_A100
 #SBATCH --exclude=gpusrv[26,28-35,38-52]

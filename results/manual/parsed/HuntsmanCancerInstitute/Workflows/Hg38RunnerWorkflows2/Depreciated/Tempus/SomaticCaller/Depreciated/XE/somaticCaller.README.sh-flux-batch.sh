@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-cinnamonbun-5854
+#FLUX --job-name=stanky-lamp-2424
 #FLUX --queue=hci-rw
 #FLUX -t=172800
 #FLUX --urgency=16

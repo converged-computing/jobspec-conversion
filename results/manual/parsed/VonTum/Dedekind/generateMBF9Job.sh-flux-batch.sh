@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=generateMBF9
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX -t=604800
 #FLUX --urgency=16

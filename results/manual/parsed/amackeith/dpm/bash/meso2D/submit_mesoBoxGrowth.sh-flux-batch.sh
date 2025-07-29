@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-noodle-4420
+#FLUX --job-name=lovable-avocado-0875
 #FLUX --urgency=16
 
 mkdir -p out

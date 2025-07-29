@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-car-4551
+#FLUX --job-name=phat-pot-4308
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

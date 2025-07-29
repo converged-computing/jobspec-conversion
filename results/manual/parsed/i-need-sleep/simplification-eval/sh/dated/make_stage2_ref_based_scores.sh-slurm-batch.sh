@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64GB
 #SBATCH --time=23:00:00
-#SBATCH --partition=cpu-512
 
 nvidia-smi
 nvcc --version

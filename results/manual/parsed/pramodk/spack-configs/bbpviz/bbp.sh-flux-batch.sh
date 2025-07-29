@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=neuron-coreneuron-stack
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=interactive
 #FLUX -t=28800
 #FLUX --urgency=16

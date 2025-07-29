@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=50G
 #SBATCH --time=11:59:55
-#SBATCH --partition=gpu
 
 set -eu -o pipefail
 fol=$1          # checkpoint folder - or name of language model: e.g. model/checkpoint-10000/ or xlm-roberta-large

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1500M
 #SBATCH --time=15:00:00
-#SBATCH --partition=normal
 #SBATCH --array=1-1000
 
 export N_ITERATIONS='1 '

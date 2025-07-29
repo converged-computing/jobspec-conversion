@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-fudge-8481
+#FLUX --job-name=delicious-peanut-butter-5417
 #FLUX --urgency=16
 
 export CONDA_ALWAYS_YES='true'

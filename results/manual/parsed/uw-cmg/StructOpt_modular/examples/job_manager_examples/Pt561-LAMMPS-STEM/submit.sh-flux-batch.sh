@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-lemon-3495
+#FLUX --job-name=muffled-lizard-0104
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/uw-cmg/StructOpt_modular/examples/job_manager_examples/Pt561-LAMMPS-STEM/submit.sh

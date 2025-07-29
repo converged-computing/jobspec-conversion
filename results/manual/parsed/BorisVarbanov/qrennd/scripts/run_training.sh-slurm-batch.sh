@@ -10,7 +10,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu
 
 module load 2022r2
 module load python

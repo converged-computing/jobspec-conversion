@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000MB
 #SBATCH --time=3-18:00:00
-#SBATCH --partition=act
 #SBATCH --constraint=ntasks-per-node=1
 
 python clustering.py 800 1000

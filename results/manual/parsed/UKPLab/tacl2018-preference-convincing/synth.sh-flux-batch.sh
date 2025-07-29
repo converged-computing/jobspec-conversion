@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=conv_rand
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

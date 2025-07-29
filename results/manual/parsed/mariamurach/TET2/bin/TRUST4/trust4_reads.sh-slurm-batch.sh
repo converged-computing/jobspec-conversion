@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=100000
 #SBATCH --time=03:00:00
-#SBATCH --partition=______
 #SBATCH --array=1-21
 
 module load java

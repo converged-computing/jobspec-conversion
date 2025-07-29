@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:4
 #SBATCH --mem=480000
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpumedium
 #SBATCH --constraint=ntasks-per-node=1
 
 timer=`date +%s`

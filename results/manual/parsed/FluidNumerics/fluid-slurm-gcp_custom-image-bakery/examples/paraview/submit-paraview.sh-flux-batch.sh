@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-eagle-7703
+#FLUX --job-name=adorable-ricecake-2483
 #FLUX --urgency=16
 
  echo "Usage : Port, Slurm Account, Slurm Partition, Num-MPI-procs, Memory-per-rank, Hours needed"

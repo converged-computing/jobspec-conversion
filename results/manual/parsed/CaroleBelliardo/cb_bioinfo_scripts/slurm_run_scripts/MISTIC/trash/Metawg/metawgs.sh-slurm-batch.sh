@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=60
 #SBATCH --mem=464G
-#SBATCH --partition=all
 
 module load singularity/3.5.3
 module load nextflow/21.04.1

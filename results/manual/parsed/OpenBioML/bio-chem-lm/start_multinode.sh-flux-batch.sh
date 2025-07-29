@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=openbioml
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=g40n404
 #FLUX --urgency=16
 

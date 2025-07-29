@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=14
 #SBATCH --time=00:15:00
-#SBATCH --partition=parallel
 #SBATCH --constraint=skylake
 
 module purge # ensures vanilla environment

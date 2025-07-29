@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-cattywampus-9717
+#FLUX --job-name=blank-chip-9197
 #FLUX -N=64
 #FLUX -n=1024
 #FLUX -c=8

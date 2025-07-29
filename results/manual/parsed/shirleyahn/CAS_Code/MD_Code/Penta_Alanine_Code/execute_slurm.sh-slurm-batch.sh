@@ -8,10 +8,9 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=owners
 #SBATCH --qos=normal
 #SBATCH --constraint=ntasks-per-node=16
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 num_nodes=1  # TODO: set number of nodes requested
 num_cpu=16  # TODO: set number of cores per node

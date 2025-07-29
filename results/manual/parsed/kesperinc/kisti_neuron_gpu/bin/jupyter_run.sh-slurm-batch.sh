@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=amd_a100nv_8
 #SBATCH --constraint=ntasks-per-node=1
 
 if [ -e port_forwarding_command ]

@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export STARTDIR='`pwd`'
 export MYDIR='$STARTDIR/nopt'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-cat-4901
+#FLUX --job-name=pusheena-gato-7855
 #FLUX -n=4
 #FLUX --queue=maxwell
 #FLUX -t=432000

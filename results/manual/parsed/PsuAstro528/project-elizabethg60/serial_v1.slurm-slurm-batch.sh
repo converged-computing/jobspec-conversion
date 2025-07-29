@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=sla-prio
 
 echo "Starting job $SLURM_JOB_NAME"
 echo "Job id: $SLURM_JOB_ID"

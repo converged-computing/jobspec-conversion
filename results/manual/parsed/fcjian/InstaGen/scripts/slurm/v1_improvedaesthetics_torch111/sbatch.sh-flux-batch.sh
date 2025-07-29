@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=stable-diffusion-v1-improvedaesthetics-torch111
 #FLUX -N=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute-od-gpu
 #FLUX --urgency=16
 

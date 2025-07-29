@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-rabbit-9963
+#FLUX --job-name=phat-eagle-3678
 #FLUX --queue=short
 #FLUX -t=57600
 #FLUX --urgency=16

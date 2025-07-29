@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-butter-6585
+#FLUX --job-name=misunderstood-citrus-9750
 #FLUX -n=24
 #FLUX --queue=thin
 #FLUX -t=64800

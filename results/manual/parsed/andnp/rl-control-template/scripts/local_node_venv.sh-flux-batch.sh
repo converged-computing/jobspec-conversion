@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-blackbean-9638
+#FLUX --job-name=dirty-cherry-4017
 #FLUX -t=3300
 #FLUX --urgency=16
 

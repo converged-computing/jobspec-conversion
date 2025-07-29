@@ -8,7 +8,6 @@
 #SBATCH --ntasks=32
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=v100
 
 export MV2_USE_CUDA='1'
 export MV2_ENABLE_AFFINITY='1'

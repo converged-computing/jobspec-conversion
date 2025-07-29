@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-salad-4864
+#FLUX --job-name=bloated-truffle-9550
 #FLUX -c=32
 #FLUX --queue=normal
 #FLUX -t=460800

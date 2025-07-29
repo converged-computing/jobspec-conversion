@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-platanos-5253
+#FLUX --job-name=scruptious-chair-8531
 #FLUX -c=24
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=360

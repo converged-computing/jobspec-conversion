@@ -8,7 +8,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=v100
 
 mkdir -p sbatch_logs
 source $SCRATCH/anaconda3/bin/activate pytorch

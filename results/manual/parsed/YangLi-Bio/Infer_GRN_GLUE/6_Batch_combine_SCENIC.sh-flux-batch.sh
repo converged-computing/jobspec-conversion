@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-noodle-6557
+#FLUX --job-name=goodbye-toaster-6562
 #FLUX --urgency=16
 
 cd /fs/ess/PCON0022/liyang/STREAM/benchmarking/GLUE/Outputs/

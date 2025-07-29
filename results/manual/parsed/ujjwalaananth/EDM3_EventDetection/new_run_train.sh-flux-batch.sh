@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-taco-6448
+#FLUX --job-name=boopy-malarkey-2246
 #FLUX -n=20
 #FLUX --queue=cidsegpu1_contrib_res
 #FLUX -t=1200

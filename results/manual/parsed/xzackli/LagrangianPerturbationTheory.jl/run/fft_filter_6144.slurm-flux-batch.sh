@@ -2,7 +2,7 @@
 #FLUX --job-name=fullresfilter_debug
 #FLUX -N=8
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=1800
 #FLUX --urgency=16
 

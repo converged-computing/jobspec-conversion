@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-salad-5632
+#FLUX --job-name=spicy-bits-4466
 #FLUX --queue=hci-rw
 #FLUX -t=345600
 #FLUX --urgency=16

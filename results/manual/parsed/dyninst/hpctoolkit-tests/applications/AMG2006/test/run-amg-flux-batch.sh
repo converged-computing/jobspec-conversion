@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=quirky-caramel-8549
-#FLUX: --exclusive
+#FLUX --job-name=anxious-lamp-4720
+#FLUX --exclusive
 #FLUX -t=300
 #FLUX --urgency=16
 

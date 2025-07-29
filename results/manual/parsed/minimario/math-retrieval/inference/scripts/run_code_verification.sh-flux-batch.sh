@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-lemon-9678
+#FLUX --job-name=reclusive-banana-2289
 #FLUX -c=10
 #FLUX --queue=tenenbaum
 #FLUX -t=10800

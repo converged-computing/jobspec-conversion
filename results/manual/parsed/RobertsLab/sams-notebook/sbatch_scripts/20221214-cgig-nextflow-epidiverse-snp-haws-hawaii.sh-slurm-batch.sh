@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=500G
 #SBATCH --time=12-00:00:00
-#SBATCH --partition=srlab
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20221214-cgig-nextflow-epidiverse-snp-haws-hawaii
 
 bams_dir="/gscratch/scrubbed/samwhite/data/C_gigas/BSseq"

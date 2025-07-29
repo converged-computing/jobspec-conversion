@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=60g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpuA40x4
 #SBATCH --constraint=ntasks-per-node=1,projects&scratch
 
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION='python'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-salad-5145
+#FLUX --job-name=butterscotch-sundae-7374
 #FLUX -N=9
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

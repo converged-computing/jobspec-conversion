@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=256G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 module load  python/3.6.5-fwk5uaj
 module load tensorflow-gpu/1.2.1/u16-cuda8.0-libcudnn5.1-py36

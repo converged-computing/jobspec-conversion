@@ -5,7 +5,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=cpu-compute-spot
 
 set -e
 cmd="pip install --upgrade git+https://github.com/pytorch/ignite.git && python check_idist.py --backend=gloo"

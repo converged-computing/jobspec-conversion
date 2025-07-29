@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:P100:1
 #SBATCH --time=6-16:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=normal
 
 module load cuda

@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:12:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load intel/19.0.5  
 module load mvapich2/2.3.4

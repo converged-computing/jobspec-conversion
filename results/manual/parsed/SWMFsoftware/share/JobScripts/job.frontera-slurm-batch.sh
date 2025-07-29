@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 
 export I_MPI_ADJUST_REDUCE='1 '
 export UCX_LOG_LEVEL='ERROR '

@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:1
 #SBATCH --time=20:00:00
-#SBATCH --partition=palamut-cuda
 
 export PATH='/truba_scratch/eakbas/software/cuda-9.0/bin:$PATH'
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/truba_scratch/eakbas/software/cuda-9.0/lib64'

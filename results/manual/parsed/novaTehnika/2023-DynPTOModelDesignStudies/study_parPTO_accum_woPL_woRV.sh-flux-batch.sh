@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-house-5582
+#FLUX --job-name=delicious-plant-3822
 #FLUX -n=11
 #FLUX --queue=msismall
 #FLUX -t=86400

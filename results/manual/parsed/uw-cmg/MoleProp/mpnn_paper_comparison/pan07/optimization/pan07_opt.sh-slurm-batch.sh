@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10-00:01:30
-#SBATCH --partition=sbel_cmg
 #SBATCH --qos=skunkworks_owner
 
 module load cuda/10.0

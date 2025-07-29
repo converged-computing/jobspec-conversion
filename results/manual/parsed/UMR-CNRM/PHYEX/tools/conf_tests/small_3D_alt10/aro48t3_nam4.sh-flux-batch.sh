@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-fork-7736
+#FLUX --job-name=bloated-soup-7240
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

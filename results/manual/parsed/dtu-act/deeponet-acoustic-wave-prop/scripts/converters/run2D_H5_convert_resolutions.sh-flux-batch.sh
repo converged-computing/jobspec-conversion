@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-blackbean-7370
+#FLUX --job-name=outstanding-caramel-5320
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/dtu-act/deeponet-acoustic-wave-prop/scripts/converters/run2D_H5_convert_resolutions.sh

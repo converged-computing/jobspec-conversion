@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50000
 #SBATCH --time=00:20:00
-#SBATCH --partition=ibismini
 #SBATCH --chdir=./
 
 cd $SLURM_SUBMIT_DIR

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-kitty-5439
+#FLUX --job-name=delicious-cat-1566
 #FLUX --queue=gpu2
 #FLUX -t=3600
 #FLUX --urgency=16

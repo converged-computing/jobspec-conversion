@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000M
 #SBATCH --time=00:24:00
-#SBATCH --partition=serial_requeue
 #SBATCH --array=1-500
 
 export R_LIBS_USER='$HOME/apps/R:$R_LIBS_USER'

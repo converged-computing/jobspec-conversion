@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-leopard-3536
+#FLUX --job-name=swampy-lamp-8563
 #FLUX -c=4
 #FLUX --queue=bc-mig
 #FLUX -t=28800

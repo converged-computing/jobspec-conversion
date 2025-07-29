@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:k80:2
 #SBATCH --time=00:10:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 ml purge > /dev/null 2>&1
 ml GCC/9.3.0  CUDA/11.0.2  OpenMPI/4.0.3

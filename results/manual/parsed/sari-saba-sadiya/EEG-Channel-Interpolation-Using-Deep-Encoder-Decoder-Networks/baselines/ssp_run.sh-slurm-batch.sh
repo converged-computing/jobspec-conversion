@@ -9,8 +9,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=350G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=sched_mit_rgmark
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --array=0-7
 
 . /etc/profile.d/modules.sh

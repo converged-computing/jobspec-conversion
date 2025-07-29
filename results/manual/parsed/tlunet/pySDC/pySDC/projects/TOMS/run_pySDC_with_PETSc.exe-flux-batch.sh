@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-nalgas-5387
+#FLUX --job-name=spicy-blackbean-6242
 #FLUX --queue=batch
 #FLUX -t=1800
 #FLUX --urgency=16

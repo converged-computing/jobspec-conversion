@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=10:00:00
-#SBATCH --partition=priority
 
 date
 . .profile

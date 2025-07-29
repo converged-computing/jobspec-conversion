@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=8000
 #SBATCH --time=00:15:00
-#SBATCH --partition=gputest
 
 set -euo pipefail
 module purge

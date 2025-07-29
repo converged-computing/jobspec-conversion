@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=cm3atou
 #SBATCH --constraint=ntasks-per-node=60
 
 module load Python/3.8.6-GCCcore-10.2.0

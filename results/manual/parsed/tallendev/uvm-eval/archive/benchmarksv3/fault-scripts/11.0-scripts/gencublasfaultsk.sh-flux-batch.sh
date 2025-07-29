@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=cublas-faults
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=172800
 #FLUX --urgency=16
 

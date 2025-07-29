@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=24GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=long
 
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=/cvmfs/ai.mila.quebec/apps/x86_64/common/cuda/10.1/'
 

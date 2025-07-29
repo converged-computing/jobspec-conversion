@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=red-buttface-5629
+#FLUX --job-name=outstanding-dog-1525
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=scarf
 #FLUX -t=345600
 #FLUX --urgency=16

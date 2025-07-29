@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-punk-2736
+#FLUX --job-name=grated-salad-2102
 #FLUX -c=2
 #FLUX --queue=gpu_shared
 #FLUX -t=3600

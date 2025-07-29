@@ -2,7 +2,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=debug
 
 export XDG_RUNTIME_DIR=''
 export LC_ALL='C.UTF-8'

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=128G
 #SBATCH --time=1-16:00:00
-#SBATCH --partition=RM
 #SBATCH --array=1-1
 
 ID=$SLURM_ARRAY_JOB_ID

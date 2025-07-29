@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem-per-cpu=120gb
 #SBATCH --time=8-08:00:00
-#SBATCH --partition=hpg-ai
 #SBATCH --qos=roitberg
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --exclude=c0900a-s11

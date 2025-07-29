@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=100G
 #SBATCH --time=1-08:00:00
-#SBATCH --partition=a100
 #SBATCH --constraint=ntasks-per-node=12
 
 module load gcc/9.3.0

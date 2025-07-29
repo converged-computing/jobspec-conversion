@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-kerfuffle-4504
+#FLUX --job-name=hairy-car-7627
 #FLUX --queue=sbel
 #FLUX -t=86400
 #FLUX --urgency=16

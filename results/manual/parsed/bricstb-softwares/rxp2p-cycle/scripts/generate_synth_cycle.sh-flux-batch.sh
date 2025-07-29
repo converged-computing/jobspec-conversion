@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=gen_cycle_santacasa
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX --urgency=16
 

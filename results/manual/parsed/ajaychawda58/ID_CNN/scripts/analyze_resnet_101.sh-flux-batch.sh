@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-pedo-0120
+#FLUX --job-name=grated-punk-6668
 #FLUX --urgency=16
 
 module load nvidia/11.1

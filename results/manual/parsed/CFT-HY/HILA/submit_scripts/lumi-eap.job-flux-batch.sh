@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-bits-1010
+#FLUX --job-name=quirky-kitty-3431
 #FLUX -n=4
 #FLUX -c=8
 #FLUX --queue=eap

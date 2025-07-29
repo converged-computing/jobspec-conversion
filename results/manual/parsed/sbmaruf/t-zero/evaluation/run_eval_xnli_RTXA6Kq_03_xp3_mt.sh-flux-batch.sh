@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-peas-2030
+#FLUX --job-name=blue-arm-3776
 #FLUX --queue=RTXA6Kq
 #FLUX --urgency=16
 

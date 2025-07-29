@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=76
 #SBATCH --gres=gpu:1
 #SBATCH --time=20:00:00
-#SBATCH --partition=accelerated
 #SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_CACHE_DISABLE='1'

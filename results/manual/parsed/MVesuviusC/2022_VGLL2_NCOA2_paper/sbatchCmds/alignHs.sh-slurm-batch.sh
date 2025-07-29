@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=general,himem
 #SBATCH --array=0-4
 
 set -e ### stops bash script if line ends with error

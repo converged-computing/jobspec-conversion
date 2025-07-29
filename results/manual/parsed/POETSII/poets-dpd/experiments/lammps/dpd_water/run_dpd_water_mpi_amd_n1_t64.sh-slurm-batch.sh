@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=amd
 #SBATCH --constraint=ntasks-per-node=64
 
 module load openmpi/4.1.1/amd-intel

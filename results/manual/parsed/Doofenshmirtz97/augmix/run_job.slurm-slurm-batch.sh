@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10GB
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 
 env_dir=/home/g050878/.conda/envs/augmixenv
 echo "$env_dir"  "Environment Directory"

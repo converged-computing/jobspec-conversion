@@ -7,8 +7,7 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=cclake
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=4
 #SBATCH --exclude=cpu-p-[1-280,337-672]
 

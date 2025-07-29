@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-cat-1715
+#FLUX --job-name=blank-train-3859
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alintulu/FHead2011PhysicsProject/HI2018HLT/JetTriggers/17573_RatesXeXe/TemplateResubmit.sh

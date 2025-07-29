@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem-per-cpu=16g
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpu,preempt
 
 module purge
 hostname

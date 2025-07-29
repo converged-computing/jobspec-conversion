@@ -8,7 +8,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=200G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=a100-80gb,ib
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/mnt/sw/nix/store/3xpm36w2kcri3j1m5j15hg025my1p4kx-cuda-11.8.0/extras/CUPTI/lib64/'

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:V100:1
 #SBATCH --mem=16GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=m3g
 
 export PROJECT='dl65'
 export CONDA_ENVS_PATH='/projects/$PROJECT/$USER/conda_envs'

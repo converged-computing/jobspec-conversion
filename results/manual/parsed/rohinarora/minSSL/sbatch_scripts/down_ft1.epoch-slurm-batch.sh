@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=100Gb
 #SBATCH --time=08:00:00
-#SBATCH --partition=ce-mri
 
 source activate simclr1
 python downstream_eval.py --downstream_task fine_tune -tm Scratch --config_file runs/tmp_default/config.yml -e 400 --comment "_default_cfg_ft_scratch_e400" &

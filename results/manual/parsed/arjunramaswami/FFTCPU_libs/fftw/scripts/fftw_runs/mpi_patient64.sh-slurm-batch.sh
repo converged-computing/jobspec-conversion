@@ -5,7 +5,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=all
 #SBATCH --constraint=ntasks-per-node=32
 
 export OMP_PLACES='cores     '

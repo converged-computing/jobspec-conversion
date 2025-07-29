@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=meshnbody
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu_preempt
 #FLUX -t=1800
 #FLUX --urgency=16

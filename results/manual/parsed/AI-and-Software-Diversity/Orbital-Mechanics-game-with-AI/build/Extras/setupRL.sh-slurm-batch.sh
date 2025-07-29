@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gengpu
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/users/sbrt882/hyperion/buildrl
 

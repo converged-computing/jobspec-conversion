@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64G
 #SBATCH --time=20:00:00
-#SBATCH --partition=coaps_q
 
 module load intel-openmpi
 module load anaconda3.7.3

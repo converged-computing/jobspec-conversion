@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=batch
 
 nvidia-smi -l > nv-smi_sa.log.${SLURM_JOB_ID} 2>&1 &
 python ./main.py

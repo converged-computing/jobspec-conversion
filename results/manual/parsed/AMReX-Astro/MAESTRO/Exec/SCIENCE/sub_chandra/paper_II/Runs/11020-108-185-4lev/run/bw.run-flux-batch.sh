@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-leopard-0754
+#FLUX --job-name=blank-plant-6386
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AMReX-Astro/MAESTRO/Exec/SCIENCE/sub_chandra/paper_II/Runs/11020-108-185-4lev/run/bw.run

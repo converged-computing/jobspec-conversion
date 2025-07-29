@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:nvidia_a100_80gb_pcie:1
 #SBATCH --time=10:00:00
-#SBATCH --partition=compute
 
 source ~/.local/bin/miniconda3/etc/profile.d/conda.sh
 conda activate bbt

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-milkshake-8504
+#FLUX --job-name=anxious-snack-7785
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tomasvicar/nnunet_metacentrum_example/code/run_metacentrum_predict.pbs

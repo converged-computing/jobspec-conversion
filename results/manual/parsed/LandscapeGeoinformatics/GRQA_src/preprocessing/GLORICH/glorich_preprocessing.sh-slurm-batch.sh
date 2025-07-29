@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
 #SBATCH --time=01:00:00
-#SBATCH --partition=amd
 #SBATCH --constraint=ntasks-per-node=1
 
 ds_name="GLORICH"

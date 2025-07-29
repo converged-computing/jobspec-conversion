@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=00:02:00
-#SBATCH --partition=Gpu
 #SBATCH --constraint=ntasks-per-node=24
 
 export PROJDIR='/home/$USER/data/Equivariant-GNNs'

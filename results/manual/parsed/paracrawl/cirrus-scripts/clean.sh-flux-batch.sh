@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-bike-3235
-#FLUX: --exclusive
+#FLUX --job-name=persnickety-pedo-7545
+#FLUX --exclusive
 #FLUX --queue=cclake,skylake
 #FLUX -t=43200
 #FLUX --urgency=16

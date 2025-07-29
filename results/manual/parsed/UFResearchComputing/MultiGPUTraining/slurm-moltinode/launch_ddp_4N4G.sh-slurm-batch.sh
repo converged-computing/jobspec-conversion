@@ -6,7 +6,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem-per-cpu=24gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=hpg-ai
 #SBATCH --constraint=ntasks-per-node=1
 
 export LOGLEVEL='INFO'

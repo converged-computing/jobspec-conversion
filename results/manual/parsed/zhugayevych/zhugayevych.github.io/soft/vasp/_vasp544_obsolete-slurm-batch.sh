@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=7500
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=AMG
 
 export OMP_NUM_THREADS='1'
 export SCR='/scr/$SLURM_JOB_NAME'

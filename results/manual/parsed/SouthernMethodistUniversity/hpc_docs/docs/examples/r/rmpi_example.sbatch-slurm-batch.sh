@@ -4,7 +4,6 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=development
 #SBATCH --constraint=ntasks-per-node=2
 
 export LD_LIBRARY_PATH='/cm/local/apps/cuda-driver/libs/396.26/lib:/cm/local/apps/cuda-driver/libs/396.26/lib64:${LD_LIBRARY_PATH}'

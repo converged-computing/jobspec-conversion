@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem-per-cpu=32G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1-35
 
 module load python/3.9.0

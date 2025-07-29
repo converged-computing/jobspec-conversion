@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-diablo-7849
+#FLUX --job-name=sticky-bike-2069
 #FLUX -c=4
 #FLUX --queue=main
 #FLUX -t=86400

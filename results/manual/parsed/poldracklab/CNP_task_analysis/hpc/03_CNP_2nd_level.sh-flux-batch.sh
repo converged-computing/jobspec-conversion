@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-fudge-6209
+#FLUX --job-name=wobbly-rabbit-4607
 #FLUX --queue=hns,normal
 #FLUX -t=36000
 #FLUX --urgency=16

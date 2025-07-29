@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=32G
 #SBATCH --time=02:00:00
-#SBATCH --partition=bii-gpu
 #SBATCH --constraint=a100_80gb
 
 NAME=cloudmesh-nvidia

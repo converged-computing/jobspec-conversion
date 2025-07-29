@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-peanut-3026
+#FLUX --job-name=fat-kitty-4423
 #FLUX -c=2
 #FLUX --queue=general
 #FLUX -t=3600

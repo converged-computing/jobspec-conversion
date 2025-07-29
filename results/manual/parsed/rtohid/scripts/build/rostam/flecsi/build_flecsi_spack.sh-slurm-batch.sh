@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=medusa
 
 module load openmpi
 module load gcc/9.2.1

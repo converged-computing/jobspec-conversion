@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpuq
 
 export LD_LIBRARY_PATH='/group/pawsey0245/kvinsen/tensorflow/third_party/mkl:/group/pawsey0245/software/cuda/lib64:$LD_LIBRARY_PATH'
 

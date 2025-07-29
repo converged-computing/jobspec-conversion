@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=512
 #SBATCH --time=12:00:00
-#SBATCH --partition=priority
 #SBATCH --array=0-12
 
 NX=1

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100G
 #SBATCH --time=01:00:00
-#SBATCH --partition=amdrtx
 #SBATCH --constraint=ntasks-per-node=256
 
 export OMP_NUM_THREADS='16'

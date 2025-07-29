@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-signal-5419
+#FLUX --job-name=stanky-snack-4459
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/NN/Shellscripts/NN_script_03-01_6.sh

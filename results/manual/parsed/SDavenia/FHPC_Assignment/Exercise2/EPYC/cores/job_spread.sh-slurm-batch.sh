@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --mem=200gb
 #SBATCH --time=02:00:00
-#SBATCH --partition=EPYC
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/u/dssc/erivar00/myblis/lib:$LD_LIBRARY_PATH'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-bicycle-6386
+#FLUX --job-name=crusty-platanos-3641
 #FLUX -c=36
 #FLUX --queue=dev,gpu,intel,assembly
 #FLUX -t=10800

@@ -5,7 +5,6 @@
 #SBATCH --nodes=8
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=12
 
 export PETIBM_DIR='/shared/petibm-amgx'

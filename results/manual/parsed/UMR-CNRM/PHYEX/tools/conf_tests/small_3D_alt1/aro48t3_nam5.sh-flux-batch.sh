@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-eagle-4974
+#FLUX --job-name=fuzzy-eagle-7772
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

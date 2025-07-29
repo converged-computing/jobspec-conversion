@@ -6,7 +6,7 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=8
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export FI_EFA_USE_DEVICE_RDMA='1 # use for p4d'

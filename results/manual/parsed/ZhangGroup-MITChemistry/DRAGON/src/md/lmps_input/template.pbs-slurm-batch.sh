@@ -4,8 +4,7 @@
 #SBATCH --ntasks=14
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=mit
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module load gcc
 module add mvapich2/gcc

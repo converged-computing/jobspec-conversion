@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=08:00:00
-#SBATCH --partition=batch
 #SBATCH --array=1-856
 #SBATCH --exclude=c1cmp003,c1cmp004
 

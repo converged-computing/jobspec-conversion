@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-chair-7745
+#FLUX --job-name=grated-platanos-7219
 #FLUX -c=16
 #FLUX --queue=AMG
 #FLUX -t=86400

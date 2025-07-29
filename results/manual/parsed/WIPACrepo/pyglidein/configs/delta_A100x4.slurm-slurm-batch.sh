@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=14
 #SBATCH --mem=56G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpuA100x4
 #SBATCH --constraint=ntasks-per-node=1
 
 echo `date`

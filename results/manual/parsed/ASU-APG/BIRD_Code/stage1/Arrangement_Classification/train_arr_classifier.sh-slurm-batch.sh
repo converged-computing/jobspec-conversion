@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-00:12:00
-#SBATCH --partition=cidsegpu1
 
 module load tensorflow/1.8-agave-gpu
 cd /home/tgokhale/work/code/Arrangement_Classification

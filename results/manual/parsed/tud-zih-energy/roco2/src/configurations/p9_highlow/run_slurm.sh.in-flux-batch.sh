@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-itch-0739
+#FLUX --job-name=dinosaur-cinnamonbun-9470
 #FLUX -c=176
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=ml
 #FLUX -t=7199
 #FLUX --urgency=16

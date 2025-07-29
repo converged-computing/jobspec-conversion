@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-lamp-3029
+#FLUX --job-name=fuzzy-train-9316
 #FLUX -n=10
 #FLUX -t=86400
 #FLUX --urgency=16

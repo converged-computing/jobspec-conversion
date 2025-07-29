@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=32G
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu-a100
 
 array=("cor" "inc")
 cat ${array[$SLURM_ARRAY_TASK_ID]}

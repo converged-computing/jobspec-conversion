@@ -5,8 +5,7 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:30:00
-#SBATCH --partition=sapphire
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 . /etc/profile.d/modules.sh  
 function load_modules() {

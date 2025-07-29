@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-omelette-4131
+#FLUX --job-name=buttery-soup-7292
 #FLUX -N=2
 #FLUX -n=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=huce_intel
 #FLUX -t=1200
 #FLUX --urgency=16

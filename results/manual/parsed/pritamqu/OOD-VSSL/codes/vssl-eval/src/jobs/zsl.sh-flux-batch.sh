@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-fork-8745
+#FLUX --job-name=grated-pancake-5824
 #FLUX --queue=v100_full_node
 #FLUX --urgency=16
 

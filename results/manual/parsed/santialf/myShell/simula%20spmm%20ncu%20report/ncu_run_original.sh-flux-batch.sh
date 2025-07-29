@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-arm-8693
+#FLUX --job-name=hanky-diablo-2925
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

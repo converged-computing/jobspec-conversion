@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=RTXA6Kq
 #SBATCH --nodelist=node10
 
 python -u ./main.py

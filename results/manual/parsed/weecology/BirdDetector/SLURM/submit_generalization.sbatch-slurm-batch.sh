@@ -11,7 +11,6 @@
 #SBATCH --gres=4
 #SBATCH --mem=90GB
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 
 source activate Zooniverse_pytorch
 cd ~/BirdDetector/

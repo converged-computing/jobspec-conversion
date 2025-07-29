@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-leopard-6421
+#FLUX --job-name=chocolate-caramel-7265
 #FLUX -n=4
 #FLUX --queue=standard
 #FLUX -t=14400

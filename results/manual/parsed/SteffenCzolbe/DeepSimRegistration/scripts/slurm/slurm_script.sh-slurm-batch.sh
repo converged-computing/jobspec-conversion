@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:titanrtx:1
 #SBATCH --mem=30000M
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

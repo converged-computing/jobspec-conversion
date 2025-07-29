@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=amd
 
 ml mosek/9.2
 ml Python/3.9.6-GCCcore-11.2.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-rabbit-7210
+#FLUX --job-name=evasive-omelette-4366
 #FLUX --queue=public-cpu
 #FLUX -t=345600
 #FLUX --urgency=16

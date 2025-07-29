@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=160G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 echo "Converting notebook to script"
 jupyter nbconvert --to python tensorflow_gpu_sample.ipynb

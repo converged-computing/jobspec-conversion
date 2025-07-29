@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-mango-6007
+#FLUX --job-name=carnivorous-earthworm-3037
 #FLUX -n=36
 #FLUX --queue=campus-new
 #FLUX -t=7200

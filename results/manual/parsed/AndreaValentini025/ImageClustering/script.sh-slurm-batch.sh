@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=16G
-#SBATCH --partition=students-prod
 #SBATCH --array=0-20
 
 echo "My SLURM_ARRAY_TASK_ID:" $SLURM_ARRAY_TASK_ID

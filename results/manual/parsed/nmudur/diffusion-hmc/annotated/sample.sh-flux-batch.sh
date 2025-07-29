@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-plant-8107
+#FLUX --job-name=salted-diablo-3238
 #FLUX --queue=fink_gpu
 #FLUX -t=225
 #FLUX --urgency=16

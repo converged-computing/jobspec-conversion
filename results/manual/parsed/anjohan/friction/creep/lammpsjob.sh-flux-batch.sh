@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-underoos-2191
+#FLUX --job-name=delicious-plant-6316
 #FLUX --urgency=16
 
 source /cluster/bin/jobsetup

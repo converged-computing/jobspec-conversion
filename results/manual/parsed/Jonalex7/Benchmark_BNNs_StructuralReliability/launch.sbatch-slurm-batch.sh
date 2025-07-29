@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=batch
 #SBATCH --array=0-5
 
 ARGS=("--method=bnnbpp --lstate=parabolic" "--method=dropout --lstate=parabolic" "--method=sghmc --lstate=himmelblau" "--method=sghmc --lstate=parabolic" "--method=sghmc --lstate=electric" "--method=sghmc --lstate=high_dim")

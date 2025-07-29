@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-#SBATCH --partition=broadwell
 
 echo "[...] Environment setup Cartesius"
 virtualenv_folder="hdis"

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=30G
 #SBATCH --time=04:00:00
-#SBATCH --partition=amdfast
 #SBATCH --constraint=ntasks-per-node=1
 
 ml torchsparse

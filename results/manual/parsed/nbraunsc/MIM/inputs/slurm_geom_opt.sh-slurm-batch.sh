@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=normal_q
 
 if [ -z ${HOME+x} ];
 then

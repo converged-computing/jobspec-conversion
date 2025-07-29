@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=chunky-bits-2816
+#FLUX --job-name=scruptious-onion-5064
 #FLUX --urgency=16
 

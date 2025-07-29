@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-staircase-3552
+#FLUX --job-name=crunchy-train-0577
 #FLUX -N=16
 #FLUX -c=14
 #FLUX --queue=RM

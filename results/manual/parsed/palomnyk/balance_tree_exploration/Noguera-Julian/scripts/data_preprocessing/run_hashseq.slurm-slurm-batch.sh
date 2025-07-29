@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=500gb
 #SBATCH --time=05:00:00
-#SBATCH --partition=Orion
 #SBATCH --constraint=ntasks-per-node=1
 
 echo Job: $SLURM_JOB_NAME with ID $SLURM_JOB_ID

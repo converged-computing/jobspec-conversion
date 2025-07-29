@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=48G
 #SBATCH --time=12:00:00
-#SBATCH --partition=alpha
 #SBATCH --constraint=ntasks-per-node=1
 
 export $(cut -d=' -f1 "$CFG_FILE")'

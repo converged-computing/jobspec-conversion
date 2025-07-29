@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=02:00:00
-#SBATCH --partition=ib
 #SBATCH --constraint=OS8
 #SBATCH --array=0-9999
 

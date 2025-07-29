@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-arm-2784
+#FLUX --job-name=angry-bike-1507
 #FLUX -c=6
 #FLUX --queue=rise
 #FLUX -t=87840

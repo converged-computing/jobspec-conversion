@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-signal-6471
+#FLUX --job-name=tart-buttface-6632
 #FLUX -c=8
 #FLUX --urgency=16
 

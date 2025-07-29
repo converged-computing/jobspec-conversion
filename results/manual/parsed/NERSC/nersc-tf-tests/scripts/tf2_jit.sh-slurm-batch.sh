@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=1
-#SBATCH --partition=debug
 #SBATCH --constraint=gpu
 
 export NCCL_DEBUG='${NCCL_DEBUG:-WARN}'

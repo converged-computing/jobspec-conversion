@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=cbmm
 #SBATCH --array=0-119
 
 bash batched_cma_light.sh ${SLURM_ARRAY_TASK_ID} resnet18_v7_40_final.pt categories_10_models_40.pkl

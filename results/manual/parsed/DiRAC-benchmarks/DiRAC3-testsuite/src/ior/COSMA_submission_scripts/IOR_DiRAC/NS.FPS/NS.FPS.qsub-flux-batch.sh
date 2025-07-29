@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-fork-3673
+#FLUX --job-name=frigid-chair-6425
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DiRAC-benchmarks/DiRAC3-testsuite/src/ior/COSMA_submission_scripts/IOR_DiRAC/NS.FPS/NS.FPS.qsub

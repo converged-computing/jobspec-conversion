@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=expensive-salad-5975
-#FLUX: --exclusive
+#FLUX --job-name=chunky-omelette-4330
+#FLUX --exclusive
 #FLUX -t=21600
 #FLUX --urgency=16
 

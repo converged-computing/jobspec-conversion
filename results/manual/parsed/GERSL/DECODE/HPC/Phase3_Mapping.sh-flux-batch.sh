@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-destiny-6714
+#FLUX --job-name=outstanding-fork-3709
 #FLUX --queue=priority
 #FLUX --urgency=16
 

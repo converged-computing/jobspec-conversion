@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-lettuce-9410
+#FLUX --job-name=purple-bike-4508
 #FLUX --queue=gpu_4,gpu_8
 #FLUX -t=172800
 #FLUX --urgency=16

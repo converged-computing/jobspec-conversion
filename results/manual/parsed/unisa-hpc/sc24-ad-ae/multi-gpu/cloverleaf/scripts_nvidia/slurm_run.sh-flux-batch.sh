@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=cloverleaf_ws_test
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=
 #FLUX -t=300
 #FLUX --urgency=16

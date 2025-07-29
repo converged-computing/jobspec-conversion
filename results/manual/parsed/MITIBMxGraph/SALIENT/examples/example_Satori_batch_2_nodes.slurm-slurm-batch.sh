@@ -8,8 +8,7 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=1T
 #SBATCH --time=00:03:00
-#SBATCH --partition=sched_system_all_8
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --array=1-2
 
 export PYTHONPATH='$SALIENT_ROOT'

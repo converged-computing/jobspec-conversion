@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=eval
 #FLUX -c=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=21600
 #FLUX --urgency=16
 

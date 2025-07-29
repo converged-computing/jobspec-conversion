@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-diablo-1582
+#FLUX --job-name=dinosaur-bicycle-3552
 #FLUX -N=2
 #FLUX --queue=bdwall
 #FLUX -t=900

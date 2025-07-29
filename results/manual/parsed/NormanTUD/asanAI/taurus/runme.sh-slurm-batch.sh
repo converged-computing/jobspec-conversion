@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000MB
 #SBATCH --time=02:00:00
-#SBATCH --partition=alpha
 
 export taurus='0'
 export train='0'

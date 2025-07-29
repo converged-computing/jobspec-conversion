@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-arm-0751
+#FLUX --job-name=stanky-eagle-3342
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/NN/Shellscripts/09-01/NN_script_03-01_10.sh

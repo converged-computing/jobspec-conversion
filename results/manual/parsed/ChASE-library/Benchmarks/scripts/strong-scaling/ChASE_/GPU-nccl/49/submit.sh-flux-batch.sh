@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-train-9722
+#FLUX --job-name=grated-onion-4141
 #FLUX -N=49
 #FLUX -n=196
 #FLUX -c=12

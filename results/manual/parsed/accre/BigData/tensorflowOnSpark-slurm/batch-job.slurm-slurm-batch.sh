@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=16G
 #SBATCH --time=01:00:00
-#SBATCH --partition=maxwell
 #SBATCH --constraint=ntasks-per-node=1
 
 source job-env.sh

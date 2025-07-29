@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-house-0515
+#FLUX --job-name=fat-squidward-5249
 #FLUX -c=8
 #FLUX --queue=alpha
 #FLUX -t=446399

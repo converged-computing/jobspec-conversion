@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:volta:2
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 CUDA_VISIBLE_DEVICES=0,1 python main.py \
 						 --model resnet50 \

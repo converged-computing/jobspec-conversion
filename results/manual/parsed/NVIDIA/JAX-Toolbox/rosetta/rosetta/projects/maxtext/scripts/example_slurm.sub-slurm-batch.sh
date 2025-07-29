@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=00:20:00
-#SBATCH --partition=partition
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 
 export XLA_PYTHON_CLIENT_MEM_FRACTION='0.90'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-signal-1065
+#FLUX --job-name=evasive-arm-6682
 #FLUX -c=8
 #FLUX --urgency=16
 

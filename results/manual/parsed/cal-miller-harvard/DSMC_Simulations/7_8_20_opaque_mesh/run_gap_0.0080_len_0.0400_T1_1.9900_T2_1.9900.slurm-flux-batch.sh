@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-bike-6736
+#FLUX --job-name=eccentric-despacito-5072
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

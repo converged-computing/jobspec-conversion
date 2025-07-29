@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-lamp-5663
+#FLUX --job-name=fuzzy-soup-1470
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

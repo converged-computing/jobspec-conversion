@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=bii-gpu
 #SBATCH --constraint=a100_80gb
 
 echo "# cloudmesh status=running progress=1 pid=$$"

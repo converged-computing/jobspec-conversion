@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-cinnamonbun-2120
+#FLUX --job-name=chunky-banana-6570
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/HRRR/sms/jhrrr_gempak_22.qsub

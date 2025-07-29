@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-eagle-6116
+#FLUX --job-name=dirty-lemur-2580
 #FLUX --queue=RTXA6Kq
 #FLUX --urgency=16
 

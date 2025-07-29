@@ -3,7 +3,7 @@
 #FLUX -N=124
 #FLUX -c=128
 #FLUX --gpus-per-task=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpg-ai
 #FLUX -t=432000
 #FLUX --urgency=16

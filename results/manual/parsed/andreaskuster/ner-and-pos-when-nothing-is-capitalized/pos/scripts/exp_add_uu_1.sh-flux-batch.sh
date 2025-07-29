@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-peanut-8632
+#FLUX --job-name=salted-parrot-7123
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=33
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10:00:00
-#SBATCH --partition=compute
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 export ARL_DASK_SCHEDULER='${scheduler}:8786'

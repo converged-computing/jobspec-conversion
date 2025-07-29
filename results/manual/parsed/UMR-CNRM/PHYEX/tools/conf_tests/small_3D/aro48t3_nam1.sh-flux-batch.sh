@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-leg-8925
+#FLUX --job-name=phat-egg-4151
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

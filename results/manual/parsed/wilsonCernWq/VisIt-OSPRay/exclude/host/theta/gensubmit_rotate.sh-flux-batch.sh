@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-signal-2596
+#FLUX --job-name=lovable-hope-1730
 #FLUX --urgency=16
 

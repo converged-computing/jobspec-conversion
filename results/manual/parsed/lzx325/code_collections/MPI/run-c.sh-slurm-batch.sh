@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=10G
 #SBATCH --time=00:20:00
-#SBATCH --partition=batch
 
 {
 	set -e

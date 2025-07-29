@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=04:00:00
-#SBATCH --partition=broadwl
 #SBATCH --array=10,58,154,202
 
 module load julia/1.7.2

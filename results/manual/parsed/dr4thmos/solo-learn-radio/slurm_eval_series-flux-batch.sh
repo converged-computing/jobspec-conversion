@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-hippo-8709
+#FLUX --job-name=angry-malarkey-1455
 #FLUX -c=16
 #FLUX --queue=boost_usr_prod
 #FLUX -t=86400

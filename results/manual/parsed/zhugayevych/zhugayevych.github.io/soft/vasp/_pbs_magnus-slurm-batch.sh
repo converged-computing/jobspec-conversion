@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=0
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=AMG
 #SBATCH --constraint=ntasks-per-node=1
 
 export SCR='/scr/$SLURM_JOB_USER/$SLURM_JOB_ID'

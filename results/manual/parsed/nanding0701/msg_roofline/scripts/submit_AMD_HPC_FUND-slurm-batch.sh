@@ -5,7 +5,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=mi1008x
 
 module use /share/bpotter/modulefiles/
 module load rocshmem/1.6.3

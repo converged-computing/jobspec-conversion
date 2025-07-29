@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=8000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --nodelist=pgpu03
 
 WORKDIR=/cluster/kappa/90-days-archive/wongjiradlab/twongj01/pytorch-uresnet

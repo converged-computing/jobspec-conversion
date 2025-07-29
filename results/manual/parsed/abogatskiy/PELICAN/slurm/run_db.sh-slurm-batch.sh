@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2GB
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=genx
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'

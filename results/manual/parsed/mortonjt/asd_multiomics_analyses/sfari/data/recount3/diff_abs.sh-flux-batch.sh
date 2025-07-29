@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=faux-lentil-3338
-#FLUX: --exclusive
+#FLUX --job-name=quirky-chip-0298
+#FLUX --exclusive
 #FLUX --queue=ccb
 #FLUX -t=360000
 #FLUX --urgency=16

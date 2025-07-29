@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-lentil-0910
+#FLUX --job-name=hairy-blackbean-8890
 #FLUX -N=138
 #FLUX -n=13248
 #FLUX --queue=standard96

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=swampy-muffin-8984
+#FLUX --job-name=cowy-peas-4486
 #FLUX -n=40
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=l_long
 #FLUX -t=259200
 #FLUX --urgency=16

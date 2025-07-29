@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-fork-4832
+#FLUX --job-name=strawberry-gato-9890
 #FLUX --urgency=16
 
 export machine='WCOSS_DELL_P3'

@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=15G
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu-a100
 #SBATCH --chdir=/home/adidishe/EightK
 
 module load foss/2022a

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-lemur-1587
+#FLUX --job-name=eccentric-parsnip-6503
 #FLUX --queue=primary
 #FLUX --urgency=16
 

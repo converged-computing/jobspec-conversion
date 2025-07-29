@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:hgx:8
 #SBATCH --mem=20G
-#SBATCH --partition=pol
 #SBATCH --constraint=ntasks-per-node=8
 
 export TORCH_EXTENSIONS_DIR='${ROOT_DIR}/torch_extendsions'

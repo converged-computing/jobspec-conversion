@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-staircase-8798
+#FLUX --job-name=hello-caramel-5177
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/arfc/msr-neutronics/tap-msr/v1-2-bw/myjob.pbs~

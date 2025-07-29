@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=polyglot-single
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=express
 #FLUX -t=1800
 #FLUX --urgency=16

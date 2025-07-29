@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 
 spack load cuda@11.8.0
 spack load --first py-pandas

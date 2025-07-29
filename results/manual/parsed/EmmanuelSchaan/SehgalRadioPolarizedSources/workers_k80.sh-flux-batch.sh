@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-earthworm-8477
+#FLUX --job-name=grated-pastry-9564
 #FLUX -n=4
 #FLUX -c=2
 #FLUX --queue=savio2_gpu

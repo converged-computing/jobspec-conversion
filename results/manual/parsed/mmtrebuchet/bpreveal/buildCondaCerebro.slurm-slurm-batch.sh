@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:0
 #SBATCH --mem-per-cpu=10gb
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 export BPREVEAL_KILL_LD_LIB_PATH='\$pathAccum'
 export LD_LIBRARY_PATH='\${pathAccum}\${LD_LIBRARY_PATH}'

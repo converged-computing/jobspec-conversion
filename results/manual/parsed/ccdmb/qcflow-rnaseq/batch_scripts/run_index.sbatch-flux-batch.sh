@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-train-4337
+#FLUX --job-name=peachy-nunchucks-1742
 #FLUX -c=2
 #FLUX --queue=work
 #FLUX -t=86400

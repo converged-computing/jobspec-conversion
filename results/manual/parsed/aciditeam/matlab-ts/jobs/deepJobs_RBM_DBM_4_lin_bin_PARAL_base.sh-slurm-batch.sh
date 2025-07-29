@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8000
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=mono
 
 source /etc/profile.modules
 module load gcc

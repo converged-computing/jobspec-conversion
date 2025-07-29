@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50g
 #SBATCH --time=06:00:00
-#SBATCH --partition=psych_day
 
 set -e
 cd /gpfs/milgram/project/turk-browne/projects/LocalAggregation-Pytorch/

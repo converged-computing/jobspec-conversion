@@ -9,8 +9,7 @@
 #SBATCH --gres=gpu:a100:0,nvme:300
 #SBATCH --mem=3G
 #SBATCH --time=00:15:00
-#SBATCH --partition=gputest
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export OLD_PWD='${PWD}'

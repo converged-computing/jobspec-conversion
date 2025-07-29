@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-earthworm-1065
+#FLUX --job-name=ornery-peanut-7543
 #FLUX --queue=bosch_cpu-cascadelake
 #FLUX --urgency=16
 

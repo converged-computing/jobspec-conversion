@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --gres=gpu:1
 #SBATCH --mem=256GB
-#SBATCH --partition=yolo
 #SBATCH --qos=yolo
 #SBATCH --constraint=gpu_model:a180
 

@@ -7,7 +7,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=short
 
 module load merqury/1.1
 module load meryl/1.0

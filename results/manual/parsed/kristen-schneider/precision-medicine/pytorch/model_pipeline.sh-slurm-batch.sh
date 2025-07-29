@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=100GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=aa100
 #SBATCH --constraint=ntasks-per-node=32
 
 snakemake -s training_pipeline.smk -j 32 -c 32 --use-conda --conda-frontend mamba

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --gres=0
 #SBATCH --mem=30gb
-#SBATCH --partition=submit
 #SBATCH --qos=normal
 
 date;hostname;pwd

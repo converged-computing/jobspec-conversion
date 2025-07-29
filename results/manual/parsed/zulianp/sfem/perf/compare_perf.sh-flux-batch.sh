@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=PerfHydroS
 #FLUX -n=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=2400
 #FLUX --urgency=16
 

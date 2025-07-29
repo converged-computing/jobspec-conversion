@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=thsu
 #SBATCH --dependency=27624282
 
 . "/work/thsu/rschanta/RTS/functions/bash-utility/slurm-bash.sh"

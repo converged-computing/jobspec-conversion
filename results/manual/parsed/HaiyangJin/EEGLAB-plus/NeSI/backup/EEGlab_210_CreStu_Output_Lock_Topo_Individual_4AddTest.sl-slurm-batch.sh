@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8192
 #SBATCH --time=00:30:00
-#SBATCH --partition=bigmem
 #SBATCH --array=9500
 
 module load MATLAB/2017b

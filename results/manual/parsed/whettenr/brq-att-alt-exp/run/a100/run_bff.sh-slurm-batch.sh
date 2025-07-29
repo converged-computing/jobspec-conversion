@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:8
 #SBATCH --time=20:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=a100
 
 module load pytorch-gpu/py3/2.1.1

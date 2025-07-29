@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=512GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=dgx_normal_q
 #SBATCH --constraint=ntasks-per-node=8
 
 export TRANSFORMERS_CACHE='/projects/nlp_lab/zhiyang/.cache/'

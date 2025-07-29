@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-leader-6886
+#FLUX --job-name=expressive-muffin-9946
 #FLUX -c=4
 #FLUX --queue=default_partition
 #FLUX -t=86400

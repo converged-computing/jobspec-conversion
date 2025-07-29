@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=blis_job_20
 #FLUX -c=40
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=1800
 #FLUX --urgency=16

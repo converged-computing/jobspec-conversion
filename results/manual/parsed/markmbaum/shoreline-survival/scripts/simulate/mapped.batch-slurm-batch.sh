@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=48
 #SBATCH --mem=3000
 #SBATCH --time=12-00:00:00
-#SBATCH --partition=huce_cascade
 
 module purge
 module load Julia/1.7.1-linux-x86_64

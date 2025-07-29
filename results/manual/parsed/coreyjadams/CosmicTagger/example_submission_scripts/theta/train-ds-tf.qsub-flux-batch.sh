@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=stanky-butter-8602
+#FLUX --job-name=frigid-fork-3284
 #FLUX --urgency=16
 

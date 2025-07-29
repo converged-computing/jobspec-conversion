@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ssd_mlpv21
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=mlperf
 #FLUX -t=7200
 #FLUX --urgency=16

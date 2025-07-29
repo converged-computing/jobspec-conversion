@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=2G
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=high-moby
 #SBATCH --array=1-2
 
 export SUBJECTS_DIR='/projects/ttan/UBC-TMS/simnibs/mri2mesh'

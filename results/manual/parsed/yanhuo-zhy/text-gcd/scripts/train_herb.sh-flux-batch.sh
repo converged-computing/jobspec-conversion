@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-plant-9183
+#FLUX --job-name=faux-blackbean-4746
 #FLUX -c=5
 #FLUX --queue=amp48
 #FLUX --urgency=16

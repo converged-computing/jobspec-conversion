@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-signal-5576
+#FLUX --job-name=fugly-gato-3585
 #FLUX -c=4
 #FLUX --queue=htc
 #FLUX -t=7200

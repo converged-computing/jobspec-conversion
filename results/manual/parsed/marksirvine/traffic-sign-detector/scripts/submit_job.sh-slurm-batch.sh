@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20000
 #SBATCH --time=00:02:00
-#SBATCH --partition=gpu
 
 module add libs/tensorflow/1.2
 srun python tsr.py

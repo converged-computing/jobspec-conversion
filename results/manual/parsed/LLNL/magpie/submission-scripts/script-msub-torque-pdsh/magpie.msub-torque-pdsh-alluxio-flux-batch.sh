@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-hobbit-2879
+#FLUX --job-name=frigid-butter-3906
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LLNL/magpie/submission-scripts/script-msub-torque-pdsh/magpie.msub-torque-pdsh-alluxio

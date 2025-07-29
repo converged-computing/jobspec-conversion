@@ -2,7 +2,7 @@
 #FLUX --job-name=controlnet-sd-xl-1.0-depth-zoe
 #FLUX -N=2
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

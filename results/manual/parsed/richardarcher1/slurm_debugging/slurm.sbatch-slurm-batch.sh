@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:3
 #SBATCH --mem=12GB
 #SBATCH --time=1-00:05:00
-#SBATCH --partition=gpu
 
 echo "SLURM_JOBID="$SLURM_JOBID
 echo " "

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16000
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 export XLA_PYTHON_CLIENT_PREALLOCATE='false'
 export XLA_PYTHON_CLIENT_MEM_FRACTION='.8'

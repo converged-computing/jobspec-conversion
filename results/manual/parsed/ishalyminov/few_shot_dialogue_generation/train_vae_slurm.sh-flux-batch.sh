@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-peas-9613
+#FLUX --job-name=goodbye-eagle-2956
 #FLUX --queue=amd-longq
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --mem=512G
 #SBATCH --time=12:00:00
-#SBATCH --partition=cpu
 
 export MASTER_ADDR='$addr'
 export MASTER_PORT='56781'

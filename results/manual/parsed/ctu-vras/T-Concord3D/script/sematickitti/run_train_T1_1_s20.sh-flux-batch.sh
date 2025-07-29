@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-omelette-8099
+#FLUX --job-name=muffled-cherry-6322
 #FLUX -c=6
 #FLUX --queue=amdgpulong
 #FLUX -t=259200

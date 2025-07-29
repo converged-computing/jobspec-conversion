@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000
 #SBATCH --time=06:00:00
-#SBATCH --partition=depablo-tc
 #SBATCH --qos=depablo-tc-sn
 #SBATCH --constraint=ntasks-per-node=1
 

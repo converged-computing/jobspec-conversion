@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=convergence
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=small-g
 #FLUX -t=1799
 #FLUX --urgency=16

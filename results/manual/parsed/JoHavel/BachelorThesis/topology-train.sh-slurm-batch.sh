@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
 #SBATCH --mem=12gb
-#SBATCH --partition=gpu-ms
 #SBATCH --array=0-7
 #SBATCH --exclude=dll-3gpu[1-5],dll-4gpu[1-4],dll-8gpu[1-6],dll-10gpu1
 

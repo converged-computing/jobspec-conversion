@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-gato-8516
+#FLUX --job-name=grated-fudge-8369
 #FLUX -c=8
 #FLUX --queue=seas_gpu
 #FLUX -t=360

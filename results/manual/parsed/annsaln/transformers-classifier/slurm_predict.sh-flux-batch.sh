@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-platanos-5433
+#FLUX --job-name=misunderstood-pot-8659
 #FLUX --queue=gpu
 #FLUX -t=5400
 #FLUX --urgency=16

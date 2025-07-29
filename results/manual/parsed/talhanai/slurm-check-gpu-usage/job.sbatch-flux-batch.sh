@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-bike-6491
+#FLUX --job-name=conspicuous-motorcycle-3810
 #FLUX -n=10
 #FLUX --queue=nvidia
 #FLUX -t=172800

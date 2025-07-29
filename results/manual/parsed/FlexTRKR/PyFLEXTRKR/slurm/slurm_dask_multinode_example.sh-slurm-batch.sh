@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=16,haswell
 
 export DASK_DISTRIBUTED__COMM__TIMEOUTS__CONNECT='360s'

@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=compute
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_NUM_THREADS='4'
 export ICON_THREADS='4'

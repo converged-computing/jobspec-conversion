@@ -2,7 +2,7 @@
 #FLUX --job-name=p016_node008
 #FLUX -N=8
 #FLUX -c=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard-g
 #FLUX -t=7200
 #FLUX --urgency=16

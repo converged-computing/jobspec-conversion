@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=adorable-onion-2960
+#FLUX --job-name=stinky-cattywampus-0461
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=28800
 #FLUX --urgency=16
 

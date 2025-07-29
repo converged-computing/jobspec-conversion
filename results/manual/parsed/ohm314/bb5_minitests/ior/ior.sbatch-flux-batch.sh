@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-itch-7167
-#FLUX: --exclusive
+#FLUX --job-name=stanky-ricecake-4957
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

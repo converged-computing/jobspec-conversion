@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=2GB
 #SBATCH --time=12:30:00
-#SBATCH --partition=batch
 
 module load Singularity
 module load CUDA/10.2.89

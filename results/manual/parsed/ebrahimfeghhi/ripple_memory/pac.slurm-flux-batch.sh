@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-peanut-butter-4555
+#FLUX --job-name=placid-plant-1619
 #FLUX --urgency=16
 
 echo "Running task number $SLURM_ARRAY_TASK_ID"

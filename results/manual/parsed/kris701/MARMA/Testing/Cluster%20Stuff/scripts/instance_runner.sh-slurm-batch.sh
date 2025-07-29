@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
-#SBATCH --partition=naples,dhabi,rome
 
 U="$1"
 SCRATCH_DIRECTORY=/scratch/${U}

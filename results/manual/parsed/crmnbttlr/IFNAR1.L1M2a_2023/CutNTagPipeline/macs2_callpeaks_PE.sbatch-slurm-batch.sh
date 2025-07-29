@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64G
 #SBATCH --time=12:00:00
-#SBATCH --partition=short
 
 module load python/2.7.14/MACS/2.1.1
 queries=($(ls ${inDir}/*.bam | xargs -n 1 basename))

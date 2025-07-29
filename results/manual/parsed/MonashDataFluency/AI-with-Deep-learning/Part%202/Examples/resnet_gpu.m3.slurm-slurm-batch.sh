@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:P4:1
 #SBATCH --mem-per-cpu=55G
-#SBATCH --partition=desktop
 #SBATCH --qos=desktopq
 
 export EPOCHS='5'

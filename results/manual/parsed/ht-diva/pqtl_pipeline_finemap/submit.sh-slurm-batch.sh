@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=30-00:00:00
-#SBATCH --partition=cpuq
 
 source ~/.bashrc
 module -s load singularity/3.8.5

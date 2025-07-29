@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-muffin-9504
+#FLUX --job-name=frigid-toaster-8424
 #FLUX -N=120
 #FLUX -n=11520
 #FLUX --queue=standard96

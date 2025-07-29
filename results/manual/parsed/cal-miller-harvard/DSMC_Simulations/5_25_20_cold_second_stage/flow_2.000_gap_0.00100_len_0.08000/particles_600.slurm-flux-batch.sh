@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-citrus-7424
+#FLUX --job-name=faux-onion-2333
 #FLUX -n=8
 #FLUX --queue=shared
 #FLUX -t=480

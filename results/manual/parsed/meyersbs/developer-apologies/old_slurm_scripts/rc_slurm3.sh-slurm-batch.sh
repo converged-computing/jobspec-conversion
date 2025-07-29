@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50g
 #SBATCH --time=01:00:00
-#SBATCH --partition=tier3
 
 echo "Loading environment"
 spack env activate mistakes-21091601

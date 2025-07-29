@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-citrus-4412
+#FLUX --job-name=joyous-cupcake-8119
 #FLUX -N=5
 #FLUX -n=9
 #FLUX --queue=fpga

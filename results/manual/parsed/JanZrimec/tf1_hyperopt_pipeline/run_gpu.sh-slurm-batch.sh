@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=vera
 
 source $HOME/loadenv_gpu.sh
 cd /c3se/users/zrimec/Vera/projects/DeepExpression/2019_3_46

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=1
 
 echo "Test executed on: $SLURM_JOB_NODELIST"

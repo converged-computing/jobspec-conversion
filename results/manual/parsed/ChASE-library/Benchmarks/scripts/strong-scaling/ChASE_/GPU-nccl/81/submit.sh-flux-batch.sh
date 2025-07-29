@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-destiny-2416
+#FLUX --job-name=phat-lemur-6410
 #FLUX -N=81
 #FLUX -n=324
 #FLUX -c=12

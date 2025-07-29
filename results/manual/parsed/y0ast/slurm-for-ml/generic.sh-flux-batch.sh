@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-earthworm-9101
+#FLUX --job-name=doopy-carrot-8285
 #FLUX -c=4
 #FLUX --urgency=16
 

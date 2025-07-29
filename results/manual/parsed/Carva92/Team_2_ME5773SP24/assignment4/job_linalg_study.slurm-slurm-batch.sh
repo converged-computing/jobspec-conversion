@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=80
 #SBATCH --time=00:05:00
-#SBATCH --partition=compute1
 
 echo "Starting job_linalg_study.slurm"
 module load anaconda3

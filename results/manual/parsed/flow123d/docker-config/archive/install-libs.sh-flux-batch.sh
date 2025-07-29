@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-butter-2880
+#FLUX --job-name=boopy-rabbit-7338
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/flow123d/docker-config/archive/install-libs.sh

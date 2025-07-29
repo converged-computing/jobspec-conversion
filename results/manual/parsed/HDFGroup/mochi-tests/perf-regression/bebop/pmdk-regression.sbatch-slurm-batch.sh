@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=bdwall
 #SBATCH --constraint=ntasks-per-node=1
 
 export HOME='$SANDBOX'

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4GB
 #SBATCH --time=00:06:00
-#SBATCH --partition=compute
 
 module load 2023r1
 module load openmpi

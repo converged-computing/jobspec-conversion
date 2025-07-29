@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=120
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=hpc
 
 export SINGULARITYENV_PATH='${PATH}'
 export SINGULARITYENV_LD_LIBRARY_PATH='${LD_LIBRARY_PATH}'

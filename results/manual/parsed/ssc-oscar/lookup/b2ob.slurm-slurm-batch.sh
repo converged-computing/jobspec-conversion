@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=23:59:59
-#SBATCH --partition=campus
 #SBATCH --constraint=ntasks-per-node=NTASKS
 
 module purge

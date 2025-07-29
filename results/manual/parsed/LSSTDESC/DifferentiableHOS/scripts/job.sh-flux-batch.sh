@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-train-1619
+#FLUX --job-name=joyous-parrot-9215
 #FLUX --gpus-per-task=1
 #FLUX -t=21600
 #FLUX --urgency=16

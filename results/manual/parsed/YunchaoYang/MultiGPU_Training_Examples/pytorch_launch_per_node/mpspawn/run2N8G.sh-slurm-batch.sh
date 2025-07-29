@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:8
 #SBATCH --mem=24gb
 #SBATCH --time=08:00:00
-#SBATCH --partition=hpg-ai
 #SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_ADDR='$(hostname)'

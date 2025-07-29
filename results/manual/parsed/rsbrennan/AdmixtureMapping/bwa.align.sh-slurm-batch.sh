@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=10000
-#SBATCH --partition=med
 #SBATCH --array=1-96
 
 lib=AC-1

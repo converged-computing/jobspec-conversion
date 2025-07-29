@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-nalgas-9465
+#FLUX --job-name=wobbly-rabbit-9220
 #FLUX -N=32
 #FLUX --queue=normal
 #FLUX -t=86400

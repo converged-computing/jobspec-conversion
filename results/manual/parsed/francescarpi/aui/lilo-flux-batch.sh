@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=milky-lamp-6476
+#FLUX --job-name=hanky-earthworm-8564
 #FLUX --urgency=16
 

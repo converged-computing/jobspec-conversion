@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=2
 #SBATCH --time=00:05:00
-#SBATCH --partition=q_student_gpu
 
 . vars_in.sh
 BINARY="../src/juliaset_gpu"

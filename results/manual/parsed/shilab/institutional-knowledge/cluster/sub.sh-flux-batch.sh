@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-kitty-8730
+#FLUX --job-name=reclusive-cinnamonbun-0361
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/shilab/institutional-knowledge/cluster/sub.sh

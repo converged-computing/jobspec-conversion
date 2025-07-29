@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=muffled-staircase-0409
+#FLUX --job-name=boopy-buttface-3843
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-avocado-5326
+#FLUX --job-name=faux-itch-9551
 #FLUX --queue=booster
 #FLUX -t=86400
 #FLUX --urgency=16

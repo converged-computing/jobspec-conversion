@@ -2,7 +2,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=nvgpu
 
 module use /user-environment/modules
 module --ignore-cache load intel-mkl

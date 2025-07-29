@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=512MB
 #SBATCH --time=00:05:00
-#SBATCH --partition=main
 #SBATCH --chdir=/home1/ttrojan/running-jobs-on-CARC-2024
 
 module purge

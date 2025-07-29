@@ -9,7 +9,6 @@
 #SBATCH --time=00:15:00
 #SBATCH --qos=gpu
 #SBATCH --constraint=gpu
-#SBATCH --licenses=SCRATCH
 
 export WORK='$SCRATCH/adse13_249/LY99'
 export OUT_DIR='${PWD}'

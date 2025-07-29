@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu_p2s
 #SBATCH --qos=qos_gpu-t4
 
 module purge # nettoyer les modules herites par defaut

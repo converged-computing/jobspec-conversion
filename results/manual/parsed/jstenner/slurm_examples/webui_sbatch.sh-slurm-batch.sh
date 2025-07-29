@@ -10,7 +10,6 @@
 #SBATCH --gres=a100:1
 #SBATCH --mem=19gb
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=art4659
 
 export 'PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:128'

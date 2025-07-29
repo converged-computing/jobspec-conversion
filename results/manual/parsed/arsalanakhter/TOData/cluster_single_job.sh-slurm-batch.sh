@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=32G
-#SBATCH --partition=short
 #SBATCH --constraint=E5-2695
 
 set -e

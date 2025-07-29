@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 
 module load Python/3.5.2-intel-2017.u2
 module load Tensorflow/1.4.0-intel-2017.u2-Python-3.5.2-gpu

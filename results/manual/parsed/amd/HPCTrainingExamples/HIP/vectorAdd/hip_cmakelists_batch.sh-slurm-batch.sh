@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=LocalQ
 
 module load rocm
 cd $HOME/HPCTrainingExamples/HIP/vectorAdd

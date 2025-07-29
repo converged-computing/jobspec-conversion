@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=64GB
-#SBATCH --partition=gpu
 #SBATCH --qos=medium
 
 module load singularity

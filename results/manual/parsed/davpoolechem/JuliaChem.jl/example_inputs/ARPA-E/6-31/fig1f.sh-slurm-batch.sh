@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=6
 
 export JULIA_NUM_THREADS='1'

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=24G
-#SBATCH --partition=intel
 #SBATCH --array=1-92
 
 hostname

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=19:59:00
-#SBATCH --partition=dlc-dsengupt
 
 cd $(ws_find lth_ws)
 source lth_env/bin/activate

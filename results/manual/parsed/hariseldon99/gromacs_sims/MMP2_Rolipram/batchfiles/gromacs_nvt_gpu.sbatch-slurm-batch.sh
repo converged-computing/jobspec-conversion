@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=GPU
 #SBATCH --qos=elevated
 
 export USE_OPENMP='true'

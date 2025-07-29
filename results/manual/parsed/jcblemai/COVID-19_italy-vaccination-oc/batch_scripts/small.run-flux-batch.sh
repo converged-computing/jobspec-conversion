@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-carrot-5537
+#FLUX --job-name=wobbly-fork-9733
 #FLUX -c=36
 #FLUX -t=259200
 #FLUX --urgency=16

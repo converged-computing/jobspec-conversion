@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-bike-0262
+#FLUX --job-name=fugly-punk-9023
 #FLUX -c=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43140
 #FLUX --urgency=16
 

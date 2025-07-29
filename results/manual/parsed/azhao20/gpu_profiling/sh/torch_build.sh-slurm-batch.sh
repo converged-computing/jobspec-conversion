@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:nvidia_a100-sxm4-80gb:2
 #SBATCH --mem=256000
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=seas_gpu
 
 export HOME='/n/holylabs/LABS/idreos_lab/Users/azhao'
 export CCACHE_DI2='${HOME}/ccache'

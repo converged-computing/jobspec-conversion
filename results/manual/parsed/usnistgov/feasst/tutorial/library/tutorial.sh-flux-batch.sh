@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-onion-4972
+#FLUX --job-name=persnickety-onion-3714
 #FLUX -t=86400
 #FLUX --urgency=16
 

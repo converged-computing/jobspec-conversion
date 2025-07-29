@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-banana-1098
+#FLUX --job-name=eccentric-citrus-9585
 #FLUX -n=24
 #FLUX --queue=intel,batch
 #FLUX -t=259200

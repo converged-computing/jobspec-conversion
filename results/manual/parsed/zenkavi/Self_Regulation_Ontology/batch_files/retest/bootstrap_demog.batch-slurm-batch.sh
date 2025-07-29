@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --time=04:00:00
-#SBATCH --partition=russpold,owners,normal
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=1-10%10
 

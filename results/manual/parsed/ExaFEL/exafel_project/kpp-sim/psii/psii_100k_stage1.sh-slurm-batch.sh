@@ -7,9 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=ntasks-per-node=32,gpu
-#SBATCH --licenses=SCRATCH
 
 export SCRATCH_FOLDER='$SCRATCH/psii/$SLURM_JOB_ID'
 export CCTBX_DEVICE_PER_NODE='1'

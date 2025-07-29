@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-pedo-0610
+#FLUX --job-name=outstanding-cherry-8135
 #FLUX -N=500
 #FLUX -n=32000
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cont
 #FLUX -t=1800
 #FLUX --urgency=16

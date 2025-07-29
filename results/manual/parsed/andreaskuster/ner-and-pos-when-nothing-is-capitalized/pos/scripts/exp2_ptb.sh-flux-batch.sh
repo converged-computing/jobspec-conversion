@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-kerfuffle-3003
+#FLUX --job-name=chunky-motorcycle-1678
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

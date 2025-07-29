@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=fugly-ricecake-3235
+#FLUX --job-name=stinky-spoon-0948
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=boost_usr_prod
 #FLUX -t=86400
 #FLUX --urgency=16

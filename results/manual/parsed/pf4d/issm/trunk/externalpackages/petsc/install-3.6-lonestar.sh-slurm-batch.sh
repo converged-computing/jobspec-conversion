@@ -4,7 +4,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:01:00
-#SBATCH --partition=normal
 
 set -eu
 rm -rf install petsc-3.6.3 src

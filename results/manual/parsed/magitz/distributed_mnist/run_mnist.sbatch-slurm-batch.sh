@@ -9,7 +9,6 @@
 #SBATCH --gres=a100:2
 #SBATCH --mem=64gb
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
 
 pwd; hostname; date           # Print some useful info
 module load tensorflow/2.7.0        # Be sure to load the tensorflow module

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-squidward-9061
+#FLUX --job-name=grated-earthworm-3873
 #FLUX --urgency=16
 
 OUTPUT=../output1

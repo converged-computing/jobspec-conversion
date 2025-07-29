@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=batch
 
 export PYTHONPATH='${PYTHONPATH}:/lustre/orion/ast181/proj-shared/rcaddy/JSI_Workshop_Talk_2023/python'
 export PATH='/ccs/home/rcaddy/miniconda_crusher/bin:$PATH'

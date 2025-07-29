@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=defq
 #SBATCH --chdir=/nobackup/proj/clsclmr/Ludwig_2019
 
 module load SAMtools/1.12-GCC-10.2.0;

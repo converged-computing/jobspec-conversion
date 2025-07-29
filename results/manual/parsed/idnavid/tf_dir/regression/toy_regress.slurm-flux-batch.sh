@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-fork-1909
+#FLUX --job-name=delicious-train-1500
 #FLUX --queue=gpu
 #FLUX -t=43200
 #FLUX --urgency=16

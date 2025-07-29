@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-nunchucks-6077
+#FLUX --job-name=reclusive-avocado-6145
 #FLUX --queue=normal_q
 #FLUX -t=3600
 #FLUX --urgency=16

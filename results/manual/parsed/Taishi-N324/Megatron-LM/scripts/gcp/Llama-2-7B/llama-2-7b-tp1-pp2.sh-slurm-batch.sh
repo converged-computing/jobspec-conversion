@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:50:00
-#SBATCH --partition=a3
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 
 export MASTER_ADDR='$(scontrol show hostname $SLURM_JOB_NODELIST | head -n1)'

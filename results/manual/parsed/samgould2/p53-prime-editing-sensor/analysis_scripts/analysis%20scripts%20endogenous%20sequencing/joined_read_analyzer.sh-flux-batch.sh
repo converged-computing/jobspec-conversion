@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-house-9042
+#FLUX --job-name=anxious-eagle-4732
 #FLUX --urgency=15
 
 module load miniconda3/v4

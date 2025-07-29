@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-caramel-7261
+#FLUX --job-name=hello-buttface-4994
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Flamefire/picongpu/src/picongpu/submit/joker-tud/fermi_vampir.tpl

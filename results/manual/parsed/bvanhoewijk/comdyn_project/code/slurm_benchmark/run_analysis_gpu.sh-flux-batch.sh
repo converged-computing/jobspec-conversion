@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=chunky-pancake-6682
+#FLUX --job-name=strawberry-omelette-6918
 #FLUX -c=18
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=600
 #FLUX --urgency=16

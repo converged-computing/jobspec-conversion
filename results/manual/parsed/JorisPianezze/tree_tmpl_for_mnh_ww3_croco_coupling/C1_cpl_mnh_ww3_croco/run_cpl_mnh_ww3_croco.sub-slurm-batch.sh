@@ -4,8 +4,8 @@
 #SBATCH --ntasks=938
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 
 export dir_exe_croco='/home/piaj/03_workdir/2J_devel_MNH_WW3_CROCO/models/croco/exe_IROISE_1core_CPLOA_CPLOW'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=scaling_daxpy_cpu
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=all
 #FLUX -t=1200
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=14:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=haswell
 
 export GPTUNEROOT='$PWD'

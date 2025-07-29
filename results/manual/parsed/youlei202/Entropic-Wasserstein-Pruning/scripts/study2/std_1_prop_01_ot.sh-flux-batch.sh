@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-bike-8388
+#FLUX --job-name=confused-avocado-5073
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/youlei202/Entropic-Wasserstein-Pruning/scripts/study2/std_1_prop_01_ot.sh

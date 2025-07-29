@@ -5,7 +5,6 @@
 #SBATCH --ntasks=68
 #SBATCH --cpus-per-task=4
 #SBATCH --time=08:00:00
-#SBATCH --partition=knl
 
 export SBATCH_PARTITION='knl'
 export SBATCH_ACCOUNT='$SLURM_JOB_ACCOUNT'

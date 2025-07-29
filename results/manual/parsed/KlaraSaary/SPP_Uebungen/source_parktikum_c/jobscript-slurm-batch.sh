@@ -9,8 +9,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=1800
 #SBATCH --time=00:03:00
-#SBATCH --partition=kurs1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo "This is Job $SLURM_JOB_ID"
 module load gcc

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=18
 #SBATCH --gres=1
 #SBATCH --time=03:20:00
-#SBATCH --partition=gpu
 
 module load 2022
 module load Python/3.10.4-GCCcore-11.3.0

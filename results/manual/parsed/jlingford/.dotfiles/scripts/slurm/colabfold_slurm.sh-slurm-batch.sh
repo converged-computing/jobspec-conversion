@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:A100:1
 #SBATCH --mem=200000
 #SBATCH --time=00:05:00
-#SBATCH --partition=bdi
 #SBATCH --qos=bdiq
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/home/jamesl/rp24/scratch_nobackup/jamesl/ColabFold

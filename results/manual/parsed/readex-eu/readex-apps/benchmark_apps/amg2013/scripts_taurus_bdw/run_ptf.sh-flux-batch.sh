@@ -2,7 +2,7 @@
 #FLUX --job-name=amg2013_ptf
 #FLUX -N=5
 #FLUX -c=14
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=broadwell
 #FLUX -t=86400
 #FLUX --urgency=16

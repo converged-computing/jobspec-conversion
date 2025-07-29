@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-despacito-1028
+#FLUX --job-name=creamy-buttface-7309
 #FLUX -c=16
 #FLUX --urgency=16
 

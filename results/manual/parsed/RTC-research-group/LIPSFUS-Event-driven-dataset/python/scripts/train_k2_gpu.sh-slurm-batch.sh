@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=50G
 #SBATCH --time=10:00:00
-#SBATCH --partition=k2-gpu
 
 module add libs/nvidia-cuda/11.0.3/bin
 module add apps/anaconda3/5.2.0/bin

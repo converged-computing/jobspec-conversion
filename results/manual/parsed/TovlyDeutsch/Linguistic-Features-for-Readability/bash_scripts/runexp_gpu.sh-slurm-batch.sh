@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=10000
 #SBATCH --time=00:08:00
-#SBATCH --partition=gpu_requeue
 
 echo ${RUN_CONFIG}
 module load Anaconda3/5.0.1-fasrc02

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32000M
 #SBATCH --time=20-20:00:00
-#SBATCH --partition=gpu
 
 export PYTHONPATH='$PYTHONPATH:/users/40175159/gridware/share/python/3.6.4/lib/python3.6/site-packages'
 

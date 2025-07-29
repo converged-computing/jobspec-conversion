@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-cinnamonbun-9955
+#FLUX --job-name=goodbye-house-0207
 #FLUX -c=10
 #FLUX --gpus-per-task=1
 #FLUX --queue=learnlab

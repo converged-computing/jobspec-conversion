@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=phat-arm-8451
+#FLUX --job-name=reclusive-carrot-0179
 #FLUX --urgency=16
 

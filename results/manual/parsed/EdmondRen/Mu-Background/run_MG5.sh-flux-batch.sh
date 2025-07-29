@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-poo-7803
+#FLUX --job-name=goodbye-buttface-9168
 #FLUX -t=21600
 #FLUX --urgency=16
 

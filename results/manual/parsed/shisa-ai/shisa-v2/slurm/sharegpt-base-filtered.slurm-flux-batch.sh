@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=sharegpt-base-filtered
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=dev
 #FLUX --urgency=16
 

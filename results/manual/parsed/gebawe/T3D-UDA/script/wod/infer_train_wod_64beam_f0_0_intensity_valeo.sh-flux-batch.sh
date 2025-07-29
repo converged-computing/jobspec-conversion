@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-gato-6886
+#FLUX --job-name=crunchy-mango-3230
 #FLUX -c=24
 #FLUX --queue=amdgpufast
 #FLUX -t=14400

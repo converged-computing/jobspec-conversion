@@ -6,7 +6,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=mem192
 #SBATCH --constraint=ntasks-per-node=12
 
 module load Python

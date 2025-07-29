@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-arm-3077
+#FLUX --job-name=scruptious-mango-7954
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

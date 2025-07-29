@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=13:00:00
-#SBATCH --partition=snb
 #SBATCH --chdir=/scratch/pr63so/ga25cux2/
 
 export OMP_NUM_THREADS='16'

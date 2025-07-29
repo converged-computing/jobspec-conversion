@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=bdwall
 #SBATCH --constraint=ntasks-per-node=36
 
 export NEKRS_HOME='$HOME_DIRECTORY_SYM_LINK/cardinal/install'

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=230GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=normal_q
 
 export NTHREAD='16'
 export JULIAENV='/home/arnab22/tpsci_bimetallic'

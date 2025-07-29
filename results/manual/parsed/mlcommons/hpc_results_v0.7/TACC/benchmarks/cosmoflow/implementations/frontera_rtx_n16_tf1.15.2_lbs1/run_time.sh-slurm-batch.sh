@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=15:00:00
-#SBATCH --partition=rtx
 #SBATCH --constraint=ntasks-per-node=4
 
 export CUDA_HOME='$TACC_CUDA_DIR'

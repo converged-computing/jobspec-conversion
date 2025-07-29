@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-diablo-8554
+#FLUX --job-name=carnivorous-frito-3998
 #FLUX --queue=jic-short,RG-Cristobal-Uauy
 #FLUX --urgency=16
 

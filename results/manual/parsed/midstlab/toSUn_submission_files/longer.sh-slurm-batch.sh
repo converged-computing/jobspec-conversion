@@ -8,7 +8,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=15-00:00:00
-#SBATCH --partition=longer_mdbf
 #SBATCH --qos=longer_mdbf
 
 INPUT_FILE="dhf-l28r-i94l.conf"

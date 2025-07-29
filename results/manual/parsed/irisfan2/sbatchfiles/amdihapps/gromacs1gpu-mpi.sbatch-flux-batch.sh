@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-earthworm-2390
+#FLUX --job-name=chunky-destiny-0168
 #FLUX -c=8
 #FLUX --urgency=16
 

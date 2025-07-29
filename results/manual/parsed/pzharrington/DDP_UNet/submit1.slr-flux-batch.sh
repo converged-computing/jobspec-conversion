@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=single
 #FLUX -c=80
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

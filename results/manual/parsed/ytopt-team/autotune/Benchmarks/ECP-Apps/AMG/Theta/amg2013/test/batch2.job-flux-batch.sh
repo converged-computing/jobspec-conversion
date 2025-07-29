@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-malarkey-5417
+#FLUX --job-name=bumfuzzled-platanos-9729
 #FLUX --urgency=16
 

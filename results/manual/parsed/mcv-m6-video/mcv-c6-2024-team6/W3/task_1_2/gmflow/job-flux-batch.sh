@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-eagle-6642
+#FLUX --job-name=purple-poo-9727
 #FLUX -n=4
 #FLUX --queue=mlow
 #FLUX --urgency=16

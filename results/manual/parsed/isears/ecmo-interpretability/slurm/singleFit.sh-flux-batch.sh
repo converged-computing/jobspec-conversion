@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-lamp-6665
+#FLUX --job-name=boopy-citrus-0759
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX -t=7200

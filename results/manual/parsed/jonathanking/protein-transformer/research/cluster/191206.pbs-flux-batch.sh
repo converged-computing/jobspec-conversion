@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-buttface-4808
+#FLUX --job-name=dirty-lamp-6004
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jonathanking/protein-transformer/research/cluster/191206.pbs

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=96000m
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=1
 
 eval "$(conda shell.bash hook)"

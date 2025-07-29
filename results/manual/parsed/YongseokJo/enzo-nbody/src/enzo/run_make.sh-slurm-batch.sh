@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
 
 pwd; hostname; date
 module add cuda

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=80
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=teaching
 
   module purge
   module load nvidia/sdk/21.3

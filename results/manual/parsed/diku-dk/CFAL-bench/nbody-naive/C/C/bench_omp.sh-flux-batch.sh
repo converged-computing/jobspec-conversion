@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-poodle-5343
+#FLUX --job-name=butterscotch-snack-6809
 #FLUX -c=32
 #FLUX --queue=csmpi_fpga_long
 #FLUX -t=14400

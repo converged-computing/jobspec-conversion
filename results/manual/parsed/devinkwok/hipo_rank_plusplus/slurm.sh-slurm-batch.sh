@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=24G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=unkillable
 
 SRC_DIR=$HOME/proj/hiporank_plusplus
 module load python/3.7

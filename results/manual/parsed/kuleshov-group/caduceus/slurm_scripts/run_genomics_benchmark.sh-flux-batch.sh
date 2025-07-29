@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-mango-0989
+#FLUX --job-name=reclusive-platanos-8696
 #FLUX -c=2
 #FLUX -t=345600
 #FLUX --urgency=16

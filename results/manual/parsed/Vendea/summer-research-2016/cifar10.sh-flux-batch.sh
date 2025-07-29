@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-fork-5208
+#FLUX --job-name=hello-lemon-1904
 #FLUX -n=20
 #FLUX -t=600
 #FLUX --urgency=16

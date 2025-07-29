@@ -3,7 +3,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:25:00
-#SBATCH --partition=amd_256
 
 procname=./build/test/allreduce
 flag=""

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:59:00
-#SBATCH --partition=pascal
 
 export OMP_NUM_THREADS='1'
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=slbBurn
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=scavenger
 #FLUX -t=259200
 #FLUX --urgency=16

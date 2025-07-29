@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=24gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=nodes
 #SBATCH --array=1-1060
 
 export CC='$GCC'

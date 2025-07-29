@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-bits-0527
+#FLUX --job-name=creamy-cupcake-5717
 #FLUX --queue=ci
 #FLUX -t=3600
 #FLUX --urgency=16

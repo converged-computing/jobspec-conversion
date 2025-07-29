@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=22G
 #SBATCH --time=3-00:01:30
-#SBATCH --partition=sbel_cmg
 #SBATCH --qos=skunkworks_owner
 
 module load cuda/10.0

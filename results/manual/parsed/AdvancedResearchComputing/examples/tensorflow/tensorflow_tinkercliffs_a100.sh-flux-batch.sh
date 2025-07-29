@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-earthworm-9315
+#FLUX --job-name=joyous-omelette-9455
 #FLUX --queue=a100_dev_q
 #FLUX -t=600
 #FLUX --urgency=16

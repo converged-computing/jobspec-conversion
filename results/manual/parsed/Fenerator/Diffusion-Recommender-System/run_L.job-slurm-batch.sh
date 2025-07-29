@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=64000M
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu_titanrtx_shared_course
 
 module load 2021
 module load Anaconda3/2021.05

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=placid-cinnamonbun-8858
-#FLUX: --exclusive
+#FLUX --job-name=moolicious-squidward-1446
+#FLUX --exclusive
 #FLUX --queue=genoa
 #FLUX -t=43200
 #FLUX --urgency=16

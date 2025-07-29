@@ -2,7 +2,7 @@
 #FLUX --job-name=DFFT
 #FLUX -N=3
 #FLUX -n=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=astro-cpu
 #FLUX -t=0
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-dog-6427
+#FLUX --job-name=fuzzy-parsnip-3743
 #FLUX -n=2
 #FLUX -c=4
 #FLUX --queue=itc_gpu

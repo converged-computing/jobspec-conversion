@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:03:00
-#SBATCH --partition=cclake
 #SBATCH --constraint=ntasks-per-node=1
 
 source activate flower-slurm

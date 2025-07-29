@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-lettuce-1111
+#FLUX --job-name=stanky-house-9902
 #FLUX -n=4
 #FLUX -t=345600
 #FLUX --urgency=16

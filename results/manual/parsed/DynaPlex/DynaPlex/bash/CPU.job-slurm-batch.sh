@@ -4,8 +4,7 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --mem=160G
 #SBATCH --time=10:00:00
-#SBATCH --partition=genoa
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'

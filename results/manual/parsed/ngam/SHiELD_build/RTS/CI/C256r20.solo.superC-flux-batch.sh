@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-carrot-2964
+#FLUX --job-name=bloated-bits-7812
 #FLUX -n=192
 #FLUX --urgency=16
 

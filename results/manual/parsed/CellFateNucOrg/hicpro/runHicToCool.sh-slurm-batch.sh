@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=8G
 #SBATCH --time=05:00:00
-#SBATCH --partition=all
 #SBATCH --array=1
 
 export LANGUAGE='en_US:en'

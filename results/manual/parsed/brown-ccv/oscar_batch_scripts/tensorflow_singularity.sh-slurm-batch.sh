@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITY_BINDPATH='/gpfs/scratch,/gpfs/data'

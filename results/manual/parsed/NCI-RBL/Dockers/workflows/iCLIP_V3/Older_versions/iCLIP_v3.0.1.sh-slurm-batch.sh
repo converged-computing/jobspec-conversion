@@ -6,7 +6,6 @@
 #SBATCH --gres=lscratch:24
 #SBATCH --mem-per-cpu=350g
 #SBATCH --time=14:00:00
-#SBATCH --partition=ccr,norm
 
 export NXF_SINGULARITY_CACHEDIR='$PWD/.singularity'
 export SINGULARITY_CACHEDIR='$PWD/.singularity'

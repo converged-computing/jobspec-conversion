@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-gato-1726
+#FLUX --job-name=reclusive-train-9048
 #FLUX --urgency=16
 
 prefix=${PWD##*/}

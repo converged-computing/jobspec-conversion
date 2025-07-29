@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=10000
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=cardio
 #SBATCH --qos=cardio
 #SBATCH --array=1-72
 

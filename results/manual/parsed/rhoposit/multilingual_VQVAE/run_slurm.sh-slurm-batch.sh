@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=14000
 #SBATCH --time=02:00:00
-#SBATCH --partition=ILCC_GPU
 
 CUDA_VISIBLE_DEVICES=0,1,2,3
 hostname

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=shards
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=82800
 #FLUX --urgency=16
 

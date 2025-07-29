@@ -7,7 +7,6 @@
 #SBATCH --gres=a100:8
 #SBATCH --mem-per-cpu=1000GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=hpg-ai
 
 ml load singularity/3.7.4 cuda/11.4.3
 CONTAINER=/apps/nvidia/containers/modulus/modulus_v22.03.sif

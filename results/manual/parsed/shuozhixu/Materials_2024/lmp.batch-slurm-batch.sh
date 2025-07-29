@@ -8,7 +8,6 @@
 #SBATCH --ntasks=32
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=cm3atou
 
 cd ${SLURM_SUBMIT_DIR}
 rm -f dump.* shear.*

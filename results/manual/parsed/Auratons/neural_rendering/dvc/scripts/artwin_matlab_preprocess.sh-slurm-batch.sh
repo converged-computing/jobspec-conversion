@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=compute
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

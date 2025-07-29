@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=mpi-build
 #FLUX -n=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=21600
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=4000
 #SBATCH --time=00:08:00
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=1
 
 export NUM_GPUS='$( echo $CUDA_VISIBLE_DEVICES | awk -F ',' '{print NF}' )'

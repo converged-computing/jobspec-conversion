@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=8G
 #SBATCH --time=00:01:00
-#SBATCH --partition=cuda
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/home/mla_group_13/FaceFilter/FaceAging-by-cycleGAN
 

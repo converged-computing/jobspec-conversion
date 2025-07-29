@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-rabbit-4402
+#FLUX --job-name=spicy-fork-2917
 #FLUX -c=5
 #FLUX --queue=amp20
 #FLUX --urgency=16

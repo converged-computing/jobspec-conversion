@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=3-00:15:00
-#SBATCH --partition=normal
 
 export NXF_WORK='/mnt/gpfs3_amd/condo/mteb223/mteb223/Samtools_sort_optimization_test/SORT_COMPARISON/work'
 

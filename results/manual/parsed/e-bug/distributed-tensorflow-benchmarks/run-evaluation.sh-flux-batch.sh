@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=mlcomm
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX -t=18000
 #FLUX --urgency=16

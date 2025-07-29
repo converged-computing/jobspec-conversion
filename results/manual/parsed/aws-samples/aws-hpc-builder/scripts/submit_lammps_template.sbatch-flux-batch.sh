@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-bicycle-7098
+#FLUX --job-name=crusty-latke-9950
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c6ipg
 #FLUX --urgency=16
 

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpuq-dev
 #SBATCH --constraint=ntasks-per-node=1
 
 export ALLINEA_CONFIG_DIR='$HOME/.allinea_topaz'

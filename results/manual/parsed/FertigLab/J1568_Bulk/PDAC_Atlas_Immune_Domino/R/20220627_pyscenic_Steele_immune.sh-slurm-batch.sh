@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=160G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=defq
 #SBATCH --constraint=ntasks-per-node=10
 
 RESULT_DIR="results/20220627_Steele_immune_NA_excluded_hg38"

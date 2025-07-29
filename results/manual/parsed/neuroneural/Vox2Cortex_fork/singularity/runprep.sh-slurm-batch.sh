@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:V100:1
 #SBATCH --mem=200g
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=qTRDGPUH
 #SBATCH --exclude=arctrdgn002,arctrddgx001
 
 sleep 5s

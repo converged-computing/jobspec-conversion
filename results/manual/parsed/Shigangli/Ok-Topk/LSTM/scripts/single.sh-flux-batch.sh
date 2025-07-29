@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-caramel-9090
+#FLUX --job-name=crunchy-underoos-6526
 #FLUX -c=12
 #FLUX --queue=debug
 #FLUX -t=1800

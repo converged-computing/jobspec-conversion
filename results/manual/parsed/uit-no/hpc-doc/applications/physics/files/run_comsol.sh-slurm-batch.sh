@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=7500MB
 #SBATCH --time=01:00:00
-#SBATCH --partition=highmem
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 inp=$1  # First input argument: Name of input without extention
 std=$2  # Second input argument: Type of study

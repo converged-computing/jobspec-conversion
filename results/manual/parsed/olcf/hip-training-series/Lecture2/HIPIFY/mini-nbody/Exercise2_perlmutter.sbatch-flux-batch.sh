@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-lamp-7569
+#FLUX --job-name=delicious-peas-4473
 #FLUX -c=32
 #FLUX --queue=shared
 #FLUX -t=1800

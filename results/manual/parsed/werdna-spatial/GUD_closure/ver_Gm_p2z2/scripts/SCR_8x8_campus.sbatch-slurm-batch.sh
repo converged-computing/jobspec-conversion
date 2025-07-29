@@ -7,9 +7,8 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=campus
 #SBATCH --qos=campus
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=32
 #SBATCH --exclude=clr0812,clr0813,ilp1119,ilp1120
 

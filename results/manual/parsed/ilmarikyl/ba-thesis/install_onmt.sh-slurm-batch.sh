@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:p100:1
 #SBATCH --mem=1g
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 module purge
 module load python-env/intelpython3.6-2018.3 gcc/5.4.0 cuda/9.0 cudnn/7.1-cuda9

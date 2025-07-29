@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:10:00
-#SBATCH --partition=debug
 #SBATCH --constraint=gpu,ntasks-per-node=4
 
 export MASTER_ADDR='$(hostname)'

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10GB
 #SBATCH --time=02:00:00
-#SBATCH --partition=long
 #SBATCH --array=1-100%10
 #SBATCH --exclude=leto34,eos5,kepler2,leto33
 

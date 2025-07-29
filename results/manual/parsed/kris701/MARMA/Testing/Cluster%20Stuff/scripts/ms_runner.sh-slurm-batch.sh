@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=00:30:00
-#SBATCH --partition=naples
 
 FAST_DOWNWARD="$1"
 META_SOLVER="$2"

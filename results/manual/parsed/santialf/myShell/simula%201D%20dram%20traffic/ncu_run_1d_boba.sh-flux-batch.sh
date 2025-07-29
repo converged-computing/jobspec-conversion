@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-knife-5938
+#FLUX --job-name=boopy-pastry-0005
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

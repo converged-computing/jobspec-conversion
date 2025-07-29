@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=00:20:00
-#SBATCH --partition=mpi
 #SBATCH --constraint=ntasks-per-node=32
 
 export LAMMPS_BIN='/path/to/lammps/build/bin'

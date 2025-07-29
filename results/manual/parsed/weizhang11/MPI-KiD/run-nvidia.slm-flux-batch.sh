@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-cattywampus-5563
+#FLUX --job-name=bloated-toaster-4710
 #FLUX --queue=ampere
 #FLUX -t=2400
 #FLUX --urgency=16

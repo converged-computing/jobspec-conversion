@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-leader-4407
+#FLUX --job-name=outstanding-chip-8773
 #FLUX -c=32
 #FLUX --queue=gpuq
 #FLUX -t=14400

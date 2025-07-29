@@ -4,8 +4,7 @@
 #SBATCH --nodes=30
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
-#SBATCH --partition=g40423
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 
 export MASTER_ADDR='`hostname`'

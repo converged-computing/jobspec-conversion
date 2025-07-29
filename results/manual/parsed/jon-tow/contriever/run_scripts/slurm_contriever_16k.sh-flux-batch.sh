@@ -2,7 +2,7 @@
 #FLUX --job-name=contriever
 #FLUX -N=4
 #FLUX -c=6
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=259200
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=debug-cpu
 #SBATCH --chdir=/home/scottgbarnes/Cooperative-Search-Gym
 
 module load anaconda

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-destiny-5290
+#FLUX --job-name=reclusive-fudge-8891
 #FLUX --queue=medium
 #FLUX -t=28800
 #FLUX --urgency=16

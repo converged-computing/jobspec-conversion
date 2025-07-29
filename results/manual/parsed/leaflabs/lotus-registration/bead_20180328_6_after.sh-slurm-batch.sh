@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=om_all_nodes
 
 export TZ='America/New_York'
 

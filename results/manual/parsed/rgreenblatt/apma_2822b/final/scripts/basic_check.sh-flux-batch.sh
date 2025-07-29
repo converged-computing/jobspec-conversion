@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-hope-3117
+#FLUX --job-name=blue-squidward-3721
 #FLUX -n=2
 #FLUX -c=4
 #FLUX --queue=gpu

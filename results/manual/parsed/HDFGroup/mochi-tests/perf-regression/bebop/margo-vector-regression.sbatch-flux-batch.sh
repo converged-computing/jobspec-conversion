@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-hippo-4128
+#FLUX --job-name=joyous-cherry-5967
 #FLUX -N=2
 #FLUX --queue=bdwall
 #FLUX -t=900

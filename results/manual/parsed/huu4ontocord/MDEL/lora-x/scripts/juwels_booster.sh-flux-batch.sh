@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-milkshake-3363
+#FLUX --job-name=angry-arm-2721
 #FLUX -c=8
 #FLUX --queue=develbooster
 #FLUX --urgency=16

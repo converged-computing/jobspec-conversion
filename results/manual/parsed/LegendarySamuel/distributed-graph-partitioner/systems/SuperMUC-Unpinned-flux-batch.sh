@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-staircase-7977
+#FLUX --job-name=gloopy-toaster-4332
 #FLUX --urgency=16
 
 . "$script_pwd/../systems/generic"

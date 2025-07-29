@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=00:10:00
-#SBATCH --partition=normal
 
 source $HOME/retina/configs/config.sh
 output_dir=$scratch/retina/GWAS/output/ExtractCovariatePhenotypes

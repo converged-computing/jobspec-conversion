@@ -3,8 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=sequana_dockvs
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo $SLURM_JOB_NODELIST
 nodeset -e $SLURM_JOB_NODELIST

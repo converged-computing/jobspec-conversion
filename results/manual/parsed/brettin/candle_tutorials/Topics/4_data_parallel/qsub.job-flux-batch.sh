@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-hobbit-9964
+#FLUX --job-name=salted-bike-0810
 #FLUX --urgency=16
 

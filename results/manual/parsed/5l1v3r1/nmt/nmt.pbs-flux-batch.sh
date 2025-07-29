@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-puppy-9058
+#FLUX --job-name=buttery-hippo-4637
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/5l1v3r1/nmt/nmt.pbs

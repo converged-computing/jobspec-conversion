@@ -4,7 +4,7 @@
 #SBATCH --nodes=9
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=90
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export RAY_GRAFANA_HOST='172.16.18.254:3000'
 export RAY_PROMETHEUS_HOST='172.16.18.254:9090'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=delicious-latke-5252
-#FLUX: --exclusive
+#FLUX --job-name=blank-dog-1976
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export MAX_STEPS='100'

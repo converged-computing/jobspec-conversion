@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=rfm_LaghosTest0_branson_0_82__arm___nodes___1___mpi___64___omp___1__job
 #FLUX -n=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c6gn
 #FLUX --urgency=16
 

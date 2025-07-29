@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:2
 #SBATCH --time=03:00:00
-#SBATCH --partition=bii-gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 NAME=cloudmesh-rivanna
 RUN_DIR=$PROJECT/osmi

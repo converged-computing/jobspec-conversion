@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-nunchucks-4047
+#FLUX --job-name=dinosaur-arm-1169
 #FLUX -N=2
 #FLUX -n=60
 #FLUX --queue=huce_intel

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-fork-9976
-#FLUX: --exclusive
+#FLUX --job-name=tart-buttface-7733
+#FLUX --exclusive
 #FLUX --urgency=16
 
 readonly datadir="/datasets/imagenet/train-val-tfrecord"

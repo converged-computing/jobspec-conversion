@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-carrot-4869
+#FLUX --job-name=goodbye-onion-6828
 #FLUX --queue=nvidia
 #FLUX -t=144000
 #FLUX --urgency=16

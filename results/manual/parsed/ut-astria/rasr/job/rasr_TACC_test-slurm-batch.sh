@@ -9,6 +9,5 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:30:00
-#SBATCH --partition=normal
 
 bash /work/07965/clans/ls6/Spring_RASR/run/rasr_activator_test         # Do not use ibrun or any other MPI launcher

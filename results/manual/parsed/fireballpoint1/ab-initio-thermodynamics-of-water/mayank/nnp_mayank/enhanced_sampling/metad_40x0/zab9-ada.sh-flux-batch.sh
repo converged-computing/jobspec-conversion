@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-cat-2792
+#FLUX --job-name=reclusive-cattywampus-4832
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=priority
 #SBATCH --qos=pol02003sky
 #SBATCH --constraint=skylake
 

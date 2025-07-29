@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=70
 #SBATCH --mem=300gb
 #SBATCH --time=8-08:00:00
-#SBATCH --partition=standard
 #SBATCH --qos=user_qos_sprinkjm
 
 pwd; hostname; date

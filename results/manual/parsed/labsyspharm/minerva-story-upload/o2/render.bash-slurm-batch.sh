@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1g
 #SBATCH --time=00:30:00
-#SBATCH --partition=short
 #SBATCH --array=0-14
 
 module load conda3

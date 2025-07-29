@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gpus-per-task=4
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=a100-80gb,ib
 
 export TUNE_RESULT_DIR='/mnt/ceph/users/ewulff/ray_results/tune_result_dir'

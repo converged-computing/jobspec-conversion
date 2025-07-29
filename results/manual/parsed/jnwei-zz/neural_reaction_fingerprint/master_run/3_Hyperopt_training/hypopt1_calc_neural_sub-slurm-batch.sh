@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=aspuru-guzik
 
 scfolder="/scratch/$(date +%Y%m%d%H%M)_neural_bal_200each_1/"
 curr=$(pwd)

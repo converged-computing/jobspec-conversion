@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=run
 #FLUX -N=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute
 #FLUX --urgency=16
 

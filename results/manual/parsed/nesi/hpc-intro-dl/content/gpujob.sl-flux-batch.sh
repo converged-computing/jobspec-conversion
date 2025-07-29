@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-citrus-5353
+#FLUX --job-name=hanky-onion-4854
 #FLUX -c=2
 #FLUX --queue=hgx
 #FLUX -t=600

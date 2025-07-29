@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-blackbean-9794
+#FLUX --job-name=red-lemon-4112
 #FLUX --queue=standard
 #FLUX -t=3600
 #FLUX --urgency=16

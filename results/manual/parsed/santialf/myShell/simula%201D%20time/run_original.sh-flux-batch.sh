@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-knife-7041
+#FLUX --job-name=muffled-frito-9680
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

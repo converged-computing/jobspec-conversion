@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-signal-8160
+#FLUX --job-name=astute-sundae-8553
 #FLUX --queue=sbel
 #FLUX -t=864000
 #FLUX --urgency=16

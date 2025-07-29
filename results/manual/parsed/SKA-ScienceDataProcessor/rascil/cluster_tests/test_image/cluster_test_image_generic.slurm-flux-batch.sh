@@ -2,7 +2,7 @@
 #FLUX --job-name=CLUSTER_TEST
 #FLUX -N=8
 #FLUX -n=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpc
 #FLUX -t=3600
 #FLUX --urgency=16

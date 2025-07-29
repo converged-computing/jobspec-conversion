@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=249208M
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=128
 
 module load cpu/0.17.3b

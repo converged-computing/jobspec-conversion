@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-animal-5555
+#FLUX --job-name=confused-arm-8291
 #FLUX -n=32
 #FLUX --queue=defq
 #FLUX -t=87840

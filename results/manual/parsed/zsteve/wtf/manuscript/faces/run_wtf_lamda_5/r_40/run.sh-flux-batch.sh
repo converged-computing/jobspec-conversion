@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-plant-1724
+#FLUX --job-name=persnickety-milkshake-2274
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/zsteve/wtf/manuscript/faces/run_wtf_lamda_5/r_40/run.sh

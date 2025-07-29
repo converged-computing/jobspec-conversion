@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8gb
 #SBATCH --time=00:30:00
-#SBATCH --partition=thrust2
 #SBATCH --array=0-3
 
 find . -name \*CPU* -type f -delete

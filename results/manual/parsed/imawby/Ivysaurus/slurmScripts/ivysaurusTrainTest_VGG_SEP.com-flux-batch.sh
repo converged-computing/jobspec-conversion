@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-malarkey-9201
+#FLUX --job-name=lovely-car-9253
 #FLUX -c=5
 #FLUX --queue=astro
 #FLUX -t=21600

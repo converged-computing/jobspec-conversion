@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-banana-9341
+#FLUX --job-name=moolicious-leader-8794
 #FLUX --queue=q_student_gpu
 #FLUX -t=300
 #FLUX --urgency=16

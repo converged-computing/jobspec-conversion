@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-egg-3071
+#FLUX --job-name=faux-lemon-8045
 #FLUX -N=3
 #FLUX -t=10800
 #FLUX --urgency=16

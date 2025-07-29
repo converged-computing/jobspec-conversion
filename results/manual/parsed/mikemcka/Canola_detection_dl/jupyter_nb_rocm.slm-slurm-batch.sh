@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITYENV_ROCM_HOME='$ROCM_HOME'

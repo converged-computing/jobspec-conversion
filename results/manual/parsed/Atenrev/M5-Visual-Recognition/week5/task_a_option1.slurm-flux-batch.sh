@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-destiny-1157
+#FLUX --job-name=hairy-pot-9475
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

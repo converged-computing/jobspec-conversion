@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-toaster-8706
+#FLUX --job-name=stinky-ricecake-9053
 #FLUX --urgency=16
 
 source activate torch

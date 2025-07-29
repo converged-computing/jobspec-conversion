@@ -6,6 +6,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=8000
-#SBATCH --partition=mlow,mlow
 
 python retrieval2.py --text-model fasttext --model-name text2img_fasttext.pth

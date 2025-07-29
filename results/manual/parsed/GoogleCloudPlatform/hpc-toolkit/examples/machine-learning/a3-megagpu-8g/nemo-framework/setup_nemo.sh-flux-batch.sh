@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=anxious-peanut-0916
-#FLUX: --exclusive
+#FLUX --job-name=tart-lemon-4461
+#FLUX --exclusive
 #FLUX --queue=a3mega
 #FLUX --urgency=16
 

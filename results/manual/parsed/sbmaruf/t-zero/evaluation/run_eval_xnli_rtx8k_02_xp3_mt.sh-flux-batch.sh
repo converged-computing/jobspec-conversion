@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-chip-8951
+#FLUX --job-name=hello-platanos-3588
 #FLUX --queue=PA100q
 #FLUX --urgency=16
 

@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --time=2-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --array=1-12
 
 set -o pipefail -e

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=110000
 #SBATCH --time=00:00:10
-#SBATCH --partition=huce_intel
 
 log="gchp.log"
 if [[ -e gcchem_internal_checkpoint ]]; then

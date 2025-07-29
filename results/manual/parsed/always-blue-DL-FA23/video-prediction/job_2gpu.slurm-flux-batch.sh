@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=red-leopard-9264
+#FLUX --job-name=pusheena-citrus-3838
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=n1s16-v100-2
 #FLUX -t=43200
 #FLUX --urgency=16

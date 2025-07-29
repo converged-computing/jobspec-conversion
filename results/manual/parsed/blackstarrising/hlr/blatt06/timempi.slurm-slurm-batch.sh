@@ -3,7 +3,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=west
 
 . /etc/profile.d/modules.sh
 . /etc/profile.d/wr-spack.sh

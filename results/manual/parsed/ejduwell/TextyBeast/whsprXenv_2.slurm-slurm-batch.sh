@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10gb
 #SBATCH --time=02:50:00
-#SBATCH --partition=gpu
 
 module load python/3.9.1
 module load ffmpeg

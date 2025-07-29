@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-earthworm-5932
+#FLUX --job-name=arid-leg-5488
 #FLUX -N=2
 #FLUX -t=60
 #FLUX --urgency=16

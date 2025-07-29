@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=00:10:00
-#SBATCH --partition=a100
 #SBATCH --qos=30min
 
 ml load CUDA/11.7.0

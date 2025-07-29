@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu
 #SBATCH --mem=16g
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu-short
 
 export PATH='/fs/clip-amr/anaconda2/bin:$PATH'

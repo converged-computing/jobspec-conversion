@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-onion-9497
+#FLUX --job-name=creamy-hope-8519
 #FLUX -N=2
 #FLUX -n=13
 #FLUX --queue=fat_soil_shared

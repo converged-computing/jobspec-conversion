@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=04:00:00
-#SBATCH --partition=scavenge
 
 module load MATLAB
 netid="$USER"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=purple-house-2251
-#FLUX: --exclusive
+#FLUX --job-name=hanky-lettuce-2454
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export SHARE_RERUNS='${SHARE_RERUNS:=0}'

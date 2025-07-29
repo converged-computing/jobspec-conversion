@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64gb
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu,gpu_test
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/n/home02/emyang/collective_benchmark
 

@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --time=4-00:12:00
-#SBATCH --partition=main
 #SBATCH --constraint=ntasks-per-node=1
 
 export MAXJOBSN='24  # must equal value of "--cpus-per-task'

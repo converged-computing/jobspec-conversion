@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=stream-2pf-largebatch-perf
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=172800
 #FLUX --urgency=16
 

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:40:00
-#SBATCH --partition=batch
 
 export NTASKS='$((SLURM_JOB_NUM_NODES*56))'
 export SRUN='srun -n $NTASKS --gpus-per-node=8 --cpus-per-gpu=14 --cpu-bind=cores'

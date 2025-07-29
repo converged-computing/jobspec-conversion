@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=8
-#SBATCH --partition=a40x
 
 export HYDRA_FULL_ERROR='1'
 

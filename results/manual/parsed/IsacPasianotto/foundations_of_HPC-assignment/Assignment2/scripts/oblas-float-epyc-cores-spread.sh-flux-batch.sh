@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ex2-AMD
 #FLUX -c=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=EPYC
 #FLUX -t=3600
 #FLUX --urgency=16

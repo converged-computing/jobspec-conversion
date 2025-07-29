@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-salad-8570
+#FLUX --job-name=ornery-platanos-8222
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/OMaraLab/MD_run_scripts/gadi/draft/DRAFT2_gadi_resubmission_gmx2022-3-sing_01xGPU.pbs

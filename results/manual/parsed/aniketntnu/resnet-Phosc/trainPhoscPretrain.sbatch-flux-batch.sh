@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-lamp-3764
+#FLUX --job-name=dinosaur-latke-7988
 #FLUX -c=6
 #FLUX --queue=dgx2q
 #FLUX -t=1209600

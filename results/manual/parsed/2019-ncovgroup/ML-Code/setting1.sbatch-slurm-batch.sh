@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --time=01:30:00
-#SBATCH --partition=regular
 #SBATCH --constraint=ntasks-per-node=8
 
 DASK=$HOME/scheduler.json

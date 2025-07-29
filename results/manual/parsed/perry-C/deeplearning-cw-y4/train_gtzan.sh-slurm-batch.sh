@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=20GB
 #SBATCH --time=00:20:00
-#SBATCH --partition=teach_gpu
 
 module purge
 module load "languages/anaconda3/2021-3.8.8-cuda-11.1-pytorch"

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --gpus-per-task=4
 #SBATCH --time=00:03:00
-#SBATCH --partition=debug
 #SBATCH --constraint=gpu,ntasks-per-node=1
 
 export LCI_SERVER_MAX_SENDS='1024'

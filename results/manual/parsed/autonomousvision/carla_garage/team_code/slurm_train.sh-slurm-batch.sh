@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:8
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=a100
 
 export CARLA_ROOT='/path/to/carla_9_10'
 export PYTHONPATH='${CARLA_ROOT}/PythonAPI/carla/":${PYTHONPATH}'

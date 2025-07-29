@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --mem=72g
-#SBATCH --partition=high
 #SBATCH --array=1-255
 
 module load CUDA/10.0.130

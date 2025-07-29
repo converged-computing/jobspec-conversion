@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=cup-ecs
 
 SPACK_INSTALL=${HOME}/spack
 BEATNIK_SCRATCH=/carc/scratch/users/${USER}/beatnik-hopper

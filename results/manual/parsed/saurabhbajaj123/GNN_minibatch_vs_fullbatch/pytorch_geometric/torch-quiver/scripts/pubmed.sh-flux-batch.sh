@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=quiv-pub
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gypsum-m40
 #FLUX -t=1800
 #FLUX --urgency=16

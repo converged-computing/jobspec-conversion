@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-latke-4192
+#FLUX --job-name=ornery-bike-3682
 #FLUX --queue=gpu
 #FLUX -t=11700
 #FLUX --urgency=16

@@ -8,6 +8,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=batch
 
 nextflow run ./download-references.nf -profile singularity --download_all --cosmic_usr mike.lloyd@jax.org --cosmic_passwd YSYLTvNy72fvxg!

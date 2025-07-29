@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=100g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 folder="/home/chirayugupta/test"
 module load cdac/spack/0.17

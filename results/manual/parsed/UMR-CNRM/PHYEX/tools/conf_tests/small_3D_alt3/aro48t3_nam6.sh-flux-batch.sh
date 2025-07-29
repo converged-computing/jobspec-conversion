@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-frito-4916
+#FLUX --job-name=gloopy-lamp-4834
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

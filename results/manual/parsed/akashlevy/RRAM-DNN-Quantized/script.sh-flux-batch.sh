@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-general-7327
+#FLUX --job-name=misunderstood-blackbean-4208
 #FLUX --queue=gpu
 #FLUX -t=172800
 #FLUX --urgency=16

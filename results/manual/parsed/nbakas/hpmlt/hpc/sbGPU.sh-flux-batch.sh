@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-hope-0531
+#FLUX --job-name=boopy-blackbean-4033
 #FLUX -n=4
 #FLUX --gpus-per-task=1
 #FLUX --queue=gpu

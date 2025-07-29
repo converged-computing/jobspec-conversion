@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=${AUX_QUEUE}
 
 export FILEENV='$(find ./ -name EnvironmentalVariablesMCGA -print)'
 export PATHENV='$(dirname ${FILEENV})'

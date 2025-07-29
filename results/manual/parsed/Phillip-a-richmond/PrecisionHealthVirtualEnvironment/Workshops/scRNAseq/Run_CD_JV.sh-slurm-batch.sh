@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=defq
 
 export PASSWORD='$(openssl rand -base64 8)'
 export LANG='en_US.UTF-8'

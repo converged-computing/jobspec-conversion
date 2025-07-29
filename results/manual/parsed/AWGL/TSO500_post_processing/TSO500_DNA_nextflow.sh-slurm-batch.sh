@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=high
 
 FASTQ_PATH=$1
 SAMPLES_ORDER=$2

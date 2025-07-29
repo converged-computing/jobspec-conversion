@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=shared-cpu,private-dpnc-cpu,public-cpu
 #SBATCH --chdir=/home/users/k/kleins/atlas/BIB/implicitBIBae
 
 export XDG_RUNTIME_DIR=''

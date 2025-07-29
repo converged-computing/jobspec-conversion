@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=250GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=kempner_requeue
 #SBATCH --constraint=ntasks-per-node=1,a100
 #SBATCH --array=0-99%12
 

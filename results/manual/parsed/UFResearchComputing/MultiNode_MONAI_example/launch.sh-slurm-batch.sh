@@ -9,7 +9,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem-per-cpu=96gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=hpg-ai
 #SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_DEBUG='INFO'

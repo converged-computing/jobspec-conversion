@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu_gce
 
 export WCPROJECT='simone'
 export CONT_DIR='/wclustre/${WCPROJECT}/containers/'

@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=long.q
 #SBATCH --constraint=ntasks-per-node=24
 
 module load openmpi-2.0/intel

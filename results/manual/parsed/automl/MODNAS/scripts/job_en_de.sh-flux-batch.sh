@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-pastry-3262
+#FLUX --job-name=swampy-poo-4679
 #FLUX -c=32
 #FLUX --queue=<partition
 #FLUX -t=432000

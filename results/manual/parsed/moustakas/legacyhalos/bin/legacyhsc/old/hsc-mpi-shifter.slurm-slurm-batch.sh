@@ -7,9 +7,7 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 #SBATCH --constraint=haswell
-#SBATCH --licenses=project
 
 singularity
 exec

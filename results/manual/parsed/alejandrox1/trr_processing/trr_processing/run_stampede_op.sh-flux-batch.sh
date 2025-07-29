@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=osmotic
 #FLUX -n=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX -t=172800
 #FLUX --urgency=16

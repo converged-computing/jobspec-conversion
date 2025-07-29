@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-parrot-3127
+#FLUX --job-name=fuzzy-sundae-3442
 #FLUX --queue=all
 #FLUX -t=30000
 #FLUX --urgency=16

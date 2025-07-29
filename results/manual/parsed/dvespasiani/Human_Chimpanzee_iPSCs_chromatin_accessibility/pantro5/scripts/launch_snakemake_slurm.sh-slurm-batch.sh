@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=400000
 #SBATCH --time=10-23:00:00
-#SBATCH --partition=mig
 
 export TMPDIR='/data/scratch/projects/punim0586/dvespasiani/tmp'
 

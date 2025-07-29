@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=cpu
 #SBATCH --array=0-250
 
 n_job_per_run=4  # Adjust this for the number of jobs per run

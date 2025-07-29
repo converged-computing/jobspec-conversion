@@ -7,7 +7,7 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem-per-cpu=2560M
 #SBATCH --time=2-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load cuda/6.5.14
 echo "Begin 5 5 0 origin - Tantalum 7"

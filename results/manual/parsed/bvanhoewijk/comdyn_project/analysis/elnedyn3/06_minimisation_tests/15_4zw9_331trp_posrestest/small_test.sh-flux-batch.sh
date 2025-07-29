@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-despacito-2685
+#FLUX --job-name=delicious-eagle-7905
 #FLUX -n=160
 #FLUX --queue=genoa
 #FLUX -t=28800

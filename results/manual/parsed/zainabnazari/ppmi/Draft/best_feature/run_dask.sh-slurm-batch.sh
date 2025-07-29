@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000
 #SBATCH --time=04:00:00
-#SBATCH --partition=regular2
 #SBATCH --constraint=ntasks-per-node=3
 
 module purge

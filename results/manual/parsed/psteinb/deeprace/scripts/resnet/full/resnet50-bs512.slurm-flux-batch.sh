@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-animal-6196
+#FLUX --job-name=blank-lizard-4790
 #FLUX --queue=gpu2
 #FLUX -t=32400
 #FLUX --urgency=16

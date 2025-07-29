@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-latke-5729
+#FLUX --job-name=phat-eagle-5763
 #FLUX -c=8
 #FLUX -t=172740
 #FLUX --urgency=16

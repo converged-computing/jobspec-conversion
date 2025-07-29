@@ -2,7 +2,7 @@
 #FLUX --job-name=projp
 #FLUX -N=2
 #FLUX -c=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=9000
 #FLUX --urgency=16
 

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:10:00
-#SBATCH --partition=nv-gpu
 #SBATCH --qos=gpu-short
 #SBATCH --constraint=Volta
 

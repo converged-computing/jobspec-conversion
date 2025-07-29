@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=100G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=long
 
 cd /home/mila/c/chris.emezue/pet-masakhane-news
 module load python/3

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=dppc-p1
 #FLUX -n=144
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

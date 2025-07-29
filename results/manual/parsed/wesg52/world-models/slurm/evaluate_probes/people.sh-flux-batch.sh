@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-eagle-8900
+#FLUX --job-name=boopy-despacito-0258
 #FLUX --urgency=16
 
 export PATH='$ORDINAL_PROBING_ROOT:$PATH'

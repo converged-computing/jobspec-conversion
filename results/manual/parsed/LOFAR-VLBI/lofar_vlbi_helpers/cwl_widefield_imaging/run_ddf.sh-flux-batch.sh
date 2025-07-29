@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-lamp-4646
+#FLUX --job-name=red-parsnip-1285
 #FLUX -c=31
 #FLUX --queue=normal
 #FLUX --urgency=16

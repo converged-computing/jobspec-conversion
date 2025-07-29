@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-destiny-0717
+#FLUX --job-name=bricky-motorcycle-5337
 #FLUX -n=28
 #FLUX --urgency=16
 

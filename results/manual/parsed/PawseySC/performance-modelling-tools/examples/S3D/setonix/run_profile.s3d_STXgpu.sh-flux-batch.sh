@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=swampy-despacito-5476
+#FLUX --job-name=astute-train-2057
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu-dev
 #FLUX --urgency=16
 

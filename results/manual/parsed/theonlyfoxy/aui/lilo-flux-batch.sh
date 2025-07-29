@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-despacito-1623
+#FLUX --job-name=sticky-nalgas-3802
 #FLUX --urgency=16
 

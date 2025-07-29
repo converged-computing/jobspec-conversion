@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-diablo-3873
+#FLUX --job-name=grated-lemur-4401
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

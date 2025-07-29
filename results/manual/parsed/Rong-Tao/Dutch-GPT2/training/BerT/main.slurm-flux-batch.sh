@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=TR-for
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=kshdexclu04
 #FLUX --urgency=16
 

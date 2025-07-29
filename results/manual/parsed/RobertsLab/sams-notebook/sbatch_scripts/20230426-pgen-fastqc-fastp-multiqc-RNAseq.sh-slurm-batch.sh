@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=srlab
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20230426-pgen-fastqc-fastp-multiqc-RNAseq
 
 https://robertslab.github.io/sams-notebook/2022/03/23/Differential-Gene-Expression-P.generosa-DGE-Between-Tissues-Using-Nextlow-NF-Core-RNAseq-Pipeline-on-Mox.html

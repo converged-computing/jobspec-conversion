@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-lemur-6853
+#FLUX --job-name=stinky-fudge-0779
 #FLUX -n=16
 #FLUX --queue=defq
 #FLUX -t=360000

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=creamy-fudge-5898
-#FLUX: --exclusive
+#FLUX --job-name=cowy-lentil-6073
+#FLUX --exclusive
 #FLUX --urgency=16
 
 set -eux

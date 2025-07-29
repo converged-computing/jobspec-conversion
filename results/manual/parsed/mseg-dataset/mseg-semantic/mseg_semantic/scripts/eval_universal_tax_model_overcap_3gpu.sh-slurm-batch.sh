@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=3
-#SBATCH --partition=overcap
 
 base_size=$1
 model_name=$2

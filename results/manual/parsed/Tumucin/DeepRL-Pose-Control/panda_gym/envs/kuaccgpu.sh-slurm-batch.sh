@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:tesla_t4:1
 #SBATCH --mem=16G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=mid
 #SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/kuacc/users/tbal21/.conda/envs/stableBaselines/panda-gym/panda_gym/envs/utils'

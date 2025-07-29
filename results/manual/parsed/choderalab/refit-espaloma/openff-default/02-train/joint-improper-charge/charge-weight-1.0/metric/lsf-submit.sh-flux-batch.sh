@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-leg-4051
+#FLUX --job-name=swampy-motorcycle-3037
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/refit-espaloma/openff-default/02-train/joint-improper-charge/charge-weight-1.0/metric/lsf-submit.sh

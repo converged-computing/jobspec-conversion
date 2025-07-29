@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=pipeinfer
 #FLUX -c=112
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=eval
 #FLUX -t=36000
 #FLUX --urgency=16

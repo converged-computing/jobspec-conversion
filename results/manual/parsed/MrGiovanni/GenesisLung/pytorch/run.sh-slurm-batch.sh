@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=03:50:00
-#SBATCH --partition=wildfire
 
 module load anaconda/py3
 source /data/jliang12/zzhou82/environments/pytorch/bin/activate

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-diablo-8889
+#FLUX --job-name=arid-banana-8236
 #FLUX -c=8
 #FLUX --queue=alpha
 #FLUX -t=446399

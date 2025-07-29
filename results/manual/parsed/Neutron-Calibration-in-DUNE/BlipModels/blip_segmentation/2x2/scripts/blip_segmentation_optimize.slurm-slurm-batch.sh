@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=shared
 #SBATCH --constraint=gpu
 #SBATCH --array=0-9
 #SBATCH --dependency=<optimize_blip_segmentation_prep_id>

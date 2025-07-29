@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-motorcycle-5949
+#FLUX --job-name=moolicious-gato-1563
 #FLUX --queue=gputest
 #FLUX -t=900
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --gres=4
 #SBATCH --mem=180G
 #SBATCH --time=1-14:00:00
-#SBATCH --partition=gpu_titanrtx
 #SBATCH --constraint=ntasks-per-node=4,ntasks-per-node=4,ntasks-per-node=4,ntasks-per-node=4
 
 source /home/mtoering/miniconda3/etc/profile.d/conda.sh

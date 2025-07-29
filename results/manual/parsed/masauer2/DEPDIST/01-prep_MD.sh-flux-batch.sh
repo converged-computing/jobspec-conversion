@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-motorcycle-4732
+#FLUX --job-name=carnivorous-underoos-9794
 #FLUX -c=16
 #FLUX --queue=general
 #FLUX -t=60

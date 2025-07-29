@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=2
 
 module load gcc/10.2.0 cuda spack gnu8 gsl

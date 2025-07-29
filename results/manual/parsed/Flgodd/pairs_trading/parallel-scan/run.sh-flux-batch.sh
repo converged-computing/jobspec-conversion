@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-latke-8139
+#FLUX --job-name=stanky-peanut-1498
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Flgodd/pairs_trading/parallel-scan/run.sh

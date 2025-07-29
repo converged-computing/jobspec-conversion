@@ -7,8 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=00:05:00
-#SBATCH --partition=skylake
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=2
 
 export OMP_PLACES='cores'

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=hackasaurous
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=accelerated
 #FLUX -t=14400
 #FLUX --urgency=16

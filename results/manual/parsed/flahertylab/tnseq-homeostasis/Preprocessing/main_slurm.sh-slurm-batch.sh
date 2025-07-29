@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32gb
 #SBATCH --time=06:00:00
-#SBATCH --partition=cpu
 
 date;hostname;pwd
 module load miniconda/22.11.1-1

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:rtx:2
 #SBATCH --mem=70G
 #SBATCH --time=23:00:00
-#SBATCH --partition=allgroups
 
 model_name=medium_lv_mhp_merged_b16
 dataset_path=LV-MHP-v1-YOLO-merge

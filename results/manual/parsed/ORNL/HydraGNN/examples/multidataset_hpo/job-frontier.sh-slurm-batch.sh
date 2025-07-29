@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=batch
 
 export MIOPEN_DISABLE_CACHE='1'
 export NNODES='$SLURM_JOB_NUM_NODES # e.g., 100 total nodes'

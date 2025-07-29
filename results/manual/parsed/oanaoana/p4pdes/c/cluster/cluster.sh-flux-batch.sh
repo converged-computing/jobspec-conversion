@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-cat-8492
+#FLUX --job-name=stanky-truffle-6517
 #FLUX -n=12
 #FLUX --queue=debug
 #FLUX --urgency=16

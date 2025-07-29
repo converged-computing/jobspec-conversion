@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=research
 
 module load nvidia/cuda/11.3
 python setup.py build_ext --inplace

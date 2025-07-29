@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-frito-4958
+#FLUX --job-name=dinosaur-soup-6784
 #FLUX --queue=sched_mit_sloan_batch
 #FLUX -t=345600
 #FLUX --urgency=16

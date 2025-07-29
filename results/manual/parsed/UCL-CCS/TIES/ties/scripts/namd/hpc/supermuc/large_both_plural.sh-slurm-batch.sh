@@ -9,10 +9,9 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:30:00
-#SBATCH --partition=general
 #SBATCH --constraint=ntasks-per-node=48
 #SBATCH --chdir=./
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module load slurm_setup
 module load namd

@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=200G
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=gpu
 
 module load anaconda3
 source activate /scratch/work/phama1/tensorflow

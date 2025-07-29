@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=36
 #SBATCH --mem=92G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=long
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --exclude=node018,node019
 

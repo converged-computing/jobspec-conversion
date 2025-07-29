@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=run_splitServer_JustDT_TRT
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=18000
 #FLUX --urgency=16
 

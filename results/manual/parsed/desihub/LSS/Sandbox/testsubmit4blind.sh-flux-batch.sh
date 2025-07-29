@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-avocado-8134
+#FLUX --job-name=grated-buttface-1612
 #FLUX --queue=debug
 #FLUX -t=1800
 #FLUX --urgency=16

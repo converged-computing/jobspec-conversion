@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-bike-1706
+#FLUX --job-name=blue-citrus-5303
 #FLUX -c=64
 #FLUX --queue=amd
 #FLUX -t=180000

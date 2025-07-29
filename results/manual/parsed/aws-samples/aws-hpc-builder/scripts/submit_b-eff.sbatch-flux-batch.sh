@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=tart-toaster-3403
+#FLUX --job-name=adorable-pedo-7612
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c6gnpg
 #FLUX --urgency=16
 

@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:30:00
-#SBATCH --partition=c1exp
 #SBATCH --chdir=/home/avi_kartikay/Project_2/AVI_KARTIKAY_DATS6402_10_PROJECT_2
 
 module load mpi4py

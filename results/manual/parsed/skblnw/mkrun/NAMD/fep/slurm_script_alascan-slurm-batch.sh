@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=single
 
 echo "Start time: $(date)"
 echo "SLURM_JOB_NODELIST: $SLURM_JOB_NODELIST"

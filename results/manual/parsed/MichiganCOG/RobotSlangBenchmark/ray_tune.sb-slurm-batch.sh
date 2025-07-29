@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=72
 #SBATCH --gres=gpu:10
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=lgns28
 
 echo $CUDA_VISIBLE_DEVICES
 echo $HOSTNAME

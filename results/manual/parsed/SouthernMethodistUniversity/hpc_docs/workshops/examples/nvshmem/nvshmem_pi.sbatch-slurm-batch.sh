@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=6G
 #SBATCH --time=00:05:00
-#SBATCH --partition=amd
 
 echo $SLURM_JOB_PARTITION
 module purge

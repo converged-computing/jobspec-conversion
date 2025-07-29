@@ -2,7 +2,7 @@
 #FLUX --job-name=testopenclip
 #FLUX -N=30
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=g40423
 #FLUX --urgency=16
 

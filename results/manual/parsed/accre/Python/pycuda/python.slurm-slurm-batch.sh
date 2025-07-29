@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=1G
 #SBATCH --time=00:10:00
-#SBATCH --partition=maxwell
 
 module load Anaconda3
 source activate pycuda

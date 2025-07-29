@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=450GB
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=learnfair
 #SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 export NCCL_DEBUG='INFO'

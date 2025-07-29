@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=4096
 #SBATCH --time=06:00:00
-#SBATCH --partition=low-moby
 #SBATCH --array=1-154
 
 STUDY="TAY"

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --nodelist=pgpu01
 
 CONTAINER=/cluster/kappa/90-days-archive/wongjiradlab/larbys/images/singularity-dllee-ssnet/singularity-dllee-ssnet-nvidia384.66.img

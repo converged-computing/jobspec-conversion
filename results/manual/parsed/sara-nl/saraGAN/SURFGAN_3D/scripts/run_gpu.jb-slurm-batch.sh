@@ -3,7 +3,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu_titanrtx
 
 module use /home/druhe/environment-modules-lisa
 module load 2020

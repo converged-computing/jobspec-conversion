@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-train-5794
+#FLUX --job-name=spicy-hope-5135
 #FLUX -c=16
 #FLUX --queue=gpu-h100
 #FLUX -t=345600

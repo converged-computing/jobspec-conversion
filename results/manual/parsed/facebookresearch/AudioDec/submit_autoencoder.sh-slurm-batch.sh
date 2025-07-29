@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64g
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=xxx
 
 tag_name="autoencoder/symAD_vctk_48000_hop300"
 stage=0

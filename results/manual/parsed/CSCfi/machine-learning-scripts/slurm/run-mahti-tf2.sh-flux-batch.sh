@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-caramel-9009
+#FLUX --job-name=hello-lamp-5893
 #FLUX -c=10
 #FLUX --queue=gpusmall
 #FLUX -t=3600

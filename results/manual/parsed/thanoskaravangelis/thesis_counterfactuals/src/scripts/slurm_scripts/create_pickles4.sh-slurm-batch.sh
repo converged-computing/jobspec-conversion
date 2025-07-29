@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=56G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 cd /users/pa21/ptzouv/tkaravangelis/mice

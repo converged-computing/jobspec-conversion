@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=short
 
 numThreads=4
 nonChrM=$(cat ${genomeChrFile} | awk '{print $1}' | grep -v chrM | tr '\n' ' ')

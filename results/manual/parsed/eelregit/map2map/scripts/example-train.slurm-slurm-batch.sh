@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu_partition
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo "This is a minimal example. See --help or args.py for more," \
      "e.g. on augmentation, cropping, padding, and data division."

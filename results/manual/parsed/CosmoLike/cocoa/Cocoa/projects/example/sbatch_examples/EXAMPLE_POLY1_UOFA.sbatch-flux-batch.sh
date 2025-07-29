@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=POLY1
 #FLUX -c=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=high_priority
 #FLUX -t=216000
 #FLUX --urgency=16

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=00:15:00
-#SBATCH --partition=debug
 
 module purge
 module load julia/1.8.2

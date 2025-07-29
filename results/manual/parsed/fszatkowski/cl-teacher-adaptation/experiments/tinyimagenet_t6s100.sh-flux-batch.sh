@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-leader-8686
+#FLUX --job-name=doopy-platanos-2900
 #FLUX -n=3
 #FLUX -t=259200
 #FLUX --urgency=16

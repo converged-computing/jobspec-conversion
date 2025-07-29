@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-avocado-3630
+#FLUX --job-name=hairy-lemon-4999
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UKPLab/tacl2020-interactive-ranking/scripts/PBSPro/run_inter_sum_supert_2001_75.sh

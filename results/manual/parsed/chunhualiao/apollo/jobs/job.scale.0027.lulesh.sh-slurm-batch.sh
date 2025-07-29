@@ -7,8 +7,7 @@
 #SBATCH --ntasks=31
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=pbatch
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export EXPERIMENT_JOB_TITLE='SCALE.0027.lulesh'
 export EXPERIMENT_BASE='/p/lustre2/wood67/experiments/apollo'

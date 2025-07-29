@@ -6,8 +6,7 @@
 #SBATCH --gres=4
 #SBATCH --mem=250GB
 #SBATCH --time=00:30:00
-#SBATCH --partition=gypsum-m40
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 cd /work/sbajaj_umass_edu/GNN_minibatch_vs_fullbatch/pytorch_geometric/torch-quiver
 source /work/sbajaj_umass_edu/pygenv1/bin/activate

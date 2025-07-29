@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=15000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=shared
 
 module load Anaconda
 source activate snakemake

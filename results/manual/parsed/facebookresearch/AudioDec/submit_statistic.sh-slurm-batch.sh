@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=124g
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=xxx
 
 tag_name=statistic/symAD_vctk_48000_hop300_clean
 subset=train

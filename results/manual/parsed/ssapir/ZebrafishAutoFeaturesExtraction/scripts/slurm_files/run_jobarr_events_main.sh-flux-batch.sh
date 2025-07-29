@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-itch-0430
+#FLUX --job-name=delicious-citrus-1171
 #FLUX -t=7200
 #FLUX --urgency=16
 

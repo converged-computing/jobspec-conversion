@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=nemo-data-curator:gpu-deduplication
 #FLUX -N=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

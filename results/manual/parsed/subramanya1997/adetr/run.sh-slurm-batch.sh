@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=128GB
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpu-preempt
 
 export MASTER_ADDR='$(scontrol show hostname ${SLURM_NODELIST} | head -n 1)'
 

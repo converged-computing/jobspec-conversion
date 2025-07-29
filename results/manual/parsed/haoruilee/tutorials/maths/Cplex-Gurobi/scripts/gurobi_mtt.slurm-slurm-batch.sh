@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=28
 #SBATCH --time=01:00:00
-#SBATCH --partition=batch
 #SBATCH --qos=normal
 
 module load math/Gurobi/8.1.1-intel-2018a-Python-3.6.4

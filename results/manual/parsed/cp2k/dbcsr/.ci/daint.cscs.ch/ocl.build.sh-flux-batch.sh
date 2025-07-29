@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-squidward-3263
+#FLUX --job-name=pusheena-lettuce-4449
 #FLUX -c=12
 #FLUX --queue=cscsci
 #FLUX --urgency=16

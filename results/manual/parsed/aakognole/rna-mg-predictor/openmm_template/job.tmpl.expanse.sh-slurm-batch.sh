@@ -8,9 +8,8 @@
 #SBATCH --gres=1
 #SBATCH --mem=2000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu-shared
 #SBATCH --constraint=ntasks-per-node=8
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export OMP_NUM_THREADS='8'
 export LD_LIBRARY_PATH='/cm/local/apps/cuda/libs/current/lib64:$LD_LIBRARY_PATH'

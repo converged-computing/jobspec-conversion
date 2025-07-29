@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=512G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=20
 
 source /lab/barcheese01/mdiberna/OpticalPooledScreens_david/venv/bin/activate
 cd /lab/barcheese01/screens/baker/preprocessing_0

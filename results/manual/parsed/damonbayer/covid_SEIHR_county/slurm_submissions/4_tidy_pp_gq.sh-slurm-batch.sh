@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=60G
 #SBATCH --time=04:00:00
-#SBATCH --partition=stats.p
 
 cd /home/abakis/git/covid_SEIHR_county
 Rscript scripts/tidy_posterior_predictive_and_generated_quantities.R

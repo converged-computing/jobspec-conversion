@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=parallel
 #SBATCH --constraint=ntasks-per-node=37
 
 export RADICAL_LOG_LVL='DEBUG'

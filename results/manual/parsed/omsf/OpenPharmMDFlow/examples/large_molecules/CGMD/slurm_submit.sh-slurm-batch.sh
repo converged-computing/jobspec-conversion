@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:tesla:1
-#SBATCH --partition=gpu
 #SBATCH --exclude=gpu-dy-p38xlarge-1,gpu-dy-p38xlarge-2
 
 whoami

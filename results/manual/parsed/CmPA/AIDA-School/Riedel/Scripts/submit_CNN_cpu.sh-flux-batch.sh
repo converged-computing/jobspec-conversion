@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-punk-4157
+#FLUX --job-name=hanky-leader-5290
 #FLUX --queue=dp-dam
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-banana-0554
+#FLUX --job-name=placid-chip-0172
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

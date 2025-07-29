@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-puppy-6099
+#FLUX --job-name=gassy-pot-0070
 #FLUX -c=40
 #FLUX --queue=nvidia
 #FLUX -t=19800

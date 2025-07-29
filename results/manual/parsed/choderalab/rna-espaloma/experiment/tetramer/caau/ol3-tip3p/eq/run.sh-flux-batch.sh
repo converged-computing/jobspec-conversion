@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-nalgas-3685
+#FLUX --job-name=quirky-kerfuffle-8721
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/rna-espaloma/experiment/tetramer/caau/ol3-tip3p/eq/run.sh

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30G
 #SBATCH --time=2-00:11:59
-#SBATCH --partition=gpu
 
                                            # -N 1 means all cores will be on th$
 hostname

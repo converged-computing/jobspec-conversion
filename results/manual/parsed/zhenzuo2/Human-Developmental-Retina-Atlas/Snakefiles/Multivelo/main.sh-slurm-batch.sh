@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:0
 #SBATCH --mem=16GB
 #SBATCH --time=12-12:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=mhgcp-g01
 

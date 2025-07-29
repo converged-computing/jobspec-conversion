@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
-#SBATCH --partition=gpu
 
 export MAX_SAVE_STEP_GB='0'
 export NUM_CPUS='4'

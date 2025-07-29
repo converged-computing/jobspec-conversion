@@ -11,7 +11,6 @@
 #SBATCH --time=02:00:00
 #SBATCH --qos=regular
 #SBATCH --constraint=cpu
-#SBATCH --licenses=cfs,SCRATCH
 
 input=your_config.yaml
 output=your_output.sacc

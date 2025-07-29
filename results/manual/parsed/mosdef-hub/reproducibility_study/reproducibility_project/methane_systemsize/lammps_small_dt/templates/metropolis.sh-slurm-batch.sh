@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=8-07:59:59
-#SBATCH --partition={{
 #SBATCH --nodelist={{
 
 {% extends "slurm.sh" %}

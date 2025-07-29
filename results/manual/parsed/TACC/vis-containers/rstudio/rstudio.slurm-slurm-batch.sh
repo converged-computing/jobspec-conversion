@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=v100
 
 export SINGULARITYENV_PASSWORD='$RSTUDIO_PASSWORD '
 

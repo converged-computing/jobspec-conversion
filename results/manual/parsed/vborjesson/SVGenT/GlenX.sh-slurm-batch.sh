@@ -7,7 +7,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=core
 
 module load bioinfo-tools
 module load bwa

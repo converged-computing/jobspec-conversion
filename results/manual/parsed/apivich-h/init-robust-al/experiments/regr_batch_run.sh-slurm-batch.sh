@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --time=18:00:00
-#SBATCH --partition=long
 #SBATCH --exclude=amdgpu[0-2]
 
 export LD_LIBRARY_PATH='$CONDA_PREFIX/lib'

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20000
 #SBATCH --time=04:00:00
-#SBATCH --partition=short
 
 source globals.sh
 matlab -nodesktop -nosplash -nodisplay -jvm -r "addpath('scripts/'); preprocess_FIR;"

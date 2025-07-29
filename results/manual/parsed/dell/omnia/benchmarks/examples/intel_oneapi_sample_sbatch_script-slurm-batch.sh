@@ -4,7 +4,6 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=normal
 #SBATCH --nodelist=springnode00003.spring.test,springnode00004.spring.test
 
 export FI_PROVIDER='tcp'

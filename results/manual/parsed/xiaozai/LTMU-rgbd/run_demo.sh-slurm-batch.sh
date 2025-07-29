@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:teslav100:1
 #SBATCH --mem-per-cpu=64000
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu
 
 module load CUDA/10.0
 module load fgci-common

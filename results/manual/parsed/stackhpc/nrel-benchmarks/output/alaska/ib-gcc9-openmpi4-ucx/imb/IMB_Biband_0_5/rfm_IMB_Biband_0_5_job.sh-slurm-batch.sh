@@ -6,7 +6,7 @@
 #SBATCH --ntasks=32
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=16
 
 export SLURM_MPI_TYPE='pmix_v2'

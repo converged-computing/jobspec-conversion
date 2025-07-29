@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-plant-5704
+#FLUX --job-name=dirty-egg-6802
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ML4HPC/4D_fMRI_Transformer/scripts/polaris/prod_HCP_main_step3_con_loss.pbs

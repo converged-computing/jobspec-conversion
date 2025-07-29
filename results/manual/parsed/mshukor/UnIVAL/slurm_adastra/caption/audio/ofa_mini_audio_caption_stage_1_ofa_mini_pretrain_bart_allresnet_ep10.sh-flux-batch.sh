@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=ofa_mini_audio_caption_stage_1_ofa_mini_pretrain_bart_allresnet_ep10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

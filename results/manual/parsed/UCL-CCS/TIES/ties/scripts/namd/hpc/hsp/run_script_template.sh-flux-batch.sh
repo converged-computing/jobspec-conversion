@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-hope-6254
+#FLUX --job-name=frigid-hobbit-9349
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UCL-CCS/TIES/ties/scripts/namd/hpc/hsp/run_script_template.sh

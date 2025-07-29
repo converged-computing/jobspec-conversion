@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=00:03:00
-#SBATCH --partition=gpu_test
 
 module load python/3.10.9-fasrc01
 source activate tf2.12_cuda11

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=serial
 
 function globexist # To check if ligands exist ([-e *GMX*] crashes if there is more than 1)
   {

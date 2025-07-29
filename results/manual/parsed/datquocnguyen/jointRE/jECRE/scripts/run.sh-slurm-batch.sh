@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
-#SBATCH --partition=long
 
 export LANG='en_US.UTF-8'
 export LC_ALL='en_US.UTF-8'

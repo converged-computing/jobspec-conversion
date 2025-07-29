@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=kripke
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=broadwell
 #FLUX -t=240
 #FLUX --urgency=16

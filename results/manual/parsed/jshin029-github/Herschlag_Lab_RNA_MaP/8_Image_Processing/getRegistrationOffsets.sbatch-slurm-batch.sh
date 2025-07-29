@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=01:00:00
-#SBATCH --partition=biochem,normal
 #SBATCH --qos=normal
 
 module load python/3.6.1

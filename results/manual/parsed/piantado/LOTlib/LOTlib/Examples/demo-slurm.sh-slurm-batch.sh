@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000
 #SBATCH --time=4-04:15:00
-#SBATCH --partition=colala
 #SBATCH --qos=colala
 #SBATCH --constraint=ntasks-per-node=24
 

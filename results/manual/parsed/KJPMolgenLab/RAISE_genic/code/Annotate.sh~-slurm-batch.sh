@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1200
 #SBATCH --time=12:00:00
-#SBATCH --partition=fuchs
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 modus="notest"
 reffasta="/scratch/fuchs/agmisc/chiocchetti/ReferenceGenomes/hg38.fa"

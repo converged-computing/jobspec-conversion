@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=00:04:00
-#SBATCH --partition=luna-short
 #SBATCH --qos=low
 
 if false; then

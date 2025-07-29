@@ -6,11 +6,9 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=fx700
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=48
 #SBATCH --nodelist=fx[00-09]
-#SBATCH --licenses=daos_daos0
 
 export IO500_MODE=''
 export SLEEP_SEC='300'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-hobbit-3456
+#FLUX --job-name=butterscotch-peanut-5375
 #FLUX --queue=gpuq
 #FLUX -t=1800
 #FLUX --urgency=16

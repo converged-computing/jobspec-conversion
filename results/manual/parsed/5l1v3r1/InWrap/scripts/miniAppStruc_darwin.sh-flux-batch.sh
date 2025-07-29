@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-pedo-6530
+#FLUX --job-name=hello-nalgas-5061
 #FLUX -N=2
 #FLUX --queue=galton
 #FLUX --urgency=16

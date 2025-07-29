@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:8
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=palamut-cuda
 
 . ./scripts/modules_truba.sh > /dev/null
 MAX_NUM_GPUS=8

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=128GB
 #SBATCH --time=12:00:00
-#SBATCH --partition=special_bios
 
 N_SNP=40000 # Set the number of SNPs
 N_SAMPLE=2000 # Set the number of samples

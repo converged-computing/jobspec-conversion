@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-general-2721
+#FLUX --job-name=sticky-pedo-8535
 #FLUX --queue=small-g
 #FLUX -t=600
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-despacito-2305
+#FLUX --job-name=hanky-parsnip-2488
 #FLUX --queue=meta_gpu-ti
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-taco-3495
+#FLUX --job-name=bricky-noodle-1568
 #FLUX -N=2
 #FLUX --queue=DevQ
 #FLUX -t=3600

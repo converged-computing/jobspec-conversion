@@ -9,8 +9,7 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=120G
 #SBATCH --time=4-03:00:00
-#SBATCH --partition=production
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 echo "Number of CPUs used: $SLURM_CPUS_PER_TASK"
 echo "This job is running on:"

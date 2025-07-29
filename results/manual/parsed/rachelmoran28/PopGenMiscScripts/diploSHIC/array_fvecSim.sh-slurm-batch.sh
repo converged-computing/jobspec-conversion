@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=60gb
 #SBATCH --time=03:00:00
-#SBATCH --partition=small,amdsmall,astyanax
 #SBATCH --array=1-23
 
 cd /home/mcgaughs/shared/Software/diploSHIC

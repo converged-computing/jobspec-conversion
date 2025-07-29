@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-pastry-3725
+#FLUX --job-name=spicy-earthworm-1915
 #FLUX --urgency=16
 
 source /etc/profile

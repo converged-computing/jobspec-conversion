@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-car-1526
+#FLUX --job-name=blue-chair-8212
 #FLUX --queue=shared
 #FLUX -t=86400
 #FLUX --urgency=16

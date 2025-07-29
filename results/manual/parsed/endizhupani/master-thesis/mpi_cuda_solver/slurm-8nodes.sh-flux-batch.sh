@@ -2,7 +2,7 @@
 #FLUX --job-name=custom-solver-8nodes
 #FLUX -N=8
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu2080
 #FLUX -t=54000
 #FLUX --urgency=16

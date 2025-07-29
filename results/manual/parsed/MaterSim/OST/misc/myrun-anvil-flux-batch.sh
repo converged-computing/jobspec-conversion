@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-gato-3597
+#FLUX --job-name=stinky-toaster-5947
 #FLUX --queue=wholenode
 #FLUX -t=174600
 #FLUX --urgency=16

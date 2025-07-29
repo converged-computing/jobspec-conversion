@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ClusterCountGpu
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=fwkt_v100
 #FLUX -t=36000
 #FLUX --urgency=16

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=loopy-plant-9032
+#FLUX --job-name=chocolate-nalgas-1156
 #FLUX -n=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=172800
 #FLUX --urgency=16
 

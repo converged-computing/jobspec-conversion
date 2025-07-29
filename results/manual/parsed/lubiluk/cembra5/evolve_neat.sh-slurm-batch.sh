@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=500MB
 #SBATCH --time=2-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load plgrid/tools/python/3.9
 source venv/bin/activate

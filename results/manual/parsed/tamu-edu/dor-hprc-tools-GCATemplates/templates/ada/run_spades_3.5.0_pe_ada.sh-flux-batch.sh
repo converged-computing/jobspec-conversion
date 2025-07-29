@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-butter-9676
+#FLUX --job-name=persnickety-car-6368
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tamu-edu/dor-hprc-tools-GCATemplates/templates/ada/run_spades_3.5.0_pe_ada.sh

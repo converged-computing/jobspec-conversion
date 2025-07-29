@@ -6,7 +6,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
-#SBATCH --partition=v100-16gb-hiprio
 
 module load cuda/11.1
 module load python3/anaconda/ai-lab

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-pancake-3871
+#FLUX --job-name=chocolate-cattywampus-0104
 #FLUX -c=4
 #FLUX --gpus-per-task=1
 #FLUX --queue=mics

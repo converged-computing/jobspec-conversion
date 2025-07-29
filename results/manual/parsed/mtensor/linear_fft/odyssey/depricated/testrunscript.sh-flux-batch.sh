@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-noodle-1196
+#FLUX --job-name=stinky-egg-5234
 #FLUX -n=32
 #FLUX --queue=serial_requeue
 #FLUX -t=2400

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem-per-cpu=0
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=long
 
 export EXP_PATH='/scratch/$USER/ire'
 export NUM='1'

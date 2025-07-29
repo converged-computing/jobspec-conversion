@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=0
 #SBATCH --time=00:20:00
-#SBATCH --partition=dav
 
 export PGI_ACC_NOTIFY='2'
 export PGI_ACC_TIME='1'

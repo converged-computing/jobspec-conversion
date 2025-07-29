@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=milky-lizard-5532
+#FLUX --job-name=buttery-snack-4636
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=xeonv3
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-fork-9733
+#FLUX --job-name=bricky-hippo-1696
 #FLUX -n=29
 #FLUX --queue=batch
 #FLUX -t=174000

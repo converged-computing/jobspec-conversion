@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=intel
 
 module load picard
 module load java/13

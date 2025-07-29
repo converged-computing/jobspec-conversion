@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-rabbit-7628
+#FLUX --job-name=ornery-egg-7973
 #FLUX --queue=shared
 #FLUX -t=60
 #FLUX --urgency=16

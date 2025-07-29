@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 echo "Running gaussian-test on $SLURM_CPUS_ON_NODE CPU cores"
 python Dropout_Simple_CIFAR6_Berrnoulli_Measurement.py

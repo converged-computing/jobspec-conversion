@@ -4,11 +4,10 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2000MB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=l_long
 #SBATCH --qos=ll
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=40
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export OMP_NUM_THREADS='$omp_threads'
 

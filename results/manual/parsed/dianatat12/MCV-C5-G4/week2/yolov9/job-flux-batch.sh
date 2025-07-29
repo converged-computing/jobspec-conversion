@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-fudge-0373
+#FLUX --job-name=bloated-lamp-0114
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

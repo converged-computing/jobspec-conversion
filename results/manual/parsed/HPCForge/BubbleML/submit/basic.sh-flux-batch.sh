@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-bicycle-6936
+#FLUX --job-name=blank-hobbit-6549
 #FLUX -c=20
 #FLUX --queue=free-gpu
 #FLUX -t=57600

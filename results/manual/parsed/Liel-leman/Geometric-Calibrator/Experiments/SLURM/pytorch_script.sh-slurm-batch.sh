@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem-per-cpu=${RAM}G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=main
 
 norm="L2"
 START=0

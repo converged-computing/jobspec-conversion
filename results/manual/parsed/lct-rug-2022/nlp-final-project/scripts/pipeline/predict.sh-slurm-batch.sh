@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpushort
 
 export TOKENIZERS_PARALLELISM='false'
 

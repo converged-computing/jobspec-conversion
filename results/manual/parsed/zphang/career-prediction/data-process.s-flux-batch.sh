@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-chip-8349
+#FLUX --job-name=evasive-motorcycle-1180
 #FLUX -t=36600
 #FLUX --urgency=16
 

@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem=16000
 #SBATCH --time=2-23:59:00
-#SBATCH --partition=gpu
 
 export MASTER_ADDR='$(hostname)'
 

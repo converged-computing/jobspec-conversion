@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1GB
 #SBATCH --time=00:30:00
-#SBATCH --partition=batch
 
 module load Java/1.8.0_121
 module load GATK

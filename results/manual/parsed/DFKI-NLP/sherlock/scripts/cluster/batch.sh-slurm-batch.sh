@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=24G
-#SBATCH --partition=RTXA6000
 #SBATCH --array=1-20%4
 
 username="$USER"

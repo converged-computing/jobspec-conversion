@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=adorable-frito-9688
+#FLUX --job-name=chunky-muffin-7619
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c6ipg
 #FLUX --urgency=16
 

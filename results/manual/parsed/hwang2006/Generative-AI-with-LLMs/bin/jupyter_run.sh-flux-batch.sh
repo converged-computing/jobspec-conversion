@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-noodle-8961
+#FLUX --job-name=reclusive-animal-8340
 #FLUX -c=4
 #FLUX --queue=amd_a100nv_8
 #FLUX -t=43200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-latke-5611
+#FLUX --job-name=bricky-gato-0494
 #FLUX -n=2
 #FLUX -c=4
 #FLUX --queue=nvidia

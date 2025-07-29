@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=big_suma_rtx3090
 #SBATCH --qos=big_qos
 
 export NCCL_P2P_DISABLE='1'

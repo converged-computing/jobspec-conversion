@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-cat-2325
+#FLUX --job-name=moolicious-onion-5811
 #FLUX -c=2
 #FLUX --queue=gputest
 #FLUX -t=900

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-latke-8741
+#FLUX --job-name=ornery-pastry-9145
 #FLUX -N=100
 #FLUX -n=6400
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cont
 #FLUX -t=600
 #FLUX --urgency=16

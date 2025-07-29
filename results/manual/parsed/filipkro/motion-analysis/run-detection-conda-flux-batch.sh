@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-animal-2563
+#FLUX --job-name=boopy-pastry-8846
 #FLUX -n=4
 #FLUX --queue=alvis
 #FLUX -t=2400

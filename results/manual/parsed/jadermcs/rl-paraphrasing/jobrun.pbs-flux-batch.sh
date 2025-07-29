@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-destiny-0395
+#FLUX --job-name=dinosaur-hippo-2379
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jadermcs/rl-paraphrasing/jobrun.pbs

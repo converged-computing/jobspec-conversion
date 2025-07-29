@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:05:00
-#SBATCH --partition=xmas
 #SBATCH --qos=condo_mp
 
 STIME=300   # sleep time

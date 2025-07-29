@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-despacito-4763
+#FLUX --job-name=scruptious-pastry-9283
 #FLUX -c=4
 #FLUX --queue=gpuq
 #FLUX -t=600

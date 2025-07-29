@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=red
 
 module load Python/3.7.4-GCCcore-8.3.0
 pip3 install --user datasets transformers carbontracker deepspeed

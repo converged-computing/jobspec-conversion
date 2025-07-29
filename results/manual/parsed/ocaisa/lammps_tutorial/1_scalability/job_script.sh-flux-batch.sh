@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-knife-7813
+#FLUX --job-name=rainbow-house-1758
 #FLUX -N=2
 #FLUX --queue=devel
 #FLUX -t=600

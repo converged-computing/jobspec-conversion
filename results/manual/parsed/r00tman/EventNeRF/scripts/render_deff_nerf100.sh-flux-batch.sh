@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-sundae-8005
+#FLUX --job-name=psycho-chip-5639
 #FLUX --queue=gpu22
 #FLUX -t=3600
 #FLUX --urgency=16

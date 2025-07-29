@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-motorcycle-6291
+#FLUX --job-name=wobbly-carrot-4285
 #FLUX --queue=priority
 #FLUX -t=2700
 #FLUX --urgency=16

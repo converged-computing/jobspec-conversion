@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-kerfuffle-6993
+#FLUX --job-name=butterscotch-itch-9939
 #FLUX -c=2
 #FLUX --queue=s.bio
 #FLUX -t=86400

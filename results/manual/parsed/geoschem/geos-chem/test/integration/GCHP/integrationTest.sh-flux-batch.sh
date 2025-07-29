@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-nunchucks-6428
+#FLUX --job-name=evasive-frito-1794
 #FLUX --urgency=16
 
 this="$(basename ${0})"

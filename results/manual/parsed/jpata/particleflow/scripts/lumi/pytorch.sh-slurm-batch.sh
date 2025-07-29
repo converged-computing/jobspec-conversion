@@ -8,9 +8,8 @@
 #SBATCH --gpus-per-task=8
 #SBATCH --mem=130G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=small-g
 #SBATCH --constraint=ntasks-per-node=1
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export IMG='/scratch/project_465000301/lumi-pytorch-rocm.simg'
 export PYTHONPATH='hep_tfds'

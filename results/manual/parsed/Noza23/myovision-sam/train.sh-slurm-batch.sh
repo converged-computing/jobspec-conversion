@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1
-#SBATCH --partition=
 #SBATCH --array=0-15%1
 #SBATCH --nodelist=True
 

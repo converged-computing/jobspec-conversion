@@ -7,9 +7,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:k80:4
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export PS_HOSTS='$(singularity exec /home/dmu/SCRATCH/SINGULARITY/images/tensorflow-v1.11-gpu-20181116-mpich.simg python3 /home/dmu/SCRATCH/SINGULARITY/Distributed-TensorFlow-Using-MPI/cluster_specs.py --hosts_file=host --num_ps_hosts=1 | cut -f1 -d ' ')'
 export WORKER_HOSTS='$(singularity exec /home/dmu/SCRATCH/SINGULARITY/images/tensorflow-v1.11-gpu-20181116-mpich.simg python3 /home/dmu/SCRATCH/SINGULARITY/Distributed-TensorFlow-Using-MPI/cluster_specs.py --hosts_file=host --num_ps_hosts=1 | cut -f2 -d ' ')'

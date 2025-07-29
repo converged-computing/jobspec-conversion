@@ -6,8 +6,7 @@
 #SBATCH --ntasks=36
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=skylake
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export OMP_NUM_THREADS='1'
 export JULIA_NUM_THREADS='18'

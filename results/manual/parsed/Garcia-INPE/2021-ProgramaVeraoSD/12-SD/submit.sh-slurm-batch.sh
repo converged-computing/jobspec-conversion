@@ -6,8 +6,7 @@
 #SBATCH --ntasks=384
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=cpu_small
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=24
 
 mkdir -p log tmp

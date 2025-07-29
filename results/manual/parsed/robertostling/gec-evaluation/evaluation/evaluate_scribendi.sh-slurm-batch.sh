@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=alvis
 
 export HF_DATASETS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'
 export TRANSFORMERS_CACHE='/cephyr/NOBACKUP/groups/smnlp/.hg_cache'

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=knl
 
 module load python/3.6-anaconda-4.4

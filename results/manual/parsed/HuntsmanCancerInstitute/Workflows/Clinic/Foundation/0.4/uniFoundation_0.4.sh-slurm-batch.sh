@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=hci-aa
 
 set -e; start=$(date +'%s')
 echo -e "---------- Starting -------- $((($(date +'%s') - $start)/60)) min"

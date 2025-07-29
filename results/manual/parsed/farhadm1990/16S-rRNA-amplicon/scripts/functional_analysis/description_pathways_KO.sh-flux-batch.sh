@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-peanut-9393
+#FLUX --job-name=expensive-nunchucks-5313
 #FLUX -n=10
 #FLUX --queue=ghpc
 #FLUX -t=86400

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50gb
 #SBATCH --time=10:00:00
-#SBATCH --partition=cuda
 #SBATCH --constraint=ntasks-per-node=10
 
 export PATH='$HOME/.local/bin:$PATH'

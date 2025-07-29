@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=brown,red
 
 hostname
 module load poetry

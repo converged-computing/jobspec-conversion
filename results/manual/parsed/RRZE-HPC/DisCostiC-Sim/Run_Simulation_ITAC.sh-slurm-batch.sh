@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=multinode
 #SBATCH --constraint=ntasks-per-node=72,hwperf
 
 export VT_LOGFILE_FORMAT='SINGLESTF'

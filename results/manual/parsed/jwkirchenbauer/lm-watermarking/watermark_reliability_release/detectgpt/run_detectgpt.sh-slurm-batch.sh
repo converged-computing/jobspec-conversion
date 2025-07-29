@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:rtxa6000:1
 #SBATCH --mem-per-cpu=32G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=scavenger
 #SBATCH --qos=scavenger
 #SBATCH --array=0-2
 

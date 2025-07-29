@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-peanut-butter-2307
+#FLUX --job-name=quirky-buttface-3996
 #FLUX --urgency=16
 
 hostname

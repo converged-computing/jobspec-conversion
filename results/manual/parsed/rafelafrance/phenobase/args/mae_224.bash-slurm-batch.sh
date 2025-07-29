@@ -9,7 +9,6 @@
 #SBATCH --gres=a100:1
 #SBATCH --mem=8gb
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 
 export PATH='/blue/guralnick/rafe.lafrance/.conda/envs/vitmae/bin:$PATH'
 

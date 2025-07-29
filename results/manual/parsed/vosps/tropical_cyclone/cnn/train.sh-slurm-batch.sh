@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32gb
 #SBATCH --time=2-23:00:00
-#SBATCH --partition=magma
 #SBATCH --constraint=ntasks-per-node=1
 
 source ~/.bashrc

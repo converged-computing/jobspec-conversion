@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-leader-2091
+#FLUX --job-name=psycho-parrot-2434
 #FLUX -n=20
 #FLUX --queue=om_all_nodes
 #FLUX -t=172800

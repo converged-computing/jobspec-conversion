@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30000
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=ntasks-per-node=16
 #SBATCH --array=1-22
 

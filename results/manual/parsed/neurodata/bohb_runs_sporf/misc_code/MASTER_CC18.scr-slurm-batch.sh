@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=shared,parallel,lrgmem
 #SBATCH --constraint=ntasks-per-node=24
 
 export SHARE_DIR='test_runs'

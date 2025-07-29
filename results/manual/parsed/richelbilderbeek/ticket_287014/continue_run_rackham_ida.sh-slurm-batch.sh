@@ -9,7 +9,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=9-00:00:00
-#SBATCH --partition=core
 
 module load bioinfo-tools Nextflow 
 work_dir="/crex/proj/naiss2023-22-866/MetONTIIME/trimmed_and_filtered_Q15_qz"

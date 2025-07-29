@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=abdomenatlas1.1-multigpu
 #FLUX -n=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=public
 #FLUX -t=604800
 #FLUX --urgency=16

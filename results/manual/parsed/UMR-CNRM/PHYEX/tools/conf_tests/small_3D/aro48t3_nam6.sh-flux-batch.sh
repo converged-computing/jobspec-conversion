@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-signal-5948
+#FLUX --job-name=ornery-hope-8781
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

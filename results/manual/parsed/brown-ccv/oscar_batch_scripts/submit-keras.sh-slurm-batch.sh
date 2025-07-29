@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4G
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
 
 module load keras/2.0.9
 module load cuda/8.0.61 cudnn/5.1 tensorflow/1.1.0_gpu

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-puppy-1500
+#FLUX --job-name=delicious-mango-1011
 #FLUX -c=40
 #FLUX --queue=develgpus
 #FLUX -t=7200

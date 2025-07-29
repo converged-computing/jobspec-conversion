@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=32GB
 #SBATCH --time=00:30:00
-#SBATCH --partition=bii-gpu
 #SBATCH --constraint=a100_80gb
 
 export SIF_DIR='/scratch/$USER/cosmoflow'

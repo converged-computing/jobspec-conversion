@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=parallel
 #SBATCH --constraint=ntasks-per-node=20
 #SBATCH --chdir=/scratch/js4yd/LikelihoodAnalysis/
 

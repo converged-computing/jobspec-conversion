@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=240g
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpuA100x8
 #SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='/projects/bcev/jjia1/TOOLS/nccl/build/lib:/sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/openmpi-4.1.6-lranp74/lib:/sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/cuda-11.8.0-vfixfmc/lib64:$LD_LIBRARY_PATH'

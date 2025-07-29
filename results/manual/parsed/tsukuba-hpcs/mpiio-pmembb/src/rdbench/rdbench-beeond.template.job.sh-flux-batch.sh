@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-cattywampus-0243
+#FLUX --job-name=outstanding-sundae-1455
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tsukuba-hpcs/mpiio-pmembb/src/rdbench/rdbench-beeond.template.job.sh

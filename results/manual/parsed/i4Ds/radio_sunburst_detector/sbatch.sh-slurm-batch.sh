@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=10:00:00
-#SBATCH --partition=top6
 #SBATCH --exclude=gpu23a,gpu23b,gpu23c,gpu23d
 
 export LD_LIBRARY_PATH='$CONDA_PREFIX/lib/:$CUDNN_PATH/lib:$LD_LIBRARY_PATH'

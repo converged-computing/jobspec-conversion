@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-toaster-8072
+#FLUX --job-name=outstanding-staircase-8490
 #FLUX --queue=urtgen_24hrs
 #FLUX --urgency=16
 

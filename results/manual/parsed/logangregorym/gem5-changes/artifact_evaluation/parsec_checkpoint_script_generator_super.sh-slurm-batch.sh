@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=${partition_pool[$node_number]}
 #SBATCH --nodelist=${nodelist_pool[$node_number]}
 
 home_root="/u/lgm4xn"

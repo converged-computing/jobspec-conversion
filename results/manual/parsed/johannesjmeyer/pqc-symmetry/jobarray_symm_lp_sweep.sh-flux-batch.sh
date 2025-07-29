@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-lentil-6908
+#FLUX --job-name=astute-destiny-0822
 #FLUX -c=8
 #FLUX -t=86400
 #FLUX --urgency=16

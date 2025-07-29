@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-avocado-5755
+#FLUX --job-name=buttery-squidward-6675
 #FLUX --queue=synergy
 #FLUX -t=604800
 #FLUX --urgency=16

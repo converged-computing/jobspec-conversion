@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=100G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu
 
 module purge
 module load 2021

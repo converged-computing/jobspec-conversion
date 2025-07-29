@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60GB
 #SBATCH --time=6-06:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=8GB
 #SBATCH --chdir=path_to_folder/understanding_reasoning/CLOSURE-master/output_slurm
 #SBATCH --array=0

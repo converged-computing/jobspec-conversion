@@ -6,8 +6,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32gb
 #SBATCH --time=23:00:00
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 
 pwd; hostname; date
 CATALOG_DIR=/share/nas2/walml/galaxy_zoo/decals/long_term_model_archive/prepared_catalogs/decals_dr_galahad

@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=50G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=tier3
 
 spack unload python
 spack load py-scikit-learn@0.22 arch=linux-rhel7-x86_64

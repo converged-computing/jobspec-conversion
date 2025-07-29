@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6400
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=shared
 #SBATCH --array=1-40
 
 module load lang/Anaconda3

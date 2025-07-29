@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-signal-3361
+#FLUX --job-name=crunchy-fudge-1090
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/espfit-experiment/experiments/spice-default/data/lsf-submit-small.sh

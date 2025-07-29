@@ -10,7 +10,6 @@
 #SBATCH --gres=a100:4
 #SBATCH --mem=600gb
 #SBATCH --time=3-08:00:00
-#SBATCH --partition=gpu
 
 echo "INFO: [$(date "+%Y-%m-%d %H:%M:%S")] Starting everglades workflow on $(hostname) in $(pwd)"
 echo "INFO [$(date "+%Y-%m-%d %H:%M:%S")] Loading required modules"

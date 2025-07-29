@@ -4,7 +4,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
 #SBATCH --time=03:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 cd $WRKDIR/chirp_estimation
 module load buildtool-easybuild

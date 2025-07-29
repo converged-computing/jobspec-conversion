@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-pedo-7878
+#FLUX --job-name=bumfuzzled-earthworm-0720
 #FLUX --queue=draco
 #FLUX -t=86400
 #FLUX --urgency=16

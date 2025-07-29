@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=batch
 
 export NUM_NODES='$SLURM_JOB_NUM_NODES'
 export NUM_FOCAL_SPOTS='1'

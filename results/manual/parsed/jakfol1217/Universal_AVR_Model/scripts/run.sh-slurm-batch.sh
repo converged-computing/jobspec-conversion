@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=32GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=short
 #SBATCH --constraint=dgx
 
 date "+%Y-%m-%d %H:%M:%S"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-sundae-9083
+#FLUX --job-name=bumfuzzled-train-8240
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/aponsero/BLAST_AMG_detection/scripts/run_analysis.sh

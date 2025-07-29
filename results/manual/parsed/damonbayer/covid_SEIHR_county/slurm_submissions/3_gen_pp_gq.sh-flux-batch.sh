@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-pancake-8769
+#FLUX --job-name=lovely-cat-2200
 #FLUX --queue=stats.p
 #FLUX -t=14400
 #FLUX --urgency=16

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=pharml-bind
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=spider
 #FLUX -t=86400
 #FLUX --urgency=16

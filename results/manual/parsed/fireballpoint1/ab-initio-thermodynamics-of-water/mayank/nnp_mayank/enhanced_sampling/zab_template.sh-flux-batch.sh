@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-blackbean-1855
+#FLUX --job-name=expensive-fork-4473
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

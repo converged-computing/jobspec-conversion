@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --time=01:00:00
-#SBATCH --partition=CAL48M192_D
 
 module purge
 module load intel/19.0.4.243

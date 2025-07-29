@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1G
 #SBATCH --time=00:01:00
-#SBATCH --partition=compute
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMPI_MCA_btl_sm_eager_limit='8192'
 export OMPI_MCA_btl_vader_eager_limit='8192'

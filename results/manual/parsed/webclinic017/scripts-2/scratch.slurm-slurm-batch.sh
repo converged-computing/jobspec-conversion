@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=8G
 #SBATCH --time=6-20:00:00
-#SBATCH --partition=bigmem
 
 WORKDIR=$PWD
 cd ${WORKDIR}

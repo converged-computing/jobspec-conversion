@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:QUADRORTX6000:1
 #SBATCH --mem=12G
 #SBATCH --time=6-23:00:00
-#SBATCH --partition=nklab
 
 CONFIG_FILE='./configs/vgg/face_AFD_matched_seed.yaml'
 SCRIPT=./train_new.py

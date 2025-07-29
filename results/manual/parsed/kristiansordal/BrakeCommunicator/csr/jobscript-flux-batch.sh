@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-poo-3151
+#FLUX --job-name=butterscotch-house-3958
 #FLUX --queue=defq
 #FLUX -t=240
 #FLUX --urgency=16

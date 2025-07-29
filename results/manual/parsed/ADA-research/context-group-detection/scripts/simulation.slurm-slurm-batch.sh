@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=10:00:00
-#SBATCH --partition=cpu-medium
 
 export PYTHONPATH='${PYTHONPATH}:${HOME}/data1/context-group-detection/'
 

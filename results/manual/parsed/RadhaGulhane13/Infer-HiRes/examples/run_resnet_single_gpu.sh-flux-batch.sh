@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-malarkey-7340
+#FLUX --job-name=hanky-spoon-5570
 #FLUX --queue=a100
 #FLUX -t=3600
 #FLUX --urgency=16

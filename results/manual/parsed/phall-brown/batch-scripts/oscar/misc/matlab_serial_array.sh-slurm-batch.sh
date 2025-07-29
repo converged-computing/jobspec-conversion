@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=batch
 
 t0=$(date +%s)
 module load matlab/R2021a

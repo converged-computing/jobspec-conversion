@@ -9,8 +9,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=256G
 #SBATCH --time=01:00:00
-#SBATCH --partition=disc
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --chdir=/home/khaled/
 
 module load Python/3.9.5-GCCcore-10.3.0

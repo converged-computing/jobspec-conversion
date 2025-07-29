@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-hope-9355
+#FLUX --job-name=adorable-pedo-0255
 #FLUX -N=2
 #FLUX -n=4
 #FLUX --queue=wildfire

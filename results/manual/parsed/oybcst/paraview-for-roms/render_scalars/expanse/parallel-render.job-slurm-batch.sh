@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=128G
 #SBATCH --time=00:40:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=16
 
 export SLURM_EXPORT_ENV='ALL'

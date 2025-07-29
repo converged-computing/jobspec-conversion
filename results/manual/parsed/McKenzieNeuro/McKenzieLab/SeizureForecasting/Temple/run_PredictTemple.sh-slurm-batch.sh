@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=neuro-hsc
 #SBATCH --array=1
 
 module load matlab/R2022a

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-malarkey-7122
+#FLUX --job-name=hairy-omelette-1535
 #FLUX -N=4
 #FLUX --queue=normal
 #FLUX --urgency=16

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=standard-g
 
 SLURM_CPUS_PER_TASK=52
 srun --cpus-per-task=$SLURM_CPUS_PER_TASK singularity run --cleanenv \

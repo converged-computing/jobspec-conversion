@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=cpu2023,cpu2022,cpu2021,cpu2019,synergy
 
 log_dir="$(pwd)"
 log_file="logs/metagenotate-analysis.log.txt"

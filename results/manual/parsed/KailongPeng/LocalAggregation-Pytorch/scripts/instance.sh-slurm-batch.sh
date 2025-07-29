@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=100g
 #SBATCH --time=06:00:00
-#SBATCH --partition=psych_gpu
 
 set -e
 nvidia-smi

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:8
 #SBATCH --time=08:00:00
-#SBATCH --partition=learnlab
 #SBATCH --constraint=ntasks-per-node=8
 
 size=xl

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-diablo-4751
+#FLUX --job-name=sticky-leg-4974
 #FLUX -c=8
 #FLUX --queue=alpha
 #FLUX -t=446399

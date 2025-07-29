@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a30:4
 #SBATCH --mem=256G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=paula
 #SBATCH --constraint=ntasks-per-node=1
 
 export GPUS_PER_NODE='4'

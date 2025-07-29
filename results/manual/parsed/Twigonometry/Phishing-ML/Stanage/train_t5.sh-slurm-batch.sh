@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=96G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu-h100
 #SBATCH --qos=gpu
 
 export WANDB_PROJECT='train_t5'

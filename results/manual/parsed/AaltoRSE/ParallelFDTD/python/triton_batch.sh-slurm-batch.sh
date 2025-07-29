@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=128000
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=volta|ampere|pascal
 
 mkdir -p return

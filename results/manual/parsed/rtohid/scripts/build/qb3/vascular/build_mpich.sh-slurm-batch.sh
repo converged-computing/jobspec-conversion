@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=gpu
 
 module unload mvapich2/2.3.3/intel-19.0.5
 module load cmake git hwloc parallel gcc mpich

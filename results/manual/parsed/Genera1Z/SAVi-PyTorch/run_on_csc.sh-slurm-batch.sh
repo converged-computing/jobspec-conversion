@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:1,nvme:25
 #SBATCH --mem=64G
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=gpusmall
 
 module load pytorch tensorflow vim
 pip install -r requirements.txt

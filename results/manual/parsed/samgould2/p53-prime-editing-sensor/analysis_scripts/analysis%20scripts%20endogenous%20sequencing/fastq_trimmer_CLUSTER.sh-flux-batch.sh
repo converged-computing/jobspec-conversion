@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-avocado-3816
+#FLUX --job-name=goodbye-lizard-5770
 #FLUX --urgency=16
 
 module load miniconda3/v4

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-motorcycle-1155
+#FLUX --job-name=tart-soup-0011
 #FLUX -N=24
 #FLUX -n=2304
 #FLUX --queue=standard96

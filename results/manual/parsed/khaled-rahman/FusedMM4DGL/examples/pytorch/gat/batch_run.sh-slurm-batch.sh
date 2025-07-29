@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=6-06:30:00
-#SBATCH --partition=azad
 
 module unload gcc
 module load gcc

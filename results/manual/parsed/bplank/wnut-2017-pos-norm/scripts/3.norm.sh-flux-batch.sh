@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-blackbean-7191
+#FLUX --job-name=boopy-itch-5269
 #FLUX --urgency=16
 
 SUBMIT=1

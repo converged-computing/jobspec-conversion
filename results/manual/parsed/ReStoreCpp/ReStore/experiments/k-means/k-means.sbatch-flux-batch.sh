@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-underoos-3455
+#FLUX --job-name=grated-leg-9241
 #FLUX -N=4
 #FLUX --queue=test
 #FLUX -t=1800

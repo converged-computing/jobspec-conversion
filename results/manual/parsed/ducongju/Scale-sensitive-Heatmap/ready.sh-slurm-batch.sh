@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=gpu
 
 eval "$(/opt/app/conda/bin/conda shell.bash hook)"
 module load app/cuda/10.1

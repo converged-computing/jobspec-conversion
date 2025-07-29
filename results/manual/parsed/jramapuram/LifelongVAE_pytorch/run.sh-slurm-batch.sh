@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:pascal:1
 #SBATCH --mem=6000
 #SBATCH --time=12:00:00
-#SBATCH --partition=shared-gpu
 #SBATCH --constraint=COMPUTE_CAPABILITY_6_0|COMPUTE_CAPABILITY_6_1
 
 echo $CUDA_VISIBLE_DEVICES

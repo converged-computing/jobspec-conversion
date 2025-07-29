@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gengpu
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/users/adbm760/multimodal/OFA/
 #SBATCH --nodelist=gpu04

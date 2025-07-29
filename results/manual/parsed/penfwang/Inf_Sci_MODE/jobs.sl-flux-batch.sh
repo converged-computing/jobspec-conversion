@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-signal-2502
+#FLUX --job-name=scruptious-motorcycle-4865
 #FLUX -c=2
 #FLUX --queue=large
 #FLUX -t=218100

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-rabbit-1575
+#FLUX --job-name=blue-despacito-1322
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

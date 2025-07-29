@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100-3g-20gb:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=a100
 
 export LD_LIBRARY_PATH='/home/pdlvic001/.local/lib/python3.8/site-packages/nvidia/cublas/lib/:$LD_LIBRARY_PATH'
 

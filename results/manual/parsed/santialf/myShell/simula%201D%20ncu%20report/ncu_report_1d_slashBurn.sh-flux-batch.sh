@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-leopard-3670
+#FLUX --job-name=salted-banana-6572
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=wholenode
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_NUM_THREADS='4'
 export OMP_PLACES='cores'

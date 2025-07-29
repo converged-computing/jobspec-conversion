@@ -7,7 +7,6 @@
 #SBATCH --gres=2
 #SBATCH --mem=8G
 #SBATCH --time=09:00:00
-#SBATCH --partition=accel
 
 source ${HOME}/.bashrc
 module purge

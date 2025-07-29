@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-leopard-4238
-#FLUX: --exclusive
+#FLUX --job-name=blank-chair-9226
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX -t=600
 #FLUX --urgency=16

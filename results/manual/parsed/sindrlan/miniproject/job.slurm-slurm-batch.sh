@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:A100m40:2
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=GPUQ
 #SBATCH --constraint=ntasks-per-node=1
 
 cd ${SLURM_SUBMIT_DIR}/yolov7

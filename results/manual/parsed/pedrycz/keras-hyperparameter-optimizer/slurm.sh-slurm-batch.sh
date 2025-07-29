@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu
 #SBATCH --time=10:00:00
-#SBATCH --partition=plgrid-gpu
 
 module purge
 module load plgrid/tools/python-intel

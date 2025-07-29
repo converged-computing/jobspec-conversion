@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-leader-1443
+#FLUX --job-name=rainbow-lemon-6383
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

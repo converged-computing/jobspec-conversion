@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=10gb
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=standard
 #SBATCH --array=6
 
 export MPIRUN_OPTIONS='--bind-to core --map-by node:PE=${SLURM_CPUS_PER_TASK} -report-bindings'

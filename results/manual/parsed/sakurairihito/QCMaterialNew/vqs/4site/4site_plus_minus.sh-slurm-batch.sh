@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=15
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=defq
 
 export OMP_NUM_THREADS='1'
 

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=ava_m.p
 #SBATCH --array=0
 #SBATCH --exclude=ava-m4
 

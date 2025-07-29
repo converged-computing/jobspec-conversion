@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-fork-3588
+#FLUX --job-name=creamy-hobbit-0709
 #FLUX -n=10
 #FLUX -t=172800
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-malarkey-7412
+#FLUX --job-name=psycho-pot-3395
 #FLUX -n=6
 #FLUX --queue=dgx2q
 #FLUX -t=87840

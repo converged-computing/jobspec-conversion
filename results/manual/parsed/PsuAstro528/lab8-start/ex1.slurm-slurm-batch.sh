@@ -8,7 +8,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=8GB
 #SBATCH --time=00:15:00
-#SBATCH --partition=burst
 #SBATCH --qos=burst4x
 #SBATCH --constraint=ntasks-per-node=1
 

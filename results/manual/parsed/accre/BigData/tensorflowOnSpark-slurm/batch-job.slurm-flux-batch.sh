@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-malarkey-6525
+#FLUX --job-name=creamy-malarkey-4492
 #FLUX -N=2
 #FLUX --queue=maxwell
 #FLUX -t=3600

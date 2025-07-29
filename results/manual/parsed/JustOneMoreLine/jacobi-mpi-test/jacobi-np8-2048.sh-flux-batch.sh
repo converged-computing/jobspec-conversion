@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-banana-0718
+#FLUX --job-name=grated-toaster-9326
 #FLUX -N=8
 #FLUX --queue=batch
 #FLUX --urgency=16

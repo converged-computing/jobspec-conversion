@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-lemon-0415
+#FLUX --job-name=dinosaur-general-5331
 #FLUX -n=4
 #FLUX -t=604800
 #FLUX --urgency=16

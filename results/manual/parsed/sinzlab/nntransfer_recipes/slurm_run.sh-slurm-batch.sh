@@ -10,6 +10,5 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=1000
 #SBATCH --time=00:01:00
-#SBATCH --partition=gpu-2080ti
 
 ./singularity_run.sh run 0 python3 bias_transfer_recipes/main.py --recipe $1 --experiment $2

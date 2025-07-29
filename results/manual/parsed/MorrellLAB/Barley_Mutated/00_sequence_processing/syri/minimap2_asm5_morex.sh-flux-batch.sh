@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-latke-6920
+#FLUX --job-name=purple-spoon-8467
 #FLUX --queue=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
 #FLUX -t=10800
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8Gb
 #SBATCH --time=03:00:00
-#SBATCH --partition=reservation
 
 REPEAT=20
 module load cmake/3.18.1

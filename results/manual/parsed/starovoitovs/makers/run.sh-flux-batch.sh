@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-lettuce-0824
+#FLUX --job-name=reclusive-cattywampus-5288
 #FLUX -n=4
 #FLUX -c=2
 #FLUX --queue=booster

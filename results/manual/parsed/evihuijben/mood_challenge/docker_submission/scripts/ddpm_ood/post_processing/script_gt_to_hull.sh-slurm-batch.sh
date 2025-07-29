@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=41-16:00:00
-#SBATCH --partition=bme.gpuresearch.q
 #SBATCH --nodelist=bme-gpuB001
 
 source /home/bme001/s144823/conda/etc/profile.d/conda.sh

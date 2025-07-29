@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=normal_q
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export ERROR='${OUTFILE%%.*}.error'
 export TEMP='$LEVEL/"$OUTFILE.reap'

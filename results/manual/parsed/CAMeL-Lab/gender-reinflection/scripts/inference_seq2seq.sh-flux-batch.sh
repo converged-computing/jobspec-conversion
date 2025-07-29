@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-lemon-1076
+#FLUX --job-name=milky-onion-1435
 #FLUX --queue=nvidia
 #FLUX -t=41400
 #FLUX --urgency=16

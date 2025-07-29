@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-banana-2834
+#FLUX --job-name=goodbye-chip-7173
 #FLUX -n=24
 #FLUX --queue=huce_cascade
 #FLUX -t=10

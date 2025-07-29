@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=60000
 #SBATCH --time=02:00:00
-#SBATCH --partition=gll_usr_prod
 #SBATCH --constraint=ntasks-per-node=36
 
 module load intel/pe-xe-2018--binary

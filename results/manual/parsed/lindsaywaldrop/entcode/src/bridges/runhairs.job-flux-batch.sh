@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-earthworm-6711
+#FLUX --job-name=blue-chair-8668
 #FLUX --queue=defq
 #FLUX -t=43200
 #FLUX --urgency=16

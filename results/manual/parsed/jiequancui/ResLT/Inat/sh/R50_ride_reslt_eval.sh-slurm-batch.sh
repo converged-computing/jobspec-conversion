@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --gres=gpu:4
-#SBATCH --partition=batch_72h
 #SBATCH --constraint=ubuntu18
 
 source activate py3.6pt1.5

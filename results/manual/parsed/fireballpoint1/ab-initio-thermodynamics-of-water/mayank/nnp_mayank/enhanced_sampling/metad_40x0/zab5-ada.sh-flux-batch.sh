@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-general-9035
+#FLUX --job-name=bloated-soup-6640
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

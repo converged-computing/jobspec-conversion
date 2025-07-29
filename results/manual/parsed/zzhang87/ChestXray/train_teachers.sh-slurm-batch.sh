@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=64g
-#SBATCH --partition=terramepp
 #SBATCH --chdir=/home/n-z/zzhang52/Insight/ChestXray/
 
 MODEL_NAME=mobilenet

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-fork-4654
+#FLUX --job-name=blank-hobbit-3147
 #FLUX --queue=seas_gpu,gpu,cox
 #FLUX -t=259200
 #FLUX --urgency=16

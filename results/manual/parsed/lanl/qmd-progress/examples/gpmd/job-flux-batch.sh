@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-itch-8994
+#FLUX --job-name=persnickety-staircase-4638
 #FLUX -n=40
 #FLUX --queue=ccs6
 #FLUX -t=604800

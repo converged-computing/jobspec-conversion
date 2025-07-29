@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=00:15:00
-#SBATCH --partition=sched_mit_sloan_batch
 #SBATCH --array=1-200
 
 module load julia/1.2.0

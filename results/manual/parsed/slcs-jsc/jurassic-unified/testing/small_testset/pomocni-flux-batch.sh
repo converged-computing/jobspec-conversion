@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-carrot-7662
+#FLUX --job-name=arid-buttface-3943
 #FLUX -N=2
 #FLUX -c=24
 #FLUX --queue=gpus

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=sticky-staircase-2288
+#FLUX --job-name=persnickety-arm-9502
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

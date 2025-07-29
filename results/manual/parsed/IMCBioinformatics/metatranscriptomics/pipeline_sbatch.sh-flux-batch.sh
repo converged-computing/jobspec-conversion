@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-train-0590
+#FLUX --job-name=gassy-lemon-0609
 #FLUX -c=8
 #FLUX --queue=synergy,cpu2019,cpu2021
 #FLUX -t=604800

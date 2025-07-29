@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-carrot-8790
+#FLUX --job-name=crusty-buttface-7024
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-CO-OPS/2023-NOS-Code-Package-v3.5.7/pbs/jnos_leofs_aws_00.pbs

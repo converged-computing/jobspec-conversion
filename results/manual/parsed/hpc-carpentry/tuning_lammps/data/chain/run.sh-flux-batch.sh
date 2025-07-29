@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-egg-5819
+#FLUX --job-name=expensive-staircase-8421
 #FLUX --queue=devel
 #FLUX -t=900
 #FLUX --urgency=16

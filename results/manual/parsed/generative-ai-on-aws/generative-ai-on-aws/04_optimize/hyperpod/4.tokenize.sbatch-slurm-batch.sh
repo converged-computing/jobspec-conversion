@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=128
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 : "${APPS_PATH:=/fsx}"
 : "${MODEL_PATH:=/fsx}"

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=bigmem
 #SBATCH --constraint=amd
 #SBATCH --array=1-10
 

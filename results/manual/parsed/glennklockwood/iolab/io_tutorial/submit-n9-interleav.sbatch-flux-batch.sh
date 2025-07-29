@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-bicycle-0611
+#FLUX --job-name=gloopy-diablo-4764
 #FLUX -N=4
 #FLUX -n=64
 #FLUX -t=1800

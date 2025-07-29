@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-peanut-3222
+#FLUX --job-name=red-train-9899
 #FLUX --queue=small
 #FLUX -t=3600
 #FLUX --urgency=16

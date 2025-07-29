@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
-#SBATCH --partition=msc
 
 export TMPDIR='/scratch-ssd/${USER}/tmp'
 export CONDA_ENVS_PATH='/scratch-ssd/$USER/conda_envs'

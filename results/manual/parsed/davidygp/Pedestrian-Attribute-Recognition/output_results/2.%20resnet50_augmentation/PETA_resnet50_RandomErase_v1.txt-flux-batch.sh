@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-earthworm-5623
+#FLUX --job-name=red-cinnamonbun-7968
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/davidygp/Pedestrian-Attribute-Recognition/output_results/2.%20resnet50_augmentation/PETA_resnet50_RandomErase_v1.txt

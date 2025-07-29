@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=general
 #SBATCH --constraint=ntasks-per-node=48
 
 module load lammps/29Oct20

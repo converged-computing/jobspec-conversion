@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-cat-7728
+#FLUX --job-name=adorable-bits-9384
 #FLUX -c=10
 #FLUX --queue=learnfair
 #FLUX -t=129600

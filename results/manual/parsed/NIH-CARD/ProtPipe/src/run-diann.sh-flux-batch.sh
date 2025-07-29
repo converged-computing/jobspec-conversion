@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-punk-9197
+#FLUX --job-name=placid-plant-2160
 #FLUX --queue=norm
 #FLUX -t=14400
 #FLUX --urgency=16

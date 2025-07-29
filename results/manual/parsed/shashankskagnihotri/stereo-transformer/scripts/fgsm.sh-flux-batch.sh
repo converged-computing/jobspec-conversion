@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-milkshake-8149
+#FLUX --job-name=grated-lettuce-2149
 #FLUX -c=64
 #FLUX --queue=gpu
 #FLUX -t=86399

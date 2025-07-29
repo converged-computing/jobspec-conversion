@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=255gb
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=celltypes
 #SBATCH --constraint=a100|v100
 
 source ~/.bashrc

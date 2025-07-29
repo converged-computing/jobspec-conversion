@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-fudge-4417
+#FLUX --job-name=misunderstood-nunchucks-0152
 #FLUX --queue=quick,norm
 #FLUX -t=14399
 #FLUX --urgency=16

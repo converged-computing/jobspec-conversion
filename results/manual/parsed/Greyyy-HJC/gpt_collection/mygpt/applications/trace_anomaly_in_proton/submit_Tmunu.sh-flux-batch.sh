@@ -2,7 +2,7 @@
 #FLUX --job-name=Tmunu
 #FLUX -c=16
 #FLUX --gpus-per-task=1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpuA40x4
 #FLUX -t=64800
 #FLUX --urgency=16

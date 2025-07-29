@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=10G
 #SBATCH --time=11:59:00
-#SBATCH --partition=gpu-medium
 #SBATCH --array=1-101%3
 
 export ENV='/home/s2358093/data1/conda_envs/hvm-05'

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=60g
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --chdir=/scratch/p288722/runtime_data/scd_videos_first_revision/06_I_frames_bs32
 #SBATCH --array=1
 

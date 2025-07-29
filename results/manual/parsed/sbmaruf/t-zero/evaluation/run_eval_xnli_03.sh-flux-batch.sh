@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-signal-0798
+#FLUX --job-name=blank-spoon-7943
 #FLUX --queue=PA100q
 #FLUX --urgency=16
 

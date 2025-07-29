@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=gassy-staircase-8794
+#FLUX --job-name=milky-caramel-5452
 #FLUX -N=2
 #FLUX -n=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=huce_cascade
 #FLUX -t=480
 #FLUX --urgency=16

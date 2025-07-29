@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-fudge-2554
+#FLUX --job-name=milky-frito-7506
 #FLUX --queue=LongJobs
 #FLUX -t=108000
 #FLUX --urgency=16

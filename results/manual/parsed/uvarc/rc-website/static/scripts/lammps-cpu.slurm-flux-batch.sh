@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-pedo-9565
+#FLUX --job-name=tart-peanut-butter-2009
 #FLUX -N=2
 #FLUX --queue=parallel
 #FLUX -t=259200

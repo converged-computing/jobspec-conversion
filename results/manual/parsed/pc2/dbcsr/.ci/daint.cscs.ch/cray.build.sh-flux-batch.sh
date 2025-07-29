@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=spicy-carrot-8067
+#FLUX --job-name=phat-platanos-7441
 #FLUX -c=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cscsci
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=320G
 #SBATCH --time=8-00:00:00
-#SBATCH --partition=gpu
 
 TRAIN=false
 EVAL=false

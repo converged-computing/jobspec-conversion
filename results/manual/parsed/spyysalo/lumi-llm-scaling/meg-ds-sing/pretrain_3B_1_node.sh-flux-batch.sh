@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-cupcake-2227
-#FLUX: --exclusive
+#FLUX --job-name=bricky-leopard-6977
+#FLUX --exclusive
 #FLUX --queue=standard-g
 #FLUX -t=1800
 #FLUX --urgency=16

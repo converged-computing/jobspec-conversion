@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=componc_cpu,componc_gpu
 
 source /home/preskaa/miniconda3/bin/activate nf-core
 module load singularity/3.7.1

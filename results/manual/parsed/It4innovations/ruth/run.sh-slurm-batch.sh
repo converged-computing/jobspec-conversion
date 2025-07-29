@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=qcpu
 
 ml purge
 ml Python/3.10.8-GCCcore-12.2.0

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=100G
 #SBATCH --time=4-20:00:00
-#SBATCH --partition=cuda
 
 module load intel/python/3/2019.4.088
 module load nvidia/cudasdk/11.6

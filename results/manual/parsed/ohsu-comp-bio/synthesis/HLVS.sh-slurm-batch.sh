@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 
 source project_root/bin/activate
 python HLVS.py 'output_dir_name/' '/train_file_path/*.tsv' $1 40 10 150

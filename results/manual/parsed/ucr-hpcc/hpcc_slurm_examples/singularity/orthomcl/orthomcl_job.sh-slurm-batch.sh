@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=04:00:00
-#SBATCH --partition=intel
 
 module load singularity
 module load orthomcl

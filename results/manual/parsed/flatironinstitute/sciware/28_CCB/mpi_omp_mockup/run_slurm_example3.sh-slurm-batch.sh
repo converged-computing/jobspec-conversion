@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=00:10:00
-#SBATCH --partition=ccb
 #SBATCH --constraint=ntasks-per-node=8,rome,ib
 
 module -q purge

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=regular
 
 module purge
 module load anyenv

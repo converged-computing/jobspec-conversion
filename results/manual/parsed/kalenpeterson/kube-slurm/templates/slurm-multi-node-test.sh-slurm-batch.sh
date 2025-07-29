@@ -5,7 +5,6 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=Test
 
 export KUBE_IMAGE='docker.io/kalenpeterson/lambda-openmpi:20230720-v19'
 export KUBE_SCRIPT='/nas/slurm/data/run-sleep.sh'

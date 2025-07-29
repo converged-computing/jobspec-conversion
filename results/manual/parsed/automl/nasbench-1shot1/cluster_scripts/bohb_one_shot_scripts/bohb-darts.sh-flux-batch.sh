@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-leader-1737
+#FLUX --job-name=strawberry-house-2880
 #FLUX --queue=bosch_gpu-rtx2080
 #FLUX --urgency=16
 

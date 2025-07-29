@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-gato-5440
+#FLUX --job-name=dinosaur-earthworm-5001
 #FLUX --queue=v100_full_node
 #FLUX --urgency=16
 

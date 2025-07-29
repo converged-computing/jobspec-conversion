@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=alm
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=a6
 #FLUX --urgency=16
 

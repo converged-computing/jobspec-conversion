@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-itch-9168
+#FLUX --job-name=rainbow-motorcycle-7175
 #FLUX -N=15
 #FLUX --queue=parallel
 #FLUX -t=7200

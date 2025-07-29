@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:00:10
-#SBATCH --partition=hgx2q
 #SBATCH --nodelist=g002
 
 export OMPI_MCA_opal_cuda_support='true'

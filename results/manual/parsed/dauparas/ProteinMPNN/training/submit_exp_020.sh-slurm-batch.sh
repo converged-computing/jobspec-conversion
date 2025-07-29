@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=128g
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu
 
 source activate mlfold-test
 python ./training.py \

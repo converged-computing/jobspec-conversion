@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=01:00:00
-#SBATCH --partition=short
 #SBATCH --array=0-15%7
 
 BAMDIR=$1

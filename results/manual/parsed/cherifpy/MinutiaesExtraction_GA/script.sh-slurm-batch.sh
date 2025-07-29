@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:2
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=nvidia
 
 export TF_CPP_MIN_LOG_LEVEL='2'
 

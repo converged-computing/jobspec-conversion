@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-pancake-4750
+#FLUX --job-name=expressive-chair-4023
 #FLUX -c=7
 #FLUX --queue=small-g
 #FLUX -t=600

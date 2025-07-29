@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-squidward-3485
+#FLUX --job-name=hanky-squidward-9990
 #FLUX -c=24
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=360

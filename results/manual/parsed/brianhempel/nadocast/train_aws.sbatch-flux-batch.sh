@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=psycho-gato-8395
-#FLUX: --exclusive
+#FLUX --job-name=ornery-chip-1606
+#FLUX --exclusive
 #FLUX -t=604800
 #FLUX --urgency=16
 

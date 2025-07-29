@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-underoos-4099
+#FLUX --job-name=buttery-peanut-7639
 #FLUX -n=8
 #FLUX --queue=i8cpu
 #FLUX -t=1800

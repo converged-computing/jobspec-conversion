@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=96
 #SBATCH --mem=24gb
-#SBATCH --partition=short
 #SBATCH --array=1-14
 
 module load diamond

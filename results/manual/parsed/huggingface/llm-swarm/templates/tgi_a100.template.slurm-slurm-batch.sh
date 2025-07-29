@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=8
 #SBATCH --mem=11G
-#SBATCH --partition=hopper-prod
 
 export model='{{model}}'
 export revision='{{revision}}'

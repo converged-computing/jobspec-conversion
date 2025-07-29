@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-onion-6397
+#FLUX --job-name=tart-pastry-1415
 #FLUX -N=4
 #FLUX --queue=normal
 #FLUX -t=86400

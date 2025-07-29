@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=32G
 #SBATCH --time=11-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu_access
 
 filename=$1

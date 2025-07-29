@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8000
 #SBATCH --time=00:06:00
-#SBATCH --partition=serial_requeue
 
 module load Anaconda3/5.0.1-fasrc01
 python -c "import datetime; print(\"Date and time is: \" + str(datetime.datetime.now()))"

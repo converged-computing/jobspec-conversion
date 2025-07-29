@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-hobbit-4410
+#FLUX --job-name=butterscotch-caramel-9436
 #FLUX -c=40
 #FLUX --queue=rise
 #FLUX -t=259200

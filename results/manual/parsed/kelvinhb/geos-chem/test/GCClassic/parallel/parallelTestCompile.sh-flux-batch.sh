@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-onion-8906
+#FLUX --job-name=bumfuzzled-house-2227
 #FLUX -c=8
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=30

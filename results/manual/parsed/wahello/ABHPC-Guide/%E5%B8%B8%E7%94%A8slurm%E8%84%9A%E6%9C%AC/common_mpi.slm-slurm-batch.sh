@@ -5,7 +5,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=E5-2640V4
 #SBATCH --constraint=ntasks-per-node=20
 
 MPI_CMD="a.out -in xxx.in"

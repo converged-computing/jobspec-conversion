@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
 #SBATCH --gres=gpu:2
-#SBATCH --partition=gpu
 #SBATCH --constraint=p100
 
 module purge

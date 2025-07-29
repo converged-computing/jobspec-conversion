@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=grated-bits-3308
+#FLUX --job-name=creamy-nalgas-3821
 #FLUX -c=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

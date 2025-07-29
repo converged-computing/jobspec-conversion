@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=30g
 #SBATCH --time=12:00:00
-#SBATCH --partition=short
 #SBATCH --constraint=EPYC-7543&(A100|V100)
 
 module load python/3.12.3/mftt2ua

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6500
 #SBATCH --time=04:00:00
-#SBATCH --partition=standard
 #SBATCH --array=105-112
 
 module load python3.9-anaconda

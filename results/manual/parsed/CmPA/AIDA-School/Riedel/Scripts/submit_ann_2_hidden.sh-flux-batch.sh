@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-bits-0138
+#FLUX --job-name=loopy-platanos-1603
 #FLUX --queue=dp-dam
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-train-0475
+#FLUX --job-name=arid-chair-9495
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/shwina/palmetto-examples/examples/MATLAB/job.sh

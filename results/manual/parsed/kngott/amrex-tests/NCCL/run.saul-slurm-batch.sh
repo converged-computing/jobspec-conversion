@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=early_science
 #SBATCH --constraint=gpu,ntasks-per-node=4
 
 export CRAY_ACCEL_TARGET='nvidia80'

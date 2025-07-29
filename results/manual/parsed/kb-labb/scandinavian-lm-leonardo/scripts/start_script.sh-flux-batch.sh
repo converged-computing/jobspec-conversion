@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-despacito-2234
+#FLUX --job-name=angry-pedo-5705
 #FLUX -N=2
 #FLUX -c=8
 #FLUX --queue=boost_usr_prod

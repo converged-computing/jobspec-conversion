@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=62gb
 #SBATCH --time=3-08:00:00
-#SBATCH --partition=small,amdsmall
 
 module load python/2
 src=/home/research/genome/assemblies_configs/

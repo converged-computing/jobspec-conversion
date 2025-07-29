@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-poo-2431
+#FLUX --job-name=moolicious-arm-4656
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

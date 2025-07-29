@@ -4,8 +4,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4g
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=norm
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 source /mnt/ccrsf-ifx/Software/tools/Anaconda/3.11/etc/profile.d/conda.sh
 conda activate snakemake

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1,vram:24G
 #SBATCH --mem=40G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu_quad,gpu,gpu_marks
 #SBATCH --qos=gpuquad_qos
 #SBATCH --array=2524
 

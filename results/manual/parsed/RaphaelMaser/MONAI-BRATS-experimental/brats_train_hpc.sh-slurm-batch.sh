@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=7
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=normal
 #SBATCH --array=0-4
 

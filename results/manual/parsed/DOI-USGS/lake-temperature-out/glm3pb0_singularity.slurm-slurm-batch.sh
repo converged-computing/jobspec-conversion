@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=72
 #SBATCH --mem=192GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=cpu
 
 module load singularity/3.3.0
 ulimit -u 1541404

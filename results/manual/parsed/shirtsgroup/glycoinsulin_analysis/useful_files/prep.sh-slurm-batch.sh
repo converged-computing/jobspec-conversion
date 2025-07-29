@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=RM
 #SBATCH --constraint=ntasks-per-node=128
 
 set -e   # exit upon error

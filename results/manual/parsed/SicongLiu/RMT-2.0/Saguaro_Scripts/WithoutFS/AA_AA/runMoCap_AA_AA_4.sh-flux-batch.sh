@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-knife-0581
+#FLUX --job-name=muffled-kitty-2823
 #FLUX -n=4
 #FLUX --queue=serial
 #FLUX -t=720

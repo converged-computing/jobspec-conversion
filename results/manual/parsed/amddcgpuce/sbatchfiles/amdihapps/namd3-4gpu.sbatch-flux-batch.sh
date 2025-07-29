@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-diablo-8810
+#FLUX --job-name=astute-destiny-5016
 #FLUX -c=16
 #FLUX --urgency=16
 

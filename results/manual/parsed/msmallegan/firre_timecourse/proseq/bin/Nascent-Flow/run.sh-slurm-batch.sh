@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8gb
 #SBATCH --time=12:00:00
-#SBATCH --partition=long
 
 module load sra/2.8.0
 module load bbmap/38.05

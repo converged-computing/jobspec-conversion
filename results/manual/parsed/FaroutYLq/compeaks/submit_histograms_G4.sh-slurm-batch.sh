@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3G
 #SBATCH --time=00:30:00
-#SBATCH --partition=dali
 #SBATCH --qos=dali
 
 OPTICS=$1

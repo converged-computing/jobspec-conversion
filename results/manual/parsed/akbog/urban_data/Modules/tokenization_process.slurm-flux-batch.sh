@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-lemur-5259
+#FLUX --job-name=carnivorous-bits-0780
 #FLUX -n=16
 #FLUX --queue=parallel
 #FLUX -t=86400

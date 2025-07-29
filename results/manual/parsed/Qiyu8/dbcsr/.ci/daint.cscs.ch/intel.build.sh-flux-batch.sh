@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-sundae-9167
+#FLUX --job-name=fuzzy-car-8618
 #FLUX -c=3
 #FLUX --queue=cscsci
 #FLUX --urgency=16

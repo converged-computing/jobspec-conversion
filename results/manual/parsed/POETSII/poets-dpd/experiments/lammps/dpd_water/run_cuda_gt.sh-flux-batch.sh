@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-leg-1956
+#FLUX --job-name=confused-nunchucks-8859
 #FLUX --queue=gtx1080
 #FLUX --urgency=16
 

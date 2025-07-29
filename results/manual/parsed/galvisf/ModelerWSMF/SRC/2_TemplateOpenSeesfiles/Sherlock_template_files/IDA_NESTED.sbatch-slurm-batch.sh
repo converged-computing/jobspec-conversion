@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=16:00:00
-#SBATCH --partition=cee
 #SBATCH --qos=normal
 #SBATCH --constraint=ntasks-per-node=16
 

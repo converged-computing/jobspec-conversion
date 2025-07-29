@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=aquila
 #SBATCH --nodelist=agpu7
 
 module purge                        # 清除所有已加载的模块

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-lentil-2875
+#FLUX --job-name=faux-peanut-3765
 #FLUX --queue=normal
 #FLUX -t=1800
 #FLUX --urgency=16

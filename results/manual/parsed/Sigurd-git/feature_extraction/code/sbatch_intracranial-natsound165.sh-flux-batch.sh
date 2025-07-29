@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-mango-5269
+#FLUX --job-name=blue-peanut-butter-7631
 #FLUX -c=8
 #FLUX --queue=doppelbock
 #FLUX -t=14400

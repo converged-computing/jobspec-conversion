@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=8
-#SBATCH --partition=g40x
 
 while getopts "r:p:s:S:C:F:t:" opt; do
   case ${opt} in

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --gres=gpu:tesla-smx2:2
 #SBATCH --mem=100000
-#SBATCH --partition=gpu
 
 module load anaconda/3.6
 source activate /opt/ohpc/pub/apps/pytorch_1.10_openmpi

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-banana-9172
+#FLUX --job-name=rainbow-leader-4428
 #FLUX --queue=wacc
 #FLUX --urgency=16
 

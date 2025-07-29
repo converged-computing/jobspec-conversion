@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-gato-6659
+#FLUX --job-name=gassy-itch-7797
 #FLUX -N=2
 #FLUX --queue=skl_usr_prod
 #FLUX -t=60

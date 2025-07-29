@@ -4,8 +4,7 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=EPYC-16c_edr-ib1_256gb_2666
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=16
 
 export PATH='/scratch_lustre_DDN7k/xguox/gromacs/install/bin:$PATH'

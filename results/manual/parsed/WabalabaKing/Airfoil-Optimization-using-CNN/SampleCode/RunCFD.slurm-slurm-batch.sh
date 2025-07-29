@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=test
 #SBATCH --constraint=ntasks-per-node=14
 
 export SLURM_SUBMIT_DIR='/home/wz10/scratch/Deformed/RAE_Deform_1'

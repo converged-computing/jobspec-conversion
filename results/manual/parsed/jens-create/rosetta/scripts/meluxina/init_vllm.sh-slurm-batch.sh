@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=default
 
 echo "===================================="

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8192
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --nodelist=clamps
 
 uname -a                                          # Display assigned cluster info

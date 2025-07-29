@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --time=02:00:00
-#SBATCH --partition=debug
 
 export WANDB_DIR='/scratch/disc/p.templier/wandb_files'
 

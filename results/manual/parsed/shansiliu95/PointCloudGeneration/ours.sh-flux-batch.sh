@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-pancake-7895
+#FLUX --job-name=crusty-kerfuffle-7230
 #FLUX -n=12
 #FLUX --queue=volta-gpu
 #FLUX -t=864000

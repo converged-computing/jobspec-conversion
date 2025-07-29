@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-kitty-3505
+#FLUX --job-name=moolicious-nalgas-6673
 #FLUX --queue=Teach-Standard
 #FLUX -t=28800
 #FLUX --urgency=16

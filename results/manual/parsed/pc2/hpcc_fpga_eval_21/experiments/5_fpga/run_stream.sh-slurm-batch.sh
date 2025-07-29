@@ -6,7 +6,6 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=fpga
 #SBATCH --constraint=20.4.0_hpc
 #SBATCH --nodelist=fpga-0001,fpga-0002,fpga-0004,fpga-0005,fpga-0006
 

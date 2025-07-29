@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1024
 #SBATCH --time=00:02:00
-#SBATCH --partition=debug_5min
 #SBATCH --chdir=/home/cs504312/cs5043/hw/hw_0
 #SBATCH --array=0-9
 

@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10:00:00
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 source ./GLOBAL_VAR.sh
 group="$1"

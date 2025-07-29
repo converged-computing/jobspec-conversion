@@ -6,7 +6,6 @@
 #SBATCH --gres=a100:1
 #SBATCH --mem=64gb
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 date;hostname;pwd
 module load singularity

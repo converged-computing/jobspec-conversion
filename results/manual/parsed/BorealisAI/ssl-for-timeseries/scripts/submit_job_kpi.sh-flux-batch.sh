@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-parrot-7575
+#FLUX --job-name=quirky-squidward-3699
 #FLUX --urgency=16
 
 for seed in 1 2 3 4 5

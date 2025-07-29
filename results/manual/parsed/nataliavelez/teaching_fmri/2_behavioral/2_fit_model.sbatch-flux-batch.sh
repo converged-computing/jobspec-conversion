@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-omelette-2345
+#FLUX --job-name=phat-plant-5705
 #FLUX --queue=fasse
 #FLUX -t=3600
 #FLUX --urgency=16

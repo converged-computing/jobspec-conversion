@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10gb
 #SBATCH --time=01:25:00
-#SBATCH --partition=gpu
 
 echo "Starting at $(date)"
 echo ""

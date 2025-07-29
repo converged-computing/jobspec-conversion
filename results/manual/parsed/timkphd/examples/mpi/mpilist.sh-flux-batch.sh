@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=hello
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=shared
 #FLUX -t=1200
 #FLUX --urgency=16

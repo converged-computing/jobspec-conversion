@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=51200
 #SBATCH --time=8-08:00:00
-#SBATCH --partition=general
 #SBATCH --array=1-10
 
 source paccmann_predict/bin/activate

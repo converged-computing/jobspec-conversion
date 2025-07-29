@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000M
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=RM
 
 export spar='12'
 export ACT_NBRE_KMC_STEPS='5'

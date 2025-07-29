@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=shared
 
 dataverse="harvard"            # harvard or demo
 singularity_within_snakemake=1 # 1 or 0

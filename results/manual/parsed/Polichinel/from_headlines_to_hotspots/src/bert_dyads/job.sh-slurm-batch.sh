@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=alvis
 
 input_file=$1  # opting to also take the file as an input argument
 eval `head -n $SLURM_ARRAY_TASK_ID $input_file | tail -1`

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-lettuce-8900
+#FLUX --job-name=frigid-bits-1950
 #FLUX --queue=shared
 #FLUX -t=60
 #FLUX --urgency=16

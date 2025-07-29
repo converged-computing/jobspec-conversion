@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16gb
-#SBATCH --partition=intel
 
 export MODULEPATH='/opt/easybuild/modules/all'
 export OMP_NUM_THREADS='4'

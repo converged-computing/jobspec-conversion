@@ -2,7 +2,6 @@
 #SBATCH --nodes=5
 #SBATCH --ntasks=9
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=fpga
 #SBATCH --constraint=19.4.0_max
 
 module load intelFPGA_pro/20.3.0

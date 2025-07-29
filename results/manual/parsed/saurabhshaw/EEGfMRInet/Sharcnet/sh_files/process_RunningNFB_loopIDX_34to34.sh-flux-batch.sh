@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-cat-5487
+#FLUX --job-name=frigid-taco-6947
 #FLUX -c=8
 #FLUX -t=170
 #FLUX --urgency=16

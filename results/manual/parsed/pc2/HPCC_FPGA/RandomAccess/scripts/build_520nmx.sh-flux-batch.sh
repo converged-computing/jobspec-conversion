@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-knife-4766
+#FLUX --job-name=outstanding-lamp-0344
 #FLUX --queue=fpgasyn
 #FLUX --urgency=16
 

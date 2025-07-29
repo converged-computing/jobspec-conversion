@@ -7,7 +7,6 @@
 #SBATCH --ntasks=48
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=ntasks-per-node=48
 
 export LOGNAME='$WORK/$1'

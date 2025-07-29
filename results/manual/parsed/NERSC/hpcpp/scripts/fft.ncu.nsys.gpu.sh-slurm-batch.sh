@@ -9,7 +9,7 @@
 #SBATCH --gres=4
 #SBATCH --time=03:00:00
 #SBATCH --qos=regular
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=gpu,ntasks-per-node=4
 
 set +x

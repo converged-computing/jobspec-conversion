@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-truffle-7516
+#FLUX --job-name=bumfuzzled-chip-4889
 #FLUX -c=7
 #FLUX -t=259200
 #FLUX --urgency=16

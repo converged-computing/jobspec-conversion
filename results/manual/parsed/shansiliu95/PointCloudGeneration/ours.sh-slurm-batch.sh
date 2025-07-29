@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=16g
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=volta-gpu
 #SBATCH --qos=gpu_access
 
 source activate tf_v100

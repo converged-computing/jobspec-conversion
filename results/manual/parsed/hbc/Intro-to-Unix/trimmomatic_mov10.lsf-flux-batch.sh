@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-cat-3339
+#FLUX --job-name=gassy-egg-7668
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hbc/Intro-to-Unix/trimmomatic_mov10.lsf

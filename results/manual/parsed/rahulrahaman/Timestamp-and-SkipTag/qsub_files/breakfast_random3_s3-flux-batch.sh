@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-nunchucks-6991
+#FLUX --job-name=boopy-car-8559
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rahulrahaman/Timestamp-and-SkipTag/qsub_files/breakfast_random3_s3

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-general-7278
+#FLUX --job-name=loopy-omelette-0638
 #FLUX -c=6
 #FLUX --queue=amdgpulong
 #FLUX -t=259200

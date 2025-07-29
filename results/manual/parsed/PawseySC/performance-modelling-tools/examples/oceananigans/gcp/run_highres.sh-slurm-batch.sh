@@ -6,7 +6,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=4
-#SBATCH --partition=v100
 
 export RESOLUTION='12 '
 export NZ='50'

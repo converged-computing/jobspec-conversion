@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=200G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=coenv
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210712_pgen_blobtools_Panopea-generosa-v1.0
 
 module load blobtoolkit-v2.6.1.module

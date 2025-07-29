@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-plant-7060
+#FLUX --job-name=placid-truffle-2403
 #FLUX -n=2
 #FLUX --queue=quick,norm
 #FLUX -t=3540

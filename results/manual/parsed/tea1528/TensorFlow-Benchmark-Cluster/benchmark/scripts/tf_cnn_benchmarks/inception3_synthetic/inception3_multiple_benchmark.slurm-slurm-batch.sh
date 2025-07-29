@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=10G
 #SBATCH --time=20:00:00
-#SBATCH --partition=maxwell
 
 module load GCC Singularity git
 singularity exec --nv docker://tensorflow/tensorflow:latest-gpu \

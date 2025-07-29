@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=physical
 #SBATCH --constraint=ntasks-per-node=1
 
 cd /home/$USER/COMP90024/HPC-Geo-Data-Processing/slurm

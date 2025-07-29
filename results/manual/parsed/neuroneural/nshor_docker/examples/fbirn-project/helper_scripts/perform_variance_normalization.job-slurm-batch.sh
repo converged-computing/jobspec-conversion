@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=32g
 #SBATCH --time=20:00:00
-#SBATCH --partition=qTRD
 
 module load afni
 BASEDIR=/data/users2/jwardell1/nshor_docker/examples/fbirn-project/FBIRN

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-earthworm-9180
+#FLUX --job-name=frigid-diablo-7717
 #FLUX -N=3
 #FLUX -n=96
 #FLUX -t=255600

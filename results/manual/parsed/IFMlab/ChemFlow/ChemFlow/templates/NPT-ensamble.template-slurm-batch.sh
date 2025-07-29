@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=publicgpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=gpup100|gpu1080|gpuv100|gpurtx5000|gpurtx6000
 #SBATCH --exclude=hpc-n224
 

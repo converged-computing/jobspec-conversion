@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=128000
 #SBATCH --time=04:00:00
-#SBATCH --partition=bii
 
 PATH=$PATH:/project/biocomplexity/isentry/bin
 module load gcc

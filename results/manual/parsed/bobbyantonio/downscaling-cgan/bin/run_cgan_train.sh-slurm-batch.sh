@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:A100:1
 #SBATCH --mem=300gb
 #SBATCH --time=8-00:00:00
-#SBATCH --partition=cnu
 #SBATCH --constraint=ntasks-per-node=1
 
 source ~/.bashrc

@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=8G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=accel
 #SBATCH --constraint=ntasks-per-node=1
 
 set -o errexit

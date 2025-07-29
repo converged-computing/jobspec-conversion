@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-poodle-1156
+#FLUX --job-name=goodbye-salad-3996
 #FLUX --urgency=16
 
 define_modules_config()

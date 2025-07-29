@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-cat-6993
+#FLUX --job-name=arid-itch-7575
 #FLUX -t=600
 #FLUX --urgency=16
 

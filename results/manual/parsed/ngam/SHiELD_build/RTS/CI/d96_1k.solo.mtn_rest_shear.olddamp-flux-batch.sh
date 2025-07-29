@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-soup-5727
+#FLUX --job-name=spicy-train-9750
 #FLUX -n=24
 #FLUX --urgency=16
 

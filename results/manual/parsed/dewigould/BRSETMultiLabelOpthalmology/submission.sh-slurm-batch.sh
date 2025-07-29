@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=11:30:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=1
 
 export XLA_FLAGS='--xla_gpu_cuda_data_dir=/apps/system/easybuild/software/CUDA/11.8.0/'

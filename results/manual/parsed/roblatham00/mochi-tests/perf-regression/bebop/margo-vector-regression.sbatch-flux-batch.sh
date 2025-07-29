@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-snack-8201
+#FLUX --job-name=phat-rabbit-5893
 #FLUX -N=2
 #FLUX --queue=bdwall
 #FLUX -t=900

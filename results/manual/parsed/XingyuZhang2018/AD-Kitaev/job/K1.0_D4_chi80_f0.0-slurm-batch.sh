@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=416-15:00:00
-#SBATCH --partition=a100
 
 module load julia-1.7.1
 project_dir=~/research/AD_Kitaev

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-lettuce-5726
+#FLUX --job-name=crusty-gato-6588
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/adrn/ophiuchus/mpi-submit/4-mockstream-static.sh

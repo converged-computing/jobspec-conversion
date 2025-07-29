@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-latke-7969
+#FLUX --job-name=gassy-cat-6712
 #FLUX --queue=hci-rw
 #FLUX -t=345600
 #FLUX --urgency=16

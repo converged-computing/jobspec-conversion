@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=buttery-peanut-butter-1282
+#FLUX --job-name=buttery-kitty-1273
 #FLUX -c=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43140
 #FLUX --urgency=16
 

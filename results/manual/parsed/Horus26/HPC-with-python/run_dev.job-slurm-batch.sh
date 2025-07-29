@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6gb
 #SBATCH --time=00:30:00
-#SBATCH --partition=dev_multiple
 #SBATCH --constraint=ntasks-per-node=40
 
 module load devel/python/3.10.0_gnu_11.1

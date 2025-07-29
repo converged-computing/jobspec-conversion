@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=01:00:00
-#SBATCH --partition=reservation
 
 module load python/3.8.1
 source ~/spack/share/spack/setup-env.sh

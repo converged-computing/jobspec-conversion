@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-kitty-1542
+#FLUX --job-name=grated-chair-4256
 #FLUX --queue=serial
 #FLUX -t=87120
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-hope-5381
+#FLUX --job-name=moolicious-cattywampus-0684
 #FLUX -c=20
 #FLUX --queue=scavenge
 #FLUX -t=43200

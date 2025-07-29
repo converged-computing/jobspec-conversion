@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-dog-2960
+#FLUX --job-name=cowy-bike-0560
 #FLUX --queue=silent_q
 #FLUX --urgency=16
 

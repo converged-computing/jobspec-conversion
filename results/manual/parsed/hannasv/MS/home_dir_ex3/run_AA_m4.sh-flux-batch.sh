@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-lentil-7970
+#FLUX --job-name=fuzzy-lizard-0991
 #FLUX -n=32
 #FLUX --queue=defq
 #FLUX -t=87840

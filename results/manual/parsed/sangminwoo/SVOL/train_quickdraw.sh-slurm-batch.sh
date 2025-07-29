@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=part1
 
 root=/mnt/server15_hard2/sangmin/data/svol/
 anno_root=/mnt/server15_hard2/sangmin/data/svol/annos/

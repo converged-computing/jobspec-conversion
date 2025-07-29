@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-citrus-4518
+#FLUX --job-name=goodbye-chip-1239
 #FLUX --queue=gpu_titanrtx
 #FLUX -t=43200
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:nvidia_a100-sxm4-80gb:1
 #SBATCH --mem=32000
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 module load ncf/1.0.0-fasrc01
 module load miniconda3/py310_22.11.1-1-linux_x64-ncf

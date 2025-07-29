@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=dask-cluster
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cpu_med
 #FLUX -t=3600
 #FLUX --urgency=16

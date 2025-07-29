@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=300gb
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=bigmem
 #SBATCH --qos=astronomy-dept-b
 
 export CASA='/blue/adamginsburg/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-peas-8908
+#FLUX --job-name=carnivorous-signal-9603
 #FLUX --queue=alvis
 #FLUX -t=86400
 #FLUX --urgency=16

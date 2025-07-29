@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-punk-7911
+#FLUX --job-name=lovely-leopard-1319
 #FLUX -n=5
 #FLUX --queue=wrighton-hi
 #FLUX -t=784800

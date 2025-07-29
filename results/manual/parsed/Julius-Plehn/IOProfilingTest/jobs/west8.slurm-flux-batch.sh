@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-nunchucks-1290
+#FLUX --job-name=cowy-citrus-4371
 #FLUX -N=8
 #FLUX -n=8
 #FLUX --queue=west

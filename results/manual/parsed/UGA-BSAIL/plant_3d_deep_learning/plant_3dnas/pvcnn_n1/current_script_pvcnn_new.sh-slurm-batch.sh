@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:A100:1
 #SBATCH --mem=40gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu_p
 
 cd /scratch/fs47816/workdir/sample_scripts/pvcnn_n1/pvcnn
 ml TensorFlow/2.4.1-fosscuda-2020b

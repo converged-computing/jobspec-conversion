@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=01:59:00
-#SBATCH --partition=normal,UV
 #SBATCH --array=1
 
 echo "SLURM_JOBID: " $SLURM_JOBID

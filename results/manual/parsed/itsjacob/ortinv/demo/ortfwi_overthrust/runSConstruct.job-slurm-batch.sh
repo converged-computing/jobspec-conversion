@@ -5,8 +5,7 @@
 #SBATCH --nodes=24
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=compute
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=compute[136-159]
 #SBATCH --dependency=1470525

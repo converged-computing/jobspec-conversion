@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000
 #SBATCH --time=12:00:00
-#SBATCH --partition=amd-hdr100
 
 VMR_XLSX=$(ls -rt VMRs/VMR_MSL*.xlsx | tail -1)
 if [ ! -z "$1" ]; then 

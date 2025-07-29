@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=main
 
 module load any/jdk/1.8.0_265
 module load nextflow

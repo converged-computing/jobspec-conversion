@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-snack-7642
+#FLUX --job-name=crunchy-taco-0166
 #FLUX -c=12
 #FLUX --queue=develbooster
 #FLUX -t=5400

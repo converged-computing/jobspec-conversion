@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-pancake-6699
+#FLUX --job-name=rainbow-carrot-0186
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/refit-espaloma/openff-default/02-train/baseline/rna-nucleoside/lsf-submit.sh

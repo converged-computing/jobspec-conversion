@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16gb
 #SBATCH --time=08:00:00
-#SBATCH --partition=short
 
 cd /project/fsepru/paul.villanueva/repos/ppahs
 source /home/${USER}/.bashrc

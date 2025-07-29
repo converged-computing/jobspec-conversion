@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10000
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
 
 export OMP_NUM_THREADS='2'
 export MKL_NUM_THREADS='2'

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=plgrid
 
 module add plgrid/tools/python-intel/3.6.5 2>/dev/null
 zad=3

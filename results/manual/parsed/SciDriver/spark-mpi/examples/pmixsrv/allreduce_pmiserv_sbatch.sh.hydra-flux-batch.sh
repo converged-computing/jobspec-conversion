@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-poodle-6291
+#FLUX --job-name=crunchy-punk-6206
 #FLUX -N=4
 #FLUX --queue=[partition]
 #FLUX --urgency=16

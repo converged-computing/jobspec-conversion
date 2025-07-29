@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=512
 #SBATCH --time=06:00:00
-#SBATCH --partition=workq
 
 module restore PrgEnv-cray
 module load cray-mpich/8.0.15

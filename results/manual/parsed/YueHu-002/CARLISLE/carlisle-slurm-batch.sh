@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=40g
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=$PARTITIONS
 
 PYTHON_VERSION="python/3.9"
 SNAKEMAKE_VERSION="snakemake/7.19.1"

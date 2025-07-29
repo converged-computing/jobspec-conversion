@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:8
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/aws-ofi-nccl/lib'

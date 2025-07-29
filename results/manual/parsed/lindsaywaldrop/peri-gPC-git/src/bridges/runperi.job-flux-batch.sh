@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-lizard-3363
+#FLUX --job-name=bricky-parsnip-7698
 #FLUX --queue=RM-shared
 #FLUX -t=43200
 #FLUX --urgency=16

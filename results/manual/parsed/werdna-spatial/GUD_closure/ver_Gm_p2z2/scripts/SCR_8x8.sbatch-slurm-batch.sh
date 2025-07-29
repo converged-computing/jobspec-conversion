@@ -7,9 +7,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=condo-dtalmy
 #SBATCH --qos=condo
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --exclude=clr0812,clr0813
 
 export LD_LIBRARY_PATH='${NCDIR}/lib:${LD_LIBRARY_PATH}'

@@ -3,8 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=rome
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load 2022
 module load ParaView-server-osmesa/5.10.1-foss-2022a-mpi

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=buttery-knife-5772
+#FLUX --job-name=pusheena-lamp-8455
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

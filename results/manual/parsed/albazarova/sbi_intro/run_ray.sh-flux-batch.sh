@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-bicycle-4636
+#FLUX --job-name=fat-bits-8277
 #FLUX -N=2
 #FLUX -c=96
 #FLUX --queue=gpus

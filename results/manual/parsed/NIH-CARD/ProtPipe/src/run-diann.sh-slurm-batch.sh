@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=80G
 #SBATCH --time=04:00:00
-#SBATCH --partition=norm
 
 trap '[[ $? -eq 1 ]] && echo Halting execution due to errors' EXIT
 SRC_DIR='./src'

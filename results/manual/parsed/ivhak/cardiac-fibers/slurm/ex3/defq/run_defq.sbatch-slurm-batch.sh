@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=defq
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 LDRB_DIR="${HOME}/master/cardiac-fibers"
 DATA_DIR="/global/D1/homes/iverh/data/meshes/martinez-navarro-etal/mesh/mfem"

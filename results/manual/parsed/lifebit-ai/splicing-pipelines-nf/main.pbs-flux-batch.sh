@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-chair-3070
+#FLUX --job-name=red-leg-5486
 #FLUX -c=4
 #FLUX --queue=batch
 #FLUX -t=259200

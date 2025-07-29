@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1gb
 #SBATCH --time=8-00:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=1
 
 echo $SLURM_JOB_NODELIST

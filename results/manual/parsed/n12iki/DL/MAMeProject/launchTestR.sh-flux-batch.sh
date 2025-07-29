@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-underoos-9257
+#FLUX --job-name=expressive-arm-4476
 #FLUX -c=40
 #FLUX -t=36000
 #FLUX --urgency=16

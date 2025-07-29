@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-fork-3163
+#FLUX --job-name=moolicious-lamp-6690
 #FLUX -t=3600
 #FLUX --urgency=16
 

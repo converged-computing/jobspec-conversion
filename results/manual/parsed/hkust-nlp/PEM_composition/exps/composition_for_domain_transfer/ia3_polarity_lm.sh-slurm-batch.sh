@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a40:1
 #SBATCH --mem=30g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=0-1%2
 
 export TRANSFORMERS_CACHE='checkpoints/hf_model'

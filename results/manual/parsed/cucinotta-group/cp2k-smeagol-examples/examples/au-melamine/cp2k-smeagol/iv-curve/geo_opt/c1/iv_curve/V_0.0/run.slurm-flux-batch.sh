@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-parrot-0150
+#FLUX --job-name=red-sundae-3796
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/iv-curve/geo_opt/c1/iv_curve/V_0.0/run.slurm

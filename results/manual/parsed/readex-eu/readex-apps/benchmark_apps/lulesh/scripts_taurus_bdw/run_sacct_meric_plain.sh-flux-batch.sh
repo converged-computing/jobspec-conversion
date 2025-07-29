@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=lulesh_sacct
 #FLUX -c=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=broadwell
 #FLUX -t=7200
 #FLUX --urgency=16

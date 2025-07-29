@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-motorcycle-8290
+#FLUX --job-name=gloopy-banana-9892
 #FLUX -c=8
 #FLUX --queue=alpha
 #FLUX -t=86399

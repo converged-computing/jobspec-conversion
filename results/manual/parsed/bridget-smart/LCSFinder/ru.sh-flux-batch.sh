@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-signal-8175
+#FLUX --job-name=conspicuous-hippo-3801
 #FLUX --queue=batch
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-cattywampus-8424
+#FLUX --job-name=crusty-malarkey-6239
 #FLUX -N=24
 #FLUX -n=768
 #FLUX --queue=debug

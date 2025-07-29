@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-underoos-0957
+#FLUX --job-name=crunchy-parsnip-8205
 #FLUX -c=32
 #FLUX --queue=csmpi_fpga_long
 #FLUX -t=14400

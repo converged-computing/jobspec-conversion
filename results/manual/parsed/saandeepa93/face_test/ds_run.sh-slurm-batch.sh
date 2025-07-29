@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=20gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=rra_con2020
 #SBATCH --qos=rradl
 
 module load apps/anaconda

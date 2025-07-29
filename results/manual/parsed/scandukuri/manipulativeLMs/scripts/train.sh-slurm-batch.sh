@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=256G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=cocoflops
 #SBATCH --nodelist=cocoflops-hgx-1
 
 source /scr/jphilipp/miniconda3/etc/profile.d/conda.sh

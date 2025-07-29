@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu
 #SBATCH --mem=16G
-#SBATCH --partition=gpu
 #SBATCH --chdir=/users/k1502897/workspace/nets/
 
 set -euxo pipefail

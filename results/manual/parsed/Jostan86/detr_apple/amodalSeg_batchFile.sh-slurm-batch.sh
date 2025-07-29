@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --time=18:00:00
-#SBATCH --partition=dgx
 
 module load python3
 source /nfs/hpc/share/browjost/detr_apple/venv_amodal/bin/activate

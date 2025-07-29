@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=220gb
 #SBATCH --time=2-00:30:00
-#SBATCH --partition=guest_gpu
 #SBATCH --constraint=gpu_80gb
 
 pwd

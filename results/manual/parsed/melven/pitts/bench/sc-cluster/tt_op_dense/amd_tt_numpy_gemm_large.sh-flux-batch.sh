@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-puppy-1662
+#FLUX --job-name=arid-lentil-7446
 #FLUX -c=64
 #FLUX --queue=amd
 #FLUX -t=180000

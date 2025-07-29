@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-chip-7364
+#FLUX --job-name=blue-nunchucks-8726
 #FLUX -N=5
 #FLUX -n=5
 #FLUX -c=8

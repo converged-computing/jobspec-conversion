@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-soup-4535
+#FLUX --job-name=expensive-milkshake-6706
 #FLUX -c=12
 #FLUX --queue=cscsci
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-sundae-6787
+#FLUX --job-name=eccentric-sundae-8330
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/NN/Shellscripts/Old%20shellscripts/NN_script_03-01_final5.sh

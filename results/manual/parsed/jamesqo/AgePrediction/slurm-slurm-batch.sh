@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:Titan_RTX:1
 #SBATCH --mem=30G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=fnndsc-gpu
 
 module load anaconda3
 source activate james

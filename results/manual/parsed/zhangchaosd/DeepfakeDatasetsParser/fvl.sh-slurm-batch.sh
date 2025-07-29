@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=320GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=fvl
 #SBATCH --qos=high
 #SBATCH --nodelist=gpu16
 

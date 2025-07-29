@@ -8,7 +8,6 @@
 #SBATCH --ntasks=27
 #SBATCH --cpus-per-task=1
 #SBATCH --time=41-15:00:00
-#SBATCH --partition=omicsbio
 #SBATCH --constraint=ntasks-per-node=9
 #SBATCH --chdir=/scratch/yixiong/AMDpct0
 #SBATCH --nodelist=c657,c658,c660

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=09:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=gpu,ntasks-per-node=1,gpu,ntasks-per-node=1
 
 export VIRTUALENV='${PACE_DIR}/venv'

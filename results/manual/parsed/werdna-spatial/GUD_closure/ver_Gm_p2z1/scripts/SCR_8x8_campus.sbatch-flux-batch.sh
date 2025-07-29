@@ -2,7 +2,7 @@
 #FLUX --job-name=8x8_darwin
 #FLUX -N=2
 #FLUX -n=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=campus
 #FLUX -t=43200
 #FLUX --urgency=16

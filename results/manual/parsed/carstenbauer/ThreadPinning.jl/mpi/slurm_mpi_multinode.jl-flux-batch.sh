@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-general-0180
+#FLUX --job-name=fat-malarkey-1456
 #FLUX -N=2
 #FLUX -n=4
 #FLUX --queue=all

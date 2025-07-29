@@ -4,7 +4,7 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 NTOMP=1
 mkdir -p /shared-non-cache/output/jobs/${SLURM_JOBID}

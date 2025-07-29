@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16G
 #SBATCH --time=03:00:00
-#SBATCH --partition=serc
 #SBATCH --constraint=[CLASS:SH3_CBASE|CLASS:SH3_CPERF]
 
 export "PYTHONPATH='$PYTHONPATH:/scratch/users/mborrus/MiMA/code/MiMAv0.1_mborrus/wavenet/models/'

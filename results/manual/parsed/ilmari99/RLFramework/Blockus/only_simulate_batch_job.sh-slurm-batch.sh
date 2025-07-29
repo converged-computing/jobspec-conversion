@@ -7,7 +7,6 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=128
 #SBATCH --time=03:00:00
-#SBATCH --partition=medium
 
 echo "All arguments: $@"
 module purge

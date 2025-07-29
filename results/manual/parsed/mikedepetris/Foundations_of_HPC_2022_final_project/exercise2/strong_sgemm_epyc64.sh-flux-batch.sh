@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=sgemm_epyc
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=EPYC
 #FLUX -t=7200
 #FLUX --urgency=16

@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=debug
 #SBATCH --constraint=haswell
 
 export TARDATA='$DW_JOB_STRIPED/subsel/*.tar'

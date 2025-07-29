@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=180G
 #SBATCH --time=8-08:00:00
-#SBATCH --partition=omicsbio
 #SBATCH --chdir=/work/TEDDY/binning/GTDB/
 #SBATCH --nodelist=c660
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-dog-1449
+#FLUX --job-name=pusheena-lamp-6519
 #FLUX -n=8
 #FLUX --queue=gpgpumse
 #FLUX -t=259200

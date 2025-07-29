@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-hippo-4264
+#FLUX --job-name=bloated-blackbean-6245
 #FLUX --queue=PV1003q
 #FLUX --urgency=16
 

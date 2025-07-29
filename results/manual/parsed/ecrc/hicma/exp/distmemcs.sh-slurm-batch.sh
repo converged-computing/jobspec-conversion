@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=350G
-#SBATCH --partition=batch
 #SBATCH --constraint=[cpu_intel_gold_6248]
 
 export STARPU_CALIBRATE='0'

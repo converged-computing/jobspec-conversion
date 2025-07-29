@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=ipython-trial2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

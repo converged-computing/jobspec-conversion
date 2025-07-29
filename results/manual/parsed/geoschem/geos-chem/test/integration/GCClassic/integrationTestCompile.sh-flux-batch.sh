@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-egg-9961
+#FLUX --job-name=outstanding-avocado-9889
 #FLUX -c=8
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=30

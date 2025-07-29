@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=standard
 
 echo "Date              = $(date)"
 echo "Hostname          = $(hostname -s)"

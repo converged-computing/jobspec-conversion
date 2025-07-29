@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=list06
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cpu_dev
 #FLUX -t=120
 #FLUX --urgency=16

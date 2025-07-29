@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=16:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --nodelist=voltron
 
 export CUDA_MANAGED_FORCE_DEVICE_ALLOC='1'

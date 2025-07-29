@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-peas-1747
+#FLUX --job-name=blank-despacito-4142
 #FLUX --queue=shortgpgpu
 #FLUX -t=3600
 #FLUX --urgency=16

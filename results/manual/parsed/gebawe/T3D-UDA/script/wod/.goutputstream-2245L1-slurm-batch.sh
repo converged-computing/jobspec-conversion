@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=60G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=amdcpu
 #SBATCH --constraint=ntasks-per-node=3
 
 export NCCL_LL_THRESHOLD='1'

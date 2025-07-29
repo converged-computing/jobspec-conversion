@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=28
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=longfat
 #SBATCH --constraint=ntasks-per-node=1
 
 module load intel/19

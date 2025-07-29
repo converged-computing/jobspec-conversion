@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:20:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export LD_LIBRARY_PATH='/nopt/nrel/apps/compilers/02-23/spack/opt/spack/linux-rocky8-zen2/gcc-10.1.0/nvhpc-23.9-z37vdi3iyrnjnm7r4cqgr774vm6brvrp/Linux_x86_64/23.9/REDIST/cuda/12.2/targets/x86_64-linux/lib:$LD_LIBRARY_PATH '
 

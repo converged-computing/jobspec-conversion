@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-knife-5110
+#FLUX --job-name=outstanding-squidward-4839
 #FLUX -c=2
 #FLUX --queue=gpu_shared
 #FLUX -t=3600

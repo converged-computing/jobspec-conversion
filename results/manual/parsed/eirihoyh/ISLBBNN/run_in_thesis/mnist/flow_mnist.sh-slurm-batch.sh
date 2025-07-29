@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=3G
-#SBATCH --partition=gpu
 
 module purge                # Clean all modules
 module load Miniconda3

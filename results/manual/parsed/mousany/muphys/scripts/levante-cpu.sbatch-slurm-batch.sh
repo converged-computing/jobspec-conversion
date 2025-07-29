@@ -7,8 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=compute
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 ulimit -s unlimited
 ulimit -c 0

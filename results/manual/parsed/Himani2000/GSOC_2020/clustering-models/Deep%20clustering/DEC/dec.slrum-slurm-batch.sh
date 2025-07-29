@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=70gb
 #SBATCH --time=22:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=gpuk40
 
 module spider tensorflow/1.4.0-py3

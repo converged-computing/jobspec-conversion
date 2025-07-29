@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-chair-2393
+#FLUX --job-name=pusheena-train-8892
 #FLUX --queue=gpu2
 #FLUX --urgency=16
 

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=30G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=short
 
 basePath=$1
 REFERENCE_DIR=$2

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-peas-1866
+#FLUX --job-name=goodbye-destiny-3934
 #FLUX -t=43200
 #FLUX --urgency=16
 

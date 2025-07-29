@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=node
 
 export NXF_TEMP='/scratch'
 export NXF_LAUNCHBASE='/scratch'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-latke-7124
+#FLUX --job-name=tart-taco-2639
 #FLUX -c=12
 #FLUX --queue=ccr
 #FLUX -t=259200

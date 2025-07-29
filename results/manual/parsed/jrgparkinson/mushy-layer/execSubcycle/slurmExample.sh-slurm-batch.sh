@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4000
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=legacy
 #SBATCH --constraint=ntasks-per-node=2,ntasks-per-socket=1
 #SBATCH --exclude=cirrus[1-4],yau[1-6],yau[8-10],yau12
 

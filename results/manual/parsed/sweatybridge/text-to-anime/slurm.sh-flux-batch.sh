@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-signal-9608
+#FLUX --job-name=hairy-truffle-4368
 #FLUX --queue=PA100q
 #FLUX --urgency=16
 

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:k80:1
 #SBATCH --time=00:10:00
-#SBATCH --partition=kingspeak-gpu
 
 nvidia-smi
 ml purge

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6gb
 #SBATCH --time=4-03:00:00
-#SBATCH --partition=compute
 
 export OPENBLAS_NUM_THREADS='1'
 export OMP_NUM_THREADS='1'

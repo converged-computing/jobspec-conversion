@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=128000
 #SBATCH --time=16:00:00
-#SBATCH --partition=prod
 #SBATCH --constraint=volta
 
 BLENDER=$PWD/../../../../../../blender

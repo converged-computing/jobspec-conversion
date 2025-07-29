@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=150gb
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=normal
 #SBATCH --array=301-351
 
 source ~/miniconda3/bin/activate tact

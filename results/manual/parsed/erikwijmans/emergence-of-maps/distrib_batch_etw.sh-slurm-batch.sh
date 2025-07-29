@@ -8,7 +8,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=5GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=priority
 #SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 export LD_LIBRARY_PATH='/usr/lib/x86_64-linux-gnu/nvidia-opengl:${LD_LIBRARY_PATH}'

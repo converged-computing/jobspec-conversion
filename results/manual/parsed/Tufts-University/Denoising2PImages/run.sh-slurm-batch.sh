@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem-per-cpu=30g
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=patralab
 #SBATCH --exclude=cc1gpu005
 
 module load anaconda/2021.05

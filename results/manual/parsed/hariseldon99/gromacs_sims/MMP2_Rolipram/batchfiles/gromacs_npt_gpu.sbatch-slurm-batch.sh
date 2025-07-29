@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --time=01:00:00
-#SBATCH --partition=GPU
 #SBATCH --qos=elevated
 
 export NVT='npt'

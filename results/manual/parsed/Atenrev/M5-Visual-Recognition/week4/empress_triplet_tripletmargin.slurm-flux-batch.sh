@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-train-9287
+#FLUX --job-name=peachy-muffin-1323
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=24gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=batch
 #SBATCH --array=0-261
 
 module load Exonerate/2.4.0-GCC-12.2.0

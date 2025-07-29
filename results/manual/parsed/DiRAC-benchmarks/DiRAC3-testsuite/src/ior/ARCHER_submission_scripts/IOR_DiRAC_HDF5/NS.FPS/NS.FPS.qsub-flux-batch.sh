@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-dog-8111
+#FLUX --job-name=boopy-banana-4571
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DiRAC-benchmarks/DiRAC3-testsuite/src/ior/ARCHER_submission_scripts/IOR_DiRAC_HDF5/NS.FPS/NS.FPS.qsub

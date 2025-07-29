@@ -7,7 +7,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:30:00
-#SBATCH --partition=a100
 
 SKIP_OPENMM=false
 SHORTENED_PIPELINE=true

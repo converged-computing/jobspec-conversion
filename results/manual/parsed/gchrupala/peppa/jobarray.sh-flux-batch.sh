@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-parrot-1400
+#FLUX --job-name=placid-hope-6520
 #FLUX --queue=GPUExtended
 #FLUX -t=2880
 #FLUX --urgency=16

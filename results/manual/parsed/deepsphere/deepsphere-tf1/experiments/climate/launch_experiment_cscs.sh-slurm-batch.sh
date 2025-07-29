@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

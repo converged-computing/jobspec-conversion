@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=1000
 #SBATCH --time=00:10:00
-#SBATCH --partition=main
 #SBATCH --qos=hiprio
 
 export GMXLIB='/home/jansea92/GROLIB/top'

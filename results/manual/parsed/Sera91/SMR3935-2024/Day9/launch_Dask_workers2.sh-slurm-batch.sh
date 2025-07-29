@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000
 #SBATCH --time=00:15:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --constraint=ntasks-per-node=2
 
 source $HOME/Conda_init.txt

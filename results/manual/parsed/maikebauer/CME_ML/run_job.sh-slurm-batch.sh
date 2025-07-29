@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
-#SBATCH --partition=zen2_0256_a40x2
 #SBATCH --qos=zen2_0256_a40x2
 
 export PYTORCH_ENABLE_MPS_FALLBACK='1'

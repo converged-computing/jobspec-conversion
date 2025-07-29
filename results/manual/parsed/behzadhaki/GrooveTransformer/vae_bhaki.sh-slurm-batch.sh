@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --mem=16g
 #SBATCH --time=08:00:00
-#SBATCH --partition=medium
 
 export PATH='$HOME/.conda/envs/GrooveTransformer/bin:$PATH'
 export WANDB_API_KEY='API_KEY'

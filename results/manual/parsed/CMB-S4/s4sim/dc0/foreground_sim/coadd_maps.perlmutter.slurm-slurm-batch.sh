@@ -7,7 +7,6 @@
 #SBATCH --time=08:00:00
 #SBATCH --qos=regular
 #SBATCH --constraint=cpu
-#SBATCH --licenses=SCRATCH
 
 export FI_CXI_OPTIMIZED_MRS='false'
 export MPI4PY_RC_RECV_MPROBE='False'

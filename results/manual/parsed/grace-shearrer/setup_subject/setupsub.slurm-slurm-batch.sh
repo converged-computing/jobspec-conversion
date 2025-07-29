@@ -6,7 +6,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10:00:00
-#SBATCH --partition=normal
 
 export LAUNCHER_PLUGIN_DIR='$LAUNCHER_DIR/plugins'
 export LAUNCHER_RMI='SLURM'

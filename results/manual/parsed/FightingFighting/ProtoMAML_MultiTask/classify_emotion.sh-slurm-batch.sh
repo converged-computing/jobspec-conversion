@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=48000M
 #SBATCH --time=01:30:00
-#SBATCH --partition=gpu_titanrtx_shared_course
 
 cd $HOME/ATCS/group_assignment
 source activate python385

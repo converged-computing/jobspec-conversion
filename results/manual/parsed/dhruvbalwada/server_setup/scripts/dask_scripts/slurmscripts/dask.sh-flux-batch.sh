@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=dask_host
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=21600
 #FLUX --urgency=16
 

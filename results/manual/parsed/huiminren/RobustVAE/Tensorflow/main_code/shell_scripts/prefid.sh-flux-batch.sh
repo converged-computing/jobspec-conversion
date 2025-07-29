@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-nalgas-0085
+#FLUX --job-name=conspicuous-chair-4334
 #FLUX -n=8
 #FLUX --queue=short
 #FLUX --urgency=16

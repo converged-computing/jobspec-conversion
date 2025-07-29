@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=10G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1-8%1
 
 INPUTFILE=input.in

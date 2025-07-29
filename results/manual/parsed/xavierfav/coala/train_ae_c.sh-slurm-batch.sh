@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=12000
 #SBATCH --time=2-22:00:00
-#SBATCH --partition=gpu
 
 printf "[----]\n"
 printf "Starting execution of job $SLURM_JOB_ID from user $LOGNAME\n"

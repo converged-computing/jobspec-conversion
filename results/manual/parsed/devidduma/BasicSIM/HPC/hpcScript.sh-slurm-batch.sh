@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10M
 #SBATCH --time=00:05:00
-#SBATCH --partition=computeq
 
 module purge
 module load matlab

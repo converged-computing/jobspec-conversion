@@ -4,7 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=15
 #SBATCH --cpus-per-task=1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 sleep 20
 outdir=$1

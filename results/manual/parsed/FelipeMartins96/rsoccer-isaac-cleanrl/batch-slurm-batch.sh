@@ -4,8 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=all
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 eval "$('/usr/local/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 conda activate rlgpu

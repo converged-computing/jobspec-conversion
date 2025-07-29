@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:20GB:1
 #SBATCH --mem=100G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=long
 
 export CUBLAS_WORKSPACE_CONFIG=':4096:8'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/mila/c/chris.emezue/genedisco/genv/lib'

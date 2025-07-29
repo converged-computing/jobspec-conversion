@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=10G
 #SBATCH --time=02:00:00
-#SBATCH --partition=batch
 
 module load nextflow
 module load singularity

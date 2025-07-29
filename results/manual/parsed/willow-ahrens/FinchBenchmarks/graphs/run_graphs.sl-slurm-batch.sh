@@ -4,9 +4,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=102400
 #SBATCH --time=04:00:00
-#SBATCH --partition=lanka-v3
 #SBATCH --qos=commit-main
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --array=1-6%6
 
 cd /data/scratch/willow/FinchBenchmarks/graphs

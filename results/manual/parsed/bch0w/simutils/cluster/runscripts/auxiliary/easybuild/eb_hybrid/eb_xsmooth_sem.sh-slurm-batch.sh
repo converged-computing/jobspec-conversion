@@ -6,7 +6,6 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=10
 #SBATCH --time=00:30:00
-#SBATCH --partition=nesi_research
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_PROC_BIND='true'

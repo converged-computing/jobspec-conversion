@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=jupyter
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=n1c24m128-v100-4
 #FLUX -t=57600
 #FLUX --urgency=16

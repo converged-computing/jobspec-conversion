@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-house-3000
+#FLUX --job-name=fuzzy-bicycle-5142
 #FLUX -n=6
 #FLUX --queue=short
 #FLUX -t=172800

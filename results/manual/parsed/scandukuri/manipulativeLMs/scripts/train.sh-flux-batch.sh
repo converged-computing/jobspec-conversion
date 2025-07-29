@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-hope-4314
+#FLUX --job-name=ornery-fork-3328
 #FLUX -c=48
 #FLUX --queue=cocoflops
 #FLUX -t=172800

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:rtxa6000:4
-#SBATCH --partition=gaia-lg
 
 export SRC='/nas/gaia02/users/napiersk/github/clean/unified-io-inference'
 export INPUT_FILE='caption-part2.txt'

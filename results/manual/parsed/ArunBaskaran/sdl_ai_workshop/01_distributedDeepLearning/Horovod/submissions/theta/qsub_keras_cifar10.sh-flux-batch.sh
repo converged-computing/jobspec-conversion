@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=bloated-egg-6251
+#FLUX --job-name=butterscotch-peanut-9252
 #FLUX --urgency=16
 

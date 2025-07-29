@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-caramel-1889
+#FLUX --job-name=dinosaur-peanut-5756
 #FLUX -c=8
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=90

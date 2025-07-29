@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=02:00:00
-#SBATCH --partition=$partition
 
 export PATH='/jmain02/home/J2AD004/sxk40/rxw76-sxk40/.local/bin:£PATH'
 

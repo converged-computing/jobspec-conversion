@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=GPUQ
 #SBATCH --constraint=V100
 
 AUGMENTATION_NUMBER=$1

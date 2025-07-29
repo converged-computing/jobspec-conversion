@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-cat-7823
+#FLUX --job-name=anxious-lamp-7516
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/skblnw/mkrun/Clusters/ZJU/pbsfix_charmmgui

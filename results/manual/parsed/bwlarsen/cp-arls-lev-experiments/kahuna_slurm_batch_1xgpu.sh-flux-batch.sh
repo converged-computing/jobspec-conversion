@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-banana-8828
+#FLUX --job-name=boopy-lamp-6828
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=1xgpu
 #FLUX -t=561600
 #FLUX --urgency=16

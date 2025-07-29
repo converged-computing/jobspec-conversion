@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=4gb
 #SBATCH --time=1-05:00:00
-#SBATCH --partition=bluemoon
 
 pwd; hostname; date
 set -e

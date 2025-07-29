@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=psycho-chair-8350
-#FLUX: --exclusive
+#FLUX --job-name=buttery-poo-4048
+#FLUX --exclusive
 #FLUX --queue=t4_dev_q
 #FLUX -t=300
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=16:00:00
-#SBATCH --partition=conroy,shared,serial_requeue,itc_cluster,conroy-intel
 
 IDFILE=$APPS"/prospector_alpha/data/CANDELS_GDSS_workshop_z1.dat"
 n1=`expr $SLURM_ARRAY_TASK_ID + 1`

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-gato-8392
+#FLUX --job-name=dirty-pedo-5529
 #FLUX -N=4
 #FLUX -n=96
 #FLUX --queue=parallel

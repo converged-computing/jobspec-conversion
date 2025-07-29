@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-animal-1223
+#FLUX --job-name=faux-ricecake-6152
 #FLUX -c=12
 #FLUX --queue=ccr
 #FLUX -t=259200

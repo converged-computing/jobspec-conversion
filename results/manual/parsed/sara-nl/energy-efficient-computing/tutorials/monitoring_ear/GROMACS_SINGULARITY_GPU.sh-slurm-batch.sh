@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=00:59:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=8
 
 export APPTAINER_BIND='$EAR_INSTALL_PATH:$EAR_INSTALL_PATH:ro,$EAR_TMP:$EAR_TMP:rw'

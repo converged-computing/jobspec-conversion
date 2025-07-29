@@ -11,7 +11,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=30GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 export PATH='${PATH}:/home/b.weinstein/miniconda/envs/DeepForest/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda/envs/DeepForest/lib/python3.7/site-packages/'

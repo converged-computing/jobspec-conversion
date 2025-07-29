@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=03:00:00
-#SBATCH --partition=all_usr_prod
 #SBATCH --constraint=ntasks-per-node=4
 
 if test $(python3 get_last_epoch.py checkpoints/frcnn/checkpoint.pth) -ge 2

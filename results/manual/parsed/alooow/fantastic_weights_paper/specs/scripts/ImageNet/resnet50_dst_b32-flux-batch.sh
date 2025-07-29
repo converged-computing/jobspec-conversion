@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-poo-8597
+#FLUX --job-name=moolicious-lemon-4591
 #FLUX --queue=<partition
 #FLUX -t=172800
 #FLUX --urgency=16

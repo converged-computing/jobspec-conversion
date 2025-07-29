@@ -7,9 +7,8 @@
 #SBATCH --ntasks=448
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=skylake
 #SBATCH --constraint=ntasks-per-node=32
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 #SBATCH --array=1-5
 
 export OMP_NUM_THREADS='1'

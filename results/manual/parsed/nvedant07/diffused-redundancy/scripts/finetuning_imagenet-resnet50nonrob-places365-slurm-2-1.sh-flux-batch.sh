@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-general-2837
+#FLUX --job-name=evasive-nunchucks-0419
 #FLUX -c=16
 #FLUX --queue=a100
 #FLUX -t=345600

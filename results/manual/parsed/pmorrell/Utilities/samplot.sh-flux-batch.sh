@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-destiny-1758
+#FLUX --job-name=dinosaur-banana-2635
 #FLUX --queue=ram1t
 #FLUX -t=600
 #FLUX --urgency=16

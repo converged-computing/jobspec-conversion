@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=200G
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=amd
 
 export PYTHONPATH='$PYTHONPATH:~/pitts/build_gcc_amd/src/:~/pitts/examples/'
 export PYTHONUNBUFFERED='1'

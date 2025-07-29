@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-puppy-5286
+#FLUX --job-name=hanky-pot-1136
 #FLUX --queue=normal256
 #FLUX -t=600
 #FLUX --urgency=16

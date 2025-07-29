@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=8
 #SBATCH --time=00:10:00
-#SBATCH --partition=eap
 
 export LD_LIBRARY_PATH='$HIP_LIB_PATH:$LD_LIBRARY_PATH'
 export MPICH_GPU_SUPPORT_ENABLED='1'

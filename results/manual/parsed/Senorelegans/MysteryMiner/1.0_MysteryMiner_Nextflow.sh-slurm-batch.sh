@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=20gb
 #SBATCH --time=16:05:00
-#SBATCH --partition=short
 
 export PATH='biome_tools/SPAdes-3.13.1-Linux/bin:$PATH'
 

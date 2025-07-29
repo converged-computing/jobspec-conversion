@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16384
 #SBATCH --time=00:12:00
-#SBATCH --partition=cox
 
 module load centos6/0.0.1-fasrc01
 module load matlab/R2015b-fasrc01

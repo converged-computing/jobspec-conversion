@@ -7,7 +7,6 @@
 #SBATCH --gres=2
 #SBATCH --mem=64000M
 #SBATCH --time=1-11:59:00
-#SBATCH --partition=gpu_mig
 
 module purge
 module load 2022

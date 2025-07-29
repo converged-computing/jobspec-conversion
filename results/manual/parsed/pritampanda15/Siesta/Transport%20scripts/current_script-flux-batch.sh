@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=voltage
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=108000
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=64G
 #SBATCH --time=03:00:00
-#SBATCH --partition=generic
 
 export SINGULARITYENV_FS_LICENSE='$FREESURFER_HOME/license.txt'
 export PARTICIPANT_LABEL='$(printf "%02d" $SLURM_ARRAY_TASK_ID)'

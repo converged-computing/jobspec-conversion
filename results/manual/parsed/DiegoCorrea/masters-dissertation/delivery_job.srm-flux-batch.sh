@@ -2,7 +2,7 @@
 #FLUX --job-name=Rec_test
 #FLUX -N=3
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=nvidia_dev
 #FLUX --urgency=16
 

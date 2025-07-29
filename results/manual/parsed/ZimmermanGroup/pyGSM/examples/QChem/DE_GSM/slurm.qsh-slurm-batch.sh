@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=zimintel
 #SBATCH --array=1
 
 . /etc/profile.d/slurm.sh

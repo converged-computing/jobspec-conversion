@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-pot-9631
+#FLUX --job-name=expensive-soup-8081
 #FLUX --queue=plgrid-gpu
 #FLUX -t=93600
 #FLUX --urgency=16

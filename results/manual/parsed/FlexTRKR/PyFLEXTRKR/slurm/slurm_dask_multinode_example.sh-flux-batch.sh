@@ -2,7 +2,7 @@
 #FLUX --job-name=mcstracking
 #FLUX -N=5
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=debug
 #FLUX -t=1800
 #FLUX --urgency=16

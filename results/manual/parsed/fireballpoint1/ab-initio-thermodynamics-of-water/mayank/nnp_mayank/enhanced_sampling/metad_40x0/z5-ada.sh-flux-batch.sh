@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-bits-8188
+#FLUX --job-name=dinosaur-kerfuffle-5171
 #FLUX -n=15
 #FLUX -t=259200
 #FLUX --urgency=16

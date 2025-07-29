@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=standard
 #SBATCH --array=1-4
 #SBATCH --dependency=27679660
 

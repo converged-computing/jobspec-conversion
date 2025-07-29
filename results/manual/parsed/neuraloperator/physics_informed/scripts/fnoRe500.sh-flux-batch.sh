@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-mango-0386
+#FLUX --job-name=bricky-cattywampus-0474
 #FLUX -t=86400
 #FLUX --urgency=16
 

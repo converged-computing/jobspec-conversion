@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=slbBurn
 #FLUX -N=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=general-compute
 #FLUX -t=259200
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-snack-9636
+#FLUX --job-name=astute-lettuce-0168
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/benchmarks/lassen/spectrum/test_output

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-onion-6906
+#FLUX --job-name=fuzzy-ricecake-3373
 #FLUX --queue=gpu2018
 #FLUX --urgency=16
 

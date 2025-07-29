@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --gpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=gpu,ntasks-per-node=1
 
 _error() {

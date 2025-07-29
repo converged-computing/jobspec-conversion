@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4G
 #SBATCH --time=12:00:00
-#SBATCH --partition=sched_mit_binz,newnodes,sched_mit_hill
 #SBATCH --constraint=centos7
 #SBATCH --exclude=node[445,455,457,462,464]
 

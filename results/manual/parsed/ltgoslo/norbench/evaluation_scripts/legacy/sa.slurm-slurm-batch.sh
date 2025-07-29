@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=7G
 #SBATCH --time=10:00:00
-#SBATCH --partition=standard-g
 #SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_SOCKET_IFNAME='hsn'

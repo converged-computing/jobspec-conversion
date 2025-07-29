@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-onion-5219
+#FLUX --job-name=bumfuzzled-cattywampus-9757
 #FLUX -N=2
 #FLUX --queue=gll_usr_prod
 #FLUX -t=7200

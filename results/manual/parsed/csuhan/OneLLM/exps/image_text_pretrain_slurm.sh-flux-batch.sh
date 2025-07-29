@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-malarkey-1839
+#FLUX --job-name=boopy-lamp-6954
 #FLUX -N=2
 #FLUX -n=16
 #FLUX -c=16

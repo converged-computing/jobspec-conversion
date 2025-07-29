@@ -2,8 +2,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=compute
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=64
 
 export PATH='/shared/openmpi-4.1.4-acfl/bin:$PATH'

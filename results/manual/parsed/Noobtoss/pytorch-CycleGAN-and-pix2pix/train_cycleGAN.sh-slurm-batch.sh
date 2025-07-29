@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
-#SBATCH --partition=p2
 #SBATCH --qos=gpuultimate
 
 module purge

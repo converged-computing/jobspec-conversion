@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-pancake-8392
+#FLUX --job-name=delicious-cinnamonbun-1532
 #FLUX -n=16
 #FLUX --queue=IB_44C_512G
 #FLUX --urgency=16

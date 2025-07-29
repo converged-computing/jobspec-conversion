@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=GPU
 
 export PSEUDO_DIR_HOST='/usr/share/espresso/pseudo/'
 export PSEUDO_DIR_IMG='/pseudo '

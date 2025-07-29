@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-general-2176
+#FLUX --job-name=blue-chair-8747
 #FLUX -N=3
 #FLUX --queue=cclake
 #FLUX -t=180

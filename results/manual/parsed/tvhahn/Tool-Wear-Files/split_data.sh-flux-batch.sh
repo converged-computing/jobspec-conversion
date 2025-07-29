@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-taco-0158
+#FLUX --job-name=goodbye-kerfuffle-5427
 #FLUX -t=600
 #FLUX --urgency=16
 

@@ -5,9 +5,8 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=standard
 #SBATCH --qos=standard
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load singularity
 module load intel-mpi-19

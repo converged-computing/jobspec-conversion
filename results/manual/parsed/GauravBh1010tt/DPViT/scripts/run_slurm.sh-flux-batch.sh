@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-fork-7647
+#FLUX --job-name=confused-signal-7175
 #FLUX -N=3
 #FLUX -c=8
 #FLUX -t=42600

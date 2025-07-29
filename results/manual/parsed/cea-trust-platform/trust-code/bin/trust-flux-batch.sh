@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-onion-0195
+#FLUX --job-name=scruptious-general-3379
 #FLUX --urgency=16
 
 export NB_PROCS='1 '

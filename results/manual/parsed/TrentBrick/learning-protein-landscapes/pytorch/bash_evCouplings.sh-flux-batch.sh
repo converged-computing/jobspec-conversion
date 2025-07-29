@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-butter-0188
+#FLUX --job-name=sticky-cattywampus-9743
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX -t=173519

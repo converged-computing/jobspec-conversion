@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-cherry-4329
+#FLUX --job-name=purple-hobbit-4224
 #FLUX --queue=priority
 #FLUX -t=43200
 #FLUX --urgency=16

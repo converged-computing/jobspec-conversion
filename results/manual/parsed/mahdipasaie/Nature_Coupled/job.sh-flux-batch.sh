@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-peanut-butter-2545
+#FLUX --job-name=expensive-peanut-butter-1138
 #FLUX -n=14
 #FLUX -t=604800
 #FLUX --urgency=16

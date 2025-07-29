@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=usatlas
 #SBATCH --qos=usatlas
 
 export OMP_NUM_THREADS='1'

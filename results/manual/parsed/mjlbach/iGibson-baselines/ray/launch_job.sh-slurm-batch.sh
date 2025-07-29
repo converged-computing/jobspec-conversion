@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:3090:1
 #SBATCH --mem=1G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=viscam
 #SBATCH --nodelist=viscam4
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/'

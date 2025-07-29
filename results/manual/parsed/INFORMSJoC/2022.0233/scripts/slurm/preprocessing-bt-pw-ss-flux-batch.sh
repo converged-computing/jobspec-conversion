@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=fugly-omelette-7019
-#FLUX: --exclusive
+#FLUX --job-name=hanky-leg-0611
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export OMP_NUM_THREADS='1'

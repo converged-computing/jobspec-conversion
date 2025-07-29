@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=01:10:00
-#SBATCH --partition=medium
 
 export singularity_image='$HOME/Tools/maffilter_v1.3.1dfsg-1b1-deb_cv1.sif'
 export maffilter_optionfile='d1_optionfiles/1_1_optionfile_tmp.maffilter'

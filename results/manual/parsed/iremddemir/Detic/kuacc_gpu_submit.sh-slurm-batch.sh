@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=5G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=ai
 #SBATCH --constraint=ntasks-per-node=2,tesla_t4|tesla_k80
 
 echo "Activating Python 3.9.5"

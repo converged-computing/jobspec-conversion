@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=115
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=t1standard
 
 echo "Setting ulimits"
 ulimit -s unlimited

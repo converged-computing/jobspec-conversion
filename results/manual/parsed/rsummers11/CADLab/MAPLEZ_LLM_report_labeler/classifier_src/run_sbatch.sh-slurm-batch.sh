@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=60G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=gpu
 
 . ./miniconda3/etc/profile.d/conda.sh
 conda activate

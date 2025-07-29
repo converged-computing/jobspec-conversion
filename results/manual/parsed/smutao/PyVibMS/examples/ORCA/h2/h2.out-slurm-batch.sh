@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=250G
-#SBATCH --partition=standard-mem-s,standard-mem-m,standard-mem-l,medium-mem-1-s,medium-mem-1-m,medium-mem-1-l,high-mem-1,gpgpu-1,high-mem-2
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 cat ${0}
 inpf="h2.inp"

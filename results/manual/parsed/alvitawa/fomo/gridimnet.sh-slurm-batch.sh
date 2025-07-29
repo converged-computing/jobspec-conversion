@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=18
 #SBATCH --gres=1
 #SBATCH --time=2-08:00:00
-#SBATCH --partition=gpu
 
 export PYTHONPATH='$PYTHONPATH:$PWD'
 

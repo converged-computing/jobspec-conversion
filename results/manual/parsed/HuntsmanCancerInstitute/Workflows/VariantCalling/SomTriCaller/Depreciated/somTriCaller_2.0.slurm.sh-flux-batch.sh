@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-dog-8426
+#FLUX --job-name=grated-peanut-2360
 #FLUX --queue=hci-rw
 #FLUX -t=259200
 #FLUX --urgency=16

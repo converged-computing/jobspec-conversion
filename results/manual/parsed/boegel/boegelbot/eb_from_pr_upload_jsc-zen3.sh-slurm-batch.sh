@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4000M
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=jsczen3c
 
 export PYTHONPATH='${EB_PREFIX}/easybuild-framework:${EB_PREFIX}/easybuild-easyblocks:${EB_PREFIX}/easybuild-easyconfigs'
 export PATH='${EB_PREFIX}/easybuild-framework:${HOME}/.local/bin:${PATH}'

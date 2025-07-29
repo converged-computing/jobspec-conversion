@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-itch-7620
+#FLUX --job-name=adorable-nalgas-9336
 #FLUX -c=20
 #FLUX --queue=bio
 #FLUX -t=435600

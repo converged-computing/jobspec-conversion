@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-butter-8699
+#FLUX --job-name=loopy-itch-2276
 #FLUX -c=8
 #FLUX --queue=fasse
 #FLUX -t=720

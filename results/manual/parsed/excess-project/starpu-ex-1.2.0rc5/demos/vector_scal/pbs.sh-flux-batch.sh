@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-malarkey-9036
+#FLUX --job-name=hello-caramel-2538
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/excess-project/starpu-ex-1.2.0rc5/demos/vector_scal/pbs.sh

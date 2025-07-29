@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=20G
 #SBATCH --time=23:59:00
-#SBATCH --partition=amd
 #SBATCH --exclude=falcon2,falcon3
 
 srun python -u create_trace.py "$@"

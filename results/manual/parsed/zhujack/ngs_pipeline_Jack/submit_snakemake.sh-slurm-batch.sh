@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1g
-#SBATCH --partition=unlimited
 
 export NGS_PIPELINE='/data/Clinomics/Tools/ngs-pipeline'
 export WORK_DIR='`pwd`'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-nalgas-9424
+#FLUX --job-name=red-nalgas-5379
 #FLUX -c=8
 #FLUX --urgency=16
 

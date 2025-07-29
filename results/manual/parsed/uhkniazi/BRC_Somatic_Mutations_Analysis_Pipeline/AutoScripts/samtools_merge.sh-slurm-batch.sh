@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000MB
 #SBATCH --time=6-05:05:00
-#SBATCH --partition=brc
 #SBATCH --array=1-1
 
 module load apps/samtools/1.10.0-singularity

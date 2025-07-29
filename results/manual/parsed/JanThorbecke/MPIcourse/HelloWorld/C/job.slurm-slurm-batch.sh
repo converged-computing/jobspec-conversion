@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1G
 #SBATCH --time=00:00:09
-#SBATCH --partition=compute
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo $SLURM_JOB_NODELIST
 sleep 10 

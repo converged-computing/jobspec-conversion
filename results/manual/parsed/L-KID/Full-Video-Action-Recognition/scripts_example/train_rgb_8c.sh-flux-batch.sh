@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-buttface-8524
+#FLUX --job-name=stinky-leopard-3690
 #FLUX -c=2
 #FLUX --queue=general
 #FLUX -t=7200

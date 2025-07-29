@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=18
 #SBATCH --gres=1
 #SBATCH --time=2-12:59:59
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 source /home/sliu/miniconda3/etc/profile.d/conda.sh

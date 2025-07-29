@@ -3,8 +3,7 @@
 #SBATCH --nodes=10
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=c7gnpg
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=64
 
 export GPCNET_VERSION='git'

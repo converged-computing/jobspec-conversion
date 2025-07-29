@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-cherry-3880
+#FLUX --job-name=carnivorous-bits-2821
 #FLUX -N=2
 #FLUX -n=32
 #FLUX -t=126000

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12000
-#SBATCH --partition=c2_cpu
 #SBATCH --chdir=/media/labs/rsmith/lab-members/cgoldman/Wellbeing/advise_task/scripts
 
 SUBJECT=$1

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-fork-8676
+#FLUX --job-name=phat-cat-5341
 #FLUX -c=16
 #FLUX --urgency=16
 

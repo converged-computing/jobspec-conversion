@@ -7,7 +7,6 @@
 #SBATCH --ntasks=24
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=normal
 
 module purge
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh

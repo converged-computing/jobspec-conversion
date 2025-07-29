@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-despacito-4769
+#FLUX --job-name=frigid-fork-1655
 #FLUX -c=8
 #FLUX -t=170
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:rtx8000:1
 #SBATCH --mem=32G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=long
 
 export HOME='/home/mila/h/huangshe'
 

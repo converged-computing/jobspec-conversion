@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-punk-7627
+#FLUX --job-name=buttery-omelette-0770
 #FLUX -N=8
 #FLUX -n=8
 #FLUX --queue=normal

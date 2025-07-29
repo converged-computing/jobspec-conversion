@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-parsnip-8776
+#FLUX --job-name=ornery-despacito-4653
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

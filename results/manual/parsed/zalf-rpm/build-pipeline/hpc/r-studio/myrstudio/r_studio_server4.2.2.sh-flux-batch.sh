@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-toaster-4528
+#FLUX --job-name=reclusive-itch-6780
 #FLUX -c=40
 #FLUX -t=28800
 #FLUX --urgency=16

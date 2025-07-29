@@ -6,7 +6,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=stem
 #SBATCH --constraint=ntasks-per-node=16
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=64G
 #SBATCH --time=00:15:00
-#SBATCH --partition=gpu
 
 PYTHON=python3
 if [ -n "$SING_IMAGE" ]; then

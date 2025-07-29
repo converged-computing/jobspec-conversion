@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-peanut-butter-3060
+#FLUX --job-name=hairy-chip-0445
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

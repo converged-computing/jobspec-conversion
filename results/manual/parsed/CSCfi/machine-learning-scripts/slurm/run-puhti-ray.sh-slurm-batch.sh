@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=0
 #SBATCH --time=00:15:00
-#SBATCH --partition=test
 
 set -x
 nodes=$(scontrol show hostnames "$SLURM_JOB_NODELIST")

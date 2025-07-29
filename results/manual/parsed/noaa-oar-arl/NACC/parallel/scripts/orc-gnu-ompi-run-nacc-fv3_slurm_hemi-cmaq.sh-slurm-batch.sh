@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=24GB
 #SBATCH --time=00:10:00
-#SBATCH --partition=contrib
 #SBATCH --qos=qtong
 
 export NODES='2'

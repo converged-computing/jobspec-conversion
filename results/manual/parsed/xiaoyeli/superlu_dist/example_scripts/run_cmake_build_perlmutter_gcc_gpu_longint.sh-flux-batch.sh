@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-onion-7616
+#FLUX --job-name=wobbly-cattywampus-5253
 #FLUX --urgency=16
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH//\/usr\/local\/cuda-11.7\/compat:/}'

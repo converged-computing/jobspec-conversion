@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=amg2013_rdd
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=haswell
 #FLUX -t=3600
 #FLUX --urgency=16

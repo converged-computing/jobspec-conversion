@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-lemon-7645
+#FLUX --job-name=misunderstood-puppy-0065
 #FLUX -N=2
 #FLUX -c=80
 #FLUX --gpus-per-task=8

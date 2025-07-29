@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-parsnip-9758
+#FLUX --job-name=blank-mango-2143
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

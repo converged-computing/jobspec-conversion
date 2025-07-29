@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-pedo-1697
+#FLUX --job-name=sticky-staircase-7611
 #FLUX -n=8
 #FLUX --queue=openfoam
 #FLUX --urgency=16

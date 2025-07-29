@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=50G
 #SBATCH --time=16:00:00
-#SBATCH --partition=standard
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'
 

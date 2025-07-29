@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=120G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu_high
 #SBATCH --constraint=ntasks-per-node=4
 #SBATCH --chdir=/work/rspandey/train_iais/
 

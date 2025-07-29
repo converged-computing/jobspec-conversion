@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-latke-0227
+#FLUX --job-name=evasive-pancake-1030
 #FLUX --urgency=16
 

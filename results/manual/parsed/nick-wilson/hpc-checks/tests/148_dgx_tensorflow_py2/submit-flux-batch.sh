@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-fudge-8892
+#FLUX --job-name=blue-chip-9049
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nick-wilson/hpc-checks/tests/148_dgx_tensorflow_py2/submit

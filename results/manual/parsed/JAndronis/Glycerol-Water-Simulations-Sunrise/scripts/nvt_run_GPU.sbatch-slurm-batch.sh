@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=16G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=ampere
 
 export GMX_ENABLE_DIRECT_GPU_COMM='1'
 export OMP_NUM_THREADS='$ntomp'

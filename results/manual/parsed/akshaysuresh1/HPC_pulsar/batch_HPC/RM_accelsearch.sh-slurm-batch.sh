@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-08:00:00
-#SBATCH --partition=RM
 #SBATCH --constraint=ntasks-per-node=128
 
 SINGULARITY_CONT=$PROJECT/psrsearch.sif

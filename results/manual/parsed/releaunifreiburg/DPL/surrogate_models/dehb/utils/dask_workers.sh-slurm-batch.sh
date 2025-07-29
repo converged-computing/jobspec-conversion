@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=0
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=cluster-name
 
 while getopts f:e:w: flag
 do

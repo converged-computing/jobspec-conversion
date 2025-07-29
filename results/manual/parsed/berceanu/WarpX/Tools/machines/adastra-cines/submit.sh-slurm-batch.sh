@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=00:10:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=MI250,ntasks-per-node=8
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

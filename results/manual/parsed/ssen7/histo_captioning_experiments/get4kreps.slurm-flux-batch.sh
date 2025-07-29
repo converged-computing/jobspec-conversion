@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-toaster-5207
+#FLUX --job-name=stanky-leg-7381
 #FLUX --queue=bii-gpu
 #FLUX -t=86400
 #FLUX --urgency=16

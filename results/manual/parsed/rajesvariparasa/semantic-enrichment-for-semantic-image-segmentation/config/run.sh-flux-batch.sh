@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-fork-2952
+#FLUX --job-name=anxious-cattywampus-2503
 #FLUX --queue=shortrun
 #FLUX -t=108000
 #FLUX --urgency=16

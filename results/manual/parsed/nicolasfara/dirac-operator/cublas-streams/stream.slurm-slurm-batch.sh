@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=shortvolta
 #SBATCH --constraint=ntasks-per-node=1
 
 module load cuda/10.0

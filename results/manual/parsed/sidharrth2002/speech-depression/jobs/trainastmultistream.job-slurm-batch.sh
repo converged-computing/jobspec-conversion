@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16384
 #SBATCH --time=1-16:00:00
-#SBATCH --partition=gpu.medium
 
 module load python
 pip install transformers datasets evaluate librosa torchmetrics opensmile scikit-learn nlpaug

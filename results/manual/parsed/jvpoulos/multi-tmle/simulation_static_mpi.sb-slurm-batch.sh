@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=mpi
 #SBATCH --array=18
 
 ulimit -l unlimited

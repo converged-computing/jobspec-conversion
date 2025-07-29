@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=2G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=preempted,cpu
 #SBATCH --chdir=/home/randall.white/hpc/spack
 
 SPACK_ENV_NAME="MY_TEST_ENVIRONMENT"

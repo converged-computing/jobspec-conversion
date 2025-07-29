@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-bike-9606
+#FLUX --job-name=outstanding-caramel-6147
 #FLUX -c=12
 #FLUX --queue=ccr
 #FLUX -t=259200

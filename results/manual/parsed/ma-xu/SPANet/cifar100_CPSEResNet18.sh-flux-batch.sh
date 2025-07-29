@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-bike-7696
+#FLUX --job-name=tart-arm-2438
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

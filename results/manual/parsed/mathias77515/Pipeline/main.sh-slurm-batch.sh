@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=20G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=htc
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=1-300
 

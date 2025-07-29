@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=25
 #SBATCH --gres=gpu:8
 #SBATCH --time=20:00:00
-#SBATCH --partition=beards
 #SBATCH --constraint=ntasks-per-node=1
 
 . /etc/profile

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5GB
 #SBATCH --time=00:30:00
-#SBATCH --partition=teach_cpu
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=1-10
 

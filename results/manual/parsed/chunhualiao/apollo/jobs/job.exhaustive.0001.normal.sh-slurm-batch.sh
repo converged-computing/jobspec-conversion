@@ -7,8 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:20:00
-#SBATCH --partition=pbatch
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export EXPERIMENT_JOB_TITLE='EXHAUSTIVE.0001.normal"  # <-- creates output path!'
 export APPLICATION_RANKS='1"         # ^__ make sure to change SBATCH node counts!'

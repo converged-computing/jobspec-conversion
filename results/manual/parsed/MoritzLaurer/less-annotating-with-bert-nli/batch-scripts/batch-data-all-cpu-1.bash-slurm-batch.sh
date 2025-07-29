@@ -6,7 +6,6 @@
 #SBATCH --ntasks=32
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=thin
 
 module load 2021
 module load Python/3.9.5-GCCcore-10.3.0

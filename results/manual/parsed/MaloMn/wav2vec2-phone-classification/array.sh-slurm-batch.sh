@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=8G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=GPURAM_Min_12GB&GPURAM_Max_32GB
 #SBATCH --array=8-23%3
 

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=core
 #SBATCH --constraint=gpu
 
 cd /proj/sens2022521/MindReader

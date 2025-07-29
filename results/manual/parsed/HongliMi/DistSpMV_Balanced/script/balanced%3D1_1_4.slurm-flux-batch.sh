@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=abinit
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=kshctest
 #FLUX --urgency=16
 

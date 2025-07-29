@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-peanut-9293
+#FLUX --job-name=evasive-bike-5795
 #FLUX -n=8
 #FLUX --queue=preempt
 #FLUX -t=172800

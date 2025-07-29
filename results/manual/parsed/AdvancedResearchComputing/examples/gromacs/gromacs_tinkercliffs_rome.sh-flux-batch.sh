@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-pot-0311
+#FLUX --job-name=fuzzy-snack-9384
 #FLUX --queue=dev_q
 #FLUX -t=300
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-signal-2550
+#FLUX --job-name=phat-itch-2445
 #FLUX -n=384
 #FLUX --urgency=16
 

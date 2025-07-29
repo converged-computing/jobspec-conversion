@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu-shared
 #SBATCH --constraint=ntasks-per-node=1
 
 module load cuda/7.0

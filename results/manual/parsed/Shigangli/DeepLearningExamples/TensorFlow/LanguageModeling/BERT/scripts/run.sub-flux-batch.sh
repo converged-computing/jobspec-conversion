@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=image_classification
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=mlperf
 #FLUX -t=43200
 #FLUX --urgency=16

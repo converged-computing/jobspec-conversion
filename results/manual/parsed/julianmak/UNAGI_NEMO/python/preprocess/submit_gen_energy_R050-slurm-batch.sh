@@ -5,7 +5,6 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=cpu
 #SBATCH --exclude=hhnode-ib-[201-228]
 
 module load openmpi3

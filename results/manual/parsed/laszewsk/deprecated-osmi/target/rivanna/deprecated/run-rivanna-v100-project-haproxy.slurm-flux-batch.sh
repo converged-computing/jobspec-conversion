@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=osmi-v100-rivanna
 #FLUX -n=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=bii-gpu
 #FLUX -t=10800
 #FLUX --urgency=16

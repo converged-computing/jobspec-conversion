@@ -7,7 +7,6 @@
 #SBATCH --mem=300GB
 #SBATCH --time=14:00:00
 #SBATCH --qos=bigmem
-#SBATCH --licenses=project,SCRATCH
 
 export JULIA_NUM_THREADS='1'
 export TMPDIR='$SCRATCH'

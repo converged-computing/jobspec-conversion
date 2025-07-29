@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-butter-0903
+#FLUX --job-name=reclusive-avocado-6600
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CodeLemon/picongpu/src/picongpu/submit/joker/tesla_vampir.tpl

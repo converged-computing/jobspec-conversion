@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=40G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=cpu
 #SBATCH --array=1-57
 
 echo "start"

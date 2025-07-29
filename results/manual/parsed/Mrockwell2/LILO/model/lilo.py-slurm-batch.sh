@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=RM
 #SBATCH --constraint=ntasks-per-node=128
 
 from tensorflow.keras.models import Sequential

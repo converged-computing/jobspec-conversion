@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6gb
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=long
 
 pwd; hostname; date
 echo "Booyakasha, Big up Yaself -- you've requested $SLURM_CPUS_ON_NODE core."

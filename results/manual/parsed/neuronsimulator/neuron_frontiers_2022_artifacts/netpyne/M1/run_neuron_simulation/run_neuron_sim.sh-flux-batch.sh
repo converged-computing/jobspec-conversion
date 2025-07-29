@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=creamy-arm-4982
+#FLUX --job-name=quirky-lettuce-9828
 #FLUX -N=2
 #FLUX -n=80
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=prod
 #FLUX -t=28800
 #FLUX --urgency=16

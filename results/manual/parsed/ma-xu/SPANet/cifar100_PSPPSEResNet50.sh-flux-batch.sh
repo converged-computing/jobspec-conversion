@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-cat-8053
+#FLUX --job-name=expressive-train-5910
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

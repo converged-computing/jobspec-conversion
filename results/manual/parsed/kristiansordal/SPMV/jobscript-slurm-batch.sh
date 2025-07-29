@@ -5,7 +5,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:04:00
-#SBATCH --partition=rome16q
 
 export OMPI_MCA_pml='^ucx'
 export OMPI_MCA_btl_openib_if_include='mlx5_4:1'

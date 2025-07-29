@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000
 #SBATCH --time=00:10:00
-#SBATCH --partition=batch
 #SBATCH --array=0-10
 
 CONTAINER=/cluster/tufts/wongjiradlab/larbys/images/singularity-larflow/singularity-larflow-v2.img

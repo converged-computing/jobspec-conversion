@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-cat-9631
+#FLUX --job-name=carnivorous-car-6983
 #FLUX -n=2
 #FLUX --queue=norm
 #FLUX -t=345600

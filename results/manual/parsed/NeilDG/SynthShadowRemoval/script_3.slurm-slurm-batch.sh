@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
-#SBATCH --partition=gpu
 #SBATCH --qos=12c-1h_2gpu
 
 NETWORK_VERSION=$1

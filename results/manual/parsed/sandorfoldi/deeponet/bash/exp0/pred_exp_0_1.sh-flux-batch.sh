@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-despacito-7921
+#FLUX --job-name=reclusive-truffle-2380
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sandorfoldi/deeponet/bash/exp0/pred_exp_0_1.sh

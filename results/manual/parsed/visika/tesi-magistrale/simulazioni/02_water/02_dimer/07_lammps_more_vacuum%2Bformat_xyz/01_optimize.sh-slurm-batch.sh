@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
-#SBATCH --partition=parallel
 #SBATCH --constraint=ntasks-per-node=1
 
 export VASP='/lustre/home/tccourse/vasp46-da/vasp'

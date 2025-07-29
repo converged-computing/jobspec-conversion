@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=rfm_IMB_Uniband_0_75_job
 #FLUX -n=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpc
 #FLUX -t=600
 #FLUX --urgency=16

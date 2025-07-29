@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=ztestpreemp
 #SBATCH --constraint=ntasks-per-node=1
 
 singularity exec --bind /datasets:/datasets --bind /staging:/staging --bind /workspaces:/workspaces \

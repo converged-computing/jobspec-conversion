@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=470GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=devlab
 #SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 size=xl

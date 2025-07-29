@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-pastry-0840
+#FLUX --job-name=grated-lamp-9334
 #FLUX -N=100
 #FLUX -n=6400
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cont
 #FLUX -t=600
 #FLUX --urgency=16

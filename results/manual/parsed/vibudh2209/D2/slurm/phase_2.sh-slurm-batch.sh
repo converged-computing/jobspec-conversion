@@ -4,7 +4,6 @@
 #SBATCH --ntasks=3
 #SBATCH --cpus-per-task=19
 #SBATCH --mem-per-cpu=0
-#SBATCH --partition=normal,gpu
 
 t_nod=$2
 file_path=`sed -n '1p' $3/$4/logs.txt`

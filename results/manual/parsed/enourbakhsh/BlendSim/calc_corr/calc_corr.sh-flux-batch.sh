@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-cherry-9258
+#FLUX --job-name=frigid-avocado-8928
 #FLUX --urgency=16
 
 export OMP_NUM_THREADS='$omp_threads'

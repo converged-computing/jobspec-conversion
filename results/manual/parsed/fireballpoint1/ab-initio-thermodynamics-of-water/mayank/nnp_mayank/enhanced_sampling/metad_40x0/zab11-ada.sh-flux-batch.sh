@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-plant-9311
+#FLUX --job-name=gassy-frito-1008
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

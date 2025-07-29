@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=7
 #SBATCH --mem-per-cpu=2G
 #SBATCH --time=23:55:00
-#SBATCH --partition=short
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=E5-2680v4@2.40GHz,ntasks-per-node=4
 
 module load gcc/6.4.0  openmpi/3.1.2  cmake/3.10.0

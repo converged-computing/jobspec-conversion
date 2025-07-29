@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:rtx2080ti:4
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu-2080ti
 
 export HANNAH_DATA_FOLDER='/mnt/qb/datasets/STAGING/bringmann/datasets/'
 export EXPERIMENT='baseline'

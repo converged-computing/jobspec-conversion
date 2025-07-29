@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-lemon-0785
+#FLUX --job-name=lovely-avocado-8706
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/selvaje/YaleRep/LST_om/sc1_wget_MYOD11A2.sh

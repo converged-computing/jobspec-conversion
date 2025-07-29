@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:A100:1
 #SBATCH --mem=64GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=GPU
 
 module load anaconda3
 module load cuda

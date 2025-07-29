@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=muffled-lemur-0482
+#FLUX --job-name=cowy-train-3038
 #FLUX --urgency=16
 

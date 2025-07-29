@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=strong_wide
 #FLUX -n=65
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=9600
 #FLUX --urgency=16
 

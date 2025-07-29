@@ -6,6 +6,5 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=mldlc_gpu-rtx2080
 
 dask-scheduler --scheduler-file  "scheduler-dpn-file.json" --idle-timeout 1000000000000000000000000 --port 1796

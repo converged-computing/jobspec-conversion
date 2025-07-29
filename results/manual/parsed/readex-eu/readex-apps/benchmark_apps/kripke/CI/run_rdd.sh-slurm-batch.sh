@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2500M
 #SBATCH --time=01:00:00
-#SBATCH --partition=haswell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=24
 
 export SCOREP_PROFILING_FORMAT='cube_tuple'

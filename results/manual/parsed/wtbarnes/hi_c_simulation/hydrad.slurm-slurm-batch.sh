@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=07:59:59
-#SBATCH --partition=commons
 
 printf -v LOOP_NUM "%06d" $SLURM_ARRAY_TASK_ID
 RESULTS_DIR=$SHARED_SCRATCH/wtb2/hi_c_simulation

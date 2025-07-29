@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-chip-9419
+#FLUX --job-name=red-citrus-6604
 #FLUX --queue=batch
 #FLUX -t=300
 #FLUX --urgency=16

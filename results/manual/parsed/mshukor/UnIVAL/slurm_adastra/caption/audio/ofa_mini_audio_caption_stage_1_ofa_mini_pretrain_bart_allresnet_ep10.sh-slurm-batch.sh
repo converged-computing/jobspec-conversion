@@ -9,7 +9,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=8
 #SBATCH --time=01:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=MI250
 
 cd /lus/home/NAT/gda2204/mshukor/code/ofa_ours/run_scripts

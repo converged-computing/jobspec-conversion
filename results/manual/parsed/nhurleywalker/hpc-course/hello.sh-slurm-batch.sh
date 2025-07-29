@@ -4,7 +4,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=work
 
 module load python/3.10.10
 module load py-mpi4py/3.1.4-py3.10.10

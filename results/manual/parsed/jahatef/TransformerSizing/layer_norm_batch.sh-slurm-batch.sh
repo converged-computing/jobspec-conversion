@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:8
 #SBATCH --mem=16GB
-#SBATCH --partition=g40x
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_DEBUG='WARN'

@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=kellis
 #SBATCH --array=1-646%20
 
 export sample='$(< "samples_celltypes.tsv" awk -v TASK=${TASK} 'NR == TASK { print $1 }')'

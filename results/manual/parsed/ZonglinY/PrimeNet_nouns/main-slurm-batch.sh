@@ -7,6 +7,5 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10GB
 #SBATCH --time=8-08:00:00
-#SBATCH --partition=gpu
 
 python -u ./main.py

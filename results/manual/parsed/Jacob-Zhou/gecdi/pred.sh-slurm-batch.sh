@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=ntasks-per-node=1
 
 set -o nounset

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=nodes123
 #SBATCH --constraint=ntasks-per-node=1
 
 HOME_DIR="/home/mrmn/letoumelinl/train"

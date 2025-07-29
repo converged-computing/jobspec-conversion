@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=256GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal
 
 echo "SLURM_NODELIST: "$SLURM_NODELIST
 username=$1

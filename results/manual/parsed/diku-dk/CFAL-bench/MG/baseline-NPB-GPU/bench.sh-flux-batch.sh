@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-lemur-9246
+#FLUX --job-name=ornery-squidward-3612
 #FLUX -c=32
 #FLUX --queue=csmpi_fpga_long
 #FLUX -t=14400

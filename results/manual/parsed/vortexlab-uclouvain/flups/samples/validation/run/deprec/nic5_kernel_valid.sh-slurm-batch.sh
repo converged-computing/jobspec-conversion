@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2625
 #SBATCH --time=00:15:00
-#SBATCH --partition=batch
 
 export OMP_NUM_THREADS='${MY_NTHREADS}'
 

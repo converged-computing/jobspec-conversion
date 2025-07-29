@@ -8,7 +8,7 @@
 #SBATCH --ntasks=48
 #SBATCH --cpus-per-task=1
 #SBATCH --time=5-20:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_NUM_THREADS='5'
 

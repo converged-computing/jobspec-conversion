@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-rabbit-7466
+#FLUX --job-name=fuzzy-nalgas-7334
 #FLUX -n=8
 #FLUX --queue=gpgpumse
 #FLUX -t=259200

@@ -7,9 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 #SBATCH --constraint=haswell
-#SBATCH --licenses=SCRATCH,project
 
 export CSCRATCH_OBIWAN='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker'
 export PYTHONPATH='$CSCRATCH_OBIWAN/obiwan_code/py:$CSCRATCH_OBIWAN/legacypipe/py:$PYTHONPATH'

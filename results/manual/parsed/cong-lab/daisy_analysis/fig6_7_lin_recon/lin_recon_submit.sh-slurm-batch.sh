@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
 #SBATCH --time=01:00:00
-#SBATCH --partition=batch
 #SBATCH --array=166-166
 
 module add python/3.6.4

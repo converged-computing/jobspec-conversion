@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=12020
 #SBATCH --time=00:40:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 set -e
 sfemfp32=1

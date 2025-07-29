@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-lentil-2732
+#FLUX --job-name=bumfuzzled-fudge-9964
 #FLUX -c=24
 #FLUX --queue=amdgpulong
 #FLUX -t=259200

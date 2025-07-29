@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=6G
 #SBATCH --time=02:00:00
-#SBATCH --partition=kipac
 #SBATCH --array=91-130
 
 source ~/setup.sh

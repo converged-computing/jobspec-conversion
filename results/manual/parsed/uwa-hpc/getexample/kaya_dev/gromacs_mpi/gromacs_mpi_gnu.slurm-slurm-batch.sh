@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:40:00
-#SBATCH --partition=workq
 
 module swap PrgEnv-cray PrgEnv-gnu
 module load gromacs/5.1.1

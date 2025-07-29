@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=300G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=XXX
 #SBATCH --constraint=ntasks-per-node=1
 
 exp_name=$1  # note we added ${corpus} prefix automatically

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-snack-7081
+#FLUX --job-name=rainbow-bits-8924
 #FLUX --urgency=16
 
 source /vol/bitbucket/mgg17/diss/venv/bin/activate

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-pastry-4032
+#FLUX --job-name=frigid-arm-5964
 #FLUX -c=2
 #FLUX -t=86415
 #FLUX --urgency=16

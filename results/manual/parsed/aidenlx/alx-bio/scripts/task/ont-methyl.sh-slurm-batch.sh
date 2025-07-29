@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
-#SBATCH --partition=AI
 
 source $HOME/alx-bio/scripts/_base.sh
 conda_init conda

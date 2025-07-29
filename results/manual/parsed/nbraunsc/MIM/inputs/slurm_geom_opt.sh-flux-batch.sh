@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-earthworm-9189
+#FLUX --job-name=crusty-hope-4630
 #FLUX --queue=normal_q
 #FLUX -t=14400
 #FLUX --urgency=16

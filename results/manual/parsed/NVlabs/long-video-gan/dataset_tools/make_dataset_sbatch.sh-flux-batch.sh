@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-itch-3627
+#FLUX --job-name=nerdy-bicycle-8145
 #FLUX -n=10
 #FLUX -c=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 echo "Starting job..."

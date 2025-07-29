@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=8G
-#SBATCH --partition=common
 #SBATCH --array=1-17%10
 
 source $(conda info --base)/etc/profile.d/conda.sh

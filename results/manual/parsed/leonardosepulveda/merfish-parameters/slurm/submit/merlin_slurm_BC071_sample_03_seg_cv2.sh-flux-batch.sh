@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-poo-2285
+#FLUX --job-name=misunderstood-onion-7251
 #FLUX --queue=zhuang,shared
 #FLUX -t=604800
 #FLUX --urgency=16

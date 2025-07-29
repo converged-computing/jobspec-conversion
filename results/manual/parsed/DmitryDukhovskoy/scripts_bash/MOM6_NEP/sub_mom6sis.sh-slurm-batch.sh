@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=batch
 #SBATCH --qos=normal
 
 export HEXE='fms_MOM6_SIS2_GENERIC_4P_compile_symm.x'

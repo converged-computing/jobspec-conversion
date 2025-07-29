@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=240G
 #SBATCH --time=12:00:00
-#SBATCH --partition=dgx-common,gpu
 
 module load miniconda
 source activate shardProcess

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
 #SBATCH --time=03:30:00
-#SBATCH --partition=learnfair
 #SBATCH --array=0-4
 
 source ~/.bashrc  # load all modules

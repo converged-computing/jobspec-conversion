@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-carrot-3853
+#FLUX --job-name=peachy-pastry-9749
 #FLUX -n=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

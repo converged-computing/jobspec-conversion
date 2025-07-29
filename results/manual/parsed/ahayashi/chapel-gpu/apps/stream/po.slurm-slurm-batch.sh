@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --gres=gpu
 #SBATCH --time=00:30:00
-#SBATCH --partition=commons
 
 export CHPL_LAUNCHER='slurm-gasnetrun_ibv'
 export GASNET_PHYSMEM_MAX='1G'

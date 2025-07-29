@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=200000
 #SBATCH --time=04:00:00
-#SBATCH --partition=jazayeri
 
 export MW_NVCC_PATH='/cm/shared/openmind/cuda/9.1/bin'
 

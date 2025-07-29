@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:3
 #SBATCH --mem=40G
 #SBATCH --time=04:00:00
-#SBATCH --partition=amdgpufast
 #SBATCH --constraint=ntasks-per-node=3
 
 export NCCL_LL_THRESHOLD='0'

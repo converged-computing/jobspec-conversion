@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-hobbit-8531
+#FLUX --job-name=milky-butter-4861
 #FLUX -N=3
 #FLUX -n=9
 #FLUX --queue=main

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-malarkey-1845
+#FLUX --job-name=dinosaur-bits-7195
 #FLUX -N=4
 #FLUX -n=8
 #FLUX --queue=gpu

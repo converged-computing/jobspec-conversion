@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-pot-7551
+#FLUX --job-name=persnickety-earthworm-4215
 #FLUX -N=2
 #FLUX -n=60
 #FLUX --queue=huce_intel,seas_compute,shared

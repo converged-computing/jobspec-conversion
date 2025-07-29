@@ -10,7 +10,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5000
 #SBATCH --time=01:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

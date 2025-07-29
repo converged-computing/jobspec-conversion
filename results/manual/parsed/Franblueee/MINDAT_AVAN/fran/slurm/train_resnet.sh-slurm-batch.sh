@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50GB
-#SBATCH --partition=dgx,dios
 
 export PATH='/opt/anaconda/bin:$PATH'
 export LD_LIBRARY_PATH='/mnt/homeGPU/fcastro/conda-envs/newlulc/lib'

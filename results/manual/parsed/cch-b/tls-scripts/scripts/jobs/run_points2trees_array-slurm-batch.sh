@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=192000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=high-mem
 
 export N='$(printf %03d $SLURM_ARRAY_TASK_ID)'
 

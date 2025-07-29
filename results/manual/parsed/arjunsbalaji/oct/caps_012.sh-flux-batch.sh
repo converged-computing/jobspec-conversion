@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-chair-4997
+#FLUX --job-name=hello-chair-8109
 #FLUX --queue=gpuq
 #FLUX -t=7200
 #FLUX --urgency=16

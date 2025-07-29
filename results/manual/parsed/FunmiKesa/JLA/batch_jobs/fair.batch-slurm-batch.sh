@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=512G
 #SBATCH --time=00:07:00
-#SBATCH --partition=pearl
 
 MASTER=`/bin/hostname -s`
 echo $MASTER

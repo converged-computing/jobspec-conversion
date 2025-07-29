@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-signal-3273
+#FLUX --job-name=blank-egg-2306
 #FLUX -n=6
 #FLUX --queue=amilan
 #FLUX -t=1800

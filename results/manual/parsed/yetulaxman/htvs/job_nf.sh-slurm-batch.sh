@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=10G
 #SBATCH --time=00:10:10
-#SBATCH --partition=small
 
 module load maestro
 module load bioconda

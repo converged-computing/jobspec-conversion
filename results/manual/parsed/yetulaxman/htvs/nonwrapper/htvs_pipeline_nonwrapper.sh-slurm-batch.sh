@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:10:10
-#SBATCH --partition=small
 
 module load maestro parallel
 "$SCHRODINGER/pipeline" -prog mydb phase_inputWnjC.inp -OVERWRITE -HOST localhost:4 -NJOBS 4 -WAIT

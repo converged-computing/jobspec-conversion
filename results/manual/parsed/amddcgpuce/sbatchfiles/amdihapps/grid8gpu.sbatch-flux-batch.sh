@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-butter-6871
+#FLUX --job-name=swampy-bits-2317
 #FLUX -c=16
 #FLUX --urgency=16
 

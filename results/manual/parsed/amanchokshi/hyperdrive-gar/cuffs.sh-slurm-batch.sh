@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=256GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpuq
 #SBATCH --constraint=ntasks-per-node=1
 
 source /pawsey/mwa/software/python3/build_base.sh

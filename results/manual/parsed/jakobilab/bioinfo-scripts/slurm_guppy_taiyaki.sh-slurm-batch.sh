@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --mem=4G
-#SBATCH --partition=gpu
 
 echo "==== Start of GPU information ===="
 CUDA_DEVICE=$(echo "$CUDA_VISIBLE_DEVICES," | cut -d',' -f $((SLURM_LOCALID + 1)) );

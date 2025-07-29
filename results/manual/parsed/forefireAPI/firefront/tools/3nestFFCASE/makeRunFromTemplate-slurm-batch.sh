@@ -6,8 +6,7 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=intel
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo "SCRIPT RUN_PGD EN COURS"
 template=$1

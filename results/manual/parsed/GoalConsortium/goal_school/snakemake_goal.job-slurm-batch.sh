@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=65536
 #SBATCH --time=08:00:00
-#SBATCH --partition=short
 
 export SINGULARITYENV_SLURM_CPUS_ON_NODE='$SLURM_CPUS_ON_NODE'
 

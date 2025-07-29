@@ -5,9 +5,9 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=0
 #SBATCH --time=3-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=A100
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export NCCL_DEBUG='INFO'
 export PYTORCH_KERNEL_CACHE_PATH='/share/nas2/walml/.cache/torch/kernels'

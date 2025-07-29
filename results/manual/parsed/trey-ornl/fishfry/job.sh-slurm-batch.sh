@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export LD_LIBRARY_PATH='${CRAY_LD_LIBRARY_PATH}:${LD_LIBRARY_PATH}'
 export ROCFFT_RTC_CACHE_PATH='/dev/null'

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
 #SBATCH --time=08:00:00
-#SBATCH --partition=normal
 
 echo $1
 echo $2

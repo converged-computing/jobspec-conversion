@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-soup-8339
+#FLUX --job-name=evasive-squidward-5765
 #FLUX -c=32
 #FLUX --queue=nltmp
 #FLUX -t=428400

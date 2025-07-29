@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-bits-1028
+#FLUX --job-name=conspicuous-buttface-2311
 #FLUX -c=4
 #FLUX --queue=orchid
 #FLUX -t=86400

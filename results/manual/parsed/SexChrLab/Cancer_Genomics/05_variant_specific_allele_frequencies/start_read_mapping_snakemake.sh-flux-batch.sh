@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-omelette-2491
+#FLUX --job-name=confused-motorcycle-7524
 #FLUX --queue=public
 #FLUX -t=172800
 #FLUX --urgency=16

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=60G
 #SBATCH --time=1-08:00:00
-#SBATCH --partition=bmh
 
 set -e                                                                     # Error if a single command fails
 set -x                                                                     # Error if un-named variables calledset -x  >set -x

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-dog-1456
+#FLUX --job-name=frigid-squidward-7241
 #FLUX --queue=gpu2
 #FLUX -t=2700
 #FLUX --urgency=16

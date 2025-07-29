@@ -6,7 +6,6 @@
 #SBATCH --ntasks=32
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=short
 
 OPENMPI_DIR="/c1/apps/openmpi/1.8/gcc/4.9.2"
 MPIRUN="$OPENMPI_DIR/bin/mpirun"

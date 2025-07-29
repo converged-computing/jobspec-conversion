@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-peas-7785
+#FLUX --job-name=strawberry-sundae-0397
 #FLUX --queue=postproc
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --gres=gpu:0
-#SBATCH --partition=gpu-all
 
 module load cuda10.1/toolkit gcc6 slurm cmake
 source ~/anaconda3/bin/activate ~/anaconda3/envs/vad

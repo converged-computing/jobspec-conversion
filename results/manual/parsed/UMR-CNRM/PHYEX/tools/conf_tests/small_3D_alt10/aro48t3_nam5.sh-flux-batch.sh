@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-hippo-3763
+#FLUX --job-name=nerdy-cat-9582
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

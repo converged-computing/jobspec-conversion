@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=3-00:12:00
-#SBATCH --partition=cidsegpu1
 
 module load tensorflow/1.8-agave-gpu
 source ~/work/code/pytorch1_0/bin/activate

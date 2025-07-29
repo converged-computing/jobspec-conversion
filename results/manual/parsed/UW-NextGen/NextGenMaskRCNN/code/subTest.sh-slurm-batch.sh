@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:1
 #SBATCH --time=3-00:02:00
-#SBATCH --partition=slurm_courtesy
 
 module load cuda/9.0
 source activate maskrcnn

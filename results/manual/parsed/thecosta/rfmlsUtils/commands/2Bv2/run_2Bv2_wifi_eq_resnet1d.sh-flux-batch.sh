@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-eagle-9503
+#FLUX --job-name=expensive-buttface-8460
 #FLUX --queue=multigpu
 #FLUX -t=86400
 #FLUX --urgency=16

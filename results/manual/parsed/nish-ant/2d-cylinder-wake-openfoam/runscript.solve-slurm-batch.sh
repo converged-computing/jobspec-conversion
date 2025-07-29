@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=93G
 #SBATCH --time=12:00:00
-#SBATCH --partition=imb-resources
 #SBATCH --constraint=ntasks-per-node=32
 
 export SLURM_COMP_VERBOSE='3'

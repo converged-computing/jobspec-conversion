@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-lemur-6206
+#FLUX --job-name=loopy-poo-1437
 #FLUX -N=2
 #FLUX -n=2
 #FLUX --queue=west

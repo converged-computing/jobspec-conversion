@@ -4,7 +4,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=parallel-12
 
 lmp=/home/noura/LAMMPS/tests/src_v05
 mpi=/usr/local/openmpi-1.8.4-ifort/bin

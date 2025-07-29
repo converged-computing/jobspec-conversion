@@ -2,7 +2,7 @@
 #FLUX --job-name=pt_raytrain
 #FLUX -c=64
 #FLUX --gpus-per-task=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=604800
 #FLUX --urgency=16

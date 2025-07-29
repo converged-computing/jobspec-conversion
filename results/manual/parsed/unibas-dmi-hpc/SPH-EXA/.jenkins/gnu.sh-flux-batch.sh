@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-lettuce-3834
+#FLUX --job-name=milky-bicycle-9924
 #FLUX --queue=cscsci
 #FLUX --urgency=16
 

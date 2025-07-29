@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=tier1q
 #SBATCH --constraint=ntasks-per-node=1
 
 module load gcc/12.1.0

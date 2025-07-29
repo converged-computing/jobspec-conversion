@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-egg-4654
+#FLUX --job-name=chocolate-despacito-5772
 #FLUX -c=2
 #FLUX --queue=research
 #FLUX -t=86400

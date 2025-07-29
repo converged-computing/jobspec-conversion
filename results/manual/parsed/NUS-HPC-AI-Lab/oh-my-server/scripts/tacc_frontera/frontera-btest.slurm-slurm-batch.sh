@@ -8,7 +8,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=rtx
 
 export FS_ROOT='/tmp/fs_`id -u`'
 

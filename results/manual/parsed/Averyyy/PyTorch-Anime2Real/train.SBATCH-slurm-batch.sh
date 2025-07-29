@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:3090:1
 #SBATCH --mem=12GB
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=aquila
 
 module purge
 module load anaconda3

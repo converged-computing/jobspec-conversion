@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-signal-8580
+#FLUX --job-name=joyous-mango-7783
 #FLUX -c=8
 #FLUX --urgency=16
 

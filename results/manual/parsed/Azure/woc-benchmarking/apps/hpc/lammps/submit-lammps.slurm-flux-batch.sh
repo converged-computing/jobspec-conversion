@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=lammps
 #FLUX -N=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hbv3
 #FLUX -t=21600
 #FLUX --urgency=16

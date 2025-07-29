@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=sticky-cinnamonbun-1868
+#FLUX --job-name=rainbow-platanos-9336
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu_4090
 #FLUX --urgency=16
 

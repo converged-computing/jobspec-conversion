@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=24G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=base
 
 module load gcc12-env/12.3.0 
 module load singularity/3.11.5

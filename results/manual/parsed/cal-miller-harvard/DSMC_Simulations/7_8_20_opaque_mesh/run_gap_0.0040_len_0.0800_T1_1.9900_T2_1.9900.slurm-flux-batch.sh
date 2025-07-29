@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-platanos-4123
+#FLUX --job-name=quirky-gato-5740
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

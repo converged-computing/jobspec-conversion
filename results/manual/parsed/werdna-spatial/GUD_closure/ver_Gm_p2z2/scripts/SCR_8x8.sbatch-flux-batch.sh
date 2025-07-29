@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=8x8_darwin
 #FLUX -c=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=condo-dtalmy
 #FLUX -t=172800
 #FLUX --urgency=16

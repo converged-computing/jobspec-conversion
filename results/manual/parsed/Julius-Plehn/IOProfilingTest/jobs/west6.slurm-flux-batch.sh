@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-hippo-0238
+#FLUX --job-name=joyous-blackbean-0012
 #FLUX -N=6
 #FLUX -n=6
 #FLUX --queue=west

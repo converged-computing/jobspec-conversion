@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=15G
 #SBATCH --time=06:00:00
-#SBATCH --partition=cpu_p
 #SBATCH --qos=low
 
 sbatch --wait << EOF

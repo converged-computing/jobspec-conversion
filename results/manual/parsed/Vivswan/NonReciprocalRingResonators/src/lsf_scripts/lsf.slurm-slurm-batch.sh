@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=8G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=smp
 #SBATCH --chdir=/ihome/nyoungblood/vis77
 
 source "${HOME}/.bashrc";

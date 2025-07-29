@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-poodle-0684
+#FLUX --job-name=creamy-cherry-9722
 #FLUX -n=4
 #FLUX --queue=isi
 #FLUX -t=360000

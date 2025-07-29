@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32gb
-#SBATCH --partition=main
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=1-3%3
 

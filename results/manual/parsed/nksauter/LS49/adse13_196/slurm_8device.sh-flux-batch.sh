@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=test_gpu_job
 #FLUX -c=80
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=special
 #FLUX -t=4200
 #FLUX --urgency=16

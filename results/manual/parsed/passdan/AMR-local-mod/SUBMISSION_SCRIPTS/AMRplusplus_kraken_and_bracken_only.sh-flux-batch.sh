@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-carrot-0607
+#FLUX --job-name=loopy-leader-7842
 #FLUX -c=4
 #FLUX --queue=epyc_ssd
 #FLUX --urgency=16

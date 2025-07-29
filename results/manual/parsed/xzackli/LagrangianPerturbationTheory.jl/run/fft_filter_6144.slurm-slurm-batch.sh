@@ -9,7 +9,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --time=00:30:00
 #SBATCH --qos=debug
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=cpu,ntasks-per-node=16
 
 export JULIA_NUM_THREADS='8'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-chair-0605
+#FLUX --job-name=chunky-chip-4032
 #FLUX --queue=physical
 #FLUX -t=600
 #FLUX --urgency=16

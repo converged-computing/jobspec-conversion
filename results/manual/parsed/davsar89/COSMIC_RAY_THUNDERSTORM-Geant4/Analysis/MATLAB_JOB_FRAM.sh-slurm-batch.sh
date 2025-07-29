@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=08:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=1
 
 set -o errexit # Make bash exit on any error

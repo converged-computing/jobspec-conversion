@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-dog-9179
+#FLUX --job-name=crunchy-cattywampus-4642
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alintulu/FHead2011PhysicsProject/JetEnergyCorrection/MCTruthStudies/17244_L1Correction/RunFile.sh

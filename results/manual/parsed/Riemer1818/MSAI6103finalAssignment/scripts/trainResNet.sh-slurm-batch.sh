@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=6G
-#SBATCH --partition=SCSEGPU_M1
 #SBATCH --qos=q_amsai
 
 module load anaconda3/23.5.2

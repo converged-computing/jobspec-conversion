@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ior
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard
 #FLUX -t=3600
 #FLUX --urgency=16

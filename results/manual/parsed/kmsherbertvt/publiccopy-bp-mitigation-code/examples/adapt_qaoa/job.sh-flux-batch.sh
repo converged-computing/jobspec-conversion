@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-peanut-butter-4101
+#FLUX --job-name=expensive-animal-4425
 #FLUX -c=20
 #FLUX --queue=normal_q
 #FLUX -t=259200

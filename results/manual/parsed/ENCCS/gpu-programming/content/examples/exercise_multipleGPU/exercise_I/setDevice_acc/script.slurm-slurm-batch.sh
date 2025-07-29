@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=4
 #SBATCH --time=00:10:00
-#SBATCH --partition=dev-g
 #SBATCH --constraint=ntasks-per-node=4
 
 module load CrayEnv

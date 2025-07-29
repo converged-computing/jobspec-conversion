@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=rfm_LaghosTest_laghos_3_1__gcc___nodes___1___mpi___1___omp___1__job
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c6gn
 #FLUX --urgency=16
 

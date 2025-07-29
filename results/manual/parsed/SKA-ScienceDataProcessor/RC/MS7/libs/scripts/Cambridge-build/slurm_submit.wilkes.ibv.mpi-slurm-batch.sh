@@ -5,9 +5,8 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:02:00
-#SBATCH --partition=tesla
 #SBATCH --qos=GPU1
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export OMP_NUM_THREADS='1'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

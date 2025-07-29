@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-underoos-0062
+#FLUX --job-name=milky-salad-9883
 #FLUX --queue=top6
 #FLUX -t=36000
 #FLUX --urgency=16

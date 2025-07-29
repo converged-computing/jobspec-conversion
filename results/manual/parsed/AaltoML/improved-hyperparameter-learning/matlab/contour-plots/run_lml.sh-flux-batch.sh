@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-poodle-9927
+#FLUX --job-name=tart-chip-7182
 #FLUX -c=3
 #FLUX --queue=batch
 #FLUX -t=360000

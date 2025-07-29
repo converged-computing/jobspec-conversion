@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-fork-4962
+#FLUX --job-name=anxious-hippo-8987
 #FLUX --queue=gputest
 #FLUX -t=900
 #FLUX --urgency=16

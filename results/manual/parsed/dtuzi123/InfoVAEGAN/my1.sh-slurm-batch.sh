@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128gb
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=gpu
 
 echo "Running gaussian-test on $SLURM_CPUS_ON_NODE CPU cores"
 python InfoVAE_STL10.py

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-animal-5370
+#FLUX --job-name=bloated-sundae-1118
 #FLUX -N=4
 #FLUX -c=8
 #FLUX --queue=gpu

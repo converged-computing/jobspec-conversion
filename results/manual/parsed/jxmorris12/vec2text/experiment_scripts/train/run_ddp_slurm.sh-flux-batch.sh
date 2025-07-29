@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-parrot-0112
+#FLUX --job-name=strawberry-kerfuffle-0449
 #FLUX -c=16
 #FLUX --queue=rush,gpu
 #FLUX -t=2419200

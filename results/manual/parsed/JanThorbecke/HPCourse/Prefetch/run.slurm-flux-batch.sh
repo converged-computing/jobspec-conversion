@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=prefetch
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=defq
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-pedo-6712
+#FLUX --job-name=hanky-earthworm-0963
 #FLUX -t=86400
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-cattywampus-3496
+#FLUX --job-name=grated-mango-6611
 #FLUX -c=16
 #FLUX --urgency=16
 

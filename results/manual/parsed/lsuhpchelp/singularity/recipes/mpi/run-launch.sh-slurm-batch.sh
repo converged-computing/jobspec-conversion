@@ -2,7 +2,6 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=checkpt
 
 export NODES='$(unslurm.py)'
 export SECS='2'

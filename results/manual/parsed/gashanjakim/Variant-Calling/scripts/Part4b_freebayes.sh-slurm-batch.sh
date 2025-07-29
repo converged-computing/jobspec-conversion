@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=7
 #SBATCH --mem=10G
-#SBATCH --partition=general
 #SBATCH --qos=general
 
 hostname

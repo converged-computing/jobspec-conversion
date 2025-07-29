@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=30G
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=2
 #SBATCH --nodelist=gpu[020-027]
 

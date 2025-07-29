@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-mango-0681
+#FLUX --job-name=quirky-avocado-0788
 #FLUX -c=4
 #FLUX --queue=batch
 #FLUX -t=7200

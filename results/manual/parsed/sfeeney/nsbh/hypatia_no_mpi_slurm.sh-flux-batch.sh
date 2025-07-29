@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=nsbh
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=CORES24
 #FLUX --urgency=16
 

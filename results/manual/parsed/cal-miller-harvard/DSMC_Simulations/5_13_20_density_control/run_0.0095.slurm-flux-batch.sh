@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-eagle-4490
+#FLUX --job-name=blue-lentil-2239
 #FLUX -n=8
 #FLUX --queue=shared
 #FLUX -t=480

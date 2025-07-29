@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-cherry-5006
+#FLUX --job-name=pusheena-earthworm-8394
 #FLUX --queue=lycium
 #FLUX -t=86400
 #FLUX --urgency=16

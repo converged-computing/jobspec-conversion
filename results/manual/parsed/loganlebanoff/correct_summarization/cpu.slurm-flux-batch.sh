@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-malarkey-4777
+#FLUX --job-name=reclusive-arm-6067
 #FLUX -c=8
 #FLUX -t=600
 #FLUX --urgency=16

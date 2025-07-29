@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=SAAGmcs
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=debug
 #FLUX -t=300
 #FLUX --urgency=16

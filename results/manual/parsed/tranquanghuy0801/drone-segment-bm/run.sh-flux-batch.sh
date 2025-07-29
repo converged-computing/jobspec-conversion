@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-lamp-3473
+#FLUX --job-name=misunderstood-nunchucks-9956
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tranquanghuy0801/drone-segment-bm/run.sh

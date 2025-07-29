@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-general-1810
+#FLUX --job-name=phat-lizard-0784
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JieyangChen7/DVFS-MAGMA/magma-1.5.0/scripts/MAGMA_LU_GPUDVFS_ivy.pbs

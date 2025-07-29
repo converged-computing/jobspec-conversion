@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-cattywampus-1609
+#FLUX --job-name=sticky-house-6015
 #FLUX -c=24
 #FLUX --queue=topola
 #FLUX --urgency=16

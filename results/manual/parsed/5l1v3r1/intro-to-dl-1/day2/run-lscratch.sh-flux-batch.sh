@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-ricecake-2280
+#FLUX --job-name=crusty-despacito-4873
 #FLUX -c=10
 #FLUX --queue=gpu
 #FLUX -t=3600

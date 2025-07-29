@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=24G
 #SBATCH --time=01:30:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=4
 
 module load gcc

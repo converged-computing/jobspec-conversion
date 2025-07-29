@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-citrus-1320
+#FLUX --job-name=fat-frito-9742
 #FLUX -c=48
 #FLUX --queue=gpu_v100
 #FLUX -t=720000

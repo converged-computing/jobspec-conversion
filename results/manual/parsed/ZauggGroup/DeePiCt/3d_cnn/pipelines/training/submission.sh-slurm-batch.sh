@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=30G
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 
 export src_dir='$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )'
 export PYTHONPATH='${src_dir%/*/*}/src'

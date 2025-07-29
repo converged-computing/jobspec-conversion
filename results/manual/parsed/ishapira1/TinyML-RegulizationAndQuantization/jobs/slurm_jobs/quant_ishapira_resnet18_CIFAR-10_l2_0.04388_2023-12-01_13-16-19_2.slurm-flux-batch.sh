@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-nalgas-8307
+#FLUX --job-name=arid-lemon-4677
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

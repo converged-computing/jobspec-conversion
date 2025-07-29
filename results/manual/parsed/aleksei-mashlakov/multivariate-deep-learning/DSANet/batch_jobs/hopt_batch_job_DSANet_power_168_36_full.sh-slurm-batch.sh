@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem=16G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 module load gcc/8.3.0 cuda/10.1.168
 module load pytorch/1.3.0

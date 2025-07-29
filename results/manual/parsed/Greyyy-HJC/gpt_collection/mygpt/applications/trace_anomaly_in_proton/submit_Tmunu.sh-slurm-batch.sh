@@ -8,10 +8,9 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=18:00:00
-#SBATCH --partition=gpuA40x4
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1,"scratch"
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 #SBATCH --array=1-$this_arraySize%$MaxRunningJobs
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/sw/spack/delta-2022-03/apps/fftw/3.3.10-gcc-11.2.0-ipxfmko/lib'

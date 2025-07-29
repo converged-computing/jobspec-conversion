@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
 #SBATCH --time=10:00:00
-#SBATCH --partition=neuro-hsc
 #SBATCH --array=1
 
 datadir="/carc/scratch/projects/mckenzie2016183/data/spikeSorting/spikeDemo"

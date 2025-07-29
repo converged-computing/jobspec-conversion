@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2gb
 #SBATCH --time=03:00:00
-#SBATCH --partition=hpg2-compute
 
 date;hostname;pwd
 source /etc/profile.d/modules.sh

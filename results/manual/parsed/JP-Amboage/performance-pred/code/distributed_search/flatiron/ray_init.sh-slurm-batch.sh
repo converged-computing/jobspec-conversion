@@ -2,7 +2,7 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=5
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo "#################### Job submission script. #############################"
 cat $0

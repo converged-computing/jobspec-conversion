@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=leclerce_experiments
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=main
 #FLUX --urgency=16
 

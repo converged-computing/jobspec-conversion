@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-sundae-6972
+#FLUX --job-name=evasive-poodle-4786
 #FLUX -N=2
 #FLUX -n=3
 #FLUX --queue=west

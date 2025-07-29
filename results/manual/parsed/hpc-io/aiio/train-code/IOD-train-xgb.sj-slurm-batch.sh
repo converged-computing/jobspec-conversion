@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --time=20:10:00
-#SBATCH --partition=regular
 #SBATCH --constraint=gpu
 
 module load cgpu

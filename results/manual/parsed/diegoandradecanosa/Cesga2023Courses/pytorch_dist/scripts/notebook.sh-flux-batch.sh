@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-leader-2789
+#FLUX --job-name=anxious-cupcake-2507
 #FLUX -c=24
 #FLUX --queue=cola-corta,thin-shared,thinnodes,gpu-shared-v100
 #FLUX -t=23400

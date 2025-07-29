@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-animal-8421
+#FLUX --job-name=salted-fudge-1476
 #FLUX -c=4
 #FLUX --queue=gpu_7d1g
 #FLUX --urgency=16

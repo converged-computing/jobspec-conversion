@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-egg-2200
+#FLUX --job-name=rainbow-salad-1662
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jmarcherr/UHEAL_paper/_eeg/_FFR_4Hz/_bash/bjob_ffr_4Hz.sh

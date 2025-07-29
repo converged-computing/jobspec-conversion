@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-peanut-9821
+#FLUX --job-name=placid-caramel-1671
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/akononov/CS420_Project/test/bw_test_matrix_product.sh

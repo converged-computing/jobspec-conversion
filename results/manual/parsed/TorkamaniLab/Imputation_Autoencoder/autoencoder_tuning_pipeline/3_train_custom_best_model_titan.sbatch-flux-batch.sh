@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=3_train_custom_best_model_titan
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=stsi
 #FLUX -t=2160000
 #FLUX --urgency=16

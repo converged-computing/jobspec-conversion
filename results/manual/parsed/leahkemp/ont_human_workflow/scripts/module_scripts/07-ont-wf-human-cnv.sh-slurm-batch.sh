@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=48
 #SBATCH --mem=130G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=prod
 
 SAMPLE="OM1052A"
 WKDIR="/NGS/humangenomics/active/2022/run/ont_human_workflow/"

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=3
 #SBATCH --time=04:00:00
-#SBATCH --partition=comm_gpu_inter
 
 export NUM_CORES='$((SLURM_JOB_NUM_NODES * SLURM_CPUS_ON_NODE))'
 

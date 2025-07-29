@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000M
 #SBATCH --time=03:00:00
-#SBATCH --partition=compute
 
 MCR=/global/software/matlab/mcr/v93
 module load mcr/mcr

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:tesla-k80:1
 #SBATCH --mem=20GB
 #SBATCH --time=08:00:00
-#SBATCH --partition=cbmm
 #SBATCH --chdir=/om/user/vanessad/MNIST_framework/slurm_output/output_results_natural/scenario3/repetition_4
 #SBATCH --array=0-499
 

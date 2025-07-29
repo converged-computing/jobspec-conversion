@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-earthworm-7131
+#FLUX --job-name=blue-hope-4504
 #FLUX --urgency=16
 

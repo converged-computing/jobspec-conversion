@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=10000
 #SBATCH --time=01:00:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --constraint=ntasks-per-node=8
 
 cd /leonardo_work/ICT24_ESP/sdigioia/Tutorial-causal-discovery/

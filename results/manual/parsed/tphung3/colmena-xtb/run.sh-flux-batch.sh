@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=hanky-signal-4027
+#FLUX --job-name=pusheena-platanos-9527
 #FLUX --urgency=16
 

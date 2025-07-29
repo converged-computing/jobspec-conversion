@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=bii-gpu
 
 source ~/.bashrc
 conda activate osmi

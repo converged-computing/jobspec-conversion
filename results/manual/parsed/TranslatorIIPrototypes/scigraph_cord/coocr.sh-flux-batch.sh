@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-underoos-7369
+#FLUX --job-name=muffled-truffle-5430
 #FLUX -t=259200
 #FLUX --urgency=16
 

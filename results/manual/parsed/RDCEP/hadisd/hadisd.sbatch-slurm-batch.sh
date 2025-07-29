@@ -3,8 +3,7 @@
 #SBATCH --ntasks=160
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=sandyb,westmere,bigmem,amd
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load parallel
 srun="srun --exclusive -N1 -n1 -c2"

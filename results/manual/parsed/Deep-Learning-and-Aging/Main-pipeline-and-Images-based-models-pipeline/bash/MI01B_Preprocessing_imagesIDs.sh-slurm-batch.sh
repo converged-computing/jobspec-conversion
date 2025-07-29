@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=00:45:00
-#SBATCH --partition=priority
 
 set -e
 module load gcc/6.2.0

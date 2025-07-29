@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-cinnamonbun-7402
+#FLUX --job-name=boopy-milkshake-4903
 #FLUX --queue=standard
 #FLUX -t=345600
 #FLUX --urgency=16

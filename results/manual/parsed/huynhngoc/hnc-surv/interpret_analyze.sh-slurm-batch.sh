@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12G
-#SBATCH --partition=smallmem,hugemem,orion,hugemem-avx2
 #SBATCH --exclude=cn-11,cn-12,cn-14
 
 export NUM_CPUS='4'

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8gb
 #SBATCH --time=06:00:00
-#SBATCH --partition=standard
 #SBATCH --array=1-17%5
 
 IMAGE="/dartfs-hpc/rc/lab/C/CANlab/modules/mriqc-0.14.2.sif"

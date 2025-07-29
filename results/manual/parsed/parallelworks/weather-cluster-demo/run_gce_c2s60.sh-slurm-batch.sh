@@ -4,7 +4,7 @@
 #SBATCH --nodes=8
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=4
 
 export I_MPI_FABRICS='ofi_rxm;tcp'

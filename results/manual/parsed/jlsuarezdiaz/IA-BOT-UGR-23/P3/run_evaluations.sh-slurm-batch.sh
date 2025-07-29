@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=10G
-#SBATCH --partition=muylarga
 
 export PATH='/home/profesia/anaconda/condabin:$PATH'
 

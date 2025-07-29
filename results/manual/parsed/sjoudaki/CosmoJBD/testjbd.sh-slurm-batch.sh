@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 cd $SLURM_SUBMIT_DIR
 ir=0

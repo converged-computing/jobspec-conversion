@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export LD_LIBRARY_PATH='/sw/spack-levante/nvhpc-23.7-xasprs/Linux_x86_64/23.7/profilers/Nsight_Systems/host-linux-x64/:/sw/spack-levante/nvhpc-23.7-xasprs/Linux_x86_64/23.7/cuda/lib64'
 

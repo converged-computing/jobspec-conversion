@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-staircase-5374
+#FLUX --job-name=lovely-nalgas-7946
 #FLUX -N=2
 #FLUX --gpus-per-task=1
 #FLUX --queue=batch

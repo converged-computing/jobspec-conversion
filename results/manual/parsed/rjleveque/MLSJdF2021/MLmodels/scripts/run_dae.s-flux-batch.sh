@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-lentil-1621
+#FLUX --job-name=blue-malarkey-7947
 #FLUX -t=10800
 #FLUX --urgency=16
 

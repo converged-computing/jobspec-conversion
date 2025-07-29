@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4G
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=defq
 #SBATCH --array=0-3
 
 SAVEIFS=$IFS   # Save current IFS

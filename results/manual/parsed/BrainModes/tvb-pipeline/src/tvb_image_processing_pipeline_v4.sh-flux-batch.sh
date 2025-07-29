@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-bits-3954
+#FLUX --job-name=crunchy-pastry-0776
 #FLUX --urgency=16
 
 export SINGULARITY_CACHEDIR='$containerstore"/tmp-singularity-cache'

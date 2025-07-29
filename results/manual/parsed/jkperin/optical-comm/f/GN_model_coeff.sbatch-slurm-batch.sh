@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=4000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 #SBATCH --qos=long
 #SBATCH --array=1-6
 

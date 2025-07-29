@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=04:00:00
-#SBATCH --partition=instructional
 #SBATCH --constraint=ntasks-per-node=1
 
 module load singularity

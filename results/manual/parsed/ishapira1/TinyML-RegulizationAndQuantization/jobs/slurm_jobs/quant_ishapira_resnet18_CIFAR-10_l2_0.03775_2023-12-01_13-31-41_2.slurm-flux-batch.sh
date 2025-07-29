@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-motorcycle-1601
+#FLUX --job-name=bumfuzzled-fork-2292
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

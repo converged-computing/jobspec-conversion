@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=9500
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=s.bio
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=./
 

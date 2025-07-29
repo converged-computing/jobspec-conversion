@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:kepler:1
 #SBATCH --mem=15GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=batch
 #SBATCH --qos=devel
 #SBATCH --constraint=ntasks-per-node=1
 

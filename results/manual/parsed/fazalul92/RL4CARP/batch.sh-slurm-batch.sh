@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:p4:1
 #SBATCH --mem=20G
 #SBATCH --time=12:00:00
-#SBATCH --partition=tier3
 
 spack env activate ml-geo-20070801
 echo " (${HOSTNAME}) Job Running..."

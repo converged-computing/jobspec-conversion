@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-banana-3425
+#FLUX --job-name=dirty-taco-0073
 #FLUX -c=12
 #FLUX --queue=short
 #FLUX -t=1800

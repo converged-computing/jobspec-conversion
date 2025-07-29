@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-bits-5713
+#FLUX --job-name=dirty-general-9040
 #FLUX -n=4
 #FLUX -t=172800
 #FLUX --urgency=16

@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=2,haswell
 
 export OMP_NUM_THREADS='11'

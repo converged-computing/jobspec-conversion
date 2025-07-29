@@ -6,7 +6,6 @@
 #SBATCH --ntasks=80
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=CPU-Small
 #SBATCH --qos=scpujoblimit
 
 echo Running on $SBATCH_PARTITION paratation

@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:h100:1
 #SBATCH --mem=82G
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu
 
 export FLAMEGPU2_INC_DIR='_deps/flamegpu2-src/include'

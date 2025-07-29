@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=02:00:00
-#SBATCH --partition=kipac
 #SBATCH --array=0-48
 
 python3 print_UM.py configs/Group/config.txt ${SLURM_ARRAY_TASK_ID} &&

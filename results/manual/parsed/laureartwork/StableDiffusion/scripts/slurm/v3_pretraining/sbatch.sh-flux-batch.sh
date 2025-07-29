@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=stable-diffusion-v3-pretraining
 #FLUX -N=44
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute-od-gpu
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-puppy-6121
+#FLUX --job-name=hello-poodle-6523
 #FLUX --urgency=16
 
   source $(dirname $0)/../../model/bin/w3_setenv

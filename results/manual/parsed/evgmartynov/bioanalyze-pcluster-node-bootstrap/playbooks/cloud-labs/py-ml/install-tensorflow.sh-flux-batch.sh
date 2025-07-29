@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=hello-fork-5666
-#FLUX: --exclusive
+#FLUX --job-name=conspicuous-sundae-8816
+#FLUX --exclusive
 #FLUX --queue=dev
 #FLUX -t=86400
 #FLUX --urgency=16

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=soy_test_alignment
 #FLUX -n=72
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43200
 #FLUX --urgency=16
 

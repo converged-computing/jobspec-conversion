@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-lettuce-7451
+#FLUX --job-name=goodbye-salad-7062
 #FLUX --queue=amd-longq
 #FLUX --urgency=16
 

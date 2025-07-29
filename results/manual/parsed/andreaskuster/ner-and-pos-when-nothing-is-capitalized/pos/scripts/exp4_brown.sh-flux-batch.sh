@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-itch-9728
+#FLUX --job-name=ornery-chip-2776
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

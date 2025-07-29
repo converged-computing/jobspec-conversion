@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=1D-CPU
 #FLUX -c=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

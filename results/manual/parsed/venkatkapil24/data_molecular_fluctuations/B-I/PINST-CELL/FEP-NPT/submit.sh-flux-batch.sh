@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=PINST-CELL-B-I-NPT
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX -t=86400
 #FLUX --urgency=16

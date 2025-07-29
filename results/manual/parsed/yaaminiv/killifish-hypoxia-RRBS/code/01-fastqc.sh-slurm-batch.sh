@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=100gb
 #SBATCH --time=03:00:00
-#SBATCH --partition=compute
 #SBATCH --chdir=/vortexfs1/scratch/yaamini.venkataraman/01-fastqc
 
 output_dir=/vortexfs1/scratch/yaamini.venkataraman/01-fastqc

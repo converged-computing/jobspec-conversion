@@ -9,7 +9,6 @@
 #SBATCH --time=12:00:00
 #SBATCH --qos=regular
 #SBATCH --constraint=ntasks-per-node=4,gpu
-#SBATCH --licenses=scratch,cfs
 
 export SLURM_CPU_BIND='cores'
 

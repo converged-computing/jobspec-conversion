@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=MI100
 
 shopt -s extglob
 ROOT=/home/cwpears/repos/pr-merge

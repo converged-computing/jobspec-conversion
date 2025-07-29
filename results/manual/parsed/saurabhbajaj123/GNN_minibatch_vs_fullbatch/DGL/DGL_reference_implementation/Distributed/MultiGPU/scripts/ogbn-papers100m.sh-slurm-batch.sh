@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=250G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu-preempt
 #SBATCH --constraint=ntasks-per-node=1,intel8480
 #SBATCH --exclude=superpod-gpu[004-005]
 

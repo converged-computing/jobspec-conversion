@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu
 #SBATCH --exclude=SPG-1-[1-4]
 

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64GB
 #SBATCH --time=1-21:00:00
-#SBATCH --partition=gpu_shared_course
 
 export CUDA_HOME='/usr/local/cuda-10.0'
 export PATH='${CUDA_HOME}/bin:${PATH}'

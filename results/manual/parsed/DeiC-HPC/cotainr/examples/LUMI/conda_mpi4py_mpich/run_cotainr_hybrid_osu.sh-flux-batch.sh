@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=mpi4py-cotainr-hybrid-osu
 #FLUX -N=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=small
 #FLUX -t=1800
 #FLUX --urgency=16

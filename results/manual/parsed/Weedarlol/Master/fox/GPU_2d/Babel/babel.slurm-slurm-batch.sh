@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --time=14:00:00
-#SBATCH --partition=${PARTITION}
 #SBATCH --constraint=ntasks-per-node=1
 
 PARTITION="$1"

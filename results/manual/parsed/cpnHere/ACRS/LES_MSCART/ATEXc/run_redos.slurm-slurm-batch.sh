@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5000
-#SBATCH --partition=batch
 #SBATCH --qos=medium
 #SBATCH --array=0-79%80
 

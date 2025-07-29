@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=parallel
 
 module purge
 module load anaconda3/5.2.0

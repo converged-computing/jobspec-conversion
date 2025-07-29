@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=stanky-caramel-1709
+#FLUX --job-name=lovely-peanut-2688
 #FLUX -c=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

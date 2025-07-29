@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-lentil-0619
+#FLUX --job-name=conspicuous-general-6412
 #FLUX -n=15
 #FLUX -t=259200
 #FLUX --urgency=16

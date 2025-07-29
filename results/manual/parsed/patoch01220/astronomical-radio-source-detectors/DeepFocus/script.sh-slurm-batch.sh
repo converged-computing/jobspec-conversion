@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=0
 #SBATCH --time=12:00:00
-#SBATCH --partition=shared-gpu
 
 echo $SLURM_JOBID
 module load Anaconda3

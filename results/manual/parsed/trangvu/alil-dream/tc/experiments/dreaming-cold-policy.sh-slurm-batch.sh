@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50000
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=m3h
 #SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_VISIBLE_DEVICES='0'

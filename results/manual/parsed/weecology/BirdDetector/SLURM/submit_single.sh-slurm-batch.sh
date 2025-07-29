@@ -11,7 +11,6 @@
 #SBATCH --gres=$2
 #SBATCH --mem=80GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 sbatch <<EOT
 ulimit -c 0

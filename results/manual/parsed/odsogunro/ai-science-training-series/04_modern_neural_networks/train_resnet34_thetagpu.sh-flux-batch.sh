@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-earthworm-7887
+#FLUX --job-name=red-toaster-0243
 #FLUX --urgency=16
 

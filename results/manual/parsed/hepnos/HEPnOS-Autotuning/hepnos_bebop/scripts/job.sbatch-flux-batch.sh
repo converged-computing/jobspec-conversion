@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-butter-6136
+#FLUX --job-name=muffled-malarkey-5852
 #FLUX -N=4
 #FLUX --queue=bdwall
 #FLUX -t=1800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-banana-4415
+#FLUX --job-name=chunky-cherry-7521
 #FLUX --queue=overcap
 #FLUX --urgency=16
 

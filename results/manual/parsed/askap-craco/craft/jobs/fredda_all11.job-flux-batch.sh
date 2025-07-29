@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-cat-3009
+#FLUX --job-name=psycho-leg-8450
 #FLUX -c=8
 #FLUX --queue=gpuq
 #FLUX -t=7200

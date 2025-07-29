@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-muffin-2122
+#FLUX --job-name=lovable-bits-4235
 #FLUX --urgency=16
 
 module load icc

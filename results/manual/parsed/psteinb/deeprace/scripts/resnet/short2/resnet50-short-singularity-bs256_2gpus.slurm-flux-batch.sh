@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-egg-6985
+#FLUX --job-name=stanky-leader-0266
 #FLUX --queue=gpu2
 #FLUX -t=3600
 #FLUX --urgency=16

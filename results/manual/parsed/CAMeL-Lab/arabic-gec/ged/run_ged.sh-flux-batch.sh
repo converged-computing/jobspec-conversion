@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-truffle-0263
+#FLUX --job-name=frigid-motorcycle-5854
 #FLUX --queue=nlp
 #FLUX -t=172740
 #FLUX --urgency=16

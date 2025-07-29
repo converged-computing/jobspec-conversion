@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-nalgas-9419
+#FLUX --job-name=astute-arm-0421
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/phil-hawkins/text_objseg/exp_train_lowres.sh

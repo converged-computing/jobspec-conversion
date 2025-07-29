@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=debug
 
 export SPACK_MANAGER='${HOME}/exawind/spack-manager'
 export OMP_NUM_THREADS='1  # Max hardware threads = 4'

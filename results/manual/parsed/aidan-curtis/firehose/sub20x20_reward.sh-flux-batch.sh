@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=bloated-avocado-3789
-#FLUX: --exclusive
+#FLUX --job-name=fugly-buttface-2847
+#FLUX --exclusive
 #FLUX --urgency=16
 
 i=1

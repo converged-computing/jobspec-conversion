@@ -3,8 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
-#SBATCH --partition=gpu
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export NCCL_SOCKET_IFNAME='eth0'
 export NCCL_IB_DISABLE='1'

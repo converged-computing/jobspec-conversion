@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-train-7716
+#FLUX --job-name=astute-parrot-5403
 #FLUX -c=8
 #FLUX -t=172800
 #FLUX --urgency=16

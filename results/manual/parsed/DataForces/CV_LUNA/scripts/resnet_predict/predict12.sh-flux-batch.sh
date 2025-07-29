@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-buttface-7022
+#FLUX --job-name=gassy-chair-5693
 #FLUX -c=12
 #FLUX --queue=gpu
 #FLUX -t=86400

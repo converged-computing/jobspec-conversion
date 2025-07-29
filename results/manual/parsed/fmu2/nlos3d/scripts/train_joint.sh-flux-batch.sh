@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-peanut-7945
+#FLUX --job-name=grated-nalgas-4129
 #FLUX -c=32
 #FLUX --queue=research
 #FLUX -t=345600

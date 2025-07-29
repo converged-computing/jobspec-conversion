@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-cattywampus-7967
+#FLUX --job-name=lovable-poo-4107
 #FLUX -n=16
 #FLUX --queue=intel
 #FLUX -t=172800

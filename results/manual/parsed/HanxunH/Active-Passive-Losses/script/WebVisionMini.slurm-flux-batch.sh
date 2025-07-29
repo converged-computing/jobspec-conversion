@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-avocado-9782
+#FLUX --job-name=adorable-nalgas-4649
 #FLUX -c=24
 #FLUX --queue=gpgpu
 #FLUX -t=604800

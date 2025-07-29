@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-house-2343
+#FLUX --job-name=psycho-lamp-7195
 #FLUX -c=6
 #FLUX -t=87770
 #FLUX --urgency=16

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=salted-cat-6980
-#FLUX: --exclusive
+#FLUX --job-name=creamy-banana-7625
+#FLUX --exclusive
 #FLUX --queue=rome
 #FLUX -t=3600
 #FLUX --urgency=16

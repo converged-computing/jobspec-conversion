@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-caramel-7942
+#FLUX --job-name=pusheena-kerfuffle-8525
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ShanSunNOAA/global-workflow/driver/product/run_postsnd.sh.dell

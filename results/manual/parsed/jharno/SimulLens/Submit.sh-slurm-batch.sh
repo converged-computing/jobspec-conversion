@@ -7,8 +7,7 @@
 #SBATCH --ntasks=28
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:20:00
-#SBATCH --partition=cosma6
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module purge
 module load intel_comp/2018

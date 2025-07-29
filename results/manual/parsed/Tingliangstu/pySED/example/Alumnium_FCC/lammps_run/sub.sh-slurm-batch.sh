@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=amd_512
 
 export PATH='/public3/home/scg5426/lammps/new/lammps-3Aug2022/src:$PATH'
 

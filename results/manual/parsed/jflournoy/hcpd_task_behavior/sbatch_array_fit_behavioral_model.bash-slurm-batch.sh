@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=48
 #SBATCH --mem=48G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=fasse
 
 chains=(1 2 3 4)
 models=(rtagepropot)

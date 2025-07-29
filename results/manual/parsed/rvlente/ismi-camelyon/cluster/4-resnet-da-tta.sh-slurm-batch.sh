@@ -5,7 +5,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=64G
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 
 module load 2021
 module load TensorFlow/2.6.0-foss-2021a-CUDA-11.3.1

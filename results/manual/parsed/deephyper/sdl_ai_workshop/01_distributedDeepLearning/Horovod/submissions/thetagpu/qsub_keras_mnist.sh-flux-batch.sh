@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=chunky-eagle-8835
+#FLUX --job-name=goodbye-pedo-0176
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-eagle-6822
+#FLUX --job-name=dinosaur-poo-8556
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

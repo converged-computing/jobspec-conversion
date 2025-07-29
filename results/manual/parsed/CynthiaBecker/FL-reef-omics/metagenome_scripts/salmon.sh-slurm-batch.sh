@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=36
 #SBATCH --mem=150gb
 #SBATCH --time=12:00:00
-#SBATCH --partition=compute
 #SBATCH --qos=unlim
 
 cd /vortexfs1/home/cbecker/FLK2019NextSeq/output/salmonquant/

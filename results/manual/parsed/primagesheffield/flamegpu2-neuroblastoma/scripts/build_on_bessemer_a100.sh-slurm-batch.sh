@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=80G
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu-a100-tmp
 #SBATCH --qos=gpu
 
 cd $SLURM_SUBMIT_DIR

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=40G
-#SBATCH --partition=gpu4_short,gpu8_short,gpu4_medium,gpu4_long,gpu8_long,gpu8_medium
 #SBATCH --exclude=gpu-0007
 
 export OUTFILENAME='$TEST_OUTPUT/out_filename_Stats.txt'

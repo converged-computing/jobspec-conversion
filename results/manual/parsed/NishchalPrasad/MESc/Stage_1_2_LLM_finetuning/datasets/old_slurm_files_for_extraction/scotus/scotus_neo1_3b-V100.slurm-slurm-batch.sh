@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --gres=gpu:6
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu_p4
 #SBATCH --constraint=ntasks-per-node=1
 
 export PATH='$WORK/.local/bin:$PATH'

@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=largemem
 
 module purge
 module load gcc/9.2.0 bbmap/38.57

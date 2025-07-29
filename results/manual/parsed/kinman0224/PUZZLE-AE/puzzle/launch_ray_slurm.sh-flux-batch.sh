@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=AE
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=Nvidia_A800
 #FLUX --urgency=16
 

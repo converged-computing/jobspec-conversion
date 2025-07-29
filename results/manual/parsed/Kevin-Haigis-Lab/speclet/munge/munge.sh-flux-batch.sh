@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-pot-3215
+#FLUX --job-name=quirky-peanut-butter-2306
 #FLUX --queue=priority
 #FLUX -t=720
 #FLUX --urgency=16

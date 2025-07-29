@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-pedo-6743
+#FLUX --job-name=grated-signal-5306
 #FLUX -c=12
 #FLUX --queue=debug
 #FLUX -t=1800

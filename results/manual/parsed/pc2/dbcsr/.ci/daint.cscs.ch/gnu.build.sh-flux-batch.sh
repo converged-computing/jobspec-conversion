@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=stinky-spoon-5833
+#FLUX --job-name=red-noodle-8457
 #FLUX -c=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cscsci
 #FLUX --urgency=16
 

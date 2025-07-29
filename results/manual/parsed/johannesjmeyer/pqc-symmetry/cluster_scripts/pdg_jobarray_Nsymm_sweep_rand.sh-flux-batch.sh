@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-buttface-7677
+#FLUX --job-name=reclusive-staircase-1155
 #FLUX -c=8
 #FLUX -t=86400
 #FLUX --urgency=16

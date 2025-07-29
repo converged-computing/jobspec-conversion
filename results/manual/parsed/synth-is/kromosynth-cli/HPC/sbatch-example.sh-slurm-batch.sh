@@ -8,7 +8,6 @@
 #SBATCH --gres=1
 #SBATCH --mem-per-cpu=32G
 #SBATCH --time=00:15:30
-#SBATCH --partition=ifi_accel
 
 for iteration in {1..100}; do
     # Generate the SLURM script to be submitted

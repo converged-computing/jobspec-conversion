@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=evasive-fork-1296
+#FLUX --job-name=strawberry-hippo-5276
 #FLUX -n=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute
 #FLUX --urgency=16
 

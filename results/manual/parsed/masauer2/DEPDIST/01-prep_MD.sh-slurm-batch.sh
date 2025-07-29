@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=00:01:00
-#SBATCH --partition=general
 
 gmx=gmx_plumed
 protein=complex.pdb

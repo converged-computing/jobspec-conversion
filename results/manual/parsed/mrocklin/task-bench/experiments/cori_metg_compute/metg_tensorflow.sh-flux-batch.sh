@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=sticky-peas-0331
-#FLUX: --exclusive
+#FLUX --job-name=gassy-peanut-butter-9219
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

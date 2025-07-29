@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:4
 #SBATCH --time=08:00:00
-#SBATCH --partition=savio2_gpu
 
 mpiexec -n 4 /global/home/users/mariusmillea/src/julia-1.5.2/bin/julia \
     --project=/global/home/users/mariusmillea/work/ptsrclens/Project.toml \

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=rise
 #SBATCH --chdir=/home/eecs/arinchang/overparam_spur_corr
 #SBATCH --nodelist=ace
 

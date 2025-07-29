@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=4G
 #SBATCH --time=30-00:00:00
-#SBATCH --partition=high
 
 module load bio3
 snakemake -j 68 \

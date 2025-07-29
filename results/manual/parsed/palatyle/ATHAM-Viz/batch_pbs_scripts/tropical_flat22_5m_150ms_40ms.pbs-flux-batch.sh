@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-sundae-8928
+#FLUX --job-name=ornery-nunchucks-5990
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_flat22_5m_150ms_40ms.pbs

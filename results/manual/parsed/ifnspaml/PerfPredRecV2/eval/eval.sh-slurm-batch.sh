@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1080:1
 #SBATCH --mem=20000M
 #SBATCH --time=10:20:00
-#SBATCH --partition=gpu,gpub
 #SBATCH --exclude=gpu06,gpu05
 
 export IFN_DIR_DATASET='/beegfs/data/shared'

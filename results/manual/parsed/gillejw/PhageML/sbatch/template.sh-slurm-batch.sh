@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --mem=5G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu2
 
 module load python/3.9.2
 module load cuda11.0/toolkit/11.0.3

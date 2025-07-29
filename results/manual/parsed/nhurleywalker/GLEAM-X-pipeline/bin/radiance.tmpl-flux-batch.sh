@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-fork-7639
+#FLUX --job-name=arid-nalgas-7539
 #FLUX --queue=STANDARDQ
 #FLUX -t=1380
 #FLUX --urgency=16

@@ -8,9 +8,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=01:00:00
-#SBATCH --partition=orion
 #SBATCH --qos=batch
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export HOMEgraph='${HOMEgraph:-/mnt/lfs4/HFIP/hwrfv3/${USER}/hafs_graphics}'
 export USHgraph='${USHgraph:-${HOMEgraph}/ush}'

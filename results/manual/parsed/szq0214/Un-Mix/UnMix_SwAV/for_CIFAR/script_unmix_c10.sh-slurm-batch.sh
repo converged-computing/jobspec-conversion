@@ -6,7 +6,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=50G
 #SBATCH --time=12:00:00
-#SBATCH --partition=default
 #SBATCH --constraint=ntasks-per-node=1
 
 port=$RANDOM

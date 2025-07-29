@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=30
 #SBATCH --time=00:30:00
-#SBATCH --partition=hpc
 #SBATCH --constraint=ntasks-per-node=4
 
 set -e

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=debug
 #SBATCH --array=1-20
 
 script_name='dummy' ##name of python script to run

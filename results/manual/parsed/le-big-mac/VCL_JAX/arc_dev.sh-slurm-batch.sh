@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12G
-#SBATCH --partition=devel
 #SBATCH --constraint=ntasks-per-node=1
 
 module load Anaconda3/2023.09-0

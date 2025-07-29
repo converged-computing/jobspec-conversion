@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=12:00:00
-#SBATCH --partition=ampere
 #SBATCH --array=0-4
 
 export OMP_NUM_THREADS='1'

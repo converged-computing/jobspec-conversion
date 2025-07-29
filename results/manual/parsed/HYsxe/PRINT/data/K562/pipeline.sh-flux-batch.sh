@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-house-4808
+#FLUX --job-name=swampy-caramel-0735
 #FLUX -n=16
 #FLUX --queue=test
 #FLUX -t=240

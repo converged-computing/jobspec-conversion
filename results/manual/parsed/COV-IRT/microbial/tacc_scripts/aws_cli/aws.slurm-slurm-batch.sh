@@ -7,7 +7,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 #SBATCH --qos=vip
 
 module load tacc-singularity

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=80GB
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=gpu-nvlink
 
 MONITORING_INTERVAL=120
 MONITORING_FILE=slurm-${SLURM_JOB_ID}.out

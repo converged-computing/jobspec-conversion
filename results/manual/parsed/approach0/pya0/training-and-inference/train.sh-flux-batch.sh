@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-signal-4756
+#FLUX --job-name=gassy-parrot-3298
 #FLUX -N=4
 #FLUX -c=2
 #FLUX -t=345730

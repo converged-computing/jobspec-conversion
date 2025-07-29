@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-pot-9283
+#FLUX --job-name=loopy-caramel-9593
 #FLUX --queue=a100-gpu,l40-gpu
 #FLUX -t=57600
 #FLUX --urgency=16

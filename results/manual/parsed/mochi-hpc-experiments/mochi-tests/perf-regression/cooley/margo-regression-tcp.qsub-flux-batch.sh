@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-malarkey-0983
+#FLUX --job-name=misunderstood-lentil-9200
 #FLUX --urgency=16
 

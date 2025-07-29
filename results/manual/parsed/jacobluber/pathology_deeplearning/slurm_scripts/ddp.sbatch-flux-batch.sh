@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-taco-5512
+#FLUX --job-name=fuzzy-bicycle-1282
 #FLUX -N=2
 #FLUX -c=8
 #FLUX --queue=gpu

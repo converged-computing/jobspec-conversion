@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-latke-5619
+#FLUX --job-name=purple-puppy-7977
 #FLUX --queue=gpu_shared
 #FLUX -t=64800
 #FLUX --urgency=16

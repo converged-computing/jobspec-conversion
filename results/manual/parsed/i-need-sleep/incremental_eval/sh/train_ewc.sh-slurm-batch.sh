@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=256GB
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu-8
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'

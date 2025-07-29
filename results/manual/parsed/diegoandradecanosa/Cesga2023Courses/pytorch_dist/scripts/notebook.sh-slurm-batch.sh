@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=8GB
 #SBATCH --time=06:30:00
-#SBATCH --partition=cola-corta,thin-shared,thinnodes,gpu-shared-v100
 
 CUDA=
 VERSION=1.0.0

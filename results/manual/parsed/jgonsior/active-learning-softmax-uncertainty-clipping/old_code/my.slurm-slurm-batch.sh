@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=120GB
 #SBATCH --time=23:59:59
-#SBATCH --partition=alpha
 #SBATCH --array=0-703
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'

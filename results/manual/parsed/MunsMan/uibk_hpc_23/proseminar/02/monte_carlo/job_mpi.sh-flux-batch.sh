@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=pi-mpi
 #FLUX -n=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=lva
 #FLUX --urgency=16
 

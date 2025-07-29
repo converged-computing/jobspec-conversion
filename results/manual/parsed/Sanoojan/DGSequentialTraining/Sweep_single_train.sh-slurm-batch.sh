@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=60
 #SBATCH --gres=gpu:12
-#SBATCH --partition=multigpu
 
 for command in delete_incomplete launch
    do

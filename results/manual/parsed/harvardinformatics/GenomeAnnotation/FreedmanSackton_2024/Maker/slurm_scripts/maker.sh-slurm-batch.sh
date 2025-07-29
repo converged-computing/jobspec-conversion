@@ -4,8 +4,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=2-23:00:00
-#SBATCH --partition=shared,bigmem
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SINGULARITYENV_LIBDIR='${PWD}/LIBDIR'
 

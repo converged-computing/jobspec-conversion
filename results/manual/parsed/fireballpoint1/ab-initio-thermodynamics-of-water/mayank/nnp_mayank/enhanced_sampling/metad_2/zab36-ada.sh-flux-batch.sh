@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-chip-2673
+#FLUX --job-name=scruptious-staircase-5090
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

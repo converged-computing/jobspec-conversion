@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:h100:1
 #SBATCH --mem=82G
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu
 
 PROJECT_ROOT="${SLURM_SUBMIT_DIR}/../.."

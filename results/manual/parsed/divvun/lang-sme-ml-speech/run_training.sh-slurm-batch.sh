@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=11:50:00
-#SBATCH --partition=accel
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/cluster/projects/nn9866k/extra/lib'
 

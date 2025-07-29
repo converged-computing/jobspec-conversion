@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-caramel-8438
+#FLUX --job-name=lovable-blackbean-1336
 #FLUX --queue=gpu
 #FLUX --urgency=16
 

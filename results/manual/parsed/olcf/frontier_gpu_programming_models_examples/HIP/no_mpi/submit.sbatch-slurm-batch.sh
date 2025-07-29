@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=batch
 
 module load PrgEnv-amd
 module load craype-accel-amd-gfx90a

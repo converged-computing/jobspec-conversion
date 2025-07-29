@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=expressive-citrus-3321
+#FLUX --job-name=fat-hobbit-6257
 #FLUX --urgency=16
 

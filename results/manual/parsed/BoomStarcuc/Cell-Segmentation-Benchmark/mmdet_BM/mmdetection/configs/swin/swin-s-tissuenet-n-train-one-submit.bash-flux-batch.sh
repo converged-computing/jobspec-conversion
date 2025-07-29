@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-spoon-7296
+#FLUX --job-name=phat-lemur-8196
 #FLUX --urgency=16
 
 tissues=("Colon" "lymph_node_metastasis" "Spleen" "Pancreas" "Epidermis" "Breast" "Lymph_Node" "Tonsil" "Lung" "Esophagus")

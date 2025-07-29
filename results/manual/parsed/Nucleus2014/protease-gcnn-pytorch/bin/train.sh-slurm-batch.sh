@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=main
 #SBATCH --array=0-167
 
 data=$1

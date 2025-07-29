@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=general
 #SBATCH --qos=high_wangj
 #SBATCH --constraint=ntasks-per-node=72
 

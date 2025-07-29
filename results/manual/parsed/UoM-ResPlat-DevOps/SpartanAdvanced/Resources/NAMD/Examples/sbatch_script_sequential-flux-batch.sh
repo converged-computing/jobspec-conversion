@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-arm-0108
+#FLUX --job-name=phat-salad-0764
 #FLUX -N=64
 #FLUX -t=345600
 #FLUX --urgency=16

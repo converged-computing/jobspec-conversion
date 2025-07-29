@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-malarkey-6232
+#FLUX --job-name=eccentric-destiny-5199
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/benchmarks/lassen/spectrum/single_rs/06_11_20/old_scripts/memcpyasync_script

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=cuda
 
 ml purge
 ml nvidia/cudasdk/10.1

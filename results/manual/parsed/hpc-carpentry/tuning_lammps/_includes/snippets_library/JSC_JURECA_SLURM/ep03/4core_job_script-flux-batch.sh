@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-cupcake-7324
+#FLUX --job-name=psycho-caramel-9970
 #FLUX --queue=devel
 #FLUX -t=600
 #FLUX --urgency=16

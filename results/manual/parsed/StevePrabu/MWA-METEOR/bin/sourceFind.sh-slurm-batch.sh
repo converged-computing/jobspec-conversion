@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=248GB
 #SBATCH --time=03:00:00
-#SBATCH --partition=workq
 
 start=`date +%s`
 module load singularity

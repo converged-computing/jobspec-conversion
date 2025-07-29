@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-kitty-9715
+#FLUX --job-name=crusty-chair-5611
 #FLUX -c=8
 #FLUX --queue=gpuq-dev
 #FLUX -t=3600

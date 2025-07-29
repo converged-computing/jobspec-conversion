@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
-#SBATCH --partition=main
 
 export SINGULARITY_BIND='/home/e1garcia'
 export PARALLEL_SHELL='/bin/bash'

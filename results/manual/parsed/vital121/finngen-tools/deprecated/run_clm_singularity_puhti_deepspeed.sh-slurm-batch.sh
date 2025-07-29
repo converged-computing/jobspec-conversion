@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem=64G
 #SBATCH --time=00:15:00
-#SBATCH --partition=gputest
 
 export SING_FLAGS='$SING_FLAGS -B /appl/spack/install-tree/gcc-4.8.5/pdsh-2.31-cdzt5w/bin:/usr/local/sbin'
 

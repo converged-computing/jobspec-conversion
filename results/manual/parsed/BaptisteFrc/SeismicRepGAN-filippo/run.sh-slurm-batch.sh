@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=512gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpua100
 
 export thisuser='$(whoami)'
 export hmd='/gpfs/users'

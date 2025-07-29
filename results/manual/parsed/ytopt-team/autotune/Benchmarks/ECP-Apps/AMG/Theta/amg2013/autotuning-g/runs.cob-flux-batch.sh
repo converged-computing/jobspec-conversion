@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-signal-3963
+#FLUX --job-name=boopy-staircase-8802
 #FLUX --urgency=16
 

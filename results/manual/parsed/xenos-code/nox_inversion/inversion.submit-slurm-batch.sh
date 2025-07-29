@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=singlepe
 
 myiter=antbe6 #name (APPL) of this iteration
 previter=antbe5 #name of previous iteration

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=hello-bike-3444
+#FLUX --job-name=dirty-kitty-2266
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=solarlab
 #FLUX --urgency=16
 

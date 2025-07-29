@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=230G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=overflow
 
 source /labs/hulab/stark_conda/bin/activate
 conda activate base_pytorch

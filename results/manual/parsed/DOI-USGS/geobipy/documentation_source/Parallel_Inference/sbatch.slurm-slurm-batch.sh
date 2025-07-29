@@ -6,7 +6,6 @@
 #SBATCH --ntasks=80
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=workq
 #SBATCH --array=8,11,14,15,16,17
 
 export OMP_NUM_THREADS='1'

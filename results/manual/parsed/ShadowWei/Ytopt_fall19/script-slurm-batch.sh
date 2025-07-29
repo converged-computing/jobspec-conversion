@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:p100:1
 #SBATCH --mem=10G
 #SBATCH --time=00:10:00
-#SBATCH --partition=soc-gpu-kp
 #SBATCH --constraint=ntasks-per-node=1
 
 ulimit -c unlimited -s

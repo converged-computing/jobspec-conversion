@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:10:00
-#SBATCH --partition=g100_usr_interactive
 #SBATCH --constraint=ntasks-per-node=1
 
 module load nvhpc/22.3 

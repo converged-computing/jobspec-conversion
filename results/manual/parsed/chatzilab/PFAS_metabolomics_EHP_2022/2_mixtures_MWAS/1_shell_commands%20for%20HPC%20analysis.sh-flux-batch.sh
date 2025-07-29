@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-cupcake-6098
+#FLUX --job-name=goodbye-general-8433
 #FLUX --queue=conti
 #FLUX --urgency=16
 

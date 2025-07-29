@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=brown
 
 module load Python/3.7.4-GCCcore-8.3.0
 module load CUDA/10.2.89-GCC-8.3.0

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=STREAM_TASK_AFFINITY_TEST
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c16s
 #FLUX -t=1800
 #FLUX --urgency=16

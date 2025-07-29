@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=MPI-singlenode
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX -t=600
 #FLUX --urgency=16

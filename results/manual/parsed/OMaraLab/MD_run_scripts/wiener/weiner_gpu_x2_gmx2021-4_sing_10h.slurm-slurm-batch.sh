@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:tesla:2
 #SBATCH --mem=64GB
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpu
 
 export SINGULARITY_TMPDIR='/scratch/aibn/uqadaqu1/tmp/ '
 

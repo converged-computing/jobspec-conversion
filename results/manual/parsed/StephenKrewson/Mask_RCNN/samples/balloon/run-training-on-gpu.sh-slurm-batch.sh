@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=8g
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 
 module purge
 module restore cuda

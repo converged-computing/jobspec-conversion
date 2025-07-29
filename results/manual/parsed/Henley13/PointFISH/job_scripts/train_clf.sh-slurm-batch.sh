@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:P100:1
 #SBATCH --mem=28000
 #SBATCH --time=01:40:00
-#SBATCH --partition=cbio-gpu
 #SBATCH --array=1-4%4
 
 echo 'Running train_clf.sh...'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-punk-4800
+#FLUX --job-name=dinosaur-eagle-2707
 #FLUX -N=4
 #FLUX -c=2
 #FLUX -t=345730

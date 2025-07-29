@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=120000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=compute
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --chdir=./
 #SBATCH --array=1-5
 

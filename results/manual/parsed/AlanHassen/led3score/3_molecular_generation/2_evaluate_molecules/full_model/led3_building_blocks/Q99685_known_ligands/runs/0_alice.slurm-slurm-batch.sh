@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=amd-short
 #SBATCH --array=0-99
 
 CURRENT_ARRAY=$((SLURM_ARRAY_TASK_ID))

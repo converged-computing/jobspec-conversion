@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30gb
 #SBATCH --time=1-00:23:45
-#SBATCH --partition=dgx
 
 source /home/jdonnelly/protoPNet/bin/activate
 MODELDIR='saved_models/resnet50/datasets/CUB_200_2011/train/001/'

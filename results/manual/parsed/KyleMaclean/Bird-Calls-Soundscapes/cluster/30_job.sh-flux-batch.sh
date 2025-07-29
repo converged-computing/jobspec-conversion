@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-puppy-0661
+#FLUX --job-name=quirky-blackbean-4112
 #FLUX -c=4
 #FLUX --queue=csug
 #FLUX --urgency=16

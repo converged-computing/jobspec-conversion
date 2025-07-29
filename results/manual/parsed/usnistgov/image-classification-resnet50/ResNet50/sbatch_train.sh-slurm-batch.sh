@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=160
 #SBATCH --gres=gpu:4
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 test_every_n_steps=1000
 batch_size=8 # 4x across the gpus

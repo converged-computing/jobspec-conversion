@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-latke-6146
+#FLUX --job-name=peachy-plant-1391
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Natithan/p1_causality/vsc_batch_terminal/b64/dv5_sk_b16g4a1.pbs

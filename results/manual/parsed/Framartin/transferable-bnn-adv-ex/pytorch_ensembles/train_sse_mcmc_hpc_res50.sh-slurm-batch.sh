@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=1
 #SBATCH --time=17:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=volta
 
 command -v module >/dev/null 2>&1 && module load lang/Python

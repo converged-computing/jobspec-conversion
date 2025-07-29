@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=64G
 #SBATCH --time=00:15:00
-#SBATCH --partition=gputest
 #SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/scratch/project_2002026/multilabel_bert/svregisters/lstm/transformer-classifier/transformers3.4/lib/python3.7/site-packages:$PYTHONPATH'

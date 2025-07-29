@@ -6,7 +6,6 @@
 #SBATCH --ntasks=182
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=skx-dev
 
 export LAMMPS_DIR='/home1/04770/tg840694/help_TACC_lammps/stable_3Mar2020_clean/'
 export PATH='${PATH}:${LAMMPS_DIR}/bin'

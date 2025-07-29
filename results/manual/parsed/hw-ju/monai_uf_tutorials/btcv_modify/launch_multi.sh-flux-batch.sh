@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=tart-pot-0467
+#FLUX --job-name=salted-noodle-5799
 #FLUX -c=8
 #FLUX --gpus-per-task=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpg-ai
 #FLUX -t=7200
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=24G
-#SBATCH --partition=batch
 
 module purge                           # Unload all modules
 module load lammps/may22               # Load LAMMPS

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-general-9219
+#FLUX --job-name=grated-signal-7238
 #FLUX -N=3
 #FLUX -c=8
 #FLUX --queue=gpu

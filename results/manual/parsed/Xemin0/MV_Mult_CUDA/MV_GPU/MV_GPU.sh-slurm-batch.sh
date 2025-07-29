@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
 #SBATCH --time=00:35:00
-#SBATCH --partition=gpu
 
 nvidia-smi
 module load cuda/11.2.0 gcc/10.2

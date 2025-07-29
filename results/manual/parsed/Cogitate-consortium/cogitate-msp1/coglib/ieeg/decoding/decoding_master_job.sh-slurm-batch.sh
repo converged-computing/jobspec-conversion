@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=80000
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=xnat
 
 export PYTHONPATH='$PYTHONPATH:/hpc/users/$USER/sw/github/ECoG'
 

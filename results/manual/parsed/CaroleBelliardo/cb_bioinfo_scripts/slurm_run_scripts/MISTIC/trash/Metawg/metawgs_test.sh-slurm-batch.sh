@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=60
 #SBATCH --mem=464G
-#SBATCH --partition=all
 
 module purge
 module load singularity/3.7.3

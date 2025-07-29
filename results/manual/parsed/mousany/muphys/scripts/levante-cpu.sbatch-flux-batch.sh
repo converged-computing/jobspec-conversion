@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=scc
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute
 #FLUX -t=600
 #FLUX --urgency=16

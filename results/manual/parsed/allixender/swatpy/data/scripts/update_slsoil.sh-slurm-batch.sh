@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2GB
 #SBATCH --time=00:15:00
-#SBATCH --partition=main
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/gpfs/hpc/home/kmoch/swat
 

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:rtxa5000:4
 #SBATCH --mem=100gb
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=scavenger
 #SBATCH --qos=normal
 #SBATCH --array=0-9
 #SBATCH --exclude=legacygpu00,legacygpu01,legacygpu02,legacygpu03,legacygpu04,legacygpu05,legacygpu06,legacygpu07

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=48
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=skx-dev
 
 export LAMMPS_EXEC='ibrun lmp_stampede'
 

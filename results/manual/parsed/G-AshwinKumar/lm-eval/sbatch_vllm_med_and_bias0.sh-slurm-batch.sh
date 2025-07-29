@@ -8,7 +8,7 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=247G
 #SBATCH --time=05:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 MODEL_NAME="medalpaca-7b"
 echo "Starting sbatch script at `date` for $MODEL_NAME"

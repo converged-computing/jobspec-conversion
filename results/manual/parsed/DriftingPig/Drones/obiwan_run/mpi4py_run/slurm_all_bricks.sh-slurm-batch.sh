@@ -8,9 +8,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 #SBATCH --constraint=haswell
-#SBATCH --licenses=SCRATCH,project
 
 export name_for_run='elg_dr5_eboss'
 export randoms_db='None #run from a fits file'

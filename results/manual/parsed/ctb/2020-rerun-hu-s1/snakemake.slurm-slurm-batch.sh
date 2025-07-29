@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=200000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=bmm
 
 . ~/miniconda3/etc/profile.d/conda.sh
 conda activate sgc

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-soup-8681
+#FLUX --job-name=bumfuzzled-carrot-8115
 #FLUX -n=4
 #FLUX --queue=hpc
 #FLUX -t=259200

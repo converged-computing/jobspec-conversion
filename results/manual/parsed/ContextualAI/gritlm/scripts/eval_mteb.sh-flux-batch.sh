@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=mteb
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=a3
 #FLUX -t=356400
 #FLUX --urgency=16

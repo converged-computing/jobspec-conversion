@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=medai_llm
 #SBATCH --constraint=ntasks-per-node=1
 
 srun --jobid $SLURM_JOBID python ming/serve/cli.py \

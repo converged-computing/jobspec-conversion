@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=daxpy_cpu
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX -t=600
 #FLUX --urgency=16

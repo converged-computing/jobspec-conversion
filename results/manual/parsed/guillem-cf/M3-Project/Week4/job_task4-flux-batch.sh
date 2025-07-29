@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-platanos-1298
+#FLUX --job-name=loopy-leg-4464
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

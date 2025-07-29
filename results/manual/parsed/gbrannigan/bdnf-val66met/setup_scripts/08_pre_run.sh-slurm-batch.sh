@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:30:00
-#SBATCH --partition=gpu
 
 export GMX_MAXBACKUP='-1'
 export OMP_NUM_THREADS='15'

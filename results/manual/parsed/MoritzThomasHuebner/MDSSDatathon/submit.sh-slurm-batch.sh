@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=1000
 #SBATCH --time=01:00:00
-#SBATCH --partition=skylake
 #SBATCH --constraint=ntasks-per-node=1
 
 module load python

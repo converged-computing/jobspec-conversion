@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=4000
-#SBATCH --partition=epyc_ssd
 
 export NXF_OPTS='-Xms500M -Xmx2G'
 

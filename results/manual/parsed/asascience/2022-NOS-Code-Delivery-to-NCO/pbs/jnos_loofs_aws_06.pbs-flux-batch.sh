@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-noodle-7037
+#FLUX --job-name=nerdy-signal-9336
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/asascience/2022-NOS-Code-Delivery-to-NCO/pbs/jnos_loofs_aws_06.pbs

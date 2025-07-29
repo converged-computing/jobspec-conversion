@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=single
 
 module load system/singularity
 module load devel/java_jdk/1.8.0

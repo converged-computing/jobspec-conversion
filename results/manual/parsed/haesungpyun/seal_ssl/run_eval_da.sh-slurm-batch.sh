@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128000MB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=amd_a100nv_8
 
 export OMP_NUM_THREADS='1      '
 

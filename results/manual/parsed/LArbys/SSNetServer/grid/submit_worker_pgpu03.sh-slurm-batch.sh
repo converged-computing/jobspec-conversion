@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=0-16
 #SBATCH --nodelist=pgpu03
 

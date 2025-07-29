@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=standard
 
 export OMPI_MCA_mpi_warn_on_fork='0'
 

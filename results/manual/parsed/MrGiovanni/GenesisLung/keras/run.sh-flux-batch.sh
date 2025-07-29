@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-bike-0342
+#FLUX --job-name=adorable-motorcycle-1673
 #FLUX -n=4
 #FLUX --queue=wildfire
 #FLUX -t=13800

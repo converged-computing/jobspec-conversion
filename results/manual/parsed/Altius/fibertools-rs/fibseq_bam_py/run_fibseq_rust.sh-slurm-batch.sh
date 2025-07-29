@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=64G
-#SBATCH --partition=pool
 
   echo slurm node: $SLURMD_NODENAME , jobid: $SLURM_JOB_ID
   module load fiberseq-rs

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8g
-#SBATCH --partition=short
 
 export PATH='$/homedtic/mnieto/project/anaconda3/envs/torch_thesis:$PATH'
 export WANDB_API_KEY=''

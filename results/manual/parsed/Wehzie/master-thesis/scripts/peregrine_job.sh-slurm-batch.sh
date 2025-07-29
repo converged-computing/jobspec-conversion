@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=regular
 
 module purge
 module load networkx

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-lettuce-0526
+#FLUX --job-name=bumfuzzled-car-4057
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

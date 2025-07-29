@@ -7,7 +7,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=sgpu
 
 module purge
 module load singularity/3.6.4

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-parrot-9498
+#FLUX --job-name=phat-arm-3838
 #FLUX -c=12
 #FLUX --queue=booster
 #FLUX -t=3540

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000
 #SBATCH --time=00:10:00
-#SBATCH --partition=general
 
 module load anaconda/3/2021.11
 conda activate heat

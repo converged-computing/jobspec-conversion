@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100x:2
 #SBATCH --mem=60gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=gpuv100x,ntasks-per-node=2
 
 function fail {

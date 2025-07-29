@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=Megatron-LM
 #FLUX -c=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=megatron
 #FLUX --urgency=16
 

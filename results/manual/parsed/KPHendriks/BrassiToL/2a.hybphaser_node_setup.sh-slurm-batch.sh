@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=67
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal
 
 :"
 module load intel/17.0.4

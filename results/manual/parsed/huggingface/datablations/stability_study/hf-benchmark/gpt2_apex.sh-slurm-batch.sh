@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=256G
 #SBATCH --time=12:00:00
-#SBATCH --partition=pilot
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export TORCH_EXTENSIONS_DIR='/tmp/$USER/torch_extensions/'

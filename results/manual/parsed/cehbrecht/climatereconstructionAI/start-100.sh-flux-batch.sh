@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-car-9764
+#FLUX --job-name=fuzzy-noodle-3367
 #FLUX -n=18
 #FLUX --queue=gpu
 #FLUX -t=10500

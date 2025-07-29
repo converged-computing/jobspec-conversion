@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=savio2_1080ti
 
 module purge
 source activate /global/scratch/users/$USER/env_part_based

@@ -11,8 +11,7 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=150000
 #SBATCH --time=10:00:00
-#SBATCH --partition=fwkt_v100
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/install/'

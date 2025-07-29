@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --gres=gpu:volta:1
 #SBATCH --time=00:24:00
-#SBATCH --partition=xeon-g6-volta
 #SBATCH --constraint=xeon-g6,ntasks-per-node=1
 #SBATCH --array=1-2
 

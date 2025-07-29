@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-house-4652
+#FLUX --job-name=arid-butter-7349
 #FLUX -N=6
 #FLUX --queue=normal
 #FLUX -t=172800

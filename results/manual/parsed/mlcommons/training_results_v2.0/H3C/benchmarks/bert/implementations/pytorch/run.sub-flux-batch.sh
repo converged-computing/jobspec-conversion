@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=gassy-animal-9091
-#FLUX: --exclusive
+#FLUX --job-name=grated-car-9980
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export MAX_STEPS='100'

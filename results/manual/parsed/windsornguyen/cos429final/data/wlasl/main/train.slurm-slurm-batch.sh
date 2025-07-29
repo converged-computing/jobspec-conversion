@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=640G
 #SBATCH --time=03:00:00
-#SBATCH --partition=pli
 #SBATCH --constraint=ntasks-per-node=8
 
 export WANDB_ENTITY='windsornguyen'

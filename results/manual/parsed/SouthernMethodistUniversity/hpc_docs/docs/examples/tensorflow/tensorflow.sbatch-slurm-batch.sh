@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=6G
 #SBATCH --time=00:01:00
-#SBATCH --partition=v100x8
 
 module purge
 module load tensorflow

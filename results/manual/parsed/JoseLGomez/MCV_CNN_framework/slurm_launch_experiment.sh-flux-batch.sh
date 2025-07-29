@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-egg-4452
+#FLUX --job-name=crunchy-rabbit-1381
 #FLUX -n=4
 #FLUX --queue=dcc
 #FLUX -t=605

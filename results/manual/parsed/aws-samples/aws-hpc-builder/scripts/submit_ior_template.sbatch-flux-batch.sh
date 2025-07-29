@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=quirky-cupcake-0963
+#FLUX --job-name=rainbow-kitty-4695
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gxlarge
 #FLUX --urgency=16
 

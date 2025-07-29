@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-leopard-0055
+#FLUX --job-name=faux-omelette-3390
 #FLUX -c=8
 #FLUX --queue=defq
 #FLUX -t=86400

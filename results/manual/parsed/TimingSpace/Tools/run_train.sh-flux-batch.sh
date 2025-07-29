@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-avocado-9275
+#FLUX --job-name=carnivorous-signal-5136
 #FLUX --queue=dgx
 #FLUX -t=259200
 #FLUX --urgency=16

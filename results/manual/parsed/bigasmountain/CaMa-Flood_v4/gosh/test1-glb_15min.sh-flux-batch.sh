@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-animal-7642
+#FLUX --job-name=rainbow-diablo-0231
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bigasmountain/CaMa-Flood_v4/gosh/test1-glb_15min.sh

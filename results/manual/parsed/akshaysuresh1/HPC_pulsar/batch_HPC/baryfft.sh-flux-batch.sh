@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-pot-0880
+#FLUX --job-name=fuzzy-peanut-8238
 #FLUX --queue=RM-shared
 #FLUX -t=7200
 #FLUX --urgency=16

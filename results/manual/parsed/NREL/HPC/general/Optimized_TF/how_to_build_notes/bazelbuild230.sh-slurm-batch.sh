@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=debug
 
 export TMP='/scratch/$USER/bazel_build'
 export TEST_TMPDIR='/scratch/$USER/bazel_build'

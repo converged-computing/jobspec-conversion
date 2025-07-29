@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=52240
 #SBATCH --time=1-16:00:00
-#SBATCH --partition=circe
 #SBATCH --array=0-2
 
 module purge

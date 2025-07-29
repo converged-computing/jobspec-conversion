@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
-#SBATCH --partition=classroom
 #SBATCH --array=1-4
 
 cd ~/mouse-rnaseq-2020/

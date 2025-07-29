@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100:1,nvme:10
 #SBATCH --mem=6G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export PYTORCH_PRETRAINED_BERT_CACHE='$TMPDIR'
 

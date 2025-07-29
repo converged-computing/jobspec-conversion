@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-train-9210
+#FLUX --job-name=bloated-animal-7082
 #FLUX -n=2
 #FLUX --queue=gpu_requeue
 #FLUX -t=86400

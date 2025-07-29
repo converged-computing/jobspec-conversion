@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10000
 #SBATCH --time=00:12:00
-#SBATCH --partition=Your_partition
 
 T=8
 BUDGET=4

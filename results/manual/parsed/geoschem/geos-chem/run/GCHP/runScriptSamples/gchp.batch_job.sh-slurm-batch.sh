@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=110G
 #SBATCH --time=02:00:00
-#SBATCH --partition=huce_intel,seas_compute,shared
 
 set -e
 set -x

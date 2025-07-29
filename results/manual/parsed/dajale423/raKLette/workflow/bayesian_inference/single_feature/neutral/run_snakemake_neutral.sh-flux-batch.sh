@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-motorcycle-2707
+#FLUX --job-name=faux-egg-7147
 #FLUX -c=2
 #FLUX --queue=short
 #FLUX -t=720

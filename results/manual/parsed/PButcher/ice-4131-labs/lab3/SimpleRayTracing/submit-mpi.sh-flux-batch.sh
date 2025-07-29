@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-plant-3247
+#FLUX --job-name=outstanding-lettuce-8651
 #FLUX --urgency=16
 
 export SCW_TPN_OVERRIDE='1'

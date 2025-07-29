@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-pancake-8658
+#FLUX --job-name=astute-cupcake-2046
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ML4HPC/4D_fMRI_Transformer/scripts/polaris/prod_HCP_main_step2_conf.pbs

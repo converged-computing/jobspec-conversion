@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-earthworm-1924
+#FLUX --job-name=bricky-butter-0096
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alexmlamb/ImportanceSamplingSGD/integration_distributed_training/config_files/helios/12_repeat20x030/launch_00083.sh

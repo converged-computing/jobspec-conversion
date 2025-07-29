@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1,VramPerGpu:10G
 #SBATCH --mem=64G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=private-cui-gpu
 
 module purge
 module load GCC/10.3.0  OpenMPI/4.1.1

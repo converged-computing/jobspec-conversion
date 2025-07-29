@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-arm-6689
+#FLUX --job-name=hello-banana-1981
 #FLUX -c=8
 #FLUX -t=170
 #FLUX --urgency=16

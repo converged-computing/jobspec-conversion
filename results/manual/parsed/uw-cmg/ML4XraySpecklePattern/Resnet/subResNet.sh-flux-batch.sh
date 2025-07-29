@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-arm-7774
+#FLUX --job-name=anxious-chip-6797
 #FLUX --queue=sbel_cmg
 #FLUX -t=345660
 #FLUX --urgency=16

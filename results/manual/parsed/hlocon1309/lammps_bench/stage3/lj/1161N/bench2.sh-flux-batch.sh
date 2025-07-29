@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-peanut-butter-7001
+#FLUX --job-name=reclusive-cattywampus-0495
 #FLUX -n=16
 #FLUX --queue=normal
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-bike-8703
+#FLUX --job-name=ornery-pancake-3619
 #FLUX -c=16
 #FLUX --queue=shared
 #FLUX -t=3600

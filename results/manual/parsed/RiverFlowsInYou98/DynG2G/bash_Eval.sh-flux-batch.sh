@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-hippo-6481
+#FLUX --job-name=buttery-ricecake-0580
 #FLUX -n=4
 #FLUX --queue=a6000-gcondo
 #FLUX -t=345600

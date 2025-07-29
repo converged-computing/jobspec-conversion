@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-gato-9716
+#FLUX --job-name=bumfuzzled-car-5064
 #FLUX -n=32
 #FLUX --queue=whwong
 #FLUX -t=604800

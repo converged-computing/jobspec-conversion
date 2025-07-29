@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-noodle-9097
+#FLUX --job-name=stinky-lemon-8480
 #FLUX -n=2
 #FLUX --queue=batch
 #FLUX -t=172800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-signal-3263
+#FLUX --job-name=doopy-hope-8419
 #FLUX --queue=gpu2
 #FLUX -t=3600
 #FLUX --urgency=16

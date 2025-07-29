@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=frigid-frito-8293
+#FLUX --job-name=evasive-milkshake-9223
 #FLUX -N=4
 #FLUX -c=7
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu_k80
 #FLUX -t=172800
 #FLUX --urgency=16

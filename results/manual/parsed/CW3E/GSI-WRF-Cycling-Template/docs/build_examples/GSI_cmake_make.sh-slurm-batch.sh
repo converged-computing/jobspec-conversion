@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120G
 #SBATCH --time=03:00:00
-#SBATCH --partition=compute
 
 export MODULEPATH='/share/apps/compute/modulefiles/applications:$MODULEPATH'
 export NETCDF='/opt/netcdf/4.6.1/intel/intelmpi/'

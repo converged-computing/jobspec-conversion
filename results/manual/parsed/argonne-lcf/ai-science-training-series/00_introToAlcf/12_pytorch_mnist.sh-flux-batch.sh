@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=angry-blackbean-7505
+#FLUX --job-name=salted-bits-3117
 #FLUX --urgency=16
 

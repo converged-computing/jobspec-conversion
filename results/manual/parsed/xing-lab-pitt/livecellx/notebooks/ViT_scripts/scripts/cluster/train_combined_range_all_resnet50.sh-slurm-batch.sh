@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
-#SBATCH --partition=dept_gpu
 #SBATCH --exclude=g019,g102,g104,g122,g012,g013,g131,g011
 
 echo

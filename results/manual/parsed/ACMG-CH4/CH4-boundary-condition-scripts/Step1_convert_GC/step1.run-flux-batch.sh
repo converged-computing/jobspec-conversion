@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-truffle-9623
+#FLUX --job-name=purple-arm-8488
 #FLUX -c=8
 #FLUX --queue=huce_intel
 #FLUX -t=87600

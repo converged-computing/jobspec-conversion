@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=03:00:00
-#SBATCH --partition=standard-g
 
 export DATETIME='$(date +"%Y-%m-%d_%H-%M-%S_%z")'
 export OUTPUT_FOLDER='themisto{DATETIME}'

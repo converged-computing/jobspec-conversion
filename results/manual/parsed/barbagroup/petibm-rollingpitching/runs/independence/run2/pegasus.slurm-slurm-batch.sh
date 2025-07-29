@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=15:00:00
-#SBATCH --partition=small-gpu
 #SBATCH --constraint=ntasks-per-node=20
 
 export CUDA_VISIBLE_DEVICES='0,1'

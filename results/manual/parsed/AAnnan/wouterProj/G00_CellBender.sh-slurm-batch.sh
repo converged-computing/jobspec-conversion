@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 set -e
 source ~/micromamba/etc/profile.d/micromamba.sh

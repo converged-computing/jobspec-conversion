@@ -8,9 +8,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 #SBATCH --constraint=haswell
-#SBATCH --licenses=SCRATCH,project
 
 export KMP_AFFINITY='disabled'
 export MPICH_GNI_FORK_MODE='FULLCOPY'

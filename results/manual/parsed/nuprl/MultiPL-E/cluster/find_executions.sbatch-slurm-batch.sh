@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=1G
 #SBATCH --time=00:10:00
-#SBATCH --partition=express
 
 module load gnu-parallel
 parallel="parallel -j $SLURM_NTASKS"

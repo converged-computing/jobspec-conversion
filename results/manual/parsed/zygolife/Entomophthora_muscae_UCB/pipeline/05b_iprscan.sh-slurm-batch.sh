@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=96G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=intel
 
 module load funannotate
 module load iprscan

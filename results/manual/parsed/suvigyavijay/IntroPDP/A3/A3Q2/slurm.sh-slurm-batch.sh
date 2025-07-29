@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=01:00:00
-#SBATCH --partition=general-compute
 #SBATCH --qos=general-compute
 #SBATCH --constraint=ntasks-per-node=8
 

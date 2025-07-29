@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=12
 
 export SM_FRAMEWORK='tf.keras;'

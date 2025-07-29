@@ -3,7 +3,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=normal
 #SBATCH --constraint=type_b
 
 module load openmpi/4.1.4

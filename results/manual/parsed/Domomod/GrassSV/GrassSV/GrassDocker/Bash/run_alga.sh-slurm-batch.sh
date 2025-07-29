@@ -7,7 +7,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=fast
 
 module load gcc/7.4.0
 module load bowtie/1.0.0

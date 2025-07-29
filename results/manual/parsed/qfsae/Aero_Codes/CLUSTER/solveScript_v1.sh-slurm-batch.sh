@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=0
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=scb
 #SBATCH --exclude=node[201-203,235]
 
 echo "`date`: Beginning job execution..."

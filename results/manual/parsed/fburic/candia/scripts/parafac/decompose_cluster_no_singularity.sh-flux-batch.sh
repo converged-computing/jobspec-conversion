@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-platanos-1560
+#FLUX --job-name=sticky-general-4088
 #FLUX -t=604800
 #FLUX --urgency=16
 

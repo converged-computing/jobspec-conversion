@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-pedo-5446
+#FLUX --job-name=delicious-carrot-6995
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

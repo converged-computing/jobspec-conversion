@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=230G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=broadwell
 
 echo EMPIEZA TODO `date`
 ml SciPy-bundle/2021.10-foss-2021b

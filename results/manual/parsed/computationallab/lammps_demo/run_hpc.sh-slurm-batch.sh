@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
-#SBATCH --partition=gor
 #SBATCH --constraint=ntasks-per-node=8
 
 module load singularity gnu8 openmpi3

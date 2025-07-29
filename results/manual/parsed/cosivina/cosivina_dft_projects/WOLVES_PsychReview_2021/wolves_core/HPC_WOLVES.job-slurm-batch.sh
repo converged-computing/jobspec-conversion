@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=40GB
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=ib-24-96
 #SBATCH --qos=ib
 
 module add matlab/2020a

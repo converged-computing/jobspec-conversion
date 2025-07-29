@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-carrot-6312
+#FLUX --job-name=expensive-sundae-5353
 #FLUX -c=8
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=30

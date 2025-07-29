@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=1024M
 #SBATCH --time=00:20:00
-#SBATCH --partition=edu-20h
 
 module load cuda/12.1
 source /home/davide.cavicchini/.bashrc

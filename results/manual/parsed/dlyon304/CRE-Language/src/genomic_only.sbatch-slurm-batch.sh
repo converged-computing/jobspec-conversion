@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu
 #SBATCH --mem=8G
-#SBATCH --partition=gpu
 #SBATCH --array=1-10%3
 
 eval $(spack env activate --sh tensorflow-gpu)

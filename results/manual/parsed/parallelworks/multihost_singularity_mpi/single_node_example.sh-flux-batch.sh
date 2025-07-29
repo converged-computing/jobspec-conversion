@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=docker-hello-mpi
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 sudo service docker start

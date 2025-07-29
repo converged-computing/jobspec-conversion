@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32GB
 #SBATCH --time=2-08:00:00
-#SBATCH --partition=ai
 #SBATCH --qos=ai
 
 echo "julia main.jl --dataSet TRDataSet --version 2006 --epochs 100 --lemma --dropouts 0.3 --modelType MorseDis"

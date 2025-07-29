@@ -6,7 +6,6 @@
 #SBATCH --gpus-per-task=2
 #SBATCH --mem=120G
 #SBATCH --time=01:00:00
-#SBATCH --partition=small-g
 
 export DATADIR='$COURSE_SCRATCH/data'
 export TORCH_HOME='$COURSE_SCRATCH/torch-cache'

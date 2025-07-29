@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-plant-8818
+#FLUX --job-name=salted-kerfuffle-5718
 #FLUX -n=16
 #FLUX --queue=intel
 #FLUX -t=172800

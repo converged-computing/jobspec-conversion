@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-lentil-2442
+#FLUX --job-name=dinosaur-bicycle-2845
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/robertodr/cdash-recipes/psi4/daily/gardar.nhpc.hi.is/RDR-intel13.1-release-MPI.pbs

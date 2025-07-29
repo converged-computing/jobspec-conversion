@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load mpi/openmpi
 gmxdir=/home/alarcj/exe/gromacs-4.0.7_flatbottom/exec/bin

@@ -7,9 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=ntasks-per-node=32,gpu
-#SBATCH --licenses=SCRATCH
 
 export SCRATCH_FOLDER='$SCRATCH/cry11ba/$SLURM_JOB_ID'
 export MTZ_PATH='$SCRATCH/cry11ba/${1}/out/ly99sim_all.mtz'

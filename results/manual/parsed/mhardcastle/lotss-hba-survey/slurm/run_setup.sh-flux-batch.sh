@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-plant-5346
+#FLUX --job-name=expensive-staircase-3452
 #FLUX -c=32
 #FLUX --queue=normal
 #FLUX -t=460800

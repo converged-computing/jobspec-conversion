@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=00:00:10
-#SBATCH --partition=bosch_cpu-cascadelake
 #SBATCH --chdir=/work/dlclarge2/rajanr-mdpp
 #SBATCH --array=0-199
 

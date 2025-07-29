@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-peas-0900
+#FLUX --job-name=grated-parsnip-4713
 #FLUX --urgency=16
 
 export PRETRAIN='$OUTPUT_DIR/$JOB_NAME/checkpoint/$JOB_NAME_${CURRENT_EPOCH}.pth'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-omelette-1032
+#FLUX --job-name=misunderstood-carrot-2852
 #FLUX -c=4
 #FLUX --queue=amd
 #FLUX -t=86400

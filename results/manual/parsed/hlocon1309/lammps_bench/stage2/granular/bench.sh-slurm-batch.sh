@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=normal
 #SBATCH --constraint=type_a
 
 module load openmpi/4.1.4

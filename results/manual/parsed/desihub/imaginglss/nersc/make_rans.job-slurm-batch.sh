@@ -6,7 +6,6 @@
 #SBATCH --ntasks=512
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:29:00
-#SBATCH --partition=debug
 
 export OMP_NUM_THREADS='1'
 export HDF5_USE_FILE_LOCKING='FALSE  '

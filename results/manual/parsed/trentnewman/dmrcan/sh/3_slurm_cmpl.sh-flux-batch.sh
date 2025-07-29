@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-hippo-6403
+#FLUX --job-name=evasive-nunchucks-4767
 #FLUX --urgency=16
 
 SECONDS=0

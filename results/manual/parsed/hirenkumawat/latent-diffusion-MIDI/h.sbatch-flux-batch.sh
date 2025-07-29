@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-hobbit-7392
+#FLUX --job-name=blue-bits-3968
 #FLUX -c=8
 #FLUX -t=7200
 #FLUX --urgency=16

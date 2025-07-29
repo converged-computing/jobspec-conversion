@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-arm-1226
+#FLUX --job-name=crunchy-leader-2922
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX -t=21600

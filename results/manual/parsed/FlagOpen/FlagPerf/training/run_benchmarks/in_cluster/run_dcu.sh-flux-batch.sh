@@ -2,7 +2,7 @@
 #FLUX --job-name=aquila
 #FLUX -N=16
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=xahdnormal
 #FLUX --urgency=16
 

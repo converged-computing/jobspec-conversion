@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=swampy-muffin-4723
+#FLUX --job-name=carnivorous-muffin-5583
 #FLUX -c=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43140
 #FLUX --urgency=16
 

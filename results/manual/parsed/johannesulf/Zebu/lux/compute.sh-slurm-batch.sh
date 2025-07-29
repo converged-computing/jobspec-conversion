@@ -8,7 +8,6 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=leauthaud
 
 cd /data/groups/leauthaud/jolange/Zebu/lux
 source init.sh

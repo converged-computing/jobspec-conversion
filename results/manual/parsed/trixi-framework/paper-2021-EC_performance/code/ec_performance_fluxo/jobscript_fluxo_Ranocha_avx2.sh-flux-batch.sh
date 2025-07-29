@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-poodle-5613
+#FLUX --job-name=loopy-cat-3892
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/trixi-framework/paper-2021-EC_performance/code/ec_performance_fluxo/jobscript_fluxo_Ranocha_avx2.sh

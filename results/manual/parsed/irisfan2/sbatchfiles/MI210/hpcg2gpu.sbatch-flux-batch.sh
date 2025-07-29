@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-destiny-0320
+#FLUX --job-name=gloopy-omelette-9975
 #FLUX -c=8
 #FLUX --urgency=16
 

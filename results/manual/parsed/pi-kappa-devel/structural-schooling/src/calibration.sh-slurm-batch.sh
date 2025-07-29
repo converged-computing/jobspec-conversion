@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=3072
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=fuchs
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export procs='`expr $(nproc --all)`'
 

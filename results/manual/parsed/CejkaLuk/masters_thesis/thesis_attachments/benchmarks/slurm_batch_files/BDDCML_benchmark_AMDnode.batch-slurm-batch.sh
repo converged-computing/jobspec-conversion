@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem-per-cpu=1000G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=amdgpulong
 #SBATCH --constraint=ntasks-per-node=32
 #SBATCH --exclude=g[01-10]
 

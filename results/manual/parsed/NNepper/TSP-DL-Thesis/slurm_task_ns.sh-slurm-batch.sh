@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1,Tesla
 
 module load Python/3.8.6-GCCcore-10.2.0

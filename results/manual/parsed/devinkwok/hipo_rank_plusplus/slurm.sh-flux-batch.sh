@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-cattywampus-0623
+#FLUX --job-name=goodbye-bike-1488
 #FLUX -c=2
 #FLUX --queue=unkillable
 #FLUX -t=86400

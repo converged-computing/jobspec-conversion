@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=40960
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=defq
 
 export PATH='$PATH:/home/unamur/URBE/jnarayan/CANUAssembly/canu/Linux-amd64/bin'
 

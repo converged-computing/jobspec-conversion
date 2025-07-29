@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-leg-9135
+#FLUX --job-name=purple-staircase-5345
 #FLUX --queue=gpu
 #FLUX -t=18000
 #FLUX --urgency=16

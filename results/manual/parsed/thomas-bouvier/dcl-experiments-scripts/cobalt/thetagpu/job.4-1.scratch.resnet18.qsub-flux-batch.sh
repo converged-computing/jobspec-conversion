@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=expressive-sundae-2871
+#FLUX --job-name=dinosaur-earthworm-2049
 #FLUX --urgency=16
 

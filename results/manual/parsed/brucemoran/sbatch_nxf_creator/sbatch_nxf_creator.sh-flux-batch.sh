@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-truffle-0607
+#FLUX --job-name=nerdy-motorcycle-1845
 #FLUX --urgency=16
 
 YAML=$1

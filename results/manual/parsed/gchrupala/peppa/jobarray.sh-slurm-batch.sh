@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:rtx:1
 #SBATCH --time=00:48:00
-#SBATCH --partition=GPUExtended
 #SBATCH --array=1-4
 
 conda activate home

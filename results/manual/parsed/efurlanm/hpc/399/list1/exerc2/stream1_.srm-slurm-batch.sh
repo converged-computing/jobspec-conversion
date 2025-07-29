@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:02:00
-#SBATCH --partition=cpu_dev
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-hope-0311
+#FLUX --job-name=ornery-poo-0145
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=g16xlargeefa
 #FLUX --urgency=16
 

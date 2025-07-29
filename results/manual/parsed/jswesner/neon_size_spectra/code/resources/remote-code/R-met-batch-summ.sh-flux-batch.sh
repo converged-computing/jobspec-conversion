@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-bits-6643
+#FLUX --job-name=doopy-hobbit-7398
 #FLUX -n=12
 #FLUX -t=172800
 #FLUX --urgency=16

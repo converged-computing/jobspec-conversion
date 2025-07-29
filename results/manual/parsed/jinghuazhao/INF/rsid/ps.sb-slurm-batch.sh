@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12880
 #SBATCH --time=08:00:00
-#SBATCH --partition=cardio
 #SBATCH --array=1-162
 
 export nth='${SLURM_ARRAY_TASK_ID}'

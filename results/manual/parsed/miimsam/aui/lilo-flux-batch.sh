@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=crusty-truffle-0407
+#FLUX --job-name=arid-destiny-0924
 #FLUX --urgency=16
 

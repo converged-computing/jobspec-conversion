@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=48G
 #SBATCH --time=00:30:00
-#SBATCH --partition=express
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 set -e
 source ~/.bashrc

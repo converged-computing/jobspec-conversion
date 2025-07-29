@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:k80:1
 #SBATCH --mem=8G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 module load python-env/3.6.3-ml
 module list

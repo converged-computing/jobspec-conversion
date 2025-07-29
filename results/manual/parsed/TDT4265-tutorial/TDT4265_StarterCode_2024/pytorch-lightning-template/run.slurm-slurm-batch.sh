@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=00:30:00
-#SBATCH --partition=GPUQ
 #SBATCH --constraint=ntasks-per-node=1
 
 cd ${SLURM_SUBMIT_DIR}/

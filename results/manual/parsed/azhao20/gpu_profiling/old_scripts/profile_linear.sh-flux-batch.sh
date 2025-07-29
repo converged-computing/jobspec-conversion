@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-frito-2433
+#FLUX --job-name=nerdy-onion-4821
 #FLUX -c=8
 #FLUX --queue=seas_gpu
 #FLUX -t=604800

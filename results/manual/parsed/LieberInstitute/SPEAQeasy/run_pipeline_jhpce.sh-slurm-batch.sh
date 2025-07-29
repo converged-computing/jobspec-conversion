@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=40G
-#SBATCH --partition=shared
 
 export NXF_JVM_ARGS='-Xms8g -Xmx10g'
 

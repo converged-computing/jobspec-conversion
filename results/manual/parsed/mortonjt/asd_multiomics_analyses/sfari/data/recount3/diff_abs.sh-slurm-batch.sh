@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=ccb
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=rome
 
 export TBB_CXX_TYPE='gcc'

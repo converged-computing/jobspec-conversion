@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=srlab
 #SBATCH --chdir=/gscratch/srlab/graceac9/analyses/pycno/20231206_PSC2022_trimming
 
 threads=40

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-pastry-5005
+#FLUX --job-name=purple-dog-9847
 #FLUX -n=16
 #FLUX --queue=AMG
 #FLUX -t=86400

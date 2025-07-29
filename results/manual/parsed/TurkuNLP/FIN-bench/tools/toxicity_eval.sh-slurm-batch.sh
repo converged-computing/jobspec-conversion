@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=60
 #SBATCH --mem=20G
 #SBATCH --time=02:30:00
-#SBATCH --partition=small-g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_SOCKET_IFNAME='hsn'

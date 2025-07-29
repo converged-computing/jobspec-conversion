@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-lentil-0713
+#FLUX --job-name=tart-itch-4068
 #FLUX --queue=debug
 #FLUX -t=600
 #FLUX --urgency=16

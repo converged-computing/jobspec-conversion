@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=gpu-a100
 
 source /work/09320/lpersyn/ls6/anaconda3/etc/profile.d/conda.sh
 conda activate ../cs394-work-env

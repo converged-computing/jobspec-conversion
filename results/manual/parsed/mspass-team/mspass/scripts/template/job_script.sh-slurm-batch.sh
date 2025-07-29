@@ -6,7 +6,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=skx-normal
 
 ml unload xalt
 ml tacc-singularity

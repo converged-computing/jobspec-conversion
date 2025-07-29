@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:P100:1
-#SBATCH --partition=sugon
 
 CUDA_VISIBLE_DEVICES=0,1 python TC_preprocess.py
 CUDA_VISIBLE_DEVICES=0,1 python TC/run_bert.py --do_data 

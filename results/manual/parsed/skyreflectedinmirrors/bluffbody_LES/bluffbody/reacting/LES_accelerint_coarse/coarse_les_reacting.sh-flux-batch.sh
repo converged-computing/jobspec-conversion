@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-carrot-8538
+#FLUX --job-name=adorable-poo-4816
 #FLUX -N=2
 #FLUX -n=48
 #FLUX --queue=general_requeue

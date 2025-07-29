@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=adorable-frito-3151
+#FLUX --job-name=nerdy-earthworm-0476
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export NCCL_ASYNC_ERROR_HANDLING='1'

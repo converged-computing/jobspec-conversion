@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-pastry-2692
+#FLUX --job-name=boopy-banana-2989
 #FLUX -n=20
 #FLUX --queue=plgrid
 #FLUX -t=7200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-earthworm-8680
+#FLUX --job-name=carnivorous-general-5357
 #FLUX --urgency=16
 
 module load cuda/8.0 tensorflow/0.12.1

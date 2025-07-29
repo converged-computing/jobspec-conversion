@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=lr-2e5
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=dev
 #FLUX --urgency=16
 

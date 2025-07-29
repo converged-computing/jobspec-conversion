@@ -6,7 +6,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=bigmem
 
 export NCELLSPERLF='16'
 export NPTS='100000'

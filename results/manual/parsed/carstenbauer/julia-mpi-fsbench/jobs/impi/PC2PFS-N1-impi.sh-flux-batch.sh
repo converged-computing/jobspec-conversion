@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=sticky-citrus-8313
+#FLUX --job-name=joyous-lettuce-3142
 #FLUX -n=64
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cont
 #FLUX -t=600
 #FLUX --urgency=16

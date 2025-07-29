@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-despacito-9595
+#FLUX --job-name=muffled-frito-8607
 #FLUX --urgency=16
 
 read_master_config_file() {

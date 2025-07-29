@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:volta:4
-#SBATCH --partition=gpu
 
 export OMPI_MCA_btl='self,tcp'
 export JULIA_DEPOT_PATH='${HOME}/.julia'

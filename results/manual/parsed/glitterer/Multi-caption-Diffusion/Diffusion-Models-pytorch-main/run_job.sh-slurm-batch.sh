@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=120G
 #SBATCH --time=4-10:00:00
-#SBATCH --partition=gpus
 #SBATCH --exclude=gpu[1601-1605]
 
 export PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True'

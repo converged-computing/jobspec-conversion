@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=evolve-neat
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=172800
 #FLUX --urgency=16
 

@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=shared
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export LD_PRELOAD='/usr/lib64/libcrypto.so.1.1'
 export OMPI_MCA_opal_cuda_support='0'

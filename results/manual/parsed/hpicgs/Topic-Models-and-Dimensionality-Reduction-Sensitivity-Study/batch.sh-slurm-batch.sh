@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=40G
 #SBATCH --time=1-09:20:00
-#SBATCH --partition=magic
 #SBATCH --constraint=ARCH:X86
 #SBATCH --array=1-9999
 #SBATCH --exclude=cx23,cx27,cx28

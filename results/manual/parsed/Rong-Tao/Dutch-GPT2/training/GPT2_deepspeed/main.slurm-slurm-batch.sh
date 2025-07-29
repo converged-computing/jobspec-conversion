@@ -7,9 +7,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=dcu:4
 #SBATCH --mem=0
-#SBATCH --partition=kshdexclu04
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 
 export NCCL_IB_HCA='mlx5_0'
 export NCCL_SOCKET_IFNAME='ib0'

@@ -6,7 +6,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=8G
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 
 module load 2022r2 openmpi py-torch
 srun python gpu_dl_pytorch.py > gpu_dl_pytorch.log

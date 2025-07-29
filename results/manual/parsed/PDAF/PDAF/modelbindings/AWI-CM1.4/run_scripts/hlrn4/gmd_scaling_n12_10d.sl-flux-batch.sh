@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-pedo-4992
+#FLUX --job-name=muffled-car-9215
 #FLUX -N=36
 #FLUX -n=3456
 #FLUX --queue=standard96

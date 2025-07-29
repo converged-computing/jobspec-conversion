@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=156gb
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=koa
 
 source ~/profiles/auto.profile
 source activate pytorch

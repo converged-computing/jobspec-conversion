@@ -3,7 +3,7 @@
 #FLUX -N=2
 #FLUX -n=2
 #FLUX --gpus-per-task=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export FI_EFA_USE_DEVICE_RDMA='1 # use for p4d'

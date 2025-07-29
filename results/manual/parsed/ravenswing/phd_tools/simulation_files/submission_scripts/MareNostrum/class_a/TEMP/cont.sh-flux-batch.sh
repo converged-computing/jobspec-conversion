@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-lentil-7095
+#FLUX --job-name=faux-staircase-4770
 #FLUX -N=4
 #FLUX -c=2
 #FLUX -t=259200

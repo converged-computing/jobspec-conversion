@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:A6000:1
 #SBATCH --mem=32G
 #SBATCH --time=00:11:00
-#SBATCH --partition=wildfire
 
 ...
 nvidia-smi # Useful for seeing GPU status and activity 

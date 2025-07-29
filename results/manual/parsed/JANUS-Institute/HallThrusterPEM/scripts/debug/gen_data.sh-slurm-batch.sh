@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1g
 #SBATCH --time=00:03:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=1
 
 export PYTHON_JULIAPKG_OFFLINE='yes'

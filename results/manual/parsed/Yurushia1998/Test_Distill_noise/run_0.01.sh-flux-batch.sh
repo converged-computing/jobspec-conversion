@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-itch-5784
+#FLUX --job-name=wobbly-pot-4944
 #FLUX -c=4
 #FLUX --queue=v100
 #FLUX -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-malarkey-5342
+#FLUX --job-name=tart-chip-6818
 #FLUX -c=32
 #FLUX -t=259200
 #FLUX --urgency=16

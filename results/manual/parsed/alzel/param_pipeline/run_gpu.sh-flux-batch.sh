@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-chip-9708
+#FLUX --job-name=ornery-diablo-0363
 #FLUX -n=32
 #FLUX --queue=vera
 #FLUX -t=604800

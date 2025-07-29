@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:40:00
-#SBATCH --partition=normal
 #SBATCH --array=0-209
 #SBATCH --exclude=node023
 

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:30:00
-#SBATCH --partition=booster
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'
 export LD_PRELOAD='/p/home/jusers/nipen1/juwels/local/lib/libvefprospector_full.so'

@@ -6,9 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=premium
 #SBATCH --constraint=ntasks-per-node=1,haswell
-#SBATCH --licenses=SCRATCH
 
 module load cray-petsc-64
 module load cray-hdf5-parallel

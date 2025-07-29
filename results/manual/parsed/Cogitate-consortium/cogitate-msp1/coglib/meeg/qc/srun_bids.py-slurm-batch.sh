@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=32G
 #SBATCH --time=01:00:00
-#SBATCH --partition=xnat
 #SBATCH --chdir=/hpc/users/urszula.gorska/codes/MEEG/MNE-python_pipeline_v3/
 
 if [ $# -ne 2 ];

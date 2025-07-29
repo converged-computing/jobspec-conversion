@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=80000
 #SBATCH --time=00:03:45
-#SBATCH --partition=fink_gpu
 
 PROJDIR="/n/holylfs05/LABS/finkbeiner_lab/Users/nmudur/project_dirs/CMD_2D/diffusion-models-for-cosmological-fields/annotated/results/"
 MODELRUN="Run_5-7_0-50/"

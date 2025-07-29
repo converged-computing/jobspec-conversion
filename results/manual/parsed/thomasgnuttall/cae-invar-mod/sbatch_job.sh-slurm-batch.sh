@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=5g
-#SBATCH --partition=high
 #SBATCH --constraint=intel
 
 source /etc/profile.d/lmod.sh

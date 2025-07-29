@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=48
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-22:00:00
-#SBATCH --partition=dgx_normal_q
 
 export MASTER_PORT='8888'
 export weight_path='./$SLURM_JOBID/'

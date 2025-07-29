@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16000
 #SBATCH --time=00:50:00
-#SBATCH --partition=cstest
 #SBATCH --constraint=ntasks-per-node=8
 
 PACKAGENAME=octeract-engine

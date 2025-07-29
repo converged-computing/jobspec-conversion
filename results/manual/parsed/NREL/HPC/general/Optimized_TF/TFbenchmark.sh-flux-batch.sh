@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-avocado-5793
+#FLUX --job-name=hello-knife-1278
 #FLUX --queue=debug
 #FLUX -t=3600
 #FLUX --urgency=16

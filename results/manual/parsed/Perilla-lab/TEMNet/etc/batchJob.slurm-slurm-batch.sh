@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:volta16:2
 #SBATCH --time=02:00:00
-#SBATCH --partition=GPU-AI
 
 cd /home/hbeatson/
 module load singularity

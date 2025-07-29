@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=sticky-butter-7424
+#FLUX --job-name=conspicuous-hippo-9838
 #FLUX -N=2
 #FLUX -n=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=serc
 #FLUX -t=1800
 #FLUX --urgency=16

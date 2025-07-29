@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=dist_cal.a_apo
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=345600
 #FLUX --urgency=16
 

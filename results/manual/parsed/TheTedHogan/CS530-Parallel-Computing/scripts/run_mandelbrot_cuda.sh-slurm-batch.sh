@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:02:00
-#SBATCH --partition=gpuq
 
 module load gcc/9.2.0
 module load cmake/gcc/3.18.0

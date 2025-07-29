@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128G
-#SBATCH --partition=gpu-mono
 #SBATCH --constraint=gpu_16g|gpu_22g|gpu_32g|gpu_v100
 
 MODELPATH=/tmp-network/project/fashion/models/crossmodal_retrieval/MSCoco_liwei

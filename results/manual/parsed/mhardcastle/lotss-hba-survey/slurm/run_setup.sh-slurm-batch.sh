@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=5-08:00:00
-#SBATCH --partition=normal
 
 export INSTALL_DIR='/home/azimuth/software'
 export VLBIDIR='${INSTALL_DIR}/VLBI-cwl'

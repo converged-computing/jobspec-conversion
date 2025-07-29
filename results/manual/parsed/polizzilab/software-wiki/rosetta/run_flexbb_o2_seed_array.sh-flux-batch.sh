@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-fork-0191
+#FLUX --job-name=sticky-milkshake-6902
 #FLUX --queue=short
 #FLUX -t=60
 #FLUX --urgency=16

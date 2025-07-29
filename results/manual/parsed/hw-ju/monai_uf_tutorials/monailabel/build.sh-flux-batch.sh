@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-poo-6727
+#FLUX --job-name=swampy-train-8920
 #FLUX -c=4
 #FLUX -t=28800
 #FLUX --urgency=16

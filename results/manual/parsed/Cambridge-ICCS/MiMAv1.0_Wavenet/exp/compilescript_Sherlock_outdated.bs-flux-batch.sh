@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-caramel-2790
+#FLUX --job-name=sticky-blackbean-3263
 #FLUX -n=24
 #FLUX --queue=serc
 #FLUX -t=10800

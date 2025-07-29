@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1gb
 #SBATCH --time=00:01:00
-#SBATCH --partition=nodes
 #SBATCH --constraint=ntasks-per-node=2
 
 method="Singularity"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-knife-3244
+#FLUX --job-name=confused-signal-4789
 #FLUX -n=14
 #FLUX -c=2
 #FLUX -t=600

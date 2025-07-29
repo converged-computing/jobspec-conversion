@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=02:30:00
-#SBATCH --partition=gpu
 #SBATCH --array=0,1
 
 ml python/3.6.1

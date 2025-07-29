@@ -7,7 +7,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 
 export MPLCONFIGDIR='./envs/$PROJECT_NAME/.cache/matplotlib/'
 export HF_DATASETS_CACHE='./envs/$PROJECT_NAME/.cache/huggingface/'

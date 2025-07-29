@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-kerfuffle-8920
+#FLUX --job-name=blue-parrot-8987
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lonce/sonyGanFork/runscripts/C/runtrainTEST2.pb

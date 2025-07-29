@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=2G
 #SBATCH --time=21-00:00:00
-#SBATCH --partition=cbcb
 #SBATCH --qos=highmem
 
 PROJDIR="/fs/nexus-projects/sc_read_census/nextflow"

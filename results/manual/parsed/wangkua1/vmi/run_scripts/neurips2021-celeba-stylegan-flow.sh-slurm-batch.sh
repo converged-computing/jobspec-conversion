@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=8-08:00:00
-#SBATCH --partition=rtx6000
 #SBATCH --qos=normal
 
 exp_config=neurips2021-celeba.yml

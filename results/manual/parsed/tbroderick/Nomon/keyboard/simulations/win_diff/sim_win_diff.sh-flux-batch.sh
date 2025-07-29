@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-nalgas-3812
+#FLUX --job-name=doopy-gato-6243
 #FLUX --urgency=16
 
 source /etc/profile

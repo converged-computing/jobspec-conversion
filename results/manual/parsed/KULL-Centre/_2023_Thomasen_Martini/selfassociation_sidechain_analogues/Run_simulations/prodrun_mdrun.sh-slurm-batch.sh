@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=qgpu
 #SBATCH --constraint=ntasks-per-node=18
 
 echo "========= Job started  at `date` =========="

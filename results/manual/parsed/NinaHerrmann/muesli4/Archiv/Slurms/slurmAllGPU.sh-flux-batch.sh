@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=Muesli2-examples-GPU
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu2080
 #FLUX -t=14400
 #FLUX --urgency=16

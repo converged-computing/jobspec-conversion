@@ -6,7 +6,6 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:1
-#SBATCH --partition=matador
 
 set -euf -o pipefail
 readonly gpu_count=1

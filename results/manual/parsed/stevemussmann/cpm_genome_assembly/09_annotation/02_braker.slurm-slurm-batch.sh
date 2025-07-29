@@ -6,9 +6,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=condo
 #SBATCH --qos=condo
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=douglas&768gb,ntasks-per-node=32
 
 module purge

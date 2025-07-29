@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:a100:8
 #SBATCH --mem=800G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=oermannlab
 #SBATCH --constraint=ntasks-per-node=1
 
 echo "hostname:"

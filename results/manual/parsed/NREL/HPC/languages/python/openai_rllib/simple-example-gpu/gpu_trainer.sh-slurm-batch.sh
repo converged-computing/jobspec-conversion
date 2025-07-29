@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=36
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:10:00
-#SBATCH --partition=debug
 
 env
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-gato-1409
+#FLUX --job-name=eccentric-plant-2459
 #FLUX -c=8
 #FLUX --queue=gpuq-dev
 #FLUX -t=3600

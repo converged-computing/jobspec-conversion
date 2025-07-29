@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=04:00:00
-#SBATCH --partition=snsm_itn19
 #SBATCH --qos=openaccess
 #SBATCH --constraint=ntasks-per-node=1
 

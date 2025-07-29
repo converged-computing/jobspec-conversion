@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-poo-8681
+#FLUX --job-name=reclusive-lemon-9917
 #FLUX --queue=all
 #FLUX -t=600
 #FLUX --urgency=16

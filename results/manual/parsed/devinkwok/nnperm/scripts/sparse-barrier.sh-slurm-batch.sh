@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:rtx8000:1
 #SBATCH --mem=32G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=main
 
 source ./open_lth/slurm-setup.sh cifar10
 CKPT_ROOT=$HOME/scratch/open_lth_data/

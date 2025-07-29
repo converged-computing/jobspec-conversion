@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-frito-8503
+#FLUX --job-name=sticky-ricecake-3476
 #FLUX --urgency=16
 
 image=python-2.12-numpy-1.13.img

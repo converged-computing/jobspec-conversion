@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=00:25:00
-#SBATCH --partition=learnfair
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --array=18-36:2
 

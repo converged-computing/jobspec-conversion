@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-bits-6416
+#FLUX --job-name=salted-frito-9475
 #FLUX --queue=batch
 #FLUX -t=300
 #FLUX --urgency=16

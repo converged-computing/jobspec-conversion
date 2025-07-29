@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=flask_server
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=a100
 #FLUX -t=3600
 #FLUX --urgency=16

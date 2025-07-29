@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=18000
 #SBATCH --time=01:59:00
-#SBATCH --partition=batch
 #SBATCH --qos=normal+
 
 MATLAB=matlab

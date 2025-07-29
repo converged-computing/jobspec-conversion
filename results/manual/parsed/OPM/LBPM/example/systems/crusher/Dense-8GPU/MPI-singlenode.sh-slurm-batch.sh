@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=batch
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export PE_MPICH_GTL_DIR_amd_gfx90a='-L${CRAY_MPICH_ROOTDIR}/gtl/lib'
 export PE_MPICH_GTL_LIBS_amd_gfx90a='-lmpi_gtl_hsa'

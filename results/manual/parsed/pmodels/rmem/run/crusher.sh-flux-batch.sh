@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-knife-0790
+#FLUX --job-name=butterscotch-avocado-8673
 #FLUX -N=2
 #FLUX -c=16
 #FLUX --gpus-per-task=1

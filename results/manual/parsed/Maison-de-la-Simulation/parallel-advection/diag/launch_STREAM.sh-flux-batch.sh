@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=sySTREAM
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpua100
 #FLUX -t=36000
 #FLUX --urgency=16

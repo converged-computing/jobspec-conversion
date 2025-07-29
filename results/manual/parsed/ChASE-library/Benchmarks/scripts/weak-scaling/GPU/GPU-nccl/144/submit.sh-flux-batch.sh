@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-arm-9955
+#FLUX --job-name=lovely-cat-7854
 #FLUX -N=144
 #FLUX -n=576
 #FLUX -c=12

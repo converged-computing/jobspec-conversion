@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=00:00:10
-#SBATCH --partition=sched_any_quicktest
 #SBATCH --array=1-3
 
 module load julia/1.7.3

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-parsnip-2900
+#FLUX --job-name=phat-mango-8690
 #FLUX -c=8
 #FLUX --urgency=16
 

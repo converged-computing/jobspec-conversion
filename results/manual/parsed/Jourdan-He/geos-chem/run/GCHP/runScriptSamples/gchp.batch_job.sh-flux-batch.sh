@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-pastry-4778
+#FLUX --job-name=purple-gato-8323
 #FLUX -N=2
 #FLUX -n=60
 #FLUX --queue=huce_intel

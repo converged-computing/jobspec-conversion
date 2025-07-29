@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100:4
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=gpumedium
 
 export SING_IMAGE='/appl/soft/ai/singularity/images/pytorch_1.9.0_csc_custom.sif'
 export SING_FLAGS='$SING_FLAGS -B /appl/spack/v014/install-tree/gcc-4.8.5/pdsh-2.31-cdzt5w/bin:/usr/local/sbin'

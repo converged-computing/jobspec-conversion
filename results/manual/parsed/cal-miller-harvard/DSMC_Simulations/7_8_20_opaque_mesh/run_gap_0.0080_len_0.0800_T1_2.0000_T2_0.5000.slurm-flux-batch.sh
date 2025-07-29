@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-egg-7123
+#FLUX --job-name=moolicious-poodle-2204
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

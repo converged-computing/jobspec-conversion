@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:7
 #SBATCH --mem=200000
 #SBATCH --time=00:14:00
-#SBATCH --partition=cox
 
 echo "#############SETUP#############"
 echo ""

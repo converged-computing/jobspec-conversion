@@ -8,7 +8,6 @@
 #SBATCH --gres=a100:4
 #SBATCH --mem=512000
 #SBATCH --time=15:00:00
-#SBATCH --partition=gpu
 
 export HF_HOME='~/scratch/.cache/huggingface'
 export TOKENIZERS_PARALLELISM='false'

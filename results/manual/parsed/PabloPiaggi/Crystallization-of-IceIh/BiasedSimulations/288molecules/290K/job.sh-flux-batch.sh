@@ -3,7 +3,7 @@
 #FLUX -N=2
 #FLUX -n=4
 #FLUX -c=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

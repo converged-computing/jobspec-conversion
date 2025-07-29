@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:00:01
-#SBATCH --partition=debug
 #SBATCH --array=1-7
 
 export OMP_NUM_THREADS='$SCALE_FACTOR'

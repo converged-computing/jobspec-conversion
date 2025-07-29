@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-puppy-6620
+#FLUX --job-name=frigid-hippo-9432
 #FLUX --urgency=16
 
 define_modules_config()

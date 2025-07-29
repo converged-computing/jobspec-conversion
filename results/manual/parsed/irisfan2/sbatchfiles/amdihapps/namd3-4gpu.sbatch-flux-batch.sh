@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-toaster-6370
+#FLUX --job-name=expensive-earthworm-8871
 #FLUX -c=8
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-nunchucks-9409
+#FLUX --job-name=sticky-lettuce-2015
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

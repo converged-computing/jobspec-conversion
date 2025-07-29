@@ -9,7 +9,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=32G
 #SBATCH --time=00:05:00
-#SBATCH --partition=ais-gpu
 
 srun singularity exec --bind /trinity/home/v.moskvoretskii/:/home -f --nv /trinity/home/v.moskvoretskii/images/gptvq.sif bash -c '
     cd /home;

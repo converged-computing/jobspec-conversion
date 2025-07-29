@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-carrot-8348
+#FLUX --job-name=bricky-leader-1731
 #FLUX --queue=hci-kp
 #FLUX -t=864000
 #FLUX --urgency=16

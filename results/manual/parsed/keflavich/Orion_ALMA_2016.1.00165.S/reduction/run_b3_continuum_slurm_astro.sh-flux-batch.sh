@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-leader-4216
+#FLUX --job-name=doopy-malarkey-2007
 #FLUX -n=8
 #FLUX --queue=bigmem
 #FLUX -t=345600

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=hci-rw
 #SBATCH --constraint=c28
 
 jobName=MYNAME

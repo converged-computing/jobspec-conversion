@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=24G
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=long
 
 echo "Starting $1 parallel processes on a single GPU"
 for i in $(seq 1 $1); do

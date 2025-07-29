@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=prod
 #SBATCH --array=0-1
 
 export PYTHONPATH='${PYTHONPATH}:/homes/svincenzi/.conda/envs/py_env2/bin/python'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-cherry-9994
+#FLUX --job-name=conspicuous-toaster-2278
 #FLUX -c=6
 #FLUX --queue=gpu
 #FLUX -t=540000

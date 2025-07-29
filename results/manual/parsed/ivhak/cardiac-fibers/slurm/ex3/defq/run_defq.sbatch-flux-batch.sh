@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=cardiac-fibers
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=defq
 #FLUX -t=345600
 #FLUX --urgency=16

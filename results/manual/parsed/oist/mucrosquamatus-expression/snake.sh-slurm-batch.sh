@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=4G
-#SBATCH --partition=compute
 
 . $HOME/.bashrc 
 . ~/sasha_env/bin/activate

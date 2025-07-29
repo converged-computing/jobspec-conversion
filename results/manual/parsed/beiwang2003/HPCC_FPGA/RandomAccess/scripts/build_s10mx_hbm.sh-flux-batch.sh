@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-soup-8793
+#FLUX --job-name=loopy-knife-7109
 #FLUX --queue=fpgasyn
 #FLUX --urgency=16
 

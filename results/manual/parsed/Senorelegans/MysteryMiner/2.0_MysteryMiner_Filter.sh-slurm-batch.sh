@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=120gb
 #SBATCH --time=4-04:05:00
-#SBATCH --partition=long
 
 export PATH='~/.local:$PATH'
 

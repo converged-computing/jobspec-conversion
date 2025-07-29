@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-earthworm-1205
+#FLUX --job-name=outstanding-hobbit-9655
 #FLUX --queue=serial_requeue
 #FLUX -t=36000
 #FLUX --urgency=16

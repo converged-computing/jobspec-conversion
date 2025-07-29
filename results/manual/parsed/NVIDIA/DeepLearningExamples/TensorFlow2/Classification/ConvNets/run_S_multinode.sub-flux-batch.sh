@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=lovable-signal-1811
-#FLUX: --exclusive
+#FLUX --job-name=hairy-lamp-8168
+#FLUX --exclusive
 #FLUX --urgency=16
 
 readonly datadir="/datasets/imagenet/train-val-tfrecord"

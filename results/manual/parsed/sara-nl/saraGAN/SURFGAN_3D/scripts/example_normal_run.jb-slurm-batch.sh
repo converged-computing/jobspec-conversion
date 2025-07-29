@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=4
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu_titanrtx
 #SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='5'

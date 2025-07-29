@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-despacito-7070
+#FLUX --job-name=muffled-malarkey-2090
 #FLUX -N=6
 #FLUX -c=8
 #FLUX --queue=gpu

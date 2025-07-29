@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export PYTHONPATH='$PYTHONPATH:../python'
 

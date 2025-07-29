@@ -9,7 +9,7 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=0
 #SBATCH --time=1-16:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MASTER_ADDR='127.0.0.1'
 export MASTER_PORT='$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')'

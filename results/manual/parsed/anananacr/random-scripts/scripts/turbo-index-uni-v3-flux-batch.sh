@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-rabbit-3392
+#FLUX --job-name=doopy-eagle-2163
 #FLUX --urgency=16
 
 SPLIT=10000  # Size of job chunks

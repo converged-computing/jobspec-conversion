@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-lamp-1666
+#FLUX --job-name=lovable-chip-0288
 #FLUX -t=345600
 #FLUX --urgency=16
 

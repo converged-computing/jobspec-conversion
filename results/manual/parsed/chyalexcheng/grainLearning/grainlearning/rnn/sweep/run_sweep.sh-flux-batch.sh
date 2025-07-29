@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-latke-2664
+#FLUX --job-name=outstanding-punk-6934
 #FLUX -n=32
 #FLUX --queue=fat
 #FLUX -t=1800

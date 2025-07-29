@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=10000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 set -e
 cd ..

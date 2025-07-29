@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=115gb
 #SBATCH --time=03:00:00
-#SBATCH --partition=gll_meteo_prod
 #SBATCH --qos=gll_qos_meteoogs
 #SBATCH --constraint=ntasks-per-node=10
 #SBATCH --dependency=8354394

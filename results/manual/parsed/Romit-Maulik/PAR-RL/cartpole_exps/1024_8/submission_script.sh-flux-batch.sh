@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-itch-5839
+#FLUX --job-name=wobbly-blackbean-5185
 #FLUX --urgency=16
 

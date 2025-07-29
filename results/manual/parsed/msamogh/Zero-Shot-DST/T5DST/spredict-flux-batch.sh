@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-arm-7431
+#FLUX --job-name=dinosaur-butter-3613
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX -t=72000

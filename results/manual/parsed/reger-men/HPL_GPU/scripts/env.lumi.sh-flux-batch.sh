@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-avocado-8687
+#FLUX --job-name=boopy-arm-5724
 #FLUX --urgency=16
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

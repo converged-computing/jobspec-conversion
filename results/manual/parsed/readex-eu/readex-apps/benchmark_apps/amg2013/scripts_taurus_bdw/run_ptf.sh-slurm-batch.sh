@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=14
 #SBATCH --mem=2200M
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=broadwell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=2
 
 export PSC_CPU_BIND='--cpu_bind=verbose,sockets'

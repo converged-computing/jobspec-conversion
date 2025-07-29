@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-onion-3662
+#FLUX --job-name=conspicuous-chair-3617
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MickiFoerster/spl-transformer/test-suite/exclusive_read_closer_data_dep/opt-vs-noopt.bsub

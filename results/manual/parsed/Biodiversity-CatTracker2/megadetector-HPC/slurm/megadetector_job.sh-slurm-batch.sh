@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=32gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=gpu_v100
 
 export PATH='$PATH"  # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> UPDATE !'

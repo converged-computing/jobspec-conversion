@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-train-2578
+#FLUX --job-name=loopy-bicycle-1692
 #FLUX -n=4
 #FLUX -c=10
 #FLUX --gpus-per-task=1

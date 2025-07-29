@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:nvidia_rtx_a6000:1
 #SBATCH --time=04:00:00
-#SBATCH --partition=compute
 #SBATCH --nodelist=gpu07
 
 python /home/bqqi/ICL/utils/main.py --model onlinevt --load_best_args --dataset seq-cifar10 --buffer_size 500  --csv_log --with_brain_vit --num_classes 10 --num_workers 12 --kappa 2 --lmbda 0.1 --delta 0.01 --k 5 --with_slow > ablation_exp/exp2/cifar10_k_5.log 2>&1

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-spoon-4153
+#FLUX --job-name=spicy-bicycle-7550
 #FLUX --queue=t4_dev_q
 #FLUX -t=300
 #FLUX --urgency=16

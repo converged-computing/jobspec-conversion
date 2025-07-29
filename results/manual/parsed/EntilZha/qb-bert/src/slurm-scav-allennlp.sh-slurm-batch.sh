@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16g
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=scavenger
 #SBATCH --qos=scavenger
 #SBATCH --chdir=/fs/clip-quiz/entilzha/code/qb-bert/src
 #SBATCH --exclude=materialgpu00

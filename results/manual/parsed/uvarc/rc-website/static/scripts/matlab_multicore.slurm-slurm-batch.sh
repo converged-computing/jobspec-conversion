@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=8
 
 export slurm_ID='${SLURM_JOB_ID}'

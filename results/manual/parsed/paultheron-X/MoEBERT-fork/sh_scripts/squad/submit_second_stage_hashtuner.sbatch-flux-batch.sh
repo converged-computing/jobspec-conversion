@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-carrot-4491
+#FLUX --job-name=red-dog-9340
 #FLUX -c=20
 #FLUX --queue=xeon-g6-volta
 #FLUX -t=1440

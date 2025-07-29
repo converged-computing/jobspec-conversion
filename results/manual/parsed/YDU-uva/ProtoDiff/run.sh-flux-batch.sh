@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-poo-3687
+#FLUX --job-name=fat-train-8292
 #FLUX -n=18
 #FLUX --queue=gpu
 #FLUX -t=129600

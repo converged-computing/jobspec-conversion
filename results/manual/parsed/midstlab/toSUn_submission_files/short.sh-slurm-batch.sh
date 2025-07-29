@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=short_mdbf
 #SBATCH --qos=short_mdbf
 #SBATCH --constraint=ntasks-per-node=24
 

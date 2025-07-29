@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gll_usr_prod
 #SBATCH --constraint=ntasks-per-node=26
 
 module load intel intelmpi

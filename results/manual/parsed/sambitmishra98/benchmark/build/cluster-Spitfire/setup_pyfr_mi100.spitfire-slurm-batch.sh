@@ -7,9 +7,8 @@
 #SBATCH --gres=gpu:3
 #SBATCH --mem-per-cpu=80G
 #SBATCH --time=06:00:00
-#SBATCH --partition=amd
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 
     . /etc/profile.d/modules.sh
     module purge

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --time=00:20:00
-#SBATCH --partition=CSUG
 #SBATCH --constraint=ntasks-per-node=1
 
 module use /share/apps/eb/modules/all

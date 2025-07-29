@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-despacito-1125
+#FLUX --job-name=phat-peanut-4288
 #FLUX -c=4
 #FLUX --queue=batch
 #FLUX -t=90000

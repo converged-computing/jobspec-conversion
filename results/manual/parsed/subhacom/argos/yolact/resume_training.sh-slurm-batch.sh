@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=64g
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 module load CUDA/10.1
 module load cuDNN/7.6.5/CUDA-10.1

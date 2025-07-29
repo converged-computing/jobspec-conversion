@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-leader-9338
+#FLUX --job-name=lovable-platanos-5153
 #FLUX -n=48
 #FLUX --queue=skl_fua_dbg
 #FLUX -t=3600

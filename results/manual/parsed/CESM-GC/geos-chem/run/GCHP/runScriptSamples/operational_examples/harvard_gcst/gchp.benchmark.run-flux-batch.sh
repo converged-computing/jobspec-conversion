@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=tart-platanos-0377
+#FLUX --job-name=joyous-animal-9209
 #FLUX -N=2
 #FLUX -n=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=huce_cascade
 #FLUX -t=1200
 #FLUX --urgency=16

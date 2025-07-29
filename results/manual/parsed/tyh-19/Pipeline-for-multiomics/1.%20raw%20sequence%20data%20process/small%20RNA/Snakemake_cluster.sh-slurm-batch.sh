@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=CN_BIOT
 
 mkdir -p cluster_log
 snakefile="small_pipeline" #"QIAseq_pipeline"

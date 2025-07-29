@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=250GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu_requeue
 #SBATCH --constraint=ntasks-per-node=1,h100
 #SBATCH --array=0-180%5
 

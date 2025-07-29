@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32000
 #SBATCH --time=00:30:00
-#SBATCH --partition=production
 #SBATCH --chdir=/share/lasallelab/Ben/PEBBLES/tag-seq
 
 start=`date +%s`

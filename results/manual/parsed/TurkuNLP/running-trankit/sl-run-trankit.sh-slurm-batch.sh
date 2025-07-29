@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1,nvme:100
 #SBATCH --mem=10G
 #SBATCH --time=00:07:00
-#SBATCH --partition=gputest
 #SBATCH --constraint=ntasks-per-node=1
 
 mkdir -p logs

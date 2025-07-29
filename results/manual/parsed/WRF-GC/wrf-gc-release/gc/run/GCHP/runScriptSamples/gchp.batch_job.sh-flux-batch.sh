@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-general-2609
+#FLUX --job-name=delicious-kerfuffle-9749
 #FLUX -N=2
 #FLUX -n=60
 #FLUX --queue=seas_compute

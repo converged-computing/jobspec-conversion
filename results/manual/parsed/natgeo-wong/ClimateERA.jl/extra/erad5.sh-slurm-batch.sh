@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=500
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=huce_intel
 
 module load Anaconda3/5.0.1-fasrc02
 source activate base_env

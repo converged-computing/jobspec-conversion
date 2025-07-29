@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-arm-8320
+#FLUX --job-name=buttery-dog-8176
 #FLUX --queue=nvidia
 #FLUX -t=144000
 #FLUX --urgency=16

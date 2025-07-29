@@ -5,7 +5,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=128
 #SBATCH --time=00:15:00
-#SBATCH --partition=knl
 #SBATCH --constraint=ntasks-per-node=1
 
 export KMP_AFFINITY='SCATTER'

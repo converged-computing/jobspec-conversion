@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-avocado-5583
+#FLUX --job-name=expressive-ricecake-2545
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jlboat/CP-NAM_2021/scripts/QTL/agronomic/DTH_gc_population.LINE_PI_508366.qsub

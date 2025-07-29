@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu06
 
 module purge
 module load intel/14.0.3 mkl/14.0.3 fftw/3.3.6 impi/5.1.2

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=d5_DFS
 #FLUX -N=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=fx700
 #FLUX -t=14400
 #FLUX --urgency=16

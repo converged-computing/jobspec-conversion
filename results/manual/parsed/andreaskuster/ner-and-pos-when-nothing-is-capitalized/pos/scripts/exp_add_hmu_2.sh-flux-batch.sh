@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-train-6549
+#FLUX --job-name=grated-earthworm-6783
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

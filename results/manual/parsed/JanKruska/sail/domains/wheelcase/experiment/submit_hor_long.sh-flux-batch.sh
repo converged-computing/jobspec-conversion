@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-underoos-0950
-#FLUX: --exclusive
+#FLUX --job-name=chunky-avocado-2568
+#FLUX --exclusive
 #FLUX --queue=hpc
 #FLUX -t=259200
 #FLUX --urgency=16

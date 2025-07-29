@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16384
 #SBATCH --time=00:02:00
-#SBATCH --partition=shared
 
 module load centos6/0.0.1-fasrc01
 module load Anaconda/5.0.1-fasrc01

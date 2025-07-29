@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=40G
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=2
 #SBATCH --exclude=mind-1-30
 

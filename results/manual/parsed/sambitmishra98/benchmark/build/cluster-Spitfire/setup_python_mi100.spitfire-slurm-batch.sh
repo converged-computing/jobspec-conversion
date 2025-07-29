@@ -7,8 +7,7 @@
 #SBATCH --gres=gpu:3
 #SBATCH --mem-per-cpu=80G
 #SBATCH --time=06:00:00
-#SBATCH --partition=amd
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export BUILD_NAME='build3'
 export BUILD_TAG='ac038'

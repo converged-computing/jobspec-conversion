@@ -5,7 +5,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=shas-testing
 #SBATCH --qos=testing
 
 module purge

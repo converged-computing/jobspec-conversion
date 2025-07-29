@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-despacito-6493
+#FLUX --job-name=blue-onion-8442
 #FLUX --queue=normal
 #FLUX --urgency=16
 

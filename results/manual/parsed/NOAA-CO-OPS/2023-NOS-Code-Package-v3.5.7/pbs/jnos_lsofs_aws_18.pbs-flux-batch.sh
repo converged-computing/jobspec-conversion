@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-peanut-8144
+#FLUX --job-name=sticky-train-4183
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-CO-OPS/2023-NOS-Code-Package-v3.5.7/pbs/jnos_lsofs_aws_18.pbs

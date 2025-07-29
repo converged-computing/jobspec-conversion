@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 module purge
 module load comp/gcc/7.2.0

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=32
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=gpu-a100
 
 module load python3
 module load cuda/12.0

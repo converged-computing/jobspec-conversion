@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
 #SBATCH --qos=regular
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=haswell
 
 export LD_LIBRARY_PATH='$PWD"/../../core:"$PWD"/../../tensorflow/ops:"$LD_LIBRARY_PATH'

@@ -8,7 +8,6 @@
 #SBATCH --ntasks=160
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=40
 
 export SUPPRESS_BASHRC='1 #this is pointless - bashrc will have been run already!!'

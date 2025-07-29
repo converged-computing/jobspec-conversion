@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-knife-7419
+#FLUX --job-name=misunderstood-salad-3591
 #FLUX -c=8
 #FLUX --queue=long
 #FLUX -t=72000

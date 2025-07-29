@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=50Gb
 #SBATCH --time=08:00:00
-#SBATCH --partition=ce-mri
 
 source activate simclr1
 python downstream_eval.py --downstream_task linear_eval -tm SSL -rd "runs/Apr30_12-16-03_d3100_e150" --comment "_e150_cfg_linear_ssl" &

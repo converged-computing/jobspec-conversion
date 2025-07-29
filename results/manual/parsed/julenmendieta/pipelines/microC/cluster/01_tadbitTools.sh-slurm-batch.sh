@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=15G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=medium
 #SBATCH --dependency=802941
 
 filesPath='/home/jmendietaes/data/2021/microC/sequencedData/merge_RUN208-RUN212/demux_fastq'

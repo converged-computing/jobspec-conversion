@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=amd-gpu-long
 
 export PATH='$PATH:"/cm/shared/easybuild/GenuineIntel/software/git/2.38.1-GCCcore-12.2.0-nodocs/bin/git'
 

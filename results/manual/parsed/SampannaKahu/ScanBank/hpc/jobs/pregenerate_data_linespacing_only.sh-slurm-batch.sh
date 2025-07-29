@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-08:00:00
-#SBATCH --partition=normal_q
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module purge
 current_timestamp() {

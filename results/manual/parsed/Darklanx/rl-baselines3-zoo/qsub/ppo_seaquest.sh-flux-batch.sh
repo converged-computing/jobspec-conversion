@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-milkshake-6996
+#FLUX --job-name=crunchy-sundae-4360
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Darklanx/rl-baselines3-zoo/qsub/ppo_seaquest.sh

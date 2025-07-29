@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-nunchucks-7759
+#FLUX --job-name=bloated-bits-9574
 #FLUX -N=16
 #FLUX -n=256
 #FLUX -c=8

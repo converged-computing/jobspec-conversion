@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-lentil-7630
+#FLUX --job-name=fuzzy-itch-4841
 #FLUX -c=32
 #FLUX -t=86400
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=128G
 #SBATCH --time=04:00:00
-#SBATCH --partition=doppelbock
 #SBATCH --array=0-13
 
 project=naturalsound-iEEG-sanitized-mixtures

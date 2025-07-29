@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-peas-0892
+#FLUX --job-name=carnivorous-lamp-3404
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/carstenbauer/JuliaHLRS23/exercises/Day4/1_saxpy_gpu/hawk_job.qbs

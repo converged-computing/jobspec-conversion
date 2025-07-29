@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=120000
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=bmm
 
 . ~/miniconda3/etc/profile.d/conda.sh
 conda activate grist3

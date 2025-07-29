@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=medium
 #SBATCH --constraint=ntasks-per-node=1
 
 module load python-data

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-chip-2319
+#FLUX --job-name=eccentric-kitty-3480
 #FLUX --queue=dgxa100-mig
 #FLUX --urgency=16
 

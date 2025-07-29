@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=mpi4py
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=debug
 #FLUX -t=60
 #FLUX --urgency=16

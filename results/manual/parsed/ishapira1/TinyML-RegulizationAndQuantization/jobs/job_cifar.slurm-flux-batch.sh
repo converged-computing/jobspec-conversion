@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-pastry-1704
+#FLUX --job-name=placid-butter-6124
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

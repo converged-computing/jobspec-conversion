@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-general-3710
+#FLUX --job-name=ornery-signal-9798
 #FLUX -c=48
 #FLUX --queue=general
 #FLUX -t=14400

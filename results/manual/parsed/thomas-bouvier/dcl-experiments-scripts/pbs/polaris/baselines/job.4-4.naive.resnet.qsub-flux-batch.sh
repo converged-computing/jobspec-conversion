@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-chip-2230
+#FLUX --job-name=peachy-parsnip-1377
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/thomas-bouvier/dcl-experiments-scripts/pbs/polaris/baselines/job.4-4.naive.resnet.qsub

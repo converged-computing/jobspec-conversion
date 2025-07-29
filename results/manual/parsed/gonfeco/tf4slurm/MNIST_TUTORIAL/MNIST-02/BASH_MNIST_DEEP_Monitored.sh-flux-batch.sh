@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-cattywampus-4689
+#FLUX --job-name=stinky-soup-3402
 #FLUX --queue=thinnodes
 #FLUX -t=600
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-house-5894
+#FLUX --job-name=bumfuzzled-lettuce-9367
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tlkh/mini-dlperf/old/pbs_scripts/nscc/gpu_burn_8.pbs

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-buttface-6860
+#FLUX --job-name=phat-frito-5740
 #FLUX --queue=gpu
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --gpus-per-task=8
 #SBATCH --mem=24gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=hpg-ai
 #SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='WARN #change to INFO if debugging DDP'

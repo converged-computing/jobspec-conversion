@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=00:59:00
-#SBATCH --partition=all
 #SBATCH --exclude=redshirt-n[12-49]
 
 module load matlab/R2018a

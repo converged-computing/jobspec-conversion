@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=7
 #SBATCH --mem=60G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=standard
 #SBATCH --array=1-16
 
 pwd

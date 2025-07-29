@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-lamp-5520
+#FLUX --job-name=grated-knife-0406
 #FLUX -c=32
 #FLUX --queue=<partition
 #FLUX -t=432000

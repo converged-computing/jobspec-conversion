@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
 #SBATCH --time=00:12:00
-#SBATCH --partition=debug
 #SBATCH --constraint=ntasks-per-node=1
 
 source /gpfsnyu/home/jz2915/config.sh

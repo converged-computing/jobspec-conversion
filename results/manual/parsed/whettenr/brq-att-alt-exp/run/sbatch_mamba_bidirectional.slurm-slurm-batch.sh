@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --gres=gpu:8
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu_p2
 #SBATCH --array=0-6%1
 
 export TORCH_NCCL_BLOCKING_WAIT='1'

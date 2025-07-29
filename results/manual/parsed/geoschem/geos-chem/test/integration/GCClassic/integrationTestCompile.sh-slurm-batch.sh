@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=8000
 #SBATCH --time=00:00:30
-#SBATCH --partition=REQUESTED_PARTITION
 
 quick="${1}"
 itRoot=$(cd ..; pwd)

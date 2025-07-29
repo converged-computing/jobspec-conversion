@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-fork-9297
+#FLUX --job-name=eccentric-signal-6112
 #FLUX --queue=general-compute
 #FLUX -t=43200
 #FLUX --urgency=16

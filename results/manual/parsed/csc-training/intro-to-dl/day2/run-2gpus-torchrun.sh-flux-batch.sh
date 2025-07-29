@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-citrus-5268
+#FLUX --job-name=astute-snack-3317
 #FLUX -c=14
 #FLUX --gpus-per-task=2
 #FLUX --queue=small-g

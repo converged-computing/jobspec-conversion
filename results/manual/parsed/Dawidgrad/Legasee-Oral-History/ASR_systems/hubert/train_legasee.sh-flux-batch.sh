@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-knife-6836
+#FLUX --job-name=ornery-gato-9947
 #FLUX --queue=dcs-gpu
 #FLUX -t=38400
 #FLUX --urgency=16

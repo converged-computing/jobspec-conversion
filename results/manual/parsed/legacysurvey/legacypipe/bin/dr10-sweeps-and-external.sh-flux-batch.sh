@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-hope-1530
+#FLUX --job-name=loopy-diablo-0961
 #FLUX --queue=regular
 #FLUX -t=14400
 #FLUX --urgency=16

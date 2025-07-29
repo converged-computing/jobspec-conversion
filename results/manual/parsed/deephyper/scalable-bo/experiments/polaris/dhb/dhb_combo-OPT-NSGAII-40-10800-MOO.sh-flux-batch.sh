@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-lentil-3821
+#FLUX --job-name=bloated-kerfuffle-5900
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/deephyper/scalable-bo/experiments/polaris/dhb/dhb_combo-OPT-NSGAII-40-10800-MOO.sh

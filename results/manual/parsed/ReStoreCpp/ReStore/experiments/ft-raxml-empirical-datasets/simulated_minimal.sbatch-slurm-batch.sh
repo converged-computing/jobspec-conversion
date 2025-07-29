@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=600000mb
 #SBATCH --time=00:15:00
-#SBATCH --partition=test
 #SBATCH --constraint=ntasks-per-node=48
 #SBATCH --chdir=simulated_minimal
 

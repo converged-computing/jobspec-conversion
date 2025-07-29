@@ -6,7 +6,6 @@
 #SBATCH --ntasks=21
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=serc
 
 export MPI_C_LIBRARIES='/share/software/user/open/openmpi/4.0.3/lib/libmpi.so'
 export MPI_INCLUDE_PATH='/share/software/user/open/openmpi/4.0.3/include'

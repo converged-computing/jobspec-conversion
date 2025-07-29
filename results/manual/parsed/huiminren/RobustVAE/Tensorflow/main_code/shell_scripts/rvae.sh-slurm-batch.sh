@@ -5,7 +5,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64G
-#SBATCH --partition=short
 
 sacct --format="CPUTime,MaxRSS"
 python ../RobustVariationalAutoencoder.py

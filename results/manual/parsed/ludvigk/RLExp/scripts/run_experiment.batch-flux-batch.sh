@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=NDQN
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=GPUQ
 #FLUX -t=259200
 #FLUX --urgency=16

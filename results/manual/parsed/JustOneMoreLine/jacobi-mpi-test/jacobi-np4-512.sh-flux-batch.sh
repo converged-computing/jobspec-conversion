@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-egg-7767
+#FLUX --job-name=chocolate-truffle-2547
 #FLUX --queue=batch
 #FLUX --urgency=16
 

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=200G
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu-8
 
 cd ../src

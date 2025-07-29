@@ -4,10 +4,9 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=dcu:4
-#SBATCH --partition=normal
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export OMP_NUM_THREADS='32'
 

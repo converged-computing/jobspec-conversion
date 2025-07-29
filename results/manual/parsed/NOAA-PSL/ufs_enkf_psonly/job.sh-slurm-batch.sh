@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=hercules
 #SBATCH --constraint=ntasks-per-node=80
 
 export NODES='$SLURM_NNODES'

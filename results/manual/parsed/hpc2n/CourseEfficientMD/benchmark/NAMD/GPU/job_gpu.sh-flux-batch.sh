@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=namd
 #FLUX -n=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=480
 #FLUX --urgency=16
 

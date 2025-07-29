@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=128
 #SBATCH --time=01:20:00
-#SBATCH --partition=standard
 #SBATCH --qos=standard
 
 export OMP_NUM_THREADS='128'

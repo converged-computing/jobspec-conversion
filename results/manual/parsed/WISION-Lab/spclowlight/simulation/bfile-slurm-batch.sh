@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=research
 
 module load anaconda/mini/4.9.2
 module load nvidia/cuda/11.3.1

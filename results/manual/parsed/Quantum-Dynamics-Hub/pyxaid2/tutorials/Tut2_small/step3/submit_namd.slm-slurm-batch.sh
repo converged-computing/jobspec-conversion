@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5000
 #SBATCH --time=00:10:00
-#SBATCH --partition=valhalla
 #SBATCH --constraint=ntasks-per-node=1
 
 echo "SLURM_JOBID="$SLURM_JOBID

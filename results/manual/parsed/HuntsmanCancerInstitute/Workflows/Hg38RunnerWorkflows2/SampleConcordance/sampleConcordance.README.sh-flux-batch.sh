@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-puppy-2874
+#FLUX --job-name=eccentric-fork-0100
 #FLUX --queue=hci-rw
 #FLUX -t=172800
 #FLUX --urgency=16

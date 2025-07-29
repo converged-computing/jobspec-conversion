@@ -7,8 +7,7 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpuA100x4
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=scratch,ntasks-per-node=4
 
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-cat-9130
+#FLUX --job-name=creamy-earthworm-5379
 #FLUX -c=128
 #FLUX --gpus-per-task=1
 #FLUX --queue=regular

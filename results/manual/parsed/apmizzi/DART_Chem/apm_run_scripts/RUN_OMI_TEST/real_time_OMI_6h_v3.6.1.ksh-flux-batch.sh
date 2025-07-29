@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-ricecake-0473
+#FLUX --job-name=crusty-hobbit-6617
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/apmizzi/DART_Chem/apm_run_scripts/RUN_OMI_TEST/real_time_OMI_6h_v3.6.1.ksh

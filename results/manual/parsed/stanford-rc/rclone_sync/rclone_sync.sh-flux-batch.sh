@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-latke-1029
+#FLUX --job-name=doopy-butter-1516
 #FLUX --queue=owners
 #FLUX -t=7200
 #FLUX --urgency=16

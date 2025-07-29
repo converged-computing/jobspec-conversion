@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000
-#SBATCH --partition=jic-short,RG-Cristobal-Uauy
 #SBATCH --array=0-255
 
 CHR_NAME="2B"

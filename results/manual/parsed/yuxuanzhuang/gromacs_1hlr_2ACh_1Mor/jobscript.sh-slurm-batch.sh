@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=lindahl1,lindahl2,lindahl3
 #SBATCH --constraint=gpu
 
 module unload gromacs

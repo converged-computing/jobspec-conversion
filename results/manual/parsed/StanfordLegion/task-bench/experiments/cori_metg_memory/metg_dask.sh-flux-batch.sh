@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=red-fork-5091
-#FLUX: --exclusive
+#FLUX --job-name=nerdy-plant-7942
+#FLUX --exclusive
 #FLUX -t=21600
 #FLUX --urgency=16
 

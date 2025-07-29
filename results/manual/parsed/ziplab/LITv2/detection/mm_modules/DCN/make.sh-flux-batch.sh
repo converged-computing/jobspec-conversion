@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-bicycle-0161
+#FLUX --job-name=confused-muffin-0920
 #FLUX -c=8
 #FLUX --queue=m3g
 #FLUX -t=3600

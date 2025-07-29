@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-muffin-4011
+#FLUX --job-name=conspicuous-animal-2966
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/thepranab/DFT-MASTANI-School-IISER-Pune-2014/Day05-tutorial-dftpu_handson/FePO4/FePO4_Ucalc_gga.sh

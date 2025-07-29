@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1500000
 #SBATCH --time=16:00:00
-#SBATCH --partition=bigmem
 #SBATCH --qos=bigmem
 
 module load matlab

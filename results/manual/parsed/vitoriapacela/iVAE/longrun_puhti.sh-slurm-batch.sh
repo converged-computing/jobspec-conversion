@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=longrun
 
 module purge
 module load pytorch/1.4

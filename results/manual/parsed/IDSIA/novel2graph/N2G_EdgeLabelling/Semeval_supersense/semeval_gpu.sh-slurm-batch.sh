@@ -6,6 +6,5 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12020
 #SBATCH --time=04:00:00
-#SBATCH --partition=debug-gpu
 
 python Supersense_semeval.py

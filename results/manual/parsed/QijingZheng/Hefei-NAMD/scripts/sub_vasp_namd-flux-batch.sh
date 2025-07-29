@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-plant-6279
+#FLUX --job-name=buttery-diablo-8637
 #FLUX --queue=h3c
 #FLUX -t=43200
 #FLUX --urgency=16

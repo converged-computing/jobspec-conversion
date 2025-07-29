@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
-#SBATCH --partition=high
 #SBATCH --array=0-6
 #SBATCH --exclude=node0[19-21,25]
 

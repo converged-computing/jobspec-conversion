@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-parrot-2577
+#FLUX --job-name=arid-onion-0043
 #FLUX --queue=mhealth,...
 #FLUX -t=86400
 #FLUX --urgency=16

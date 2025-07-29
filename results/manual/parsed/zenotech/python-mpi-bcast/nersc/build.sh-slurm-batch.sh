@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=debug
 
 trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT
 source ../activate.sh 

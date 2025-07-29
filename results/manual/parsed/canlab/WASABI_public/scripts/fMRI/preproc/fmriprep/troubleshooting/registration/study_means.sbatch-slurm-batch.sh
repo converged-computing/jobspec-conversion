@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=100gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=standard
 #SBATCH --array=0-780
 
 export MATLAB_NUM_THREADS='1'

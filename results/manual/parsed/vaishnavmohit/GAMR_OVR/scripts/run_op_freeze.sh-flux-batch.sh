@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-bits-6296
+#FLUX --job-name=goodbye-underoos-9700
 #FLUX -n=3
 #FLUX --queue=gpu
 #FLUX -t=288000

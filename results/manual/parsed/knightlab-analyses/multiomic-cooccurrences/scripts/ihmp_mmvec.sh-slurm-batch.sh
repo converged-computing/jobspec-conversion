@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:01
 #SBATCH --mem-per-cpu=4000
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=gpu
 
 echo $PWD
 source ~/.bashrc

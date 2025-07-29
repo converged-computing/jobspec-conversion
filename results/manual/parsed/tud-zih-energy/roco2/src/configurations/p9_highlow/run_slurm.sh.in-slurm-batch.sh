@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=176
 #SBATCH --gres=gpu:0
 #SBATCH --time=01:59:59
-#SBATCH --partition=ml
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export GOMP_CPU_AFFINITY='0-175'
 export SCOREP_ENABLE_TRACING='1'

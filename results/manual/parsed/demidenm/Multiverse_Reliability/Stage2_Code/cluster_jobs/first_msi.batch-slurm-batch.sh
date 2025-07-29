@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=6G
 #SBATCH --time=04:00:00
-#SBATCH --partition=msismall,agsmall
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=0-137
 

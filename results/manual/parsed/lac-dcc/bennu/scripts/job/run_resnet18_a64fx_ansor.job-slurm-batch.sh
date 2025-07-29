@@ -7,7 +7,6 @@
 #SBATCH --ntasks=48
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=long
 
 export TVM_HOME='/lustre/projects/ML-group/gverma/tvm'
 export PYTHONPATH='/lustre/projects/ML-group/gverma/tvm/python'

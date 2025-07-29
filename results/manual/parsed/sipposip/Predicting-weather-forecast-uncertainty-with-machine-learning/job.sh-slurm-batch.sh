@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:2
 #SBATCH --time=03:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export KERAS_BACKEND='tensorflow'
 

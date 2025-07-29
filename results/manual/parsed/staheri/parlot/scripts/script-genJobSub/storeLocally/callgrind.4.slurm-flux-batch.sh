@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-despacito-3314
+#FLUX --job-name=spicy-punk-1548
 #FLUX -N=4
 #FLUX -n=64
 #FLUX --queue=soc-kp

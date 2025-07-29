@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-frito-0804
+#FLUX --job-name=placid-cinnamonbun-3770
 #FLUX -c=4
 #FLUX --queue=normal
 #FLUX -t=300

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=90000
 #SBATCH --time=16:40:00
-#SBATCH --partition=work
 #SBATCH --constraint=ntasks-per-node=12
 
 module load matlab

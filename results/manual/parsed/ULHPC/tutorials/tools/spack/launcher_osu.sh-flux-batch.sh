@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=mpi_job_test
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX --urgency=16
 

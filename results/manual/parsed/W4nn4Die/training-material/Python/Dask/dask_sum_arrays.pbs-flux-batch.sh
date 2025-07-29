@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-chair-0327
+#FLUX --job-name=ornery-parrot-6241
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/W4nn4Die/training-material/Python/Dask/dask_sum_arrays.pbs

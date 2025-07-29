@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=30G
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 source /data/$USER/.envs/pyenv37/bin/activate

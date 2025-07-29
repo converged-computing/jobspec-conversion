@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem-per-cpu=501600mb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=accelerated
 #SBATCH --chdir=/hkfs/work/workspace/scratch/cc7738-benchmark_tag/TAPE_chen/batch
 
 source /hkfs/home/project/hk-project-test-p0021478/cc7738/anaconda3/etc/profile.d/conda.sh

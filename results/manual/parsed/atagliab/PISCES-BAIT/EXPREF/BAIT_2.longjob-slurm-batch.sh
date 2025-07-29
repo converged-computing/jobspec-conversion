@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=9000M
 #SBATCH --time=2-23:59:59
-#SBATCH --partition=nodes
 #SBATCH --chdir=./
 
 export NPROC='80'

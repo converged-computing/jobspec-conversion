@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=48G
 #SBATCH --time=1-08:00:00
-#SBATCH --partition=gpu
 
 module load cuda/11.3.1
 module load cudnn/8.2.0

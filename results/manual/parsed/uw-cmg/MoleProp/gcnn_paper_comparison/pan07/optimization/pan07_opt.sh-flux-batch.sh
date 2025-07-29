@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-toaster-3937
+#FLUX --job-name=fuzzy-arm-4882
 #FLUX --queue=sbel_cmg
 #FLUX -t=259290
 #FLUX --urgency=16

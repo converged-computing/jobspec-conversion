@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100G
 #SBATCH --time=00:15:00
-#SBATCH --partition=ckpt
 #SBATCH --constraint=ntasks-per-node=1
 
 export TZ='America/Los_Angeles'

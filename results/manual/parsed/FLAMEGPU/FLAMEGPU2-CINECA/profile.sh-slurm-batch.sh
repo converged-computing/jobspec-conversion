@@ -8,9 +8,8 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10000MB
 #SBATCH --time=00:45:00
-#SBATCH --partition=m100_usr_prod
 #SBATCH --qos=m100_qos_dbg
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1,ntasks-per-socket=1
 
 rm -rf /tmp/nvidia

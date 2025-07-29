@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-onion-2467
+#FLUX --job-name=persnickety-earthworm-1655
 #FLUX -c=3
 #FLUX --queue=mcovert
 #FLUX -t=84600

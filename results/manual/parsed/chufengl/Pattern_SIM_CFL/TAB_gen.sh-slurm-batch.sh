@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32000
 #SBATCH --time=1-00:12:00
-#SBATCH --partition=serial
 
 module load matlab/2016a
 matlab -nodesktop  -r "addpath('/home/chufengl/test_folder/MOF_pat_sim','-end'); TAB_gen_ni;exit"

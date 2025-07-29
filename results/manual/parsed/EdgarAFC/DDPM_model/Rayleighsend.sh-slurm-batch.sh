@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=thinkstation-p340
 #SBATCH --nodelist=worker7
 
 source /etc/profile.d/modules.sh

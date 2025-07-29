@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-pot-2468
+#FLUX --job-name=hanky-bicycle-4214
 #FLUX -n=16
 #FLUX --queue=batch
 #FLUX -t=36000

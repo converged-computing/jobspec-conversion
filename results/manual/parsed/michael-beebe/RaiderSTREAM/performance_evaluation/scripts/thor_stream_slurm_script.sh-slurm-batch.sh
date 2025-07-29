@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=thor
 #SBATCH --constraint=ntasks-per-node=32
 
 export STREAM_ARRAY_SIZE='22000000'

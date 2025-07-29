@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-bike-6626
+#FLUX --job-name=creamy-platanos-1893
 #FLUX --queue=hci-rw
 #FLUX -t=259200
 #FLUX --urgency=16

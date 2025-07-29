@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-squidward-7543
-#FLUX: --exclusive
+#FLUX --job-name=purple-pot-2352
+#FLUX --exclusive
 #FLUX --urgency=16
 
 readonly datadir="/datasets/imagenet/train-val-tfrecord"

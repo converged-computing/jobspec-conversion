@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=32GB
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpu
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home1/sabdurah/.conda/envs/DT/lib/python3.7/site-packages/tensorrt'
 

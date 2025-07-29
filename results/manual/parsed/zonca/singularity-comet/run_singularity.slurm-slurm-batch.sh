@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=24
 
 export PBS_NODEFILE='`generate_pbs_nodefile`'

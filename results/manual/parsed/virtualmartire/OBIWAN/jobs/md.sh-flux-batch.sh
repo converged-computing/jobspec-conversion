@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-train-3435
+#FLUX --job-name=crunchy-hobbit-4194
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/virtualmartire/OBIWAN/jobs/md.sh

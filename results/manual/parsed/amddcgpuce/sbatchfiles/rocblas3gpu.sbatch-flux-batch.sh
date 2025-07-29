@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-destiny-0863
+#FLUX --job-name=muffled-parsnip-2854
 #FLUX -c=8
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-butter-3335
+#FLUX --job-name=doopy-snack-8038
 #FLUX --queue=dpart
 #FLUX -t=12600
 #FLUX --urgency=16

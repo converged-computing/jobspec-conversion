@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-train-6747
+#FLUX --job-name=confused-general-8263
 #FLUX -N=4
 #FLUX -c=9
 #FLUX --urgency=16

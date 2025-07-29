@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-rabbit-1266
+#FLUX --job-name=creamy-sundae-4284
 #FLUX --urgency=16
 
 source /usr/local/gromacs/bin/GMXRC

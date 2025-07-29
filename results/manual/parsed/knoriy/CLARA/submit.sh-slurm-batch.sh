@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
-#SBATCH --partition=g40x
 #SBATCH --constraint=ntasks-per-node=8
 
 module load openmpi

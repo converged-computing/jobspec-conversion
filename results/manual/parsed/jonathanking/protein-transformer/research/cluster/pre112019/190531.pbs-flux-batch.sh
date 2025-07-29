@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-latke-2012
+#FLUX --job-name=gassy-lettuce-4566
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jonathanking/protein-transformer/research/cluster/pre112019/190531.pbs

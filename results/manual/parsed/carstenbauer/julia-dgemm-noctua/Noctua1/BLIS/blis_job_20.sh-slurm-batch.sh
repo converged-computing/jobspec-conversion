@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export JULIA_NUM_THREADS='$NTHREADS'
 export BLIS_NUM_THREADS='$NTHREADS'

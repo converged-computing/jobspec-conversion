@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=cpu
 
 export WANDB_API_KEY='########'
 

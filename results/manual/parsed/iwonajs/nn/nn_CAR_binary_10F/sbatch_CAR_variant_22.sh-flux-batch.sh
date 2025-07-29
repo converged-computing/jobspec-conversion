@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-itch-2485
+#FLUX --job-name=carnivorous-nalgas-4287
 #FLUX -c=4
 #FLUX -t=10800
 #FLUX --urgency=16

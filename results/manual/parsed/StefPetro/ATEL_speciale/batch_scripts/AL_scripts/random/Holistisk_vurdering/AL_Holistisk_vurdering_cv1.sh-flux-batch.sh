@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-bicycle-1084
+#FLUX --job-name=faux-fork-3671
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/StefPetro/ATEL_speciale/batch_scripts/AL_scripts/random/Holistisk_vurdering/AL_Holistisk_vurdering_cv1.sh

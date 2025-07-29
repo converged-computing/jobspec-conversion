@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-blackbean-9384
+#FLUX --job-name=chunky-caramel-7167
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/FMInference/DejaVu/Decentralized_FM_alpha/coordinator/lsf/lsf_scripts/lsf_batch_gptj.bsub

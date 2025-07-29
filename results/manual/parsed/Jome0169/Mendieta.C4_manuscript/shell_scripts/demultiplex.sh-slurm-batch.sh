@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=400gb
 #SBATCH --time=01:00:00
-#SBATCH --partition=highmem_p
 
 cd $SLURM_SUBMIT_DIR
 source /apps/lmod/lmod/init/zsh

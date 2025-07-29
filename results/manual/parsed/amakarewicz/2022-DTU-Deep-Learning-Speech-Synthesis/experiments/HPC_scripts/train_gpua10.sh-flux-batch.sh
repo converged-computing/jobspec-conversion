@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-cattywampus-0680
+#FLUX --job-name=placid-buttface-7051
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/amakarewicz/2022-DTU-Deep-Learning-Speech-Synthesis/experiments/HPC_scripts/train_gpua10.sh

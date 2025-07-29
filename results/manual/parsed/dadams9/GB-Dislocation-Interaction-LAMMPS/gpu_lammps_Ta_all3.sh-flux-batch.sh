@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-kitty-6398
+#FLUX --job-name=dinosaur-destiny-4218
 #FLUX -n=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=172800
 #FLUX --urgency=16
 

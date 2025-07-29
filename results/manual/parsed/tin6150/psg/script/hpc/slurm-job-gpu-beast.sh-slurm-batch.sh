@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:TITAN:1
 #SBATCH --time=01:19:59
-#SBATCH --partition=savio3_gpu
 #SBATCH --qos=savio_normal
 
 export ImgDir='/clusterfs/vector/home/groups/software/sl-7.x86_64/modules/beast/2.6.4/'

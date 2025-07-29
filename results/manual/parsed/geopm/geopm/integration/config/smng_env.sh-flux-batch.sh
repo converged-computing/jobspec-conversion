@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-house-6307
+#FLUX --job-name=peachy-platanos-2353
 #FLUX --urgency=16
 
 export CC='icc'

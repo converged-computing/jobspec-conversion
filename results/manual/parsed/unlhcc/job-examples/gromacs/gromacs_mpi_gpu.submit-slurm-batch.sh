@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=4096
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
 
 module purge
 module load compiler/gcc/10 openmpi/4.1 gromacs-gpu/2023

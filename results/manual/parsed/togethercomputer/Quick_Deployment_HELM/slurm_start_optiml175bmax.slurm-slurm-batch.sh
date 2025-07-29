@@ -9,7 +9,6 @@
 #SBATCH --gres=a100:8
 #SBATCH --mem=12G
 #SBATCH --time=01:00:00
-#SBATCH --partition=sphinx
 #SBATCH --exclude=sphinx[1-3]
 
 cd /nlp/scr2/nlp/fmStore/fm/dev/Quick_Deployment_HELM

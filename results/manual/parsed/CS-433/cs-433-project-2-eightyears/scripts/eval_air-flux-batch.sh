@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-pedo-5996
+#FLUX --job-name=tart-fork-4267
 #FLUX --queue=gpu
 #FLUX -t=3600
 #FLUX --urgency=16

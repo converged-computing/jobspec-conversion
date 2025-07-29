@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=würstchen
 #FLUX -N=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=a100-cu117
 #FLUX --urgency=16
 

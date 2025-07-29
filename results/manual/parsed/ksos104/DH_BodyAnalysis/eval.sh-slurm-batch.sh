@@ -5,6 +5,5 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu
-#SBATCH --partition=part1
 
 CUDA_VISIBLE_DEVICES=1 python evaluate.py --save_path result_imgs_pas100

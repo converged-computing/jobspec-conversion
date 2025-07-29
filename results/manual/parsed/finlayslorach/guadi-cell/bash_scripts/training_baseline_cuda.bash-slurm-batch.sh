@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a6000:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=stv-gpu
 
 module purge 
 module load anaconda3

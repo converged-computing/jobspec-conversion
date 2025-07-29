@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-ricecake-7673
+#FLUX --job-name=astute-pancake-6518
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/egor-dolzhenko/ehdn-paper-analysis/STR_Simulation/Create_STR_Simulations_Complex.sh

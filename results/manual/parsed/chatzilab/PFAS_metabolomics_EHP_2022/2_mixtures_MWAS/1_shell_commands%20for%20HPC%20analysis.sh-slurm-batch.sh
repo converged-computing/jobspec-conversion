@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=conti
 
 export PKG_CONFIG_PATH='/packages/jags/4.3.0/lib/pkgconfig'
 

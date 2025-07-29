@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=long
 
 module load gcc
 module load python3

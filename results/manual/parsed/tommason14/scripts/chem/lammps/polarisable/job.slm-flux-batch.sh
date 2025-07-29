@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-milkshake-5918
+#FLUX --job-name=goodbye-leg-7966
 #FLUX -n=36
 #FLUX --queue=comp
 #FLUX -t=259200

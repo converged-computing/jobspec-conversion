@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-general-2038
+#FLUX --job-name=anxious-motorcycle-5552
 #FLUX -c=3
 #FLUX --queue=gpu_shared_course
 #FLUX -t=36000

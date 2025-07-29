@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-arm-8604
+#FLUX --job-name=gassy-citrus-1469
 #FLUX --queue=serial_requeue
 #FLUX -t=900
 #FLUX --urgency=16

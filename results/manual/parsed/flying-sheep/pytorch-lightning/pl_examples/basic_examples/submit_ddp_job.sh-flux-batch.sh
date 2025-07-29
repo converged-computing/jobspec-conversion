@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-mango-8013
+#FLUX --job-name=salted-mango-0390
 #FLUX -N=2
 #FLUX -t=7200
 #FLUX --urgency=16

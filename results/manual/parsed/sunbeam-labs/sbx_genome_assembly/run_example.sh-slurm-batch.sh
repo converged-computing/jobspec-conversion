@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=10-00:00:00
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export SUNBEAM_DIR='/home/tuv/sunbeam/sunbeam-stable'
 export TMPDIR='/prj/dir/tmp'

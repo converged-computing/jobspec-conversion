@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=a100
 #SBATCH --qos=short
 #SBATCH --constraint=amd,ntasks-per-node=1
 

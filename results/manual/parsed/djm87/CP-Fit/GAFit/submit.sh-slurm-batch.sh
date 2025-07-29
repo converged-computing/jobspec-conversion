@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=300G
 #SBATCH --time=60-00:00:00
-#SBATCH --partition=thrust2
 
 module load MATLAB
 ./runHeadless.sh MatlabRun

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=tart-snack-4037
-#FLUX: --exclusive
+#FLUX --job-name=red-plant-8758
+#FLUX --exclusive
 #FLUX --queue=haswell
 #FLUX -t=1800
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=pbatch
 
 export PETSC_DIR='/usr/workspace/ajbecerr/petsc" #UPDATE to the real path of petsc'
 export PETSC_ARCH='arch-ablate-opt'

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=2000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=depablo-gpu
 #SBATCH --constraint=ntasks-per-node=5
 
 envName=python3.9_pytorch2.0

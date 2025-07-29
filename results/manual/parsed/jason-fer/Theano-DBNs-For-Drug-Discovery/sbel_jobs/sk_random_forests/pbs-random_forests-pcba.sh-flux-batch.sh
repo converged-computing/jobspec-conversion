@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-despacito-9568
+#FLUX --job-name=purple-kitty-8227
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jason-fer/Theano-DBNs-For-Drug-Discovery/sbel_jobs/sk_random_forests/pbs-random_forests-pcba.sh

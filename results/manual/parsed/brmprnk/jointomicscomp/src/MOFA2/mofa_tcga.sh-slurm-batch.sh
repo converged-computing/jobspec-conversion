@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000
 #SBATCH --time=22:00:00
-#SBATCH --partition=general
 #SBATCH --qos=medium
 
 DIR='/tudelft.net/staff-bulk/ewi/insy/DBL/smakrod/lb/tcga-download/data/datasets/ge-me-cn-2022-04-16/R';

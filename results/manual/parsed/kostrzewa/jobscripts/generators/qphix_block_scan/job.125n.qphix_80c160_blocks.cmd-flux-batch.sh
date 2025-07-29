@@ -2,7 +2,7 @@
 #FLUX --job-name=qphix_block_benchmark
 #FLUX -N=125
 #FLUX -c=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=skl_usr_prod
 #FLUX -t=43200
 #FLUX --urgency=16

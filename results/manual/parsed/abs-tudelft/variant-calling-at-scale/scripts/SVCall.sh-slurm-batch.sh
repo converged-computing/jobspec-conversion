@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=02:10:00
-#SBATCH --partition=gpu
 
 export SPARK_HOME='/home/tahmad/tahmad/spark-3.0.0-bin-hadoop2.7'
 export MASTER='$MASTER'

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=llama-3-8b
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=a3
 #FLUX --urgency=16
 

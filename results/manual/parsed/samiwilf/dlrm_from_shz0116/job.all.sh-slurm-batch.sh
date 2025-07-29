@@ -8,7 +8,7 @@
 #SBATCH --gres=gpu:volta:8
 #SBATCH --mem-per-cpu=60GB
 #SBATCH --time=00:40:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=volta32gb
 
 echo $SLURM_NODELIST

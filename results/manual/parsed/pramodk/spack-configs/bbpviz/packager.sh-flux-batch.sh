@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=build
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=interactive
 #FLUX -t=7200
 #FLUX --urgency=16

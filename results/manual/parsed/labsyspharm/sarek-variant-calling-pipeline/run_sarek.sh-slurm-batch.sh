@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=00:24:00
-#SBATCH --partition=medium
 
 set -eu
 module load java/jdk-11.0.11

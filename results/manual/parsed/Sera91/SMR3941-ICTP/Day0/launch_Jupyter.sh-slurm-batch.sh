@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=10000
 #SBATCH --time=01:15:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --constraint=ntasks-per-node=2
 
 cd $SCRATCH/SMR3941-ICTP/

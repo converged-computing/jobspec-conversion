@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=msismall
 
 cd ~/2023-DynPTOModelDesignStudies
 module load matlab

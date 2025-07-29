@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10gb
 #SBATCH --time=00:30:00
-#SBATCH --partition=amdsmall,small
 
 cd run_files.DEAPderiv
 module load singularity

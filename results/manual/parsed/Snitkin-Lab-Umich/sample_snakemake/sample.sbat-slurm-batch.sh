@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1g
 #SBATCH --time=10:00:00
-#SBATCH --partition=standard
 
 cd $SLURM_SUBMIT_DIR
 echo $SLURM_SUBMIT_DIR

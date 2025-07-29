@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-banana-6533
+#FLUX --job-name=muffled-eagle-9480
 #FLUX -n=4
 #FLUX --queue=isi
 #FLUX -t=360000

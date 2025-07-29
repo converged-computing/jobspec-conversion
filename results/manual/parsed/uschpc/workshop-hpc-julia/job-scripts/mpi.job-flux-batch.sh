@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-milkshake-7282
+#FLUX --job-name=goodbye-bike-3954
 #FLUX -N=2
 #FLUX --queue=epyc-64
 #FLUX -t=3600

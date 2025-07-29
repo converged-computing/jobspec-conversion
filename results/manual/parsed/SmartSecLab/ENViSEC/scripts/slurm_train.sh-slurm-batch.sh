@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=dgx2q
 
 ulimit -s 10240
 echo "Job started at:" `date +"%Y-%m-%d %H:%M:%S"`

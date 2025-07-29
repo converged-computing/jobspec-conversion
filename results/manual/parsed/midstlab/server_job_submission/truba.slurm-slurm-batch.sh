@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=15-00:00:00
-#SBATCH --partition=barbun-cuda
 
 	#for all queues
 	#for cuda queue

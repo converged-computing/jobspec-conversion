@@ -2,7 +2,7 @@
 #FLUX --job-name=laghos
 #FLUX -N=2
 #FLUX -n=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=5
 #FLUX --urgency=16
 

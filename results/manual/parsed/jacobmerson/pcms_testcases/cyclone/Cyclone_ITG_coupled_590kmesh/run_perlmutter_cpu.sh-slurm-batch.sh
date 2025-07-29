@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=cpu
 
 export FI_CXI_RX_MATCH_MODE='hybrid  # prevents crash for large number of MPI processes, e.g. > 4096'

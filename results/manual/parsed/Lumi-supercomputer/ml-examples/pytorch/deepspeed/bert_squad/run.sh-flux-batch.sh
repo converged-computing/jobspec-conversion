@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=pt-cnn
 #FLUX -n=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard-g
 #FLUX -t=600
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-avocado-3724
+#FLUX --job-name=milky-taco-5618
 #FLUX --queue=boost_usr_prod
 #FLUX -t=3600
 #FLUX --urgency=16

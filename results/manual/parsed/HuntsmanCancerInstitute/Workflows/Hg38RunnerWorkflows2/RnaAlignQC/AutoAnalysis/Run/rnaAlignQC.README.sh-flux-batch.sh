@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-toaster-4140
+#FLUX --job-name=dirty-taco-6372
 #FLUX --queue=hci-rw
 #FLUX -t=345600
 #FLUX --urgency=16

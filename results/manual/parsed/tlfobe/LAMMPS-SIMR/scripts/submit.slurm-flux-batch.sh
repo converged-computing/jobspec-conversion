@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-frito-1937
+#FLUX --job-name=lovely-onion-3597
 #FLUX --queue=RM-shared
 #FLUX -t=129600
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=10:00:00
-#SBATCH --partition=ifi_accel
 
 source ${HOME}/.bashrc
 set -o errexit

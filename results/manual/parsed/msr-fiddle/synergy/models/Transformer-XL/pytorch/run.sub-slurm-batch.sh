@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=04:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export DGXNSOCKET='2'
 export DGXSOCKETCORES='24'

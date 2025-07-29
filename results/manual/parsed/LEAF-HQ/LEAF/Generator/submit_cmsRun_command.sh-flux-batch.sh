@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-gato-1268
+#FLUX --job-name=dinosaur-dog-2172
 #FLUX --urgency=16
 
 export PYTHONPATH='$PYTHONPATH:$CODEFOLDER'

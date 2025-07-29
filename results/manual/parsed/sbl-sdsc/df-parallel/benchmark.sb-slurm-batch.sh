@@ -9,7 +9,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=92G
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu-shared
 #SBATCH --constraint=ntasks-per-node=16
 
 export LOCAL_SCRATCH_DIR='/scratch/${USER}/job_${SLURM_JOB_ID}'

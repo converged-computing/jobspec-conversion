@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=20G
-#SBATCH --partition=gpu
 
 lspci -vvv |& grep "NVIDIA" |& tee slurm-lspci.out
 make A100 && \

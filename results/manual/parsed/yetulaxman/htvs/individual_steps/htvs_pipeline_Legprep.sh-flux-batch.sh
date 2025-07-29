@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-platanos-1750
+#FLUX --job-name=tart-blackbean-9137
 #FLUX -n=10
 #FLUX --queue=small
 #FLUX -t=4210

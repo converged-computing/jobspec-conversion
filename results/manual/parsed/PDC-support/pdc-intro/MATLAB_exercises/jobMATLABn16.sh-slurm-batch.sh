@@ -5,7 +5,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=shared
 
 ml PDC/22.06
 ml matlab/r2023a

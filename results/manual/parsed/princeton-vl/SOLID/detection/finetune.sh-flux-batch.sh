@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-poodle-5971
+#FLUX --job-name=reclusive-staircase-4131
 #FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${PWD}'

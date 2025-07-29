@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=00:20:00
-#SBATCH --partition=testing
 
 export ENV='/home/s2042096/data1/.conda/envs/thesis'
 export CWD='$(pwd)'

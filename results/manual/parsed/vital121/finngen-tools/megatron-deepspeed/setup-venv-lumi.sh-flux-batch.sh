@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-animal-5035
+#FLUX --job-name=butterscotch-milkshake-8099
 #FLUX -c=20
 #FLUX --queue=eap
 #FLUX -t=3600

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=16g
 #SBATCH --time=4-04:40:39
-#SBATCH --partition=high
 #SBATCH --exclude=node[001-018],node[031-032]
 
 export LD_LIBRARY_PATH='/gpfs/home/mli/.conda/envs/banmo-cu113/lib/:$LD_LIBRARY_PATH'

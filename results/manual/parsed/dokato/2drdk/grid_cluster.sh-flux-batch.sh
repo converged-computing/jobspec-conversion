@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-nalgas-6861
+#FLUX --job-name=creamy-sundae-6769
 #FLUX --queue=cubric-default
 #FLUX --urgency=16
 

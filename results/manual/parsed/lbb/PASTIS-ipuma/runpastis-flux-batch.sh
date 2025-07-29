@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-latke-9867
+#FLUX --job-name=bloated-arm-8812
 #FLUX -n=81
 #FLUX --queue=ipuq
 #FLUX -t=86460

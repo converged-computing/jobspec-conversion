@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=0
 #SBATCH --time=12:00:00
-#SBATCH --partition=standard
 
 module load cray-python/3.9.12.1
 module load parallel

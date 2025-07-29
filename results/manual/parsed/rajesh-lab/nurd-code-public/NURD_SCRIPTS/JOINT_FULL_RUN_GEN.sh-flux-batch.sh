@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-diablo-0854
+#FLUX --job-name=reclusive-earthworm-2197
 #FLUX --urgency=16
 
 MODIFIER="$1"

@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=3
-#SBATCH --partition=cscsci
 #SBATCH --constraint=gpu,ntasks-per-node=4
 
 export CRAY_CUDA_MPS='1 # enable the CUDA proxy for MPI+CUDA'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-hobbit-0697
+#FLUX --job-name=gassy-kerfuffle-8856
 #FLUX -c=9
 #FLUX --queue=klab-gpu
 #FLUX --urgency=16

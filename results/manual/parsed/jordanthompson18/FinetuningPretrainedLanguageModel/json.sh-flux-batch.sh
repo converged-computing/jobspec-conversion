@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-punk-0751
+#FLUX --job-name=hairy-bike-1383
 #FLUX --queue=soc-gpu-np
 #FLUX -t=28800
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=zhuang
 
 export PATH='/n/home13/pzheng/anaconda3/bin:$PATH'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-peanut-2863
+#FLUX --job-name=conspicuous-pancake-0952
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

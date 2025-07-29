@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-cattywampus-0408
+#FLUX --job-name=quirky-peanut-8748
 #FLUX --urgency=16
 
 argparse(){

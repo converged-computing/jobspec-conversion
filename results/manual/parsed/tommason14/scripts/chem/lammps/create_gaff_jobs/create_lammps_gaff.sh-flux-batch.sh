@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-cherry-5566
+#FLUX --job-name=goodbye-egg-6810
 #FLUX -n=16
 #FLUX --queue=comp,short
 #FLUX -t=10800

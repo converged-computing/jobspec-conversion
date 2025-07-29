@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-cinnamonbun-7557
+#FLUX --job-name=moolicious-leader-4784
 #FLUX -n=4
 #FLUX --queue=hpc
 #FLUX -t=259200

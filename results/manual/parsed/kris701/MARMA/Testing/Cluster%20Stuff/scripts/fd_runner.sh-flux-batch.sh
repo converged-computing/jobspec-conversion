@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-onion-0630
+#FLUX --job-name=expensive-staircase-4749
 #FLUX --queue=naples
 #FLUX -t=1800
 #FLUX --urgency=16

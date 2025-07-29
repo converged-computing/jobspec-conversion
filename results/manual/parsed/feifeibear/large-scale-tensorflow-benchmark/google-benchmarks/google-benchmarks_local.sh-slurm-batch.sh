@@ -5,9 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:12:00
-#SBATCH --partition=debug
 #SBATCH --constraint=knl,quad,cache
-#SBATCH --licenses=SCRATCH
 
 export OMP_NUM_THREADS='66'
 

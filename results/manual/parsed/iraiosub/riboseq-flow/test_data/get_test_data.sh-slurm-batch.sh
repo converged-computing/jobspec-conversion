@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=02:00:00
-#SBATCH --partition=cpu
 
 export NXF_SINGULARITY_CACHEDIR='/nemo/lab/ulej/home/shared/singularity'
 export NXF_HOME='/nemo/lab/ulej/home/users/luscomben/users/iosubi/.nextflow'

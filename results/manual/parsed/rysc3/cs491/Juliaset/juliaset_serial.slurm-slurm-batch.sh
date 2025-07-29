@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:05:00
-#SBATCH --partition=general
 #SBATCH --array=1-7
 
 export OMP_NUM_THREADS='1'

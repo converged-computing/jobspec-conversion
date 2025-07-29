@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-pancake-0146
+#FLUX --job-name=delicious-truffle-0432
 #FLUX --queue=RM
 #FLUX -t=36000
 #FLUX --urgency=16

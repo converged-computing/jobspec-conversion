@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-signal-2331
+#FLUX --job-name=stanky-mango-6962
 #FLUX --urgency=16
 
 function help_info() {

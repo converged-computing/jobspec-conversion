@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-chip-6776
+#FLUX --job-name=arid-cinnamonbun-6601
 #FLUX -n=4
 #FLUX --queue=alvis
 #FLUX -t=18000

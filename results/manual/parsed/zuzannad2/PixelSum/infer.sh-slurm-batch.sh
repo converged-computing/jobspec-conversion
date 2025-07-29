@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=70000M
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 
 export ENCODER='Team-PIXEL/pixel-base'
 export DECODER='gpt2'

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=512M
 #SBATCH --time=01:00:00
-#SBATCH --partition=workq
 
 export EXPERIMENT_NAME='$SLURM_JOB_NAME'
 export TOTAL_NC='$SLURM_JOB_NUM_NODES'

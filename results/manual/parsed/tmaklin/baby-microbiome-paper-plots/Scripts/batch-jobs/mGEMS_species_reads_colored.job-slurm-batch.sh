@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4096
 #SBATCH --time=07:59:59
-#SBATCH --partition=short
 #SBATCH --array=11-1679
 
 export LC_ALL='C'

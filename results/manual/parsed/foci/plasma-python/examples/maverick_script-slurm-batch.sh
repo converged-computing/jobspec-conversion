@@ -9,7 +9,6 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=gpu
 
 module load gcc/4.9.3
 module load python3/3.5.2

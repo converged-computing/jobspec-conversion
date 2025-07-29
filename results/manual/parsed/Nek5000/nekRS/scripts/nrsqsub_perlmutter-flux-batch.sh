@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-animal-7384
+#FLUX --job-name=peachy-kerfuffle-3709
 #FLUX --urgency=16
 
 : ${PROJ_ID:=""}

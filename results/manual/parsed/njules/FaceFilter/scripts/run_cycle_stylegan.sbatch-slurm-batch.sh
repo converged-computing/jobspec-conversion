@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32G
 #SBATCH --time=12:00:00
-#SBATCH --partition=cuda
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/home/mla_group_13/FaceFilter/ae-stylegan
 

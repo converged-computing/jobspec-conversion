@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-car-2133
+#FLUX --job-name=moolicious-parsnip-0263
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/benkirk/bugreports/gust/openmpi/cuda_aware/run_casper.sh

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=haswell
 
 export OMP_NUM_THREADS='32'

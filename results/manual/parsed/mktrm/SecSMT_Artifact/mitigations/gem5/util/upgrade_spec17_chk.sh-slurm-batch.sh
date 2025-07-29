@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=main
 #SBATCH --nodelist=cortado01
 
 home_root="/u/mtaram"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-hippo-9533
+#FLUX --job-name=expressive-taco-4858
 #FLUX --queue=hpc
 #FLUX -t=600
 #FLUX --urgency=16

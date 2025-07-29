@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=100G
 #SBATCH --time=06:00:00
-#SBATCH --partition=dav
 #SBATCH --constraint=ntasks-per-node=16
 
 usage () {

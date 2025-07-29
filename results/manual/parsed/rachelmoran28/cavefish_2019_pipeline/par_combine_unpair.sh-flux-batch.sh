@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-parsnip-6283
+#FLUX --job-name=crunchy-avocado-9489
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rachelmoran28/cavefish_2019_pipeline/par_combine_unpair.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-pot-3384
+#FLUX --job-name=evasive-latke-5363
 #FLUX -N=16
 #FLUX -n=40
 #FLUX --queue=general

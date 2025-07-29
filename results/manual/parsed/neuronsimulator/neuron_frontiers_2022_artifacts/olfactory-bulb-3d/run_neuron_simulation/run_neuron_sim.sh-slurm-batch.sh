@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=0
 #SBATCH --time=08:00:00
-#SBATCH --partition=prod
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=cpu&clx
 
 spack_prefix=/gpfs/bbp.cscs.ch/project/proj16/NEURONFrontiers2021/hippocampus

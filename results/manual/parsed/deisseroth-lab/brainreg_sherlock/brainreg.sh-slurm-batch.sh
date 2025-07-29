@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=8GB
 #SBATCH --time=08:00:00
-#SBATCH --partition=owners
 
 ml python/3.9 gcc
 source ${GROUP_HOME}/projects/registration/brainreg/venv/bin/activate

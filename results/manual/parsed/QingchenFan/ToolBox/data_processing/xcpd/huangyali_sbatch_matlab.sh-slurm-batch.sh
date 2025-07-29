@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20000
-#SBATCH --partition=lab_fat_c
 
 module purge
 module load MATLAB/R2018b

@@ -7,6 +7,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=21-18:00:00
-#SBATCH --partition=main
 
 srun bash child.sh

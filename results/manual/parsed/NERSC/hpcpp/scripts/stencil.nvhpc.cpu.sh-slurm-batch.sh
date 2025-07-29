@@ -8,7 +8,7 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --time=1-00:00:00
 #SBATCH --qos=regular
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=cpu,ntasks-per-node=1
 
 set +x

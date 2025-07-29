@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=15G
 #SBATCH --time=16:00:00
-#SBATCH --partition=panda
 
 source ~/.bashrc
 snakemake --cores 1

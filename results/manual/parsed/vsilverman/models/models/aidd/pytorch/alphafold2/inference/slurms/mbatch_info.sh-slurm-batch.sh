@@ -5,8 +5,7 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=64c512g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo "----"
 echo jobid=$SLURM_JOB_ID # job index

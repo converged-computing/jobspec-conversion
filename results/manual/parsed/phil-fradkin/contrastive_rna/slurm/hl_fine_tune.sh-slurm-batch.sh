@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
-#SBATCH --partition=t4v2,rtx6000,a40
 #SBATCH --qos=normal
 #SBATCH --array=0,2,4
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=Reanalysis
 #FLUX -n=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=intel
 #FLUX -t=72000
 #FLUX --urgency=16

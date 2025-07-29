@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:rtx3090:1
 #SBATCH --mem=80G
 #SBATCH --time=18:00:00
-#SBATCH --partition=gpu-invest
 #SBATCH --qos=job_gpu_sznitman
 #SBATCH --array=1-1%5
 

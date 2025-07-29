@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-pedo-4769
+#FLUX --job-name=buttery-animal-1844
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rbogle/magpie/submission-scripts/script-lsf-mpirun/magpie.lsf-mpirun-spark

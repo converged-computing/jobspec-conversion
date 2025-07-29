@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-bike-4601
+#FLUX --job-name=boopy-train-8528
 #FLUX -c=2
 #FLUX --queue=general
 #FLUX -t=21600

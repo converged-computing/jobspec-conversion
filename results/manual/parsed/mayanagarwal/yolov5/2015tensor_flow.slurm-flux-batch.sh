@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-bits-9350
+#FLUX --job-name=joyous-dog-3879
 #FLUX --queue=shortgpgpu
 #FLUX -t=300
 #FLUX --urgency=16

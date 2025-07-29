@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-pancake-2088
+#FLUX --job-name=stinky-citrus-1457
 #FLUX -c=48
 #FLUX --queue=develbooster
 #FLUX -t=1200

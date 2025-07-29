@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=rfm_Cp2k_H2O_256_4_job
 #FLUX -n=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpc
 #FLUX --urgency=16
 

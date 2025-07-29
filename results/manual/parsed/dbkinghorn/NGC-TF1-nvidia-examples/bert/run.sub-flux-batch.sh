@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=loopy-poo-2477
-#FLUX: --exclusive
+#FLUX --job-name=astute-bits-6158
+#FLUX --exclusive
 #FLUX --urgency=16
 
 set -eux

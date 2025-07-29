@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=a100:1
 #SBATCH --time=10:00:00
-#SBATCH --partition=True
 #SBATCH --qos=eee4773
 
 echo 'Creating New Project'

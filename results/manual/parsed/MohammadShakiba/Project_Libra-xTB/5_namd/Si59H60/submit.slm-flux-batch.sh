@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-platanos-3221
+#FLUX --job-name=grated-muffin-0020
 #FLUX --queue=valhalla
 #FLUX -t=36000
 #FLUX --urgency=16

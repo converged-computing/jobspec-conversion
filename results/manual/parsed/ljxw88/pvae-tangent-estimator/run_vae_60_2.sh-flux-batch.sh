@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-parsnip-2092
+#FLUX --job-name=hello-leopard-5845
 #FLUX -t=43200
 #FLUX --urgency=16
 

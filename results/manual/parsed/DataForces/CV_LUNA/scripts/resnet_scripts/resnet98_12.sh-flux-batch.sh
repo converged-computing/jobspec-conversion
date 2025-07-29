@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-sundae-1020
+#FLUX --job-name=butterscotch-mango-7004
 #FLUX -c=12
 #FLUX --queue=gpu
 #FLUX -t=172800

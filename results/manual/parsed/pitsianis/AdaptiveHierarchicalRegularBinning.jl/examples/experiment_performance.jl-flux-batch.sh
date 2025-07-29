@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-pedo-4362
+#FLUX --job-name=fat-animal-7362
 #FLUX --queue=compsci
 #FLUX --urgency=16
 

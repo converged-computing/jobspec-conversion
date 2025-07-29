@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-gato-3101
-#FLUX: --exclusive
+#FLUX --job-name=ornery-itch-8373
+#FLUX --exclusive
 #FLUX --queue=sched_mit_rgmark
 #FLUX -t=345600
 #FLUX --urgency=16

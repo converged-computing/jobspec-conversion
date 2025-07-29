@@ -6,7 +6,7 @@
 #SBATCH --gres=gpu:v100l:4
 #SBATCH --mem=96G
 #SBATCH --time=00:24:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=32
 
 export NCCL_BLOCKING_WAIT='1 # Set this environment variable if you wish to use the NCCL backend for inter-GPU communication.'

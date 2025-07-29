@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=02:00:00
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 unset SLURM_EXPORT_ENV
 module load python/3.9.7

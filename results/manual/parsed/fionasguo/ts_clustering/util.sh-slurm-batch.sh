@@ -6,7 +6,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=0
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=long
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/nas/home/siyiguo/anaconda3/lib'
 

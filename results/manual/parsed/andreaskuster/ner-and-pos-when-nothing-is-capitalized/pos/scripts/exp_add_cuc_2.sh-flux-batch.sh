@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-cinnamonbun-9780
+#FLUX --job-name=joyous-peas-3882
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

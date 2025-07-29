@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=megatron_llama_13b
 #FLUX -N=512
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 DIR=`pwd`

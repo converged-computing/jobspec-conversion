@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --mem=20G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=day
 
 module purge
 module load MATLAB/2023a

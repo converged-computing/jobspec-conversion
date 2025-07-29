@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000MB
 #SBATCH --time=00:50:00
-#SBATCH --partition=skylake
 #SBATCH --chdir=/rds/project/ol235/rds-ol235-leyser-hpc/projects/2020_Tavares_NitrateSelection/supplementary_data/
 #SBATCH --array=1-100
 

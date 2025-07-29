@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-earthworm-7291
+#FLUX --job-name=misunderstood-noodle-8814
 #FLUX --queue=fge
 #FLUX -t=900
 #FLUX --urgency=16

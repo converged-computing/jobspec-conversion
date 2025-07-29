@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=100G
 #SBATCH --time=3-00:00:05
-#SBATCH --partition=medium
 
                                            # You can change the filenames given with -o and -e to any filenames you'd like
 basedir=/n/scratch/users/b/bek321/phageIP/

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --gres=gpu:8
 #SBATCH --time=00:10:00
-#SBATCH --partition=batch
 #SBATCH --constraint=ntasks-per-node=8
 
 export ROCM_HOME='/opt/rocm-5.6.0'

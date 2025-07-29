@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=rand-quant-nofetch
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=57600
 #FLUX --urgency=16
 

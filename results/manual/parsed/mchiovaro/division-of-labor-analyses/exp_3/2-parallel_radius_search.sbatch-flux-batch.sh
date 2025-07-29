@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=slurm_exp_3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=general
 #FLUX -t=43200
 #FLUX --urgency=16

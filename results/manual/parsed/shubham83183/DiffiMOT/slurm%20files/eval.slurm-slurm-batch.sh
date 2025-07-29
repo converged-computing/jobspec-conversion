@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=04:00:59
-#SBATCH --partition=gpu
 
 module load GpuModules
 module load cuda10.2/toolkit/10.2.89

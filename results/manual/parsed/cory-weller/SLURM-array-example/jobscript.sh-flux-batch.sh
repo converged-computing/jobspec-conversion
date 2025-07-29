@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-knife-6389
+#FLUX --job-name=red-signal-4781
 #FLUX --queue=norm
 #FLUX -t=7200
 #FLUX --urgency=16

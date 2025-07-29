@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-punk-8876
+#FLUX --job-name=chocolate-earthworm-4671
 #FLUX --queue=msismall
 #FLUX -t=28800
 #FLUX --urgency=16

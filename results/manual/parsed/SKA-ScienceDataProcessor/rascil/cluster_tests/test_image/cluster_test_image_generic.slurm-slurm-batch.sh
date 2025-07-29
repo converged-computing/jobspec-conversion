@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=110000
 #SBATCH --time=01:00:00
-#SBATCH --partition=hpc
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export RASCIL='$rascildir '
 export PYTHONPATH='${rascildir}:$PYTHONPATH'

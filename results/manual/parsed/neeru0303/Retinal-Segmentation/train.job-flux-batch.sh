@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-snack-5423
+#FLUX --job-name=salted-house-4556
 #FLUX --queue=GPU-shared
 #FLUX -t=131400
 #FLUX --urgency=16

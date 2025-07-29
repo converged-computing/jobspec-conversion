@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=cpu
 #SBATCH --array=1-3072
 
 config=./fileOutputs/gridsearch.txt

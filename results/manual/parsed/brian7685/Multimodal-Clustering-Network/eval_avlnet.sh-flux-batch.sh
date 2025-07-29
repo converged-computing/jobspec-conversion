@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ht
 #FLUX -c=74
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=7200
 #FLUX --urgency=16
 

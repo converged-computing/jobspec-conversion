@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-salad-1128
+#FLUX --job-name=misunderstood-peanut-3325
 #FLUX -c=48
 #FLUX --queue=production-cluster
 #FLUX --urgency=16

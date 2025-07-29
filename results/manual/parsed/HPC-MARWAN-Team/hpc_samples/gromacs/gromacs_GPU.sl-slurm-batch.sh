@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu-testq
 #SBATCH --qos=gpu
 #SBATCH --constraint=ntasks-per-node=1
 

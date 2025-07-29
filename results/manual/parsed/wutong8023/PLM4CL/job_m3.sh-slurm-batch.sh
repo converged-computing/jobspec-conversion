@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64000
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=m3t
 
 module load anaconda/5.0.1-Python3.6-gcc5
 source activate /home/twu/da33/tong/envs/pseudoCL/

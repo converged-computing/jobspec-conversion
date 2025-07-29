@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=32g
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=unlimited
 
 set -eu
 function usage() { cat << EOF

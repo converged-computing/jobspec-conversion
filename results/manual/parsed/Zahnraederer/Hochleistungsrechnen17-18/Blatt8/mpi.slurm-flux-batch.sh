@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-lamp-3147
+#FLUX --job-name=fuzzy-parrot-1698
 #FLUX -N=3
 #FLUX -n=3
 #FLUX --queue=west

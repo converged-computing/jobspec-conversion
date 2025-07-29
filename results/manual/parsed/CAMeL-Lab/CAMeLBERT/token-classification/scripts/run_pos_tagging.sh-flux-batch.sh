@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-animal-3795
+#FLUX --job-name=tart-buttface-4742
 #FLUX --queue=condo
 #FLUX -t=41400
 #FLUX --urgency=16

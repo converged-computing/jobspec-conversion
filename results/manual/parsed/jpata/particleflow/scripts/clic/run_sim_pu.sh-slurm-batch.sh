@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6G
-#SBATCH --partition=main
 #SBATCH --exclude=comp-d-[001-004]
 
 set -e

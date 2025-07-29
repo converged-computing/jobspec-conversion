@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-buttface-6511
+#FLUX --job-name=chocolate-pedo-3652
 #FLUX -c=4
 #FLUX --queue=batch
 #FLUX -t=86400

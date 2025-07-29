@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-caramel-2184
+#FLUX --job-name=carnivorous-peanut-6517
 #FLUX --queue=gputest
 #FLUX -t=900
 #FLUX --urgency=16

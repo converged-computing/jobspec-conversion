@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-poo-6830
+#FLUX --job-name=placid-salad-6202
 #FLUX -N=8
 #FLUX -n=128
 #FLUX -t=86400

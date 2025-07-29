@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=cidsegpu1_contrib_res
 
 module purge;
 module load anaconda3/5.3.0;

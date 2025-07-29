@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-pastry-7632
+#FLUX --job-name=blue-banana-3545
 #FLUX --queue=hci-rw
 #FLUX -t=172800
 #FLUX --urgency=16

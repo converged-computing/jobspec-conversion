@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-lemon-4917
+#FLUX --job-name=rainbow-muffin-0985
 #FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:"${HOMEgfs}/ush/python/libs/pytspack/'

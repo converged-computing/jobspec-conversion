@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=185GB
 #SBATCH --time=6-23:00:00
-#SBATCH --partition=amarsden
 #SBATCH --constraint=ntasks-per-node=24
 #SBATCH --exclude=sh03-16n02
 

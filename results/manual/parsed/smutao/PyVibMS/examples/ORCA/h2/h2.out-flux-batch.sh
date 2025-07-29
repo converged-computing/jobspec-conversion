@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=example
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard-mem-s,standard-mem-m,standard-mem-l,medium-mem-1-s,medium-mem-1-m,medium-mem-1-l,high-mem-1,gpgpu-1,high-mem-2
 #FLUX --urgency=16
 

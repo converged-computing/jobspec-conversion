@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=100GB
-#SBATCH --partition=epyc
 #SBATCH --constraint=ntasks-per-node=1
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'

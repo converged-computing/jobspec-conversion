@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:GTX2080TI:2
 #SBATCH --time=06:00:00
-#SBATCH --partition=savio3_gpu
 #SBATCH --array=0
 
 export SINGULARITY_CACHEDIR='$BASE_DIR/.singularity/cache'

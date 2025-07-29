@@ -6,11 +6,10 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=490G
 #SBATCH --time=02:00:00
-#SBATCH --partition=THIN
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=24
 #SBATCH --chdir=/u/dssc/mdepet00/assignment/exercise2
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export OMP_PLACES='cores'
 export OMP_PROC_BIND='spread'

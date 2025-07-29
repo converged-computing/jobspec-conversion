@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:2080ti:1
 #SBATCH --mem=30G
-#SBATCH --partition=svl
 #SBATCH --qos=normal
 
 set -e -o pipefail

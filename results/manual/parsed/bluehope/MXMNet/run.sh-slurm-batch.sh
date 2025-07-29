@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-23:30:00
-#SBATCH --partition=amd_a100_4
 
 source /home01/$USER/.bashrc
 module purge

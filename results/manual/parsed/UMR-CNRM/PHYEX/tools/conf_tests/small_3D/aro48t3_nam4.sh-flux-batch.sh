@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-puppy-5197
+#FLUX --job-name=fat-signal-1338
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

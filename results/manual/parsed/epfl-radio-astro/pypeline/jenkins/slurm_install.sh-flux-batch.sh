@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-nunchucks-1615
+#FLUX --job-name=outstanding-peanut-4349
 #FLUX -c=20
 #FLUX --queue=build
 #FLUX -t=3600

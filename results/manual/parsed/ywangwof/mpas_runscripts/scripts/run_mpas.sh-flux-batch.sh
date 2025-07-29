@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-kitty-4041
+#FLUX --job-name=quirky-cupcake-5577
 #FLUX --urgency=16
 
 scpdir="$( cd "$( dirname "$0" )" && pwd )"              # dir of script

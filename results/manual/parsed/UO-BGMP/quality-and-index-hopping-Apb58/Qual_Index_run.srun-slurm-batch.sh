@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=28
 
 module load easybuild

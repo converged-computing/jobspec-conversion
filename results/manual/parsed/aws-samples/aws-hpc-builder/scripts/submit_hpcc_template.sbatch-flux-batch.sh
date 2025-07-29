@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-parsnip-9518
+#FLUX --job-name=frigid-cat-8772
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=arm8xlarge
 #FLUX --urgency=16
 

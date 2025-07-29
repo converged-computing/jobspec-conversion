@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-pedo-2820
+#FLUX --job-name=bumfuzzled-avocado-4285
 #FLUX --queue=sbel
 #FLUX -t=86400
 #FLUX --urgency=16

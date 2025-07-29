@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=48G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=main
 
 module load cuda/10.1
 source ../grokking/bin/activate

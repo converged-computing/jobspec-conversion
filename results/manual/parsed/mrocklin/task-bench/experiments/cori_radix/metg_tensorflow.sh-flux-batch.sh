@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=expensive-car-6876
-#FLUX: --exclusive
+#FLUX --job-name=purple-egg-8229
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=40000
 #SBATCH --time=00:02:00
-#SBATCH --partition=priority,uninterrupted,learnfair,scavenge
 
 export TUNER_THREADS='${TUNER_THREADS:=20}'
 export TUNER_DEVICES='${TUNER_DEVICES:="0,1"}'

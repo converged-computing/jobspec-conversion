@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-fudge-5933
+#FLUX --job-name=muffled-nalgas-4750
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-pot-0301
+#FLUX --job-name=gassy-peanut-butter-3051
 #FLUX --queue=Draco
 #FLUX -t=172800
 #FLUX --urgency=16

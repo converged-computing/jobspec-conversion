@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-bits-4748
+#FLUX --job-name=stinky-malarkey-5400
 #FLUX -c=24
 #FLUX --queue=amdgpufast
 #FLUX -t=14400

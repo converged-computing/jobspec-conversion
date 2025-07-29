@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:rtx3090:1
 #SBATCH --mem=64GB
 #SBATCH --time=20-00:00:00
-#SBATCH --partition=gpu-invest
 #SBATCH --qos=job_gpu_stuermer
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=2-4

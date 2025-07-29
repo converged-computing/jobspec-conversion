@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=3-00:15:00
-#SBATCH --partition=intel
 
 date
 module load caffe

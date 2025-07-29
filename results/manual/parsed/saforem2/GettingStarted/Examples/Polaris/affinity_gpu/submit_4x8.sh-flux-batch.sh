@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-lizard-0594
+#FLUX --job-name=chunky-kerfuffle-8896
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/saforem2/GettingStarted/Examples/Polaris/affinity_gpu/submit_4x8.sh

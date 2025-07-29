@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=240gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=v100
 
 module load singularity
 module load python

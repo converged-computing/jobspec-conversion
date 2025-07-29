@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-leg-7922
+#FLUX --job-name=dinosaur-kitty-8819
 #FLUX --queue=gpu
 #FLUX -t=432000
 #FLUX --urgency=16

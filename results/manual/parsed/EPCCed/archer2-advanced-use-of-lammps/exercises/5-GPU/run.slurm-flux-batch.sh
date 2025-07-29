@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=lmp_bench
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=1200
 #FLUX --urgency=16

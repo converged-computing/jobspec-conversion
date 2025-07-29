@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=90G
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4
 
 export SLURM_NTASKS_PER_NODE='4'

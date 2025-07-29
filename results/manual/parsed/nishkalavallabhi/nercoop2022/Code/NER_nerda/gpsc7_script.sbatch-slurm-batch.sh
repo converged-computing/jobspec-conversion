@@ -8,7 +8,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=48G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu_a100
 #SBATCH --qos=low
 
 python sub_script.py

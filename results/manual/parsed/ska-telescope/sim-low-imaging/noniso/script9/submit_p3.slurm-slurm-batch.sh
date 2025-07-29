@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=107000
 #SBATCH --time=23:59:59
-#SBATCH --partition=compute
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 export ARL_DASK_SCHEDULER='${scheduler}:8786'

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=100GB
-#SBATCH --partition=gpu4_medium
 
 module purge
 module load python/gpu/3.6.5

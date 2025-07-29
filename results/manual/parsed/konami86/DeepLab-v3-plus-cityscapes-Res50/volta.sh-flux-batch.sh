@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-pancake-3341
+#FLUX --job-name=sticky-despacito-9135
 #FLUX --queue=batch
 #FLUX -t=84600
 #FLUX --urgency=16

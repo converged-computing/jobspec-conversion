@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-lettuce-1903
+#FLUX --job-name=butterscotch-signal-6742
 #FLUX -t=172800
 #FLUX --urgency=16
 

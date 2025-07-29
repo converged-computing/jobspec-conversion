@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=16GB
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --chdir=/home/users/m/mandadoalmajano/dev
 
 echo $PWD

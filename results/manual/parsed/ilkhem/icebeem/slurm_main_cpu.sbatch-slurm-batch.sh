@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=8G
 #SBATCH --time=00:12:00
-#SBATCH --partition=cpu
 
 export CUDA_DEVICE_ORDER='PCI_BUS_ID'
 export CUDA_VISIBLE_DEVICES='0,1,2'

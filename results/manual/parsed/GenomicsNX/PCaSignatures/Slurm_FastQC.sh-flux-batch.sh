@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-lettuce-9876
+#FLUX --job-name=peachy-cherry-3122
 #FLUX -n=4
 #FLUX --queue=intel
 #FLUX -t=3600

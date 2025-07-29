@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-parrot-0961
+#FLUX --job-name=delicious-underoos-6702
 #FLUX -c=8
 #FLUX --queue=main
 #FLUX -t=3600

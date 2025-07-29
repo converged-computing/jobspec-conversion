@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=96
 #SBATCH --time=01:30:00
-#SBATCH --partition=fast
 
     lscpu
     echo "    "

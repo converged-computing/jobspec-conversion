@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-pastry-9394
+#FLUX --job-name=ornery-nalgas-9853
 #FLUX -c=2
 #FLUX --queue=infofil01
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=20Gb
-#SBATCH --partition=bigmem
 
 module purge
 module load preseq/3.2.0

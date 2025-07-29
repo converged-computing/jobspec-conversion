@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=frigid-muffin-9962
+#FLUX --job-name=astute-ricecake-3819
 #FLUX -N=8
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=thin
 #FLUX -t=3600
 #FLUX --urgency=16

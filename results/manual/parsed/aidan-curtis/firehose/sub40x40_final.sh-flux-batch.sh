@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-lemur-9272
-#FLUX: --exclusive
+#FLUX --job-name=salted-peanut-butter-4671
+#FLUX --exclusive
 #FLUX --urgency=16
 
 i=1

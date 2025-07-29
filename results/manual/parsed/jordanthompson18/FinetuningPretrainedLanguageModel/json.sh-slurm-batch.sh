@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=40GB
 #SBATCH --time=08:00:00
-#SBATCH --partition=soc-gpu-np
 #SBATCH --constraint=ntasks-per-node=32
 
 source ~/miniconda3/etc/profile.d/conda.sh

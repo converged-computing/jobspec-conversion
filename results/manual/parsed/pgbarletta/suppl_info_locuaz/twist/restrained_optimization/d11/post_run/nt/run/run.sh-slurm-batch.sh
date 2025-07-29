@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=m100_usr_prod
 #SBATCH --dependency=9749158
 
 export OMP_NUM_THREADS='8'

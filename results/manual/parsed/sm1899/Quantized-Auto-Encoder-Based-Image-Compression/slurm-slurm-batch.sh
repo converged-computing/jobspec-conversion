@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
-#SBATCH --partition=mtech
 
 module load python/3.10.pytorch
 mpirun python3 /csehome/m23mac008/cvproject/draft.py >> test3.out

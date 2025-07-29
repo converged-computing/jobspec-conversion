@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:gtx1080ti:1
 #SBATCH --mem=32G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=job_gpu
 #SBATCH --array=1-10
 

@@ -8,7 +8,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=32G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=0
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8GB
 #SBATCH --time=05:00:00
-#SBATCH --partition=cbmm
 #SBATCH --chdir=./log/
 #SBATCH --array=0-644
 #SBATCH --exclude=node104

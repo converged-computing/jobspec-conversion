@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=gpu_big
 #SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/trinity/home/r.schutski/asr_speedup/venv/lib:/trinity/home/r.schutski/asr_speedup/venv/lib/python3.7'

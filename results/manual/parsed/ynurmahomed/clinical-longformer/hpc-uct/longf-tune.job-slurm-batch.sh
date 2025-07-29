@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100-3g-20gb:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=a100
 
 export CUDA_VISIBLE_DEVICES='$(ncvd)'
 export TOKENIZERS_PARALLELISM='false'

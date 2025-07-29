@@ -4,7 +4,6 @@
 #SBATCH --ntasks=5
 #SBATCH --cpus-per-task=8
 #SBATCH --mem-per-cpu=15G
-#SBATCH --partition=short
 #SBATCH --constraint=amd
 
 nodes=($( scontrol show hostnames $SLURM_NODELIST ))

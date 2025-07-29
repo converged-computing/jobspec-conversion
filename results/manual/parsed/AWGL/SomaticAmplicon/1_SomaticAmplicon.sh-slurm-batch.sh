@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=32G
 #SBATCH --time=06:00:00
-#SBATCH --partition=high
 
 set -euo pipefail
 version="master"

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=102400
 #SBATCH --time=12:00:00
-#SBATCH --partition=your_partition_name
 #SBATCH --constraint=ntasks-per-node=8
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7'

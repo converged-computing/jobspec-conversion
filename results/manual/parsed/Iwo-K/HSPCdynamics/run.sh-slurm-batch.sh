@@ -6,7 +6,6 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=icelake
 
 container="PATH TO THE CONTAINER"
 container="/home/idk25/ik_rds/containers/rpy_v4/rpy_v4_p3_fix2.sif"

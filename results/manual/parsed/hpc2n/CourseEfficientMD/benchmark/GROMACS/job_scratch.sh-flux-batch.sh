@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=lovable-salad-7118
+#FLUX --job-name=blank-chip-3736
 #FLUX -n=4
 #FLUX -c=7
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

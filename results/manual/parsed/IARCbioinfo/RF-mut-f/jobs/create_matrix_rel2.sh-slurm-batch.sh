@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=2000
-#SBATCH --partition=high_p
 
 ROOT=/data/scratch/digenovaa/Somatic-reference-free/SNV-INDELs/RF-mut-f
 CM=${ROOT}/code/makefiles/create_matrix_training.mk

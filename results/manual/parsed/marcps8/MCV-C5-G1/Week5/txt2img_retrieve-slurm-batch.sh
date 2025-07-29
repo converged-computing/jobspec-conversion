@@ -6,6 +6,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=8000
-#SBATCH --partition=mlow,mlow
 
 python txt2img_retrieve.py

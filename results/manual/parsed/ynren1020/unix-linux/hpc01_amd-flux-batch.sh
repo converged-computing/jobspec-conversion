@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-noodle-1161
+#FLUX --job-name=hello-staircase-7737
 #FLUX -n=8
 #FLUX --queue=amd
 #FLUX -t=1065600

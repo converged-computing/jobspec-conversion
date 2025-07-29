@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:23:59
-#SBATCH --partition=bosch_cpu-cascadelake
 #SBATCH --chdir=/home/ferreira/Projects/learning_environments
 #SBATCH --array=0-7
 #SBATCH --exclude=kisexe18

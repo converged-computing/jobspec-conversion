@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-cinnamonbun-7616
+#FLUX --job-name=creamy-cinnamonbun-1404
 #FLUX --queue=general
 #FLUX -t=907200
 #FLUX --urgency=16

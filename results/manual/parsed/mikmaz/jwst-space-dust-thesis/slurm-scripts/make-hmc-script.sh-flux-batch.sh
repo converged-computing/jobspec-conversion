@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-pastry-4935
+#FLUX --job-name=expressive-buttface-1378
 #FLUX -c=5
 #FLUX --queue=gpu
 #FLUX -t=223200

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:rtxa6000:1
 #SBATCH --mem=32gb
 #SBATCH --time=06:00:00
-#SBATCH --partition=tron
 #SBATCH --qos=high
 #SBATCH --array=9-16
 

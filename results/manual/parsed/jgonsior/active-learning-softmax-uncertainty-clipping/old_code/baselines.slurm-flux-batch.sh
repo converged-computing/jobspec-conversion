@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-mango-6910
+#FLUX --job-name=wobbly-lemon-8000
 #FLUX -c=8
 #FLUX --queue=alpha
 #FLUX -t=86399

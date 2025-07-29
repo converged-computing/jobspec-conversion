@@ -6,8 +6,7 @@
 #SBATCH --ntasks=96
 #SBATCH --cpus-per-task=1
 #SBATCH --time=694-10:39:00
-#SBATCH --partition=high
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --array=0-20%1
 
 export PATH='$GDIR/miniconda3/bin:$PATH'

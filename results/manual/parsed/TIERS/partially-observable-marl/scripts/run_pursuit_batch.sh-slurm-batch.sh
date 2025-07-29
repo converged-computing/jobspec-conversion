@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=48G
 #SBATCH --time=1-16:00:00
-#SBATCH --partition=small-g
 #SBATCH --array=0-2
 
 export PYTHONUSERBASE='/scratch/project/venv_pkgs/mujo_gfoot_env_v2; \'

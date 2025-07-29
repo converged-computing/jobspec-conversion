@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=TAMMBER_vac_test
 #FLUX -N=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=900
 #FLUX --urgency=16
 

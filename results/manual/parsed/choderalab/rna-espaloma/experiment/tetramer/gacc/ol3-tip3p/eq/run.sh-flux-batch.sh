@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-knife-6564
+#FLUX --job-name=hello-hobbit-9420
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/rna-espaloma/experiment/tetramer/gacc/ol3-tip3p/eq/run.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-itch-1855
+#FLUX --job-name=purple-underoos-0767
 #FLUX -c=6
 #FLUX --queue=gpu
 #FLUX -t=540000

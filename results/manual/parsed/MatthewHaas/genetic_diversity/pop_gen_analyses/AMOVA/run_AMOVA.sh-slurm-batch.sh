@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=60g
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=amdsmall
 
 cd /home/jkimball/haasx092/AMOVA
 module load gcc/8.1.0

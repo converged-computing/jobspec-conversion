@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-lamp-2617
+#FLUX --job-name=gassy-animal-4038
 #FLUX --urgency=16
 
 pythonmodule="Python/3.6.4-foss-2016b-fh1"

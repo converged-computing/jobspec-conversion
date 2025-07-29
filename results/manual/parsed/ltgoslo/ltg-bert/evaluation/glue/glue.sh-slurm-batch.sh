@@ -8,7 +8,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=7G
 #SBATCH --time=03:00:00
-#SBATCH --partition=pilot
 
 export PS1='\$'
 export NCCL_SOCKET_IFNAME='hsn'

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
 #SBATCH --time=2-23:59:59
-#SBATCH --partition=hpc4-3d
 #SBATCH --chdir=/s/ls4/users/leokul01/dineof3/script
 
 export OPENBLAS_NUM_THREADS='2'

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=shared
 #SBATCH --constraint=ntasks-per-node=1
 
 protname="1UBQ" 

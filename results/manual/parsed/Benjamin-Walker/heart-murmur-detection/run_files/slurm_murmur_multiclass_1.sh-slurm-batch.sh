@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=180G
 #SBATCH --time=12:00:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=28,gpu_mem:32GB
 
 module load Anaconda3

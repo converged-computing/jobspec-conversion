@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-05:00:00
-#SBATCH --partition=dgx2q
 
 echo "== Starting run at $(date)"
 echo "== Job ID: ${SLURM_JOBID}"

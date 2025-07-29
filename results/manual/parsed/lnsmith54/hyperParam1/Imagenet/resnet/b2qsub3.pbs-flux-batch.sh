@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-citrus-6793
+#FLUX --job-name=buttery-egg-2723
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/lnsmith54/hyperParam1/Imagenet/resnet/b2qsub3.pbs

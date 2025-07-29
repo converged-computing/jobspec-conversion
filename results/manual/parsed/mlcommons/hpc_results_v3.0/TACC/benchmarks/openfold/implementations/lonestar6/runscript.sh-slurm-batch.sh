@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpu-a100
 #SBATCH --constraint=ntasks-per-node=3
 
 export LD_LIBRARY_PATH='/usr/lib64:$LD_LIBRARY_PATH'

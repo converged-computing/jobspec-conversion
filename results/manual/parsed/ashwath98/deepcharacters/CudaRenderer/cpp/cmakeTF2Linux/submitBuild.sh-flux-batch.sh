@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-fork-3808
+#FLUX --job-name=fugly-nalgas-6731
 #FLUX --queue=gpu20
 #FLUX -t=172800
 #FLUX --urgency=16

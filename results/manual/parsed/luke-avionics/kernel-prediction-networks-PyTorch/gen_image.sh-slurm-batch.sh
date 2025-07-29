@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=46
 #SBATCH --gres=gpu:8
 #SBATCH --time=6-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 
 /bin/bash

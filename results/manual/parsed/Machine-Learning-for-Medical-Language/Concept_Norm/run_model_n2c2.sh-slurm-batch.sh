@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:Titan_RTX:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=chip-gpu
 
 pwd; hostname; date
 module load singularity

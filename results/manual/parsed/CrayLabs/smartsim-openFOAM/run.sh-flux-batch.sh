@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=SS-OpenFOAM
 #FLUX -N=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=5400
 #FLUX --urgency=16
 

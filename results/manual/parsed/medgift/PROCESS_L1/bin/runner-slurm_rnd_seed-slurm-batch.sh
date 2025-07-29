@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=plgrid-testing
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=0-9
 

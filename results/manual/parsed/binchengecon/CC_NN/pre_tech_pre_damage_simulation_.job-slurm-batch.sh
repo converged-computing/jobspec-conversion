@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=gpu
 
 module load python/anaconda-2021.05
 echo 

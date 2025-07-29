@@ -2,7 +2,7 @@
 #FLUX --job-name=AMG2013
 #FLUX -n=4
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=commons
 #FLUX -t=1800
 #FLUX --urgency=16

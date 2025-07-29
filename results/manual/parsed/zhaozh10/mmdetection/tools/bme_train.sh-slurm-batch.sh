@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:2
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=bme_gpu
 #SBATCH --constraint=ntasks-per-node=2
 
 set -x

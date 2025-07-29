@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-lemur-3113
+#FLUX --job-name=evasive-pastry-7626
 #FLUX --queue=Draco
 #FLUX -t=3600
 #FLUX --urgency=16

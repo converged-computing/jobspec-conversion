@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-hippo-4837
+#FLUX --job-name=buttery-taco-5212
 #FLUX -c=4
 #FLUX --gpus-per-task=1
 #FLUX -t=86400

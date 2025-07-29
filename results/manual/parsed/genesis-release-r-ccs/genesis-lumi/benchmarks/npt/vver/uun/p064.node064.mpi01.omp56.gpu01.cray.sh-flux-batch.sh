@@ -2,7 +2,7 @@
 #FLUX --job-name=p064_node064
 #FLUX -N=64
 #FLUX -c=56
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard-g
 #FLUX -t=7200
 #FLUX --urgency=16

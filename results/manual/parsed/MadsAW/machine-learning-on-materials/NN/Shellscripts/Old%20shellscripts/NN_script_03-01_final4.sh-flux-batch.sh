@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-destiny-9580
+#FLUX --job-name=lovable-ricecake-7470
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/NN/Shellscripts/Old%20shellscripts/NN_script_03-01_final4.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-motorcycle-4362
+#FLUX --job-name=hairy-chip-9664
 #FLUX --queue=long
 #FLUX -t=86400
 #FLUX --urgency=16

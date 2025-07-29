@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-cherry-3807
+#FLUX --job-name=red-caramel-0766
 #FLUX -N=8
 #FLUX -n=32
 #FLUX -t=57600

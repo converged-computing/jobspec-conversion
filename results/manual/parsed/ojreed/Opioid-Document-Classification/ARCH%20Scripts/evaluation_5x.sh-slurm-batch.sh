@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=8000
 #SBATCH --time=04:00:00
-#SBATCH --partition=a100
 
 export CUDA_VISIBLE_DEVICES='0'
 

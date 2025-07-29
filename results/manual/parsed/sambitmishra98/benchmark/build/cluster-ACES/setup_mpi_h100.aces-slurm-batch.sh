@@ -7,9 +7,8 @@
 #SBATCH --gres=gpu:h100:2
 #SBATCH --mem-per-cpu=80G
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 #SBATCH --nodelist=ac055
 
 /sw/local/bin/query_gpu.sh

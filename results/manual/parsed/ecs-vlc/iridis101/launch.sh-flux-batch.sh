@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-cinnamonbun-6190
+#FLUX --job-name=faux-poo-4362
 #FLUX -c=32
 #FLUX --queue=ecsstudents
 #FLUX -t=240

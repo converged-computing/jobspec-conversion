@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
 #SBATCH --gres=gpu:8
-#SBATCH --partition=MoE
 #SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='1'

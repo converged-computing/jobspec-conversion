@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=batch
 
 . /ccs/home/carns/working/src/spack/share/spack/setup-env.sh
 spack env activate crusher-demo

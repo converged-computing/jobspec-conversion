@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:Tesla_T:3
 #SBATCH --mem-per-cpu=20GB
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=bch-gpu
 
 source /programs/biogrids.shrc
 python.tensorflow main.py

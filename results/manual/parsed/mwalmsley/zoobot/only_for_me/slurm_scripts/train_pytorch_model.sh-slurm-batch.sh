@@ -6,9 +6,9 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=0
 #SBATCH --time=23:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=A100
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 #SBATCH --exclude=compute-0-7,compute-0-5
 
 export WANDB_CACHE_DIR='/share/nas2/walml/WANDB_CACHE_DIR'

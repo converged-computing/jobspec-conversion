@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-leopard-6674
+#FLUX --job-name=bloated-plant-3382
 #FLUX --urgency=16
 
 source /etc/profile

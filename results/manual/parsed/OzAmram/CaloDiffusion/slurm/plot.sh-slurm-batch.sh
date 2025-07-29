@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=MEMORY
-#SBATCH --partition=wc_gpu
 
 export SINGULARITY_CACHEDIR='/work1/cms_mlsim/oamram/'
 export HOME='/work1/cms_mlsim/oamram/CaloDiffusion/ '

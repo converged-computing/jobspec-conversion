@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=23000
-#SBATCH --partition=gpu
 #SBATCH --nodelist=gpu005
 
 export CUDA_VISIBLE_DEVICES='0'

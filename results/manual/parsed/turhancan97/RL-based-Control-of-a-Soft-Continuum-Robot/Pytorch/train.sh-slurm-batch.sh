@@ -6,7 +6,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:01
-#SBATCH --partition=all
 #SBATCH --nodelist=xeon-09
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'

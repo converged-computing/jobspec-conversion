@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-peanut-3033
+#FLUX --job-name=frigid-bike-4553
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cihangenome/Pipeliner/slurm.template

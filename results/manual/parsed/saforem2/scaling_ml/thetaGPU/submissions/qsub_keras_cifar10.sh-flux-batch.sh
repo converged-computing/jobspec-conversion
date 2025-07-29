@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-toaster-3883
+#FLUX --job-name=scruptious-blackbean-5191
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-cherry-4254
+#FLUX --job-name=stinky-pot-1021
 #FLUX --queue=bdwall
 #FLUX -t=900
 #FLUX --urgency=16

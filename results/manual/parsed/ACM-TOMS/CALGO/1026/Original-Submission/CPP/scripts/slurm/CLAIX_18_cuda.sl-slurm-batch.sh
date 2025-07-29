@@ -7,8 +7,7 @@
 #SBATCH --gres=gpu:volta:2
 #SBATCH --mem=50G
 #SBATCH --time=02:00:00
-#SBATCH --partition=c18g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_NUM_THREADS='24'
 export OMP_THREAD_LIMIT='24'

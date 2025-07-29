@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-10:00:00
-#SBATCH --partition=small
 
 set -ex
 NPROC=$(nproc)

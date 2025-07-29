@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=arid-sundae-5656
-#FLUX: --exclusive
+#FLUX --job-name=fat-toaster-9585
+#FLUX --exclusive
 #FLUX --urgency=16
 
 set -eux

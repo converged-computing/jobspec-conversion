@@ -5,9 +5,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=gpu:1
-#SBATCH --partition=learnai4rl
 #SBATCH --constraint=ntasks-per-node=1
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 srun python raven/test.py \
     data.modality=video \

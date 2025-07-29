@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=480G
 #SBATCH --time=01:00:00
-#SBATCH --partition=standard-g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export PYTHONPATH='/workdir/env_dpo/lib/python3.10/site-packages'
 export HF_HOME='/workdir/'

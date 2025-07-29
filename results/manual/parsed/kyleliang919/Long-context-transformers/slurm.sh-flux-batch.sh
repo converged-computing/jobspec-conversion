@@ -2,7 +2,7 @@
 #FLUX --job-name=testlongcontext
 #FLUX -N=2
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=g80n140
 #FLUX --urgency=16
 

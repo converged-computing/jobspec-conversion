@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=25GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=cbmm
 #SBATCH --constraint=any-gpu
 #SBATCH --chdir=./log/
 #SBATCH --array=1-2

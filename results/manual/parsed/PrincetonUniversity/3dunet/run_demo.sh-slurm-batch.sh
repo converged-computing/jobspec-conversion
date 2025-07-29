@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=5000
 #SBATCH --time=00:10:00
-#SBATCH --partition=all
 #SBATCH --constraint=ntasks-per-node=2,ntasks-per-socket=1
 
 module load cudatoolkit/10.0 cudnn/cuda-10.0/7.3.1 anaconda3/5.3.1

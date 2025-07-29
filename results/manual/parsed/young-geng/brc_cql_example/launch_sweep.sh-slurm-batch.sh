@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:TITAN:1
 #SBATCH --mem=24G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=savio3_gpu
 #SBATCH --qos=rail_gpu3_normal
 #SBATCH --array=0-3
 

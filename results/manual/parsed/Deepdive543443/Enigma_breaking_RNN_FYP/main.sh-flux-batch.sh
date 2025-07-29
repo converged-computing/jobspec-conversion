@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-hope-0988
+#FLUX --job-name=hello-pedo-5416
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX --urgency=16

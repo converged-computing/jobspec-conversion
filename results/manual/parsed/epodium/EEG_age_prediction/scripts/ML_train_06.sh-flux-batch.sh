@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-peanut-2312
+#FLUX --job-name=stanky-lentil-6378
 #FLUX --queue=gpu_shared
 #FLUX -t=54000
 #FLUX --urgency=16

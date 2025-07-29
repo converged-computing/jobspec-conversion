@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-general-4114
+#FLUX --job-name=rainbow-kitty-1395
 #FLUX --urgency=16
 
 cellsdir=~/dpm

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=adorable-lemur-2013
+#FLUX --job-name=grated-diablo-6360
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c6i
 #FLUX --urgency=16
 

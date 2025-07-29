@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-despacito-0789
+#FLUX --job-name=angry-gato-5504
 #FLUX --queue=cluster
 #FLUX -t=600
 #FLUX --urgency=16

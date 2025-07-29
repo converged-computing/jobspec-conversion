@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-destiny-6221
+#FLUX --job-name=expressive-caramel-8358
 #FLUX -t=21600
 #FLUX --urgency=16
 

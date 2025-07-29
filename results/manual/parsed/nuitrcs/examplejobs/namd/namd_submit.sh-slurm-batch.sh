@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=00:20:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=14,[quest8|quest9|quest10|quest11]
 
 module purge all

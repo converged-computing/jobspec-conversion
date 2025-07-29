@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=100G
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=alpha
 #SBATCH --constraint=ntasks-per-node=1
 
 while getopts dpl: flag

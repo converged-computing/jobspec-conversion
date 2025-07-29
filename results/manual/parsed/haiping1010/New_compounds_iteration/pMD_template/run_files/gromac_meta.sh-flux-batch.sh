@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-dog-8190
+#FLUX --job-name=bumfuzzled-arm-2205
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/haiping1010/New_compounds_iteration/pMD_template/run_files/gromac_meta.sh

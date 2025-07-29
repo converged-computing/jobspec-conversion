@@ -7,7 +7,6 @@
 #SBATCH --ntasks=7
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu
 #SBATCH --constraint=gtx1080ti|rtx2080
 
 if [ -e $2.out ]; then

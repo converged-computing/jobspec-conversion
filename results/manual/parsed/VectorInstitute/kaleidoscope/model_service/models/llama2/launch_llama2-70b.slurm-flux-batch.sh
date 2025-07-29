@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-poo-4217
+#FLUX --job-name=goodbye-soup-2095
 #FLUX -N=2
 #FLUX -c=16
 #FLUX --queue=a40

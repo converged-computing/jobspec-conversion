@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-gato-8647
+#FLUX --job-name=bloated-toaster-5474
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/chchang6/scripts/MolecularDynamics/NAMD/PBS_scripts/simanneal.pbs

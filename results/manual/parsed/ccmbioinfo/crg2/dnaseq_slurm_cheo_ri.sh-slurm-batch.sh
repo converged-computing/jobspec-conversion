@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=all
 #SBATCH --constraint=ntasks-per-node=1
 
 SF="/srv/shared/pipelines/crg2/Snakefile"

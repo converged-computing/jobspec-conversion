@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=20GB
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=bmm
 
 cd $SLURM_SUBMIT_DIR
 source ~/.bashrc

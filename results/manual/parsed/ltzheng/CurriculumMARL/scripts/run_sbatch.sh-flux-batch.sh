@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-blackbean-0941
+#FLUX --job-name=gassy-pedo-6338
 #FLUX -c=128
 #FLUX --queue=gpu
 #FLUX -t=86400

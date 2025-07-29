@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=16:00:00
-#SBATCH --partition=gpu
 
 module load cuda/9.0
 python test.py

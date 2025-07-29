@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=90GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=prigpu
 #SBATCH --constraint=ntasks-per-node=1
 
 export WANDB_API_KEY='37d31add06ffd6210d871e1462ad8777b14e5999'

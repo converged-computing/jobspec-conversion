@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-peanut-butter-8944
+#FLUX --job-name=stinky-salad-0383
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/quandao10/lfm/run_pbs.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-cupcake-5482
+#FLUX --job-name=scruptious-general-9853
 #FLUX -c=16
 #FLUX --queue=boost_usr_prod
 #FLUX -t=36000

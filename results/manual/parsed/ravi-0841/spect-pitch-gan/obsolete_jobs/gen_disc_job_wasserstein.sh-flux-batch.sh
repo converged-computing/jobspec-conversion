@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-leg-2145
+#FLUX --job-name=creamy-eagle-9223
 #FLUX -c=6
 #FLUX --queue=gpuk80
 #FLUX -t=108000

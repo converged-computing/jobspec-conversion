@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-caramel-3519
+#FLUX --job-name=doopy-onion-2445
 #FLUX --queue=small
 #FLUX -t=4800
 #FLUX --urgency=16

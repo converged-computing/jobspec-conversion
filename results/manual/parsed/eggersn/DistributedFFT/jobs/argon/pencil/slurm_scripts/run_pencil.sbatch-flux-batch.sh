@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=pencil
 #FLUX -n=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=all
 #FLUX -t=86400
 #FLUX --urgency=16

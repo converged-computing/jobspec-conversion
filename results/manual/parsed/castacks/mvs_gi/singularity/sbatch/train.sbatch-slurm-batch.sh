@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --gres=v100-32:8
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=GPU
 #SBATCH --constraint=ntasks-per-node=1
 
 srun 'bash' train.job ${SLURM_ARRAY_TASK_ID}

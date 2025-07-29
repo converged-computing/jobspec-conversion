@@ -7,6 +7,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=08:00:00
-#SBATCH --partition=compute
 
 mpirun -np 1 python -u composite_analysis.py $1 $2 $3

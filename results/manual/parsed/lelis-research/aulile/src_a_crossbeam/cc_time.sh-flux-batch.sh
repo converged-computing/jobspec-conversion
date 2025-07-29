@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-pot-6065
+#FLUX --job-name=bloated-signal-8773
 #FLUX -t=300
 #FLUX --urgency=16
 

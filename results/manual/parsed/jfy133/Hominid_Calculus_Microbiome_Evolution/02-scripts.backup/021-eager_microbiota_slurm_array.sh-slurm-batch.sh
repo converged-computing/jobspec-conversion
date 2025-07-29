@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32000
 #SBATCH --time=00:47:00
-#SBATCH --partition=medium
 #SBATCH --array=0-199%8
 
 FILES=($(find -L 04-analysis/screening/EMN_Neanderthal_phylogeny_check/eager/output -name '*OFN*' -type d))

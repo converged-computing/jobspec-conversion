@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-peas-6967
+#FLUX --job-name=fat-hobbit-6970
 #FLUX --queue=cpu2019
 #FLUX -t=172800
 #FLUX --urgency=16

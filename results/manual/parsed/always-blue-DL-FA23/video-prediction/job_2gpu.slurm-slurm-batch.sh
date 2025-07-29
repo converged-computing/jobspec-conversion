@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:2
 #SBATCH --time=12:00:00
-#SBATCH --partition=n1s16-v100-2
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

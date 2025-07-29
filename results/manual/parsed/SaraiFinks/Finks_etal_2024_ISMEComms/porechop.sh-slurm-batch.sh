@@ -8,7 +8,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-#SBATCH --partition=standard
 #SBATCH --array=1-12
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

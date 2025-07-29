@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
 #SBATCH --time=1-11:00:00
-#SBATCH --partition=GPUQ
 #SBATCH --constraint=ntasks-per-node=1
 
 echo "we are running from this directory: $SLURM_SUBMIT_DIR"

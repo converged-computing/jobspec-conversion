@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=20GB
 #SBATCH --time=00:45:00
-#SBATCH --partition=UV,normal
 
 module load R/3.6.1
 module load netcdf

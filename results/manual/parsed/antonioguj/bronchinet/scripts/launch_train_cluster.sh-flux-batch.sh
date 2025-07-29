@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-cupcake-9549
+#FLUX --job-name=expensive-hobbit-7253
 #FLUX --queue=long
 #FLUX -t=86400
 #FLUX --urgency=16

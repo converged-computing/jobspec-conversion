@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-peanut-butter-4640
+#FLUX --job-name=bricky-pedo-6873
 #FLUX --queue=dineshj-compute
 #FLUX -t=43200
 #FLUX --urgency=16

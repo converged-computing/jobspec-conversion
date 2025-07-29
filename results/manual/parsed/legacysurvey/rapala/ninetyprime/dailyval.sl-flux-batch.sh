@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-house-9686
+#FLUX --job-name=dinosaur-chair-9521
 #FLUX --queue=regular
 #FLUX -t=3600
 #FLUX --urgency=16

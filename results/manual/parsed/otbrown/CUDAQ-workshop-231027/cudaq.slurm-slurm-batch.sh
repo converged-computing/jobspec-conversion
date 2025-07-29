@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:02:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu
 
 source /work/tc053/tc053/shared/CUDAQ-workshop-231027/environment.sh

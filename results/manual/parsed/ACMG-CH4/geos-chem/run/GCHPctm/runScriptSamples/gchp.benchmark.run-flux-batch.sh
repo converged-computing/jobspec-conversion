@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=boopy-underoos-3758
+#FLUX --job-name=reclusive-earthworm-6211
 #FLUX -N=3
 #FLUX -n=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=huce_intel
 #FLUX -t=1440
 #FLUX --urgency=16

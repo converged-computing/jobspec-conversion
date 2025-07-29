@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-motorcycle-6305
+#FLUX --job-name=lovable-chip-1752
 #FLUX -N=2
 #FLUX --queue=short
 #FLUX -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-leopard-0926
+#FLUX --job-name=fugly-general-8093
 #FLUX -n=128
 #FLUX --queue=general
 #FLUX -t=3000

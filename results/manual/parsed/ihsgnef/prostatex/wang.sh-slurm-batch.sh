@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20000
-#SBATCH --partition=general
 #SBATCH --chdir=/net/scratch/hanliu/radiology/prostatex
 
 export FOLD='4'

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=7G
 #SBATCH --time=12:00:00
-#SBATCH --partition=pilot
 #SBATCH --constraint=ntasks-per-node=8
 
 export PS1='\$'

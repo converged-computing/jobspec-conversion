@@ -2,7 +2,7 @@
 #FLUX --job-name=ex50
 #FLUX -N=2
 #FLUX -n=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=2
 #FLUX --urgency=16
 

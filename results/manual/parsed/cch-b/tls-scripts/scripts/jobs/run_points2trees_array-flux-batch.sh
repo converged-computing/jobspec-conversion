@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-spoon-4159
+#FLUX --job-name=red-snack-4992
 #FLUX --queue=high-mem
 #FLUX -t=86400
 #FLUX --urgency=16

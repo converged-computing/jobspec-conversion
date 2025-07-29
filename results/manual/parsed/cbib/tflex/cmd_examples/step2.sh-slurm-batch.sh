@@ -8,7 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=60G
 #SBATCH --time=1-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=12
 #SBATCH --chdir=/mnt/cbib/thesis_gbm/mubriti_202303/scr1/
 

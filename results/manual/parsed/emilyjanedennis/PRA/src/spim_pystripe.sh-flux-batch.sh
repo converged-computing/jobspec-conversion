@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-buttface-7401
+#FLUX --job-name=muffled-chip-3024
 #FLUX -c=12
 #FLUX -t=12000
 #FLUX --urgency=16

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=24G
 #SBATCH --time=06:00:00
-#SBATCH --partition=gengpu
 #SBATCH --constraint=ntasks-per-node=6
 
 source activate /projects/e31408/users/gmg0603/project/env

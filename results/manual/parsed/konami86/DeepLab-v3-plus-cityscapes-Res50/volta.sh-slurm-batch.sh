@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=64GB
 #SBATCH --time=23:30:00
-#SBATCH --partition=batch
 
 source activate /fast/users/a1746546/envs/myenv
 module load GCC/5.4.0-2.26

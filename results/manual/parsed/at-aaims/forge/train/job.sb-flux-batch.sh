@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=gpt
 #FLUX -N=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=1800
 #FLUX --urgency=16
 

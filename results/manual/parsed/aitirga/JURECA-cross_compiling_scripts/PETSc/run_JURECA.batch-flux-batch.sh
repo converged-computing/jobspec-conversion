@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-caramel-7097
+#FLUX --job-name=placid-kerfuffle-4919
 #FLUX -N=20
 #FLUX -n=1360
 #FLUX --queue=booster

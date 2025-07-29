@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:pascal:4
 #SBATCH --mem=62G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=pascal
 #SBATCH --constraint=ntasks-per-node=4
 
 export QUDA_RESOURCE_PATH='/qbigwork2/bartek/misc/quda_resources/pascal_v0.9.0-724-g405d5bf1-dynamic_clover_gdr${gdr}_p2p${p2p}'

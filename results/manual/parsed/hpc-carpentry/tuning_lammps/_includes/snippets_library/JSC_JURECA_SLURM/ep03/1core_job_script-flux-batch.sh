@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-gato-2448
+#FLUX --job-name=evasive-staircase-3707
 #FLUX --queue=devel
 #FLUX -t=600
 #FLUX --urgency=16

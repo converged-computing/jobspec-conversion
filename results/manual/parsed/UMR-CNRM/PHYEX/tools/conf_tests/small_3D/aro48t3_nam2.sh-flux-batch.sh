@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-leopard-7751
+#FLUX --job-name=crusty-taco-8317
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

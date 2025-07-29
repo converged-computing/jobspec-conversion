@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30G
-#SBATCH --partition=gpu
 
 module load CUDA cuDNN anaconda
 conda activate tensorflow-gpu

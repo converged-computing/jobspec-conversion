@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=batch
 
 module load java/18.0.2.1
 module load nextflow/22.10.5

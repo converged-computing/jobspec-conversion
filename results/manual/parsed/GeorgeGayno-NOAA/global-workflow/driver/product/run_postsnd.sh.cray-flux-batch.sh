@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-chip-8338
+#FLUX --job-name=milky-butter-8670
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GeorgeGayno-NOAA/global-workflow/driver/product/run_postsnd.sh.cray

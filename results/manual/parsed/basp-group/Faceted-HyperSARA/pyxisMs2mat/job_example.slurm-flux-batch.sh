@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=joyous-omelette-8192
+#FLUX --job-name=rainbow-platanos-8603
 #FLUX -c=36
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard
 #FLUX -t=3600
 #FLUX --urgency=16

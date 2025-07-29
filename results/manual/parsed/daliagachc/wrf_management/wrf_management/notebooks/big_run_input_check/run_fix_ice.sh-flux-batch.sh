@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-general-8988
+#FLUX --job-name=reclusive-carrot-4540
 #FLUX --queue=test
 #FLUX -t=1200
 #FLUX --urgency=16

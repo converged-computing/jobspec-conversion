@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=shared
 #SBATCH --constraint=ntasks-per-node=4
 
 export PYTHONPATH='/project/jhlsrf003/JHL_installations/Python/lib/python3.8/site-packages:/sw/arch/Debian10/EB_production/2020/software/jupyterhub/1.1.0-foss-2020a-Python-3.8.2/lib/python3.8/site-packages:/sw/arch/Debian10/EB_production/2020/software/IPython/7.13.0-foss-2020a-Python-3.8.2/lib/python3.8/site-packages:/sw/arch/Debian10/EB_production/2020/software/matplotlib/3.2.1-foss-2020a-Python-3.8.2/lib/python3.8/site-packages:/sw/arch/Debian10/EB_production/2020/software/Tkinter/3.8.2-GCCcore-9.3.0/lib/python3.8:/sw/arch/Debian10/EB_production/2020/software/Tkinter/3.8.2-GCCcore-9.3.0/easybuild/python:/sw/arch/Debian10/EB_production/2020/software/SciPy-bundle/2020.03-foss-2020a-Python-3.8.2/lib/python3.8/site-packages:/sw/arch/Debian10/EB_production/2020/software/Python/3.8.2-GCCcore-9.3.0/easybuild/python'

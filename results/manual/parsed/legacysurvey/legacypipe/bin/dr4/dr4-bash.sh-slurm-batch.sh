@@ -8,8 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=debug
-#SBATCH --licenses=SCRATCH
 
 export MKL_NUM_THREADS='1'
 export OMP_NUM_THREADS='$threads'

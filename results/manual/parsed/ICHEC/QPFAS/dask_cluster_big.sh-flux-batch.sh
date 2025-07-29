@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-animal-8623
+#FLUX --job-name=stinky-motorcycle-4577
 #FLUX -N=8
 #FLUX --queue=ProdQ
 #FLUX -t=259200

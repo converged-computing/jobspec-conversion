@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-knife-7360
+#FLUX --job-name=moolicious-lettuce-5970
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/RobertArbon/aadh_msm/7_production/round_3/submit.sh

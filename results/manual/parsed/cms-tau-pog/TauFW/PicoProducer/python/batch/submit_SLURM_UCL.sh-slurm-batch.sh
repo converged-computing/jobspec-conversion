@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000M
 #SBATCH --time=01:20:00
-#SBATCH --partition=cp3
 
 export JOBID='$SLURM_ARRAY_JOB_ID'
 export TASKID='$SLURM_ARRAY_TASK_ID'

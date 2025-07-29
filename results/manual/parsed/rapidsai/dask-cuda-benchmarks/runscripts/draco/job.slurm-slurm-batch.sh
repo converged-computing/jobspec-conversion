@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=02:00:00
-#SBATCH --partition=batch_dgx1_m2
 #SBATCH --constraint=ntasks-per-node=1
 
 export RUNDIR_HOST='$(readlink -f $(pwd))'

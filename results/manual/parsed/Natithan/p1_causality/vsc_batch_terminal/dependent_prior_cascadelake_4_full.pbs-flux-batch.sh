@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-lizard-4798
+#FLUX --job-name=swampy-lizard-8406
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Natithan/p1_causality/vsc_batch_terminal/dependent_prior_cascadelake_4_full.pbs

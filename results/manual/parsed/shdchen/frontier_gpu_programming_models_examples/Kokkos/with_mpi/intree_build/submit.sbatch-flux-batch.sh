@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-truffle-2120
+#FLUX --job-name=adorable-peanut-butter-2018
 #FLUX --queue=batch
 #FLUX -t=300
 #FLUX --urgency=16

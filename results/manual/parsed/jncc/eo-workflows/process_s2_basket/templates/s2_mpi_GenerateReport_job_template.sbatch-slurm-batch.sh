@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=short-serial
 #SBATCH --chdir=$jobWorkingDir
 #SBATCH --dependency=$upstreamJobId
 

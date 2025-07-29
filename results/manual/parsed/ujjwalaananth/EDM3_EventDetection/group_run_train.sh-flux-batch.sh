@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-squidward-3587
+#FLUX --job-name=cowy-carrot-8632
 #FLUX -n=20
 #FLUX --queue=cidsegpu1_contrib_res
 #FLUX -t=86400

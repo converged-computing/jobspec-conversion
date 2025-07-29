@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:nvidia_geforce_gtx_1080_ti:1
 #SBATCH --mem=23000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 . /home/drk/anaconda3/etc/profile.d/conda.sh
 conda activate tf210

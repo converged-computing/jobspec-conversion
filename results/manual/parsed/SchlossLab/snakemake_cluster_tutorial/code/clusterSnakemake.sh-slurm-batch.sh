@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000mb
 #SBATCH --time=00:45:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=1
 
 if [[ $SLURM_JOB_NODELIST ]] ; then

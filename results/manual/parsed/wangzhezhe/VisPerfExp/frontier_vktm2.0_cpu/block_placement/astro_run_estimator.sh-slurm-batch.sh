@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:30:00
-#SBATCH --partition=batch
 
 DATADIR=/lustre/orion/scratch/zw241/csc143/VisPerfData/resample2
 RUNDIR=/lustre/orion/scratch/zw241/csc143/VisPerfExpAssignStrategeis_Astro_${1}

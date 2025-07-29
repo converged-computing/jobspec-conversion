@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-kerfuffle-9584
+#FLUX --job-name=goodbye-arm-0216
 #FLUX -c=32
 #FLUX -t=172800
 #FLUX --urgency=16

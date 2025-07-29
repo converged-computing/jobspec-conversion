@@ -8,7 +8,6 @@
 #SBATCH --ntasks=19
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=russpold,normal
 
 export PYTHONPATH=''
 

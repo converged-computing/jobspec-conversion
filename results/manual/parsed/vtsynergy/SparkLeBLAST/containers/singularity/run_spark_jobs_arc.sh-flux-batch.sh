@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=joyous-citrus-3105
-#FLUX: --exclusive
+#FLUX --job-name=angry-nalgas-7628
+#FLUX --exclusive
 #FLUX --queue=p100_dev_q
 #FLUX -t=3600
 #FLUX --urgency=16

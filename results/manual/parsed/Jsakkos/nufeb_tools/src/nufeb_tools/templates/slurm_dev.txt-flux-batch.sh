@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=${job}
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX -t=36000
 #FLUX --urgency=16

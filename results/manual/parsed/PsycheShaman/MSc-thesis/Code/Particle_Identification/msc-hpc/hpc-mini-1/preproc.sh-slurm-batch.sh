@@ -7,7 +7,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-22:00:00
-#SBATCH --partition=ada
 
 module load python/anaconda-python-3.7
 python -u /home/vljchr004/hpc-mini/preproc.py > out_preproc.txt

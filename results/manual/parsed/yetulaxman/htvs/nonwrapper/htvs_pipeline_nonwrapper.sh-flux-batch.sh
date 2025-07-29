@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-blackbean-1486
+#FLUX --job-name=faux-car-0841
 #FLUX -n=4
 #FLUX --queue=small
 #FLUX -t=4210

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=1G
-#SBATCH --partition=muylarga
 
 DB_FOLDER='ninja-battles'
 ID=$SLURM_JOB_NAME

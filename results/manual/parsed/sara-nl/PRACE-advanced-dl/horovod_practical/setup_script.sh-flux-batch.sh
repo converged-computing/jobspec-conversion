@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-animal-9121
+#FLUX --job-name=quirky-house-6033
 #FLUX -c=32
 #FLUX --queue=broadwell
 #FLUX --urgency=16

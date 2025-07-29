@@ -11,7 +11,6 @@
 #SBATCH --gres=0
 #SBATCH --mem=5G
 #SBATCH --time=00:10:00
-#SBATCH --partition=ckpt
 #SBATCH --constraint=ntasks-per-node=40
 
 module load ompi

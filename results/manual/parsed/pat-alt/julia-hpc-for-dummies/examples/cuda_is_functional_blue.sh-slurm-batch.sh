@@ -7,7 +7,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=00:05:00
-#SBATCH --partition=gpu
 
 module load 2023r1
 source examples/slurm_header.sh

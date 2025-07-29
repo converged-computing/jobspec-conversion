@@ -5,7 +5,6 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=tesla
 
 export CUDA_HOME='$CUDA_INSTALL_PATH'
 export OMP_NUM_THREADS='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-punk-2131
+#FLUX --job-name=phat-peas-9701
 #FLUX --queue=fpgasyn
 #FLUX --urgency=16
 

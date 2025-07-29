@@ -5,7 +5,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=8
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 tar xvf gromacs-v2023.2.tar.gz
 cd gromacs-v2023.2

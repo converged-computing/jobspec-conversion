@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-fork-6084
+#FLUX --job-name=swampy-toaster-4295
 #FLUX -c=10
 #FLUX --queue=nlp
 #FLUX -t=41400

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=skx-normal
 #SBATCH --constraint=ntasks-per-node=2
 
 module load tacc-singularity

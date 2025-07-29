@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-fork-8454
+#FLUX --job-name=hanky-nalgas-0618
 #FLUX -n=20
 #FLUX --queue=vera
 #FLUX -t=432000

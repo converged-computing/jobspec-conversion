@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=quirky-arm-4643
+#FLUX --job-name=eccentric-onion-6160
 #FLUX --urgency=16
 

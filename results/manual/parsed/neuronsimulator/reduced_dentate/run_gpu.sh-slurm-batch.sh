@@ -6,7 +6,7 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=0
 #SBATCH --time=01:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=volta,ntasks-per-node=4
 
 export HOC_LIBRARY_PATH='$BASE_DIR/templates'

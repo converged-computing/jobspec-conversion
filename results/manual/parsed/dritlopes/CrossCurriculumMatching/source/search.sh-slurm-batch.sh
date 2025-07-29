@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=gpu
 
 module load 2020
 module load Anaconda3/2020.02

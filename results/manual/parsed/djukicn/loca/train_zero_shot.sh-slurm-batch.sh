@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=gpu:2
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=2
 
 export MASTER_ADDR='$master_addr'

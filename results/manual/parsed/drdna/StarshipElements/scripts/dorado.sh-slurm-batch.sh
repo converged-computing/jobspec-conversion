@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=28G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=V4V32_SKY32M192_L
 
 pod5s=$1
 container=/share/singularity/images/ccs/conda/lcc-conda-8-rocky8.sinf

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-pancake-3368
+#FLUX --job-name=loopy-malarkey-5936
 #FLUX --queue=shared-gpu
 #FLUX -t=43200
 #FLUX --urgency=16

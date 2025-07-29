@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:01:00
-#SBATCH --partition=shas
 #SBATCH --qos=normal
 
 module purge

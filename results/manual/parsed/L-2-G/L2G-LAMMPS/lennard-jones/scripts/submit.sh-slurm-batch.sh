@@ -6,8 +6,7 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=2
 #SBATCH --time=00:10:00
-#SBATCH --partition=regular
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=gpu
 
 export LAMMPS_DIR='$HOME'

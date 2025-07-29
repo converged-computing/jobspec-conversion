@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-staircase-2798
+#FLUX --job-name=ornery-punk-1591
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/chameleon-hpc/samoa-chameleon/scripts/claix/samoa_chameleon_run_batch_clx16_insp.sh

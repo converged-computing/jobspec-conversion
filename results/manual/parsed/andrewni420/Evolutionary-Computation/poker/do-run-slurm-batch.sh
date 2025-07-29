@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a5000:1
 #SBATCH --mem=3GB
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu-a5000-q
 #SBATCH --constraint=ntasks-per-node=1
 
 export DJL_DEFAULT_ENGINE='MXNet'

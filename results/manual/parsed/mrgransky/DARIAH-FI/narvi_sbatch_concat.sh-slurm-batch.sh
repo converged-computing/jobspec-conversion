@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=264G
 #SBATCH --time=03:59:59
-#SBATCH --partition=amd
 
 user="`whoami`"
 stars=$(printf '%*s' 100 '')

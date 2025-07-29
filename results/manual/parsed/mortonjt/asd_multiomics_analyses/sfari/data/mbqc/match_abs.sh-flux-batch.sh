@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-bits-7961
+#FLUX --job-name=confused-spoon-7861
 #FLUX --queue=ccb
 #FLUX -t=360000
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-hobbit-7282
+#FLUX --job-name=bumfuzzled-peas-9695
 #FLUX -c=20
 #FLUX --queue=xeon-g6-volta
 #FLUX -t=1440

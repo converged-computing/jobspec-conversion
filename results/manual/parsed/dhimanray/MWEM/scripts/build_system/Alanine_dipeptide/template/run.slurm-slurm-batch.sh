@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=8gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=standard
 
 source /data/homezvol2/dray1/Miniconda2/etc/profile.d/conda.sh
 cd equilibration

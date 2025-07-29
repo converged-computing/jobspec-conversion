@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-leader-4026
+#FLUX --job-name=dinosaur-peas-4353
 #FLUX -n=8
 #FLUX --queue=shared
 #FLUX -t=7200

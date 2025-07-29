@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-noodle-7072
+#FLUX --job-name=tart-squidward-5993
 #FLUX -N=4
 #FLUX -n=4
 #FLUX -c=4

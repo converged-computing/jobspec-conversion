@@ -5,7 +5,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2G
-#SBATCH --partition=debug
 
 export PATH='$PATH:/bin'
 export CJST='$(date +%s)'

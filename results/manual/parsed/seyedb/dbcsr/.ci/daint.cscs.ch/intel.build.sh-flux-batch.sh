@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-parsnip-7604
+#FLUX --job-name=faux-cupcake-9145
 #FLUX -c=3
 #FLUX --queue=cscsci
 #FLUX --urgency=16

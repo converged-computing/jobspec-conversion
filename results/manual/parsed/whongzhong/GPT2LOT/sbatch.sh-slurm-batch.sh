@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:tesla_v100s-pcie-32gb:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_VISIBLE_DEVICES='0'

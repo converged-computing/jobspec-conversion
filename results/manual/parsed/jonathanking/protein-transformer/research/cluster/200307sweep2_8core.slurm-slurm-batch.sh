@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=dept_gpu
 #SBATCH --constraint=C6,ntasks-per-node=8
 
 eval "$(conda shell.bash hook)"

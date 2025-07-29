@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-frito-1744
+#FLUX --job-name=gloopy-puppy-4678
 #FLUX -c=128
 #FLUX --queue=smp
 #FLUX -t=43200

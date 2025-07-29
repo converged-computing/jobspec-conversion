@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=debug
 #SBATCH --constraint=ntasks-per-node=36
 
 export KMP_DETERMINISTIC_REDUCTION='true'

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=cpu
 #SBATCH --exclude=hhnode-ib-[201-228]
 
 export data_dir='/scratch/PI/jclmak/data/users/julian/NEMO/UNAGI/nemo4.0.5/EXP_R010/split_200km/alp0060_lam80/tau100x/ANALYSIS/'

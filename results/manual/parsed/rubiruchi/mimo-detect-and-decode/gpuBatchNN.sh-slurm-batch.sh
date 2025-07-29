@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu
 
 echo "Start test"

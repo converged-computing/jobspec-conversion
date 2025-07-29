@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-knife-7630
+#FLUX --job-name=spicy-chip-0275
 #FLUX --urgency=16
 
 module load lammps/2020/intel

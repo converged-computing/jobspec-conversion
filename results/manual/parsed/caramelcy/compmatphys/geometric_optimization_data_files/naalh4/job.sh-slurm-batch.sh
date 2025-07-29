@@ -5,7 +5,6 @@
 #SBATCH --nodes=3
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=debug
 #SBATCH --constraint=ntasks-per-node=48
 
 hostname

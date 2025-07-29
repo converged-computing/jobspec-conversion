@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
 #SBATCH --time=02:00:00
-#SBATCH --partition=EPYC
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --nodelist=epyc[005]
 
 export OMP_NUM_THREADS='64'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-butter-3316
+#FLUX --job-name=frigid-peanut-9197
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/argonne-lcf/alcf-nccl-tests/pytests/run0.sh

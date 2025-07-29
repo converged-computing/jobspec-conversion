@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=amd
 #SBATCH --constraint=ntasks-per-node=1
 
 module load any/jdk/1.8.0_265

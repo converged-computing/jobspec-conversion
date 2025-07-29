@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-gato-6975
+#FLUX --job-name=fat-nalgas-5247
 #FLUX -N=8
 #FLUX --queue=RM
 #FLUX -t=172800

@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:8
 #SBATCH --time=00:10:00
-#SBATCH --partition=xyz-cluster
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 
 export MASTER_ADDR='$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)'

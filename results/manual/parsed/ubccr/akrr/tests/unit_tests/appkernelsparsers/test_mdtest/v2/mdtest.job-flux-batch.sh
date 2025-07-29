@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=hanky-bits-4812
+#FLUX --job-name=scruptious-lamp-9564
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=general-compute
 #FLUX -t=1800
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=8384
 #SBATCH --time=1-00:30:00
-#SBATCH --partition=v100_normal_q
 #SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_PORT='$(comm -23 <(seq 20000 65535) <(ss -tan | awk '{print $4}' | cut -d':' -f2 | grep "[0-9]\{1,5\}" | sort | uniq) | shuf | head -n 1)'

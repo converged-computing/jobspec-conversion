@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-leader-6653
+#FLUX --job-name=faux-toaster-6819
 #FLUX --queue=gpu
 #FLUX -t=600
 #FLUX --urgency=16

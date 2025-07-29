@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=n1s8-v100-1
 
 singularity exec \
     --nv --overlay /scratch/nv2099/overlay-50G-10M.ext3:ro \

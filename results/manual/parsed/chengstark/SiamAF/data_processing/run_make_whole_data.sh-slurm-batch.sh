@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=650G
 #SBATCH --time=04:00:00
-#SBATCH --partition=overflow
 
 source /labs/hulab/stark_conda/bin/activate
 conda activate base_pytorch

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=shared
 #SBATCH --constraint=ntasks-per-node=81
 
 module load parallel

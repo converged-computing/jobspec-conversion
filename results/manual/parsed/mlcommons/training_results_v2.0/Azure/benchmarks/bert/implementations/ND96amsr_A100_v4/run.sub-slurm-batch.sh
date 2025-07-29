@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MAX_STEPS='100'
 export NCCL_ALGO='RING'

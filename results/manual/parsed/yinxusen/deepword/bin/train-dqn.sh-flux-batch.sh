@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-staircase-8033
+#FLUX --job-name=bumfuzzled-salad-3898
 #FLUX -n=4
 #FLUX --queue=isi
 #FLUX -t=360000

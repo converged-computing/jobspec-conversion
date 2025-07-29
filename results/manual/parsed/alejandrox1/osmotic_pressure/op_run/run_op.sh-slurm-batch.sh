@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 help=$(grep "^#-" "${BASH_SOURCE[0]}" | cut -c 4-)
 opt_h() 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-carrot-3330
+#FLUX --job-name=phat-platanos-0780
 #FLUX --queue=serial_requeue
 #FLUX -t=7200
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:ampere:2
 #SBATCH --mem=10240M
-#SBATCH --partition=gpu
 
 echo "Slurm nodes: $SLURM_JOB_NODELIST"
 NUM_GPUS=`echo $GPU_DEVICE_ORDINAL | tr ',' '\n' | wc -l`

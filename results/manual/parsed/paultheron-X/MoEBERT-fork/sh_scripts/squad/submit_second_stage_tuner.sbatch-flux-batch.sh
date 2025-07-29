@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-itch-7745
+#FLUX --job-name=chocolate-car-8918
 #FLUX -c=20
 #FLUX --queue=xeon-g6-volta
 #FLUX -t=2880

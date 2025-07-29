@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=pascal_gpu
 
 export OMP_PROC_BIND='TRUE'
 

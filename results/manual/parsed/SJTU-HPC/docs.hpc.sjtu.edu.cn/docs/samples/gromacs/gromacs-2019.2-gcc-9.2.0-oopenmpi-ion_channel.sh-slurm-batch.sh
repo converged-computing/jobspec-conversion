@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=cpu
 #SBATCH --constraint=ntasks-per-node=40
 
 module purge

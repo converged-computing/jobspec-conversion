@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=48000
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=debug
 #SBATCH --qos=normal
 #SBATCH --array=0-9
 

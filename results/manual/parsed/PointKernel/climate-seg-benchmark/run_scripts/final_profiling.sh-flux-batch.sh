@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=climseg-cgpu
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=208800
 #FLUX --urgency=16
 

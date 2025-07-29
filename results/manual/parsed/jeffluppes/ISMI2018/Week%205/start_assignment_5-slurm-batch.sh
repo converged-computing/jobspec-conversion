@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 
 module load python/3.5.2
 pip uninstall -y tensorflow-gpu

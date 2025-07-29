@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-omelette-8550
+#FLUX --job-name=delicious-taco-0255
 #FLUX -N=16
 #FLUX --queue=regular
 #FLUX -t=600

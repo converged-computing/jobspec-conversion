@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1080Ti:1
 #SBATCH --mem=10000mb
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=ialab-high
 #SBATCH --dependency=500
 
 export PATH='$PATH:/usr/local/cuda-10.0/bin'

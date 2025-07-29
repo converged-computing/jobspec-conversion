@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-peas-6610
+#FLUX --job-name=goodbye-truffle-6665
 #FLUX -N=2
 #FLUX --queue=short
 #FLUX -t=600

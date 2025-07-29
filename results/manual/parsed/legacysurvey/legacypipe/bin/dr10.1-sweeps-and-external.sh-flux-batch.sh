@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-poodle-8675
+#FLUX --job-name=milky-knife-5421
 #FLUX --queue=regular
 #FLUX -t=14400
 #FLUX --urgency=16

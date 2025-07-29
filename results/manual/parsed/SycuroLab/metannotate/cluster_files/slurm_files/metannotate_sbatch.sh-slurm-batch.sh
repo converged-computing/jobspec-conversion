@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=cpu2019
 
 log_dir="$(pwd)"
 log_file="logs/metannotate-analysis.log.txt"

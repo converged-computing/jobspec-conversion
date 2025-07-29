@@ -9,7 +9,6 @@
 #SBATCH --ntasks=6
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu-a100
 
 module purge
 module load gcc/11.2.0 mvapich2/2.3.7 tacc-apptainer/1.1.8 cuda/12.2

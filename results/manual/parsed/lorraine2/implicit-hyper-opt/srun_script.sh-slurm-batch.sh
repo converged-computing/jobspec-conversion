@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4GB
-#SBATCH --partition=gpu
 
 export LD_LIBRARY_PATH='/pkgs/cuda-9.2/lib64:$LD_LIBRARY_PATH'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-fudge-9549
+#FLUX --job-name=conspicuous-knife-3233
 #FLUX -c=36
 #FLUX -t=1200
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-blackbean-8784
+#FLUX --job-name=peachy-citrus-8305
 #FLUX -n=4
 #FLUX --queue=shas
 #FLUX -t=60

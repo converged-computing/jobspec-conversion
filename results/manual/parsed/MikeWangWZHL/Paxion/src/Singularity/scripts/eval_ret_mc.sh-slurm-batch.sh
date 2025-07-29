@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=300G
 #SBATCH --time=12:00:00
-#SBATCH --partition=XXX
 #SBATCH --constraint=ntasks-per-node=1
 
 dataset=$1  # coco, flickr, msrvtt, ..., see complete list below

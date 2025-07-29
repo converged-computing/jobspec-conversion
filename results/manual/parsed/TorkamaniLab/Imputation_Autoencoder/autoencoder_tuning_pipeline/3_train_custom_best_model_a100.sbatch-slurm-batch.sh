@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a100:4
 #SBATCH --mem=240G
 #SBATCH --time=25-00:00:00
-#SBATCH --partition=stsi
 
 module purge
 module load pytorch/1.7.1py38-cuda

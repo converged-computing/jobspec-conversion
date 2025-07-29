@@ -6,7 +6,6 @@
 #SBATCH --ntasks=5
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=your_partition_name
 #SBATCH --array=1-30
 
 module load julia

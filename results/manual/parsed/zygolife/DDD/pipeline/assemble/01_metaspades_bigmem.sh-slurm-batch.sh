@@ -5,7 +5,6 @@
 #SBATCH --ntasks=32
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=256gb
-#SBATCH --partition=intel,batch,highmem
 
 module load spades/3.15.2
 MEM=256

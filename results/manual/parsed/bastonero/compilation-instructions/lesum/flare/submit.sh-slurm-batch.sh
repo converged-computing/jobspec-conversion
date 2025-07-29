@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:20:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=12
 
 export OMP_NUM_THREADS='12'

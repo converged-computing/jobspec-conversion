@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-fudge-8426
+#FLUX --job-name=dinosaur-soup-1231
 #FLUX -c=6
 #FLUX -t=64800
 #FLUX --urgency=16

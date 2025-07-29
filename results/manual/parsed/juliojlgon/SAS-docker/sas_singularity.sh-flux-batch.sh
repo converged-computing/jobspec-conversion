@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-soup-0802
+#FLUX --job-name=lovely-motorcycle-2692
 #FLUX --queue=shared-cpu
 #FLUX -t=300
 #FLUX --urgency=16

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=6
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=amilan
 
 module purge
 module load intel

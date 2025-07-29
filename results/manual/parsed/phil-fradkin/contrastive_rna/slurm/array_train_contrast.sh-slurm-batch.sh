@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=7
 #SBATCH --gres=gpu:4
 #SBATCH --mem=160G
-#SBATCH --partition=a40
 #SBATCH --qos=deadline
 #SBATCH --array=0-0
 #SBATCH --exclude=gpu052

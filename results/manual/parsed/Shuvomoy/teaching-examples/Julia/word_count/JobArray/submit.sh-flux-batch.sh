@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-mango-2923
+#FLUX --job-name=boopy-pot-7322
 #FLUX --urgency=16
 
 source /etc/profile

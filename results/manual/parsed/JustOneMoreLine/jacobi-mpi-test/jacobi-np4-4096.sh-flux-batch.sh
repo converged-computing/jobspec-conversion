@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-parsnip-2141
+#FLUX --job-name=anxious-spoon-2248
 #FLUX -N=5
 #FLUX --queue=batch
 #FLUX --urgency=16

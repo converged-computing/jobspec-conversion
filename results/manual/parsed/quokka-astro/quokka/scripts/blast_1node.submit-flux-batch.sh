@@ -2,7 +2,7 @@
 #FLUX --job-name=hydro3dblast
 #FLUX -c=16
 #FLUX --gpus-per-task=1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpuA100x4
 #FLUX -t=600
 #FLUX --urgency=16

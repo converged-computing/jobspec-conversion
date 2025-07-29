@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-itch-6561
+#FLUX --job-name=dinosaur-chip-6201
 #FLUX --queue=gputest
 #FLUX -t=300
 #FLUX --urgency=16

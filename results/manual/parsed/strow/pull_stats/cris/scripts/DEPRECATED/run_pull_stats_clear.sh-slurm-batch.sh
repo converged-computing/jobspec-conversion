@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=18000
 #SBATCH --time=10:00:00
-#SBATCH --partition=batch
 #SBATCH --qos=medium+
 #SBATCH --array=0-7
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-butter-9072
+#FLUX --job-name=anxious-spoon-9407
 #FLUX --queue=dev_q
 #FLUX -t=10800
 #FLUX --urgency=16

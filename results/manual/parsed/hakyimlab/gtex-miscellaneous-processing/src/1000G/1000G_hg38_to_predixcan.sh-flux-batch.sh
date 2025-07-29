@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-car-9363
+#FLUX --job-name=placid-frito-6742
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hakyimlab/gtex-miscellaneous-processing/src/1000G/1000G_hg38_to_predixcan.sh

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
-#SBATCH --partition=overcap
 
 log_id=$1
 echo "On node ${HOSTNAME}"

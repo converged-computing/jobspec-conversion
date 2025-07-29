@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-peas-0336
+#FLUX --job-name=joyous-lizard-5100
 #FLUX -n=5
 #FLUX -c=4
 #FLUX --queue=nvidia

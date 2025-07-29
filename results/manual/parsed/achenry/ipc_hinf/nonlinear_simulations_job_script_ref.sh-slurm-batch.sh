@@ -5,7 +5,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=amilan
 
 export CC='gcc'
 export CXX='g++'

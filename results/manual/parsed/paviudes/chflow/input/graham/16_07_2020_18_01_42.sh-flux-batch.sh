@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-truffle-2243
+#FLUX --job-name=eccentric-nunchucks-5517
 #FLUX -t=10800
 #FLUX --urgency=16
 

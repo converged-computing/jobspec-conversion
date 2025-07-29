@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-citrus-4009
+#FLUX --job-name=crusty-hippo-9637
 #FLUX -N=2
 #FLUX --queue=devel
 #FLUX -t=900

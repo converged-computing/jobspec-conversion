@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=20:00:00
-#SBATCH --partition=konings,owners
 #SBATCH --array=9-14
 
 argnames=("o1AMPM" "o6AMPM" "oAll" "o1AMPM" "o6AMPM" "oAll" "o1AMPM" "o6AMPM" "oAll" "o1and6" "o1and6" "o1and6" "o16offset" "o16offset" "o16offset")

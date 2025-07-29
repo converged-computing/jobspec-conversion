@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1000
 #SBATCH --time=00:00:10
-#SBATCH --partition=test
 #SBATCH --constraint=ntasks-per-node=1
 
 PRO=mpi_hello

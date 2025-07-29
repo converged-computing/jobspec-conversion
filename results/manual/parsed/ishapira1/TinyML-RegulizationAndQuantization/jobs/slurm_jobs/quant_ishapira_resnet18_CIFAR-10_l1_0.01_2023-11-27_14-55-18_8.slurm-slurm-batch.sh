@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=80000
 #SBATCH --time=10:00:00
-#SBATCH --partition=seas_gpu
 
 module load Anaconda2/2019.10-fasrc01
 source activate itai_ml_env

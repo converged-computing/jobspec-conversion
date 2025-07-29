@@ -5,9 +5,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=80Gb
 #SBATCH --time=04:00:00
-#SBATCH --partition=cpu,scpu,bfill
 #SBATCH --qos=backfill
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=36
 
 input=cluster_hybrid.inp

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=100G
 #SBATCH --time=180-00:00:00
-#SBATCH --partition=NvidiaA800
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=ZSGPU18
 

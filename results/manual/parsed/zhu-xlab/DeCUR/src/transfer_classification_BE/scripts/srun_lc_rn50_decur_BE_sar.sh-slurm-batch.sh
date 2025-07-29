@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:4
 #SBATCH --time=01:00:00
-#SBATCH --partition=booster
 #SBATCH --constraint=ntasks-per-node=4
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

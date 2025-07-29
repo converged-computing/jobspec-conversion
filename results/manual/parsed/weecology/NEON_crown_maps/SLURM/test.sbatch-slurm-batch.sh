@@ -9,7 +9,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=19G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export PATH='${PATH}:/home/b.weinstein/miniconda/envs/crowns/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda/envs/crowns/lib/python3.7/site-packages/'

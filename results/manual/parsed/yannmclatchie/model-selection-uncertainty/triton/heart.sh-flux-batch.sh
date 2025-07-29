@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-general-9293
+#FLUX --job-name=muffled-punk-6476
 #FLUX -c=4
 #FLUX -t=172800
 #FLUX --urgency=16

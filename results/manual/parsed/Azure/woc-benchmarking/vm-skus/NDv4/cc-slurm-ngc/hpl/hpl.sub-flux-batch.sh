@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=placid-punk-3735
-#FLUX: --exclusive
+#FLUX --job-name=swampy-nalgas-7702
+#FLUX --exclusive
 #FLUX -t=1200
 #FLUX --urgency=16
 

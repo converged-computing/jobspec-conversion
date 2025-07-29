@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-rabbit-5703
+#FLUX --job-name=fat-toaster-9412
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sbarwey/DDP_PyGeom/submit_4.sh

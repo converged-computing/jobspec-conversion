@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=muffled-snack-8553
+#FLUX --job-name=salted-hobbit-0453
 #FLUX -N=2
 #FLUX -c=5
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 echo "#################### Job submission script. #############################"

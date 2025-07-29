@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:v100:2
 #SBATCH --mem=0
 #SBATCH --time=00:25:00
-#SBATCH --partition=gpu
 
 module load gcc
 module load python/3.7.6

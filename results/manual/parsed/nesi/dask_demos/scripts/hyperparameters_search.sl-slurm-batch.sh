@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=80
 #SBATCH --mem=80GB
 #SBATCH --time=00:10:00
-#SBATCH --partition=milan
 
 export PYTHONNOUSERSITE='1'
 export DASK_DISTRIBUTED__WORKER__MEMORY__TARGET='False'

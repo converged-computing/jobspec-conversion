@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-plant-5261
+#FLUX --job-name=grated-hippo-8393
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

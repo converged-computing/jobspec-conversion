@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-cinnamonbun-2954
+#FLUX --job-name=phat-animal-0940
 #FLUX --queue=gpu_shared
 #FLUX -t=108000
 #FLUX --urgency=16

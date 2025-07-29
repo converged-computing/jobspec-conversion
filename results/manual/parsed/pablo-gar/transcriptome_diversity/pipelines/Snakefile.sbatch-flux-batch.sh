@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-omelette-5081
+#FLUX --job-name=angry-train-7637
 #FLUX --queue=hbfraser,hns,normal
 #FLUX -t=43200
 #FLUX --urgency=16

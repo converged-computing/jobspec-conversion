@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=32000
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=[gpu_k20|gpu_k40|gpu_p100]
 
 module load singularity

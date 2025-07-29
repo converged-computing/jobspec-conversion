@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-gato-2016
+#FLUX --job-name=misunderstood-buttface-9608
 #FLUX -c=10
 #FLUX --urgency=16
 

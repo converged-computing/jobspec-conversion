@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-fork-9943
+#FLUX --job-name=grated-avocado-6062
 #FLUX --queue=copyq
 #FLUX -t=43200
 #FLUX --urgency=16

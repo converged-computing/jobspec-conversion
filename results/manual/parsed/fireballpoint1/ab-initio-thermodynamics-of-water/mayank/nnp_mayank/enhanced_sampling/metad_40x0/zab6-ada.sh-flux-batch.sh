@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-bike-9127
+#FLUX --job-name=placid-hobbit-4640
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=2G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=1
 
 export SLURM_SUBMIT_DIR='/home/users/yalan/binary_seq_opt/icassp23'

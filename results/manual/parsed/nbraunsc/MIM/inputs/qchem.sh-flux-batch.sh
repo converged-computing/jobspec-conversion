@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-nunchucks-7313
+#FLUX --job-name=fugly-salad-9425
 #FLUX --queue=preemptable_q
 #FLUX -t=7200
 #FLUX --urgency=16

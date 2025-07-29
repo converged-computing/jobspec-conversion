@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=GPU-shared
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$PROJECT/anaconda3/lib'
 export CUDA_HOME='/jet/packages/cuda/v11.7.1'

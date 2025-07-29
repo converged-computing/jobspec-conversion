@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-itch-2738
+#FLUX --job-name=delicious-leopard-0327
 #FLUX --queue=bdwall
 #FLUX -t=900
 #FLUX --urgency=16

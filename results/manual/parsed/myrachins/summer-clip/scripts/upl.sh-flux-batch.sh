@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-milkshake-5640
+#FLUX --job-name=dinosaur-pot-3364
 #FLUX --urgency=16
 
 export PYTHONPATH='${PYTHONPATH}:${SUMMER_CLIP_PATH}'

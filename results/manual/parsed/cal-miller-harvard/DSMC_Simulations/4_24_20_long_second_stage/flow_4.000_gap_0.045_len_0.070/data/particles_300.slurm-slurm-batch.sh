@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2048
 #SBATCH --time=02:00:00
-#SBATCH --partition=shared
 
 export OMP_PROC_BIND='spread'
 export OMP_PLACES='threads'

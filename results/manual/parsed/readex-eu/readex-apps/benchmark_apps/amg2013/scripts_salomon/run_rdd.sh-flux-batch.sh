@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-punk-7360
+#FLUX --job-name=purple-diablo-3272
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/readex-eu/readex-apps/benchmark_apps/amg2013/scripts_salomon/run_rdd.sh

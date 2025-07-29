@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-kerfuffle-0963
+#FLUX --job-name=carnivorous-frito-3264
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

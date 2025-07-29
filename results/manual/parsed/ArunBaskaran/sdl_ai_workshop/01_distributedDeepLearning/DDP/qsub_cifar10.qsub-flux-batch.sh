@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=anxious-soup-1625
+#FLUX --job-name=expressive-salad-7307
 #FLUX --urgency=16
 

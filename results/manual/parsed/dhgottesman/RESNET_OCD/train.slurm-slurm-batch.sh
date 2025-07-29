@@ -8,6 +8,5 @@
 #SBATCH --gres=2
 #SBATCH --mem=100000
 #SBATCH --time=12:00:00
-#SBATCH --partition=studentbatch
 
 python run_func_OCD.py -e 0 -pb ./base_models/resnet20.pt -pc ./configs/train_resnet.json -pdtr ./data/cifar10 -pdts ./data/cifar10 -dt resnet -prc 0

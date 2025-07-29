@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64GB
 #SBATCH --time=16:00:00
-#SBATCH --partition=batch
 
 module load BWA/0.7.15-foss-2017a
 module load SAMtools/0.1.19-GCC-5.3.0-binutils-2.25

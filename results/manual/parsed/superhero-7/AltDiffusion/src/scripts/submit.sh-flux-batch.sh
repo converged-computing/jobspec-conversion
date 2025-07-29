@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=laion5b
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=g40
 #FLUX -t=7200
 #FLUX --urgency=16

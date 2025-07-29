@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=maskrcnn_mlpv21
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=mlperf
 #FLUX -t=21600
 #FLUX --urgency=16

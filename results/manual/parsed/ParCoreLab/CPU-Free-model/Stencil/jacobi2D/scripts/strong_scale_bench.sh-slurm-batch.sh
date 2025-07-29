@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=03:00:00
-#SBATCH --partition=hgx2q
 
 . ./scripts/modules.sh > /dev/null
 MAX_NUM_GPUS=8

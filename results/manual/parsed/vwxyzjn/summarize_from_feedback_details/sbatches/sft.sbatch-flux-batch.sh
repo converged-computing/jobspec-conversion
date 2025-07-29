@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=spicy-bits-1481
+#FLUX --job-name=spicy-soup-2717
 #FLUX --gpus-per-task=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hopper-prod
 #FLUX --urgency=16
 

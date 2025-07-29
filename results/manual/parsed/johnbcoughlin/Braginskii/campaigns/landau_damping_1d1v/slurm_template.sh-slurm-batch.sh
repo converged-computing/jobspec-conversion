@@ -9,7 +9,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu-rtx6k
 #SBATCH --chdir=@@WORKDIR@@
 #SBATCH --array=1-@@NTASKS@@%2
 

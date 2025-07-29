@@ -6,7 +6,7 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=7
 #SBATCH --time=00:10:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export parent='/pfs/nobackup/home/p/pojedama/benchmarks/charmm-gui/gromacs'
 

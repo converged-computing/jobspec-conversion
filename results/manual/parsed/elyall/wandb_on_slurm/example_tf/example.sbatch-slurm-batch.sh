@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --time=00:30:00
-#SBATCH --partition=aws
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/nfs/code/wandb_on_slurm/
 

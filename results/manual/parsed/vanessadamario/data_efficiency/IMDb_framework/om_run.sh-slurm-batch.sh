@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:tesla-k80:1
 #SBATCH --mem=40GB
 #SBATCH --time=10:00:00
-#SBATCH --partition=cbmm
 #SBATCH --qos=cbmm
 #SBATCH --array=0-999
 

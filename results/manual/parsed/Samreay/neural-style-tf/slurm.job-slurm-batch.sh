@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50g
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 module load compilers/cuda/9.2
 . ~/miniconda/etc/profile.d/conda.sh

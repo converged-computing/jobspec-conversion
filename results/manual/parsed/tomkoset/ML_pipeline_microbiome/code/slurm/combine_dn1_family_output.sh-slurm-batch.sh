@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=250m
 #SBATCH --time=05:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=1
 
 mkdir -p logs/slurm/

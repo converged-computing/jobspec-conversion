@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-nalgas-6179
+#FLUX --job-name=salted-house-9244
 #FLUX --queue=amd_gpu
 #FLUX -t=450000
 #FLUX --urgency=16

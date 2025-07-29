@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=120G
 #SBATCH --time=06:00:00
-#SBATCH --partition=brown,red
 
 XDG_RUNTIME_DIR=""
 slurmctld_port=$(grep "^SlurmctldPort" /etc/slurm/slurm.conf | awk '{print $2}')

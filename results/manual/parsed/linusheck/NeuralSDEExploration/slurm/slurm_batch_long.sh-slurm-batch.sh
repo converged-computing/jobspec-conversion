@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=50G
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=standard
 #SBATCH --qos=medium
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'

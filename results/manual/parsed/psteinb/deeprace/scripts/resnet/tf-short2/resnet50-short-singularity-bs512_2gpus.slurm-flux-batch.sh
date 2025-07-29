@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-itch-8977
+#FLUX --job-name=confused-destiny-3864
 #FLUX --queue=gpu2
 #FLUX -t=3600
 #FLUX --urgency=16

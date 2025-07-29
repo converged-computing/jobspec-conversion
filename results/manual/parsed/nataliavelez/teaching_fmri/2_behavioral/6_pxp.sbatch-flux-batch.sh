@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-latke-0803
+#FLUX --job-name=joyous-peanut-butter-8974
 #FLUX --queue=fasse
 #FLUX -t=120
 #FLUX --urgency=16

@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=06:00:00
-#SBATCH --partition=mlperf
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8,ntasks-per-socket=4
 
 export WORLD_SIZE='${SLURM_NPROCS}'

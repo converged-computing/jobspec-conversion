@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=omp_scale2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=THIN
 #FLUX -t=7200
 #FLUX --urgency=16

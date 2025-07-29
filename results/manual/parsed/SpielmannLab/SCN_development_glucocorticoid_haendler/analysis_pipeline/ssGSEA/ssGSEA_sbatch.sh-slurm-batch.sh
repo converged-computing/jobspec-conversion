@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=3
 #SBATCH --mem=350GB
-#SBATCH --partition=shortterm
 
 PATH=$WORK/.omics/anaconda3/bin:$PATH #add the anaconda installation path to the bash path
 source $WORK/.omics/anaconda3/etc/profile.d/conda.sh # some reason conda commands are not added by default

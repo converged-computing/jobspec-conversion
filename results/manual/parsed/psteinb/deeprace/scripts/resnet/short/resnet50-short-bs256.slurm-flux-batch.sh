@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-platanos-7223
+#FLUX --job-name=fat-punk-2166
 #FLUX --queue=gpu2
 #FLUX -t=3600
 #FLUX --urgency=16

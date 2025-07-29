@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=ornery-leopard-6408
+#FLUX --job-name=goodbye-leopard-7097
 #FLUX -N=2
 #FLUX --gpus-per-task=1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=300
 #FLUX --urgency=16
 

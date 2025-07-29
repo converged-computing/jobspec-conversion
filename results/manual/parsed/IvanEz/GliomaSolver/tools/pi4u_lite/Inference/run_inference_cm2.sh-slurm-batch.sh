@@ -5,7 +5,6 @@
 #SBATCH --ntasks=56
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=cm2_tiny
 #SBATCH --chdir=.
 
 export LANG='C'

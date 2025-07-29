@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=200G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=coenv
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20220909-pgen-fastqc-fastp-mutliqc-rnaseq
 
 fastq_pattern='*.fastq.gz'

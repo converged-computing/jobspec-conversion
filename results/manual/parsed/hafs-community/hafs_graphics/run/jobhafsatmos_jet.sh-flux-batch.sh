@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=jobhafsgraph
 #FLUX -N=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=xjet
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -8,10 +8,9 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=0
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=prod
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=clx
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 spack env activate bluerecording-dev
 source ~/bluerecording-dev/bin/activate

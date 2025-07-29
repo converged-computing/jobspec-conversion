@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100-sxm2:1
 #SBATCH --mem=64GB
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 
 source activate pytorch_env
 python new_test_jammer2.py

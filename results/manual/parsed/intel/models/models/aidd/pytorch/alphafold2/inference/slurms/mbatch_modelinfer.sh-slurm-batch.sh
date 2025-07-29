@@ -5,8 +5,7 @@
 #SBATCH --nodes=8
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=64c512g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo "### model inference on multi nodes"
 echo "----"

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:1,nvme:180
 #SBATCH --mem=4G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpusmall
 
 $SCRATCH
 module load pytorch/1.10

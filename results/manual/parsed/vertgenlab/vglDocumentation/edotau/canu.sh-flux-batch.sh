@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-staircase-9716
+#FLUX --job-name=rainbow-citrus-5037
 #FLUX -c=8
 #FLUX -t=10800
 #FLUX --urgency=16

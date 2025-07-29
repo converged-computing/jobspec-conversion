@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-peas-2693
+#FLUX --job-name=eccentric-pancake-1227
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

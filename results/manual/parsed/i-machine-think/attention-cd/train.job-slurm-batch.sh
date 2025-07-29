@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10000M
 #SBATCH --time=2-12:00:00
-#SBATCH --partition=gpu_shared
 
 seed=$SLURM_ARRAY_TASK_ID
 fn="save/WIKI_$seed.pt"

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=8192
 #SBATCH --time=01:00:00
-#SBATCH --partition=stud-ewi
 #SBATCH --qos=stud-ewi
 
 module use /opt/insy/modulefiles

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=16G
-#SBATCH --partition=<HPC_partition>
 
 export BINDS='${BINDS},${WORKINGFOLDER}:${WORKINGFOLDER}'
 

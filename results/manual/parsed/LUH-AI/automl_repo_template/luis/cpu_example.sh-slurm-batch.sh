@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10M
 #SBATCH --time=00:05:00
-#SBATCH --partition=ai,tnt
 #SBATCH --array=10-12,18
 
 module load GCC/10.3.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-gato-8371
+#FLUX --job-name=arid-diablo-7559
 #FLUX --queue=gpu20
 #FLUX -t=21600
 #FLUX --urgency=16

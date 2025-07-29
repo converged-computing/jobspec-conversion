@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=6000
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=rtx2
 #SBATCH --array=1-9
 
 WANDB_API_KEY="[TODO YOUR KEY]"  # or 'wandb login' and 'wandb docker' commands

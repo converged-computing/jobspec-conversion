@@ -2,7 +2,7 @@
 #FLUX --job-name=mid_filter
 #FLUX -N=16
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

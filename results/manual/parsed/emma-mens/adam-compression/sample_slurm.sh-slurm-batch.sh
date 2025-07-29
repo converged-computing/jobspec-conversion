@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=24G
 #SBATCH --time=04:00:00
-#SBATCH --partition=ckpt
 #SBATCH --constraint=ntasks-per-node=2,[rtx6k|a40|2080ti]
 #SBATCH --chdir=/gscratch/stf/emazuh/adam-compression
 #SBATCH --array=0-0

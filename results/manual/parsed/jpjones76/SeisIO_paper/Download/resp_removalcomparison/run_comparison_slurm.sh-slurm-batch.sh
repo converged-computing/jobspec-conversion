@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=02:30:00
-#SBATCH --partition=shared
 #SBATCH --constraint=ntasks-per-node=1
 
 date

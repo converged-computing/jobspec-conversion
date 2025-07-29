@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=80G
 #SBATCH --time=00:04:00
-#SBATCH --partition=test
 
 genome="hg19"
 bam=GM.trial52.atac.hg19.rmdup.cutoff.bam

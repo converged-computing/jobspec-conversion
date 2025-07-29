@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-leg-5617
+#FLUX --job-name=red-car-2704
 #FLUX --queue=bosch_cpu-cascadelake
 #FLUX --urgency=16
 

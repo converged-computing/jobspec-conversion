@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=5G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 module use "$HOME"/modulefiles/
 module load python/3.8.6rc1

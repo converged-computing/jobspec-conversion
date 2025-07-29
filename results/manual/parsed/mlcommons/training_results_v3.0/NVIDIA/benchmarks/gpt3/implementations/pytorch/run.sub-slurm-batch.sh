@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SHARE_RERUNS='${SHARE_RERUNS:=0}'
 export MLPERF_SLURM_FIRSTNODE='$(scontrol show hostnames "${SLURM_JOB_NODELIST-}" | head -n1)'

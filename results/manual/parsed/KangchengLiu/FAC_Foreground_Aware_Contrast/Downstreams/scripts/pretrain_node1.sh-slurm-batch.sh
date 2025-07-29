@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=400G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=dev
 #SBATCH --constraint=volta32gb
 
 export PYTHONPATH='$PWD:$PYTHONPATH'

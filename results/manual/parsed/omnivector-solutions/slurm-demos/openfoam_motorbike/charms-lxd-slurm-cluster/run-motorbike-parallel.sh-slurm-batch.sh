@@ -6,7 +6,6 @@
 #SBATCH --ntasks=6
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=osd-slurmd
 
 OPENFOAM_DIR=/nfs/OpenFOAM-10
 if [[ ! -d $OPENFOAM_DIR ]]

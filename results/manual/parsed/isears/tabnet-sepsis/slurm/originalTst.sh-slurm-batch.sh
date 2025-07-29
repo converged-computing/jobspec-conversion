@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
 
 export PYTHONUNBUFFERED='TRUE'
 

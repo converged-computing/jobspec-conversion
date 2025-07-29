@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=1
 
 export JULIA_NUM_THREADS='${SLURM_CPUS_PER_TASK:=1}'

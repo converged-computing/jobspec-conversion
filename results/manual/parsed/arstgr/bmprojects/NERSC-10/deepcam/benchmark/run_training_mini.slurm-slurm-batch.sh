@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
 #SBATCH --time=02:00:00
-#SBATCH --partition=ndmv4
 #SBATCH --constraint=ntasks-per-node=8
 
 export N10_DEEPCAM='/mnt/resource_nvme/deepcam'

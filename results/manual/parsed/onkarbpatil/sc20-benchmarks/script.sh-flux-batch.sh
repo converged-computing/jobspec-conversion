@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-egg-2382
+#FLUX --job-name=outstanding-despacito-8724
 #FLUX -N=4
 #FLUX --queue=skylake-gold
 #FLUX -t=172800

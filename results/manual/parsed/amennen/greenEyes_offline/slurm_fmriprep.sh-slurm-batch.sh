@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=20000
 #SBATCH --time=15:00:00
-#SBATCH --partition=all
 #SBATCH --chdir=.
 #SBATCH --array=31,39,53,68,81,88-122
 

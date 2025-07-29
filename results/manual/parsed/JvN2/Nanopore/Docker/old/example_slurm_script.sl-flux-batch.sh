@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-eagle-4161
+#FLUX --job-name=hairy-banana-0553
 #FLUX --queue=gpuq
 #FLUX -t=36000
 #FLUX --urgency=16

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=7
 #SBATCH --mem=126000
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=smallmem,serial,parallel
 #SBATCH --constraint=ntasks-per-node=4
 
 srun hostname

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=frigid-eagle-9226
+#FLUX --job-name=red-toaster-9694
 #FLUX --urgency=16
 

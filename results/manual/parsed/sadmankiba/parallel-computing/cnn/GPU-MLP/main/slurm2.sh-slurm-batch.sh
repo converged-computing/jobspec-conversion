@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
 #SBATCH --time=00:20:00
-#SBATCH --partition=instruction
 
 module load nvidia/cuda/11.8.0 gcc/.11.3.0_cuda
 make clean

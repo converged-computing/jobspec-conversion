@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=2G
 #SBATCH --time=04:10:00
-#SBATCH --partition=cpu
 
 SPACK_ENV_NAME="LBANN_experiment"
 ml purge

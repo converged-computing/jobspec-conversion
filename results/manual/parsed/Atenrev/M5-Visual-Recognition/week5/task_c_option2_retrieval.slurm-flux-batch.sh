@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-hope-9640
+#FLUX --job-name=phat-chair-4481
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=moelansfig4-2d-test
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

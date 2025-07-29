@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-punk-2886
+#FLUX --job-name=phat-platanos-0570
 #FLUX -n=4
 #FLUX -c=12
 #FLUX --queue=develbooster

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-cherry-2028
+#FLUX --job-name=blue-parrot-0716
 #FLUX --queue=cpu
 #FLUX -t=600
 #FLUX --urgency=16

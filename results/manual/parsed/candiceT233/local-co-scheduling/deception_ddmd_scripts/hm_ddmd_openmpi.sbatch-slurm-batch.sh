@@ -7,7 +7,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=a100
 
 export TMPDIR='/scratch/$USER'
 

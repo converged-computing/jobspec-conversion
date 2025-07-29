@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-malarkey-2164
+#FLUX --job-name=scruptious-leader-3793
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cucinotta-group/cp2k-smeagol-examples/examples/au-melamine/cp2k-smeagol/capacitor/leads-sz-6s_tip-dzvp_surf-dzvp_kpoints-1-1-20/run.slurm

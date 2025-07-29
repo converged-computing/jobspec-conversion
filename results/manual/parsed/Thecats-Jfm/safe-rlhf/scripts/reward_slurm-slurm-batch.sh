@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=500GB
 #SBATCH --time=1-16:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=g0004,g0010
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-buttface-6733
+#FLUX --job-name=bloated-soup-9899
 #FLUX -N=2
 #FLUX -n=60
 #FLUX --queue=huce_intel

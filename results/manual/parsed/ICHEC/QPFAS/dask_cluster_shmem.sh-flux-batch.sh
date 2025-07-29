@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-latke-0157
+#FLUX --job-name=red-leopard-9713
 #FLUX --queue=ShmemQ
 #FLUX -t=259200
 #FLUX --urgency=16

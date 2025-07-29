@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=10000
 #SBATCH --time=08:00:00
-#SBATCH --partition=alpha
 
 export XDG_RUNTIME_DIR=''
 

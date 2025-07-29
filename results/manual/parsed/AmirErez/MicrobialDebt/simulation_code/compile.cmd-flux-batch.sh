@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-mango-2204
+#FLUX --job-name=fugly-frito-0504
 #FLUX -t=64800
 #FLUX --urgency=16
 

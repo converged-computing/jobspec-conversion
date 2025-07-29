@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-bits-9222
+#FLUX --job-name=bloated-taco-9838
 #FLUX --urgency=16
 
 readarray -t listofmissingfiles < listofmissingfiles.txt

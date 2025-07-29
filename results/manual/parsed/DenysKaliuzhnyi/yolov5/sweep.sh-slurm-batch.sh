@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --mem=20G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 SWEEP_ID="5grn31dl"
 module load any/python/3.8.3-conda

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-lemur-1115
+#FLUX --job-name=swampy-leg-2061
 #FLUX -c=8
 #FLUX --queue=grete:shared
 #FLUX -t=172800

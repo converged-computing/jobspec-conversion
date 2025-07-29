@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-pastry-9041
+#FLUX --job-name=expensive-blackbean-7365
 #FLUX -N=16
 #FLUX -n=16
 #FLUX -c=12

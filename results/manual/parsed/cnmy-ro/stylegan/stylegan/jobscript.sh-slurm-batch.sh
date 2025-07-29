@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:RTX6000:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=LKEBgpu
 
 module purge
 module load library/cuda/11.3/gcc.8.3.1

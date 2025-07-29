@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-staircase-7226
+#FLUX --job-name=carnivorous-pot-0228
 #FLUX --urgency=16
 

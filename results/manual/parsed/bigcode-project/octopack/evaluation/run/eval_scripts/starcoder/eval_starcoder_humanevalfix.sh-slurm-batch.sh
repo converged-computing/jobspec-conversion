@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=small-g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 source /pfs/lustrep2/scratch/project_462000241/muennighoff/venv/bin/activate

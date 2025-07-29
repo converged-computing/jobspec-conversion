@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=140G
 #SBATCH --time=00:10:00
-#SBATCH --partition=bigmem2
 
 PATH_TO_PROJECT='/project2/moyer/jetstream'
 PATH_TO_REPO='/home/ivanhigueram/reanalysis_getter'

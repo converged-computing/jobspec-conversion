@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-cherry-5859
+#FLUX --job-name=psycho-destiny-9314
 #FLUX -n=32
 #FLUX --queue=defq
 #FLUX -t=87840

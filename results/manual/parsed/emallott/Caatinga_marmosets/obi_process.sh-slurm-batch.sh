@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=24G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=b1057
 
 module purge all
 module load python

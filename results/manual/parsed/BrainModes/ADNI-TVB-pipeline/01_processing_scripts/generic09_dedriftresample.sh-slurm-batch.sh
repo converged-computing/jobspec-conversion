@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12G
 #SBATCH --time=08:00:00
-#SBATCH --partition=medium
 #SBATCH --chdir=./
 
 StudyFolder=$1 #Location of Subject folders (named by subjectID)

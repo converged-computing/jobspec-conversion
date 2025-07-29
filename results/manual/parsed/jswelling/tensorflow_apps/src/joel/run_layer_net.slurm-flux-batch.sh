@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-toaster-5369
+#FLUX --job-name=spicy-destiny-6439
 #FLUX --queue=GPU-shared
 #FLUX -t=18000
 #FLUX --urgency=16

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000
-#SBATCH --partition=common
 #SBATCH --qos=normal
 
 sample_list="/full_path_to/wd/redundancy_removal/metadata/sample_list1.tsv"

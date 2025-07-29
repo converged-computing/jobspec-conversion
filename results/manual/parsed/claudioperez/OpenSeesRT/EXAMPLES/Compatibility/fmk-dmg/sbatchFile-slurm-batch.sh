@@ -9,7 +9,6 @@
 #SBATCH --ntasks=9
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=small
 
 module load intel
 module load petsc

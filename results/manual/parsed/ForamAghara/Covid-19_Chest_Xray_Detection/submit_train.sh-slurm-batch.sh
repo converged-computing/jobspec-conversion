@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12G
 #SBATCH --time=02:30:00
-#SBATCH --partition=skylake-gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 module load openmpi/4.0.0

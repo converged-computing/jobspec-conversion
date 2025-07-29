@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=workq
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=0-2
 

@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=96
-#SBATCH --partition=learnai4rl
 #SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_SOCKET_IFNAME='ens32'

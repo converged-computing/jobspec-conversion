@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=c7desktop
 #SBATCH --nodelist=ld18-1007
 
 module load cuda/10.1.243_418.87.00

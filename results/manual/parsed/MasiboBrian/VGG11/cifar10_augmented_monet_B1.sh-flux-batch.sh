@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-citrus-1331
+#FLUX --job-name=pusheena-chip-7501
 #FLUX --queue=Teach-Standard
 #FLUX -t=28800
 #FLUX --urgency=16

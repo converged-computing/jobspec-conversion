@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-chip-3675
+#FLUX --job-name=misunderstood-diablo-6566
 #FLUX --queue=milanq
 #FLUX -t=1200
 #FLUX --urgency=16

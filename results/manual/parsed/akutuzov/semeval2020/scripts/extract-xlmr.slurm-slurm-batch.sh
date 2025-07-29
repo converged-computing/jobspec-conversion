@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=16G
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=accel
 
 module use -a /fp/projects01/ec30/software/easybuild/modules/all/
 module purge   # Recommended for reproducibility

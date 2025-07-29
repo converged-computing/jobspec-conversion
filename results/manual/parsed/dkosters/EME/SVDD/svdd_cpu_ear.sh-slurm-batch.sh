@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=normal
 
 export CUDA_VISIBLE_DEVICES=''
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=milky-puppy-9923
+#FLUX --job-name=conspicuous-lamp-3078
 #FLUX -c=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

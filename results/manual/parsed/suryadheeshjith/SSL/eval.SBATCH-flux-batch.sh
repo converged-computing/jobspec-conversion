@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=stanky-peas-3511
+#FLUX --job-name=gassy-cat-4893
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=n1c24m128-v100-4
 #FLUX -t=43200
 #FLUX --urgency=16

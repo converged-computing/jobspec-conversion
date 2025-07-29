@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-parrot-7015
+#FLUX --job-name=reclusive-pot-4563
 #FLUX -c=2
 #FLUX --queue=general
 #FLUX -t=1800

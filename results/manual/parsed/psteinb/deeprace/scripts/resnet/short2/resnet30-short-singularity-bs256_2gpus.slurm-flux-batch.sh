@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-bits-6051
+#FLUX --job-name=sticky-despacito-4466
 #FLUX --queue=gpu2
 #FLUX -t=1800
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50000
 #SBATCH --time=08:20:00
-#SBATCH --partition=all
 
 module load anacondapy/5.3.1
 source activate lightsheet

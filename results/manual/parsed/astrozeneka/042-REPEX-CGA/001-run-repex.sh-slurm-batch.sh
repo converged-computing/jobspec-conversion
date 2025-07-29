@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=memory
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <genome_fasta>"

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8GB
-#SBATCH --partition=t4v1,p100,t4v2,rtx6000
 #SBATCH --array=0-13
 
 echo Running on $(hostname)

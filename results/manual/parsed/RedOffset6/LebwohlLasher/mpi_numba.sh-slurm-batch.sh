@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100M
 #SBATCH --time=00:05:00
-#SBATCH --partition=teach_cpu
 #SBATCH --constraint=ntasks-per-node=4
 
 echo 'running mpi test'

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 #SBATCH --constraint=ntasks-per-node=1,gpu
 
 module load daint-gpu

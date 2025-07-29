@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=lovely-caramel-2131
+#FLUX --job-name=angry-milkshake-6064
 #FLUX -N=8
 #FLUX -n=8
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=short
 #FLUX --urgency=16
 

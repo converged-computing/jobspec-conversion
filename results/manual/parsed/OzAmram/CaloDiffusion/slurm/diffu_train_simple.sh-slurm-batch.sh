@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu_gce
 #SBATCH --constraint=(a100|v100|p100)
 
 export SINGULARITY_CACHEDIR='/work1/cms_mlsim/'

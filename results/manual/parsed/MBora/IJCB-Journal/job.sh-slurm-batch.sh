@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32000M
 #SBATCH --time=00:11:59
-#SBATCH --partition=gpu_a100_8
 
 nvidia-smi
 conda env list

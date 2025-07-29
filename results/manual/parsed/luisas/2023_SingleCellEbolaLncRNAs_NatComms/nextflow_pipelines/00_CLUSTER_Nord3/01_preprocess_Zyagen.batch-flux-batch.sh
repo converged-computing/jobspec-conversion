@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-knife-9279
+#FLUX --job-name=misunderstood-spoon-8764
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/luisas/2023_SingleCellEbolaLncRNAs_NatComms/nextflow_pipelines/00_CLUSTER_Nord3/01_preprocess_Zyagen.batch

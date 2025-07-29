@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-diablo-2689
+#FLUX --job-name=bloated-onion-1697
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

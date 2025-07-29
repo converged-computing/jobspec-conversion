@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu,owners
 #SBATCH --constraint=GPU_MEM:32GB
 #SBATCH --array=108-135
 

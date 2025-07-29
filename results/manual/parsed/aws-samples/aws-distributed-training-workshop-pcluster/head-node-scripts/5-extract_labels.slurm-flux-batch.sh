@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=stanky-hobbit-9451
+#FLUX --job-name=chunky-lizard-2827
 #FLUX -N=2
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export WORLD_SIZE='8'

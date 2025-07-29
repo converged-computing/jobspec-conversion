@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=56
 #SBATCH --mem=512G
 #SBATCH --time=12:00:00
-#SBATCH --partition=fat
 #SBATCH --constraint=ntasks-per-node=1
 
 export KMP_AFFINITY='granularity=fine,compact,1'

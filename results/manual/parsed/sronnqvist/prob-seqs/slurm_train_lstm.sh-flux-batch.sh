@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-leg-9444
+#FLUX --job-name=quirky-plant-1704
 #FLUX --queue=gputest
 #FLUX -t=900
 #FLUX --urgency=16

@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=28
 #SBATCH --mem=2200M
 #SBATCH --time=04:00:00
-#SBATCH --partition=broadwell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/sw/global/libraries/cpufrequtils/gcc5.3.0/lib/'

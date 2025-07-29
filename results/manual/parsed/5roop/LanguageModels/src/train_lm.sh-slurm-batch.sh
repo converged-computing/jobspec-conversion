@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=50G
 #SBATCH --time=23:59:59
-#SBATCH --partition=gpu
 
 set -eu -o pipefail
 config_sh=$1 # Config sh file with experimental settings

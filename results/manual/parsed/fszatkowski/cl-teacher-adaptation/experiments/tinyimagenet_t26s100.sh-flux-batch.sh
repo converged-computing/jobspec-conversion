@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-leg-0291
+#FLUX --job-name=dirty-arm-1292
 #FLUX -n=3
 #FLUX -t=259200
 #FLUX --urgency=16

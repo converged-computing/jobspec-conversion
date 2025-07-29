@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:ampere:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu_irmb
 #SBATCH --constraint=ntasks-per-node=1
 
 srun singularity run \

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1GB
 #SBATCH --time=00:05:00
-#SBATCH --partition=priority
 
                                 # Or use HH:MM:SS or D-HH:MM:SS, instead of just number of minutes
 module load gcc/6.2.0 R/3.4.1

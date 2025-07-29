@@ -6,7 +6,6 @@
 #SBATCH --ntasks=88
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=nesi_research
 
 COMPILER=SPECFEM3D/20190730-CrayCCE-19.04
 COMPILER=SPECFEM3D/20190730-CrayGNU-19.04

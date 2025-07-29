@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
-#SBATCH --partition=student
 #SBATCH --qos=quick
 
 export PYTHONPATH='$PYTHONPATH:$PWD'

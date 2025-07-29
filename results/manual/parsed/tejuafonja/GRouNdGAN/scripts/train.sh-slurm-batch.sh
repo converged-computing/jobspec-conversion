@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=booster
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-leg-0566
+#FLUX --job-name=cowy-lamp-0825
 #FLUX -c=12
 #FLUX -t=28800
 #FLUX --urgency=16

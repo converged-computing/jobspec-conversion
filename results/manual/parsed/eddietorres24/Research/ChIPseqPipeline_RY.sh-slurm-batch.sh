@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=500gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=batch
 
 cd $SLURM_SUBMIT_DIR
 source config.txt

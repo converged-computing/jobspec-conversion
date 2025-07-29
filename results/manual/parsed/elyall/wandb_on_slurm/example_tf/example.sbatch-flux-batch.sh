@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-animal-8351
+#FLUX --job-name=crunchy-citrus-5114
 #FLUX -N=2
 #FLUX -c=4
 #FLUX --queue=aws

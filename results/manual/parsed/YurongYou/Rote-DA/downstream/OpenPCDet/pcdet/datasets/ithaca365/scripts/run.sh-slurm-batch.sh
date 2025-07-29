@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:0
 #SBATCH --mem=16G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=default_partition
 
 set -e
 . /home/yy785/anaconda3/etc/profile.d/conda.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=OpenMP_Run_multiple
 #FLUX -c=40
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=intel_32
 #FLUX -t=14400
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-snack-9038
+#FLUX --job-name=gloopy-taco-2806
 #FLUX -n=2
 #FLUX -c=32
 #FLUX --queue=nodes

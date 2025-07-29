@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-knife-4633
+#FLUX --job-name=stinky-latke-0559
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cimeq/openlico/core/apps/template/lico/core/template/templates/scheduler/pbs-lammps.sh.in

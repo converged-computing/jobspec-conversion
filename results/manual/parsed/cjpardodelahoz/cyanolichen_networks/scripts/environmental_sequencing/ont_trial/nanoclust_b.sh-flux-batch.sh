@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-poodle-1197
+#FLUX --job-name=goodbye-fork-6584
 #FLUX -c=16
 #FLUX --queue=common
 #FLUX --urgency=16

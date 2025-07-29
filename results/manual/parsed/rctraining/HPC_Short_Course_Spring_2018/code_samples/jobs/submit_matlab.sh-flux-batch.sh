@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-ricecake-5821
+#FLUX --job-name=crunchy-lemon-6576
 #FLUX --queue=shas
 #FLUX -t=120
 #FLUX --urgency=16

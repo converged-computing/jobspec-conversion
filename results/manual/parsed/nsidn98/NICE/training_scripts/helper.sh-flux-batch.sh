@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-dog-8803
+#FLUX --job-name=hairy-omelette-9807
 #FLUX -n=40
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export PMIX_MCA_gds='hash'

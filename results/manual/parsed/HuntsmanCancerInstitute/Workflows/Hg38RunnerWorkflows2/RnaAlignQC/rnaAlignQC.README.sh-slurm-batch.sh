@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=hci-rw
 
 module load singularity
 dataBundle=/uufs/chpc.utah.edu/common/PE/hci-bioinformatics1/atlatl/data

@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:59:00
 #SBATCH --qos=normal
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --dependency=XXX
 
                                       #            short: 4hrs wallclock limit

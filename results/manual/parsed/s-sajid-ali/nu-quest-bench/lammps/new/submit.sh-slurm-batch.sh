@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=24
 
 source /home/sas4990/packages/spack/share/spack/setup-env.sh

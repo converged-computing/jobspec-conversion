@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem-per-cpu=1G
 #SBATCH --time=00:15:00
-#SBATCH --partition=gpu
 
 module load compiler/gcc/10 openmpi/4.0 lammps-gpu/29Sep2021
 mpirun lmp -sf gpu -in in_adapt.lmp

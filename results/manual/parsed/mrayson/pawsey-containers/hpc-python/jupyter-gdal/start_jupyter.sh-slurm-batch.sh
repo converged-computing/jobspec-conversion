@@ -6,7 +6,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=work
 
 dir=$1 #"${MYSCRATCH}/"
 image="docker://mrayson/jupyter-sfoda:latest"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-spoon-2252
+#FLUX --job-name=anxious-snack-2106
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sarisabban/Notes/Scripts/Rosetta%20Scripts/FFL_1

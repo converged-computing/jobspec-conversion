@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-itch-4103
+#FLUX --job-name=expensive-plant-9237
 #FLUX -N=2
 #FLUX -t=900
 #FLUX --urgency=16

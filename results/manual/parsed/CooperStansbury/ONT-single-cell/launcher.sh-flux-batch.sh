@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-muffin-1098
+#FLUX --job-name=hello-signal-3467
 #FLUX --queue=standard
 #FLUX -t=129600
 #FLUX --urgency=16

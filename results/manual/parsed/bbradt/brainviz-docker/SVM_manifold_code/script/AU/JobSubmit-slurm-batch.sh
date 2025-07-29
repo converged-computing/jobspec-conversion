@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=80g
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=qTRD
 
 export OMP_NUM_THREADS='1'
 export MODULEPATH='/apps/Compilers/modules-3.2.10/Debug-Build/Modules/3.2.10/modulefiles/ '

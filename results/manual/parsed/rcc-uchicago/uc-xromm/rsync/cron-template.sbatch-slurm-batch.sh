@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=cron
 #SBATCH --qos=cron
 
 SCHEDULE='59 23 * * *'

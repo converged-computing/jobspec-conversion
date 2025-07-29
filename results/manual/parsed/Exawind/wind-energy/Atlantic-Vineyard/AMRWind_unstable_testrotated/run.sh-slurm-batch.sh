@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=23:59:59
-#SBATCH --partition=standard
 
 export OMP_NUM_THREADS='1  # Max hardware threads = 4'
 export OMP_PLACES='threads'

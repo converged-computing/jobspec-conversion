@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20g
-#SBATCH --partition=gpu
 #SBATCH --chdir=/fs/clip-quiz/entilzha/code/qb-bert/src
 #SBATCH --exclude=materialgpu00
 

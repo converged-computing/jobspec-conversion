@@ -8,7 +8,6 @@
 #SBATCH --ntasks=3
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:30:00
-#SBATCH --partition=normal
 
 module load python3
 module list

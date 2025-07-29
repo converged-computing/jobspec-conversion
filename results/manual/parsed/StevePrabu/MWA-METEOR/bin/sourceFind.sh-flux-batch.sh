@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-toaster-9199
+#FLUX --job-name=wobbly-kerfuffle-5878
 #FLUX -n=36
 #FLUX --queue=workq
 #FLUX -t=10800

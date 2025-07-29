@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-citrus-4170
+#FLUX --job-name=expensive-cinnamonbun-6575
 #FLUX -N=2
 #FLUX -c=32
 #FLUX -t=7200

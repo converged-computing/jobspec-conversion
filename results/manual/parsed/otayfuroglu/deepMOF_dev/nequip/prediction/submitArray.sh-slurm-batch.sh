@@ -7,7 +7,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=12
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=1,gpu
 #SBATCH --array=0-9
 

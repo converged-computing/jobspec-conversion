@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-eagle-7707
+#FLUX --job-name=eccentric-nalgas-6133
 #FLUX -c=4
 #FLUX --queue=gpu_7d1g
 #FLUX --urgency=16

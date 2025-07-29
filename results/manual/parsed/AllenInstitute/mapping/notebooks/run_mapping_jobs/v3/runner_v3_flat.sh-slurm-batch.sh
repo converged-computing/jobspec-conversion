@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=500gb
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=celltypes
 
 mkdir $TMPDIR/tmp
 singularity exec --bind=/scratch/fast/$SLURM_JOBID/tmp:/tmp docker://alleninst/mapping_on_hpc Rscript R_scripts/v3_flat.R > logfiles/v3_flat_logfile

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-signal-5764
+#FLUX --job-name=moolicious-earthworm-6587
 #FLUX --queue=high
 #FLUX --urgency=16
 

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 export PYTHONPATH='/scratch/vihps/vihps14/env/lib/python3.9/site-packages:$PYTHONPATH'
 

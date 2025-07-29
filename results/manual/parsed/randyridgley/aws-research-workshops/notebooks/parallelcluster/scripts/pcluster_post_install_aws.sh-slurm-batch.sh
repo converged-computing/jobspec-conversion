@@ -3,7 +3,6 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=q1
 #SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/local/lib'

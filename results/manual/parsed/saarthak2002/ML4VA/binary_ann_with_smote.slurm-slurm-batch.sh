@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem=350GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=bii-gpu
 
 module purge
 module load anaconda/2020.11-py3.8

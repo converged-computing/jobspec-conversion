@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-cat-0724
+#FLUX --job-name=buttery-squidward-2446
 #FLUX --queue=short
 #FLUX -t=86400
 #FLUX --urgency=16

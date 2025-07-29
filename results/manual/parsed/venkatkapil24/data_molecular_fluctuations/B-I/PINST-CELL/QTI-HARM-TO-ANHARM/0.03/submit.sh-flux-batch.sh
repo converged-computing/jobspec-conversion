@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=PINST-CELL-0-B-II-new-QTI-3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX -t=86400
 #FLUX --urgency=16

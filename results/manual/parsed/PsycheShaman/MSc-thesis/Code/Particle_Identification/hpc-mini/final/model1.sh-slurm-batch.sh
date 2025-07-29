@@ -7,7 +7,6 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-22:00:00
-#SBATCH --partition=ada
 
 module load python/anaconda-python-3.7
 module load software/TensorFlow-CPU-py3

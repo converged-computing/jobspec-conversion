@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=190000
 #SBATCH --time=01:00:00
-#SBATCH --partition=main
 
 export OMP_NUM_THREADS='${SLURM_JOB_CPUS_PER_NODE}'
 export SINGULARITY_BIND='${workdir}/run:/run,${workdir}/tmp:/tmp,${workdir}/database.conf:/etc/rstudio/database.conf,${workdir}/rsession.sh:/etc/rstudio/rsession.sh,${workdir}/var/lib/rstudio-server:/var/lib/rstudio-server'

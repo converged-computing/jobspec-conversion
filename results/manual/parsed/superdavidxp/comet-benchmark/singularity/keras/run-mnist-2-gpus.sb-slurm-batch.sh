@@ -8,9 +8,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:k80:2
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu-shared
 #SBATCH --constraint=ntasks-per-node=2
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 declare -xr LOCAL_SCRATCH="/scratch/${USER}/${SLURM_JOB_ID}"
 declare -xr LUSTRE_SCRATCH="/oasis/scratch/comet/mkandes/temp_project/singularity/images"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-arm-1055
+#FLUX --job-name=doopy-kerfuffle-5437
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

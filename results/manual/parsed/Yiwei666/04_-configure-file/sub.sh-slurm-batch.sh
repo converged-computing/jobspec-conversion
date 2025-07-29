@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=amd_256
 
 export PATH='/public21/soft/cp2k/8.1/exe/local:$PATH'
 export CP2K_DATA_DIR='/public21/soft/cp2k/8.1/data'

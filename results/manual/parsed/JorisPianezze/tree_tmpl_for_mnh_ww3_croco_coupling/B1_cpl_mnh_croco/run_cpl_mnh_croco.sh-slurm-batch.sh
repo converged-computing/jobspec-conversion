@@ -6,9 +6,8 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=normal256
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 
 export dir_exe_croco='../../models/croco-v1.1/exe_IROISE_1core_CPLOA'
 

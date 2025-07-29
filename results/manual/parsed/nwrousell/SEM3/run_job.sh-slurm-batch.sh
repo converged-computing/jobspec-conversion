@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 export APPTAINER_BINDPATH='/oscar/home/$USER,/oscar/scratch/$USER,/oscar/data'
 export PYTHONUNBUFFERED='TRUE'

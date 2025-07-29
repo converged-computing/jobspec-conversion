@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-chip-6304
+#FLUX --job-name=doopy-banana-6620
 #FLUX --queue=gpu
 #FLUX -t=64500
 #FLUX --urgency=16

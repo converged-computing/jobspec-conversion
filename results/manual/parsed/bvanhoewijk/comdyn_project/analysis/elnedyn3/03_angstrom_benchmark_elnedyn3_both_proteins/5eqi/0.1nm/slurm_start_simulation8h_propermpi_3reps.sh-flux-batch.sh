@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-nalgas-4276
+#FLUX --job-name=angry-eagle-3278
 #FLUX -n=96
 #FLUX --queue=genoa
 #FLUX -t=43200

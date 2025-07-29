@@ -2,7 +2,7 @@
 #FLUX --job-name=EEG_2_CoordsV
 #FLUX -N=14
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=prod
 #FLUX -t=86400
 #FLUX --urgency=16

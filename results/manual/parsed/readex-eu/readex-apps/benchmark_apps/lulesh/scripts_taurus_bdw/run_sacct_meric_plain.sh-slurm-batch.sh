@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=28
 #SBATCH --mem=2200M
 #SBATCH --time=02:00:00
-#SBATCH --partition=broadwell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MERIC_MODE='3'
 export MERIC_DEBUG='0'

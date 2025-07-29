@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=48gb
 #SBATCH --time=08:00:00
-#SBATCH --partition=Intel6240
 
 source activate picrust2
 cd /hpcstor6/scratch01/p/patrick.kearns/Bullfrog_nut_enrich

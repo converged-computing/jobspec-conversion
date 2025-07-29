@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-banana-0812
+#FLUX --job-name=crusty-omelette-6196
 #FLUX --queue=gputest
 #FLUX -t=900
 #FLUX --urgency=16

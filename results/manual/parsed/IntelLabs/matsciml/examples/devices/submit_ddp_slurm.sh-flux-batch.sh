@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=ornery-taco-5503
-#FLUX: --exclusive
+#FLUX --job-name=bumfuzzled-avocado-2861
+#FLUX --exclusive
 #FLUX --queue=pvc
 #FLUX -t=9000
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-lemur-4043
+#FLUX --job-name=doopy-destiny-2112
 #FLUX --queue=mic
 #FLUX -t=14400
 #FLUX --urgency=16

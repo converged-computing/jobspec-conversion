@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-cattywampus-0360
+#FLUX --job-name=blank-chair-6633
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

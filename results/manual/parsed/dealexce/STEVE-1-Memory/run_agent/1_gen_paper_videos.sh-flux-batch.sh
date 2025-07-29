@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-kerfuffle-7437
+#FLUX --job-name=bumfuzzled-truffle-8597
 #FLUX -c=4
 #FLUX -t=14400
 #FLUX --urgency=16

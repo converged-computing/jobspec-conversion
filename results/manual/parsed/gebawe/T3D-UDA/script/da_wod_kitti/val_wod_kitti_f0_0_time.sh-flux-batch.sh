@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-fudge-5789
+#FLUX --job-name=purple-itch-1928
 #FLUX --queue=amdgpufast
 #FLUX -t=14400
 #FLUX --urgency=16

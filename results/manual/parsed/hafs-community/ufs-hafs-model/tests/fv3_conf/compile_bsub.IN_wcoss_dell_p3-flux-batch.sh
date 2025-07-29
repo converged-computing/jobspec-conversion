@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-earthworm-7207
+#FLUX --job-name=cowy-pancake-6650
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/hafs-community/ufs-hafs-model/tests/fv3_conf/compile_bsub.IN_wcoss_dell_p3

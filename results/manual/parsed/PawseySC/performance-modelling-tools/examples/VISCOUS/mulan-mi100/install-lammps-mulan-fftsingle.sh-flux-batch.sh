@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-pancake-9606
+#FLUX --job-name=fat-platanos-0441
 #FLUX -c=8
 #FLUX -t=3600
 #FLUX --urgency=16

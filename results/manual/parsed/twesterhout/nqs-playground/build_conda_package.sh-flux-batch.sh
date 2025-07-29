@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-kitty-8422
+#FLUX --job-name=gloopy-egg-0056
 #FLUX -c=16
 #FLUX --queue=gpu_short
 #FLUX -t=3600

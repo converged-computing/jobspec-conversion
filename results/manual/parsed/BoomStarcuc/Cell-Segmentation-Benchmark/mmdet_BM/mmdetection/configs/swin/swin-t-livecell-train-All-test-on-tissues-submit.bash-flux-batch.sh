@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-eagle-9218
+#FLUX --job-name=fuzzy-signal-5700
 #FLUX --urgency=16
 
 tissues=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')

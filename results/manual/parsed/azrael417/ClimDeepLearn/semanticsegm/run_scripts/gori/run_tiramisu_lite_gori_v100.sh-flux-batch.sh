@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=climseg_horovod
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=7200
 #FLUX --urgency=16
 

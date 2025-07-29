@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=5120M
 #SBATCH --time=1-21:30:00
-#SBATCH --partition=gpu
 
 echo $PATH
 module list

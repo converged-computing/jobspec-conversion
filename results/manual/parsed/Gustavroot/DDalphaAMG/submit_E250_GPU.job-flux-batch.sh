@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-fork-6977
+#FLUX --job-name=fat-nalgas-3473
 #FLUX -N=36
 #FLUX -c=12
 #FLUX --queue=booster

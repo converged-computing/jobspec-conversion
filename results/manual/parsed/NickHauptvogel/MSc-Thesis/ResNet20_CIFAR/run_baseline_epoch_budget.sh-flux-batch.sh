@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-fork-9778
+#FLUX --job-name=chunky-car-3510
 #FLUX -t=86400
 #FLUX --urgency=16
 

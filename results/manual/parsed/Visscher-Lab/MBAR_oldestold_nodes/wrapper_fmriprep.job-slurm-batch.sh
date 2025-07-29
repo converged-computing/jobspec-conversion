@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --mem=25000
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=long
 
 export SINGULARITY_BINDPATH='/data/project/vislab'
 

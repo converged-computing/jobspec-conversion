@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-caramel-6146
+#FLUX --job-name=pusheena-train-2200
 #FLUX -N=6
 #FLUX -n=96
 #FLUX -t=1800

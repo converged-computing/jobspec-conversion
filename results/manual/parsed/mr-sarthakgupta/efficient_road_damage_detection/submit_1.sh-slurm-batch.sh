@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=dgx
 
 CUDA_HOME=/usr/local/cuda
 CUDA_VISIBLE_DEVICES=1

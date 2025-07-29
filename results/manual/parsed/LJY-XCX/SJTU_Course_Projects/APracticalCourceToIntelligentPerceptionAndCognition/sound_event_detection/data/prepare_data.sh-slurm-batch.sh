@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=small
 
 if [ ! $# -eq 1 ]; then
     echo -e "Usage: $0 <raw_data_dir>"

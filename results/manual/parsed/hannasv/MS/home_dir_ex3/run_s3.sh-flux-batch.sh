@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-platanos-4192
+#FLUX --job-name=dinosaur-earthworm-6852
 #FLUX -n=32
 #FLUX --queue=defq
 #FLUX -t=87840

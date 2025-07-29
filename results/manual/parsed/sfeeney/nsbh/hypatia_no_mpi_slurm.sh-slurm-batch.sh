@@ -3,8 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=CORES24
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --array=1-24
 
 module purge

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=50G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu80G
 
 set -o errexit
 set -o pipefail

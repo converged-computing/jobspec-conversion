@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=cpu_short
 #SBATCH --constraint=ntasks-per-node=1
 
 module load nextflow

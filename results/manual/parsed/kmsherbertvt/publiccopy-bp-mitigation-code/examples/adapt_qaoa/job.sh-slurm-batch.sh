@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=200G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=normal_q
 
 export NTHREAD='20'
 export JULIAENV='/home/gbarron/bp-mitigation-code/'

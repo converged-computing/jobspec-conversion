@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-mango-6241
+#FLUX --job-name=dirty-lemon-9306
 #FLUX -t=60
 #FLUX --urgency=16
 

@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1GB
 #SBATCH --time=01:30:00
-#SBATCH --partition=bigmem
 
 export LAUNCHER_WORKDIR='/cluster/projects/nn9464k/fabio/OSCAR_response_results/641159/data'
 export LD_LIBRARY_PATH='/cluster/home/fabiobz/progs/xerces-c-3.2.3/install/lib:$LD_LIBRARY_PATH'

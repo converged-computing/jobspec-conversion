@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-arm-6995
+#FLUX --job-name=eccentric-malarkey-6709
 #FLUX -t=7800
 #FLUX --urgency=16
 

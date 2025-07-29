@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=long
 
 module load apptainer
 module load nextflow/23.10.1

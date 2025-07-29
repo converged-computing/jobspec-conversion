@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=All
 #SBATCH --chdir=./
 #SBATCH --array=[1,2,3,4,5]
 

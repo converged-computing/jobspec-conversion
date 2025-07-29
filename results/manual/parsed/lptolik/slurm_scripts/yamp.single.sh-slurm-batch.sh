@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=compute
 
 if test "$#" -ne 4; then
     echo "Script requires 4 parameters:"

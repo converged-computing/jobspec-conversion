@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=iaf2info
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=64c512g
 #FLUX --urgency=16
 

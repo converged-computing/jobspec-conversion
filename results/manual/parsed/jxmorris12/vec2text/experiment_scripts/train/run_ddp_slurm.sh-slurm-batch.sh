@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:a6000:4
 #SBATCH --mem=128G
 #SBATCH --time=28-00:00:00
-#SBATCH --partition=rush,gpu
 
 export BASEDIR='/home/jxm3/research/retrieval/inversion/vec2text/'
 export NCCL_P2P_LEVEL='NVL'

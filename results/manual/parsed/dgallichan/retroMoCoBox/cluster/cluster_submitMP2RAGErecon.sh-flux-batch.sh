@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-house-4685
+#FLUX --job-name=persnickety-leg-2371
 #FLUX --urgency=16
 
 export SPM_HOME='/cubric/software/spm.versions/spm12'

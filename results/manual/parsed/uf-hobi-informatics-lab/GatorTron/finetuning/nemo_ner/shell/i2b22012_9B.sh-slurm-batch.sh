@@ -9,8 +9,7 @@
 #SBATCH --gpus-per-task=8
 #SBATCH --mem=2000gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 pwd; hostname; date

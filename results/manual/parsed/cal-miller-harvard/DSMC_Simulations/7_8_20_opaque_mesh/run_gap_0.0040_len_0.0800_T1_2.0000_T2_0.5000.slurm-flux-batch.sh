@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-kitty-6942
+#FLUX --job-name=conspicuous-nalgas-2753
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

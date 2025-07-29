@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=01:50:00
-#SBATCH --partition=all
 #SBATCH --array=1-39
 
 module load vital-it/7

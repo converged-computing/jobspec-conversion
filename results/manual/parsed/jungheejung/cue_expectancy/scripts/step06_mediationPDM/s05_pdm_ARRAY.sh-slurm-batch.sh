@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=8gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=standard
 
 CANLABCORE_DIR="'/dartfs-hpc/rc/lab/C/CANlab/modules/CanlabCore/CanlabCore'"
 SPM12_DIR="'/dartfs-hpc/rc/lab/C/CANlab/modules/spm12'"

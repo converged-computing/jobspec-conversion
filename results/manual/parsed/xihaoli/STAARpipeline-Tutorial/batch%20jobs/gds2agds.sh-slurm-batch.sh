@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=60000
 #SBATCH --time=02:24:00
-#SBATCH --partition=shared
 #SBATCH --array=1-22
 
 export R_LIBS_USER='$HOME/R-3.6.1-MKL'

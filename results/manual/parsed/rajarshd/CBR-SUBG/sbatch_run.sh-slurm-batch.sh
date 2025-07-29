@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=2080ti-long
 #SBATCH --array=0-5
 
 wandb agent rajarshd/cbr-weak-supervision/zdydurcs

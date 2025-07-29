@@ -2,7 +2,7 @@
 #FLUX --job-name=hybrid
 #FLUX -N=2
 #FLUX -n=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

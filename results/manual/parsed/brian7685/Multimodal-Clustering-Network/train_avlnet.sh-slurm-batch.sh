@@ -9,7 +9,7 @@
 #SBATCH --mem=1T
 #SBATCH --time=1-00:00:00
 #SBATCH --qos=sched_level_2
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 echo " "

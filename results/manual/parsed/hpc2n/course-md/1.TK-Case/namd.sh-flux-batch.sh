@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-underoos-2421
+#FLUX --job-name=carnivorous-truffle-6822
 #FLUX -n=28
 #FLUX -t=3000
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-dog-0395
+#FLUX --job-name=stanky-arm-8168
 #FLUX -n=8
 #FLUX --queue=gpu_requeue
 #FLUX -t=480

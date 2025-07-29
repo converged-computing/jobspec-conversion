@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=rtx_2080:1
 #SBATCH --mem=60gb
-#SBATCH --partition=normal
 
 date;hostname;pwd
 python scripts/project_multiview_features.py --maxpool

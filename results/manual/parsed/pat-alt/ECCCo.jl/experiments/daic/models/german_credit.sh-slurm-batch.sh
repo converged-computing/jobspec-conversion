@@ -6,6 +6,5 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=4GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=general
 
 srun julia --project=experiments experiments/run_experiments.jl -- data=german_credit output_path=results only_models > experiments/train_german_credit.log

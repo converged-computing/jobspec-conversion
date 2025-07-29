@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-taco-3054
+#FLUX --job-name=chocolate-soup-0345
 #FLUX --queue=sched_mit_sloan_batch
 #FLUX -t=900
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-plant-1770
+#FLUX --job-name=gassy-peas-1672
 #FLUX --queue=All
 #FLUX --urgency=16
 

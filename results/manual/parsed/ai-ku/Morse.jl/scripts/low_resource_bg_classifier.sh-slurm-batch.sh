@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
-#SBATCH --partition=gpu
 #SBATCH --qos=high
 
 echo "julia main.jl --lang bg --epochs 100 --dropouts 0.5 --modelType Classifier --optimizer 'Rmsprop(lr=1.0e-3, gclip=60)'"

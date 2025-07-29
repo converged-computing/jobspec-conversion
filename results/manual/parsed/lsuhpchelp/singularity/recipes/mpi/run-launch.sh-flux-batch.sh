@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-nalgas-4938
+#FLUX --job-name=fuzzy-fudge-6193
 #FLUX -N=2
 #FLUX -n=2
 #FLUX --queue=checkpt

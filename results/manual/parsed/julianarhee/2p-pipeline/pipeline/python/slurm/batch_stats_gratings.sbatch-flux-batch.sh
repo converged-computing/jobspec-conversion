@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-house-9843
+#FLUX --job-name=astute-chip-9361
 #FLUX -n=8
 #FLUX --queue=cox
 #FLUX -t=720

@@ -9,8 +9,7 @@
 #SBATCH --cpus-per-task=80
 #SBATCH --mem=200000
 #SBATCH --time=23:00:00
-#SBATCH --partition=defq
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=0-8
 

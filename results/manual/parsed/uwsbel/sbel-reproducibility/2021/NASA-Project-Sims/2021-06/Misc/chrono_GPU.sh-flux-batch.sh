@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-malarkey-9315
+#FLUX --job-name=persnickety-onion-0701
 #FLUX --queue=sbel
 #FLUX -t=259200
 #FLUX --urgency=16

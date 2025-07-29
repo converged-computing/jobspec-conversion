@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-egg-8362
+#FLUX --job-name=sticky-despacito-3143
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

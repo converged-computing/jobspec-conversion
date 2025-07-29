@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-train-0123
+#FLUX --job-name=eccentric-blackbean-8058
 #FLUX --queue=standard
 #FLUX -t=3600
 #FLUX --urgency=16

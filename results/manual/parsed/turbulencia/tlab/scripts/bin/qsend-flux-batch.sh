@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-sundae-9522
+#FLUX --job-name=milky-cat-8310
 #FLUX --urgency=16
 
 export TOOLS_HOME='$HOME/bin'

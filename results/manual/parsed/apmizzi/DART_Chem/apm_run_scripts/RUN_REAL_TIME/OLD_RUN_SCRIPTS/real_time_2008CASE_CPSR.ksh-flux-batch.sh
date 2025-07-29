@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-citrus-9417
+#FLUX --job-name=muffled-peanut-4409
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/apmizzi/DART_Chem/apm_run_scripts/RUN_REAL_TIME/OLD_RUN_SCRIPTS/real_time_2008CASE_CPSR.ksh

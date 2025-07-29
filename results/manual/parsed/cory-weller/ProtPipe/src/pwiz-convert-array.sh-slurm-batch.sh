@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8G
 #SBATCH --time=00:59:00
-#SBATCH --partition=quick,norm
 
 N=${SLURM_ARRAY_TASK_ID}
 filelist=${1}

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-house-1919
+#FLUX --job-name=tart-kitty-8724
 #FLUX -n=4
 #FLUX --queue=copyq
 #FLUX -t=129600

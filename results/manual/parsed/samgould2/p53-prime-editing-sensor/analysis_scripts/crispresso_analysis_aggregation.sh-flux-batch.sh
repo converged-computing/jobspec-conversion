@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-poo-4519
+#FLUX --job-name=adorable-lettuce-2974
 #FLUX --urgency=15
 
 module load miniconda3/v4

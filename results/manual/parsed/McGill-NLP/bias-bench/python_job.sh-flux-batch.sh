@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-earthworm-5982
+#FLUX --job-name=red-malarkey-0621
 #FLUX -c=4
 #FLUX --queue=main
 #FLUX -t=1800

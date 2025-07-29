@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=defq-48core
 #SBATCH --array=1-100
 
 export SUMO_HOME='/work/apps/sumo/share/sumo'

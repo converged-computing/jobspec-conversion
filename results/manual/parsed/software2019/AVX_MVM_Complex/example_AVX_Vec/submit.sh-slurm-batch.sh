@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=test
 
 export I_MPI_DEBUG='5 '
 export MPI_DSM_VERBOSE='1 '

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-onion-5719
+#FLUX --job-name=scruptious-caramel-5600
 #FLUX -c=4
 #FLUX -t=172800
 #FLUX --urgency=16

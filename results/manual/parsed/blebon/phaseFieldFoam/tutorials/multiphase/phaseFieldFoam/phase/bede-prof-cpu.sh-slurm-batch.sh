@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 
 export application='`getApplication`'
 

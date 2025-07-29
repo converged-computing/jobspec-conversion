@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=mi100q
 #SBATCH --nodelist=n004
 
 MFEM_BUILD_DIR=./build-mi100q

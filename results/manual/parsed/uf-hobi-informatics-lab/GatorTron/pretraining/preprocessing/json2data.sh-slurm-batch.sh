@@ -9,7 +9,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=512gb
 #SBATCH --time=12:00:00
-#SBATCH --partition=hpg-ai
 
 pwd; hostname; date
 echo "Pipeline task on processing json to data bin"

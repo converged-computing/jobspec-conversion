@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-egg-1272
+#FLUX --job-name=buttery-staircase-5151
 #FLUX --queue=bii-gpu
 #FLUX -t=129600
 #FLUX --urgency=16

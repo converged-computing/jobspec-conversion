@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=300000
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=dgx
 #SBATCH --chdir=/zfs/hybrilit.jinr.ru/user/a/astrakh/SU3_stag/builds/hydra/logs
 
 start=$(date +%s)

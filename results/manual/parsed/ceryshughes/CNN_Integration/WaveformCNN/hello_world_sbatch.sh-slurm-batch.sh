@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=8192
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 module load miniconda/4.11.0
 conda run -n cerys python3.8 hello_world.py

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-lettuce-5825
+#FLUX --job-name=blank-bike-6473
 #FLUX -c=16
 #FLUX --queue=AMG
 #FLUX -t=86400

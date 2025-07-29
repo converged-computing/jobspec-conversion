@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1,gpu
 
 export JULIA_DEPOT_PATH='$TMPDIR/.julia":"$TMPDIR/julia/local/share/julia":"$TMPDIR/julia/share/julia'

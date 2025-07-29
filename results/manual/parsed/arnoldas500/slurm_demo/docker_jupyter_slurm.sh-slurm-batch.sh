@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=1gb
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=normal
 
 docker run -v /home/aevans:/home/aevans -v /raid/NYSM:/home/aevans/NYSM --name=jupyter_ae -w /home/aevans -u aevans --runtime=nvidia --gpus=1 -p 8886:88

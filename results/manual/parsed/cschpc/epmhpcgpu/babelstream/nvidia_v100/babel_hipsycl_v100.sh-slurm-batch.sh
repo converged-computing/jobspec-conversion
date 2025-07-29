@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=8000
 #SBATCH --time=00:02:00
-#SBATCH --partition=gpumedium
 
 for i in {1..10}; do
         echo $i

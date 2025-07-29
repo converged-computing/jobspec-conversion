@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-parsnip-2802
+#FLUX --job-name=expensive-fork-1920
 #FLUX -N=4
 #FLUX -n=96
 #FLUX --queue=parallel

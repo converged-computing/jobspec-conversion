@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gtest
 #SBATCH --constraint=ntasks-per-node=1,ntasks-per-socket=1
 
 module load intel/2018

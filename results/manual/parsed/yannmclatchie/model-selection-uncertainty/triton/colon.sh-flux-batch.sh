@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-taco-3290
+#FLUX --job-name=faux-bits-2566
 #FLUX -c=4
 #FLUX -t=432000
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-salad-9022
+#FLUX --job-name=arid-egg-4710
 #FLUX -c=2
 #FLUX --queue=general
 #FLUX -t=10800

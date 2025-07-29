@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:a100:2
 #SBATCH --mem-per-cpu=0
 #SBATCH --time=03:00:00
-#SBATCH --partition=debug
 
 export PATH='$PATH:~/julia-1.8.5/bin'
 

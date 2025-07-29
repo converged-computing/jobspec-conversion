@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=32GB
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 
 source /etc/profile.d/modules.sh
 source ~/.bashrc

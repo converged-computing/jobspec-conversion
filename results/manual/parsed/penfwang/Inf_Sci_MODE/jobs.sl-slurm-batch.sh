@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=3600
 #SBATCH --time=2-12:35:00
-#SBATCH --partition=large
 #SBATCH --array=1-30
 
 file_path=/nesi/project/vuw03334/binary_DE/algorithms1

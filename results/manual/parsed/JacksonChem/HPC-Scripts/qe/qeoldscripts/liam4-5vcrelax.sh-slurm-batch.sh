@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=250GB
 #SBATCH --time=8-08:00:00
-#SBATCH --partition=amd
 
 NPROC=100
 CURDIR=$(pwd)

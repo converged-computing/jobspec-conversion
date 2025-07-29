@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-latke-4102
+#FLUX --job-name=lovely-chair-2499
 #FLUX --queue=class
 #FLUX -t=18000
 #FLUX --urgency=16

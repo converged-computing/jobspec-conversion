@@ -2,7 +2,7 @@
 #FLUX --job-name=vmodes
 #FLUX -N=2
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

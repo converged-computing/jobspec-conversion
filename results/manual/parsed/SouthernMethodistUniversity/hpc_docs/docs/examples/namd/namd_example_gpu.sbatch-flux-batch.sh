@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=example
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpgpu-1
 #FLUX --urgency=16
 

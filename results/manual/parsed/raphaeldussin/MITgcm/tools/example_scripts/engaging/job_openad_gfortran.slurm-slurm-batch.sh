@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
-#SBATCH --partition=sched_mit_darwin
 
 export LC_ALL='en_US.iso885915'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-cherry-3866
+#FLUX --job-name=conspicuous-squidward-0988
 #FLUX --queue=seas_gpu
 #FLUX -t=21600
 #FLUX --urgency=16

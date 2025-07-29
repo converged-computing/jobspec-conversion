@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-gato-8855
+#FLUX --job-name=eccentric-motorcycle-1814
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

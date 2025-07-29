@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-puppy-8311
+#FLUX --job-name=sticky-staircase-0489
 #FLUX -c=16
 #FLUX --urgency=16
 

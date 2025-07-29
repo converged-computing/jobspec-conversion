@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=compute
 #SBATCH --array=0-99
 
 module load ruse

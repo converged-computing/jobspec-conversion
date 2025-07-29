@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-lentil-5285
+#FLUX --job-name=gassy-signal-9570
 #FLUX -c=6
 #FLUX -t=1200
 #FLUX --urgency=16

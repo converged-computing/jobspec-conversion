@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-underoos-7702
+#FLUX --job-name=red-earthworm-8403
 #FLUX --queue=standard96
 #FLUX -t=43200
 #FLUX --urgency=16

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=64G
 #SBATCH --time=00:05:00
-#SBATCH --partition=gpgpumse
 #SBATCH --constraint=ntasks-per-node=1
 
 echo "Loading required modules"

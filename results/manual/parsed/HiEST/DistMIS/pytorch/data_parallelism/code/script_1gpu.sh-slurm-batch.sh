@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-06:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=.
 

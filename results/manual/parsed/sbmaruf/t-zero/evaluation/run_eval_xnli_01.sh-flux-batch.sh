@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-staircase-9587
+#FLUX --job-name=fugly-nalgas-6140
 #FLUX --queue=PA100q
 #FLUX --urgency=16
 

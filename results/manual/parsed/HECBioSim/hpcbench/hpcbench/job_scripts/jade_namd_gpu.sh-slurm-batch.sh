@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:$num_gpus
 #SBATCH --time=00:50:00
-#SBATCH --partition=$partition
 
 export PATH='/jmain02/home/J2AD004/sxk40/rxw76-sxk40/anaconda3/bin:£PATH'
 

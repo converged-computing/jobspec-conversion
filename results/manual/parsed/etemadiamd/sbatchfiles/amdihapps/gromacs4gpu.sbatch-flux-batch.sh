@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-toaster-9171
+#FLUX --job-name=expressive-chip-5593
 #FLUX -c=16
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-pot-9818
+#FLUX --job-name=nerdy-blackbean-4320
 #FLUX -c=6
 #FLUX --queue=amdlong
 #FLUX -t=259200

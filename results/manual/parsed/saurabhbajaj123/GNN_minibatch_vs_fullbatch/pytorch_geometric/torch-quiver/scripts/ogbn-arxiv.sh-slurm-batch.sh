@@ -6,7 +6,6 @@
 #SBATCH --gres=4
 #SBATCH --mem=100G
 #SBATCH --time=00:25:00
-#SBATCH --partition=gpu-preempt
 #SBATCH --constraint=intel8480
 
 nvidia-smi --query-gpu=gpu_name --format=csv,noheader

@@ -6,7 +6,7 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=0
 #SBATCH --time=3-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export CONT='/scratch/nnisbet/mlperf_hpc-openfold_latest.sif'
 export OMP_NUM_THREADS='1'

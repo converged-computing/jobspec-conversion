@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
-#SBATCH --partition=orion
 #SBATCH --constraint=avx2
 
 module load singularity

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-soup-6724
+#FLUX --job-name=bumfuzzled-blackbean-2707
 #FLUX --queue=amdfast
 #FLUX -t=14400
 #FLUX --urgency=16

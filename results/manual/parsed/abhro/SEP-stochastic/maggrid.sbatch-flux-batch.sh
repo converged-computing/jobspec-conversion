@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-eagle-0461
+#FLUX --job-name=tart-fudge-6783
 #FLUX -c=16
 #FLUX --queue=long
 #FLUX -t=10800

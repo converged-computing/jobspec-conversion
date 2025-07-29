@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=2GB
 #SBATCH --time=06:00:00
-#SBATCH --partition=compute
 
 echo "Job ID: $SLURM_JOB_ID, JobName: $SLURM_JOB_NAME"
 hostname; pwd; date

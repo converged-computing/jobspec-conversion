@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120G
 #SBATCH --time=30-00:00:00
-#SBATCH --partition=coenv
 #SBATCH --chdir=
 
 set -e

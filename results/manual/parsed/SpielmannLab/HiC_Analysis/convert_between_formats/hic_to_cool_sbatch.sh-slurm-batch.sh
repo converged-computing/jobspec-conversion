@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2GB
-#SBATCH --partition=shortterm
 
 module load nextflow/v22.04.1
 mkdir -p $WORK/hic_to_cool_nextflow_launchdir

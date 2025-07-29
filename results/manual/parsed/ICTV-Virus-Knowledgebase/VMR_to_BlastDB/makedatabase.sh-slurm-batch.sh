@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30000
 #SBATCH --time=12:00:00
-#SBATCH --partition=amd-hdr100
 
 ACCESSION_TSV=processed_accessions_e.tsv
 ALL_FASTA=./fasta_new_vmr/vmr_e.fa

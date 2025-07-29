@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=adorable-chip-3766
-#FLUX: --exclusive
+#FLUX --job-name=carnivorous-leg-7313
+#FLUX --exclusive
 #FLUX --urgency=16
 
 readonly datadir="/datasets/imagenet/train-val-tfrecord"

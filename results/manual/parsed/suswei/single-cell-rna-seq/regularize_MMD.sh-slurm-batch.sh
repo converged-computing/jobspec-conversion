@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5000
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=physical
 #SBATCH --array=0-99
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then

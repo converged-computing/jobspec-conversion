@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-hippo-8786
+#FLUX --job-name=cowy-gato-4004
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PsuAstro528/lab6-start-Spring2019/ex1_parallel.pbs

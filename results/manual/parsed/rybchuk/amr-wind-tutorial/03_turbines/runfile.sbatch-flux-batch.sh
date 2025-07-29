@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-cinnamonbun-5493
+#FLUX --job-name=gloopy-poo-4598
 #FLUX -N=2
 #FLUX --queue=debug
 #FLUX -t=3540

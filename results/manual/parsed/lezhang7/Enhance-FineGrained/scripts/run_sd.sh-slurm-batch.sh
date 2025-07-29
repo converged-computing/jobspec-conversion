@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a100l:4
 #SBATCH --mem=64G
 #SBATCH --time=03:00:00
-#SBATCH --partition=short-unkillable
 #SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_PORT='$(expr 10000 + $(echo -n $SLURM_JOBID | tail -c 4))'

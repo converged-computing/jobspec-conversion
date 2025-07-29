@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=10G
 #SBATCH --time=8-00:00:00
-#SBATCH --partition=amd
 #SBATCH --array=0-2%1
 
 module load any/python/3.8.3-conda

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-itch-6804
+#FLUX --job-name=conspicuous-salad-0153
 #FLUX -c=20
 #FLUX --queue=defq
 #FLUX -t=172800

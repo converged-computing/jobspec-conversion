@@ -8,7 +8,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=v100
 
 scontrol show hostnames $SLURM_NODELIST > /tmp/hostfile
 cat /tmp/hostfile

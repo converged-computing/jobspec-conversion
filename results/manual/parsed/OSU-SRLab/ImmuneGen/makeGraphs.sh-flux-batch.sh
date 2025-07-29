@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-malarkey-9566
+#FLUX --job-name=eccentric-hippo-2300
 #FLUX -N=5
 #FLUX -t=345600
 #FLUX --urgency=16

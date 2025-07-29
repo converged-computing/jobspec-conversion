@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-lemur-5880
+#FLUX --job-name=grated-kerfuffle-9005
 #FLUX --queue=hci-rw
 #FLUX -t=172800
 #FLUX --urgency=16

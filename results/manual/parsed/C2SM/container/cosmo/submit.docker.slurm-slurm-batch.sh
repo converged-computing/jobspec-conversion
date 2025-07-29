@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:05:00
-#SBATCH --partition=normal
 #SBATCH --constraint=gpu
 
 export MALLOC_MMAP_MAX_='0'

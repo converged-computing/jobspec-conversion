@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=1972M
 #SBATCH --time=04:00:00
-#SBATCH --partition=romeo
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load CMake Ninja Clang hwloc
 module list

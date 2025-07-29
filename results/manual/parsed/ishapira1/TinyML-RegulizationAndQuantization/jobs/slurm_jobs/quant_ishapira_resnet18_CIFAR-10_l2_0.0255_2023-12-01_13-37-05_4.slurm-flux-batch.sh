@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-citrus-3764
+#FLUX --job-name=bloated-train-6457
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

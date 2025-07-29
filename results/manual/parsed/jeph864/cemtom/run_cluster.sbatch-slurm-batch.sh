@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:V100:4
 #SBATCH --mem=16G
 #SBATCH --time=04:00:00
-#SBATCH --partition=informatik-mind
 
 module load anaconda3/latest
 . $ANACONDA_HOME/etc/profile.d/conda.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-cattywampus-2026
+#FLUX --job-name=eccentric-cat-3000
 #FLUX -N=8
 #FLUX --queue=debug
 #FLUX -t=1800

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=02:00:00
-#SBATCH --partition=owners
 
 remote_name=quakedrive
 drive_path='Sherlock Backupss'

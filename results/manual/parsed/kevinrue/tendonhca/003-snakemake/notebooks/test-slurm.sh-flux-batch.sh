@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-cinnamonbun-1246
+#FLUX --job-name=bloated-plant-1100
 #FLUX --queue=gpu
 #FLUX -t=3600
 #FLUX --urgency=16

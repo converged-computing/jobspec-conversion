@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=90000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=[1-200]
 #SBATCH --nodelist=rysy-n6

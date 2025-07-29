@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=16gb
 #SBATCH --time=23:58:00
-#SBATCH --partition=gpu
 
 export WANDB_API_KEY='87ae4293cc8f38d09bcc01d3a52d34b68630a156'
 export PYTHONPATH=':/cluster/work/jorner/schaluca/Software/models/diffusion/dockgame'

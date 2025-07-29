@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=5G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=gpu-a100
 #SBATCH --array=0-3839
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then

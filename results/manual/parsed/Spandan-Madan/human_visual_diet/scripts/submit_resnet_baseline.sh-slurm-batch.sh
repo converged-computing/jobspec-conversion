@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=seas_gpu
 #SBATCH --array=0
 
 eval "$(conda shell.bash hook)"

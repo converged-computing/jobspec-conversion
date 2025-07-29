@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=00:45:00
-#SBATCH --partition=normal
 
 set -o errexit # Make bash exit on any error
 set -o nounset # Treat unset variables as errors

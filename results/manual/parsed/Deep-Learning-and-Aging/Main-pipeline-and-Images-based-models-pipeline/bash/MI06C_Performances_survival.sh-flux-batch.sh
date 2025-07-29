@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-fork-1817
+#FLUX --job-name=placid-frito-5468
 #FLUX --queue=priority
 #FLUX --urgency=16
 

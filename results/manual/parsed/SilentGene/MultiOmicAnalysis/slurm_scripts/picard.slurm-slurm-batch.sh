@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=physical
 
 module load picard/2.18.27
 bam_dir=$1

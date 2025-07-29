@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30gb
 #SBATCH --time=00:30:00
-#SBATCH --partition=small,amdsmall,amd512,ram256g
 
 cd run_files.dua
 module load singularity

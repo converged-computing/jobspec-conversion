@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=loopy-kerfuffle-0707
+#FLUX --job-name=stinky-buttface-6774
 #FLUX -c=4
 #FLUX --gpus-per-task=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpg-ai
 #FLUX -t=14400
 #FLUX --urgency=16

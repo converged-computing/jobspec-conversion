@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=slurm
 
 export MY_CLUSTER='deception'
 

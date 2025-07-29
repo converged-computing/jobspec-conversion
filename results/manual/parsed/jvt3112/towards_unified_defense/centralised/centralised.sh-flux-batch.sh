@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-rabbit-9190
+#FLUX --job-name=phat-animal-9467
 #FLUX --urgency=16
 
 export PATH='/vol/bitbucket/jvt22/myvenv/bin:$PATH'

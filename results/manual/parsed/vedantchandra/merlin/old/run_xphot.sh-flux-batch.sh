@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-rabbit-7091
+#FLUX --job-name=ornery-latke-7902
 #FLUX --queue=conroy_priority,test,shared,itc_cluster
 #FLUX -t=120
 #FLUX --urgency=16

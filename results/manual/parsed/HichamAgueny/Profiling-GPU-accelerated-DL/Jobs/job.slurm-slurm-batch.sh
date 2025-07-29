@@ -8,7 +8,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=4G
 #SBATCH --time=00:10:00
-#SBATCH --partition=accel
 
 Mydir=/cluster/projects/nn9987k/PyTorchProfiler
 MyContainer=${Mydir}/Container/pytorch_22.12-py3.sif

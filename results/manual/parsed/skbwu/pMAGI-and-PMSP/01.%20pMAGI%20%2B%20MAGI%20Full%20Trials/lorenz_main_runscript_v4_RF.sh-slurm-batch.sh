@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16000
 #SBATCH --time=00:12:00
-#SBATCH --partition=sapphire,shared
 
 export R_LIBS_USER='/n/home11/skbwu/apps/R_422 # tell R where to look for locally installed packages'
 

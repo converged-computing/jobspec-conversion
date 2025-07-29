@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=faux-soup-8577
+#FLUX --job-name=loopy-kitty-6310
 #FLUX --urgency=16
 

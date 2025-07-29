@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=hanky-egg-7147
+#FLUX --job-name=quirky-malarkey-1703
 #FLUX -N=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=boost_usr_prod
 #FLUX -t=86400
 #FLUX --urgency=16

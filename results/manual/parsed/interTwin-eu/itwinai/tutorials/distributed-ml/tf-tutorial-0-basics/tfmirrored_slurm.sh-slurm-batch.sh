@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:15:00
-#SBATCH --partition=batch
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export TF_USE_LEGACY_KERAS='1'

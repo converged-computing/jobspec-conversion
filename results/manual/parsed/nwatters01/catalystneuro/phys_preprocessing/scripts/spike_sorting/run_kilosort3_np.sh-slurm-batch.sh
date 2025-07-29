@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:QUADRORTX6000:1
 #SBATCH --mem=128G
 #SBATCH --time=10:00:00
-#SBATCH --partition=jazayeri
 
 export MW_NVCC_PATH='/cm/shared/openmind/cuda/9.1/bin  # Cuda driver'
 

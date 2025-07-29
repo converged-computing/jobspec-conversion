@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-diablo-1472
+#FLUX --job-name=confused-nunchucks-6732
 #FLUX -c=128
 #FLUX --gpus-per-task=1
 #FLUX --queue=regular

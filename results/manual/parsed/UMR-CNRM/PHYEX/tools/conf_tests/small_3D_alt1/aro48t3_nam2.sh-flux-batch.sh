@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-snack-8238
+#FLUX --job-name=milky-omelette-0908
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-citrus-8503
+#FLUX --job-name=purple-pedo-9407
 #FLUX -n=16
 #FLUX --queue=batch
 #FLUX -t=7200

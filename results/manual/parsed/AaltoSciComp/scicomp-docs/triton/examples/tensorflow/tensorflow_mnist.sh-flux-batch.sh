@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-hobbit-1453
+#FLUX --job-name=muffled-plant-0842
 #FLUX -t=900
 #FLUX --urgency=16
 

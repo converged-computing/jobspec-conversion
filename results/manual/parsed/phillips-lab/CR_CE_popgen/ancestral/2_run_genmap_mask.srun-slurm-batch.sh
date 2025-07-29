@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=50g
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=phillips
 #SBATCH --array=0-4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-pot-8634
+#FLUX --job-name=hello-train-8452
 #FLUX -N=4
 #FLUX -n=16
 #FLUX -c=12

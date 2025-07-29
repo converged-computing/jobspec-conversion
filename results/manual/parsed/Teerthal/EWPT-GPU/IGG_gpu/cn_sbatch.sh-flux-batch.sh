@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-hippo-7009
+#FLUX --job-name=doopy-parrot-2664
 #FLUX --queue=public
 #FLUX -t=86640
 #FLUX --urgency=16

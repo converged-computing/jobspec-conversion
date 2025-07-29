@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-peas-9766
+#FLUX --job-name=goodbye-leader-9828
 #FLUX -c=16
 #FLUX --gpus-per-task=1
 #FLUX --queue=gpu-dev

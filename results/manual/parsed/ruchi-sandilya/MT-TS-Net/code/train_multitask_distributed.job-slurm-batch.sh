@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
-#SBATCH --partition=gpu
 
 export NCCL_DEBUG='INFO'
 export NCCL_DEBUG_SUBSYS='COLL'

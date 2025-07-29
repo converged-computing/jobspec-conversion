@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:volta16:1
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=GPU-AI
 
 export PYTHONPATH='$HOME/.local/lib/python3.6/site-packages:$PYTHONPATH'
 

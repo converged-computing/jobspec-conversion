@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=mod_agg
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX --urgency=16
 

@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:01:00
-#SBATCH --partition=gpu_p1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=4
 
 cd ${SLURM_SUBMIT_DIR}

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=bloated-hobbit-1745
+#FLUX --job-name=hairy-rabbit-7204
 #FLUX -N=500
 #FLUX -n=32000
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cont
 #FLUX -t=1800
 #FLUX --urgency=16

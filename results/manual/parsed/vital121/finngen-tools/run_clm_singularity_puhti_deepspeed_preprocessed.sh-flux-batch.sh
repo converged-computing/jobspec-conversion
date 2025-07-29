@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-pot-0639
+#FLUX --job-name=stanky-egg-6979
 #FLUX -N=2
 #FLUX --queue=gputest
 #FLUX -t=900

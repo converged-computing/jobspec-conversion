@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=long
 
 module load samtools/1.8
 module load bedtools/2.28.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-toaster-4032
+#FLUX --job-name=persnickety-blackbean-9205
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MickiFoerster/spl-transformer/test-suite/plain-parallel/opt-vs-noopt.bsub

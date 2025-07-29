@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-puppy-8492
+#FLUX --job-name=peachy-soup-1869
 #FLUX --urgency=16
 
 PARLAI=../../..                # Where ParlAI exists in filesystem relative to script

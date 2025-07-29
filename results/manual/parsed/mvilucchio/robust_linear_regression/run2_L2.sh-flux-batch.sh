@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-lemon-3215
+#FLUX --job-name=angry-car-7369
 #FLUX --queue=parallel
 #FLUX -t=86400
 #FLUX --urgency=16

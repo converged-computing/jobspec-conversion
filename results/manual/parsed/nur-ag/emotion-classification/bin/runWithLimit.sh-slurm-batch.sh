@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32g
-#SBATCH --partition=high
 #SBATCH --array=1-255
 
 module load CUDA/10.0.130

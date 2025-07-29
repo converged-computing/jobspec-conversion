@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-spoon-8733
+#FLUX --job-name=dinosaur-house-4327
 #FLUX --queue=maxwell
 #FLUX -t=72000
 #FLUX --urgency=16

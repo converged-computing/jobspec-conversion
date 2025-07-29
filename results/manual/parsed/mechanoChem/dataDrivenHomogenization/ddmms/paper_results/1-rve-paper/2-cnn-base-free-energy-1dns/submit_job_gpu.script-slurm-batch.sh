@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=25GB
 #SBATCH --time=1-23:00:00
-#SBATCH --partition=gpu-shared
 #SBATCH --constraint=ntasks-per-node=6
 
 export PYTHONPATH='PYTHONPATH:$HOME/python_projects/'

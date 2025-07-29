@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000M
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=QuamNESS
 #SBATCH --constraint=ntasks-per-node=28
 
 module purge

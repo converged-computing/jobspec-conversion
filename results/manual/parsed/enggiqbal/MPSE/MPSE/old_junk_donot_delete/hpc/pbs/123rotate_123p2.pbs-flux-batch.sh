@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-arm-0488
+#FLUX --job-name=crusty-knife-0485
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/enggiqbal/MPSE/MPSE/old_junk_donot_delete/hpc/pbs/123rotate_123p2.pbs

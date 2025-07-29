@@ -8,10 +8,9 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=247000
 #SBATCH --time=04:00:00
-#SBATCH --partition=normal256
 #SBATCH --qos=coper
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 
 export QSUB_WORKDIR='`/bin/pwd`'
 export FORT_BUFFERED='yes'

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-dog-7307
+#FLUX --job-name=buttery-omelette-9760
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-nunchucks-1234
+#FLUX --job-name=hanky-parrot-2417
 #FLUX -N=32
 #FLUX -n=32
 #FLUX -c=12

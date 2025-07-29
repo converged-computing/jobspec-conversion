@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 
 module swap PrgEnv-intel PrgEnv-gnu
 cd $SLURM_SUBMIT_DIR   # optional, since this is the default behavior

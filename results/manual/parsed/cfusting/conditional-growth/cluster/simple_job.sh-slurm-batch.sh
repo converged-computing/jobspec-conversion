@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:t4:4
 #SBATCH --mem=8g
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=preempt
 #SBATCH --chdir=/cluster/home/skrieg01
 
 module load singularity/3.6.1

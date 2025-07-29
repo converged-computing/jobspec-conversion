@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=30G
 #SBATCH --time=03:59:00
-#SBATCH --partition=long
 
 export WANDB_API_KEY='1406ef3255ef2806f2ecc925a5e845e7164b5eef'
 export LD_PRELOAD='/home/mila/s/sayed.mansouri-tehrani/MD-CRL/hack.so'

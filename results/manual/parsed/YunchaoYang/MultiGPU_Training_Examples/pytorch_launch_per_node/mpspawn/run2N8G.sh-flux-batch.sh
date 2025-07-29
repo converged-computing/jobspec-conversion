@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-leopard-3243
+#FLUX --job-name=stinky-fudge-2236
 #FLUX -N=2
 #FLUX -c=4
 #FLUX --queue=hpg-ai

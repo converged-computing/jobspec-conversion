@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=grated-chip-5092
+#FLUX --job-name=doopy-car-3398
 #FLUX --urgency=16
 

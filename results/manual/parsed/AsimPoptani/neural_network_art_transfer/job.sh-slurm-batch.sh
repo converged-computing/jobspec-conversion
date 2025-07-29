@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=4gb
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
 
 echo "Pulling latest"
 git pull

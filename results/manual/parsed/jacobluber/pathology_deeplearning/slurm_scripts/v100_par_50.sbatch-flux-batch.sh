@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-omelette-4138
+#FLUX --job-name=loopy-chip-4945
 #FLUX -N=6
 #FLUX -c=8
 #FLUX --queue=gpu

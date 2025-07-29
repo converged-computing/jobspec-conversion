@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=2G
-#SBATCH --partition=long
 
 module load  Nextflow/23.04.2
 module load Anaconda3/5.3.0

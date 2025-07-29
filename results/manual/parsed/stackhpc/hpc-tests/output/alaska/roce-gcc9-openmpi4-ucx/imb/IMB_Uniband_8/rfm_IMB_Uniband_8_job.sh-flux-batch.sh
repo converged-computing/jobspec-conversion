@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=rfm_IMB_Uniband_8_job
 #FLUX -n=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

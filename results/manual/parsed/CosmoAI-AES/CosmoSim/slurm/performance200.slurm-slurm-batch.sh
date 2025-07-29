@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=64000
 #SBATCH --time=06:00:00
-#SBATCH --partition=CPUQ
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

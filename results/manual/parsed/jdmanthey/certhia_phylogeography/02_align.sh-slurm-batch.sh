@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=quanah
 #SBATCH --chdir=./
 #SBATCH --array=1-22
 

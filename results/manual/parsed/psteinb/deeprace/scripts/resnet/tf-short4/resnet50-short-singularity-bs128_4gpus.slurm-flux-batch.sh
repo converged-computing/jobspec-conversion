@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-peanut-butter-8877
+#FLUX --job-name=blank-malarkey-7223
 #FLUX --queue=gpu2
 #FLUX -t=3600
 #FLUX --urgency=16

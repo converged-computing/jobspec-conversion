@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-platanos-4835
+#FLUX --job-name=bricky-bits-9854
 #FLUX --urgency=16
 
 Help()

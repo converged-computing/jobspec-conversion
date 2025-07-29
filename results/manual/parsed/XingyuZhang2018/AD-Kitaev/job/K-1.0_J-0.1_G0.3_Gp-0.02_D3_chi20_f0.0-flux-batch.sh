@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-sundae-8199
+#FLUX --job-name=dinosaur-lemon-6892
 #FLUX --queue=titanv
 #FLUX -t=35996400
 #FLUX --urgency=16

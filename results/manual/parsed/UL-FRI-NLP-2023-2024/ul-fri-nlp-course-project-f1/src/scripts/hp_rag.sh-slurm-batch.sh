@@ -7,6 +7,5 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 
 srun singularity exec --nv containers/container-rag.sif python src/hp_rag.py

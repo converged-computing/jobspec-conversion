@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=32G
 #SBATCH --time=3-00:04:00
-#SBATCH --partition=gpu
 
 module load SLEAP
 DATA_DIR=/ceph/zoo/users/sminano/crabs_pose_4k_TD4

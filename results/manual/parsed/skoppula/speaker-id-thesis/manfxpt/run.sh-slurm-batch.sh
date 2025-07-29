@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=02:00:00
-#SBATCH --partition=cpu
 #SBATCH --array=1-4
 
 echo "$(hostname) $CUDA_VISIBLE_DEVICES"

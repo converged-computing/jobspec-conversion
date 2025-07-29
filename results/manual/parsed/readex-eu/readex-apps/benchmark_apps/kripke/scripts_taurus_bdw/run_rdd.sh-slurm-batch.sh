@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2200M
 #SBATCH --time=00:02:00
-#SBATCH --partition=broadwell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SCOREP_PROFILING_FORMAT='cube_tuple'
 export SCOREP_METRIC_PAPI='PAPI_TOT_INS,PAPI_L3_TCM'

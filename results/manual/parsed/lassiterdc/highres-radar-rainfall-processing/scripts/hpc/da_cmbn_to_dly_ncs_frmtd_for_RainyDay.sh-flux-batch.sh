@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-signal-1837
+#FLUX --job-name=chunky-leg-1586
 #FLUX --queue=standard
 #FLUX -t=172800
 #FLUX --urgency=16

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=adorable-buttface-5221
-#FLUX: --exclusive
+#FLUX --job-name=hairy-toaster-0092
+#FLUX --exclusive
 #FLUX -t=28800
 #FLUX --urgency=16
 

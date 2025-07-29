@@ -7,7 +7,6 @@
 #SBATCH --ntasks=112
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=development
 
 export OMP_NUM_THREADS='1'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-leg-8839
+#FLUX --job-name=eccentric-destiny-2484
 #FLUX -c=4
 #FLUX --queue=serial_requeue
 #FLUX -t=86400

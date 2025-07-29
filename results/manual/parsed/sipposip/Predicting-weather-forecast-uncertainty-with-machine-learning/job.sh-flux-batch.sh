@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=blue-muffin-9719
-#FLUX: --exclusive
+#FLUX --job-name=reclusive-despacito-7432
+#FLUX --exclusive
 #FLUX -t=10800
 #FLUX --urgency=16
 

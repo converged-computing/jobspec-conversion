@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=bloated-diablo-6761
+#FLUX --job-name=cowy-lemon-5313
 #FLUX -N=2
 #FLUX -n=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=huce_intel
 #FLUX -t=1200
 #FLUX --urgency=16

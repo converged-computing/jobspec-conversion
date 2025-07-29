@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-banana-5271
+#FLUX --job-name=stinky-mango-9158
 #FLUX -c=5
 #FLUX --queue=gm4-pmext
 #FLUX -t=129600

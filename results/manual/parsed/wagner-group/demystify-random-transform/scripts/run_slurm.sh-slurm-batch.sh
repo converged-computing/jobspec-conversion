@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:GTX2080TI:2
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=savio3_gpu
 
 eval "$(conda shell.bash hook)"
 conda activate base

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=05:00:00
-#SBATCH --partition=efd-shared-np
 #SBATCH --qos=efd-np
 
 echo '****** PROLOGUE ******'

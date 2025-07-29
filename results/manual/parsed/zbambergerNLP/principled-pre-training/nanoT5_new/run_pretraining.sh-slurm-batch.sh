@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=80
 #SBATCH --gres=gpu:6
-#SBATCH --partition=nlp
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=nlp-ada-2
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=sim
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal256,huge512
 #FLUX -t=300
 #FLUX --urgency=16

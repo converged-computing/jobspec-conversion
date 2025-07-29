@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=land_use
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=TPS
 #FLUX -t=39600
 #FLUX --urgency=16

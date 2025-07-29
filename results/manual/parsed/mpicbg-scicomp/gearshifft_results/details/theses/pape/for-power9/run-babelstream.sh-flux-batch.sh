@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=creamy-snack-5153
+#FLUX --job-name=scruptious-noodle-2017
 #FLUX -c=176
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=ml
 #FLUX -t=3600
 #FLUX --urgency=16

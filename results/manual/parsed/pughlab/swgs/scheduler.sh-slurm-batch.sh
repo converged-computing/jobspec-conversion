@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2gb
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=all
 
 cd /mnt/work1/users/pughlab/bin/swgs
 snakemake --cluster-config slurm/cluster.json \

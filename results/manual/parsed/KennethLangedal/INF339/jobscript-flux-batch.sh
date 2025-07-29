@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-milkshake-6809
+#FLUX --job-name=hanky-snack-9823
 #FLUX -N=8
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=rome16q
 #FLUX -t=1
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-cinnamonbun-0603
+#FLUX --job-name=crusty-poodle-5942
 #FLUX --queue=hci-aa
 #FLUX -t=259200
 #FLUX --urgency=16

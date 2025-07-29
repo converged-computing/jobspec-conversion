@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-egg-3803
+#FLUX --job-name=frigid-leg-3595
 #FLUX --queue=priority
 #FLUX --urgency=16
 

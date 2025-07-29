@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=xsf_mpi
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=wzhcnormal
 #FLUX -t=2160000
 #FLUX --urgency=16

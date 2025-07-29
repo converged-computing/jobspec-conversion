@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=470G
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=nodelong
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 set -e
 GVCFDIR=$1

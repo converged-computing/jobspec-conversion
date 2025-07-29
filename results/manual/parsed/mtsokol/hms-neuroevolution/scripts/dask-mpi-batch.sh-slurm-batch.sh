@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=55G
 #SBATCH --time=01:00:00
-#SBATCH --partition=plgrid-short
 #SBATCH --constraint=ntasks-per-node=24
 
 export NOISE_PATH='/net/archive/groups/plgghmsneuro/noise.npy'

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:{{
-#SBATCH --partition=primary
 #SBATCH --constraint=v100,intel
 
 {% extends "slurm.sh" %}

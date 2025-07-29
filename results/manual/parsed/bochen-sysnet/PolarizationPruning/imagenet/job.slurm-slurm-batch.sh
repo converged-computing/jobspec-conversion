@@ -7,10 +7,9 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=220G
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpuA40x4
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1,scratch
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export OMP_NUM_THREADS='16  # if code is not multithreaded, otherwise set to 16 or 16'
 

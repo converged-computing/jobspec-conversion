@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1024
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=tempboost
 
 newgrp combinedlab
 source activate var_call_env

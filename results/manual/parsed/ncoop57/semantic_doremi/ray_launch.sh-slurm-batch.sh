@@ -8,8 +8,7 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=999g
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=g40
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --exclude=ip-26-0-152-47
 

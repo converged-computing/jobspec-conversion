@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=angry-bicycle-1148
+#FLUX --job-name=placid-blackbean-8267
 #FLUX -N=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

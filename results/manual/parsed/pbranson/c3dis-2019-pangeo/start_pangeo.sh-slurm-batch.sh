@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=4G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=workq
 
 export PATH='/group/pawsey0106/miniconda3/bin:$PATH'
 export XDG_RUNTIME_DIR=''

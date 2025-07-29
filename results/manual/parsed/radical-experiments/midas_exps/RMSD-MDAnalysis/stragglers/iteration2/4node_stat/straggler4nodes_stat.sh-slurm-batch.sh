@@ -7,7 +7,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=normal
 
 cd /data/03170/tg824689/BecksteinLab/scripts-DCD
 source activate daskMda

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-taco-3375
+#FLUX --job-name=expensive-lemur-5418
 #FLUX --queue=top6
 #FLUX -t=36000
 #FLUX --urgency=16

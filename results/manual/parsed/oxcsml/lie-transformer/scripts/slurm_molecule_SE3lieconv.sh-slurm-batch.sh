@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:GeForce_GTX_1080Ti:1
 #SBATCH --mem=5G
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=ziz-gpu
 #SBATCH --array=0-11%6
 
 source /data/ziz/not-backed-up/mhutchin/eqv_transformer/venv_38/bin/activate

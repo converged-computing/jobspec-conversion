@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=6000mb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=hpg2-compute
 #SBATCH --qos=astronomy-dept-b
 #SBATCH --constraint=ntasks-per-socket=8
 

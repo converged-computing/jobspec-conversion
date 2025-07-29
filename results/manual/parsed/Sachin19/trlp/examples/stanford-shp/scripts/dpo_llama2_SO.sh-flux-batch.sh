@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-chip-0874
+#FLUX --job-name=blue-train-8191
 #FLUX -n=5
 #FLUX -t=0
 #FLUX --urgency=16

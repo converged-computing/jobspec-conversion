@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=128G
 #SBATCH --time=00:30:00
-#SBATCH --partition=batch
 
 export IMAGE='$PWD/horovod.sif'
 

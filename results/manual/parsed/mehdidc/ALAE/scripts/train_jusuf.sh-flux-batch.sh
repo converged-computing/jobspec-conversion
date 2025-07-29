@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-rabbit-7820
+#FLUX --job-name=fat-pastry-3852
 #FLUX -N=32
 #FLUX -c=128
 #FLUX --queue=gpus

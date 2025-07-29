@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-signal-1947
+#FLUX --job-name=milky-gato-8098
 #FLUX -n=20
 #FLUX --queue=small,large,amdlarge,amdsmall
 #FLUX -t=345600

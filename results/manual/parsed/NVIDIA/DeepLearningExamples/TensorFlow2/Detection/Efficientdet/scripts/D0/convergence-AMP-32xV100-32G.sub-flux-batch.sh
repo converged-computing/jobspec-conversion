@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=loopy-chair-7579
-#FLUX: --exclusive
+#FLUX --job-name=buttery-signal-5050
+#FLUX --exclusive
 #FLUX -t=28800
 #FLUX --urgency=16
 

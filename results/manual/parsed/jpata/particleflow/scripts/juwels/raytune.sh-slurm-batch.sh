@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=96
 #SBATCH --gpus-per-task=4
 #SBATCH --time=06:00:00
-#SBATCH --partition=booster
 
 export TUNE_RESULT_DIR='/p/project/prcoe12/wulff1/ray_results/tune_result_dir'
 export TUNE_MAX_PENDING_TRIALS_PG='${SLURM_NNODES}'

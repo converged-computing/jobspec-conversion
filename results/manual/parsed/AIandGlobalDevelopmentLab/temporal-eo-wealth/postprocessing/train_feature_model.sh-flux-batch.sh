@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-leopard-9440
+#FLUX --job-name=faux-hobbit-8572
 #FLUX --queue=alvis
 #FLUX -t=900
 #FLUX --urgency=16

@@ -3,7 +3,6 @@
 #SBATCH --ntasks=28
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=secondary
 
 cd /projects/aces
 module load singularity ## Load the singularity runtime to your environment

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-butter-5758
+#FLUX --job-name=crusty-carrot-8620
 #FLUX -N=10
 #FLUX -n=256
 #FLUX -t=1800

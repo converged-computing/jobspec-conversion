@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64000
 #SBATCH --time=16:00:00
-#SBATCH --partition=lotus_gpu
 
 set -e # fail fully on first line failure
 path_to_conda="/home/users/hyper1on/miniconda3"

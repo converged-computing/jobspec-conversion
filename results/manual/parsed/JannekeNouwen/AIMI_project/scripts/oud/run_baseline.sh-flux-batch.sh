@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-signal-0645
+#FLUX --job-name=chocolate-blackbean-8531
 #FLUX -c=16
 #FLUX --queue=gpu
 #FLUX -t=86400

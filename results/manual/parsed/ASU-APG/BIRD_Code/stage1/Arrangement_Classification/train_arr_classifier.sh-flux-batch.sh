@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-onion-6003
+#FLUX --job-name=crunchy-car-7376
 #FLUX -n=4
 #FLUX --queue=cidsegpu1
 #FLUX -t=87120

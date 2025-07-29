@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=00:24:00
-#SBATCH --partition=shared
 #SBATCH --array=1-960
 
 export R_LIBS_USER='$HOME/apps/R_4.0.2'

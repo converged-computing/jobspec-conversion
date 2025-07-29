@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-bicycle-5540
+#FLUX --job-name=faux-butter-3621
 #FLUX --queue=research
 #FLUX -t=86400
 #FLUX --urgency=16

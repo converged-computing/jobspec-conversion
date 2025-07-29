@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-milkshake-4522
+#FLUX --job-name=placid-salad-8721
 #FLUX -n=4
 #FLUX -c=8
 #FLUX -t=600

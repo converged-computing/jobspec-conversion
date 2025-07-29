@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=64G
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1,v100
 
 export TF_FORCE_UNIFIED_MEMORY='1'

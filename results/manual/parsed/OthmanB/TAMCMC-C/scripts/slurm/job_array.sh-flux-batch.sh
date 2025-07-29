@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-peanut-butter-9701
+#FLUX --job-name=gloopy-noodle-4930
 #FLUX -c=10
 #FLUX --queue=serial
 #FLUX -t=172799

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8gb
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=long
 
 mkdir -p /scratch/Users/allenma/nexttemp4/
 mkdir -p /scratch/Shares/dowell/down/temp/Nascentflow6/

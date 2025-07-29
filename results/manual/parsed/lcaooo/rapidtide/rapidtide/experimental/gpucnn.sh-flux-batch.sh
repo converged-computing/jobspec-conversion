@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-destiny-2019
+#FLUX --job-name=peachy-eagle-1567
 #FLUX --queue=gpu
 #FLUX -t=57600
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8000
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/wang9/.conda/envs/torch_env/lib/'
 

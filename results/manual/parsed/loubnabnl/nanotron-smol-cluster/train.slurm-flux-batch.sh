@@ -2,7 +2,7 @@
 #FLUX --job-name=train-santacoder-1b
 #FLUX -N=60
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

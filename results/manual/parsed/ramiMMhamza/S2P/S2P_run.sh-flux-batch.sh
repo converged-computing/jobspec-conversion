@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-parrot-0978
+#FLUX --job-name=purple-animal-6325
 #FLUX --queue=V100
 #FLUX --urgency=16
 

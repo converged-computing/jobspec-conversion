@@ -7,7 +7,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
-#SBATCH --partition=cpu-t3
 #SBATCH --array=5
 
 printf 'Load modules\n'

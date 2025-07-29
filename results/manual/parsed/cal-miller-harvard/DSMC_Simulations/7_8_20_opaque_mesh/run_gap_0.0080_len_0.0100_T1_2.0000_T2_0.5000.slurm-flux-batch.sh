@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-puppy-1558
+#FLUX --job-name=bloated-soup-9162
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

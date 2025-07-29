@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=18
 #SBATCH --gres=gpu:hgx:4
 #SBATCH --mem=300GB
-#SBATCH --partition=cvr
 #SBATCH --qos=preemptive
 
 source activate temos

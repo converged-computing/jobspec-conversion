@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=node_perf_tests
 #FLUX -c=18
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=28800
 #FLUX --urgency=16
 

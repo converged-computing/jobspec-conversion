@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100:1,nvme:100
 #SBATCH --mem=64G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 export DATADIR='$LOCAL_SCRATCH'
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=red-bicycle-9291
+#FLUX --job-name=carnivorous-rabbit-9906
 #FLUX -n=128
 #FLUX --gpus-per-task=1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=early_science
 #FLUX -t=18000
 #FLUX --urgency=16

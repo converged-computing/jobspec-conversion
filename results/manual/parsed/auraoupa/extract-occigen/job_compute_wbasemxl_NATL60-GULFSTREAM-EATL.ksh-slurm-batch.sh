@@ -6,7 +6,7 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:30:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=HSW24
 
 NB_NPROC=12 #(= 1 regions * 1 variable * 12 month)

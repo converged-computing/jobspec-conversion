@@ -4,7 +4,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=230G
 #SBATCH --time=00:10:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --exclude=n2dgx01,n2gpu12[01-32],n2hcn[01-05],n2hacc[01-03],n2cn[1101-1196]
 

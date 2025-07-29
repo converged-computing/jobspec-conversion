@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-poo-9409
+#FLUX --job-name=expressive-fudge-0809
 #FLUX -c=24
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=360

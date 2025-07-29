@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=04:00:00
-#SBATCH --partition=defq,intel
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=0-13%14
 

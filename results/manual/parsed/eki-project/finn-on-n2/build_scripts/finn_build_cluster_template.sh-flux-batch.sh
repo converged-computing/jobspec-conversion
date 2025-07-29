@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-hippo-2168
+#FLUX --job-name=fat-sundae-2110
 #FLUX -c=8
 #FLUX --queue=normal
 #FLUX -t=21600

@@ -8,8 +8,7 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=400GB
 #SBATCH --time=00:29:59
-#SBATCH --partition=small-g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export COMPILER='clang'
 export GPU='V100'

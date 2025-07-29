@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=01:00:00
-#SBATCH --partition=batch
 #SBATCH --qos=normal
 
 export JUPYTER_CONFIG_DIR='$HOME/jupyter_sing/$SLURM_JOBID/'

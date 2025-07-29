@@ -9,8 +9,7 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=32GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=n1c24m128-v100-4
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SINGULARITY_CACHEDIR='/tmp/$USER'
 

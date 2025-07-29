@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-bicycle-9021
+#FLUX --job-name=frigid-truffle-7507
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/GEOS-ESM/GEOSadas/src/Applications/GEOS_Workflow/tasks/AerosolAnalysis.sh

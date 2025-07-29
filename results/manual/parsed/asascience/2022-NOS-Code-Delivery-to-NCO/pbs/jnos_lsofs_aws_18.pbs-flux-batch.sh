@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-spoon-9700
+#FLUX --job-name=delicious-punk-7179
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/asascience/2022-NOS-Code-Delivery-to-NCO/pbs/jnos_lsofs_aws_18.pbs

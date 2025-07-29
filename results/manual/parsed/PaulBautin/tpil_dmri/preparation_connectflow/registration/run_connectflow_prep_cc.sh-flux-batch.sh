@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-pedo-3238
+#FLUX --job-name=strawberry-earthworm-3079
 #FLUX -c=32
 #FLUX -t=7200
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=compute_full_node
 #SBATCH --constraint=ntasks-per-node=4
 
 export CUBLAS_WORKSPACE_CONFIG=':4096:2'

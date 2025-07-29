@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-fork-9630
+#FLUX --job-name=delicious-muffin-7330
 #FLUX -n=16
 #FLUX --queue=shared
 #FLUX -t=480

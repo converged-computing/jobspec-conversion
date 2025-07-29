@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-parsnip-2408
+#FLUX --job-name=bloated-banana-5998
 #FLUX -n=8
 #FLUX --queue=cpu
 #FLUX -t=21600

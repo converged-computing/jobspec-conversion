@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30G
 #SBATCH --time=05:00:00
-#SBATCH --partition=geforce
 #SBATCH --qos=short
 
 module load spack

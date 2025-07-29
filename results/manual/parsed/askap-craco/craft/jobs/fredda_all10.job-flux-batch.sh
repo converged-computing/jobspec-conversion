@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-chip-4502
+#FLUX --job-name=crunchy-ricecake-5331
 #FLUX -c=8
 #FLUX --queue=gpuq
 #FLUX -t=7200

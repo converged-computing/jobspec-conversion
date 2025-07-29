@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=120000
 #SBATCH --time=11:30:00
-#SBATCH --partition=nvidia
 
 export DATA_DIR='ANERCorp-CamelLabSplits/'
 export MAX_LENGTH='512'

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:04:00
-#SBATCH --partition=defq
 #SBATCH --constraint=ntasks-per-node=32
 
 export OMPI_MCA_pml='^ucx'

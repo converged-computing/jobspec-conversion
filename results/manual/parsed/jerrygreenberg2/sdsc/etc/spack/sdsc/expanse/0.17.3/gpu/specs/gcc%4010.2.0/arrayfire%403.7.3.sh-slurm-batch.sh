@@ -8,7 +8,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=93G
 #SBATCH --time=01:00:00
-#SBATCH --partition=ind-gpu-shared
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --exclude=exp-15-58
 

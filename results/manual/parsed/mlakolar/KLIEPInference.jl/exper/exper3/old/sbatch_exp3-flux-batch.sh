@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-cat-4285
+#FLUX --job-name=faux-salad-3021
 #FLUX -n=168
 #FLUX --queue=broadwl
 #FLUX -t=129600

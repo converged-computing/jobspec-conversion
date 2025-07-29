@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
-#SBATCH --partition=gpu
 
 module load singularity
 if [ $# -lt 3 ];

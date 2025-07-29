@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --time=05:00:00
-#SBATCH --partition=cpu_p1
 
 OUTPUT=/gpfswork/rech/ajs/commun/code/bigcode/finetune/train
 TOKENIZER_FILE=/gpfswork/rech/ajs/commun/code/bigcode/bigcode-evaluation-harness/santacoder/tokenizer.json

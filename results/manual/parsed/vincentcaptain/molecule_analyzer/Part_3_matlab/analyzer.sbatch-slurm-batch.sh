@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6400
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=evanreed
 #SBATCH --qos=normal
 #SBATCH --constraint=ntasks-per-node=1
 

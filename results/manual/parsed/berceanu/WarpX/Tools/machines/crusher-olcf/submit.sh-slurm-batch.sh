@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=7
 #SBATCH --gpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=batch
 #SBATCH --constraint=ntasks-per-node=8
 
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'

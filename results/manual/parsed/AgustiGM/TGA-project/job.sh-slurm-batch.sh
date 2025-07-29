@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
-#SBATCH --partition=cuda
 #SBATCH --chdir=.
 
 export PATH='/Soft/cuda/11.2.1/bin:$PATH'

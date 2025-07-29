@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=arid-toaster-6122
+#FLUX --job-name=cowy-taco-3703
 #FLUX --urgency=16
 

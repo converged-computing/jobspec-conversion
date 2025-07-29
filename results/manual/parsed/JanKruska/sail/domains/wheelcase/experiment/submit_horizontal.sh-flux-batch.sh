@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=placid-pedo-1556
-#FLUX: --exclusive
+#FLUX --job-name=hairy-toaster-8742
+#FLUX --exclusive
 #FLUX --queue=hpc
 #FLUX -t=259200
 #FLUX --urgency=16

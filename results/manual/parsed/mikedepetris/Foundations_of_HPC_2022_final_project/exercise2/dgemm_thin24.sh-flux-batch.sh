@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=dgemm_thin
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=THIN
 #FLUX -t=7200
 #FLUX --urgency=16

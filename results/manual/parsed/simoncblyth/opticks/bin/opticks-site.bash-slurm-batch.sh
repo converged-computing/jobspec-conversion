@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=20480
-#SBATCH --partition=gpu
 #SBATCH --qos=debug
 
 opticks-site-source(){ echo $BASH_SOURCE ; }

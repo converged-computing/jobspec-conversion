@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-pot-4552
-#FLUX: --exclusive
+#FLUX --job-name=arid-carrot-4706
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export MAX_STEPS='100'

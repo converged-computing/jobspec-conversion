@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-avocado-2739
+#FLUX --job-name=pusheena-muffin-4133
 #FLUX --urgency=16
 
 source ${SCRIPT_MODULE} ${MPI_VERSION}

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-egg-2529
+#FLUX --job-name=chocolate-platanos-0546
 #FLUX -N=50
 #FLUX --queue=premium
 #FLUX -t=36000

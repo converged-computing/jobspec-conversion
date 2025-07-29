@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-cinnamonbun-9189
+#FLUX --job-name=loopy-signal-3314
 #FLUX --queue=ROME
 #FLUX -t=532800
 #FLUX --urgency=16

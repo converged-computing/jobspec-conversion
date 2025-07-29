@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-parsnip-1313
+#FLUX --job-name=ornery-punk-2552
 #FLUX --queue=cbmm
 #FLUX -t=86400
 #FLUX --urgency=16

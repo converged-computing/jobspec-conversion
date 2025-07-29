@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-bits-9363
+#FLUX --job-name=conspicuous-arm-9059
 #FLUX -N=10
 #FLUX -n=10
 #FLUX --queue=west

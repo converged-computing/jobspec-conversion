@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-peanut-5010
+#FLUX --job-name=delicious-nalgas-9666
 #FLUX -n=24
 #FLUX --queue=batch,intel
 #FLUX --urgency=16

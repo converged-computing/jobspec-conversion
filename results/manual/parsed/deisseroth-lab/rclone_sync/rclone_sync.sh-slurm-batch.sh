@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=03:00:00
-#SBATCH --partition=normal
 
 remote_name="${USER}_gdrive_backup"
 drive_path='OAK_backup'

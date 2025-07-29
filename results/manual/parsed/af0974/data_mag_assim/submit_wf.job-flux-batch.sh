@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=wf_datamagassim
 #FLUX -n=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=ncpum
 #FLUX --urgency=16
 

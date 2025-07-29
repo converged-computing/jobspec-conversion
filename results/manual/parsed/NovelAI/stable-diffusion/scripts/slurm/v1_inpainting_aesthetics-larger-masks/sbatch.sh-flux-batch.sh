@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=stable-diffusion-v1-v1_inpainting_aesthetics-larger-masks
 #FLUX -N=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute-od-gpu
 #FLUX --urgency=16
 

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=dav
 #SBATCH --constraint=ntasks-per-node=18
 
 module purge

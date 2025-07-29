@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem-per-cpu=64G
 #SBATCH --time=00:00:20
-#SBATCH --partition=rtx6000
 #SBATCH --qos=normal
 #SBATCH --constraint=ntasks-per-node=4
 

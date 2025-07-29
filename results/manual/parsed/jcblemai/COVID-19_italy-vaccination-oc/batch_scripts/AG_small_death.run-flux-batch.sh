@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-cat-2765
+#FLUX --job-name=crunchy-mango-9347
 #FLUX -c=36
 #FLUX -t=604800
 #FLUX --urgency=16

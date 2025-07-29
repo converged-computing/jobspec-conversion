@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=5625MB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=learnfair,scavenge
 #SBATCH --constraint=ntasks-per-node=8
 
 export LD_LIBRARY_PATH='/usr/lib/x86_64-linux-gnu/nvidia-opengl:${LD_LIBRARY_PATH}'

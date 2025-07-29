@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=DGXq
 #SBATCH --nodelist=node19
 
 export CUDA_VISIBLE_DEVICES='6'

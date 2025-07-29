@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4g
 #SBATCH --time=00:00:10
-#SBATCH --partition=test
 
 . /n/holylabs/LABS/jharvard_lab/Users/jharvard/spack/share/spack/setup-env.sh
 echo "spack version"

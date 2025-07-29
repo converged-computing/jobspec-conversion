@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --time=12:00:00
-#SBATCH --partition=shared,parallel,skylake
 #SBATCH --array=1-50
 
 ml R/3.6.1

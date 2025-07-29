@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=112
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=clx
 
 export KMP_AFFINITY='granularity=fine,compact,1,28'
 export OMP_NUM_THREADS='28'

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4200
-#SBATCH --partition=LKEBgpu
 #SBATCH --nodelist=res-hpc-lkeb05
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/share/software/NVIDIA/cudnn-9.0/lib64/'

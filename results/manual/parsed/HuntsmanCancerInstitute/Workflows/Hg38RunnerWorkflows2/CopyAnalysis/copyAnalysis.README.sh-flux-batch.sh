@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-signal-5567
+#FLUX --job-name=joyous-knife-1041
 #FLUX --queue=hci-rw
 #FLUX -t=86400
 #FLUX --urgency=16

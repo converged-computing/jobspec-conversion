@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=main
 
 INPUT_FILE=""
 source /etc/profile.d/lmod.sh

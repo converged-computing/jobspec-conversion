@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2080Ti:1
 #SBATCH --mem=16GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=CLUSTER
 #SBATCH --array=0-1
 
 source activate device_benchmarking;

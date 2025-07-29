@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-lettuce-0691
+#FLUX --job-name=phat-latke-2191
 #FLUX -N=2
 #FLUX -n=16
 #FLUX --queue=normal

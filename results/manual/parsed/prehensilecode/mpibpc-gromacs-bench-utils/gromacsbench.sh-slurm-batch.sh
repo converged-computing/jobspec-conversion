@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=gpu:4
 #SBATCH --time=18:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4
 
 module use /ifs/opt_cuda/modulefiles

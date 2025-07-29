@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-dog-4994
+#FLUX --job-name=stanky-cattywampus-0324
 #FLUX --queue=devel
 #FLUX -t=900
 #FLUX --urgency=16

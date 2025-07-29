@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=3-23:59:00
-#SBATCH --partition=dl
 
 module purge
 module load cuda/9.2.148 

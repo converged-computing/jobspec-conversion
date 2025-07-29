@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-squidward-9001
+#FLUX --job-name=astute-muffin-2739
 #FLUX -c=8
 #FLUX --queue=gpgpu
 #FLUX -t=345600

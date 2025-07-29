@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem={SLURM_MEM}
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=atlas
 #SBATCH --qos=normal
 
 echo "

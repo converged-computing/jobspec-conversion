@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=work
 #SBATCH --constraint=ntasks-per-node=4
 
 export library_run='${myarray["$SLURM_ARRAY_TASK_ID"]}'

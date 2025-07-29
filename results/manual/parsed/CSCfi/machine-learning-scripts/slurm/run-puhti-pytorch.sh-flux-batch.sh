@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-squidward-6882
+#FLUX --job-name=bumfuzzled-car-5263
 #FLUX -c=10
 #FLUX --queue=gpu
 #FLUX -t=3600

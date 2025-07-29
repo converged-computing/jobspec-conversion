@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=4G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=ycga_bigmem
 
 module purge # Unload any existing modules that might conflict
 module load SAMtools

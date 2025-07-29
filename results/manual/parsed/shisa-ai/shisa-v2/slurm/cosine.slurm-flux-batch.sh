@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=cosine
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=dev
 #FLUX --urgency=16
 

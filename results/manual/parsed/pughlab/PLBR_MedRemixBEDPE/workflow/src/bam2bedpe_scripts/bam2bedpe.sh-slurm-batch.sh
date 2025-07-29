@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=himem
 #SBATCH --chdir=${OUT_DIR}/logs_slurm
 
 usage(){

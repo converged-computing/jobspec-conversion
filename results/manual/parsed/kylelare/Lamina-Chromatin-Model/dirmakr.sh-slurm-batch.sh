@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2GB
 #SBATCH --time=23:55:00
-#SBATCH --partition=
 #SBATCH --constraint=opath
 
 export OMP_NUM_THREADS='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-earthworm-4457
+#FLUX --job-name=salted-lamp-2461
 #FLUX --urgency=16
 
 usage () {

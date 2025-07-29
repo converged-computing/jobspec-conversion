@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=1-01:00:00
-#SBATCH --partition=broadwl
 
 BASE_DIR=$(pwd)
 DATE=$(date "+%Y_%m_%d")

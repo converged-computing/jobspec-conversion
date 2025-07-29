@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1G
 #SBATCH --time=00:15:00
-#SBATCH --partition=debug
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'
 

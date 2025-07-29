@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-mango-5751
+#FLUX --job-name=adorable-arm-1810
 #FLUX --queue=gpu_shared
 #FLUX -t=108000
 #FLUX --urgency=16

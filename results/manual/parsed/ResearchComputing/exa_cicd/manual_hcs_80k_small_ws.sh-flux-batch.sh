@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=expensive-banana-1591
-#FLUX: --exclusive
+#FLUX --job-name=blank-cinnamonbun-8241
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16000
 #SBATCH --time=12:00:00
-#SBATCH --partition=<MY_PARTITIONS_HERE>
 #SBATCH --constraint=COMPUTE_CAPABILITY_6_0|COMPUTE_CAPABILITY_6_1
 #SBATCH --array=0-15
 

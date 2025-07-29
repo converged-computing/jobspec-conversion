@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=batch
 
 export PMIX_MCA_gds='hash'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/julio.fernandez/local/lib64'

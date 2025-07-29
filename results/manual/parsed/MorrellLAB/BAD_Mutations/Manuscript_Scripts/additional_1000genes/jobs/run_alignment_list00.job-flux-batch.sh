@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-parsnip-8667
+#FLUX --job-name=hairy-rabbit-1243
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MorrellLAB/BAD_Mutations/Manuscript_Scripts/additional_1000genes/jobs/run_alignment_list00.job

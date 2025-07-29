@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-citrus-0261
+#FLUX --job-name=red-toaster-4072
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

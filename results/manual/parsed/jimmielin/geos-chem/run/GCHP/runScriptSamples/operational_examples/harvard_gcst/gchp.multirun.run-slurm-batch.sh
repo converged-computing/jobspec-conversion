@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=180000
 #SBATCH --time=00:20:00
-#SBATCH --partition=huce_cascade
 
 multirunlog="multirun.log"
 cancel_all_jobs()

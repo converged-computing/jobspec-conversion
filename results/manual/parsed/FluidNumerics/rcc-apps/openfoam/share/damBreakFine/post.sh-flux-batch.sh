@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-diablo-3919
+#FLUX --job-name=goodbye-earthworm-2884
 #FLUX --urgency=16
 
 reconstructPar

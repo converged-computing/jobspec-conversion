@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1500
-#SBATCH --partition=nextflow
 
 echo $1
 echo $2

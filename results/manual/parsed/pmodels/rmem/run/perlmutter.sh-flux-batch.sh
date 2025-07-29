@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-house-1604
+#FLUX --job-name=conspicuous-peanut-5881
 #FLUX -N=2
 #FLUX -c=32
 #FLUX --gpus-per-task=1

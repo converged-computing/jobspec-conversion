@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:Quadro:1
 #SBATCH --mem-per-cpu=14G
 #SBATCH --time=01:00:00
-#SBATCH --partition=GPU
 
 MY_TMP_DIR=/slurmtmp/${SLURM_JOB_USER}.${SLURM_JOB_ID}
 mv <path/to/your/data/> ${MY_TMP_DIR}

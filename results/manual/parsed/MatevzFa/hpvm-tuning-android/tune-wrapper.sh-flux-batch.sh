@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-arm-5671
+#FLUX --job-name=bloated-bits-0613
 #FLUX -c=16
 #FLUX --urgency=16
 

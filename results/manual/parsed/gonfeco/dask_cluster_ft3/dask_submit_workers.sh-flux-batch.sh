@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-peas-9708
+#FLUX --job-name=grated-latke-9135
 #FLUX -n=4
 #FLUX -t=600
 #FLUX --urgency=16

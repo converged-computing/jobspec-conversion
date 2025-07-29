@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
 #SBATCH --time=12:00:00
-#SBATCH --partition=general
 
 module purge    
 module load mamba 

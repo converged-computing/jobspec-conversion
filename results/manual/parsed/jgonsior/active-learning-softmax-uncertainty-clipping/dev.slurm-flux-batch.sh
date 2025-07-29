@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-spoon-9712
+#FLUX --job-name=peachy-bike-2934
 #FLUX -c=8
 #FLUX --queue=alpha
 #FLUX -t=363599

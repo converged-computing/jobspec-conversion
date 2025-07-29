@@ -6,7 +6,7 @@
 #SBATCH --gres=gpu:p100:4
 #SBATCH --mem=0
 #SBATCH --time=00:03:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=4
 
 for j in {0..16..4}

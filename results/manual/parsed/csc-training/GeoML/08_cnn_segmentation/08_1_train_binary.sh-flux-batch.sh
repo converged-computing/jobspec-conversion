@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-knife-9846
+#FLUX --job-name=bricky-destiny-2304
 #FLUX -c=5
 #FLUX --queue=gpu
 #FLUX -t=7200

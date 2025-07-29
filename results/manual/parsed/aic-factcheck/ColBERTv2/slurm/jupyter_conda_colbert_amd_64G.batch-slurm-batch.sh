@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=amd
 #SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='.:/home/drchajan/devel/python/FC/drchajan/src:/home/drchajan/devel/python/FC/fever-baselines/src:$PYTHONPATH'

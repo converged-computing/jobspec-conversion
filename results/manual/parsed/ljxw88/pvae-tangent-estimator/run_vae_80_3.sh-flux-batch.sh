@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-chip-9361
+#FLUX --job-name=evasive-parsnip-6123
 #FLUX -t=43200
 #FLUX --urgency=16
 

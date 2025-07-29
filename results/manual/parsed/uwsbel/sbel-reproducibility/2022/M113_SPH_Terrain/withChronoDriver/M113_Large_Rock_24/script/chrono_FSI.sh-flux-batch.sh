@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-platanos-7550
+#FLUX --job-name=buttery-platanos-2041
 #FLUX --queue=sbel
 #FLUX -t=86400
 #FLUX --urgency=16

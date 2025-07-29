@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-lemur-0489
+#FLUX --job-name=red-knife-1532
 #FLUX -N=2
 #FLUX --queue=defq
 #FLUX --urgency=16

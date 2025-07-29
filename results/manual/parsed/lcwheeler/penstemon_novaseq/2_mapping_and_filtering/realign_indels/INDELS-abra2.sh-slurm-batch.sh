@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=defq
 
 cd $SLURM_SUBMIT_DIR
 source /home/lw74/.bashrc

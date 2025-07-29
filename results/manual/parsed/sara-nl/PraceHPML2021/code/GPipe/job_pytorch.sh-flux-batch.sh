@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-snack-2147
+#FLUX --job-name=hello-parrot-8893
 #FLUX -c=3
 #FLUX --queue=gpu_shared_jupyter
 #FLUX -t=180

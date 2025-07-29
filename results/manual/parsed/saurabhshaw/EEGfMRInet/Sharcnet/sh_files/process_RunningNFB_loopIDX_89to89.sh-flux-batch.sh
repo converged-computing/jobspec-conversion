@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-punk-8882
+#FLUX --job-name=salted-punk-2638
 #FLUX -c=8
 #FLUX -t=170
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-caramel-8589
+#FLUX --job-name=buttery-platanos-4441
 #FLUX -c=4
 #FLUX --queue=amd_a100nv_8
 #FLUX -t=28800

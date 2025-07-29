@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=crusty-car-9163
+#FLUX --job-name=ornery-train-6423
 #FLUX -N=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=general-compute
 #FLUX -t=420
 #FLUX --urgency=16

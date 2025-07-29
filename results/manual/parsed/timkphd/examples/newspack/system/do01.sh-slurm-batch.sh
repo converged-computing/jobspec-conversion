@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export WORKDIR='`pwd`'
 export MYDIR='/nopt/nrel/apps/220525b/level01'

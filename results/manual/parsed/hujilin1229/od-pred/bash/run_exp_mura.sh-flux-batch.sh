@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-parrot-8987
+#FLUX --job-name=milky-parsnip-4931
 #FLUX -N=8
 #FLUX -c=24
 #FLUX -t=86400

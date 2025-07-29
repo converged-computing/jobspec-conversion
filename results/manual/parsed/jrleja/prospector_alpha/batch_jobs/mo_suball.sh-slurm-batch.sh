@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=conroy-intel,shared,itc_cluster
 
 IDFILE=$APPS"/prospector_alpha/data/3dhst/mo.cat"
 n1=`expr $SLURM_ARRAY_TASK_ID + 1`

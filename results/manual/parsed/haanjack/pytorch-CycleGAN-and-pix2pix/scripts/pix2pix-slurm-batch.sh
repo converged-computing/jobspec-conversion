@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=batch
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 BATCH_SIZE=4
 NUM_GPU=8

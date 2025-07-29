@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:k80:1
 #SBATCH --mem=64000
 #SBATCH --time=00:15:00
-#SBATCH --partition=gputest
 
 module purge
 module load gcc cuda python-env/3.6.3-ml

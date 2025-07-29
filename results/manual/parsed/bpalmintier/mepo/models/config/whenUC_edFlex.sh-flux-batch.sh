@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-platanos-9681
+#FLUX --job-name=outstanding-spoon-5409
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/whenUC_edFlex.sh

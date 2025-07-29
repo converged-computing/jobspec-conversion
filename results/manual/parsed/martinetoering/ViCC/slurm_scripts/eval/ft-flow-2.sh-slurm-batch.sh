@@ -6,7 +6,6 @@
 #SBATCH --gres=4
 #SBATCH --mem=150G
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu_titanrtx
 
 source /home/mtoering/miniconda3/etc/profile.d/conda.sh
 conda activate vicc # e.g. use your own conda env

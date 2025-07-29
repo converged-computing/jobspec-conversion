@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-carrot-6335
+#FLUX --job-name=stinky-destiny-5522
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

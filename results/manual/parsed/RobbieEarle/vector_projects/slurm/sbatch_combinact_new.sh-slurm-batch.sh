@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
-#SBATCH --partition=p100,t4v1,t4v2
 #SBATCH --qos=normal
 #SBATCH --array=0-10
 

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=35G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal
 
 module purge
 module load singularity/latest

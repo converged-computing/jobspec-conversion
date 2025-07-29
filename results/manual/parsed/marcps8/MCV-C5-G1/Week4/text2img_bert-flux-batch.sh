@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-muffin-7506
+#FLUX --job-name=eccentric-muffin-5055
 #FLUX -n=8
 #FLUX --queue=mlow,mlow
 #FLUX --urgency=16

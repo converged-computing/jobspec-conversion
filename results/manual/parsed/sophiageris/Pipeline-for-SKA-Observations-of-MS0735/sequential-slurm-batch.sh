@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=5G
 #SBATCH --time=00:30:00
-#SBATCH --partition=quicktest
 
 shopt -s nullglob
 FILES=()

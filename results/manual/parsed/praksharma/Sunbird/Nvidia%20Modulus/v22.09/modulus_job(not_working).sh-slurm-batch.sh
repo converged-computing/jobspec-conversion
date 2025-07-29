@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:2
 #SBATCH --time=05:00:00
-#SBATCH --partition=accel_ai
 
 port=8888
 node=$(hostname -s)

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=MEMORY
 #SBATCH --time=08:00:00
-#SBATCH --partition=wc_gpu
 #SBATCH --constraint=(CONSTRAINT)
 
 export SINGULARITY_CACHEDIR='/work1/cms_mlsim/oamram/'

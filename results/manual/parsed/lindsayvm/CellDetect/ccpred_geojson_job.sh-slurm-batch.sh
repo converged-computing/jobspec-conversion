@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=10:00:00
-#SBATCH --partition=a6000
 #SBATCH --nodelist=ptolemaeus
 
 JOBS_SOURCE="/home/l.leek/src/CellDetect/"

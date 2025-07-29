@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=50000
 #SBATCH --time=00:01:00
-#SBATCH --partition=huce_intel
 
 log="gchp.log"
 if [[ -e cap_restart ]]; then

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-poodle-8226
+#FLUX --job-name=lovable-milkshake-1900
 #FLUX --urgency=16
 
 : ${PROJ_ID:="bbhx-delta-cpu"}

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=01:00:00
-#SBATCH --partition=ccn
 
 ARRAY_ID=$1
 PARAMETER_FILE=$2

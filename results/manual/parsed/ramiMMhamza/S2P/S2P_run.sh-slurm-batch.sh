@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=2
-#SBATCH --partition=V100
 
 set -x
 cd /home/ids/hrami

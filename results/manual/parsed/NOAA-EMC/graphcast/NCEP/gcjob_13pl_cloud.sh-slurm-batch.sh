@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=30
 #SBATCH --time=04:00:00
-#SBATCH --partition=compute
 
 module use /contrib/spack-stack/envs/ufswm/install/modulefiles/Core/
 module load stack-intel

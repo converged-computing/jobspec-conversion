@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu_rtx2080ti_shared
 
 export OMP_NUM_THREADS='6'
 export NCCL_DEBUG='INFO'

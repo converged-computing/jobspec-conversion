@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=dcu:1
-#SBATCH --partition=kshdexclu04
 
 date
 module purge

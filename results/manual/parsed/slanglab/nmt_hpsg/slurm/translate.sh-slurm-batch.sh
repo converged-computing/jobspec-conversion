@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --exclude=gpu-0-0
 
 TASK_ID=$(printf '%0'$digits'd' $SLURM_ARRAY_TASK_ID)

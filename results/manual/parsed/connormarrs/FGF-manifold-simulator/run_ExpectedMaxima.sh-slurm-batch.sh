@@ -5,7 +5,6 @@
 #SBATCH --ntasks=72
 #SBATCH --cpus-per-task=1
 #SBATCH --time=11:30:00
-#SBATCH --partition=general
 #SBATCH --exclude=cn[66-69,71-136,153-256,265-320,325-328]
 
 module purge

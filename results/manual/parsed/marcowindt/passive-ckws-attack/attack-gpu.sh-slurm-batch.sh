@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:1
 #SBATCH --mem=242G
-#SBATCH --partition=gpu_p100
 #SBATCH --constraint=avx2
 
 export TF_FORCE_GPU_ALLOW_GROWTH='true'

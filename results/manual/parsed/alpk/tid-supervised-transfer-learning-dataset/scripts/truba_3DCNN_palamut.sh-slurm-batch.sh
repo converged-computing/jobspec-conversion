@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=palamut-cuda,barbun-cuda,akya-cuda
 
 experiment_notes_var=bsign_default
 module purge

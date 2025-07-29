@@ -7,7 +7,6 @@
 #SBATCH --ntasks=256
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=ntasks-per-node=8
 
 module load pytorch/v1.0.1

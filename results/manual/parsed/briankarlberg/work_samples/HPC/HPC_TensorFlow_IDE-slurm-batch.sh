@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 [karlberb@exahead1 sample_count]$ cat j_lab_template.sh
 JUPYTER_ENV=/home/groups/EllrottLab/sample_count/j_lab_py3_env

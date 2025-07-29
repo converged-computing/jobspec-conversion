@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1024
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=test2
 
 export OMP_NUM_THREADS='48'
 export PATH='/scratch/00946/zzhang/skylake/caffe/protocol-buffer/bin:$PATH'

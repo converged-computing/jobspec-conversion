@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2G
 #SBATCH --time=01:00:00
-#SBATCH --partition=Lewis
 
 export PSM_RANKS_PER_CONTEXT='2'
 

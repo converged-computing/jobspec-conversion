@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-signal-3301
+#FLUX --job-name=crunchy-signal-5556
 #FLUX -N=8
 #FLUX -n=8
 #FLUX -t=360

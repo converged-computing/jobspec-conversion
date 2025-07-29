@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=00:15:00
-#SBATCH --partition=gpu
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 

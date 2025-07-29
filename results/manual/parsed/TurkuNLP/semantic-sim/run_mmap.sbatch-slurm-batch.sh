@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=200000
 #SBATCH --time=10:00:00
-#SBATCH --partition=small
 
 module load pytorch/1.11
 pip3 install -r requirements.txt

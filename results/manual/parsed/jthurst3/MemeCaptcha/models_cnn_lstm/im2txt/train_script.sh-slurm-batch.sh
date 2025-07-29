@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10GB
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpu
 
 module load caffe
 IM2TXT_DIR=/public/jthurst3/MemeCaptcha

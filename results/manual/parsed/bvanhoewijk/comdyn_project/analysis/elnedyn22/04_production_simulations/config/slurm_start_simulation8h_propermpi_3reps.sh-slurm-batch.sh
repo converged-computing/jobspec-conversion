@@ -3,7 +3,6 @@
 #SBATCH --ntasks=96
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=genoa
 #SBATCH --array=1,2,3
 
 module load 2023

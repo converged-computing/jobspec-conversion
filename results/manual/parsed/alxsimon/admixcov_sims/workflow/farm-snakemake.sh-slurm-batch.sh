@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3000M
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=high2
 
 module load miniconda3
 snakemake --profile farm-profile

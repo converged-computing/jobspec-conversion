@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=240GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=learnlab
 #SBATCH --constraint=ntasks-per-node=8,volta32gb
 
 if [ -z "$1" ]

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32000
 #SBATCH --time=02:30:00
-#SBATCH --partition=normal
 
 conda init bash
 conda info --envs

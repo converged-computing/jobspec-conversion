@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-citrus-0030
+#FLUX --job-name=salted-despacito-6418
 #FLUX -t=43200
 #FLUX --urgency=16
 

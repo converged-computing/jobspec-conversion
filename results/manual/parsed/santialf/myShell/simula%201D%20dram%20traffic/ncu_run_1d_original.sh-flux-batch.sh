@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-soup-5130
+#FLUX --job-name=phat-lemon-1574
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

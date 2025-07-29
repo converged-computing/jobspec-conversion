@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-rabbit-6113
+#FLUX --job-name=reclusive-muffin-1650
 #FLUX --urgency=16
 
 experiment_num=0 # change the number of experiment you want to run 0--> training objective, 1--> buffer, 2--> exploration

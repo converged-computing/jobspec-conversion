@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:10:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --qos=normal
 #SBATCH --constraint=ntasks-per-node=1
 

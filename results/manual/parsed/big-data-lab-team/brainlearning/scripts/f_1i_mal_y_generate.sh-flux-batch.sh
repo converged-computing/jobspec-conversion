@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-lemon-0601
+#FLUX --job-name=hello-itch-8314
 #FLUX -c=6
 #FLUX -t=30
 #FLUX --urgency=16

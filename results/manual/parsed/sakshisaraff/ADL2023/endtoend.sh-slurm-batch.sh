@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpu
 
 module purge
 module add python

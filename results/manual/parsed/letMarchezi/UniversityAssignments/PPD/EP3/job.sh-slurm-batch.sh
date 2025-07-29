@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --time=01:30:00
-#SBATCH --partition=fast
 
 lscpu
 echo "*** SEQUENTIAL LAPLACE EQUATION GRID 1000X1000 ***"

@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=normal
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export JULIA_DEPOT_PATH=':/scratch/hpc-lco-usrtr/.julia_ucl'
 

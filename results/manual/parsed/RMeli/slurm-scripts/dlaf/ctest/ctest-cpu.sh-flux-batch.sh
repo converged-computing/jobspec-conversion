@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-bits-0787
+#FLUX --job-name=doopy-lentil-8834
 #FLUX -N=2
 #FLUX --queue=normal
 #FLUX --urgency=16

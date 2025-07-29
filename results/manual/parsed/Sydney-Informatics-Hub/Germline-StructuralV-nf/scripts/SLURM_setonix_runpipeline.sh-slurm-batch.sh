@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000M
 #SBATCH --time=10:00:00
-#SBATCH --partition=work
 
 module load singularity/3.8.6-nompi
 module load nextflow/22.04.3

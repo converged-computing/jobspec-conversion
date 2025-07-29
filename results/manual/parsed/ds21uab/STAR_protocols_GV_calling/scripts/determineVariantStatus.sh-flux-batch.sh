@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-bicycle-4693
+#FLUX --job-name=frigid-kerfuffle-8360
 #FLUX -c=5
 #FLUX --queue=partition
 #FLUX -t=300

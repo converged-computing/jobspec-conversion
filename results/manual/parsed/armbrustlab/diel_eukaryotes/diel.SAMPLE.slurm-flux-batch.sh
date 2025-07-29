@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-plant-3226
+#FLUX --job-name=faux-truffle-9466
 #FLUX --queue=LM
 #FLUX -t=518400
 #FLUX --urgency=16

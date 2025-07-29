@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-gato-2990
+#FLUX --job-name=stinky-bicycle-8868
 #FLUX --queue=RM
 #FLUX -t=43200
 #FLUX --urgency=16

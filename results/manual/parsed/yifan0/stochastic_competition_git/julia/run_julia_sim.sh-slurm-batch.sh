@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=sandybridge
 
 module load julia/1.8.5
 /usr/bin/time -v julia -t 16 sim.jl

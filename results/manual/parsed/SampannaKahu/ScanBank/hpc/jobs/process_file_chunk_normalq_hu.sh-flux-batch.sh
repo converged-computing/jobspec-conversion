@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=anxious-gato-4536
-#FLUX: --exclusive
+#FLUX --job-name=anxious-nunchucks-0862
+#FLUX --exclusive
 #FLUX --queue=normal_q
 #FLUX -t=172800
 #FLUX --urgency=16

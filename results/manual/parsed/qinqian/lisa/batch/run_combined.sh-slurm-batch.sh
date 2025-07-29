@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=10000
 #SBATCH --time=00:08:00
-#SBATCH --partition=serial_requeue
 
 export PATH='/n/home08/cliffmeyer/Jingyu/miniconda3/bin:$PATH'
 

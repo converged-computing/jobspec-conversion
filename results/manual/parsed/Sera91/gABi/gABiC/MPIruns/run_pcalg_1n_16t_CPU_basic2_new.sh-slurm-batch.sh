@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3000
 #SBATCH --time=00:10:00
-#SBATCH --partition=regular2
 #SBATCH --constraint=ntasks-per-node=16,ntasks-per-socket=8
 
 export PATH='/home/sdigioia/R/bin:${PATH}'

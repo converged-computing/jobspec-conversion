@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-taco-5370
+#FLUX --job-name=strawberry-general-9222
 #FLUX --queue=zhuang,shared
 #FLUX -t=604800
 #FLUX --urgency=16

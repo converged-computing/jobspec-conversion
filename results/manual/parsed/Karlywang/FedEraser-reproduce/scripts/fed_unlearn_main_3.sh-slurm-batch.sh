@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50000
-#SBATCH --partition=gpu
 
 module load cuda/10.0.130
 module load anaconda/3.6

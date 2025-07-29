@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2200M
 #SBATCH --time=01:00:00
-#SBATCH --partition=broadwell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SCOREP_ENABLE_PROFILING='false'
 export SCOREP_ENABLE_TRACING='false'

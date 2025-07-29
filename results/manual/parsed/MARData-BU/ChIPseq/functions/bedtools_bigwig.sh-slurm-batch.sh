@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=30Gb
-#SBATCH --partition=bigmem
 
 module purge
 module load BEDTools/2.30.0-GCC-10.2.0

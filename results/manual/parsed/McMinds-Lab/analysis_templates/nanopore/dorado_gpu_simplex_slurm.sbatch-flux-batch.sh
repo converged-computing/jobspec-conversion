@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-punk-3823
+#FLUX --job-name=creamy-buttface-5740
 #FLUX --queue=rra
 #FLUX -t=604800
 #FLUX --urgency=16

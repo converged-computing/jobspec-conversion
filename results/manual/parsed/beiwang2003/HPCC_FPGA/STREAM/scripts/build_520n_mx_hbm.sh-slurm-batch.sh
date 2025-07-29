@@ -2,8 +2,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=fpgasyn
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load intelFPGA_pro/20.3.0
 module load bittware_520n_mx/19.4.0_hpc

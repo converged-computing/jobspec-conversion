@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=64GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=plgrid-gpu-a100
 #SBATCH --constraint=ntasks-per-node=2,memfs
 
 source modules.sh

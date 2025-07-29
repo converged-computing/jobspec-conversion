@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=blue-knife-3270
+#FLUX --job-name=quirky-hippo-4791
 #FLUX -n=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=2400
 #FLUX --urgency=16
 

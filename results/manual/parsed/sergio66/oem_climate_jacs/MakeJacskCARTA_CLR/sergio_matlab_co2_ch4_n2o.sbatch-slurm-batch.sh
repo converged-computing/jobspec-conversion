@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8000
 #SBATCH --time=00:59:00
-#SBATCH --partition=high_mem
 #SBATCH --qos=short+
 
 matlab -nodisplay -r "clust_make_ch4_1700_2000_all; clust_make_ch4_coljac_1700_2000; clust_make_ch4_coljac_1700_2000v2; exit"

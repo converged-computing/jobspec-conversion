@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --mem=100GB
-#SBATCH --partition=gpu8_medium
 
 echo "Starting at `date`"
 echo "Job name: $SLURM_JOB_NAME JobID: $SLURM_JOB_ID"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-car-7340
+#FLUX --job-name=expressive-hobbit-2433
 #FLUX -c=10
 #FLUX --queue=himem
 #FLUX --urgency=16

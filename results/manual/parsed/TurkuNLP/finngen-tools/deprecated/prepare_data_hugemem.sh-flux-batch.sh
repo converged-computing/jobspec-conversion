@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-cupcake-4665
+#FLUX --job-name=wobbly-cattywampus-6884
 #FLUX -c=40
 #FLUX --queue=hugemem
 #FLUX -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-butter-8848
+#FLUX --job-name=adorable-lemon-2048
 #FLUX --urgency=16
 
 . "$script_pwd/../systems/generic"

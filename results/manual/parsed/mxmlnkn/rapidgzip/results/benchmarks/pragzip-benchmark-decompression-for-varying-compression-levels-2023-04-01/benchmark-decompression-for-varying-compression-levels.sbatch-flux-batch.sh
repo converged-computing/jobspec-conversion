@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=astute-fork-6466
+#FLUX --job-name=bricky-milkshake-2057
 #FLUX -c=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=romeo
 #FLUX -t=14400
 #FLUX --urgency=16

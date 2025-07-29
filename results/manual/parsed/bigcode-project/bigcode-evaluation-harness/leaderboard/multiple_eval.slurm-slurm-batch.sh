@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
 #SBATCH --gres=gpu:4
-#SBATCH --partition=production-cluster
 #SBATCH --constraint=ntasks-per-node=1
 
 export LAUNCHER='accelerate launch \'

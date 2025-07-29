@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=4
 #SBATCH --time=00:30:00
-#SBATCH --partition=fat_soil_shared
 
 export PYTHONUNBUFFERED='1'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-lettuce-8656
+#FLUX --job-name=wobbly-lettuce-5874
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

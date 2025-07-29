@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-cat-6281
+#FLUX --job-name=buttery-itch-5714
 #FLUX -c=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=rome
 #FLUX -t=600
 #FLUX --urgency=16

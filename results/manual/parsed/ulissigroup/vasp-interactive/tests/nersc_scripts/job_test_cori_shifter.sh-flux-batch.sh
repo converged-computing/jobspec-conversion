@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-lamp-5489
+#FLUX --job-name=hanky-chip-1340
 #FLUX --queue=premium
 #FLUX -t=7200
 #FLUX --urgency=16

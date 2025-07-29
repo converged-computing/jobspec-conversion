@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=ipi
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=jobs
 #FLUX -t=86400
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-bike-9838
+#FLUX --job-name=butterscotch-leg-7893
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

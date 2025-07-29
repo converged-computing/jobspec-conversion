@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-noodle-8533
+#FLUX --job-name=reclusive-poodle-2277
 #FLUX -N=2
 #FLUX --queue=a100
 #FLUX -t=7200

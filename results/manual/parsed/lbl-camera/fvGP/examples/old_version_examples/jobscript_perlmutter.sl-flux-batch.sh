@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-citrus-9419
+#FLUX --job-name=faux-snack-8267
 #FLUX -n=256
 #FLUX -c=32
 #FLUX --gpus-per-task=1

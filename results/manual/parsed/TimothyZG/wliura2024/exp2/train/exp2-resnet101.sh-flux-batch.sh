@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-pot-2470
+#FLUX --job-name=placid-malarkey-0202
 #FLUX -t=18000
 #FLUX --urgency=16
 

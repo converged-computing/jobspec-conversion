@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-knife-5579
+#FLUX --job-name=dirty-squidward-9607
 #FLUX -N=64
 #FLUX -n=1024
 #FLUX -c=8

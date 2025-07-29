@@ -8,8 +8,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=debug
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export rocm_version='5.4.3'
 export MPICH_GPU_SUPPORT_ENABLED='1'

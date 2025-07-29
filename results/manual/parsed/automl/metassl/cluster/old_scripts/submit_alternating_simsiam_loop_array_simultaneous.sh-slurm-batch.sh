@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
-#SBATCH --partition=alldlc_gpu-rtx2080
 #SBATCH --array=0-8%1
 
 export LD_LIBRARY_PATH='/usr/local/cuda-10.0/lib64:$LD_LIBRARY_PATH'

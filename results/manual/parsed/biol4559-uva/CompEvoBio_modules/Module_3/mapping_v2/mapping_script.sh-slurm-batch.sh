@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=90G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=instructional
 
   module load singularity
   #SLURM_ARRAY_TASK_ID=1

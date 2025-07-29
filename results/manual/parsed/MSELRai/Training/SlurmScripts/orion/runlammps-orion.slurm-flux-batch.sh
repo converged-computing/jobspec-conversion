@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=Ar
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=400p48h
 #FLUX -t=3600
 #FLUX --urgency=16

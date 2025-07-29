@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3000GB
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=LM
 #SBATCH --constraint=LM&PH2
 
 module load gcc/5.3.0

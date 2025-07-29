@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60000M
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu_shared
 #SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='$CUDA_HOME/lib64:/hpc/eb/Debian9/cuDNN/7.1-CUDA-8.0.4'

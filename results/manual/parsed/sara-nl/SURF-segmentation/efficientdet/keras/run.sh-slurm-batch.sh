@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu_titanrtx
 #SBATCH --exclude=r34n6
 
 export HOROVOD_CUDA_HOME='$CUDA_HOME'

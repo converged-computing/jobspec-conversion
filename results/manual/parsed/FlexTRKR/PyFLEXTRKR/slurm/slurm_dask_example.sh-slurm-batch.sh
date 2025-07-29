@@ -6,8 +6,7 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=haswell
 
 date

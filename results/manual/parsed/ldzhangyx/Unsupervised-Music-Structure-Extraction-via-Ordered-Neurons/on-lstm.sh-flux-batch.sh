@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-diablo-4325
+#FLUX --job-name=blue-underoos-5040
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX -t=468000

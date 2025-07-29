@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4g.20gb:1
 #SBATCH --mem-per-cpu=2048mb
 #SBATCH --time=08:00:00
-#SBATCH --partition=normal
 #SBATCH --array=0-2
 
 RUNPATH=$HOME/projekte/mixed-precision-dnns

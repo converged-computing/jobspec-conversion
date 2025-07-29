@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-taco-5824
+#FLUX --job-name=swampy-bike-9301
 #FLUX --urgency=16
 
 module load Java/15.0.1 # For working on biocluster- change for AWS

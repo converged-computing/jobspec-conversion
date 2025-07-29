@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-cherry-3474
+#FLUX --job-name=expressive-carrot-5672
 #FLUX -n=4
 #FLUX --queue=maxwell
 #FLUX -t=432000

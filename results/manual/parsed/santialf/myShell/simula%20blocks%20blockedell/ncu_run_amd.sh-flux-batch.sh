@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-sundae-4283
+#FLUX --job-name=expressive-salad-3455
 #FLUX --queue=milanq
 #FLUX -t=1200
 #FLUX --urgency=16

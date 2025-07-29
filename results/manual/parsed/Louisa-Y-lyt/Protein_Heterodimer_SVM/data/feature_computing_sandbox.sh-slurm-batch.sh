@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=128G
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpu_requeue
 #SBATCH --qos=high
 
 module load cuda/11.8.0-fasrc01

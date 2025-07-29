@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-caramel-1723
+#FLUX --job-name=sticky-leader-3226
 #FLUX -c=7
 #FLUX -t=86400
 #FLUX --urgency=16

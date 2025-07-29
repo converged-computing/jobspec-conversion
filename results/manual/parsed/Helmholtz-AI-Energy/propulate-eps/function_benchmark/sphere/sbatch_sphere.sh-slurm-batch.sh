@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=02:00:00
-#SBATCH --partition=accelerated
 #SBATCH --constraint=ntasks-per-node=4
 
 export DATA_DIR='/hkfs/work/workspace/scratch/qv2382-bigearthnet/'

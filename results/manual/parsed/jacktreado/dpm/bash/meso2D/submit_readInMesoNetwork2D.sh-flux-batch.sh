@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-lemon-9990
+#FLUX --job-name=doopy-poodle-4588
 #FLUX --urgency=16
 
 gitdir=~/dpm

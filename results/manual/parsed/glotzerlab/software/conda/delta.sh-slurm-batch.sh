@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=2000M
 #SBATCH --time=08:00:00
-#SBATCH --partition=cpu
 
 export OUTPUT_FOLDER='/projects/bbgw/software/conda'
 

@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=cloud
 
 export MPI_MCA_mca_base_component_show_load_errors='0'
 export PMIX_MCA_mca_base_component_show_load_errors='0'

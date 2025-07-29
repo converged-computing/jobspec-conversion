@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-onion-5656
+#FLUX --job-name=fat-malarkey-6215
 #FLUX --queue=zhuang,shared
 #FLUX -t=604800
 #FLUX --urgency=16

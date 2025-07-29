@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-squidward-7485
+#FLUX --job-name=spicy-earthworm-2631
 #FLUX -c=2
 #FLUX --queue=priority
 #FLUX -t=3600

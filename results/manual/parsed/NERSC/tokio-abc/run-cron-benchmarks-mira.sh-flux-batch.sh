@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=peachy-hippo-5676
+#FLUX --job-name=muffled-bits-5535
 #FLUX --urgency=16
 

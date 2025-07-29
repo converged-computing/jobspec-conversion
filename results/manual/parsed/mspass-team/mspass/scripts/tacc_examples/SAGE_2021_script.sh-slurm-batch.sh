@@ -6,7 +6,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=normal
 
 WORK_DIR=$SCRATCH/SAGE_2021
 MSPASS_CONTAINER=$WORK/mspass/mspass_latest.sif

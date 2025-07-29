@@ -4,7 +4,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=12
 #SBATCH --time=02:30:00
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=1,gpu
 
 conda activate py39

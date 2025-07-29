@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
-#SBATCH --partition=q_intel_share
 #SBATCH --constraint=ntasks-per-node=64
 #SBATCH --nodelist=wxhd10
 

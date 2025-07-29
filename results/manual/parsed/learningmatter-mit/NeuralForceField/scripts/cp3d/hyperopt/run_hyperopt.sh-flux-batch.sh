@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-sundae-2393
+#FLUX --job-name=tart-onion-8797
 #FLUX -c=32
 #FLUX --queue=sched_mit_rafagb_amd,sched_mit_rafagb
 #FLUX -t=600000

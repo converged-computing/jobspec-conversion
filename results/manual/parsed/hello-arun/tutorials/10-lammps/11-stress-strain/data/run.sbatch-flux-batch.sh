@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-despacito-2603
+#FLUX --job-name=psycho-cinnamonbun-8125
 #FLUX -N=8
 #FLUX --queue=batch
 #FLUX -t=18000

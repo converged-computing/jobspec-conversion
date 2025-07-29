@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:p100:1
 #SBATCH --mem=12G
 #SBATCH --time=01:00:00
-#SBATCH --partition=shortgpgpu
 #SBATCH --qos=gpgpumse
 
 module load pytorch/1.5.1-python-3.7.4

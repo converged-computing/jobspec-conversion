@@ -9,7 +9,6 @@
 #SBATCH --ntasks=128
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=standard
 
 module load LUMI/23.09 partition/C EasyBuild-user
 module load OpenFOAM/v2312-cpeGNU-23.09

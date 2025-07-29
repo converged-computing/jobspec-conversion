@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:TITAN:1
 #SBATCH --mem=24G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=savio3_gpu
 #SBATCH --qos=rail_gpu3_normal
 
 ENV_ID=$((SLURM_ARRAY_TASK_ID-1))

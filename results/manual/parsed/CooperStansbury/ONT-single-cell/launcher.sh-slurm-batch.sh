@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=1
 
 CONFIG='config/cluster'

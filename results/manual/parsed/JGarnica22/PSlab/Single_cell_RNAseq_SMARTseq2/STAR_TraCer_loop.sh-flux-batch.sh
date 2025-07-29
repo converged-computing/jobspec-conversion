@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-banana-2309
+#FLUX --job-name=bumfuzzled-lemon-8245
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JGarnica22/PSlab/Single_cell_RNAseq_SMARTseq2/STAR_TraCer_loop.sh

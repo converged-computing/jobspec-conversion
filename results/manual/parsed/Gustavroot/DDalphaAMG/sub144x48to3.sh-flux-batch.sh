@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-itch-7233
+#FLUX --job-name=hello-leg-6035
 #FLUX -N=4
 #FLUX -c=12
 #FLUX --queue=booster

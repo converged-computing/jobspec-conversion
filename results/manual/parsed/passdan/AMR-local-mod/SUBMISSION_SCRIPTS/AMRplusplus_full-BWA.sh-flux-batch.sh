@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-eagle-8922
+#FLUX --job-name=dinosaur-cherry-1988
 #FLUX -c=4
 #FLUX --queue=epyc_ssd
 #FLUX --urgency=16

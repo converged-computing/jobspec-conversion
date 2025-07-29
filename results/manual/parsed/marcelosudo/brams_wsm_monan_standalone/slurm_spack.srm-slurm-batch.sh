@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:01:00
-#SBATCH --partition=sequana_gpu_shared
 
 export SPACK_USER_CONFIG_PATH='${workdir}/.spack/${version}'
 

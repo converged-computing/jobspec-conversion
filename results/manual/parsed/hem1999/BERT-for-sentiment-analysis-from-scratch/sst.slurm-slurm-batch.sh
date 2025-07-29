@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:A100.80gb:1
 #SBATCH --mem=20G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpuq
 #SBATCH --qos=gpu
 #SBATCH --constraint=ntasks-per-node=4
 

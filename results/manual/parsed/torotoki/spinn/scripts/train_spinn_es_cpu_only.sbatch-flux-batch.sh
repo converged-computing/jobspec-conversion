@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-signal-2277
+#FLUX --job-name=dinosaur-despacito-4488
 #FLUX -c=10
 #FLUX -t=172800
 #FLUX --urgency=16

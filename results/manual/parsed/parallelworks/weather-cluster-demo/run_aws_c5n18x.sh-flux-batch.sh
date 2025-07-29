@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=WRF
 #FLUX -N=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export I_MPI_FABRIC='efa'

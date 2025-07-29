@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --mem=80000M
-#SBATCH --partition=gpu-2d
 #SBATCH --chdir=./
 #SBATCH --array=0
 

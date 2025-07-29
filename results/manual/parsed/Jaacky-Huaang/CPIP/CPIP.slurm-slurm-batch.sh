@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32GB
 #SBATCH --time=05:00:00
-#SBATCH --partition=a100_1,a100_2,v100
 #SBATCH --constraint=ntasks-per-node=1
 
 ext3_path=/scratch/$USER/overlay-25GB-500K.ext3

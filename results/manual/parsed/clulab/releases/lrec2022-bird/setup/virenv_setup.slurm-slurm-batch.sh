@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10gb
 #SBATCH --time=01:00:00
-#SBATCH --partition=standard
 
 rm -f -r ~/bird/bird_virenv
 module load python/3.8/3.8.2

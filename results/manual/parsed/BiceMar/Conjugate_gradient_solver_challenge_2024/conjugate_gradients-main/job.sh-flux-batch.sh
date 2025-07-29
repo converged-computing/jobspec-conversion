@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-cinnamonbun-7971
+#FLUX --job-name=expressive-gato-1636
 #FLUX -n=10
 #FLUX -c=16
 #FLUX --queue=cpu

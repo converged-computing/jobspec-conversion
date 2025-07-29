@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:4
 #SBATCH --time=00:15:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1,exclusive
 #SBATCH --exclude=comet-33-15,comet-33-11
 

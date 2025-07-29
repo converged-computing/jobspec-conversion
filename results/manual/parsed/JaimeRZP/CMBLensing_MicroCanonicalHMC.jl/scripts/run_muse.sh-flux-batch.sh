@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-leg-1283
+#FLUX --job-name=butterscotch-hippo-6318
 #FLUX -c=4
 #FLUX --gpus-per-task=1
 #FLUX --queue=regular

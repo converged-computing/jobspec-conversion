@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-blackbean-8498
+#FLUX --job-name=reclusive-chip-7638
 #FLUX -c=24
 #FLUX -t=86400
 #FLUX --urgency=16

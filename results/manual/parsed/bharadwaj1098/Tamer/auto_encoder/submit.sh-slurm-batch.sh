@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:TitanV:1
 #SBATCH --mem=16G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=Hercules
 #SBATCH --constraint=ntasks-per-node=4
 
 module load pytorch/1.6.0-anaconda3-cuda10.2

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-onion-1424
+#FLUX --job-name=persnickety-kitty-3007
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SHervoe-Hansen/SI-Cavity-Formation/Simulations/n-pentane/No_salt/submit.pbs

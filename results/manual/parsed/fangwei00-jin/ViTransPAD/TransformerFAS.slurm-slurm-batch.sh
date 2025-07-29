@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:A40:1
 #SBATCH --mem=30G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=guests
 #SBATCH --constraint=ntasks-per-node=1
 
 echo "Just checking!

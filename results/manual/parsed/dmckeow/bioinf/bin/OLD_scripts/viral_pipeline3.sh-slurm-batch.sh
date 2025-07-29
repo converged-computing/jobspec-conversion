@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=72GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=amdlarge
 
 module load minimap2/2.17
 module load samtools

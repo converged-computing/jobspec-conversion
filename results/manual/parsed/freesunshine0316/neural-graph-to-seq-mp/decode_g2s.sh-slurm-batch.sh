@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=K80
 
 export PYTHONPATH='$PYTHONPATH:/home/lsong10/ws/exp.graph_to_seq/neural-graph-to-seq-mp'

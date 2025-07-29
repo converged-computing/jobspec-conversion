@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-hippo-8006
+#FLUX --job-name=expensive-peanut-butter-9993
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

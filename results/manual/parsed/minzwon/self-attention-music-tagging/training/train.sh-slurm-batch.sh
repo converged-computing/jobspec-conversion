@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128GB
-#SBATCH --partition=high
 #SBATCH --constraint=amd
 #SBATCH --chdir=/homedtic/mwon/codes/music-tagging-attention/training
 

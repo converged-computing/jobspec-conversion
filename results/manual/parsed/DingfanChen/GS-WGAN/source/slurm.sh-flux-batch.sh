@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-lamp-9003
+#FLUX --job-name=joyous-soup-9832
 #FLUX --queue=gpu20
 #FLUX --urgency=16
 

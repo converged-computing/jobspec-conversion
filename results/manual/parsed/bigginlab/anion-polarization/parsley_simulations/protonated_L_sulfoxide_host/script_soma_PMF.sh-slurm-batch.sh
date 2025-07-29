@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=gpu4-biggin
 #SBATCH --constraint=ntasks-per-socket=1
 #SBATCH --array=0-23:1%2
 

@@ -2,7 +2,7 @@
 #FLUX --job-name=TFF_ABCD_step_three
 #FLUX -N=4
 #FLUX -c=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=regular
 #FLUX -t=21600
 #FLUX --urgency=16

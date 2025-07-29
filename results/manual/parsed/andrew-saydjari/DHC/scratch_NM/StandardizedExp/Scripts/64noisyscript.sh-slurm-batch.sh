@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8000
 #SBATCH --time=00:30:00
-#SBATCH --partition=test
 
 module load Julia/1.5.3-linux-x86_64
 julia runexp.jl "log" "apd" "iso" "../Nx64/noisy_stdtrue/"

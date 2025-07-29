@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-general-7019
+#FLUX --job-name=reclusive-pancake-0761
 #FLUX --urgency=16
 
 module load cuda/10.0

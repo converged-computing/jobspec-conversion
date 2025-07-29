@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=GPUQ
 #SBATCH --constraint=A100
 
 WORKDIR=${SLURM_SUBMIT_DIR}

@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=g100_usr_prod
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load spack 
 spack load adios2@2.9.1

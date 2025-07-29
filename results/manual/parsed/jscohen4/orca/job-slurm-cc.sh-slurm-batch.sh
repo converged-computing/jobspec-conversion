@@ -3,7 +3,6 @@
 #SBATCH --ntasks=97
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-22:00:00
-#SBATCH --partition=high
 
 export PATH='<your path>:$PATH'
 

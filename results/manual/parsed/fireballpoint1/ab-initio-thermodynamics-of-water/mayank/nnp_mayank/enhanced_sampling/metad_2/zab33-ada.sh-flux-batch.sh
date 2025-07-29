@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-banana-7634
+#FLUX --job-name=blue-parrot-3737
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

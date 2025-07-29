@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-butter-1194
+#FLUX --job-name=lovely-carrot-9370
 #FLUX -n=64
 #FLUX --queue=aind
 #FLUX -t=108000

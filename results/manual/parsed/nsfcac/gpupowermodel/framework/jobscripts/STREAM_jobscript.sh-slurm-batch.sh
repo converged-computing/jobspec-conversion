@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3994MB
 #SBATCH --time=10:00:00
-#SBATCH --partition=nocona
 #SBATCH --constraint=ntasks-per-node=128
 
 appName=STREAM

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-itch-4995
+#FLUX --job-name=grated-bits-2952
 #FLUX --queue=valhalla
 #FLUX -t=86400
 #FLUX --urgency=16

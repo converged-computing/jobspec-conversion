@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=rsmi:1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=mi210q
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SLURM_CPU_BIND='verbose'
 

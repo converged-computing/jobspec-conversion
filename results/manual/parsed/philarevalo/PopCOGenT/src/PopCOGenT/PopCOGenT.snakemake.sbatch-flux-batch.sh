@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-bits-7960
+#FLUX --job-name=bricky-nunchucks-1262
 #FLUX --urgency=16
 
 source activate PopCOGenT

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-caramel-6720
+#FLUX --job-name=placid-egg-7479
 #FLUX -c=8
 #FLUX -t=170
 #FLUX --urgency=16

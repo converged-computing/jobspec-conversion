@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-arm-9212
+#FLUX --job-name=reclusive-arm-8837
 #FLUX --queue=longq
 #FLUX -t=172800
 #FLUX --urgency=16

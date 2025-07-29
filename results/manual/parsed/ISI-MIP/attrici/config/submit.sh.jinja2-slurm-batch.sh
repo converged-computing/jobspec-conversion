@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=6-23:50:00
-#SBATCH --partition=priority
 #SBATCH --qos=priority
 #SBATCH --array=0-{{s.njobarray-1}}
 

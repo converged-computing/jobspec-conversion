@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-train-8666
+#FLUX --job-name=hello-staircase-7927
 #FLUX -c=6
 #FLUX -t=600
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=2000
-#SBATCH --partition=main
 #SBATCH --array=1-130
 
 export SINGULARITY_BIND='/home/e1garcia'

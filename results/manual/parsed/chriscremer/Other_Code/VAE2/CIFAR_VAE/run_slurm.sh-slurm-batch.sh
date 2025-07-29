@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --mem=3GB
-#SBATCH --partition=gpu
 
 export PATH='$PATH:/h/ccremer/anaconda3/bin'
 

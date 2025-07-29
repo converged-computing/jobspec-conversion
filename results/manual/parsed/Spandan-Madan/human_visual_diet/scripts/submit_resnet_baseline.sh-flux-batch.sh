@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-leopard-6438
+#FLUX --job-name=dinosaur-lamp-4414
 #FLUX --queue=seas_gpu
 #FLUX -t=259200
 #FLUX --urgency=16

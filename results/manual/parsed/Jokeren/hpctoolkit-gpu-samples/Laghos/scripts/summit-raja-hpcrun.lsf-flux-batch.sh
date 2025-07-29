@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-truffle-5023
+#FLUX --job-name=bricky-avocado-4889
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Jokeren/hpctoolkit-gpu-samples/Laghos/scripts/summit-raja-hpcrun.lsf

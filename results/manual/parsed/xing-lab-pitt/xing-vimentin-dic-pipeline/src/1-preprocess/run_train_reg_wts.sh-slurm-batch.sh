@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
-#SBATCH --partition=dept_gpu
 
 echo
 echo $SLURM_JOB_NODELIST

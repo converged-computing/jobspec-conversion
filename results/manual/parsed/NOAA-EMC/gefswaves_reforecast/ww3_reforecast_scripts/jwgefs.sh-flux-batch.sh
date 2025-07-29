@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=cowy-caramel-9085
+#FLUX --job-name=conspicuous-chip-1062
 #FLUX -N=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=orion
 #FLUX -t=28200
 #FLUX --urgency=16

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=stanky-hippo-2053
+#FLUX --job-name=pusheena-despacito-1584
 #FLUX -N=4
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=thin
 #FLUX -t=3600
 #FLUX --urgency=16

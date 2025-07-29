@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-pedo-4002
+#FLUX --job-name=gloopy-pedo-4125
 #FLUX -c=8
 #FLUX -t=170
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-chair-2380
+#FLUX --job-name=blue-pedo-7780
 #FLUX -n=96
 #FLUX -t=36000
 #FLUX --urgency=16

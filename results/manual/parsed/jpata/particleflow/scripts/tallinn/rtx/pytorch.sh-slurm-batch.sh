@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:rtx:4
-#SBATCH --partition=gpu
 
 IMG=/home/software/singularity/pytorch.simg:2024-03-11
 singularity exec -B /scratch/persistent --nv \

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu-short
 #SBATCH --array=5-24
 
 export PYTHONPATH='${PYTHONPATH}:${HOME}/context-group-detection/'

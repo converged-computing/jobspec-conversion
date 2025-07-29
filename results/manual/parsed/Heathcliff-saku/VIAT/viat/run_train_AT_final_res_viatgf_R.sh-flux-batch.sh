@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-cherry-6359
+#FLUX --job-name=peachy-caramel-2535
 #FLUX --urgency=16
 
 module load anaconda/2020.11

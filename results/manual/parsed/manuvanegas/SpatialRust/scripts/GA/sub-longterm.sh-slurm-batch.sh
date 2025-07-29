@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=htc
 #SBATCH --chdir=/home/mvanega1/SpatialRust
 #SBATCH --array=1-8
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-lamp-2412
+#FLUX --job-name=lovable-milkshake-9253
 #FLUX --urgency=16
 
 Help(){ # Display Help

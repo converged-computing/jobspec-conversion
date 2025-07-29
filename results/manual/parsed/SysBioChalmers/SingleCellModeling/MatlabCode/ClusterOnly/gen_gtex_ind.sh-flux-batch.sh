@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-omelette-8541
+#FLUX --job-name=expressive-hobbit-1047
 #FLUX -n=20
 #FLUX --queue=vera
 #FLUX -t=432000

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=9500
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=sched_mit_ccoley
 
 source /cm/shared/engaging/anaconda/2018.12/etc/profile.d/conda.sh
 source env_seed77777777.sh

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=16G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=cops
 
 export OMP_NUM_THREADS='$ntomp'
 

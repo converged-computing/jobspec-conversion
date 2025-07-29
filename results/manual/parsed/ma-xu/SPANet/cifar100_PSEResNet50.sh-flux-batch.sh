@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-toaster-5247
+#FLUX --job-name=tart-pot-1863
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

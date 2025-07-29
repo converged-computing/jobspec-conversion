@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=SUMO
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=864000
 #FLUX --urgency=16

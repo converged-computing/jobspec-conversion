@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-snack-7975
+#FLUX --job-name=pusheena-kerfuffle-3835
 #FLUX --urgency=16
 
 srun /opt/ucs/demo/workloads/AMG 9

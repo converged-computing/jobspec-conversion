@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-peanut-butter-0424
+#FLUX --job-name=goodbye-nunchucks-7733
 #FLUX -c=20
 #FLUX --queue=short
 #FLUX -t=719

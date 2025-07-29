@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=800M
 #SBATCH --time=12:00:00
-#SBATCH --partition=main
 
 export VF_OLD_JOB_NO='${jobname:2}'
 export VF_VF_OLD_JOB_NO_2='${VF_OLD_JOB_NO/*.}'

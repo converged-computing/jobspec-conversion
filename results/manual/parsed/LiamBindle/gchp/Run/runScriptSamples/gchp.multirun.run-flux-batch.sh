@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-eagle-0527
+#FLUX --job-name=sticky-bits-2599
 #FLUX -n=6
 #FLUX --queue=huce_intel
 #FLUX -t=30

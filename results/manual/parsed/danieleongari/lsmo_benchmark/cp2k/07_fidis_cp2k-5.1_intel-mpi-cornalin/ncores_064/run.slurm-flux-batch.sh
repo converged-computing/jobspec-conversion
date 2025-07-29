@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-peanut-butter-3703
+#FLUX --job-name=bricky-signal-9091
 #FLUX -N=3
 #FLUX -n=64
 #FLUX --queue=parallel

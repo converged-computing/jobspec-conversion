@@ -5,7 +5,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=amd
 #SBATCH --constraint=zen3
 
 export SBATCH_CONSTRAINT='zen3'

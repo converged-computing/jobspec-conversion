@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-muffin-2507
+#FLUX --job-name=faux-butter-9308
 #FLUX --urgency=16
 
 if [ $# -lt 2 ]; then

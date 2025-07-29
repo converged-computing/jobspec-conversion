@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=7
 #SBATCH --gres=gpu:k80:2
 #SBATCH --time=00:20:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export reset_counters='-resetstep 10000 -nsteps 20000'

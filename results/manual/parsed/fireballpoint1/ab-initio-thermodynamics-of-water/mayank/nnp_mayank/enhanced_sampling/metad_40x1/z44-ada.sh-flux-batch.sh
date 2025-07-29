@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-soup-5931
+#FLUX --job-name=eccentric-car-2417
 #FLUX -n=15
 #FLUX -t=259200
 #FLUX --urgency=16

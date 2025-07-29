@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-cat-0924
+#FLUX --job-name=expressive-citrus-3328
 #FLUX -t=720000
 #FLUX --urgency=16
 

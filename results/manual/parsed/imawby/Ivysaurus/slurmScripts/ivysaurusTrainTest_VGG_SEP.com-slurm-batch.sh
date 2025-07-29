@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=150G
 #SBATCH --time=06:00:00
-#SBATCH --partition=astro
 
 source /etc/profile
 echo 'BEGIN'

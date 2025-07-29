@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
 #SBATCH --gres=gpu:a800:1
-#SBATCH --partition=A800
 
 export HF_ENDPOINT='https://hf-mirror.com'
 export PYTHONPATH='/ssdfs/datahome/tj24011/workspace/McQuic'

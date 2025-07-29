@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-despacito-2378
+#FLUX --job-name=blue-despacito-2267
 #FLUX -n=16
 #FLUX -t=259200
 #FLUX --urgency=16

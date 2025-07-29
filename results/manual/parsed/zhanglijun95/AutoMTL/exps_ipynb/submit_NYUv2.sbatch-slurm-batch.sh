@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4096
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=m40-long
 #SBATCH --exclude=node007
 
 echo `pwd`

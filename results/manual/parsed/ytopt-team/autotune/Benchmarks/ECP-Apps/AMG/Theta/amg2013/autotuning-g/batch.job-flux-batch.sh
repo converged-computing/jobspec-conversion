@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=psycho-train-2776
+#FLUX --job-name=evasive-fudge-4313
 #FLUX --urgency=16
 

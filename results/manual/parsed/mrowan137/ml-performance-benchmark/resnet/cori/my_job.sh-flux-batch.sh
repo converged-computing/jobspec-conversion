@@ -2,7 +2,7 @@
 #FLUX --job-name=resnet50-cgpu
 #FLUX -c=10
 #FLUX --gpus-per-task=1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

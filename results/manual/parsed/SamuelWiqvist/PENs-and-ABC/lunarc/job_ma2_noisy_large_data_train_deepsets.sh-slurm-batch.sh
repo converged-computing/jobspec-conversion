@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12000
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=gpu
 
 ml load GCC/6.4.0-2.28
 ml load CUDA/9.1.85

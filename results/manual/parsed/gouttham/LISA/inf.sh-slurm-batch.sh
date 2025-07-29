@@ -7,7 +7,7 @@
 #SBATCH --gres=gpu:v100l:4
 #SBATCH --mem=187G
 #SBATCH --time=00:10:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 cd ~/$projects/projects/def-amahdavi/gna23/LISA/
 source ./lisa_env/bin/activate

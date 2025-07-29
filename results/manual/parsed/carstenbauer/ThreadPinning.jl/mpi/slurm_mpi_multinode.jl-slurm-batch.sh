@@ -5,7 +5,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:02:00
-#SBATCH --partition=all
 #SBATCH --constraint=ntasks-per-socket=1
 
 ml lang JuliaHPC

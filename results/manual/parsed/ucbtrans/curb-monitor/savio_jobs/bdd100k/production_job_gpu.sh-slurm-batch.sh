@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:GTX2080TI:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=savio3_gpu
 
 module load python gcc opencv cmake
 pip install --user --upgrade pip setuptools wheel && pip install --user -r ~/curb-monitor/requirements.txt

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=18000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=GPUQ
 #SBATCH --constraint=gpu80g|gpu40g,ntasks-per-node=1
 
 export PYTHONBUFFERED='1'

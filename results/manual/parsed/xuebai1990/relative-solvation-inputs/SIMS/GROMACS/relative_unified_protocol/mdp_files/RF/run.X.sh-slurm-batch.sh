@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=1400mb
 #SBATCH --time=4-10:00:00
-#SBATCH --partition=mf_ilg2.3,mf_nes2.8
 
 export GMX_MAXBACKUP='-1" #Disable backups'
 export GMXRC='/modfac/apps/gromacs-4.6.7_gcc-generic/bin/GMXRC'

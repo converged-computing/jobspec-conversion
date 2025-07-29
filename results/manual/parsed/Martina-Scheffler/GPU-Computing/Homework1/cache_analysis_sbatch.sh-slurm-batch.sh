@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:0
-#SBATCH --partition=edu5
 #SBATCH --constraint=ntasks-per-node=1
 
 export USER_COMPILE_FLAGS='-O3'

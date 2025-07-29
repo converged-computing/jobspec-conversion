@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=06:00:00
-#SBATCH --partition=nvgpu
 #SBATCH --constraint=gpu,ntasks-per-node=4
 
 export HDF5_USE_FILE_LOCKING='FALSE'

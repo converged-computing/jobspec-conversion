@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=swampy-pastry-2112
+#FLUX --job-name=peachy-peanut-butter-2657
 #FLUX -c=5
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gm4-pmext
 #FLUX -t=129600
 #FLUX --urgency=16

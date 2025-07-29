@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-leg-8744
+#FLUX --job-name=conspicuous-bits-4973
 #FLUX --queue=aquila,parallel
 #FLUX -t=604800
 #FLUX --urgency=16

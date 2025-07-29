@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-buttface-5526
+#FLUX --job-name=boopy-lentil-5113
 #FLUX -n=12
 #FLUX --queue=batch
 #FLUX -t=7200

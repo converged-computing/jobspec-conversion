@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-lamp-8100
+#FLUX --job-name=bumfuzzled-kerfuffle-2174
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

@@ -7,9 +7,8 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=5980MB
 #SBATCH --time=12:00:00
-#SBATCH --partition=icelake
 #SBATCH --chdir=/home/jz531/rds/hpc-work/GRN_heatshock_At/
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 #SBATCH --array=500
 
 . /etc/profile.d/modules.sh # Leave this line (enables the module command)

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=100000
 #SBATCH --time=10-00:12:00
-#SBATCH --partition=cox
 
 export LIBRARY_PATH='/n/home05/haehn/nolearncox/src/hdf5-1.8.17/hdf5/lib:$LIBRARY_PATH'
 export LD_LIBRARY_PATH='/n/home05/haehn/nolearncox/src/hdf5-1.8.17/hdf5/lib:$LD_LIBRARY_PATH'

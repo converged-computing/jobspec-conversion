@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=15G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=normal
 #SBATCH --array=1-1296
 
 export LANG='C.UTF-8'

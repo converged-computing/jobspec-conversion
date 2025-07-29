@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --time=01:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=skl
 
 export OMP_PROC_BIND='true'

@@ -7,8 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=debug
-#SBATCH --licenses=cscratch1,SCRATCH,project
 
 export OMP_NUM_THREADS='1'
 export PATH='/global/homes/z/zender/bin_${NERSC_HOST}:${PATH}'

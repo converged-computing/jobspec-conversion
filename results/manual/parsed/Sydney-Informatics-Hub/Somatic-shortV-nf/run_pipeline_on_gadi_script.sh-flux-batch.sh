@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-nunchucks-1437
+#FLUX --job-name=tart-earthworm-0621
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Sydney-Informatics-Hub/Somatic-shortV-nf/run_pipeline_on_gadi_script.sh

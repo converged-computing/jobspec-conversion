@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-bits-2172
+#FLUX --job-name=doopy-punk-6101
 #FLUX --queue=short-serial
 #FLUX -t=21600
 #FLUX --urgency=16

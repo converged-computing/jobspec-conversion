@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:09:00
-#SBATCH --partition=small
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$lib_path_of_current_enviroment'
 

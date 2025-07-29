@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=32G
 #SBATCH --time=04:50:00
-#SBATCH --partition=gpu
 
 module purge
 module load Singularity

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-peanut-butter-4662
+#FLUX --job-name=placid-car-6534
 #FLUX --queue=alvis
 #FLUX -t=21600
 #FLUX --urgency=16

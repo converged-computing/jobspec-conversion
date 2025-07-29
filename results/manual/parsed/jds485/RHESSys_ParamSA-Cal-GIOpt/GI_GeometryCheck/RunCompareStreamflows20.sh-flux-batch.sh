@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-gato-8413
+#FLUX --job-name=bricky-staircase-9828
 #FLUX --queue=standard
 #FLUX -t=600
 #FLUX --urgency=16

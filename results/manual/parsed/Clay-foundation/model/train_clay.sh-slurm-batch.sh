@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=0
 #SBATCH --time=02:00:00
-#SBATCH --partition=g4-queue
 #SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'

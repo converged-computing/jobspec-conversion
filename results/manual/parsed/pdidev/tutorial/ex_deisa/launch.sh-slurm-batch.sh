@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=cpu_med
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 NPROC=4                          # Total number of processes
 NPROCPNODE=4                     # Number of processes per node

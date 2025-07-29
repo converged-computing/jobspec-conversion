@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=16G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 source activate.sh
 module load gcc/10.2.0-zuvaafu cuda/11.3.1-z4twu5r

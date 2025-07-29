@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=rsoccer-isaac-training
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=all
 #FLUX --urgency=16
 

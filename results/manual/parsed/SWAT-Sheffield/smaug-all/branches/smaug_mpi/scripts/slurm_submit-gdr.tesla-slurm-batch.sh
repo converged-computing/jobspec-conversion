@@ -5,7 +5,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=tesla
 
 export MV2_USE_CUDA='1'
 export MV2_USE_GPUDIRECT='1'

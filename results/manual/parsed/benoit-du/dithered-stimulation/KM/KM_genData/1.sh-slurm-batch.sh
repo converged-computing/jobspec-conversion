@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=medium
 #SBATCH --constraint=ntasks-per-node=16
 #SBATCH --array=1-16:16
 

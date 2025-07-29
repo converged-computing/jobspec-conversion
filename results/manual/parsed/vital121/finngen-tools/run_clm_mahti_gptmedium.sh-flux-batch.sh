@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-sundae-3620
+#FLUX --job-name=crunchy-banana-1326
 #FLUX -N=6
 #FLUX --queue=gpumedium
 #FLUX -t=129600

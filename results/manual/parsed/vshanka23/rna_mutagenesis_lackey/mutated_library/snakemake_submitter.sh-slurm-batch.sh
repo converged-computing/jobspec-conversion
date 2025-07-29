@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=bigmem
 
 cd /data/Palmetto_sync/Projects/vshanka_rnamut_dna/Ethanol_DMS/mutated
 source /opt/ohpc/pub/Software/mamba-rocky/etc/profile.d/conda.sh

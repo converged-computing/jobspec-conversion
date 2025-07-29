@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=standard-g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export NCCL_SOCKET_IFNAME='hsn'
 export NCCL_NET_GDR_LEVEL='3'

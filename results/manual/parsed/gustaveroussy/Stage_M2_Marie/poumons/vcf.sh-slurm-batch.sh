@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=03:00:00
-#SBATCH --partition=shortq
 
 VCF_FILES=$( find "/mnt/beegfs/scratch/m_michel/DATA/" -type f -name "*.vcf.gz" )
 > rmInfo.log

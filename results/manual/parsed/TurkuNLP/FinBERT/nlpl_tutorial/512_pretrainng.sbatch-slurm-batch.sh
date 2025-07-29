@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem-per-cpu=128G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

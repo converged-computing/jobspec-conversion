@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2G
 #SBATCH --time=00:30:00
-#SBATCH --partition=all
 #SBATCH --constraint=[quest8|quest9|quest10|quest11]
 
 export OMP_NUM_THREADS='1'

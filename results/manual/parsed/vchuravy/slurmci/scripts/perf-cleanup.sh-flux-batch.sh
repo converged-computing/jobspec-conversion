@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-blackbean-3910
+#FLUX --job-name=evasive-butter-2688
 #FLUX -t=900
 #FLUX --urgency=16
 

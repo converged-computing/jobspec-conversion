@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=300G
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=[v100],[v100]
 
 module load cuda/10.2.89

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 export CRAYPE_LINK_TYPE='dynamic '
 export NVCC_WRAPPER_DEFAULT_COMPILER='CC'

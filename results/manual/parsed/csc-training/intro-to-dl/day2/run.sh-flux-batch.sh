@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-squidward-1727
+#FLUX --job-name=spicy-general-7661
 #FLUX -c=7
 #FLUX --gpus-per-task=1
 #FLUX --queue=small-g

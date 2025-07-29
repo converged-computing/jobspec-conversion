@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=savio2_gpu
 #SBATCH --qos=savio_normal
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-diablo-0515
+#FLUX --job-name=bloated-cat-7237
 #FLUX -n=2
 #FLUX --queue=normal256
 #FLUX -t=600

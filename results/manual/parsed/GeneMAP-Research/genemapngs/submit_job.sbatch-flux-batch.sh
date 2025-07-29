@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-destiny-9294
+#FLUX --job-name=eccentric-malarkey-9616
 #FLUX --queue=
 #FLUX -t=36000
 #FLUX --urgency=16

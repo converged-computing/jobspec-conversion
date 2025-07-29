@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-carrot-9834
+#FLUX --job-name=quirky-kitty-8669
 #FLUX -c=3
 #FLUX --queue=cpu,mrcieu
 #FLUX -t=259200

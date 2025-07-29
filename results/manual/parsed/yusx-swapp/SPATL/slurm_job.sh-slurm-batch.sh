@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=2-08:00:00
-#SBATCH --partition=gpu
 
 cd /work/LAS/jannesar-lab/yusx/MHFL
 source /work/LAS/jannesar-lab/yusx/anaconda3/bin/activate /work/LAS/jannesar-lab/yusx/anaconda3/envs/mhfl

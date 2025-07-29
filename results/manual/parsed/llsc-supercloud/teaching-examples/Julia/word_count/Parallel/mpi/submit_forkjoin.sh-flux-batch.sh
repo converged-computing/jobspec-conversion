@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-house-9434
+#FLUX --job-name=placid-citrus-4923
 #FLUX -n=4
 #FLUX --urgency=16
 

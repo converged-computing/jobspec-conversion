@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-carrot-5019
+#FLUX --job-name=nerdy-bits-4748
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

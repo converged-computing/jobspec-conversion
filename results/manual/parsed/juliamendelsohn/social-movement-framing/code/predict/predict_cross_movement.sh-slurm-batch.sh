@@ -7,7 +7,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=5gb
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 
 categories="Task1:relevance"
 shortname="relevance"

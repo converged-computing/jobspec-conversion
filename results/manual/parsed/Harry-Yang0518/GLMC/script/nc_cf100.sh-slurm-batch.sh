@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=80GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=a100_1,a100_2,v100,rtx8000
 
 LOSS=$1
 BS=$2

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=24Gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=plgrid
 #SBATCH --constraint=ntasks-per-node=4
 
 srun /bin/hostname

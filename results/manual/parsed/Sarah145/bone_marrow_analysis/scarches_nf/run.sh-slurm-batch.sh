@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=highmem
 
 nextflow='/home/sennis/nextflow'
 cd /data/sennis/AML/scarches_nf

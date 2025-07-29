@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-fork-1340
+#FLUX --job-name=chocolate-knife-7039
 #FLUX -c=32
 #FLUX -t=86400
 #FLUX --urgency=16

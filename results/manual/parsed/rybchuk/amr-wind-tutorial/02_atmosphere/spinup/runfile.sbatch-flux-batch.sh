@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-house-0713
+#FLUX --job-name=crunchy-hobbit-1181
 #FLUX -N=2
 #FLUX --queue=debug
 #FLUX -t=3540

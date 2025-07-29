@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=barbun-cuda,akya-cuda
 
 module purge
 module load centos7.3/lib/cuda/10.1

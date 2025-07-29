@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=96G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=geforce3090
 
 module load python/3.9.0

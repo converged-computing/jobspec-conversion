@@ -7,8 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=200
 #SBATCH --mem=1024G
-#SBATCH --partition=megatron
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --exclude=dgx-067,dgx-071,dgx-095
 
 export LOGLEVEL='INFO'

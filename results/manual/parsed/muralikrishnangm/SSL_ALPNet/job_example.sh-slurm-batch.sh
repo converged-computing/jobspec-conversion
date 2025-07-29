@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=debug
 
 export MIOPEN_USER_DB_PATH='/tmp/my-miopen-cache'
 export MIOPEN_CUSTOM_CACHE_DIR='${MIOPEN_USER_DB_PATH}'

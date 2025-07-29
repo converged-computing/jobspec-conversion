@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-earthworm-3019
-#FLUX: --exclusive
+#FLUX --job-name=hanky-lemur-0745
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

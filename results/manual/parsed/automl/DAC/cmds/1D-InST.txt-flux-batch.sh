@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-toaster-5337
+#FLUX --job-name=misunderstood-buttface-0372
 #FLUX --queue=bosch_cpu-cascadelake
 #FLUX --urgency=16
 

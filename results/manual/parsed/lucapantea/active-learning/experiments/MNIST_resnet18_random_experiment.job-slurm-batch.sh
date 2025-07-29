@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 module purge
 module load 2022

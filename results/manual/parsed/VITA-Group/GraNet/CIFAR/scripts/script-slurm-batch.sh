@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:1
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=1
 
 source /public/data2/software/software/anaconda3/bin/activate

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-itch-3298
+#FLUX --job-name=expressive-leopard-8403
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mbrukman/nextflow/modules/nextflow/src/test/groovy/nextflow/executor/test-bash-wrapper.txt

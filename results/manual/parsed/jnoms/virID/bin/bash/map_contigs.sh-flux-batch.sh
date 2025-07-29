@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-kerfuffle-6750
+#FLUX --job-name=stanky-sundae-6293
 #FLUX -c=2
 #FLUX --queue=priority
 #FLUX -t=3600

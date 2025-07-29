@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem-per-cpu=8gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=mf_titanx
 #SBATCH --dependency=3755380
 
 export NAMD='/beegfs/DATA/mobley/limvt/local/namd/2.12-multicore-CUDA'

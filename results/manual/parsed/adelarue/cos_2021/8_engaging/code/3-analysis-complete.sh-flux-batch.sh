@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-pot-4921
+#FLUX --job-name=hairy-citrus-1301
 #FLUX --queue=sched_mit_sloan_batch
 #FLUX -t=900
 #FLUX --urgency=16

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=rf-0-smogn
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=amd
 #FLUX -t=356400
 #FLUX --urgency=16

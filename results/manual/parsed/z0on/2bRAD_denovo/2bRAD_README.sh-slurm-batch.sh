@@ -9,7 +9,6 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=development
 
 export PKG_CONFIG_PATH='/opt/apps/intel18/gsl/2.2.1/lib/pkgconfig/'
 export GENOME_FASTA='cdh_alltags_cc.fasta'

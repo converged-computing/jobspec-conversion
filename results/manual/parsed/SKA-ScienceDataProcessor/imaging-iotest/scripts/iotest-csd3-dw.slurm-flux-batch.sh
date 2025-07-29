@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=sdp-iotest
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=skylake
 #FLUX -t=1800
 #FLUX --urgency=16

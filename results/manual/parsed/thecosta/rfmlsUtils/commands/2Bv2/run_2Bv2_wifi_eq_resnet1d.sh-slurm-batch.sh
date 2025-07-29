@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=500Gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=multigpu
 
 echo "Start JOB!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 mkdir -p /home/bruno/results/2Bv2/wifi/equalized/resnet1d/

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=60G
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 
 export PYTORCH_VERSION='v1.8.0 # 9dfbfe9 # a7cf04ec40e487286ad3f8068fa18321f3474dd2 # master'
 export VISION_VERSION='v0.9.0 # 9dfbfe9 # a7cf04ec40e487286ad3f8068fa18321f3474dd2 # master'

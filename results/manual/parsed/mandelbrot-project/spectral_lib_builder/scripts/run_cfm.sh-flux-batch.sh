@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-house-8282
+#FLUX --job-name=bloated-toaster-6073
 #FLUX --queue=public-cpu
 #FLUX -t=345600
 #FLUX --urgency=16

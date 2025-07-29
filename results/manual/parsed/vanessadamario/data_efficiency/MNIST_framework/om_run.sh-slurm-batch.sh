@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:tesla-k80:1
 #SBATCH --mem=25GB
 #SBATCH --time=1-01:00:00
-#SBATCH --partition=normal
 #SBATCH --chdir=/om/user/vanessad/MNIST_framework/
 #SBATCH --array=0-399
 

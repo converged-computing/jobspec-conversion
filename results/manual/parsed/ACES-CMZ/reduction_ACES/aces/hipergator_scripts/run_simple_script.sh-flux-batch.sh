@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-punk-2891
+#FLUX --job-name=conspicuous-leg-2429
 #FLUX --urgency=16
 
 export LOGFILENAME='${LOG_DIR}/casa_log_${jobname}_${SLURM_JOB_ID}_$(date +%Y-%m-%d_%H_%M_%S).log'

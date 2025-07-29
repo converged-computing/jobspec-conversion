@@ -7,6 +7,5 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=8GB
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 
 srun julia --project=experiments experiments/run_experiments.jl -- data=fmnist output_path=results only_models > experiments/train_fmnist.log

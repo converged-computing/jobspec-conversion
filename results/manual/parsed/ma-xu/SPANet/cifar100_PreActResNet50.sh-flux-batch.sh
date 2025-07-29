@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-poo-1044
+#FLUX --job-name=bumfuzzled-latke-3963
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-poo-2389
+#FLUX --job-name=phat-lemur-0421
 #FLUX -c=8
 #FLUX --queue=gpuq-dev
 #FLUX -t=3600

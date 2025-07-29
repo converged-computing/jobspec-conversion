@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=14000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=shared
 #SBATCH --array=6
 
 export JULIA_DEPOT_PATH='${HOME}/julia_depots/climate'

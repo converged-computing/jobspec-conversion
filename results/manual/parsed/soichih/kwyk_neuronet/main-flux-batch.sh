@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-squidward-4058
+#FLUX --job-name=angry-egg-4498
 #FLUX --urgency=16
 
 export SINGULARITYENV_PYTHONNOUSERSITE='true'

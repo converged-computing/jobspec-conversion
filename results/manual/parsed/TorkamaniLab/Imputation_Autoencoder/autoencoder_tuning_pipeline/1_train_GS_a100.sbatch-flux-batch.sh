@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=1_train_GS
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=stsi
 #FLUX -t=2160000
 #FLUX --urgency=16

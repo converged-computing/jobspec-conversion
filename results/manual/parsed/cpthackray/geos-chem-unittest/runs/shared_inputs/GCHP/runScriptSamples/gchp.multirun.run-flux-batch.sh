@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-muffin-6333
+#FLUX --job-name=lovely-rabbit-2005
 #FLUX -n=6
 #FLUX --queue=huce_intel
 #FLUX -t=30

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100-sxm2:1
 #SBATCH --mem=10G
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 
 module load anaconda3/2022.05 cuda/12.1
 conda activate greenai

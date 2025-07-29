@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-bits-6195
+#FLUX --job-name=creamy-kitty-8502
 #FLUX --queue=nvidia
 #FLUX -t=86400
 #FLUX --urgency=16

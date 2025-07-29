@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=15
 #SBATCH --mem=59G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=main
 #SBATCH --array=1-25
 
 export PATH='/dir/kerenxu/SINGULARITY_CACHEDIR/:$PATH'

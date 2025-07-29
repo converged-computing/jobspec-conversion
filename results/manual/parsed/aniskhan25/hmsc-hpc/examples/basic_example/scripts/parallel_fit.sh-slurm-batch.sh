@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=05:00:00
-#SBATCH --partition=standard-g
 #SBATCH --array=509
 
 export PYTHONPATH='$PWD/../..:$PYTHONPATH'

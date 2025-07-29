@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu_prod_long
 #SBATCH --exclude=sh[00,10-16]
 
 export PATH='/opt/conda/bin:$PATH'

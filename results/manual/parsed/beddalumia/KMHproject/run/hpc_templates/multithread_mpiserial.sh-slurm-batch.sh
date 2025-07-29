@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=0
 #SBATCH --time=12:00:00
-#SBATCH --partition=regular1
 
 module load gnu8/8.3.0
 module load mkl/19.1.3.304

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=2
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'

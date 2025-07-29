@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-poo-1313
+#FLUX --job-name=milky-carrot-7875
 #FLUX --queue=thinnodes
 #FLUX -t=600
 #FLUX --urgency=16

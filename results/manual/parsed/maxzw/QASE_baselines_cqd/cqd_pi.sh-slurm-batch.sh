@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu_shared
 
 module purge all
 module load 2021

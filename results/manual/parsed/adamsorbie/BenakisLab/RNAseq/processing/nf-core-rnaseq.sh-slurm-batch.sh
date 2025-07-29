@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=250gb
 #SBATCH --time=16:00:00
-#SBATCH --partition=teramem_inter
 #SBATCH --chdir=/gpfs/scratch/pr63la/ra52noz2
 
 export OMP_NUM_THREADS='24'

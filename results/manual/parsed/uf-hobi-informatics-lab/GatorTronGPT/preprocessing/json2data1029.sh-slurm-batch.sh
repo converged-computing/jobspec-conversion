@@ -9,7 +9,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=2000gb
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=10-29
 
 root=/red/gatortron-phi/gpt

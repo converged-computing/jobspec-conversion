@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=hello-rabbit-3490
+#FLUX --job-name=lovable-chip-8679
 #FLUX -N=40
 #FLUX -n=1280
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal256
 #FLUX -t=2400
 #FLUX --urgency=16

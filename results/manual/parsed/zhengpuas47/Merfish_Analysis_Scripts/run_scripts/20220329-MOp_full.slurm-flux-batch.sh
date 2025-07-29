@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-carrot-5227
+#FLUX --job-name=scruptious-cinnamonbun-2457
 #FLUX --queue=zhuang
 #FLUX -t=172800
 #FLUX --urgency=16

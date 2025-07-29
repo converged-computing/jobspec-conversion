@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20G
 #SBATCH --time=00:30:00
-#SBATCH --partition=instruction
 
 cd $SLURM_SUBMIT_DIR
 module load nvidia/cuda/11.8

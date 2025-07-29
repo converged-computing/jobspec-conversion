@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000m
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=1
 
 smk_dir="/path/to/NovaScope"                                            # [REPLACE] Path to the NovaScope pipeline repo.

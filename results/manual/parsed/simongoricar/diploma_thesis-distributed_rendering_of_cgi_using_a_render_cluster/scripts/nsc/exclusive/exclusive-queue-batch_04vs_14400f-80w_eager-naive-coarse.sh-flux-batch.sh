@@ -2,7 +2,7 @@
 #FLUX --job-name=exc-qb_04vs_14400f-80w_eager-naive-coarse
 #FLUX -n=81
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=7200
 #FLUX --urgency=16
 

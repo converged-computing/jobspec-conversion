@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=4
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=4,a40
 #SBATCH --exclude=cheetah,samantha,xaea-12,kitt
 

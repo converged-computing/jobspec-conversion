@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-itch-8299
+#FLUX --job-name=fat-soup-1845
 #FLUX --queue=bosch_cpu-cascadelake
 #FLUX --urgency=16
 

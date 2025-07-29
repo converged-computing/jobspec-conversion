@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-cinnamonbun-6212
+#FLUX --job-name=dinosaur-malarkey-0356
 #FLUX -t=86400
 #FLUX --urgency=16
 

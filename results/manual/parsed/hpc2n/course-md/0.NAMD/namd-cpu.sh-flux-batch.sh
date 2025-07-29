@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-plant-3767
+#FLUX --job-name=reclusive-onion-0906
 #FLUX -n=28
 #FLUX -t=600
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-poodle-8044
+#FLUX --job-name=confused-itch-3798
 #FLUX --queue=a100
 #FLUX -t=21600
 #FLUX --urgency=16

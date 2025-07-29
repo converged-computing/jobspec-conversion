@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=LocalQ
 
 export WANDB_API_KEY='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 export HF_TOKEN='hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'

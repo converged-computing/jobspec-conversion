@@ -9,7 +9,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu-rtx6k
 #SBATCH --chdir=/mmfs1/gscratch/aaplasma/johnbc/projects/Braginskii/campaigns/RT_magnetization_3/
 #SBATCH --array=1-6%2
 

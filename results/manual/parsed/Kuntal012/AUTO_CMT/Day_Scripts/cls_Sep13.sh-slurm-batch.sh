@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6G
 #SBATCH --time=2-00:15:00
-#SBATCH --partition=batch
 
 date
 echo 'PF_Sep13;quit'|matlab -nodesktop

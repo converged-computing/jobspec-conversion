@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-chair-1237
+#FLUX --job-name=placid-nalgas-7900
 #FLUX -c=14
 #FLUX --queue=parallel
 #FLUX -t=900

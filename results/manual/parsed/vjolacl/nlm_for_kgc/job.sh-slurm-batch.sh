@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=90000mb
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpu_4
 
 export PATH='/opt/intel/intelpython3/bin:$PATH'
 

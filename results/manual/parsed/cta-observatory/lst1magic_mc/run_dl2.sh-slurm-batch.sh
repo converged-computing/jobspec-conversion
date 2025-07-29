@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=63g
-#SBATCH --partition=short
 
 here=$(pwd)
 configbase=${here}/config_base.yaml

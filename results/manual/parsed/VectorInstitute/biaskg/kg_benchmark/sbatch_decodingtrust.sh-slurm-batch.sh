@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem-per-cpu=150G
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=a40
 #SBATCH --qos=deadline
 
 export MASTER_ADDR='$MAIN_HOST'

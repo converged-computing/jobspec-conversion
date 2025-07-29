@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=savio2_gpu
 
 export MODULEPATH='$MODULEPATH:/global/home/groups/fc_bnlp/software/modfiles'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-rabbit-2282
+#FLUX --job-name=bricky-earthworm-8263
 #FLUX -c=4
 #FLUX --queue=dpart
 #FLUX -t=129600

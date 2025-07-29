@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --mem=10GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda3/envs/DeepForest/lib/python3.6/site-packages/'
 

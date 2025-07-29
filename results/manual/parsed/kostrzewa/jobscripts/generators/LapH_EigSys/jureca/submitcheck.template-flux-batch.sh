@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-bits-2552
+#FLUX --job-name=sticky-bike-7134
 #FLUX -N=4
 #FLUX -c=4
 #FLUX -t=3540

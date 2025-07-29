@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=00:10:00
-#SBATCH --partition=short
 
 module load singularity/latest
 action=src

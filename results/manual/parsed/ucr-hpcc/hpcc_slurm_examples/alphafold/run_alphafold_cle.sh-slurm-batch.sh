@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=48gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export SINGULARITY_BIND='${SCRATCH}:/tmp'
 

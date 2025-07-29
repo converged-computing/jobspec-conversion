@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-lemur-3770
+#FLUX --job-name=phat-lizard-3073
 #FLUX --queue=shared
 #FLUX -t=480
 #FLUX --urgency=16

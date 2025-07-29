@@ -4,7 +4,6 @@
 #SBATCH --ntasks=32
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=dcu:4
-#SBATCH --partition=xahdtest
 
 export LD_LIBRARY_PATH='/work/home/ac310l39ky/miniconda3/envs/jittor/lib:$LD_LIBRARY_PATH'
 

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16G
 #SBATCH --time=03:00:00
-#SBATCH --partition=comp,short
 #SBATCH --qos=partner
 
 export lammps='/projects/sn29/apps/clammps/build/lmp_mpi'

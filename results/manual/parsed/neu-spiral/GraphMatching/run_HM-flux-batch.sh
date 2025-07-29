@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=HM
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 module load spark/2.3.2-hadoop2.7

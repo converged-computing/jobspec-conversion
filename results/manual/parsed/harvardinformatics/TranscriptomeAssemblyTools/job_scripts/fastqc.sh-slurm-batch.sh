@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6000
 #SBATCH --time=00:03:00
-#SBATCH --partition=True
 
 """
 For this script to initialize a conda environment, a version of python that supports

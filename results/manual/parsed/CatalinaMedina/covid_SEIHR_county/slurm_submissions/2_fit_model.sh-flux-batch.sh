@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-kerfuffle-6926
+#FLUX --job-name=fuzzy-citrus-7560
 #FLUX -n=4
 #FLUX --queue=standard
 #FLUX -t=14400

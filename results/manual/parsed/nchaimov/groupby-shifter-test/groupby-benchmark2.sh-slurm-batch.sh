@@ -6,9 +6,7 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:15:00
-#SBATCH --partition=debug
 #SBATCH --constraint=haswell
-#SBATCH --licenses=SCRATCH
 
 export JAVA_HOME='/usr/lib/jvm/java-8-oracle'
 export SPARK_HOME='/opt/spark'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-animal-4230
+#FLUX --job-name=blank-gato-8767
 #FLUX -c=2
 #FLUX --queue=gpu
 #FLUX --urgency=16

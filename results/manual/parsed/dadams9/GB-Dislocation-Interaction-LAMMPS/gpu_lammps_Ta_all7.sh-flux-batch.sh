@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=salted-muffin-1526
+#FLUX --job-name=moolicious-lettuce-5175
 #FLUX -n=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=172800
 #FLUX --urgency=16
 

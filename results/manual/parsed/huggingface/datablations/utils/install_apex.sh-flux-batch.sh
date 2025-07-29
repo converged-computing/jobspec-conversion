@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-bits-8157
+#FLUX --job-name=swampy-puppy-0154
 #FLUX -c=20
 #FLUX --queue=eap
 #FLUX -t=3600

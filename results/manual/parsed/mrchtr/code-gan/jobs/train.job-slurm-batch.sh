@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=10G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=clara-job
 #SBATCH --constraint=ntasks-per-node=1
 
 module load Python

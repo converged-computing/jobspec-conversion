@@ -7,9 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=early_science
 #SBATCH --constraint=gpu
-#SBATCH --licenses=SCRATCH
 
 export WORK='$SCRATCH/adse13_249/LY99'
 export OUT_DIR='${PWD}'

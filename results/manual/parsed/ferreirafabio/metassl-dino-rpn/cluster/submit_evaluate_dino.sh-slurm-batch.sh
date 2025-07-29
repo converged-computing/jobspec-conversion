@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=5-23:59:59
-#SBATCH --partition=mldlc_gpu-rtx2080
 
 source /home/ferreira/.profile
 source activate dino

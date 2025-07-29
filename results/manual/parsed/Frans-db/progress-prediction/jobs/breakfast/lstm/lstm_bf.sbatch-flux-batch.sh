@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-pot-5996
+#FLUX --job-name=stanky-snack-8669
 #FLUX -c=2
 #FLUX --queue=general
 #FLUX -t=7200

@@ -4,9 +4,8 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=EPYC
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 
 export LD_LIBRARY_PATH='/u/dssc/galess00/final_assignment_FHPC/exercise2/myblis_epyc/lib:$LD_LIBRARY_PATH'
 export OMP_PLACES='cores'

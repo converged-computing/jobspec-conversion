@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=05:00:00
-#SBATCH --partition=accelerated
 #SBATCH --constraint=ntasks-per-node=4
 
 export EXT_DATA_PREFIX='/hkfs/home/dataset/datasets/'

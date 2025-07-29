@@ -6,7 +6,6 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=shared
 #SBATCH --constraint=ntasks-per-node=28
 
 export MATPLOTLIBRC='$HOME/.config/matplotlib'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-buttface-5529
+#FLUX --job-name=anxious-egg-6923
 #FLUX -c=36
 #FLUX -t=1036800
 #FLUX --urgency=16

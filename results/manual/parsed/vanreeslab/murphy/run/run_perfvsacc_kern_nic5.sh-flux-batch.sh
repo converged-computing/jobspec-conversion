@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-pot-6129
+#FLUX --job-name=crusty-sundae-7118
 #FLUX --queue=batch,hmem
 #FLUX -t=21600
 #FLUX --urgency=16

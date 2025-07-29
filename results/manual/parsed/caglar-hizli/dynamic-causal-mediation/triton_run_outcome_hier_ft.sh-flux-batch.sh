@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-platanos-0421
+#FLUX --job-name=purple-spoon-8938
 #FLUX -t=57600
 #FLUX --urgency=16
 

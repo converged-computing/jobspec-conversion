@@ -5,7 +5,6 @@
 #SBATCH --ntasks=76
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=icelake
 #SBATCH --array=0-4
 
 export OMP_NUM_THREADS='1'

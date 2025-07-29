@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30G
 #SBATCH --time=04:00:00
-#SBATCH --partition=genomics
 #SBATCH --constraint=ntasks-per-node=4
 
 module load singularity

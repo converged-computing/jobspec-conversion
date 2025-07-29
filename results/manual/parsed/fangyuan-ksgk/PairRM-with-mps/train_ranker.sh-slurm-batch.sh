@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=200G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=a100
 #SBATCH --qos=a100_wenhuchen
 
 module load cuda-11.8

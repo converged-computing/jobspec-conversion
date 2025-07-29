@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-kerfuffle-6135
+#FLUX --job-name=fat-hippo-2266
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gxlarge
 #FLUX --urgency=16
 

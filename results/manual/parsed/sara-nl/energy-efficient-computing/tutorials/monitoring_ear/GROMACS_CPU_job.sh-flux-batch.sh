@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=GROMACS.CPU
 #FLUX -n=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=rome
 #FLUX -t=3540
 #FLUX --urgency=16

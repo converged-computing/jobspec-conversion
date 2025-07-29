@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-soup-9253
+#FLUX --job-name=lovable-avocado-6730
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX -t=259200

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=confused-poo-4192
+#FLUX --job-name=salted-bike-0536
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export HYDRA_FULL_ERROR='1'

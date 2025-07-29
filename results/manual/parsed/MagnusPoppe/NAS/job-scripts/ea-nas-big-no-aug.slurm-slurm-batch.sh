@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=80000
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=EPICALL,V100-IDI
 #SBATCH --constraint=ntasks-per-node=2
 
 export EA_NAS_UPLOAD_TO_FIREBASE='0'

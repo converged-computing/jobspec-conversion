@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32GB
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=bme_gpu
 
 module load 7/compiler/cuda/11.4
 source /hpc/data/home/bme/guochx/.bashrc

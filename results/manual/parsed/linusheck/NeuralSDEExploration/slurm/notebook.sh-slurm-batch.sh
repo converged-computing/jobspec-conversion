@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=50G
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpushort
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'

@@ -7,7 +7,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
-#SBATCH --partition=broadwl
 #SBATCH --array=1-288%20
 
 module load julia/1.7.2

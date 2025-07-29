@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-leg-2097
+#FLUX --job-name=rainbow-fudge-5401
 #FLUX -N=25
 #FLUX -c=4
 #FLUX -t=3600

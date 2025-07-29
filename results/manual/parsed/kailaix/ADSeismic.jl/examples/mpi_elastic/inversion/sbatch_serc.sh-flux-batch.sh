@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-citrus-5314
+#FLUX --job-name=spicy-hope-6026
 #FLUX -n=21
 #FLUX --queue=serc
 #FLUX -t=604800

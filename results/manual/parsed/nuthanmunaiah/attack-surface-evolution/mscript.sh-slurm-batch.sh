@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1024
 #SBATCH --time=01:00:00
-#SBATCH --partition=work
 #SBATCH --qos=free
 
 export LD_LIBRARY_PATH='$HOME/lib:$HOME/lib64'

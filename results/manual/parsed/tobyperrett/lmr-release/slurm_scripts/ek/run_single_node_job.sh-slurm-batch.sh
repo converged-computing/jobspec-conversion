@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=500GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=big
 
 export MASTER_ADDR='${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}'
 export MASTER_PORT='19500'

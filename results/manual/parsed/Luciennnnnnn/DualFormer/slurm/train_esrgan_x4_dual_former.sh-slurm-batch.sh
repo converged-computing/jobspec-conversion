@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=100G
-#SBATCH --partition=dongliu
 
 nvidia-smi
 python /home/sist/luoxin/projects/DualFormer/basicsr/train.py --auto_resume -opt options/train/train_esrgan_x4_dual_former.yml

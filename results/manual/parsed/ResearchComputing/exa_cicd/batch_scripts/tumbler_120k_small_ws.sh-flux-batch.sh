@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-lettuce-8835
+#FLUX --job-name=swampy-lentil-0826
 #FLUX -N=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

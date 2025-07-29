@@ -4,7 +4,6 @@
 #SBATCH --ntasks=32
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=256gb
-#SBATCH --partition=intel
 #SBATCH --array=1
 
 module load trinity-rnaseq/2.13.2

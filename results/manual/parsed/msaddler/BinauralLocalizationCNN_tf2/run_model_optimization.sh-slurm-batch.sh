@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:tesla-v100:1
 #SBATCH --mem=32G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal
 #SBATCH --array=0-9
 
 offset=0

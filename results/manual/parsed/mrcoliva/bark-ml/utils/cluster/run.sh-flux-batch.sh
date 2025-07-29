@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-arm-8964
+#FLUX --job-name=stinky-eagle-5124
 #FLUX -c=4
 #FLUX --urgency=16
 

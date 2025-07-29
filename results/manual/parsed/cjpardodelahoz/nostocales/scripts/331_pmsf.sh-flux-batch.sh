@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-fork-2811
+#FLUX --job-name=goodbye-leopard-8100
 #FLUX -n=2
 #FLUX -c=6
 #FLUX --queue=scavenger

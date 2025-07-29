@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=96G
 #SBATCH --time=1-00:10:55
-#SBATCH --partition=normal
 
 source vnv/geo_vnv/bin/activate
 pip install spacy

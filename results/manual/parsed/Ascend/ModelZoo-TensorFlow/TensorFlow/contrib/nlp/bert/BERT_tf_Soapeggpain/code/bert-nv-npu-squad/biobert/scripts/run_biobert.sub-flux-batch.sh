@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=loopy-malarkey-1133
-#FLUX: --exclusive
+#FLUX --job-name=stanky-lizard-1502
+#FLUX --exclusive
 #FLUX --urgency=16
 
 set -eux

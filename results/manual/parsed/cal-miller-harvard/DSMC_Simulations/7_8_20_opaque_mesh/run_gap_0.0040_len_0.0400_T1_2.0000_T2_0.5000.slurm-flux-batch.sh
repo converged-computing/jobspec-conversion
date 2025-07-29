@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-buttface-7401
+#FLUX --job-name=confused-plant-4611
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

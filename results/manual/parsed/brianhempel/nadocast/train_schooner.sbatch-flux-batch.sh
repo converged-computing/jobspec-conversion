@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=arid-carrot-9093
+#FLUX --job-name=stanky-eagle-2765
 #FLUX -N=25
 #FLUX -c=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=largejobs
 #FLUX -t=172800
 #FLUX --urgency=16

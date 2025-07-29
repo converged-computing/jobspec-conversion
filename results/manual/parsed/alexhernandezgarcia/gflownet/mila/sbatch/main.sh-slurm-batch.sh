@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --mem=24gb
-#SBATCH --partition=long
 
 echo "Arg 0: $0"
 echo "Arg 1: $1"

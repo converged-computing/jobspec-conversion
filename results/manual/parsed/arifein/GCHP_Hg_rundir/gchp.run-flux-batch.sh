@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-leg-4188
+#FLUX --job-name=phat-spoon-8264
 #FLUX -n=24
 #FLUX --queue=fdr
 #FLUX -t=1800

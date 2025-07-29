@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-lamp-9187
+#FLUX --job-name=blank-lemur-2266
 #FLUX --queue=zhuang,shared
 #FLUX -t=604800
 #FLUX --urgency=16

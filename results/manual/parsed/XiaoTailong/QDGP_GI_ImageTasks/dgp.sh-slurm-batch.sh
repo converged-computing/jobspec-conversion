@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=CLUSTER
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=compute-0-1
 

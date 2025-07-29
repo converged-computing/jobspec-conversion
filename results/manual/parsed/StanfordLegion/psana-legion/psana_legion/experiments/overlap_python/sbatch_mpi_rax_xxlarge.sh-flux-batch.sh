@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=psana_legion
 #FLUX -N=65
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=10800
 #FLUX --urgency=16
 

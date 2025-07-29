@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-leader-5752
+#FLUX --job-name=loopy-diablo-7413
 #FLUX -n=4
 #FLUX -c=7
 #FLUX -t=600

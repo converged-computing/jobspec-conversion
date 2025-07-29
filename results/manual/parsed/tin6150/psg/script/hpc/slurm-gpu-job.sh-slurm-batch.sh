@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=08:19:59
-#SBATCH --partition=savio4_gpu
 #SBATCH --qos=savio_normal
 
 LOGDIR=/global/scratch/users/tin/JUNK/

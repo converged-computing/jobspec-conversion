@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=MPI-multinode
 #FLUX -N=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX -t=21600
 #FLUX --urgency=16

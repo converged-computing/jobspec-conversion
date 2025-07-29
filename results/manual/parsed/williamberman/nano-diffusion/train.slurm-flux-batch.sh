@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=anxious-dog-1792
+#FLUX --job-name=wobbly-gato-7625
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export HF_HOME='/fsx/william/hf_home'

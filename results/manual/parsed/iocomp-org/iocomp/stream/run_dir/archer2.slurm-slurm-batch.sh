@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=standard
 #SBATCH --qos=standard
 
 export STREAM_DIR='$(cd ${SLURM_SUBMIT_DIR}/../../ && pwd) '

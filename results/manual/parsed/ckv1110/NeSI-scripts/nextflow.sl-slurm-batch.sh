@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=280GB
 #SBATCH --time=00:40:00
-#SBATCH --partition=hgx
 
 export SINGULARITY_CACHEDIR='/nesi/nobackup/uoa03709/containers/apptainer_cache'
 export SINGULARITY_TMPDIR='/nesi/nobackup/uoa03709/containers/apptainer_tmpdir'

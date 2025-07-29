@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-despacito-5622
+#FLUX --job-name=conspicuous-sundae-1571
 #FLUX --queue=wildfire
 #FLUX -t=660
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:k40:2
 #SBATCH --mem=40GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 STYLEGAN_PATH=/your/path/to/stylegan
 module load TensorFlow/1.10.1-fosscuda-2018a-Python-3.6.4

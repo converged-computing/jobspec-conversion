@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=cca
 #SBATCH --constraint=ntasks-per-node=56,rome
 
 cd /mnt/ceph/users/apricewhelan/projects/apogee-dr17-binaries/vac-pipeline

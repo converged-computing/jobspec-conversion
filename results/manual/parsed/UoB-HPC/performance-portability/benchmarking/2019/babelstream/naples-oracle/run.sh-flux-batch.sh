@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-muffin-9288
+#FLUX --job-name=peachy-onion-5315
 #FLUX --urgency=16
 
 export OMP_NUM_THREADS='64 OMP_PROC_BIND=spread OMP_PLACES=cores'

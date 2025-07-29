@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=100000
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=physical
 
 export BASENJIDIR='/data/gpfs/projects/punim0614/andy/basenji21/basenji'
 export PATH='$BASENJIDIR/bin:$PATH'

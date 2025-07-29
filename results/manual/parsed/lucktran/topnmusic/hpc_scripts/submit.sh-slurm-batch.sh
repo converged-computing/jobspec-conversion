@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
 #SBATCH --time=02:00:00
-#SBATCH --partition=dgxs
 #SBATCH --constraint=v100
 
 module load python/3.12

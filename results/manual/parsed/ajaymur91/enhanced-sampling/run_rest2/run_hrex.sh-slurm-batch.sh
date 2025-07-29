@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=12:00:00
-#SBATCH --partition=yethiraj
 
 nrep=4
 mpirun -n $nrep gmx_mpi mdrun -v -plumed ../plumed.dat -multidir topol0 topol1 topol2 topol3 -replex 500 -maxh 12 -hrex -dlb no

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-omelette-9639
+#FLUX --job-name=doopy-signal-1478
 #FLUX --queue=batch
 #FLUX -t=864000
 #FLUX --urgency=16

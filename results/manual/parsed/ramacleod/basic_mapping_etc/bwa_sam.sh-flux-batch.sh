@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-puppy-4580
+#FLUX --job-name=eccentric-hippo-3231
 #FLUX -c=8
 #FLUX --queue=medium
 #FLUX --urgency=16

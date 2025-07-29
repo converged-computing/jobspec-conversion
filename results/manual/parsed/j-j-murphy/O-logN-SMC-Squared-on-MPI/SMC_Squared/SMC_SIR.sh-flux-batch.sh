@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=SIR_new
 #FLUX -n=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=bighyp
 #FLUX -t=259200
 #FLUX --urgency=16

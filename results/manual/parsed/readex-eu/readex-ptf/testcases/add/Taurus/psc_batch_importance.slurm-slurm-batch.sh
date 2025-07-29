@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=300M
 #SBATCH --time=01:00:00
-#SBATCH --partition=haswell
 
 export OMP_NUM_THREADS='$SLURM_CPUS_ON_NODE'
 

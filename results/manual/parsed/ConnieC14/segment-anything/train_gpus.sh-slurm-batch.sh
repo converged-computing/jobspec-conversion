@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem-per-cpu=200GB
 #SBATCH --time=20-00:00:00
-#SBATCH --partition=a100
 #SBATCH --exclude=gpu101,gpu113
 
 export MASTER_ADDR='$MAIN_HOST'

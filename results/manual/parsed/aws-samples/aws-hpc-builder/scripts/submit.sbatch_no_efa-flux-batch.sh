@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=expressive-buttface-6387
+#FLUX --job-name=fugly-chair-5619
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=wrfc6gn
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-leopard-0753
+#FLUX --job-name=dirty-peanut-butter-2673
 #FLUX -c=32
 #FLUX --queue=csmpi_fpga_long
 #FLUX -t=14400

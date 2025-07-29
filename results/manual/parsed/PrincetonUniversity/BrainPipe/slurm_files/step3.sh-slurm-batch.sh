@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=14
 #SBATCH --time=11:40:00
-#SBATCH --partition=all
 
 module load anacondapy/2020.11
 module load elastix/4.8

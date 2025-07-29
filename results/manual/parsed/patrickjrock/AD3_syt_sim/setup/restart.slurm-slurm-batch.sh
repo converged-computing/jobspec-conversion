@@ -9,7 +9,6 @@
 #SBATCH --ntasks=196
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal
 
 module load namd/2.10
 ibrun namd2 restart.namd > restart.out

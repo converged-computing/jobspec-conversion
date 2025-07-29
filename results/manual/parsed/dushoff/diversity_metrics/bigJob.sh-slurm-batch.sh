@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=192GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=main
 #SBATCH --array=0-23
 
 module load intel/17.0.4

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000
-#SBATCH --partition=geva
 
 function parse_yaml {
    local prefix=$2

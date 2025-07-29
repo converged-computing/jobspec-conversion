@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-staircase-0411
+#FLUX --job-name=expensive-nunchucks-3813
 #FLUX --queue=workq
 #FLUX -t=1200
 #FLUX --urgency=16

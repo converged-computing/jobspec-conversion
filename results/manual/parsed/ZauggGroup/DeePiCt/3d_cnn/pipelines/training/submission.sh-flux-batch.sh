@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-bits-6955
+#FLUX --job-name=cowy-buttface-7015
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX -t=600

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=icb_cpu
 
 BASEDIR=$1
 TOTALTASKS=$2

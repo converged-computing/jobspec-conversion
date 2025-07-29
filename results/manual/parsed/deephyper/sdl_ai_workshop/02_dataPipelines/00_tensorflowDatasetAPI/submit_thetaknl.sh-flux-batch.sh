@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=angry-soup-9265
+#FLUX --job-name=grated-hobbit-0612
 #FLUX --urgency=16
 

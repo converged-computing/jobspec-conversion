@@ -9,6 +9,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2000M
 #SBATCH --time=00:02:00
-#SBATCH --partition=kgcoe-mps
 
 srun -n $SLURM_NPROCS raytrace_mpi -h 5000 -w 5000 -c configs/box.xml -p dynamic -bh 100 -bw 100 

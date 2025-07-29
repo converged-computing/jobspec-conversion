@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-gato-6203
+#FLUX --job-name=fat-frito-0674
 #FLUX -t=1500
 #FLUX --urgency=16
 

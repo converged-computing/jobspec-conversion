@@ -5,7 +5,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=40G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export nnUNet_raw='/projects/0/nwo2021061/uls23/nnUNet_raw'
 export nnUNet_preprocessed='/home/ljulius/algorithm/nnunet/nnUNet_preprocessed'

@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60000
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=m3h
 #SBATCH --constraint=ntasks-per-node=1
 
 LM_SRC_PATH="/home/xvuthith/da33/trang/rnn-lm"

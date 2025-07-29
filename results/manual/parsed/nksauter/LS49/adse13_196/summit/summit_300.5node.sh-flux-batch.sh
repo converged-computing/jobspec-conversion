@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-caramel-6574
+#FLUX --job-name=anxious-animal-8479
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nksauter/LS49/adse13_196/summit/summit_300.5node.sh

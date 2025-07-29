@@ -4,6 +4,5 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=32
 #SBATCH --mem-per-cpu=120G
-#SBATCH --partition=compute
 
 srun conda run -n fires3.7 python process_l1c.py

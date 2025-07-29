@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-banana-5494
+#FLUX --job-name=wobbly-chair-1877
 #FLUX -n=4
 #FLUX --queue=priority
 #FLUX -t=900

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=128G
 #SBATCH --time=08:00:00
-#SBATCH --partition=amdv100,intelv100,amdrtx,amda100
 #SBATCH --constraint=gpu
 
 export CUDA_VISIBLE_DEVICES='0'

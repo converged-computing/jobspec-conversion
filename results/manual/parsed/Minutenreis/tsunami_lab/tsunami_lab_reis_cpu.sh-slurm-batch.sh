@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=72
 #SBATCH --time=11:00:00
-#SBATCH --partition=s_standard,s_hadoop
 
 module load tools/python/3.8
 module load compiler/gcc/11.2.0

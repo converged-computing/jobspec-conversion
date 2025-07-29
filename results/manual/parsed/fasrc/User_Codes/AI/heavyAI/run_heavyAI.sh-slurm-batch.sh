@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4G
 #SBATCH --time=00:00:20
-#SBATCH --partition=gpu
 
 export container_image='/n/singularity_images/OOD/omnisci/heavyai-ee-cuda_v7.2.2.sif'
 export SING_BINDS='$SING_BINDS -B ${HEAVYAIBASE}/var/lib/heavyai:/var/lib/heavyai '

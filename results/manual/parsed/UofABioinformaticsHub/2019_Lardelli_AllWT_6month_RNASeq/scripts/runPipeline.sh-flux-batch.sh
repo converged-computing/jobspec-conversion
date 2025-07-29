@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-poo-7295
+#FLUX --job-name=salted-blackbean-6334
 #FLUX -n=16
 #FLUX --queue=batch
 #FLUX -t=86400

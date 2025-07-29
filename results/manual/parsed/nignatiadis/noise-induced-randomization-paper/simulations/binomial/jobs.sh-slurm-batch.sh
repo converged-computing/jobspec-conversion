@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=hns,normal,stat
 #SBATCH --array=1-24
 
 ml load gmp

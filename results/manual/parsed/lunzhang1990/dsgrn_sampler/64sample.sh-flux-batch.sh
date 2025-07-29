@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-kerfuffle-5882
+#FLUX --job-name=conspicuous-milkshake-5295
 #FLUX --queue=main
 #FLUX -t=604800
 #FLUX --urgency=16

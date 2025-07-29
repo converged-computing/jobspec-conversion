@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=01:00:00
-#SBATCH --partition=wildfire
 
 export OMP_NUM_THREADS='24'
 

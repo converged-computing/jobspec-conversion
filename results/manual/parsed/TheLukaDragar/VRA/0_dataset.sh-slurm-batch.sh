@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=0
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 source  /d/hpc/projects/FRI/ldragar/miniconda3/etc/profile.d/conda.sh

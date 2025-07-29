@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-leader-8062
+#FLUX --job-name=rainbow-cupcake-5574
 #FLUX -n=4
 #FLUX --queue=maxwell
 #FLUX -t=432000

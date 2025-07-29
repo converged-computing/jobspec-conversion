@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=transformer-xl_pyt
 #FLUX -N=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

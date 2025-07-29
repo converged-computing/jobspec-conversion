@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=00:10:00
-#SBATCH --partition=short
 
 module use /share/apps2/singularity/modules
 module purge

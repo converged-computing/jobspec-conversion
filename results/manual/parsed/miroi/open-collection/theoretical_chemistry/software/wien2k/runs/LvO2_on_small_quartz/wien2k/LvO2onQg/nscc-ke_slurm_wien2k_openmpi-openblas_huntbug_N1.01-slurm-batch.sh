@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32GB
 #SBATCH --time=05:00:00
-#SBATCH --partition=short
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export WIEN2k='/lustre/home/ilias/work/qch/software/wien2k/WIEN2k_23.2_gnu_openmpi_openblas'
 export WIENROOT='$WIEN2k'

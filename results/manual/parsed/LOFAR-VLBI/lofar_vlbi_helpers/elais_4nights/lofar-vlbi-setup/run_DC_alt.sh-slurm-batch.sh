@@ -3,8 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
-#SBATCH --partition=infinite
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=intel
 
 export RUNDIR='$PWD'

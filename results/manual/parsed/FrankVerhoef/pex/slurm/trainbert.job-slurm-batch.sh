@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=32G
 #SBATCH --time=02:30:00
-#SBATCH --partition=gpu
 
 source ./slurm/.secrets
 module purge

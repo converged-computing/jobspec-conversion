@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-rabbit-4380
+#FLUX --job-name=evasive-leopard-2615
 #FLUX -c=4
 #FLUX --gpus-per-task=1
 #FLUX --queue=project

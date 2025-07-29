@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-earthworm-3746
+#FLUX --job-name=purple-spoon-5922
 #FLUX --queue=largemem
 #FLUX --urgency=16
 

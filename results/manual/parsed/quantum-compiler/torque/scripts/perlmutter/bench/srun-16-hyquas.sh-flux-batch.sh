@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-itch-1231
+#FLUX --job-name=carnivorous-onion-3518
 #FLUX -N=16
 #FLUX --queue=regular
 #FLUX -t=3600

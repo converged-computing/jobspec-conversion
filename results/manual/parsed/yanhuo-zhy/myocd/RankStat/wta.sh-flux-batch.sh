@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-taco-8032
+#FLUX --job-name=persnickety-staircase-3018
 #FLUX -c=5
 #FLUX --queue=general
 #FLUX --urgency=16

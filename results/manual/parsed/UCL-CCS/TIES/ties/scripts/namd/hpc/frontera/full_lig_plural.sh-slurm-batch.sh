@@ -8,7 +8,6 @@
 #SBATCH --ntasks=13
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=development
 
 module load namd
 TASKS_PER_JOB=55 # 1 reserved for comm

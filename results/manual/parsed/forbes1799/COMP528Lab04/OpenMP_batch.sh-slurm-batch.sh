@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:02:00
-#SBATCH --partition=course
 #SBATCH --chdir=./
 
 module load compilers/intel/2019u5 

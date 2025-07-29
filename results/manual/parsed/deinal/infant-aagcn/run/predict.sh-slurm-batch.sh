@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem-per-cpu=2G
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 
 module load pytorch/1.13
 . ./env.sh

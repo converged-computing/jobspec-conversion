@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=120000
 #SBATCH --time=11:30:00
-#SBATCH --partition=condo
 
 export DATA_DIR='/scratch/ba63/magold_files/EGY'
 export MAX_LENGTH='512'

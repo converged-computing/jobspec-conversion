@@ -6,7 +6,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=univ
 #SBATCH --constraint=ntasks-per-node=16
 
 echo "Using ACI / HCP / Slurm cluster."

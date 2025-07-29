@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1000
 #SBATCH --time=00:30:00
-#SBATCH --partition=test
 
 module load python/3.8.5-fasrc01
 source activate python3_env1

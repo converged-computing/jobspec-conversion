@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=short
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$HOME/visualization/mesa/lib'
 export PATH='$HOME/visualization/mesa/bin:$PATH'

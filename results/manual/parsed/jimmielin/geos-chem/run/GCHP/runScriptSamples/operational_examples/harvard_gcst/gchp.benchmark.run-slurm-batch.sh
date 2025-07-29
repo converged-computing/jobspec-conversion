@@ -4,8 +4,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=180000
 #SBATCH --time=00:08:00
-#SBATCH --partition=huce_cascade
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 log="gchp.log"
 if [[ -e cap_restart ]]; then

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=40GB
 #SBATCH --time=1-02:00:00
-#SBATCH --partition=plgrid-gpu
 
 module add plgrid/tools/python/3.8
 module add plgrid/libs/tensorflow-gpu/2.3.1-python-3.8

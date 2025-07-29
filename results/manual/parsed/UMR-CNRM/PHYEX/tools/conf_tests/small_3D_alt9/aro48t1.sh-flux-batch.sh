@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-despacito-6804
+#FLUX --job-name=frigid-destiny-7171
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-motorcycle-1527
+#FLUX --job-name=faux-underoos-3407
 #FLUX --queue=a800
 #FLUX -t=35996400
 #FLUX --urgency=16

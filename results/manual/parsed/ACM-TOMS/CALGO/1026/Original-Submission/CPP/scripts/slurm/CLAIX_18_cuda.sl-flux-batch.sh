@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=Bench-CU
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c18g
 #FLUX -t=7200
 #FLUX --urgency=16

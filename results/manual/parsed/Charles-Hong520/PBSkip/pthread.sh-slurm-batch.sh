@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=128G
 #SBATCH --time=1-00:15:00
-#SBATCH --partition=intel
 
 lscpu
 date

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=long-40core
 #SBATCH --constraint=ntasks-per-node=20
 
 module load diffexp/1.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-carrot-5060
+#FLUX --job-name=grated-hobbit-8107
 #FLUX -c=7
 #FLUX --queue=small-g
 #FLUX -t=600

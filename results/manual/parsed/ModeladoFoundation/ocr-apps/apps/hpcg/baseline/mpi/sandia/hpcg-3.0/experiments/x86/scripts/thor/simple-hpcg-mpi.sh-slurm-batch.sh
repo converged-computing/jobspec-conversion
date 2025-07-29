@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=XAS
 
 export I_MPI_DEBUG='3'
 export NODEFILE='$runhm/hfile.txt.$$'

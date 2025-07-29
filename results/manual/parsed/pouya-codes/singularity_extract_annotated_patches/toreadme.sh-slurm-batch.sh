@@ -7,7 +7,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=upgrade
 #SBATCH --chdir=/projects/ovcare/classification/singularity_modules/singularity_extract_annotated_patches
 #SBATCH --array=1-<num_slides>
 

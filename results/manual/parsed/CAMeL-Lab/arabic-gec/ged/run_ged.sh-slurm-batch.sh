@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=1-23:59:00
-#SBATCH --partition=nlp
 
 export DATA_DIR='/home/ba63/gec-release/data/ged/qalb14/w_camelira/binary'
 export BERT_MODEL='/scratch/ba63/BERT_models/bert-base-arabic-camelbert-msa'

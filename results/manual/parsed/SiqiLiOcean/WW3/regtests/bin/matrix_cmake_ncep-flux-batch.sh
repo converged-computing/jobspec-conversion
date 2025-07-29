@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-parrot-5616
+#FLUX --job-name=bloated-butter-8554
 #FLUX --urgency=16
 
 usage ()

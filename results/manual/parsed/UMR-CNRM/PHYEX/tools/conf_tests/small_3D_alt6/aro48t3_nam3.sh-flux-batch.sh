@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-train-8832
+#FLUX --job-name=faux-rabbit-3143
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

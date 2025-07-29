@@ -6,9 +6,8 @@
 #SBATCH --ntasks=28
 #SBATCH --cpus-per-task=3
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=high_priority
 #SBATCH --qos=user_qos_timeifler
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-socket=14,ntasks-per-node=28
 
 export OMP_PROC_BIND='close'

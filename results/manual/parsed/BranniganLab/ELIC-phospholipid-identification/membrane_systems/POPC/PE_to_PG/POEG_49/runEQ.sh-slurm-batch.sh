@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=6000
 #SBATCH --time=03:00:00
-#SBATCH --partition=cmain
 
 module purge
 module load gcc cuda mvapich2/2.2

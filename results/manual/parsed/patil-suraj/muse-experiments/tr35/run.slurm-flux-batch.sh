@@ -2,7 +2,7 @@
 #FLUX --job-name=coyo-f8-filtered-resumed-laiona5-384
 #FLUX -N=4
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

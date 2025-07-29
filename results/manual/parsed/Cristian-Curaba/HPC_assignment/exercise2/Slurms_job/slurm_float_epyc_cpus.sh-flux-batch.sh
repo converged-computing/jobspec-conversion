@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=Curaba_test
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=EPYC
 #FLUX -t=2700
 #FLUX --urgency=16

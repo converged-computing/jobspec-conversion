@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-leopard-4232
+#FLUX --job-name=dirty-nalgas-4830
 #FLUX -c=4
 #FLUX --urgency=16
 

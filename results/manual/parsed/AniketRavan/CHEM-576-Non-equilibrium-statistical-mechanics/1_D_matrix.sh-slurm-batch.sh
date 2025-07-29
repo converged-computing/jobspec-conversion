@@ -5,7 +5,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=50g
-#SBATCH --partition=normal
 
 echo "Loading module"
 echo "Loaded module. Running python"

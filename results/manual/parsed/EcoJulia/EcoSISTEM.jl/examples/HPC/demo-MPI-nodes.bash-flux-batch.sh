@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-fork-7678
+#FLUX --job-name=muffled-gato-5356
 #FLUX -N=4
 #FLUX -n=32
 #FLUX -c=8

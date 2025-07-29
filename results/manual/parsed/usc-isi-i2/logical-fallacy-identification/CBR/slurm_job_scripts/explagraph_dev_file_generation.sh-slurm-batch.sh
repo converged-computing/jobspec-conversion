@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=10240
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=nodes
 #SBATCH --chdir=/cluster/raid/home/zhivar.sourati/logical-fallacy-identification/CBR
 
 echo $(pwd)

@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=48GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=ind-shared
 #SBATCH --array=0-0
 
 export PATH='/expanse/lustre/scratch/jpg/temp_project/matlab_2020b/bin:$PATH'

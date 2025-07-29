@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-lemon-0664
+#FLUX --job-name=salted-general-4490
 #FLUX --queue=gpu
 #FLUX -t=432000
 #FLUX --urgency=16

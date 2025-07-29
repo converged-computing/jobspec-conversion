@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --mem=25000
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=6
 
 module load cuda/10.2.89-2fkd

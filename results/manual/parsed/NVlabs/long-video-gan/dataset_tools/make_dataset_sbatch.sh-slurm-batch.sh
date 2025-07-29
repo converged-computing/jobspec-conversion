@@ -2,7 +2,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=20
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo "Starting job..."
 source anaconda3/bin/activate

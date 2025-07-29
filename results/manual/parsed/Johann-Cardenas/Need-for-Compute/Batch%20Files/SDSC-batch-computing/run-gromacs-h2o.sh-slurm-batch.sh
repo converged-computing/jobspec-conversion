@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=243G
 #SBATCH --time=00:05:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=128
 
 export OMPI_MCA_btl='self,vader'

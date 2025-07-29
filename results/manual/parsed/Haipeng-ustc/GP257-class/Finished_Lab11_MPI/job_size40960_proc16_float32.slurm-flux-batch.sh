@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-butter-1965
+#FLUX --job-name=sticky-puppy-6395
 #FLUX -N=2
 #FLUX -n=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=serc
 #FLUX -t=1800
 #FLUX --urgency=16

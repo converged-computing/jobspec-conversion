@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=100G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=medium
 
 NB_CPU=4 #change accordingly in SLURM header
 REGIONS="" # to remove the options to focus on a limited number of regions

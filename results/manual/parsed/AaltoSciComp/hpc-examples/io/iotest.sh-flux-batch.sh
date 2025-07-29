@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-truffle-2357
+#FLUX --job-name=evasive-avocado-9929
 #FLUX --queue=short,debug
 #FLUX -t=300
 #FLUX --urgency=16

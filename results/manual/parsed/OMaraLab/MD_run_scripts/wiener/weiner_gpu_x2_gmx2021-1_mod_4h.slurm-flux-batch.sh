@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-leader-2265
+#FLUX --job-name=adorable-pot-0606
 #FLUX -c=28
 #FLUX --queue=gpu
 #FLUX -t=14400

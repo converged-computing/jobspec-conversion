@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-buttface-9055
+#FLUX --job-name=faux-fork-7719
 #FLUX --queue=GPU-shared
 #FLUX -t=172800
 #FLUX --urgency=16

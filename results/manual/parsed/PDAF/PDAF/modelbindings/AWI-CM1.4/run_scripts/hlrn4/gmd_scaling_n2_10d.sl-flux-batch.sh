@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-car-6081
+#FLUX --job-name=peachy-kerfuffle-6290
 #FLUX -N=6
 #FLUX -n=576
 #FLUX --queue=standard96

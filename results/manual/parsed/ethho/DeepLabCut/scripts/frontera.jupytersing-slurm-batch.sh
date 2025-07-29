@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=rtx
 
 SIMG=/work/06634/eho/singularity_images/deeplabcut_2_1_10.sif
 while getopts "i" opt

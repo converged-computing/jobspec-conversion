@@ -6,7 +6,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=8
 #SBATCH --time=01:30:00
-#SBATCH --partition=dc-cpu
 #SBATCH --constraint=ntasks-per-node=16
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'

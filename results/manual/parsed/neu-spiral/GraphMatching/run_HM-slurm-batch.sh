@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100G
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load spark/2.3.2-hadoop2.7
 module load python/2.7.15

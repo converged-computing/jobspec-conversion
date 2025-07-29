@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
-#SBATCH --partition=defq
 
 module load matlab/R2022b 
 BASE_MFILE_NAME=helloworld_par

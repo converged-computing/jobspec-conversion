@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=jobname
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=partition
 #FLUX -t=14400
 #FLUX --urgency=16

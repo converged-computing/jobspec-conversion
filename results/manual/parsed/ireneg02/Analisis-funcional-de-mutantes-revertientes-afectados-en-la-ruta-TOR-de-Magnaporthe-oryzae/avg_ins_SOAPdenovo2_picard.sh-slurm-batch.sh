@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=fast
 
 module use /beegfs/easybuild/CentOS/7.6.1810/Skylake/modules/all
 module use /beegfs/easybuild/common/modules/all

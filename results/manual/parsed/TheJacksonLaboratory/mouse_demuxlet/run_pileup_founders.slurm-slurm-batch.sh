@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=60GB
 #SBATCH --time=1-08:00:00
-#SBATCH --partition=compute
 #SBATCH --array=1
 
 module load singularity

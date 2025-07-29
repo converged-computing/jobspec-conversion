@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-onion-6935
+#FLUX --job-name=nerdy-pedo-8274
 #FLUX --urgency=16
 
 if test -t 1; then

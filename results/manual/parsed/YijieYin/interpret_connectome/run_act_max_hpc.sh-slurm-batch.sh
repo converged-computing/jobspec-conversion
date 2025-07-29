@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128G
 #SBATCH --time=01:00:00
-#SBATCH --partition=ml
 #SBATCH --array=1
 #SBATCH --nodelist=fmg102
 

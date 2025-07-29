@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:0
 #SBATCH --time=10:00:00
-#SBATCH --partition=batch
 
 NTASKS=12
 module --force purge

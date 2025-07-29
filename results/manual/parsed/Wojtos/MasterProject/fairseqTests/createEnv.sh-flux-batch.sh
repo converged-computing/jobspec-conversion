@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-noodle-3439
+#FLUX --job-name=moolicious-parsnip-0483
 #FLUX --urgency=16
 
 module load plgrid/tools/python-intel/3.6.2

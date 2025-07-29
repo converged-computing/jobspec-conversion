@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-banana-1704
+#FLUX --job-name=fuzzy-bits-6466
 #FLUX --queue=RM-shared
 #FLUX -t=108000
 #FLUX --urgency=16

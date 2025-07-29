@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-earthworm-8543
+#FLUX --job-name=fuzzy-cupcake-6649
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_step22_5m_100ms_5ms.pbs

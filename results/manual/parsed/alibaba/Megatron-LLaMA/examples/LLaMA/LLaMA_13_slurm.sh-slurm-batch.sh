@@ -3,7 +3,7 @@
 #SBATCH --nodes=512
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 
 DIR=`pwd`

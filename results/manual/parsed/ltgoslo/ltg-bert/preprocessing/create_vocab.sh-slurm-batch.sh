@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=01:00:00
-#SBATCH --partition=eap
 #SBATCH --constraint=ntasks-per-node=1
 
 set -o errexit  # Exit the script on any error

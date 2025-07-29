@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=4
 
 export QE='/lustre/home/ilias/work/qch/software/quantum-espresso/qe-7.0/build_intelmpi/bin'

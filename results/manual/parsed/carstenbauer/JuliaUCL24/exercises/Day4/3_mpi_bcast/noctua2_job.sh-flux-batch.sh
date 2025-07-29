@@ -2,7 +2,7 @@
 #FLUX --job-name=mpi_bcast
 #FLUX -N=16
 #FLUX -c=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX -t=300
 #FLUX --urgency=16

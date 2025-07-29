@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:0
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpuA100
 
 uenv verbose cuda-11.8.0 cudnn-11.x-8.6.0
 uenv verbose TensorRT-11.x-8.6-8.5.3.1

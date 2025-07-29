@@ -6,7 +6,6 @@
 #SBATCH --ntasks=96
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=thinnodes
 #SBATCH --constraint=ntasks-per-node=24
 
 export ATP_ENABLED='1'

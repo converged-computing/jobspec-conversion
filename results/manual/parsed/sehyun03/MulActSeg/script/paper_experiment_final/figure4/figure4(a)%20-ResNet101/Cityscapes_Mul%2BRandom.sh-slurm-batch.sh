@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=3090
 
 export WANDB_SPAWN_METHOD='fork'
 

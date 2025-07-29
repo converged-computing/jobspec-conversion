@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=hanky-arm-4346
+#FLUX --job-name=evasive-signal-3990
 #FLUX -N=40
 #FLUX -n=1280
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal256
 #FLUX -t=2400
 #FLUX --urgency=16

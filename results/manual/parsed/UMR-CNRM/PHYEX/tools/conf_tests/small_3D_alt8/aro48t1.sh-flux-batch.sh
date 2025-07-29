@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-dog-0395
+#FLUX --job-name=loopy-signal-4061
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

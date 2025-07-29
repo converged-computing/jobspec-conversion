@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-staircase-3784
+#FLUX --job-name=scruptious-lemur-7253
 #FLUX --queue=gpuq
 #FLUX -t=86400
 #FLUX --urgency=16

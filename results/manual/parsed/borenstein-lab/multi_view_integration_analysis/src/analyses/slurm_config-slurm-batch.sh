@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=cpu-elbo
 #SBATCH --array=3-5,10,13
 
 echo "SLURM DEBUG: now working on task number ${SLURM_ARRAY_TASK_ID}"

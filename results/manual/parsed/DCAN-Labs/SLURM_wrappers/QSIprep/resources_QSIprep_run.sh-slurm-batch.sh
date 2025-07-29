@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=small,amdsmall
 #SBATCH --constraint=ntasks-per-node=8
 
 cd run_files.QSIprep

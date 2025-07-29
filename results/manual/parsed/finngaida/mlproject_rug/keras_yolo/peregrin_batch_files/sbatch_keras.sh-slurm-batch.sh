@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=32G
 #SBATCH --time=05:00:00
-#SBATCH --partition=gpu
 
 module load Python/3.6.4-intel-2018a
 module load CUDA/9.1.85

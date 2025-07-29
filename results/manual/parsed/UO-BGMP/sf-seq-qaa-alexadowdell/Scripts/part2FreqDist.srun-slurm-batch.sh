@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=long
 #SBATCH --constraint=ntasks-per-node=28
 
 ml easybuild GCC/6.3.0-2.27 OpenMPI/2.0.2 Python/3.6.1

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16GB
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=sintef
 
 export DATE='`date +%F_%H%M`'
 

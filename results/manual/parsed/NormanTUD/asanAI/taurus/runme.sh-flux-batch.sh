@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-chair-2243
+#FLUX --job-name=loopy-puppy-0475
 #FLUX --queue=alpha
 #FLUX -t=7200
 #FLUX --urgency=16

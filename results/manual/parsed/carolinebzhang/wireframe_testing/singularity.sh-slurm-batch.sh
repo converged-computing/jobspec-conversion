@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=40g
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 
 module load cuda
 echo Master process running on `hostname`

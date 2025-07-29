@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-car-0572
+#FLUX --job-name=doopy-staircase-2296
 #FLUX -c=10
 #FLUX --queue=gputest
 #FLUX -t=900

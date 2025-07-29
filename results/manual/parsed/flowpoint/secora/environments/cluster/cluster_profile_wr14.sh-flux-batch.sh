@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-soup-1470
+#FLUX --job-name=butterscotch-gato-4945
 #FLUX --queue=wr14
 #FLUX -t=1200
 #FLUX --urgency=16

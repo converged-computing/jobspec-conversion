@@ -6,7 +6,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:02:00
-#SBATCH --partition=rtx
 
 module load matlab
 matlab -nodesktop -nodisplay -nosplash < gputest.m

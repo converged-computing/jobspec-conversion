@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=175G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=rra
 #SBATCH --qos=rra
 
 module purge

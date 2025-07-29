@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
 #SBATCH --time=04:00:00
-#SBATCH --partition=mic
 
 setpkgs -a intel_cluster_studio_compiler
 setpkgs -a lammps_mic

@@ -8,9 +8,8 @@
 #SBATCH --gres=4
 #SBATCH --mem=93G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module reset
 module load singularitypro

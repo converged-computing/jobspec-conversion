@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=96G
 #SBATCH --time=00:11:55
-#SBATCH --partition=all-HiPri
 #SBATCH --qos=normal
 
                       #   bigmem-LoPri, bigmem-HiPri, gpuq, CS_q, CDS_q, ...

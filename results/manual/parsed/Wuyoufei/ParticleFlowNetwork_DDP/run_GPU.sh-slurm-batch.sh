@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem-per-cpu=4096
-#SBATCH --partition=gpu
 #SBATCH --qos=debug
 
  ulimit -d unlimited

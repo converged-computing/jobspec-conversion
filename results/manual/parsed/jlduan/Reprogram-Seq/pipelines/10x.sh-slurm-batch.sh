@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-16:00:30
-#SBATCH --partition=256GB
 
 export libraries=''
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=creamy-general-1455
+#FLUX --job-name=eccentric-poo-7808
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=arm8xlarge
 #FLUX --urgency=16
 

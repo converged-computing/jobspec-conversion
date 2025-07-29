@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu-cascade
 #SBATCH --qos=gpu
 
 module load gcc/8.2.0

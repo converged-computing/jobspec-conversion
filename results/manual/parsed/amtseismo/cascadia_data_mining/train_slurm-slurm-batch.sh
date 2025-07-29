@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
-#SBATCH --partition=preempt
 #SBATCH --constraint=ntasks-per-node=1,volta
 
 module purge

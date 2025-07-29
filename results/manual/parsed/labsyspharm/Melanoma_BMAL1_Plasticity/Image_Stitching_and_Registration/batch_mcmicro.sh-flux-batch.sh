@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-cherry-6224
+#FLUX --job-name=chunky-plant-2164
 #FLUX --queue=medium
 #FLUX -t=173520
 #FLUX --urgency=16

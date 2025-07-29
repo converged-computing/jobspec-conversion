@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-ricecake-1519
+#FLUX --job-name=tart-dog-9921
 #FLUX -c=8
 #FLUX --queue=defq
 #FLUX -t=172800

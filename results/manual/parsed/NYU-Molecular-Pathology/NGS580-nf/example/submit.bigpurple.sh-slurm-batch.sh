@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=48G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=intellispace
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/gpfs/data/molecpathlab/development/NGS580-development-runs/run-2
 

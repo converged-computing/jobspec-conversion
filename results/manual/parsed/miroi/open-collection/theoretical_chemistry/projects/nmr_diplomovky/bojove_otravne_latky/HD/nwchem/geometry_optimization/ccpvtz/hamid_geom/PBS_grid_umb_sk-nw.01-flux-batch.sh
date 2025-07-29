@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-gato-8791
+#FLUX --job-name=boopy-muffin-0676
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/projects/nmr_diplomovky/bojove_otravne_latky/HD/nwchem/geometry_optimization/ccpvtz/hamid_geom/PBS_grid_umb_sk-nw.01

@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=31
-#SBATCH --partition=normal
 #SBATCH --exclude=wn-ca-10,wn-hb-01
 
 TARGET_FOLDER=$(realpath $1)

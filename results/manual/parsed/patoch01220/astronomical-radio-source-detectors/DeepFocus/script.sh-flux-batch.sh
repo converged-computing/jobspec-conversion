@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-lentil-4698
+#FLUX --job-name=ornery-underoos-0365
 #FLUX --queue=shared-gpu
 #FLUX -t=43200
 #FLUX --urgency=16

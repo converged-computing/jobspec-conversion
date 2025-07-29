@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:titanv:1
 #SBATCH --mem-per-cpu=12GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export PYTHONPATH='.'
 

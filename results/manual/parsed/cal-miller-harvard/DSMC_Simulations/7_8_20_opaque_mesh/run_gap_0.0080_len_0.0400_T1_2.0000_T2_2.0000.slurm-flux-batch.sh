@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-hobbit-7582
+#FLUX --job-name=grated-pedo-3609
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

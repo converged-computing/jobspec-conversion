@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=24000
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4
 
 module load python/pytorch-1.6.0

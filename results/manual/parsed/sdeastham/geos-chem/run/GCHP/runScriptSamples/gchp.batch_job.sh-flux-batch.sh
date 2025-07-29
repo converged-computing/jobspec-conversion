@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-fork-0770
+#FLUX --job-name=cowy-parrot-0829
 #FLUX -N=2
 #FLUX -n=60
 #FLUX --queue=huce_intel,seas_compute,shared

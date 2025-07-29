@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60G
 #SBATCH --time=3-18:00:00
-#SBATCH --partition=gpu_p1
 #SBATCH --qos=qos_gpu-t4
 #SBATCH --chdir=/gpfswork/rech/zft/upd53tc/jobs/AD-DL/train/slice_level
 #SBATCH --array=0-4

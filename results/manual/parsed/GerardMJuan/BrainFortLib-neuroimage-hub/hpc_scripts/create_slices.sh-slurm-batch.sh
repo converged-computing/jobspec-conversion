@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=high
 #SBATCH --chdir=/homedtic/gmarti/
 
 export PATH='$HOME/project/anaconda3/bin:$PATH'

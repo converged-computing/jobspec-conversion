@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=100G
 #SBATCH --time=25-00:00:00
-#SBATCH --partition=highmem
 
 module load samtools
 module load R

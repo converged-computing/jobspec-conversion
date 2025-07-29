@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 #SBATCH --array=1-20
 
 PER_TASK=5

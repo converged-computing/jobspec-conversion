@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-milkshake-8437
+#FLUX --job-name=crunchy-chip-8232
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

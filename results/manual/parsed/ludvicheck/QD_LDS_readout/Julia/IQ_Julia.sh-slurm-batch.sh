@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=800G
 #SBATCH --time=23:00:00
-#SBATCH --partition=amd
 
 module load SciPy-bundle
 module load mosek

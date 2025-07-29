@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-malarkey-4791
+#FLUX --job-name=doopy-nalgas-1127
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

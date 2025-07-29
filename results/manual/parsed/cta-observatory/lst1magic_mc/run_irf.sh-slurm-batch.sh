@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4500m
-#SBATCH --partition=short
 
 here=$(pwd)
 configdir=${here}/irf_config

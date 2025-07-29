@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-lemur-5108
+#FLUX --job-name=faux-lemur-7786
 #FLUX -N=12
 #FLUX -n=1152
 #FLUX --queue=standard96

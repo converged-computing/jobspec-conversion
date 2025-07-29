@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-butter-7351
+#FLUX --job-name=misunderstood-bicycle-1617
 #FLUX -N=32
 #FLUX -n=32
 #FLUX -c=12

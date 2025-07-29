@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=titans
 #SBATCH --constraint=ntasks-per-node=1
 
 SEED=$(($SLURM_ARRAY_TASK_ID + 1010))

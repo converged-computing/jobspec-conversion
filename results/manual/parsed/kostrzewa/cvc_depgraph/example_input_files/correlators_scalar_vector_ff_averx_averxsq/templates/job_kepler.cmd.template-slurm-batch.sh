@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:kepler:4
 #SBATCH --mem=62G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=kepler
 #SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:/qbigwork2/bartek/libs/bleeding_edge/kepler/quda_develop-dynamic_clover/lib'

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=gpu:$GPU_COUNT
 #SBATCH --mem=128G
-#SBATCH --partition=ai
 
 GPU_COUNT=$(grep -Po "^[^\#].+gpus = \K([0-9]+)" config.py)
 echo $(hostname) $CUDA_VISIBLE_DEVICES $GPU_COUNT

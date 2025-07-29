@@ -9,8 +9,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=lu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export JULIA_NUM_THREADS='1'
 

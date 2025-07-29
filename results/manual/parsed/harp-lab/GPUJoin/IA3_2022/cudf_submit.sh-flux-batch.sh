@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=stinky-poo-8998
+#FLUX --job-name=expressive-lamp-0672
 #FLUX --urgency=16
 

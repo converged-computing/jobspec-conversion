@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=coenv
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20201130_cgig_fastp_ronit-ploidy-wgbs
 
 threads=27

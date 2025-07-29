@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=50G
 #SBATCH --time=06:00:00
-#SBATCH --partition=fm-bigmem-1,fm-bigmem-2,fm-bigmem-3
 
 export MKL_NUM_THREADS='1'
 

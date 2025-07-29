@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-signal-4890
+#FLUX --job-name=scruptious-hope-5881
 #FLUX -c=16
 #FLUX --urgency=16
 

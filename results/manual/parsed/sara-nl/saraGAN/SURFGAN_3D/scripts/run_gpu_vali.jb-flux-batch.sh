@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-mango-9783
+#FLUX --job-name=gloopy-signal-5962
 #FLUX -N=4
 #FLUX -n=16
 #FLUX --queue=gpu_titanrtx

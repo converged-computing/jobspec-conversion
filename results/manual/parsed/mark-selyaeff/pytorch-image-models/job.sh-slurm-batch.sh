@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:2,nvme:500
 #SBATCH --mem=64G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 source /scratch/project_2004728/envs/adv_env/bin/activate
 cp /scratch/project_2004728/imagenet_files.tar $LOCAL_SCRATCH

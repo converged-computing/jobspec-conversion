@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-parrot-0528
+#FLUX --job-name=buttery-fork-6424
 #FLUX -c=4
 #FLUX --queue=csug
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-cattywampus-6961
+#FLUX --job-name=astute-cattywampus-7231
 #FLUX -c=8
 #FLUX --queue=pi_cryoem,scavenge
 #FLUX -t=1440

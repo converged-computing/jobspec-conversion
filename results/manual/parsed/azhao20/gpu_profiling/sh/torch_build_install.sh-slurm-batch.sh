@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=256000
 #SBATCH --time=00:12:00
-#SBATCH --partition=gpu_test
 
 export HOME='/n/holylabs/LABS/idreos_lab/Users/azhao'
 export CCACHE_DIR='${HOME}'

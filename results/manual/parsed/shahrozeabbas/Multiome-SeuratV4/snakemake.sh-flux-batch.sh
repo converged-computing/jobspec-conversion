@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-bits-8912
+#FLUX --job-name=arid-milkshake-0054
 #FLUX -c=36
 #FLUX --queue=largemem
 #FLUX -t=21600

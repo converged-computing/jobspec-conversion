@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=6000mb
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=normal
 
 export MKL_NUM_THREADS='$SLURM_CPUS_PER_TASK'
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

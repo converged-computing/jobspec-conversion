@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-lentil-3870
+#FLUX --job-name=faux-latke-5344
 #FLUX -t=60
 #FLUX --urgency=16
 

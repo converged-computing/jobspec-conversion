@@ -8,7 +8,6 @@
 #SBATCH --gres=4
 #SBATCH --mem=90G
 #SBATCH --time=16:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 module load gpu/0.15.4

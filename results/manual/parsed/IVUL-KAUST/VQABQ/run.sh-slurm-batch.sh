@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120G
 #SBATCH --time=09:00:00
-#SBATCH --partition=workq
 #SBATCH --chdir=/scratch/alfadlmm/
 #SBATCH --array=0-798
 

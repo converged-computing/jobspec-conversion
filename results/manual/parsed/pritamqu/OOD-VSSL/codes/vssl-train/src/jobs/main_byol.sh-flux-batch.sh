@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-hobbit-0147
+#FLUX --job-name=bloated-muffin-5250
 #FLUX -N=2
 #FLUX -n=2
 #FLUX --queue=v100_full_node

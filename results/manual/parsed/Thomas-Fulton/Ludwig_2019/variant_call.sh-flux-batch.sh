@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-milkshake-7731
+#FLUX --job-name=evasive-cattywampus-6791
 #FLUX -c=8
 #FLUX --queue=defq
 #FLUX -t=86400

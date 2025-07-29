@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-spoon-8750
+#FLUX --job-name=fat-despacito-6619
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-fork-0336
+#FLUX --job-name=swampy-latke-9336
 #FLUX --queue=gpu
 #FLUX -t=12600
 #FLUX --urgency=16

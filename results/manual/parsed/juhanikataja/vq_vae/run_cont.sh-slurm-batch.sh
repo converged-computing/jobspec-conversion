@@ -9,8 +9,7 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=250G
 #SBATCH --time=00:15:00
-#SBATCH --partition=dev-g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export EBU_USER_PREFIX='/project/project_462000559/EasyBuild'

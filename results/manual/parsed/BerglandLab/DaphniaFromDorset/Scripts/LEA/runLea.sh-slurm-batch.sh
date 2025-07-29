@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=10
 
 module load intel/18.0 intelmpi/18.0 R/3.6.3

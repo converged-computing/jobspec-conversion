@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-bike-6851
+#FLUX --job-name=expensive-soup-5425
 #FLUX -c=32
 #FLUX -t=21600
 #FLUX --urgency=16

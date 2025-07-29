@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=stinky-dog-0685
-#FLUX: --exclusive
+#FLUX --job-name=pusheena-buttface-5949
+#FLUX --exclusive
 #FLUX --queue=genoa
 #FLUX -t=600
 #FLUX --urgency=16

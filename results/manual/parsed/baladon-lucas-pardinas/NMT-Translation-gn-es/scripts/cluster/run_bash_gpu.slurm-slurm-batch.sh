@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:p100:3
 #SBATCH --mem-per-cpu=60G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=normal
 #SBATCH --qos=gpu
 
 export SINGULARITY_TMPDIR='${HOME}/cache'

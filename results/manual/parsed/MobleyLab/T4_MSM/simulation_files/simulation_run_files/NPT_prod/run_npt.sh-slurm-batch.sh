@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=8gb
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=12
 
 LAMBDA=$SLURM_ARRAY_TASK_ID

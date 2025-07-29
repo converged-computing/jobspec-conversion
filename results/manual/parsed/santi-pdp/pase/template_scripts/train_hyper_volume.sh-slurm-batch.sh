@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32GB
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=K80
 
 python -u  train.py --batch_size 5 --epoch 50 --save_path /export/team-mic/zhong/test/print_since_pase \

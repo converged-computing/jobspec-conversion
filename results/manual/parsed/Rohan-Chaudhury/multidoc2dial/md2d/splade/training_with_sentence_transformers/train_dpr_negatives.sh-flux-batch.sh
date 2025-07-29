@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-parsnip-5859
+#FLUX --job-name=anxious-parsnip-4105
 #FLUX --queue=gpu
 #FLUX -t=259200
 #FLUX --urgency=16

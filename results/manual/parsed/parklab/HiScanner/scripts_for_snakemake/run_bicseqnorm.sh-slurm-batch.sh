@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16G
 #SBATCH --time=00:12:00
-#SBATCH --partition=park
 
 module load gcc  conda2/4.2.13 bedtools gatk python/3.7.4 R/4.0.1
 module load perl/5.30.0

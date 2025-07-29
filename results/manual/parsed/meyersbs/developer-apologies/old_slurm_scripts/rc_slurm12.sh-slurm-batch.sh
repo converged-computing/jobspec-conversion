@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=200g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=tier3
 #SBATCH --constraint=ntasks-per-node=32
 
 echo "Loading environment"

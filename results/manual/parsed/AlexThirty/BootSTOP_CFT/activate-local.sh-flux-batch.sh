@@ -2,7 +2,7 @@
 #FLUX --job-name=ray-tune-trenta
 #FLUX -N=9
 #FLUX -c=90
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export RAY_GRAFANA_HOST='172.16.18.254:3000'

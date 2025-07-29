@@ -8,7 +8,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=2048
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=learnfair
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=1
 

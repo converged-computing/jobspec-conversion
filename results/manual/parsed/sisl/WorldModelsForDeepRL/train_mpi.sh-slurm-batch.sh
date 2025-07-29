@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:volta:1
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=gpu
 
 export DISPLAY=':99.0'
 

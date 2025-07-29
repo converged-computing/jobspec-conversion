@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-mango-2574
+#FLUX --job-name=swampy-destiny-9570
 #FLUX --urgency=16
 

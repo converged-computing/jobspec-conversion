@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-fork-0119
+#FLUX --job-name=misunderstood-cherry-6342
 #FLUX --queue=gpu
 #FLUX -t=36000
 #FLUX --urgency=16

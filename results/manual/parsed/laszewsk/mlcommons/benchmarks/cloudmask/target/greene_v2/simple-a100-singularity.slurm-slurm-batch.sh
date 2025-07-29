@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100
 #SBATCH --mem=64G
 #SBATCH --time=02:00:00
-#SBATCH --partition=bii-gpu
 #SBATCH --constraint=a100_80gb
 
 export USER_SCRATCH='/scratch/$USER'

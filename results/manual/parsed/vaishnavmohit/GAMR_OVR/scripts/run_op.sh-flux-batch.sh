@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-citrus-0983
+#FLUX --job-name=loopy-fork-9137
 #FLUX -n=3
 #FLUX --queue=gpu
 #FLUX -t=72000

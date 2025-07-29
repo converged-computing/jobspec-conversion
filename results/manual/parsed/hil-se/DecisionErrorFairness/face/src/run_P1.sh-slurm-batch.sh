@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:a100:4
 #SBATCH --mem=320G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=tier3
 
 spack unload -a
 spack load /xi3pch3

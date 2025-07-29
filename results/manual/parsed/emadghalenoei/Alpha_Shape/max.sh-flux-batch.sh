@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-buttface-2732
+#FLUX --job-name=fugly-poodle-4621
 #FLUX --queue=geo
 #FLUX -t=86400
 #FLUX --urgency=16

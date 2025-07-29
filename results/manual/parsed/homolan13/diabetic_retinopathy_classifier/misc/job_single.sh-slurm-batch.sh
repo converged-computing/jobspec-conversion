@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:rtx3090:1
 #SBATCH --mem=4G
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1-9%3
 
 singularity exec --nv docker://pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime pip install -U tensorboard

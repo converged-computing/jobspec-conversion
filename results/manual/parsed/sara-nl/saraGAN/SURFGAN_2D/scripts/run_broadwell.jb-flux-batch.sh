@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-citrus-2602
+#FLUX --job-name=peachy-pedo-3987
 #FLUX -N=64
 #FLUX -n=64
 #FLUX --queue=broadwell

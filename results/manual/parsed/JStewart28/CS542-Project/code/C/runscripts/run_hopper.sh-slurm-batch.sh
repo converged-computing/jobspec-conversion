@@ -8,8 +8,7 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=general
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=16
 
 spack load openmpi/nb2qima72b5usivgbcdbkwn5ivmcwlxk

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=5
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=cpu-elbo
 #SBATCH --array=0-10
 
 DATASETS=(

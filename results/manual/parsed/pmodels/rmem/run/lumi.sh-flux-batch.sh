@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-buttface-5237
+#FLUX --job-name=strawberry-lemon-9223
 #FLUX -N=2
 #FLUX -c=16
 #FLUX --gpus-per-task=1

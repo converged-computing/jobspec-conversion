@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30000
 #SBATCH --time=00:34:00
-#SBATCH --partition=ex_scioi_gpu
 
 export LANG='UTF-8'
 export LC_ALL='en_US.UTF-8'

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000m
 #SBATCH --time=04:00:00
-#SBATCH --partition=broadwl
 #SBATCH --chdir=/home/armun/crispr-sweep-6-9-2021/individual-test
 
 module purge

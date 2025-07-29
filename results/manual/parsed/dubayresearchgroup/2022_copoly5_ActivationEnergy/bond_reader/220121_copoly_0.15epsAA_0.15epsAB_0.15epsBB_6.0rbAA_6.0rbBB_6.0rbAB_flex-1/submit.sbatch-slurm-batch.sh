@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=500
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=20
 
 module load gcc/7.1.0 python/3.6.8 ffmpeg intel/18.0 intelmpi/18.0 cuda pgi openmpi

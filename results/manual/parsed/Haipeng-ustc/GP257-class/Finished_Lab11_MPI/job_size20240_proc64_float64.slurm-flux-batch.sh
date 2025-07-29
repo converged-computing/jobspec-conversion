@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-parsnip-4528
+#FLUX --job-name=outstanding-lizard-1276
 #FLUX -N=4
 #FLUX -n=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=serc
 #FLUX -t=1800
 #FLUX --urgency=16

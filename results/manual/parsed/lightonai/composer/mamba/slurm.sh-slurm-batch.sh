@@ -8,9 +8,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=gpu
 #SBATCH --qos=default
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=4
 
 export WANDB_API_KEY='your-api-key'

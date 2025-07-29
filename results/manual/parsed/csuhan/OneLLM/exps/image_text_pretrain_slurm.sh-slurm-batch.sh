@@ -3,7 +3,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:8
-#SBATCH --partition={Partition
 
 srun python -u main_pretrain.py \
 --epochs 1 --dataset image \

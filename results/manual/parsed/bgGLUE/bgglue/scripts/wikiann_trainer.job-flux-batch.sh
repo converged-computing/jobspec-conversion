@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-blackbean-8519
+#FLUX --job-name=dirty-destiny-0331
 #FLUX -n=4
 #FLUX --urgency=16
 

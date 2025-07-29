@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-sundae-2593
+#FLUX --job-name=reclusive-lamp-0431
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

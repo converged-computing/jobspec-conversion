@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=4096
-#SBATCH --partition=mhigh,mhigh
 
 python task_a.py \
     --mode text_to_image \

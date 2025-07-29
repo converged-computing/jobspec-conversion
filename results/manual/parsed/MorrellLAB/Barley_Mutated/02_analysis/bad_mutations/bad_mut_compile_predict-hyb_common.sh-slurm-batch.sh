@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6gb
 #SBATCH --time=02:00:00
-#SBATCH --partition=small,ram256g,ram1t
 #SBATCH --constraint=ntasks-per-node=16
 
 set -e

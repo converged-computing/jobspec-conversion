@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=batch
 
 cd $SLURM_SUBMIT_DIR
 module use --append /projects/omics_share/meta/modules

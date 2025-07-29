@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-despacito-5625
+#FLUX --job-name=bloated-carrot-6684
 #FLUX --queue=gpu2
 #FLUX -t=28800
 #FLUX --urgency=16

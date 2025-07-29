@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=blue-ricecake-2472
-#FLUX: --exclusive
+#FLUX --job-name=bumfuzzled-omelette-8415
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

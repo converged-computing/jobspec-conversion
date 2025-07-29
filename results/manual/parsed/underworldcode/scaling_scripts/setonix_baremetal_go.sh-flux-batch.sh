@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-ricecake-1685
+#FLUX --job-name=fuzzy-toaster-7970
 #FLUX --urgency=16
 
 export UWENV='/software/projects/pawsey0407/setonix/venv/py310/'

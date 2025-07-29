@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-soup-9537
+#FLUX --job-name=expressive-hippo-2811
 #FLUX -c=6
 #FLUX --queue=long
 #FLUX -t=172800

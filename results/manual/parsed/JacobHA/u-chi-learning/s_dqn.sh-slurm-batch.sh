@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=32G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 export WANDB_MODE='offline'
 

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=82G
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu
 
 module load GCC/11.3.0

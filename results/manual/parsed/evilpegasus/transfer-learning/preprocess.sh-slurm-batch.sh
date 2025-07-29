@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:01:01
-#SBATCH --partition=regular
 #SBATCH --qos=regular
 #SBATCH --constraint=cpu
 

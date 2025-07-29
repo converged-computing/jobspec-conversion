@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-house-6838
+#FLUX --job-name=chunky-blackbean-4326
 #FLUX --urgency=16
 
 export PATH='/vol/bitbucket/jq619/idv/bin/:$PATH'

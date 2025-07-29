@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4000
 #SBATCH --time=00:30:00
-#SBATCH --partition=test
 
 module load python/3.10.12-fasrc01
 module load gcc/12.2.0-fasrc01

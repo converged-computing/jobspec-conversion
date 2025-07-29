@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=200gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=high_priority
 #SBATCH --array=1-40%20
 
 export TOIL_SLURM_ARGS='--time=3-0:00 --partition=high_priority'

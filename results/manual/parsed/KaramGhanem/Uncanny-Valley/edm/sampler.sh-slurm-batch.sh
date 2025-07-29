@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:2
 #SBATCH --mem=48G
-#SBATCH --partition=main
 
 module load miniconda/3 cuda/11.7
 conda activate edm

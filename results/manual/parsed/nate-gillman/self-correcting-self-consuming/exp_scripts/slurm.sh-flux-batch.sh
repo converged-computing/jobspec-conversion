@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-destiny-7063
+#FLUX --job-name=dirty-peanut-8869
 #FLUX --queue=3090-gcondo
 #FLUX -t=345600
 #FLUX --urgency=16

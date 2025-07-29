@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-leg-1731
+#FLUX --job-name=muffled-cherry-4792
 #FLUX -n=4
 #FLUX --queue=maxwell
 #FLUX -t=432000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-destiny-1722
+#FLUX --job-name=bloated-salad-5541
 #FLUX --queue=GPU-shared
 #FLUX -t=172800
 #FLUX --urgency=16

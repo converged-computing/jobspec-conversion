@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16gb
 #SBATCH --time=23:59:59
-#SBATCH --partition=nodes
 
 nextflow pull J-81/dataset_prep_nf
 nextflow run J-81/dataset_prep_nf \

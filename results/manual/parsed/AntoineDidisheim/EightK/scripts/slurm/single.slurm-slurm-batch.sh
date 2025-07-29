@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=80G
 #SBATCH --time=10:00:00
-#SBATCH --partition=cascade
 #SBATCH --chdir=/home/adidishe/EightK
 
 module load foss/2022a

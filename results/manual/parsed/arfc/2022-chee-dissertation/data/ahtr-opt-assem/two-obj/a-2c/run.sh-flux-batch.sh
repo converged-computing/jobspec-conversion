@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=fugly-signal-8232
+#FLUX --job-name=pusheena-bicycle-3731
 #FLUX --urgency=16
 

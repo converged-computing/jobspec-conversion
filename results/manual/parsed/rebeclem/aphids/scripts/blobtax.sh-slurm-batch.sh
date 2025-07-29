@@ -9,7 +9,6 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=atlas
 #SBATCH --array=1-36
 
 name1=$(sed -n "$SLURM_ARRAY_TASK_ID"p namelist.txt)

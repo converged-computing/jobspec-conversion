@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=16384
 #SBATCH --time=1-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=avx
 
 module load intel python/3.6.8

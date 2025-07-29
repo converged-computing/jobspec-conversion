@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-lettuce-2102
+#FLUX --job-name=grated-general-0345
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DS3Lab/Decentralized-FM/scripts/lsf_scripts/lsf_gpt3xl_3gpu.bsub

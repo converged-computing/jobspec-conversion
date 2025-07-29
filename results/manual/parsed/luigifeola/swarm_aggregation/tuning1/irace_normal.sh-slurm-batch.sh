@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=long
 
 module load releases/2020b
 module load Python/3.8.6-GCCcore-10.2.0

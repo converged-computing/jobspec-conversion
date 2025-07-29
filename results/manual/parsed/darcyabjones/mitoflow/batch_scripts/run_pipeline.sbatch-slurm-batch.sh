@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=28
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=workq
 
 module load nextflow/19.01.0.5050-bin
 nextflow run -resume -profile pawsey_zeus ./main.nf \

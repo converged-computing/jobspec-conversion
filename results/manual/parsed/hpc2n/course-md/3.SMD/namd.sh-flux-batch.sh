@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=chunky-egg-0809
+#FLUX --job-name=creamy-lentil-0840
 #FLUX -n=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=1200
 #FLUX --urgency=16
 

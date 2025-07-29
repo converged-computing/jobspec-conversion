@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=8G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=hns,normal
 
 set -ex
 MODEL_ANALYSIS_WORKSPACE="${NOXN_WORKSPACE:-$1}"  # final location of pipeline outputs

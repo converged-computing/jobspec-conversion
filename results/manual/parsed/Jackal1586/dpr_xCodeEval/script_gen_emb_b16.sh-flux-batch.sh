@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-peas-4774
+#FLUX --job-name=loopy-soup-8708
 #FLUX --queue=RTX8Kq
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-lentil-1864
+#FLUX --job-name=psycho-cat-1608
 #FLUX --queue=luna-short
 #FLUX -t=240
 #FLUX --urgency=15

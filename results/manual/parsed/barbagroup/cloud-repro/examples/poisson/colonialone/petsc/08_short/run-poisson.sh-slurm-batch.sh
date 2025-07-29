@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=16
 
 export PATH='$AMGXWRAPPER_DIR/example/poisson/bin":$PATH'

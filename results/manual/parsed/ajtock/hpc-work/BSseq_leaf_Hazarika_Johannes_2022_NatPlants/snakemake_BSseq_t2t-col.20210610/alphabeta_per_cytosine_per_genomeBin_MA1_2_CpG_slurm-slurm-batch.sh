@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=40G
 #SBATCH --time=12:00:00
-#SBATCH --partition=skylake
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 #SBATCH --array=1-615
 
 export OMP_NUM_THREADS='1'

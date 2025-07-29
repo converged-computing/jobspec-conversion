@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-staircase-0359
+#FLUX --job-name=carnivorous-blackbean-6588
 #FLUX --queue=gpu
 #FLUX -t=432000
 #FLUX --urgency=16

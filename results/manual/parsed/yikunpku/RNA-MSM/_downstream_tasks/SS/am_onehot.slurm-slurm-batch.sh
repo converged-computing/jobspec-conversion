@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=cu-1
 #SBATCH --constraint=ntasks-per-node=1
 
 l=`whoami`

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
 #SBATCH --time=00:20:00
-#SBATCH --partition=gpu
 
 export PYTHONPATH='$PYTHONPATH:/fast/users/a1699138/pattern_recognition/train_model/models-master/research:/fast/users/a1699138/pattern_recognition/train_model/models-master/research/slim'
 

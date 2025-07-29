@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32gb
 #SBATCH --time=2-23:00:00
-#SBATCH --partition=DGXA100
 #SBATCH --array=1-4
 
 export CPATH='$CPATH:$CONDA_PREFIX/include'

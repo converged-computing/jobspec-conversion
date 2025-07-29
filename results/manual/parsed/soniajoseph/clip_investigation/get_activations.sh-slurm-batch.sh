@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=48Gb
 #SBATCH --time=01:00:00
-#SBATCH --partition=long
 #SBATCH --array=4-9
 
 module load anaconda/3

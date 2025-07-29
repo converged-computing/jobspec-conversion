@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=stanky-onion-1297
+#FLUX --job-name=angry-blackbean-1981
 #FLUX --urgency=16
 

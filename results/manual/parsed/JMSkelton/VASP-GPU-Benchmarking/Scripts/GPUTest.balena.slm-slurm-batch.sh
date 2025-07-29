@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=06:00:00
-#SBATCH --partition=batch-acc
 #SBATCH --constraint=ntasks-per-node=16,k20x
 
 export CUDA_MPS_PIPE_DIRECTORY='/tmp/nvidia-mps'

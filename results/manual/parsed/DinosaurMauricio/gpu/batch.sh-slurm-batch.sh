@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:05:00
-#SBATCH --partition=edu5
 
 if [ "$#" -eq 2 ]; then
     srun ./bin/gpu_transpose "$1" "$2"

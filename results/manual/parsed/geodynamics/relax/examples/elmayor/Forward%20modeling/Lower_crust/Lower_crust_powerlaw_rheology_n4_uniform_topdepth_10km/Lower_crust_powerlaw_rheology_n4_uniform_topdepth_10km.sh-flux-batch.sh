@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-pedo-4220
+#FLUX --job-name=phat-fork-9076
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/geodynamics/relax/examples/elmayor/Forward%20modeling/Lower_crust/Lower_crust_powerlaw_rheology_n4_uniform_topdepth_10km/Lower_crust_powerlaw_rheology_n4_uniform_topdepth_10km.sh

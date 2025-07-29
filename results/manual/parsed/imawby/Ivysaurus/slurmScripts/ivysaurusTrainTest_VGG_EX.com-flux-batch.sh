@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-toaster-6254
+#FLUX --job-name=goodbye-cat-2993
 #FLUX -c=5
 #FLUX --queue=astro
 #FLUX -t=28800

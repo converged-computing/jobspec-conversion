@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=200gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=highmem_p
 
 export LC_ALL='en_SG.utf8'
 export LANG='en_SG.utf8'

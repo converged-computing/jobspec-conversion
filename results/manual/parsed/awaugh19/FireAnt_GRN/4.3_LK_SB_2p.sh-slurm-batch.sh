@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=24gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=batch
 #SBATCH --array=0-52
 
 module load STAR/2.7.10b-GCC-11.3.0

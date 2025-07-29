@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=240G
 #SBATCH --time=08:00:00
-#SBATCH --partition=ieg_lm,ieg_128g,ieg_64g
 
 module purge
 source ~/.bashrc

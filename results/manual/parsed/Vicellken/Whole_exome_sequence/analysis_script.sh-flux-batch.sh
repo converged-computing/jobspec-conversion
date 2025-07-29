@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-general-0917
+#FLUX --job-name=psycho-pastry-0403
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Vicellken/Whole_exome_sequence/analysis_script.sh

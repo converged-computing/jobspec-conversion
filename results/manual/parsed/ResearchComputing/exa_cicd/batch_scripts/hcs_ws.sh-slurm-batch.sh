@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export COMMIT_HASH='$1'
 export WD='$2'

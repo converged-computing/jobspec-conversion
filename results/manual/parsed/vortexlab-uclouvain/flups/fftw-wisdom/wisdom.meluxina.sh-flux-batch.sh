@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-signal-9559
+#FLUX --job-name=buttery-poo-7471
 #FLUX --queue=cpu
 #FLUX -t=43200
 #FLUX --urgency=16

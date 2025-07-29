@@ -8,7 +8,6 @@
 #SBATCH --ntasks=325
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=normal
 
 module load namd
 TASKS_PER_JOB=55

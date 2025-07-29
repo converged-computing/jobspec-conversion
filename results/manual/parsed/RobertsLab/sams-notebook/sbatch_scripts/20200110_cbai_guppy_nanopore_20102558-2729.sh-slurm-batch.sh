@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:P100:1
 #SBATCH --mem=120G
 #SBATCH --time=01:00:00
-#SBATCH --partition=ckpt
 #SBATCH --constraint=gpu_default
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20200110_cbai_guppy_nanopore_20102558-2729
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-plant-2173
+#FLUX --job-name=bricky-lamp-8530
 #FLUX -n=4
 #FLUX --urgency=16
 

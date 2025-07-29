@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=defq,short
 #SBATCH --array=1-22
 
 name1=$(sed -n "$SLURM_ARRAY_TASK_ID"p seq_list.txt)

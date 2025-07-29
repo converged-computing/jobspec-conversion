@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-platanos-0514
+#FLUX --job-name=stinky-fudge-4326
 #FLUX --queue=defq
 #FLUX -t=86400
 #FLUX --urgency=16

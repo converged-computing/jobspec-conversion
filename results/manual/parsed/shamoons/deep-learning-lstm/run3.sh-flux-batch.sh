@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-malarkey-7798
+#FLUX --job-name=dinosaur-lettuce-7616
 #FLUX --queue=gpu
 #FLUX --urgency=16
 

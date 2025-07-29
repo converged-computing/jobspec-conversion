@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=2GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=compute
 
 module load 2023r1 openmpi
 source experiments/slurm_header.sh

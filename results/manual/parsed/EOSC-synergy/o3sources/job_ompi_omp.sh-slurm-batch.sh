@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=30gb
 #SBATCH --time=10:00:00
-#SBATCH --partition=cpuonly
 #SBATCH --constraint=LSDF
 
 echo "========================================================================"

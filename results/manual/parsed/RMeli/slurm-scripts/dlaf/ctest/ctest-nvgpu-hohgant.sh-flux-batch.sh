@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-citrus-5619
+#FLUX --job-name=blue-house-8305
 #FLUX -N=2
 #FLUX --queue=nvgpu
 #FLUX --urgency=16

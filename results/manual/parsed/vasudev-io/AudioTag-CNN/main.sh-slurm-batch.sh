@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=16GB
 #SBATCH --time=03:00:00
-#SBATCH --partition=teach_gpu
 
 mkdir -p ./bc4_out
 module purge

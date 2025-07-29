@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=amd_256
 
 export PATH='/public3/home/sc52255/vasp.6.1.0/vasp.6.1.0/bin:$PATH'
 

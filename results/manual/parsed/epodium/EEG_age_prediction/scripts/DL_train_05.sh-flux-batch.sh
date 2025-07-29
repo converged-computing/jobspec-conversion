@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-lemon-7831
+#FLUX --job-name=nerdy-chip-2402
 #FLUX --queue=gpu_shared
 #FLUX -t=54000
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-despacito-2041
+#FLUX --job-name=astute-malarkey-0987
 #FLUX -n=8
 #FLUX --queue=cpu
 #FLUX -t=7200

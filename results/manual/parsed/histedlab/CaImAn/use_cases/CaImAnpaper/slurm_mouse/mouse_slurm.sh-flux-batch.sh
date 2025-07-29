@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-cat-4374
+#FLUX --job-name=strawberry-eagle-3807
 #FLUX -N=6
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=ib
 #FLUX --urgency=16
 

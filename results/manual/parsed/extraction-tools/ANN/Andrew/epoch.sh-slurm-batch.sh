@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=16:30:00
-#SBATCH --partition=standard
 
 sbatch --array=${1}-${2} <<EOT
 module purge

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-omelette-8077
+#FLUX --job-name=buttery-signal-1058
 #FLUX --queue=a100
 #FLUX -t=35996400
 #FLUX --urgency=16

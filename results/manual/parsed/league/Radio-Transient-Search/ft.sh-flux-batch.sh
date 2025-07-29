@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-chair-5864
+#FLUX --job-name=loopy-chair-5890
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/league/Radio-Transient-Search/ft.sh

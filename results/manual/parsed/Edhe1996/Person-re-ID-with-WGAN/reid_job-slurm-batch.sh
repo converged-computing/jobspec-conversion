@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:15:00
-#SBATCH --partition=gpu
 
 module load CUDA
 echo Running on host `hostname`

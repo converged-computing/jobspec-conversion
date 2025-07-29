@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50g
 #SBATCH --time=15:00:00
-#SBATCH --partition=phillips
 #SBATCH --array=0
 #SBATCH --nodelist=n219
 

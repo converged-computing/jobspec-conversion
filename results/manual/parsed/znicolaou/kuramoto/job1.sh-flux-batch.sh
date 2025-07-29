@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-bits-4226
+#FLUX --job-name=fat-muffin-8592
 #FLUX --queue=ckpt
 #FLUX -t=172800
 #FLUX --urgency=16

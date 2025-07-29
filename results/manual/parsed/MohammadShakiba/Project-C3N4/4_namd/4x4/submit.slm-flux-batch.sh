@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-salad-2238
+#FLUX --job-name=confused-arm-7212
 #FLUX --queue=general-compute
 #FLUX -t=259200
 #FLUX --urgency=16

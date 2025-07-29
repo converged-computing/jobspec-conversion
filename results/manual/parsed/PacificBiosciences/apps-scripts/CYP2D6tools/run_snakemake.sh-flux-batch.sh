@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-general-7033
+#FLUX --job-name=dinosaur-cat-7948
 #FLUX -c=4
 #FLUX --queue=compute
 #FLUX --urgency=16

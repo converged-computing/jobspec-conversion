@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-lamp-1615
+#FLUX --job-name=gassy-poo-9784
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

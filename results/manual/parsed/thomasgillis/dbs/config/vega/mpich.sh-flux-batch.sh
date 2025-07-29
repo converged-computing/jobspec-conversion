@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-train-4628
+#FLUX --job-name=wobbly-lentil-6619
 #FLUX -n=8
 #FLUX --queue=cpu
 #FLUX -t=21600

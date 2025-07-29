@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=00:06:00
-#SBATCH --partition=gpu
 
 module add nvidia/9.0
 source ~/.bashrc

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1024
 #SBATCH --time=06:00:00
-#SBATCH --partition=iv24
 
 module load PrgEnv-cray
 module load cray-mpich

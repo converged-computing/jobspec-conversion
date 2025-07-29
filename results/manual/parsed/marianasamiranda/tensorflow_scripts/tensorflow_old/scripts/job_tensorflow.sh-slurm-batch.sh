@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=rtx
 
 WORKSPACE=$(dirname $(dirname $(realpath $0)))
 DATA_DIR="/scratch1/08486/mmiranda/mysharedirectory"

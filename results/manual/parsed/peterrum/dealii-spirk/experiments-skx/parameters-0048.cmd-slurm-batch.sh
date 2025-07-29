@@ -9,10 +9,9 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=micro
 #SBATCH --constraint=ntasks-per-node=48
 #SBATCH --chdir=./
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module unload intel-mpi/2019-intel
 module unload intel/19.0.5

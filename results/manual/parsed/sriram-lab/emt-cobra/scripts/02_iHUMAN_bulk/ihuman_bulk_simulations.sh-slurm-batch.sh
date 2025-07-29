@@ -10,9 +10,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=1g
 #SBATCH --time=05:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=1
-#SBATCH --licenses=gurobi@slurmdb:8
 
 module load matlab/R2020a
 module load gurobi

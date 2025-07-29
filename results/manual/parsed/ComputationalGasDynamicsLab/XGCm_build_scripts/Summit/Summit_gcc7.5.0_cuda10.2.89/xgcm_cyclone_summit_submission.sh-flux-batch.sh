@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-leader-5007
+#FLUX --job-name=purple-poo-3836
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ComputationalGasDynamicsLab/XGCm_build_scripts/Summit/Summit_gcc7.5.0_cuda10.2.89/xgcm_cyclone_summit_submission.sh

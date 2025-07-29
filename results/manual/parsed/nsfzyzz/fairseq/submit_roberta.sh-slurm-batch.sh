@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --gres=gpu:4
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=rise
 #SBATCH --chdir=/data/yyaoqing/fairseq/
 #SBATCH --exclude=ace,blaze,flaminio,freddie,r[10,16],atlas,havoc,steropes
 

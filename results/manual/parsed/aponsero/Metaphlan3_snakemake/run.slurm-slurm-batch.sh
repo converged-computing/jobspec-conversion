@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=60gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=
 
 source ~/.bashrc
 source activate metaphlan3

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=gpu
 
 export SIRE_DONT_PHONEHOME='1'
 export SIRE_SILENT_PHONEHOME='1'

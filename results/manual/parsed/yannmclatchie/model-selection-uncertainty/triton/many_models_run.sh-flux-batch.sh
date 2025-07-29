@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-parsnip-6332
+#FLUX --job-name=rainbow-muffin-9370
 #FLUX -c=4
 #FLUX -t=21600
 #FLUX --urgency=16

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32gb
 #SBATCH --time=00:20:00
-#SBATCH --partition=shared
 
 module load matlab/R2018a
 cd $HOME/data/ravi/spect-pitch-gan

@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=spider
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=V100|V10032GB|V10016GB
 #SBATCH --exclude=spider-0013
 

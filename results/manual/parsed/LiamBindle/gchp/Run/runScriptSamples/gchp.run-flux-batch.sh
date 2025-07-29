@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-sundae-8562
+#FLUX --job-name=milky-latke-6919
 #FLUX -n=6
 #FLUX --queue=huce_intel
 #FLUX -t=60

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-eagle-3030
+#FLUX --job-name=eccentric-mango-2606
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

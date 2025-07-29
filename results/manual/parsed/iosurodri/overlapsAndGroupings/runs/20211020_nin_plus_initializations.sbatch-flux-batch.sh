@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-fork-0862
+#FLUX --job-name=hanky-fork-1563
 #FLUX --queue=power_std
 #FLUX --urgency=16
 

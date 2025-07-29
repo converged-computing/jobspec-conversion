@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-chair-4598
+#FLUX --job-name=lovable-gato-8691
 #FLUX --queue=standard
 #FLUX -t=600
 #FLUX --urgency=16

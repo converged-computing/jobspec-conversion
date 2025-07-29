@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-fork-8836
+#FLUX --job-name=reclusive-omelette-3790
 #FLUX --queue=valhalla
 #FLUX -t=86400
 #FLUX --urgency=16

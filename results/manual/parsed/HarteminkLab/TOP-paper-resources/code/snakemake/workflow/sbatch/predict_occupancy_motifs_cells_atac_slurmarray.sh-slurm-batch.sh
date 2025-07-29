@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=15G
-#SBATCH --partition=scavenger
 
 module load R/4.1.1-rhel8
 METADATA='/datacommons/harteminklab/kl124/TOP/data/ENCODE/metadata/predictions/hg38/ATAC_JASPAR2022NR_all_motifs_predict_data_table.tsv'

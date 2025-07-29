@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=85G
 #SBATCH --time=00:12:00
-#SBATCH --partition=main
 
 module load cuda/10.1
 source ../lm/bin/activate

@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=debug
 
 export LAMMPS_BIN='/global/homes/e/ejragasa/edison_bin/lmp_serial'
 export PYTHONPATH='$PYFLAMESTK_DIR:$PYTHONPATH'

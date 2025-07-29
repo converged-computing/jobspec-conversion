@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-leg-7119
+#FLUX --job-name=cowy-spoon-9352
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fpled/MYCODE/examples/multiscale/multiscaleStoLinDiffAlignInclusionsIso.pbs

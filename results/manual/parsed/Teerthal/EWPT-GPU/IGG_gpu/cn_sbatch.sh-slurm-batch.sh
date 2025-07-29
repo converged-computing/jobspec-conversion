@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50G
 #SBATCH --time=1-00:04:00
-#SBATCH --partition=public
 
 module load mvapich2-2.3.7-gcc-11.2.0
 MV2_USE_ALIGNED_ALLOC=1

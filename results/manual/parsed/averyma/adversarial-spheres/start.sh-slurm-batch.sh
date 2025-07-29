@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4G
-#SBATCH --partition=p100
 
 JOB_ID=${SLURM_JOB_ID}
 echo $JOB_ID

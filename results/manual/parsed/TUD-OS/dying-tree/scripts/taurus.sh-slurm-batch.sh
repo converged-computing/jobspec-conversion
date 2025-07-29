@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000
 #SBATCH --time=00:30:00
-#SBATCH --partition=haswell64
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MODULEPATH='~s9951545/.modules:$MODULEPATH'
 export CORRT_GOSSIP_SEEDS='$RANDOM'

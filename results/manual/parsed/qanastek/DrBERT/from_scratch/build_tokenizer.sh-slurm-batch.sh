@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
 #SBATCH --time=19:00:00
-#SBATCH --partition=gpu_p2
 #SBATCH --qos=qos_gpu-t3
 #SBATCH --constraint=ntasks-per-node=1
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-cat-9323
+#FLUX --job-name=bricky-hobbit-7421
 #FLUX -c=128
 #FLUX --queue=medium
 #FLUX -t=86400

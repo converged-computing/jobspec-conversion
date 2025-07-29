@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-spoon-0816
+#FLUX --job-name=angry-rabbit-2967
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UNCDEPENdLab/PD_Interaction_Dynamics/code/idiographic_analyses/bash_support_files/qsub_m2_mfx_modelcomparison_fitIBIs.bash

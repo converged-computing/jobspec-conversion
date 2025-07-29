@@ -6,7 +6,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=normal
 
 export PATH='$PATH:$HOME/apps/valgrind/bin'
 

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=48
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=36GB
-#SBATCH --partition=nocona
 #SBATCH --array=1-10715
 
 NAMESFILE=/lustre/scratch/aosmansk/clean_out/croc_phylogeny/raxml/new_raxml_bestTrees/SCORTHO_6.6

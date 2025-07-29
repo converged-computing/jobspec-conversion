@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-spoon-6897
+#FLUX --job-name=swampy-cat-5924
 #FLUX -c=4
 #FLUX --queue=sbel
 #FLUX -t=864000

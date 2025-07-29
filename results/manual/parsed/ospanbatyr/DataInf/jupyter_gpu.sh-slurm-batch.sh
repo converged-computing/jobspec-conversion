@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:nvidia_a40:1
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=ai
 #SBATCH --qos=ai
 #SBATCH --constraint=ntasks-per-node=4
 

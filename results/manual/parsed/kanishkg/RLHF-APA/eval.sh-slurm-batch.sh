@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=cocoflops
 #SBATCH --nodelist=cocoflops-hgx-1
 
 if [ "$(hostname)" = "cocoflops1.stanford.edu" ] || [ "$(hostname)" = "cocoflops2.stanford.edu" ]; then

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-blackbean-9347
+#FLUX --job-name=lovable-bits-4972
 #FLUX -n=16
 #FLUX --queue=serial
 #FLUX -t=3600

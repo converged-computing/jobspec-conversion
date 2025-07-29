@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-bits-5470
+#FLUX --job-name=scruptious-destiny-4065
 #FLUX --queue=batch
 #FLUX -t=300
 #FLUX --urgency=16

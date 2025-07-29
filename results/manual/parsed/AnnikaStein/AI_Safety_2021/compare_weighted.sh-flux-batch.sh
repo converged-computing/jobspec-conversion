@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-motorcycle-7556
+#FLUX --job-name=crusty-nunchucks-7415
 #FLUX --urgency=16
 
 cd /home/um106329/aisafety

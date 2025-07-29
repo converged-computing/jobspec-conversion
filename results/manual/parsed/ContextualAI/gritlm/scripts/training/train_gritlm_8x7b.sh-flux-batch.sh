@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=gritlm
 #FLUX -N=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=a3
 #FLUX -t=3596400
 #FLUX --urgency=16

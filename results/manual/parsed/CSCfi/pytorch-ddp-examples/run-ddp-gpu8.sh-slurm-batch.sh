@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem=0
 #SBATCH --time=00:15:00
-#SBATCH --partition=gputest
 #SBATCH --constraint=ntasks-per-node=1
 
 export RDZV_HOST='$(hostname)'

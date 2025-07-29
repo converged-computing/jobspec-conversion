@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=16000
 #SBATCH --time=10:00:00
-#SBATCH --partition=standard
 
 export SCRAM_ARCH='slc7_amd64_gcc700'
 

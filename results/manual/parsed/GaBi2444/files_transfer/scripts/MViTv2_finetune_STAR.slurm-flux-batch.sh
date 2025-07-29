@@ -2,7 +2,7 @@
 #FLUX --job-name=MViTv2_finetune_STAR
 #FLUX -N=4
 #FLUX -c=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

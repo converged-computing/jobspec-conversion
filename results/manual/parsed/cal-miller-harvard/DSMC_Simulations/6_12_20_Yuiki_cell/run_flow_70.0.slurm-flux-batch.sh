@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-taco-1160
+#FLUX --job-name=gloopy-cinnamonbun-3330
 #FLUX -n=2
 #FLUX --queue=shared
 #FLUX -t=480

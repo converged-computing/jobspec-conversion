@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-arm-9033
+#FLUX --job-name=bumfuzzled-truffle-4591
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX -t=3600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-taco-5750
+#FLUX --job-name=swampy-platanos-9870
 #FLUX --queue=ccr
 #FLUX -t=43200
 #FLUX --urgency=16

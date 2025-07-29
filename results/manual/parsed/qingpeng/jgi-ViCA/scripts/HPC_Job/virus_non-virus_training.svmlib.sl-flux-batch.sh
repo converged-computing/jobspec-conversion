@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-truffle-9360
+#FLUX --job-name=salted-frito-2161
 #FLUX -N=3
 #FLUX --queue=debug
 #FLUX -t=1800

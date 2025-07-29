@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100000M
 #SBATCH --time=20-00:00:00
-#SBATCH --partition=amt
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=n237
 

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=32g
 #SBATCH --time=04:00:00
-#SBATCH --partition=adam
 
 set -u
 if [[ "$#" -lt 2 ]] || [[ "$1" = "--help" ]] ; then

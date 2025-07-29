@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=frigid-egg-2042
+#FLUX --job-name=outstanding-cinnamonbun-5648
 #FLUX -N=18
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=haswell64
 #FLUX -t=1800
 #FLUX --urgency=16

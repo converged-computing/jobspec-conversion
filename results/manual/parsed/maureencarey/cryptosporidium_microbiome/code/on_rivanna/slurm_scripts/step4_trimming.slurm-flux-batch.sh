@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-lemur-7621
+#FLUX --job-name=loopy-blackbean-7141
 #FLUX --queue=standard
 #FLUX -t=86400
 #FLUX --urgency=16

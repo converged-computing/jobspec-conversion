@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=8G
-#SBATCH --partition=haswell
 #SBATCH --array=1-10%5
 
 DATE_WITH_TIME=`date "+%Y%m%d-%H%M%S"`

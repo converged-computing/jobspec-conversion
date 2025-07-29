@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal
 
 module purge all
 module load nextflow/23.04.3

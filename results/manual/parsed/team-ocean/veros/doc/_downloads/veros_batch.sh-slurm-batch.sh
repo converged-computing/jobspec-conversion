@@ -6,8 +6,7 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=mycluster
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_NUM_THREADS='1'
 

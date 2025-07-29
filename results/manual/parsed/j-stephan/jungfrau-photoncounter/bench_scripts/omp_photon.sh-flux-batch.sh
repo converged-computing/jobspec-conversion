@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=omp_photon
 #FLUX -c=80
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=defq
 #FLUX -t=18000
 #FLUX --urgency=16

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=hanky-taco-8746
+#FLUX --job-name=misunderstood-kerfuffle-1404
 #FLUX -c=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=romeo
 #FLUX -t=14400
 #FLUX --urgency=16

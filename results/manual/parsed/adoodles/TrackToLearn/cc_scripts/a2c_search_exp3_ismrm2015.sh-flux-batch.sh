@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-leopard-5327
+#FLUX --job-name=eccentric-arm-8390
 #FLUX -c=12
 #FLUX -t=519780
 #FLUX --urgency=16

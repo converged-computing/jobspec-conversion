@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=60
 #SBATCH --mem=7G
 #SBATCH --time=02:00:00
-#SBATCH --partition=short
 
 set -e
 PEPs=( ExternalData/TAIR10/TAIR10.proteins.fa NobtDNA/NIOBT_r1.0.proteins.fa SlycDNA/Slyc.proteins.fa)

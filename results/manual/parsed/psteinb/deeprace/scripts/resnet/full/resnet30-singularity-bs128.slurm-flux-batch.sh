@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-itch-6379
+#FLUX --job-name=conspicuous-chip-6651
 #FLUX --queue=gpu2
 #FLUX -t=18000
 #FLUX --urgency=16

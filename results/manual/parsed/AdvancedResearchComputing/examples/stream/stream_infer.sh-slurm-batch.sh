@@ -3,8 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=t4_dev_q
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_PROC_BIND='true'
 export OMP_NUM_THREADS='32'

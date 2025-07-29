@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-toaster-5144
+#FLUX --job-name=dinosaur-soup-1107
 #FLUX --queue=standard
 #FLUX -t=86400
 #FLUX --urgency=16

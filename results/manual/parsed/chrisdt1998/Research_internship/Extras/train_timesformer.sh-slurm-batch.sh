@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=partition_of_your_choice
 #SBATCH --constraint=volta32gb,ntasks-per-node=1
 #SBATCH --array=1
 

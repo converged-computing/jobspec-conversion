@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=quant-embed-laiona6-f16
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:NVIDIAA10080GBPCIe:1
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=bme_gpu
 
 source ~/.bashrc
 cd /hpc/data/home/bme/zhangzb1/Kaggle/HAT/hat

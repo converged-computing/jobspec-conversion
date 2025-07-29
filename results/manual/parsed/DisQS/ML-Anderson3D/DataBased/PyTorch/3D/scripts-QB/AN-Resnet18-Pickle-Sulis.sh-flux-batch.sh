@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-lamp-0469
+#FLUX --job-name=arid-staircase-3881
 #FLUX -c=42
 #FLUX --queue=gpu
 #FLUX -t=172800

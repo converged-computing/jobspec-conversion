@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpuA100x8
 #SBATCH --constraint=ntasks-per-node=1
 
 export PLUMED_NUM_THREADS='16'

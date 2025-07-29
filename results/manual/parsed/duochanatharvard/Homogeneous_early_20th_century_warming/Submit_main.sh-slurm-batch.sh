@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30000
 #SBATCH --time=1-01:00:00
-#SBATCH --partition=${partition_main}
 #SBATCH --array=1-4
 #SBATCH --dependency=${JOB_cor_stats}
 

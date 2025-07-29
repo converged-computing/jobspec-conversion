@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-destiny-7321
+#FLUX --job-name=expensive-poodle-7062
 #FLUX -c=24
 #FLUX --queue=amdgpufast
 #FLUX -t=14400

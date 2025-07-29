@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=ccm_queue
 #SBATCH --constraint=ntasks-per-node=24
 
 NO_BONNIE=1

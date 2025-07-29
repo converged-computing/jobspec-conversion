@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1gb
 #SBATCH --time=00:10:00
-#SBATCH --partition=c6145
 
 set -eu
 rm -rf install petsc-3.7.6 src

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-noodle-9831
+#FLUX --job-name=outstanding-squidward-5084
 #FLUX -N=12
 #FLUX -n=768
 #FLUX --queue=debug

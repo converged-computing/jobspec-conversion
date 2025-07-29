@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16000
 #SBATCH --time=16:40:00
-#SBATCH --partition=murphy
 
 export R_LIBS_USER='$HOME/apps/R_3.6.1:$R_LIBS_USER'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=synergia2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu_gce
 #FLUX -t=1800
 #FLUX --urgency=16

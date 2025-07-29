@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-squidward-2653
+#FLUX --job-name=grated-cat-2111
 #FLUX --queue=bosch_cpu-cascadelake
 #FLUX --urgency=16
 

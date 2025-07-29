@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-underoos-5373
+#FLUX --job-name=stanky-snack-5541
 #FLUX -N=16
 #FLUX --queue=regular
 #FLUX -t=600

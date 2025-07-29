@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4GB
 #SBATCH --time=00:05:00
-#SBATCH --partition=normal
 #SBATCH --array=0-1
 
 module reset

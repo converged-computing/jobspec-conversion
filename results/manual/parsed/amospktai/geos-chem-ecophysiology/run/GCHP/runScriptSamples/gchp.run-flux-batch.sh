@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-spoon-8710
+#FLUX --job-name=bloated-soup-4215
 #FLUX -n=30
 #FLUX --queue=huce_intel
 #FLUX -t=10

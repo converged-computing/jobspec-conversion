@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-pot-8221
+#FLUX --job-name=peachy-peanut-butter-7704
 #FLUX -c=4
 #FLUX --urgency=16
 

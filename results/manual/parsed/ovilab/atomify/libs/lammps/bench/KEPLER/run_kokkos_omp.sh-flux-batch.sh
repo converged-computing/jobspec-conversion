@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-itch-0424
+#FLUX --job-name=bricky-general-0737
 #FLUX -t=43200
 #FLUX --urgency=16
 

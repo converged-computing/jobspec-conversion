@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-hobbit-3890
+#FLUX --job-name=pusheena-plant-9380
 #FLUX -c=8
 #FLUX -t=86400
 #FLUX --urgency=16

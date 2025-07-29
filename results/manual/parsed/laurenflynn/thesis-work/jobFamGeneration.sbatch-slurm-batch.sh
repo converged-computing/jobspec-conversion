@@ -7,6 +7,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20000
 #SBATCH --time=1-00:12:00
-#SBATCH --partition=serial_requeue
 
 singularity exec --cleanenv --env R_LIBS_USER=$HOME/R/ifxrstudio/RELEASE_3_15 /n/singularity_images/informatics/ifxrstudio/ifxrstudio:RELEASE_3_15.sif Rscript src/1_generate_families_separate_dfs.R   

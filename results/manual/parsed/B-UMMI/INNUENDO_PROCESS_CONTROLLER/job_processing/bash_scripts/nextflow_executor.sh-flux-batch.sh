@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-toaster-9109
+#FLUX --job-name=dirty-underoos-1021
 #FLUX --queue=nextflow
 #FLUX --urgency=16
 

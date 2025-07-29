@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-egg-8436
+#FLUX --job-name=expensive-destiny-2508
 #FLUX -c=10
 #FLUX -t=86400
 #FLUX --urgency=16

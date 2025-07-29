@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=64G
 #SBATCH --time=00:10:00
-#SBATCH --partition=gputest
 #SBATCH --constraint=ntasks-per-node=1
 
 echo "START $SLURM_JOBID: $(date)"

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=8G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=hugemem
 
 module purge
 module load pytorch/1.4

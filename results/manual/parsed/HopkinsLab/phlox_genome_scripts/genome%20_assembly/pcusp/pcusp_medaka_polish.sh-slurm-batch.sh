@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1-26
 
 module load intel/19.0.5-fasrc01

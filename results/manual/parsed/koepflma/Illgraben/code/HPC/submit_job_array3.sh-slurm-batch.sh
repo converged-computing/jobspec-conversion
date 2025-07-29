@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=00:06:00
-#SBATCH --partition=node
 #SBATCH --qos=normal
 #SBATCH --array=123,135,136,137,234,199,207,208,223,233
 

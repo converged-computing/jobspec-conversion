@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=testdlrm
 #FLUX -n=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=2400
 #FLUX --urgency=16
 

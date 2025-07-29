@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=ntasks-per-node=24,intel
 
 export OMP_NUM_THREADS='1'

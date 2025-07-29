@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=spicy-plant-1530
+#FLUX --job-name=astute-pot-1167
 #FLUX -n=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=259200
 #FLUX --urgency=16
 

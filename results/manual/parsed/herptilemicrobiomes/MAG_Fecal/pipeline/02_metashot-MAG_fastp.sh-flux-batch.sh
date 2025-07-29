@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-nalgas-9182
+#FLUX --job-name=chocolate-cat-7321
 #FLUX -n=32
 #FLUX --queue=batch
 #FLUX -t=259200

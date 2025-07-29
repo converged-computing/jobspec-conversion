@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3000
 #SBATCH --time=00:01:00
-#SBATCH --partition=CPUQ
 
 module load R/4.2.1-foss-2022a
 module load GDAL/3.5.0-foss-2022a

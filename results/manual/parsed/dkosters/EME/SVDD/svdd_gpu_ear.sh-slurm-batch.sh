@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 
 export SLURM_LOADER_LOAD_NO_MPI_LIB='python'
 

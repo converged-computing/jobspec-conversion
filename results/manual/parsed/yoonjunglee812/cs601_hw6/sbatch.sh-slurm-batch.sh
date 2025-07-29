@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=02:00:00
-#SBATCH --partition=mig_class
 #SBATCH --constraint=ntasks-per-node=2
 
 module load anaconda 

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=3
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=agap_normal
 #SBATCH --array=1-120
 
 export MPLCONFIGDIR='/lustre/vieilledentg/config/matplotlib'

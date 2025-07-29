@@ -4,7 +4,6 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=batch
 
 export VENV='$HOME/.envs/jupyter_dask_${ULHPC_CLUSTER}'
 export JUPYTER_CONFIG_DIR='$HOME/jupyter/$SLURM_JOBID/'

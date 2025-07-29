@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120G
 #SBATCH --time=20-00:00:00
-#SBATCH --partition=srlab
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210312_cbai-vs-copi_diamond_blastx
 
 reads_dir=/gscratch/srlab/sam/data/C_bairdi/RNAseq

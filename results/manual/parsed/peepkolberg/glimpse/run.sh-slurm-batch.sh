@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=amd
 #SBATCH --constraint=ntasks-per-node=1
 
 module load nextflow/22.04.3

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-itch-8265
+#FLUX --job-name=scruptious-bits-3882
 #FLUX -c=10
 #FLUX -t=21600
 #FLUX --urgency=16

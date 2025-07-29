@@ -8,7 +8,6 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=short
 
 module load bbtools/37.02
 fastq_dir="/project/genolabswheatphg/raw_data/wheatCAP_parents"

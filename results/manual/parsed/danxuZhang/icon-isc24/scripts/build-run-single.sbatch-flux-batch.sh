@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=icon-single-percision
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=600
 #FLUX --urgency=16

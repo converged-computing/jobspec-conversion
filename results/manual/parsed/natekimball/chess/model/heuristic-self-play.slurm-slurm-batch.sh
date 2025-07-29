@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=bii
 
 export CHESS_DIR='/scratch/tma5gv/chess'
 export MODEL_DIR='$CHESS_DIR/model'

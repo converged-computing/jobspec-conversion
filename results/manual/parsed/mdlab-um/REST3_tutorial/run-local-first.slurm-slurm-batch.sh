@@ -6,7 +6,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
-#SBATCH --partition=fast
 
 export PATH='/home/zgjia/Software/openmpi/2.1.0/bin:$PATH'
 export LD_LIBRARY_PATH='/home/zgjia/Software/openmpi/2.1.0/lib:$LD_LIBRARY_PATH'

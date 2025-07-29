@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=$MEM
-#SBATCH --partition=defq,long
 #SBATCH --array=0-123
 
 module load cutadapt

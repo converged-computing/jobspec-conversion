@@ -8,7 +8,6 @@
 #SBATCH --gpus-per-task=4
 #SBATCH --mem=90G
 #SBATCH --time=16:00:00
-#SBATCH --partition=gpuA100x4
 #SBATCH --constraint=ntasks-per-node=1
 
 current_date_time="`date +%Y%m%d%H%M%S`"

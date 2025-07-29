@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-soup-6032
+#FLUX --job-name=scruptious-hippo-4929
 #FLUX --queue=gpu
 #FLUX -t=10800
 #FLUX --urgency=16

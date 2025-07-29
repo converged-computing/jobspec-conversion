@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-peanut-butter-9660
+#FLUX --job-name=dirty-hobbit-0978
 #FLUX --urgency=16
 
 if [ -e nrlmol_exe ]; then

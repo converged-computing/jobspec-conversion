@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-train-7843
+#FLUX --job-name=joyous-leg-3053
 #FLUX -n=6
 #FLUX --queue=dgx2q
 #FLUX -t=87840

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-underoos-7176
+#FLUX --job-name=crunchy-signal-6781
 #FLUX --queue=bigmem
 #FLUX --urgency=16
 

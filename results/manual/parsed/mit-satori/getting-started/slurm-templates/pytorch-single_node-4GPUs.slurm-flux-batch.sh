@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=pytorch_4GPUs
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=36000
 #FLUX --urgency=16
 

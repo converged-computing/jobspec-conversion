@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=256G
 #SBATCH --time=06:00:00
-#SBATCH --partition=lonepeak
 
 StartDir=$(pwd)
 HexDir="/uufs/chpc.utah.edu/common/home/u1046484/Codebase/heximap/"

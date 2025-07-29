@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-toaster-9653
+#FLUX --job-name=expensive-signal-5357
 #FLUX -N=8
 #FLUX --urgency=16
 

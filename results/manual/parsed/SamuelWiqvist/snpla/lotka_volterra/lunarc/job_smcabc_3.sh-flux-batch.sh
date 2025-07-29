@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=smcabc
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=lu
 #FLUX -t=10800
 #FLUX --urgency=16

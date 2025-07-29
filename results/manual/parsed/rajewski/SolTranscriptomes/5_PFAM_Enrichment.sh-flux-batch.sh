@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-peas-5975
+#FLUX --job-name=dirty-nunchucks-9605
 #FLUX -c=60
 #FLUX --queue=short
 #FLUX -t=7200

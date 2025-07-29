@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-toaster-5231
+#FLUX --job-name=blue-butter-9499
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alexmlamb/ImportanceSamplingSGD/integration_distributed_training/config_files/helios/07_paper_again/launch_036.sh

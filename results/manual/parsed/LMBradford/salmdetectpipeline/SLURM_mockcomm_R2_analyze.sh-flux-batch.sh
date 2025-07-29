@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-diablo-9531
+#FLUX --job-name=crunchy-egg-9889
 #FLUX -c=4
 #FLUX -t=9600
 #FLUX --urgency=16

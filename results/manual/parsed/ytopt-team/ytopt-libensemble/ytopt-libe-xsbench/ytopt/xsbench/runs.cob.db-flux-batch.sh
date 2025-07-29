@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=stanky-citrus-6355
+#FLUX --job-name=peachy-citrus-6216
 #FLUX --urgency=16
 

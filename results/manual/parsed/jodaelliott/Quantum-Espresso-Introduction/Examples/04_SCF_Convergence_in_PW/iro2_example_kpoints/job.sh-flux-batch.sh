@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-hope-7804
+#FLUX --job-name=sticky-bike-7561
 #FLUX --queue=scarf
 #FLUX -t=600
 #FLUX --urgency=16

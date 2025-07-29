@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=2dNoSoot
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=259200
 #FLUX --urgency=16
 

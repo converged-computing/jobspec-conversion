@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8GB
 #SBATCH --time=1-08:00:00
-#SBATCH --partition=general
 
 module use /opt/insy/modulefiles          # Use DAIC INSY software collection
 module load openmpi

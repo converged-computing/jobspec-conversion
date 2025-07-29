@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem-per-cpu=8G
 #SBATCH --time=6-06:00:00
-#SBATCH --partition=accel
 
 export BERT_ROOT='$EBROOTNLPLMINNVIDIA_BERT'
 export LOCAL_ROOT='`pwd`'

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=students-prod
 
 export PYTHONNOUSERSITE='1'
 export MASTER_ADDR='${nodelist[0]}'

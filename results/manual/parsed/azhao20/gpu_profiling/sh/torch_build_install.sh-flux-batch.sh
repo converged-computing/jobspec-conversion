@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-leader-1000
+#FLUX --job-name=swampy-lemon-2586
 #FLUX -c=64
 #FLUX --queue=gpu_test
 #FLUX -t=720

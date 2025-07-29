@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-peanut-butter-7267
+#FLUX --job-name=delicious-lentil-2305
 #FLUX -n=2
 #FLUX --queue=normal256
 #FLUX -t=600

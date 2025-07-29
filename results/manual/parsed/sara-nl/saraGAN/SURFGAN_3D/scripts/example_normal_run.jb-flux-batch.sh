@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-muffin-1088
+#FLUX --job-name=lovely-despacito-0584
 #FLUX -c=6
 #FLUX --queue=gpu_titanrtx
 #FLUX -t=432000

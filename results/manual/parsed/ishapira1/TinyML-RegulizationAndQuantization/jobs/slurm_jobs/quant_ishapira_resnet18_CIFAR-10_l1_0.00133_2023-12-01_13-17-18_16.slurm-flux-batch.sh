@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-punk-1936
+#FLUX --job-name=evasive-staircase-6786
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

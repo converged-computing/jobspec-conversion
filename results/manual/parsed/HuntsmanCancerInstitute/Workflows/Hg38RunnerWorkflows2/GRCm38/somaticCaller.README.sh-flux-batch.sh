@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-nunchucks-5434
+#FLUX --job-name=lovable-peanut-butter-4376
 #FLUX --queue=hci-rw
 #FLUX -t=172800
 #FLUX --urgency=16

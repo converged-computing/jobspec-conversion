@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-hope-9224
+#FLUX --job-name=red-car-4134
 #FLUX --queue=RM-shared
 #FLUX -t=14400
 #FLUX --urgency=16

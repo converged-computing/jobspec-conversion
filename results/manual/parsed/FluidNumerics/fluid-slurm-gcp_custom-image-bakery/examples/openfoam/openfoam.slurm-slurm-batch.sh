@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=openfoam
 #SBATCH --constraint=ntasks-per-node=8
 
 source /etc/profile.d/openmpi.sh

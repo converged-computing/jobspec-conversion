@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-egg-9626
+#FLUX --job-name=crunchy-bits-3093
 #FLUX -n=16
 #FLUX --queue=parallel
 #FLUX -t=1800

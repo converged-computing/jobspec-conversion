@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-hope-2459
+#FLUX --job-name=bloated-butter-2294
 #FLUX -n=4
 #FLUX -c=2
 #FLUX --queue=savio2_1080ti

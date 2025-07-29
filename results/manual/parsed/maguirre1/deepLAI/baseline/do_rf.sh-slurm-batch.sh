@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal,owners
 
 if [ "$#" -lt 1 ]; then 
 	echo "usage: bash do_rf.sh input.vcf [out_prefix]"

@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=0
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=prod
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=cpu
 
 spack env activate neurodamus

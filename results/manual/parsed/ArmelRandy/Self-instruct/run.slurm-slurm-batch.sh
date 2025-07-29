@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=48
 #SBATCH --gres=gpu:8
 #SBATCH --mem=11G
-#SBATCH --partition=production-cluster
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export WANDB_PROJECT='test'

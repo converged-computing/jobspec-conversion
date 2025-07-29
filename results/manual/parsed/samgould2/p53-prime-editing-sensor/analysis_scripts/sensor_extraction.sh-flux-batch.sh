@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-bicycle-2097
+#FLUX --job-name=bumfuzzled-lettuce-3886
 #FLUX --urgency=16
 
 module load miniconda3/v4

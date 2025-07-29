@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --mem=5000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=day
 
 export DIR='/gpfs/loomis/project/fas/sbsc/ga254/dataproces/NITRO'
 export RAM='/dev/shm'

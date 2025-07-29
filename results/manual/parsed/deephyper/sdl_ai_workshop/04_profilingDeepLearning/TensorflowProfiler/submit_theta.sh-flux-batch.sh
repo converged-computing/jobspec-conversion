@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-itch-0722
+#FLUX --job-name=dirty-poo-2144
 #FLUX --urgency=16
 

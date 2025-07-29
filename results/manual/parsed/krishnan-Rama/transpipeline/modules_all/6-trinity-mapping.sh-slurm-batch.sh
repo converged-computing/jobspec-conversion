@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=150000
-#SBATCH --partition=gpu
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 

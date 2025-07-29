@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-signal-1065
+#FLUX --job-name=conspicuous-chair-2494
 #FLUX -c=8
 #FLUX -t=720
 #FLUX --urgency=16

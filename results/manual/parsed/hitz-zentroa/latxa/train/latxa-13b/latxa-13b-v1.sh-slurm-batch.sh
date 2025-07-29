@@ -8,8 +8,7 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=123G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=boost_usr_prod
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=4
 
 export HOSTNAMES='$(scontrol show hostnames "$SLURM_JOB_NODELIST")'

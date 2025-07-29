@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-soup-4417
+#FLUX --job-name=reclusive-cupcake-6644
 #FLUX --queue=sched_mit_hill
 #FLUX -t=41400
 #FLUX --urgency=16

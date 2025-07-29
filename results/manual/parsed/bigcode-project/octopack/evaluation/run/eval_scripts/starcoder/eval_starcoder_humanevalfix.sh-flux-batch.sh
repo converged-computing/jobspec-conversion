@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=faux-lemur-7630
+#FLUX --job-name=boopy-bits-2311
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=small-g
 #FLUX -t=172800
 #FLUX --urgency=16

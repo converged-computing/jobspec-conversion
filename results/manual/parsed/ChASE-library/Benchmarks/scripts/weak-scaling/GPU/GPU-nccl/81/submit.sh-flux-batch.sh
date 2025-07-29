@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-snack-9647
+#FLUX --job-name=cowy-signal-1911
 #FLUX -N=81
 #FLUX -n=324
 #FLUX -c=12

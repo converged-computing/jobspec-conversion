@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3000M
 #SBATCH --time=00:30:00
-#SBATCH --partition=normal
 #SBATCH --qos=devel
 #SBATCH --constraint=ntasks-per-node=2
 

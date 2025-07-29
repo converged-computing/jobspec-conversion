@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=gpu:4
 #SBATCH --mem=200G
-#SBATCH --partition=long
 
 export WANDB_MODE='offline'
 export LOGLEVEL='INFO'

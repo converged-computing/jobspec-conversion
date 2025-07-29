@@ -5,7 +5,6 @@
 #SBATCH --ntasks=3
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=compute
 
 export PYTHONPATH='$PYTHONPATH:$ARL'
 

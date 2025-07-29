@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-caramel-5572
+#FLUX --job-name=angry-onion-3631
 #FLUX --urgency=16
 
 IFS='/' read -r -a scratch <<< "$SCRATCH"

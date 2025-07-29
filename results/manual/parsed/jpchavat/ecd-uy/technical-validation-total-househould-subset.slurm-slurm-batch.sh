@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=120G
 #SBATCH --time=12:00:00
-#SBATCH --partition=normal
 #SBATCH --qos=normal
 
 source /etc/profile.d/modules.sh

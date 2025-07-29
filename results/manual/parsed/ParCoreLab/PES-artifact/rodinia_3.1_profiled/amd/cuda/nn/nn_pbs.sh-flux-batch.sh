@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-gato-4316
+#FLUX --job-name=strawberry-bike-2215
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ParCoreLab/PES-artifact/rodinia_3.1_profiled/amd/cuda/nn/nn_pbs.sh

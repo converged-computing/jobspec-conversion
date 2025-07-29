@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-buttface-7184
+#FLUX --job-name=loopy-parsnip-0509
 #FLUX -t=1440
 #FLUX --urgency=16
 

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=10GB
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=a100-cu117
 
 export TRANSFORMERS_CACHE='/mnt/nvme/home/ryan01/.cache/huggingface/transformers'
 export HF_DATASETS_CACHE='/mnt/nvme/home/ryan01/.cache/huggingface/datasets'

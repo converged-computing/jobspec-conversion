@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-platanos-9719
+#FLUX --job-name=arid-lemon-7853
 #FLUX -c=4
 #FLUX -t=7200
 #FLUX --urgency=16

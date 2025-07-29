@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=20-20:00:00
-#SBATCH --partition=public
 #SBATCH --qos=large
 
 module load cuda/75/blas/7.5.18

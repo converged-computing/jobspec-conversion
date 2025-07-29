@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-kitty-8254
+#FLUX --job-name=swampy-signal-4522
 #FLUX --queue=long
 #FLUX -t=864000
 #FLUX --urgency=16

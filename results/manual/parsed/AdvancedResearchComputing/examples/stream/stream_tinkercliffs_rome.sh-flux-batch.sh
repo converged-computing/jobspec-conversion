@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=stinky-motorcycle-3749
-#FLUX: --exclusive
+#FLUX --job-name=blank-itch-5798
+#FLUX --exclusive
 #FLUX --queue=dev_q
 #FLUX -t=300
 #FLUX --urgency=16

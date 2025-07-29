@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --time=06:00:00
-#SBATCH --partition=cpu_p1
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=0-497
 

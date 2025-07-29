@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:rtx:2
 #SBATCH --mem=50G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=allgroups
 
 work_dir="/home/girottopie/Code/mr_white_game"
 dataset_name="it_20M_lines_polished"

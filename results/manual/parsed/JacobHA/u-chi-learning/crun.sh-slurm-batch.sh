@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --mem=12gb
 #SBATCH --time=2-23:00:00
-#SBATCH --partition=Intel
 #SBATCH --array=1-10
 
 export CPATH='$CPATH:$CONDA_PREFIX/include'

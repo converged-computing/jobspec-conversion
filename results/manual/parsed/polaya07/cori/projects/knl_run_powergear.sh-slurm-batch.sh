@@ -5,7 +5,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=regular
 #SBATCH --constraint=knl,quad,cache
 
 BOOST_VER=1.65.1

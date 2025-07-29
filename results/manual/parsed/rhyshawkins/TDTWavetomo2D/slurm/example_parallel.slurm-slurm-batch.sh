@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000mb
 #SBATCH --time=01:00:00
-#SBATCH --partition=transcale
 #SBATCH --constraint=ntasks-per-node=28,ntasks-per-socket=14
 
 export INTEL_LICENSE_FILE='/softs/intel/l_ics/license:$INTEL_LICENSE_FILE'

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=80G
 #SBATCH --time=03:00:00
-#SBATCH --partition=public
 
 module load mamba/latest # only for Sol
 source activate suprem

@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=frigid-mango-2633
+#FLUX --job-name=hello-leg-9136
 #FLUX -N=100
 #FLUX -n=6400
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cont
 #FLUX -t=600
 #FLUX --urgency=16

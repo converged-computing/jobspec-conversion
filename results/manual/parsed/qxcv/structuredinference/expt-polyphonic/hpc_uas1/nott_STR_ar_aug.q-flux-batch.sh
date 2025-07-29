@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-soup-3241
+#FLUX --job-name=buttery-squidward-6642
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/qxcv/structuredinference/expt-polyphonic/hpc_uas1/nott_STR_ar_aug.q

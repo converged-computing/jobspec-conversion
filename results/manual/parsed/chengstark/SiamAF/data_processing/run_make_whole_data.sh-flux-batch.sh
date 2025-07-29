@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-signal-3167
+#FLUX --job-name=stinky-pot-0378
 #FLUX -c=16
 #FLUX --queue=overflow
 #FLUX -t=14400

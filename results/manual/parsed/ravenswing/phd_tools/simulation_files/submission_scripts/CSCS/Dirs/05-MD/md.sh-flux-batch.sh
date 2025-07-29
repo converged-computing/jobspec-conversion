@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-lentil-7197
+#FLUX --job-name=pusheena-butter-3111
 #FLUX -N=4
 #FLUX --queue=normal
 #FLUX -t=86400

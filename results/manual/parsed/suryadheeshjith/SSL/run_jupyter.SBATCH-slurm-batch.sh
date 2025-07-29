@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --gres=gpu:4
 #SBATCH --time=16:00:00
-#SBATCH --partition=n1c24m128-v100-4
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 port=$(shuf -i 10000-65500 -n 1)
 opts="-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR -N -f -R $port:localhost:$port"

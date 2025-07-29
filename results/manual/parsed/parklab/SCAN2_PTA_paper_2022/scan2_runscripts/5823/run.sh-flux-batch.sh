@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-muffin-0276
+#FLUX --job-name=scruptious-parsnip-4230
 #FLUX --queue=priopark
 #FLUX -t=432000
 #FLUX --urgency=16

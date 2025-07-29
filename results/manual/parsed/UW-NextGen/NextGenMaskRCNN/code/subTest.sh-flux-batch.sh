@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-kitty-1671
+#FLUX --job-name=peachy-diablo-2308
 #FLUX --queue=slurm_courtesy
 #FLUX -t=259320
 #FLUX --urgency=16

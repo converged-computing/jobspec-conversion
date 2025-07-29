@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=16G
 #SBATCH --time=09:30:00
-#SBATCH --partition=disc
 #SBATCH --chdir=/ourdisk/hpc/ai2es/jroth/sngp_seg/
 
 export PROJ_DIR='/ourdisk/hpc/ai2es/jroth/sngp_seg/'

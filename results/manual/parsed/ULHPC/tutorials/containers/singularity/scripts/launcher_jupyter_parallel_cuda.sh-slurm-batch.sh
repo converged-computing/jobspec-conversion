@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=normal
 
 export VENV='$HOME/.envs/venv_cuda_${ULHPC_CLUSTER}'

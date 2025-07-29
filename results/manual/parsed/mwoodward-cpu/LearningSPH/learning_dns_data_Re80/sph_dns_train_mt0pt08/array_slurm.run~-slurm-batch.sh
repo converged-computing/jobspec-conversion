@@ -6,7 +6,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=hi_mem
 #SBATCH --array=5-6
 

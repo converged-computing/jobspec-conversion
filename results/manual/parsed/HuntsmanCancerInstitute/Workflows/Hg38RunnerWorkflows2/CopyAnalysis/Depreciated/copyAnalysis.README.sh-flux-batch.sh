@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-chip-7762
+#FLUX --job-name=gassy-dog-0269
 #FLUX --queue=hci-rw
 #FLUX -t=86400
 #FLUX --urgency=16

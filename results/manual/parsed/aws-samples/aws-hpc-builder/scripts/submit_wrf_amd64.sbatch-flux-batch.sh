@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=joyous-hobbit-6893
+#FLUX --job-name=scruptious-car-4620
 #FLUX -N=2
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpc6anpg
 #FLUX --urgency=16
 

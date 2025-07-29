@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-noodle-6854
+#FLUX --job-name=dinosaur-truffle-2040
 #FLUX -c=6
 #FLUX -t=60
 #FLUX --urgency=16

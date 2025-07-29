@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-rabbit-7391
+#FLUX --job-name=cowy-cinnamonbun-6180
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-house-2800
+#FLUX --job-name=placid-chair-3751
 #FLUX -N=4
 #FLUX -c=4
 #FLUX -t=59

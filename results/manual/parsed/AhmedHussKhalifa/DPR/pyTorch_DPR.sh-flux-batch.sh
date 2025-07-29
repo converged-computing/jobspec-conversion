@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-plant-0999
+#FLUX --job-name=stinky-fork-2072
 #FLUX -t=1200
 #FLUX --urgency=16
 

@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=standard
 
 	## Load in bash functions and VALET packages
 		. "/work/thsu/rschanta/RTS/functions/bash-utility/get_bash.sh"

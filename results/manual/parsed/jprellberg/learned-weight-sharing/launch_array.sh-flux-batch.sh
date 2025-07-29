@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-egg-4356
+#FLUX --job-name=crusty-arm-2732
 #FLUX -n=4
 #FLUX --queue=long
 #FLUX -t=518400

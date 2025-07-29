@@ -3,7 +3,6 @@
 #SBATCH --ntasks=3
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=RM-shared
 
 module load nextflow
 module load AI/anaconda3-tf2.2020.11

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
-#SBATCH --partition=gpu-normal
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
 

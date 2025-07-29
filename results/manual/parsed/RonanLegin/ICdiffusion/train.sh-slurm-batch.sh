@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=128G
 #SBATCH --time=23:30:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=h100
 
 export MODULEPATH='/mnt/home/gkrawezik/modules/rocky8:$MODULEPATH'

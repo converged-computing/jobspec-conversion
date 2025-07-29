@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-toaster-7871
+#FLUX --job-name=blank-peanut-butter-0200
 #FLUX -c=8
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-toaster-4419
+#FLUX --job-name=confused-fork-2366
 #FLUX --queue=RM
 #FLUX -t=172800
 #FLUX --urgency=16

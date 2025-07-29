@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=60gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=himem
 #SBATCH --array=1-100
 
 cd /cluster/projects/mcgahalab/data/brookslab/sabelo/AB_seq_v2/

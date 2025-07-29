@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-leopard-9359
+#FLUX --job-name=frigid-dog-9660
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

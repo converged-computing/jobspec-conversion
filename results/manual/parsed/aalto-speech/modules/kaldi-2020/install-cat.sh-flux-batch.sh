@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-avocado-6535
+#FLUX --job-name=conspicuous-peanut-1994
 #FLUX -c=20
 #FLUX --queue=coin,batch-ivb,batch-hsw,short-ivb,short-hsw,batch-csl,batch-skl
 #FLUX -t=3600

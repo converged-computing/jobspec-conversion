@@ -7,7 +7,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=serial
 #SBATCH --qos=serial
 
 export OMP_NUM_THREADS='1'

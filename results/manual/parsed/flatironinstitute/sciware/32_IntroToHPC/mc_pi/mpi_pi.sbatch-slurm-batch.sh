@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=scc
 #SBATCH --constraint=ntasks-per-node=64,ib-icelake
 
 echo $SLURM_JOBID

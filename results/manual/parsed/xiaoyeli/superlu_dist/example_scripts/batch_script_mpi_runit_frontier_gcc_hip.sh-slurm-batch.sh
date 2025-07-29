@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=batch
 
 export MPICH_GPU_SUPPORT_ENABLED='1'
 export LD_LIBRARY_PATH='$CRAY_LD_LIBRARY_PATH:$LD_LIBRARY_PATH'

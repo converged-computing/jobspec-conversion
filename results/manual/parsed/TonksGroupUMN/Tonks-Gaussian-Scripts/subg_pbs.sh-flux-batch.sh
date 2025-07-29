@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-signal-1086
+#FLUX --job-name=swampy-spoon-4541
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/TonksGroupUMN/Tonks-Gaussian-Scripts/subg_pbs.sh

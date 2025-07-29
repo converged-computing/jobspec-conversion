@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=pipeeval
 #FLUX --gpus-per-task=1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=86400
 #FLUX --urgency=16

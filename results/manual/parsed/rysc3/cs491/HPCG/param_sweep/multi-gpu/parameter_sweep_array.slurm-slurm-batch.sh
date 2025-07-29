@@ -6,7 +6,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
-#SBATCH --partition=condo
 #SBATCH --array=1-72
 
 export OMP_PROC_BIND='TRUE'

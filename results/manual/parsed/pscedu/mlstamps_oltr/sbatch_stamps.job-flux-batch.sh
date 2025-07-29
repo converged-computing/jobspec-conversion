@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-leopard-7330
+#FLUX --job-name=frigid-parsnip-8461
 #FLUX --queue=GPU-shared
 #FLUX -t=172800
 #FLUX --urgency=16

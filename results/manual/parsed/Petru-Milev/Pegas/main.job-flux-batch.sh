@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-frito-1365
+#FLUX --job-name=fuzzy-platanos-6707
 #FLUX -c=3
 #FLUX --queue=normal
 #FLUX -t=108000

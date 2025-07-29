@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-kerfuffle-3002
+#FLUX --job-name=expressive-banana-9622
 #FLUX -n=10
 #FLUX --queue=small
 #FLUX -t=4210

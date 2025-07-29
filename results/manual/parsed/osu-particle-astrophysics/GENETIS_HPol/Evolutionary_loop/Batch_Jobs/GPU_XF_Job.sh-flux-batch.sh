@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-fork-6801
+#FLUX --job-name=blue-earthworm-1712
 #FLUX -n=40
 #FLUX -t=21600
 #FLUX --urgency=16

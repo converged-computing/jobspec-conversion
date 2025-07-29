@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-chair-4382
+#FLUX --job-name=swampy-signal-0991
 #FLUX --urgency=16
 

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=12G
 #SBATCH --time=01:25:00
-#SBATCH --partition=idle
 
 vpkg_require matlab/default
 . /opt/shared/slurm/templates/libexec/openmp.sh

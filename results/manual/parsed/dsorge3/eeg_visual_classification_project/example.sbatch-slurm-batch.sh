@@ -5,7 +5,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:tesla:4
-#SBATCH --partition=xgpu
 
 module load anaconda/3
 module load cuda/10.1

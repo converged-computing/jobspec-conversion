@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=3
 #SBATCH --gres=gpu:1
-#SBATCH --partition=True
 #SBATCH --constraint=ntasks-per-node=1
 
 module load fftw2/intel/float/2.1.5  #Not sure about that one  

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-milkshake-7176
+#FLUX --job-name=rainbow-leopard-3735
 #FLUX --queue=gpu22
 #FLUX -t=21600
 #FLUX --urgency=16

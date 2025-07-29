@@ -7,7 +7,6 @@
 #SBATCH --gres=a100:1
 #SBATCH --mem=32G
 #SBATCH --time=02:00:00
-#SBATCH --partition=accel
 
 set -o errexit  # Recommended for easier debugging
 source /etc/profile

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-gato-9102
+#FLUX --job-name=spicy-underoos-7468
 #FLUX -c=5
 #FLUX --queue=astro
 #FLUX -t=21600

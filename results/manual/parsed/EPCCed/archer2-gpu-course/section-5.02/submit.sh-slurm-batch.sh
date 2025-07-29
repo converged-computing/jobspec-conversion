@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=2
 #SBATCH --time=00:01:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu-shd
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-car-4512
+#FLUX --job-name=loopy-blackbean-0626
 #FLUX --queue=regular,long7,long30
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-bits-1807
+#FLUX --job-name=loopy-onion-2284
 #FLUX -N=2
 #FLUX --queue=cluster
 #FLUX -t=900

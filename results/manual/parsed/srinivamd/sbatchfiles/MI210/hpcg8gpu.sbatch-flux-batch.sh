@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-knife-0033
+#FLUX --job-name=goodbye-platanos-5380
 #FLUX -c=16
 #FLUX --urgency=16
 

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:titan_rtx:1
 #SBATCH --mem-per-cpu=40G
 #SBATCH --time=02:00:00
-#SBATCH --partition=allgroups
 
 batch_size=8
 task='19-1'

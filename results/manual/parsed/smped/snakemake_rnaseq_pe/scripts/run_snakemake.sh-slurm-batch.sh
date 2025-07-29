@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=batch
 
 CORES=8
 if [ -d "/hpcfs" ]; then

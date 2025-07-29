@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:30:00
-#SBATCH --partition=batch
 #SBATCH --constraint=amd,ntasks-per-node=20
 
 export VASP_HOME='/ibex/scratch/jangira/vasp/sw/vasp.5.4.4/bin'

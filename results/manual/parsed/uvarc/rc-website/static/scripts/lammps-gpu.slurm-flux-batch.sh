@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-snack-0561
+#FLUX --job-name=dirty-diablo-0771
 #FLUX --queue=gpu
 #FLUX -t=259200
 #FLUX --urgency=16

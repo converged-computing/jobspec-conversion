@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=MLPerf21-bert
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=mlperf
 #FLUX --urgency=16
 

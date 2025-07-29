@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=06:00:00
-#SBATCH --partition=hbv3
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=120
 
 export PMIX_INSTALL_PREFIX='$OPAL_PREFIX'

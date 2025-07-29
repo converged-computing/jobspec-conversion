@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=trc
 
 ml python/3.9.0
 ml py-h5py/3.7.0_py39

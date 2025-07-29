@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:2
 #SBATCH --time=00:05:00
-#SBATCH --partition=GPU-shared
 
 module use /home/tisaac/opt/modulesfiles
 module load petsc/cse6230-double

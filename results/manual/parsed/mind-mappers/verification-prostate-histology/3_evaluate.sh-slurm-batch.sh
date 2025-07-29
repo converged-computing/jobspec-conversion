@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
-#SBATCH --partition=teaching
 
 toanalyze="att10_unmaskedgood"
 model_name="model"

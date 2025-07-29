@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=expensive-muffin-6043
+#FLUX --job-name=crunchy-leopard-0669
 #FLUX -c=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX --urgency=16
 

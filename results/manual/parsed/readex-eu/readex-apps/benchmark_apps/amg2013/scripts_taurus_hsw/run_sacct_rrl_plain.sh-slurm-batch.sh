@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=2500M
 #SBATCH --time=02:00:00
-#SBATCH --partition=haswell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_NUM_THREADS='12'
 export SCOREP_ENABLE_PROFILING='false'

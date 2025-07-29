@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-lizard-2524
+#FLUX --job-name=faux-chip-6737
 #FLUX -t=86400
 #FLUX --urgency=16
 

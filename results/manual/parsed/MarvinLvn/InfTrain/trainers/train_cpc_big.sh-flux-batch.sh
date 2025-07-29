@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-hobbit-8411
+#FLUX --job-name=red-lentil-6166
 #FLUX -N=8
 #FLUX -t=72000
 #FLUX --urgency=16

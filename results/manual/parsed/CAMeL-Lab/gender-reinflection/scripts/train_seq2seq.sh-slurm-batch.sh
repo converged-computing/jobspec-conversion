@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=100GB
 #SBATCH --time=23:30:00
-#SBATCH --partition=nvidia
 
 export DATA_DIR='data/alhafni'
 

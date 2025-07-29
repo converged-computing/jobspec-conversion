@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=1G
 #SBATCH --time=00:05:30
-#SBATCH --partition=$partition
 
 i=0
 n=50

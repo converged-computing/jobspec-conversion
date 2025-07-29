@@ -4,7 +4,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=4
 #SBATCH --time=04:00:00
-#SBATCH --partition=broadwell
 
 export GROMACSINSTALLDIR='/home/$USER/gromacs-2019.3/install_scorep'
 export GROMACSTESTCASEDIR='/home/$USER/gromacs_testcase'

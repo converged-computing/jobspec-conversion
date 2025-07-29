@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
 #SBATCH --time=10-05:00:00
-#SBATCH --partition=nodes
 
 echo $(pwd)
 module load miniconda/3

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=200G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=coenv
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210714_cvir_gonad_RNAseq_fastp_trimming
 
 threads=40

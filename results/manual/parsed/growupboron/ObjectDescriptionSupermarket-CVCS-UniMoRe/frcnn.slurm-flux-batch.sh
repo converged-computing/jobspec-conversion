@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-lettuce-9039
+#FLUX --job-name=spicy-animal-7245
 #FLUX --queue=all_usr_prod
 #FLUX -t=10800
 #FLUX --urgency=16

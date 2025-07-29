@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-fork-4241
+#FLUX --job-name=moolicious-kerfuffle-6488
 #FLUX -n=4
 #FLUX --queue=mlow,mlow
 #FLUX --urgency=16

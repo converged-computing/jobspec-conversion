@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=4000
 #SBATCH --time=06:00:00
-#SBATCH --partition=CPUQ
 
 RUNAHEAD_DIR="$HOME/gem5-runahead"
 TEST_SCRIPT="$RUNAHEAD_DIR/gem5-extensions/configs/test/test_re.py"

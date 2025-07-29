@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-destiny-9129
+#FLUX --job-name=phat-eagle-6107
 #FLUX -c=8
 #FLUX -t=172800
 #FLUX --urgency=16

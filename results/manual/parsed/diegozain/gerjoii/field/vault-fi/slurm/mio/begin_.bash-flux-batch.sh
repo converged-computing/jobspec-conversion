@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=muffled-banana-5838
+#FLUX --job-name=fat-peanut-butter-0374
 #FLUX -c=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43140
 #FLUX --urgency=16
 

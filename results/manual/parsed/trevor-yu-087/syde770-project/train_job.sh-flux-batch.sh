@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-latke-0637
+#FLUX --job-name=sticky-poo-8566
 #FLUX -c=8
 #FLUX -t=7200
 #FLUX --urgency=16

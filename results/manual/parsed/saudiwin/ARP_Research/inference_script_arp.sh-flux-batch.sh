@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-carrot-7928
+#FLUX --job-name=dirty-lizard-0905
 #FLUX -c=128
 #FLUX -t=259200
 #FLUX --urgency=16

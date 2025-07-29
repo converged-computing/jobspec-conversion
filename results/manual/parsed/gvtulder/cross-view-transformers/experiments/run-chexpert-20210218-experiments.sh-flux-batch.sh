@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-mango-3468
+#FLUX --job-name=grated-citrus-0277
 #FLUX -c=6
 #FLUX --queue=csedu
 #FLUX -t=86400

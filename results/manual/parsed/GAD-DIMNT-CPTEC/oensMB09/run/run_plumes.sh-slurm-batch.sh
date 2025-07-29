@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=${AUX_QUEUE}
 
 export ndacc='5    # número de dias em que a precipitação deverá ser acumulada (maior ou igual a 1)'
 export noutpday='3 # número de semanas a serem consideradas (múltiplo de 3)'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-pancake-3381
+#FLUX --job-name=ornery-pastry-1935
 #FLUX --queue=GPU-shared
 #FLUX -t=36000
 #FLUX --urgency=16

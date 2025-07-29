@@ -8,8 +8,7 @@
 #SBATCH --gres=4
 #SBATCH --mem=96G
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=gpu
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 DATASET=$1
 PARENT_DIR="all_results"

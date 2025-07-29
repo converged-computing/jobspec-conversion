@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-fork-9670
+#FLUX --job-name=bricky-frito-8315
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

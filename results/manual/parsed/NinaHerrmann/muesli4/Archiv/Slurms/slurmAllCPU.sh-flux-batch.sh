@@ -3,7 +3,7 @@
 #FLUX -N=4
 #FLUX -n=4
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX -t=14400
 #FLUX --urgency=16

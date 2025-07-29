@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-gato-6252
+#FLUX --job-name=persnickety-despacito-7576
 #FLUX -n=2
 #FLUX --queue=normal256
 #FLUX -t=600

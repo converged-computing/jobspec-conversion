@@ -7,7 +7,6 @@
 #SBATCH --gres=8
 #SBATCH --mem=4G
 #SBATCH --time=03:00:00
-#SBATCH --partition=standard-g
 #SBATCH --array=1-10
 
 export POCL_CACHE_DIR='${TMPDIR}/kcache'

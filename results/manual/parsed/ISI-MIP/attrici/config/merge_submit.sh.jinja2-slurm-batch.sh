@@ -9,7 +9,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=23:50:00
-#SBATCH --partition=priority
 #SBATCH --qos=priority
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:{{s.conda_path}}/lib/libfabric/libfabric.so'

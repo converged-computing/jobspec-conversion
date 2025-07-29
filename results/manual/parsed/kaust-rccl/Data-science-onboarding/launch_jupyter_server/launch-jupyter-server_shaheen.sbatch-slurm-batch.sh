@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=workq
 
 export LC_ALL='C.UTF-8'
 export LANG='C.UTF-8'

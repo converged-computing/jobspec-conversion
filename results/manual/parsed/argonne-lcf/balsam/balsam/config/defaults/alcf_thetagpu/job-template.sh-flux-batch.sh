@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-itch-9447
+#FLUX --job-name=moolicious-itch-8947
 #FLUX --urgency=16
 

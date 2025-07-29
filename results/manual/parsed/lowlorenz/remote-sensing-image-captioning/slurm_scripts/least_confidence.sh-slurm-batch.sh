@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:1
 #SBATCH --time=16:00:00
-#SBATCH --partition=gpu_short
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/home/users/l/lorenz-08-15/activelearning_ic/
 

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=2G
-#SBATCH --partition=scavenger
 
 export PATH='/hpc/home/cjp47/julia-1.5.2/bin/:$PATH'
 

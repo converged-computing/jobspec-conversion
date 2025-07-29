@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-car-5814
-#FLUX: --exclusive
+#FLUX --job-name=doopy-soup-7676
+#FLUX --exclusive
 #FLUX --queue=lanka-v3
 #FLUX -t=86400
 #FLUX --urgency=16

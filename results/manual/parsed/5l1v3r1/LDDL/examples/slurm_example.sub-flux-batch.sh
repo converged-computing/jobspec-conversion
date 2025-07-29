@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=arid-pedo-4259
-#FLUX: --exclusive
+#FLUX --job-name=expensive-milkshake-8766
+#FLUX --exclusive
 #FLUX --urgency=16
 
 set -eux

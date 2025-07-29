@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12000
 #SBATCH --time=12:00:00
-#SBATCH --partition=EPICALL
 #SBATCH --constraint=ntasks-per-node=1
 
 export PROJECT='CompressedDNN'

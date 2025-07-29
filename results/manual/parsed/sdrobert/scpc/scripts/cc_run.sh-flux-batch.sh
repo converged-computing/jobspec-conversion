@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-leader-5556
+#FLUX --job-name=blank-diablo-4297
 #FLUX -c=16
 #FLUX -t=14400
 #FLUX --urgency=16

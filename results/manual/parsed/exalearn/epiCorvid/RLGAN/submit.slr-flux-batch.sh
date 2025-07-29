@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-blackbean-6913
+#FLUX --job-name=placid-leader-8420
 #FLUX -c=80
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

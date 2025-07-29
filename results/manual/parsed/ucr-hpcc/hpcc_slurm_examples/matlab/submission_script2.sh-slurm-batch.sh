@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=intel
 
 date
 module load matlab/r2018a

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --gres=gpu:4
-#SBATCH --partition=batch_72h
 #SBATCH --constraint=ubuntu18,highcpucount
 #SBATCH --nodelist=gpu47
 

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=service
 
 export PYTHONPATH='/work2/noaa/da/ytang/py39/lib/python3.9/site-packages'
 export __LMOD_REF_COUNT_PYTHONPATH='$PYTHONPATH'

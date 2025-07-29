@@ -6,9 +6,9 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=0
 #SBATCH --time=23:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=A100
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64:/share/apps/cudnn_8_1_0/cuda/lib64'
 

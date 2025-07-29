@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
-#SBATCH --partition=yethiraj
 
 export spack_root='/home/ajay/software/spack'
 export GMX_MAXBACKUP='-1'

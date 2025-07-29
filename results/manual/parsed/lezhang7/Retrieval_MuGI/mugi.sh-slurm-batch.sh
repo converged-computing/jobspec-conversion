@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a100l.3
 #SBATCH --mem=64G
 #SBATCH --time=04:00:00
-#SBATCH --partition=long
 #SBATCH --constraint=ntasks-per-node=1
 
 module load miniconda/3

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-mango-6157
+#FLUX --job-name=chunky-hope-0604
 #FLUX -c=8
 #FLUX --queue=amdgpufast
 #FLUX -t=14400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-train-6627
+#FLUX --job-name=goodbye-poodle-4140
 #FLUX --urgency=16
 
 export _JAVA_OPTIONS='-Xms8g -Xmx10g'

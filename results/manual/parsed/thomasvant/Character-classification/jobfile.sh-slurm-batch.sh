@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:0
 #SBATCH --mem=10000
 #SBATCH --time=04:00:00
-#SBATCH --partition=general
 #SBATCH --qos=short
 #SBATCH --chdir=/home/nfs/tvantussenbroe/NLP_project/Character-classification
 

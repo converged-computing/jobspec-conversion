@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2500M
 #SBATCH --time=00:30:00
-#SBATCH --partition=haswell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SCOREP_FILTERING_FILE='scorep.filt'
 

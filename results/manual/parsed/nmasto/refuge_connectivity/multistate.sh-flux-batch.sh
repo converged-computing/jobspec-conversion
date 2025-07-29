@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-malarkey-9812
+#FLUX --job-name=astute-plant-7049
 #FLUX -c=10
 #FLUX -t=172800
 #FLUX --urgency=16

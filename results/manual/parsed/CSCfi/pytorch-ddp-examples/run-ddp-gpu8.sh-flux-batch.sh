@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-train-7060
+#FLUX --job-name=chocolate-lamp-1849
 #FLUX -N=2
 #FLUX -c=40
 #FLUX --queue=gputest

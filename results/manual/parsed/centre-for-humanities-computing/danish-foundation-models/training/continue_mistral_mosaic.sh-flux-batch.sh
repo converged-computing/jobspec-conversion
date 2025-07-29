@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-poodle-9026
+#FLUX --job-name=expensive-train-7062
 #FLUX -c=56
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard-g
 #FLUX -t=3600
 #FLUX --urgency=16

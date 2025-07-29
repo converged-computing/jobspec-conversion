@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=2000
 #SBATCH --time=00:30:00
-#SBATCH --partition=short
 #SBATCH --qos=short
 #SBATCH --constraint=xeon
 #SBATCH --array=10-31

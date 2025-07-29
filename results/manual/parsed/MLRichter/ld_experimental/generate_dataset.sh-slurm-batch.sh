@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=g40x
 #SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_PROTO='simple'

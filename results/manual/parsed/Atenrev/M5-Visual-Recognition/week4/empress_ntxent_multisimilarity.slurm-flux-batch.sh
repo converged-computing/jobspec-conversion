@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-gato-2539
+#FLUX --job-name=fuzzy-house-8253
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

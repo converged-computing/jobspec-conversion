@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem=1200
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4
 
 export DATASET='$PROJREPO/dataset'

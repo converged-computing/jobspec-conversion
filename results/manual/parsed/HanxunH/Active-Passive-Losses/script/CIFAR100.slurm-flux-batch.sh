@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-poodle-8073
+#FLUX --job-name=stanky-truffle-3629
 #FLUX -c=8
 #FLUX --queue=gpgpu
 #FLUX -t=604800

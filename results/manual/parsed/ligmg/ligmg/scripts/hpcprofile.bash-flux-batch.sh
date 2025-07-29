@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-plant-0071
+#FLUX --job-name=fat-signal-3016
 #FLUX --queue=regular
 #FLUX --urgency=16
 

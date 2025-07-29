@@ -4,8 +4,7 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=large
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=jubail,ntasks-per-node=32
 
 sleep 20

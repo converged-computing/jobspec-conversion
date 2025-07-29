@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=confused-pastry-1742
-#FLUX: --exclusive
+#FLUX --job-name=lovely-cupcake-4721
+#FLUX --exclusive
 #FLUX --queue=solarlab
 #FLUX --urgency=16
 

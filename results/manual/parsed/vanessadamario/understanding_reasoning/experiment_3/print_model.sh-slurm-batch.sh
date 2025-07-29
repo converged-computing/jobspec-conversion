@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=26GB
 #SBATCH --time=00:30:00
-#SBATCH --partition=cbmm
 #SBATCH --array=0
 
 module add openmind/singularity/3.4.1

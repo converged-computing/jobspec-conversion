@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=bloated-itch-3657
+#FLUX --job-name=doopy-cherry-9364
 #FLUX --urgency=16
 

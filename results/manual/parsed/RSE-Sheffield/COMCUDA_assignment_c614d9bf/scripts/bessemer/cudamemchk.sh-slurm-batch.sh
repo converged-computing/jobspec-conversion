@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=1G
 #SBATCH --time=00:10:00
-#SBATCH --partition=dcs-gpu-test
 
 module load CUDAcore/11.1.1
 module load gcccuda/2019b

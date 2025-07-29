@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=60G
 #SBATCH --time=00:05:00
-#SBATCH --partition=priority
 
 module load gcc/9.2.0 bcftools/1.14 conda3 plink2/2.0
 ukbbdir=/n/groups/marks/databases/ukbiobank/ukbb_450k

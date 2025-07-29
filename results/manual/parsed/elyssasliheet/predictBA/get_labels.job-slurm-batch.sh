@@ -7,8 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=256GB
-#SBATCH --partition=standard-s
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load intel/2023.1
 module load mpi

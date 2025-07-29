@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=evasive-mango-2956
+#FLUX --job-name=muffled-peanut-4861
 #FLUX --urgency=16
 

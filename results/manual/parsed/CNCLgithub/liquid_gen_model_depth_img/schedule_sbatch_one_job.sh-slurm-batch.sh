@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=psych_gpu
 
 pwd; hostname; date
 ./run.sh julia src/exp_basic.jl 2/boxwithahole_16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-house-6038
+#FLUX --job-name=frigid-poodle-0903
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/madscort/BERTerpene/queue.pbs

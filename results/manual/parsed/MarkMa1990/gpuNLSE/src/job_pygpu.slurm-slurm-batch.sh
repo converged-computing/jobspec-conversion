@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=2GB
 #SBATCH --time=01:30:00
-#SBATCH --partition=GPU
 #SBATCH --exclude=calcul-gpu-lahc-5
 
 source /home_expes/tools/python/python367_gpu

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-lizard-6881
+#FLUX --job-name=astute-poo-2487
 #FLUX --queue=zhuang,shared
 #FLUX -t=604800
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-signal-4041
+#FLUX --job-name=fuzzy-latke-2871
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jlboat/CP-NAM_2021/scripts/QTL/agronomic/DTH_gc_population.LINE_Leoti.qsub

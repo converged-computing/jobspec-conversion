@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=interact
 
 export TMPDIR='${PWD}'
 export RSTUDIO_AUTH='${TMPDIR}/.config/auth'

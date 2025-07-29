@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=5-20:00:00
-#SBATCH --partition=debug
 
 export PROG='pvserver'
 

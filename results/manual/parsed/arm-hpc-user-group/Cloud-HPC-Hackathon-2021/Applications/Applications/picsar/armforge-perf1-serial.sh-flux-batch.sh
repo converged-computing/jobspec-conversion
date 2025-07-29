@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=PICSAR.ARMFORGE-SERIAL
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c6gn
 #FLUX --urgency=16
 

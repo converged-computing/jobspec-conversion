@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-signal-6664
+#FLUX --job-name=joyous-chip-4673
 #FLUX --queue=konings,owners
 #FLUX -t=72000
 #FLUX --urgency=16

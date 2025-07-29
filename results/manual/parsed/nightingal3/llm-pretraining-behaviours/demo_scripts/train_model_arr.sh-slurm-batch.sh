@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:A6000:4
 #SBATCH --mem=30G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=babel-shared-long
 #SBATCH --array=1-10%3
 
 export CUDA_DEVICE_MAX_CONNECTIONS='1'

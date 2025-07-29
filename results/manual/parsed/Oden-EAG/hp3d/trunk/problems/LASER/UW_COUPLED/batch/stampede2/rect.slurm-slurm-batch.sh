@@ -9,7 +9,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=skx-normal
 
 export KMP_INIT_AT_FORK='FALSE'
 

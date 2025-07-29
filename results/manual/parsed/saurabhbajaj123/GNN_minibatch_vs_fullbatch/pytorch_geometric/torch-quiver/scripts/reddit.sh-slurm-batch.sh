@@ -6,7 +6,6 @@
 #SBATCH --gres=4
 #SBATCH --mem=100G
 #SBATCH --time=00:25:00
-#SBATCH --partition=gpu-preempt
 #SBATCH --constraint=intel8480
 
 cd /work/sbajaj_umass_edu/GNN_minibatch_vs_fullbatch/pytorch_geometric/torch-quiver

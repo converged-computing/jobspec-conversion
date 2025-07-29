@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-diablo-6174
+#FLUX --job-name=eccentric-buttface-0210
 #FLUX --queue=node
 #FLUX -t=604800
 #FLUX --urgency=16

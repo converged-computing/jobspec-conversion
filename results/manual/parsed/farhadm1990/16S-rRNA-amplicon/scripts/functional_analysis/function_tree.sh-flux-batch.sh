@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-parsnip-4188
+#FLUX --job-name=butterscotch-muffin-6055
 #FLUX -n=10
 #FLUX --queue=ghpc
 #FLUX -t=86400

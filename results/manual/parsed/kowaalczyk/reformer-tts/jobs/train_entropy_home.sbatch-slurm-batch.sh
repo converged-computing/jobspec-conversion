@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-23:00:00
-#SBATCH --partition=common
 #SBATCH --qos=2gpu3d
 #SBATCH --constraint=homedir
 

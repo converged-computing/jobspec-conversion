@@ -11,7 +11,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=30G
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=128
 
 export OMP_PROC_BIND='spread'

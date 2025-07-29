@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=100G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=short
 
 to_run=$1
 echo "${to_run}"

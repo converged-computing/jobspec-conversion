@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-nunchucks-7507
+#FLUX --job-name=anxious-general-3846
 #FLUX -c=24
 #FLUX --queue=amdgpuextralong
 #FLUX -t=864000

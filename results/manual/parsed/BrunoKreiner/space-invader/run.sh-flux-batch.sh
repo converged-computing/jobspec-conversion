@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-malarkey-0532
+#FLUX --job-name=hairy-egg-4460
 #FLUX -c=16
 #FLUX --queue=performance
 #FLUX -t=21600

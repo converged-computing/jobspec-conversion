@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-diablo-3222
+#FLUX --job-name=joyous-bicycle-0098
 #FLUX -n=97
 #FLUX --queue=high
 #FLUX -t=252000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-kerfuffle-5680
+#FLUX --job-name=salted-latke-0284
 #FLUX -c=16
 #FLUX --gpus-per-task=1
 #FLUX --queue=gpu-dev

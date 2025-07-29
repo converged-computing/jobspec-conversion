@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=stinky-pastry-7552
+#FLUX --job-name=moolicious-parsnip-9616
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=n1s8-v100-1
 #FLUX -t=43200
 #FLUX --urgency=16

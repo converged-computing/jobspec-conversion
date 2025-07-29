@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-motorcycle-5548
+#FLUX --job-name=cowy-general-6002
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

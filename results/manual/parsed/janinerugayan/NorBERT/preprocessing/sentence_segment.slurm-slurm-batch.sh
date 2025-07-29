@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=8G
 #SBATCH --time=20:00:00
-#SBATCH --partition=accel
 
 set -o errexit # Make bash exit on any error
 set -o nounset # Treat unset variables as errors

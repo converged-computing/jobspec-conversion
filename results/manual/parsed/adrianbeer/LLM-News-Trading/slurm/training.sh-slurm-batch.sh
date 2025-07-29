@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=100000
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpu
 
 module load gcc12-env/12.3.0
 module load miniconda3/23.5.2

@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16384
 #SBATCH --time=06:00:00
-#SBATCH --partition=general
 #SBATCH --qos=medium
 
 /usr/bin/nvidia-smi

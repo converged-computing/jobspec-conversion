@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
 #SBATCH --chdir=./
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export OMP_NUM_THREADS='1;export OMP_PLACES=cores;export OMP_PROC_BIND=close'
 

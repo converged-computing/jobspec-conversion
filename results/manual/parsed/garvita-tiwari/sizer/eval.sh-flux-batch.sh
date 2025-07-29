@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-egg-0597
+#FLUX --job-name=muffled-staircase-2092
 #FLUX --queue=gpu20
 #FLUX -t=86400
 #FLUX --urgency=16

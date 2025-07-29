@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-muffin-4700
+#FLUX --job-name=angry-chair-5812
 #FLUX -N=4
 #FLUX -c=16
 #FLUX --queue=hpib

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=mf_nes2.8
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --array=8
 

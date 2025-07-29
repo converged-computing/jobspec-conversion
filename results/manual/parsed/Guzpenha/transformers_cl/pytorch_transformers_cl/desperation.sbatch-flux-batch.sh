@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-hope-9741
+#FLUX --job-name=milky-spoon-0409
 #FLUX --queue=general
 #FLUX -t=36000
 #FLUX --urgency=16

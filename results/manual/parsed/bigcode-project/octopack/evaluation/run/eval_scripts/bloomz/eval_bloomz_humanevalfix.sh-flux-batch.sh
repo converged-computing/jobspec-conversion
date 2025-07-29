@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-pancake-6194
-#FLUX: --exclusive
+#FLUX --job-name=dinosaur-platanos-3515
+#FLUX --exclusive
 #FLUX --queue=small-g
 #FLUX -t=172800
 #FLUX --urgency=16

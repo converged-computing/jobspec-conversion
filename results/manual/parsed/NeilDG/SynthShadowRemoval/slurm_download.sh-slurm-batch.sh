@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=serial
 #SBATCH --qos=84c-1d_serial
 
 SERVER_CONFIG=$1

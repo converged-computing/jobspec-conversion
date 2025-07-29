@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-poodle-0484
+#FLUX --job-name=expressive-rabbit-4206
 #FLUX --queue=amdgpu
 #FLUX -t=86400
 #FLUX --urgency=16

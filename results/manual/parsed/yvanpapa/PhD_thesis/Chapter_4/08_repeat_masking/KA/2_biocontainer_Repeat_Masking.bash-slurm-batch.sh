@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=48
 #SBATCH --mem=256G
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=bigmem
 
 threads=48
 module load singularity/3.5.2

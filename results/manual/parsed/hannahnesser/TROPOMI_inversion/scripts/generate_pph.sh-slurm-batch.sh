@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=45000
 #SBATCH --time=00:01:00
-#SBATCH --partition=huce_cascade
 
 CHUNK="${SLURM_ARRAY_TASK_ID}"
 SUFFIX=${11}

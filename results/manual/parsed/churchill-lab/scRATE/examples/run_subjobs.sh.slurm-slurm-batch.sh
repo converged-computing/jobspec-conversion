@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16gb
 #SBATCH --time=23:59:59
-#SBATCH --partition=compute
 #SBATCH --qos=batch
 #SBATCH --array=1-6
 

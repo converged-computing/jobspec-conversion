@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=evasive-ricecake-5207
-#FLUX: --exclusive
+#FLUX --job-name=spicy-buttface-5556
+#FLUX --exclusive
 #FLUX --queue=fpgasyn
 #FLUX --urgency=16
 

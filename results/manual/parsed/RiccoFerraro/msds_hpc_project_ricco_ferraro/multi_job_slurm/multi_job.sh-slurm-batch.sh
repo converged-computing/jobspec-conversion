@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6G
-#SBATCH --partition=development
 #SBATCH --array=1-2
 
 cmd=$(cat <<-END

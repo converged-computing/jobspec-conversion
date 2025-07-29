@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:30:00
-#SBATCH --partition=regular
 
 export OMP_NUM_THREADS='${node_thread}'
 export OMP_PLACES='threads'

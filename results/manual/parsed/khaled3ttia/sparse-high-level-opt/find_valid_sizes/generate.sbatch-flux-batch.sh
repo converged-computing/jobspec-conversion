@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=dask_single_node
 #FLUX -n=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=disc
 #FLUX -t=3600
 #FLUX --urgency=16

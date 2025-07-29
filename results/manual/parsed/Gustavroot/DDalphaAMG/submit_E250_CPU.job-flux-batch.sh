@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-peanut-7060
+#FLUX --job-name=tart-caramel-2745
 #FLUX -N=72
 #FLUX --queue=batch
 #FLUX -t=3540

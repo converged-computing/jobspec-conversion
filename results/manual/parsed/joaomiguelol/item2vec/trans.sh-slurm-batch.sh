@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=20G
 #SBATCH --time=16-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --nodelist=hpc03
 
 module list

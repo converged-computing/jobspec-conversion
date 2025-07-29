@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=200gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=high_priority
 #SBATCH --array=[4]%1
 
 export SINGULARITY_CACHEDIR='`pwd`/outputs/cache/.singularity/cache '

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-itch-4203
+#FLUX --job-name=ornery-staircase-8847
 #FLUX -n=28
 #FLUX -t=3000
 #FLUX --urgency=16

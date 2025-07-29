@@ -6,7 +6,7 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=BDW28
 
 export MONORUN='Mpirun -prepend-rank -np 1 '

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=6-06:00:00
-#SBATCH --partition=amd-hdr100
 #SBATCH --array=0-23
 
 module load BCFtools/1.12-GCC-10.2.0

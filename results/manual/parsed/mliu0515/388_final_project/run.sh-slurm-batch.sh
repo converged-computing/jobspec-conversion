@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu-a100-small
 
 cd /work/07016/cw38637/ls6/nlp/
 module load cuda/12.2

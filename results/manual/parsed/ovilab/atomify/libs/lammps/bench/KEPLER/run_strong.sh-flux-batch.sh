@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-frito-3398
+#FLUX --job-name=loopy-blackbean-5375
 #FLUX -N=16
 #FLUX -t=43200
 #FLUX --urgency=16

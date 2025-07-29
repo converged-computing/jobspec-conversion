@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-arm-6994
+#FLUX --job-name=dirty-diablo-7778
 #FLUX --urgency=16
 
 usage ()

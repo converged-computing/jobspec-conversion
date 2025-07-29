@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=short
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export MKL_ENABLE_INSTRUCTIONS='AVX2'

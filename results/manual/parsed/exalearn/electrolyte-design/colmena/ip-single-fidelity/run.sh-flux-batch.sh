@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-hippo-7918
+#FLUX --job-name=red-arm-1130
 #FLUX --urgency=16
 

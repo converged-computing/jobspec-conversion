@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-poo-7808
+#FLUX --job-name=expensive-banana-8878
 #FLUX --queue=batch
 #FLUX --urgency=16
 

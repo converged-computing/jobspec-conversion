@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=1vcpu
 
 source /u/couasnon/miniconda3/bin/activate hydromt-wflow
 conda config --set channel_priority strict

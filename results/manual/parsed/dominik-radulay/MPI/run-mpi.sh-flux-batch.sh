@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-platanos-5243
+#FLUX --job-name=adorable-noodle-8353
 #FLUX --queue=course
 #FLUX -t=120
 #FLUX --urgency=16

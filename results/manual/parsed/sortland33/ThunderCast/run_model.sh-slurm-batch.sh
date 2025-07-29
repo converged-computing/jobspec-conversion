@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:2
 #SBATCH --time=23:50:00
-#SBATCH --partition=salvador
 #SBATCH --constraint=ntasks-per-node=2
 
 nvidia-smi

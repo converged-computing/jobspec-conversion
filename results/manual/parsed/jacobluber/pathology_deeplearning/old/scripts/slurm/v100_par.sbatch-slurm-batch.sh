@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100x:4
 #SBATCH --mem=100gb
 #SBATCH --time=00:20:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=gpuv100x,ntasks-per-node=4
 
 export NCCL_DEBUG='INFO'

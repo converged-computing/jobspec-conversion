@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=500mb
 #SBATCH --time=01:00:00
-#SBATCH --partition=mf_ilg2.3
 #SBATCH --array=1-250%1
 
 export PATH='$PATH:/beegfs/DATA/mobley/limvt/local/vmd'

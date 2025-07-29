@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-leg-2021
+#FLUX --job-name=confused-milkshake-0415
 #FLUX -c=32
 #FLUX --queue=regular
 #FLUX -t=36000

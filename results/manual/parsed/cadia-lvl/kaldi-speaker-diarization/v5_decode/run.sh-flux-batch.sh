@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-spoon-3454
+#FLUX --job-name=lovable-muffin-3863
 #FLUX --urgency=16
 
 stage=0

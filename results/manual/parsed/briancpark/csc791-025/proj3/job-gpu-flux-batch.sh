@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-earthworm-2224
+#FLUX --job-name=tart-hippo-1298
 #FLUX --queue=rome
 #FLUX -t=86400
 #FLUX --urgency=16

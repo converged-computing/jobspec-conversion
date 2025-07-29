@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4G
 #SBATCH --time=08:00:00
-#SBATCH --partition=eagle
 
 export OMP_NUM_THREADS='6'
 export OMP_PROC_BIND='spread'

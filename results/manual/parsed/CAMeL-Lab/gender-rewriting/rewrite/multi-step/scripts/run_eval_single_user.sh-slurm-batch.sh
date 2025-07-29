@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=10GB
 #SBATCH --time=11:30:00
-#SBATCH --partition=nlp
 
 export EXPERIMENT='CorpusR_MorphR_NeuralR_test'
 export SYSTEM_HYP='/home/ba63/gender-rewriting/rewrite/multi-step/logs/single_user/rewriting/$EXPERIMENT'

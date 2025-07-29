@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:3
 #SBATCH --mem=6000
 #SBATCH --time=06:00:00
-#SBATCH --partition=seas_gpu
 
 set -x
 module load Anaconda3/2020.11

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-bits-2335
+#FLUX --job-name=stanky-sundae-6878
 #FLUX -N=2
 #FLUX -n=2
 #FLUX --queue=v100_full_node

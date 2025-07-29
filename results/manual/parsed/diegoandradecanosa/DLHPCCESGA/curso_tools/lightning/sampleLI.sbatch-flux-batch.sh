@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-soup-6856
+#FLUX --job-name=bumfuzzled-cherry-0024
 #FLUX -N=2
 #FLUX -c=32
 #FLUX -t=3540

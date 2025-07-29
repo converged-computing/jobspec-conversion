@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16000
 #SBATCH --time=03:00:00
-#SBATCH --partition=bigmem2
 #SBATCH --constraint=ntasks-per-node=8
 
 module load python/cpython-3.7.0

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:nvidia_a100_3g.39gb:2
 #SBATCH --mem=4G
 #SBATCH --time=10:00:00
-#SBATCH --partition=peregrine-gpu
 #SBATCH --qos=gpu_short
 #SBATCH --constraint=ntasks-per-node=2
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-general-8055
+#FLUX --job-name=frigid-despacito-9346
 #FLUX -c=12
 #FLUX --queue=thinkstation-p360
 #FLUX --urgency=16

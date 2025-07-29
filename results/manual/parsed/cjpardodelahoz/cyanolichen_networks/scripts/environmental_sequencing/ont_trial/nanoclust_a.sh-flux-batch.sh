@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-peas-1812
+#FLUX --job-name=dinosaur-pastry-1499
 #FLUX -c=32
 #FLUX --queue=scavenger
 #FLUX --urgency=16

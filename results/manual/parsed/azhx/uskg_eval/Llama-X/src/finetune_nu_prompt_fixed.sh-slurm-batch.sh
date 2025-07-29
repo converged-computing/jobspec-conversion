@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:4
 #SBATCH --mem=200G
-#SBATCH --partition=a100
 #SBATCH --qos=a100_wenhuchen
 #SBATCH --nodelist=gpu185
 

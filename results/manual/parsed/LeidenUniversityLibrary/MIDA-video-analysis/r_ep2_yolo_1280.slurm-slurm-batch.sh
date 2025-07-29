@@ -10,7 +10,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=15G
 #SBATCH --time=01:30:00
-#SBATCH --partition=gpu-short
 
 export CWD='$(pwd)'
 export RUNDIR='$SCRATCH/yolov5'

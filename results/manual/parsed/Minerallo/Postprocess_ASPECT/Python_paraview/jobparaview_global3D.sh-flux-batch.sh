@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-cupcake-8308
+#FLUX --job-name=hello-train-8753
 #FLUX --urgency=16
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=90000
 #SBATCH --time=00:02:00
-#SBATCH --partition=REQUESTED_PARTITION
 
 itRoot=$(cd ..; pwd)
 . "${itRoot}/scripts/commonFunctionsForTests.sh"

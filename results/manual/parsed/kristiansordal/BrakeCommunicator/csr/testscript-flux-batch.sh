@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-cherry-1137
+#FLUX --job-name=stinky-avocado-1382
 #FLUX --queue=defq
 #FLUX -t=240
 #FLUX --urgency=16

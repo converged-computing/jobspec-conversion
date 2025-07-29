@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=tart-arm-3911
+#FLUX --job-name=rainbow-plant-5173
 #FLUX -n=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-carrot-5909
+#FLUX --job-name=frigid-caramel-0813
 #FLUX -c=48
 #FLUX --queue=huce_cascade
 #FLUX -t=1036800

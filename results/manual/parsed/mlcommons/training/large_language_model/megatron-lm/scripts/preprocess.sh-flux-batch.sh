@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=stanky-spoon-7648
-#FLUX: --exclusive
+#FLUX --job-name=swampy-house-3638
+#FLUX --exclusive
 #FLUX --urgency=16
 
 C4_PATH=$1

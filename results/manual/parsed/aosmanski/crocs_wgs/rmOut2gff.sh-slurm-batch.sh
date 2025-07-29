@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
-#SBATCH --partition=nocona
 #SBATCH --array=1-20
 
 module load gcc/10.1.0 bedtools2/2.29.2

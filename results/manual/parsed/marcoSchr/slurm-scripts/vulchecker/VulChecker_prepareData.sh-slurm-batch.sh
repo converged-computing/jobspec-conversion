@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
-#SBATCH --partition=gpu-tk
 
 export PATH='/ukp-storage-1/schroeder_e/ninja:$PATH'
 

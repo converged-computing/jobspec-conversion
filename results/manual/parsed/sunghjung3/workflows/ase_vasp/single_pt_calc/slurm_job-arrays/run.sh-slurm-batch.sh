@@ -6,8 +6,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=48
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=amd
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --array=0-19
 
 export ASE_VASP_COMMAND='mpirun -np $SLURM_NTASKS vasp_std'

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=a100:1
-#SBATCH --partition=ampere
 
 nvidia-smi
 source /sdf/group/lcls/ds/ana/sw/conda1/manage/bin/psconda.sh

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:rtx8000:1
 #SBATCH --mem=48G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=long
 
 MODEL=(cifar_vgg_16_64 cifar_resnet_20_64)
 DATASET=(svhn cifar100)

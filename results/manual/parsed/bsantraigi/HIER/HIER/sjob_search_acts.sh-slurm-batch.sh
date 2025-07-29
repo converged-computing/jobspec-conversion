@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=23000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 export CUDA_VISIBLE_DEVICES='0,1'
 

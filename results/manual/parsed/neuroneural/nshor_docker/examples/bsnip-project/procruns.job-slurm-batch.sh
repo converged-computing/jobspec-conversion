@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64g
 #SBATCH --time=20:00:00
-#SBATCH --partition=qTRD
 
 sleep 5s
 module load singularity/3.10.2

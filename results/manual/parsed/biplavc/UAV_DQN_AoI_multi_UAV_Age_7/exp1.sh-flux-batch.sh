@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-destiny-1793
+#FLUX --job-name=cowy-mango-9882
 #FLUX --queue=v100_normal_q
 #FLUX -t=54000
 #FLUX --urgency=16

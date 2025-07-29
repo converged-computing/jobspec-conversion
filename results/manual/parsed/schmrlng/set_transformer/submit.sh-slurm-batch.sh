@@ -5,7 +5,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=2G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1-5
 
 module load python/3.9.0 cuda/11.2.0 cudnn/8.1.1.33

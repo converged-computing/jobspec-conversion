@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-destiny-8740
+#FLUX --job-name=salted-buttface-5519
 #FLUX -N=3
 #FLUX -n=24
 #FLUX --queue=west

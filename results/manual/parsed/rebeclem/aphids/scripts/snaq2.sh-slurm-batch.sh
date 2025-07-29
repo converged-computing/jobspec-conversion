@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=31
 #SBATCH --time=21-00:00:00
-#SBATCH --partition=long
 #SBATCH --array=0-10
 
 t1=$(date +"%s")

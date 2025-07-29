@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --gpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=amdrome
 #SBATCH --nodelist=amd1
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK}'

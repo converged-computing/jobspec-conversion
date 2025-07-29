@@ -7,7 +7,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=12
 #SBATCH --time=03:00:00
-#SBATCH --partition=memory
 
 module load easybuild
 module load icc/2017.1.132-GCC-6.3.0-2.27

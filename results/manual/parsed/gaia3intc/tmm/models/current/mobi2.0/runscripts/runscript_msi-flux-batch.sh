@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-eagle-3101
+#FLUX --job-name=conspicuous-signal-9449
 #FLUX -N=2
 #FLUX --queue=small
 #FLUX -t=28800

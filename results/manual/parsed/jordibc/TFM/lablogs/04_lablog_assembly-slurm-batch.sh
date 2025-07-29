@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=15
 #SBATCH --mem=150GB
 #SBATCH --time=4-03:00:00
-#SBATCH --partition=bigmem,long
 #SBATCH --array=0-116
 
 ml SPAdes/3.15.2-GCC-8.2.0-2.31.1

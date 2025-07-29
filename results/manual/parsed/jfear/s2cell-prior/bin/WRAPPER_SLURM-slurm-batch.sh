@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=norm
 
 if [[ ! -e logs ]]; then mkdir -p logs; fi
 (source activate s2rnai; \

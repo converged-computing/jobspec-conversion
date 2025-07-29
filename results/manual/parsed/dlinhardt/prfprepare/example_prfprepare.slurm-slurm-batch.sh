@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=24000
 #SBATCH --time=01:00:00
-#SBATCH --partition=regular
 
 export SINGULARITYENV_FS_LICENSE='/flywheel/v0/BIDS/.freesurfer.txt'
 

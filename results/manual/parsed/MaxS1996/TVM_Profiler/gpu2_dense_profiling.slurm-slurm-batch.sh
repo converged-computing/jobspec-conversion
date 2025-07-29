@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=3000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu2
 
 export TVM_HOME='/home/s0144002/tvm_gpu2_power'
 export PYTHONPATH='$TVM_HOME/python:${PYTHONPATH}'

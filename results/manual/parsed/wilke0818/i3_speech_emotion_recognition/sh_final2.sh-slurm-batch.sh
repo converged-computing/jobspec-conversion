@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem-per-cpu=240GB
 #SBATCH --time=6-06:00:00
-#SBATCH --partition=gablab
 #SBATCH --array=7-11
 #SBATCH --exclude=node[100-106,110]
 

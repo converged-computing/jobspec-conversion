@@ -8,7 +8,6 @@
 #SBATCH --gres=80
 #SBATCH --mem-per-cpu=60gb
 #SBATCH --time=00:05:00
-#SBATCH --partition=hpg-ai
 #SBATCH --qos=nvidia-ai
 #SBATCH --constraint=ntasks-per-node=8
 

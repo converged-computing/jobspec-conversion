@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-lamp-7991
+#FLUX --job-name=bricky-pancake-9838
 #FLUX --urgency=16
 

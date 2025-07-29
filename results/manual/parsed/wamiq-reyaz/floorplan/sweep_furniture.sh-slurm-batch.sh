@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem=24G
 #SBATCH --time=10:00:00
-#SBATCH --partition=batch
 #SBATCH --qos=conf-iccv-2021.03.25
 #SBATCH --array=0-20
 

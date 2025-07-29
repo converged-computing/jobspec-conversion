@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-leg-1733
+#FLUX --job-name=faux-cat-9429
 #FLUX -N=4
 #FLUX -n=16
 #FLUX --queue=normal

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=64G
 #SBATCH --time=23:59:59
-#SBATCH --partition=gpu
 
 module purge
 module load fosscuda/2020b

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-butter-4064
+#FLUX --job-name=astute-signal-9886
 #FLUX -c=24
 #FLUX --queue=small
 #FLUX -t=259200

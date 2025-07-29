@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-mango-5847
+#FLUX --job-name=carnivorous-lemur-5253
 #FLUX -c=4
 #FLUX --queue=gpu_7d1g
 #FLUX --urgency=16

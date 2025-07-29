@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=8G
 #SBATCH --time=08:00:00
-#SBATCH --partition=haswell
 #SBATCH --constraint=ntasks-per-node=1
 
 module load Nextflow

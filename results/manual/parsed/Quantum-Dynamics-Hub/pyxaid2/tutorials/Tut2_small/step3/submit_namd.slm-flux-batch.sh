@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-arm-1682
+#FLUX --job-name=blank-hippo-1300
 #FLUX --queue=valhalla
 #FLUX -t=600
 #FLUX --urgency=16

@@ -3,9 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=haswell
-#SBATCH --licenses=SCRATCH,project
 
 export LEGACYPIPE_DIR='/src/legacypipe'
 export SDSSDIR='/global/cfs/cdirs/sdss/data/sdss/'

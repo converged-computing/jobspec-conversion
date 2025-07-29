@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
 #SBATCH --time=12:00:00
-#SBATCH --partition=psych_gpu
 #SBATCH --array=0-0
 
 pwd; hostname; date

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=a100
 #SBATCH --constraint=a100_80
 
 export http_proxy='http://proxy.rrze.uni-erlangen.de:80'

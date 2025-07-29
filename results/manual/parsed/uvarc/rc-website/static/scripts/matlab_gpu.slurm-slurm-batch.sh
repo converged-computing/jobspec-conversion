@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=60000
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4
 
 echo 'slurm allocates gpus ' $CUDA_VISIBLE_DEVICES

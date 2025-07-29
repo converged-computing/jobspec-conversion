@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:a100:2
 #SBATCH --mem=80G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=public
 
 echo_time() {
 	echo "Timestamp: [$(/bin/date '+%Y-%m-%d %H:%M:%S')]......................................................$1"

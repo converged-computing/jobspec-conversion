@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-onion-4460
+#FLUX --job-name=blank-cinnamonbun-6984
 #FLUX --queue=gpgpuC
 #FLUX --urgency=16
 

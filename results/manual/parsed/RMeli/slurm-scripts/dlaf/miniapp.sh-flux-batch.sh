@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-knife-4527
+#FLUX --job-name=carnivorous-poo-1590
 #FLUX -N=4
 #FLUX --queue=nvgpu
 #FLUX --urgency=16

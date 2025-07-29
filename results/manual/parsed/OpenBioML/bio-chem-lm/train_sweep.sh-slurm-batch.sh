@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=g40n404
 
 export NCCL_PROTO='simple'
 export FI_EFA_FORK_SAFE='1'

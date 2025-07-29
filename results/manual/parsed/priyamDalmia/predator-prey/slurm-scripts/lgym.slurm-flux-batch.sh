@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-lemur-6509
+#FLUX --job-name=ornery-staircase-2159
 #FLUX --queue=longgpgpu
 #FLUX -t=2592000
 #FLUX --urgency=16

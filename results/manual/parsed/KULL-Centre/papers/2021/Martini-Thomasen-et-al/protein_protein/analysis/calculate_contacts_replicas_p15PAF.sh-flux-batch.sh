@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-earthworm-3602
+#FLUX --job-name=doopy-ricecake-0355
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/KULL-Centre/papers/2021/Martini-Thomasen-et-al/protein_protein/analysis/calculate_contacts_replicas_p15PAF.sh

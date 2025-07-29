@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=9
 #SBATCH --gres=gpu:H100.80gb:1
-#SBATCH --partition=klab-gpu
 
 echo "running in shell: " "$SHELL"
 spack load cuda@11.8.0

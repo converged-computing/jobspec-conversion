@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a40:1
 #SBATCH --mem=50g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 export TRANSFORMERS_CACHE='${root}/pretrain_models/huggingface'
 export HF_DATASETS_CACHE='${root}/pretrain_models/huggingface'

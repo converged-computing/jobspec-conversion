@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-lemon-5682
+#FLUX --job-name=chunky-poo-1466
 #FLUX --queue=devel
 #FLUX -t=900
 #FLUX --urgency=16

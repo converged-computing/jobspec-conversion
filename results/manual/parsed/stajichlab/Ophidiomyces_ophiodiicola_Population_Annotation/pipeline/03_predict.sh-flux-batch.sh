@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-hippo-2643
+#FLUX --job-name=fugly-despacito-3220
 #FLUX -n=24
 #FLUX --queue=intel,batch
 #FLUX -t=259200

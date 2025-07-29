@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:30:00
-#SBATCH --partition=batch
 
 export FI_MR_CACHE_MONITOR='memhooks  # alternative cache monitor'
 export ROCFFT_RTC_CACHE_PATH='/dev/null'

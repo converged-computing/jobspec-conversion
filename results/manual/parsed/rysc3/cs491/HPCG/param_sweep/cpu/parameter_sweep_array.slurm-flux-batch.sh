@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=HPCG_cpu
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=general
 #FLUX --urgency=16
 

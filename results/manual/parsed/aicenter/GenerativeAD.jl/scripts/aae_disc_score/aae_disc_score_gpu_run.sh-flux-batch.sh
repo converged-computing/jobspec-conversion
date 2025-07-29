@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-sundae-9855
+#FLUX --job-name=placid-lamp-4485
 #FLUX -c=2
 #FLUX --queue=gpu
 #FLUX -t=86400

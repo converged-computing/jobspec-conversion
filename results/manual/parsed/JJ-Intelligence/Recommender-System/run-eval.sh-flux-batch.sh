@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-animal-1853
+#FLUX --job-name=chocolate-house-6158
 #FLUX --queue=lycium
 #FLUX -t=86400
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-signal-0194
+#FLUX --job-name=phat-hope-6178
 #FLUX -t=18000
 #FLUX --urgency=16
 

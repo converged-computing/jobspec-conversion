@@ -9,8 +9,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu2080
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 cd /home/k/kuchen/Muesli2

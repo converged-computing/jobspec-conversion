@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=32GB
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=K80
 
 nvidia-smi

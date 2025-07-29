@@ -6,8 +6,7 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-#SBATCH --partition=Pretrain-Experiment
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export LOGLEVEL='INFO'
 

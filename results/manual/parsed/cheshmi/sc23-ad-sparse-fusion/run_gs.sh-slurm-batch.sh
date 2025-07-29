@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=11:00:05
-#SBATCH --partition=skx-normal
 
 export OMP_NUM_THREADS='20'
 

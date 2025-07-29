@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-onion-5319
+#FLUX --job-name=bricky-nunchucks-1436
 #FLUX -c=8
 #FLUX --queue=standard
 #FLUX -t=36000

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=arid-train-2910
-#FLUX: --exclusive
+#FLUX --job-name=carnivorous-cupcake-0015
+#FLUX --exclusive
 #FLUX --queue=gpu-shared
 #FLUX -t=1800
 #FLUX --urgency=16

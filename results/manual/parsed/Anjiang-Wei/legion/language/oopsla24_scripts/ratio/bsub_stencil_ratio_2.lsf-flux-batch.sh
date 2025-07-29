@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-gato-2731
+#FLUX --job-name=frigid-leg-5554
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Anjiang-Wei/legion/language/oopsla24_scripts/ratio/bsub_stencil_ratio_2.lsf

@@ -4,8 +4,7 @@
 #SBATCH --nodes=16
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
-#SBATCH --partition=g40
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --exclude=ip-26-0-134-66,ip-26-0-140-150,ip-26-0-131-89,ip-26-0-133-67
 

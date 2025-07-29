@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=swampy-chip-5594
+#FLUX --job-name=carnivorous-punk-9655
 #FLUX -c=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=romeo
 #FLUX -t=28800
 #FLUX --urgency=16

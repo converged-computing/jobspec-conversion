@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 module load python/3.6.3

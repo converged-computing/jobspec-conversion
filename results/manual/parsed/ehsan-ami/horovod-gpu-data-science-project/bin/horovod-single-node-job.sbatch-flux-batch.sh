@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-hope-8114
+#FLUX --job-name=sticky-chip-0043
 #FLUX --gpus-per-task=1
 #FLUX --queue=batch
 #FLUX -t=86400

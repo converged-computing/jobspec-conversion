@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu
 #SBATCH --time=05:00:00
-#SBATCH --partition=ug-gpu-small
 #SBATCH --qos=short
 
 source /etc/profile

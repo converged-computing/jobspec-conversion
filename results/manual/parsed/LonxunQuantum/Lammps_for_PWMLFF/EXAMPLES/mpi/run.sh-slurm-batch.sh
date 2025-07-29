@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=cpu
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --nodelist=cn2
 

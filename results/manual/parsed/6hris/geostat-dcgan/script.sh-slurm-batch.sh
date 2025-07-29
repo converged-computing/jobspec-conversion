@@ -9,7 +9,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=200GB
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 
 export NCCL_P2P_DISABLE='1'
 

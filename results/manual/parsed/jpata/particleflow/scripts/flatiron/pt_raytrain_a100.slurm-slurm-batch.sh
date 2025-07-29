@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --gpus-per-task=4
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=a100-80gb,ib
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

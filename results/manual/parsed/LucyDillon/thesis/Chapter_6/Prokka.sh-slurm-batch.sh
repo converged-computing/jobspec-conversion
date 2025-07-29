@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-23:59:59
-#SBATCH --partition=bio-compute,lowpri
 #SBATCH --array=1-96%100
 
 cd /mnt/scratch2/users/40309916/E_coli_genomes/genomes/prokka_analysis

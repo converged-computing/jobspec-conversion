@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:30:00
-#SBATCH --partition=orion
 #SBATCH --constraint=ntasks-per-node=40
 
 export NODES='$SLURM_NNODES'

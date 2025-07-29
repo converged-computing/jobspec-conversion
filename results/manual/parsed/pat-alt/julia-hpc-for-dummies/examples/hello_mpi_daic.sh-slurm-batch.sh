@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1024
 #SBATCH --time=00:01:00
-#SBATCH --partition=general
 #SBATCH --qos=short
 
 module use /opt/insy/modulefiles          # Use DAIC INSY software collection

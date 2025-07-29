@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=V4V32_SKY32M192_L
 
 module purge
 module load intel/19.0.4.243

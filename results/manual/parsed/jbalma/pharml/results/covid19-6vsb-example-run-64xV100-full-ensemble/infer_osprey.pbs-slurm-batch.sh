@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=bdw18
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export PATH='/home/users/${USER}/.local/bin:${PATH}'
 export PYTHONUSERBASE='/home/users/${USER}/.local'

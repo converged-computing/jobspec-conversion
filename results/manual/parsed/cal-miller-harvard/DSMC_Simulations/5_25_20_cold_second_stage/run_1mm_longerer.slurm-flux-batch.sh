@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-peas-6733
+#FLUX --job-name=expressive-lizard-6088
 #FLUX -n=16
 #FLUX --queue=shared
 #FLUX -t=480

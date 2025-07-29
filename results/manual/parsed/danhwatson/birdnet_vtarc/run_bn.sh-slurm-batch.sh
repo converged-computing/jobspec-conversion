@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-22:00:00
-#SBATCH --partition=t4_normal_q
 
 export OMPI_MCA_mpi_warn_on_fork='0 '
 export OMPI_MCA_btl_openib_if_exclude='mlx5_1 '

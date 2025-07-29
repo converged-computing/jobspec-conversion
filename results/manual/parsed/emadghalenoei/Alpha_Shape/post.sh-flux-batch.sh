@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-lentil-5514
+#FLUX --job-name=psycho-pot-4916
 #FLUX --queue=geo
 #FLUX -t=432000
 #FLUX --urgency=16

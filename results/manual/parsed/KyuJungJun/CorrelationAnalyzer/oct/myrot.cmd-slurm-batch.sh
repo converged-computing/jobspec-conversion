@@ -9,7 +9,6 @@
 #SBATCH --ntasks=128
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=wholenode
 
 export I_MPI_FABRICS='shm'
 export OMP_NUM_THREADS='1'

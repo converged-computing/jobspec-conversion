@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-kitty-3402
+#FLUX --job-name=creamy-snack-5060
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gcongiu/E10/benchmark/IOR-2.10.2/scripts/run_script.linux

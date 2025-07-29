@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-pedo-1458
+#FLUX --job-name=goodbye-pedo-2558
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX -t=72000

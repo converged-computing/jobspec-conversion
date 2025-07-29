@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-diablo-6828
+#FLUX --job-name=confused-squidward-1793
 #FLUX --queue=nvidia
 #FLUX -t=144000
 #FLUX --urgency=16

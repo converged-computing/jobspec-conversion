@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-cat-7759
+#FLUX --job-name=goodbye-staircase-8161
 #FLUX -n=8
 #FLUX -c=4
 #FLUX -t=900

@@ -5,7 +5,6 @@
 #SBATCH --nodes=3
 #SBATCH --ntasks=9
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=debug
 #SBATCH --constraint=ntasks-per-node=3
 
 export OMP_NUM_THREADS='1'

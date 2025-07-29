@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-fork-6558
+#FLUX --job-name=delicious-destiny-7507
 #FLUX -c=8
 #FLUX --urgency=16
 

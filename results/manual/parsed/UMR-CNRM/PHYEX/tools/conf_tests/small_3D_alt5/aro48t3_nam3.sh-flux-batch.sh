@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-destiny-0933
+#FLUX --job-name=crusty-toaster-8258
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

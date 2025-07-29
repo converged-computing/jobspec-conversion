@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-lettuce-0381
+#FLUX --job-name=milky-plant-4086
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

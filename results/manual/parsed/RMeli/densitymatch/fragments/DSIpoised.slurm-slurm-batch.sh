@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:05:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=0-859
 

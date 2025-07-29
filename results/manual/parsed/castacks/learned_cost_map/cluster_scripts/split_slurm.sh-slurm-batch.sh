@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8192
 #SBATCH --time=00:01:00
-#SBATCH --partition=gpu
 
 EXE=/bin/bash
 WORKING_DIR=/data/datasets/mguamanc/learned_cost_map/cluster_scripts

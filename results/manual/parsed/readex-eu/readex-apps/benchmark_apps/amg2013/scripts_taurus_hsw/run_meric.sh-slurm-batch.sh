@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=2500M
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=haswell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=2
 
 export MERIC_MODE='2'

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=7gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=AMG
 
 export OMP_NUM_THREADS='${SLURM_CPUS_PER_TASK:-1}'
 export LAMMPS_POTENTIALS='~/lammps/_res'

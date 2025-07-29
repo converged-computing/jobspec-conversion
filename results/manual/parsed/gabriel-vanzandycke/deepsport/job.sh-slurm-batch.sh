@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
-#SBATCH --partition=gpu
 #SBATCH --exclude=mb-mil102,mb-rom101,mb-rom102,mb-rom103
 
 workers=0

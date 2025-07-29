@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-gato-6473
+#FLUX --job-name=swampy-staircase-5697
 #FLUX --queue=priority
 #FLUX -t=900
 #FLUX --urgency=16

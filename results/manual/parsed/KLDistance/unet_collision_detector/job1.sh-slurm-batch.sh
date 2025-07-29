@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=24G
 #SBATCH --time=02:10:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 python training.py

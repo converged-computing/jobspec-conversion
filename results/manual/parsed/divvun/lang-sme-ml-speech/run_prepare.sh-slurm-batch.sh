@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=512M
 #SBATCH --time=00:05:00
-#SBATCH --partition=accel
 
 set -o errexit  # Exit the script on any error
 set -o nounset  # Treat any unset variables as an error

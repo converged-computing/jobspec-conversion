@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=shared
 #SBATCH --qos=shared
 #SBATCH --chdir=/mnt/lustre/scratch/home/uvi/be/mef/data/
 

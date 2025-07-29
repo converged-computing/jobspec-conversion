@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-arm-5128
+#FLUX --job-name=wobbly-pastry-0240
 #FLUX -c=32
 #FLUX --queue=gpu
 #FLUX -t=259200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-sundae-6294
+#FLUX --job-name=muffled-cattywampus-6665
 #FLUX --urgency=16
 
 tissues=('A172' 'BT474' 'BV2' 'Huh7' 'MCF7' 'SHSY5Y' 'SkBr3' 'SKOV3')

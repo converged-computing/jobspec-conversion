@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=psycho-lemon-7978
+#FLUX --job-name=pusheena-snack-1959
 #FLUX -c=5
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=21600
 #FLUX --urgency=16
 

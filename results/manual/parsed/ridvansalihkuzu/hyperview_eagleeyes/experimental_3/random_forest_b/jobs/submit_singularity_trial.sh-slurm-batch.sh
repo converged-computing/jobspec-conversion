@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=4-03:00:00
-#SBATCH --partition=amd
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 hostname
 module load /sw/spack-amd/spack/modules/linux-centos8-zen2/singularity/3.7.0-gcc-10.2.0

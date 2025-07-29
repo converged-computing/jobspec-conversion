@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=23:00:00
-#SBATCH --partition=tcb
 #SBATCH --constraint=ntasks-per-node=4
 
 module unload gromacs

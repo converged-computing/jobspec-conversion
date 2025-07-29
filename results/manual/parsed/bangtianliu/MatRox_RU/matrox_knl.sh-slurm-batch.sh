@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:30:00
-#SBATCH --partition=normal
 
 export MKLROOT='/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/ '
 export CMAKE_CXX_COMPILER='/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icpc'

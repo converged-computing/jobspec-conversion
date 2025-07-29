@@ -4,7 +4,6 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:10:10
-#SBATCH --partition=small
 
 module load maestro parallel
 find $PWD/data_SMILES  -name '*.smi' | \

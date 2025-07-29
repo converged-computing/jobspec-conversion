@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:h100:1
 #SBATCH --mem=190GB
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=gpu-h100
 #SBATCH --qos=gpu
 
 module unload CUDA/11.7.0

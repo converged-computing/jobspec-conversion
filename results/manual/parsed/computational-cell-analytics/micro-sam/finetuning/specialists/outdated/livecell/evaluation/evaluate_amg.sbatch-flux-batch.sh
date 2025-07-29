@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-puppy-4934
+#FLUX --job-name=salted-frito-0461
 #FLUX -c=8
 #FLUX --queue=grete:shared
 #FLUX -t=21600

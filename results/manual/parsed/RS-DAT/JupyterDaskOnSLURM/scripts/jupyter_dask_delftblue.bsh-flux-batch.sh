@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-chip-1880
+#FLUX --job-name=buttery-poodle-8717
 #FLUX -c=4
 #FLUX --queue=compute
 #FLUX -t=82800

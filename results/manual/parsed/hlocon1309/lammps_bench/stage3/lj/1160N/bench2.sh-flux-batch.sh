@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-platanos-0050
+#FLUX --job-name=fat-blackbean-2823
 #FLUX -n=16
 #FLUX --queue=normal
 #FLUX --urgency=16

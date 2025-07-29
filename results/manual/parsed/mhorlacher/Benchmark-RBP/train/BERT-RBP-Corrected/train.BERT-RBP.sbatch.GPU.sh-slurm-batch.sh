@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=1-08:00:00
-#SBATCH --partition=gpu_p
 #SBATCH --qos=low
 
 sbatch --wait << EOF

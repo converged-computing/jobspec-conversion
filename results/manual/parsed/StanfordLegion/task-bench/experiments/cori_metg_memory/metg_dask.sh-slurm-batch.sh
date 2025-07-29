@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
 #SBATCH --qos=regular
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=haswell
 
 export LD_LIBRARY_PATH='$root_dir"/core:"$LD_LIBRARY_PATH'

@@ -6,8 +6,7 @@
 #SBATCH --ntasks=128
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:59:00
-#SBATCH --partition=rome
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load 2022
 module load GROMACS/2021.6-foss-2022a-CUDA-11.7.0

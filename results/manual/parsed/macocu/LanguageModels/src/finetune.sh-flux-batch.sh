@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-carrot-7814
+#FLUX --job-name=bumfuzzled-itch-6816
 #FLUX --queue=gpu
 #FLUX -t=43195
 #FLUX --urgency=16

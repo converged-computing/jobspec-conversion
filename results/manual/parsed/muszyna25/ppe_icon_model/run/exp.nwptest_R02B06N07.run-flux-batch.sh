@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=crusty-itch-5453
+#FLUX --job-name=evasive-peas-8657
 #FLUX -N=6
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute
 #FLUX -t=900
 #FLUX --urgency=16

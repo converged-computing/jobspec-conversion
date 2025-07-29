@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-motorcycle-9406
+#FLUX --job-name=bloated-poo-8070
 #FLUX --queue=shared
 #FLUX -t=1200
 #FLUX --urgency=16

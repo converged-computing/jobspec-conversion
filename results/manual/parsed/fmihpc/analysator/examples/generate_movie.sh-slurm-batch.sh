@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16000
 #SBATCH --time=00:10:00
-#SBATCH --partition=short
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 #SBATCH --array=0-200
 
 export PATH='/proj/jesuni/projappl/tex-basic/texlive/2020/bin/x86_64-linux:$PATH'

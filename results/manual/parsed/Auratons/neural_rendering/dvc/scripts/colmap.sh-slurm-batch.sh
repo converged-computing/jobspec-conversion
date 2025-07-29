@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:GTX1080Ti:4
 #SBATCH --mem=64G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu
 
 export PATH='~/.conda/envs/pipeline/bin:~/.homebrew/bin:${PATH}'
 

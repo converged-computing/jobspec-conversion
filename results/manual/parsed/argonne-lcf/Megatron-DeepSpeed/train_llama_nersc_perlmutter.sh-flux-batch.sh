@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-fork-5537
+#FLUX --job-name=doopy-mango-5953
 #FLUX -N=128
 #FLUX --queue=regular
 #FLUX -t=1800

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:00:20
-#SBATCH --partition=alvis
 
 echo "###### Starting job on cluster"
 echo "Learner device: ${DISTRIBUTED_CONFIG_LEARNER_DEVICE}"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-omelette-1742
+#FLUX --job-name=outstanding-diablo-7398
 #FLUX -n=13
 #FLUX -c=4
 #FLUX --queue=cpu

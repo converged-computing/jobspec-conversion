@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-pedo-8794
+#FLUX --job-name=reclusive-bike-2299
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bpalmintier/mepo/models/config/whenUC_edRsv.sh

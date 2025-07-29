@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50M
 #SBATCH --time=00:10:00
-#SBATCH --partition=all
 #SBATCH --array=1-25
 
 baseResPath='/scratch/pb463/projects/S2L/SDM/results/s20200113/All_woutGEDI/'

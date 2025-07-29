@@ -4,7 +4,6 @@
 #SBATCH --nodes=16
 #SBATCH --ntasks=256
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=normal
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export MKL_NUM_THREADS='1'

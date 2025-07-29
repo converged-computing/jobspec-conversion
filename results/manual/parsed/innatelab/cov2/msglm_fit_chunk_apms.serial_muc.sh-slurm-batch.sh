@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=serial_std
 #SBATCH --constraint=ntasks-per-socket=1
 
 source /etc/profile.d/modules.sh

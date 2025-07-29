@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=01:00:00
-#SBATCH --partition=priority
 
                                 # Or use HH:MM:SS or D-HH:MM:SS, instead of just number of minutes
 minimum=10

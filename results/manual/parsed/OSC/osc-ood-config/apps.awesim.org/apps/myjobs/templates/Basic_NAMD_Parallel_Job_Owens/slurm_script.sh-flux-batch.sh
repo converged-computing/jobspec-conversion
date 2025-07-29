@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ondemand/sys/myjobs/basic_namd_parallel
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=720
 #FLUX --urgency=16
 

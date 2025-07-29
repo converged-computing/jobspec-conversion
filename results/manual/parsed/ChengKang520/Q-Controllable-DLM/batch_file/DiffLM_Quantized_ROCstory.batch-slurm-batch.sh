@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=04:00:00
-#SBATCH --partition=amdgpufast
 #SBATCH --constraint=ntasks-per-node=1
 
 export OMPI_MCA_mpi_warn_on_fork='0 #disable MPI warnings'

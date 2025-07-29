@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-latke-0477
+#FLUX --job-name=milky-latke-3616
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

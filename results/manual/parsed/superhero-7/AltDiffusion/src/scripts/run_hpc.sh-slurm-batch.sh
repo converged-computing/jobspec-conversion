@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
-#SBATCH --partition=g40
 #SBATCH --constraint=ntasks-per-node=8
 
 export PYTHONPATH='$PYTHONPATH:/fsx/zacliu/AltTools/Altdiffusion/src'

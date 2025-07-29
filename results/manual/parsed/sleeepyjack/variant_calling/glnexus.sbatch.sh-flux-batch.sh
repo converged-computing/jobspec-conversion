@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=glnexus
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=nodelong
 #FLUX -t=360000
 #FLUX --urgency=16

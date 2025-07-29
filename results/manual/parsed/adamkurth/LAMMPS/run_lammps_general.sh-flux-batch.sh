@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-cupcake-3743
+#FLUX --job-name=outstanding-bits-1362
 #FLUX --urgency=16
 
 echo "Loading LAMMPS: lammps/29Sep2021 --------------------------"               

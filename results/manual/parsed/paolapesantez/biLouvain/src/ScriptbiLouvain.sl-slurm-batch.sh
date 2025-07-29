@@ -7,8 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10GB
 #SBATCH --time=00:10:00
-#SBATCH --partition=debug
-#SBATCH --licenses=project
 
 module load gcc/6.1.0
 folder="/global/homes/p/ppesante/biLouvain/inputData/"

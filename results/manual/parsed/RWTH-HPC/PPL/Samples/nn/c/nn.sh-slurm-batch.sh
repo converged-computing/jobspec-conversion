@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:volta:2
 #SBATCH --mem=20G
 #SBATCH --time=04:00:00
-#SBATCH --partition=c18g
 
 ml CUDA
 echo; export; echo;  nvidia-smi; echo

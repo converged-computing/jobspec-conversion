@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1,nvme:100
 #SBATCH --mem=64G
 #SBATCH --time=00:15:00
-#SBATCH --partition=gputest
 
 OUTPUT_DIR=output_dir
 rm -rf "$OUTPUT_DIR"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-diablo-9953
+#FLUX --job-name=misunderstood-hippo-0934
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/raphael-susewind/india-religion-politics/andhrarolls2014/run-in-arc/run.sh

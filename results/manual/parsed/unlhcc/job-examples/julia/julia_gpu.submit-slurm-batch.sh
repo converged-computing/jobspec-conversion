@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4GB
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
 
 module load julia/1.9 cuda/12.2 
 julia -e 'import Pkg; Pkg.add("CUDA")'

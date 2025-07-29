@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=wy_server
 #FLUX -N=151
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=kshdexclu04
 #FLUX --urgency=16
 

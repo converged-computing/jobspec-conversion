@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=15000M
 #SBATCH --time=2-14:00:00
-#SBATCH --partition=gpu
 
 cat <<EoF
 hostname

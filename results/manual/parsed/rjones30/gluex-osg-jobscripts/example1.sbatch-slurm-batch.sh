@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=7452
 #SBATCH --array=1-5
 
 echo Job started on `hostname` `date`

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 module load Python/3.6.4-foss-2018a
 module load tensorflow/1.5.0-foss-2016a-Python-3.5.2-CUDA-9.1.85

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-bike-4562
+#FLUX --job-name=adorable-cat-9620
 #FLUX -c=18
 #FLUX --queue=bigmem
 #FLUX --urgency=16

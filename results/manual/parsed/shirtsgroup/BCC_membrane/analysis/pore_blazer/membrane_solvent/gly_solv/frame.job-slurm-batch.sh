@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=RM-shared
 #SBATCH --constraint=ntasks-per-node=1
 
 module load gcc

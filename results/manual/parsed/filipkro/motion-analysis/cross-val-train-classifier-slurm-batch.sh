@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=alvis
 
 data_set="data_Olga-Tokarczuk.npz"
 archive="VA-classification"

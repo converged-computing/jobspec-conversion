@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-kerfuffle-3512
+#FLUX --job-name=butterscotch-house-2890
 #FLUX -N=20
 #FLUX --queue=parallel
 #FLUX -t=18000

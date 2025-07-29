@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-bits-4545
+#FLUX --job-name=angry-house-0453
 #FLUX -N=4
 #FLUX -n=64
 #FLUX -c=8

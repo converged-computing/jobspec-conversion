@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-fudge-6277
+#FLUX --job-name=buttery-citrus-6367
 #FLUX --queue=all
 #FLUX -t=600
 #FLUX --urgency=16

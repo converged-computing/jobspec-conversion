@@ -4,10 +4,9 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --time=00:20:00
-#SBATCH --partition=nvidia_dev
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=2
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 echo '========================================'
 echo '- Job ID:' $SLURM_JOB_ID

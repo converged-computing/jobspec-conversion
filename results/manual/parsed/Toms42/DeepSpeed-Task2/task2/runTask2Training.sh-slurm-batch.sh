@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=20000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --nodelist=bender
 
 . /home/tscherli/.bash_profile

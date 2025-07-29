@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=02:55:00
-#SBATCH --partition=scavenge
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo "I ran on:"
 cd $SLURM_SUBMIT_DIR

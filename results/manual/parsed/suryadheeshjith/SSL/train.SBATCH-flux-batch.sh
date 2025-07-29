@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=peachy-lemon-3914
+#FLUX --job-name=blue-blackbean-2856
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=n1c24m128-v100-4
 #FLUX -t=43200
 #FLUX --urgency=16

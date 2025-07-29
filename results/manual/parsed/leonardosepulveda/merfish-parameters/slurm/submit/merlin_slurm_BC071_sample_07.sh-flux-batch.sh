@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-squidward-5749
+#FLUX --job-name=conspicuous-plant-7155
 #FLUX --queue=zhuang,shared
 #FLUX -t=604800
 #FLUX --urgency=16

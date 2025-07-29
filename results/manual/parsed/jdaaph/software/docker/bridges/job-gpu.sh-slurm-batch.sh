@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:1
 #SBATCH --time=00:10:00
-#SBATCH --partition=GPU-small
 #SBATCH --constraint=ntasks-per-node=7
 
 source /etc/profile.d/modules.sh

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=hung
 #SBATCH --exclude=c[4032-4036]
 
 module load openmpi/4.0.5-skylake-gcc10.1

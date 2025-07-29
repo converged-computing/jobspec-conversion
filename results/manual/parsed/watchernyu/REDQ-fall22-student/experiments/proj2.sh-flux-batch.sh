@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-lamp-2823
+#FLUX --job-name=gloopy-earthworm-8703
 #FLUX --queue=aquila,parallel
 #FLUX -t=604800
 #FLUX --urgency=16

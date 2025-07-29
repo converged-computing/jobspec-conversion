@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-lemur-3095
+#FLUX --job-name=frigid-soup-2381
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/daleroberts/pbs-examples/luigid

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:v100:2
 #SBATCH --mem=92500
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=gpu,ntasks-per-node=1
 #SBATCH --chdir=.
 

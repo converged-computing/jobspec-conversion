@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --mem=50GB
-#SBATCH --partition=a40
 
 src=$1
 tgt=$2

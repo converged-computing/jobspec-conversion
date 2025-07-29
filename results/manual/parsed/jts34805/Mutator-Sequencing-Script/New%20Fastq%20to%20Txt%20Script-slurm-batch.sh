@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=20gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=AMD
 
 cd $SLURM_SUBMIT_DIR

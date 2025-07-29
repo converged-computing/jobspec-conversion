@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1024G
 #SBATCH --time=1-00:24:00
-#SBATCH --partition=defq
 
 ulimit -s 10240
 mkdir -p ~/output

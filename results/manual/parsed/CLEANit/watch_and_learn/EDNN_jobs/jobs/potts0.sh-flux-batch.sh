@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-hope-6674
+#FLUX --job-name=moolicious-noodle-9485
 #FLUX --queue=bumblebee
 #FLUX -t=86400
 #FLUX --urgency=16

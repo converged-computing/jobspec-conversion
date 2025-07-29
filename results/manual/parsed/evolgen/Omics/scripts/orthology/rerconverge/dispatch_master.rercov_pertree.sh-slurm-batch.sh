@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=savio22_bigmem
 #SBATCH --qos=savio_lowprio
 
 module load gcc/4.8.5 openmpi # or module load intel openmpi, ALWAYS required

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-pastry-3690
+#FLUX --job-name=phat-egg-7643
 #FLUX -c=16
 #FLUX --gpus-per-task=8
 #FLUX --queue=hpg-ai

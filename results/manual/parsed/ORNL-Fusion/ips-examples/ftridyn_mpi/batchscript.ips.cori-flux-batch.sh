@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-parrot-8771
+#FLUX --job-name=expensive-cinnamonbun-2941
 #FLUX --queue=debug
 #FLUX -t=1800
 #FLUX --urgency=16

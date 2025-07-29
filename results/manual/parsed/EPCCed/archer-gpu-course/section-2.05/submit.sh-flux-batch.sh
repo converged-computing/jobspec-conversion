@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-kerfuffle-7470
+#FLUX --job-name=expensive-lemon-7540
 #FLUX --queue=gpu
 #FLUX -t=60
 #FLUX --urgency=16

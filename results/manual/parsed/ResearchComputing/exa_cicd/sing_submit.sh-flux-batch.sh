@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-lemur-8380
-#FLUX: --exclusive
+#FLUX --job-name=lovely-despacito-9275
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

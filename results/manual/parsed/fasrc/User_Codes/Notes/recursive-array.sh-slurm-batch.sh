@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100M
 #SBATCH --time=01:00:00
-#SBATCH --partition=test
 #SBATCH --array=[0-9]
 
 JOBLIMIT=$2

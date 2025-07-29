@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-blackbean-7240
+#FLUX --job-name=expressive-knife-8472
 #FLUX -c=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43140
 #FLUX --urgency=16
 

@@ -6,8 +6,7 @@
 #SBATCH --gpus-per-task=2
 #SBATCH --mem=200gb
 #SBATCH --time=04:00:00
-#SBATCH --partition=hpg-ai
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --exclude=c0906a-s29,c1101a-s29,c1101a-s23,c1004a-s23,c1103a-s17
 

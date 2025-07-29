@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50GB
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=qblg.p
 #SBATCH --constraint=ntasks-per-node=12
 
 export NTASKS='$(( ${SLURM_NNODES} * ${SLURM_NTASKS_PER_NODE} ))'

@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:a100-40g
 #SBATCH --mem=32G
 #SBATCH --time=2-18:40:00
-#SBATCH --partition=gpu
 
 module load any/python/3.8.3-conda
 conda activate controlnet

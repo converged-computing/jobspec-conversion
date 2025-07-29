@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=nvgpufreq
 #SBATCH --time=00:05:00
-#SBATCH --partition=
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=
 
 num_gpus=$1

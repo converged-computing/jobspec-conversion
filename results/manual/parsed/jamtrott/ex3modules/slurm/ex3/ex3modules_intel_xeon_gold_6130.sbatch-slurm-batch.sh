@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=xeongold16q
 
 JOBS=$((${SLURM_NTASKS}*${SLURM_CPUS_PER_TASK}))
 echo "SLURM_JOB_NAME=${SLURM_JOB_NAME}" >&2

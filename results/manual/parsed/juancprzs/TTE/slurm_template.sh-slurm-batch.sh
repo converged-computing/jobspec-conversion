@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=04:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=ref_32T
 #SBATCH --array=[1-500]
 

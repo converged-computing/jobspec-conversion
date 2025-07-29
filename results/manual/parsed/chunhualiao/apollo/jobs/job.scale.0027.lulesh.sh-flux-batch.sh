@@ -2,7 +2,7 @@
 #FLUX --job-name=APOLLO:SCALE.27.lulesh
 #FLUX -N=2
 #FLUX -n=31
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=pbatch
 #FLUX -t=7200
 #FLUX --urgency=16

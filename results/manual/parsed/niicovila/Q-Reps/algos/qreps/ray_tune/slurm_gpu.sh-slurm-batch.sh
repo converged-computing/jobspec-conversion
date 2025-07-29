@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=5g
-#SBATCH --partition=high
 #SBATCH --constraint=ntasks-per-node=1
 
 [ ! -e "nccl-tests" ] && git clone https://github.com/NVIDIA/nccl-tests.git

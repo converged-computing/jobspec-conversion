@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=48
 #SBATCH --gres=gpu:8
 #SBATCH --time=7-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --exclude=ax[03-13]
 
 ml load anaconda3-2019.03

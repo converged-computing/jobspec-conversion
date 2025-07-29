@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=4G
 #SBATCH --time=00:15:00
-#SBATCH --partition=shared-gpu
 #SBATCH --constraint=ntasks-per-node=2
 
 export VENV_PATH='$HOME/venv/slurm-pytorch-ddp-boilerplate'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-nunchucks-7099
+#FLUX --job-name=delicious-kitty-6888
 #FLUX -c=32
 #FLUX --queue=csmpi_fpga_long
 #FLUX -t=14400

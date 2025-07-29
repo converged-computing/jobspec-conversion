@@ -5,7 +5,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16gb
-#SBATCH --partition=intel,batch,stajichlab
 #SBATCH --array=1
 
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'

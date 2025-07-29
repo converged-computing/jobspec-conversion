@@ -2,7 +2,7 @@
 #FLUX --job-name=pt_train
 #FLUX -c=64
 #FLUX --gpus-per-task=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=604800
 #FLUX --urgency=16

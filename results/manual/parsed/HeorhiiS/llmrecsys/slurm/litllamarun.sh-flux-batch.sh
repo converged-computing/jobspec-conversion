@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-diablo-8461
+#FLUX --job-name=stinky-rabbit-8100
 #FLUX -c=40
 #FLUX --queue=nvidia
 #FLUX -t=19800

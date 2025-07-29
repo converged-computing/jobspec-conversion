@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-bicycle-3602
+#FLUX --job-name=blue-toaster-9264
 #FLUX --queue=sbel
 #FLUX -t=86400
 #FLUX --urgency=16

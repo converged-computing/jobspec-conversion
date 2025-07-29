@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:1
 #SBATCH --time=00:30:00
-#SBATCH --partition=wc_gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module purge > /dev/null 2>&1
 module load gcc/12.3.0

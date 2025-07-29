@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export BATCH_DIRECTORY='ablation_methods_s135_r3s2'
 export TO_LOAD_CHECKPOINT='False'

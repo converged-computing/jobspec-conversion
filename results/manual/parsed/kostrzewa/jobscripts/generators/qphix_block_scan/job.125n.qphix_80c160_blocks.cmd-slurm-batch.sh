@@ -10,9 +10,8 @@
 #SBATCH --cpus-per-task=48
 #SBATCH --mem=82G
 #SBATCH --time=12:00:00
-#SBATCH --partition=skl_usr_prod
 #SBATCH --qos=skl_qos_bprod
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='disable'

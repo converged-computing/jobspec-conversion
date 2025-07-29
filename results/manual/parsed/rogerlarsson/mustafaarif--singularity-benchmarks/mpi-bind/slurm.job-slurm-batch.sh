@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=main
 #SBATCH --constraint=ntasks-per-node=128
 
 export LD_LIBRARY_PATH='/opt/cray/pe/lib64:/usr/lib64:$LD_LIBRARY_PATH'

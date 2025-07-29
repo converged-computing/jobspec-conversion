@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=30G
 #SBATCH --time=05:00:00
-#SBATCH --partition=plgrid-gpu-v100
 
 module load cuda
 cd $SLURM_SUBMIT_DIR

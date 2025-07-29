@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpuserial-48core
 #SBATCH --constraint=ntasks-per-node=48
 
 export PYTHONNOUSERSITE='true'

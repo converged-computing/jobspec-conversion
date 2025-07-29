@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=2
 #SBATCH --time=04:05:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 source /gpfs/home/acad/ulg-intelsig/jheld/anaconda3/etc/profile.d/conda.sh

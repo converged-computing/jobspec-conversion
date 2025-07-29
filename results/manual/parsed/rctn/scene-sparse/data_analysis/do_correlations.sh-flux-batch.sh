@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-lamp-0365
+#FLUX --job-name=fugly-cat-8135
 #FLUX --queue=cortex
 #FLUX -t=540000
 #FLUX --urgency=16

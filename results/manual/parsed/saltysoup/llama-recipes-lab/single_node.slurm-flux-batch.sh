@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-staircase-2675
+#FLUX --job-name=doopy-cattywampus-4661
 #FLUX --queue=l4train
 #FLUX -t=3600
 #FLUX --urgency=16

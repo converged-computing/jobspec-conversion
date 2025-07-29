@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=nekRS
 #FLUX -c=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export NEKRS_HOME='${HOME}/.local/nekrs'

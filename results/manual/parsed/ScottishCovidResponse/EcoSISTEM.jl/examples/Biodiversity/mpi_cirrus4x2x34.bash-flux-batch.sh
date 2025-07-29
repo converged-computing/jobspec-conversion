@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-nalgas-8033
+#FLUX --job-name=outstanding-pedo-1919
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ScottishCovidResponse/EcoSISTEM.jl/examples/Biodiversity/mpi_cirrus4x2x34.bash

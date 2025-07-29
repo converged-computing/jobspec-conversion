@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12000
 #SBATCH --time=2-23:00:00
-#SBATCH --partition=General_Usage
 #SBATCH --array=1-1%1
 
 export CUDA_HOME='/opt/cuda-10.0.130/'

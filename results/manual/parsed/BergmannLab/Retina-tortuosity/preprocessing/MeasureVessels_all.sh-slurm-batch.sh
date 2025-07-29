@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6G
 #SBATCH --time=03:30:00
-#SBATCH --partition=normal
 #SBATCH --array=1-26
 
 export MCR_CACHE_ROOT='$mcr_cache_root'

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=38G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=synergy,cpu2019,cpu2021
 
 log_dir="$(pwd)"
 log_file="logs/dada2-analysis.log.txt"

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal
 #SBATCH --array=3301-3521
 
 export PYTHONPATH='$PWD":$PYTHONPATH'

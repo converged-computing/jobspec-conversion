@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --time=09:00:00
-#SBATCH --partition=gpu
 #SBATCH --chdir=.
 
 source ~/miniconda3/bin/activate base

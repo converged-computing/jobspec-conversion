@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=ccm_gillespi
 
 . /opt/shared/slurm/templates/libexec/common.sh
 vpkg_require reaxff/2.0.1:intel

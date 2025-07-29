@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=text-sed
 #FLUX -c=6
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=259200
 #FLUX --urgency=16

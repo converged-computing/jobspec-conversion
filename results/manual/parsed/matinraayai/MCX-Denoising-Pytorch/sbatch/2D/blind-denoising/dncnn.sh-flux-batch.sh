@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-toaster-8493
+#FLUX --job-name=arid-pancake-9119
 #FLUX -c=256
 #FLUX --queue=ai-jumpstart
 #FLUX --urgency=16

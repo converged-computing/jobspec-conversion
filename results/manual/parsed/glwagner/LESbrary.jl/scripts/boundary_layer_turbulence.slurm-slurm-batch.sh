@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=16G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=any
 
 module load openmpi/3.1.4 cuda/10.0
 cd $HOME/LESbrary/

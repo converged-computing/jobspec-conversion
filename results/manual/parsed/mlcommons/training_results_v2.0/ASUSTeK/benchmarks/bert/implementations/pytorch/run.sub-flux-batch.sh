@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-leader-4882
-#FLUX: --exclusive
+#FLUX --job-name=frigid-diablo-4659
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export MAX_STEPS='100'

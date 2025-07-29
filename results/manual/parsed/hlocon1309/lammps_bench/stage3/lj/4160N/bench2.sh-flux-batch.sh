@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-lamp-4670
+#FLUX --job-name=dirty-destiny-0674
 #FLUX -N=4
 #FLUX -n=16
 #FLUX --queue=normal

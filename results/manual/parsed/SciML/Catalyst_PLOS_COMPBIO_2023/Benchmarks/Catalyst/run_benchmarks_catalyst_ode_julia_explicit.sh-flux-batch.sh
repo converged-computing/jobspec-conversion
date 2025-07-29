@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=buttery-cherry-9743
-#FLUX: --exclusive
+#FLUX --job-name=lovable-citrus-7077
+#FLUX --exclusive
 #FLUX --urgency=16
 
 JULIA_THREADS_TO_USE=1

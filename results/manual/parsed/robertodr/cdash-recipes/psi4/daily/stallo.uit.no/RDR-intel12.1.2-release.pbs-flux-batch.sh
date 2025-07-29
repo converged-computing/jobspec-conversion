@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-bits-2996
+#FLUX --job-name=crunchy-squidward-3587
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/robertodr/cdash-recipes/psi4/daily/stallo.uit.no/RDR-intel12.1.2-release.pbs

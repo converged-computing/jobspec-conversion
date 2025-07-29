@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-train-0900
+#FLUX --job-name=fat-arm-3811
 #FLUX -n=14
 #FLUX -t=10200
 #FLUX --urgency=16

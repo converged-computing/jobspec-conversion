@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=20g
 #SBATCH --time=02:30:00
-#SBATCH --partition=tier3
 #SBATCH --constraint=ntasks-per-node=10
 
 nMdl=1        # number of models studied

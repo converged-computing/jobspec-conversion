@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=anxious-earthworm-4459
-#FLUX: --exclusive
+#FLUX --job-name=blue-frito-2503
+#FLUX --exclusive
 #FLUX --urgency=16
 
 set -e

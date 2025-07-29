@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-milkshake-9556
+#FLUX --job-name=grated-lemon-6407
 #FLUX --queue=bosch_cpu-cascadelake
 #FLUX --urgency=16
 

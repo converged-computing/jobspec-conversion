@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-butter-2313
+#FLUX --job-name=scruptious-hippo-7179
 #FLUX -n=8
 #FLUX -c=2
 #FLUX -t=432000

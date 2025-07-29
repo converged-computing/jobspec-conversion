@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-poodle-2823
+#FLUX --job-name=salted-blackbean-5500
 #FLUX -N=3
 #FLUX --queue=gpu_titanrtx
 #FLUX -t=57600

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=2
 
 source /project/jhlsrf005/JHL_hooks/env

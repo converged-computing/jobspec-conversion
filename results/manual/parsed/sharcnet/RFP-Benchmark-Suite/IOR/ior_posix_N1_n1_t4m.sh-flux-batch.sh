@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-fudge-8821
+#FLUX --job-name=persnickety-knife-2332
 #FLUX -t=3600
 #FLUX --urgency=16
 

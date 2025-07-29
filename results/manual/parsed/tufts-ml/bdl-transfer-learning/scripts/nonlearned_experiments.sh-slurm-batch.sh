@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=hugheslab
 #SBATCH --array=0-1
 
 source ~/.bashrc

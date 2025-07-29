@@ -4,7 +4,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=28
 #SBATCH --time=00:10:00
-#SBATCH --partition=RM-small
 
 source /etc/profile.d/modules.sh
 module load singularity/2.6.0

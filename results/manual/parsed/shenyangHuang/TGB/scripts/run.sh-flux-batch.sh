@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-pancake-6375
+#FLUX --job-name=eccentric-carrot-4297
 #FLUX -c=4
 #FLUX --queue=long
 #FLUX -t=172800

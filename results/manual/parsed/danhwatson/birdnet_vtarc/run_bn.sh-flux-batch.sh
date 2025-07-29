@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-egg-8228
+#FLUX --job-name=gloopy-signal-0360
 #FLUX -n=32
 #FLUX --queue=t4_normal_q
 #FLUX -t=252000

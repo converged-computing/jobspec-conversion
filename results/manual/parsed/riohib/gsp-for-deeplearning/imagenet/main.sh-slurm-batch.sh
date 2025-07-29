@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:a100:4
 #SBATCH --mem=64g
 #SBATCH --time=5-03:20:00
-#SBATCH --partition=qTRDGPUH
 
 export OMP_NUM_THREADS='1'
 export MODULEPATH='/apps/Compilers/modules-3.2.10/Debug-Build/Modules/3.2.10/modulefiles/'

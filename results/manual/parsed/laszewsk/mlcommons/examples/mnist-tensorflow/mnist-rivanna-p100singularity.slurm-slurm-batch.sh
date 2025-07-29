@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:1
 #SBATCH --time=00:01:00
-#SBATCH --partition=gpu
 
 module purge
 module load singularity

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-parrot-7770
+#FLUX --job-name=gloopy-hippo-5717
 #FLUX -N=2
 #FLUX -n=4
 #FLUX --queue=physical

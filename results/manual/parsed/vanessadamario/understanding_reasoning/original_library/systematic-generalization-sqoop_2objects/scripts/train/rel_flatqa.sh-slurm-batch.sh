@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:tesla-k80:1
 #SBATCH --mem=13GB
 #SBATCH --time=10:30:00
-#SBATCH --partition=normal
 #SBATCH --array=0
 
 module add clustername/singularity/3.4.1

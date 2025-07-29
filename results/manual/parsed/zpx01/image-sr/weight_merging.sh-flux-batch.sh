@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-train-8272
+#FLUX --job-name=milky-knife-2753
 #FLUX -c=8
 #FLUX -t=259200
 #FLUX --urgency=15

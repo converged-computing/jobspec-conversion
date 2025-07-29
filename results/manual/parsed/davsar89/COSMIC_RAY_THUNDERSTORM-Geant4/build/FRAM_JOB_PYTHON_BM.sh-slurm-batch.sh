@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=bigmem
 #SBATCH --constraint=ntasks-per-node=32
 
 set -o errexit # Make bash exit on any error

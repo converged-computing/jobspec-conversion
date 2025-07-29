@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=8-08:30:00
-#SBATCH --partition=defq
 #SBATCH --constraint=ntasks-per-node=1
 
 source /conda/miniconda3/etc/profile.d/conda.sh

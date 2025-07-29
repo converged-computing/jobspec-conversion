@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=7
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=batch
 #SBATCH --qos=urgent
 #SBATCH --constraint=skylake,ntasks-per-node=4
 

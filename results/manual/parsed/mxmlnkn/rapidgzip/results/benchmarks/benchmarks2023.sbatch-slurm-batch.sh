@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --mem=1972M
 #SBATCH --time=06:00:00
-#SBATCH --partition=romeo
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module purge
 module load CMake Ninja Clang NASM hwloc

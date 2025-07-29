@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4000
 #SBATCH --time=00:30:00
-#SBATCH --partition=test
 
 export R_LIBS_USER='$HOME/apps/R/3.5.1:$R_LIBS_USER'
 export R_PROFILE='$HOME/apps/R/3.5.1/Rmpi/Rprofile'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-noodle-7272
+#FLUX --job-name=blank-lamp-1407
 #FLUX -N=32
 #FLUX --urgency=16
 

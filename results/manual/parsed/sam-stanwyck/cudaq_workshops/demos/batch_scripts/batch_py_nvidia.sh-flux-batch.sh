@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-cattywampus-2104
+#FLUX --job-name=moolicious-poo-9972
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sam-stanwyck/cudaq_workshops/demos/batch_scripts/batch_py_nvidia.sh

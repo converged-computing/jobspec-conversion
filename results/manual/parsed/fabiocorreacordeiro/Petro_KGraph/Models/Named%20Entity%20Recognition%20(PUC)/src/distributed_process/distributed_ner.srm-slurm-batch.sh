@@ -5,7 +5,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10-15:20:00
-#SBATCH --partition=ict_gpu
 #SBATCH --constraint=ntasks-per-node=4
 
 echo $SLURM_JOB_NODELIST

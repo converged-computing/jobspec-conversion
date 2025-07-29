@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10g
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=tsl-long
 #SBATCH --constraint=intel
 
 Usage='vina.sh <input pdbqt> <config> <output dir> <ligand directory>'

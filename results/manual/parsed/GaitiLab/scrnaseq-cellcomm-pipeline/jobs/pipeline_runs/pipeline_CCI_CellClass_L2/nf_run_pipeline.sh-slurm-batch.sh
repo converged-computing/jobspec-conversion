@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=long
 
 module load java/18
 base_dir="/cluster/projects/gaitigroup/Users/Joan/"

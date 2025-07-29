@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=skx-normal
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 export MKL_NUM_THREADS='272'

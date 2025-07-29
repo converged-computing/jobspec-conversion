@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-fork-0144
+#FLUX --job-name=eccentric-salad-8310
 #FLUX -c=2
 #FLUX --queue=gpu
 #FLUX -t=21600

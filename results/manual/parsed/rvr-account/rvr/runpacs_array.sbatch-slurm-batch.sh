@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=50000
 #SBATCH --time=02:24:00
-#SBATCH --partition=gpu_requeue
 
 module load Anaconda3/5.0.1-fasrc01
 module load cuda/9.0-fasrc02 cudnn/7.4.1.5_cuda9.0-fasrc01

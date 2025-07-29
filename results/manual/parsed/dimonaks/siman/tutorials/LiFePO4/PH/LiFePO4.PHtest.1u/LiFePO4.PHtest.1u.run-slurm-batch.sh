@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=AMG-medium
 
 export PATH='$PATH:/home/d.aksenov/tools/'
 

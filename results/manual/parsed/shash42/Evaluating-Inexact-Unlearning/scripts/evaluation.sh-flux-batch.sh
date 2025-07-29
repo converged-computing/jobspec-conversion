@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-onion-8912
+#FLUX --job-name=phat-squidward-1240
 #FLUX -t=345600
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-muffin-6841
+#FLUX --job-name=reclusive-kerfuffle-6151
 #FLUX -c=8
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=90

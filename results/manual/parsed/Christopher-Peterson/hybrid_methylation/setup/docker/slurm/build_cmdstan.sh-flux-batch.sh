@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-pot-1922
+#FLUX --job-name=cowy-pastry-2323
 #FLUX --queue=vm-small
 #FLUX -t=1200
 #FLUX --urgency=16

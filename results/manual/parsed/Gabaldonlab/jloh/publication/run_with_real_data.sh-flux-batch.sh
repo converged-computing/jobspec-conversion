@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-staircase-3197
+#FLUX --job-name=wobbly-spoon-2701
 #FLUX -c=48
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-train-0260
+#FLUX --job-name=loopy-nunchucks-2635
 #FLUX -N=2
 #FLUX --queue=parallel
 #FLUX -t=86400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-blackbean-9635
+#FLUX --job-name=blue-hope-3480
 #FLUX -c=5
 #FLUX --queue=astro
 #FLUX -t=21600

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=llm-cpt
 #FLUX -N=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=defq
 #FLUX --urgency=16
 

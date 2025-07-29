@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-frito-5100
+#FLUX --job-name=misunderstood-parrot-4161
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/choderalab/SAMPL6_logP_ref_calc/dry_octanol_GAFF_tip3p/dry_runs/t2/dry_yank_run-lsf.sh

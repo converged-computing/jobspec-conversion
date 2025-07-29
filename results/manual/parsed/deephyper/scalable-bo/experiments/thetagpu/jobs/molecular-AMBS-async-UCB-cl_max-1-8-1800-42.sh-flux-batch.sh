@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=loopy-earthworm-0234
+#FLUX --job-name=dinosaur-spoon-0870
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-staircase-7989
+#FLUX --job-name=anxious-motorcycle-8767
 #FLUX --queue=debug
 #FLUX -t=720
 #FLUX --urgency=16

@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=16384
 #SBATCH --time=23:59:59
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu
 #SBATCH --chdir=/home/mohanty/data/final_dataset
 

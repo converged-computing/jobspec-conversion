@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2200M
 #SBATCH --time=00:01:00
-#SBATCH --partition=broadwell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SCOREP_SUBSTRATE_PLUGINS='rrl'
 export SCOREP_RRL_VERBOSE='WARN'

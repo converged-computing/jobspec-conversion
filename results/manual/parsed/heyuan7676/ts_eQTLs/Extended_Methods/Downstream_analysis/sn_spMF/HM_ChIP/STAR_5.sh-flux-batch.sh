@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-plant-1913
+#FLUX --job-name=anxious-lemon-4498
 #FLUX -n=6
 #FLUX --queue=lrgmem
 #FLUX -t=180000

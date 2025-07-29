@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-parrot-2575
+#FLUX --job-name=grated-taco-6773
 #FLUX -n=4
 #FLUX --queue=alvis
 #FLUX -t=18000

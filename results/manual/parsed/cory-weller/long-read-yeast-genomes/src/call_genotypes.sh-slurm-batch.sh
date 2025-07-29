@@ -7,7 +7,6 @@
 #SBATCH --gres=lscratch:100
 #SBATCH --mem=48G
 #SBATCH --time=03:59:59
-#SBATCH --partition=quick,norm
 #SBATCH --constraint=ntasks-per-node=8
 
 export FASTA1='$(realpath ${FASTA1})'

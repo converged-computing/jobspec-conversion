@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-omelette-3331
+#FLUX --job-name=quirky-nalgas-6540
 #FLUX -N=4
 #FLUX -c=8
 #FLUX --queue=gpu

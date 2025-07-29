@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-peas-9023
-#FLUX: --exclusive
+#FLUX --job-name=spicy-itch-8227
+#FLUX --exclusive
 #FLUX --queue=haswell
 #FLUX -t=1800
 #FLUX --urgency=16

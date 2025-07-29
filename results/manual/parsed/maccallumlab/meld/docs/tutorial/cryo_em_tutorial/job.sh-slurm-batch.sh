@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --time=12:30:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4
 
 export PYTHONPATH='/home/arup/miniconda3/envs/meld_conda/lib/python3.9/site-packages/:$PYTHONPATH'

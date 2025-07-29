@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --gpus-per-task=1
-#SBATCH --partition=gpu-dev
 
 CODENAME="S3D"
 REPO="git@github.com:unsw-edu-au/S3D_JICF.git"

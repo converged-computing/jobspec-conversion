@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20GB
 #SBATCH --time=02:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=v100
 
 echo $OMP_NUM_THREADS

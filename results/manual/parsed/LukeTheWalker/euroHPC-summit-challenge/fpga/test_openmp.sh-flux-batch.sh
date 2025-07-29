@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-general-2212
+#FLUX --job-name=blank-truffle-8126
 #FLUX -c=256
 #FLUX --queue=cpu
 #FLUX -t=180

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=gearshifftK80
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu2
 #FLUX -t=36000
 #FLUX --urgency=16

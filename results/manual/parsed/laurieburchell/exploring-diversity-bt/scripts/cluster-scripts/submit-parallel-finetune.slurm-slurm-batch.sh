@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=ampere
 
 . /etc/profile.d/modules.sh 
 module purge               

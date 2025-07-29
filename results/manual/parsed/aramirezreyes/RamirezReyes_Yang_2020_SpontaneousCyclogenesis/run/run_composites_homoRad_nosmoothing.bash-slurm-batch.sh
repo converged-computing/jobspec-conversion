@@ -7,7 +7,6 @@
 #SBATCH --time=20:00:00
 #SBATCH --qos=premium
 #SBATCH --constraint=knl
-#SBATCH --licenses=project,SCRATCH
 
 export JULIA_NUM_THREADS='64'
 export TMPDIR='$SCRATCH'

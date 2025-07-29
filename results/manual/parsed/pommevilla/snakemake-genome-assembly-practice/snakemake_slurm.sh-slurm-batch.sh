@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=100gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=medium
 
 cd /project/fsepru/paul.villanueva/repos/snakemake-genome-assembly-practice
 source /home/${USER}/.bashrc

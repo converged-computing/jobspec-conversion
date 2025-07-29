@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-nunchucks-9113
+#FLUX --job-name=eccentric-signal-7627
 #FLUX -t=8400
 #FLUX --urgency=16
 

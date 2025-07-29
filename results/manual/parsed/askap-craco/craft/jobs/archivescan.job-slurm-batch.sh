@@ -6,7 +6,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=copyq
 #SBATCH --constraint=ntasks-per-node=4
 
 export CRAFT='/home/ban115/craft/craft/'

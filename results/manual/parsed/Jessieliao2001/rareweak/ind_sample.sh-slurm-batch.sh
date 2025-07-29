@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16g
 #SBATCH --time=01:00:00
-#SBATCH --partition=amd
 
 module load python
 python3 ./src/empirical/indstock_new.py

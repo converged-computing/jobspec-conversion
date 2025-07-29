@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=127
-#SBATCH --partition=node
 #SBATCH --nodelist=node1
 
 ./mr_st 35 36

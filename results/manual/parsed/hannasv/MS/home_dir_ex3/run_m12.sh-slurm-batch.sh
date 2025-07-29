@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=1024G
 #SBATCH --time=1-00:24:00
-#SBATCH --partition=dgx2q
 
 export OMP_NUM_THREADS='4'
 

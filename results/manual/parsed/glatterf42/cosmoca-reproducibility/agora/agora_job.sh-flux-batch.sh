@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=AG1024
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=36600
 #FLUX --urgency=16
 

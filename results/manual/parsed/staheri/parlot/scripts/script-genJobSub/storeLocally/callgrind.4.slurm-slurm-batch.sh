@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=6400
 #SBATCH --time=00:15:00
-#SBATCH --partition=soc-kp
 
 export PIN_ROOT='/uufs/chpc.utah.edu/common/home/u0993036/pintool/newpin/'
 export PTOOL_ROOT='/uufs/chpc.utah.edu/common/home/u0993036/pintool/newpin/source/tools'

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=120000M
 #SBATCH --time=13:00:00
-#SBATCH --partition=desktop
 #SBATCH --array=0-19%1
 
 echo "Running on: $(hostname)"

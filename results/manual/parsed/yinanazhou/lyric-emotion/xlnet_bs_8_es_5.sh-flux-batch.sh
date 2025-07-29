@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-peanut-butter-3206
+#FLUX --job-name=bloated-peas-0763
 #FLUX -c=4
 #FLUX -t=259200
 #FLUX --urgency=16

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=20G
 #SBATCH --time=00:11:59
-#SBATCH --partition=short
 
                                            # -N 1 means all cores will be on th$
 hostname

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=2G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=cpu
 #SBATCH --array=0
 
                                     # %x=job-name, %A=job ID, %a=array value, %n=node rank, %t=task rank, %N=hostname

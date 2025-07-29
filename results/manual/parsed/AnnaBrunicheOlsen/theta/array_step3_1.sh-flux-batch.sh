@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-fork-0068
+#FLUX --job-name=scruptious-cattywampus-8609
 #FLUX --urgency=16
 
 genus_species=$1

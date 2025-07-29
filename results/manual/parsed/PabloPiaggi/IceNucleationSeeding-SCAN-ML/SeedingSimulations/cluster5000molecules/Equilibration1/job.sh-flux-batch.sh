@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-train-9965
+#FLUX --job-name=purple-soup-6735
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PabloPiaggi/IceNucleationSeeding-SCAN-ML/SeedingSimulations/cluster5000molecules/Equilibration1/job.sh

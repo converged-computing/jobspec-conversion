@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=cortex
 #SBATCH --constraint=cortex_k40
 
 export MODULEPATH='/global/software/sl-6.x64_64/modfiles/apps:$MODULEPATH'

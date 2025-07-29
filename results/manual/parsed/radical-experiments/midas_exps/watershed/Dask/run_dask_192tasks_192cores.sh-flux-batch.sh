@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-itch-9166
+#FLUX --job-name=carnivorous-cattywampus-8125
 #FLUX -N=8
 #FLUX --queue=compute
 #FLUX -t=3600

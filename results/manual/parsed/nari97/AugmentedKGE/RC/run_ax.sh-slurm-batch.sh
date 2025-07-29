@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=1024
 #SBATCH --time=02:06:06
-#SBATCH --partition=tier3
 
 folder=$1
 echo " * Submitting job array..."

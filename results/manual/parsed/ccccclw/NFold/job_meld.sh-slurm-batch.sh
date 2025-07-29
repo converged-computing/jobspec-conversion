@@ -7,7 +7,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem-per-cpu=800mb
 #SBATCH --time=2-12:00:00
-#SBATCH --partition=gpu
 
 source ~/.load_OpenMM_cuda10             #load OpenMM+Meld
 [[ -d Data ]] || python setup_Meld.py   #check if there is already a Data/, we are continuing a killed simulation, otherwise start new setup_aMeld.py simulation.

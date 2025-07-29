@@ -8,7 +8,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=8G
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu-preempt
 #SBATCH --constraint=vram16
 
 module load miniconda/22.11.1-1

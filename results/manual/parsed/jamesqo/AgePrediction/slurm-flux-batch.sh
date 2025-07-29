@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-signal-7221
+#FLUX --job-name=swampy-punk-0866
 #FLUX --queue=fnndsc-gpu
 #FLUX -t=432000
 #FLUX --urgency=16

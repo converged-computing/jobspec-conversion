@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=31
-#SBATCH --partition=infinite
 #SBATCH --constraint=intel
 
 SING_BIND=$( python $HOME/parse_settings.py --BIND )

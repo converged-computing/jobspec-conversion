@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=180G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --nodelist=$3
 
 sbatch <<EOT

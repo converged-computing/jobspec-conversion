@@ -5,7 +5,6 @@
 #SBATCH --ntasks=256
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-12:00:00
-#SBATCH --partition=amd
 
 echo "Starting calculation at $(date)"
 echo "---------------------------------------------------------------"

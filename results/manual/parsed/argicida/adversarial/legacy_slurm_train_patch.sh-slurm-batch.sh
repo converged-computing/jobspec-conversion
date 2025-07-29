@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem-per-cpu=65536
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=tier3
 
 source ./venv/bin/activate
 python train_patch.py paper_obj

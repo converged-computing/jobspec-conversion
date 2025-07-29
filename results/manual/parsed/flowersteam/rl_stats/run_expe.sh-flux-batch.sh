@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-toaster-5333
+#FLUX --job-name=outstanding-gato-3897
 #FLUX --queue=longq
 #FLUX -t=54000
 #FLUX --urgency=16

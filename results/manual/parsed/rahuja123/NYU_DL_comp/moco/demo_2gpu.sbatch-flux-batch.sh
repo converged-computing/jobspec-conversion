@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=faux-lamp-2345
-#FLUX: --exclusive
+#FLUX --job-name=expressive-carrot-5620
+#FLUX --exclusive
 #FLUX --queue=n1s16-t4-2
 #FLUX -t=72000
 #FLUX --urgency=16

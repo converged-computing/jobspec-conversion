@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=1-16:00:00
-#SBATCH --partition=nvidia
 
 sys=/scratch/ba63/gec/models/gec/qalb14-15/full/bart_w_camelira
 test_file=/home/ba63/gec-release/data/gec/modeling/qalb15/w_camelira/full/test_L2.json

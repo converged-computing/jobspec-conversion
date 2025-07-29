@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-peanut-butter-5327
+#FLUX --job-name=phat-spoon-5506
 #FLUX --queue=standard
 #FLUX -t=600
 #FLUX --urgency=16

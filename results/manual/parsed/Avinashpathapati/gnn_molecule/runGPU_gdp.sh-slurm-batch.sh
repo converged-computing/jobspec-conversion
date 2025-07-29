@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=128000
 #SBATCH --time=2-00:23:00
-#SBATCH --partition=gpu
 
 cd /home/s3754715/gnn_molecule/pytorch_geometric/examples/
 python omdb_nn_conv.py > out.txt

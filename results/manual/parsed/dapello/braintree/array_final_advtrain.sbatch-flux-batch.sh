@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-cherry-0950
+#FLUX --job-name=doopy-truffle-7767
 #FLUX -c=20
 #FLUX -t=480000
 #FLUX --urgency=16

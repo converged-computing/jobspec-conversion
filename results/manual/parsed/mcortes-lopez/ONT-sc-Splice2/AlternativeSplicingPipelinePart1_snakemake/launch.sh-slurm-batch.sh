@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=5
 #SBATCH --mem=20G
-#SBATCH --partition=pe2
 
 module load java/1.9
 module load samtools

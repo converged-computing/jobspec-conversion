@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-carrot-9545
+#FLUX --job-name=spicy-leg-0866
 #FLUX --urgency=16
 
 INPUT=$1

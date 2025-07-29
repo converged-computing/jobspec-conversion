@@ -8,9 +8,8 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=5G
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=defaultp
 #SBATCH --constraint=edrIB1
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 #SBATCH --array=1-12
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

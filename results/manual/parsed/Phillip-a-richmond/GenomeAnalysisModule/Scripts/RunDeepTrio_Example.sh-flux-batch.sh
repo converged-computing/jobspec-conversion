@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-itch-5676
+#FLUX --job-name=evasive-lemur-2492
 #FLUX -c=10
 #FLUX --queue=defq
 #FLUX -t=172800

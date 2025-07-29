@@ -8,9 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=00:30:00
-#SBATCH --partition=regular
 #SBATCH --constraint=ntasks-per-node=20,gpu
-#SBATCH --licenses=SCRATCH
 
 export SCRATCH_DIR='$SCRATCH/$SLURM_JOB_NAME.$SLURM_JOB_ID'
 export PERMANENT_DIR='$SCRATCH_DIR'

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=00:02:00
-#SBATCH --partition=testdlc_gpu-rtx2080
 
 echo "Workingdir: $PWD";
 echo "Started at $(date)";

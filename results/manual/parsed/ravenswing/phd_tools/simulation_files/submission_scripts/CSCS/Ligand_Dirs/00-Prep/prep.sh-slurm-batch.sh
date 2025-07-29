@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=prepost
 #SBATCH --constraint=mc
 
 export name='$(cd ..; basename -- "$PWD")'

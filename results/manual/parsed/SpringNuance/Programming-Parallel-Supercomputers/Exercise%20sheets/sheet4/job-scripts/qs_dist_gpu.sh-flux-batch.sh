@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-bicycle-5655
+#FLUX --job-name=fat-nunchucks-7318
 #FLUX --queue=courses-gpu
 #FLUX -t=300
 #FLUX --urgency=16

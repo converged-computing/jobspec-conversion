@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-leg-9811
+#FLUX --job-name=red-poodle-4363
 #FLUX -c=2
 #FLUX --queue=tier3
 #FLUX -t=7566

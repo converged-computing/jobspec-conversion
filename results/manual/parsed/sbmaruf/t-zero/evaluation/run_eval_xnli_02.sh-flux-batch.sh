@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-mango-9187
+#FLUX --job-name=tart-frito-1649
 #FLUX --queue=PA100q
 #FLUX --urgency=16
 

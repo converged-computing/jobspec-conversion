@@ -4,7 +4,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2G
-#SBATCH --partition=short
 
 set -e
 function cleanup() {

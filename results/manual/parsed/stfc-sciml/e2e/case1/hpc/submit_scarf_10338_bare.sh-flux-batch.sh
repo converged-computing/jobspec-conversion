@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=salted-muffin-1427
-#FLUX: --exclusive
+#FLUX --job-name=faux-cherry-2889
+#FLUX --exclusive
 #FLUX --queue=scarf
 #FLUX -t=345600
 #FLUX --urgency=16

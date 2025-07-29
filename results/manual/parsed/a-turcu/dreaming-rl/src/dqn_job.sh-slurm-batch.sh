@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=5G
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 module load Python/3.7.4-GCCcore-8.3.0 

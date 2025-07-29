@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-toaster-6512
+#FLUX --job-name=crunchy-plant-3215
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20000
 #SBATCH --time=00:10:00
-#SBATCH --partition=normal256
 
 export OMP_NUM_THREADS='1'
 export DR_HOOK='1'

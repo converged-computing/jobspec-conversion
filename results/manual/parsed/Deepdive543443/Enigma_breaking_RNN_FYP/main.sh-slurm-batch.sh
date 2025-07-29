@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=6G
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu
 
 module load Anaconda3/5.3.0

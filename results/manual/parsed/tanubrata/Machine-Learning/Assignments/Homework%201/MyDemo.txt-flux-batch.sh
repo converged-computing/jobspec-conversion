@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-fork-1264
+#FLUX --job-name=nerdy-pedo-5340
 #FLUX --queue=gpu8_long
 #FLUX -t=478800
 #FLUX --urgency=16

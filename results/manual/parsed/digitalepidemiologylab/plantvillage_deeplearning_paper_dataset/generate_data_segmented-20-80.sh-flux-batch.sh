@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-pot-3183
+#FLUX --job-name=salted-plant-1847
 #FLUX -c=2
 #FLUX --queue=gpu
 #FLUX -t=86399

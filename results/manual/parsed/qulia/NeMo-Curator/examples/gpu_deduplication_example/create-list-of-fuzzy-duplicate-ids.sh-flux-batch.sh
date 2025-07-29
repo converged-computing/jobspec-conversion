@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=nemo-data-curator:create-fuzzy-dup-id-list
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=1800
 #FLUX --urgency=16
 

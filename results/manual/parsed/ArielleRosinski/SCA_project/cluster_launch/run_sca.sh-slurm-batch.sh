@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=10:00:00
-#SBATCH --partition=ampere
 #SBATCH --array=1-9
 
 export LD_LIBRARY_PATH='~/.conda/envs/sca_env/lib:$LD_LIBRARY_PATH'

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=hairy-butter-7290
+#FLUX --job-name=joyous-staircase-6792
 #FLUX -N=4
 #FLUX -n=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=serc
 #FLUX -t=1800
 #FLUX --urgency=16

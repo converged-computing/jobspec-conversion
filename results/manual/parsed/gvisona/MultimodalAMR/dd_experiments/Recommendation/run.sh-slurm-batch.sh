@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100000
-#SBATCH --partition=urtgen_24hrs
 
 dir=/home/
 longTable=/home/DRIAMS_combined_long_table.csv

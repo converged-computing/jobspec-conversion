@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:rtx6000:4
 #SBATCH --mem=64GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=barton
 
 source /share/spack/gcc-7.2.0/miniconda3-4.5.12-gkh/bin/activate /share/spack/gcc-7.2.0/miniconda3-4.5.12-gkh/envs/tflow
 python3 /home/timothy.walsh/VF/2_closed_world/search.py sirinam_vf https youtube

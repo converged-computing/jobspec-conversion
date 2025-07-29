@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=200G
 #SBATCH --time=02:00:00
-#SBATCH --partition=dev
 #SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='$PYTHONPATH":"$BASEDIR'

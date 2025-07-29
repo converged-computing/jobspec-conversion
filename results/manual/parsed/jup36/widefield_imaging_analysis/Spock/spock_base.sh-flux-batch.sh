@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-lettuce-6620
+#FLUX --job-name=pusheena-chip-1102
 #FLUX --queue=all
 #FLUX -t=3540
 #FLUX --urgency=16

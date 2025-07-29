@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-nunchucks-5715
+#FLUX --job-name=reclusive-itch-5999
 #FLUX -n=55
 #FLUX -t=86400
 #FLUX --urgency=16

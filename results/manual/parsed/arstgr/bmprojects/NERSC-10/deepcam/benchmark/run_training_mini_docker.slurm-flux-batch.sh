@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=docker-deepcam-mini
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=ndmv4
 #FLUX -t=1200
 #FLUX --urgency=16

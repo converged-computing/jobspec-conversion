@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=test_PMCMC_SEIR
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=nodes
 #FLUX -t=259200
 #FLUX --urgency=16

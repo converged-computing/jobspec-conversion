@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-lentil-3126
+#FLUX --job-name=crusty-leg-3490
 #FLUX -n=32
 #FLUX --queue=intel
 #FLUX -t=172800

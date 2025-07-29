@@ -7,9 +7,8 @@
 #SBATCH --ntasks=112
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=cosma7-rp
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 #SBATCH --array=0-479
 
 module purge

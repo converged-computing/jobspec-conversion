@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-train-8579
+#FLUX --job-name=fugly-pancake-9467
 #FLUX --queue=gpu_quad
 #FLUX -t=28800
 #FLUX --urgency=16

@@ -8,6 +8,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4096
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=reserved
 
 ./benchmarking input.txt

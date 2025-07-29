@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-gato-0501
+#FLUX --job-name=reclusive-butter-0495
 #FLUX -N=2
 #FLUX -n=192
 #FLUX --urgency=16

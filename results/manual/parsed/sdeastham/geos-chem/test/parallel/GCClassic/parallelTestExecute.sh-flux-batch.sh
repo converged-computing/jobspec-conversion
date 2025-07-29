@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-onion-5518
+#FLUX --job-name=arid-motorcycle-5658
 #FLUX -c=24
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=360

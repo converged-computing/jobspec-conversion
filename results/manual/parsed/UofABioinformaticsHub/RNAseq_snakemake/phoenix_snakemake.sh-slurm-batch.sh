@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64GB
 #SBATCH --time=02:00:00
-#SBATCH --partition=batch
 
 module load Python/3.6.1-foss-2016b
 module load AdapterRemoval/2.2.1-foss-2016b

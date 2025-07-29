@@ -5,7 +5,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=workq
 
 export PROTEUS_PREFIX='${PWD}/proteus_env'
 export PROTEUS_ARCH='mike'

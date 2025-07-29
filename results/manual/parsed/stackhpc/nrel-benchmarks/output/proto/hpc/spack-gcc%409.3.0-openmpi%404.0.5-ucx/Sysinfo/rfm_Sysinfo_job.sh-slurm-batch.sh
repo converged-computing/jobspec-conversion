@@ -6,7 +6,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=hpc
 #SBATCH --constraint=ntasks-per-node=1
 
 export SLURM_MPI_TYPE='pmix_v3'

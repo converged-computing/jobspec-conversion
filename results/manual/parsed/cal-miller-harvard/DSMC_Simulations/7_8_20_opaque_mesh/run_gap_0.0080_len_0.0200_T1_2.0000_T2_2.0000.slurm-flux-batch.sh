@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-arm-2178
+#FLUX --job-name=swampy-avocado-1349
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-taco-7443
+#FLUX --job-name=faux-buttface-8007
 #FLUX --urgency=16
 
 cd /fs/ess/PCON0022/liyang/STREAM/benchmarking/Signac

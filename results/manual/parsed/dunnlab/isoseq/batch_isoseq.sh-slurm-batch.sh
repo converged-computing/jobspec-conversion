@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=5G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=ycga
 
 module load miniconda
 conda activate isoseq

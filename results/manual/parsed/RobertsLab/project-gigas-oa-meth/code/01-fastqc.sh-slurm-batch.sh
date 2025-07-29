@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=200G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=srlab
 #SBATCH --chdir=/gscratch/scrubbed/yaaminiv/Manchester/analyses/fastqc
 
 output_dir=/gscratch/scrubbed/yaaminiv/Manchester/analyses/fastqc

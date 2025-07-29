@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-eagle-7349
+#FLUX --job-name=faux-banana-2515
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/shixing/xing_rnn/Seq2Seq/sh/smallm4h100d07l01n2attadagradAddNS.b10.dump_lstm.sh

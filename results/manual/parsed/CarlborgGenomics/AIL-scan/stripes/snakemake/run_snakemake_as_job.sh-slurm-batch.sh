@@ -9,7 +9,6 @@
 #SBATCH --ntasks=15
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10:00:00
-#SBATCH --partition=core
 
 module load java/sun_jdk1.8.0_151
 source activate v3

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8GB
 #SBATCH --time=00:10:00
-#SBATCH --partition=normal
 
 export LMOD_EXPERT='1'
 export NODES='12'

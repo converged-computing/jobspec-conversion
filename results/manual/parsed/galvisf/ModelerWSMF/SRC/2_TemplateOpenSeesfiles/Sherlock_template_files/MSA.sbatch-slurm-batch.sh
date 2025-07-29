@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8000
-#SBATCH --partition=cee,owners
 #SBATCH --qos=normal
 #SBATCH --constraint=ntasks-per-node=16
 

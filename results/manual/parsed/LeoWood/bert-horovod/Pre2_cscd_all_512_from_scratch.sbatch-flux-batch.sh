@@ -2,7 +2,7 @@
 #FLUX --job-name=pre_2
 #FLUX -N=8
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX --urgency=16
 

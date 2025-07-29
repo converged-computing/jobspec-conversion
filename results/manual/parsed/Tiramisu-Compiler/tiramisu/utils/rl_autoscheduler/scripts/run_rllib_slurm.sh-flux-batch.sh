@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=spicy-puppy-4216
+#FLUX --job-name=joyous-caramel-8801
 #FLUX -N=4
 #FLUX -c=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute
 #FLUX -t=604800
 #FLUX --urgency=16

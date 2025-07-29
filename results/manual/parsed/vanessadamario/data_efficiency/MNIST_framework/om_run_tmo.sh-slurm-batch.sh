@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:tesla-k80:1
 #SBATCH --mem=20GB
 #SBATCH --time=08:00:00
-#SBATCH --partition=cbmm
 #SBATCH --array=0,45,72,75,118,124,128,129,148,400,445,472,475,488,518,524,528,529,548
 
 module add openmind/singularity/3.4.1

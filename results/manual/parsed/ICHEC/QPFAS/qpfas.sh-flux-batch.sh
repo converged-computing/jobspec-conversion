@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-arm-7045
+#FLUX --job-name=bumfuzzled-soup-6029
 #FLUX --queue=DevQ
 #FLUX -t=3600
 #FLUX --urgency=16

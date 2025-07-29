@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=8G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=idle
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100
 

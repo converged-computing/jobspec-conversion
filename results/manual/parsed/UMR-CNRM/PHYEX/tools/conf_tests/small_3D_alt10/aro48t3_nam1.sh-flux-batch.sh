@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-kerfuffle-1653
+#FLUX --job-name=confused-train-5507
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

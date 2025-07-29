@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-motorcycle-9379
+#FLUX --job-name=fuzzy-parrot-9406
 #FLUX --queue=general,zhanglab
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -3,7 +3,6 @@
 #SBATCH --ntasks=96
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=parallel
 #SBATCH --constraint=E5v4
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   

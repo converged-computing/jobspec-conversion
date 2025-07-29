@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-bits-9949
+#FLUX --job-name=hanky-latke-3170
 #FLUX --urgency=16
 
 export MASTER_PORT='$MASTER_PORT'

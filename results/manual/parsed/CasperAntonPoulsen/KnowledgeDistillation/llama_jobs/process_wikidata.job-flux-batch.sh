@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-general-7747
+#FLUX --job-name=ornery-squidward-9275
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CasperAntonPoulsen/KnowledgeDistillation/llama_jobs/process_wikidata.job

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=6G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=long
 
 export LD_LIBRARY_PATH='/home/sreitsma/cudnn-6.5-linux-x64-v2:/usr/local/cuda-6.5/lib64:$LD_LIBRARY_PATH'
 export PATH='/usr/local/cuda-6.5/bin:$PATH'

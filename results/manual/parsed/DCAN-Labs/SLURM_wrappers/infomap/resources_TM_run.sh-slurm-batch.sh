@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=180G
 #SBATCH --time=12:00:00
-#SBATCH --partition=amd512,amdsmall,amdlarge,ram256g
 #SBATCH --constraint=ntasks-per-node=1
 
 cd run_files.syncTM

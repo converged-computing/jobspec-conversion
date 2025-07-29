@@ -6,7 +6,6 @@
 #SBATCH --ntasks=128
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:20:00
-#SBATCH --partition=normal256
 
 export MPIRUN='Mpirun -np 128'
 

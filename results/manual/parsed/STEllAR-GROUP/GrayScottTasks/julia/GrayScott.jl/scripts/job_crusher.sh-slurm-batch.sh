@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:02:00
-#SBATCH --partition=batch
 
 date
 GS_DIR=/lustre/orion/proj-shared/csc383/wgodoy/GrayScott.jl

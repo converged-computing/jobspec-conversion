@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-peanut-8399
+#FLUX --job-name=arid-dog-8302
 #FLUX -t=0
 #FLUX --urgency=16
 

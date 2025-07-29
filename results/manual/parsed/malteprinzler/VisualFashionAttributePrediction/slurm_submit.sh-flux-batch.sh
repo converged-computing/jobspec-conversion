@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-destiny-2268
+#FLUX --job-name=lovable-parsnip-9287
 #FLUX --queue=2080ti-long
 #FLUX --urgency=16
 

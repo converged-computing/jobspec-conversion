@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=1750
-#SBATCH --partition=p1priority,gcpriority
 #SBATCH --array=1-3
 
 export AUGUSTUS_CONFIG_PATH='/networkshare/bin/augustus-3.2.2/config'

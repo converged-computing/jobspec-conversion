@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=05:00:00
-#SBATCH --partition=gpu
 
 PYTHON_VERSION="3.10.2"
 RUNSTAMP={job_run_name}

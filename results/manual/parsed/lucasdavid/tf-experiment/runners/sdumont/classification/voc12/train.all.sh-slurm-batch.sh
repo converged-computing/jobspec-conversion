@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=sequana_gpu_shared
 #SBATCH --constraint=ntasks-per-node=256
 
 echo "[voc12/train.rn50.all.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."

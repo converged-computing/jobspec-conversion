@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --mem=85000M
-#SBATCH --partition=gpu
 
 export YOLOX_DATADIR='~/scratch/'
 

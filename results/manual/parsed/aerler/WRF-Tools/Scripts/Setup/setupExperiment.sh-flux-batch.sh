@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-latke-5498
+#FLUX --job-name=blank-squidward-2878
 #FLUX --urgency=16
 
 set -e # abort if anything goes wrong

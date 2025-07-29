@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=object_detection
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43200
 #FLUX --urgency=16
 

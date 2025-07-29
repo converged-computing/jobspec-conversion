@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-lemur-3534
+#FLUX --job-name=arid-sundae-3523
 #FLUX --queue=maxwell
 #FLUX -t=43200
 #FLUX --urgency=16

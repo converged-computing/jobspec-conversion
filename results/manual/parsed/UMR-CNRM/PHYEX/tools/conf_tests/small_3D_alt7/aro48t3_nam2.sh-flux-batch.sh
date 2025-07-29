@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-bits-5116
+#FLUX --job-name=red-pedo-0722
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

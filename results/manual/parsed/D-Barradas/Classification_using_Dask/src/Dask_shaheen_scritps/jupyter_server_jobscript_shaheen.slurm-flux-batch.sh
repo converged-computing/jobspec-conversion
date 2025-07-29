@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-despacito-3151
+#FLUX --job-name=hanky-lamp-0198
 #FLUX -N=4
 #FLUX --queue=debug
 #FLUX --urgency=16

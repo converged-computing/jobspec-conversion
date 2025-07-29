@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=3000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu_k80
 
 module load cuda/8.0
 module load python/2.7.12

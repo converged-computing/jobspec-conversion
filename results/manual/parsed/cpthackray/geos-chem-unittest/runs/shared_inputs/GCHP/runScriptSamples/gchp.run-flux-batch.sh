@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-latke-5473
+#FLUX --job-name=bumfuzzled-itch-3901
 #FLUX -n=6
 #FLUX --queue=huce_intel
 #FLUX -t=60

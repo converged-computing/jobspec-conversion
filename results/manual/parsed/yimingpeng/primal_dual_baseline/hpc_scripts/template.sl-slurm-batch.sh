@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4096
 #SBATCH --time=12-12:00:00
-#SBATCH --partition=long
 #SBATCH --chdir=/nesi/project/nesi00272/primal_dual_baseline/baselines/ddpg/
 #SBATCH --array=50-80:1
 

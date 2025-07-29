@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=10G
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=training
 
 set -e
 date; hostname; pwd

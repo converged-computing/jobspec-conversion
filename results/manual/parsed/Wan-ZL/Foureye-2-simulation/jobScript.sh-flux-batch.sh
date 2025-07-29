@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-peanut-4154
+#FLUX --job-name=butterscotch-peas-3879
 #FLUX -n=32
 #FLUX --queue=dev_q
 #FLUX -t=7200

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=100G
-#SBATCH --partition=dongliu
 
 nvidia-smi
 python /home/sist/luoxin/projects/DualFormer/scripts/plot_spectral_profile.py

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=chunky-malarkey-8978
+#FLUX --job-name=angry-hobbit-4653
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=rome
 #FLUX -t=600
 #FLUX --urgency=16

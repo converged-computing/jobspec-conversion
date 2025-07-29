@@ -5,7 +5,6 @@
 #SBATCH --nodes=16
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=c5n-od
 #SBATCH --constraint=ntasks-per-node=36
 
 export I_MPI_OFI_LIBRARY_INTERNAL='0'

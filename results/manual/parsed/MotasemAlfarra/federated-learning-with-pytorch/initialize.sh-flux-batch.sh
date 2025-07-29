@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-eagle-0787
+#FLUX --job-name=grated-peas-3164
 #FLUX -c=4
 #FLUX --queue=batch
 #FLUX -t=600

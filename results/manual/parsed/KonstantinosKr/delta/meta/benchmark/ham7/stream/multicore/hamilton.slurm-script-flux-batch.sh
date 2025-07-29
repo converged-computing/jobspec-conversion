@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=ExaHyPE-EulerFlow
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=test.q
 #FLUX -t=3600
 #FLUX --urgency=16

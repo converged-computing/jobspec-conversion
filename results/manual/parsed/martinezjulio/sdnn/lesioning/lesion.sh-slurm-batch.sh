@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=nklab
 #SBATCH --constraint=high-capacity
 #SBATCH --array=0
 

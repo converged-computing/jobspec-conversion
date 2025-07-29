@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-avocado-1814
+#FLUX --job-name=salted-parrot-5310
 #FLUX --queue=dev_q
 #FLUX -t=300
 #FLUX --urgency=16

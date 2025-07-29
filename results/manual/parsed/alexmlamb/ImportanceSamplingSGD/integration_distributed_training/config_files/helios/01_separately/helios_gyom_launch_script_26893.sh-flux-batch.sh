@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-peas-6308
+#FLUX --job-name=joyous-avocado-5797
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alexmlamb/ImportanceSamplingSGD/integration_distributed_training/config_files/helios/01_separately/helios_gyom_launch_script_26893.sh

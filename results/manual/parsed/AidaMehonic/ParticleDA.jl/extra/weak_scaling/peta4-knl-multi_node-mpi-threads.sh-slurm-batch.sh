@@ -5,7 +5,6 @@
 #SBATCH --ntasks=256
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=knl
 #SBATCH --constraint=cache
 
 export OMP_NUM_THREADS='4'

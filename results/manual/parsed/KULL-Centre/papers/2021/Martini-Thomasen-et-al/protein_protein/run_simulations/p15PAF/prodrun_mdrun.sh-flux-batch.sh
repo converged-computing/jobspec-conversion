@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-snack-8352
+#FLUX --job-name=muffled-banana-8979
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/KULL-Centre/papers/2021/Martini-Thomasen-et-al/protein_protein/run_simulations/p15PAF/prodrun_mdrun.sh

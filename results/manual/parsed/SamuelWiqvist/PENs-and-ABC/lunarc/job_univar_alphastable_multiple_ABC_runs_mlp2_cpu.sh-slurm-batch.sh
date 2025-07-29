@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12000
 #SBATCH --time=4-04:30:00
-#SBATCH --partition=lu
 
 ml load GCC/6.4.0-2.28
 ml load OpenMPI/2.1.2

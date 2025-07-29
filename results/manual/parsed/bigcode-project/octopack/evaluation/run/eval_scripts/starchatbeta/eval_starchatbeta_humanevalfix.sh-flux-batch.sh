@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=evasive-ricecake-2659
-#FLUX: --exclusive
+#FLUX --job-name=loopy-train-5492
+#FLUX --exclusive
 #FLUX --queue=small-g
 #FLUX -t=172800
 #FLUX --urgency=16

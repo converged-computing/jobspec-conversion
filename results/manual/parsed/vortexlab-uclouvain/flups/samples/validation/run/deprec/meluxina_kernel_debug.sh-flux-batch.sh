@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-leader-9919
+#FLUX --job-name=bloated-nunchucks-2740
 #FLUX --queue=cpu
 #FLUX -t=1800
 #FLUX --urgency=16

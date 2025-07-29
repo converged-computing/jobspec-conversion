@@ -10,7 +10,6 @@
 #SBATCH --gres=a40:1
 #SBATCH --mem=40GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=spgpu
 
 export CUDA_HOME='~/miniconda3'
 

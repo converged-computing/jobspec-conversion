@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=14G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export PYTHONPATH='../venv-torch/lib64/python3.7/site-packages:$PYTHONPATH'
 

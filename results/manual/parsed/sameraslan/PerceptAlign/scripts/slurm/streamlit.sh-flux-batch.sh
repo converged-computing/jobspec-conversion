@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-gato-5340
+#FLUX --job-name=scruptious-malarkey-0487
 #FLUX --queue=$PARTITION
 #FLUX -t=36000
 #FLUX --urgency=16

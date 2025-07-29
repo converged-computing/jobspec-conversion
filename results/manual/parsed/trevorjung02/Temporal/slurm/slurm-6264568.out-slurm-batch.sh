@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu-a40
 
 cat $0
 echo "--------------------"

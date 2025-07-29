@@ -2,7 +2,7 @@
 #FLUX --job-name=Examples
 #FLUX -N=2
 #FLUX -n=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=qos_cpu-dev
 #FLUX -t=3600
 #FLUX --urgency=16

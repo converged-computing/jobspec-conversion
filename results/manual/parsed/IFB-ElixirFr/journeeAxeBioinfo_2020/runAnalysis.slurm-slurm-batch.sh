@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=30
 #SBATCH --mem=50GB
-#SBATCH --partition=fast
 
 module load snakemake fastqc bowtie2 samtools subread slurm-drmaa
 snakemake --drmaa --jobs=$SLURM_CPUS_PER_TASK -s demo.smk --configfile config.yml

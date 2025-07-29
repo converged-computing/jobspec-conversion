@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-blackbean-9465
+#FLUX --job-name=lovable-spoon-9370
 #FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/home/Mariusz.Pagowski/MAPP_2018/libs/fortran-datetime/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}'

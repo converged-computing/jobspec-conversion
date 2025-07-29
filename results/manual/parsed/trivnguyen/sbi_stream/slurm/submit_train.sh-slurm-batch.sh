@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=v100
 
 module unload python

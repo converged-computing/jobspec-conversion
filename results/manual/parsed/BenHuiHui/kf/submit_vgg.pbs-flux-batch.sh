@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-knife-0029
+#FLUX --job-name=ornery-ricecake-6915
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BenHuiHui/kf/submit_vgg.pbs

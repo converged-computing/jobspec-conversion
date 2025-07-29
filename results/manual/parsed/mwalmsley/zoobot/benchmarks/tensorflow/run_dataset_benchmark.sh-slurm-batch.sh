@@ -5,9 +5,9 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=0
 #SBATCH --time=3-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=A100
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 #SBATCH --exclude=compute-0-0
 
 export LD_LIBRARY_PATH='/share/nas2/walml/miniconda3/envs/zoobot38_tf/lib/'

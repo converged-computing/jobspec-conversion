@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-earthworm-2442
+#FLUX --job-name=gassy-platanos-4790
 #FLUX -N=3
 #FLUX --queue=devel
 #FLUX -t=900

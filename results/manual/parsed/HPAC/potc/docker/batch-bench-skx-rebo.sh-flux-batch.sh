@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=skx_potc_bench
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c18m
 #FLUX -t=3600
 #FLUX --urgency=16

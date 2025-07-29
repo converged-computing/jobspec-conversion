@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100-32gb:1
 #SBATCH --mem=730gb
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1-4
 
 module load  gcc/7.4.0 cuda/10.1.243_418.87.00 cudnn/v7.6.2-cuda-10.1 nccl/2.4.2-cuda-10.1 python3/3.7.3

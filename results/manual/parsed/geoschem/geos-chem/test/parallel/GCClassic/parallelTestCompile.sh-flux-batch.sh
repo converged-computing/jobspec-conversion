@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-salad-4211
+#FLUX --job-name=stanky-banana-6797
 #FLUX -c=8
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=30

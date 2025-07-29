@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=bloated-milkshake-2693
-#FLUX: --exclusive
+#FLUX --job-name=anxious-poodle-7871
+#FLUX --exclusive
 #FLUX -t=54000
 #FLUX --urgency=16
 

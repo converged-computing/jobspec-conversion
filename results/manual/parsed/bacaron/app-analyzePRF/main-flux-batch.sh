@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-general-1832
+#FLUX --job-name=eccentric-pedo-1882
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bacaron/app-analyzePRF/main

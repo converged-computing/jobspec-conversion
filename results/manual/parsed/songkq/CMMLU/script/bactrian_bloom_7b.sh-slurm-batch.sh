@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=200G
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu-8
 
 cd /l/users/haonan.li/mygit/CMMLU/src

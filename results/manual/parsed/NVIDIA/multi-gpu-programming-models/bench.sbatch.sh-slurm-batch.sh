@@ -3,7 +3,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=batch
 
 export SRUN_ARGS='--cpu-bind=none --mpi=none --no-container-remap-root --container-mounts=$CONTAINER_MNTS --container-workdir=/mnt --container-name=$CONTAINER_NAME'
 export OMPI_MCA_coll_hcoll_enable='0'

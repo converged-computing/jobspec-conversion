@@ -5,7 +5,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:30:00
-#SBATCH --partition=normal
 
 export GMX_MAXBACKUP='-1'
 

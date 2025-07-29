@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=killable.q
 #SBATCH --constraint=ntasks-per-node=10
 
 export PATH='$PATH:/homes/user/usr/bin:/homes/user/usr/bin/bin'

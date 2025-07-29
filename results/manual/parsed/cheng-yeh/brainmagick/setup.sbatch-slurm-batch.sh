@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:RTX_6000:2
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=inferno
 
 cd $SLURM_SUBMIT_DIR                            # Change to working directory
 module load anaconda3/2022.05                   # Load module dependencies

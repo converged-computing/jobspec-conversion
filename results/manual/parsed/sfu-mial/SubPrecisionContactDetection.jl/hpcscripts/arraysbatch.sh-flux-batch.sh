@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-parsnip-9671
+#FLUX --job-name=crunchy-arm-4811
 #FLUX -c=6
 #FLUX -t=64800
 #FLUX --urgency=16

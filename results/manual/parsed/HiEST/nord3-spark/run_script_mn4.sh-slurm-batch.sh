@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:02:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load intel/2018.1 singularity/3.5.2
 IMAGE=dcc-spark02.simg

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=30G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 module load Anaconda/3-5.0.0.1
 source activate tensorflow-gpu-1.3.0

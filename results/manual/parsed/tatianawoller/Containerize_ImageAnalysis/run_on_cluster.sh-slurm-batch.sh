@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=28672
 #SBATCH --time=04:00:00
-#SBATCH --partition=32GB
 
 module load singularity/3.5.3
 cd [your folder with the container]

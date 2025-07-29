@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-kitty-1209
-#FLUX: --exclusive
+#FLUX --job-name=chocolate-cat-6881
+#FLUX --exclusive
 #FLUX -t=28800
 #FLUX --urgency=16
 

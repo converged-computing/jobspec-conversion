@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-cat-8898
+#FLUX --job-name=stinky-arm-5820
 #FLUX -c=16
 #FLUX --queue=AMG
 #FLUX -t=86400

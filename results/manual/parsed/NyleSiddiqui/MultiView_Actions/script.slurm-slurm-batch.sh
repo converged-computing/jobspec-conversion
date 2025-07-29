@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu
 #SBATCH --constraint=gmem24
 
 module load anaconda3

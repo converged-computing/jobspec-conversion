@@ -5,7 +5,6 @@
 #SBATCH --ntasks=3
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=3G
-#SBATCH --partition=desktop
 
 export EPOCHS='5'
 

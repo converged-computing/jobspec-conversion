@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-squidward-8981
+#FLUX --job-name=purple-toaster-4899
 #FLUX --urgency=16
 
 out_dir=output_directory

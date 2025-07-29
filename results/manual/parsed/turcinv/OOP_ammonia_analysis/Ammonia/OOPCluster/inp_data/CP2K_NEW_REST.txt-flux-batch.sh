@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ch102
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cpu,scpu,bfill
 #FLUX -t=14400
 #FLUX --urgency=16

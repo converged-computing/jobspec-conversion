@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-onion-9661
+#FLUX --job-name=boopy-lizard-0911
 #FLUX --urgency=16
 
 threads=$(nproc --all --ignore=1)

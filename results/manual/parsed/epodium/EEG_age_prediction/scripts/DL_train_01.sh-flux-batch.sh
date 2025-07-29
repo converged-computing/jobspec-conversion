@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-punk-0084
+#FLUX --job-name=faux-mango-4572
 #FLUX --queue=gpu_shared
 #FLUX -t=54000
 #FLUX --urgency=16

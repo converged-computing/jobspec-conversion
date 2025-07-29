@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100g
 #SBATCH --time=10:00:00
-#SBATCH --partition=batch
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=32
 
 export LAMMPS='~/NUFEB/lammps/src/lmp_png'

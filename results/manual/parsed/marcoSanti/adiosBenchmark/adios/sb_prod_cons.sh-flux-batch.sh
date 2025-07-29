@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=creamy-general-7586
-#FLUX: --exclusive
+#FLUX --job-name=red-leopard-9432
+#FLUX --exclusive
 #FLUX --queue=g100_usr_prod
 #FLUX -t=1200
 #FLUX --urgency=16

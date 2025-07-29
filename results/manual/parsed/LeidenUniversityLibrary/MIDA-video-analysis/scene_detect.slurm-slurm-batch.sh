@@ -10,7 +10,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=4G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu-short
 
 export CWD='$(pwd)'
 export SD_EPI='$(sed -n ${SLURM_ARRAY_TASK_ID}p $CWD/episodes.txt)'

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=p4p1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

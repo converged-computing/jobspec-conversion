@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:8
 #SBATCH --mem-per-cpu=0
 #SBATCH --time=12:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=cpu_intel_platinum_8260
 
 PERSISTENT_LOGGING_DIR=../results/$SLURM_JOB_NAME/logs

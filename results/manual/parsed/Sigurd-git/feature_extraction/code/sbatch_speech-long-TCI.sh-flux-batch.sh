@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-noodle-5254
+#FLUX --job-name=faux-butter-2256
 #FLUX -c=10
 #FLUX --queue=doppelbock
 #FLUX -t=14400

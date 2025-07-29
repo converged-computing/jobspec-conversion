@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=16GB
 #SBATCH --time=11:30:00
-#SBATCH --partition=gpu
 
 echo $SLURMD_NODENAME $CUDA_VISIBLE_DEVICES
 . /etc/profile.d/modules.sh

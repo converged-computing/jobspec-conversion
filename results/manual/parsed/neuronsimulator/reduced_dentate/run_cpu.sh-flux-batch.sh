@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=stanky-parsnip-1416
+#FLUX --job-name=loopy-hippo-8838
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

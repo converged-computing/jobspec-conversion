@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-underoos-6273
+#FLUX --job-name=dirty-nalgas-5270
 #FLUX --queue=nesi_prepost
 #FLUX -t=86400
 #FLUX --urgency=16

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=03:00:00
-#SBATCH --partition=yoda
 
 source /home/${USER}/miniconda3/etc/profile.d/conda.sh
 conda activate listen2yourheart

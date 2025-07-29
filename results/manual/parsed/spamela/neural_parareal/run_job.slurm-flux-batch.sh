@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-leg-8352
+#FLUX --job-name=bumfuzzled-car-3933
 #FLUX --queue=skl_fua_prod
 #FLUX --urgency=16
 

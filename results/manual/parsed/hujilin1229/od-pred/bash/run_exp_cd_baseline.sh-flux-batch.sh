@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-salad-1859
+#FLUX --job-name=evasive-parsnip-4925
 #FLUX -c=24
 #FLUX -t=86400
 #FLUX --urgency=16

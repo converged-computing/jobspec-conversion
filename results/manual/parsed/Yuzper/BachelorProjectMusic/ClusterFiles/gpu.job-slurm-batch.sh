@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a30:1
 #SBATCH --mem=160G
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=brown
 
 echo "Running on $(hostname):"
 module load singularity

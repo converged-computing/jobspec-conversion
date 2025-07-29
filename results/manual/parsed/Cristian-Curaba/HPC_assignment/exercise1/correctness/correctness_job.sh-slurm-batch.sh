@@ -4,10 +4,9 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=EPYC
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export code='/u/dssc/folive00/Foundations_of_HPC_2022/Assignment/exercise1'
 export OMP_NUM_THREADS='8'

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu2
 #SBATCH --constraint=ntasks-per-node=3
 
 export PATH='/home/sdigioia/R/bin:${PATH}'

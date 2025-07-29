@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=snpe_c
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=lu
 #FLUX -t=14400
 #FLUX --urgency=16

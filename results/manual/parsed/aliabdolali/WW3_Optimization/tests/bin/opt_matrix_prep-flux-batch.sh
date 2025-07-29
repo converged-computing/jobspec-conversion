@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-egg-9558
+#FLUX --job-name=boopy-destiny-3023
 #FLUX --urgency=16
 
 export HOME_PATH='${HOME}'

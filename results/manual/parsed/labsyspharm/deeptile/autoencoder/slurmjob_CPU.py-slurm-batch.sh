@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8G
 #SBATCH --time=00:03:00
-#SBATCH --partition=priority
 
 module load gcc/6.2.0 python/3.6.0
 source /home/hw233/virtualenv/py3/bin/activate

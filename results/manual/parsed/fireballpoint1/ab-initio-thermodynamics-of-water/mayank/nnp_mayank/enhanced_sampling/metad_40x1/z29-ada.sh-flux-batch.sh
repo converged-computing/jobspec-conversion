@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-itch-8972
+#FLUX --job-name=reclusive-nalgas-1279
 #FLUX -n=15
 #FLUX -t=259200
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-lettuce-8423
+#FLUX --job-name=expressive-bicycle-2872
 #FLUX -c=6
 #FLUX --queue=rise
 #FLUX -t=345600

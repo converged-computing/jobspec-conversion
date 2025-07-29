@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-leg-9174
+#FLUX --job-name=buttery-avocado-7451
 #FLUX -N=2
 #FLUX -c=2
 #FLUX -t=86400

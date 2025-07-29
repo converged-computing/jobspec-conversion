@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=si
 #SBATCH --nodelist=$1
 
 CUR_DATA_DIR=$DATA_DIR

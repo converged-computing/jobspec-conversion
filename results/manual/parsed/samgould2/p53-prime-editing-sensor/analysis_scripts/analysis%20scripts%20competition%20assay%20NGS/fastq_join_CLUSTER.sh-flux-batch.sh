@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-banana-3240
+#FLUX --job-name=loopy-latke-3883
 #FLUX --urgency=15
 
 cd /net/bmc-lab2/data/lab/sanchezrivera/samgould/

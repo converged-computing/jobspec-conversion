@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-peanut-butter-5660
+#FLUX --job-name=astute-itch-6019
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CasperAntonPoulsen/Thesis-Synthex/jobs/lsf10/classification/old/train_mt_05.job

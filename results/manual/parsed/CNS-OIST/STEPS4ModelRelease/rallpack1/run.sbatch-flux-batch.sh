@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=crusty-general-0727
-#FLUX: --exclusive
+#FLUX --job-name=arid-signal-7653
+#FLUX --exclusive
 #FLUX -t=7200
 #FLUX --urgency=16
 

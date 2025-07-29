@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-animal-2401
+#FLUX --job-name=persnickety-train-9048
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gdicker1/MPASscripts/execute_WSC.template

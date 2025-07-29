@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-onion-5168
+#FLUX --job-name=eccentric-snack-8266
 #FLUX -c=8
 #FLUX --queue=RG-Cristobal-Uauy
 #FLUX --urgency=16

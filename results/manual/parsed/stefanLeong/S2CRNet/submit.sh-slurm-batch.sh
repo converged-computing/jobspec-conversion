@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu-normal
 #SBATCH --constraint=GTX1080
 #SBATCH --nodelist=compute-9-10
 

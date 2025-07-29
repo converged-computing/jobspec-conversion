@@ -8,8 +8,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=0
 #SBATCH --time=01:00:00
-#SBATCH --partition=a100
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load cuda/12.2.1
 module load python/3.9.13

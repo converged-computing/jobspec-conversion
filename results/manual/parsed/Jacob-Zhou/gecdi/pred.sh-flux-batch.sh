@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-lamp-9616
+#FLUX --job-name=cowy-noodle-8277
 #FLUX -c=6
 #FLUX --queue=batch
 #FLUX -t=604800

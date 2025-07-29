@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=15000
-#SBATCH --partition=hi
 #SBATCH --array=1-871
 
 module load freebayes/0.9.14-15-gc6f49c0

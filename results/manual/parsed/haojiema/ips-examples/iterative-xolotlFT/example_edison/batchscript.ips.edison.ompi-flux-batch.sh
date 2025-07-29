@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-lizard-4684
+#FLUX --job-name=muffled-staircase-3923
 #FLUX -N=2
 #FLUX --queue=regular
 #FLUX -t=43200

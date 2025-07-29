@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=96
 #SBATCH --mem=64G
 #SBATCH --time=17:00:00
-#SBATCH --partition=Cascade
 #SBATCH --constraint=ntasks-per-node=1
 
 code_dir=/home/ccattin/Stage/Code

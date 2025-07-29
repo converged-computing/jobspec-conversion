@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-chip-4282
+#FLUX --job-name=hanky-noodle-7082
 #FLUX -c=4
 #FLUX --queue=general
 #FLUX -t=3600

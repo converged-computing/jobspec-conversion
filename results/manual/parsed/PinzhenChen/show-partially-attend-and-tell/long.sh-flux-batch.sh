@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-parsnip-2351
+#FLUX --job-name=grated-squidward-1434
 #FLUX --queue=LongJobs
 #FLUX -t=288000
 #FLUX --urgency=16

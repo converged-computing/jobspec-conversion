@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --nodelist=gpu[015-016,019-026]
 
 module load apptainer/1.2.5

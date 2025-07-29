@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=fugly-toaster-8451
-#FLUX: --exclusive
+#FLUX --job-name=pusheena-avocado-7590
+#FLUX --exclusive
 #FLUX -t=10800
 #FLUX --urgency=16
 

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --mem=15G
 #SBATCH --time=2-12:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=5
 
 source ~/miniconda3/etc/profile.d/conda.sh

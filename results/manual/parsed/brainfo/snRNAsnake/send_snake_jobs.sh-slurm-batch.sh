@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=19
 #SBATCH --time=00:06:00
-#SBATCH --partition=core
 
 module purge
 ml conda

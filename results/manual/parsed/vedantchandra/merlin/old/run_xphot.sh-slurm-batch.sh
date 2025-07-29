@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=128000
 #SBATCH --time=00:02:00
-#SBATCH --partition=conroy_priority,test,shared,itc_cluster
 
 module load python
 source ~/.bashrc

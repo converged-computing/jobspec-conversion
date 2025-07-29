@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-noodle-6657
+#FLUX --job-name=evasive-soup-7751
 #FLUX -c=20
 #FLUX -t=10800
 #FLUX --urgency=16

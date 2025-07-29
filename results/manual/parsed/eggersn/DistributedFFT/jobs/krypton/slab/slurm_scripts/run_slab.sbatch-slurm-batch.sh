@@ -6,8 +6,7 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=sgs-only
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export PATH='$PATH:/home/eggersn/opt/krypton/openmpi-4.1.1/bin'
 

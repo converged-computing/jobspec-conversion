@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=06:00:00
-#SBATCH --partition=pascal
 #SBATCH --array=0-1
 
 date

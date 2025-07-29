@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=expressive-earthworm-0044
+#FLUX --job-name=joyous-nalgas-5593
 #FLUX -N=4
 #FLUX -n=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=dev
 #FLUX -t=86400
 #FLUX --urgency=16

@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=shortq
 #SBATCH --constraint=opa
 
 export WORK_DIR='/data/$USER/LMP${SLURM_JOB_ID}'

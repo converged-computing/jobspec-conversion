@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16GB
 #SBATCH --time=1-00:15:00
-#SBATCH --partition=compute
 
 export G='https://raw.githubusercontent.com/TheJacksonLaboratory/mousegwas'
 

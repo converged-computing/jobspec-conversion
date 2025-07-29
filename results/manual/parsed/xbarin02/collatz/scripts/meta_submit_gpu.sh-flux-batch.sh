@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-platanos-1225
+#FLUX --job-name=stanky-snack-0147
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/xbarin02/collatz/scripts/meta_submit_gpu.sh

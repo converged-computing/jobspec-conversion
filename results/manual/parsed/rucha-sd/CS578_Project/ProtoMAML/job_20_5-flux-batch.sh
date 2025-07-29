@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-underoos-6884
+#FLUX --job-name=blue-rabbit-5470
 #FLUX --queue=cuda-gpu
 #FLUX -t=86400
 #FLUX --urgency=16

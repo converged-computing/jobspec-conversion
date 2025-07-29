@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-diablo-5769
+#FLUX --job-name=placid-pedo-4568
 #FLUX --urgency=16
 
 cc=0

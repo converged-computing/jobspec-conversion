@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=batch
 #SBATCH --constraint=ntasks-per-node=$np,[cascadelake|skylake|amd|rome]
 
 quantity="eopreg"           #the variable in the scf file to change valeus you can name it random  to calculate without any change

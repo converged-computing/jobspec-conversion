@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-lemon-0493
+#FLUX --job-name=lovable-car-3188
 #FLUX -c=24
 #FLUX --queue=amdgpufast
 #FLUX -t=14400

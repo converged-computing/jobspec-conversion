@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=100GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=lbarreiro
 
 export PATH='$PATH:/project/lbarreiro/USERS/ellen/programs/FastQC/'
 

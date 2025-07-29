@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-onion-2734
+#FLUX --job-name=wobbly-general-0664
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MaxMax2016/HifiDiff/scripts/kagayaki/train_hifidiffv18r4.sh

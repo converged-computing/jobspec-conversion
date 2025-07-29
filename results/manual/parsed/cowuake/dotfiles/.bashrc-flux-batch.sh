@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=$JOBNAME
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export JULIA_NUM_THREADS='$CPU_CORES'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-general-9033
+#FLUX --job-name=pusheena-puppy-9792
 #FLUX -n=64
 #FLUX --queue=amd_256
 #FLUX --urgency=16

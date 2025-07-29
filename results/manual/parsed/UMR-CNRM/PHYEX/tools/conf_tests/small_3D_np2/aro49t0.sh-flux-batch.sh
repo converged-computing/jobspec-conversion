@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-cat-2679
+#FLUX --job-name=swampy-rabbit-3624
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=03:30:00
-#SBATCH --partition=dpart
 #SBATCH --qos=medium
 
 export WORK_DIR='/cfarhomes/psando/Documents/UAPs/gd-uap-pytorch/'

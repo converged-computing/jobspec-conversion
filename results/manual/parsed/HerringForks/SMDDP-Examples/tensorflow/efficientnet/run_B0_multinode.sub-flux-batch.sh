@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-lettuce-3843
-#FLUX: --exclusive
+#FLUX --job-name=cowy-peanut-5511
+#FLUX --exclusive
 #FLUX --urgency=16
 
 readonly datadir="/datasets/imagenet/train-val-tfrecord"

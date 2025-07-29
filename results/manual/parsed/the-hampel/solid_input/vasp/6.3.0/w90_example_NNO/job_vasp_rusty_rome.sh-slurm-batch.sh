@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=ccq
 #SBATCH --constraint=ntasks-per-node=32,rome
 
 export OMP_NUM_THREADS='4'

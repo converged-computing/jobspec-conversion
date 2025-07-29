@@ -9,7 +9,6 @@
 #SBATCH --ntasks=512
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal
 
 tar xvf package.tar.gz
 module load gromacs

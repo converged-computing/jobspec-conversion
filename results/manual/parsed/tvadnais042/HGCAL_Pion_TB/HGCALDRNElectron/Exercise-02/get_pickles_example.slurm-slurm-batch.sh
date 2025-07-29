@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50g
 #SBATCH --time=04:00:00
-#SBATCH --partition=amd2tb
 
 export PYTHONUNBUFFERED='1'
 

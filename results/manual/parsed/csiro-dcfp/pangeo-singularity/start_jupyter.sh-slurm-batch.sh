@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=4G
 #SBATCH --time=03:00:00
-#SBATCH --partition=workq
 
 module load singularity
 kill_server() {

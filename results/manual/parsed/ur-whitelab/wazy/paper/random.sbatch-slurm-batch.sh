@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=100GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=awhite
 #SBATCH --constraint=A100
 
 module load anaconda3/2020.11

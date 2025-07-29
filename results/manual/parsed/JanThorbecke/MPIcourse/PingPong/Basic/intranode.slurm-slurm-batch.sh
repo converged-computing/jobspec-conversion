@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1G
 #SBATCH --time=00:01:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=2
 
 export OMP_NUM_THREADS='1'

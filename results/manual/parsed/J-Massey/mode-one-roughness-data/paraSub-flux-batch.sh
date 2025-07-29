@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-parrot-2560
+#FLUX --job-name=loopy-leopard-3597
 #FLUX -n=64
 #FLUX --queue=amd
 #FLUX -t=24600

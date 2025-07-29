@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MYDIR='/lustre/eaglefs/projects/hpcapps/tkaiser2/0410/build'
 export TMPDIR='$MYDIR/tmp'

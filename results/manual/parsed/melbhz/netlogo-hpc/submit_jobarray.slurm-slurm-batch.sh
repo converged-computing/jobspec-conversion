@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=02:00:00
-#SBATCH --partition=snowy
 #SBATCH --qos=covid19
 #SBATCH --array=1-100
 

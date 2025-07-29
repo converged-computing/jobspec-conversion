@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:k80:2
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=isi
 
 set -e -x
 echo "SLURM_JOBID=$SLURM_JOBID"

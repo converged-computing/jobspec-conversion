@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=milky-animal-6039
+#FLUX --job-name=fat-platanos-4096
 #FLUX --urgency=16
 

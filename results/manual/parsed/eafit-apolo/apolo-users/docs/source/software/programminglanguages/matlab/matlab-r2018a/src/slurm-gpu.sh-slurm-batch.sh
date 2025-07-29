@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --time=00:20:00
-#SBATCH --partition=accel
 
 module load matlab/r2018a
 matlab -nosplash -nodesktop < gpu_script.m

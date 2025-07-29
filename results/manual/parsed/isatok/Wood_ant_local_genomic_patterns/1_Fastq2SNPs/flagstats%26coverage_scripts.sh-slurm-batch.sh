@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=small
 #SBATCH --array=1-91
 
 module load biokit

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-omelette-7390
+#FLUX --job-name=bloated-onion-2194
 #FLUX -n=40
 #FLUX --urgency=16
 

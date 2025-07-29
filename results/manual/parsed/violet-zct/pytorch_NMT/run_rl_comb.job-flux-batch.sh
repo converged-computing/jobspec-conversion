@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-soup-7445
+#FLUX --job-name=dirty-blackbean-8120
 #FLUX -n=5
 #FLUX -t=0
 #FLUX --urgency=16

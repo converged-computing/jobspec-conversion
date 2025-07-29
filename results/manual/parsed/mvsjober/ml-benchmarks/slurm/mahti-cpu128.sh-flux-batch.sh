@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-chair-4115
+#FLUX --job-name=angry-fork-2215
 #FLUX -c=128
 #FLUX --queue=test
 #FLUX -t=60

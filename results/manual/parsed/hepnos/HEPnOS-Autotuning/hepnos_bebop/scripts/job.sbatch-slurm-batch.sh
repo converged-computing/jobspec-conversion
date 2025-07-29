@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=bdwall
 
 export PSM2_MULTI_EP='1'
 export MARGO_OUTPUT_DIR='$EXPDIR'

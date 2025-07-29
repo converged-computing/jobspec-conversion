@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=pCluster
 
 module load compilers/intel/2019.4.243
 module load intelmpi/2019.4.243

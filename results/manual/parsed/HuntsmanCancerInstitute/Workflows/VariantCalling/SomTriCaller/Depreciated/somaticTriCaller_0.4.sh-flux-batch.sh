@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-blackbean-4307
+#FLUX --job-name=peachy-hope-6259
 #FLUX --queue=hci-kp
 #FLUX -t=864000
 #FLUX --urgency=16

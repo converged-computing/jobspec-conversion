@@ -3,7 +3,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=cpu
 
 module purge
 module load GCC/11.2.0 

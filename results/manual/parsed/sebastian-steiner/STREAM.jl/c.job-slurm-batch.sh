@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:15:00
-#SBATCH --partition=q_thesis
 
 export OMP_NUM_THREADS='32'
 

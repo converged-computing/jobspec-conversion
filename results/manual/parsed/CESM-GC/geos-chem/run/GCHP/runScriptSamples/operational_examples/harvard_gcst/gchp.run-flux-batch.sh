@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-staircase-1121
+#FLUX --job-name=psycho-earthworm-8614
 #FLUX -n=24
 #FLUX --queue=huce_cascade
 #FLUX -t=10

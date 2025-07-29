@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=25G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=all
 
 export PATH='/software/bin:$PATH;'
 

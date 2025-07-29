@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-mango-7349
+#FLUX --job-name=faux-mango-8047
 #FLUX -c=8
 #FLUX --queue=lonepeak
 #FLUX -t=21600

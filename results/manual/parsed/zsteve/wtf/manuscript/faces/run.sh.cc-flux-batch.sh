@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-pastry-3666
+#FLUX --job-name=eccentric-chip-2505
 #FLUX -t=30
 #FLUX --urgency=16
 

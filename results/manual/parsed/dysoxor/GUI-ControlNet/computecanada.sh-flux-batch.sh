@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=stinky-plant-5920
-#FLUX: --exclusive
+#FLUX --job-name=stanky-onion-4510
+#FLUX --exclusive
 #FLUX -t=1440
 #FLUX --urgency=16
 

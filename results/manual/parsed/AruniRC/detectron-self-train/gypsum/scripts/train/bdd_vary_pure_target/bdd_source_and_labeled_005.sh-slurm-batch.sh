@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --mem=100000
-#SBATCH --partition=1080ti-long
 
 python tools/train_net_step.py \
     --dataset bdd_peds+labeled_005 \

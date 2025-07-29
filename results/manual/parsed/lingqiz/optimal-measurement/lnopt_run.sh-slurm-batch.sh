@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=48
 #SBATCH --gres=4
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=a100
 
 cd ~/denoiser_recon/

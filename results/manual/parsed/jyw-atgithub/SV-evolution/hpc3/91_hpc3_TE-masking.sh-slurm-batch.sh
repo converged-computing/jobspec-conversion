@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=30
 #SBATCH --mem=6G
-#SBATCH --partition=standard
 #SBATCH --constraint=fastscratch
 #SBATCH --array=1
 

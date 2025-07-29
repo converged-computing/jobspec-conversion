@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
 #SBATCH --time=00:10:00
-#SBATCH --partition=WORKQ
 
 module load intel/2018b
 module load Python/3.6.6

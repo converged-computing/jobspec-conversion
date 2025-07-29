@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-despacito-4836
+#FLUX --job-name=fugly-despacito-7082
 #FLUX --queue=standard
 #FLUX -t=86400
 #FLUX --urgency=16

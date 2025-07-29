@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=shared
 #SBATCH --constraint=gpu
 
 export FI_MR_CACHE_MONITOR='userfaultfd'

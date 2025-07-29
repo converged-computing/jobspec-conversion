@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-knife-5735
+#FLUX --job-name=hairy-onion-6757
 #FLUX -N=2
 #FLUX -n=12
 #FLUX --queue=work

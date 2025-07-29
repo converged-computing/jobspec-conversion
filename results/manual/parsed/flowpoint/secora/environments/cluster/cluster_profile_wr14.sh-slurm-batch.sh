@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=48G
 #SBATCH --time=00:20:00
-#SBATCH --partition=wr14
 #SBATCH --constraint=ntasks-per-node=12
 
 export HF_HOME='/scratch/fhoels2s/huggingface'

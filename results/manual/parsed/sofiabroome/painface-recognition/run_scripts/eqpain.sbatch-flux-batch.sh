@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-signal-5017
+#FLUX --job-name=blue-mango-4752
 #FLUX -c=4
 #FLUX --urgency=16
 

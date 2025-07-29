@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-arm-1417
+#FLUX --job-name=muffled-motorcycle-8613
 #FLUX --urgency=15
 
 cd /net/bmc-lab2/data/lab/sanchezrivera/samgould/

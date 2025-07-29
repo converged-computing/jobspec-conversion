@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=0
 #SBATCH --time=03:05:07
-#SBATCH --partition=queue.name
 #SBATCH --array=01-60%1
 
     module load matlab

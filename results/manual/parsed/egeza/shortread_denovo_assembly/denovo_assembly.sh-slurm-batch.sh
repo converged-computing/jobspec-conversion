@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=100GB
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=Main
 
 echo "Assmbly Started"
 proj="/cbio/projects/026/"

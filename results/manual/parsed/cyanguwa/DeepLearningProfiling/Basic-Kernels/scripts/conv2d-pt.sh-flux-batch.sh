@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=conv2d-pt
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=special
 #FLUX -t=7200
 #FLUX --urgency=16

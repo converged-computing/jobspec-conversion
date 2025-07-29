@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:2
-#SBATCH --partition=2080ti
 
 module add cuda/10.1
 module add gcc/8.4.0

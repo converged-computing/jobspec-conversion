@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:p100:2
 #SBATCH --mem-per-cpu=32768M
 #SBATCH --time=12:00:00
-#SBATCH --partition=batch
 
 module load cuda/10.1.105
 module load cudnn/7.5.0

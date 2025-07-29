@@ -3,7 +3,7 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export NCCL_ASYNC_ERROR_HANDLING='1'
 export NCCL_DEBUG='INFO'

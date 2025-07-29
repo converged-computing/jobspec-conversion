@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=3
-#SBATCH --partition=a800
 #SBATCH --constraint=ntasks-per-node=20
 
 singularity run --nv \

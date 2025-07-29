@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-peanut-0765
+#FLUX --job-name=phat-lemon-4264
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/projects/nmr_diplomovky/bojove_otravne_latky/GB/dalton/mcscf/casscf/PBS_umb_sk_dal.02

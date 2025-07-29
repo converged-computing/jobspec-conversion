@@ -2,7 +2,7 @@
 #FLUX --job-name=DCTST
 #FLUX -N=16
 #FLUX -n=384
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cpu_small
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=1-18:00:00
-#SBATCH --partition=gpu
 #SBATCH --nodelist=frost-6
 
 cd /work/LAS/jannesar-lab/yusx/MHFL

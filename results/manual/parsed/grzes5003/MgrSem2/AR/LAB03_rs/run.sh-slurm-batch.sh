@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:25:00
-#SBATCH --partition=plgrid
 #SBATCH --constraint=ntasks-per-node=12
 
 if [ -z "$SCRIPT" ]; then

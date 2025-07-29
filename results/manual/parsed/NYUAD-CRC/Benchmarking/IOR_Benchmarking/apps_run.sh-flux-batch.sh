@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=spicy-poo-8883
+#FLUX --job-name=muffled-nalgas-0962
 #FLUX -N=2
 #FLUX -n=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=large
 #FLUX --urgency=16
 

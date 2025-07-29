@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:rtx8000:1
 #SBATCH --mem=180G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=long
 
 export WANDB_API_KEY='831cb57f73367e89b34e0e6cfdb9e2d143987fcd'
 

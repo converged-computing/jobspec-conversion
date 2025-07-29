@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-plant-3665
+#FLUX --job-name=conspicuous-peas-6317
 #FLUX -c=24
 #FLUX --queue=thinnodes
 #FLUX -t=150

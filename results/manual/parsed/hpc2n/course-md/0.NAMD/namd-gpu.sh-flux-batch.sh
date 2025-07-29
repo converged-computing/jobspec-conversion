@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-platanos-6486
+#FLUX --job-name=expressive-cupcake-9647
 #FLUX -n=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

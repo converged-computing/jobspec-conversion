@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1080Ti:1
 #SBATCH --mem=8000mb
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=ialab-high
 #SBATCH --dependency=434
 
 pyenv/bin/python3 train.py  --model segrank \

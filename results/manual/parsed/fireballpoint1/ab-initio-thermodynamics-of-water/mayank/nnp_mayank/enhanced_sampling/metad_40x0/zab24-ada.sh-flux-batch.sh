@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-train-9956
+#FLUX --job-name=ornery-eagle-2649
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

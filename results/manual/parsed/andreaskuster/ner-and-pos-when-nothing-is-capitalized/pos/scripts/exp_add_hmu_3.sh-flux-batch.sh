@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-truffle-7374
+#FLUX --job-name=blank-staircase-6012
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

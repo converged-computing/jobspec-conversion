@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-destiny-3580
+#FLUX --job-name=bumfuzzled-noodle-2694
 #FLUX -c=8
 #FLUX --queue=g100_usr_interactive
 #FLUX -t=600

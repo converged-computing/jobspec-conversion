@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-eagle-8179
+#FLUX --job-name=arid-dog-6889
 #FLUX -N=2
 #FLUX -c=2
 #FLUX -t=1800

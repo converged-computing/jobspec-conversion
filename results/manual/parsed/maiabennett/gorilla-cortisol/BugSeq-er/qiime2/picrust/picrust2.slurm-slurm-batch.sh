@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64000
 #SBATCH --time=12:00:00
-#SBATCH --partition=batch,guest
 #SBATCH --constraint=ntasks-per-node=16
 
 cd /common/claytonlab/maibennett/gorilla_cortisol/AnimalName-IndClusters/Cenzoo/qiime2/picrust

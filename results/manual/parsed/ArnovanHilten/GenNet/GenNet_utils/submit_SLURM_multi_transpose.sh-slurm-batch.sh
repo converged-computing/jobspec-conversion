@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=40G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=short
 
 module purge
 module load Python/3.7.4-GCCcore-8.3.0

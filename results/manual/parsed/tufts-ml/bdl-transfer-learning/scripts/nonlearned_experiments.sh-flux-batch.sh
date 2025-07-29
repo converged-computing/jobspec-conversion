@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-buttface-5831
+#FLUX --job-name=salted-bits-2660
 #FLUX --queue=hugheslab
 #FLUX -t=172800
 #FLUX --urgency=16

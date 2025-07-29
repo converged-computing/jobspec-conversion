@@ -8,8 +8,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=akundaje,khavari
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load R/3.4.0 
 module load java/1.8.0_131

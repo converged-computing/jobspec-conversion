@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=20G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=short
 
 export PATH='/home/jmendietaes/programas/miniconda3/bin:$PATH'
 

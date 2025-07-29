@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-rabbit-0711
+#FLUX --job-name=grated-destiny-9004
 #FLUX --queue=batch
 #FLUX -t=864000
 #FLUX --urgency=16

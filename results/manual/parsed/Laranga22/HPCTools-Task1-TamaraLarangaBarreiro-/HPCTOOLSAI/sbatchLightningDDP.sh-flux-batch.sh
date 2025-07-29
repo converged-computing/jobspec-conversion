@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-avocado-7524
+#FLUX --job-name=psycho-cat-2429
 #FLUX -N=2
 #FLUX -c=32
 #FLUX -t=600

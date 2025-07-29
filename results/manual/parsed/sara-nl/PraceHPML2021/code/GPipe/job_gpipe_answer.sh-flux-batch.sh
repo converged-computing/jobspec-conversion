@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-egg-3963
+#FLUX --job-name=spicy-buttface-7358
 #FLUX -c=6
 #FLUX --queue=gpu_shared_jupyter
 #FLUX -t=180

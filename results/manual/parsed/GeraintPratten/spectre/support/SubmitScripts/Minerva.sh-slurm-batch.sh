@@ -6,9 +6,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=nr
 #SBATCH --constraint=ntasks-per-node=16
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export SPECTRE_BUILD_DIR='/work/nfischer/spectre/build_2021-03-18-Release'
 export SPECTRE_RUN_DIR='${PWD}'

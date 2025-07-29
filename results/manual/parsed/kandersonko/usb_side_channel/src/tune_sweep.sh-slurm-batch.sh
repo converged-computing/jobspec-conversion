@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:titanrtx:2
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu-8
 
 cd $SLURM_SUBMIT_DIR
 echo "JOB timestamp: $(date)"

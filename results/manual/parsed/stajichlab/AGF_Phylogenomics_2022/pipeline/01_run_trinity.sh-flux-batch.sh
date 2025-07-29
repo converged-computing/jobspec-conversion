@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-poodle-0887
+#FLUX --job-name=psycho-peanut-butter-2417
 #FLUX -n=32
 #FLUX --queue=intel,batch
 #FLUX --urgency=16

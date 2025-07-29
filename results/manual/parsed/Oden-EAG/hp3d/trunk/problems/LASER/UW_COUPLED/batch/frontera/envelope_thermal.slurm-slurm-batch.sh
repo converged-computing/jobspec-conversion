@@ -9,7 +9,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=development
 
 export KMP_STACKSIZE='24M   # p=6'
 export KMP_INIT_AT_FORK='FALSE'

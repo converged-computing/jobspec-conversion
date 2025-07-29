@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-nalgas-8725
+#FLUX --job-name=fuzzy-despacito-1800
 #FLUX -n=4
 #FLUX -c=8
 #FLUX -t=172800

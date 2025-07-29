@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=hpl
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=MI250
 #FLUX -t=600
 #FLUX --urgency=16

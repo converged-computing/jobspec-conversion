@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=08:00:00
-#SBATCH --partition=batch
 
 module load julia/1.5.0
 cd /users/yh31/scratch/projects/gigaword_64k/

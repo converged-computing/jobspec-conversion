@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-leader-3473
+#FLUX --job-name=astute-leopard-0632
 #FLUX -n=8
 #FLUX --queue=bigmem
 #FLUX -t=1065600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-parrot-8842
+#FLUX --job-name=expressive-itch-3618
 #FLUX --queue=priority
 #FLUX --urgency=16
 

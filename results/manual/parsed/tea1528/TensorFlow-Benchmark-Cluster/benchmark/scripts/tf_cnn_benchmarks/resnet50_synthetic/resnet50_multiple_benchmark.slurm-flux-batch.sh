@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-lettuce-2782
+#FLUX --job-name=reclusive-spoon-3631
 #FLUX --queue=maxwell
 #FLUX -t=72000
 #FLUX --urgency=16

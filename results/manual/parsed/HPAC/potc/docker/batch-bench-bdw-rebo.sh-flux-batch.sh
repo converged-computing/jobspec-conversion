@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=bdw_potc_bench
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c16m
 #FLUX -t=3600
 #FLUX --urgency=16

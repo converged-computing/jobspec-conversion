@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 basedir="/mnt/rnabl-work/Guiblet/CCBRRBL7/MOP2_repo"
 nextflow="/mnt/rnabl-work/Guiblet/CCBRRBL7/nextflow"

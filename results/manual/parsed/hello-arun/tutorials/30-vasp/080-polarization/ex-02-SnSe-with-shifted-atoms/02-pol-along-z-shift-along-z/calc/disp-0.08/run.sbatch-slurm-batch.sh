@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=batch
 #SBATCH --constraint=amd,ntasks-per-node=24
 
 srcDIR=$(pwd)

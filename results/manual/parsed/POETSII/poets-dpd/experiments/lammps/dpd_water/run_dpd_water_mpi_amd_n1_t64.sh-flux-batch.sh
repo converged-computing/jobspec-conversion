@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-train-7705
+#FLUX --job-name=gassy-truffle-6980
 #FLUX --queue=amd
 #FLUX --urgency=16
 

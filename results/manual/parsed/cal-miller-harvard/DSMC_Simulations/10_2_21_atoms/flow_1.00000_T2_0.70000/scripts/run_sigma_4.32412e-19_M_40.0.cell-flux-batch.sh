@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-bicycle-9887
+#FLUX --job-name=crusty-fork-9613
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=48
 #SBATCH --mem=80G
 #SBATCH --time=12:30:00
-#SBATCH --partition=batch
 #SBATCH --constraint=48core
 
 module load rust 

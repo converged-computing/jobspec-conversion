@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=1
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=1,a40|rtx_6000|2080_ti
 #SBATCH --exclude=calculon,alexa,cortana,bmo,c3po,ripl-s1,t1000,hal,irona,fiona
 

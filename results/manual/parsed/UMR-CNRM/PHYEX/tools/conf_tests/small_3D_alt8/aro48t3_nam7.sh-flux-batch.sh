@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-squidward-3297
+#FLUX --job-name=delicious-arm-5506
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

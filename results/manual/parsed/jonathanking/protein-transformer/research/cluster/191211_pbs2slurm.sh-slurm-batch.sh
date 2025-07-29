@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=10g
 #SBATCH --time=28-00:00:00
-#SBATCH --partition=dept_gpu
 
 eval "$(conda shell.bash hook)"
 conda activate pytorch-build

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=32GB
 #SBATCH --time=1-04:00:00
-#SBATCH --partition=v100
 
 config_path=$1
 ext3_path=/scratch/$USER/py39/overlay-25GB-500K.ext3

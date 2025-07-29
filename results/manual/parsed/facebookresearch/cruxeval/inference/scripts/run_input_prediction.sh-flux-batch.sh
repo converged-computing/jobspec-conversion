@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-itch-9031
+#FLUX --job-name=quirky-kerfuffle-5411
 #FLUX -c=10
 #FLUX --gpus-per-task=1
 #FLUX --queue=YOUR_PARTITION_HERE

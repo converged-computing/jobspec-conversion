@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-leg-4841
+#FLUX --job-name=eccentric-caramel-1880
 #FLUX --queue=MI100
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=main
 
 cd /scratch/cl1205/protease-gcnn-pytorch/model
 data=$1

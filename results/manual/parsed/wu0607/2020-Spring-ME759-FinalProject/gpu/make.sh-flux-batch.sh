@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-staircase-8186
+#FLUX --job-name=adorable-avocado-6456
 #FLUX --queue=wacc
 #FLUX --urgency=16
 

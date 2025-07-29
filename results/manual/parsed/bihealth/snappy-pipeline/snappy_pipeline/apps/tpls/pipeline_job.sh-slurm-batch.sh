@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=%(partition)s
 
 export TMPDIR='${HOME}/scratch/tmp'
 export SBATCH_DEFAULTS=' --output=${LOGDIR}/%%x-%%j.log'

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=cpulong
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=1-420
 #SBATCH --exclude=n33

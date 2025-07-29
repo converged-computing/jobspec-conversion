@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=07:00:00
-#SBATCH --partition=gpu
 
 module load cuda/toolkit
 module load libxml2

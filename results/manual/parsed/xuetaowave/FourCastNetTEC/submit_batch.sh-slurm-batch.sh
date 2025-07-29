@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:a100:2
 #SBATCH --time=01:00:00
-#SBATCH --partition=GPU-8A100
 #SBATCH --qos=gpu_8a100
 
 export HDF5_USE_FILE_LOCKING='FALSE'

@@ -5,8 +5,7 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
-#SBATCH --partition=megatron
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export LOGLEVEL='INFO'
 export CUDA_DEVICE_MAX_CONNECTIONS='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-buttface-0838
+#FLUX --job-name=spicy-citrus-8623
 #FLUX -n=4
 #FLUX --queue=standard
 #FLUX -t=14400

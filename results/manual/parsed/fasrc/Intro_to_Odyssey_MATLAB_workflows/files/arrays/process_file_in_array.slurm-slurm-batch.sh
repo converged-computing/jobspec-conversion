@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000
 #SBATCH --time=00:00:15
-#SBATCH --partition=serial_requeue
 
 source new-modules.sh
 module load matlab

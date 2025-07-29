@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-hippo-6542
+#FLUX --job-name=red-caramel-7672
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

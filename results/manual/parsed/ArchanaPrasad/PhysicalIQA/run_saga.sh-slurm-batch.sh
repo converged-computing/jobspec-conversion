@@ -6,7 +6,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=4g
 #SBATCH --time=20:00:00
-#SBATCH --partition=mics
 
 source ~/.bashrc
 conda activate ai2

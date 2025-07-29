@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=30000
 #SBATCH --time=01:00:00
-#SBATCH --partition=brown
 
 module load singularity
 module --ignore-cache load CUDA

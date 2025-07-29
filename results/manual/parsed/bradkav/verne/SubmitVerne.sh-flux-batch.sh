@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-mango-6045
+#FLUX --job-name=goodbye-bicycle-2223
 #FLUX --queue=normal
 #FLUX -t=21600
 #FLUX --urgency=16

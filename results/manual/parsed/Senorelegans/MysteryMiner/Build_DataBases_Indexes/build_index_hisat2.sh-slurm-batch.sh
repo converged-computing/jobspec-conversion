@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=40gb
 #SBATCH --time=04:05:00
-#SBATCH --partition=short
 
 module load hisat2/2.1.0
 IN=/scratch/Users/mame5141/2019/RNAseq-Biome-Nextflow/ensembl

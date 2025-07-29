@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-banana-6600
+#FLUX --job-name=confused-caramel-9230
 #FLUX -n=5
 #FLUX --queue=gpu
 #FLUX --urgency=16

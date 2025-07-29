@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=sbLite
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=259200
 #FLUX --urgency=16
 

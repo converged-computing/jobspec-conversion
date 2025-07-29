@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:V100:1
 #SBATCH --mem=48G
 #SBATCH --time=04:00:00
-#SBATCH --partition=informatik-mind
 
 export TOKENIZERS_PARALLELISM='true'
 

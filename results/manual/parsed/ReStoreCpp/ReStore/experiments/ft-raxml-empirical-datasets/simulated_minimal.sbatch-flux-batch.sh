@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-peanut-butter-1512
+#FLUX --job-name=scruptious-squidward-2164
 #FLUX -N=16
 #FLUX --queue=test
 #FLUX -t=900

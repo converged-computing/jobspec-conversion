@@ -2,7 +2,7 @@
 #FLUX --job-name=imb_8_1
 #FLUX -N=8
 #FLUX -n=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43200
 #FLUX --urgency=16
 

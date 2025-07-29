@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-arm-8652
+#FLUX --job-name=astute-knife-6501
 #FLUX --urgency=16
 
 export machine='WCOSS_DELL_P3'

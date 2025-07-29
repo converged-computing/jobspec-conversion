@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=00:30:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1,gpu
 
 module purge && module load  esslurm gcc/7.3.0 python3 cuda/10.1.243

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-dog-1155
+#FLUX --job-name=crunchy-banana-5827
 #FLUX -c=2
 #FLUX --queue=hgx
 #FLUX -t=600

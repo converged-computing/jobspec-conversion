@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-buttface-0832
+#FLUX --job-name=evasive-knife-3049
 #FLUX -N=49
 #FLUX -n=49
 #FLUX -c=12

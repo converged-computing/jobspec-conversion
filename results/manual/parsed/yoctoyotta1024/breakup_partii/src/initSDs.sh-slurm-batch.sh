@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30G
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=128
 
 module load python3/2022.01-gcc-11.2.0

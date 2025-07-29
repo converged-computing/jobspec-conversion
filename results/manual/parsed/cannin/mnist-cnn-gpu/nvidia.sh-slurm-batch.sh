@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:teslaK80:2
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpu
 
 module load gcc/6.2.0
 module load cuda/10.0

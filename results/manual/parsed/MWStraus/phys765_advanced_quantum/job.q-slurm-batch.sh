@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=10G
-#SBATCH --partition=brownlab-gpu,common,scavenger
 #SBATCH --array=1-1
 
 source ~/miniconda3/etc/profile.d/conda.sh

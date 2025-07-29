@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-latke-7660
+#FLUX --job-name=eccentric-gato-4229
 #FLUX --queue=gpu
 #FLUX -t=72300
 #FLUX --urgency=16

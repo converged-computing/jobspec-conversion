@@ -10,8 +10,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=GPUQ
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=V100|A100
 
 module load Python/3.8.6-GCCcore-10.2.0

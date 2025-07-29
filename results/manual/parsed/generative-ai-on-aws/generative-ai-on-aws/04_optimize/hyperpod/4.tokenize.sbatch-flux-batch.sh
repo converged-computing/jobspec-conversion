@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-rabbit-3926
+#FLUX --job-name=blue-leg-5008
 #FLUX -c=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 : "${APPS_PATH:=/fsx}"

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=${maxram}
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=rra
 #SBATCH --qos=rra
 #SBATCH --array=0-$((${
 

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=48
 #SBATCH --gres=gpu:h100:8
 #SBATCH --mem=11G
-#SBATCH --partition=hopper-prod
 #SBATCH --qos=high
 #SBATCH --constraint=ntasks-per-node=1
 

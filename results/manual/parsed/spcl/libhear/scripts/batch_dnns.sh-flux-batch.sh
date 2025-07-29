@@ -2,7 +2,7 @@
 #FLUX --job-name=dlrm_resnet
 #FLUX -N=16
 #FLUX -n=256
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX -t=25200
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=47-00:00:00
-#SBATCH --partition=intel
 #SBATCH --exclude=gaggle-[0,1]
 
 export OMP_NUM_THREADS='8,1'

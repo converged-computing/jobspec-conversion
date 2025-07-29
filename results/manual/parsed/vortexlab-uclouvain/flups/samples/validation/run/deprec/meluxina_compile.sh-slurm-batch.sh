@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=cpu
 #SBATCH --qos=short
 
 source ${MODULES} ${OMPIVERSION}

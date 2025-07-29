@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-latke-0478
+#FLUX --job-name=stinky-hippo-8897
 #FLUX --queue=amdgpufast
 #FLUX -t=14400
 #FLUX --urgency=16

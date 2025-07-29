@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=longq
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module load singularity  # only needed if containers are yet to be downloaded
 module load nextflow

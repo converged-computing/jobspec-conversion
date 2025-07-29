@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-avocado-7304
+#FLUX --job-name=hello-banana-7714
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/shortlab/2016Disoriented/simulation_inputs_outputs/Fig5/Cu_100_100/1e-3/Cu-case-8.in.pbs

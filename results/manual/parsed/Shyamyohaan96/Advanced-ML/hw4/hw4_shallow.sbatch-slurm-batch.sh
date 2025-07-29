@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=20G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 #SBATCH --chdir=/home/cs504311/hw_6/
 #SBATCH --array=0-4
 

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:4
 #SBATCH --time=00:15:00
-#SBATCH --partition=dav
 #SBATCH --constraint=ntasks-per-node=8
 
 export LD_LIBRARY_PATH='${NCAR_ROOT_CUDA}/lib64:${LD_LIBRARY_PATH}'

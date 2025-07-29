@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=50gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --exclude=pgpu01
 
 export PYTHONPATH='/cluster/tufts/liulab/lib/anaconda3/envs/lipinggpu/lib/python3.7/site-packages/:$PYTHONPATH'

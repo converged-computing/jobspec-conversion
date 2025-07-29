@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=amd_256
 
 b=$SAMPLE
 wd=${READ_DIR}

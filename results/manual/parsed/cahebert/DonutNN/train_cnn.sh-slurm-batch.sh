@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 module load python/2.7.5
 module load tensorflow

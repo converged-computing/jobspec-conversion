@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-general-3888
+#FLUX --job-name=astute-omelette-2034
 #FLUX -c=14
 #FLUX --queue=all
 #FLUX -t=42000

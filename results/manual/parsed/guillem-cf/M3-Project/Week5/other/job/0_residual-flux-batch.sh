@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-house-0050
+#FLUX --job-name=red-fudge-4751
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

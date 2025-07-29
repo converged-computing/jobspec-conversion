@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-milkshake-9716
+#FLUX --job-name=eccentric-fudge-2582
 #FLUX -c=16
 #FLUX --queue=gpu
 #FLUX -t=1800

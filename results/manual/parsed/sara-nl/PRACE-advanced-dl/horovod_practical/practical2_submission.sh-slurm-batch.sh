@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:50:00
-#SBATCH --partition=broadwell
 
 ulimit -a
 module load Python/3.6.3-foss-2017b

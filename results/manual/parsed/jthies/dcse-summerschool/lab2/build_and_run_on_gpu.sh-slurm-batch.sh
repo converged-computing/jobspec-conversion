@@ -6,7 +6,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=1GB
 #SBATCH --time=00:02:00
-#SBATCH --partition=gpu
 
 source trilinos-env-gpu.sh
 cd build-gpu

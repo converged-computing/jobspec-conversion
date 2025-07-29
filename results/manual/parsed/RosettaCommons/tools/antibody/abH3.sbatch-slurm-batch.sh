@@ -9,7 +9,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 
 export MKL_MIC_ENABLE='1'
 

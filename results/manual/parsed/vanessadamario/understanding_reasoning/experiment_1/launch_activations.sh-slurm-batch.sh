@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=8GB,2G
 #SBATCH --array=0
 #SBATCH --exclude=node003,node023,node026,node022

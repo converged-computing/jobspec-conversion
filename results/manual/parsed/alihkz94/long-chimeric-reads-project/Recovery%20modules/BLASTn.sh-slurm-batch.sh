@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --mem=8G
 #SBATCH --time=2-22:00:00
-#SBATCH --partition=amd
 
 DIR="/gpfs/space/home/alihakim/blast/blast_70_75"  # Update with the path to your fasta files
 HEADER="qseqid stitle qlen slen qstart qend sstart send evalue length nident mismatch gapopen gaps sstrand qcovs pident"

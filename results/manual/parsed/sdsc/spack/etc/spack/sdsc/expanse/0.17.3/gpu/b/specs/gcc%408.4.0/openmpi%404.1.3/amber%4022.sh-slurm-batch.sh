@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=ind-gpu-shared
 #SBATCH --constraint=ntasks-per-node=1
 
 declare -xr LOCAL_TIME="$(date +'%Y%m%dT%H%M%S%z')"

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:0,craynetwork:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=1,gpu
 
 export HYPRE_ROOT='/users/novatig/hypre/build'

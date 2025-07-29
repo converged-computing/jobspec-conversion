@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=32gb
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=titans
 
 echo "Node: $(hostname)"
 echo "Start: $(date +%F-%R:%S)"

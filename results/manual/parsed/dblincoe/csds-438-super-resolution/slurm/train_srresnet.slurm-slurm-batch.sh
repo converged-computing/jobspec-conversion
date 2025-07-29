@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=100gb
 #SBATCH --time=05:00:00
-#SBATCH --partition=class
 
 module load cuda/11.2
 source venv/bin/activate

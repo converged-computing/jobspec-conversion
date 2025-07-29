@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=64G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=maxwell
 #SBATCH --constraint=ntasks-per-node=12
 
 setpkgs -a matlab_r2016b

@@ -7,7 +7,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=Epyc7452
 #SBATCH --qos=short
 
 export PYTHONPATH='/home/areina/DecisionsOnNetworks/src/'

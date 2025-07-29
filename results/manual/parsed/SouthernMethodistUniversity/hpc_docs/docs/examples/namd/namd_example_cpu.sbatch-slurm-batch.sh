@@ -4,8 +4,7 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=standard-mem-s
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module purge
 module load namd/2.12/cpu

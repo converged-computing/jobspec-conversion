@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=96g
-#SBATCH --partition=allnodes
 
 declare -a StringArray=("35EE8L 3821AL 49CFCL 4B146L 4C2E5L T47D")
 for i in ${StringArray[@]}

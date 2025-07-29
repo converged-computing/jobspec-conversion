@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=10G
 #SBATCH --time=00:03:00
-#SBATCH --partition=maxwell
 
 PORT_NUM=8888
 echo "This job will run a Jupyter notebook from within a Singularity image"

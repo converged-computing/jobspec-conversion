@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-nunchucks-1428
+#FLUX --job-name=red-fork-7512
 #FLUX -c=32
 #FLUX --queue=sched_mit_rafagb_amd,sched_mit_rafagb
 #FLUX -t=258000

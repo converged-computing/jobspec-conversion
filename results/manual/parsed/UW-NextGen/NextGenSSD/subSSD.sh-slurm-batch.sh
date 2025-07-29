@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:gtx1080:1
 #SBATCH --time=00:12:00
-#SBATCH --partition=slurm_courtesy
 
 module load usermods
 module load user/cuda

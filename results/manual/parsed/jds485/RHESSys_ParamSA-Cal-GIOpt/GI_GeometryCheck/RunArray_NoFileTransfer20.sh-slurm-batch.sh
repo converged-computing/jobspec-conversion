@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=standard
 #SBATCH --chdir=/scratch/js4yd/GI_RandomSeedEval910/RHESSysRuns/
 
 module purge

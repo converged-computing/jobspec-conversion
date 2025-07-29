@@ -7,9 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=regular
 #SBATCH --constraint=ntasks-per-node=32,gpu
-#SBATCH --licenses=SCRATCH
 
 export SCRATCH_FOLDER='$SCRATCH/cytochrome/$SLURM_JOB_ID'
 export INDEX_PATH='$SCRATCH/cytochrome/${1}'

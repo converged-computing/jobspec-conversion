@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2000M
 #SBATCH --time=00:20:00
-#SBATCH --partition=normal
 
 NPROCS=${SLURM_NTASKS}
 module purge

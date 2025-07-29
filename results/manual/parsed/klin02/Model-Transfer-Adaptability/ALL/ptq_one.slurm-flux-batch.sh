@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-bicycle-3320
+#FLUX --job-name=frigid-toaster-0391
 #FLUX --queue=nv-gpu
 #FLUX -t=108000
 #FLUX --urgency=16

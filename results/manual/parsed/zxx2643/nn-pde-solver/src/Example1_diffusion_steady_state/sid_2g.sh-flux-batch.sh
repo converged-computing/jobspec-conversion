@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-parrot-8148
+#FLUX --job-name=sticky-caramel-5937
 #FLUX --queue=gpu-shared
 #FLUX -t=1800
 #FLUX --urgency=16

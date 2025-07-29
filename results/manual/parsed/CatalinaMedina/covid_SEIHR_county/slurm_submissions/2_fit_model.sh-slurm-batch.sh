@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=5G
 #SBATCH --time=04:00:00
-#SBATCH --partition=standard
 #SBATCH --array=1-64
 #SBATCH --exclude=hpc3-15-29,hpc3-21-30
 

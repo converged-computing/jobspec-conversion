@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-carrot-2560
+#FLUX --job-name=dirty-blackbean-5407
 #FLUX --queue=gpu
 #FLUX -t=1200
 #FLUX --urgency=16

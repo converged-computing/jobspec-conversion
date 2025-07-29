@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-diablo-9345
+#FLUX --job-name=fat-hobbit-2997
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Saric-Group/amyloid-simulations/job_templates/lemon/nucleation

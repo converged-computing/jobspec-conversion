@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-banana-4879
-#FLUX: --exclusive
+#FLUX --job-name=outstanding-noodle-0085
+#FLUX --exclusive
 #FLUX --urgency=16
 
 set -eux

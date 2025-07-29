@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-car-4184
+#FLUX --job-name=confused-carrot-8410
 #FLUX --queue=main
 #FLUX --urgency=16
 

@@ -5,7 +5,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=32G
 #SBATCH --time=16:00:00
-#SBATCH --partition=short
 
 CONTAINER="${HOME}/containers/rapids-prod.sif"
 CONTAINER_RC_FILE="${HOME}/containers/singularity_rc"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-leg-5468
+#FLUX --job-name=eccentric-chair-6940
 #FLUX -c=16
 #FLUX -t=432000
 #FLUX --urgency=16

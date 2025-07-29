@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 set -eux
 IMAGE_VERSION=${IMAGE_VERSION:-"22.12-py3"}

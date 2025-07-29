@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-carrot-0184
+#FLUX --job-name=expressive-caramel-2732
 #FLUX -c=3
 #FLUX --queue=gpu
 #FLUX --urgency=16

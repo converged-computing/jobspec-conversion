@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-blackbean-8203
+#FLUX --job-name=lovable-peas-1061
 #FLUX -N=16
 #FLUX -n=256
 #FLUX -t=1800

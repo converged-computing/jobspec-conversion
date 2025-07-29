@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16000
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 
 echo starting_jobscript
 module add CUDA/10.1.243-GCC-8.3.0

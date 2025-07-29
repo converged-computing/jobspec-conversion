@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=dask_worker
 #FLUX -N=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=21600
 #FLUX --urgency=16
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=cowy-buttface-5950
+#FLUX --job-name=pusheena-kerfuffle-1321
 #FLUX -N=2
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpc6anpg
 #FLUX --urgency=16
 

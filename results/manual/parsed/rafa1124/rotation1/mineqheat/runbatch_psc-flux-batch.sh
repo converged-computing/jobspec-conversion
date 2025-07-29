@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-salad-2211
+#FLUX --job-name=tart-egg-1213
 #FLUX -N=16
 #FLUX -c=14
 #FLUX --queue=RM

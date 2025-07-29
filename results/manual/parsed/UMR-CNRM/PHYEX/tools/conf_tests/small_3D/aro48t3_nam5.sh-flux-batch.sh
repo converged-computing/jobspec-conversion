@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-earthworm-2540
+#FLUX --job-name=dinosaur-general-3261
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

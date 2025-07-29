@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-arm-2028
+#FLUX --job-name=misunderstood-kerfuffle-7413
 #FLUX -c=10
 #FLUX --queue=hns,normal
 #FLUX -t=28800

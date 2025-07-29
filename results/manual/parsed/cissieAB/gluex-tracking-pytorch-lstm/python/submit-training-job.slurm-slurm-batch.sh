@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:T4:1
 #SBATCH --mem=4000
-#SBATCH --partition=gpu
 
 set -euxo pipefail
 srun nvidia-smi

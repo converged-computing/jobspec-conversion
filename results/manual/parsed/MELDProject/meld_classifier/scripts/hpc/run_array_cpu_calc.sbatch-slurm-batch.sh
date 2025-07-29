@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64000
 #SBATCH --time=00:10:00
-#SBATCH --partition=skylake-himem
 #SBATCH --array=0-99
 
 export OMP_NUM_THREADS='1'

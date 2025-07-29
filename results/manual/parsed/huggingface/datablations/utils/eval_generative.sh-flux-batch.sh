@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-chair-4464
+#FLUX --job-name=blank-citrus-5811
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=small-g
 #FLUX -t=172800
 #FLUX --urgency=16

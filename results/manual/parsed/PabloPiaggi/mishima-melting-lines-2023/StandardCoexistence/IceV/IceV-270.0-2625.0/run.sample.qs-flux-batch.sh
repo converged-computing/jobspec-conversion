@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-destiny-0842
+#FLUX --job-name=confused-chip-5332
 #FLUX -c=7
 #FLUX -t=259200
 #FLUX --urgency=16

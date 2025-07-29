@@ -5,9 +5,8 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=course
 #SBATCH --constraint=ntasks-per-node=4
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module load compiles/intel/2019/u4/config
 module load lib/gcc/9.2.0/config

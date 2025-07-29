@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=600G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=bigmem
 
 export PATH='/home/software/apps/masurca/3.4.1/bin/../CA8/Linux-amd64/bin:/home/software/apps/masurca/3.4.1/bin:$PATH'
 export PERL5LIB='/home/software/apps/masurca/3.4.1/bin/../lib/perl${PERL5LIB:+:$PERL5LIB}'

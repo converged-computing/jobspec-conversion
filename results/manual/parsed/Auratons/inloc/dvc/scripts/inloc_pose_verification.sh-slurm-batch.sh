@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=150G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --exclude=node-12
 
 export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}:${CURRENT_DIR}/../../functions/vlfeat/toolbox/mex/mexa64/'

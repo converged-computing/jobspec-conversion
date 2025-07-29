@@ -4,7 +4,6 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=normal
 
 export PATH='$PATH:/home/omnia-share/openmpi-4.1.5'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/omnia-share/openmpi-4.1.5/lib'

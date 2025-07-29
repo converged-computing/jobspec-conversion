@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export COMMIT='$1'
 export MFIX='/app/mfix/build/mfix/mfix'

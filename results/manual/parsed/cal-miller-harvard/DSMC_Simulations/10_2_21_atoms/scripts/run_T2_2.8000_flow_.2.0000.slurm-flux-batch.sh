@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-car-8861
+#FLUX --job-name=bloated-hobbit-6386
 #FLUX -n=2
 #FLUX --queue=shared
 #FLUX -t=480

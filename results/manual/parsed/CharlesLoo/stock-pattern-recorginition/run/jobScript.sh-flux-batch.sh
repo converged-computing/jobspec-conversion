@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-lettuce-2871
+#FLUX --job-name=purple-parrot-3465
 #FLUX --queue=batch
 #FLUX -t=300
 #FLUX --urgency=16

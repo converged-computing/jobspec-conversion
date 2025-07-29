@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=00:01:00
-#SBATCH --partition=short
 
 module load gcc/4.8.5
 module load rosetta 

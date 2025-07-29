@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=conv2d_test
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=7200
 #FLUX --urgency=16
 

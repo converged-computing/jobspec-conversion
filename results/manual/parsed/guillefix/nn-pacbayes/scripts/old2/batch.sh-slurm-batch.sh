@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=big
 
 dataset=$1
 network=$2

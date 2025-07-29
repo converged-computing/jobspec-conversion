@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=64gb
 #SBATCH --time=04:00:00
-#SBATCH --partition=batch
 
 date
 ml Anaconda3

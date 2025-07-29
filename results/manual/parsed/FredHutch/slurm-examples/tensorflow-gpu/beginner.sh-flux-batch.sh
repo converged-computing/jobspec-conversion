@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-hippo-3203
+#FLUX --job-name=bloated-malarkey-2179
 #FLUX --urgency=16
 
 set -e

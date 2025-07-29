@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-blackbean-7629
+#FLUX --job-name=psycho-onion-0522
 #FLUX --queue=shas-testing
 #FLUX -t=120
 #FLUX --urgency=16

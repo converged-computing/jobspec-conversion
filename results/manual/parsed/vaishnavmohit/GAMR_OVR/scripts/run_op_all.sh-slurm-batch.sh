@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=20G
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=quadrortx
 
 export NCCL_DEBUG='INFO'

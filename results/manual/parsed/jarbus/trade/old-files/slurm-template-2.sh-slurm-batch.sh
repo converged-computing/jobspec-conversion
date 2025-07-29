@@ -10,9 +10,8 @@
 #SBATCH --gres=gpu:TitanX:8
 #SBATCH --mem=1GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=guest-gpu
 #SBATCH --qos=low-gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 source /home/garbus/.bashrc

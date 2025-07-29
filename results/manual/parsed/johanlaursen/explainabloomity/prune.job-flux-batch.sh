@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-hobbit-0799
+#FLUX --job-name=persnickety-frito-4314
 #FLUX -c=4
 #FLUX --queue=red,brown
 #FLUX -t=7200

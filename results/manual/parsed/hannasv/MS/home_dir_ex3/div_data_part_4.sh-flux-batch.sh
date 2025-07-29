@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-kerfuffle-8878
+#FLUX --job-name=purple-leg-0802
 #FLUX -n=32
 #FLUX --queue=defq
 #FLUX -t=87840

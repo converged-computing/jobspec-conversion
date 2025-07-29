@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-pot-9565
+#FLUX --job-name=arid-pastry-0241
 #FLUX -n=16
 #FLUX --queue=shared
 #FLUX -t=480

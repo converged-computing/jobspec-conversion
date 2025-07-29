@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=36
 #SBATCH --mem=600g
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=largemem
 
 source /data/abbass2/Apps/conda/bin/activate snakes
 snakemake --use-conda --cores 32

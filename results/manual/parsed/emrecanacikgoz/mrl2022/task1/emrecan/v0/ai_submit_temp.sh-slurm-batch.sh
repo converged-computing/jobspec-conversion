@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:tesla_t4:1
 #SBATCH --mem=20G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=ai
 #SBATCH --qos=ai
 #SBATCH --constraint=ntasks-per-node=2
 

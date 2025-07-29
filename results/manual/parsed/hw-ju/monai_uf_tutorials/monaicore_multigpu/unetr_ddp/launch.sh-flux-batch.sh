@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-lemur-8715
+#FLUX --job-name=bricky-despacito-8399
 #FLUX -c=4
 #FLUX --gpus-per-task=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpg-ai
 #FLUX -t=14400
 #FLUX --urgency=16

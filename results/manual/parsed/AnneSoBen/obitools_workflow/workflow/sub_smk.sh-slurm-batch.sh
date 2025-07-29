@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
-#SBATCH --partition=unlimitq
 
 source activate snakemake
 snakemake --cores 1 --unlock

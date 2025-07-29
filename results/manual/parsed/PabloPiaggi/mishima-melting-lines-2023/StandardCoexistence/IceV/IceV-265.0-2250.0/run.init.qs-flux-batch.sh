@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-bits-1067
+#FLUX --job-name=moolicious-squidward-8003
 #FLUX -c=7
 #FLUX -t=86400
 #FLUX --urgency=16

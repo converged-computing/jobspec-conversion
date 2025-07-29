@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=devtaras
 
 source ~/venv_python3/bin/activate
 d=/auto/tms7/herzog1/build/qp2/bin

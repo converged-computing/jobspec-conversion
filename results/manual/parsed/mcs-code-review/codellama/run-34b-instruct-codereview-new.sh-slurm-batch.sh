@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=100G
 #SBATCH --time=1-16:00:00
-#SBATCH --partition=deeplearn
 #SBATCH --qos=gpgpudeeplearn
 #SBATCH --constraint=dlg5
 

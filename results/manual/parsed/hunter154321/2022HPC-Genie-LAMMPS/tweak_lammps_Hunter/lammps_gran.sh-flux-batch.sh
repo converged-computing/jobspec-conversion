@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-fork-3987
+#FLUX --job-name=wobbly-eagle-7861
 #FLUX -N=2
 #FLUX --urgency=16
 

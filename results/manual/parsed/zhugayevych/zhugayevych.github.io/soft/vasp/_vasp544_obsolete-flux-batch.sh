@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-cat-0714
+#FLUX --job-name=gassy-peanut-4605
 #FLUX -c=16
 #FLUX --queue=AMG
 #FLUX -t=86400

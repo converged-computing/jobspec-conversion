@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:6
 #SBATCH --mem=128G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=soundbendor
 #SBATCH --nodelist=cn-m-1
 
 module load python/3.10 cuda/11.7 sox

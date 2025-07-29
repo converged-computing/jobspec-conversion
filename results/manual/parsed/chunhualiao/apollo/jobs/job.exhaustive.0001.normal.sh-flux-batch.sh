@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=APOLLO:EXHAUSTIVE.1.cleverleaf.test
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=pbatch
 #FLUX -t=4800
 #FLUX --urgency=16

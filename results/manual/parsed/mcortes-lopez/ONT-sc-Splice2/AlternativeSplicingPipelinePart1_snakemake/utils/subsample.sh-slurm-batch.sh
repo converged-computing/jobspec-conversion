@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120G
-#SBATCH --partition=pe2
 
 module load seqtk
 cd /gpfs/commons/groups/landau_lab/rraviram/Suva_lab_GBM/Splicing_ONT/ONT_Splicing_TKU4354/input_files/1.ONT_fastq/

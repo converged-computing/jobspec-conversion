@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=120gb
 #SBATCH --time=6-16:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=ntasks-per-node=8,AMD
 
 cd $SLURM_SUBMIT_DIR

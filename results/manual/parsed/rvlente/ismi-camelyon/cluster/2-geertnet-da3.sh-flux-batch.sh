@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-lentil-6188
+#FLUX --job-name=boopy-gato-3131
 #FLUX -c=18
 #FLUX --queue=gpu
 #FLUX -t=43200

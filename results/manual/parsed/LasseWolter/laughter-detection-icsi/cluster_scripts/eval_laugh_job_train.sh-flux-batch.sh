@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-eagle-8229
+#FLUX --job-name=red-buttface-3715
 #FLUX -c=2
 #FLUX -t=3600
 #FLUX --urgency=16

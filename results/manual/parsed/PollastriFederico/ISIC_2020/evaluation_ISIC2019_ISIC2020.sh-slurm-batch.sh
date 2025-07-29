@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=prod
 #SBATCH --array=1
 #SBATCH --exclude=aimagelab-srv-10,softechict-nvidia
 

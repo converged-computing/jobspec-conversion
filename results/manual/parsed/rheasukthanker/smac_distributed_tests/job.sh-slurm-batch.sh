@@ -7,6 +7,5 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=mldlc_gpu-rtx2080
 
 python src/search/search_dask.py

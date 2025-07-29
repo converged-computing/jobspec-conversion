@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-cinnamonbun-3275
+#FLUX --job-name=faux-cattywampus-7980
 #FLUX -c=80
 #FLUX --queue=milan
 #FLUX -t=600

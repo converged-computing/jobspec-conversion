@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:1,nvme:100
 #SBATCH --mem=4G
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpusmall
 
 export CUDNN_PATH='$CUDNN_PATH'
 export LD_LIBRARY_PATH='${CUDNN_PATH}/lib'

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=36
 #SBATCH --mem=144g
 #SBATCH --time=08:00:00
-#SBATCH --partition=standard
 
 export OUTPUT_FOLDER='/nfs/turbo/glotzer/software/conda'
 export TMPDIR='/tmpssd'

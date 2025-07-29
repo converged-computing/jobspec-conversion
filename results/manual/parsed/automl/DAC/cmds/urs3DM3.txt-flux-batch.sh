@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-destiny-5918
+#FLUX --job-name=reclusive-itch-1972
 #FLUX -c=2
 #FLUX --queue=bosch_cpu-cascadelake
 #FLUX --urgency=16

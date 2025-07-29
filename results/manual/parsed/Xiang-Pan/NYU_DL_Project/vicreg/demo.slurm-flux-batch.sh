@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-plant-1808
+#FLUX --job-name=stanky-ricecake-8664
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=n1c24m128-v100-4
 #FLUX -t=54000
 #FLUX --urgency=16

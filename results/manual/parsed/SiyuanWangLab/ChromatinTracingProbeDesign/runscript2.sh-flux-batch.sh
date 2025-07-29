@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-lentil-4058
+#FLUX --job-name=goodbye-punk-3010
 #FLUX -n=6
 #FLUX --queue=general
 #FLUX -t=172800

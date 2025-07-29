@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-blackbean-0038
+#FLUX --job-name=bloated-animal-4010
 #FLUX -c=8
 #FLUX -t=170
 #FLUX --urgency=16

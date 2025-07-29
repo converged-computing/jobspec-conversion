@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-punk-6362
+#FLUX --job-name=evasive-platanos-1781
 #FLUX -c=16
 #FLUX --urgency=16
 

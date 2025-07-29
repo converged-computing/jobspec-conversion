@@ -5,7 +5,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16G
-#SBATCH --partition=short
 
 export AUGUSTUS_CONFIG_PATH='$(realpath lib/augustus/3.3/config)'
 

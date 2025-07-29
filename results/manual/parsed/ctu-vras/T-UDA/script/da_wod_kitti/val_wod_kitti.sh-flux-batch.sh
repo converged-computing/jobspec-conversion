@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-train-0717
+#FLUX --job-name=rainbow-spoon-8698
 #FLUX --queue=amdgpufast
 #FLUX -t=14400
 #FLUX --urgency=16

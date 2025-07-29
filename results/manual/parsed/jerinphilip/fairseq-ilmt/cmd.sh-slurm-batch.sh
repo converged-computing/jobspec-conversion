@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=40G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=long
 
 export ILMULTI_CORPUS_ROOT='$DATA'
 

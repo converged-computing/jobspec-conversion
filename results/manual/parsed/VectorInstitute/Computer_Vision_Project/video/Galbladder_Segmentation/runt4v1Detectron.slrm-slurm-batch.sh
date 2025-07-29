@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
-#SBATCH --partition=t4v1
 #SBATCH --qos=normal
 
 if [ -z "$SLURM_JOB_ID" ]

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-parsnip-3441
+#FLUX --job-name=psycho-poo-7872
 #FLUX --queue=batch
 #FLUX -t=3600
 #FLUX --urgency=16

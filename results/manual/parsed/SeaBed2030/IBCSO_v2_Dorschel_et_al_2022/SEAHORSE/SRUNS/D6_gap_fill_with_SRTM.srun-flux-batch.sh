@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-platanos-1619
+#FLUX --job-name=reclusive-itch-8276
 #FLUX -c=12
 #FLUX --urgency=16
 

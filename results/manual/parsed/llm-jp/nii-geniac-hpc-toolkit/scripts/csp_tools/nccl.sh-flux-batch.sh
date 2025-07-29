@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=confused-lemon-9067
-#FLUX: --exclusive
+#FLUX --job-name=strawberry-fudge-2788
+#FLUX --exclusive
 #FLUX -t=1200
 #FLUX --urgency=16
 

@@ -9,8 +9,7 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=100000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu_k80
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export PYTHONUSERBASE='$HOME/ssd/pao_jpeg_bis/classification_part'
 export EXPERIMENTS_OUTPUT_DIRECTORY='/dlocal/run/$SLURM_JOB_ID'

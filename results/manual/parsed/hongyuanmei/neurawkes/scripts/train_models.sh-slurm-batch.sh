@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=20G
 #SBATCH --time=4-03:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=2
 
 export M_ID='$((${SLURM_ARRAY_TASK_ID}-1))'

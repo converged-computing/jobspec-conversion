@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-arm-5249
+#FLUX --job-name=delicious-pot-4665
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bonaert/explainable_rl/cluster_scripts/lunar_lander/run_without_teacher_ll_seed_500.pbs

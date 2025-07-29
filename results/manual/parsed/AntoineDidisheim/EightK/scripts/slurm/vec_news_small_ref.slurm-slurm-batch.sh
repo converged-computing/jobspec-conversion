@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=24G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=cascade
 #SBATCH --chdir=/home/adidishe/EightK
 #SBATCH --array=0-26
 

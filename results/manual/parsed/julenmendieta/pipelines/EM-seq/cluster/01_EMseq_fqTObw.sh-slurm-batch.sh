@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=30G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=medium
 
 subScripts="/home/jmendietaes/programas/pipelines/EM-seq/cluster/sub-scripts"
 trim_r1_5prime=8

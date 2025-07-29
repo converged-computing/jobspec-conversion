@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=16gb
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpushort
 #SBATCH --array=1-5
 
 echo starting_jobscript

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 #SBATCH --time=23:30:00
-#SBATCH --partition=all
 
 export NPROCS='$SLURM_NTASKS'
 

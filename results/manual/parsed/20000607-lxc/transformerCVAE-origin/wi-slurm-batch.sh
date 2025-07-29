@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20000
 #SBATCH --time=00:24:00
-#SBATCH --partition=rtx8000,v100
 
 cd /scratch/zt2080/shizhe/eres/transformerCVAE-origin
 python train.py\

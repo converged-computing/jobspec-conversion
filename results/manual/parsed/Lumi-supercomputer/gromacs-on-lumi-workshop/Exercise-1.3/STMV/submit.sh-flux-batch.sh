@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-onion-7886
+#FLUX --job-name=scruptious-taco-1708
 #FLUX -c=32
 #FLUX --queue=small-g
 #FLUX -t=600

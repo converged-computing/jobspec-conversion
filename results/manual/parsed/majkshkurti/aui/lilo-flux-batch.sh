@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=psycho-hippo-0484
+#FLUX --job-name=red-itch-8900
 #FLUX --urgency=16
 

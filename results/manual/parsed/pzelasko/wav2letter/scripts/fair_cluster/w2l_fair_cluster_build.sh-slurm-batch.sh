@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:volta:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=priority
 #SBATCH --constraint=ntasks-per-node=1
 
 export CMAKE_PREFIX_PATH='$HOME/usr'

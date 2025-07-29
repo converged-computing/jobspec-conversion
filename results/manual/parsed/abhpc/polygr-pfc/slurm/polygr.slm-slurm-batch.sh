@@ -5,7 +5,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=MX
 #SBATCH --constraint=ntasks-per-node=48
 
 export DISPLAY=''

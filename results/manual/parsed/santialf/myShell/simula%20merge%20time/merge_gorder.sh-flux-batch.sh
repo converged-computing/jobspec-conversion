@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-cat-2394
+#FLUX --job-name=lovely-milkshake-5630
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

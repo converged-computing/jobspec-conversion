@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-peanut-4209
+#FLUX --job-name=frigid-earthworm-2522
 #FLUX -c=8
 #FLUX --urgency=16
 

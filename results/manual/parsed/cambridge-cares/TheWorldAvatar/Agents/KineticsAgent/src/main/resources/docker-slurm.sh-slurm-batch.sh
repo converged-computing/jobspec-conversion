@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4096M
 #SBATCH --time=12:00:00
-#SBATCH --partition=test
 
 export SRMWORKINGDIR='$SCRATCH_DIRECTORY'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-peanut-butter-2051
+#FLUX --job-name=bumfuzzled-earthworm-2254
 #FLUX --urgency=16
 
 export _JAVA_OPTIONS='-Xms8g -Xmx10g'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-carrot-4601
+#FLUX --job-name=grated-truffle-1266
 #FLUX -c=2
 #FLUX --queue=sbel
 #FLUX -t=259200

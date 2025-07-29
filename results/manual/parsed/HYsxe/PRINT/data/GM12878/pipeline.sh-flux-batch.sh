@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-chip-4023
+#FLUX --job-name=blue-dog-5913
 #FLUX -n=16
 #FLUX --queue=test
 #FLUX -t=240

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=08:00:00
-#SBATCH --partition=intel
 
 date
 cd $SLURM_SUBMIT_DIR

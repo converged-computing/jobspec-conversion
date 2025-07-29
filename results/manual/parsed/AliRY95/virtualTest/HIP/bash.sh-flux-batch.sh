@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=VirtualFunction
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=60
 #FLUX --urgency=16
 

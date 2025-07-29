@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=arp
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=300
 #FLUX --urgency=16
 

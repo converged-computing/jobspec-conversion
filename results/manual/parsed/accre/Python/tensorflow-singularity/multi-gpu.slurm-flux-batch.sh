@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-lemon-2249
+#FLUX --job-name=outstanding-malarkey-6388
 #FLUX --queue=pascal
 #FLUX -t=43200
 #FLUX --urgency=16

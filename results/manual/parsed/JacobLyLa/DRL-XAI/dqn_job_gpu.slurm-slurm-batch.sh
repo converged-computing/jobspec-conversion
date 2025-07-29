@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4G
 #SBATCH --time=00:30:00
-#SBATCH --partition=GPUQ
 
 module purge
 module load PyTorch/1.12.0-foss-2022a-CUDA-11.7.0

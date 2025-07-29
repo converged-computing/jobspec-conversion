@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-onion-1046
+#FLUX --job-name=expressive-puppy-5758
 #FLUX -n=20
 #FLUX --queue=day
 #FLUX -t=3600

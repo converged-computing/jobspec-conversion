@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=32G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 #SBATCH --begin=2023-07-25T04:00:00
 #SBATCH --array=[13]%6
 

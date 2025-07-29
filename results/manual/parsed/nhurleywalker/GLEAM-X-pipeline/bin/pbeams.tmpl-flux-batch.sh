@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-squidward-0086
+#FLUX --job-name=swampy-citrus-6280
 #FLUX --queue=STANDARDQ
 #FLUX -t=43200
 #FLUX --urgency=16

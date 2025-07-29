@@ -8,11 +8,10 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=cm2_large
 #SBATCH --qos=cm2_large
 #SBATCH --constraint=ntasks-per-node=28
 #SBATCH --chdir=./
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module load slurm_setup
 module unload intel-mpi/2019-intel

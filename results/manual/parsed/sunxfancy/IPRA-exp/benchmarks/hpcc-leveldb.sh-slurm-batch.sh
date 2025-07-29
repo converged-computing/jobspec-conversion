@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=128G
 #SBATCH --time=01:00:00
-#SBATCH --partition=short
 #SBATCH --constraint=intel
 
 module load singularity

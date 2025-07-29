@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=1,a40
 
 export GLOG_minloglevel='2'

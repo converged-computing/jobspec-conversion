@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-staircase-0586
+#FLUX --job-name=rainbow-earthworm-1400
 #FLUX --urgency=16
 
 module load openmpi/3.0.0

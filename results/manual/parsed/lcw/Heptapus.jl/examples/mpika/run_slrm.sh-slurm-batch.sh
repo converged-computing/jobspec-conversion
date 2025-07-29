@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:titanv:2
 #SBATCH --mem-per-cpu=12GB
 #SBATCH --time=00:10:00
-#SBATCH --partition=allgpu
 
 source /etc/profile
 module load compile/gcc/7.2.0 openmpi/3.0.0 lib/cuda/10.1.243

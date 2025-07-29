@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-taco-0396
+#FLUX --job-name=eccentric-chair-7249
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=solarlab
 #FLUX --urgency=16
 

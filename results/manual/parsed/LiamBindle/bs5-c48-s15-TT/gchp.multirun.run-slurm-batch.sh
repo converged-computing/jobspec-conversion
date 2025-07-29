@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=MaxMemPerNode
 #SBATCH --time=00:00:30
-#SBATCH --partition=huce_intel
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 multirunlog="multirun.log"
 cancel_all_jobs()

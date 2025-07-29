@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-lemon-6304
+#FLUX --job-name=stinky-signal-5396
 #FLUX -c=8
 #FLUX -t=170
 #FLUX --urgency=16

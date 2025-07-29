@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=100mb
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=2
 
 module load cuda/11.0

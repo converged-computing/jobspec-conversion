@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100G
 #SBATCH --time=06:00:00
-#SBATCH --partition=veryshort
 #SBATCH --constraint=ntasks-per-node=1
 
 export RES_DIR='${HOME}/2021-randomization-test/results'

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=mps:20
 #SBATCH --time=7-14:00:00
-#SBATCH --partition=GPU
 #SBATCH --qos=elevated
 
 export SIFPATH='$SIFDIR/gromacs'

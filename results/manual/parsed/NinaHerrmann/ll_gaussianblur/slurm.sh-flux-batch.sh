@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=GaussianBlurLL_LL_REAL
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu2080
 #FLUX -t=36000
 #FLUX --urgency=16

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=72G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=comp
 #SBATCH --qos=partner
 
 module load openmpi/1.10.3-gcc4-mlx-verbs

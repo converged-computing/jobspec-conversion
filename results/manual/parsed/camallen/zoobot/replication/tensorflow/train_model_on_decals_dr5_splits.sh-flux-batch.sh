@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=dr5-rep-tf
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=82800
 #FLUX --urgency=16
 

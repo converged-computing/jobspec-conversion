@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=8000M
 #SBATCH --time=00:20:00
-#SBATCH --partition=gpu
 #SBATCH --exclude=hendrixgpu01fl
 
 module load miniconda/4.12.0

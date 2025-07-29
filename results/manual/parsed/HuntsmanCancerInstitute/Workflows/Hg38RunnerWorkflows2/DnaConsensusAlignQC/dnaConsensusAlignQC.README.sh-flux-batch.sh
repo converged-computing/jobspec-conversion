@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-mango-1244
+#FLUX --job-name=sticky-carrot-0688
 #FLUX --queue=hci-rw
 #FLUX -t=345600
 #FLUX --urgency=16

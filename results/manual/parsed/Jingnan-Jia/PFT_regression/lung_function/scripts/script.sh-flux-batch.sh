@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-buttface-6411
+#FLUX --job-name=astute-salad-8652
 #FLUX --queue=amd-gpu-long
 #FLUX --urgency=16
 

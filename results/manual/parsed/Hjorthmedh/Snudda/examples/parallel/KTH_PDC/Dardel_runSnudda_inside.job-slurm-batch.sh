@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=930M
 #SBATCH --time=00:59:00
-#SBATCH --partition=main
 
 export IPNWORKERS='$NWORKERS'
 export IPYTHONDIR='/cfs/klemming/scratch/${USER:0:1}/$USER/.ipython'

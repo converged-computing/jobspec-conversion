@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-pedo-3168
+#FLUX --job-name=joyous-truffle-7305
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=batch
 #SBATCH --array=0-10%100
 
 source ~/.bashrc

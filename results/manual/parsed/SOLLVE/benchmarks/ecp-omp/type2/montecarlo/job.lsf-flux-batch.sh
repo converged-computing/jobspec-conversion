@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-peanut-butter-1622
+#FLUX --job-name=nerdy-parsnip-9837
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/SOLLVE/benchmarks/ecp-omp/type2/montecarlo/job.lsf

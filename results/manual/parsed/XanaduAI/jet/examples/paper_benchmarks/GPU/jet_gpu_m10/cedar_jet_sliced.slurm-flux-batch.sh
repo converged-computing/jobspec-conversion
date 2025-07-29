@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=doopy-hobbit-8989
-#FLUX: --exclusive
+#FLUX --job-name=gassy-despacito-3420
+#FLUX --exclusive
 #FLUX -t=1800
 #FLUX --urgency=16
 

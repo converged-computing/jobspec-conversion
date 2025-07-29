@@ -5,9 +5,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=standard
 #SBATCH --qos=lowpriority
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=36
 
 export IOCOMP_DIR='/work/d403/d403/shr2032/opt/gcc/iocomp/1.1.3'

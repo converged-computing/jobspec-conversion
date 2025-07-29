@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-knife-6370
+#FLUX --job-name=blank-punk-4503
 #FLUX -N=4
 #FLUX -t=3000
 #FLUX --urgency=16

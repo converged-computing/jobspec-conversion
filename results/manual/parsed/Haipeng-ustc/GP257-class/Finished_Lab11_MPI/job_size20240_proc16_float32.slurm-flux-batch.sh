@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=placid-lemur-1620
+#FLUX --job-name=fat-milkshake-2124
 #FLUX -N=2
 #FLUX -n=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=serc
 #FLUX -t=1800
 #FLUX --urgency=16

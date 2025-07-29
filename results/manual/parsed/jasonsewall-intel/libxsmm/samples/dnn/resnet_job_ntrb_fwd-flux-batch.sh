@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-platanos-5260
+#FLUX --job-name=doopy-bike-1691
 #FLUX -c=272
 #FLUX --queue=knmb3
 #FLUX -t=7200

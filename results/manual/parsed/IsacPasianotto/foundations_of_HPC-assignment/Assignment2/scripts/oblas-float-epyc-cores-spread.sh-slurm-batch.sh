@@ -4,9 +4,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
 #SBATCH --time=01:00:00
-#SBATCH --partition=EPYC
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 #SBATCH --nodelist=epyc[007]
 
 export LD_LIBRARY_PATH='/u/dssc/ipasia00/myblis/lib:$LD_LIBRARY_PATH'

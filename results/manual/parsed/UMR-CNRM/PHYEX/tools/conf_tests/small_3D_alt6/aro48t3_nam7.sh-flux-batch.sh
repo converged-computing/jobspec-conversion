@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-hope-8016
+#FLUX --job-name=blue-cinnamonbun-8752
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

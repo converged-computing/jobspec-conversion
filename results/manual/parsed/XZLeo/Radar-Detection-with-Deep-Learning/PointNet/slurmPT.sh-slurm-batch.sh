@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:40:00
-#SBATCH --partition=ztest
 #SBATCH --constraint=ntasks-per-node=1
 
 echo "Full Dataset Testing (DBSCAN + PointNet)"

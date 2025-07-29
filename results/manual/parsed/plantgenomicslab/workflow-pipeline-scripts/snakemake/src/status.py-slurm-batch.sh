@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=120g
-#SBATCH --partition=cpu-s1-pgl-0
 
  #conda activate base
 NCPU=32

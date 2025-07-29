@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=80000mb
 #SBATCH --time=00:30:00
-#SBATCH --partition=test
 #SBATCH --constraint=ntasks-per-node=48
 
 export PMIX_MCA_gds='hash'

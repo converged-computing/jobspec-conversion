@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=ntasks-per-node=48
 
 module load hpcx-mpi/4.1.5rc2s

@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=gpu,ntasks-per-node=8
 
 export BENCHMARK_RESULTS_PATH='$SCRATCH/pytorch-benchmarks/results/gpu-$version-$backend-n$SLURM_NTASKS'

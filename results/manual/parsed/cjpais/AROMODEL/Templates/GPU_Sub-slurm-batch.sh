@@ -7,9 +7,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=8
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 cd {path}
 module unload mvapich2_ib

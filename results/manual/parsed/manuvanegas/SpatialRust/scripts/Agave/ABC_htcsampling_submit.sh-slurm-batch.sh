@@ -8,7 +8,6 @@
 #SBATCH --ntasks=150
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=htc
 #SBATCH --nodelist=cg40-[1-6]
 
 export SLURM_NODEFILE='`generate_pbs_nodefile`'

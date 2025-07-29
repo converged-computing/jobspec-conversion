@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-poodle-7591
+#FLUX --job-name=pusheena-bike-7196
 #FLUX --gpus-per-task=4
 #FLUX --queue=gpu
 #FLUX -t=7200

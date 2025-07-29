@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:1
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu_p13
 #SBATCH --constraint=ntasks-per-node=1
 
 export PYTHONPATH='/opt/YARR/'

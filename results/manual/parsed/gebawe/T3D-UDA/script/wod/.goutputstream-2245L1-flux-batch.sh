@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-avocado-8252
+#FLUX --job-name=expressive-rabbit-7844
 #FLUX -c=24
 #FLUX --queue=amdcpu
 #FLUX -t=86400

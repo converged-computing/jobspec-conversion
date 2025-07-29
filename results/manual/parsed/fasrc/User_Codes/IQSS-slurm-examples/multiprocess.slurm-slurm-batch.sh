@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=100
 #SBATCH --time=00:10:00
-#SBATCH --partition=test
 
 GROUP='iqss_lab'
 if [ -z "$SCRATCH" ]; then

@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=amd
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=amd7543&mhz-2800
 
 export LD_LIBRARY_PATH='${HOME}/HYPRE/build_amd/lib:${LD_LIBRARY_PATH}'

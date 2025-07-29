@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12000
 #SBATCH --time=00:15:00
-#SBATCH --partition=batch
 #SBATCH --qos=short+
 
 if [ $# -gt 0 ]; then

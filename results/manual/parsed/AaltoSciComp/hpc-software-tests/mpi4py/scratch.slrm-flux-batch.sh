@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-parrot-8137
+#FLUX --job-name=angry-itch-6671
 #FLUX -N=16
 #FLUX -t=300
 #FLUX --urgency=16

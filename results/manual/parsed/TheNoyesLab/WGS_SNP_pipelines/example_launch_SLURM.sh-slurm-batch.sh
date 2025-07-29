@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=cn1107
 
 module load jdk/1.8.0
 module load singularity/2.5.2

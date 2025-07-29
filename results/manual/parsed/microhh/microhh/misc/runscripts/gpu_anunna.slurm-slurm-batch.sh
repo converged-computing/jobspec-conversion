@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=V100
 
 module load cuda/10.1

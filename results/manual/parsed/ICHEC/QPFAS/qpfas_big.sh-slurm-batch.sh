@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=ProdQ
 
 export QPFAS_DEVICE_ID='kay_hpc_cluster'
 

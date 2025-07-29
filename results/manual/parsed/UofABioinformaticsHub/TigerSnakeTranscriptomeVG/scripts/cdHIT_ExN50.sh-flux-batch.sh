@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-egg-3626
+#FLUX --job-name=swampy-fork-5682
 #FLUX -n=8
 #FLUX --queue=batch
 #FLUX -t=1800

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-squidward-0580
+#FLUX --job-name=doopy-chip-2837
 #FLUX -c=2
 #FLUX --queue=copy
 #FLUX -t=3600

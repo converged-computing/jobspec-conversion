@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-sundae-4446
+#FLUX --job-name=tart-citrus-4117
 #FLUX --queue=small
 #FLUX -t=900
 #FLUX --urgency=16

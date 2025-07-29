@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=100g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=10
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3  ## this line is to use 4 GPU nodes'

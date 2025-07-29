@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:GeForce GTX 1080 Ti:1
 #SBATCH --mem=10G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu3
 #SBATCH --qos=normal
 
 export GPUARRAY_FORCE_CUDA_DRIVER_LOAD=''

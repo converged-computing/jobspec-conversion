@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-snack-0652
+#FLUX --job-name=carnivorous-pot-3671
 #FLUX -N=4
 #FLUX -n=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=dev
 #FLUX -t=86400
 #FLUX --urgency=16

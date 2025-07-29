@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-pancake-5640
+#FLUX --job-name=misunderstood-hobbit-2110
 #FLUX -c=4
 #FLUX -t=9600
 #FLUX --urgency=16

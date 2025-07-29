@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=00:10:00
-#SBATCH --partition=standard-g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export ALLINEA_STOP_AT_MAIN='1'
 

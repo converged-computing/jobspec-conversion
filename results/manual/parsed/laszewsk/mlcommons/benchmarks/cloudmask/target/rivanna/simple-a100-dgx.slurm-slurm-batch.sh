@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=64G
 #SBATCH --time=02:00:00
-#SBATCH --partition=bii-gpu
 
 export USER_SCRATCH='/localscratch/$USER'
 export PROJECT_DIR='$USER_SCRATCH/mlcommons/benchmarks/cloudmask'

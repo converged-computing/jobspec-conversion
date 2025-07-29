@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=48G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal
 #SBATCH --array=1-15%4
 
 module purge all

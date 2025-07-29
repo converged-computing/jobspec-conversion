@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:00:10
-#SBATCH --partition=workq
 #SBATCH --constraint=ntasks-per-node=24
 
 module swap PrgEnv-gnu PrgEnv-intel

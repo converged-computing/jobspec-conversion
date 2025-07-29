@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5000
 #SBATCH --time=12:00:00
-#SBATCH --partition=sched_mit_wvanrees
 #SBATCH --constraint=ntasks-per-node=36
 
 echo "------------------------"

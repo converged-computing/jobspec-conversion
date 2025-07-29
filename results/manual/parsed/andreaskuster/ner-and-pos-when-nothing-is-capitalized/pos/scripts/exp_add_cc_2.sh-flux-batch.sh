@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-milkshake-8394
+#FLUX --job-name=blue-lentil-1928
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

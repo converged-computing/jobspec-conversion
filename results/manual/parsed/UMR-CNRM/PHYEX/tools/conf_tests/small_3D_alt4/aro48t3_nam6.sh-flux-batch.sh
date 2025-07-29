@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-earthworm-4182
+#FLUX --job-name=hairy-chip-7285
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

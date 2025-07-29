@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=spark-yarn-hdfs-setup
 #FLUX -N=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=10800
 #FLUX --urgency=16
 

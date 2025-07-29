@@ -4,8 +4,7 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=247000
 #SBATCH --time=00:40:00
-#SBATCH --partition=normal256
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export JOB_NAME='arome_e700'
 export JOB_ID='$SLURM_JOB_ID'

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=15000
 #SBATCH --time=12-12:00:00
-#SBATCH --partition=old
 
 echo "Input file: " $1
 fasta=$1

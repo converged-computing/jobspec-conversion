@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=4G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal,mygroup
 
 export SINGULARITYENV_FS_LICENSE='$HOME/.freesurfer.txt'
 export SINGULARITYENV_TEMPLATEFLOW_HOME='/templateflow'

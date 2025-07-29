@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-animal-5938
+#FLUX --job-name=ornery-muffin-5886
 #FLUX --queue=mic
 #FLUX -t=86400
 #FLUX --urgency=16

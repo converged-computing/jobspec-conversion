@@ -7,7 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:01:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=MI250
 
 export HIP_PATH='/opt/rocm-5.5.1/hip'

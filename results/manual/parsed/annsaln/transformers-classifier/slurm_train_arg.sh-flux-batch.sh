@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-lentil-7508
+#FLUX --job-name=crusty-hippo-9799
 #FLUX --queue=gputest
 #FLUX -t=900
 #FLUX --urgency=16

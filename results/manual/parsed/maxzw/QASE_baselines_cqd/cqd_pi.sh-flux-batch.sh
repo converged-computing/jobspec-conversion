@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-signal-7869
+#FLUX --job-name=grated-pancake-9254
 #FLUX -c=2
 #FLUX --queue=gpu_shared
 #FLUX -t=3600

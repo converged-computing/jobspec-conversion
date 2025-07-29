@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-eagle-2716
+#FLUX --job-name=salted-parrot-5524
 #FLUX --queue=compute
 #FLUX -t=300
 #FLUX --urgency=16

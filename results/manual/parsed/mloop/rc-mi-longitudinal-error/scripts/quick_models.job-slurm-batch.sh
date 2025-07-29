@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1g
 #SBATCH --time=00:10:00
-#SBATCH --partition=general
 #SBATCH --array=1-5000
 
 set -o errexit

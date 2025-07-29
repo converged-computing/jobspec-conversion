@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=gpu:8
 #SBATCH --mem=0
-#SBATCH --partition=bio_s1
 #SBATCH --constraint=ntasks-per-node=8
 
 export NCCL_IB_DISABLE='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-lamp-3699
+#FLUX --job-name=scruptious-spoon-3874
 #FLUX -n=20
 #FLUX --queue=stats.p
 #FLUX -t=14400

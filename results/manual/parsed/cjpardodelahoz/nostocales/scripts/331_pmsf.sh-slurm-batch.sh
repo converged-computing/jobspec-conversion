@@ -5,7 +5,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=6
 #SBATCH --mem-per-cpu=8G
-#SBATCH --partition=scavenger
 #SBATCH --array=1-50
 
 module load IQ-TREE/1.6.12-MPI

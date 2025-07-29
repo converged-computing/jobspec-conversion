@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=32G
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu-a100
 
 array=(0.00001 0.0001 0.001 0.01 0.1 0.5 1)
 module load singularity

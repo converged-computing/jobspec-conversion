@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-citrus-0984
+#FLUX --job-name=ornery-frito-8382
 #FLUX -c=6
 #FLUX -t=864000
 #FLUX --urgency=16

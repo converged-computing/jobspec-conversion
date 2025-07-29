@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=4G
 #SBATCH --time=27-23:59:59
-#SBATCH --partition=cpu_long
 
 module purge
 module add slurm

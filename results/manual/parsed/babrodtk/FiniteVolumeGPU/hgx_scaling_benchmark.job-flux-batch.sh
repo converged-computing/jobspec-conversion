@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-taco-5082
+#FLUX --job-name=crunchy-toaster-9849
 #FLUX --queue=hgx2q
 #FLUX -t=10
 #FLUX --urgency=16

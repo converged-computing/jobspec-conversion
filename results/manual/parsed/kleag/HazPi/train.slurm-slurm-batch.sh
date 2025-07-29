@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=50G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=lasti,gpu,gpuv100,gpup6000
 
 export LD_LIBRARY_PATH='/home/users/gdechalendar/cuda/lib64:${LD_LIBRARY_PATH}'
 

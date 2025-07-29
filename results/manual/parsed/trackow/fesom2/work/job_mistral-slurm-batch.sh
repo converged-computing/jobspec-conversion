@@ -7,7 +7,6 @@
 #SBATCH --ntasks=7560
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=compute2,compute
 #SBATCH --constraint=ntasks-per-node=36
 
 export I_MPI_FABRICS='shm:dapl'

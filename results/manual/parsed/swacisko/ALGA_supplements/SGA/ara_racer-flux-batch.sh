@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-knife-1893
+#FLUX --job-name=faux-general-1528
 #FLUX -c=18
 #FLUX --queue=bigmem
 #FLUX --urgency=16

@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:A100:1
 #SBATCH --mem=90G
-#SBATCH --partition=kurruf_gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 
 export CUDA_VISIBLE_DEVICES='3'

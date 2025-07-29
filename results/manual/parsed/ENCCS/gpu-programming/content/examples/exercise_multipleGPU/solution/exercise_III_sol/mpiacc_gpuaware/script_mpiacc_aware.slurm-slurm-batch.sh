@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=4
 #SBATCH --time=00:05:00
-#SBATCH --partition=standard-g
 #SBATCH --constraint=ntasks-per-node=4
 
 export MPICH_GPU_SUPPORT_ENABLED='1'

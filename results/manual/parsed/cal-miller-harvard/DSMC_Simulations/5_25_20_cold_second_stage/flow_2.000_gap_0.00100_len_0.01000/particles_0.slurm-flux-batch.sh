@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-platanos-7518
+#FLUX --job-name=blue-pastry-2515
 #FLUX -n=8
 #FLUX --queue=shared
 #FLUX -t=480

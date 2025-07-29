@@ -9,9 +9,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=amd
 #SBATCH --qos=las
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 dir=$1
 read -r -d '' VAR <<EOF1

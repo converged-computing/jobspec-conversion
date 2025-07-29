@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-plant-9625
+#FLUX --job-name=hanky-omelette-8509
 #FLUX --queue=parallel
 #FLUX -t=28800
 #FLUX --urgency=16

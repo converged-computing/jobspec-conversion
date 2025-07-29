@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-arm-2034
+#FLUX --job-name=loopy-kerfuffle-5999
 #FLUX -c=20
 #FLUX --queue=medium
 #FLUX -t=259205

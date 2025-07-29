@@ -5,7 +5,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=core
 #SBATCH --array=0-175
 
 module load bioinfo-tools plink/1.90b4.9 

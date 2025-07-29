@@ -2,7 +2,7 @@
 #FLUX --job-name=7B_viking_v3_64
 #FLUX -N=64
 #FLUX -c=7
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard-g
 #FLUX -t=172800
 #FLUX --urgency=16

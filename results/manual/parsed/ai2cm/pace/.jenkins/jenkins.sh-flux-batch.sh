@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-hobbit-4408
+#FLUX --job-name=pusheena-taco-2504
 #FLUX --urgency=16
 
 export python_env='${python_env}'

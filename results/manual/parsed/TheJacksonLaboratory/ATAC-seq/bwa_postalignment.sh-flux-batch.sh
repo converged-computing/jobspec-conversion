@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-arm-6964
+#FLUX --job-name=dinosaur-butter-8713
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/TheJacksonLaboratory/ATAC-seq/bwa_postalignment.sh

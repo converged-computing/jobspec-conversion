@@ -6,7 +6,6 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=vera
 
 module load MATLAB/2019a
 module load GCCcore/10.3.0

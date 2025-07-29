@@ -2,7 +2,7 @@
 #FLUX --job-name=mlperf-hpc:openfold-reference
 #FLUX -N=18
 #FLUX -n=18
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=259200
 #FLUX --urgency=16
 

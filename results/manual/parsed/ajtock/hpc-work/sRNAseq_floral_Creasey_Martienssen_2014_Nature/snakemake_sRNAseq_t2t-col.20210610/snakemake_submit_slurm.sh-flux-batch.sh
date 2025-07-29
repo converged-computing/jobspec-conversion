@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-carrot-2861
+#FLUX --job-name=fugly-egg-2894
 #FLUX -c=32
 #FLUX --queue=production
 #FLUX -t=356400

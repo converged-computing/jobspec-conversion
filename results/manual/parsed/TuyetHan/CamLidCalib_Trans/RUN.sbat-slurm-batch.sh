@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=250GB
 #SBATCH --time=03:00:00
-#SBATCH --partition=ai
 #SBATCH --constraint=ntasks-per-node=1
 
 export TORCH_NCCL_ASYNC_ERROR_HANDLING='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-peanut-1864
+#FLUX --job-name=quirky-general-4784
 #FLUX --queue=a100_shared
 #FLUX -t=3540
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --gres=8
 #SBATCH --mem=64G
 #SBATCH --time=01:00:00
-#SBATCH --partition=small-g
 
 export WANDB_MODE='offline'
 export HF_HOME='/scratch/project_462000259/jstillerman/hf_cache'

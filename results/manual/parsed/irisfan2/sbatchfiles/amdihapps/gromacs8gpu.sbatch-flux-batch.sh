@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-egg-5650
+#FLUX --job-name=astute-buttface-2023
 #FLUX -c=8
 #FLUX --urgency=16
 

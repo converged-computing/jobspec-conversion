@@ -7,7 +7,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=0GB
 #SBATCH --time=03:00:00
-#SBATCH --partition=learnlab
 #SBATCH --array=0-19
 
 dirs=(

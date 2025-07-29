@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=milky-malarkey-2052
+#FLUX --job-name=arid-despacito-4218
 #FLUX --urgency=16
 

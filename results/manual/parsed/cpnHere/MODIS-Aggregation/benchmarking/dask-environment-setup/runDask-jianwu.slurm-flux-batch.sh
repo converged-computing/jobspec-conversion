@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=daskJob_maxm_n8_p8_day
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=high_mem
 #FLUX --urgency=16
 

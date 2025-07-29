@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:tesla:2
 #SBATCH --mem=16000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=Nvidia
 
 module purge
 module load tensorflow-gpu

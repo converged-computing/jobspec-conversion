@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-bike-2250
+#FLUX --job-name=faux-rabbit-5366
 #FLUX --queue=normal256
 #FLUX -t=600
 #FLUX --urgency=16

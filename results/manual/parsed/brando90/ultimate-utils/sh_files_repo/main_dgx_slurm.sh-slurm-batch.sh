@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=4000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=x86
 #SBATCH --constraint=ntasks-per-node=32
 
 srun --partition=x86 --time=48:00:00 --pty /bin/bash

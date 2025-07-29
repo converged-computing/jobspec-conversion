@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=5000
 #SBATCH --time=00:10:00
-#SBATCH --partition=all
 
 module load cudatoolkit/10.0 cudnn/cuda-10.0/7.3.1 anacondapy/2020.11
 . activate brainpipe

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-house-3994
+#FLUX --job-name=gassy-platanos-2717
 #FLUX -c=12
 #FLUX --queue=amdgpufast
 #FLUX -t=14400

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-signal-7811
+#FLUX --job-name=frigid-parrot-9056
 #FLUX --queue=gpu
 #FLUX -t=86400
 #FLUX --urgency=16

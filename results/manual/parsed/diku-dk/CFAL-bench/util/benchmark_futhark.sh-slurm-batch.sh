@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:nvidia_a30:1
 #SBATCH --mem=64G
 #SBATCH --time=00:30:00
-#SBATCH --partition=csmpi_fpga_long
 
 export PATH='/vol/itt/data/cfal/team-futhark/bin/:$PATH'
 

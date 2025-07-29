@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:10:00
-#SBATCH --partition=intel
 
 SINGULARITY=$(which singularity)
 module load singularity # may not need this on your system

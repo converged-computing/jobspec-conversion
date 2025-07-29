@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-lettuce-4922
+#FLUX --job-name=crunchy-itch-1198
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pentschev/nvrapids_olcf/gtc_2020/cupy/launch_svd_dask_cupy.lsf

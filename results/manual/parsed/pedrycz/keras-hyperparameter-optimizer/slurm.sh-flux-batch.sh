@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-hobbit-3294
+#FLUX --job-name=gassy-peanut-0735
 #FLUX --queue=plgrid-gpu
 #FLUX -t=36000
 #FLUX --urgency=16

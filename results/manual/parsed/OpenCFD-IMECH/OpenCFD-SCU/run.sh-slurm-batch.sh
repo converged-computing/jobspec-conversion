@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=dcu:4
 #SBATCH --mem-per-cpu=64G
-#SBATCH --partition=blcy
 #SBATCH --constraint=ntasks-per-node=4,ntasks-per-socket=1
 
 export OMPI_MCA_btl_openib_allow_ib='true'

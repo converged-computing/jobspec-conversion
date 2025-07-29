@@ -5,7 +5,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=standard-g
 #SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_DEBUG='INFO'

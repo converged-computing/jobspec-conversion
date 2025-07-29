@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=2
 
 time horovodrun -np 2 -H localhost:2  python mnist_hvd_2.py

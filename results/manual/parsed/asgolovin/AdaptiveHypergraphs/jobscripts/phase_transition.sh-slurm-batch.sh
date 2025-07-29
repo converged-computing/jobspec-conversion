@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:07:00
-#SBATCH --partition=cm2_inter
 
 module load slurm_setup
 module load julia/1.8.5

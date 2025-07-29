@@ -2,7 +2,7 @@
 #FLUX --job-name=CORIE
 #FLUX -N=2
 #FLUX -n=80
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=orion
 #FLUX -t=7200
 #FLUX --urgency=16

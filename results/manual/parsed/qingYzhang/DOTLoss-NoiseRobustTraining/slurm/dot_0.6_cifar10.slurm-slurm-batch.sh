@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=80GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=a100_1,a100_2,v100,rtx8000
 
 ext3_path=/scratch/$USER/overlay-25GB-500K.ext3
 sif_path=/scratch/$USER/cuda11.4.2-cudnn8.2.4-devel-ubuntu20.04.3.sif

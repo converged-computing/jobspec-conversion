@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-punk-7976
+#FLUX --job-name=purple-parrot-5577
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

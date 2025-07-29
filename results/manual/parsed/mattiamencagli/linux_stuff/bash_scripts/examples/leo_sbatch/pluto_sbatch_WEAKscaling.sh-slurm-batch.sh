@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=01:00:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --constraint=ntasks-per-node=32
 
 source ${HOME}/modules_files/pluto_mod 23.11

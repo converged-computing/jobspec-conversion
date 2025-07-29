@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=4GB
 #SBATCH --time=00:03:00
-#SBATCH --partition=gpu
 
 echo "# cloudmesh status=running progress=1 pid=$SLURM_JOB_ID"
 nvidia-smi

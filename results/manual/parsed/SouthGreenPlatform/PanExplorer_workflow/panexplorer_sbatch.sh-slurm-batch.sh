@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=18
 #SBATCH --mem=20G
-#SBATCH --partition=supermem
 
 export PANEX_PATH='$PWD'
 

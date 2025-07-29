@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=20:00:00
-#SBATCH --partition=GPUv100s
 #SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_VISIBLE_DEVICES='0	# 0 for 1st GPU, 1 for 2nd GPU, 0,1 for both'

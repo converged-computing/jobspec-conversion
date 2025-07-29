@@ -7,7 +7,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=2G
 #SBATCH --time=00:10:00
-#SBATCH --partition=accel
 #SBATCH --qos=devel
 
 set -o errexit  # Exit the script on any error

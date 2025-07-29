@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=work
 
 export NXF_SINGULARITY_CACHEDIR='./work'
 

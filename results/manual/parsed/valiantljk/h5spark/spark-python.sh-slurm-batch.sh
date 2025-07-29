@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:08:00
-#SBATCH --partition=regular
 #SBATCH --qos=premium
 
 export SPARK_LOCAL_DIRS='/tmp'

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=res-gpu-small
 #SBATCH --qos=short
 #SBATCH --exclude=gpu[0-3]
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-kitty-7050
+#FLUX --job-name=placid-egg-8980
 #FLUX -n=8
 #FLUX -t=604800
 #FLUX --urgency=16

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=core
 
 export NXF_HOME='/crex/proj/nb_storage/private/rnaflow/nextflow_home'
 export CONDA_ENVS_PATH='/proj/nb_project/private/conda_envs'

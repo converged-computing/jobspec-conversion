@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=24
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=wildfire
 
 GMX_VERSION=4.6.7
 DEFFNM="md"

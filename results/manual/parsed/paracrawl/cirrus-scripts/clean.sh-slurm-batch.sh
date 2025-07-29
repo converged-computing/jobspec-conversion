@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=cclake,skylake
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 set -euxo pipefail
 . $HOME/src/cirrus-scripts/env/init.sh

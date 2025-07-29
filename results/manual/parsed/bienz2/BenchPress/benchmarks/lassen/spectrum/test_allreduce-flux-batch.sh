@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-lentil-4808
+#FLUX --job-name=astute-destiny-5004
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/bienz2/BenchPress/benchmarks/lassen/spectrum/test_allreduce

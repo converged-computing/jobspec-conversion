@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-train-1833
+#FLUX --job-name=loopy-itch-0672
 #FLUX -c=7
 #FLUX --urgency=16
 

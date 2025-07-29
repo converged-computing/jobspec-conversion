@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=EPMC
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=scavenge
 #FLUX -t=10500
 #FLUX --urgency=16

@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
 #SBATCH --chdir=./
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export LD_LIBRARY_PATH='$(pwd)/../../../lib/sgpp:$(pwd)/../../../glpk/lib:$LD_LIBRARY_PATH'
 export OMP_NUM_THREADS='1'

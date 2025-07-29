@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-animal-0497
+#FLUX --job-name=reclusive-parsnip-4061
 #FLUX --queue=cpufast
 #FLUX -t=3600
 #FLUX --urgency=16

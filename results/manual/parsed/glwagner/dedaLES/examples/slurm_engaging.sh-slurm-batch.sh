@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=01:00:00
-#SBATCH --partition=sched_mit_hill
 #SBATCH --constraint=ntasks-per-node=16
 
 . /home/glwagner/software/miniconda3/etc/profile.d/conda.sh

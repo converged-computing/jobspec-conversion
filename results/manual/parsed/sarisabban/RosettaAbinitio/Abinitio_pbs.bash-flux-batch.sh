@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-cattywampus-7867
+#FLUX --job-name=crunchy-spoon-1373
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/sarisabban/RosettaAbinitio/Abinitio_pbs.bash

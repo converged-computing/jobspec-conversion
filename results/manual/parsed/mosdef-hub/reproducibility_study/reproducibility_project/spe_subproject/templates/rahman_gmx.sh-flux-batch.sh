@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-frito-6226
+#FLUX --job-name=butterscotch-latke-9009
 #FLUX --queue=standard
 #FLUX --urgency=16
 

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpuhm
 
 module use /opt/software/easybuild/modules/all/
 module load Mamba

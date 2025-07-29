@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=16G
 #SBATCH --time=10:00:00
-#SBATCH --partition=unkillable-cpu
 
 set -e
 set -v

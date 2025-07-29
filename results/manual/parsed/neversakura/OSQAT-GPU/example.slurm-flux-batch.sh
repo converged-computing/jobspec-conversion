@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-soup-3231
+#FLUX --job-name=hello-fork-7722
 #FLUX -t=1800
 #FLUX --urgency=16
 

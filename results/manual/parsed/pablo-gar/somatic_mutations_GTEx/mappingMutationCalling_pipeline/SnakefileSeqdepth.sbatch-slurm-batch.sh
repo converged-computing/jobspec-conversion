@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=09:00:00
-#SBATCH --partition=hbfraser
 
 module load fraserconda
 source activate fraserconda

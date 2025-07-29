@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=snakeplot
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

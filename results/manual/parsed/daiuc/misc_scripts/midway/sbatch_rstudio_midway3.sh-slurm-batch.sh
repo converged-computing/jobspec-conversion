@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=30g
 #SBATCH --time=1-11:59:00
-#SBATCH --partition=caslake
 
 export SINGULARITYENV_USER='chaodai'
 export SINGULARITYENV_RSTUDIO_WHICH_R='${R_BIN}'

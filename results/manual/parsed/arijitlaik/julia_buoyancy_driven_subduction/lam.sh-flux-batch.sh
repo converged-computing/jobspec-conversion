@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-arm-9335
+#FLUX --job-name=faux-leader-8045
 #FLUX -n=64
 #FLUX --queue=rome
 #FLUX -t=432000

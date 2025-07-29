@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=230G
 #SBATCH --time=23:59:59
-#SBATCH --partition=gpu
 
 CUDA_VISIBLE_DEVICES=0
 python main_fgsm.py  --epochs 15\

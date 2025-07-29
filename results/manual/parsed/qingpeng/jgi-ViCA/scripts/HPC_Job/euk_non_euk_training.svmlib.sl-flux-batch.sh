@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-kerfuffle-3847
+#FLUX --job-name=anxious-banana-5226
 #FLUX -N=3
 #FLUX --queue=debug
 #FLUX -t=1800

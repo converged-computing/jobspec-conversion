@@ -6,7 +6,7 @@
 #SBATCH --gres=gpu:2
 #SBATCH --time=20:00:00
 #SBATCH --qos=qos_gpu-t3
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=2
 
 export MASTER_PORT='1234'

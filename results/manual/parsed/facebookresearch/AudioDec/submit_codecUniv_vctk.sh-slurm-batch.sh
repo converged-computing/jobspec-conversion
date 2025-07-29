@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64g
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=xxx
 
 autoencoder=autoencoder/symADuniv_vctk_48000_hop300
 statistic=statistic/symADuniv_vctk_48000_hop300_clean

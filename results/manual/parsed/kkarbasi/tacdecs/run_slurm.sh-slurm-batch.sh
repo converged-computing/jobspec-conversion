@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=lrgmem
 #SBATCH --constraint=ntasks-per-node=36
 
 module reset

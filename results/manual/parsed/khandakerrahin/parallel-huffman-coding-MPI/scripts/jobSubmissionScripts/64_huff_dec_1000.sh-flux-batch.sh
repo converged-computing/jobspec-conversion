@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-lizard-9186
+#FLUX --job-name=arid-kitty-8362
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/khandakerrahin/parallel-huffman-coding-MPI/scripts/jobSubmissionScripts/64_huff_dec_1000.sh

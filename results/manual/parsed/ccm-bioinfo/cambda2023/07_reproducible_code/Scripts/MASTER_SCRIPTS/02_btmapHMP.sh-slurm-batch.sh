@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=18G
 #SBATCH --time=06:00:00
-#SBATCH --partition=shared
 #SBATCH --array=0-$hiBatch%$numBatches
 
 prefix=$1

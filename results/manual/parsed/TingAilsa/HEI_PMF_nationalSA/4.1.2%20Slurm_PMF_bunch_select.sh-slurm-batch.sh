@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=amd
 #SBATCH --array=1-150
 

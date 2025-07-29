@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=hello-mpi
 #FLUX -n=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute
 #FLUX -t=60
 #FLUX --urgency=16

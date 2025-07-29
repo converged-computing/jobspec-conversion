@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-cat-1946
+#FLUX --job-name=gloopy-underoos-7320
 #FLUX --queue=gpuq
 #FLUX -t=5400
 #FLUX --urgency=16

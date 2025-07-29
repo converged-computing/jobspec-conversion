@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-chip-8811
+#FLUX --job-name=quirky-fudge-4671
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

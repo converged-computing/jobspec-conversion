@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-itch-8965
+#FLUX --job-name=salted-despacito-1268
 #FLUX -t=43200
 #FLUX --urgency=16
 

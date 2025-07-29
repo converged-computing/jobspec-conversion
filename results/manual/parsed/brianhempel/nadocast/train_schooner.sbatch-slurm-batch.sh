@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=31G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=largejobs
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/scratch/brianhempel/
 

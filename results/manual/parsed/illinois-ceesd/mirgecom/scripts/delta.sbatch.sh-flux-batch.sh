@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=stinky-carrot-0951
+#FLUX --job-name=pusheena-cat-5158
 #FLUX --gpus-per-task=1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpuA40x4
 #FLUX -t=1800
 #FLUX --urgency=16

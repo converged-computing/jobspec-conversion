@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:3
 #SBATCH --mem=36G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu_p
 #SBATCH --qos=low
 
 echo $HOME

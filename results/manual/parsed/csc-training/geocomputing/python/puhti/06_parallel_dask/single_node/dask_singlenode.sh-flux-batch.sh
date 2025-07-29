@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-punk-3763
+#FLUX --job-name=grated-toaster-3636
 #FLUX -c=3
 #FLUX --queue=test
 #FLUX -t=300

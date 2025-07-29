@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=50G
 #SBATCH --time=06:00:00
-#SBATCH --partition=bluemoon
 #SBATCH --array=3-4
 
 module load spack/spack-0.18.1

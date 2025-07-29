@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=100gb
 #SBATCH --time=10:00:00
-#SBATCH --partition=cpu_short
 
 source ~/.bashrc
 if [ "$#" == 3 ]; then

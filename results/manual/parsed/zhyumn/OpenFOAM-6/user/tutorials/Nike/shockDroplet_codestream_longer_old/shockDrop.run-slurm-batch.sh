@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=6-04:00:00
-#SBATCH --partition=ROME
 #SBATCH --constraint=ntasks-per-node=128
 
 . /home/zhan6305/OpenFOAM/cleanOpenFOAM/OpenFOAM-6/etc/bashrc

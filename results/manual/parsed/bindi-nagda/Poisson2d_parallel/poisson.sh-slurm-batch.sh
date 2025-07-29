@@ -6,6 +6,5 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5000MB
-#SBATCH --partition=long
 
 mpirun -np ntasks ./Poisson2D -da_grid_x 256 -da_grid_y 256 -pc_type gamg 

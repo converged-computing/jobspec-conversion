@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-onion-6568
+#FLUX --job-name=ornery-hippo-4335
 #FLUX -c=2
 #FLUX --queue=gpu
 #FLUX -t=180

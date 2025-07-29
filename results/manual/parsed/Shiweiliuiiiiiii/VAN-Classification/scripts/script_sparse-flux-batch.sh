@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=tart-arm-7644
+#FLUX --job-name=quirky-pedo-3769
 #FLUX -c=72
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=259140
 #FLUX --urgency=16

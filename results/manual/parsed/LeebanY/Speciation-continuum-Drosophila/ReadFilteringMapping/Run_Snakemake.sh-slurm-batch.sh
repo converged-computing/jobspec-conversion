@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
-#SBATCH --partition=long
 
 pwd; hostname; date
 conda activate snakemake_drosophilomics

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=16GB
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=dgx-spa
 
 module load cuda
 python tokenizer_train.py hparams/tokenizer.yaml

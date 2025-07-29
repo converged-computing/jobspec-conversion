@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=m2ofa
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpuA40x4
 #FLUX -t=72000
 #FLUX --urgency=16

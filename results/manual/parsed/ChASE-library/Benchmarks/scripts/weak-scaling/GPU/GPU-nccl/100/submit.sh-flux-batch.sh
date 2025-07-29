@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-buttface-9282
+#FLUX --job-name=phat-house-9487
 #FLUX -N=100
 #FLUX -n=400
 #FLUX -c=12

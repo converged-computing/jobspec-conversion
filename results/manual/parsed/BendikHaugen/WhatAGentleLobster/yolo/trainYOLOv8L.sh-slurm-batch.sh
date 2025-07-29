@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=1031GB
 #SBATCH --time=8-08:00:00
-#SBATCH --partition=GPUQ
 #SBATCH --constraint=ntasks-per-node=4
 
 echo "we are running from this directory: $SLURM_SUBMIT_DIR"

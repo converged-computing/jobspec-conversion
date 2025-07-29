@@ -2,7 +2,7 @@
 #FLUX --job-name=Muesli2
 #FLUX -N=2
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=express
 #FLUX -t=7200
 #FLUX --urgency=16

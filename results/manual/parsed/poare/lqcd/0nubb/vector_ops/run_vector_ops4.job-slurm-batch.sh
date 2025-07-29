@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=a100r
 #SBATCH --constraint=ntasks-per-node=4
 
 export OMP_NUM_THREADS='6'

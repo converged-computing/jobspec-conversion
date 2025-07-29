@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3000
 #SBATCH --time=05:00:00
-#SBATCH --partition=general
 
 module purge
 module load cutadapt/1.8.1-fasrc01

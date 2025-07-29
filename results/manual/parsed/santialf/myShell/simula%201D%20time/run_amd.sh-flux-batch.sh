@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-animal-5861
+#FLUX --job-name=swampy-destiny-8264
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

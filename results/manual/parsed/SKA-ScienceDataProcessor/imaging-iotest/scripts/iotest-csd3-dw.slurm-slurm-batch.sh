@@ -5,9 +5,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=skylake
-#SBATCH: --exclusive
-#SBATCH: --no-requeue
+#SBATCH --exclusive
+#SBATCH --no-requeue
 
 export I_MPI_JOB_RESPECT_PROCESS_PLACEMENT='0'
 export I_MPI_PIN_DOMAIN='omp:compact'

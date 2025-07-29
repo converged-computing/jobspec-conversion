@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=10G
 #SBATCH --time=01:30:00
-#SBATCH --partition=inference
 
 set -e
 date; hostname; pwd

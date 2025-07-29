@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=64g
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=batch
 
 cpus=16                   ## must match #SBATCH -c
 index_n_bases=14          ## --genomeSAindexNbases [14]; set to min(14, log2(GenomeLength)/2 - 1)

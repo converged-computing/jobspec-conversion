@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-soup-3335
+#FLUX --job-name=doopy-bicycle-6475
 #FLUX -N=2
 #FLUX --queue=batch
 #FLUX -t=2100

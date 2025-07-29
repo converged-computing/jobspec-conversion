@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=grated-chip-7073
+#FLUX --job-name=hello-soup-9322
 #FLUX --urgency=16
 

@@ -7,7 +7,6 @@
 #SBATCH --gres=4
 #SBATCH --mem=16000
 #SBATCH --time=2-18:40:00
-#SBATCH --partition=studentbatch
 
 export HF_HOME='/home/yandex/APDL2324a/group_4/newcache'
 export TORCH_HOME='/home/yandex/APDL2324a/group_4'

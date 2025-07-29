@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-muffin-5061
+#FLUX --job-name=angry-despacito-1594
 #FLUX --urgency=16
 
 for i in 0 1 2 3 4 

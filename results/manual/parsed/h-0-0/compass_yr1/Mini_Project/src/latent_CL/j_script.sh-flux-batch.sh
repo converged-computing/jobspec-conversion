@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-milkshake-1782
+#FLUX --job-name=expressive-arm-8991
 #FLUX --queue=test
 #FLUX -t=300
 #FLUX --urgency=16

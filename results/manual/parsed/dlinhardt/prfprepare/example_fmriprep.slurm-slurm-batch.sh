@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=24000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=long
 
 export HOMES='/scratch/glerma'
 export SINGULARITYENV_FS_LICENSE='$BIDS_DIR/.freesurfer.txt'

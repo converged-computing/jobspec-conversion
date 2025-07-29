@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=8
 #SBATCH --time=00:30:00
-#SBATCH --partition=regular
 #SBATCH --constraint=gpu
 
 export DVS_MAXNODES='24_'

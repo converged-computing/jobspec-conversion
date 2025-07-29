@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=89GB
 #SBATCH --time=06:00:00
-#SBATCH --partition=mghpcc-short
 
 export LC_ALL='C'
 

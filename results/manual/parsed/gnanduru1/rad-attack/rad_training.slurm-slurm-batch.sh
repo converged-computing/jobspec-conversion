@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=256G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=bii-gpu
 #SBATCH --array=0-3
 
 date

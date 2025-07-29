@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=shared,conroy,itc_cluster
 #SBATCH --constraint=intel
 
 srun -n 1 --mpi=pmi2 python $APPS/prospector_alpha/code/simulate_sfh_prior.py \

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=200G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=nesi_prepost
 
 module load Mule
 /opt/nesi/CS500_centos7_skl/Anaconda2/2019.10-GCC-7.1.0/bin/python batch-u-be509.py

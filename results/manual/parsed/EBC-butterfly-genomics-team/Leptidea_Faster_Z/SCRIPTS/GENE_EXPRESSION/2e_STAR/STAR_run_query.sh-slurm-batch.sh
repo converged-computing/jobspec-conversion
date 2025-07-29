@@ -5,7 +5,6 @@
 #SBATCH --ntasks=3
 #SBATCH --cpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=core
 
 module load bioinfo-tools 
 module load star/2.7.9a

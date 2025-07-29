@@ -4,8 +4,7 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=200G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=tcm
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 . /vol/tcm01/westerhout_tom/conda/etc/profile.d/conda.sh
 conda activate tcm-test

@@ -7,6 +7,5 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=7G
 #SBATCH --time=00:01:00
-#SBATCH --partition=gpu
 
 srun -u python scraper.py

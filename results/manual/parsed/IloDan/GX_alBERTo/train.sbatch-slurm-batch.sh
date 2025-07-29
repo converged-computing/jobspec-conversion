@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=all_usr_prod
 #SBATCH --constraint=gpu_P100_16G|gpu_RTX6000_24G|gpu_RTX5000_16G|gpu_A40_48G|gpu_RTXA5000_24G
 
 export PYTHONPATH='/usr/local/anaconda3/bin/python' # Modifica percorso Python se necessario'

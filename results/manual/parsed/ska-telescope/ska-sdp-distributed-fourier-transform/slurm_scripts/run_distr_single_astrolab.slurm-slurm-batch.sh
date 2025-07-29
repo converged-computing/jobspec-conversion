@@ -8,8 +8,7 @@
 #SBATCH --nodes=3
 #SBATCH --ntasks=3
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=astro-cpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export DASK_CONFIG='${dask_config_path}'
 export PYTHONPATH='${project_path}:$PYTHONPATH'

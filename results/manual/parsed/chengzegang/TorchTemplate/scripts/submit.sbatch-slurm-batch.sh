@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:2
 #SBATCH --mem-per-cpu=64GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=tandon_a100_2
 
 export NCCL_DEBUG='INFO'
 export LOGLEVEL='INFO'

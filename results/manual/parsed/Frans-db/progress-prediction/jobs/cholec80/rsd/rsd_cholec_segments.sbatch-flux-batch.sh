@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-cinnamonbun-4325
+#FLUX --job-name=fat-peanut-butter-3472
 #FLUX -c=2
 #FLUX --queue=general
 #FLUX -t=1800

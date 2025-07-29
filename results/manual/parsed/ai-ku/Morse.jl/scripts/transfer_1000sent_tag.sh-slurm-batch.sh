@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
-#SBATCH --partition=gpu
 #SBATCH --qos=high
 
 julia main.jl --lang sv --epochs 100 --trainSize 1000  \

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=dirty-hope-3153
+#FLUX --job-name=stanky-itch-5731
 #FLUX --urgency=16
 

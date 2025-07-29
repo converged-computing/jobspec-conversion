@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-blackbean-6117
+#FLUX --job-name=crusty-leopard-3323
 #FLUX -n=8
 #FLUX --queue=general
 #FLUX -t=60

@@ -8,7 +8,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=a100
 
 ARRAY_ID=$1

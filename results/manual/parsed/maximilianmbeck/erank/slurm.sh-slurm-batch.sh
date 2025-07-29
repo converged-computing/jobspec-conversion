@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:3
 #SBATCH --mem=200G
-#SBATCH --partition=compute
 #SBATCH --constraint=T4
 
 export MKL_NUM_THREADS='$NUM_CORES OMP_NUM_THREADS=$NUM_CORES'

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=chieh
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=ser-par-10g-2
 #FLUX --urgency=16
 

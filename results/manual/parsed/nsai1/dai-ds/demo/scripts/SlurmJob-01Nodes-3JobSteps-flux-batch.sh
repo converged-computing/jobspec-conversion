@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-sundae-1833
+#FLUX --job-name=scruptious-dog-0767
 #FLUX --urgency=16
 
 srun /opt/ucs/demo/workloads/MILC 1

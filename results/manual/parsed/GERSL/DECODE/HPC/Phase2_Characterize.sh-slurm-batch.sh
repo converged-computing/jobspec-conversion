@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
-#SBATCH --partition=priority
 #SBATCH --qos=zhz18039epyc
 #SBATCH --constraint=epyc128
 #SBATCH --array=1-100

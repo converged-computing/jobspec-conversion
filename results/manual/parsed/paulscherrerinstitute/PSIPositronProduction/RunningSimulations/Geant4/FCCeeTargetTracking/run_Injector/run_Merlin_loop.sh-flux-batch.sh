@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-citrus-9433
+#FLUX --job-name=creamy-kitty-9522
 #FLUX -c=32
 #FLUX --queue=hourly,daily,general
 #FLUX -t=900

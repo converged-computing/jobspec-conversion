@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=mldock-gnn
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=bdw18
 #FLUX -t=43200
 #FLUX --urgency=16

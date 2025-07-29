@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=00:05:00
-#SBATCH --partition=cm2_tiny
 #SBATCH --qos=cm2_tiny
 #SBATCH --constraint=ntasks-per-node=2
 #SBATCH --chdir=./

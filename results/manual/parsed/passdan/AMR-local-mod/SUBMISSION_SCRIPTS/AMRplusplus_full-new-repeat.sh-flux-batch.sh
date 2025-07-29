@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-underoos-7656
+#FLUX --job-name=moolicious-buttface-7419
 #FLUX -c=2
 #FLUX --queue=epyc_ssd
 #FLUX --urgency=16

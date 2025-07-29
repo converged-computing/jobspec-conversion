@@ -9,7 +9,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=3000
 #SBATCH --time=12:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load singularity
 singularity exec conda.sif R CMD BATCH run.R

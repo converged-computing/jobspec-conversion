@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=40GB
 #SBATCH --time=10-16:00:00
-#SBATCH --partition=lianglab
 #SBATCH --constraint=ntasks-per-node=1
 
 source ~/.bashrc

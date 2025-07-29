@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=spider
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=V10032GB,ntasks-per-node=8
 #SBATCH --exclude=spider-0012,spider-0013,spider-0002
 

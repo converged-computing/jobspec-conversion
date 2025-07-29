@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-fork-7630
+#FLUX --job-name=hello-car-2944
 #FLUX --queue=parallel
 #FLUX -t=86400
 #FLUX --urgency=16

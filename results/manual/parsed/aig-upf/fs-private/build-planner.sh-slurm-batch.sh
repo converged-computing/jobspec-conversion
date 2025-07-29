@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32000M
 #SBATCH --time=01:00:00
-#SBATCH --partition=short
 #SBATCH --qos=normal
 #SBATCH --constraint=bdw
 #SBATCH --array=1-1

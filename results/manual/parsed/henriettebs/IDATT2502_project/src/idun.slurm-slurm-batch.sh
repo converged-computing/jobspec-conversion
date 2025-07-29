@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=12000
 #SBATCH --time=04:00:00
-#SBATCH --partition=GPUQ
 
 WORKDIR=${SLURM_SUBMIT_DIR}
 cd ${WORKDIR}

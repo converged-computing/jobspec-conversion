@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=25G
 #SBATCH --time=23:00:00
-#SBATCH --partition=fwkt_v100
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/install/'
 

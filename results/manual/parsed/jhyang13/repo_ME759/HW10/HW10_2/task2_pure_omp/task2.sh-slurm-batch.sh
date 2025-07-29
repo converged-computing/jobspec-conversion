@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
 #SBATCH --time=00:30:00
-#SBATCH --partition=instruction
 #SBATCH --constraint=ntasks-per-node=1
 
 export OMP_PROC_BIND='spread'

@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:1
-#SBATCH --partition=a100
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=543-543%1
 

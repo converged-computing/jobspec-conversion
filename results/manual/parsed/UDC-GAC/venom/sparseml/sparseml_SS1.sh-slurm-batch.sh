@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=128GB
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=amdrtx
 
 module load cuda/11.7.1
 source activate sparseml_artf

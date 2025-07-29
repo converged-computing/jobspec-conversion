@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=gpu:4
 #SBATCH --time=06:00:00
-#SBATCH --partition=booster
 #SBATCH --constraint=ntasks-per-node=4
 #SBATCH --exclude=jwb[0026,0098,0193,0631,0731,0729,0801,0807,0833,0964,1021]
 

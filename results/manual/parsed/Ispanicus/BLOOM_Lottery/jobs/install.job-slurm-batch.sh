@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu
 #SBATCH --time=03:00:00
-#SBATCH --partition=brown
 
 hostname
 source activate torchenv

@@ -2,7 +2,7 @@
 #FLUX --job-name=mpi_diffusion
 #FLUX -N=2
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX -t=600
 #FLUX --urgency=16

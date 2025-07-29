@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-arm-0714
+#FLUX --job-name=salted-signal-2950
 #FLUX -c=16
 #FLUX -t=1080000
 #FLUX --urgency=16

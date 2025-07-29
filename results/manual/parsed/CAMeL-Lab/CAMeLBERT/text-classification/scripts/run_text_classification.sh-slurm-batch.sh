@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=120000
 #SBATCH --time=11:55:00
-#SBATCH --partition=condo
 
 export ARABIC_DATA='data/train'
 export TASK_NAME='arabic_sentiment'

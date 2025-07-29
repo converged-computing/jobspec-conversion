@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-signal-4327
+#FLUX --job-name=red-train-2147
 #FLUX -t=172815
 #FLUX --urgency=16
 

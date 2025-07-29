@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=parallel
 #SBATCH --chdir=/home/troiani/
 
 module load gcc

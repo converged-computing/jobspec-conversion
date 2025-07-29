@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=06:00:00
-#SBATCH --partition=amd_gpu
 #SBATCH --constraint=zen3&2xA100
 
 export SBATCH_CONSTRAINT='zen3&2xA100'

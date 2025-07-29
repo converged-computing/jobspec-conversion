@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-signal-5496
+#FLUX --job-name=hanky-general-1278
 #FLUX --urgency=16
 
 : ${PROJ_ID:="CSC262"}

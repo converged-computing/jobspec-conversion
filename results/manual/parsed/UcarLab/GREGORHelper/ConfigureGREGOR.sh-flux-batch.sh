@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-chip-4593
+#FLUX --job-name=placid-fork-8170
 #FLUX --urgency=16
 
 r2threshold=0.7

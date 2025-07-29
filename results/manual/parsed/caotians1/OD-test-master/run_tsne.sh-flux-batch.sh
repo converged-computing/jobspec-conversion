@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-general-7239
+#FLUX --job-name=evasive-animal-4570
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX --urgency=16

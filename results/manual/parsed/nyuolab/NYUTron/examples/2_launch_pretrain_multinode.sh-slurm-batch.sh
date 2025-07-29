@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:8
 #SBATCH --mem=800G
 #SBATCH --time=30-00:00:00
-#SBATCH --partition=oermannlab
 #SBATCH --qos=qos_free
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=a100-8001,a100-8002,a100-8003

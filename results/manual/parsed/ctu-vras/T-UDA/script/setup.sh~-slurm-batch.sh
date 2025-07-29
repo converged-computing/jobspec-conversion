@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=amdgpu
 #SBATCH --constraint=ntasks-per-node=1
 
 python train.py configs/semantic_kitti/spvcnn/cr0p5.yaml --distributed False

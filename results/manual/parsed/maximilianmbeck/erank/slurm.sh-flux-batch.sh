@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-diablo-7572
+#FLUX --job-name=conspicuous-cinnamonbun-4468
 #FLUX -c=32
 #FLUX --queue=compute
 #FLUX --urgency=16

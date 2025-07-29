@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-cherry-7956
+#FLUX --job-name=swampy-nalgas-0625
 #FLUX -N=2
 #FLUX --queue=singleGPU
 #FLUX --urgency=16

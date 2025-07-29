@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=45000
 #SBATCH --time=00:02:00
-#SBATCH --partition=huce_cascade
 
 echo "Activating python environment"
 module load Anaconda3/5.0.1-fasrc01

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=250GB
 #SBATCH --time=2-00:20:00
-#SBATCH --partition=batch
 
 module load singularity
 mkdir $1

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=development
 
 gro=*.gro
 xtc=*.xtc

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-bicycle-7729
+#FLUX --job-name=fugly-gato-9754
 #FLUX -n=12
 #FLUX --queue=short
 #FLUX --urgency=16

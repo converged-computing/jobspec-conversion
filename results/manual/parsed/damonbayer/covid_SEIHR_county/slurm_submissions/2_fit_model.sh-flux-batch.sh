@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-hippo-0638
+#FLUX --job-name=milky-peas-8142
 #FLUX -n=4
 #FLUX --queue=stats.p
 #FLUX -t=259200

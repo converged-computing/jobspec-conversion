@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=01:40:00
-#SBATCH --partition=gpusmall
 #SBATCH --array=1-10
 
 echo $SLURM_ARRAY_TASK_ID

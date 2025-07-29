@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=4G
 #SBATCH --time=04:00:00
-#SBATCH --partition=russpold
 #SBATCH --qos=russpold
 #SBATCH --array=1-900%10
 

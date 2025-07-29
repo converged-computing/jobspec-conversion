@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-chair-5530
+#FLUX --job-name=doopy-gato-5735
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/a-lud/sea-snake-selection/annotation/hydrophis_major/scripts/01-train.sh

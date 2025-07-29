@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-spoon-3565
+#FLUX --job-name=strawberry-punk-6012
 #FLUX --urgency=16
 
 FAIRSEQ=/private/home/shru/projects/fairseq-py-moe

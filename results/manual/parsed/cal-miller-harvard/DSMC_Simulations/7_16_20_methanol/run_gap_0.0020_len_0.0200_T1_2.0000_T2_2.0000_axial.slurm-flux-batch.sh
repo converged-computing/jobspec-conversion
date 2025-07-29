@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-motorcycle-3736
+#FLUX --job-name=eccentric-parrot-2020
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

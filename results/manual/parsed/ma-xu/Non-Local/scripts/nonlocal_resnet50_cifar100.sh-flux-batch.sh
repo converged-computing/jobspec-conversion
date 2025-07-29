@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-fudge-6379
+#FLUX --job-name=red-staircase-6522
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-rabbit-2946
+#FLUX --job-name=peachy-leg-7353
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/manateechen/wrf-chem.r13172/models/wrf_chem/run_scripts/RUN_REAL_TIME/real_time_FRAPPE_CPSR_FCST.ksh

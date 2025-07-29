@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64000
 #SBATCH --time=03:00:00
-#SBATCH --partition=medium
 #SBATCH --nodelist=xgpc7
 
 export CUDA_HOME='/usr/local/cuda # /usr/local/cuda-10.2'

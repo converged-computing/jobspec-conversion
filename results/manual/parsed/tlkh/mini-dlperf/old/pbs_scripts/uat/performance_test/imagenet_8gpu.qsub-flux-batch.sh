@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-animal-6799
+#FLUX --job-name=faux-squidward-5395
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/tlkh/mini-dlperf/old/pbs_scripts/uat/performance_test/imagenet_8gpu.qsub

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-mango-5659
+#FLUX --job-name=eccentric-pot-8439
 #FLUX -c=4
 #FLUX --queue=teton-gpu
 #FLUX -t=21600

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=A30:1
 #SBATCH --time=20:00:00
-#SBATCH --partition=defq
 
 module load shared 2022
 module load PyTorch/1.12.1-foss-2021a-CUDA-11.3.1

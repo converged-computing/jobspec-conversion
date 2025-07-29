@@ -7,7 +7,6 @@
 #SBATCH --gres=4
 #SBATCH --mem-per-cpu=8G
 #SBATCH --time=2-12:00:00
-#SBATCH --partition=accel
 
 umask 0007
 module use -a /fp/projects01/ec30/software/easybuild/modules/all/

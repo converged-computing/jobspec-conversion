@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 module purge
 module load python-3.8.6-gcc-10.2.0-csfajta

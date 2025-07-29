@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=200G
 #SBATCH --time=23:00:00
-#SBATCH --partition=brown
 
 echo "Running on $(hostname):"
 module load Anaconda3

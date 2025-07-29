@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=10G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=synergy,cpu2019,cpu2021
 
 log_dir="$(pwd)"
 log_file="logs/pipeline-analysis.log.txt"

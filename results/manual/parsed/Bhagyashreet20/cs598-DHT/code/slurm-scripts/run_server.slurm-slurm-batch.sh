@@ -9,7 +9,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=32g
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpuA100x4
 #SBATCH --constraint=scratch
 
 export ET_DATA='/projects/bcng/ukakarla/teach_data'

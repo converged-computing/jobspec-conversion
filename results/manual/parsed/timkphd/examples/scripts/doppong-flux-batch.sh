@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ppong
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=debug
 #FLUX -t=600
 #FLUX --urgency=16

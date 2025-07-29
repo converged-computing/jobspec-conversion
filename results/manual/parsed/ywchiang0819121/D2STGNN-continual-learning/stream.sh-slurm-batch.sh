@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=8
-#SBATCH --partition=normal
 #SBATCH --exclude=cn[1-21,32-55]
 
 /storage/internal/home/y-chiang/miniconda3/bin/python main_stream.py

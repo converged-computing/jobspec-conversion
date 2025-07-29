@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=bhuwan
 
 export WANDB_PROJECT='rerun'
 export WANDB_WATCH='all'

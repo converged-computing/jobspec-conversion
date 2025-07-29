@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:rtx:1
 #SBATCH --mem=32G
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=48
 
 module load GCC/10.2.0

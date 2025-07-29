@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-diablo-7748
+#FLUX --job-name=fuzzy-citrus-8307
 #FLUX -n=4
 #FLUX --gpus-per-task=1
 #FLUX --queue=gpu

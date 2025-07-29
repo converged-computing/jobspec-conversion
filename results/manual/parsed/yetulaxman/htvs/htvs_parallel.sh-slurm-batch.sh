@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=10G
 #SBATCH --time=00:10:10
-#SBATCH --partition=small
 
 module load maestro parallel
 find data  -name '*.sdf' | \

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-fork-3110
+#FLUX --job-name=boopy-signal-5206
 #FLUX --queue=bii-gpu
 #FLUX -t=129600
 #FLUX --urgency=16

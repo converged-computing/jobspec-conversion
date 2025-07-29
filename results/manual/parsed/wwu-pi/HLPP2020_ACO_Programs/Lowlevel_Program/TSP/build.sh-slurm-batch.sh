@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu2080
 #SBATCH --constraint=ntasks-per-node=1
 
 module load GCC/8.2.0-2.31.1

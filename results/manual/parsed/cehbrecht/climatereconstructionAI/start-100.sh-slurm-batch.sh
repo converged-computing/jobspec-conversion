@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=10000
 #SBATCH --time=02:55:00
-#SBATCH --partition=gpu
 #SBATCH --qos=medium
 
 export HDF5_USE_FILE_LOCKING='FALSE'

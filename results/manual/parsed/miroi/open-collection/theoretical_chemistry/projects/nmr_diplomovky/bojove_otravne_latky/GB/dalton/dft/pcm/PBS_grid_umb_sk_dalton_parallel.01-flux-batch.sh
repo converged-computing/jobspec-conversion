@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-taco-5664
+#FLUX --job-name=gassy-muffin-8236
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/projects/nmr_diplomovky/bojove_otravne_latky/GB/dalton/dft/pcm/PBS_grid_umb_sk_dalton_parallel.01

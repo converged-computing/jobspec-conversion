@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64000
 #SBATCH --time=03:00:00
-#SBATCH --partition=medium
 #SBATCH --nodelist=xgph5
 
 echo "$state Start"

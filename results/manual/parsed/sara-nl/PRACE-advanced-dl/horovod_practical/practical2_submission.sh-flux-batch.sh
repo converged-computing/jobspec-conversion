@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-train-6219
+#FLUX --job-name=psycho-pedo-0782
 #FLUX -N=8
 #FLUX --queue=broadwell
 #FLUX -t=6600

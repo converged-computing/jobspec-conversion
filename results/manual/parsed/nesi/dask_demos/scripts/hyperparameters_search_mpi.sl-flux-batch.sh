@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-fork-1834
+#FLUX --job-name=fuzzy-earthworm-7984
 #FLUX -n=20
 #FLUX -c=4
 #FLUX -t=600

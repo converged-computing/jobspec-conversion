@@ -5,7 +5,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:00:20
-#SBATCH --partition=debug
 
 module purge
 module load calcua/2020a

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu
 #SBATCH --mem=8G
-#SBATCH --partition=gpu
 #SBATCH --array=1-10%3
 
 eval $(spack load --sh miniconda3)

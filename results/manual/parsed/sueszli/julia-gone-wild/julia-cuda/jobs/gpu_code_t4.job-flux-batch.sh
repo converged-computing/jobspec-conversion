@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-bits-5736
+#FLUX --job-name=carnivorous-buttface-9520
 #FLUX --queue=q_student_gpu
 #FLUX -t=300
 #FLUX --urgency=16

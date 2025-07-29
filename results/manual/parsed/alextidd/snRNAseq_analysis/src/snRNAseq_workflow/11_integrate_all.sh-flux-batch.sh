@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-carrot-5364
+#FLUX --job-name=stinky-kitty-4246
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alextidd/snRNAseq_analysis/src/snRNAseq_workflow/11_integrate_all.sh

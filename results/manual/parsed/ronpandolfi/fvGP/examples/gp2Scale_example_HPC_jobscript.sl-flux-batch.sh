@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-frito-8402
+#FLUX --job-name=phat-pastry-8210
 #FLUX -n=32
 #FLUX -c=32
 #FLUX --gpus-per-task=1

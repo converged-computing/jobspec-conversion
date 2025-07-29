@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-noodle-9667
+#FLUX --job-name=pusheena-taco-2468
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/mywave/wave/jobs/jptime

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-salad-8995
+#FLUX --job-name=sticky-puppy-0855
 #FLUX --urgency=16
 
 eval $(spack load --sh miniconda3)

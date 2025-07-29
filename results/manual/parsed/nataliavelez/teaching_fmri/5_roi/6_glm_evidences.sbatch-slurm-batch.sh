@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000
 #SBATCH --time=00:05:00
-#SBATCH --partition=fasse
 
 module load ncf
 module load matlab/R2021a-fasrc01

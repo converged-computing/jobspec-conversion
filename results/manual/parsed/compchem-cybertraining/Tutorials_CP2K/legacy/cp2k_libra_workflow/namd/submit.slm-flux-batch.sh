@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-chair-5614
+#FLUX --job-name=gassy-bike-1550
 #FLUX -N=3
 #FLUX --queue=valhalla
 #FLUX -t=7200

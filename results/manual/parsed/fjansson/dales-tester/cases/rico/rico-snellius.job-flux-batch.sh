@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-caramel-4160
+#FLUX --job-name=peachy-fudge-0783
 #FLUX -n=24
 #FLUX --queue=thin
 #FLUX -t=86400

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-squidward-5880
+#FLUX --job-name=cowy-malarkey-5809
 #FLUX -N=4
 #FLUX -n=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=serc
 #FLUX -t=1800
 #FLUX --urgency=16

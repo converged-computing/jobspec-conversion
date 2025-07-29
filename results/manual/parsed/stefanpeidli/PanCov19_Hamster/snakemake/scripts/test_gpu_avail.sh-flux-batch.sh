@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-rabbit-6217
+#FLUX --job-name=hanky-parsnip-6913
 #FLUX -n=2
 #FLUX --queue=gpu-el8
 #FLUX --urgency=16

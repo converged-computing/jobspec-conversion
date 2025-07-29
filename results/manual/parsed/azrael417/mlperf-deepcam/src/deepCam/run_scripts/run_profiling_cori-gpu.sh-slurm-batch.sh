@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=00:05:00
-#SBATCH --partition=regular
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=gpu
 
 singularity

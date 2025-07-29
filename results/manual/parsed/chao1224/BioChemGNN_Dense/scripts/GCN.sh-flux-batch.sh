@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-salad-8029
+#FLUX --job-name=bloated-pedo-5566
 #FLUX --urgency=16
 
 export task='$1'

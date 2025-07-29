@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:4
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4
 
 module load scl/gcc4.9

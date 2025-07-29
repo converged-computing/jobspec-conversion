@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:K40:1
 #SBATCH --mem=4gb
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu_p
 
 cd $SLURM_SUBMIT_DIR
 ml CUDA/10.0.130

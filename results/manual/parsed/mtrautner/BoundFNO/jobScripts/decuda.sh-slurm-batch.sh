@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=00:08:00
-#SBATCH --partition=gpu
 #SBATCH --array=1
 
 cd ../models

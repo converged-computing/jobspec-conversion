@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-hobbit-0622
+#FLUX --job-name=delicious-snack-9707
 #FLUX --queue=work
 #FLUX --urgency=16
 

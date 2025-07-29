@@ -6,9 +6,8 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --chdir=/home/qyan/TransPose
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$(pwd)/install/lib:$(pwd)/install/lib64'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-citrus-2200
+#FLUX --job-name=milky-knife-8455
 #FLUX -c=8
 #FLUX --queue=main
 #FLUX --urgency=16

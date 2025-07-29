@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-sundae-9341
+#FLUX --job-name=lovable-chair-8248
 #FLUX -N=121
 #FLUX -n=484
 #FLUX --queue=develbooster

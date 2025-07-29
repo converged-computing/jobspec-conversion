@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=spider
 #SBATCH --constraint=V100
 
 export LR='0.0005 # CNN'

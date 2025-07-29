@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=04:00:00
-#SBATCH --partition=sdil
 #SBATCH --constraint=ntasks-per-node=2
 
 export TOMOUNT='${TOMOUNT}'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-leg-0763
+#FLUX --job-name=scruptious-kitty-1858
 #FLUX --queue=awhite
 #FLUX -t=259200
 #FLUX --urgency=16

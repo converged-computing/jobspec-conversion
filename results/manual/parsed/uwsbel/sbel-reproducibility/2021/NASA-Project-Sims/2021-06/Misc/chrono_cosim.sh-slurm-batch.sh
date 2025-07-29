@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=sbel
 #SBATCH --qos=sbel_owner
 
 module load gcc/9.2.0

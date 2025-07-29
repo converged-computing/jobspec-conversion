@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:P100:0
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=Piramid
 #SBATCH --nodelist=budbud002
 
 HOMEDIR=/home/UFIP/servantie_c/deepppi/PPIpredict/deep

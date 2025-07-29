@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:full:4
 #SBATCH --mem-per-cpu=500000mb
 #SBATCH --time=12:00:00
-#SBATCH --partition=advanced
 
 export PYTHONPATH='$PYTHONPATH:/home/abc/FZI-WIM-NLI4CT'
 export FI_PROVIDER='efa'

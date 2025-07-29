@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=100G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=gpu_quad
 #SBATCH --array=67
 
 export MSA_data_folder='/n/groups/marks/projects/marks_lab_and_oatml/DRP_part_2/MSA_files/MSAs_0B1P'

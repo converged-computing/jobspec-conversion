@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-bike-2142
+#FLUX --job-name=anxious-itch-5885
 #FLUX -c=8
 #FLUX --queue=general
 #FLUX -t=32400

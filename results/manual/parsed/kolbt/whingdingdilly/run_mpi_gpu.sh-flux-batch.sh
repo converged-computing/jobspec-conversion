@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-destiny-9801
+#FLUX --job-name=eccentric-hippo-8901
 #FLUX -n=2
 #FLUX --queue=gpu
 #FLUX -t=950400

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=40g
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=norm,ccr
 
 module load python/3.9
 module load snakemake/7.32.3

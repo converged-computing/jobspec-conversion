@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=ornery-underoos-9946
+#FLUX --job-name=peachy-frito-1229
 #FLUX -N=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX -t=28800
 #FLUX --urgency=16

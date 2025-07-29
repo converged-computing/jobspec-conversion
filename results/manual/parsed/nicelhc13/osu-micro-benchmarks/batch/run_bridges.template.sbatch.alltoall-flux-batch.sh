@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-diablo-4954
+#FLUX --job-name=placid-parrot-2900
 #FLUX -N=2
 #FLUX -n=8
 #FLUX --queue=gpu

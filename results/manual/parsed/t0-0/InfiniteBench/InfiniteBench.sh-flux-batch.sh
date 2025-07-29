@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-itch-8056
+#FLUX --job-name=arid-bicycle-7964
 #FLUX --urgency=16
 
 source /etc/profile.d/modules.sh

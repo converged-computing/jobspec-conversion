@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-leopard-2758
+#FLUX --job-name=nerdy-sundae-7128
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/deanpettinga/CDseq/bin/run_snake.sh

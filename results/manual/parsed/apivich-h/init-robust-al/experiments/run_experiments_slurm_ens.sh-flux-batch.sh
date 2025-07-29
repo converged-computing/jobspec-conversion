@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-platanos-4852
+#FLUX --job-name=frigid-dog-5774
 #FLUX --urgency=16
 
 export LD_LIBRARY_PATH='$CONDA_PREFIX/lib'

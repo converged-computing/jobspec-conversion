@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-blackbean-0456
+#FLUX --job-name=butterscotch-onion-4902
 #FLUX --urgency=15
 
 module load miniconda3/v4

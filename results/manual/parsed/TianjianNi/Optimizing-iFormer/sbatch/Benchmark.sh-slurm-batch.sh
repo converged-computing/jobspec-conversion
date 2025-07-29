@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:rtx8000:1
 #SBATCH --mem=20GB
 #SBATCH --time=10:00:00
-#SBATCH --partition=rtx8000
 
 module purge
 singularity exec --nv \

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=10G
 #SBATCH --time=12:00:00
-#SBATCH --partition=pascal
 
 module load GCC Singularity git
 git clone https://github.com/tensorflow/models.git

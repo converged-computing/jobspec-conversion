@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-chair-9145
+#FLUX --job-name=rainbow-leopard-5452
 #FLUX -c=20
 #FLUX --queue=coin,batch-ivb,batch-hsw,short-ivb,short-hsw,batch-csl,batch-skl
 #FLUX -t=3600

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=10G
 #SBATCH --time=01:00:00
-#SBATCH --partition=wjg,biochem,sfgf
 
 export MATLABPATH='/home/groups/wjg/kyx/array_analysis/scripts/array_tools/CPscripts/:/home/groups/wjg/kyx/array_analysis/scripts/array_tools/CPlibs/'
 

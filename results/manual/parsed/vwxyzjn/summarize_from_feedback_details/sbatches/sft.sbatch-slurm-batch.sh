@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=8
-#SBATCH --partition=hopper-prod
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --array=0-11
 
 export WANDB_TAGS='refactor-chosen-rejected3,no-tag-$(git rev-parse --short HEAD)'

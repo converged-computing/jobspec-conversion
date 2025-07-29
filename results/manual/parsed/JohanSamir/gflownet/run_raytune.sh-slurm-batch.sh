@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32GB
-#SBATCH --partition=long
 
 module load python/3.9 cuda/11.7 
 source ~/venvs/gflownet/bin/activate

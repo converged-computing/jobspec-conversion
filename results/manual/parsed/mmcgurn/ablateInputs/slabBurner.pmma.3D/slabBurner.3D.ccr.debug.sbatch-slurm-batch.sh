@@ -7,9 +7,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=scavenger
 #SBATCH --qos=scavenger
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=24,IB
 
 export PETSC_DIR='/projects/academic/chrest/mtmcgurn/petsc  '

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=18
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=short
 
 INPUT_FILE=""
 source /etc/profile.d/zzz_cta.sh

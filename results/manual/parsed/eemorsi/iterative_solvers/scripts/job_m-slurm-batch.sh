@@ -4,8 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export nvcudadir='$nvhome/$target/$version/cuda'
 export nvcompdir='$nvhome/$target/$version/compilers'

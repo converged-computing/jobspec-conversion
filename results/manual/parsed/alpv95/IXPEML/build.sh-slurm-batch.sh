@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=25G
 #SBATCH --time=02:00:00
-#SBATCH --partition=kipac
 
 ml python/3.9
 ml py-scipy/1.6.3_py39

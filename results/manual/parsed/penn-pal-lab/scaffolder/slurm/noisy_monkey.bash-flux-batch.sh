@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-carrot-0967
+#FLUX --job-name=grated-peas-9996
 #FLUX --queue=dineshj-compute
 #FLUX -t=43200
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-latke-7891
+#FLUX --job-name=muffled-signal-9094
 #FLUX --queue=PA100q
 #FLUX --urgency=16
 

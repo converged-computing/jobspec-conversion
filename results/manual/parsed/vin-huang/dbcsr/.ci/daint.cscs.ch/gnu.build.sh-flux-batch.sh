@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=fugly-motorcycle-8907
+#FLUX --job-name=bricky-lamp-6985
 #FLUX -c=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cscsci
 #FLUX --urgency=16
 

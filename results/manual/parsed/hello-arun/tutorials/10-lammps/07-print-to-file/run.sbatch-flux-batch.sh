@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-animal-9545
+#FLUX --job-name=milky-staircase-7654
 #FLUX --queue=batch
 #FLUX -t=7200
 #FLUX --urgency=16

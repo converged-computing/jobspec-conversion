@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --time=4-04:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 debug=0
 v1=1

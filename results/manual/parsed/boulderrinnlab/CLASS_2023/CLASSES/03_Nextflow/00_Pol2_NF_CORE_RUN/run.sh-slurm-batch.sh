@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6gb
 #SBATCH --time=11:00:00
-#SBATCH --partition=short
 
 pwd; hostname; date
 echo "Lets go"

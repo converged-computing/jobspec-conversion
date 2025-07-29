@@ -8,7 +8,7 @@
 #SBATCH --mem=30G
 #SBATCH --time=08:00:00
 #SBATCH --constraint=ntasks-per-node=36
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module load intel
 module load gcc/11.3.0

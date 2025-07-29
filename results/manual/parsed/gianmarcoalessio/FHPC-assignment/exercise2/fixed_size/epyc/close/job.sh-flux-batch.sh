@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ex2
 #FLUX -n=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=EPYC
 #FLUX -t=7200
 #FLUX --urgency=16

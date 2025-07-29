@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-signal-2617
+#FLUX --job-name=conspicuous-arm-9220
 #FLUX -c=16
 #FLUX --queue=gpu_quad
 #FLUX -t=432000

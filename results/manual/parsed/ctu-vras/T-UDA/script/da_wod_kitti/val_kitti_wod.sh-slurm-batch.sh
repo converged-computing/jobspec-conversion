@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
 #SBATCH --time=04:00:00
-#SBATCH --partition=amdgpufast
 #SBATCH --constraint=ntasks-per-node=1
 
 cd ../..

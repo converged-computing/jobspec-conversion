@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=128800
 #SBATCH --time=12:00:00
-#SBATCH --partition=skylake
 #SBATCH --array=1-146%15
 
 export job='${SLURM_ARRAY_TASK_ID}'

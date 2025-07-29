@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:0
 #SBATCH --mem=3G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=day
 
 error=0
 if [ -z "$1" ]

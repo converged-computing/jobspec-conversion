@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=miniWeatherML
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=eval-gpu
 #FLUX -t=900
 #FLUX --urgency=16

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=60gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 echo "Date      = $(date)"
 echo "host      = $(hostname -s)"

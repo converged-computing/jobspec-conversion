@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=06:00:00
-#SBATCH --partition=angsd_class
 
 spack load fastqc
 spack load -r py-multiqc

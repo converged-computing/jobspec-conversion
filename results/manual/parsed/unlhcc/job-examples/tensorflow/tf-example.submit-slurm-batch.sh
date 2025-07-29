@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem-per-cpu=4g
 #SBATCH --time=00:15:00
-#SBATCH --partition=gpu
 
 module purge
 module load tensorflow-gpu/py39/2.9

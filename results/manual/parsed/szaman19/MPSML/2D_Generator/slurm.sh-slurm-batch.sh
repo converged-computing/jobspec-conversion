@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6000MB
 #SBATCH --time=00:05:00
-#SBATCH --partition=RM-shared
 #SBATCH --constraint=ntasks-per-node=3
 
 echo "Date              = $(date)"

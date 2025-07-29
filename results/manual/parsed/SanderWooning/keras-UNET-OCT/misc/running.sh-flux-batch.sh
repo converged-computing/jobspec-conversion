@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-blackbean-5503
+#FLUX --job-name=frigid-nunchucks-6162
 #FLUX --queue=gpu
 #FLUX -t=259200
 #FLUX --urgency=16

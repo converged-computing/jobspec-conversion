@@ -2,7 +2,6 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=singleGPU
 
 export CONT='$(pwd)/nvidia-benchmarks-24.03.sif'
 export MOUNT='$(pwd)/HPL.dat'

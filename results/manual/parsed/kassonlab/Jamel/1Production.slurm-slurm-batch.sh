@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 module load gcc/9.2.0
 module load cuda/11.0.228

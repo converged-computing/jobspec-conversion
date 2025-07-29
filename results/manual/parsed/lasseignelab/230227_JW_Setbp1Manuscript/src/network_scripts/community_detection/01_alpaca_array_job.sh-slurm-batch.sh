@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=255000
 #SBATCH --time=02:00:00
-#SBATCH --partition=express
 #SBATCH --array=1-25
 
 export SINGULARITYENV_PASSWORD='pass'

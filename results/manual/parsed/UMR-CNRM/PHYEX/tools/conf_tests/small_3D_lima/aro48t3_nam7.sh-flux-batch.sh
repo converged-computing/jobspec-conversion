@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-caramel-2937
+#FLUX --job-name=blank-staircase-5685
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

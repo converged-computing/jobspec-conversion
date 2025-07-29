@@ -8,7 +8,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem-per-cpu=8G
 #SBATCH --time=00:05:00
-#SBATCH --partition=cpu
 #SBATCH --constraint=ntasks-per-node=1,a6000
 
 export NCCL_DEBUG='WARN'

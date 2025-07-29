@@ -8,7 +8,6 @@
 #SBATCH --time=00:20:00
 #SBATCH --qos=regular
 #SBATCH --constraint=knl,quad,cache,ntasks-per-node=64
-#SBATCH --licenses=SCRATCH
 
 export OMP_NUM_THREADS='1'
 export KMP_AFFINITY='disabled'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-parrot-0278
+#FLUX --job-name=creamy-bicycle-9842
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pstjohn/fairseq-uniparc/go_annotation/summit/submission_scripts/submit_swissprot_noinit.sh

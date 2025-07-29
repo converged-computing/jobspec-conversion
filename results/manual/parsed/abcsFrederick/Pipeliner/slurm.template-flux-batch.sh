@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-gato-3140
+#FLUX --job-name=evasive-mango-8539
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/abcsFrederick/Pipeliner/slurm.template

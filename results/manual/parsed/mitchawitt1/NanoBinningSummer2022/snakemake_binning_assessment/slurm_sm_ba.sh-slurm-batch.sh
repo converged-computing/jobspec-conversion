@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12G
 #SBATCH --time=16:00:00
-#SBATCH --partition=panda
 
 source ~/.bashrc
 cd /athena/ihlab/scratch/miw4007/simulation_test/tools/snakemake_binning_assessment/

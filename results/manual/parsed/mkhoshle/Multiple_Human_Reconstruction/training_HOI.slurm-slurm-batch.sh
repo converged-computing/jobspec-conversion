@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=33-16:20:00
-#SBATCH --partition=lgns
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --exclude=lgn3,lgn4
 

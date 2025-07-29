@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
-#SBATCH --partition=gpu1
 
 alias ll='ls -al'  # 快捷键
 module load anaconda/anaconda3-2022.10  # 加载conda

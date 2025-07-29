@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --time=16:00:00
-#SBATCH --partition=savio2_1080ti
 
 module load ml/tensorflow/1.12.0-py36
 cd Structure-in-GAN

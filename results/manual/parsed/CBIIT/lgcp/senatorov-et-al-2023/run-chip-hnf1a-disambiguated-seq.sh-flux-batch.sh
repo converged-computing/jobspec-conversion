@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-lentil-2067
+#FLUX --job-name=delicious-pastry-8098
 #FLUX -c=12
 #FLUX --queue=ccr
 #FLUX -t=259200

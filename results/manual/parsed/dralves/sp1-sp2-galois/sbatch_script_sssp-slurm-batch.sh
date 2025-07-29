@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=skx-normal
 
     #  "sbatch knl.serial.slurm" on a Stampede2 login node.
     #    A serial code ignores the value of lower case n,

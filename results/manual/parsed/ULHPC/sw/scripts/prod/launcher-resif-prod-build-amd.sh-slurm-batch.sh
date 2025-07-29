@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=batch
 #SBATCH --qos=urgent
 #SBATCH --constraint=epyc,ntasks-per-node=8
 

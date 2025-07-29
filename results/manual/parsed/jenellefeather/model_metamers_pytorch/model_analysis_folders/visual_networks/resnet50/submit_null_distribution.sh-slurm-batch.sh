@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16000
 #SBATCH --time=6-06:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=high-capacity
 #SBATCH --array=0-4
 

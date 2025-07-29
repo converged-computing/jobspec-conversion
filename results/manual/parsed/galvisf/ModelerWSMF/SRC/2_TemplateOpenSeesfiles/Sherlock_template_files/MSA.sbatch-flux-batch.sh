@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-leader-4792
+#FLUX --job-name=sticky-destiny-0828
 #FLUX -N=5
 #FLUX --queue=cee,owners
 #FLUX --urgency=16

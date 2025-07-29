@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=11
 #SBATCH --chdir=/scratch/js4yd/Bais910Hill30mDREAMzs-10Ch/
 

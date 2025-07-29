@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=example
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=development
 #FLUX --urgency=16
 

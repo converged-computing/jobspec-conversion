@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=creamy-pot-5284
-#FLUX: --exclusive
+#FLUX --job-name=confused-diablo-1473
+#FLUX --exclusive
 #FLUX --urgency=16
 
 CUDA_VISIBLE_DEVICES=0,1 python main.py \

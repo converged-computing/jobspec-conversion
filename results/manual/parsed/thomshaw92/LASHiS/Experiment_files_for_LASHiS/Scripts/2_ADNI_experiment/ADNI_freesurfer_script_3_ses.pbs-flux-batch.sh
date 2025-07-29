@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-leader-5270
+#FLUX --job-name=dinosaur-carrot-1257
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/thomshaw92/LASHiS/Experiment_files_for_LASHiS/Scripts/2_ADNI_experiment/ADNI_freesurfer_script_3_ses.pbs

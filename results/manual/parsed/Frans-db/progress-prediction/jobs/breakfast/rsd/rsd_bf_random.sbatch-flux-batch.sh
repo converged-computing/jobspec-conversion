@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-parsnip-8878
+#FLUX --job-name=red-leopard-6992
 #FLUX -c=2
 #FLUX --queue=general
 #FLUX -t=14400

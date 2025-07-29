@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-staircase-0097
+#FLUX --job-name=blue-lizard-1378
 #FLUX --queue=jazayeri
 #FLUX -t=14400
 #FLUX --urgency=16

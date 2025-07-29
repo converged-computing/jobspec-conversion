@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-egg-4822
+#FLUX --job-name=moolicious-taco-1703
 #FLUX -c=8
 #FLUX --queue=svl
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1080ti:2
 #SBATCH --mem-per-cpu=32G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=kilian
 #SBATCH --nodelist=harpo
 
 POINT_STYLE=default

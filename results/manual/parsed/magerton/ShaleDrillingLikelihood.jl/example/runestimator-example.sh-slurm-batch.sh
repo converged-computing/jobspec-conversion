@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=256000
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=high2
 
 echo ""
 hostname

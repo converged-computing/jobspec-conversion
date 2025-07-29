@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=swampy-poo-5640
+#FLUX --job-name=crusty-butter-8450
 #FLUX -N=4
 #FLUX -c=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-underoos-0248
+#FLUX --job-name=joyous-lemon-0079
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DiegoBarMor/computational-biophysics-project/src_md/mt1_rep0.pbs

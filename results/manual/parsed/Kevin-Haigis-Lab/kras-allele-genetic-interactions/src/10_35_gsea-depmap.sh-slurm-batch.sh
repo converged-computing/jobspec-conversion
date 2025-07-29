@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=6G
 #SBATCH --time=00:04:30
-#SBATCH --partition=short
 
 module load gcc java
 GSEA_PATH=/home/jc604/mysoftware/gsea-3.0.jar

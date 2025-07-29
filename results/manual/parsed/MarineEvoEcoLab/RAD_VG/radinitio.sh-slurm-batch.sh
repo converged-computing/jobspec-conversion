@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=10G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=uri-cpu
 
 export NXF_SINGULARITY_CACHEDIR='/home/gabriel_barrett_uri_edu/nxf-singularity-cache-dir'
 

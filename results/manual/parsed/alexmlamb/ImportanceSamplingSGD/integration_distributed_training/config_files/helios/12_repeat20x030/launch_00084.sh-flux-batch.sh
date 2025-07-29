@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-snack-0136
+#FLUX --job-name=lovable-diablo-7721
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alexmlamb/ImportanceSamplingSGD/integration_distributed_training/config_files/helios/12_repeat20x030/launch_00084.sh

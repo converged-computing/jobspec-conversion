@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-bike-8848
+#FLUX --job-name=chunky-knife-7255
 #FLUX --queue=gpuq
 #FLUX -t=36000
 #FLUX --urgency=16

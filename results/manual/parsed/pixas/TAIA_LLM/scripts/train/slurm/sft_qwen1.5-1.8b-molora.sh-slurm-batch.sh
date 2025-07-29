@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=partition
 #SBATCH --constraint=ntasks-per-node=1
 
 export LOGLEVEL='INFO'

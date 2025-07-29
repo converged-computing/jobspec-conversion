@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:K80:2
 #SBATCH --mem-per-cpu=228GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=m3e
 
 nvidia-smi -l 1 -q -x -f /home/userName/br76_scratch/relion21_tutorial/pMOSP/nvidiaLogging-m3e-MPI-2.xml &
 nvidiaPID=$!

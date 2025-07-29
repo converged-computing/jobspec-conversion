@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-despacito-4251
+#FLUX --job-name=goodbye-fudge-9740
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/alintulu/FHead2011PhysicsProject/JetEnergyCorrection/MCTruthStudies/17244_CorrectionAnalyzer/RunFile.sh

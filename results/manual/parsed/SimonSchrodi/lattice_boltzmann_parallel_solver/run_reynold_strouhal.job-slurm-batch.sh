@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6gb
 #SBATCH --time=00:40:00
-#SBATCH --partition=multiple
 #SBATCH --constraint=ntasks-per-node=40
 
 module load devel/python/3.8.1_gnu_9.2-pipenv

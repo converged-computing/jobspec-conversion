@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=SparkMaster
 #FLUX -c=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX -t=3600
 #FLUX --urgency=16

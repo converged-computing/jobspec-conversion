@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-hope-0443
+#FLUX --job-name=blank-cinnamonbun-9164
 #FLUX --queue=gpu_titanrtx
 #FLUX -t=174600
 #FLUX --urgency=16

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=stanky-eagle-4363
+#FLUX --job-name=stanky-lemur-1391
 #FLUX -N=2
 #FLUX -n=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=huce_cascade
 #FLUX -t=480
 #FLUX --urgency=16

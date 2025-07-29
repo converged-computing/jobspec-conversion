@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30000
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=broadwl
 #SBATCH --array=14,27
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID

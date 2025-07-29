@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-ricecake-1443
+#FLUX --job-name=delicious-gato-4890
 #FLUX --urgency=16
 
 declare -a ksp_pc_map

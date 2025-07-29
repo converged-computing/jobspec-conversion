@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-leader-3677
+#FLUX --job-name=adorable-lentil-5370
 #FLUX -N=10
 #FLUX --queue=compute
 #FLUX --urgency=16

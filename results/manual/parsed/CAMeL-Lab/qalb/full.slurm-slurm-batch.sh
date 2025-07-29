@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=30000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=serial
 #SBATCH --array=1-6
 
 module purge

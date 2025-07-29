@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=swampy-car-4328
+#FLUX --job-name=faux-eagle-4949
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=n1s8-v100-1
 #FLUX -t=43200
 #FLUX --urgency=16

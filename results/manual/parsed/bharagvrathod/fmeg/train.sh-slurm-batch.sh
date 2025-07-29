@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32GB
-#SBATCH --partition=gpu_7d1g
 
 module load gcc openmpi/4.0.5/gcc/8.3.0
 module load cuda/11.0.2 cuda/blas/11.0.2 cuda/fft/11.0.2

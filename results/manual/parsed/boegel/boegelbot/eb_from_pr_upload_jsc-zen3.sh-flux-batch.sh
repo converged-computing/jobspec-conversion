@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-egg-4832
+#FLUX --job-name=gloopy-banana-1346
 #FLUX -n=4
 #FLUX --queue=jsczen3c
 #FLUX -t=360000

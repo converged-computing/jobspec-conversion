@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=4G
 #SBATCH --time=00:10:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --constraint=ntasks-per-node=2
 
 module purge

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=00:04:00
-#SBATCH --partition=ecsstudents
 
 module load conda/py3-latest
 conda activate my-pytorch-env

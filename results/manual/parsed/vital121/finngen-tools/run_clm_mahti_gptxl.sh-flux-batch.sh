@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-cherry-7887
+#FLUX --job-name=lovable-signal-8416
 #FLUX --queue=gputest
 #FLUX -t=900
 #FLUX --urgency=16

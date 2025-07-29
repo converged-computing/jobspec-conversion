@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-fork-5443
+#FLUX --job-name=joyous-caramel-4609
 #FLUX -N=2
 #FLUX --queue=devel
 #FLUX -t=900

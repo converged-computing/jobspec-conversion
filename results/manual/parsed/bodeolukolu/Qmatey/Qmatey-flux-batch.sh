@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-citrus-3098
+#FLUX --job-name=carnivorous-rabbit-2537
 #FLUX --urgency=16
 
 export Qmatey_dir='$( cd -- "$(dirname "$0 ")" >/dev/null 2>&1 ; pwd -P )/'

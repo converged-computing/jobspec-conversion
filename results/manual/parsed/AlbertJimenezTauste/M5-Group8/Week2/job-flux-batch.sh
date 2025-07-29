@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-earthworm-0660
+#FLUX --job-name=adorable-parsnip-9179
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

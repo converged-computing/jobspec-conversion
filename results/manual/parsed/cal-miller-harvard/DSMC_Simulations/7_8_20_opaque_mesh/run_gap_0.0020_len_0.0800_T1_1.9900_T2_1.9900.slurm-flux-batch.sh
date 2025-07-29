@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-lamp-4804
+#FLUX --job-name=adorable-pot-1516
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

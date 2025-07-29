@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-general-7323
+#FLUX --job-name=fat-rabbit-6292
 #FLUX --queue=athey
 #FLUX -t=28800
 #FLUX --urgency=16

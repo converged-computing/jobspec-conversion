@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-lamp-3808
+#FLUX --job-name=swampy-staircase-4646
 #FLUX -c=2
 #FLUX --queue=p100
 #FLUX --urgency=16

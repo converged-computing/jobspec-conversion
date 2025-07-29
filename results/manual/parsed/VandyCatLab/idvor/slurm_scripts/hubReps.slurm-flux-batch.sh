@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-bike-9247
+#FLUX --job-name=sticky-pedo-3526
 #FLUX -c=2
 #FLUX --queue=pascal
 #FLUX -t=21600

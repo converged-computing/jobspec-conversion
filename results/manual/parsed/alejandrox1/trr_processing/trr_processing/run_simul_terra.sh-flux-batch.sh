@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=psycho-earthworm-6186
-#FLUX: --exclusive
+#FLUX --job-name=carnivorous-salad-1330
+#FLUX --exclusive
 #FLUX -t=172800
 #FLUX --urgency=16
 

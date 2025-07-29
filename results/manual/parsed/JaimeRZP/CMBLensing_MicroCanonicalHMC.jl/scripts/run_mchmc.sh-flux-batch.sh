@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-parsnip-0501
+#FLUX --job-name=bloated-nalgas-7551
 #FLUX -c=4
 #FLUX --gpus-per-task=1
 #FLUX --queue=regular

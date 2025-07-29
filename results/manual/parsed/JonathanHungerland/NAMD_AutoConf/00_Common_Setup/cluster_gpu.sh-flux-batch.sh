@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-lamp-5957
+#FLUX --job-name=conspicuous-motorcycle-1414
 #FLUX --queue=qblg.p
 #FLUX -t=345600
 #FLUX --urgency=16

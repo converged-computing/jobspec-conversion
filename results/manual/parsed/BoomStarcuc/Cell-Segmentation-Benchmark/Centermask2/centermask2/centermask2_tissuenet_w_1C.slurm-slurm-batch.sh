@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:4
 #SBATCH --mem=200G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=tier3
 
 cd centermask2
 spack load cuda@11.0.2%gcc@9.3.0/lrd2rcw

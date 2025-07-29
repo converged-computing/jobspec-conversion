@@ -7,7 +7,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=4gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 categories="Task1:relevance"
 epochs=20

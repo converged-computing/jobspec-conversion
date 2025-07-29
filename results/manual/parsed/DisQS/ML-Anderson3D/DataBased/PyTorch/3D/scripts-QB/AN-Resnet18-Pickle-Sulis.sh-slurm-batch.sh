@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:ampere_a100:1
 #SBATCH --mem=3850
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 getseed=${1:-"N"} #Set to Y if you what to reuse stored seed

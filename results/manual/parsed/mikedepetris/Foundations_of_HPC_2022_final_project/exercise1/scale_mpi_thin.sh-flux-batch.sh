@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=mpi_scale
 #FLUX -N=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=THIN
 #FLUX -t=7200
 #FLUX --urgency=16

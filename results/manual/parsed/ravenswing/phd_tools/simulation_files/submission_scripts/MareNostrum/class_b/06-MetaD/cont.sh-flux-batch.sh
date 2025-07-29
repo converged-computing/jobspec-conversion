@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-malarkey-8079
+#FLUX --job-name=butterscotch-itch-5321
 #FLUX -N=4
 #FLUX -c=2
 #FLUX -t=86400

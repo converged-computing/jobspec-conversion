@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-car-4846
+#FLUX --job-name=reclusive-eagle-4372
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/LLNL/magpie/submission-scripts/script-lsf-mpirun/magpie.lsf-mpirun-hadoop

@@ -2,7 +2,7 @@
 #FLUX --job-name=srun-launcher
 #FLUX -N=2
 #FLUX -c=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=xyz-cluster
 #FLUX -t=600
 #FLUX --urgency=16

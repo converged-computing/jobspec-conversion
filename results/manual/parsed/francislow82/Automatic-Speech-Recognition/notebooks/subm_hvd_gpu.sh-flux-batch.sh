@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-egg-5499
+#FLUX --job-name=bloated-sundae-5058
 #FLUX -N=8
 #FLUX --queue=gpu_big
 #FLUX -t=345600

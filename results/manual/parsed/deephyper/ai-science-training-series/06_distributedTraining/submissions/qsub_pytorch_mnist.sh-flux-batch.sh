@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=frigid-staircase-5573
+#FLUX --job-name=chocolate-latke-1056
 #FLUX --urgency=16
 

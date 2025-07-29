@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=2G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=cpu
 
 export manifest_file='../../../source_files/scRNA_Seq/Manifest_file.tsv'
 export tmp_folder_Download_data='/tmp/DOWNLOAD_HCA_DATA.$RANDOM'

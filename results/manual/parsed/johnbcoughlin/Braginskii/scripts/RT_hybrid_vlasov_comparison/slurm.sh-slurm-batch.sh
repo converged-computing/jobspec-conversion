@@ -9,7 +9,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu-rtx6k
 #SBATCH --chdir=/gscratch/aaplasma/johnbc/projects/Braginskii
 #SBATCH --array=1-@@NTASKS@@%2
 

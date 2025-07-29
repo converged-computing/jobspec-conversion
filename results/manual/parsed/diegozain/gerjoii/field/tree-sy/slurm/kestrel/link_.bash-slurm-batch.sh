@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --time=1-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 ulimit -v unlimited
 ulimit -s unlimited

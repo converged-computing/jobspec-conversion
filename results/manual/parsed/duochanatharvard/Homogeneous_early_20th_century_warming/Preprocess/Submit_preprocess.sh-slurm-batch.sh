@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5000
 #SBATCH --time=08:20:00
-#SBATCH --partition=${partition_preprocess}
 #SBATCH --array=1-1200
 #SBATCH --dependency=${JOB_assign_missing}
 

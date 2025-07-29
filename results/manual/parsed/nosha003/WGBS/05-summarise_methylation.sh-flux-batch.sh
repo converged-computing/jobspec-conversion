@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-general-3187
+#FLUX --job-name=peachy-parsnip-4911
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/nosha003/WGBS/05-summarise_methylation.sh

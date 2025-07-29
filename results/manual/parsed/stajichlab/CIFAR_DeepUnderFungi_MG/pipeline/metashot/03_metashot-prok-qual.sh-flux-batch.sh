@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-buttface-5499
+#FLUX --job-name=ornery-eagle-7632
 #FLUX -c=24
 #FLUX --queue=batch
 #FLUX --urgency=16

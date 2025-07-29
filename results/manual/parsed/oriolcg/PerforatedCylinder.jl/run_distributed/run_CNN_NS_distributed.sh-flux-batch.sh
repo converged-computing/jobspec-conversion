@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=PerforatedCylinder
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute
 #FLUX -t=259200
 #FLUX --urgency=16

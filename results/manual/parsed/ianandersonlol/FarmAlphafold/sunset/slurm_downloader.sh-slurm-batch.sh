@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=6-06:00:00
-#SBATCH --partition=bmh
 #SBATCH --chdir=/home/icanders
 
 module load spack/aria2

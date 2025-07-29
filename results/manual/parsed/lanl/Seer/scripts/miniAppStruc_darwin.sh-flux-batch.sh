@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-itch-0583
+#FLUX --job-name=faux-animal-3362
 #FLUX -N=2
 #FLUX --queue=galton
 #FLUX --urgency=16

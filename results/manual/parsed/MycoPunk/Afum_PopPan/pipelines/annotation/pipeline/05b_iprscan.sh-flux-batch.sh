@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-citrus-5998
+#FLUX --job-name=doopy-lemur-1836
 #FLUX -n=24
 #FLUX --queue=intel
 #FLUX -t=259200

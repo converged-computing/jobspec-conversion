@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-hippo-1848
+#FLUX --job-name=scruptious-lemon-6236
 #FLUX -c=4
 #FLUX --queue=cs
 #FLUX -t=86400

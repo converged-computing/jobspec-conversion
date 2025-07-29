@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=60g
 #SBATCH --time=01:40:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 date

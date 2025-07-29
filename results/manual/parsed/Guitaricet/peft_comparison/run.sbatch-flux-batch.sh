@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=reloraF
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=g40x
 #FLUX -t=86399
 #FLUX --urgency=16

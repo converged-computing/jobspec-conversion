@@ -6,7 +6,7 @@
 #SBATCH --mem=128
 #SBATCH --time=01:00:00
 #SBATCH --qos=bigjob
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export BGLOCKLESSMPIO_F_TYPE='0x47504653'
 

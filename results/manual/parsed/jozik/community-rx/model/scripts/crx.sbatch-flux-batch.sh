@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-lettuce-2266
-#FLUX: --exclusive
+#FLUX --job-name=gassy-despacito-7108
+#FLUX --exclusive
 #FLUX --queue=broadwl
 #FLUX -t=9000
 #FLUX --urgency=16

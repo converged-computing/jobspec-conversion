@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=performance
 
 module load python/3.10.12
 module load cuda

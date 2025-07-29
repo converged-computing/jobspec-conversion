@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=5GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=learnfair
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --array=0-4
 

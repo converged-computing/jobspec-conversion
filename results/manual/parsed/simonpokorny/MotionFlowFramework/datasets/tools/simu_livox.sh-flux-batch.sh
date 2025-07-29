@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-earthworm-5238
+#FLUX --job-name=gassy-fork-4631
 #FLUX -c=4
 #FLUX --queue=amdgpufast
 #FLUX -t=14400

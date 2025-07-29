@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-muffin-9175
-#FLUX: --exclusive
+#FLUX --job-name=quirky-mango-3343
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export cluster='azure'

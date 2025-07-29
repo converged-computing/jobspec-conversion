@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-toaster-8092
+#FLUX --job-name=purple-toaster-1689
 #FLUX -c=10
 #FLUX --gpus-per-task=1
 #FLUX --queue=learnlab

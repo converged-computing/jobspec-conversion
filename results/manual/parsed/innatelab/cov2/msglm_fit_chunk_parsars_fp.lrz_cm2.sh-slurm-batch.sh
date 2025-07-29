@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=7
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=cm2_large
 
 source /etc/profile.d/modules.sh
 module load slurm_setup

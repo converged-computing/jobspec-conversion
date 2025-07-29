@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-bits-4448
+#FLUX --job-name=fugly-earthworm-9267
 #FLUX -c=16
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=sandyb
 #SBATCH --constraint=ib
 
 module load matlab/2013b

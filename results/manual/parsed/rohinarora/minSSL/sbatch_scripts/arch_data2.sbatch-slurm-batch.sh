@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=50Gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=ce-mri
 
 source activate simclr1
 python pre_train.py --dataset-name cifar10  --arch resnet50 --comment "_cifar10_resnet50"

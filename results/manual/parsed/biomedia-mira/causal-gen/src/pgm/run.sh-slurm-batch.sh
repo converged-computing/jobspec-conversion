@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:teslat4:1
 #SBATCH --mem=32gb
-#SBATCH --partition=gpus
 #SBATCH --constraint=ntasks-per-node=1
 
 model_name='ukbb192_beta5_dgauss'

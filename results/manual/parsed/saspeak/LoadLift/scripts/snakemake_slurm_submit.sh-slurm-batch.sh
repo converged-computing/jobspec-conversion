@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=12G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=medium
 
 source activate snakemake
 snakemake --slurm --default-resources slurm_account=cropdiv-acc slurm_partition=short -s ${1} ${3} -j ${2} --use-conda --rerun-incomplete 

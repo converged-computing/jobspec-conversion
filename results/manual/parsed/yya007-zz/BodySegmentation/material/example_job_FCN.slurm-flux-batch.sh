@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-hobbit-2076
+#FLUX --job-name=pusheena-hope-2688
 #FLUX -n=4
 #FLUX --queue=maxwell
 #FLUX -t=3600

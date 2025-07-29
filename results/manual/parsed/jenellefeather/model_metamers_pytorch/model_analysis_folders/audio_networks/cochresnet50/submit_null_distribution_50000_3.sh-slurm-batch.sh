@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:GEFORCEGTX1080TI:1
 #SBATCH --mem=128000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=mcdermott
 #SBATCH --constraint=high-capacity
 #SBATCH --array=0
 

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export PATH='/mnt/home/evanschaffer/anaconda3/bin:$PATH'
 export PYTHONPATH='/mnt/home/evanschaffer/anaconda3/envs/deeplabcut'

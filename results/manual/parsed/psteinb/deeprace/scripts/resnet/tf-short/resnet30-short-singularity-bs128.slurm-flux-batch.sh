@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-parrot-9287
+#FLUX --job-name=reclusive-itch-9167
 #FLUX --queue=gpu2
 #FLUX -t=2700
 #FLUX --urgency=16

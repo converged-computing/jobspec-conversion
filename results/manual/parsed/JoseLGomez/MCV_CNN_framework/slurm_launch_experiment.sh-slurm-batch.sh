@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=16384
 #SBATCH --time=00:10:05
-#SBATCH --partition=dcc
 #SBATCH --chdir=/home/lgomez
 
 sleep 5

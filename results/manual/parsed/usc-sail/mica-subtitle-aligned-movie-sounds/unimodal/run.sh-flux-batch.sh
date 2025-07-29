@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-nalgas-7514
+#FLUX --job-name=outstanding-citrus-5992
 #FLUX -c=20
 #FLUX --queue=gpu
 #FLUX -t=86400

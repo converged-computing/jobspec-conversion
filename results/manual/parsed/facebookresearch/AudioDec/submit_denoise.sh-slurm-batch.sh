@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64g
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=xxx
 
 encoder="denoise/symAD_vctk_48000_hop300"
 decoder="vocoder/AudioDec_v1_symAD_vctk_48000_hop300_clean"

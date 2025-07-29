@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=GPU-V100
 #SBATCH --qos=gpujoblimit
 
 export PATH='$PATH:/home/snst/huysh20/.lammps_command'

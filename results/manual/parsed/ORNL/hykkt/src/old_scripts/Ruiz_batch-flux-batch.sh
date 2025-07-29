@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-snack-6232
+#FLUX --job-name=bumfuzzled-malarkey-4360
 #FLUX --queue=a100_shared
 #FLUX -t=3540
 #FLUX --urgency=16

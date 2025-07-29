@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-soup-1568
+#FLUX --job-name=ornery-chip-2432
 #FLUX -c=48
 #FLUX --queue=devel
 #FLUX -t=1200

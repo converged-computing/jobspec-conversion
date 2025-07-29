@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:1
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu-shared
 #SBATCH --constraint=ntasks-per-node=6
 
 export CUDA_HOME='/usr/local/cuda-8.0'

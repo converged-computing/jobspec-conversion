@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-lamp-5534
+#FLUX --job-name=phat-mango-5558
 #FLUX -N=2
 #FLUX --queue=bdwall
 #FLUX -t=900

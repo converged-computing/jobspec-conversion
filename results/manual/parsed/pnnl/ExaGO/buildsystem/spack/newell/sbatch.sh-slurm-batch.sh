@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=128
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=newell8
 
 export MY_CLUSTER='newell'
 

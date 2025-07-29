@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-train-0466
+#FLUX --job-name=moolicious-pancake-3241
 #FLUX -c=8
 #FLUX --queue=medium
 #FLUX -t=432000

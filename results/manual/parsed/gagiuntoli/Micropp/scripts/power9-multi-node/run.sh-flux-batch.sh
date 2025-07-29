@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=micropp
 #FLUX -n=320
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

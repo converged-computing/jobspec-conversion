@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=10G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=lindahl1,lindahl2,lindahl3,lindahl4
 
 module unload gromacs
 module switch gromacs/2023 gromacs=gmx_mpi

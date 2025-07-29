@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=compute
 
 cd <path/to/working/directory>
 source /opt/ohpc/pub/Software/mamba-rocky/etc/profile.d/conda.sh

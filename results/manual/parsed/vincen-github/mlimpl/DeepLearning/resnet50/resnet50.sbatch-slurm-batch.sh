@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
 #SBATCH --gres=gpu:4
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 PYTHON_PATH=/home/mawensen/project/miniconda3/envs/torch/bin

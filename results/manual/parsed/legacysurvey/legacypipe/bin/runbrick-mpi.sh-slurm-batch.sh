@@ -4,9 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 #SBATCH --constraint=ntasks-per-node=16,haswell
-#SBATCH --licenses=SCRATCH
 
 export LEGACY_SURVEY_DIR='/global/cfs/cdirs/cosmo/work/legacysurvey/dr9m'
 export DUST_DIR='/global/cfs/cdirs/cosmo/data/dust/v0_1'

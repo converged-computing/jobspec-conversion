@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:k6000
-#SBATCH --partition=amd-longq
 
 module purge
 module load shared

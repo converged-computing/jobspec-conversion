@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=dpart
 #SBATCH --qos=high
 
 export WORK_DIR='/scratch0/slurm_${SLURM_JOBID}'

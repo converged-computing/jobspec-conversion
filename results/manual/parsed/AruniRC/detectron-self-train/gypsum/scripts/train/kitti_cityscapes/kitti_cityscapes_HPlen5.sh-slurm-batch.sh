@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --mem=60000
-#SBATCH --partition=1080ti-long
 
 python tools/train_net_step.py \
     --dataset cityscapes_cars_HPlen5+kitti_car_train \

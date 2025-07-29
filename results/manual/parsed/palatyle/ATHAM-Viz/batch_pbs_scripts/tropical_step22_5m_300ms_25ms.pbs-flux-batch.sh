@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-fork-5911
+#FLUX --job-name=misunderstood-chair-8527
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_step22_5m_300ms_25ms.pbs

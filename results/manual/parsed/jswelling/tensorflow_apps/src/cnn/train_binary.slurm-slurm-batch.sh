@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:1
 #SBATCH --time=08:00:00
-#SBATCH --partition=GPU-small
 #SBATCH --constraint=ntasks-per-node=7
 
 export PYTHONPATH='/pylon5/pscstaff/welling/git/tensorflow_apps/src:$PYTHONPATH'

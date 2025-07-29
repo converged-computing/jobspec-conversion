@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-buttface-2762
+#FLUX --job-name=persnickety-train-0844
 #FLUX --queue=standard
 #FLUX --urgency=16
 

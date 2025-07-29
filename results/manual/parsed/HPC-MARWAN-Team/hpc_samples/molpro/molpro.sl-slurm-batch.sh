@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=defq
 
 export WORK_DIR='/data/$USER/${SLURM_JOB_ID}'
 export INPUT_DIR='$PWD/myInput'

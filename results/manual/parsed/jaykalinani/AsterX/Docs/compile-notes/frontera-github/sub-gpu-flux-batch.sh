@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-chip-5710
+#FLUX --job-name=muffled-despacito-3179
 #FLUX -n=4
 #FLUX --queue=rtx-dev
 #FLUX -t=7200

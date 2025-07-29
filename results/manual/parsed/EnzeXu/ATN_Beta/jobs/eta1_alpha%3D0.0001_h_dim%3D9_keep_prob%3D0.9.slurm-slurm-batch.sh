@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=medium
 #SBATCH --constraint=ntasks-per-node=8
 
 echo $(pwd) > "jobs/pwd.txt"

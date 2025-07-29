@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-hobbit-0551
+#FLUX --job-name=grated-squidward-9628
 #FLUX -t=43200
 #FLUX --urgency=16
 

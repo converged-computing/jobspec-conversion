@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-egg-2778
+#FLUX --job-name=reclusive-eagle-6314
 #FLUX --queue=gputest
 #FLUX -t=900
 #FLUX --urgency=16

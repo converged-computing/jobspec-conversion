@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=450GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=learnlab
 #SBATCH --constraint=volta32gb,ntasks-per-node=8
 
 export MASTER_ADDR='$(srun --ntasks=1 hostname 2>&1 | tail -n1)'

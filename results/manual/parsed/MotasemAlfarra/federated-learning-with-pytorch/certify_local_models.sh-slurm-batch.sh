@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=64G
 #SBATCH --time=04:00:00
-#SBATCH --partition=batch
 #SBATCH --exclude=gpu211-14,gpu213-06
 
 CONST=0

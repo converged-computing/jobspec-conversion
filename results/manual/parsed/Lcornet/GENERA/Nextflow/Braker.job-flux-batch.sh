@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-peas-1120
+#FLUX --job-name=goodbye-cinnamonbun-2101
 #FLUX -c=20
 #FLUX --queue=bio
 #FLUX -t=1731600

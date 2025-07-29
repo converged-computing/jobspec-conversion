@@ -3,7 +3,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
-#SBATCH --partition=hpib
 #SBATCH --constraint=ntasks-per-node=1
 
 export FI_PROVIDER='verbs'

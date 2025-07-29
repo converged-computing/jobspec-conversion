@@ -8,9 +8,8 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=11:55:00
-#SBATCH --partition=cf1
 #SBATCH --qos=cf_normal
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export PATH='~tin/gsHPCS_toolkit/benchmark/hpl/hpl-2.2/bin/intel64_nehalem:$PATH	# lr4/savio are hashwell, but can't find binary for it...'
 

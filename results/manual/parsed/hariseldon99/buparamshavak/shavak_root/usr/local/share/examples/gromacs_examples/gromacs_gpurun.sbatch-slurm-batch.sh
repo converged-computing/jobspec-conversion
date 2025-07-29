@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=01:00:00
-#SBATCH --partition=GPU
 
 export GMX_IMGDIR='${SIFDIR}/gromacs/'
 export GMX_IMG='gromacs-2022.3_20230206.sif'

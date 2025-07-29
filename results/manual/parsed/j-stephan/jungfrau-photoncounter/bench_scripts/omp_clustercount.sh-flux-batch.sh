@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ClusterCountCpu
 #FLUX -c=80
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=defq
 #FLUX -t=82800
 #FLUX --urgency=16

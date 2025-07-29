@@ -2,7 +2,7 @@
 #FLUX --job-name=quickStart
 #FLUX -N=2
 #FLUX -n=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

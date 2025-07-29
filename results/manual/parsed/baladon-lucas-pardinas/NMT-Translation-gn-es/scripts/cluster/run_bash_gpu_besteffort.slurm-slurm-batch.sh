@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:p100:1
 #SBATCH --mem-per-cpu=60G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=besteffort
 #SBATCH --qos=besteffort
 
 export SINGULARITY_TMPDIR='${HOME}/cache'

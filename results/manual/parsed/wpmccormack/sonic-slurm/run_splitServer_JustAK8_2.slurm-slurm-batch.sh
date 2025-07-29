@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --time=05:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SCRAM_ARCH='slc7_amd64_gcc900'
 

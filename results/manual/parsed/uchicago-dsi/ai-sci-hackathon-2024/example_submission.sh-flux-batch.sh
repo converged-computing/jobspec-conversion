@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-bicycle-9447
+#FLUX --job-name=expensive-malarkey-4394
 #FLUX --queue=schmidt-gpu
 #FLUX -t=7200
 #FLUX --urgency=16

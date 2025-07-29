@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=FFT-GPU
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=28800
 #FLUX --urgency=16
 

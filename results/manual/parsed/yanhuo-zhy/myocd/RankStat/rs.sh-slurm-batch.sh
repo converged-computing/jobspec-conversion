@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20000
-#SBATCH --partition=general
 #SBATCH --qos=normal
 
 module load gcc/gcc-10.2.0

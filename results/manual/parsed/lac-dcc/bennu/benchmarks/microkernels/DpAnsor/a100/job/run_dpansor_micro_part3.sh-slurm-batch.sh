@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gpus-per-task=1
 #SBATCH --time=6-06:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=a100-80gb,ib
 
 export TVM_HOME='/mnt/home/gverma/ceph/tvm'

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=96
 #SBATCH --gpus-per-task=8
-#SBATCH --partition=train
 
 export LOGLEVEL='INFO'
 export FI_PROVIDER='efa'

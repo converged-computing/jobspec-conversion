@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-bike-7547
+#FLUX --job-name=stanky-citrus-9182
 #FLUX -n=6
 #FLUX --queue=dgx2q
 #FLUX -t=87840

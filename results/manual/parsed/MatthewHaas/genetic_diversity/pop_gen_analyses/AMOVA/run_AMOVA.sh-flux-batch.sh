@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-platanos-5240
+#FLUX --job-name=confused-underoos-5706
 #FLUX -n=32
 #FLUX --queue=amdsmall
 #FLUX -t=86400

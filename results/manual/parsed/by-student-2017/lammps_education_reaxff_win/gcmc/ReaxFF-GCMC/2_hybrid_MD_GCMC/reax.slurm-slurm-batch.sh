@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4G
 #SBATCH --time=00:20:00
-#SBATCH --partition=scavenge
 
 cd $SLURM_SUBMIT_DIR
 module purge

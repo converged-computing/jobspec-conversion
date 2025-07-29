@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-platanos-3535
+#FLUX --job-name=boopy-car-2635
 #FLUX -c=16
 #FLUX --queue=AMG
 #FLUX -t=86400

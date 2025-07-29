@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-bicycle-3330
+#FLUX --job-name=outstanding-pancake-2810
 #FLUX -n=24
 #FLUX --urgency=16
 

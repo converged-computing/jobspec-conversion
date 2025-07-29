@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-parsnip-4419
+#FLUX --job-name=phat-pastry-5450
 #FLUX -N=16
 #FLUX -n=16
 #FLUX -c=12

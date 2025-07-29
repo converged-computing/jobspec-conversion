@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=v100_full_node
 #SBATCH --array=0-1%1
 
 MASTER=`/bin/hostname -s`

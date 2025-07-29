@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=qgpu
 
 module purge
 source /apps/all/Anaconda3/2023.09-0/etc/profile.d/conda.sh

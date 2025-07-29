@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-underoos-6040
+#FLUX --job-name=grated-puppy-8151
 #FLUX --queue=gpu2
 #FLUX -t=5400
 #FLUX --urgency=16

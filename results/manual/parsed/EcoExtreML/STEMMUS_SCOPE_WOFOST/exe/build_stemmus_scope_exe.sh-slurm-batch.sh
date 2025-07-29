@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:05:00
-#SBATCH --partition=thin
 
 set -euo pipefail
 module load 2021

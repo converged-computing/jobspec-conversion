@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=10M
 #SBATCH --time=00:05:00
-#SBATCH --partition=ai,ainlp,tnt
 
 module load GCC/10.3.0
 module load CMake/3.20.1

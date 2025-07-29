@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1GB
 #SBATCH --time=00:10:00
-#SBATCH --partition=plgrid-gpu
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=0-100
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-plant-3950
+#FLUX --job-name=astute-leopard-3425
 #FLUX -c=4
 #FLUX --queue=compute
 #FLUX --urgency=16

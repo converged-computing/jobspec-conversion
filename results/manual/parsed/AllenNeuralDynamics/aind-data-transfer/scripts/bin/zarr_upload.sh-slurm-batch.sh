@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8000
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=aind
 #SBATCH --nodelist=n111
 #SBATCH --exclude=n69,n74
 

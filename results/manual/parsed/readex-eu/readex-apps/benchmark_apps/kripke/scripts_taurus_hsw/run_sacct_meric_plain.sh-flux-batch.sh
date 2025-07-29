@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=kripke_sacct
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=haswell
 #FLUX -t=3600
 #FLUX --urgency=16

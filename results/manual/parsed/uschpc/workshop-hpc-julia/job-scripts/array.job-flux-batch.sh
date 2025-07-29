@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-lettuce-7773
+#FLUX --job-name=outstanding-animal-4613
 #FLUX -c=8
 #FLUX --queue=main
 #FLUX -t=3600

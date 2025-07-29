@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=t1small
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 cd $SLURM_SUBMIT_DIR
 . /usr/share/Modules/init/bash

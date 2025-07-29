@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-earthworm-0931
+#FLUX --job-name=fugly-chip-9853
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

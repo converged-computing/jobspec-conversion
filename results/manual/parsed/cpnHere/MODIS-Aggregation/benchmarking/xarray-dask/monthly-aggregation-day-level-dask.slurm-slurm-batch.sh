@@ -7,9 +7,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=MaxMemPerNode
-#SBATCH --partition=batch
 #SBATCH --qos=long+
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 srun /umbc/xfs1/cybertrn/common/Softwares/anaconda3/bin/python monthly-aggregation-day-level-dask.py

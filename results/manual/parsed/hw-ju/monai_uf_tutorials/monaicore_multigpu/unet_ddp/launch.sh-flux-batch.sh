@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=blank-underoos-8207
+#FLUX --job-name=dirty-cinnamonbun-0019
 #FLUX -c=4
 #FLUX --gpus-per-task=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpg-ai
 #FLUX -t=14400
 #FLUX --urgency=16

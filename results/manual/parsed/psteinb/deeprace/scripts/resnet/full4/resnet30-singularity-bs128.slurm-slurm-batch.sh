@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=8000
 #SBATCH --time=11:00:00
-#SBATCH --partition=gpu2
 
 cd /home/steinba/development/deeprace/
 pwd

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128G
 #SBATCH --time=01:30:00
-#SBATCH --partition=batch
 #SBATCH --array=1-70
 
 conda activate /ibex/scratch/zhanc0c/projects/st_dense_gcn/env

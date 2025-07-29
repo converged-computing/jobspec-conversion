@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-lemon-8721
+#FLUX --job-name=reclusive-squidward-7354
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/zsteve/wtf/manuscript/faces/run_wtf_lamda_5/run.sh

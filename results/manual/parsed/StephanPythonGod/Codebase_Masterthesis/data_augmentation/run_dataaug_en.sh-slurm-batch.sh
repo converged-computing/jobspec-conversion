@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40gb
 #SBATCH --time=18:00:00
-#SBATCH --partition=gpu_4
 #SBATCH --array=1-4
 
 echo "Starting ..."

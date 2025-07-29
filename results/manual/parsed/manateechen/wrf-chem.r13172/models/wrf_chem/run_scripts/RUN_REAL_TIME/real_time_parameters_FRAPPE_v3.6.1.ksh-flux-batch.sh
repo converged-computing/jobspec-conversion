@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-cattywampus-9119
+#FLUX --job-name=strawberry-peas-4034
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/manateechen/wrf-chem.r13172/models/wrf_chem/run_scripts/RUN_REAL_TIME/real_time_parameters_FRAPPE_v3.6.1.ksh

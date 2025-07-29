@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=0
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=dark
 
 export OMP_NUM_THREADS='1'
 export MKL_NUM_THREADS='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-toaster-8646
+#FLUX --job-name=fuzzy-bicycle-3963
 #FLUX -c=8
 #FLUX -t=170
 #FLUX --urgency=16

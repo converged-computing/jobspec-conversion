@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-fork-7635
+#FLUX --job-name=chocolate-pedo-7790
 #FLUX -t=43200
 #FLUX --urgency=16
 

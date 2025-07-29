@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=maxtext:test
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=partition
 #FLUX -t=1200
 #FLUX --urgency=16

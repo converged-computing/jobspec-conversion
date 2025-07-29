@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=100000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu_p100
 
 export LOCAL_WORK_DIR='/home/2017018/tconst01/ssd/pao_jpeg_bis/localisation_part'
 export DATASET_PATH='/save/2017018/PARTAGE/pascal_voc/'

@@ -7,7 +7,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=batch
 #SBATCH --constraint=v100,cpu_intel_platinum_8260
 
 export NCCL_DEBUG='INFO'

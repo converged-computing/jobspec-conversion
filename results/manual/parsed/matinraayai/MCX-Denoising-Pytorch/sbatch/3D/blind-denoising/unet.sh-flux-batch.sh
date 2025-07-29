@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-pancake-5871
+#FLUX --job-name=ornery-blackbean-6467
 #FLUX -c=256
 #FLUX --queue=ai-jumpstart
 #FLUX --urgency=16

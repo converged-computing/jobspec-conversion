@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-puppy-4089
+#FLUX --job-name=placid-citrus-1918
 #FLUX -c=6
 #FLUX --queue=develgpus
 #FLUX -t=600

@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4096
 #SBATCH --time=16:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 beginTime=`date +%s`
 machine=`hostname`

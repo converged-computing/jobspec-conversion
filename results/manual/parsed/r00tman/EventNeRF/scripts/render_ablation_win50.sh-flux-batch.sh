@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-signal-4715
+#FLUX --job-name=arid-peas-2234
 #FLUX --queue=gpu22
 #FLUX -t=3600
 #FLUX --urgency=16

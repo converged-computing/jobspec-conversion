@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-onion-4889
+#FLUX --job-name=placid-fork-7564
 #FLUX --urgency=16
 
 hostname

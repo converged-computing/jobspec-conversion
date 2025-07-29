@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-toaster-1015
+#FLUX --job-name=stinky-bits-0928
 #FLUX --queue=standard
 #FLUX -t=1200
 #FLUX --urgency=16

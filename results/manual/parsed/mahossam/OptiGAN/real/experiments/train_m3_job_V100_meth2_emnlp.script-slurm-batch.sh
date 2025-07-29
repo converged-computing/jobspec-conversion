@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:V100:1
 #SBATCH --mem=10000
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=m3g
 
 nvidia-smi
 . /home/mahmoudm/anaconda3/etc/profile.d/conda.sh

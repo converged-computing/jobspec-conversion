@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:30:00
-#SBATCH --partition=shared
 #SBATCH --constraint=gpu
 
 export PATH='${PATH}:${HIP_PATH}'

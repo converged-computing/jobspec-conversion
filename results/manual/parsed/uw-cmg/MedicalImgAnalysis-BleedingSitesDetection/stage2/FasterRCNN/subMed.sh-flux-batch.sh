@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-frito-7951
+#FLUX --job-name=sticky-peas-9236
 #FLUX --queue=slurm_priority
 #FLUX -t=1209780
 #FLUX --urgency=16

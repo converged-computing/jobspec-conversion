@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-milkshake-0280
+#FLUX --job-name=bloated-bike-3655
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ML4HPC/4D_fMRI_Transformer/scripts/polaris/prod_ABCD_main_step3_mask_loss.pbs

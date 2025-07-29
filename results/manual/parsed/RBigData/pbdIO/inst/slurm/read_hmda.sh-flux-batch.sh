@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=read
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=burst
 #FLUX -t=1200
 #FLUX --urgency=16

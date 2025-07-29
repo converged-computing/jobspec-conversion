@@ -6,7 +6,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=milanq
 
 export MKL_NUM_THREADS='$SLURM_NTASKS'
 export OMP_NUM_THREADS='$SLURM_NTASKS'

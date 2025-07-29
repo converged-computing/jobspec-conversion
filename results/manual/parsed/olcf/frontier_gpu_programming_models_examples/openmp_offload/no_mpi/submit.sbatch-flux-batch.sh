@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-diablo-2212
+#FLUX --job-name=angry-lemon-1550
 #FLUX --queue=batch
 #FLUX -t=2100
 #FLUX --urgency=16

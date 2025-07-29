@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-signal-5543
+#FLUX --job-name=buttery-taco-8695
 #FLUX -c=4
 #FLUX --queue=amd_a100nv_8
 #FLUX -t=28800

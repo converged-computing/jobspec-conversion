@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30GB
 #SBATCH --time=00:20:00
-#SBATCH --partition=small
 
 export PATH='/projappl/project_2003180/samantha/bin:$PATH'
 

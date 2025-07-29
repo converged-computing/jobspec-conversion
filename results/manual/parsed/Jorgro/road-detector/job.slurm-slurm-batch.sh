@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20000
 #SBATCH --time=05:00:00
-#SBATCH --partition=GPUQ
 #SBATCH --constraint=ntasks-per-node=1
 
 WORKDIR=${SLURM_SUBMIT_DIR}

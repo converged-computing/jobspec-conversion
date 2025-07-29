@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=40G
 #SBATCH --time=05:00:00
-#SBATCH --partition=gpu
 #SBATCH --exclude=gn40
 
 export MASTER_ADDR='`/bin/hostname -s`'

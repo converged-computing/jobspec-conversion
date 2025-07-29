@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=1G
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu_p
 #SBATCH --qos=normal
 #SBATCH --nodelist=supergpu03pxe
 

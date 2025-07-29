@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-leg-9610
+#FLUX --job-name=stinky-snack-8150
 #FLUX --queue=exacloud
 #FLUX -t=1440
 #FLUX --urgency=16

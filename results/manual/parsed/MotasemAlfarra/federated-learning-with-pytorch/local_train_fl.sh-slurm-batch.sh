@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=64G
 #SBATCH --time=04:00:00
-#SBATCH --partition=batch
 
 CONST=0
 source activate rs_fl

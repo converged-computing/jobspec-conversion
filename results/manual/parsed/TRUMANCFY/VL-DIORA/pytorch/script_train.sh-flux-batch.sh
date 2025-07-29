@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-poodle-4505
+#FLUX --job-name=phat-signal-2761
 #FLUX -c=5
 #FLUX --urgency=16
 

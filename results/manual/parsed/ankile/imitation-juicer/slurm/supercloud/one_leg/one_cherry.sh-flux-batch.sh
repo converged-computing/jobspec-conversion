@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-milkshake-6219
+#FLUX --job-name=milky-mango-2636
 #FLUX -c=20
 #FLUX --queue=xeon-g6-volta
 #FLUX -t=1200

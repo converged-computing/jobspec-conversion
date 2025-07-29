@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=nemo-curator:example-script
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

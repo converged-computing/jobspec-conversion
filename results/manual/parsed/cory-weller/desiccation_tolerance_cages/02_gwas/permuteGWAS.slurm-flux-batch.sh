@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-truffle-3686
+#FLUX --job-name=moolicious-fork-4232
 #FLUX --queue=standard
 #FLUX -t=5400
 #FLUX --urgency=16

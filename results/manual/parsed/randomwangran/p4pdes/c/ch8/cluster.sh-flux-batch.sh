@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-cat-0379
+#FLUX --job-name=eccentric-omelette-6066
 #FLUX -n=12
 #FLUX --queue=debug
 #FLUX --urgency=16

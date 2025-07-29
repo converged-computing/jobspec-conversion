@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-animal-8352
+#FLUX --job-name=dirty-mango-9303
 #FLUX -c=4
 #FLUX --queue=compute
 #FLUX --urgency=16

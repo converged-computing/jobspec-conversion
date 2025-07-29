@@ -8,7 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
 #SBATCH --qos=debug
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export PYTHONPATH='${PYTHONPATH}:${IODABUILT}/lib/python3.10/pyiodaconv'
 export LD_LIBRARY_PATH='/home/Mariusz.Pagowski/MAPP_2018/libs/fortran-datetime/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}'

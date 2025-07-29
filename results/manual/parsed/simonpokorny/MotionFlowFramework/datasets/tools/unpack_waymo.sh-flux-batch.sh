@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-arm-5535
+#FLUX --job-name=scruptious-nunchucks-0942
 #FLUX -c=2
 #FLUX --queue=amdfast
 #FLUX -t=14400

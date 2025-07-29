@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-malarkey-5313
+#FLUX --job-name=crusty-gato-4146
 #FLUX -n=4
 #FLUX --queue=maxwell
 #FLUX -t=432000

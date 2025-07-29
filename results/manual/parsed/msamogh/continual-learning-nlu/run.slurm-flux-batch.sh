@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-fork-3389
+#FLUX --job-name=reclusive-chair-4570
 #FLUX -c=2
 #FLUX --queue=gpu
 #FLUX -t=36000

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=06:00:00
-#SBATCH --partition=blanca-bortz
 #SBATCH --qos=blanca-bortz
 #SBATCH --array=1-10
 

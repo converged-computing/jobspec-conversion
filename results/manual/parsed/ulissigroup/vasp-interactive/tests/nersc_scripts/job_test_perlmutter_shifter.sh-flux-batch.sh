@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-poo-6708
+#FLUX --job-name=faux-train-4099
 #FLUX --queue=regular
 #FLUX -t=7200
 #FLUX --urgency=16

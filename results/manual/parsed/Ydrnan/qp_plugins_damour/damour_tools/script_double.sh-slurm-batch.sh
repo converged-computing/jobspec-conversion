@@ -2,8 +2,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-#SBATCH --partition=xeonv6
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_PROC_BIND='false'
 

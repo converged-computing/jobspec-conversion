@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=256GB
 #SBATCH --time=15-00:00:00
-#SBATCH --partition=epyc2
 #SBATCH --qos=job_epyc2_long
 #SBATCH --constraint=ntasks-per-node=1
 

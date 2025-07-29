@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-house-9188
+#FLUX --job-name=grated-lentil-3679
 #FLUX -n=8
 #FLUX --urgency=16
 

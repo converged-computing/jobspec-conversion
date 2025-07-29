@@ -4,8 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
-#SBATCH --licenses=SCRATCH
 
 export OMP_NUM_THREADS='1'
 export JULIA_NUM_THREADS='32'

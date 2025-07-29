@@ -5,7 +5,7 @@
 #SBATCH --gres=gpu:v100l:1
 #SBATCH --mem=125G
 #SBATCH --time=00:30:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=32
 
 export num_runs='10'

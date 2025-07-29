@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-toaster-0033
+#FLUX --job-name=eccentric-lizard-6624
 #FLUX --urgency=16
 
 AF_PATH=/fsx/alphafold2/alphafold/

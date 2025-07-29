@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=2G
 #SBATCH --time=02:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=1
 
 export SLURM_SUBMIT_DIR='/home/groups/gracegao/prn_codes/doppler_prn'

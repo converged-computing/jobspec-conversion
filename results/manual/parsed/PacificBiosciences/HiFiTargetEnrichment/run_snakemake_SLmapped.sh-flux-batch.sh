@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-lemon-0594
+#FLUX --job-name=psycho-muffin-9563
 #FLUX -c=4
 #FLUX --queue=compute
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=64000
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpusmall
 
 export PATH='/scratch/project_2001083/sanchit/xc/bin:$PATH'
 export PYTHONUSERBASE='/scratch/project_2001083/sanchit/xc/myenv'

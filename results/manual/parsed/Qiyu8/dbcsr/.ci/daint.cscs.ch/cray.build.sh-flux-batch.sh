@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-lemur-9411
+#FLUX --job-name=angry-general-5248
 #FLUX -c=3
 #FLUX --queue=cscsci
 #FLUX --urgency=16

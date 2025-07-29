@@ -2,7 +2,7 @@
 #FLUX --job-name=micro-cond-clip-embed-512
 #FLUX -N=2
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

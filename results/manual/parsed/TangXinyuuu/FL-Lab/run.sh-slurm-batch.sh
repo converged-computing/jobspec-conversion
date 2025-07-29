@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
-#SBATCH --partition=gpulab02
 #SBATCH --constraint=ntasks-per-node=6
 
 python experiments1.py --model=resnet \

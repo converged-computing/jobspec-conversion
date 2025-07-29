@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=6-16:00:00
-#SBATCH --partition=gpuserial
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

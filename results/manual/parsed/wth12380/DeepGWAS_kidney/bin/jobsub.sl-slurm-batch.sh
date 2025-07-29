@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4g
 #SBATCH --time=01:00:00
-#SBATCH --partition=l40-gpu
 #SBATCH --qos=gpu_access
 
 export LD_LIBRARY_PATH='/nas/longleaf/home/wth12380/.conda/envs/RTensorFlow/lib/python3.10/site-packages/tensorrt_libs:$LD_LIBRARY_PATH'

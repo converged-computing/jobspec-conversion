@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4GB
 #SBATCH --time=06:00:00
-#SBATCH --partition=batch
 
 module load kallisto/0.43.1-foss-2016b
 module load SAMtools/1.3.1-foss-2016b

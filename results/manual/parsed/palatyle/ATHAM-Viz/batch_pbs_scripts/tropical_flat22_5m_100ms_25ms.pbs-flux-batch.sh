@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-staircase-6286
+#FLUX --job-name=expensive-parsnip-9714
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/palatyle/ATHAM-Viz/batch_pbs_scripts/tropical_flat22_5m_100ms_25ms.pbs

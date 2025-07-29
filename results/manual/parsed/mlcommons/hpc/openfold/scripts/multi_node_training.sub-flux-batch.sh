@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=mlperf-hpc:openfold-reference
 #FLUX -N=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=8100
 #FLUX --urgency=16
 

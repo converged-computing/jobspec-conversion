@@ -6,7 +6,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=400gb
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu
 
 source $HOME/.bashrc
 spack load miniconda3@4.10.3

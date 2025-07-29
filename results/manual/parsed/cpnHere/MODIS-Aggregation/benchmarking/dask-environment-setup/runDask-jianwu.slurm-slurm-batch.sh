@@ -6,9 +6,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=MaxMemPerNode
-#SBATCH --partition=high_mem
 #SBATCH --qos=normal+
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 current_time=$(date "+%Y.%m.%d-%H.%M.%S")

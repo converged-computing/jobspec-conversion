@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=bii-gpu
 #SBATCH --constraint=a100_80gb
 
 export BASE='/scratch'

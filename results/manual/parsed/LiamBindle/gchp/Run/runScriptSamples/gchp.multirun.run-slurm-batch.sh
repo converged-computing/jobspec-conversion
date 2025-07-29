@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=50000
 #SBATCH --time=00:00:30
-#SBATCH --partition=huce_intel
 
 gchplog="gchp.log"
 multirunlog="multirun.log"

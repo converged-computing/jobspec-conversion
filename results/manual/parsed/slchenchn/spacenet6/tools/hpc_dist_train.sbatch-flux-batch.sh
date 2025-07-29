@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-itch-8230
+#FLUX --job-name=fat-earthworm-2727
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX --urgency=16

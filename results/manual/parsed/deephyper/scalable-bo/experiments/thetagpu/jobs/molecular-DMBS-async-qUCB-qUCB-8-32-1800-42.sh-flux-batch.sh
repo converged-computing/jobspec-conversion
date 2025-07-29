@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-spoon-7579
+#FLUX --job-name=stinky-chip-3064
 #FLUX --urgency=16
 

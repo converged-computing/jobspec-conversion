@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128000
 #SBATCH --time=05:00:00
-#SBATCH --partition=orchid
 #SBATCH --array=000-790
 
 export N='$(printf %03d $SLURM_ARRAY_TASK_ID)'

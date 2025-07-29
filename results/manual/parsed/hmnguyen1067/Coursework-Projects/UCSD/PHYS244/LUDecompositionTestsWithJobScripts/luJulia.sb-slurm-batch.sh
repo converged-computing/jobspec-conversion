@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=32G
 #SBATCH --time=00:30:00
-#SBATCH --partition=shared
 #SBATCH --constraint=ntasks-per-node=1
 
 export JULIA_NUM_THREADS='32'

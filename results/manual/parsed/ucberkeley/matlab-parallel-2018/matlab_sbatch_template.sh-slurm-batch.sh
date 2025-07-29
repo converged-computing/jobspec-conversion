@@ -5,8 +5,6 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=savio
-#SBATCH --licenses=mdcs:40
 
 export MDCE_OVERRIDE_EXTERNAL_HOSTNAME='$(/bin/hostname -f)'
 

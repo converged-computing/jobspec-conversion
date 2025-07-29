@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=3-00:15:00
-#SBATCH --partition=defq
 #SBATCH --constraint=ntasks-per-node=1,TitanX
 
 export LOCAL_ENV='/var/scratch/mbn781/Venue-Accessibility-Google-Reviews/'

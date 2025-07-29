@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=3090
 
 export PYTHONPATH='.'
 

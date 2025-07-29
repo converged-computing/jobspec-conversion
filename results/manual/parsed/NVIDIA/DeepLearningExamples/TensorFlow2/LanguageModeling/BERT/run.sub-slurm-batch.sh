@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 set -eux
 readonly docker_image="nvcr.io/nvidia/tensorflow:21.02-tf2-py3"

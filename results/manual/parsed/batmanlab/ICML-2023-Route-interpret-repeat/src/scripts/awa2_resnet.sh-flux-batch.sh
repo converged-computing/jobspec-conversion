@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-parrot-1431
+#FLUX --job-name=strawberry-pot-1256
 #FLUX --urgency=16
 
 pwd; hostname; date

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=200G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=nigam-v100
 
 seeds="0"
 n_gpus=1

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-carrot-8366
+#FLUX --job-name=frigid-platanos-7416
 #FLUX -t=43200
 #FLUX --urgency=16
 

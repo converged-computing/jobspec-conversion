@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=1428G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=hugemem
 
 export HF_DATASETS_CACHE='$CACHEDIR'
 

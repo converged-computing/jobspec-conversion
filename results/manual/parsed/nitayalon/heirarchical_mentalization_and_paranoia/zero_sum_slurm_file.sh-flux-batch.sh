@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-caramel-5217
+#FLUX --job-name=chunky-ricecake-3622
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute
 #FLUX -t=87150
 #FLUX --urgency=16

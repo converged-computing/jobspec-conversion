@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=titanx
 #SBATCH --constraint=ntasks-per-node=1
 
 directory_exp='/ihome/pbrusilosky/rum20/seq2seq-keyphrase-pytorch/exp/'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-leg-2468
+#FLUX --job-name=goodbye-knife-2958
 #FLUX -c=5
 #FLUX --queue=gm4-pmext
 #FLUX -t=129600

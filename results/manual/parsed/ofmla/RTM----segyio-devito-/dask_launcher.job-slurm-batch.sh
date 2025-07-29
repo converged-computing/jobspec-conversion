@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=standard
 
 export TMPDIR='$PWD/codes_devito'
 export OMP_NUM_THREADS='10'

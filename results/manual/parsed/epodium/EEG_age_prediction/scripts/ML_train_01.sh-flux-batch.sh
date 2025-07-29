@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-soup-9481
+#FLUX --job-name=bricky-punk-9124
 #FLUX --queue=gpu_shared
 #FLUX -t=54000
 #FLUX --urgency=16

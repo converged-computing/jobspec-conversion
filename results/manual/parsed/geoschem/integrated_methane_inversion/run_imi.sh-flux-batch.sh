@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-toaster-3454
+#FLUX --job-name=confused-soup-5788
 #FLUX --urgency=16
 
 source src/utilities/common.sh

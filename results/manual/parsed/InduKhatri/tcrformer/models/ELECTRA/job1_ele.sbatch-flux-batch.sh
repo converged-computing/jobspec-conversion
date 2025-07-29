@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-dog-1326
+#FLUX --job-name=expensive-destiny-9253
 #FLUX -c=2
 #FLUX --queue=general
 #FLUX -t=10800

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=psycho-omelette-2743
+#FLUX --job-name=angry-ricecake-0387
 #FLUX -c=4
 #FLUX --gpus-per-task=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpg-ai
 #FLUX -t=3600
 #FLUX --urgency=16

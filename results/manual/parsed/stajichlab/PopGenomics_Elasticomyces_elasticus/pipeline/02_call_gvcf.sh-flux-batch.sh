@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-butter-5423
+#FLUX --job-name=expressive-general-1363
 #FLUX -n=16
 #FLUX --queue=intel
 #FLUX -t=172800

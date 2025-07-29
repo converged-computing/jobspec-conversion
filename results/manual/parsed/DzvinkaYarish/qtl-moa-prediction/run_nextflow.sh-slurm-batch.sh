@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=8G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=main
 #SBATCH --constraint=ntasks-per-node=1
 
 export root='/gpfs/space/home/dzvenymy'

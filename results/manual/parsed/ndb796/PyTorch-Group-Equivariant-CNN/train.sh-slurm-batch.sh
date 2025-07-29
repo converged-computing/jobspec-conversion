@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu-titanxp
 
 cd  $SLURM_SUBMIT_DIR
 echo "SLURM_SUBMIT_DIR=$SLURM_SUBMIT_DIR"

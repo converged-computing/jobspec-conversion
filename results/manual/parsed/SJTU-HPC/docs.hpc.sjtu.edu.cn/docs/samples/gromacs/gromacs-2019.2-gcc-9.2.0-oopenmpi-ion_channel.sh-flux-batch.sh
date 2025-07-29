@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-chair-0927
+#FLUX --job-name=psycho-mango-5426
 #FLUX -n=40
 #FLUX --queue=cpu
 #FLUX --urgency=16

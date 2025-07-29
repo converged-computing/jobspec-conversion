@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-lamp-3018
+#FLUX --job-name=fuzzy-poodle-6639
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

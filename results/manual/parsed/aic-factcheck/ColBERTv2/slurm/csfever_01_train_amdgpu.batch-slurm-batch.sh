@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=amdgpu
 
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION='python'
 export PYTHONPATH='.:$PYTHONPATH'

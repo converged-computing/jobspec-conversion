@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=20:00:00
-#SBATCH --partition=batch
 
 export EASYBUILD_JOB_BACKEND='Slurm'
 

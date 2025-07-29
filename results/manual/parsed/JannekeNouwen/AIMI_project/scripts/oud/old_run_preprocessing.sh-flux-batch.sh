@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-signal-9345
+#FLUX --job-name=evasive-punk-0899
 #FLUX -c=16
 #FLUX --queue=gpu
 #FLUX -t=86400

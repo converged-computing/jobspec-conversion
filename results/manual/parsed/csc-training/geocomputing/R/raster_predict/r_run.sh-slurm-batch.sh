@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1000
 #SBATCH --time=00:10:00
-#SBATCH --partition=small
 
 module load r-env-singularity
 if test -f ~/.Renviron; then

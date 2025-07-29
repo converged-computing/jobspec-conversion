@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=15000
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu_4_a100
 #SBATCH --constraint=ntasks-per-node=1
 
 module purge                                       # Unload all currently loaded modules.

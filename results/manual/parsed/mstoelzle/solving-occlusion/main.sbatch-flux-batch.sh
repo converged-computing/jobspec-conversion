@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-signal-0729
+#FLUX --job-name=muffled-fudge-9071
 #FLUX --queue=cor,general
 #FLUX -t=604800
 #FLUX --urgency=16

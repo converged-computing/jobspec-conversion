@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-animal-6484
+#FLUX --job-name=grated-bike-1336
 #FLUX -n=10
 #FLUX --queue=small
 #FLUX -t=4210

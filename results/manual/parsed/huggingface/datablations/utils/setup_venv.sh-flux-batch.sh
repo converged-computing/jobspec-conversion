@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-itch-7435
+#FLUX --job-name=purple-plant-4255
 #FLUX -c=20
 #FLUX --queue=eap
 #FLUX -t=3600

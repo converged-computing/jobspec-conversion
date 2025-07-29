@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-kitty-2959
+#FLUX --job-name=blue-diablo-2755
 #FLUX --queue=XAS
 #FLUX --urgency=16
 

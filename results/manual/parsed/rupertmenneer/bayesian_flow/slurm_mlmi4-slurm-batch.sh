@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=05:00:00
-#SBATCH --partition=ampere
 
 export WANDB_API_KEY='150e3a3656bc3e6c76366ee98da5b0fd9f7c16ea'
 export OMP_NUM_THREADS='1'

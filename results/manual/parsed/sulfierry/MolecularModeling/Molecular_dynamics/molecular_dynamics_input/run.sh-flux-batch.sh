@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=molecular_dynamics
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=sequana_dockvs
 #FLUX --urgency=16
 

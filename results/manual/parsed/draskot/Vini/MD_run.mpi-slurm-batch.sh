@@ -4,7 +4,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=computes_thin
 #SBATCH --constraint=ntasks-per-node=24
 
 NULL=0   #checking if MD_prep job finished or an error occured

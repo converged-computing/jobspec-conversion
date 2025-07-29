@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:55:00
-#SBATCH --partition=rome
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load 2023
 module load foss/2023a

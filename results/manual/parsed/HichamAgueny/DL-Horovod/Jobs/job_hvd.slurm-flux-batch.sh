@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=test-hdv_8gpu
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=dev-g
 #FLUX -t=900
 #FLUX --urgency=16

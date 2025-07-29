@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-leg-7864
+#FLUX --job-name=placid-pot-9911
 #FLUX -n=6
 #FLUX --queue=short
 #FLUX -t=7200

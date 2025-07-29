@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-bits-6309
+#FLUX --job-name=bloated-soup-0134
 #FLUX -c=8
 #FLUX --queue=short
 #FLUX -t=86400

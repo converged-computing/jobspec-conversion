@@ -9,8 +9,7 @@
 #SBATCH --cpus-per-task=80
 #SBATCH --mem=150000
 #SBATCH --time=05:00:00
-#SBATCH --partition=defq
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export alpaka_DIR='/home/schenk24/workspace/alpaka/install/'

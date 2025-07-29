@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=24G
 #SBATCH --time=02:00:00
-#SBATCH --partition=general
 #SBATCH --qos=short
 #SBATCH --array=1,2,3,4
 

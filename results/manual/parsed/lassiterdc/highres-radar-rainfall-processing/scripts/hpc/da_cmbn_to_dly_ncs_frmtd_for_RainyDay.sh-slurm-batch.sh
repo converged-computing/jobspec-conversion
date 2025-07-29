@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=80000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=standard
 #SBATCH --array=10,11,12,3,4,5,7,8,9
 #SBATCH --exclude=udc-ba26-18,udc-ba27-14,udc-ba26-16,udc-ba26-17
 

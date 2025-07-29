@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
-#SBATCH --partition=htc
 
 module purge
 wget https://github.com/chiawang/DS-7347/blob/main/assignment_05/assignment_05.R

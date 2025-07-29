@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-general-2044
+#FLUX --job-name=frigid-kerfuffle-6609
 #FLUX -N=32
 #FLUX --queue=premium
 #FLUX -t=3600

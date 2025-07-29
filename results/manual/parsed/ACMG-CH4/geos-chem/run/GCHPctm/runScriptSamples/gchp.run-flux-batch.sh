@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=frigid-buttface-0032
+#FLUX --job-name=stanky-peanut-6394
 #FLUX -n=6
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=huce_intel
 #FLUX -t=60
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-peanut-butter-4707
+#FLUX --job-name=fugly-mango-1059
 #FLUX -n=10
 #FLUX --queue=wrighton-hi
 #FLUX -t=784800

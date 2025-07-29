@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:3
 #SBATCH --mem=256G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=clara
 #SBATCH --constraint=ntasks-per-node=1
 
 export GPUS_PER_NODE='3'

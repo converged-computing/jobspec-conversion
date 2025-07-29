@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:rtx8000:1
 #SBATCH --mem=20GB
 #SBATCH --time=20:00:00
-#SBATCH --partition=long
 #SBATCH --array=0-5%10
 
 . /etc/profile

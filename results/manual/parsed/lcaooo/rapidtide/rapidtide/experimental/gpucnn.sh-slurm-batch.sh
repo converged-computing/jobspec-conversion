@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20G
 #SBATCH --time=16:00:00
-#SBATCH --partition=gpu
 
 module load cuda91
 python main.py

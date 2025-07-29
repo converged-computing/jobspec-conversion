@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 
 export LAUNCHER_PLUGIN_DIR='$TACC_LAUNCHER_DIR/plugins'
 export LAUNCHER_WORKDIR='$PWD'

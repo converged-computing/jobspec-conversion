@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2625
 #SBATCH --time=06:00:00
-#SBATCH --partition=batch,debug
 
 echo "------------------------"
 echo "welcome to the job: ${SLURM_JOB_NAME} -> id = ${SLURM_JOB_ID}"

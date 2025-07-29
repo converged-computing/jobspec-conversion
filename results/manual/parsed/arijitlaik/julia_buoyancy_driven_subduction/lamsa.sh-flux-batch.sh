@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-poodle-0249
+#FLUX --job-name=misunderstood-muffin-4389
 #FLUX -n=64
 #FLUX --queue=genoa
 #FLUX -t=432000

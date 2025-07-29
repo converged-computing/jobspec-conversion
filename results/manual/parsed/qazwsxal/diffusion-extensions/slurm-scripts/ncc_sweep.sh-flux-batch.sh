@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-lentil-0188
+#FLUX --job-name=dinosaur-toaster-8294
 #FLUX -c=4
 #FLUX --queue=res-gpu-small
 #FLUX -t=43200

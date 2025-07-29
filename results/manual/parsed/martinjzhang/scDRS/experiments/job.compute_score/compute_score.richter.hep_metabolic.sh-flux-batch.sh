@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-salad-2009
+#FLUX --job-name=red-motorcycle-7172
 #FLUX -n=4
 #FLUX --queue=shared
 #FLUX -t=60

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=5G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=standard
 
 actiontime=1
 epsilonarraypost=(0.1) # Computation of fine grid and psi10.8, post

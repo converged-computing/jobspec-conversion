@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-fork-7702
+#FLUX --job-name=expressive-butter-3494
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

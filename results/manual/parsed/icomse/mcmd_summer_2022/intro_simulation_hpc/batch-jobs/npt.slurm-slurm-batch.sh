@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100-16:1
 #SBATCH --time=00:30:00
-#SBATCH --partition=GPU-shared
 #SBATCH --constraint=ntasks-per-node=5
 
 echo "testing lj-npt on one gpu"

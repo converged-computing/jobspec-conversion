@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=paella
 #FLUX -N=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX --urgency=16
 

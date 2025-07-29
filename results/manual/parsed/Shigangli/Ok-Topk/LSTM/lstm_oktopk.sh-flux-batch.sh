@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-omelette-5440
+#FLUX --job-name=red-bits-4065
 #FLUX -N=32
 #FLUX -n=32
 #FLUX -c=12

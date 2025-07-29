@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-signal-6645
+#FLUX --job-name=butterscotch-bits-4291
 #FLUX --urgency=16
 
  tar xvzf pbs_ipn_0.581.tar.gz

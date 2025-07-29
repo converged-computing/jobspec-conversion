@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:06:00
-#SBATCH --partition=prod
 #SBATCH --array=1-1
 
 source venv/bin/activate

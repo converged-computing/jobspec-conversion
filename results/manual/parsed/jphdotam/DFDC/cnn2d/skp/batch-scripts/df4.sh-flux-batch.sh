@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-pot-0264
+#FLUX --job-name=misunderstood-latke-4444
 #FLUX --queue=gpu
 #FLUX -t=518400
 #FLUX --urgency=16

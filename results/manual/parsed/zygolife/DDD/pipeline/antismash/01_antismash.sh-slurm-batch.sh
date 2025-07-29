@@ -4,7 +4,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64gb
-#SBATCH --partition=batch,intel
 
 CPU=1
 if [ $SLURM_CPUS_ON_NODE ]; then

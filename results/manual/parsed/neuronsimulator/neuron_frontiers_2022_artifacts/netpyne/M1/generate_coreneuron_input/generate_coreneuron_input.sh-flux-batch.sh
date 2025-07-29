@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=red-fudge-1708
+#FLUX --job-name=outstanding-noodle-4567
 #FLUX -N=2
 #FLUX -n=80
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=prod
 #FLUX -t=28800
 #FLUX --urgency=16

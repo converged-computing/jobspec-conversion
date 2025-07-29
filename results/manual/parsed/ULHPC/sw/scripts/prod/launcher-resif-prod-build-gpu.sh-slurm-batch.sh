@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=7
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=urgent
 #SBATCH --constraint=ntasks-per-node=4
 

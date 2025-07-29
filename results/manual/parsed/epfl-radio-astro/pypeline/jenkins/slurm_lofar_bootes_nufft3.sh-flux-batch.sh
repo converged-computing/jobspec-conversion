@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-peanut-butter-6198
+#FLUX --job-name=peachy-fudge-8924
 #FLUX --queue=build
 #FLUX -t=3600
 #FLUX --urgency=16

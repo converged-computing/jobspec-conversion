@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=batch
 
 export SRUN='srun -n 4096 -c 3'
 export SCRATCH='/lustre/orion/chm137/proj-shared/cctbx'

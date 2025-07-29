@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-cherry-0779
+#FLUX --job-name=creamy-pastry-3282
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/thejkane/AGM/artifacts/mis/jobspammer.sh

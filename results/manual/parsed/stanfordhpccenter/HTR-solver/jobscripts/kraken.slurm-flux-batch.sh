@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=prometeo
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 if [[ "$QUEUE" == "debug" ||

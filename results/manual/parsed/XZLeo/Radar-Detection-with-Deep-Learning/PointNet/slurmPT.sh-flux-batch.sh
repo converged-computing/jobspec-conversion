@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-frito-3962
+#FLUX --job-name=blue-soup-1613
 #FLUX -c=8
 #FLUX --queue=ztest
 #FLUX -t=2400

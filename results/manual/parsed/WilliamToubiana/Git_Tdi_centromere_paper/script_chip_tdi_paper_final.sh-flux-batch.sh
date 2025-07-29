@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-peas-2450
+#FLUX --job-name=expressive-cupcake-2067
 #FLUX --queue=cpu
 #FLUX -t=3600
 #FLUX --urgency=16

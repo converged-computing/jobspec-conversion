@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-lizard-7978
+#FLUX --job-name=spicy-hobbit-4981
 #FLUX --queue=gpuq
 #FLUX -t=86400
 #FLUX --urgency=16

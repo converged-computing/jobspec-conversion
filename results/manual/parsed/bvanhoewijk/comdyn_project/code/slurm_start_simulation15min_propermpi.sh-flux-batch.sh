@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-omelette-3529
+#FLUX --job-name=ornery-pedo-9609
 #FLUX -n=64
 #FLUX --queue=genoa
 #FLUX -t=900

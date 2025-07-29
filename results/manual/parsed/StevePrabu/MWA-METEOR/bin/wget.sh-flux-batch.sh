@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-caramel-2397
+#FLUX --job-name=faux-hippo-5117
 #FLUX -n=6
 #FLUX --queue=workq
 #FLUX -t=21600

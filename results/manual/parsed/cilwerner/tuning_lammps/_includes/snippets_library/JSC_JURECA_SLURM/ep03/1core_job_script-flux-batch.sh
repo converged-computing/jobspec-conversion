@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-avocado-8051
+#FLUX --job-name=pusheena-egg-1661
 #FLUX --queue=batch
 #FLUX -t=300
 #FLUX --urgency=16

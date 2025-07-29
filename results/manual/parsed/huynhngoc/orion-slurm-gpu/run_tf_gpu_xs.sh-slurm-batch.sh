@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
-#SBATCH --partition=gpu
 
 module load singularity
 nvidia-modprobe -u -c=0

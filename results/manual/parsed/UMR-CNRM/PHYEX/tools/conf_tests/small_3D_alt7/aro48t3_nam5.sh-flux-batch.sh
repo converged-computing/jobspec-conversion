@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-parsnip-0390
+#FLUX --job-name=chocolate-citrus-4527
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

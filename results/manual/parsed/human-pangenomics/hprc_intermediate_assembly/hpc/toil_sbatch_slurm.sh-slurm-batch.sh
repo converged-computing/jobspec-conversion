@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16gb
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=long
 
 export JSON_PATH='$(echo $JSON_PATH_WITH_PLACEHOLDER | sed "s/\${SAMPLE_ID}/$SAMPLE_ID/")'
 export SHARED_FILESYSTEM_RUNFOLDER='`pwd`'

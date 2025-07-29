@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=meta_gpu-ti
 #SBATCH --chdir=.
 #SBATCH --array=1-10
 

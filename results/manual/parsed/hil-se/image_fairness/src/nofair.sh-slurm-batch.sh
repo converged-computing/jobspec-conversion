@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=3-03:05:03
-#SBATCH --partition=tier3
 
 spack unload -a
 spack load /lklqe3u

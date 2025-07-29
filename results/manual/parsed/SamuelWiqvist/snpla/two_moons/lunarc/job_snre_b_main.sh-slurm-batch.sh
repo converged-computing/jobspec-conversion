@@ -9,8 +9,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=lu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 MAX_SEED_VAL=10
 for ((i=1;i<=$MAX_SEED_VAL;i++)); do

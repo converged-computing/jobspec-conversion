@@ -6,7 +6,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=rtx
 
 module load cuda/10.1
 source $HOME/programs/anaconda3/bin/activate

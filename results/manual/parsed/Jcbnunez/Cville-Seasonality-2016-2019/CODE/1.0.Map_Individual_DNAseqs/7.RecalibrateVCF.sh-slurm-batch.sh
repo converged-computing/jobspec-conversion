@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=170G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=20
 
 module load gatk

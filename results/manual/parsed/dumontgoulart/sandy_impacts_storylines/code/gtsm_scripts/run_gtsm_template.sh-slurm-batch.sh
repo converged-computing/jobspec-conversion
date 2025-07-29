@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=40G
 #SBATCH --time=10:30:00
-#SBATCH --partition=thin
 
 export purpose='GTSMv3.0 - ERA5 run near-realtime for Sea Level Monitor'
 

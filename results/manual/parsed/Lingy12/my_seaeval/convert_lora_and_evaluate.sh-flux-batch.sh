@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-malarkey-8813
+#FLUX --job-name=spicy-underoos-5025
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Lingy12/my_seaeval/convert_lora_and_evaluate.sh

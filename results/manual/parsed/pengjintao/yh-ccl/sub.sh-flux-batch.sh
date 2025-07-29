@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-pot-9235
+#FLUX --job-name=chocolate-lamp-5655
 #FLUX -n=64
 #FLUX --queue=amd_256
 #FLUX -t=1500

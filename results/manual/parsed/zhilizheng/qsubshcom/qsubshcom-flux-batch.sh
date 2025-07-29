@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-chip-0390
+#FLUX --job-name=wobbly-truffle-1796
 #FLUX --urgency=16
 
 scriptname=$(mktemp)

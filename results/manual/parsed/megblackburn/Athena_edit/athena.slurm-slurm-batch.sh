@@ -9,9 +9,8 @@
 #SBATCH --ntasks=48
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:29:50
-#SBATCH --partition=micro
 #SBATCH --chdir=./
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module load spack/22.2.1
 module load intel-oneapi-toolkit/2022.3.0

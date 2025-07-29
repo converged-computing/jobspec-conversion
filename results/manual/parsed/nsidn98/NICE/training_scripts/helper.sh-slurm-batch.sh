@@ -2,7 +2,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export PMIX_MCA_gds='hash'
 

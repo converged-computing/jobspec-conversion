@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-signal-9601
+#FLUX --job-name=peachy-bits-4493
 #FLUX --queue=main
 #FLUX -t=86400
 #FLUX --urgency=16

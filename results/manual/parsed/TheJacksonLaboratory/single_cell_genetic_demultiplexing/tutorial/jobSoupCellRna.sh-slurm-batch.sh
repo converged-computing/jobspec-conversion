@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=250GB
 #SBATCH --time=2-00:20:00
-#SBATCH --partition=batch
 
 module load singularity
 gunzip -c /projects/rosenthal-lab/cube/genetic_demultiplexing/sc-data-rerun/cube_rna/$1/cellranger/filtered_feature_bc_matrix/barcodes.tsv.gz > /projects/rosenthal-lab/cube/genetic_demultiplexing/sc-data-rerun/cube_rna/$1/cellranger/filtered_feature_bc_matrix/barcodes.tsv

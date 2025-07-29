@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=hns,normal,hbfraser
 #SBATCH --constraint=ntasks-per-node=1
 
 module load conda

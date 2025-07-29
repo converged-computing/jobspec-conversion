@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --mem=200000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=ju-standard
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 cd /users/panastas/partially-strided-codelet
 > lcm_d.csv

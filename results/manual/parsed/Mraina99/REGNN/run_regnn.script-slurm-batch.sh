@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=200G
 #SBATCH --time=09:00:00
-#SBATCH --partition=general
 #SBATCH --constraint=ntasks-per-node=1
 
 module load miniconda

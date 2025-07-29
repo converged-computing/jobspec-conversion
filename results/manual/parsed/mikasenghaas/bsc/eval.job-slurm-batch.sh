@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu
 #SBATCH --time=06:00:00
-#SBATCH --partition=brown
 
 echo "Running on $(hostname):"
 nvidia-smi

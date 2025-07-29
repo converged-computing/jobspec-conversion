@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-chip-9857
+#FLUX --job-name=dirty-underoos-4999
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX --urgency=16

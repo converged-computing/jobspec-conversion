@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-staircase-6126
+#FLUX --job-name=purple-train-6565
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Coolgenome/TCM/fig6/GSE144649/4_seurat_pipeline/submitjob.sh

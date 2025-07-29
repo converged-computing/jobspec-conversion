@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1024
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=batch
 
 export executable='atmosphere_model'
 export PMIX_MCA_gds='hash'

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=03:00:00
-#SBATCH --partition=red,brown
 
 echo "Running on $(hostname):"
 module load Anaconda3/

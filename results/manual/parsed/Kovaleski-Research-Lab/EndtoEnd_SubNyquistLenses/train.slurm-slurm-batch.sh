@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
-#SBATCH --partition=gpu32,gpu40,gpu80
 #SBATCH --array=0-100%34
 
 distances=($(seq 0.01 0.0009 0.1))

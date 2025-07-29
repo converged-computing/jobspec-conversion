@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:quadro:1
 #SBATCH --mem=16g
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=high
 
 export PATH='$HOME/miniconda_envs/anaconda3/envs/GrooveTransformer:$PATH'
 export WANDB_API_KEY='API_KEY'

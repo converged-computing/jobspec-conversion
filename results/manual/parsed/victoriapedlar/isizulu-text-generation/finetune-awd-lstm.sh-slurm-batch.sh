@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100-4g-20gb:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=a100
 
 CUDA_VISIBLE_DEVICES=$(ncvd)
 module load python/anaconda-python-3.7

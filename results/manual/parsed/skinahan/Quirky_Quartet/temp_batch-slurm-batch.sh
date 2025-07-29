@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=wildfire
 #SBATCH --constraint=V100
 
 export INCLUDEPATH='$INCLUDEPATH:$HOME/cuda/include'

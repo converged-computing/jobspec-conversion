@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:k80:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu-shared
 #SBATCH --constraint=ntasks-per-node=6
 
 module load matlab

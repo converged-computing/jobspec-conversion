@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-staircase-7190
+#FLUX --job-name=hello-latke-8242
 #FLUX -N=2
 #FLUX -n=2
 #FLUX -c=128

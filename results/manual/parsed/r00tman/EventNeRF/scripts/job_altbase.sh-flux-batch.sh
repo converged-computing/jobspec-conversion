@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-train-2385
+#FLUX --job-name=bumfuzzled-noodle-1203
 #FLUX --queue=gpu20
 #FLUX -t=21600
 #FLUX --urgency=16

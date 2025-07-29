@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=scarf
 #SBATCH --constraint=amd,ntasks-per-node=32
 
 export OMP_NUM_THREADS='1'

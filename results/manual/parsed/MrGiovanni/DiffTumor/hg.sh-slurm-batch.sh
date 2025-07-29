@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=80G
 #SBATCH --time=00:30:00
-#SBATCH --partition=public
 
 module load mamba/latest # only for Sol
 source activate difftumor

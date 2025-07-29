@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=smp7
 
 echo 'Loading modules'
 module load python/miniconda3.9

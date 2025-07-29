@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=56
 #SBATCH --gres=gpu:4
-#SBATCH --partition=dvlab
 #SBATCH --constraint=3090
 
 source activate py3.8_pt1.8.1 

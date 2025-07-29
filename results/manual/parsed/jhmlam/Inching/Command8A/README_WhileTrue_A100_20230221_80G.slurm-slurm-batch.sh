@@ -7,8 +7,7 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=128GB
 #SBATCH --time=1-23:55:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=epyc-7513,a100-80gb
 
 module purge

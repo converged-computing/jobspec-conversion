@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-carrot-9741
+#FLUX --job-name=scruptious-cinnamonbun-7832
 #FLUX -c=32
 #FLUX --queue=scavenger
 #FLUX --urgency=16

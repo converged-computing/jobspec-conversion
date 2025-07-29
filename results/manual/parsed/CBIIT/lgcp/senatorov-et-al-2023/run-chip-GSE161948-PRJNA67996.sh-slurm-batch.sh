@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=32gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=ccr
 
 module purge
 module load nextflow

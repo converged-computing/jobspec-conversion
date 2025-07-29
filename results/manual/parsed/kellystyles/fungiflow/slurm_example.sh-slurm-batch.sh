@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=120G
 #SBATCH --time=08:00:00
-#SBATCH --partition=parallel
 #SBATCH --array=1-4%4
 
 """

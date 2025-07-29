@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-truffle-1275
+#FLUX --job-name=fat-train-8986
 #FLUX -t=86400
 #FLUX --urgency=16
 

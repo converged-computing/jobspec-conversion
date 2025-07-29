@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:RTX_6000:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=inferno
 #SBATCH --array=1-6
 
 export WANDB_CONSOLE='off'

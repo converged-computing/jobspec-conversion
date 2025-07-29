@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-arm-0818
+#FLUX --job-name=gloopy-avocado-4117
 #FLUX -n=4
 #FLUX --queue=core
 #FLUX -t=3600

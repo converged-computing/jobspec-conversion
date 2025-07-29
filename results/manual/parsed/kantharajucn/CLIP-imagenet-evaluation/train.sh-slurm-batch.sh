@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:4
 #SBATCH --mem=200G
-#SBATCH --partition=gpu-2080ti
 #SBATCH --constraint=ImageNet2012
 
 scontrol show job $SLURM_JOB_ID

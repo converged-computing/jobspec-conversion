@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-lemon-4991
+#FLUX --job-name=nerdy-lentil-1464
 #FLUX -c=24
 #FLUX --queue=amdgpuextralong
 #FLUX -t=864000

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-caramel-7902
+#FLUX --job-name=outstanding-rabbit-8928
 #FLUX -c=16
 #FLUX --queue=gpu_quad
 #FLUX -t=14400

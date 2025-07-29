@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=52GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --constraint=ntasks-per-node=8
 
 export OMP_PROC_BIND='true'

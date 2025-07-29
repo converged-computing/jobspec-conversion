@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:8
 #SBATCH --mem=16384
-#SBATCH --partition=gp1d
 #SBATCH --constraint=ntasks-per-node=4
 
 module load miniconda3

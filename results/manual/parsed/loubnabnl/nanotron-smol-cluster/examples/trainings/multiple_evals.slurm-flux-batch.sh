@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-cat-2592
+#FLUX --job-name=carnivorous-cat-4788
 #FLUX -c=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

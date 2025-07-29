@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --exclude=gpu-st-p4d-24xlarge-[23,30,31,108,115,134,135,183,185,186,187,188,275,277,374]
 

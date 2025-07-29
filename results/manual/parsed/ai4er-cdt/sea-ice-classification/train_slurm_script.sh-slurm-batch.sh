@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=32000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=orchid
 #SBATCH --constraint=ntasks-per-node=1
 
 conda activate sea-ice-classification

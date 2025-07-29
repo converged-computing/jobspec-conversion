@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-hobbit-5338
+#FLUX --job-name=expressive-despacito-5777
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/asascience/2022-NOS-Code-Delivery-to-NCO/pbs/jnos_ciofs_aws_06.pbs

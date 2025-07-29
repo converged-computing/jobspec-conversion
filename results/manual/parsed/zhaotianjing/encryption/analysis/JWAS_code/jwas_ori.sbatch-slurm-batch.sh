@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=50G
 #SBATCH --time=13-03:00:00
-#SBATCH --partition=bmh
 #SBATCH --constraint=ntasks-per-node=1
 
 module load julia

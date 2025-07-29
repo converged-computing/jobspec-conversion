@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=6G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=batch
 
 set -e
 baseDir=${1:-/fastscratch/$USER/nanome}

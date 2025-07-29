@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=96
 #SBATCH --gres=gpu:8
-#SBATCH --partition=production-cluster
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_VISIBLE_DEVICES='${SLURM_STEP_GPUS:-$SLURM_JOB_GPUS}'

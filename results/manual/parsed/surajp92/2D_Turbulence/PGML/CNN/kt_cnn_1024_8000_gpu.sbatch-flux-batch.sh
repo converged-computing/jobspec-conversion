@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-kitty-5452
+#FLUX --job-name=fat-earthworm-8517
 #FLUX --queue=bullet
 #FLUX -t=14400
 #FLUX --urgency=16

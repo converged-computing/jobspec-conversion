@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-fork-4185
+#FLUX --job-name=blue-peanut-2812
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

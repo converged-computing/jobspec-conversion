@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-toaster-4156
+#FLUX --job-name=bloated-eagle-0769
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ScottishCovidResponse/EcoSISTEM.jl/examples/Biodiversity/mpi_cirrus20x2x34.bash

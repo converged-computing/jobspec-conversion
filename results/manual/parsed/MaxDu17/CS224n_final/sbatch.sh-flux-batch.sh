@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-cupcake-4333
+#FLUX --job-name=hello-earthworm-5580
 #FLUX -c=8
 #FLUX --queue=iris-hi
 #FLUX -t=259200

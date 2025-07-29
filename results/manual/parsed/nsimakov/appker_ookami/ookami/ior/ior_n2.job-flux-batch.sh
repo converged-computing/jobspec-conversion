@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-chip-2015
+#FLUX --job-name=doopy-eagle-9178
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=short
 #FLUX -t=10800
 #FLUX --urgency=16

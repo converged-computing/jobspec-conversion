@@ -5,11 +5,10 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 #SBATCH --qos=restrained
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=20
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module load cuda
 source /bgfs01/insite/utsab.shrestha/programs/gmx_plumed4/gromacs-2018.8/install_dir/bin/GMXRC.bash

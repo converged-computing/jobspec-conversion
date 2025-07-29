@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=240G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --exclude=hendrixgpu01fl
 
 export PYTHONPATH='/home/rdp455/unilm/beit3'

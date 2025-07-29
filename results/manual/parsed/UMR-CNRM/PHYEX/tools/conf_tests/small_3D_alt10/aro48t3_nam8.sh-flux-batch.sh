@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-cat-4657
+#FLUX --job-name=arid-bicycle-7926
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

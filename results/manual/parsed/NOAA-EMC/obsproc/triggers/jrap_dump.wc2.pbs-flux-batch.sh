@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-banana-9648
+#FLUX --job-name=blank-diablo-9193
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/obsproc/triggers/jrap_dump.wc2.pbs

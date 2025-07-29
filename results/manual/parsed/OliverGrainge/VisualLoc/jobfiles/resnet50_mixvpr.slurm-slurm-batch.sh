@@ -7,6 +7,5 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
-#SBATCH --partition=a100
 
 python train.py --method resnet50_mixvpr --image_resolution 320 320

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=3072
 #SBATCH --cpus-per-task=12
 #SBATCH --time=04:30:00
-#SBATCH --partition=general
 #SBATCH --constraint=ntasks-per-node=4
 
 export KMP_SETTINGS='1'

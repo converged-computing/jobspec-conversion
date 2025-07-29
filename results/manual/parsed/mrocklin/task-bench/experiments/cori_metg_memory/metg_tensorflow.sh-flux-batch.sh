@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=milky-general-8049
-#FLUX: --exclusive
+#FLUX --job-name=joyous-arm-3019
+#FLUX --exclusive
 #FLUX -t=21600
 #FLUX --urgency=16
 

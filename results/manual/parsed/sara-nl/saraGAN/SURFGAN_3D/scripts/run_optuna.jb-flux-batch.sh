@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-peanut-butter-9299
+#FLUX --job-name=crunchy-pastry-3835
 #FLUX -N=4
 #FLUX -c=6
 #FLUX --queue=gpu_titanrtx

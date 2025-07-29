@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-train-9127
+#FLUX --job-name=dinosaur-peanut-7142
 #FLUX --queue=priority
 #FLUX --urgency=16
 

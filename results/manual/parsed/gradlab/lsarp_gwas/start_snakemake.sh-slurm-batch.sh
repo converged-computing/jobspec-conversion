@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=cpu2021
 
 mkdir -p logs/slurm
 snakemake --profile slurm --rerun-incomplete --latency-wait 90

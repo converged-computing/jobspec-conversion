@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-toaster-3837
+#FLUX --job-name=hanky-hippo-9713
 #FLUX -n=4
 #FLUX --queue=isi
 #FLUX -t=360000

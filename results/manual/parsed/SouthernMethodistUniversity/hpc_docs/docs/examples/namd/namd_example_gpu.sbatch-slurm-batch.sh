@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=250G
-#SBATCH --partition=gpgpu-1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module purge
 module load namd/2.12/gpu

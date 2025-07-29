@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=00:00:10
-#SBATCH --partition=short
 
 module load gcc/6.2.0 python/3.7.4
 source /home/hw233/virtualenv/py374/bin/activate

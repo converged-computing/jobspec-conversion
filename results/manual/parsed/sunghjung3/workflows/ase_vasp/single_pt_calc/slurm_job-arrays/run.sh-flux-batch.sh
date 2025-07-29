@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ase_vasp
 #FLUX -n=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=amd
 #FLUX --urgency=16
 

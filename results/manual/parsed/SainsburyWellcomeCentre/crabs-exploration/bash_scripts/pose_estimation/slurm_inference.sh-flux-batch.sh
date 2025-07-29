@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-car-0205
+#FLUX --job-name=lovable-parrot-9187
 #FLUX -n=2
 #FLUX --queue=gpu
 #FLUX -t=259440

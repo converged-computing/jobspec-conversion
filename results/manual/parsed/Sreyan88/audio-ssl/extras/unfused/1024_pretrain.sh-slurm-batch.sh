@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:A100-SXM4:1
 #SBATCH --time=4-23:00:00
-#SBATCH --partition=nltmp
 
 echo "Starting at `date`"
 echo "Running on hosts: $SLURM_NODELIST"

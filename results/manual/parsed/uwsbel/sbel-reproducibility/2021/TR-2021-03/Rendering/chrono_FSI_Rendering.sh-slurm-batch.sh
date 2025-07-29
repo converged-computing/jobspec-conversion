@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:gtx1080:1
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=sbel
 #SBATCH --qos=sbel_owner
 #SBATCH --nodelist=euler07
 

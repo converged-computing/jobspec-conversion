@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:4
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 module purge
 module --ignore-cache load anaconda/2019.10-py3.7

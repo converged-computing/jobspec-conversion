@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=batch
 
 export LD_LIBRARY_PATH='/opt/rocm-5.1.0/lib:${LD_LIBRARY_PATH}'
 export MPIR_CVAR_GPU_EAGER_DEVICE_MEM='0'

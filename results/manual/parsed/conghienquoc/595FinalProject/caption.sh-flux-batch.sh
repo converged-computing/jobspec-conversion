@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-cinnamonbun-0464
+#FLUX --job-name=expressive-soup-9935
 #FLUX --queue=gpu
 #FLUX -t=86400
 #FLUX --urgency=16

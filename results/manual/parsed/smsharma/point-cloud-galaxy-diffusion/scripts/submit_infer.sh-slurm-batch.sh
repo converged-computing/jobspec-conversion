@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=80GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=iaifi_gpu
 #SBATCH --array=0-3
 
 export TF_CPP_MIN_LOG_LEVEL='2'

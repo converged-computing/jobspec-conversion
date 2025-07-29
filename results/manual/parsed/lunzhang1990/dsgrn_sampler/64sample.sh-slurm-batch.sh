@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=main
 
 cd $PWD
 module load py3-numpy/1.14.3 py3-scipy/1.1.0

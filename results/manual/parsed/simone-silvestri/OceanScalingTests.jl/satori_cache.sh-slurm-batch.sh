@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=100GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=reservation7
 #SBATCH --qos=reservation7
 #SBATCH --constraint=ntasks-per-node=1
 

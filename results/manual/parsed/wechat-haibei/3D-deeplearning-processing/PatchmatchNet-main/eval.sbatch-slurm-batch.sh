@@ -5,7 +5,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=kshctest
 #SBATCH --constraint=ntasks-per-node=1
 
 module rm compiler/rocm/2.9

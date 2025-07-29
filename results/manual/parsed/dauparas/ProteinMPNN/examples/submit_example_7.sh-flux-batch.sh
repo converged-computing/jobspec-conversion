@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-platanos-5074
+#FLUX --job-name=chocolate-ricecake-6716
 #FLUX -c=2
 #FLUX --queue=gpu
 #FLUX --urgency=16

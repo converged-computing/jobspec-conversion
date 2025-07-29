@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-earthworm-7486
+#FLUX --job-name=hairy-caramel-7203
 #FLUX -c=6
 #FLUX --queue=dgx2q
 #FLUX -t=86460

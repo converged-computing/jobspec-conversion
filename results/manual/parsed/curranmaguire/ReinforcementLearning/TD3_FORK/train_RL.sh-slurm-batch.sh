@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=8G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=ug-gpu-small
 #SBATCH --qos=short
 
 python3 -m venv RL_Kernel

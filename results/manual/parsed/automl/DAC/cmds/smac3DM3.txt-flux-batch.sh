@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-plant-3645
+#FLUX --job-name=ornery-nunchucks-9290
 #FLUX --queue=bosch_cpu-cascadelake
 #FLUX --urgency=16
 

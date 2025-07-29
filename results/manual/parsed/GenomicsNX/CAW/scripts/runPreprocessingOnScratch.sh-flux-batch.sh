@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-truffle-9375
+#FLUX --job-name=astute-underoos-0775
 #FLUX --queue=node
 #FLUX -t=604800
 #FLUX --urgency=16

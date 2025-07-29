@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=lovable-peanut-butter-0984
+#FLUX --job-name=chocolate-banana-1614
 #FLUX -n=4
 #FLUX -c=7
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=1200
 #FLUX --urgency=16
 

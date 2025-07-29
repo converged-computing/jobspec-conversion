@@ -7,9 +7,7 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=shared
 #SBATCH --constraint=haswell
-#SBATCH --licenses=SCRATCH
 
 export runwhat='lrg'
 export outdir='$DECALS_SIM_DIR'

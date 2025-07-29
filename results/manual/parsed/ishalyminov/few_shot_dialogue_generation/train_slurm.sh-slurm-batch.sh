@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=amd-longq
 
 CUDA_VERSION=cuda10.0
 CUDA_VERSION_LONG=10.0.130

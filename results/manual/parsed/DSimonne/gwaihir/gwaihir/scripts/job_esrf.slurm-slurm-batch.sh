@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=4G
 #SBATCH --time=01:00:00
-#SBATCH --partition=p9gpu
 #SBATCH --constraint=ntasks-per-node=2
 
 reconstruct=$1          # if launched via the gui or terminal

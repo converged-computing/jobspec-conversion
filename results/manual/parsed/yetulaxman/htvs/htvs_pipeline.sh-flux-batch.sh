@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-hope-0900
+#FLUX --job-name=crusty-poodle-8482
 #FLUX -n=10
 #FLUX -c=2
 #FLUX --queue=small

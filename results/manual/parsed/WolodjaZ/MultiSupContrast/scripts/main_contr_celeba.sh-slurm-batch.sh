@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=1-01:00:00
-#SBATCH --partition=tesla
 #SBATCH --qos=tesla
 
 master_node=${SLURM_NODELIST:0:9}${SLURM_NODELIST:10:4}

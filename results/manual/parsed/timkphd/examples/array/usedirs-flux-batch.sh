@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=array_job
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=300
 #FLUX --urgency=16
 

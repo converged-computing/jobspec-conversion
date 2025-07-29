@@ -5,7 +5,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=Mlong
 #SBATCH --exclude=kraken-m[1]
 
 module load openfoam-org/6-10.3.0

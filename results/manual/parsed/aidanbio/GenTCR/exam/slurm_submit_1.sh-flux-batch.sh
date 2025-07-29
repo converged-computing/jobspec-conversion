@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=intelmpi_test
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute-od-gpu
 #FLUX --urgency=16
 

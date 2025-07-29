@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:0
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=slurm
 
 module load cuda/11.4
 i=0

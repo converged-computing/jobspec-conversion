@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=hello-plant-1427
+#FLUX --job-name=outstanding-cat-1282
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

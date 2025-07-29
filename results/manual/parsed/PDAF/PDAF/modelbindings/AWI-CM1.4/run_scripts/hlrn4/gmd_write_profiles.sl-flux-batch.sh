@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-cupcake-8777
+#FLUX --job-name=tart-platanos-3325
 #FLUX -N=3
 #FLUX -n=288
 #FLUX --queue=standard96

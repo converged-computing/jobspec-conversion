@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:volta:2
 #SBATCH --mem=20G
 #SBATCH --time=04:00:00
-#SBATCH --partition=c18g
 
 module switch intel gcc/9
 module load cuda/112

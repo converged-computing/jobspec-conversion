@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-motorcycle-6256
+#FLUX --job-name=expressive-hope-1667
 #FLUX -c=16
 #FLUX --urgency=16
 

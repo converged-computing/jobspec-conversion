@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu-h100
 #SBATCH --qos=gpu
 
 export TRANSFORMERS_CACHE='/mnt/parscratch/users/$USERNAME/cache'

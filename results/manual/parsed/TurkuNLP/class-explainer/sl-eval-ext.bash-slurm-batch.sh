@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=03:15:00
-#SBATCH --partition=small
 #SBATCH --constraint=ntasks-per-node=1
 
 mkdir -p logs

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=120gb
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1-4%4
 
 module purge

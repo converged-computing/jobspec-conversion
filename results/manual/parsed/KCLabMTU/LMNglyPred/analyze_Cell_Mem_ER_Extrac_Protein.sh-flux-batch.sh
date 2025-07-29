@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-destiny-5062
+#FLUX --job-name=goodbye-nalgas-5024
 #FLUX -c=18
 #FLUX --urgency=16
 

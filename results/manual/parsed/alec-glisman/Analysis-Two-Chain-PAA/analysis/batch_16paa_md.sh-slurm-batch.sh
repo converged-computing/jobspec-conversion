@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:0
 #SBATCH --mem-per-cpu=40G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=all
 #SBATCH --qos=d
 
 set -o errexit # exit when a command fails. Add || true to commands allowed to fail

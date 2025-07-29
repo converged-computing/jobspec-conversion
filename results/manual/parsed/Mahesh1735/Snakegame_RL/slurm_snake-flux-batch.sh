@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-blackbean-9148
+#FLUX --job-name=moolicious-nunchucks-7226
 #FLUX --queue=standard
 #FLUX -t=5340
 #FLUX --urgency=16

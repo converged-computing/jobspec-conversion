@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-truffle-2089
+#FLUX --job-name=purple-peanut-butter-4635
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/fabiobdias/waom_notebook/OHB_shelf/old_Cross_scripts/run_WAOM10_OHB_shelf.bash

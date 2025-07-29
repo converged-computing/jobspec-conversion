@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=adorable-kitty-2889
+#FLUX --job-name=nerdy-lettuce-9331
 #FLUX -N=2
 #FLUX -n=128
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cont
 #FLUX -t=600
 #FLUX --urgency=16

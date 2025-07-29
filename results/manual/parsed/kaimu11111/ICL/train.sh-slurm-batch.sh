@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=62gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=a100-4
 
 nvidia-smi
 METHOD=channel

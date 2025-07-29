@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-sundae-0864
+#FLUX --job-name=grated-bicycle-6240
 #FLUX -t=86400
 #FLUX --urgency=16
 

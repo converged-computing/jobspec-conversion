@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=debug
 #SBATCH --constraint=ntasks-per-node=24
 
 module load mvapich2_ib singularity

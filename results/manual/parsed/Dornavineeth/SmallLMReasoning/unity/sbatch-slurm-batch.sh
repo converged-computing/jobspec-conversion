@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=18
 #SBATCH --mem=20G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 module load miniconda/22.11.1-1
 conda activate harness

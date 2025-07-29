@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100
 #SBATCH --mem=1G
 #SBATCH --time=12:00:00
-#SBATCH --partition=bii-gpu
 #SBATCH --constraint=a100_80gb
 
 export RUN_DIR='$PROJECT/osmi'

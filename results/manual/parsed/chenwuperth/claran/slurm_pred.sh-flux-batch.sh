@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-knife-5200
+#FLUX --job-name=hello-nalgas-9854
 #FLUX -t=3600
 #FLUX --urgency=16
 

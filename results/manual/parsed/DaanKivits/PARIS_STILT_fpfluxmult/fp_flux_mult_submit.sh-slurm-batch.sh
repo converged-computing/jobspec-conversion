@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3000M
 #SBATCH --time=00:15:00
-#SBATCH --partition=genoa
 
 export OPENBLAS_NUM_TRHEADS='1'
 export OMP_NUM_THREADS='1'

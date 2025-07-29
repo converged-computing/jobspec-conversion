@@ -7,7 +7,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=8
 
 module load python/3.6.12

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-nunchucks-4021
+#FLUX --job-name=carnivorous-pedo-0937
 #FLUX -t=360
 #FLUX --urgency=16
 

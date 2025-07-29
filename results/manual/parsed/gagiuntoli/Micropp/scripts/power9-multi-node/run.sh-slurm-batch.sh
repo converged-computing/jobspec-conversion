@@ -8,7 +8,7 @@
 #SBATCH --gres=gpu:4
 #SBATCH --time=01:00:00
 #SBATCH --qos=debug
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --chdir=.
 
 export OMP_NUM_THREADS='1'

@@ -5,7 +5,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:50:00
-#SBATCH --partition=amd
 
 module purge
 module load conda

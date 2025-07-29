@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-hobbit-0852
+#FLUX --job-name=boopy-signal-8928
 #FLUX -n=4
 #FLUX --queue=maxwell
 #FLUX -t=432000

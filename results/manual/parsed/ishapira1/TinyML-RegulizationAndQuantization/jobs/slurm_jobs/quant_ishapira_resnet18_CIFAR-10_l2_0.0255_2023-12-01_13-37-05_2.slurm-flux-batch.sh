@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-latke-4440
+#FLUX --job-name=arid-punk-5172
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

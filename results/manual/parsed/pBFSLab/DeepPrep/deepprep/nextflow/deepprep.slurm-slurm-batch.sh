@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=4G
-#SBATCH --partition=cpu1,cpu2,fat,amd1,gpu1,gpu2
 
 nextflow run /lustre/grp/lhslab/sunzy/anning/workspace/DeepPrep/deepprep/nextflow/deepprep.nf \
 -resume \

@@ -5,8 +5,7 @@
 #SBATCH --ntasks=640
 #SBATCH --cpus-per-task=2
 #SBATCH --time=00:10:00
-#SBATCH --partition=cont
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export OMP_NUM_THREADS='1'
 export OMP_PLACES='threads'

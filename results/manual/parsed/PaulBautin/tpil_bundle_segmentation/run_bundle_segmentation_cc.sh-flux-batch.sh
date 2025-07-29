@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-lemur-4493
+#FLUX --job-name=carnivorous-egg-3610
 #FLUX -c=32
 #FLUX -t=21600
 #FLUX --urgency=16

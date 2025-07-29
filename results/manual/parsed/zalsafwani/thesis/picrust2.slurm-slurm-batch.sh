@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64000
 #SBATCH --time=12:00:00
-#SBATCH --partition=batch,guest
 #SBATCH --constraint=ntasks-per-node=16
 
 cd /work/biocore/zalsafwani/CRC_data/raw_reads/qiime2/second_analysis/picrust

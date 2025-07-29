@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-truffle-0954
+#FLUX --job-name=crunchy-soup-7390
 #FLUX -c=128
 #FLUX --gpus-per-task=1
 #FLUX --queue=regular

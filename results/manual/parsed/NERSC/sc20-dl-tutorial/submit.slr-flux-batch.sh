@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-arm-0746
+#FLUX --job-name=ornery-carrot-0006
 #FLUX -c=10
 #FLUX --gpus-per-task=1
 #FLUX -t=14400

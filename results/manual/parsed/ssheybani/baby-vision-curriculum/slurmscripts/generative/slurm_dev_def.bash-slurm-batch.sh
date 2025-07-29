@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --gres=4
 #SBATCH --time=1-05:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 module load python/gpu

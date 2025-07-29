@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-lemon-4084
+#FLUX --job-name=gassy-peas-0337
 #FLUX -n=40
 #FLUX --queue=small
 #FLUX -t=54610

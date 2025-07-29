@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-poo-8450
+#FLUX --job-name=fat-lemur-7908
 #FLUX --queue=gpu
 #FLUX -t=3600
 #FLUX --urgency=16

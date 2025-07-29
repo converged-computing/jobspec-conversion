@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=test_ddf
 #FLUX -c=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=259200
 #FLUX --urgency=16
 

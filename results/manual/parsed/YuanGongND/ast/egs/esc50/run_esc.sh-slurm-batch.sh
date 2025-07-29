@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:4
 #SBATCH --mem=48000
-#SBATCH --partition=gpu
 #SBATCH --exclude=sls-titan-[0-2]
 
 export TORCH_HOME='../../pretrained_models'

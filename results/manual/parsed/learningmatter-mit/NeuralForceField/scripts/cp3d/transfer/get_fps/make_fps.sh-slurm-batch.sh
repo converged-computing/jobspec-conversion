@@ -5,9 +5,8 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=300G
 #SBATCH --time=2-23:40:00
-#SBATCH --partition=sched_mit_rafagb_amd,sched_mit_rafagb
 #SBATCH --constraint=ntasks-per-node=1
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export NFFDIR='/home/saxelrod/repo/nff/master/NeuralForceField'
 export PYTHONPATH='$NFFDIR:$PYTHONPATH'

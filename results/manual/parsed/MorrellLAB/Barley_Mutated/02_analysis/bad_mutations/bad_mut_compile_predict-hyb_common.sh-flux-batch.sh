@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-poo-4188
+#FLUX --job-name=angry-poo-2196
 #FLUX --queue=small,ram256g,ram1t
 #FLUX -t=7200
 #FLUX --urgency=16

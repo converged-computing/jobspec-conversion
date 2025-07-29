@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4096
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu
 
 module purge
 module load PyTorch

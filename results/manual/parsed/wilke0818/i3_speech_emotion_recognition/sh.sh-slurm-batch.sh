@@ -10,7 +10,6 @@
 #SBATCH --gres=a100:1
 #SBATCH --mem-per-cpu=240GB
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=gablab
 #SBATCH --exclude=node[100-106,110]
 
 eval "$(conda shell.bash hook)"

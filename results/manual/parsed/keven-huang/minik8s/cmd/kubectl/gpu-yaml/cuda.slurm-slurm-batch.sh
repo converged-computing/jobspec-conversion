@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:1
-#SBATCH --partition=dgx2
 #SBATCH --constraint=ntasks-per-node=1
 
 ulimit -s unlimited

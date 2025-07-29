@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=03:00:00
-#SBATCH --partition=tenenbaum
 #SBATCH --array=0-3
 
 dirs=(

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
-#SBATCH --partition=p100
 #SBATCH --array=0-119%12
 
 list=(

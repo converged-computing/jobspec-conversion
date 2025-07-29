@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-bits-8316
+#FLUX --job-name=muffled-fudge-5597
 #FLUX --queue=serial_requeue
 #FLUX -t=900
 #FLUX --urgency=16

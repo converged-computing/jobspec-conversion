@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=2G
 #SBATCH --time=01:30:00
-#SBATCH --partition=main
 
 container=$LH/fedora_38_std.sif
 datadir=$LH/compare_pythia_versions_in_smash/RUNS/

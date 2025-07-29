@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --mem=16g
-#SBATCH --partition=gpu
 
 module load OpenCV/3.3.0-IGB-gcc-4.9.4-Python-3.6.1
 module load Keras/2.0.8-IGB-gcc-4.9.4-Python-3.6.1

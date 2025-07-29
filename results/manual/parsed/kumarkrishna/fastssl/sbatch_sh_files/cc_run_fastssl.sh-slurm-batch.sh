@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=24GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=long
 
 export LD_PRELOAD='~/Projects/SSL_alpha/fastssl/configs/hack.so 	# Olexa's hack to avoid INTERNAL ASSERT ERROR on Pytorch 1.10'
 export MKL_THREADING_LAYER='TBB'

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=16G
-#SBATCH --partition=mhigh,mlow
 #SBATCH --chdir=/home/grupo06/
 #SBATCH --array=56-63
 

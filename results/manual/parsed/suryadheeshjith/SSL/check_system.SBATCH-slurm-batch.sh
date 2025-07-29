@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=n1s8-v100-1
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 singularity exec --nv --overlay overlay-15GB-500K.ext3:ro\
     -B data/dataset_v2.sqsh:/dataset:image-src=/\

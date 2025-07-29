@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-leopard-4230
+#FLUX --job-name=chocolate-animal-7505
 #FLUX -c=2
 #FLUX --queue=general
 #FLUX -t=21600

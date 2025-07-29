@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-lamp-3543
-#FLUX: --exclusive
+#FLUX --job-name=moolicious-knife-4245
+#FLUX --exclusive
 #FLUX --queue=pvc
 #FLUX -t=9000
 #FLUX --urgency=16

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=ou_kalman
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

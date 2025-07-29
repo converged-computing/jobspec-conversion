@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3G
 #SBATCH --time=2-00:12:00
-#SBATCH --partition=medium
 
 user_name='ccr13'
 data_dir=/n/scratch3/users/c/ccr13/Chi_CyCIF/DATA/

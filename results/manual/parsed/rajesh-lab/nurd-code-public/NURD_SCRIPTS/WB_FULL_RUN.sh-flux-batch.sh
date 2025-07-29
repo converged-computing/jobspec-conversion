@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-general-7800
+#FLUX --job-name=goodbye-destiny-6586
 #FLUX --urgency=16
 
 MODIFIER="$1"

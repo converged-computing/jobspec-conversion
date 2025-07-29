@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=96
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpus
 #SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_SOCKET_IFNAME='ib0'

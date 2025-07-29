@@ -5,7 +5,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=normal
 
 export HDF5_USE_FILE_LOCKING='FALSE'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-plant-6163
+#FLUX --job-name=eccentric-lettuce-9888
 #FLUX -n=3
 #FLUX -t=259200
 #FLUX --urgency=16

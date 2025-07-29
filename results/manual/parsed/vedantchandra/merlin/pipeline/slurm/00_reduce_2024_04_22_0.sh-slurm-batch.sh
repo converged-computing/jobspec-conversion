@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4500
 #SBATCH --time=05:00:00
-#SBATCH --partition=conroy_priority,shared,itc_cluster
 #SBATCH --constraint=intel
 
 source activate pypeit2

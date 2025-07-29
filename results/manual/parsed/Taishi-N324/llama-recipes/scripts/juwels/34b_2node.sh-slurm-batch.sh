@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:4
-#SBATCH --partition=booster
 #SBATCH --constraint=ntasks-per-node=4
 
 export NCCL_IB_TIMEOUT='50'

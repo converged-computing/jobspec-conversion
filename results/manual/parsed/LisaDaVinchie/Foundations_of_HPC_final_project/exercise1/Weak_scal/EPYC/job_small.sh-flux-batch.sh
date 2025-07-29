@@ -2,7 +2,7 @@
 #FLUX --job-name=Weak_scal
 #FLUX -N=2
 #FLUX -n=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=EPYC
 #FLUX -t=7200
 #FLUX --urgency=16

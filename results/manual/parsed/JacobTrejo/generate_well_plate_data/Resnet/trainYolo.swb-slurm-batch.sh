@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2048
 #SBATCH --time=00:24:00
-#SBATCH --partition=gpux2
 
 echo Running
 module load opence/1.5.1

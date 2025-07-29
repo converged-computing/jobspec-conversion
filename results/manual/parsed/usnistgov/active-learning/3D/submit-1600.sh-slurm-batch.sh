@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=rack1
 #SBATCH --qos=test
 #SBATCH --chdir=/working/wd15/active-learning/3D
 

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=10gb
 #SBATCH --time=9-02:00:00
-#SBATCH --partition=wrighton-hi
 
 source /opt/Miniconda2/miniconda2/bin/activate DRAM
 DRAM-v.py distill \

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=2048
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=long
 #SBATCH --nodelist=gnode017
 
 echo "loading cuda, cudnn modules"

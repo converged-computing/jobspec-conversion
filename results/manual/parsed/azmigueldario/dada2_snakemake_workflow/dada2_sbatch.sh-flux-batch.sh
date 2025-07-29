@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-punk-6618
+#FLUX --job-name=loopy-nunchucks-3420
 #FLUX --queue=synergy,cpu2019,cpu2021
 #FLUX -t=172800
 #FLUX --urgency=16

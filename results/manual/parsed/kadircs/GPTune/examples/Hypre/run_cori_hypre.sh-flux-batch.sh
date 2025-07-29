@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-chip-3966
+#FLUX --job-name=muffled-caramel-5041
 #FLUX --urgency=16
 
 export GPTUNEROOT='$PWD'

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=100gb
 #SBATCH --time=9-02:00:00
-#SBATCH --partition=wrighton-hi
 #SBATCH --nodelist=zenith
 
 cd /home/projects/Sporulation_AMG/hmp/VirHostMatcher/

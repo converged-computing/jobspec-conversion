@@ -2,7 +2,7 @@
 #FLUX --job-name=memorization
 #FLUX -N=64
 #FLUX -c=6
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=g40
 #FLUX --urgency=16
 

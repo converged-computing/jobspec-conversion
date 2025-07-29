@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-punk-1049
+#FLUX --job-name=crusty-nunchucks-0516
 #FLUX -c=10
 #FLUX -t=120000
 #FLUX --urgency=16

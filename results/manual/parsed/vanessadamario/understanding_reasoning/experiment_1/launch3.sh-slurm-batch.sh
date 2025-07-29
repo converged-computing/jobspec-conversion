@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:titan-x:1
 #SBATCH --mem=12GB
 #SBATCH --time=06:00:00
-#SBATCH --partition=normal
 #SBATCH --array=0
 
 module add cluster/singularity/3.4.1

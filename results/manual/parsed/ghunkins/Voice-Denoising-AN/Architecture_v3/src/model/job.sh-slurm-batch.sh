@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=10GB
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 
 source activate new_pix
 python main.py --backend tensorflow --dset audio_10000_new --nb_epoch 400 --img_dim 256 256 256

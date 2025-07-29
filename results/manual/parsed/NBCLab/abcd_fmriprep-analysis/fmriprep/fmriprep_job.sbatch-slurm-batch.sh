@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=2gb
 #SBATCH --time=2-12:00:00
-#SBATCH --partition=IB_40C_512G
 #SBATCH --qos=pq_nbc
 
 export SINGULARITYENV_TEMPLATEFLOW_HOME='${TEMPLATEFLOW_HOST_HOME}'

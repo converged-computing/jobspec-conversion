@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-pot-2362
+#FLUX --job-name=loopy-egg-8062
 #FLUX -N=4
 #FLUX --queue=compute_full_node
 #FLUX -t=1800

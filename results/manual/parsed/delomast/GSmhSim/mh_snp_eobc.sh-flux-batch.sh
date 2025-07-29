@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-pancake-0930
+#FLUX --job-name=goodbye-earthworm-2722
 #FLUX --queue=medium
 #FLUX -t=428400
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
-#SBATCH --partition=dgx
 
 module load python3
 source /nfs/hpc/share/browjost/detr_apple/venv/bin/activate

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-arm-4137
+#FLUX --job-name=pusheena-hippo-1600
 #FLUX -c=4
 #FLUX --queue=batch
 #FLUX -t=205200

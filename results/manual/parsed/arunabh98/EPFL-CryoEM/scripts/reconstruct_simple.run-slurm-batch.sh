@@ -4,7 +4,7 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --mem=100000
 #SBATCH --time=06:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo STARTING AT `date`
 module purge

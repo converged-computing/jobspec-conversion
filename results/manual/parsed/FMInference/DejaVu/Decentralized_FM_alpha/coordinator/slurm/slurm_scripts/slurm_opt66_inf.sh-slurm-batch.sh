@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=4G
 #SBATCH --time=03:59:00
-#SBATCH --partition=jag-standard
 
 export NCCL_SOCKET_IFNAME='$netif'
 export GLOO_SOCKET_IFNAME='$netif'

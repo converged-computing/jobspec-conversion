@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=savio2
 
 module load r r-packages r-spatial netcdf/4.4.1.1-gcc-s
 source config-0.2-0

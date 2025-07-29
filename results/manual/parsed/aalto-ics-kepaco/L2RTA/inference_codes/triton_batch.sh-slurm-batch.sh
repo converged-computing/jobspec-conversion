@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000
 #SBATCH --time=02:00:00
-#SBATCH --partition=short
 #SBATCH --array=1-5000
 
 export OMP_PROC_BIND='true'

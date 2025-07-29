@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-lettuce-1713
+#FLUX --job-name=chunky-fork-8406
 #FLUX -c=8
 #FLUX --queue=red,brown
 #FLUX -t=44100

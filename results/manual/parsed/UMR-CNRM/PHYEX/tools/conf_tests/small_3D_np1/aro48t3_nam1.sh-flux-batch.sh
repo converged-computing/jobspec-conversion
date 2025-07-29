@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-lemon-4515
+#FLUX --job-name=eccentric-caramel-0331
 #FLUX --queue=normal256
 #FLUX -t=600
 #FLUX --urgency=16

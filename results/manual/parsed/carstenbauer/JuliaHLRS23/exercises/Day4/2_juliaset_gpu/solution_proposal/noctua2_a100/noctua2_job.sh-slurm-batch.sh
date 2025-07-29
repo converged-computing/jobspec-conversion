@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=00:15:00
-#SBATCH --partition=dgx
 #SBATCH --qos=devel
 
 ml r

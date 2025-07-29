@@ -3,7 +3,6 @@
 #SBATCH --ntasks=6
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=lrgmem
 
 cd /home-4/yhe23@jhu.edu/work/yuan/tools/STAR-2.7.1a/bin/Linux_x86_64_static
 genome_index_idr=/work-zfs/abattle4/heyuan/tissue_spec_eQTL_v8/datasets/STAR/genome_index

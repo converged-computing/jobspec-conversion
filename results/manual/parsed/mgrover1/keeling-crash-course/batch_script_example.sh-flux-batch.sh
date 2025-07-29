@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-itch-4522
+#FLUX --job-name=crunchy-butter-5757
 #FLUX -n=20
 #FLUX --queue=node
 #FLUX -t=345600

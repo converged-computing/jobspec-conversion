@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=largemem
 #SBATCH --chdir=/scratch/js4yd/MorrisSA/TNprocessing/
 
 module load gcc/7.1.0 openmpi/3.1.4 R/3.5.3

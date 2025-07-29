@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gpus-per-task=8
 #SBATCH --time=12:00:00
-#SBATCH --partition=g_vsheno
 #SBATCH --constraint=ntasks-per-node=1
 
 module purge

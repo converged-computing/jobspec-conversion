@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=custom-solver-8nodes
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu2080
 #FLUX -t=54000
 #FLUX --urgency=16

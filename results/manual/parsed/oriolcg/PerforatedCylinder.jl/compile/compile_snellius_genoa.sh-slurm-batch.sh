@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=genoa
 
 source modules_snellius.sh
 julia --project=../ -e 'using Pkg; Pkg.build("MPI")'

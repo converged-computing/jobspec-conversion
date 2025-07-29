@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=tst
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=thin
 #FLUX -t=3600
 #FLUX --urgency=16

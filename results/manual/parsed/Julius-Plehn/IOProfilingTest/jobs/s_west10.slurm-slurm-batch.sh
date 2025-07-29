@@ -5,7 +5,6 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=west
 
 export SCOREP_ENABLE_TRACING='TRUE'
 

@@ -2,7 +2,7 @@
 #FLUX --job-name=deepcam-cgpu
 #FLUX -c=10
 #FLUX --gpus-per-task=1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=7200
 #FLUX --urgency=16
 

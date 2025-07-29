@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=dcu:1
-#SBATCH --partition=normal
 #SBATCH --constraint=ntasks-per-node=1
 
 export PATH='$PYTHON_HOME/bin:$PATH'

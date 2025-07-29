@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=XAS
 
 export OCR_INSTALL='/home/rsalmon/dhome/fastfw/src/ocr/ocr/install'
 export APPS_ROOT='/home/rsalmon/dhome/fastfw/src/apps/apps'

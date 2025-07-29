@@ -2,7 +2,7 @@
 #FLUX --job-name=weak_MPI_scal
 #FLUX -N=2
 #FLUX -n=256
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=EPYC
 #FLUX -t=7200
 #FLUX --urgency=16

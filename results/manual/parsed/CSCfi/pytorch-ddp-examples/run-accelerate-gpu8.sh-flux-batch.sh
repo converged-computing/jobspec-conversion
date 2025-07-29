@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-platanos-4060
+#FLUX --job-name=delicious-parrot-7125
 #FLUX -N=2
 #FLUX -c=40
 #FLUX --queue=gputest

@@ -8,7 +8,6 @@
 #SBATCH --gres=4
 #SBATCH --mem=368G
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=4
 
 export OMPI_MCA_btl='self,vader,openib'

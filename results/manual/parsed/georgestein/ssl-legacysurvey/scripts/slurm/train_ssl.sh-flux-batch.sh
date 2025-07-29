@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-citrus-0895
+#FLUX --job-name=bumfuzzled-nalgas-1381
 #FLUX -N=32
 #FLUX -c=32
 #FLUX -t=43200

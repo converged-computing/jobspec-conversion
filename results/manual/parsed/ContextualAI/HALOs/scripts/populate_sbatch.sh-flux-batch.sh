@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-soup-2390
+#FLUX --job-name=muffled-peanut-butter-0200
 #FLUX --urgency=16
 
 source ~/.bashrc 

@@ -5,7 +5,6 @@
 #SBATCH --nodes=6
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
-#SBATCH --partition=max
 #SBATCH --nodelist=c[21,22,26,27,28,29]
 
 source ~/.bashrc

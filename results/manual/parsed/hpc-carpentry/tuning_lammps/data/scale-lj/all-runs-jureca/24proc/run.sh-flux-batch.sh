@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-bike-3059
+#FLUX --job-name=goodbye-cat-6543
 #FLUX --queue=devel
 #FLUX -t=900
 #FLUX --urgency=16

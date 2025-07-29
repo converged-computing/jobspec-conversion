@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-hope-1947
+#FLUX --job-name=fat-cupcake-6244
 #FLUX -c=10
 #FLUX --queue=kipac
 #FLUX -t=7200

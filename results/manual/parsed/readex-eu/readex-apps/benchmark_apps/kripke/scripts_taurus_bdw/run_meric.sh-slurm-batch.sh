@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2200M
 #SBATCH --time=1-00:12:00
-#SBATCH --partition=broadwell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MERIC_MODE='1'
 export MERIC_COUNTERS='perfevent'

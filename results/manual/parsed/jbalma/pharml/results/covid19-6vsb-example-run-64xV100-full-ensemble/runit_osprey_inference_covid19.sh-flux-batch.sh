@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=resnet
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=spider
 #FLUX -t=172800
 #FLUX --urgency=16

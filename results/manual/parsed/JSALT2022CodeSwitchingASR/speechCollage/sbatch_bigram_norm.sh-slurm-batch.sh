@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
-#SBATCH --partition=cpu-all
 
 module load gcc6 slurm cmake
 inputlist=$1

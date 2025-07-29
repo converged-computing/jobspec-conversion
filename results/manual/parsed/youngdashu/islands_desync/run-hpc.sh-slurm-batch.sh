@@ -5,7 +5,6 @@
 #SBATCH --ntasks=120
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4GB
-#SBATCH --partition=plgrid
 
 export TMPDIR='$tmpdir'
 export RAY_TMPDIR='$tmpdir'

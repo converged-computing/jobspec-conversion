@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-soup-0700
+#FLUX --job-name=buttery-itch-6044
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/JGuymont/humanware/jobs/resnet02.pbs

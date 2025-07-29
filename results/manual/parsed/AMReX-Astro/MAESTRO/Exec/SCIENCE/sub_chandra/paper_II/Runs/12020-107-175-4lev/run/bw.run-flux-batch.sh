@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-fork-2936
+#FLUX --job-name=gloopy-soup-6398
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AMReX-Astro/MAESTRO/Exec/SCIENCE/sub_chandra/paper_II/Runs/12020-107-175-4lev/run/bw.run

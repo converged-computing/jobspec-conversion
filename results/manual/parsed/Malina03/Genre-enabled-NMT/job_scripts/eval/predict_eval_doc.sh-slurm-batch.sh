@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50G
 #SBATCH --time=02:30:00
-#SBATCH --partition=gpu
 #SBATCH --array=1-3
 
 export PATH='$PATH:/home1/s3412768/.local/bin'

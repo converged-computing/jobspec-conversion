@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=25000
 #SBATCH --time=00:30:00
-#SBATCH --partition=shared
 #SBATCH --array=1-10
 
 module load matlab/R2018a-fasrc01

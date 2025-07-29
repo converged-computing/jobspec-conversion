@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-bits-6477
+#FLUX --job-name=phat-despacito-1064
 #FLUX -c=8
 #FLUX --urgency=16
 

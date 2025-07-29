@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-motorcycle-0087
+#FLUX --job-name=rainbow-mango-5788
 #FLUX --queue=gpu
 #FLUX --urgency=16
 

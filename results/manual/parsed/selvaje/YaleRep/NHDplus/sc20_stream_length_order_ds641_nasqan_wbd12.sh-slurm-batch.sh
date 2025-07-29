@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=week
 #SBATCH --array=27-27
 
 NHD=/project/fas/sbsc/ga254/dataproces/NHDplus

@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=6000
-#SBATCH --partition=basic
 
 chr=$1
 module unload python2

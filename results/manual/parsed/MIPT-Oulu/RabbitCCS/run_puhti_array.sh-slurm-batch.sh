@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=16000
 #SBATCH --time=06:00:00
-#SBATCH --partition=small
 #SBATCH --array=1-28
 
 module load gcc/8.3.0 cuda/10.1.168

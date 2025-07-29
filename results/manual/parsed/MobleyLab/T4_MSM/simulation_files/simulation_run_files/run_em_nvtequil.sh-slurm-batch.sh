@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8gb
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=8
 
 LAMBDA=$SLURM_ARRAY_TASK_ID

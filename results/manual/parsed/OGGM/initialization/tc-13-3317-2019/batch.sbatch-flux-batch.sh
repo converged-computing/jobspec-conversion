@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=reconstruction
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=low
 #FLUX --urgency=16
 

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=normal
 
 source /usr/share/spack/setup-env.sh
 spack load openmpi

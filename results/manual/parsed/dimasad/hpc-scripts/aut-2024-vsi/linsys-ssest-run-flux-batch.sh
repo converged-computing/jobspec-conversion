@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-arm-8614
+#FLUX --job-name=doopy-poo-2365
 #FLUX --urgency=16
 
 module purge

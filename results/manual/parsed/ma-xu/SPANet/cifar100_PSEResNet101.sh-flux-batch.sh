@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-despacito-3466
+#FLUX --job-name=crunchy-earthworm-0999
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

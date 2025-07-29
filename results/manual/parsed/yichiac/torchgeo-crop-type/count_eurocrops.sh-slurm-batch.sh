@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=12:00:00
-#SBATCH --partition=dali
 #SBATCH --constraint=ntasks-per-node=12
 
 . /projects/dali/spack/share/spack/setup-env.sh

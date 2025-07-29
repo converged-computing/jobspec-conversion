@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-diablo-9937
+#FLUX --job-name=chunky-truffle-7478
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/pc2/hpcc_fpga_eval_21/scripts/synthesis/LINPACK_DP/build_520n_cygnus_iec.sh

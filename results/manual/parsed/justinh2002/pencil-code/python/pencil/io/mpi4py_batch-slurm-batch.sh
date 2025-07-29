@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=4000
 #SBATCH --time=10:00:00
-#SBATCH --partition=parallel
 
 export PATH='$USERAPPL/appl_taito/myconda3/bin:$PATH'
 export PYTHONPATH='$PYTHONPATH:$PENCIL_HOME/python'

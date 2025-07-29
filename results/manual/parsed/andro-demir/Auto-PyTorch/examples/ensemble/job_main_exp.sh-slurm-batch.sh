@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=00:04:00
-#SBATCH --partition=bosch_cpu-cascadelake
 #SBATCH --array=1-3
 
 export PYTHONPATH='$PWD'

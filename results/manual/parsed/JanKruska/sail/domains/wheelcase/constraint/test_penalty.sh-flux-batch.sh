@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=bricky-pancake-6199
-#FLUX: --exclusive
+#FLUX --job-name=loopy-plant-0792
+#FLUX --exclusive
 #FLUX --queue=hpc
 #FLUX -t=7200
 #FLUX --urgency=16

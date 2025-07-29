@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-train-6621
+#FLUX --job-name=expressive-egg-4390
 #FLUX --queue=hci-rw
 #FLUX -t=259200
 #FLUX --urgency=16

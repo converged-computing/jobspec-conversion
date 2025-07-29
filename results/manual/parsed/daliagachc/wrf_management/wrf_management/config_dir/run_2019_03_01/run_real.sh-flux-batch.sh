@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-staircase-6922
+#FLUX --job-name=chocolate-bits-1790
 #FLUX --queue=serial
 #FLUX -t=600
 #FLUX --urgency=16

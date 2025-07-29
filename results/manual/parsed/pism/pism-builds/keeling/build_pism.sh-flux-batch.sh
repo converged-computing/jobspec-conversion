@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-leader-6162
+#FLUX --job-name=conspicuous-squidward-0175
 #FLUX --queue=t1small
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=shared
 #SBATCH --constraint=ntasks-per-node=24
 
 if [[ "$USER" == "jpatsol1@jhu.edu" ]]; then

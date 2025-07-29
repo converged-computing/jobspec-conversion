@@ -5,7 +5,6 @@
 #SBATCH --ntasks=18
 #SBATCH --cpus-per-task=1
 #SBATCH --time=06:00:00
-#SBATCH --partition=largemem
 #SBATCH --constraint=broadwell
 
 export SBATCH_CONSTRAINT='broadwell'

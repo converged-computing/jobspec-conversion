@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-itch-7920
+#FLUX --job-name=angry-despacito-7927
 #FLUX --queue=NV100q
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-ricecake-0319
+#FLUX --job-name=hairy-earthworm-6751
 #FLUX --queue=nvidia
 #FLUX -t=84600
 #FLUX --urgency=16

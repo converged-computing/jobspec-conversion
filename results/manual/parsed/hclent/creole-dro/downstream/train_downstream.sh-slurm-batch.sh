@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=30G
 #SBATCH --time=05:00:00
-#SBATCH --partition=gpu
 
 conda activate machamp
 module load gcc/9.1.0

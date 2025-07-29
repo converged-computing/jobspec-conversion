@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
 #SBATCH --qos=regular
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=knl,quad,cache
 
 export SIT_PSDM_DATA='$HOST_DATA_DIR/d/psdm'

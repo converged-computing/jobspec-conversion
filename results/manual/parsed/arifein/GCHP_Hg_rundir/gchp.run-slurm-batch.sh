@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32000
 #SBATCH --time=00:30:00
-#SBATCH --partition=fdr
 
 log="gchp.log"
 source runConfig.sh > ${log}

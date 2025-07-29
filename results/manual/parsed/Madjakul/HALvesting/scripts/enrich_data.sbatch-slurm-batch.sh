@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=56gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=cpu_devel
 #SBATCH --constraint=amd
 
 module purge

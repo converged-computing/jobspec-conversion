@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-parsnip-8982
+#FLUX --job-name=gassy-milkshake-6822
 #FLUX --queue=XAS
 #FLUX --urgency=16
 

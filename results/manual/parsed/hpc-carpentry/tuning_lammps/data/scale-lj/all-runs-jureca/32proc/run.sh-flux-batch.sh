@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-taco-9117
+#FLUX --job-name=adorable-peas-3353
 #FLUX --queue=devel
 #FLUX -t=900
 #FLUX --urgency=16

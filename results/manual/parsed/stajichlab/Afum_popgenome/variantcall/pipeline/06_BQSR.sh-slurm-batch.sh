@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=intel
 
 MEM=128g
 module load samtools/1.9

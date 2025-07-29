@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=qcpu
 #SBATCH --constraint=ntasks-per-node=128
 
 source ${HOME}/modules_files/pluto_mod

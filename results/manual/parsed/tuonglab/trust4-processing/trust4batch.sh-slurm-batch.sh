@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=150
 #SBATCH --mem=64G
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=general
 #SBATCH --constraint=ntasks-per-node=1
 
 output_dir="$1"

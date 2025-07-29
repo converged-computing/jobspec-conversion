@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-toaster-6422
+#FLUX --job-name=swampy-plant-9151
 #FLUX -c=10
 #FLUX -t=172800
 #FLUX --urgency=16

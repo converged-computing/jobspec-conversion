@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=hanky-ricecake-3931
+#FLUX --job-name=swampy-fork-7058
 #FLUX -c=5
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gm4-pmext
 #FLUX -t=129600
 #FLUX --urgency=16

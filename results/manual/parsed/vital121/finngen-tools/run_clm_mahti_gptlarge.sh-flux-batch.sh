@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-pancake-2318
+#FLUX --job-name=stinky-leopard-5849
 #FLUX -N=4
 #FLUX --queue=gpumedium
 #FLUX -t=129600

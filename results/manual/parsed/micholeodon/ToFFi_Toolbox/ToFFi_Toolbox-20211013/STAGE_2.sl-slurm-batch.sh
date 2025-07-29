@@ -6,10 +6,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12800
 #SBATCH --time=00:10:00
-#SBATCH --partition=small
 #SBATCH --constraint=ntasks-per-node=3
 #SBATCH --array=1-1
-#SBATCH --licenses=matlab_dct@licencje.task.gda.pl:1
 
 iStage=2
 cd "STAGE_$iStage/scripts/"

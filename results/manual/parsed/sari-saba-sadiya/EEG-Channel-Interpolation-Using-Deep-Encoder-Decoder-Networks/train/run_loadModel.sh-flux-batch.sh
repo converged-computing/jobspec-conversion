@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=tart-sundae-6633
-#FLUX: --exclusive
+#FLUX --job-name=expressive-leopard-3490
+#FLUX --exclusive
 #FLUX --queue=sched_mit_rgmark
 #FLUX -t=345600
 #FLUX --urgency=16

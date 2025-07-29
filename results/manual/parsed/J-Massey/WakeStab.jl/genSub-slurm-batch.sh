@@ -5,7 +5,6 @@
 #SBATCH --ntasks=128
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=highmem
 
 echo "Starting calculation at $(date)"
 echo "---------------------------------------------------------------"

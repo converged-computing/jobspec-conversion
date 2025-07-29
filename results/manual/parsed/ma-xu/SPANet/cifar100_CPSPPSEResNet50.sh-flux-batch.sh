@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-bike-6821
+#FLUX --job-name=quirky-nalgas-4968
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

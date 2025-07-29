@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=scavenger
 #SBATCH --qos=scavenger
 #SBATCH --array=1
 

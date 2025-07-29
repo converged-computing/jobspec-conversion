@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-muffin-1547
+#FLUX --job-name=salted-underoos-6746
 #FLUX -c=16
 #FLUX --queue=gpu-mono
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=35000
 #SBATCH --time=00:02:00
-#SBATCH --partition=huce_intel
 
 DATA_DIR="${1}"
 OUTPUT_DIR="${2}"

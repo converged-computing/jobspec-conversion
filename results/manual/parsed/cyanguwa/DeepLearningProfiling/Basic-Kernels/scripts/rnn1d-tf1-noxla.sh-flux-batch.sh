@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=rnn1d-tf1-noxla
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=special
 #FLUX -t=14400
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000
 #SBATCH --time=01:00:00
-#SBATCH --partition=single
 
 module purge
 module load chem/gromacs/2023.3

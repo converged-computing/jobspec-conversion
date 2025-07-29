@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=7
 #SBATCH --mem=0
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=standard-g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --exclude=nid005138,nid006369,nid005796,nid007382
 

@@ -9,7 +9,6 @@
 #SBATCH --gres=0
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=shared
 #SBATCH --constraint=ntasks-per-node=10
 
 source activate nmma_env

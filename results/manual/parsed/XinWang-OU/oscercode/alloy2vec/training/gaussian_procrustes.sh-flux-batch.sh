@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-dog-3695
+#FLUX --job-name=gassy-motorcycle-1847
 #FLUX --queue=cm3atou
 #FLUX -t=360000
 #FLUX --urgency=16

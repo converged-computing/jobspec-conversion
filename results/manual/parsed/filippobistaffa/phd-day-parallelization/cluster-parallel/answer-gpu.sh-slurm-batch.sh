@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 
 spack load cuda@11.8.0
 LLAMA_CPP_HOME="/home/filippo.bistaffa/phd-day-parallelization/cluster-parallel/llama.cpp"

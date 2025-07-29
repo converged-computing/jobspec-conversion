@@ -6,6 +6,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=1000
-#SBATCH --partition=mhigh,mhigh
 
 python ~/tensorflow/models/research/deeplab/model_test.py -p mhigh

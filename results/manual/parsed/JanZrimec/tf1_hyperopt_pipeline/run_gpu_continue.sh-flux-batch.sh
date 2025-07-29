@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-motorcycle-5286
+#FLUX --job-name=chocolate-despacito-6471
 #FLUX -n=32
 #FLUX --queue=vera
 #FLUX -t=604800

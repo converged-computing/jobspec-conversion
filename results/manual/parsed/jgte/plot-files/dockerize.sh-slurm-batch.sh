@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:01:00
-#SBATCH --partition=grace-serial
 
 DIR=$(cd $(dirname $BASH_SOURCE);pwd)
 MODE="$(echo "$1"| tr '[:upper:]' '[:lower:]')"

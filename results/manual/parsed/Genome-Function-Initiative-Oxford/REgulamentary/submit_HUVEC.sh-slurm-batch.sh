@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64G
 #SBATCH --time=3-12:00:00
-#SBATCH --partition=<partition-name>
 
 source /path/to/baseenv/bin/activate re
 snakemake --configfile=config/endothelial-cell-of-umbilical-vein.yaml all --cores 2 --unlock

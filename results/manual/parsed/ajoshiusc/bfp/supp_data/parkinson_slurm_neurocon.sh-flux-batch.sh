@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-staircase-5251
+#FLUX --job-name=angry-chip-4126
 #FLUX -n=4
 #FLUX -t=36000
 #FLUX --urgency=16

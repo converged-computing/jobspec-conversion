@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=peachy-truffle-2422
+#FLUX --job-name=fat-bike-6913
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=boost_usr_prod
 #FLUX -t=86400
 #FLUX --urgency=16

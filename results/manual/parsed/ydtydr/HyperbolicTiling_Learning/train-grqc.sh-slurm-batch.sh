@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:0
 #SBATCH --mem-per-cpu=5000
 #SBATCH --time=30-00:00:00
-#SBATCH --partition=mpi-cpus
 
 python3 embed.py \
        -dim 2 \

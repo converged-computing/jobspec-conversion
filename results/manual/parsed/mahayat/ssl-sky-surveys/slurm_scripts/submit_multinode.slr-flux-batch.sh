@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-poo-0396
+#FLUX --job-name=strawberry-truffle-6313
 #FLUX -N=2
 #FLUX -c=80
 #FLUX --gpus-per-task=8

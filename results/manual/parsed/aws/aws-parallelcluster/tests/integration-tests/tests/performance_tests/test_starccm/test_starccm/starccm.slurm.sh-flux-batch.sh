@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=starccm
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export FI_EFA_FORK_SAFE='1'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-fudge-5705
+#FLUX --job-name=scruptious-lemur-7345
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jmborr/confinedBSA/simulation/confinedBSA/h017_q0.90_ovl2.5/relax_2.extend.tpl

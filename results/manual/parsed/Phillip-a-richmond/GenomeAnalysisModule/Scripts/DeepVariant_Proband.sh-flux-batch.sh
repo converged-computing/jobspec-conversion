@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-cat-5091
+#FLUX --job-name=crusty-motorcycle-1030
 #FLUX -c=10
 #FLUX --queue=defq
 #FLUX -t=172800

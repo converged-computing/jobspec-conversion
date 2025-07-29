@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-bike-9672
+#FLUX --job-name=butterscotch-caramel-9775
 #FLUX --urgency=16
 
 scriptdir=""  # location for python scripts e.g. $HOME/dask_xgboost_slurm/scripts

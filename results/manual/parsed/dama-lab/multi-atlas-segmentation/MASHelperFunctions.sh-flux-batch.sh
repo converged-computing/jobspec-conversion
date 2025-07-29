@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-poo-7191
+#FLUX --job-name=pusheena-taco-5011
 #FLUX --urgency=16
 
 source $HOME/.bashrc

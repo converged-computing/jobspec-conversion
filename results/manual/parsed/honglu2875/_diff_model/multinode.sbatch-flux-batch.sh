@@ -2,7 +2,7 @@
 #FLUX --job-name=elm
 #FLUX -N=8
 #FLUX -c=6
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX --urgency=16
 

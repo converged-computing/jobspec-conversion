@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30000
 #SBATCH --time=06:00:00
-#SBATCH --partition=all
 #SBATCH --constraint=ntasks-per-node=1,ntasks-per-socket=1
 
 echo "Array Index: $SLURM_ARRAY_TASK_ID"

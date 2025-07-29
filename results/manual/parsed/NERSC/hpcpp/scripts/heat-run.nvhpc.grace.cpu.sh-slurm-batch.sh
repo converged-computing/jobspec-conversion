@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
-#SBATCH --partition=cg4-cpu4x120gb-gpu4x80gb
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export PATH='/home/wwei/install/cmake_3_27_3/bin/:$PATH'
 

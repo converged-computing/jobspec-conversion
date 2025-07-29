@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=256G
 #SBATCH --time=2-00:59:00
-#SBATCH --partition=hgx
 
 module purge # optional
 module load NeSI

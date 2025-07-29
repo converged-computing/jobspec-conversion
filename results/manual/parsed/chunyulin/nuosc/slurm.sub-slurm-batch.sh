@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:4
-#SBATCH --partition=gtest
 #SBATCH --constraint=ntasks-per-node=4
 
 module purge

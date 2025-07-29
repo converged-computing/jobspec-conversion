@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-egg-5694
+#FLUX --job-name=boopy-underoos-8302
 #FLUX --urgency=16
 
 export K8S_PORT='$K8S_PORT'

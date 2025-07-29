@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-staircase-3022
+#FLUX --job-name=rainbow-citrus-4139
 #FLUX -n=8
 #FLUX --queue=mlow,mlow
 #FLUX --urgency=16

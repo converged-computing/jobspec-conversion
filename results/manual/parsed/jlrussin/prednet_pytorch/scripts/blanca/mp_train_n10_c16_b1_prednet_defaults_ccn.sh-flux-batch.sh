@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-leopard-9550
+#FLUX --job-name=moolicious-malarkey-1649
 #FLUX -n=10
 #FLUX -c=16
 #FLUX -t=259200

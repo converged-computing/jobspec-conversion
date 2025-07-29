@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
 #SBATCH --time=00:50:00
-#SBATCH --partition=buran
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=buran01
 

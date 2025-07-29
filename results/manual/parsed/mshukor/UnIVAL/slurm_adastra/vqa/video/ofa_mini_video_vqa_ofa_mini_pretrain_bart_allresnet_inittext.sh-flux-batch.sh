@@ -2,7 +2,7 @@
 #FLUX --job-name=ofa_mini_video_vqa_ofa_mini_pretrain_bart_allresnet_inittext
 #FLUX -N=2
 #FLUX -n=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

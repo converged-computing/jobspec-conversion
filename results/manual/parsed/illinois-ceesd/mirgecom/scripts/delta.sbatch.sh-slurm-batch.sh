@@ -5,10 +5,9 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpuA40x4
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=4
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export PYOPENCL_CTX='port:nvidia"     # Run on Nvidia GPU with pocl'
 export XDG_CACHE_HOME_ROOT='${MIRGE_CACHE_ROOT}/xdg-cache/rank'

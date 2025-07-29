@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30G
 #SBATCH --time=00:05:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=128
 
 module load gcc/11.2.0-gcc-11.2.0

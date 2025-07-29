@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-chip-2780
+#FLUX --job-name=bloated-peanut-1740
 #FLUX -c=12
 #FLUX --queue=gpu
 #FLUX -t=172800

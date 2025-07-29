@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=3750mb
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=hpg2-compute
 #SBATCH --qos=astronomy-dept-b
 
 export OMPI_MCA_pml='ucx'

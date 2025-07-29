@@ -4,7 +4,6 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=20G
-#SBATCH --partition=shortq
 
 WDIR="/mnt/beegfs/scratch/bioinfo_core/B23043_NADR_02"
 SAMPLE_NAME="3700_R10"

@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=defq
 #SBATCH --constraint=ib
 
 export WORK_DIR='/scratch/users/$USER/LMP${SLURM_JOB_ID}'

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=200G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=alqadi-amd
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=ccc0324
 

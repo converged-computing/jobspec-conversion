@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=32GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 eval "$(conda shell.bash hook)"
 conda activate mm

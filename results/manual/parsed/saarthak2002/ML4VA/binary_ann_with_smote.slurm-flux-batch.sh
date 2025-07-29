@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-rabbit-2927
+#FLUX --job-name=grated-noodle-7607
 #FLUX -c=8
 #FLUX --queue=bii-gpu
 #FLUX -t=86400

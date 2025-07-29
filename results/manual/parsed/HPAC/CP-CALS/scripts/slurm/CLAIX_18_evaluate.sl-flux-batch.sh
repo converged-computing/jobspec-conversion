@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=EVAL
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=c18m
 #FLUX -t=600
 #FLUX --urgency=16

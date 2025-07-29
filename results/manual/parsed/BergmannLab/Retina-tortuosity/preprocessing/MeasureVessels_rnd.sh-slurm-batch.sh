@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6GB
 #SBATCH --time=02:30:00
-#SBATCH --partition=normal
 #SBATCH --array=1-582
 
 ARIA_target="vein" # [artery|vein|all] # note, thoguht, that I am invoking ARIA with random AV calling

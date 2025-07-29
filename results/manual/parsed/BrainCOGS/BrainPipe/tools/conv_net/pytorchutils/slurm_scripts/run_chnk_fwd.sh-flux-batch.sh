@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-buttface-8703
+#FLUX --job-name=misunderstood-toaster-8301
 #FLUX --queue=all
 #FLUX -t=21600
 #FLUX --urgency=16

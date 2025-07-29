@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:tesla-k80:1
 #SBATCH --mem=12GB
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=cbmm
 #SBATCH --chdir=/om/user/scasper/workspace/
 #SBATCH --array=227
 

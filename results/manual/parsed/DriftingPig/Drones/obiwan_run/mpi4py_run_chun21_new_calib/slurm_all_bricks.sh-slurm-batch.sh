@@ -8,9 +8,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=haswell
-#SBATCH --licenses=SCRATCH,project
 
 export name_for_run='chunk21_new_calib'
 export name_for_randoms='sgc_brick_dat_2'

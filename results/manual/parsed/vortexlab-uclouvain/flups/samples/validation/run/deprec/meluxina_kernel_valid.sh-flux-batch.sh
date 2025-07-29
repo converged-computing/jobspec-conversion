@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-gato-2422
+#FLUX --job-name=conspicuous-salad-8210
 #FLUX --queue=cpu
 #FLUX -t=1800
 #FLUX --urgency=16

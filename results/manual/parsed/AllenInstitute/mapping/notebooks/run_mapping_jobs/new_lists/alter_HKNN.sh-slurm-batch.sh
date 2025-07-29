@@ -8,6 +8,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=500gb
 #SBATCH --time=15-00:00:00
-#SBATCH --partition=celltypes
 
 singularity exec docker://alleninst/mapping_on_hpc Rscript R_scripts/example_run_mapping_hknn.R > logfiles/alteredHKNN_lists_logfile

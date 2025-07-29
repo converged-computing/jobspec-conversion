@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-despacito-8389
+#FLUX --job-name=cowy-gato-7318
 #FLUX --queue=amd-longq
 #FLUX --urgency=16
 

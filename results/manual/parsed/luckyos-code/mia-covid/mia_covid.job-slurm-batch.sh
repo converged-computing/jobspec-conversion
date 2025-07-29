@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=64G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=clara
 
 case $SLURM_ARRAY_TASK_ID in
   1)

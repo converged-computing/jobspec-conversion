@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu-v100
 #SBATCH --array=1-5
 
 scontrol show job $SLURM_JOB_ID

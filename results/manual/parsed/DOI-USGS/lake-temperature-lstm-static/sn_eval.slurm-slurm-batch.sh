@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-23:59:59
-#SBATCH --partition=cpu
 
 source ~/.bashrc
 conda activate ltls

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30G
 #SBATCH --time=23:59:00
-#SBATCH --partition=savio2_1080ti
 
 source deactivate
 module purge

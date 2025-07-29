@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=MRT-a2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX -t=600
 #FLUX --urgency=16

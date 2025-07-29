@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-peanut-3892
+#FLUX --job-name=eccentric-onion-4870
 #FLUX -c=12
 #FLUX -t=432000
 #FLUX --urgency=16

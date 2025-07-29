@@ -6,7 +6,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=short,comp
 
 export LAMMPS_EXEC='mpirun -np $SLURM_NTASKS ~/p2015120004/apps/clammps/build/lmp_mpi'
 

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=00:15:00
-#SBATCH --partition=janson,janson_cascade,shared
 
 module load matlab/R2021a-fasrc01
 matlab -nodisplay -nosplash -r "i_job=$SLURM_ARRAY_TASK_ID;binary_y_matlab;quit;"

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=cowy-hope-3774
+#FLUX --job-name=butterscotch-taco-4677
 #FLUX -c=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=romeo
 #FLUX -t=21600
 #FLUX --urgency=16

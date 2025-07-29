@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-diablo-5264
+#FLUX --job-name=strawberry-cattywampus-1053
 #FLUX -N=2
 #FLUX --queue=develgpus
 #FLUX -t=600

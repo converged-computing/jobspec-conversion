@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=Infer-FT-Blenderbot-Small-ESCOV
 #FLUX -c=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=108000
 #FLUX --urgency=16

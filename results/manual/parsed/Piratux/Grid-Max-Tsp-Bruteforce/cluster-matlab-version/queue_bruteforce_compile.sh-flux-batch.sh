@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-poo-5438
+#FLUX --job-name=carnivorous-bicycle-1208
 #FLUX -n=8
 #FLUX --queue=main
 #FLUX --urgency=16

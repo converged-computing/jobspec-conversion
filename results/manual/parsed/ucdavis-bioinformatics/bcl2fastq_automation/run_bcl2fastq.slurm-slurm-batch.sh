@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=36
 #SBATCH --mem=8000
 #SBATCH --time=03:00:00
-#SBATCH --partition=dev,gpu,intel,assembly
 #SBATCH --array=1-8
 
 start=`date +%s`

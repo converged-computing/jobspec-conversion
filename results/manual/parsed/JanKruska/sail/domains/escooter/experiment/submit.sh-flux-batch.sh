@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=loopy-cattywampus-5921
-#FLUX: --exclusive
+#FLUX --job-name=cowy-egg-5682
+#FLUX --exclusive
 #FLUX --queue=hpc
 #FLUX -t=259200
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=scavenge
 
 module load R/3.4.4-foss-2018a-X11-20180131  # new path 
 cd /gpfs/loomis/project/fas/sbsc/ga254/dataproces/NED_MERIT/

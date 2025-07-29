@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=faux-pedo-8381
+#FLUX --job-name=boopy-motorcycle-0603
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=short
 #FLUX -t=10800
 #FLUX --urgency=16

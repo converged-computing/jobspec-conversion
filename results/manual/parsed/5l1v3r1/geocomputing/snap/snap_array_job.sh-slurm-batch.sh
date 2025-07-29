@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=2000
 #SBATCH --time=02:00:00
-#SBATCH --partition=small
 #SBATCH --array=1-3
 
 module load snap

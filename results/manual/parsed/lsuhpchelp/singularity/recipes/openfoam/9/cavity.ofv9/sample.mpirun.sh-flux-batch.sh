@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-nalgas-9402
+#FLUX --job-name=gloopy-soup-9877
 #FLUX -N=2
 #FLUX -n=128
 #FLUX --queue=checkpt

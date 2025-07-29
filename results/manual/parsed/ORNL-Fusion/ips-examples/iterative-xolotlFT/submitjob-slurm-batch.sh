@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 #SBATCH --constraint=haswell
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/gcc/11.2.0/snos/lib64'

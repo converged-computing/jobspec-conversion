@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-sundae-0077
+#FLUX --job-name=placid-pedo-1956
 #FLUX -N=4
 #FLUX -n=4
 #FLUX --queue=west

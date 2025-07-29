@@ -5,7 +5,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=40G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=long
 #SBATCH --constraint=dgx
 
 export WORKFLOW_DIR='/scratch/shared/pwesolowski/mgr-pipeline/merlin/'

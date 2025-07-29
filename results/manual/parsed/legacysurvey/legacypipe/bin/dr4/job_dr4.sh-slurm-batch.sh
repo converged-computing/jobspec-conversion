@@ -5,9 +5,7 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=shared
 #SBATCH --constraint=haswell
-#SBATCH --licenses=SCRATCH
 
 export LEGACY_SURVEY_DIR='/global/cscratch1/sd/desiproc/dr4/legacypipe-dir/../dr4_fixes/legacypipe-dir'
 export UNWISE_COADDS_DIR='/global/cscratch1/sd/desiproc/dr4/unwise-coadds/fulldepth:/global/cscratch1/sd/desiproc/dr4/unwise-coadds/w3w4'

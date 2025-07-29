@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-lamp-5554
+#FLUX --job-name=placid-chip-4655
 #FLUX --queue=shortrun
 #FLUX -t=172800
 #FLUX --urgency=16

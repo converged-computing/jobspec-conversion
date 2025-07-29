@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-animal-6934
+#FLUX --job-name=conspicuous-omelette-3823
 #FLUX --queue=physical
 #FLUX -t=50400
 #FLUX --urgency=16

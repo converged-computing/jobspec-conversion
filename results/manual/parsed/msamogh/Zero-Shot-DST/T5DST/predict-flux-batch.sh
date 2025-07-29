@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-lemon-0160
+#FLUX --job-name=dinosaur-plant-0079
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX -t=72000

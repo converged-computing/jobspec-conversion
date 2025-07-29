@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-hope-5824
+#FLUX --job-name=stinky-hobbit-4367
 #FLUX -n=4
 #FLUX --queue=mlow
 #FLUX --urgency=16

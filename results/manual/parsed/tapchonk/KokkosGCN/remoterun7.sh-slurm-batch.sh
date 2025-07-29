@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:0
 #SBATCH --mem=2500M
 #SBATCH --time=01:00:00
-#SBATCH --partition=gecko
 
 export OMP_NUM_THREADS='48'
 export OMP_PROC_BIND='spread'

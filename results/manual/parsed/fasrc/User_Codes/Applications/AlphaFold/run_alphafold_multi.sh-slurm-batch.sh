@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60G
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 
 my_fasta=T1083_T1084.fasta
 fasta_name="${my_fasta//.fasta}"

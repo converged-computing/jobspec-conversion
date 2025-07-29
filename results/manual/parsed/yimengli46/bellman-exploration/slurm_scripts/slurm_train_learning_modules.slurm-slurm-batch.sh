@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=50G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpuq
 #SBATCH --nodelist=NODE040
 
 module load cuda/11.2

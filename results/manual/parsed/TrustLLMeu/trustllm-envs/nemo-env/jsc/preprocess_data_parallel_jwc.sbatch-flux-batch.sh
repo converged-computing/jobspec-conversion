@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-hobbit-2023
+#FLUX --job-name=frigid-peanut-butter-5013
 #FLUX -c=48
 #FLUX --queue=devel
 #FLUX -t=1200

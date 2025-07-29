@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-poo-7044
+#FLUX --job-name=carnivorous-spoon-0135
 #FLUX --queue=ztestpreemp
 #FLUX -t=259200
 #FLUX --urgency=16

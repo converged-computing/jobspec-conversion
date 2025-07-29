@@ -9,7 +9,6 @@
 #SBATCH --gres=4
 #SBATCH --mem=100G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=ais-gpu
 
 srun singularity exec --bind /trinity/home/v.moskvoretskii/:/home -f --nv /trinity/home/v.moskvoretskii/images/aqlm.sif bash -c '
     ls;

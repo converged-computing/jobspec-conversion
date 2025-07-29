@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=05:00:00
-#SBATCH --partition=gpu2080
 
 module load pycharmm/0.5
 python standard_rigid.py

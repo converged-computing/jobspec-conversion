@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=4096
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 exe="@CMAKE_BINARY_DIR@/upwind/cxx/upwindAccCxx"
 time srun $exe -numCells 1024 -numSteps 10

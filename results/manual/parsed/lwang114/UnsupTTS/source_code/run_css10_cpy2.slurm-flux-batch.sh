@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=wav2vecu_css10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=86400
 #FLUX --urgency=16
 

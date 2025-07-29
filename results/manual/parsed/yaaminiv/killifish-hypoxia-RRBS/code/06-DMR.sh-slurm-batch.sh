@@ -7,8 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100gb
-#SBATCH --partition=compute
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --chdir=/vortexfs1/scratch/yaamini.venkataraman/06-DMR
 
 module load singularity/3.7

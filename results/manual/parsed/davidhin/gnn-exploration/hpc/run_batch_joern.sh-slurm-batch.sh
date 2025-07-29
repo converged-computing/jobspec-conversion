@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4GB
 #SBATCH --time=00:20:00
-#SBATCH --partition=batch
 #SBATCH --array=1-200
 
 module load Singularity

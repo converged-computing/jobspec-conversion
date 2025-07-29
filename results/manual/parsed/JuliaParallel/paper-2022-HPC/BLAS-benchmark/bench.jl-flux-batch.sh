@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-hobbit-7263
-#FLUX: --exclusive
+#FLUX --job-name=quirky-pedo-1807
+#FLUX --exclusive
 #FLUX --queue=all
 #FLUX -t=7200
 #FLUX --urgency=16

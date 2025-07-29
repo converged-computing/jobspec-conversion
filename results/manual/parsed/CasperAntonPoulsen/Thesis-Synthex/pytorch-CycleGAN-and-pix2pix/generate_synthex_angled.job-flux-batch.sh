@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-hope-4784
+#FLUX --job-name=ornery-frito-5312
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CasperAntonPoulsen/Thesis-Synthex/pytorch-CycleGAN-and-pix2pix/generate_synthex_angled.job

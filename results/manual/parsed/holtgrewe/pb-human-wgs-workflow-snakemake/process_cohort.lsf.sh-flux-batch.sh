@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-cattywampus-8653
+#FLUX --job-name=reclusive-egg-0893
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/holtgrewe/pb-human-wgs-workflow-snakemake/process_cohort.lsf.sh

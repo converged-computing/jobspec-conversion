@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-chip-2502
+#FLUX --job-name=sticky-bits-3301
 #FLUX -c=2
 #FLUX --queue=gpu
 #FLUX -t=86399

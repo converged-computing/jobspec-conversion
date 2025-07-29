@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-parsnip-1952
+#FLUX --job-name=nerdy-cat-7825
 #FLUX -t=86400
 #FLUX --urgency=16
 

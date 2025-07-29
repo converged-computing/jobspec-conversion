@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=joyous-lemur-4233
-#FLUX: --exclusive
+#FLUX --job-name=frigid-peanut-6588
+#FLUX --exclusive
 #FLUX --queue=lanka-v3
 #FLUX -t=14400
 #FLUX --urgency=16

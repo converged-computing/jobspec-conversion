@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=192000MB
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 JULIA_THREADS_TO_USE=1
 echo "Starts benchmark runs on the multistate model."

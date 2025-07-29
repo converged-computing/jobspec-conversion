@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=gpu
 
 sbatch <<EOT
 source ${HOME}/.bashrc

@@ -8,6 +8,5 @@
 #SBATCH --gres=1
 #SBATCH --mem=2gb
 #SBATCH --time=00:30:00
-#SBATCH --partition=gpu
 
 srun singularity exec --nv ./containers/pytorch.sif python code/arso_to_dataframe.py

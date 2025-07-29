@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-cherry-5209
+#FLUX --job-name=bricky-citrus-8945
 #FLUX --queue=lotus_gpu
 #FLUX -t=57600
 #FLUX --urgency=16

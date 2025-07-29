@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-peas-9438
+#FLUX --job-name=doopy-noodle-5597
 #FLUX --urgency=16
 
 source /home/${USER}/.bashrc;

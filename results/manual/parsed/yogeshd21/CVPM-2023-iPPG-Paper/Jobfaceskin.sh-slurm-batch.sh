@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:2
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=a100_normal_q
 #SBATCH --constraint=ntasks-per-node=1
 
 export MASTER_PORT='12698'

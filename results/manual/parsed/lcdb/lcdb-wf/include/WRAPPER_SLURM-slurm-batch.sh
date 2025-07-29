@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=lscratch:5
 #SBATCH --time=12:00:00
-#SBATCH --partition=norm
 
 if [[ ! -e logs ]]; then mkdir -p logs; fi
 if [ -z "$LCDBWF_SNAKEMAKE_PROFILE" ]; then

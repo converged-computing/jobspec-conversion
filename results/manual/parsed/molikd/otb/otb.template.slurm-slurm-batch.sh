@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=long
 
 module load nextflow/22.04.3
 Assembly_Name=$(basename "$( pwd )")

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-carrot-6735
+#FLUX --job-name=loopy-poo-0186
 #FLUX -c=2
 #FLUX --queue=bosch_cpu-cascadelake
 #FLUX --urgency=16

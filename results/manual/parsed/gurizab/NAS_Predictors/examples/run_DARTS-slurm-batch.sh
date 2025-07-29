@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=64000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=mlhiwidlc_gpu-rtx2080
 
 export PATH='$PATH:/home/zabergjg/miniconda3/envs/naslib/lib/python3.7/'
 

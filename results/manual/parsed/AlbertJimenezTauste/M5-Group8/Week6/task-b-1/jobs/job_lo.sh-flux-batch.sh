@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-chair-1814
+#FLUX --job-name=outstanding-lamp-5539
 #FLUX -n=4
 #FLUX --queue=mlow
 #FLUX --urgency=16

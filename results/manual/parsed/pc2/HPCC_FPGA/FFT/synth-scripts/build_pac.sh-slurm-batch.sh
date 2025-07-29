@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=fpgasyn
 
 module load intelFPGA_pro/20.3.0
 module load intel_pac/19.2.0_usm

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:tesla-k80:1
 #SBATCH --mem=2GB
 #SBATCH --time=04:30:00
-#SBATCH --partition=use-everything
 #SBATCH --chdir=/om/user/vanessad/synthetic_framework/slurm_output/march15
 #SBATCH --array=0-109
 

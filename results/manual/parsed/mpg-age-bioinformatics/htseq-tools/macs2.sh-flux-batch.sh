@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-butter-9832
+#FLUX --job-name=loopy-arm-1669
 #FLUX -c=2
 #FLUX --queue=himem,hugemem,blade
 #FLUX --urgency=16

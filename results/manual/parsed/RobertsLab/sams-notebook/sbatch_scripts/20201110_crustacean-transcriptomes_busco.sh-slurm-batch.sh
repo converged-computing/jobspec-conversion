@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=200G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=coenv
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20201110_crustacean-transcriptomes_busco
 
 export PATH='${augustus_scripts}:$PATH'

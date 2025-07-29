@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-lemon-0431
+#FLUX --job-name=salted-punk-4559
 #FLUX -n=4
 #FLUX --queue=wildfire
 #FLUX -t=13800

@@ -2,7 +2,7 @@
 #FLUX --job-name=Gromacs
 #FLUX -n=4
 #FLUX -c=7
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=1800
 #FLUX --urgency=16
 

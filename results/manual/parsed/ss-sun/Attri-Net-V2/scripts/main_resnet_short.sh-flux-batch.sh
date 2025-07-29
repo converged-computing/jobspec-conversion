@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-lettuce-5942
+#FLUX --job-name=psycho-itch-0374
 #FLUX --queue=gpu-2080ti
 #FLUX -t=100800
 #FLUX --urgency=16

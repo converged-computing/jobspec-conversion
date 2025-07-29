@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --mem=16G
 #SBATCH --time=02:00:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --dependency=5932351
 

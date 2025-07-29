@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:2
 #SBATCH --time=01:00:00
-#SBATCH --partition=palamut-cuda
 #SBATCH --constraint=ntasks-per-node=2
 
 . ./scripts/modules_truba.sh > /dev/null

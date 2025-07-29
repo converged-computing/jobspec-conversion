@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-cat-8701
+#FLUX --job-name=faux-lentil-4616
 #FLUX -n=24
 #FLUX --urgency=16
 

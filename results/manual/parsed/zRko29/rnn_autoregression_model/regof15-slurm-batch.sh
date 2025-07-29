@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=24G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=valhala
 #SBATCH --constraint=ntasks-per-node=1
 

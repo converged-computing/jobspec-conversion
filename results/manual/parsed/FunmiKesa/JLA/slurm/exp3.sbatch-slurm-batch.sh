@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=150G
 #SBATCH --time=00:05:00
-#SBATCH --partition=pearl
 
 singularity exec \
         --nv -w \

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=devel
 #SBATCH --constraint=ntasks-per-node=8
 
 module use /usr/local/software/jureca/OtherStages

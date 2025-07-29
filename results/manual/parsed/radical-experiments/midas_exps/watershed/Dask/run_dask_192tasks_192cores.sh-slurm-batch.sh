@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=compute
 
 cd $SLURM_SUBMIT_DIR
 source activate watershed_Dask

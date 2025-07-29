@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=2-07:30:00
-#SBATCH --partition=nonsusp
 #SBATCH --constraint=ntasks-per-node=16,sb
 
 export P4_RSHCOMMAND='ssh'

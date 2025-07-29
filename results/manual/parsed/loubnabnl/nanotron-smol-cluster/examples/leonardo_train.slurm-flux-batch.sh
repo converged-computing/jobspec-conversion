@@ -2,7 +2,7 @@
 #FLUX --job-name=train
 #FLUX -N=32
 #FLUX -c=32
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=boost_usr_prod
 #FLUX --urgency=16
 

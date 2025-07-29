@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=gpu
 
 export EXE='/bin/hostname'
 

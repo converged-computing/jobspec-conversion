@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=batch
 
 module load gcc miniconda3
 source $CONDA_PROFILE/conda.sh

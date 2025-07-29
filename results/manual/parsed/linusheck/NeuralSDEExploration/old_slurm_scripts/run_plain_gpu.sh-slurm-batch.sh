@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export I_MPI_PMI_LIBRARY='/p/system/slurm/lib/libpmi.so'
 

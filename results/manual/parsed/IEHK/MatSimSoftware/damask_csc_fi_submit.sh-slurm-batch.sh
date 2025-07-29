@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1000
 #SBATCH --time=00:30:00
-#SBATCH --partition=parallel
 
 export DAMASK_NUM_THREADS='1'
 

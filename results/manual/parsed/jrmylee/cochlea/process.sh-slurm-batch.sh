@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=savio2_gpu
 
 module load pytorch/1.0.0-py36-cuda9.0 libsndfile
 python -u main.py

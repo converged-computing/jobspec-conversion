@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-puppy-1006
+#FLUX --job-name=grated-soup-6859
 #FLUX -c=18
 #FLUX --queue=bigmem
 #FLUX --urgency=16

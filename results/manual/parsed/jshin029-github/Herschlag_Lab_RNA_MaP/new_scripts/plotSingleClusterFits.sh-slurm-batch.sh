@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=18
 #SBATCH --time=15:00:00
-#SBATCH --partition=biochem,owners,normal
 #SBATCH --qos=normal
 #SBATCH --constraint=ntasks-per-node=1
 

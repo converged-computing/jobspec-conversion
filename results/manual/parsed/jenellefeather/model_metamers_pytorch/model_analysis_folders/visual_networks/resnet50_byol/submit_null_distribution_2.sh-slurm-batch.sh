@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=high-capacity
 #SBATCH --array=0
 #SBATCH --exclude=node093,node094,node097,node098

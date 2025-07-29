@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=25600
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu05,gpu
 
 export PATH='$HOME/software/bin:$PATH;'
 

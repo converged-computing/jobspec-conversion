@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=35000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=batch
 
 cd $SLURM_SUBMIT_DIR
 date;hostname;pwd

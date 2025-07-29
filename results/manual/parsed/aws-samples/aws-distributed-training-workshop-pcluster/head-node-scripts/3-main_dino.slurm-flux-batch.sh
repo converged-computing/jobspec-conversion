@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-chip-3526
+#FLUX --job-name=outstanding-frito-4637
 #FLUX -N=2
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export WORLD_SIZE='8'

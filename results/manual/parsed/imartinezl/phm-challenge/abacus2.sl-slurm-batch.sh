@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8GB
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --nodelist=abacus002
 
 export CXX='g++'

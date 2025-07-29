@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-lentil-3332
+#FLUX --job-name=gloopy-truffle-2501
 #FLUX -n=8
 #FLUX --queue=priority
 #FLUX -t=86400

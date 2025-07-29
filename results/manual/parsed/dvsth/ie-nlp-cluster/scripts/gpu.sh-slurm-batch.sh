@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:1
-#SBATCH --partition=compsci-gpu
 
 hostname
 nvidia-smi --query-gpu=gpu_name,memory.total,memory.free --format=csv

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-avocado-9809
+#FLUX --job-name=misunderstood-nunchucks-3809
 #FLUX -c=6
 #FLUX --queue=gpu_titanrtx
 #FLUX -t=432000

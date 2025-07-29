@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-lemon-7950
+#FLUX --job-name=crusty-eagle-4859
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

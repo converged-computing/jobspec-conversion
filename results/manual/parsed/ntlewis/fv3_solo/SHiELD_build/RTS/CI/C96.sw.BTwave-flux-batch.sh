@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-cherry-7838
+#FLUX --job-name=conspicuous-staircase-1986
 #FLUX -n=24
 #FLUX --urgency=16
 

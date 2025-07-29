@@ -6,7 +6,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=longjobs
 
 export OMP_NUM_THREADS='1'
 export WDIR='<REPO_DIR>/bench'

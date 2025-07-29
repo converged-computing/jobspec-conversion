@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-signal-9899
+#FLUX --job-name=creamy-hope-1950
 #FLUX --urgency=16
 
 qgmx () {

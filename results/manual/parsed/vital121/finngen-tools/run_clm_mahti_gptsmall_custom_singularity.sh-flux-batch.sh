@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-mango-1820
+#FLUX --job-name=reclusive-hippo-3642
 #FLUX -N=4
 #FLUX --queue=gpumedium
 #FLUX -t=129600

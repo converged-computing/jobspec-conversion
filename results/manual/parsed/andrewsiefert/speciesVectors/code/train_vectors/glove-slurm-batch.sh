@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --time=06:00:00
-#SBATCH --partition=teton-gpu
 
 module load swset/2018.05
 module load cuda/10.1.243

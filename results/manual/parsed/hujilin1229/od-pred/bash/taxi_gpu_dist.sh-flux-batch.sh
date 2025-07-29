@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-peanut-7447
+#FLUX --job-name=delicious-eagle-2040
 #FLUX -N=3
 #FLUX -c=12
 #FLUX -t=86400

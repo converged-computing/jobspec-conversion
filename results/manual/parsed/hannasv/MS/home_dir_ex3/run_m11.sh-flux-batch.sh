@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-nalgas-3580
+#FLUX --job-name=spicy-cat-4576
 #FLUX -n=6
 #FLUX --queue=dgx2q
 #FLUX -t=87840

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --gres=gpu:1
 #SBATCH --time=10:00:00
-#SBATCH --partition=akya-cuda
 
 export OMP_NUM_THREADS='${CPU_THREADS}'
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=iaf2msa1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=64c512g
 #FLUX --urgency=16
 

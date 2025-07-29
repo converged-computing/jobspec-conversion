@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=ou_cpmmh_0999_10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=36000
 #FLUX --urgency=16
 

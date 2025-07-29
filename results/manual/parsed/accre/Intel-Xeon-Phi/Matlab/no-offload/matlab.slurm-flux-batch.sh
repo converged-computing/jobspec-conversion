@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-soup-8339
+#FLUX --job-name=muffled-kitty-6948
 #FLUX --queue=mic
 #FLUX -t=86400
 #FLUX --urgency=16

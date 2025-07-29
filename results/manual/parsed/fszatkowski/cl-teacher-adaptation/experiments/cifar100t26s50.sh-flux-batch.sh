@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-latke-2951
+#FLUX --job-name=purple-parsnip-9478
 #FLUX -n=3
 #FLUX -t=259200
 #FLUX --urgency=16

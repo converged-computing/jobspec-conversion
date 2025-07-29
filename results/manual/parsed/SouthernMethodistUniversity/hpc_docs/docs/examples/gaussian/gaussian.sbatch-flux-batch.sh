@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=gaussian
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX --urgency=16
 

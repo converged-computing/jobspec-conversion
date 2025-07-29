@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
-#SBATCH --partition=bosch_cpu-cascadelake
 #SBATCH --array=0-4
 
 echo "Workingdir: $PWD";

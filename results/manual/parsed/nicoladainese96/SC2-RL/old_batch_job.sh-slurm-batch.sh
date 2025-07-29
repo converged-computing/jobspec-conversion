@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:1
-#SBATCH --partition=gpu
 
 module load pytorch/nvidia-20.03-py3
 singularity_wrapper exec python -u run.py $*

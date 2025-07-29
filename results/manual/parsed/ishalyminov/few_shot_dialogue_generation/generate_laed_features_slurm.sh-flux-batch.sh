@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-milkshake-1138
+#FLUX --job-name=bloated-cherry-0221
 #FLUX --queue=amd-longq
 #FLUX --urgency=16
 

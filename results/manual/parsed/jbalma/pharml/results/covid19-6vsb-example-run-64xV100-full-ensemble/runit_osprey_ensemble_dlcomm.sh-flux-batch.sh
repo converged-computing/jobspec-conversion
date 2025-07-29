@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=anxious-knife-5388
-#FLUX: --exclusive
+#FLUX --job-name=hairy-lemon-2582
+#FLUX --exclusive
 #FLUX --queue=spider
 #FLUX -t=14400
 #FLUX --urgency=16

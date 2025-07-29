@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=02:00:00
-#SBATCH --partition=ampere
 
 python main.py --configs configs/NCI1/gcn/scaled_layers_constant_embedding.yml
 python main.py --configs configs/NCI1/gcn/scaled_embedding_constant_layers.yml

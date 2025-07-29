@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=lovable-pastry-5209
-#FLUX: --exclusive
+#FLUX --job-name=butterscotch-butter-0111
+#FLUX --exclusive
 #FLUX --urgency=16
 
 set -eux

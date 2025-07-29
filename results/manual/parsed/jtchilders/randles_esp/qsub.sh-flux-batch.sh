@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-train-9821
+#FLUX --job-name=stanky-buttface-5021
 #FLUX --urgency=16
 

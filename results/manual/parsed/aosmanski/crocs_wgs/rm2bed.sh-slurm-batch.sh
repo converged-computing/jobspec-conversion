@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100G
-#SBATCH --partition=nocona
 
 . ~/conda/etc/profile.d/conda.sh
 conda activate

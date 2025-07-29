@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=long
 #SBATCH --qos=overcap
 #SBATCH --nodelist=cs-venus-09
 

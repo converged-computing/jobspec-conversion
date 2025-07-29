@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=a100
 #SBATCH --constraint=ntasks-per-node=1
 
 module load mpich-4.0.2-gcc-4.8.5-kaz3kvk 

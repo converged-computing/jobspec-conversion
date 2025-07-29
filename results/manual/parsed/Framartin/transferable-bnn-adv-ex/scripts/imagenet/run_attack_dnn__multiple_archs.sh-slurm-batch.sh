@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=volta
 
 export CUDA_VISIBLE_DEVICES='3'

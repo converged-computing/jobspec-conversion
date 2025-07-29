@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem=1200
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 MASTER=`/bin/hostname -s`
 MASTER_IP=`/bin/hostname -i`

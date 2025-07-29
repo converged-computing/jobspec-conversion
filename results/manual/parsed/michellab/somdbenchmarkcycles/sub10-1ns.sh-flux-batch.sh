@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-platanos-3289
+#FLUX --job-name=tart-cinnamonbun-6419
 #FLUX --queue=main
 #FLUX -t=86400
 #FLUX --urgency=16

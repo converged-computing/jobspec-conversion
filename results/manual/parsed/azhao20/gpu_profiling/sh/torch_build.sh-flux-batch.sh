@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-salad-3530
+#FLUX --job-name=psycho-gato-5612
 #FLUX -c=32
 #FLUX --queue=seas_gpu
 #FLUX -t=604800

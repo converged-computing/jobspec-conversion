@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=GTX
 
 export LD_LIBRARY_PATH='/users/common/miniconda2/lib/:$LD_LIBRARY_PATH'
 

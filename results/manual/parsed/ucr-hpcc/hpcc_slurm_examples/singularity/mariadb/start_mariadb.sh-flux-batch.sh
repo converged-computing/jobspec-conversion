@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-plant-4211
+#FLUX --job-name=stanky-toaster-8106
 #FLUX -c=2
 #FLUX --queue=batch,intel
 #FLUX -t=604800

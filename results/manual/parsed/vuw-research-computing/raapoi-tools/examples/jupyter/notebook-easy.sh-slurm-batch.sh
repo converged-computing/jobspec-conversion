@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=4G
 #SBATCH --time=01:00:00
-#SBATCH --partition=parallel
 #SBATCH --constraint=AMD
 
 export XDG_RUNTIME_DIR=''

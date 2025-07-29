@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
-#SBATCH --partition=$queue
 
 shopt -s extglob
 juicer_version="1.6"

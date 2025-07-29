@@ -5,7 +5,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu
 #SBATCH --constraint=rtx2080|gtx1080ti
 
 export SINGULARITY_LOCALCACHEDIR='`pwd`/tmp'

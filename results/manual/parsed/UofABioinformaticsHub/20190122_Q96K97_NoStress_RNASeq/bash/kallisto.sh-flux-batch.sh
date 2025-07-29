@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-staircase-0876
+#FLUX --job-name=grated-parrot-9231
 #FLUX --queue=batch
 #FLUX -t=21600
 #FLUX --urgency=16

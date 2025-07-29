@@ -8,7 +8,6 @@
 #SBATCH --ntasks=44
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=cee
 #SBATCH --qos=normal
 
 module load openmpi

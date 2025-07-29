@@ -5,7 +5,6 @@
 #SBATCH --ntasks=512
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-16:00:00
-#SBATCH --partition=normal
 
 module purge
 module load intel

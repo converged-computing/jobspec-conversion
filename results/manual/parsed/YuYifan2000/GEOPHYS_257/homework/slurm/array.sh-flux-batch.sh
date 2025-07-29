@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-fork-9804
+#FLUX --job-name=joyous-snack-9426
 #FLUX --queue=preempt
 #FLUX -t=120
 #FLUX --urgency=16

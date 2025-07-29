@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=hive-gpu
 
 module load gcc/10.3.0-o57x6h
 module load intel/20.0.4

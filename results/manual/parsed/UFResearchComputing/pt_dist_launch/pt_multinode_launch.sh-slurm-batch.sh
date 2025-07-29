@@ -9,8 +9,7 @@
 #SBATCH --gpus-per-task=8
 #SBATCH --mem=96gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=hpg-ai
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 CHECKPOINT_PATH=checkpoints_2_node

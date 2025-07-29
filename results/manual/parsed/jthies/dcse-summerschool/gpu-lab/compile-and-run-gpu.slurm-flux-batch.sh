@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-pedo-9291
+#FLUX --job-name=creamy-platanos-9040
 #FLUX --gpus-per-task=1
 #FLUX --queue=gpu
 #FLUX -t=300

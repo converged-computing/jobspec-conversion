@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=96G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=intel,batch
 
 export AUGUSTUS_CONFIG_PATH='$(realpath lib/augustus/3.3/config)'
 export FUNANNOTATE_DB='/bigdata/stajichlab/shared/lib/funannotate_db'

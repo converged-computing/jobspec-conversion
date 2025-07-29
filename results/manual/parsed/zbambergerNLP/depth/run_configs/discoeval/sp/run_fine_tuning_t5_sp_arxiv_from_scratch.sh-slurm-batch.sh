@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:2
-#SBATCH --partition=nlp
 #SBATCH --nodelist=nlp-ada-1,nlp-ada-2,nlp-a40-1
 
 export DS_SKIP_CUDA_CHECK='1'

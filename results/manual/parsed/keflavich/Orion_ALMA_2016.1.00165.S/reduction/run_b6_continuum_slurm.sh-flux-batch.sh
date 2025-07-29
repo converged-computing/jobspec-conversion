@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-bike-0018
+#FLUX --job-name=gassy-fork-8064
 #FLUX -n=8
 #FLUX -t=1065600
 #FLUX --urgency=16

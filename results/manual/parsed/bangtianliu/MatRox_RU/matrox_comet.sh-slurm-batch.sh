@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=120G
 #SBATCH --time=12:00:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=24
 
 export MODULEPATH='/share/apps/compute/modulefiles:$MODULEPATH'

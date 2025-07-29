@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-puppy-8066
+#FLUX --job-name=red-lettuce-3819
 #FLUX -c=32
 #FLUX --queue=<partition
 #FLUX -t=432000

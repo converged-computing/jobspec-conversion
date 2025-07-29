@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-latke-9298
+#FLUX --job-name=fugly-fork-8324
 #FLUX -t=54000
 #FLUX --urgency=16
 

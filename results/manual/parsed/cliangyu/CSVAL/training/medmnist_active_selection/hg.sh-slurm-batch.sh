@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:10:00
-#SBATCH --partition=wildfire
 
 module load tensorflow/1.8-agave-gpu                                            
 module unload python/.2.7.14-tf18-gpu

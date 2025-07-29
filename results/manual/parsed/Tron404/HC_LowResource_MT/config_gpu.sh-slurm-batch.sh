@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 
 module purge
 module load Python/3.10.8-GCCcore-12.2.0

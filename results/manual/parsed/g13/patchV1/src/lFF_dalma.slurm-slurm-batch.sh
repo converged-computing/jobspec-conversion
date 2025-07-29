@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:${gpu}
 #SBATCH --mem=64GB
 #SBATCH --time=00:40:00
-#SBATCH --partition=nvidia
 
 cd ${HOME}/repos/patchV1/src
 fdr0=/scratch/wd554/patchV1

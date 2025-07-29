@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:2
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpup100
 #SBATCH --constraint=ntasks-per-node=2
 
 ml cuda/8.0

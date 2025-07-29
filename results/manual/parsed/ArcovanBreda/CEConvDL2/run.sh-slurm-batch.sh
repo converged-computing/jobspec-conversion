@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=18
 #SBATCH --gres=1
 #SBATCH --time=00:15:00
-#SBATCH --partition=gpu
 
 export DATA_DIR='./DATA'
 export WANDB_DIR='$HOME/CEConvDL2/CEConv/WANDB'

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=sbel
 
 module load nvidia/cuda/11.3.1
 mkdir ./DEMO_OUTPUT/FSI_M113/M113_Rock_24/script

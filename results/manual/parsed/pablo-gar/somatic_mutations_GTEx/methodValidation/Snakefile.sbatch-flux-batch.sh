@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-egg-2657
+#FLUX --job-name=faux-platanos-2616
 #FLUX --queue=hbfraser,hns,normal
 #FLUX -t=43200
 #FLUX --urgency=16

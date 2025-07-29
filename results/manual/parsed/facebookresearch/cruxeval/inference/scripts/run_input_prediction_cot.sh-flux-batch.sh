@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-carrot-5938
+#FLUX --job-name=moolicious-leader-1274
 #FLUX -c=10
 #FLUX --gpus-per-task=1
 #FLUX --queue=YOUR_PARTITION_HERE

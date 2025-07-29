@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:1
 #SBATCH --mem=25G
-#SBATCH --partition=scavenger-gpu
 
 module load CUDA/10.1
 nvcc -V

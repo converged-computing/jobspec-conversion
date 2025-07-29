@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=4
 
 source $HOME/telegraf_run_chicoma.sh

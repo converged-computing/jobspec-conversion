@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=lovable-gato-5449
-#FLUX: --exclusive
+#FLUX --job-name=muffled-plant-1773
+#FLUX --exclusive
 #FLUX --queue=k80_q
 #FLUX -t=172800
 #FLUX --urgency=16

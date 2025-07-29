@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=red-ricecake-8529
+#FLUX --job-name=confused-frito-1722
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=n1s8-v100-1
 #FLUX -t=43200
 #FLUX --urgency=16

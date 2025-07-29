@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=20g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 export TOIL_SLURM_ARGS='-t 1-0 -q normal -p gpu'
 export TOIL_SLURM_PE='${SLURM_JOB_PARTITION}'

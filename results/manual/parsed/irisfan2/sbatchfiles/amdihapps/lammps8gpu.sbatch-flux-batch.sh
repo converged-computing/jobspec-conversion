@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-parsnip-4396
+#FLUX --job-name=boopy-bike-4907
 #FLUX -c=8
 #FLUX --urgency=16
 

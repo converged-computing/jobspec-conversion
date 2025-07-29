@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=development
 
 echo "TACC: job $SLURM_JOB_ID execution at: $(date)"
 TAP_FUNCTIONS="/share/doc/slurm/tap_functions"

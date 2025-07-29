@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:quadro_rtx_6000:1
 #SBATCH --mem=3700
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 getseed=${1:-"N"} #Set to Y if you what to reuse stored seed

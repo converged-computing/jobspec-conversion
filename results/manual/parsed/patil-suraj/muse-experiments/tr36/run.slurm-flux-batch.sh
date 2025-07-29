@@ -2,7 +2,7 @@
 #FLUX --job-name=oai-clip-lbl-smooth-laiona5-resumed
 #FLUX -N=2
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=short
 
 module unload GSL
 module load GSL/2.6-GCC-8.3.0

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:1
 #SBATCH --mem=80G
-#SBATCH --partition=gpu
 
 export ITER_PER_EPOCH='100'
 export NUM_CPUS='4'

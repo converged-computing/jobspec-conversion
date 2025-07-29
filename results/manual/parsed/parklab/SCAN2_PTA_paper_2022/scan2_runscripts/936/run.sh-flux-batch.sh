@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-avocado-9881
+#FLUX --job-name=fat-omelette-7208
 #FLUX --queue=priopark
 #FLUX -t=432000
 #FLUX --urgency=16

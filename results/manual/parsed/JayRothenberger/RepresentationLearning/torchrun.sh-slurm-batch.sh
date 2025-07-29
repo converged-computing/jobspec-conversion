@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=250000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=disc
 #SBATCH --chdir=/ourdisk/hpc/ai2es/jroth/AI2ES_DL_Torch/simclr_mods
 
 export LSCRATCH='/lscratch/15937969'

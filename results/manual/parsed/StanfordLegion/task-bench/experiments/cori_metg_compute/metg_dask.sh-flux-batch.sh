@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-lemur-4723
-#FLUX: --exclusive
+#FLUX --job-name=purple-lemon-8084
+#FLUX --exclusive
 #FLUX -t=32400
 #FLUX --urgency=16
 

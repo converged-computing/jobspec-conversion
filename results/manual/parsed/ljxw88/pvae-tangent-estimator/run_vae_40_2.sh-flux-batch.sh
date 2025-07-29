@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-signal-4920
+#FLUX --job-name=carnivorous-cupcake-3358
 #FLUX -t=43200
 #FLUX --urgency=16
 

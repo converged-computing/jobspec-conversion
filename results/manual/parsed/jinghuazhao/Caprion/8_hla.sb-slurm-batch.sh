@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=250000
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=cardio
 #SBATCH --qos=cardio
 
 export analysis='~/Caprion/analysis'

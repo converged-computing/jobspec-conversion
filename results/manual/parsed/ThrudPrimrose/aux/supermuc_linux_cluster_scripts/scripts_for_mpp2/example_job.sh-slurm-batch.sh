@@ -8,10 +8,9 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=cm2_tiny
 #SBATCH --constraint=ntasks-per-node=28
 #SBATCH --chdir=./
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export UPCXX_INSTALL='/dss/dsshome1/lxc05/ge69xij2/upcxx-intel-mpp2'
 export PATH='$PATH:~/upcxx-intel-mpp2/bin'

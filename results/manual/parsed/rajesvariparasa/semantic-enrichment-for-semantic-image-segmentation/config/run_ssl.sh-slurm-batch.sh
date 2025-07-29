@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=shortrun
 #SBATCH --constraint=a6000
 
 if [[ ! -z ${SLURM_JOBID+z} ]]; then

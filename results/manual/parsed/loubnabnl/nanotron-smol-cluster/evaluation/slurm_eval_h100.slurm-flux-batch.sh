@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-house-3260
+#FLUX --job-name=delicious-peanut-3797
 #FLUX -c=48
 #FLUX --queue=hopper-prod
 #FLUX --urgency=50

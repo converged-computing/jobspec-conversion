@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=05:00:00
-#SBATCH --partition=normal
 #SBATCH --exclude=node[030-060]
 
 source $HOME/.bashrc

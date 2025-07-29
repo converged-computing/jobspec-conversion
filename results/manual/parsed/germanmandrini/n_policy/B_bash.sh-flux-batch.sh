@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-destiny-0053
+#FLUX --job-name=sticky-underoos-3381
 #FLUX -n=28
 #FLUX --queue=secondary
 #FLUX -t=300

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-lemon-1927
+#FLUX --job-name=astute-motorcycle-5805
 #FLUX --queue=maxwell
 #FLUX -t=600
 #FLUX --urgency=16

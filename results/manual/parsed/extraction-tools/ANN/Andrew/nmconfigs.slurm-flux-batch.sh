@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-car-0092
+#FLUX --job-name=buttery-parsnip-6773
 #FLUX --queue=standard
 #FLUX -t=59400
 #FLUX --urgency=16

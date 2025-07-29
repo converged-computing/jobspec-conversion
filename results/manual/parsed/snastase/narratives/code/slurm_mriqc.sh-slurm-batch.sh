@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=10000
 #SBATCH --time=03:00:00
-#SBATCH --partition=all
 #SBATCH --array=1-345
 
 echo "Purging modules"

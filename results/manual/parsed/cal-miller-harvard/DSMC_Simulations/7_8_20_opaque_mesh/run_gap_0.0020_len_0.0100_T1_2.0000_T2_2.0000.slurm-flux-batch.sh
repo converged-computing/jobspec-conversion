@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-buttface-1401
+#FLUX --job-name=arid-kerfuffle-5891
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

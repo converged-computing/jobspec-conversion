@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=n2p2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=jobs
 #FLUX -t=86400
 #FLUX --urgency=16

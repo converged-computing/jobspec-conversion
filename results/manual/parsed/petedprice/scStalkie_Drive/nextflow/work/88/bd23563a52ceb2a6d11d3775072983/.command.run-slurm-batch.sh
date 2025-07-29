@@ -7,7 +7,7 @@
 #SBATCH --mem=65536M
 #SBATCH --time=04:00:00
 #SBATCH --chdir=/users/bop20pp/personal_git/MeioticDrive2022/nextflow/work/88/bd23563a52ceb2a6d11d3775072983
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 set -e
 set -u

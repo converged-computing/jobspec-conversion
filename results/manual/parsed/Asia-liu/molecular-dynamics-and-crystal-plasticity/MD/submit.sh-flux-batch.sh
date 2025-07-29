@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-egg-8209
+#FLUX --job-name=hanky-chair-0894
 #FLUX -n=2
 #FLUX --queue=G1Part_sce
 #FLUX --urgency=16

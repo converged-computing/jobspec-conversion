@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:20:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --constraint=ntasks-per-node=4
 
 source ${HOME}/modules_files/iPic3D_mod

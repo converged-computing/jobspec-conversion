@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-gato-6485
+#FLUX --job-name=scruptious-knife-2411
 #FLUX -c=8
 #FLUX -t=170
 #FLUX --urgency=16

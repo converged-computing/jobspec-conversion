@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=my_job
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=kurs1
 #FLUX -t=180
 #FLUX --urgency=16

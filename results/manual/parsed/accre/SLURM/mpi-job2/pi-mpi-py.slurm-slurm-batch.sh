@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1G
 #SBATCH --time=00:05:00
-#SBATCH --partition=production
 #SBATCH --constraint=skylake
 
 module load GCC OpenMPI Python numpy mpi4py

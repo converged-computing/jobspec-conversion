@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=00:20:00
-#SBATCH --partition=g100_usr_interactive
 #SBATCH --constraint=ntasks-per-node=1
 
 module load profile/deeplrn autoload tensorflow/1.10.0--python--3.6.4

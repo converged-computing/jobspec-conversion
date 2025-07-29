@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1gb
 #SBATCH --time=00:05:00
-#SBATCH --partition=ssd
 #SBATCH --constraint=ntasks-per-node=4
 
 module load matlab

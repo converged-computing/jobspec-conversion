@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:2
 #SBATCH --mem=180G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gengpu
 #SBATCH --constraint=sxm,ntasks-per-node=2
 
 module purge

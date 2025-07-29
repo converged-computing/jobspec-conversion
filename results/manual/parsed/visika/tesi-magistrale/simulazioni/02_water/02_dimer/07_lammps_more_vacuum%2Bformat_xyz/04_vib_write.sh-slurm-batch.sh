@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=sequential
 
 export OMP_NUM_THREADS='2'
 export MKL_NUM_THREADS='1'

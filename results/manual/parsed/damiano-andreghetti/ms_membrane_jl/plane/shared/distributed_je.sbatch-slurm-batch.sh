@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=28
 #SBATCH --mem=1024M
 #SBATCH --time=10:00:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --constraint=ntasks-per-node=1
 
 source ~/.bashrc

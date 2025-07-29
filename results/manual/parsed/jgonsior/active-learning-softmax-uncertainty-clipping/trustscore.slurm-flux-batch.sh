@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-toaster-7097
+#FLUX --job-name=gassy-pot-9211
 #FLUX -c=8
 #FLUX --queue=alpha
 #FLUX -t=359999

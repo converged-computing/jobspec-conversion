@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-lamp-8073
+#FLUX --job-name=eccentric-poodle-6573
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

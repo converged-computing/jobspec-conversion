@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-omelette-8316
-#FLUX: --exclusive
+#FLUX --job-name=milky-pedo-9895
+#FLUX --exclusive
 #FLUX -t=300
 #FLUX --urgency=16
 

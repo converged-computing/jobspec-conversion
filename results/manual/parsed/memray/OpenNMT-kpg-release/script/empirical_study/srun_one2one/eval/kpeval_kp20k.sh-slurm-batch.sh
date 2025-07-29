@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64GB
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=high-mem
 #SBATCH --qos=long
 #SBATCH --constraint=ntasks-per-node=1
 

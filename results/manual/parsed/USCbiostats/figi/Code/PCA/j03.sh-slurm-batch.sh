@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=conti
 
 REF=/auto/pmd-02/figi/PCA
 OUT=/staging/dvc/andreeki/pca_ibd

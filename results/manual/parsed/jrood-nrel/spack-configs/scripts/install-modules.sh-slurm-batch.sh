@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=short
 
 export SPACK_ROOT='${INSTALL_DIR}/spack'
 export SPACK_DISABLE_LOCAL_CONFIG='true'

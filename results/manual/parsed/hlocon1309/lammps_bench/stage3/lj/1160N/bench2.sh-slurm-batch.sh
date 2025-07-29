@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=normal
 #SBATCH --constraint=type_a
 #SBATCH --nodelist=cn-[016]
 

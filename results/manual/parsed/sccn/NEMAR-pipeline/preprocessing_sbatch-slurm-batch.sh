@@ -8,9 +8,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=128G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=1
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 cd /home/dtyoung/NEMAR-pipeline
 module load matlab

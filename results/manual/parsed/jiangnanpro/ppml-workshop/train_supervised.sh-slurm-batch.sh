@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
-#SBATCH --partition=all
 #SBATCH --qos=default
 #SBATCH --array=0-5
 #SBATCH --exclude=n[1-5]

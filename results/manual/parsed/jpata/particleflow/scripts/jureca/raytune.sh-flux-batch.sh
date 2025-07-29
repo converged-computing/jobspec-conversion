@@ -2,7 +2,7 @@
 #FLUX --job-name=raytune
 #FLUX -N=24
 #FLUX -c=256
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=dc-gpu
 #FLUX -t=86400
 #FLUX --urgency=16

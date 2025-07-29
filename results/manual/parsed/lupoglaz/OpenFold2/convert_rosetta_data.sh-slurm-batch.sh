@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16000
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=cpu
 
 module load gpu/cuda-11.3
 conda activate torch

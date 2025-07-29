@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-frito-9777
+#FLUX --job-name=arid-destiny-3914
 #FLUX -c=8
 #FLUX --queue=huce_intel
 #FLUX -t=1440

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-nalgas-4045
+#FLUX --job-name=conspicuous-avocado-8643
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

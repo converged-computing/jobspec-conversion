@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=16-16:00:00
-#SBATCH --partition=girirajan
 #SBATCH --chdir=/data6/deepro/rna_cache
 #SBATCH --nodelist=sarah
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-itch-1693
+#FLUX --job-name=fuzzy-ricecake-1248
 #FLUX -N=2
 #FLUX -c=120
 #FLUX --queue=gpu

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-lizard-8800
+#FLUX --job-name=misunderstood-leg-6036
 #FLUX -c=4
 #FLUX --queue=amdgpufast
 #FLUX -t=14400

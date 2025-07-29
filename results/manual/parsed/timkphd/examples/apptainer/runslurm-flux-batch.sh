@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=hybrid
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard
 #FLUX -t=7200
 #FLUX --urgency=16

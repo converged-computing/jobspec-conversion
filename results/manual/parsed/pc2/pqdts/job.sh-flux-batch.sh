@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=sticky-onion-3109
+#FLUX --job-name=hairy-hobbit-2530
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

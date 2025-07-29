@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-ricecake-5782
+#FLUX --job-name=butterscotch-onion-3108
 #FLUX --gpus-per-task=1
 #FLUX --queue=batch
 #FLUX -t=7200

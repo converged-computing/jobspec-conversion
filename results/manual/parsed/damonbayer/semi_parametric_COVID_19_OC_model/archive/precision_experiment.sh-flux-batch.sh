@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-mango-5620
+#FLUX --job-name=evasive-lentil-9503
 #FLUX --queue=standard
 #FLUX -t=14400
 #FLUX --urgency=16

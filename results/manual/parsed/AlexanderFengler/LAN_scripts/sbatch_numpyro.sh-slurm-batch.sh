@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=0-9
 
 source /users/afengler/.bashrc

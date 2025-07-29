@@ -6,8 +6,7 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=engineering_q
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=YEAR2022,amd
 
 pwd;hostname;date

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-punk-2169
+#FLUX --job-name=goodbye-cattywampus-1369
 #FLUX -n=2
 #FLUX --queue=shared
 #FLUX -t=480

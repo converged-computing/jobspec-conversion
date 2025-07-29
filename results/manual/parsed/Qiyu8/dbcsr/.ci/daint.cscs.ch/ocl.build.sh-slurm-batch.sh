@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
-#SBATCH --partition=cscsci
 #SBATCH --constraint=mc,ntasks-per-node=1
 
 export NVSDKCOMPUTE_ROOT='${CUDATOOLKIT_HOME}'

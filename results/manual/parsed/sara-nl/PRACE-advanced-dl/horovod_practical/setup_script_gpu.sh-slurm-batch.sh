@@ -2,7 +2,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=8
-#SBATCH --partition=gpu
 
 echo "[...] Environment setup Cartesius"
 virtualenv_folder="hdisgpu"

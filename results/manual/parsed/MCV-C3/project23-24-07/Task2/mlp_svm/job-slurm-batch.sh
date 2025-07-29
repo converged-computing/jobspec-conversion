@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=2000
-#SBATCH --partition=mlow,mlow
 
 SAVE_DIR=$1
 sleep 1

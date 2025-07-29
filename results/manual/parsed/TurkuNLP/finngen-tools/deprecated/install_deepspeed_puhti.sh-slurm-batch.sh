@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1,nvme:100
 #SBATCH --mem=8G
 #SBATCH --time=00:15:00
-#SBATCH --partition=gputest
 
 export DS_BUILD_CPU_ADAM='1'
 export DS_BUILD_FUSED_ADAM='1'

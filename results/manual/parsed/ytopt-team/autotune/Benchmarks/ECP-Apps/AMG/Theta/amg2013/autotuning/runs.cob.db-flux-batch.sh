@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-platanos-1239
+#FLUX --job-name=confused-punk-0774
 #FLUX --urgency=16
 

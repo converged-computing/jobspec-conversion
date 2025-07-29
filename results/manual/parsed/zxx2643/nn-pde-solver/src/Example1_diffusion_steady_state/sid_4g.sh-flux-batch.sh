@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-punk-6614
+#FLUX --job-name=placid-lamp-9277
 #FLUX --queue=gpu
 #FLUX -t=1800
 #FLUX --urgency=16

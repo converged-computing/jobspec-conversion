@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-cat-0758
+#FLUX --job-name=chocolate-caramel-6804
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

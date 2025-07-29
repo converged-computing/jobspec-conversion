@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=buran
 #SBATCH --nodelist=buran[08-15]
 
 module load gcc/11.2.0

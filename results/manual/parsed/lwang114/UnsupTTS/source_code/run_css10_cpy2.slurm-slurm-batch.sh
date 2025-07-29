@@ -11,7 +11,7 @@
 #SBATCH --mem=0
 #SBATCH --time=1-00:00:00
 #SBATCH --qos=sched_level_2
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=4
 
 function error

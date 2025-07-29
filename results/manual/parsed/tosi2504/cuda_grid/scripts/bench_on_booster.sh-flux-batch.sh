@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-hippo-3940
+#FLUX --job-name=dinosaur-peanut-8089
 #FLUX --queue=develbooster
 #FLUX -t=7200
 #FLUX --urgency=16

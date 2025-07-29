@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-underoos-9301
+#FLUX --job-name=crusty-lettuce-5930
 #FLUX -c=32
 #FLUX --queue=csmpi_fpga_long
 #FLUX -t=14400

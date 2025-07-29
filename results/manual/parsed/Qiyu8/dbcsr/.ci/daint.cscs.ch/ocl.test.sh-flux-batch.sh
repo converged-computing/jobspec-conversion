@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-pedo-2793
+#FLUX --job-name=hanky-toaster-9244
 #FLUX --queue=cscsci
 #FLUX --urgency=16
 

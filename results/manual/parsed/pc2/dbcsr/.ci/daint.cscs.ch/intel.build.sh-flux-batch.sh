@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-train-7126
+#FLUX --job-name=loopy-itch-9521
 #FLUX -c=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cscsci
 #FLUX --urgency=16
 

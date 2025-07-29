@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=256
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=10000
-#SBATCH --partition=ai-jumpstart
 
 source ~/modules/pytorch/latest
 python model_inference.py --config-file configs/3D/inference/resmcnet/absorb-64x64x64.yaml

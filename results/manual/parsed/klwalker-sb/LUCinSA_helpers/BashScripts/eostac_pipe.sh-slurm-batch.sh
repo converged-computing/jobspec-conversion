@@ -6,7 +6,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:08:00
-#SBATCH --partition=basic
 #SBATCH --array=283
 
 export OPENBLAS_NUM_THREADS='1'

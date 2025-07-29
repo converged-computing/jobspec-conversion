@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-peanut-butter-1508
+#FLUX --job-name=stanky-plant-6505
 #FLUX -N=4
 #FLUX -n=96
 #FLUX -t=1800

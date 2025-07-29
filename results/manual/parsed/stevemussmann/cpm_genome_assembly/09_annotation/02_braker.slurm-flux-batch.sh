@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=pluc_braker
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=condo
 #FLUX -t=864000
 #FLUX --urgency=16

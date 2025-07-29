@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=70
 #SBATCH --mem=670G
-#SBATCH --partition=infinity
 
 module load singularity/3.5.3
 SING_IMG='/lerins/hub/projects/25_Metag_PublicData/tools_metagData/Singularity/MetagAssembler.sif'

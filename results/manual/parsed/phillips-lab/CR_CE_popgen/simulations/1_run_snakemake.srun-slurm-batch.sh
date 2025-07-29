@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=16-16:00:00
-#SBATCH --partition=phillips
 #SBATCH --array=0
 
 dir="/projects/phillipslab/ateterina/slim/worms_snakemake"

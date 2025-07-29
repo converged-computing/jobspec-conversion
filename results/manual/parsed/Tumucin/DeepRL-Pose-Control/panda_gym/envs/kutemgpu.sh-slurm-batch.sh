@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:tesla_a100:1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=kutem_gpu
 #SBATCH --qos=kutem
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=rk02

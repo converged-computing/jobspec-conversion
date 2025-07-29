@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-snack-8925
+#FLUX --job-name=tart-despacito-3128
 #FLUX -c=8
 #FLUX --queue=gpgpu
 #FLUX -t=172800

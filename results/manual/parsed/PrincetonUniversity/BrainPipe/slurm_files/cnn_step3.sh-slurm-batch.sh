@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=100000
 #SBATCH --time=01:40:00
-#SBATCH --partition=all
 
 echo "In the directory: `pwd` "
 echo "As the user: `whoami` "

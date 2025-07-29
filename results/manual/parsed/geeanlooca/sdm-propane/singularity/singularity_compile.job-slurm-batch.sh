@@ -6,6 +6,5 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
-#SBATCH --partition=allgroups
 
 srun singularity build --remote singularity_image.sif singularity/singularity_image.def

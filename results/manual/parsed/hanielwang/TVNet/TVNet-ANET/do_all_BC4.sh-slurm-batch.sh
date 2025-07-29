@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=64G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --chdir=./
 
 module load languages/anaconda2/5.0.1.tensorflow-1.6.0

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-onion-6885
+#FLUX --job-name=expressive-sundae-3932
 #FLUX -t=600
 #FLUX --urgency=16
 

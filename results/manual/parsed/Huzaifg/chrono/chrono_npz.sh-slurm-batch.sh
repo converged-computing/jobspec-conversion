@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu-a100-small
 
 export LD_LIBRARY_PATH='/usr/lib64:$LD_LIBRARY_PATH'
 

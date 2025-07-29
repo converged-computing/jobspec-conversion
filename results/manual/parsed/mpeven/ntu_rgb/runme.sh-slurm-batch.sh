@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=25G
 #SBATCH --time=10:00:00
-#SBATCH --partition=shared
 #SBATCH --array=1-56800:100
 
 source activate activity_recognition

@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=64000
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1-2
 
 module load TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4

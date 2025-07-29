@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-hobbit-2442
+#FLUX --job-name=doopy-chair-1451
 #FLUX --urgency=16
 
 outputdir=/gpfs/loomis/project/fas/ohern/jdt45/dpm

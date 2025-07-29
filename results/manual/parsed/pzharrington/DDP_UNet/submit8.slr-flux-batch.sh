@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=multi8
 #FLUX -c=80
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=28800
 #FLUX --urgency=16
 

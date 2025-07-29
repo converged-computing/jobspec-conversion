@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=0-11
 
 module purge

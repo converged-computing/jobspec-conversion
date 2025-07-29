@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-puppy-6853
+#FLUX --job-name=misunderstood-sundae-2527
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/asascience/2022-NOS-Code-Delivery-to-NCO/pbs/jnos_tbofs_prep_00.pbs

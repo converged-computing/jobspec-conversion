@@ -10,7 +10,6 @@
 #SBATCH --gres=a100:1
 #SBATCH --mem=40G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 
 module load cuda/11.6.2/
 source ~/scratch.cmsc663/miniconda3/bin/activate

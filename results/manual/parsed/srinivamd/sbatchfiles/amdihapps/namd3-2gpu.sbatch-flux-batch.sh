@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-buttface-9986
+#FLUX --job-name=blue-fork-3291
 #FLUX -c=16
 #FLUX --urgency=16
 

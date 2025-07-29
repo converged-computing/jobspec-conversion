@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=stanky-malarkey-5610
-#FLUX: --exclusive
+#FLUX --job-name=confused-lemon-3020
+#FLUX --exclusive
 #FLUX --queue=normal_q
 #FLUX -t=18000
 #FLUX --urgency=16

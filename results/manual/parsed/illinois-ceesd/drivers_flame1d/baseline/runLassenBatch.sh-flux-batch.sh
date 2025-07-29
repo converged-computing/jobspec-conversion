@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-punk-1072
+#FLUX --job-name=hello-pancake-5745
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/illinois-ceesd/drivers_flame1d/baseline/runLassenBatch.sh

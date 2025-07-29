@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-lamp-7507
+#FLUX --job-name=doopy-pedo-4155
 #FLUX -N=10
 #FLUX --queue=compute
 #FLUX --urgency=16

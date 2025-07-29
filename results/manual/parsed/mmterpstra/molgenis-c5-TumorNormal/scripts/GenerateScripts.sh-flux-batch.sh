@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-snack-0891
+#FLUX --job-name=misunderstood-peanut-butter-4602
 #FLUX --urgency=16
 
 set -ex

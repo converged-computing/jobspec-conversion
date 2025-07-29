@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --mem=70G
-#SBATCH --partition=gpu
 
 module unload cuda
 echo "==== Start of GPU information ===="

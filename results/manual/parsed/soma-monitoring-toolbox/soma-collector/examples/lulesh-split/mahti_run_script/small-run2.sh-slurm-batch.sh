@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=medium
 
 export SOMA_SERVER_ADDR_FILE='`pwd`/server.add'
 export SOMA_NODE_ADDR_FILE='`pwd`/node.add'

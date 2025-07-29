@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-chip-9160
+#FLUX --job-name=misunderstood-cattywampus-0128
 #FLUX -N=4
 #FLUX --queue=devel
 #FLUX -t=900

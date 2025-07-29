@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=olveczky
 
 set -e
 source ~/.bashrc

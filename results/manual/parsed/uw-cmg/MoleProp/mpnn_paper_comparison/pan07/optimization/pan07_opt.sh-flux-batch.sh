@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-avocado-2599
+#FLUX --job-name=fuzzy-truffle-6249
 #FLUX --queue=sbel_cmg
 #FLUX -t=864090
 #FLUX --urgency=16

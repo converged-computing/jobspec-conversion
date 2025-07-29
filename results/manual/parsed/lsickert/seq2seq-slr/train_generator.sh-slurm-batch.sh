@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=64GB
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 
 export HF_DATASETS_CACHE='/scratch/$USER/.cache/huggingface/datasets'
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-cupcake-0031
+#FLUX --job-name=joyous-parsnip-6933
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-CO-OPS/2023-NOS-Code-Package-v3.5.7/pbs/jnos_leofs_prep_06.pbs

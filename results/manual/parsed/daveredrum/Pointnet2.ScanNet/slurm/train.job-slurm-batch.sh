@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=rtx_3090:1
 #SBATCH --mem=100gb
-#SBATCH --partition=normal
 
 date;hostname;pwd
 python scripts/train.py --use_multiview --use_normal --tag ssg

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-truffle-4061
+#FLUX --job-name=outstanding-latke-7252
 #FLUX -n=8
 #FLUX -c=16
 #FLUX --queue=nvgpu

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=128G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 export WANDB_ENTITY='joeyohman'
 export WANDB_PROJECT='megatron_bert'

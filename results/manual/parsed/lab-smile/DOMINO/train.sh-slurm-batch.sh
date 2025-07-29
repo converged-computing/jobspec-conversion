@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=90gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=hpg-ai
 
 module load singularity
 singularity exec --nv <Enter path to MONAI container>/monaicore081 python3 -c "import torch; print(torch.cuda.is_available())"

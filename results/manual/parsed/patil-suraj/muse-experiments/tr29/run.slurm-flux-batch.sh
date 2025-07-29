@@ -2,7 +2,7 @@
 #FLUX --job-name=laiona5-f8-filtered
 #FLUX -N=4
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

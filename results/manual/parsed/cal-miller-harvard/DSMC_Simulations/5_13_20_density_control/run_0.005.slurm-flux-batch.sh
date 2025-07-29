@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-pot-3604
+#FLUX --job-name=bloated-snack-2949
 #FLUX -n=8
 #FLUX --queue=shared
 #FLUX -t=480

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:rtx8000:1
 #SBATCH --mem=16G
 #SBATCH --time=00:00:10
-#SBATCH --partition=gpu_quad
 
 module load conda2
 source "$HOME/.bashrc"

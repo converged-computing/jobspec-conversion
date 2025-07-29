@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=stinky-rabbit-5844
+#FLUX --job-name=frigid-leader-0241
 #FLUX -N=2
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=thin
 #FLUX -t=3600
 #FLUX --urgency=16

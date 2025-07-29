@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=23:59:59
-#SBATCH --partition=alldlc_gpu-rtx2080
 #SBATCH --array=0-199%10
 
 source activate metassl

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=300gb
 #SBATCH --time=01:30:00
-#SBATCH --partition=g100_meteo_prod
 #SBATCH --qos=qos_meteo
 #SBATCH --constraint=ntasks-per-node=24
 

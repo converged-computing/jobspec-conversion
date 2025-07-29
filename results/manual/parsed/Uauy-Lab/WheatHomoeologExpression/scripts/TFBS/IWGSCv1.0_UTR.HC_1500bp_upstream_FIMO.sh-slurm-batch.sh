@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=100000
-#SBATCH --partition=RG-Cristobal-Uauy
 
 cd /nbi/Research-Groups/NBI/Cristobal-Uauy/Jemima/companion_paper/
 source meme-4.11.4

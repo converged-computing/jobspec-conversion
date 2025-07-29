@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-kerfuffle-0989
+#FLUX --job-name=loopy-buttface-0103
 #FLUX -n=96
 #FLUX --urgency=16
 

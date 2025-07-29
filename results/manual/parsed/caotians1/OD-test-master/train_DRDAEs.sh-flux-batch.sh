@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-itch-9952
+#FLUX --job-name=faux-onion-9407
 #FLUX -c=8
 #FLUX -t=172800
 #FLUX --urgency=16

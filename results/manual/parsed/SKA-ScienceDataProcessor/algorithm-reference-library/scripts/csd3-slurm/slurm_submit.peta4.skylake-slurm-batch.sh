@@ -7,7 +7,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:22:00
-#SBATCH --partition=skylake
 
 export ARLROOT='/home/mf582/scratch/ARL/algorithm-reference-library'
 export OMP_NUM_THREADS='1'

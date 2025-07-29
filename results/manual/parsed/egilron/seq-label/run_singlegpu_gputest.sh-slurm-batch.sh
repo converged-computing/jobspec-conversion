@@ -7,6 +7,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=small-g
 
 srun singularity exec lumi_pytorch_rocm_demo.sif python3 pytorch_singlegpu_gputest.py

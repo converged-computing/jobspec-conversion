@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-cupcake-2877
+#FLUX --job-name=loopy-arm-6961
 #FLUX -t=60
 #FLUX --urgency=16
 

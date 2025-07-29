@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=gpu:hgx:1
 #SBATCH --mem=16G
-#SBATCH --partition=pol-preempted
 #SBATCH --constraint=ntasks-per-node=1
 
 ROOT_PATH=cognitive_comp

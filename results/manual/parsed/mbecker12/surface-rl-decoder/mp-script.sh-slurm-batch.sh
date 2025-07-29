@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:10:00
-#SBATCH --partition=alvis
 
 IMAGE_WORKDIR=/surface-rl-decoder
 CLUSTER_WORKDIR=surface-rl-decoder

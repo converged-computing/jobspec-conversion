@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-knife-0434
+#FLUX --job-name=phat-bike-5564
 #FLUX --queue=hci-rw
 #FLUX -t=172800
 #FLUX --urgency=16

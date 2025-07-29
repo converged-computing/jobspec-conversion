@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-general-0121
+#FLUX --job-name=creamy-blackbean-1628
 #FLUX -t=28800
 #FLUX --urgency=16
 

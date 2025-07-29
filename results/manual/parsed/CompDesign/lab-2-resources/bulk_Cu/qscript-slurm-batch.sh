@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=normal12
 
 export OMP_NUM_THREADS='1'
 

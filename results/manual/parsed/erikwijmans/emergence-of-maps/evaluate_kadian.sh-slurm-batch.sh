@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:8
 #SBATCH --mem=400GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=learnfair
 #SBATCH --constraint=ntasks-per-node=8
 
 export PYTHONPATH='$(pwd):$(pwd)/habitat-api-navigation-analysis:${PYTHONPATH}'

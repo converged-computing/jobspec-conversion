@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=test_wp_input_file
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=45000
 #FLUX --urgency=16
 

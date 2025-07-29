@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
-#SBATCH --partition=high
 #SBATCH --chdir=/homedtic/gmarti/CODE/RNN-VAE
 
 source /etc/profile.d/lmod.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-cherry-6344
+#FLUX --job-name=pusheena-noodle-1864
 #FLUX --urgency=16
 
 echo -e "\033[1;34m    ___   __   _   _   _____   _    _   _____        _____   ____   ____ "

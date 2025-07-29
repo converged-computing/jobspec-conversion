@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-chair-0844
+#FLUX --job-name=goodbye-house-8955
 #FLUX -n=16
 #FLUX --queue=batch
 #FLUX -t=86400

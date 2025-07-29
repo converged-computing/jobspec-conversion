@@ -2,7 +2,7 @@
 #FLUX --job-name=cosmoflow-cgpu
 #FLUX -c=10
 #FLUX --gpus-per-task=1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=3600
 #FLUX --urgency=16
 

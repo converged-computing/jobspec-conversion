@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-muffin-5491
+#FLUX --job-name=loopy-nunchucks-1877
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Maderator/School/deep_learning/labs/09/meta_script.sh

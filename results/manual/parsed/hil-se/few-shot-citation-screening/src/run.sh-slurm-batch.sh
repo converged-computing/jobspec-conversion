@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=4-06:05:03
-#SBATCH --partition=tier3
 
 mkdir -p log
 spack load py-urllib3

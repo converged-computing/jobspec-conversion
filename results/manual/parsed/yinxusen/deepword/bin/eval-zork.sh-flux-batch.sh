@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-staircase-6875
+#FLUX --job-name=stanky-mango-0580
 #FLUX --queue=isi
 #FLUX -t=36000
 #FLUX --urgency=16

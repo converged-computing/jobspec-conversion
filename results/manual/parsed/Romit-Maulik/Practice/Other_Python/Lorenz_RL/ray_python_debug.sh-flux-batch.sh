@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=faux-destiny-5845
+#FLUX --job-name=lovable-omelette-6439
 #FLUX --urgency=16
 

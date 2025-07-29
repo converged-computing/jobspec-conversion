@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-pancake-0408
+#FLUX --job-name=peachy-bits-4300
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BranTran/accel-sim-framework/util/tracer_nvbit/tracer_power_ubench_bad_mix.lsf

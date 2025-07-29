@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-nalgas-6725
+#FLUX --job-name=gloopy-peanut-5433
 #FLUX -c=36
 #FLUX --queue=largemem
 #FLUX -t=259200

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1024
 #SBATCH --time=00:30:00
-#SBATCH --partition=normal
 #SBATCH --chdir=/home/cs504305/deep_learning_practice/homework/hw1
 #SBATCH --array=0-160
 

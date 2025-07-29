@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=quokka_benchmark
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=600
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-pastry-1323
+#FLUX --job-name=expensive-pot-7445
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/KieranODrake/Early_Warning_Signal/7b/roc_multi_stat.pbs

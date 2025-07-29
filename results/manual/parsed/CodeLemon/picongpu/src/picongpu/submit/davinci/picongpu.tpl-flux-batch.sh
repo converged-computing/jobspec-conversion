@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-leader-2175
+#FLUX --job-name=eccentric-eagle-2830
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CodeLemon/picongpu/src/picongpu/submit/davinci/picongpu.tpl

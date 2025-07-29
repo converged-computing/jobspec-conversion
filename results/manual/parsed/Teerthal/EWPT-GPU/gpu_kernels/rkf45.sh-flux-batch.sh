@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-house-6911
+#FLUX --job-name=goodbye-leg-8326
 #FLUX --queue=public
 #FLUX -t=1200
 #FLUX --urgency=16

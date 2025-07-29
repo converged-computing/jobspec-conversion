@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-snack-6327
+#FLUX --job-name=misunderstood-blackbean-4437
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Animadversio/ActMax-Optimizer-Dev/scripts/cma_noise_control.sh

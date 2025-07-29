@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-latke-9579
+#FLUX --job-name=blank-animal-3485
 #FLUX -c=4
 #FLUX -t=10800
 #FLUX --urgency=16

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-animal-2745
+#FLUX --job-name=purple-leader-0804
 #FLUX -c=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43140
 #FLUX --urgency=16
 

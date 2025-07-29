@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-lamp-7841
+#FLUX --job-name=wobbly-despacito-6757
 #FLUX -c=16
 #FLUX --urgency=16
 

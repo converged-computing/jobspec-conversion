@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-itch-4562
+#FLUX --job-name=moolicious-leg-9014
 #FLUX --queue=hci-rw
 #FLUX -t=172800
 #FLUX --urgency=16

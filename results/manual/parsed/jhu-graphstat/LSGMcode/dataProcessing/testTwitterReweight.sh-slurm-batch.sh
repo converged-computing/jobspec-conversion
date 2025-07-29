@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3000
 #SBATCH --time=10:00:00
-#SBATCH --partition=serial_requeue
 #SBATCH --array=1-40
 
 module load math/matlab-R2014b

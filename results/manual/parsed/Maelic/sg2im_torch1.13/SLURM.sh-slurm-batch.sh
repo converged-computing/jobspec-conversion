@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 export RES_DIR='sg2im_torch1.13/checkpoints/'
 export OUT_DIR='/scratch/user/neau0001/sg2im_torch1.13/'

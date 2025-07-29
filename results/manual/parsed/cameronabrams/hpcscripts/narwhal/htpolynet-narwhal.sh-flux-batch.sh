@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-knife-8914
+#FLUX --job-name=hairy-motorcycle-4267
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cameronabrams/hpcscripts/narwhal/htpolynet-narwhal.sh

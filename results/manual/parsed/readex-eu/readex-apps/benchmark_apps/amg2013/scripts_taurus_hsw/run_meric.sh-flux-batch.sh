@@ -2,7 +2,7 @@
 #FLUX --job-name=amg2013_meric
 #FLUX -N=4
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=haswell
 #FLUX -t=86400
 #FLUX --urgency=16

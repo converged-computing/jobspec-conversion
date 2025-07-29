@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=40GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=batch
 #SBATCH --array=1-20
 
 ml CMake/3.15.3-GCCcore-8.3.0

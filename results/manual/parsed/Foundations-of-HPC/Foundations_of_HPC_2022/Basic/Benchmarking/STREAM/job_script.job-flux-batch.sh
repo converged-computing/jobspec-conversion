@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=smart_test
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=THIN
 #FLUX -t=600
 #FLUX --urgency=16

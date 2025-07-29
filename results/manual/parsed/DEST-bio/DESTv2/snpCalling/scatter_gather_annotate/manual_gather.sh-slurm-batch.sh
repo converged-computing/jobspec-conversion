@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=14:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=8
 
 module purge

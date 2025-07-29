@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=3-23:59:59
-#SBATCH --partition=mldlc_gpu-rtx2080
 
 pip list
 source activate dino

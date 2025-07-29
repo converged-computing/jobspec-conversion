@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-leader-9030
+#FLUX --job-name=wobbly-muffin-6009
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/NN/Shellscripts/09-01-ny/NN_script_03-01_1.sh

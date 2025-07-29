@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-dog-1427
+#FLUX --job-name=expressive-cattywampus-6425
 #FLUX -c=8
 #FLUX --queue=cocoflops
 #FLUX -t=604800

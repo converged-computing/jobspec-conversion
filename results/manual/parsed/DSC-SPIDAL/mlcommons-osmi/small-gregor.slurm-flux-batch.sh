@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-frito-7213
+#FLUX --job-name=blue-fork-1167
 #FLUX --queue=bii-gpu
 #FLUX -t=129600
 #FLUX --urgency=16

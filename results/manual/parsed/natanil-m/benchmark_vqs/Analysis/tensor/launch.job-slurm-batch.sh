@@ -7,7 +7,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=250g
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpuA100x8
 #SBATCH --constraint=ntasks-per-node=1
 
 module reset # drop modules and explicitly load the ones needed

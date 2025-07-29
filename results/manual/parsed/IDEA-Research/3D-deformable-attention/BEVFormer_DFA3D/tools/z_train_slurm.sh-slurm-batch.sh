@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --gres=gpu:hgx:8
 #SBATCH --mem=800G
-#SBATCH --partition=cvr
 #SBATCH --qos=preemptive
 #SBATCH --constraint=ntasks-per-node=4
 #SBATCH --exclude=True

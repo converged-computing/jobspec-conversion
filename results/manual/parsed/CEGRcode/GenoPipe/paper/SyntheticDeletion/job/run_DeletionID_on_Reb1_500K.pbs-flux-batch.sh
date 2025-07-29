@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-fudge-2944
+#FLUX --job-name=strawberry-itch-8398
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CEGRcode/GenoPipe/paper/SyntheticDeletion/job/run_DeletionID_on_Reb1_500K.pbs

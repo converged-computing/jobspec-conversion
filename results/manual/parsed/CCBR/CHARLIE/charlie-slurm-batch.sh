@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=40g
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=ccr,norm
 
 set -eo pipefail
 module purge

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=200gb
 #SBATCH --time=12-08:00:00
-#SBATCH --partition=bigmem
 #SBATCH --qos=adamginsburg
 
 export CASA='/blue/adamginsburg/adamginsburg/casa/casa-release-5.7.0-134.el7/bin/casa'

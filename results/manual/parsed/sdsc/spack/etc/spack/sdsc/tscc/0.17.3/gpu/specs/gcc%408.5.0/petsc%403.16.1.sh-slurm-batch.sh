@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=hotel-gpu
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=gpu1
 

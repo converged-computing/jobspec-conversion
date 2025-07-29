@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=condo
 #SBATCH --constraint=ntasks-per-node=2
 
 module load singularity

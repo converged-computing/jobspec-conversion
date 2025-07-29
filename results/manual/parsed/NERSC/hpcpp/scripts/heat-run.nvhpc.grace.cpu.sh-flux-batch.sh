@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=HEAT-CPU
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cg4-cpu4x120gb-gpu4x80gb
 #FLUX --urgency=16
 

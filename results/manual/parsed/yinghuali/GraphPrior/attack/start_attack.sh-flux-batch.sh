@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-kitty-6272
+#FLUX --job-name=blue-malarkey-3563
 #FLUX -n=2
 #FLUX --queue=gpu
 #FLUX -t=169200

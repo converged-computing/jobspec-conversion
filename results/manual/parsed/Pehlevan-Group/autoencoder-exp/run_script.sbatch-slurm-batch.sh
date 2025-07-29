@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60000
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=pehlevan_gpu
 
 source activate pytorch
 python3 auto_encoder_gd.py --input_dim $inputDim --nb_fixed_point $nbFixedPoint --nb_layer $nbLayer --hidden_dim $hiddenDim --dir $Dir --act $Act

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=0
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=all
 #SBATCH --qos=wimi-compute
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --nodelist=spgpu2

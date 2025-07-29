@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=debug1
 #SBATCH --constraint=ntasks-per-node=5
 
 export UCX_POSIX_USE_PROC_LINK='n  # enables RMA in UCX'

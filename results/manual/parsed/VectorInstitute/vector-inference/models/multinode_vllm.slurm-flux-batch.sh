@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=ornery-lentil-9708
+#FLUX --job-name=conspicuous-destiny-6456
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=14400
 #FLUX --urgency=16
 

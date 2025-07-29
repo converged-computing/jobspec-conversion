@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32GB
 #SBATCH --time=02:00:00
-#SBATCH --partition=batch
 
 CORES=12
 module load FastQC/0.11.7

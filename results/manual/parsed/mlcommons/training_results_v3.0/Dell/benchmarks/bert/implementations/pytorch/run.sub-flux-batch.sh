@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-signal-0735
-#FLUX: --exclusive
+#FLUX --job-name=pusheena-ricecake-6988
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export MLPERF_SLURM_FIRSTNODE='$(scontrol show hostnames "${SLURM_JOB_NODELIST-}" | head -n1)'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-lentil-9344
+#FLUX --job-name=gloopy-avocado-6776
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/curtisma/MATLAB/Exchange/bsub_cluster_matlab/bsub_cluster_matlab/testmat.lsf

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-lamp-3092
+#FLUX --job-name=grated-avocado-8788
 #FLUX -N=4
 #FLUX -n=64
 #FLUX -t=1800

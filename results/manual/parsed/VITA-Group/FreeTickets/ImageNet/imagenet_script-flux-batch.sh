@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-lamp-3634
+#FLUX --job-name=loopy-buttface-8584
 #FLUX --queue=mcs.gpu.q
 #FLUX -t=864000
 #FLUX --urgency=16

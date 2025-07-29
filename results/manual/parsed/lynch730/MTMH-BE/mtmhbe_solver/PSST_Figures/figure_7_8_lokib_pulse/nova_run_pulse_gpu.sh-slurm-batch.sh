@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=32G
 #SBATCH --time=00:45:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=8
 
 module load matlab/R2022a

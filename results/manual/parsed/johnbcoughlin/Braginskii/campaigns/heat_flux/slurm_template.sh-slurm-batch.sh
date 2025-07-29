@@ -9,7 +9,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=ckpt
 #SBATCH --chdir=@@WORKDIR@@
 #SBATCH --array=1-@@NTASKS@@
 

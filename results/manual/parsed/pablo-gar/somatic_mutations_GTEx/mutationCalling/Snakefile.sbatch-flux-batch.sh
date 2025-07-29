@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-gato-5588
+#FLUX --job-name=loopy-sundae-5546
 #FLUX --queue=hbfraser,hns,normal
 #FLUX -t=259200
 #FLUX --urgency=16

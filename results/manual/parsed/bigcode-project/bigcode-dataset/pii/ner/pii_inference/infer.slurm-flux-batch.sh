@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=sticky-pastry-3051
+#FLUX --job-name=ornery-caramel-5187
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

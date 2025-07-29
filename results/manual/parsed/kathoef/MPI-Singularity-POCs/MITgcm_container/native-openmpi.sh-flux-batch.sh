@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-soup-5825
+#FLUX --job-name=buttery-earthworm-3305
 #FLUX -N=2
 #FLUX --queue=cluster
 #FLUX -t=900

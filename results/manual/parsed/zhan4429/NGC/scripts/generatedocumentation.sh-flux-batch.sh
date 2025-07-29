@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-hope-8829
+#FLUX --job-name=dirty-butter-5627
 #FLUX --urgency=16
 
 readarray -t listofmissingfiles < listofmissingfiles.txt

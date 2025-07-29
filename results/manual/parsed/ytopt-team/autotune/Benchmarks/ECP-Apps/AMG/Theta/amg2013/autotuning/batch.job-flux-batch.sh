@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-itch-4610
+#FLUX --job-name=joyous-lamp-4220
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-punk-1776
+#FLUX --job-name=bloated-malarkey-7118
 #FLUX -n=4
 #FLUX --queue=dgx2q
 #FLUX -t=87840

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-hobbit-1646
+#FLUX --job-name=evasive-soup-4543
 #FLUX -c=8
 #FLUX --urgency=16
 

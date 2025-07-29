@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=400M
 #SBATCH --time=12:00:00
-#SBATCH --partition=short
 
 snakemake -p \
     -R `cat <(snakemake --lc --rerun-incomplete) \

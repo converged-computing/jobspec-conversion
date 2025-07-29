@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=shared
 
 set -o errexit
 source activate gatk

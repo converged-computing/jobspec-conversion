@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --gres=gpu:1
 #SBATCH --time=02:00:00
-#SBATCH --partition=develgpus
 
 WORK_DIR=$(pwd)
 BASE_DIR=$(dirname "${WORK_DIR}")

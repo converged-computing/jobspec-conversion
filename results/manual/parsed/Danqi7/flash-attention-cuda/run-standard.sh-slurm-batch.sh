@@ -6,7 +6,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=45G
 #SBATCH --time=00:20:00
-#SBATCH --partition=gpu
 
 echo "***Purging module files"
 echo ""

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=24G
 #SBATCH --time=06:00:00
-#SBATCH --partition=cpuq
 #SBATCH --constraint=ntasks-per-node=2
 
 module load nlopt/2.7.0-intel-oneapi-mkl-2021.4.0 

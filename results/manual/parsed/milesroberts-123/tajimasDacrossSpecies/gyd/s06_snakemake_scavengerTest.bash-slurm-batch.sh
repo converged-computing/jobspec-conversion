@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=josephsnodes
 #SBATCH --constraint=ntasks-per-node=1
 
 echo "This job is running on $HOSTNAME on `date`"

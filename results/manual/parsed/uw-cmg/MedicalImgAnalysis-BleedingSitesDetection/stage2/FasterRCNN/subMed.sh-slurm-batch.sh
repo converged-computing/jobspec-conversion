@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:p100:1
 #SBATCH --time=14-00:03:00
-#SBATCH --partition=slurm_priority
 #SBATCH --qos=priority
 
 module load usermods

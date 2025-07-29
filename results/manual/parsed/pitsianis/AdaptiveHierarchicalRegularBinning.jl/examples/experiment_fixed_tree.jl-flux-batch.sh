@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-earthworm-0443
+#FLUX --job-name=placid-bike-3688
 #FLUX --queue=compsci
 #FLUX --urgency=16
 

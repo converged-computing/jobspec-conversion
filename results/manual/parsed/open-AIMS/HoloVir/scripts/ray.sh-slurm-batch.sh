@@ -6,7 +6,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=80000
-#SBATCH --partition=mcore
 
 module load ray
 PREFIX=$1

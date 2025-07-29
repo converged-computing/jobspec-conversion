@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 module load hecbiosim
 module add gromacs/2020.4-plumed-2.6.2

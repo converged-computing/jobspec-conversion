@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-punk-7056
+#FLUX --job-name=faux-avocado-0610
 #FLUX -n=15
 #FLUX -t=259200
 #FLUX --urgency=16

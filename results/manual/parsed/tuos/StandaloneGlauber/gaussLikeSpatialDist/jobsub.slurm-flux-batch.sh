@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-signal-0647
+#FLUX --job-name=scruptious-lemur-8792
 #FLUX -t=162000
 #FLUX --urgency=16
 

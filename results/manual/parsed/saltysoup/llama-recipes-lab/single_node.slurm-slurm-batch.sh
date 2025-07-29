@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=8
 #SBATCH --time=01:00:00
-#SBATCH --partition=l4train
 
 export MASTER_ADDR='$head_node_ip'
 export MASTER_PORT='$head_node_port'

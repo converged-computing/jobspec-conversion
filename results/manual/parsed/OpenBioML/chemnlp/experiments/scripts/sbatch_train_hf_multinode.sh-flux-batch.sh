@@ -2,7 +2,7 @@
 #FLUX --job-name=llchem-multinode
 #FLUX -N=4
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=g40x
 #FLUX --urgency=16
 

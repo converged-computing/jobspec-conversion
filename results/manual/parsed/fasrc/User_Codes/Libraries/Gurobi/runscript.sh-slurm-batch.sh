@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=00:00:30
-#SBATCH --partition=test
 
 module load python
 module load gurobi

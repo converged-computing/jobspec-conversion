@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-puppy-2891
+#FLUX --job-name=phat-general-5443
 #FLUX --queue=normal
 #FLUX -t=3600
 #FLUX --urgency=16

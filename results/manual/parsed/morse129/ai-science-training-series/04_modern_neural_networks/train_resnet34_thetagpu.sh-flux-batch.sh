@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=loopy-lamp-7490
+#FLUX --job-name=phat-buttface-0726
 #FLUX --urgency=16
 

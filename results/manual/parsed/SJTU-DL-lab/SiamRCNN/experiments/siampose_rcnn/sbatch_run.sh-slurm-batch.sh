@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu
 #SBATCH --nodelist=node6
 
 export PYTHONPATH='$ROOT:$PYTHONPATH'

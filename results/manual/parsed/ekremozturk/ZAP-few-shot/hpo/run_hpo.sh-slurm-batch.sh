@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=bosch_gpu-rtx2080
 #SBATCH --array=1-53%20
 
 source /home/ozturk/anaconda3/bin/activate metadl

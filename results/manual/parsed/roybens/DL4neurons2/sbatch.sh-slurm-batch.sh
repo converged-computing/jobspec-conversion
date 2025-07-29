@@ -8,10 +8,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 #SBATCH --constraint=haswell
 #SBATCH --array=1-2
-#SBATCH --licenses=SCRATCH,project
 
 cd /global/cscratch1/sd/vbaratha/izhi
 MODELNAME=hh_ball_stick_9param

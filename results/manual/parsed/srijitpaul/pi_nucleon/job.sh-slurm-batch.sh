@@ -5,7 +5,6 @@
 #SBATCH --ntasks=768
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 
 module load autohbw/default
 module swap craype-haswell craype-mic-knl

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --mem=1G
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=batch
 #SBATCH --array=0-440
 
 mkdir -p lml/ionosphere

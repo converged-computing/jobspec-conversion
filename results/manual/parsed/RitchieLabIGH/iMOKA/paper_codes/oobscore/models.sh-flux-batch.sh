@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-blackbean-4481
+#FLUX --job-name=placid-blackbean-2015
 #FLUX -n=8
 #FLUX -t=173420
 #FLUX --urgency=16

@@ -10,7 +10,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=64G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=learnlab
 #SBATCH --constraint=ntasks-per-node=1,volta32gb,ib4
 #SBATCH --chdir=${base_dir}
 

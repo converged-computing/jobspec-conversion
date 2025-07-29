@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --mem=120000
-#SBATCH --partition=gpu
 
 source activate $WORKDIR/miniconda3/envs/pytorch
 python main.py ${SLURM_JOBID} ./config/config.yml

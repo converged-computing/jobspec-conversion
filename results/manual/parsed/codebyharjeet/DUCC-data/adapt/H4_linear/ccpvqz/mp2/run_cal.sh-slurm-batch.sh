@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal_q
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MKL_NUM_THREADS='1'
 export OMP_NUM_THREADS='1'

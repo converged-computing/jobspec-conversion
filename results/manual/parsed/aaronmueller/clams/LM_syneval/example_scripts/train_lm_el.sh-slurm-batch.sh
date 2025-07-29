@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:1
 #SBATCH --time=1-23:59:59
-#SBATCH --partition=gpuk80
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --chdir=/home-1/amuelle8@jhu.edu/scratch/workdir/el.$SLURM_JOBID
 

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=8gb
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=nes2.8
 #SBATCH --constraint=neh2.8
 #SBATCH --array=1%1
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-spoon-7700
+#FLUX --job-name=wobbly-soup-5733
 #FLUX -t=3600
 #FLUX --urgency=16
 

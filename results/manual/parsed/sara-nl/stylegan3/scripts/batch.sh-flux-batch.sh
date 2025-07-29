@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=bloated-hobbit-6058
+#FLUX --job-name=evasive-muffin-2647
 #FLUX -c=72
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=28800
 #FLUX --urgency=16

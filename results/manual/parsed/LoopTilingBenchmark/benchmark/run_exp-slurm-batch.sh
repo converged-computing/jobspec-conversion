@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=32G
 #SBATCH --time=01:00:00
-#SBATCH --partition=soc-gpu-kp
 #SBATCH --constraint=ntasks-per-node=1
 
 export LD_LIBRARY_PATH='$HOME/lib/openmp-build/runtime/src:$LD_LIBRARY_PATH'

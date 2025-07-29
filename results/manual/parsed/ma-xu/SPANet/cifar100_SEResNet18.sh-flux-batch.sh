@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-punk-8624
+#FLUX --job-name=hello-signal-5962
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

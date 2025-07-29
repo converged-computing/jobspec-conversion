@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-egg-4371
+#FLUX --job-name=spicy-puppy-6956
 #FLUX -n=20
 #FLUX --queue=om_all_nodes
 #FLUX -t=172800

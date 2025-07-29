@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:GeForce GTX 1080 Ti:1
 #SBATCH --mem=16G
 #SBATCH --time=1-00:23:00
-#SBATCH --partition=gpu3
 
 echo "### Starting at: $(date) ###"
 modelname='October17_ava_30ep_MINI512_resnet_adam_regression'

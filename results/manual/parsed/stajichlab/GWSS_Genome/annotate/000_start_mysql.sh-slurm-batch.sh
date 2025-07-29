@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32gb
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=batch,intel
 
 export SINGULARITY_BINDPATH='bigdata'
 export SINGULARITYENV_PASACONF='pasa.config.txt'

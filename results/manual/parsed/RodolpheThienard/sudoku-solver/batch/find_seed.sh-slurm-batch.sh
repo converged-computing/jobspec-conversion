@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
-#SBATCH --partition=short
 #SBATCH --array=1-200
 
 module load gcc/10.2.0

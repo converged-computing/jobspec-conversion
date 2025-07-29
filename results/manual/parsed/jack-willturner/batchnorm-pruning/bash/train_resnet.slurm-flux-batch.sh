@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-ricecake-7877
+#FLUX --job-name=chocolate-soup-7330
 #FLUX --urgency=16
 
 export PATH='$HOME/miniconda/bin:$PATH'

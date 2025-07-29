@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-despacito-5441
+#FLUX --job-name=swampy-malarkey-9696
 #FLUX -c=12
 #FLUX --urgency=16
 

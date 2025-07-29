@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-plant-6909
+#FLUX --job-name=scruptious-lemur-6334
 #FLUX -n=4
 #FLUX -t=300
 #FLUX --urgency=16

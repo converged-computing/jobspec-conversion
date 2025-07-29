@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-destiny-5984
+#FLUX --job-name=frigid-buttface-7678
 #FLUX --urgency=16
 
 ng test cases of lammps on agave. 

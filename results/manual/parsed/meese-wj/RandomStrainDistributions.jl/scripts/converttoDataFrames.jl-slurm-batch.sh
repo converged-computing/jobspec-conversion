@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=101
 #SBATCH --mem=15g
 #SBATCH --time=23:30:00
-#SBATCH --partition=msibigmem
 
     pwd
     module swap julia julia/1.8.0

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8000
 #SBATCH --time=00:01:00
-#SBATCH --partition=gpu2
 
 module load singularity/2.4.2
 hostname

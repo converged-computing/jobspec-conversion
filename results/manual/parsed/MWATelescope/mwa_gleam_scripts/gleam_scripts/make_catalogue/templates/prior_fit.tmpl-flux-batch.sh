@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-bicycle-9382
+#FLUX --job-name=boopy-malarkey-7062
 #FLUX --queue=gpuq
 #FLUX -t=5400
 #FLUX --urgency=16

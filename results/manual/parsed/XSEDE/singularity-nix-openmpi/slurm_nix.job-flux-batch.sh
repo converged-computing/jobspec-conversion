@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-lentil-4321
+#FLUX --job-name=fuzzy-muffin-7998
 #FLUX -n=4
 #FLUX --queue=cloud
 #FLUX --urgency=16

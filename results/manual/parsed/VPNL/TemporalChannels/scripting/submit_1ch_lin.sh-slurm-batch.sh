@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=2GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=hns,normal
 
 module load matlab/R2017a
 matlab -nodisplay < optimize_1ch_lin.m

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=stinky-cattywampus-9934
+#FLUX --job-name=expressive-nunchucks-3291
 #FLUX --gpus-per-task=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hopper-prod
 #FLUX --urgency=16
 

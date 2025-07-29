@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-fork-6178
+#FLUX --job-name=expensive-citrus-3994
 #FLUX -n=4
 #FLUX --queue=serial
 #FLUX -t=720

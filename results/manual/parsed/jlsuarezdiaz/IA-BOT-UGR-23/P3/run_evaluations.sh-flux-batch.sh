@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-parrot-8487
+#FLUX --job-name=buttery-fork-3448
 #FLUX -c=2
 #FLUX --queue=muylarga
 #FLUX --urgency=16

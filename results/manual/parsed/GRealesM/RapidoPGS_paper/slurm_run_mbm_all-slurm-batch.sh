@@ -6,7 +6,6 @@
 #SBATCH --ntasks=15
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-08:00:00
-#SBATCH --partition=skylake-himem
 
 export I_MPI_PIN_ORDER='scatter # Adjacent domains have minimal sharing of caches/sockets'
 

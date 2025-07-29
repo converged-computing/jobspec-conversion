@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=dgxa100_80g_2tb
 #SBATCH --array=1-6%1
 #SBATCH --exclude=dgx1-[000-002,004]
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-chip-1830
+#FLUX --job-name=butterscotch-arm-5850
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/MadsAW/machine-learning-on-materials/Gamle%20scripts/systematic/systematic_L2.sh

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:25:00
-#SBATCH --partition=nocona
 #SBATCH --constraint=ntasks-per-node=128
 
 export STREAM_ARRAY_SIZE='8700000'

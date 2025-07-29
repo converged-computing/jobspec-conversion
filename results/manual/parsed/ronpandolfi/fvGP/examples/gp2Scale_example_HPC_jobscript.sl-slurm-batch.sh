@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 #SBATCH --constraint=gpu,ntasks-per-node=4
 
 export SLURM_CPU_BIND='cores'

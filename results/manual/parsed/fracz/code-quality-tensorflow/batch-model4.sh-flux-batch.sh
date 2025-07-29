@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-lettuce-4519
+#FLUX --job-name=peachy-lizard-4690
 #FLUX --queue=plgrid-gpu
 #FLUX -t=86400
 #FLUX --urgency=16

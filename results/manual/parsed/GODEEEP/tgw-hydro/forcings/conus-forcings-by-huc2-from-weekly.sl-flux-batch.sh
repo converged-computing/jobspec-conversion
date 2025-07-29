@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-train-6181
+#FLUX --job-name=crunchy-hippo-3490
 #FLUX -c=40
 #FLUX --queue=smp7
 #FLUX -t=172800

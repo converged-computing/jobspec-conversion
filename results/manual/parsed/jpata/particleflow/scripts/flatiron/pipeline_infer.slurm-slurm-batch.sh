@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=112
 #SBATCH --mem=1000G
 #SBATCH --time=10:00:00
-#SBATCH --partition=eval
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=sapphire
 #SBATCH --nodelist=worker6302
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-peas-7140
+#FLUX --job-name=blue-hope-1795
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kaarejoergensen/CVPR2019-DeepTreeLearningForZeroShotFaceAntispoofing/submit.sh

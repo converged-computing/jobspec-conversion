@@ -3,7 +3,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu-a100
 
 export OMP_NUM_THREADS='8'
 

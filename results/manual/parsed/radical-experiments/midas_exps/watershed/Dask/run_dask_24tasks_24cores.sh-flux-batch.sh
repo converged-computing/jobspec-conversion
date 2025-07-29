@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-frito-3333
+#FLUX --job-name=joyous-pot-9367
 #FLUX --queue=compute
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=60G
 #SBATCH --time=21-00:00:00
-#SBATCH --partition=amdgpuextralong
 #SBATCH --constraint=ntasks-per-node=1
 
 ml spconv/2.1.21-foss-2021a-CUDA-11.3.1

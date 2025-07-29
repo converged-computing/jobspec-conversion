@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=cpu-long
 
 export ENV='/home/s2358093/data1/conda_envs/hvm-05'
 export CWD='$(pwd)'

@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=main
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SINGULARITY_BIND='/home/e1garcia'
 

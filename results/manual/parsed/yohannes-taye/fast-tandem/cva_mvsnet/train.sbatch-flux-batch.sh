@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-hippo-8522
+#FLUX --job-name=bumfuzzled-snack-8511
 #FLUX -N=2
 #FLUX -c=3
 #FLUX -t=259200

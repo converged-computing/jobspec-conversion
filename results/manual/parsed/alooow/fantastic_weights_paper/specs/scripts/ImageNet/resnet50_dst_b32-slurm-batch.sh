@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:8
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=<partition
 
 export IMAGENET_PYTORCH='~/ImageNet # set the path to the ImageNet here.'
 

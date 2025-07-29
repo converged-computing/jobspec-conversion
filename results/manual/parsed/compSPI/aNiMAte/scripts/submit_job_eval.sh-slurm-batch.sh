@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=a100:1
 #SBATCH --mem=512G
-#SBATCH --partition=ml
 
 export CUDA_LAUNCH_BLOCKING='1'
 

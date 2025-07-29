@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-poo-0816
+#FLUX --job-name=frigid-truffle-6398
 #FLUX -N=32
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export HOSTNAMES='`scontrol show hostnames "$SLURM_JOB_NODELIST"`'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-staircase-6828
+#FLUX --job-name=eccentric-knife-0841
 #FLUX --queue=gpu
 #FLUX --urgency=16
 

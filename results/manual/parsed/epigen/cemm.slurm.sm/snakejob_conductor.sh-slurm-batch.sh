@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000
 #SBATCH --time=16:00:00
-#SBATCH --partition=longq
 #SBATCH --qos=longq
 
 echo "======================"

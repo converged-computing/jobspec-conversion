@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-buttface-4462
+#FLUX --job-name=blue-hobbit-2556
 #FLUX --queue=long
 #FLUX -t=1209540
 #FLUX --urgency=16

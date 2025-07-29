@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu
 #SBATCH --qos=gpu-award
 
 export CUDA_HOME='/usr/local/cuda-9.0'

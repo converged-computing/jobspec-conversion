@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=normal_q
 #SBATCH --constraint=ntasks-per-node=24
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/groups/bevanlab/software/cascades/fftw/3.3.8/lib:/home/kelsieking23/software/gromacs/4.6.5/bin'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-nunchucks-6150
+#FLUX --job-name=evasive-leopard-6087
 #FLUX -c=24
 #FLUX --queue=amdgpuextralong
 #FLUX -t=1814400

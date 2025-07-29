@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-latke-1492
+#FLUX --job-name=sticky-ricecake-1748
 #FLUX --queue=urtgen_24hrs
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-truffle-0671
+#FLUX --job-name=strawberry-gato-5353
 #FLUX -t=1380
 #FLUX --urgency=16
 

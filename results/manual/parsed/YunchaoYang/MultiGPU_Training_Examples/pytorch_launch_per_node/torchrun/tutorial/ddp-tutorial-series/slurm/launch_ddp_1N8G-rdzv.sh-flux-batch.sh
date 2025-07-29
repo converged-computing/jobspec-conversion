@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-house-6499
+#FLUX --job-name=butterscotch-avocado-7067
 #FLUX -c=16
 #FLUX --gpus-per-task=8
 #FLUX --queue=hpg-ai

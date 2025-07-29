@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-blackbean-0268
+#FLUX --job-name=rainbow-fork-5370
 #FLUX -t=86340
 #FLUX --urgency=16
 

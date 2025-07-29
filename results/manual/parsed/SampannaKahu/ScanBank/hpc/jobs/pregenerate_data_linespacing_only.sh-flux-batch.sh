@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=fugly-blackbean-1639
-#FLUX: --exclusive
+#FLUX --job-name=fugly-destiny-6723
+#FLUX --exclusive
 #FLUX --queue=normal_q
 #FLUX -t=288000
 #FLUX --urgency=16

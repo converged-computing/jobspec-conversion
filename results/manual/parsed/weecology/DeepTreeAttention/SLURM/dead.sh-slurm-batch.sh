@@ -11,7 +11,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=150GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 ulimit -c 0
 source activate DeepTreeAttention

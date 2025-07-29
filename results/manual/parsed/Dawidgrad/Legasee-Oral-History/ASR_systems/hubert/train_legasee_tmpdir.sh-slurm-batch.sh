@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=190G
 #SBATCH --time=3-08:00:00
-#SBATCH --partition=dcs-gpu
 
 export CXX='g++'
 

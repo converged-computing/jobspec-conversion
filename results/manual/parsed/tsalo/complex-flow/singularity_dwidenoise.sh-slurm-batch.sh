@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
-#SBATCH --partition=centos7
 
 export NPROCS='`echo $LSB_HOSTS | wc -w`'
 export OMP_NUM_THREADS='$NPROCS'

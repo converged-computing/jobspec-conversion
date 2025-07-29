@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=10G
 #SBATCH --time=00:20:00
-#SBATCH --partition=small
 
 module load geoconda
 python csc_stac_example.py

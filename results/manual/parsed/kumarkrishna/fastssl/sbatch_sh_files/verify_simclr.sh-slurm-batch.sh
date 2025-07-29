@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:rtx8000:1
 #SBATCH --mem=16GB
 #SBATCH --time=02:00:00
-#SBATCH --partition=long
 
 . /etc/profile
 module load anaconda/3

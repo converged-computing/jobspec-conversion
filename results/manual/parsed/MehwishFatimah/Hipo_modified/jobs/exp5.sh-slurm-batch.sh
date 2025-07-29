@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:1
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=pascal-deep.p,pascal-crunch.p,ice-deep.p
 
 module load CUDA/11.1.1-GCC-10.2.0
 . /home/fatimamh/anaconda3/etc/profile.d/conda.sh

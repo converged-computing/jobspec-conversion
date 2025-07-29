@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=500
 #SBATCH --time=01:00:00
-#SBATCH --partition=agkeller
 #SBATCH --qos=standard
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

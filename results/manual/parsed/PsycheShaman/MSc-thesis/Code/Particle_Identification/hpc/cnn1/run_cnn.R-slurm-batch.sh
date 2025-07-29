@@ -7,7 +7,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10:00:00
-#SBATCH --partition=ada
 
 module load software/R-3.5.2
 module load python/anaconda-python-3.7 

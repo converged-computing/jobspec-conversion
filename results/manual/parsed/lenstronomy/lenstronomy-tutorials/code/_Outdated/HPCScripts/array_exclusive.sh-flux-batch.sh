@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=scann
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=dphys_compute
 #FLUX -t=7200
 #FLUX --urgency=16

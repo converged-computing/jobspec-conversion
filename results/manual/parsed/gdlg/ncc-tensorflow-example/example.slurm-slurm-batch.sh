@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=4G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=res-gpu-small
 #SBATCH --qos=short
 
 source /etc/profile

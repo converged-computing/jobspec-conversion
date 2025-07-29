@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=savio2
 #SBATCH --constraint=ntasks-per-node=24
 
 JOBSJSON=$1

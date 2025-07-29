@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-toaster-4861
+#FLUX --job-name=quirky-dog-5273
 #FLUX -c=16
 #FLUX --gpus-per-task=1
 #FLUX --queue=regular

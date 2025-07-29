@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=RM
 #SBATCH --constraint=ntasks-per-node=7
 
 source /home/wehs7661/src/plumed2/sourceme.sh

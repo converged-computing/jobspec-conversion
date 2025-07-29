@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100:1,nvme:20
 #SBATCH --mem=10G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 
 module load tensorflow
 echo $LOCAL_SCRATCH

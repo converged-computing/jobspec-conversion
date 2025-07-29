@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export MODULEPATH='/opt/apps/resif/iris/2019b/gpu/modules/all/'
 export ANACONDA='/opt/apps/resif/iris/2019b/default/modules/all/lang/Anaconda3/'

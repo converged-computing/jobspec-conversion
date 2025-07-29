@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=MESONH
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal256
 #FLUX -t=3600
 #FLUX --urgency=16

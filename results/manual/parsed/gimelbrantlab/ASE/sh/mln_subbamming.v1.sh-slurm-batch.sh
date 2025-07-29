@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16G
 #SBATCH --time=1-23:00:00
-#SBATCH --partition=medium
 
 module load gcc python R/3.4.1 samtools/1.3.1 star
 DIR=$2

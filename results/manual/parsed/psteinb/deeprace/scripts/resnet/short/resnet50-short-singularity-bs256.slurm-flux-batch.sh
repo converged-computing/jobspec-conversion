@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-bits-4708
+#FLUX --job-name=fat-animal-3365
 #FLUX --queue=gpu2
 #FLUX -t=3600
 #FLUX --urgency=16

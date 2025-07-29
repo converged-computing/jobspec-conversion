@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-signal-4860
+#FLUX --job-name=stanky-leader-8871
 #FLUX -N=7
 #FLUX --queue=devel
 #FLUX -t=7200

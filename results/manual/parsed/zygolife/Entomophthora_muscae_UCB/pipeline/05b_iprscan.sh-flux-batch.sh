@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-nalgas-6651
+#FLUX --job-name=joyous-blackbean-8614
 #FLUX -n=24
 #FLUX --queue=intel
 #FLUX -t=259200

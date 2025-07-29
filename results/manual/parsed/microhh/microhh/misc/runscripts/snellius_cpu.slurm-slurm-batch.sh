@@ -8,7 +8,6 @@
 #SBATCH --ntasks=128
 #SBATCH --cpus-per-task=1
 #SBATCH --time=08:00:00
-#SBATCH --partition=thin
 
 toolkit="gcc"     # gcc/intel
 module purge

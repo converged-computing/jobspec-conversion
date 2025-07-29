@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-fork-4317
+#FLUX --job-name=fuzzy-kerfuffle-3110
 #FLUX --queue=defq,long
 #FLUX --urgency=16
 

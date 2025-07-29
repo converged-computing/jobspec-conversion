@@ -2,7 +2,7 @@
 #FLUX --job-name=sopenclip
 #FLUX -N=16
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=g40
 #FLUX --urgency=16
 

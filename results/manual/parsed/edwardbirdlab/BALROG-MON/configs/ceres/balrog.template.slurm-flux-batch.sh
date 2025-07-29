@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-diablo-2881
+#FLUX --job-name=misunderstood-ricecake-7448
 #FLUX -n=2
 #FLUX --queue=long
 #FLUX --urgency=16

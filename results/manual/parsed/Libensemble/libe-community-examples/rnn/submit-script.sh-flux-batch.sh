@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-peanut-butter-2709
+#FLUX --job-name=spicy-signal-8192
 #FLUX --urgency=16
 

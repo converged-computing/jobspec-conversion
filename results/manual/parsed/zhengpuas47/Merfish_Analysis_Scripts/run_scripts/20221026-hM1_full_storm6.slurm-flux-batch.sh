@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-itch-8509
+#FLUX --job-name=conspicuous-parrot-4008
 #FLUX --queue=zhuang
 #FLUX -t=172800
 #FLUX --urgency=16

@@ -3,7 +3,6 @@
 #SBATCH --nodes=8
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=work
 #SBATCH --constraint=ntasks-per-node=1
 
 export I_MPI_FAVRICS='shm:dapl'

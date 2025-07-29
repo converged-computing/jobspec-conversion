@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-chip-7605
+#FLUX --job-name=astute-butter-0067
 #FLUX -N=2
 #FLUX -c=32
 #FLUX -t=600

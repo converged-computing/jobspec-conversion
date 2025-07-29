@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-banana-6075
+#FLUX --job-name=goodbye-train-0551
 #FLUX --queue=gpu
 #FLUX -t=0
 #FLUX --urgency=16

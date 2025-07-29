@@ -6,9 +6,9 @@
 #SBATCH --ntasks=65
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:40:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --chdir=./
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export LD_LIBRARY_PATH='$SGPP_DIR/lib/sgpp:$LIB_GLPK:$LIB_BOOST_DIR:$LD_LIBRARY_PATH'
 export I_MPI_PIN_PROCESSOR_EXCLUDE_LIST='48-95'

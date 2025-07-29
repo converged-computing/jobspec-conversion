@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-chair-8438
+#FLUX --job-name=blank-lizard-8416
 #FLUX -c=6
 #FLUX --queue=gpuk80
 #FLUX -t=144000

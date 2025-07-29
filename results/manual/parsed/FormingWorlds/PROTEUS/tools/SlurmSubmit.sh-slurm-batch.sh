@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=19
 #SBATCH --mem=2000
-#SBATCH --partition=priority-rp
 
 echo "Running slurm dispatcher"
 source ~/.bashrc

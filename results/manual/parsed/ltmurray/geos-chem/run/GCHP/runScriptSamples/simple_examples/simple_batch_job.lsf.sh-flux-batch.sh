@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-truffle-5410
+#FLUX --job-name=eccentric-eagle-0032
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ltmurray/geos-chem/run/GCHP/runScriptSamples/simple_examples/simple_batch_job.lsf.sh

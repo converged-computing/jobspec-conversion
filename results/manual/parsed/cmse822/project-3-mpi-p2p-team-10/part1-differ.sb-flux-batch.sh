@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=HW3-BLOCKING-DIFFER
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=60
 #FLUX --urgency=16
 

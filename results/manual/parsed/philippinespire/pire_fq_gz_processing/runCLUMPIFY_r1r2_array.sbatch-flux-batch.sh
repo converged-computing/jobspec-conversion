@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=clmp_r12
 #FLUX -c=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=main
 #FLUX --urgency=16
 

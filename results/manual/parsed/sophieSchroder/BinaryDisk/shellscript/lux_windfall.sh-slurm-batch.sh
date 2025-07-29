@@ -8,7 +8,6 @@
 #SBATCH --ntasks=160
 #SBATCH --cpus-per-task=1
 #SBATCH --time=6-23:59:00
-#SBATCH --partition=windfall
 #SBATCH --constraint=ntasks-per-node=40
 
 pwd; hostname; date

@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=5-10:00:00
-#SBATCH --partition=high2
 
 source ~/.bashrc
 cd RnaVirome

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-bits-3894
+#FLUX --job-name=eccentric-platanos-1211
 #FLUX -c=64
 #FLUX -t=36000
 #FLUX --urgency=16

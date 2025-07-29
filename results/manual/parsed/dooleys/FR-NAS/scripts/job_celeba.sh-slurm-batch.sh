@@ -7,6 +7,5 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:8
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=ml_gpu-rtx2080
 
 python src/search/search.py --dataset CelebA

@@ -5,6 +5,5 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=400M
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpuq
 
 python testTF2.py

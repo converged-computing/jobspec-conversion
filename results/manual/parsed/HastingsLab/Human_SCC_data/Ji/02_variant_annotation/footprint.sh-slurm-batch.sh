@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=40000
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=public
 
 source activate cancergenomics
 module load bedtools2-2.30.0-gcc-11.2.0

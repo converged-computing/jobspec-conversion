@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:tesla:1
-#SBATCH --partition=gpu
 
 module load broadwell/gcc/9.2.0
 module load python/3.8.6

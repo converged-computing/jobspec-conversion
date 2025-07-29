@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100-sxm2:1
 #SBATCH --mem=8G
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu
 
 SRC=/work/donglab/ching.ki/ssRNA-MD/MD_sim/src
 DATA=/work/donglab/ching.ki/ssRNA-MD/VAE/data/gro

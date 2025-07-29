@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128G
 #SBATCH --time=04:00:00
-#SBATCH --partition=doppelbock
 #SBATCH --array=0-8
 #SBATCH --exclude=bhg0044,bhg0046,bhg0047,bhg0048
 

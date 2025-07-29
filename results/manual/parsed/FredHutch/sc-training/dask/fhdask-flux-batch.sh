@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-egg-2692
+#FLUX --job-name=misunderstood-general-1432
 #FLUX --urgency=16
 
 pythonmodule="Python/3.6.4-foss-2016b-fh1"

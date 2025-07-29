@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:5
 #SBATCH --mem-per-cpu=8G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu_cluster_enife
 
 cd /home/schubert/projects/TOAD-GAN
 source /home/schubert/miniconda3/tmp/bin/activate toadgan

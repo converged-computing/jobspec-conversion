@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=16G
 #SBATCH --time=08:00:00
-#SBATCH --partition=defq
 
 export SINGULARITY_CACHEDIR='$PWD'
 

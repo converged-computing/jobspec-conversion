@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-blackbean-7687
+#FLUX --job-name=peachy-parsnip-6925
 #FLUX -c=6
 #FLUX --queue=rise
 #FLUX -t=345600

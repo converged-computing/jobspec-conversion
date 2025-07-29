@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-kitty-0219
+#FLUX --job-name=swampy-malarkey-7848
 #FLUX -N=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export MV2_ENABLE_AFFINITY='0'

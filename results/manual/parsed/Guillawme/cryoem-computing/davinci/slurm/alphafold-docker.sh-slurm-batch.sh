@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128GB
-#SBATCH --partition=cryoem
 #SBATCH --constraint=Ampere
 
 source $HOME/opt/slurm/slurm-start.sh

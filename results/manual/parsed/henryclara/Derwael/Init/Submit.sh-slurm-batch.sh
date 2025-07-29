@@ -9,7 +9,6 @@
 #SBATCH --ntasks=100
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:20:00
-#SBATCH --partition=compute
 #SBATCH --chdir=/work/bm1164/m300832/Derwael/Init/
 
 export OMPI_MCA_pml='ucx'

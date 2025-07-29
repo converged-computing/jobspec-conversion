@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=45
 #SBATCH --mem=120gb
 #SBATCH --time=6-06:00:00
-#SBATCH --partition=batch
 
 cd $SLURM_SUBMIT_DIR
 module load  matlab/R2020b

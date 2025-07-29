@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=angry-chair-4717
+#FLUX --job-name=evasive-snack-2405
 #FLUX -n=100
 #FLUX -c=46
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=518400
 #FLUX --urgency=16
 

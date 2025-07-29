@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=200G
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=gpupod
 
 export LD_LIBRARY_PATH='/opt/conda/lib/' '

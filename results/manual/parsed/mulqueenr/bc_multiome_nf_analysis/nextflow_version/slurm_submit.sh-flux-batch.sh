@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-lemon-3183
+#FLUX --job-name=pusheena-puppy-6575
 #FLUX -c=40
 #FLUX --queue=exacloud
 #FLUX -t=129600

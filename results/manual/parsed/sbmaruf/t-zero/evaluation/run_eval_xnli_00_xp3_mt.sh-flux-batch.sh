@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-earthworm-0638
+#FLUX --job-name=conspicuous-fork-5608
 #FLUX --queue=PA100q
 #FLUX --urgency=16
 

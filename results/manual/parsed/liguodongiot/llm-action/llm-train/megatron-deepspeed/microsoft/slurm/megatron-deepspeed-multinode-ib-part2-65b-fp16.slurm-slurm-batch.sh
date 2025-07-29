@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=80
 #SBATCH --gres=gpu:8
-#SBATCH --partition=h800-ib-2
 
 export NCCL_DEBUG='info'
 export NCCL_IB_DISABLE='1'

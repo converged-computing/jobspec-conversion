@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-car-9416
+#FLUX --job-name=chocolate-hope-7431
 #FLUX --queue=standard
 #FLUX -t=86400
 #FLUX --urgency=16

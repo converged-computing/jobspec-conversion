@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12G
 #SBATCH --time=1-16:00:00
-#SBATCH --partition=normal,hns
 #SBATCH --qos=normal
 
 module load llvm/4.0.0

@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=3
-#SBATCH --partition=short
 #SBATCH --constraint=skl-compat
 #SBATCH --array=1-912:1
 

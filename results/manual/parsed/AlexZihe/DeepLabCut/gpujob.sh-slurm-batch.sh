@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 module load gcc/6.2.0 cuda/9.0 python/3.6.0
 source GPUIDpaw2/bin/activate

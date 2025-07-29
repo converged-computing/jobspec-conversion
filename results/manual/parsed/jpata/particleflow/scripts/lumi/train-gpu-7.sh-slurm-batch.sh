@@ -8,9 +8,8 @@
 #SBATCH --gpus-per-task=7
 #SBATCH --mem=130G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=small-g
 #SBATCH --constraint=ntasks-per-node=1
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 export IMG='/scratch/project_465000301/tf-rocm.simg'
 export PYTHONPATH='hep_tfds'

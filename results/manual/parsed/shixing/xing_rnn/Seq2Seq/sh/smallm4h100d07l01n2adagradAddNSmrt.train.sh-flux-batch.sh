@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-malarkey-2194
+#FLUX --job-name=reclusive-lizard-0741
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/shixing/xing_rnn/Seq2Seq/sh/smallm4h100d07l01n2adagradAddNSmrt.train.sh

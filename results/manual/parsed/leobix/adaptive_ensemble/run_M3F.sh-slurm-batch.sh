@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=4G
 #SBATCH --time=00:04:00
-#SBATCH --partition=normal
 #SBATCH --qos=high
 #SBATCH --constraint=xeon-g6
 #SBATCH --array=2340-2639%4

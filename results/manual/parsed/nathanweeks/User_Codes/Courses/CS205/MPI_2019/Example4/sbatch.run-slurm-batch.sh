@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4000
 #SBATCH --time=00:00:30
-#SBATCH --partition=shared
 
 WORK_DIR=/scratch/${USER}/${SLURM_JOB_ID}
 PRO=mmult

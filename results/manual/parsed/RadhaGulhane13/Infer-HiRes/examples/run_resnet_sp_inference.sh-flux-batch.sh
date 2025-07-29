@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-chip-9260
+#FLUX --job-name=bloated-omelette-8697
 #FLUX -N=5
 #FLUX --queue=a100
 #FLUX -t=7200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-malarkey-2311
+#FLUX --job-name=blank-egg-5839
 #FLUX -c=3
 #FLUX --queue=cscsci
 #FLUX --urgency=16

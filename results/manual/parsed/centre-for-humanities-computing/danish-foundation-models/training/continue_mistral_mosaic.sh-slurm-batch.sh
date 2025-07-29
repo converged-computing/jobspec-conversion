@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=56
 #SBATCH --mem=0
 #SBATCH --time=01:00:00
-#SBATCH --partition=standard-g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITYENV_LD_LIBRARY_PATH='/opt/ompi/lib:${EBROOTAWSMINOFIMINRCCL}/lib:/opt/cray/xpmem/2.5.2-2.4_3.47__gd0f7936.shasta/lib64:/opt/aws-ofi-rccl/lib:${SINGULARITYENV_LD_LIBRARY_PATH}'

@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=144G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=bigmem
 
 dir=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/3_Dfam_TETools_3d_run/
 singdir=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/

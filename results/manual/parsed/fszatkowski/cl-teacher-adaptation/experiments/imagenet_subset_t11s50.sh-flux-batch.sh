@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-onion-8120
+#FLUX --job-name=muffled-despacito-1859
 #FLUX -n=3
 #FLUX -t=259200
 #FLUX --urgency=16

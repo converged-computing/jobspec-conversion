@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20G
 #SBATCH --time=1-06:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=v100
 
 source ~/ml/bin/activate

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-buttface-6852
+#FLUX --job-name=reclusive-citrus-7251
 #FLUX -t=43200
 #FLUX --urgency=16
 

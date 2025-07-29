@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-blackbean-2255
+#FLUX --job-name=lovable-signal-0248
 #FLUX --queue=normal
 #FLUX -t=1800
 #FLUX --urgency=16

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpuq
 #SBATCH --constraint=ntasks-per-node=1
 
 module load cuda11.7/toolkit/11.7.1

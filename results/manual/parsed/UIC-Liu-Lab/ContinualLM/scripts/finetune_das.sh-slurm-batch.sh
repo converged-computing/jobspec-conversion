@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu20
 
 export HF_DATASETS_CACHE='/hdd_1/zke4/dataset_cache'
 export TRANSFORMERS_CACHE='/sdb/zke4/model_cache'

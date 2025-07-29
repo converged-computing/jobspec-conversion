@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-itch-8257
+#FLUX --job-name=milky-onion-8334
 #FLUX -N=2
 #FLUX -n=4
 #FLUX -c=8

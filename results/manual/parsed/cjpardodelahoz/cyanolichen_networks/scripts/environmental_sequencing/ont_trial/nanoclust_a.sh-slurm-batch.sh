@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=4G
-#SBATCH --partition=scavenger
 #SBATCH --array=1
 
 source $(conda info --base)/etc/profile.d/conda.sh

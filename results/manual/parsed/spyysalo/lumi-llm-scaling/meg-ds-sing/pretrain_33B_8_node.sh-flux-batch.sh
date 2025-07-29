@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=dirty-soup-9153
+#FLUX --job-name=angry-lamp-4455
 #FLUX -N=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard-g
 #FLUX -t=1800
 #FLUX --urgency=16

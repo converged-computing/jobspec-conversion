@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-parsnip-4467
+#FLUX --job-name=swampy-lamp-5618
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/rubiruchi/Game-Theory-Final-Project/runFiles/runSingle3.pbs

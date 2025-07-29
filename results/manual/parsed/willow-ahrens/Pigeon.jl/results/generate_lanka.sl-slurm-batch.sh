@@ -3,8 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=lanka-v3
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --array=1-6
 
 export SCRATCH='/data/scratch/pahrens'

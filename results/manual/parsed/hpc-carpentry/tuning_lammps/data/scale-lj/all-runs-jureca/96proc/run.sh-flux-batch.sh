@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-pastry-7766
+#FLUX --job-name=expressive-hope-1227
 #FLUX -N=2
 #FLUX --queue=devel
 #FLUX -t=900

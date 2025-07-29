@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=300G
 #SBATCH --time=06:00:00
-#SBATCH --partition=XXX
 #SBATCH --constraint=ntasks-per-node=1
 
 dataset=$1  # one of [vqa, msrvtt, anet]

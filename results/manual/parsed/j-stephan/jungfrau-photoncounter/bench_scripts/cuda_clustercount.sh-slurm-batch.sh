@@ -11,8 +11,7 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=200000
 #SBATCH --time=10:00:00
-#SBATCH --partition=fwkt_v100
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=0-8
 

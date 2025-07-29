@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=GO
 #FLUX -N=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=short
 #FLUX -t=14400
 #FLUX --urgency=16

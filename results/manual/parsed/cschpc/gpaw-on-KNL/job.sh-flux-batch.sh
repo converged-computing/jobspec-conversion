@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-pot-2782
+#FLUX --job-name=creamy-car-2992
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/cschpc/gpaw-on-KNL/job.sh

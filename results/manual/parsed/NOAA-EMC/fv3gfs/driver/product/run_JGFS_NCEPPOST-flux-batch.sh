@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-nalgas-3590
+#FLUX --job-name=eccentric-caramel-5830
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/NOAA-EMC/fv3gfs/driver/product/run_JGFS_NCEPPOST

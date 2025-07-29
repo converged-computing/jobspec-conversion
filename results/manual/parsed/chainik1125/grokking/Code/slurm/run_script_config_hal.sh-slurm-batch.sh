@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=04:00:00
-#SBATCH --partition=IllinoisComputes-GPU
 #SBATCH --array=1-12
 
 module load anaconda/2023-Mar/3

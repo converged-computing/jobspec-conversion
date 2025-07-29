@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=general-compute
 #SBATCH --qos=supporters
 #SBATCH --constraint=ntasks-per-node=1
 

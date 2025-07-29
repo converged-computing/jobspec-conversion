@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-diablo-1293
+#FLUX --job-name=fuzzy-lizard-8310
 #FLUX -N=2
 #FLUX --queue=debug
 #FLUX -t=3540

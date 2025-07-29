@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-onion-1170
+#FLUX --job-name=anxious-malarkey-6726
 #FLUX -N=14
 #FLUX --queue=bdwall
 #FLUX -t=3600

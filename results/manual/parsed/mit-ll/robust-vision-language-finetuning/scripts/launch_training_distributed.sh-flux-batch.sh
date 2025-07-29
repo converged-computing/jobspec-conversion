@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=ornery-cattywampus-0953
+#FLUX --job-name=phat-itch-6998
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gaia
 #FLUX --urgency=16
 

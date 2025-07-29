@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=18
 #SBATCH --mem=14G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=parallel
 
 dir=/nfs/scratch/papayv/Tarakihi/TARdn/Z_fish_assemblies/9_repeat_masking/BAR/
 singdir=/nfs/scratch/papayv/Tarakihi/TARdn/09_Repeat/new_pipeline/V2P/

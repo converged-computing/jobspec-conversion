@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=100
 #SBATCH --time=00:10:00
-#SBATCH --partition=high
 
 module load julia
 srun julia reduction.jl

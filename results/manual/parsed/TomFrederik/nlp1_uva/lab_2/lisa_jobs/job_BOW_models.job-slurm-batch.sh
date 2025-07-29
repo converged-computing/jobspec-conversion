@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20000M
 #SBATCH --time=01:45:00
-#SBATCH --partition=gpu_shared_course
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --array=1-4%2
 

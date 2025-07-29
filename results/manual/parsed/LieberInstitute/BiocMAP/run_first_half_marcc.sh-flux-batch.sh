@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-chip-9741
+#FLUX --job-name=goodbye-lemur-9308
 #FLUX -c=3
 #FLUX -t=900
 #FLUX --urgency=16

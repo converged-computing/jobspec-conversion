@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-house-5757
+#FLUX --job-name=placid-parrot-9130
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

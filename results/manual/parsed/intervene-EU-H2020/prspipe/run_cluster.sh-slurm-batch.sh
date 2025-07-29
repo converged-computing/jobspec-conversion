@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=3500
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=longrun
 
 SNAKEMAKE_ENV='snakemake'
 eval "$(conda shell.bash hook)"

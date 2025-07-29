@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-noodle-8391
+#FLUX --job-name=lovable-parrot-4887
 #FLUX -n=4
 #FLUX --queue=alvis
 #FLUX -t=2400

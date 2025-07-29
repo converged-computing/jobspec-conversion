@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=55G
 #SBATCH --time=00:30:00
-#SBATCH --partition=m3h
 
 export REPODIR='/scratch/<project>/$USER/gpu-examples'
 export PYTHONPATH='${REPODIR}/models:$PYTHONPATH'

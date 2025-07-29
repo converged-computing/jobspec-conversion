@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-gato-6028
+#FLUX --job-name=creamy-egg-8142
 #FLUX -c=24
 #FLUX --queue=clara-job
 #FLUX -t=72000

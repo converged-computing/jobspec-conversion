@@ -10,7 +10,6 @@
 #SBATCH --gres=shard:1
 #SBATCH --mem-per-cpu=240GB
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=gablab
 #SBATCH --constraint=any-A100
 #SBATCH --exclude=node[100-106,110]
 

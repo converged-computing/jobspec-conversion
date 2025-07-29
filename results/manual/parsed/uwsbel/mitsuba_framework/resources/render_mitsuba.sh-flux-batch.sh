@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=adorable-bits-8795
+#FLUX --job-name=carnivorous-cattywampus-6561
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/uwsbel/mitsuba_framework/resources/render_mitsuba.sh

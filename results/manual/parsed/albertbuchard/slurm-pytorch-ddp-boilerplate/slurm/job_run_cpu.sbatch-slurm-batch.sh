@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=4G
 #SBATCH --time=00:15:00
-#SBATCH --partition=shared-cpu
 #SBATCH --constraint=ntasks-per-node=2
 
 export VENV_PATH='$HOME/venv/slurm-pytorch-ddp-boilerplate'

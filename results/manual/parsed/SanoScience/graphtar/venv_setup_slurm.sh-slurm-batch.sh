@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=plgrid-now
 
 module add .plgrid
 module add plgrid/apps/cuda/11.1.1-gcc-10.2.0

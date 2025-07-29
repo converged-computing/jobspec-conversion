@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-destiny-7367
+#FLUX --job-name=milky-kerfuffle-9001
 #FLUX -c=48
 #FLUX --urgency=16
 

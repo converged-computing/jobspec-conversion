@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=hpg2-compute
 #SBATCH --qos=epi-b
 #SBATCH --chdir=/home/tjhladish/work/dengue/exp/abc-irs_refit2
 #SBATCH --array=0-999

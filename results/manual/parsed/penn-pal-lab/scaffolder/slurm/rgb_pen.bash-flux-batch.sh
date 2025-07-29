@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-signal-4873
+#FLUX --job-name=hello-staircase-2623
 #FLUX --queue=dineshj-compute
 #FLUX -t=43200
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12G
 #SBATCH --time=1-11:00:00
-#SBATCH --partition=caslake
 
 pfarray=(20.76)
 idarray=($(seq 1 10))

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-bike-4492
+#FLUX --job-name=bricky-leg-8267
 #FLUX --queue=RM-shared
 #FLUX -t=18000
 #FLUX --urgency=16

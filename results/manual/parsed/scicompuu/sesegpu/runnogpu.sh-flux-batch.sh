@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-kerfuffle-4260
+#FLUX --job-name=misunderstood-general-5287
 #FLUX -n=4
 #FLUX --queue=devcore
 #FLUX -t=3540

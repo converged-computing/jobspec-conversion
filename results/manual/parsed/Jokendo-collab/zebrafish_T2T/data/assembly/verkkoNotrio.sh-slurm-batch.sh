@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=180g
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=norm
 
 module load verkko/1.3.1
 module load snakemake/7.7.0

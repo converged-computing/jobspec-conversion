@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=3-00:00:00
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 if [[ ! -f ./config.yaml ]]; then
     echo "Must have a config.yaml to be able to run"

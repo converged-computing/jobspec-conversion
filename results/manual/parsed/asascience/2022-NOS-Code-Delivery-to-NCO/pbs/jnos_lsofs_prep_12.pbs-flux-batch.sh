@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-eagle-6966
+#FLUX --job-name=bumfuzzled-plant-2809
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/asascience/2022-NOS-Code-Delivery-to-NCO/pbs/jnos_lsofs_prep_12.pbs

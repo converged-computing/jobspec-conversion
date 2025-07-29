@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=24000mb
 #SBATCH --time=20:00:00
-#SBATCH --partition=ampere
 #SBATCH --array=1234
 
 . /etc/profile.d/modules.sh

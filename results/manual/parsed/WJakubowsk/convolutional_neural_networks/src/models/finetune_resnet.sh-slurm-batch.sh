@@ -10,7 +10,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=150G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=short
 
 . /home2/faculty/wjakubowski/miniconda3/etc/profile.d/conda.sh
 conda activate cnn

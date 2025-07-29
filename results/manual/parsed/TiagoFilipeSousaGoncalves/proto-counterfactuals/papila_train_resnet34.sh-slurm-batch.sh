@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=gtx1080ti_11GB
 #SBATCH --qos=gtx1080ti
 
 echo "PAPILA | Started | Training"

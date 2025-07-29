@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-fork-7041
+#FLUX --job-name=scruptious-snack-5993
 #FLUX -N=10
 #FLUX -n=10
 #FLUX --queue=west

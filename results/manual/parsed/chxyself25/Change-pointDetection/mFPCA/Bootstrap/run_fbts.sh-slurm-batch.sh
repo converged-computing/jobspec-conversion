@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=51
 #SBATCH --mem=2G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=biocrunch
 
 module load r-doparallel/1.0.11-py2-r3.5-tlbjucn
 module load r-devtools/1.12.0-py2-r3.5-3zfj3n2

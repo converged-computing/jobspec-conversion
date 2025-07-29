@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-egg-5876
+#FLUX --job-name=stinky-latke-6041
 #FLUX --queue=ProdQ
 #FLUX -t=259200
 #FLUX --urgency=16

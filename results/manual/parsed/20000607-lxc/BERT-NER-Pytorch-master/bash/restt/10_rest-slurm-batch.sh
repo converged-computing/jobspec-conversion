@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20000
 #SBATCH --time=00:08:00
-#SBATCH --partition=rtx8000,v100
 
 cd /scratch/zt2080/shizhe/eres/BERT-NER-Pytorch-master
 python run_ner_softmax.py --model_type=bert\

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-dog-3719
+#FLUX --job-name=evasive-cat-3715
 #FLUX -N=2
 #FLUX --queue=bdwall
 #FLUX -t=900

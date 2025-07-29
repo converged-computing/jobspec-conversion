@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=40
 #SBATCH --mem=12gb
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=exacloud
 #SBATCH --chdir=/home/groups/CEDAR/mulqueen/bc_multiome
 
 module load singularity/3.8.0 #load singularity

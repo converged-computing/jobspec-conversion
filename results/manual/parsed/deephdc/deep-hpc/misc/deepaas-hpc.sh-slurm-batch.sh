@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=production
 #SBATCH --constraint=ntasks-per-node=4
 
 DockerImage="deephdc/deep-oc-dogs_breed_det"

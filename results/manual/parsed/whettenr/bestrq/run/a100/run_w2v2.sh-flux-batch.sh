@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=brqb
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=72000
 #FLUX --urgency=16
 

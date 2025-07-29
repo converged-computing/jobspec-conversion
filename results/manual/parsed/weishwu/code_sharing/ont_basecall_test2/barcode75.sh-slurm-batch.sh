@@ -10,7 +10,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=120G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 export NXF_SINGULARITY_CACHEDIR='${pjdir}/env/nextflow_singularity_images/'

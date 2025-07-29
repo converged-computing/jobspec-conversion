@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-nunchucks-7150
+#FLUX --job-name=lovely-onion-1205
 #FLUX -c=2
 #FLUX --queue=xnat
 #FLUX -t=3600

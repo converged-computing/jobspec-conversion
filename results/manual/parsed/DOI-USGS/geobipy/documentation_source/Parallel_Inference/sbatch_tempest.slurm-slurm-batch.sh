@@ -6,7 +6,6 @@
 #SBATCH --ntasks=101
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=workq
 
 export OMP_NUM_THREADS='1'
 export NUMBA_CPU_NAME='skylake'

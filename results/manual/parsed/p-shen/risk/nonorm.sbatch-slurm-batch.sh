@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=20G
 #SBATCH --time=00:04:00
-#SBATCH --partition=short
 
 source /home/pzs2/keras/bin/activate
 today=`date '+%m_%d__%H_%M'`;

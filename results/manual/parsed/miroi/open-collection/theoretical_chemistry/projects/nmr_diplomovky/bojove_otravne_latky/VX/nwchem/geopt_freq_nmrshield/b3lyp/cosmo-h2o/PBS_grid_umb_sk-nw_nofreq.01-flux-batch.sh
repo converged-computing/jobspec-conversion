@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-caramel-6801
+#FLUX --job-name=faux-earthworm-0088
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/projects/nmr_diplomovky/bojove_otravne_latky/VX/nwchem/geopt_freq_nmrshield/b3lyp/cosmo-h2o/PBS_grid_umb_sk-nw_nofreq.01

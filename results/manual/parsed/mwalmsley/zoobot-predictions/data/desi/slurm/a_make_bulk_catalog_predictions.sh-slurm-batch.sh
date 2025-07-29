@@ -6,9 +6,9 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=0
 #SBATCH --time=5-08:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=A100
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 #SBATCH --array=1-110%10
 
 pwd; hostname; date

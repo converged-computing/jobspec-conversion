@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-ricecake-7779
+#FLUX --job-name=dirty-omelette-9261
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/gbramleysimmons/musictransformers/gnu_parallel_encoding_gen.sh

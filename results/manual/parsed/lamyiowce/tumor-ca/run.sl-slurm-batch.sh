@@ -6,7 +6,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
-#SBATCH --partition=topola
 #SBATCH --array=[1-32]
 
 export LD_LIBRARY_PATH='/icm/home/bazinska/miniconda3/lib:$LD_LIBRARY_PATH'

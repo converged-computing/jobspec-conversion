@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-lemon-5989
+#FLUX --job-name=confused-staircase-1357
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/software/dalton/mcscf/rasscf_water/PBS_grid_umb_sk_dalton_parallel.01

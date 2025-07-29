@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=p-kap2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=sched_mit_raffaele
 #FLUX -t=129600
 #FLUX --urgency=16

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --gres=gpu:rtx2080:1
 #SBATCH --mem=32g
-#SBATCH --partition=gpu
 
 source activate mlfold
 folder_with_pdbs="../inputs/PDB_monomers/pdbs/"

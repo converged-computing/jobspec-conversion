@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-rabbit-3460
+#FLUX --job-name=blue-nalgas-1480
 #FLUX -t=60
 #FLUX --urgency=16
 

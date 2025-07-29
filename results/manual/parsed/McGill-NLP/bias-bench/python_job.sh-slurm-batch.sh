@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:16gb:1
 #SBATCH --mem=8GB
 #SBATCH --time=00:30:00
-#SBATCH --partition=main
 
 source batch_jobs/_experiment_configuration.sh
 echo "Host - $HOSTNAME"

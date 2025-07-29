@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=secondary
 
 export NXF_EXECUTOR='slurm'
 export NXF_OPTS='-Xms2G -Xmx8G" '

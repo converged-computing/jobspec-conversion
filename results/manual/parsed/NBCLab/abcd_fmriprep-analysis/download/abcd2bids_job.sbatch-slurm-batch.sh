@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=12gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=IB_16C_96G
 #SBATCH --qos=pq_nbc
 
 pwd; hostname; date

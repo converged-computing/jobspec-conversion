@@ -6,7 +6,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:30:00
-#SBATCH --partition=rtx
 
 export PMI_NO_PREINITIALIZE='1  # avoid warnings on fork'
 

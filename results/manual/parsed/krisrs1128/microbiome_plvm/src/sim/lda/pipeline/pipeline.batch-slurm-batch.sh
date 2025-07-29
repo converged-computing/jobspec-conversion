@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=normal
 #SBATCH --qos=normal
 
 source /home/kriss1/.bash_profile

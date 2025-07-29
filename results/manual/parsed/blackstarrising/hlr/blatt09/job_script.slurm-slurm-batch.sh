@@ -3,7 +3,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=5
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=west
 
 rm output/*
 . /etc/profile.d/modules.sh

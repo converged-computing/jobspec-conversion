@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16gb
 #SBATCH --time=10:00:00
-#SBATCH --partition=scavenger
 #SBATCH --qos=scavenger
 
 python generate_poison.py cfg_CIFAR/singlesource_singletarget_binary_finetune_3/experiment_0017.cfg &&

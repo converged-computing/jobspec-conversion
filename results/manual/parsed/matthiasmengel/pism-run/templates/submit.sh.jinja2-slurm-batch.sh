@@ -9,7 +9,6 @@
 #SBATCH --ntasks=160
 #SBATCH --cpus-per-task=1
 #SBATCH --time=23:50:00
-#SBATCH --partition=broadwell
 #SBATCH --qos=short
 
 export PISM_ON_CLUSTER='1'

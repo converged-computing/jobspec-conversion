@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=48G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu-a40
 #SBATCH --dependency=6700270
 
 cat $0

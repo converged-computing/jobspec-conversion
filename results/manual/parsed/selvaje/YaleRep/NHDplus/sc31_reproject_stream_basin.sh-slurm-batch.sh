@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=10000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=day
 
 export DIR='/project/fas/sbsc/ga254/dataproces/NHDplus'
 export MERIT='/gpfs/scratch60/fas/sbsc/ga254/dataproces/RIVER_NETWORK_MERIT'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-pedo-8857
+#FLUX --job-name=fugly-ricecake-5056
 #FLUX -c=24
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=210

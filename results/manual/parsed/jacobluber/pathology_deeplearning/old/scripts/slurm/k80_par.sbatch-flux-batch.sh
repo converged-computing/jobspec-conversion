@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-toaster-7543
+#FLUX --job-name=conspicuous-despacito-3807
 #FLUX -N=4
 #FLUX -c=8
 #FLUX --queue=gpu

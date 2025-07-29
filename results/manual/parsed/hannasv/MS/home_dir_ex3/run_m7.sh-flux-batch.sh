@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-latke-5451
+#FLUX --job-name=eccentric-chair-4162
 #FLUX -n=6
 #FLUX --queue=dgx2q
 #FLUX -t=87840

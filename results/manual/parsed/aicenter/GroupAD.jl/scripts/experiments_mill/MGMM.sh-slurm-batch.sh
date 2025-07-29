@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20G
 #SBATCH --time=04:00:00
-#SBATCH --partition=cpufast
 #SBATCH --constraint=ntasks-per-node=2
 
 MAX_SEED=$1

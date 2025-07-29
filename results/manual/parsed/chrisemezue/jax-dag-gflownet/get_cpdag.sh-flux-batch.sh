@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-train-9249
+#FLUX --job-name=dirty-peas-2036
 #FLUX -c=4
 #FLUX -t=21600
 #FLUX --urgency=16

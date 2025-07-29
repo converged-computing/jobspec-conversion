@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:30:00
-#SBATCH --partition=gtx
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/opt/apps/cuda9_0/cudnn/7.0/lib64 '
 

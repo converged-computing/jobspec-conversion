@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32G
 #SBATCH --time=00:10:00
-#SBATCH --partition=batch
 
 export OMPI_MCA_btl='^openib'
 export IMAGE='$PWD/horovod_gpu_0192.sif'

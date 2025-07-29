@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=3500M
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=covid19_p
 #SBATCH --array=1-50
 
 cd $SLURM_SUBMIT_DIR

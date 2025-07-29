@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-taco-6648
+#FLUX --job-name=faux-general-0548
 #FLUX --urgency=16
 
 : ${PROJ_ID:="CSC262"}

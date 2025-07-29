@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-staircase-6108
-#FLUX: --exclusive
+#FLUX --job-name=peachy-frito-6026
+#FLUX --exclusive
 #FLUX -t=1800
 #FLUX --urgency=16
 

@@ -2,7 +2,7 @@
 #FLUX --job-name=comsol_runex
 #FLUX -N=2
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=highmem
 #FLUX -t=3600
 #FLUX --urgency=16

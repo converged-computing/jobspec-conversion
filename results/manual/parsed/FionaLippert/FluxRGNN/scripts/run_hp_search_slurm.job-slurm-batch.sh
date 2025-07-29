@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpu_shared
 
 source activate fluxrgnn
 module load 2020

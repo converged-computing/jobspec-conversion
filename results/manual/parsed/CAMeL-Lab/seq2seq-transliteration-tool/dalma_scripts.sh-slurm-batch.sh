@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=nvidia
 
 module purge
 module load all

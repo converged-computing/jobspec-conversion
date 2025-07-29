@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-lemon-6000
+#FLUX --job-name=arid-truffle-0552
 #FLUX -c=4
 #FLUX -t=10800
 #FLUX --urgency=16

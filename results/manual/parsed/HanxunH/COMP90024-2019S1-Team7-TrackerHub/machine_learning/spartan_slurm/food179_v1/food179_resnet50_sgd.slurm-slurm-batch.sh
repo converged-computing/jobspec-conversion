@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:p100:4
 #SBATCH --mem=64G
 #SBATCH --time=23:59:00
-#SBATCH --partition=gpgpu
 
 if [ "x$SLURM_JOB_ID" == "x" ]; then
    echo "You need to submit your job to the queuing system with sbatch"

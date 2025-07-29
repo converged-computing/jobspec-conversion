@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=runpi
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=shared
 #FLUX -t=14400
 #FLUX --urgency=16

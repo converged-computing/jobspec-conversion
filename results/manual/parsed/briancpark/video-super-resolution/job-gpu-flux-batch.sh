@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-signal-6098
+#FLUX --job-name=expressive-cinnamonbun-1011
 #FLUX --queue=GPU-shared
 #FLUX -t=172800
 #FLUX --urgency=16

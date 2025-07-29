@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10-12:00:00
-#SBATCH --partition=general
 
 module load canu/1.7
 data_d=/pine/scr/<O>/<N>/<ONYEN/ #a single fastq file (preferably zipped) containing reads

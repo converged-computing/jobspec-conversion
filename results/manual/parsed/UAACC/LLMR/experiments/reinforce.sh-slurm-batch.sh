@@ -9,7 +9,7 @@
 #SBATCH --gres=gpu:v100l:4
 #SBATCH --mem=0
 #SBATCH --time=2-00:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export TRANSFORMERS_OFFLINE='1'
 export MASTER_ADDR='127.0.0.1'

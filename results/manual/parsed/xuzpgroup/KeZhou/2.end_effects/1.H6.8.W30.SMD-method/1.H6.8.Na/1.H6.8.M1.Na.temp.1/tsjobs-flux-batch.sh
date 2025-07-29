@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-butter-2376
+#FLUX --job-name=conspicuous-hope-0310
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/xuzpgroup/KeZhou/2.end_effects/1.H6.8.W30.SMD-method/1.H6.8.Na/1.H6.8.M1.Na.temp.1/tsjobs

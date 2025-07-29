@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=1200
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=0-31
 
 export RUST_BACKTRACE='1'

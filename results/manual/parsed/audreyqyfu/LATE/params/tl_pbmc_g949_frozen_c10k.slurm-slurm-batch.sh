@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=102G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu-long
 #SBATCH --constraint=ntasks-per-node=8
 
 export LD_LIBRARY_PATH='/usr/local/cuda/lib64:$LD_LIBRARY_PATH'

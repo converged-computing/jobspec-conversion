@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-hippo-2610
+#FLUX --job-name=loopy-bits-7085
 #FLUX -N=32
 #FLUX --queue=normal
 #FLUX -t=86400

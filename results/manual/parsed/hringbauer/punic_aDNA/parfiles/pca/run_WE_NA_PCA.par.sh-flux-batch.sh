@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-blackbean-0682
+#FLUX --job-name=gloopy-pedo-4256
 #FLUX --queue=priority
 #FLUX -t=72000
 #FLUX --urgency=16

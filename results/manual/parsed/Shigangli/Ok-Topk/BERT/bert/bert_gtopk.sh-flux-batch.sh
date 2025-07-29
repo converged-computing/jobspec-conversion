@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-diablo-4172
+#FLUX --job-name=placid-lizard-3693
 #FLUX -N=32
 #FLUX -n=32
 #FLUX -c=12

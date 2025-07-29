@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-knife-2902
+#FLUX --job-name=boopy-motorcycle-0399
 #FLUX --queue=general-compute
 #FLUX -t=259200
 #FLUX --urgency=16

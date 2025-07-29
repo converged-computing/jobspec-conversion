@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-cinnamonbun-0165
+#FLUX --job-name=blue-knife-0767
 #FLUX -t=57540
 #FLUX --urgency=16
 

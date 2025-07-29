@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=MitoZ-%j
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=main
 #FLUX -t=172800
 #FLUX --urgency=16

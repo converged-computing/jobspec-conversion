@@ -4,6 +4,5 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:59:00
-#SBATCH --partition=devcore
 
 singularity run /proj/g2020014/nobackup/private/$@

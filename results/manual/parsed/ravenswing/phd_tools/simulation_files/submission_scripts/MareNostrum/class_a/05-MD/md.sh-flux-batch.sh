@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-avocado-2701
+#FLUX --job-name=boopy-despacito-7818
 #FLUX -N=2
 #FLUX -c=2
 #FLUX -t=259200

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-diablo-7884
+#FLUX --job-name=expressive-peas-3607
 #FLUX -t=86340
 #FLUX --urgency=16
 

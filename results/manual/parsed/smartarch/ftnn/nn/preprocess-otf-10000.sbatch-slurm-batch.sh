@@ -6,6 +6,5 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=1
 #SBATCH --mem=128G
-#SBATCH --partition=volta-lp
 
 ch-run 'tensorflow.tensorflow:latest-gpu' -b /mnt/research/bures -c /home/bures/ftnn python3 preprocess_otf.py 10000

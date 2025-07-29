@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem-per-cpu=40000
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu
 #SBATCH --qos=gpushort
 
 export TORCH_HOME='/p/tmp/bochow/LAMA/lama/ && export PYTHONPATH=/p/tmp/bochow/LAMA/lama/'

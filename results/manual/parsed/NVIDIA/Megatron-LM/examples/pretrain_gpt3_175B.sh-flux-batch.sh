@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=megatron_gpt3_175b
 #FLUX -N=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 DIR=`pwd`

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=12000mb
 #SBATCH --time=02:00:00
-#SBATCH --partition=ialab-high
 #SBATCH --nodelist=hydra
 
 CS_PATH=$1

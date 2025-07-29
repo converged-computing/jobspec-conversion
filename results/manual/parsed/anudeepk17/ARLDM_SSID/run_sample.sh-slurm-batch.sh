@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=40G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=research
 
 export HYDRA_FULL_ERROR='1'
 export TORCH_CUDA_ARCH_LIST='7.0 7.5 8.0+PTX'

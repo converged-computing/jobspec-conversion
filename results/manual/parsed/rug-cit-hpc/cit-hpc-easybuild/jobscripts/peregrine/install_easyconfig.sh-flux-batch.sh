@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-latke-8109
+#FLUX --job-name=blank-destiny-4320
 #FLUX -c=2
 #FLUX --urgency=16
 

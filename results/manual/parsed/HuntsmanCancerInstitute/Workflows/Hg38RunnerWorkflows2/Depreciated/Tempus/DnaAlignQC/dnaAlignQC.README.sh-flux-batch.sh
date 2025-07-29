@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-squidward-7445
+#FLUX --job-name=loopy-knife-8961
 #FLUX --queue=hci-rw
 #FLUX -t=345600
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10:00:00
-#SBATCH --partition=largemem512GB
 
 export CC='icc'
 export CXX='icpc'

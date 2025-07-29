@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=benchmark
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=lva
 #FLUX --urgency=16
 

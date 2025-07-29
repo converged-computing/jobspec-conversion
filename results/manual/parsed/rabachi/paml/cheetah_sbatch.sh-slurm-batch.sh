@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
-#SBATCH --partition=gpu
 #SBATCH --array=1-5
 
 module load pytorch1.0-cuda9.0-python3.6

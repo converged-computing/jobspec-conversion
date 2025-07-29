@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=64g
 #SBATCH --time=12:00:00
-#SBATCH --partition=
 #SBATCH --constraint=ntasks-per-node=1
 
 module reset

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-punk-9842
+#FLUX --job-name=milky-train-0713
 #FLUX -c=6
 #FLUX -t=180
 #FLUX --urgency=16

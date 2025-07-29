@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=vqvae
 #FLUX --gpus-per-task=1
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=dev-g
 #FLUX -t=900
 #FLUX --urgency=16

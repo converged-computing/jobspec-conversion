@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-peanut-0373
+#FLUX --job-name=joyous-chip-3560
 #FLUX --queue=shortq
 #FLUX -t=10800
 #FLUX --urgency=16

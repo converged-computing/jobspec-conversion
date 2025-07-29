@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=192gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=Draco
 #SBATCH --constraint=ntasks-per-node=16
 
 module purge &>/dev/null

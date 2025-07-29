@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-egg-9264
+#FLUX --job-name=faux-general-8356
 #FLUX --queue=hci-rw
 #FLUX -t=172800
 #FLUX --urgency=16

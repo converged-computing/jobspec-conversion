@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=6gb
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpu
 
 echo "Job ID: $SLURM_JOB_ID, JobName: $SLURM_JOB_NAME", ArrayTask: $SLURM_ARRAY_TASK_ID
 echo "Command: $0 $@"

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
 #SBATCH --time=04:00:00
-#SBATCH --partition=general
 #SBATCH --constraint=ntasks-per-node=1
 
 module load  gromacs/2021.3-foss-2021a

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=y8x2048s0
 #FLUX -N=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=cca
 #FLUX -t=604800
 #FLUX --urgency=16

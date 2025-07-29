@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-pastry-2267
+#FLUX --job-name=expensive-gato-4743
 #FLUX --queue=general-compute
 #FLUX -t=259200
 #FLUX --urgency=16

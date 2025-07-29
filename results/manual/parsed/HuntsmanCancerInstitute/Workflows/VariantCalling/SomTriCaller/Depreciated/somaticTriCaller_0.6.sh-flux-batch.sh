@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-hippo-7619
+#FLUX --job-name=sticky-carrot-7395
 #FLUX --queue=hci-kp
 #FLUX -t=864000
 #FLUX --urgency=16

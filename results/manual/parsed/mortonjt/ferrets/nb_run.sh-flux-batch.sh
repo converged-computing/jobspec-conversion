@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-underoos-2033
+#FLUX --job-name=buttery-arm-2770
 #FLUX --queue=ccb
 #FLUX -t=432000
 #FLUX --urgency=16

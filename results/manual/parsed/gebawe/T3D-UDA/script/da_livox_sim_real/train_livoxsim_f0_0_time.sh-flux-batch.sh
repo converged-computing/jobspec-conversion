@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hairy-frito-3627
+#FLUX --job-name=misunderstood-banana-0346
 #FLUX -c=24
 #FLUX --queue=amdgpulong
 #FLUX -t=259200

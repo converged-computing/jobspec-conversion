@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=rfm_Osu_mbw_mr_1_0_job
 #FLUX -n=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=900
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-fork-4655
+#FLUX --job-name=frigid-avocado-2770
 #FLUX -c=20
 #FLUX --urgency=16
 

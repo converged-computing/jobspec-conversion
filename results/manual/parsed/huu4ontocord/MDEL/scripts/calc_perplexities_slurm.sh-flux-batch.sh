@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fugly-butter-3580
+#FLUX --job-name=peachy-latke-6899
 #FLUX -c=4
 #FLUX --queue=small-g
 #FLUX -t=3600

@@ -2,8 +2,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
-#SBATCH --partition=xeonv3
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 source /home/ydamour/qp2/quantum_package.rc # here 
 module load intel/2019.0

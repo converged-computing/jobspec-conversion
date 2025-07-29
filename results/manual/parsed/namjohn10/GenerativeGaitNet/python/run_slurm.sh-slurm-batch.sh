@@ -3,7 +3,6 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=128
-#SBATCH --partition=all
 
 module load cuda/cuda-11.0
 source ~/venv/bin/activate

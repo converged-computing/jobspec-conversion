@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-itch-9056
+#FLUX --job-name=fuzzy-parsnip-2067
 #FLUX -c=40
 #FLUX -t=259200
 #FLUX --urgency=16

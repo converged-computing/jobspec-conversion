@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=use_empty_embeds_for_uncond
 #FLUX -c=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=production-cluster
 #FLUX --urgency=16
 

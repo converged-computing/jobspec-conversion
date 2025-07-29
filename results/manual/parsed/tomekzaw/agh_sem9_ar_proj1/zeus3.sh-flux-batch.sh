@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-blackbean-1700
+#FLUX --job-name=fuzzy-chair-6198
 #FLUX -n=20
 #FLUX --queue=plgrid
 #FLUX -t=7200

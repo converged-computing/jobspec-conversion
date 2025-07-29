@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --mem=500G
 #SBATCH --time=04:00:00
-#SBATCH --partition=amdv100
 
 module load python/3.7.2
 module load CMake

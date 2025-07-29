@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=25GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=cs
 
 export OMP_NUM_THREADS='4'
 

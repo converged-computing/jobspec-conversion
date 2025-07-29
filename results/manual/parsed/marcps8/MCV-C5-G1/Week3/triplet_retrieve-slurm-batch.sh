@@ -6,6 +6,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=2000
-#SBATCH --partition=mhigh,mhigh
 
 python metric_learning.py --arch-type triplet --process retrieve

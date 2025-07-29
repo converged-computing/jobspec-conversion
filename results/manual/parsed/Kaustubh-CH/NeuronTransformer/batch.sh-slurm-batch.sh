@@ -7,10 +7,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=gpu
 #SBATCH --array=1-1
-#SBATCH --licenses=SCRATCH,cfs
 
 singularity
 exec

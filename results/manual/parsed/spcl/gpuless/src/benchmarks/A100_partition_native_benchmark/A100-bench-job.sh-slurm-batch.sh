@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:20:00
-#SBATCH --partition=amda100
 #SBATCH --constraint=ntasks-per-node=1
 
 module load cuda

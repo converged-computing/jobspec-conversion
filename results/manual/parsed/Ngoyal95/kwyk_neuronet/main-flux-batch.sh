@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-puppy-2349
+#FLUX --job-name=phat-omelette-8711
 #FLUX --urgency=16
 
 export SINGULARITYENV_OMP_NUM_THREADS='1'

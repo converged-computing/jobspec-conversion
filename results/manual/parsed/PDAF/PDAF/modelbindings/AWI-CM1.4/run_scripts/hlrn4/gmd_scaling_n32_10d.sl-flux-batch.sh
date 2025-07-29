@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-pedo-9248
+#FLUX --job-name=crusty-train-5442
 #FLUX -N=96
 #FLUX -n=9216
 #FLUX --queue=standard96

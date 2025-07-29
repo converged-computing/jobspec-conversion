@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=8G
 #SBATCH --time=12:00:00
-#SBATCH --partition=bigmem
 
 export SINGULARITY_BIND='/nesi/nobackup/uoa03709/input:/var/inputdata,\'
 

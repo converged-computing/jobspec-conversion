@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:tesla-k80
 #SBATCH --mem=12G
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=cbmm
 #SBATCH --array=0-2
 
 bash resnet_40_experiments.sh ${SLURM_ARRAY_TASK_ID}

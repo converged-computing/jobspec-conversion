@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=placid-pastry-5318
+#FLUX --job-name=fuzzy-avocado-5856
 #FLUX -n=15
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 sleep 20

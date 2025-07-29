@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=1
 #SBATCH --time=05:00:00
-#SBATCH --partition=early_science
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=gpu,ntasks-per-node=4
 
 export HOROVOD_GPU_BROADCAST='MPI'

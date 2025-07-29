@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-mango-5734
+#FLUX --job-name=hairy-train-7430
 #FLUX --urgency=16
 
 ff=`ls -1d pos_*`

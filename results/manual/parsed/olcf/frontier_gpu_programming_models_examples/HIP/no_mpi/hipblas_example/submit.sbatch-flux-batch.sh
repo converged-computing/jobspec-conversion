@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-fork-0675
+#FLUX --job-name=evasive-cupcake-2688
 #FLUX --queue=batch
 #FLUX -t=300
 #FLUX --urgency=16

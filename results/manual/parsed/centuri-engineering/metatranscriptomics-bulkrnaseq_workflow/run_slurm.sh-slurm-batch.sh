@@ -7,7 +7,6 @@
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
 #SBATCH --time=11:00:00
-#SBATCH --partition=skylake
 
 module load userspace/all
 module load python3/3.6.3

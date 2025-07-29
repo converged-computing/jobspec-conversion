@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=11G
-#SBATCH --partition=student
 #SBATCH --qos=normal
 
 export PYTHONPATH='./'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-train-0239
+#FLUX --job-name=crusty-poo-5914
 #FLUX -c=32
 #FLUX --queue=pool
 #FLUX --urgency=16

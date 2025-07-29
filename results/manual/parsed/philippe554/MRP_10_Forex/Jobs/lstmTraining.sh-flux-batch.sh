@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-cat-7105
+#FLUX --job-name=hanky-cinnamonbun-4169
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/philippe554/MRP_10_Forex/Jobs/lstmTraining.sh

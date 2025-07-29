@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=GPU
 #SBATCH --constraint=ntasks-per-node=16
 
 source activate socratic_env

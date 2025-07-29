@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=cnn_gpus_1n
 #FLUX -c=10
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=nvidia_dev
 #FLUX -t=1200
 #FLUX --urgency=16

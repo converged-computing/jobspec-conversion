@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=20g
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=small,large,amdlarge,amdsmall
 
 source /etc/profile.d/modules.sh 
 module load impi 

@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:20:00
-#SBATCH --partition=TrixieMain
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

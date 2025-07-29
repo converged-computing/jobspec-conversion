@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-train-6053
+#FLUX --job-name=reclusive-snack-5117
 #FLUX -n=15
 #FLUX -t=259200
 #FLUX --urgency=16

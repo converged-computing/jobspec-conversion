@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=64G
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=dpart
 #SBATCH --qos=high
 #SBATCH --constraint=ntasks-per-node=1
 

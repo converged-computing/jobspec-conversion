@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-cattywampus-7792
+#FLUX --job-name=wobbly-diablo-2288
 #FLUX -n=32
 #FLUX --queue=intel,batch
 #FLUX --urgency=16

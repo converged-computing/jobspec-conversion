@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=01:00:00
-#SBATCH --partition=general
 #SBATCH --constraint=ntasks-per-node=1
 
 export CUDA_HOME='/usr/local/cuda-12.2/'

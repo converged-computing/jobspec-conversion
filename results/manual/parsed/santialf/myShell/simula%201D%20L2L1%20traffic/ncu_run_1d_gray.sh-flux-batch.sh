@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-snack-0268
+#FLUX --job-name=red-destiny-1292
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

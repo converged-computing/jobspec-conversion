@@ -8,7 +8,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=01:30:00
-#SBATCH --partition=preempted,gpu
 
 MY_CUDA_ARCH=(80 86)
 MY_BUILD_BASE=$MYDATA/relion_build_v2

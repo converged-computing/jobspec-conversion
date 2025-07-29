@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=28
 #SBATCH --gres=gpu:0
 #SBATCH --time=4-04:39:00
-#SBATCH --partition=LADON
 #SBATCH --array=0-31
 
 module load Anaconda3

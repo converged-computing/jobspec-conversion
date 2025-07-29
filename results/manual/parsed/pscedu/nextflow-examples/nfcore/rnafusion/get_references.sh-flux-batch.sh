@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-peanut-9749
+#FLUX --job-name=hanky-egg-5499
 #FLUX -n=3
 #FLUX --queue=RM-shared
 #FLUX -t=86400

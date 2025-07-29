@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=swampy-rabbit-5199
-#FLUX: --exclusive
+#FLUX --job-name=arid-sundae-9630
+#FLUX --exclusive
 #FLUX --urgency=16
 
 CUDA_VISIBLE_DEVICES=0,1 python main.py \

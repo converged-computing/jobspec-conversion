@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-animal-6007
-#FLUX: --exclusive
+#FLUX --job-name=chunky-peanut-5169
+#FLUX --exclusive
 #FLUX -t=7200
 #FLUX --urgency=16
 

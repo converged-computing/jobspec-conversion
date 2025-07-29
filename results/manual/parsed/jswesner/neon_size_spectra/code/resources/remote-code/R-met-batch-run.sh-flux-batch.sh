@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-fork-9380
+#FLUX --job-name=buttery-house-0328
 #FLUX -n=8
 #FLUX -t=18000
 #FLUX --urgency=16

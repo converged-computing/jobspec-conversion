@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-lemon-7991
+#FLUX --job-name=expressive-toaster-9400
 #FLUX -c=10
 #FLUX --queue=akya-cuda
 #FLUX -t=28800

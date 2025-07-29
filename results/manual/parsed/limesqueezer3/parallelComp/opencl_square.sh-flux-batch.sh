@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-banana-3126
+#FLUX --job-name=boopy-peanut-butter-0905
 #FLUX --queue=csmpi_fpga_short
 #FLUX -t=300
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-eagle-9447
+#FLUX --job-name=spicy-destiny-9581
 #FLUX --queue=maxwell
 #FLUX -t=72000
 #FLUX --urgency=16

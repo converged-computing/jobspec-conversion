@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=project
 #SBATCH --qos=cs704qos
 
 module purge

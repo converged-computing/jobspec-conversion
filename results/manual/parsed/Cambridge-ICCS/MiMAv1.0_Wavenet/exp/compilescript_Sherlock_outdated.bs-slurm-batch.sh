@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4G
 #SBATCH --time=03:00:00
-#SBATCH --partition=serc
 #SBATCH --constraint=[CLASS:SH3_CBASE|CLASS:SH3_CPERF]
 
 export PKG_CONFIG_PATH='$PKG_CONFIG_PATH:MPICC_DIR_PKG_CONFIG '

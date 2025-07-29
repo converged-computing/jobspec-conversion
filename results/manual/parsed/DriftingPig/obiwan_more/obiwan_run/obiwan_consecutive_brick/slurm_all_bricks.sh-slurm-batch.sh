@@ -8,9 +8,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=haswell
-#SBATCH --licenses=SCRATCH,project
 
 export name_for_run='elg_eight_bricks'
 export randoms_db='None #run from a fits file'

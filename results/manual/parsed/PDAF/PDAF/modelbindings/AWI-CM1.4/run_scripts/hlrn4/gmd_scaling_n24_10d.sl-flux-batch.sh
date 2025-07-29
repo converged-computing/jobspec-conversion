@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-cupcake-7490
+#FLUX --job-name=red-cattywampus-7946
 #FLUX -N=72
 #FLUX -n=6912
 #FLUX --queue=standard96

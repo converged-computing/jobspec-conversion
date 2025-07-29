@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:tesla:2
 #SBATCH --mem=180000
 #SBATCH --time=06:00:00
-#SBATCH --partition=Nvidia
 
 module load tensorflow-gpu
 RUNDIR=/storage02/43299_sp0039/burn_multi/

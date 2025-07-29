@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=10G
 #SBATCH --time=00:30:00
-#SBATCH --partition=k2-hipri
 
 module purge
 module load services/s3cmd

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-bits-5351
+#FLUX --job-name=wobbly-fudge-0483
 #FLUX -c=32
 #FLUX --queue=csmpi_fpga_long
 #FLUX -t=14400

@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=icis
 #SBATCH --qos=icis-large
 #SBATCH --array=1-12
 #SBATCH --nodelist=cn114

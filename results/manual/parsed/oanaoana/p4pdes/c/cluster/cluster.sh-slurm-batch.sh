@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=12
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=debug
 
 cd $SLURM_SUBMIT_DIR
 ulimit -s unlimited

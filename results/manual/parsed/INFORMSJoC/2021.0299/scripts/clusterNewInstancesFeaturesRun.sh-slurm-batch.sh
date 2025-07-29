@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=snowy
 #SBATCH --array=1-810
 
 module load gcccore/10.2.0

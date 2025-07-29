@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export BASE_JOB_DIR='`pwd`/nemo-curator-jobs'
 export JOB_DIR='$BASE_JOB_DIR/$SLURM_JOB_ID'

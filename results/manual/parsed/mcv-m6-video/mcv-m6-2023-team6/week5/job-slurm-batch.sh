@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=60GB
-#SBATCH --partition=mhigh,mhigh
 
 eval "$(conda shell.bash hook)"
 conda activate m6

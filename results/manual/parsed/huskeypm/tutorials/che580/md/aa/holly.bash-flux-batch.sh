@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-car-8170
+#FLUX --job-name=rainbow-banana-0858
 #FLUX --queue=limited
 #FLUX -t=108000
 #FLUX --urgency=16

@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=128000M
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --array=1-2
 
 k=$SLURM_ARRAY_TASK_ID

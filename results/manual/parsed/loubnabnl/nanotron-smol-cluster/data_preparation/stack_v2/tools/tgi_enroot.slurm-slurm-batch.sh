@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --gres=8
 #SBATCH --mem=11G
-#SBATCH --partition=hopper-prod
 
 export volume='/scratch'
 export model='mistralai/Mistral-7B-Instruct-v0.1'

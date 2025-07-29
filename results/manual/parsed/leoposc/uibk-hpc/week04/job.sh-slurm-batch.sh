@@ -4,8 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=96
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=lva
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=12
 
 ns=(768)

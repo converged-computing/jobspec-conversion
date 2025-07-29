@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-leopard-5575
+#FLUX --job-name=conspicuous-kerfuffle-1015
 #FLUX --queue=short
 #FLUX -t=3600
 #FLUX --urgency=16

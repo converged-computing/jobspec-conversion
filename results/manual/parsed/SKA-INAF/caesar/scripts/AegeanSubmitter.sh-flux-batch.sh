@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-avocado-5682
+#FLUX --job-name=spicy-citrus-4114
 #FLUX --urgency=16
 
 export BASEDIR='$PWD'

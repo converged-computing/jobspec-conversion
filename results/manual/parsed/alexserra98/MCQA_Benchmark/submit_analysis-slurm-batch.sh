@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:0
 #SBATCH --mem=120G
 #SBATCH --time=04:00:00
-#SBATCH --partition=DGX
 #SBATCH --constraint=ntasks-per-node=1
 
 export OMP_NUM_THREADS='32'

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=16G
 #SBATCH --time=00:45:00
-#SBATCH --partition=veryshort
 #SBATCH --constraint=ntasks-per-node=1
 
 export I_MPI_PMI_LIBRARY='/usr/lib64/libpmi.so'

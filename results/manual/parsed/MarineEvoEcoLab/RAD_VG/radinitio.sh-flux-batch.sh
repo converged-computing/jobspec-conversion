@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=buttery-train-5376
+#FLUX --job-name=joyous-banana-7047
 #FLUX -c=20
 #FLUX --queue=uri-cpu
 #FLUX -t=259200

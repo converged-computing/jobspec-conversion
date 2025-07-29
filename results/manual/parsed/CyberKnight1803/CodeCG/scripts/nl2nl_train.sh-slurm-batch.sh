@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu_a100_8
 #SBATCH --constraint=ntasks-per-node=1
 
 spack unload 

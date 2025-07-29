@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=40G
 #SBATCH --time=06:00:00
-#SBATCH --partition=owners,horence,quake
 
 date
 DATANAME="Tabula_muris_senis_P2_10x_with_postprocessing_cellann"

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=36G
 #SBATCH --time=05:30:00
-#SBATCH --partition=icelake,a100cpu
 
 userDir="/hpcfs/users/${USER}"
 refDir="/hpcfs/groups/phoenix-hpc-neurogenetics/RefSeq"

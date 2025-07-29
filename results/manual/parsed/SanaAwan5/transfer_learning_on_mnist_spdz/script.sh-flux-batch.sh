@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-house-6749
+#FLUX --job-name=expensive-cattywampus-5231
 #FLUX -n=4
 #FLUX -c=4
 #FLUX --queue=intel

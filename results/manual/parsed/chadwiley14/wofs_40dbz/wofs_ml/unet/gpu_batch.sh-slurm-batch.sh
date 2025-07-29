@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16G
 #SBATCH --time=00:30:00
-#SBATCH --partition=ai2es
 
 source /home/chadwiley/.bashrc
 bash

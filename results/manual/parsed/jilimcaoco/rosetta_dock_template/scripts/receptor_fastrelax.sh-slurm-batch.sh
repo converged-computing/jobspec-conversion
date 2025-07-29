@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5000m
 #SBATCH --time=2-12:00:00
-#SBATCH --partition=standard
 #SBATCH --array=1-10
 
 RECEPTOR=${1}

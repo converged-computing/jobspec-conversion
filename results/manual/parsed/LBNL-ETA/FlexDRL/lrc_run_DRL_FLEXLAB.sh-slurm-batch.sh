@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
 #SBATCH --time=00:20:30
-#SBATCH --partition=cf1
 #SBATCH --qos=cf_normal
 #SBATCH --constraint=es1_v100
 

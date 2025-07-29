@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-egg-1140
+#FLUX --job-name=purple-ricecake-1263
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Animadversio/FloodFillNetwork-Notes/sample_bash_script/Cluster_inference_p11_6_exp1-33_batch_bash.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-itch-2823
+#FLUX --job-name=grated-snack-8339
 #FLUX --urgency=16
 
 module load anaconda/2020.11

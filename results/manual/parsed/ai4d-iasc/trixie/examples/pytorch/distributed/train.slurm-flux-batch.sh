@@ -2,7 +2,7 @@
 #FLUX --job-name=pytorch.distributed
 #FLUX -N=2
 #FLUX -c=6
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=TrixieMain
 #FLUX -t=1200
 #FLUX --urgency=16

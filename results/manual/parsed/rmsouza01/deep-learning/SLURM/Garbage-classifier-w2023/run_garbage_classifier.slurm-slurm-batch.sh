@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=32G
 #SBATCH --time=06:00:00
-#SBATCH --partition=gpu
 
 module load python/anaconda3-2018.12
 source activate pytorch-2023

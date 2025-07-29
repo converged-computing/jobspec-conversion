@@ -2,7 +2,7 @@
 #FLUX --job-name=learningToGrow
 #FLUX -n=40
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=regular
 #FLUX -t=600
 #FLUX --urgency=16

@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=bricky-toaster-3667
+#FLUX --job-name=chunky-staircase-2293
 #FLUX -c=4
 #FLUX --gpus-per-task=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=hpg-ai
 #FLUX -t=14400
 #FLUX --urgency=16

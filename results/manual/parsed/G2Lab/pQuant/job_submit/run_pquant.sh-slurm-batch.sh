@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=40G
-#SBATCH --partition=pe2
 #SBATCH --constraint=ntasks-per-node=1
 
 module add gcc/9.2.0

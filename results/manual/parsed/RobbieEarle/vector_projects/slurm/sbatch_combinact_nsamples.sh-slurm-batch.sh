@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=29-04:00:00
-#SBATCH --partition=t4v2
 #SBATCH --qos=normal
 #SBATCH --array=0-20%10
 #SBATCH --exclude=gpu115

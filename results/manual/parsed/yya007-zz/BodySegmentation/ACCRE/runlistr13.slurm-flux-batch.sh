@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-nalgas-9240
+#FLUX --job-name=psycho-cat-0182
 #FLUX -n=4
 #FLUX --queue=maxwell
 #FLUX -t=432000

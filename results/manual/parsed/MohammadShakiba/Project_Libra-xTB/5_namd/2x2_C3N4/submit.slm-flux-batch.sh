@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-butter-7753
+#FLUX --job-name=cowy-gato-2522
 #FLUX --queue=valhalla
 #FLUX -t=432000
 #FLUX --urgency=16

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=openmpcode
 #FLUX -c=48
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=day-long-cpu
 #FLUX -t=60
 #FLUX --urgency=16

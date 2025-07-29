@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=joyous-salad-4271
+#FLUX --job-name=adorable-puppy-0818
 #FLUX --urgency=16
 
 python admm94.py 1 10 200 0 /data/staff/tomograms/vviknik/tomoalign_vincent_data/chipJune/chip_16nmZP_tube_lens_interlaced_4000prj_3s_094

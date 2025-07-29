@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --mem=246000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=m100_usr_prod
 #SBATCH --constraint=ntasks-per-node=1
 
 cd /m100/home/userexternal/dgalanop/Shared/benchmarks/SpMV/SpMV-Research/benchmark_code/CPU/AMD

@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=8
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=h100,ib
 
 echo "#################### Job submission script. #############################"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-peas-0794
+#FLUX --job-name=arid-nalgas-6324
 #FLUX -N=10
 #FLUX --queue=compute
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=100GB
 #SBATCH --time=2-23:59:59
-#SBATCH --partition=nvidia
 #SBATCH --constraint=80g,ntasks-per-node=1
 
 export TRANSFORMERS_CACHE='/scratch/bc3194/huggingface_cache'

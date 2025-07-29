@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=60gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=standard
 
 source activate viral_env
 cd /xdisk/bhurwitz/mig2020/rsgrps/bhurwitz/alise/my_scripts/v2_Viral_hunt_snakemake

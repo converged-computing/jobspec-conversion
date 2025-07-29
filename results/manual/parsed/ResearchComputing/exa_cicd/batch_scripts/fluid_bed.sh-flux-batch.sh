@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=bloated-chair-0943
+#FLUX --job-name=delicious-animal-2790
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=57600
 #FLUX --urgency=16
 

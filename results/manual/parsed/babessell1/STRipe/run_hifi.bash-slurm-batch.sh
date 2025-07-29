@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32GB
 #SBATCH --time=07:59:00
-#SBATCH --partition=standard
 
 MODE=$1
 CORES="$SLURM_NTASKS"

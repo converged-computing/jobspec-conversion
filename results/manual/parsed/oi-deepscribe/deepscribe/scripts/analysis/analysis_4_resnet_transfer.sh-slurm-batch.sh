@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
-#SBATCH --partition=gpu2
 
 module load cuda/9.1
 SIGNS='["na","HAL","iš","MEŠ"]'

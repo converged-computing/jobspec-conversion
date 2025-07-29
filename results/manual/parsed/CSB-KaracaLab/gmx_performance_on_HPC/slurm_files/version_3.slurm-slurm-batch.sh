@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=15-00:00:00
-#SBATCH --partition=barbun-cuda
 #SBATCH --nodelist=barbun135
 
 export OMP_NUM_THREADS='20'

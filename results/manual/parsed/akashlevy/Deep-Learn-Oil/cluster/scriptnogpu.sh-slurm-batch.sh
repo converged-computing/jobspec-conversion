@@ -8,6 +8,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1000
 #SBATCH --time=01:00:00
-#SBATCH --partition=holyseasgpu
 
 python fcn.py

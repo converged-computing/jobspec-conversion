@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-plant-8592
+#FLUX --job-name=tart-ricecake-5326
 #FLUX -N=2
 #FLUX --queue=gpumedium
 #FLUX -t=900

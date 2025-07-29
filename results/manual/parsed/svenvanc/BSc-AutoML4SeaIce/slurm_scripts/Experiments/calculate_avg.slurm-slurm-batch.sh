@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=50G
 #SBATCH --time=02:00:00
-#SBATCH --partition=cpu-short
 
 export CWD='$(pwd)'
 export LD_LIBRARY_PATH='/home/s2358093/.conda/envs/AutoML4SeaIce/lib:$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'

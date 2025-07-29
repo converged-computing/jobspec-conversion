@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100G
 #SBATCH --time=05:00:00
-#SBATCH --partition=cs04r
 
 import hyperspy.api as hs
 print(f"hyperspy version: {hs.__version__}")

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-animal-0374
+#FLUX --job-name=chunky-plant-7514
 #FLUX -n=8
 #FLUX --queue=gpgpumse
 #FLUX -t=172800

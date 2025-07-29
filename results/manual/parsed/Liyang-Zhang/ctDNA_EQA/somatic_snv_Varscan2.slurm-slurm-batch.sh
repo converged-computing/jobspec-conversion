@@ -7,7 +7,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=64c512g
 #SBATCH --constraint=ntasks-per-node=16
 
 tumor=$1

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=30000
 #SBATCH --time=23:00:00
-#SBATCH --partition=shared
 
 module purge
 module load python

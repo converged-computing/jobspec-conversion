@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1280
 #SBATCH --time=02:00:00
-#SBATCH --partition=compute
 #SBATCH --constraint=ntasks-per-node=48,ntasks-per-node=48,ntasks-per-node=48,ntasks-per-node=48,ntasks-per-node=48,ntasks-per-node=48,ntasks-per-node=48
 
 export CYCLE_STR_DATE='2014072418'

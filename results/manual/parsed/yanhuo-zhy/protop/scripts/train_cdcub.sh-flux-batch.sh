@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-lettuce-0916
+#FLUX --job-name=moolicious-squidward-3298
 #FLUX -c=5
 #FLUX --queue=amp20
 #FLUX --urgency=16

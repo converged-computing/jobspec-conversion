@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=priority
 
 module load gcc/6.2.0 slurm-drmaa/1.1.3 conda2
 source "$HOME/.bashrc"

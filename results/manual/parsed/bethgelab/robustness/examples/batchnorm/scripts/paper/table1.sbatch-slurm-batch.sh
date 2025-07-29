@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=gpu-2080ti-preemptable
 
 scontrol show job "$SLURM_JOB_ID"
 row="2" # This is the row in the table

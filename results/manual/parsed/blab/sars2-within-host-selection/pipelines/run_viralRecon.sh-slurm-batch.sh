@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=40G
 #SBATCH --time=02:00:00
-#SBATCH --partition=campus-new
 
 load_modules() {
   module purge

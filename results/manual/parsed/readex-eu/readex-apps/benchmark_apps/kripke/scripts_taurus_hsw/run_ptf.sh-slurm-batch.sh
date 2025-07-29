@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=600M
 #SBATCH --time=02:30:00
-#SBATCH --partition=haswell
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SCOREP_SUBSTRATE_PLUGINS='rrl'
 export SCOREP_RRL_PLUGINS='cpu_freq_plugin,uncore_freq_plugin'

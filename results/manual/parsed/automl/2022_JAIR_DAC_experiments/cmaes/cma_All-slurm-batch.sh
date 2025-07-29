@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=72000
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=alldlc_gpu-rtx2080
 
 export TF_XLA_FLAGS='--tf_xla_cpu_global_jit'
 

@@ -5,8 +5,7 @@
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=xeon40
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 ulimit -s unlimited
 source /home/energy/surna/anaconda3/etc/profile.d/conda.sh

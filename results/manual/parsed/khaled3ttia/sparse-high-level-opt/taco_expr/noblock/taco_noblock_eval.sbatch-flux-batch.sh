@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=taco_noblocking
 #FLUX -n=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=disc
 #FLUX -t=172800
 #FLUX --urgency=16

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=32G
 #SBATCH --time=3-00:23:00
-#SBATCH --partition=a100-gpu-shared
 
 EXE=/bin/bash
 singularity exec --nv --bind /data2/datasets/wenshanw/tartan_data:/zihao/datasets:ro,/data2/datasets/yuhengq/zihao/RAFTCov:/zihao/RAFTCov /data2/datasets/yuhengq/zihao/flowformer_v1.1.sif bash /zihao/RAFTCov/script.sh

@@ -9,10 +9,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=80
 #SBATCH --time=01:10:00
-#SBATCH --partition=special
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=gpu
-#SBATCH --licenses=SCRATCH
 
 export USE_EXASCALE_API='True # "True" or "False" use granular host/device memory transfer'
 export LOG_BY_RANK='1 # Use Aaron's rank logger'

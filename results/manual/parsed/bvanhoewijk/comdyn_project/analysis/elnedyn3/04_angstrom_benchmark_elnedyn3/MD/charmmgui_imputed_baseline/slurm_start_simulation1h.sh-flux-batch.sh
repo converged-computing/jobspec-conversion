@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-avocado-6053
-#FLUX: --exclusive
+#FLUX --job-name=lovable-poodle-3654
+#FLUX --exclusive
 #FLUX --queue=genoa
 #FLUX -t=3600
 #FLUX --urgency=16

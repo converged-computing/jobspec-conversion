@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpusmall
 
 export DATADIR='/scratch/dac/data'
 export TORCH_HOME='/scratch/dac/mvsjober/torch-cache'

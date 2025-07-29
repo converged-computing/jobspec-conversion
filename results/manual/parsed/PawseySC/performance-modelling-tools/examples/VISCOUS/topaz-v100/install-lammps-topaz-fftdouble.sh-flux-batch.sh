@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-diablo-9457
+#FLUX --job-name=pusheena-despacito-0115
 #FLUX -c=8
 #FLUX --queue=gpuq-dev
 #FLUX -t=3600

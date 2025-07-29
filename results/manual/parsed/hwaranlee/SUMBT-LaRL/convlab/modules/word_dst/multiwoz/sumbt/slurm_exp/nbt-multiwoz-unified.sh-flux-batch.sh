@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-fork-3810
+#FLUX --job-name=lovable-bits-5429
 #FLUX -t=259200
 #FLUX --urgency=16
 

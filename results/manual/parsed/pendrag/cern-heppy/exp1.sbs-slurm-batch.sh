@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
-#SBATCH --partition=normal
 
 module purge
 spack load --dependencies miniconda3

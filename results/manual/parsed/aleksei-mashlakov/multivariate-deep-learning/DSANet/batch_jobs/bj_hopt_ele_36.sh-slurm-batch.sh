@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:v100:4
 #SBATCH --mem=128G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu
 
 export PYTHONWARNINGS='ignore'
 

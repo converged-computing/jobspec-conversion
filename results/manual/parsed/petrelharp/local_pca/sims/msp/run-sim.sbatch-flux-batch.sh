@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-train-5713
+#FLUX --job-name=doopy-poo-8317
 #FLUX --queue=long
 #FLUX -t=259200
 #FLUX --urgency=16

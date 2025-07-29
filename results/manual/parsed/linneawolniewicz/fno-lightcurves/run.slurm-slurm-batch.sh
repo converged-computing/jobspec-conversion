@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=36gb
 #SBATCH --time=30-00:00:00
-#SBATCH --partition=koa
 
 source ~/profiles/auto.profile
 source activate fno

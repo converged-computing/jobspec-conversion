@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --time=05:30:00
-#SBATCH --partition=brown
 
 module load Anaconda3/2023.03-1
 cd "/home/nizp/BSc-Project/ResNet50" 

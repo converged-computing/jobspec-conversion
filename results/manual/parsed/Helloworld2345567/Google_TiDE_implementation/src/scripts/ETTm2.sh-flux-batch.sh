@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-despacito-7472
+#FLUX --job-name=fugly-peanut-butter-7123
 #FLUX -c=6
 #FLUX --queue=rise
 #FLUX -t=87840

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem-per-cpu=4096
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=lcsc
 #SBATCH --constraint=hawaii
 #SBATCH --chdir=/lustre/nyx/hyihp/lpang/PyVisc/bin/
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-car-3364
+#FLUX --job-name=muffled-nalgas-7081
 #FLUX -c=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=tcm
 #FLUX -t=259200
 #FLUX --urgency=16

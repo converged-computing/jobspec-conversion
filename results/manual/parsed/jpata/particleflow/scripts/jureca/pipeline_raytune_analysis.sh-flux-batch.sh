@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=tuneAnalysis
 #FLUX -c=128
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=dc-gpu
 #FLUX -t=3600
 #FLUX --urgency=16

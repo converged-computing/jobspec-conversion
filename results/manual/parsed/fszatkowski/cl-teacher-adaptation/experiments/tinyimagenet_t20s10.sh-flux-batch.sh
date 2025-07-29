@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-itch-6548
+#FLUX --job-name=conspicuous-leopard-0708
 #FLUX -n=3
 #FLUX -t=259200
 #FLUX --urgency=16

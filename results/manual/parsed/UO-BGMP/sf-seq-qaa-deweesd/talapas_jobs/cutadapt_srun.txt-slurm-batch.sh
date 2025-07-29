@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=short
 #SBATCH --constraint=ntasks-per-node=28
 
 ml easybuild ifort/2017.1.132-GCC-6.3.0-2.27 impi/2017.1.132

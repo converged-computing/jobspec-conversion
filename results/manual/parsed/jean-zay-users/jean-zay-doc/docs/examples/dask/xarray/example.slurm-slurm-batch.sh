@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=20:00:00
-#SBATCH --partition=prepost
 
 cd /path/to/your/scratch/folder
 module purge

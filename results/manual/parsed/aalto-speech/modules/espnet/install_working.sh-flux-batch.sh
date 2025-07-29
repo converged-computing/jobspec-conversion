@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-knife-2580
+#FLUX --job-name=blue-lemon-6008
 #FLUX -c=5
 #FLUX -t=3600
 #FLUX --urgency=16

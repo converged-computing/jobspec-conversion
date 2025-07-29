@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=delicious-pedo-8892
+#FLUX --job-name=ornery-signal-3394
 #FLUX --queue=week-long-std
 #FLUX -t=86400
 #FLUX --urgency=16

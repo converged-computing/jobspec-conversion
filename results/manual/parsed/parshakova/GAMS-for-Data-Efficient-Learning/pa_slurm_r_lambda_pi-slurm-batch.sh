@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40000
 #SBATCH --time=8-08:00:00
-#SBATCH --partition=papago
 #SBATCH --constraint=gpu_v100
 
 hostname

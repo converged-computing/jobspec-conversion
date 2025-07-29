@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8GB
 #SBATCH --time=00:05:00
-#SBATCH --partition=batch
 
 INDIR=/fast/users/a1742674/SV_VZ
 OUTDIR=/fast/users/a1742674/SV_VZ/V3726_2407

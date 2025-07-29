@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-hippo-0735
+#FLUX --job-name=persnickety-cherry-0146
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/miroi/open-collection/theoretical_chemistry/software/cfour/cfour_tests/PBS_grid_umb_sk-cfour-alltest_mpi2_12cpu.01

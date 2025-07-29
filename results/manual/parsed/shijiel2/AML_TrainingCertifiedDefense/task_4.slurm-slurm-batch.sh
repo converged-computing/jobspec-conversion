@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=64G
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=gpgpudeeplearn
 #SBATCH --constraint=ntasks-per-node=1
 
 echo "Loading required modules"

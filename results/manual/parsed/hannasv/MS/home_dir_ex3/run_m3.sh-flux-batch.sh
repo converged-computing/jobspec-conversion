@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-avocado-1252
+#FLUX --job-name=milky-parrot-2941
 #FLUX -n=6
 #FLUX --queue=dgx2q
 #FLUX -t=87840

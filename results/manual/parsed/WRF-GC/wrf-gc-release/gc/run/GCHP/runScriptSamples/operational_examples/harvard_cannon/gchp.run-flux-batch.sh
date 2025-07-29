@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=stinky-noodle-9710
+#FLUX --job-name=blue-frito-9777
 #FLUX -N=2
 #FLUX -n=96
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=seas_compute
 #FLUX -t=480
 #FLUX --urgency=16

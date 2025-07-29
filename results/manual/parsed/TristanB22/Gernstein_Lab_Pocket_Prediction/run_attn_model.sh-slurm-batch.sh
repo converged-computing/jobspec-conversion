@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=2
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu
 
 python -m pip install --upgrade pip
 module purge

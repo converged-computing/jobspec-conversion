@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=6-06:00:00
-#SBATCH --partition=bme.gpuresearch.q
 #SBATCH --nodelist=bme-gpuB001
 
 module load cuda11.8/toolkit

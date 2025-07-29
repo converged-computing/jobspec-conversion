@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=dcu:4
-#SBATCH --partition=caspra
 #SBATCH --constraint=ntasks-per-node=4
 
 export MIOPEN_DISABLE_CACHE='1'

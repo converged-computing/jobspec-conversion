@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-signal-9583
+#FLUX --job-name=lovable-lizard-3456
 #FLUX --urgency=16
 
 export MASTER_PORT='$MASTER_PORT'

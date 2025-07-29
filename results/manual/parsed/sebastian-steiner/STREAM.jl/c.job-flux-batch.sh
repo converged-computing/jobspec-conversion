@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-banana-7614
+#FLUX --job-name=crusty-soup-3876
 #FLUX -c=32
 #FLUX --queue=q_thesis
 #FLUX -t=900

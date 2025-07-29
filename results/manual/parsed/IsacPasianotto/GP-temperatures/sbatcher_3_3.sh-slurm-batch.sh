@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=128
 #SBATCH --mem=450G
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=EPYC
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 #SBATCH --nodelist=epyc001
 
 export DASK_WORKER_PROCESSES='128'

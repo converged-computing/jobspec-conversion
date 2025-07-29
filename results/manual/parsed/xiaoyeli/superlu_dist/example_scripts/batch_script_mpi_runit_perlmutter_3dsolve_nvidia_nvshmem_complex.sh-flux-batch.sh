@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-lemur-0503
+#FLUX --job-name=lovable-destiny-8410
 #FLUX -N=16
 #FLUX --queue=regular
 #FLUX -t=600

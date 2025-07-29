@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-knife-2880
+#FLUX --job-name=chocolate-caramel-9870
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/OPM/LBPM/example/Workflow/Titan/TitanRelPerm.pbs

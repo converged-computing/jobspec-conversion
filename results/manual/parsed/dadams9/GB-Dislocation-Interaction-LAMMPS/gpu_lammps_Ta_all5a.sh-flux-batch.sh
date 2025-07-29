@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=purple-hobbit-9479
+#FLUX --job-name=muffled-lemur-4878
 #FLUX -n=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=172800
 #FLUX --urgency=16
 

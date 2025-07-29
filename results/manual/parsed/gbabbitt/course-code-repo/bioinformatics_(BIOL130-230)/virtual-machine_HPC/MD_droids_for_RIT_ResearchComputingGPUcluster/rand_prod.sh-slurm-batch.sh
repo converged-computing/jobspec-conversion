@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=10G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=tier3
 #SBATCH --constraint=vram40|vram32
 
 spack unload --all

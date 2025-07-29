@@ -2,7 +2,7 @@
 #FLUX --job-name=WRF
 #FLUX -N=2
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export OMP_NUM_THREADS='2'

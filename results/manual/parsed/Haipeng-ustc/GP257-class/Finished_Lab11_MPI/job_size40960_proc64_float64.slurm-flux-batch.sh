@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=hairy-peanut-0189
+#FLUX --job-name=butterscotch-lemur-7472
 #FLUX -N=4
 #FLUX -n=64
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=serc
 #FLUX -t=1800
 #FLUX --urgency=16

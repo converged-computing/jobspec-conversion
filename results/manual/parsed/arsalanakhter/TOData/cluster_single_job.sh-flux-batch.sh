@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-butter-8366
+#FLUX --job-name=outstanding-bicycle-0904
 #FLUX -c=20
 #FLUX --queue=short
 #FLUX --urgency=16

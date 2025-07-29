@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-lamp-4941
+#FLUX --job-name=goodbye-cinnamonbun-3891
 #FLUX -c=2
 #FLUX --queue=priority
 #FLUX -t=172800

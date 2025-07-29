@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --gres=gpu:8
 #SBATCH --time=15:00:00
-#SBATCH --partition=gpu_p2s
 #SBATCH --qos=qos_gpu-t3
 #SBATCH --constraint=ntasks-per-node=8
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=ipcc
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=amd_256
 #FLUX --urgency=16
 

@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=32000M
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 module purge
 module load 2019

@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=cowy-ricecake-6331
+#FLUX --job-name=hanky-lamp-0673
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=259200
 #FLUX --urgency=16
 

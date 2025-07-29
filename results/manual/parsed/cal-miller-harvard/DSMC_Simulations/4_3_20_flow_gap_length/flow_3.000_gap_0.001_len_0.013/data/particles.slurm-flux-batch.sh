@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-lamp-2554
+#FLUX --job-name=red-chip-6915
 #FLUX -n=4
 #FLUX --queue=shared
 #FLUX -t=7200

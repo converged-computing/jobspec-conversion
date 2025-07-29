@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-signal-2088
+#FLUX --job-name=carnivorous-cupcake-0153
 #FLUX --queue=batch
 #FLUX -t=86400
 #FLUX --urgency=16

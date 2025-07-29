@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-00:30:00
-#SBATCH --partition=gpu_titanrtx
 
 module purge #Unload all loaded modules
 module load 2019

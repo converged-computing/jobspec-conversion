@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=48G
 #SBATCH --time=02:00:00
-#SBATCH --partition=red,brown
 #SBATCH --constraint=gpu_rtx8000|gpu_a100_40gb|gpu_v100
 
 source activate lmeval # Not working???

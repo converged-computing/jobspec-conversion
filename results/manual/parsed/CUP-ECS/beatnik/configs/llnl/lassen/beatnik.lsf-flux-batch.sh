@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-milkshake-4237
+#FLUX --job-name=strawberry-lemur-0770
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CUP-ECS/beatnik/configs/llnl/lassen/beatnik.lsf

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=12G
 #SBATCH --time=00:12:00
-#SBATCH --partition=park
 
 module load \
 bedtools/2.27.1 \

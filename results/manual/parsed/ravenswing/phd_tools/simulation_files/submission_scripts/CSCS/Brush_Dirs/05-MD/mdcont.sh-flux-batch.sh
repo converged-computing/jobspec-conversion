@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-knife-5628
+#FLUX --job-name=cowy-cat-8951
 #FLUX -N=4
 #FLUX --queue=normal
 #FLUX -t=86400

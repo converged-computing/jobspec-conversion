@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=ampere
 
 export NCCL_P2P_DISABLE='1'
 export NCCL_IB_DISABLE='1'

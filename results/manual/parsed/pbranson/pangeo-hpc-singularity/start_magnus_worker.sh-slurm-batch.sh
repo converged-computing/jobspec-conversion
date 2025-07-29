@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=48G
 #SBATCH --time=01:00:00
-#SBATCH --partition=debugq
 #SBATCH --constraint=ntasks-per-node=3
 
 export SINGULARITY_BINDPATH='/group:/group,/scratch:/scratch,/run:/run,$HOME:$HOME'

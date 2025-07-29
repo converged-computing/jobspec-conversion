@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-fork-1917
+#FLUX --job-name=phat-peas-2801
 #FLUX -c=10
 #FLUX --gpus-per-task=1
 #FLUX -t=14400

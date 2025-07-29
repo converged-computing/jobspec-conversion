@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:p100:1
 #SBATCH --mem=20G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=gpgpu
 #SBATCH --qos=gpgpuresplat
 
 module load gcccore/8.3.0

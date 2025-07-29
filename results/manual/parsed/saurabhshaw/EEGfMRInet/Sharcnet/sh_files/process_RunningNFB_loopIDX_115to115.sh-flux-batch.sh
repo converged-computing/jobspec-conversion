@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-car-0951
+#FLUX --job-name=blue-despacito-6875
 #FLUX -c=8
 #FLUX -t=170
 #FLUX --urgency=16

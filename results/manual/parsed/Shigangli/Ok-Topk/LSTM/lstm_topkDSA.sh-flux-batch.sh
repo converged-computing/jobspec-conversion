@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-sundae-6085
+#FLUX --job-name=moolicious-plant-0463
 #FLUX -N=32
 #FLUX -n=32
 #FLUX -c=12

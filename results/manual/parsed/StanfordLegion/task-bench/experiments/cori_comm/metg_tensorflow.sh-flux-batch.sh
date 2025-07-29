@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-nunchucks-9754
-#FLUX: --exclusive
+#FLUX --job-name=quirky-train-3251
+#FLUX --exclusive
 #FLUX -t=7200
 #FLUX --urgency=16
 

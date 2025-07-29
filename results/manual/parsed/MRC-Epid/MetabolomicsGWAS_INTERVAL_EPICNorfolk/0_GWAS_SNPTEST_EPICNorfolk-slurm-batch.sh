@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=mrc-epid
 
 export SNPTEST='/scratch/mrc-epid/bin/snptest_v2.5.2_linux_x86_64_dynamic/snptest_v2.5.2'
 export DIR='/scratch/mrc-epid/genetics/metabolomics/metabolon_gwas/SNPTEST'

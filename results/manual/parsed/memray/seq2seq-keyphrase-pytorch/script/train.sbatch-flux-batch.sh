@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-poo-1837
+#FLUX --job-name=fuzzy-fudge-7920
 #FLUX --queue=titanx
 #FLUX --urgency=16
 

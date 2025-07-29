@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=2GB
 #SBATCH --time=06:50:00
-#SBATCH --partition=submit-gpu1080
 #SBATCH --array=1-32
 
 source /home/submit/freerc/.bashrc

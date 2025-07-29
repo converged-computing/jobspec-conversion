@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=4G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=zhanglab.p
 
 repo_dir=/srv/disk00/cheyul1/Venus/outputs/22-05-10/Venus
 out_dir=/srv/disk00/cheyul1/Venus/outputs/22-05-10/testing1

@@ -7,9 +7,7 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --gpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=gpu,ntasks-per-node=1
-#SBATCH --licenses=scratch,cfs
 
 export NCCL_DEBUG='INFO'
 export PYTHONFAULTHANDLER='1'

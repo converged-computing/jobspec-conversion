@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-cinnamonbun-7245
+#FLUX --job-name=stanky-underoos-3606
 #FLUX -n=4
 #FLUX --queue=maxwell
 #FLUX -t=432000

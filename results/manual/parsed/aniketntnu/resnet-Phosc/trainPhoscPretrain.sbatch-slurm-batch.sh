@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:1
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=dgx2q
 
 export OMP_NUM_THREADS='$omp_thread          # OpenMP, Numpy'
 export MKL_NUM_THREADS='$omp_thread          # Intel MKL'

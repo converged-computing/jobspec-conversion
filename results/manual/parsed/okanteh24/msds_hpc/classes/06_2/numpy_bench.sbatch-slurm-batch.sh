@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=6G
-#SBATCH --partition=development
 #SBATCH --array=0,1
 #SBATCH --exclude=k001
 

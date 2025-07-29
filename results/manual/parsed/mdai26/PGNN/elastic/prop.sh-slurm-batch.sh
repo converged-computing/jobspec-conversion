@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=research
 #SBATCH --constraint=ntasks-per-node=16
 #SBATCH --array=0-249%5
 

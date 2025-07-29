@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=10:00:00
-#SBATCH --partition=regular
 #SBATCH --constraint=cpu
 
 export OMP_NUM_THREADS='4'

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=6000MB
 #SBATCH --time=6-20:05:00
-#SBATCH --partition=brc
 #SBATCH --array=1-8
 
 module load apps/bwa/0.7.17-singularity

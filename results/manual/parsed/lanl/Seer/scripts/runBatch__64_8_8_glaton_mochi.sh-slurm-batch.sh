@@ -2,7 +2,6 @@
 #SBATCH --nodes=8
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=galton
 #SBATCH --constraint=ntasks-per-node=8
 
 export MPIP='-t 10.0'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=adorable-itch-2414
-#FLUX: --exclusive
+#FLUX --job-name=bloated-avocado-3663
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export sg='$SLURM_ARRAY_TASK_ID'

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-noodle-2899
-#FLUX: --exclusive
+#FLUX --job-name=ornery-car-0658
+#FLUX --exclusive
 #FLUX -t=300
 #FLUX --urgency=16
 

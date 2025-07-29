@@ -3,8 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=low
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --array=0
 
 export OGGM_DOWNLOAD_CACHE='/home/data/download'

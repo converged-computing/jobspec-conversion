@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-bits-2478
+#FLUX --job-name=gloopy-plant-2547
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX -t=14700

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-banana-9288
+#FLUX --job-name=conspicuous-underoos-7567
 #FLUX --queue=gpu2
 #FLUX -t=5400
 #FLUX --urgency=16

@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:A5000:1
 #SBATCH --mem=50G
 #SBATCH --time=30-00:00:00
-#SBATCH --partition=compsci-gpu
 
 export load_path='data/imgs/train'
 export dim='64'

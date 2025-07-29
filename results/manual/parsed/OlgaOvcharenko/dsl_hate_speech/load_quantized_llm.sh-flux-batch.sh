@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-underoos-0802
+#FLUX --job-name=psycho-arm-5215
 #FLUX -c=10
 #FLUX -t=3600
 #FLUX --urgency=16

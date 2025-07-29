@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --time=17-08:40:00
-#SBATCH --partition=a100
 #SBATCH --constraint=ntasks-per-node=1
 
 export NCCL_NSOCKS_PERTHREAD='4'

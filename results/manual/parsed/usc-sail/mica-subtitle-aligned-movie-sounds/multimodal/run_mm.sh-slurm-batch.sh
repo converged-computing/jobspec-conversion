@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:v100:2
 #SBATCH --mem=32GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 module purge
 module load nvidia-hpc-sdk

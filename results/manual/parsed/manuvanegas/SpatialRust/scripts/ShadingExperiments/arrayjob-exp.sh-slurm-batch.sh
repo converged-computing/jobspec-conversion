@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4G
 #SBATCH --time=04:00:00
-#SBATCH --partition=htc
 #SBATCH --array=1-4
 
 export SLURM_NODEFILE='`scripts/generate_pbs_nodefile.pl`'

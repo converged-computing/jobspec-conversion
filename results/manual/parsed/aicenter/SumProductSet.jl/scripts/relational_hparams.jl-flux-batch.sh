@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-general-2624
+#FLUX --job-name=grated-leg-4248
 #FLUX --queue=cpulong
 #FLUX -t=259200
 #FLUX --urgency=16

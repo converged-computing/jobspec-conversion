@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=4
 
 export model_num='$2'

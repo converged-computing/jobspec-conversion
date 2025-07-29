@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=64gb
 #SBATCH --time=12:00:00
-#SBATCH --partition=a100-4
 
 export 'PYTORCH_CUDA_ALLOC_CONF='max_split_size_mb:512'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/home/mhong/li003755/.conda/envs/metaicl/lib/'

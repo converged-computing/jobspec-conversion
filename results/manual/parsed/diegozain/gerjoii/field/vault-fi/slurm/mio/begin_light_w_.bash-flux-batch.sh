@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=creamy-lettuce-2857
+#FLUX --job-name=anxious-pedo-4462
 #FLUX -c=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43140
 #FLUX --urgency=16
 

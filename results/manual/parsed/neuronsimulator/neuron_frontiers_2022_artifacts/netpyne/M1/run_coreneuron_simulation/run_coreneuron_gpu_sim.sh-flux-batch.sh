@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-onion-0308
+#FLUX --job-name=expressive-butter-5946
 #FLUX -N=2
 #FLUX -n=16
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=prod
 #FLUX -t=28800
 #FLUX --urgency=16

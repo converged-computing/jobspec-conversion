@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=volta
 
 module load gcc/8.3.0
 module load openmpi/4.0.2-gcc-8.3.0-cuda10.1

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-signal-4904
+#FLUX --job-name=pusheena-pot-1269
 #FLUX -N=4
 #FLUX --queue=bdwall
 #FLUX -t=1800

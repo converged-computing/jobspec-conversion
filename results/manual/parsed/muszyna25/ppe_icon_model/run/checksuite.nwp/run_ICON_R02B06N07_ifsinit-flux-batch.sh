@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=stanky-kerfuffle-5675
+#FLUX --job-name=boopy-noodle-8985
 #FLUX -N=6
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=compute
 #FLUX -t=900
 #FLUX --urgency=16

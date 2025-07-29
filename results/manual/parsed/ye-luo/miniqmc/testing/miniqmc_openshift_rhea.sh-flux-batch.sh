@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-pancake-9655
+#FLUX --job-name=loopy-taco-0273
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ye-luo/miniqmc/testing/miniqmc_openshift_rhea.sh

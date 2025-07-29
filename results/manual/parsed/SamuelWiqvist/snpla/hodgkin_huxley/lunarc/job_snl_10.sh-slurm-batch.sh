@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=2-02:00:00
-#SBATCH --partition=lu
 
 ml load GCC/8.3.0
 ml load CUDA/10.1.243

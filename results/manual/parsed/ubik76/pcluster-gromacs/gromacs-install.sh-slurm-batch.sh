@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=36
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=queue0
 #SBATCH --constraint=c5n.18xlarge
 
 export SPACK_ROOT='/shared/spack'

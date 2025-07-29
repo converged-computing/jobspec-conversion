@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=12:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export VOLS='-v $DATADIR:/data -v $LOGDIR:/results'
 export MLPERF_HOST_OS='Ubuntu 18.04'

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 module load git/1.8.3.1
 module load openmpi/1.8/gcc/4.7/cpu

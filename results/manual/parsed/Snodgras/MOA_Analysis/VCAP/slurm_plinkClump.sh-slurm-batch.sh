@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
 #SBATCH --constraint=ntasks-per-node=36
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module use /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core/
 module load plink

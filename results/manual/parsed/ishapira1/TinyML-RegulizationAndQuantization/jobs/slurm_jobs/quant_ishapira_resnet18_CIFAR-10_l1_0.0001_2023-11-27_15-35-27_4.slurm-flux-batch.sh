@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-caramel-7098
+#FLUX --job-name=bloated-pot-8443
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

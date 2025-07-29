@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovely-knife-5060
+#FLUX --job-name=creamy-car-6437
 #FLUX --queue=develgpus
 #FLUX -t=600
 #FLUX --urgency=16

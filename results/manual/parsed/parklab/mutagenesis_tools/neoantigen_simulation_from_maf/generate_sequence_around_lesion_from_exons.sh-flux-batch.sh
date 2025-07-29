@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-sundae-7617
+#FLUX --job-name=pusheena-carrot-5148
 #FLUX --queue=park
 #FLUX -t=720
 #FLUX --urgency=16

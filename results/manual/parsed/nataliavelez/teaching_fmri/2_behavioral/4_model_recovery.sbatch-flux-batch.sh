@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-sundae-5600
+#FLUX --job-name=loopy-ricecake-5879
 #FLUX --queue=fasse
 #FLUX -t=28800
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=32000
 #SBATCH --time=00:12:00
-#SBATCH --partition=gpu
 
 for strength in "0.3"
 do

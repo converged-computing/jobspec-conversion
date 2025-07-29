@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=hello-poo-3502
+#FLUX --job-name=carnivorous-lentil-9255
 #FLUX -c=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=259200
 #FLUX --urgency=16

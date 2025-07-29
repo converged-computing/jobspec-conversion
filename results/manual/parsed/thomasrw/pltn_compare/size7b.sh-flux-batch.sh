@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-car-7795
+#FLUX --job-name=expensive-fudge-4960
 #FLUX -n=10
 #FLUX --queue=defq-48core
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:01:00
-#SBATCH --partition=bdwall
 #SBATCH --constraint=ntasks-per-node=36
 #SBATCH --chdir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/Example-LAMMPS/swift-all/experiment
 

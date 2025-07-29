@@ -6,7 +6,6 @@
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --partition=NVIDIAGeForceRTX4090
 #SBATCH --exclude=node29
 
 module load compiler/gcc/7.3.1

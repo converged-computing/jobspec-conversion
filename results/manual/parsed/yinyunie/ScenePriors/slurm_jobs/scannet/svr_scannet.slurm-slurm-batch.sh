@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=1
 #SBATCH --mem=60gb
-#SBATCH --partition=submit
 #SBATCH --qos=deadline
 #SBATCH --constraint=rtx_3090|rtx_2080
 

@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=thsu
 
 . /opt/shared/slurm/templates/libexec/openmpi.sh
 . /work/thsu/rschanta/RTS/functions/utility/bash-utils.sh

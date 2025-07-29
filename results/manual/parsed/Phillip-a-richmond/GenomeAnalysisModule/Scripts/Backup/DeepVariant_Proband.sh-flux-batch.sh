@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-cattywampus-7502
+#FLUX --job-name=reclusive-bicycle-0377
 #FLUX -c=10
 #FLUX --queue=defq
 #FLUX -t=172800

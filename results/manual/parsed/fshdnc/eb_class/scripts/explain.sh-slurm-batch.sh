@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
 #SBATCH --time=00:10:00
-#SBATCH --partition=test
 
 export SING_IMAGE='$(pwd)/eb_class_latest.sif'
 export TRANSFORMERS_CACHE='$(realpath cache)'

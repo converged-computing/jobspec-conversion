@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-parsnip-3508
+#FLUX --job-name=strawberry-pastry-9843
 #FLUX -n=4
 #FLUX --urgency=16
 

@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=164G
 #SBATCH --time=1-16:00:00
-#SBATCH --partition=v100
 #SBATCH --exclude=gn1
 
 nvidia-smi

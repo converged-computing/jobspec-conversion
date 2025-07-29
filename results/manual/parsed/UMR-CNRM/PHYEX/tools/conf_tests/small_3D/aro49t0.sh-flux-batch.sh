@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-eagle-7390
+#FLUX --job-name=moolicious-hobbit-4564
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

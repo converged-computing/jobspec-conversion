@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-signal-3468
+#FLUX --job-name=dinosaur-citrus-8246
 #FLUX -n=4
 #FLUX --queue=mhigh,mhigh
 #FLUX --urgency=16

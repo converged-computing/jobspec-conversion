@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=100M
 #SBATCH --time=00:01:00
-#SBATCH --partition=cpu-core-0
 
 export OMP_NUM_THREADS='2'
 

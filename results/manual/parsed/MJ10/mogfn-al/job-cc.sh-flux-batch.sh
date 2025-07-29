@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-bike-5808
+#FLUX --job-name=faux-animal-6271
 #FLUX -c=6
 #FLUX --queue=long
 #FLUX -t=21600

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=3
 #SBATCH --cpus-per-task=8
 #SBATCH --time=00:05:00
-#SBATCH --partition=fpga
 #SBATCH --qos=default
 #SBATCH --constraint=ntasks-per-node=1
 

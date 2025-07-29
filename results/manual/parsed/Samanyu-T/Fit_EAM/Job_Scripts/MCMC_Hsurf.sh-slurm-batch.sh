@@ -7,7 +7,6 @@
 #SBATCH --ntasks=112
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=sapphire
 
 export LD_LIBRARY_PATH='$HOME/.conda/envs/pylammps/lib:$LD_LIBRARY_PATH '
 export PATH='$HOME/lammps/src/:$PATH'

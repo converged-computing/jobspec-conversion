@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-caramel-2368
+#FLUX --job-name=red-cherry-6711
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX -t=3600

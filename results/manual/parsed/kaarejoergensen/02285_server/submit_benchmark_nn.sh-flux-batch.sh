@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-house-0017
+#FLUX --job-name=faux-kitty-3062
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/kaarejoergensen/02285_server/submit_benchmark_nn.sh

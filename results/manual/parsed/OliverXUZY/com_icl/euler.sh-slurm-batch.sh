@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=80GB
 #SBATCH --time=10-16:00:00
-#SBATCH --partition=lianglab
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --exclude=euler[01-16],euler[20-28]
 

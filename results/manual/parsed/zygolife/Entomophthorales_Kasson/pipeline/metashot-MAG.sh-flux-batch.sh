@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-motorcycle-1993
+#FLUX --job-name=arid-underoos-9375
 #FLUX -c=32
 #FLUX --queue=intel
 #FLUX -t=691200

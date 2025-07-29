@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-11:00:00
-#SBATCH --partition=exacloud
 
 num_active_jobs=$1
 raw_data_path=$2

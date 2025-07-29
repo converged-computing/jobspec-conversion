@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=20000
-#SBATCH --partition=priority
 
 . ~/.profile
 echo "generate_runsheet"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-fork-4109
+#FLUX --job-name=evasive-diablo-2645
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/M-ballabio1/Neuroimaging-Thesis-Project/3.App%20Preprocessing/main.sh

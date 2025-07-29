@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-lamp-8691
+#FLUX --job-name=spicy-egg-7626
 #FLUX -t=1440
 #FLUX --urgency=16
 

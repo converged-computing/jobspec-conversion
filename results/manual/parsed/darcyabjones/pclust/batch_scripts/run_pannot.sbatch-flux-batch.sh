@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-toaster-2727
+#FLUX --job-name=conspicuous-gato-2663
 #FLUX -c=28
 #FLUX --queue=workq
 #FLUX -t=86400

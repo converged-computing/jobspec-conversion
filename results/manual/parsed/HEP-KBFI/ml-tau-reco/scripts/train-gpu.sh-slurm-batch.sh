@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:rtx:1
-#SBATCH --partition=gpu
 
 IMG=/home/software/singularity/pytorch.simg
 cd ~/ml-tau-reco

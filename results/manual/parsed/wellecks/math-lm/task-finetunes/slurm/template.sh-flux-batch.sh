@@ -2,7 +2,7 @@
 #FLUX --job-name=mathlm
 #FLUX -N=2
 #FLUX -c=6
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=g40423
 #FLUX --urgency=16
 

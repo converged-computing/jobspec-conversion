@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-diablo-1657
+#FLUX --job-name=loopy-frito-8843
 #FLUX -n=24
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=210

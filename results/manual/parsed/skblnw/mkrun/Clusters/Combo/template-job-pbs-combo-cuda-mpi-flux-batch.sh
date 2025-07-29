@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=spicy-taco-8075
+#FLUX --job-name=misunderstood-banana-3560
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/skblnw/mkrun/Clusters/Combo/template-job-pbs-combo-cuda-mpi

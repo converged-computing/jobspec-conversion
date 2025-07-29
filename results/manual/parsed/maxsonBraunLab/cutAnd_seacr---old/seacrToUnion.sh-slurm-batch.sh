@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=00:24:00
-#SBATCH --partition=exacloud
 #SBATCH --array=1-8
 
 PROJECT=/your/project/directory/

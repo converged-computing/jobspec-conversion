@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-sundae-7266
+#FLUX --job-name=blank-carrot-3563
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

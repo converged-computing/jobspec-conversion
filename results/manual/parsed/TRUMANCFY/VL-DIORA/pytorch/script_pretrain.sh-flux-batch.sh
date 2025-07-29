@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-poodle-8940
+#FLUX --job-name=grated-soup-2017
 #FLUX -c=5
 #FLUX --urgency=16
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-latke-3162
+#FLUX --job-name=lovely-fork-1338
 #FLUX -n=48
 #FLUX -t=3600
 #FLUX --urgency=16

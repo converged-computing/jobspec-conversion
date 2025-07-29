@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4Gb
 #SBATCH --time=01:00:00
-#SBATCH --partition=ci
 
 SCENARIO=$1
 N_AGENTS=$2

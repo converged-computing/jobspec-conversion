@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem-per-cpu=20000
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu_a100
 
 echo "Cuda device: $CUDA_VISIBLE_DEVICES"
 echo "======= Start memory test ======="

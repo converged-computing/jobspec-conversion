@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-leopard-8242
+#FLUX --job-name=ornery-gato-1712
 #FLUX --queue=amd-longq
 #FLUX --urgency=16
 

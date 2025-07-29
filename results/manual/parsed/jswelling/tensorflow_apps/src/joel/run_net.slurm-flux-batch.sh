@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=quirky-car-8394
+#FLUX --job-name=dinosaur-cherry-1215
 #FLUX --queue=GPU-shared
 #FLUX -t=14400
 #FLUX --urgency=16

@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=12000
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=cor,general
 #SBATCH --qos=long
 
 module use /opt/insy/modulefiles

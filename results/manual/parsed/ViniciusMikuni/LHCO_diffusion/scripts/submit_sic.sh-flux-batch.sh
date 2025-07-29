@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-fork-2433
+#FLUX --job-name=psycho-signal-5401
 #FLUX -n=16
 #FLUX --gpus-per-task=1
 #FLUX --queue=regular

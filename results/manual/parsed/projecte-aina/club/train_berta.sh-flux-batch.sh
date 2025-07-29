@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-dog-0237
+#FLUX --job-name=confused-onion-2430
 #FLUX -N=4
 #FLUX -n=16
 #FLUX -c=40

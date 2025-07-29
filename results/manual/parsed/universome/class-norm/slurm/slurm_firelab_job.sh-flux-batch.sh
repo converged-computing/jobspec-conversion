@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-lamp-4438
+#FLUX --job-name=creamy-destiny-9888
 #FLUX -c=2
 #FLUX -t=86400
 #FLUX --urgency=16

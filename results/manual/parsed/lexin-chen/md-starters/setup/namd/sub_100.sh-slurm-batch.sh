@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=25gb
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=colina
 
 ml cuda/10.0.130 namd/3.0

@@ -8,6 +8,5 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=64G
-#SBATCH --partition=all
 
 module load singularity/3.5.3

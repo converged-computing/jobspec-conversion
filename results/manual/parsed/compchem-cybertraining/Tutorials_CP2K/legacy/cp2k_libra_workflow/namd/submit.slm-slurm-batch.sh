@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=128000
 #SBATCH --time=02:00:00
-#SBATCH --partition=valhalla
 #SBATCH --qos=valhalla
 #SBATCH --constraint=ntasks-per-node=24
 

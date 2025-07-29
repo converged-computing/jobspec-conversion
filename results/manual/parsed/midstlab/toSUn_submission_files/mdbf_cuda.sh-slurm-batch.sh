@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:tesla_v100:1
 #SBATCH --time=15-00:00:00
-#SBATCH --partition=cuda
 #SBATCH --qos=cuda
 #SBATCH --constraint=ntasks-per-node=8
 

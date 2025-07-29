@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=psycho-noodle-7874
+#FLUX --job-name=expressive-lentil-9961
 #FLUX -n=3
 #FLUX -t=259200
 #FLUX --urgency=16

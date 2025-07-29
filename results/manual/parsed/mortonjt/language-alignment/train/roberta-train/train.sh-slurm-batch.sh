@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=8-08:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 ip=`curl ifconfig.me`
 module load cuda/10.1.105_418.39

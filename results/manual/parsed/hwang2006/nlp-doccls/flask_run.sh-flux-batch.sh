@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-dog-5171
+#FLUX --job-name=muffled-caramel-4825
 #FLUX -c=4
 #FLUX --queue=amd_a100nv_8
 #FLUX -t=3600

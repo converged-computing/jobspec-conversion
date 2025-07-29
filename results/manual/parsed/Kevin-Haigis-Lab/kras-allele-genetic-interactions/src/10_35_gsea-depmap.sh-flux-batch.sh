@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-bits-8063
+#FLUX --job-name=salted-hobbit-5213
 #FLUX -c=2
 #FLUX --queue=short
 #FLUX -t=270

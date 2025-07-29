@@ -7,6 +7,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --time=01:30:00
-#SBATCH --partition=ivy_v100_2
 
 srun python /scratch/kedu14/woojung/albert/mycode/albert_practice.py

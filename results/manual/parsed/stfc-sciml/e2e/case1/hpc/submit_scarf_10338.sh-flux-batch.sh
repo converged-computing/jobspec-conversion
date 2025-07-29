@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-avocado-0280
+#FLUX --job-name=reclusive-citrus-3583
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=scarf
 #FLUX -t=345600
 #FLUX --urgency=16

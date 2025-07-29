@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-caramel-2297
+#FLUX --job-name=expensive-leg-2950
 #FLUX -N=20
 #FLUX --queue=main
 #FLUX -t=1800

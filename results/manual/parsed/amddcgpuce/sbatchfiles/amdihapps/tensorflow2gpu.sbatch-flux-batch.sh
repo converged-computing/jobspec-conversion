@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-leader-6367
+#FLUX --job-name=loopy-kerfuffle-3083
 #FLUX -c=16
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=research
 
 module purge  # Clears all loaded modules for a clean environment.
 module load prun

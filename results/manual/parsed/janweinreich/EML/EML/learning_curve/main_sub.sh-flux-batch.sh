@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crunchy-knife-8953
+#FLUX --job-name=grated-banana-3455
 #FLUX -n=24
 #FLUX --queue=long
 #FLUX -t=172800

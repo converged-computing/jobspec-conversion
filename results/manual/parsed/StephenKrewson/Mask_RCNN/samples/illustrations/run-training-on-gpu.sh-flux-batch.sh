@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=ornery-bicycle-8770
+#FLUX --job-name=ornery-signal-3191
 #FLUX -c=4
 #FLUX -t=18000
 #FLUX --urgency=16

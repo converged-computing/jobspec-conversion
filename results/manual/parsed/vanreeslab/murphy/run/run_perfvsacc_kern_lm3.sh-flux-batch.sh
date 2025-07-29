@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-fork-2657
+#FLUX --job-name=doopy-lemur-5158
 #FLUX --queue=batch,debug
 #FLUX -t=21600
 #FLUX --urgency=16

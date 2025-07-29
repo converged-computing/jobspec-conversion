@@ -11,7 +11,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=80GB
 #SBATCH --time=07:00:00
-#SBATCH --partition=gpu
 
 source activate Zooniverse_pytorch
 python training_loop.py

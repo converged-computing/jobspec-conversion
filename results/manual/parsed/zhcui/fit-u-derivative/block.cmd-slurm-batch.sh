@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=28
 #SBATCH --mem=250000
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=parallel
 #SBATCH --constraint=ntasks-per-node=1
 
 export SLURM_MPI_TYPE='pmi2'

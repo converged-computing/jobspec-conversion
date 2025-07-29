@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-milkshake-7114
+#FLUX --job-name=reclusive-parsnip-9967
 #FLUX -n=14
 #FLUX -t=1500
 #FLUX --urgency=16

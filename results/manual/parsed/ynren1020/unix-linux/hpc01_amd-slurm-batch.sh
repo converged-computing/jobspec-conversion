@@ -5,7 +5,6 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12-08:00:00
-#SBATCH --partition=amd
 
 cd $SLURM_SUBMIT_DIR
 sh /usr/local/modules/profile.modules

@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
-#SBATCH --partition=<partition_name>
 #SBATCH --constraint=ntasks-per-node=4
 
 export PYTHONFAULTHANDLER='1'

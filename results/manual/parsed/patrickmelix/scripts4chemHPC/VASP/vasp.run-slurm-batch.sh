@@ -8,8 +8,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
 #SBATCH --time=04:00:00
-#SBATCH --partition=short
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=52,[quest7|quest8|quest9|quest10]
 
 ISTART_RESTART=1 #https://www.vasp.at/wiki/index.php/ISTART

@@ -5,8 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:19:59
-#SBATCH --partition=debug
-#SBATCH --licenses=cscratch1
 
 export PYTHONPATH=''
 

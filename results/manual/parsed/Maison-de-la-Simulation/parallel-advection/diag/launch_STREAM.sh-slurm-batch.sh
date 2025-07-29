@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpua100
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export HOME_FOLDER='/gpfs/users/millana'
 export CONTAINER_RUN='$CONTAINERSDIR/sycl-complete_latest.sif'

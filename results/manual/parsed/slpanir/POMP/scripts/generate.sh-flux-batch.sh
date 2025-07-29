@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=faux-bits-0540
+#FLUX --job-name=fat-lemon-4517
 #FLUX -n=8
 #FLUX --queue=priv_para
 #FLUX --urgency=16

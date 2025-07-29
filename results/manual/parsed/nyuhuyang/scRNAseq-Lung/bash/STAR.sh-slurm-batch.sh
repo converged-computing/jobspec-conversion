@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=64G
-#SBATCH --partition=panda
 
 echo "Job ID : $JOB_ID"  ${SLURM_ARRAY_TASK_ID}
 conda activate rnaseq

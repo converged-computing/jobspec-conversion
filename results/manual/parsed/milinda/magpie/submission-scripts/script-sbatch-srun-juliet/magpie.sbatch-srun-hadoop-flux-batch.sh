@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=hadoop-cluster
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=general
 #FLUX -t=85800
 #FLUX --urgency=16

@@ -8,7 +8,6 @@
 #SBATCH --time=00:29:00
 #SBATCH --qos=premium
 #SBATCH --constraint=haswell
-#SBATCH --licenses=SCRATCH
 
 set -u
 BATCH_START_TIME=$(date)

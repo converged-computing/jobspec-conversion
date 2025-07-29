@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=ornery-snack-6925
+#FLUX --job-name=carnivorous-punk-6939
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=a3
 #FLUX --urgency=16
 

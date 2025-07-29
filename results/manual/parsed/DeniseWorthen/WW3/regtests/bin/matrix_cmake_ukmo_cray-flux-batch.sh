@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-parsnip-0750
+#FLUX --job-name=fugly-chip-1117
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/DeniseWorthen/WW3/regtests/bin/matrix_cmake_ukmo_cray

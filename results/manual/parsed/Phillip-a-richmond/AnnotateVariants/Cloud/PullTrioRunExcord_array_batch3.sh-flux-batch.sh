@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-poo-5647
+#FLUX --job-name=misunderstood-pastry-9100
 #FLUX --urgency=16
 
 AnnotateVariantsDir=/shared/AnnotateVariants/

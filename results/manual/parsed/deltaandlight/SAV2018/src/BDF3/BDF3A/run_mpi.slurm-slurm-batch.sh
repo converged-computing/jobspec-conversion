@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=18:00:00
-#SBATCH --partition=cpu
 #SBATCH --constraint=ntasks-per-node=28
 
 export OMP_NUM_THREADS='1         # 设置全局 OpenMP 线程为1 '

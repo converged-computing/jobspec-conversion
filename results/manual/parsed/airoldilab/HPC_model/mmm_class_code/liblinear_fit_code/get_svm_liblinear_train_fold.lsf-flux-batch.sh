@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-hobbit-1626
+#FLUX --job-name=stanky-poodle-0779
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/airoldilab/HPC_model/mmm_class_code/liblinear_fit_code/get_svm_liblinear_train_fold.lsf

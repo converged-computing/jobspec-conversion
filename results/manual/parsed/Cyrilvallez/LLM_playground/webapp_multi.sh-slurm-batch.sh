@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=16G
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=nodes
 #SBATCH --chdir=/cluster/raid/home/vacy/LLM_playground
 
 eval "$(conda shell.bash hook)"

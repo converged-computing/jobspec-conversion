@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-cat-4349
+#FLUX --job-name=strawberry-bits-8634
 #FLUX -n=4
 #FLUX -c=8
 #FLUX -t=1800

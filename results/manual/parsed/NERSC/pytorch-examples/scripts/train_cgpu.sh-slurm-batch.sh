@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=gpu,ntasks-per-node=8
 
 module load pytorch/v1.5.1-gpu

@@ -7,7 +7,6 @@
 #SBATCH --time=03:00:00
 #SBATCH --qos=regular
 #SBATCH --constraint=haswell
-#SBATCH --licenses=project,SCRATCH
 
 export TMPDIR='$SCRATCH'
 

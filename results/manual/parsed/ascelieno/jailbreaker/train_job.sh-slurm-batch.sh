@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100:1
 #SBATCH --time=5-05:00:00
-#SBATCH --partition=amd_gpu
 
 ml GCCcore/11.3.0 Python/3.10.4
 source venv/bin/activate

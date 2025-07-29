@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=12G
-#SBATCH --partition=giocomo
 #SBATCH --constraint=ntasks-per-node=1
 
 ml py-tensorflow/2.1.0_py36

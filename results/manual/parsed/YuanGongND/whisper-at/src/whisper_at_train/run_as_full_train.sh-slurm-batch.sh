@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:1
 #SBATCH --mem=48000
-#SBATCH --partition=a5
 #SBATCH --qos=regular
 
 export TORCH_HOME='../../pretrained_models'

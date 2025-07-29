@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-signal-7378
+#FLUX --job-name=placid-kitty-0808
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX -t=3600

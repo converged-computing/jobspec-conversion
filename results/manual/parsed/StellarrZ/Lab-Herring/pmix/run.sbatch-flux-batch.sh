@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=exp
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=benchmark
 #FLUX --urgency=16
 

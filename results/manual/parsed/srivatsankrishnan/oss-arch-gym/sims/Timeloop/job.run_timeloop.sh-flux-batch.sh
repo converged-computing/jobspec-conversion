@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-pedo-1193
+#FLUX --job-name=tart-lemur-1052
 #FLUX -n=32
 #FLUX --queue=seas_dgx1
 #FLUX -t=86400

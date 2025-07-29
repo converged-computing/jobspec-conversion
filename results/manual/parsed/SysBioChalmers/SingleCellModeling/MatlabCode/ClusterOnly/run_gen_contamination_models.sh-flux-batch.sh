@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gassy-lemur-7500
+#FLUX --job-name=frigid-lizard-9047
 #FLUX -n=20
 #FLUX --queue=vera
 #FLUX -t=432000

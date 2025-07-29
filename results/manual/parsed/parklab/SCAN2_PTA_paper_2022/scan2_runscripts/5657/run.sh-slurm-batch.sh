@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=priopark
 
 /n/data1/hms/dbmi/park/jluquette/pta/scan-snv2/bin/scansnv \
     --ref /n/data1/hms/dbmi/park/jluquette/genotyper1/paper/resources/human_g1k_v37_decoy.fasta \

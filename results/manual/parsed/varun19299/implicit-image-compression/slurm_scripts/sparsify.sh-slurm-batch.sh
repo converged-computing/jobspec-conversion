@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:gtx1080:1
 #SBATCH --mem=4G
 #SBATCH --time=06:00:00
-#SBATCH --partition=batch_default
 
 echo "== Starting run at $(date)"
 echo "== Job ID: ${SLURM_JOB_ID}"

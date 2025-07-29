@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=fat-lettuce-2376
-#FLUX: --exclusive
+#FLUX --job-name=fuzzy-diablo-3077
+#FLUX --exclusive
 #FLUX -t=720
 #FLUX --urgency=16
 

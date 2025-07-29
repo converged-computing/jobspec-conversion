@@ -5,7 +5,6 @@
 #SBATCH --ntasks=19
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
-#SBATCH --partition=icelake
 
 export OMP_NUM_THREADS='4'
 export I_MPI_PIN_DOMAIN='omp:compact # Domains are $OMP_NUM_THREADS cores in size'

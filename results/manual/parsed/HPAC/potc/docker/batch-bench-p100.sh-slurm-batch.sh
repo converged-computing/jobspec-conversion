@@ -8,8 +8,7 @@
 #SBATCH --gres=gpu:pascal:2
 #SBATCH --mem=1024M
 #SBATCH --time=01:00:00
-#SBATCH --partition=c16g
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 set -e
 set -u

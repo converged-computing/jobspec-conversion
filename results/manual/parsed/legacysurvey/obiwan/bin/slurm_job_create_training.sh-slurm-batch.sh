@@ -5,9 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=debug
 #SBATCH --constraint=haswell
-#SBATCH --licenses=SCRATCH,project
 
 export which='sim'
 export bricks_fn='${CSCRATCH}/obiwan_out/elg_dr5_coadds/partially_done_bricks.txt'

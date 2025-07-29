@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --time=02:00:00
-#SBATCH --partition=savio2
 #SBATCH --qos=savio_normal
 
 export OMP_NUM_THREADS='$SLURM_CPUS_PER_TASK'

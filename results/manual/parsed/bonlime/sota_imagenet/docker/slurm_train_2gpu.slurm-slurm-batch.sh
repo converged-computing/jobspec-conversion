@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=2
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=gpu
 
 python3 -m torch.distributed.launch \
     --nproc_per_node=2 \

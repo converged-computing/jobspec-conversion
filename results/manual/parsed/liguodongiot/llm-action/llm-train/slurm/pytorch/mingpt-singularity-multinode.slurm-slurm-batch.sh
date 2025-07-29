@@ -6,7 +6,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:4
-#SBATCH --partition=a800
 
 export NCCL_IB_DISABLE='1'
 export NCCL_SOCKET_IFNAME='bond0'

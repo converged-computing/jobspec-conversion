@@ -5,8 +5,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=a5000ada
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --nodelist=c32
 
 export PYTHONPATH='.'

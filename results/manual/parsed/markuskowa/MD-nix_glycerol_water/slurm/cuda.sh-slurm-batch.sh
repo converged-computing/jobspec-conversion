@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a100:4
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=ampere
 
 export OMP_NUM_THREADS='$ntomp'
 

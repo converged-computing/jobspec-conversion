@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-omelette-2207
+#FLUX --job-name=lovable-fudge-9283
 #FLUX -c=4
 #FLUX --queue=bii
 #FLUX -t=14400

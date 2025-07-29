@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-lizard-1763
-#FLUX: --exclusive
+#FLUX --job-name=stanky-rabbit-6312
+#FLUX --exclusive
 #FLUX --queue=k80_q
 #FLUX -t=172800
 #FLUX --urgency=16

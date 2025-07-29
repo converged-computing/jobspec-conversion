@@ -2,7 +2,7 @@
 #FLUX --job-name=PrototypeTest
 #FLUX -N=2
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=batch
 #FLUX -t=1800
 #FLUX --urgency=16

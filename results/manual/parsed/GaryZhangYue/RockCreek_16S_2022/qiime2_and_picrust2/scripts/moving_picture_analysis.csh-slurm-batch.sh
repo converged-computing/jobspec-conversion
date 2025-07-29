@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=20G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=lrgmem
 
 module load qiime2/2018.8
 source ../config_files/moving_picture_analysis.config

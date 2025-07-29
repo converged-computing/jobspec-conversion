@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-blackbean-3405
+#FLUX --job-name=moolicious-nalgas-8903
 #FLUX -n=96
 #FLUX --queue=genoa
 #FLUX -t=43200

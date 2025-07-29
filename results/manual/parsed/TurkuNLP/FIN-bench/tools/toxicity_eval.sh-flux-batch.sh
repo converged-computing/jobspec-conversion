@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=run_eval
 #FLUX -c=60
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=small-g
 #FLUX -t=9000
 #FLUX --urgency=16

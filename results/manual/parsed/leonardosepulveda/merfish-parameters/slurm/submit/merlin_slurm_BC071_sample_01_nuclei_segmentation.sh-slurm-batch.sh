@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=zhuang,shared
 
 date +'Starting at %R.'
 source centos7-modules.sh

@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=2G
-#SBATCH --partition=long
 
 Usage="svaba.sh <prefix> <reference_assembly.fa> <directory_containing_BAM_Files> <output_directory>"
 echo "$Usage"

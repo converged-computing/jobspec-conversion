@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-avocado-7064
+#FLUX --job-name=red-car-7502
 #FLUX -n=32
 #FLUX --queue=defq
 #FLUX -t=87840

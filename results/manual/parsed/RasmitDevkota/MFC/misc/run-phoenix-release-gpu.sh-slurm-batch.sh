@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=embers
 
 cd "$SLURM_SUBMIT_DIR"
 echo "Running in $(pwd):"

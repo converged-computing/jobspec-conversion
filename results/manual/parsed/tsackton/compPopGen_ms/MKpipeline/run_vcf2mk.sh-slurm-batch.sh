@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000
 #SBATCH --time=6-06:00:00
-#SBATCH --partition=holy-info
 
 module purge
 module load Anaconda3/2020.11

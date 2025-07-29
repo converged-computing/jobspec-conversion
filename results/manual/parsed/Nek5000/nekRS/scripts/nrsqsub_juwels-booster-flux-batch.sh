@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-nalgas-8541
+#FLUX --job-name=carnivorous-animal-0798
 #FLUX --urgency=16
 
 export ROMIO_HINTS='$(pwd)/.romio_hint'

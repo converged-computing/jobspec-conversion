@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6G
-#SBATCH --partition=upgrade
 #SBATCH --chdir=/projects/ovcare/classification/singularity_modules/singularity_auto_annotate
 #SBATCH --array=1-793
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-truffle-2212
+#FLUX --job-name=joyous-destiny-8585
 #FLUX -n=3
 #FLUX --queue=gpu
 #FLUX -t=180000

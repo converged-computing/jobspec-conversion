@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=14-00:00:00
-#SBATCH --partition=cpu
 #SBATCH --constraint=ntasks-per-node=28
 
 module load tools/git/2.18.0

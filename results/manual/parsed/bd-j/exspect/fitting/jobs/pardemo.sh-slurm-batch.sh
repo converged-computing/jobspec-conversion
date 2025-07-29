@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4000
 #SBATCH --time=12:00:00
-#SBATCH --partition=conroy,shared
 #SBATCH --constraint=intel
 
 export GROUP='conroy_lab'

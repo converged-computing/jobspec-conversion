@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
 #SBATCH --time=16:00:00
-#SBATCH --partition=rtx6000,t4v1,t4v2,p100
 
 export PYTHONPATH='$PYTHONPATH:/h/voelcker/Code/project_codebases/vagram_quadratic'
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/usr/lib/nvidia'

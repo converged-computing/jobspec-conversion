@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=carnivorous-sundae-6152
+#FLUX --job-name=dirty-carrot-0001
 #FLUX -n=4
 #FLUX -t=360000
 #FLUX --urgency=16

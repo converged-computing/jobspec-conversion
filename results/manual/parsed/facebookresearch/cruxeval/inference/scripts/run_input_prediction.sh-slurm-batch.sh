@@ -7,7 +7,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=0GB
 #SBATCH --time=03:00:00
-#SBATCH --partition=YOUR_PARTITION_HERE
 #SBATCH --array=0-1
 
 dirs=(

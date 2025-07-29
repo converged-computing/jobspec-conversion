@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=gpu_p
 #SBATCH --qos=gpu_long
 
 CUDA_VISIBLE_DEVICES=0

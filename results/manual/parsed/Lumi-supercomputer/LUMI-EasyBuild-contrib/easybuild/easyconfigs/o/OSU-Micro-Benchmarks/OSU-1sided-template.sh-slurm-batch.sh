@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=standard
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 echo -e "Case run:\n"
 cat $0

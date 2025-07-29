@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-pot-1551
+#FLUX --job-name=adorable-onion-2494
 #FLUX -c=12
 #FLUX --queue=ccr
 #FLUX -t=259200

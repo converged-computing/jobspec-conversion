@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:gtx1080ti:1
 #SBATCH --mem=32G
 #SBATCH --time=05:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=job_gpu
 
 cd /storage/homefs/ch19g182/Python/Denoising-Normalizing-Flow-master/experiments

@@ -2,7 +2,6 @@
 #SBATCH --nodes=16
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=scaling
 #SBATCH --constraint=ntasks-per-node=16
 
 export MPIP='-t 10.0'

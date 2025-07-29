@@ -9,7 +9,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=128G
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu-rtx6k
 
 export TRANSFORMERS_CACHE='/gscratch/zlab/bparan/projects/transformers_cache'
 

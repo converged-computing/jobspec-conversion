@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=install-pennylane+qiskit-source-rocm-setonix
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu-dev
 #FLUX -t=1800
 #FLUX --urgency=16

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:rtx2080ti:1
 #SBATCH --time=4-00:01:00
-#SBATCH --partition=slurm_sbel_cmg
 #SBATCH --qos=cmg_owner
 
 module load usermods

@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=48gb
 #SBATCH --time=03:00:00
-#SBATCH --partition=ram256g,ram1t,amdsmall,amdlarge,amd512,amd2tb
 #SBATCH --constraint=ntasks-per-node=8
 
 set -e

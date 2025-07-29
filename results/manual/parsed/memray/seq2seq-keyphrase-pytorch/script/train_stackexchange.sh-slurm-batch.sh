@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64GB
 #SBATCH --time=6-00:00:00
-#SBATCH --partition=titanx
 #SBATCH --qos=long
 #SBATCH --constraint=ntasks-per-node=1
 

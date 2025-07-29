@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-gato-2234
+#FLUX --job-name=dinosaur-egg-6091
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/augmented-pokoban/pokoban-agent/submit_policy.sh

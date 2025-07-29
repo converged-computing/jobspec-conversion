@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=confused-spoon-9649
+#FLUX --job-name=outstanding-hobbit-2058
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/jacobmerson/pcms_testcases/cyclone/Cyclone_ITG_deltaf_590kmesh/run_summit_coupled.sh

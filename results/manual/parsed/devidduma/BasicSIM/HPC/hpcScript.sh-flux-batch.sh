@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-lentil-9825
+#FLUX --job-name=fuzzy-citrus-6530
 #FLUX --queue=computeq
 #FLUX -t=300
 #FLUX --urgency=16

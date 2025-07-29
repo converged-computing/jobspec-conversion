@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-mango-3675
+#FLUX --job-name=placid-leopard-8903
 #FLUX --queue=short
 #FLUX -t=240
 #FLUX --urgency=16

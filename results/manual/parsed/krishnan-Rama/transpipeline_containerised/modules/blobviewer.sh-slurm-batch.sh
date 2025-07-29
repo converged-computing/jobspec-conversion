@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=1000
-#SBATCH --partition=epyc
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'
 export blob='$WORKINGDIR/blobtools'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-house-4092
+#FLUX --job-name=bloated-earthworm-6592
 #FLUX --queue=64c512g
 #FLUX --urgency=16
 

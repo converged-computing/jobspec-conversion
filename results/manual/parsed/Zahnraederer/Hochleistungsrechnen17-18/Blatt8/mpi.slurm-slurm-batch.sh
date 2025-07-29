@@ -5,7 +5,6 @@
 #SBATCH --ntasks=3
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:01:00
-#SBATCH --partition=west
 
 . /etc/profile.d/wr-spack.sh
 spack load --dependencies mpi

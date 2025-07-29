@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=100G
 #SBATCH --time=01:00:00
-#SBATCH --partition=rimlsfnwi
 #SBATCH --array=1
 
 wd=/ceph/rimlsfnwi/data/cellbio/mhlanga/thsieh

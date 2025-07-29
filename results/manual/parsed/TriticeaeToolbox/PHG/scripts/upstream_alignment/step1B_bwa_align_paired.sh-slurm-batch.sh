@@ -8,7 +8,6 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=short
 
 module load samtools/1.9
 module load miniconda/3.6

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-kitty-6741
+#FLUX --job-name=angry-train-8668
 #FLUX -c=8
 #FLUX --queue=day
 #FLUX -t=86400

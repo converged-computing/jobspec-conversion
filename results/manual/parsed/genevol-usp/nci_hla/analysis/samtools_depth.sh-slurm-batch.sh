@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=8gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=long
 #SBATCH --array=1-96
 
 SAMPLELIST=${SLURM_SUBMIT_DIR}/sample_ids_t1.txt

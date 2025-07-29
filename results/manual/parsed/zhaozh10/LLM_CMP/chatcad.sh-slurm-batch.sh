@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=10:00:00
-#SBATCH --partition=bme_gpu4
 #SBATCH --constraint=ntasks-per-node=1
 
 nvidia-smi

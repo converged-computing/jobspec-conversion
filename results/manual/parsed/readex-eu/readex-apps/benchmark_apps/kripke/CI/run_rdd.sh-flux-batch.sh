@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=READEX_kripke
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=haswell
 #FLUX -t=3600
 #FLUX --urgency=16

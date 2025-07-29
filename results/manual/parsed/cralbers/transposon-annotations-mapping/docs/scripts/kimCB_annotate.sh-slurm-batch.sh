@@ -9,7 +9,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=13-23:59:00
-#SBATCH --partition=long
 #SBATCH --constraint=ntasks-per-node=28
 
 module load python3/3.7.5

@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=64G
 #SBATCH --time=00:08:00
-#SBATCH --partition=gpuq
 #SBATCH --qos=gpu
 
 echo  "$(which singularity)"

@@ -6,7 +6,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=4000M
 #SBATCH --time=03:00:00
-#SBATCH --partition=gpu
 
 module load intel/2020.4  ompi/4.1.2 lammps-gpu/24Mar22
 echo "Starting run at: `date`"

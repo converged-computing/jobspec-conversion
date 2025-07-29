@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-diablo-0282
+#FLUX --job-name=pusheena-chip-3076
 #FLUX -n=10
 #FLUX --queue=ghpc
 #FLUX -t=86400

@@ -7,6 +7,5 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50G
 #SBATCH --time=5-10:00:00
-#SBATCH --partition=gpu
 
 python < /gpfsnyu/home/yz6492/on-lstm/code/main.py

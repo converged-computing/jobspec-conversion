@@ -3,7 +3,6 @@
 #SBATCH --ntasks=64
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:01:00
-#SBATCH --partition=broadwell
 
 export KMP_BLOCKTIME='0'
 export KMP_AFFINITY='granularity=fine,verbose,compact,1,0'

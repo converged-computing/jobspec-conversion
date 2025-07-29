@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10:00:00
-#SBATCH --partition=toreador
 #SBATCH --constraint=ntasks-per-node=16
 
 module load gcc cuda

@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=med2
 #SBATCH --array=0-3
 
 export t='$SLURM_ARRAY_TASK_ID'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-caramel-4277
+#FLUX --job-name=phat-fudge-6827
 #FLUX --queue=overflow
 #FLUX -t=864000
 #FLUX --urgency=16

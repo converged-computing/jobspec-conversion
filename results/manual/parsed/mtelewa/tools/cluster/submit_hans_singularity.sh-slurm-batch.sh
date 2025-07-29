@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=single
 #SBATCH --constraint=ntasks-per-node=5
 
 export KMP_AFFINITY='compact,1,0'

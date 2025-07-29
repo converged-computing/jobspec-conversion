@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=phat-onion-3922
+#FLUX --job-name=purple-nunchucks-7926
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/Nicholas-Kron/fOpsBet2.1_assembly/HPC_Shell_Scripts_Jobs/make_LAI_jobs.sh

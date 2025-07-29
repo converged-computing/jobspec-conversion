@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32000M
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu_shared_course
 
 SBATCH --output=resnet_18.out
 module purge

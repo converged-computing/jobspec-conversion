@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=5GB
 #SBATCH --time=10:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=20
 
 SUB=sub-7032

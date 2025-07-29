@@ -8,7 +8,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=8gb
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=standard
 
 module load cuda/10.1.243
 module load namd/2.14b2/gcc.8.4.0-cuda.10.1.243

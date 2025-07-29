@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
-#SBATCH --partition=normal
 
 echo $CUDA_VISIBLE_DEVICES
 mpirun -n ${SLURM_NTASKS} /lammps/lammps_kokkos2/src/lmp_kokkos_cuda_mpi -k on g ${SLURM_NTASKS} -sf kk -pk kokkos newton on neigh half binsize 7.5 $@

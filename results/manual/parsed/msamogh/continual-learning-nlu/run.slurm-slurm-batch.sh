@@ -8,7 +8,6 @@
 #SBATCH --gres=a100:7
 #SBATCH --mem=60gb
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=boyer
 
 module load git

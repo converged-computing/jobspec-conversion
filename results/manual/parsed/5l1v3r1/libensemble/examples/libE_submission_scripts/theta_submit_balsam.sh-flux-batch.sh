@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=evasive-bicycle-6514
+#FLUX --job-name=boopy-staircase-6373
 #FLUX --urgency=16
 

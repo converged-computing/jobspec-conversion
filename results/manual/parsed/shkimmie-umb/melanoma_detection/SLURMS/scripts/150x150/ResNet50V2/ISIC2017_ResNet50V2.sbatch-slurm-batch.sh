@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:A100:1
 #SBATCH --mem-per-cpu=200gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=haehn_unlim
 #SBATCH --nodelist=chimera13
 
 eval "$(conda shell.bash hook)"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-truffle-9722
+#FLUX --job-name=reclusive-eagle-8699
 #FLUX -N=4
 #FLUX --queue=gpu_titanrtx
 #FLUX -t=43200

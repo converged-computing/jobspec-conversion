@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=debug
 
 export LD_LIBRARY_PATH='/opt/mpich-3.4.1/lib:$LD_LIBRARY_PATH'
 export PATH='/opt/mpich-3.4.1/bin:$PATH'

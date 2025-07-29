@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=regular
 
 export OMPI_ROOT='/project/projectdirs/atom/users/elwasif/ompi/install_4.0'
 export PATH='$OMPI_ROOT/bin:$PATH'

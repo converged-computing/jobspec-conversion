@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --mem=20GB
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 export PATH='${PATH}:/home/b.weinstein/miniconda/envs/DeepLidar/bin/'
 export PYTHONPATH='${PYTHONPATH}:/home/b.weinstein/miniconda/envs/DeepLidar/lib/python3.6/site-packages/'

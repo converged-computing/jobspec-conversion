@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=250G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=whwong
 
 ml load cuda/10.1.105
 ml load cudnn/7.6.5

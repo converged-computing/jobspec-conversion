@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=blue-plant-2912
-#FLUX: --exclusive
+#FLUX --job-name=red-sundae-5627
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export NCCL_IB_PCI_RELAXED_ORDERING='1'

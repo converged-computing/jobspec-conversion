@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:10:30
-#SBATCH --partition=gpu_a100_8
 
 spack load anaconda3@2022.05
 conda init bash

@@ -8,7 +8,6 @@
 #SBATCH --gres=ssd
 #SBATCH --mem=3G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=milan
 #SBATCH --array=0
 
 export PATH='/nesi/project/landcare03691/fcs-gx/scripts:$PATH'

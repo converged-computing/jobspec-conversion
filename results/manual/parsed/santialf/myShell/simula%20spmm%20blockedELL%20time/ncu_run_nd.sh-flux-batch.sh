@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-plant-1362
+#FLUX --job-name=gloopy-destiny-1349
 #FLUX --queue=a100q
 #FLUX -t=900
 #FLUX --urgency=16

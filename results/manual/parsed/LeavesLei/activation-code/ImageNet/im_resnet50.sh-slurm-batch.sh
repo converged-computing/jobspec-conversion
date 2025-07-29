@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gres=gpu:1
 #SBATCH --time=20:00:00
-#SBATCH --partition=nips
 #SBATCH --constraint=ntasks-per-node=1
 
 cd /public/data1/users/leishiye

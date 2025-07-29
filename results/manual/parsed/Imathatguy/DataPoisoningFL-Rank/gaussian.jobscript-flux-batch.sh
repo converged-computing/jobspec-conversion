@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-signal-5805
+#FLUX --job-name=buttery-blackbean-0455
 #FLUX -t=7200
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=450GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=devlab
 #SBATCH --constraint=volta32gb,ntasks-per-node=8
 
 export GLOG_minloglevel='2'

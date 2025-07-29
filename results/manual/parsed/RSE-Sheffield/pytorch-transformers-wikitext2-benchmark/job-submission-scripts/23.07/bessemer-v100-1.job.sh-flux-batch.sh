@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-lettuce-8366
+#FLUX --job-name=gassy-egg-5970
 #FLUX -c=10
 #FLUX --queue=dcs-gpu
 #FLUX -t=7200

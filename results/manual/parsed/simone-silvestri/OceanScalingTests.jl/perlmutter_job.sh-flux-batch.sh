@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chunky-dog-4770
+#FLUX --job-name=bloated-car-7303
 #FLUX -c=32
 #FLUX --gpus-per-task=1
 #FLUX --queue=regular

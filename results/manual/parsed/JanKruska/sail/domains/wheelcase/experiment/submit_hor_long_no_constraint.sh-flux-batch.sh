@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-toaster-0312
-#FLUX: --exclusive
+#FLUX --job-name=delicious-underoos-4492
+#FLUX --exclusive
 #FLUX --queue=hpc
 #FLUX -t=259200
 #FLUX --urgency=16

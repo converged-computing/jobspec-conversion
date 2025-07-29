@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=256G
 #SBATCH --time=10:00:00
-#SBATCH --partition=gpu
 #SBATCH --constraint=ntasks-per-node=1
 
 export SINGULARITY_TMPDIR='/scratch/user/uqadaqu1/tmp/ '

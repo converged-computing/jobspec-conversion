@@ -4,8 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=main
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export SINGULARITY_BIND='/home/e1garcia  #odu'
 

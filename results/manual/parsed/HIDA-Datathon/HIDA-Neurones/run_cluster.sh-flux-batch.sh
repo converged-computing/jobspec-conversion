@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=HIDA-20
 #FLUX -N=3
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=pGPU
 #FLUX -t=28800
 #FLUX --urgency=16

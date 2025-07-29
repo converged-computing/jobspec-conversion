@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-parrot-6353
+#FLUX --job-name=ornery-buttface-1820
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

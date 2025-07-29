@@ -7,8 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=25-00:00:00
-#SBATCH --partition=stsi
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module purge
 module load samtools/1.10

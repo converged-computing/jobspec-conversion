@@ -7,6 +7,5 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4gb
-#SBATCH --partition=teaching
 
 julia worker.jl ${SLURM_ARRAY_TASK_ID} 0

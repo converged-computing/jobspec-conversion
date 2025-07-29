@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30000
-#SBATCH --partition=gpu
 #SBATCH --exclude=sls-titan-[0-2]
 
 export TORCH_HOME='.'

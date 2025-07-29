@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=08:00:00
-#SBATCH --partition=intel
 
 date
 module load trimmomatic

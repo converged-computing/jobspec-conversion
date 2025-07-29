@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=tart-truffle-5052
+#FLUX --job-name=outstanding-frito-9524
 #FLUX -N=2
 #FLUX -n=80
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=prod
 #FLUX -t=28800
 #FLUX --urgency=16

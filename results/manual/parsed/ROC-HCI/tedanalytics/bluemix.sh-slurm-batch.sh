@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1gb
 #SBATCH --time=01:00:00
-#SBATCH --partition=standard
 #SBATCH --array=0-75
 
 module load anaconda

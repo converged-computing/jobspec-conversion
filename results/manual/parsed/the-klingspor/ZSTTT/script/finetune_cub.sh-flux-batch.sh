@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-kitty-1189
+#FLUX --job-name=blank-lemur-1182
 #FLUX -c=8
 #FLUX --queue=gpu-2080ti
 #FLUX -t=259200

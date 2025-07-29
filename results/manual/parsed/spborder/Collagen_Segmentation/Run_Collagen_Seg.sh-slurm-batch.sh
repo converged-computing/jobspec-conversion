@@ -7,7 +7,6 @@
 #SBATCH --gres=geforce:1
 #SBATCH --mem=80gb
 #SBATCH --time=1-01:00:00
-#SBATCH --partition=gpu
 #SBATCH --qos=pinaki.sarder
 
 export NEPTUNE_API_TOKEN='eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiJjNzllZGRmMC0yMzg2LTRhMzktOTk1MC1hNDc2MDlkNjVkYTMifQ=='

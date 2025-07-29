@@ -7,10 +7,9 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=208G
 #SBATCH --time=18:00:00
-#SBATCH --partition=gpuA100x4
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1,scratch&projects
-#SBATCH: --no-requeue
+#SBATCH --no-requeue
 
 module reset # drop modules and explicitly load the ones needed
              # (good job metadata and reproducibility)

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-ricecake-5407
+#FLUX --job-name=phat-puppy-9785
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/readex-eu/readex-apps/benchmark_apps/kripke/scripts_salomon/run_meric_plain.sh

@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --time=08:00:00
-#SBATCH --partition=dgx2q
 
 echo "Loading modules"
 module use /cm/shared/ex3-modules/latest/modulefiles

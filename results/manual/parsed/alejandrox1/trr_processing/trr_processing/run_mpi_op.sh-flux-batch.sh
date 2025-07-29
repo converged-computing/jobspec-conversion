@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-itch-7171
-#FLUX: --exclusive
+#FLUX --job-name=pusheena-chair-6370
+#FLUX --exclusive
 #FLUX -t=172800
 #FLUX --urgency=16
 

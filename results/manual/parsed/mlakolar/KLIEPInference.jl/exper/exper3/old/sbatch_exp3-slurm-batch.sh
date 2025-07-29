@@ -3,7 +3,6 @@
 #SBATCH --ntasks=168
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-12:00:00
-#SBATCH --partition=broadwl
 
 module load parallel
 module load hdf5

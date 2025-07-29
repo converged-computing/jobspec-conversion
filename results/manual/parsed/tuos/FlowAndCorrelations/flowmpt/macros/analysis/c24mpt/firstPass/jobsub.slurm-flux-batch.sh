@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bumfuzzled-cat-1475
+#FLUX --job-name=scruptious-parsnip-2301
 #FLUX -t=244800
 #FLUX --urgency=16
 

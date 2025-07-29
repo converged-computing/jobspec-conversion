@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --time=01:30:00
-#SBATCH --partition=fast
 
 export OMP_NUM_THREADS='40'
 

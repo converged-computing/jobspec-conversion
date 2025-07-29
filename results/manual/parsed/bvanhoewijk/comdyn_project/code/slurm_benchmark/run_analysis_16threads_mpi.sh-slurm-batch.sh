@@ -3,8 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=00:10:00
-#SBATCH --partition=rome
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 module load 2022
 module load GROMACS/2021.6-foss-2022a

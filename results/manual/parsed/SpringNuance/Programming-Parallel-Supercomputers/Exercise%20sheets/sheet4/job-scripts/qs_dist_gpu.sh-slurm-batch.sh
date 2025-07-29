@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=500M
 #SBATCH --time=00:05:00
-#SBATCH --partition=courses-gpu
 #SBATCH --constraint=ntasks-per-node=2
 
 export OMPI_MCA_opal_warn_on_missing_libcuda='0'

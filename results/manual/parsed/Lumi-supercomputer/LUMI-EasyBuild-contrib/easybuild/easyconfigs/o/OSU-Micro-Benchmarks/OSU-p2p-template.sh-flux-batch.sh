@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=OSU-p2p
 #FLUX -N=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard
 #FLUX -t=600
 #FLUX --urgency=16

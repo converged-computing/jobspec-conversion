@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-lamp-8747
+#FLUX --job-name=frigid-staircase-5745
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

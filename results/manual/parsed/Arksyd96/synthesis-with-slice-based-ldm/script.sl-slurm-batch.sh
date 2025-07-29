@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=50000
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpu_all
 #SBATCH --constraint=ntasks-per-node=4
 
 export PYTHONUSERBASE='/home/2021012/sruan01/riles/env'

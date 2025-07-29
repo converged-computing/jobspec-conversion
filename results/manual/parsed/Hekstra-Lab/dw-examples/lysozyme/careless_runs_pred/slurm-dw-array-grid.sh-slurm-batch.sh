@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32G
 #SBATCH --time=00:01:30
-#SBATCH --partition=gpu_requeue,seas_gpu
 #SBATCH --constraint=v100
 #SBATCH --array=2-46
 

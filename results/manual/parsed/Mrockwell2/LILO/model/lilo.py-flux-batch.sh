@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-squidward-6833
+#FLUX --job-name=muffled-despacito-1949
 #FLUX --queue=RM
 #FLUX -t=18000
 #FLUX --urgency=16

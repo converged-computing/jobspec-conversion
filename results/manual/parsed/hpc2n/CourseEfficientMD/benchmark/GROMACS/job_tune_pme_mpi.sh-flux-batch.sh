@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-frito-8710
+#FLUX --job-name=carnivorous-soup-3095
 #FLUX -n=4
 #FLUX -c=7
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=600
 #FLUX --urgency=16
 

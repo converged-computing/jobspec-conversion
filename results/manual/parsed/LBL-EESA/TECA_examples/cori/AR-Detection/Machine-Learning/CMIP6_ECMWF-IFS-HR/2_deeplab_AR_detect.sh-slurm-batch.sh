@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:45:00
-#SBATCH --partition=regular
 #SBATCH --constraint=knl
 
 module swap PrgEnv-intel PrgEnv-gnu

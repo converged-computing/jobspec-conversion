@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-eagle-8575
+#FLUX --job-name=peachy-fudge-6013
 #FLUX -c=8
 #FLUX --queue=gpuq-dev
 #FLUX -t=3600

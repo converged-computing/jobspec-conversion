@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=joyous-sundae-1482
-#FLUX: --exclusive
+#FLUX --job-name=arid-leg-9321
+#FLUX --exclusive
 #FLUX --queue=normal_q
 #FLUX -t=288000
 #FLUX --urgency=16

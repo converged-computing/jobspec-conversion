@@ -2,7 +2,7 @@
 #FLUX --job-name=docker-hpl
 #FLUX -N=16
 #FLUX -c=12
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=top500
 #FLUX -t=1200
 #FLUX --urgency=16

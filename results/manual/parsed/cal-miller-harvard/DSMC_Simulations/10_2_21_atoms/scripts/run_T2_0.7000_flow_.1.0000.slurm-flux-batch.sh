@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-avocado-4877
+#FLUX --job-name=conspicuous-train-1412
 #FLUX -n=2
 #FLUX --queue=shared
 #FLUX -t=480

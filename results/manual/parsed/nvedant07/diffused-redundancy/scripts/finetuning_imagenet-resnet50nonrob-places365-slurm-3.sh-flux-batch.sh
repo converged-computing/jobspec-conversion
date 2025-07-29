@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-parsnip-7109
+#FLUX --job-name=quirky-chip-2866
 #FLUX -c=16
 #FLUX --queue=a100
 #FLUX -t=345600

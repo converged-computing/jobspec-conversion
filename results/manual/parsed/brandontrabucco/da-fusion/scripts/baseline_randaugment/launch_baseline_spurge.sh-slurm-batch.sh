@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32g
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=russ_reserved
 #SBATCH --array=0-39
 #SBATCH --exclude=matrix-1-12,matrix-0-24,matrix-1-4,matrix-2-13,matrix-1-8
 

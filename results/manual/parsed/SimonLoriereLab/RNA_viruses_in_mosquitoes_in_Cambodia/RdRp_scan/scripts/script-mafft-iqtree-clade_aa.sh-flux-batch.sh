@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=lovable-knife-7386
+#FLUX --job-name=placid-diablo-3201
 #FLUX -c=47
 #FLUX --queue=geva
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-hippo-8536
+#FLUX --job-name=eccentric-caramel-3921
 #FLUX -c=24
 #FLUX --queue=demultiplexing
 #FLUX --urgency=16

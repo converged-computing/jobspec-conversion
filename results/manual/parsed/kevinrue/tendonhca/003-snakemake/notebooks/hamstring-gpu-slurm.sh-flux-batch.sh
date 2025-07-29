@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-signal-1605
+#FLUX --job-name=milky-motorcycle-4201
 #FLUX --queue=gpu
 #FLUX -t=3600
 #FLUX --urgency=16

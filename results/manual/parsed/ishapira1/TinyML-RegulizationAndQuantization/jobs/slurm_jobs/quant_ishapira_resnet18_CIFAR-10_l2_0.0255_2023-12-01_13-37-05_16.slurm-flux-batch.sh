@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-underoos-2686
+#FLUX --job-name=conspicuous-destiny-5020
 #FLUX --queue=seas_gpu
 #FLUX -t=36000
 #FLUX --urgency=16

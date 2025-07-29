@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=crusty-cat-6956
+#FLUX --job-name=boopy-chip-7822
 #FLUX -N=4
 #FLUX -c=7
 #FLUX --queue=smallmem,serial,parallel

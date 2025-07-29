@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blue-kerfuffle-6213
+#FLUX --job-name=expressive-bits-9949
 #FLUX -c=2
 #FLUX --queue=gpu
 #FLUX --urgency=16

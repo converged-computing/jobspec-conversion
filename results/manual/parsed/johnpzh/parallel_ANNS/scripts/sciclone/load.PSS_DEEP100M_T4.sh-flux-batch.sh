@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-peanut-7690
+#FLUX --job-name=faux-lemur-3495
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/johnpzh/parallel_ANNS/scripts/sciclone/load.PSS_DEEP100M_T4.sh

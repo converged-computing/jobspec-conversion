@@ -4,7 +4,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=bosch_cpu-cascadelake
 #SBATCH --array=1-25
 
 source activate dac

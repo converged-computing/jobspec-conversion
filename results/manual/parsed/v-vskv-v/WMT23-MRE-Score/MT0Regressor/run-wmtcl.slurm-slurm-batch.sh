@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=256GB
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=intel-a100-pci3
 #SBATCH --constraint=ntasks-per-node=1
 
 echo "Starting at `date` on `hostname` at `pwd`"

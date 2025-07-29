@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hello-fork-5667
+#FLUX --job-name=delicious-butter-5717
 #FLUX --queue=work
 #FLUX --urgency=16
 

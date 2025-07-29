@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:00:01
-#SBATCH --partition=htc
 #SBATCH --array=1-4
 
 module purge

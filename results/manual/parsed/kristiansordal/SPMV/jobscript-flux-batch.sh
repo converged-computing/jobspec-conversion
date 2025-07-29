@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-lentil-3918
+#FLUX --job-name=sticky-nunchucks-3243
 #FLUX -n=8
 #FLUX --queue=rome16q
 #FLUX -t=240

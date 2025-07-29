@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-poo-0507
+#FLUX --job-name=bumfuzzled-frito-8563
 #FLUX --queue=slurm_sbel_cmg
 #FLUX -t=345660
 #FLUX --urgency=16

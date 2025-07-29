@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-soup-6876
+#FLUX --job-name=angry-lamp-5056
 #FLUX -c=20
 #FLUX --queue=high
 #FLUX -t=21600

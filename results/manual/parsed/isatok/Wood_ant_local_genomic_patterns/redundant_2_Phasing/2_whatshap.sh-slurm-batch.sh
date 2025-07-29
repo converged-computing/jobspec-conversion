@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=25G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=small
 #SBATCH --array=1-101
 
 export PATH='/projappl/project_2001443/whatshapenv/bin:$PATH" '

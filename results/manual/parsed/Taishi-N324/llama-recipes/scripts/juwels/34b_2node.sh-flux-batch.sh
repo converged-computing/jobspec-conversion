@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-cupcake-4376
+#FLUX --job-name=reclusive-cupcake-5322
 #FLUX -N=64
 #FLUX -c=10
 #FLUX --queue=booster

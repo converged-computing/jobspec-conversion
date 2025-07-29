@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-earthworm-2954
+#FLUX --job-name=bumfuzzled-underoos-3925
 #FLUX -n=24
 #FLUX --queue=shared
 #FLUX -t=480

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fuzzy-sundae-1106
+#FLUX --job-name=placid-bits-4066
 #FLUX -N=4
 #FLUX -c=2
 #FLUX -t=86400

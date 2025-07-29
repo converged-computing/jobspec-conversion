@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:P100:1
 #SBATCH --mem=16000
 #SBATCH --time=01:00:00
-#SBATCH --partition=GPUQ
 
 module load PyTorch/1.7.1-fosscuda-2020b
 source venv/bin/activate

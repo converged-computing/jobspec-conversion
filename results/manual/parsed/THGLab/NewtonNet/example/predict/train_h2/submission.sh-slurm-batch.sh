@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=16G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=es1
 #SBATCH --qos=condo_ninjaone_es1
 #SBATCH --constraint=es1_2080ti
 

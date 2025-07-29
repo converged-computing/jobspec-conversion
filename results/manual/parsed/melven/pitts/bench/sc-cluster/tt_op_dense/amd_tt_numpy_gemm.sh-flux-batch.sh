@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dirty-destiny-4517
+#FLUX --job-name=confused-lemur-7098
 #FLUX -c=64
 #FLUX --queue=amd
 #FLUX -t=180000

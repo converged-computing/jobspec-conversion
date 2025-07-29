@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=blank-toaster-2143
+#FLUX --job-name=expressive-gato-7133
 #FLUX -n=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=sapphire
 #FLUX -t=5400
 #FLUX --urgency=16

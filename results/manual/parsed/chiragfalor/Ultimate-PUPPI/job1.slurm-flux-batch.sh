@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=sluma_4GPUs
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=sched_system_all_8
 #FLUX -t=43200
 #FLUX --urgency=16

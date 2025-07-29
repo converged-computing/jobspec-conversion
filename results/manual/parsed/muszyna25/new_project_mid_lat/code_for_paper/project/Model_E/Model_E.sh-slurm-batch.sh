@@ -7,7 +7,6 @@
 #SBATCH --time=1-00:00:00
 #SBATCH --qos=regular
 #SBATCH --constraint=knl
-#SBATCH --licenses=SCRATCH
 
 set -u
 BATCH_START_TIME=$(date)

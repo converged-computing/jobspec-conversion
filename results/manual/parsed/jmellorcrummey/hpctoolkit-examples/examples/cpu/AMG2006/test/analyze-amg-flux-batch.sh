@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-toaster-0579
-#FLUX: --exclusive
+#FLUX --job-name=psycho-rabbit-8239
+#FLUX --exclusive
 #FLUX --queue=interactive
 #FLUX -t=60
 #FLUX --urgency=16

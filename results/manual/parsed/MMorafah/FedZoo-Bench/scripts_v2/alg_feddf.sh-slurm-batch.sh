@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=40G
 #SBATCH --time=2-22:00:00
-#SBATCH --partition=gpulong
 #SBATCH --constraint=ntasks-per-node=4
 
 ml TensorFlow/2.2.0-fosscuda-2019b-Python-3.7.4

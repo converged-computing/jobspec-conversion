@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=confused-hippo-4793
+#FLUX --job-name=fuzzy-underoos-7000
 #FLUX -c=28
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=43140
 #FLUX --urgency=16
 

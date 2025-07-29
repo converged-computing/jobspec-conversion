@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:V100
 #SBATCH --mem=8G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=g
 #SBATCH --qos=medium
 
 SIF='/cvmfs/unpacked.cern.ch/registry.hub.docker.com/cernml4reco/deepjetcore3:latest'

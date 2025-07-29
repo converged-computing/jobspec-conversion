@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-citrus-6041
+#FLUX --job-name=quirky-poodle-4618
 #FLUX --queue=genx
 #FLUX -t=604800
 #FLUX --urgency=16

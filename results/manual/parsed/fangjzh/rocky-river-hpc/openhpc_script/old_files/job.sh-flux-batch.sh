@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-carrot-6618
+#FLUX --job-name=psycho-lamp-7846
 #FLUX -N=2
 #FLUX -n=4
 #FLUX --queue=normal

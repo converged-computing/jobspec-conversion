@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=goodbye-parrot-9538
+#FLUX --job-name=crunchy-staircase-7591
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

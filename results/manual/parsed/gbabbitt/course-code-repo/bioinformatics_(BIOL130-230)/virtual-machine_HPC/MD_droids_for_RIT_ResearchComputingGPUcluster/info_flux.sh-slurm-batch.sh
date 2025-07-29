@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=05:00:00
-#SBATCH --partition=tier3
 #SBATCH --array=0-99
 
 spack unload --all

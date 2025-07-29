@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-kitty-6706
+#FLUX --job-name=expressive-salad-3735
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/carstenbauer/JuliaHLRS23/exercises/Day3/1_montecarlo_pi/solution_proposal/hawk_job.qbs

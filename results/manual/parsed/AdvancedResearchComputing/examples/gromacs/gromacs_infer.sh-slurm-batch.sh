@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:05:00
-#SBATCH --partition=t4_dev_q
 #SBATCH --constraint=ntasks-per-node=32
 
 module reset

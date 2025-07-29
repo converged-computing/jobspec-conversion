@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
 #SBATCH --time=1-21:00:00
-#SBATCH --partition=blekhman
 
 module load python
 if [ ! -d "./venv" ]; then

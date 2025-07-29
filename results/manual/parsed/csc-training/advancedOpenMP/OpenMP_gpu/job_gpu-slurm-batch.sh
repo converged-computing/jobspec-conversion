@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --gres=gpu:mi250:1
 #SBATCH --time=00:05:00
-#SBATCH --partition=dev-g
 
 export OMP_NUM_THREADS='3'
 export CRAY_ACC_DEBUG='2   # use 1 for less, or 3 for FULL'

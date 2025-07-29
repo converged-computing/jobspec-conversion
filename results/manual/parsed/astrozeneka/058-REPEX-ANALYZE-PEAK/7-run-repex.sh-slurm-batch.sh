@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=40
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=memory
 
 module load Singularity/3.3.0
 genomes=(

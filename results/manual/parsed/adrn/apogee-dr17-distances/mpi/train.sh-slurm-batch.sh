@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=12:00:00
-#SBATCH --partition=cca
 #SBATCH --constraint=ntasks-per-node=64,rome
 
 source ~/.bash_profile

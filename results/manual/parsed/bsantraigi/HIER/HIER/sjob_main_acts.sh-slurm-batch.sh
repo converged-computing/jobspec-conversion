@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=6000
-#SBATCH --partition=gpu
 
 export CUDA_VISIBLE_DEVICES='0,1'
 

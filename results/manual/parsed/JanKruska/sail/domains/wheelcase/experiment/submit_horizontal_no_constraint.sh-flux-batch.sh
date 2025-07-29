@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=blue-cherry-0482
-#FLUX: --exclusive
+#FLUX --job-name=bricky-snack-8395
+#FLUX --exclusive
 #FLUX --queue=hpc
 #FLUX -t=259200
 #FLUX --urgency=16

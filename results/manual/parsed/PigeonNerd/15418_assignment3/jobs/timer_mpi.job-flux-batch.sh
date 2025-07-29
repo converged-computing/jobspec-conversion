@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=wobbly-bicycle-2589
+#FLUX --job-name=lovable-blackbean-1908
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/PigeonNerd/15418_assignment3/jobs/timer_mpi.job

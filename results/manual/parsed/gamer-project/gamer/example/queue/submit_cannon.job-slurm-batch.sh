@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=4000
 #SBATCH --time=00:03:10
-#SBATCH --partition=itc_gpu
 
 export OMP_NUM_THREADS='4'
 export CUDA_VISIBLE_DEVICES='0,1,2,3'

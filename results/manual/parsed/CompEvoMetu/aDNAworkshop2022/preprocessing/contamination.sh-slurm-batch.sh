@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=bonobo
 
 ref=/mnt/NEOGENE3/share/ref/genomes/hsa/hs37d5.fa
 bwa=/usr/local/sw/bwa-0.7.15/bwa

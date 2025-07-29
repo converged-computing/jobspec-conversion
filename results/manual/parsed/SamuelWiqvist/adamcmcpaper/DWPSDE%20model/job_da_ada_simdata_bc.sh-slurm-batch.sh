@@ -9,7 +9,6 @@
 #SBATCH --ntasks=5
 #SBATCH --cpus-per-task=1
 #SBATCH --time=4-04:00:00
-#SBATCH --partition=lu
 
 ml load icc/2017.1.132-GCC-6.3.0-2.27
 ml load impi/2017.1.132

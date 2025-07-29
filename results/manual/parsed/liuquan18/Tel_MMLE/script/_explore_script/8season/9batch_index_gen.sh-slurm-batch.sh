@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=0G
 #SBATCH --time=08:00:00
-#SBATCH --partition=compute
 
 cd /work/mh0033/m300883/Tel_MMLE/script/8season
 source ~/.bashrc

@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16GB
 #SBATCH --time=01:00:00
-#SBATCH --partition=gpu
 
 module purge
 module load cmake/3.16.3

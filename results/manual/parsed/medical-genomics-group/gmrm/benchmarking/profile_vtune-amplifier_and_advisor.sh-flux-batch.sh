@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expressive-itch-2088
+#FLUX --job-name=evasive-underoos-7780
 #FLUX -n=2
 #FLUX -c=8
 #FLUX --queue=debug

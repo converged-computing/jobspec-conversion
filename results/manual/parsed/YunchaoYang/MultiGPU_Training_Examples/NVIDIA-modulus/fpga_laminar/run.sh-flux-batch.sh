@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-banana-4461
+#FLUX --job-name=evasive-rabbit-3546
 #FLUX -n=8
 #FLUX -c=4
 #FLUX --queue=hpg-ai

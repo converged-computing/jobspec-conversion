@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=reclusive-punk-7772
+#FLUX --job-name=rainbow-cattywampus-8827
 #FLUX -n=32
 #FLUX --queue=defq
 #FLUX -t=87840

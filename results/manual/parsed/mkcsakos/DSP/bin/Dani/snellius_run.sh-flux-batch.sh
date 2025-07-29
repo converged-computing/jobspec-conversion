@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-chair-5206
+#FLUX --job-name=eccentric-leopard-6705
 #FLUX --queue=rome
 #FLUX -t=86400
 #FLUX --urgency=16

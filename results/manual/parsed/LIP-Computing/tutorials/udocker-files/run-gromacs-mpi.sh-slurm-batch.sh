@@ -5,7 +5,6 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=hpc
 #SBATCH --constraint=ntasks-per-node=8
 
 export TUT_DIR='$HOME/udocker-tutorial'

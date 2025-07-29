@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-kerfuffle-0421
+#FLUX --job-name=astute-underoos-8190
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX --urgency=16

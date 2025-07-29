@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem-per-cpu=40G
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=maxwell
 
 setpkgs -a tensorflow_0.12
 python  /scratch/yaoy4/BodySegmentation/run.py train

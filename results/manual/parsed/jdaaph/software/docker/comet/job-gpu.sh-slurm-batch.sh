@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu-shared
 #SBATCH --constraint=ntasks-per-node=6
 
 module load singularity

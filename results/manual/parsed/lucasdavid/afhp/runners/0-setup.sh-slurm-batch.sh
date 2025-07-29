@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=nvidia_small
 #SBATCH --constraint=ntasks-per-node=24
 
 echo "[train.baseline.sh] started running at $(date +'%Y-%m-%d %H:%M:%S')."

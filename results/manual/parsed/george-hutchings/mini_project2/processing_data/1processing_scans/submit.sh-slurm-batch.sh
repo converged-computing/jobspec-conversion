@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=300G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu-large
 
 module purge   # libraries used
 module load TensorFlow/2.0.0-fosscuda-2019b-Python-3.7.4

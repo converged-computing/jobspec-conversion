@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-hobbit-8317
-#FLUX: --exclusive
+#FLUX --job-name=doopy-itch-3317
+#FLUX --exclusive
 #FLUX --queue=ndmv4
 #FLUX --urgency=16
 

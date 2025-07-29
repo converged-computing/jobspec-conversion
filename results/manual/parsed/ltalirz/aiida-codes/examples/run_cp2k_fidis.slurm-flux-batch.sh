@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=anxious-blackbean-3649
+#FLUX --job-name=hello-general-1224
 #FLUX -N=2
 #FLUX -n=49
 #FLUX -t=3600

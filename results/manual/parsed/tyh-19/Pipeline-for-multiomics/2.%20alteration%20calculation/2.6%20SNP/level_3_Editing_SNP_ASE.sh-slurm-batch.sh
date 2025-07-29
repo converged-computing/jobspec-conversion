@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=CN_BIOT
 #SBATCH --exclude=biot[03]
 
 dataset=$1

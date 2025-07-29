@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-carrot-7339
+#FLUX --job-name=muffled-gato-2027
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

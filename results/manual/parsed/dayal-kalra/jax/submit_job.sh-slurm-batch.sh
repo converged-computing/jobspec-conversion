@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=a100:1
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=1-1
 
 cd $SLURM_SUBMIT_DIR

@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64G
 #SBATCH --time=01:00:00
-#SBATCH --partition=serial
 #SBATCH --qos=serial
 
 export SRUN_CPUS_PER_TASK='$SLURM_CPUS_PER_TASK'

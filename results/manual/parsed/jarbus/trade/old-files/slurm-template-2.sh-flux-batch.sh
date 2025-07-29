@@ -2,7 +2,7 @@
 #FLUX --job-name=runs/${JOB_NAME}
 #FLUX -N=2
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=guest-gpu
 #FLUX -t=86400
 #FLUX --urgency=16

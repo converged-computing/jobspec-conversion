@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-diablo-7298
+#FLUX --job-name=arid-lizard-4730
 #FLUX -n=4
 #FLUX -c=6
 #FLUX --queue=cola-corta

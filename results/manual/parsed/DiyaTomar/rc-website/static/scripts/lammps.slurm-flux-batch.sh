@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=strawberry-squidward-4431
+#FLUX --job-name=chocolate-carrot-7131
 #FLUX -N=2
 #FLUX --queue=parallel
 #FLUX -t=259200

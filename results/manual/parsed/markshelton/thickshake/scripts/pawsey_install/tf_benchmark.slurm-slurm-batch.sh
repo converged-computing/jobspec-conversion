@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpuq
 #SBATCH --constraint=ntasks-per-node=1,p100
 
 module load gcc/5.4.0 broadwell

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=expensive-leg-8442
+#FLUX --job-name=joyous-lemon-8255
 #FLUX -c=10
 #FLUX --gpus-per-task=1
 #FLUX --queue=YOUR_PARTITION_HERE

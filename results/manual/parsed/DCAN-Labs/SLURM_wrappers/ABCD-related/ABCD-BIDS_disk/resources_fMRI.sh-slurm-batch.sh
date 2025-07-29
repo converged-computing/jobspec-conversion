@@ -10,7 +10,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=15gb
 #SBATCH --time=12:00:00
-#SBATCH --partition=small,amdsmall
 #SBATCH --constraint=ntasks-per-node=6
 
 cd run_files.fMRI

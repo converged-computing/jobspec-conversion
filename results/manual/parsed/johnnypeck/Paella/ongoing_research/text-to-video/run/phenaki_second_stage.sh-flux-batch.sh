@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=phenaki
 #FLUX -N=8
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX --urgency=16
 

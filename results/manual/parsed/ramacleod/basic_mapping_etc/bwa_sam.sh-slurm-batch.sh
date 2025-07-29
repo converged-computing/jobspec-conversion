@@ -3,7 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=12G
-#SBATCH --partition=medium
 #SBATCH --array=0-67
 
 RC=(*.collapsed.gz)

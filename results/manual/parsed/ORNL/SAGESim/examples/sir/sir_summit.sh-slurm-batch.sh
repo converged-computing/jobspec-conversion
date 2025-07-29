@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=debug
 
 export SRC_DIR='/ccs/home/gunaratnecs/sagesim/examples/sir'
 export SCHEDULER_FILE='${RUN_DIR}/scheduler_file.json'

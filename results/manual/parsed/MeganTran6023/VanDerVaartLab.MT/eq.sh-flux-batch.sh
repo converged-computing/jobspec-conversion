@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stinky-train-3807
+#FLUX --job-name=buttery-train-5110
 #FLUX --urgency=16
 
 module purge

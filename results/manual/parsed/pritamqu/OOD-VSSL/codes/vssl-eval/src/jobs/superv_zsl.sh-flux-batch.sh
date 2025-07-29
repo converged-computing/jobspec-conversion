@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-diablo-0531
+#FLUX --job-name=muffled-dog-1425
 #FLUX --queue=v100_full_node
 #FLUX --urgency=16
 

@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=short
 
 export LD_LIBRARY_PATH='/home/dcas/g.angelotti/.conda/envs/coop/lib:$LD_LIBRARY_PATH'
 

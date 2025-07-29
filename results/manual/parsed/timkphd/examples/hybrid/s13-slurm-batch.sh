@@ -5,7 +5,6 @@
 #SBATCH --ntasks=18
 #SBATCH --cpus-per-task=4
 #SBATCH --time=00:10:00
-#SBATCH --partition=short
 
 export VER='icc'
 export cpt='$SLURM_CPUS_PER_TASK '

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=100G
-#SBATCH --partition=high
 #SBATCH --chdir=/homedtic/cmorales
 
 export PATH='$HOME/project/anaconda3/bin:$PATH'

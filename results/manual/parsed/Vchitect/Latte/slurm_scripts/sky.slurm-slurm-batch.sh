@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:8
 #SBATCH --time=20-20:00:00
-#SBATCH --partition=group-name
 #SBATCH --constraint=ntasks-per-node=8
 
 source ~/.bashrc

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=arid-soup-2206
+#FLUX --job-name=crusty-peas-2820
 #FLUX --queue=gpu_shared
 #FLUX -t=108000
 #FLUX --urgency=16

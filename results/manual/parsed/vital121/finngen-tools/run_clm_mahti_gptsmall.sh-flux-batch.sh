@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-bits-1110
+#FLUX --job-name=stinky-peanut-6309
 #FLUX -N=6
 #FLUX --queue=gpumedium
 #FLUX -t=129600

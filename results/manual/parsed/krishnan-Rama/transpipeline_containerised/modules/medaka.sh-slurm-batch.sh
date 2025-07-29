@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=200GB
-#SBATCH --partition=<HPC_partition>
 #SBATCH --constraint=ntasks-per-node=1
 
 export BINDS='${BINDS},${WORKINGDIR}:${WORKINGDIR}'

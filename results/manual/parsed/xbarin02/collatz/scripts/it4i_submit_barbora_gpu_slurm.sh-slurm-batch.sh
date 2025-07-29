@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
-#SBATCH --partition=qgpu
 #SBATCH --array=1-1000
 
 export POCL_CACHE_DIR='${TMPDIR}/kcache'

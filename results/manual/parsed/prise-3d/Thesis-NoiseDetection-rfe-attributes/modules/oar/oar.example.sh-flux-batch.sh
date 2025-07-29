@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=placid-toaster-9581
+#FLUX --job-name=outstanding-sundae-4742
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/prise-3d/Thesis-NoiseDetection-rfe-attributes/modules/oar/oar.example.sh

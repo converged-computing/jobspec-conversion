@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=60G
 #SBATCH --time=20:00:00
-#SBATCH --partition=priority
 
 LD_LIBRARY_PATH=/opt/lsf/7.0/linux2.6-glibc2.3-x86_64/lib:/opt/nag/libC/lib:/usr/lib
 NAG_KUSARI_FILE=/opt/nag/nag.license

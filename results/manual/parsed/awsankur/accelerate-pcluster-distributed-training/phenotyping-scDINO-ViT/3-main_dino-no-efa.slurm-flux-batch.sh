@@ -1,8 +1,8 @@
 #!/bin/bash
-#FLUX --job-name=frigid-leader-6304
+#FLUX --job-name=joyous-leg-0843
 #FLUX -N=4
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export LD_LIBRARY_PATH='/usr/local/lib/:$LD_LIBRARY_PATH'

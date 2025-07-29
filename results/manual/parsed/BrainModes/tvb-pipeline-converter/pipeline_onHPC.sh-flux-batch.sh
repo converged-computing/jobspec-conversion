@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-bits-7504
+#FLUX --job-name=wobbly-buttface-3519
 #FLUX -c=36
 #FLUX --queue=normal
 #FLUX -t=86340

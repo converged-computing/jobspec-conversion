@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=02:00:00
-#SBATCH --partition=cpu-short
 #SBATCH --chdir=/research/labs/hematology/hemedata/m302618/projects/spatial/cdx_pipeline_mforge/MCMICRO/
 
 export NXF_APPTAINER_CACHEDIR='/research/labs/hematology/hemedata/m302618/apptainer/containers'

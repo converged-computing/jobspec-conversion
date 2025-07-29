@@ -7,7 +7,6 @@
 #SBATCH --gres=2
 #SBATCH --mem=64G
 #SBATCH --time=03:30:00
-#SBATCH --partition=accel
 
 source ${HOME}/.bashrc
 set -o errexit

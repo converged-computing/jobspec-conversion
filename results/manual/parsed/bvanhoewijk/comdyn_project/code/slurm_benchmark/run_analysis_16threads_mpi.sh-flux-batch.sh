@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=bloated-peanut-butter-3177
+#FLUX --job-name=goodbye-puppy-9685
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=rome
 #FLUX -t=600
 #FLUX --urgency=16

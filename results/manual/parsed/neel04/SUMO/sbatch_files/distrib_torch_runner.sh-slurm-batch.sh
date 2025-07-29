@@ -5,8 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=10-00:00:00
-#SBATCH --partition=gpu
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=1
 #SBATCH --exclude=gpu-st-p4d-24xlarge-[23,24,30,31,32,33,51,108,115,134,135,183,185,186,187,188,275,277,374]
 

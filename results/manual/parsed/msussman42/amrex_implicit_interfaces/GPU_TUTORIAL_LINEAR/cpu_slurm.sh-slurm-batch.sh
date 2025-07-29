@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:04:00
-#SBATCH --partition=quicktest
 
 echo module load cuda-12.2
 module load cuda-12.2

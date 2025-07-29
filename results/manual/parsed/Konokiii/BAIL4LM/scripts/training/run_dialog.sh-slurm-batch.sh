@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=48GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=n1s16-v100-2
 
 singularity exec --bind /scratch --nv --overlay /scratch/zd662/overlay-25GB-500K.ext3:rw /scratch/zd662/cuda11.4.2-cudnn8.2.4-devel-ubuntu20.04.3.sif /bin/bash -c "
 source /ext3/env.sh

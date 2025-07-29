@@ -10,8 +10,7 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=0
 #SBATCH --time=12:00:00
-#SBATCH --partition=sched_system_all_8
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=ntasks-per-node=4
 
 export NODELIST='nodelist.$'

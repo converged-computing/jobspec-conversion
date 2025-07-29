@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-leader-7949
+#FLUX --job-name=buttery-motorcycle-7689
 #FLUX -c=6
 #FLUX --queue=compute
 #FLUX --urgency=16

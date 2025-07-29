@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=02:00:00
 #SBATCH --qos=premium
-#SBATCH: --exclusive
+#SBATCH --exclusive
 #SBATCH --constraint=knl,quad,cache
 
 export PMI_MMAP_SYNC_WAIT_TIME='600'

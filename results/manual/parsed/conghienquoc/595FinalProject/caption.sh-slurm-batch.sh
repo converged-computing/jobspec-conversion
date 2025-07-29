@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 module load python3.7-anaconda
 module load tensorflow/1.15.5

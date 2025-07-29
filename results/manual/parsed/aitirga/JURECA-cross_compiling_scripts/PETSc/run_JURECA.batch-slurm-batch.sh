@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1360
 #SBATCH --cpus-per-task=1
 #SBATCH --time=20:00:00
-#SBATCH --partition=booster
 #SBATCH --constraint=ntasks-per-node=68
 
 module --force purge

@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ali-perf
 #FLUX -N=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=3540
 #FLUX --urgency=16
 

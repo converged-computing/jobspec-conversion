@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu
 
 export MASTER_PORT='11451'
 export WORLD_SIZE='8'

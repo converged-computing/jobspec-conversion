@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-parsnip-7066
+#FLUX --job-name=scruptious-bicycle-4657
 #FLUX -N=16
 #FLUX --queue=regular
 #FLUX -t=600

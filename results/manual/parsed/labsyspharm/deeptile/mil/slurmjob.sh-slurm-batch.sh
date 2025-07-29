@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:teslaK80:1
 #SBATCH --mem=32G
 #SBATCH --time=00:12:00
-#SBATCH --partition=gpu
 
 export FP='jobresult_$SLURM_JOB_ID'
 

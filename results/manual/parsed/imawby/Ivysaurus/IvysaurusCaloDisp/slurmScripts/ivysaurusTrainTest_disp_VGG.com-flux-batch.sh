@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-puppy-4044
+#FLUX --job-name=grated-taco-3341
 #FLUX -c=5
 #FLUX --queue=astro
 #FLUX -t=21600

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-truffle-9722
+#FLUX --job-name=stanky-earthworm-2070
 #FLUX -N=4
 #FLUX -n=5
 #FLUX --queue=west

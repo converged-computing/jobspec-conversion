@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-lizard-1648
+#FLUX --job-name=cowy-lettuce-9960
 #FLUX --queue=GPU-AI
 #FLUX -t=108000
 #FLUX --urgency=16

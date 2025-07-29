@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=128G
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=a6000-gcondo
 #SBATCH --array=1
 
 module load python/3.9.0

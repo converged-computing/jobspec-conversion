@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=muffled-car-1591
+#FLUX --job-name=buttery-peanut-9084
 #FLUX --queue=largemem
 #FLUX -t=3600
 #FLUX --urgency=16

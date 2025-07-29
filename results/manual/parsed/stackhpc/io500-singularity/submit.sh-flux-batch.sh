@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=milky-fork-4327
+#FLUX --job-name=blue-taco-6642
 #FLUX -n=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export UCX_NET_DEVICES='all'

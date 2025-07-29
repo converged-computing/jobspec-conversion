@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=15000
 #SBATCH --time=00:24:00
-#SBATCH --partition=huce_intel
 
 export OMP_NUM_THREADS='8'
 export PYTHONPATH='/n/holyscratch01/jacob_lab/lestrada/IMI/CH4-boundary-condition-scripts'

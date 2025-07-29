@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=persnickety-arm-7232
+#FLUX --job-name=gloopy-train-2992
 #FLUX --urgency=16
 
 python train.py \

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=cowy-truffle-0784
+#FLUX --job-name=adorable-taco-5246
 #FLUX -N=8
 #FLUX -n=8
 #FLUX --queue=gpu-a100

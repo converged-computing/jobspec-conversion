@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=hc
 #FLUX -c=16
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu_p2
 #FLUX -t=72000
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-punk-6902
+#FLUX --job-name=butterscotch-gato-9773
 #FLUX -n=32
 #FLUX --queue=amdsmall
 #FLUX -t=86400

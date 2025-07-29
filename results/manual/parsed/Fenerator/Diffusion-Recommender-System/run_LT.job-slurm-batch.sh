@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=125000M
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=gpu_titanrtx_shared_course
 
 module purge
 module load 2021

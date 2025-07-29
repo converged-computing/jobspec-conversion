@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-chip-6596
+#FLUX --job-name=pusheena-soup-0170
 #FLUX --queue=node
 #FLUX -t=604800
 #FLUX --urgency=16

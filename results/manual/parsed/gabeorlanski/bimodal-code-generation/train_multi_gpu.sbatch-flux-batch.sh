@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-diablo-7939
+#FLUX --job-name=evasive-bits-2426
 #FLUX -c=32
 #FLUX --urgency=16
 

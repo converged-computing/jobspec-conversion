@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=01:30:00
-#SBATCH --partition=develbooster
 #SBATCH --constraint=ntasks-per-node=4
 
 export SRUN_CPUS_PER_TASK='${SLURM_CPUS_PER_TASK}'

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-caramel-2720
+#FLUX --job-name=bumfuzzled-kitty-9929
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/airoldilab/HPC_model/mmm_process_code/process_data_master_script2.lsf

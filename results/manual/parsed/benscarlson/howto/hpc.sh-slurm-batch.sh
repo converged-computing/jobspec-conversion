@@ -5,7 +5,6 @@
 #SBATCH --ntasks=20
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
-#SBATCH --partition=day
 
 export src='$pd/src'
 export sesnm='main'

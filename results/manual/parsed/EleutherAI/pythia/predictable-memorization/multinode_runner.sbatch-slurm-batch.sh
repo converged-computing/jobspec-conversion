@@ -6,8 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=512
-#SBATCH --partition=g40
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export GIT_DISCOVERY_ACROSS_FILESYSTEM='0'
 

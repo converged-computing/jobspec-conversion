@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=creamy-peanut-butter-8133
+#FLUX --job-name=arid-bits-5550
 #FLUX -n=15
 #FLUX -t=259200
 #FLUX --urgency=16

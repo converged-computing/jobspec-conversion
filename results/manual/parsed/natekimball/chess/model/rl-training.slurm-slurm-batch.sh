@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:v100
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=bii-gpu
 
 export USER_SCRATCH='/scratch/$USER'
 export PROJECT_DIR='$USER_SCRATCH/chess'

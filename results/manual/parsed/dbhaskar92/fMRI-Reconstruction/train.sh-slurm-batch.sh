@@ -7,7 +7,6 @@
 #SBATCH --gres=a100:1
 #SBATCH --mem=64G
 #SBATCH --time=15:00:00
-#SBATCH --partition=gpu
 
 module unload Python 
 module load miniconda 

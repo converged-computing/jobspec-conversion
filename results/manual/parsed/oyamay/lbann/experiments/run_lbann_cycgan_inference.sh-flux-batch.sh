@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=rainbow-onion-7078
+#FLUX --job-name=dinosaur-rabbit-0549
 #FLUX --urgency=16
 
 EXPERIMENT=$1

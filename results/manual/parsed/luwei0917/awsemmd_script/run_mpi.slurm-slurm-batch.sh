@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=commons
 
 echo "My job ran on:"
 echo $SLURM_NODELIST

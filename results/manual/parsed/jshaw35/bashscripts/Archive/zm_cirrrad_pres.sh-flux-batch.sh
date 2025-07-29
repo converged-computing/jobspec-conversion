@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-taco-7440
+#FLUX --job-name=crunchy-chip-8829
 #FLUX --urgency=16
 
 case=e2000_bn_cirrradbg_rhmini1to1.2_1.5xco2seed18_binprecip_2

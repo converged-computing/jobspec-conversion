@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-animal-1558
+#FLUX --job-name=confused-lettuce-7164
 #FLUX -n=17
 #FLUX --queue=gpu
 #FLUX -t=864000

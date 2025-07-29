@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=120G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=ghpc
 
 TMPDIR=/scratch/$USER/$SLURM_JOBID
 export TMPTDIR

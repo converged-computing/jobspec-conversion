@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-pedo-2234
+#FLUX --job-name=gassy-noodle-8443
 #FLUX -c=6
 #FLUX --queue=wjg,biochem,sfgf
 #FLUX -t=3600

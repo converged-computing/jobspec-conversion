@@ -9,7 +9,6 @@
 #SBATCH --gres=gpu:4
 #SBATCH --mem=32GB
 #SBATCH --time=02:00:00
-#SBATCH --partition=v100
 
 singularity exec --nv --overlay /scratch/sc8781/Project/environment/overlay-50G-10M.ext3:rw \
  /scratch/work/public/singularity/cuda9.2.148-cudnn7.6.5.32-devel-ubuntu18.04.6.sif /bin/bash \

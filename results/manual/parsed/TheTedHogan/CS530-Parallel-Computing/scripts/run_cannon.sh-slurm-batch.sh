@@ -5,7 +5,6 @@
 #SBATCH --ntasks=9
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:02:00
-#SBATCH --partition=defq
 
 module load gcc/10.2.0
 module load cmake/gcc/3.18.0

@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:p100:1
 #SBATCH --mem-per-cpu=45G
 #SBATCH --time=23:59:00
-#SBATCH --partition=qPHOGPU
 
 export Project='$SLURM_JOB_NAME'
 export WorkDir='/runjobs/RS10237/$SLURM_JOB_ID'

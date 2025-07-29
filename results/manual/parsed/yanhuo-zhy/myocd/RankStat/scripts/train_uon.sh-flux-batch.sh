@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=dinosaur-spoon-1919
+#FLUX --job-name=evasive-itch-4556
 #FLUX -c=5
 #FLUX --queue=amp20
 #FLUX --urgency=16

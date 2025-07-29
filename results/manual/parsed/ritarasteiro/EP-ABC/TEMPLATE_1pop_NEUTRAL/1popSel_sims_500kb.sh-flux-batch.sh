@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-knife-1896
+#FLUX --job-name=adorable-avocado-6313
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/ritarasteiro/EP-ABC/TEMPLATE_1pop_NEUTRAL/1popSel_sims_500kb.sh

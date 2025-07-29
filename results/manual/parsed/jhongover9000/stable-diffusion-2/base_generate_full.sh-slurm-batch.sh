@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem-per-cpu=40G
 #SBATCH --time=3-00:30:00
-#SBATCH --partition=nvidia
 
 FILES=(/scratch/jhh508/stable-diffusion-2/*)
 module purge

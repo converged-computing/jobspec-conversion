@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=23:59:00
-#SBATCH --partition=batch3
 #SBATCH --constraint=ntasks-per-node=72
 
   input="INP-lammps"

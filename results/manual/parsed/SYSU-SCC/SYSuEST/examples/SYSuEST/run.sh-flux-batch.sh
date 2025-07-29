@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=WuK
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu_v100
 #FLUX --urgency=16
 

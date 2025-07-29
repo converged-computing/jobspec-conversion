@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:3
 #SBATCH --mem=100G
 #SBATCH --time=02:00:00
-#SBATCH --partition=gpu
 
 export OLLAMA_DEBUG='1'
 export OLLAMA_NUM_PARALLEL='4'

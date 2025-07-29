@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-knife-9911
+#FLUX --job-name=loopy-sundae-1826
 #FLUX --queue=PGR-Standard
 #FLUX -t=72000
 #FLUX --urgency=16

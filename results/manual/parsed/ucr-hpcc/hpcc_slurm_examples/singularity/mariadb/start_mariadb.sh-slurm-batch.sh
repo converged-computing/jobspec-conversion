@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=10g
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=batch,intel
 
 module load singularity
 cd ~/bigdata/mysql/

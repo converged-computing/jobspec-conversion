@@ -11,7 +11,6 @@
 #SBATCH --gres=4
 #SBATCH --mem=80GB
 #SBATCH --time=05:00:00
-#SBATCH --partition=gpu
 
 source activate Zooniverse_pytorch
 python everglades.py

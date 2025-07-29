@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=10000
 #SBATCH --time=00:10:00
-#SBATCH --partition=holyseasgpu
 
 pgc++ -acc -ta=nvidia -Minfo=accel -o openacc openacc.cpp
 ./openacc > "out-openacc.txt"

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=blue-puppy-9597
-#FLUX: --exclusive
+#FLUX --job-name=ornery-leader-0279
+#FLUX --exclusive
 #FLUX --urgency=16
 
 set -eux

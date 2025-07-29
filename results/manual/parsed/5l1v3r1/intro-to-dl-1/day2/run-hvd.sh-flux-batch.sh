@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-blackbean-0982
+#FLUX --job-name=blue-pancake-9176
 #FLUX -n=2
 #FLUX -c=10
 #FLUX --queue=gpu

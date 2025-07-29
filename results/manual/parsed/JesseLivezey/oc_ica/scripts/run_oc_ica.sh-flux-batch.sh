@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-hippo-1132
+#FLUX --job-name=crunchy-leopard-0448
 #FLUX --queue=cortex
 #FLUX -t=172800
 #FLUX --urgency=16

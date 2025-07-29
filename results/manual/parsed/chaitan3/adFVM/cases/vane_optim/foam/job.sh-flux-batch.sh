@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-leader-2201
+#FLUX --job-name=muffled-destiny-1277
 #FLUX -N=16
 #FLUX --urgency=16
 

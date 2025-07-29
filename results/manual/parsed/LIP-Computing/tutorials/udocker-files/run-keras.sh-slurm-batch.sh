@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu
-#SBATCH --partition=gpu
 
 export TUT_DIR='$HOME/udocker-tutorial'
 export PATH='$HOME/udocker-1.3.10/udocker:$PATH'

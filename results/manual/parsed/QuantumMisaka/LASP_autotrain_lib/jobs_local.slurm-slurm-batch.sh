@@ -5,7 +5,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=g1_user
 #SBATCH --constraint=ntasks-per-node=4
 
 export LD_LIBRARY_PATH='$LIBVASP:$LD_LIBRARY_PATH'

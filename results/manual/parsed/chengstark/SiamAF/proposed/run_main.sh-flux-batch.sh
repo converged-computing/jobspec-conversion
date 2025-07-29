@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=tart-chair-9269
+#FLUX --job-name=persnickety-taco-7464
 #FLUX --queue=overflow
 #FLUX -t=864000
 #FLUX --urgency=16

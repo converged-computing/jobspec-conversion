@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-sundae-2987
+#FLUX --job-name=blue-gato-3620
 #FLUX --urgency=16
 
 singularity exec -B /mnt/f:/data/ \

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-latke-7168
+#FLUX --job-name=confused-house-6226
 #FLUX -c=128
 #FLUX --queue=amdv100
 #FLUX -t=14400

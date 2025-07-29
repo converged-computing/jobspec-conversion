@@ -8,7 +8,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=gpu
 
 module load cuda/8.0 cudnn/5.1
 module load tensorflow-gpu

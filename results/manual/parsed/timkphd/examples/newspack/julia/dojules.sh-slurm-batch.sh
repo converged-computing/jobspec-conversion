@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export MYDIR='/projects/hpcapps/tkaiser2/0415/julia'
 export TMPDIR='$MYDIR/tmp'

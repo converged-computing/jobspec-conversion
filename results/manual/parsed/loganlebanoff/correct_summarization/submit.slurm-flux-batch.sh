@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-despacito-0931
+#FLUX --job-name=chocolate-signal-6890
 #FLUX -c=8
 #FLUX -t=356400
 #FLUX --urgency=16

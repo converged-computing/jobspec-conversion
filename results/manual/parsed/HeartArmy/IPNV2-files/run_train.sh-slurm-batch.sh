@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=nvidia
 
 source ~/.bashrc
 conda activate /scratch/maj596/conda-envs/IPNV2_pytorch

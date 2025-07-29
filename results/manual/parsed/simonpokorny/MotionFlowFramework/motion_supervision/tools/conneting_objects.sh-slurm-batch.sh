@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=50G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=amdgpu
 #SBATCH --constraint=ntasks-per-node=4
 
 ml PyTorch3D/0.7.1-foss-2021b-CUDA-11.4.1

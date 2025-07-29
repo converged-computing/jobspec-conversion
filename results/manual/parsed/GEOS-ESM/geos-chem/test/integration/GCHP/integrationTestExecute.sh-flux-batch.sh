@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=angry-car-6420
+#FLUX --job-name=strawberry-earthworm-6851
 #FLUX -n=24
 #FLUX --queue=REQUESTED_PARTITION
 #FLUX -t=300

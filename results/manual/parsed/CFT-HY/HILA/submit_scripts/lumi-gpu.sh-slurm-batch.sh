@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:10:00
-#SBATCH --partition=standard-g
 #SBATCH --constraint=ntasks-per-node=8
 #SBATCH --exclude=nid005360,nid005359
 

@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=02:00:00
-#SBATCH --partition=pascalnodes
 
 export WES_API_HOST='localhost:8082'
 export WES_API_AUTH='Header: value'

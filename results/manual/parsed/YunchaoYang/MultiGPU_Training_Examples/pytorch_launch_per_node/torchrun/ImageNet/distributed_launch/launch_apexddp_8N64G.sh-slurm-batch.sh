@@ -7,7 +7,6 @@
 #SBATCH --gpus-per-task=8
 #SBATCH --mem-per-cpu=1024gb
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=hpg-ai
 #SBATCH --qos=bala-gatorflow
 #SBATCH --constraint=ntasks-per-node=1
 

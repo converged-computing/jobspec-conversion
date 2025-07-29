@@ -1,7 +1,7 @@
 #!/bin/bash
-#FLUX --job-name=spicy-frito-0968
+#FLUX --job-name=blue-egg-7391
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=thin
 #FLUX -t=3600
 #FLUX --urgency=16

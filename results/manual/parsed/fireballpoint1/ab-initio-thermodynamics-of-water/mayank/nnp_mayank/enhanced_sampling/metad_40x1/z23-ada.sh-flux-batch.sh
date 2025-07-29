@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-fork-9436
+#FLUX --job-name=evasive-frito-5082
 #FLUX -n=15
 #FLUX -t=259200
 #FLUX --urgency=16

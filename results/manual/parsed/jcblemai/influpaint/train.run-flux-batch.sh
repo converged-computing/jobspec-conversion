@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=salted-parsnip-4012
+#FLUX --job-name=cowy-bits-4545
 #FLUX --queue=jlessler
 #FLUX -t=3600
 #FLUX --urgency=16

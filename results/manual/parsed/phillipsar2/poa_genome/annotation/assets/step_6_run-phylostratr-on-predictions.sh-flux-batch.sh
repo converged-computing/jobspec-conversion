@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=JOBNAME
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=amd
 #FLUX -t=43200
 #FLUX --urgency=16

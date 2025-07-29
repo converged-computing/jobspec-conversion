@@ -9,7 +9,6 @@
 #SBATCH --ntasks=6
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=gpu-a100
 
 export ORG='uvilla'
 export IMAGE_NAME='tps_env_parla'

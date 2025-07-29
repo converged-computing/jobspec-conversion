@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-destiny-2182
+#FLUX --job-name=misunderstood-house-8366
 #FLUX --queue=small
 #FLUX -t=1200
 #FLUX --urgency=16

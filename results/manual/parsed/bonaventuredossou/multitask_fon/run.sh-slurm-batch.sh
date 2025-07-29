@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:rtx8000:8
 #SBATCH --mem=128G
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=long
 
 module load python/3.9 cuda/10.2/cudnn/7.6
 source /home/mila/b/bonaventure.dossou/env/bin/activate

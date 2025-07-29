@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=26GB
 #SBATCH --time=3-18:00:00
-#SBATCH --partition=normal
 #SBATCH --constraint=8GB
 #SBATCH --chdir=om2/user/vanessad/understanding_reasoning/experiment_4/slurm_output
 #SBATCH --array=0

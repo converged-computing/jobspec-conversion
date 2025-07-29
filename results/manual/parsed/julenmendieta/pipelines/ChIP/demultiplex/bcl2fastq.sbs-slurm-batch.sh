@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=16G
 #SBATCH --time=07:00:00
-#SBATCH --partition=short
 
 outdir=/home/jmendietaes/data/2021/singleCell/sequencedData/210806_VH00461_59_AAALHW2M5/
 indir=/datos/intercambio/eguruce/210806_VH00461_59_AAALHW2M5_2

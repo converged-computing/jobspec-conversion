@@ -6,7 +6,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=3-12:00:00
-#SBATCH --partition=gpu
 #SBATCH --array=0-596%15
 
 HOME_DIR=/home/pcq275/

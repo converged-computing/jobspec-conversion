@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bloated-platanos-1943
+#FLUX --job-name=anxious-parsnip-4502
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

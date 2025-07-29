@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=ps2cctbx
 #FLUX -N=100
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX -t=7200
 #FLUX --urgency=16
 

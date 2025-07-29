@@ -5,9 +5,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:10:00
-#SBATCH --partition=csi
 #SBATCH --qos=csi
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export GPU_MAP='(0 1 2 3)'
 export GPU='\${GPU_MAP[\$SLURM_LOCALID]}'

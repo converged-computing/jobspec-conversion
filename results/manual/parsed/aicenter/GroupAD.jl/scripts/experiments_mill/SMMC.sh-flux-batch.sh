@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=chocolate-lizard-0156
+#FLUX --job-name=expressive-muffin-0818
 #FLUX --queue=cpufast
 #FLUX --urgency=16
 

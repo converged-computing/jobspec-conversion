@@ -9,7 +9,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=100G
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=ais-gpu
 
 srun singularity exec --bind /trinity/home/v.moskvoretskii/:/home -f --nv /trinity/home/v.moskvoretskii/images/new_clipped_sm.sif bash -c '
     ls;

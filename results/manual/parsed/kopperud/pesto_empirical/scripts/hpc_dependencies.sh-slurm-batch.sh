@@ -8,7 +8,6 @@
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8GB
-#SBATCH --partition=krypton
 #SBATCH --qos=high_prio
 
 export R_HOME='/opt/cres/lib/hpc/gcc7/R/4.2.3/lib64/R'

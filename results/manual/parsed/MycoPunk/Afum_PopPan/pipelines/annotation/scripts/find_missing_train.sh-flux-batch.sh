@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-buttface-9358
+#FLUX --job-name=boopy-house-9025
 #FLUX --queue=short
 #FLUX --urgency=16
 

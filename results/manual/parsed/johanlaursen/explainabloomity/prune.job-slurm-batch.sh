@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=120G
 #SBATCH --time=02:00:00
-#SBATCH --partition=red,brown
 
 echo "prune_percent=$1"
 echo "metric=$2"

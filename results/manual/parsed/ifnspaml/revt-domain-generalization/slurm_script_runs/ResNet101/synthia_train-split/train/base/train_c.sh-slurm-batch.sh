@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu
 #SBATCH --mem=32000M
 #SBATCH --time=7-00:00:00
-#SBATCH --partition=gpu,gpub
 #SBATCH --constraint=ntasks-per-node=1
 
 max_iters=60000

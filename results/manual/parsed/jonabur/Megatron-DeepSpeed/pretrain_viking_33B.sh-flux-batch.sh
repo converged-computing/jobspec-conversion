@@ -2,7 +2,7 @@
 #FLUX --job-name=viking_v2_33B_high_eps
 #FLUX -N=256
 #FLUX -c=7
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=standard-g
 #FLUX -t=86400
 #FLUX --urgency=16

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-lentil-7571
+#FLUX --job-name=blue-cat-0296
 #FLUX -n=15
 #FLUX --queue=long
 #FLUX -t=432000

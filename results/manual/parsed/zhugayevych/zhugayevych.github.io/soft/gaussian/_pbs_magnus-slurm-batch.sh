@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=7gb
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=AMG
 #SBATCH --constraint=ntasks-per-node=1
 
 export GAUSS_MEMDEF='$((MemBytes*95/8/100))'

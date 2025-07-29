@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=stanky-snack-5507
+#FLUX --job-name=moolicious-chip-9769
 #FLUX --urgency=16
 
 CONDA_ENV_NAME=

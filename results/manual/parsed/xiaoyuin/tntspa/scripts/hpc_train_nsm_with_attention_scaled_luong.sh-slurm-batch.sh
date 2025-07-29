@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20000
 #SBATCH --time=08:00:00
-#SBATCH --partition=gpu1,gpu2
 
 module load TensorFlow/1.8.0-foss-2018a-Python-3.6.4-CUDA-9.2.88
 DDIR=data/monument_600

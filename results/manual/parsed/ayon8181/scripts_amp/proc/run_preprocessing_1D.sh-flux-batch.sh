@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=proc
 #FLUX -N=20
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=normal
 #FLUX -t=1200
 #FLUX --urgency=16

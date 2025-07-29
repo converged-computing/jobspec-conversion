@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
 #SBATCH --time=02:00:00
-#SBATCH --partition=batch
 #SBATCH --array=1-90
 
 module load pytorch/1.2.0-cuda10.0-cudnn7.6-py3.7

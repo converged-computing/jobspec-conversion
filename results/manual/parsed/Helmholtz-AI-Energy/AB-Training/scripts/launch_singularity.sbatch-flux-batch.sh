@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-squidward-1205
+#FLUX --job-name=confused-onion-8659
 #FLUX --queue=accelerated
 #FLUX -t=28800
 #FLUX --urgency=16

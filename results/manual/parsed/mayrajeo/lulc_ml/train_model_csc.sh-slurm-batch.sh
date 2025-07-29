@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:p100:1
 #SBATCH --mem=12000
 #SBATCH --time=12:00:00
-#SBATCH --partition=gpu
 
 echo "$(date)"
 module purge

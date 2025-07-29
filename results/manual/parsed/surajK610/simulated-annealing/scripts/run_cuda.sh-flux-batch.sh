@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-blackbean-8647
+#FLUX --job-name=misunderstood-truffle-0973
 #FLUX --queue=3090-gcondo
 #FLUX -t=300
 #FLUX --urgency=16

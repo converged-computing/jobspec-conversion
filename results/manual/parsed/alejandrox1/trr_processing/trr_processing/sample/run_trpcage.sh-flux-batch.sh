@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=creamy-destiny-6063
-#FLUX: --exclusive
+#FLUX --job-name=fuzzy-signal-9109
+#FLUX --exclusive
 #FLUX --urgency=16
 
 help=$(grep "^##" "${BASH_SOURCE[0]}" | cut -c 4-)

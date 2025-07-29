@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=hanky-mango-9843
+#FLUX --job-name=tart-arm-2375
 #FLUX -N=6
 #FLUX -c=8
 #FLUX --queue=gpu

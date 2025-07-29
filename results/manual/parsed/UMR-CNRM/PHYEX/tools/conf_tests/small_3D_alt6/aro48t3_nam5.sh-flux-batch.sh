@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-leader-7216
+#FLUX --job-name=doopy-salad-8790
 #FLUX -n=4
 #FLUX --queue=normal256
 #FLUX -t=600

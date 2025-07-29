@@ -1,7 +1,7 @@
 #!/bin/bash
 #FLUX --job-name=CUDA_Run_base_1
 #FLUX -c=24
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=gpu
 #FLUX -t=3600
 #FLUX --urgency=16

@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=64000
 #SBATCH --time=00:12:00
-#SBATCH --partition=desai
 
 module load python/3.7.7-fasrc01
 source activate omicron

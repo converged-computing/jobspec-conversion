@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=fat-general-0204
+#FLUX --job-name=reclusive-lemon-5303
 #FLUX -n=32
 #FLUX -t=259200
 #FLUX --urgency=16

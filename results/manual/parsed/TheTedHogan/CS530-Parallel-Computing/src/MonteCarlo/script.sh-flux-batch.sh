@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=grated-kerfuffle-2182
+#FLUX --job-name=spicy-underoos-5625
 #FLUX --queue=classroom
 #FLUX -t=3600
 #FLUX --urgency=16

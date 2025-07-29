@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --gres=gpu:1
 #SBATCH --time=04:00:00
-#SBATCH --partition=ampere
 
 module purge
 module load rhel7/default-gpu

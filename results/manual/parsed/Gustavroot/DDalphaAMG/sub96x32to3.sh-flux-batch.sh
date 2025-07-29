@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=gloopy-lamp-8050
+#FLUX --job-name=doopy-snack-4979
 #FLUX -N=6
 #FLUX -c=12
 #FLUX --queue=booster

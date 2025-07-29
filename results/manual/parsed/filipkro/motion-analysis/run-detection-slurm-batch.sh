@@ -4,7 +4,6 @@
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:40:00
-#SBATCH --partition=alvis
 
 vid="025_FL_R.MOV"
 cp -r $HOME/motion-analysis $TMPDIR

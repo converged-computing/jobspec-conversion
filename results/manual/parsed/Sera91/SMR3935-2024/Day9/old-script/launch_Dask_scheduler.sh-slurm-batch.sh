@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=10000
 #SBATCH --time=00:20:00
-#SBATCH --partition=boost_usr_prod
 #SBATCH --constraint=ntasks-per-node=4
 
 cd $SCRATCH/SMR-3935/Day4

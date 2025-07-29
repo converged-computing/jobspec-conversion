@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=boopy-eagle-1614
+#FLUX --job-name=boopy-signal-8587
 #FLUX -n=4
 #FLUX -t=172800
 #FLUX --urgency=16

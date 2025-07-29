@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=butterscotch-pancake-5455
+#FLUX --job-name=loopy-bits-1476
 #FLUX --queue=mhealth,...
 #FLUX -t=86400
 #FLUX --urgency=16

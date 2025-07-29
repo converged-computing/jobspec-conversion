@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=doopy-snack-3173
+#FLUX --job-name=buttery-fork-0637
 #FLUX -c=8
 #FLUX --queue=gpu
 #FLUX -t=3600

@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=faux-poo-6630
+#FLUX --job-name=eccentric-fork-8020
 #FLUX --urgency=16
 

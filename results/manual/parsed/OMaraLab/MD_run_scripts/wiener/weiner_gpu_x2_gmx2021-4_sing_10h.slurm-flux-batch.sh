@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-parrot-6157
+#FLUX --job-name=frigid-eagle-2970
 #FLUX -c=28
 #FLUX --queue=gpu
 #FLUX -t=36000

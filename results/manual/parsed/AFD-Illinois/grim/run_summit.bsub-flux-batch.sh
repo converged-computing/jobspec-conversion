@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=milky-peanut-butter-9979
+#FLUX --job-name=phat-onion-0787
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/AFD-Illinois/grim/run_summit.bsub

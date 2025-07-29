@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=1-23:59:59
-#SBATCH --partition=lindahl
 #SBATCH --constraint=gpu
 
 module load cmake/latest

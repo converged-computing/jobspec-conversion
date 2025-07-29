@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --time=20:00:00
-#SBATCH --partition=gpu_p5
 #SBATCH --constraint=a100,ntasks-per-node=1
 
 export HF_DATASETS_OFFLINE='1'

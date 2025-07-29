@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=doopy-earthworm-7455
+#FLUX --job-name=tart-soup-4218
 #FLUX --urgency=16
 

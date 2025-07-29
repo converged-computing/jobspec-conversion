@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10g
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=general
 #SBATCH --array=1-600%300
 
 while getopts a:s:x:u: option

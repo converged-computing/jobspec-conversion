@@ -6,7 +6,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
-#SBATCH --partition=long
 
 source ~/bin/snakemake/bin/activate
 snakemake -s $1 --unlock

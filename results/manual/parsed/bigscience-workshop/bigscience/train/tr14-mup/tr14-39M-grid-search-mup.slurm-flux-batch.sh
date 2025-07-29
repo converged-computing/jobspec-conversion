@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=swampy-arm-1029
+#FLUX --job-name=cowy-buttface-4604
 #FLUX -c=40
 #FLUX --queue=gpu_p5
 #FLUX -t=14400

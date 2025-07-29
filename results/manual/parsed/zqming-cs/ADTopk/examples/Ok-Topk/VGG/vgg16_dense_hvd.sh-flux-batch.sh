@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=purple-soup-0439
+#FLUX --job-name=rainbow-platanos-6718
 #FLUX -N=16
 #FLUX -n=16
 #FLUX -c=12

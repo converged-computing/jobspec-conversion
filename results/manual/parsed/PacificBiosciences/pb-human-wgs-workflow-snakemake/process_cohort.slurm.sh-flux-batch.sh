@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=loopy-pedo-0905
+#FLUX --job-name=arid-squidward-6197
 #FLUX -c=4
 #FLUX --queue=compute
 #FLUX --urgency=16

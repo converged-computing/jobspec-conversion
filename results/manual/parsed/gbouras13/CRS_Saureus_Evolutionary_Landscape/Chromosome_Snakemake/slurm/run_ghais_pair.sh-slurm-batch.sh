@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=75GB
 #SBATCH --time=12:00:00
-#SBATCH --partition=batch
 
 PROF_DIR="/hpcfs/users/a1667917/snakemake_slurm_profile"
 cd ..

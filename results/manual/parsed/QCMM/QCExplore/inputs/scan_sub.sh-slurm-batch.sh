@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem=24GB
-#SBATCH --partition=long
 #SBATCH --nodelist=i03
 
 export SCRDIR='/scratch/${ID}'

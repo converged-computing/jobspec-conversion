@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-diablo-4191
+#FLUX --job-name=blue-animal-0031
 #FLUX --queue=priority
 #FLUX --urgency=16
 

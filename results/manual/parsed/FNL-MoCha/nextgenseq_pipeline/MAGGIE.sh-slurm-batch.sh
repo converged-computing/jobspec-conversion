@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
-#SBATCH --partition=quick
 
 export HOST='biowulf.nih.gov'
 export NGS_PIPELINE='/data/MoCha/patidarr/ngs_pipeline/'

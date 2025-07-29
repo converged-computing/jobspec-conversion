@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=5G
-#SBATCH --partition=general
 #SBATCH --qos=general
 
 module load nextflow/22.04.0

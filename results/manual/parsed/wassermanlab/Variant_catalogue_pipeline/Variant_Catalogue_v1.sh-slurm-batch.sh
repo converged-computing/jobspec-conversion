@@ -7,7 +7,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
-#SBATCH --partition=silent_q
 #SBATCH --constraint=ntasks-per-node=1
 
 source /mnt/common/SILENT/Act3/conda/miniconda3/etc/profile.d/conda.sh

@@ -11,7 +11,6 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH --mem=40g
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=qTRDGPUH
 #SBATCH --nodelist=trendsdgx003.rs.gsu.edu
 
 sleep 5s

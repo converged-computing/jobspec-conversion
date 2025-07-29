@@ -6,8 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=05:00:00
-#SBATCH --partition=<add
-#SBATCH: --exclusive
+#SBATCH --exclusive
 
 export NCCL_IB_TIMEOUT='30'
 export SHARP_COLL_LOG_LEVEL='3'

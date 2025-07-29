@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=64G
 #SBATCH --time=01:00:00
-#SBATCH --partition=express
 
 module purge
 module load TensorFlow/2.2.0-fosscuda-2019b-Python-3.7.4  

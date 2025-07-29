@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=5-00:00:00
-#SBATCH --partition=htc
 #SBATCH --constraint=ntasks-per-node=1,gpu_sku:K80|gpu_sku:P100|gpu_sku:V100
 
 module load anaconda3/2019.03

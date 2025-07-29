@@ -8,7 +8,6 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=5000
 #SBATCH --time=8-08:00:00
-#SBATCH --partition=octopus
 
 export PYTHONPATH='$PYTHONPATH:/hpc/users/alexander.lepauvre/sw/github/ECoG'
 

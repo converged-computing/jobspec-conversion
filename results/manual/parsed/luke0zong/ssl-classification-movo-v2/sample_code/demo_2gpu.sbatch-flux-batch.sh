@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-eagle-9632
-#FLUX: --exclusive
+#FLUX --job-name=phat-kitty-7905
+#FLUX --exclusive
 #FLUX --queue=n1s16-t4-2
 #FLUX -t=3600
 #FLUX --urgency=16

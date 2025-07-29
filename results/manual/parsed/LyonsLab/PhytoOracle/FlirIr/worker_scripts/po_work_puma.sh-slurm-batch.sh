@@ -5,7 +5,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=standard
 #SBATCH --constraint=ntasks-per-node=94
 
 export CCTOOLS_HOME='/home/u12/cosi/cctools-7.1.6-x86_64-centos7'

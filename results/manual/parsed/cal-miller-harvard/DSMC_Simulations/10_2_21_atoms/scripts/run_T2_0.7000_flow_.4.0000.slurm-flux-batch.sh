@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=evasive-house-7168
+#FLUX --job-name=gloopy-leg-3535
 #FLUX -n=2
 #FLUX --queue=shared
 #FLUX -t=480

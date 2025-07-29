@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=frigid-rabbit-3910
+#FLUX --job-name=eccentric-earthworm-0003
 #FLUX -c=4
 #FLUX --queue=gpu
 #FLUX -t=86400

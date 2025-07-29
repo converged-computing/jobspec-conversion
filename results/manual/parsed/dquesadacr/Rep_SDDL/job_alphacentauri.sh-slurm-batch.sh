@@ -7,7 +7,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=120GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=alpha
 
 module --force purge
 mkdir -p V-"$1"_d-"$3"/Data/precip V-"$1"_d-"$3"/models/precip

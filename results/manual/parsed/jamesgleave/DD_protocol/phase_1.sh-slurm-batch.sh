@@ -4,7 +4,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=60
 #SBATCH --mem=0
-#SBATCH --partition=normal
 
 source ~/.bashrc
 conda activate $6

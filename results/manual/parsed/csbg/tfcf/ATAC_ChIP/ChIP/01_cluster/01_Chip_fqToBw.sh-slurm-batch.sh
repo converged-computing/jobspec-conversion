@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=30G
 #SBATCH --time=08:00:00
-#SBATCH --partition=medium
 
 PROJECT_DIR=$1
 RAW_FASTQ_DIR=$PROJECT_DIR"/demux_fastq"

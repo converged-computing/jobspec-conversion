@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=red-nalgas-6949
+#FLUX --job-name=doopy-hope-3383
 #FLUX -c=4
 #FLUX --queue=medium
 #FLUX -t=169200

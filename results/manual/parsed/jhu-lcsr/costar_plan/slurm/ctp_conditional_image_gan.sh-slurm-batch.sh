@@ -8,7 +8,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=8G
 #SBATCH --time=2-00:00:00
-#SBATCH --partition=gpu
 
 export DATASET='ctp_dec'
 export train_image_encoder='false'

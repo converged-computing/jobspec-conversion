@@ -5,7 +5,6 @@
 #SBATCH --ntasks=24
 #SBATCH --cpus-per-task=1
 #SBATCH --time=03:00:00
-#SBATCH --partition=sgpu-testing
 
 ​
 ​module purge

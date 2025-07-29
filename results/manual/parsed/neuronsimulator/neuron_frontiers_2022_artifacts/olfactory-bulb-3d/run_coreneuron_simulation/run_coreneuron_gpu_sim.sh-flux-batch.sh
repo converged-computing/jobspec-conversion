@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=lovely-platanos-6415
+#FLUX --job-name=bloated-despacito-4139
 #FLUX -N=2
 #FLUX -n=16
 #FLUX -c=2
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=prod
 #FLUX -t=28800
 #FLUX --urgency=16

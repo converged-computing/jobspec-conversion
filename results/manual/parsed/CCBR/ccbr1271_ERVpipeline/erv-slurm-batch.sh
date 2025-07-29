@@ -6,7 +6,6 @@
 #SBATCH --gres=lscratch:48
 #SBATCH --mem=40g
 #SBATCH --time=4-00:00:00
-#SBATCH --partition=norm
 
 set -eo pipefail
 module purge

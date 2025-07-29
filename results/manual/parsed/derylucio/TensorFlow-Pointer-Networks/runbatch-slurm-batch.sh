@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:2
 #SBATCH --time=04:30:00
-#SBATCH --partition=k80
 
 source  .env/bin/activate
 module load python/3.5.0

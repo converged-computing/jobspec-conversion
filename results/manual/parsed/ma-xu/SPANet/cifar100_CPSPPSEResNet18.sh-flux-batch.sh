@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-itch-8137
+#FLUX --job-name=misunderstood-peanut-butter-6476
 #FLUX -n=4
 #FLUX --queue=public
 #FLUX -t=1800000

@@ -1,6 +1,6 @@
 #!/bin/bash
 #FLUX --job-name=compare-kripke
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=haswell
 #FLUX -t=7200
 #FLUX --urgency=16

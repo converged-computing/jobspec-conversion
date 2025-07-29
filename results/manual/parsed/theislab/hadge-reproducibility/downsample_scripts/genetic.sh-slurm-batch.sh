@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=100GB
 #SBATCH --time=1-00:00:00
-#SBATCH --partition=cpu_p
 #SBATCH --qos=cpu_normal
 #SBATCH --array=1
 

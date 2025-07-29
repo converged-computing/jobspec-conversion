@@ -1,4 +1,4 @@
 #!/bin/bash
-#FLUX --job-name=eccentric-cherry-2338
+#FLUX --job-name=fuzzy-parsnip-5894
 #FLUX --urgency=16
 

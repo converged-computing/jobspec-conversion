@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem-per-cpu=0
 #SBATCH --time=00:30:00
-#SBATCH --partition=debug
 
 export MODULEPATH='/ssoft/spack/humagne/v1/share/spack/lmod/linux-rhel7-x86_S6g1_Mellanox/intel/18.0.5:$MODULEPATH'
 export INTEL_LICENSE_FILE='/ssoft/spack/external/intel/License:$INTEL_LICENSE_FILE'

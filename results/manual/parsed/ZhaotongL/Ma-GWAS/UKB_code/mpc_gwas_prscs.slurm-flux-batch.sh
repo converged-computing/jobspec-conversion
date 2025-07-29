@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=pusheena-cattywampus-2457
+#FLUX --job-name=expensive-bits-5042
 #FLUX --queue=ram1t,amd2tb,amd512
 #FLUX -t=86400
 #FLUX --urgency=16

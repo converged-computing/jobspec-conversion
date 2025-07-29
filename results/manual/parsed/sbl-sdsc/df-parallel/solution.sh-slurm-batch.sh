@@ -9,7 +9,6 @@
 #SBATCH --gres=1
 #SBATCH --mem=92G
 #SBATCH --time=00:15:00
-#SBATCH --partition=gpu-shared
 #SBATCH --qos=gpu-shared-eot
 #SBATCH --constraint=ntasks-per-node=10
 

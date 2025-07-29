@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --gres=gpu:mi250:1
 #SBATCH --time=01:00:00
-#SBATCH --partition=eap
 
 for p in venv apex; do
     if [ -e "$p" ]; then

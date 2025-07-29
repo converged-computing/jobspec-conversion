@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-pancake-7409
+#FLUX --job-name=confused-pancake-4950
 #FLUX --queue=PA100q
 #FLUX --urgency=16
 

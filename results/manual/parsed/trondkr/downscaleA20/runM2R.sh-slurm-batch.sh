@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
 #SBATCH --time=1-23:00:00
-#SBATCH --partition=bigmem
 #SBATCH --constraint=ntasks-per-node=1
 
 SCRATCH_DIRECTORY=/cluster/projects/nn9412k/A20/DELTA/${SLURM_JOBID}

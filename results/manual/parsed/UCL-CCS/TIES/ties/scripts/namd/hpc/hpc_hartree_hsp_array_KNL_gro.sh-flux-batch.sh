@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=nerdy-mango-5594
+#FLUX --job-name=spicy-lizard-0798
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/UCL-CCS/TIES/ties/scripts/namd/hpc/hpc_hartree_hsp_array_KNL_gro.sh

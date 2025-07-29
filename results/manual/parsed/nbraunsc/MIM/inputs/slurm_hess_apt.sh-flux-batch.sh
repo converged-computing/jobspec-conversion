@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=moolicious-lettuce-3331
-#FLUX: --exclusive
+#FLUX --job-name=misunderstood-frito-9154
+#FLUX --exclusive
 #FLUX --queue=normal_q
 #FLUX -t=21600
 #FLUX --urgency=16

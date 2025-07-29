@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=astute-hope-2814
+#FLUX --job-name=fuzzy-nunchucks-8216
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/shortlab/2016Disoriented/simulation_inputs_outputs/Fig5/Al_100_100/2e-4/Al-case-7.in.pbs

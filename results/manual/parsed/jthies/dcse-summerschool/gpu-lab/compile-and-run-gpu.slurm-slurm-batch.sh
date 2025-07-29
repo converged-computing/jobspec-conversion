@@ -6,7 +6,6 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem=8GB
 #SBATCH --time=00:05:00
-#SBATCH --partition=gpu
 
 module load 2022r2
 module load cuda/11.1.1

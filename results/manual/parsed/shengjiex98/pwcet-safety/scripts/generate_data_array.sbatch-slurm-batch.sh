@@ -9,7 +9,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=8g
 #SBATCH --time=01:00:00
-#SBATCH --partition=general
 #SBATCH --array=1-100%20
 
 echo "SLURM_ARRAY_JOB_ID: $SLURM_ARRAY_JOB_ID."

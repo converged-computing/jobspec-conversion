@@ -10,7 +10,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=20G
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gypsum-titanx
 
 module load cuda11/11.2.1
 python train_multi.py --cfg './src/configs/config_moaiparamdiffusion.yml' 

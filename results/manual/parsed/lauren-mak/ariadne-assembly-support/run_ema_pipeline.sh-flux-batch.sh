@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=sticky-buttface-2996
+#FLUX --job-name=phat-destiny-9735
 #FLUX --queue=panda
 #FLUX --urgency=16
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#FLUX --job-name=misunderstood-snack-8032
-#FLUX: --exclusive
+#FLUX --job-name=reclusive-truffle-5392
+#FLUX --exclusive
 #FLUX --urgency=16
 
 export MAX_STEPS='100'

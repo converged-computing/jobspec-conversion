@@ -1,9 +1,9 @@
 #!/bin/bash
-#FLUX --job-name=scruptious-plant-4977
+#FLUX --job-name=ornery-buttface-4313
 #FLUX -N=4
 #FLUX -n=4
 #FLUX -c=4
-#FLUX: --exclusive
+#FLUX --exclusive
 #FLUX --queue=short
 #FLUX --urgency=16
 

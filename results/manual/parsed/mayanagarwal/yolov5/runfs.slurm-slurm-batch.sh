@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:4
 #SBATCH --time=3-00:00:00
-#SBATCH --partition=gpgpumse
 
 module purge
 module load fosscuda/2019b

@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=blank-butter-2864
+#FLUX --job-name=carnivorous-taco-7697
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/CODARcode/SwiftExamples/auen/run-lib

@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --partition=high
 #SBATCH --constraint=intel
 #SBATCH --chdir=/homedtic/mwon/codes/music-tagging-attention/preprocessing/msd/
 #SBATCH --array=1-20:1

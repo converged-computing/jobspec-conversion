@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=outstanding-peanut-butter-3537
+#FLUX --job-name=reclusive-bits-3905
 #FLUX -c=4
 #FLUX -t=259200
 #FLUX --urgency=16

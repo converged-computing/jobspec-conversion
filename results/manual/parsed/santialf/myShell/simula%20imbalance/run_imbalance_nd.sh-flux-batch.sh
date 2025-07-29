@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=peachy-arm-4516
+#FLUX --job-name=misunderstood-lentil-2996
 #FLUX --queue=milanq
 #FLUX -t=1200
 #FLUX --urgency=16

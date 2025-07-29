@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=conspicuous-pot-2261
+#FLUX --job-name=ornery-cat-8562
 #FLUX -c=16
 #FLUX -t=14400
 #FLUX --urgency=16

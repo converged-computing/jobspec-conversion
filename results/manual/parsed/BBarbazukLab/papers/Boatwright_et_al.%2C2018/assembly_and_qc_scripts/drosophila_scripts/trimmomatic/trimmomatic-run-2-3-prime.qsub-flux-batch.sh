@@ -1,5 +1,5 @@
 #!/bin/bash
-#FLUX --job-name=bricky-fudge-9090
+#FLUX --job-name=creamy-leader-7791
 #FLUX --urgency=16
 
 /workspaces/fractale/jobspec-conversion/data/BBarbazukLab/papers/Boatwright_et_al.%2C2018/assembly_and_qc_scripts/drosophila_scripts/trimmomatic/trimmomatic-run-2-3-prime.qsub
